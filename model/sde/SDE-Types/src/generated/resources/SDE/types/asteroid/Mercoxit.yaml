@@ -1,152 +1,138 @@
 types:
   Compressed Magma Mercoxit:
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546
-    Mass: 1.0000000409184788E35
-    OreBasicType: 11396
-    Radius: 1.0
-    ReprocessingSkillType: 12189
-    RequiredSkill1: 11395
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
     id: 28412
     marketGroup: 530
-    mass: 1.0000000409184788E35
     name: Compressed Magma Mercoxit
+    orebasictype: 11396
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   Compressed Mercoxit:
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546
-    Mass: 1.0000000409184788E35
-    OreBasicType: 11396
-    Radius: 1.0
-    ReprocessingSkillType: 12189
-    RequiredSkill1: 11395
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
     id: 28413
     marketGroup: 530
-    mass: 1.0000000409184788E35
     name: Compressed Mercoxit
+    orebasictype: 11396
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   Compressed Vitreous Mercoxit:
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546
-    Mass: 1.0000000409184788E35
-    OreBasicType: 11396
-    Radius: 1.0
-    ReprocessingSkillType: 12189
-    RequiredSkill1: 11395
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
     id: 28414
     marketGroup: 530
-    mass: 1.0000000409184788E35
     name: Compressed Vitreous Mercoxit
+    orebasictype: 11396
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   Magma Mercoxit:
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28412
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546
-    Mass: 1.0000000409184788E35
-    OreBasicType: 11396
-    Radius: 1.0
-    ReprocessingSkillType: 12189
-    RequiredSkill1: 11395
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 28412
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
     id: 17869
     marketGroup: 530
-    mass: 1.0000000409184788E35
     name: Magma Mercoxit
+    orebasictype: 11396
     packagedVolume: 40.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 40.0
   Mercoxit:
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28413
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546
-    Mass: 1.0000000409184788E35
-    OreBasicType: 11396
-    Radius: 1.0
-    ReprocessingSkillType: 12189
-    RequiredSkill1: 11395
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 28413
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
     id: 11396
     marketGroup: 530
-    mass: 1.0000000409184788E35
     name: Mercoxit
+    orebasictype: 11396
     packagedVolume: 40.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 40.0
   Vitreous Mercoxit:
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28414
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546
-    Mass: 1.0000000409184788E35
-    OreBasicType: 11396
-    Radius: 1.0
-    ReprocessingSkillType: 12189
-    RequiredSkill1: 11395
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 28414
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
     id: 17870
     marketGroup: 530
-    mass: 1.0000000409184788E35
     name: Vitreous Mercoxit
+    orebasictype: 11396
     packagedVolume: 40.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 40.0
   Zuthrine:
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    DamageCloudChance: 0.05000000074505806
-    DamageCloudType: 11546
-    Mass: 1.0000000409184788E35
-    OreBasicType: 11396
-    Radius: 1.0
-    ReprocessingSkillType: 12189
-    RequiredSkill1: 11395
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    damagecloudchance: 0.05000000074505806
+    damagecloudtype: 11546
     id: 28626
-    mass: 1.0000000409184788E35
     name: Zuthrine
+    orebasictype: 11396
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12189
+    requiredskill1: 11395
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 40.0

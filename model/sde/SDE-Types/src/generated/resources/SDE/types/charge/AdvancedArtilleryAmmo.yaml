@@ -1,209 +1,193 @@
 types:
   Quake L:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.25
-    ExplosiveDamage: 36.0
-    KineticDamage: 20.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12203
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 1.25
-    WeaponRangeMultiplier: 0.25
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 3
+    entityflyrangemultiplier: 0.25
+    explosivedamage: 36.0
     id: 12761
+    kineticdamage: 20.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 854
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Quake L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
     published: true
+    radius: 1.0
+    requiredskill1: 12203
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.25
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.25
   Quake M:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.25
-    ExplosiveDamage: 18.0
-    KineticDamage: 10.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12202
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 1.25
-    WeaponRangeMultiplier: 0.25
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 2
+    entityflyrangemultiplier: 0.25
+    explosivedamage: 18.0
     id: 12767
+    kineticdamage: 10.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 855
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Quake M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
     published: true
+    radius: 1.0
+    requiredskill1: 12202
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.25
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.25
   Quake S:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.25
-    ExplosiveDamage: 9.0
-    KineticDamage: 5.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12201
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 1.25
-    WeaponRangeMultiplier: 0.25
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 1
+    entityflyrangemultiplier: 0.25
+    explosivedamage: 9.0
     id: 12631
+    kineticdamage: 5.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 856
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Quake S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
     published: true
+    radius: 1.0
+    requiredskill1: 12201
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.25
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.25
   Quake XL:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.25
-    ExplosiveDamage: 72.0
-    KineticDamage: 40.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 1.0
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    Radius: 10.0
-    RequiredSkill1: 41404
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 1.25
-    WeaponRangeMultiplier: 0.25
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 4
+    entityflyrangemultiplier: 0.25
+    explosivedamage: 72.0
     id: 41320
+    kineticdamage: 40.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 2252
-    mass: 1.0
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Quake XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    requiredskill1: 41404
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 1.25
     volume: 0.125
+    weaponrangemultiplier: 0.25
   Tremor L:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.7999999523162842
-    ExplosiveDamage: 20.0
-    KineticDamage: 12.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12203
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.25
-    WeaponRangeMultiplier: 1.7999999523162842
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 3
+    entityflyrangemultiplier: 1.7999999523162842
+    explosivedamage: 20.0
     id: 12765
+    kineticdamage: 12.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 854
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Tremor L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
     published: true
+    radius: 1.0
+    requiredskill1: 12203
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.25
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.7999999523162842
   Tremor M:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.7999999523162842
-    ExplosiveDamage: 10.0
-    KineticDamage: 6.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12202
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.25
-    WeaponRangeMultiplier: 1.7999999523162842
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 2
+    entityflyrangemultiplier: 1.7999999523162842
+    explosivedamage: 10.0
     id: 12771
+    kineticdamage: 6.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 855
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Tremor M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
     published: true
+    radius: 1.0
+    requiredskill1: 12202
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.25
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.7999999523162842
   Tremor S:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.7999999523162842
-    ExplosiveDamage: 5.0
-    KineticDamage: 3.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12201
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.25
-    WeaponRangeMultiplier: 1.7999999523162842
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 1
+    entityflyrangemultiplier: 1.7999999523162842
+    explosivedamage: 5.0
     id: 12633
+    kineticdamage: 3.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 856
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Tremor S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
     published: true
+    radius: 1.0
+    requiredskill1: 12201
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.25
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.7999999523162842
   Tremor XL:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.7999999523162842
-    ExplosiveDamage: 40.0
-    KineticDamage: 24.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 1.0
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    Radius: 10.0
-    RequiredSkill1: 41404
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.25
-    WeaponRangeMultiplier: 1.7999999523162842
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 4
+    entityflyrangemultiplier: 1.7999999523162842
+    explosivedamage: 40.0
     id: 41318
+    kineticdamage: 24.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 2252
-    mass: 1.0
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Tremor XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    requiredskill1: 41404
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.25
     volume: 0.125
+    weaponrangemultiplier: 1.7999999523162842

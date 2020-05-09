@@ -1,217 +1,201 @@
 types:
   Capital Remote Hull Repairer I:
-    CapacitorNeed: 1800.0
-    Cpu: 100.0
-    Duration: 12000.0
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    Mass: 20.0
-    MaxRange: 15000.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 100000
-    Radius: 1.0
-    RequiredSkill1: 27936
-    RequiredSkill1Level: 1
-    RequiredSkill2: 27902
-    RequiredSkill2Level: 5
-    RequiredThermoDynamicsSkill: 1
-    StructureDamageAmount: 360
-    TechLevel: 1
+    capacitorneed: 1800.0
+    cpu: 100.0
+    duration: 12000.0
+    falloffeffectiveness: 8000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
     id: 27934
     marketGroup: 1063
-    mass: 20.0
+    maxrange: 15000.0
     name: Capital Remote Hull Repairer I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 100000
     published: true
+    radius: 1.0
+    requiredskill1: 27936
+    requiredskill1level: 1
+    requiredskill2: 27902
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    structuredamageamount: 360
+    techlevel: 1
     volume: 4000.0
   Capital Remote Hull Repairer II:
-    CapacitorNeed: 1980.0
-    Cpu: 110.0
-    Duration: 12000.0
-    FalloffEffectiveness: 9600
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    Mass: 20.0
-    MaxRange: 18000.0
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 110000
-    Radius: 1.0
-    RequiredSkill1: 27936
-    RequiredSkill1Level: 1
-    RequiredSkill2: 27902
-    RequiredSkill2Level: 5
-    RequiredThermoDynamicsSkill: 1
-    StructureDamageAmount: 430
-    TechLevel: 2
+    capacitorneed: 1980.0
+    cpu: 110.0
+    duration: 12000.0
+    falloffeffectiveness: 9600
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
     id: 41475
     marketGroup: 1063
-    mass: 20.0
+    maxrange: 18000.0
+    metalevel: 5
     name: Capital Remote Hull Repairer II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 110000
     published: true
+    radius: 1.0
+    requiredskill1: 27936
+    requiredskill1level: 1
+    requiredskill2: 27902
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    structuredamageamount: 430
+    techlevel: 2
     volume: 4000.0
   Large Remote Hull Repairer I:
-    CapacitorNeed: 488.0
-    Cpu: 90.0
-    Duration: 6000.0
-    FalloffEffectiveness: 7000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    Mass: 20.0
-    MaxRange: 12000.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 380
-    Radius: 1.0
-    RequiredSkill1: 27902
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    StructureDamageAmount: 192
-    TechLevel: 1
+    capacitorneed: 488.0
+    cpu: 90.0
+    duration: 6000.0
+    falloffeffectiveness: 7000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
     id: 27904
     marketGroup: 1062
-    mass: 20.0
+    maxrange: 12000.0
     name: Large Remote Hull Repairer I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
+    power: 380
     published: true
+    radius: 1.0
+    requiredskill1: 27902
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    structuredamageamount: 192
+    techlevel: 1
     volume: 50.0
   Large Remote Hull Repairer II:
-    CapacitorNeed: 488.0
-    Cpu: 99.0
-    Duration: 6000.0
-    FalloffEffectiveness: 8400
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    Mass: 20.0
-    MaxRange: 14400.0
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 399
-    Radius: 1.0
-    RequiredSkill1: 27902
-    RequiredSkill1Level: 5
-    RequiredThermoDynamicsSkill: 1
-    StructureDamageAmount: 230
-    TechLevel: 2
+    capacitorneed: 488.0
+    cpu: 99.0
+    duration: 6000.0
+    falloffeffectiveness: 8400
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
     id: 3986
     marketGroup: 1062
-    mass: 20.0
+    maxrange: 14400.0
+    metalevel: 5
     name: Large Remote Hull Repairer II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
+    power: 399
     published: true
+    radius: 1.0
+    requiredskill1: 27902
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    structuredamageamount: 230
+    techlevel: 2
     volume: 50.0
   Medium Remote Hull Repairer I:
-    CapacitorNeed: 244.0
-    Cpu: 68.0
-    Duration: 6000.0
-    FalloffEffectiveness: 5000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    Mass: 20.0
-    MaxRange: 8750.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 115
-    Radius: 1.0
-    RequiredSkill1: 27902
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    StructureDamageAmount: 96
-    TechLevel: 1
+    capacitorneed: 244.0
+    cpu: 68.0
+    duration: 6000.0
+    falloffeffectiveness: 5000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
     id: 27930
     marketGroup: 1061
-    mass: 20.0
+    maxrange: 8750.0
     name: Medium Remote Hull Repairer I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 115
     published: true
+    radius: 1.0
+    requiredskill1: 27902
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    structuredamageamount: 96
+    techlevel: 1
     volume: 10.0
   Medium Remote Hull Repairer II:
-    CapacitorNeed: 244.0
-    Cpu: 75.0
-    Duration: 6000.0
-    FalloffEffectiveness: 6000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    Mass: 20.0
-    MaxRange: 10500.0
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 121
-    Radius: 1.0
-    RequiredSkill1: 27902
-    RequiredSkill1Level: 5
-    RequiredThermoDynamicsSkill: 1
-    StructureDamageAmount: 115
-    TechLevel: 2
+    capacitorneed: 244.0
+    cpu: 75.0
+    duration: 6000.0
+    falloffeffectiveness: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
     id: 4296
     marketGroup: 1061
-    mass: 20.0
+    maxrange: 10500.0
+    metalevel: 5
     name: Medium Remote Hull Repairer II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 121
     published: true
+    radius: 1.0
+    requiredskill1: 27902
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    structuredamageamount: 115
+    techlevel: 2
     volume: 10.0
   Small Remote Hull Repairer I:
-    CapacitorNeed: 122.0
-    Cpu: 45.0
-    Duration: 6000.0
-    FalloffEffectiveness: 5000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    Mass: 20.0
-    MaxRange: 7000.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 6
-    Radius: 1.0
-    RequiredSkill1: 27902
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    StructureDamageAmount: 48
-    TechLevel: 1
+    capacitorneed: 122.0
+    cpu: 45.0
+    duration: 6000.0
+    falloffeffectiveness: 5000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
     id: 27932
     marketGroup: 1060
-    mass: 20.0
+    maxrange: 7000.0
     name: Small Remote Hull Repairer I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 6
     published: true
+    radius: 1.0
+    requiredskill1: 27902
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    structuredamageamount: 48
+    techlevel: 1
     volume: 5.0
   Small Remote Hull Repairer II:
-    CapacitorNeed: 122.0
-    Cpu: 50.0
-    Duration: 6000.0
-    FalloffEffectiveness: 6000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.0
-    Hp: 40.0
-    Mass: 20.0
-    MaxRange: 8400.0
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 6
-    Radius: 1.0
-    RequiredSkill1: 27902
-    RequiredSkill1Level: 5
-    RequiredThermoDynamicsSkill: 1
-    StructureDamageAmount: 58
-    TechLevel: 2
+    capacitorneed: 122.0
+    cpu: 50.0
+    duration: 6000.0
+    falloffeffectiveness: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.0
+    hp: 40.0
     id: 4299
     marketGroup: 1060
-    mass: 20.0
+    maxrange: 8400.0
+    metalevel: 5
     name: Small Remote Hull Repairer II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 6
     published: true
+    radius: 1.0
+    requiredskill1: 27902
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    structuredamageamount: 58
+    techlevel: 2
     volume: 5.0

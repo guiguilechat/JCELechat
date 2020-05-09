@@ -1,15 +1,33 @@
 package fr.guiguilechat.jcelechat.model.sde.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeedHidden;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MassBonusPercentageBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeHidden;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedBoostFactorBonusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactorBonusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,70 +40,70 @@ public class WarpDisruptionScript
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CapNeedBonus;
+    public int capneedbonus;
     /**
      * capacitorNeedHidden
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CapacitorNeedHidden;
+    public int capacitorneedhidden;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowInEmpireSpace;
+    public int disallowinempirespace;
     /**
      * Bonus to duration.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DurationBonus;
+    public int durationbonus;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int launchergroup;
     /**
      * Bonus to massBonusPercentage
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MassBonusPercentageBonus;
+    public int massbonuspercentagebonus;
     /**
      * maxRangeHidden
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxRangeHidden;
+    public int maxrangehidden;
     /**
      * Bonus to signatureRadiusBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SignatureRadiusBonusBonus;
+    public int signatureradiusbonusbonus;
     /**
      * Modification of Afterburner and Microwarpdrive Thrust Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SpeedBoostFactorBonusBonus;
+    public int speedboostfactorbonusbonus;
     /**
      * Modification of Afterburner and Microwarpdrive Max Velocity Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SpeedFactorBonusBonus;
+    public int speedfactorbonusbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -93,14 +111,15 @@ public class WarpDisruptionScript
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Warp Scramble Range Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleRangeBonus;
+    public int warpscramblerangebonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, MaxRangeHidden.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, CapacitorNeedHidden.INSTANCE, LauncherGroup.INSTANCE, SignatureRadiusBonusBonus.INSTANCE, MassBonusPercentageBonus.INSTANCE, SpeedBoostFactorBonusBonus.INSTANCE, SpeedFactorBonusBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE, DisallowInEmpireSpace.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final WarpDisruptionScript.MetaGroup METAGROUP = new WarpDisruptionScript.MetaGroup();
 
     @Override
@@ -108,57 +127,62 @@ public class WarpDisruptionScript
         switch (attribute.getId()) {
             case  317 :
             {
-                return CapNeedBonus;
+                return capneedbonus;
             }
             case  1319 :
             {
-                return CapacitorNeedHidden;
+                return capacitorneedhidden;
             }
             case  1074 :
             {
-                return DisallowInEmpireSpace;
+                return disallowinempirespace;
             }
             case  66 :
             {
-                return DurationBonus;
+                return durationbonus;
             }
             case  137 :
             {
-                return LauncherGroup;
+                return launchergroup;
             }
             case  1324 :
             {
-                return MassBonusPercentageBonus;
+                return massbonuspercentagebonus;
             }
             case  1317 :
             {
-                return MaxRangeHidden;
+                return maxrangehidden;
             }
             case  1227 :
             {
-                return SignatureRadiusBonusBonus;
+                return signatureradiusbonusbonus;
             }
             case  1325 :
             {
-                return SpeedBoostFactorBonusBonus;
+                return speedboostfactorbonusbonus;
             }
             case  1326 :
             {
-                return SpeedFactorBonusBonus;
+                return speedfactorbonusbonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  1327 :
             {
-                return WarpScrambleRangeBonus;
+                return warpscramblerangebonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

@@ -1,291 +1,291 @@
 types:
   Advanced Logistics Network Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34865
+    industryblueprintrank: 200.0
     marketGroup: 2017
     name: Advanced Logistics Network Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Cynosural Navigation Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34866
+    industryblueprintrank: 200.0
     marketGroup: 2017
     name: Cynosural Navigation Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Cynosural Suppression Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34867
+    industryblueprintrank: 200.0
     marketGroup: 2017
     name: Cynosural Suppression Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Entrapment Array 1 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34869
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Entrapment Array 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Entrapment Array 2 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34841
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Entrapment Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Entrapment Array 3 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34842
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Entrapment Array 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Entrapment Array 4 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34843
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Entrapment Array 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Entrapment Array 5 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34844
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Entrapment Array 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Ore Prospecting Array 1 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34855
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Ore Prospecting Array 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Ore Prospecting Array 2 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34856
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Ore Prospecting Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Ore Prospecting Array 3 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34857
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Ore Prospecting Array 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Ore Prospecting Array 4 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34858
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Ore Prospecting Array 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Ore Prospecting Array 5 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34859
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Ore Prospecting Array 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Pirate Detection Array 1 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34845
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Pirate Detection Array 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Pirate Detection Array 2 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34846
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Pirate Detection Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Pirate Detection Array 3 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34847
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Pirate Detection Array 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Pirate Detection Array 4 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34848
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Pirate Detection Array 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Pirate Detection Array 5 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34849
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Pirate Detection Array 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Quantum Flux Generator 1 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34850
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Quantum Flux Generator 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Quantum Flux Generator 2 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34851
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Quantum Flux Generator 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Quantum Flux Generator 3 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34852
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Quantum Flux Generator 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Quantum Flux Generator 4 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34853
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Quantum Flux Generator 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Quantum Flux Generator 5 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34854
+    industryblueprintrank: 200.0
     marketGroup: 2016
     name: Quantum Flux Generator 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Supercapital Construction Facilities Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34868
+    industryblueprintrank: 200.0
     marketGroup: 2017
     name: Supercapital Construction Facilities Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Survey Networks 1 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34860
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Survey Networks 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Survey Networks 2 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34861
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Survey Networks 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Survey Networks 3 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34862
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Survey Networks 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Survey Networks 4 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34863
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Survey Networks 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Survey Networks 5 Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 34864
+    industryblueprintrank: 200.0
     marketGroup: 2014
     name: Survey Networks 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

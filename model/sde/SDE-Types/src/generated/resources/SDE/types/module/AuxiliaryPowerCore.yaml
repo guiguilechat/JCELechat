@@ -1,82 +1,82 @@
 types:
   Micro Auxiliary Power Core I:
-    Cpu: 15.0
-    Hp: 40.0
-    PowerIncrease: 10
-    Radius: 1.0
-    RequiredSkill1: 3418
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    cpu: 15.0
+    hp: 40.0
     id: 11563
     marketGroup: 660
     name: Micro Auxiliary Power Core I
     packagedVolume: 20.0
     portionSize: 1
+    powerincrease: 10
     published: true
+    radius: 1.0
+    requiredskill1: 3418
+    requiredskill1level: 2
+    techlevel: 1
     volume: 20.0
   Micro Auxiliary Power Core II:
-    Cpu: 18.0
-    Hp: 40.0
-    MetaLevel: 5
-    PowerIncrease: 12
-    Radius: 1.0
-    RequiredSkill1: 3418
-    RequiredSkill1Level: 5
-    TechLevel: 2
+    cpu: 18.0
+    hp: 40.0
     id: 4254
     marketGroup: 660
+    metalevel: 5
     name: Micro Auxiliary Power Core II
     packagedVolume: 20.0
     portionSize: 1
+    powerincrease: 12
     published: true
+    radius: 1.0
+    requiredskill1: 3418
+    requiredskill1level: 5
+    techlevel: 2
     volume: 20.0
   Navy Micro Auxiliary Power Core:
-    Cpu: 18.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerIncrease: 13
-    Radius: 1.0
-    RequiredSkill1: 3418
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    cpu: 18.0
+    hp: 40.0
     id: 31936
     marketGroup: 660
+    metagroupid: 4
+    metalevel: 8
     name: Navy Micro Auxiliary Power Core
     packagedVolume: 20.0
     portionSize: 1
+    powerincrease: 13
     published: true
+    radius: 1.0
+    requiredskill1: 3418
+    requiredskill1level: 2
+    techlevel: 1
     volume: 20.0
   Thukker Micro Auxiliary Power Core:
-    Cpu: 12.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerIncrease: 12
-    Radius: 1.0
-    RequiredSkill1: 3418
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    cpu: 12.0
+    hp: 40.0
     id: 28740
     marketGroup: 660
+    metagroupid: 4
+    metalevel: 8
     name: Thukker Micro Auxiliary Power Core
     packagedVolume: 5.0
     portionSize: 1
+    powerincrease: 12
     published: true
+    radius: 1.0
+    requiredskill1: 3418
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Vigor Compact Micro Auxiliary Power Core:
-    Cpu: 12.0
-    Hp: 40.0
-    MetaLevel: 1
-    PowerIncrease: 11
-    Radius: 1.0
-    RequiredSkill1: 3418
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    cpu: 12.0
+    hp: 40.0
     id: 16537
     marketGroup: 660
+    metalevel: 1
     name: Vigor Compact Micro Auxiliary Power Core
     packagedVolume: 5.0
     portionSize: 1
+    powerincrease: 11
     published: true
+    radius: 1.0
+    requiredskill1: 3418
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0

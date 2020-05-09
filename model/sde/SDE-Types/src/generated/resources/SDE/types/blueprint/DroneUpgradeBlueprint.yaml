@@ -1,124 +1,124 @@
 types:
   Drone Link Augmentor I Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23528
+    industryblueprintrank: 9.0
     marketGroup: 939
     name: Drone Link Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Drone Link Augmentor II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    Radius: 1.0
-    TechLevel: 2
     id: 24428
+    industryblueprintrank: 23.399999618530273
     name: Drone Link Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Drone Navigation Computer I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 24396
+    industryblueprintrank: 6.0
     marketGroup: 939
     name: Drone Navigation Computer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Drone Navigation Computer II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 24418
+    industryblueprintrank: 15.600000381469727
     name: Drone Navigation Computer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Fighter Support Unit I Blueprint:
-    IndustryBlueprintRank: 120.0
-    Radius: 1.0
-    TechLevel: 1
     id: 24284
+    industryblueprintrank: 120.0
     marketGroup: 939
     name: Fighter Support Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Fighter Support Unit II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41416
     name: Fighter Support Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Hermes Compact Fighter Support Unit Blueprint:
-    TechLevel: 1
     id: 41413
     marketGroup: 939
     name: Hermes Compact Fighter Support Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Omnidirectional Tracking Enhancer I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 33823
+    industryblueprintrank: 3.0
     marketGroup: 939
     name: Omnidirectional Tracking Enhancer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Omnidirectional Tracking Enhancer II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 33825
+    industryblueprintrank: 7.800000190734863
     name: Omnidirectional Tracking Enhancer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Omnidirectional Tracking Link I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23534
+    industryblueprintrank: 6.0
     marketGroup: 939
     name: Omnidirectional Tracking Link I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Omnidirectional Tracking Link II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 24439
+    industryblueprintrank: 15.600000381469727
     name: Omnidirectional Tracking Link II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Sentient Fighter Support Unit Blueprint:
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
     id: 41418
+    metagroupid: 4
     name: Sentient Fighter Support Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582

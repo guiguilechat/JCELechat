@@ -64,12 +64,12 @@ public class ShipMaxSpeed {
 
 		List<ShipEval> evals = new ArrayList<>();
 		for (Ship s : ships) {
-			double pwr = s.PowerOutput * 1.25;
+			double pwr = s.poweroutput * 1.25;
 			int microAux = 0, reactors = 0;
 
 			// 118 is when one ancil rig gives 135 power. that's because overdrive are
 			// better than auxiliaries for speed.
-			for (int i = 0; i < s.LowSlots && pwr <= 118; i++) {
+			for (int i = 0; i < s.lowslots && pwr <= 118; i++) {
 				if (pwr < 104.8387) {
 					// add a navy micro auxiliary
 					pwr += 16.25;
@@ -81,12 +81,12 @@ public class ShipMaxSpeed {
 				}
 			}
 			int ancilRig = 0;
-			for (int i = 0; i < (s.TechLevel == 2 ? 2 : 3) && pwr < 135; i++) {
-				if (ancilRig * 150 + 150 <= s.UpgradeCapacity) {
+			for (int i = 0; i < (s.techlevel == 2 ? 2 : 3) && pwr < 135; i++) {
+				if (ancilRig * 150 + 150 <= s.upgradecapacity) {
 					// we can fit a T2
 					pwr *= 1.15;
 					ancilRig++;
-				} else if (ancilRig * 150 + 100 <= s.UpgradeCapacity) {
+				} else if (ancilRig * 150 + 100 <= s.upgradecapacity) {
 					// we can fit a T1
 					pwr *= 1.1;
 					ancilRig++;
@@ -97,14 +97,14 @@ public class ShipMaxSpeed {
 				// max");
 				continue;
 			}
-			double speed = s.MaxVelocity * 1.25 * 7.375 * 15000000 / (s.mass + 5000000);
+			double speed = s.maxvelocity * 1.25 * 7.375 * 15000000 / (s.mass + 5000000);
 			int overdrives = 0;
-			for (int i = microAux + reactors; i < s.LowSlots; i++) {
+			for (int i = microAux + reactors; i < s.lowslots; i++) {
 				speed *= overdriveMultPerStacking[overdrives];
 				overdrives++;
 			}
 			int auxils = 0;
-			for (int i = ancilRig; i < (s.TechLevel == 2 ? 2 : 3); i++) {
+			for (int i = ancilRig; i < (s.techlevel == 2 ? 2 : 3); i++) {
 				// actually we may only be able to fit a T1
 				speed *= auxilMultPerStacking[overdrives + auxils];
 				auxils++;

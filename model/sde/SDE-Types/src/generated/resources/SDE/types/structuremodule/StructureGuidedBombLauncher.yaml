@@ -1,62 +1,58 @@
 types:
   Standup Guided Bomb Launcher I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Capacity: 1000.0
-    ChargeGroup1: 1548
-    ChargeRate: 1
-    Cpu: 3000.0
-    DeadspaceUnsafe: 2
-    DisallowInHighSec: 1
-    Hp: 40.0
-    Mass: 1000.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 275000
-    Radius: 1.0
-    ReloadTime: 10000.0
-    Slots: 1
-    Speed: 60000.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacity: 1000.0
+    chargegroup1: 1548
+    chargerate: 1
+    cpu: 3000.0
+    deadspaceunsafe: 2
+    disallowinhighsec: 1
+    hp: 40.0
     id: 35923
     marketGroup: 2229
-    mass: 1000.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
     name: Standup Guided Bomb Launcher I
+    onlinemaxsecurityclass: 1
     packagedVolume: 8000.0
     portionSize: 1
+    power: 275000
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    slots: 1
+    speed: 60000.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 8000.0
   Standup Guided Bomb Launcher II:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Capacity: 1300.0
-    ChargeGroup1: 1548
-    ChargeRate: 1
-    Cpu: 3600.0
-    DeadspaceUnsafe: 2
-    DisallowInHighSec: 1
-    Hp: 40.0
-    Mass: 1000.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MetaLevel: 5
-    OnlineMaxSecurityClass: 1
-    Power: 330000
-    Radius: 1.0
-    ReloadTime: 10000.0
-    Slots: 1
-    Speed: 48000.0
-    StructureItemVisualFlag: 1
-    TechLevel: 2
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacity: 1300.0
+    chargegroup1: 1548
+    chargerate: 1
+    cpu: 3600.0
+    deadspaceunsafe: 2
+    disallowinhighsec: 1
+    hp: 40.0
     id: 47325
     marketGroup: 2229
-    mass: 1000.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metalevel: 5
     name: Standup Guided Bomb Launcher II
+    onlinemaxsecurityclass: 1
     packagedVolume: 8000.0
     portionSize: 1
+    power: 330000
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    slots: 1
+    speed: 48000.0
+    structureitemvisualflag: 1
+    techlevel: 2
     volume: 8000.0

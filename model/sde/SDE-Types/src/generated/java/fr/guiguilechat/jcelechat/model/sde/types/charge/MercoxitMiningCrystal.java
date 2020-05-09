@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,27 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CrystalVolatilityChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CrystalVolatilityDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CrystalsGetDamaged;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialisationAsteroidGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialisationAsteroidYieldMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UnfitCapCost;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,63 +47,63 @@ public class MercoxitMiningCrystal
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CapNeedBonus;
+    public int capneedbonus;
     /**
      * The size of the charges that can fit in the turret/whatever.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeSize;
+    public int chargesize;
     /**
      * The chance of damage to the crystal each time it is used.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CrystalVolatilityChance;
+    public double crystalvolatilitychance;
     /**
      * The amount of damage done if the crystal is damaged in the process of using it.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CrystalVolatilityDamage;
+    public double crystalvolatilitydamage;
     /**
      * Whether this tool causes damage to crystals with each use of them.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CrystalsGetDamaged;
+    public int crystalsgetdamaged;
     /**
      * current structure damage dealt to module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Damage;
+    public int damage;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int launchergroup;
     /**
      * The main color of a ship type.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MainColor;
+    public int maincolor;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -87,49 +111,49 @@ public class MercoxitMiningCrystal
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * The group at which the mining crystal is tuned to mine.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SpecialisationAsteroidGroup;
+    public int specialisationasteroidgroup;
     /**
      * The amount the yield is modified when mining the asteroid group this crystal is tuned for.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SpecialisationAsteroidYieldMultiplier;
+    public double specialisationasteroidyieldmultiplier;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -137,14 +161,15 @@ public class MercoxitMiningCrystal
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * The capacitor charge required to disengage this crystal from the unit it is installed in.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UnfitCapCost;
+    public int unfitcapcost;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpecialisationAsteroidGroup.INSTANCE, SpecialisationAsteroidYieldMultiplier.INSTANCE, CrystalVolatilityChance.INSTANCE, CrystalVolatilityDamage.INSTANCE, UnfitCapCost.INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevel.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final MercoxitMiningCrystal.MetaGroup METAGROUP = new MercoxitMiningCrystal.MetaGroup();
 
     @Override
@@ -152,81 +177,86 @@ public class MercoxitMiningCrystal
         switch (attribute.getId()) {
             case  317 :
             {
-                return CapNeedBonus;
+                return capneedbonus;
             }
             case  128 :
             {
-                return ChargeSize;
+                return chargesize;
             }
             case  783 :
             {
-                return CrystalVolatilityChance;
+                return crystalvolatilitychance;
             }
             case  784 :
             {
-                return CrystalVolatilityDamage;
+                return crystalvolatilitydamage;
             }
             case  786 :
             {
-                return CrystalsGetDamaged;
+                return crystalsgetdamaged;
             }
             case  3 :
             {
-                return Damage;
+                return damage;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  137 :
             {
-                return LauncherGroup;
+                return launchergroup;
             }
             case  124 :
             {
-                return MainColor;
+                return maincolor;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  781 :
             {
-                return SpecialisationAsteroidGroup;
+                return specialisationasteroidgroup;
             }
             case  782 :
             {
-                return SpecialisationAsteroidYieldMultiplier;
+                return specialisationasteroidyieldmultiplier;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  785 :
             {
-                return UnfitCapCost;
+                return unfitcapcost;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

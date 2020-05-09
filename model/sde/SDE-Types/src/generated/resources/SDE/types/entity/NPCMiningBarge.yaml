@@ -1,45 +1,43 @@
 types:
   ♦ Retriever:
-    ArmorEmDamageResonance: 0.3499999940395355
-    ArmorExplosiveDamageResonance: 0.7875000238418579
-    ArmorHP: 2125.0
-    ArmorKineticDamageResonance: 0.65625
-    ArmorThermalDamageResonance: 0.5687500238418579
-    BehaviorMiningAmount: 307
-    BehaviorMiningDischarge: 180
-    BehaviorMiningDuration: 162000
-    BehaviorMiningMaxRange: 15000
-    CapacitorCapacity: 313.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityFactionLoss: 0.007000000216066837
-    EntityKillBounty: 150000
-    EntityOverviewShipGroupId: 25
-    GfxBoosterID: 397
-    GfxTurretID: 17482
-    Hp: 2500.0
-    Mass: 2.0E7
-    MaxLockedTargets: 5
-    MaxTargetRange: 37500.0
-    MaxVelocity: 100.0
-    Radius: 202.0
-    RechargeRate: 140625.0
-    ScanMagnetometricStrength: 10.800000190734863
-    ScanResolution: 688.0
-    ScanSpeed: 1500
-    ShieldCapacity: 6084.0
-    ShieldEmDamageResonance: 0.8999999761581421
-    ShieldExplosiveDamageResonance: 0.44999998807907104
-    ShieldKineticDamageResonance: 0.5400000214576721
-    ShieldRechargeRate: 1125000.0
-    ShieldThermalDamageResonance: 0.7200000286102295
-    ShieldUniformity: 0.75
-    SignatureRadius: 281.0
-    StructureUniformity: 1.0
+    armoremdamageresonance: 0.3499999940395355
+    armorexplosivedamageresonance: 0.7875000238418579
+    armorhp: 2125.0
+    armorkineticdamageresonance: 0.65625
+    armorthermaldamageresonance: 0.5687500238418579
+    behaviorminingamount: 307
+    behaviorminingdischarge: 180
+    behaviorminingduration: 162000
+    behaviorminingmaxrange: 15000
+    capacitorcapacity: 313.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityfactionloss: 0.007000000216066837
+    entitykillbounty: 150000
+    entityoverviewshipgroupid: 25
+    gfxboosterid: 397
+    gfxturretid: 17482
+    hp: 2500.0
     id: 42534
-    mass: 2.0E7
+    maxlockedtargets: 5
+    maxtargetrange: 37500.0
+    maxvelocity: 100.0
     name: ♦ Retriever
     packagedVolume: 150000.0
     portionSize: 1
     published: false
+    radius: 202.0
+    rechargerate: 140625.0
+    scanmagnetometricstrength: 10.800000190734863
+    scanresolution: 688.0
+    scanspeed: 1500
+    shieldcapacity: 6084.0
+    shieldemdamageresonance: 0.8999999761581421
+    shieldexplosivedamageresonance: 0.44999998807907104
+    shieldkineticdamageresonance: 0.5400000214576721
+    shieldrechargerate: 1125000.0
+    shieldthermaldamageresonance: 0.7200000286102295
+    shielduniformity: 0.75
+    signatureradius: 281.0
+    structureuniformity: 1.0
     volume: 150000.0

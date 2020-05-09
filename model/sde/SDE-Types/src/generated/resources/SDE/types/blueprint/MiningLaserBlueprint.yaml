@@ -1,91 +1,91 @@
 types:
   '''Wild'' Miner I Blueprint':
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 22924
+    industryblueprintrank: 3.0
     name: '''Wild'' Miner I Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Deep Core Mining Laser I Blueprint:
-    IndustryBlueprintRank: 7.0
-    Radius: 1.0
-    TechLevel: 1
     id: 12109
+    industryblueprintrank: 7.0
     marketGroup: 338
     name: Deep Core Mining Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Gas Cloud Harvester I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 25267
+    industryblueprintrank: 3.0
     marketGroup: 338
     name: Gas Cloud Harvester I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Gas Cloud Harvester II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 25813
+    industryblueprintrank: 7.800000190734863
     name: Gas Cloud Harvester II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Ice Mining Laser I Blueprint:
-    TechLevel: 1
     id: 38660
     marketGroup: 338
     name: Ice Mining Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Ice Mining Laser II Blueprint:
-    TechLevel: 1
     id: 38661
     name: Ice Mining Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Miner I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 785
+    industryblueprintrank: 3.0
     marketGroup: 338
     name: Miner I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Miner II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 784
+    industryblueprintrank: 7.800000190734863
     name: Miner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Modulated Deep Core Miner II Blueprint:
-    IndustryBlueprintRank: 18.200000762939453
-    Radius: 1.0
-    TechLevel: 2
     id: 18069
+    industryblueprintrank: 18.200000762939453
     name: Modulated Deep Core Miner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

@@ -1,172 +1,156 @@
 types:
   '''Basic'' Reinforced Bulkheads':
-    AgilityMultiplier: 1.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Cpu: 15.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.100000023841858
-    TechLevel: 1
+    agilitymultiplier: 1.0
+    cargocapacitymultiplier: 0.949999988079071
+    cpu: 15.0
+    hp: 40.0
     id: 1240
     marketGroup: 1195
-    mass: 200.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Basic'' Reinforced Bulkheads'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 3392
+    requiredskill1level: 1
+    structurehpmultiplier: 1.100000023841858
+    techlevel: 1
     volume: 5.0
   Mark I Compact Reinforced Bulkheads:
-    AgilityMultiplier: 3.0
-    CargoCapacityMultiplier: 0.9300000071525574
-    Cpu: 25.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.1799999475479126
-    TechLevel: 1
+    agilitymultiplier: 3.0
+    cargocapacitymultiplier: 0.9300000071525574
+    cpu: 25.0
+    hp: 40.0
     id: 5649
     marketGroup: 1195
-    mass: 200.0
+    metalevel: 1
     name: Mark I Compact Reinforced Bulkheads
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 1.1799999475479126
+    techlevel: 1
     volume: 5.0
   ORE Reinforced Bulkheads:
-    AgilityMultiplier: 4.0
-    CargoCapacityMultiplier: 0.9399999976158142
-    Cpu: 35.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.2699999809265137
-    TechLevel: 1
+    agilitymultiplier: 4.0
+    cargocapacitymultiplier: 0.9399999976158142
+    cpu: 35.0
+    hp: 40.0
     id: 34485
     marketGroup: 1195
-    mass: 200.0
+    metagroupid: 4
+    metalevel: 8
     name: ORE Reinforced Bulkheads
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 1.2699999809265137
+    techlevel: 1
     volume: 5.0
   Reinforced Bulkheads I:
-    AgilityMultiplier: 3.0
-    CargoCapacityMultiplier: 0.8999999761581421
-    Cpu: 35.0
-    Hp: 40.0
-    Mass: 200.0
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.149999976158142
-    TechLevel: 1
+    agilitymultiplier: 3.0
+    cargocapacitymultiplier: 0.8999999761581421
+    cpu: 35.0
+    hp: 40.0
     id: 1333
     marketGroup: 1195
-    mass: 200.0
     name: Reinforced Bulkheads I
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 1.149999976158142
+    techlevel: 1
     volume: 25.0
   Reinforced Bulkheads II:
-    AgilityMultiplier: 5.0
-    CargoCapacityMultiplier: 0.8899999856948853
-    Cpu: 40.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 2
-    StructureHPMultiplier: 1.25
-    TechLevel: 2
+    agilitymultiplier: 5.0
+    cargocapacitymultiplier: 0.8899999856948853
+    cpu: 40.0
+    hp: 40.0
     id: 1335
     marketGroup: 1195
-    mass: 200.0
+    metalevel: 5
     name: Reinforced Bulkheads II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 3394
+    requiredskill1level: 2
+    structurehpmultiplier: 1.25
+    techlevel: 2
     volume: 5.0
   Syndicate Reinforced Bulkheads:
-    AgilityMultiplier: 2.0
-    CargoCapacityMultiplier: 0.8999999761581421
-    Cpu: 35.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.2699999809265137
-    TechLevel: 1
+    agilitymultiplier: 2.0
+    cargocapacitymultiplier: 0.8999999761581421
+    cpu: 35.0
+    hp: 40.0
     id: 34487
     marketGroup: 1195
-    mass: 200.0
+    metagroupid: 4
+    metalevel: 8
     name: Syndicate Reinforced Bulkheads
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 1.2699999809265137
+    techlevel: 1
     volume: 5.0
   Synthetic Hull Conversion Reinforced Bulkheads:
-    AgilityMultiplier: 3.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.2000000476837158
-    TechLevel: 1
+    agilitymultiplier: 3.0
+    cargocapacitymultiplier: 0.949999988079071
+    cpu: 20.0
+    hp: 40.0
     id: 21496
     marketGroup: 1195
-    mass: 200.0
+    metagroupid: 3
+    metalevel: 6
     name: Synthetic Hull Conversion Reinforced Bulkheads
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 1.2000000476837158
+    techlevel: 1
     volume: 5.0
   Type-D Restrained Reinforced Bulkheads:
-    AgilityMultiplier: 1.0
-    CargoCapacityMultiplier: 0.949999988079071
-    Cpu: 35.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 1
-    StructureHPMultiplier: 1.1799999475479126
-    TechLevel: 1
+    agilitymultiplier: 1.0
+    cargocapacitymultiplier: 0.949999988079071
+    cpu: 35.0
+    hp: 40.0
     id: 5647
     marketGroup: 1195
-    mass: 200.0
+    metalevel: 1
     name: Type-D Restrained Reinforced Bulkheads
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 3394
+    requiredskill1level: 1
+    structurehpmultiplier: 1.1799999475479126
+    techlevel: 1
     volume: 5.0

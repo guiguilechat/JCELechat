@@ -1,261 +1,245 @@
 types:
   Caldari Navy Scourge Auto-Targeting Light Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    ExplosionDelay: 5000
-    Hp: 70.0
-    KineticDamage: 70.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxFOFTargetRange: 100000
-    MaxVelocity: 3750.0
-    MetaGroupID: 4
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 40
+    aoedamagereductionfactor: 0.6039999723434448
+    aoefalloff: 1500
+    aoevelocity: 170.0
+    detonationrange: 35
+    explosiondelay: 5000
+    hp: 70.0
     id: 27513
+    kineticdamage: 70.0
+    launchergroup: 509
     marketGroup: 1192
-    mass: 700.0
+    maxfoftargetrange: 100000
+    maxvelocity: 3750.0
+    metagroupid: 4
     name: Caldari Navy Scourge Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.014999999664723873
   Federation Navy Inferno Auto-Targeting Light Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    ExplosionDelay: 5000
-    Hp: 70.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxFOFTargetRange: 100000
-    MaxVelocity: 3750.0
-    MetaGroupID: 4
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: 70.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 40
+    aoedamagereductionfactor: 0.6039999723434448
+    aoefalloff: 1500
+    aoevelocity: 170.0
+    detonationrange: 35
+    explosiondelay: 5000
+    hp: 70.0
     id: 27519
+    launchergroup: 509
     marketGroup: 1192
-    mass: 700.0
+    maxfoftargetrange: 100000
+    maxvelocity: 3750.0
+    metagroupid: 4
     name: Federation Navy Inferno Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 70.0
     volume: 0.014999999664723873
   Imperial Navy Mjolnir Auto-Targeting Light Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    EmDamage: 70.0
-    ExplosionDelay: 5000
-    Hp: 70.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxFOFTargetRange: 100000
-    MaxVelocity: 3750.0
-    MetaGroupID: 4
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 40
+    aoedamagereductionfactor: 0.6039999723434448
+    aoefalloff: 1500
+    aoevelocity: 170.0
+    detonationrange: 35
+    emdamage: 70.0
+    explosiondelay: 5000
+    hp: 70.0
     id: 27507
+    launchergroup: 509
     marketGroup: 1192
-    mass: 700.0
+    maxfoftargetrange: 100000
+    maxvelocity: 3750.0
+    metagroupid: 4
     name: Imperial Navy Mjolnir Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.014999999664723873
   Inferno Auto-Targeting Light Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    ExplosionDelay: 5000
-    Hp: 70.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxFOFTargetRange: 100000
-    MaxVelocity: 3750.0
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: 62.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 40
+    aoedamagereductionfactor: 0.6039999723434448
+    aoefalloff: 1500
+    aoevelocity: 170.0
+    detonationrange: 35
+    explosiondelay: 5000
+    hp: 70.0
     id: 1816
+    launchergroup: 509
     marketGroup: 914
-    mass: 700.0
+    maxfoftargetrange: 100000
+    maxvelocity: 3750.0
     name: Inferno Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 62.0
     volume: 0.014999999664723873
   Mjolnir Auto-Targeting Light Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    EmDamage: 62.0
-    ExplosionDelay: 5000
-    Hp: 70.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxFOFTargetRange: 100000
-    MaxVelocity: 3750.0
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 40
+    aoedamagereductionfactor: 0.6039999723434448
+    aoefalloff: 1500
+    aoevelocity: 170.0
+    detonationrange: 35
+    emdamage: 62.0
+    explosiondelay: 5000
+    hp: 70.0
     id: 269
+    launchergroup: 509
     marketGroup: 914
-    mass: 700.0
+    maxfoftargetrange: 100000
+    maxvelocity: 3750.0
     name: Mjolnir Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.014999999664723873
   Nova Auto-Targeting Light Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    ExplosionDelay: 5000
-    ExplosiveDamage: 62.0
-    Hp: 70.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxFOFTargetRange: 100000
-    MaxVelocity: 3750.0
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 40
+    aoedamagereductionfactor: 0.6039999723434448
+    aoefalloff: 1500
+    aoevelocity: 170.0
+    detonationrange: 35
+    explosiondelay: 5000
+    explosivedamage: 62.0
+    hp: 70.0
     id: 1814
+    launchergroup: 509
     marketGroup: 914
-    mass: 700.0
+    maxfoftargetrange: 100000
+    maxvelocity: 3750.0
     name: Nova Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.014999999664723873
   Republic Fleet Nova Auto-Targeting Light Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    ExplosionDelay: 5000
-    ExplosiveDamage: 70.0
-    Hp: 70.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxFOFTargetRange: 100000
-    MaxVelocity: 3750.0
-    MetaGroupID: 4
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 40
+    aoedamagereductionfactor: 0.6039999723434448
+    aoefalloff: 1500
+    aoevelocity: 170.0
+    detonationrange: 35
+    explosiondelay: 5000
+    explosivedamage: 70.0
+    hp: 70.0
     id: 27525
+    launchergroup: 509
     marketGroup: 1192
-    mass: 700.0
+    maxfoftargetrange: 100000
+    maxvelocity: 3750.0
+    metagroupid: 4
     name: Republic Fleet Nova Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.014999999664723873
   Scourge Auto-Targeting Light Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 40
-    AoeDamageReductionFactor: 0.6039999723434448
-    AoeFalloff: 1500
-    AoeVelocity: 170.0
-    DetonationRange: 35
-    ExplosionDelay: 5000
-    Hp: 70.0
-    KineticDamage: 62.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxFOFTargetRange: 100000
-    MaxVelocity: 3750.0
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 40
+    aoedamagereductionfactor: 0.6039999723434448
+    aoefalloff: 1500
+    aoevelocity: 170.0
+    detonationrange: 35
+    explosiondelay: 5000
+    hp: 70.0
     id: 1810
+    kineticdamage: 62.0
+    launchergroup: 509
     marketGroup: 914
-    mass: 700.0
+    maxfoftargetrange: 100000
+    maxvelocity: 3750.0
     name: Scourge Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.014999999664723873

@@ -1,15 +1,28 @@
 package fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExportTax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PlanetRestriction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryInteraction;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,14 +35,14 @@ public class CommandCenters
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CpuOutput;
+    public int cpuoutput;
     /**
      * Base export tax (ISK per m3 of volume) on commodities exported from a planet via this pin.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ExportTax;
+    public int exporttax;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -37,35 +50,36 @@ public class CommandCenters
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * This type can only be found/used/created on a planet matching this type ID.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PlanetRestriction;
+    public int planetrestriction;
     /**
      * power output of power core
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PowerOutput;
+    public int poweroutput;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PlanetRestriction.INSTANCE, CpuOutput.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, ExportTax.INSTANCE, MetaLevel.INSTANCE, PowerOutput.INSTANCE })));
     public static final CommandCenters.MetaGroup METAGROUP = new CommandCenters.MetaGroup();
 
     @Override
@@ -73,37 +87,42 @@ public class CommandCenters
         switch (attribute.getId()) {
             case  48 :
             {
-                return CpuOutput;
+                return cpuoutput;
             }
             case  1639 :
             {
-                return ExportTax;
+                return exporttax;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  1632 :
             {
-                return PlanetRestriction;
+                return planetrestriction;
             }
             case  11 :
             {
-                return PowerOutput;
+                return poweroutput;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

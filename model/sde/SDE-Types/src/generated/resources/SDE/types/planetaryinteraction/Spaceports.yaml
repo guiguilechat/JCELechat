@@ -1,97 +1,97 @@
 types:
   Barren Launchpad:
-    Capacity: 10000.0
-    CpuLoad: 3600
-    ExportTax: 1
-    ImportTax: 0.5
-    PlanetRestriction: 2016
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
     id: 2544
+    importtax: 0.5
     name: Barren Launchpad
+    planetrestriction: 2016
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Gas Launchpad:
-    Capacity: 10000.0
-    CpuLoad: 3600
-    ExportTax: 1
-    ImportTax: 0.5
-    PlanetRestriction: 13
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
     id: 2543
+    importtax: 0.5
     name: Gas Launchpad
+    planetrestriction: 13
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Ice Launchpad:
-    Capacity: 10000.0
-    CpuLoad: 3600
-    ExportTax: 1
-    ImportTax: 0.5
-    PlanetRestriction: 12
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
     id: 2552
+    importtax: 0.5
     name: Ice Launchpad
+    planetrestriction: 12
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Lava Launchpad:
-    Capacity: 10000.0
-    CpuLoad: 3600
-    ExportTax: 1
-    ImportTax: 0.5
-    PlanetRestriction: 2015
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
     id: 2555
+    importtax: 0.5
     name: Lava Launchpad
+    planetrestriction: 2015
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Oceanic Launchpad:
-    Capacity: 10000.0
-    CpuLoad: 3600
-    ExportTax: 1
-    ImportTax: 0.5
-    PlanetRestriction: 2014
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
     id: 2542
+    importtax: 0.5
     name: Oceanic Launchpad
+    planetrestriction: 2014
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Plasma Launchpad:
-    Capacity: 10000.0
-    CpuLoad: 3600
-    ExportTax: 1
-    ImportTax: 0.5
-    PlanetRestriction: 2063
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
     id: 2556
+    importtax: 0.5
     name: Plasma Launchpad
+    planetrestriction: 2063
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Storm Launchpad:
-    Capacity: 10000.0
-    CpuLoad: 3600
-    ExportTax: 1
-    ImportTax: 0.5
-    PlanetRestriction: 2017
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
     id: 2557
+    importtax: 0.5
     name: Storm Launchpad
+    planetrestriction: 2017
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Temperate Launchpad:
-    Capacity: 10000.0
-    CpuLoad: 3600
-    ExportTax: 1
-    ImportTax: 0.5
-    PlanetRestriction: 11
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 10000.0
+    cpuload: 3600
+    exporttax: 1
     id: 2256
+    importtax: 0.5
     name: Temperate Launchpad
+    planetrestriction: 11
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0

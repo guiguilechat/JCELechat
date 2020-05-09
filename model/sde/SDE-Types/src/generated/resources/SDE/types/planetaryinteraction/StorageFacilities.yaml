@@ -1,81 +1,81 @@
 types:
   Barren Storage Facility:
-    Capacity: 12000.0
-    CpuLoad: 500
-    PlanetRestriction: 2016
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 12000.0
+    cpuload: 500
     id: 2541
     name: Barren Storage Facility
+    planetrestriction: 2016
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Gas Storage Facility:
-    Capacity: 12000.0
-    CpuLoad: 500
-    PlanetRestriction: 13
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 12000.0
+    cpuload: 500
     id: 2536
     name: Gas Storage Facility
+    planetrestriction: 13
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Ice Storage Facility:
-    Capacity: 12000.0
-    CpuLoad: 500
-    PlanetRestriction: 12
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 12000.0
+    cpuload: 500
     id: 2257
     name: Ice Storage Facility
+    planetrestriction: 12
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Lava Storage Facility:
-    Capacity: 12000.0
-    CpuLoad: 500
-    PlanetRestriction: 2015
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 12000.0
+    cpuload: 500
     id: 2558
     name: Lava Storage Facility
+    planetrestriction: 2015
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Oceanic Storage Facility:
-    Capacity: 12000.0
-    CpuLoad: 500
-    PlanetRestriction: 2014
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 12000.0
+    cpuload: 500
     id: 2535
     name: Oceanic Storage Facility
+    planetrestriction: 2014
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Plasma Storage Facility:
-    Capacity: 12000.0
-    CpuLoad: 500
-    PlanetRestriction: 2063
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 12000.0
+    cpuload: 500
     id: 2560
     name: Plasma Storage Facility
+    planetrestriction: 2063
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Storm Storage Facility:
-    Capacity: 12000.0
-    CpuLoad: 500
-    PlanetRestriction: 2017
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 12000.0
+    cpuload: 500
     id: 2561
     name: Storm Storage Facility
+    planetrestriction: 2017
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0
   Temperate Storage Facility:
-    Capacity: 12000.0
-    CpuLoad: 500
-    PlanetRestriction: 11
-    PowerLoad: 700
-    Radius: 1.0
+    capacity: 12000.0
+    cpuload: 500
     id: 2562
     name: Temperate Storage Facility
+    planetrestriction: 11
     portionSize: 1
+    powerload: 700
     published: true
+    radius: 1.0

@@ -1,35 +1,33 @@
 types:
   Corporate Hangar Array:
-    AnchoringDelay: 5000
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 3000000.0
-    Cpu: 150.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E7
-    MaxOperationalDistance: 3000
-    MaxOperationalUsers: 1
-    OnliningDelay: 3000
-    Power: 100000
-    Radius: 911.0
-    ScanGravimetricStrength: 150.0
-    ScanLadarStrength: 150.0
-    ScanMagnetometricStrength: 150.0
-    ScanRadarStrength: 150.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 1500.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 3000000.0
+    cpu: 150.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 17621
     marketGroup: 506
-    mass: 1.0E7
+    maxoperationaldistance: 3000
+    maxoperationalusers: 1
     name: Corporate Hangar Array
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 100000
     published: true
+    radius: 911.0
+    scangravimetricstrength: 150.0
+    scanladarstrength: 150.0
+    scanmagnetometricstrength: 150.0
+    scanradarstrength: 150.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 1500.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0

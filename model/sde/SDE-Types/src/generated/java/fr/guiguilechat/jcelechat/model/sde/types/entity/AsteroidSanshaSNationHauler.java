@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.entity;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,56 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIChanceToNotTargetSwitch;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIIgnoreDronesBelowSignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseEffectMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseSignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseTargetSwitching;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AITankingModifierDrone;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityGroupRespawnChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityOverviewShipGroupId;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityMaxGain;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,28 +76,28 @@ public class AsteroidSanshaSNationHauler
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double AIChanceToNotTargetSwitch;
+    public double aichancetonottargetswitch;
     /**
      * NPC'S with this attribute wont shoot drones with signature radius less than this value.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AIIgnoreDronesBelowSignatureRadius;
+    public int aiignoredronesbelowsignatureradius;
     /**
      * Should the entity watch for effects when choosing targets
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AIShouldUseEffectMultiplier;
+    public int aishoulduseeffectmultiplier;
     /**
      * Should this type use signature radius
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AIShouldUseSignatureRadius;
+    public int aishouldusesignatureradius;
     /**
      * This controls how L1 AI target switches
      * When disabled AI_ChanceToNotTargetSwitch, AI_ShouldUseEffectMultiplier, and AI_ShouldUseSignatureRadius are disabled also.
@@ -52,91 +105,91 @@ public class AsteroidSanshaSNationHauler
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AIShouldUseTargetSwitching;
+    public int aishouldusetargetswitching;
     /**
      * Tanking modifier applied to drones if their owner is tanking. 1.0 is no modifier
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.699999988079071)
-    public double AITankingModifierDrone;
+    public double aitankingmodifierdrone;
     /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorEmDamageResonance;
+    public double armoremdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorExplosiveDamageResonance;
+    public double armorexplosivedamageresonance;
     /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ArmorHP;
+    public double armorhp;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorKineticDamageResonance;
+    public double armorkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorThermalDamageResonance;
+    public double armorthermaldamageresonance;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
+    public double armoruniformity;
     /**
      * Capacitor capacity
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorCapacity;
+    public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * charge of module
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Charge;
+    public int charge;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowAssistance;
+    public int disallowassistance;
     /**
      * The distance from a target an entity starts using its weapons.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(15000)
-    public int EntityAttackRange;
+    public int entityattackrange;
     /**
      *  0: white (default)
      *  1: red (hostile NPC)
@@ -145,84 +198,84 @@ public class AsteroidSanshaSNationHauler
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityBracketColour;
+    public int entitybracketcolour;
     /**
      * The distance outside of which the entity activates their MWD equivalent.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(2500)
-    public int EntityChaseMaxDistance;
+    public int entitychasemaxdistance;
     /**
      * The speed that entities fly at when not chasing a target.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntityCruiseSpeed;
+    public double entitycruisespeed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityEquipmentMax;
+    public int entityequipmentmax;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityEquipmentMin;
+    public int entityequipmentmin;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntityFactionLoss;
+    public double entityfactionloss;
     /**
      * The distance at which the entity orbits, follows.. and more.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(500.0)
-    public double EntityFlyRange;
+    public double entityflyrange;
     /**
      * The chance an entity will respawn into his group if destroyed.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int EntityGroupRespawnChance;
+    public int entitygrouprespawnchance;
     /**
      * Reward for destroying this entity.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityKillBounty;
+    public int entitykillbounty;
     /**
      * Deprecated. The minimum number of pieces of loot dropped by this entity.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityLootCountMin;
+    public int entitylootcountmin;
     /**
      * This attribute is used on entities to link them to a player ship group. This is then used to determine which overview icon they should get, among other things
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityOverviewShipGroupId;
+    public int entityoverviewshipgroupid;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntitySecurityMaxGain;
+    public double entitysecuritymaxgain;
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
      * Value is a % movement of the character's current security towards the upper/lower limit.
@@ -230,77 +283,77 @@ public class AsteroidSanshaSNationHauler
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntitySecurityStatusKillBonus;
+    public double entitysecuritystatuskillbonus;
     /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double Falloff;
+    public double falloff;
     /**
      * Graphic ID of the boosters for drone type ships.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int GfxBoosterID;
+    public int gfxboosterid;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
+    public double maxvelocity;
     /**
      * The graphicID of the propulsion system.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PropulsionGraphicID;
+    public int propulsiongraphicid;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double RechargeRate;
+    public double rechargerate;
     /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldCapacity;
+    public double shieldcapacity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
      * The amount of starting shield capacity of the NPC.
@@ -308,70 +361,71 @@ public class AsteroidSanshaSNationHauler
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldCharge;
+    public double shieldcharge;
     /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldEmDamageResonance;
+    public double shieldemdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldExplosiveDamageResonance;
+    public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldKineticDamageResonance;
+    public double shieldkineticdamageresonance;
     /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
+    public double shieldrechargerate;
     /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldThermalDamageResonance;
+    public double shieldthermaldamageresonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
+    public double shielduniformity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(100.0)
-    public double SignatureRadius;
+    public double signatureradius;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    public double structureuniformity;
     /**
      * Weapon accuracy
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double TrackingSpeed;
+    public double trackingspeed;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityGroupRespawnChance.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, AIIgnoreDronesBelowSignatureRadius.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, DisallowAssistance.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, AITankingModifierDrone.INSTANCE, EntityLootCountMin.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
     public static final AsteroidSanshaSNationHauler.MetaGroup METAGROUP = new AsteroidSanshaSNationHauler.MetaGroup();
 
     @Override
@@ -379,209 +433,214 @@ public class AsteroidSanshaSNationHauler
         switch (attribute.getId()) {
             case  1651 :
             {
-                return AIChanceToNotTargetSwitch;
+                return aichancetonottargetswitch;
             }
             case  1855 :
             {
-                return AIIgnoreDronesBelowSignatureRadius;
+                return aiignoredronesbelowsignatureradius;
             }
             case  1652 :
             {
-                return AIShouldUseEffectMultiplier;
+                return aishoulduseeffectmultiplier;
             }
             case  1650 :
             {
-                return AIShouldUseSignatureRadius;
+                return aishouldusesignatureradius;
             }
             case  1648 :
             {
-                return AIShouldUseTargetSwitching;
+                return aishouldusetargetswitching;
             }
             case  1656 :
             {
-                return AITankingModifierDrone;
+                return aitankingmodifierdrone;
             }
             case  267 :
             {
-                return ArmorEmDamageResonance;
+                return armoremdamageresonance;
             }
             case  268 :
             {
-                return ArmorExplosiveDamageResonance;
+                return armorexplosivedamageresonance;
             }
             case  265 :
             {
-                return ArmorHP;
+                return armorhp;
             }
             case  269 :
             {
-                return ArmorKineticDamageResonance;
+                return armorkineticdamageresonance;
             }
             case  270 :
             {
-                return ArmorThermalDamageResonance;
+                return armorthermaldamageresonance;
             }
             case  524 :
             {
-                return ArmorUniformity;
+                return armoruniformity;
             }
             case  482 :
             {
-                return CapacitorCapacity;
+                return capacitorcapacity;
             }
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  18 :
             {
-                return Charge;
+                return charge;
             }
             case  854 :
             {
-                return DisallowAssistance;
+                return disallowassistance;
             }
             case  247 :
             {
-                return EntityAttackRange;
+                return entityattackrange;
             }
             case  798 :
             {
-                return EntityBracketColour;
+                return entitybracketcolour;
             }
             case  665 :
             {
-                return EntityChaseMaxDistance;
+                return entitychasemaxdistance;
             }
             case  508 :
             {
-                return EntityCruiseSpeed;
+                return entitycruisespeed;
             }
             case  457 :
             {
-                return EntityEquipmentMax;
+                return entityequipmentmax;
             }
             case  456 :
             {
-                return EntityEquipmentMin;
+                return entityequipmentmin;
             }
             case  562 :
             {
-                return EntityFactionLoss;
+                return entityfactionloss;
             }
             case  416 :
             {
-                return EntityFlyRange;
+                return entityflyrange;
             }
             case  640 :
             {
-                return EntityGroupRespawnChance;
+                return entitygrouprespawnchance;
             }
             case  481 :
             {
-                return EntityKillBounty;
+                return entitykillbounty;
             }
             case  250 :
             {
-                return EntityLootCountMin;
+                return entitylootcountmin;
             }
             case  1766 :
             {
-                return EntityOverviewShipGroupId;
+                return entityoverviewshipgroupid;
             }
             case  563 :
             {
-                return EntitySecurityMaxGain;
+                return entitysecuritymaxgain;
             }
             case  252 :
             {
-                return EntitySecurityStatusKillBonus;
+                return entitysecuritystatuskillbonus;
             }
             case  158 :
             {
-                return Falloff;
+                return falloff;
             }
             case  246 :
             {
-                return GfxBoosterID;
+                return gfxboosterid;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  37 :
             {
-                return MaxVelocity;
+                return maxvelocity;
             }
             case  217 :
             {
-                return PropulsionGraphicID;
+                return propulsiongraphicid;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             case  55 :
             {
-                return RechargeRate;
+                return rechargerate;
             }
             case  263 :
             {
-                return ShieldCapacity;
+                return shieldcapacity;
             }
             case  264 :
             {
-                return ShieldCharge;
+                return shieldcharge;
             }
             case  271 :
             {
-                return ShieldEmDamageResonance;
+                return shieldemdamageresonance;
             }
             case  272 :
             {
-                return ShieldExplosiveDamageResonance;
+                return shieldexplosivedamageresonance;
             }
             case  273 :
             {
-                return ShieldKineticDamageResonance;
+                return shieldkineticdamageresonance;
             }
             case  479 :
             {
-                return ShieldRechargeRate;
+                return shieldrechargerate;
             }
             case  274 :
             {
-                return ShieldThermalDamageResonance;
+                return shieldthermaldamageresonance;
             }
             case  484 :
             {
-                return ShieldUniformity;
+                return shielduniformity;
             }
             case  552 :
             {
-                return SignatureRadius;
+                return signatureradius;
             }
             case  525 :
             {
-                return StructureUniformity;
+                return structureuniformity;
             }
             case  160 :
             {
-                return TrackingSpeed;
+                return trackingspeed;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

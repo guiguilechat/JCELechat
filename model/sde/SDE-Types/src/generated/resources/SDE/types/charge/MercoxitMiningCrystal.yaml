@@ -1,56 +1,52 @@
 types:
   Mercoxit Mining Crystal I:
-    CapNeedBonus: 100
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12189
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 468
-    SpecialisationAsteroidYieldMultiplier: 1.25
-    TechLevel: 1
-    UnfitCapCost: 80
+    capneedbonus: 100
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18054
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Mercoxit Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12189
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 468
+    specialisationasteroidyieldmultiplier: 1.25
+    techlevel: 1
+    unfitcapcost: 80
     volume: 6.0
   Mercoxit Mining Crystal II:
-    CapNeedBonus: 100
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.05000000074505806
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12189
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 468
-    SpecialisationAsteroidYieldMultiplier: 1.375
-    TechLevel: 2
-    UnfitCapCost: 80
+    capneedbonus: 100
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.05000000074505806
+    hp: 1.0
     id: 18608
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Mercoxit Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12189
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 468
+    specialisationasteroidyieldmultiplier: 1.375
+    techlevel: 2
+    unfitcapcost: 80
     volume: 10.0

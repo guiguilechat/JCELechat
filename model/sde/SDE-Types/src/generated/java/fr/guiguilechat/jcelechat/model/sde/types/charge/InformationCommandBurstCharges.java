@@ -1,15 +1,34 @@
 package fr.guiguilechat.jcelechat.model.sde.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff1ID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff1Multiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff2ID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff2Multiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff3ID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff3Multiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff4ID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff4Multiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,91 +41,92 @@ public class InformationCommandBurstCharges
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int launchergroup;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff1ID;
+    public int warfarebuff1id;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff1Multiplier;
+    public int warfarebuff1multiplier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff2ID;
+    public int warfarebuff2id;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff2Multiplier;
+    public int warfarebuff2multiplier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff3ID;
+    public int warfarebuff3id;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff3Multiplier;
+    public int warfarebuff3multiplier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff4ID;
+    public int warfarebuff4id;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff4Multiplier;
+    public int warfarebuff4multiplier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, WarfareBuff1ID.INSTANCE, WarfareBuff1Multiplier.INSTANCE, Mass.INSTANCE, WarfareBuff2Multiplier.INSTANCE, WarfareBuff2ID.INSTANCE, WarfareBuff3Multiplier.INSTANCE, Capacity.INSTANCE, WarfareBuff4Multiplier.INSTANCE, WarfareBuff3ID.INSTANCE, WarfareBuff4ID.INSTANCE, LauncherGroup.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE })));
     public static final InformationCommandBurstCharges.MetaGroup METAGROUP = new InformationCommandBurstCharges.MetaGroup();
 
     @Override
@@ -114,61 +134,66 @@ public class InformationCommandBurstCharges
         switch (attribute.getId()) {
             case  137 :
             {
-                return LauncherGroup;
+                return launchergroup;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  2468 :
             {
-                return WarfareBuff1ID;
+                return warfarebuff1id;
             }
             case  2596 :
             {
-                return WarfareBuff1Multiplier;
+                return warfarebuff1multiplier;
             }
             case  2470 :
             {
-                return WarfareBuff2ID;
+                return warfarebuff2id;
             }
             case  2597 :
             {
-                return WarfareBuff2Multiplier;
+                return warfarebuff2multiplier;
             }
             case  2472 :
             {
-                return WarfareBuff3ID;
+                return warfarebuff3id;
             }
             case  2598 :
             {
-                return WarfareBuff3Multiplier;
+                return warfarebuff3multiplier;
             }
             case  2536 :
             {
-                return WarfareBuff4ID;
+                return warfarebuff4id;
             }
             case  2599 :
             {
-                return WarfareBuff4Multiplier;
+                return warfarebuff4multiplier;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

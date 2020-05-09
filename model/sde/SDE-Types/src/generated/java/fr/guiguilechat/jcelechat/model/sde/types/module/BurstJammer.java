@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,29 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EcmBurstRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadECMStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,49 +49,49 @@ public class BurstJammer
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * Range that an ECM burst has an effect within.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EcmBurstRange;
+    public int ecmburstrange;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
+    public double heatabsorbtionratemodifier;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatDamage;
+    public double heatdamage;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -80,7 +106,7 @@ public class BurstJammer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -88,70 +114,70 @@ public class BurstJammer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int OverloadECMStrengthBonus;
+    public int overloadecmstrengthbonus;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
+    public int requiredthermodynamicsskill;
     /**
      * +/- modifier to the gravimetric strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrengthBonus;
+    public double scangravimetricstrengthbonus;
     /**
      * +/- modifier to the ladar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanLadarStrengthBonus;
+    public double scanladarstrengthbonus;
     /**
      * +/- modifier to the magnetometric strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanMagnetometricStrengthBonus;
+    public double scanmagnetometricstrengthbonus;
     /**
      * +/- modifier to the radar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrengthBonus;
+    public double scanradarstrengthbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -159,7 +185,8 @@ public class BurstJammer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, OverloadECMStrengthBonus.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, EcmBurstRange.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevel.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final BurstJammer.MetaGroup METAGROUP = new BurstJammer.MetaGroup();
 
     @Override
@@ -167,85 +194,90 @@ public class BurstJammer
         switch (attribute.getId()) {
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  142 :
             {
-                return EcmBurstRange;
+                return ecmburstrange;
             }
             case  1180 :
             {
-                return HeatAbsorbtionRateModifier;
+                return heatabsorbtionratemodifier;
             }
             case  1211 :
             {
-                return HeatDamage;
+                return heatdamage;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  1225 :
             {
-                return OverloadECMStrengthBonus;
+                return overloadecmstrengthbonus;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  1212 :
             {
-                return RequiredThermoDynamicsSkill;
+                return requiredthermodynamicsskill;
             }
             case  238 :
             {
-                return ScanGravimetricStrengthBonus;
+                return scangravimetricstrengthbonus;
             }
             case  239 :
             {
-                return ScanLadarStrengthBonus;
+                return scanladarstrengthbonus;
             }
             case  240 :
             {
-                return ScanMagnetometricStrengthBonus;
+                return scanmagnetometricstrengthbonus;
             }
             case  241 :
             {
-                return ScanRadarStrengthBonus;
+                return scanradarstrengthbonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

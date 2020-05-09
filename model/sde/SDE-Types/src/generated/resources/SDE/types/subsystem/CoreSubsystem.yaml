@@ -1,287 +1,263 @@
 types:
   Legion Core - Augmented Antimatter Reactor:
-    CapacitorCapacity: 50.0
-    FitsToShipType: 29986
-    Hp: 40.0
-    LowSlotModifier: 3
-    Mass: 1200000.0
-    MedSlotModifier: 1
-    MetaLevel: 1
-    PowerEngineeringOutputBonus: 20.0
-    Radius: 1.0
-    RequiredSkill1: 30539
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusAmarrCore: 5
-    SubsystemBonusAmarrCore2: -3
-    TechLevel: 3
+    capacitorcapacity: 50.0
+    fitstoshiptype: 29986
+    hp: 40.0
     id: 45623
+    lowslotmodifier: 3
     marketGroup: 1122
-    mass: 1200000.0
+    medslotmodifier: 1
+    metalevel: 1
     name: Legion Core - Augmented Antimatter Reactor
     packagedVolume: 40.0
     portionSize: 1
+    powerengineeringoutputbonus: 20.0
     published: true
+    radius: 1.0
+    requiredskill1: 30539
+    requiredskill1level: 1
+    subsystembonusamarrcore: 5
+    subsystembonusamarrcore2: -3
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Legion Core - Dissolution Sequencer:
-    FitsToShipType: 29986
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1200000.0
-    MaxLockedTargetsBonus: 1
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30539
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusAmarrCore: 15
-    SubsystemBonusAmarrCore2: 5
-    SubsystemBonusAmarrCore3: 15
-    TechLevel: 3
+    fitstoshiptype: 29986
+    hp: 40.0
     id: 45622
+    lowslotmodifier: 2
     marketGroup: 1122
-    mass: 1200000.0
+    maxlockedtargetsbonus: 1
+    medslotmodifier: 2
+    metalevel: 1
     name: Legion Core - Dissolution Sequencer
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30539
+    requiredskill1level: 1
+    subsystembonusamarrcore: 15
+    subsystembonusamarrcore2: 5
+    subsystembonusamarrcore3: 15
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Legion Core - Energy Parasitic Complex:
-    CapacitorCapacity: 50.0
-    FitsToShipType: 29986
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1200000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30539
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusAmarrCore: -5
-    SubsystemBonusAmarrCore2: 10
-    SubsystemBonusAmarrCore3: 10
-    SubsystemEnergyNeutFittingReduction: -50
-    TechLevel: 3
+    capacitorcapacity: 50.0
+    fitstoshiptype: 29986
+    hp: 40.0
     id: 45624
+    lowslotmodifier: 2
     marketGroup: 1122
-    mass: 1200000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Legion Core - Energy Parasitic Complex
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30539
+    requiredskill1level: 1
+    subsystembonusamarrcore: -5
+    subsystembonusamarrcore2: 10
+    subsystembonusamarrcore3: 10
+    subsystemenergyneutfittingreduction: -50
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Loki Core - Augmented Nuclear Reactor:
-    CapacitorCapacity: 50.0
-    FitsToShipType: 29990
-    Hp: 40.0
-    LowSlotModifier: 3
-    Mass: 1200000.0
-    MedSlotModifier: 1
-    MetaLevel: 1
-    PowerEngineeringOutputBonus: 20.0
-    Radius: 1.0
-    RequiredSkill1: 30547
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusMinmatarCore: -5
-    SubsystemBonusMinmatarCore2: -3
-    TechLevel: 3
+    capacitorcapacity: 50.0
+    fitstoshiptype: 29990
+    hp: 40.0
     id: 45632
+    lowslotmodifier: 3
     marketGroup: 1125
-    mass: 1200000.0
+    medslotmodifier: 1
+    metalevel: 1
     name: Loki Core - Augmented Nuclear Reactor
     packagedVolume: 40.0
     portionSize: 1
+    powerengineeringoutputbonus: 20.0
     published: true
+    radius: 1.0
+    requiredskill1: 30547
+    requiredskill1level: 1
+    subsystembonusminmatarcore: -5
+    subsystembonusminmatarcore2: -3
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Loki Core - Dissolution Sequencer:
-    FitsToShipType: 29990
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1200000.0
-    MaxLockedTargetsBonus: 1
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30547
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusMinmatarCore: 15
-    SubsystemBonusMinmatarCore2: 5
-    SubsystemBonusMinmatarCore3: 15
-    TechLevel: 3
+    fitstoshiptype: 29990
+    hp: 40.0
     id: 45631
+    lowslotmodifier: 2
     marketGroup: 1125
-    mass: 1200000.0
+    maxlockedtargetsbonus: 1
+    medslotmodifier: 2
+    metalevel: 1
     name: Loki Core - Dissolution Sequencer
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30547
+    requiredskill1level: 1
+    subsystembonusminmatarcore: 15
+    subsystembonusminmatarcore2: 5
+    subsystembonusminmatarcore3: 15
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Loki Core - Immobility Drivers:
-    FitsToShipType: 29990
-    Hp: 40.0
-    LowSlotModifier: 1
-    Mass: 1200000.0
-    MedSlotModifier: 3
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30547
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusMinmatarCore: -5
-    SubsystemBonusMinmatarCore2: 25
-    SubsystemBonusMinmatarCore3: 10
-    TechLevel: 3
+    fitstoshiptype: 29990
+    hp: 40.0
     id: 45633
+    lowslotmodifier: 1
     marketGroup: 1125
-    mass: 1200000.0
+    medslotmodifier: 3
+    metalevel: 1
     name: Loki Core - Immobility Drivers
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30547
+    requiredskill1level: 1
+    subsystembonusminmatarcore: -5
+    subsystembonusminmatarcore2: 25
+    subsystembonusminmatarcore3: 10
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Proteus Core - Augmented Fusion Reactor:
-    CapacitorCapacity: 50.0
-    FitsToShipType: 29988
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1200000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    PowerEngineeringOutputBonus: 20.0
-    Radius: 1.0
-    RequiredSkill1: 30546
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusGallenteCore: -5.0
-    SubsystemBonusGallenteCore2: -3.0
-    TechLevel: 3
+    capacitorcapacity: 50.0
+    fitstoshiptype: 29988
+    hp: 40.0
     id: 45629
+    lowslotmodifier: 2
     marketGroup: 1124
-    mass: 1200000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Proteus Core - Augmented Fusion Reactor
     packagedVolume: 40.0
     portionSize: 1
+    powerengineeringoutputbonus: 20.0
     published: true
+    radius: 1.0
+    requiredskill1: 30546
+    requiredskill1level: 1
+    subsystembonusgallentecore: -5.0
+    subsystembonusgallentecore2: -3.0
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Proteus Core - Electronic Efficiency Gate:
-    CpuOutputBonus2: 25.0
-    FitsToShipType: 29988
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1200000.0
-    MaxLockedTargetsBonus: 1
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30546
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusGallenteCore: 15.0
-    SubsystemBonusGallenteCore2: 5.0
-    TechLevel: 3
+    cpuoutputbonus2: 25.0
+    fitstoshiptype: 29988
+    hp: 40.0
     id: 45628
+    lowslotmodifier: 2
     marketGroup: 1124
-    mass: 1200000.0
+    maxlockedtargetsbonus: 1
+    medslotmodifier: 2
+    metalevel: 1
     name: Proteus Core - Electronic Efficiency Gate
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30546
+    requiredskill1level: 1
+    subsystembonusgallentecore: 15.0
+    subsystembonusgallentecore2: 5.0
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Proteus Core - Friction Extension Processor:
-    FitsToShipType: 29988
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1200000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30546
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusGallenteCore: -5.0
-    SubsystemBonusGallenteCore2: 7.5
-    SubsystemBonusGallenteCore3: 15
-    TechLevel: 3
+    fitstoshiptype: 29988
+    hp: 40.0
     id: 45630
+    lowslotmodifier: 2
     marketGroup: 1124
-    mass: 1200000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Proteus Core - Friction Extension Processor
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30546
+    requiredskill1level: 1
+    subsystembonusgallentecore: -5.0
+    subsystembonusgallentecore2: 7.5
+    subsystembonusgallentecore3: 15
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Tengu Core - Augmented Graviton Reactor:
-    CapacitorCapacity: 50.0
-    FitsToShipType: 29984
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1200000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    PowerEngineeringOutputBonus: 20.0
-    Radius: 1.0
-    RequiredSkill1: 30548
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusCaldariCore: 5
-    SubsystemBonusCaldariCore2: -3
-    TechLevel: 3
+    capacitorcapacity: 50.0
+    fitstoshiptype: 29984
+    hp: 40.0
     id: 45626
+    lowslotmodifier: 2
     marketGroup: 1123
-    mass: 1200000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Tengu Core - Augmented Graviton Reactor
     packagedVolume: 40.0
     portionSize: 1
+    powerengineeringoutputbonus: 20.0
     published: true
+    radius: 1.0
+    requiredskill1: 30548
+    requiredskill1level: 1
+    subsystembonuscaldaricore: 5
+    subsystembonuscaldaricore2: -3
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Tengu Core - Electronic Efficiency Gate:
-    CpuOutputBonus2: 25.0
-    FitsToShipType: 29984
-    Hp: 40.0
-    LowSlotModifier: 1
-    Mass: 1200000.0
-    MaxLockedTargetsBonus: 1
-    MedSlotModifier: 3
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30548
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusCaldariCore: 15
-    SubsystemBonusCaldariCore2: 5
-    TechLevel: 3
+    cpuoutputbonus2: 25.0
+    fitstoshiptype: 29984
+    hp: 40.0
     id: 45625
+    lowslotmodifier: 1
     marketGroup: 1123
-    mass: 1200000.0
+    maxlockedtargetsbonus: 1
+    medslotmodifier: 3
+    metalevel: 1
     name: Tengu Core - Electronic Efficiency Gate
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30548
+    requiredskill1level: 1
+    subsystembonuscaldaricore: 15
+    subsystembonuscaldaricore2: 5
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0
   Tengu Core - Obfuscation Manifold:
-    FitsToShipType: 29984
-    Hp: 40.0
-    LowSlotModifier: 1
-    Mass: 1200000.0
-    MedSlotModifier: 3
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30548
-    RequiredSkill1Level: 1
-    SubSystemSlot: 125
-    SubsystemBonusCaldariCore: -5
-    SubsystemBonusCaldariCore2: 10
-    SubsystemBonusCaldariCore3: 15
-    TechLevel: 3
+    fitstoshiptype: 29984
+    hp: 40.0
     id: 45627
+    lowslotmodifier: 1
     marketGroup: 1123
-    mass: 1200000.0
+    medslotmodifier: 3
+    metalevel: 1
     name: Tengu Core - Obfuscation Manifold
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30548
+    requiredskill1level: 1
+    subsystembonuscaldaricore: -5
+    subsystembonuscaldaricore2: 10
+    subsystembonuscaldaricore3: 15
+    subsystemslot: 125
+    techlevel: 3
     volume: 40.0

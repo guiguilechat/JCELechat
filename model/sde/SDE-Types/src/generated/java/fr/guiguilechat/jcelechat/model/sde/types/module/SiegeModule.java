@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,89 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ActivationBlockedStrenght;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorDamageAmountBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CommandBonusEffectiveAdd;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DeactivateIfOffensive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowActivateOnWarp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowDocking;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowTethering;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneDamageBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ECMResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EwCapacitorNeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HullEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HullExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HullKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HullThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreBonusCommandBurstRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreBonusDroneDamageHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreBonusDroneIceHarvesting;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreBonusDroneMining;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreBonusDroneVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreBonusMiningBurstStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreLocalLogisticsAmountBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreLocalLogisticsDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreRemoteLogisticsDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialCoreRemoteLogisticsRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargetsBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileVelocityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedanceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedanceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistanceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldBoostMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeHAWMissileROFBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeLauncherROFBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeLocalLogisticsAmountBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeLocalLogisticsDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeMassMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeMissileDamageBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeRemoteLogisticsAmountBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeRemoteLogisticsDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeRemoteLogisticsRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeTorpedoVelocityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeTurretDamageBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TargetPainterResistanceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,294 +109,294 @@ public class SiegeModule
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double ECMResistance;
+    public double ecmresistance;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ActivationBlockedStrenght;
+    public int activationblockedstrenght;
     /**
      * Bonus attribute for armor repair amount.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ArmorDamageAmountBonus;
+    public int armordamageamountbonus;
     /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorEmDamageResonance;
+    public double armoremdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorExplosiveDamageResonance;
+    public double armorexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorKineticDamageResonance;
+    public double armorkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorThermalDamageResonance;
+    public double armorthermaldamageresonance;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * commandBonusEffectiveAdd
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CommandBonusEffectiveAdd;
+    public int commandbonuseffectiveadd;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionQuantity;
+    public int consumptionquantity;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionType;
+    public int consumptiontype;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * If module is offensive should it deactivate on disconnect. Default to 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int DeactivateIfOffensive;
+    public int deactivateifoffensive;
     /**
      * Stops the module from being activated if the ship is aligning to warp.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowActivateOnWarp;
+    public int disallowactivateonwarp;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowDocking;
+    public int disallowdocking;
     /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowEarlyDeactivation;
+    public int disallowearlydeactivation;
     /**
      * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowOffensiveModifiers;
+    public int disallowoffensivemodifiers;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowTethering;
+    public int disallowtethering;
     /**
      * droneDamageBonus
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double DroneDamageBonus;
+    public double dronedamagebonus;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * Bonus attribute for capacitor need of EW and propulsion jamming.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EwCapacitorNeedBonus;
+    public int ewcapacitorneedbonus;
     /**
      * Autogenerated skill attribute, falloffBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double FalloffBonus;
+    public double falloffbonus;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HullEmDamageResonance;
+    public double hullemdamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HullExplosiveDamageResonance;
+    public double hullexplosivedamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HullKineticDamageResonance;
+    public double hullkineticdamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HullThermalDamageResonance;
+    public double hullthermaldamageresonance;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreBonusCommandBurstRange;
+    public int industrialcorebonuscommandburstrange;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreBonusDroneDamageHP;
+    public int industrialcorebonusdronedamagehp;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreBonusDroneIceHarvesting;
+    public int industrialcorebonusdroneiceharvesting;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreBonusDroneMining;
+    public int industrialcorebonusdronemining;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreBonusDroneVelocity;
+    public int industrialcorebonusdronevelocity;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreBonusMiningBurstStrength;
+    public int industrialcorebonusminingburststrength;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreLocalLogisticsAmountBonus;
+    public int industrialcorelocallogisticsamountbonus;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreLocalLogisticsDurationBonus;
+    public int industrialcorelocallogisticsdurationbonus;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreRemoteLogisticsDurationBonus;
+    public int industrialcoreremotelogisticsdurationbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialCoreRemoteLogisticsRangeBonus;
+    public int industrialcoreremotelogisticsrangebonus;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxLockedTargets;
+    public int maxlockedtargets;
     /**
      * Additional amount of locked targets that can be handled.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxLockedTargetsBonus;
+    public int maxlockedtargetsbonus;
     /**
      * Autogenerated skill attribute, maxRangeBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MaxRangeBonus;
+    public double maxrangebonus;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -318,245 +404,245 @@ public class SiegeModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * Autogenerated skill attribute, missileVelocityBonus 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MissileVelocityBonus;
+    public double missilevelocitybonus;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RemoteAssistanceImpedanceBonus;
+    public int remoteassistanceimpedancebonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double RemoteRepairImpedanceBonus;
+    public double remoterepairimpedancebonus;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanGravimetricStrengthPercent;
+    public int scangravimetricstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanLadarStrengthPercent;
+    public int scanladarstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanMagnetometricStrengthPercent;
+    public int scanmagnetometricstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanRadarStrengthPercent;
+    public int scanradarstrengthpercent;
     /**
      * Improves the targeting time of ships by boosting the Scan Resolution.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ScanResolutionMultiplier;
+    public double scanresolutionmultiplier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SensorDampenerResistanceBonus;
+    public int sensordampenerresistancebonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldBoostMultiplier;
+    public double shieldboostmultiplier;
     /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldEmDamageResonance;
+    public double shieldemdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldExplosiveDamageResonance;
+    public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldKineticDamageResonance;
+    public double shieldkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldThermalDamageResonance;
+    public double shieldthermaldamageresonance;
     /**
      * Bonus to HAW Missile Launcher Rate of Fire
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeHAWMissileROFBonus;
+    public int siegehawmissilerofbonus;
     /**
      * XL Launcher ROF Bonus Percentage
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeLauncherROFBonus;
+    public int siegelauncherrofbonus;
     /**
      * Armor Repairer / Shield Booster Amount Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeLocalLogisticsAmountBonus;
+    public int siegelocallogisticsamountbonus;
     /**
      * Armor Repairer / Shield Booster Duration Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeLocalLogisticsDurationBonus;
+    public int siegelocallogisticsdurationbonus;
     /**
      * Mass multiplier
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeMassMultiplier;
+    public int siegemassmultiplier;
     /**
      * Missile Damage Bonus Percentage
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeMissileDamageBonus;
+    public int siegemissiledamagebonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeModeWarpStatus;
+    public int siegemodewarpstatus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeRemoteLogisticsAmountBonus;
+    public int siegeremotelogisticsamountbonus;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeRemoteLogisticsDurationBonus;
+    public int siegeremotelogisticsdurationbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeRemoteLogisticsRangeBonus;
+    public int siegeremotelogisticsrangebonus;
     /**
      * Torpedo Velocity Bonus Percentage
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeTorpedoVelocityBonus;
+    public int siegetorpedovelocitybonus;
     /**
      * Turret Damage Bonus Percentage
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeTurretDamageBonus;
+    public int siegeturretdamagebonus;
     /**
      * Amount to increase the maximum speed by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SpeedBonus;
+    public int speedbonus;
     /**
      * Factor by which topspeed increases.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double SpeedFactor;
+    public double speedfactor;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int TargetPainterResistanceBonus;
+    public int targetpainterresistancebonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -564,14 +650,15 @@ public class SiegeModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WeaponDisruptionResistanceBonus;
+    public double weapondisruptionresistancebonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SiegeTorpedoVelocityBonus.INSTANCE, SiegeLauncherROFBonus.INSTANCE, SiegeMissileDamageBonus.INSTANCE, SiegeTurretDamageBonus.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, SiegeHAWMissileROFBonus.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, DeactivateIfOffensive.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, CanFitShipGroup01 .INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, IndustrialCoreBonusDroneDamageHP.INSTANCE, IndustrialCoreBonusDroneVelocity.INSTANCE, IndustrialCoreBonusDroneMining.INSTANCE, IndustrialCoreBonusDroneIceHarvesting.INSTANCE, IndustrialCoreBonusMiningBurstStrength.INSTANCE, IndustrialCoreBonusCommandBurstRange.INSTANCE, Power.INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, ShieldBoostMultiplier.INSTANCE, TechLevel.INSTANCE, RemoteRepairImpedanceBonus.INSTANCE, EwCapacitorNeedBonus.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, SiegeRemoteLogisticsDurationBonus.INSTANCE, SiegeRemoteLogisticsAmountBonus.INSTANCE, SiegeLocalLogisticsDurationBonus.INSTANCE, SiegeLocalLogisticsAmountBonus.INSTANCE, SiegeRemoteLogisticsRangeBonus.INSTANCE, IndustrialCoreRemoteLogisticsRangeBonus.INSTANCE, IndustrialCoreRemoteLogisticsDurationBonus.INSTANCE, IndustrialCoreLocalLogisticsDurationBonus.INSTANCE, SensorDampenerResistanceBonus.INSTANCE, IndustrialCoreLocalLogisticsAmountBonus.INSTANCE, RemoteAssistanceImpedanceBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, DisallowDocking.INSTANCE, Cpu.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SiegeMassMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, ActivationBlockedStrenght.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, ConsumptionQuantity.INSTANCE, ECMResistance.INSTANCE, HullEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, SpeedBonus.INSTANCE, HullKineticDamageResonance.INSTANCE, HullThermalDamageResonance.INSTANCE, SiegeModeWarpStatus.INSTANCE, CommandBonusEffectiveAdd.INSTANCE, DisallowActivateOnWarp.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, DroneDamageBonus.INSTANCE, DisallowOffensiveModifiers.INSTANCE, MaxLockedTargetsBonus.INSTANCE, TargetPainterResistanceBonus.INSTANCE, MetaLevel.INSTANCE, MaxGroupActive.INSTANCE, ArmorDamageAmountBonus.INSTANCE })));
     public static final SiegeModule.MetaGroup METAGROUP = new SiegeModule.MetaGroup();
 
     @Override
@@ -579,325 +666,330 @@ public class SiegeModule
         switch (attribute.getId()) {
             case  2253 :
             {
-                return ECMResistance;
+                return ecmresistance;
             }
             case  1350 :
             {
-                return ActivationBlockedStrenght;
+                return activationblockedstrenght;
             }
             case  895 :
             {
-                return ArmorDamageAmountBonus;
+                return armordamageamountbonus;
             }
             case  267 :
             {
-                return ArmorEmDamageResonance;
+                return armoremdamageresonance;
             }
             case  268 :
             {
-                return ArmorExplosiveDamageResonance;
+                return armorexplosivedamageresonance;
             }
             case  269 :
             {
-                return ArmorKineticDamageResonance;
+                return armorkineticdamageresonance;
             }
             case  270 :
             {
-                return ArmorThermalDamageResonance;
+                return armorthermaldamageresonance;
             }
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  1238 :
             {
-                return CommandBonusEffectiveAdd;
+                return commandbonuseffectiveadd;
             }
             case  714 :
             {
-                return ConsumptionQuantity;
+                return consumptionquantity;
             }
             case  713 :
             {
-                return ConsumptionType;
+                return consumptiontype;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1934 :
             {
-                return DeactivateIfOffensive;
+                return deactivateifoffensive;
             }
             case  1245 :
             {
-                return DisallowActivateOnWarp;
+                return disallowactivateonwarp;
             }
             case  2354 :
             {
-                return DisallowDocking;
+                return disallowdocking;
             }
             case  906 :
             {
-                return DisallowEarlyDeactivation;
+                return disallowearlydeactivation;
             }
             case  872 :
             {
-                return DisallowOffensiveModifiers;
+                return disallowoffensivemodifiers;
             }
             case  2343 :
             {
-                return DisallowTethering;
+                return disallowtethering;
             }
             case  1255 :
             {
-                return DroneDamageBonus;
+                return dronedamagebonus;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  1190 :
             {
-                return EwCapacitorNeedBonus;
+                return ewcapacitorneedbonus;
             }
             case  349 :
             {
-                return FalloffBonus;
+                return falloffbonus;
             }
             case  974 :
             {
-                return HullEmDamageResonance;
+                return hullemdamageresonance;
             }
             case  975 :
             {
-                return HullExplosiveDamageResonance;
+                return hullexplosivedamageresonance;
             }
             case  976 :
             {
-                return HullKineticDamageResonance;
+                return hullkineticdamageresonance;
             }
             case  977 :
             {
-                return HullThermalDamageResonance;
+                return hullthermaldamageresonance;
             }
             case  2588 :
             {
-                return IndustrialCoreBonusCommandBurstRange;
+                return industrialcorebonuscommandburstrange;
             }
             case  2583 :
             {
-                return IndustrialCoreBonusDroneDamageHP;
+                return industrialcorebonusdronedamagehp;
             }
             case  2586 :
             {
-                return IndustrialCoreBonusDroneIceHarvesting;
+                return industrialcorebonusdroneiceharvesting;
             }
             case  2585 :
             {
-                return IndustrialCoreBonusDroneMining;
+                return industrialcorebonusdronemining;
             }
             case  2584 :
             {
-                return IndustrialCoreBonusDroneVelocity;
+                return industrialcorebonusdronevelocity;
             }
             case  2587 :
             {
-                return IndustrialCoreBonusMiningBurstStrength;
+                return industrialcorebonusminingburststrength;
             }
             case  2607 :
             {
-                return IndustrialCoreLocalLogisticsAmountBonus;
+                return industrialcorelocallogisticsamountbonus;
             }
             case  2606 :
             {
-                return IndustrialCoreLocalLogisticsDurationBonus;
+                return industrialcorelocallogisticsdurationbonus;
             }
             case  2605 :
             {
-                return IndustrialCoreRemoteLogisticsDurationBonus;
+                return industrialcoreremotelogisticsdurationbonus;
             }
             case  2604 :
             {
-                return IndustrialCoreRemoteLogisticsRangeBonus;
+                return industrialcoreremotelogisticsrangebonus;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  192 :
             {
-                return MaxLockedTargets;
+                return maxlockedtargets;
             }
             case  235 :
             {
-                return MaxLockedTargetsBonus;
+                return maxlockedtargetsbonus;
             }
             case  351 :
             {
-                return MaxRangeBonus;
+                return maxrangebonus;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  547 :
             {
-                return MissileVelocityBonus;
+                return missilevelocitybonus;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  2352 :
             {
-                return RemoteAssistanceImpedanceBonus;
+                return remoteassistanceimpedancebonus;
             }
             case  2342 :
             {
-                return RemoteRepairImpedanceBonus;
+                return remoterepairimpedancebonus;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  1027 :
             {
-                return ScanGravimetricStrengthPercent;
+                return scangravimetricstrengthpercent;
             }
             case  1028 :
             {
-                return ScanLadarStrengthPercent;
+                return scanladarstrengthpercent;
             }
             case  1029 :
             {
-                return ScanMagnetometricStrengthPercent;
+                return scanmagnetometricstrengthpercent;
             }
             case  1030 :
             {
-                return ScanRadarStrengthPercent;
+                return scanradarstrengthpercent;
             }
             case  565 :
             {
-                return ScanResolutionMultiplier;
+                return scanresolutionmultiplier;
             }
             case  2351 :
             {
-                return SensorDampenerResistanceBonus;
+                return sensordampenerresistancebonus;
             }
             case  548 :
             {
-                return ShieldBoostMultiplier;
+                return shieldboostmultiplier;
             }
             case  271 :
             {
-                return ShieldEmDamageResonance;
+                return shieldemdamageresonance;
             }
             case  272 :
             {
-                return ShieldExplosiveDamageResonance;
+                return shieldexplosivedamageresonance;
             }
             case  273 :
             {
-                return ShieldKineticDamageResonance;
+                return shieldkineticdamageresonance;
             }
             case  274 :
             {
-                return ShieldThermalDamageResonance;
+                return shieldthermaldamageresonance;
             }
             case  2821 :
             {
-                return SiegeHAWMissileROFBonus;
+                return siegehawmissilerofbonus;
             }
             case  2305 :
             {
-                return SiegeLauncherROFBonus;
+                return siegelauncherrofbonus;
             }
             case  2347 :
             {
-                return SiegeLocalLogisticsAmountBonus;
+                return siegelocallogisticsamountbonus;
             }
             case  2346 :
             {
-                return SiegeLocalLogisticsDurationBonus;
+                return siegelocallogisticsdurationbonus;
             }
             case  1471 :
             {
-                return SiegeMassMultiplier;
+                return siegemassmultiplier;
             }
             case  2306 :
             {
-                return SiegeMissileDamageBonus;
+                return siegemissiledamagebonus;
             }
             case  852 :
             {
-                return SiegeModeWarpStatus;
+                return siegemodewarpstatus;
             }
             case  2345 :
             {
-                return SiegeRemoteLogisticsAmountBonus;
+                return siegeremotelogisticsamountbonus;
             }
             case  2344 :
             {
-                return SiegeRemoteLogisticsDurationBonus;
+                return siegeremotelogisticsdurationbonus;
             }
             case  2348 :
             {
-                return SiegeRemoteLogisticsRangeBonus;
+                return siegeremotelogisticsrangebonus;
             }
             case  2304 :
             {
-                return SiegeTorpedoVelocityBonus;
+                return siegetorpedovelocitybonus;
             }
             case  2307 :
             {
-                return SiegeTurretDamageBonus;
+                return siegeturretdamagebonus;
             }
             case  80 :
             {
-                return SpeedBonus;
+                return speedbonus;
             }
             case  20 :
             {
-                return SpeedFactor;
+                return speedfactor;
             }
             case  2424 :
             {
-                return TargetPainterResistanceBonus;
+                return targetpainterresistancebonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  2353 :
             {
-                return WeaponDisruptionResistanceBonus;
+                return weapondisruptionresistancebonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

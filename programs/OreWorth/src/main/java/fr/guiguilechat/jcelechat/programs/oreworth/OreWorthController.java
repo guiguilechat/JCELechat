@@ -1,12 +1,11 @@
 package fr.guiguilechat.jcelechat.programs.oreworth;
 
-import java.lang.reflect.Field;
-
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.locations.LocationHelper;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
@@ -66,7 +65,7 @@ public class OreWorthController {
 
 	protected void load() {
 		LocationHelper.initRegion(regionSelect);
-		Asteroid.METACAT.load().values().stream().filter(a -> a.AsteroidMetaLevel != 0)
+		Asteroid.METACAT.load().values().stream().filter(a -> a.asteroidmetalevel != 0)
 		.forEachOrdered(table.getItems()::add);
 	}
 
@@ -80,19 +79,10 @@ public class OreWorthController {
 
 	protected double mineVolume(Asteroid ore) {
 		if (ore.name.startsWith("Compressed ")) {
-			try {
-				Field field = ore.getClass().getField("OreBasicType");
-				int basicType = (int) field.get(ore);
-				Asteroid basic = (Asteroid) TypeIndex.getType(basicType);
+			if (ore.getAttributes().contains(OreBasicType.INSTANCE)) {
+				int basicId = ore.attribute(OreBasicType.INSTANCE).intValue();
+				Asteroid basic = (Asteroid) TypeIndex.getType(basicId);
 				return basic.volume * basic.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
-			} catch (NoSuchFieldException e) {
-				// nothing, this asteroid does not have a basic type
-			} catch (SecurityException e) {
-				throw new UnsupportedOperationException("catch this", e);
-			} catch (IllegalArgumentException e) {
-				throw new UnsupportedOperationException("catch this", e);
-			} catch (IllegalAccessException e) {
-				throw new UnsupportedOperationException("catch this", e);
 			}
 		}
 		return ore.volume;

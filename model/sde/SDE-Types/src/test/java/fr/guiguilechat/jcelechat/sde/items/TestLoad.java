@@ -12,9 +12,9 @@ public class TestLoad {
 	@Test
 	public void testLoadAtron() {
 		Frigate atron = Frigate.METAGROUP.load().get("Atron");
-		Assert.assertEquals(atron.CpuOutput, 147);
-		Assert.assertEquals(atron.HiSlots, 4);
-		Assert.assertEquals(atron.Agility, 2.799999952316284);
+		Assert.assertEquals(atron.cpuoutput, 147);
+		Assert.assertEquals(atron.hislots, 4);
+		Assert.assertEquals(atron.agility, 2.799999952316284);
 	}
 
 	@Test
@@ -27,7 +27,7 @@ public class TestLoad {
 	@Test
 	public void testLoadAtronFromFrigates() {
 		Ship atron = Frigate.METAGROUP.load().get("Atron");
-		Assert.assertEquals(atron.WarpSpeedMultiplier, 5.0);
+		Assert.assertEquals(atron.warpspeedmultiplier, 5.0);
 	}
 
 	@Test
@@ -42,7 +42,7 @@ public class TestLoad {
 	@Test(dependsOnMethods = "testLoadAtronFromFrigates")
 	public void testLoadAtronFromShips() {
 		Ship atron = Ship.METACAT.load().get("Atron");
-		Assert.assertEquals(atron.WarpSpeedMultiplier, 5.0);
+		Assert.assertEquals(atron.warpspeedmultiplier, 5.0);
 	}
 
 }

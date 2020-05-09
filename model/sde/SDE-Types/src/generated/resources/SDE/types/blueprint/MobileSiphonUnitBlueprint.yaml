@@ -1,28 +1,28 @@
 types:
   Small Mobile 'Hybrid' Siphon Unit Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 33582
+    industryblueprintrank: 40.0
     name: Small Mobile 'Hybrid' Siphon Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Small Mobile 'Rote' Siphon Unit Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 33584
+    industryblueprintrank: 40.0
     name: Small Mobile 'Rote' Siphon Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Small Mobile Siphon Unit Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 33515
+    industryblueprintrank: 40.0
     name: Small Mobile Siphon Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

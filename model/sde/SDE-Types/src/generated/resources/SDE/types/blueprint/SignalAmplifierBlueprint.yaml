@@ -1,32 +1,32 @@
 types:
   '''Firewall'' Signal Amplifier Blueprint':
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 21528
+    industryblueprintrank: 3.0
     name: '''Firewall'' Signal Amplifier Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Signal Amplifier I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 11634
+    industryblueprintrank: 3.0
     marketGroup: 1585
     name: Signal Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Signal Amplifier II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 11812
+    industryblueprintrank: 7.800000190734863
     name: Signal Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

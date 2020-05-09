@@ -1,95 +1,95 @@
 types:
   Modulated Deep Core Miner II:
-    CapacitorNeed: 90.0
-    Capacity: 10.0
-    ChargeGroup1: 663
-    ChargeGroup2: 482
-    ChargeSize: 1
-    Cpu: 80.0
-    Duration: 180000.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MetaLevel: 5
-    MiningAmount: 120
-    Power: 3
-    Radius: 25.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11395
-    RequiredSkill2Level: 2
-    Slots: 1
-    SpecialtyMiningAmount: 120
-    TargetGroup: 11
-    TechLevel: 2
-    TypeColorScheme: 11347
+    capacitorneed: 90.0
+    capacity: 10.0
+    chargegroup1: 663
+    chargegroup2: 482
+    chargesize: 1
+    cpu: 80.0
+    duration: 180000.0
+    hp: 40.0
     id: 18068
     marketGroup: 1039
+    maxrange: 10000.0
+    metalevel: 5
+    miningamount: 120
     name: Modulated Deep Core Miner II
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 25.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3386
+    requiredskill1level: 5
+    requiredskill2: 11395
+    requiredskill2level: 2
+    slots: 1
+    specialtyminingamount: 120
+    targetgroup: 11
+    techlevel: 2
+    typecolorscheme: 11347
     volume: 5.0
   Modulated Deep Core Strip Miner II:
-    CanFitShipGroup01: 543
-    CanFitShipGroup02: 463
-    CapacitorNeed: 90.0
-    Capacity: 10.0
-    ChargeGroup1: 663
-    ChargeGroup2: 482
-    ChargeSize: 1
-    Cpu: 60.0
-    Duration: 180000.0
-    Hp: 40.0
-    MaxRange: 15000.0
-    MetaLevel: 5
-    MiningAmount: 313
-    Power: 12
-    Radius: 25.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11395
-    RequiredSkill2Level: 2
-    Slots: 1
-    SpecialtyMiningAmount: 313
-    TargetGroup: 11
-    TechLevel: 2
-    TypeColorScheme: 11347
+    canfitshipgroup01: 543
+    canfitshipgroup02: 463
+    capacitorneed: 90.0
+    capacity: 10.0
+    chargegroup1: 663
+    chargegroup2: 482
+    chargesize: 1
+    cpu: 60.0
+    duration: 180000.0
+    hp: 40.0
     id: 24305
     marketGroup: 1040
+    maxrange: 15000.0
+    metalevel: 5
+    miningamount: 313
     name: Modulated Deep Core Strip Miner II
     packagedVolume: 5.0
     portionSize: 1
+    power: 12
     published: true
+    radius: 25.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3386
+    requiredskill1level: 5
+    requiredskill2: 11395
+    requiredskill2level: 2
+    slots: 1
+    specialtyminingamount: 313
+    targetgroup: 11
+    techlevel: 2
+    typecolorscheme: 11347
     volume: 5.0
   Modulated Strip Miner II:
-    CanFitShipGroup01: 543
-    CanFitShipGroup02: 463
-    CapacitorNeed: 120.0
-    Capacity: 10.0
-    ChargeGroup1: 482
-    ChargeSize: 1
-    Cpu: 60.0
-    Duration: 180000.0
-    Hp: 40.0
-    MaxRange: 15000.0
-    MetaLevel: 5
-    MiningAmount: 450
-    Power: 12
-    Radius: 25.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 5
-    Slots: 1
-    SpecialtyMiningAmount: 450
-    TargetGroup: 11
-    TechLevel: 2
-    TypeColorScheme: 11347
+    canfitshipgroup01: 543
+    canfitshipgroup02: 463
+    capacitorneed: 120.0
+    capacity: 10.0
+    chargegroup1: 482
+    chargesize: 1
+    cpu: 60.0
+    duration: 180000.0
+    hp: 40.0
     id: 17912
     marketGroup: 1040
+    maxrange: 15000.0
+    metalevel: 5
+    miningamount: 450
     name: Modulated Strip Miner II
     packagedVolume: 5.0
     portionSize: 1
+    power: 12
     published: true
+    radius: 25.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3386
+    requiredskill1level: 5
+    slots: 1
+    specialtyminingamount: 450
+    targetgroup: 11
+    techlevel: 2
+    typecolorscheme: 11347
     volume: 5.0

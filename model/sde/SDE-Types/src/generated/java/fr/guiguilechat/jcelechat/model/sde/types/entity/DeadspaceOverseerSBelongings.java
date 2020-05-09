@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.entity;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,21 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentGroupMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LootRespawnTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpawnWithoutGuardsToo;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,28 +41,28 @@ public class DeadspaceOverseerSBelongings
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorCapacity;
+    public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowAssistance;
+    public int disallowassistance;
     /**
      * If this module is in use and this attribute is 1, then offensive modules cannot be used on the ship if they apply modifiers for the duration of their effect. If this is put on a ship or NPC with value of 1, then the ship or NPC are immune to offensive modifiers (target jamming, tracking disruption etc.)
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowOffensiveModifiers;
+    public int disallowoffensivemodifiers;
     /**
      *  0: white (default)
      *  1: red (hostile NPC)
@@ -53,28 +71,28 @@ public class DeadspaceOverseerSBelongings
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityBracketColour;
+    public int entitybracketcolour;
     /**
      * The maximum drops of same group (example: entity can only drop 1 of group: energy laser)
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int EntityEquipmentGroupMax;
+    public int entityequipmentgroupmax;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityEquipmentMax;
+    public int entityequipmentmax;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityEquipmentMin;
+    public int entityequipmentmin;
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
      * Value is a % movement of the character's current security towards the upper/lower limit.
@@ -82,49 +100,50 @@ public class DeadspaceOverseerSBelongings
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntitySecurityStatusKillBonus;
+    public double entitysecuritystatuskillbonus;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * The number of milliseconds before the container replenishes the loot inside itself.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(600000.0)
-    public double LootRespawnTime;
+    public double lootrespawntime;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
     /**
      * Whether a spawn container should refill itself when there are no guards assigned to it.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SpawnWithoutGuardsToo;
+    public int spawnwithoutguardstoo;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    public double structureuniformity;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorCapacity.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, EntityEquipmentMin.INSTANCE, DisallowOffensiveModifiers.INSTANCE, Hp.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, DisallowAssistance.INSTANCE, LootRespawnTime.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityBracketColour.INSTANCE })));
     public static final DeadspaceOverseerSBelongings.MetaGroup METAGROUP = new DeadspaceOverseerSBelongings.MetaGroup();
 
     @Override
@@ -132,69 +151,74 @@ public class DeadspaceOverseerSBelongings
         switch (attribute.getId()) {
             case  482 :
             {
-                return CapacitorCapacity;
+                return capacitorcapacity;
             }
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  854 :
             {
-                return DisallowAssistance;
+                return disallowassistance;
             }
             case  872 :
             {
-                return DisallowOffensiveModifiers;
+                return disallowoffensivemodifiers;
             }
             case  798 :
             {
-                return EntityBracketColour;
+                return entitybracketcolour;
             }
             case  465 :
             {
-                return EntityEquipmentGroupMax;
+                return entityequipmentgroupmax;
             }
             case  457 :
             {
-                return EntityEquipmentMax;
+                return entityequipmentmax;
             }
             case  456 :
             {
-                return EntityEquipmentMin;
+                return entityequipmentmin;
             }
             case  252 :
             {
-                return EntitySecurityStatusKillBonus;
+                return entitysecuritystatuskillbonus;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  470 :
             {
-                return LootRespawnTime;
+                return lootrespawntime;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             case  903 :
             {
-                return SpawnWithoutGuardsToo;
+                return spawnwithoutguardstoo;
             }
             case  525 :
             {
-                return StructureUniformity;
+                return structureuniformity;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

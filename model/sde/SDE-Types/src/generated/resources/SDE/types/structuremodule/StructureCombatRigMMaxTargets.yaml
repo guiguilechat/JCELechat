@@ -1,47 +1,43 @@
 types:
   Standup M-Set Structure Target Multiplexing I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Hp: 40.0
-    Mass: 200.0
-    MaxGroupFitted: 1
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    StructureItemVisualFlag: 1
-    StructureRigMaxTargetBonus: 2
-    TechLevel: 1
-    UpgradeCost: 100
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hp: 40.0
     id: 37232
     marketGroup: 2344
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Structure Target Multiplexing I
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    structureitemvisualflag: 1
+    structurerigmaxtargetbonus: 2
+    techlevel: 1
+    upgradecost: 100
     volume: 10.0
   Standup M-Set Structure Target Multiplexing II:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Hp: 40.0
-    Mass: 200.0
-    MaxGroupFitted: 1
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    StructureItemVisualFlag: 1
-    StructureRigMaxTargetBonus: 5
-    TechLevel: 2
-    UpgradeCost: 150
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hp: 40.0
     id: 37233
     marketGroup: 2344
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Structure Target Multiplexing II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    structureitemvisualflag: 1
+    structurerigmaxtargetbonus: 5
+    techlevel: 2
+    upgradecost: 150
     volume: 10.0

@@ -1,22 +1,22 @@
 types:
   Signal Distortion Amplifier I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 25562
+    industryblueprintrank: 3.0
     marketGroup: 1567
     name: Signal Distortion Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Signal Distortion Amplifier II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 25564
+    industryblueprintrank: 7.800000190734863
     name: Signal Distortion Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

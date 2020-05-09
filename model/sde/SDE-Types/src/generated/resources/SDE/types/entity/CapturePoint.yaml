@@ -1,343 +1,305 @@
 types:
   100km Capture Point:
-    CaptureProximityRange: 100000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 1.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 100000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29318
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 100km Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   10km Amarr Capture Point:
-    CaptureProximityRange: 10000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 231.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 10000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29207
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 10km Amarr Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 231.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   10km Caldari Capture Point:
-    CaptureProximityRange: 10000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 300.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 10000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29414
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 10km Caldari Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 300.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   10km Gallente Capture Point:
-    CaptureProximityRange: 10000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 782.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 10000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29415
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 10km Gallente Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 782.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   10km Minmatar Capture Point:
-    CaptureProximityRange: 10000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 471.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 10000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29416
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 10km Minmatar Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 471.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   20km Amarr Capture Point:
-    CaptureProximityRange: 20000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 231.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 20000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29310
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 20km Amarr Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 231.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   20km Caldari Capture Point:
-    CaptureProximityRange: 20000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 300.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 20000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29418
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 20km Caldari Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 300.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   20km Gallente Capture Point:
-    CaptureProximityRange: 20000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 782.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 20000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29419
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 20km Gallente Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 782.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   20km Minmatar Capture Point:
-    CaptureProximityRange: 20000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 471.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 20000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29420
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 20km Minmatar Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 471.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   30km Amarr Capture Point:
-    CaptureProximityRange: 30000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 231.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 30000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29311
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 30km Amarr Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 231.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   30km Caldari Capture Point:
-    CaptureProximityRange: 30000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 300.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 30000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29421
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 30km Caldari Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 300.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   30km Gallente Capture Point:
-    CaptureProximityRange: 30000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 782.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 30000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29422
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 30km Gallente Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 782.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   30km Minmatar Capture Point:
-    CaptureProximityRange: 30000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E10
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 471.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 30000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E10
     id: 29423
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 30km Minmatar Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 471.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   40km Capture Point:
-    CaptureProximityRange: 40000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 1.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 40000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29312
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 40km Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   50km Capture Point:
-    CaptureProximityRange: 50000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 1.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 50000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29313
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 50km Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   60km Capture Point:
-    CaptureProximityRange: 60000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 1.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 60000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29314
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 60km Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   70km Capture Point:
-    CaptureProximityRange: 70000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 1.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 70000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29315
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 70km Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   80km Capture Point:
-    CaptureProximityRange: 80000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 1.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 80000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29316
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 80km Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0
   90km Capture Point:
-    CaptureProximityRange: 90000
-    DisallowAssistance: 1
-    EmDamageResonance: 0.0010000000474974513
-    ExplosiveDamageResonance: 1.0
-    Hp: 1.0E9
-    KineticDamageResonance: 0.0010000000474974513
-    Mass: 1000000.0
-    Radius: 1.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 0.0010000000474974513
+    captureproximityrange: 90000
+    disallowassistance: 1
+    emdamageresonance: 0.0010000000474974513
+    explosivedamageresonance: 1.0
+    hp: 1.0E9
     id: 29317
-    mass: 1000000.0
+    kineticdamageresonance: 0.0010000000474974513
     name: 90km Capture Point
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
     volume: 1.0

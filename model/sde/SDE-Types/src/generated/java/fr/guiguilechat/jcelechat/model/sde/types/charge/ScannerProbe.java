@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,26 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseMaxScanDeviation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseScanRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseSensorStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ProbeCanScanShips;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RangeFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,63 +46,63 @@ public class ScannerProbe
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Agility;
+    public double agility;
     /**
      * This is the lowest maximum scan deviation in AU for probes under the revised probing system
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double BaseMaxScanDeviation;
+    public double basemaxscandeviation;
     /**
      * This is the lowest scan range value in AUs for probes under the revised probing system
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double BaseScanRange;
+    public double basescanrange;
     /**
      * This is the highest sensor strength in points for probes under the revised probing system
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int BaseSensorStrength;
+    public int basesensorstrength;
     /**
      * The amount of milliseconds before the object explodes.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int ExplosionDelay;
+    public int explosiondelay;
     /**
      * Range in meters of explosion effect area.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ExplosionRange;
+    public int explosionrange;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int launchergroup;
     /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
+    public double maxvelocity;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -94,42 +117,42 @@ public class ScannerProbe
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * If this is 1 then the probe can scan for ships, otherwise it can't.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ProbeCanScanShips;
+    public int probecanscanships;
     /**
      * This is the multiplier/divisor for probe range increases and associated values under the revised probing system
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RangeFactor;
+    public int rangefactor;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    public double structureuniformity;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -137,14 +160,15 @@ public class ScannerProbe
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(3.0)
-    public double WarpSpeedMultiplier;
+    public double warpspeedmultiplier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, MaxVelocity.INSTANCE, ProbeCanScanShips.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, ExplosionRange.INSTANCE, StructureUniformity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, WarpSpeedMultiplier.INSTANCE, ExplosionDelay.INSTANCE, BaseScanRange.INSTANCE, BaseSensorStrength.INSTANCE, MetaGroupID.INSTANCE, BaseMaxScanDeviation.INSTANCE, RangeFactor.INSTANCE })));
     public static final ScannerProbe.MetaGroup METAGROUP = new ScannerProbe.MetaGroup();
 
     @Override
@@ -152,77 +176,82 @@ public class ScannerProbe
         switch (attribute.getId()) {
             case  70 :
             {
-                return Agility;
+                return agility;
             }
             case  1372 :
             {
-                return BaseMaxScanDeviation;
+                return basemaxscandeviation;
             }
             case  1370 :
             {
-                return BaseScanRange;
+                return basescanrange;
             }
             case  1371 :
             {
-                return BaseSensorStrength;
+                return basesensorstrength;
             }
             case  281 :
             {
-                return ExplosionDelay;
+                return explosiondelay;
             }
             case  107 :
             {
-                return ExplosionRange;
+                return explosionrange;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  137 :
             {
-                return LauncherGroup;
+                return launchergroup;
             }
             case  37 :
             {
-                return MaxVelocity;
+                return maxvelocity;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  1413 :
             {
-                return ProbeCanScanShips;
+                return probecanscanships;
             }
             case  1373 :
             {
-                return RangeFactor;
+                return rangefactor;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  525 :
             {
-                return StructureUniformity;
+                return structureuniformity;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  600 :
             {
-                return WarpSpeedMultiplier;
+                return warpspeedmultiplier;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

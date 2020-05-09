@@ -1,46 +1,44 @@
 types:
   Jump Bridge:
-    AnchoringDelay: 30000
-    AnchoringSecurityLevelMax: 1.0
-    ArmorHP: 1.5E7
-    ArmorUniformity: 0.75
-    Capacity: 60000.0
-    ControlTowerMinimumDistance: 25000
-    Cpu: 4000.0
-    DisallowOffensiveModifiers: 1
-    EmDamageResonance: 1.0
-    ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000.0
-    IncapacitationRatio: 0.0010000000474974513
-    JumpDriveConsumptionAmount: 500
-    JumpDriveConsumptionType: 16273
-    JumpDriveRange: 5.0
-    JumpPortalConsumptionMassFactor: 1.500000013088254E-9
-    KineticDamageResonance: 1.0
-    Mass: 2.5E7
-    OnliningDelay: 1800000
-    PosAnchoredPerSolarSystemAmount: 1
-    PosCargobayAcceptType: 16273
-    Power: 750000
-    Radius: 459.0
-    RequiresSovUpgrade1: 32422
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 1000000.0
-    ShieldRechargeRate: 1.0E8
-    SignatureRadius: 8000.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 1.0
-    UnanchoringDelay: 60000
-    Uniformity: 0.75
+    anchoringdelay: 30000
+    anchoringsecuritylevelmax: 1.0
+    armorhp: 1.5E7
+    armoruniformity: 0.75
+    capacity: 60000.0
+    controltowerminimumdistance: 25000
+    cpu: 4000.0
+    disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 100000.0
     id: 27897
+    incapacitationratio: 0.0010000000474974513
+    jumpdriveconsumptionamount: 500
+    jumpdriveconsumptiontype: 16273
+    jumpdriverange: 5.0
+    jumpportalconsumptionmassfactor: 1.500000013088254E-9
+    kineticdamageresonance: 1.0
     marketGroup: 1011
-    mass: 2.5E7
     name: Jump Bridge
+    onliningdelay: 1800000
     packagedVolume: 100000.0
     portionSize: 1
+    posanchoredpersolarsystemamount: 1
+    poscargobayaccepttype: 16273
+    power: 750000
     published: true
+    radius: 459.0
+    requiressovupgrade1: 32422
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 1000000.0
+    shieldrechargerate: 1.0E8
+    signatureradius: 8000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    unanchoringdelay: 60000
+    uniformity: 0.75
     volume: 100000.0

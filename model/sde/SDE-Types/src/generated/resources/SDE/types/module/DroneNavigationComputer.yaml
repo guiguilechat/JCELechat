@@ -1,158 +1,142 @@
 types:
   Drone Navigation Computer I:
-    Cpu: 30.0
-    Hp: 40.0
-    Mass: 200.0
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 12305
-    RequiredSkill1Level: 3
-    SpeedFactor: 25.0
-    TechLevel: 1
+    cpu: 30.0
+    hp: 40.0
     id: 24395
     marketGroup: 938
-    mass: 200.0
     name: Drone Navigation Computer I
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 25.0
+    techlevel: 1
     volume: 25.0
   Drone Navigation Computer II:
-    Cpu: 35.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 12305
-    RequiredSkill1Level: 5
-    SpeedFactor: 30.0
-    TechLevel: 2
+    cpu: 35.0
+    hp: 40.0
     id: 24417
     marketGroup: 938
-    mass: 200.0
+    metalevel: 5
     name: Drone Navigation Computer II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 5
+    speedfactor: 30.0
+    techlevel: 2
     volume: 5.0
   Federation Navy Drone Navigation Computer:
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 12305
-    RequiredSkill1Level: 3
-    SpeedFactor: 32.0
-    TechLevel: 1
+    cpu: 20.0
+    hp: 40.0
     id: 33850
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 4
+    metalevel: 8
     name: Federation Navy Drone Navigation Computer
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 32.0
+    techlevel: 1
     volume: 25.0
   Sentient Drone Navigation Computer:
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 12305
-    RequiredSkill1Level: 3
-    SpeedFactor: 32.0
-    TechLevel: 1
+    cpu: 20.0
+    hp: 40.0
     id: 33852
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 4
+    metalevel: 8
     name: Sentient Drone Navigation Computer
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 32.0
+    techlevel: 1
     volume: 25.0
   Unit D-34343's Modified Drone Navigation Computer:
-    Cpu: 24.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 12305
-    RequiredSkill1Level: 3
-    SpeedFactor: 35.0
-    TechLevel: 1
+    cpu: 24.0
+    hp: 40.0
     id: 32943
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 5
+    metalevel: 11
     name: Unit D-34343's Modified Drone Navigation Computer
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 35.0
+    techlevel: 1
     volume: 25.0
   Unit F-435454's Modified Drone Navigation Computer:
-    Cpu: 27.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 12305
-    RequiredSkill1Level: 3
-    SpeedFactor: 36.0
-    TechLevel: 1
+    cpu: 27.0
+    hp: 40.0
     id: 32945
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 5
+    metalevel: 12
     name: Unit F-435454's Modified Drone Navigation Computer
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 36.0
+    techlevel: 1
     volume: 25.0
   Unit P-343554's Modified Drone Navigation Computer:
-    Cpu: 30.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 12305
-    RequiredSkill1Level: 3
-    SpeedFactor: 37.0
-    TechLevel: 1
+    cpu: 30.0
+    hp: 40.0
     id: 32947
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 5
+    metalevel: 13
     name: Unit P-343554's Modified Drone Navigation Computer
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 37.0
+    techlevel: 1
     volume: 25.0
   Unit W-634's Modified Drone Navigation Computer:
-    Cpu: 33.0
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 100.0
-    RequiredSkill1: 12305
-    RequiredSkill1Level: 3
-    SpeedFactor: 38.0
-    TechLevel: 1
+    cpu: 33.0
+    hp: 40.0
     id: 32949
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 5
+    metalevel: 14
     name: Unit W-634's Modified Drone Navigation Computer
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 100.0
+    requiredskill1: 12305
+    requiredskill1level: 3
+    speedfactor: 38.0
+    techlevel: 1
     volume: 25.0

@@ -1,247 +1,233 @@
 types:
   Standup ECM Jammer Burst Projector:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 15000.0
-    Cpu: 4500.0
-    DisallowEarlyDeactivation: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOEDuration: 40000
-    DoomsdayAOERange: 10000
-    DoomsdayAOEShape: 4
-    DoomsdayWarningDuration: 20000
-    DurationECMJammerBurstProjector: 90000
-    Hp: 40.0
-    IsPointTargeted: 1
-    Mass: 500.0
-    MaxRange: 300000.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 150000
-    Radius: 1.0
-    RemoteResistanceID: 2253
-    ScanGravimetricStrengthBonus: 10.0
-    ScanLadarStrengthBonus: 10.0
-    ScanMagnetometricStrengthBonus: 10.0
-    ScanRadarStrengthBonus: 10.0
-    SpeedFactor: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 15000.0
+    cpu: 4500.0
+    disallowearlydeactivation: 1
+    disallowrepeatingactivation: 1
+    doomsdayaoeduration: 40000
+    doomsdayaoerange: 10000
+    doomsdayaoeshape: 4
+    doomsdaywarningduration: 20000
+    durationecmjammerburstprojector: 90000
+    hp: 40.0
     id: 47069
+    ispointtargeted: 1
     marketGroup: 2408
-    mass: 500.0
+    maxrange: 300000.0
+    maxtypefitted: 1
     name: Standup ECM Jammer Burst Projector
+    onlinemaxsecurityclass: 1
     packagedVolume: 4000.0
     portionSize: 1
+    power: 150000
     published: true
+    radius: 1.0
+    remoteresistanceid: 2253
+    scangravimetricstrengthbonus: 10.0
+    scanladarstrengthbonus: 10.0
+    scanmagnetometricstrengthbonus: 10.0
+    scanradarstrengthbonus: 10.0
+    speedfactor: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Energy Neutralization Burst Projector:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 19000.0
-    Cpu: 3000.0
-    DisallowInHighSec: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOERange: 10000
-    DoomsdayAOEShape: 4
-    DoomsdayAOESignatureRadius: 500
-    DoomsdayWarningDuration: 20000
-    Duration: 90000.0
-    EnergyNeutralizerAmount: 4000.0
-    Hp: 40.0
-    IsPointTargeted: 1
-    Mass: 500.0
-    MaxRange: 300000.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 200000
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    SpeedFactor: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 19000.0
+    cpu: 3000.0
+    disallowinhighsec: 1
+    disallowrepeatingactivation: 1
+    doomsdayaoerange: 10000
+    doomsdayaoeshape: 4
+    doomsdayaoesignatureradius: 500
+    doomsdaywarningduration: 20000
+    duration: 90000.0
+    energyneutralizeramount: 4000.0
+    hp: 40.0
     id: 35944
+    ispointtargeted: 1
     marketGroup: 2408
-    mass: 500.0
+    maxrange: 300000.0
+    maxtypefitted: 1
     name: Standup Energy Neutralization Burst Projector
+    onlinemaxsecurityclass: 1
     packagedVolume: 4000.0
     portionSize: 1
+    power: 200000
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    speedfactor: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Sensor Dampening Burst Projector:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 13500.0
-    Cpu: 4200.0
-    DisallowEarlyDeactivation: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOEDuration: 60000
-    DoomsdayAOERange: 10000
-    DoomsdayAOEShape: 4
-    DoomsdayWarningDuration: 20000
-    DurationSensorDampeningBurstProjector: 90000
-    Hp: 40.0
-    IsPointTargeted: 1
-    Mass: 500.0
-    MaxRange: 300000.0
-    MaxTargetRangeBonus: -36.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 160000
-    Radius: 1.0
-    RemoteResistanceID: 2112
-    ScanResolutionBonus: -36.0
-    SpeedFactor: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 13500.0
+    cpu: 4200.0
+    disallowearlydeactivation: 1
+    disallowrepeatingactivation: 1
+    doomsdayaoeduration: 60000
+    doomsdayaoerange: 10000
+    doomsdayaoeshape: 4
+    doomsdaywarningduration: 20000
+    durationsensordampeningburstprojector: 90000
+    hp: 40.0
     id: 47070
+    ispointtargeted: 1
     marketGroup: 2408
-    mass: 500.0
+    maxrange: 300000.0
+    maxtargetrangebonus: -36.0
+    maxtypefitted: 1
     name: Standup Sensor Dampening Burst Projector
+    onlinemaxsecurityclass: 1
     packagedVolume: 4000.0
     portionSize: 1
+    power: 160000
     published: true
+    radius: 1.0
+    remoteresistanceid: 2112
+    scanresolutionbonus: -36.0
+    speedfactor: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Stasis Webification Burst Projector:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 18000.0
-    Cpu: 3900.0
-    DisallowEarlyDeactivation: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOEDuration: 40000
-    DoomsdayAOERange: 10000
-    DoomsdayAOEShape: 4
-    DoomsdayWarningDuration: 20000
-    Duration: 120000.0
-    Hp: 40.0
-    IsPointTargeted: 1
-    Mass: 500.0
-    MaxRange: 300000.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 170000
-    Radius: 1.0
-    RemoteResistanceID: 2115
-    SpeedFactor: -55.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 18000.0
+    cpu: 3900.0
+    disallowearlydeactivation: 1
+    disallowrepeatingactivation: 1
+    doomsdayaoeduration: 40000
+    doomsdayaoerange: 10000
+    doomsdayaoeshape: 4
+    doomsdaywarningduration: 20000
+    duration: 120000.0
+    hp: 40.0
     id: 47071
+    ispointtargeted: 1
     marketGroup: 2408
-    mass: 500.0
+    maxrange: 300000.0
+    maxtypefitted: 1
     name: Standup Stasis Webification Burst Projector
+    onlinemaxsecurityclass: 1
     packagedVolume: 4000.0
     portionSize: 1
+    power: 170000
     published: true
+    radius: 1.0
+    remoteresistanceid: 2115
+    speedfactor: -55.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Target Illumination Burst Projector:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 12000.0
-    Cpu: 3600.0
-    DisallowInHighSec: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOEDuration: 60000
-    DoomsdayAOERange: 10000
-    DoomsdayAOEShape: 4
-    DoomsdayWarningDuration: 20000
-    DurationTargetIlluminationBurstProjector: 90000
-    Hp: 40.0
-    IsPointTargeted: 1
-    Mass: 500.0
-    MaxRange: 300000.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 180000
-    Radius: 1.0
-    RemoteResistanceID: 2114
-    SignatureRadiusBonus: 50.0
-    SpeedFactor: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 12000.0
+    cpu: 3600.0
+    disallowinhighsec: 1
+    disallowrepeatingactivation: 1
+    doomsdayaoeduration: 60000
+    doomsdayaoerange: 10000
+    doomsdayaoeshape: 4
+    doomsdaywarningduration: 20000
+    durationtargetilluminationburstprojector: 90000
+    hp: 40.0
     id: 47072
+    ispointtargeted: 1
     marketGroup: 2408
-    mass: 500.0
+    maxrange: 300000.0
+    maxtypefitted: 1
     name: Standup Target Illumination Burst Projector
+    onlinemaxsecurityclass: 1
     packagedVolume: 4000.0
     portionSize: 1
+    power: 180000
     published: true
+    radius: 1.0
+    remoteresistanceid: 2114
+    signatureradiusbonus: 50.0
+    speedfactor: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Warp Disruption Burst Projector:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 30000.0
-    Cpu: 3300.0
-    DisallowEarlyDeactivation: 1
-    DisallowInEmpireSpace: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOEDuration: 60000
-    DoomsdayAOERange: 10000
-    DoomsdayAOEShape: 4
-    DoomsdayWarningDuration: 20000
-    Duration: 150000.0
-    Hp: 40.0
-    IsPointTargeted: 1
-    Mass: 500.0
-    MaxRange: 300000.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 2
-    Power: 190000
-    Radius: 1.0
-    SpeedFactor: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 30000.0
+    cpu: 3300.0
+    disallowearlydeactivation: 1
+    disallowinempirespace: 1
+    disallowrepeatingactivation: 1
+    doomsdayaoeduration: 60000
+    doomsdayaoerange: 10000
+    doomsdayaoeshape: 4
+    doomsdaywarningduration: 20000
+    duration: 150000.0
+    hp: 40.0
     id: 47073
+    ispointtargeted: 1
     marketGroup: 2408
-    mass: 500.0
+    maxrange: 300000.0
+    maxtypefitted: 1
     name: Standup Warp Disruption Burst Projector
+    onlinemaxsecurityclass: 2
     packagedVolume: 4000.0
     portionSize: 1
+    power: 190000
     published: true
+    radius: 1.0
+    speedfactor: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Weapon Disruption Burst Projector:
-    AoeCloudSizeBonus: 28.0
-    AoeVelocityBonus: -28.0
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 13000.0
-    Cpu: 3900.0
-    DisallowEarlyDeactivation: 1
-    DisallowRepeatingActivation: 1
-    DoomsdayAOEDuration: 60000
-    DoomsdayAOERange: 10000
-    DoomsdayAOEShape: 4
-    DoomsdayWarningDuration: 20000
-    DurationWeaponDisruptionBurstProjector: 90000
-    ExplosionDelayBonus: -22.0
-    FalloffBonus: -40.0
-    Hp: 40.0
-    IsPointTargeted: 1
-    Mass: 500.0
-    MaxRange: 300000.0
-    MaxRangeBonus: -40.0
-    MaxTypeFitted: 1
-    MissileVelocityBonus: -22.0
-    OnlineMaxSecurityClass: 1
-    Power: 170000
-    Radius: 1.0
-    RemoteResistanceID: 2113
-    SpeedFactor: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    TrackingSpeedBonus: -40.0
+    aoecloudsizebonus: 28.0
+    aoevelocitybonus: -28.0
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 13000.0
+    cpu: 3900.0
+    disallowearlydeactivation: 1
+    disallowrepeatingactivation: 1
+    doomsdayaoeduration: 60000
+    doomsdayaoerange: 10000
+    doomsdayaoeshape: 4
+    doomsdaywarningduration: 20000
+    durationweapondisruptionburstprojector: 90000
+    explosiondelaybonus: -22.0
+    falloffbonus: -40.0
+    hp: 40.0
     id: 47074
+    ispointtargeted: 1
     marketGroup: 2408
-    mass: 500.0
+    maxrange: 300000.0
+    maxrangebonus: -40.0
+    maxtypefitted: 1
+    missilevelocitybonus: -22.0
     name: Standup Weapon Disruption Burst Projector
+    onlinemaxsecurityclass: 1
     packagedVolume: 4000.0
     portionSize: 1
+    power: 170000
     published: true
+    radius: 1.0
+    remoteresistanceid: 2113
+    speedfactor: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
+    trackingspeedbonus: -40.0
     volume: 4000.0

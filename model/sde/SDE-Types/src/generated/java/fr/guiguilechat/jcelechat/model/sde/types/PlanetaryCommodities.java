@@ -13,6 +13,11 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExportTaxMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ImportTaxMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.planetarycommodities.AdvancedCommoditiesTier4;
 import fr.guiguilechat.jcelechat.model.sde.types.planetarycommodities.BasicCommoditiesTier1;
 import fr.guiguilechat.jcelechat.model.sde.types.planetarycommodities.RefinedCommoditiesTier2;
@@ -27,36 +32,36 @@ public abstract class PlanetaryCommodities
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * Export tax multiplier when exporting this commodity off a planet.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ExportTaxMultiplier;
+    public int exporttaxmultiplier;
     /**
      * Cost multiplier per m3 volume of this commodity when importing to a planet
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ImportTaxMultiplier;
+    public int importtaxmultiplier;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ImportTaxMultiplier.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ExportTaxMultiplier.INSTANCE })));
+    public double radius;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, ImportTaxMultiplier.INSTANCE, ExportTaxMultiplier.INSTANCE })));
     public static final PlanetaryCommodities.MetaCat METACAT = new PlanetaryCommodities.MetaCat();
 
     @Override
@@ -64,23 +69,23 @@ public abstract class PlanetaryCommodities
         switch (attribute.getId()) {
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  1641 :
             {
-                return ExportTaxMultiplier;
+                return exporttaxmultiplier;
             }
             case  1640 :
             {
-                return ImportTaxMultiplier;
+                return importtaxmultiplier;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             default:
             {

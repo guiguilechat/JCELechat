@@ -1,22 +1,22 @@
 types:
   Survey Probe Launcher I Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 33271
+    industryblueprintrank: 9.0
     marketGroup: 1716
     name: Survey Probe Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Survey Probe Launcher II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    Radius: 1.0
-    TechLevel: 2
     id: 33273
+    industryblueprintrank: 23.399999618530273
     name: Survey Probe Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

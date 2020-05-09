@@ -1,42 +1,42 @@
 types:
   '''Aura'' Warp Core Stabilizer I Blueprint':
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 22876
+    industryblueprintrank: 3.0
     name: '''Aura'' Warp Core Stabilizer I Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   '''Natura'' Warp Core Stabilizer I Blueprint':
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 22878
+    industryblueprintrank: 3.0
     name: '''Natura'' Warp Core Stabilizer I Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Warp Core Stabilizer I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 11613
+    industryblueprintrank: 3.0
     marketGroup: 332
     name: Warp Core Stabilizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Warp Core Stabilizer II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 11641
+    industryblueprintrank: 7.800000190734863
     name: Warp Core Stabilizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

@@ -1,73 +1,69 @@
 types:
   Ship Maintenance Array:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 1.0
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 2.0E7
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    MaxOperationalDistance: 3000
-    MaxOperationalUsers: 10
-    OnliningDelay: 3000
-    Power: 250000
-    Radius: 726.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 1
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    anchoringsecuritylevelmax: 1.0
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 2.0E7
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 12237
     marketGroup: 484
-    mass: 1.0E8
+    maxoperationaldistance: 3000
+    maxoperationalusers: 10
     name: Ship Maintenance Array
+    onliningdelay: 3000
     packagedVolume: 8000.0
     portionSize: 1
+    power: 250000
     published: true
+    radius: 726.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 400000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 8000.0
   X-Large Ship Maintenance Array:
-    AnchoringDelay: 30000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 1.55E8
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 2.0E9
-    MaxOperationalDistance: 3000
-    MaxOperationalUsers: 10
-    OnliningDelay: 10000
-    Power: 1000000
-    Radius: 12954.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 1
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 600000
-    Uniformity: 1.0
+    anchoringdelay: 30000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 1.55E8
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 24646
     marketGroup: 484
-    mass: 2.0E9
+    maxoperationaldistance: 3000
+    maxoperationalusers: 10
     name: X-Large Ship Maintenance Array
+    onliningdelay: 10000
     packagedVolume: 40000.0
     portionSize: 1
+    power: 1000000
     published: true
+    radius: 12954.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 400000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 600000
+    uniformity: 1.0
     volume: 40000.0

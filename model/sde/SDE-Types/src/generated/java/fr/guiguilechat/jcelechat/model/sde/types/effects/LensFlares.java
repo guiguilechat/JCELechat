@@ -4,6 +4,8 @@ import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.Effects;
@@ -12,7 +14,13 @@ import org.yaml.snakeyaml.Yaml;
 public class LensFlares
     extends Effects
 {
+    public static final Set<Attribute> ATTRIBUTES = Collections.emptySet();
     public static final LensFlares.MetaGroup METAGROUP = new LensFlares.MetaGroup();
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
+    }
 
     @Override
     public IMetaGroup<LensFlares> getGroup() {

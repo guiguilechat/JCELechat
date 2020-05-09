@@ -1,110 +1,102 @@
 types:
   Standup Biochemical Reactor I:
-    CanFitShipGroup01: 1406
-    Cpu: 200.0
-    DisallowInHighSec: 1
-    Mass: 500.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 40000
-    Radius: 1.0
-    RefiningYieldIce: 0.5
-    RefiningYieldMoonOres: 0.5
-    RefiningYieldMultiplier: 0.5
-    RefiningYieldNormalOres: 0.5
-    ServiceModuleFuelAmount: 15
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshipgroup01: 1406
+    cpu: 200.0
+    disallowinhighsec: 1
     id: 45539
     marketGroup: 2233
-    mass: 500.0
+    maxtypefitted: 1
     name: Standup Biochemical Reactor I
+    onlinemaxsecurityclass: 1
     packagedVolume: 4000.0
     portionSize: 1
+    power: 40000
     published: true
+    radius: 1.0
+    refiningyieldice: 0.5
+    refiningyieldmoonores: 0.5
+    refiningyieldmultiplier: 0.5
+    refiningyieldnormalores: 0.5
+    servicemodulefuelamount: 15
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 864
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 4000.0
   Standup Composite Reactor I:
-    CanFitShipGroup01: 1406
-    Cpu: 200.0
-    DisallowInHighSec: 1
-    Mass: 500.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 40000
-    Radius: 1.0
-    RefiningYieldIce: 0.5
-    RefiningYieldMoonOres: 0.5
-    RefiningYieldMultiplier: 0.5
-    RefiningYieldNormalOres: 0.5
-    ServiceModuleFuelAmount: 15
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshipgroup01: 1406
+    cpu: 200.0
+    disallowinhighsec: 1
     id: 45537
     marketGroup: 2233
-    mass: 500.0
+    maxtypefitted: 1
     name: Standup Composite Reactor I
+    onlinemaxsecurityclass: 1
     packagedVolume: 4000.0
     portionSize: 1
+    power: 40000
     published: true
+    radius: 1.0
+    refiningyieldice: 0.5
+    refiningyieldmoonores: 0.5
+    refiningyieldmultiplier: 0.5
+    refiningyieldnormalores: 0.5
+    servicemodulefuelamount: 15
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 864
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 4000.0
   Standup Hybrid Reactor I:
-    CanFitShipGroup01: 1406
-    Cpu: 200.0
-    DisallowInHighSec: 1
-    Mass: 500.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 40000
-    Radius: 1.0
-    RefiningYieldIce: 0.5
-    RefiningYieldMoonOres: 0.5
-    RefiningYieldMultiplier: 0.5
-    RefiningYieldNormalOres: 0.5
-    ServiceModuleFuelAmount: 15
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshipgroup01: 1406
+    cpu: 200.0
+    disallowinhighsec: 1
     id: 45538
     marketGroup: 2233
-    mass: 500.0
+    maxtypefitted: 1
     name: Standup Hybrid Reactor I
+    onlinemaxsecurityclass: 1
     packagedVolume: 4000.0
     portionSize: 1
+    power: 40000
     published: true
+    radius: 1.0
+    refiningyieldice: 0.5
+    refiningyieldmoonores: 0.5
+    refiningyieldmultiplier: 0.5
+    refiningyieldnormalores: 0.5
+    servicemodulefuelamount: 15
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 864
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 4000.0
   Standup Reprocessing Facility I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Cpu: 200.0
-    Mass: 500.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 2
-    Power: 30000
-    Radius: 1.0
-    RefiningYieldIce: 0.5
-    RefiningYieldMoonOres: 0.5
-    RefiningYieldMultiplier: 0.5
-    RefiningYieldNormalOres: 0.5
-    ServiceModuleFuelAmount: 10
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 720
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    cpu: 200.0
     id: 35899
     marketGroup: 2233
-    mass: 500.0
+    maxtypefitted: 1
     name: Standup Reprocessing Facility I
+    onlinemaxsecurityclass: 2
     packagedVolume: 4000.0
     portionSize: 1
+    power: 30000
     published: true
+    radius: 1.0
+    refiningyieldice: 0.5
+    refiningyieldmoonores: 0.5
+    refiningyieldmultiplier: 0.5
+    refiningyieldnormalores: 0.5
+    servicemodulefuelamount: 10
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 720
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 4000.0

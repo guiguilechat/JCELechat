@@ -1,169 +1,153 @@
 types:
   Azure Plagioclase:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28421
-    Mass: 1.0000000409184788E35
-    OreBasicType: 18
-    Radius: 1.0
-    ReprocessingSkillType: 12191
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    compressionquantityneeded: 100
+    compressiontypeid: 28421
     id: 17455
     marketGroup: 516
-    mass: 1.0000000409184788E35
     name: Azure Plagioclase
+    orebasictype: 18
     packagedVolume: 0.3499999940395355
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12191
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.3499999940395355
   Compressed Azure Plagioclase:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 18
-    Radius: 1.0
-    ReprocessingSkillType: 12191
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28421
     marketGroup: 516
-    mass: 1.0000000409184788E35
     name: Compressed Azure Plagioclase
+    orebasictype: 18
     packagedVolume: 0.15000000596046448
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12191
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Compressed Plagioclase:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 18
-    Radius: 1.0
-    ReprocessingSkillType: 12191
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28422
     marketGroup: 516
-    mass: 1.0000000409184788E35
     name: Compressed Plagioclase
+    orebasictype: 18
     packagedVolume: 0.15000000596046448
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12191
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Compressed Rich Plagioclase:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 18
-    Radius: 1.0
-    ReprocessingSkillType: 12191
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28423
     marketGroup: 516
-    mass: 1.0000000409184788E35
     name: Compressed Rich Plagioclase
+    orebasictype: 18
     packagedVolume: 0.15000000596046448
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12191
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Compressed Sparkling Plagioclase:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0
-    OreBasicType: 46685
-    Radius: 1.0
-    ReprocessingSkillType: 12191
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 46701
     marketGroup: 516
-    mass: 1.0
     name: Compressed Sparkling Plagioclase
+    orebasictype: 46685
     packagedVolume: 0.15000000596046448
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12191
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Plagioclase:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28422
-    Mass: 1.0000000409184788E35
-    OreBasicType: 18
-    Radius: 1.0
-    ReprocessingSkillType: 12191
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    compressionquantityneeded: 100
+    compressiontypeid: 28422
     id: 18
     marketGroup: 516
-    mass: 1.0000000409184788E35
     name: Plagioclase
+    orebasictype: 18
     packagedVolume: 0.3499999940395355
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12191
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.3499999940395355
   Rich Plagioclase:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28423
-    Mass: 1.0000000409184788E35
-    OreBasicType: 18
-    Radius: 1.0
-    ReprocessingSkillType: 12191
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    compressionquantityneeded: 100
+    compressiontypeid: 28423
     id: 17456
     marketGroup: 516
-    mass: 1.0000000409184788E35
     name: Rich Plagioclase
+    orebasictype: 18
     packagedVolume: 0.3499999940395355
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12191
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.3499999940395355
   Sparkling Plagioclase:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 0.052000001072883606
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 46701
-    Mass: 1.0000000409184788E35
-    OreBasicType: 46685
-    Radius: 1.0
-    ReprocessingSkillType: 12191
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.052000001072883606
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 46701
     id: 46685
     marketGroup: 516
-    mass: 1.0000000409184788E35
     name: Sparkling Plagioclase
+    orebasictype: 46685
     packagedVolume: 0.3499999940395355
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12191
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.3499999940395355

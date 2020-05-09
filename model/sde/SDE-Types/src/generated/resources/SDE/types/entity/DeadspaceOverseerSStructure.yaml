@@ -1,4058 +1,3800 @@
 types:
   Akkeshu's Storage Facility:
-    ArmorHP: 500.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 5
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 911.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 8850.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 5
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 700.0
     id: 25377
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Akkeshu's Storage Facility
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 911.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   Altar of the Blessed:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 40000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 2787.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 40000.0
     id: 24243
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Altar of the Blessed
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 2787.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Amarr Battlestation:
-    ArmorHP: 500000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 200000.0
-    LootRespawnTime: 600000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 14592.0
-    ShieldCapacity: 100000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 200000.0
     id: 23642
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Amarr Battlestation
     portionSize: 1
     published: false
+    radius: 14592.0
+    shieldcapacity: 100000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
   Angel Battlestation:
-    ArmorHP: 100000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 200000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 6185.0
-    ShieldCapacity: 50000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 100000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 200000.0
     id: 19487
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Angel Battlestation
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 6185.0
+    shieldcapacity: 50000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Angel Control Center:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 834.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 700.0
     id: 26251
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Angel Control Center
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 834.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Angel Information Center:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 100000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4974.0
-    ShieldCapacity: 50000.0
-    ShieldRechargeRate: 500000.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 100000.0
     id: 22232
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Angel Information Center
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4974.0
+    shieldcapacity: 50000.0
+    shieldrechargerate: 500000.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Angel Radiating Telescope:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 7
-    EntityEquipmentMin: 4
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 7
-    EntityLootCountMin: 4
-    Falloff: 1.0
-    Hp: 12000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 2636.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 7
+    entityequipmentmin: 4
+    entityflyrange: 500.0
+    entitylootcountmax: 7
+    entitylootcountmin: 4
+    falloff: 1.0
+    hp: 12000.0
     id: 19558
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Angel Radiating Telescope
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 2636.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Angels Retirement Home:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityBracketColour: 1
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 379.0
-    ShieldCapacity: 93000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitybracketcolour: 1
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -2
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 1000.0
     id: 17422
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Angels Retirement Home
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 379.0
+    shieldcapacity: 93000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Assembly Management HQ:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 5000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 3394.0
-    ShieldCapacity: 80000.0
-    ShieldRechargeRate: 120000.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 5000.0
     id: 17994
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Assembly Management HQ
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 3394.0
+    shieldcapacity: 80000.0
+    shieldrechargerate: 120000.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Asteroid Colony:
-    ArmorHP: 3500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 5000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4007.0
-    ShieldCapacity: 1000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 3500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 5000.0
     id: 20162
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Asteroid Colony
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4007.0
+    shieldcapacity: 1000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Asteroid Deadspace Mining Post:
-    ArmorHP: 1000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 10
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 15000.0
-    LootRespawnTime: 600000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 9213.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 10
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 15000.0
     id: 23522
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Asteroid Deadspace Mining Post
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 9213.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0
   Asteroid Station:
-    ArmorHP: 3000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 6000.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 2617.0
-    ShieldCapacity: 1000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 3000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 6000.0
     id: 24262
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Asteroid Station
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 2617.0
+    shieldcapacity: 1000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Barou Lardoss's Iteron:
-    AgentID: 3018459
-    ArmorHP: 600.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 600.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 553.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    agentid: 3018459
+    armorhp: 600.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 600.0
     id: 22182
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Barou Lardoss's Iteron
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 553.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Barricaded Warehouse:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 416.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 1000.0
     id: 21617
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Barricaded Warehouse
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Bastion Museum:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 5
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 8000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 416.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 5
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 8000.0
     id: 22098
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Bastion Museum
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Biodome Gardens:
-    ArmorHP: 100.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4974.0
-    ShieldCapacity: 500.0
-    ShieldRechargeRate: 500000.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 100.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 1000.0
     id: 17273
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Biodome Gardens
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4974.0
+    shieldcapacity: 500.0
+    shieldrechargerate: 500000.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Blasted Neon Sign_mission:
-    ArmorHP: 100.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 1
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 50.0
-    LootRespawnTime: 120000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 1348.0
-    ShieldCapacity: 50.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 100.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 1
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 50.0
     id: 24761
-    mass: 100000.0
+    lootrespawntime: 120000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Blasted Neon Sign_mission
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1348.0
+    shieldcapacity: 50.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Blood Kernel:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 50000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 711.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 50000.0
     id: 23964
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Blood Kernel
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 711.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Blood Raider Chapel:
-    ArmorHP: 1200.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 800.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 971.0
-    ShieldCapacity: 450.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1200.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 800.0
     id: 20196
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Blood Raider Chapel
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 971.0
+    shieldcapacity: 450.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Blood Raider Control Center:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 703.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 700.0
     id: 26247
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Blood Raider Control Center
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 703.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Blood Research Outpost:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 400.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 400.0
     id: 26733
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Blood Research Outpost
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Brothel:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 416.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 1000.0
     id: 22320
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Brothel
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   COSMOS Storage Silo:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 10000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 1226.0
-    ShieldCapacity: 500.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 10000.0
     id: 21459
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: COSMOS Storage Silo
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 500.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Caldari Broadcasting Unit:
-    ArmorHP: 2000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 70.0
-    ShieldCapacity: 3000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 2000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 1000.0
     id: 22739
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Caldari Broadcasting Unit
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 70.0
+    shieldcapacity: 3000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Caldari Research Outpost:
-    ArmorHP: 50000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 4
-    EntityEquipmentMin: 3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 4
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 50000.0
-    LootRespawnTime: 600000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 12748.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 50000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 4
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 4
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 50000.0
     id: 25360
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Caldari Research Outpost
     portionSize: 1
     published: false
+    radius: 12748.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
   Captive Fighting Arena:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 15000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 2495.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 15000.0
     id: 18645
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Captive Fighting Arena
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 2495.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Cartel Research Outpost:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 400.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 400.0
     id: 26731
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Cartel Research Outpost
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Centus Reprocessing Station:
-    ArmorHP: 5000.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 70000.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 1218.0
-    ShieldCapacity: 60000.0
-    ShieldRechargeRate: 95000.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 8850.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -1
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 70000.0
     id: 19957
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Centus Reprocessing Station
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 1218.0
+    shieldcapacity: 60000.0
+    shieldrechargerate: 95000.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   ComLink Scanner:
-    ArmorHP: 930.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 200.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 70.0
-    ShieldCapacity: 930.0
-    ShieldRechargeRate: 86400.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 930.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 200.0
     id: 22031
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: ComLink Scanner
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 70.0
+    shieldcapacity: 930.0
+    shieldrechargerate: 86400.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Core Serpentis Operational Headquarters:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 25000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 8380.0
-    ShieldCapacity: 6000.0
-    ShieldRechargeRate: 600000.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -1
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 25000.0
     id: 24579
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Core Serpentis Operational Headquarters
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 8380.0
+    shieldcapacity: 6000.0
+    shieldrechargerate: 600000.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Core Serpentis Sentry:
-    ArmorHP: 40000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 10000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 40000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 10000.0
     id: 23908
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Core Serpentis Sentry
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Cracked Hive Mind Cage:
-    ArmorHP: 2000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 3000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 717.0
-    ShieldCapacity: 200.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 2000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 3000.0
     id: 23688
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Cracked Hive Mind Cage
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 717.0
+    shieldcapacity: 200.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   CreoCorp Main Factory:
-    ArmorHP: 200.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 150.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4007.0
-    ShieldCapacity: 200.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 200.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 150.0
     id: 17632
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: CreoCorp Main Factory
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4007.0
+    shieldcapacity: 200.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Damaged Portal:
-    ArmorHP: 93000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 15000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 890.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 93000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 15000.0
     id: 22158
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Damaged Portal
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 890.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Deadspace Control Station:
-    ArmorHP: 2000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 500.0
-    LootRespawnTime: 600000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 9213.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 2000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -2
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 500.0
     id: 17645
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Deadspace Control Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 9213.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0
   Deadspace Synchronization HQ:
-    ArmorHP: 600.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -4
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 600.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4737.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 600.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -4
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 600.0
     id: 17631
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Deadspace Synchronization HQ
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4737.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Decloaked Transmission Relay:
-    ArmorHP: 500000.0
-    ArmorUniformity: 1.0
-    Capacity: 10000.0
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 500000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 7684.0
-    ShieldCapacity: 1000000.0
-    ShieldRechargeRate: 5000000.0
-    SignatureRadius: 20000.0
-    StructureUniformity: 1.0
+    armorhp: 500000.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 500000.0
     id: 41589
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Decloaked Transmission Relay
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 7684.0
+    shieldcapacity: 1000000.0
+    shieldrechargerate: 5000000.0
+    signatureradius: 20000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Deserted Nefantar Bunker:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 713.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 700.0
     id: 22241
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Deserted Nefantar Bunker
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 713.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Deserted Starbase Storage Facility:
-    ArmorHP: 500.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 50
-    EntityEquipmentMin: 10
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 911.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 8850.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 50
+    entityequipmentmin: 10
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 19560
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Deserted Starbase Storage Facility
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 911.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   Dewak's First Officer's HQ:
-    ArmorHP: 1500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -4
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 416.0
-    ShieldCapacity: 1000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -4
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 1000.0
     id: 19590
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Dewak's First Officer's HQ
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 1000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Docked & Loaded Mammoth:
-    ArmorHP: 600.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 6000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 660.0
-    ShieldCapacity: 60000.0
-    ShieldRechargeRate: 86400.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 600.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 6000.0
     id: 17747
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Docked & Loaded Mammoth
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 660.0
+    shieldcapacity: 60000.0
+    shieldrechargerate: 86400.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Drug Storage Facility:
-    ArmorHP: 500.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityKillBounty: 10000
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 911.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 8850.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitykillbounty: 10000
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 700.0
     id: 23240
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Drug Storage Facility
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 911.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   Dry River Warehouse:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 416.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 1000.0
     id: 21519
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Dry River Warehouse
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Dysfunctional Raid Drone:
-    ArmorHP: 200.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 300.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 222.0
-    ShieldCapacity: 200.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 200.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 300.0
     id: 23689
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Dysfunctional Raid Drone
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 222.0
+    shieldcapacity: 200.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Elere Febre's Habitation module:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 5
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 379.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 5
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 1000.0
     id: 23514
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Elere Febre's Habitation module
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 379.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Expeditionary Storage Facility:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 10000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 1226.0
-    ShieldCapacity: 500.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 10000.0
     id: 25402
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Expeditionary Storage Facility
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 500.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   FON Operation Station:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 400.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 400.0
     id: 23617
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: FON Operation Station
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Flimsy Pirate Base:
-    ArmorHP: 50.0
-    ArmorUniformity: 1.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 60.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 782.0
-    ShieldCapacity: 30.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 50.0
+    armoruniformity: 1.0
+    capacity: 8850.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 60.0
     id: 27279
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Flimsy Pirate Base
     packagedVolume: 150.0
     portionSize: 1
     published: false
+    radius: 782.0
+    shieldcapacity: 30.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 150.0
   Force Repeller Relic:
-    ArmorHP: 1.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 1.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 15000.0
-    ShieldCapacity: 9000.0
-    ShieldRechargeRate: 5.64E7
-    ShieldUniformity: 1.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 1.0
     id: 24351
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Force Repeller Relic
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 15000.0
+    shieldcapacity: 9000.0
+    shieldrechargerate: 5.64E7
+    shielduniformity: 1.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Gallente Miner:
-    ArmorHP: 600.0
-    Capacity: 500.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 1
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 600.0
-    LootRespawnTime: 600000.0
-    Mass: 1200000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 31.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 600.0
+    capacity: 500.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 1
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 600.0
     id: 22184
-    mass: 1200000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Gallente Miner
     packagedVolume: 22500.0
     portionSize: 1
     published: false
+    radius: 31.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 22500.0
   Gardan's Fantasy Complex:
-    ArmorHP: 9300.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 15000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4737.0
-    ShieldCapacity: 9300.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 9300.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 15000.0
     id: 17390
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Gardan's Fantasy Complex
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4737.0
+    shieldcapacity: 9300.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Gas/Storage Silo:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 5
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 10000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 1226.0
-    ShieldCapacity: 500.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 5
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 5
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 10000.0
     id: 21627
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Gas/Storage Silo
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 500.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Gate Security:
-    ArmorHP: 2000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 2000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 2313.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 2000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 2000.0
     id: 17891
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Gate Security
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 2313.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   General Lafema:
-    AgentID: 3018460
-    ArmorHP: 2000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 2500.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 660.0
-    ShieldCapacity: 1800.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    agentid: 3018460
+    armorhp: 2000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 2500.0
     id: 21861
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: General Lafema
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 660.0
+    shieldcapacity: 1800.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   General Minas Iksan:
-    AgentID: 3018529
-    ArmorHP: 50000.0
-    Capacity: 7250.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 35000.0
-    LootRespawnTime: 600000.0
-    Mass: 1.124999936E9
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 1700.0
-    ShieldCapacity: 45000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    agentid: 3018529
+    armorhp: 50000.0
+    capacity: 7250.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 35000.0
     id: 22704
-    mass: 1.124999936E9
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: General Minas Iksan
     packagedVolume: 1.85E7
     portionSize: 1
     published: false
+    radius: 1700.0
+    shieldcapacity: 45000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.85E7
   Generator Building:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 7000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 3394.0
-    ShieldCapacity: 6000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 7000.0
     id: 24256
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Generator Building
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 3394.0
+    shieldcapacity: 6000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Gisti Repair Station:
-    ArmorHP: 930.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 200.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 1045.0
-    ShieldCapacity: 930.0
-    ShieldRechargeRate: 86400.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 930.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 200.0
     id: 22161
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Gisti Repair Station
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1045.0
+    shieldcapacity: 930.0
+    shieldrechargerate: 86400.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Guristas Bunker_MISSION:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 949.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 19565
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Guristas Bunker_MISSION
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 949.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Guristas Control Center:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 949.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 26248
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Guristas Control Center
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 949.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Guristas Research Outpost:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 400.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 400.0
     id: 26735
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Guristas Research Outpost
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Guristas Starbase Control Tower:
-    ArmorHP: 1000.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 800.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 3275.0
-    ShieldCapacity: 500.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1000.0
+    capacity: 8850.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 800.0
     id: 20326
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Guristas Starbase Control Tower
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 3275.0
+    shieldcapacity: 500.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   Guristas War Installation:
-    ArmorHP: 100000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 8
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 8
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 200000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 11451.0
-    ShieldCapacity: 50000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 100000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 8
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 8
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 200000.0
     id: 25717
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Guristas War Installation
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 11451.0
+    shieldcapacity: 50000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Guristas_Small Armory:
-    ArmorHP: 930.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 200.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 1045.0
-    ShieldCapacity: 930.0
-    ShieldRechargeRate: 86400.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 930.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 200.0
     id: 25388
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Guristas_Small Armory
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1045.0
+    shieldcapacity: 930.0
+    shieldrechargerate: 86400.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Habitation Module:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 416.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 1000.0
     id: 22794
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Habitation Module
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Habitation Module - Tsuna's Science Labs:
-    ArmorHP: 6000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 4
-    EntityEquipmentMin: 3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 4
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 3000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 379.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 6000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 4
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 4
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 3000.0
     id: 20523
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Habitation Module - Tsuna's Science Labs
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 379.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Hiding Hole:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 5
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 416.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 5
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 1000.0
     id: 22039
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Hiding Hole
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Hive Under Construction:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 15000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 50752.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 15000.0
     id: 19427
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Hive Under Construction
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 50752.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Industrial Derelict:
-    ArmorHP: 600.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 100
-    EntityEquipmentMin: 50
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 600.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 553.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 600.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 100
+    entityequipmentmin: 50
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 600.0
     id: 19653
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Industrial Derelict
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 553.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Infested station ruins:
-    ArmorHP: 15000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 10000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 5858.0
-    ShieldCapacity: 8000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 15000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 10000.0
     id: 19742
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Infested station ruins
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 5858.0
+    shieldcapacity: 8000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Inner Sanctum:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -4
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 10000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 971.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -4
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 10000.0
     id: 17613
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Inner Sanctum
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 971.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Kameira Quarters:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 50000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 4737.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 50000.0
     id: 22750
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Kameira Quarters
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4737.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Kazka Brothel:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 416.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 1000.0
     id: 21622
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Kazka Brothel
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Lephny's Mining Post:
-    ArmorHP: 5000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 2000.0
-    LootRespawnTime: 600000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 9213.0
-    ShieldCapacity: 200.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 2000.0
     id: 20542
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Lephny's Mining Post
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 9213.0
+    shieldcapacity: 200.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0
   Low-Tech Deadspace Energy Harvester:
-    ArmorHP: 300.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 5
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 500.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 120.0
-    ShieldCapacity: 100.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 300.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 5
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 500.0
     id: 19557
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Low-Tech Deadspace Energy Harvester
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 120.0
+    shieldcapacity: 100.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Megathron under frantic repair:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 4500.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 539.0
-    ShieldCapacity: 80000.0
-    ShieldRechargeRate: 86400.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 4500.0
     id: 17748
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Megathron under frantic repair
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 539.0
+    shieldcapacity: 80000.0
+    shieldrechargerate: 86400.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Metal Scraps In Storage:
-    ArmorHP: 500.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 911.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 8850.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 19708
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Metal Scraps In Storage
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 911.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   Minmatar Command Post:
-    ArmorHP: 2000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 1
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 471.0
-    ShieldCapacity: 3000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 2000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 1
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 1000.0
     id: 22710
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Minmatar Command Post
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 471.0
+    shieldcapacity: 3000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Minmatar Starbase Control Tower:
-    ArmorHP: 500.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 3346.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 8850.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 22709
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Minmatar Starbase Control Tower
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 3346.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   Non-Secured Asteroid Colony:
-    ArmorHP: 100.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -4
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 500.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4737.0
-    ShieldCapacity: 200.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 100.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -4
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 500.0
     id: 17799
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Non-Secured Asteroid Colony
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4737.0
+    shieldcapacity: 200.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Officers Quarters:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 5
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 379.0
-    ShieldCapacity: 8250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 5
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 1000.0
     id: 21600
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Officers Quarters
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 379.0
+    shieldcapacity: 8250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Oggiin Kalda's Residence:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 379.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 1000.0
     id: 22725
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Oggiin Kalda's Residence
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 379.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Okelle's Pleasure Hub:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 100000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 4974.0
-    ShieldCapacity: 50000.0
-    ShieldRechargeRate: 500000.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 100000.0
     id: 26168
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Okelle's Pleasure Hub
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4974.0
+    shieldcapacity: 50000.0
+    shieldrechargerate: 500000.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Old Nefantar Bunker:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 713.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 700.0
     id: 21884
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Old Nefantar Bunker
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 713.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Oofus's Repair Shop:
-    ArmorHP: 930.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -4
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 150.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 372.0
-    ShieldCapacity: 930.0
-    ShieldRechargeRate: 864000.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 930.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -4
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 150.0
     id: 17275
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Oofus's Repair Shop
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 372.0
+    shieldcapacity: 930.0
+    shieldrechargerate: 864000.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Overseer's Stash:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1000
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 5
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 753.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1000
+    entityequipmentmax: 5
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 5
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 24771
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Overseer's Stash
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 753.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Pagera Manton:
-    ArmorHP: 500000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 4
-    EntityEquipmentMin: 3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 4
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 200000.0
-    LootRespawnTime: 600000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 13991.0
-    ShieldCapacity: 100000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 4
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 4
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 200000.0
     id: 25734
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Pagera Manton
     portionSize: 1
     published: false
+    radius: 13991.0
+    shieldcapacity: 100000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
   Pend Insurance Storage Bin:
-    ArmorHP: 500.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 911.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 8850.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 23413
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Pend Insurance Storage Bin
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 911.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   Pirate Headquarters:
-    ArmorHP: 9000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 9000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4737.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 9000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 9000.0
     id: 19504
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Pirate Headquarters
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4737.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Radiating Telescope:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -4
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 20000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 2636.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -4
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 20000.0
     id: 18632
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Radiating Telescope
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 2636.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Radio Telescope:
-    ArmorHP: 800.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 2636.0
-    ShieldCapacity: 700.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 800.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 1000.0
     id: 20329
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Radio Telescope
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 2636.0
+    shieldcapacity: 700.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Refitted Bestower:
-    ArmorHP: 600.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 600.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 660.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 600.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 600.0
     id: 22145
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Refitted Bestower
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 660.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Rent-A-Dream Pleasure Gardens:
-    ArmorHP: 3000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 1500.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4974.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 500000.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 3000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 1500.0
     id: 21635
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Rent-A-Dream Pleasure Gardens
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4974.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 500000.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Runner's Relay Station:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 738.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 700.0
     id: 23600
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Runner's Relay Station
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 738.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Sansha Control Center:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 753.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 700.0
     id: 26249
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Sansha Control Center
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 753.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Sansha Deadspace Outpost:
-    ArmorHP: 3000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 4000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 1239.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 3000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 4000.0
     id: 26606
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Sansha Deadspace Outpost
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1239.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Sansha Outpost Administration Building:
-    ArmorHP: 1000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 1239.0
-    ShieldCapacity: 1000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 1000.0
     id: 18633
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Sansha Outpost Administration Building
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1239.0
+    shieldcapacity: 1000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Sansha Research Outpost:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 400.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 400.0
     id: 26736
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Sansha Research Outpost
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Scanner Post:
-    ArmorHP: 930.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 1
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 200.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 70.0
-    ShieldCapacity: 930.0
-    ShieldRechargeRate: 86400.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 930.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 1
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 200.0
     id: 22757
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Scanner Post
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 70.0
+    shieldcapacity: 930.0
+    shieldrechargerate: 86400.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Scanner Tower:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 5000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 2636.0
-    ShieldCapacity: 2000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 5000.0
     id: 22289
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Scanner Tower
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 2636.0
+    shieldcapacity: 2000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Scramble Wave Generator:
-    ArmorHP: 500.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 1.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 1263.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -2
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 17979
-    mass: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Scramble Wave Generator
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1263.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0
   Sentry Station Alpha/Beta:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 400.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 400.0
     id: 23960
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Sentry Station Alpha/Beta
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Serpentis Bunker:
-    ArmorHP: 1000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 800.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 738.0
-    ShieldCapacity: 650.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 800.0
     id: 20325
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Serpentis Bunker
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 738.0
+    shieldcapacity: 650.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Serpentis Command Outpost:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 400.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 400.0
     id: 23696
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Serpentis Command Outpost
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Serpentis Control Center:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 738.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 700.0
     id: 26250
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Serpentis Control Center
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 738.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Serpentis Narcotics Storage:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 738.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 700.0
     id: 23567
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Serpentis Narcotics Storage
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 738.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Serpentis Repackaging Factory:
-    ArmorHP: 100000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 200000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 8380.0
-    ShieldCapacity: 50000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 100000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 200000.0
     id: 23695
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Serpentis Repackaging Factory
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 8380.0
+    shieldcapacity: 50000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Serpentis Research Outpost:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 400.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 400.0
     id: 26738
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Serpentis Research Outpost
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Serpentis Stronghold:
-    ArmorHP: 20000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 5000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 8380.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 20000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 5000.0
     id: 23520
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Serpentis Stronghold
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 8380.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Serpentis Supply Stronghold:
-    ArmorHP: 10000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 20000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 8380.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -1
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 20000.0
     id: 17818
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Serpentis Supply Stronghold
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 8380.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Shattered Hive Mind Cage:
-    ArmorHP: 2000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 3000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 717.0
-    ShieldCapacity: 200.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 2000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 3000.0
     id: 23691
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Shattered Hive Mind Cage
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 717.0
+    shieldcapacity: 200.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Shielded Prison Facility:
-    ArmorHP: 500.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1000
-    EntityEquipmentMax: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 1.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 1263.0
-    ShieldCapacity: 10600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1000
+    entityequipmentmax: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 700.0
     id: 25384
-    mass: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Shielded Prison Facility
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1263.0
+    shieldcapacity: 10600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0
   Sispur Estate Control Tower:
-    ArmorHP: 5000.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 2000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 3346.0
-    ShieldCapacity: 2500.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 8850.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 2000.0
     id: 22156
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Sispur Estate Control Tower
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 3346.0
+    shieldcapacity: 2500.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   Slaver Rig Control Tower:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 3394.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 17821
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Slaver Rig Control Tower
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 3394.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Small Rebel Base:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 713.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 700.0
     id: 22059
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Small Rebel Base
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 713.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Special Forces Command Post:
-    ArmorHP: 3000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 2000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 471.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 3000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 2000.0
     id: 22047
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Special Forces Command Post
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 471.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Staff Quarters:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 379.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -2
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 1000.0
     id: 17822
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Staff Quarters
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 379.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Starbase Major Assembly Array:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 5
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 1672.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 5
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 700.0
     id: 24671
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Starbase Major Assembly Array
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1672.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Starbase Storage Facility:
-    ArmorHP: 500.0
-    Capacity: 8850.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 6
-    EntityEquipmentMin: 3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 6
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 911.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 8850.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 6
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    entitylootcountmax: 6
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 700.0
     id: 19622
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Starbase Storage Facility
     packagedVolume: 1150.0
     portionSize: 1
     published: false
+    radius: 911.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1150.0
   Stargate under construction and repair:
-    ArmorHP: 93000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -4
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 50000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 5991.0
-    ShieldCapacity: 93000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 93000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -4
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 50000.0
     id: 17135
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Stargate under construction and repair
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 5991.0
+    shieldcapacity: 93000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Storage Silo:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 10000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 1226.0
-    ShieldCapacity: 500.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 10000.0
     id: 24751
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Storage Silo
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 500.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Strain Operation Bunker:
-    ArmorHP: 200.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: -3
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: -3
-    Falloff: 1.0
-    Hp: 300.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 717.0
-    ShieldCapacity: 200.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 200.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 2
+    entityequipmentmin: -3
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: -3
+    falloff: 1.0
+    hp: 300.0
     id: 19426
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Strain Operation Bunker
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 717.0
+    shieldcapacity: 200.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Subspace Data Miner:
-    ArmorHP: 1000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 2636.0
-    ShieldCapacity: 1000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 1000.0
     id: 19738
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Subspace Data Miner
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 2636.0
+    shieldcapacity: 1000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Supply Traffic Management:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 400.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 918.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 400.0
     id: 17820
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Supply Traffic Management
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 918.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Temple of the Revelation:
-    ArmorHP: 12500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 15000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 971.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 12500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 15000.0
     id: 24257
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Temple of the Revelation
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 971.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   The Damsels Wimpy Brothel:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 1
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 416.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 1
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 1000.0
     id: 19502
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: The Damsels Wimpy Brothel
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   The Damsels Wimpy Prison:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 1
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 1000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 416.0
-    ShieldCapacity: 250.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 1
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 1000.0
     id: 19501
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: The Damsels Wimpy Prison
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 416.0
+    shieldcapacity: 250.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Thorak's Biodome Garden:
-    ArmorHP: 100.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 3
-    Falloff: 1.0
-    Hp: 150.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4974.0
-    ShieldCapacity: 150.0
-    ShieldRechargeRate: 6000000.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 100.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 3
+    falloff: 1.0
+    hp: 150.0
     id: 17614
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Thorak's Biodome Garden
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4974.0
+    shieldcapacity: 150.0
+    shieldrechargerate: 6000000.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Thukker Component Assembly Facility:
-    ArmorHP: 10000.0
-    ArmorUniformity: 1.0
-    Capacity: 20000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 10000.0
-    LootRespawnTime: 600000.0
-    Mass: 1000000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 937.0
-    ShieldCapacity: 600.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
+    armorhp: 10000.0
+    armoruniformity: 1.0
+    capacity: 20000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 10000.0
     id: 33910
-    mass: 1000000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Thukker Component Assembly Facility
     packagedVolume: 4000.0
     portionSize: 1
     published: false
+    radius: 937.0
+    shieldcapacity: 600.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 2000.0
+    structureuniformity: 1.0
     volume: 4000.0
   UNUSED_CargoRig_LCS_DL1_DCP1:
-    ArmorHP: 530.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 15000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 1255.0
-    ShieldCapacity: 530.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 530.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 15000.0
     id: 17563
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: UNUSED_CargoRig_LCS_DL1_DCP1
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1255.0
+    shieldcapacity: 530.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1:
-    ArmorHP: 930.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 4
-    EntityLootCountMin: 2
-    Falloff: 1.0
-    Hp: 150.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 713.0
-    ShieldCapacity: 930.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 930.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -5
+    entityflyrange: 500.0
+    entitylootcountmax: 4
+    entitylootcountmin: 2
+    falloff: 1.0
+    hp: 150.0
     id: 17179
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 713.0
+    shieldcapacity: 930.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1:
-    ArmorHP: 1500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 1
-    EntityEquipmentMin: -4
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 700.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 834.0
-    ShieldCapacity: 6000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 1
+    entityequipmentmin: -4
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 700.0
     id: 17388
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 834.0
+    shieldcapacity: 6000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   UNUSED_HabMod_Residential_LCS:
-    ArmorHP: 500.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    DisallowOffensiveModifiers: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 5000
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 300.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 379.0
-    ShieldCapacity: 1000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 500.0
+    capacity: 10000.0
+    disallowassistance: 1
+    disallowoffensivemodifiers: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 5000
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 300.0
     id: 17633
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: UNUSED_HabMod_Residential_LCS
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 379.0
+    shieldcapacity: 1000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Unstable Particle Acceleration Superstructure:
-    ArmorHP: 5000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 2
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 2
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 10000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.5
-    MissileEntityVelocityMultiplier: 1.5
-    Radius: 4553.0
-    ShieldCapacity: 3000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 2
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 2
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 10000.0
     id: 27292
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
     name: Unstable Particle Acceleration Superstructure
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 4553.0
+    shieldcapacity: 3000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Wiyrkomi Surveillance Outpost:
-    ArmorHP: 4000.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 4000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 300.0
-    ShieldCapacity: 4000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 4000.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 4000.0
     id: 23593
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Wiyrkomi Surveillance Outpost
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 300.0
+    shieldcapacity: 4000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Yan Jung Gargoyle:
-    ArmorHP: 1930.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentGroupMax: 1
-    EntityEquipmentMax: 3
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 3
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 1600.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    MissileEntityFlightTimeMultiplier: 1.0
-    MissileEntityVelocityMultiplier: 1.0
-    Radius: 70.0
-    ShieldCapacity: 1930.0
-    ShieldRechargeRate: 86400.0
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 1930.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 1600.0
     id: 24356
-    mass: 100000.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
     name: Yan Jung Gargoyle
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 70.0
+    shieldcapacity: 1930.0
+    shieldrechargerate: 86400.0
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8

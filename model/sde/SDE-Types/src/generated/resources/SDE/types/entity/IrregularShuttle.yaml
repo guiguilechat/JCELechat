@@ -1,30 +1,28 @@
 types:
   Official Federation Grand Prix Passenger Yacht:
-    ArmorEmDamageResonance: 0.4000000059604645
-    ArmorExplosiveDamageResonance: 0.800000011920929
-    ArmorHP: 950.0
-    ArmorKineticDamageResonance: 0.6499999761581421
-    ArmorThermalDamageResonance: 0.7250000238418579
-    CapacitorCapacity: 800.0
-    Capacity: 1750.0
-    EntityBracketColour: 2
-    Hp: 925.0
-    Mass: 1.3075E7
-    MaxVelocity: 120.0
-    Radius: 150.0
-    RechargeRate: 2500000.0
-    ScanMagnetometricStrength: 18.0
-    ShieldCapacity: 700.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.4000000059604645
-    ShieldKineticDamageResonance: 0.6000000238418579
-    ShieldRechargeRate: 500000.0
-    ShieldThermalDamageResonance: 0.800000011920929
-    SignatureRadius: 125.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 950.0
+    armorkineticdamageresonance: 0.6499999761581421
+    armorthermaldamageresonance: 0.7250000238418579
+    capacitorcapacity: 800.0
+    capacity: 1750.0
+    entitybracketcolour: 2
+    hp: 925.0
     id: 48128
-    mass: 1.3075E7
+    maxvelocity: 120.0
     name: Official Federation Grand Prix Passenger Yacht
     packagedVolume: 115000.0
     portionSize: 1
     published: false
+    radius: 150.0
+    rechargerate: 2500000.0
+    scanmagnetometricstrength: 18.0
+    shieldcapacity: 700.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 125.0
     volume: 115000.0

@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,35 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringSecurityLevelMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiCapitalMissileResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OnliningDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReactionGroup1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReactionGroup2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UnanchoringDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
 import fr.guiguilechat.jcelechat.model.sde.types.Starbase;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,70 +55,71 @@ public class MobileReactor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double AnchoringSecurityLevelMax;
+    public double anchoringsecuritylevelmax;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
+    public int fighterabilityanticapitalmissileresistance;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ReactionGroup1;
+    public int reactiongroup1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ReactionGroup2;
+    public int reactiongroup2;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
+    public double shielduniformity;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Uniformity;
+    public double uniformity;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityAntiCapitalMissileResistance.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, AnchoringSecurityLevelMax.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ReactionGroup1 .INSTANCE, ReactionGroup2 .INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RequiredSkill1Level.INSTANCE, Power.INSTANCE, ShieldRechargeRate.INSTANCE, Radius.INSTANCE, ShieldUniformity.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, AnchoringDelay.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE })));
     public static final MobileReactor.MetaGroup METAGROUP = new MobileReactor.MetaGroup();
 
     @Override
@@ -94,49 +127,54 @@ public class MobileReactor
         switch (attribute.getId()) {
             case  1032 :
             {
-                return AnchoringSecurityLevelMax;
+                return anchoringsecuritylevelmax;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  2244 :
             {
-                return FighterAbilityAntiCapitalMissileResistance;
+                return fighterabilityanticapitalmissileresistance;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  842 :
             {
-                return ReactionGroup1;
+                return reactiongroup1;
             }
             case  843 :
             {
-                return ReactionGroup2;
+                return reactiongroup2;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  484 :
             {
-                return ShieldUniformity;
+                return shielduniformity;
             }
             case  136 :
             {
-                return Uniformity;
+                return uniformity;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

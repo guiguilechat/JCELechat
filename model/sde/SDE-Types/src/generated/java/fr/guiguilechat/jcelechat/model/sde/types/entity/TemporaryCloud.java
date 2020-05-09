@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.entity;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,16 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CloudDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CloudEffectDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,70 +36,71 @@ public class TemporaryCloud
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * Number of milliseconds a temporary cloud hangs around.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CloudDuration;
+    public int cloudduration;
     /**
      * The amount of time before applications of the cloud's effect.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CloudEffectDelay;
+    public int cloudeffectdelay;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowAssistance;
+    public int disallowassistance;
     /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EmDamage;
+    public double emdamage;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
+    public double explosivedamage;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double KineticDamage;
+    public double kineticdamage;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    public double thermaldamage;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CloudEffectDelay.INSTANCE, CloudDuration.INSTANCE, Radius.INSTANCE, EmDamage.INSTANCE, Mass.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, Capacity.INSTANCE, DisallowAssistance.INSTANCE, ThermalDamage.INSTANCE })));
     public static final TemporaryCloud.MetaGroup METAGROUP = new TemporaryCloud.MetaGroup();
 
     @Override
@@ -94,49 +108,54 @@ public class TemporaryCloud
         switch (attribute.getId()) {
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  545 :
             {
-                return CloudDuration;
+                return cloudduration;
             }
             case  544 :
             {
-                return CloudEffectDelay;
+                return cloudeffectdelay;
             }
             case  854 :
             {
-                return DisallowAssistance;
+                return disallowassistance;
             }
             case  114 :
             {
-                return EmDamage;
+                return emdamage;
             }
             case  116 :
             {
-                return ExplosiveDamage;
+                return explosivedamage;
             }
             case  117 :
             {
-                return KineticDamage;
+                return kineticdamage;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             case  118 :
             {
-                return ThermalDamage;
+                return thermaldamage;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

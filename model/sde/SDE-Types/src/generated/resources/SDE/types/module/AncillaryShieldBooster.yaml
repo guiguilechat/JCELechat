@@ -1,193 +1,193 @@
 types:
   Capital Ancillary Shield Booster:
-    CapacitorNeed: 4000.0
-    Capacity: 900.0
-    ChargeGroup2: 87
-    ChargeRate: 1
-    ChargeSize: 4
-    Cpu: 300.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxGroupFitted: 1
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10
-    Power: 75000
-    Radius: 500.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 21802
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 6800.0
-    TechLevel: 1
+    capacitorneed: 4000.0
+    capacity: 900.0
+    chargegroup2: 87
+    chargerate: 1
+    chargesize: 4
+    cpu: 300.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 41504
     marketGroup: 778
+    maxgroupfitted: 1
     name: Capital Ancillary Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 1000.0
     portionSize: 1
+    power: 75000
     published: true
+    radius: 500.0
+    reloadtime: 60000.0
+    requiredskill1: 21802
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    shieldbonus: 6800.0
+    techlevel: 1
     volume: 4000.0
   Large Abyssal Ancillary Shield Booster:
-    Capacity: 42.0
-    ChargeGroup2: 87
-    ChargeRate: 1
-    ChargeSize: 2
-    Radius: 500.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3416
-    RequiredSkill1Level: 4
-    TechLevel: 1
+    capacity: 42.0
+    chargegroup2: 87
+    chargerate: 1
+    chargesize: 2
     id: 47838
     name: Large Abyssal Ancillary Shield Booster
     packagedVolume: 25.0
     portionSize: 1
     published: true
+    radius: 500.0
+    reloadtime: 10000.0
+    requiredskill1: 3416
+    requiredskill1level: 4
+    techlevel: 1
     volume: 25.0
   Large Ancillary Shield Booster:
-    CapacitorNeed: 528.0
-    Capacity: 42.0
-    ChargeGroup2: 87
-    ChargeRate: 1
-    ChargeSize: 2
-    Cpu: 100.0
-    Duration: 4000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10
-    Power: 150
-    Radius: 500.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3416
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 390.0
-    TechLevel: 1
+    capacitorneed: 528.0
+    capacity: 42.0
+    chargegroup2: 87
+    chargerate: 1
+    chargesize: 2
+    cpu: 100.0
+    duration: 4000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
     id: 4391
     marketGroup: 611
+    metalevel: 1
     name: Large Ancillary Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 25.0
     portionSize: 1
+    power: 150
     published: true
+    radius: 500.0
+    reloadtime: 60000.0
+    requiredskill1: 3416
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    shieldbonus: 390.0
+    techlevel: 1
     volume: 25.0
   Medium Abyssal Ancillary Shield Booster:
-    Capacity: 14.0
-    ChargeGroup2: 87
-    ChargeRate: 1
-    ChargeSize: 1
-    Radius: 500.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3416
-    RequiredSkill1Level: 4
-    TechLevel: 1
+    capacity: 14.0
+    chargegroup2: 87
+    chargerate: 1
+    chargesize: 1
     id: 47836
     name: Medium Abyssal Ancillary Shield Booster
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 500.0
+    reloadtime: 10000.0
+    requiredskill1: 3416
+    requiredskill1level: 4
+    techlevel: 1
     volume: 10.0
   Medium Ancillary Shield Booster:
-    CapacitorNeed: 198.0
-    Capacity: 14.0
-    ChargeGroup2: 87
-    ChargeRate: 1
-    ChargeSize: 1
-    Cpu: 50.0
-    Duration: 3000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10
-    Power: 12
-    Radius: 500.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3416
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 146.0
-    TechLevel: 1
+    capacitorneed: 198.0
+    capacity: 14.0
+    chargegroup2: 87
+    chargerate: 1
+    chargesize: 1
+    cpu: 50.0
+    duration: 3000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
     id: 32772
     marketGroup: 610
+    metalevel: 1
     name: Medium Ancillary Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 10.0
     portionSize: 1
+    power: 12
     published: true
+    radius: 500.0
+    reloadtime: 60000.0
+    requiredskill1: 3416
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    shieldbonus: 146.0
+    techlevel: 1
     volume: 10.0
   Small Ancillary Shield Booster:
-    CapacitorNeed: 66.0
-    Capacity: 7.0
-    ChargeGroup2: 87
-    ChargeRate: 1
-    Cpu: 25.0
-    Duration: 2000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2999999523162842
-    Hp: 40.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10
-    Power: 2
-    Radius: 500.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3416
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 52.0
-    TechLevel: 1
+    capacitorneed: 66.0
+    capacity: 7.0
+    chargegroup2: 87
+    chargerate: 1
+    cpu: 25.0
+    duration: 2000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2999999523162842
+    hp: 40.0
     id: 32774
     marketGroup: 609
+    metalevel: 1
     name: Small Ancillary Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 500.0
+    reloadtime: 60000.0
+    requiredskill1: 3416
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    shieldbonus: 52.0
+    techlevel: 1
     volume: 5.0
   X-Large Abyssal Ancillary Shield Booster:
-    Capacity: 112.0
-    ChargeGroup2: 87
-    ChargeRate: 1
-    ChargeSize: 3
-    Radius: 500.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3416
-    RequiredSkill1Level: 5
-    TechLevel: 1
+    capacity: 112.0
+    chargegroup2: 87
+    chargerate: 1
+    chargesize: 3
     id: 47840
     name: X-Large Abyssal Ancillary Shield Booster
     packagedVolume: 50.0
     portionSize: 1
     published: true
+    radius: 500.0
+    reloadtime: 10000.0
+    requiredskill1: 3416
+    requiredskill1level: 5
+    techlevel: 1
     volume: 50.0
   X-Large Ancillary Shield Booster:
-    CapacitorNeed: 1320.0
-    Capacity: 112.0
-    ChargeGroup2: 87
-    ChargeRate: 1
-    ChargeSize: 3
-    Cpu: 200.0
-    Duration: 5000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    OverloadShieldBonus: 10
-    Power: 500
-    Radius: 500.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3416
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 980.0
-    TechLevel: 1
+    capacitorneed: 1320.0
+    capacity: 112.0
+    chargegroup2: 87
+    chargerate: 1
+    chargesize: 3
+    cpu: 200.0
+    duration: 5000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 32780
     marketGroup: 612
+    metalevel: 1
     name: X-Large Ancillary Shield Booster
+    overloadselfdurationbonus: -15.0
+    overloadshieldbonus: 10
     packagedVolume: 50.0
     portionSize: 1
+    power: 500
     published: true
+    radius: 500.0
+    reloadtime: 60000.0
+    requiredskill1: 3416
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    shieldbonus: 980.0
+    techlevel: 1
     volume: 50.0

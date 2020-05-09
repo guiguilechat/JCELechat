@@ -1,60 +1,56 @@
 types:
   Standup Stasis Webifier I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 3000.0
-    Cpu: 2500.0
-    DisallowRepeatingActivation: 1
-    Duration: 30000.0
-    Hp: 40.0
-    Mass: 500.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MaxGroupOnline: 1
-    MaxRange: 200000.0
-    ModuleReactivationDelay: 60000
-    Power: 50000
-    Radius: 1.0
-    RemoteResistanceID: 2115
-    SpeedFactor: -70.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 3000.0
+    cpu: 2500.0
+    disallowrepeatingactivation: 1
+    duration: 30000.0
+    hp: 40.0
     id: 35943
     marketGroup: 2213
-    mass: 500.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    maxrange: 200000.0
+    modulereactivationdelay: 60000
     name: Standup Stasis Webifier I
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 1.0
+    remoteresistanceid: 2115
+    speedfactor: -70.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Stasis Webifier II:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 3600.0
-    Cpu: 3000.0
-    DisallowRepeatingActivation: 1
-    Duration: 30000.0
-    Hp: 40.0
-    Mass: 500.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MaxGroupOnline: 1
-    MaxRange: 300000.0
-    MetaLevel: 5
-    ModuleReactivationDelay: 60000
-    Power: 60000
-    Radius: 1.0
-    RemoteResistanceID: 2115
-    SpeedFactor: -75.0
-    StructureItemVisualFlag: 1
-    TechLevel: 2
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 3600.0
+    cpu: 3000.0
+    disallowrepeatingactivation: 1
+    duration: 30000.0
+    hp: 40.0
     id: 47351
     marketGroup: 2213
-    mass: 500.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    maxrange: 300000.0
+    metalevel: 5
+    modulereactivationdelay: 60000
     name: Standup Stasis Webifier II
     packagedVolume: 4000.0
     portionSize: 1
+    power: 60000
     published: true
+    radius: 1.0
+    remoteresistanceid: 2115
+    speedfactor: -75.0
+    structureitemvisualflag: 1
+    techlevel: 2
     volume: 4000.0

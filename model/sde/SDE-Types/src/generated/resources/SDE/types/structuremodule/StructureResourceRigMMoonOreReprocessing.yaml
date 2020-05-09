@@ -1,55 +1,51 @@
 types:
   Standup M-Set Moon Ore Grading Processor I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.059999942779541
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 1.1200000047683716
-    Radius: 100.0
-    RefiningYieldMultiplier: 0.5099999904632568
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    UpgradeCost: 100
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 46637
+    lowsecmodifier: 1.059999942779541
     marketGroup: 2341
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Moon Ore Grading Processor I
+    nullsecmodifier: 1.1200000047683716
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    refiningyieldmultiplier: 0.5099999904632568
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 1
+    upgradecost: 100
     volume: 10.0
   Standup M-Set Moon Ore Grading Processor II:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.059999942779541
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 1.1200000047683716
-    Radius: 100.0
-    RefiningYieldMultiplier: 0.5299999713897705
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 2
-    UpgradeCost: 150
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 46638
+    lowsecmodifier: 1.059999942779541
     marketGroup: 2341
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Moon Ore Grading Processor II
+    nullsecmodifier: 1.1200000047683716
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    refiningyieldmultiplier: 0.5299999713897705
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 2
+    upgradecost: 150
     volume: 10.0

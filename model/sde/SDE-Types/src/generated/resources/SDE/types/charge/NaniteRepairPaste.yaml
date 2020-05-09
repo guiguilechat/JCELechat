@@ -1,13 +1,11 @@
 types:
   Nanite Repair Paste:
-    Hp: 1.0
-    Mass: 2500.0
-    Radius: 1.0
+    hp: 1.0
     id: 28668
     marketGroup: 1103
-    mass: 2500.0
     name: Nanite Repair Paste
     packagedVolume: 0.009999999776482582
     portionSize: 10
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

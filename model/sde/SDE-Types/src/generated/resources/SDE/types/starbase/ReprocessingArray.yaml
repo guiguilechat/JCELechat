@@ -1,77 +1,73 @@
 types:
   Intensive Reprocessing Array:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 200000.0
-    Cpu: 1000.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 5.0E7
-    MaxOperationalDistance: 3000
-    OnliningDelay: 3000
-    OperationalDuration: 10000
-    Power: 200000
-    Radius: 506.0
-    RefiningYieldMultiplier: 0.5
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 1
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 200000.0
+    cpu: 1000.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 19470
     marketGroup: 482
-    mass: 5.0E7
+    maxoperationaldistance: 3000
     name: Intensive Reprocessing Array
+    onliningdelay: 3000
+    operationalduration: 10000
     packagedVolume: 6000.0
     portionSize: 1
+    power: 200000
     published: true
+    radius: 506.0
+    refiningyieldmultiplier: 0.5
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 400000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 6000.0
   Reprocessing Array:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 1.0
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 200000.0
-    Cpu: 750.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 5.0E7
-    MaxOperationalDistance: 3000
-    OnliningDelay: 3000
-    OperationalDuration: 10000
-    Power: 150000
-    Radius: 506.0
-    RefiningYieldMultiplier: 0.5
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 1
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    anchoringsecuritylevelmax: 1.0
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 200000.0
+    cpu: 750.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 12238
     marketGroup: 482
-    mass: 5.0E7
+    maxoperationaldistance: 3000
     name: Reprocessing Array
+    onliningdelay: 3000
+    operationalduration: 10000
     packagedVolume: 6000.0
     portionSize: 1
+    power: 150000
     published: true
+    radius: 506.0
+    refiningyieldmultiplier: 0.5
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 400000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 6000.0

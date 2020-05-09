@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,64 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BuffDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanCloak;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageDelayDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowActivateOnWarp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowDocking;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowTethering;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOERange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOEShape;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayDamageCycleTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayDamageDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayDamageRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutResistanceID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayEnergyNeutSignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayImmobilityDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayNoJumpOrCloakDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayRangeIsFixed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayWarningDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EffectDeactivationDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsPointTargeted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDelayDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTypeFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PanicDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,126 +84,126 @@ public class SuperWeapon
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BuffDuration;
+    public int buffduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int CanCloak;
+    public int cancloak;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType1;
+    public int canfitshiptype1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType2;
+    public int canfitshiptype2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType3;
+    public int canfitshiptype3;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionQuantity;
+    public int consumptionquantity;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionType;
+    public int consumptiontype;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * The delay in ms until the damage is done to the target. (Allows some FX to be played)
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10000)
-    public int DamageDelayDuration;
+    public int damagedelayduration;
     /**
      * Stops the module from being activated if the ship is aligning to warp.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowActivateOnWarp;
+    public int disallowactivateonwarp;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowDocking;
+    public int disallowdocking;
     /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowEarlyDeactivation;
+    public int disallowearlydeactivation;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowInEmpireSpace;
+    public int disallowinempirespace;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowRepeatingActivation;
+    public int disallowrepeatingactivation;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowTethering;
+    public int disallowtethering;
     /**
      * Radius of the AOE Effect
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayAOERange;
+    public int doomsdayaoerange;
     /**
      *  1: Fixed Cylinder (Beam)
      *  2: Cylinder moving in an arc (Slash)
@@ -152,161 +213,161 @@ public class SuperWeapon
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayAOEShape;
+    public int doomsdayaoeshape;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayDamageCycleTime;
+    public int doomsdaydamagecycletime;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayDamageDuration;
+    public int doomsdaydamageduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayDamageRadius;
+    public int doomsdaydamageradius;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayEnergyNeutAmount;
+    public int doomsdayenergyneutamount;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayEnergyNeutRadius;
+    public int doomsdayenergyneutradius;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayEnergyNeutResistanceID;
+    public int doomsdayenergyneutresistanceid;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayEnergyNeutSignatureRadius;
+    public int doomsdayenergyneutsignatureradius;
     /**
      * Length of Immobility time.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayImmobilityDuration;
+    public int doomsdayimmobilityduration;
     /**
      * Length of No Jump Or Cloak time.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayNoJumpOrCloakDuration;
+    public int doomsdaynojumporcloakduration;
     /**
      * Determines whether the maxRange attribute is a fixed length or a maximum length of the effect
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayRangeIsFixed;
+    public int doomsdayrangeisfixed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayWarningDuration;
+    public int doomsdaywarningduration;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EffectDeactivationDelay;
+    public int effectdeactivationdelay;
     /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EmDamage;
+    public double emdamage;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
+    public double explosivedamage;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int IsPointTargeted;
+    public int ispointtargeted;
     /**
      * Delay in seconds; until you can jump again.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int JumpDelayDuration;
+    public int jumpdelayduration;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double KineticDamage;
+    public double kineticdamage;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxTypeFitted;
+    public int maxtypefitted;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -314,77 +375,77 @@ public class SuperWeapon
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ModuleReactivationDelay;
+    public int modulereactivationdelay;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PanicDuration;
+    public int panicduration;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeModeWarpStatus;
+    public int siegemodewarpstatus;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(100.0)
-    public double SignatureRadius;
+    public double signatureradius;
     /**
      * Factor by which topspeed increases.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double SpeedFactor;
+    public double speedfactor;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -392,14 +453,15 @@ public class SuperWeapon
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    public double thermaldamage;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, SignatureRadius.INSTANCE, EffectDeactivationDelay.INSTANCE, DamageDelayDuration.INSTANCE, DoomsdayEnergyNeutResistanceID.INSTANCE, DisallowDocking.INSTANCE, DisallowInEmpireSpace.INSTANCE, Cpu.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, JumpDelayDuration.INSTANCE, ConsumptionType.INSTANCE, Duration.INSTANCE, ConsumptionQuantity.INSTANCE, DoomsdayEnergyNeutRadius.INSTANCE, DoomsdayEnergyNeutAmount.INSTANCE, SiegeModeWarpStatus.INSTANCE, DoomsdayEnergyNeutSignatureRadius.INSTANCE, DoomsdayWarningDuration.INSTANCE, DoomsdayDamageRadius.INSTANCE, DoomsdayDamageDuration.INSTANCE, DoomsdayDamageCycleTime.INSTANCE, IsPointTargeted.INSTANCE, DisallowActivateOnWarp.INSTANCE, PanicDuration.INSTANCE, DoomsdayAOERange.INSTANCE, BuffDuration.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, DisallowRepeatingActivation.INSTANCE, ThermalDamage.INSTANCE, MetaLevel.INSTANCE, DoomsdayNoJumpOrCloakDuration.INSTANCE, MaxGroupActive.INSTANCE, DoomsdayImmobilityDuration.INSTANCE, DoomsdayAOEShape.INSTANCE, DoomsdayRangeIsFixed.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final SuperWeapon.MetaGroup METAGROUP = new SuperWeapon.MetaGroup();
 
     @Override
@@ -407,225 +469,230 @@ public class SuperWeapon
         switch (attribute.getId()) {
             case  2535 :
             {
-                return BuffDuration;
+                return buffduration;
             }
             case  1163 :
             {
-                return CanCloak;
+                return cancloak;
             }
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  1302 :
             {
-                return CanFitShipType1;
+                return canfitshiptype1;
             }
             case  1303 :
             {
-                return CanFitShipType2;
+                return canfitshiptype2;
             }
             case  1304 :
             {
-                return CanFitShipType3;
+                return canfitshiptype3;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  714 :
             {
-                return ConsumptionQuantity;
+                return consumptionquantity;
             }
             case  713 :
             {
-                return ConsumptionType;
+                return consumptiontype;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1839 :
             {
-                return DamageDelayDuration;
+                return damagedelayduration;
             }
             case  1245 :
             {
-                return DisallowActivateOnWarp;
+                return disallowactivateonwarp;
             }
             case  2354 :
             {
-                return DisallowDocking;
+                return disallowdocking;
             }
             case  906 :
             {
-                return DisallowEarlyDeactivation;
+                return disallowearlydeactivation;
             }
             case  1074 :
             {
-                return DisallowInEmpireSpace;
+                return disallowinempirespace;
             }
             case  1014 :
             {
-                return DisallowRepeatingActivation;
+                return disallowrepeatingactivation;
             }
             case  2343 :
             {
-                return DisallowTethering;
+                return disallowtethering;
             }
             case  2279 :
             {
-                return DoomsdayAOERange;
+                return doomsdayaoerange;
             }
             case  2429 :
             {
-                return DoomsdayAOEShape;
+                return doomsdayaoeshape;
             }
             case  2265 :
             {
-                return DoomsdayDamageCycleTime;
+                return doomsdaydamagecycletime;
             }
             case  2264 :
             {
-                return DoomsdayDamageDuration;
+                return doomsdaydamageduration;
             }
             case  2263 :
             {
-                return DoomsdayDamageRadius;
+                return doomsdaydamageradius;
             }
             case  2260 :
             {
-                return DoomsdayEnergyNeutAmount;
+                return doomsdayenergyneutamount;
             }
             case  2259 :
             {
-                return DoomsdayEnergyNeutRadius;
+                return doomsdayenergyneutradius;
             }
             case  2609 :
             {
-                return DoomsdayEnergyNeutResistanceID;
+                return doomsdayenergyneutresistanceid;
             }
             case  2261 :
             {
-                return DoomsdayEnergyNeutSignatureRadius;
+                return doomsdayenergyneutsignatureradius;
             }
             case  2428 :
             {
-                return DoomsdayImmobilityDuration;
+                return doomsdayimmobilityduration;
             }
             case  2427 :
             {
-                return DoomsdayNoJumpOrCloakDuration;
+                return doomsdaynojumporcloakduration;
             }
             case  2430 :
             {
-                return DoomsdayRangeIsFixed;
+                return doomsdayrangeisfixed;
             }
             case  2262 :
             {
-                return DoomsdayWarningDuration;
+                return doomsdaywarningduration;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  1579 :
             {
-                return EffectDeactivationDelay;
+                return effectdeactivationdelay;
             }
             case  114 :
             {
-                return EmDamage;
+                return emdamage;
             }
             case  116 :
             {
-                return ExplosiveDamage;
+                return explosivedamage;
             }
             case  2269 :
             {
-                return IsPointTargeted;
+                return ispointtargeted;
             }
             case  1221 :
             {
-                return JumpDelayDuration;
+                return jumpdelayduration;
             }
             case  117 :
             {
-                return KineticDamage;
+                return kineticdamage;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  2431 :
             {
-                return MaxTypeFitted;
+                return maxtypefitted;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  669 :
             {
-                return ModuleReactivationDelay;
+                return modulereactivationdelay;
             }
             case  2788 :
             {
-                return PanicDuration;
+                return panicduration;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  852 :
             {
-                return SiegeModeWarpStatus;
+                return siegemodewarpstatus;
             }
             case  552 :
             {
-                return SignatureRadius;
+                return signatureradius;
             }
             case  20 :
             {
-                return SpeedFactor;
+                return speedfactor;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  118 :
             {
-                return ThermalDamage;
+                return thermaldamage;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

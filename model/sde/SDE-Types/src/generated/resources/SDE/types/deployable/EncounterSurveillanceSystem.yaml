@@ -1,121 +1,113 @@
 types:
   Amarr Encounter Surveillance System:
-    ArmorHP: 30000.0
-    ArmorUniformity: 0.75
-    Hp: 190000.0
-    Mass: 100000.0
-    MaxLockedTargets: 8
-    MaxTargetRange: 250000.0
-    Radius: 1.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 30000.0
-    ShieldRechargeRate: 2400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 500.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    Uniformity: 1.0
-    WarpScrambleStrength: 100
+    armorhp: 30000.0
+    armoruniformity: 0.75
+    hp: 190000.0
     id: 33585
     marketGroup: 1847
-    mass: 100000.0
+    maxlockedtargets: 8
+    maxtargetrange: 250000.0
     name: Amarr Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 30000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
+    uniformity: 1.0
     volume: 200.0
+    warpscramblestrength: 100
   Caldari Encounter Surveillance System:
-    ArmorHP: 30000.0
-    ArmorUniformity: 0.75
-    Hp: 190000.0
-    Mass: 100000.0
-    MaxLockedTargets: 8
-    MaxTargetRange: 250000.0
-    Radius: 1.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 30000.0
-    ShieldRechargeRate: 2400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 500.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    Uniformity: 1.0
-    WarpScrambleStrength: 100
+    armorhp: 30000.0
+    armoruniformity: 0.75
+    hp: 190000.0
     id: 33595
     marketGroup: 1847
-    mass: 100000.0
+    maxlockedtargets: 8
+    maxtargetrange: 250000.0
     name: Caldari Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 30000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
+    uniformity: 1.0
     volume: 200.0
+    warpscramblestrength: 100
   Gallente Encounter Surveillance System:
-    ArmorHP: 30000.0
-    ArmorUniformity: 0.75
-    Hp: 190000.0
-    Mass: 100000.0
-    MaxLockedTargets: 8
-    MaxTargetRange: 250000.0
-    Radius: 1.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 30000.0
-    ShieldRechargeRate: 2400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 500.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    Uniformity: 1.0
-    WarpScrambleStrength: 100
+    armorhp: 30000.0
+    armoruniformity: 0.75
+    hp: 190000.0
     id: 33608
     marketGroup: 1847
-    mass: 100000.0
+    maxlockedtargets: 8
+    maxtargetrange: 250000.0
     name: Gallente Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 30000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
+    uniformity: 1.0
     volume: 200.0
+    warpscramblestrength: 100
   Minmatar Encounter Surveillance System:
-    ArmorHP: 30000.0
-    ArmorUniformity: 0.75
-    Hp: 190000.0
-    Mass: 100000.0
-    MaxLockedTargets: 8
-    MaxTargetRange: 250000.0
-    Radius: 1.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 30000.0
-    ShieldRechargeRate: 2400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 500.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    Uniformity: 1.0
-    WarpScrambleStrength: 100
+    armorhp: 30000.0
+    armoruniformity: 0.75
+    hp: 190000.0
     id: 33610
     marketGroup: 1847
-    mass: 100000.0
+    maxlockedtargets: 8
+    maxtargetrange: 250000.0
     name: Minmatar Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 30000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
+    uniformity: 1.0
     volume: 200.0
+    warpscramblestrength: 100

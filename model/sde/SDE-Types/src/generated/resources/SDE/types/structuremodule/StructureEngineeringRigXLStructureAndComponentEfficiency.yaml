@@ -1,87 +1,81 @@
 types:
   Standup XL-Set Structure and Component Manufacturing Efficiency I:
-    AttributeEngRigCostBonus: 1
-    AttributeEngRigMatBonus: -2.0
-    AttributeEngRigTimeBonus: -20
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.899999976158142
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 2.0999999046325684
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 4
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    UpgradeCost: 100
+    attributeengrigcostbonus: 1
+    attributeengrigmatbonus: -2.0
+    attributeengrigtimebonus: -20
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 43704
+    lowsecmodifier: 1.899999976158142
     marketGroup: 2349
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup XL-Set Structure and Component Manufacturing Efficiency I
+    nullsecmodifier: 2.0999999046325684
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 4
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 1
+    upgradecost: 100
     volume: 40.0
   Standup XL-Set Structure and Component Manufacturing Efficiency II:
-    AttributeEngRigCostBonus: 1
-    AttributeEngRigMatBonus: -2.4000000953674316
-    AttributeEngRigTimeBonus: -24
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.899999976158142
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 2.0999999046325684
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 4
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 2
-    UpgradeCost: 150
+    attributeengrigcostbonus: 1
+    attributeengrigmatbonus: -2.4000000953674316
+    attributeengrigtimebonus: -24
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 43705
+    lowsecmodifier: 1.899999976158142
     marketGroup: 2349
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup XL-Set Structure and Component Manufacturing Efficiency II
+    nullsecmodifier: 2.0999999046325684
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 4
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 2
+    upgradecost: 150
     volume: 40.0
   Standup XL-Set Thukker Structure and Component Manufacturing Efficiency:
-    AttributeEngRigCostBonus: 1
-    AttributeEngRigMatBonus: -2.0
-    AttributeEngRigTimeBonus: -20
-    AttributeThukkerEngRigMatBonus: -3.700000047683716
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    HiSecModifier: 0.10000000149011612
-    Hp: 40.0
-    LowSecModifier: 1.899999976158142
-    Mass: 200.0
-    MaxGroupFitted: 1
-    MetaGroupID: 4
-    NullSecModifier: 0.10000000149011612
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 4
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    UpgradeCost: 100
+    attributeengrigcostbonus: 1
+    attributeengrigmatbonus: -2.0
+    attributeengrigtimebonus: -20
+    attributethukkerengrigmatbonus: -3.700000047683716
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    hisecmodifier: 0.10000000149011612
+    hp: 40.0
     id: 45548
+    lowsecmodifier: 1.899999976158142
     marketGroup: 2349
-    mass: 200.0
+    maxgroupfitted: 1
+    metagroupid: 4
     name: Standup XL-Set Thukker Structure and Component Manufacturing Efficiency
+    nullsecmodifier: 0.10000000149011612
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 4
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 1
+    upgradecost: 100
     volume: 40.0

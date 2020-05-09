@@ -1,289 +1,273 @@
 types:
   Inferno Fury Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 69
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 143.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 3750
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxVelocity: 3750.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20210
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamage: 116.0
-    ThermalDamageResonance: 0.800000011920929
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 69
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 143.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 3750
+    explosivedamageresonance: 1.0
+    hp: 60.0
     id: 24499
+    kineticdamageresonance: 1.0
+    launchergroup: 509
     marketGroup: 927
-    mass: 700.0
+    maxvelocity: 3750.0
+    metalevel: 5
     name: Inferno Fury Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20210
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 116.0
+    thermaldamageresonance: 0.800000011920929
     volume: 0.014999999664723873
   Inferno Precision Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 25
-    AoeDamageReductionFactor: 0.5609999895095825
-    AoeFalloff: 1500
-    AoeVelocity: 204.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2500
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxVelocity: 3750.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20210
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamage: 83.0
-    ThermalDamageResonance: 0.800000011920929
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 25
+    aoedamagereductionfactor: 0.5609999895095825
+    aoefalloff: 1500
+    aoevelocity: 204.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2500
+    explosivedamageresonance: 1.0
+    hp: 60.0
     id: 2647
+    kineticdamageresonance: 1.0
+    launchergroup: 509
     marketGroup: 917
-    mass: 700.0
+    maxvelocity: 3750.0
+    metalevel: 5
     name: Inferno Precision Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20210
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 83.0
+    thermaldamageresonance: 0.800000011920929
     volume: 0.014999999664723873
   Mjolnir Fury Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 69
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 143.0
-    DetonationRange: 35
-    EmDamage: 116.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 3750
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxVelocity: 3750.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20210
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 69
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 143.0
+    detonationrange: 35
+    emdamage: 116.0
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 3750
+    explosivedamageresonance: 1.0
+    hp: 60.0
     id: 2613
+    kineticdamageresonance: 1.0
+    launchergroup: 509
     marketGroup: 927
-    mass: 700.0
+    maxvelocity: 3750.0
+    metalevel: 5
     name: Mjolnir Fury Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20210
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Mjolnir Precision Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 25
-    AoeDamageReductionFactor: 0.5609999895095825
-    AoeFalloff: 1500
-    AoeVelocity: 204.0
-    DetonationRange: 35
-    EmDamage: 83.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 2500
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxVelocity: 3750.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20210
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 25
+    aoedamagereductionfactor: 0.5609999895095825
+    aoefalloff: 1500
+    aoevelocity: 204.0
+    detonationrange: 35
+    emdamage: 83.0
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 2500
+    explosivedamageresonance: 1.0
+    hp: 60.0
     id: 24505
+    kineticdamageresonance: 1.0
+    launchergroup: 509
     marketGroup: 917
-    mass: 700.0
+    maxvelocity: 3750.0
+    metalevel: 5
     name: Mjolnir Precision Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20210
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Nova Fury Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 69
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 143.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 3750
-    ExplosiveDamage: 116.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxVelocity: 3750.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20210
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 69
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 143.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 3750
+    explosivedamage: 116.0
+    explosivedamageresonance: 0.800000011920929
+    hp: 60.0
     id: 24497
+    kineticdamageresonance: 1.0
+    launchergroup: 509
     marketGroup: 927
-    mass: 700.0
+    maxvelocity: 3750.0
+    metalevel: 5
     name: Nova Fury Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20210
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Nova Precision Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 25
-    AoeDamageReductionFactor: 0.5609999895095825
-    AoeFalloff: 1500
-    AoeVelocity: 204.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2500
-    ExplosiveDamage: 83.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxVelocity: 3750.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20210
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 25
+    aoedamagereductionfactor: 0.5609999895095825
+    aoefalloff: 1500
+    aoevelocity: 204.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2500
+    explosivedamage: 83.0
+    explosivedamageresonance: 0.800000011920929
+    hp: 60.0
     id: 24503
+    kineticdamageresonance: 1.0
+    launchergroup: 509
     marketGroup: 917
-    mass: 700.0
+    maxvelocity: 3750.0
+    metalevel: 5
     name: Nova Precision Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20210
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Scourge Fury Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 69
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 143.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 3750
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamage: 116.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxVelocity: 3750.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20210
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 69
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 143.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 3750
+    explosivedamageresonance: 1.0
+    hp: 60.0
     id: 24495
+    kineticdamage: 116.0
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 509
     marketGroup: 927
-    mass: 700.0
+    maxvelocity: 3750.0
+    metalevel: 5
     name: Scourge Fury Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20210
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Scourge Precision Light Missile:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 25
-    AoeDamageReductionFactor: 0.5609999895095825
-    AoeFalloff: 1500
-    AoeVelocity: 204.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2500
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamage: 83.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 509
-    Mass: 700.0
-    MaxVelocity: 3750.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20210
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 25
+    aoedamagereductionfactor: 0.5609999895095825
+    aoefalloff: 1500
+    aoevelocity: 204.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2500
+    explosivedamageresonance: 1.0
+    hp: 60.0
     id: 24501
+    kineticdamage: 83.0
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 509
     marketGroup: 917
-    mass: 700.0
+    maxvelocity: 3750.0
+    metalevel: 5
     name: Scourge Precision Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20210
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873

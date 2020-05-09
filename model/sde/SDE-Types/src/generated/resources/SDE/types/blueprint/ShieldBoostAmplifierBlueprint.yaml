@@ -1,52 +1,52 @@
 types:
   '''Glycerine'' Shield Boost Amplifier Blueprint':
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 20614
+    industryblueprintrank: 6.0
     name: '''Glycerine'' Shield Boost Amplifier Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Caldari Navy Shield Boost Amplifier Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15906
+    industryblueprintrank: 6.0
     name: Caldari Navy Shield Boost Amplifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Republic Fleet Shield Boost Amplifier Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15908
+    industryblueprintrank: 6.0
     name: Republic Fleet Shield Boost Amplifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Shield Boost Amplifier I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 11562
+    industryblueprintrank: 6.0
     marketGroup: 1552
     name: Shield Boost Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Shield Boost Amplifier II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 24444
+    industryblueprintrank: 15.600000381469727
     name: Shield Boost Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

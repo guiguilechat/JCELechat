@@ -1,31 +1,31 @@
 types:
   Intact Weapon Subroutines:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 30628
+    industryblueprintrank: 2.0
     marketGroup: 1909
     name: Intact Weapon Subroutines
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10.0
   Malfunctioning Weapon Subroutines:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 30632
+    industryblueprintrank: 2.0
     marketGroup: 1909
     name: Malfunctioning Weapon Subroutines
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10.0
   Wrecked Weapon Subroutines:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 30633
+    industryblueprintrank: 2.0
     marketGroup: 1909
     name: Wrecked Weapon Subroutines
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10.0

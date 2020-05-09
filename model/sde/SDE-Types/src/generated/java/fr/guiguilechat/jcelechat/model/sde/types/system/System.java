@@ -4,6 +4,8 @@ import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import org.yaml.snakeyaml.Yaml;
@@ -11,7 +13,13 @@ import org.yaml.snakeyaml.Yaml;
 public class System
     extends fr.guiguilechat.jcelechat.model.sde.types.System
 {
+    public static final Set<Attribute> ATTRIBUTES = Collections.emptySet();
     public static final System.MetaGroup METAGROUP = new System.MetaGroup();
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
+    }
 
     @Override
     public IMetaGroup<System> getGroup() {

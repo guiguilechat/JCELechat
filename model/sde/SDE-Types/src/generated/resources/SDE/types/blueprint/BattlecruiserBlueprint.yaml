@@ -1,305 +1,305 @@
 types:
   Absolution Blueprint:
-    IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22449
+    industryblueprintrank: 1000.0
+    industryjobcostmultiplier: 1
     marketGroup: 896
     name: Absolution Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Astarte Blueprint:
-    IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22467
+    industryblueprintrank: 1000.0
+    industryjobcostmultiplier: 1
     marketGroup: 898
     name: Astarte Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Brutix Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 16230
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 591
     name: Brutix Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Brutix Navy Issue Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 33152
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     name: Brutix Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Claymore Blueprint:
-    IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22469
+    industryblueprintrank: 1000.0
+    industryjobcostmultiplier: 1
     marketGroup: 899
     name: Claymore Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Cyclone Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 16232
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 592
     name: Cyclone Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Damnation Blueprint:
-    IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22475
+    industryblueprintrank: 1000.0
+    industryjobcostmultiplier: 1
     marketGroup: 896
     name: Damnation Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Drake Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 24699
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 590
     name: Drake Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Drake Navy Issue Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 33154
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     name: Drake Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Drekavac Blueprint:
-    IndustryJobCostMultiplier: 1
-    TechLevel: 1
     id: 49715
+    industryjobcostmultiplier: 1
     name: Drekavac Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Eos Blueprint:
-    IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22443
+    industryblueprintrank: 1000.0
+    industryjobcostmultiplier: 1
     marketGroup: 898
     name: Eos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Ferox Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 16228
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 590
     name: Ferox Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Gnosis Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 33327
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     name: Gnosis Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Harbinger Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 24697
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 589
     name: Harbinger Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Harbinger Navy Issue Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 33156
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     name: Harbinger Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Hurricane Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 24703
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 592
     name: Hurricane Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Hurricane Fleet Issue Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 33158
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     name: Hurricane Fleet Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Myrmidon Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 24701
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 591
     name: Myrmidon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Naga Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 4307
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 590
     name: Naga Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Nighthawk Blueprint:
-    IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22471
+    industryblueprintrank: 1000.0
+    industryjobcostmultiplier: 1
     marketGroup: 897
     name: Nighthawk Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Oracle Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 4305
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 589
     name: Oracle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Prophecy Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 16234
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 589
     name: Prophecy Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Sleipnir Blueprint:
-    IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22445
+    industryblueprintrank: 1000.0
+    industryjobcostmultiplier: 1
     marketGroup: 899
     name: Sleipnir Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Talos Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 4309
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 591
     name: Talos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Tornado Blueprint:
-    IndustryBlueprintRank: 50.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 4311
+    industryblueprintrank: 50.0
+    industryjobcostmultiplier: 1
     marketGroup: 592
     name: Tornado Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Vulture Blueprint:
-    IndustryBlueprintRank: 1000.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22447
+    industryblueprintrank: 1000.0
+    industryjobcostmultiplier: 1
     marketGroup: 897
     name: Vulture Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

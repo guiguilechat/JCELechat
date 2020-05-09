@@ -1,256 +1,256 @@
 types:
   Burst Projector Operation:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    ProjECMDurationBonus: -5
-    Radius: 1.0
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 27911
     marketGroup: 367
     name: Burst Projector Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
+    projecmdurationbonus: -5
     published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Cloaking:
-    CanNotBeTrainedOnTrial: 1
-    CloakingTargetingDelayBonus: -10
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
+    cloakingtargetingdelaybonus: -10
     id: 11579
     marketGroup: 367
     name: Cloaking
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Electronic Warfare:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 3427
     marketGroup: 367
     name: Electronic Warfare
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Frequency Modulation:
-    CanNotBeTrainedOnTrial: 1
-    FalloffBonus: 10.0
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3427
-    RequiredSkill2Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    falloffbonus: 10.0
     id: 19760
     marketGroup: 367
     name: Frequency Modulation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 3
+    requiredskill2: 3427
+    requiredskill2level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Long Distance Jamming:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RangeSkillBonus: 10
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3427
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 19759
     marketGroup: 367
     name: Long Distance Jamming
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    rangeskillbonus: 10
+    requiredskill1: 3426
+    requiredskill1level: 4
+    requiredskill2: 3427
+    requiredskill2level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Propulsion Jamming:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3449
-    RequiredSkill2Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 3435
     marketGroup: 367
     name: Propulsion Jamming
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 3
+    requiredskill2: 3449
+    requiredskill2level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Sensor Linking:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 3433
     marketGroup: 367
     name: Sensor Linking
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Signal Dispersion:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3427
-    RequiredSkill2Level: 4
-    ScanSkillEwStrengthBonus: 5.0
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 19761
     marketGroup: 367
     name: Signal Dispersion
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    requiredskill2: 3427
+    requiredskill2level: 4
+    scanskillewstrengthbonus: 5.0
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Signal Suppression:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3433
-    RequiredSkill2Level: 4
-    ScanSkillEwStrengthBonus: 5.0
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 19766
     marketGroup: 367
     name: Signal Suppression
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    requiredskill2: 3433
+    requiredskill2level: 4
+    scanskillewstrengthbonus: 5.0
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Signature Focusing:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    RequiredSkill2: 19921
-    RequiredSkill2Level: 4
-    ScanSkillTargetPaintStrengthBonus: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 19922
     marketGroup: 367
     name: Signature Focusing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    requiredskill2: 19921
+    requiredskill2level: 4
+    scanskilltargetpaintstrengthbonus: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Tactical Logistics Reconfiguration:
-    CanNotBeTrainedOnTrial: 1
-    ConsumptionQuantityBonus: 25
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 12096
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    consumptionquantitybonus: 25
     id: 27906
     marketGroup: 367
     name: Tactical Logistics Reconfiguration
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 12096
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Target Breaker Amplification:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    DurationBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
+    durationbonus: -5
     id: 4411
     marketGroup: 367
     name: Target Breaker Amplification
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Target Painting:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 19921
     marketGroup: 367
     name: Target Painting
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Weapon Destabilization:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3434
-    RequiredSkill2Level: 4
-    ScanSkillEwStrengthBonus: 5.0
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 19767
     marketGroup: 367
     name: Weapon Destabilization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    requiredskill2: 3434
+    requiredskill2level: 4
+    scanskillewstrengthbonus: 5.0
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Weapon Disruption:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 3434
     marketGroup: 367
     name: Weapon Disruption
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582

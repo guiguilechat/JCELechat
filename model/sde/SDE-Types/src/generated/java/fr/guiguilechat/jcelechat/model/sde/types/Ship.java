@@ -13,6 +13,74 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TurretSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.AssaultFrigate;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.AttackBattlecruiser;
 import fr.guiguilechat.jcelechat.model.sde.types.ship.Battleship;
@@ -66,252 +134,252 @@ public abstract class Ship
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Agility;
+    public double agility;
     /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorEmDamageResonance;
+    public double armoremdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorExplosiveDamageResonance;
+    public double armorexplosivedamageresonance;
     /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ArmorHP;
+    public double armorhp;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorKineticDamageResonance;
+    public double armorkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorThermalDamageResonance;
+    public double armorthermaldamageresonance;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
+    public double armoruniformity;
     /**
      * Just for the UI to display the ship warp speed.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BaseWarpSpeed;
+    public int basewarpspeed;
     /**
      * Capacitor capacity
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorCapacity;
+    public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * charge of module
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Charge;
+    public int charge;
     /**
      * CPU load of ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CpuLoad;
+    public int cpuload;
     /**
      * CPU output of ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CpuOutput;
+    public int cpuoutput;
     /**
      * current structure damage dealt to module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Damage;
+    public int damage;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DroneBandwidth;
+    public int dronebandwidth;
     /**
      * This defines the total capacity of drones allowed in the drone bay of the ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DroneCapacity;
+    public int dronecapacity;
     /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double EmDamageResonance;
+    public double emdamageresonance;
     /**
      * damage multiplier vs. explosive damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ExplosiveDamageResonance;
+    public double explosivedamageresonance;
     /**
      * Graphic ID of the boosters for drone type ships.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int GfxBoosterID;
+    public int gfxboosterid;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int HeatCapacityHi;
+    public int heatcapacityhi;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int HeatCapacityLow;
+    public int heatcapacitylow;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int HeatCapacityMed;
+    public int heatcapacitymed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatDissipationRateHi;
+    public double heatdissipationratehi;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatDissipationRateLow;
+    public double heatdissipationratelow;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatDissipationRateMed;
+    public double heatdissipationratemed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HeatGenerationMultiplier;
+    public double heatgenerationmultiplier;
     /**
      * tbd
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int HiSlots;
+    public int hislots;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * damage multiplier vs. kinetic damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double KineticDamageResonance;
+    public double kineticdamageresonance;
     /**
      * The number of remaining unused launcher slots.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherSlotsLeft;
+    public int launcherslotsleft;
     /**
      * The number of low power slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LowSlots;
+    public int lowslots;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxLockedTargets;
+    public int maxlockedtargets;
     /**
      * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxTargetRange;
+    public double maxtargetrange;
     /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
+    public double maxvelocity;
     /**
      * tbd
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MedSlots;
+    public int medslots;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -319,98 +387,98 @@ public abstract class Ship
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * Current load of power core
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PowerLoad;
+    public int powerload;
     /**
      * power output of power core
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PowerOutput;
+    public int poweroutput;
     /**
      * tbd
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PowerToSpeed;
+    public int powertospeed;
     /**
      * The graphicID of the propulsion system.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PropulsionGraphicID;
+    public int propulsiongraphicid;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double RechargeRate;
+    public double rechargerate;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
+    public double scangravimetricstrength;
     /**
      * Ladar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanLadarStrength;
+    public double scanladarstrength;
     /**
      * Magnetometric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanMagnetometricStrength;
+    public double scanmagnetometricstrength;
     /**
      * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
+    public double scanradarstrength;
     /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldCapacity;
+    public double shieldcapacity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
      * The amount of starting shield capacity of the NPC.
@@ -418,63 +486,63 @@ public abstract class Ship
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldCharge;
+    public double shieldcharge;
     /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldEmDamageResonance;
+    public double shieldemdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldExplosiveDamageResonance;
+    public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldKineticDamageResonance;
+    public double shieldkineticdamageresonance;
     /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldRechargeRate;
+    public double shieldrechargerate;
     /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldThermalDamageResonance;
+    public double shieldthermaldamageresonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
+    public double shielduniformity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(100.0)
-    public double SignatureRadius;
+    public double signatureradius;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    public double structureuniformity;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -482,64 +550,64 @@ public abstract class Ship
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * damage multiplier vs. thermal.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ThermalDamageResonance;
+    public double thermaldamageresonance;
     /**
      * Remaining number of unused turret slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int TurretSlotsLeft;
+    public int turretslotsleft;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int TypeColorScheme;
+    public int typecolorscheme;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Uniformity;
+    public double uniformity;
     /**
      * Attribute on ships used for ship upgrades
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeCapacity;
+    public int upgradecapacity;
     /**
      * The power cost to warp per one kg per AU (floats do not have the resolution for meters).
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WarpCapacitorNeed;
+    public double warpcapacitorneed;
     /**
      * tbd instance param
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpFactor;
+    public int warpfactor;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(3.0)
-    public double WarpSpeedMultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Damage.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Hp.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Charge.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Agility.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.TurretSlotsLeft.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityHi.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateHi.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateMed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateLow.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityMed.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityLow.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1 .INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth.INSTANCE })));
+    public double warpspeedmultiplier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, RechargeRate.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, WarpSpeedMultiplier.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, MetaLevel.INSTANCE, Uniformity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, MaxLockedTargets.INSTANCE, HeatGenerationMultiplier.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, TypeColorScheme.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE })));
     public static final Ship.MetaCat METACAT = new Ship.MetaCat();
 
     @Override
@@ -547,275 +615,275 @@ public abstract class Ship
         switch (attribute.getId()) {
             case  70 :
             {
-                return Agility;
+                return agility;
             }
             case  267 :
             {
-                return ArmorEmDamageResonance;
+                return armoremdamageresonance;
             }
             case  268 :
             {
-                return ArmorExplosiveDamageResonance;
+                return armorexplosivedamageresonance;
             }
             case  265 :
             {
-                return ArmorHP;
+                return armorhp;
             }
             case  269 :
             {
-                return ArmorKineticDamageResonance;
+                return armorkineticdamageresonance;
             }
             case  270 :
             {
-                return ArmorThermalDamageResonance;
+                return armorthermaldamageresonance;
             }
             case  524 :
             {
-                return ArmorUniformity;
+                return armoruniformity;
             }
             case  1281 :
             {
-                return BaseWarpSpeed;
+                return basewarpspeed;
             }
             case  482 :
             {
-                return CapacitorCapacity;
+                return capacitorcapacity;
             }
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  18 :
             {
-                return Charge;
+                return charge;
             }
             case  49 :
             {
-                return CpuLoad;
+                return cpuload;
             }
             case  48 :
             {
-                return CpuOutput;
+                return cpuoutput;
             }
             case  3 :
             {
-                return Damage;
+                return damage;
             }
             case  1271 :
             {
-                return DroneBandwidth;
+                return dronebandwidth;
             }
             case  283 :
             {
-                return DroneCapacity;
+                return dronecapacity;
             }
             case  113 :
             {
-                return EmDamageResonance;
+                return emdamageresonance;
             }
             case  111 :
             {
-                return ExplosiveDamageResonance;
+                return explosivedamageresonance;
             }
             case  246 :
             {
-                return GfxBoosterID;
+                return gfxboosterid;
             }
             case  1178 :
             {
-                return HeatCapacityHi;
+                return heatcapacityhi;
             }
             case  1200 :
             {
-                return HeatCapacityLow;
+                return heatcapacitylow;
             }
             case  1199 :
             {
-                return HeatCapacityMed;
+                return heatcapacitymed;
             }
             case  1179 :
             {
-                return HeatDissipationRateHi;
+                return heatdissipationratehi;
             }
             case  1198 :
             {
-                return HeatDissipationRateLow;
+                return heatdissipationratelow;
             }
             case  1196 :
             {
-                return HeatDissipationRateMed;
+                return heatdissipationratemed;
             }
             case  1224 :
             {
-                return HeatGenerationMultiplier;
+                return heatgenerationmultiplier;
             }
             case  14 :
             {
-                return HiSlots;
+                return hislots;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  109 :
             {
-                return KineticDamageResonance;
+                return kineticdamageresonance;
             }
             case  101 :
             {
-                return LauncherSlotsLeft;
+                return launcherslotsleft;
             }
             case  12 :
             {
-                return LowSlots;
+                return lowslots;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  192 :
             {
-                return MaxLockedTargets;
+                return maxlockedtargets;
             }
             case  76 :
             {
-                return MaxTargetRange;
+                return maxtargetrange;
             }
             case  37 :
             {
-                return MaxVelocity;
+                return maxvelocity;
             }
             case  13 :
             {
-                return MedSlots;
+                return medslots;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  15 :
             {
-                return PowerLoad;
+                return powerload;
             }
             case  11 :
             {
-                return PowerOutput;
+                return poweroutput;
             }
             case  19 :
             {
-                return PowerToSpeed;
+                return powertospeed;
             }
             case  217 :
             {
-                return PropulsionGraphicID;
+                return propulsiongraphicid;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             case  55 :
             {
-                return RechargeRate;
+                return rechargerate;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  211 :
             {
-                return ScanGravimetricStrength;
+                return scangravimetricstrength;
             }
             case  209 :
             {
-                return ScanLadarStrength;
+                return scanladarstrength;
             }
             case  210 :
             {
-                return ScanMagnetometricStrength;
+                return scanmagnetometricstrength;
             }
             case  208 :
             {
-                return ScanRadarStrength;
+                return scanradarstrength;
             }
             case  263 :
             {
-                return ShieldCapacity;
+                return shieldcapacity;
             }
             case  264 :
             {
-                return ShieldCharge;
+                return shieldcharge;
             }
             case  271 :
             {
-                return ShieldEmDamageResonance;
+                return shieldemdamageresonance;
             }
             case  272 :
             {
-                return ShieldExplosiveDamageResonance;
+                return shieldexplosivedamageresonance;
             }
             case  273 :
             {
-                return ShieldKineticDamageResonance;
+                return shieldkineticdamageresonance;
             }
             case  479 :
             {
-                return ShieldRechargeRate;
+                return shieldrechargerate;
             }
             case  274 :
             {
-                return ShieldThermalDamageResonance;
+                return shieldthermaldamageresonance;
             }
             case  484 :
             {
-                return ShieldUniformity;
+                return shielduniformity;
             }
             case  552 :
             {
-                return SignatureRadius;
+                return signatureradius;
             }
             case  525 :
             {
-                return StructureUniformity;
+                return structureuniformity;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  110 :
             {
-                return ThermalDamageResonance;
+                return thermaldamageresonance;
             }
             case  102 :
             {
-                return TurretSlotsLeft;
+                return turretslotsleft;
             }
             case  1768 :
             {
-                return TypeColorScheme;
+                return typecolorscheme;
             }
             case  136 :
             {
-                return Uniformity;
+                return uniformity;
             }
             case  1132 :
             {
-                return UpgradeCapacity;
+                return upgradecapacity;
             }
             case  153 :
             {
-                return WarpCapacitorNeed;
+                return warpcapacitorneed;
             }
             case  21 :
             {
-                return WarpFactor;
+                return warpfactor;
             }
             case  600 :
             {
-                return WarpSpeedMultiplier;
+                return warpspeedmultiplier;
             }
             default:
             {

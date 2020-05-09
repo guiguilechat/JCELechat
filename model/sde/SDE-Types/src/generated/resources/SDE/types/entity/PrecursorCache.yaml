@@ -1,215 +1,201 @@
 types:
   Triglavian Bioadaptive Cache:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorHP: 100.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    ArmorUniformity: 1.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 30
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 100.0
-    Mass: 100000.0
-    Radius: 1226.0
-    ShieldCapacity: 100.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 30
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 100.0
     id: 47951
-    mass: 100000.0
     name: Triglavian Bioadaptive Cache
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 100.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Triglavian Biocombinative Cache:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorHP: 100.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    ArmorUniformity: 1.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 30
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 100.0
-    Mass: 100000.0
-    Radius: 1226.0
-    ShieldCapacity: 100.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 30
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 100.0
     id: 49689
-    mass: 100000.0
     name: Triglavian Biocombinative Cache
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 100.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Triglavian Biocombinative Schematic Cache:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorHP: 100000.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    ArmorUniformity: 1.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 100000.0
-    Mass: 100000.0
-    Radius: 1226.0
-    ShieldCapacity: 100000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 100000.0
     id: 53294
-    mass: 100000.0
     name: Triglavian Biocombinative Schematic Cache
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 100000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Triglavian Cladistic Cache:
-    ArmorEmDamageResonance: 0.0010000000474974513
-    ArmorExplosiveDamageResonance: 0.0010000000474974513
-    ArmorHP: 50000.0
-    ArmorKineticDamageResonance: 0.0010000000474974513
-    ArmorThermalDamageResonance: 0.0010000000474974513
-    ArmorUniformity: 1.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 30
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 100.0
-    Mass: 100000.0
-    Radius: 1226.0
-    ShieldCapacity: 100.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
-    Untargetable: 1
+    armoremdamageresonance: 0.0010000000474974513
+    armorexplosivedamageresonance: 0.0010000000474974513
+    armorhp: 50000.0
+    armorkineticdamageresonance: 0.0010000000474974513
+    armorthermaldamageresonance: 0.0010000000474974513
+    armoruniformity: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 30
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 100.0
     id: 49690
-    mass: 100000.0
     name: Triglavian Cladistic Cache
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 100.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    untargetable: 1
     volume: 1.0E8
   Triglavian Extraction Nexus:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorHP: 100.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    ArmorUniformity: 1.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 30
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 100.0
-    Mass: 100000.0
-    Radius: 1226.0
-    ShieldCapacity: 100.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 30
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 100.0
     id: 49663
-    mass: 100000.0
     name: Triglavian Extraction Nexus
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 100.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Triglavian Extraction Node:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorHP: 100.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    ArmorUniformity: 1.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 30
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 100.0
-    Mass: 100000.0
-    Radius: 1226.0
-    ShieldCapacity: 100.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 30
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 100.0
     id: 49662
-    mass: 100000.0
     name: Triglavian Extraction Node
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 100.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Triglavian Extraction SubNode:
-    ArmorEmDamageResonance: 1.0
-    ArmorExplosiveDamageResonance: 1.0
-    ArmorHP: 100.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 1.0
-    ArmorUniformity: 1.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 30
-    EntityLootCountMin: 1
-    Falloff: 1.0
-    Hp: 100.0
-    Mass: 100000.0
-    Radius: 1226.0
-    ShieldCapacity: 100.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 30
+    entitylootcountmin: 1
+    falloff: 1.0
+    hp: 100.0
     id: 49661
-    mass: 100000.0
     name: Triglavian Extraction SubNode
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1226.0
+    shieldcapacity: 100.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8

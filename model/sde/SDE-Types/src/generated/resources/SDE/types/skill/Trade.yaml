@@ -1,217 +1,217 @@
 types:
   Accounting:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3443
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 16622
     marketGroup: 378
     name: Accounting
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Advanced Broker Relations:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 16622
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3446
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 16597
     marketGroup: 378
     name: Advanced Broker Relations
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 16622
+    requiredskill1level: 4
+    requiredskill2: 3446
+    requiredskill2level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Broker Relations:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3443
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 164
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 3446
     marketGroup: 378
     name: Broker Relations
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 2
+    secondaryattribute: 164
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Contracting:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
     id: 25235
     marketGroup: 378
     name: Contracting
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Corporation Contracting:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 25235
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 25233
     marketGroup: 378
     name: Corporation Contracting
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 25235
+    requiredskill1level: 4
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Customs Code Expertise:
-    CanNotBeTrainedOnTrial: 1
-    PiTaxReductionModifer: -10
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3443
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 33467
     marketGroup: 378
     name: Customs Code Expertise
     packagedVolume: 0.009999999776482582
+    pitaxreductionmodifer: -10
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Daytrading:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3443
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
     id: 16595
     marketGroup: 378
     name: Daytrading
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Marketing:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3443
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 16598
     marketGroup: 378
     name: Marketing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Procurement:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 16598
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 16594
     marketGroup: 378
     name: Procurement
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 16598
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Retail:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3443
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 164
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 3444
     marketGroup: 378
     name: Retail
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 2
+    secondaryattribute: 164
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Trade:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    SecondaryAttribute: 164
-    SkillTimeConstant: 1.0
-    TradePremiumBonus: -5
+    cannotbetrainedontrial: 1
     id: 3443
     marketGroup: 378
     name: Trade
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    secondaryattribute: 164
+    skilltimeconstant: 1.0
+    tradepremiumbonus: -5
     volume: 0.009999999776482582
   Tycoon:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 16596
-    RequiredSkill1Level: 5
-    RequiredSkill2: 16598
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 18580
     marketGroup: 378
     name: Tycoon
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 16596
+    requiredskill1level: 5
+    requiredskill2: 16598
+    requiredskill2level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Visibility:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 16594
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 3447
     marketGroup: 378
     name: Visibility
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 16594
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Wholesale:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3444
-    RequiredSkill1Level: 5
-    RequiredSkill2: 16598
-    RequiredSkill2Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 16596
     marketGroup: 378
     name: Wholesale
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3444
+    requiredskill1level: 5
+    requiredskill2: 16598
+    requiredskill2level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582

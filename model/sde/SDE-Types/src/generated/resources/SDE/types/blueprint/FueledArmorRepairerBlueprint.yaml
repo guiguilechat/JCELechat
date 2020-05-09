@@ -7,29 +7,29 @@ types:
     published: true
     volume: 0.009999999776482582
   Large Ancillary Armor Repairer Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
     id: 33104
+    industryblueprintrank: 9.0
     name: Large Ancillary Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Medium Ancillary Armor Repairer Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
     id: 33102
+    industryblueprintrank: 6.0
     name: Medium Ancillary Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Small Ancillary Armor Repairer Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 33077
+    industryblueprintrank: 3.0
     name: Small Ancillary Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

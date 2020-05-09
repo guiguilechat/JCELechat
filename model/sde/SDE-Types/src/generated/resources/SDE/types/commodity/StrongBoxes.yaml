@@ -72,14 +72,14 @@ types:
     published: true
     volume: 400000.0
   Blood Raider Strong Box:
-    MetaGroupID: 4
-    Radius: 1.0
     id: 43696
     marketGroup: 2317
+    metagroupid: 4
     name: Blood Raider Strong Box
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Deep Core Mining Inc. Strong Box:
     id: 43685
@@ -122,14 +122,14 @@ types:
     published: true
     volume: 400000.0
   Guristas Production Strong Box:
-    MetaGroupID: 4
-    Radius: 1.0
     id: 43697
     marketGroup: 2317
+    metagroupid: 4
     name: Guristas Production Strong Box
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Guristas Standup Module Blueprint Armored Cache:
     id: 46580
@@ -188,14 +188,14 @@ types:
     published: true
     volume: 0.10000000149011612
   Salvation Angels Strong Box:
-    MetaGroupID: 4
-    Radius: 1.0
     id: 43698
     marketGroup: 2317
+    metagroupid: 4
     name: Salvation Angels Strong Box
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Thukker Mix Strong Box:
     id: 43693
@@ -206,14 +206,14 @@ types:
     published: true
     volume: 0.10000000149011612
   True Creations Strong Box:
-    MetaGroupID: 4
-    Radius: 1.0
     id: 43695
     marketGroup: 2317
+    metagroupid: 4
     name: True Creations Strong Box
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Vherokior Tribe Strong Box:
     id: 43692

@@ -1,36 +1,34 @@
 types:
   Customs Office Gantry:
-    AnchoringDelay: 5000
-    ArmorHP: 500000.0
-    ArmorUniformity: 0.75
-    Capacity: 1.95E7
-    ConstructionType: 2233
-    DisallowOffensiveModifiers: 1
-    Hp: 300000.0
-    Mass: 1000000.0
-    MaxOperationalDistance: 3000
-    MaxOperationalUsers: 1
-    OnliningDelay: 30000
-    Radius: 1857.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 1
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 1.0E7
-    ShieldRechargeRate: 1.0E7
-    ShieldUniformity: 0.75
-    SignatureRadius: 14000.0
-    SpecialMaterialBayCapacity: 3200
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 500000.0
+    armoruniformity: 0.75
+    capacity: 1.95E7
+    constructiontype: 2233
+    disallowoffensivemodifiers: 1
+    hp: 300000.0
     id: 3962
     marketGroup: 1410
-    mass: 1000000.0
+    maxoperationaldistance: 3000
+    maxoperationalusers: 1
     name: Customs Office Gantry
+    onliningdelay: 30000
     packagedVolume: 7600.0
     portionSize: 1
     published: true
+    radius: 1857.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 1.0E7
+    shieldrechargerate: 1.0E7
+    shielduniformity: 0.75
+    signatureradius: 14000.0
+    specialmaterialbaycapacity: 3200
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 7600.0

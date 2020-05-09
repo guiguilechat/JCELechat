@@ -1,120 +1,108 @@
 types:
   '''Hypnos'' Signal Distortion Amplifier I':
-    Cpu: 29.0
-    EcmRangeBonus: 10
-    EcmStrengthBonusPercent: 10
-    Hp: 40.0
-    Mass: 1.0
-    MetaLevel: 4
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 3
-    TechLevel: 1
+    cpu: 29.0
+    ecmrangebonus: 10
+    ecmstrengthbonuspercent: 10
+    hp: 40.0
     id: 25565
     marketGroup: 967
-    mass: 1.0
+    metalevel: 4
     name: '''Hypnos'' Signal Distortion Amplifier I'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 3
+    techlevel: 1
     volume: 5.0
   Compulsive Signal Distortion Amplifier I:
-    Cpu: 28.0
-    EcmRangeBonus: 9
-    EcmStrengthBonusPercent: 9
-    Hp: 40.0
-    Mass: 1.0
-    MetaLevel: 3
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 3
-    TechLevel: 1
+    cpu: 28.0
+    ecmrangebonus: 9
+    ecmstrengthbonuspercent: 9
+    hp: 40.0
     id: 25567
     marketGroup: 967
-    mass: 1.0
+    metalevel: 3
     name: Compulsive Signal Distortion Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 3
+    techlevel: 1
     volume: 5.0
   Induced Signal Distortion Amplifier I:
-    Cpu: 27.0
-    EcmRangeBonus: 8
-    EcmStrengthBonusPercent: 8
-    Hp: 40.0
-    Mass: 1.0
-    MetaLevel: 2
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 3
-    TechLevel: 1
+    cpu: 27.0
+    ecmrangebonus: 8
+    ecmstrengthbonuspercent: 8
+    hp: 40.0
     id: 25569
     marketGroup: 967
-    mass: 1.0
+    metalevel: 2
     name: Induced Signal Distortion Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 3
+    techlevel: 1
     volume: 5.0
   Initiated Signal Distortion Amplifier I:
-    Cpu: 26.0
-    EcmRangeBonus: 7
-    EcmStrengthBonusPercent: 7
-    Hp: 40.0
-    Mass: 1.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 3
-    TechLevel: 1
+    cpu: 26.0
+    ecmrangebonus: 7
+    ecmstrengthbonuspercent: 7
+    hp: 40.0
     id: 25571
     marketGroup: 967
-    mass: 1.0
+    metalevel: 1
     name: Initiated Signal Distortion Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 3
+    techlevel: 1
     volume: 5.0
   Signal Distortion Amplifier I:
-    Cpu: 30.0
-    EcmRangeBonus: 5
-    EcmStrengthBonusPercent: 5
-    Hp: 40.0
-    Mass: 1.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 3
-    TechLevel: 1
+    cpu: 30.0
+    ecmrangebonus: 5
+    ecmstrengthbonuspercent: 5
+    hp: 40.0
     id: 25561
     marketGroup: 967
-    mass: 1.0
     name: Signal Distortion Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 3
+    techlevel: 1
     volume: 5.0
   Signal Distortion Amplifier II:
-    Cpu: 30.0
-    EcmRangeBonus: 10
-    EcmStrengthBonusPercent: 10
-    Hp: 40.0
-    Mass: 1.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 4
-    TechLevel: 2
+    cpu: 30.0
+    ecmrangebonus: 10
+    ecmstrengthbonuspercent: 10
+    hp: 40.0
     id: 25563
     marketGroup: 967
-    mass: 1.0
+    metalevel: 5
     name: Signal Distortion Amplifier II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 4
+    techlevel: 2
     volume: 5.0

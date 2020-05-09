@@ -4,6 +4,8 @@ import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.Bonus;
@@ -12,7 +14,13 @@ import org.yaml.snakeyaml.Yaml;
 public class PhobiaHandicap
     extends Bonus
 {
+    public static final Set<Attribute> ATTRIBUTES = Collections.emptySet();
     public static final PhobiaHandicap.MetaGroup METAGROUP = new PhobiaHandicap.MetaGroup();
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
+    }
 
     @Override
     public IMetaGroup<PhobiaHandicap> getGroup() {

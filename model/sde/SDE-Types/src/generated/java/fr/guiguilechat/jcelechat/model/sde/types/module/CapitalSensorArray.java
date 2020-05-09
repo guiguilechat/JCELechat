@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,34 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanCloak;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowActivateOnWarp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowDocking;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowTethering;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EwCapacitorNeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,91 +54,91 @@ public class CapitalSensorArray
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int CanCloak;
+    public int cancloak;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup02;
+    public int canfitshipgroup02;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * Stops the module from being activated if the ship is aligning to warp.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowActivateOnWarp;
+    public int disallowactivateonwarp;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowDocking;
+    public int disallowdocking;
     /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowEarlyDeactivation;
+    public int disallowearlydeactivation;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowTethering;
+    public int disallowtethering;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * Bonus attribute for capacitor need of EW and propulsion jamming.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EwCapacitorNeedBonus;
+    public int ewcapacitorneedbonus;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -115,63 +146,63 @@ public class CapitalSensorArray
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanGravimetricStrengthPercent;
+    public int scangravimetricstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanLadarStrengthPercent;
+    public int scanladarstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanMagnetometricStrengthPercent;
+    public int scanmagnetometricstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanRadarStrengthPercent;
+    public int scanradarstrengthpercent;
     /**
      * Bonus for scan resolution
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanResolutionBonus;
+    public double scanresolutionbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -179,14 +210,15 @@ public class CapitalSensorArray
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Amount to modify ships warp scramble status by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleStrength;
+    public int warpscramblestrength;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, RequiredSkill1Level.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, EwCapacitorNeedBonus.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, WarpScrambleStrength.INSTANCE, DisallowDocking.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevel.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CapitalSensorArray.MetaGroup METAGROUP = new CapitalSensorArray.MetaGroup();
 
     @Override
@@ -194,105 +226,110 @@ public class CapitalSensorArray
         switch (attribute.getId()) {
             case  1163 :
             {
-                return CanCloak;
+                return cancloak;
             }
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  1299 :
             {
-                return CanFitShipGroup02;
+                return canfitshipgroup02;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1245 :
             {
-                return DisallowActivateOnWarp;
+                return disallowactivateonwarp;
             }
             case  2354 :
             {
-                return DisallowDocking;
+                return disallowdocking;
             }
             case  906 :
             {
-                return DisallowEarlyDeactivation;
+                return disallowearlydeactivation;
             }
             case  2343 :
             {
-                return DisallowTethering;
+                return disallowtethering;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  1190 :
             {
-                return EwCapacitorNeedBonus;
+                return ewcapacitorneedbonus;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  1027 :
             {
-                return ScanGravimetricStrengthPercent;
+                return scangravimetricstrengthpercent;
             }
             case  1028 :
             {
-                return ScanLadarStrengthPercent;
+                return scanladarstrengthpercent;
             }
             case  1029 :
             {
-                return ScanMagnetometricStrengthPercent;
+                return scanmagnetometricstrengthpercent;
             }
             case  1030 :
             {
-                return ScanRadarStrengthPercent;
+                return scanradarstrengthpercent;
             }
             case  566 :
             {
-                return ScanResolutionBonus;
+                return scanresolutionbonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  105 :
             {
-                return WarpScrambleStrength;
+                return warpscramblestrength;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

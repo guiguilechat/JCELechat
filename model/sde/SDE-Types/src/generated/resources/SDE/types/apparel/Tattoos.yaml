@@ -1,81 +1,81 @@
 types:
   Sleeve - 'Drone' (left):
-    Gender: 2
-    Radius: 1.0
+    gender: 2
     id: 33377
     marketGroup: 1822
     name: Sleeve - 'Drone' (left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Sleeve - 'Drone' (right):
-    Gender: 2
-    Radius: 1.0
+    gender: 2
     id: 33381
     marketGroup: 1822
     name: Sleeve - 'Drone' (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Sleeve - 'Nature' (left):
-    Gender: 2
-    Radius: 1.0
+    gender: 2
     id: 33380
     marketGroup: 1822
     name: Sleeve - 'Nature' (left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Sleeve - 'Nature' (right):
-    Gender: 2
-    Radius: 1.0
+    gender: 2
     id: 33384
     marketGroup: 1822
     name: Sleeve - 'Nature' (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Sleeve - 'Prototype' (left):
-    Gender: 2
-    Radius: 1.0
+    gender: 2
     id: 33379
     marketGroup: 1822
     name: Sleeve - 'Prototype' (left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Sleeve - 'Prototype' (right):
-    Gender: 2
-    Radius: 1.0
+    gender: 2
     id: 33383
     marketGroup: 1822
     name: Sleeve - 'Prototype' (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Sleeve - 'Wreckage' (left):
-    Gender: 2
-    Radius: 1.0
+    gender: 2
     id: 33378
     marketGroup: 1822
     name: Sleeve - 'Wreckage' (left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Sleeve - 'Wreckage' (right):
-    Gender: 2
-    Radius: 1.0
+    gender: 2
     id: 33382
     marketGroup: 1822
     name: Sleeve - 'Wreckage' (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612

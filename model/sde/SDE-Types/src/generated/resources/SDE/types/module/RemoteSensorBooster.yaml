@@ -1,291 +1,291 @@
 types:
   '''Bootleg'' Remote Sensor Booster':
-    CapacitorNeed: 14.0
-    Capacity: 1.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Cpu: 20.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 60000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 30000.0
-    MaxTargetRangeBonus: 40.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2135
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthPercent: 60
-    ScanLadarStrengthPercent: 60
-    ScanMagnetometricStrengthPercent: 60
-    ScanRadarStrengthPercent: 60
-    ScanResolutionBonus: 33.0
-    TechLevel: 1
+    capacitorneed: 14.0
+    capacity: 1.0
+    chargegroup1: 910
+    chargesize: 1
+    cpu: 20.0
+    disallowagainstewimmunetarget: 1
+    duration: 10000.0
+    falloffeffectiveness: 60000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 22925
     marketGroup: 673
+    maxrange: 30000.0
+    maxtargetrangebonus: 40.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Bootleg'' Remote Sensor Booster'
+    overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2135
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthpercent: 60
+    scanladarstrengthpercent: 60
+    scanmagnetometricstrengthpercent: 60
+    scanradarstrengthpercent: 60
+    scanresolutionbonus: 33.0
+    techlevel: 1
     volume: 5.0
   Coadjunct Scoped Remote Sensor Booster:
-    CapacitorNeed: 20.0
-    Capacity: 1.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 55000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 27500.0
-    MaxTargetRangeBonus: 36.0
-    MetaLevel: 1
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2135
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthPercent: 55
-    ScanLadarStrengthPercent: 55
-    ScanMagnetometricStrengthPercent: 55
-    ScanRadarStrengthPercent: 55
-    ScanResolutionBonus: 30.0
-    TechLevel: 1
+    capacitorneed: 20.0
+    capacity: 1.0
+    chargegroup1: 910
+    chargesize: 1
+    cpu: 30.0
+    disallowagainstewimmunetarget: 1
+    duration: 10000.0
+    falloffeffectiveness: 55000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 5281
     marketGroup: 673
+    maxrange: 27500.0
+    maxtargetrangebonus: 36.0
+    metalevel: 1
     name: Coadjunct Scoped Remote Sensor Booster
+    overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2135
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthpercent: 55
+    scanladarstrengthpercent: 55
+    scanmagnetometricstrengthpercent: 55
+    scanradarstrengthpercent: 55
+    scanresolutionbonus: 30.0
+    techlevel: 1
     volume: 5.0
   F-23 Compact Remote Sensor Booster:
-    CapacitorNeed: 20.0
-    Capacity: 1.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Cpu: 24.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 50000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 25000.0
-    MaxTargetRangeBonus: 36.0
-    MetaLevel: 1
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2135
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthPercent: 55
-    ScanLadarStrengthPercent: 55
-    ScanMagnetometricStrengthPercent: 55
-    ScanRadarStrengthPercent: 55
-    ScanResolutionBonus: 30.0
-    TechLevel: 1
+    capacitorneed: 20.0
+    capacity: 1.0
+    chargegroup1: 910
+    chargesize: 1
+    cpu: 24.0
+    disallowagainstewimmunetarget: 1
+    duration: 10000.0
+    falloffeffectiveness: 50000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 5279
     marketGroup: 673
+    maxrange: 25000.0
+    maxtargetrangebonus: 36.0
+    metalevel: 1
     name: F-23 Compact Remote Sensor Booster
+    overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2135
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthpercent: 55
+    scanladarstrengthpercent: 55
+    scanmagnetometricstrengthpercent: 55
+    scanradarstrengthpercent: 55
+    scanresolutionbonus: 30.0
+    techlevel: 1
     volume: 5.0
   Linked Enduring Remote Sensor Booster:
-    CapacitorNeed: 16.0
-    Capacity: 1.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 50000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 25000.0
-    MaxTargetRangeBonus: 36.0
-    MetaLevel: 1
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2135
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthPercent: 55
-    ScanLadarStrengthPercent: 55
-    ScanMagnetometricStrengthPercent: 55
-    ScanRadarStrengthPercent: 55
-    ScanResolutionBonus: 30.0
-    TechLevel: 1
+    capacitorneed: 16.0
+    capacity: 1.0
+    chargegroup1: 910
+    chargesize: 1
+    cpu: 30.0
+    disallowagainstewimmunetarget: 1
+    duration: 10000.0
+    falloffeffectiveness: 50000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 5282
     marketGroup: 673
+    maxrange: 25000.0
+    maxtargetrangebonus: 36.0
+    metalevel: 1
     name: Linked Enduring Remote Sensor Booster
+    overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2135
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthpercent: 55
+    scanladarstrengthpercent: 55
+    scanmagnetometricstrengthpercent: 55
+    scanradarstrengthpercent: 55
+    scanresolutionbonus: 30.0
+    techlevel: 1
     volume: 5.0
   Remote Sensor Booster I:
-    CapacitorNeed: 20.0
-    Capacity: 1.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 50000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 25000.0
-    MaxTargetRangeBonus: 33.0
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2135
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthPercent: 50
-    ScanLadarStrengthPercent: 50
-    ScanMagnetometricStrengthPercent: 50
-    ScanRadarStrengthPercent: 50
-    ScanResolutionBonus: 28.0
-    TechLevel: 1
+    capacitorneed: 20.0
+    capacity: 1.0
+    chargegroup1: 910
+    chargesize: 1
+    cpu: 30.0
+    disallowagainstewimmunetarget: 1
+    duration: 10000.0
+    falloffeffectiveness: 50000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 1963
     marketGroup: 673
+    maxrange: 25000.0
+    maxtargetrangebonus: 33.0
     name: Remote Sensor Booster I
+    overloadsensormodulestrengthbonus: 15
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2135
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthpercent: 50
+    scanladarstrengthpercent: 50
+    scanmagnetometricstrengthpercent: 50
+    scanradarstrengthpercent: 50
+    scanresolutionbonus: 28.0
+    techlevel: 1
     volume: 25.0
   Remote Sensor Booster II:
-    CapacitorNeed: 24.0
-    Capacity: 1.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Cpu: 36.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 60000
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 30000.0
-    MaxTargetRangeBonus: 40.0
-    MetaLevel: 5
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2135
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthPercent: 60
-    ScanLadarStrengthPercent: 60
-    ScanMagnetometricStrengthPercent: 60
-    ScanRadarStrengthPercent: 60
-    ScanResolutionBonus: 33.0
-    TechLevel: 2
+    capacitorneed: 24.0
+    capacity: 1.0
+    chargegroup1: 910
+    chargesize: 1
+    cpu: 36.0
+    disallowagainstewimmunetarget: 1
+    duration: 10000.0
+    falloffeffectiveness: 60000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 1964
     marketGroup: 673
+    maxrange: 30000.0
+    maxtargetrangebonus: 40.0
+    metalevel: 5
     name: Remote Sensor Booster II
+    overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2135
+    requiredskill1: 3433
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthpercent: 60
+    scanladarstrengthpercent: 60
+    scanmagnetometricstrengthpercent: 60
+    scanradarstrengthpercent: 60
+    scanresolutionbonus: 33.0
+    techlevel: 2
     volume: 5.0
   Sentient Remote Sensor Booster:
-    CapacitorNeed: 16.0
-    Capacity: 1.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Cpu: 24.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 70000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 35000.0
-    MaxTargetRangeBonus: 44.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2135
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthPercent: 65
-    ScanLadarStrengthPercent: 65
-    ScanMagnetometricStrengthPercent: 65
-    ScanRadarStrengthPercent: 65
-    ScanResolutionBonus: 34.0
-    TechLevel: 1
+    capacitorneed: 16.0
+    capacity: 1.0
+    chargegroup1: 910
+    chargesize: 1
+    cpu: 24.0
+    disallowagainstewimmunetarget: 1
+    duration: 10000.0
+    falloffeffectiveness: 70000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 41198
     marketGroup: 673
+    maxrange: 35000.0
+    maxtargetrangebonus: 44.0
+    metagroupid: 4
+    metalevel: 8
     name: Sentient Remote Sensor Booster
+    overloadsensormodulestrengthbonus: 15
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2135
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthpercent: 65
+    scanladarstrengthpercent: 65
+    scanmagnetometricstrengthpercent: 65
+    scanradarstrengthpercent: 65
+    scanresolutionbonus: 34.0
+    techlevel: 1
     volume: 25.0
   Shadow Serpentis Remote Sensor Booster:
-    CapacitorNeed: 16.0
-    Capacity: 1.0
-    ChargeGroup1: 910
-    ChargeSize: 1
-    Cpu: 24.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 10000.0
-    FalloffEffectiveness: 70000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 35000.0
-    MaxTargetRangeBonus: 44.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSensorModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2135
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ScanGravimetricStrengthPercent: 65
-    ScanLadarStrengthPercent: 65
-    ScanMagnetometricStrengthPercent: 65
-    ScanRadarStrengthPercent: 65
-    ScanResolutionBonus: 34.0
-    TechLevel: 1
+    capacitorneed: 16.0
+    capacity: 1.0
+    chargegroup1: 910
+    chargesize: 1
+    cpu: 24.0
+    disallowagainstewimmunetarget: 1
+    duration: 10000.0
+    falloffeffectiveness: 70000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 41199
     marketGroup: 673
+    maxrange: 35000.0
+    maxtargetrangebonus: 44.0
+    metagroupid: 4
+    metalevel: 8
     name: Shadow Serpentis Remote Sensor Booster
+    overloadsensormodulestrengthbonus: 15
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2135
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    scangravimetricstrengthpercent: 65
+    scanladarstrengthpercent: 65
+    scanmagnetometricstrengthpercent: 65
+    scanradarstrengthpercent: 65
+    scanresolutionbonus: 34.0
+    techlevel: 1
     volume: 25.0

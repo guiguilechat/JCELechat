@@ -1,113 +1,113 @@
 types:
   Cybernetic 'Source' Subprocessor:
-    ImplantSetChristmas: 1.0
-    Implantness: 4
-    IntelligenceBonus: 4
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 1
     id: 33807
+    implantness: 4
+    implantsetchristmas: 1.0
+    intelligencebonus: 4
     marketGroup: 621
     name: Cybernetic 'Source' Subprocessor
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
     volume: 1.0
   Genolution 'Auroral' AU-79:
-    FollowsJumpClones: 1
-    ImplantSetChristmas: 1.0
-    Implantness: 79
-    Nondestructible: 1
-    Radius: 1.0
-    TechLevel: 1
+    followsjumpclones: 1
     id: 33329
+    implantness: 79
+    implantsetchristmas: 1.0
     marketGroup: 1814
     name: Genolution 'Auroral' AU-79
+    nondestructible: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 1.0
   Genolution Core Augmentation CA-1:
-    CapacitorCapacityBonus: 1.5
-    ImplantSetChristmas: 1.5
-    Implantness: 1
-    PerceptionBonus: 3
-    PowerEngineeringOutputBonus: 1.5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorcapacitybonus: 1.5
     id: 2082
+    implantness: 1
+    implantsetchristmas: 1.5
     marketGroup: 618
     name: Genolution Core Augmentation CA-1
     packagedVolume: 1.0
+    perceptionbonus: 3
     portionSize: 1
+    powerengineeringoutputbonus: 1.5
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
     volume: 1.0
   Genolution Core Augmentation CA-2:
-    CapRechargeBonus: -1.5
-    CpuOutputBonus2: 1.5
-    ImplantSetChristmas: 1.399999976158142
-    Implantness: 4
-    IntelligenceBonus: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    caprechargebonus: -1.5
+    cpuoutputbonus2: 1.5
     id: 2589
+    implantness: 4
+    implantsetchristmas: 1.399999976158142
+    intelligencebonus: 3
     marketGroup: 621
     name: Genolution Core Augmentation CA-2
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
     volume: 1.0
   Genolution Core Augmentation CA-3:
-    ImplantBonusVelocity: 1.5
-    ImplantSetChristmas: 1.2999999523162842
-    Implantness: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    ShieldCapacityBonus: 1.5
-    TechLevel: 1
-    WillpowerBonus: 3
     id: 33393
+    implantbonusvelocity: 1.5
+    implantness: 3
+    implantsetchristmas: 1.2999999523162842
     marketGroup: 620
     name: Genolution Core Augmentation CA-3
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    shieldcapacitybonus: 1.5
+    techlevel: 1
     volume: 1.0
+    willpowerbonus: 3
   Genolution Core Augmentation CA-4:
-    AgilityBonus: -1.5
-    ArmorHpBonus2: 1.5
-    ImplantSetChristmas: 1.2000000476837158
-    Implantness: 2
-    MemoryBonus: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    agilitybonus: -1.5
+    armorhpbonus2: 1.5
     id: 33394
+    implantness: 2
+    implantsetchristmas: 1.2000000476837158
     marketGroup: 619
+    memorybonus: 3
     name: Genolution Core Augmentation CA-4
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
     volume: 1.0
   Neural 'Source' Boost:
-    ImplantSetChristmas: 1.0
-    Implantness: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    TechLevel: 1
-    WillpowerBonus: 4
     id: 33808
+    implantness: 3
+    implantsetchristmas: 1.0
     marketGroup: 620
     name: Neural 'Source' Boost
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    techlevel: 1
     volume: 1.0
+    willpowerbonus: 4

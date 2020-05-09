@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.structure;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,84 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorDamageLimit;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AutoFractureDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CargoDeliveryRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ECMResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiCapitalMissileResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterStandupHeavySlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterStandupLightSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterStandupSupportSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterTubes;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiddenArmorHPMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiddenMissileDamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaximumRangeCap;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MoonAsteroidDecayDisplayValue;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MoonAsteroidDecayTimeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldDamageLimit;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebifierResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StrReactionTimeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StrRefiningYieldBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureAoERoFRoleBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureDamageLimit;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureFullPowerStateHitpointMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructurePowerStateArmorPlatingMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureServiceRoleBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TargetPainterResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TetheringRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TierDifficulty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Structure;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,126 +104,127 @@ public class Refinery
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10800)
-    public int AutoFractureDelay;
+    public int autofracturedelay;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
+    public int fighterabilityanticapitalmissileresistance;
     /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterCapacity;
+    public int fightercapacity;
     /**
      * Number of Heavy Fighters the structure can launch.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterStandupHeavySlots;
+    public int fighterstandupheavyslots;
     /**
      * Number of Light Fighters the structure can launch.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterStandupLightSlots;
+    public int fighterstanduplightslots;
     /**
      * Number of Support Fighters the structure can launch.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterStandupSupportSlots;
+    public int fighterstandupsupportslots;
     /**
      * This defines the total number of fighter launch tubes on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterTubes;
+    public int fightertubes;
     /**
      * Missile damage attribute used by structures as a workaround for implementing Standup BCS stacking penalties
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(1)
-    public int HiddenMissileDamageMultiplier;
+    public int hiddenmissiledamagemultiplier;
     /**
      * This attribute doesn't directly impact the asteroid decay, but is used to expose the decay time to the show-info window
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(48)
-    public int MoonAsteroidDecayDisplayValue;
+    public int moonasteroiddecaydisplayvalue;
     /**
      * Decay time for asteroid created from moon spew
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int MoonAsteroidDecayTimeMultiplier;
+    public int moonasteroiddecaytimemultiplier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSize;
+    public int rigsize;
     /**
      * Time bonus for Refinery Structures
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double StrReactionTimeMultiplier;
+    public double strreactiontimemultiplier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StrRefiningYieldBonus;
+    public int strrefiningyieldbonus;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureAoERoFRoleBonus;
+    public int structureaoerofrolebonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureServiceRoleBonus;
+    public int structureservicerolebonus;
     /**
      * Distance which tethering will engage / disengage piloted ships.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int TetheringRange;
+    public int tetheringrange;
     /**
      * Attribute on ships used for ship upgrades
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeCapacity;
+    public int upgradecapacity;
     /**
      * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
+    public int upgradeslotsleft;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeSlotsLeft.INSTANCE, Mass.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, Hackable.INSTANCE, Uniformity.INSTANCE, ServiceSlots.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, AutoFractureDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, MedSlots.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, MoonAsteroidDecayTimeMultiplier.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, MaximumRangeCap.INSTANCE, StrReactionTimeMultiplier.INSTANCE, StrRefiningYieldBonus.INSTANCE, Radius.INSTANCE, StructureServiceRoleBonus.INSTANCE, Capacity.INSTANCE, MoonAsteroidDecayDisplayValue.INSTANCE, FighterTubes.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, FighterStandupLightSlots.INSTANCE, FighterStandupSupportSlots.INSTANCE, FighterStandupHeavySlots.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, StructureFullPowerStateHitpointMultiplier.INSTANCE, StructureAoERoFRoleBonus.INSTANCE, HiddenMissileDamageMultiplier.INSTANCE, HiddenArmorHPMultiplier.INSTANCE, SensorDampenerResistance.INSTANCE, MaxLockedTargets.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, MaxTargetRange.INSTANCE, ECMResistance.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteAssistanceImpedance.INSTANCE, TetheringRange.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, LauncherSlotsLeft.INSTANCE, CargoDeliveryRange.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ShieldDamageLimit.INSTANCE, ArmorDamageLimit.INSTANCE, StructureDamageLimit.INSTANCE, StructurePowerStateArmorPlatingMultiplier.INSTANCE, EnergyWarfareResistance.INSTANCE, TierDifficulty.INSTANCE })));
     public static final Refinery.MetaGroup METAGROUP = new Refinery.MetaGroup();
 
     @Override
@@ -150,81 +232,86 @@ public class Refinery
         switch (attribute.getId()) {
             case  2698 :
             {
-                return AutoFractureDelay;
+                return autofracturedelay;
             }
             case  2244 :
             {
-                return FighterAbilityAntiCapitalMissileResistance;
+                return fighterabilityanticapitalmissileresistance;
             }
             case  2055 :
             {
-                return FighterCapacity;
+                return fightercapacity;
             }
             case  2739 :
             {
-                return FighterStandupHeavySlots;
+                return fighterstandupheavyslots;
             }
             case  2737 :
             {
-                return FighterStandupLightSlots;
+                return fighterstanduplightslots;
             }
             case  2738 :
             {
-                return FighterStandupSupportSlots;
+                return fighterstandupsupportslots;
             }
             case  2216 :
             {
-                return FighterTubes;
+                return fightertubes;
             }
             case  2750 :
             {
-                return HiddenMissileDamageMultiplier;
+                return hiddenmissiledamagemultiplier;
             }
             case  2728 :
             {
-                return MoonAsteroidDecayDisplayValue;
+                return moonasteroiddecaydisplayvalue;
             }
             case  2706 :
             {
-                return MoonAsteroidDecayTimeMultiplier;
+                return moonasteroiddecaytimemultiplier;
             }
             case  1547 :
             {
-                return RigSize;
+                return rigsize;
             }
             case  2721 :
             {
-                return StrReactionTimeMultiplier;
+                return strreactiontimemultiplier;
             }
             case  2722 :
             {
-                return StrRefiningYieldBonus;
+                return strrefiningyieldbonus;
             }
             case  2749 :
             {
-                return StructureAoERoFRoleBonus;
+                return structureaoerofrolebonus;
             }
             case  2339 :
             {
-                return StructureServiceRoleBonus;
+                return structureservicerolebonus;
             }
             case  2268 :
             {
-                return TetheringRange;
+                return tetheringrange;
             }
             case  1132 :
             {
-                return UpgradeCapacity;
+                return upgradecapacity;
             }
             case  1154 :
             {
-                return UpgradeSlotsLeft;
+                return upgradeslotsleft;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

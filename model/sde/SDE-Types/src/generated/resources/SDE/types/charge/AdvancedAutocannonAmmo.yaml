@@ -1,233 +1,217 @@
 types:
   Barrage L:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3
-    CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 1.0
-    ExplosiveDamage: 24.0
-    FallofMultiplier: 1.5
-    KineticDamage: 20.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12209
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 3
+    cpumultiplier: 1.0
+    entityflyrangemultiplier: 1.0
+    explosivedamage: 24.0
+    fallofmultiplier: 1.5
     id: 12775
+    kineticdamage: 20.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 857
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Barrage L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12209
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.75
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.0
   Barrage M:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2
-    CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 1.0
-    ExplosiveDamage: 12.0
-    FallofMultiplier: 1.5
-    KineticDamage: 10.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12208
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 2
+    cpumultiplier: 1.0
+    entityflyrangemultiplier: 1.0
+    explosivedamage: 12.0
+    fallofmultiplier: 1.5
     id: 12773
+    kineticdamage: 10.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 858
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Barrage M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12208
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.75
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.0
   Barrage S:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1
-    CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 1.0
-    ExplosiveDamage: 6.0
-    FallofMultiplier: 1.5
-    KineticDamage: 5.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 11084
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 1
+    cpumultiplier: 1.0
+    entityflyrangemultiplier: 1.0
+    explosivedamage: 6.0
+    fallofmultiplier: 1.5
     id: 12625
+    kineticdamage: 5.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 859
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Barrage S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 11084
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.75
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.0
   Barrage XL:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 4
-    CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 1.0
-    ExplosiveDamage: 48.0
-    FallofMultiplier: 1.399999976158142
-    KineticDamage: 40.0
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 1.0
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 10.0
-    RequiredSkill1: 41403
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 4
+    cpumultiplier: 1.0
+    entityflyrangemultiplier: 1.0
+    explosivedamage: 48.0
+    fallofmultiplier: 1.399999976158142
     id: 41316
+    kineticdamage: 40.0
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 2253
-    mass: 1.0
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Barrage XL
     packagedVolume: 0.125
     portionSize: 100
+    powerneedmultiplier: 1
     published: true
+    radius: 10.0
+    requiredskill1: 41403
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.75
     volume: 0.125
+    weaponrangemultiplier: 1.0
   Hail L:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3
-    CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 0.5
-    ExplosiveDamage: 55.70000076293945
-    FallofMultiplier: 0.75
-    KineticDamage: 15.199999809265137
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12209
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 0.5
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 3
+    cpumultiplier: 1.0
+    entityflyrangemultiplier: 0.5
+    explosivedamage: 55.70000076293945
+    fallofmultiplier: 0.75
     id: 12779
+    kineticdamage: 15.199999809265137
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 857
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Hail L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12209
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.75
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.5
   Hail M:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2
-    CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 0.5
-    ExplosiveDamage: 27.799999237060547
-    FallofMultiplier: 0.75
-    KineticDamage: 7.599999904632568
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12208
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 0.5
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 2
+    cpumultiplier: 1.0
+    entityflyrangemultiplier: 0.5
+    explosivedamage: 27.799999237060547
+    fallofmultiplier: 0.75
     id: 12777
+    kineticdamage: 7.599999904632568
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 858
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Hail M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12208
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.75
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.5
   Hail S:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1
-    CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 0.5
-    ExplosiveDamage: 13.899999618530273
-    FallofMultiplier: 0.75
-    KineticDamage: 3.799999952316284
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 11084
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 0.5
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 1
+    cpumultiplier: 1.0
+    entityflyrangemultiplier: 0.5
+    explosivedamage: 13.899999618530273
+    fallofmultiplier: 0.75
     id: 12608
+    kineticdamage: 3.799999952316284
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 859
-    mass: 0.009999999776482582
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Hail S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 11084
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.75
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.5
   Hail XL:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 4
-    CpuMultiplier: 1.0
-    EntityFlyRangeMultiplier: 0.5
-    ExplosiveDamage: 111.30000305175781
-    FallofMultiplier: 0.75
-    KineticDamage: 30.399999618530273
-    LauncherGroup: 55
-    MainColor: 11835778
-    Mass: 1.0
-    MaxVelocityModifier: 1.0
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 10.0
-    RequiredSkill1: 41403
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    TrackingSpeedMultiplier: 0.699999988079071
-    WeaponRangeMultiplier: 0.5
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 4
+    cpumultiplier: 1.0
+    entityflyrangemultiplier: 0.5
+    explosivedamage: 111.30000305175781
+    fallofmultiplier: 0.75
     id: 41314
+    kineticdamage: 30.399999618530273
+    launchergroup: 55
+    maincolor: 11835778
     marketGroup: 2253
-    mass: 1.0
+    maxvelocitymodifier: 1.0
+    metalevel: 5
     name: Hail XL
     packagedVolume: 0.125
     portionSize: 100
+    powerneedmultiplier: 1
     published: true
+    radius: 10.0
+    requiredskill1: 41403
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    trackingspeedmultiplier: 0.699999988079071
     volume: 0.125
+    weaponrangemultiplier: 0.5

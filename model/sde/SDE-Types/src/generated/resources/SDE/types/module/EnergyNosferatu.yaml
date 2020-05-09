@@ -1,1454 +1,1346 @@
 types:
   Ahremen's Modified Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 15000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 30000.0
-    MetaGroupID: 5
-    MetaLevel: 15
-    OverloadSelfDurationBonus: -15.0
-    Power: 2600
-    PowerTransferAmount: 130
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14826
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 30000.0
+    metagroupid: 5
+    metalevel: 15
     name: Ahremen's Modified Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2600
+    powertransferamount: 130
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Ammatar Navy Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 12000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 24000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 15879
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 24000.0
+    metagroupid: 4
+    metalevel: 8
     name: Ammatar Navy Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2000
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Ammatar Navy Medium Energy Nosferatu:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 6000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 12000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    PowerTransferAmount: 36
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 15877
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 12000.0
+    metagroupid: 4
+    metalevel: 8
     name: Ammatar Navy Medium Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 175
+    powertransferamount: 36
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Ammatar Navy Small Energy Nosferatu:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 3000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 6000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    PowerTransferAmount: 10
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 3000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 15875
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 6000.0
+    metagroupid: 4
+    metalevel: 8
     name: Ammatar Navy Small Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 8
+    powertransferamount: 10
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Brokara's Modified Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 13000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 26000.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    OverloadSelfDurationBonus: -15.0
-    Power: 2200
-    PowerTransferAmount: 130
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 13000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14816
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 26000.0
+    metagroupid: 5
+    metalevel: 11
     name: Brokara's Modified Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2200
+    powertransferamount: 130
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Capital Energy Nosferatu I:
-    Cpu: 100.0
-    Duration: 20000.0
-    EnergyNeutralizerSignatureResolution: 8000
-    FalloffEffectiveness: 15000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 2000.0
-    MaxRange: 30000.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 80000
-    PowerTransferAmount: 700
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 100.0
+    duration: 20000.0
+    energyneutralizersignatureresolution: 8000
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 40665
     marketGroup: 2251
-    mass: 2000.0
+    maxrange: 30000.0
     name: Capital Energy Nosferatu I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 80000
+    powertransferamount: 700
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 4000.0
   Capital Energy Nosferatu II:
-    Cpu: 100.0
-    Duration: 20000.0
-    EnergyNeutralizerSignatureResolution: 8000
-    FalloffEffectiveness: 18000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 2000.0
-    MaxRange: 36000.0
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 100000
-    PowerTransferAmount: 800
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 5
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
+    cpu: 100.0
+    duration: 20000.0
+    energyneutralizersignatureresolution: 8000
+    falloffeffectiveness: 18000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 40668
     marketGroup: 2251
-    mass: 2000.0
+    maxrange: 36000.0
+    metalevel: 5
     name: Capital Energy Nosferatu II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 100000
+    powertransferamount: 800
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    techlevel: 2
     volume: 4000.0
   Capital Ghoul Compact Energy Nosferatu:
-    Cpu: 80.0
-    Duration: 20000.0
-    EnergyNeutralizerSignatureResolution: 8000
-    FalloffEffectiveness: 15000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 2000.0
-    MaxRange: 30000.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 72000
-    PowerTransferAmount: 750
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 80.0
+    duration: 20000.0
+    energyneutralizersignatureresolution: 8000
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 40666
     marketGroup: 2251
-    mass: 2000.0
+    maxrange: 30000.0
+    metalevel: 1
     name: Capital Ghoul Compact Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 72000
+    powertransferamount: 750
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 4000.0
   Capital Knave Scoped Energy Nosferatu:
-    Cpu: 100.0
-    Duration: 20000.0
-    EnergyNeutralizerSignatureResolution: 8000
-    FalloffEffectiveness: 16500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 2000.0
-    MaxRange: 33000.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 80000
-    PowerTransferAmount: 750
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 100.0
+    duration: 20000.0
+    energyneutralizersignatureresolution: 8000
+    falloffeffectiveness: 16500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 40667
     marketGroup: 2251
-    mass: 2000.0
+    maxrange: 33000.0
+    metalevel: 1
     name: Capital Knave Scoped Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 80000
+    powertransferamount: 750
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 4000.0
   Chelm's Modified Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 16000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 32000.0
-    MetaGroupID: 5
-    MetaLevel: 17
-    OverloadSelfDurationBonus: -15.0
-    Power: 2800
-    PowerTransferAmount: 130
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 16000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14828
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 32000.0
+    metagroupid: 5
+    metalevel: 17
     name: Chelm's Modified Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2800
+    powertransferamount: 130
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpii A-Type Small Energy Nosferatu:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 4500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 9000.0
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadSelfDurationBonus: -15.0
-    Power: 11
-    PowerTransferAmount: 10
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 4500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 19105
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 9000.0
+    metagroupid: 6
+    metalevel: 14
     name: Corpii A-Type Small Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 11
+    powertransferamount: 10
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpii B-Type Small Energy Nosferatu:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 4000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 8000.0
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadSelfDurationBonus: -15.0
-    Power: 10
-    PowerTransferAmount: 10
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 4000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 19103
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 8000.0
+    metagroupid: 6
+    metalevel: 12
     name: Corpii B-Type Small Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 10
+    powertransferamount: 10
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpii C-Type Small Energy Nosferatu:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 3500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 7000.0
-    MetaGroupID: 6
-    MetaLevel: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 9
-    PowerTransferAmount: 10
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 3500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 19101
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 7000.0
+    metagroupid: 6
+    metalevel: 10
     name: Corpii C-Type Small Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 9
+    powertransferamount: 10
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpum A-Type Medium Energy Nosferatu:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 8250
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 16500.0
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadSelfDurationBonus: -15.0
-    Power: 228
-    PowerTransferAmount: 36
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 8250
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 19111
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 16500.0
+    metagroupid: 6
+    metalevel: 14
     name: Corpum A-Type Medium Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 228
+    powertransferamount: 36
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpum B-Type Medium Energy Nosferatu:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 7500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 15000.0
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadSelfDurationBonus: -15.0
-    Power: 210
-    PowerTransferAmount: 36
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 7500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 19109
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 15000.0
+    metagroupid: 6
+    metalevel: 12
     name: Corpum B-Type Medium Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 210
+    powertransferamount: 36
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpum C-Type Medium Energy Nosferatu:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 6750
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 13500.0
-    MetaGroupID: 6
-    MetaLevel: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 193
-    PowerTransferAmount: 36
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 6750
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 19107
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 13500.0
+    metagroupid: 6
+    metalevel: 10
     name: Corpum C-Type Medium Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 193
+    powertransferamount: 36
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpus A-Type Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 15000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 30000.0
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadSelfDurationBonus: -15.0
-    Power: 2600
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 19117
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 30000.0
+    metagroupid: 6
+    metalevel: 14
     name: Corpus A-Type Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2600
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpus B-Type Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 14000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 28000.0
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadSelfDurationBonus: -15.0
-    Power: 2400
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 14000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 19115
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 28000.0
+    metagroupid: 6
+    metalevel: 12
     name: Corpus B-Type Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2400
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpus C-Type Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 13000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 26000.0
-    MetaGroupID: 6
-    MetaLevel: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 2200
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 13000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 19113
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 26000.0
+    metagroupid: 6
+    metalevel: 10
     name: Corpus C-Type Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2200
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Corpus X-Type Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 16000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 32000.0
-    MetaGroupID: 6
-    MetaLevel: 16
-    OverloadSelfDurationBonus: -15.0
-    Power: 2800
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 16000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 19119
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 32000.0
+    metagroupid: 6
+    metalevel: 16
     name: Corpus X-Type Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2800
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Dark Blood Capital Energy Nosferatu:
-    Cpu: 100.0
-    Duration: 20000.0
-    EnergyNeutralizerSignatureResolution: 8000
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 2000.0
-    MaxRange: 40000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 100000
-    PowerTransferAmount: 800
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 100.0
+    duration: 20000.0
+    energyneutralizersignatureresolution: 8000
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 40670
     marketGroup: 2251
-    mass: 2000.0
+    maxrange: 40000.0
+    metagroupid: 4
+    metalevel: 8
     name: Dark Blood Capital Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 100000
+    powertransferamount: 800
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 4000.0
   Dark Blood Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 12000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 24000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14152
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 24000.0
+    metagroupid: 4
+    metalevel: 8
     name: Dark Blood Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2000
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Dark Blood Medium Energy Nosferatu:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 6000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 12000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    PowerTransferAmount: 36
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 14156
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 12000.0
+    metagroupid: 4
+    metalevel: 8
     name: Dark Blood Medium Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 175
+    powertransferamount: 36
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Dark Blood Small Energy Nosferatu:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 3000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 6000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    PowerTransferAmount: 10
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 3000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 14148
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 6000.0
+    metagroupid: 4
+    metalevel: 8
     name: Dark Blood Small Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 8
+    powertransferamount: 10
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Draclira's Modified Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 16000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 32000.0
-    MetaGroupID: 5
-    MetaLevel: 17
-    OverloadSelfDurationBonus: -15.0
-    Power: 2800
-    PowerTransferAmount: 130
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 16000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14830
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 32000.0
+    metagroupid: 5
+    metalevel: 17
     name: Draclira's Modified Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2800
+    powertransferamount: 130
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Heavy 'Vrykolakas' Energy Nosferatu:
-    Cpu: 40.0
-    Duration: 10000.0
-    FalloffEffectiveness: 10000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 20000.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadSelfDurationBonus: -15.0
-    Power: 1800
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 40.0
+    duration: 10000.0
+    falloffeffectiveness: 10000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 23829
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 20000.0
+    metagroupid: 3
+    metalevel: 6
     name: Heavy 'Vrykolakas' Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 1800
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Heavy Abyssal Energy Nosferatu:
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 4
-    TechLevel: 1
     id: 48427
-    mass: 1.0
     name: Heavy Abyssal Energy Nosferatu
     packagedVolume: 50.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 4
+    techlevel: 1
     volume: 50.0
   Heavy Energy Nosferatu I:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 16000.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    PowerTransferAmount: 100
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 8000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 12261
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 16000.0
     name: Heavy Energy Nosferatu I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2000
+    powertransferamount: 100
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Heavy Energy Nosferatu II:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 10000
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 20000.0
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 2250
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 5
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 10000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 12263
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 20000.0
+    metalevel: 5
     name: Heavy Energy Nosferatu II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2250
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    techlevel: 2
     volume: 5.0
   Heavy Ghoul Compact Energy Nosferatu:
-    Cpu: 40.0
-    Duration: 10000.0
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 16000.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 1800
-    PowerTransferAmount: 110
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 40.0
+    duration: 10000.0
+    falloffeffectiveness: 8000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 16497
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 16000.0
+    metalevel: 1
     name: Heavy Ghoul Compact Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 1800
+    powertransferamount: 110
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Heavy Knave Scoped Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 9000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 18000.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    PowerTransferAmount: 110
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 9000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 16499
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 18000.0
+    metalevel: 1
     name: Heavy Knave Scoped Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2000
+    powertransferamount: 110
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Imperial Navy Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 12000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 24000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 15885
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 24000.0
+    metagroupid: 4
+    metalevel: 8
     name: Imperial Navy Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2000
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Imperial Navy Medium Energy Nosferatu:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 6000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 12000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    PowerTransferAmount: 36
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 15883
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 12000.0
+    metagroupid: 4
+    metalevel: 8
     name: Imperial Navy Medium Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 175
+    powertransferamount: 36
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Imperial Navy Small Energy Nosferatu:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 3000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 6000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    PowerTransferAmount: 10
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 3000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 15881
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 6000.0
+    metagroupid: 4
+    metalevel: 8
     name: Imperial Navy Small Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 8
+    powertransferamount: 10
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Medium 'Strigoi' Energy Nosferatu:
-    Cpu: 20.0
-    Duration: 5000.0
-    FalloffEffectiveness: 5000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 10000.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadSelfDurationBonus: -15.0
-    Power: 160
-    PowerTransferAmount: 36
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 20.0
+    duration: 5000.0
+    falloffeffectiveness: 5000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 23824
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 10000.0
+    metagroupid: 3
+    metalevel: 6
     name: Medium 'Strigoi' Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 160
+    powertransferamount: 36
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Medium Abyssal Energy Nosferatu:
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    TechLevel: 1
     id: 48423
-    mass: 1.0
     name: Medium Abyssal Energy Nosferatu
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 3
+    techlevel: 1
     volume: 5.0
   Medium Energy Nosferatu I:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 4000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 8000.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    PowerTransferAmount: 30
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 4000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 12257
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 8000.0
     name: Medium Energy Nosferatu I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 175
+    powertransferamount: 30
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Medium Energy Nosferatu II:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 5000
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 10000.0
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 200
-    PowerTransferAmount: 36
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 5000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 12259
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 10000.0
+    metalevel: 5
     name: Medium Energy Nosferatu II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 200
+    powertransferamount: 36
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
     volume: 5.0
   Medium Ghoul Compact Energy Nosferatu:
-    Cpu: 20.0
-    Duration: 5000.0
-    FalloffEffectiveness: 4000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 8000.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 160
-    PowerTransferAmount: 33
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 20.0
+    duration: 5000.0
+    falloffeffectiveness: 4000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 16505
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 8000.0
+    metalevel: 1
     name: Medium Ghoul Compact Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 160
+    powertransferamount: 33
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Medium Knave Scoped Energy Nosferatu:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 4500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 9000.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    PowerTransferAmount: 33
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 4500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 16507
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 9000.0
+    metalevel: 1
     name: Medium Knave Scoped Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 175
+    powertransferamount: 33
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Raysere's Modified Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 14000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 28000.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    OverloadSelfDurationBonus: -15.0
-    Power: 2400
-    PowerTransferAmount: 130
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 14000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14822
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 28000.0
+    metagroupid: 5
+    metalevel: 13
     name: Raysere's Modified Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2400
+    powertransferamount: 130
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Selynne's Modified Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 14000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 28000.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    OverloadSelfDurationBonus: -15.0
-    Power: 2400
-    PowerTransferAmount: 130
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 14000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14820
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 28000.0
+    metagroupid: 5
+    metalevel: 13
     name: Selynne's Modified Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2400
+    powertransferamount: 130
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Small 'Upir' Energy Nosferatu:
-    Cpu: 12.0
-    Duration: 2500.0
-    FalloffEffectiveness: 2500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 5000.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadSelfDurationBonus: -15.0
-    Power: 7
-    PowerTransferAmount: 10
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 12.0
+    duration: 2500.0
+    falloffeffectiveness: 2500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 23821
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 5000.0
+    metagroupid: 3
+    metalevel: 6
     name: Small 'Upir' Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 7
+    powertransferamount: 10
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Small Abyssal Energy Nosferatu:
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    TechLevel: 1
     id: 48419
-    mass: 1.0
     name: Small Abyssal Energy Nosferatu
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Small Energy Nosferatu I:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 2000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 4000.0
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    PowerTransferAmount: 8
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 2000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 530
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 4000.0
     name: Small Energy Nosferatu I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 8
+    powertransferamount: 8
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Small Energy Nosferatu II:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 2500
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 5000.0
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 10
-    PowerTransferAmount: 10
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 2500
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 13001
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 5000.0
+    metalevel: 5
     name: Small Energy Nosferatu II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 10
+    powertransferamount: 10
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 2
     volume: 5.0
   Small Ghoul Compact Energy Nosferatu:
-    Cpu: 12.0
-    Duration: 2500.0
-    FalloffEffectiveness: 2000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 4000.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 7
-    PowerTransferAmount: 9
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 12.0
+    duration: 2500.0
+    falloffeffectiveness: 2000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 5141
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 4000.0
+    metalevel: 1
     name: Small Ghoul Compact Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 7
+    powertransferamount: 9
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Small Knave Scoped Energy Nosferatu:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 2250
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 4500.0
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    PowerTransferAmount: 9
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 2250
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 5137
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 4500.0
+    metalevel: 1
     name: Small Knave Scoped Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 8
+    powertransferamount: 9
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Tairei's Modified Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 13000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 26000.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    OverloadSelfDurationBonus: -15.0
-    Power: 2200
-    PowerTransferAmount: 130
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 13000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14818
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 26000.0
+    metagroupid: 5
+    metalevel: 11
     name: Tairei's Modified Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2200
+    powertransferamount: 130
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   True Sansha Capital Energy Nosferatu:
-    Cpu: 100.0
-    Duration: 20000.0
-    EnergyNeutralizerSignatureResolution: 8000
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 2000.0
-    MaxRange: 40000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 100000
-    PowerTransferAmount: 800
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 100.0
+    duration: 20000.0
+    energyneutralizersignatureresolution: 8000
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 40669
     marketGroup: 2251
-    mass: 2000.0
+    maxrange: 40000.0
+    metagroupid: 4
+    metalevel: 8
     name: True Sansha Capital Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 100000
+    powertransferamount: 800
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 4000.0
   True Sansha Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 12000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 24000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 2000
-    PowerTransferAmount: 120
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14154
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 24000.0
+    metagroupid: 4
+    metalevel: 8
     name: True Sansha Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2000
+    powertransferamount: 120
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   True Sansha Medium Energy Nosferatu:
-    Cpu: 25.0
-    Duration: 5000.0
-    FalloffEffectiveness: 6000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.3200000524520874
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 12000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 175
-    PowerTransferAmount: 36
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 25.0
+    duration: 5000.0
+    falloffeffectiveness: 6000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.3200000524520874
+    hp: 40.0
     id: 14158
     marketGroup: 693
-    mass: 1000.0
+    maxrange: 12000.0
+    metagroupid: 4
+    metalevel: 8
     name: True Sansha Medium Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 175
+    powertransferamount: 36
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   True Sansha Small Energy Nosferatu:
-    Cpu: 15.0
-    Duration: 2500.0
-    FalloffEffectiveness: 3000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.149999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 6000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 8
-    PowerTransferAmount: 10
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 15.0
+    duration: 2500.0
+    falloffeffectiveness: 3000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.149999976158142
+    hp: 40.0
     id: 14150
     marketGroup: 692
-    mass: 1000.0
+    maxrange: 6000.0
+    metagroupid: 4
+    metalevel: 8
     name: True Sansha Small Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 8
+    powertransferamount: 10
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Vizan's Modified Heavy Energy Nosferatu:
-    Cpu: 50.0
-    Duration: 10000.0
-    FalloffEffectiveness: 15000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.899999976158142
-    Hp: 40.0
-    Mass: 1000.0
-    MaxRange: 30000.0
-    MetaGroupID: 5
-    MetaLevel: 15
-    OverloadSelfDurationBonus: -15.0
-    Power: 2600
-    PowerTransferAmount: 130
-    Radius: 1.0
-    RemoteResistanceID: 2045
-    RequiredSkill1: 3423
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    cpu: 50.0
+    duration: 10000.0
+    falloffeffectiveness: 15000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.899999976158142
+    hp: 40.0
     id: 14824
     marketGroup: 694
-    mass: 1000.0
+    maxrange: 30000.0
+    metagroupid: 5
+    metalevel: 15
     name: Vizan's Modified Heavy Energy Nosferatu
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 2600
+    powertransferamount: 130
     published: true
+    radius: 1.0
+    remoteresistanceid: 2045
+    requiredskill1: 3423
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0

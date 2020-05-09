@@ -1,15 +1,38 @@
 package fr.guiguilechat.jcelechat.model.sde.types.deployable;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
 import fr.guiguilechat.jcelechat.model.sde.types.Deployable;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,14 +45,14 @@ public class MobileWarpDisruptor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(60000)
-    public int AnchoringDelay;
+    public int anchoringdelay;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowInEmpireSpace;
+    public int disallowinempirespace;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -44,7 +67,7 @@ public class MobileWarpDisruptor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -52,42 +75,43 @@ public class MobileWarpDisruptor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * Maximum range objects can be warp scrambled from.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleRange;
+    public int warpscramblerange;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, WarpScrambleRange.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, AnchoringDelay.INSTANCE, ScanLadarStrength.INSTANCE, DisallowInEmpireSpace.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevel.INSTANCE, MetaGroupID.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final MobileWarpDisruptor.MetaGroup METAGROUP = new MobileWarpDisruptor.MetaGroup();
 
     @Override
@@ -95,45 +119,50 @@ public class MobileWarpDisruptor
         switch (attribute.getId()) {
             case  556 :
             {
-                return AnchoringDelay;
+                return anchoringdelay;
             }
             case  1074 :
             {
-                return DisallowInEmpireSpace;
+                return disallowinempirespace;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  103 :
             {
-                return WarpScrambleRange;
+                return warpscramblerange;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

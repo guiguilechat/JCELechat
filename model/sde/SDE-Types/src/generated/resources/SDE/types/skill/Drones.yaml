@@ -1,438 +1,438 @@
 types:
   Advanced Drone Avionics:
-    CanNotBeTrainedOnTrial: 1
-    DroneRangeBonus: 3000
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3427
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    dronerangebonus: 3000
     id: 23566
     marketGroup: 366
     name: Advanced Drone Avionics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 3427
+    requiredskill2level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Amarr Drone Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12484
     marketGroup: 366
     name: Amarr Drone Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Caldari Drone Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12487
     marketGroup: 366
     name: Caldari Drone Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Drone Avionics:
-    CanNotBeTrainedOnTrial: 1
-    DroneRangeBonus: 5000
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
+    dronerangebonus: 5000
     id: 3437
     marketGroup: 366
     name: Drone Avionics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 1
+    secondaryattribute: 167
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Drone Durability:
-    ArmorHpBonus: 5
-    CanNotBeTrainedOnTrial: 1
-    HullHpBonus: 5.0
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 167
-    ShieldCapacityBonus: 5.0
-    SkillTimeConstant: 5.0
+    armorhpbonus: 5
+    cannotbetrainedontrial: 1
+    hullhpbonus: 5.0
     id: 23618
     marketGroup: 366
     name: Drone Durability
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 4
+    secondaryattribute: 167
+    shieldcapacitybonus: 5.0
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Drone Interfacing:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 10
-    MiningAmountBonus: 10
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 10
     id: 3442
     marketGroup: 366
+    miningamountbonus: 10
     name: Drone Interfacing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Drone Navigation:
-    CanNotBeTrainedOnTrial: 1
-    MaxVelocityBonus: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
     id: 12305
     marketGroup: 366
+    maxvelocitybonus: 5
     name: Drone Navigation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Drone Sharpshooting:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RangeSkillBonus: 5
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
     id: 23606
     marketGroup: 366
     name: Drone Sharpshooting
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    rangeskillbonus: 5
+    requiredskill1: 3436
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Drones:
-    CanNotBeTrainedOnTrial: 1
-    MaxActiveDroneBonus: 1
-    PrimaryAttribute: 166
-    Radius: 1.0
-    SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
     id: 3436
     marketGroup: 366
+    maxactivedronebonus: 1
     name: Drones
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    secondaryattribute: 167
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Fighter Hangar Management:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 23069
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 167
-    SkillBonusFighterHangarSize: 5
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 24613
     marketGroup: 366
     name: Fighter Hangar Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 23069
+    requiredskill1level: 1
+    secondaryattribute: 167
+    skillbonusfighterhangarsize: 5
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Fighters:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3442
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 23069
     marketGroup: 366
     name: Fighters
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3442
+    requiredskill1level: 5
+    requiredskill2: 3348
+    requiredskill2level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582
   Gallente Drone Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12486
     marketGroup: 366
     name: Gallente Drone Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Heavy Drone Operation:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3441
     marketGroup: 366
     name: Heavy Drone Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Heavy Fighters:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 23069
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 167
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 32339
     marketGroup: 366
     name: Heavy Fighters
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 23069
+    requiredskill1level: 1
+    secondaryattribute: 167
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582
   Ice Harvesting Drone Operation:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 1
-    RequiredSkill2: 16281
-    RequiredSkill2Level: 2
-    RofBonus: -5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 43702
     marketGroup: 366
     name: Ice Harvesting Drone Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 1
+    requiredskill2: 16281
+    requiredskill2level: 2
+    rofbonus: -5
+    secondaryattribute: 167
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Ice Harvesting Drone Specialization:
-    CanNotBeTrainedOnTrial: 1
-    MaxVelocityBonus: 2
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 43702
-    RequiredSkill1Level: 5
-    RequiredSkill2: 16281
-    RequiredSkill2Level: 4
-    RofBonus: -2
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 43703
     marketGroup: 366
+    maxvelocitybonus: 2
     name: Ice Harvesting Drone Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 43702
+    requiredskill1level: 5
+    requiredskill2: 16281
+    requiredskill2level: 4
+    rofbonus: -2
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Light Drone Operation:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 167
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 24241
     marketGroup: 366
     name: Light Drone Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 1
+    secondaryattribute: 167
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Light Fighters:
-    CanNotBeTrainedOnTrial: 1
-    MaxVelocityBonus: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 23069
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 167
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
     id: 40572
     marketGroup: 366
+    maxvelocitybonus: 5
     name: Light Fighters
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 23069
+    requiredskill1level: 1
+    secondaryattribute: 167
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582
   Medium Drone Operation:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 167
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 33699
     marketGroup: 366
     name: Medium Drone Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 3
+    secondaryattribute: 167
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Mining Drone Operation:
-    CanNotBeTrainedOnTrial: 1
-    MiningAmountBonus: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 2
-    SecondaryAttribute: 167
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 3438
     marketGroup: 366
+    miningamountbonus: 5
     name: Mining Drone Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 1
+    requiredskill2: 3386
+    requiredskill2level: 2
+    secondaryattribute: 167
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Mining Drone Specialization:
-    CanNotBeTrainedOnTrial: 1
-    MaxVelocityBonus: 2
-    MiningAmountBonus: 2
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3438
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 22541
     marketGroup: 366
+    maxvelocitybonus: 2
+    miningamountbonus: 2
     name: Mining Drone Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3438
+    requiredskill1level: 5
+    requiredskill2: 3386
+    requiredskill2level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Minmatar Drone Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12485
     marketGroup: 366
     name: Minmatar Drone Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Repair Drone Operation:
-    CanNotBeTrainedOnTrial: 1
-    DamageHP: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 5
-    RequiredSkill2: 23618
-    RequiredSkill2Level: 1
-    SecondaryAttribute: 167
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagehp: 5
     id: 3439
     marketGroup: 366
     name: Repair Drone Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 5
+    requiredskill2: 23618
+    requiredskill2level: 1
+    secondaryattribute: 167
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Salvage Drone Operation:
-    AccessDifficultyBonus: 2
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3436
-    RequiredSkill1Level: 4
-    RequiredSkill2: 25863
-    RequiredSkill2Level: 2
-    SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    accessdifficultybonus: 2
+    cannotbetrainedontrial: 1
     id: 3440
     marketGroup: 366
     name: Salvage Drone Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3436
+    requiredskill1level: 4
+    requiredskill2: 25863
+    requiredskill2level: 2
+    secondaryattribute: 167
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Sentry Drone Interfacing:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3442
-    RequiredSkill1Level: 4
-    RequiredSkill2: 23606
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 23594
     marketGroup: 366
     name: Sentry Drone Interfacing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3442
+    requiredskill1level: 4
+    requiredskill2: 23606
+    requiredskill2level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Support Fighters:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 23069
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 167
-    ShieldCapacityBonus: 5.0
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
     id: 40573
     marketGroup: 366
     name: Support Fighters
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 23069
+    requiredskill1level: 1
+    secondaryattribute: 167
+    shieldcapacitybonus: 5.0
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582

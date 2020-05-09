@@ -1,1036 +1,1036 @@
 types:
   '''Micro'' Remote Shield Booster':
-    CapacitorNeed: 27.0
-    Cpu: 16.0
-    Duration: 3600.0
-    FalloffEffectiveness: 6500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.25
-    Hp: 40.0
-    MaxRange: 4000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadSelfDurationBonus: -15.0
-    Power: 2
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 44.0
-    TechLevel: 1
+    capacitorneed: 27.0
+    cpu: 16.0
+    duration: 3600.0
+    falloffeffectiveness: 6500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.25
+    hp: 40.0
     id: 405
     marketGroup: 603
+    maxrange: 4000.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 3
+    metalevel: 6
     name: '''Micro'' Remote Shield Booster'
+    overloadselfdurationbonus: -15.0
     packagedVolume: 2.5
     portionSize: 1
+    power: 2
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 44.0
+    techlevel: 1
     volume: 2.5
   CONCORD Capital Remote Shield Booster:
-    CapacitorNeed: 2200.0
-    Cpu: 95.0
-    Duration: 20000.0
-    FalloffEffectiveness: 15100
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 11400.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 92500
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 24571
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 1250.0
-    TechLevel: 1
+    capacitorneed: 2200.0
+    cpu: 95.0
+    duration: 20000.0
+    falloffeffectiveness: 15100
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 3544
     marketGroup: 600
+    maxrange: 11400.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 4
+    metalevel: 8
     name: CONCORD Capital Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 92500
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 1250.0
+    techlevel: 1
     volume: 4000.0
   Capital Asymmetric Enduring Remote Shield Booster:
-    CapacitorNeed: 1920.0
-    Cpu: 112.0
-    Duration: 20000.0
-    FalloffEffectiveness: 12000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 9000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 97500
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 24571
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 1055.0
-    TechLevel: 1
+    capacitorneed: 1920.0
+    cpu: 112.0
+    duration: 20000.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 41469
     marketGroup: 600
+    maxrange: 9000.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Capital Asymmetric Enduring Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 97500
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 1055.0
+    techlevel: 1
     volume: 4000.0
   Capital Murky Compact Remote Shield Booster:
-    CapacitorNeed: 2400.0
-    Cpu: 90.0
-    Duration: 20000.0
-    FalloffEffectiveness: 12000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 9000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 87500
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 24571
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 1055.0
-    TechLevel: 1
+    capacitorneed: 2400.0
+    cpu: 90.0
+    duration: 20000.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 41470
     marketGroup: 600
+    maxrange: 9000.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Capital Murky Compact Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 87500
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 1055.0
+    techlevel: 1
     volume: 4000.0
   Capital Remote Shield Booster I:
-    CapacitorNeed: 2400.0
-    Cpu: 112.0
-    Duration: 20000.0
-    FalloffEffectiveness: 12000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 9000.0
-    MediumRemoteRepFittingMultiplier: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 97500
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 24571
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 960.0
-    TechLevel: 1
+    capacitorneed: 2400.0
+    cpu: 112.0
+    duration: 20000.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 3616
     marketGroup: 600
+    maxrange: 9000.0
+    mediumremoterepfittingmultiplier: 1
     name: Capital Remote Shield Booster I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 97500
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 960.0
+    techlevel: 1
     volume: 4000.0
   Capital Remote Shield Booster II:
-    CapacitorNeed: 2640.0
-    Cpu: 125.0
-    Duration: 20000.0
-    FalloffEffectiveness: 14400
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 10800.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 107500
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 24571
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 1150.0
-    TechLevel: 2
+    capacitorneed: 2640.0
+    cpu: 125.0
+    duration: 20000.0
+    falloffeffectiveness: 14400
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 3618
     marketGroup: 600
+    maxrange: 10800.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 5
     name: Capital Remote Shield Booster II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 107500
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    shieldbonus: 1150.0
+    techlevel: 2
     volume: 4000.0
   Capital S95a Scoped Remote Shield Booster:
-    CapacitorNeed: 2400.0
-    Cpu: 112.0
-    Duration: 20000.0
-    FalloffEffectiveness: 13200
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 9900.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 97500
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 24571
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 1055.0
-    TechLevel: 1
+    capacitorneed: 2400.0
+    cpu: 112.0
+    duration: 20000.0
+    falloffeffectiveness: 13200
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 41471
     marketGroup: 600
+    maxrange: 9900.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Capital S95a Scoped Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 97500
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 1055.0
+    techlevel: 1
     volume: 4000.0
   Civilian Small Remote Shield Booster:
-    CapacitorNeed: 45.0
-    Cpu: 56.0
-    Duration: 4000.0
-    FalloffEffectiveness: 6500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxRange: 4000.0
-    MediumRemoteRepFittingMultiplier: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 5
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 32.0
-    TechLevel: 1
+    capacitorneed: 45.0
+    cpu: 56.0
+    duration: 4000.0
+    falloffeffectiveness: 6500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 32467
+    maxrange: 4000.0
+    mediumremoterepfittingmultiplier: 1
     name: Civilian Small Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 5
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredthermodynamicsskill: 1
+    shieldbonus: 32.0
+    techlevel: 1
     volume: 5.0
   Domination Capital Remote Shield Booster:
-    CapacitorNeed: 1900.0
-    Cpu: 90.0
-    Duration: 17280.0
-    FalloffEffectiveness: 15100
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.5
-    Hp: 40.0
-    MaxRange: 11400.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 87500
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 24571
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 1100.0
-    TechLevel: 1
+    capacitorneed: 1900.0
+    cpu: 90.0
+    duration: 17280.0
+    falloffeffectiveness: 15100
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5
+    hp: 40.0
     id: 41474
     marketGroup: 600
+    maxrange: 11400.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 4
+    metalevel: 8
     name: Domination Capital Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 87500
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 1100.0
+    techlevel: 1
     volume: 4000.0
   Dread Guristas Capital Remote Shield Booster:
-    CapacitorNeed: 2500.0
-    Cpu: 95.0
-    Duration: 20000.0
-    FalloffEffectiveness: 15100
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 11400.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 92500
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 24571
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 1300.0
-    TechLevel: 1
+    capacitorneed: 2500.0
+    cpu: 95.0
+    duration: 20000.0
+    falloffeffectiveness: 15100
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 41473
     marketGroup: 600
+    maxrange: 11400.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 4
+    metalevel: 8
     name: Dread Guristas Capital Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 92500
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 1300.0
+    techlevel: 1
     volume: 4000.0
   Gistii A-Type Small Remote Shield Booster:
-    CapacitorNeed: 52.0
-    Cpu: 30.0
-    Duration: 3600.0
-    FalloffEffectiveness: 9425
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.25
-    Hp: 40.0
-    MaxRange: 5800.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 102.0
-    TechLevel: 1
+    capacitorneed: 52.0
+    cpu: 30.0
+    duration: 3600.0
+    falloffeffectiveness: 9425
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.25
+    hp: 40.0
     id: 19133
     marketGroup: 603
+    maxrange: 5800.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 14
     name: Gistii A-Type Small Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 102.0
+    techlevel: 1
     volume: 5.0
   Gistii B-Type Small Remote Shield Booster:
-    CapacitorNeed: 52.0
-    Cpu: 30.0
-    Duration: 3600.0
-    FalloffEffectiveness: 9100
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.25
-    Hp: 40.0
-    MaxRange: 5600.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 95.0
-    TechLevel: 1
+    capacitorneed: 52.0
+    cpu: 30.0
+    duration: 3600.0
+    falloffeffectiveness: 9100
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.25
+    hp: 40.0
     id: 19131
     marketGroup: 603
+    maxrange: 5600.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 12
     name: Gistii B-Type Small Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 95.0
+    techlevel: 1
     volume: 5.0
   Gistii C-Type Small Remote Shield Booster:
-    CapacitorNeed: 52.0
-    Cpu: 30.0
-    Duration: 3600.0
-    FalloffEffectiveness: 8775
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.25
-    Hp: 40.0
-    MaxRange: 5400.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 86.0
-    TechLevel: 1
+    capacitorneed: 52.0
+    cpu: 30.0
+    duration: 3600.0
+    falloffeffectiveness: 8775
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.25
+    hp: 40.0
     id: 19129
     marketGroup: 603
+    maxrange: 5400.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 10
     name: Gistii C-Type Small Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 86.0
+    techlevel: 1
     volume: 5.0
   Gistum A-Type Medium Remote Shield Booster:
-    CapacitorNeed: 208.0
-    Cpu: 61.0
-    Duration: 7200.0
-    FalloffEffectiveness: 10875
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.5
-    Hp: 40.0
-    MaxRange: 7250.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadSelfDurationBonus: -15.0
-    Power: 65
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 408.0
-    TechLevel: 1
+    capacitorneed: 208.0
+    cpu: 61.0
+    duration: 7200.0
+    falloffeffectiveness: 10875
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5
+    hp: 40.0
     id: 19145
     marketGroup: 602
+    maxrange: 7250.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 14
     name: Gistum A-Type Medium Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 65
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 408.0
+    techlevel: 1
     volume: 10.0
   Gistum B-Type Medium Remote Shield Booster:
-    CapacitorNeed: 208.0
-    Cpu: 61.0
-    Duration: 7200.0
-    FalloffEffectiveness: 10500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.5
-    Hp: 40.0
-    MaxRange: 7000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadSelfDurationBonus: -15.0
-    Power: 65
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 380.0
-    TechLevel: 1
+    capacitorneed: 208.0
+    cpu: 61.0
+    duration: 7200.0
+    falloffeffectiveness: 10500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5
+    hp: 40.0
     id: 19143
     marketGroup: 602
+    maxrange: 7000.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 12
     name: Gistum B-Type Medium Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 65
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 380.0
+    techlevel: 1
     volume: 10.0
   Gistum C-Type Medium Remote Shield Booster:
-    CapacitorNeed: 208.0
-    Cpu: 61.0
-    Duration: 7200.0
-    FalloffEffectiveness: 10125
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.5
-    Hp: 40.0
-    MaxRange: 6750.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 65
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 344.0
-    TechLevel: 1
+    capacitorneed: 208.0
+    cpu: 61.0
+    duration: 7200.0
+    falloffeffectiveness: 10125
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5
+    hp: 40.0
     id: 19141
     marketGroup: 602
+    maxrange: 6750.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 10
     name: Gistum C-Type Medium Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 65
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 344.0
+    techlevel: 1
     volume: 10.0
   Large Asymmetric Enduring Remote Shield Booster:
-    CapacitorNeed: 441.0
-    Cpu: 112.0
-    Duration: 8000.0
-    FalloffEffectiveness: 10000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 6700.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 208
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 600.0
-    TechLevel: 1
+    capacitorneed: 441.0
+    cpu: 112.0
+    duration: 8000.0
+    falloffeffectiveness: 10000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 8639
     marketGroup: 601
+    maxrange: 6700.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Large Asymmetric Enduring Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
     portionSize: 1
+    power: 208
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 600.0
+    techlevel: 1
     volume: 25.0
   Large Murky Compact Remote Shield Booster:
-    CapacitorNeed: 492.0
-    Cpu: 90.0
-    Duration: 8000.0
-    FalloffEffectiveness: 10000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 6700.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 185
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 600.0
-    TechLevel: 1
+    capacitorneed: 492.0
+    cpu: 90.0
+    duration: 8000.0
+    falloffeffectiveness: 10000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 8635
     marketGroup: 601
+    maxrange: 6700.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Large Murky Compact Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
     portionSize: 1
+    power: 185
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 600.0
+    techlevel: 1
     volume: 25.0
   Large Remote Shield Booster I:
-    CapacitorNeed: 492.0
-    Cpu: 112.0
-    Duration: 8000.0
-    FalloffEffectiveness: 10000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 6700.0
-    MediumRemoteRepFittingMultiplier: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 208
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 520.0
-    TechLevel: 1
+    capacitorneed: 492.0
+    cpu: 112.0
+    duration: 8000.0
+    falloffeffectiveness: 10000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 3606
     marketGroup: 601
+    maxrange: 6700.0
+    mediumremoterepfittingmultiplier: 1
     name: Large Remote Shield Booster I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
     portionSize: 1
+    power: 208
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 520.0
+    techlevel: 1
     volume: 25.0
   Large Remote Shield Booster II:
-    CapacitorNeed: 543.0
-    Cpu: 123.0
-    Duration: 8000.0
-    FalloffEffectiveness: 12000
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 8040.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 250
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 680.0
-    TechLevel: 2
+    capacitorneed: 543.0
+    cpu: 123.0
+    duration: 8000.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 3608
     marketGroup: 601
+    maxrange: 8040.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 5
     name: Large Remote Shield Booster II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
     portionSize: 1
+    power: 250
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    shieldbonus: 680.0
+    techlevel: 2
     volume: 25.0
   Large S95a Scoped Remote Shield Booster:
-    CapacitorNeed: 492.0
-    Cpu: 112.0
-    Duration: 8000.0
-    FalloffEffectiveness: 11000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 7370.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 208
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 600.0
-    TechLevel: 1
+    capacitorneed: 492.0
+    cpu: 112.0
+    duration: 8000.0
+    falloffeffectiveness: 11000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 8641
     marketGroup: 601
+    maxrange: 7370.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Large S95a Scoped Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
     portionSize: 1
+    power: 208
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 600.0
+    techlevel: 1
     volume: 25.0
   Medium Asymmetric Enduring Remote Shield Booster:
-    CapacitorNeed: 208.0
-    Cpu: 50.0
-    Duration: 8000.0
-    FalloffEffectiveness: 7500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 5000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 52
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 300.0
-    TechLevel: 1
+    capacitorneed: 208.0
+    cpu: 50.0
+    duration: 8000.0
+    falloffeffectiveness: 7500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 8583
     marketGroup: 602
+    maxrange: 5000.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Medium Asymmetric Enduring Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 52
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 300.0
+    techlevel: 1
     volume: 10.0
   Medium Murky Compact Remote Shield Booster:
-    CapacitorNeed: 232.0
-    Cpu: 40.0
-    Duration: 8000.0
-    FalloffEffectiveness: 7500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 5000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 45
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 300.0
-    TechLevel: 1
+    capacitorneed: 232.0
+    cpu: 40.0
+    duration: 8000.0
+    falloffeffectiveness: 7500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 8579
     marketGroup: 602
+    maxrange: 5000.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Medium Murky Compact Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 45
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 300.0
+    techlevel: 1
     volume: 10.0
   Medium Remote Shield Booster I:
-    CapacitorNeed: 232.0
-    Cpu: 50.0
-    Duration: 8000.0
-    FalloffEffectiveness: 7500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 5000.0
-    MediumRemoteRepFittingMultiplier: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 52
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 260.0
-    TechLevel: 1
+    capacitorneed: 232.0
+    cpu: 50.0
+    duration: 8000.0
+    falloffeffectiveness: 7500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 3596
     marketGroup: 602
+    maxrange: 5000.0
+    mediumremoterepfittingmultiplier: 1
     name: Medium Remote Shield Booster I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 52
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 260.0
+    techlevel: 1
     volume: 10.0
   Medium Remote Shield Booster II:
-    CapacitorNeed: 256.0
-    Cpu: 61.0
-    Duration: 8000.0
-    FalloffEffectiveness: 9000
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 6000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 65
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 340.0
-    TechLevel: 2
+    capacitorneed: 256.0
+    cpu: 61.0
+    duration: 8000.0
+    falloffeffectiveness: 9000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 3598
     marketGroup: 602
+    maxrange: 6000.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 5
     name: Medium Remote Shield Booster II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 65
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    shieldbonus: 340.0
+    techlevel: 2
     volume: 10.0
   Medium S95a Scoped Remote Shield Booster:
-    CapacitorNeed: 232.0
-    Cpu: 50.0
-    Duration: 8000.0
-    FalloffEffectiveness: 8250
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 5500.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 52
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 300.0
-    TechLevel: 1
+    capacitorneed: 232.0
+    cpu: 50.0
+    duration: 8000.0
+    falloffeffectiveness: 8250
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 8585
     marketGroup: 602
+    maxrange: 5500.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Medium S95a Scoped Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 52
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 300.0
+    techlevel: 1
     volume: 10.0
   Pithi A-Type Small Remote Shield Booster:
-    CapacitorNeed: 67.0
-    Cpu: 42.0
-    Duration: 4000.0
-    FalloffEffectiveness: 9425
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxRange: 5800.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 127.0
-    TechLevel: 1
+    capacitorneed: 67.0
+    cpu: 42.0
+    duration: 4000.0
+    falloffeffectiveness: 9425
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 19139
     marketGroup: 603
+    maxrange: 5800.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 14
     name: Pithi A-Type Small Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 127.0
+    techlevel: 1
     volume: 5.0
   Pithi B-Type Small Remote Shield Booster:
-    CapacitorNeed: 67.0
-    Cpu: 40.0
-    Duration: 4000.0
-    FalloffEffectiveness: 9100
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxRange: 5600.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 117.0
-    TechLevel: 1
+    capacitorneed: 67.0
+    cpu: 40.0
+    duration: 4000.0
+    falloffeffectiveness: 9100
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 19137
     marketGroup: 603
+    maxrange: 5600.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 12
     name: Pithi B-Type Small Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 117.0
+    techlevel: 1
     volume: 5.0
   Pithi C-Type Small Remote Shield Booster:
-    CapacitorNeed: 67.0
-    Cpu: 38.0
-    Duration: 4000.0
-    FalloffEffectiveness: 8775
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxRange: 5400.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 107.0
-    TechLevel: 1
+    capacitorneed: 67.0
+    cpu: 38.0
+    duration: 4000.0
+    falloffeffectiveness: 8775
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 19135
     marketGroup: 603
+    maxrange: 5400.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 10
     name: Pithi C-Type Small Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 107.0
+    techlevel: 1
     volume: 5.0
   Pithum A-Type Medium Remote Shield Booster:
-    CapacitorNeed: 268.0
-    Cpu: 83.0
-    Duration: 8000.0
-    FalloffEffectiveness: 10875
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 7250.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 14
-    OverloadSelfDurationBonus: -15.0
-    Power: 65
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 508.0
-    TechLevel: 1
+    capacitorneed: 268.0
+    cpu: 83.0
+    duration: 8000.0
+    falloffeffectiveness: 10875
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 19151
     marketGroup: 602
+    maxrange: 7250.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 14
     name: Pithum A-Type Medium Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 65
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 508.0
+    techlevel: 1
     volume: 10.0
   Pithum B-Type Medium Remote Shield Booster:
-    CapacitorNeed: 268.0
-    Cpu: 80.0
-    Duration: 8000.0
-    FalloffEffectiveness: 10500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 7000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 12
-    OverloadSelfDurationBonus: -15.0
-    Power: 65
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 468.0
-    TechLevel: 1
+    capacitorneed: 268.0
+    cpu: 80.0
+    duration: 8000.0
+    falloffeffectiveness: 10500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 19149
     marketGroup: 602
+    maxrange: 7000.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 12
     name: Pithum B-Type Medium Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 65
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 468.0
+    techlevel: 1
     volume: 10.0
   Pithum C-Type Medium Remote Shield Booster:
-    CapacitorNeed: 268.0
-    Cpu: 78.0
-    Duration: 8000.0
-    FalloffEffectiveness: 10125
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.799999952316284
-    Hp: 40.0
-    MaxRange: 6750.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 6
-    MetaLevel: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 65
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 428.0
-    TechLevel: 1
+    capacitorneed: 268.0
+    cpu: 78.0
+    duration: 8000.0
+    falloffeffectiveness: 10125
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.799999952316284
+    hp: 40.0
     id: 19147
     marketGroup: 602
+    maxrange: 6750.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 6
+    metalevel: 10
     name: Pithum C-Type Medium Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 65
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 428.0
+    techlevel: 1
     volume: 10.0
   Small Asymmetric Enduring Remote Shield Booster:
-    CapacitorNeed: 52.0
-    Cpu: 28.0
-    Duration: 4000.0
-    FalloffEffectiveness: 6500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxRange: 4000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 75.0
-    TechLevel: 1
+    capacitorneed: 52.0
+    cpu: 28.0
+    duration: 4000.0
+    falloffeffectiveness: 6500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 8535
     marketGroup: 603
+    maxrange: 4000.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Small Asymmetric Enduring Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 75.0
+    techlevel: 1
     volume: 5.0
   Small Murky Compact Remote Shield Booster:
-    CapacitorNeed: 58.0
-    Cpu: 22.0
-    Duration: 4000.0
-    FalloffEffectiveness: 6500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxRange: 4000.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 75.0
-    TechLevel: 1
+    capacitorneed: 58.0
+    cpu: 22.0
+    duration: 4000.0
+    falloffeffectiveness: 6500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 8531
     marketGroup: 603
+    maxrange: 4000.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Small Murky Compact Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 75.0
+    techlevel: 1
     volume: 5.0
   Small Remote Shield Booster I:
-    CapacitorNeed: 58.0
-    Cpu: 28.0
-    Duration: 4000.0
-    FalloffEffectiveness: 6500
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxRange: 4000.0
-    MediumRemoteRepFittingMultiplier: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 65.0
-    TechLevel: 1
+    capacitorneed: 58.0
+    cpu: 28.0
+    duration: 4000.0
+    falloffeffectiveness: 6500
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 3586
     marketGroup: 603
+    maxrange: 4000.0
+    mediumremoterepfittingmultiplier: 1
     name: Small Remote Shield Booster I
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 65.0
+    techlevel: 1
     volume: 5.0
   Small Remote Shield Booster II:
-    CapacitorNeed: 64.0
-    Cpu: 34.0
-    Duration: 4000.0
-    FalloffEffectiveness: 7800
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxRange: 4800.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 5
-    OverloadSelfDurationBonus: -15.0
-    Power: 4
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 3
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 85.0
-    TechLevel: 2
+    capacitorneed: 64.0
+    cpu: 34.0
+    duration: 4000.0
+    falloffeffectiveness: 7800
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 3588
     marketGroup: 603
+    maxrange: 4800.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 5
     name: Small Remote Shield Booster II
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 4
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    shieldbonus: 85.0
+    techlevel: 2
     volume: 5.0
   Small S95a Scoped Remote Shield Booster:
-    CapacitorNeed: 58.0
-    Cpu: 28.0
-    Duration: 4000.0
-    FalloffEffectiveness: 7150
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.399999976158142
-    Hp: 40.0
-    MaxRange: 4400.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 3
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 3422
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 75.0
-    TechLevel: 1
+    capacitorneed: 58.0
+    cpu: 28.0
+    duration: 4000.0
+    falloffeffectiveness: 7150
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.399999976158142
+    hp: 40.0
     id: 8537
     marketGroup: 603
+    maxrange: 4400.0
+    mediumremoterepfittingmultiplier: 1
+    metalevel: 1
     name: Small S95a Scoped Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 3422
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 75.0
+    techlevel: 1
     volume: 5.0
   True Sansha Capital Remote Shield Booster:
-    CapacitorNeed: 1900.0
-    Cpu: 90.0
-    Duration: 17280.0
-    FalloffEffectiveness: 15100
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.5
-    Hp: 40.0
-    MaxRange: 11400.0
-    MediumRemoteRepFittingMultiplier: 1
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadSelfDurationBonus: -15.0
-    Power: 87500
-    Radius: 1.0
-    RemoteResistanceID: 2116
-    RequiredSkill1: 24571
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ShieldBonus: 1100.0
-    TechLevel: 1
+    capacitorneed: 1900.0
+    cpu: 90.0
+    duration: 17280.0
+    falloffeffectiveness: 15100
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.5
+    hp: 40.0
     id: 41472
     marketGroup: 600
+    maxrange: 11400.0
+    mediumremoterepfittingmultiplier: 1
+    metagroupid: 4
+    metalevel: 8
     name: True Sansha Capital Remote Shield Booster
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 87500
     published: true
+    radius: 1.0
+    remoteresistanceid: 2116
+    requiredskill1: 24571
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    shieldbonus: 1100.0
+    techlevel: 1
     volume: 4000.0

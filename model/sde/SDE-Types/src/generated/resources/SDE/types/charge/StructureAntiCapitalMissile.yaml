@@ -1,57 +1,53 @@
 types:
   Standup Super-heavy Torpedo:
-    Agility: 1000.0
-    AimedLaunch: 1
-    AoeCloudSize: 25000
-    AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500
-    AoeVelocity: 50.0
-    DetonationRange: 35
-    EmDamage: 18000.0
-    ExplosionDelay: 140000
-    ExplosiveDamage: 18000.0
-    Hp: 4000000.0
-    KineticDamage: 18000.0
-    LauncherGroup: 1327
-    Mass: 1000.0
-    MaxVelocity: 4000.0
-    Radius: 300.0
-    StructureItemVisualFlag: 1
-    StructureUniformity: 0.75
-    ThermalDamage: 18000.0
+    agility: 1000.0
+    aimedlaunch: 1
+    aoecloudsize: 25000
+    aoedamagereductionfactor: 0.9440000057220459
+    aoefalloff: 1500
+    aoevelocity: 50.0
+    detonationrange: 35
+    emdamage: 18000.0
+    explosiondelay: 140000
+    explosivedamage: 18000.0
+    hp: 4000000.0
     id: 37843
+    kineticdamage: 18000.0
+    launchergroup: 1327
     marketGroup: 2197
-    mass: 1000.0
+    maxvelocity: 4000.0
     name: Standup Super-heavy Torpedo
     packagedVolume: 0.5
     portionSize: 100
     published: true
+    radius: 300.0
+    structureitemvisualflag: 1
+    structureuniformity: 0.75
+    thermaldamage: 18000.0
     volume: 0.5
   Standup XL Cruise Missile:
-    Agility: 1000.0
-    AimedLaunch: 1
-    AoeCloudSize: 15000
-    AoeDamageReductionFactor: 0.9440000057220459
-    AoeFalloff: 1500
-    AoeVelocity: 70.0
-    DetonationRange: 35
-    EmDamage: 12000.0
-    ExplosionDelay: 100000
-    ExplosiveDamage: 12000.0
-    Hp: 4000000.0
-    KineticDamage: 12000.0
-    LauncherGroup: 1327
-    Mass: 1000.0
-    MaxVelocity: 6000.0
-    Radius: 300.0
-    StructureItemVisualFlag: 1
-    StructureUniformity: 0.75
-    ThermalDamage: 12000.0
+    agility: 1000.0
+    aimedlaunch: 1
+    aoecloudsize: 15000
+    aoedamagereductionfactor: 0.9440000057220459
+    aoefalloff: 1500
+    aoevelocity: 70.0
+    detonationrange: 35
+    emdamage: 12000.0
+    explosiondelay: 100000
+    explosivedamage: 12000.0
+    hp: 4000000.0
     id: 37844
+    kineticdamage: 12000.0
+    launchergroup: 1327
     marketGroup: 2197
-    mass: 1000.0
+    maxvelocity: 6000.0
     name: Standup XL Cruise Missile
     packagedVolume: 0.5
     portionSize: 100
     published: true
+    radius: 300.0
+    structureitemvisualflag: 1
+    structureuniformity: 0.75
+    thermaldamage: 12000.0
     volume: 0.5

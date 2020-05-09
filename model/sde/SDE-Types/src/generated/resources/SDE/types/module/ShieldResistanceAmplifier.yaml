@@ -1,1545 +1,1545 @@
 types:
   '''Cactus'' Modified Kinetic Deflection Amplifier':
-    Cpu: 20.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -30.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 20.0
+    hp: 40.0
     id: 20609
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1689
+    metagroupid: 3
+    metalevel: 6
     name: '''Cactus'' Modified Kinetic Deflection Amplifier'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   '''High Noon'' Thermal Dissipation Amplifier':
-    Cpu: 20.0
-    Hp: 40.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -30.0
+    cpu: 20.0
+    hp: 40.0
     id: 20607
     marketGroup: 1688
+    metagroupid: 3
+    metalevel: 6
     name: '''High Noon'' Thermal Dissipation Amplifier'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   '''Prospector'' EM Ward Amplifier':
-    Cpu: 20.0
-    EmDamageResistanceBonus: -30.0
-    Hp: 40.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 20.0
+    emdamageresistancebonus: -30.0
+    hp: 40.0
     id: 20611
     marketGroup: 1691
+    metagroupid: 3
+    metalevel: 6
     name: '''Prospector'' EM Ward Amplifier'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   '''Whiskey'' Explosive Deflection Amplifier':
-    Cpu: 20.0
-    ExplosiveDamageResistanceBonus: -30.0
-    Hp: 40.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 20.0
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
     id: 20605
     marketGroup: 1690
+    metagroupid: 3
+    metalevel: 6
     name: '''Whiskey'' Explosive Deflection Amplifier'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Basic EM Ward Amplifier:
-    Cpu: 10.0
-    EmDamageResistanceBonus: -20.0
-    Hp: 40.0
-    Radius: 1.0
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 10.0
+    emdamageresistancebonus: -20.0
+    hp: 40.0
     id: 1798
     marketGroup: 1691
     name: Basic EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Basic Explosive Deflection Amplifier:
-    Cpu: 10.0
-    ExplosiveDamageResistanceBonus: -20.0
-    Hp: 40.0
-    Radius: 1.0
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 10.0
+    explosivedamageresistancebonus: -20.0
+    hp: 40.0
     id: 1804
     marketGroup: 1690
     name: Basic Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Basic Kinetic Deflection Amplifier:
-    Cpu: 10.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -20.0
-    Radius: 1.0
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 10.0
+    hp: 40.0
     id: 1802
+    kineticdamageresistancebonus: -20.0
     marketGroup: 1689
     name: Basic Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Basic Thermal Dissipation Amplifier:
-    Cpu: 10.0
-    Hp: 40.0
-    Radius: 1.0
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -20.0
+    cpu: 10.0
+    hp: 40.0
     id: 1800
     marketGroup: 1688
     name: Basic Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -20.0
     volume: 5.0
   Caldari Navy EM Ward Amplifier:
-    Cpu: 28.0
-    EmDamageResistanceBonus: -31.520000457763672
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 28.0
+    emdamageresistancebonus: -31.520000457763672
+    hp: 40.0
     id: 15909
     marketGroup: 1691
+    metagroupid: 4
+    metalevel: 9
     name: Caldari Navy EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Caldari Navy Explosive Deflection Amplifier:
-    Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -31.520000457763672
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 28.0
+    explosivedamageresistancebonus: -31.520000457763672
+    hp: 40.0
     id: 15915
     marketGroup: 1690
+    metagroupid: 4
+    metalevel: 9
     name: Caldari Navy Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Caldari Navy Kinetic Deflection Amplifier:
-    Cpu: 28.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -31.520000457763672
-    MetaGroupID: 4
-    MetaLevel: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 28.0
+    hp: 40.0
     id: 15911
+    kineticdamageresistancebonus: -31.520000457763672
     marketGroup: 1689
+    metagroupid: 4
+    metalevel: 9
     name: Caldari Navy Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Caldari Navy Thermal Dissipation Amplifier:
-    Cpu: 28.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -31.520000457763672
+    cpu: 28.0
+    hp: 40.0
     id: 15913
     marketGroup: 1688
+    metagroupid: 4
+    metalevel: 9
     name: Caldari Navy Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -31.520000457763672
     volume: 5.0
   Domination EM Ward Amplifier:
-    Cpu: 17.0
-    EmDamageResistanceBonus: -30.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 17.0
+    emdamageresistancebonus: -30.0
+    hp: 40.0
     id: 14041
     marketGroup: 1691
+    metagroupid: 4
+    metalevel: 8
     name: Domination EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Domination Explosive Deflection Amplifier:
-    Cpu: 17.0
-    ExplosiveDamageResistanceBonus: -30.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 17.0
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
     id: 14029
     marketGroup: 1690
+    metagroupid: 4
+    metalevel: 8
     name: Domination Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Domination Kinetic Deflection Amplifier:
-    Cpu: 17.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -30.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 17.0
+    hp: 40.0
     id: 14037
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1689
+    metagroupid: 4
+    metalevel: 8
     name: Domination Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Domination Thermal Dissipation Amplifier:
-    Cpu: 17.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -30.0
+    cpu: 17.0
+    hp: 40.0
     id: 14033
     marketGroup: 1688
+    metagroupid: 4
+    metalevel: 8
     name: Domination Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   Dread Guristas EM Ward Amplifier:
-    Cpu: 28.0
-    EmDamageResistanceBonus: -31.520000457763672
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 28.0
+    emdamageresistancebonus: -31.520000457763672
+    hp: 40.0
     id: 14043
     marketGroup: 1691
+    metagroupid: 4
+    metalevel: 9
     name: Dread Guristas EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Dread Guristas Explosive Deflection Amplifier:
-    Cpu: 28.0
-    ExplosiveDamageResistanceBonus: -31.520000457763672
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 28.0
+    explosivedamageresistancebonus: -31.520000457763672
+    hp: 40.0
     id: 14031
     marketGroup: 1690
+    metagroupid: 4
+    metalevel: 9
     name: Dread Guristas Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Dread Guristas Kinetic Deflection Amplifier:
-    Cpu: 28.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -31.520000457763672
-    MetaGroupID: 4
-    MetaLevel: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 28.0
+    hp: 40.0
     id: 14039
+    kineticdamageresistancebonus: -31.520000457763672
     marketGroup: 1689
+    metagroupid: 4
+    metalevel: 9
     name: Dread Guristas Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Dread Guristas Thermal Dissipation Amplifier:
-    Cpu: 28.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -31.520000457763672
+    cpu: 28.0
+    hp: 40.0
     id: 14035
     marketGroup: 1688
+    metagroupid: 4
+    metalevel: 9
     name: Dread Guristas Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -31.520000457763672
     volume: 5.0
   EM Ward Amplifier I:
-    Cpu: 25.0
-    EmDamageResistanceBonus: -26.0
-    Hp: 40.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 25.0
+    emdamageresistancebonus: -26.0
+    hp: 40.0
     id: 1808
     marketGroup: 1691
     name: EM Ward Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   EM Ward Amplifier II:
-    Cpu: 30.0
-    EmDamageResistanceBonus: -30.0
-    Hp: 40.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 4
-    TechLevel: 2
+    cpu: 30.0
+    emdamageresistancebonus: -30.0
+    hp: 40.0
     id: 2553
     marketGroup: 1691
+    metalevel: 5
     name: EM Ward Amplifier II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    techlevel: 2
     volume: 5.0
   Estamel's Modified EM Ward Amplifier:
-    Cpu: 38.0
-    EmDamageResistanceBonus: -36.79999923706055
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 38.0
+    emdamageresistancebonus: -36.79999923706055
+    hp: 40.0
     id: 14746
     marketGroup: 1691
+    metagroupid: 5
+    metalevel: 14
     name: Estamel's Modified EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Estamel's Modified Explosive Deflection Amplifier:
-    Cpu: 38.0
-    ExplosiveDamageResistanceBonus: -36.79999923706055
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 38.0
+    explosivedamageresistancebonus: -36.79999923706055
+    hp: 40.0
     id: 14722
     marketGroup: 1690
+    metagroupid: 5
+    metalevel: 14
     name: Estamel's Modified Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Estamel's Modified Kinetic Deflection Amplifier:
-    Cpu: 38.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -36.79999923706055
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 38.0
+    hp: 40.0
     id: 14738
+    kineticdamageresistancebonus: -36.79999923706055
     marketGroup: 1689
+    metagroupid: 5
+    metalevel: 14
     name: Estamel's Modified Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Estamel's Modified Thermal Dissipation Amplifier:
-    Cpu: 38.0
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -36.79999923706055
+    cpu: 38.0
+    hp: 40.0
     id: 14730
     marketGroup: 1688
+    metagroupid: 5
+    metalevel: 14
     name: Estamel's Modified Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -36.79999923706055
     volume: 5.0
   Explosive Deflection Amplifier I:
-    Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -26.0
-    Hp: 40.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 25.0
+    explosivedamageresistancebonus: -26.0
+    hp: 40.0
     id: 2529
     marketGroup: 1690
     name: Explosive Deflection Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Explosive Deflection Amplifier II:
-    Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -30.0
-    Hp: 40.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 4
-    TechLevel: 2
+    cpu: 30.0
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
     id: 2531
     marketGroup: 1690
+    metalevel: 5
     name: Explosive Deflection Amplifier II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    techlevel: 2
     volume: 5.0
   Gistum A-Type EM Ward Amplifier:
-    Cpu: 29.0
-    EmDamageResistanceBonus: -34.560001373291016
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 29.0
+    emdamageresistancebonus: -34.560001373291016
+    hp: 40.0
     id: 19255
     marketGroup: 1691
+    metagroupid: 6
+    metalevel: 13
     name: Gistum A-Type EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Gistum A-Type Explosive Deflection Amplifier:
-    Cpu: 29.0
-    ExplosiveDamageResistanceBonus: -34.560001373291016
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 29.0
+    explosivedamageresistancebonus: -34.560001373291016
+    hp: 40.0
     id: 19249
     marketGroup: 1690
+    metagroupid: 6
+    metalevel: 13
     name: Gistum A-Type Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Gistum A-Type Kinetic Deflection Amplifier:
-    Cpu: 29.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -34.560001373291016
-    MetaGroupID: 6
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 29.0
+    hp: 40.0
     id: 19253
+    kineticdamageresistancebonus: -34.560001373291016
     marketGroup: 1689
+    metagroupid: 6
+    metalevel: 13
     name: Gistum A-Type Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Gistum A-Type Thermal Dissipation Amplifier:
-    Cpu: 29.0
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -34.560001373291016
+    cpu: 29.0
+    hp: 40.0
     id: 19251
     marketGroup: 1688
+    metagroupid: 6
+    metalevel: 13
     name: Gistum A-Type Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -34.560001373291016
     volume: 5.0
   Gistum B-Type EM Ward Amplifier:
-    Cpu: 27.0
-    EmDamageResistanceBonus: -33.7599983215332
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 27.0
+    emdamageresistancebonus: -33.7599983215332
+    hp: 40.0
     id: 19247
     marketGroup: 1691
+    metagroupid: 6
+    metalevel: 12
     name: Gistum B-Type EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Gistum B-Type Explosive Deflection Amplifier:
-    Cpu: 27.0
-    ExplosiveDamageResistanceBonus: -33.7599983215332
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 27.0
+    explosivedamageresistancebonus: -33.7599983215332
+    hp: 40.0
     id: 19235
     marketGroup: 1690
+    metagroupid: 6
+    metalevel: 12
     name: Gistum B-Type Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Gistum B-Type Kinetic Deflection Amplifier:
-    Cpu: 27.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -33.7599983215332
-    MetaGroupID: 6
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 27.0
+    hp: 40.0
     id: 19243
+    kineticdamageresistancebonus: -33.7599983215332
     marketGroup: 1689
+    metagroupid: 6
+    metalevel: 12
     name: Gistum B-Type Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Gistum B-Type Thermal Dissipation Amplifier:
-    Cpu: 27.0
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -33.7599983215332
+    cpu: 27.0
+    hp: 40.0
     id: 19239
     marketGroup: 1688
+    metagroupid: 6
+    metalevel: 12
     name: Gistum B-Type Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -33.7599983215332
     volume: 5.0
   Gistum C-Type EM Ward Amplifier:
-    Cpu: 25.0
-    EmDamageResistanceBonus: -32.2400016784668
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 25.0
+    emdamageresistancebonus: -32.2400016784668
+    hp: 40.0
     id: 19245
     marketGroup: 1691
+    metagroupid: 6
+    metalevel: 11
     name: Gistum C-Type EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Gistum C-Type Explosive Deflection Amplifier:
-    Cpu: 25.0
-    ExplosiveDamageResistanceBonus: -32.2400016784668
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 25.0
+    explosivedamageresistancebonus: -32.2400016784668
+    hp: 40.0
     id: 19233
     marketGroup: 1690
+    metagroupid: 6
+    metalevel: 11
     name: Gistum C-Type Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Gistum C-Type Kinetic Deflection Amplifier:
-    Cpu: 25.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -32.2400016784668
-    MetaGroupID: 6
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 25.0
+    hp: 40.0
     id: 19241
+    kineticdamageresistancebonus: -32.2400016784668
     marketGroup: 1689
+    metagroupid: 6
+    metalevel: 11
     name: Gistum C-Type Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Gistum C-Type Thermal Dissipation Amplifier:
-    Cpu: 25.0
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -32.2400016784668
+    cpu: 25.0
+    hp: 40.0
     id: 19237
     marketGroup: 1688
+    metagroupid: 6
+    metalevel: 11
     name: Gistum C-Type Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -32.2400016784668
     volume: 5.0
   Hakim's Modified EM Ward Amplifier:
-    Cpu: 27.0
-    EmDamageResistanceBonus: -33.7599983215332
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 27.0
+    emdamageresistancebonus: -33.7599983215332
+    hp: 40.0
     id: 14630
     marketGroup: 1691
+    metagroupid: 5
+    metalevel: 12
     name: Hakim's Modified EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Hakim's Modified Explosive Deflection Amplifier:
-    Cpu: 27.0
-    ExplosiveDamageResistanceBonus: -33.7599983215332
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 27.0
+    explosivedamageresistancebonus: -33.7599983215332
+    hp: 40.0
     id: 14606
     marketGroup: 1690
+    metagroupid: 5
+    metalevel: 12
     name: Hakim's Modified Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Hakim's Modified Kinetic Deflection Amplifier:
-    Cpu: 27.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -33.7599983215332
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 27.0
+    hp: 40.0
     id: 14622
+    kineticdamageresistancebonus: -33.7599983215332
     marketGroup: 1689
+    metagroupid: 5
+    metalevel: 12
     name: Hakim's Modified Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Hakim's Modified Thermal Dissipation Amplifier:
-    Cpu: 27.0
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -33.7599983215332
+    cpu: 27.0
+    hp: 40.0
     id: 14614
     marketGroup: 1688
+    metagroupid: 5
+    metalevel: 12
     name: Hakim's Modified Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -33.7599983215332
     volume: 5.0
   Kaikka's Modified EM Ward Amplifier:
-    Cpu: 30.0
-    EmDamageResistanceBonus: -33.040000915527344
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 30.0
+    emdamageresistancebonus: -33.040000915527344
+    hp: 40.0
     id: 14740
     marketGroup: 1691
+    metagroupid: 5
+    metalevel: 11
     name: Kaikka's Modified EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Kaikka's Modified Explosive Deflection Amplifier:
-    Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -33.040000915527344
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 30.0
+    explosivedamageresistancebonus: -33.040000915527344
+    hp: 40.0
     id: 14716
     marketGroup: 1690
+    metagroupid: 5
+    metalevel: 11
     name: Kaikka's Modified Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Kaikka's Modified Kinetic Deflection Amplifier:
-    Cpu: 30.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -33.040000915527344
-    MetaGroupID: 5
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 30.0
+    hp: 40.0
     id: 14732
+    kineticdamageresistancebonus: -33.040000915527344
     marketGroup: 1689
+    metagroupid: 5
+    metalevel: 11
     name: Kaikka's Modified Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Kaikka's Modified Thermal Dissipation Amplifier:
-    Cpu: 30.0
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -33.040000915527344
+    cpu: 30.0
+    hp: 40.0
     id: 14724
     marketGroup: 1688
+    metagroupid: 5
+    metalevel: 11
     name: Kaikka's Modified Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -33.040000915527344
     volume: 5.0
   Kinetic Deflection Amplifier I:
-    Cpu: 25.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -26.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 25.0
+    hp: 40.0
     id: 2545
+    kineticdamageresistancebonus: -26.0
     marketGroup: 1689
     name: Kinetic Deflection Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Kinetic Deflection Amplifier II:
-    Cpu: 30.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -30.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 4
-    TechLevel: 2
+    cpu: 30.0
+    hp: 40.0
     id: 2547
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1689
+    metalevel: 5
     name: Kinetic Deflection Amplifier II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    techlevel: 2
     volume: 5.0
   Pithum A-Type EM Ward Amplifier:
-    Cpu: 36.0
-    EmDamageResistanceBonus: -36.08000183105469
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 36.0
+    emdamageresistancebonus: -36.08000183105469
+    hp: 40.0
     id: 19231
     marketGroup: 1691
+    metagroupid: 6
+    metalevel: 13
     name: Pithum A-Type EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Pithum A-Type Explosive Deflection Amplifier:
-    Cpu: 36.0
-    ExplosiveDamageResistanceBonus: -36.08000183105469
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 36.0
+    explosivedamageresistancebonus: -36.08000183105469
+    hp: 40.0
     id: 19225
     marketGroup: 1690
+    metagroupid: 6
+    metalevel: 13
     name: Pithum A-Type Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Pithum A-Type Kinetic Deflection Amplifier:
-    Cpu: 36.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -36.08000183105469
-    MetaGroupID: 6
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 36.0
+    hp: 40.0
     id: 19229
+    kineticdamageresistancebonus: -36.08000183105469
     marketGroup: 1689
+    metagroupid: 6
+    metalevel: 13
     name: Pithum A-Type Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Pithum A-Type Thermal Dissipation Amplifier:
-    Cpu: 36.0
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -36.08000183105469
+    cpu: 36.0
+    hp: 40.0
     id: 19227
     marketGroup: 1688
+    metagroupid: 6
+    metalevel: 13
     name: Pithum A-Type Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -36.08000183105469
     volume: 5.0
   Pithum B-Type EM Ward Amplifier:
-    Cpu: 34.0
-    EmDamageResistanceBonus: -35.279998779296875
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 34.0
+    emdamageresistancebonus: -35.279998779296875
+    hp: 40.0
     id: 19223
     marketGroup: 1691
+    metagroupid: 6
+    metalevel: 12
     name: Pithum B-Type EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Pithum B-Type Explosive Deflection Amplifier:
-    Cpu: 34.0
-    ExplosiveDamageResistanceBonus: -35.279998779296875
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 34.0
+    explosivedamageresistancebonus: -35.279998779296875
+    hp: 40.0
     id: 19217
     marketGroup: 1690
+    metagroupid: 6
+    metalevel: 12
     name: Pithum B-Type Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Pithum B-Type Kinetic Deflection Amplifier:
-    Cpu: 34.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -35.279998779296875
-    MetaGroupID: 6
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 34.0
+    hp: 40.0
     id: 19221
+    kineticdamageresistancebonus: -35.279998779296875
     marketGroup: 1689
+    metagroupid: 6
+    metalevel: 12
     name: Pithum B-Type Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Pithum B-Type Thermal Dissipation Amplifier:
-    Cpu: 34.0
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -35.279998779296875
+    cpu: 34.0
+    hp: 40.0
     id: 19219
     marketGroup: 1688
+    metagroupid: 6
+    metalevel: 12
     name: Pithum B-Type Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -35.279998779296875
     volume: 5.0
   Pithum C-Type EM Ward Amplifier:
-    Cpu: 30.0
-    EmDamageResistanceBonus: -33.040000915527344
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 30.0
+    emdamageresistancebonus: -33.040000915527344
+    hp: 40.0
     id: 19215
     marketGroup: 1691
+    metagroupid: 6
+    metalevel: 11
     name: Pithum C-Type EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Pithum C-Type Explosive Deflection Amplifier:
-    Cpu: 30.0
-    ExplosiveDamageResistanceBonus: -33.040000915527344
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 30.0
+    explosivedamageresistancebonus: -33.040000915527344
+    hp: 40.0
     id: 19209
     marketGroup: 1690
+    metagroupid: 6
+    metalevel: 11
     name: Pithum C-Type Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Pithum C-Type Kinetic Deflection Amplifier:
-    Cpu: 30.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -33.040000915527344
-    MetaGroupID: 6
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 30.0
+    hp: 40.0
     id: 19213
+    kineticdamageresistancebonus: -33.040000915527344
     marketGroup: 1689
+    metagroupid: 6
+    metalevel: 11
     name: Pithum C-Type Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Pithum C-Type Thermal Dissipation Amplifier:
-    Cpu: 30.0
-    Hp: 40.0
-    MetaGroupID: 6
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -33.040000915527344
+    cpu: 30.0
+    hp: 40.0
     id: 19211
     marketGroup: 1688
+    metagroupid: 6
+    metalevel: 11
     name: Pithum C-Type Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -33.040000915527344
     volume: 5.0
   Republic Fleet EM Ward Amplifier:
-    Cpu: 26.0
-    EmDamageResistanceBonus: -30.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 26.0
+    emdamageresistancebonus: -30.0
+    hp: 40.0
     id: 15917
     marketGroup: 1691
+    metagroupid: 4
+    metalevel: 8
     name: Republic Fleet EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Republic Fleet Explosive Deflection Amplifier:
-    Cpu: 26.0
-    ExplosiveDamageResistanceBonus: -30.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 26.0
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
     id: 15923
     marketGroup: 1690
+    metagroupid: 4
+    metalevel: 8
     name: Republic Fleet Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Republic Fleet Kinetic Deflection Amplifier:
-    Cpu: 26.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -30.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 26.0
+    hp: 40.0
     id: 15919
+    kineticdamageresistancebonus: -30.0
     marketGroup: 1689
+    metagroupid: 4
+    metalevel: 8
     name: Republic Fleet Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Republic Fleet Thermal Dissipation Amplifier:
-    Cpu: 26.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -30.0
+    cpu: 26.0
+    hp: 40.0
     id: 15921
     marketGroup: 1688
+    metagroupid: 4
+    metalevel: 8
     name: Republic Fleet Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   Supplemental EM Ward Amplifier:
-    Cpu: 6.0
-    EmDamageResistanceBonus: -20.0
-    Hp: 40.0
-    Radius: 1.0
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 6.0
+    emdamageresistancebonus: -20.0
+    hp: 40.0
     id: 9562
     marketGroup: 1691
     name: Supplemental EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Supplemental Explosive Deflection Amplifier:
-    Cpu: 8.0
-    ExplosiveDamageResistanceBonus: -20.0
-    Hp: 40.0
-    Radius: 1.0
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 8.0
+    explosivedamageresistancebonus: -20.0
+    hp: 40.0
     id: 9574
     marketGroup: 1690
     name: Supplemental Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Supplemental Kinetic Deflection Amplifier:
-    Cpu: 7.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -20.0
-    Radius: 1.0
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 7.0
+    hp: 40.0
     id: 9570
+    kineticdamageresistancebonus: -20.0
     marketGroup: 1689
     name: Supplemental Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Supplemental Thermal Dissipation Amplifier:
-    Cpu: 9.0
-    Hp: 40.0
-    Radius: 1.0
-    RequiredSkill1: 3413
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -20.0
+    cpu: 9.0
+    hp: 40.0
     id: 9566
     marketGroup: 1688
     name: Supplemental Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3413
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -20.0
     volume: 5.0
   Thermal Dissipation Amplifier I:
-    Cpu: 25.0
-    Hp: 40.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -26.0
+    cpu: 25.0
+    hp: 40.0
     id: 2537
     marketGroup: 1688
     name: Thermal Dissipation Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -26.0
     volume: 5.0
   Thermal Dissipation Amplifier II:
-    Cpu: 30.0
-    Hp: 40.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 4
-    TechLevel: 2
-    ThermalDamageResistanceBonus: -30.0
+    cpu: 30.0
+    hp: 40.0
     id: 2539
     marketGroup: 1688
+    metalevel: 5
     name: Thermal Dissipation Amplifier II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    techlevel: 2
+    thermaldamageresistancebonus: -30.0
     volume: 5.0
   Thon's Modified EM Ward Amplifier:
-    Cpu: 34.0
-    EmDamageResistanceBonus: -35.279998779296875
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 34.0
+    emdamageresistancebonus: -35.279998779296875
+    hp: 40.0
     id: 14742
     marketGroup: 1691
+    metagroupid: 5
+    metalevel: 12
     name: Thon's Modified EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Thon's Modified Explosive Deflection Amplifier:
-    Cpu: 34.0
-    ExplosiveDamageResistanceBonus: -35.279998779296875
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 34.0
+    explosivedamageresistancebonus: -35.279998779296875
+    hp: 40.0
     id: 14718
     marketGroup: 1690
+    metagroupid: 5
+    metalevel: 12
     name: Thon's Modified Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Thon's Modified Kinetic Deflection Amplifier:
-    Cpu: 34.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -35.279998779296875
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 34.0
+    hp: 40.0
     id: 14734
+    kineticdamageresistancebonus: -35.279998779296875
     marketGroup: 1689
+    metagroupid: 5
+    metalevel: 12
     name: Thon's Modified Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Thon's Modified Thermal Dissipation Amplifier:
-    Cpu: 34.0
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -35.279998779296875
+    cpu: 34.0
+    hp: 40.0
     id: 14726
     marketGroup: 1688
+    metagroupid: 5
+    metalevel: 12
     name: Thon's Modified Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -35.279998779296875
     volume: 5.0
   Tobias' Modified EM Ward Amplifier:
-    Cpu: 29.0
-    EmDamageResistanceBonus: -35.279998779296875
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 29.0
+    emdamageresistancebonus: -35.279998779296875
+    hp: 40.0
     id: 14634
     marketGroup: 1691
+    metagroupid: 5
+    metalevel: 14
     name: Tobias' Modified EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Tobias' Modified Explosive Deflection Amplifier:
-    Cpu: 29.0
-    ExplosiveDamageResistanceBonus: -35.279998779296875
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 29.0
+    explosivedamageresistancebonus: -35.279998779296875
+    hp: 40.0
     id: 14610
     marketGroup: 1690
+    metagroupid: 5
+    metalevel: 14
     name: Tobias' Modified Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Tobias' Modified Kinetic Deflection Amplifier:
-    Cpu: 29.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -35.279998779296875
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 29.0
+    hp: 40.0
     id: 14626
+    kineticdamageresistancebonus: -35.279998779296875
     marketGroup: 1689
+    metagroupid: 5
+    metalevel: 14
     name: Tobias' Modified Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Tobias' Modified Thermal Dissipation Amplifier:
-    Cpu: 29.0
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -35.279998779296875
+    cpu: 29.0
+    hp: 40.0
     id: 14618
     marketGroup: 1688
+    metagroupid: 5
+    metalevel: 14
     name: Tobias' Modified Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -35.279998779296875
     volume: 5.0
   Upgraded EM Ward Amplifier I:
-    Cpu: 20.0
-    EmDamageResistanceBonus: -26.0
-    Hp: 40.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 20.0
+    emdamageresistancebonus: -26.0
+    hp: 40.0
     id: 9580
     marketGroup: 1691
+    metalevel: 1
     name: Upgraded EM Ward Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Upgraded Explosive Deflection Amplifier I:
-    Cpu: 20.0
-    ExplosiveDamageResistanceBonus: -26.0
-    Hp: 40.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 20.0
+    explosivedamageresistancebonus: -26.0
+    hp: 40.0
     id: 9556
     marketGroup: 1690
+    metalevel: 1
     name: Upgraded Explosive Deflection Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Upgraded Kinetic Deflection Amplifier I:
-    Cpu: 20.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -26.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 20.0
+    hp: 40.0
     id: 9582
+    kineticdamageresistancebonus: -26.0
     marketGroup: 1689
+    metalevel: 1
     name: Upgraded Kinetic Deflection Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Upgraded Thermal Dissipation Amplifier I:
-    Cpu: 20.0
-    Hp: 40.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -26.0
+    cpu: 20.0
+    hp: 40.0
     id: 9568
     marketGroup: 1688
+    metalevel: 1
     name: Upgraded Thermal Dissipation Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -26.0
     volume: 5.0
   Vepas' Modified EM Ward Amplifier:
-    Cpu: 36.0
-    EmDamageResistanceBonus: -36.08000183105469
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 36.0
+    emdamageresistancebonus: -36.08000183105469
+    hp: 40.0
     id: 14744
     marketGroup: 1691
+    metagroupid: 5
+    metalevel: 13
     name: Vepas' Modified EM Ward Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Vepas' Modified Explosive Deflection Amplifier:
-    Cpu: 36.0
-    ExplosiveDamageResistanceBonus: -36.08000183105469
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 36.0
+    explosivedamageresistancebonus: -36.08000183105469
+    hp: 40.0
     id: 14720
     marketGroup: 1690
+    metagroupid: 5
+    metalevel: 13
     name: Vepas' Modified Explosive Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Vepas' Modified Kinetic Deflection Amplifier:
-    Cpu: 36.0
-    Hp: 40.0
-    KineticDamageResistanceBonus: -36.08000183105469
-    MetaGroupID: 5
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 36.0
+    hp: 40.0
     id: 14736
+    kineticdamageresistancebonus: -36.08000183105469
     marketGroup: 1689
+    metagroupid: 5
+    metalevel: 13
     name: Vepas' Modified Kinetic Deflection Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Vepas' Modified Thermal Dissipation Amplifier:
-    Cpu: 36.0
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    ThermalDamageResistanceBonus: -36.08000183105469
+    cpu: 36.0
+    hp: 40.0
     id: 14728
     marketGroup: 1688
+    metagroupid: 5
+    metalevel: 13
     name: Vepas' Modified Thermal Dissipation Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3425
+    requiredskill1level: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -36.08000183105469
     volume: 5.0

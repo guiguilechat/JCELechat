@@ -1,52 +1,48 @@
 types:
   Standup Anticapital Missile Launcher I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Capacity: 15.0
-    ChargeGroup1: 1546
-    ChargeRate: 1
-    Cpu: 1500.0
-    Hp: 40.0
-    Mass: 500.0
-    Power: 150000
-    Radius: 1.0
-    ReloadTime: 10000.0
-    Slots: 1
-    Speed: 15000.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacity: 15.0
+    chargegroup1: 1546
+    chargerate: 1
+    cpu: 1500.0
+    hp: 40.0
     id: 35921
     marketGroup: 2230
-    mass: 500.0
     name: Standup Anticapital Missile Launcher I
     packagedVolume: 4000.0
     portionSize: 1
+    power: 150000
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    slots: 1
+    speed: 15000.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Anticapital Missile Launcher II:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Capacity: 20.0
-    ChargeGroup1: 1546
-    ChargeRate: 1
-    Cpu: 1800.0
-    Hp: 40.0
-    Mass: 500.0
-    MetaLevel: 5
-    Power: 180000
-    Radius: 1.0
-    ReloadTime: 10000.0
-    Slots: 1
-    Speed: 12000.0
-    StructureItemVisualFlag: 1
-    TechLevel: 2
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacity: 20.0
+    chargegroup1: 1546
+    chargerate: 1
+    cpu: 1800.0
+    hp: 40.0
     id: 47323
     marketGroup: 2230
-    mass: 500.0
+    metalevel: 5
     name: Standup Anticapital Missile Launcher II
     packagedVolume: 4000.0
     portionSize: 1
+    power: 180000
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    slots: 1
+    speed: 12000.0
+    structureitemvisualflag: 1
+    techlevel: 2
     volume: 4000.0

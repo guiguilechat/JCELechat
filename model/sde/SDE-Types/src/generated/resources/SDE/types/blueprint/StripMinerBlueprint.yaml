@@ -1,53 +1,53 @@
 types:
   Ice Harvester I Blueprint:
-    IndustryBlueprintRank: 7.0
-    Radius: 1.0
-    TechLevel: 1
     id: 16279
+    industryblueprintrank: 7.0
     marketGroup: 338
     name: Ice Harvester I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Ice Harvester II Blueprint:
-    IndustryBlueprintRank: 18.200000762939453
-    Radius: 1.0
-    TechLevel: 2
     id: 22230
+    industryblueprintrank: 18.200000762939453
     name: Ice Harvester II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Modulated Deep Core Strip Miner II Blueprint:
-    IndustryBlueprintRank: 18.200000762939453
-    Radius: 1.0
-    TechLevel: 2
     id: 24306
+    industryblueprintrank: 18.200000762939453
     name: Modulated Deep Core Strip Miner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Modulated Strip Miner II Blueprint:
-    IndustryBlueprintRank: 18.200000762939453
-    Radius: 1.0
-    TechLevel: 2
     id: 17913
+    industryblueprintrank: 18.200000762939453
     name: Modulated Strip Miner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Strip Miner I Blueprint:
-    IndustryBlueprintRank: 7.0
-    Radius: 1.0
-    TechLevel: 1
     id: 17483
+    industryblueprintrank: 7.0
     marketGroup: 338
     name: Strip Miner I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582

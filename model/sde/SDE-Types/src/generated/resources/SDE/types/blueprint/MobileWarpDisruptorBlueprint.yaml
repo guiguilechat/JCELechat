@@ -1,64 +1,64 @@
 types:
   Mobile Large Warp Disruptor I Blueprint:
-    IndustryBlueprintRank: 15.0
-    Radius: 1.0
-    TechLevel: 1
     id: 12301
+    industryblueprintrank: 15.0
     marketGroup: 407
     name: Mobile Large Warp Disruptor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Mobile Large Warp Disruptor II Blueprint:
-    IndustryBlueprintRank: 150.0
-    Radius: 1.0
-    TechLevel: 2
     id: 26889
+    industryblueprintrank: 150.0
     name: Mobile Large Warp Disruptor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Mobile Medium Warp Disruptor I Blueprint:
-    IndustryBlueprintRank: 10.0
-    Radius: 1.0
-    TechLevel: 1
     id: 12300
+    industryblueprintrank: 10.0
     marketGroup: 407
     name: Mobile Medium Warp Disruptor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Mobile Medium Warp Disruptor II Blueprint:
-    IndustryBlueprintRank: 100.0
-    Radius: 1.0
-    TechLevel: 2
     id: 26891
+    industryblueprintrank: 100.0
     name: Mobile Medium Warp Disruptor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Mobile Small Warp Disruptor I Blueprint:
-    IndustryBlueprintRank: 5.0
-    Radius: 1.0
-    TechLevel: 1
     id: 12297
+    industryblueprintrank: 5.0
     marketGroup: 407
     name: Mobile Small Warp Disruptor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Mobile Small Warp Disruptor II Blueprint:
-    IndustryBlueprintRank: 50.0
-    Radius: 1.0
-    TechLevel: 2
     id: 26893
+    industryblueprintrank: 50.0
     name: Mobile Small Warp Disruptor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,28 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerSignatureResolution;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCapacitorLevelModifierLarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCapacitorLevelModifierMedium;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCapacitorLevelModifierSmall;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffEffectiveness;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,98 +48,98 @@ public class StructureEnergyNeutralizer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup02;
+    public int canfitshipgroup02;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup03;
+    public int canfitshipgroup03;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * An amount to modify the power of the target by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EnergyNeutralizerAmount;
+    public double energyneutralizeramount;
     /**
      * Signature Resolution of Energy Neutralizer
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EnergyNeutralizerSignatureResolution;
+    public int energyneutralizersignatureresolution;
     /**
      * modifier to an entity capacitor level to represent energy drain for large ships
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierLarge;
+    public double entitycapacitorlevelmodifierlarge;
     /**
      * modifier to an entity capacitor level to represent energy drain for medium ships
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierMedium;
+    public double entitycapacitorlevelmodifiermedium;
     /**
      * modifier to an entity capacitor level to represent energy drain for small ships
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntityCapacitorLevelModifierSmall;
+    public double entitycapacitorlevelmodifiersmall;
     /**
      * distance from maximum range at which effectiveness has fallen by half
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int FalloffEffectiveness;
+    public int falloffeffectiveness;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -129,7 +154,7 @@ public class StructureEnergyNeutralizer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -137,14 +162,14 @@ public class StructureEnergyNeutralizer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -152,7 +177,8 @@ public class StructureEnergyNeutralizer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EnergyNeutralizerAmount.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, EntityCapacitorLevelModifierSmall.INSTANCE, EntityCapacitorLevelModifierMedium.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, EntityCapacitorLevelModifierLarge.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, EnergyNeutralizerSignatureResolution.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, MetaLevel.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureEnergyNeutralizer.MetaGroup METAGROUP = new StructureEnergyNeutralizer.MetaGroup();
 
     @Override
@@ -160,81 +186,86 @@ public class StructureEnergyNeutralizer
         switch (attribute.getId()) {
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  1299 :
             {
-                return CanFitShipGroup02;
+                return canfitshipgroup02;
             }
             case  1300 :
             {
-                return CanFitShipGroup03;
+                return canfitshipgroup03;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  97 :
             {
-                return EnergyNeutralizerAmount;
+                return energyneutralizeramount;
             }
             case  2451 :
             {
-                return EnergyNeutralizerSignatureResolution;
+                return energyneutralizersignatureresolution;
             }
             case  1897 :
             {
-                return EntityCapacitorLevelModifierLarge;
+                return entitycapacitorlevelmodifierlarge;
             }
             case  1896 :
             {
-                return EntityCapacitorLevelModifierMedium;
+                return entitycapacitorlevelmodifiermedium;
             }
             case  1895 :
             {
-                return EntityCapacitorLevelModifierSmall;
+                return entitycapacitorlevelmodifiersmall;
             }
             case  2044 :
             {
-                return FalloffEffectiveness;
+                return falloffeffectiveness;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

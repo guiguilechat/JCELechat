@@ -4,6 +4,8 @@ import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.SpecialEditionAssets;
@@ -12,7 +14,13 @@ import org.yaml.snakeyaml.Yaml;
 public class TournamentCardsNewEdenOpenYC114
     extends SpecialEditionAssets
 {
+    public static final Set<Attribute> ATTRIBUTES = Collections.emptySet();
     public static final TournamentCardsNewEdenOpenYC114 .MetaGroup METAGROUP = new TournamentCardsNewEdenOpenYC114 .MetaGroup();
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
+    }
 
     @Override
     public IMetaGroup<TournamentCardsNewEdenOpenYC114> getGroup() {

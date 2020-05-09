@@ -1,187 +1,169 @@
 types:
   Banidine:
-    AsteroidMaxRadius: 16255
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 4000.0
-    OreBasicType: 1230
-    Radius: 1.0
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28617
-    mass: 4000.0
     name: Banidine
+    orebasictype: 1230
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12195
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   Compressed Concentrated Veldspar:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 4000.0
-    OreBasicType: 1230
-    Radius: 1.0
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28430
     marketGroup: 518
-    mass: 4000.0
     name: Compressed Concentrated Veldspar
+    orebasictype: 1230
     packagedVolume: 0.15000000596046448
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12195
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Compressed Dense Veldspar:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 4000.0
-    OreBasicType: 1230
-    Radius: 1.0
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28431
     marketGroup: 518
-    mass: 4000.0
     name: Compressed Dense Veldspar
+    orebasictype: 1230
     packagedVolume: 0.15000000596046448
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12195
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Compressed Stable Veldspar:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 4000.0
-    OreBasicType: 46689
-    Radius: 1.0
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 46705
     marketGroup: 518
-    mass: 4000.0
     name: Compressed Stable Veldspar
+    orebasictype: 46689
     packagedVolume: 0.15000000596046448
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12195
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Compressed Veldspar:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 4000.0
-    OreBasicType: 1230
-    Radius: 1.0
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28432
     marketGroup: 518
-    mass: 4000.0
     name: Compressed Veldspar
+    orebasictype: 1230
     packagedVolume: 0.15000000596046448
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12195
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Concentrated Veldspar:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28430
-    Mass: 4000.0
-    OreBasicType: 1230
-    Radius: 1.0
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    compressionquantityneeded: 100
+    compressiontypeid: 28430
     id: 17470
     marketGroup: 518
-    mass: 4000.0
     name: Concentrated Veldspar
+    orebasictype: 1230
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12195
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   Dense Veldspar:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28431
-    Mass: 4000.0
-    OreBasicType: 1230
-    Radius: 1.0
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    compressionquantityneeded: 100
+    compressiontypeid: 28431
     id: 17471
     marketGroup: 518
-    mass: 4000.0
     name: Dense Veldspar
+    orebasictype: 1230
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12195
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   Stable Veldspar:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 0.014999999664723873
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 46705
-    Mass: 4000.0
-    OreBasicType: 46689
-    Radius: 1.0
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.014999999664723873
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 46705
     id: 46689
     marketGroup: 518
-    mass: 4000.0
     name: Stable Veldspar
+    orebasictype: 46689
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12195
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.10000000149011612
   Veldspar:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28432
-    Mass: 4000.0
-    OreBasicType: 1230
-    Radius: 1.0
-    ReprocessingSkillType: 12195
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    compressionquantityneeded: 100
+    compressiontypeid: 28432
     id: 1230
     marketGroup: 518
-    mass: 4000.0
     name: Veldspar
+    orebasictype: 1230
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12195
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.10000000149011612

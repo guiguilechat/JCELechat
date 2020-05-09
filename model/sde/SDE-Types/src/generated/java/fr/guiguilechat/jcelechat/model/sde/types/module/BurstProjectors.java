@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,59 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSizeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanCloak;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowDocking;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOEDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOERange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOEShape;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayAOESignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayRangeIsFixed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DoomsdayWarningDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DurationECMJammerBurstProjector;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DurationSensorDampeningBurstProjector;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DurationTargetIlluminationBurstProjector;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DurationWeaponDisruptionBurstProjector;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelayBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsPointTargeted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileVelocityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteResistanceID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,98 +79,98 @@ public class BurstProjectors
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double AoeCloudSizeBonus;
+    public double aoecloudsizebonus;
     /**
      * Increases velocity of missile explosion
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double AoeVelocityBonus;
+    public double aoevelocitybonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int CanCloak;
+    public int cancloak;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionQuantity;
+    public int consumptionquantity;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionType;
+    public int consumptiontype;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowDocking;
+    public int disallowdocking;
     /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowEarlyDeactivation;
+    public int disallowearlydeactivation;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowInEmpireSpace;
+    public int disallowinempirespace;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowRepeatingActivation;
+    public int disallowrepeatingactivation;
     /**
      * Duration of the AOE Effect
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayAOEDuration;
+    public int doomsdayaoeduration;
     /**
      * Radius of the AOE Effect
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayAOERange;
+    public int doomsdayaoerange;
     /**
      *  1: Fixed Cylinder (Beam)
      *  2: Cylinder moving in an arc (Slash)
@@ -124,126 +180,126 @@ public class BurstProjectors
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayAOEShape;
+    public int doomsdayaoeshape;
     /**
      * Signature Radius of the AOE Effect
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayAOESignatureRadius;
+    public int doomsdayaoesignatureradius;
     /**
      * Determines whether the maxRange attribute is a fixed length or a maximum length of the effect
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayRangeIsFixed;
+    public int doomsdayrangeisfixed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DoomsdayWarningDuration;
+    public int doomsdaywarningduration;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DurationECMJammerBurstProjector;
+    public int durationecmjammerburstprojector;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DurationSensorDampeningBurstProjector;
+    public int durationsensordampeningburstprojector;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DurationTargetIlluminationBurstProjector;
+    public int durationtargetilluminationburstprojector;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DurationWeaponDisruptionBurstProjector;
+    public int durationweapondisruptionburstprojector;
     /**
      * An amount to modify the power of the target by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EnergyNeutralizerAmount;
+    public double energyneutralizeramount;
     /**
      * Autogenerated skill attribute, explosionDelayBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ExplosionDelayBonus;
+    public double explosiondelaybonus;
     /**
      * Autogenerated skill attribute, falloffBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double FalloffBonus;
+    public double falloffbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int IsPointTargeted;
+    public int ispointtargeted;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * Autogenerated skill attribute, maxRangeBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MaxRangeBonus;
+    public double maxrangebonus;
     /**
      * Bonus to Max Targeting Range
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MaxTargetRangeBonus;
+    public double maxtargetrangebonus;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -251,105 +307,105 @@ public class BurstProjectors
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * Autogenerated skill attribute, missileVelocityBonus 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MissileVelocityBonus;
+    public double missilevelocitybonus;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RemoteResistanceID;
+    public int remoteresistanceid;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * +/- modifier to the gravimetric strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrengthBonus;
+    public double scangravimetricstrengthbonus;
     /**
      * +/- modifier to the ladar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanLadarStrengthBonus;
+    public double scanladarstrengthbonus;
     /**
      * +/- modifier to the magnetometric strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanMagnetometricStrengthBonus;
+    public double scanmagnetometricstrengthbonus;
     /**
      * +/- modifier to the radar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrengthBonus;
+    public double scanradarstrengthbonus;
     /**
      * Bonus for scan resolution
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanResolutionBonus;
+    public double scanresolutionbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeModeWarpStatus;
+    public int siegemodewarpstatus;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(100.0)
-    public double SignatureRadius;
+    public double signatureradius;
     /**
      * Autogenerated skill attribute, signatureRadiusBonus
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SignatureRadiusBonus;
+    public double signatureradiusbonus;
     /**
      * Factor by which topspeed increases.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double SpeedFactor;
+    public double speedfactor;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -357,14 +413,15 @@ public class BurstProjectors
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Tracking Speed Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double TrackingSpeedBonus;
+    public double trackingspeedbonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, Power.INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SignatureRadiusBonus.INSTANCE, DisallowDocking.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, MaxTargetRangeBonus.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, ConsumptionType.INSTANCE, Duration.INSTANCE, ConsumptionQuantity.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, SiegeModeWarpStatus.INSTANCE, ExplosionDelayBonus.INSTANCE, DoomsdayWarningDuration.INSTANCE, RemoteResistanceID.INSTANCE, IsPointTargeted.INSTANCE, DurationWeaponDisruptionBurstProjector.INSTANCE, FalloffBonus.INSTANCE, DurationECMJammerBurstProjector.INSTANCE, DurationSensorDampeningBurstProjector.INSTANCE, MaxRangeBonus.INSTANCE, DurationTargetIlluminationBurstProjector.INSTANCE, EnergyNeutralizerAmount.INSTANCE, DoomsdayAOERange.INSTANCE, DoomsdayAOEDuration.INSTANCE, DoomsdayAOESignatureRadius.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevel.INSTANCE, MaxGroupActive.INSTANCE, DoomsdayAOEShape.INSTANCE, DoomsdayRangeIsFixed.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final BurstProjectors.MetaGroup METAGROUP = new BurstProjectors.MetaGroup();
 
     @Override
@@ -372,205 +429,210 @@ public class BurstProjectors
         switch (attribute.getId()) {
             case  848 :
             {
-                return AoeCloudSizeBonus;
+                return aoecloudsizebonus;
             }
             case  847 :
             {
-                return AoeVelocityBonus;
+                return aoevelocitybonus;
             }
             case  1163 :
             {
-                return CanCloak;
+                return cancloak;
             }
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  714 :
             {
-                return ConsumptionQuantity;
+                return consumptionquantity;
             }
             case  713 :
             {
-                return ConsumptionType;
+                return consumptiontype;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  2354 :
             {
-                return DisallowDocking;
+                return disallowdocking;
             }
             case  906 :
             {
-                return DisallowEarlyDeactivation;
+                return disallowearlydeactivation;
             }
             case  1074 :
             {
-                return DisallowInEmpireSpace;
+                return disallowinempirespace;
             }
             case  1014 :
             {
-                return DisallowRepeatingActivation;
+                return disallowrepeatingactivation;
             }
             case  2280 :
             {
-                return DoomsdayAOEDuration;
+                return doomsdayaoeduration;
             }
             case  2279 :
             {
-                return DoomsdayAOERange;
+                return doomsdayaoerange;
             }
             case  2429 :
             {
-                return DoomsdayAOEShape;
+                return doomsdayaoeshape;
             }
             case  2281 :
             {
-                return DoomsdayAOESignatureRadius;
+                return doomsdayaoesignatureradius;
             }
             case  2430 :
             {
-                return DoomsdayRangeIsFixed;
+                return doomsdayrangeisfixed;
             }
             case  2262 :
             {
-                return DoomsdayWarningDuration;
+                return doomsdaywarningduration;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  2398 :
             {
-                return DurationECMJammerBurstProjector;
+                return durationecmjammerburstprojector;
             }
             case  2399 :
             {
-                return DurationSensorDampeningBurstProjector;
+                return durationsensordampeningburstprojector;
             }
             case  2400 :
             {
-                return DurationTargetIlluminationBurstProjector;
+                return durationtargetilluminationburstprojector;
             }
             case  2397 :
             {
-                return DurationWeaponDisruptionBurstProjector;
+                return durationweapondisruptionburstprojector;
             }
             case  97 :
             {
-                return EnergyNeutralizerAmount;
+                return energyneutralizeramount;
             }
             case  596 :
             {
-                return ExplosionDelayBonus;
+                return explosiondelaybonus;
             }
             case  349 :
             {
-                return FalloffBonus;
+                return falloffbonus;
             }
             case  2269 :
             {
-                return IsPointTargeted;
+                return ispointtargeted;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  351 :
             {
-                return MaxRangeBonus;
+                return maxrangebonus;
             }
             case  309 :
             {
-                return MaxTargetRangeBonus;
+                return maxtargetrangebonus;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  547 :
             {
-                return MissileVelocityBonus;
+                return missilevelocitybonus;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  2138 :
             {
-                return RemoteResistanceID;
+                return remoteresistanceid;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  238 :
             {
-                return ScanGravimetricStrengthBonus;
+                return scangravimetricstrengthbonus;
             }
             case  239 :
             {
-                return ScanLadarStrengthBonus;
+                return scanladarstrengthbonus;
             }
             case  240 :
             {
-                return ScanMagnetometricStrengthBonus;
+                return scanmagnetometricstrengthbonus;
             }
             case  241 :
             {
-                return ScanRadarStrengthBonus;
+                return scanradarstrengthbonus;
             }
             case  566 :
             {
-                return ScanResolutionBonus;
+                return scanresolutionbonus;
             }
             case  852 :
             {
-                return SiegeModeWarpStatus;
+                return siegemodewarpstatus;
             }
             case  552 :
             {
-                return SignatureRadius;
+                return signatureradius;
             }
             case  554 :
             {
-                return SignatureRadiusBonus;
+                return signatureradiusbonus;
             }
             case  20 :
             {
-                return SpeedFactor;
+                return speedfactor;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  767 :
             {
-                return TrackingSpeedBonus;
+                return trackingspeedbonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

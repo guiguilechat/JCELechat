@@ -1,97 +1,89 @@
 types:
   Melted Snowball:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 5.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: -10.0
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 33569
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Melted Snowball
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 5.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: -10.0
     volume: 0.10000000149011612
   Melted Snowball CVII:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 5.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: -10.0
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 19658
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Melted Snowball CVII
     packagedVolume: 1.0
     portionSize: 100
     published: true
+    radius: 5.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: -10.0
     volume: 1.0
   Melted Snowball CX:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 5.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: -10.0
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 30222
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Melted Snowball CX
     packagedVolume: 1.0
     portionSize: 100
     published: true
+    radius: 5.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: -10.0
     volume: 1.0
   Melted Snowball CXIV:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 5.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: -10.0
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 30221
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Melted Snowball CXIV
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 5.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: -10.0
     volume: 0.10000000149011612

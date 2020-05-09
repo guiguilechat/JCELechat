@@ -1,18 +1,35 @@
 package fr.guiguilechat.jcelechat.model.sde.types.asteroid;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReprocessingSkillType;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 import org.yaml.snakeyaml.Yaml;
 
 public class Bezdnacine
     extends Asteroid
 {
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, ReprocessingSkillType.INSTANCE, AsteroidMetaLevel.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Bezdnacine.MetaGroup METAGROUP = new Bezdnacine.MetaGroup();
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
+    }
 
     @Override
     public IMetaGroup<Bezdnacine> getGroup() {

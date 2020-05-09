@@ -1,31 +1,31 @@
 types:
   Berserker SW-900 Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 23537
+    industryblueprintrank: 3.0
     marketGroup: 1029
     name: Berserker SW-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Valkyrie SW-600 Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 23730
+    industryblueprintrank: 2.0
     marketGroup: 1029
     name: Valkyrie SW-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Warrior SW-300 Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 23732
+    industryblueprintrank: 1.0
     marketGroup: 1029
     name: Warrior SW-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

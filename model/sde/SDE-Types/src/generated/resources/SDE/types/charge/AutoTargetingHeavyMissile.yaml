@@ -1,261 +1,245 @@
 types:
   Caldari Navy Scourge Auto-Targeting Heavy Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 140
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    ExplosionDelay: 6500
-    Hp: 70.0
-    KineticDamage: 122.0
-    LauncherGroup: 510
-    Mass: 1000.0
-    MaxFOFTargetRange: 150000
-    MaxVelocity: 4300.0
-    MetaGroupID: 4
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81.0
+    detonationrange: 35
+    explosiondelay: 6500
+    hp: 70.0
     id: 27489
+    kineticdamage: 122.0
+    launchergroup: 510
     marketGroup: 1192
-    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
+    metagroupid: 4
     name: Caldari Navy Scourge Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.029999999329447746
   Federation Navy Inferno Auto-Targeting Heavy Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 140
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    ExplosionDelay: 6500
-    Hp: 70.0
-    LauncherGroup: 510
-    Mass: 1000.0
-    MaxFOFTargetRange: 150000
-    MaxVelocity: 4300.0
-    MetaGroupID: 4
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: 122.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81.0
+    detonationrange: 35
+    explosiondelay: 6500
+    hp: 70.0
     id: 27495
+    launchergroup: 510
     marketGroup: 1192
-    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
+    metagroupid: 4
     name: Federation Navy Inferno Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 122.0
     volume: 0.029999999329447746
   Imperial Navy Mjolnir Auto-Targeting Heavy Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 140
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    EmDamage: 122.0
-    ExplosionDelay: 6500
-    Hp: 70.0
-    LauncherGroup: 510
-    Mass: 1000.0
-    MaxFOFTargetRange: 150000
-    MaxVelocity: 4300.0
-    MetaGroupID: 4
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81.0
+    detonationrange: 35
+    emdamage: 122.0
+    explosiondelay: 6500
+    hp: 70.0
     id: 27483
+    launchergroup: 510
     marketGroup: 1192
-    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
+    metagroupid: 4
     name: Imperial Navy Mjolnir Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.029999999329447746
   Inferno Auto-Targeting Heavy Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 140
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    ExplosionDelay: 6500
-    Hp: 70.0
-    LauncherGroup: 510
-    Mass: 1000.0
-    MaxFOFTargetRange: 150000
-    MaxVelocity: 4300.0
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: 107.0
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81.0
+    detonationrange: 35
+    explosiondelay: 6500
+    hp: 70.0
     id: 1824
+    launchergroup: 510
     marketGroup: 914
-    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
     name: Inferno Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: 107.0
     volume: 0.029999999329447746
   Mjolnir Auto-Targeting Heavy Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 140
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    EmDamage: 107.0
-    ExplosionDelay: 6500
-    Hp: 70.0
-    LauncherGroup: 510
-    Mass: 1000.0
-    MaxFOFTargetRange: 150000
-    MaxVelocity: 4300.0
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81.0
+    detonationrange: 35
+    emdamage: 107.0
+    explosiondelay: 6500
+    hp: 70.0
     id: 1820
+    launchergroup: 510
     marketGroup: 914
-    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
     name: Mjolnir Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.029999999329447746
   Nova Auto-Targeting Heavy Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 140
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    ExplosionDelay: 6500
-    ExplosiveDamage: 107.0
-    Hp: 70.0
-    LauncherGroup: 510
-    Mass: 1000.0
-    MaxFOFTargetRange: 150000
-    MaxVelocity: 4300.0
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81.0
+    detonationrange: 35
+    explosiondelay: 6500
+    explosivedamage: 107.0
+    hp: 70.0
     id: 1822
+    launchergroup: 510
     marketGroup: 914
-    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
     name: Nova Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.029999999329447746
   Republic Fleet Nova Auto-Targeting Heavy Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 140
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    ExplosionDelay: 6500
-    ExplosiveDamage: 122.0
-    Hp: 70.0
-    LauncherGroup: 510
-    Mass: 1000.0
-    MaxFOFTargetRange: 150000
-    MaxVelocity: 4300.0
-    MetaGroupID: 4
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81.0
+    detonationrange: 35
+    explosiondelay: 6500
+    explosivedamage: 122.0
+    hp: 70.0
     id: 27501
+    launchergroup: 510
     marketGroup: 1192
-    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
+    metagroupid: 4
     name: Republic Fleet Nova Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.029999999329447746
   Scourge Auto-Targeting Heavy Missile I:
-    Agility: 1.4449800073634833E-4
-    AimedLaunch: 1
-    AoeCloudSize: 140
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 1500
-    AoeVelocity: 81.0
-    DetonationRange: 35
-    ExplosionDelay: 6500
-    Hp: 70.0
-    KineticDamage: 107.0
-    LauncherGroup: 510
-    Mass: 1000.0
-    MaxFOFTargetRange: 150000
-    MaxVelocity: 4300.0
-    Radius: 300.0
-    RequiredSkill1: 3322
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 1
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 1.4449800073634833E-4
+    aimedlaunch: 1
+    aoecloudsize: 140
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 1500
+    aoevelocity: 81.0
+    detonationrange: 35
+    explosiondelay: 6500
+    hp: 70.0
     id: 1818
+    kineticdamage: 107.0
+    launchergroup: 510
     marketGroup: 914
-    mass: 1000.0
+    maxfoftargetrange: 150000
+    maxvelocity: 4300.0
     name: Scourge Auto-Targeting Heavy Missile I
     packagedVolume: 0.029999999329447746
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 3322
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 1
+    requiredskill3: 3319
+    requiredskill3level: 1
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.029999999329447746

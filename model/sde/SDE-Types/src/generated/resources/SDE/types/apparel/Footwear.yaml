@@ -1,969 +1,809 @@
 types:
   Boots.ini:
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33064
     marketGroup: 1662
-    mass: 0.5
     name: Boots.ini
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Ascend' Boots (brown/gold):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33780
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Ascend' Boots (brown/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Ascend' Boots (grey/silver):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33778
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Ascend' Boots (grey/silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Ascend' Boots (maroon/black):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33779
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Ascend' Boots (maroon/black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Ascend' Boots (royal):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33777
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Ascend' Boots (royal)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Ascend' Boots (white/gold):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33776
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Ascend' Boots (white/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Fatal Elite' Combat Boots:
-    Gender: 2
+    gender: 2
     id: 54309
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Fatal Elite' Combat Boots
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shoes (blue):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 36505
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Hephaestus' Shoes (blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shoes (cyan):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 36508
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Hephaestus' Shoes (cyan)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shoes (desert):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 36507
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Hephaestus' Shoes (desert)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shoes (gray/orange):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 36510
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Hephaestus' Shoes (gray/orange)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shoes (green):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 36509
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Hephaestus' Shoes (green)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Hephaestus' Shoes (white/red):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 36506
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Hephaestus' Shoes (white/red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Lockstep' Boots:
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4008
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Lockstep' Boots
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Lockstep' Boots (true black):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4172
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Lockstep' Boots (true black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Lockstep' Boots (worn brown):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4173
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Lockstep' Boots (worn brown)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'March' Boots (Black):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33775
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'March' Boots (Black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'March' Boots (Blue):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33774
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'March' Boots (Blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'March' Boots (Brown):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33773
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'March' Boots (Brown)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'March' Boots (Graphite):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33772
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'March' Boots (Graphite)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'March' Boots (White):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33771
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'March' Boots (White)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Outlaw' Boots (Blood Raiders):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34360
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Outlaw' Boots (Blood Raiders)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Outlaw' Boots (Guristas):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34362
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Outlaw' Boots (Guristas)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Outlaw' Boots (Sansha's Nation):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34361
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Outlaw' Boots (Sansha's Nation)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Precision' Boots:
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 3966
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Precision' Boots
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Precision' Boots (brown):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4174
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Precision' Boots (brown)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Precision' Boots (gray):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4175
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Precision' Boots (gray)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Precision' Boots (tan):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4176
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Precision' Boots (tan)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Trench' Boots:
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4001
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Trench' Boots
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Trench' Boots (brown):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4177
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Trench' Boots (brown)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Trench' Boots (gray):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4178
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Trench' Boots (gray)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Trench' Boots (tan):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4179
     marketGroup: 1400
-    mass: 0.5
     name: Men's 'Trench' Boots (tan)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Corsair' Heels (beige):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33723
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Corsair' Heels (beige)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Corsair' Heels (black):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33720
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Corsair' Heels (black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Corsair' Heels (blue):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33721
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Corsair' Heels (blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Corsair' Heels (brown):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33722
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Corsair' Heels (brown)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Corsair' Heels (gray):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33724
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Corsair' Heels (gray)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Corsair' Heels (red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33725
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Corsair' Heels (red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Boots (Black/Gold):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34080
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Eternity' Boots (Black/Gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Boots (Black/Red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34086
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Eternity' Boots (Black/Red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Boots (Olive):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34083
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Eternity' Boots (Olive)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Boots (White):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34088
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Eternity' Boots (White)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Boots (Yellow):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34089
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Eternity' Boots (Yellow)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Fatal Elite' Combat Boots:
-    Gender: 2
+    gender: 2
     id: 54303
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Fatal Elite' Combat Boots
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Greave' Boots (black/gold):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4127
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Greave' Boots (black/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Greave' Boots (brown):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4128
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Greave' Boots (brown)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Greave' Boots (matte brown):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4129
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Greave' Boots (matte brown)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Greave' Boots (matte gray):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4130
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Greave' Boots (matte gray)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Greave' Boots (red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4131
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Greave' Boots (red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Greave' Knee-Boots:
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4003
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Greave' Knee-Boots
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shoes (blue):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 36511
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Hephaestus' Shoes (blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shoes (cyan):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 36514
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Hephaestus' Shoes (cyan)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shoes (desert):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 36513
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Hephaestus' Shoes (desert)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shoes (gray/orange):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 36516
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Hephaestus' Shoes (gray/orange)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shoes (green):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 36515
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Hephaestus' Shoes (green)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Hephaestus' Shoes (white/red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 36512
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Hephaestus' Shoes (white/red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels:
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4002
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (black/gold):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4116
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (black/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (black/red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4117
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (black/red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (blue):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4118
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (gold):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4119
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (graphite/white):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4120
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (graphite/white)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (green/black):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4121
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (green/black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (matte black):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4122
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (matte black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (matte red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4123
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (matte red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4124
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (silver):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4125
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Minima' Heels (turquoise):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4126
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Minima' Heels (turquoise)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mitral' Boots (black):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33714
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mitral' Boots (black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mitral' Boots (bronze):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33716
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mitral' Boots (bronze)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mitral' Boots (cream):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33717
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mitral' Boots (cream)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mitral' Boots (dark blue):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33718
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mitral' Boots (dark blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mitral' Boots (dark red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33719
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mitral' Boots (dark red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mystrioso' Boots:
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4004
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mystrioso' Boots
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mystrioso' Boots (black/white):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4132
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mystrioso' Boots (black/white)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mystrioso' Boots (brown/black):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4133
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mystrioso' Boots (brown/black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mystrioso' Boots (red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4134
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mystrioso' Boots (red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mystrioso' Boots (white/black):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4135
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Mystrioso' Boots (white/black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Outlaw' Boots (Blood Raiders):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34363
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Outlaw' Boots (Blood Raiders)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Outlaw' Boots (Guristas):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34365
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Outlaw' Boots (Guristas)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Outlaw' Boots (Sansha's Nation):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34364
     marketGroup: 1404
-    mass: 0.5
     name: Women's 'Outlaw' Boots (Sansha's Nation)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612

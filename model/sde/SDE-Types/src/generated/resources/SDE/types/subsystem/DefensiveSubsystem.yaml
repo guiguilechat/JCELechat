@@ -1,358 +1,334 @@
 types:
   Legion Defensive - Augmented Plating:
-    ArmorHPBonusAdd: 1000
-    Capacity: 300.0
-    CovertCloakCPUPenalty: 10000
-    CovertOpsAndReconOpsCloakModuleDelay: 30000
-    FitsToShipType: 29986
-    Hp: 40.0
-    LowSlotModifier: 3
-    Mass: 1400000.0
-    MedSlotModifier: 1
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30532
-    RequiredSkill1Level: 1
-    SignatureRadius: 10.0
-    SubSystemSlot: 126
-    SubsystemBonusAmarrDefensive: 5.0
-    SubsystemBonusAmarrDefensive2: 5
-    TechLevel: 3
+    armorhpbonusadd: 1000
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29986
+    hp: 40.0
     id: 45587
+    lowslotmodifier: 3
     marketGroup: 1126
-    mass: 1400000.0
+    medslotmodifier: 1
+    metalevel: 1
     name: Legion Defensive - Augmented Plating
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30532
+    requiredskill1level: 1
+    signatureradius: 10.0
+    subsystembonusamarrdefensive: 5.0
+    subsystembonusamarrdefensive2: 5
+    subsystemslot: 126
+    techlevel: 3
     volume: 40.0
   Legion Defensive - Covert Reconfiguration:
-    CapacitorCapacity: 200.0
-    Capacity: 300.0
-    CargoCapacityAdd: 30
-    CovertOpsAndReconOpsCloakModuleDelay: 5000
-    FitsToShipType: 29986
-    HiSlotModifier: 1
-    Hp: 40.0
-    JumpHarmonicsModifier: 5
-    LowSlotModifier: 2
-    Mass: 1400000.0
-    MedSlotModifier: 1
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30532
-    RequiredSkill1Level: 1
-    ShieldCapacity: 300.0
-    SignatureRadius: 5.0
-    StructureHPBonusAdd: 600
-    SubSystemSlot: 126
-    SubsystemBonusAmarrDefensive: 7.5
-    SubsystemBonusAmarrDefensive2: 10
-    SubsystemBonusAmarrDefensive3: 7.5
-    TechLevel: 3
-    VirusStrengthBonus: 10
+    capacitorcapacity: 200.0
+    capacity: 300.0
+    cargocapacityadd: 30
+    covertopsandreconopscloakmoduledelay: 5000
+    fitstoshiptype: 29986
+    hislotmodifier: 1
+    hp: 40.0
     id: 45586
+    jumpharmonicsmodifier: 5
+    lowslotmodifier: 2
     marketGroup: 1126
-    mass: 1400000.0
+    medslotmodifier: 1
+    metalevel: 1
     name: Legion Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30532
+    requiredskill1level: 1
+    shieldcapacity: 300.0
+    signatureradius: 5.0
+    structurehpbonusadd: 600
+    subsystembonusamarrdefensive: 7.5
+    subsystembonusamarrdefensive2: 10
+    subsystembonusamarrdefensive3: 7.5
+    subsystemslot: 126
+    techlevel: 3
+    virusstrengthbonus: 10
     volume: 40.0
   Legion Defensive - Nanobot Injector:
-    ArmorHPBonusAdd: 500
-    CapacitorCapacity: 300.0
-    Capacity: 300.0
-    CovertCloakCPUPenalty: 10000
-    CovertOpsAndReconOpsCloakModuleDelay: 30000
-    FitsToShipType: 29986
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1400000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30532
-    RequiredSkill1Level: 1
-    ShieldCapacity: 100.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 126
-    SubsystemBonusAmarrDefensive: 10.0
-    SubsystemBonusAmarrDefensive3: 10.0
-    TechLevel: 3
+    armorhpbonusadd: 500
+    capacitorcapacity: 300.0
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29986
+    hp: 40.0
     id: 45588
+    lowslotmodifier: 2
     marketGroup: 1126
-    mass: 1400000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Legion Defensive - Nanobot Injector
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30532
+    requiredskill1level: 1
+    shieldcapacity: 100.0
+    signatureradius: 100.0
+    subsystembonusamarrdefensive: 10.0
+    subsystembonusamarrdefensive3: 10.0
+    subsystemslot: 126
+    techlevel: 3
     volume: 40.0
   Loki Defensive - Adaptive Defense Node:
-    ArmorHPBonusAdd: 300
-    CapacitorCapacity: 300.0
-    Capacity: 300.0
-    CovertCloakCPUPenalty: 10000
-    CovertOpsAndReconOpsCloakModuleDelay: 30000
-    FitsToShipType: 29990
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1400000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30545
-    RequiredSkill1Level: 1
-    ShieldCapacity: 300.0
-    SignatureRadius: 100.0
-    StructureHPBonusAdd: 100
-    SubSystemSlot: 126
-    SubsystemBonusMinmatarDefensive: 10.0
-    SubsystemBonusMinmatarDefensive2: 10
-    SubsystemBonusMinmatarDefensive3: 10.0
-    TechLevel: 3
+    armorhpbonusadd: 300
+    capacitorcapacity: 300.0
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29990
+    hp: 40.0
     id: 45597
+    lowslotmodifier: 2
     marketGroup: 1128
-    mass: 1400000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Loki Defensive - Adaptive Defense Node
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30545
+    requiredskill1level: 1
+    shieldcapacity: 300.0
+    signatureradius: 100.0
+    structurehpbonusadd: 100
+    subsystembonusminmatardefensive: 10.0
+    subsystembonusminmatardefensive2: 10
+    subsystembonusminmatardefensive3: 10.0
+    subsystemslot: 126
+    techlevel: 3
     volume: 40.0
   Loki Defensive - Augmented Durability:
-    ArmorHPBonusAdd: 600
-    Capacity: 300.0
-    CovertCloakCPUPenalty: 10000
-    CovertOpsAndReconOpsCloakModuleDelay: 30000
-    FitsToShipType: 29990
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1400000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30545
-    RequiredSkill1Level: 1
-    ShieldCapacity: 600.0
-    SignatureRadius: 10.0
-    SubSystemSlot: 126
-    SubsystemBonusMinmatarDefensive: 5.0
-    SubsystemBonusMinmatarDefensive2: 5
-    TechLevel: 3
+    armorhpbonusadd: 600
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29990
+    hp: 40.0
     id: 45596
+    lowslotmodifier: 2
     marketGroup: 1128
-    mass: 1400000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Loki Defensive - Augmented Durability
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30545
+    requiredskill1level: 1
+    shieldcapacity: 600.0
+    signatureradius: 10.0
+    subsystembonusminmatardefensive: 5.0
+    subsystembonusminmatardefensive2: 5
+    subsystemslot: 126
+    techlevel: 3
     volume: 40.0
   Loki Defensive - Covert Reconfiguration:
-    CapacitorCapacity: 200.0
-    Capacity: 300.0
-    CargoCapacityAdd: 30
-    CovertOpsAndReconOpsCloakModuleDelay: 5000
-    FitsToShipType: 29990
-    HiSlotModifier: 1
-    Hp: 40.0
-    JumpHarmonicsModifier: 5
-    LowSlotModifier: 1
-    Mass: 1400000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30545
-    RequiredSkill1Level: 1
-    SignatureRadius: 5.0
-    StructureHPBonusAdd: 1000
-    SubSystemSlot: 126
-    SubsystemBonusMinmatarDefensive: 7.5
-    SubsystemBonusMinmatarDefensive2: 10
-    SubsystemBonusMinmatarDefensive3: 7.5
-    TechLevel: 3
-    VirusStrengthBonus: 10
+    capacitorcapacity: 200.0
+    capacity: 300.0
+    cargocapacityadd: 30
+    covertopsandreconopscloakmoduledelay: 5000
+    fitstoshiptype: 29990
+    hislotmodifier: 1
+    hp: 40.0
     id: 45595
+    jumpharmonicsmodifier: 5
+    lowslotmodifier: 1
     marketGroup: 1128
-    mass: 1400000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Loki Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30545
+    requiredskill1level: 1
+    signatureradius: 5.0
+    structurehpbonusadd: 1000
+    subsystembonusminmatardefensive: 7.5
+    subsystembonusminmatardefensive2: 10
+    subsystembonusminmatardefensive3: 7.5
+    subsystemslot: 126
+    techlevel: 3
+    virusstrengthbonus: 10
     volume: 40.0
   Proteus Defensive - Augmented Plating:
-    ArmorHPBonusAdd: 1000
-    Capacity: 300.0
-    CovertCloakCPUPenalty: 10000
-    CovertOpsAndReconOpsCloakModuleDelay: 30000
-    FitsToShipType: 29988
-    Hp: 40.0
-    LowSlotModifier: 3
-    Mass: 1400000.0
-    MedSlotModifier: 1
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30540
-    RequiredSkill1Level: 1
-    SignatureRadius: 10.0
-    SubSystemSlot: 126
-    SubsystemBonusGallenteDefensive: 5.0
-    SubsystemBonusGallenteDefensive2: 5
-    TechLevel: 3
+    armorhpbonusadd: 1000
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29988
+    hp: 40.0
     id: 45593
+    lowslotmodifier: 3
     marketGroup: 1129
-    mass: 1400000.0
+    medslotmodifier: 1
+    metalevel: 1
     name: Proteus Defensive - Augmented Plating
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30540
+    requiredskill1level: 1
+    signatureradius: 10.0
+    subsystembonusgallentedefensive: 5.0
+    subsystembonusgallentedefensive2: 5
+    subsystemslot: 126
+    techlevel: 3
     volume: 40.0
   Proteus Defensive - Covert Reconfiguration:
-    CapacitorCapacity: 200.0
-    Capacity: 300.0
-    CargoCapacityAdd: 30
-    CovertOpsAndReconOpsCloakModuleDelay: 5000
-    FitsToShipType: 29988
-    HiSlotModifier: 1
-    Hp: 40.0
-    JumpHarmonicsModifier: 5
-    LowSlotModifier: 2
-    Mass: 1400000.0
-    MedSlotModifier: 1
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30540
-    RequiredSkill1Level: 1
-    ShieldCapacity: 500.0
-    SignatureRadius: 5.0
-    StructureHPBonusAdd: 600
-    SubSystemSlot: 126
-    SubsystemBonusGallenteDefensive: 7.5
-    SubsystemBonusGallenteDefensive2: 10
-    SubsystemBonusGallenteDefensive3: 7.5
-    TechLevel: 3
-    VirusStrengthBonus: 10
+    capacitorcapacity: 200.0
+    capacity: 300.0
+    cargocapacityadd: 30
+    covertopsandreconopscloakmoduledelay: 5000
+    fitstoshiptype: 29988
+    hislotmodifier: 1
+    hp: 40.0
     id: 45592
+    jumpharmonicsmodifier: 5
+    lowslotmodifier: 2
     marketGroup: 1129
-    mass: 1400000.0
+    medslotmodifier: 1
+    metalevel: 1
     name: Proteus Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30540
+    requiredskill1level: 1
+    shieldcapacity: 500.0
+    signatureradius: 5.0
+    structurehpbonusadd: 600
+    subsystembonusgallentedefensive: 7.5
+    subsystembonusgallentedefensive2: 10
+    subsystembonusgallentedefensive3: 7.5
+    subsystemslot: 126
+    techlevel: 3
+    virusstrengthbonus: 10
     volume: 40.0
   Proteus Defensive - Nanobot Injector:
-    ArmorHPBonusAdd: 500
-    CapacitorCapacity: 300.0
-    Capacity: 300.0
-    CovertCloakCPUPenalty: 10000
-    CovertOpsAndReconOpsCloakModuleDelay: 30000
-    FitsToShipType: 29988
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1400000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30540
-    RequiredSkill1Level: 1
-    ShieldCapacity: 100.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 126
-    SubsystemBonusGallenteDefensive: 10.0
-    SubsystemBonusGallenteDefensive3: 10.0
-    TechLevel: 3
+    armorhpbonusadd: 500
+    capacitorcapacity: 300.0
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29988
+    hp: 40.0
     id: 45594
+    lowslotmodifier: 2
     marketGroup: 1129
-    mass: 1400000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Proteus Defensive - Nanobot Injector
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30540
+    requiredskill1level: 1
+    shieldcapacity: 100.0
+    signatureradius: 100.0
+    subsystembonusgallentedefensive: 10.0
+    subsystembonusgallentedefensive3: 10.0
+    subsystemslot: 126
+    techlevel: 3
     volume: 40.0
   Tengu Defensive - Amplification Node:
-    ArmorHPBonusAdd: 100
-    CapacitorCapacity: 300.0
-    Capacity: 300.0
-    CovertCloakCPUPenalty: 10000
-    CovertOpsAndReconOpsCloakModuleDelay: 30000
-    FitsToShipType: 29984
-    Hp: 40.0
-    LowSlotModifier: 1
-    Mass: 1400000.0
-    MedSlotModifier: 3
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30544
-    RequiredSkill1Level: 1
-    ShieldCapacity: 500.0
-    SignatureRadius: 100.0
-    SubSystemSlot: 126
-    SubsystemBonusCaldariDefensive: 10.0
-    SubsystemBonusCaldariDefensive3: 10.0
-    TechLevel: 3
+    armorhpbonusadd: 100
+    capacitorcapacity: 300.0
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29984
+    hp: 40.0
     id: 45591
+    lowslotmodifier: 1
     marketGroup: 1127
-    mass: 1400000.0
+    medslotmodifier: 3
+    metalevel: 1
     name: Tengu Defensive - Amplification Node
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30544
+    requiredskill1level: 1
+    shieldcapacity: 500.0
+    signatureradius: 100.0
+    subsystembonuscaldaridefensive: 10.0
+    subsystembonuscaldaridefensive3: 10.0
+    subsystemslot: 126
+    techlevel: 3
     volume: 40.0
   Tengu Defensive - Covert Reconfiguration:
-    ArmorHPBonusAdd: 300
-    CapacitorCapacity: 200.0
-    Capacity: 300.0
-    CargoCapacityAdd: 30
-    CovertOpsAndReconOpsCloakModuleDelay: 5000
-    FitsToShipType: 29984
-    HiSlotModifier: 1
-    Hp: 40.0
-    JumpHarmonicsModifier: 5
-    Mass: 1400000.0
-    MedSlotModifier: 3
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30544
-    RequiredSkill1Level: 1
-    SignatureRadius: 5.0
-    StructureHPBonusAdd: 600
-    SubSystemSlot: 126
-    SubsystemBonusCaldariDefensive: 7.5
-    SubsystemBonusCaldariDefensive2: 10
-    SubsystemBonusCaldariDefensive3: 7.5
-    TechLevel: 3
-    VirusStrengthBonus: 10
+    armorhpbonusadd: 300
+    capacitorcapacity: 200.0
+    capacity: 300.0
+    cargocapacityadd: 30
+    covertopsandreconopscloakmoduledelay: 5000
+    fitstoshiptype: 29984
+    hislotmodifier: 1
+    hp: 40.0
     id: 45589
+    jumpharmonicsmodifier: 5
     marketGroup: 1127
-    mass: 1400000.0
+    medslotmodifier: 3
+    metalevel: 1
     name: Tengu Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30544
+    requiredskill1level: 1
+    signatureradius: 5.0
+    structurehpbonusadd: 600
+    subsystembonuscaldaridefensive: 7.5
+    subsystembonuscaldaridefensive2: 10
+    subsystembonuscaldaridefensive3: 7.5
+    subsystemslot: 126
+    techlevel: 3
+    virusstrengthbonus: 10
     volume: 40.0
   Tengu Defensive - Supplemental Screening:
-    Capacity: 300.0
-    CovertCloakCPUPenalty: 10000
-    CovertOpsAndReconOpsCloakModuleDelay: 30000
-    FitsToShipType: 29984
-    Hp: 40.0
-    LowSlotModifier: 2
-    Mass: 1400000.0
-    MedSlotModifier: 2
-    MetaLevel: 1
-    Radius: 1.0
-    RequiredSkill1: 30544
-    RequiredSkill1Level: 1
-    ShieldCapacity: 1000.0
-    SignatureRadius: 10.0
-    SubSystemSlot: 126
-    SubsystemBonusCaldariDefensive: 5.0
-    SubsystemBonusCaldariDefensive2: 5
-    TechLevel: 3
+    capacity: 300.0
+    covertcloakcpupenalty: 10000
+    covertopsandreconopscloakmoduledelay: 30000
+    fitstoshiptype: 29984
+    hp: 40.0
     id: 45590
+    lowslotmodifier: 2
     marketGroup: 1127
-    mass: 1400000.0
+    medslotmodifier: 2
+    metalevel: 1
     name: Tengu Defensive - Supplemental Screening
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 30544
+    requiredskill1level: 1
+    shieldcapacity: 1000.0
+    signatureradius: 10.0
+    subsystembonuscaldaridefensive: 5.0
+    subsystembonuscaldaridefensive2: 5
+    subsystemslot: 126
+    techlevel: 3
     volume: 40.0

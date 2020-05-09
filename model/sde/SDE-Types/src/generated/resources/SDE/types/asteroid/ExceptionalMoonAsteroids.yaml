@@ -1,241 +1,217 @@
 types:
   Bountiful Loparite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45512
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46316
     marketGroup: 2401
-    mass: 4000.0
     name: Bountiful Loparite
+    orebasictype: 45512
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Bountiful Monazite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45511
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46314
     marketGroup: 2401
-    mass: 4000.0
     name: Bountiful Monazite
+    orebasictype: 45511
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Bountiful Xenotime:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45510
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46312
     marketGroup: 2401
-    mass: 4000.0
     name: Bountiful Xenotime
+    orebasictype: 45510
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Bountiful Ytterbite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45513
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46318
     marketGroup: 2401
-    mass: 4000.0
     name: Bountiful Ytterbite
+    orebasictype: 45513
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Loparite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45512
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45512
     marketGroup: 2401
-    mass: 4000.0
     name: Loparite
+    orebasictype: 45512
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Monazite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45511
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45511
     marketGroup: 2401
-    mass: 4000.0
     name: Monazite
+    orebasictype: 45511
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Shining Loparite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45512
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46317
     marketGroup: 2401
-    mass: 4000.0
     name: Shining Loparite
+    orebasictype: 45512
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Shining Monazite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45511
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46315
     marketGroup: 2401
-    mass: 4000.0
     name: Shining Monazite
+    orebasictype: 45511
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Shining Xenotime:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45510
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46313
     marketGroup: 2401
-    mass: 4000.0
     name: Shining Xenotime
+    orebasictype: 45510
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Shining Ytterbite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45513
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46319
     marketGroup: 2401
-    mass: 4000.0
     name: Shining Ytterbite
+    orebasictype: 45513
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Xenotime:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45510
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45510
     marketGroup: 2401
-    mass: 4000.0
     name: Xenotime
+    orebasictype: 45510
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Ytterbite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45513
-    Radius: 1.0
-    ReprocessingSkillType: 46156
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45513
     marketGroup: 2401
-    mass: 4000.0
     name: Ytterbite
+    orebasictype: 45513
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46156
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0

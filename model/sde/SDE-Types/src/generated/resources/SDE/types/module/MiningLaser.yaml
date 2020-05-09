@@ -1,353 +1,353 @@
 types:
   '''Habitat'' Miner I':
-    CapacitorNeed: 20.0
-    Cpu: 54.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 12000.0
-    MetaLevel: 6
-    MiningAmount: 55
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
+    capacitorneed: 20.0
+    cpu: 54.0
+    duration: 60000.0
+    hp: 40.0
     id: 22921
+    maxrange: 12000.0
+    metalevel: 6
+    miningamount: 55
     name: '''Habitat'' Miner I'
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
     volume: 5.0
   '''Wild'' Miner I':
-    CapacitorNeed: 40.0
-    Cpu: 54.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 12400.0
-    MetaLevel: 6
-    MiningAmount: 60
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
+    capacitorneed: 40.0
+    cpu: 54.0
+    duration: 60000.0
+    hp: 40.0
     id: 22923
+    maxrange: 12400.0
+    metalevel: 6
+    miningamount: 60
     name: '''Wild'' Miner I'
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
     volume: 5.0
   Civilian Miner:
-    CapacitorNeed: 5.0
-    Cpu: 65.0
-    Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MiningAmount: 6
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 5.0
+    cpu: 65.0
+    duration: 10000.0
+    hp: 40.0
     id: 3651
     marketGroup: 1039
+    maxrange: 10000.0
+    miningamount: 6
     name: Civilian Miner
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   Deep Core Mining Laser I:
-    CapacitorNeed: 240.0
-    Cpu: 150.0
-    CrystalsGetDamaged: 1
-    DamageCloudChance: 5.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MiningAmount: 40
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11395
-    RequiredSkill2Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 240.0
+    cpu: 150.0
+    crystalsgetdamaged: 1
+    damagecloudchance: 5.0
+    duration: 60000.0
+    hp: 40.0
     id: 12108
     marketGroup: 1039
+    maxrange: 5000.0
+    miningamount: 40
     name: Deep Core Mining Laser I
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 5
+    requiredskill2: 11395
+    requiredskill2level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   EP-S Gaussian Scoped Mining Laser:
-    CapacitorNeed: 20.0
-    Cpu: 65.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 16000.0
-    MetaLevel: 1
-    MiningAmount: 50
-    Power: 3
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 20.0
+    cpu: 65.0
+    duration: 60000.0
+    hp: 40.0
     id: 5239
     marketGroup: 1039
+    maxrange: 16000.0
+    metalevel: 1
+    miningamount: 50
     name: EP-S Gaussian Scoped Mining Laser
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   Gallente Mining Laser:
-    CapacitorNeed: 10.0
-    Cpu: 60.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MetaGroupID: 3
-    MetaLevel: 8
-    MiningAmount: 45
-    Power: 3
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11330
+    capacitorneed: 10.0
+    cpu: 60.0
+    duration: 60000.0
+    hp: 40.0
     id: 21841
     marketGroup: 1039
+    maxrange: 10000.0
+    metagroupid: 3
+    metalevel: 8
+    miningamount: 45
     name: Gallente Mining Laser
     packagedVolume: 5.0
     portionSize: 1
+    power: 3
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11330
     volume: 5.0
   Ice Mining Laser I:
-    CanFitShipGroup01: 1283
-    CapacitorNeed: 10.0
-    Cpu: 50.0
-    Duration: 360000.0
-    Hp: 40.0
-    MaxRange: 7000.0
-    MiningAmount: 1000
-    Power: 5
-    Radius: 25.0
-    RequiredSkill1: 16281
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
+    canfitshipgroup01: 1283
+    capacitorneed: 10.0
+    cpu: 50.0
+    duration: 360000.0
+    hp: 40.0
     id: 37450
     marketGroup: 2151
+    maxrange: 7000.0
+    miningamount: 1000
     name: Ice Mining Laser I
     packagedVolume: 5.0
     portionSize: 1
+    power: 5
     published: true
+    radius: 25.0
+    requiredskill1: 16281
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   Ice Mining Laser II:
-    CanFitShipGroup01: 1283
-    CapacitorNeed: 15.0
-    Cpu: 60.0
-    Duration: 330000.0
-    Hp: 40.0
-    MaxRange: 8000.0
-    MetaLevel: 5
-    MiningAmount: 1000
-    Power: 6
-    Radius: 25.0
-    RequiredSkill1: 16281
-    RequiredSkill1Level: 5
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 2
-    TypeColorScheme: 11346
+    canfitshipgroup01: 1283
+    capacitorneed: 15.0
+    cpu: 60.0
+    duration: 330000.0
+    hp: 40.0
     id: 37451
     marketGroup: 2151
+    maxrange: 8000.0
+    metalevel: 5
+    miningamount: 1000
     name: Ice Mining Laser II
     packagedVolume: 5.0
     portionSize: 1
+    power: 6
     published: true
+    radius: 25.0
+    requiredskill1: 16281
+    requiredskill1level: 5
+    slots: 1
+    targetgroup: 11
+    techlevel: 2
+    typecolorscheme: 11346
     volume: 5.0
   Miner I:
-    CapacitorNeed: 20.0
-    Cpu: 60.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 10000.0
-    MiningAmount: 40
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 20.0
+    cpu: 60.0
+    duration: 60000.0
+    hp: 40.0
     id: 483
     marketGroup: 1039
+    maxrange: 10000.0
+    miningamount: 40
     name: Miner I
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   Miner II:
-    CapacitorNeed: 70.0
-    Cpu: 80.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 12000.0
-    MetaLevel: 5
-    MiningAmount: 60
-    Power: 4
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 4
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 2
-    TypeColorScheme: 11347
+    capacitorneed: 70.0
+    cpu: 80.0
+    duration: 60000.0
+    hp: 40.0
     id: 482
     marketGroup: 1039
+    maxrange: 12000.0
+    metalevel: 5
+    miningamount: 60
     name: Miner II
     packagedVolume: 5.0
     portionSize: 1
+    power: 4
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 4
+    slots: 1
+    targetgroup: 11
+    techlevel: 2
+    typecolorscheme: 11347
     volume: 5.0
   ORE Deep Core Mining Laser:
-    CapacitorNeed: 240.0
-    Cpu: 150.0
-    CrystalsGetDamaged: 1
-    DamageCloudChance: 5.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 7000.0
-    MetaGroupID: 4
-    MetaLevel: 6
-    MiningAmount: 40
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11395
-    RequiredSkill2Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 240.0
+    cpu: 150.0
+    crystalsgetdamaged: 1
+    damagecloudchance: 5.0
+    duration: 60000.0
+    hp: 40.0
     id: 28748
     marketGroup: 1039
+    maxrange: 7000.0
+    metagroupid: 4
+    metalevel: 6
+    miningamount: 40
     name: ORE Deep Core Mining Laser
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 5
+    requiredskill2: 11395
+    requiredskill2level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   ORE Ice Mining Laser:
-    CanFitShipGroup01: 1283
-    CapacitorNeed: 15.0
-    Cpu: 60.0
-    Duration: 330000.0
-    Hp: 40.0
-    MaxRange: 11000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    MiningAmount: 1000
-    Power: 6
-    Radius: 25.0
-    RequiredSkill1: 16281
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
+    canfitshipgroup01: 1283
+    capacitorneed: 15.0
+    cpu: 60.0
+    duration: 330000.0
+    hp: 40.0
     id: 37452
     marketGroup: 2151
+    maxrange: 11000.0
+    metagroupid: 4
+    metalevel: 8
+    miningamount: 1000
     name: ORE Ice Mining Laser
     packagedVolume: 5.0
     portionSize: 1
+    power: 6
     published: true
+    radius: 25.0
+    requiredskill1: 16281
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   ORE Miner:
-    CapacitorNeed: 70.0
-    Cpu: 80.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 16000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    MiningAmount: 65
-    Power: 4
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 70.0
+    cpu: 80.0
+    duration: 60000.0
+    hp: 40.0
     id: 28750
     marketGroup: 1039
+    maxrange: 16000.0
+    metagroupid: 4
+    metalevel: 8
+    miningamount: 65
     name: ORE Miner
     packagedVolume: 5.0
     portionSize: 1
+    power: 4
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   Particle Bore Compact Mining Laser:
-    CapacitorNeed: 20.0
-    Cpu: 55.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 11000.0
-    MetaLevel: 1
-    MiningAmount: 50
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 20.0
+    cpu: 55.0
+    duration: 60000.0
+    hp: 40.0
     id: 5245
     marketGroup: 1039
+    maxrange: 11000.0
+    metalevel: 1
+    miningamount: 50
     name: Particle Bore Compact Mining Laser
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   Single Diode Basic Mining Laser:
-    CapacitorNeed: 10.0
-    Cpu: 45.0
-    Duration: 60000.0
-    Hp: 40.0
-    MaxRange: 11000.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    MiningAmount: 25
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 11
-    TechLevel: 1
+    capacitorneed: 10.0
+    cpu: 45.0
+    duration: 60000.0
+    hp: 40.0
     id: 5233
     marketGroup: 1039
+    maxrange: 11000.0
+    metagroupid: 3
+    metalevel: 6
+    miningamount: 25
     name: Single Diode Basic Mining Laser
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 3386
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 11
+    techlevel: 1
     volume: 5.0

@@ -1,231 +1,217 @@
 types:
   Biochemical Silo:
-    AnchoringDelay: 5000
-    ArmorHP: 15000.0
-    ArmorUniformity: 0.75
-    Capacity: 20000.0
-    CargoGroup: 711
-    Cpu: 250.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 50000
-    Radius: 907.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 15000.0
+    armoruniformity: 0.75
+    capacity: 20000.0
+    cargogroup: 711
+    cpu: 250.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 25270
     marketGroup: 483
-    mass: 1.0E8
     name: Biochemical Silo
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 907.0
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 200000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Catalyst Silo:
-    AnchoringDelay: 5000
-    ArmorHP: 15000.0
-    ArmorUniformity: 0.75
-    Capacity: 20000.0
-    CargoGroup: 284
-    Cpu: 250.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 50000
-    Radius: 907.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 15000.0
+    armoruniformity: 0.75
+    capacity: 20000.0
+    cargogroup: 284
+    cpu: 250.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 25271
     marketGroup: 483
-    mass: 1.0E8
     name: Catalyst Silo
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 907.0
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 200000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Coupling Array:
-    AnchoringDelay: 5000
-    ArmorHP: 10000.0
-    ArmorUniformity: 0.75
-    Capacity: 1500.0
-    Cpu: 155.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 10000
-    Radius: 907.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 100000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 10000.0
+    armoruniformity: 0.75
+    capacity: 1500.0
+    cpu: 155.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 17982
     marketGroup: 483
-    mass: 1.0E8
     name: Coupling Array
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 10000
     published: true
+    radius: 907.0
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 100000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   General Storage:
-    AnchoringDelay: 5000
-    ArmorHP: 15000.0
-    ArmorUniformity: 0.75
-    Capacity: 20000.0
-    CargoGroup: 280
-    CargoGroup2: 1042
-    Cpu: 250.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 50000
-    Radius: 907.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 15000.0
+    armoruniformity: 0.75
+    capacity: 20000.0
+    cargogroup: 280
+    cargogroup2: 1042
+    cpu: 250.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 25821
     marketGroup: 483
-    mass: 1.0E8
     name: General Storage
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 907.0
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 200000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Hazardous Chemical Silo:
-    AnchoringDelay: 5000
-    ArmorHP: 15000.0
-    ArmorUniformity: 0.75
-    Capacity: 20000.0
-    CargoGroup: 712
-    Cpu: 250.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 50000
-    Radius: 907.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 15000.0
+    armoruniformity: 0.75
+    capacity: 20000.0
+    cargogroup: 712
+    cpu: 250.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 25280
     marketGroup: 483
-    mass: 1.0E8
     name: Hazardous Chemical Silo
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 907.0
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 200000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Hybrid Polymer Silo:
-    AnchoringDelay: 5000
-    ArmorHP: 15000.0
-    ArmorUniformity: 0.75
-    Capacity: 40000.0
-    CargoGroup: 974
-    Cpu: 250.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 50000
-    Radius: 907.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 15000.0
+    armoruniformity: 0.75
+    capacity: 40000.0
+    cargogroup: 974
+    cpu: 250.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 30655
     marketGroup: 483
-    mass: 1.0E8
     name: Hybrid Polymer Silo
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 907.0
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 200000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Silo:
-    AnchoringDelay: 5000
-    ArmorHP: 15000.0
-    ArmorUniformity: 0.75
-    Capacity: 20000.0
-    Cpu: 500.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 50000
-    Radius: 907.0
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 15000.0
+    armoruniformity: 0.75
+    capacity: 20000.0
+    cpu: 500.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 14343
     marketGroup: 483
-    mass: 1.0E8
     name: Silo
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 907.0
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 200000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0

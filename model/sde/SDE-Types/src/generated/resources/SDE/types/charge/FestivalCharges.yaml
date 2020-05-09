@@ -1,669 +1,611 @@
 types:
   Angels Arisen Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44261
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Angels Arisen Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Barium Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 33572
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Barium Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Barium Firework CXIV:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 32994
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Barium Firework CXIV
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Blood Dagger Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44262
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Blood Dagger Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Capsule Cascade Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 54564
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Capsule Cascade Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Cherubic Heartburst Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 2000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 49992
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 2000.0
+    missileneverdoesdamage: 1
     name: Cherubic Heartburst Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Copper Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 5.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 33573
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Copper Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 5.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Copper Firework CXIV:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 32995
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Copper Firework CXIV
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Crimson Scythes Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44267
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Crimson Scythes Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Crown Imperial Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44260
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Crown Imperial Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Easter Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 50138
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Easter Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Eros Blossom Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 47264
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Eros Blossom Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Fangs of the Serpent Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44272
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Fangs of the Serpent Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Flames of the Rebellion Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44270
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Flames of the Rebellion Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Four Freedoms Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44268
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Four Freedoms Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Halloween Horrors Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 52219
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Halloween Horrors Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Nation Uplifts Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44271
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Nation Uplifts Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Naughty People Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44269
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Naughty People Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Pulsar Flare Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44264
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Pulsar Flare Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Sodium Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 33571
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Sodium Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Sodium Firework CXIV:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 32993
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Sodium Firework CXIV
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Spacetime Singularity Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44266
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Spacetime Singularity Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Stargazer Lantern Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 1974
-    Mass: 100.0
-    MaxVelocity: 2000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 49991
+    launchergroup: 1974
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 2000.0
+    missileneverdoesdamage: 1
     name: Stargazer Lantern Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Wheel of Prosperity Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44263
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Wheel of Prosperity Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Wings of Victory Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44265
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Wings of Victory Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Yoiul Blizzard Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 2000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 47302
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 2000.0
+    missileneverdoesdamage: 1
     name: Yoiul Blizzard Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Yoiul Festival Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 44110
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Yoiul Festival Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612
   Yoiul Festival Snowball:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 5.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamage: -10.0
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 53343
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Yoiul Festival Snowball
     packagedVolume: 0.10000000149011612
     portionSize: 2
     published: true
+    radius: 5.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamage: -10.0
     volume: 0.10000000149011612
   Yoiul Festival Starburst Firework:
-    Agility: 3000.0
-    AimedLaunch: 1
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    ExplosionDelay: 100000
-    Hp: 10.0
-    LauncherGroup: 56
-    Mass: 100.0
-    MaxVelocity: 1000.0
-    MissileNeverDoesDamage: 1
-    Radius: 1.0
-    SpeedMultiplier: 1.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
     id: 53461
+    launchergroup: 56
     marketGroup: 1663
-    mass: 100.0
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
     name: Yoiul Festival Starburst Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 0.10000000149011612

@@ -1,82 +1,78 @@
 types:
   Standup Point Defense Battery I:
-    CanFitShipType1: 35833
-    CanFitShipType10: 47515
-    CanFitShipType11: 47516
-    CanFitShipType2: 35834
-    CanFitShipType3: 40340
-    CanFitShipType4: 35826
-    CanFitShipType5: 35827
-    CanFitShipType6: 35836
-    CanFitShipType7: 47512
-    CanFitShipType8: 47513
-    CanFitShipType9: 47514
-    CapacitorNeed: 1500.0
-    Cpu: 1000.0
-    DeadspaceUnsafe: 2
-    DisallowInHighSec: 1
-    Duration: 12000.0
-    EmDamage: 500.0
-    EmpFieldRange: 2500
-    ExplosiveDamage: 500.0
-    Hp: 40.0
-    KineticDamage: 500.0
-    Mass: 1000.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MaxGroupOnline: 1
-    OnlineMaxSecurityClass: 1
-    Power: 150000
-    Radius: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    ThermalDamage: 500.0
+    canfitshiptype1: 35833
+    canfitshiptype10: 47515
+    canfitshiptype11: 47516
+    canfitshiptype2: 35834
+    canfitshiptype3: 40340
+    canfitshiptype4: 35826
+    canfitshiptype5: 35827
+    canfitshiptype6: 35836
+    canfitshiptype7: 47512
+    canfitshiptype8: 47513
+    canfitshiptype9: 47514
+    capacitorneed: 1500.0
+    cpu: 1000.0
+    deadspaceunsafe: 2
+    disallowinhighsec: 1
+    duration: 12000.0
+    emdamage: 500.0
+    empfieldrange: 2500
+    explosivedamage: 500.0
+    hp: 40.0
     id: 35926
+    kineticdamage: 500.0
     marketGroup: 2221
-    mass: 1000.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxgrouponline: 1
     name: Standup Point Defense Battery I
+    onlinemaxsecurityclass: 1
     packagedVolume: 8000.0
     portionSize: 1
+    power: 150000
     published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
+    thermaldamage: 500.0
     volume: 8000.0
   Standup Point Defense Battery II:
-    CanFitShipType1: 35833
-    CanFitShipType10: 47515
-    CanFitShipType11: 47516
-    CanFitShipType2: 35834
-    CanFitShipType3: 40340
-    CanFitShipType4: 35826
-    CanFitShipType5: 35827
-    CanFitShipType6: 35836
-    CanFitShipType7: 47512
-    CanFitShipType8: 47513
-    CanFitShipType9: 47514
-    CapacitorNeed: 1800.0
-    Cpu: 1200.0
-    DeadspaceUnsafe: 2
-    DisallowInHighSec: 1
-    Duration: 12000.0
-    EmDamage: 625.0
-    EmpFieldRange: 3000
-    ExplosiveDamage: 625.0
-    Hp: 40.0
-    KineticDamage: 625.0
-    Mass: 1000.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MaxGroupOnline: 1
-    MetaLevel: 5
-    OnlineMaxSecurityClass: 1
-    Power: 180000
-    Radius: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 2
-    ThermalDamage: 625.0
+    canfitshiptype1: 35833
+    canfitshiptype10: 47515
+    canfitshiptype11: 47516
+    canfitshiptype2: 35834
+    canfitshiptype3: 40340
+    canfitshiptype4: 35826
+    canfitshiptype5: 35827
+    canfitshiptype6: 35836
+    canfitshiptype7: 47512
+    canfitshiptype8: 47513
+    canfitshiptype9: 47514
+    capacitorneed: 1800.0
+    cpu: 1200.0
+    deadspaceunsafe: 2
+    disallowinhighsec: 1
+    duration: 12000.0
+    emdamage: 625.0
+    empfieldrange: 3000
+    explosivedamage: 625.0
+    hp: 40.0
     id: 47327
+    kineticdamage: 625.0
     marketGroup: 2221
-    mass: 1000.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    maxgrouponline: 1
+    metalevel: 5
     name: Standup Point Defense Battery II
+    onlinemaxsecurityclass: 1
     packagedVolume: 8000.0
     portionSize: 1
+    power: 180000
     published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    techlevel: 2
+    thermaldamage: 625.0
     volume: 8000.0

@@ -38,31 +38,28 @@ public class ShowResistReduction {
 		}
 
 		public ItemReduction(ArmorHardener ah) {
-			this(ah, Math.min(Math.min(ah.EmDamageResistanceBonus, ah.ThermalDamageResistanceBonus),
-					Math.min(ah.KineticDamageResistanceBonus, ah.ExplosiveDamageResistanceBonus)));
+			this(ah, Math.min(Math.min(ah.emdamageresistancebonus, ah.thermaldamageresistancebonus),
+					Math.min(ah.kineticdamageresistancebonus, ah.explosivedamageresistancebonus)));
 		}
 
 		public ItemReduction(ArmorCoating ah) {
-			this(ah, 1.25 * Math.min(Math.min(ah.EmDamageResistanceBonus,
-					ah.ThermalDamageResistanceBonus),
-					Math.min(ah.KineticDamageResistanceBonus, ah.ExplosiveDamageResistanceBonus)));
+			this(ah, 1.25 * Math.min(Math.min(ah.emdamageresistancebonus, ah.thermaldamageresistancebonus),
+					Math.min(ah.kineticdamageresistancebonus, ah.explosivedamageresistancebonus)));
 		}
 
 		public ItemReduction(ArmorPlatingEnergized ah) {
-			this(ah, 1.25 * Math.min(Math.min(ah.EmDamageResistanceBonus,
-					ah.ThermalDamageResistanceBonus),
-					Math.min(ah.KineticDamageResistanceBonus, ah.ExplosiveDamageResistanceBonus)));
+			this(ah, 1.25 * Math.min(Math.min(ah.emdamageresistancebonus, ah.thermaldamageresistancebonus),
+					Math.min(ah.kineticdamageresistancebonus, ah.explosivedamageresistancebonus)));
 		}
 
 		public ItemReduction(ShieldHardener ah) {
-			this(ah, Math.min(Math.min(ah.EmDamageResistanceBonus, ah.ThermalDamageResistanceBonus),
-					Math.min(ah.KineticDamageResistanceBonus, ah.ExplosiveDamageResistanceBonus)));
+			this(ah, Math.min(Math.min(ah.emdamageresistancebonus, ah.thermaldamageresistancebonus),
+					Math.min(ah.kineticdamageresistancebonus, ah.explosivedamageresistancebonus)));
 		}
 
 		public ItemReduction(ShieldResistanceAmplifier ah) {
-			this(ah, 1.25 * Math.min(Math.min(ah.EmDamageResistanceBonus,
-					ah.ThermalDamageResistanceBonus),
-					Math.min(ah.KineticDamageResistanceBonus, ah.ExplosiveDamageResistanceBonus)));
+			this(ah, 1.25 * Math.min(Math.min(ah.emdamageresistancebonus, ah.thermaldamageresistancebonus),
+					Math.min(ah.kineticdamageresistancebonus, ah.explosivedamageresistancebonus)));
 		}
 	}
 

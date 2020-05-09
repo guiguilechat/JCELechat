@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,33 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageDelayDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DeadspaceUnsafe;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EffectDeactivationDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LightningWeaponDamageLossTarget;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LightningWeaponTargetAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LightningWeaponTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OnlineMaxSecurityClass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,140 +53,140 @@ public class StructureDoomsdayWeapon
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType1;
+    public int canfitshiptype1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType2;
+    public int canfitshiptype2;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * The delay in ms until the damage is done to the target. (Allows some FX to be played)
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10000)
-    public int DamageDelayDuration;
+    public int damagedelayduration;
     /**
      * Modules with this attribute set to 1 can not be used in deadspace. Modules with this attribute set to 2 can not be used in deadspace even where "disableModuleBlocking" is selected
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DeadspaceUnsafe;
+    public int deadspaceunsafe;
     /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowEarlyDeactivation;
+    public int disallowearlydeactivation;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowInHighSec;
+    public int disallowinhighsec;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowRepeatingActivation;
+    public int disallowrepeatingactivation;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EffectDeactivationDelay;
+    public int effectdeactivationdelay;
     /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EmDamage;
+    public double emdamage;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
+    public double explosivedamage;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double KineticDamage;
+    public double kineticdamage;
     /**
      * Damage lost per target hit
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double LightningWeaponDamageLossTarget;
+    public double lightningweapondamagelosstarget;
     /**
      * Number of targets affected by the structure doomsday beam.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LightningWeaponTargetAmount;
+    public int lightningweapontargetamount;
     /**
      * Maximum distance between two possible targets for the structure doomsday.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LightningWeaponTargetRange;
+    public int lightningweapontargetrange;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Determines the maximum security class that a module can be onlined within. Used for structure modules.
      * 
@@ -167,21 +197,22 @@ public class StructureDoomsdayWeapon
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(2)
-    public int OnlineMaxSecurityClass;
+    public int onlinemaxsecurityclass;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    public double thermaldamage;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, DisallowEarlyDeactivation.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, EffectDeactivationDelay.INSTANCE, DamageDelayDuration.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, DisallowRepeatingActivation.INSTANCE, LightningWeaponTargetAmount.INSTANCE, LightningWeaponTargetRange.INSTANCE, LightningWeaponDamageLossTarget.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final StructureDoomsdayWeapon.MetaGroup METAGROUP = new StructureDoomsdayWeapon.MetaGroup();
 
     @Override
@@ -189,101 +220,106 @@ public class StructureDoomsdayWeapon
         switch (attribute.getId()) {
             case  1302 :
             {
-                return CanFitShipType1;
+                return canfitshiptype1;
             }
             case  1303 :
             {
-                return CanFitShipType2;
+                return canfitshiptype2;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1839 :
             {
-                return DamageDelayDuration;
+                return damagedelayduration;
             }
             case  801 :
             {
-                return DeadspaceUnsafe;
+                return deadspaceunsafe;
             }
             case  906 :
             {
-                return DisallowEarlyDeactivation;
+                return disallowearlydeactivation;
             }
             case  1970 :
             {
-                return DisallowInHighSec;
+                return disallowinhighsec;
             }
             case  1014 :
             {
-                return DisallowRepeatingActivation;
+                return disallowrepeatingactivation;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  1579 :
             {
-                return EffectDeactivationDelay;
+                return effectdeactivationdelay;
             }
             case  114 :
             {
-                return EmDamage;
+                return emdamage;
             }
             case  116 :
             {
-                return ExplosiveDamage;
+                return explosivedamage;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  117 :
             {
-                return KineticDamage;
+                return kineticdamage;
             }
             case  2106 :
             {
-                return LightningWeaponDamageLossTarget;
+                return lightningweapondamagelosstarget;
             }
             case  2104 :
             {
-                return LightningWeaponTargetAmount;
+                return lightningweapontargetamount;
             }
             case  2105 :
             {
-                return LightningWeaponTargetRange;
+                return lightningweapontargetrange;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  2581 :
             {
-                return OnlineMaxSecurityClass;
+                return onlinemaxsecurityclass;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  118 :
             {
-                return ThermalDamage;
+                return thermaldamage;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

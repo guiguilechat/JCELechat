@@ -1,590 +1,590 @@
 types:
   Amarr Citadel:
-    ArmorUniformity: 1.0
-    Radius: 30758.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 3864
     name: Amarr Citadel
     portionSize: 1
     published: false
+    radius: 30758.0
+    signatureradius: 100.0
   Amarr Class A Starport:
-    ArmorUniformity: 1.0
-    Radius: 24438.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 9856
     name: Amarr Class A Starport
     portionSize: 1
     published: false
+    radius: 24438.0
+    signatureradius: 100.0
   Amarr Class B Starport:
-    ArmorUniformity: 1.0
-    Radius: 30758.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 9857
     name: Amarr Class B Starport
     portionSize: 1
     published: false
+    radius: 30758.0
+    signatureradius: 100.0
   Amarr Factory Outpost:
-    ArmorUniformity: 1.0
-    IsPlayerOwnable: 1
-    Radius: 19079.0
-    SignatureRadius: 10000.0
+    armoruniformity: 1.0
     id: 21644
+    isplayerownable: 1
     name: Amarr Factory Outpost
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 19079.0
+    signatureradius: 10000.0
     volume: 1.0
   Amarr Industrial Station:
-    ArmorUniformity: 1.0
-    Radius: 24276.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 1928
     name: Amarr Industrial Station
     portionSize: 1
     published: false
+    radius: 24276.0
+    signatureradius: 100.0
   Amarr Mining Station:
-    ArmorUniformity: 1.0
-    Radius: 22283.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 1930
     name: Amarr Mining Station
     portionSize: 1
     published: false
+    radius: 22283.0
+    signatureradius: 100.0
   Amarr Research Station:
-    ArmorUniformity: 1.0
-    Radius: 29162.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 1931
     name: Amarr Research Station
     portionSize: 1
     published: false
+    radius: 29162.0
+    signatureradius: 100.0
   Amarr Standard Station:
-    ArmorUniformity: 1.0
-    Radius: 20081.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 1929
     name: Amarr Standard Station
     portionSize: 1
     published: false
+    radius: 20081.0
+    signatureradius: 100.0
   Amarr Station Hub:
-    ArmorUniformity: 1.0
-    Radius: 42489.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 1926
     name: Amarr Station Hub
     portionSize: 1
     published: false
+    radius: 42489.0
+    signatureradius: 100.0
   Amarr Station Military:
-    ArmorUniformity: 1.0
-    Radius: 48492.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 1927
     name: Amarr Station Military
     portionSize: 1
     published: false
+    radius: 48492.0
+    signatureradius: 100.0
   Amarr Trade Post:
-    ArmorUniformity: 1.0
-    Radius: 13887.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 1932
     name: Amarr Trade Post
     portionSize: 1
     published: false
+    radius: 13887.0
+    signatureradius: 100.0
   Blood Raider Logistics Outpost:
-    ArmorUniformity: 1.0
-    Radius: 51263.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 22296
     name: Blood Raider Logistics Outpost
     portionSize: 1
     published: false
+    radius: 51263.0
+    signatureradius: 100.0
   Blood Raider Military Outpost:
-    ArmorUniformity: 1.0
-    Radius: 39136.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 22297
     name: Blood Raider Military Outpost
     portionSize: 1
     published: false
+    radius: 39136.0
+    signatureradius: 100.0
   Blood Raider Trading Outpost:
-    ArmorUniformity: 1.0
-    Radius: 40731.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 22298
     name: Blood Raider Trading Outpost
     portionSize: 1
     published: false
+    radius: 40731.0
+    signatureradius: 100.0
   C-O-1:
-    ArmorUniformity: 1.0
-    Radius: 1000.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 58
     name: C-O-1
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1000.0
+    signatureradius: 100.0
     volume: 1.0
   C-O-2:
-    ArmorUniformity: 1.0
-    Radius: 1000.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 59
     name: C-O-2
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 1000.0
+    signatureradius: 100.0
     volume: 1.0
   Caldari Administrative Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 45734.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 1529
     name: Caldari Administrative Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 45734.0
+    signatureradius: 100.0
     volume: 1.0
   Caldari Food Processing Plant Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 55741.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 4024
     name: Caldari Food Processing Plant Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 55741.0
+    signatureradius: 100.0
     volume: 1.0
   Caldari Logistics Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 15351.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 54
     name: Caldari Logistics Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 15351.0
+    signatureradius: 100.0
     volume: 1.0
   Caldari Military Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 47854.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 3872
     name: Caldari Military Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 47854.0
+    signatureradius: 100.0
     volume: 1.0
   Caldari Mining Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 47854.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 4023
     name: Caldari Mining Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 47854.0
+    signatureradius: 100.0
     volume: 1.0
   Caldari Research Outpost:
-    ArmorUniformity: 1.0
-    IsPlayerOwnable: 1
-    Radius: 12748.0
-    SignatureRadius: 10000.0
+    armoruniformity: 1.0
     id: 21642
+    isplayerownable: 1
     name: Caldari Research Outpost
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 12748.0
+    signatureradius: 10000.0
     volume: 1.0
   Caldari Research Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 26782.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 1530
     name: Caldari Research Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 26782.0
+    signatureradius: 100.0
     volume: 1.0
   Caldari Station Hub:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 24657.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 3871
     name: Caldari Station Hub
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 24657.0
+    signatureradius: 100.0
     volume: 1.0
   Caldari Trading Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 33413.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 1531
     name: Caldari Trading Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 33413.0
+    signatureradius: 100.0
     volume: 1.0
   Concord Starbase:
-    ArmorUniformity: 1.0
-    Radius: 60432.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 9868
     name: Concord Starbase
     portionSize: 1
     published: false
+    radius: 60432.0
+    signatureradius: 100.0
   Damaged CONCORD Station:
-    ArmorUniformity: 1.0
-    Radius: 60518.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 29390
     name: Damaged CONCORD Station
     portionSize: 1
     published: false
+    radius: 60518.0
+    signatureradius: 100.0
   Dark Amarr Station O:
-    ArmorUniformity: 1.0
-    Radius: 22587.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 9873
     name: Dark Amarr Station O
     portionSize: 1
     published: false
+    radius: 22587.0
+    signatureradius: 100.0
   Gallente Administrative Outpost:
-    ArmorUniformity: 1.0
-    IsPlayerOwnable: 1
-    Radius: 27119.0
-    SignatureRadius: 10000.0
+    armoruniformity: 1.0
     id: 21645
+    isplayerownable: 1
     name: Gallente Administrative Outpost
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 27119.0
+    signatureradius: 10000.0
     volume: 1.0
   Gallente Administrative Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 17876.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 3868
     name: Gallente Administrative Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 17876.0
+    signatureradius: 100.0
     volume: 1.0
   Gallente Industrial Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 29746.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 3867
     name: Gallente Industrial Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 29746.0
+    signatureradius: 100.0
     volume: 1.0
   Gallente Logistics Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 37560.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 3869
     name: Gallente Logistics Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 37560.0
+    signatureradius: 100.0
     volume: 1.0
   Gallente Military Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 23836.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 56
     name: Gallente Military Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 23836.0
+    signatureradius: 100.0
     volume: 1.0
   Gallente Mining Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 28083.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 3870
     name: Gallente Mining Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 28083.0
+    signatureradius: 100.0
     volume: 1.0
   Gallente Research Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 45151.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 3865
     name: Gallente Research Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 45151.0
+    signatureradius: 100.0
     volume: 1.0
   Gallente Station Hub:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 27072.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 57
     name: Gallente Station Hub
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 27072.0
+    signatureradius: 100.0
     volume: 1.0
   Gallente Trading Hub:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 24871.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 3866
     name: Gallente Trading Hub
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 24871.0
+    signatureradius: 100.0
     volume: 1.0
   Heaven:
-    ArmorUniformity: 1.0
-    Radius: 47998.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 9867
     name: Heaven
     portionSize: 1
     published: false
+    radius: 47998.0
+    signatureradius: 100.0
   Ishukone Corporation Headquarters:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 52868.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 29323
     name: Ishukone Corporation Headquarters
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 52868.0
+    signatureradius: 100.0
     volume: 1.0
   Jita Trade Hub:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 45734.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 52678
     name: Jita Trade Hub
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 45734.0
+    signatureradius: 100.0
     volume: 1.0
   Jovian Construct:
-    ArmorUniformity: 1.0
-    Radius: 47270.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 10795
     name: Jovian Construct
     portionSize: 1
     published: false
+    radius: 47270.0
+    signatureradius: 100.0
   Minmatar Hub:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 33811.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 2496
     name: Minmatar Hub
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 33811.0
+    signatureradius: 100.0
     volume: 1.0
   Minmatar Industrial Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 27681.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 2497
     name: Minmatar Industrial Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 27681.0
+    signatureradius: 100.0
     volume: 1.0
   Minmatar Military Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 36902.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 2498
     name: Minmatar Military Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 36902.0
+    signatureradius: 100.0
     volume: 1.0
   Minmatar Mining Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 30592.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 2499
     name: Minmatar Mining Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 30592.0
+    signatureradius: 100.0
     volume: 1.0
   Minmatar Research Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 33481.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 2500
     name: Minmatar Research Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 33481.0
+    signatureradius: 100.0
     volume: 1.0
   Minmatar Service Outpost:
-    ArmorUniformity: 1.0
-    IsPlayerOwnable: 1
-    Radius: 18000.0
-    SignatureRadius: 10000.0
+    armoruniformity: 1.0
     id: 21646
+    isplayerownable: 1
     name: Minmatar Service Outpost
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 18000.0
+    signatureradius: 10000.0
     volume: 1.0
   Minmatar Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 19714.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 2501
     name: Minmatar Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 19714.0
+    signatureradius: 100.0
     volume: 1.0
   Minmatar Trade Post:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 15733.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 2502
     name: Minmatar Trade Post
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 15733.0
+    signatureradius: 100.0
     volume: 1.0
   Repaired Amarr Military Station:
-    ArmorUniformity: 1.0
-    Radius: 48532.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 29388
     name: Repaired Amarr Military Station
     portionSize: 1
     published: false
+    radius: 48532.0
+    signatureradius: 100.0
   Repaired Amarr Station Hub:
-    ArmorUniformity: 1.0
-    Radius: 42489.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 29387
     name: Repaired Amarr Station Hub
     portionSize: 1
     published: false
+    radius: 42489.0
+    signatureradius: 100.0
   Repaired Amarr Trading Post:
-    ArmorUniformity: 1.0
-    Radius: 13887.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
     id: 29389
     name: Repaired Amarr Trading Post
     portionSize: 1
     published: false
+    radius: 13887.0
+    signatureradius: 100.0
   Research Outpost:
-    ArmorHP: 8.0E7
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    IsPlayerOwnable: 1
-    Radius: 13436.0
-    ShieldCapacity: 4.0E7
-    ShieldRechargeRate: 2.0E8
-    ShieldUniformity: 1.0
-    SignatureRadius: 1000.0
+    armorhp: 8.0E7
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 19757
+    isplayerownable: 1
     name: Research Outpost
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 13436.0
+    shieldcapacity: 4.0E7
+    shieldrechargerate: 2.0E8
+    shielduniformity: 1.0
+    signatureradius: 1000.0
     volume: 1.0
   Sisters of EVE Industrial Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 29746.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 34326
     name: Sisters of EVE Industrial Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 29746.0
+    signatureradius: 100.0
     volume: 1.0
   Sisters of EVE Logistics Station:
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 37560.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 34325
     name: Sisters of EVE Logistics Station
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 37560.0
+    signatureradius: 100.0
     volume: 1.0
   Station (Conquerable 1):
-    ArmorUniformity: 1.0
-    IsPlayerOwnable: 1
-    Radius: 20304.0
-    SignatureRadius: 10000.0
+    armoruniformity: 1.0
     id: 12242
+    isplayerownable: 1
     name: Station (Conquerable 1)
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 20304.0
+    signatureradius: 10000.0
     volume: 1.0
   Station (Conquerable 2):
-    ArmorUniformity: 1.0
-    IsPlayerOwnable: 1
-    Radius: 17877.0
-    SignatureRadius: 10000.0
+    armoruniformity: 1.0
     id: 12294
+    isplayerownable: 1
     name: Station (Conquerable 2)
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 17877.0
+    signatureradius: 10000.0
     volume: 1.0
   Station (Conquerable 3):
-    ArmorUniformity: 1.0
-    IsPlayerOwnable: 1
-    Radius: 33863.0
-    SignatureRadius: 10000.0
+    armoruniformity: 1.0
     id: 12295
+    isplayerownable: 1
     name: Station (Conquerable 3)
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 33863.0
+    signatureradius: 10000.0
     volume: 1.0
   Station (InterBus):
-    ArmorUniformity: 1.0
-    Hp: 1.0E8
-    Radius: 17876.0
-    SignatureRadius: 100.0
+    armoruniformity: 1.0
+    hp: 1.0E8
     id: 2071
     name: Station (InterBus)
     packagedVolume: 1.0
     portionSize: 1
     published: false
+    radius: 17876.0
+    signatureradius: 100.0
     volume: 1.0

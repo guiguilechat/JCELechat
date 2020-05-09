@@ -1,15 +1,54 @@
 package fr.guiguilechat.jcelechat.model.sde.types.infrastructureupgrades;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DevIndexMilitary;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionID01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDAngel05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDBlood05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDGurista05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDRogueDrone05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSansha05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DistributionIDSerpentis05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SovUpgradeRequiredUpgradeID;
 import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,231 +61,232 @@ public class MilitaryUpgrades
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DevIndexMilitary;
+    public int devindexmilitary;
     /**
      * Distribution ID for global sov upgrades
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionID01;
+    public int distributionid01;
     /**
      * Distribution ID for sov upgrades in Angel space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDAngel01;
+    public int distributionidangel01;
     /**
      * Distribution ID for sov upgrades in Angel space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDAngel02;
+    public int distributionidangel02;
     /**
      * Distribution ID for sov upgrades in Angel space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDAngel03;
+    public int distributionidangel03;
     /**
      * Distribution ID for sov upgrades in Angel space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDAngel04;
+    public int distributionidangel04;
     /**
      * Distribution ID for sov upgrades in Angel space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDAngel05;
+    public int distributionidangel05;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDBlood01;
+    public int distributionidblood01;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDBlood02;
+    public int distributionidblood02;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDBlood03;
+    public int distributionidblood03;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDBlood04;
+    public int distributionidblood04;
     /**
      * Distribution ID for sov upgrades in Blood Raider space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDBlood05;
+    public int distributionidblood05;
     /**
      * Distribution ID for sov upgrades in Guristas space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDGurista01;
+    public int distributionidgurista01;
     /**
      * Distribution ID for sov upgrades in Guristas space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDGurista02;
+    public int distributionidgurista02;
     /**
      * Distribution ID for sov upgrades in Guristas space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDGurista03;
+    public int distributionidgurista03;
     /**
      * Distribution ID for sov upgrades in Guristas space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDGurista04;
+    public int distributionidgurista04;
     /**
      * Distribution ID for sov upgrades in Guristas space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDGurista05;
+    public int distributionidgurista05;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDRogueDrone01;
+    public int distributionidroguedrone01;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDRogueDrone02;
+    public int distributionidroguedrone02;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDRogueDrone03;
+    public int distributionidroguedrone03;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDRogueDrone04;
+    public int distributionidroguedrone04;
     /**
      * Distribution ID for sov upgrades in Rogue Drone space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDRogueDrone05;
+    public int distributionidroguedrone05;
     /**
      * Distribution ID for sov upgrades in Sansha space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSansha01;
+    public int distributionidsansha01;
     /**
      * Distribution ID for sov upgrades in Sansha space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSansha02;
+    public int distributionidsansha02;
     /**
      * Distribution ID for sov upgrades in Sansha space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSansha03;
+    public int distributionidsansha03;
     /**
      * Distribution ID for sov upgrades in Sansha space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSansha04;
+    public int distributionidsansha04;
     /**
      * Distribution ID for sov upgrades in Sansha space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSansha05;
+    public int distributionidsansha05;
     /**
      * Distribution ID for sov upgrades in Serpentis space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSerpentis01;
+    public int distributionidserpentis01;
     /**
      * Distribution ID for sov upgrades in Serpentis space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSerpentis02;
+    public int distributionidserpentis02;
     /**
      * Distribution ID for sov upgrades in Serpentis space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSerpentis03;
+    public int distributionidserpentis03;
     /**
      * Distribution ID for sov upgrades in Serpentis space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSerpentis04;
+    public int distributionidserpentis04;
     /**
      * Distribution ID for sov upgrades in Serpentis space
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DistributionIDSerpentis05;
+    public int distributionidserpentis05;
     /**
      * The typeID of the upgrade that is required for this upgrade to be installed. 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SovUpgradeRequiredUpgradeID;
+    public int sovupgraderequiredupgradeid;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DistributionIDRogueDrone04 .INSTANCE, DistributionIDRogueDrone05 .INSTANCE, Mass.INSTANCE, DistributionIDSansha01 .INSTANCE, DistributionIDSansha02 .INSTANCE, DistributionIDSansha03 .INSTANCE, DistributionIDSansha04 .INSTANCE, DistributionIDSansha05 .INSTANCE, DistributionIDSerpentis01 .INSTANCE, DistributionIDSerpentis02 .INSTANCE, DistributionIDSerpentis03 .INSTANCE, DistributionIDSerpentis04 .INSTANCE, DistributionIDSerpentis05 .INSTANCE, DistributionID01 .INSTANCE, DistributionIDAngel01 .INSTANCE, DistributionIDAngel02 .INSTANCE, DistributionIDAngel03 .INSTANCE, DistributionIDAngel04 .INSTANCE, Radius.INSTANCE, DistributionIDAngel05 .INSTANCE, Capacity.INSTANCE, DistributionIDBlood01 .INSTANCE, DistributionIDBlood02 .INSTANCE, DistributionIDBlood03 .INSTANCE, DistributionIDBlood04 .INSTANCE, DistributionIDBlood05 .INSTANCE, DevIndexMilitary.INSTANCE, DistributionIDGurista01 .INSTANCE, DistributionIDGurista02 .INSTANCE, DistributionIDGurista03 .INSTANCE, DistributionIDGurista04 .INSTANCE, DistributionIDGurista05 .INSTANCE, DistributionIDRogueDrone01 .INSTANCE, DistributionIDRogueDrone02 .INSTANCE, DistributionIDRogueDrone03 .INSTANCE, SovUpgradeRequiredUpgradeID.INSTANCE })));
     public static final MilitaryUpgrades.MetaGroup METAGROUP = new MilitaryUpgrades.MetaGroup();
 
     @Override
@@ -254,141 +294,146 @@ public class MilitaryUpgrades
         switch (attribute.getId()) {
             case  1583 :
             {
-                return DevIndexMilitary;
+                return devindexmilitary;
             }
             case  1755 :
             {
-                return DistributionID01;
+                return distributionid01;
             }
             case  1695 :
             {
-                return DistributionIDAngel01;
+                return distributionidangel01;
             }
             case  1696 :
             {
-                return DistributionIDAngel02;
+                return distributionidangel02;
             }
             case  1697 :
             {
-                return DistributionIDAngel03;
+                return distributionidangel03;
             }
             case  1698 :
             {
-                return DistributionIDAngel04;
+                return distributionidangel04;
             }
             case  1699 :
             {
-                return DistributionIDAngel05;
+                return distributionidangel05;
             }
             case  1705 :
             {
-                return DistributionIDBlood01;
+                return distributionidblood01;
             }
             case  1706 :
             {
-                return DistributionIDBlood02;
+                return distributionidblood02;
             }
             case  1707 :
             {
-                return DistributionIDBlood03;
+                return distributionidblood03;
             }
             case  1708 :
             {
-                return DistributionIDBlood04;
+                return distributionidblood04;
             }
             case  1709 :
             {
-                return DistributionIDBlood05;
+                return distributionidblood05;
             }
             case  1715 :
             {
-                return DistributionIDGurista01;
+                return distributionidgurista01;
             }
             case  1716 :
             {
-                return DistributionIDGurista02;
+                return distributionidgurista02;
             }
             case  1717 :
             {
-                return DistributionIDGurista03;
+                return distributionidgurista03;
             }
             case  1718 :
             {
-                return DistributionIDGurista04;
+                return distributionidgurista04;
             }
             case  1719 :
             {
-                return DistributionIDGurista05;
+                return distributionidgurista05;
             }
             case  1725 :
             {
-                return DistributionIDRogueDrone01;
+                return distributionidroguedrone01;
             }
             case  1726 :
             {
-                return DistributionIDRogueDrone02;
+                return distributionidroguedrone02;
             }
             case  1727 :
             {
-                return DistributionIDRogueDrone03;
+                return distributionidroguedrone03;
             }
             case  1728 :
             {
-                return DistributionIDRogueDrone04;
+                return distributionidroguedrone04;
             }
             case  1729 :
             {
-                return DistributionIDRogueDrone05;
+                return distributionidroguedrone05;
             }
             case  1735 :
             {
-                return DistributionIDSansha01;
+                return distributionidsansha01;
             }
             case  1736 :
             {
-                return DistributionIDSansha02;
+                return distributionidsansha02;
             }
             case  1737 :
             {
-                return DistributionIDSansha03;
+                return distributionidsansha03;
             }
             case  1738 :
             {
-                return DistributionIDSansha04;
+                return distributionidsansha04;
             }
             case  1739 :
             {
-                return DistributionIDSansha05;
+                return distributionidsansha05;
             }
             case  1745 :
             {
-                return DistributionIDSerpentis01;
+                return distributionidserpentis01;
             }
             case  1746 :
             {
-                return DistributionIDSerpentis02;
+                return distributionidserpentis02;
             }
             case  1747 :
             {
-                return DistributionIDSerpentis03;
+                return distributionidserpentis03;
             }
             case  1748 :
             {
-                return DistributionIDSerpentis04;
+                return distributionidserpentis04;
             }
             case  1749 :
             {
-                return DistributionIDSerpentis05;
+                return distributionidserpentis05;
             }
             case  1599 :
             {
-                return SovUpgradeRequiredUpgradeID;
+                return sovupgraderequiredupgradeid;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

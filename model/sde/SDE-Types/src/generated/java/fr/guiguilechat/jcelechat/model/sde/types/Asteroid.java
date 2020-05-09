@@ -13,6 +13,13 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReprocessingSkillType;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Arkonor;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Bezdnacine;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Bistot;
@@ -53,50 +60,50 @@ public abstract class Asteroid
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AsteroidMetaLevel;
+    public int asteroidmetalevel;
     /**
      * Controls how quickly an asteroid radius increases as its quantity grows.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double AsteroidRadiusGrowthFactor;
+    public double asteroidradiusgrowthfactor;
     /**
      * Sets the radius of the asteroid ball when it has a quantity of 1 unit
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(90)
-    public int AsteroidRadiusUnitSize;
+    public int asteroidradiusunitsize;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
     /**
      * The skill required to reprocess this ore type.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ReprocessingSkillType;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidMetaLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.ReprocessingSkillType.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusGrowthFactor.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.AsteroidRadiusUnitSize.INSTANCE })));
+    public int reprocessingskilltype;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, AsteroidMetaLevel.INSTANCE, ReprocessingSkillType.INSTANCE, AsteroidRadiusGrowthFactor.INSTANCE, AsteroidRadiusUnitSize.INSTANCE })));
     public static final Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
@@ -104,31 +111,31 @@ public abstract class Asteroid
         switch (attribute.getId()) {
             case  2699 :
             {
-                return AsteroidMetaLevel;
+                return asteroidmetalevel;
             }
             case  1980 :
             {
-                return AsteroidRadiusGrowthFactor;
+                return asteroidradiusgrowthfactor;
             }
             case  1981 :
             {
-                return AsteroidRadiusUnitSize;
+                return asteroidradiusunitsize;
             }
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             case  790 :
             {
-                return ReprocessingSkillType;
+                return reprocessingskilltype;
             }
             default:
             {

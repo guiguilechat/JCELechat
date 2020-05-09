@@ -1,32 +1,32 @@
 types:
   Interdiction Sphere Launcher I:
-    CanFitShipGroup01: 541
-    Capacity: 15.0
-    ChargeGroup1: 548
-    ChargeRate: 1
-    Cpu: 100.0
-    DisallowInEmpireSpace: 1
-    DisallowRepeatingActivation: 1
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.7000000476837158
-    Hp: 40.0
-    MaxGroupFitted: 1
-    OverloadRofBonus: -15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 11446
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3435
-    RequiredSkill2Level: 5
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 5000.0
-    TechLevel: 1
+    canfitshipgroup01: 541
+    capacity: 15.0
+    chargegroup1: 548
+    chargerate: 1
+    cpu: 100.0
+    disallowinempirespace: 1
+    disallowrepeatingactivation: 1
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.7000000476837158
+    hp: 40.0
     id: 22782
     marketGroup: 1937
+    maxgroupfitted: 1
     name: Interdiction Sphere Launcher I
+    overloadrofbonus: -15
     packagedVolume: 50.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 60000.0
+    requiredskill1: 11446
+    requiredskill1level: 1
+    requiredskill2: 3435
+    requiredskill2level: 5
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5000.0
+    techlevel: 1
     volume: 50.0

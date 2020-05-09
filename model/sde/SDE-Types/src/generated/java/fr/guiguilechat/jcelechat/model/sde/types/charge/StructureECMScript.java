@@ -1,15 +1,28 @@
 package fr.guiguilechat.jcelechat.model.sde.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthBonusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthBonusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthBonusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthBonusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,49 +35,50 @@ public class StructureECMScript
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeSize;
+    public int chargesize;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int launchergroup;
     /**
      * Bonus to Gravimetric Strength bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanGravimetricStrengthBonusBonus;
+    public int scangravimetricstrengthbonusbonus;
     /**
      * Bonus to Lader Strength bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanLadarStrengthBonusBonus;
+    public int scanladarstrengthbonusbonus;
     /**
      * Bonus to Magnetometric Strength bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanMagnetometricStrengthBonusBonus;
+    public int scanmagnetometricstrengthbonusbonus;
     /**
      * Bonus to Radar Strength bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanRadarStrengthBonusBonus;
+    public int scanradarstrengthbonusbonus;
     /**
      * Dogma attribute that specifies if the item should have the structure icon or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureItemVisualFlag;
+    public int structureitemvisualflag;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, ScanGravimetricStrengthBonusBonus.INSTANCE, LauncherGroup.INSTANCE, ScanLadarStrengthBonusBonus.INSTANCE, ScanMagnetometricStrengthBonusBonus.INSTANCE, ScanRadarStrengthBonusBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureECMScript.MetaGroup METAGROUP = new StructureECMScript.MetaGroup();
 
     @Override
@@ -72,37 +86,42 @@ public class StructureECMScript
         switch (attribute.getId()) {
             case  128 :
             {
-                return ChargeSize;
+                return chargesize;
             }
             case  137 :
             {
-                return LauncherGroup;
+                return launchergroup;
             }
             case  2072 :
             {
-                return ScanGravimetricStrengthBonusBonus;
+                return scangravimetricstrengthbonusbonus;
             }
             case  2073 :
             {
-                return ScanLadarStrengthBonusBonus;
+                return scanladarstrengthbonusbonus;
             }
             case  2074 :
             {
-                return ScanMagnetometricStrengthBonusBonus;
+                return scanmagnetometricstrengthbonusbonus;
             }
             case  2075 :
             {
-                return ScanRadarStrengthBonusBonus;
+                return scanradarstrengthbonusbonus;
             }
             case  2334 :
             {
-                return StructureItemVisualFlag;
+                return structureitemvisualflag;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

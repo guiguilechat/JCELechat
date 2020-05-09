@@ -1,226 +1,204 @@
 types:
   '''Anguis'' Ice Harvester Upgrade':
-    Cpu: 35.0
-    CpuPenaltyPercent: 6.0
-    Hp: 40.0
-    IceHarvestCycleBonus: -9.0
-    Mass: 1.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 35.0
+    cpupenaltypercent: 6.0
+    hp: 40.0
+    iceharvestcyclebonus: -9.0
     id: 22621
     marketGroup: 935
-    mass: 1.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Anguis'' Ice Harvester Upgrade'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   '''Aoede'' Mining Laser Upgrade':
-    Cpu: 40.0
-    CpuPenaltyPercent: 8.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    MiningAmountBonus: 10
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 40.0
+    cpupenaltypercent: 8.0
+    hp: 40.0
     id: 22615
     marketGroup: 935
-    mass: 1.0
+    metagroupid: 3
+    metalevel: 6
+    miningamountbonus: 10
     name: '''Aoede'' Mining Laser Upgrade'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   '''Carpo'' Mining Laser Upgrade':
-    Cpu: 35.0
-    CpuPenaltyPercent: 6.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    MiningAmountBonus: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 35.0
+    cpupenaltypercent: 6.0
+    hp: 40.0
     id: 22613
     marketGroup: 935
-    mass: 1.0
+    metagroupid: 3
+    metalevel: 6
+    miningamountbonus: 9
     name: '''Carpo'' Mining Laser Upgrade'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   '''Ingenii'' Ice Harvester Upgrade':
-    Cpu: 40.0
-    CpuPenaltyPercent: 8.0
-    Hp: 40.0
-    IceHarvestCycleBonus: -10.0
-    Mass: 1.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 40.0
+    cpupenaltypercent: 8.0
+    hp: 40.0
+    iceharvestcyclebonus: -10.0
     id: 22623
     marketGroup: 935
-    mass: 1.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Ingenii'' Ice Harvester Upgrade'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Elara Restrained Mining Laser Upgrade:
-    Cpu: 35.0
-    CpuPenaltyPercent: 8.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaLevel: 1
-    MiningAmountBonus: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 35.0
+    cpupenaltypercent: 8.0
+    hp: 40.0
     id: 22611
     marketGroup: 935
-    mass: 1.0
+    metalevel: 1
+    miningamountbonus: 8
     name: Elara Restrained Mining Laser Upgrade
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Frigoris Restrained Ice Harvester Upgrade:
-    Cpu: 35.0
-    CpuPenaltyPercent: 8.0
-    Hp: 40.0
-    IceHarvestCycleBonus: -8.0
-    Mass: 1.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 35.0
+    cpupenaltypercent: 8.0
+    hp: 40.0
+    iceharvestcyclebonus: -8.0
     id: 22619
     marketGroup: 935
-    mass: 1.0
+    metalevel: 1
     name: Frigoris Restrained Ice Harvester Upgrade
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Frostline 'Omnivore' Harvester Upgrade:
-    Cpu: 38.0
-    CpuPenaltyPercent: 12.5
-    Hp: 40.0
-    IceHarvestCycleBonus: -8.0
-    Mass: 1.0
-    MiningAmountBonus: 7
-    MiningDurationMultiplier: 0.9599999785423279
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 3
-    RequiredSkill2: 16281
-    RequiredSkill2Level: 3
-    TechLevel: 1
+    cpu: 38.0
+    cpupenaltypercent: 12.5
+    hp: 40.0
+    iceharvestcyclebonus: -8.0
     id: 49792
     marketGroup: 935
-    mass: 1.0
+    miningamountbonus: 7
+    miningdurationmultiplier: 0.9599999785423279
     name: Frostline 'Omnivore' Harvester Upgrade
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 3
+    requiredskill2: 16281
+    requiredskill2level: 3
+    techlevel: 1
     volume: 5.0
   Ice Harvester Upgrade I:
-    Cpu: 30.0
-    CpuPenaltyPercent: 10.0
-    Hp: 40.0
-    IceHarvestCycleBonus: -5.0
-    Mass: 1.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 30.0
+    cpupenaltypercent: 10.0
+    hp: 40.0
+    iceharvestcyclebonus: -5.0
     id: 22576
     marketGroup: 935
-    mass: 1.0
     name: Ice Harvester Upgrade I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Ice Harvester Upgrade II:
-    Cpu: 40.0
-    CpuPenaltyPercent: 12.5
-    Hp: 40.0
-    IceHarvestCycleBonus: -9.0
-    Mass: 1.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 4
-    TechLevel: 2
+    cpu: 40.0
+    cpupenaltypercent: 12.5
+    hp: 40.0
+    iceharvestcyclebonus: -9.0
     id: 28578
     marketGroup: 935
-    mass: 1.0
+    metalevel: 5
     name: Ice Harvester Upgrade II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 4
+    techlevel: 2
     volume: 5.0
   Mining Laser Upgrade I:
-    Cpu: 30.0
-    CpuPenaltyPercent: 10.0
-    Hp: 40.0
-    Mass: 1.0
-    MiningAmountBonus: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    cpu: 30.0
+    cpupenaltypercent: 10.0
+    hp: 40.0
     id: 22542
     marketGroup: 935
-    mass: 1.0
+    miningamountbonus: 5
     name: Mining Laser Upgrade I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Mining Laser Upgrade II:
-    Cpu: 40.0
-    CpuPenaltyPercent: 12.5
-    Hp: 40.0
-    Mass: 1.0
-    MetaLevel: 5
-    MiningAmountBonus: 9
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 22578
-    RequiredSkill1Level: 4
-    TechLevel: 2
+    cpu: 40.0
+    cpupenaltypercent: 12.5
+    hp: 40.0
     id: 28576
     marketGroup: 935
-    mass: 1.0
+    metalevel: 5
+    miningamountbonus: 9
     name: Mining Laser Upgrade II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 22578
+    requiredskill1level: 4
+    techlevel: 2
     volume: 5.0

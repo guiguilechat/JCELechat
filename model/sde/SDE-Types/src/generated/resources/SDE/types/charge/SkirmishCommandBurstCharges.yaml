@@ -1,57 +1,51 @@
 types:
   Evasive Maneuvers Charge:
-    LauncherGroup: 1770
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    RequiredSkill1: 3349
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 1
-    WarfareBuff1ID: 20
-    WarfareBuff1Multiplier: -6
-    WarfareBuff2ID: 60
-    WarfareBuff2Multiplier: -6
     id: 42838
+    launchergroup: 1770
     marketGroup: 2302
-    mass: 0.009999999776482582
     name: Evasive Maneuvers Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
     published: true
+    radius: 1.0
+    requiredskill1: 3349
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
     volume: 0.009999999776482582
+    warfarebuff1id: 20
+    warfarebuff1multiplier: -6
+    warfarebuff2id: 60
+    warfarebuff2multiplier: -6
   Interdiction Maneuvers Charge:
-    LauncherGroup: 1770
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    RequiredSkill1: 3349
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 1
-    WarfareBuff1ID: 21
-    WarfareBuff1Multiplier: 12
     id: 42839
+    launchergroup: 1770
     marketGroup: 2302
-    mass: 0.009999999776482582
     name: Interdiction Maneuvers Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
     published: true
+    radius: 1.0
+    requiredskill1: 3349
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
     volume: 0.009999999776482582
+    warfarebuff1id: 21
+    warfarebuff1multiplier: 12
   Rapid Deployment Charge:
-    LauncherGroup: 1770
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    RequiredSkill1: 3349
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 1
-    WarfareBuff1ID: 22
-    WarfareBuff1Multiplier: 12
     id: 42840
+    launchergroup: 1770
     marketGroup: 2302
-    mass: 0.009999999776482582
     name: Rapid Deployment Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
     published: true
+    radius: 1.0
+    requiredskill1: 3349
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
     volume: 0.009999999776482582
+    warfarebuff1id: 22
+    warfarebuff1multiplier: 12

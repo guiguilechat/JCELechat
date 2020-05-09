@@ -1,199 +1,197 @@
 types:
   Data Analyzer I:
-    AccessDifficultyBonus: 5
-    CapacitorNeed: 20.0
-    Cpu: 20.0
-    DisallowRepeatingActivation: 1
-    Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    Power: 1
-    Radius: 500.0
-    RequiredSkill2: 21718
-    RequiredSkill2Level: 1
-    TechLevel: 1
-    VirusCoherence: 40
-    VirusElementSlots: 3
-    VirusStrength: 20
+    accessdifficultybonus: 5
+    capacitorneed: 20.0
+    cpu: 20.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    hp: 40.0
     id: 22175
     marketGroup: 1718
+    maxrange: 5000.0
     name: Data Analyzer I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 500.0
+    requiredskill2: 21718
+    requiredskill2level: 1
+    techlevel: 1
+    viruscoherence: 40
+    viruselementslots: 3
+    virusstrength: 20
     volume: 5.0
   Data Analyzer II:
-    AccessDifficultyBonus: 7
-    CapacitorNeed: 20.0
-    Cpu: 25.0
-    DisallowRepeatingActivation: 1
-    Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 6000.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 500.0
-    RequiredSkill2: 21718
-    RequiredSkill2Level: 5
-    TechLevel: 2
-    VirusCoherence: 60
-    VirusElementSlots: 3
-    VirusStrength: 30
+    accessdifficultybonus: 7
+    capacitorneed: 20.0
+    cpu: 25.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    hp: 40.0
     id: 30834
     marketGroup: 1718
+    maxrange: 6000.0
+    metalevel: 5
     name: Data Analyzer II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 500.0
+    requiredskill2: 21718
+    requiredskill2level: 5
+    techlevel: 2
+    viruscoherence: 60
+    viruselementslots: 3
+    virusstrength: 30
     volume: 5.0
   Frostline 'Clavicula' Integrated Analyzer:
-    AccessDifficultyBonus: 6
-    CapacitorNeed: 20.0
-    Cpu: 25.0
-    DisallowRepeatingActivation: 1
-    Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 6000.0
-    Power: 1
-    Radius: 500.0
-    RequiredSkill1: 13278
-    RequiredSkill1Level: 3
-    RequiredSkill2: 21718
-    RequiredSkill2Level: 3
-    TechLevel: 1
-    VirusCoherence: 26
-    VirusElementSlots: 2
-    VirusStrength: 26
+    accessdifficultybonus: 6
+    capacitorneed: 20.0
+    cpu: 25.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    hp: 40.0
     id: 49791
     marketGroup: 1718
+    maxrange: 6000.0
     name: Frostline 'Clavicula' Integrated Analyzer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 500.0
+    requiredskill1: 13278
+    requiredskill1level: 3
+    requiredskill2: 21718
+    requiredskill2level: 3
+    techlevel: 1
+    viruscoherence: 26
+    viruselementslots: 2
+    virusstrength: 26
     volume: 5.0
   Ligature Integrated Analyzer:
-    AccessDifficultyBonus: 5
-    CapacitorNeed: 20.0
-    Cpu: 25.0
-    DisallowRepeatingActivation: 1
-    Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 500.0
-    RequiredSkill1: 13278
-    RequiredSkill1Level: 1
-    RequiredSkill2: 21718
-    RequiredSkill2Level: 1
-    TechLevel: 1
-    VirusCoherence: 20
-    VirusElementSlots: 1
-    VirusStrength: 20
+    accessdifficultybonus: 5
+    capacitorneed: 20.0
+    cpu: 25.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    hp: 40.0
     id: 41533
     marketGroup: 1718
+    maxrange: 5000.0
+    metagroupid: 3
+    metalevel: 6
     name: Ligature Integrated Analyzer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 500.0
+    requiredskill1: 13278
+    requiredskill1level: 1
+    requiredskill2: 21718
+    requiredskill2level: 1
+    techlevel: 1
+    viruscoherence: 20
+    viruselementslots: 1
+    virusstrength: 20
     volume: 5.0
   Purloined Sansha Data Analyzer:
-    AccessDifficultyBonus: 5
-    CanFitShipType1: 3532
-    CapacitorNeed: 20.0
-    DisallowRepeatingActivation: 1
-    Duration: 8000.0
-    Hp: 40.0
-    Mass: 1800.0
-    MaxRange: 10000.0
-    MetaLevel: 6
-    Radius: 500.0
-    RequiredSkill2: 21718
-    RequiredSkill2Level: 1
-    TechLevel: 1
-    VirusCoherence: 80
-    VirusElementSlots: 3
-    VirusStrength: 40
+    accessdifficultybonus: 5
+    canfitshiptype1: 3532
+    capacitorneed: 20.0
+    disallowrepeatingactivation: 1
+    duration: 8000.0
+    hp: 40.0
     id: 3581
     marketGroup: 1718
-    mass: 1800.0
+    maxrange: 10000.0
+    metalevel: 6
     name: Purloined Sansha Data Analyzer
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 500.0
+    requiredskill2: 21718
+    requiredskill2level: 1
+    techlevel: 1
+    viruscoherence: 80
+    viruselementslots: 3
+    virusstrength: 40
     volume: 5.0
   Relic Analyzer I:
-    AccessDifficultyBonus: 5
-    CapacitorNeed: 20.0
-    Cpu: 20.0
-    DisallowRepeatingActivation: 1
-    Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 5000.0
-    Power: 1
-    Radius: 500.0
-    RequiredSkill2: 13278
-    RequiredSkill2Level: 1
-    TechLevel: 1
-    VirusCoherence: 40
-    VirusElementSlots: 3
-    VirusStrength: 20
+    accessdifficultybonus: 5
+    capacitorneed: 20.0
+    cpu: 20.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    hp: 40.0
     id: 22177
     marketGroup: 1718
+    maxrange: 5000.0
     name: Relic Analyzer I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 500.0
+    requiredskill2: 13278
+    requiredskill2level: 1
+    techlevel: 1
+    viruscoherence: 40
+    viruselementslots: 3
+    virusstrength: 20
     volume: 5.0
   Relic Analyzer II:
-    AccessDifficultyBonus: 7
-    CapacitorNeed: 20.0
-    Cpu: 25.0
-    DisallowRepeatingActivation: 1
-    Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 6000.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 500.0
-    RequiredSkill2: 13278
-    RequiredSkill2Level: 5
-    TechLevel: 2
-    VirusCoherence: 60
-    VirusElementSlots: 3
-    VirusStrength: 30
+    accessdifficultybonus: 7
+    capacitorneed: 20.0
+    cpu: 25.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    hp: 40.0
     id: 30832
     marketGroup: 1718
+    maxrange: 6000.0
+    metalevel: 5
     name: Relic Analyzer II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 500.0
+    requiredskill2: 13278
+    requiredskill2level: 5
+    techlevel: 2
+    viruscoherence: 60
+    viruselementslots: 3
+    virusstrength: 30
     volume: 5.0
   Zeugma Integrated Analyzer:
-    AccessDifficultyBonus: 7
-    CapacitorNeed: 20.0
-    Cpu: 30.0
-    DisallowRepeatingActivation: 1
-    Duration: 10000.0
-    Hp: 40.0
-    MaxRange: 6000.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 500.0
-    RequiredSkill1: 13278
-    RequiredSkill1Level: 5
-    RequiredSkill2: 21718
-    RequiredSkill2Level: 5
-    TechLevel: 2
-    VirusCoherence: 30
-    VirusElementSlots: 1
-    VirusStrength: 30
+    accessdifficultybonus: 7
+    capacitorneed: 20.0
+    cpu: 30.0
+    disallowrepeatingactivation: 1
+    duration: 10000.0
+    hp: 40.0
     id: 41534
     marketGroup: 1718
+    maxrange: 6000.0
+    metagroupid: 3
+    metalevel: 6
     name: Zeugma Integrated Analyzer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 500.0
+    requiredskill1: 13278
+    requiredskill1level: 5
+    requiredskill2: 21718
+    requiredskill2level: 5
+    techlevel: 2
+    viruscoherence: 30
+    viruselementslots: 1
+    virusstrength: 30
     volume: 5.0

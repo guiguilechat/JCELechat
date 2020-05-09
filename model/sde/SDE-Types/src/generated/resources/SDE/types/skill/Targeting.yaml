@@ -1,121 +1,121 @@
 types:
   Advanced Target Management:
-    MaxTargetBonus: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3429
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
     id: 3430
     marketGroup: 1748
+    maxtargetbonus: 1
     name: Advanced Target Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3429
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Gravimetric Sensor Compensation:
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SensorStrengthBonus: 4
-    SkillTimeConstant: 2.0
     id: 33000
     marketGroup: 1748
     name: Gravimetric Sensor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    secondaryattribute: 166
+    sensorstrengthbonus: 4
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Ladar Sensor Compensation:
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SensorStrengthBonus: 4
-    SkillTimeConstant: 2.0
     id: 33001
     marketGroup: 1748
     name: Ladar Sensor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    secondaryattribute: 166
+    sensorstrengthbonus: 4
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Long Range Targeting:
-    MaxTargetRangeBonus: 5.0
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
     id: 3428
     marketGroup: 1748
+    maxtargetrangebonus: 5.0
     name: Long Range Targeting
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Magnetometric Sensor Compensation:
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SensorStrengthBonus: 4
-    SkillTimeConstant: 2.0
     id: 32999
     marketGroup: 1748
     name: Magnetometric Sensor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    secondaryattribute: 166
+    sensorstrengthbonus: 4
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Radar Sensor Compensation:
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SensorStrengthBonus: 4
-    SkillTimeConstant: 2.0
     id: 33002
     marketGroup: 1748
     name: Radar Sensor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    secondaryattribute: 166
+    sensorstrengthbonus: 4
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Signature Analysis:
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanResolutionBonus: 5.0
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
     id: 3431
     marketGroup: 1748
     name: Signature Analysis
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scanresolutionbonus: 5.0
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Target Management:
-    MaxTargetBonus: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
     id: 3429
     marketGroup: 1748
+    maxtargetbonus: 1
     name: Target Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582

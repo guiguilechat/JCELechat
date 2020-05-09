@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,31 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffEffectiveness;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSensorModuleStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteResistanceID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,70 +51,70 @@ public class SensorDampener
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup1;
+    public int chargegroup1;
     /**
      * The size of the charges that can fit in the turret/whatever.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeSize;
+    public int chargesize;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * distance from maximum range at which effectiveness has fallen by half
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int FalloffEffectiveness;
+    public int falloffeffectiveness;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
+    public double heatabsorbtionratemodifier;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatDamage;
+    public double heatdamage;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * Bonus to Max Targeting Range
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MaxTargetRangeBonus;
+    public double maxtargetrangebonus;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -101,7 +129,7 @@ public class SensorDampener
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -109,63 +137,63 @@ public class SensorDampener
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int OverloadSensorModuleStrengthBonus;
+    public int overloadsensormodulestrengthbonus;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * reload time (ms)
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
+    public double reloadtime;
     /**
      * Attribute ID of the resistance type v's this Ewar module.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RemoteResistanceID;
+    public int remoteresistanceid;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
+    public int requiredthermodynamicsskill;
     /**
      * Bonus for scan resolution
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanResolutionBonus;
+    public double scanresolutionbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -173,7 +201,8 @@ public class SensorDampener
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadSensorModuleStrengthBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RemoteResistanceID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, MaxTargetRangeBonus.INSTANCE, RequiredSkill1 .INSTANCE, ScanResolutionBonus.INSTANCE, MaxRange.INSTANCE, MetaLevel.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE })));
     public static final SensorDampener.MetaGroup METAGROUP = new SensorDampener.MetaGroup();
 
     @Override
@@ -181,93 +210,98 @@ public class SensorDampener
         switch (attribute.getId()) {
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  604 :
             {
-                return ChargeGroup1;
+                return chargegroup1;
             }
             case  128 :
             {
-                return ChargeSize;
+                return chargesize;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  2044 :
             {
-                return FalloffEffectiveness;
+                return falloffeffectiveness;
             }
             case  1180 :
             {
-                return HeatAbsorbtionRateModifier;
+                return heatabsorbtionratemodifier;
             }
             case  1211 :
             {
-                return HeatDamage;
+                return heatdamage;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  309 :
             {
-                return MaxTargetRangeBonus;
+                return maxtargetrangebonus;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  1936 :
             {
-                return OverloadSensorModuleStrengthBonus;
+                return overloadsensormodulestrengthbonus;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  1795 :
             {
-                return ReloadTime;
+                return reloadtime;
             }
             case  2138 :
             {
-                return RemoteResistanceID;
+                return remoteresistanceid;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  1212 :
             {
-                return RequiredThermoDynamicsSkill;
+                return requiredthermodynamicsskill;
             }
             case  566 :
             {
-                return ScanResolutionBonus;
+                return scanresolutionbonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

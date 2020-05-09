@@ -1,13 +1,13 @@
 types:
   '''Aurora Ominae'' Thermal Doomsday Blueprint':
-    IndustryBlueprintRank: 240.0
-    Radius: 1.0
     id: 24555
+    industryblueprintrank: 240.0
     marketGroup: 913
     name: '''Aurora Ominae'' Thermal Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   '''Cold Wind'' Kinetic Reaper Blueprint':
     id: 41449
@@ -34,14 +34,14 @@ types:
     published: true
     volume: 0.009999999776482582
   '''Gjallarhorn'' Explosive Doomsday Blueprint':
-    IndustryBlueprintRank: 240.0
-    Radius: 1.0
     id: 24549
+    industryblueprintrank: 240.0
     marketGroup: 913
     name: '''Gjallarhorn'' Explosive Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   '''Guillotine'' Thermal Reaper Blueprint':
     id: 41450
@@ -76,24 +76,24 @@ types:
     published: true
     volume: 0.009999999776482582
   '''Judgment'' Electromagnetic Doomsday Blueprint':
-    IndustryBlueprintRank: 240.0
-    Radius: 1.0
     id: 24551
+    industryblueprintrank: 240.0
     marketGroup: 913
     name: '''Judgment'' Electromagnetic Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   '''Oblivion'' Kinetic Doomsday Blueprint':
-    IndustryBlueprintRank: 240.0
-    Radius: 1.0
     id: 24553
+    industryblueprintrank: 240.0
     marketGroup: 913
     name: '''Oblivion'' Kinetic Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   '''Phalarica'' Thermal Lance Blueprint':
     id: 41447

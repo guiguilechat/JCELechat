@@ -1,31 +1,31 @@
 types:
   Discovery Survey Probe I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 32854
+    industryblueprintrank: 3.0
     marketGroup: 1521
     name: Discovery Survey Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Gaze Survey Probe I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 32855
+    industryblueprintrank: 3.0
     marketGroup: 1521
     name: Gaze Survey Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Quest Survey Probe I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 32839
+    industryblueprintrank: 3.0
     marketGroup: 1521
     name: Quest Survey Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

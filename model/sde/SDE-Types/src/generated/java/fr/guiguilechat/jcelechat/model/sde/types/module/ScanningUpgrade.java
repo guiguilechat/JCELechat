@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,19 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxScanDeviationModifierModule;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanStrengthBonusModule;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,14 +39,14 @@ public class ScanningUpgrade
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int MaxScanDeviationModifierModule;
+    public int maxscandeviationmodifiermodule;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -38,42 +54,42 @@ public class ScanningUpgrade
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanStrengthBonus;
+    public int scanstrengthbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int ScanStrengthBonusModule;
+    public int scanstrengthbonusmodule;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -81,7 +97,8 @@ public class ScanningUpgrade
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, ScanStrengthBonus.INSTANCE, MaxScanDeviationModifierModule.INSTANCE, Cpu.INSTANCE, ScanStrengthBonusModule.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevel.INSTANCE, Power.INSTANCE })));
     public static final ScanningUpgrade.MetaGroup METAGROUP = new ScanningUpgrade.MetaGroup();
 
     @Override
@@ -89,45 +106,50 @@ public class ScanningUpgrade
         switch (attribute.getId()) {
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1905 :
             {
-                return MaxScanDeviationModifierModule;
+                return maxscandeviationmodifiermodule;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  846 :
             {
-                return ScanStrengthBonus;
+                return scanstrengthbonus;
             }
             case  1907 :
             {
-                return ScanStrengthBonusModule;
+                return scanstrengthbonusmodule;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

@@ -1,154 +1,142 @@
 types:
   Standup Capital Shipyard I:
-    CanFitShipType1: 35827
-    CanFitShipType10: 47516
-    CanFitShipType2: 35826
-    CanFitShipType3: 35834
-    CanFitShipType4: 35833
-    CanFitShipType5: 40340
-    CanFitShipType6: 47512
-    CanFitShipType7: 47513
-    CanFitShipType8: 47514
-    CanFitShipType9: 47515
-    Cpu: 600.0
-    DisallowInHighSec: 1
-    Mass: 500.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 80000
-    Radius: 1.0
-    ServiceModuleFuelAmount: 24
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 1728
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshiptype1: 35827
+    canfitshiptype10: 47516
+    canfitshiptype2: 35826
+    canfitshiptype3: 35834
+    canfitshiptype4: 35833
+    canfitshiptype5: 40340
+    canfitshiptype6: 47512
+    canfitshiptype7: 47513
+    canfitshiptype8: 47514
+    canfitshiptype9: 47515
+    cpu: 600.0
+    disallowinhighsec: 1
     id: 35881
     marketGroup: 2332
-    mass: 500.0
+    maxtypefitted: 1
     name: Standup Capital Shipyard I
+    onlinemaxsecurityclass: 1
     packagedVolume: 32000.0
     portionSize: 1
+    power: 80000
     published: true
+    radius: 1.0
+    servicemodulefuelamount: 24
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 1728
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 32000.0
   Standup Hyasyoda Research Lab:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Cpu: 600.0
-    Mass: 500.0
-    MaxTypeFitted: 1
-    MetaGroupID: 4
-    OnlineMaxSecurityClass: 2
-    Power: 25000
-    Radius: 1.0
-    ServiceModuleFuelAmount: 10
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 720
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    cpu: 600.0
     id: 45550
     marketGroup: 2332
-    mass: 500.0
+    maxtypefitted: 1
+    metagroupid: 4
     name: Standup Hyasyoda Research Lab
+    onlinemaxsecurityclass: 2
     packagedVolume: 4000.0
     portionSize: 1
+    power: 25000
     published: true
+    radius: 1.0
+    servicemodulefuelamount: 10
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 720
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 4000.0
   Standup Invention Lab I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Cpu: 700.0
-    Mass: 500.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 2
-    Power: 30000
-    Radius: 1.0
-    ServiceModuleFuelAmount: 12
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    cpu: 700.0
     id: 35886
     marketGroup: 2332
-    mass: 500.0
+    maxtypefitted: 1
     name: Standup Invention Lab I
+    onlinemaxsecurityclass: 2
     packagedVolume: 4000.0
     portionSize: 1
+    power: 30000
     published: true
+    radius: 1.0
+    servicemodulefuelamount: 12
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 864
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 4000.0
   Standup Manufacturing Plant I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Cpu: 300.0
-    Mass: 500.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 2
-    Power: 60000
-    Radius: 1.0
-    ServiceModuleFuelAmount: 12
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    cpu: 300.0
     id: 35878
     marketGroup: 2332
-    mass: 500.0
+    maxtypefitted: 1
     name: Standup Manufacturing Plant I
+    onlinemaxsecurityclass: 2
     packagedVolume: 4000.0
     portionSize: 1
+    power: 60000
     published: true
+    radius: 1.0
+    servicemodulefuelamount: 12
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 864
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 4000.0
   Standup Research Lab I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    Cpu: 600.0
-    Mass: 500.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 2
-    Power: 30000
-    Radius: 1.0
-    ServiceModuleFuelAmount: 12
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 864
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    cpu: 600.0
     id: 35891
     marketGroup: 2332
-    mass: 500.0
+    maxtypefitted: 1
     name: Standup Research Lab I
+    onlinemaxsecurityclass: 2
     packagedVolume: 4000.0
     portionSize: 1
+    power: 30000
     published: true
+    radius: 1.0
+    servicemodulefuelamount: 12
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 864
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 4000.0
   Standup Supercapital Shipyard I:
-    CanFitShipType1: 35827
-    Cpu: 1000.0
-    DisallowInEmpireSpace: 1
-    Mass: 4000.0
-    MaxTypeFitted: 1
-    OnlineMaxSecurityClass: 1
-    Power: 120000
-    Radius: 1.0
-    RequiresSovUpgrade1: 2009
-    ServiceModuleFuelAmount: 36
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 2592
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    canfitshiptype1: 35827
+    cpu: 1000.0
+    disallowinempirespace: 1
     id: 35877
     marketGroup: 2332
-    mass: 4000.0
+    maxtypefitted: 1
     name: Standup Supercapital Shipyard I
+    onlinemaxsecurityclass: 1
     packagedVolume: 64000.0
     portionSize: 1
+    power: 120000
     published: true
+    radius: 1.0
+    requiressovupgrade1: 2009
+    servicemodulefuelamount: 36
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 2592
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 64000.0

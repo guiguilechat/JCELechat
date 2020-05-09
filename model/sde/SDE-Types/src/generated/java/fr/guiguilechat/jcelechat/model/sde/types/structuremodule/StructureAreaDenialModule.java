@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,39 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType10;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType11;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType6;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType7;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType8;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType9;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DeadspaceUnsafe;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmpFieldRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupOnline;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OnlineMaxSecurityClass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,168 +59,168 @@ public class StructureAreaDenialModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType1;
+    public int canfitshiptype1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType10;
+    public int canfitshiptype10;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType11;
+    public int canfitshiptype11;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType2;
+    public int canfitshiptype2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType3;
+    public int canfitshiptype3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType4;
+    public int canfitshiptype4;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType5;
+    public int canfitshiptype5;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType6;
+    public int canfitshiptype6;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType7;
+    public int canfitshiptype7;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType8;
+    public int canfitshiptype8;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType9;
+    public int canfitshiptype9;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * Modules with this attribute set to 1 can not be used in deadspace. Modules with this attribute set to 2 can not be used in deadspace even where "disableModuleBlocking" is selected
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DeadspaceUnsafe;
+    public int deadspaceunsafe;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowInHighSec;
+    public int disallowinhighsec;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EmDamage;
+    public double emdamage;
     /**
      * Range of broadcasted EMP field.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EmpFieldRange;
+    public int empfieldrange;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
+    public double explosivedamage;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double KineticDamage;
+    public double kineticdamage;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupOnline;
+    public int maxgrouponline;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -192,7 +228,7 @@ public class StructureAreaDenialModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * Determines the maximum security class that a module can be onlined within. Used for structure modules.
      * 
@@ -203,14 +239,14 @@ public class StructureAreaDenialModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(2)
-    public int OnlineMaxSecurityClass;
+    public int onlinemaxsecurityclass;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -218,14 +254,15 @@ public class StructureAreaDenialModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    public double thermaldamage;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, CanFitShipType11 .INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, MaxGroupOnline.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, CanFitShipType7 .INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, CanFitShipType8 .INSTANCE, ThermalDamage.INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, MetaLevel.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final StructureAreaDenialModule.MetaGroup METAGROUP = new StructureAreaDenialModule.MetaGroup();
 
     @Override
@@ -233,125 +270,130 @@ public class StructureAreaDenialModule
         switch (attribute.getId()) {
             case  1302 :
             {
-                return CanFitShipType1;
+                return canfitshiptype1;
             }
             case  2488 :
             {
-                return CanFitShipType10;
+                return canfitshiptype10;
             }
             case  2758 :
             {
-                return CanFitShipType11;
+                return canfitshiptype11;
             }
             case  1303 :
             {
-                return CanFitShipType2;
+                return canfitshiptype2;
             }
             case  1304 :
             {
-                return CanFitShipType3;
+                return canfitshiptype3;
             }
             case  1305 :
             {
-                return CanFitShipType4;
+                return canfitshiptype4;
             }
             case  1944 :
             {
-                return CanFitShipType5;
+                return canfitshiptype5;
             }
             case  2103 :
             {
-                return CanFitShipType6;
+                return canfitshiptype6;
             }
             case  2463 :
             {
-                return CanFitShipType7;
+                return canfitshiptype7;
             }
             case  2486 :
             {
-                return CanFitShipType8;
+                return canfitshiptype8;
             }
             case  2487 :
             {
-                return CanFitShipType9;
+                return canfitshiptype9;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  801 :
             {
-                return DeadspaceUnsafe;
+                return deadspaceunsafe;
             }
             case  1970 :
             {
-                return DisallowInHighSec;
+                return disallowinhighsec;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  114 :
             {
-                return EmDamage;
+                return emdamage;
             }
             case  99 :
             {
-                return EmpFieldRange;
+                return empfieldrange;
             }
             case  116 :
             {
-                return ExplosiveDamage;
+                return explosivedamage;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  117 :
             {
-                return KineticDamage;
+                return kineticdamage;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  978 :
             {
-                return MaxGroupOnline;
+                return maxgrouponline;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  2581 :
             {
-                return OnlineMaxSecurityClass;
+                return onlinemaxsecurityclass;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  118 :
             {
-                return ThermalDamage;
+                return thermaldamage;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

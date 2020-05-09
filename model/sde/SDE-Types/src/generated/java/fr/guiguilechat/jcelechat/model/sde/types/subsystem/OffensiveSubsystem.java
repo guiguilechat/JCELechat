@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.subsystem;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,51 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherHardPointModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargetsBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteArmorRepairerFalloffBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteArmorRepairerOptimalBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteShieldBoosterFalloffBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RoleBonusCommandBurstAoERange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrOffensive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrOffensive2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrOffensive3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariOffensive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariOffensive2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariOffensive3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteOffensive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteOffensive2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteOffensive3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarOffensive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarOffensive2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarOffensive3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemCommandBurstFittingReduction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemMETFittingReduction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemMHTFittingReduction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemMMissileFittingReduction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemMPTFittingReduction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemMRARFittingReduction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemMRSBFittingReduction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TurretHardPointModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareLinkCPUPenalty;
 import fr.guiguilechat.jcelechat.model.sde.types.Subsystem;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,224 +71,225 @@ public class OffensiveSubsystem
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorCapacity;
+    public double capacitorcapacity;
     /**
      * CPU output of ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CpuOutput;
+    public int cpuoutput;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DroneBandwidth;
+    public int dronebandwidth;
     /**
      * This defines the total capacity of drones allowed in the drone bay of the ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DroneCapacity;
+    public int dronecapacity;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherHardPointModifier;
+    public int launcherhardpointmodifier;
     /**
      * Additional amount of locked targets that can be handled.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxLockedTargetsBonus;
+    public int maxlockedtargetsbonus;
     /**
      * power output of power core
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PowerOutput;
+    public int poweroutput;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RemoteArmorRepairerFalloffBonus;
+    public int remotearmorrepairerfalloffbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RemoteArmorRepairerOptimalBonus;
+    public int remotearmorrepaireroptimalbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RemoteShieldBoosterFalloffBonus;
+    public int remoteshieldboosterfalloffbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RoleBonusCommandBurstAoERange;
+    public int rolebonuscommandburstaoerange;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusAmarrOffensive;
+    public int subsystembonusamarroffensive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusAmarrOffensive2;
+    public int subsystembonusamarroffensive2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusAmarrOffensive3;
+    public double subsystembonusamarroffensive3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusCaldariOffensive;
+    public double subsystembonuscaldarioffensive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusCaldariOffensive2;
+    public int subsystembonuscaldarioffensive2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusCaldariOffensive3;
+    public int subsystembonuscaldarioffensive3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusGallenteOffensive;
+    public double subsystembonusgallenteoffensive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusGallenteOffensive2;
+    public int subsystembonusgallenteoffensive2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusGallenteOffensive3;
+    public double subsystembonusgallenteoffensive3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusMinmatarOffensive;
+    public double subsystembonusminmataroffensive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusMinmatarOffensive2;
+    public double subsystembonusminmataroffensive2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusMinmatarOffensive3;
+    public double subsystembonusminmataroffensive3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemCommandBurstFittingReduction;
+    public int subsystemcommandburstfittingreduction;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemMETFittingReduction;
+    public int subsystemmetfittingreduction;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemMHTFittingReduction;
+    public int subsystemmhtfittingreduction;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemMMissileFittingReduction;
+    public int subsystemmmissilefittingreduction;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemMPTFittingReduction;
+    public int subsystemmptfittingreduction;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemMRARFittingReduction;
+    public int subsystemmrarfittingreduction;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemMRSBFittingReduction;
+    public int subsystemmrsbfittingreduction;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int TurretHardPointModifier;
+    public int turrethardpointmodifier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareLinkCPUPenalty;
+    public int warfarelinkcpupenalty;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SubsystemCommandBurstFittingReduction.INSTANCE, Mass.INSTANCE, RemoteShieldBoosterFalloffBonus.INSTANCE, RemoteArmorRepairerFalloffBonus.INSTANCE, RemoteArmorRepairerOptimalBonus.INSTANCE, Hp.INSTANCE, PowerOutput.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, TurretHardPointModifier.INSTANCE, LauncherHardPointModifier.INSTANCE, SubsystemBonusAmarrOffensive.INSTANCE, DroneCapacity.INSTANCE, WarfareLinkCPUPenalty.INSTANCE, HiSlotModifier.INSTANCE, SubsystemBonusGallenteOffensive.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, SubsystemBonusCaldariOffensive.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusCaldariOffensive2 .INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SubsystemBonusAmarrOffensive2 .INSTANCE, SubsystemBonusMinmatarOffensive.INSTANCE, SubsystemMHTFittingReduction.INSTANCE, MaxLockedTargetsBonus.INSTANCE, SubsystemMPTFittingReduction.INSTANCE, SubsystemMETFittingReduction.INSTANCE, SubsystemMMissileFittingReduction.INSTANCE, SubsystemMRSBFittingReduction.INSTANCE, SubsystemMRARFittingReduction.INSTANCE, CpuOutput.INSTANCE, SubsystemBonusGallenteOffensive2 .INSTANCE, SubsystemBonusMinmatarOffensive2 .INSTANCE, RequiredSkill1 .INSTANCE, DroneBandwidth.INSTANCE, MetaLevel.INSTANCE, SubsystemBonusAmarrOffensive3 .INSTANCE, SubsystemBonusGallenteOffensive3 .INSTANCE, SubsystemBonusCaldariOffensive3 .INSTANCE, SubsystemBonusMinmatarOffensive3 .INSTANCE })));
     public static final OffensiveSubsystem.MetaGroup METAGROUP = new OffensiveSubsystem.MetaGroup();
 
     @Override
@@ -248,137 +297,142 @@ public class OffensiveSubsystem
         switch (attribute.getId()) {
             case  482 :
             {
-                return CapacitorCapacity;
+                return capacitorcapacity;
             }
             case  48 :
             {
-                return CpuOutput;
+                return cpuoutput;
             }
             case  1271 :
             {
-                return DroneBandwidth;
+                return dronebandwidth;
             }
             case  283 :
             {
-                return DroneCapacity;
+                return dronecapacity;
             }
             case  1369 :
             {
-                return LauncherHardPointModifier;
+                return launcherhardpointmodifier;
             }
             case  235 :
             {
-                return MaxLockedTargetsBonus;
+                return maxlockedtargetsbonus;
             }
             case  11 :
             {
-                return PowerOutput;
+                return poweroutput;
             }
             case  2694 :
             {
-                return RemoteArmorRepairerFalloffBonus;
+                return remotearmorrepairerfalloffbonus;
             }
             case  2695 :
             {
-                return RemoteArmorRepairerOptimalBonus;
+                return remotearmorrepaireroptimalbonus;
             }
             case  2693 :
             {
-                return RemoteShieldBoosterFalloffBonus;
+                return remoteshieldboosterfalloffbonus;
             }
             case  2574 :
             {
-                return RoleBonusCommandBurstAoERange;
+                return rolebonuscommandburstaoerange;
             }
             case  1434 :
             {
-                return SubsystemBonusAmarrOffensive;
+                return subsystembonusamarroffensive;
             }
             case  1511 :
             {
-                return SubsystemBonusAmarrOffensive2;
+                return subsystembonusamarroffensive2;
             }
             case  1531 :
             {
-                return SubsystemBonusAmarrOffensive3;
+                return subsystembonusamarroffensive3;
             }
             case  1444 :
             {
-                return SubsystemBonusCaldariOffensive;
+                return subsystembonuscaldarioffensive;
             }
             case  1510 :
             {
-                return SubsystemBonusCaldariOffensive2;
+                return subsystembonuscaldarioffensive2;
             }
             case  1533 :
             {
-                return SubsystemBonusCaldariOffensive3;
+                return subsystembonuscaldarioffensive3;
             }
             case  1439 :
             {
-                return SubsystemBonusGallenteOffensive;
+                return subsystembonusgallenteoffensive;
             }
             case  1521 :
             {
-                return SubsystemBonusGallenteOffensive2;
+                return subsystembonusgallenteoffensive2;
             }
             case  1532 :
             {
-                return SubsystemBonusGallenteOffensive3;
+                return subsystembonusgallenteoffensive3;
             }
             case  1449 :
             {
-                return SubsystemBonusMinmatarOffensive;
+                return subsystembonusminmataroffensive;
             }
             case  1522 :
             {
-                return SubsystemBonusMinmatarOffensive2;
+                return subsystembonusminmataroffensive2;
             }
             case  1534 :
             {
-                return SubsystemBonusMinmatarOffensive3;
+                return subsystembonusminmataroffensive3;
             }
             case  2692 :
             {
-                return SubsystemCommandBurstFittingReduction;
+                return subsystemcommandburstfittingreduction;
             }
             case  2668 :
             {
-                return SubsystemMETFittingReduction;
+                return subsystemmetfittingreduction;
             }
             case  2666 :
             {
-                return SubsystemMHTFittingReduction;
+                return subsystemmhtfittingreduction;
             }
             case  2669 :
             {
-                return SubsystemMMissileFittingReduction;
+                return subsystemmmissilefittingreduction;
             }
             case  2667 :
             {
-                return SubsystemMPTFittingReduction;
+                return subsystemmptfittingreduction;
             }
             case  2671 :
             {
-                return SubsystemMRARFittingReduction;
+                return subsystemmrarfittingreduction;
             }
             case  2670 :
             {
-                return SubsystemMRSBFittingReduction;
+                return subsystemmrsbfittingreduction;
             }
             case  1368 :
             {
-                return TurretHardPointModifier;
+                return turrethardpointmodifier;
             }
             case  1883 :
             {
-                return WarfareLinkCPUPenalty;
+                return warfarelinkcpupenalty;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

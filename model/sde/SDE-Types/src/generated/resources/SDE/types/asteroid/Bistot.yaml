@@ -1,169 +1,153 @@
 types:
   Bistot:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28388
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1223
-    Radius: 1.0
-    ReprocessingSkillType: 12181
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 28388
     id: 1223
     marketGroup: 514
-    mass: 1.0000000409184788E35
     name: Bistot
+    orebasictype: 1223
     packagedVolume: 16.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12181
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 16.0
   Compressed Bistot:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1223
-    Radius: 1.0
-    ReprocessingSkillType: 12181
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28388
     marketGroup: 514
-    mass: 1.0000000409184788E35
     name: Compressed Bistot
+    orebasictype: 1223
     packagedVolume: 4.400000095367432
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12181
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 4.400000095367432
   Compressed Cubic Bistot:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0
-    OreBasicType: 46676
-    Radius: 1.0
-    ReprocessingSkillType: 12181
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 46692
     marketGroup: 514
-    mass: 1.0
     name: Compressed Cubic Bistot
+    orebasictype: 46676
     packagedVolume: 4.400000095367432
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12181
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 4.400000095367432
   Compressed Monoclinic Bistot:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1223
-    Radius: 1.0
-    ReprocessingSkillType: 12181
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28389
     marketGroup: 514
-    mass: 1.0000000409184788E35
     name: Compressed Monoclinic Bistot
+    orebasictype: 1223
     packagedVolume: 4.400000095367432
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12181
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 4.400000095367432
   Compressed Triclinic Bistot:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1223
-    Radius: 1.0
-    ReprocessingSkillType: 12181
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28390
     marketGroup: 514
-    mass: 1.0000000409184788E35
     name: Compressed Triclinic Bistot
+    orebasictype: 1223
     packagedVolume: 4.400000095367432
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12181
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 4.400000095367432
   Cubic Bistot:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 2.0
-    AsteroidRadiusUnitSize: 800
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 46692
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1223
-    Radius: 1.0
-    ReprocessingSkillType: 12181
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 2.0
+    asteroidradiusunitsize: 800
+    compressionquantityneeded: 100
+    compressiontypeid: 46692
     id: 46676
     marketGroup: 514
-    mass: 1.0000000409184788E35
     name: Cubic Bistot
+    orebasictype: 1223
     packagedVolume: 16.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12181
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 16.0
   Monoclinic Bistot:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28389
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1223
-    Radius: 1.0
-    ReprocessingSkillType: 12181
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 28389
     id: 17429
     marketGroup: 514
-    mass: 1.0000000409184788E35
     name: Monoclinic Bistot
+    orebasictype: 1223
     packagedVolume: 16.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12181
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 16.0
   Triclinic Bistot:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28390
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1223
-    Radius: 1.0
-    ReprocessingSkillType: 12181
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 28390
     id: 17428
     marketGroup: 514
-    mass: 1.0000000409184788E35
     name: Triclinic Bistot
+    orebasictype: 1223
     packagedVolume: 16.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12181
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 16.0

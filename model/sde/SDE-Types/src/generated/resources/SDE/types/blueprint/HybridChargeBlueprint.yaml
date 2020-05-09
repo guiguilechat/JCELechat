@@ -1,321 +1,321 @@
 types:
   Antimatter Charge L Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 1153
+    industryblueprintrank: 3.0
     marketGroup: 306
     name: Antimatter Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Antimatter Charge M Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 1145
+    industryblueprintrank: 2.0
     marketGroup: 308
     name: Antimatter Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Antimatter Charge S Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 1137
+    industryblueprintrank: 1.0
     marketGroup: 307
     name: Antimatter Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Antimatter Charge XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    Radius: 1.0
     id: 17649
+    industryblueprintrank: 4.0
     marketGroup: 598
     name: Antimatter Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Iridium Charge L Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 1148
+    industryblueprintrank: 3.0
     marketGroup: 306
     name: Iridium Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Iridium Charge M Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 1140
+    industryblueprintrank: 2.0
     marketGroup: 308
     name: Iridium Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Iridium Charge S Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 1132
+    industryblueprintrank: 1.0
     marketGroup: 307
     name: Iridium Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Iridium Charge XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    Radius: 1.0
     id: 17651
+    industryblueprintrank: 4.0
     marketGroup: 598
     name: Iridium Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Iron Charge L Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 1146
+    industryblueprintrank: 3.0
     marketGroup: 306
     name: Iron Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Iron Charge M Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 1138
+    industryblueprintrank: 2.0
     marketGroup: 308
     name: Iron Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Iron Charge S Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 1130
+    industryblueprintrank: 1.0
     marketGroup: 307
     name: Iron Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Iron Charge XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    Radius: 1.0
     id: 17653
+    industryblueprintrank: 4.0
     marketGroup: 598
     name: Iron Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Lead Charge L Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 1149
+    industryblueprintrank: 3.0
     marketGroup: 306
     name: Lead Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Lead Charge M Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 1141
+    industryblueprintrank: 2.0
     marketGroup: 308
     name: Lead Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Lead Charge S Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 1133
+    industryblueprintrank: 1.0
     marketGroup: 307
     name: Lead Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Lead Charge XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    Radius: 1.0
     id: 17655
+    industryblueprintrank: 4.0
     marketGroup: 598
     name: Lead Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Plutonium Charge L Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 1152
+    industryblueprintrank: 3.0
     marketGroup: 306
     name: Plutonium Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Plutonium Charge M Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 1144
+    industryblueprintrank: 2.0
     marketGroup: 308
     name: Plutonium Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Plutonium Charge S Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 1136
+    industryblueprintrank: 1.0
     marketGroup: 307
     name: Plutonium Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Plutonium Charge XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    Radius: 1.0
     id: 17657
+    industryblueprintrank: 4.0
     marketGroup: 598
     name: Plutonium Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Thorium Charge L Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 1150
+    industryblueprintrank: 3.0
     marketGroup: 306
     name: Thorium Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Thorium Charge M Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 1142
+    industryblueprintrank: 2.0
     marketGroup: 308
     name: Thorium Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Thorium Charge S Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 1134
+    industryblueprintrank: 1.0
     marketGroup: 307
     name: Thorium Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Thorium Charge XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    Radius: 1.0
     id: 17659
+    industryblueprintrank: 4.0
     marketGroup: 598
     name: Thorium Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Tungsten Charge L Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 1147
+    industryblueprintrank: 3.0
     marketGroup: 306
     name: Tungsten Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Tungsten Charge M Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 1139
+    industryblueprintrank: 2.0
     marketGroup: 308
     name: Tungsten Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Tungsten Charge S Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 1131
+    industryblueprintrank: 1.0
     marketGroup: 307
     name: Tungsten Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Tungsten Charge XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    Radius: 1.0
     id: 17661
+    industryblueprintrank: 4.0
     marketGroup: 598
     name: Tungsten Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Uranium Charge L Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 1151
+    industryblueprintrank: 3.0
     marketGroup: 306
     name: Uranium Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Uranium Charge M Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 1143
+    industryblueprintrank: 2.0
     marketGroup: 308
     name: Uranium Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Uranium Charge S Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 1135
+    industryblueprintrank: 1.0
     marketGroup: 307
     name: Uranium Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Uranium Charge XL Blueprint:
-    IndustryBlueprintRank: 4.0
-    Radius: 1.0
     id: 17663
+    industryblueprintrank: 4.0
     marketGroup: 598
     name: Uranium Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

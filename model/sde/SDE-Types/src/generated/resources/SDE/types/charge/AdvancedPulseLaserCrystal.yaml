@@ -1,237 +1,221 @@
 types:
   Conflagration L:
-    CapNeedBonus: 25
-    ChargeSize: 3
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
-    EmDamage: 35.400001525878906
-    EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53
-    MainColor: 2833864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12215
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 35.400001525878906
-    TrackingSpeedMultiplier: 0.699999988079071
-    WeaponRangeMultiplier: 0.5
+    capneedbonus: 25
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.009999999776482582
+    damagemultiplier: 1.0
+    emdamage: 35.400001525878906
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
     id: 12816
+    launchergroup: 53
+    maincolor: 2833864
     marketGroup: 869
-    mass: 1.0
+    metalevel: 5
     name: Conflagration L
     packagedVolume: 1.0
     portionSize: 4
     published: true
+    radius: 1.0
+    requiredskill1: 12215
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 35.400001525878906
+    trackingspeedmultiplier: 0.699999988079071
     volume: 1.0
+    weaponrangemultiplier: 0.5
   Conflagration M:
-    CapNeedBonus: 25
-    ChargeSize: 2
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
-    EmDamage: 17.700000762939453
-    EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53
-    MainColor: 2833864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12214
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 17.700000762939453
-    TrackingSpeedMultiplier: 0.699999988079071
-    WeaponRangeMultiplier: 0.5
+    capneedbonus: 25
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.009999999776482582
+    damagemultiplier: 1.0
+    emdamage: 17.700000762939453
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
     id: 12814
+    launchergroup: 53
+    maincolor: 2833864
     marketGroup: 870
-    mass: 1.0
+    metalevel: 5
     name: Conflagration M
     packagedVolume: 1.0
     portionSize: 4
     published: true
+    radius: 1.0
+    requiredskill1: 12214
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 17.700000762939453
+    trackingspeedmultiplier: 0.699999988079071
     volume: 1.0
+    weaponrangemultiplier: 0.5
   Conflagration S:
-    CapNeedBonus: 25
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
-    EmDamage: 8.899999618530273
-    EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53
-    MainColor: 2833864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12213
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 8.899999618530273
-    TrackingSpeedMultiplier: 0.699999988079071
-    WeaponRangeMultiplier: 0.5
+    capneedbonus: 25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.009999999776482582
+    damagemultiplier: 1.0
+    emdamage: 8.899999618530273
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
     id: 12565
+    launchergroup: 53
+    maincolor: 2833864
     marketGroup: 871
-    mass: 1.0
+    metalevel: 5
     name: Conflagration S
     packagedVolume: 1.0
     portionSize: 4
     published: true
+    radius: 1.0
+    requiredskill1: 12213
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 8.899999618530273
+    trackingspeedmultiplier: 0.699999988079071
     volume: 1.0
+    weaponrangemultiplier: 0.5
   Conflagration XL:
-    CapNeedBonus: 25
-    ChargeSize: 4
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
-    EmDamage: 70.80000305175781
-    EntityFlyRangeMultiplier: 0.5
-    Hp: 1.0
-    LauncherGroup: 53
-    MainColor: 2833864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 41407
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 70.80000305175781
-    TrackingSpeedMultiplier: 0.699999988079071
-    WeaponRangeMultiplier: 0.5
+    capneedbonus: 25
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.009999999776482582
+    damagemultiplier: 1.0
+    emdamage: 70.80000305175781
+    entityflyrangemultiplier: 0.5
+    hp: 1.0
     id: 41332
+    launchergroup: 53
+    maincolor: 2833864
     marketGroup: 2256
-    mass: 1.0
+    metalevel: 5
     name: Conflagration XL
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 41407
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 70.80000305175781
+    trackingspeedmultiplier: 0.699999988079071
     volume: 1.0
+    weaponrangemultiplier: 0.5
   Scorch L:
-    ChargeSize: 3
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
-    EmDamage: 36.0
-    EntityFlyRangeMultiplier: 1.5
-    Hp: 1.0
-    LauncherGroup: 53
-    MainColor: 2833864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12215
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 8.0
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.399999976158142
+    chargesize: 3
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.009999999776482582
+    damagemultiplier: 1.0
+    emdamage: 36.0
+    entityflyrangemultiplier: 1.5
+    hp: 1.0
     id: 12820
+    launchergroup: 53
+    maincolor: 2833864
     marketGroup: 869
-    mass: 1.0
+    metalevel: 5
     name: Scorch L
     packagedVolume: 1.0
     portionSize: 4
     published: true
+    radius: 1.0
+    requiredskill1: 12215
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 8.0
+    trackingspeedmultiplier: 0.75
     volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
   Scorch M:
-    ChargeSize: 2
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
-    EmDamage: 18.0
-    EntityFlyRangeMultiplier: 1.5
-    Hp: 1.0
-    LauncherGroup: 53
-    MainColor: 2833864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12214
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 4.0
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.399999976158142
+    chargesize: 2
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.009999999776482582
+    damagemultiplier: 1.0
+    emdamage: 18.0
+    entityflyrangemultiplier: 1.5
+    hp: 1.0
     id: 12818
+    launchergroup: 53
+    maincolor: 2833864
     marketGroup: 870
-    mass: 1.0
+    metalevel: 5
     name: Scorch M
     packagedVolume: 1.0
     portionSize: 4
     published: true
+    radius: 1.0
+    requiredskill1: 12214
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 4.0
+    trackingspeedmultiplier: 0.75
     volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
   Scorch S:
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
-    EmDamage: 9.0
-    EntityFlyRangeMultiplier: 1.5
-    Hp: 1.0
-    LauncherGroup: 53
-    MainColor: 2833864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12213
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 2.0
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.399999976158142
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.009999999776482582
+    damagemultiplier: 1.0
+    emdamage: 9.0
+    entityflyrangemultiplier: 1.5
+    hp: 1.0
     id: 12563
+    launchergroup: 53
+    maincolor: 2833864
     marketGroup: 871
-    mass: 1.0
+    metalevel: 5
     name: Scorch S
     packagedVolume: 1.0
     portionSize: 4
     published: true
+    radius: 1.0
+    requiredskill1: 12213
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 2.0
+    trackingspeedmultiplier: 0.75
     volume: 1.0
+    weaponrangemultiplier: 1.399999976158142
   Scorch XL:
-    ChargeSize: 4
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.009999999776482582
-    CrystalsGetDamaged: 1
-    DamageMultiplier: 1.0
-    EmDamage: 72.0
-    EntityFlyRangeMultiplier: 1.5
-    Hp: 1.0
-    LauncherGroup: 53
-    MainColor: 2833864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 41407
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 16.0
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.399999976158142
+    chargesize: 4
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.009999999776482582
+    damagemultiplier: 1.0
+    emdamage: 72.0
+    entityflyrangemultiplier: 1.5
+    hp: 1.0
     id: 41330
+    launchergroup: 53
+    maincolor: 2833864
     marketGroup: 2256
-    mass: 1.0
+    metalevel: 5
     name: Scorch XL
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 41407
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 16.0
+    trackingspeedmultiplier: 0.75
     volume: 1.0
+    weaponrangemultiplier: 1.399999976158142

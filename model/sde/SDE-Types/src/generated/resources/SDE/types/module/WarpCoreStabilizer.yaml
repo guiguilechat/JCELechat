@@ -1,154 +1,154 @@
 types:
   '''Accord'' Core Compensation':
-    Cpu: 29.0
-    Hp: 40.0
-    MaxTargetRangeBonus: -48.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3455
-    RequiredSkill1Level: 1
-    ScanResolutionMultiplier: 0.5199999809265137
-    TechLevel: 1
-    WarpScrambleStrength: -1
+    cpu: 29.0
+    hp: 40.0
     id: 16297
     marketGroup: 1088
+    maxtargetrangebonus: -48.0
+    metalevel: 1
     name: '''Accord'' Core Compensation'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3455
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.5199999809265137
+    techlevel: 1
     volume: 5.0
+    warpscramblestrength: -1
   '''Aura'' Warp Core Stabilizer I':
-    Cpu: 22.0
-    Hp: 40.0
-    MaxTargetRangeBonus: -44.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3455
-    RequiredSkill1Level: 1
-    ScanResolutionMultiplier: 0.5600000023841858
-    TechLevel: 1
-    WarpScrambleStrength: -1
+    cpu: 22.0
+    hp: 40.0
     id: 22875
     marketGroup: 1088
+    maxtargetrangebonus: -44.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Aura'' Warp Core Stabilizer I'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3455
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.5600000023841858
+    techlevel: 1
     volume: 5.0
+    warpscramblestrength: -1
   '''Halcyon'' Core Equalizer I':
-    Cpu: 24.0
-    Hp: 40.0
-    MaxTargetRangeBonus: -42.0
-    MetaLevel: 4
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3455
-    RequiredSkill1Level: 1
-    ScanResolutionMultiplier: 0.5799999833106995
-    TechLevel: 1
-    WarpScrambleStrength: -1
+    cpu: 24.0
+    hp: 40.0
     id: 16303
     marketGroup: 1088
+    maxtargetrangebonus: -42.0
+    metalevel: 4
     name: '''Halcyon'' Core Equalizer I'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3455
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.5799999833106995
+    techlevel: 1
     volume: 5.0
+    warpscramblestrength: -1
   '''Natura'' Warp Core Stabilizer I':
-    Cpu: 20.0
-    Hp: 40.0
-    MaxTargetRangeBonus: -40.0
-    MetaGroupID: 3
-    MetaLevel: 7
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3455
-    RequiredSkill1Level: 1
-    ScanResolutionMultiplier: 0.6000000238418579
-    TechLevel: 1
-    WarpScrambleStrength: -1
+    cpu: 20.0
+    hp: 40.0
     id: 22877
     marketGroup: 1088
+    maxtargetrangebonus: -40.0
+    metagroupid: 3
+    metalevel: 7
     name: '''Natura'' Warp Core Stabilizer I'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3455
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.6000000238418579
+    techlevel: 1
     volume: 5.0
+    warpscramblestrength: -1
   '''Repose'' Core Compensation':
-    Cpu: 27.0
-    Hp: 40.0
-    MaxTargetRangeBonus: -46.0
-    MetaLevel: 2
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3455
-    RequiredSkill1Level: 1
-    ScanResolutionMultiplier: 0.5400000214576721
-    TechLevel: 1
-    WarpScrambleStrength: -1
+    cpu: 27.0
+    hp: 40.0
     id: 16299
     marketGroup: 1088
+    maxtargetrangebonus: -46.0
+    metalevel: 2
     name: '''Repose'' Core Compensation'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3455
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.5400000214576721
+    techlevel: 1
     volume: 5.0
+    warpscramblestrength: -1
   '''Stoic'' Core Equalizer I':
-    Cpu: 26.0
-    Hp: 40.0
-    MaxTargetRangeBonus: -44.0
-    MetaLevel: 3
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3455
-    RequiredSkill1Level: 1
-    ScanResolutionMultiplier: 0.5600000023841858
-    TechLevel: 1
-    WarpScrambleStrength: -1
+    cpu: 26.0
+    hp: 40.0
     id: 16301
     marketGroup: 1088
+    maxtargetrangebonus: -44.0
+    metalevel: 3
     name: '''Stoic'' Core Equalizer I'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3455
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.5600000023841858
+    techlevel: 1
     volume: 5.0
+    warpscramblestrength: -1
   Warp Core Stabilizer I:
-    Cpu: 30.0
-    Hp: 40.0
-    MaxTargetRangeBonus: -50.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3455
-    RequiredSkill1Level: 1
-    ScanResolutionMultiplier: 0.5
-    TechLevel: 1
-    WarpScrambleStrength: -1
+    cpu: 30.0
+    hp: 40.0
     id: 10998
     marketGroup: 1088
+    maxtargetrangebonus: -50.0
     name: Warp Core Stabilizer I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3455
+    requiredskill1level: 1
+    scanresolutionmultiplier: 0.5
+    techlevel: 1
     volume: 5.0
+    warpscramblestrength: -1
   Warp Core Stabilizer II:
-    Cpu: 35.0
-    Hp: 40.0
-    MaxTargetRangeBonus: -40.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3455
-    RequiredSkill1Level: 4
-    ScanResolutionMultiplier: 0.6000000238418579
-    TechLevel: 2
-    WarpScrambleStrength: -1
+    cpu: 35.0
+    hp: 40.0
     id: 11640
     marketGroup: 1088
+    maxtargetrangebonus: -40.0
+    metalevel: 5
     name: Warp Core Stabilizer II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3455
+    requiredskill1level: 4
+    scanresolutionmultiplier: 0.6000000238418579
+    techlevel: 2
     volume: 5.0
+    warpscramblestrength: -1

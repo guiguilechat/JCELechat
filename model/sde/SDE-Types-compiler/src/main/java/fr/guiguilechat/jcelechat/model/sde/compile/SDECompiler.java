@@ -122,7 +122,7 @@ public class SDECompiler {
 				JDefinedClass catClass = TypePackage()._class(JMod.PUBLIC | JMod.ABSTRACT, newName);
 				catClass._extends(ret.eveTypeClass);
 				addAttributes(catClass, catID2AttIDs.get(cate.getKey()), hierarchy);
-				addClassAttributes(catClass, catID2AttIDs.get(cate.getKey()), hierarchy, ret);
+				addOwnAttributes(catClass, catID2AttIDs.get(cate.getKey()), hierarchy, ret);
 				ret.catID2Class.put(cate.getKey(), catClass);
 				ret.cat2Groups.put(catClass, new HashSet<>());
 
@@ -200,6 +200,9 @@ public class SDECompiler {
 				JDefinedClass groupClass = TypePackage().subPackage(catClass.name().toLowerCase())._class(name);
 				groupClass._extends(catClass);
 				addAttributes(groupClass, groupID2AttIDs.get(groupEntry.getKey()), hierarchy);
+				HashSet<Integer> ownAttributes = new HashSet<>(groupID2AttIDs.get(groupid));
+				ownAttributes.addAll(catID2AttIDs.get(gd.catID));
+				addOwnAttributes(groupClass, ownAttributes, hierarchy, ret);
 
 				ret.groupID2ClassName.put(groupEntry.getKey(), groupClass.fullName());
 				ret.cat2Groups.get(catClass).add(groupClass);
@@ -573,7 +576,7 @@ public class SDECompiler {
 		for (int attId : allAttributesIds) {
 			AttributeDetails eattr = hierarchy.attID2Details.get(attId);
 			String name = formatName(eattr.name);
-			compilation.attID2FieldName.put(attId, name);
+			compilation.attID2FieldName.put(attId, name.toLowerCase());
 			JDefinedClass attClass;
 			try {
 				attClass = attributesPackage()._class(name);
@@ -693,7 +696,7 @@ public class SDECompiler {
 
 		for (Integer attributeID : sortedAttIds) {
 			AttributeDetails attr = hierarchy.attID2Details.get(attributeID);
-			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? cm.DOUBLE : cm.INT, formatName(attr.name));
+			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? cm.DOUBLE : cm.INT, formatName(attr.name).toLowerCase());
 			f.annotate(getHighIsGoodAnnotation()).param("value", attr.highIsGood);
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
 			if (attr.hasFloat) {
@@ -722,7 +725,7 @@ public class SDECompiler {
 	 * @param hierarchy
 	 * @param ret
 	 */
-	protected void addClassAttributes(JDefinedClass catClass, HashSet<Integer> hashSet, TypeHierarchy hierarchy,
+	protected void addOwnAttributes(JDefinedClass catClass, HashSet<Integer> hashSet, TypeHierarchy hierarchy,
 			CompilationData ret) {
 		// public static final Set<Attributes> ATTRIBUTES =
 		JVar attField = catClass

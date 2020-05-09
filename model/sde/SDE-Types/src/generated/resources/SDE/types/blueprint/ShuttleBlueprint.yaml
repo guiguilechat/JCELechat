@@ -1,77 +1,77 @@
 types:
   Amarr Shuttle Blueprint:
-    IndustryBlueprintRank: 20.0
-    Radius: 1.0
     id: 11135
+    industryblueprintrank: 20.0
     marketGroup: 415
     name: Amarr Shuttle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Apotheosis Blueprint:
-    IndustryBlueprintRank: 20.0
-    Radius: 1.0
     id: 29267
+    industryblueprintrank: 20.0
     name: Apotheosis Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Caldari Shuttle Blueprint:
-    IndustryBlueprintRank: 20.0
-    Radius: 1.0
     id: 967
+    industryblueprintrank: 20.0
     marketGroup: 416
     name: Caldari Shuttle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Council Diplomatic Shuttle Blueprint:
-    IndustryBlueprintRank: 20.0
-    Radius: 1.0
     id: 34497
+    industryblueprintrank: 20.0
     name: Council Diplomatic Shuttle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Gallente Shuttle Blueprint:
-    IndustryBlueprintRank: 20.0
-    Radius: 1.0
     id: 11130
+    industryblueprintrank: 20.0
     marketGroup: 417
     name: Gallente Shuttle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   InterBus Shuttle Blueprint:
-    IndustryBlueprintRank: 20.0
-    Radius: 1.0
     id: 30843
+    industryblueprintrank: 20.0
     name: InterBus Shuttle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Leopard Blueprint:
-    IndustryBlueprintRank: 20.0
-    Radius: 1.0
     id: 33514
+    industryblueprintrank: 20.0
     name: Leopard Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Minmatar Shuttle Blueprint:
-    IndustryBlueprintRank: 20.0
-    Radius: 1.0
     id: 11133
+    industryblueprintrank: 20.0
     marketGroup: 418
     name: Minmatar Shuttle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

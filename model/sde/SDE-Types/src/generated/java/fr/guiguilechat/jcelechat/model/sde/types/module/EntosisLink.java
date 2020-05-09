@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,35 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanCloak;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntosisAssistanceImpedanceMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntosisCPUAdd;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ImplantBonusVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Slots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedLimit;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,77 +55,77 @@ public class EntosisLink
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int CanCloak;
+    public int cancloak;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionQuantity;
+    public int consumptionquantity;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionType;
+    public int consumptiontype;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntosisAssistanceImpedanceMultiplier;
+    public double entosisassistanceimpedancemultiplier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntosisCPUAdd;
+    public int entosiscpuadd;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ImplantBonusVelocity;
+    public double implantbonusvelocity;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -101,91 +133,91 @@ public class EntosisLink
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanGravimetricStrengthPercent;
+    public int scangravimetricstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanLadarStrengthPercent;
+    public int scanladarstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanMagnetometricStrengthPercent;
+    public int scanmagnetometricstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanRadarStrengthPercent;
+    public int scanradarstrengthpercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SiegeModeWarpStatus;
+    public int siegemodewarpstatus;
     /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int Slots;
+    public int slots;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1000000)
-    public int SpeedLimit;
+    public int speedlimit;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -193,7 +225,8 @@ public class EntosisLink
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntosisAssistanceImpedanceMultiplier.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, ConsumptionQuantity.INSTANCE, CanCloak.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Slots.INSTANCE, SpeedLimit.INSTANCE, Cpu.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, EntosisCPUAdd.INSTANCE, MetaLevel.INSTANCE })));
     public static final EntosisLink.MetaGroup METAGROUP = new EntosisLink.MetaGroup();
 
     @Override
@@ -201,109 +234,114 @@ public class EntosisLink
         switch (attribute.getId()) {
             case  1163 :
             {
-                return CanCloak;
+                return cancloak;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  714 :
             {
-                return ConsumptionQuantity;
+                return consumptionquantity;
             }
             case  713 :
             {
-                return ConsumptionType;
+                return consumptiontype;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  2754 :
             {
-                return EntosisAssistanceImpedanceMultiplier;
+                return entosisassistanceimpedancemultiplier;
             }
             case  2041 :
             {
-                return EntosisCPUAdd;
+                return entosiscpuadd;
             }
             case  1076 :
             {
-                return ImplantBonusVelocity;
+                return implantbonusvelocity;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  1027 :
             {
-                return ScanGravimetricStrengthPercent;
+                return scangravimetricstrengthpercent;
             }
             case  1028 :
             {
-                return ScanLadarStrengthPercent;
+                return scanladarstrengthpercent;
             }
             case  1029 :
             {
-                return ScanMagnetometricStrengthPercent;
+                return scanmagnetometricstrengthpercent;
             }
             case  1030 :
             {
-                return ScanRadarStrengthPercent;
+                return scanradarstrengthpercent;
             }
             case  852 :
             {
-                return SiegeModeWarpStatus;
+                return siegemodewarpstatus;
             }
             case  47 :
             {
-                return Slots;
+                return slots;
             }
             case  2033 :
             {
-                return SpeedLimit;
+                return speedlimit;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

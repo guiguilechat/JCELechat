@@ -1,307 +1,307 @@
 types:
   Ametat I Blueprint:
-    TechLevel: 1
     id: 41355
     marketGroup: 1313
     name: Ametat I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Ametat II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41356
     name: Ametat II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Antaeus I Blueprint:
-    TechLevel: 1
     id: 41363
     marketGroup: 1313
     name: Antaeus I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Antaeus II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41364
     name: Antaeus II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Cyclops I Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
-    TechLevel: 1
     id: 32326
+    industryblueprintrank: 40.0
     marketGroup: 1313
     name: Cyclops I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Cyclops II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41351
     name: Cyclops II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Gungnir I Blueprint:
-    TechLevel: 1
     id: 41365
     marketGroup: 1313
     name: Gungnir I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Gungnir II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41366
     name: Gungnir II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Malleus I Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
-    TechLevel: 1
     id: 32341
+    industryblueprintrank: 40.0
     marketGroup: 1313
     name: Malleus I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Malleus II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41352
     name: Malleus II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Mantis I Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
-    TechLevel: 1
     id: 32345
+    industryblueprintrank: 40.0
     marketGroup: 1313
     name: Mantis I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Mantis II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41353
     name: Mantis II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Shadow Blueprint:
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
     id: 2949
+    metagroupid: 4
     name: Shadow Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Ametat I Blueprint:
-    TechLevel: 1
     id: 47241
     marketGroup: 1313
     name: Standup Ametat I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Ametat II Blueprint:
-    TechLevel: 1
     id: 47242
     name: Standup Ametat II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Antaeus I Blueprint:
-    TechLevel: 1
     id: 47245
     marketGroup: 1313
     name: Standup Antaeus I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Antaeus II Blueprint:
-    TechLevel: 1
     id: 47246
     name: Standup Antaeus II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Cyclops I Blueprint:
-    TechLevel: 1
     id: 47233
     marketGroup: 1313
     name: Standup Cyclops I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Cyclops II Blueprint:
-    TechLevel: 1
     id: 47237
     name: Standup Cyclops II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Gungnir I Blueprint:
-    TechLevel: 1
     id: 47247
     marketGroup: 1313
     name: Standup Gungnir I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Gungnir II Blueprint:
-    TechLevel: 1
     id: 47248
     name: Standup Gungnir II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Malleus I Blueprint:
-    TechLevel: 1
     id: 47234
     marketGroup: 1313
     name: Standup Malleus I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Malleus II Blueprint:
-    TechLevel: 1
     id: 47238
     name: Standup Malleus II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Mantis I Blueprint:
-    TechLevel: 1
     id: 47236
     marketGroup: 1313
     name: Standup Mantis I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Mantis II Blueprint:
-    TechLevel: 1
     id: 47239
     name: Standup Mantis II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Shadow Blueprint:
-    TechLevel: 1
     id: 47232
     name: Standup Shadow Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Termite I Blueprint:
-    TechLevel: 1
     id: 47243
     marketGroup: 1313
     name: Standup Termite I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Termite II Blueprint:
-    TechLevel: 1
     id: 47244
     name: Standup Termite II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Tyrfing I Blueprint:
-    TechLevel: 1
     id: 47235
     marketGroup: 1313
     name: Standup Tyrfing I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Standup Tyrfing II Blueprint:
-    TechLevel: 1
     id: 47240
     name: Standup Tyrfing II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Termite I Blueprint:
-    TechLevel: 1
     id: 41361
     marketGroup: 1313
     name: Termite I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Termite II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41362
     name: Termite II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Tyrfing I Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
-    TechLevel: 1
     id: 32343
+    industryblueprintrank: 40.0
     marketGroup: 1313
     name: Tyrfing I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Tyrfing II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41354
     name: Tyrfing II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

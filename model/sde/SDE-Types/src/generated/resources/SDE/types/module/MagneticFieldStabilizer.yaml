@@ -1,278 +1,276 @@
 types:
   '''Basic'' Magnetic Field Stabilizer':
-    Cpu: 16.0
-    DamageMultiplier: 1.0700000524520874
-    Hp: 40.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9300000071525574
-    TechLevel: 1
+    cpu: 16.0
+    damagemultiplier: 1.0700000524520874
+    hp: 40.0
     id: 10188
     marketGroup: 648
+    metagroupid: 3
+    metalevel: 6
     name: '''Basic'' Magnetic Field Stabilizer'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.9300000071525574
+    techlevel: 1
     volume: 5.0
   '''Monopoly'' Magnetic Field Stabilizer':
-    Cpu: 18.0
-    DamageMultiplier: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8949999809265137
-    TechLevel: 1
+    cpu: 18.0
+    damagemultiplier: 1.100000023841858
+    hp: 40.0
     id: 22919
     marketGroup: 648
+    metagroupid: 3
+    metalevel: 6
     name: '''Monopoly'' Magnetic Field Stabilizer'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8949999809265137
+    techlevel: 1
     volume: 5.0
   Abyssal Magnetic Field Stabilizer:
-    DamageMultiplier: 1.0
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 4
-    SpeedMultiplier: 1.0
-    TechLevel: 1
+    damagemultiplier: 1.0
     id: 49722
-    mass: 1.0
     name: Abyssal Magnetic Field Stabilizer
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    speedmultiplier: 1.0
+    techlevel: 1
     volume: 1.0
   Brynn's Modified Magnetic Field Stabilizer:
-    Cpu: 22.0
-    DamageMultiplier: 1.1299999952316284
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1
+    cpu: 22.0
+    damagemultiplier: 1.1299999952316284
+    hp: 40.0
     id: 15144
     marketGroup: 648
+    metagroupid: 5
+    metalevel: 11
     name: Brynn's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
     volume: 5.0
   Cormack's Modified Magnetic Field Stabilizer:
-    Cpu: 28.0
-    DamageMultiplier: 1.1449999809265137
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 17
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1
+    cpu: 28.0
+    damagemultiplier: 1.1449999809265137
+    hp: 40.0
     id: 15150
     marketGroup: 648
+    metagroupid: 5
+    metalevel: 17
     name: Cormack's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
     volume: 5.0
   Federation Navy Magnetic Field Stabilizer:
-    Cpu: 20.0
-    DamageMultiplier: 1.1200000047683716
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1
+    cpu: 20.0
+    damagemultiplier: 1.1200000047683716
+    hp: 40.0
     id: 15895
     marketGroup: 648
+    metagroupid: 4
+    metalevel: 8
     name: Federation Navy Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
     volume: 5.0
   Kaatara's Custom Magnetic Field Stabilizer:
-    Cpu: 29.0
-    DamageMultiplier: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1
+    cpu: 29.0
+    damagemultiplier: 1.100000023841858
+    hp: 40.0
     id: 44113
     marketGroup: 648
+    metagroupid: 3
+    metalevel: 6
     name: Kaatara's Custom Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
     volume: 5.0
   Magnetic Field Stabilizer I:
-    Cpu: 27.0
-    DamageMultiplier: 1.0700000524520874
-    Hp: 40.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9200000166893005
-    TechLevel: 1
+    cpu: 27.0
+    damagemultiplier: 1.0700000524520874
+    hp: 40.0
     id: 9944
     marketGroup: 648
     name: Magnetic Field Stabilizer I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.9200000166893005
+    techlevel: 1
     volume: 5.0
   Magnetic Field Stabilizer II:
-    Cpu: 30.0
-    DamageMultiplier: 1.100000023841858
-    Hp: 40.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 4
-    SpeedMultiplier: 0.8949999809265137
-    TechLevel: 2
+    cpu: 30.0
+    damagemultiplier: 1.100000023841858
+    hp: 40.0
     id: 10190
     marketGroup: 648
+    metalevel: 5
     name: Magnetic Field Stabilizer II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    speedmultiplier: 0.8949999809265137
+    techlevel: 2
     volume: 5.0
   Naiyon's Modified Magnetic Field Stabilizer:
-    Cpu: 24.0
-    DamageMultiplier: 1.1375000476837158
-    Hp: 40.0
-    MetaGroupID: 3
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8949999809265137
-    TechLevel: 1
+    cpu: 24.0
+    damagemultiplier: 1.1375000476837158
+    hp: 40.0
     id: 15416
     marketGroup: 648
+    metagroupid: 3
+    metalevel: 12
     name: Naiyon's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8949999809265137
+    techlevel: 1
     volume: 5.0
   Setele's Modified Magnetic Field Stabilizer:
-    Cpu: 26.0
-    DamageMultiplier: 1.1399999856948853
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 15
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1
+    cpu: 26.0
+    damagemultiplier: 1.1399999856948853
+    hp: 40.0
     id: 15148
     marketGroup: 648
+    metagroupid: 5
+    metalevel: 15
     name: Setele's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
     volume: 5.0
   Shadow Serpentis Magnetic Field Stabilizer:
-    Cpu: 20.0
-    DamageMultiplier: 1.1200000047683716
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1
+    cpu: 20.0
+    damagemultiplier: 1.1200000047683716
+    hp: 40.0
     id: 13945
     marketGroup: 648
+    metagroupid: 4
+    metalevel: 8
     name: Shadow Serpentis Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
     volume: 5.0
   Torelle's Custom Magnetic Field Stabilizer:
-    Cpu: 29.0
-    DamageMultiplier: 1.100000023841858
-    Hp: 40.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8999999761581421
-    TechLevel: 1
+    cpu: 29.0
+    damagemultiplier: 1.100000023841858
+    hp: 40.0
     id: 44114
     marketGroup: 648
+    metagroupid: 3
+    metalevel: 6
     name: Torelle's Custom Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8999999761581421
+    techlevel: 1
     volume: 5.0
   Tuvan's Modified Magnetic Field Stabilizer:
-    Cpu: 24.0
-    DamageMultiplier: 1.1349999904632568
-    Hp: 40.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.8899999856948853
-    TechLevel: 1
+    cpu: 24.0
+    damagemultiplier: 1.1349999904632568
+    hp: 40.0
     id: 15146
     marketGroup: 648
+    metagroupid: 5
+    metalevel: 13
     name: Tuvan's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.8899999856948853
+    techlevel: 1
     volume: 5.0
   Vortex Compact Magnetic Field Stabilizer:
-    Cpu: 25.0
-    DamageMultiplier: 1.0800000429153442
-    Hp: 40.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 0.9049999713897705
-    TechLevel: 1
+    cpu: 25.0
+    damagemultiplier: 1.0800000429153442
+    hp: 40.0
     id: 11105
     marketGroup: 648
+    metalevel: 1
     name: Vortex Compact Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.9049999713897705
+    techlevel: 1
     volume: 5.0

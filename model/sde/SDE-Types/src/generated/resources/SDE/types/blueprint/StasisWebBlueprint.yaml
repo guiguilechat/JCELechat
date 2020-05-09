@@ -1,79 +1,79 @@
 types:
   Caldari Navy Stasis Webifier Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 17501
+    industryblueprintrank: 6.0
     name: Caldari Navy Stasis Webifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Civilian Stasis Webifier Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 30329
+    industryblueprintrank: 3.0
     name: Civilian Stasis Webifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Federation Navy Stasis Webifier Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 17561
+    industryblueprintrank: 6.0
     name: Federation Navy Stasis Webifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Heavy Stasis Grappler I Blueprint:
-    TechLevel: 1
     id: 41221
     marketGroup: 2153
     name: Heavy Stasis Grappler I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Heavy Stasis Grappler II Blueprint:
-    TechLevel: 1
     id: 41222
     name: Heavy Stasis Grappler II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Khanid Navy Stasis Webifier Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 28515
+    industryblueprintrank: 6.0
     name: Khanid Navy Stasis Webifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Stasis Webifier I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 1102
+    industryblueprintrank: 6.0
     marketGroup: 1570
     name: Stasis Webifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Stasis Webifier II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 1103
+    industryblueprintrank: 15.600000381469727
     name: Stasis Webifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

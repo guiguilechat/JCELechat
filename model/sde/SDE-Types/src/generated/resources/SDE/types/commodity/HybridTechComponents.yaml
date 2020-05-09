@@ -1,185 +1,157 @@
 types:
   Electromechanical Interface Nexus:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 30466
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Electromechanical Interface Nexus
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10.0
   Emergent Neurovisual Interface:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 29996
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Emergent Neurovisual Interface
     packagedVolume: 20.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 20.0
   Fullerene Intercalated Sheets:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 30002
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Fullerene Intercalated Sheets
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 5.0
   Fulleroferrocene Power Conduits:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 30476
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Fulleroferrocene Power Conduits
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 5.0
   Metallofullerene Plating:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 30464
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Metallofullerene Plating
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 5.0
   Nanowire Composites:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 30474
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Nanowire Composites
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 5.0
   Neurovisual Output Analyzer:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 30470
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Neurovisual Output Analyzer
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 5.0
   Optimized Nano-Engines:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 29992
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Optimized Nano-Engines
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10.0
   Reconfigured Subspace Calibrator:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 30478
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Reconfigured Subspace Calibrator
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10.0
   Reinforced Metallofullerene Alloys:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 30008
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Reinforced Metallofullerene Alloys
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10.0
   Self-Assembling Nanolattice:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 34396
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Self-Assembling Nanolattice
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 5.0
   Superconducting Gravimetric Amplifier:
-    MoonMiningAmount: 1
     id: 45653
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 1
     name: Superconducting Gravimetric Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
     volume: 5.0
   Superconducting Ladar Amplifier:
-    MoonMiningAmount: 1
     id: 45655
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 1
     name: Superconducting Ladar Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
     volume: 5.0
   Superconducting Magnetometric Amplifier:
-    MoonMiningAmount: 1
     id: 45652
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 1
     name: Superconducting Magnetometric Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
     volume: 5.0
   Superconducting Radar Amplifier:
-    MoonMiningAmount: 1
     id: 45654
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 1
     name: Superconducting Radar Amplifier
     packagedVolume: 5.0
     portionSize: 1
     published: true
     volume: 5.0
   Warfare Computation Core:
-    Mass: 1.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 29994
     marketGroup: 1147
-    mass: 1.0
+    moonminingamount: 100
     name: Warfare Computation Core
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10.0

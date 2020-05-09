@@ -1,211 +1,199 @@
 types:
   Mysterious Green Capsule:
-    ArmorEmDamageResonance: 0.4000000059604645
-    ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 156.0
-    ArmorKineticDamageResonance: 0.75
-    ArmorThermalDamageResonance: 0.6499999761581421
-    EmDamageResonance: 0.6700000166893005
-    ExplosiveDamageResonance: 0.6700000166893005
-    GfxBoosterID: 396
-    Hp: 150.0
-    KineticDamageResonance: 0.6700000166893005
-    Mass: 32000.0
-    MaxVelocity: 150.0
-    PropulsionGraphicID: 395
-    Radius: 2.0
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 63.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 0.6000000238418579
-    ShieldRechargeRate: 625000.0
-    ShieldThermalDamageResonance: 0.800000011920929
-    SignatureRadius: 25.0
-    ThermalDamageResonance: 0.6700000166893005
-    WarpSpeedMultiplier: 10.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 156.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    emdamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.6700000166893005
+    gfxboosterid: 396
+    hp: 150.0
     id: 54244
-    mass: 32000.0
+    kineticdamageresonance: 0.6700000166893005
+    maxvelocity: 150.0
     name: Mysterious Green Capsule
     packagedVolume: 1000.0
     portionSize: 1
+    propulsiongraphicid: 395
     published: false
+    radius: 2.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 63.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 25.0
+    thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
+    warpspeedmultiplier: 10.0
   Mysterious Orange Capsule:
-    ArmorEmDamageResonance: 0.4000000059604645
-    ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 156.0
-    ArmorKineticDamageResonance: 0.75
-    ArmorThermalDamageResonance: 0.6499999761581421
-    EmDamageResonance: 0.6700000166893005
-    ExplosiveDamageResonance: 0.6700000166893005
-    GfxBoosterID: 396
-    Hp: 150.0
-    KineticDamageResonance: 0.6700000166893005
-    Mass: 32000.0
-    MaxVelocity: 150.0
-    PropulsionGraphicID: 395
-    Radius: 2.0
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 63.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 0.6000000238418579
-    ShieldRechargeRate: 625000.0
-    ShieldThermalDamageResonance: 0.800000011920929
-    SignatureRadius: 25.0
-    ThermalDamageResonance: 0.6700000166893005
-    WarpSpeedMultiplier: 10.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 156.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    emdamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.6700000166893005
+    gfxboosterid: 396
+    hp: 150.0
     id: 54233
-    mass: 32000.0
+    kineticdamageresonance: 0.6700000166893005
+    maxvelocity: 150.0
     name: Mysterious Orange Capsule
     packagedVolume: 1000.0
     portionSize: 1
+    propulsiongraphicid: 395
     published: false
+    radius: 2.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 63.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 25.0
+    thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
+    warpspeedmultiplier: 10.0
   Mysterious Pink Capsule:
-    ArmorEmDamageResonance: 0.4000000059604645
-    ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 156.0
-    ArmorKineticDamageResonance: 0.75
-    ArmorThermalDamageResonance: 0.6499999761581421
-    EmDamageResonance: 0.6700000166893005
-    ExplosiveDamageResonance: 0.6700000166893005
-    GfxBoosterID: 396
-    Hp: 150.0
-    KineticDamageResonance: 0.6700000166893005
-    Mass: 32000.0
-    MaxVelocity: 150.0
-    PropulsionGraphicID: 395
-    Radius: 2.0
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 63.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 0.6000000238418579
-    ShieldRechargeRate: 625000.0
-    ShieldThermalDamageResonance: 0.800000011920929
-    SignatureRadius: 25.0
-    ThermalDamageResonance: 0.6700000166893005
-    WarpSpeedMultiplier: 10.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 156.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    emdamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.6700000166893005
+    gfxboosterid: 396
+    hp: 150.0
     id: 54243
-    mass: 32000.0
+    kineticdamageresonance: 0.6700000166893005
+    maxvelocity: 150.0
     name: Mysterious Pink Capsule
     packagedVolume: 1000.0
     portionSize: 1
+    propulsiongraphicid: 395
     published: false
+    radius: 2.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 63.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 25.0
+    thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
+    warpspeedmultiplier: 10.0
   Mysterious Red Capsule:
-    ArmorEmDamageResonance: 0.4000000059604645
-    ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 156.0
-    ArmorKineticDamageResonance: 0.75
-    ArmorThermalDamageResonance: 0.6499999761581421
-    EmDamageResonance: 0.6700000166893005
-    ExplosiveDamageResonance: 0.6700000166893005
-    GfxBoosterID: 396
-    Hp: 150.0
-    KineticDamageResonance: 0.6700000166893005
-    Mass: 32000.0
-    MaxVelocity: 150.0
-    PropulsionGraphicID: 395
-    Radius: 2.0
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 63.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 0.6000000238418579
-    ShieldRechargeRate: 625000.0
-    ShieldThermalDamageResonance: 0.800000011920929
-    SignatureRadius: 25.0
-    ThermalDamageResonance: 0.6700000166893005
-    WarpSpeedMultiplier: 10.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 156.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    emdamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.6700000166893005
+    gfxboosterid: 396
+    hp: 150.0
     id: 54240
-    mass: 32000.0
+    kineticdamageresonance: 0.6700000166893005
+    maxvelocity: 150.0
     name: Mysterious Red Capsule
     packagedVolume: 1000.0
     portionSize: 1
+    propulsiongraphicid: 395
     published: false
+    radius: 2.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 63.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 25.0
+    thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
+    warpspeedmultiplier: 10.0
   Mysterious Teal Capsule:
-    ArmorEmDamageResonance: 0.4000000059604645
-    ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 156.0
-    ArmorKineticDamageResonance: 0.75
-    ArmorThermalDamageResonance: 0.6499999761581421
-    EmDamageResonance: 0.6700000166893005
-    ExplosiveDamageResonance: 0.6700000166893005
-    GfxBoosterID: 396
-    Hp: 150.0
-    KineticDamageResonance: 0.6700000166893005
-    Mass: 32000.0
-    MaxVelocity: 150.0
-    PropulsionGraphicID: 395
-    Radius: 2.0
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 63.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 0.6000000238418579
-    ShieldRechargeRate: 625000.0
-    ShieldThermalDamageResonance: 0.800000011920929
-    SignatureRadius: 25.0
-    ThermalDamageResonance: 0.6700000166893005
-    WarpSpeedMultiplier: 10.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 156.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    emdamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.6700000166893005
+    gfxboosterid: 396
+    hp: 150.0
     id: 54241
-    mass: 32000.0
+    kineticdamageresonance: 0.6700000166893005
+    maxvelocity: 150.0
     name: Mysterious Teal Capsule
     packagedVolume: 1000.0
     portionSize: 1
+    propulsiongraphicid: 395
     published: false
+    radius: 2.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 63.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 25.0
+    thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
+    warpspeedmultiplier: 10.0
   Mysterious White Capsule:
-    ArmorEmDamageResonance: 0.4000000059604645
-    ArmorExplosiveDamageResonance: 0.8999999761581421
-    ArmorHP: 156.0
-    ArmorKineticDamageResonance: 0.75
-    ArmorThermalDamageResonance: 0.6499999761581421
-    EmDamageResonance: 0.6700000166893005
-    ExplosiveDamageResonance: 0.6700000166893005
-    GfxBoosterID: 396
-    Hp: 150.0
-    KineticDamageResonance: 0.6700000166893005
-    Mass: 32000.0
-    MaxVelocity: 150.0
-    PropulsionGraphicID: 395
-    Radius: 2.0
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 63.0
-    ShieldEmDamageResonance: 1.0
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 0.6000000238418579
-    ShieldRechargeRate: 625000.0
-    ShieldThermalDamageResonance: 0.800000011920929
-    SignatureRadius: 25.0
-    ThermalDamageResonance: 0.6700000166893005
-    WarpSpeedMultiplier: 10.0
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 156.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    emdamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.6700000166893005
+    gfxboosterid: 396
+    hp: 150.0
     id: 54242
-    mass: 32000.0
+    kineticdamageresonance: 0.6700000166893005
+    maxvelocity: 150.0
     name: Mysterious White Capsule
     packagedVolume: 1000.0
     portionSize: 1
+    propulsiongraphicid: 395
     published: false
+    radius: 2.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 63.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 25.0
+    thermaldamageresonance: 0.6700000166893005
     volume: 1000.0
+    warpspeedmultiplier: 10.0

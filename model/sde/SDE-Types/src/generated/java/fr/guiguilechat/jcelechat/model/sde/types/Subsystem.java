@@ -13,6 +13,19 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.subsystem.CoreSubsystem;
 import fr.guiguilechat.jcelechat.model.sde.types.subsystem.DefensiveSubsystem;
 import fr.guiguilechat.jcelechat.model.sde.types.subsystem.OffensiveSubsystem;
@@ -27,49 +40,49 @@ public abstract class Subsystem
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FitsToShipType;
+    public int fitstoshiptype;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int HiSlotModifier;
+    public int hislotmodifier;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LowSlotModifier;
+    public int lowslotmodifier;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MedSlotModifier;
+    public int medslotmodifier;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -77,35 +90,35 @@ public abstract class Subsystem
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubSystemSlot;
+    public int subsystemslot;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -113,8 +126,8 @@ public abstract class Subsystem
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {fr.guiguilechat.jcelechat.model.sde.attributes.Mass.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Hp.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Radius.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.Capacity.INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1 .INSTANCE, fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel.INSTANCE })));
+    public int techlevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, Hp.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, Radius.INSTANCE, FitsToShipType.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevel.INSTANCE })));
     public static final Subsystem.MetaCat METACAT = new Subsystem.MetaCat();
 
     @Override
@@ -122,55 +135,55 @@ public abstract class Subsystem
         switch (attribute.getId()) {
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  1380 :
             {
-                return FitsToShipType;
+                return fitstoshiptype;
             }
             case  1374 :
             {
-                return HiSlotModifier;
+                return hislotmodifier;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  1376 :
             {
-                return LowSlotModifier;
+                return lowslotmodifier;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  1375 :
             {
-                return MedSlotModifier;
+                return medslotmodifier;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  1366 :
             {
-                return SubSystemSlot;
+                return subsystemslot;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             default:
             {

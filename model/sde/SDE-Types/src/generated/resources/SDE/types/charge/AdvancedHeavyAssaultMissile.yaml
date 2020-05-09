@@ -1,289 +1,273 @@
 types:
   Inferno Javelin Heavy Assault Missile:
-    Agility: 0.0019947297405451536
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.8949999809265137
-    AoeFalloff: 1500
-    AoeVelocity: 101.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 4000
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771
-    Mass: 625.0
-    MaxVelocity: 3375.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 25718
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25719
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamage: 90.0
-    ThermalDamageResonance: 0.800000011920929
+    agility: 0.0019947297405451536
+    aimedlaunch: 1
+    aoecloudsize: 125
+    aoedamagereductionfactor: 0.8949999809265137
+    aoefalloff: 1500
+    aoevelocity: 101.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 60.0
     id: 24494
+    kineticdamageresonance: 1.0
+    launchergroup: 771
     marketGroup: 972
-    mass: 625.0
+    maxvelocity: 3375.0
+    metalevel: 5
     name: Inferno Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 90.0
+    thermaldamageresonance: 0.800000011920929
     volume: 0.014999999664723873
   Inferno Rage Heavy Assault Missile:
-    Agility: 67.54669189453125
-    AimedLaunch: 1
-    AoeCloudSize: 215
-    AoeDamageReductionFactor: 0.9200000166893005
-    AoeFalloff: 1500
-    AoeVelocity: 87.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 4000
-    ExplosiveDamageResonance: 1.0
-    Hp: 180.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771
-    Mass: 700.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 25718
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25719
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamage: 155.3000030517578
-    ThermalDamageResonance: 0.800000011920929
+    agility: 67.54669189453125
+    aimedlaunch: 1
+    aoecloudsize: 215
+    aoedamagereductionfactor: 0.9200000166893005
+    aoefalloff: 1500
+    aoevelocity: 87.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 180.0
     id: 24486
+    kineticdamageresonance: 1.0
+    launchergroup: 771
     marketGroup: 973
-    mass: 700.0
+    maxvelocity: 1875.0
+    metalevel: 5
     name: Inferno Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 155.3000030517578
+    thermaldamageresonance: 0.800000011920929
     volume: 0.014999999664723873
   Mjolnir Javelin Heavy Assault Missile:
-    Agility: 0.0019947297405451536
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.8949999809265137
-    AoeFalloff: 1500
-    AoeVelocity: 101.0
-    DetonationRange: 35
-    EmDamage: 90.0
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 4000
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771
-    Mass: 625.0
-    MaxVelocity: 3375.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 25718
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25719
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 0.0019947297405451536
+    aimedlaunch: 1
+    aoecloudsize: 125
+    aoedamagereductionfactor: 0.8949999809265137
+    aoefalloff: 1500
+    aoevelocity: 101.0
+    detonationrange: 35
+    emdamage: 90.0
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 60.0
     id: 24493
+    kineticdamageresonance: 1.0
+    launchergroup: 771
     marketGroup: 972
-    mass: 625.0
+    maxvelocity: 3375.0
+    metalevel: 5
     name: Mjolnir Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Mjolnir Rage Heavy Assault Missile:
-    Agility: 67.54669189453125
-    AimedLaunch: 1
-    AoeCloudSize: 215
-    AoeDamageReductionFactor: 0.9200000166893005
-    AoeFalloff: 1500
-    AoeVelocity: 87.0
-    DetonationRange: 35
-    EmDamage: 155.3000030517578
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 4000
-    ExplosiveDamageResonance: 1.0
-    Hp: 180.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771
-    Mass: 700.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 25718
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25719
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 67.54669189453125
+    aimedlaunch: 1
+    aoecloudsize: 215
+    aoedamagereductionfactor: 0.9200000166893005
+    aoefalloff: 1500
+    aoevelocity: 87.0
+    detonationrange: 35
+    emdamage: 155.3000030517578
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 180.0
     id: 24490
+    kineticdamageresonance: 1.0
+    launchergroup: 771
     marketGroup: 973
-    mass: 700.0
+    maxvelocity: 1875.0
+    metalevel: 5
     name: Mjolnir Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Nova Javelin Heavy Assault Missile:
-    Agility: 0.0019947297405451536
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.8949999809265137
-    AoeFalloff: 1500
-    AoeVelocity: 101.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 4000
-    ExplosiveDamage: 90.0
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 60.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771
-    Mass: 625.0
-    MaxVelocity: 3375.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 25718
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25719
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 0.0019947297405451536
+    aimedlaunch: 1
+    aoecloudsize: 125
+    aoedamagereductionfactor: 0.8949999809265137
+    aoefalloff: 1500
+    aoevelocity: 101.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 4000
+    explosivedamage: 90.0
+    explosivedamageresonance: 0.800000011920929
+    hp: 60.0
     id: 13856
+    kineticdamageresonance: 1.0
+    launchergroup: 771
     marketGroup: 972
-    mass: 625.0
+    maxvelocity: 3375.0
+    metalevel: 5
     name: Nova Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Nova Rage Heavy Assault Missile:
-    Agility: 67.54669189453125
-    AimedLaunch: 1
-    AoeCloudSize: 215
-    AoeDamageReductionFactor: 0.9200000166893005
-    AoeFalloff: 1500
-    AoeVelocity: 87.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 4000
-    ExplosiveDamage: 155.3000030517578
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 180.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 771
-    Mass: 700.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 25718
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25719
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 67.54669189453125
+    aimedlaunch: 1
+    aoecloudsize: 215
+    aoedamagereductionfactor: 0.9200000166893005
+    aoefalloff: 1500
+    aoevelocity: 87.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 4000
+    explosivedamage: 155.3000030517578
+    explosivedamageresonance: 0.800000011920929
+    hp: 180.0
     id: 24488
+    kineticdamageresonance: 1.0
+    launchergroup: 771
     marketGroup: 973
-    mass: 700.0
+    maxvelocity: 1875.0
+    metalevel: 5
     name: Nova Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Scourge Javelin Heavy Assault Missile:
-    Agility: 0.0019947297405451536
-    AimedLaunch: 1
-    AoeCloudSize: 125
-    AoeDamageReductionFactor: 0.8949999809265137
-    AoeFalloff: 1500
-    AoeVelocity: 101.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 4000
-    ExplosiveDamageResonance: 1.0
-    Hp: 60.0
-    KineticDamage: 90.0
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 771
-    Mass: 625.0
-    MaxVelocity: 3375.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 25718
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25719
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 0.0019947297405451536
+    aimedlaunch: 1
+    aoecloudsize: 125
+    aoedamagereductionfactor: 0.8949999809265137
+    aoefalloff: 1500
+    aoevelocity: 101.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 60.0
     id: 24492
+    kineticdamage: 90.0
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 771
     marketGroup: 972
-    mass: 625.0
+    maxvelocity: 3375.0
+    metalevel: 5
     name: Scourge Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873
   Scourge Rage Heavy Assault Missile:
-    Agility: 67.54669189453125
-    AimedLaunch: 1
-    AoeCloudSize: 215
-    AoeDamageReductionFactor: 0.9200000166893005
-    AoeFalloff: 1500
-    AoeVelocity: 87.0
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 4000
-    ExplosiveDamageResonance: 1.0
-    Hp: 180.0
-    KineticDamage: 155.3000030517578
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 771
-    Mass: 700.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 25718
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25719
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 67.54669189453125
+    aimedlaunch: 1
+    aoecloudsize: 215
+    aoedamagereductionfactor: 0.9200000166893005
+    aoefalloff: 1500
+    aoevelocity: 87.0
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 4000
+    explosivedamageresonance: 1.0
+    hp: 180.0
     id: 2679
+    kineticdamage: 155.3000030517578
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 771
     marketGroup: 973
-    mass: 700.0
+    maxvelocity: 1875.0
+    metalevel: 5
     name: Scourge Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 25718
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.014999999664723873

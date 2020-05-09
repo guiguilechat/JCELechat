@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,39 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BuffDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowActivateInForcefield;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowDocking;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowTethering;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff1ID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff1Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff2ID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff2Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff3ID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff3Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff4ID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff4Value;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,105 +59,105 @@ public class TitanPhenomenaGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BuffDuration;
+    public int buffduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType1;
+    public int canfitshiptype1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType2;
+    public int canfitshiptype2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType3;
+    public int canfitshiptype3;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionQuantity;
+    public int consumptionquantity;
     /**
      * The type of resource needed to be consumed for each activation cycle of this structure.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionType;
+    public int consumptiontype;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * If set to True on a module, the module will not be allowed to activate whilst the ship is inside a starbase forcefield
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowActivateInForcefield;
+    public int disallowactivateinforcefield;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowDocking;
+    public int disallowdocking;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowTethering;
+    public int disallowtethering;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -129,35 +165,35 @@ public class TitanPhenomenaGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ModuleReactivationDelay;
+    public int modulereactivationdelay;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -165,63 +201,64 @@ public class TitanPhenomenaGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff1ID;
+    public int warfarebuff1id;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WarfareBuff1Value;
+    public double warfarebuff1value;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff2ID;
+    public int warfarebuff2id;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WarfareBuff2Value;
+    public double warfarebuff2value;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff3ID;
+    public int warfarebuff3id;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WarfareBuff3Value;
+    public double warfarebuff3value;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareBuff4ID;
+    public int warfarebuff4id;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WarfareBuff4Value;
+    public double warfarebuff4value;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DisallowActivateInForcefield.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, ConsumptionQuantity.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, Radius.INSTANCE, WarfareBuff1ID.INSTANCE, WarfareBuff1Value.INSTANCE, TechLevel.INSTANCE, WarfareBuff2ID.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, BuffDuration.INSTANCE, WarfareBuff2Value.INSTANCE, WarfareBuff3ID.INSTANCE, WarfareBuff4ID.INSTANCE, WarfareBuff3Value.INSTANCE, WarfareBuff4Value.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevel.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final TitanPhenomenaGenerator.MetaGroup METAGROUP = new TitanPhenomenaGenerator.MetaGroup();
 
     @Override
@@ -229,125 +266,130 @@ public class TitanPhenomenaGenerator
         switch (attribute.getId()) {
             case  2535 :
             {
-                return BuffDuration;
+                return buffduration;
             }
             case  1302 :
             {
-                return CanFitShipType1;
+                return canfitshiptype1;
             }
             case  1303 :
             {
-                return CanFitShipType2;
+                return canfitshiptype2;
             }
             case  1304 :
             {
-                return CanFitShipType3;
+                return canfitshiptype3;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  714 :
             {
-                return ConsumptionQuantity;
+                return consumptionquantity;
             }
             case  713 :
             {
-                return ConsumptionType;
+                return consumptiontype;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1920 :
             {
-                return DisallowActivateInForcefield;
+                return disallowactivateinforcefield;
             }
             case  2354 :
             {
-                return DisallowDocking;
+                return disallowdocking;
             }
             case  2343 :
             {
-                return DisallowTethering;
+                return disallowtethering;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  669 :
             {
-                return ModuleReactivationDelay;
+                return modulereactivationdelay;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  2468 :
             {
-                return WarfareBuff1ID;
+                return warfarebuff1id;
             }
             case  2469 :
             {
-                return WarfareBuff1Value;
+                return warfarebuff1value;
             }
             case  2470 :
             {
-                return WarfareBuff2ID;
+                return warfarebuff2id;
             }
             case  2471 :
             {
-                return WarfareBuff2Value;
+                return warfarebuff2value;
             }
             case  2472 :
             {
-                return WarfareBuff3ID;
+                return warfarebuff3id;
             }
             case  2473 :
             {
-                return WarfareBuff3Value;
+                return warfarebuff3value;
             }
             case  2536 :
             {
-                return WarfareBuff4ID;
+                return warfarebuff4id;
             }
             case  2537 :
             {
-                return WarfareBuff4Value;
+                return warfarebuff4value;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

@@ -1,257 +1,241 @@
 types:
   Inferno Fury XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1
-    AoeCloudSize: 10200
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 34.0
-    DetonationRange: 35
-    ExplosionDelay: 11250
-    Hp: 1920.0
-    LauncherGroup: 1674
-    Mass: 1500.0
-    MaxVelocity: 7000.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 41410
-    RequiredSkill1Level: 1
-    RequiredSkill2: 32435
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamage: 5700.0
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 10200
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 34.0
+    detonationrange: 35
+    explosiondelay: 11250
+    hp: 1920.0
     id: 41287
+    launchergroup: 1674
     marketGroup: 2261
-    mass: 1500.0
+    maxvelocity: 7000.0
+    metalevel: 5
     name: Inferno Fury XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 41410
+    requiredskill1level: 1
+    requiredskill2: 32435
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 5700.0
     volume: 0.30000001192092896
   Inferno Precision XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1
-    AoeCloudSize: 5455
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 48.0
-    DetonationRange: 35
-    ExplosionDelay: 7500
-    Hp: 1920.0
-    LauncherGroup: 1674
-    Mass: 1500.0
-    MaxVelocity: 7000.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 41410
-    RequiredSkill1Level: 1
-    RequiredSkill2: 32435
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamage: 4750.0
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 5455
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 48.0
+    detonationrange: 35
+    explosiondelay: 7500
+    hp: 1920.0
     id: 41286
+    launchergroup: 1674
     marketGroup: 2260
-    mass: 1500.0
+    maxvelocity: 7000.0
+    metalevel: 5
     name: Inferno Precision XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 41410
+    requiredskill1level: 1
+    requiredskill2: 32435
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 4750.0
     volume: 0.30000001192092896
   Mjolnir Fury XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1
-    AoeCloudSize: 10200
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 34.0
-    DetonationRange: 35
-    EmDamage: 5700.0
-    ExplosionDelay: 11250
-    Hp: 1920.0
-    LauncherGroup: 1674
-    Mass: 1500.0
-    MaxVelocity: 7000.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 41410
-    RequiredSkill1Level: 1
-    RequiredSkill2: 32435
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 10200
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 34.0
+    detonationrange: 35
+    emdamage: 5700.0
+    explosiondelay: 11250
+    hp: 1920.0
     id: 41299
+    launchergroup: 1674
     marketGroup: 2261
-    mass: 1500.0
+    maxvelocity: 7000.0
+    metalevel: 5
     name: Mjolnir Fury XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 41410
+    requiredskill1level: 1
+    requiredskill2: 32435
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
     volume: 0.30000001192092896
   Mjolnir Precision XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1
-    AoeCloudSize: 5455
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 48.0
-    DetonationRange: 35
-    EmDamage: 4750.0
-    ExplosionDelay: 7500
-    Hp: 1920.0
-    LauncherGroup: 1674
-    Mass: 1500.0
-    MaxVelocity: 7000.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 41410
-    RequiredSkill1Level: 1
-    RequiredSkill2: 32435
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 5455
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 48.0
+    detonationrange: 35
+    emdamage: 4750.0
+    explosiondelay: 7500
+    hp: 1920.0
     id: 41298
+    launchergroup: 1674
     marketGroup: 2260
-    mass: 1500.0
+    maxvelocity: 7000.0
+    metalevel: 5
     name: Mjolnir Precision XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 41410
+    requiredskill1level: 1
+    requiredskill2: 32435
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
     volume: 0.30000001192092896
   Nova Fury XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1
-    AoeCloudSize: 10200
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 34.0
-    DetonationRange: 35
-    ExplosionDelay: 11250
-    ExplosiveDamage: 5700.0
-    Hp: 1920.0
-    LauncherGroup: 1674
-    Mass: 1500.0
-    MaxVelocity: 7000.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 41410
-    RequiredSkill1Level: 1
-    RequiredSkill2: 32435
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 10200
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 34.0
+    detonationrange: 35
+    explosiondelay: 11250
+    explosivedamage: 5700.0
+    hp: 1920.0
     id: 41294
+    launchergroup: 1674
     marketGroup: 2261
-    mass: 1500.0
+    maxvelocity: 7000.0
+    metalevel: 5
     name: Nova Fury XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 41410
+    requiredskill1level: 1
+    requiredskill2: 32435
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
     volume: 0.30000001192092896
   Nova Precision XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1
-    AoeCloudSize: 5455
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 48.0
-    DetonationRange: 35
-    ExplosionDelay: 7500
-    ExplosiveDamage: 4750.0
-    Hp: 1920.0
-    LauncherGroup: 1674
-    Mass: 1500.0
-    MaxVelocity: 7000.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 41410
-    RequiredSkill1Level: 1
-    RequiredSkill2: 32435
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 5455
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 48.0
+    detonationrange: 35
+    explosiondelay: 7500
+    explosivedamage: 4750.0
+    hp: 1920.0
     id: 41295
+    launchergroup: 1674
     marketGroup: 2260
-    mass: 1500.0
+    maxvelocity: 7000.0
+    metalevel: 5
     name: Nova Precision XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 41410
+    requiredskill1level: 1
+    requiredskill2: 32435
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
     volume: 0.30000001192092896
   Scourge Fury XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1
-    AoeCloudSize: 10200
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 34.0
-    DetonationRange: 35
-    ExplosionDelay: 11250
-    Hp: 1920.0
-    KineticDamage: 5700.0
-    LauncherGroup: 1674
-    Mass: 1500.0
-    MaxVelocity: 7000.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 41410
-    RequiredSkill1Level: 1
-    RequiredSkill2: 32435
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 10200
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 34.0
+    detonationrange: 35
+    explosiondelay: 11250
+    hp: 1920.0
     id: 41291
+    kineticdamage: 5700.0
+    launchergroup: 1674
     marketGroup: 2261
-    mass: 1500.0
+    maxvelocity: 7000.0
+    metalevel: 5
     name: Scourge Fury XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 41410
+    requiredskill1level: 1
+    requiredskill2: 32435
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
     volume: 0.30000001192092896
   Scourge Precision XL Cruise Missile:
-    Agility: 4.363462267065188E-6
-    AimedLaunch: 1
-    AoeCloudSize: 5455
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1500
-    AoeVelocity: 48.0
-    DetonationRange: 35
-    ExplosionDelay: 7500
-    Hp: 1920.0
-    KineticDamage: 4750.0
-    LauncherGroup: 1674
-    Mass: 1500.0
-    MaxVelocity: 7000.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 41410
-    RequiredSkill1Level: 1
-    RequiredSkill2: 32435
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
+    agility: 4.363462267065188E-6
+    aimedlaunch: 1
+    aoecloudsize: 5455
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1500
+    aoevelocity: 48.0
+    detonationrange: 35
+    explosiondelay: 7500
+    hp: 1920.0
     id: 41290
+    kineticdamage: 4750.0
+    launchergroup: 1674
     marketGroup: 2260
-    mass: 1500.0
+    maxvelocity: 7000.0
+    metalevel: 5
     name: Scourge Precision XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
     published: true
+    radius: 300.0
+    requiredskill1: 41410
+    requiredskill1level: 1
+    requiredskill2: 32435
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
     volume: 0.30000001192092896

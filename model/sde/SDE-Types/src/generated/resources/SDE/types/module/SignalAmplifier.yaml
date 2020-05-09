@@ -1,165 +1,165 @@
 types:
   '''Basic'' Signal Amplifier':
-    Cpu: 8.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 23.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanGravimetricStrengthPercent: 36
-    ScanLadarStrengthPercent: 36
-    ScanMagnetometricStrengthPercent: 36
-    ScanRadarStrengthPercent: 36
-    ScanResolutionBonus: 6.0
-    TechLevel: 1
+    cpu: 8.0
+    hp: 40.0
     id: 1949
     marketGroup: 669
+    maxlockedtargetsbonus: 1
+    maxtargetrangebonus: 23.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Basic'' Signal Amplifier'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 36
+    scanladarstrengthpercent: 36
+    scanmagnetometricstrengthpercent: 36
+    scanradarstrengthpercent: 36
+    scanresolutionbonus: 6.0
+    techlevel: 1
     volume: 5.0
   '''Firewall'' Signal Amplifier':
-    Cpu: 12.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 30.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanGravimetricStrengthPercent: 48
-    ScanLadarStrengthPercent: 48
-    ScanMagnetometricStrengthPercent: 48
-    ScanRadarStrengthPercent: 48
-    ScanResolutionBonus: 15.0
-    TechLevel: 1
+    cpu: 12.0
+    hp: 40.0
     id: 21527
     marketGroup: 669
+    maxlockedtargetsbonus: 1
+    maxtargetrangebonus: 30.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Firewall'' Signal Amplifier'
     packagedVolume: 20.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 48
+    scanladarstrengthpercent: 48
+    scanmagnetometricstrengthpercent: 48
+    scanradarstrengthpercent: 48
+    scanresolutionbonus: 15.0
+    techlevel: 1
     volume: 20.0
   F-89 Compact Signal Amplifier:
-    Cpu: 16.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 27.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 1
-    ScanGravimetricStrengthPercent: 44
-    ScanLadarStrengthPercent: 44
-    ScanMagnetometricStrengthPercent: 44
-    ScanRadarStrengthPercent: 44
-    ScanResolutionBonus: 13.0
-    TechLevel: 1
+    cpu: 16.0
+    hp: 40.0
     id: 6296
     marketGroup: 669
+    maxlockedtargetsbonus: 1
+    maxtargetrangebonus: 27.0
+    metalevel: 1
     name: F-89 Compact Signal Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3432
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 44
+    scanladarstrengthpercent: 44
+    scanmagnetometricstrengthpercent: 44
+    scanradarstrengthpercent: 44
+    scanresolutionbonus: 13.0
+    techlevel: 1
     volume: 5.0
   Sentient Signal Amplifier:
-    Cpu: 16.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 2
-    MaxTargetRangeBonus: 34.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanGravimetricStrengthPercent: 52
-    ScanLadarStrengthPercent: 52
-    ScanMagnetometricStrengthPercent: 52
-    ScanRadarStrengthPercent: 52
-    ScanResolutionBonus: 16.0
-    TechLevel: 1
+    cpu: 16.0
+    hp: 40.0
     id: 41196
     marketGroup: 669
+    maxlockedtargetsbonus: 2
+    maxtargetrangebonus: 34.0
+    metagroupid: 4
+    metalevel: 8
     name: Sentient Signal Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 52
+    scanladarstrengthpercent: 52
+    scanmagnetometricstrengthpercent: 52
+    scanradarstrengthpercent: 52
+    scanresolutionbonus: 16.0
+    techlevel: 1
     volume: 5.0
   Signal Amplifier I:
-    Cpu: 20.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 1
-    MaxTargetRangeBonus: 25.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 1
-    ScanGravimetricStrengthPercent: 40
-    ScanLadarStrengthPercent: 40
-    ScanMagnetometricStrengthPercent: 40
-    ScanRadarStrengthPercent: 40
-    ScanResolutionBonus: 12.0
-    TechLevel: 1
+    cpu: 20.0
+    hp: 40.0
     id: 1986
     marketGroup: 669
+    maxlockedtargetsbonus: 1
+    maxtargetrangebonus: 25.0
     name: Signal Amplifier I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3432
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 40
+    scanladarstrengthpercent: 40
+    scanmagnetometricstrengthpercent: 40
+    scanradarstrengthpercent: 40
+    scanresolutionbonus: 12.0
+    techlevel: 1
     volume: 5.0
   Signal Amplifier II:
-    Cpu: 24.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 2
-    MaxTargetRangeBonus: 30.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3432
-    RequiredSkill1Level: 5
-    ScanGravimetricStrengthPercent: 48
-    ScanLadarStrengthPercent: 48
-    ScanMagnetometricStrengthPercent: 48
-    ScanRadarStrengthPercent: 48
-    ScanResolutionBonus: 15.0
-    TechLevel: 2
+    cpu: 24.0
+    hp: 40.0
     id: 1987
     marketGroup: 669
+    maxlockedtargetsbonus: 2
+    maxtargetrangebonus: 30.0
+    metalevel: 5
     name: Signal Amplifier II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3432
+    requiredskill1level: 5
+    scangravimetricstrengthpercent: 48
+    scanladarstrengthpercent: 48
+    scanmagnetometricstrengthpercent: 48
+    scanradarstrengthpercent: 48
+    scanresolutionbonus: 15.0
+    techlevel: 2
     volume: 5.0
   Syndicate Signal Amplifier:
-    Cpu: 16.0
-    Hp: 40.0
-    MaxLockedTargetsBonus: 2
-    MaxTargetRangeBonus: 34.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanGravimetricStrengthPercent: 52
-    ScanLadarStrengthPercent: 52
-    ScanMagnetometricStrengthPercent: 52
-    ScanRadarStrengthPercent: 52
-    ScanResolutionBonus: 16.0
-    TechLevel: 1
+    cpu: 16.0
+    hp: 40.0
     id: 41197
     marketGroup: 669
+    maxlockedtargetsbonus: 2
+    maxtargetrangebonus: 34.0
+    metagroupid: 4
+    metalevel: 8
     name: Syndicate Signal Amplifier
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scangravimetricstrengthpercent: 52
+    scanladarstrengthpercent: 52
+    scanmagnetometricstrengthpercent: 52
+    scanradarstrengthpercent: 52
+    scanresolutionbonus: 16.0
+    techlevel: 1
     volume: 5.0

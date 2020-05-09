@@ -1,503 +1,459 @@
 types:
   '''Portcullis'' Reactor Control Unit I':
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 16.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    PowerOutputMultiplier: 1.149999976158142
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 16.0
+    hp: 40.0
     id: 23898
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Portcullis'' Reactor Control Unit I'
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.149999976158142
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Ahremen's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    PowerOutputMultiplier: 1.1782499551773071
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15122
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 13
     name: Ahremen's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1782499551773071
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Ammatar Navy Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.1549999713897705
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 17522
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: Ammatar Navy Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1549999713897705
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Basic Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 8.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    PowerOutputMultiplier: 1.0499999523162842
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 8.0
+    hp: 40.0
     id: 1351
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 3
+    metalevel: 6
     name: Basic Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0499999523162842
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 1
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Brokara's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    PowerOutputMultiplier: 1.162750005722046
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15112
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 11
     name: Brokara's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.162750005722046
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Brynn's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    PowerOutputMultiplier: 1.162750005722046
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15300
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 11
     name: Brynn's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.162750005722046
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Chelm's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    PowerOutputMultiplier: 1.1859999895095825
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15124
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 14
     name: Chelm's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1859999895095825
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Cormack's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    PowerOutputMultiplier: 1.1859999895095825
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15306
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 14
     name: Cormack's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1859999895095825
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Dark Blood Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.1549999713897705
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 14128
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: Dark Blood Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1549999713897705
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Draclira's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    PowerOutputMultiplier: 1.1859999895095825
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15126
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 14
     name: Draclira's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1859999895095825
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Mark I Compact Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 16.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaLevel: 1
-    PowerOutputMultiplier: 1.1200000047683716
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 16.0
+    hp: 40.0
     id: 8263
     marketGroup: 659
-    mass: 20.0
+    metalevel: 1
     name: Mark I Compact Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1200000047683716
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Raysere's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    PowerOutputMultiplier: 1.1705000400543213
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15118
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 12
     name: Raysere's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1705000400543213
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Reactor Control Unit I:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    PowerOutputMultiplier: 1.100000023841858
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 1353
     marketGroup: 659
-    mass: 20.0
     name: Reactor Control Unit I
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.100000023841858
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Reactor Control Unit II:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 22.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaLevel: 5
-    PowerOutputMultiplier: 1.149999976158142
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 5
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 2
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 22.0
+    hp: 40.0
     id: 1355
     marketGroup: 659
-    mass: 20.0
+    metalevel: 5
     name: Reactor Control Unit II
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.149999976158142
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 5
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 2
     volume: 5.0
   Selynne's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    PowerOutputMultiplier: 1.1705000400543213
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15116
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 12
     name: Selynne's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1705000400543213
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Setele's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    PowerOutputMultiplier: 1.1782499551773071
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15304
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 13
     name: Setele's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1782499551773071
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Shadow Serpentis Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.1549999713897705
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 14132
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: Shadow Serpentis Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1549999713897705
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Syndicate Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.1549999713897705
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 28776
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: Syndicate Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1549999713897705
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Tairei's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    PowerOutputMultiplier: 1.162750005722046
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15114
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 11
     name: Tairei's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.162750005722046
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   True Sansha Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.1549999713897705
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 14130
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: True Sansha Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1549999713897705
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Tuvan's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    PowerOutputMultiplier: 1.1705000400543213
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15302
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 12
     name: Tuvan's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1705000400543213
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0
   Vizan's Modified Reactor Control Unit:
-    CapacitorCapacityMultiplier: 1.0
-    CapacitorRechargeRateMultiplier: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    PowerOutputMultiplier: 1.1782499551773071
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0
-    ShieldRechargeRateMultiplier: 1.0
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0
+    capacitorrechargeratemultiplier: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 15120
     marketGroup: 659
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 13
     name: Vizan's Modified Reactor Control Unit
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.1782499551773071
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0
+    shieldrechargeratemultiplier: 1.0
+    techlevel: 1
     volume: 5.0

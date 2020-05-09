@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,20 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringSecurityLevelMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTypeFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelConsumptionGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelOnlineAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFullPowerStateArmorPlatingMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFullPowerStateHitpointMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,70 +40,71 @@ public class StructureMoonDrillingServiceModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double AnchoringSecurityLevelMax;
+    public double anchoringsecuritylevelmax;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxTypeFitted;
+    public int maxtypefitted;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFuelAmount;
+    public int servicemodulefuelamount;
     /**
      * Fuel consumed by the structure service module
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFuelConsumptionGroup;
+    public int servicemodulefuelconsumptiongroup;
     /**
      * Fuel consumed to online the service module.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFuelOnlineAmount;
+    public int servicemodulefuelonlineamount;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFullPowerStateArmorPlatingMultiplier;
+    public int servicemodulefullpowerstatearmorplatingmultiplier;
     /**
      * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ServiceModuleFullPowerStateHitpointMultiplier;
+    public int servicemodulefullpowerstatehitpointmultiplier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, AnchoringSecurityLevelMax.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final StructureMoonDrillingServiceModule.MetaGroup METAGROUP = new StructureMoonDrillingServiceModule.MetaGroup();
 
     @Override
@@ -94,49 +112,54 @@ public class StructureMoonDrillingServiceModule
         switch (attribute.getId()) {
             case  1032 :
             {
-                return AnchoringSecurityLevelMax;
+                return anchoringsecuritylevelmax;
             }
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  2431 :
             {
-                return MaxTypeFitted;
+                return maxtypefitted;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  2109 :
             {
-                return ServiceModuleFuelAmount;
+                return servicemodulefuelamount;
             }
             case  2108 :
             {
-                return ServiceModuleFuelConsumptionGroup;
+                return servicemodulefuelconsumptiongroup;
             }
             case  2110 :
             {
-                return ServiceModuleFuelOnlineAmount;
+                return servicemodulefuelonlineamount;
             }
             case  2804 :
             {
-                return ServiceModuleFullPowerStateArmorPlatingMultiplier;
+                return servicemodulefullpowerstatearmorplatingmultiplier;
             }
             case  2744 :
             {
-                return ServiceModuleFullPowerStateHitpointMultiplier;
+                return servicemodulefullpowerstatehitpointmultiplier;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

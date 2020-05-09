@@ -1,526 +1,480 @@
 types:
   '''Basic'' Power Diagnostic System':
-    CapacitorCapacityMultiplier: 1.0199999809265137
-    CapacitorRechargeRateMultiplier: 0.949999988079071
-    Cpu: 8.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    PowerOutputMultiplier: 1.024999976158142
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 1
-    ShieldCapacityMultiplier: 1.0199999809265137
-    ShieldRechargeRateMultiplier: 0.949999988079071
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0199999809265137
+    capacitorrechargeratemultiplier: 0.949999988079071
+    cpu: 8.0
+    hp: 40.0
     id: 1537
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Basic'' Power Diagnostic System'
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.024999976158142
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 1
+    shieldcapacitymultiplier: 1.0199999809265137
+    shieldrechargeratemultiplier: 0.949999988079071
+    techlevel: 1
     volume: 5.0
   '''Cartel'' Power Diagnostic System I':
-    CapacitorCapacityMultiplier: 1.0499999523162842
-    CapacitorRechargeRateMultiplier: 0.9150000214576721
-    Cpu: 10.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    PowerOutputMultiplier: 1.0549999475479126
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0499999523162842
-    ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0499999523162842
+    capacitorrechargeratemultiplier: 0.9150000214576721
+    cpu: 10.0
+    hp: 40.0
     id: 22953
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Cartel'' Power Diagnostic System I'
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0549999475479126
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 0.9150000214576721
+    techlevel: 1
     volume: 5.0
   Ahremen's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0674999952316284
-    CapacitorRechargeRateMultiplier: 0.8463749885559082
-    Cpu: 22.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    PowerOutputMultiplier: 1.0862499475479126
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0674999952316284
-    ShieldRechargeRateMultiplier: 0.8463749885559082
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0674999952316284
+    capacitorrechargeratemultiplier: 0.8463749885559082
+    cpu: 22.0
+    hp: 40.0
     id: 15106
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 13
     name: Ahremen's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0862499475479126
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0674999952316284
+    shieldrechargeratemultiplier: 0.8463749885559082
+    techlevel: 1
     volume: 5.0
   Ammatar Navy Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.059999942779541
-    CapacitorRechargeRateMultiplier: 0.9120000004768372
-    Cpu: 16.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.0750000476837158
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0499999523162842
-    ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.059999942779541
+    capacitorrechargeratemultiplier: 0.9120000004768372
+    cpu: 16.0
+    hp: 40.0
     id: 17524
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: Ammatar Navy Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0750000476837158
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 0.9150000214576721
+    techlevel: 1
     volume: 5.0
   Brokara's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0625
-    CapacitorRechargeRateMultiplier: 0.8921250104904175
-    Cpu: 18.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    PowerOutputMultiplier: 1.0787500143051147
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0625
-    ShieldRechargeRateMultiplier: 0.8921250104904175
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0625
+    capacitorrechargeratemultiplier: 0.8921250104904175
+    cpu: 18.0
+    hp: 40.0
     id: 15096
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 11
     name: Brokara's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0787500143051147
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0625
+    shieldrechargeratemultiplier: 0.8921250104904175
+    techlevel: 1
     volume: 5.0
   Brynn's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0625
-    CapacitorRechargeRateMultiplier: 0.8921250104904175
-    Cpu: 18.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    PowerOutputMultiplier: 1.0787500143051147
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0625
-    ShieldRechargeRateMultiplier: 0.8921250104904175
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0625
+    capacitorrechargeratemultiplier: 0.8921250104904175
+    cpu: 18.0
+    hp: 40.0
     id: 15292
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 11
     name: Brynn's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0787500143051147
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0625
+    shieldrechargeratemultiplier: 0.8921250104904175
+    techlevel: 1
     volume: 5.0
   Caldari Navy Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0499999523162842
-    CapacitorRechargeRateMultiplier: 0.9150000214576721
-    Cpu: 16.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.0750000476837158
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.059999942779541
-    ShieldRechargeRateMultiplier: 0.9120000004768372
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0499999523162842
+    capacitorrechargeratemultiplier: 0.9150000214576721
+    cpu: 16.0
+    hp: 40.0
     id: 31952
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: Caldari Navy Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0750000476837158
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.059999942779541
+    shieldrechargeratemultiplier: 0.9120000004768372
+    techlevel: 1
     volume: 5.0
   Chelm's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0700000524520874
-    CapacitorRechargeRateMultiplier: 0.8234999775886536
-    Cpu: 24.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    PowerOutputMultiplier: 1.090000033378601
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0700000524520874
-    ShieldRechargeRateMultiplier: 0.8234999775886536
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0700000524520874
+    capacitorrechargeratemultiplier: 0.8234999775886536
+    cpu: 24.0
+    hp: 40.0
     id: 15108
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 14
     name: Chelm's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.090000033378601
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0700000524520874
+    shieldrechargeratemultiplier: 0.8234999775886536
+    techlevel: 1
     volume: 5.0
   Cormack's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0700000524520874
-    CapacitorRechargeRateMultiplier: 0.8234999775886536
-    Cpu: 24.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    PowerOutputMultiplier: 1.090000033378601
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0700000524520874
-    ShieldRechargeRateMultiplier: 0.8234999775886536
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0700000524520874
+    capacitorrechargeratemultiplier: 0.8234999775886536
+    cpu: 24.0
+    hp: 40.0
     id: 15298
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 14
     name: Cormack's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.090000033378601
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0700000524520874
+    shieldrechargeratemultiplier: 0.8234999775886536
+    techlevel: 1
     volume: 5.0
   Dark Blood Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.059999942779541
-    CapacitorRechargeRateMultiplier: 0.9120000004768372
-    Cpu: 16.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.0750000476837158
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0499999523162842
-    ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.059999942779541
+    capacitorrechargeratemultiplier: 0.9120000004768372
+    cpu: 16.0
+    hp: 40.0
     id: 14134
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: Dark Blood Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0750000476837158
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 0.9150000214576721
+    techlevel: 1
     volume: 5.0
   Draclira's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0700000524520874
-    CapacitorRechargeRateMultiplier: 0.8234999775886536
-    Cpu: 24.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    PowerOutputMultiplier: 1.090000033378601
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0700000524520874
-    ShieldRechargeRateMultiplier: 0.8234999775886536
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0700000524520874
+    capacitorrechargeratemultiplier: 0.8234999775886536
+    cpu: 24.0
+    hp: 40.0
     id: 15110
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 14
     name: Draclira's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.090000033378601
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0700000524520874
+    shieldrechargeratemultiplier: 0.8234999775886536
+    techlevel: 1
     volume: 5.0
   Mark I Compact Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0449999570846558
-    CapacitorRechargeRateMultiplier: 0.9200000166893005
-    Cpu: 17.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaLevel: 1
-    PowerOutputMultiplier: 1.0549999475479126
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0449999570846558
-    ShieldRechargeRateMultiplier: 0.9200000166893005
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0449999570846558
+    capacitorrechargeratemultiplier: 0.9200000166893005
+    cpu: 17.0
+    hp: 40.0
     id: 8225
     marketGroup: 658
-    mass: 20.0
+    metalevel: 1
     name: Mark I Compact Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0549999475479126
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0449999570846558
+    shieldrechargeratemultiplier: 0.9200000166893005
+    techlevel: 1
     volume: 5.0
   Power Diagnostic System I:
-    CapacitorCapacityMultiplier: 1.0399999618530273
-    CapacitorRechargeRateMultiplier: 0.925000011920929
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    PowerOutputMultiplier: 1.0499999523162842
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0399999618530273
-    ShieldRechargeRateMultiplier: 0.925000011920929
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0399999618530273
+    capacitorrechargeratemultiplier: 0.925000011920929
+    cpu: 20.0
+    hp: 40.0
     id: 1539
     marketGroup: 658
-    mass: 20.0
     name: Power Diagnostic System I
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0499999523162842
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0399999618530273
+    shieldrechargeratemultiplier: 0.925000011920929
+    techlevel: 1
     volume: 5.0
   Power Diagnostic System II:
-    CapacitorCapacityMultiplier: 1.0499999523162842
-    CapacitorRechargeRateMultiplier: 0.9150000214576721
-    Cpu: 22.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaLevel: 5
-    PowerOutputMultiplier: 1.059999942779541
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 4
-    ShieldCapacityMultiplier: 1.0499999523162842
-    ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 2
+    capacitorcapacitymultiplier: 1.0499999523162842
+    capacitorrechargeratemultiplier: 0.9150000214576721
+    cpu: 22.0
+    hp: 40.0
     id: 1541
     marketGroup: 658
-    mass: 20.0
+    metalevel: 5
     name: Power Diagnostic System II
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.059999942779541
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 4
+    shieldcapacitymultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 0.9150000214576721
+    techlevel: 2
     volume: 5.0
   Raysere's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.065000057220459
-    CapacitorRechargeRateMultiplier: 0.8692499995231628
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    PowerOutputMultiplier: 1.0824999809265137
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.065000057220459
-    ShieldRechargeRateMultiplier: 0.8692499995231628
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.065000057220459
+    capacitorrechargeratemultiplier: 0.8692499995231628
+    cpu: 20.0
+    hp: 40.0
     id: 15102
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 12
     name: Raysere's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0824999809265137
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.065000057220459
+    shieldrechargeratemultiplier: 0.8692499995231628
+    techlevel: 1
     volume: 5.0
   Selynne's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.065000057220459
-    CapacitorRechargeRateMultiplier: 0.8692499995231628
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    PowerOutputMultiplier: 1.0824999809265137
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.065000057220459
-    ShieldRechargeRateMultiplier: 0.8692499995231628
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.065000057220459
+    capacitorrechargeratemultiplier: 0.8692499995231628
+    cpu: 20.0
+    hp: 40.0
     id: 15100
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 12
     name: Selynne's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0824999809265137
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.065000057220459
+    shieldrechargeratemultiplier: 0.8692499995231628
+    techlevel: 1
     volume: 5.0
   Setele's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0674999952316284
-    CapacitorRechargeRateMultiplier: 0.8463749885559082
-    Cpu: 22.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    PowerOutputMultiplier: 1.0862499475479126
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0674999952316284
-    ShieldRechargeRateMultiplier: 0.8463749885559082
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0674999952316284
+    capacitorrechargeratemultiplier: 0.8463749885559082
+    cpu: 22.0
+    hp: 40.0
     id: 15296
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 13
     name: Setele's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0862499475479126
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0674999952316284
+    shieldrechargeratemultiplier: 0.8463749885559082
+    techlevel: 1
     volume: 5.0
   Shadow Serpentis Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.059999942779541
-    CapacitorRechargeRateMultiplier: 0.9120000004768372
-    Cpu: 16.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.0750000476837158
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0499999523162842
-    ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.059999942779541
+    capacitorrechargeratemultiplier: 0.9120000004768372
+    cpu: 16.0
+    hp: 40.0
     id: 14138
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: Shadow Serpentis Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0750000476837158
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 0.9150000214576721
+    techlevel: 1
     volume: 5.0
   Tairei's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0625
-    CapacitorRechargeRateMultiplier: 0.8921250104904175
-    Cpu: 18.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    PowerOutputMultiplier: 1.0787500143051147
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0625
-    ShieldRechargeRateMultiplier: 0.8921250104904175
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0625
+    capacitorrechargeratemultiplier: 0.8921250104904175
+    cpu: 18.0
+    hp: 40.0
     id: 15098
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 11
     name: Tairei's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0787500143051147
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0625
+    shieldrechargeratemultiplier: 0.8921250104904175
+    techlevel: 1
     volume: 5.0
   Thukker Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0499999523162842
-    CapacitorRechargeRateMultiplier: 0.9150000214576721
-    Cpu: 16.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.0750000476837158
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.059999942779541
-    ShieldRechargeRateMultiplier: 0.9120000004768372
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0499999523162842
+    capacitorrechargeratemultiplier: 0.9150000214576721
+    cpu: 16.0
+    hp: 40.0
     id: 28739
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: Thukker Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0750000476837158
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.059999942779541
+    shieldrechargeratemultiplier: 0.9120000004768372
+    techlevel: 1
     volume: 5.0
   True Sansha Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.059999942779541
-    CapacitorRechargeRateMultiplier: 0.9120000004768372
-    Cpu: 16.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    PowerOutputMultiplier: 1.0750000476837158
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0499999523162842
-    ShieldRechargeRateMultiplier: 0.9150000214576721
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.059999942779541
+    capacitorrechargeratemultiplier: 0.9120000004768372
+    cpu: 16.0
+    hp: 40.0
     id: 14136
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 4
+    metalevel: 8
     name: True Sansha Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0750000476837158
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0499999523162842
+    shieldrechargeratemultiplier: 0.9150000214576721
+    techlevel: 1
     volume: 5.0
   Tuvan's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.065000057220459
-    CapacitorRechargeRateMultiplier: 0.8692499995231628
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    PowerOutputMultiplier: 1.0824999809265137
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.065000057220459
-    ShieldRechargeRateMultiplier: 0.8692499995231628
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.065000057220459
+    capacitorrechargeratemultiplier: 0.8692499995231628
+    cpu: 20.0
+    hp: 40.0
     id: 15294
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 12
     name: Tuvan's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0824999809265137
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.065000057220459
+    shieldrechargeratemultiplier: 0.8692499995231628
+    techlevel: 1
     volume: 5.0
   Vizan's Modified Power Diagnostic System:
-    CapacitorCapacityMultiplier: 1.0674999952316284
-    CapacitorRechargeRateMultiplier: 0.8463749885559082
-    Cpu: 22.0
-    Hp: 40.0
-    Mass: 20.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    PowerOutputMultiplier: 1.0862499475479126
-    Radius: 500.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    ShieldCapacityMultiplier: 1.0674999952316284
-    ShieldRechargeRateMultiplier: 0.8463749885559082
-    TechLevel: 1
+    capacitorcapacitymultiplier: 1.0674999952316284
+    capacitorrechargeratemultiplier: 0.8463749885559082
+    cpu: 22.0
+    hp: 40.0
     id: 15104
     marketGroup: 658
-    mass: 20.0
+    metagroupid: 5
+    metalevel: 13
     name: Vizan's Modified Power Diagnostic System
     packagedVolume: 5.0
     portionSize: 1
+    poweroutputmultiplier: 1.0862499475479126
     published: true
+    radius: 500.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    shieldcapacitymultiplier: 1.0674999952316284
+    shieldrechargeratemultiplier: 0.8463749885559082
+    techlevel: 1
     volume: 5.0

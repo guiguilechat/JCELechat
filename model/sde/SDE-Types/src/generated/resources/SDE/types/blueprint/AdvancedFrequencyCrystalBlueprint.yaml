@@ -1,157 +1,157 @@
 types:
   Aurora L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 12825
+    industryblueprintrank: 4.800000190734863
     name: Aurora L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Aurora M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    Radius: 1.0
-    TechLevel: 2
     id: 12823
+    industryblueprintrank: 3.200000047683716
     name: Aurora M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Aurora S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    Radius: 1.0
-    TechLevel: 2
     id: 12560
+    industryblueprintrank: 1.600000023841858
     name: Aurora S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Aurora XL Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41337
     name: Aurora XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Conflagration L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 12817
+    industryblueprintrank: 4.800000190734863
     name: Conflagration L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Conflagration M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    Radius: 1.0
-    TechLevel: 2
     id: 12815
+    industryblueprintrank: 3.200000047683716
     name: Conflagration M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Conflagration S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    Radius: 1.0
-    TechLevel: 2
     id: 12566
+    industryblueprintrank: 1.600000023841858
     name: Conflagration S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Conflagration XL Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41333
     name: Conflagration XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Gleam L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 12829
+    industryblueprintrank: 4.800000190734863
     name: Gleam L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Gleam M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    Radius: 1.0
-    TechLevel: 2
     id: 12827
+    industryblueprintrank: 3.200000047683716
     name: Gleam M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Gleam S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    Radius: 1.0
-    TechLevel: 2
     id: 12558
+    industryblueprintrank: 1.600000023841858
     name: Gleam S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Gleam XL Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41335
     name: Gleam XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Scorch L Blueprint:
-    IndustryBlueprintRank: 4.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 12821
+    industryblueprintrank: 4.800000190734863
     name: Scorch L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Scorch M Blueprint:
-    IndustryBlueprintRank: 3.200000047683716
-    Radius: 1.0
-    TechLevel: 2
     id: 12819
+    industryblueprintrank: 3.200000047683716
     name: Scorch M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Scorch S Blueprint:
-    IndustryBlueprintRank: 1.600000023841858
-    Radius: 1.0
-    TechLevel: 2
     id: 12564
+    industryblueprintrank: 1.600000023841858
     name: Scorch S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Scorch XL Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 41331
     name: Scorch XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

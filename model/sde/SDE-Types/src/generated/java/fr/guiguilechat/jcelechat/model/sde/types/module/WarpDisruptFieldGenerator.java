@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,39 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ActivationBlockedStrenght;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ImplantBonusVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MassBonusPercentage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSelfDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedBoostFactorBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactorBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,91 +59,91 @@ public class WarpDisruptFieldGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ActivationBlockedStrenght;
+    public int activationblockedstrenght;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup1;
+    public int chargegroup1;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowAssistance;
+    public int disallowassistance;
     /**
      * If set on a charge or module type, will prevent it from being activated in empire space.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowInEmpireSpace;
+    public int disallowinempirespace;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
+    public double heatabsorbtionratemodifier;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatDamage;
+    public double heatdamage;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ImplantBonusVelocity;
+    public double implantbonusvelocity;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MassBonusPercentage;
+    public int massbonuspercentage;
     /**
      * Maximum velocity multiplier
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MaxVelocityMultiplier;
+    public double maxvelocitymultiplier;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -122,7 +158,7 @@ public class WarpDisruptFieldGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -130,84 +166,84 @@ public class WarpDisruptFieldGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double OverloadSelfDurationBonus;
+    public double overloadselfdurationbonus;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * reload time (ms)
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
+    public double reloadtime;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
+    public int requiredthermodynamicsskill;
     /**
      * Autogenerated skill attribute, signatureRadiusBonus
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SignatureRadiusBonus;
+    public double signatureradiusbonus;
     /**
      * Afterburner and Microwarpdrive Thrust Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SpeedBoostFactorBonus;
+    public int speedboostfactorbonus;
     /**
      * Afterburner and Microwarpdrive Max Velocity Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SpeedFactorBonus;
+    public int speedfactorbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -215,21 +251,22 @@ public class WarpDisruptFieldGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Maximum range objects can be warp scrambled from.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleRange;
+    public int warpscramblerange;
     /**
      * Amount to modify ships warp scramble status by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleStrength;
+    public int warpscramblestrength;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, SpeedFactorBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowAssistance.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, SignatureRadiusBonus.INSTANCE, MassBonusPercentage.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, SpeedBoostFactorBonus.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevel.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
     public static final WarpDisruptFieldGenerator.MetaGroup METAGROUP = new WarpDisruptFieldGenerator.MetaGroup();
 
     @Override
@@ -237,125 +274,130 @@ public class WarpDisruptFieldGenerator
         switch (attribute.getId()) {
             case  1350 :
             {
-                return ActivationBlockedStrenght;
+                return activationblockedstrenght;
             }
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  604 :
             {
-                return ChargeGroup1;
+                return chargegroup1;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  854 :
             {
-                return DisallowAssistance;
+                return disallowassistance;
             }
             case  1074 :
             {
-                return DisallowInEmpireSpace;
+                return disallowinempirespace;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  1180 :
             {
-                return HeatAbsorbtionRateModifier;
+                return heatabsorbtionratemodifier;
             }
             case  1211 :
             {
-                return HeatDamage;
+                return heatdamage;
             }
             case  1076 :
             {
-                return ImplantBonusVelocity;
+                return implantbonusvelocity;
             }
             case  1131 :
             {
-                return MassBonusPercentage;
+                return massbonuspercentage;
             }
             case  1470 :
             {
-                return MaxVelocityMultiplier;
+                return maxvelocitymultiplier;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  1206 :
             {
-                return OverloadSelfDurationBonus;
+                return overloadselfdurationbonus;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  1795 :
             {
-                return ReloadTime;
+                return reloadtime;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  1212 :
             {
-                return RequiredThermoDynamicsSkill;
+                return requiredthermodynamicsskill;
             }
             case  554 :
             {
-                return SignatureRadiusBonus;
+                return signatureradiusbonus;
             }
             case  1270 :
             {
-                return SpeedBoostFactorBonus;
+                return speedboostfactorbonus;
             }
             case  1164 :
             {
-                return SpeedFactorBonus;
+                return speedfactorbonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  103 :
             {
-                return WarpScrambleRange;
+                return warpscramblerange;
             }
             case  105 :
             {
-                return WarpScrambleStrength;
+                return warpscramblestrength;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

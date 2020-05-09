@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,55 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSizeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorDamageAmountBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterAOEVelocityPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterArmorHPPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterArmorRepairAmountPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterCapacitorCapacityPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterEffectChance1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterEffectChance2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterEffectChance3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterEffectChance4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterEffectChance5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterLastInjectionDatetime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMaxCharAgeHours;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMaxVelocityPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMissileAOECloudPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterMissileVelocityPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterShieldBoostAmountPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterShieldCapacityPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterTurretFalloffPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterTurretOptimalRangePenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BoosterTurretTrackingPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Boosterness;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CharismaBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FollowsJumpClones;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IntelligenceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxFlightTimeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MemoryBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NonDiminishingSkillInjectorUses;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Nondestructible;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RangeSkillBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RofBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldBoostMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SocialBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SocialMutator;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.VelocityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WillpowerBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Implant;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,308 +75,309 @@ public class Booster
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int NonDiminishingSkillInjectorUses;
+    public int nondiminishingskillinjectoruses;
     /**
      * Booster attribute to explosion radius of missiles vs. signature radius.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double AoeCloudSizeBonus;
+    public double aoecloudsizebonus;
     /**
      * Bonus attribute for armor repair amount.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ArmorDamageAmountBonus;
+    public int armordamageamountbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterAOEVelocityPenalty;
+    public int boosteraoevelocitypenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterArmorHPPenalty;
+    public int boosterarmorhppenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterArmorRepairAmountPenalty;
+    public int boosterarmorrepairamountpenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterCapacitorCapacityPenalty;
+    public int boostercapacitorcapacitypenalty;
     /**
      * Duration of booster, after this duration the booster is destroyed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterDuration;
+    public int boosterduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double BoosterEffectChance1;
+    public double boostereffectchance1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double BoosterEffectChance2;
+    public double boostereffectchance2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double BoosterEffectChance3;
+    public double boostereffectchance3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double BoosterEffectChance4;
+    public double boostereffectchance4;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double BoosterEffectChance5;
+    public double boostereffectchance5;
     /**
      * The last allowed injection date.  After this date the booster can no longer be consumed. Formatted YYYY.MM.DD HH:MM:SS
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double BoosterLastInjectionDatetime;
+    public double boosterlastinjectiondatetime;
     /**
      * This attribute deactivates the booster after the character's age reaches a certain amount
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterMaxCharAgeHours;
+    public int boostermaxcharagehours;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterMaxVelocityPenalty;
+    public int boostermaxvelocitypenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterMissileAOECloudPenalty;
+    public int boostermissileaoecloudpenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterMissileVelocityPenalty;
+    public int boostermissilevelocitypenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterShieldBoostAmountPenalty;
+    public int boostershieldboostamountpenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterShieldCapacityPenalty;
+    public int boostershieldcapacitypenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterTurretFalloffPenalty;
+    public int boosterturretfalloffpenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterTurretOptimalRangePenalty;
+    public int boosterturretoptimalrangepenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BoosterTurretTrackingPenalty;
+    public int boosterturrettrackingpenalty;
     /**
      * Whether an item is a booster or not.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Boosterness;
+    public int boosterness;
     /**
      * Autogenerated skill attribute, CapacitorCapacityBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorCapacityBonus;
+    public double capacitorcapacitybonus;
     /**
      * +/- bonus to the charisma of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CharismaBonus;
+    public int charismabonus;
     /**
      * Autogenerated skill attribute, damageMultiplierBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DamageMultiplierBonus;
+    public int damagemultiplierbonus;
     /**
      * Autogenerated skill attribute, falloffBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double FalloffBonus;
+    public double falloffbonus;
     /**
      * Stays with characters across clone changes. ONLY FOR IMPLANTS AND BOOSTERS.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FollowsJumpClones;
+    public int followsjumpclones;
     /**
      * +/- bonus to the intelligence of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IntelligenceBonus;
+    public int intelligencebonus;
     /**
      * Autogenerated skill attribute, max flightTimeBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxFlightTimeBonus;
+    public int maxflighttimebonus;
     /**
      * +/- bonus to the memory of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MemoryBonus;
+    public int memorybonus;
     /**
      * This will make the item non-destructible upon podding.  ONLY FOR IMPLANTS AND BOOSTERS
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Nondestructible;
+    public int nondestructible;
     /**
      * +/- bonus to the perception of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PerceptionBonus;
+    public int perceptionbonus;
     /**
      * Autogenerated skill attribute, rangeSkillBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RangeSkillBonus;
+    public int rangeskillbonus;
     /**
      * Autogenerated skill attribute, rofBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RofBonus;
+    public int rofbonus;
     /**
      * Bonus for scan resolution
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanResolutionBonus;
+    public double scanresolutionbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldBoostMultiplier;
+    public double shieldboostmultiplier;
     /**
      * Autogenerated skill attribute, signatureRadiusBonus
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SignatureRadiusBonus;
+    public double signatureradiusbonus;
     /**
      * Bonus To standing gain towards non CONCORD npcs  
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int SocialBonus;
+    public int socialbonus;
     /**
      * Autogenerated skill attribute, socialMutator
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SocialMutator;
+    public int socialmutator;
     /**
      * Tracking Speed Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double TrackingSpeedBonus;
+    public double trackingspeedbonus;
     /**
      * Autogenerated skill attribute, velocityBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double VelocityBonus;
+    public double velocitybonus;
     /**
      * +/- bonus to the willpower of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WillpowerBonus;
+    public int willpowerbonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, RequiredSkill1Level.INSTANCE, Radius.INSTANCE, ShieldBoostMultiplier.INSTANCE, DamageMultiplierBonus.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, SignatureRadiusBonus.INSTANCE, MaxFlightTimeBonus.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, SocialMutator.INSTANCE, ScanResolutionBonus.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, VelocityBonus.INSTANCE, Boosterness.INSTANCE, BoosterEffectChance1 .INSTANCE, BoosterEffectChance2 .INSTANCE, BoosterEffectChance3 .INSTANCE, BoosterEffectChance4 .INSTANCE, BoosterEffectChance5 .INSTANCE, BoosterDuration.INSTANCE, AoeCloudSizeBonus.INSTANCE, FalloffBonus.INSTANCE, Nondestructible.INSTANCE, BoosterShieldBoostAmountPenalty.INSTANCE, SocialBonus.INSTANCE, BoosterMaxCharAgeHours.INSTANCE, BoosterArmorHPPenalty.INSTANCE, BoosterLastInjectionDatetime.INSTANCE, BoosterArmorRepairAmountPenalty.INSTANCE, NonDiminishingSkillInjectorUses.INSTANCE, BoosterShieldCapacityPenalty.INSTANCE, BoosterTurretOptimalRangePenalty.INSTANCE, BoosterTurretTrackingPenalty.INSTANCE, BoosterTurretFalloffPenalty.INSTANCE, BoosterAOEVelocityPenalty.INSTANCE, FollowsJumpClones.INSTANCE, BoosterMissileVelocityPenalty.INSTANCE, BoosterMissileAOECloudPenalty.INSTANCE, BoosterCapacitorCapacityPenalty.INSTANCE, TrackingSpeedBonus.INSTANCE, ArmorDamageAmountBonus.INSTANCE, BoosterMaxVelocityPenalty.INSTANCE })));
     public static final Booster.MetaGroup METAGROUP = new Booster.MetaGroup();
 
     @Override
@@ -332,185 +385,190 @@ public class Booster
         switch (attribute.getId()) {
             case  2806 :
             {
-                return NonDiminishingSkillInjectorUses;
+                return nondiminishingskillinjectoruses;
             }
             case  848 :
             {
-                return AoeCloudSizeBonus;
+                return aoecloudsizebonus;
             }
             case  895 :
             {
-                return ArmorDamageAmountBonus;
+                return armordamageamountbonus;
             }
             case  1147 :
             {
-                return BoosterAOEVelocityPenalty;
+                return boosteraoevelocitypenalty;
             }
             case  1141 :
             {
-                return BoosterArmorHPPenalty;
+                return boosterarmorhppenalty;
             }
             case  1142 :
             {
-                return BoosterArmorRepairAmountPenalty;
+                return boosterarmorrepairamountpenalty;
             }
             case  1150 :
             {
-                return BoosterCapacitorCapacityPenalty;
+                return boostercapacitorcapacitypenalty;
             }
             case  330 :
             {
-                return BoosterDuration;
+                return boosterduration;
             }
             case  1089 :
             {
-                return BoosterEffectChance1;
+                return boostereffectchance1;
             }
             case  1090 :
             {
-                return BoosterEffectChance2;
+                return boostereffectchance2;
             }
             case  1091 :
             {
-                return BoosterEffectChance3;
+                return boostereffectchance3;
             }
             case  1092 :
             {
-                return BoosterEffectChance4;
+                return boostereffectchance4;
             }
             case  1093 :
             {
-                return BoosterEffectChance5;
+                return boostereffectchance5;
             }
             case  2422 :
             {
-                return BoosterLastInjectionDatetime;
+                return boosterlastinjectiondatetime;
             }
             case  1647 :
             {
-                return BoosterMaxCharAgeHours;
+                return boostermaxcharagehours;
             }
             case  1151 :
             {
-                return BoosterMaxVelocityPenalty;
+                return boostermaxvelocitypenalty;
             }
             case  1149 :
             {
-                return BoosterMissileAOECloudPenalty;
+                return boostermissileaoecloudpenalty;
             }
             case  1148 :
             {
-                return BoosterMissileVelocityPenalty;
+                return boostermissilevelocitypenalty;
             }
             case  616 :
             {
-                return BoosterShieldBoostAmountPenalty;
+                return boostershieldboostamountpenalty;
             }
             case  1143 :
             {
-                return BoosterShieldCapacityPenalty;
+                return boostershieldcapacitypenalty;
             }
             case  1146 :
             {
-                return BoosterTurretFalloffPenalty;
+                return boosterturretfalloffpenalty;
             }
             case  1144 :
             {
-                return BoosterTurretOptimalRangePenalty;
+                return boosterturretoptimalrangepenalty;
             }
             case  1145 :
             {
-                return BoosterTurretTrackingPenalty;
+                return boosterturrettrackingpenalty;
             }
             case  1087 :
             {
-                return Boosterness;
+                return boosterness;
             }
             case  1079 :
             {
-                return CapacitorCapacityBonus;
+                return capacitorcapacitybonus;
             }
             case  175 :
             {
-                return CharismaBonus;
+                return charismabonus;
             }
             case  292 :
             {
-                return DamageMultiplierBonus;
+                return damagemultiplierbonus;
             }
             case  349 :
             {
-                return FalloffBonus;
+                return falloffbonus;
             }
             case  1916 :
             {
-                return FollowsJumpClones;
+                return followsjumpclones;
             }
             case  176 :
             {
-                return IntelligenceBonus;
+                return intelligencebonus;
             }
             case  557 :
             {
-                return MaxFlightTimeBonus;
+                return maxflighttimebonus;
             }
             case  177 :
             {
-                return MemoryBonus;
+                return memorybonus;
             }
             case  1890 :
             {
-                return Nondestructible;
+                return nondestructible;
             }
             case  178 :
             {
-                return PerceptionBonus;
+                return perceptionbonus;
             }
             case  294 :
             {
-                return RangeSkillBonus;
+                return rangeskillbonus;
             }
             case  293 :
             {
-                return RofBonus;
+                return rofbonus;
             }
             case  566 :
             {
-                return ScanResolutionBonus;
+                return scanresolutionbonus;
             }
             case  548 :
             {
-                return ShieldBoostMultiplier;
+                return shieldboostmultiplier;
             }
             case  554 :
             {
-                return SignatureRadiusBonus;
+                return signatureradiusbonus;
             }
             case  362 :
             {
-                return SocialBonus;
+                return socialbonus;
             }
             case  438 :
             {
-                return SocialMutator;
+                return socialmutator;
             }
             case  767 :
             {
-                return TrackingSpeedBonus;
+                return trackingspeedbonus;
             }
             case  315 :
             {
-                return VelocityBonus;
+                return velocitybonus;
             }
             case  179 :
             {
-                return WillpowerBonus;
+                return willpowerbonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

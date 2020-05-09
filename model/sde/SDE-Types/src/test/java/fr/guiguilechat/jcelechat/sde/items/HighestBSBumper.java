@@ -17,7 +17,7 @@ public class HighestBSBumper {
 
 	public static double getEnergy(Battleship bs) {
 		double totalMass = bs.mass + 50000000;
-		return totalMass * Math.pow(bs.MaxVelocity * 150000000 / totalMass, 2);
+		return totalMass * Math.pow(bs.maxvelocity * 150000000 / totalMass, 2);
 	}
 
 }

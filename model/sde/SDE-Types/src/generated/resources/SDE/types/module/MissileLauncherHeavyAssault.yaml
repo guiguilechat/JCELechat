@@ -1,393 +1,393 @@
 types:
   Caldari Navy Heavy Assault Missile Launcher:
-    Capacity: 1.125
-    ChargeGroup1: 772
-    ChargeGroup2: 654
-    ChargeRate: 1
-    Cpu: 49.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.8500000238418579
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadRofBonus: -15
-    Power: 97
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 5600.0
-    TechLevel: 1
-    TypeColorScheme: 11321
+    capacity: 1.125
+    chargegroup1: 772
+    chargegroup2: 654
+    chargerate: 1
+    cpu: 49.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.8500000238418579
+    hp: 40.0
     id: 28377
     marketGroup: 974
+    metagroupid: 4
+    metalevel: 8
     name: Caldari Navy Heavy Assault Missile Launcher
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 97
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5600.0
+    techlevel: 1
+    typecolorscheme: 11321
     volume: 10.0
   Domination Heavy Assault Missile Launcher:
-    Capacity: 1.0049999952316284
-    ChargeGroup1: 772
-    ChargeGroup2: 654
-    ChargeRate: 1
-    Cpu: 36.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.8999999761581421
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 7
-    OverloadRofBonus: -15
-    Power: 108
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 6200.0
-    TechLevel: 1
-    TypeColorScheme: 11318
+    capacity: 1.0049999952316284
+    chargegroup1: 772
+    chargegroup2: 654
+    chargerate: 1
+    cpu: 36.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.8999999761581421
+    hp: 40.0
     id: 28379
     marketGroup: 974
+    metagroupid: 4
+    metalevel: 7
     name: Domination Heavy Assault Missile Launcher
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 108
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 6200.0
+    techlevel: 1
+    typecolorscheme: 11318
     volume: 10.0
   Dread Guristas Heavy Assault Missile Launcher:
-    Capacity: 1.125
-    ChargeGroup1: 772
-    ChargeGroup2: 654
-    ChargeRate: 1
-    Cpu: 49.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.8500000238418579
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadRofBonus: -15
-    Power: 97
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 5600.0
-    TechLevel: 1
-    TypeColorScheme: 11335
+    capacity: 1.125
+    chargegroup1: 772
+    chargegroup2: 654
+    chargerate: 1
+    cpu: 49.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.8500000238418579
+    hp: 40.0
     id: 28381
     marketGroup: 974
+    metagroupid: 4
+    metalevel: 8
     name: Dread Guristas Heavy Assault Missile Launcher
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 97
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5600.0
+    techlevel: 1
+    typecolorscheme: 11335
     volume: 10.0
   Experimental XT-2800 Heavy Assault Missile Launcher I:
-    Capacity: 0.8550000190734863
-    ChargeGroup1: 772
-    ChargeRate: 1
-    Cpu: 43.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 3
-    OverloadRofBonus: -15
-    Power: 108
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 6800.0
-    TechLevel: 1
-    TypeColorScheme: 20116
+    capacity: 0.8550000190734863
+    chargegroup1: 772
+    chargerate: 1
+    cpu: 43.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
     id: 25713
     marketGroup: 974
+    metalevel: 3
     name: Experimental XT-2800 Heavy Assault Missile Launcher I
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 108
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 6800.0
+    techlevel: 1
+    typecolorscheme: 20116
     volume: 10.0
   Heavy Assault Missile Launcher I:
-    Capacity: 0.75
-    ChargeGroup1: 772
-    ChargeRate: 1
-    Cpu: 45.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.2000000476837158
-    Hp: 40.0
-    OverloadRofBonus: -15
-    Power: 108
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 8000.0
-    TechLevel: 1
-    TypeColorScheme: 11324
+    capacity: 0.75
+    chargegroup1: 772
+    chargerate: 1
+    cpu: 45.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.2000000476837158
+    hp: 40.0
     id: 20138
     marketGroup: 974
     name: Heavy Assault Missile Launcher I
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 108
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 8000.0
+    techlevel: 1
+    typecolorscheme: 11324
     volume: 10.0
   Heavy Assault Missile Launcher II:
-    Capacity: 0.9900000095367432
-    ChargeGroup1: 772
-    ChargeGroup2: 654
-    ChargeRate: 1
-    Cpu: 50.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 5
-    OverloadRofBonus: -15
-    Power: 113
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 4
-    RequiredSkill2: 25718
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 6400.0
-    TechLevel: 2
-    TypeColorScheme: 11325
+    capacity: 0.9900000095367432
+    chargegroup1: 772
+    chargegroup2: 654
+    chargerate: 1
+    cpu: 50.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.0
+    hp: 40.0
     id: 25715
     marketGroup: 974
+    metalevel: 5
     name: Heavy Assault Missile Launcher II
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 113
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3319
+    requiredskill1level: 4
+    requiredskill2: 25718
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 6400.0
+    techlevel: 2
+    typecolorscheme: 11325
     volume: 10.0
   Khanid Navy Heavy Assault Missile Launcher:
-    Capacity: 1.125
-    ChargeGroup1: 772
-    ChargeGroup2: 654
-    ChargeRate: 1
-    Cpu: 42.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.8500000238418579
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadRofBonus: -15
-    Power: 113
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 5600.0
-    TechLevel: 1
-    TypeColorScheme: 11337
+    capacity: 1.125
+    chargegroup1: 772
+    chargegroup2: 654
+    chargerate: 1
+    cpu: 42.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.8500000238418579
+    hp: 40.0
     id: 28565
     marketGroup: 974
+    metagroupid: 4
+    metalevel: 8
     name: Khanid Navy Heavy Assault Missile Launcher
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 113
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 5600.0
+    techlevel: 1
+    typecolorscheme: 11337
     volume: 10.0
   Limited 'Limos' Heavy Assault Missile Launcher I:
-    Capacity: 0.824999988079071
-    ChargeGroup1: 772
-    ChargeRate: 1
-    Cpu: 41.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaLevel: 2
-    OverloadRofBonus: -15
-    Power: 108
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 7200.0
-    TechLevel: 1
-    TypeColorScheme: 20115
+    capacity: 0.824999988079071
+    chargegroup1: 772
+    chargerate: 1
+    cpu: 41.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.100000023841858
+    hp: 40.0
     id: 25711
     marketGroup: 974
+    metalevel: 2
     name: Limited 'Limos' Heavy Assault Missile Launcher I
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 108
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 7200.0
+    techlevel: 1
+    typecolorscheme: 20115
     volume: 10.0
   Polarized Heavy Assault Missile Launcher:
-    Capacity: 2.9700000286102295
-    ChargeGroup1: 772
-    ChargeGroup2: 654
-    ChargeRate: 1
-    Cpu: 43.0
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 9
-    OverloadRofBonus: -15
-    Power: 108
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 4
-    RequiredSkill2: 25718
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    ResistanceKiller: 100
-    ResistanceKillerHull: 1
-    Slots: 1
-    Speed: 5120.0
-    TechLevel: 2
-    TypeColorScheme: 11461
+    capacity: 2.9700000286102295
+    chargegroup1: 772
+    chargegroup2: 654
+    chargerate: 1
+    cpu: 43.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 1.0
+    hp: 40.0
     id: 34292
     marketGroup: 974
+    metalevel: 9
     name: Polarized Heavy Assault Missile Launcher
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 108
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3319
+    requiredskill1level: 4
+    requiredskill2: 25718
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    resistancekiller: 100
+    resistancekillerhull: 1
+    slots: 1
+    speed: 5120.0
+    techlevel: 2
+    typecolorscheme: 11461
     volume: 10.0
   Prototype 'Arbalest' Heavy Assault Missile Launcher I:
-    Capacity: 0.8999999761581421
-    ChargeGroup1: 772
-    ChargeRate: 1
-    Cpu: 39.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 4
-    OverloadRofBonus: -15
-    Power: 108
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 6400.0
-    TechLevel: 1
-    TypeColorScheme: 20113
+    capacity: 0.8999999761581421
+    chargegroup1: 772
+    chargerate: 1
+    cpu: 39.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
     id: 25707
     marketGroup: 974
+    metalevel: 4
     name: Prototype 'Arbalest' Heavy Assault Missile Launcher I
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 108
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 6400.0
+    techlevel: 1
+    typecolorscheme: 20113
     volume: 10.0
   Republic Fleet Heavy Assault Missile Launcher:
-    Capacity: 1.0049999952316284
-    ChargeGroup1: 772
-    ChargeGroup2: 654
-    ChargeRate: 1
-    Cpu: 36.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.8999999761581421
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 7
-    OverloadRofBonus: -15
-    Power: 108
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 6200.0
-    TechLevel: 1
-    TypeColorScheme: 11339
+    capacity: 1.0049999952316284
+    chargegroup1: 772
+    chargegroup2: 654
+    chargerate: 1
+    cpu: 36.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.8999999761581421
+    hp: 40.0
     id: 28375
     marketGroup: 974
+    metagroupid: 4
+    metalevel: 7
     name: Republic Fleet Heavy Assault Missile Launcher
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 108
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 6200.0
+    techlevel: 1
+    typecolorscheme: 11339
     volume: 10.0
   True Sansha Heavy Assault Missile Launcher:
-    Capacity: 1.0049999952316284
-    ChargeGroup1: 772
-    ChargeGroup2: 654
-    ChargeRate: 1
-    Cpu: 36.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 0.8999999761581421
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 7
-    OverloadRofBonus: -15
-    Power: 108
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 6200.0
-    TechLevel: 1
-    TypeColorScheme: 11349
+    capacity: 1.0049999952316284
+    chargegroup1: 772
+    chargegroup2: 654
+    chargerate: 1
+    cpu: 36.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 0.8999999761581421
+    hp: 40.0
     id: 28383
     marketGroup: 974
+    metagroupid: 4
+    metalevel: 7
     name: True Sansha Heavy Assault Missile Launcher
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 108
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 6200.0
+    techlevel: 1
+    typecolorscheme: 11349
     volume: 10.0
   Upgraded 'Malkuth' Heavy Assault Missile Launcher I:
-    Capacity: 0.7799999713897705
-    ChargeGroup1: 772
-    ChargeRate: 1
-    Cpu: 36.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.100000023841858
-    Hp: 40.0
-    MetaLevel: 1
-    OverloadRofBonus: -15
-    Power: 108
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 25719
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 7600.0
-    TechLevel: 1
-    TypeColorScheme: 20123
+    capacity: 0.7799999713897705
+    chargegroup1: 772
+    chargerate: 1
+    cpu: 36.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.100000023841858
+    hp: 40.0
     id: 25709
     marketGroup: 974
+    metalevel: 1
     name: Upgraded 'Malkuth' Heavy Assault Missile Launcher I
+    overloadrofbonus: -15
     packagedVolume: 10.0
     portionSize: 1
+    power: 108
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 25719
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 7600.0
+    techlevel: 1
+    typecolorscheme: 20123
     volume: 10.0

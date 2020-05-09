@@ -1,47 +1,43 @@
 types:
   Standup M-Set Moon Drilling Stability I:
-    CanFitShipGroup03: 1406
-    Hp: 40.0
-    Mass: 200.0
-    MaxGroupFitted: 1
-    MoonRigAsteroidDecayBonus: 50
-    MoonRigFractureDelayBonus: 20
-    MoonRigSpewRadiusBonus: -20
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    UpgradeCost: 100
+    canfitshipgroup03: 1406
+    hp: 40.0
     id: 46325
     marketGroup: 2341
-    mass: 200.0
+    maxgroupfitted: 1
+    moonrigasteroiddecaybonus: 50
+    moonrigfracturedelaybonus: 20
+    moonrigspewradiusbonus: -20
     name: Standup M-Set Moon Drilling Stability I
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    structureitemvisualflag: 1
+    techlevel: 1
+    upgradecost: 100
     volume: 10.0
   Standup M-Set Moon Drilling Stability II:
-    CanFitShipGroup03: 1406
-    Hp: 40.0
-    Mass: 200.0
-    MaxGroupFitted: 1
-    MoonRigAsteroidDecayBonus: 100
-    MoonRigFractureDelayBonus: 24
-    MoonRigSpewRadiusBonus: -24
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    StructureItemVisualFlag: 1
-    TechLevel: 2
-    UpgradeCost: 150
+    canfitshipgroup03: 1406
+    hp: 40.0
     id: 46326
     marketGroup: 2341
-    mass: 200.0
+    maxgroupfitted: 1
+    moonrigasteroiddecaybonus: 100
+    moonrigfracturedelaybonus: 24
+    moonrigspewradiusbonus: -24
     name: Standup M-Set Moon Drilling Stability II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    structureitemvisualflag: 1
+    techlevel: 2
+    upgradecost: 150
     volume: 10.0

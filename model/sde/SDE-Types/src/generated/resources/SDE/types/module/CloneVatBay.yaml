@@ -1,29 +1,29 @@
 types:
   Clone Vat Bay I:
-    AllowsCloneJumpsWhenActive: 1
-    CanCloak: 1
-    CanFitShipGroup01: 883
-    CanFitShipGroup02: 30
-    ConsumptionQuantity: 1
-    ConsumptionType: 16273
-    Cpu: 100.0
-    DeadspaceUnsafe: 2
-    DisallowEarlyDeactivation: 1
-    Duration: 300000.0
-    Hp: 99999.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    Power: 50000
-    Radius: 1.0
-    RequiredSkill1: 24606
-    RequiredSkill1Level: 1
-    SiegeModeWarpStatus: 100
-    SpeedFactor: -100.0
-    TechLevel: 1
+    allowsclonejumpswhenactive: 1
+    cancloak: 1
+    canfitshipgroup01: 883
+    canfitshipgroup02: 30
+    consumptionquantity: 1
+    consumptiontype: 16273
+    cpu: 100.0
+    deadspaceunsafe: 2
+    disallowearlydeactivation: 1
+    duration: 300000.0
+    hp: 99999.0
     id: 23735
     marketGroup: 1642
+    maxgroupactive: 1
+    maxgroupfitted: 1
     name: Clone Vat Bay I
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 1.0
+    requiredskill1: 24606
+    requiredskill1level: 1
+    siegemodewarpstatus: 100
+    speedfactor: -100.0
+    techlevel: 1
     volume: 4000.0

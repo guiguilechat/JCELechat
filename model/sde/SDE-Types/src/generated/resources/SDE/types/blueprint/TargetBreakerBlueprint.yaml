@@ -1,10 +1,10 @@
 types:
   Target Spectrum Breaker Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
     id: 4410
+    industryblueprintrank: 6.0
     name: Target Spectrum Breaker Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

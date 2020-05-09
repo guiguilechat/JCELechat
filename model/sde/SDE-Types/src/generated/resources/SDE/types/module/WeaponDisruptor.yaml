@@ -1,379 +1,379 @@
 types:
   '''Distributor'' Guidance Disruptor':
-    AoeCloudSizeBonus: 12.0
-    AoeVelocityBonus: -12.0
-    CapacitorNeed: 10.0
-    Capacity: 1.0
-    ChargeGroup1: 1569
-    ChargeSize: 1
-    Cpu: 25.0
-    Duration: 10000.0
-    ExplosionDelayBonus: -9.0
-    FalloffEffectiveness: 24000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 48000.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    MissileVelocityBonus: -9.0
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    aoecloudsizebonus: 12.0
+    aoevelocitybonus: -12.0
+    capacitorneed: 10.0
+    capacity: 1.0
+    chargegroup1: 1569
+    chargesize: 1
+    cpu: 25.0
+    duration: 10000.0
+    explosiondelaybonus: -9.0
+    falloffeffectiveness: 24000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 22931
     marketGroup: 680
+    maxrange: 48000.0
+    metagroupid: 3
+    metalevel: 6
+    missilevelocitybonus: -9.0
     name: '''Distributor'' Guidance Disruptor'
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   '''Investor'' Tracking Disruptor I':
-    CapacitorNeed: 10.0
-    Capacity: 1.0
-    ChargeGroup1: 909
-    ChargeSize: 1
-    Cpu: 25.0
-    Duration: 10000.0
-    FalloffBonus: -17.190000534057617
-    FalloffEffectiveness: 24000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 48000.0
-    MaxRangeBonus: -17.190000534057617
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: -17.190000534057617
+    capacitorneed: 10.0
+    capacity: 1.0
+    chargegroup1: 909
+    chargesize: 1
+    cpu: 25.0
+    duration: 10000.0
+    falloffbonus: -17.190000534057617
+    falloffeffectiveness: 24000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 22933
     marketGroup: 680
+    maxrange: 48000.0
+    maxrangebonus: -17.190000534057617
+    metagroupid: 3
+    metalevel: 6
     name: '''Investor'' Tracking Disruptor I'
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: -17.190000534057617
     volume: 5.0
   A-211 Enduring Guidance Disruptor:
-    AoeCloudSizeBonus: 11.0
-    AoeVelocityBonus: -11.0
-    CapacitorNeed: 12.0
-    Capacity: 1.0
-    ChargeGroup1: 1569
-    ChargeSize: 1
-    Cpu: 40.0
-    Duration: 10000.0
-    ExplosionDelayBonus: -8.5
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 40000.0
-    MetaLevel: 1
-    MissileVelocityBonus: -8.5
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    aoecloudsizebonus: 11.0
+    aoevelocitybonus: -11.0
+    capacitorneed: 12.0
+    capacity: 1.0
+    chargegroup1: 1569
+    chargesize: 1
+    cpu: 40.0
+    duration: 10000.0
+    explosiondelaybonus: -8.5
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 37545
     marketGroup: 680
+    maxrange: 40000.0
+    metalevel: 1
+    missilevelocitybonus: -8.5
     name: A-211 Enduring Guidance Disruptor
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Baker Nunn Enduring Tracking Disruptor I:
-    CapacitorNeed: 12.0
-    Capacity: 1.0
-    ChargeGroup1: 909
-    ChargeSize: 1
-    Cpu: 40.0
-    Duration: 10000.0
-    FalloffBonus: -16.239999771118164
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 40000.0
-    MaxRangeBonus: -16.239999771118164
-    MetaLevel: 1
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: -16.239999771118164
+    capacitorneed: 12.0
+    capacity: 1.0
+    chargegroup1: 909
+    chargesize: 1
+    cpu: 40.0
+    duration: 10000.0
+    falloffbonus: -16.239999771118164
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 5319
     marketGroup: 680
+    maxrange: 40000.0
+    maxrangebonus: -16.239999771118164
+    metalevel: 1
     name: Baker Nunn Enduring Tracking Disruptor I
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: -16.239999771118164
     volume: 5.0
   Balmer Series Compact Tracking Disruptor I:
-    CapacitorNeed: 15.0
-    Capacity: 1.0
-    ChargeGroup1: 909
-    ChargeSize: 1
-    Cpu: 32.0
-    Duration: 10000.0
-    FalloffBonus: -16.239999771118164
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 40000.0
-    MaxRangeBonus: -16.239999771118164
-    MetaLevel: 1
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: -16.239999771118164
+    capacitorneed: 15.0
+    capacity: 1.0
+    chargegroup1: 909
+    chargesize: 1
+    cpu: 32.0
+    duration: 10000.0
+    falloffbonus: -16.239999771118164
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 5320
     marketGroup: 680
+    maxrange: 40000.0
+    maxrangebonus: -16.239999771118164
+    metalevel: 1
     name: Balmer Series Compact Tracking Disruptor I
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: -16.239999771118164
     volume: 5.0
   C-IR Compact Guidance Disruptor:
-    AoeCloudSizeBonus: 11.0
-    AoeVelocityBonus: -11.0
-    CapacitorNeed: 15.0
-    Capacity: 1.0
-    ChargeGroup1: 1569
-    ChargeSize: 1
-    Cpu: 32.0
-    Duration: 10000.0
-    ExplosionDelayBonus: -8.5
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 40000.0
-    MetaLevel: 1
-    MissileVelocityBonus: -8.5
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    aoecloudsizebonus: 11.0
+    aoevelocitybonus: -11.0
+    capacitorneed: 15.0
+    capacity: 1.0
+    chargegroup1: 1569
+    chargesize: 1
+    cpu: 32.0
+    duration: 10000.0
+    explosiondelaybonus: -8.5
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 5321
     marketGroup: 680
+    maxrange: 40000.0
+    metalevel: 1
+    missilevelocitybonus: -8.5
     name: C-IR Compact Guidance Disruptor
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   DDO Scoped Tracking Disruptor I:
-    CapacitorNeed: 15.0
-    Capacity: 1.0
-    ChargeGroup1: 909
-    ChargeSize: 1
-    Cpu: 40.0
-    Duration: 10000.0
-    FalloffBonus: -16.239999771118164
-    FalloffEffectiveness: 22000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 44000.0
-    MaxRangeBonus: -16.239999771118164
-    MetaLevel: 1
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: -16.239999771118164
+    capacitorneed: 15.0
+    capacity: 1.0
+    chargegroup1: 909
+    chargesize: 1
+    cpu: 40.0
+    duration: 10000.0
+    falloffbonus: -16.239999771118164
+    falloffeffectiveness: 22000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 5322
     marketGroup: 680
+    maxrange: 44000.0
+    maxrangebonus: -16.239999771118164
+    metalevel: 1
     name: DDO Scoped Tracking Disruptor I
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: -16.239999771118164
     volume: 5.0
   Guidance Disruptor I:
-    AoeCloudSizeBonus: 10.0
-    AoeVelocityBonus: -10.0
-    CapacitorNeed: 15.0
-    Capacity: 1.0
-    ChargeGroup1: 1569
-    ChargeSize: 1
-    Cpu: 40.0
-    Duration: 10000.0
-    ExplosionDelayBonus: -8.0
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 40000.0
-    MissileVelocityBonus: -8.0
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    aoecloudsizebonus: 10.0
+    aoevelocitybonus: -10.0
+    capacitorneed: 15.0
+    capacity: 1.0
+    chargegroup1: 1569
+    chargesize: 1
+    cpu: 40.0
+    duration: 10000.0
+    explosiondelaybonus: -8.0
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 37543
     marketGroup: 680
+    maxrange: 40000.0
+    missilevelocitybonus: -8.0
     name: Guidance Disruptor I
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Guidance Disruptor II:
-    AoeCloudSizeBonus: 12.0
-    AoeVelocityBonus: -12.0
-    CapacitorNeed: 18.0
-    Capacity: 1.0
-    ChargeGroup1: 1569
-    ChargeSize: 1
-    Cpu: 48.0
-    Duration: 10000.0
-    ExplosionDelayBonus: -9.0
-    FalloffEffectiveness: 24000
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 48000.0
-    MetaLevel: 5
-    MissileVelocityBonus: -9.0
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
+    aoecloudsizebonus: 12.0
+    aoevelocitybonus: -12.0
+    capacitorneed: 18.0
+    capacity: 1.0
+    chargegroup1: 1569
+    chargesize: 1
+    cpu: 48.0
+    duration: 10000.0
+    explosiondelaybonus: -9.0
+    falloffeffectiveness: 24000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 37546
     marketGroup: 680
+    maxrange: 48000.0
+    metalevel: 5
+    missilevelocitybonus: -9.0
     name: Guidance Disruptor II
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
     volume: 5.0
   Highstroke Scoped Guidance Disruptor:
-    AoeCloudSizeBonus: 11.0
-    AoeVelocityBonus: -11.0
-    CapacitorNeed: 15.0
-    Capacity: 1.0
-    ChargeGroup1: 1569
-    ChargeSize: 1
-    Cpu: 40.0
-    Duration: 10000.0
-    ExplosionDelayBonus: -8.5
-    FalloffEffectiveness: 22000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 44000.0
-    MetaLevel: 1
-    MissileVelocityBonus: -8.5
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    aoecloudsizebonus: 11.0
+    aoevelocitybonus: -11.0
+    capacitorneed: 15.0
+    capacity: 1.0
+    chargegroup1: 1569
+    chargesize: 1
+    cpu: 40.0
+    duration: 10000.0
+    explosiondelaybonus: -8.5
+    falloffeffectiveness: 22000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 37544
     marketGroup: 680
+    maxrange: 44000.0
+    metalevel: 1
+    missilevelocitybonus: -8.5
     name: Highstroke Scoped Guidance Disruptor
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0
   Tracking Disruptor I:
-    CapacitorNeed: 15.0
-    Capacity: 1.0
-    ChargeGroup1: 909
-    ChargeSize: 1
-    Cpu: 40.0
-    Duration: 10000.0
-    FalloffBonus: -15.300000190734863
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 40000.0
-    MaxRangeBonus: -15.300000190734863
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: -15.300000190734863
+    capacitorneed: 15.0
+    capacity: 1.0
+    chargegroup1: 909
+    chargesize: 1
+    cpu: 40.0
+    duration: 10000.0
+    falloffbonus: -15.300000190734863
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 2108
     marketGroup: 680
+    maxrange: 40000.0
+    maxrangebonus: -15.300000190734863
     name: Tracking Disruptor I
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: -15.300000190734863
     volume: 5.0
   Tracking Disruptor II:
-    CapacitorNeed: 18.0
-    Capacity: 1.0
-    ChargeGroup1: 909
-    ChargeSize: 1
-    Cpu: 48.0
-    Duration: 10000.0
-    FalloffBonus: -17.190000534057617
-    FalloffEffectiveness: 24000
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 3.4000000953674316
-    Hp: 40.0
-    MaxRange: 48000.0
-    MaxRangeBonus: -17.190000534057617
-    MetaLevel: 5
-    OverloadTrackingModuleStrengthBonus: 20
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3434
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
-    TrackingSpeedBonus: -17.190000534057617
+    capacitorneed: 18.0
+    capacity: 1.0
+    chargegroup1: 909
+    chargesize: 1
+    cpu: 48.0
+    duration: 10000.0
+    falloffbonus: -17.190000534057617
+    falloffeffectiveness: 24000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.4000000953674316
+    hp: 40.0
     id: 2109
     marketGroup: 680
+    maxrange: 48000.0
+    maxrangebonus: -17.190000534057617
+    metalevel: 5
     name: Tracking Disruptor II
+    overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3434
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    trackingspeedbonus: -17.190000534057617
     volume: 5.0

@@ -1,57 +1,53 @@
 types:
   Standup XL-Set Missile Fire Control Computer I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.2000000476837158
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 1.2000000476837158
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 4
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    StructureRigMissileExploVeloBonus: 30
-    StructureRigMissileExplosionRadiusBonus: -20
-    StructureRigMissileVelocityBonus: 30
-    TechLevel: 1
-    UpgradeCost: 100
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 37268
+    lowsecmodifier: 1.2000000476837158
     marketGroup: 2346
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup XL-Set Missile Fire Control Computer I
+    nullsecmodifier: 1.2000000476837158
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 4
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    structurerigmissileexplosionradiusbonus: -20
+    structurerigmissileexplovelobonus: 30
+    structurerigmissilevelocitybonus: 30
+    techlevel: 1
+    upgradecost: 100
     volume: 40.0
   Standup XL-Set Missile Fire Control Computer II:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.2000000476837158
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 1.2000000476837158
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 4
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    StructureRigMissileExploVeloBonus: 35
-    StructureRigMissileExplosionRadiusBonus: -25
-    StructureRigMissileVelocityBonus: 35
-    TechLevel: 2
-    UpgradeCost: 150
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 37269
+    lowsecmodifier: 1.2000000476837158
     marketGroup: 2346
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup XL-Set Missile Fire Control Computer II
+    nullsecmodifier: 1.2000000476837158
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 4
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    structurerigmissileexplosionradiusbonus: -25
+    structurerigmissileexplovelobonus: 35
+    structurerigmissilevelocitybonus: 35
+    techlevel: 2
+    upgradecost: 150
     volume: 40.0

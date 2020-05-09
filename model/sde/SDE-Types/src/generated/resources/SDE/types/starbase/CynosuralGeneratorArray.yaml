@@ -1,43 +1,41 @@
 types:
   Cynosural Generator Array:
-    AnchoringDelay: 10000
-    AnchoringSecurityLevelMax: 1.0
-    ArmorHP: 1.5E7
-    ArmorUniformity: 0.75
-    ControlTowerMinimumDistance: 25000
-    Cpu: 150.0
-    DisallowOffensiveModifiers: 1
-    Duration: 10000.0
-    EmDamageResonance: 1.0
-    ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 100000.0
-    IncapacitationRatio: 0.0010000000474974513
-    JumpHarmonics: -5
-    KineticDamageResonance: 1.0
-    Mass: 1.0E8
-    OnliningDelay: 300000
-    PosAnchoredPerSolarSystemAmount: 1
-    Power: 375000
-    Radius: 629.0
-    RequiresSovUpgrade1: 2008
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 1000000.0
-    ShieldRechargeRate: 1.0E8
-    ShieldUniformity: 0.75
-    SignatureRadius: 8000.0
-    StructureUniformity: 1.0
-    ThermalDamageResonance: 1.0
-    UnanchoringDelay: 10000
-    Uniformity: 1.0
+    anchoringdelay: 10000
+    anchoringsecuritylevelmax: 1.0
+    armorhp: 1.5E7
+    armoruniformity: 0.75
+    controltowerminimumdistance: 25000
+    cpu: 150.0
+    disallowoffensivemodifiers: 1
+    duration: 10000.0
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 100000.0
     id: 27673
+    incapacitationratio: 0.0010000000474974513
+    jumpharmonics: -5
+    kineticdamageresonance: 1.0
     marketGroup: 1013
-    mass: 1.0E8
     name: Cynosural Generator Array
+    onliningdelay: 300000
     packagedVolume: 4000.0
     portionSize: 1
+    posanchoredpersolarsystemamount: 1
+    power: 375000
     published: true
+    radius: 629.0
+    requiressovupgrade1: 2008
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 1000000.0
+    shieldrechargerate: 1.0E8
+    shielduniformity: 0.75
+    signatureradius: 8000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    unanchoringdelay: 10000
+    uniformity: 1.0
     volume: 4000.0

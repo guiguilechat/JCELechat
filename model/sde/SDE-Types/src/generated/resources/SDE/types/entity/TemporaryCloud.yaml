@@ -1,37 +1,37 @@
 types:
   Argon Gas Environment_Damage:
-    CloudDuration: 86400000
-    CloudEffectDelay: 10000
-    DisallowAssistance: 1
-    EmDamage: 5000.0
-    Radius: 250000.0
+    cloudduration: 86400000
+    cloudeffectdelay: 10000
+    disallowassistance: 1
+    emdamage: 5000.0
     id: 25860
     name: Argon Gas Environment_Damage
     portionSize: 1
     published: false
+    radius: 250000.0
   Mining Pollution Cloud:
-    CloudDuration: 300000
-    CloudEffectDelay: 30000
-    DisallowAssistance: 1
-    EmDamage: 50.0
-    ExplosiveDamage: 50.0
-    KineticDamage: 50.0
-    Radius: 5000.0
-    ThermalDamage: 50.0
+    cloudduration: 300000
+    cloudeffectdelay: 30000
+    disallowassistance: 1
+    emdamage: 50.0
+    explosivedamage: 50.0
     id: 11546
+    kineticdamage: 50.0
     name: Mining Pollution Cloud
     portionSize: 1
     published: false
+    radius: 5000.0
+    thermaldamage: 50.0
   TEST Triggered Damage Cloud:
-    CloudDuration: 600000
-    CloudEffectDelay: 10000
-    DisallowAssistance: 1
-    EmDamage: 100.0
-    ExplosiveDamage: 100.0
-    KineticDamage: 100.0
-    Radius: 10000.0
-    ThermalDamage: 100.0
+    cloudduration: 600000
+    cloudeffectdelay: 10000
+    disallowassistance: 1
+    emdamage: 100.0
+    explosivedamage: 100.0
     id: 25816
+    kineticdamage: 100.0
     name: TEST Triggered Damage Cloud
     portionSize: 1
     published: false
+    radius: 10000.0
+    thermaldamage: 100.0

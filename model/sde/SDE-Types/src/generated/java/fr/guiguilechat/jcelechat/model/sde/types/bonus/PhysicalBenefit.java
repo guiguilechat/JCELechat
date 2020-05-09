@@ -1,15 +1,28 @@
 package fr.guiguilechat.jcelechat.model.sde.types.bonus;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AccuracyMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AgilityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BlueprintManufactureTimeMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BlueprintResearchTimeMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningAmountMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Bonus;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,70 +35,71 @@ public class PhysicalBenefit
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double AccuracyMultiplier;
+    public double accuracymultiplier;
     /**
      * Multiplier to the agility of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double AgilityMultiplier;
+    public double agilitymultiplier;
     /**
      * Bonus or penalty to the percentage time it takes to manufacture from a blueprint.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double BlueprintManufactureTimeMultiplierBonus;
+    public double blueprintmanufacturetimemultiplierbonus;
     /**
      * Bonus or penalty to the percentage time it takes to research a blueprint.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double BlueprintResearchTimeMultiplierBonus;
+    public double blueprintresearchtimemultiplierbonus;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double CpuMultiplier;
+    public double cpumultiplier;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * The factor by which the amount mined by a mining laser is scaled.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double MiningAmountMultiplier;
+    public double miningamountmultiplier;
     /**
      * Additional percentage to the characters missile damage multiplier.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MissileDamageMultiplierBonus;
+    public double missiledamagemultiplierbonus;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, Capacity.INSTANCE, AgilityMultiplier.INSTANCE, CpuMultiplier.INSTANCE, BlueprintResearchTimeMultiplierBonus.INSTANCE, AccuracyMultiplier.INSTANCE, BlueprintManufactureTimeMultiplierBonus.INSTANCE, MiningAmountMultiplier.INSTANCE })));
     public static final PhysicalBenefit.MetaGroup METAGROUP = new PhysicalBenefit.MetaGroup();
 
     @Override
@@ -93,49 +107,54 @@ public class PhysicalBenefit
         switch (attribute.getId()) {
             case  205 :
             {
-                return AccuracyMultiplier;
+                return accuracymultiplier;
             }
             case  169 :
             {
-                return AgilityMultiplier;
+                return agilitymultiplier;
             }
             case  222 :
             {
-                return BlueprintManufactureTimeMultiplierBonus;
+                return blueprintmanufacturetimemultiplierbonus;
             }
             case  220 :
             {
-                return BlueprintResearchTimeMultiplierBonus;
+                return blueprintresearchtimemultiplierbonus;
             }
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  202 :
             {
-                return CpuMultiplier;
+                return cpumultiplier;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  207 :
             {
-                return MiningAmountMultiplier;
+                return miningamountmultiplier;
             }
             case  213 :
             {
-                return MissileDamageMultiplierBonus;
+                return missiledamagemultiplierbonus;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

@@ -22,13 +22,13 @@ types:
     published: true
     volume: 0.009999999776482582
   Reactive Armor Hardener Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 4404
+    industryblueprintrank: 3.0
     name: Reactive Armor Hardener Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Shadow Serpentis Capital Flex Armor Hardener Blueprint:
     id: 41660

@@ -1,15 +1,26 @@
 package fr.guiguilechat.jcelechat.model.sde.types.bonus;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CharismaSkillTrainingTimeMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MemorySkillTrainingTimeMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionSkillTrainingTimeMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Bonus;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,56 +33,57 @@ public class AmarrEducation
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeedMultiplier;
+    public double capacitorneedmultiplier;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Charisma as the primary attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CharismaSkillTrainingTimeMultiplierBonus;
+    public double charismaskilltrainingtimemultiplierbonus;
     /**
      * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double CpuMultiplier;
+    public double cpumultiplier;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Memory as the primary attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MemorySkillTrainingTimeMultiplierBonus;
+    public double memoryskilltrainingtimemultiplierbonus;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Perception as the primary attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double PerceptionSkillTrainingTimeMultiplierBonus;
+    public double perceptionskilltrainingtimemultiplierbonus;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CharismaSkillTrainingTimeMultiplierBonus.INSTANCE, Capacity.INSTANCE, MemorySkillTrainingTimeMultiplierBonus.INSTANCE, PerceptionSkillTrainingTimeMultiplierBonus.INSTANCE, CapacitorNeedMultiplier.INSTANCE, CpuMultiplier.INSTANCE })));
     public static final AmarrEducation.MetaGroup METAGROUP = new AmarrEducation.MetaGroup();
 
     @Override
@@ -79,41 +91,46 @@ public class AmarrEducation
         switch (attribute.getId()) {
             case  216 :
             {
-                return CapacitorNeedMultiplier;
+                return capacitorneedmultiplier;
             }
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  228 :
             {
-                return CharismaSkillTrainingTimeMultiplierBonus;
+                return charismaskilltrainingtimemultiplierbonus;
             }
             case  202 :
             {
-                return CpuMultiplier;
+                return cpumultiplier;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  230 :
             {
-                return MemorySkillTrainingTimeMultiplierBonus;
+                return memoryskilltrainingtimemultiplierbonus;
             }
             case  231 :
             {
-                return PerceptionSkillTrainingTimeMultiplierBonus;
+                return perceptionskilltrainingtimemultiplierbonus;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

@@ -1,929 +1,929 @@
 types:
   Capital Artillery Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 5
-    RequiredSkill2: 21667
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 41404
     marketGroup: 364
     name: Capital Artillery Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 5
+    requiredskill2: 21667
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Capital Autocannon Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 5
-    RequiredSkill2: 21667
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 41403
     marketGroup: 364
     name: Capital Autocannon Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 5
+    requiredskill2: 21667
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Capital Beam Laser Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 5
-    RequiredSkill2: 20327
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 41408
     marketGroup: 364
     name: Capital Beam Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 5
+    requiredskill2: 20327
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Capital Blaster Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 5
-    RequiredSkill2: 21666
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 41405
     marketGroup: 364
     name: Capital Blaster Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 5
+    requiredskill2: 21666
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Capital Energy Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3309
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 7.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 20327
     marketGroup: 364
     name: Capital Energy Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 5
+    requiredskill2: 3309
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 7.0
     volume: 0.009999999776482582
   Capital Hybrid Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3307
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 7.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 21666
     marketGroup: 364
     name: Capital Hybrid Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 5
+    requiredskill2: 3307
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 7.0
     volume: 0.009999999776482582
   Capital Precursor Weapon:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 5
-    RequiredSkill2: 47872
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 7.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 52998
     marketGroup: 364
     name: Capital Precursor Weapon
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 5
+    requiredskill2: 47872
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 7.0
     volume: 0.009999999776482582
   Capital Projectile Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3308
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 7.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 21667
     marketGroup: 364
     name: Capital Projectile Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 5
+    requiredskill2: 3308
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 7.0
     volume: 0.009999999776482582
   Capital Pulse Laser Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 5
-    RequiredSkill2: 20327
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 41407
     marketGroup: 364
     name: Capital Pulse Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 5
+    requiredskill2: 20327
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Capital Railgun Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 5
-    RequiredSkill2: 21666
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 41406
     marketGroup: 364
     name: Capital Railgun Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 5
+    requiredskill2: 21666
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Controlled Bursts:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 3316
     marketGroup: 364
     name: Controlled Bursts
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 2
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Doomsday Operation:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 10
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3421
-    RequiredSkill2Level: 5
-    RequiredSkill3: 11207
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 165
-    SkillTimeConstant: 14.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 10
     id: 24563
     marketGroup: 364
     name: Doomsday Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3421
+    requiredskill2level: 5
+    requiredskill3: 11207
+    requiredskill3level: 5
+    secondaryattribute: 165
+    skilltimeconstant: 14.0
     volume: 0.009999999776482582
   Doomsday Rapid Firing:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 24563
-    RequiredSkill1Level: 2
-    RofBonus: -4
-    SecondaryAttribute: 165
-    SkillTimeConstant: 14.0
+    cannotbetrainedontrial: 1
     id: 41537
     marketGroup: 364
     name: Doomsday Rapid Firing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 24563
+    requiredskill1level: 2
+    rofbonus: -4
+    secondaryattribute: 165
+    skilltimeconstant: 14.0
     volume: 0.009999999776482582
   Gunnery:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
-    TurretSpeeBonus: -2
+    cannotbetrainedontrial: 1
     id: 3300
     marketGroup: 364
     name: Gunnery
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    turretspeebonus: -2
     volume: 0.009999999776482582
   Large Artillery Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3308
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12203
     marketGroup: 364
     name: Large Artillery Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 5
+    requiredskill2: 3308
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Large Autocannon Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3308
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12209
     marketGroup: 364
     name: Large Autocannon Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 5
+    requiredskill2: 3308
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Large Beam Laser Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3309
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12205
     marketGroup: 364
     name: Large Beam Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 5
+    requiredskill2: 3309
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Large Blaster Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3307
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12212
     marketGroup: 364
     name: Large Blaster Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 5
+    requiredskill2: 3307
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Large Disintegrator Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 5
-    RequiredSkill2: 47872
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 47875
     marketGroup: 364
     name: Large Disintegrator Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 5
+    requiredskill2: 47872
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Large Energy Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3306
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3309
     marketGroup: 364
     name: Large Energy Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 5
+    requiredskill2: 3306
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Large Hybrid Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3304
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3307
     marketGroup: 364
     name: Large Hybrid Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 5
+    requiredskill2: 3304
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Large Precursor Weapon:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 5
-    RequiredSkill2: 47871
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 47872
     marketGroup: 364
     name: Large Precursor Weapon
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 5
+    requiredskill2: 47871
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Large Projectile Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3305
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3308
     marketGroup: 364
     name: Large Projectile Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 5
+    requiredskill2: 3305
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Large Pulse Laser Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3309
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12215
     marketGroup: 364
     name: Large Pulse Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 5
+    requiredskill2: 3309
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Large Railgun Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3307
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12207
     marketGroup: 364
     name: Large Railgun Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 5
+    requiredskill2: 3307
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Medium Artillery Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3305
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12202
     marketGroup: 364
     name: Medium Artillery Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 4
+    requiredskill2: 3305
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Medium Autocannon Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3305
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12208
     marketGroup: 364
     name: Medium Autocannon Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 4
+    requiredskill2: 3305
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Medium Beam Laser Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3306
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12204
     marketGroup: 364
     name: Medium Beam Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 4
+    requiredskill2: 3306
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Medium Blaster Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3304
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12211
     marketGroup: 364
     name: Medium Blaster Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 4
+    requiredskill2: 3304
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Medium Disintegrator Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 4
-    RequiredSkill2: 47871
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 47874
     marketGroup: 364
     name: Medium Disintegrator Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 4
+    requiredskill2: 47871
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Medium Energy Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3303
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3306
     marketGroup: 364
     name: Medium Energy Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 3
+    requiredskill2: 3303
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Medium Hybrid Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3301
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3304
     marketGroup: 364
     name: Medium Hybrid Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 3
+    requiredskill2: 3301
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Medium Precursor Weapon:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 3
-    RequiredSkill2: 47870
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 47871
     marketGroup: 364
     name: Medium Precursor Weapon
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 3
+    requiredskill2: 47870
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Medium Projectile Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3302
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3305
     marketGroup: 364
     name: Medium Projectile Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 3
+    requiredskill2: 3302
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Medium Pulse Laser Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3306
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12214
     marketGroup: 364
     name: Medium Pulse Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 4
+    requiredskill2: 3306
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Medium Railgun Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3304
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12206
     marketGroup: 364
     name: Medium Railgun Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 4
+    requiredskill2: 3304
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Motion Prediction:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
-    TrackingSpeedBonus: 5.0
+    cannotbetrainedontrial: 1
     id: 3312
     marketGroup: 364
     name: Motion Prediction
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 2
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    trackingspeedbonus: 5.0
     volume: 0.009999999776482582
   Rapid Firing:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 2
-    RofBonus: -4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 3310
     marketGroup: 364
     name: Rapid Firing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 2
+    rofbonus: -4
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Sharpshooter:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RangeSkillBonus: 5
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 3311
     marketGroup: 364
     name: Sharpshooter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    rangeskillbonus: 5
+    requiredskill1: 3300
+    requiredskill1level: 2
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Small Artillery Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3302
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12201
     marketGroup: 364
     name: Small Artillery Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 3
+    requiredskill2: 3302
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Small Autocannon Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3302
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 11084
     marketGroup: 364
     name: Small Autocannon Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 3
+    requiredskill2: 3302
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Small Beam Laser Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3303
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 11083
     marketGroup: 364
     name: Small Beam Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 3
+    requiredskill2: 3303
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Small Blaster Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3301
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12210
     marketGroup: 364
     name: Small Blaster Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 3
+    requiredskill2: 3301
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Small Disintegrator Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 3
-    RequiredSkill2: 47870
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 47873
     marketGroup: 364
     name: Small Disintegrator Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 3
+    requiredskill2: 47870
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Small Energy Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3303
     marketGroup: 364
     name: Small Energy Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Small Hybrid Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3301
     marketGroup: 364
     name: Small Hybrid Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Small Precursor Weapon:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 47870
     marketGroup: 364
     name: Small Precursor Weapon
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Small Projectile Turret:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3302
     marketGroup: 364
     name: Small Projectile Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Small Pulse Laser Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3312
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3303
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 12213
     marketGroup: 364
     name: Small Pulse Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3312
+    requiredskill1level: 3
+    requiredskill2: 3303
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Small Railgun Specialization:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3311
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3301
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 11082
     marketGroup: 364
     name: Small Railgun Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3311
+    requiredskill1level: 3
+    requiredskill2: 3301
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Surgical Strike:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 3
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 3
     id: 3315
     marketGroup: 364
     name: Surgical Strike
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 4
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Tactical Weapon Reconfiguration:
-    CanNotBeTrainedOnTrial: 1
-    ConsumptionQuantityBonus: 25
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 11207
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    consumptionquantitybonus: 25
     id: 22043
     marketGroup: 364
     name: Tactical Weapon Reconfiguration
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 11207
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Trajectory Analysis:
-    CanNotBeTrainedOnTrial: 1
-    FalloffBonus: 5.0
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3300
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
+    falloffbonus: 5.0
     id: 3317
     marketGroup: 364
     name: Trajectory Analysis
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3300
+    requiredskill1level: 4
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582

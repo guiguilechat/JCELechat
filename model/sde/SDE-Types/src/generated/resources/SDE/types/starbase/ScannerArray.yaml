@@ -1,41 +1,39 @@
 types:
   System Scanning Array:
-    AnchoringDelay: 300000
-    ArmorHP: 15000.0
-    ArmorUniformity: 0.75
-    Cpu: 25.0
-    DisallowOffensiveModifiers: 1
-    Duration: 90000.0
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    IncapacitationRatio: 0.75
-    Mass: 1.0E8
-    MaxScanDeviation: 1000000.0
-    MinScanDeviation: 15000
-    OnliningDelay: 300000
-    OnliningRequiresSovereigntyLevel: 2
-    PosAnchoredPerSolarSystemAmount: 1
-    Power: 25000
-    Radius: 629.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 1
-    ScanGravimetricStrength: 25.0
-    ScanLadarStrength: 25.0
-    ScanMagnetometricStrength: 25.0
-    ScanRadarStrength: 25.0
-    ScanRange: 999
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 600000
-    Uniformity: 1.0
+    anchoringdelay: 300000
+    armorhp: 15000.0
+    armoruniformity: 0.75
+    cpu: 25.0
+    disallowoffensivemodifiers: 1
+    duration: 90000.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 27675
+    incapacitationratio: 0.75
     marketGroup: 1010
-    mass: 1.0E8
+    maxscandeviation: 1000000.0
+    minscandeviation: 15000
     name: System Scanning Array
+    onliningdelay: 300000
+    onliningrequiressovereigntylevel: 2
     packagedVolume: 4000.0
     portionSize: 1
+    posanchoredpersolarsystemamount: 1
+    power: 25000
     published: true
+    radius: 629.0
+    requiredskill1: 11584
+    requiredskill1level: 1
+    scangravimetricstrength: 25.0
+    scanladarstrength: 25.0
+    scanmagnetometricstrength: 25.0
+    scanradarstrength: 25.0
+    scanrange: 999
+    shieldcapacity: 10000.0
+    shieldrechargerate: 200000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 600000
+    uniformity: 1.0
     volume: 4000.0

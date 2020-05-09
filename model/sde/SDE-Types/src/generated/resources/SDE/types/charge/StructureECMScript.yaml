@@ -1,73 +1,65 @@
 types:
   Standup Gravimetric ECM Script:
-    ChargeSize: 1
-    LauncherGroup: 1332
-    Mass: 1.0
-    Radius: 1.0
-    ScanGravimetricStrengthBonusBonus: 100
-    ScanLadarStrengthBonusBonus: -50
-    ScanMagnetometricStrengthBonusBonus: -50
-    ScanRadarStrengthBonusBonus: -50
-    StructureItemVisualFlag: 1
+    chargesize: 1
     id: 37821
+    launchergroup: 1332
     marketGroup: 1094
-    mass: 1.0
     name: Standup Gravimetric ECM Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scangravimetricstrengthbonusbonus: 100
+    scanladarstrengthbonusbonus: -50
+    scanmagnetometricstrengthbonusbonus: -50
+    scanradarstrengthbonusbonus: -50
+    structureitemvisualflag: 1
     volume: 1.0
   Standup Ladar ECM Script:
-    ChargeSize: 1
-    LauncherGroup: 1332
-    Mass: 1.0
-    Radius: 1.0
-    ScanGravimetricStrengthBonusBonus: -50
-    ScanLadarStrengthBonusBonus: 100
-    ScanMagnetometricStrengthBonusBonus: -50
-    ScanRadarStrengthBonusBonus: -50
-    StructureItemVisualFlag: 1
+    chargesize: 1
     id: 37822
+    launchergroup: 1332
     marketGroup: 1094
-    mass: 1.0
     name: Standup Ladar ECM Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scangravimetricstrengthbonusbonus: -50
+    scanladarstrengthbonusbonus: 100
+    scanmagnetometricstrengthbonusbonus: -50
+    scanradarstrengthbonusbonus: -50
+    structureitemvisualflag: 1
     volume: 1.0
   Standup Magnetometric ECM Script:
-    ChargeSize: 1
-    LauncherGroup: 1332
-    Mass: 1.0
-    Radius: 1.0
-    ScanGravimetricStrengthBonusBonus: -50
-    ScanLadarStrengthBonusBonus: -50
-    ScanMagnetometricStrengthBonusBonus: 100
-    ScanRadarStrengthBonusBonus: -50
-    StructureItemVisualFlag: 1
+    chargesize: 1
     id: 37823
+    launchergroup: 1332
     marketGroup: 1094
-    mass: 1.0
     name: Standup Magnetometric ECM Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scangravimetricstrengthbonusbonus: -50
+    scanladarstrengthbonusbonus: -50
+    scanmagnetometricstrengthbonusbonus: 100
+    scanradarstrengthbonusbonus: -50
+    structureitemvisualflag: 1
     volume: 1.0
   Standup Radar ECM Script:
-    ChargeSize: 1
-    LauncherGroup: 1332
-    Mass: 1.0
-    Radius: 1.0
-    ScanGravimetricStrengthBonusBonus: -50
-    ScanLadarStrengthBonusBonus: -50
-    ScanMagnetometricStrengthBonusBonus: -50
-    ScanRadarStrengthBonusBonus: 100
-    StructureItemVisualFlag: 1
+    chargesize: 1
     id: 37824
+    launchergroup: 1332
     marketGroup: 1094
-    mass: 1.0
     name: Standup Radar ECM Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scangravimetricstrengthbonusbonus: -50
+    scanladarstrengthbonusbonus: -50
+    scanmagnetometricstrengthbonusbonus: -50
+    scanradarstrengthbonusbonus: 100
+    structureitemvisualflag: 1
     volume: 1.0

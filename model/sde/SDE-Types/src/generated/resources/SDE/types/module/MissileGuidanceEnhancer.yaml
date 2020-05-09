@@ -1,66 +1,60 @@
 types:
   Missile Guidance Enhancer I:
-    AoeCloudSizeBonus: -4.400000095367432
-    AoeVelocityBonus: 4.400000095367432
-    Cpu: 10.0
-    ExplosionDelayBonus: 4.5
-    Hp: 40.0
-    Mass: 20.0
-    MissileVelocityBonus: 4.5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    aoecloudsizebonus: -4.400000095367432
+    aoevelocitybonus: 4.400000095367432
+    cpu: 10.0
+    explosiondelaybonus: 4.5
+    hp: 40.0
     id: 35770
     marketGroup: 2033
-    mass: 20.0
+    missilevelocitybonus: 4.5
     name: Missile Guidance Enhancer I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0
   Missile Guidance Enhancer II:
-    AoeCloudSizeBonus: -6.0
-    AoeVelocityBonus: 6.0
-    Cpu: 15.0
-    ExplosionDelayBonus: 6.0
-    Hp: 40.0
-    Mass: 30.0
-    MetaLevel: 5
-    MissileVelocityBonus: 6.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 4
-    TechLevel: 2
+    aoecloudsizebonus: -6.0
+    aoevelocitybonus: 6.0
+    cpu: 15.0
+    explosiondelaybonus: 6.0
+    hp: 40.0
     id: 35771
     marketGroup: 2033
-    mass: 30.0
+    metalevel: 5
+    missilevelocitybonus: 6.0
     name: Missile Guidance Enhancer II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    techlevel: 2
     volume: 5.0
   Pro-Nav Compact Missile Guidance Enhancer:
-    AoeCloudSizeBonus: -5.5
-    AoeVelocityBonus: 5.5
-    Cpu: 8.0
-    ExplosionDelayBonus: 5.5
-    Hp: 40.0
-    Mass: 20.0
-    MetaLevel: 1
-    MissileVelocityBonus: 5.5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3318
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    aoecloudsizebonus: -5.5
+    aoevelocitybonus: 5.5
+    cpu: 8.0
+    explosiondelaybonus: 5.5
+    hp: 40.0
     id: 35774
     marketGroup: 2033
-    mass: 20.0
+    metalevel: 1
+    missilevelocitybonus: 5.5
     name: Pro-Nav Compact Missile Guidance Enhancer
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    techlevel: 1
     volume: 5.0

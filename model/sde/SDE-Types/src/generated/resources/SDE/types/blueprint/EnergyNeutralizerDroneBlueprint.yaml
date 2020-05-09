@@ -1,31 +1,31 @@
 types:
   Acolyte EV-300 Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 23660
+    industryblueprintrank: 1.0
     marketGroup: 1586
     name: Acolyte EV-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Infiltrator EV-600 Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 23703
+    industryblueprintrank: 2.0
     marketGroup: 1586
     name: Infiltrator EV-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Praetor EV-900 Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 22573
+    industryblueprintrank: 3.0
     marketGroup: 1586
     name: Praetor EV-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

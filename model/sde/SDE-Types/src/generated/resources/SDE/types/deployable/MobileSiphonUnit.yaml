@@ -1,99 +1,93 @@
 types:
   Small Mobile 'Hybrid' Siphon Unit:
-    AnchoringDelay: 60000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 10000.0
-    ArmorUniformity: 0.75
-    Capacity: 1200.0
-    Hp: 60000.0
-    Mass: 10000.0
-    Radius: 1.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 75.0
-    ScanLadarStrength: 75.0
-    ScanMagnetometricStrength: 75.0
-    ScanRadarStrength: 75.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 2400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 600.0
-    SiphonPolyMaterial: 50
-    SiphonWasteAmount: 20
-    StructureUniformity: 1.0
-    TechLevel: 1
-    Uniformity: 1.0
+    anchoringdelay: 60000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 10000.0
+    armoruniformity: 0.75
+    capacity: 1200.0
+    hp: 60000.0
     id: 33581
     marketGroup: 1835
-    mass: 10000.0
     name: Small Mobile 'Hybrid' Siphon Unit
     packagedVolume: 35.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 75.0
+    scanladarstrength: 75.0
+    scanmagnetometricstrength: 75.0
+    scanradarstrength: 75.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 600.0
+    siphonpolymaterial: 50
+    siphonwasteamount: 20
+    structureuniformity: 1.0
+    techlevel: 1
+    uniformity: 1.0
     volume: 35.0
   Small Mobile 'Rote' Siphon Unit:
-    AnchoringDelay: 60000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 10000.0
-    ArmorUniformity: 0.75
-    Capacity: 1000.0
-    Hp: 60000.0
-    Mass: 10000.0
-    Radius: 1.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 75.0
-    ScanLadarStrength: 75.0
-    ScanMagnetometricStrength: 75.0
-    ScanRadarStrength: 75.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 2400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 600.0
-    SiphonProMaterial: 110
-    SiphonRawMaterial: 20
-    SiphonWasteAmount: 10
-    StructureUniformity: 1.0
-    TechLevel: 1
-    Uniformity: 1.0
+    anchoringdelay: 60000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 10000.0
+    armoruniformity: 0.75
+    capacity: 1000.0
+    hp: 60000.0
     id: 33583
     marketGroup: 1835
-    mass: 10000.0
     name: Small Mobile 'Rote' Siphon Unit
     packagedVolume: 35.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 75.0
+    scanladarstrength: 75.0
+    scanmagnetometricstrength: 75.0
+    scanradarstrength: 75.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 600.0
+    siphonpromaterial: 110
+    siphonrawmaterial: 20
+    siphonwasteamount: 10
+    structureuniformity: 1.0
+    techlevel: 1
+    uniformity: 1.0
     volume: 35.0
   Small Mobile Siphon Unit:
-    AnchoringDelay: 60000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 10000.0
-    ArmorUniformity: 0.75
-    Capacity: 900.0
-    Hp: 60000.0
-    Mass: 10000.0
-    Radius: 1.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 75.0
-    ScanLadarStrength: 75.0
-    ScanMagnetometricStrength: 75.0
-    ScanRadarStrength: 75.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 2400000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 600.0
-    SiphonProMaterial: 30
-    SiphonRawMaterial: 60
-    SiphonWasteAmount: 10
-    StructureUniformity: 1.0
-    TechLevel: 1
-    Uniformity: 1.0
+    anchoringdelay: 60000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 10000.0
+    armoruniformity: 0.75
+    capacity: 900.0
+    hp: 60000.0
     id: 33477
     marketGroup: 1835
-    mass: 10000.0
     name: Small Mobile Siphon Unit
     packagedVolume: 35.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 75.0
+    scanladarstrength: 75.0
+    scanmagnetometricstrength: 75.0
+    scanradarstrength: 75.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 2400000.0
+    shielduniformity: 0.75
+    signatureradius: 600.0
+    siphonpromaterial: 30
+    siphonrawmaterial: 60
+    siphonwasteamount: 10
+    structureuniformity: 1.0
+    techlevel: 1
+    uniformity: 1.0
     volume: 35.0

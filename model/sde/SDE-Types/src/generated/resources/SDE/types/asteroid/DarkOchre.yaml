@@ -1,187 +1,169 @@
 types:
   Compressed Dark Ochre:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1232
-    Radius: 1.0
-    ReprocessingSkillType: 12183
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28394
     marketGroup: 522
-    mass: 1.0000000409184788E35
     name: Compressed Dark Ochre
+    orebasictype: 1232
     packagedVolume: 4.199999809265137
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12183
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 4.199999809265137
   Compressed Jet Ochre:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0
-    OreBasicType: 46675
-    Radius: 1.0
-    ReprocessingSkillType: 12183
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 46694
     marketGroup: 522
-    mass: 1.0
     name: Compressed Jet Ochre
+    orebasictype: 46675
     packagedVolume: 4.199999809265137
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12183
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 4.199999809265137
   Compressed Obsidian Ochre:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1232
-    Radius: 1.0
-    ReprocessingSkillType: 12183
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28395
     marketGroup: 522
-    mass: 1.0000000409184788E35
     name: Compressed Obsidian Ochre
+    orebasictype: 1232
     packagedVolume: 4.199999809265137
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12183
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 4.199999809265137
   Compressed Onyx Ochre:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1232
-    Radius: 1.0
-    ReprocessingSkillType: 12183
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28396
     marketGroup: 522
-    mass: 1.0000000409184788E35
     name: Compressed Onyx Ochre
+    orebasictype: 1232
     packagedVolume: 4.199999809265137
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12183
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 4.199999809265137
   Dark Ochre:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28394
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1232
-    Radius: 1.0
-    ReprocessingSkillType: 12183
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 28394
     id: 1232
     marketGroup: 522
-    mass: 1.0000000409184788E35
     name: Dark Ochre
+    orebasictype: 1232
     packagedVolume: 8.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12183
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 8.0
   Jet Ochre:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 1.100000023841858
-    AsteroidRadiusUnitSize: 700
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 46694
-    Mass: 1.0000000409184788E35
-    OreBasicType: 46675
-    Radius: 1.0
-    ReprocessingSkillType: 12183
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.100000023841858
+    asteroidradiusunitsize: 700
+    compressionquantityneeded: 100
+    compressiontypeid: 46694
     id: 46675
     marketGroup: 522
-    mass: 1.0000000409184788E35
     name: Jet Ochre
+    orebasictype: 46675
     packagedVolume: 8.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12183
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 8.0
   Obsidian Ochre:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28395
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1232
-    Radius: 1.0
-    ReprocessingSkillType: 12183
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 28395
     id: 17437
     marketGroup: 522
-    mass: 1.0000000409184788E35
     name: Obsidian Ochre
+    orebasictype: 1232
     packagedVolume: 8.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12183
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 8.0
   Oeryl:
-    AsteroidMaxRadius: 16255
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1232
-    Radius: 1.0
-    ReprocessingSkillType: 12183
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28623
-    mass: 1.0000000409184788E35
     name: Oeryl
+    orebasictype: 1232
     packagedVolume: 8.0
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12183
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 8.0
   Onyx Ochre:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 0.8500000238418579
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28396
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1232
-    Radius: 1.0
-    ReprocessingSkillType: 12183
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 0.8500000238418579
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 28396
     id: 17436
     marketGroup: 522
-    mass: 1.0000000409184788E35
     name: Onyx Ochre
+    orebasictype: 1232
     packagedVolume: 8.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12183
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 8.0

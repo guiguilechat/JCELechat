@@ -1,15 +1,32 @@
 package fr.guiguilechat.jcelechat.model.sde.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficultyBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AccessDifficultyBonusModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxScanDeviationModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanStrengthBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.VirusCoherenceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.VirusStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Implant;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,42 +39,42 @@ public class CyberScanning
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AccessDifficultyBonus;
+    public int accessdifficultybonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AccessDifficultyBonusModifier;
+    public int accessdifficultybonusmodifier;
     /**
      * Bonus to duration.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DurationBonus;
+    public int durationbonus;
     /**
      * Whether an item is an implant or not
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Implantness;
+    public int implantness;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxScanDeviationModifier;
+    public int maxscandeviationmodifier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ScanStrengthBonus;
+    public int scanstrengthbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -65,21 +82,22 @@ public class CyberScanning
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Adds to the virus coherence of profession modules
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int VirusCoherenceBonus;
+    public int viruscoherencebonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int VirusStrengthBonus;
+    public int virusstrengthbonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DurationBonus.INSTANCE, Radius.INSTANCE, MaxScanDeviationModifier.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, AccessDifficultyBonus.INSTANCE, Capacity.INSTANCE, AccessDifficultyBonusModifier.INSTANCE, Implantness.INSTANCE, ScanStrengthBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, VirusCoherenceBonus.INSTANCE, VirusStrengthBonus.INSTANCE })));
     public static final CyberScanning.MetaGroup METAGROUP = new CyberScanning.MetaGroup();
 
     @Override
@@ -87,45 +105,50 @@ public class CyberScanning
         switch (attribute.getId()) {
             case  902 :
             {
-                return AccessDifficultyBonus;
+                return accessdifficultybonus;
             }
             case  1160 :
             {
-                return AccessDifficultyBonusModifier;
+                return accessdifficultybonusmodifier;
             }
             case  66 :
             {
-                return DurationBonus;
+                return durationbonus;
             }
             case  331 :
             {
-                return Implantness;
+                return implantness;
             }
             case  1156 :
             {
-                return MaxScanDeviationModifier;
+                return maxscandeviationmodifier;
             }
             case  846 :
             {
-                return ScanStrengthBonus;
+                return scanstrengthbonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  1915 :
             {
-                return VirusCoherenceBonus;
+                return viruscoherencebonus;
             }
             case  1918 :
             {
-                return VirusStrengthBonus;
+                return virusstrengthbonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

@@ -1,49 +1,41 @@
 types:
   Clone Soldier Negotiator Tag:
-    Mass: 0.10000000149011612
-    Radius: 1.0
-    SecurityProcessingFee: 6000000
     id: 33141
     marketGroup: 1700
-    mass: 0.10000000149011612
     name: Clone Soldier Negotiator Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
+    securityprocessingfee: 6000000
     volume: 0.10000000149011612
   Clone Soldier Recruiter Tag:
-    Mass: 0.10000000149011612
-    Radius: 1.0
-    SecurityProcessingFee: 4000000
     id: 33139
     marketGroup: 1700
-    mass: 0.10000000149011612
     name: Clone Soldier Recruiter Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
+    securityprocessingfee: 4000000
     volume: 0.10000000149011612
   Clone Soldier Trainer Tag:
-    Mass: 0.10000000149011612
-    Radius: 1.0
-    SecurityProcessingFee: 3000000
     id: 33138
     marketGroup: 1700
-    mass: 0.10000000149011612
     name: Clone Soldier Trainer Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
+    securityprocessingfee: 3000000
     volume: 0.10000000149011612
   Clone Soldier Transporter Tag:
-    Mass: 0.10000000149011612
-    Radius: 1.0
-    SecurityProcessingFee: 5000000
     id: 33140
     marketGroup: 1700
-    mass: 0.10000000149011612
     name: Clone Soldier Transporter Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
+    securityprocessingfee: 5000000
     volume: 0.10000000149011612

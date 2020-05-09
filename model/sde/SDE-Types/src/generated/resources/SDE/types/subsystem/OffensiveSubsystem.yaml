@@ -1,360 +1,336 @@
 types:
   Legion Offensive - Assault Optimization:
-    CpuOutput: 150
-    DroneBandwidth: 50
-    DroneCapacity: 200
-    FitsToShipType: 29986
-    HiSlotModifier: 7
-    Hp: 40.0
-    LauncherHardPointModifier: 5
-    Mass: 800000.0
-    MetaLevel: 1
-    PowerOutput: 200
-    Radius: 500.0
-    RequiredSkill1: 30537
-    RequiredSkill1Level: 1
-    SubSystemSlot: 127
-    SubsystemBonusAmarrOffensive: -5
-    SubsystemBonusAmarrOffensive2: 5
-    SubsystemBonusAmarrOffensive3: 10.0
-    SubsystemMMissileFittingReduction: -25
-    TechLevel: 3
-    WarfareLinkCPUPenalty: 10000
+    cpuoutput: 150
+    dronebandwidth: 50
+    dronecapacity: 200
+    fitstoshiptype: 29986
+    hislotmodifier: 7
+    hp: 40.0
     id: 45599
+    launcherhardpointmodifier: 5
     marketGroup: 1130
-    mass: 800000.0
+    metalevel: 1
     name: Legion Offensive - Assault Optimization
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 200
     published: true
+    radius: 500.0
+    requiredskill1: 30537
+    requiredskill1level: 1
+    subsystembonusamarroffensive: -5
+    subsystembonusamarroffensive2: 5
+    subsystembonusamarroffensive3: 10.0
+    subsystemmmissilefittingreduction: -25
+    subsystemslot: 127
+    techlevel: 3
     volume: 40.0
+    warfarelinkcpupenalty: 10000
   Legion Offensive - Liquid Crystal Magnifiers:
-    CapacitorCapacity: 100.0
-    CpuOutput: 90
-    FitsToShipType: 29986
-    HiSlotModifier: 7
-    Hp: 40.0
-    Mass: 800000.0
-    MetaLevel: 1
-    PowerOutput: 400
-    Radius: 500.0
-    RequiredSkill1: 30537
-    RequiredSkill1Level: 1
-    SubSystemSlot: 127
-    SubsystemBonusAmarrOffensive: 10
-    SubsystemBonusAmarrOffensive2: -10
-    SubsystemBonusAmarrOffensive3: 10.0
-    SubsystemMETFittingReduction: -25
-    TechLevel: 3
-    TurretHardPointModifier: 6
-    WarfareLinkCPUPenalty: 10000
+    capacitorcapacity: 100.0
+    cpuoutput: 90
+    fitstoshiptype: 29986
+    hislotmodifier: 7
+    hp: 40.0
     id: 45598
     marketGroup: 1130
-    mass: 800000.0
+    metalevel: 1
     name: Legion Offensive - Liquid Crystal Magnifiers
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 400
     published: true
+    radius: 500.0
+    requiredskill1: 30537
+    requiredskill1level: 1
+    subsystembonusamarroffensive: 10
+    subsystembonusamarroffensive2: -10
+    subsystembonusamarroffensive3: 10.0
+    subsystemmetfittingreduction: -25
+    subsystemslot: 127
+    techlevel: 3
+    turrethardpointmodifier: 6
     volume: 40.0
+    warfarelinkcpupenalty: 10000
   Legion Offensive - Support Processor:
-    CapacitorCapacity: 100.0
-    DroneBandwidth: 25
-    DroneCapacity: 75
-    FitsToShipType: 29986
-    HiSlotModifier: 7
-    Hp: 40.0
-    Mass: 800000.0
-    MaxLockedTargetsBonus: 1
-    MetaLevel: 1
-    Radius: 500.0
-    RemoteArmorRepairerFalloffBonus: 1150
-    RemoteArmorRepairerOptimalBonus: 20
-    RequiredSkill1: 30537
-    RequiredSkill1Level: 1
-    RoleBonusCommandBurstAoERange: 50
-    SubSystemSlot: 127
-    SubsystemBonusAmarrOffensive: 2
-    SubsystemBonusAmarrOffensive2: -5
-    SubsystemBonusAmarrOffensive3: 10.0
-    SubsystemCommandBurstFittingReduction: -95
-    SubsystemMRARFittingReduction: -75
-    TechLevel: 3
-    TurretHardPointModifier: 4
+    capacitorcapacity: 100.0
+    dronebandwidth: 25
+    dronecapacity: 75
+    fitstoshiptype: 29986
+    hislotmodifier: 7
+    hp: 40.0
     id: 45600
     marketGroup: 1130
-    mass: 800000.0
+    maxlockedtargetsbonus: 1
+    metalevel: 1
     name: Legion Offensive - Support Processor
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 500.0
+    remotearmorrepairerfalloffbonus: 1150
+    remotearmorrepaireroptimalbonus: 20
+    requiredskill1: 30537
+    requiredskill1level: 1
+    rolebonuscommandburstaoerange: 50
+    subsystembonusamarroffensive: 2
+    subsystembonusamarroffensive2: -5
+    subsystembonusamarroffensive3: 10.0
+    subsystemcommandburstfittingreduction: -95
+    subsystemmrarfittingreduction: -75
+    subsystemslot: 127
+    techlevel: 3
+    turrethardpointmodifier: 4
     volume: 40.0
   Loki Offensive - Launcher Efficiency Configuration:
-    CpuOutput: 150
-    DroneBandwidth: 40
-    DroneCapacity: 40
-    FitsToShipType: 29990
-    HiSlotModifier: 7
-    Hp: 40.0
-    LauncherHardPointModifier: 5
-    Mass: 800000.0
-    MetaLevel: 1
-    PowerOutput: 150
-    Radius: 500.0
-    RequiredSkill1: 30551
-    RequiredSkill1Level: 1
-    SubSystemSlot: 127
-    SubsystemBonusMinmatarOffensive: 5.0
-    SubsystemBonusMinmatarOffensive2: -10.0
-    SubsystemBonusMinmatarOffensive3: 5.0
-    SubsystemMMissileFittingReduction: -25
-    TechLevel: 3
-    TurretHardPointModifier: 2
-    WarfareLinkCPUPenalty: 10000
+    cpuoutput: 150
+    dronebandwidth: 40
+    dronecapacity: 40
+    fitstoshiptype: 29990
+    hislotmodifier: 7
+    hp: 40.0
     id: 45608
+    launcherhardpointmodifier: 5
     marketGroup: 1133
-    mass: 800000.0
+    metalevel: 1
     name: Loki Offensive - Launcher Efficiency Configuration
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 150
     published: true
+    radius: 500.0
+    requiredskill1: 30551
+    requiredskill1level: 1
+    subsystembonusminmataroffensive: 5.0
+    subsystembonusminmataroffensive2: -10.0
+    subsystembonusminmataroffensive3: 5.0
+    subsystemmmissilefittingreduction: -25
+    subsystemslot: 127
+    techlevel: 3
+    turrethardpointmodifier: 2
     volume: 40.0
+    warfarelinkcpupenalty: 10000
   Loki Offensive - Projectile Scoping Array:
-    CpuOutput: 30
-    DroneBandwidth: 25
-    DroneCapacity: 25
-    FitsToShipType: 29990
-    HiSlotModifier: 7
-    Hp: 40.0
-    LauncherHardPointModifier: 2
-    Mass: 800000.0
-    MetaLevel: 1
-    PowerOutput: 300
-    Radius: 500.0
-    RequiredSkill1: 30551
-    RequiredSkill1Level: 1
-    SubSystemSlot: 127
-    SubsystemBonusMinmatarOffensive: 5.0
-    SubsystemBonusMinmatarOffensive2: 17.5
-    SubsystemBonusMinmatarOffensive3: 5.0
-    SubsystemMPTFittingReduction: -25
-    TechLevel: 3
-    TurretHardPointModifier: 5
-    WarfareLinkCPUPenalty: 10000
+    cpuoutput: 30
+    dronebandwidth: 25
+    dronecapacity: 25
+    fitstoshiptype: 29990
+    hislotmodifier: 7
+    hp: 40.0
     id: 45607
+    launcherhardpointmodifier: 2
     marketGroup: 1133
-    mass: 800000.0
+    metalevel: 1
     name: Loki Offensive - Projectile Scoping Array
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 300
     published: true
+    radius: 500.0
+    requiredskill1: 30551
+    requiredskill1level: 1
+    subsystembonusminmataroffensive: 5.0
+    subsystembonusminmataroffensive2: 17.5
+    subsystembonusminmataroffensive3: 5.0
+    subsystemmptfittingreduction: -25
+    subsystemslot: 127
+    techlevel: 3
+    turrethardpointmodifier: 5
     volume: 40.0
+    warfarelinkcpupenalty: 10000
   Loki Offensive - Support Processor:
-    CapacitorCapacity: 100.0
-    DroneBandwidth: 25
-    DroneCapacity: 50
-    FitsToShipType: 29990
-    HiSlotModifier: 7
-    Hp: 40.0
-    Mass: 800000.0
-    MaxLockedTargetsBonus: 1
-    MetaLevel: 1
-    Radius: 500.0
-    RemoteArmorRepairerFalloffBonus: 1150
-    RemoteArmorRepairerOptimalBonus: 20
-    RemoteShieldBoosterFalloffBonus: 475
-    RequiredSkill1: 30551
-    RequiredSkill1Level: 1
-    RoleBonusCommandBurstAoERange: 50
-    SubSystemSlot: 127
-    SubsystemBonusMinmatarOffensive: 2.0
-    SubsystemBonusMinmatarOffensive2: -5.0
-    SubsystemBonusMinmatarOffensive3: 10.0
-    SubsystemCommandBurstFittingReduction: -95
-    SubsystemMRARFittingReduction: -75
-    SubsystemMRSBFittingReduction: -75
-    TechLevel: 3
-    TurretHardPointModifier: 4
+    capacitorcapacity: 100.0
+    dronebandwidth: 25
+    dronecapacity: 50
+    fitstoshiptype: 29990
+    hislotmodifier: 7
+    hp: 40.0
     id: 45609
     marketGroup: 1133
-    mass: 800000.0
+    maxlockedtargetsbonus: 1
+    metalevel: 1
     name: Loki Offensive - Support Processor
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 500.0
+    remotearmorrepairerfalloffbonus: 1150
+    remotearmorrepaireroptimalbonus: 20
+    remoteshieldboosterfalloffbonus: 475
+    requiredskill1: 30551
+    requiredskill1level: 1
+    rolebonuscommandburstaoerange: 50
+    subsystembonusminmataroffensive: 2.0
+    subsystembonusminmataroffensive2: -5.0
+    subsystembonusminmataroffensive3: 10.0
+    subsystemcommandburstfittingreduction: -95
+    subsystemmrarfittingreduction: -75
+    subsystemmrsbfittingreduction: -75
+    subsystemslot: 127
+    techlevel: 3
+    turrethardpointmodifier: 4
     volume: 40.0
   Proteus Offensive - Drone Synthesis Projector:
-    CpuOutput: 40
-    DroneBandwidth: 100
-    DroneCapacity: 250
-    FitsToShipType: 29988
-    HiSlotModifier: 6
-    Hp: 40.0
-    Mass: 800000.0
-    MetaLevel: 1
-    PowerOutput: 130
-    Radius: 500.0
-    RequiredSkill1: 30550
-    RequiredSkill1Level: 1
-    SubSystemSlot: 127
-    SubsystemBonusGallenteOffensive: 10.0
-    SubsystemBonusGallenteOffensive2: 5
-    SubsystemBonusGallenteOffensive3: 10.0
-    SubsystemMHTFittingReduction: -25
-    TechLevel: 3
-    TurretHardPointModifier: 5
-    WarfareLinkCPUPenalty: 10000
+    cpuoutput: 40
+    dronebandwidth: 100
+    dronecapacity: 250
+    fitstoshiptype: 29988
+    hislotmodifier: 6
+    hp: 40.0
     id: 45605
     marketGroup: 1132
-    mass: 800000.0
+    metalevel: 1
     name: Proteus Offensive - Drone Synthesis Projector
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 130
     published: true
+    radius: 500.0
+    requiredskill1: 30550
+    requiredskill1level: 1
+    subsystembonusgallenteoffensive: 10.0
+    subsystembonusgallenteoffensive2: 5
+    subsystembonusgallenteoffensive3: 10.0
+    subsystemmhtfittingreduction: -25
+    subsystemslot: 127
+    techlevel: 3
+    turrethardpointmodifier: 5
     volume: 40.0
+    warfarelinkcpupenalty: 10000
   Proteus Offensive - Hybrid Encoding Platform:
-    CapacitorCapacity: 100.0
-    CpuOutput: 110
-    DroneBandwidth: 25
-    DroneCapacity: 50
-    FitsToShipType: 29988
-    HiSlotModifier: 7
-    Hp: 40.0
-    Mass: 800000.0
-    MetaLevel: 1
-    PowerOutput: 330
-    Radius: 500.0
-    RequiredSkill1: 30550
-    RequiredSkill1Level: 1
-    SubSystemSlot: 127
-    SubsystemBonusGallenteOffensive: 10.0
-    SubsystemBonusGallenteOffensive2: 10
-    SubsystemBonusGallenteOffensive3: 7.5
-    SubsystemMHTFittingReduction: -25
-    TechLevel: 3
-    TurretHardPointModifier: 6
-    WarfareLinkCPUPenalty: 10000
+    capacitorcapacity: 100.0
+    cpuoutput: 110
+    dronebandwidth: 25
+    dronecapacity: 50
+    fitstoshiptype: 29988
+    hislotmodifier: 7
+    hp: 40.0
     id: 45604
     marketGroup: 1132
-    mass: 800000.0
+    metalevel: 1
     name: Proteus Offensive - Hybrid Encoding Platform
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 330
     published: true
+    radius: 500.0
+    requiredskill1: 30550
+    requiredskill1level: 1
+    subsystembonusgallenteoffensive: 10.0
+    subsystembonusgallenteoffensive2: 10
+    subsystembonusgallenteoffensive3: 7.5
+    subsystemmhtfittingreduction: -25
+    subsystemslot: 127
+    techlevel: 3
+    turrethardpointmodifier: 6
     volume: 40.0
+    warfarelinkcpupenalty: 10000
   Proteus Offensive - Support Processor:
-    CapacitorCapacity: 100.0
-    DroneBandwidth: 50
-    DroneCapacity: 75
-    FitsToShipType: 29988
-    HiSlotModifier: 7
-    Hp: 40.0
-    Mass: 800000.0
-    MaxLockedTargetsBonus: 1
-    MetaLevel: 1
-    Radius: 500.0
-    RemoteArmorRepairerFalloffBonus: 1150
-    RemoteArmorRepairerOptimalBonus: 20
-    RequiredSkill1: 30550
-    RequiredSkill1Level: 1
-    RoleBonusCommandBurstAoERange: 50
-    SubSystemSlot: 127
-    SubsystemBonusGallenteOffensive: 2.0
-    SubsystemBonusGallenteOffensive2: -5
-    SubsystemBonusGallenteOffensive3: 10.0
-    SubsystemCommandBurstFittingReduction: -95
-    SubsystemMRARFittingReduction: -75
-    TechLevel: 3
-    TurretHardPointModifier: 4
+    capacitorcapacity: 100.0
+    dronebandwidth: 50
+    dronecapacity: 75
+    fitstoshiptype: 29988
+    hislotmodifier: 7
+    hp: 40.0
     id: 45606
     marketGroup: 1132
-    mass: 800000.0
+    maxlockedtargetsbonus: 1
+    metalevel: 1
     name: Proteus Offensive - Support Processor
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 500.0
+    remotearmorrepairerfalloffbonus: 1150
+    remotearmorrepaireroptimalbonus: 20
+    requiredskill1: 30550
+    requiredskill1level: 1
+    rolebonuscommandburstaoerange: 50
+    subsystembonusgallenteoffensive: 2.0
+    subsystembonusgallenteoffensive2: -5
+    subsystembonusgallenteoffensive3: 10.0
+    subsystemcommandburstfittingreduction: -95
+    subsystemmrarfittingreduction: -75
+    subsystemslot: 127
+    techlevel: 3
+    turrethardpointmodifier: 4
     volume: 40.0
   Tengu Offensive - Accelerated Ejection Bay:
-    CpuOutput: 160
-    FitsToShipType: 29984
-    HiSlotModifier: 7
-    Hp: 40.0
-    LauncherHardPointModifier: 6
-    Mass: 800000.0
-    MetaLevel: 1
-    PowerOutput: 190
-    Radius: 500.0
-    RequiredSkill1: 30549
-    RequiredSkill1Level: 1
-    SubSystemSlot: 127
-    SubsystemBonusCaldariOffensive: -7.5
-    SubsystemBonusCaldariOffensive2: 5
-    SubsystemBonusCaldariOffensive3: 10
-    SubsystemMMissileFittingReduction: -25
-    TechLevel: 3
-    WarfareLinkCPUPenalty: 10000
+    cpuoutput: 160
+    fitstoshiptype: 29984
+    hislotmodifier: 7
+    hp: 40.0
     id: 45601
+    launcherhardpointmodifier: 6
     marketGroup: 1131
-    mass: 800000.0
+    metalevel: 1
     name: Tengu Offensive - Accelerated Ejection Bay
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 190
     published: true
+    radius: 500.0
+    requiredskill1: 30549
+    requiredskill1level: 1
+    subsystembonuscaldarioffensive: -7.5
+    subsystembonuscaldarioffensive2: 5
+    subsystembonuscaldarioffensive3: 10
+    subsystemmmissilefittingreduction: -25
+    subsystemslot: 127
+    techlevel: 3
     volume: 40.0
+    warfarelinkcpupenalty: 10000
   Tengu Offensive - Magnetic Infusion Basin:
-    CapacitorCapacity: 100.0
-    CpuOutput: 120
-    FitsToShipType: 29984
-    HiSlotModifier: 7
-    Hp: 40.0
-    Mass: 800000.0
-    MetaLevel: 1
-    PowerOutput: 420
-    Radius: 500.0
-    RequiredSkill1: 30549
-    RequiredSkill1Level: 1
-    SubSystemSlot: 127
-    SubsystemBonusCaldariOffensive: 20.0
-    SubsystemBonusCaldariOffensive2: 5
-    SubsystemMHTFittingReduction: -25
-    TechLevel: 3
-    TurretHardPointModifier: 6
-    WarfareLinkCPUPenalty: 10000
+    capacitorcapacity: 100.0
+    cpuoutput: 120
+    fitstoshiptype: 29984
+    hislotmodifier: 7
+    hp: 40.0
     id: 45602
     marketGroup: 1131
-    mass: 800000.0
+    metalevel: 1
     name: Tengu Offensive - Magnetic Infusion Basin
     packagedVolume: 40.0
     portionSize: 1
+    poweroutput: 420
     published: true
+    radius: 500.0
+    requiredskill1: 30549
+    requiredskill1level: 1
+    subsystembonuscaldarioffensive: 20.0
+    subsystembonuscaldarioffensive2: 5
+    subsystemmhtfittingreduction: -25
+    subsystemslot: 127
+    techlevel: 3
+    turrethardpointmodifier: 6
     volume: 40.0
+    warfarelinkcpupenalty: 10000
   Tengu Offensive - Support Processor:
-    CapacitorCapacity: 100.0
-    DroneBandwidth: 25
-    DroneCapacity: 50
-    FitsToShipType: 29984
-    HiSlotModifier: 7
-    Hp: 40.0
-    LauncherHardPointModifier: 4
-    Mass: 800000.0
-    MaxLockedTargetsBonus: 1
-    MetaLevel: 1
-    Radius: 500.0
-    RemoteShieldBoosterFalloffBonus: 475
-    RequiredSkill1: 30549
-    RequiredSkill1Level: 1
-    RoleBonusCommandBurstAoERange: 50
-    SubSystemSlot: 127
-    SubsystemBonusCaldariOffensive: 2.0
-    SubsystemBonusCaldariOffensive2: -5
-    SubsystemBonusCaldariOffensive3: 10
-    SubsystemCommandBurstFittingReduction: -95
-    SubsystemMRSBFittingReduction: -75
-    TechLevel: 3
+    capacitorcapacity: 100.0
+    dronebandwidth: 25
+    dronecapacity: 50
+    fitstoshiptype: 29984
+    hislotmodifier: 7
+    hp: 40.0
     id: 45603
+    launcherhardpointmodifier: 4
     marketGroup: 1131
-    mass: 800000.0
+    maxlockedtargetsbonus: 1
+    metalevel: 1
     name: Tengu Offensive - Support Processor
     packagedVolume: 40.0
     portionSize: 1
     published: true
+    radius: 500.0
+    remoteshieldboosterfalloffbonus: 475
+    requiredskill1: 30549
+    requiredskill1level: 1
+    rolebonuscommandburstaoerange: 50
+    subsystembonuscaldarioffensive: 2.0
+    subsystembonuscaldarioffensive2: -5
+    subsystembonuscaldarioffensive3: 10
+    subsystemcommandburstfittingreduction: -95
+    subsystemmrsbfittingreduction: -75
+    subsystemslot: 127
+    techlevel: 3
     volume: 40.0

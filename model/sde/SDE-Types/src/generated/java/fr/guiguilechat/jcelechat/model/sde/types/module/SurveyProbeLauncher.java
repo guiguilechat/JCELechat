@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,25 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Slots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SurveyProbeDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,42 +45,42 @@ public class SurveyProbeLauncher
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup2;
+    public int chargegroup2;
     /**
      * Number of charges consumed per activation
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ChargeRate;
+    public int chargerate;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowRepeatingActivation;
+    public int disallowrepeatingactivation;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -66,56 +88,56 @@ public class SurveyProbeLauncher
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * reload time (ms)
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
+    public double reloadtime;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int Slots;
+    public int slots;
     /**
      * Time in milliseconds between possible activations
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Speed;
+    public double speed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SurveyProbeDurationBonus;
+    public int surveyprobedurationbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -123,7 +145,8 @@ public class SurveyProbeLauncher
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, SurveyProbeDurationBonus.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill1 .INSTANCE, ChargeRate.INSTANCE, MetaLevel.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE })));
     public static final SurveyProbeLauncher.MetaGroup METAGROUP = new SurveyProbeLauncher.MetaGroup();
 
     @Override
@@ -131,69 +154,74 @@ public class SurveyProbeLauncher
         switch (attribute.getId()) {
             case  605 :
             {
-                return ChargeGroup2;
+                return chargegroup2;
             }
             case  56 :
             {
-                return ChargeRate;
+                return chargerate;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1014 :
             {
-                return DisallowRepeatingActivation;
+                return disallowrepeatingactivation;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  1795 :
             {
-                return ReloadTime;
+                return reloadtime;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  47 :
             {
-                return Slots;
+                return slots;
             }
             case  51 :
             {
-                return Speed;
+                return speed;
             }
             case  2701 :
             {
-                return SurveyProbeDurationBonus;
+                return surveyprobedurationbonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

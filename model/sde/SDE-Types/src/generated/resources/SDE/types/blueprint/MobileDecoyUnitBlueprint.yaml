@@ -1,10 +1,10 @@
 types:
   Mobile Decoy Unit Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 33588
+    industryblueprintrank: 40.0
     name: Mobile Decoy Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

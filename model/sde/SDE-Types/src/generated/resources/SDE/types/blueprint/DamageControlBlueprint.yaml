@@ -1,105 +1,105 @@
 types:
   '''Radical'' Damage Control Blueprint':
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23419
+    industryblueprintrank: 3.0
     name: '''Radical'' Damage Control Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Assault Damage Control I Blueprint:
-    TechLevel: 1
     id: 47259
     marketGroup: 1542
     name: Assault Damage Control I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Assault Damage Control II Blueprint:
-    TechLevel: 1
     id: 47260
     name: Assault Damage Control II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Emergency Hull Energizer I Blueprint:
-    TechLevel: 1
     id: 40719
     marketGroup: 1542
     name: Capital Emergency Hull Energizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Emergency Hull Energizer II Blueprint:
-    Radius: 1.0
-    TechLevel: 2
     id: 40722
     name: Capital Emergency Hull Energizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Capital Implacable Compact Emergency Hull Energizer Blueprint:
-    TechLevel: 1
     id: 40720
     marketGroup: 1542
     name: Capital Implacable Compact Emergency Hull Energizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Indefatigable Enduring Emergency Hull Energizer Blueprint:
-    TechLevel: 1
     id: 40721
     marketGroup: 1542
     name: Capital Indefatigable Enduring Emergency Hull Energizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Civilian Damage Control Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 30840
+    industryblueprintrank: 3.0
     name: Civilian Damage Control Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Damage Control I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 2047
+    industryblueprintrank: 3.0
     marketGroup: 1542
     name: Damage Control I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Damage Control II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 2049
+    industryblueprintrank: 7.800000190734863
     name: Damage Control II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Sisters Capital Emergency Hull Energizer Blueprint:
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
     id: 40723
+    metagroupid: 4
     name: Sisters Capital Emergency Hull Energizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582

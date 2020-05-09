@@ -1,466 +1,466 @@
 types:
   Auto-Targeting Missiles:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3322
     marketGroup: 373
     name: Auto-Targeting Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 2
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Bomb Deployment:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    ReactivationDelayBonus: -10
-    RequiredSkill1: 12441
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 28073
     marketGroup: 373
     name: Bomb Deployment
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    reactivationdelaybonus: -10
+    requiredskill1: 12441
+    requiredskill1level: 4
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Cruise Missile Specialization:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 5
-    RofBonus: -2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 20212
     marketGroup: 373
     name: Cruise Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    requiredskill2: 3326
+    requiredskill2level: 5
+    rofbonus: -2
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Cruise Missiles:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3326
     marketGroup: 373
     name: Cruise Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 5
+    requiredskill2: 3324
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Defender Missiles:
-    CanNotBeTrainedOnTrial: 1
-    MissileVelocityBonus: 10.0
-    PrimaryAttribute: 167
-    Radius: 1.0
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 3323
     marketGroup: 373
+    missilevelocitybonus: 10.0
     name: Defender Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Guided Missile Precision:
-    AoeCloudSizeBonus: -5.0
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
-    SpeedFactor: 1.0
+    aoecloudsizebonus: -5.0
+    cannotbetrainedontrial: 1
     id: 20312
     marketGroup: 373
     name: Guided Missile Precision
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 4
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Heavy Assault Missile Specialization:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25719
-    RequiredSkill2Level: 5
-    RofBonus: -2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 25718
     marketGroup: 373
     name: Heavy Assault Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    requiredskill2: 25719
+    requiredskill2level: 5
+    rofbonus: -2
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Heavy Assault Missiles:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 25719
     marketGroup: 373
     name: Heavy Assault Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 3
+    requiredskill2: 3321
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Heavy Missile Specialization:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 5
-    RofBonus: -2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 20211
     marketGroup: 373
     name: Heavy Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    requiredskill2: 3324
+    requiredskill2level: 5
+    rofbonus: -2
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Heavy Missiles:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3324
     marketGroup: 373
     name: Heavy Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 3
+    requiredskill2: 3321
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Light Missile Specialization:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3321
-    RequiredSkill2Level: 5
-    RofBonus: -2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 20210
     marketGroup: 373
     name: Light Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    requiredskill2: 3321
+    requiredskill2level: 5
+    rofbonus: -2
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Light Missiles:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3321
     marketGroup: 373
     name: Light Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 2
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Missile Bombardment:
-    CanNotBeTrainedOnTrial: 1
-    MaxFlightTimeBonus: 10
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 12441
     marketGroup: 373
+    maxflighttimebonus: 10
     name: Missile Bombardment
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Missile Launcher Operation:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RofBonus: -2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 3319
     marketGroup: 373
     name: Missile Launcher Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    rofbonus: -2
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Missile Projection:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
-    SpeedFactor: 10.0
+    cannotbetrainedontrial: 1
     id: 12442
     marketGroup: 373
     name: Missile Projection
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
+    speedfactor: 10.0
     volume: 0.009999999776482582
   Rapid Launch:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 2
-    RofBonus: -3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 21071
     marketGroup: 373
     name: Rapid Launch
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 2
+    rofbonus: -3
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Rocket Specialization:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3320
-    RequiredSkill2Level: 5
-    RofBonus: -2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 20209
     marketGroup: 373
     name: Rocket Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    requiredskill2: 3320
+    requiredskill2level: 5
+    rofbonus: -2
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Rockets:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3320
     marketGroup: 373
     name: Rockets
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Target Navigation Prediction:
-    AoeVelocityBonus: 10.0
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
-    SpeedFactor: 1.0
+    aoevelocitybonus: 10.0
+    cannotbetrainedontrial: 1
     id: 20314
     marketGroup: 373
     name: Target Navigation Prediction
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 2
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Torpedo Specialization:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3325
-    RequiredSkill2Level: 5
-    RofBonus: -2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 20213
     marketGroup: 373
     name: Torpedo Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    requiredskill2: 3325
+    requiredskill2level: 5
+    rofbonus: -2
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Torpedoes:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3324
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 3325
     marketGroup: 373
     name: Torpedoes
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 4
+    requiredskill2: 3324
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   Warhead Upgrades:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 2
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
     id: 20315
     marketGroup: 373
     name: Warhead Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 4
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   XL Cruise Missile Specialization:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    RequiredSkill2: 32435
-    RequiredSkill2Level: 5
-    RofBonus: -2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 41410
     marketGroup: 373
     name: XL Cruise Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    requiredskill2: 32435
+    requiredskill2level: 5
+    rofbonus: -2
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   XL Cruise Missiles:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3326
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 7.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 32435
     marketGroup: 373
     name: XL Cruise Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 5
+    requiredskill2: 3326
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 7.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   XL Torpedo Specialization:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 1
-    RequiredSkill2: 21668
-    RequiredSkill2Level: 5
-    RofBonus: -2
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
     id: 41409
     marketGroup: 373
     name: XL Torpedo Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 1
+    requiredskill2: 21668
+    requiredskill2level: 5
+    rofbonus: -2
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
+    speedfactor: 1.0
     volume: 0.009999999776482582
   XL Torpedoes:
-    CanNotBeTrainedOnTrial: 1
-    DamageMultiplierBonus: 5
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3319
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3325
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 7.0
-    SpeedFactor: 1.0
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
     id: 21668
     marketGroup: 373
     name: XL Torpedoes
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3319
+    requiredskill1level: 5
+    requiredskill2: 3325
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 7.0
+    speedfactor: 1.0
     volume: 0.009999999776482582

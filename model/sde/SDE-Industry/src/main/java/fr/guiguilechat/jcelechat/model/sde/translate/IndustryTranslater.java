@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde.translate;
 
 import java.io.File;
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
@@ -20,6 +19,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionTypeID;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
@@ -228,12 +228,12 @@ public class IndustryTranslater {
 
 	public static InventionDecryptor convertDecryptor(GenericDecryptor dec) {
 		InventionDecryptor ret = new InventionDecryptor();
-		ret.me = (int) dec.InventionMEModifier;
-		ret.te = (int) dec.InventionTEModifier;
-		ret.maxrun = (int) dec.InventionMaxRunModifier;
+		ret.me = (int) dec.inventionmemodifier;
+		ret.te = (int) dec.inventiontemodifier;
+		ret.maxrun = (int) dec.inventionmaxrunmodifier;
 		ret.id = dec.id;
 		ret.name = dec.name;
-		ret.probmult = dec.InventionPropabilityMultiplier;
+		ret.probmult = dec.inventionpropabilitymultiplier;
 		return ret;
 	}
 
@@ -270,10 +270,9 @@ public class IndustryTranslater {
 
 	private static void translateCompression(LinkedHashMap<Integer, IndustryUsage> usages) {
 		for (Asteroid compressed : Asteroid.METACAT.load().values()) {
-			try {
-				Field field = compressed.getClass().getField("CompressionTypeID");
-				Integer compressIntoId = (Integer) field.get(compressed);
-				if (compressIntoId != null && compressIntoId != 0) {
+			if (compressed.getAttributes().contains(CompressionTypeID.INSTANCE)) {
+				Integer compressIntoId = compressed.attribute(CompressionTypeID.INSTANCE).intValue();
+				if (compressIntoId != 0) {
 					EveType compressInto = TypeIndex.getType(compressIntoId);
 					if (compressInto == null) {
 						logger.debug("can't find asteroid from id " + compressIntoId);
@@ -282,11 +281,7 @@ public class IndustryTranslater {
 						usages.computeIfAbsent(compressIntoId, o -> new IndustryUsage()).compressFrom = compressed.id;
 					}
 				}
-			} catch (NoSuchFieldException | SecurityException | IllegalArgumentException | IllegalAccessException e) {
-				// nothing, no such a field
 			}
 		}
-		// TODO Auto-generated method stub
-
 	}
 }

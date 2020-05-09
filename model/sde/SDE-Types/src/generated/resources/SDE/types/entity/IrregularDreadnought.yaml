@@ -1,45 +1,43 @@
 types:
   Kazue's Caiman:
-    Agility: 0.03799999877810478
-    ArmorEmDamageResonance: 0.4000000059604645
-    ArmorExplosiveDamageResonance: 0.5
-    ArmorHP: 100000.0
-    ArmorKineticDamageResonance: 1.0
-    ArmorThermalDamageResonance: 0.800000011920929
-    CapacitorCapacity: 57800.0
-    Capacity: 2750.0
-    EntityEquipmentMax: 7
-    EntityEquipmentMin: 5
-    EntityKillBounty: 2500000
-    EntityMissileTypeID: 32436
-    EntitySecurityMaxGain: 5.0
-    EntitySecurityStatusKillBonus: 0.009999999776482582
-    GfxBoosterID: 395
-    GfxTurretID: 41174
-    Hp: 100000.0
-    IsCapitalSize: 1
-    Mass: 1.27E9
-    MaxLockedTargets: 7
-    MaxTargetRange: 115000.0
-    MaxVelocity: 75.0
-    MissileDamageMultiplier: 1.0
-    MissileLaunchDuration: 30000.0
-    Radius: 1700.0
-    RechargeRate: 2000000.0
-    ScanGravimetricStrength: 55.0
-    ScanResolution: 75.0
-    ShieldCapacity: 700000.0
-    ShieldEmDamageResonance: 0.4000000059604645
-    ShieldExplosiveDamageResonance: 0.5
-    ShieldKineticDamageResonance: 1.0
-    ShieldRechargeRate: 2000000.0
-    ShieldThermalDamageResonance: 0.800000011920929
-    SignatureRadius: 12000.0
-    WarpSpeedMultiplier: 25.0
+    agility: 0.03799999877810478
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.5
+    armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 0.800000011920929
+    capacitorcapacity: 57800.0
+    capacity: 2750.0
+    entityequipmentmax: 7
+    entityequipmentmin: 5
+    entitykillbounty: 2500000
+    entitymissiletypeid: 32436
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.009999999776482582
+    gfxboosterid: 395
+    gfxturretid: 41174
+    hp: 100000.0
     id: 40729
-    mass: 1.27E9
+    iscapitalsize: 1
+    maxlockedtargets: 7
+    maxtargetrange: 115000.0
+    maxvelocity: 75.0
+    missiledamagemultiplier: 1.0
+    missilelaunchduration: 30000.0
     name: Kazue's Caiman
     packagedVolume: 1.625E7
     portionSize: 1
     published: true
+    radius: 1700.0
+    rechargerate: 2000000.0
+    scangravimetricstrength: 55.0
+    scanresolution: 75.0
+    shieldcapacity: 700000.0
+    shieldemdamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 2000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    signatureradius: 12000.0
     volume: 1.625E7
+    warpspeedmultiplier: 25.0

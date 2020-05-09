@@ -1,103 +1,103 @@
 types:
   Electromechanical Interface Nexus Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 30467
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Electromechanical Interface Nexus Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Emergent Neurovisual Interface Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 29997
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Emergent Neurovisual Interface Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Fullerene Intercalated Sheets Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 30003
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Fullerene Intercalated Sheets Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Fulleroferrocene Power Conduits Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 30477
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Fulleroferrocene Power Conduits Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Metallofullerene Plating Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 30465
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Metallofullerene Plating Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Nanowire Composites Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 30475
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Nanowire Composites Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Neurovisual Output Analyzer Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 30471
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Neurovisual Output Analyzer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Optimized Nano-Engines Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 29993
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Optimized Nano-Engines Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Reconfigured Subspace Calibrator Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 30479
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Reconfigured Subspace Calibrator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Reinforced Metallofullerene Alloys Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 30009
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Reinforced Metallofullerene Alloys Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Self-Assembling Nanolattice Blueprint:
     id: 34397
@@ -140,12 +140,12 @@ types:
     published: true
     volume: 0.009999999776482582
   Warfare Computation Core Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 29995
+    industryblueprintrank: 1.0
     marketGroup: 1191
     name: Warfare Computation Core Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

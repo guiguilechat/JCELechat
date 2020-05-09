@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,32 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ActivationBlockedStrenght;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupOnline;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,112 +52,112 @@ public class StructureWarpScrambler
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ActivationBlockedStrenght;
+    public int activationblockedstrenght;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup02;
+    public int canfitshipgroup02;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup03;
+    public int canfitshipgroup03;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup1;
+    public int chargegroup1;
     /**
      * The size of the charges that can fit in the turret/whatever.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeSize;
+    public int chargesize;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * If set, this module cannot be activated and made to autorepeat.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowRepeatingActivation;
+    public int disallowrepeatingactivation;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupOnline;
+    public int maxgrouponline;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * Maximum velocity multiplier
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MaxVelocityMultiplier;
+    public double maxvelocitymultiplier;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -136,28 +165,28 @@ public class StructureWarpScrambler
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ModuleReactivationDelay;
+    public int modulereactivationdelay;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * reload time (ms)
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
+    public double reloadtime;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -165,14 +194,15 @@ public class StructureWarpScrambler
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Amount to modify ships warp scramble status by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleStrength;
+    public int warpscramblestrength;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, CanFitShipGroup01 .INSTANCE, MaxGroupOnline.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, ChargeGroup1 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, WarpScrambleStrength.INSTANCE, Cpu.INSTANCE, MaxRange.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevel.INSTANCE, MaxGroupActive.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
     public static final StructureWarpScrambler.MetaGroup METAGROUP = new StructureWarpScrambler.MetaGroup();
 
     @Override
@@ -180,97 +210,102 @@ public class StructureWarpScrambler
         switch (attribute.getId()) {
             case  1350 :
             {
-                return ActivationBlockedStrenght;
+                return activationblockedstrenght;
             }
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  1299 :
             {
-                return CanFitShipGroup02;
+                return canfitshipgroup02;
             }
             case  1300 :
             {
-                return CanFitShipGroup03;
+                return canfitshipgroup03;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  604 :
             {
-                return ChargeGroup1;
+                return chargegroup1;
             }
             case  128 :
             {
-                return ChargeSize;
+                return chargesize;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1014 :
             {
-                return DisallowRepeatingActivation;
+                return disallowrepeatingactivation;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  978 :
             {
-                return MaxGroupOnline;
+                return maxgrouponline;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  1470 :
             {
-                return MaxVelocityMultiplier;
+                return maxvelocitymultiplier;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  669 :
             {
-                return ModuleReactivationDelay;
+                return modulereactivationdelay;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  1795 :
             {
-                return ReloadTime;
+                return reloadtime;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  105 :
             {
-                return WarpScrambleStrength;
+                return warpscramblestrength;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

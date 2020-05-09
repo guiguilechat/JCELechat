@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.starbase;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,60 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitySecondary;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerEwTargetSwitchDelayBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerHybridDamageBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerLaserDamageBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerLaserOptimalBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerMissileROFBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerMissileVelocityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerProjectileFallOffBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerProjectileOptimalBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerProjectileROFBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerSiloCapacityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ControlTowerSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiCapitalMissileResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HullEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HullExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HullKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HullThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxStructureDistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MoonAnchorDistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OnliningDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PosControlTowerPeriod;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PosStructureControlDistanceMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PrototypingBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ProximityRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UnanchoringDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
 import fr.guiguilechat.jcelechat.model.sde.types.Starbase;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,84 +80,84 @@ public class ControlTower
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ArmorDamage;
+    public int armordamage;
     /**
      * Secondary cargo space allowed, meant to supplement capacity. This is currently used exclusively for Strontium storage on starbases.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10000)
-    public int CapacitySecondary;
+    public int capacitysecondary;
     /**
      * Bonus attribute to entity Target Switch Delay
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerEwTargetSwitchDelayBonus;
+    public int controltowerewtargetswitchdelaybonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerHybridDamageBonus;
+    public int controltowerhybriddamagebonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerLaserDamageBonus;
+    public int controltowerlaserdamagebonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerLaserOptimalBonus;
+    public int controltowerlaseroptimalbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerMissileROFBonus;
+    public int controltowermissilerofbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerMissileVelocityBonus;
+    public int controltowermissilevelocitybonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerProjectileFallOffBonus;
+    public int controltowerprojectilefalloffbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerProjectileOptimalBonus;
+    public int controltowerprojectileoptimalbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerProjectileROFBonus;
+    public int controltowerprojectilerofbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ControlTowerSiloCapacityBonus;
+    public int controltowersilocapacitybonus;
     /**
      * numeric classification for tower size
      * 
@@ -108,63 +165,63 @@ public class ControlTower
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ControlTowerSize;
+    public int controltowersize;
     /**
      * CPU output of ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CpuOutput;
+    public int cpuoutput;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
+    public int fighterabilityanticapitalmissileresistance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HullEmDamageResonance;
+    public double hullemdamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HullExplosiveDamageResonance;
+    public double hullexplosivedamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HullKineticDamageResonance;
+    public double hullkineticdamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HullThermalDamageResonance;
+    public double hullthermaldamageresonance;
     /**
      * The distance that structures have to be from a control tower in order to work with it.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxStructureDistance;
+    public int maxstructuredistance;
     /**
      * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxTargetRange;
+    public double maxtargetrange;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -179,98 +236,99 @@ public class ControlTower
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * How many meters from the standard warp-in distance a moon can be anchored from.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MoonAnchorDistance;
+    public int moonanchordistance;
     /**
      * The interval for fuel consumption of a control tower
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10000)
-    public int PosControlTowerPeriod;
+    public int poscontroltowerperiod;
     /**
      * The maximum distance from the control tower, at which structures can be controlled.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(15000)
-    public int PosStructureControlDistanceMax;
+    public int posstructurecontroldistancemax;
     /**
      * power output of power core
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PowerOutput;
+    public int poweroutput;
     /**
      * Autogenerated skill attribute, prototypingBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PrototypingBonus;
+    public int prototypingbonus;
     /**
      * The distance at which to react when relevant objects come within range.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ProximityRange;
+    public int proximityrange;
     /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldEmDamageResonance;
+    public double shieldemdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldExplosiveDamageResonance;
+    public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldKineticDamageResonance;
+    public double shieldkineticdamageresonance;
     /**
      * Radius of the force shield that this structure generates.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShieldRadius;
+    public int shieldradius;
     /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ShieldThermalDamageResonance;
+    public double shieldthermaldamageresonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldUniformity;
+    public double shielduniformity;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Uniformity;
+    public double uniformity;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ControlTowerEwTargetSwitchDelayBonus.INSTANCE, Mass.INSTANCE, ControlTowerSize.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, MaxStructureDistance.INSTANCE, ArmorDamage.INSTANCE, PowerOutput.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ControlTowerMissileVelocityBonus.INSTANCE, ProximityRange.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, ShieldRadius.INSTANCE, SignatureRadius.INSTANCE, AnchoringDelay.INSTANCE, CpuOutput.INSTANCE, PosStructureControlDistanceMax.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, MoonAnchorDistance.INSTANCE, MaxTargetRange.INSTANCE, HullEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, HullKineticDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, CapacitySecondary.INSTANCE, HullThermalDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, PosControlTowerPeriod.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ControlTowerLaserDamageBonus.INSTANCE, PrototypingBonus.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, ControlTowerLaserOptimalBonus.INSTANCE, ControlTowerProjectileOptimalBonus.INSTANCE, ControlTowerProjectileFallOffBonus.INSTANCE, ControlTowerProjectileROFBonus.INSTANCE, ControlTowerMissileROFBonus.INSTANCE, ControlTowerSiloCapacityBonus.INSTANCE, ControlTowerHybridDamageBonus.INSTANCE })));
     public static final ControlTower.MetaGroup METAGROUP = new ControlTower.MetaGroup();
 
     @Override
@@ -278,149 +336,154 @@ public class ControlTower
         switch (attribute.getId()) {
             case  266 :
             {
-                return ArmorDamage;
+                return armordamage;
             }
             case  1233 :
             {
-                return CapacitySecondary;
+                return capacitysecondary;
             }
             case  770 :
             {
-                return ControlTowerEwTargetSwitchDelayBonus;
+                return controltowerewtargetswitchdelaybonus;
             }
             case  766 :
             {
-                return ControlTowerHybridDamageBonus;
+                return controltowerhybriddamagebonus;
             }
             case  728 :
             {
-                return ControlTowerLaserDamageBonus;
+                return controltowerlaserdamagebonus;
             }
             case  750 :
             {
-                return ControlTowerLaserOptimalBonus;
+                return controltowerlaseroptimalbonus;
             }
             case  755 :
             {
-                return ControlTowerMissileROFBonus;
+                return controltowermissilerofbonus;
             }
             case  792 :
             {
-                return ControlTowerMissileVelocityBonus;
+                return controltowermissilevelocitybonus;
             }
             case  753 :
             {
-                return ControlTowerProjectileFallOffBonus;
+                return controltowerprojectilefalloffbonus;
             }
             case  752 :
             {
-                return ControlTowerProjectileOptimalBonus;
+                return controltowerprojectileoptimalbonus;
             }
             case  754 :
             {
-                return ControlTowerProjectileROFBonus;
+                return controltowerprojectilerofbonus;
             }
             case  757 :
             {
-                return ControlTowerSiloCapacityBonus;
+                return controltowersilocapacitybonus;
             }
             case  1031 :
             {
-                return ControlTowerSize;
+                return controltowersize;
             }
             case  48 :
             {
-                return CpuOutput;
+                return cpuoutput;
             }
             case  2244 :
             {
-                return FighterAbilityAntiCapitalMissileResistance;
+                return fighterabilityanticapitalmissileresistance;
             }
             case  974 :
             {
-                return HullEmDamageResonance;
+                return hullemdamageresonance;
             }
             case  975 :
             {
-                return HullExplosiveDamageResonance;
+                return hullexplosivedamageresonance;
             }
             case  976 :
             {
-                return HullKineticDamageResonance;
+                return hullkineticdamageresonance;
             }
             case  977 :
             {
-                return HullThermalDamageResonance;
+                return hullthermaldamageresonance;
             }
             case  650 :
             {
-                return MaxStructureDistance;
+                return maxstructuredistance;
             }
             case  76 :
             {
-                return MaxTargetRange;
+                return maxtargetrange;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  711 :
             {
-                return MoonAnchorDistance;
+                return moonanchordistance;
             }
             case  722 :
             {
-                return PosControlTowerPeriod;
+                return poscontroltowerperiod;
             }
             case  1214 :
             {
-                return PosStructureControlDistanceMax;
+                return posstructurecontroldistancemax;
             }
             case  11 :
             {
-                return PowerOutput;
+                return poweroutput;
             }
             case  473 :
             {
-                return PrototypingBonus;
+                return prototypingbonus;
             }
             case  154 :
             {
-                return ProximityRange;
+                return proximityrange;
             }
             case  271 :
             {
-                return ShieldEmDamageResonance;
+                return shieldemdamageresonance;
             }
             case  272 :
             {
-                return ShieldExplosiveDamageResonance;
+                return shieldexplosivedamageresonance;
             }
             case  273 :
             {
-                return ShieldKineticDamageResonance;
+                return shieldkineticdamageresonance;
             }
             case  680 :
             {
-                return ShieldRadius;
+                return shieldradius;
             }
             case  274 :
             {
-                return ShieldThermalDamageResonance;
+                return shieldthermaldamageresonance;
             }
             case  484 :
             {
-                return ShieldUniformity;
+                return shielduniformity;
             }
             case  136 :
             {
-                return Uniformity;
+                return uniformity;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

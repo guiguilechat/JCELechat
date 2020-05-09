@@ -1,182 +1,172 @@
 types:
   Biochemical Reactor Array:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 1.0
-    Cpu: 1250.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 250000
-    Radius: 937.0
-    ReactionGroup1: 662
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 1.0
+    cpu: 1250.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 24684
     marketGroup: 490
-    mass: 1.0E8
     name: Biochemical Reactor Array
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 250000
     published: true
+    radius: 937.0
+    reactiongroup1: 662
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Complex Reactor Array:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 1.0
-    Cpu: 3000.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 250000
-    Radius: 937.0
-    ReactionGroup1: 436
-    ReactionGroup2: 484
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 1.0
+    cpu: 3000.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 16869
     marketGroup: 490
-    mass: 1.0E8
     name: Complex Reactor Array
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 250000
     published: true
+    radius: 937.0
+    reactiongroup1: 436
+    reactiongroup2: 484
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Medium Biochemical Reactor Array:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 1.0
-    Cpu: 750.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 250000
-    Radius: 937.0
-    ReactionGroup1: 661
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 1.0
+    cpu: 750.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 22634
     marketGroup: 490
-    mass: 1.0E8
     name: Medium Biochemical Reactor Array
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 250000
     published: true
+    radius: 937.0
+    reactiongroup1: 661
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Polymer Reactor Array:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 1.0
-    Cpu: 1500.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 125000
-    Radius: 937.0
-    ReactionGroup1: 977
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 1.0
+    cpu: 1500.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 30656
     marketGroup: 490
-    mass: 1.0E8
     name: Polymer Reactor Array
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 125000
     published: true
+    radius: 937.0
+    reactiongroup1: 977
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Simple Reactor Array:
-    AnchoringDelay: 5000
-    AnchoringSecurityLevelMax: 0.4000000059604645
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Capacity: 1.0
-    Cpu: 1500.0
-    DisallowOffensiveModifiers: 1
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    Mass: 1.0E8
-    OnliningDelay: 3000
-    Power: 125000
-    Radius: 937.0
-    ReactionGroup1: 436
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    anchoringsecuritylevelmax: 0.4000000059604645
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 1.0
+    cpu: 1500.0
+    disallowoffensivemodifiers: 1
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 20175
     marketGroup: 490
-    mass: 1.0E8
     name: Simple Reactor Array
+    onliningdelay: 3000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 125000
     published: true
+    radius: 937.0
+    reactiongroup1: 436
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0

@@ -1,190 +1,190 @@
 types:
   Heavy Armor Maintenance Bot I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23524
+    industryblueprintrank: 3.0
     marketGroup: 1030
     name: Heavy Armor Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Heavy Armor Maintenance Bot II Blueprint:
-    IndustryBlueprintRank: 15.0
-    Radius: 1.0
-    TechLevel: 2
     id: 28198
+    industryblueprintrank: 15.0
     name: Heavy Armor Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Heavy Hull Maintenance Bot I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 33672
+    industryblueprintrank: 3.0
     marketGroup: 1030
     name: Heavy Hull Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Heavy Hull Maintenance Bot II Blueprint:
-    IndustryBlueprintRank: 15.0
-    Radius: 1.0
-    TechLevel: 2
     id: 33709
+    industryblueprintrank: 15.0
     name: Heavy Hull Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Heavy Shield Maintenance Bot I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 22766
+    industryblueprintrank: 3.0
     marketGroup: 1030
     name: Heavy Shield Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Heavy Shield Maintenance Bot II Blueprint:
-    IndustryBlueprintRank: 15.0
-    Radius: 1.0
-    TechLevel: 2
     id: 28200
+    industryblueprintrank: 15.0
     name: Heavy Shield Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Light Armor Maintenance Bot I Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23712
+    industryblueprintrank: 1.0
     marketGroup: 1030
     name: Light Armor Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Light Armor Maintenance Bot II Blueprint:
-    IndustryBlueprintRank: 5.0
-    Radius: 1.0
-    TechLevel: 2
     id: 28202
+    industryblueprintrank: 5.0
     name: Light Armor Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Light Hull Maintenance Bot I Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
-    TechLevel: 1
     id: 33707
+    industryblueprintrank: 1.0
     marketGroup: 1030
     name: Light Hull Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Light Hull Maintenance Bot II Blueprint:
-    IndustryBlueprintRank: 5.0
-    Radius: 1.0
-    TechLevel: 2
     id: 33713
+    industryblueprintrank: 5.0
     name: Light Hull Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Light Shield Maintenance Bot I Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23720
+    industryblueprintrank: 1.0
     marketGroup: 1030
     name: Light Shield Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Light Shield Maintenance Bot II Blueprint:
-    IndustryBlueprintRank: 5.0
-    Radius: 1.0
-    TechLevel: 2
     id: 28204
+    industryblueprintrank: 5.0
     name: Light Shield Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Medium Armor Maintenance Bot I Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23710
+    industryblueprintrank: 2.0
     marketGroup: 1030
     name: Medium Armor Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium Armor Maintenance Bot II Blueprint:
-    IndustryBlueprintRank: 10.0
-    Radius: 1.0
-    TechLevel: 2
     id: 28206
+    industryblueprintrank: 10.0
     name: Medium Armor Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Medium Hull Maintenance Bot I Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
-    TechLevel: 1
     id: 33705
+    industryblueprintrank: 2.0
     marketGroup: 1030
     name: Medium Hull Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium Hull Maintenance Bot II Blueprint:
-    IndustryBlueprintRank: 10.0
-    Radius: 1.0
-    TechLevel: 2
     id: 33711
+    industryblueprintrank: 10.0
     name: Medium Hull Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Medium Shield Maintenance Bot I Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23718
+    industryblueprintrank: 2.0
     marketGroup: 1030
     name: Medium Shield Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium Shield Maintenance Bot II Blueprint:
-    IndustryBlueprintRank: 10.0
-    Radius: 1.0
-    TechLevel: 2
     id: 28208
+    industryblueprintrank: 10.0
     name: Medium Shield Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

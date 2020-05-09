@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.subsystem;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,42 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHPBonusAdd;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CargoCapacityAdd;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CloakingCpuNeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CovertCloakCPUPenalty;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CovertOpsAndReconOpsCloakModuleDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FitsToShipType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpHarmonicsModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureHPBonusAdd;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubSystemSlot;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrDefensive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrDefensive2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusAmarrDefensive3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariDefensive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariDefensive2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusCaldariDefensive3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteDefensive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteDefensive2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusGallenteDefensive3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarDefensive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarDefensive2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SubsystemBonusMinmatarDefensive3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.VirusStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Subsystem;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,161 +62,162 @@ public class DefensiveSubsystem
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ArmorHPBonusAdd;
+    public int armorhpbonusadd;
     /**
      * Capacitor capacity
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorCapacity;
+    public double capacitorcapacity;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CargoCapacityAdd;
+    public int cargocapacityadd;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CloakingCpuNeedBonus;
+    public double cloakingcpuneedbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CovertCloakCPUPenalty;
+    public int covertcloakcpupenalty;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(30000)
-    public int CovertOpsAndReconOpsCloakModuleDelay;
+    public int covertopsandreconopscloakmoduledelay;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int JumpHarmonicsModifier;
+    public int jumpharmonicsmodifier;
     /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShieldCapacity;
+    public double shieldcapacity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(100.0)
-    public double SignatureRadius;
+    public double signatureradius;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StructureHPBonusAdd;
+    public int structurehpbonusadd;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusAmarrDefensive;
+    public double subsystembonusamarrdefensive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusAmarrDefensive2;
+    public int subsystembonusamarrdefensive2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusAmarrDefensive3;
+    public double subsystembonusamarrdefensive3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusCaldariDefensive;
+    public double subsystembonuscaldaridefensive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusCaldariDefensive2;
+    public int subsystembonuscaldaridefensive2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusCaldariDefensive3;
+    public double subsystembonuscaldaridefensive3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusGallenteDefensive;
+    public double subsystembonusgallentedefensive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusGallenteDefensive2;
+    public int subsystembonusgallentedefensive2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusGallenteDefensive3;
+    public double subsystembonusgallentedefensive3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusMinmatarDefensive;
+    public double subsystembonusminmatardefensive;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int SubsystemBonusMinmatarDefensive2;
+    public int subsystembonusminmatardefensive2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SubsystemBonusMinmatarDefensive3;
+    public double subsystembonusminmatardefensive3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int VirusStrengthBonus;
+    public int virusstrengthbonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {StructureHPBonusAdd.INSTANCE, CargoCapacityAdd.INSTANCE, Mass.INSTANCE, JumpHarmonicsModifier.INSTANCE, ShieldCapacity.INSTANCE, ArmorHPBonusAdd.INSTANCE, CloakingCpuNeedBonus.INSTANCE, Hp.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, CovertCloakCPUPenalty.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrDefensive.INSTANCE, SubsystemBonusGallenteDefensive.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, LowSlotModifier.INSTANCE, CapacitorCapacity.INSTANCE, Radius.INSTANCE, SubsystemBonusAmarrDefensive2 .INSTANCE, SubsystemBonusCaldariDefensive.INSTANCE, FitsToShipType.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusMinmatarDefensive.INSTANCE, SubsystemBonusCaldariDefensive2 .INSTANCE, SubsystemBonusGallenteDefensive2 .INSTANCE, SubsystemBonusMinmatarDefensive2 .INSTANCE, RequiredSkill1 .INSTANCE, SubsystemBonusAmarrDefensive3 .INSTANCE, MetaLevel.INSTANCE, SubsystemBonusCaldariDefensive3 .INSTANCE, SubsystemBonusGallenteDefensive3 .INSTANCE, VirusStrengthBonus.INSTANCE, SubsystemBonusMinmatarDefensive3 .INSTANCE })));
     public static final DefensiveSubsystem.MetaGroup METAGROUP = new DefensiveSubsystem.MetaGroup();
 
     @Override
@@ -185,101 +225,106 @@ public class DefensiveSubsystem
         switch (attribute.getId()) {
             case  1159 :
             {
-                return ArmorHPBonusAdd;
+                return armorhpbonusadd;
             }
             case  482 :
             {
-                return CapacitorCapacity;
+                return capacitorcapacity;
             }
             case  2689 :
             {
-                return CargoCapacityAdd;
+                return cargocapacityadd;
             }
             case  649 :
             {
-                return CloakingCpuNeedBonus;
+                return cloakingcpuneedbonus;
             }
             case  1871 :
             {
-                return CovertCloakCPUPenalty;
+                return covertcloakcpupenalty;
             }
             case  1034 :
             {
-                return CovertOpsAndReconOpsCloakModuleDelay;
+                return covertopsandreconopscloakmoduledelay;
             }
             case  1541 :
             {
-                return JumpHarmonicsModifier;
+                return jumpharmonicsmodifier;
             }
             case  263 :
             {
-                return ShieldCapacity;
+                return shieldcapacity;
             }
             case  552 :
             {
-                return SignatureRadius;
+                return signatureradius;
             }
             case  2688 :
             {
-                return StructureHPBonusAdd;
+                return structurehpbonusadd;
             }
             case  1433 :
             {
-                return SubsystemBonusAmarrDefensive;
+                return subsystembonusamarrdefensive;
             }
             case  1507 :
             {
-                return SubsystemBonusAmarrDefensive2;
+                return subsystembonusamarrdefensive2;
             }
             case  2680 :
             {
-                return SubsystemBonusAmarrDefensive3;
+                return subsystembonusamarrdefensive3;
             }
             case  1443 :
             {
-                return SubsystemBonusCaldariDefensive;
+                return subsystembonuscaldaridefensive;
             }
             case  1516 :
             {
-                return SubsystemBonusCaldariDefensive2;
+                return subsystembonuscaldaridefensive2;
             }
             case  2682 :
             {
-                return SubsystemBonusCaldariDefensive3;
+                return subsystembonuscaldaridefensive3;
             }
             case  1438 :
             {
-                return SubsystemBonusGallenteDefensive;
+                return subsystembonusgallentedefensive;
             }
             case  1517 :
             {
-                return SubsystemBonusGallenteDefensive2;
+                return subsystembonusgallentedefensive2;
             }
             case  2684 :
             {
-                return SubsystemBonusGallenteDefensive3;
+                return subsystembonusgallentedefensive3;
             }
             case  1448 :
             {
-                return SubsystemBonusMinmatarDefensive;
+                return subsystembonusminmatardefensive;
             }
             case  1526 :
             {
-                return SubsystemBonusMinmatarDefensive2;
+                return subsystembonusminmatardefensive2;
             }
             case  2686 :
             {
-                return SubsystemBonusMinmatarDefensive3;
+                return subsystembonusminmatardefensive3;
             }
             case  1918 :
             {
-                return VirusStrengthBonus;
+                return virusstrengthbonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

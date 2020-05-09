@@ -1,149 +1,141 @@
 types:
   Ballistic Deflection Array:
-    AnchoringDelay: 5000
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Cpu: 250.0
-    DisallowOffensiveModifiers: 1
-    EmDamageResonanceMultiplier: 1.0
-    ExplosiveDamageResonanceMultiplier: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    KineticDamageResonanceMultiplier: 0.75
-    Mass: 1.0E8
-    OnliningDelay: 120000
-    Power: 150000
-    Radius: 750.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    ThermalDamageResonanceMultiplier: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    cpu: 250.0
+    disallowoffensivemodifiers: 1
+    emdamageresonancemultiplier: 1.0
+    explosivedamageresonancemultiplier: 1.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 17184
+    kineticdamageresonancemultiplier: 0.75
     marketGroup: 485
-    mass: 1.0E8
     name: Ballistic Deflection Array
+    onliningdelay: 120000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 150000
     published: true
+    radius: 750.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    thermaldamageresonancemultiplier: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Explosion Dampening Array:
-    AnchoringDelay: 5000
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Cpu: 250.0
-    DisallowOffensiveModifiers: 1
-    EmDamageResonanceMultiplier: 1.0
-    ExplosiveDamageResonanceMultiplier: 0.75
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    KineticDamageResonanceMultiplier: 1.0
-    Mass: 1.0E8
-    OnliningDelay: 120000
-    Power: 150000
-    Radius: 750.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    ThermalDamageResonanceMultiplier: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    cpu: 250.0
+    disallowoffensivemodifiers: 1
+    emdamageresonancemultiplier: 1.0
+    explosivedamageresonancemultiplier: 0.75
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 17185
+    kineticdamageresonancemultiplier: 1.0
     marketGroup: 485
-    mass: 1.0E8
     name: Explosion Dampening Array
+    onliningdelay: 120000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 150000
     published: true
+    radius: 750.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    thermaldamageresonancemultiplier: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Heat Dissipation Array:
-    AnchoringDelay: 5000
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Cpu: 250.0
-    DisallowOffensiveModifiers: 1
-    EmDamageResonanceMultiplier: 1.0
-    ExplosiveDamageResonanceMultiplier: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    KineticDamageResonanceMultiplier: 1.0
-    Mass: 1.0E8
-    OnliningDelay: 120000
-    Power: 150000
-    Radius: 750.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    ThermalDamageResonanceMultiplier: 0.75
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    cpu: 250.0
+    disallowoffensivemodifiers: 1
+    emdamageresonancemultiplier: 1.0
+    explosivedamageresonancemultiplier: 1.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 17186
+    kineticdamageresonancemultiplier: 1.0
     marketGroup: 485
-    mass: 1.0E8
     name: Heat Dissipation Array
+    onliningdelay: 120000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 150000
     published: true
+    radius: 750.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    thermaldamageresonancemultiplier: 0.75
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0
   Photon Scattering Array:
-    AnchoringDelay: 5000
-    ArmorHP: 20000.0
-    ArmorUniformity: 0.75
-    Cpu: 250.0
-    DisallowOffensiveModifiers: 1
-    EmDamageResonanceMultiplier: 0.75
-    ExplosiveDamageResonanceMultiplier: 1.0
-    FighterAbilityAntiCapitalMissileResistance: 1
-    Hp: 10000.0
-    KineticDamageResonanceMultiplier: 1.0
-    Mass: 1.0E8
-    OnliningDelay: 120000
-    Power: 150000
-    Radius: 750.0
-    RequiredSkill1: 11584
-    RequiredSkill1Level: 2
-    ScanGravimetricStrength: 200.0
-    ScanLadarStrength: 200.0
-    ScanMagnetometricStrength: 200.0
-    ScanRadarStrength: 200.0
-    ShieldCapacity: 20000.0
-    ShieldRechargeRate: 800000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 2000.0
-    StructureUniformity: 1.0
-    ThermalDamageResonanceMultiplier: 1.0
-    UnanchoringDelay: 5000
-    Uniformity: 1.0
+    anchoringdelay: 5000
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    cpu: 250.0
+    disallowoffensivemodifiers: 1
+    emdamageresonancemultiplier: 0.75
+    explosivedamageresonancemultiplier: 1.0
+    fighterabilityanticapitalmissileresistance: 1
+    hp: 10000.0
     id: 17187
+    kineticdamageresonancemultiplier: 1.0
     marketGroup: 485
-    mass: 1.0E8
     name: Photon Scattering Array
+    onliningdelay: 120000
     packagedVolume: 4000.0
     portionSize: 1
+    power: 150000
     published: true
+    radius: 750.0
+    requiredskill1: 11584
+    requiredskill1level: 2
+    scangravimetricstrength: 200.0
+    scanladarstrength: 200.0
+    scanmagnetometricstrength: 200.0
+    scanradarstrength: 200.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 800000.0
+    shielduniformity: 0.75
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    thermaldamageresonancemultiplier: 1.0
+    unanchoringdelay: 5000
+    uniformity: 1.0
     volume: 4000.0

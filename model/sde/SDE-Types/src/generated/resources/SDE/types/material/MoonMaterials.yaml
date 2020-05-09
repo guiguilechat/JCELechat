@@ -1,233 +1,201 @@
 types:
   Atmospheric Gases:
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16634
     marketGroup: 501
+    moonminingamount: 100
     name: Atmospheric Gases
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Cadmium:
-    Mass: 3476.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16643
     marketGroup: 501
-    mass: 3476.0
+    moonminingamount: 100
     name: Cadmium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Caesium:
-    Mass: 1544.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16647
     marketGroup: 501
-    mass: 1544.0
+    moonminingamount: 100
     name: Caesium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Chromium:
-    Mass: 4290.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16641
     marketGroup: 501
-    mass: 4290.0
+    moonminingamount: 100
     name: Chromium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Cobalt:
-    Mass: 3544.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16640
     marketGroup: 501
-    mass: 3544.0
+    moonminingamount: 100
     name: Cobalt
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Dysprosium:
-    Mass: 8550.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16650
     marketGroup: 501
-    mass: 8550.0
+    moonminingamount: 100
     name: Dysprosium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Evaporite Deposits:
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16635
     marketGroup: 501
+    moonminingamount: 100
     name: Evaporite Deposits
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Hafnium:
-    Mass: 10640.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16648
     marketGroup: 501
-    mass: 10640.0
+    moonminingamount: 100
     name: Hafnium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Hydrocarbons:
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16633
     marketGroup: 501
+    moonminingamount: 100
     name: Hydrocarbons
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Mercury:
-    Mass: 10826.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16646
     marketGroup: 501
-    mass: 10826.0
+    moonminingamount: 100
     name: Mercury
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Neodymium:
-    Mass: 7010.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16651
     marketGroup: 501
-    mass: 7010.0
+    moonminingamount: 100
     name: Neodymium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Platinum:
-    Mass: 21460.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16644
     marketGroup: 501
-    mass: 21460.0
+    moonminingamount: 100
     name: Platinum
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Promethium:
-    Mass: 7260.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16652
     marketGroup: 501
-    mass: 7260.0
+    moonminingamount: 100
     name: Promethium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Scandium:
-    Mass: 1196.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16639
     marketGroup: 501
-    mass: 1196.0
+    moonminingamount: 100
     name: Scandium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Silicates:
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16636
     marketGroup: 501
+    moonminingamount: 100
     name: Silicates
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Technetium:
-    Mass: 8800.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16649
     marketGroup: 501
-    mass: 8800.0
+    moonminingamount: 100
     name: Technetium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Thulium:
-    Mass: 9320.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16653
     marketGroup: 501
-    mass: 9320.0
+    moonminingamount: 100
     name: Thulium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Titanium:
-    Mass: 1800.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16638
     marketGroup: 501
-    mass: 1800.0
+    moonminingamount: 100
     name: Titanium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Tungsten:
-    Mass: 7720.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16637
     marketGroup: 501
-    mass: 7720.0
+    moonminingamount: 100
     name: Tungsten
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806
   Vanadium:
-    Mass: 6000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 16642
     marketGroup: 501
-    mass: 6000.0
+    moonminingamount: 100
     name: Vanadium
     packagedVolume: 0.05000000074505806
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.05000000074505806

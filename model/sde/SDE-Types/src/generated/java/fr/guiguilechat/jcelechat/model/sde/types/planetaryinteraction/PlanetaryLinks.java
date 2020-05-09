@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,16 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoadLevelModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoadPerKm;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LogisticalCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoadLevelModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoadPerKm;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryInteraction;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,49 +36,50 @@ public class PlanetaryLinks
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CpuLoad;
+    public int cpuload;
     /**
      * Used to calculate cpu load multiplier for PI links
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CpuLoadLevelModifier;
+    public double cpuloadlevelmodifier;
     /**
      * CPU Usage per kilometer
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CpuLoadPerKm;
+    public double cpuloadperkm;
     /**
      * Transport capacity (bandwidth) in m3 per hour.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LogisticalCapacity;
+    public int logisticalcapacity;
     /**
      * Current load of power core
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PowerLoad;
+    public int powerload;
     /**
      * Power load multiplier for PI link levels
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double PowerLoadLevelModifier;
+    public double powerloadlevelmodifier;
     /**
      * Megawatts per kilometer
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double PowerLoadPerKm;
+    public double powerloadperkm;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PowerLoadPerKm.INSTANCE, CpuLoad.INSTANCE, CpuLoadPerKm.INSTANCE, Radius.INSTANCE, CpuLoadLevelModifier.INSTANCE, PowerLoadLevelModifier.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, PowerLoad.INSTANCE, LogisticalCapacity.INSTANCE })));
     public static final PlanetaryLinks.MetaGroup METAGROUP = new PlanetaryLinks.MetaGroup();
 
     @Override
@@ -73,37 +87,42 @@ public class PlanetaryLinks
         switch (attribute.getId()) {
             case  49 :
             {
-                return CpuLoad;
+                return cpuload;
             }
             case  1635 :
             {
-                return CpuLoadLevelModifier;
+                return cpuloadlevelmodifier;
             }
             case  1634 :
             {
-                return CpuLoadPerKm;
+                return cpuloadperkm;
             }
             case  1631 :
             {
-                return LogisticalCapacity;
+                return logisticalcapacity;
             }
             case  15 :
             {
-                return PowerLoad;
+                return powerload;
             }
             case  1636 :
             {
-                return PowerLoadLevelModifier;
+                return powerloadlevelmodifier;
             }
             case  1633 :
             {
-                return PowerLoadPerKm;
+                return powerloadperkm;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

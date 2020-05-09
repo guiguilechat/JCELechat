@@ -1,74 +1,74 @@
 types:
   Advanced Planetology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 2406
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 2403
     marketGroup: 1823
     name: Advanced Planetology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 2406
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Command Center Upgrades:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 2505
     marketGroup: 1823
     name: Command Center Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    secondaryattribute: 165
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Interplanetary Consolidation:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 164
-    Radius: 1.0
-    SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 2495
     marketGroup: 1823
     name: Interplanetary Consolidation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    secondaryattribute: 165
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Planetology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 13279
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3402
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 2406
     marketGroup: 1823
     name: Planetology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 13279
+    requiredskill1level: 3
+    requiredskill2: 3402
+    requiredskill2level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Remote Sensing:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
     id: 13279
     marketGroup: 1823
     name: Remote Sensing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582

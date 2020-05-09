@@ -1,75 +1,75 @@
 types:
   Caiman Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 45646
+    industryjobcostmultiplier: 1
     name: Caiman Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
   Chemosh Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 45044
+    industryjobcostmultiplier: 1
     name: Chemosh Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
   Moros Blueprint:
-    IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
     id: 19725
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
     marketGroup: 785
     name: Moros Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Naglfar Blueprint:
-    IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
     id: 19723
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
     marketGroup: 786
     name: Naglfar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Phoenix Blueprint:
-    IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
     id: 19727
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
     marketGroup: 784
     name: Phoenix Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Revelation Blueprint:
-    IndustryBlueprintRank: 200.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
     id: 19721
+    industryblueprintrank: 200.0
+    industryjobcostmultiplier: 1
     marketGroup: 783
     name: Revelation Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Vehement Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 42136
+    industryjobcostmultiplier: 1
     name: Vehement Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
   Zirnitra Blueprint:
-    IndustryJobCostMultiplier: 1
     id: 53029
+    industryjobcostmultiplier: 1
     name: Zirnitra Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1

@@ -1,143 +1,143 @@
 types:
   '''Chivalry'' Large Remote Capacitor Transmitter Blueprint':
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23857
+    industryblueprintrank: 6.0
     name: '''Chivalry'' Large Remote Capacitor Transmitter Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   '''Knight'' Medium Remote Capacitor Transmitter Blueprint':
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23855
+    industryblueprintrank: 6.0
     name: '''Knight'' Medium Remote Capacitor Transmitter Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   '''Squire'' Small Remote Capacitor Transmitter Blueprint':
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23853
+    industryblueprintrank: 3.0
     name: '''Squire'' Small Remote Capacitor Transmitter Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   CONCORD Capital Remote Capacitor Transmitter Blueprint:
-    IndustryBlueprintRank: 120.0
-    Radius: 1.0
-    TechLevel: 1
     id: 3580
+    industryblueprintrank: 120.0
     name: CONCORD Capital Remote Capacitor Transmitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Inductive Compact Remote Capacitor Transmitter Blueprint:
-    TechLevel: 1
     id: 41698
     marketGroup: 1562
     name: Capital Inductive Compact Remote Capacitor Transmitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Radiative Scoped Remote Capacitor Transmitter Blueprint:
-    TechLevel: 1
     id: 41697
     marketGroup: 1562
     name: Capital Radiative Scoped Remote Capacitor Transmitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Remote Capacitor Transmitter I Blueprint:
-    IndustryBlueprintRank: 120.0
-    Radius: 1.0
-    TechLevel: 1
     id: 12220
+    industryblueprintrank: 120.0
     marketGroup: 1562
     name: Capital Remote Capacitor Transmitter I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Remote Capacitor Transmitter II Blueprint:
-    IndustryBlueprintRank: 312.0
-    Radius: 1.0
-    TechLevel: 2
     id: 12224
+    industryblueprintrank: 312.0
     name: Capital Remote Capacitor Transmitter II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Large Remote Capacitor Transmitter I Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 12226
+    industryblueprintrank: 9.0
     marketGroup: 1562
     name: Large Remote Capacitor Transmitter I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Large Remote Capacitor Transmitter II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    Radius: 1.0
-    TechLevel: 2
     id: 12103
+    industryblueprintrank: 23.399999618530273
     name: Large Remote Capacitor Transmitter II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Medium Remote Capacitor Transmitter I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 12218
+    industryblueprintrank: 6.0
     marketGroup: 1562
     name: Medium Remote Capacitor Transmitter I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium Remote Capacitor Transmitter II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 12222
+    industryblueprintrank: 15.600000381469727
     name: Medium Remote Capacitor Transmitter II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Small Remote Capacitor Transmitter I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 1105
+    industryblueprintrank: 3.0
     marketGroup: 1562
     name: Small Remote Capacitor Transmitter I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Small Remote Capacitor Transmitter II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 1191
+    industryblueprintrank: 7.800000190734863
     name: Small Remote Capacitor Transmitter II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

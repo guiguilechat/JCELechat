@@ -1,351 +1,351 @@
 types:
   Cybernetic Subprocessor - Basic:
-    Implantness: 4
-    IntelligenceBonus: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 9943
+    implantness: 4
+    intelligencebonus: 3
     marketGroup: 621
     name: Cybernetic Subprocessor - Basic
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Cybernetic Subprocessor - Improved:
-    Implantness: 4
-    IntelligenceBonus: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
     id: 10222
+    implantness: 4
+    intelligencebonus: 5
     marketGroup: 621
     name: Cybernetic Subprocessor - Improved
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Cybernetic Subprocessor - Standard:
-    Implantness: 4
-    IntelligenceBonus: 4
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 1
     id: 10221
+    implantness: 4
+    intelligencebonus: 4
     marketGroup: 621
     name: Cybernetic Subprocessor - Standard
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
     volume: 1.0
   Limited Cybernetic Subprocessor:
-    Implantness: 4
-    IntelligenceBonus: 1
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 13287
+    implantness: 4
+    intelligencebonus: 1
     marketGroup: 621
     name: Limited Cybernetic Subprocessor
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Limited Cybernetic Subprocessor - Beta:
-    Implantness: 4
-    IntelligenceBonus: 2
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 14298
+    implantness: 4
+    intelligencebonus: 2
     marketGroup: 621
     name: Limited Cybernetic Subprocessor - Beta
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Limited Memory Augmentation:
-    Implantness: 2
-    MemoryBonus: 1
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 13284
+    implantness: 2
     marketGroup: 619
+    memorybonus: 1
     name: Limited Memory Augmentation
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Limited Memory Augmentation - Beta:
-    Implantness: 2
-    MemoryBonus: 2
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 14297
+    implantness: 2
     marketGroup: 619
+    memorybonus: 2
     name: Limited Memory Augmentation - Beta
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Limited Neural Boost:
-    Implantness: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    WillpowerBonus: 1
     id: 13285
+    implantness: 3
     marketGroup: 620
     name: Limited Neural Boost
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
+    willpowerbonus: 1
   Limited Neural Boost - Beta:
-    Implantness: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    WillpowerBonus: 2
     id: 14296
+    implantness: 3
     marketGroup: 620
     name: Limited Neural Boost - Beta
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
+    willpowerbonus: 2
   Limited Ocular Filter:
-    Implantness: 1
-    PerceptionBonus: 1
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 13283
+    implantness: 1
     marketGroup: 618
     name: Limited Ocular Filter
     packagedVolume: 1.0
+    perceptionbonus: 1
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Limited Ocular Filter - Beta:
-    Implantness: 1
-    PerceptionBonus: 2
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 14295
+    implantness: 1
     marketGroup: 618
     name: Limited Ocular Filter - Beta
     packagedVolume: 1.0
+    perceptionbonus: 2
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Limited Social Adaptation Chip:
-    CharismaBonus: 1
-    Implantness: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    charismabonus: 1
     id: 13286
+    implantness: 5
     marketGroup: 622
     name: Limited Social Adaptation Chip
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Limited Social Adaptation Chip - Beta:
-    CharismaBonus: 2
-    Implantness: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    charismabonus: 2
     id: 14299
+    implantness: 5
     marketGroup: 622
     name: Limited Social Adaptation Chip - Beta
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Memory Augmentation - Basic:
-    Implantness: 2
-    MemoryBonus: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 9941
+    implantness: 2
     marketGroup: 619
+    memorybonus: 3
     name: Memory Augmentation - Basic
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Memory Augmentation - Improved:
-    Implantness: 2
-    MemoryBonus: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
     id: 10209
+    implantness: 2
     marketGroup: 619
+    memorybonus: 5
     name: Memory Augmentation - Improved
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Memory Augmentation - Standard:
-    Implantness: 2
-    MemoryBonus: 4
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 1
     id: 10208
+    implantness: 2
     marketGroup: 619
+    memorybonus: 4
     name: Memory Augmentation - Standard
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
     volume: 1.0
   Neural Boost - Basic:
-    Implantness: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
-    WillpowerBonus: 3
     id: 9942
+    implantness: 3
     marketGroup: 620
     name: Neural Boost - Basic
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
+    willpowerbonus: 3
   Neural Boost - Improved:
-    Implantness: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
-    WillpowerBonus: 5
     id: 10213
+    implantness: 3
     marketGroup: 620
     name: Neural Boost - Improved
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
+    willpowerbonus: 5
   Neural Boost - Standard:
-    Implantness: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 1
-    WillpowerBonus: 4
     id: 10212
+    implantness: 3
     marketGroup: 620
     name: Neural Boost - Standard
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
     volume: 1.0
+    willpowerbonus: 4
   Ocular Filter - Basic:
-    Implantness: 1
-    PerceptionBonus: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 9899
+    implantness: 1
     marketGroup: 618
     name: Ocular Filter - Basic
     packagedVolume: 1.0
+    perceptionbonus: 3
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Ocular Filter - Improved:
-    Implantness: 1
-    PerceptionBonus: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
     id: 10217
+    implantness: 1
     marketGroup: 618
     name: Ocular Filter - Improved
     packagedVolume: 1.0
+    perceptionbonus: 5
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Ocular Filter - Standard:
-    Implantness: 1
-    PerceptionBonus: 4
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 1
     id: 10216
+    implantness: 1
     marketGroup: 618
     name: Ocular Filter - Standard
     packagedVolume: 1.0
+    perceptionbonus: 4
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
     volume: 1.0
   Social Adaptation Chip - Basic:
-    CharismaBonus: 3
-    Implantness: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    charismabonus: 3
     id: 9956
+    implantness: 5
     marketGroup: 622
     name: Social Adaptation Chip - Basic
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Social Adaptation Chip - Improved:
-    CharismaBonus: 5
-    Implantness: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
+    charismabonus: 5
     id: 10226
+    implantness: 5
     marketGroup: 622
     name: Social Adaptation Chip - Improved
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Social Adaptation Chip - Standard:
-    CharismaBonus: 4
-    Implantness: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    TechLevel: 1
+    charismabonus: 4
     id: 10225
+    implantness: 5
     marketGroup: 622
     name: Social Adaptation Chip - Standard
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    techlevel: 1
     volume: 1.0

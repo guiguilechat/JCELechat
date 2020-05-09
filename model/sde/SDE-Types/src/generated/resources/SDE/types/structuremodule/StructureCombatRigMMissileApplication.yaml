@@ -1,55 +1,51 @@
 types:
   Standup M-Set Missile Precision I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.2000000476837158
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 1.2000000476837158
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    StructureRigMissileExploVeloBonus: 30
-    TechLevel: 1
-    UpgradeCost: 100
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 37216
+    lowsecmodifier: 1.2000000476837158
     marketGroup: 2344
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Missile Precision I
+    nullsecmodifier: 1.2000000476837158
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    structurerigmissileexplovelobonus: 30
+    techlevel: 1
+    upgradecost: 100
     volume: 10.0
   Standup M-Set Missile Precision II:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.2000000476837158
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 1.2000000476837158
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    StructureRigMissileExploVeloBonus: 35
-    TechLevel: 2
-    UpgradeCost: 150
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 37217
+    lowsecmodifier: 1.2000000476837158
     marketGroup: 2344
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Missile Precision II
+    nullsecmodifier: 1.2000000476837158
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    structurerigmissileexplovelobonus: 35
+    techlevel: 2
+    upgradecost: 150
     volume: 10.0

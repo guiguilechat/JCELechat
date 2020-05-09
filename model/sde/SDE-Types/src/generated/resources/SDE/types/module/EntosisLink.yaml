@@ -1,186 +1,186 @@
 types:
   Affirmative. Modified Entosis Link:
-    CanCloak: 1
-    CapacitorNeed: 20.0
-    ConsumptionQuantity: 1
-    ConsumptionType: 16275
-    Cpu: 1.0
-    Duration: 300000.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1
-    MaxRange: 20000.0
-    MetaLevel: 1
-    Power: 10
-    Radius: 1.0
-    RequiredSkill1: 24242
-    RequiredSkill1Level: 2
-    ScanGravimetricStrengthPercent: 100
-    ScanLadarStrengthPercent: 100
-    ScanMagnetometricStrengthPercent: 100
-    ScanRadarStrengthPercent: 100
-    SiegeModeWarpStatus: 100
-    Slots: 1
-    SpeedLimit: 4000
-    TechLevel: 1
+    cancloak: 1
+    capacitorneed: 20.0
+    consumptionquantity: 1
+    consumptiontype: 16275
+    cpu: 1.0
+    duration: 300000.0
+    entosisassistanceimpedancemultiplier: 1.0
+    hp: 9999999.0
     id: 40309
     marketGroup: 2018
+    maxgroupfitted: 1
+    maxrange: 20000.0
+    metalevel: 1
     name: Affirmative. Modified Entosis Link
     packagedVolume: 10.0
     portionSize: 1
+    power: 10
     published: true
+    radius: 1.0
+    requiredskill1: 24242
+    requiredskill1level: 2
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    siegemodewarpstatus: 100
+    slots: 1
+    speedlimit: 4000
+    techlevel: 1
     volume: 10.0
   Entosis Link I:
-    CanCloak: 1
-    CapacitorNeed: 50.0
-    ConsumptionQuantity: 1
-    ConsumptionType: 16275
-    Cpu: 1.0
-    Duration: 300000.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1
-    MaxRange: 20000.0
-    Power: 10
-    Radius: 1.0
-    RequiredSkill1: 24242
-    RequiredSkill1Level: 2
-    ScanGravimetricStrengthPercent: 100
-    ScanLadarStrengthPercent: 100
-    ScanMagnetometricStrengthPercent: 100
-    ScanRadarStrengthPercent: 100
-    SiegeModeWarpStatus: 100
-    Slots: 1
-    SpeedLimit: 4000
-    TechLevel: 1
+    cancloak: 1
+    capacitorneed: 50.0
+    consumptionquantity: 1
+    consumptiontype: 16275
+    cpu: 1.0
+    duration: 300000.0
+    entosisassistanceimpedancemultiplier: 1.0
+    hp: 9999999.0
     id: 34593
     marketGroup: 2018
+    maxgroupfitted: 1
+    maxrange: 20000.0
     name: Entosis Link I
     packagedVolume: 20.0
     portionSize: 1
+    power: 10
     published: true
+    radius: 1.0
+    requiredskill1: 24242
+    requiredskill1level: 2
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    siegemodewarpstatus: 100
+    slots: 1
+    speedlimit: 4000
+    techlevel: 1
     volume: 20.0
   Entosis Link II:
-    CanCloak: 1
-    CapacitorNeed: 500.0
-    ConsumptionQuantity: 1
-    ConsumptionType: 16275
-    Cpu: 5.0
-    Duration: 120000.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1
-    MaxRange: 50000.0
-    MetaLevel: 5
-    Power: 20
-    Radius: 1.0
-    RequiredSkill1: 24242
-    RequiredSkill1Level: 4
-    ScanGravimetricStrengthPercent: 100
-    ScanLadarStrengthPercent: 100
-    ScanMagnetometricStrengthPercent: 100
-    ScanRadarStrengthPercent: 100
-    SiegeModeWarpStatus: 100
-    Slots: 1
-    SpeedLimit: 4000
-    TechLevel: 2
+    cancloak: 1
+    capacitorneed: 500.0
+    consumptionquantity: 1
+    consumptiontype: 16275
+    cpu: 5.0
+    duration: 120000.0
+    entosisassistanceimpedancemultiplier: 1.0
+    hp: 9999999.0
     id: 34595
     marketGroup: 2018
+    maxgroupfitted: 1
+    maxrange: 50000.0
+    metalevel: 5
     name: Entosis Link II
     packagedVolume: 20.0
     portionSize: 1
+    power: 20
     published: true
+    radius: 1.0
+    requiredskill1: 24242
+    requiredskill1level: 4
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    siegemodewarpstatus: 100
+    slots: 1
+    speedlimit: 4000
+    techlevel: 2
     volume: 20.0
   Noir. Modified Entosis Link:
-    CanCloak: 1
-    CapacitorNeed: 50.0
-    ConsumptionQuantity: 1
-    ConsumptionType: 16275
-    Cpu: 1.0
-    Duration: 300000.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1
-    MaxRange: 20000.0
-    MetaLevel: 1
-    Power: 10
-    Radius: 1.0
-    RequiredSkill1: 24242
-    RequiredSkill1Level: 2
-    ScanGravimetricStrengthPercent: 100
-    ScanLadarStrengthPercent: 100
-    ScanMagnetometricStrengthPercent: 100
-    ScanRadarStrengthPercent: 100
-    SiegeModeWarpStatus: 100
-    Slots: 1
-    SpeedLimit: 4200
-    TechLevel: 1
+    cancloak: 1
+    capacitorneed: 50.0
+    consumptionquantity: 1
+    consumptiontype: 16275
+    cpu: 1.0
+    duration: 300000.0
+    entosisassistanceimpedancemultiplier: 1.0
+    hp: 9999999.0
     id: 40307
     marketGroup: 2018
+    maxgroupfitted: 1
+    maxrange: 20000.0
+    metalevel: 1
     name: Noir. Modified Entosis Link
     packagedVolume: 10.0
     portionSize: 1
+    power: 10
     published: true
+    radius: 1.0
+    requiredskill1: 24242
+    requiredskill1level: 2
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    siegemodewarpstatus: 100
+    slots: 1
+    speedlimit: 4200
+    techlevel: 1
     volume: 10.0
   Pandemic SPHERE Modified Entosis Link:
-    CanCloak: 1
-    CapacitorNeed: 50.0
-    ConsumptionQuantity: 1
-    ConsumptionType: 16275
-    Cpu: 1.0
-    Duration: 300000.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1
-    MaxRange: 24000.0
-    MetaLevel: 1
-    Power: 10
-    Radius: 1.0
-    RequiredSkill1: 24242
-    RequiredSkill1Level: 2
-    ScanGravimetricStrengthPercent: 100
-    ScanLadarStrengthPercent: 100
-    ScanMagnetometricStrengthPercent: 100
-    ScanRadarStrengthPercent: 100
-    SiegeModeWarpStatus: 100
-    Slots: 1
-    SpeedLimit: 4000
-    TechLevel: 1
+    cancloak: 1
+    capacitorneed: 50.0
+    consumptionquantity: 1
+    consumptiontype: 16275
+    cpu: 1.0
+    duration: 300000.0
+    entosisassistanceimpedancemultiplier: 1.0
+    hp: 9999999.0
     id: 40310
     marketGroup: 2018
+    maxgroupfitted: 1
+    maxrange: 24000.0
+    metalevel: 1
     name: Pandemic SPHERE Modified Entosis Link
     packagedVolume: 10.0
     portionSize: 1
+    power: 10
     published: true
+    radius: 1.0
+    requiredskill1: 24242
+    requiredskill1level: 2
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    siegemodewarpstatus: 100
+    slots: 1
+    speedlimit: 4000
+    techlevel: 1
     volume: 10.0
   Spectre Fleet's Modified Entosis Link:
-    CanCloak: 1
-    CapacitorNeed: 50.0
-    ConsumptionQuantity: 1
-    ConsumptionType: 16275
-    Cpu: 1.0
-    Duration: 300000.0
-    EntosisAssistanceImpedanceMultiplier: 1.0
-    Hp: 9999999.0
-    MaxGroupFitted: 1
-    MaxRange: 20000.0
-    MetaLevel: 1
-    Power: 7
-    Radius: 1.0
-    RequiredSkill1: 24242
-    RequiredSkill1Level: 2
-    ScanGravimetricStrengthPercent: 100
-    ScanLadarStrengthPercent: 100
-    ScanMagnetometricStrengthPercent: 100
-    ScanRadarStrengthPercent: 100
-    SiegeModeWarpStatus: 100
-    Slots: 1
-    SpeedLimit: 4000
-    TechLevel: 1
+    cancloak: 1
+    capacitorneed: 50.0
+    consumptionquantity: 1
+    consumptiontype: 16275
+    cpu: 1.0
+    duration: 300000.0
+    entosisassistanceimpedancemultiplier: 1.0
+    hp: 9999999.0
     id: 40308
     marketGroup: 2018
+    maxgroupfitted: 1
+    maxrange: 20000.0
+    metalevel: 1
     name: Spectre Fleet's Modified Entosis Link
     packagedVolume: 10.0
     portionSize: 1
+    power: 7
     published: true
+    radius: 1.0
+    requiredskill1: 24242
+    requiredskill1level: 2
+    scangravimetricstrengthpercent: 100
+    scanladarstrengthpercent: 100
+    scanmagnetometricstrengthpercent: 100
+    scanradarstrengthpercent: 100
+    siegemodewarpstatus: 100
+    slots: 1
+    speedlimit: 4000
+    techlevel: 1
     volume: 10.0

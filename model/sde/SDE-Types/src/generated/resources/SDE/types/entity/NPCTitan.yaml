@@ -1,15 +1,13 @@
 types:
   ♦ Molok:
-    Capacity: 12400.0
-    FighterAbilityAntiCapitalMissileResistance: 1
-    FighterAbilityKamikazeResistance: 1
-    IsCapitalSize: 1
-    Mass: 2.4E9
-    Radius: 6800.0
+    capacity: 12400.0
+    fighterabilityanticapitalmissileresistance: 1
+    fighterabilitykamikazeresistance: 1
     id: 45472
-    mass: 2.4E9
+    iscapitalsize: 1
     name: ♦ Molok
     packagedVolume: 1.55E8
     portionSize: 1
     published: false
+    radius: 6800.0
     volume: 1.55E8

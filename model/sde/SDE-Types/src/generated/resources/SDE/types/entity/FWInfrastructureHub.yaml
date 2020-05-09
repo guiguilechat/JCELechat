@@ -1,73 +1,65 @@
 types:
   Amarr Infrastructure Hub:
-    ArmorHP: 7500000.0
-    ArmorUniformity: 1.0
-    DisallowAssistance: 1
-    FactionID: 500003
-    Hp: 1.0E7
-    Mass: 1000000.0
-    Radius: 10290.0
-    ShieldCapacity: 7500000.0
-    ShieldRechargeRate: 1.08E7
-    ShieldUniformity: 1.0
-    SignatureRadius: 4000.0
-    Uniformity: 1.0
+    armorhp: 7500000.0
+    armoruniformity: 1.0
+    disallowassistance: 1
+    factionid: 500003
+    hp: 1.0E7
     id: 29286
-    mass: 1000000.0
     name: Amarr Infrastructure Hub
     portionSize: 1
     published: false
+    radius: 10290.0
+    shieldcapacity: 7500000.0
+    shieldrechargerate: 1.08E7
+    shielduniformity: 1.0
+    signatureradius: 4000.0
+    uniformity: 1.0
   Caldari Infrastructure Hub:
-    ArmorHP: 7500000.0
-    ArmorUniformity: 1.0
-    DisallowAssistance: 1
-    FactionID: 500001
-    Hp: 1.0E7
-    Mass: 1000000.0
-    Radius: 10290.0
-    ShieldCapacity: 7500000.0
-    ShieldRechargeRate: 1.08E7
-    ShieldUniformity: 1.0
-    SignatureRadius: 4000.0
-    Uniformity: 1.0
+    armorhp: 7500000.0
+    armoruniformity: 1.0
+    disallowassistance: 1
+    factionid: 500001
+    hp: 1.0E7
     id: 29302
-    mass: 1000000.0
     name: Caldari Infrastructure Hub
     portionSize: 1
     published: false
+    radius: 10290.0
+    shieldcapacity: 7500000.0
+    shieldrechargerate: 1.08E7
+    shielduniformity: 1.0
+    signatureradius: 4000.0
+    uniformity: 1.0
   Gallente Infrastructure Hub:
-    ArmorHP: 7500000.0
-    ArmorUniformity: 1.0
-    DisallowAssistance: 1
-    FactionID: 500004
-    Hp: 1.0E7
-    Mass: 1000000.0
-    Radius: 10290.0
-    ShieldCapacity: 7500000.0
-    ShieldRechargeRate: 1.08E7
-    ShieldUniformity: 1.0
-    SignatureRadius: 4000.0
-    Uniformity: 1.0
+    armorhp: 7500000.0
+    armoruniformity: 1.0
+    disallowassistance: 1
+    factionid: 500004
+    hp: 1.0E7
     id: 29303
-    mass: 1000000.0
     name: Gallente Infrastructure Hub
     portionSize: 1
     published: false
+    radius: 10290.0
+    shieldcapacity: 7500000.0
+    shieldrechargerate: 1.08E7
+    shielduniformity: 1.0
+    signatureradius: 4000.0
+    uniformity: 1.0
   Minmatar Infrastructure Hub:
-    ArmorHP: 7500000.0
-    ArmorUniformity: 1.0
-    DisallowAssistance: 1
-    FactionID: 500002
-    Hp: 1.0E7
-    Mass: 1000000.0
-    Radius: 10290.0
-    ShieldCapacity: 7500000.0
-    ShieldRechargeRate: 1.08E7
-    ShieldUniformity: 1.0
-    SignatureRadius: 4000.0
-    Uniformity: 1.0
+    armorhp: 7500000.0
+    armoruniformity: 1.0
+    disallowassistance: 1
+    factionid: 500002
+    hp: 1.0E7
     id: 29304
-    mass: 1000000.0
     name: Minmatar Infrastructure Hub
     portionSize: 1
     published: false
+    radius: 10290.0
+    shieldcapacity: 7500000.0
+    shieldrechargerate: 1.08E7
+    shielduniformity: 1.0
+    signatureradius: 4000.0
+    uniformity: 1.0

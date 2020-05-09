@@ -1,377 +1,321 @@
 types:
   Men's 'Crusher' Cybernetic Arm (black and orange left):
-    Gender: 1
-    Mass: 0.10000000149011612
-    Radius: 1.0
+    gender: 1
     id: 34024
     marketGroup: 1836
-    mass: 0.10000000149011612
     name: Men's 'Crusher' Cybernetic Arm (black and orange left)
     packagedVolume: 0.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.5
   Men's 'Crusher' Cybernetic Arm (black and orange right):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34038
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and orange right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (black and red left):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34025
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and red left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (black and red right):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34039
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and red right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (black and yellow left):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34026
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and yellow left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (black and yellow right):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34040
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (black and yellow right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (blue and white left):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34027
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (blue and white left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (blue and white right):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34041
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (blue and white right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (green and yellow left):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34029
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green and yellow left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (green and yellow right):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34043
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green and yellow right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (green camo left):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34028
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green camo left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (green camo right):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34042
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (green camo right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (gunmetal left):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34030
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (gunmetal left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Crusher' Cybernetic Arm (gunmetal right):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 34044
     marketGroup: 1836
-    mass: 0.5
     name: Men's 'Crusher' Cybernetic Arm (gunmetal right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Phanca' Cybernetic Arm (left):
-    Gender: 1
-    Radius: 1.0
+    gender: 1
     id: 33551
     marketGroup: 1836
     name: Men's 'Phanca' Cybernetic Arm (left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Phanca' Cybernetic Arm (right):
-    Gender: 1
-    Radius: 1.0
+    gender: 1
     id: 33552
     marketGroup: 1836
     name: Men's 'Phanca' Cybernetic Arm (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Phanca' Cybernetic Arm (left):
-    Gender: 3
-    Radius: 1.0
+    gender: 3
     id: 33549
     marketGroup: 1836
     name: Women's 'Phanca' Cybernetic Arm (left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Phanca' Cybernetic Arm (right):
-    Gender: 3
-    Radius: 1.0
+    gender: 3
     id: 33550
     marketGroup: 1836
     name: Women's 'Phanca' Cybernetic Arm (right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black and orange ringed left):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34018
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and orange ringed left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black and orange ringed right):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34032
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and orange ringed right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black and yellow left):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34020
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and yellow left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black and yellow right):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34034
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black and yellow right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black ringed left):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34019
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black ringed left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (black ringed right):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34033
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (black ringed right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (blue and black ringed left):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34021
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and black ringed left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (blue and black ringed right):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34035
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and black ringed right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (blue and white left):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34022
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and white left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (blue and white right):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34036
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (blue and white right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (matte black left):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34017
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (matte black left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (matte black right):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34031
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (matte black right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (white and gray ringed left):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34023
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (white and gray ringed left)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Vise' Cybernetic Arm (white and gray ringed right):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34037
     marketGroup: 1836
-    mass: 0.5
     name: Women's 'Vise' Cybernetic Arm (white and gray ringed right)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612

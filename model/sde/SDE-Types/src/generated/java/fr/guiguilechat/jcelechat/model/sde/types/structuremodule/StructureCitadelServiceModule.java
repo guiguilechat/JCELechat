@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,32 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType10;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType11;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType6;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType7;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType8;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType9;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTypeFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelConsumptionGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFuelOnlineAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFullPowerStateArmorPlatingMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ServiceModuleFullPowerStateHitpointMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,154 +52,155 @@ public class StructureCitadelServiceModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup02;
+    public int canfitshipgroup02;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup03;
+    public int canfitshipgroup03;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType1;
+    public int canfitshiptype1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType10;
+    public int canfitshiptype10;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType11;
+    public int canfitshiptype11;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType2;
+    public int canfitshiptype2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType3;
+    public int canfitshiptype3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType4;
+    public int canfitshiptype4;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType5;
+    public int canfitshiptype5;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType6;
+    public int canfitshiptype6;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType7;
+    public int canfitshiptype7;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType8;
+    public int canfitshiptype8;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipType9;
+    public int canfitshiptype9;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxTypeFitted;
+    public int maxtypefitted;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFuelAmount;
+    public int servicemodulefuelamount;
     /**
      * Fuel consumed by the structure service module
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFuelConsumptionGroup;
+    public int servicemodulefuelconsumptiongroup;
     /**
      * Fuel consumed to online the service module.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFuelOnlineAmount;
+    public int servicemodulefuelonlineamount;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ServiceModuleFullPowerStateArmorPlatingMultiplier;
+    public int servicemodulefullpowerstatearmorplatingmultiplier;
     /**
      * This attribute is authored on structure service modules and when the service module is online will be used to overwrite a hitpoint multiplier attribute on the structure.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ServiceModuleFullPowerStateHitpointMultiplier;
+    public int servicemodulefullpowerstatehitpointmultiplier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CanFitShipType11 .INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, CanFitShipType7 .INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final StructureCitadelServiceModule.MetaGroup METAGROUP = new StructureCitadelServiceModule.MetaGroup();
 
     @Override
@@ -178,97 +208,102 @@ public class StructureCitadelServiceModule
         switch (attribute.getId()) {
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  1299 :
             {
-                return CanFitShipGroup02;
+                return canfitshipgroup02;
             }
             case  1300 :
             {
-                return CanFitShipGroup03;
+                return canfitshipgroup03;
             }
             case  1302 :
             {
-                return CanFitShipType1;
+                return canfitshiptype1;
             }
             case  2488 :
             {
-                return CanFitShipType10;
+                return canfitshiptype10;
             }
             case  2758 :
             {
-                return CanFitShipType11;
+                return canfitshiptype11;
             }
             case  1303 :
             {
-                return CanFitShipType2;
+                return canfitshiptype2;
             }
             case  1304 :
             {
-                return CanFitShipType3;
+                return canfitshiptype3;
             }
             case  1305 :
             {
-                return CanFitShipType4;
+                return canfitshiptype4;
             }
             case  1944 :
             {
-                return CanFitShipType5;
+                return canfitshiptype5;
             }
             case  2103 :
             {
-                return CanFitShipType6;
+                return canfitshiptype6;
             }
             case  2463 :
             {
-                return CanFitShipType7;
+                return canfitshiptype7;
             }
             case  2486 :
             {
-                return CanFitShipType8;
+                return canfitshiptype8;
             }
             case  2487 :
             {
-                return CanFitShipType9;
+                return canfitshiptype9;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  2431 :
             {
-                return MaxTypeFitted;
+                return maxtypefitted;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  2109 :
             {
-                return ServiceModuleFuelAmount;
+                return servicemodulefuelamount;
             }
             case  2108 :
             {
-                return ServiceModuleFuelConsumptionGroup;
+                return servicemodulefuelconsumptiongroup;
             }
             case  2110 :
             {
-                return ServiceModuleFuelOnlineAmount;
+                return servicemodulefuelonlineamount;
             }
             case  2804 :
             {
-                return ServiceModuleFullPowerStateArmorPlatingMultiplier;
+                return servicemodulefullpowerstatearmorplatingmultiplier;
             }
             case  2744 :
             {
-                return ServiceModuleFullPowerStateHitpointMultiplier;
+                return servicemodulefullpowerstatehitpointmultiplier;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

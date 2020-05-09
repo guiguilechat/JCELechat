@@ -1,194 +1,180 @@
 types:
   Capital Ancillary Armor Repairer:
-    ArmorDamageAmount: 4800.0
-    CapacitorNeed: 1600.0
-    Capacity: 1.2799999713897705
-    ChargeGroup2: 916
-    ChargeRate: 16
-    ChargedArmorDamageMultiplier: 3
-    Cpu: 75.0
-    Duration: 20000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 7.199999809265137
-    Hp: 40.0
-    Mass: 500.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 125000
-    Radius: 1.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 21803
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    armordamageamount: 4800.0
+    capacitorneed: 1600.0
+    capacity: 1.2799999713897705
+    chargedarmordamagemultiplier: 3
+    chargegroup2: 916
+    chargerate: 16
+    cpu: 75.0
+    duration: 20000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 7.199999809265137
+    hp: 40.0
     id: 41503
     marketGroup: 1052
-    mass: 500.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
     name: Capital Ancillary Armor Repairer
+    overloadarmordamageamount: 10
+    overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
     portionSize: 1
+    power: 125000
     published: true
+    radius: 1.0
+    reloadtime: 60000.0
+    requiredskill1: 21803
+    requiredskill1level: 1
+    requiredskill2: 3392
+    requiredskill2level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 4000.0
   Large Abyssal Ancillary Armor Repairer:
-    Capacity: 0.6399999856948853
-    ChargeGroup2: 916
-    ChargeRate: 8
-    Mass: 500.0
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    TechLevel: 1
+    capacity: 0.6399999856948853
+    chargegroup2: 916
+    chargerate: 8
     id: 47846
-    mass: 500.0
     name: Large Abyssal Ancillary Armor Repairer
     packagedVolume: 50.0
     portionSize: 1
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3393
+    requiredskill1level: 4
+    requiredskill2: 3392
+    requiredskill2level: 5
+    techlevel: 1
     volume: 50.0
   Large Ancillary Armor Repairer:
-    ArmorDamageAmount: 518.0
-    CapacitorNeed: 400.0
-    Capacity: 0.6399999856948853
-    ChargeGroup2: 916
-    ChargeRate: 8
-    ChargedArmorDamageMultiplier: 3
-    Cpu: 50.0
-    Duration: 15000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.400000095367432
-    Hp: 40.0
-    Mass: 500.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 1800
-    Radius: 1.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 3
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    armordamageamount: 518.0
+    capacitorneed: 400.0
+    capacity: 0.6399999856948853
+    chargedarmordamagemultiplier: 3
+    chargegroup2: 916
+    chargerate: 8
+    cpu: 50.0
+    duration: 15000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.400000095367432
+    hp: 40.0
     id: 33103
     marketGroup: 1051
-    mass: 500.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
     name: Large Ancillary Armor Repairer
+    overloadarmordamageamount: 10
+    overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
     portionSize: 1
+    power: 1800
     published: true
+    radius: 1.0
+    reloadtime: 60000.0
+    requiredskill1: 3393
+    requiredskill1level: 1
+    requiredskill2: 3392
+    requiredskill2level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 50.0
   Medium Abyssal Ancillary Armor Repairer:
-    Capacity: 0.3199999928474426
-    ChargeGroup2: 916
-    ChargeRate: 4
-    Mass: 500.0
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 4
-    TechLevel: 1
+    capacity: 0.3199999928474426
+    chargegroup2: 916
+    chargerate: 4
     id: 47844
-    mass: 500.0
     name: Medium Abyssal Ancillary Armor Repairer
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3393
+    requiredskill1level: 4
+    requiredskill2: 3392
+    requiredskill2level: 4
+    techlevel: 1
     volume: 10.0
   Medium Ancillary Armor Repairer:
-    ArmorDamageAmount: 207.0
-    CapacitorNeed: 160.0
-    Capacity: 0.3199999928474426
-    ChargeGroup2: 916
-    ChargeRate: 4
-    ChargedArmorDamageMultiplier: 3
-    Cpu: 25.0
-    Duration: 12000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.300000190734863
-    Hp: 40.0
-    Mass: 500.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 120
-    Radius: 1.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 2
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    armordamageamount: 207.0
+    capacitorneed: 160.0
+    capacity: 0.3199999928474426
+    chargedarmordamagemultiplier: 3
+    chargegroup2: 916
+    chargerate: 4
+    cpu: 25.0
+    duration: 12000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.300000190734863
+    hp: 40.0
     id: 33101
     marketGroup: 1050
-    mass: 500.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
     name: Medium Ancillary Armor Repairer
+    overloadarmordamageamount: 10
+    overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
     portionSize: 1
+    power: 120
     published: true
+    radius: 1.0
+    reloadtime: 60000.0
+    requiredskill1: 3393
+    requiredskill1level: 1
+    requiredskill2: 3392
+    requiredskill2level: 2
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 10.0
   Small Abyssal Ancillary Armor Repairer:
-    Capacity: 0.07999999821186066
-    ChargeGroup2: 916
-    ChargeRate: 1
-    Mass: 500.0
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 3
-    TechLevel: 1
+    capacity: 0.07999999821186066
+    chargegroup2: 916
+    chargerate: 1
     id: 47842
-    mass: 500.0
     name: Small Abyssal Ancillary Armor Repairer
     packagedVolume: 5.0
     portionSize: 1
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3393
+    requiredskill1level: 4
+    requiredskill2: 3392
+    requiredskill2level: 3
+    techlevel: 1
     volume: 5.0
   Small Ancillary Armor Repairer:
-    ArmorDamageAmount: 52.0
-    CapacitorNeed: 40.0
-    Capacity: 0.07999999821186066
-    ChargeGroup2: 916
-    ChargeRate: 1
-    ChargedArmorDamageMultiplier: 3
-    Cpu: 5.0
-    Duration: 6000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.400000095367432
-    Hp: 40.0
-    Mass: 500.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    OverloadArmorDamageAmount: 10
-    OverloadSelfDurationBonus: -15.0
-    Power: 5
-    Radius: 1.0
-    ReloadTime: 60000.0
-    RequiredSkill1: 3393
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
+    armordamageamount: 52.0
+    capacitorneed: 40.0
+    capacity: 0.07999999821186066
+    chargedarmordamagemultiplier: 3
+    chargegroup2: 916
+    chargerate: 1
+    cpu: 5.0
+    duration: 6000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.400000095367432
+    hp: 40.0
     id: 33076
     marketGroup: 1049
-    mass: 500.0
+    maxgroupactive: 1
+    maxgroupfitted: 1
     name: Small Ancillary Armor Repairer
+    overloadarmordamageamount: 10
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 5
     published: true
+    radius: 1.0
+    reloadtime: 60000.0
+    requiredskill1: 3393
+    requiredskill1level: 1
+    requiredskill2: 3392
+    requiredskill2level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
     volume: 5.0

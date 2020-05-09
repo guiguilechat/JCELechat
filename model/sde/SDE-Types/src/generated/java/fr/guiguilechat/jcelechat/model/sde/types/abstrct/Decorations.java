@@ -4,6 +4,8 @@ import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.Abstrct;
@@ -12,7 +14,13 @@ import org.yaml.snakeyaml.Yaml;
 public class Decorations
     extends Abstrct
 {
+    public static final Set<Attribute> ATTRIBUTES = Collections.emptySet();
     public static final Decorations.MetaGroup METAGROUP = new Decorations.MetaGroup();
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
+    }
 
     @Override
     public IMetaGroup<Decorations> getGroup() {

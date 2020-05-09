@@ -1,39 +1,35 @@
 types:
   Missile Precision Disruption Script:
-    AoeCloudSizeBonusBonus: 100
-    AoeVelocityBonusBonus: 100
-    ChargeSize: 1
-    ExplosionDelayBonusBonus: -100
-    LauncherGroup: 1396
-    MainColor: 11646664
-    Mass: 1.0
-    MissileVelocityBonusBonus: -100
-    Radius: 1.0
-    TechLevel: 1
+    aoecloudsizebonusbonus: 100
+    aoevelocitybonusbonus: 100
+    chargesize: 1
+    explosiondelaybonusbonus: -100
     id: 40335
+    launchergroup: 1396
+    maincolor: 11646664
     marketGroup: 1094
-    mass: 1.0
+    missilevelocitybonusbonus: -100
     name: Missile Precision Disruption Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 1.0
   Missile Range Disruption Script:
-    AoeCloudSizeBonusBonus: -100
-    AoeVelocityBonusBonus: -100
-    ChargeSize: 1
-    ExplosionDelayBonusBonus: 100
-    LauncherGroup: 1396
-    MainColor: 11646664
-    Mass: 1.0
-    MissileVelocityBonusBonus: 100
-    Radius: 1.0
-    TechLevel: 1
+    aoecloudsizebonusbonus: -100
+    aoevelocitybonusbonus: -100
+    chargesize: 1
+    explosiondelaybonusbonus: 100
     id: 40334
+    launchergroup: 1396
+    maincolor: 11646664
     marketGroup: 1094
-    mass: 1.0
+    missilevelocitybonusbonus: 100
     name: Missile Range Disruption Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 1.0

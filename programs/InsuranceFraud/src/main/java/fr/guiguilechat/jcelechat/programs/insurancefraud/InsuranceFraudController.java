@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.programs.insurancefraud;
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -18,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
@@ -71,8 +71,8 @@ public class InsuranceFraudController {
 			if (item != null) {
 				name.set(item.name);
 				published = true;
-				techLevel = item.TechLevel;
-				metaLevel = item.MetaLevel;
+				techLevel = item.techlevel;
+				metaLevel = item.metalevel;
 				craftCost = getCraftRequirement(item.name);
 				if (craftCost != null) {
 					prodTax.set(craftCost.isks);
@@ -221,7 +221,7 @@ public class InsuranceFraudController {
 		}
 		asteroids = Asteroid.METACAT.groups().stream().filter(g -> g != Ice.METAGROUP)
 				.flatMap(col -> col.load().values().stream())
-				.filter(as -> as.AsteroidMetaLevel == 1 && getBasicType(as) == as.id).collect(Collectors.toList());
+				.filter(as -> as.asteroidmetalevel == 1 && getBasicType(as) == as.id).collect(Collectors.toList());
 		Double[][] reproc2 = new Double[asteroids.size()][7];
 		System.err.println("reprocess values : ");
 		for (int i = 0; i < asteroids.size(); i++) {
@@ -236,21 +236,8 @@ public class InsuranceFraudController {
 	}
 
 	public static int getBasicType(Asteroid ore) {
-
-		try {
-			Field field = ore.getClass().getField("OreBasicType");
-			int basicType = (int) field.get(ore);
-			if (basicType != 0) {
-				return basicType;
-			}
-		} catch (NoSuchFieldException e) {
-			// nothing, this asteroid does not have a basic type
-		} catch (SecurityException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		} catch (IllegalArgumentException e) {
-			throw new UnsupportedOperationException("catch this", e);
-		} catch (IllegalAccessException e) {
-			throw new UnsupportedOperationException("catch this", e);
+		if (ore.getAttributes().contains(OreBasicType.INSTANCE)) {
+			return ore.attribute(OreBasicType.INSTANCE).intValue();
 		}
 		return ore.id;
 	}

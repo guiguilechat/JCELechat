@@ -1,55 +1,49 @@
 types:
   Mining Equipment Preservation Charge:
-    LauncherGroup: 1770
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    RequiredSkill1: 22536
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 1
-    WarfareBuff1ID: 25
-    WarfareBuff1Multiplier: -15
     id: 42831
+    launchergroup: 1770
     marketGroup: 2300
-    mass: 0.009999999776482582
     name: Mining Equipment Preservation Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
     published: true
+    radius: 1.0
+    requiredskill1: 22536
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
     volume: 0.009999999776482582
+    warfarebuff1id: 25
+    warfarebuff1multiplier: -15
   Mining Laser Field Enhancement Charge:
-    LauncherGroup: 1770
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    RequiredSkill1: 22536
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 1
-    WarfareBuff1ID: 23
-    WarfareBuff1Multiplier: 40
     id: 42829
+    launchergroup: 1770
     marketGroup: 2300
-    mass: 0.009999999776482582
     name: Mining Laser Field Enhancement Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
     published: true
+    radius: 1.0
+    requiredskill1: 22536
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
     volume: 0.009999999776482582
+    warfarebuff1id: 23
+    warfarebuff1multiplier: 40
   Mining Laser Optimization Charge:
-    LauncherGroup: 1770
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    RequiredSkill1: 22536
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 1
-    WarfareBuff1ID: 24
-    WarfareBuff1Multiplier: -15
     id: 42830
+    launchergroup: 1770
     marketGroup: 2300
-    mass: 0.009999999776482582
     name: Mining Laser Optimization Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
     published: true
+    radius: 1.0
+    requiredskill1: 22536
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
     volume: 0.009999999776482582
+    warfarebuff1id: 24
+    warfarebuff1multiplier: -15

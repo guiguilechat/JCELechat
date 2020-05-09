@@ -1,136 +1,136 @@
 types:
   '''Censer'' Medium Cap Battery Blueprint':
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23804
+    industryblueprintrank: 6.0
     name: '''Censer'' Medium Cap Battery Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   '''Crucible'' Small Cap Battery Blueprint':
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23802
+    industryblueprintrank: 3.0
     name: '''Crucible'' Small Cap Battery Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   '''Thurifer'' Large Cap Battery Blueprint':
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23806
+    industryblueprintrank: 6.0
     name: '''Thurifer'' Large Cap Battery Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Cap Battery I Blueprint:
-    TechLevel: 1
     id: 41639
     marketGroup: 1558
     name: Capital Cap Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Cap Battery II Blueprint:
-    TechLevel: 1
     id: 41641
     name: Capital Cap Battery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Compact Pb-Acid Cap Battery Blueprint:
-    TechLevel: 1
     id: 41640
     marketGroup: 1558
     name: Capital Compact Pb-Acid Cap Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Dark Blood Capital Cap Battery Blueprint:
-    TechLevel: 1
     id: 41643
     name: Dark Blood Capital Cap Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Domination Capital Cap Battery Blueprint:
-    TechLevel: 1
     id: 41642
     name: Domination Capital Cap Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Large Cap Battery I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 2021
+    industryblueprintrank: 6.0
     marketGroup: 1558
     name: Large Cap Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Large Cap Battery II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 3505
+    industryblueprintrank: 15.600000381469727
     name: Large Cap Battery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Medium Cap Battery I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 2019
+    industryblueprintrank: 6.0
     marketGroup: 1558
     name: Medium Cap Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium Cap Battery II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 3497
+    industryblueprintrank: 15.600000381469727
     name: Medium Cap Battery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Small Cap Battery I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 1186
+    industryblueprintrank: 3.0
     marketGroup: 1558
     name: Small Cap Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Small Cap Battery II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 3489
+    industryblueprintrank: 7.800000190734863
     name: Small Cap Battery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,31 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseArmorDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseShieldDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorRechargeRateMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRangeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FallofMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponRangeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,91 +51,91 @@ public class AdvancedAutocannonAmmo
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BaseArmorDamage;
+    public int basearmordamage;
     /**
      * Just for the UI to display base damage on shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BaseShieldDamage;
+    public int baseshielddamage;
     /**
      * Multiplier to the capacitors recharge rate.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double CapacitorRechargeRateMultiplier;
+    public double capacitorrechargeratemultiplier;
     /**
      * The size of the charges that can fit in the turret/whatever.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeSize;
+    public int chargesize;
     /**
      * Factor to adjust module cpu need by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double CpuMultiplier;
+    public double cpumultiplier;
     /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EmDamage;
+    public double emdamage;
     /**
      * For charges, hidden attribute used by sentry guns to modify target pick range.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntityFlyRangeMultiplier;
+    public double entityflyrangemultiplier;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
+    public double explosivedamage;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double FallofMultiplier;
+    public double fallofmultiplier;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double KineticDamage;
+    public double kineticdamage;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int launchergroup;
     /**
      * The main color of a ship type.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MainColor;
+    public int maincolor;
     /**
      * Autogenerated skill attribute, mMaxVelocityBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double MaxVelocityModifier;
+    public double maxvelocitymodifier;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -115,35 +143,35 @@ public class AdvancedAutocannonAmmo
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int PowerNeedMultiplier;
+    public int powerneedmultiplier;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double SpeedMultiplier;
+    public double speedmultiplier;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -151,28 +179,29 @@ public class AdvancedAutocannonAmmo
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    public double thermaldamage;
     /**
      * Scale the tracking speed of a weapon.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double TrackingSpeedMultiplier;
+    public double trackingspeedmultiplier;
     /**
      * Multiplier of range the relevant weapon.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double WeaponRangeMultiplier;
+    public double weaponrangemultiplier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Mass.INSTANCE, FallofMultiplier.INSTANCE, LauncherGroup.INSTANCE, CpuMultiplier.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, RequiredSkill1Level.INSTANCE, PowerNeedMultiplier.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, EmDamage.INSTANCE, MaxVelocityModifier.INSTANCE, TrackingSpeedMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevel.INSTANCE, MainColor.INSTANCE })));
     public static final AdvancedAutocannonAmmo.MetaGroup METAGROUP = new AdvancedAutocannonAmmo.MetaGroup();
 
     @Override
@@ -180,97 +209,102 @@ public class AdvancedAutocannonAmmo
         switch (attribute.getId()) {
             case  613 :
             {
-                return BaseArmorDamage;
+                return basearmordamage;
             }
             case  612 :
             {
-                return BaseShieldDamage;
+                return baseshielddamage;
             }
             case  144 :
             {
-                return CapacitorRechargeRateMultiplier;
+                return capacitorrechargeratemultiplier;
             }
             case  128 :
             {
-                return ChargeSize;
+                return chargesize;
             }
             case  202 :
             {
-                return CpuMultiplier;
+                return cpumultiplier;
             }
             case  114 :
             {
-                return EmDamage;
+                return emdamage;
             }
             case  779 :
             {
-                return EntityFlyRangeMultiplier;
+                return entityflyrangemultiplier;
             }
             case  116 :
             {
-                return ExplosiveDamage;
+                return explosivedamage;
             }
             case  517 :
             {
-                return FallofMultiplier;
+                return fallofmultiplier;
             }
             case  117 :
             {
-                return KineticDamage;
+                return kineticdamage;
             }
             case  137 :
             {
-                return LauncherGroup;
+                return launchergroup;
             }
             case  124 :
             {
-                return MainColor;
+                return maincolor;
             }
             case  306 :
             {
-                return MaxVelocityModifier;
+                return maxvelocitymodifier;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  608 :
             {
-                return PowerNeedMultiplier;
+                return powerneedmultiplier;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  204 :
             {
-                return SpeedMultiplier;
+                return speedmultiplier;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  118 :
             {
-                return ThermalDamage;
+                return thermaldamage;
             }
             case  244 :
             {
-                return TrackingSpeedMultiplier;
+                return trackingspeedmultiplier;
             }
             case  120 :
             {
-                return WeaponRangeMultiplier;
+                return weaponrangemultiplier;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

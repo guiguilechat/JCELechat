@@ -1,73 +1,73 @@
 types:
   M51 Benefactor Compact Shield Recharger:
-    Capacity: 1.0
-    Cpu: 20.0
-    Hp: 40.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1000.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 3
-    ShieldRechargeRateMultiplier: 0.875
-    TechLevel: 1
+    capacity: 1.0
+    cpu: 20.0
+    hp: 40.0
     id: 6485
     marketGroup: 126
+    metalevel: 1
     name: M51 Benefactor Compact Shield Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3425
+    requiredskill1level: 3
+    shieldrechargeratemultiplier: 0.875
+    techlevel: 1
     volume: 5.0
   Republic Fleet Shield Recharger:
-    Capacity: 1.0
-    Cpu: 25.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1000.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 3
-    ShieldRechargeRateMultiplier: 0.8399999737739563
-    TechLevel: 1
+    capacity: 1.0
+    cpu: 25.0
+    hp: 40.0
     id: 37805
     marketGroup: 126
+    metagroupid: 4
+    metalevel: 8
     name: Republic Fleet Shield Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3425
+    requiredskill1level: 3
+    shieldrechargeratemultiplier: 0.8399999737739563
+    techlevel: 1
     volume: 5.0
   Shield Recharger I:
-    Capacity: 1.0
-    Cpu: 25.0
-    Hp: 40.0
-    Power: 1
-    Radius: 1000.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 3
-    ShieldRechargeRateMultiplier: 0.8999999761581421
-    TechLevel: 1
+    capacity: 1.0
+    cpu: 25.0
+    hp: 40.0
     id: 393
     marketGroup: 126
     name: Shield Recharger I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3425
+    requiredskill1level: 3
+    shieldrechargeratemultiplier: 0.8999999761581421
+    techlevel: 1
     volume: 5.0
   Shield Recharger II:
-    Capacity: 1.0
-    Cpu: 30.0
-    Hp: 40.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1000.0
-    RequiredSkill1: 3425
-    RequiredSkill1Level: 4
-    ShieldRechargeRateMultiplier: 0.8500000238418579
-    TechLevel: 2
+    capacity: 1.0
+    cpu: 30.0
+    hp: 40.0
     id: 394
     marketGroup: 126
+    metalevel: 5
     name: Shield Recharger II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3425
+    requiredskill1level: 4
+    shieldrechargeratemultiplier: 0.8500000238418579
+    techlevel: 2
     volume: 5.0

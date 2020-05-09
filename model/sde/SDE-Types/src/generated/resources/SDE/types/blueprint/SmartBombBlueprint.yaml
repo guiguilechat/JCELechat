@@ -1,503 +1,503 @@
 types:
   '''Lance'' Medium EMP Smartbomb I Blueprint':
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23867
+    industryblueprintrank: 6.0
     name: '''Lance'' Medium EMP Smartbomb I Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   '''Pike'' Small EMP Smartbomb I Blueprint':
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23865
+    industryblueprintrank: 3.0
     name: '''Pike'' Small EMP Smartbomb I Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   '''Warhammer'' Large EMP Smartbomb I Blueprint':
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 23869
+    industryblueprintrank: 9.0
     name: '''Warhammer'' Large EMP Smartbomb I Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Ammatar Navy Large EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15948
+    industryblueprintrank: 9.0
     name: Ammatar Navy Large EMP Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Ammatar Navy Medium EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15946
+    industryblueprintrank: 6.0
     name: Ammatar Navy Medium EMP Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Ammatar Navy Small EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15942
+    industryblueprintrank: 3.0
     name: Ammatar Navy Small EMP Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Caldari Navy Large Graviton Smartbomb Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15932
+    industryblueprintrank: 9.0
     name: Caldari Navy Large Graviton Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Caldari Navy Medium Graviton Smartbomb Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15930
+    industryblueprintrank: 6.0
     name: Caldari Navy Medium Graviton Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Caldari Navy Micro Graviton Smartbomb Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15928
+    industryblueprintrank: 3.0
     name: Caldari Navy Micro Graviton Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Caldari Navy Small Graviton Smartbomb Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15926
+    industryblueprintrank: 3.0
     name: Caldari Navy Small Graviton Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Federation Navy Large Plasma Smartbomb Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15956
+    industryblueprintrank: 9.0
     name: Federation Navy Large Plasma Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Federation Navy Medium Plasma Smartbomb Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15954
+    industryblueprintrank: 6.0
     name: Federation Navy Medium Plasma Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Federation Navy Small Plasma Smartbomb Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15950
+    industryblueprintrank: 3.0
     name: Federation Navy Small Plasma Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Imperial Navy Large EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15964
+    industryblueprintrank: 9.0
     name: Imperial Navy Large EMP Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Imperial Navy Medium EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15962
+    industryblueprintrank: 6.0
     name: Imperial Navy Medium EMP Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Imperial Navy Micro EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15960
+    industryblueprintrank: 3.0
     name: Imperial Navy Micro EMP Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Imperial Navy Small EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15958
+    industryblueprintrank: 3.0
     name: Imperial Navy Small EMP Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Khanid Navy Large EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 28546
+    industryblueprintrank: 9.0
     name: Khanid Navy Large EMP Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Khanid Navy Medium EMP Smartbomb Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 28551
+    industryblueprintrank: 6.0
     name: Khanid Navy Medium EMP Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Large Degenerative Concussion Bomb I Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 21539
+    industryblueprintrank: 9.0
     name: Large Degenerative Concussion Bomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Large EMP Smartbomb I Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 3994
+    industryblueprintrank: 9.0
     marketGroup: 341
     name: Large EMP Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Large EMP Smartbomb II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    Radius: 1.0
-    TechLevel: 2
     id: 3996
+    industryblueprintrank: 23.399999618530273
     name: Large EMP Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Large Graviton Smartbomb I Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 3982
+    industryblueprintrank: 9.0
     marketGroup: 341
     name: Large Graviton Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Large Graviton Smartbomb II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    Radius: 1.0
-    TechLevel: 2
     id: 3984
+    industryblueprintrank: 23.399999618530273
     name: Large Graviton Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Large Plasma Smartbomb I Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 3988
+    industryblueprintrank: 9.0
     marketGroup: 341
     name: Large Plasma Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Large Plasma Smartbomb II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    Radius: 1.0
-    TechLevel: 2
     id: 3990
+    industryblueprintrank: 23.399999618530273
     name: Large Plasma Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Large Proton Smartbomb I Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 3978
+    industryblueprintrank: 9.0
     marketGroup: 341
     name: Large Proton Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Large Proton Smartbomb II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    Radius: 1.0
-    TechLevel: 2
     id: 3980
+    industryblueprintrank: 23.399999618530273
     name: Large Proton Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Medium Degenerative Concussion Bomb I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 21537
+    industryblueprintrank: 6.0
     name: Medium Degenerative Concussion Bomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium EMP Smartbomb I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 3954
+    industryblueprintrank: 6.0
     marketGroup: 341
     name: Medium EMP Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium EMP Smartbomb II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 3956
+    industryblueprintrank: 15.600000381469727
     name: Medium EMP Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Medium Graviton Smartbomb I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 3942
+    industryblueprintrank: 6.0
     marketGroup: 341
     name: Medium Graviton Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium Graviton Smartbomb II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 3944
+    industryblueprintrank: 15.600000381469727
     name: Medium Graviton Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Medium Plasma Smartbomb I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 3948
+    industryblueprintrank: 6.0
     marketGroup: 341
     name: Medium Plasma Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium Plasma Smartbomb II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 3950
+    industryblueprintrank: 15.600000381469727
     name: Medium Plasma Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Medium Proton Smartbomb I Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 3938
+    industryblueprintrank: 6.0
     marketGroup: 341
     name: Medium Proton Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Medium Proton Smartbomb II Blueprint:
-    IndustryBlueprintRank: 15.600000381469727
-    Radius: 1.0
-    TechLevel: 2
     id: 3940
+    industryblueprintrank: 15.600000381469727
     name: Medium Proton Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Republic Fleet Large Proton Smartbomb Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15940
+    industryblueprintrank: 9.0
     name: Republic Fleet Large Proton Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Republic Fleet Medium Proton Smartbomb Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15938
+    industryblueprintrank: 6.0
     name: Republic Fleet Medium Proton Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Republic Fleet Small Proton Smartbomb Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 15936
+    industryblueprintrank: 3.0
     name: Republic Fleet Small Proton Smartbomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Small Degenerative Concussion Bomb I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 21535
+    industryblueprintrank: 3.0
     name: Small Degenerative Concussion Bomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Small EMP Smartbomb I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 1564
+    industryblueprintrank: 3.0
     marketGroup: 341
     name: Small EMP Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Small EMP Smartbomb II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 1566
+    industryblueprintrank: 7.800000190734863
     name: Small EMP Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Small Graviton Smartbomb I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 1552
+    industryblueprintrank: 3.0
     marketGroup: 341
     name: Small Graviton Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Small Graviton Smartbomb II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 1554
+    industryblueprintrank: 7.800000190734863
     name: Small Graviton Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Small Plasma Smartbomb I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 1558
+    industryblueprintrank: 3.0
     marketGroup: 341
     name: Small Plasma Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Small Plasma Smartbomb II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 1560
+    industryblueprintrank: 7.800000190734863
     name: Small Plasma Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Small Proton Smartbomb I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 1548
+    industryblueprintrank: 3.0
     marketGroup: 341
     name: Small Proton Smartbomb I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Small Proton Smartbomb II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 1550
+    industryblueprintrank: 7.800000190734863
     name: Small Proton Smartbomb II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

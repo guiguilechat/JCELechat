@@ -4,6 +4,8 @@ import java.io.InputStreamReader;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
+import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.SKINs;
@@ -12,7 +14,13 @@ import org.yaml.snakeyaml.Yaml;
 public class Max30DaySKIN
     extends SKINs
 {
+    public static final Set<Attribute> ATTRIBUTES = Collections.emptySet();
     public static final Max30DaySKIN.MetaGroup METAGROUP = new Max30DaySKIN.MetaGroup();
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
+    }
 
     @Override
     public IMetaGroup<Max30DaySKIN> getGroup() {

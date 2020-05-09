@@ -1,312 +1,312 @@
 types:
   Antimatter Reactor Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17338
+    industryblueprintrank: 1.0
     marketGroup: 1592
     name: Antimatter Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Crystalline Carbonide Armor Plate Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17323
+    industryblueprintrank: 1.0
     marketGroup: 1594
     name: Crystalline Carbonide Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Deflection Shield Emitter Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17346
+    industryblueprintrank: 1.0
     marketGroup: 1595
     name: Deflection Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   EM Pulse Generator Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17335
+    industryblueprintrank: 1.0
     marketGroup: 1592
     name: EM Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Electrolytic Capacitor Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17347
+    industryblueprintrank: 1.0
     marketGroup: 1595
     name: Electrolytic Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Fernite Carbide Composite Armor Plate Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17355
+    industryblueprintrank: 1.0
     marketGroup: 1595
     name: Fernite Carbide Composite Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Fusion Reactor Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17331
+    industryblueprintrank: 1.0
     marketGroup: 1594
     name: Fusion Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Fusion Thruster Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17349
+    industryblueprintrank: 1.0
     marketGroup: 1592
     name: Fusion Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Gravimetric Sensor Cluster Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17340
+    industryblueprintrank: 1.0
     marketGroup: 1593
     name: Gravimetric Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Graviton Pulse Generator Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17332
+    industryblueprintrank: 1.0
     marketGroup: 1593
     name: Graviton Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Graviton Reactor Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17353
+    industryblueprintrank: 1.0
     marketGroup: 1593
     name: Graviton Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Ion Thruster Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17329
+    industryblueprintrank: 1.0
     marketGroup: 1594
     name: Ion Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Ladar Sensor Cluster Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17333
+    industryblueprintrank: 1.0
     marketGroup: 1595
     name: Ladar Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Laser Focusing Crystals Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17348
+    industryblueprintrank: 1.0
     marketGroup: 1592
     name: Laser Focusing Crystals Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Linear Shield Emitter Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17359
+    industryblueprintrank: 1.0
     marketGroup: 1592
     name: Linear Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Magnetometric Sensor Cluster Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17345
+    industryblueprintrank: 1.0
     marketGroup: 1594
     name: Magnetometric Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Magpulse Thruster Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17356
+    industryblueprintrank: 1.0
     marketGroup: 1593
     name: Magpulse Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Nanoelectrical Microprocessor Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17330
+    industryblueprintrank: 1.0
     marketGroup: 1592
     name: Nanoelectrical Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Nanomechanical Microprocessor Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17325
+    industryblueprintrank: 1.0
     marketGroup: 1595
     name: Nanomechanical Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Nuclear Pulse Generator Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17326
+    industryblueprintrank: 1.0
     marketGroup: 1595
     name: Nuclear Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Nuclear Reactor Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17342
+    industryblueprintrank: 1.0
     marketGroup: 1595
     name: Nuclear Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Oscillator Capacitor Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17337
+    industryblueprintrank: 1.0
     marketGroup: 1594
     name: Oscillator Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Particle Accelerator Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17344
+    industryblueprintrank: 1.0
     marketGroup: 1594
     name: Particle Accelerator Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Photon Microprocessor Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17357
+    industryblueprintrank: 1.0
     marketGroup: 1594
     name: Photon Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Plasma Pulse Generator Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17339
+    industryblueprintrank: 1.0
     marketGroup: 1594
     name: Plasma Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Plasma Thruster Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17324
+    industryblueprintrank: 1.0
     marketGroup: 1595
     name: Plasma Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Pulse Shield Emitter Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17341
+    industryblueprintrank: 1.0
     marketGroup: 1594
     name: Pulse Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Quantum Microprocessor Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17351
+    industryblueprintrank: 1.0
     marketGroup: 1593
     name: Quantum Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Radar Sensor Cluster Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17336
+    industryblueprintrank: 1.0
     marketGroup: 1592
     name: Radar Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Scalar Capacitor Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17327
+    industryblueprintrank: 1.0
     marketGroup: 1593
     name: Scalar Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Spatial Attunement Unit Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 33196
+    industryblueprintrank: 2.0
     name: Spatial Attunement Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Acceleration Coils Blueprint:
     id: 36954
@@ -325,24 +325,24 @@ types:
     published: true
     volume: 0.009999999776482582
   Structure Construction Parts Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21948
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Construction Parts Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Docking Bay Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21962
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Docking Bay Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure EXERT Conduit Coupler Blueprint:
     id: 49721
@@ -361,162 +361,162 @@ types:
     published: true
     volume: 0.009999999776482582
   Structure Factory Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21956
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Factory Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Hangar Array Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21950
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Hangar Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Laboratory Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21954
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Laboratory Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Market Network Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21964
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Market Network Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Medical Center Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21966
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Medical Center Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Mission Network Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21970
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Mission Network Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Office Center Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21968
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Office Center Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Repair Facility Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21958
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Repair Facility Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Reprocessing Plant Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21960
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Reprocessing Plant Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Structure Storage Bay Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 21952
+    industryblueprintrank: 200.0
     marketGroup: 1913
     name: Structure Storage Bay Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Superconductor Rails Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17354
+    industryblueprintrank: 1.0
     marketGroup: 1593
     name: Superconductor Rails Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Sustained Shield Emitter Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17352
+    industryblueprintrank: 1.0
     marketGroup: 1593
     name: Sustained Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Tesseract Capacitor Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17334
+    industryblueprintrank: 1.0
     marketGroup: 1592
     name: Tesseract Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Thermonuclear Trigger Unit Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17322
+    industryblueprintrank: 1.0
     marketGroup: 1595
     name: Thermonuclear Trigger Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Titanium Diborite Armor Plate Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17328
+    industryblueprintrank: 1.0
     marketGroup: 1593
     name: Titanium Diborite Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Tungsten Carbide Armor Plate Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 17350
+    industryblueprintrank: 1.0
     marketGroup: 1592
     name: Tungsten Carbide Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

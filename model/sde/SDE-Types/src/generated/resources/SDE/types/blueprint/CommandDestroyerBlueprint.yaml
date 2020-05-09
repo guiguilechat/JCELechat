@@ -1,41 +1,41 @@
 types:
   Bifrost Blueprint:
-    IndustryBlueprintRank: 400.0
-    Radius: 1.0
-    TechLevel: 2
     id: 37620
+    industryblueprintrank: 400.0
     name: Bifrost Blueprint
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
   Draugur Blueprint:
-    TechLevel: 1
     id: 52255
     name: Draugur Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Magus Blueprint:
-    IndustryBlueprintRank: 400.0
-    Radius: 1.0
-    TechLevel: 2
     id: 37619
+    industryblueprintrank: 400.0
     name: Magus Blueprint
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
   Pontifex Blueprint:
-    IndustryBlueprintRank: 400.0
-    Radius: 1.0
-    TechLevel: 2
     id: 37618
+    industryblueprintrank: 400.0
     name: Pontifex Blueprint
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
   Stork Blueprint:
-    IndustryBlueprintRank: 400.0
-    Radius: 1.0
-    TechLevel: 2
     id: 37617
+    industryblueprintrank: 400.0
     name: Stork Blueprint
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2

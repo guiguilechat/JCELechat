@@ -1,43 +1,39 @@
 types:
   Focused Warp Disruption Script:
-    CapNeedBonus: -60
-    DurationBonus: -80
-    LauncherGroup: 899
-    Mass: 1.0
-    MassBonusPercentageBonus: -100
-    MaxRangeHidden: 24000
-    Radius: 1.0
-    SignatureRadiusBonusBonus: -100
-    SpeedBoostFactorBonusBonus: -100
-    SpeedFactorBonusBonus: -100
-    TechLevel: 1
-    WarpScrambleRangeBonus: 50
+    capneedbonus: -60
+    durationbonus: -80
     id: 29003
+    launchergroup: 899
     marketGroup: 1094
-    mass: 1.0
+    massbonuspercentagebonus: -100
+    maxrangehidden: 24000
     name: Focused Warp Disruption Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    signatureradiusbonusbonus: -100
+    speedboostfactorbonusbonus: -100
+    speedfactorbonusbonus: -100
+    techlevel: 1
     volume: 1.0
+    warpscramblerangebonus: 50
   Focused Warp Scrambling Script:
-    CapNeedBonus: -60
-    DurationBonus: -80
-    LauncherGroup: 899
-    Mass: 1.0
-    MassBonusPercentageBonus: -100
-    MaxRangeHidden: 24000
-    Radius: 1.0
-    SignatureRadiusBonusBonus: -100
-    SpeedBoostFactorBonusBonus: -100
-    SpeedFactorBonusBonus: -100
-    TechLevel: 1
-    WarpScrambleRangeBonus: -20
+    capneedbonus: -60
+    durationbonus: -80
     id: 45010
+    launchergroup: 899
     marketGroup: 1094
-    mass: 1.0
+    massbonuspercentagebonus: -100
+    maxrangehidden: 24000
     name: Focused Warp Scrambling Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    signatureradiusbonusbonus: -100
+    speedboostfactorbonusbonus: -100
+    speedfactorbonusbonus: -100
+    techlevel: 1
     volume: 1.0
+    warpscramblerangebonus: -20

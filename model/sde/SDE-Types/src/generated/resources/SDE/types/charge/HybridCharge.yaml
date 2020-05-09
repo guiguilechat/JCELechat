@@ -1,4311 +1,3895 @@
 types:
   Antimatter Charge L:
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 28.0
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 20.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 3
+    entityflyrangemultiplier: 0.5
     id: 238
+    kineticdamage: 28.0
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 106
-    mass: 0.10000000149011612
     name: Antimatter Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 20.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.5
   Antimatter Charge M:
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 14.0
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 10.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 2
+    entityflyrangemultiplier: 0.5
     id: 230
+    kineticdamage: 14.0
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 108
-    mass: 0.05000000074505806
     name: Antimatter Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 10.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.5
   Antimatter Charge S:
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 7.0
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 1
+    entityflyrangemultiplier: 0.5
     id: 222
+    kineticdamage: 7.0
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 107
-    mass: 0.009999999776482582
     name: Antimatter Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.5
   Antimatter Charge XL:
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 56.0
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.5
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 40.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 4
+    entityflyrangemultiplier: 0.5
     id: 17648
+    kineticdamage: 56.0
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 504
-    mass: 0.5
     name: Antimatter Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 40.0
     volume: 0.125
+    weaponrangemultiplier: 0.5
   Caldari Navy Antimatter Charge L:
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 32.20000076293945
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 23.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 3
+    entityflyrangemultiplier: 0.5
     id: 21740
+    kineticdamage: 32.20000076293945
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Caldari Navy Antimatter Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 23.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.5
   Caldari Navy Antimatter Charge M:
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 16.100000381469727
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 11.5
-    WeaponRangeMultiplier: 0.5
+    chargesize: 2
+    entityflyrangemultiplier: 0.5
     id: 23025
+    kineticdamage: 16.100000381469727
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Caldari Navy Antimatter Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 11.5
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.5
   Caldari Navy Antimatter Charge S:
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 8.050000190734863
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.75
-    WeaponRangeMultiplier: 0.5
+    chargesize: 1
+    entityflyrangemultiplier: 0.5
     id: 23009
+    kineticdamage: 8.050000190734863
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Caldari Navy Antimatter Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.75
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.5
   Caldari Navy Iridium Charge L:
-    CapNeedBonus: -24
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 18.399999618530273
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 13.800000190734863
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 3
+    entityflyrangemultiplier: 1.2000000476837158
     id: 23049
+    kineticdamage: 18.399999618530273
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Caldari Navy Iridium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 13.800000190734863
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.2000000476837158
   Caldari Navy Iridium Charge M:
-    CapNeedBonus: -24
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 9.199999809265137
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.900000095367432
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 2
+    entityflyrangemultiplier: 1.2000000476837158
     id: 23035
+    kineticdamage: 9.199999809265137
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Caldari Navy Iridium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.900000095367432
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.2000000476837158
   Caldari Navy Iridium Charge S:
-    CapNeedBonus: -24
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 4.599999904632568
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.450000047683716
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 1
+    entityflyrangemultiplier: 1.2000000476837158
     id: 23019
+    kineticdamage: 4.599999904632568
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Caldari Navy Iridium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.450000047683716
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.2000000476837158
   Caldari Navy Iron Charge L:
-    CapNeedBonus: -30
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 13.800000190734863
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 9.199999809265137
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 3
+    entityflyrangemultiplier: 1.600000023841858
     id: 23053
+    kineticdamage: 13.800000190734863
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Caldari Navy Iron Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.600000023841858
   Caldari Navy Iron Charge M:
-    CapNeedBonus: -30
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 6.900000095367432
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.599999904632568
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 2
+    entityflyrangemultiplier: 1.600000023841858
     id: 23039
+    kineticdamage: 6.900000095367432
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Caldari Navy Iron Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.600000023841858
   Caldari Navy Iron Charge S:
-    CapNeedBonus: -30
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 3.450000047683716
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.299999952316284
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 1
+    entityflyrangemultiplier: 1.600000023841858
     id: 23023
+    kineticdamage: 3.450000047683716
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Caldari Navy Iron Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.299999952316284
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.600000023841858
   Caldari Navy Lead Charge L:
-    CapNeedBonus: -50
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 23.0
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 13.800000190734863
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 3
+    entityflyrangemultiplier: 1.0
     id: 23047
+    kineticdamage: 23.0
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Caldari Navy Lead Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 13.800000190734863
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.0
   Caldari Navy Lead Charge M:
-    CapNeedBonus: -50
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 11.5
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.900000095367432
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 2
+    entityflyrangemultiplier: 1.0
     id: 23033
+    kineticdamage: 11.5
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Caldari Navy Lead Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.900000095367432
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.0
   Caldari Navy Lead Charge S:
-    CapNeedBonus: -50
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 5.75
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.450000047683716
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 1
+    entityflyrangemultiplier: 1.0
     id: 23017
+    kineticdamage: 5.75
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Caldari Navy Lead Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.450000047683716
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.0
   Caldari Navy Plutonium Charge L:
-    CapNeedBonus: -5
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 27.600000381469727
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 23.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 3
+    entityflyrangemultiplier: 0.625
     id: 23041
+    kineticdamage: 27.600000381469727
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Caldari Navy Plutonium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 23.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.625
   Caldari Navy Plutonium Charge M:
-    CapNeedBonus: -5
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 13.800000190734863
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 11.5
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 2
+    entityflyrangemultiplier: 0.625
     id: 23027
+    kineticdamage: 13.800000190734863
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Caldari Navy Plutonium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 11.5
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.625
   Caldari Navy Plutonium Charge S:
-    CapNeedBonus: -5
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 6.900000095367432
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.75
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 1
+    entityflyrangemultiplier: 0.625
     id: 23011
+    kineticdamage: 6.900000095367432
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Caldari Navy Plutonium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.75
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.625
   Caldari Navy Thorium Charge L:
-    CapNeedBonus: -40
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 23.0
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 18.399999618530273
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 3
+    entityflyrangemultiplier: 0.875
     id: 23045
+    kineticdamage: 23.0
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Caldari Navy Thorium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 18.399999618530273
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.875
   Caldari Navy Thorium Charge M:
-    CapNeedBonus: -40
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 11.5
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 9.199999809265137
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 2
+    entityflyrangemultiplier: 0.875
     id: 23031
+    kineticdamage: 11.5
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Caldari Navy Thorium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.875
   Caldari Navy Thorium Charge S:
-    CapNeedBonus: -40
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 5.75
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.599999904632568
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 1
+    entityflyrangemultiplier: 0.875
     id: 23015
+    kineticdamage: 5.75
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Caldari Navy Thorium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.875
   Caldari Navy Tungsten Charge L:
-    CapNeedBonus: -27
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 18.399999618530273
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 9.199999809265137
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 3
+    entityflyrangemultiplier: 1.399999976158142
     id: 23051
+    kineticdamage: 18.399999618530273
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Caldari Navy Tungsten Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.399999976158142
   Caldari Navy Tungsten Charge M:
-    CapNeedBonus: -27
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 9.199999809265137
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.599999904632568
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 2
+    entityflyrangemultiplier: 1.399999976158142
     id: 23037
+    kineticdamage: 9.199999809265137
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Caldari Navy Tungsten Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.399999976158142
   Caldari Navy Tungsten Charge S:
-    CapNeedBonus: -27
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 4.599999904632568
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.299999952316284
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 1
+    entityflyrangemultiplier: 1.399999976158142
     id: 23021
+    kineticdamage: 4.599999904632568
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Caldari Navy Tungsten Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.299999952316284
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.399999976158142
   Caldari Navy Uranium Charge L:
-    CapNeedBonus: -8
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 27.600000381469727
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 18.399999618530273
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 3
+    entityflyrangemultiplier: 0.75
     id: 23043
+    kineticdamage: 27.600000381469727
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Caldari Navy Uranium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 18.399999618530273
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.75
   Caldari Navy Uranium Charge M:
-    CapNeedBonus: -8
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 13.800000190734863
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 9.199999809265137
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 2
+    entityflyrangemultiplier: 0.75
     id: 23029
+    kineticdamage: 13.800000190734863
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Caldari Navy Uranium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.75
   Caldari Navy Uranium Charge S:
-    CapNeedBonus: -8
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 6.900000095367432
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.599999904632568
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 1
+    entityflyrangemultiplier: 0.75
     id: 23013
+    kineticdamage: 6.900000095367432
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Caldari Navy Uranium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.75
   Dread Guristas Antimatter Charge L:
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 33.599998474121094
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 24.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 3
+    entityflyrangemultiplier: 0.5
     id: 21430
+    kineticdamage: 33.599998474121094
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Dread Guristas Antimatter Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 24.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.5
   Dread Guristas Antimatter Charge M:
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 16.799999237060547
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 12.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 2
+    entityflyrangemultiplier: 0.5
     id: 21414
+    kineticdamage: 16.799999237060547
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Dread Guristas Antimatter Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 12.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.5
   Dread Guristas Antimatter Charge S:
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 8.399999618530273
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 1
+    entityflyrangemultiplier: 0.5
     id: 21398
+    kineticdamage: 8.399999618530273
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Dread Guristas Antimatter Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.5
   Dread Guristas Antimatter Charge XL:
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 67.19999694824219
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 48.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 4
+    entityflyrangemultiplier: 0.5
     id: 21432
+    kineticdamage: 67.19999694824219
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Dread Guristas Antimatter Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 48.0
     volume: 0.125
+    weaponrangemultiplier: 0.5
   Dread Guristas Iridium Charge L:
-    CapNeedBonus: -24
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 19.200000762939453
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 14.399999618530273
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 3
+    entityflyrangemultiplier: 1.2000000476837158
     id: 21420
+    kineticdamage: 19.200000762939453
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Dread Guristas Iridium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 14.399999618530273
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.2000000476837158
   Dread Guristas Iridium Charge M:
-    CapNeedBonus: -24
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 9.600000381469727
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 7.199999809265137
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 2
+    entityflyrangemultiplier: 1.2000000476837158
     id: 21404
+    kineticdamage: 9.600000381469727
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Dread Guristas Iridium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 7.199999809265137
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.2000000476837158
   Dread Guristas Iridium Charge S:
-    CapNeedBonus: -24
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 4.800000190734863
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.5999999046325684
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 1
+    entityflyrangemultiplier: 1.2000000476837158
     id: 21388
+    kineticdamage: 4.800000190734863
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Dread Guristas Iridium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.5999999046325684
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.2000000476837158
   Dread Guristas Iridium Charge XL:
-    CapNeedBonus: -24
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 38.400001525878906
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 28.799999237060547
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 4
+    entityflyrangemultiplier: 1.2000000476837158
     id: 21434
+    kineticdamage: 38.400001525878906
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Dread Guristas Iridium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 28.799999237060547
     volume: 0.125
+    weaponrangemultiplier: 1.2000000476837158
   Dread Guristas Iron Charge L:
-    CapNeedBonus: -30
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 14.399999618530273
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 9.600000381469727
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 3
+    entityflyrangemultiplier: 1.600000023841858
     id: 21416
+    kineticdamage: 14.399999618530273
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Dread Guristas Iron Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.600000023841858
   Dread Guristas Iron Charge M:
-    CapNeedBonus: -30
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 7.199999809265137
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.800000190734863
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 2
+    entityflyrangemultiplier: 1.600000023841858
     id: 21400
+    kineticdamage: 7.199999809265137
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Dread Guristas Iron Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.600000023841858
   Dread Guristas Iron Charge S:
-    CapNeedBonus: -30
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 3.5999999046325684
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.4000000953674316
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 1
+    entityflyrangemultiplier: 1.600000023841858
     id: 21384
+    kineticdamage: 3.5999999046325684
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Dread Guristas Iron Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.4000000953674316
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.600000023841858
   Dread Guristas Iron Charge XL:
-    CapNeedBonus: -30
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 28.799999237060547
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 19.200000762939453
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 4
+    entityflyrangemultiplier: 1.600000023841858
     id: 21436
+    kineticdamage: 28.799999237060547
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Dread Guristas Iron Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
     volume: 0.125
+    weaponrangemultiplier: 1.600000023841858
   Dread Guristas Lead Charge L:
-    CapNeedBonus: -50
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 24.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 14.399999618530273
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 3
+    entityflyrangemultiplier: 1.0
     id: 21422
+    kineticdamage: 24.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Dread Guristas Lead Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 14.399999618530273
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.0
   Dread Guristas Lead Charge M:
-    CapNeedBonus: -50
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 12.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 7.199999809265137
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 2
+    entityflyrangemultiplier: 1.0
     id: 21406
+    kineticdamage: 12.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Dread Guristas Lead Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 7.199999809265137
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.0
   Dread Guristas Lead Charge S:
-    CapNeedBonus: -50
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 6.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.5999999046325684
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 1
+    entityflyrangemultiplier: 1.0
     id: 21390
+    kineticdamage: 6.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Dread Guristas Lead Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.5999999046325684
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.0
   Dread Guristas Lead Charge XL:
-    CapNeedBonus: -50
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 48.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 28.799999237060547
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 4
+    entityflyrangemultiplier: 1.0
     id: 21438
+    kineticdamage: 48.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Dread Guristas Lead Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 28.799999237060547
     volume: 0.125
+    weaponrangemultiplier: 1.0
   Dread Guristas Plutonium Charge L:
-    CapNeedBonus: -5
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 28.799999237060547
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 24.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 3
+    entityflyrangemultiplier: 0.625
     id: 21428
+    kineticdamage: 28.799999237060547
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Dread Guristas Plutonium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 24.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.625
   Dread Guristas Plutonium Charge M:
-    CapNeedBonus: -5
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 14.399999618530273
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 12.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 2
+    entityflyrangemultiplier: 0.625
     id: 21412
+    kineticdamage: 14.399999618530273
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Dread Guristas Plutonium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 12.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.625
   Dread Guristas Plutonium Charge S:
-    CapNeedBonus: -5
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 7.199999809265137
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 1
+    entityflyrangemultiplier: 0.625
     id: 21396
+    kineticdamage: 7.199999809265137
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Dread Guristas Plutonium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.625
   Dread Guristas Plutonium Charge XL:
-    CapNeedBonus: -5
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 57.599998474121094
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 48.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 4
+    entityflyrangemultiplier: 0.625
     id: 21440
+    kineticdamage: 57.599998474121094
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Dread Guristas Plutonium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 48.0
     volume: 0.125
+    weaponrangemultiplier: 0.625
   Dread Guristas Thorium Charge L:
-    CapNeedBonus: -40
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 24.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 19.200000762939453
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 3
+    entityflyrangemultiplier: 0.875
     id: 21424
+    kineticdamage: 24.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Dread Guristas Thorium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.875
   Dread Guristas Thorium Charge M:
-    CapNeedBonus: -40
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 12.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 9.600000381469727
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 2
+    entityflyrangemultiplier: 0.875
     id: 21408
+    kineticdamage: 12.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Dread Guristas Thorium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.875
   Dread Guristas Thorium Charge S:
-    CapNeedBonus: -40
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 6.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.800000190734863
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 1
+    entityflyrangemultiplier: 0.875
     id: 21392
+    kineticdamage: 6.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Dread Guristas Thorium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.875
   Dread Guristas Thorium Charge XL:
-    CapNeedBonus: -40
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 48.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 38.400001525878906
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 4
+    entityflyrangemultiplier: 0.875
     id: 21442
+    kineticdamage: 48.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Dread Guristas Thorium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 38.400001525878906
     volume: 0.125
+    weaponrangemultiplier: 0.875
   Dread Guristas Tungsten Charge L:
-    CapNeedBonus: -27
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 19.200000762939453
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 9.600000381469727
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 3
+    entityflyrangemultiplier: 1.399999976158142
     id: 21418
+    kineticdamage: 19.200000762939453
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Dread Guristas Tungsten Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.399999976158142
   Dread Guristas Tungsten Charge M:
-    CapNeedBonus: -27
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 9.600000381469727
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.800000190734863
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 2
+    entityflyrangemultiplier: 1.399999976158142
     id: 21402
+    kineticdamage: 9.600000381469727
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Dread Guristas Tungsten Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.399999976158142
   Dread Guristas Tungsten Charge S:
-    CapNeedBonus: -27
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 4.800000190734863
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.4000000953674316
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 1
+    entityflyrangemultiplier: 1.399999976158142
     id: 21386
+    kineticdamage: 4.800000190734863
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Dread Guristas Tungsten Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.4000000953674316
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.399999976158142
   Dread Guristas Tungsten Charge XL:
-    CapNeedBonus: -27
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 38.400001525878906
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 19.200000762939453
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 4
+    entityflyrangemultiplier: 1.399999976158142
     id: 21444
+    kineticdamage: 38.400001525878906
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Dread Guristas Tungsten Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
     volume: 0.125
+    weaponrangemultiplier: 1.399999976158142
   Dread Guristas Uranium Charge L:
-    CapNeedBonus: -8
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 28.799999237060547
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 19.200000762939453
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 3
+    entityflyrangemultiplier: 0.75
     id: 21426
+    kineticdamage: 28.799999237060547
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Dread Guristas Uranium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.75
   Dread Guristas Uranium Charge M:
-    CapNeedBonus: -8
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 14.399999618530273
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 9.600000381469727
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 2
+    entityflyrangemultiplier: 0.75
     id: 21410
+    kineticdamage: 14.399999618530273
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Dread Guristas Uranium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.75
   Dread Guristas Uranium Charge S:
-    CapNeedBonus: -8
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 7.199999809265137
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.800000190734863
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 1
+    entityflyrangemultiplier: 0.75
     id: 21394
+    kineticdamage: 7.199999809265137
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Dread Guristas Uranium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.75
   Dread Guristas Uranium Charge XL:
-    CapNeedBonus: -8
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 57.599998474121094
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 38.400001525878906
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 4
+    entityflyrangemultiplier: 0.75
     id: 21446
+    kineticdamage: 57.599998474121094
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Dread Guristas Uranium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 38.400001525878906
     volume: 0.125
+    weaponrangemultiplier: 0.75
   Federation Navy Antimatter Charge L:
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 32.20000076293945
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 23.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 3
+    entityflyrangemultiplier: 0.5
     id: 22993
+    kineticdamage: 32.20000076293945
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Federation Navy Antimatter Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 23.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.5
   Federation Navy Antimatter Charge M:
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 16.100000381469727
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 11.5
-    WeaponRangeMultiplier: 0.5
+    chargesize: 2
+    entityflyrangemultiplier: 0.5
     id: 22977
+    kineticdamage: 16.100000381469727
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Federation Navy Antimatter Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 11.5
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.5
   Federation Navy Antimatter Charge S:
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 8.050000190734863
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.75
-    WeaponRangeMultiplier: 0.5
+    chargesize: 1
+    entityflyrangemultiplier: 0.5
     id: 22961
+    kineticdamage: 8.050000190734863
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Federation Navy Antimatter Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.75
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.5
   Federation Navy Iridium Charge L:
-    CapNeedBonus: -24
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 18.399999618530273
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 13.800000190734863
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 3
+    entityflyrangemultiplier: 1.2000000476837158
     id: 23003
+    kineticdamage: 18.399999618530273
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Federation Navy Iridium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 13.800000190734863
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.2000000476837158
   Federation Navy Iridium Charge M:
-    CapNeedBonus: -24
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 9.199999809265137
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.900000095367432
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 2
+    entityflyrangemultiplier: 1.2000000476837158
     id: 22987
+    kineticdamage: 9.199999809265137
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Federation Navy Iridium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.900000095367432
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.2000000476837158
   Federation Navy Iridium Charge S:
-    CapNeedBonus: -24
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 4.599999904632568
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.450000047683716
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 1
+    entityflyrangemultiplier: 1.2000000476837158
     id: 22971
+    kineticdamage: 4.599999904632568
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Federation Navy Iridium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.450000047683716
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.2000000476837158
   Federation Navy Iron Charge L:
-    CapNeedBonus: -30
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 13.800000190734863
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 9.199999809265137
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 3
+    entityflyrangemultiplier: 1.600000023841858
     id: 23007
+    kineticdamage: 13.800000190734863
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Federation Navy Iron Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.600000023841858
   Federation Navy Iron Charge M:
-    CapNeedBonus: -30
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 6.900000095367432
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.599999904632568
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 2
+    entityflyrangemultiplier: 1.600000023841858
     id: 22991
+    kineticdamage: 6.900000095367432
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Federation Navy Iron Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.600000023841858
   Federation Navy Iron Charge S:
-    CapNeedBonus: -30
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 3.450000047683716
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.299999952316284
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 1
+    entityflyrangemultiplier: 1.600000023841858
     id: 22975
+    kineticdamage: 3.450000047683716
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Federation Navy Iron Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.299999952316284
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.600000023841858
   Federation Navy Lead Charge L:
-    CapNeedBonus: -50
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 23.0
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 13.800000190734863
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 3
+    entityflyrangemultiplier: 1.0
     id: 23001
+    kineticdamage: 23.0
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Federation Navy Lead Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 13.800000190734863
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.0
   Federation Navy Lead Charge M:
-    CapNeedBonus: -50
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 11.5
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.900000095367432
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 2
+    entityflyrangemultiplier: 1.0
     id: 22985
+    kineticdamage: 11.5
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Federation Navy Lead Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.900000095367432
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.0
   Federation Navy Lead Charge S:
-    CapNeedBonus: -50
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 5.75
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.450000047683716
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 1
+    entityflyrangemultiplier: 1.0
     id: 22969
+    kineticdamage: 5.75
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Federation Navy Lead Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.450000047683716
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.0
   Federation Navy Plutonium Charge L:
-    CapNeedBonus: -5
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 27.600000381469727
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 23.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 3
+    entityflyrangemultiplier: 0.625
     id: 22995
+    kineticdamage: 27.600000381469727
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Federation Navy Plutonium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 23.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.625
   Federation Navy Plutonium Charge M:
-    CapNeedBonus: -5
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 13.800000190734863
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 11.5
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 2
+    entityflyrangemultiplier: 0.625
     id: 22979
+    kineticdamage: 13.800000190734863
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Federation Navy Plutonium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 11.5
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.625
   Federation Navy Plutonium Charge S:
-    CapNeedBonus: -5
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 6.900000095367432
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.75
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 1
+    entityflyrangemultiplier: 0.625
     id: 22963
+    kineticdamage: 6.900000095367432
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Federation Navy Plutonium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.75
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.625
   Federation Navy Thorium Charge L:
-    CapNeedBonus: -40
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 23.0
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 18.399999618530273
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 3
+    entityflyrangemultiplier: 0.875
     id: 22999
+    kineticdamage: 23.0
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Federation Navy Thorium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 18.399999618530273
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.875
   Federation Navy Thorium Charge M:
-    CapNeedBonus: -40
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 11.5
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 9.199999809265137
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 2
+    entityflyrangemultiplier: 0.875
     id: 22983
+    kineticdamage: 11.5
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Federation Navy Thorium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.875
   Federation Navy Thorium Charge S:
-    CapNeedBonus: -40
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 5.75
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.599999904632568
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 1
+    entityflyrangemultiplier: 0.875
     id: 22967
+    kineticdamage: 5.75
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Federation Navy Thorium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.875
   Federation Navy Tungsten Charge L:
-    CapNeedBonus: -27
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 18.399999618530273
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 9.199999809265137
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 3
+    entityflyrangemultiplier: 1.399999976158142
     id: 23005
+    kineticdamage: 18.399999618530273
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Federation Navy Tungsten Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.399999976158142
   Federation Navy Tungsten Charge M:
-    CapNeedBonus: -27
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 9.199999809265137
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.599999904632568
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 2
+    entityflyrangemultiplier: 1.399999976158142
     id: 22989
+    kineticdamage: 9.199999809265137
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Federation Navy Tungsten Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.399999976158142
   Federation Navy Tungsten Charge S:
-    CapNeedBonus: -27
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 4.599999904632568
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.299999952316284
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 1
+    entityflyrangemultiplier: 1.399999976158142
     id: 22973
+    kineticdamage: 4.599999904632568
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Federation Navy Tungsten Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.299999952316284
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.399999976158142
   Federation Navy Uranium Charge L:
-    CapNeedBonus: -8
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 27.600000381469727
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 18.399999618530273
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 3
+    entityflyrangemultiplier: 0.75
     id: 22997
+    kineticdamage: 27.600000381469727
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Federation Navy Uranium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 18.399999618530273
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.75
   Federation Navy Uranium Charge M:
-    CapNeedBonus: -8
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 13.800000190734863
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 9.199999809265137
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 2
+    entityflyrangemultiplier: 0.75
     id: 22981
+    kineticdamage: 13.800000190734863
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Federation Navy Uranium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.199999809265137
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.75
   Federation Navy Uranium Charge S:
-    CapNeedBonus: -8
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 6.900000095367432
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.599999904632568
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 1
+    entityflyrangemultiplier: 0.75
     id: 22965
+    kineticdamage: 6.900000095367432
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Federation Navy Uranium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.599999904632568
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.75
   Guardian Antimatter Charge L:
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 33.599998474121094
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 24.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 3
+    entityflyrangemultiplier: 0.5
     id: 20991
+    kineticdamage: 33.599998474121094
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guardian Antimatter Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 24.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.5
   Guardian Antimatter Charge M:
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 16.799999237060547
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 12.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 2
+    entityflyrangemultiplier: 0.5
     id: 20975
+    kineticdamage: 16.799999237060547
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guardian Antimatter Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 12.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.5
   Guardian Antimatter Charge S:
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 8.399999618530273
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 1
+    entityflyrangemultiplier: 0.5
     id: 20959
+    kineticdamage: 8.399999618530273
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guardian Antimatter Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.5
   Guardian Antimatter Charge XL:
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 67.19999694824219
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 48.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 4
+    entityflyrangemultiplier: 0.5
     id: 20993
+    kineticdamage: 67.19999694824219
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guardian Antimatter Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 48.0
     volume: 0.125
+    weaponrangemultiplier: 0.5
   Guardian Iridium Charge L:
-    CapNeedBonus: -24
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 19.200000762939453
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 14.399999618530273
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 3
+    entityflyrangemultiplier: 1.2000000476837158
     id: 20981
+    kineticdamage: 19.200000762939453
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guardian Iridium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 14.399999618530273
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.2000000476837158
   Guardian Iridium Charge M:
-    CapNeedBonus: -24
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 9.600000381469727
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 7.199999809265137
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 2
+    entityflyrangemultiplier: 1.2000000476837158
     id: 20965
+    kineticdamage: 9.600000381469727
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guardian Iridium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 7.199999809265137
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.2000000476837158
   Guardian Iridium Charge S:
-    CapNeedBonus: -24
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 4.800000190734863
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.5999999046325684
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 1
+    entityflyrangemultiplier: 1.2000000476837158
     id: 20949
+    kineticdamage: 4.800000190734863
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guardian Iridium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.5999999046325684
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.2000000476837158
   Guardian Iridium Charge XL:
-    CapNeedBonus: -24
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 38.400001525878906
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 28.799999237060547
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 4
+    entityflyrangemultiplier: 1.2000000476837158
     id: 20995
+    kineticdamage: 38.400001525878906
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guardian Iridium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 28.799999237060547
     volume: 0.125
+    weaponrangemultiplier: 1.2000000476837158
   Guardian Iron Charge L:
-    CapNeedBonus: -30
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 14.399999618530273
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 9.600000381469727
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 3
+    entityflyrangemultiplier: 1.600000023841858
     id: 20977
+    kineticdamage: 14.399999618530273
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guardian Iron Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.600000023841858
   Guardian Iron Charge M:
-    CapNeedBonus: -30
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 7.199999809265137
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.800000190734863
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 2
+    entityflyrangemultiplier: 1.600000023841858
     id: 20961
+    kineticdamage: 7.199999809265137
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guardian Iron Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.600000023841858
   Guardian Iron Charge S:
-    CapNeedBonus: -30
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 3.5999999046325684
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.4000000953674316
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 1
+    entityflyrangemultiplier: 1.600000023841858
     id: 20945
+    kineticdamage: 3.5999999046325684
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guardian Iron Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.4000000953674316
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.600000023841858
   Guardian Iron Charge XL:
-    CapNeedBonus: -30
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 28.799999237060547
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 19.200000762939453
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 4
+    entityflyrangemultiplier: 1.600000023841858
     id: 20997
+    kineticdamage: 28.799999237060547
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guardian Iron Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
     volume: 0.125
+    weaponrangemultiplier: 1.600000023841858
   Guardian Lead Charge L:
-    CapNeedBonus: -50
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 24.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 14.399999618530273
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 3
+    entityflyrangemultiplier: 1.0
     id: 20983
+    kineticdamage: 24.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guardian Lead Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 14.399999618530273
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.0
   Guardian Lead Charge M:
-    CapNeedBonus: -50
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 12.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 7.199999809265137
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 2
+    entityflyrangemultiplier: 1.0
     id: 20967
+    kineticdamage: 12.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guardian Lead Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 7.199999809265137
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.0
   Guardian Lead Charge S:
-    CapNeedBonus: -50
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 6.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.5999999046325684
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 1
+    entityflyrangemultiplier: 1.0
     id: 20951
+    kineticdamage: 6.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guardian Lead Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.5999999046325684
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.0
   Guardian Lead Charge XL:
-    CapNeedBonus: -50
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 48.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 28.799999237060547
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 4
+    entityflyrangemultiplier: 1.0
     id: 20999
+    kineticdamage: 48.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guardian Lead Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 28.799999237060547
     volume: 0.125
+    weaponrangemultiplier: 1.0
   Guardian Plutonium Charge L:
-    CapNeedBonus: -5
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 28.799999237060547
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 24.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 3
+    entityflyrangemultiplier: 0.625
     id: 20989
+    kineticdamage: 28.799999237060547
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guardian Plutonium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 24.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.625
   Guardian Plutonium Charge M:
-    CapNeedBonus: -5
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 14.399999618530273
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 12.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 2
+    entityflyrangemultiplier: 0.625
     id: 20973
+    kineticdamage: 14.399999618530273
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guardian Plutonium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 12.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.625
   Guardian Plutonium Charge S:
-    CapNeedBonus: -5
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 7.199999809265137
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 1
+    entityflyrangemultiplier: 0.625
     id: 20957
+    kineticdamage: 7.199999809265137
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guardian Plutonium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.625
   Guardian Plutonium Charge XL:
-    CapNeedBonus: -5
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 57.599998474121094
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 48.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 4
+    entityflyrangemultiplier: 0.625
     id: 21001
+    kineticdamage: 57.599998474121094
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guardian Plutonium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 48.0
     volume: 0.125
+    weaponrangemultiplier: 0.625
   Guardian Thorium Charge L:
-    CapNeedBonus: -40
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 24.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 19.200000762939453
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 3
+    entityflyrangemultiplier: 0.875
     id: 20985
+    kineticdamage: 24.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guardian Thorium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.875
   Guardian Thorium Charge M:
-    CapNeedBonus: -40
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 12.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 9.600000381469727
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 2
+    entityflyrangemultiplier: 0.875
     id: 20969
+    kineticdamage: 12.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guardian Thorium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.875
   Guardian Thorium Charge S:
-    CapNeedBonus: -40
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 6.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.800000190734863
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 1
+    entityflyrangemultiplier: 0.875
     id: 20953
+    kineticdamage: 6.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guardian Thorium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.875
   Guardian Thorium Charge XL:
-    CapNeedBonus: -40
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 48.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 38.400001525878906
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 4
+    entityflyrangemultiplier: 0.875
     id: 21003
+    kineticdamage: 48.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guardian Thorium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 38.400001525878906
     volume: 0.125
+    weaponrangemultiplier: 0.875
   Guardian Tungsten Charge L:
-    CapNeedBonus: -27
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 19.200000762939453
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 9.600000381469727
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 3
+    entityflyrangemultiplier: 1.399999976158142
     id: 20979
+    kineticdamage: 19.200000762939453
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guardian Tungsten Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.399999976158142
   Guardian Tungsten Charge M:
-    CapNeedBonus: -27
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 9.600000381469727
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.800000190734863
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 2
+    entityflyrangemultiplier: 1.399999976158142
     id: 20963
+    kineticdamage: 9.600000381469727
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guardian Tungsten Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.399999976158142
   Guardian Tungsten Charge S:
-    CapNeedBonus: -27
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 4.800000190734863
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.4000000953674316
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 1
+    entityflyrangemultiplier: 1.399999976158142
     id: 20947
+    kineticdamage: 4.800000190734863
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guardian Tungsten Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.4000000953674316
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.399999976158142
   Guardian Tungsten Charge XL:
-    CapNeedBonus: -27
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 38.400001525878906
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 19.200000762939453
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 4
+    entityflyrangemultiplier: 1.399999976158142
     id: 21005
+    kineticdamage: 38.400001525878906
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guardian Tungsten Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
     volume: 0.125
+    weaponrangemultiplier: 1.399999976158142
   Guardian Uranium Charge L:
-    CapNeedBonus: -8
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 28.799999237060547
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 19.200000762939453
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 3
+    entityflyrangemultiplier: 0.75
     id: 20987
+    kineticdamage: 28.799999237060547
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 991
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guardian Uranium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 19.200000762939453
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.75
   Guardian Uranium Charge M:
-    CapNeedBonus: -8
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 14.399999618530273
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 9.600000381469727
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 2
+    entityflyrangemultiplier: 0.75
     id: 20971
+    kineticdamage: 14.399999618530273
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 992
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guardian Uranium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 9.600000381469727
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.75
   Guardian Uranium Charge S:
-    CapNeedBonus: -8
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 7.199999809265137
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.800000190734863
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 1
+    entityflyrangemultiplier: 0.75
     id: 20955
+    kineticdamage: 7.199999809265137
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guardian Uranium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.800000190734863
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.75
   Guardian Uranium Charge XL:
-    CapNeedBonus: -8
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 57.599998474121094
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 38.400001525878906
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 4
+    entityflyrangemultiplier: 0.75
     id: 21007
+    kineticdamage: 57.599998474121094
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guardian Uranium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 38.400001525878906
     volume: 0.125
+    weaponrangemultiplier: 0.75
   Guristas Antimatter Charge L:
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 30.799999237060547
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 22.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 3
+    entityflyrangemultiplier: 0.5
     id: 21366
+    kineticdamage: 30.799999237060547
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guristas Antimatter Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 22.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.5
   Guristas Antimatter Charge M:
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 15.399999618530273
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 11.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 2
+    entityflyrangemultiplier: 0.5
     id: 21350
+    kineticdamage: 15.399999618530273
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.5
+    metagroupid: 4
     name: Guristas Antimatter Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 11.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.5
   Guristas Antimatter Charge S:
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 7.699999809265137
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.5
-    WeaponRangeMultiplier: 0.5
+    chargesize: 1
+    entityflyrangemultiplier: 0.5
     id: 21334
+    kineticdamage: 7.699999809265137
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guristas Antimatter Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.5
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.5
   Guristas Antimatter Charge XL:
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 61.599998474121094
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 44.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 4
+    entityflyrangemultiplier: 0.5
     id: 21368
+    kineticdamage: 61.599998474121094
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 1004
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guristas Antimatter Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 44.0
     volume: 0.125
+    weaponrangemultiplier: 0.5
   Guristas Iridium Charge L:
-    CapNeedBonus: -24
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 17.600000381469727
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 13.199999809265137
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 3
+    entityflyrangemultiplier: 1.2000000476837158
     id: 21356
+    kineticdamage: 17.600000381469727
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 991
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guristas Iridium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.199999809265137
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.2000000476837158
   Guristas Iridium Charge M:
-    CapNeedBonus: -24
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 8.800000190734863
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 6.599999904632568
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 2
+    entityflyrangemultiplier: 1.2000000476837158
     id: 21340
+    kineticdamage: 8.800000190734863
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 992
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guristas Iridium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 6.599999904632568
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.2000000476837158
   Guristas Iridium Charge S:
-    CapNeedBonus: -24
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 4.400000095367432
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.299999952316284
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 1
+    entityflyrangemultiplier: 1.2000000476837158
     id: 21324
+    kineticdamage: 4.400000095367432
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guristas Iridium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.299999952316284
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.2000000476837158
   Guristas Iridium Charge XL:
-    CapNeedBonus: -24
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 35.20000076293945
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 26.399999618530273
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 4
+    entityflyrangemultiplier: 1.2000000476837158
     id: 21370
+    kineticdamage: 35.20000076293945
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 1004
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guristas Iridium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 26.399999618530273
     volume: 0.125
+    weaponrangemultiplier: 1.2000000476837158
   Guristas Iron Charge L:
-    CapNeedBonus: -30
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 13.199999809265137
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 8.800000190734863
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 3
+    entityflyrangemultiplier: 1.600000023841858
     id: 21352
+    kineticdamage: 13.199999809265137
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 991
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guristas Iron Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.600000023841858
   Guristas Iron Charge M:
-    CapNeedBonus: -30
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 6.599999904632568
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 4.400000095367432
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 2
+    entityflyrangemultiplier: 1.600000023841858
     id: 21336
+    kineticdamage: 6.599999904632568
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 992
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guristas Iron Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.600000023841858
   Guristas Iron Charge S:
-    CapNeedBonus: -30
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 3.299999952316284
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.200000047683716
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 1
+    entityflyrangemultiplier: 1.600000023841858
     id: 21320
+    kineticdamage: 3.299999952316284
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guristas Iron Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.200000047683716
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.600000023841858
   Guristas Iron Charge XL:
-    CapNeedBonus: -30
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 26.399999618530273
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 17.600000381469727
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 4
+    entityflyrangemultiplier: 1.600000023841858
     id: 21372
+    kineticdamage: 26.399999618530273
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 1004
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guristas Iron Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
     volume: 0.125
+    weaponrangemultiplier: 1.600000023841858
   Guristas Lead Charge L:
-    CapNeedBonus: -50
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 22.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 13.199999809265137
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 3
+    entityflyrangemultiplier: 1.0
     id: 21358
+    kineticdamage: 22.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 991
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guristas Lead Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.199999809265137
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.0
   Guristas Lead Charge M:
-    CapNeedBonus: -50
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 11.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 6.599999904632568
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 2
+    entityflyrangemultiplier: 1.0
     id: 21342
+    kineticdamage: 11.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 992
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guristas Lead Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 6.599999904632568
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.0
   Guristas Lead Charge S:
-    CapNeedBonus: -50
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 5.5
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.299999952316284
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 1
+    entityflyrangemultiplier: 1.0
     id: 21326
+    kineticdamage: 5.5
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guristas Lead Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.299999952316284
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.0
   Guristas Lead Charge XL:
-    CapNeedBonus: -50
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 44.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 26.399999618530273
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 4
+    entityflyrangemultiplier: 1.0
     id: 21374
+    kineticdamage: 44.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 1004
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guristas Lead Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 26.399999618530273
     volume: 0.125
+    weaponrangemultiplier: 1.0
   Guristas Plutonium Charge L:
-    CapNeedBonus: -5
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 26.399999618530273
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 22.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 3
+    entityflyrangemultiplier: 0.625
     id: 21364
+    kineticdamage: 26.399999618530273
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 991
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guristas Plutonium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 22.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.625
   Guristas Plutonium Charge M:
-    CapNeedBonus: -5
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 13.199999809265137
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 11.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 2
+    entityflyrangemultiplier: 0.625
     id: 21348
+    kineticdamage: 13.199999809265137
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 992
-    mass: 0.5
+    metagroupid: 4
     name: Guristas Plutonium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 11.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.625
   Guristas Plutonium Charge S:
-    CapNeedBonus: -5
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 6.599999904632568
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.5
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 1
+    entityflyrangemultiplier: 0.625
     id: 21332
+    kineticdamage: 6.599999904632568
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 993
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guristas Plutonium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.5
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.625
   Guristas Plutonium Charge XL:
-    CapNeedBonus: -5
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 52.79999923706055
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 44.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 4
+    entityflyrangemultiplier: 0.625
     id: 21376
+    kineticdamage: 52.79999923706055
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guristas Plutonium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 44.0
     volume: 0.125
+    weaponrangemultiplier: 0.625
   Guristas Thorium Charge L:
-    CapNeedBonus: -40
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 22.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 17.600000381469727
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 3
+    entityflyrangemultiplier: 0.875
     id: 21360
+    kineticdamage: 22.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 991
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guristas Thorium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.875
   Guristas Thorium Charge M:
-    CapNeedBonus: -40
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 11.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 8.800000190734863
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 2
+    entityflyrangemultiplier: 0.875
     id: 21344
+    kineticdamage: 11.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 992
-    mass: 0.5
+    metagroupid: 4
     name: Guristas Thorium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.875
   Guristas Thorium Charge S:
-    CapNeedBonus: -40
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 5.5
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.400000095367432
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 1
+    entityflyrangemultiplier: 0.875
     id: 21328
+    kineticdamage: 5.5
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 993
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guristas Thorium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.875
   Guristas Thorium Charge XL:
-    CapNeedBonus: -40
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 44.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 35.20000076293945
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 4
+    entityflyrangemultiplier: 0.875
     id: 21378
+    kineticdamage: 44.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guristas Thorium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 35.20000076293945
     volume: 0.125
+    weaponrangemultiplier: 0.875
   Guristas Tungsten Charge L:
-    CapNeedBonus: -27
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 17.600000381469727
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 8.800000190734863
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 3
+    entityflyrangemultiplier: 1.399999976158142
     id: 21354
+    kineticdamage: 17.600000381469727
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 991
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guristas Tungsten Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.399999976158142
   Guristas Tungsten Charge M:
-    CapNeedBonus: -27
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 8.800000190734863
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 4.400000095367432
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 2
+    entityflyrangemultiplier: 1.399999976158142
     id: 21338
+    kineticdamage: 8.800000190734863
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 992
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Guristas Tungsten Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.399999976158142
   Guristas Tungsten Charge S:
-    CapNeedBonus: -27
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 4.400000095367432
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.200000047683716
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 1
+    entityflyrangemultiplier: 1.399999976158142
     id: 21322
+    kineticdamage: 4.400000095367432
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Guristas Tungsten Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.200000047683716
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.399999976158142
   Guristas Tungsten Charge XL:
-    CapNeedBonus: -27
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 35.20000076293945
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 17.600000381469727
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 4
+    entityflyrangemultiplier: 1.399999976158142
     id: 21380
+    kineticdamage: 35.20000076293945
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guristas Tungsten Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
     volume: 0.125
+    weaponrangemultiplier: 1.399999976158142
   Guristas Uranium Charge L:
-    CapNeedBonus: -8
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 26.399999618530273
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 17.600000381469727
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 3
+    entityflyrangemultiplier: 0.75
     id: 21362
+    kineticdamage: 26.399999618530273
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 991
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guristas Uranium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.75
   Guristas Uranium Charge M:
-    CapNeedBonus: -8
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 13.199999809265137
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 8.800000190734863
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 2
+    entityflyrangemultiplier: 0.75
     id: 21346
+    kineticdamage: 13.199999809265137
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 992
-    mass: 0.5
+    metagroupid: 4
     name: Guristas Uranium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.75
   Guristas Uranium Charge S:
-    CapNeedBonus: -8
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 6.599999904632568
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.400000095367432
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 1
+    entityflyrangemultiplier: 0.75
     id: 21330
+    kineticdamage: 6.599999904632568
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 993
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Guristas Uranium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.75
   Guristas Uranium Charge XL:
-    CapNeedBonus: -8
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 52.79999923706055
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 35.20000076293945
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 4
+    entityflyrangemultiplier: 0.75
     id: 21382
+    kineticdamage: 52.79999923706055
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Guristas Uranium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 35.20000076293945
     volume: 0.125
+    weaponrangemultiplier: 0.75
   Iridium Charge L:
-    CapNeedBonus: -24
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 16.0
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.10000000149011612
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 12.0
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 3
+    entityflyrangemultiplier: 1.2000000476837158
     id: 233
+    kineticdamage: 16.0
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 106
-    mass: 0.10000000149011612
     name: Iridium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 12.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.2000000476837158
   Iridium Charge M:
-    CapNeedBonus: -24
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 8.0
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.05000000074505806
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.0
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 2
+    entityflyrangemultiplier: 1.2000000476837158
     id: 225
+    kineticdamage: 8.0
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 108
-    mass: 0.05000000074505806
     name: Iridium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.2000000476837158
   Iridium Charge S:
-    CapNeedBonus: -24
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 4.0
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.0
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 1
+    entityflyrangemultiplier: 1.2000000476837158
     id: 217
+    kineticdamage: 4.0
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 107
-    mass: 0.009999999776482582
     name: Iridium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.2000000476837158
   Iridium Charge XL:
-    CapNeedBonus: -24
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 32.0
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.5
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 24.0
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 4
+    entityflyrangemultiplier: 1.2000000476837158
     id: 17650
+    kineticdamage: 32.0
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 504
-    mass: 0.5
     name: Iridium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 24.0
     volume: 0.125
+    weaponrangemultiplier: 1.2000000476837158
   Iron Charge L:
-    CapNeedBonus: -30
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 12.0
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.10000000149011612
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 8.0
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 3
+    entityflyrangemultiplier: 1.600000023841858
     id: 231
+    kineticdamage: 12.0
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 106
-    mass: 0.10000000149011612
     name: Iron Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 8.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.600000023841858
   Iron Charge M:
-    CapNeedBonus: -30
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 6.0
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.05000000074505806
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.0
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 2
+    entityflyrangemultiplier: 1.600000023841858
     id: 223
+    kineticdamage: 6.0
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 108
-    mass: 0.05000000074505806
     name: Iron Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.600000023841858
   Iron Charge S:
-    CapNeedBonus: -30
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 3.0
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.0
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 1
+    entityflyrangemultiplier: 1.600000023841858
     id: 215
+    kineticdamage: 3.0
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 107
-    mass: 0.009999999776482582
     name: Iron Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.600000023841858
   Iron Charge XL:
-    CapNeedBonus: -30
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 24.0
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.5
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 16.0
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 4
+    entityflyrangemultiplier: 1.600000023841858
     id: 17652
+    kineticdamage: 24.0
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 504
-    mass: 0.5
     name: Iron Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 16.0
     volume: 0.125
+    weaponrangemultiplier: 1.600000023841858
   Lead Charge L:
-    CapNeedBonus: -50
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 20.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.10000000149011612
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 12.0
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 3
+    entityflyrangemultiplier: 1.0
     id: 234
+    kineticdamage: 20.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 106
-    mass: 0.10000000149011612
     name: Lead Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 12.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.0
   Lead Charge M:
-    CapNeedBonus: -50
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 10.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.05000000074505806
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 6.0
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 2
+    entityflyrangemultiplier: 1.0
     id: 226
+    kineticdamage: 10.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 108
-    mass: 0.05000000074505806
     name: Lead Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 6.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.0
   Lead Charge S:
-    CapNeedBonus: -50
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 5.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.0
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 1
+    entityflyrangemultiplier: 1.0
     id: 218
+    kineticdamage: 5.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 107
-    mass: 0.009999999776482582
     name: Lead Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.0
   Lead Charge XL:
-    CapNeedBonus: -50
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 40.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.5
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 24.0
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 4
+    entityflyrangemultiplier: 1.0
     id: 17654
+    kineticdamage: 40.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 504
-    mass: 0.5
     name: Lead Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 24.0
     volume: 0.125
+    weaponrangemultiplier: 1.0
   Plutonium Charge L:
-    CapNeedBonus: -5
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 24.0
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.10000000149011612
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 20.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 3
+    entityflyrangemultiplier: 0.625
     id: 237
+    kineticdamage: 24.0
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 106
-    mass: 0.10000000149011612
     name: Plutonium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 20.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.625
   Plutonium Charge M:
-    CapNeedBonus: -5
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 12.0
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.05000000074505806
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 10.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 2
+    entityflyrangemultiplier: 0.625
     id: 229
+    kineticdamage: 12.0
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 108
-    mass: 0.05000000074505806
     name: Plutonium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 10.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.625
   Plutonium Charge S:
-    CapNeedBonus: -5
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 6.0
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 1
+    entityflyrangemultiplier: 0.625
     id: 221
+    kineticdamage: 6.0
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 107
-    mass: 0.009999999776482582
     name: Plutonium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.625
   Plutonium Charge XL:
-    CapNeedBonus: -5
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 48.0
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.5
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 40.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 4
+    entityflyrangemultiplier: 0.625
     id: 17656
+    kineticdamage: 48.0
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 504
-    mass: 0.5
     name: Plutonium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 40.0
     volume: 0.125
+    weaponrangemultiplier: 0.625
   Shadow Antimatter Charge L:
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 30.799999237060547
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 22.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 3
+    entityflyrangemultiplier: 0.5
     id: 20927
+    kineticdamage: 30.799999237060547
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 991
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Shadow Antimatter Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 22.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.5
   Shadow Antimatter Charge M:
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 15.399999618530273
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 11.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 2
+    entityflyrangemultiplier: 0.5
     id: 20057
+    kineticdamage: 15.399999618530273
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 992
-    mass: 0.5
+    metagroupid: 4
     name: Shadow Antimatter Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 11.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.5
   Shadow Antimatter Charge S:
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 7.699999809265137
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.5
-    WeaponRangeMultiplier: 0.5
+    chargesize: 1
+    entityflyrangemultiplier: 0.5
     id: 20040
+    kineticdamage: 7.699999809265137
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 993
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Shadow Antimatter Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.5
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.5
   Shadow Antimatter Charge XL:
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.5
-    KineticDamage: 61.599998474121094
-    LauncherGroup: 74
-    MainColor: 16764120
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 44.0
-    WeaponRangeMultiplier: 0.5
+    chargesize: 4
+    entityflyrangemultiplier: 0.5
     id: 20929
+    kineticdamage: 61.599998474121094
+    launchergroup: 74
+    maincolor: 16764120
     marketGroup: 1004
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Shadow Antimatter Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 44.0
     volume: 0.125
+    weaponrangemultiplier: 0.5
   Shadow Iridium Charge L:
-    CapNeedBonus: -24
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 17.600000381469727
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 13.199999809265137
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 3
+    entityflyrangemultiplier: 1.2000000476837158
     id: 20917
+    kineticdamage: 17.600000381469727
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 991
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Shadow Iridium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.199999809265137
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.2000000476837158
   Shadow Iridium Charge M:
-    CapNeedBonus: -24
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 8.800000190734863
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 6.599999904632568
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 2
+    entityflyrangemultiplier: 1.2000000476837158
     id: 20047
+    kineticdamage: 8.800000190734863
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 992
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Shadow Iridium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 6.599999904632568
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.2000000476837158
   Shadow Iridium Charge S:
-    CapNeedBonus: -24
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 4.400000095367432
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.299999952316284
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 1
+    entityflyrangemultiplier: 1.2000000476837158
     id: 19966
+    kineticdamage: 4.400000095367432
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Shadow Iridium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.299999952316284
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.2000000476837158
   Shadow Iridium Charge XL:
-    CapNeedBonus: -24
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.2000000476837158
-    KineticDamage: 35.20000076293945
-    LauncherGroup: 74
-    MainColor: 6201492
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 26.399999618530273
-    WeaponRangeMultiplier: 1.2000000476837158
+    capneedbonus: -24
+    chargesize: 4
+    entityflyrangemultiplier: 1.2000000476837158
     id: 20931
+    kineticdamage: 35.20000076293945
+    launchergroup: 74
+    maincolor: 6201492
     marketGroup: 1004
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Shadow Iridium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 26.399999618530273
     volume: 0.125
+    weaponrangemultiplier: 1.2000000476837158
   Shadow Iron Charge L:
-    CapNeedBonus: -30
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 13.199999809265137
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 8.800000190734863
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 3
+    entityflyrangemultiplier: 1.600000023841858
     id: 20913
+    kineticdamage: 13.199999809265137
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 991
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Shadow Iron Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.600000023841858
   Shadow Iron Charge M:
-    CapNeedBonus: -30
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 6.599999904632568
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 4.400000095367432
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 2
+    entityflyrangemultiplier: 1.600000023841858
     id: 20043
+    kineticdamage: 6.599999904632568
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 992
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Shadow Iron Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.600000023841858
   Shadow Iron Charge S:
-    CapNeedBonus: -30
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 3.299999952316284
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.200000047683716
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 1
+    entityflyrangemultiplier: 1.600000023841858
     id: 19962
+    kineticdamage: 3.299999952316284
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Shadow Iron Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.200000047683716
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.600000023841858
   Shadow Iron Charge XL:
-    CapNeedBonus: -30
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.600000023841858
-    KineticDamage: 26.399999618530273
-    LauncherGroup: 74
-    MainColor: 5202838
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 17.600000381469727
-    WeaponRangeMultiplier: 1.600000023841858
+    capneedbonus: -30
+    chargesize: 4
+    entityflyrangemultiplier: 1.600000023841858
     id: 20933
+    kineticdamage: 26.399999618530273
+    launchergroup: 74
+    maincolor: 5202838
     marketGroup: 1004
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Shadow Iron Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
     volume: 0.125
+    weaponrangemultiplier: 1.600000023841858
   Shadow Lead Charge L:
-    CapNeedBonus: -50
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 22.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 13.199999809265137
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 3
+    entityflyrangemultiplier: 1.0
     id: 20919
+    kineticdamage: 22.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 991
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Shadow Lead Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 13.199999809265137
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.0
   Shadow Lead Charge M:
-    CapNeedBonus: -50
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 11.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 6.599999904632568
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 2
+    entityflyrangemultiplier: 1.0
     id: 20049
+    kineticdamage: 11.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 992
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Shadow Lead Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 6.599999904632568
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.0
   Shadow Lead Charge S:
-    CapNeedBonus: -50
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 5.5
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 3.299999952316284
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 1
+    entityflyrangemultiplier: 1.0
     id: 19968
+    kineticdamage: 5.5
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Shadow Lead Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 3.299999952316284
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.0
   Shadow Lead Charge XL:
-    CapNeedBonus: -50
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.0
-    KineticDamage: 44.0
-    LauncherGroup: 74
-    MainColor: 8301159
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 26.399999618530273
-    WeaponRangeMultiplier: 1.0
+    capneedbonus: -50
+    chargesize: 4
+    entityflyrangemultiplier: 1.0
     id: 20935
+    kineticdamage: 44.0
+    launchergroup: 74
+    maincolor: 8301159
     marketGroup: 1004
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Shadow Lead Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 26.399999618530273
     volume: 0.125
+    weaponrangemultiplier: 1.0
   Shadow Plutonium Charge L:
-    CapNeedBonus: -5
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 26.399999618530273
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 22.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 3
+    entityflyrangemultiplier: 0.625
     id: 20925
+    kineticdamage: 26.399999618530273
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 991
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Shadow Plutonium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 22.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.625
   Shadow Plutonium Charge M:
-    CapNeedBonus: -5
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 13.199999809265137
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 11.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 2
+    entityflyrangemultiplier: 0.625
     id: 20055
+    kineticdamage: 13.199999809265137
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 992
-    mass: 0.5
+    metagroupid: 4
     name: Shadow Plutonium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 11.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.625
   Shadow Plutonium Charge S:
-    CapNeedBonus: -5
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 6.599999904632568
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 5.5
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 1
+    entityflyrangemultiplier: 0.625
     id: 20038
+    kineticdamage: 6.599999904632568
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 993
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Shadow Plutonium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 5.5
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.625
   Shadow Plutonium Charge XL:
-    CapNeedBonus: -5
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.625
-    KineticDamage: 52.79999923706055
-    LauncherGroup: 74
-    MainColor: 12487062
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 44.0
-    WeaponRangeMultiplier: 0.625
+    capneedbonus: -5
+    chargesize: 4
+    entityflyrangemultiplier: 0.625
     id: 20937
+    kineticdamage: 52.79999923706055
+    launchergroup: 74
+    maincolor: 12487062
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Shadow Plutonium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 44.0
     volume: 0.125
+    weaponrangemultiplier: 0.625
   Shadow Thorium Charge L:
-    CapNeedBonus: -40
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 22.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 17.600000381469727
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 3
+    entityflyrangemultiplier: 0.875
     id: 20921
+    kineticdamage: 22.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 991
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Shadow Thorium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.875
   Shadow Thorium Charge M:
-    CapNeedBonus: -40
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 11.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 8.800000190734863
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 2
+    entityflyrangemultiplier: 0.875
     id: 20051
+    kineticdamage: 11.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 992
-    mass: 0.5
+    metagroupid: 4
     name: Shadow Thorium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.875
   Shadow Thorium Charge S:
-    CapNeedBonus: -40
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 5.5
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.400000095367432
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 1
+    entityflyrangemultiplier: 0.875
     id: 20034
+    kineticdamage: 5.5
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 993
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Shadow Thorium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.875
   Shadow Thorium Charge XL:
-    CapNeedBonus: -40
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 44.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 35.20000076293945
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 4
+    entityflyrangemultiplier: 0.875
     id: 20939
+    kineticdamage: 44.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Shadow Thorium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 35.20000076293945
     volume: 0.125
+    weaponrangemultiplier: 0.875
   Shadow Tungsten Charge L:
-    CapNeedBonus: -27
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 17.600000381469727
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 8.800000190734863
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 3
+    entityflyrangemultiplier: 1.399999976158142
     id: 20915
+    kineticdamage: 17.600000381469727
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 991
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Shadow Tungsten Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.399999976158142
   Shadow Tungsten Charge M:
-    CapNeedBonus: -27
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 8.800000190734863
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.10000000149011612
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 4.400000095367432
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 2
+    entityflyrangemultiplier: 1.399999976158142
     id: 20045
+    kineticdamage: 8.800000190734863
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 992
-    mass: 0.10000000149011612
+    metagroupid: 4
     name: Shadow Tungsten Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.399999976158142
   Shadow Tungsten Charge S:
-    CapNeedBonus: -27
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 4.400000095367432
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.009999999776482582
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.200000047683716
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 1
+    entityflyrangemultiplier: 1.399999976158142
     id: 19964
+    kineticdamage: 4.400000095367432
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 993
-    mass: 0.009999999776482582
+    metagroupid: 4
     name: Shadow Tungsten Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.200000047683716
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.399999976158142
   Shadow Tungsten Charge XL:
-    CapNeedBonus: -27
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 35.20000076293945
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 17.600000381469727
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 4
+    entityflyrangemultiplier: 1.399999976158142
     id: 20941
+    kineticdamage: 35.20000076293945
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Shadow Tungsten Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
     volume: 0.125
+    weaponrangemultiplier: 1.399999976158142
   Shadow Uranium Charge L:
-    CapNeedBonus: -8
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 26.399999618530273
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 17.600000381469727
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 3
+    entityflyrangemultiplier: 0.75
     id: 20923
+    kineticdamage: 26.399999618530273
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 991
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Shadow Uranium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 17.600000381469727
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.75
   Shadow Uranium Charge M:
-    CapNeedBonus: -8
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 13.199999809265137
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 8.800000190734863
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 2
+    entityflyrangemultiplier: 0.75
     id: 20053
+    kineticdamage: 13.199999809265137
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 992
-    mass: 0.5
+    metagroupid: 4
     name: Shadow Uranium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 8.800000190734863
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.75
   Shadow Uranium Charge S:
-    CapNeedBonus: -8
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 6.599999904632568
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.05000000074505806
-    MetaGroupID: 4
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.400000095367432
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 1
+    entityflyrangemultiplier: 0.75
     id: 20036
+    kineticdamage: 6.599999904632568
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 993
-    mass: 0.05000000074505806
+    metagroupid: 4
     name: Shadow Uranium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.400000095367432
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.75
   Shadow Uranium Charge XL:
-    CapNeedBonus: -8
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 52.79999923706055
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.5
-    MetaGroupID: 4
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 35.20000076293945
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 4
+    entityflyrangemultiplier: 0.75
     id: 20943
+    kineticdamage: 52.79999923706055
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 1004
-    mass: 0.5
+    metagroupid: 4
     name: Shadow Uranium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 35.20000076293945
     volume: 0.125
+    weaponrangemultiplier: 0.75
   Thorium Charge L:
-    CapNeedBonus: -40
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 20.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.10000000149011612
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 16.0
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 3
+    entityflyrangemultiplier: 0.875
     id: 235
+    kineticdamage: 20.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 106
-    mass: 0.10000000149011612
     name: Thorium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 16.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.875
   Thorium Charge M:
-    CapNeedBonus: -40
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 10.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.05000000074505806
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 8.0
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 2
+    entityflyrangemultiplier: 0.875
     id: 227
+    kineticdamage: 10.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 108
-    mass: 0.05000000074505806
     name: Thorium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.875
   Thorium Charge S:
-    CapNeedBonus: -40
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 5.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.009999999776482582
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 4.0
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 1
+    entityflyrangemultiplier: 0.875
     id: 219
+    kineticdamage: 5.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 107
-    mass: 0.009999999776482582
     name: Thorium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 4.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.875
   Thorium Charge XL:
-    CapNeedBonus: -40
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.875
-    KineticDamage: 40.0
-    LauncherGroup: 74
-    MainColor: 10727277
-    Mass: 0.5
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 32.0
-    WeaponRangeMultiplier: 0.875
+    capneedbonus: -40
+    chargesize: 4
+    entityflyrangemultiplier: 0.875
     id: 17658
+    kineticdamage: 40.0
+    launchergroup: 74
+    maincolor: 10727277
     marketGroup: 504
-    mass: 0.5
     name: Thorium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 32.0
     volume: 0.125
+    weaponrangemultiplier: 0.875
   Tungsten Charge L:
-    CapNeedBonus: -27
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 16.0
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.10000000149011612
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 8.0
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 3
+    entityflyrangemultiplier: 1.399999976158142
     id: 232
+    kineticdamage: 16.0
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 106
-    mass: 0.10000000149011612
     name: Tungsten Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 8.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.399999976158142
   Tungsten Charge M:
-    CapNeedBonus: -27
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 8.0
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.05000000074505806
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.0
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 2
+    entityflyrangemultiplier: 1.399999976158142
     id: 224
+    kineticdamage: 8.0
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 108
-    mass: 0.05000000074505806
     name: Tungsten Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.399999976158142
   Tungsten Charge S:
-    CapNeedBonus: -27
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 4.0
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 2.0
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 1
+    entityflyrangemultiplier: 1.399999976158142
     id: 216
+    kineticdamage: 4.0
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 107
-    mass: 0.009999999776482582
     name: Tungsten Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 2.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.399999976158142
   Tungsten Charge XL:
-    CapNeedBonus: -27
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.399999976158142
-    KineticDamage: 32.0
-    LauncherGroup: 74
-    MainColor: 5801883
-    Mass: 0.5
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 16.0
-    WeaponRangeMultiplier: 1.399999976158142
+    capneedbonus: -27
+    chargesize: 4
+    entityflyrangemultiplier: 1.399999976158142
     id: 17660
+    kineticdamage: 32.0
+    launchergroup: 74
+    maincolor: 5801883
     marketGroup: 504
-    mass: 0.5
     name: Tungsten Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 16.0
     volume: 0.125
+    weaponrangemultiplier: 1.399999976158142
   Uranium Charge L:
-    CapNeedBonus: -8
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 24.0
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.10000000149011612
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 16.0
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 3
+    entityflyrangemultiplier: 0.75
     id: 236
+    kineticdamage: 24.0
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 106
-    mass: 0.10000000149011612
     name: Uranium Charge L
     packagedVolume: 0.02500000037252903
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 16.0
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.75
   Uranium Charge M:
-    CapNeedBonus: -8
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 12.0
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.05000000074505806
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 8.0
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 2
+    entityflyrangemultiplier: 0.75
     id: 228
+    kineticdamage: 12.0
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 108
-    mass: 0.05000000074505806
     name: Uranium Charge M
     packagedVolume: 0.012500000186264515
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 8.0
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.75
   Uranium Charge S:
-    CapNeedBonus: -8
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 6.0
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    TechLevel: 1
-    ThermalDamage: 4.0
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 1
+    entityflyrangemultiplier: 0.75
     id: 220
+    kineticdamage: 6.0
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 107
-    mass: 0.009999999776482582
     name: Uranium Charge S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
     published: true
+    radius: 1.0
+    techlevel: 1
+    thermaldamage: 4.0
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.75
   Uranium Charge XL:
-    CapNeedBonus: -8
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.75
-    KineticDamage: 48.0
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.5
-    Radius: 10.0
-    TechLevel: 1
-    ThermalDamage: 32.0
-    WeaponRangeMultiplier: 0.75
+    capneedbonus: -8
+    chargesize: 4
+    entityflyrangemultiplier: 0.75
     id: 17662
+    kineticdamage: 48.0
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 504
-    mass: 0.5
     name: Uranium Charge XL
     packagedVolume: 0.125
     portionSize: 100
     published: true
+    radius: 10.0
+    techlevel: 1
+    thermaldamage: 32.0
     volume: 0.125
+    weaponrangemultiplier: 0.75

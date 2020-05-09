@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,31 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadRofBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Slots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,49 +51,49 @@ public class MissileLauncherCruise
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup1;
+    public int chargegroup1;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup2;
+    public int chargegroup2;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup4;
+    public int chargegroup4;
     /**
      * Number of charges consumed per activation
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ChargeRate;
+    public int chargerate;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatAbsorbtionRateModifier;
+    public double heatabsorbtionratemodifier;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double HeatDamage;
+    public double heatdamage;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -80,7 +108,7 @@ public class MissileLauncherCruise
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -88,77 +116,77 @@ public class MissileLauncherCruise
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int OverloadRofBonus;
+    public int overloadrofbonus;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * reload time (ms)
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
+    public double reloadtime;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredThermoDynamicsSkill;
+    public int requiredthermodynamicsskill;
     /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int Slots;
+    public int slots;
     /**
      * Time in milliseconds between possible activations
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Speed;
+    public double speed;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -166,14 +194,15 @@ public class MissileLauncherCruise
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * The value of this attribute is a graphicsID which controls the color scheme of this type. It is used to apply said color scheme to items of other types whose gfx representation is tied in with the attribute holder. Example: Turrets on ships.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int TypeColorScheme;
+    public int typecolorscheme;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, Mass.INSTANCE, Hp.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Power.INSTANCE, ChargeGroup4 .INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, OverloadRofBonus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, MetaLevel.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
     public static final MissileLauncherCruise.MetaGroup METAGROUP = new MissileLauncherCruise.MetaGroup();
 
     @Override
@@ -181,93 +210,98 @@ public class MissileLauncherCruise
         switch (attribute.getId()) {
             case  604 :
             {
-                return ChargeGroup1;
+                return chargegroup1;
             }
             case  605 :
             {
-                return ChargeGroup2;
+                return chargegroup2;
             }
             case  609 :
             {
-                return ChargeGroup4;
+                return chargegroup4;
             }
             case  56 :
             {
-                return ChargeRate;
+                return chargerate;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1180 :
             {
-                return HeatAbsorbtionRateModifier;
+                return heatabsorbtionratemodifier;
             }
             case  1211 :
             {
-                return HeatDamage;
+                return heatdamage;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  1205 :
             {
-                return OverloadRofBonus;
+                return overloadrofbonus;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  1795 :
             {
-                return ReloadTime;
+                return reloadtime;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  1212 :
             {
-                return RequiredThermoDynamicsSkill;
+                return requiredthermodynamicsskill;
             }
             case  47 :
             {
-                return Slots;
+                return slots;
             }
             case  51 :
             {
-                return Speed;
+                return speed;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  1768 :
             {
-                return TypeColorScheme;
+                return typecolorscheme;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

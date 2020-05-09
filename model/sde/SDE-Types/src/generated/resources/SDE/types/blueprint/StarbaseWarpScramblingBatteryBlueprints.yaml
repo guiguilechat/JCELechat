@@ -1,57 +1,57 @@
 types:
   Serpentis Warp Disruption Battery Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 27868
+    industryblueprintrank: 40.0
     name: Serpentis Warp Disruption Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Serpentis Warp Scrambling Battery Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 27867
+    industryblueprintrank: 40.0
     name: Serpentis Warp Scrambling Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Shadow Warp Disruption Battery Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 27869
+    industryblueprintrank: 40.0
     name: Shadow Warp Disruption Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Shadow Warp Scrambling Battery Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 27870
+    industryblueprintrank: 40.0
     name: Shadow Warp Scrambling Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Warp Disruption Battery Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 2736
+    industryblueprintrank: 40.0
     marketGroup: 1344
     name: Warp Disruption Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Warp Scrambling Battery Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 2740
+    industryblueprintrank: 40.0
     marketGroup: 1344
     name: Warp Scrambling Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

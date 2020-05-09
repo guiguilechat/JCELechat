@@ -1,15 +1,26 @@
 package fr.guiguilechat.jcelechat.model.sde.types.bonus;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CharismaSkillTrainingTimeMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IntelligenceSkillTrainingTimeMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MemorySkillTrainingTimeMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionSkillTrainingTimeMultiplierBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WillpowerSkillTrainingTimeMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Bonus;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,56 +33,57 @@ public class CareerBonus
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Charisma as the primary attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CharismaSkillTrainingTimeMultiplierBonus;
+    public double charismaskilltrainingtimemultiplierbonus;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Intelligence as the primary attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double IntelligenceSkillTrainingTimeMultiplierBonus;
+    public double intelligenceskilltrainingtimemultiplierbonus;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Memory as the primary attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MemorySkillTrainingTimeMultiplierBonus;
+    public double memoryskilltrainingtimemultiplierbonus;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Perception as the primary attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double PerceptionSkillTrainingTimeMultiplierBonus;
+    public double perceptionskilltrainingtimemultiplierbonus;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
     /**
      * Bonus or penalty to the percentage time it takes to train skills with Willpower as the primary attribute.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WillpowerSkillTrainingTimeMultiplierBonus;
+    public double willpowerskilltrainingtimemultiplierbonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CharismaSkillTrainingTimeMultiplierBonus.INSTANCE, IntelligenceSkillTrainingTimeMultiplierBonus.INSTANCE, Capacity.INSTANCE, MemorySkillTrainingTimeMultiplierBonus.INSTANCE, PerceptionSkillTrainingTimeMultiplierBonus.INSTANCE, WillpowerSkillTrainingTimeMultiplierBonus.INSTANCE })));
     public static final CareerBonus.MetaGroup METAGROUP = new CareerBonus.MetaGroup();
 
     @Override
@@ -79,41 +91,46 @@ public class CareerBonus
         switch (attribute.getId()) {
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  228 :
             {
-                return CharismaSkillTrainingTimeMultiplierBonus;
+                return charismaskilltrainingtimemultiplierbonus;
             }
             case  229 :
             {
-                return IntelligenceSkillTrainingTimeMultiplierBonus;
+                return intelligenceskilltrainingtimemultiplierbonus;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  230 :
             {
-                return MemorySkillTrainingTimeMultiplierBonus;
+                return memoryskilltrainingtimemultiplierbonus;
             }
             case  231 :
             {
-                return PerceptionSkillTrainingTimeMultiplierBonus;
+                return perceptionskilltrainingtimemultiplierbonus;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             case  232 :
             {
-                return WillpowerSkillTrainingTimeMultiplierBonus;
+                return willpowerskilltrainingtimemultiplierbonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

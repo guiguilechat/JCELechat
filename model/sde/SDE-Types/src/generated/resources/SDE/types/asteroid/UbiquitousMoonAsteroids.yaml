@@ -1,241 +1,217 @@
 types:
   Bitumens:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45492
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45492
     marketGroup: 2396
-    mass: 4000.0
     name: Bitumens
+    orebasictype: 45492
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Brimful Bitumens:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45492
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46284
     marketGroup: 2396
-    mass: 4000.0
     name: Brimful Bitumens
+    orebasictype: 45492
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Brimful Coesite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45493
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46286
     marketGroup: 2396
-    mass: 4000.0
     name: Brimful Coesite
+    orebasictype: 45493
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Brimful Sylvite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45491
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46282
     marketGroup: 2396
-    mass: 4000.0
     name: Brimful Sylvite
+    orebasictype: 45491
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Brimful Zeolites:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45490
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46280
     marketGroup: 2396
-    mass: 4000.0
     name: Brimful Zeolites
+    orebasictype: 45490
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Coesite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45493
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45493
     marketGroup: 2396
-    mass: 4000.0
     name: Coesite
+    orebasictype: 45493
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Glistening Bitumens:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45492
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46285
     marketGroup: 2396
-    mass: 4000.0
     name: Glistening Bitumens
+    orebasictype: 45492
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Glistening Coesite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45493
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46287
     marketGroup: 2396
-    mass: 4000.0
     name: Glistening Coesite
+    orebasictype: 45493
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Glistening Sylvite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45491
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46283
     marketGroup: 2396
-    mass: 4000.0
     name: Glistening Sylvite
+    orebasictype: 45491
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Glistening Zeolites:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45490
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46281
     marketGroup: 2396
-    mass: 4000.0
     name: Glistening Zeolites
+    orebasictype: 45490
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Sylvite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45491
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45491
     marketGroup: 2396
-    mass: 4000.0
     name: Sylvite
+    orebasictype: 45491
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Zeolites:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45490
-    Radius: 1.0
-    ReprocessingSkillType: 46152
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45490
     marketGroup: 2396
-    mass: 4000.0
     name: Zeolites
+    orebasictype: 45490
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46152
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0

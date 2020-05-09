@@ -1,15 +1,15 @@
 types:
   Link:
-    Capacity: 1000.0
-    CpuLoad: 15
-    CpuLoadLevelModifier: 1.399999976158142
-    CpuLoadPerKm: 0.20000000298023224
-    LogisticalCapacity: 1250
-    PowerLoad: 10
-    PowerLoadLevelModifier: 1.2000000476837158
-    PowerLoadPerKm: 0.15000000596046448
-    Radius: 1.0
+    capacity: 1000.0
+    cpuload: 15
+    cpuloadlevelmodifier: 1.399999976158142
+    cpuloadperkm: 0.20000000298023224
     id: 2280
+    logisticalcapacity: 1250
     name: Link
     portionSize: 1
+    powerload: 10
+    powerloadlevelmodifier: 1.2000000476837158
+    powerloadperkm: 0.15000000596046448
     published: true
+    radius: 1.0

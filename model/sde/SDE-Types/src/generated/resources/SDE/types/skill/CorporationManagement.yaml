@@ -1,86 +1,86 @@
 types:
   Corporation Management:
-    BaseDefenderAllyCost: 10000000
-    CanNotBeTrainedOnTrial: 1
-    CorporationMemberBonus: 20
-    PrimaryAttribute: 166
-    Radius: 1.0
-    SecondaryAttribute: 164
-    SkillTimeConstant: 1.0
+    basedefenderallycost: 10000000
+    cannotbetrainedontrial: 1
+    corporationmemberbonus: 20
     id: 3363
     marketGroup: 365
     name: Corporation Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    secondaryattribute: 164
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Diplomatic Relations:
-    BaseDefenderAllyCost: 10000000
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3363
-    RequiredSkill1Level: 2
-    RequiredSkill2: 3355
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 164
-    SkillAllyCostModifierBonus: -5
-    SkillTimeConstant: 2.0
+    basedefenderallycost: 10000000
+    cannotbetrainedontrial: 1
     id: 3368
     marketGroup: 365
     name: Diplomatic Relations
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3363
+    requiredskill1level: 2
+    requiredskill2: 3355
+    requiredskill2level: 3
+    secondaryattribute: 164
+    skillallycostmodifierbonus: -5
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Empire Control:
-    BaseDefenderAllyCost: 10000000
-    CanNotBeTrainedOnTrial: 1
-    CorporationMemberBonus: 400
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3731
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 164
-    SkillTimeConstant: 5.0
+    basedefenderallycost: 10000000
+    cannotbetrainedontrial: 1
+    corporationmemberbonus: 400
     id: 3732
     marketGroup: 365
     name: Empire Control
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3731
+    requiredskill1level: 5
+    secondaryattribute: 164
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Megacorp Management:
-    BaseDefenderAllyCost: 10000000
-    CanNotBeTrainedOnTrial: 1
-    CorporationMemberBonus: 100
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3363
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 164
-    SkillTimeConstant: 3.0
+    basedefenderallycost: 10000000
+    cannotbetrainedontrial: 1
+    corporationmemberbonus: 100
     id: 3731
     marketGroup: 365
     name: Megacorp Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3363
+    requiredskill1level: 5
+    secondaryattribute: 164
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Sovereignty:
-    BaseDefenderAllyCost: 10000000
-    CanNotBeTrainedOnTrial: 1
-    CorporationMemberBonus: 2000
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3732
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 164
-    SkillTimeConstant: 8.0
+    basedefenderallycost: 10000000
+    cannotbetrainedontrial: 1
+    corporationmemberbonus: 2000
     id: 12241
     marketGroup: 365
     name: Sovereignty
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3732
+    requiredskill1level: 5
+    secondaryattribute: 164
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582

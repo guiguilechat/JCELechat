@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.entity;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,96 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIChanceToNotTargetSwitch;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseEffectMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseEvasiveManeuver;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseSecondaryTarget;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseSignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AIShouldUseTargetSwitching;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ActivationBlockedStrenght;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerEntityChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerRangeOptimal;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityArmorRepairAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityArmorRepairDelayChanceSmall;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityArmorRepairDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackDelayMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackDelayMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelayChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDurationChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityGroupRespawnChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMissileTypeID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityOverviewShipGroupId;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityReactionFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityMaxGain;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityWarpScrambleChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxAttackTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeCloudSizeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityFlightTimeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileLaunchDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ModifyTargetSpeedChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ModifyTargetSpeedDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ModifyTargetSpeedRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcAssistanceRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcRemoteArmorRepairAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcRemoteArmorRepairChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcRemoteArmorRepairDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcRemoteArmorRepairThreshold;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStrength;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,35 +116,35 @@ public class DeadspaceSleeperEmergentSentinel
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double AIChanceToNotTargetSwitch;
+    public double aichancetonottargetswitch;
     /**
      * Should the entity watch for effects when choosing targets
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AIShouldUseEffectMultiplier;
+    public int aishoulduseeffectmultiplier;
     /**
      * The evasive maneuver level of the type. this will control what types of evasive maneuvers a NPC ship will use.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AIShouldUseEvasiveManeuver;
+    public int aishoulduseevasivemaneuver;
     /**
      * Should use secondary effect on other targets?
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AIShouldUseSecondaryTarget;
+    public int aishouldusesecondarytarget;
     /**
      * Should this type use signature radius
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AIShouldUseSignatureRadius;
+    public int aishouldusesignatureradius;
     /**
      * This controls how L1 AI target switches
      * When disabled AI_ChanceToNotTargetSwitch, AI_ShouldUseEffectMultiplier, and AI_ShouldUseSignatureRadius are disabled also.
@@ -59,168 +152,168 @@ public class DeadspaceSleeperEmergentSentinel
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AIShouldUseTargetSwitching;
+    public int aishouldusetargetswitching;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ActivationBlockedStrenght;
+    public int activationblockedstrenght;
     /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorEmDamageResonance;
+    public double armoremdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorExplosiveDamageResonance;
+    public double armorexplosivedamageresonance;
     /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ArmorHP;
+    public double armorhp;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorKineticDamageResonance;
+    public double armorkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double ArmorThermalDamageResonance;
+    public double armorthermaldamageresonance;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ArmorUniformity;
+    public double armoruniformity;
     /**
      * Capacitor capacity
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorCapacity;
+    public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * charge of module
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Charge;
+    public int charge;
     /**
      * Damage multiplier.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double DamageMultiplier;
+    public double damagemultiplier;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowAssistance;
+    public int disallowassistance;
     /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EmDamage;
+    public double emdamage;
     /**
      * An amount to modify the power of the target by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EnergyNeutralizerAmount;
+    public double energyneutralizeramount;
     /**
      * Duration of NPC Energy Neutralizer effect
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(30000)
-    public int EnergyNeutralizerDuration;
+    public int energyneutralizerduration;
     /**
      * Chance of NPC effect to be activated each duration
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EnergyNeutralizerEntityChance;
+    public double energyneutralizerentitychance;
     /**
      * Optimal Range of Energy Neutralizer
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EnergyNeutralizerRangeOptimal;
+    public int energyneutralizerrangeoptimal;
     /**
      * Amount of armor repaired per cycle for entities.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntityArmorRepairAmount;
+    public double entityarmorrepairamount;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntityArmorRepairDelayChanceSmall;
+    public double entityarmorrepairdelaychancesmall;
     /**
      * Duration between armor repair actions for entities.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityArmorRepairDuration;
+    public int entityarmorrepairduration;
     /**
      * Maximum attack delay time for entity.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityAttackDelayMax;
+    public int entityattackdelaymax;
     /**
      * Minimum attack delay time for entity.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityAttackDelayMin;
+    public int entityattackdelaymin;
     /**
      * The distance from a target an entity starts using its weapons.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(15000)
-    public int EntityAttackRange;
+    public int entityattackrange;
     /**
      *  0: white (default)
      *  1: red (hostile NPC)
@@ -229,112 +322,112 @@ public class DeadspaceSleeperEmergentSentinel
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityBracketColour;
+    public int entitybracketcolour;
     /**
      * The maximum amount of time stalled before entity chase speed kicks in.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(5000)
-    public int EntityChaseMaxDelay;
+    public int entitychasemaxdelay;
     /**
      * Chance that the max delay is waited before chase is engaged.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntityChaseMaxDelayChance;
+    public double entitychasemaxdelaychance;
     /**
      * The distance outside of which the entity activates their MWD equivalent.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(2500)
-    public int EntityChaseMaxDistance;
+    public int entitychasemaxdistance;
     /**
      * The maximum amount of time chase is ever engaged for.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(5000)
-    public int EntityChaseMaxDuration;
+    public int entitychasemaxduration;
     /**
      * The chance of engaging chase for the maximum duration.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntityChaseMaxDurationChance;
+    public double entitychasemaxdurationchance;
     /**
      * The speed that entities fly at when not chasing a target.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntityCruiseSpeed;
+    public double entitycruisespeed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityEquipmentMax;
+    public int entityequipmentmax;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityEquipmentMin;
+    public int entityequipmentmin;
     /**
      * The distance at which the entity orbits, follows.. and more.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(500.0)
-    public double EntityFlyRange;
+    public double entityflyrange;
     /**
      * The chance an entity will respawn into his group if destroyed.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int EntityGroupRespawnChance;
+    public int entitygrouprespawnchance;
     /**
      * Deprecated. The minimum number of pieces of loot dropped by this entity.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityLootCountMin;
+    public int entitylootcountmin;
     /**
      * The type of missiles the entity launches.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityMissileTypeID;
+    public int entitymissiletypeid;
     /**
      * This attribute is used on entities to link them to a player ship group. This is then used to determine which overview icon they should get, among other things
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EntityOverviewShipGroupId;
+    public int entityoverviewshipgroupid;
     /**
      * The chance of an entity attacking the same person as its group members.  Scales delay in joining in on fights too.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntityReactionFactor;
+    public double entityreactionfactor;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntitySecurityMaxGain;
+    public double entitysecuritymaxgain;
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
      * Value is a % movement of the character's current security towards the upper/lower limit.
@@ -342,182 +435,182 @@ public class DeadspaceSleeperEmergentSentinel
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntitySecurityStatusKillBonus;
+    public double entitysecuritystatuskillbonus;
     /**
      * Chance of entity warp scrambling it's target.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EntityWarpScrambleChance;
+    public double entitywarpscramblechance;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
+    public double explosivedamage;
     /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double Falloff;
+    public double falloff;
     /**
      * Graphic ID of the boosters for drone type ships.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int GfxBoosterID;
+    public int gfxboosterid;
     /**
      * Graphic ID of the turrets for drone type ships.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int GfxTurretID;
+    public int gfxturretid;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double KineticDamage;
+    public double kineticdamage;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * The maximum number of their targets that the character can attack at a given time.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxAttackTargets;
+    public int maxattacktargets;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxLockedTargets;
+    public int maxlockedtargets;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxVelocity;
+    public double maxvelocity;
     /**
      * The characters missile use efficiency, scales the damage missiles do.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double MissileDamageMultiplier;
+    public double missiledamagemultiplier;
     /**
      * Affects the signature radius of the target in missile impact calculations.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double MissileEntityAoeCloudSizeMultiplier;
+    public double missileentityaoecloudsizemultiplier;
     /**
      * Affects the velocity of the target in missile impact calculations.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double MissileEntityAoeVelocityMultiplier;
+    public double missileentityaoevelocitymultiplier;
     /**
      * Multiplier for the missile's flight time.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double MissileEntityFlightTimeMultiplier;
+    public double missileentityflighttimemultiplier;
     /**
      * Multiplier for the missile's speed.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double MissileEntityVelocityMultiplier;
+    public double missileentityvelocitymultiplier;
     /**
      * Cycle time for a missile launch, in milliseconds.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(20000.0)
-    public double MissileLaunchDuration;
+    public double missilelaunchduration;
     /**
      * Chance that  an entity will use a Stasis Web on a target.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ModifyTargetSpeedChance;
+    public double modifytargetspeedchance;
     /**
      * Duration of entities Stasis Web 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(5000.0)
-    public double ModifyTargetSpeedDuration;
+    public double modifytargetspeedduration;
     /**
      * Range of entities Stasis Web
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(20000)
-    public int ModifyTargetSpeedRange;
+    public int modifytargetspeedrange;
     /**
      * Maximum distance to a friendly NPC so that remote repairs may be performed on it.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(5000)
-    public int NpcAssistanceRange;
+    public int npcassistancerange;
     /**
      * the amount of armor that is repaired per cycle to each target
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int NpcRemoteArmorRepairAmount;
+    public int npcremotearmorrepairamount;
     /**
      * the chance of the NPC remote reapiring it's comrads.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double NpcRemoteArmorRepairChance;
+    public double npcremotearmorrepairchance;
     /**
      * How long NPC take to remote repair ther comerad in MS.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10000)
-    public int NpcRemoteArmorRepairDuration;
+    public int npcremotearmorrepairduration;
     /**
      * How damaged does a teammate's armor need to be before it will be repaired.
      *  0.1 means: Must be below 90% armor to get repairs
@@ -526,133 +619,134 @@ public class DeadspaceSleeperEmergentSentinel
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.25)
-    public double NpcRemoteArmorRepairThreshold;
+    public double npcremotearmorrepairthreshold;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1000)
-    public int OptimalSigRadius;
+    public int optimalsigradius;
     /**
      * The graphicID of the propulsion system.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PropulsionGraphicID;
+    public int propulsiongraphicid;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double RechargeRate;
+    public double rechargerate;
     /**
      * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanGravimetricStrength;
+    public double scangravimetricstrength;
     /**
      * Ladar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanLadarStrength;
+    public double scanladarstrength;
     /**
      * Magnetometric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanMagnetometricStrength;
+    public double scanmagnetometricstrength;
     /**
      * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanRadarStrength;
+    public double scanradarstrength;
     /**
      * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanResolution;
+    public double scanresolution;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(100.0)
-    public double SignatureRadius;
+    public double signatureradius;
     /**
      * Time in milliseconds between possible activations
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Speed;
+    public double speed;
     /**
      * Factor by which topspeed increases.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double SpeedFactor;
+    public double speedfactor;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double StructureUniformity;
+    public double structureuniformity;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    public double thermaldamage;
     /**
      * Weapon accuracy
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double TrackingSpeed;
+    public double trackingspeed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(8000)
-    public int WarpScrambleDuration;
+    public int warpscrambleduration;
     /**
      * Maximum range objects can be warp scrambled from.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleRange;
+    public int warpscramblerange;
     /**
      * Amount to modify ships warp scramble status by.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleStrength;
+    public int warpscramblestrength;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ModifyTargetSpeedChance.INSTANCE, EntityGroupRespawnChance.INSTANCE, ModifyTargetSpeedDuration.INSTANCE, ModifyTargetSpeedRange.INSTANCE, Mass.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, AIShouldUseEvasiveManeuver.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, NpcRemoteArmorRepairChance.INSTANCE, NpcRemoteArmorRepairDuration.INSTANCE, EnergyNeutralizerDuration.INSTANCE, NpcRemoteArmorRepairAmount.INSTANCE, NpcRemoteArmorRepairThreshold.INSTANCE, EntitySecurityMaxGain.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, NpcAssistanceRange.INSTANCE, MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, EntityChaseMaxDuration.INSTANCE, ActivationBlockedStrenght.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, DisallowAssistance.INSTANCE, PropulsionGraphicID.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, EnergyNeutralizerAmount.INSTANCE, CapacitorCapacity.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, AIShouldUseSecondaryTarget.INSTANCE, EntityArmorRepairDelayChanceSmall.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, EmDamage.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, GfxTurretID.INSTANCE, KineticDamage.INSTANCE, EntityArmorRepairDuration.INSTANCE, GfxBoosterID.INSTANCE, ThermalDamage.INSTANCE, EntityArmorRepairAmount.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, WarpScrambleDuration.INSTANCE, MissileLaunchDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityMissileTypeID.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
     public static final DeadspaceSleeperEmergentSentinel.MetaGroup METAGROUP = new DeadspaceSleeperEmergentSentinel.MetaGroup();
 
     @Override
@@ -660,369 +754,374 @@ public class DeadspaceSleeperEmergentSentinel
         switch (attribute.getId()) {
             case  1651 :
             {
-                return AIChanceToNotTargetSwitch;
+                return aichancetonottargetswitch;
             }
             case  1652 :
             {
-                return AIShouldUseEffectMultiplier;
+                return aishoulduseeffectmultiplier;
             }
             case  1414 :
             {
-                return AIShouldUseEvasiveManeuver;
+                return aishoulduseevasivemaneuver;
             }
             case  1649 :
             {
-                return AIShouldUseSecondaryTarget;
+                return aishouldusesecondarytarget;
             }
             case  1650 :
             {
-                return AIShouldUseSignatureRadius;
+                return aishouldusesignatureradius;
             }
             case  1648 :
             {
-                return AIShouldUseTargetSwitching;
+                return aishouldusetargetswitching;
             }
             case  1350 :
             {
-                return ActivationBlockedStrenght;
+                return activationblockedstrenght;
             }
             case  267 :
             {
-                return ArmorEmDamageResonance;
+                return armoremdamageresonance;
             }
             case  268 :
             {
-                return ArmorExplosiveDamageResonance;
+                return armorexplosivedamageresonance;
             }
             case  265 :
             {
-                return ArmorHP;
+                return armorhp;
             }
             case  269 :
             {
-                return ArmorKineticDamageResonance;
+                return armorkineticdamageresonance;
             }
             case  270 :
             {
-                return ArmorThermalDamageResonance;
+                return armorthermaldamageresonance;
             }
             case  524 :
             {
-                return ArmorUniformity;
+                return armoruniformity;
             }
             case  482 :
             {
-                return CapacitorCapacity;
+                return capacitorcapacity;
             }
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  18 :
             {
-                return Charge;
+                return charge;
             }
             case  64 :
             {
-                return DamageMultiplier;
+                return damagemultiplier;
             }
             case  854 :
             {
-                return DisallowAssistance;
+                return disallowassistance;
             }
             case  114 :
             {
-                return EmDamage;
+                return emdamage;
             }
             case  97 :
             {
-                return EnergyNeutralizerAmount;
+                return energyneutralizeramount;
             }
             case  942 :
             {
-                return EnergyNeutralizerDuration;
+                return energyneutralizerduration;
             }
             case  931 :
             {
-                return EnergyNeutralizerEntityChance;
+                return energyneutralizerentitychance;
             }
             case  98 :
             {
-                return EnergyNeutralizerRangeOptimal;
+                return energyneutralizerrangeoptimal;
             }
             case  631 :
             {
-                return EntityArmorRepairAmount;
+                return entityarmorrepairamount;
             }
             case  1009 :
             {
-                return EntityArmorRepairDelayChanceSmall;
+                return entityarmorrepairdelaychancesmall;
             }
             case  630 :
             {
-                return EntityArmorRepairDuration;
+                return entityarmorrepairduration;
             }
             case  476 :
             {
-                return EntityAttackDelayMax;
+                return entityattackdelaymax;
             }
             case  475 :
             {
-                return EntityAttackDelayMin;
+                return entityattackdelaymin;
             }
             case  247 :
             {
-                return EntityAttackRange;
+                return entityattackrange;
             }
             case  798 :
             {
-                return EntityBracketColour;
+                return entitybracketcolour;
             }
             case  580 :
             {
-                return EntityChaseMaxDelay;
+                return entitychasemaxdelay;
             }
             case  581 :
             {
-                return EntityChaseMaxDelayChance;
+                return entitychasemaxdelaychance;
             }
             case  665 :
             {
-                return EntityChaseMaxDistance;
+                return entitychasemaxdistance;
             }
             case  582 :
             {
-                return EntityChaseMaxDuration;
+                return entitychasemaxduration;
             }
             case  583 :
             {
-                return EntityChaseMaxDurationChance;
+                return entitychasemaxdurationchance;
             }
             case  508 :
             {
-                return EntityCruiseSpeed;
+                return entitycruisespeed;
             }
             case  457 :
             {
-                return EntityEquipmentMax;
+                return entityequipmentmax;
             }
             case  456 :
             {
-                return EntityEquipmentMin;
+                return entityequipmentmin;
             }
             case  416 :
             {
-                return EntityFlyRange;
+                return entityflyrange;
             }
             case  640 :
             {
-                return EntityGroupRespawnChance;
+                return entitygrouprespawnchance;
             }
             case  250 :
             {
-                return EntityLootCountMin;
+                return entitylootcountmin;
             }
             case  507 :
             {
-                return EntityMissileTypeID;
+                return entitymissiletypeid;
             }
             case  1766 :
             {
-                return EntityOverviewShipGroupId;
+                return entityoverviewshipgroupid;
             }
             case  466 :
             {
-                return EntityReactionFactor;
+                return entityreactionfactor;
             }
             case  563 :
             {
-                return EntitySecurityMaxGain;
+                return entitysecuritymaxgain;
             }
             case  252 :
             {
-                return EntitySecurityStatusKillBonus;
+                return entitysecuritystatuskillbonus;
             }
             case  504 :
             {
-                return EntityWarpScrambleChance;
+                return entitywarpscramblechance;
             }
             case  116 :
             {
-                return ExplosiveDamage;
+                return explosivedamage;
             }
             case  158 :
             {
-                return Falloff;
+                return falloff;
             }
             case  246 :
             {
-                return GfxBoosterID;
+                return gfxboosterid;
             }
             case  245 :
             {
-                return GfxTurretID;
+                return gfxturretid;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  117 :
             {
-                return KineticDamage;
+                return kineticdamage;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  193 :
             {
-                return MaxAttackTargets;
+                return maxattacktargets;
             }
             case  192 :
             {
-                return MaxLockedTargets;
+                return maxlockedtargets;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  37 :
             {
-                return MaxVelocity;
+                return maxvelocity;
             }
             case  212 :
             {
-                return MissileDamageMultiplier;
+                return missiledamagemultiplier;
             }
             case  858 :
             {
-                return MissileEntityAoeCloudSizeMultiplier;
+                return missileentityaoecloudsizemultiplier;
             }
             case  859 :
             {
-                return MissileEntityAoeVelocityMultiplier;
+                return missileentityaoevelocitymultiplier;
             }
             case  646 :
             {
-                return MissileEntityFlightTimeMultiplier;
+                return missileentityflighttimemultiplier;
             }
             case  645 :
             {
-                return MissileEntityVelocityMultiplier;
+                return missileentityvelocitymultiplier;
             }
             case  506 :
             {
-                return MissileLaunchDuration;
+                return missilelaunchduration;
             }
             case  512 :
             {
-                return ModifyTargetSpeedChance;
+                return modifytargetspeedchance;
             }
             case  513 :
             {
-                return ModifyTargetSpeedDuration;
+                return modifytargetspeedduration;
             }
             case  514 :
             {
-                return ModifyTargetSpeedRange;
+                return modifytargetspeedrange;
             }
             case  1464 :
             {
-                return NpcAssistanceRange;
+                return npcassistancerange;
             }
             case  1455 :
             {
-                return NpcRemoteArmorRepairAmount;
+                return npcremotearmorrepairamount;
             }
             case  1453 :
             {
-                return NpcRemoteArmorRepairChance;
+                return npcremotearmorrepairchance;
             }
             case  1454 :
             {
-                return NpcRemoteArmorRepairDuration;
+                return npcremotearmorrepairduration;
             }
             case  1456 :
             {
-                return NpcRemoteArmorRepairThreshold;
+                return npcremotearmorrepairthreshold;
             }
             case  620 :
             {
-                return OptimalSigRadius;
+                return optimalsigradius;
             }
             case  217 :
             {
-                return PropulsionGraphicID;
+                return propulsiongraphicid;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             case  55 :
             {
-                return RechargeRate;
+                return rechargerate;
             }
             case  211 :
             {
-                return ScanGravimetricStrength;
+                return scangravimetricstrength;
             }
             case  209 :
             {
-                return ScanLadarStrength;
+                return scanladarstrength;
             }
             case  210 :
             {
-                return ScanMagnetometricStrength;
+                return scanmagnetometricstrength;
             }
             case  208 :
             {
-                return ScanRadarStrength;
+                return scanradarstrength;
             }
             case  564 :
             {
-                return ScanResolution;
+                return scanresolution;
             }
             case  552 :
             {
-                return SignatureRadius;
+                return signatureradius;
             }
             case  51 :
             {
-                return Speed;
+                return speed;
             }
             case  20 :
             {
-                return SpeedFactor;
+                return speedfactor;
             }
             case  525 :
             {
-                return StructureUniformity;
+                return structureuniformity;
             }
             case  118 :
             {
-                return ThermalDamage;
+                return thermaldamage;
             }
             case  160 :
             {
-                return TrackingSpeed;
+                return trackingspeed;
             }
             case  505 :
             {
-                return WarpScrambleDuration;
+                return warpscrambleduration;
             }
             case  103 :
             {
-                return WarpScrambleRange;
+                return warpscramblerange;
             }
             case  105 :
             {
-                return WarpScrambleStrength;
+                return warpscramblestrength;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

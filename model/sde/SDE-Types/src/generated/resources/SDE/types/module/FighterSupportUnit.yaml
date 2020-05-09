@@ -1,213 +1,197 @@
 types:
   Fighter Support Unit I:
-    CanFitShipGroup01: 547
-    CanFitShipGroup02: 659
-    CanFitShipType1: 45647
-    CanFitShipType2: 45649
-    Cpu: 75.0
-    FighterBonusROFPercent: 0.949999988079071
-    FighterBonusShieldCapacityPercent: 1.0499999523162842
-    FighterBonusShieldRechargePercent: 0.949999988079071
-    FighterBonusVelocityPercent: 1.0499999523162842
-    Hp: 40.0
-    Mass: 200.0
-    Power: 75000
-    Radius: 100.0
-    RequiredSkill1: 24613
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 75.0
+    fighterbonusrofpercent: 0.949999988079071
+    fighterbonusshieldcapacitypercent: 1.0499999523162842
+    fighterbonusshieldrechargepercent: 0.949999988079071
+    fighterbonusvelocitypercent: 1.0499999523162842
+    hp: 40.0
     id: 24283
     marketGroup: 938
-    mass: 200.0
     name: Fighter Support Unit I
     packagedVolume: 1000.0
     portionSize: 1
+    power: 75000
     published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 1
+    techlevel: 1
     volume: 4000.0
   Fighter Support Unit II:
-    CanFitShipGroup01: 547
-    CanFitShipGroup02: 659
-    CanFitShipType1: 45647
-    CanFitShipType2: 45649
-    Cpu: 75.0
-    FighterBonusROFPercent: 0.9399999976158142
-    FighterBonusShieldCapacityPercent: 1.059999942779541
-    FighterBonusShieldRechargePercent: 0.9399999976158142
-    FighterBonusVelocityPercent: 1.059999942779541
-    Hp: 40.0
-    Mass: 200.0
-    MetaLevel: 5
-    Power: 90000
-    Radius: 100.0
-    RequiredSkill1: 24613
-    RequiredSkill1Level: 4
-    TechLevel: 2
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 75.0
+    fighterbonusrofpercent: 0.9399999976158142
+    fighterbonusshieldcapacitypercent: 1.059999942779541
+    fighterbonusshieldrechargepercent: 0.9399999976158142
+    fighterbonusvelocitypercent: 1.059999942779541
+    hp: 40.0
     id: 41415
     marketGroup: 938
-    mass: 200.0
+    metalevel: 5
     name: Fighter Support Unit II
     packagedVolume: 1000.0
     portionSize: 1
+    power: 90000
     published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 4
+    techlevel: 2
     volume: 4000.0
   Hermes Compact Fighter Support Unit:
-    CanFitShipGroup01: 547
-    CanFitShipGroup02: 659
-    CanFitShipType1: 45647
-    CanFitShipType2: 45649
-    Cpu: 60.0
-    FighterBonusROFPercent: 0.9449999928474426
-    FighterBonusShieldCapacityPercent: 1.0549999475479126
-    FighterBonusShieldRechargePercent: 0.9449999928474426
-    FighterBonusVelocityPercent: 1.0549999475479126
-    Hp: 40.0
-    Mass: 200.0
-    MetaLevel: 1
-    Power: 60000
-    Radius: 100.0
-    RequiredSkill1: 24613
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 60.0
+    fighterbonusrofpercent: 0.9449999928474426
+    fighterbonusshieldcapacitypercent: 1.0549999475479126
+    fighterbonusshieldrechargepercent: 0.9449999928474426
+    fighterbonusvelocitypercent: 1.0549999475479126
+    hp: 40.0
     id: 41414
     marketGroup: 938
-    mass: 200.0
+    metalevel: 1
     name: Hermes Compact Fighter Support Unit
     packagedVolume: 1000.0
     portionSize: 1
+    power: 60000
     published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 1
+    techlevel: 1
     volume: 4000.0
   Sentient Fighter Support Unit:
-    CanFitShipGroup01: 547
-    CanFitShipGroup02: 659
-    CanFitShipType1: 45647
-    CanFitShipType2: 45649
-    Cpu: 80.0
-    FighterBonusROFPercent: 0.9350000023841858
-    FighterBonusShieldCapacityPercent: 1.065000057220459
-    FighterBonusShieldRechargePercent: 0.9350000023841858
-    FighterBonusVelocityPercent: 1.065000057220459
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 80000
-    Radius: 100.0
-    RequiredSkill1: 24613
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 80.0
+    fighterbonusrofpercent: 0.9350000023841858
+    fighterbonusshieldcapacitypercent: 1.065000057220459
+    fighterbonusshieldrechargepercent: 0.9350000023841858
+    fighterbonusvelocitypercent: 1.065000057220459
+    hp: 40.0
     id: 41417
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 4
+    metalevel: 8
     name: Sentient Fighter Support Unit
     packagedVolume: 1000.0
     portionSize: 1
+    power: 80000
     published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 1
+    techlevel: 1
     volume: 2000.0
   Unit D-34343's Modified Fighter Support Unit:
-    CanFitShipGroup01: 547
-    CanFitShipGroup02: 659
-    CanFitShipType1: 45647
-    CanFitShipType2: 45649
-    Cpu: 62.0
-    FighterBonusROFPercent: 0.9300000071525574
-    FighterBonusShieldCapacityPercent: 1.0700000524520874
-    FighterBonusShieldRechargePercent: 0.9300000071525574
-    FighterBonusVelocityPercent: 1.0700000524520874
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    Power: 75000
-    Radius: 100.0
-    RequiredSkill1: 24613
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 62.0
+    fighterbonusrofpercent: 0.9300000071525574
+    fighterbonusshieldcapacitypercent: 1.0700000524520874
+    fighterbonusshieldrechargepercent: 0.9300000071525574
+    fighterbonusvelocitypercent: 1.0700000524520874
+    hp: 40.0
     id: 32951
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 5
+    metalevel: 11
     name: Unit D-34343's Modified Fighter Support Unit
     packagedVolume: 800.0
     portionSize: 1
+    power: 75000
     published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 1
+    techlevel: 1
     volume: 800.0
   Unit F-435454's Modified Fighter Support Unit:
-    CanFitShipGroup01: 547
-    CanFitShipGroup02: 659
-    CanFitShipType1: 45647
-    CanFitShipType2: 45649
-    Cpu: 59.0
-    FighterBonusROFPercent: 0.9279999732971191
-    FighterBonusShieldCapacityPercent: 1.0720000267028809
-    FighterBonusShieldRechargePercent: 0.9279999732971191
-    FighterBonusVelocityPercent: 1.0720000267028809
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 75000
-    Radius: 100.0
-    RequiredSkill1: 24613
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 59.0
+    fighterbonusrofpercent: 0.9279999732971191
+    fighterbonusshieldcapacitypercent: 1.0720000267028809
+    fighterbonusshieldrechargepercent: 0.9279999732971191
+    fighterbonusvelocitypercent: 1.0720000267028809
+    hp: 40.0
     id: 32953
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 5
+    metalevel: 12
     name: Unit F-435454's Modified Fighter Support Unit
     packagedVolume: 600.0
     portionSize: 1
+    power: 75000
     published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 1
+    techlevel: 1
     volume: 600.0
   Unit P-343554's Modified Fighter Support Unit:
-    CanFitShipGroup01: 547
-    CanFitShipGroup02: 659
-    CanFitShipType1: 45647
-    CanFitShipType2: 45649
-    Cpu: 53.0
-    FighterBonusROFPercent: 0.9259999990463257
-    FighterBonusShieldCapacityPercent: 1.0740000009536743
-    FighterBonusShieldRechargePercent: 0.9259999990463257
-    FighterBonusVelocityPercent: 1.0740000009536743
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    Power: 75000
-    Radius: 100.0
-    RequiredSkill1: 24613
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 53.0
+    fighterbonusrofpercent: 0.9259999990463257
+    fighterbonusshieldcapacitypercent: 1.0740000009536743
+    fighterbonusshieldrechargepercent: 0.9259999990463257
+    fighterbonusvelocitypercent: 1.0740000009536743
+    hp: 40.0
     id: 32955
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 5
+    metalevel: 13
     name: Unit P-343554's Modified Fighter Support Unit
     packagedVolume: 400.0
     portionSize: 1
+    power: 75000
     published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 1
+    techlevel: 1
     volume: 400.0
   Unit W-634's Modified Fighter Support Unit:
-    CanFitShipGroup01: 547
-    CanFitShipGroup02: 659
-    CanFitShipType1: 45647
-    CanFitShipType2: 45649
-    Cpu: 50.0
-    FighterBonusROFPercent: 0.9240000247955322
-    FighterBonusShieldCapacityPercent: 1.0759999752044678
-    FighterBonusShieldRechargePercent: 0.9240000247955322
-    FighterBonusVelocityPercent: 1.0759999752044678
-    Hp: 40.0
-    Mass: 200.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 75000
-    Radius: 100.0
-    RequiredSkill1: 24613
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    canfitshipgroup01: 547
+    canfitshipgroup02: 659
+    canfitshiptype1: 45647
+    canfitshiptype2: 45649
+    cpu: 50.0
+    fighterbonusrofpercent: 0.9240000247955322
+    fighterbonusshieldcapacitypercent: 1.0759999752044678
+    fighterbonusshieldrechargepercent: 0.9240000247955322
+    fighterbonusvelocitypercent: 1.0759999752044678
+    hp: 40.0
     id: 32957
     marketGroup: 938
-    mass: 200.0
+    metagroupid: 5
+    metalevel: 14
     name: Unit W-634's Modified Fighter Support Unit
     packagedVolume: 200.0
     portionSize: 1
+    power: 75000
     published: true
+    radius: 100.0
+    requiredskill1: 24613
+    requiredskill1level: 1
+    techlevel: 1
     volume: 200.0

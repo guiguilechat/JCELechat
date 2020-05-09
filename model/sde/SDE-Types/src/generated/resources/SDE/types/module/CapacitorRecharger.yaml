@@ -1,357 +1,321 @@
 types:
   '''Basic'' Capacitor Recharger':
-    CapacitorRechargeRateMultiplier: 0.8799999952316284
-    Cpu: 4.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.8799999952316284
+    cpu: 4.0
+    hp: 40.0
     id: 421
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Basic'' Capacitor Recharger'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   '''Palisade'' Cap Recharger I':
-    CapacitorRechargeRateMultiplier: 0.800000011920929
-    Cpu: 8.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 3
-    MetaLevel: 6
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.800000011920929
+    cpu: 8.0
+    hp: 40.0
     id: 23813
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 3
+    metalevel: 6
     name: '''Palisade'' Cap Recharger I'
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Ahremen's Modified Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.6800000071525574
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.6800000071525574
+    cpu: 20.0
+    hp: 40.0
     id: 21818
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 5
+    metalevel: 13
     name: Ahremen's Modified Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Ammatar Navy Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.7900000214576721
-    Cpu: 10.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.7900000214576721
+    cpu: 10.0
+    hp: 40.0
     id: 15788
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 4
+    metalevel: 8
     name: Ammatar Navy Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Brokara's Modified Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.7599999904632568
-    Cpu: 15.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.7599999904632568
+    cpu: 15.0
+    hp: 40.0
     id: 16599
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 5
+    metalevel: 11
     name: Brokara's Modified Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Cap Recharger I:
-    CapacitorRechargeRateMultiplier: 0.8500000238418579
-    Cpu: 10.0
-    Hp: 40.0
-    Mass: 1.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.8500000238418579
+    cpu: 10.0
+    hp: 40.0
     id: 1195
     marketGroup: 665
-    mass: 1.0
     name: Cap Recharger I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Cap Recharger II:
-    CapacitorRechargeRateMultiplier: 0.800000011920929
-    Cpu: 15.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 3
-    TechLevel: 2
+    capacitorrechargeratemultiplier: 0.800000011920929
+    cpu: 15.0
+    hp: 40.0
     id: 2032
     marketGroup: 665
-    mass: 1.0
+    metalevel: 5
     name: Cap Recharger II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 3
+    techlevel: 2
     volume: 5.0
   Chelm's Modified Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.6399999856948853
-    Cpu: 23.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.6399999856948853
+    cpu: 23.0
+    hp: 40.0
     id: 16605
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 5
+    metalevel: 14
     name: Chelm's Modified Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Dark Blood Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.7900000214576721
-    Cpu: 10.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.7900000214576721
+    cpu: 10.0
+    hp: 40.0
     id: 14142
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 4
+    metalevel: 8
     name: Dark Blood Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Draclira's Modified Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.6399999856948853
-    Cpu: 23.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 5
-    MetaLevel: 14
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.6399999856948853
+    cpu: 23.0
+    hp: 40.0
     id: 21819
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 5
+    metalevel: 14
     name: Draclira's Modified Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Eutectic Compact Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.824999988079071
-    Cpu: 8.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaLevel: 1
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.824999988079071
+    cpu: 8.0
+    hp: 40.0
     id: 4435
     marketGroup: 665
-    mass: 1.0
+    metalevel: 1
     name: Eutectic Compact Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Imperial Navy Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.7900000214576721
-    Cpu: 10.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.7900000214576721
+    cpu: 10.0
+    hp: 40.0
     id: 17526
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 4
+    metalevel: 8
     name: Imperial Navy Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Khanid Navy Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.7900000214576721
-    Cpu: 10.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.7900000214576721
+    cpu: 10.0
+    hp: 40.0
     id: 28530
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 4
+    metalevel: 8
     name: Khanid Navy Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Raysere's Modified Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.7200000286102295
-    Cpu: 18.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.7200000286102295
+    cpu: 18.0
+    hp: 40.0
     id: 21817
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 5
+    metalevel: 12
     name: Raysere's Modified Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Selynne's Modified Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.7200000286102295
-    Cpu: 18.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 5
-    MetaLevel: 12
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.7200000286102295
+    cpu: 18.0
+    hp: 40.0
     id: 16601
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 5
+    metalevel: 12
     name: Selynne's Modified Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Tairei's Modified Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.7599999904632568
-    Cpu: 15.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 5
-    MetaLevel: 11
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.7599999904632568
+    cpu: 15.0
+    hp: 40.0
     id: 21816
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 5
+    metalevel: 11
     name: Tairei's Modified Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   True Sansha Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.7900000214576721
-    Cpu: 10.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.7900000214576721
+    cpu: 10.0
+    hp: 40.0
     id: 14140
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 4
+    metalevel: 8
     name: True Sansha Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Vizan's Modified Cap Recharger:
-    CapacitorRechargeRateMultiplier: 0.6800000071525574
-    Cpu: 20.0
-    Hp: 40.0
-    Mass: 1.0
-    MetaGroupID: 5
-    MetaLevel: 13
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacitorrechargeratemultiplier: 0.6800000071525574
+    cpu: 20.0
+    hp: 40.0
     id: 16603
     marketGroup: 665
-    mass: 1.0
+    metagroupid: 5
+    metalevel: 13
     name: Vizan's Modified Cap Recharger
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0

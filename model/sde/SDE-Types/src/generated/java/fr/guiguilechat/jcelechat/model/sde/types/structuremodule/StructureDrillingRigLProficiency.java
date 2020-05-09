@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.structuremodule;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,22 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MoonRigAsteroidDecayBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MoonRigFractureDelayBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MoonRigSpewRadiusBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MoonRigSpewVolumeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCost;
 import fr.guiguilechat.jcelechat.model.sde.types.StructureModule;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,70 +42,70 @@ public class StructureDrillingRigLProficiency
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup03;
+    public int canfitshipgroup03;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Hp;
+    public double hp;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupFitted;
+    public int maxgroupfitted;
     /**
      * Moon rig bonus that delays spew asteroid decay
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MoonRigAsteroidDecayBonus;
+    public int moonrigasteroiddecaybonus;
     /**
      * Rig Bonus that affects fracture delay for moon chunk
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MoonRigFractureDelayBonus;
+    public int moonrigfracturedelaybonus;
     /**
      * Rig Bonus that affects spew asteroid belt radius from moon extraction
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MoonRigSpewRadiusBonus;
+    public int moonrigspewradiusbonus;
     /**
      * Moon rig bonus that increases volume of moon spew in relation to extraction time
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double MoonRigSpewVolumeBonus;
+    public double moonrigspewvolumebonus;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSize;
+    public int rigsize;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -94,14 +113,15 @@ public class StructureDrillingRigLProficiency
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * How much of the upgrade capacity is used when this is fitted to a ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeCost;
+    public int upgradecost;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MoonRigFractureDelayBonus.INSTANCE, CanFitShipGroup03 .INSTANCE, MoonRigAsteroidDecayBonus.INSTANCE, RequiredSkill1Level.INSTANCE, MoonRigSpewRadiusBonus.INSTANCE, MoonRigSpewVolumeBonus.INSTANCE, RequiredSkill1 .INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureDrillingRigLProficiency.MetaGroup METAGROUP = new StructureDrillingRigLProficiency.MetaGroup();
 
     @Override
@@ -109,57 +129,62 @@ public class StructureDrillingRigLProficiency
         switch (attribute.getId()) {
             case  1300 :
             {
-                return CanFitShipGroup03;
+                return canfitshipgroup03;
             }
             case  9 :
             {
-                return Hp;
+                return hp;
             }
             case  1544 :
             {
-                return MaxGroupFitted;
+                return maxgroupfitted;
             }
             case  2708 :
             {
-                return MoonRigAsteroidDecayBonus;
+                return moonrigasteroiddecaybonus;
             }
             case  2707 :
             {
-                return MoonRigFractureDelayBonus;
+                return moonrigfracturedelaybonus;
             }
             case  2709 :
             {
-                return MoonRigSpewRadiusBonus;
+                return moonrigspewradiusbonus;
             }
             case  2710 :
             {
-                return MoonRigSpewVolumeBonus;
+                return moonrigspewvolumebonus;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  1547 :
             {
-                return RigSize;
+                return rigsize;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  1153 :
             {
-                return UpgradeCost;
+                return upgradecost;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

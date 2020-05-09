@@ -1,32 +1,32 @@
 types:
   Combat Scanner Probe I Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 30029
+    industryblueprintrank: 2.0
     marketGroup: 320
     name: Combat Scanner Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Core Scanner Probe I Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 30014
+    industryblueprintrank: 1.0
     marketGroup: 320
     name: Core Scanner Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Warp Disrupt Probe Blueprint:
-    Hp: 1.0
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
+    hp: 1.0
     id: 22779
+    industryblueprintrank: 2.0
     marketGroup: 1529
     name: Warp Disrupt Probe Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

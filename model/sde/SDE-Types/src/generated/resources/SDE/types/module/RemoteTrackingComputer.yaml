@@ -1,259 +1,259 @@
 types:
   '''Enterprise'' Remote Tracking Computer':
-    CapacitorNeed: 14.0
-    Capacity: 1.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Cpu: 22.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 12000.0
-    FalloffBonus: 15.0
-    FalloffEffectiveness: 24000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 48000.0
-    MaxRangeBonus: 7.5
-    MetaGroupID: 3
-    MetaLevel: 6
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 15.0
+    capacitorneed: 14.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 22.0
+    disallowagainstewimmunetarget: 1
+    duration: 12000.0
+    falloffbonus: 15.0
+    falloffeffectiveness: 24000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
     id: 22937
     marketGroup: 708
+    maxrange: 48000.0
+    maxrangebonus: 7.5
+    metagroupid: 3
+    metalevel: 6
     name: '''Enterprise'' Remote Tracking Computer'
+    overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 15.0
     volume: 5.0
   Alfven Enduring Remote Tracking Computer:
-    CapacitorNeed: 16.0
-    Capacity: 1.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 12000.0
-    FalloffBonus: 13.5
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 40000.0
-    MaxRangeBonus: 6.75
-    MetaLevel: 1
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 13.5
+    capacitorneed: 16.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 30.0
+    disallowagainstewimmunetarget: 1
+    duration: 12000.0
+    falloffbonus: 13.5
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
     id: 5342
     marketGroup: 708
+    maxrange: 40000.0
+    maxrangebonus: 6.75
+    metalevel: 1
     name: Alfven Enduring Remote Tracking Computer
+    overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 13.5
     volume: 5.0
   F-293 Scoped Remote Tracking Computer:
-    CapacitorNeed: 20.0
-    Capacity: 1.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 12000.0
-    FalloffBonus: 13.5
-    FalloffEffectiveness: 22000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 44000.0
-    MaxRangeBonus: 6.75
-    MetaLevel: 1
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 13.5
+    capacitorneed: 20.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 30.0
+    disallowagainstewimmunetarget: 1
+    duration: 12000.0
+    falloffbonus: 13.5
+    falloffeffectiveness: 22000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
     id: 5339
     marketGroup: 708
+    maxrange: 44000.0
+    maxrangebonus: 6.75
+    metalevel: 1
     name: F-293 Scoped Remote Tracking Computer
+    overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 13.5
     volume: 5.0
   Federation Navy Remote Tracking Computer:
-    CapacitorNeed: 20.0
-    Capacity: 1.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 12000.0
-    FalloffBonus: 16.0
-    FalloffEffectiveness: 28000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 56000.0
-    MaxRangeBonus: 8.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 17.5
+    capacitorneed: 20.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 30.0
+    disallowagainstewimmunetarget: 1
+    duration: 12000.0
+    falloffbonus: 16.0
+    falloffeffectiveness: 28000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
     id: 15967
     marketGroup: 708
+    maxrange: 56000.0
+    maxrangebonus: 8.0
+    metagroupid: 4
+    metalevel: 8
     name: Federation Navy Remote Tracking Computer
+    overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 17.5
     volume: 5.0
   P-S Compact Remote Tracking Computer:
-    CapacitorNeed: 20.0
-    Capacity: 1.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Cpu: 24.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 12000.0
-    FalloffBonus: 13.5
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 40000.0
-    MaxRangeBonus: 6.75
-    MetaLevel: 1
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 13.5
+    capacitorneed: 20.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 24.0
+    disallowagainstewimmunetarget: 1
+    duration: 12000.0
+    falloffbonus: 13.5
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
     id: 5340
     marketGroup: 708
+    maxrange: 40000.0
+    maxrangebonus: 6.75
+    metalevel: 1
     name: P-S Compact Remote Tracking Computer
+    overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 13.5
     volume: 5.0
   Remote Tracking Computer I:
-    CapacitorNeed: 20.0
-    Capacity: 1.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 12000.0
-    FalloffBonus: 12.0
-    FalloffEffectiveness: 20000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 40000.0
-    MaxRangeBonus: 6.0
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 12.0
+    capacitorneed: 20.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 30.0
+    disallowagainstewimmunetarget: 1
+    duration: 12000.0
+    falloffbonus: 12.0
+    falloffeffectiveness: 20000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
     id: 2103
     marketGroup: 708
+    maxrange: 40000.0
+    maxrangebonus: 6.0
     name: Remote Tracking Computer I
+    overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 25.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 12.0
     volume: 25.0
   Remote Tracking Computer II:
-    CapacitorNeed: 24.0
-    Capacity: 1.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Cpu: 36.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 12000.0
-    FalloffBonus: 15.0
-    FalloffEffectiveness: 24000
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 48000.0
-    MaxRangeBonus: 7.5
-    MetaLevel: 5
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 2
-    TrackingSpeedBonus: 15.0
+    capacitorneed: 24.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 36.0
+    disallowagainstewimmunetarget: 1
+    duration: 12000.0
+    falloffbonus: 15.0
+    falloffeffectiveness: 24000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 4.0
+    hp: 40.0
     id: 2104
     marketGroup: 708
+    maxrange: 48000.0
+    maxrangebonus: 7.5
+    metalevel: 5
     name: Remote Tracking Computer II
+    overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3433
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    trackingspeedbonus: 15.0
     volume: 5.0
   Shadow Serpentis Remote Tracking Computer:
-    CapacitorNeed: 20.0
-    Capacity: 1.0
-    ChargeGroup1: 907
-    ChargeSize: 1
-    Cpu: 30.0
-    DisallowAgainstEwImmuneTarget: 1
-    Duration: 12000.0
-    FalloffBonus: 16.0
-    FalloffEffectiveness: 28000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 4.0
-    Hp: 40.0
-    MaxRange: 56000.0
-    MaxRangeBonus: 8.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadTrackingModuleStrengthBonus: 15
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RequiredSkill1: 3433
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    TechLevel: 1
-    TrackingSpeedBonus: 17.5
+    capacitorneed: 20.0
+    capacity: 1.0
+    chargegroup1: 907
+    chargesize: 1
+    cpu: 30.0
+    disallowagainstewimmunetarget: 1
+    duration: 12000.0
+    falloffbonus: 16.0
+    falloffeffectiveness: 28000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
     id: 14240
     marketGroup: 708
+    maxrange: 56000.0
+    maxrangebonus: 8.0
+    metagroupid: 4
+    metalevel: 8
     name: Shadow Serpentis Remote Tracking Computer
+    overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    requiredskill1: 3433
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    trackingspeedbonus: 17.5
     volume: 5.0

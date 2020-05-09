@@ -1,40 +1,38 @@
 types:
   Test LCO Drone:
-    ArmorHP: 50.0
-    CapacitorCapacity: 1200.0
-    Capacity: 1200.0
-    DamageMultiplier: 1.25
-    DisallowAssistance: 1
-    EmDamage: 2.0
-    EmDamageResonance: 1.0
-    ExplosiveDamage: 4.0
-    ExplosiveDamageResonance: 1.0
-    Hp: 80.0
-    KineticDamageResonance: 1.0
-    Mass: 100000.0
-    MaxAttackTargets: 1
-    MaxLockedTargets: 8
-    MaxVelocity: 350.0
-    OrbitRange: 25
-    ProximityRange: 3000
-    Radius: 45.0
-    RechargeRate: 2500000.0
-    ScanGravimetricStrength: 1.0
-    ScanLadarStrength: 1.0
-    ScanMagnetometricStrength: 1.0
-    ScanRadarStrength: 1.0
-    ScanSpeed: 2000
-    ShieldCapacity: 50.0
-    ShieldRechargeRate: 2500000.0
-    ShieldUniformity: 0.75
-    Speed: 2500.0
-    StructureUniformity: 1.0
-    ThermalDamage: 4.0
-    ThermalDamageResonance: 1.0
+    armorhp: 50.0
+    capacitorcapacity: 1200.0
+    capacity: 1200.0
+    damagemultiplier: 1.25
+    disallowassistance: 1
+    emdamage: 2.0
+    emdamageresonance: 1.0
+    explosivedamage: 4.0
+    explosivedamageresonance: 1.0
+    hp: 80.0
     id: 3457
-    mass: 100000.0
+    kineticdamageresonance: 1.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxvelocity: 350.0
     name: Test LCO Drone
+    orbitrange: 25
     packagedVolume: 60.0
     portionSize: 1
+    proximityrange: 3000
     published: false
+    radius: 45.0
+    rechargerate: 2500000.0
+    scangravimetricstrength: 1.0
+    scanladarstrength: 1.0
+    scanmagnetometricstrength: 1.0
+    scanradarstrength: 1.0
+    scanspeed: 2000
+    shieldcapacity: 50.0
+    shieldrechargerate: 2500000.0
+    shielduniformity: 0.75
+    speed: 2500.0
+    structureuniformity: 1.0
+    thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     volume: 60.0

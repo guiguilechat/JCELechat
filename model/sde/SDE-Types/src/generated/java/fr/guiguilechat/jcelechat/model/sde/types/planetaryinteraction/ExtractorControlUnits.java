@@ -1,15 +1,30 @@
 package fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EcuExtractorHeadCPU;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EcuExtractorHeadPower;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExtractorDepletionRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExtractorDepletionRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PinCycleTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PinExtractionQuantity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PlanetRestriction;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryInteraction;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,63 +37,64 @@ public class ExtractorControlUnits
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CpuLoad;
+    public int cpuload;
     /**
      * CPU cost of extractor head
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(110)
-    public int EcuExtractorHeadCPU;
+    public int ecuextractorheadcpu;
     /**
      * Power cost for a extractor head
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(500)
-    public int EcuExtractorHeadPower;
+    public int ecuextractorheadpower;
     /**
      * This is the radius that the depletion at this pin effects
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10)
-    public int ExtractorDepletionRange;
+    public int extractordepletionrange;
     /**
      * This is the amount that is added to the depletion of a resource on a planet
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ExtractorDepletionRate;
+    public int extractordepletionrate;
     /**
      * Base cycle time (in seconds) of an extractor pin.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(300)
-    public int PinCycleTime;
+    public int pincycletime;
     /**
      * Base amount (in units) of commodities extracted by an extractor pin.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int PinExtractionQuantity;
+    public int pinextractionquantity;
     /**
      * This type can only be found/used/created on a planet matching this type ID.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PlanetRestriction;
+    public int planetrestriction;
     /**
      * Current load of power core
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PowerLoad;
+    public int powerload;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PlanetRestriction.INSTANCE, CpuLoad.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, PinExtractionQuantity.INSTANCE, EcuExtractorHeadCPU.INSTANCE, PinCycleTime.INSTANCE, EcuExtractorHeadPower.INSTANCE, ExtractorDepletionRange.INSTANCE, ExtractorDepletionRate.INSTANCE, PowerLoad.INSTANCE })));
     public static final ExtractorControlUnits.MetaGroup METAGROUP = new ExtractorControlUnits.MetaGroup();
 
     @Override
@@ -86,45 +102,50 @@ public class ExtractorControlUnits
         switch (attribute.getId()) {
             case  49 :
             {
-                return CpuLoad;
+                return cpuload;
             }
             case  1690 :
             {
-                return EcuExtractorHeadCPU;
+                return ecuextractorheadcpu;
             }
             case  1691 :
             {
-                return EcuExtractorHeadPower;
+                return ecuextractorheadpower;
             }
             case  1644 :
             {
-                return ExtractorDepletionRange;
+                return extractordepletionrange;
             }
             case  1645 :
             {
-                return ExtractorDepletionRate;
+                return extractordepletionrate;
             }
             case  1643 :
             {
-                return PinCycleTime;
+                return pincycletime;
             }
             case  1642 :
             {
-                return PinExtractionQuantity;
+                return pinextractionquantity;
             }
             case  1632 :
             {
-                return PlanetRestriction;
+                return planetrestriction;
             }
             case  15 :
             {
-                return PowerLoad;
+                return powerload;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

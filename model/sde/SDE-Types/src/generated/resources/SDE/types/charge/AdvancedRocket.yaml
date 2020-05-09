@@ -1,293 +1,277 @@
 types:
   Inferno Javelin Rocket:
-    Agility: 0.0019947297405451536
-    AoeCloudSize: 20
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 3000
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507
-    Mass: 100.0
-    MaxVelocity: 3375.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20209
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3320
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamage: 29.700000762939453
-    ThermalDamageResonance: 0.800000011920929
+    agility: 0.0019947297405451536
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 3000
+    aoevelocity: 150.0
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
     id: 24479
+    kineticdamageresonance: 1.0
+    launchergroup: 507
     marketGroup: 928
-    mass: 100.0
+    maxvelocity: 3375.0
+    metalevel: 5
     name: Inferno Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20209
+    requiredskill1level: 1
+    requiredskill2: 3320
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 29.700000762939453
+    thermaldamageresonance: 0.800000011920929
     volume: 0.004999999888241291
   Inferno Rage Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 34
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1000
-    AoeVelocity: 129.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507
-    Mass: 100.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20209
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3320
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamage: 51.29999923706055
-    ThermalDamageResonance: 0.800000011920929
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 34
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1000
+    aoevelocity: 129.0
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
     id: 24475
+    kineticdamageresonance: 1.0
+    launchergroup: 507
     marketGroup: 930
-    mass: 100.0
+    maxvelocity: 1875.0
+    metalevel: 5
     name: Inferno Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20209
+    requiredskill1level: 1
+    requiredskill2: 3320
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamage: 51.29999923706055
+    thermaldamageresonance: 0.800000011920929
     volume: 0.004999999888241291
   Mjolnir Javelin Rocket:
-    Agility: 0.0019947297405451536
-    AoeCloudSize: 20
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 3000
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamage: 29.700000762939453
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 2000
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507
-    Mass: 100.0
-    MaxVelocity: 3375.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20209
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3320
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 0.0019947297405451536
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 3000
+    aoevelocity: 150.0
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamage: 29.700000762939453
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
     id: 13119
+    kineticdamageresonance: 1.0
+    launchergroup: 507
     marketGroup: 928
-    mass: 100.0
+    maxvelocity: 3375.0
+    metalevel: 5
     name: Mjolnir Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20209
+    requiredskill1level: 1
+    requiredskill2: 3320
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.004999999888241291
   Mjolnir Rage Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 34
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1000
-    AoeVelocity: 129.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamage: 51.29999923706055
-    EmDamageResonance: 0.800000011920929
-    ExplosionDelay: 2000
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507
-    Mass: 100.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20209
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3320
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 34
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1000
+    aoevelocity: 129.0
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamage: 51.29999923706055
+    emdamageresonance: 0.800000011920929
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
     id: 2817
+    kineticdamageresonance: 1.0
+    launchergroup: 507
     marketGroup: 930
-    mass: 100.0
+    maxvelocity: 1875.0
+    metalevel: 5
     name: Mjolnir Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20209
+    requiredskill1level: 1
+    requiredskill2: 3320
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.004999999888241291
   Nova Javelin Rocket:
-    Agility: 0.0019947297405451536
-    AoeCloudSize: 20
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 3000
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000
-    ExplosiveDamage: 29.700000762939453
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507
-    Mass: 100.0
-    MaxVelocity: 3375.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20209
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3320
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 0.0019947297405451536
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 3000
+    aoevelocity: 150.0
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamage: 29.700000762939453
+    explosivedamageresonance: 0.800000011920929
+    hp: 90.0
     id: 24478
+    kineticdamageresonance: 1.0
+    launchergroup: 507
     marketGroup: 928
-    mass: 100.0
+    maxvelocity: 3375.0
+    metalevel: 5
     name: Nova Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20209
+    requiredskill1level: 1
+    requiredskill2: 3320
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.004999999888241291
   Nova Rage Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 34
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1000
-    AoeVelocity: 129.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000
-    ExplosiveDamage: 51.29999923706055
-    ExplosiveDamageResonance: 0.800000011920929
-    Hp: 90.0
-    KineticDamageResonance: 1.0
-    LauncherGroup: 507
-    Mass: 100.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20209
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3320
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 34
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1000
+    aoevelocity: 129.0
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamage: 51.29999923706055
+    explosivedamageresonance: 0.800000011920929
+    hp: 90.0
     id: 24473
+    kineticdamageresonance: 1.0
+    launchergroup: 507
     marketGroup: 930
-    mass: 100.0
+    maxvelocity: 1875.0
+    metalevel: 5
     name: Nova Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20209
+    requiredskill1level: 1
+    requiredskill2: 3320
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.004999999888241291
   Scourge Javelin Rocket:
-    Agility: 0.0019947297405451536
-    AoeCloudSize: 20
-    AoeDamageReductionFactor: 0.6819999814033508
-    AoeFalloff: 3000
-    AoeVelocity: 150.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamage: 29.700000762939453
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 507
-    Mass: 100.0
-    MaxVelocity: 3375.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20209
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3320
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 0.0019947297405451536
+    aoecloudsize: 20
+    aoedamagereductionfactor: 0.6819999814033508
+    aoefalloff: 3000
+    aoevelocity: 150.0
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
     id: 24477
+    kineticdamage: 29.700000762939453
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 507
     marketGroup: 928
-    mass: 100.0
+    maxvelocity: 3375.0
+    metalevel: 5
     name: Scourge Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20209
+    requiredskill1level: 1
+    requiredskill2: 3320
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.004999999888241291
   Scourge Rage Rocket:
-    Agility: 5.220125675201416
-    AimedLaunch: 1
-    AoeCloudSize: 34
-    AoeDamageReductionFactor: 0.8820000290870667
-    AoeFalloff: 1000
-    AoeVelocity: 129.0
-    ArmorPiercingChance: 1
-    DetonationRange: 35
-    EmDamageResonance: 1.0
-    ExplosionDelay: 2000
-    ExplosiveDamageResonance: 1.0
-    Hp: 90.0
-    KineticDamage: 51.29999923706055
-    KineticDamageResonance: 0.800000011920929
-    LauncherGroup: 507
-    Mass: 100.0
-    MaxVelocity: 1875.0
-    MetaLevel: 5
-    Radius: 300.0
-    RequiredSkill1: 20209
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3320
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3319
-    RequiredSkill3Level: 5
-    StructureUniformity: 1.0
-    TechLevel: 2
-    ThermalDamageResonance: 1.0
+    agility: 5.220125675201416
+    aimedlaunch: 1
+    aoecloudsize: 34
+    aoedamagereductionfactor: 0.8820000290870667
+    aoefalloff: 1000
+    aoevelocity: 129.0
+    armorpiercingchance: 1
+    detonationrange: 35
+    emdamageresonance: 1.0
+    explosiondelay: 2000
+    explosivedamageresonance: 1.0
+    hp: 90.0
     id: 24471
+    kineticdamage: 51.29999923706055
+    kineticdamageresonance: 0.800000011920929
+    launchergroup: 507
     marketGroup: 930
-    mass: 100.0
+    maxvelocity: 1875.0
+    metalevel: 5
     name: Scourge Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
     published: true
+    radius: 300.0
+    requiredskill1: 20209
+    requiredskill1level: 1
+    requiredskill2: 3320
+    requiredskill2level: 5
+    requiredskill3: 3319
+    requiredskill3level: 5
+    structureuniformity: 1.0
+    techlevel: 2
+    thermaldamageresonance: 1.0
     volume: 0.004999999888241291

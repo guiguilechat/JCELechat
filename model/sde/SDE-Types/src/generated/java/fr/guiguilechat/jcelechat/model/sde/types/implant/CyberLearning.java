@@ -1,15 +1,30 @@
 package fr.guiguilechat.jcelechat.model.sde.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CharismaBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IntelligenceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MemoryBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WillpowerBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Implant;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,35 +37,35 @@ public class CyberLearning
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CharismaBonus;
+    public int charismabonus;
     /**
      * Whether an item is an implant or not
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Implantness;
+    public int implantness;
     /**
      * +/- bonus to the intelligence of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IntelligenceBonus;
+    public int intelligencebonus;
     /**
      * +/- bonus to the memory of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MemoryBonus;
+    public int memorybonus;
     /**
      * +/- bonus to the perception of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PerceptionBonus;
+    public int perceptionbonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -58,14 +73,15 @@ public class CyberLearning
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * +/- bonus to the willpower of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WillpowerBonus;
+    public int willpowerbonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, Radius.INSTANCE, WillpowerBonus.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE, CharismaBonus.INSTANCE })));
     public static final CyberLearning.MetaGroup METAGROUP = new CyberLearning.MetaGroup();
 
     @Override
@@ -73,37 +89,42 @@ public class CyberLearning
         switch (attribute.getId()) {
             case  175 :
             {
-                return CharismaBonus;
+                return charismabonus;
             }
             case  331 :
             {
-                return Implantness;
+                return implantness;
             }
             case  176 :
             {
-                return IntelligenceBonus;
+                return intelligencebonus;
             }
             case  177 :
             {
-                return MemoryBonus;
+                return memorybonus;
             }
             case  178 :
             {
-                return PerceptionBonus;
+                return perceptionbonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  179 :
             {
-                return WillpowerBonus;
+                return willpowerbonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

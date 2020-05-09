@@ -1,29 +1,29 @@
 types:
   Target Spectrum Breaker:
-    CanFitShipGroup01: 900
-    CanFitShipGroup02: 27
-    CanFitShipGroup03: 898
-    CapacitorNeed: 272.0
-    Cpu: 50.0
-    Duration: 8000.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 2.700000047683716
-    Hp: 40.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MetaLevel: 1
-    OverloadSelfDurationBonus: -15.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 3427
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    ScanResolutionMultiplier: 0.75
-    TechLevel: 1
+    canfitshipgroup01: 900
+    canfitshipgroup02: 27
+    canfitshipgroup03: 898
+    capacitorneed: 272.0
+    cpu: 50.0
+    duration: 8000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 2.700000047683716
+    hp: 40.0
     id: 4409
     marketGroup: 1426
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metalevel: 1
     name: Target Spectrum Breaker
+    overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3427
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    scanresolutionmultiplier: 0.75
+    techlevel: 1
     volume: 5.0

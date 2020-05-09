@@ -1,52 +1,52 @@
 types:
   Frostline 'Omnivore' Harvester Upgrade Blueprint:
-    TechLevel: 1
     id: 49973
     marketGroup: 937
     name: Frostline 'Omnivore' Harvester Upgrade Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    techlevel: 1
     volume: 0.009999999776482582
   Ice Harvester Upgrade I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 22577
+    industryblueprintrank: 3.0
     marketGroup: 937
     name: Ice Harvester Upgrade I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Ice Harvester Upgrade II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 28579
+    industryblueprintrank: 7.800000190734863
     name: Ice Harvester Upgrade II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Mining Laser Upgrade I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 22543
+    industryblueprintrank: 3.0
     marketGroup: 937
     name: Mining Laser Upgrade I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Mining Laser Upgrade II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 28577
+    industryblueprintrank: 7.800000190734863
     name: Mining Laser Upgrade II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

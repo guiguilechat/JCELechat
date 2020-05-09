@@ -1,35 +1,31 @@
 types:
   Scan Resolution Dampening Script:
-    ChargeSize: 1
-    LauncherGroup: 208
-    MainColor: 11646664
-    Mass: 1.0
-    MaxTargetRangeBonusBonus: -100
-    Radius: 1.0
-    ScanResolutionBonusBonus: 100
-    TechLevel: 1
+    chargesize: 1
     id: 29013
+    launchergroup: 208
+    maincolor: 11646664
     marketGroup: 1094
-    mass: 1.0
+    maxtargetrangebonusbonus: -100
     name: Scan Resolution Dampening Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scanresolutionbonusbonus: 100
+    techlevel: 1
     volume: 1.0
   Targeting Range Dampening Script:
-    ChargeSize: 1
-    LauncherGroup: 208
-    MainColor: 11646664
-    Mass: 1.0
-    MaxTargetRangeBonusBonus: 100
-    Radius: 1.0
-    ScanResolutionBonusBonus: -100
-    TechLevel: 1
+    chargesize: 1
     id: 29015
+    launchergroup: 208
+    maincolor: 11646664
     marketGroup: 1094
-    mass: 1.0
+    maxtargetrangebonusbonus: 100
     name: Targeting Range Dampening Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scanresolutionbonusbonus: -100
+    techlevel: 1
     volume: 1.0

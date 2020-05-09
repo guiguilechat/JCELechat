@@ -1,213 +1,213 @@
 types:
   Armor Layering:
-    CanNotBeTrainedOnTrial: 1
-    MassPenaltyReduction: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 33078
     marketGroup: 1745
+    masspenaltyreduction: -5
     name: Armor Layering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3392
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Capital Remote Armor Repair Systems:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 16069
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 24568
     marketGroup: 1745
     name: Capital Remote Armor Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 16069
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Capital Remote Hull Repair Systems:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 27902
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 27936
     marketGroup: 1745
     name: Capital Remote Hull Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 27902
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Capital Repair Systems:
-    CanNotBeTrainedOnTrial: 1
-    DurationSkillBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3394
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3393
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
+    durationskillbonus: -5
     id: 21803
     marketGroup: 1745
     name: Capital Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3392
+    requiredskill1level: 5
+    requiredskill2: 3394
+    requiredskill2level: 5
+    requiredskill3: 3393
+    requiredskill3level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   EM Armor Compensation:
-    CanNotBeTrainedOnTrial: 1
-    HardeningBonus: 5.0
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
+    hardeningbonus: 5.0
     id: 22806
     marketGroup: 1745
     name: EM Armor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Explosive Armor Compensation:
-    CanNotBeTrainedOnTrial: 1
-    HardeningBonus: 5.0
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
+    hardeningbonus: 5.0
     id: 22807
     marketGroup: 1745
     name: Explosive Armor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Hull Upgrades:
-    ArmorHpBonus: 5
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    armorhpbonus: 5
+    cannotbetrainedontrial: 1
     id: 3394
     marketGroup: 1745
     name: Hull Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3392
+    requiredskill1level: 1
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Kinetic Armor Compensation:
-    CanNotBeTrainedOnTrial: 1
-    HardeningBonus: 5.0
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
+    hardeningbonus: 5.0
     id: 22808
     marketGroup: 1745
     name: Kinetic Armor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Mechanics:
-    CanNotBeTrainedOnTrial: 1
-    HullHpBonus: 5.0
-    PrimaryAttribute: 165
-    Radius: 1.0
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
+    hullhpbonus: 5.0
     id: 3392
     marketGroup: 1745
     name: Mechanics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Remote Armor Repair Systems:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3393
-    RequiredSkill2Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 16069
     marketGroup: 1745
     name: Remote Armor Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3392
+    requiredskill1level: 3
+    requiredskill2: 3393
+    requiredskill2level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Remote Hull Repair Systems:
-    CanNotBeTrainedOnTrial: 1
-    CapNeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
+    capneedbonus: -5
     id: 27902
     marketGroup: 1745
     name: Remote Hull Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3392
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Repair Systems:
-    CanNotBeTrainedOnTrial: 1
-    DurationSkillBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3392
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
+    durationskillbonus: -5
     id: 3393
     marketGroup: 1745
     name: Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3392
+    requiredskill1level: 1
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Thermal Armor Compensation:
-    CanNotBeTrainedOnTrial: 1
-    HardeningBonus: 5.0
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3394
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
+    hardeningbonus: 5.0
     id: 22809
     marketGroup: 1745
     name: Thermal Armor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3394
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582

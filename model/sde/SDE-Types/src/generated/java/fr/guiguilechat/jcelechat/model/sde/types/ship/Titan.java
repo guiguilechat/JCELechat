@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,150 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AccuracyBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AdvancedAgility;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AdvancedCapitalAgility;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanJump;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanReceiveCloneJumps;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInHighSec;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyWarfareResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntosisAssistanceImpedanceMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntosisDurationMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiCapitalMissileResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterHeavySlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterLightSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterTubes;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FleetHangarCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FwLpKill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GateScrambleStatus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HasFleetHangars;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HasShipMaintenanceBay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsCapitalSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpClonesLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveCapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveConsumptionAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveConsumptionType;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpDriveRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpHarmonics;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalCapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalConsumptionMassFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpPortalDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxJumpClones;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxOperationalDistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxOperationalUsers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxPassengers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NosOverride;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteAssistanceImpedance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RemoteRepairImpedance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RoleBonusCommandBurstAoERange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SensorDampenerResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanA1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanA2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanA3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanC1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanC3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanC5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanG1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanG2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanG3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanM1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanM2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusTitanM3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipMaintenanceBayCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialCorpseHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialFuelBayCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebifierResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TargetPainterResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TurretSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStatus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponDisruptionResistance;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,266 +170,266 @@ public class Titan
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int AccuracyBonus;
+    public int accuracybonus;
     /**
      * Attribute on ship to make advanced command affect only ships that we want.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int AdvancedAgility;
+    public int advancedagility;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int AdvancedCapitalAgility;
+    public int advancedcapitalagility;
     /**
      *  1 = ship can use jump drive
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanJump;
+    public int canjump;
     /**
      * Defines whether a ship has the functionality to allow it to receive clone jumps and host jump clones.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanReceiveCloneJumps;
+    public int canreceiveclonejumps;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowInHighSec;
+    public int disallowinhighsec;
     /**
      * Resistance against Energy Neutralizing and Nosferatu
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double EnergyWarfareResistance;
+    public double energywarfareresistance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntosisAssistanceImpedanceMultiplier;
+    public double entosisassistanceimpedancemultiplier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int EntosisDurationMultiplier;
+    public int entosisdurationmultiplier;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityAntiCapitalMissileResistance;
+    public int fighterabilityanticapitalmissileresistance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterAbilityKamikazeResistance;
+    public int fighterabilitykamikazeresistance;
     /**
      * This defines the total capacity of fighters allowed in the fighter bay of the ship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterCapacity;
+    public int fightercapacity;
     /**
      * Number of Heavy Fighters the ship can launch.Heavy 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterHeavySlots;
+    public int fighterheavyslots;
     /**
      * Number of Light Fighters the ship can launch.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterLightSlots;
+    public int fighterlightslots;
     /**
      * This defines the total number of fighter launch tubes on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FighterTubes;
+    public int fightertubes;
     /**
      * The capacity of the fleet hangar.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FleetHangarCapacity;
+    public int fleethangarcapacity;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FwLpKill;
+    public int fwlpkill;
     /**
      * If greater than zero than the ship cannot activate gates. Set this to 0 on a type if you want it to be gate scramble-able.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(-1000)
-    public int GateScrambleStatus;
+    public int gatescramblestatus;
     /**
      * Whether this ship has fleet hangars.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int HasFleetHangars;
+    public int hasfleethangars;
     /**
      * Indicates whether a ship type has a ship maintenance bay.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int HasShipMaintenanceBay;
+    public int hasshipmaintenancebay;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
+    public double heatattenuationhi;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HeatAttenuationLow;
+    public double heatattenuationlow;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HeatAttenuationMed;
+    public double heatattenuationmed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IsCapitalSize;
+    public int iscapitalsize;
     /**
      * The remaining number of unused clone vats on the ship that are available for installation of jump clones.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int JumpClonesLeft;
+    public int jumpclonesleft;
     /**
      * Minimum capacitor need for jump drive operation from full capacitor in modifier%.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double JumpDriveCapacitorNeed;
+    public double jumpdrivecapacitorneed;
     /**
      * Number of units it consumes per light year.
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(2000)
-    public int JumpDriveConsumptionAmount;
+    public int jumpdriveconsumptionamount;
     /**
      * Type that is used for consumption from cargo hold when activating jump drive operation.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int JumpDriveConsumptionType;
+    public int jumpdriveconsumptiontype;
     /**
      * The amount of time before the ship actually jumps.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(300000)
-    public int JumpDriveDuration;
+    public int jumpdriveduration;
     /**
      * Range in light years the ship can maximum jump to.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double JumpDriveRange;
+    public double jumpdriverange;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int JumpHarmonics;
+    public int jumpharmonics;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int JumpPortalCapacitorNeed;
+    public int jumpportalcapacitorneed;
     /**
      * Multiplier used to calculate amount of quantity used for jumping via portals based on mass of ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double JumpPortalConsumptionMassFactor;
+    public double jumpportalconsumptionmassfactor;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(300000)
-    public int JumpPortalDuration;
+    public int jumpportalduration;
     /**
      * The maximum amount of jump clones that the character may have in existence or ship may have stored.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxJumpClones;
+    public int maxjumpclones;
     /**
      * The maximum distance at which the object can be used.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxOperationalDistance;
+    public int maxoperationaldistance;
     /**
      * The maximum number of users that can be present within the operational range of the structure for it to be capable of operation.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxOperationalUsers;
+    public int maxoperationalusers;
     /**
      * Specifies the maximum numbers of passengers that the ship can have
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxPassengers;
+    public int maxpassengers;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -297,266 +444,267 @@ public class Titan
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * NOS override allows a nosferatu module to drain the target capacitor below the current ships capacitor level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int NosOverride;
+    public int nosoverride;
     /**
      * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double RemoteAssistanceImpedance;
+    public double remoteassistanceimpedance;
     /**
      * Impedance against Remote Repair (shield, armor, hull and energy).
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double RemoteRepairImpedance;
+    public double remoterepairimpedance;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill3;
+    public int requiredskill3;
     /**
      * Required skill level for skill 3
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill3Level;
+    public int requiredskill3level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSize;
+    public int rigsize;
     /**
      * The number of rig slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSlots;
+    public int rigslots;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RoleBonusCommandBurstAoERange;
+    public int rolebonuscommandburstaoerange;
     /**
      * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanResolution;
+    public double scanresolution;
     /**
      * Resistance against Remote Sensor Dampeners.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double SensorDampenerResistance;
+    public double sensordampenerresistance;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusRole1;
+    public double shipbonusrole1;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusRole2;
+    public int shipbonusrole2;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusRole3;
+    public int shipbonusrole3;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusRole4;
+    public int shipbonusrole4;
     /**
      * Multiplied by Amarr Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanA1;
+    public int shipbonustitana1;
     /**
      * Multiplied by Amarr Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanA2;
+    public int shipbonustitana2;
     /**
      * Multiplied by Amarr Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanA3;
+    public int shipbonustitana3;
     /**
      * Multiplied by Caldari Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanC1;
+    public int shipbonustitanc1;
     /**
      * Multiplied by Caldari Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanC2;
+    public int shipbonustitanc2;
     /**
      * Multiplied by Caldari Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanC3;
+    public int shipbonustitanc3;
     /**
      * Multiplied by Caldari Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanC5;
+    public int shipbonustitanc5;
     /**
      * Multiplied by Gallente Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanG1;
+    public int shipbonustitang1;
     /**
      * Multiplied by Gallente Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanG2;
+    public int shipbonustitang2;
     /**
      * Multiplied by Gallente Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanG3;
+    public int shipbonustitang3;
     /**
      * Multiplied by Minmatar Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanM1;
+    public int shipbonustitanm1;
     /**
      * Multiplied by Minmatar Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanM2;
+    public int shipbonustitanm2;
     /**
      * Multiplied by Minmatar Titan skill level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusTitanM3;
+    public int shipbonustitanm3;
     /**
      * The capacity of the hangar in a ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipMaintenanceBayCapacity;
+    public int shipmaintenancebaycapacity;
     /**
      * special corpse hold capacity
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int SpecialCorpseHoldCapacity;
+    public int specialcorpseholdcapacity;
     /**
      * special fuel bay capacity
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int SpecialFuelBayCapacity;
+    public int specialfuelbaycapacity;
     /**
      * Resistance against Stasis Webifiers
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double StasisWebifierResistance;
+    public double stasiswebifierresistance;
     /**
      * Resistance against Target Painters
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double TargetPainterResistance;
+    public double targetpainterresistance;
     /**
      * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
+    public int upgradeslotsleft;
     /**
      * Warp ability of a ship.  If greater than zero than the ship cannot warp.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleStatus;
+    public int warpscramblestatus;
     /**
      * Resistance against Remote Weapon Disruptors.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double WeaponDisruptionResistance;
+    public double weapondisruptionresistance;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, SpecialFuelBayCapacity.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, JumpClonesLeft.INSTANCE, AccuracyBonus.INSTANCE, SensorDampenerResistance.INSTANCE, WeaponDisruptionResistance.INSTANCE, TargetPainterResistance.INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, AdvancedAgility.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, ShipBonusTitanA1 .INSTANCE, TurretSlotsLeft.INSTANCE, ShipBonusTitanA2 .INSTANCE, WarpScrambleStatus.INSTANCE, ShipBonusTitanA3 .INSTANCE, AdvancedCapitalAgility.INSTANCE, ShipBonusTitanC1 .INSTANCE, ShipBonusTitanC2 .INSTANCE, ShipBonusTitanC3 .INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ShipBonusTitanG1 .INSTANCE, ThermalDamageResonance.INSTANCE, ShipBonusTitanG2 .INSTANCE, ExplosiveDamageResonance.INSTANCE, ShipBonusTitanG3 .INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, ShipBonusTitanM1 .INSTANCE, ShipBonusTitanM2 .INSTANCE, ShipBonusTitanM3 .INSTANCE, ShipBonusTitanC5 .INSTANCE, MetaLevel.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, NosOverride.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, SpecialCorpseHoldCapacity.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, FighterHeavySlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, MaxJumpClones.INSTANCE, ScanGravimetricStrength.INSTANCE, CanReceiveCloneJumps.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, JumpPortalDuration.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, JumpPortalCapacitorNeed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE, ShipBonusRole3 .INSTANCE, EnergyWarfareResistance.INSTANCE, ShipBonusRole4 .INSTANCE })));
     public static final Titan.MetaGroup METAGROUP = new Titan.MetaGroup();
 
     @Override
@@ -564,313 +712,318 @@ public class Titan
         switch (attribute.getId()) {
             case  63 :
             {
-                return AccuracyBonus;
+                return accuracybonus;
             }
             case  853 :
             {
-                return AdvancedAgility;
+                return advancedagility;
             }
             case  874 :
             {
-                return AdvancedCapitalAgility;
+                return advancedcapitalagility;
             }
             case  861 :
             {
-                return CanJump;
+                return canjump;
             }
             case  982 :
             {
-                return CanReceiveCloneJumps;
+                return canreceiveclonejumps;
             }
             case  1970 :
             {
-                return DisallowInHighSec;
+                return disallowinhighsec;
             }
             case  2045 :
             {
-                return EnergyWarfareResistance;
+                return energywarfareresistance;
             }
             case  2754 :
             {
-                return EntosisAssistanceImpedanceMultiplier;
+                return entosisassistanceimpedancemultiplier;
             }
             case  2021 :
             {
-                return EntosisDurationMultiplier;
+                return entosisdurationmultiplier;
             }
             case  2244 :
             {
-                return FighterAbilityAntiCapitalMissileResistance;
+                return fighterabilityanticapitalmissileresistance;
             }
             case  2433 :
             {
-                return FighterAbilityKamikazeResistance;
+                return fighterabilitykamikazeresistance;
             }
             case  2055 :
             {
-                return FighterCapacity;
+                return fightercapacity;
             }
             case  2219 :
             {
-                return FighterHeavySlots;
+                return fighterheavyslots;
             }
             case  2217 :
             {
-                return FighterLightSlots;
+                return fighterlightslots;
             }
             case  2216 :
             {
-                return FighterTubes;
+                return fightertubes;
             }
             case  912 :
             {
-                return FleetHangarCapacity;
+                return fleethangarcapacity;
             }
             case  1555 :
             {
-                return FwLpKill;
+                return fwlpkill;
             }
             case  1973 :
             {
-                return GateScrambleStatus;
+                return gatescramblestatus;
             }
             case  911 :
             {
-                return HasFleetHangars;
+                return hasfleethangars;
             }
             case  907 :
             {
-                return HasShipMaintenanceBay;
+                return hasshipmaintenancebay;
             }
             case  1259 :
             {
-                return HeatAttenuationHi;
+                return heatattenuationhi;
             }
             case  1262 :
             {
-                return HeatAttenuationLow;
+                return heatattenuationlow;
             }
             case  1261 :
             {
-                return HeatAttenuationMed;
+                return heatattenuationmed;
             }
             case  1785 :
             {
-                return IsCapitalSize;
+                return iscapitalsize;
             }
             case  1336 :
             {
-                return JumpClonesLeft;
+                return jumpclonesleft;
             }
             case  898 :
             {
-                return JumpDriveCapacitorNeed;
+                return jumpdrivecapacitorneed;
             }
             case  868 :
             {
-                return JumpDriveConsumptionAmount;
+                return jumpdriveconsumptionamount;
             }
             case  866 :
             {
-                return JumpDriveConsumptionType;
+                return jumpdriveconsumptiontype;
             }
             case  869 :
             {
-                return JumpDriveDuration;
+                return jumpdriveduration;
             }
             case  867 :
             {
-                return JumpDriveRange;
+                return jumpdriverange;
             }
             case  1253 :
             {
-                return JumpHarmonics;
+                return jumpharmonics;
             }
             case  1005 :
             {
-                return JumpPortalCapacitorNeed;
+                return jumpportalcapacitorneed;
             }
             case  1001 :
             {
-                return JumpPortalConsumptionMassFactor;
+                return jumpportalconsumptionmassfactor;
             }
             case  1002 :
             {
-                return JumpPortalDuration;
+                return jumpportalduration;
             }
             case  979 :
             {
-                return MaxJumpClones;
+                return maxjumpclones;
             }
             case  715 :
             {
-                return MaxOperationalDistance;
+                return maxoperationaldistance;
             }
             case  716 :
             {
-                return MaxOperationalUsers;
+                return maxoperationalusers;
             }
             case  129 :
             {
-                return MaxPassengers;
+                return maxpassengers;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  1945 :
             {
-                return NosOverride;
+                return nosoverride;
             }
             case  2135 :
             {
-                return RemoteAssistanceImpedance;
+                return remoteassistanceimpedance;
             }
             case  2116 :
             {
-                return RemoteRepairImpedance;
+                return remoterepairimpedance;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  184 :
             {
-                return RequiredSkill3;
+                return requiredskill3;
             }
             case  279 :
             {
-                return RequiredSkill3Level;
+                return requiredskill3level;
             }
             case  1547 :
             {
-                return RigSize;
+                return rigsize;
             }
             case  1137 :
             {
-                return RigSlots;
+                return rigslots;
             }
             case  2574 :
             {
-                return RoleBonusCommandBurstAoERange;
+                return rolebonuscommandburstaoerange;
             }
             case  564 :
             {
-                return ScanResolution;
+                return scanresolution;
             }
             case  2112 :
             {
-                return SensorDampenerResistance;
+                return sensordampenerresistance;
             }
             case  2298 :
             {
-                return ShipBonusRole1;
+                return shipbonusrole1;
             }
             case  2299 :
             {
-                return ShipBonusRole2;
+                return shipbonusrole2;
             }
             case  2300 :
             {
-                return ShipBonusRole3;
+                return shipbonusrole3;
             }
             case  2301 :
             {
-                return ShipBonusRole4;
+                return shipbonusrole4;
             }
             case  2406 :
             {
-                return ShipBonusTitanA1;
+                return shipbonustitana1;
             }
             case  2407 :
             {
-                return ShipBonusTitanA2;
+                return shipbonustitana2;
             }
             case  2408 :
             {
-                return ShipBonusTitanA3;
+                return shipbonustitana3;
             }
             case  2410 :
             {
-                return ShipBonusTitanC1;
+                return shipbonustitanc1;
             }
             case  2411 :
             {
-                return ShipBonusTitanC2;
+                return shipbonustitanc2;
             }
             case  2412 :
             {
-                return ShipBonusTitanC3;
+                return shipbonustitanc3;
             }
             case  2423 :
             {
-                return ShipBonusTitanC5;
+                return shipbonustitanc5;
             }
             case  2414 :
             {
-                return ShipBonusTitanG1;
+                return shipbonustitang1;
             }
             case  2415 :
             {
-                return ShipBonusTitanG2;
+                return shipbonustitang2;
             }
             case  2416 :
             {
-                return ShipBonusTitanG3;
+                return shipbonustitang3;
             }
             case  2418 :
             {
-                return ShipBonusTitanM1;
+                return shipbonustitanm1;
             }
             case  2419 :
             {
-                return ShipBonusTitanM2;
+                return shipbonustitanm2;
             }
             case  2420 :
             {
-                return ShipBonusTitanM3;
+                return shipbonustitanm3;
             }
             case  908 :
             {
-                return ShipMaintenanceBayCapacity;
+                return shipmaintenancebaycapacity;
             }
             case  2467 :
             {
-                return SpecialCorpseHoldCapacity;
+                return specialcorpseholdcapacity;
             }
             case  1549 :
             {
-                return SpecialFuelBayCapacity;
+                return specialfuelbaycapacity;
             }
             case  2115 :
             {
-                return StasisWebifierResistance;
+                return stasiswebifierresistance;
             }
             case  2114 :
             {
-                return TargetPainterResistance;
+                return targetpainterresistance;
             }
             case  1154 :
             {
-                return UpgradeSlotsLeft;
+                return upgradeslotsleft;
             }
             case  104 :
             {
-                return WarpScrambleStatus;
+                return warpscramblestatus;
             }
             case  2113 :
             {
-                return WeaponDisruptionResistance;
+                return weapondisruptionresistance;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

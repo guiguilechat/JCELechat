@@ -1,261 +1,261 @@
 types:
   Domination Heavy Stasis Grappler:
-    CanFitShipGroup01: 27
-    CanFitShipGroup02: 898
-    CanFitShipGroup03: 900
-    CanFitShipGroup04: 547
-    CanFitShipGroup05: 1538
-    CanFitShipGroup06: 485
-    CanFitShipGroup07: 659
-    CanFitShipGroup08: 30
-    CanFitShipGroup09: 883
-    CapacitorNeed: 4.0
-    Cpu: 20.0
-    Duration: 2000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 12000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40.0
-    MaxGroupFitted: 1
-    MaxRange: 1000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadRangeBonus: 300
-    Power: 160
-    Radius: 500.0
-    RemoteResistanceID: 2115
-    RequiredSkill1: 3453
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    SpeedFactor: -86.0
-    TechLevel: 1
+    canfitshipgroup01: 27
+    canfitshipgroup02: 898
+    canfitshipgroup03: 900
+    canfitshipgroup04: 547
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 485
+    canfitshipgroup07: 659
+    canfitshipgroup08: 30
+    canfitshipgroup09: 883
+    capacitorneed: 4.0
+    cpu: 20.0
+    duration: 2000.0
+    falloff: 1.0
+    falloffeffectiveness: 12000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.0
+    hp: 40.0
     id: 41059
     marketGroup: 2154
+    maxgroupfitted: 1
+    maxrange: 1000.0
+    metagroupid: 4
+    metalevel: 8
     name: Domination Heavy Stasis Grappler
+    overloadrangebonus: 300
     packagedVolume: 50.0
     portionSize: 1
+    power: 160
     published: true
+    radius: 500.0
+    remoteresistanceid: 2115
+    requiredskill1: 3453
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    speedfactor: -86.0
+    techlevel: 1
     volume: 50.0
   Heavy Gunnar Compact Stasis Grappler:
-    CanFitShipGroup01: 27
-    CanFitShipGroup02: 898
-    CanFitShipGroup03: 900
-    CanFitShipGroup04: 547
-    CanFitShipGroup05: 1538
-    CanFitShipGroup06: 485
-    CanFitShipGroup07: 659
-    CanFitShipGroup08: 30
-    CanFitShipGroup09: 883
-    CapacitorNeed: 4.0
-    Cpu: 20.0
-    Duration: 2000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40.0
-    MaxGroupFitted: 1
-    MaxRange: 1000.0
-    MetaLevel: 1
-    OverloadRangeBonus: 300
-    Power: 160
-    Radius: 500.0
-    RemoteResistanceID: 2115
-    RequiredSkill1: 3453
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    SpeedFactor: -82.5
-    TechLevel: 1
+    canfitshipgroup01: 27
+    canfitshipgroup02: 898
+    canfitshipgroup03: 900
+    canfitshipgroup04: 547
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 485
+    canfitshipgroup07: 659
+    canfitshipgroup08: 30
+    canfitshipgroup09: 883
+    capacitorneed: 4.0
+    cpu: 20.0
+    duration: 2000.0
+    falloff: 1.0
+    falloffeffectiveness: 8000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.0
+    hp: 40.0
     id: 41054
     marketGroup: 2154
+    maxgroupfitted: 1
+    maxrange: 1000.0
+    metalevel: 1
     name: Heavy Gunnar Compact Stasis Grappler
+    overloadrangebonus: 300
     packagedVolume: 50.0
     portionSize: 1
+    power: 160
     published: true
+    radius: 500.0
+    remoteresistanceid: 2115
+    requiredskill1: 3453
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    speedfactor: -82.5
+    techlevel: 1
     volume: 50.0
   Heavy Jigoro Enduring Stasis Grappler:
-    CanFitShipGroup01: 27
-    CanFitShipGroup02: 898
-    CanFitShipGroup03: 900
-    CanFitShipGroup04: 547
-    CanFitShipGroup05: 1538
-    CanFitShipGroup06: 485
-    CanFitShipGroup07: 659
-    CanFitShipGroup08: 30
-    CanFitShipGroup09: 883
-    CapacitorNeed: 2.0
-    Cpu: 25.0
-    Duration: 2000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40.0
-    MaxGroupFitted: 1
-    MaxRange: 1000.0
-    MetaLevel: 1
-    OverloadRangeBonus: 300
-    Power: 200
-    Radius: 500.0
-    RemoteResistanceID: 2115
-    RequiredSkill1: 3453
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    SpeedFactor: -82.5
-    TechLevel: 1
+    canfitshipgroup01: 27
+    canfitshipgroup02: 898
+    canfitshipgroup03: 900
+    canfitshipgroup04: 547
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 485
+    canfitshipgroup07: 659
+    canfitshipgroup08: 30
+    canfitshipgroup09: 883
+    capacitorneed: 2.0
+    cpu: 25.0
+    duration: 2000.0
+    falloff: 1.0
+    falloffeffectiveness: 8000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.0
+    hp: 40.0
     id: 41056
     marketGroup: 2154
+    maxgroupfitted: 1
+    maxrange: 1000.0
+    metalevel: 1
     name: Heavy Jigoro Enduring Stasis Grappler
+    overloadrangebonus: 300
     packagedVolume: 50.0
     portionSize: 1
+    power: 200
     published: true
+    radius: 500.0
+    remoteresistanceid: 2115
+    requiredskill1: 3453
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    speedfactor: -82.5
+    techlevel: 1
     volume: 50.0
   Heavy Karelin Scoped Stasis Grappler:
-    CanFitShipGroup01: 27
-    CanFitShipGroup02: 898
-    CanFitShipGroup03: 900
-    CanFitShipGroup04: 547
-    CanFitShipGroup05: 1538
-    CanFitShipGroup06: 485
-    CanFitShipGroup07: 659
-    CanFitShipGroup08: 30
-    CanFitShipGroup09: 883
-    CapacitorNeed: 4.0
-    Cpu: 25.0
-    Duration: 2000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 9000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40.0
-    MaxGroupFitted: 1
-    MaxRange: 1000.0
-    MetaLevel: 1
-    OverloadRangeBonus: 300
-    Power: 200
-    Radius: 500.0
-    RemoteResistanceID: 2115
-    RequiredSkill1: 3453
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    SpeedFactor: -82.5
-    TechLevel: 1
+    canfitshipgroup01: 27
+    canfitshipgroup02: 898
+    canfitshipgroup03: 900
+    canfitshipgroup04: 547
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 485
+    canfitshipgroup07: 659
+    canfitshipgroup08: 30
+    canfitshipgroup09: 883
+    capacitorneed: 4.0
+    cpu: 25.0
+    duration: 2000.0
+    falloff: 1.0
+    falloffeffectiveness: 9000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.0
+    hp: 40.0
     id: 41055
     marketGroup: 2154
+    maxgroupfitted: 1
+    maxrange: 1000.0
+    metalevel: 1
     name: Heavy Karelin Scoped Stasis Grappler
+    overloadrangebonus: 300
     packagedVolume: 50.0
     portionSize: 1
+    power: 200
     published: true
+    radius: 500.0
+    remoteresistanceid: 2115
+    requiredskill1: 3453
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    speedfactor: -82.5
+    techlevel: 1
     volume: 50.0
   Heavy Stasis Grappler I:
-    CanFitShipGroup01: 27
-    CanFitShipGroup02: 898
-    CanFitShipGroup03: 900
-    CanFitShipGroup04: 547
-    CanFitShipGroup05: 1538
-    CanFitShipGroup06: 485
-    CanFitShipGroup07: 659
-    CanFitShipGroup08: 30
-    CanFitShipGroup09: 883
-    CapacitorNeed: 4.0
-    Cpu: 25.0
-    Duration: 2000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 8000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40.0
-    MaxGroupFitted: 1
-    MaxRange: 1000.0
-    OverloadRangeBonus: 300
-    Power: 200
-    Radius: 500.0
-    RemoteResistanceID: 2115
-    RequiredSkill1: 3453
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    SpeedFactor: -80.0
-    TechLevel: 1
+    canfitshipgroup01: 27
+    canfitshipgroup02: 898
+    canfitshipgroup03: 900
+    canfitshipgroup04: 547
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 485
+    canfitshipgroup07: 659
+    canfitshipgroup08: 30
+    canfitshipgroup09: 883
+    capacitorneed: 4.0
+    cpu: 25.0
+    duration: 2000.0
+    falloff: 1.0
+    falloffeffectiveness: 8000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.0
+    hp: 40.0
     id: 41040
     marketGroup: 2154
+    maxgroupfitted: 1
+    maxrange: 1000.0
     name: Heavy Stasis Grappler I
+    overloadrangebonus: 300
     packagedVolume: 50.0
     portionSize: 1
+    power: 200
     published: true
+    radius: 500.0
+    remoteresistanceid: 2115
+    requiredskill1: 3453
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    speedfactor: -80.0
+    techlevel: 1
     volume: 50.0
   Heavy Stasis Grappler II:
-    CanFitShipGroup01: 27
-    CanFitShipGroup02: 898
-    CanFitShipGroup03: 900
-    CanFitShipGroup04: 547
-    CanFitShipGroup05: 1538
-    CanFitShipGroup06: 485
-    CanFitShipGroup07: 659
-    CanFitShipGroup08: 30
-    CanFitShipGroup09: 883
-    CapacitorNeed: 5.0
-    Cpu: 30.0
-    Duration: 2000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 10000
-    HeatAbsorbtionRateModifier: 0.019999999552965164
-    HeatDamage: 5.0
-    Hp: 40.0
-    MaxGroupFitted: 1
-    MaxRange: 1000.0
-    MetaLevel: 5
-    OverloadRangeBonus: 300
-    Power: 220
-    Radius: 500.0
-    RemoteResistanceID: 2115
-    RequiredSkill1: 3453
-    RequiredSkill1Level: 4
-    RequiredThermoDynamicsSkill: 1
-    SpeedFactor: -85.0
-    TechLevel: 2
+    canfitshipgroup01: 27
+    canfitshipgroup02: 898
+    canfitshipgroup03: 900
+    canfitshipgroup04: 547
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 485
+    canfitshipgroup07: 659
+    canfitshipgroup08: 30
+    canfitshipgroup09: 883
+    capacitorneed: 5.0
+    cpu: 30.0
+    duration: 2000.0
+    falloff: 1.0
+    falloffeffectiveness: 10000
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 5.0
+    hp: 40.0
     id: 41057
     marketGroup: 2154
+    maxgroupfitted: 1
+    maxrange: 1000.0
+    metalevel: 5
     name: Heavy Stasis Grappler II
+    overloadrangebonus: 300
     packagedVolume: 50.0
     portionSize: 1
+    power: 220
     published: true
+    radius: 500.0
+    remoteresistanceid: 2115
+    requiredskill1: 3453
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    speedfactor: -85.0
+    techlevel: 2
     volume: 50.0
   Shadow Serpentis Heavy Stasis Grappler:
-    CanFitShipGroup01: 27
-    CanFitShipGroup02: 898
-    CanFitShipGroup03: 900
-    CanFitShipGroup04: 547
-    CanFitShipGroup05: 1538
-    CanFitShipGroup06: 485
-    CanFitShipGroup07: 659
-    CanFitShipGroup08: 30
-    CanFitShipGroup09: 883
-    CapacitorNeed: 4.0
-    Cpu: 25.0
-    Duration: 2000.0
-    Falloff: 1.0
-    FalloffEffectiveness: 11000
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 5.0
-    Hp: 40.0
-    MaxGroupFitted: 1
-    MaxRange: 1000.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadRangeBonus: 300
-    Power: 130
-    Radius: 500.0
-    RemoteResistanceID: 2115
-    RequiredSkill1: 3453
-    RequiredSkill1Level: 1
-    RequiredThermoDynamicsSkill: 1
-    SpeedFactor: -87.0
-    TechLevel: 1
+    canfitshipgroup01: 27
+    canfitshipgroup02: 898
+    canfitshipgroup03: 900
+    canfitshipgroup04: 547
+    canfitshipgroup05: 1538
+    canfitshipgroup06: 485
+    canfitshipgroup07: 659
+    canfitshipgroup08: 30
+    canfitshipgroup09: 883
+    capacitorneed: 4.0
+    cpu: 25.0
+    duration: 2000.0
+    falloff: 1.0
+    falloffeffectiveness: 11000
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 5.0
+    hp: 40.0
     id: 41058
     marketGroup: 2154
+    maxgroupfitted: 1
+    maxrange: 1000.0
+    metagroupid: 4
+    metalevel: 8
     name: Shadow Serpentis Heavy Stasis Grappler
+    overloadrangebonus: 300
     packagedVolume: 50.0
     portionSize: 1
+    power: 130
     published: true
+    radius: 500.0
+    remoteresistanceid: 2115
+    requiredskill1: 3453
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    speedfactor: -87.0
+    techlevel: 1
     volume: 50.0

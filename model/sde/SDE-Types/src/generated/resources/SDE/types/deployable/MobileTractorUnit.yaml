@@ -1,94 +1,88 @@
 types:
   '''Magpie'' Mobile Tractor Unit':
-    ArmorHP: 10000.0
-    ArmorUniformity: 0.75
-    Capacity: 27000.0
-    Duration: 30000.0
-    Hp: 30000.0
-    Mass: 10000.0
-    MaxLockedTargets: 1
-    MaxRange: 175000.0
-    MaxTargetRange: 175000.0
-    MaxTractorVelocity: 1500
-    MetaLevel: 3
-    Radius: 100.0
-    ScanGravimetricStrength: 300.0
-    ScanLadarStrength: 300.0
-    ScanMagnetometricStrength: 300.0
-    ScanRadarStrength: 300.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 3200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 500.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    armorhp: 10000.0
+    armoruniformity: 0.75
+    capacity: 27000.0
+    duration: 30000.0
+    hp: 30000.0
     id: 33702
     marketGroup: 1833
-    mass: 10000.0
+    maxlockedtargets: 1
+    maxrange: 175000.0
+    maxtargetrange: 175000.0
+    maxtractorvelocity: 1500
+    metalevel: 3
     name: '''Magpie'' Mobile Tractor Unit'
     packagedVolume: 100.0
     portionSize: 1
     published: true
+    radius: 100.0
+    scangravimetricstrength: 300.0
+    scanladarstrength: 300.0
+    scanmagnetometricstrength: 300.0
+    scanradarstrength: 300.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 3200000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 100.0
   '''Packrat'' Mobile Tractor Unit':
-    ArmorHP: 15000.0
-    ArmorUniformity: 0.75
-    Capacity: 27000.0
-    Duration: 30000.0
-    Hp: 40000.0
-    Mass: 10000.0
-    MaxLockedTargets: 1
-    MaxRange: 125000.0
-    MaxTargetRange: 125000.0
-    MaxTractorVelocity: 1250
-    MetaLevel: 2
-    Radius: 100.0
-    ScanGravimetricStrength: 150.0
-    ScanLadarStrength: 150.0
-    ScanMagnetometricStrength: 150.0
-    ScanRadarStrength: 150.0
-    ShieldCapacity: 15000.0
-    ShieldRechargeRate: 3200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 500.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    armorhp: 15000.0
+    armoruniformity: 0.75
+    capacity: 27000.0
+    duration: 30000.0
+    hp: 40000.0
     id: 33700
     marketGroup: 1833
-    mass: 10000.0
+    maxlockedtargets: 1
+    maxrange: 125000.0
+    maxtargetrange: 125000.0
+    maxtractorvelocity: 1250
+    metalevel: 2
     name: '''Packrat'' Mobile Tractor Unit'
     packagedVolume: 125.0
     portionSize: 1
     published: true
+    radius: 100.0
+    scangravimetricstrength: 150.0
+    scanladarstrength: 150.0
+    scanmagnetometricstrength: 150.0
+    scanradarstrength: 150.0
+    shieldcapacity: 15000.0
+    shieldrechargerate: 3200000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 125.0
   Mobile Tractor Unit:
-    ArmorHP: 10000.0
-    ArmorUniformity: 0.75
-    Capacity: 27000.0
-    Duration: 30000.0
-    Hp: 30000.0
-    Mass: 10000.0
-    MaxLockedTargets: 1
-    MaxRange: 125000.0
-    MaxTargetRange: 125000.0
-    MaxTractorVelocity: 1000
-    MetaLevel: 1
-    Radius: 100.0
-    ScanGravimetricStrength: 50.0
-    ScanLadarStrength: 50.0
-    ScanMagnetometricStrength: 50.0
-    ScanRadarStrength: 50.0
-    ShieldCapacity: 10000.0
-    ShieldRechargeRate: 3200000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 500.0
-    StructureUniformity: 1.0
-    TechLevel: 1
+    armorhp: 10000.0
+    armoruniformity: 0.75
+    capacity: 27000.0
+    duration: 30000.0
+    hp: 30000.0
     id: 33475
     marketGroup: 1833
-    mass: 10000.0
+    maxlockedtargets: 1
+    maxrange: 125000.0
+    maxtargetrange: 125000.0
+    maxtractorvelocity: 1000
+    metalevel: 1
     name: Mobile Tractor Unit
     packagedVolume: 100.0
     portionSize: 1
     published: true
+    radius: 100.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 10000.0
+    shieldrechargerate: 3200000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
     volume: 100.0

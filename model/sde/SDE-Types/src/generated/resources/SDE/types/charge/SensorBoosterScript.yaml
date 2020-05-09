@@ -1,58 +1,52 @@
 types:
   ECCM Script:
-    ChargeSize: 1
-    LauncherGroup: 212
-    LauncherGroup2: 290
-    MainColor: 11646664
-    Mass: 1.0
-    MaxTargetRangeBonusBonus: -100
-    Radius: 1.0
-    ScanResolutionBonusBonus: -100
-    SensorStrengthBonusBonus: 100
-    TechLevel: 1
+    chargesize: 1
     id: 41155
+    launchergroup: 212
+    launchergroup2: 290
+    maincolor: 11646664
     marketGroup: 1094
-    mass: 1.0
+    maxtargetrangebonusbonus: -100
     name: ECCM Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scanresolutionbonusbonus: -100
+    sensorstrengthbonusbonus: 100
+    techlevel: 1
     volume: 1.0
   Scan Resolution Script:
-    ChargeSize: 1
-    LauncherGroup: 212
-    LauncherGroup2: 290
-    MainColor: 11646664
-    Mass: 1.0
-    MaxTargetRangeBonusBonus: -100
-    Radius: 1.0
-    ScanResolutionBonusBonus: 100
-    SensorStrengthBonusBonus: -100
-    TechLevel: 1
+    chargesize: 1
     id: 29011
+    launchergroup: 212
+    launchergroup2: 290
+    maincolor: 11646664
     marketGroup: 1094
-    mass: 1.0
+    maxtargetrangebonusbonus: -100
     name: Scan Resolution Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scanresolutionbonusbonus: 100
+    sensorstrengthbonusbonus: -100
+    techlevel: 1
     volume: 1.0
   Targeting Range Script:
-    ChargeSize: 1
-    LauncherGroup: 212
-    LauncherGroup2: 290
-    MainColor: 11646664
-    Mass: 1.0
-    MaxTargetRangeBonusBonus: 100
-    Radius: 1.0
-    ScanResolutionBonusBonus: -100
-    SensorStrengthBonusBonus: -100
-    TechLevel: 1
+    chargesize: 1
     id: 29009
+    launchergroup: 212
+    launchergroup2: 290
+    maincolor: 11646664
     marketGroup: 1094
-    mass: 1.0
+    maxtargetrangebonusbonus: 100
     name: Targeting Range Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scanresolutionbonusbonus: -100
+    sensorstrengthbonusbonus: -100
+    techlevel: 1
     volume: 1.0

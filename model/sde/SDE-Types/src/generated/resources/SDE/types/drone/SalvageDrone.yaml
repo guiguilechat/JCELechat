@@ -1,43 +1,43 @@
 types:
   Salvage Drone I:
-    AccessDifficultyBonus: 3
-    ArmorHP: 20.0
-    ArmorUniformity: 0.75
-    CapacitorCapacity: 1.0
-    DamageMultiplier: 1.0
-    DroneBandwidthUsed: 5
-    Duration: 10000.0
-    EmDamageResonance: 1.0
-    ExplosiveDamageResonance: 1.0
-    FighterAbilityAntiFighterMissileResistance: 1
-    Hp: 40.0
-    KineticDamageResonance: 1.0
-    MaxLockedTargets: 8
-    MaxRange: 5000.0
-    MaxVelocity: 900.0
-    OrbitRange: 100
-    ProximityRange: 250
-    Radius: 5.0
-    RechargeRate: 2500000.0
-    RequiredSkill1: 3440
-    RequiredSkill1Level: 1
-    RequiredSkill2: 25863
-    RequiredSkill2Level: 2
-    RequiredSkill3: 3436
-    RequiredSkill3Level: 4
-    ScanMagnetometricStrength: 1.0
-    ShieldCapacity: 30.0
-    ShieldRechargeRate: 125000.0
-    ShieldUniformity: 0.75
-    SignatureRadius: 25.0
-    StructureUniformity: 1.0
-    TechLevel: 1
-    ThermalDamageResonance: 1.0
-    Uniformity: 0.75
+    accessdifficultybonus: 3
+    armorhp: 20.0
+    armoruniformity: 0.75
+    capacitorcapacity: 1.0
+    damagemultiplier: 1.0
+    dronebandwidthused: 5
+    duration: 10000.0
+    emdamageresonance: 1.0
+    explosivedamageresonance: 1.0
+    fighterabilityantifightermissileresistance: 1
+    hp: 40.0
     id: 32787
+    kineticdamageresonance: 1.0
     marketGroup: 1646
+    maxlockedtargets: 8
+    maxrange: 5000.0
+    maxvelocity: 900.0
     name: Salvage Drone I
+    orbitrange: 100
     packagedVolume: 5.0
     portionSize: 1
+    proximityrange: 250
     published: true
+    radius: 5.0
+    rechargerate: 2500000.0
+    requiredskill1: 3440
+    requiredskill1level: 1
+    requiredskill2: 25863
+    requiredskill2level: 2
+    requiredskill3: 3436
+    requiredskill3level: 4
+    scanmagnetometricstrength: 1.0
+    shieldcapacity: 30.0
+    shieldrechargerate: 125000.0
+    shielduniformity: 0.75
+    signatureradius: 25.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 1.0
+    uniformity: 0.75
     volume: 5.0

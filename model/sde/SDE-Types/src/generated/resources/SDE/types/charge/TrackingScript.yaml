@@ -1,45 +1,41 @@
 types:
   Optimal Range Script:
-    AoeCloudSizeBonusBonus: -100
-    AoeVelocityBonusBonus: -100
-    ChargeSize: 1
-    FalloffBonusBonus: 100
-    LauncherGroup: 213
-    LauncherGroup2: 209
-    LauncherGroup3: 646
-    MainColor: 11646664
-    Mass: 1.0
-    MaxRangeBonusBonus: 100
-    Radius: 1.0
-    TechLevel: 1
-    TrackingSpeedBonusBonus: -100
+    aoecloudsizebonusbonus: -100
+    aoevelocitybonusbonus: -100
+    chargesize: 1
+    falloffbonusbonus: 100
     id: 28999
+    launchergroup: 213
+    launchergroup2: 209
+    launchergroup3: 646
+    maincolor: 11646664
     marketGroup: 1094
-    mass: 1.0
+    maxrangebonusbonus: 100
     name: Optimal Range Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
+    trackingspeedbonusbonus: -100
     volume: 1.0
   Tracking Speed Script:
-    AoeCloudSizeBonusBonus: 100
-    AoeVelocityBonusBonus: 100
-    ChargeSize: 1
-    FalloffBonusBonus: -100
-    LauncherGroup: 213
-    LauncherGroup2: 209
-    LauncherGroup3: 646
-    MainColor: 11646664
-    Mass: 1.0
-    MaxRangeBonusBonus: -100
-    Radius: 1.0
-    TechLevel: 1
-    TrackingSpeedBonusBonus: 100
+    aoecloudsizebonusbonus: 100
+    aoevelocitybonusbonus: 100
+    chargesize: 1
+    falloffbonusbonus: -100
     id: 29001
+    launchergroup: 213
+    launchergroup2: 209
+    launchergroup3: 646
+    maincolor: 11646664
     marketGroup: 1094
-    mass: 1.0
+    maxrangebonusbonus: -100
     name: Tracking Speed Script
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
+    trackingspeedbonusbonus: 100
     volume: 1.0

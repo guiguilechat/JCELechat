@@ -1,221 +1,205 @@
 types:
   Null L:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 1.399999976158142
-    FallofMultiplier: 1.399999976158142
-    KineticDamage: 20.0
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12212
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 24.0
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.399999976158142
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 3
+    entityflyrangemultiplier: 1.399999976158142
+    fallofmultiplier: 1.399999976158142
     id: 12787
+    kineticdamage: 20.0
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 860
-    mass: 0.009999999776482582
+    metalevel: 5
     name: Null L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12212
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 24.0
+    trackingspeedmultiplier: 0.75
     volume: 0.02500000037252903
+    weaponrangemultiplier: 1.399999976158142
   Null M:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 1.399999976158142
-    FallofMultiplier: 1.399999976158142
-    KineticDamage: 10.0
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12211
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 12.0
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.399999976158142
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 2
+    entityflyrangemultiplier: 1.399999976158142
+    fallofmultiplier: 1.399999976158142
     id: 12785
+    kineticdamage: 10.0
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 861
-    mass: 0.009999999776482582
+    metalevel: 5
     name: Null M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12211
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 12.0
+    trackingspeedmultiplier: 0.75
     volume: 0.012500000186264515
+    weaponrangemultiplier: 1.399999976158142
   Null S:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 1.399999976158142
-    FallofMultiplier: 1.399999976158142
-    KineticDamage: 5.0
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12210
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 6.0
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.399999976158142
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 1
+    entityflyrangemultiplier: 1.399999976158142
+    fallofmultiplier: 1.399999976158142
     id: 12614
+    kineticdamage: 5.0
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 862
-    mass: 0.009999999776482582
+    metalevel: 5
     name: Null S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12210
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 6.0
+    trackingspeedmultiplier: 0.75
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.399999976158142
   Null XL:
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 1.399999976158142
-    FallofMultiplier: 1.399999976158142
-    KineticDamage: 40.0
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.5
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 41405
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 48.0
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 1.399999976158142
+    capacitorrechargeratemultiplier: 1.0
+    chargesize: 4
+    entityflyrangemultiplier: 1.399999976158142
+    fallofmultiplier: 1.399999976158142
     id: 41324
+    kineticdamage: 40.0
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 2254
-    mass: 0.5
+    metalevel: 5
     name: Null XL
     packagedVolume: 0.125
     portionSize: 100
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 41405
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 48.0
+    trackingspeedmultiplier: 0.75
     volume: 0.125
+    weaponrangemultiplier: 1.399999976158142
   Void L:
-    CapNeedBonus: 25
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 3
-    EntityFlyRangeMultiplier: 0.5
-    FallofMultiplier: 0.5
-    KineticDamage: 35.400001525878906
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12212
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 35.400001525878906
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 0.75
+    capacitorrechargeratemultiplier: 1.0
+    capneedbonus: 25
+    chargesize: 3
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 0.5
     id: 12791
+    kineticdamage: 35.400001525878906
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 860
-    mass: 0.009999999776482582
+    metalevel: 5
     name: Void L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12212
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 35.400001525878906
+    trackingspeedmultiplier: 0.75
     volume: 0.02500000037252903
+    weaponrangemultiplier: 0.75
   Void M:
-    CapNeedBonus: 25
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 2
-    EntityFlyRangeMultiplier: 0.5
-    FallofMultiplier: 0.5
-    KineticDamage: 17.700000762939453
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12211
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 17.700000762939453
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 0.75
+    capacitorrechargeratemultiplier: 1.0
+    capneedbonus: 25
+    chargesize: 2
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 0.5
     id: 12789
+    kineticdamage: 17.700000762939453
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 861
-    mass: 0.009999999776482582
+    metalevel: 5
     name: Void M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12211
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 17.700000762939453
+    trackingspeedmultiplier: 0.75
     volume: 0.012500000186264515
+    weaponrangemultiplier: 0.75
   Void S:
-    CapNeedBonus: 25
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 1
-    EntityFlyRangeMultiplier: 0.5
-    FallofMultiplier: 0.5
-    KineticDamage: 8.899999618530273
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.009999999776482582
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 1.0
-    RequiredSkill1: 12210
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 8.899999618530273
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 0.75
+    capacitorrechargeratemultiplier: 1.0
+    capneedbonus: 25
+    chargesize: 1
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 0.5
     id: 12612
+    kineticdamage: 8.899999618530273
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 862
-    mass: 0.009999999776482582
+    metalevel: 5
     name: Void S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
+    powerneedmultiplier: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12210
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 8.899999618530273
+    trackingspeedmultiplier: 0.75
     volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.75
   Void XL:
-    CapNeedBonus: 25
-    CapacitorRechargeRateMultiplier: 1.0
-    ChargeSize: 4
-    EntityFlyRangeMultiplier: 0.5
-    FallofMultiplier: 0.5
-    KineticDamage: 70.80000305175781
-    LauncherGroup: 74
-    MainColor: 11835778
-    Mass: 0.5
-    MetaLevel: 5
-    PowerNeedMultiplier: 1
-    Radius: 10.0
-    RequiredSkill1: 41405
-    RequiredSkill1Level: 1
-    SpeedMultiplier: 1.0
-    TechLevel: 2
-    ThermalDamage: 70.80000305175781
-    TrackingSpeedMultiplier: 0.75
-    WeaponRangeMultiplier: 0.75
+    capacitorrechargeratemultiplier: 1.0
+    capneedbonus: 25
+    chargesize: 4
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 0.5
     id: 41322
+    kineticdamage: 70.80000305175781
+    launchergroup: 74
+    maincolor: 11835778
     marketGroup: 2254
-    mass: 0.5
+    metalevel: 5
     name: Void XL
     packagedVolume: 0.125
     portionSize: 100
+    powerneedmultiplier: 1
     published: true
+    radius: 10.0
+    requiredskill1: 41405
+    requiredskill1level: 1
+    speedmultiplier: 1.0
+    techlevel: 2
+    thermaldamage: 70.80000305175781
+    trackingspeedmultiplier: 0.75
     volume: 0.125
+    weaponrangemultiplier: 0.75

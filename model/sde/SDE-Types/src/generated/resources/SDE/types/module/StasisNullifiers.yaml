@@ -1,22 +1,22 @@
 types:
   November Module:
-    CapacitorNeed: 7.0
-    Capacity: 16.0
-    ChargeGroup1: 87
-    ChargeRate: 1
-    ChargeSize: 3
-    Cpu: 50.0
-    Duration: 15000.0
-    Hp: 40.0
-    Power: 14
-    Radius: 1.0
-    ReloadTime: 25000.0
-    RequiredSkill1: 3435
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 0.800000011920929
+    capacitorneed: 7.0
+    capacity: 16.0
+    chargegroup1: 87
+    chargerate: 1
+    chargesize: 3
+    cpu: 50.0
+    duration: 15000.0
+    hp: 40.0
     id: 48944
     name: November Module
     packagedVolume: 15.0
     portionSize: 1
+    power: 14
     published: true
+    radius: 1.0
+    reloadtime: 25000.0
+    requiredskill1: 3435
+    requiredskill1level: 1
+    stasiswebifierresistance: 0.800000011920929
     volume: 15.0

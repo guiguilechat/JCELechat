@@ -1,121 +1,121 @@
 types:
   Acolyte TD-300 Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 23728
+    industryblueprintrank: 1.0
     marketGroup: 1029
     name: Acolyte TD-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Berserker TP-900 Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 23513
+    industryblueprintrank: 3.0
     marketGroup: 1029
     name: Berserker TP-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Hammerhead SD-600 Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 23714
+    industryblueprintrank: 2.0
     marketGroup: 1029
     name: Hammerhead SD-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Hobgoblin SD-300 Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 23716
+    industryblueprintrank: 1.0
     marketGroup: 1029
     name: Hobgoblin SD-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Hornet EC-300 Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 23708
+    industryblueprintrank: 1.0
     marketGroup: 1029
     name: Hornet EC-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Infiltrator TD-600 Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 23726
+    industryblueprintrank: 2.0
     marketGroup: 1029
     name: Infiltrator TD-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Ogre SD-900 Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 23507
+    industryblueprintrank: 3.0
     marketGroup: 1029
     name: Ogre SD-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Praetor TD-900 Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 23511
+    industryblueprintrank: 3.0
     marketGroup: 1029
     name: Praetor TD-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Valkyrie TP-600 Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 23722
+    industryblueprintrank: 2.0
     marketGroup: 1029
     name: Valkyrie TP-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Vespa EC-600 Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 23706
+    industryblueprintrank: 2.0
     marketGroup: 1029
     name: Vespa EC-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Warrior TP-300 Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 23724
+    industryblueprintrank: 1.0
     marketGroup: 1029
     name: Warrior TP-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Wasp EC-900 Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 23474
+    industryblueprintrank: 3.0
     marketGroup: 1029
     name: Wasp EC-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

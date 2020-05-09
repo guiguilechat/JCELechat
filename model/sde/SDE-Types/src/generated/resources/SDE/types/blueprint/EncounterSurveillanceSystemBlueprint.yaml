@@ -1,37 +1,37 @@
 types:
   Amarr Encounter Surveillance System Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 33586
+    industryblueprintrank: 40.0
     name: Amarr Encounter Surveillance System Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Caldari Encounter Surveillance System Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 33596
+    industryblueprintrank: 40.0
     name: Caldari Encounter Surveillance System Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Gallente Encounter Surveillance System Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 33609
+    industryblueprintrank: 40.0
     name: Gallente Encounter Surveillance System Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Minmatar Encounter Surveillance System Blueprint:
-    IndustryBlueprintRank: 40.0
-    Radius: 1.0
     id: 33611
+    industryblueprintrank: 40.0
     name: Minmatar Encounter Surveillance System Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

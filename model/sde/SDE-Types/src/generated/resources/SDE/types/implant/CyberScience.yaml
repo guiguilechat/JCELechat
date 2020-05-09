@@ -1,127 +1,127 @@
 types:
   Zainou 'Beancounter' Metallurgy MY-701:
-    Implantness: 7
-    MineralNeedResearchBonus: -1
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 27182
+    implantness: 7
     marketGroup: 1485
+    mineralneedresearchbonus: -1
     name: Zainou 'Beancounter' Metallurgy MY-701
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-703:
-    Implantness: 7
-    MineralNeedResearchBonus: -3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
     id: 27176
+    implantness: 7
     marketGroup: 1485
+    mineralneedresearchbonus: -3
     name: Zainou 'Beancounter' Metallurgy MY-703
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Metallurgy MY-705:
-    Implantness: 7
-    MineralNeedResearchBonus: -5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
     id: 27181
+    implantness: 7
     marketGroup: 1485
+    mineralneedresearchbonus: -5
     name: Zainou 'Beancounter' Metallurgy MY-705
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Research RR-601:
-    BlueprintmanufactureTimeBonus: -1
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    blueprintmanufacturetimebonus: -1
     id: 27180
+    implantness: 6
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-601
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Research RR-603:
-    BlueprintmanufactureTimeBonus: -3
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
+    blueprintmanufacturetimebonus: -3
     id: 27177
+    implantness: 6
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-603
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Research RR-605:
-    BlueprintmanufactureTimeBonus: -5
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
+    blueprintmanufacturetimebonus: -5
     id: 27179
+    implantness: 6
     marketGroup: 1484
     name: Zainou 'Beancounter' Research RR-605
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Science SC-801:
-    CopySpeedBonus: -1
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    copyspeedbonus: -1
     id: 27185
+    implantness: 8
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-801
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Science SC-803:
-    CopySpeedBonus: -3
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
+    copyspeedbonus: -3
     id: 27178
+    implantness: 8
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-803
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Science SC-805:
-    CopySpeedBonus: -5
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
+    copyspeedbonus: -5
     id: 27184
+    implantness: 8
     marketGroup: 1486
     name: Zainou 'Beancounter' Science SC-805
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0

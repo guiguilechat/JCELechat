@@ -1,257 +1,216 @@
 types:
   Capital Absorption Thruster Array:
-    MoonMiningAmount: 1
     id: 53037
     marketGroup: 2693
-    mass: 10000.0
+    moonminingamount: 1
     name: Capital Absorption Thruster Array
     packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
   Capital Armor Plates:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21017
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Armor Plates
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Capacitor Battery:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21019
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Capacitor Battery
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Cargo Bay:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21027
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Cargo Bay
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Clone Vat Bay:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 24547
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Clone Vat Bay
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Computer System:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21035
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Computer System
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Construction Parts:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21037
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Construction Parts
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Corporate Hangar Bay:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 24560
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Corporate Hangar Bay
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Doomsday Weapon Mount:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 24556
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Doomsday Weapon Mount
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Drone Bay:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21029
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Drone Bay
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Jump Bridge Array:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 24545
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Jump Bridge Array
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Jump Drive:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21025
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Jump Drive
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Launcher Hardpoint:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21041
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Launcher Hardpoint
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Power Generator:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21021
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Power Generator
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Propulsion Engine:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21009
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Propulsion Engine
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Radiation Conversion Unit:
-    MoonMiningAmount: 1
     id: 53036
     marketGroup: 2693
-    mass: 10000.0
+    moonminingamount: 1
     name: Capital Radiation Conversion Unit
     packagedVolume: 10000.0
     portionSize: 1
     published: true
     volume: 10000.0
   Capital Sensor Cluster:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21013
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Sensor Cluster
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Shield Emitter:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21023
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Shield Emitter
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Ship Maintenance Bay:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 24558
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Ship Maintenance Bay
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Siege Array:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21039
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Siege Array
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Turret Hardpoint:
-    Mass: 10000.0
-    MoonMiningAmount: 100
-    Radius: 1.0
     id: 21011
     marketGroup: 781
-    mass: 10000.0
+    moonminingamount: 100
     name: Capital Turret Hardpoint
     packagedVolume: 10000.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 10000.0
   Capital Ultratidal Entropic Mounting:
-    MoonMiningAmount: 1
     id: 53035
     marketGroup: 2693
-    mass: 10000.0
+    moonminingamount: 1
     name: Capital Ultratidal Entropic Mounting
     packagedVolume: 10000.0
     portionSize: 1

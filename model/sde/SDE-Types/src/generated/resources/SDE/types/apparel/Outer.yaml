@@ -1,2281 +1,1967 @@
 types:
   '''Silvershore'' Greatcoat':
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4245
     marketGroup: 1399
-    mass: 0.5
     name: '''Silvershore'' Greatcoat'
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Curate' Coat (black/silver):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33800
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Curate' Coat (black/silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Curate' Coat (dark bronze):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33799
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Curate' Coat (dark bronze)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Curate' Coat (festive):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 37817
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Curate' Coat (festive)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Curate' Coat (red/gold):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33798
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Curate' Coat (red/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Curate' Coat (royal gold):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33797
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Curate' Coat (royal gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Curate' Coat (white gold):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33796
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Curate' Coat (white gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Esquire' Coat:
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4098
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Esquire' Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (black):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4233
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Esquire' Coat (black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (green/gold):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4234
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Esquire' Coat (green/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (matte graphite):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4235
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Esquire' Coat (matte graphite)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (matte gray):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4236
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Esquire' Coat (matte gray)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (matte green):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4237
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Esquire' Coat (matte green)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (red/gold):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4238
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Esquire' Coat (red/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Esquire' Coat (silver):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4239
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Esquire' Coat (silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Fatal Elite' Combat Jacket:
-    Gender: 2
+    gender: 2
     id: 54307
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Fatal Elite' Combat Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's 'Field Marshal' Coat:
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4097
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Field Marshal' Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Field Marshal' Coat (green):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 4244
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Field Marshal' Coat (green)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (dark red):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 33794
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Impact' Jacket (dark red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (graphite):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 33793
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Impact' Jacket (graphite)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (green camo):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 33792
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Impact' Jacket (green camo)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (monochrome):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 33791
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Impact' Jacket (monochrome)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Impact' Jacket (reflective blue):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 33795
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Impact' Jacket (reflective blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Amarr):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34157
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Amarr)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Angel Cartel):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34164
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Angel Cartel)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Blood Raiders black/red):
-    Gender: 1
-    Radius: 1.0
+    gender: 1
     id: 42702
     marketGroup: 1399
     name: Men's 'Marshal' Jacket (Blood Raiders black/red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Blood Raiders):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34166
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Blood Raiders)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Caldari):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34156
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Caldari)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Gallente):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34159
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Gallente)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Guristas):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34167
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Guristas)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (InterBus):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34163
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (InterBus)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Minmatar):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34158
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Minmatar)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Mordu's Legion):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34162
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Mordu's Legion)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (ORE):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34160
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (ORE)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Sansha's Nation):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34165
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Sansha's Nation)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Serpentis):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34168
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Serpentis)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Marshal' Jacket (Sisters of EVE):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34161
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Marshal' Jacket (Sisters of EVE)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Mirelle' Upwell Executive Coat:
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 40522
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Mirelle' Upwell Executive Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Blood Raiders extra red):
-    Gender: 1
-    Radius: 1.0
+    gender: 1
     id: 42705
     marketGroup: 1399
     name: Men's 'Outlaw' Jacket (Blood Raiders extra red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Blood Raiders):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34347
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Outlaw' Jacket (Blood Raiders)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Burnt Orange):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34393
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Outlaw' Jacket (Burnt Orange)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Guristas):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34349
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Outlaw' Jacket (Guristas)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Outlaw' Jacket (Sansha's Nation):
-    ClothingRemovesCategory: 2
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 1
     id: 34348
     marketGroup: 1399
-    mass: 0.5
     name: Men's 'Outlaw' Jacket (Sansha's Nation)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Source' Coat (black):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 33803
     marketGroup: 1662
-    mass: 0.5
     name: Men's 'Source' Coat (black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's 'Valkyrie' Flight Jacket:
-    Gender: 2
+    gender: 2
     id: 46274
     marketGroup: 1399
-    mass: 0.10000000149011612
     name: Men's 'Valkyrie' Flight Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Amarr Empire Command Jacket:
-    Gender: 2
+    gender: 2
     id: 46662
     marketGroup: 1399
-    mass: 0.5
     name: Men's Amarr Empire Command Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Amarr Empire Exploration Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 45526
     marketGroup: 1399
-    mass: 0.5
     name: Men's Amarr Empire Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's CONCORD 'Solitaire' Survival Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 37818
     marketGroup: 1399
-    mass: 0.5
     name: Men's CONCORD 'Solitaire' Survival Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Caldari State Exploration Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 45524
     marketGroup: 1399
-    mass: 0.5
     name: Men's Caldari State Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Caldari State Officer Jacket:
-    Gender: 2
+    gender: 2
     id: 46659
     marketGroup: 1399
-    mass: 0.5
     name: Men's Caldari State Officer Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Capsuleer Networker XV Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 47476
     marketGroup: 1399
-    mass: 0.5
     name: Men's Capsuleer Networker XV Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Corporate Troubleshooter Gear:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 45527
     marketGroup: 1399
-    mass: 0.5
     name: Men's Corporate Troubleshooter Gear
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's DED Cryptologic Technician Coat:
-    Gender: 2
+    gender: 2
     id: 54177
     marketGroup: 1399
-    mass: 0.5
     name: Men's DED Cryptologic Technician Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Empyrean Dragons Jacket:
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 47032
     marketGroup: 1399
-    mass: 0.5
     name: Men's Empyrean Dragons Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Exoplanets Data Analyst Lab Coat:
-    Gender: 2
+    gender: 2
     id: 45744
     marketGroup: 1399
-    mass: 0.5
     name: Men's Exoplanets Data Analyst Lab Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Exoplanets Hunter Mission Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 45741
     marketGroup: 1399
-    mass: 0.5
     name: Men's Exoplanets Hunter Mission Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Exoplanets Program Director Coat:
-    Gender: 2
+    gender: 2
     id: 45742
     marketGroup: 1399
-    mass: 0.5
     name: Men's Exoplanets Program Director Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Federal Strategic Materiel Jacket:
-    Gender: 2
+    gender: 2
     id: 46667
     marketGroup: 1399
-    mass: 0.5
     name: Men's Federal Strategic Materiel Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Frostline Exploration Suit:
-    Gender: 2
+    gender: 2
     id: 49978
     marketGroup: 1399
-    mass: 0.5
     name: Men's Frostline Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Gallente Federation Command Jacket:
-    Gender: 2
+    gender: 2
     id: 46665
     marketGroup: 1399
-    mass: 0.5
     name: Men's Gallente Federation Command Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Gallente Federation Exploration Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 45521
     marketGroup: 1399
-    mass: 0.5
     name: Men's Gallente Federation Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Genolution Combat Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 37810
     marketGroup: 1399
-    mass: 0.5
     name: Men's Genolution Combat Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's IGC Location Scout Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 46038
     marketGroup: 1399
-    mass: 0.5
     name: Men's IGC Location Scout Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Imperial War Reserves Jacket:
-    Gender: 2
+    gender: 2
     id: 46666
     marketGroup: 1399
-    mass: 0.5
     name: Men's Imperial War Reserves Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Minmatar Republic Exploration Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 45525
     marketGroup: 1399
-    mass: 0.5
     name: Men's Minmatar Republic Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Minmatar Republic Officer Jacket:
-    Gender: 2
+    gender: 2
     id: 46664
     marketGroup: 1399
-    mass: 0.5
     name: Men's Minmatar Republic Officer Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's ORE Claim Surveyor Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.10000000149011612
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 45522
     marketGroup: 1399
-    mass: 0.10000000149011612
     name: Men's ORE Claim Surveyor Suit
     packagedVolume: 0.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.5
   Men's Polar Aurora Exploration Suit:
-    Gender: 2
+    gender: 2
     id: 53382
     marketGroup: 1399
-    mass: 0.5
     name: Men's Polar Aurora Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Republic Fleet Ordnance Jacket:
-    Gender: 2
+    gender: 2
     id: 46674
     marketGroup: 1399
-    mass: 0.5
     name: Men's Republic Fleet Ordnance Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's SARO 'Black Troop' Combat Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 47286
     marketGroup: 1399
-    mass: 0.5
     name: Men's SARO 'Black Troop' Combat Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's SOE Expeditionary Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 45523
     marketGroup: 1399
-    mass: 0.5
     name: Men's SOE Expeditionary Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Scope Network Special Correspondent Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 37864
     marketGroup: 1399
-    mass: 0.5
     name: Men's Scope Network Special Correspondent Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Sisters of EVE Advanced Combat Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 1
     id: 37815
     marketGroup: 1399
-    mass: 0.5
     name: Men's Sisters of EVE Advanced Combat Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's State Military Stockpile Jacket:
-    Gender: 2
+    gender: 2
     id: 46672
     marketGroup: 1399
-    mass: 0.5
     name: Men's State Military Stockpile Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Bioadaptive):
-    Gender: 1
-    Mass: 0.5
-    Radius: 1.0
+    gender: 1
     id: 48082
     marketGroup: 1399
-    mass: 0.5
     name: Men's Triglavian Survival Suit (Bioadaptive)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Encounter):
-    Gender: 2
+    gender: 2
     id: 48387
     marketGroup: 1399
-    mass: 0.5
     name: Men's Triglavian Survival Suit (Encounter)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Perun):
-    Gender: 2
+    gender: 2
     id: 48385
     marketGroup: 1399
-    mass: 0.5
     name: Men's Triglavian Survival Suit (Perun)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Svarog):
-    Gender: 2
+    gender: 2
     id: 48384
     marketGroup: 1399
-    mass: 0.5
     name: Men's Triglavian Survival Suit (Svarog)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Men's Triglavian Survival Suit (Veles):
-    Gender: 2
+    gender: 2
     id: 48383
     marketGroup: 1399
-    mass: 0.5
     name: Men's Triglavian Survival Suit (Veles)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (Black/Gold):
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    clothingruleexception: 1
+    gender: 3
     id: 34091
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Eternity' Suit Top (Black/Gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (Black/Red):
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    clothingruleexception: 1
+    gender: 3
     id: 34097
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Eternity' Suit Top (Black/Red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (Olive):
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    clothingruleexception: 1
+    gender: 3
     id: 34094
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Eternity' Suit Top (Olive)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (White):
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    clothingruleexception: 1
+    gender: 3
     id: 34099
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Eternity' Suit Top (White)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (Yellow):
-    ClothingRemovesCategory: 2
-    ClothingRuleException: 1
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    clothingruleexception: 1
+    gender: 3
     id: 34100
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Eternity' Suit Top (Yellow)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Executor' Coat:
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4054
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Executor' Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Executor' Coat (black):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4136
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Executor' Coat (black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Executor' Coat (graphite):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4137
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Executor' Coat (graphite)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Executor' Coat (green/gold):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4138
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Executor' Coat (green/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Executor' Coat (matte blue):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4139
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Executor' Coat (matte blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Executor' Coat (matte red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4140
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Executor' Coat (matte red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Executor' Coat (red/gold):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4141
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Executor' Coat (red/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Executor' Coat (silver):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 4142
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Executor' Coat (silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Fatal Elite' Combat Jacket:
-    Gender: 2
+    gender: 2
     id: 54299
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Fatal Elite' Combat Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Amarr):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34170
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Amarr)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Angel Cartel):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34177
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Angel Cartel)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Blood Raiders black):
-    Gender: 3
-    Radius: 1.0
+    gender: 3
     id: 42703
     marketGroup: 1405
     name: Women's 'Gunner' Jacket (Blood Raiders black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Blood Raiders):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34179
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Blood Raiders)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Caldari):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34169
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Caldari)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Gallente):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34172
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Gallente)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Guristas):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34180
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Guristas)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (InterBus):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34176
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (InterBus)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Minmatar):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34171
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Minmatar)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Mordu's Legion):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34175
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Mordu's Legion)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (ORE):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34173
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (ORE)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Sansha's Nation):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34178
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Sansha's Nation)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Serpentis):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34181
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Serpentis)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Gunner' Jacket (Sisters of EVE):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34174
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Gunner' Jacket (Sisters of EVE)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Mirelle' Upwell Executive Coat:
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 40523
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Mirelle' Upwell Executive Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Blood Raiders extra red):
-    Gender: 3
-    Radius: 1.0
+    gender: 3
     id: 42706
     marketGroup: 1405
     name: Women's 'Outlaw' Coat (Blood Raiders extra red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Blood Raiders):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34353
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Outlaw' Coat (Blood Raiders)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Burnt Orange):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 34394
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Outlaw' Coat (Burnt Orange)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Guristas):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34351
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Outlaw' Coat (Guristas)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Outlaw' Coat (Sansha's Nation):
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingremovescategory: 2
+    gender: 3
     id: 34350
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Outlaw' Coat (Sansha's Nation)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (black):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33734
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (blue):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33735
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (copper):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33736
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (copper)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (dark grey):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33737
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (dark grey)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (dark teal):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33743
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (dark teal)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (festive):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 37816
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (festive)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (glossy black):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33733
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (glossy black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (green):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33739
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (green)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (metal):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33738
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (metal)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (purple):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33740
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (purple)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (red):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33741
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (white):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33742
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Rocket' Dress (white)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (black/gold):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 2
+    gender: 3
     id: 33726
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Sanctity' Dress (black/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (blue/silver):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 2
+    gender: 3
     id: 33728
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Sanctity' Dress (blue/silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (brown/gold):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 2
+    gender: 3
     id: 33727
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Sanctity' Dress (brown/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (cream/gold):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 2
+    gender: 3
     id: 33715
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Sanctity' Dress (cream/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (green/gold):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 2
+    gender: 3
     id: 33729
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Sanctity' Dress (green/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (olive/gold):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 2
+    gender: 3
     id: 33731
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Sanctity' Dress (olive/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (red/gold):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 2
+    gender: 3
     id: 33730
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Sanctity' Dress (red/gold)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Sanctity' Dress (red/silver):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 2
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 2
+    gender: 3
     id: 33732
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Sanctity' Dress (red/silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Source' Coat (silver):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 33804
     marketGroup: 1662
-    mass: 0.5
     name: Women's 'Source' Coat (silver)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (black):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4143
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (black/white):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4144
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (black/white)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (brown):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4145
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (brown)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (gold/black):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4146
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (gold/black)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (graphite):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4149
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (graphite)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (green):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4150
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (green)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (matte blue):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4151
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (matte blue)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (matte red):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4152
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (matte red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (navy):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 3975
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (navy)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (red):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4153
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (red)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Structure' Dress (turquoise):
-    ClothingAlsoCoversCategory: 25
-    ClothingRemovesCategory: 25
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingremovescategory: 25
+    gender: 3
     id: 4154
     marketGroup: 1405
-    mass: 0.5
     name: Women's 'Structure' Dress (turquoise)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Valkyrie' Flight Jacket:
-    Gender: 2
+    gender: 2
     id: 46273
     marketGroup: 1405
-    mass: 0.10000000149011612
     name: Women's 'Valkyrie' Flight Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Amarr Empire Command Jacket:
-    Gender: 2
+    gender: 2
     id: 46663
     marketGroup: 1405
-    mass: 0.5
     name: Women's Amarr Empire Command Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Amarr Empire Exploration Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 45518
     marketGroup: 1405
-    mass: 0.5
     name: Women's Amarr Empire Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's CONCORD 'Solitaire' Survival Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 37601
     marketGroup: 1405
-    mass: 0.5
     name: Women's CONCORD 'Solitaire' Survival Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Caldari State Exploration Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 45515
     marketGroup: 1405
-    mass: 0.5
     name: Women's Caldari State Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Caldari State Officer Jacket:
-    Gender: 2
+    gender: 2
     id: 46669
     marketGroup: 1405
-    mass: 0.5
     name: Women's Caldari State Officer Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Capsuleer Networker XV Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 47475
     marketGroup: 1405
-    mass: 0.5
     name: Women's Capsuleer Networker XV Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Corporate Troubleshooter Gear:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 45519
     marketGroup: 1405
-    mass: 0.5
     name: Women's Corporate Troubleshooter Gear
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's DED Cryptologic Technician Coat:
-    Gender: 2
+    gender: 2
     id: 54158
     marketGroup: 1405
-    mass: 0.5
     name: Women's DED Cryptologic Technician Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Empyrean Dragons Jacket:
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 47031
     marketGroup: 1405
-    mass: 0.5
     name: Women's Empyrean Dragons Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Exoplanets Data Analyst Lab Coat:
-    Gender: 2
+    gender: 2
     id: 45737
     marketGroup: 1405
-    mass: 0.5
     name: Women's Exoplanets Data Analyst Lab Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Exoplanets Hunter Mission Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 45735
     marketGroup: 1405
-    mass: 0.5
     name: Women's Exoplanets Hunter Mission Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Exoplanets Program Director Coat:
-    Gender: 2
+    gender: 2
     id: 45738
     marketGroup: 1405
-    mass: 0.5
     name: Women's Exoplanets Program Director Coat
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Federal Strategic Materiel Jacket:
-    Gender: 2
+    gender: 2
     id: 46658
     marketGroup: 1405
-    mass: 0.5
     name: Women's Federal Strategic Materiel Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Frostline Exploration Suit:
-    Gender: 2
+    gender: 2
     id: 49980
     marketGroup: 1405
-    mass: 0.5
     name: Women's Frostline Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Gallente Federation Command Jacket:
-    Gender: 2
+    gender: 2
     id: 46660
     marketGroup: 1405
-    mass: 0.5
     name: Women's Gallente Federation Command Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Gallente Federation Exploration Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 45517
     marketGroup: 1405
-    mass: 0.5
     name: Women's Gallente Federation Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Genolution Combat Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 37600
     marketGroup: 1405
-    mass: 0.5
     name: Women's Genolution Combat Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's IGC Location Scout Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 46039
     marketGroup: 1405
-    mass: 0.5
     name: Women's IGC Location Scout Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Imperial War Reserves Jacket:
-    Gender: 2
+    gender: 2
     id: 46668
     marketGroup: 1405
-    mass: 0.5
     name: Women's Imperial War Reserves Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Minmatar Republic Exploration Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 45516
     marketGroup: 1405
-    mass: 0.5
     name: Women's Minmatar Republic Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Minmatar Republic Officer Jacket:
-    Gender: 2
+    gender: 2
     id: 46673
     marketGroup: 1405
-    mass: 0.5
     name: Women's Minmatar Republic Officer Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's ORE Claim Surveyor Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 45520
     marketGroup: 1405
-    mass: 0.5
     name: Women's ORE Claim Surveyor Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Polar Aurora Exploration Suit:
-    Gender: 2
+    gender: 2
     id: 53357
     marketGroup: 1405
-    mass: 0.5
     name: Women's Polar Aurora Exploration Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Republic Fleet Ordnance Jacket:
-    Gender: 2
+    gender: 2
     id: 46661
     marketGroup: 1405
-    mass: 0.5
     name: Women's Republic Fleet Ordnance Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's SARO 'Black Troop' Combat Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 47287
     marketGroup: 1405
-    mass: 0.5
     name: Women's SARO 'Black Troop' Combat Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's SOE Expeditionary Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 45514
     marketGroup: 1405
-    mass: 0.5
     name: Women's SOE Expeditionary Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Scope Network Special Correspondent Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 37863
     marketGroup: 1405
-    mass: 0.5
     name: Women's Scope Network Special Correspondent Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Sisters of EVE Advanced Combat Suit:
-    ClothingAlsoCoversCategory: 25
-    ClothingAlsoCoversCategory2: 22
-    ClothingRemovesCategory: 25
-    ClothingRemovesCategory2: 22
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    clothingalsocoverscategory: 25
+    clothingalsocoverscategory2: 22
+    clothingremovescategory: 25
+    clothingremovescategory2: 22
+    gender: 3
     id: 37603
     marketGroup: 1399
-    mass: 0.5
     name: Women's Sisters of EVE Advanced Combat Suit
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's State Military Stockpile Jacket:
-    Gender: 2
+    gender: 2
     id: 46671
     marketGroup: 1405
-    mass: 0.5
     name: Women's State Military Stockpile Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Bioadaptive):
-    Gender: 3
-    Mass: 0.5
-    Radius: 1.0
+    gender: 3
     id: 48081
     marketGroup: 1405
-    mass: 0.5
     name: Women's Triglavian Survival Suit (Bioadaptive)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Encounter):
-    Gender: 2
+    gender: 2
     id: 48386
     marketGroup: 1405
-    mass: 0.5
     name: Women's Triglavian Survival Suit (Encounter)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Perun):
-    Gender: 2
+    gender: 2
     id: 48382
     marketGroup: 1405
-    mass: 0.5
     name: Women's Triglavian Survival Suit (Perun)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Svarog):
-    Gender: 2
+    gender: 2
     id: 48381
     marketGroup: 1405
-    mass: 0.5
     name: Women's Triglavian Survival Suit (Svarog)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
     volume: 0.10000000149011612
   Women's Triglavian Survival Suit (Veles):
-    Gender: 2
+    gender: 2
     id: 48380
     marketGroup: 1405
-    mass: 0.5
     name: Women's Triglavian Survival Suit (Veles)
     packagedVolume: 0.10000000149011612
     portionSize: 1

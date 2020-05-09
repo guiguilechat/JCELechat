@@ -1,1435 +1,1435 @@
 types:
   Advanced Spaceship Command:
-    AgilityBonus: -5.0
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    agilitybonus: -5.0
+    cannotbetrainedontrial: 1
     id: 20342
     marketGroup: 377
     name: Advanced Spaceship Command
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Amarr Battlecruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3335
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
-    SubSystemSlot: 125
+    cannotbetrainedontrial: 1
     id: 33095
     marketGroup: 377
     name: Amarr Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3335
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 6.0
+    subsystemslot: 125
     volume: 0.009999999776482582
   Amarr Battleship:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 4
-    RequiredSkill2: 33095
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 3339
     marketGroup: 377
     name: Amarr Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 4
+    requiredskill2: 33095
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Amarr Carrier:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3339
-    RequiredSkill2Level: 3
-    RequiredSkill3: 3442
-    RequiredSkill3Level: 5
-    RequiredSkill4: 21610
-    RequiredSkill4Level: 4
-    RequiredSkill5: 21611
-    RequiredSkill5Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    cannotbetrainedontrial: 1
     id: 24311
     marketGroup: 377
     name: Amarr Carrier
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 4
+    requiredskill2: 3339
+    requiredskill2level: 3
+    requiredskill3: 3442
+    requiredskill3level: 5
+    requiredskill4: 21610
+    requiredskill4level: 4
+    requiredskill5: 21611
+    requiredskill5level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 14.0
     volume: 0.009999999776482582
   Amarr Cruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 2
-    RequiredSkill2: 33091
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    ShipPowerBonus: 2
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 3335
     marketGroup: 377
     name: Amarr Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 2
+    requiredskill2: 33091
+    requiredskill2level: 3
+    secondaryattribute: 168
+    shippowerbonus: 2
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Amarr Destroyer:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3331
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 33091
     marketGroup: 377
     name: Amarr Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3331
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Amarr Dreadnought:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3339
-    RequiredSkill2Level: 3
-    RequiredSkill3: 22043
-    RequiredSkill3Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
     id: 20525
     marketGroup: 377
     name: Amarr Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 3
+    requiredskill2: 3339
+    requiredskill2level: 3
+    requiredskill3: 22043
+    requiredskill3level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582
   Amarr Freighter:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20342
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3343
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
     id: 20524
     marketGroup: 377
     name: Amarr Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20342
+    requiredskill1level: 5
+    requiredskill2: 3343
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Amarr Frigate:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 3331
     marketGroup: 377
     name: Amarr Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Amarr Industrial:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 3343
     marketGroup: 377
     name: Amarr Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Amarr Strategic Cruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3335
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 30650
     marketGroup: 377
     name: Amarr Strategic Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3335
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Amarr Tactical Destroyer:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 33091
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 34390
     marketGroup: 377
     name: Amarr Tactical Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 33091
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Amarr Titan:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3339
-    RequiredSkill2Level: 3
-    RequiredSkill3: 3348
-    RequiredSkill3Level: 5
-    RequiredSkill4: 24562
-    RequiredSkill4Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 16.0
+    cannotbetrainedontrial: 1
     id: 3347
     marketGroup: 377
     name: Amarr Titan
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 5
+    requiredskill2: 3339
+    requiredskill2level: 3
+    requiredskill3: 3348
+    requiredskill3level: 5
+    requiredskill4: 24562
+    requiredskill4level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 16.0
     volume: 0.009999999776482582
   Assault Frigates:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3413
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3392
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 12095
     marketGroup: 377
     name: Assault Frigates
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3413
+    requiredskill2level: 5
+    requiredskill3: 3392
+    requiredskill3level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Black Ops:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 11579
-    RequiredSkill1Level: 4
-    RequiredSkill2: 21611
-    RequiredSkill2Level: 4
-    RequiredSkill3: 3327
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
     id: 28656
     marketGroup: 377
     name: Black Ops
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 4
+    requiredskill2: 21611
+    requiredskill2level: 4
+    requiredskill3: 3327
+    requiredskill3level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Caldari Battlecruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3334
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 33096
     marketGroup: 377
     name: Caldari Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3334
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Caldari Battleship:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 4
-    RequiredSkill2: 33096
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 3338
     marketGroup: 377
     name: Caldari Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 4
+    requiredskill2: 33096
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Caldari Carrier:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3338
-    RequiredSkill2Level: 3
-    RequiredSkill3: 3442
-    RequiredSkill3Level: 5
-    RequiredSkill4: 21610
-    RequiredSkill4Level: 4
-    RequiredSkill5: 21611
-    RequiredSkill5Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    cannotbetrainedontrial: 1
     id: 24312
     marketGroup: 377
     name: Caldari Carrier
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 4
+    requiredskill2: 3338
+    requiredskill2level: 3
+    requiredskill3: 3442
+    requiredskill3level: 5
+    requiredskill4: 21610
+    requiredskill4level: 4
+    requiredskill5: 21611
+    requiredskill5level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 14.0
     volume: 0.009999999776482582
   Caldari Cruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 2
-    RequiredSkill2: 33092
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 3334
     marketGroup: 377
     name: Caldari Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 2
+    requiredskill2: 33092
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Caldari Destroyer:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3330
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 33092
     marketGroup: 377
     name: Caldari Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3330
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Caldari Dreadnought:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3338
-    RequiredSkill2Level: 3
-    RequiredSkill3: 22043
-    RequiredSkill3Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
     id: 20530
     marketGroup: 377
     name: Caldari Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 3
+    requiredskill2: 3338
+    requiredskill2level: 3
+    requiredskill3: 22043
+    requiredskill3level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582
   Caldari Freighter:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20342
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3342
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
     id: 20526
     marketGroup: 377
     name: Caldari Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20342
+    requiredskill1level: 5
+    requiredskill2: 3342
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Caldari Frigate:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 3330
     marketGroup: 377
     name: Caldari Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Caldari Industrial:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 3342
     marketGroup: 377
     name: Caldari Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Caldari Strategic Cruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3334
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 30651
     marketGroup: 377
     name: Caldari Strategic Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3334
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Caldari Tactical Destroyer:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 33092
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 35680
     marketGroup: 377
     name: Caldari Tactical Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 33092
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Caldari Titan:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3338
-    RequiredSkill2Level: 3
-    RequiredSkill3: 3348
-    RequiredSkill3Level: 5
-    RequiredSkill4: 24562
-    RequiredSkill4Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 16.0
+    cannotbetrainedontrial: 1
     id: 3346
     marketGroup: 377
     name: Caldari Titan
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 5
+    requiredskill2: 3338
+    requiredskill2level: 3
+    requiredskill3: 3348
+    requiredskill3level: 5
+    requiredskill4: 24562
+    requiredskill4level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 16.0
     volume: 0.009999999776482582
   Capital Industrial Ships:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20342
-    RequiredSkill1Level: 5
-    RequiredSkill2: 29637
-    RequiredSkill2Level: 3
-    RequiredSkill3: 20533
-    RequiredSkill3Level: 2
-    RequiredSkill4: 28585
-    RequiredSkill4Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
     id: 28374
     marketGroup: 377
     name: Capital Industrial Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20342
+    requiredskill1level: 5
+    requiredskill2: 29637
+    requiredskill2level: 3
+    requiredskill3: 20533
+    requiredskill3level: 2
+    requiredskill4: 28585
+    requiredskill4level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582
   Capital Ships:
-    AgilityBonus: -5.0
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20342
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    agilitybonus: -5.0
+    cannotbetrainedontrial: 1
     id: 20533
     marketGroup: 377
     name: Capital Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20342
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 14.0
     volume: 0.009999999776482582
   Command Destroyers:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3354
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 37615
     marketGroup: 377
     name: Command Destroyers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 5
+    requiredskill2: 3354
+    requiredskill2level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Command Ships:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3354
-    RequiredSkill2Level: 4
-    RequiredSkill3: 11574
-    RequiredSkill3Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 23950
     marketGroup: 377
     name: Command Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 5
+    requiredskill2: 3354
+    requiredskill2level: 4
+    requiredskill3: 11574
+    requiredskill3level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Covert Ops:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3432
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 12093
     marketGroup: 377
     name: Covert Ops
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3432
+    requiredskill2level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Electronic Attack Ships:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3428
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 28615
     marketGroup: 377
     name: Electronic Attack Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3428
+    requiredskill2level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Exhumers:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3380
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3410
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 22551
     marketGroup: 377
     name: Exhumers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 4
+    requiredskill2: 3380
+    requiredskill2level: 5
+    requiredskill3: 3410
+    requiredskill3level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Expedition Frigates:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3432
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3380
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 33856
     marketGroup: 377
     name: Expedition Frigates
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3432
+    requiredskill2level: 5
+    requiredskill3: 3380
+    requiredskill3level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Flag Cruisers:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    RequiredSkill2: 24764
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3430
-    RequiredSkill3Level: 1
-    SecondaryAttribute: 167
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 47445
     marketGroup: 377
     name: Flag Cruisers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 5
+    requiredskill2: 24764
+    requiredskill2level: 1
+    requiredskill3: 3430
+    requiredskill3level: 1
+    secondaryattribute: 167
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Gallente Battlecruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3332
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 33097
     marketGroup: 377
     name: Gallente Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3332
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Gallente Battleship:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 4
-    RequiredSkill2: 33097
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 3336
     marketGroup: 377
     name: Gallente Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 4
+    requiredskill2: 33097
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Gallente Carrier:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3336
-    RequiredSkill2Level: 3
-    RequiredSkill3: 3442
-    RequiredSkill3Level: 5
-    RequiredSkill4: 21610
-    RequiredSkill4Level: 4
-    RequiredSkill5: 21611
-    RequiredSkill5Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    cannotbetrainedontrial: 1
     id: 24313
     marketGroup: 377
     name: Gallente Carrier
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 4
+    requiredskill2: 3336
+    requiredskill2level: 3
+    requiredskill3: 3442
+    requiredskill3level: 5
+    requiredskill4: 21610
+    requiredskill4level: 4
+    requiredskill5: 21611
+    requiredskill5level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 14.0
     volume: 0.009999999776482582
   Gallente Cruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 2
-    RequiredSkill2: 33093
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 3332
     marketGroup: 377
     name: Gallente Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 2
+    requiredskill2: 33093
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Gallente Destroyer:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3328
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 33093
     marketGroup: 377
     name: Gallente Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3328
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Gallente Dreadnought:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3336
-    RequiredSkill2Level: 3
-    RequiredSkill3: 22043
-    RequiredSkill3Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
     id: 20531
     marketGroup: 377
     name: Gallente Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 3
+    requiredskill2: 3336
+    requiredskill2level: 3
+    requiredskill3: 22043
+    requiredskill3level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582
   Gallente Freighter:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20342
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3340
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
     id: 20527
     marketGroup: 377
     name: Gallente Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20342
+    requiredskill1level: 5
+    requiredskill2: 3340
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Gallente Frigate:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 3328
     marketGroup: 377
     name: Gallente Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Gallente Industrial:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 3340
     marketGroup: 377
     name: Gallente Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Gallente Strategic Cruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3332
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 30652
     marketGroup: 377
     name: Gallente Strategic Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3332
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Gallente Tactical Destroyer:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 33093
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 35685
     marketGroup: 377
     name: Gallente Tactical Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 33093
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Gallente Titan:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3336
-    RequiredSkill2Level: 3
-    RequiredSkill3: 3348
-    RequiredSkill3Level: 5
-    RequiredSkill4: 24562
-    RequiredSkill4Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 16.0
+    cannotbetrainedontrial: 1
     id: 3344
     marketGroup: 377
     name: Gallente Titan
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 5
+    requiredskill2: 3336
+    requiredskill2level: 3
+    requiredskill3: 3348
+    requiredskill3level: 5
+    requiredskill4: 24562
+    requiredskill4level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 16.0
     volume: 0.009999999776482582
   Heavy Assault Cruisers:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3318
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3327
-    RequiredSkill3Level: 5
-    RequiredSkill4: 3418
-    RequiredSkill4Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 16591
     marketGroup: 377
     name: Heavy Assault Cruisers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 5
+    requiredskill2: 3318
+    requiredskill2level: 5
+    requiredskill3: 3327
+    requiredskill3level: 5
+    requiredskill4: 3418
+    requiredskill4level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Heavy Interdiction Cruisers:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3435
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11446
-    RequiredSkill2Level: 4
-    RequiredSkill3: 3327
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 28609
     marketGroup: 377
     name: Heavy Interdiction Cruisers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3435
+    requiredskill1level: 5
+    requiredskill2: 11446
+    requiredskill2level: 4
+    requiredskill3: 3327
+    requiredskill3level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Industrial Command Ships:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3184
-    RequiredSkill2Level: 3
-    RequiredSkill3: 22552
-    RequiredSkill3Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 29637
     marketGroup: 377
     name: Industrial Command Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 5
+    requiredskill2: 3184
+    requiredskill2level: 3
+    requiredskill3: 22552
+    requiredskill3level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Interceptors:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3453
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 12092
     marketGroup: 377
     name: Interceptors
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3453
+    requiredskill2level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Interdictors:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 4
-    RequiredSkill2: 11446
-    RequiredSkill2Level: 1
-    RequiredSkill3: 3435
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 12098
     marketGroup: 377
     name: Interdictors
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 4
+    requiredskill2: 11446
+    requiredskill2level: 1
+    requiredskill3: 3435
+    requiredskill3level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Jump Freighters:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3380
-    RequiredSkill1Level: 5
-    RequiredSkill2: 20342
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 14.0
+    cannotbetrainedontrial: 1
     id: 29029
     marketGroup: 377
     name: Jump Freighters
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3380
+    requiredskill1level: 5
+    requiredskill2: 20342
+    requiredskill2level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 14.0
     volume: 0.009999999776482582
   Logistics Cruisers:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3431
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3428
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 12096
     marketGroup: 377
     name: Logistics Cruisers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3431
+    requiredskill2level: 5
+    requiredskill3: 3428
+    requiredskill3level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Logistics Frigates:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3431
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3428
-    RequiredSkill3Level: 4
-    SecondaryAttribute: 167
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 40328
     marketGroup: 377
     name: Logistics Frigates
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3431
+    requiredskill2level: 5
+    requiredskill3: 3428
+    requiredskill3level: 4
+    secondaryattribute: 167
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Marauders:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3424
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11207
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3327
-    RequiredSkill3Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
     id: 28667
     marketGroup: 377
     name: Marauders
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3424
+    requiredskill1level: 5
+    requiredskill2: 11207
+    requiredskill2level: 5
+    requiredskill3: 3327
+    requiredskill3level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Mining Barge:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3410
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3380
-    RequiredSkill2Level: 5
-    RequiredSkill3: 32918
-    RequiredSkill3Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 17940
     marketGroup: 377
     name: Mining Barge
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3410
+    requiredskill1level: 3
+    requiredskill2: 3380
+    requiredskill2level: 5
+    requiredskill3: 32918
+    requiredskill3level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Mining Frigate:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 32918
     marketGroup: 377
     name: Mining Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Minmatar Battlecruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3333
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 33098
     marketGroup: 377
     name: Minmatar Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3333
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Minmatar Battleship:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 4
-    RequiredSkill2: 33098
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 3337
     marketGroup: 377
     name: Minmatar Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 4
+    requiredskill2: 33098
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Minmatar Carrier:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3337
-    RequiredSkill2Level: 3
-    RequiredSkill3: 3442
-    RequiredSkill3Level: 5
-    RequiredSkill4: 21610
-    RequiredSkill4Level: 4
-    RequiredSkill5: 21611
-    RequiredSkill5Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 14.0
+    cannotbetrainedontrial: 1
     id: 24314
     marketGroup: 377
     name: Minmatar Carrier
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 4
+    requiredskill2: 3337
+    requiredskill2level: 3
+    requiredskill3: 3442
+    requiredskill3level: 5
+    requiredskill4: 21610
+    requiredskill4level: 4
+    requiredskill5: 21611
+    requiredskill5level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 14.0
     volume: 0.009999999776482582
   Minmatar Cruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 2
-    RequiredSkill2: 33094
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 3333
     marketGroup: 377
     name: Minmatar Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 2
+    requiredskill2: 33094
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Minmatar Destroyer:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3329
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 33094
     marketGroup: 377
     name: Minmatar Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3329
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Minmatar Dreadnought:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3337
-    RequiredSkill2Level: 3
-    RequiredSkill3: 22043
-    RequiredSkill3Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
     id: 20532
     marketGroup: 377
     name: Minmatar Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 3
+    requiredskill2: 3337
+    requiredskill2level: 3
+    requiredskill3: 22043
+    requiredskill3level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582
   Minmatar Freighter:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20342
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3341
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 10.0
+    cannotbetrainedontrial: 1
     id: 20528
     marketGroup: 377
     name: Minmatar Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20342
+    requiredskill1level: 5
+    requiredskill2: 3341
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 10.0
     volume: 0.009999999776482582
   Minmatar Frigate:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 3329
     marketGroup: 377
     name: Minmatar Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Minmatar Industrial:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 3341
     marketGroup: 377
     name: Minmatar Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Minmatar Strategic Cruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3333
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 30653
     marketGroup: 377
     name: Minmatar Strategic Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3333
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Minmatar Tactical Destroyer:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 33094
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 168
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 34533
     marketGroup: 377
     name: Minmatar Tactical Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 33094
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Minmatar Titan:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3337
-    RequiredSkill2Level: 3
-    RequiredSkill3: 3348
-    RequiredSkill3Level: 5
-    RequiredSkill4: 24562
-    RequiredSkill4Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 16.0
+    cannotbetrainedontrial: 1
     id: 3345
     marketGroup: 377
     name: Minmatar Titan
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 5
+    requiredskill2: 3337
+    requiredskill2level: 3
+    requiredskill3: 3348
+    requiredskill3level: 5
+    requiredskill4: 24562
+    requiredskill4level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 16.0
     volume: 0.009999999776482582
   ORE Freighter:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20342
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3184
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 9.0
+    cannotbetrainedontrial: 1
     id: 34327
     marketGroup: 377
     name: ORE Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20342
+    requiredskill1level: 5
+    requiredskill2: 3184
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 9.0
     volume: 0.009999999776482582
   ORE Industrial:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 3184
     marketGroup: 377
     name: ORE Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Precursor Battlecruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 4
-    RequiredSkill2: 47868
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    ShipPowerBonus: 2
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 49743
     marketGroup: 377
     name: Precursor Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 4
+    requiredskill2: 47868
+    requiredskill2level: 3
+    secondaryattribute: 168
+    shippowerbonus: 2
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Precursor Battleship:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 5
-    RequiredSkill2: 49743
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 47869
     marketGroup: 377
     name: Precursor Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 5
+    requiredskill2: 49743
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Precursor Cruiser:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 4
-    RequiredSkill2: 49742
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 168
-    ShipPowerBonus: 2
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 47868
     marketGroup: 377
     name: Precursor Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 4
+    requiredskill2: 49742
+    requiredskill2level: 3
+    secondaryattribute: 168
+    shippowerbonus: 2
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Precursor Destroyer:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 47867
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 49742
     marketGroup: 377
     name: Precursor Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 47867
+    requiredskill1level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Precursor Dreadnought:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 20533
-    RequiredSkill1Level: 3
-    RequiredSkill2: 47869
-    RequiredSkill2Level: 3
-    RequiredSkill3: 22043
-    RequiredSkill3Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 12.0
+    cannotbetrainedontrial: 1
     id: 52997
     marketGroup: 377
     name: Precursor Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 20533
+    requiredskill1level: 3
+    requiredskill2: 47869
+    requiredskill2level: 3
+    requiredskill3: 22043
+    requiredskill3level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 12.0
     volume: 0.009999999776482582
   Precursor Frigate:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 168
-    SkillTimeConstant: 2.0
+    cannotbetrainedontrial: 1
     id: 47867
     marketGroup: 377
     name: Precursor Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Recon Ships:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 11579
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3431
-    RequiredSkill2Level: 5
-    RequiredSkill3: 3327
-    RequiredSkill3Level: 5
-    RequiredSkill4: 3432
-    RequiredSkill4Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 22761
     marketGroup: 377
     name: Recon Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 11579
+    requiredskill1level: 4
+    requiredskill2: 3431
+    requiredskill2level: 5
+    requiredskill3: 3327
+    requiredskill3level: 5
+    requiredskill4: 3432
+    requiredskill4level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582
   Spaceship Command:
-    AgilityBonus: -2.0
-    CanNotBeTrainedOnTrial: 1
-    MaxAttackTargets: 1
-    PrimaryAttribute: 167
-    Radius: 1.0
-    SecondaryAttribute: 168
-    SkillTimeConstant: 1.0
+    agilitybonus: -2.0
+    cannotbetrainedontrial: 1
     id: 3327
     marketGroup: 377
+    maxattacktargets: 1
     name: Spaceship Command
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 167
     published: true
+    radius: 1.0
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Transport Ships:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 168
-    Radius: 1.0
-    RequiredSkill1: 3327
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3380
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 167
-    SkillTimeConstant: 6.0
+    cannotbetrainedontrial: 1
     id: 19719
     marketGroup: 377
     name: Transport Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 168
     published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 3
+    requiredskill2: 3380
+    requiredskill2level: 5
+    secondaryattribute: 167
+    skilltimeconstant: 6.0
     volume: 0.009999999776482582

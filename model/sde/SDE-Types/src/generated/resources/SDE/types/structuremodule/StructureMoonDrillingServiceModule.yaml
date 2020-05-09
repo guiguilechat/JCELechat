@@ -1,23 +1,21 @@
 types:
   Standup Moon Drill I:
-    AnchoringSecurityLevelMax: 0.5
-    CanFitShipGroup01: 1406
-    Cpu: 200.0
-    Mass: 500.0
-    MaxTypeFitted: 1
-    Power: 10000
-    Radius: 1.0
-    ServiceModuleFuelAmount: 5
-    ServiceModuleFuelConsumptionGroup: 1136
-    ServiceModuleFuelOnlineAmount: 360
-    ServiceModuleFullPowerStateArmorPlatingMultiplier: 1
-    ServiceModuleFullPowerStateHitpointMultiplier: 4
-    StructureItemVisualFlag: 1
+    anchoringsecuritylevelmax: 0.5
+    canfitshipgroup01: 1406
+    cpu: 200.0
     id: 45009
     marketGroup: 2233
-    mass: 500.0
+    maxtypefitted: 1
     name: Standup Moon Drill I
     packagedVolume: 8000.0
     portionSize: 1
+    power: 10000
     published: true
+    radius: 1.0
+    servicemodulefuelamount: 5
+    servicemodulefuelconsumptiongroup: 1136
+    servicemodulefuelonlineamount: 360
+    servicemodulefullpowerstatearmorplatingmultiplier: 1
+    servicemodulefullpowerstatehitpointmultiplier: 4
+    structureitemvisualflag: 1
     volume: 8000.0

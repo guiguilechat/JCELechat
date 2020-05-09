@@ -1,51 +1,47 @@
 types:
   Standup M-Set Biochemical Reactor Time Efficiency I:
-    CanFitShipGroup03: 1406
-    DisallowInHighSec: 1
-    Hp: 40.0
-    LowSecModifier: 1.0
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 1.100000023841858
-    Radius: 100.0
-    RefRigTimeBonus: -20
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    UpgradeCost: 100
+    canfitshipgroup03: 1406
+    disallowinhighsec: 1
+    hp: 40.0
     id: 46492
+    lowsecmodifier: 1.0
     marketGroup: 2341
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Biochemical Reactor Time Efficiency I
+    nullsecmodifier: 1.100000023841858
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    refrigtimebonus: -20
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 1
+    upgradecost: 100
     volume: 10.0
   Standup M-Set Biochemical Reactor Time Efficiency II:
-    CanFitShipGroup03: 1406
-    DisallowInHighSec: 1
-    Hp: 40.0
-    LowSecModifier: 1.0
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 1.100000023841858
-    Radius: 100.0
-    RefRigTimeBonus: -24
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 2
-    UpgradeCost: 150
+    canfitshipgroup03: 1406
+    disallowinhighsec: 1
+    hp: 40.0
     id: 46493
+    lowsecmodifier: 1.0
     marketGroup: 2341
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Biochemical Reactor Time Efficiency II
+    nullsecmodifier: 1.100000023841858
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    refrigtimebonus: -24
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 2
+    upgradecost: 150
     volume: 10.0

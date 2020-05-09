@@ -1,73 +1,73 @@
 types:
   Covetor Blueprint:
-    IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 17477
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
     marketGroup: 497
     name: Covetor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Hulk Blueprint:
-    IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22545
+    industryblueprintrank: 800.0
+    industryjobcostmultiplier: 1
     marketGroup: 904
     name: Hulk Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Mackinaw Blueprint:
-    IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22549
+    industryblueprintrank: 800.0
+    industryjobcostmultiplier: 1
     marketGroup: 904
     name: Mackinaw Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Procurer Blueprint:
-    IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 17481
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
     marketGroup: 497
     name: Procurer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Retriever Blueprint:
-    IndustryBlueprintRank: 40.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 1
     id: 17479
+    industryblueprintrank: 40.0
+    industryjobcostmultiplier: 1
     marketGroup: 497
     name: Retriever Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Skiff Blueprint:
-    IndustryBlueprintRank: 800.0
-    IndustryJobCostMultiplier: 1
-    Radius: 1.0
-    TechLevel: 2
     id: 22547
+    industryblueprintrank: 800.0
+    industryjobcostmultiplier: 1
     marketGroup: 904
     name: Skiff Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

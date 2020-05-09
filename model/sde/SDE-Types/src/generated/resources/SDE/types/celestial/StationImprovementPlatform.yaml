@@ -1,457 +1,457 @@
 types:
   Gallente Advanced Outpost Factory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28106
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27969
     name: Gallente Advanced Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28106
     volume: 750000.0
   Gallente Advanced Outpost Laboratory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28108
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28009
     name: Gallente Advanced Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28108
     volume: 750000.0
   Gallente Advanced Outpost Office Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28109
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28057
     name: Gallente Advanced Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28109
     volume: 750000.0
   Gallente Advanced Outpost Plant Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28107
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27977
     name: Gallente Advanced Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28107
     volume: 750000.0
   Gallente Advanced Outpost Refinery Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationOreRefiningBonus: 0.07000000029802322
-    StationTypeID: 28110
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28033
     name: Gallente Advanced Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationorerefiningbonus: 0.07000000029802322
+    stationtypeid: 28110
     volume: 750000.0
   Gallente Basic Outpost Factory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28111
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27939
     name: Gallente Basic Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28111
     volume: 750000.0
   Gallente Basic Outpost Laboratory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28113
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28005
     name: Gallente Basic Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28113
     volume: 750000.0
   Gallente Basic Outpost Office Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28114
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28053
     name: Gallente Basic Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28114
     volume: 750000.0
   Gallente Basic Outpost Plant Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28112
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27983
     name: Gallente Basic Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28112
     volume: 750000.0
   Gallente Basic Outpost Refinery Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationOreRefiningBonus: 0.019999999552965164
-    StationTypeID: 28115
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28029
     name: Gallente Basic Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationorerefiningbonus: 0.019999999552965164
+    stationtypeid: 28115
     volume: 750000.0
   Gallente Outpost Factory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28116
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27967
     name: Gallente Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28116
     volume: 750000.0
   Gallente Outpost Laboratory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28118
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28007
     name: Gallente Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28118
     volume: 750000.0
   Gallente Outpost Office Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28119
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28055
     name: Gallente Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28119
     volume: 750000.0
   Gallente Outpost Plant Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28117
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27975
     name: Gallente Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28117
     volume: 750000.0
   Gallente Outpost Refinery Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationOreRefiningBonus: 0.03999999910593033
-    StationTypeID: 28120
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28031
     name: Gallente Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationorerefiningbonus: 0.03999999910593033
+    stationtypeid: 28120
     volume: 750000.0
   Minmatar Advanced Outpost Factory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28121
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27973
     name: Minmatar Advanced Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28121
     volume: 750000.0
   Minmatar Advanced Outpost Laboratory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28123
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28015
     name: Minmatar Advanced Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28123
     volume: 750000.0
   Minmatar Advanced Outpost Office Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28124
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28063
     name: Minmatar Advanced Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28124
     volume: 750000.0
   Minmatar Advanced Outpost Plant Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28122
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27981
     name: Minmatar Advanced Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28122
     volume: 750000.0
   Minmatar Advanced Outpost Refinery Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 5
-    RequiresSovereigntyDisplayOnly: 1
-    StationOreRefiningBonus: 0.07999999821186066
-    StationTypeID: 28125
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28039
     name: Minmatar Advanced Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 5
+    requiressovereigntydisplayonly: 1
+    stationorerefiningbonus: 0.07999999821186066
+    stationtypeid: 28125
     volume: 750000.0
   Minmatar Basic Outpost Factory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28126
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27941
     name: Minmatar Basic Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28126
     volume: 750000.0
   Minmatar Basic Outpost Laboratory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28128
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28011
     name: Minmatar Basic Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28128
     volume: 750000.0
   Minmatar Basic Outpost Office Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28129
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28059
     name: Minmatar Basic Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28129
     volume: 750000.0
   Minmatar Basic Outpost Plant Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28127
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27985
     name: Minmatar Basic Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28127
     volume: 750000.0
   Minmatar Basic Outpost Refinery Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 1
-    RequiresSovereigntyDisplayOnly: 1
-    StationOreRefiningBonus: 0.019999999552965164
-    StationTypeID: 28130
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28035
     name: Minmatar Basic Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 1
+    requiressovereigntydisplayonly: 1
+    stationorerefiningbonus: 0.019999999552965164
+    stationtypeid: 28130
     volume: 750000.0
   Minmatar Outpost Factory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28131
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27971
     name: Minmatar Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28131
     volume: 750000.0
   Minmatar Outpost Laboratory Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28133
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28013
     name: Minmatar Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28133
     volume: 750000.0
   Minmatar Outpost Office Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28134
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28061
     name: Minmatar Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28134
     volume: 750000.0
   Minmatar Outpost Plant Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationTypeID: 28132
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 27979
     name: Minmatar Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationtypeid: 28132
     volume: 750000.0
   Minmatar Outpost Refinery Platform:
-    AnchoringDelay: 3600000
-    Capacity: 7500000.0
-    Hp: 1.0E8
-    Radius: 1000.0
-    RequiredSkill1: 3400
-    RequiredSkill1Level: 3
-    RequiresSovereigntyDisplayOnly: 1
-    StationOreRefiningBonus: 0.05000000074505806
-    StationTypeID: 28135
+    anchoringdelay: 3600000
+    capacity: 7500000.0
+    hp: 1.0E8
     id: 28037
     name: Minmatar Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
     published: true
+    radius: 1000.0
+    requiredskill1: 3400
+    requiredskill1level: 3
+    requiressovereigntydisplayonly: 1
+    stationorerefiningbonus: 0.05000000074505806
+    stationtypeid: 28135
     volume: 750000.0

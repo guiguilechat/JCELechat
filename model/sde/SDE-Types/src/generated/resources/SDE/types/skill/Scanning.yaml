@@ -1,114 +1,114 @@
 types:
   Archaeology:
-    AccessDifficultyBonusAbsolutePercent: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3551
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
-    VirusCoherenceBonus: 10
+    accessdifficultybonusabsolutepercent: 1
     id: 13278
     marketGroup: 1110
     name: Archaeology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 3
+    requiredskill2: 3551
+    requiredskill2level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
+    viruscoherencebonus: 10
     volume: 0.009999999776482582
   Astrometric Acquisition:
-    DurationBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3412
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    durationbonus: -5
     id: 25811
     marketGroup: 1110
     name: Astrometric Acquisition
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3412
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Astrometric Pinpointing:
-    MaxScanDeviationModifier: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3412
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
     id: 25810
     marketGroup: 1110
+    maxscandeviationmodifier: -5
     name: Astrometric Pinpointing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3412
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Astrometric Rangefinding:
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 3
-    ScanStrengthBonus: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 8.0
     id: 25739
     marketGroup: 1110
     name: Astrometric Rangefinding
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 3
+    scanstrengthbonus: 5
+    secondaryattribute: 166
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Astrometrics:
-    DurationBonus: -5
-    MaxScanDeviationModifier: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 3
-    ScanStrengthBonus: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    durationbonus: -5
     id: 3412
     marketGroup: 1110
+    maxscandeviationmodifier: -5
     name: Astrometrics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 3
+    scanstrengthbonus: 5
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Hacking:
-    AccessDifficultyBonusAbsolutePercent: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3432
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
-    VirusCoherenceBonus: 10
+    accessdifficultybonusabsolutepercent: 1
     id: 21718
     marketGroup: 1110
     name: Hacking
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 3
+    requiredskill2: 3432
+    requiredskill2level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
+    viruscoherencebonus: 10
     volume: 0.009999999776482582
   Survey:
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3426
-    RequiredSkill1Level: 1
-    ScanspeedBonus: -5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
     id: 3551
     marketGroup: 1110
     name: Survey
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 1
+    scanspeedbonus: -5
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582

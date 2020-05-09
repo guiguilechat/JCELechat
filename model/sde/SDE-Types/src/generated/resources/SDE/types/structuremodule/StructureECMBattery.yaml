@@ -1,100 +1,94 @@
 types:
   Dread Guristas Standup Variable Spectrum ECM:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 3000.0
-    Capacity: 1.0
-    ChargeGroup1: 1549
-    ChargeSize: 1
-    Cpu: 4000.0
-    Duration: 20000.0
-    FalloffEffectiveness: 97500
-    Hp: 40.0
-    Mass: 500.0
-    MaxRange: 97500.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    Power: 50000
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2253
-    ScanGravimetricStrengthBonus: 39.0
-    ScanLadarStrengthBonus: 39.0
-    ScanMagnetometricStrengthBonus: 39.0
-    ScanRadarStrengthBonus: 39.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 3000.0
+    capacity: 1.0
+    chargegroup1: 1549
+    chargesize: 1
+    cpu: 4000.0
+    duration: 20000.0
+    falloffeffectiveness: 97500
+    hp: 40.0
     id: 46577
     marketGroup: 2211
-    mass: 500.0
+    maxrange: 97500.0
+    metagroupid: 4
+    metalevel: 8
     name: Dread Guristas Standup Variable Spectrum ECM
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2253
+    scangravimetricstrengthbonus: 39.0
+    scanladarstrengthbonus: 39.0
+    scanmagnetometricstrengthbonus: 39.0
+    scanradarstrengthbonus: 39.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Variable Spectrum ECM I:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 3000.0
-    Capacity: 1.0
-    ChargeGroup1: 1549
-    ChargeSize: 1
-    Cpu: 4000.0
-    Duration: 20000.0
-    FalloffEffectiveness: 75000
-    Hp: 40.0
-    Mass: 500.0
-    MaxRange: 75000.0
-    Power: 50000
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2253
-    ScanGravimetricStrengthBonus: 30.0
-    ScanLadarStrengthBonus: 30.0
-    ScanMagnetometricStrengthBonus: 30.0
-    ScanRadarStrengthBonus: 30.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 3000.0
+    capacity: 1.0
+    chargegroup1: 1549
+    chargesize: 1
+    cpu: 4000.0
+    duration: 20000.0
+    falloffeffectiveness: 75000
+    hp: 40.0
     id: 35940
     marketGroup: 2211
-    mass: 500.0
+    maxrange: 75000.0
     name: Standup Variable Spectrum ECM I
     packagedVolume: 4000.0
     portionSize: 1
+    power: 50000
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2253
+    scangravimetricstrengthbonus: 30.0
+    scanladarstrengthbonus: 30.0
+    scanmagnetometricstrengthbonus: 30.0
+    scanradarstrengthbonus: 30.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Variable Spectrum ECM II:
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    CapacitorNeed: 3600.0
-    Capacity: 1.0
-    ChargeGroup1: 1549
-    ChargeSize: 1
-    Cpu: 4800.0
-    Duration: 20000.0
-    FalloffEffectiveness: 90000
-    Hp: 40.0
-    Mass: 500.0
-    MaxRange: 90000.0
-    MetaLevel: 5
-    Power: 60000
-    Radius: 1.0
-    ReloadTime: 0.009999999776482582
-    RemoteResistanceID: 2253
-    ScanGravimetricStrengthBonus: 36.0
-    ScanLadarStrengthBonus: 36.0
-    ScanMagnetometricStrengthBonus: 36.0
-    ScanRadarStrengthBonus: 36.0
-    StructureItemVisualFlag: 1
-    TechLevel: 2
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    capacitorneed: 3600.0
+    capacity: 1.0
+    chargegroup1: 1549
+    chargesize: 1
+    cpu: 4800.0
+    duration: 20000.0
+    falloffeffectiveness: 90000
+    hp: 40.0
     id: 47338
     marketGroup: 2211
-    mass: 500.0
+    maxrange: 90000.0
+    metalevel: 5
     name: Standup Variable Spectrum ECM II
     packagedVolume: 4000.0
     portionSize: 1
+    power: 60000
     published: true
+    radius: 1.0
+    reloadtime: 0.009999999776482582
+    remoteresistanceid: 2253
+    scangravimetricstrengthbonus: 36.0
+    scanladarstrengthbonus: 36.0
+    scanmagnetometricstrengthbonus: 36.0
+    scanradarstrengthbonus: 36.0
+    structureitemvisualflag: 1
+    techlevel: 2
     volume: 4000.0

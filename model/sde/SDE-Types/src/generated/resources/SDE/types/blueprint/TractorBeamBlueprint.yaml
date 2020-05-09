@@ -1,43 +1,43 @@
 types:
   Capital Tractor Beam I Blueprint:
-    IndustryBlueprintRank: 120.0
-    Radius: 1.0
-    TechLevel: 1
     id: 24645
+    industryblueprintrank: 120.0
     marketGroup: 905
     name: Capital Tractor Beam I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Capital Tractor Beam II Blueprint:
-    IndustryBlueprintRank: 312.0
-    Radius: 1.0
-    TechLevel: 2
     id: 4253
+    industryblueprintrank: 312.0
     name: Capital Tractor Beam II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582
   Small Tractor Beam I Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
-    TechLevel: 1
     id: 24349
+    industryblueprintrank: 3.0
     marketGroup: 905
     name: Small Tractor Beam I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Small Tractor Beam II Blueprint:
-    IndustryBlueprintRank: 7.800000190734863
-    Radius: 1.0
-    TechLevel: 2
     id: 4251
+    industryblueprintrank: 7.800000190734863
     name: Small Tractor Beam II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

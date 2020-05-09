@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.owner;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,71 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BarterDiscount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BattleshipConstructionCost;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BountyBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BountyMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Charisma;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConnectionsBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ContrabandDetectionChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ContrabandFencingChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CopySpeedPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CriminalConnectionsBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CruiseMissileVelocityPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CruiserConstructionCost;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CustomCharismaBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CustomIntelligenceBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CustomMemoryBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CustomPerceptionBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CustomWillpowerBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageCloudChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DiplomacyBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneControlDistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DuplicatingChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FastTalkPercentage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FrigateConstructionCost;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeavyDroneDamagePercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeavyMissileSpeedPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IndustrialConstructionCost;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Intelligence;
+import fr.guiguilechat.jcelechat.model.sde.attributes.InventionReverseEngineeringResearchSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ManufactureCostMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ManufactureSlotLimit;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ManufactureTimeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ManufacturingTimeResearchSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGangModules;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLaborotorySlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxNonRaceCorporationMembers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Memory;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MineralNeedResearchSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MiningDroneAmountPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileFOFVelocityPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileStandardVelocityPecent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleRepairRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NegotiationPercentage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Perception;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReactionSlotLimit;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningTimePercentage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldPercentage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RepairCostMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RepairCostPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReverseEngineeringChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RocketVelocityPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBrokenModuleRepairCostMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SmugglingChance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SocialBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StationConstructionTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TitanConstructionTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TorpedoVelocityPercent;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TradePremium;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpAccuracyFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpAccuracyMaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Willpower;
 import fr.guiguilechat.jcelechat.model.sde.types.Owner;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,427 +91,427 @@ public class Character
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BarterDiscount;
+    public int barterdiscount;
     /**
      * The % of battleship assembly cost a player has to pay to assemble a battleship
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BattleshipConstructionCost;
+    public int battleshipconstructioncost;
     /**
      * Flat Bonus To NPC Bountys
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BountyBonus;
+    public int bountybonus;
     /**
      * Npc Bounty Multiplier
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int BountyMultiplier;
+    public int bountymultiplier;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Capacity;
+    public double capacity;
     /**
      * The charisma of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Charisma;
+    public int charisma;
     /**
      * Bonus to standing towards Friendly npcs
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConnectionsBonus;
+    public int connectionsbonus;
     /**
      * The chance that the customs official has of detecting contraband on board a scanned vessel
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ContrabandDetectionChance;
+    public double contrabanddetectionchance;
     /**
      * Chance of being caught selling contraband on market. 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ContrabandFencingChance;
+    public double contrabandfencingchance;
     /**
      * Blueprint copying speed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int CopySpeedPercent;
+    public int copyspeedpercent;
     /**
      * a bonus to standing towards npc with negativa security status
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CriminalConnectionsBonus;
+    public int criminalconnectionsbonus;
     /**
      * Damage Bonus for Cruise Missiles
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CruiseMissileVelocityPercent;
+    public int cruisemissilevelocitypercent;
     /**
      * The % of cruiser assembly cost a player has to pay to assemble a cruiser
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CruiserConstructionCost;
+    public int cruiserconstructioncost;
     /**
      * Bonus to the charisma of a character specified by the player in character creation.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CustomCharismaBonus;
+    public int customcharismabonus;
     /**
      * Bonus to the intelligence of a character specified by the player in character creation.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CustomIntelligenceBonus;
+    public int customintelligencebonus;
     /**
      * Bonus to the memory of a character specified by the player in character creation.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CustomMemoryBonus;
+    public int custommemorybonus;
     /**
      * Bonus to the perception of a character specified by the player in character creation.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CustomPerceptionBonus;
+    public int customperceptionbonus;
     /**
      * Bonus to the willpower of a character specified by the player in character creation.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CustomWillpowerBonus;
+    public int customwillpowerbonus;
     /**
      * %chance of new asteroid releasing damage cloud each mining turn.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double DamageCloudChance;
+    public double damagecloudchance;
     /**
      * Bonus to Effective Standing towards Hostile NPC
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DiplomacyBonus;
+    public int diplomacybonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(20000)
-    public int DroneControlDistance;
+    public int dronecontroldistance;
     /**
      * Chance of upgrading a module to next tech level 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DuplicatingChance;
+    public int duplicatingchance;
     /**
      * a percentage multiplyer to sec status recovery
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int FastTalkPercentage;
+    public int fasttalkpercentage;
     /**
      * The % of Frigate assembly cost a player has to pay to assemble a frigate
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int FrigateConstructionCost;
+    public int frigateconstructioncost;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int HeavyDroneDamagePercent;
+    public int heavydronedamagepercent;
     /**
      * Heavy missile speed percent
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int HeavyMissileSpeedPercent;
+    public int heavymissilespeedpercent;
     /**
      * The % of industrial assembly cost a player has to pay to assemble a industrial
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int IndustrialConstructionCost;
+    public int industrialconstructioncost;
     /**
      * The intelligence of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Intelligence;
+    public int intelligence;
     /**
      * Speed bonus when doing invention or reverse engineering
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int InventionReverseEngineeringResearchSpeed;
+    public int inventionreverseengineeringresearchspeed;
     /**
      * Manufacturing cost multiplyer
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ManufactureCostMultiplier;
+    public int manufacturecostmultiplier;
     /**
      * The maximum amount of manufacture slots that can be used at a time.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ManufactureSlotLimit;
+    public int manufactureslotlimit;
     /**
      * Scales the time it takes to manufacture something.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ManufactureTimeMultiplier;
+    public int manufacturetimemultiplier;
     /**
      * Research speed 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ManufacturingTimeResearchSpeed;
+    public int manufacturingtimeresearchspeed;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double Mass;
+    public double mass;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(3)
-    public int MaxGangModules;
+    public int maxgangmodules;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int MaxLaborotorySlots;
+    public int maxlaborotoryslots;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxLockedTargets;
+    public int maxlockedtargets;
     /**
      * Max non  race corporationMembers
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxNonRaceCorporationMembers;
+    public int maxnonracecorporationmembers;
     /**
      * The memory of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Memory;
+    public int memory;
     /**
      * speed bonus when researching blueprint mineral need
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int MineralNeedResearchSpeed;
+    public int mineralneedresearchspeed;
     /**
      * Mining drone speed percent
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int MiningDroneAmountPercent;
+    public int miningdroneamountpercent;
     /**
      * The characters missile use efficiency, scales the damage missiles do.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(1.0)
-    public double MissileDamageMultiplier;
+    public double missiledamagemultiplier;
     /**
      * Missile FOF velocity percent
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int MissileFOFVelocityPercent;
+    public int missilefofvelocitypercent;
     /**
      * Missiles velocity multiplier
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int MissileStandardVelocityPecent;
+    public int missilestandardvelocitypecent;
     /**
      * dictates how many hitpoints you can repair per minute
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10)
-    public int ModuleRepairRate;
+    public int modulerepairrate;
     /**
      * Percentage of pay from agent 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int NegotiationPercentage;
+    public int negotiationpercentage;
     /**
      * The perception of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Perception;
+    public int perception;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Radius;
+    public double radius;
     /**
      * Maximum amount of Reactions slots that can be used at a time
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ReactionSlotLimit;
+    public int reactionslotlimit;
     /**
      * Refining speed percentage
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int RefiningTimePercentage;
+    public int refiningtimepercentage;
     /**
      * Refining yield percentage
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RefiningYieldPercentage;
+    public int refiningyieldpercentage;
     /**
      * Multiplier to adjust the cost of repairs.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double RepairCostMultiplier;
+    public double repaircostmultiplier;
     /**
      * Repair cost percent
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int RepairCostPercent;
+    public int repaircostpercent;
     /**
      * Chance of making a research breakthrough when researching a higher tech level of a blueprint
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ReverseEngineeringChance;
+    public int reverseengineeringchance;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int RocketVelocityPercent;
+    public int rocketvelocitypercent;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.5)
-    public double ShipBrokenModuleRepairCostMultiplier;
+    public double shipbrokenmodulerepaircostmultiplier;
     /**
      * Chance of being caught Transporting contraband. 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double SmugglingChance;
+    public double smugglingchance;
     /**
      * Bonus To standing gain towards non CONCORD npcs  
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int SocialBonus;
+    public int socialbonus;
     /**
      * Station construction time
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int StationConstructionTime;
+    public int stationconstructiontime;
     /**
      * Titan construction time
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(100)
-    public int TitanConstructionTime;
+    public int titanconstructiontime;
     /**
      * Torpedo velocity percent
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int TorpedoVelocityPercent;
+    public int torpedovelocitypercent;
     /**
      * price bonus when selling to npc corps
      * 
@@ -451,28 +519,29 @@ public class Character
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int TradePremium;
+    public int tradepremium;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int WarpAccuracyFactor;
+    public int warpaccuracyfactor;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(15000)
-    public int WarpAccuracyMaxRange;
+    public int warpaccuracymaxrange;
     /**
      * The willpower of a character.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Willpower;
+    public int willpower;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ManufacturingTimeResearchSpeed.INSTANCE, CopySpeedPercent.INSTANCE, FrigateConstructionCost.INSTANCE, Mass.INSTANCE, CruiserConstructionCost.INSTANCE, IndustrialConstructionCost.INSTANCE, BattleshipConstructionCost.INSTANCE, TitanConstructionTime.INSTANCE, DamageCloudChance.INSTANCE, StationConstructionTime.INSTANCE, RepairCostPercent.INSTANCE, ReverseEngineeringChance.INSTANCE, MineralNeedResearchSpeed.INSTANCE, DuplicatingChance.INSTANCE, MissileStandardVelocityPecent.INSTANCE, CruiseMissileVelocityPercent.INSTANCE, HeavyMissileSpeedPercent.INSTANCE, TorpedoVelocityPercent.INSTANCE, MissileFOFVelocityPercent.INSTANCE, MaxNonRaceCorporationMembers.INSTANCE, Radius.INSTANCE, Charisma.INSTANCE, Intelligence.INSTANCE, Memory.INSTANCE, Capacity.INSTANCE, Perception.INSTANCE, InventionReverseEngineeringResearchSpeed.INSTANCE, RocketVelocityPercent.INSTANCE, Willpower.INSTANCE, CustomCharismaBonus.INSTANCE, HeavyDroneDamagePercent.INSTANCE, CustomWillpowerBonus.INSTANCE, CustomPerceptionBonus.INSTANCE, MiningDroneAmountPercent.INSTANCE, CustomMemoryBonus.INSTANCE, CustomIntelligenceBonus.INSTANCE, MaxGangModules.INSTANCE, BarterDiscount.INSTANCE, RepairCostMultiplier.INSTANCE, TradePremium.INSTANCE, ContrabandFencingChance.INSTANCE, SmugglingChance.INSTANCE, MaxLockedTargets.INSTANCE, ManufactureSlotLimit.INSTANCE, DroneControlDistance.INSTANCE, MaxLaborotorySlots.INSTANCE, ContrabandDetectionChance.INSTANCE, MissileDamageMultiplier.INSTANCE, ManufactureTimeMultiplier.INSTANCE, NegotiationPercentage.INSTANCE, DiplomacyBonus.INSTANCE, FastTalkPercentage.INSTANCE, ReactionSlotLimit.INSTANCE, ConnectionsBonus.INSTANCE, CriminalConnectionsBonus.INSTANCE, SocialBonus.INSTANCE, RefiningTimePercentage.INSTANCE, BountyBonus.INSTANCE, ManufactureCostMultiplier.INSTANCE, BountyMultiplier.INSTANCE, ModuleRepairRate.INSTANCE, RefiningYieldPercentage.INSTANCE, ShipBrokenModuleRepairCostMultiplier.INSTANCE, WarpAccuracyMaxRange.INSTANCE, WarpAccuracyFactor.INSTANCE })));
     public static final Character.MetaGroup METAGROUP = new Character.MetaGroup();
 
     @Override
@@ -480,269 +549,274 @@ public class Character
         switch (attribute.getId()) {
             case  442 :
             {
-                return BarterDiscount;
+                return barterdiscount;
             }
             case  393 :
             {
-                return BattleshipConstructionCost;
+                return battleshipconstructioncost;
             }
             case  625 :
             {
-                return BountyBonus;
+                return bountybonus;
             }
             case  626 :
             {
-                return BountyMultiplier;
+                return bountymultiplier;
             }
             case  38 :
             {
-                return Capacity;
+                return capacity;
             }
             case  164 :
             {
-                return Charisma;
+                return charisma;
             }
             case  360 :
             {
-                return ConnectionsBonus;
+                return connectionsbonus;
             }
             case  723 :
             {
-                return ContrabandDetectionChance;
+                return contrabanddetectionchance;
             }
             case  444 :
             {
-                return ContrabandFencingChance;
+                return contrabandfencingchance;
             }
             case  387 :
             {
-                return CopySpeedPercent;
+                return copyspeedpercent;
             }
             case  361 :
             {
-                return CriminalConnectionsBonus;
+                return criminalconnectionsbonus;
             }
             case  401 :
             {
-                return CruiseMissileVelocityPercent;
+                return cruisemissilevelocitypercent;
             }
             case  389 :
             {
-                return CruiserConstructionCost;
+                return cruiserconstructioncost;
             }
             case  170 :
             {
-                return CustomCharismaBonus;
+                return customcharismabonus;
             }
             case  174 :
             {
-                return CustomIntelligenceBonus;
+                return customintelligencebonus;
             }
             case  173 :
             {
-                return CustomMemoryBonus;
+                return custommemorybonus;
             }
             case  172 :
             {
-                return CustomPerceptionBonus;
+                return customperceptionbonus;
             }
             case  171 :
             {
-                return CustomWillpowerBonus;
+                return customwillpowerbonus;
             }
             case  522 :
             {
-                return DamageCloudChance;
+                return damagecloudchance;
             }
             case  356 :
             {
-                return DiplomacyBonus;
+                return diplomacybonus;
             }
             case  458 :
             {
-                return DroneControlDistance;
+                return dronecontroldistance;
             }
             case  399 :
             {
-                return DuplicatingChance;
+                return duplicatingchance;
             }
             case  359 :
             {
-                return FastTalkPercentage;
+                return fasttalkpercentage;
             }
             case  388 :
             {
-                return FrigateConstructionCost;
+                return frigateconstructioncost;
             }
             case  426 :
             {
-                return HeavyDroneDamagePercent;
+                return heavydronedamagepercent;
             }
             case  402 :
             {
-                return HeavyMissileSpeedPercent;
+                return heavymissilespeedpercent;
             }
             case  392 :
             {
-                return IndustrialConstructionCost;
+                return industrialconstructioncost;
             }
             case  165 :
             {
-                return Intelligence;
+                return intelligence;
             }
             case  1959 :
             {
-                return InventionReverseEngineeringResearchSpeed;
+                return inventionreverseengineeringresearchspeed;
             }
             case  369 :
             {
-                return ManufactureCostMultiplier;
+                return manufacturecostmultiplier;
             }
             case  196 :
             {
-                return ManufactureSlotLimit;
+                return manufactureslotlimit;
             }
             case  219 :
             {
-                return ManufactureTimeMultiplier;
+                return manufacturetimemultiplier;
             }
             case  385 :
             {
-                return ManufacturingTimeResearchSpeed;
+                return manufacturingtimeresearchspeed;
             }
             case  4 :
             {
-                return Mass;
+                return mass;
             }
             case  435 :
             {
-                return MaxGangModules;
+                return maxgangmodules;
             }
             case  467 :
             {
-                return MaxLaborotorySlots;
+                return maxlaborotoryslots;
             }
             case  192 :
             {
-                return MaxLockedTargets;
+                return maxlockedtargets;
             }
             case  417 :
             {
-                return MaxNonRaceCorporationMembers;
+                return maxnonracecorporationmembers;
             }
             case  166 :
             {
-                return Memory;
+                return memory;
             }
             case  398 :
             {
-                return MineralNeedResearchSpeed;
+                return mineralneedresearchspeed;
             }
             case  428 :
             {
-                return MiningDroneAmountPercent;
+                return miningdroneamountpercent;
             }
             case  212 :
             {
-                return MissileDamageMultiplier;
+                return missiledamagemultiplier;
             }
             case  406 :
             {
-                return MissileFOFVelocityPercent;
+                return missilefofvelocitypercent;
             }
             case  400 :
             {
-                return MissileStandardVelocityPecent;
+                return missilestandardvelocitypecent;
             }
             case  1267 :
             {
-                return ModuleRepairRate;
+                return modulerepairrate;
             }
             case  355 :
             {
-                return NegotiationPercentage;
+                return negotiationpercentage;
             }
             case  167 :
             {
-                return Perception;
+                return perception;
             }
             case  162 :
             {
-                return Radius;
+                return radius;
             }
             case  2664 :
             {
-                return ReactionSlotLimit;
+                return reactionslotlimit;
             }
             case  368 :
             {
-                return RefiningTimePercentage;
+                return refiningtimepercentage;
             }
             case  378 :
             {
-                return RefiningYieldPercentage;
+                return refiningyieldpercentage;
             }
             case  187 :
             {
-                return RepairCostMultiplier;
+                return repaircostmultiplier;
             }
             case  396 :
             {
-                return RepairCostPercent;
+                return repaircostpercent;
             }
             case  397 :
             {
-                return ReverseEngineeringChance;
+                return reverseengineeringchance;
             }
             case  551 :
             {
-                return RocketVelocityPercent;
+                return rocketvelocitypercent;
             }
             case  1277 :
             {
-                return ShipBrokenModuleRepairCostMultiplier;
+                return shipbrokenmodulerepaircostmultiplier;
             }
             case  445 :
             {
-                return SmugglingChance;
+                return smugglingchance;
             }
             case  362 :
             {
-                return SocialBonus;
+                return socialbonus;
             }
             case  395 :
             {
-                return StationConstructionTime;
+                return stationconstructiontime;
             }
             case  394 :
             {
-                return TitanConstructionTime;
+                return titanconstructiontime;
             }
             case  404 :
             {
-                return TorpedoVelocityPercent;
+                return torpedovelocitypercent;
             }
             case  443 :
             {
-                return TradePremium;
+                return tradepremium;
             }
             case  1022 :
             {
-                return WarpAccuracyFactor;
+                return warpaccuracyfactor;
             }
             case  1021 :
             {
-                return WarpAccuracyMaxRange;
+                return warpaccuracymaxrange;
             }
             case  168 :
             {
-                return Willpower;
+                return willpower;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

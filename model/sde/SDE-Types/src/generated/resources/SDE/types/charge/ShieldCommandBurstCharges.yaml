@@ -1,55 +1,49 @@
 types:
   Active Shielding Charge:
-    LauncherGroup: 316
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    RequiredSkill1: 3350
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 1
-    WarfareBuff1ID: 11
-    WarfareBuff1Multiplier: -8
     id: 42694
+    launchergroup: 316
     marketGroup: 2301
-    mass: 0.009999999776482582
     name: Active Shielding Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
     published: true
+    radius: 1.0
+    requiredskill1: 3350
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
     volume: 0.009999999776482582
+    warfarebuff1id: 11
+    warfarebuff1multiplier: -8
   Shield Extension Charge:
-    LauncherGroup: 1770
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    RequiredSkill1: 3350
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 1
-    WarfareBuff1ID: 12
-    WarfareBuff1Multiplier: 8
     id: 42696
+    launchergroup: 1770
     marketGroup: 2301
-    mass: 0.009999999776482582
     name: Shield Extension Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
     published: true
+    radius: 1.0
+    requiredskill1: 3350
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
     volume: 0.009999999776482582
+    warfarebuff1id: 12
+    warfarebuff1multiplier: 8
   Shield Harmonizing Charge:
-    LauncherGroup: 316
-    Mass: 0.009999999776482582
-    Radius: 1.0
-    RequiredSkill1: 3350
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 1
-    WarfareBuff1ID: 10
-    WarfareBuff1Multiplier: -8
     id: 42695
+    launchergroup: 316
     marketGroup: 2301
-    mass: 0.009999999776482582
     name: Shield Harmonizing Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
     published: true
+    radius: 1.0
+    requiredskill1: 3350
+    requiredskill1level: 1
+    requiredskill2: 3348
+    requiredskill2level: 1
     volume: 0.009999999776482582
+    warfarebuff1id: 10
+    warfarebuff1multiplier: -8

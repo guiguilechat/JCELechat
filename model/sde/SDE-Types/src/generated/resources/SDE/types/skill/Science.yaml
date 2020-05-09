@@ -1,682 +1,682 @@
 types:
   Advanced Laboratory Operation:
-    CanNotBeTrainedOnTrial: 1
-    LaboratorySlotsBonus: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3406
-    RequiredSkill1Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 24624
+    laboratoryslotsbonus: 1
     marketGroup: 375
     name: Advanced Laboratory Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3406
+    requiredskill1level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Amarr Encryption Methods:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 21718
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 23087
     marketGroup: 375
     name: Amarr Encryption Methods
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 21718
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Amarr Starship Engineering:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11444
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Amarr Starship Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Astronautic Engineering:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11487
     marketGroup: 375
     name: Astronautic Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Caldari Encryption Methods:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 21718
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 21790
     marketGroup: 375
     name: Caldari Encryption Methods
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 21718
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Caldari Starship Engineering:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11454
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Caldari Starship Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Core Subsystem Technology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3403
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11433
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 30325
     marketGroup: 375
     name: Core Subsystem Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3403
+    requiredskill1level: 5
+    requiredskill2: 11433
+    requiredskill2level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Defensive Subsystem Technology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3403
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11442
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 30324
     marketGroup: 375
     name: Defensive Subsystem Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3403
+    requiredskill1level: 5
+    requiredskill2: 11442
+    requiredskill2level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Electromagnetic Physics:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3426
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11448
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Electromagnetic Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3426
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Electronic Engineering:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3426
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11453
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Electronic Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3426
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Gallente Encryption Methods:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 21718
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 23121
     marketGroup: 375
     name: Gallente Encryption Methods
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 21718
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Gallente Starship Engineering:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11450
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Gallente Starship Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Graviton Physics:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3413
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11446
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Graviton Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3413
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   High Energy Physics:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3413
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11433
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: High Energy Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3413
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Hydromagnetic Physics:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3413
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11443
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Hydromagnetic Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3413
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Laboratory Operation:
-    CanNotBeTrainedOnTrial: 1
-    LaboratorySlotsBonus: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
     id: 3406
+    laboratoryslotsbonus: 1
     marketGroup: 375
     name: Laboratory Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Laser Physics:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3413
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11447
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Laser Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3413
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Mechanical Engineering:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11452
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Mechanical Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Metallurgy:
-    CanNotBeTrainedOnTrial: 1
-    MineralNeedResearchBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 3409
     marketGroup: 375
+    mineralneedresearchbonus: -5
     name: Metallurgy
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Minmatar Encryption Methods:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 21718
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 21791
     marketGroup: 375
     name: Minmatar Encryption Methods
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 21718
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Minmatar Starship Engineering:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11445
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Minmatar Starship Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Molecular Engineering:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11529
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Molecular Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Nanite Engineering:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3426
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11442
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Nanite Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3426
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Nuclear Physics:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3413
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11451
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Nuclear Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3413
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Offensive Subsystem Technology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3403
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11433
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 30327
     marketGroup: 375
     name: Offensive Subsystem Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3403
+    requiredskill1level: 5
+    requiredskill2: 11433
+    requiredskill2level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Plasma Physics:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3413
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11441
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Plasma Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3413
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Propulsion Subsystem Technology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3403
-    RequiredSkill1Level: 5
-    RequiredSkill2: 11446
-    RequiredSkill2Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 30788
     marketGroup: 375
     name: Propulsion Subsystem Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3403
+    requiredskill1level: 5
+    requiredskill2: 11446
+    requiredskill2level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Quantum Physics:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3413
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11455
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Quantum Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3413
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Research:
-    BlueprintmanufactureTimeBonus: -5
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    blueprintmanufacturetimebonus: -5
+    cannotbetrainedontrial: 1
     id: 3403
     marketGroup: 375
     name: Research
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 3
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Research Project Management:
-    CanNotBeTrainedOnTrial: 1
-    MaxAttackTargets: 1
-    PrimaryAttribute: 166
-    Radius: 1.0
-    RequiredSkill1: 3406
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3403
-    RequiredSkill2Level: 5
-    ResearchGangSizeBonus: 5
-    SecondaryAttribute: 164
-    SkillTimeConstant: 8.0
+    cannotbetrainedontrial: 1
     id: 12179
     marketGroup: 375
+    maxattacktargets: 1
     name: Research Project Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 166
     published: true
+    radius: 1.0
+    requiredskill1: 3406
+    requiredskill1level: 5
+    requiredskill2: 3403
+    requiredskill2level: 5
+    researchgangsizebonus: 5
+    secondaryattribute: 164
+    skilltimeconstant: 8.0
     volume: 0.009999999776482582
   Rocket Science:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 11449
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Rocket Science
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Science:
-    CanNotBeTrainedOnTrial: 1
-    CopySpeedBonus: -5
-    PrimaryAttribute: 165
-    Radius: 1.0
-    SecondaryAttribute: 166
-    SkillTimeConstant: 1.0
+    cannotbetrainedontrial: 1
+    copyspeedbonus: -5
     id: 3402
     marketGroup: 375
     name: Science
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    secondaryattribute: 166
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Scientific Networking:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3406
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 3.0
+    cannotbetrainedontrial: 1
     id: 24270
     marketGroup: 375
     name: Scientific Networking
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3406
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Sleeper Encryption Methods:
-    CanNotBeTrainedOnTrial: 1
-    InventionBonus: 10
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3409
-    RequiredSkill2Level: 4
-    RequiredSkill3: 3403
-    RequiredSkill3Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 3408
+    inventionbonus: 10
     marketGroup: 375
     name: Sleeper Encryption Methods
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3409
+    requiredskill2level: 4
+    requiredskill3: 3403
+    requiredskill3level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Sleeper Technology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 13278
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 21789
     marketGroup: 375
     name: Sleeper Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 13278
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Takmahl Technology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 13278
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 23123
     marketGroup: 375
     name: Takmahl Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 13278
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Talocan Technology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 13278
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 20433
     marketGroup: 375
     name: Talocan Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 13278
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Triglavian Encryption Methods:
-    CanNotBeTrainedOnTrial: 1
-    InventionBonus: 10
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3409
-    RequiredSkill2Level: 4
-    RequiredSkill3: 3403
-    RequiredSkill3Level: 4
-    SecondaryAttribute: 166
-    SkillTimeConstant: 4.0
+    cannotbetrainedontrial: 1
     id: 52308
+    inventionbonus: 10
     marketGroup: 375
     name: Triglavian Encryption Methods
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3409
+    requiredskill2level: 4
+    requiredskill3: 3403
+    requiredskill3level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Triglavian Quantum Engineering:
-    CanNotBeTrainedOnTrial: 1
-    ManufactureTimePerLevel: -1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 5
-    RequiredSkill2: 3392
-    RequiredSkill2Level: 5
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 52307
+    manufacturetimeperlevel: -1
     marketGroup: 375
     name: Triglavian Quantum Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 5
+    requiredskill2: 3392
+    requiredskill2level: 5
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Yan Jung Technology:
-    CanNotBeTrainedOnTrial: 1
-    PrimaryAttribute: 165
-    Radius: 1.0
-    RequiredSkill1: 13278
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 166
-    SkillTimeConstant: 5.0
+    cannotbetrainedontrial: 1
     id: 23124
     marketGroup: 375
     name: Yan Jung Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 165
     published: true
+    radius: 1.0
+    requiredskill1: 13278
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582

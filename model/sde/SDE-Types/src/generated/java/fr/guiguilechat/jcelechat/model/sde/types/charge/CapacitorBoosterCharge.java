@@ -1,15 +1,28 @@
 package fr.guiguilechat.jcelechat.model.sde.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,42 +35,42 @@ public class CapacitorBoosterCharge
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CapNeedBonus;
+    public int capneedbonus;
     /**
      * Extra batteries to add capacitor.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CapacitorBonus;
+    public int capacitorbonus;
     /**
      * The size of the charges that can fit in the turret/whatever.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeSize;
+    public int chargesize;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int launchergroup;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup2;
+    public int launchergroup2;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup3;
+    public int launchergroup3;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -72,7 +85,8 @@ public class CapacitorBoosterCharge
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, CapacitorBonus.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, LauncherGroup2 .INSTANCE, LauncherGroup3 .INSTANCE, MetaGroupID.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final CapacitorBoosterCharge.MetaGroup METAGROUP = new CapacitorBoosterCharge.MetaGroup();
 
     @Override
@@ -80,37 +94,42 @@ public class CapacitorBoosterCharge
         switch (attribute.getId()) {
             case  317 :
             {
-                return CapNeedBonus;
+                return capneedbonus;
             }
             case  67 :
             {
-                return CapacitorBonus;
+                return capacitorbonus;
             }
             case  128 :
             {
-                return ChargeSize;
+                return chargesize;
             }
             case  137 :
             {
-                return LauncherGroup;
+                return launchergroup;
             }
             case  602 :
             {
-                return LauncherGroup2;
+                return launchergroup2;
             }
             case  603 :
             {
-                return LauncherGroup3;
+                return launchergroup3;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

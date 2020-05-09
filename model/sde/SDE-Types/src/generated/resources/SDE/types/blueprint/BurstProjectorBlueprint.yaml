@@ -1,13 +1,13 @@
 types:
   ECM Jammer Burst Projector Blueprint:
-    IndustryBlueprintRank: 180.0
-    Radius: 1.0
     id: 27679
+    industryblueprintrank: 180.0
     marketGroup: 2248
     name: ECM Jammer Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Energy Neutralization Burst Projector Blueprint:
     id: 41390

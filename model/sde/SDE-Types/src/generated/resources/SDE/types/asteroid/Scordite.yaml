@@ -1,169 +1,153 @@
 types:
   Compressed Condensed Scordite:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1228
-    Radius: 1.0
-    ReprocessingSkillType: 12193
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28427
     marketGroup: 519
-    mass: 1.0000000409184788E35
     name: Compressed Condensed Scordite
+    orebasictype: 1228
     packagedVolume: 0.1899999976158142
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12193
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
   Compressed Glossy Scordite:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0
-    OreBasicType: 46687
-    Radius: 1.0
-    ReprocessingSkillType: 12193
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 46703
     marketGroup: 519
-    mass: 1.0
     name: Compressed Glossy Scordite
+    orebasictype: 46687
     packagedVolume: 0.1899999976158142
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12193
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
   Compressed Massive Scordite:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1228
-    Radius: 1.0
-    ReprocessingSkillType: 12193
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28428
     marketGroup: 519
-    mass: 1.0000000409184788E35
     name: Compressed Massive Scordite
+    orebasictype: 1228
     packagedVolume: 0.1899999976158142
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12193
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
   Compressed Scordite:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1228
-    Radius: 1.0
-    ReprocessingSkillType: 12193
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
     id: 28429
     marketGroup: 519
-    mass: 1.0000000409184788E35
     name: Compressed Scordite
+    orebasictype: 1228
     packagedVolume: 0.1899999976158142
     portionSize: 1
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12193
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.1899999976158142
   Condensed Scordite:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 2
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28427
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1228
-    Radius: 1.0
-    ReprocessingSkillType: 12193
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 2
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    compressionquantityneeded: 100
+    compressiontypeid: 28427
     id: 17463
     marketGroup: 519
-    mass: 1.0000000409184788E35
     name: Condensed Scordite
+    orebasictype: 1228
     packagedVolume: 0.15000000596046448
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12193
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Glossy Scordite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 4
-    AsteroidRadiusGrowthFactor: 0.02199999988079071
-    AsteroidRadiusUnitSize: 600
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 46703
-    Mass: 1.0000000409184788E35
-    OreBasicType: 46687
-    Radius: 1.0
-    ReprocessingSkillType: 12193
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 4
+    asteroidradiusgrowthfactor: 0.02199999988079071
+    asteroidradiusunitsize: 600
+    compressionquantityneeded: 100
+    compressiontypeid: 46703
     id: 46687
     marketGroup: 519
-    mass: 1.0000000409184788E35
     name: Glossy Scordite
+    orebasictype: 46687
     packagedVolume: 0.15000000596046448
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12193
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Massive Scordite:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28428
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1228
-    Radius: 1.0
-    ReprocessingSkillType: 12193
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    compressionquantityneeded: 100
+    compressiontypeid: 28428
     id: 17464
     marketGroup: 519
-    mass: 1.0000000409184788E35
     name: Massive Scordite
+    orebasictype: 1228
     packagedVolume: 0.15000000596046448
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12193
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448
   Scordite:
-    AsteroidMaxRadius: 16255
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.0
-    AsteroidRadiusUnitSize: 90
-    CompressionQuantityNeeded: 100
-    CompressionTypeID: 28429
-    Mass: 1.0000000409184788E35
-    OreBasicType: 1228
-    Radius: 1.0
-    ReprocessingSkillType: 12193
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 16255
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.0
+    asteroidradiusunitsize: 90
+    compressionquantityneeded: 100
+    compressiontypeid: 28429
     id: 1228
     marketGroup: 519
-    mass: 1.0000000409184788E35
     name: Scordite
+    orebasictype: 1228
     packagedVolume: 0.15000000596046448
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 12193
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 0.15000000596046448

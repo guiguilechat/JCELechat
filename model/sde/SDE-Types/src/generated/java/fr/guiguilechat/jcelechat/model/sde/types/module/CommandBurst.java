@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.module;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,47 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BuffDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup02;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup04;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup05;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup06;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup07;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup08;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup09;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup10;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeGroup1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowActivateInForcefield;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowDocking;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowTethering;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupOnline;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReloadTime;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff1Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff2Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff3Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareBuff4Value;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarfareLinkCPUAdd;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,154 +67,154 @@ public class CommandBurst
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BuffDuration;
+    public int buffduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup01;
+    public int canfitshipgroup01;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup02;
+    public int canfitshipgroup02;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup03;
+    public int canfitshipgroup03;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup04;
+    public int canfitshipgroup04;
     /**
      * Can be fitted to
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup05;
+    public int canfitshipgroup05;
     /**
      * Can be fitted to
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup06;
+    public int canfitshipgroup06;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup07;
+    public int canfitshipgroup07;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup08;
+    public int canfitshipgroup08;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup09;
+    public int canfitshipgroup09;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CanFitShipGroup10;
+    public int canfitshipgroup10;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double CapacitorNeed;
+    public double capacitorneed;
     /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeGroup1;
+    public int chargegroup1;
     /**
      * Number of charges consumed per activation
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int ChargeRate;
+    public int chargerate;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Cpu;
+    public double cpu;
     /**
      * If set to True on a module, the module will not be allowed to activate whilst the ship is inside a starbase forcefield
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowActivateInForcefield;
+    public int disallowactivateinforcefield;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowDocking;
+    public int disallowdocking;
     /**
      * If this ship attribute is NOT 0 then they will be prevented from activating the structure tethering.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DisallowTethering;
+    public int disallowtethering;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double Duration;
+    public double duration;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupActive;
+    public int maxgroupactive;
     /**
      * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxGroupOnline;
+    public int maxgrouponline;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double MaxRange;
+    public double maxrange;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -178,63 +222,63 @@ public class CommandBurst
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaLevel;
+    public int metalevel;
     /**
      * current power need
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Power;
+    public int power;
     /**
      * reload time (ms)
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(10000.0)
-    public double ReloadTime;
+    public double reloadtime;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1;
+    public int requiredskill1;
     /**
      * Required skill level for skill 1
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill1Level;
+    public int requiredskill1level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill3;
+    public int requiredskill3;
     /**
      * Required skill level for skill 3
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill3Level;
+    public int requiredskill3level;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -242,42 +286,43 @@ public class CommandBurst
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WarfareBuff1Value;
+    public double warfarebuff1value;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WarfareBuff2Value;
+    public double warfarebuff2value;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WarfareBuff3Value;
+    public double warfarebuff3value;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double WarfareBuff4Value;
+    public double warfarebuff4value;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarfareLinkCPUAdd;
+    public int warfarelinkcpuadd;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DisallowActivateInForcefield.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup09 .INSTANCE, CanFitShipGroup01 .INSTANCE, MaxGroupOnline.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipGroup06 .INSTANCE, RequiredSkill3Level.INSTANCE, CanFitShipGroup07 .INSTANCE, CanFitShipGroup08 .INSTANCE, WarfareLinkCPUAdd.INSTANCE, CanFitShipGroup10 .INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, Radius.INSTANCE, WarfareBuff1Value.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, BuffDuration.INSTANCE, WarfareBuff2Value.INSTANCE, WarfareBuff4Value.INSTANCE, WarfareBuff3Value.INSTANCE, DisallowDocking.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, ChargeRate.INSTANCE, RequiredSkill3 .INSTANCE, MetaLevel.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CommandBurst.MetaGroup METAGROUP = new CommandBurst.MetaGroup();
 
     @Override
@@ -285,157 +330,162 @@ public class CommandBurst
         switch (attribute.getId()) {
             case  2535 :
             {
-                return BuffDuration;
+                return buffduration;
             }
             case  1298 :
             {
-                return CanFitShipGroup01;
+                return canfitshipgroup01;
             }
             case  1299 :
             {
-                return CanFitShipGroup02;
+                return canfitshipgroup02;
             }
             case  1300 :
             {
-                return CanFitShipGroup03;
+                return canfitshipgroup03;
             }
             case  1301 :
             {
-                return CanFitShipGroup04;
+                return canfitshipgroup04;
             }
             case  1872 :
             {
-                return CanFitShipGroup05;
+                return canfitshipgroup05;
             }
             case  1879 :
             {
-                return CanFitShipGroup06;
+                return canfitshipgroup06;
             }
             case  1880 :
             {
-                return CanFitShipGroup07;
+                return canfitshipgroup07;
             }
             case  1881 :
             {
-                return CanFitShipGroup08;
+                return canfitshipgroup08;
             }
             case  2065 :
             {
-                return CanFitShipGroup09;
+                return canfitshipgroup09;
             }
             case  2396 :
             {
-                return CanFitShipGroup10;
+                return canfitshipgroup10;
             }
             case  6 :
             {
-                return CapacitorNeed;
+                return capacitorneed;
             }
             case  604 :
             {
-                return ChargeGroup1;
+                return chargegroup1;
             }
             case  56 :
             {
-                return ChargeRate;
+                return chargerate;
             }
             case  50 :
             {
-                return Cpu;
+                return cpu;
             }
             case  1920 :
             {
-                return DisallowActivateInForcefield;
+                return disallowactivateinforcefield;
             }
             case  2354 :
             {
-                return DisallowDocking;
+                return disallowdocking;
             }
             case  2343 :
             {
-                return DisallowTethering;
+                return disallowtethering;
             }
             case  73 :
             {
-                return Duration;
+                return duration;
             }
             case  763 :
             {
-                return MaxGroupActive;
+                return maxgroupactive;
             }
             case  978 :
             {
-                return MaxGroupOnline;
+                return maxgrouponline;
             }
             case  54 :
             {
-                return MaxRange;
+                return maxrange;
             }
             case  633 :
             {
-                return MetaLevel;
+                return metalevel;
             }
             case  30 :
             {
-                return Power;
+                return power;
             }
             case  1795 :
             {
-                return ReloadTime;
+                return reloadtime;
             }
             case  182 :
             {
-                return RequiredSkill1;
+                return requiredskill1;
             }
             case  277 :
             {
-                return RequiredSkill1Level;
+                return requiredskill1level;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  184 :
             {
-                return RequiredSkill3;
+                return requiredskill3;
             }
             case  279 :
             {
-                return RequiredSkill3Level;
+                return requiredskill3level;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  2469 :
             {
-                return WarfareBuff1Value;
+                return warfarebuff1value;
             }
             case  2471 :
             {
-                return WarfareBuff2Value;
+                return warfarebuff2value;
             }
             case  2473 :
             {
-                return WarfareBuff3Value;
+                return warfarebuff3value;
             }
             case  2537 :
             {
-                return WarfareBuff4Value;
+                return warfarebuff4value;
             }
             case  1882 :
             {
-                return WarfareLinkCPUAdd;
+                return warfarelinkcpuadd;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

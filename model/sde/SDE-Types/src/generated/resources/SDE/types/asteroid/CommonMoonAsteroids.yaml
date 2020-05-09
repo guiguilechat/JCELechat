@@ -1,241 +1,217 @@
 types:
   Cobaltite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45494
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45494
     marketGroup: 2397
-    mass: 4000.0
     name: Cobaltite
+    orebasictype: 45494
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Copious Cobaltite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45494
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46288
     marketGroup: 2397
-    mass: 4000.0
     name: Copious Cobaltite
+    orebasictype: 45494
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Copious Euxenite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45495
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46290
     marketGroup: 2397
-    mass: 4000.0
     name: Copious Euxenite
+    orebasictype: 45495
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Copious Scheelite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45497
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46294
     marketGroup: 2397
-    mass: 4000.0
     name: Copious Scheelite
+    orebasictype: 45497
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Copious Titanite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 3
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45496
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 3
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46292
     marketGroup: 2397
-    mass: 4000.0
     name: Copious Titanite
+    orebasictype: 45496
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Euxenite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45495
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45495
     marketGroup: 2397
-    mass: 4000.0
     name: Euxenite
+    orebasictype: 45495
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Scheelite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45497
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45497
     marketGroup: 2397
-    mass: 4000.0
     name: Scheelite
+    orebasictype: 45497
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Titanite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 1
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45496
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 45496
     marketGroup: 2397
-    mass: 4000.0
     name: Titanite
+    orebasictype: 45496
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Twinkling Cobaltite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45494
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46289
     marketGroup: 2397
-    mass: 4000.0
     name: Twinkling Cobaltite
+    orebasictype: 45494
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Twinkling Euxenite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45495
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46291
     marketGroup: 2397
-    mass: 4000.0
     name: Twinkling Euxenite
+    orebasictype: 45495
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Twinkling Scheelite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45497
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46295
     marketGroup: 2397
-    mass: 4000.0
     name: Twinkling Scheelite
+    orebasictype: 45497
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0
   Twinkling Titanite:
-    AsteroidMaxRadius: 5000
-    AsteroidMetaLevel: 5
-    AsteroidRadiusGrowthFactor: 1.5
-    AsteroidRadiusUnitSize: 600
-    Mass: 4000.0
-    OreBasicType: 45496
-    Radius: 1.0
-    ReprocessingSkillType: 46153
-    RequiredSkill1: 3386
-    RequiredSkill1Level: 1
-    StasisWebifierResistance: 1.0
+    asteroidmaxradius: 5000
+    asteroidmetalevel: 5
+    asteroidradiusgrowthfactor: 1.5
+    asteroidradiusunitsize: 600
     id: 46293
     marketGroup: 2397
-    mass: 4000.0
     name: Twinkling Titanite
+    orebasictype: 45496
     packagedVolume: 10.0
     portionSize: 100
     published: true
+    radius: 1.0
+    reprocessingskilltype: 46153
+    requiredskill1: 3386
+    requiredskill1level: 1
+    stasiswebifierresistance: 1.0
     volume: 10.0

@@ -21,8 +21,8 @@ public class ShowCyno {
 		for (CynosuralFieldGenerator cfg : CynosuralFieldGenerator.METAGROUP.load().values()) {
 			System.out.println(cfg.name);
 			List<Ship> allowed = new ArrayList<>();
-			for (int groupid : new int[] { cfg.CanFitShipGroup01, cfg.CanFitShipGroup02, cfg.CanFitShipGroup03,
-					cfg.CanFitShipGroup04, cfg.CanFitShipGroup05, cfg.CanFitShipGroup06 }) {
+			for (int groupid : new int[] { cfg.canfitshipgroup01, cfg.canfitshipgroup02, cfg.canfitshipgroup03,
+					cfg.canfitshipgroup04, cfg.canfitshipgroup05, cfg.canfitshipgroup06 }) {
 				if (groupid != 0) {
 					IMetaGroup<? extends Ship> retrieved = id2group.get(groupid);
 					if (retrieved != null) {
@@ -30,7 +30,7 @@ public class ShowCyno {
 					}
 				}
 			}
-			for (int typeId : new int[] { cfg.CanFitShipType1, cfg.CanFitShipType2, cfg.CanFitShipType3 }) {
+			for (int typeId : new int[] { cfg.canfitshiptype1, cfg.canfitshiptype2, cfg.canfitshiptype3 }) {
 				if (typeId != 0) {
 					Ship retrieved = id2ship.get(typeId);
 					if (retrieved != null) {

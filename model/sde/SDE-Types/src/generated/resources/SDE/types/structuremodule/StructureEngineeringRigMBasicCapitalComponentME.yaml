@@ -1,91 +1,85 @@
 types:
   Standup M-Set Basic Capital Component Manufacturing Material Efficiency I:
-    AttributeEngRigCostBonus: 1
-    AttributeEngRigMatBonus: -2.0
-    AttributeEngRigTimeBonus: 1
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.899999976158142
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 2.0999999046325684
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    UpgradeCost: 100
+    attributeengrigcostbonus: 1
+    attributeengrigmatbonus: -2.0
+    attributeengrigtimebonus: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 43870
+    lowsecmodifier: 1.899999976158142
     marketGroup: 2347
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       I
+    nullsecmodifier: 2.0999999046325684
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 1
+    upgradecost: 100
     volume: 10.0
   Standup M-Set Basic Capital Component Manufacturing Material Efficiency II:
-    AttributeEngRigCostBonus: 1
-    AttributeEngRigMatBonus: -2.4000000953674316
-    AttributeEngRigTimeBonus: 1
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    HiSecModifier: 1.0
-    Hp: 40.0
-    LowSecModifier: 1.899999976158142
-    Mass: 200.0
-    MaxGroupFitted: 1
-    NullSecModifier: 2.0999999046325684
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 2
-    UpgradeCost: 150
+    attributeengrigcostbonus: 1
+    attributeengrigmatbonus: -2.4000000953674316
+    attributeengrigtimebonus: 1
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 1.0
+    hp: 40.0
     id: 43871
+    lowsecmodifier: 1.899999976158142
     marketGroup: 2347
-    mass: 200.0
+    maxgroupfitted: 1
     name: Standup M-Set Basic Capital Component Manufacturing Material Efficiency
       II
+    nullsecmodifier: 2.0999999046325684
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 2
+    upgradecost: 150
     volume: 10.0
   Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency:
-    AttributeEngRigCostBonus: 1
-    AttributeEngRigTimeBonus: 1
-    AttributeThukkerEngRigMatBonus: -3.700000047683716
-    CanFitShipGroup01: 1657
-    CanFitShipGroup02: 1404
-    CanFitShipGroup03: 1406
-    HiSecModifier: 0.10000000149011612
-    Hp: 40.0
-    LowSecModifier: 1.899999976158142
-    Mass: 200.0
-    MaxGroupFitted: 1
-    MetaGroupID: 4
-    NullSecModifier: 0.10000000149011612
-    Radius: 100.0
-    RequiredSkill1: 26252
-    RequiredSkill1Level: 1
-    RigSize: 2
-    SecurityModifier: 1
-    StructureItemVisualFlag: 1
-    TechLevel: 1
-    UpgradeCost: 100
+    attributeengrigcostbonus: 1
+    attributeengrigtimebonus: 1
+    attributethukkerengrigmatbonus: -3.700000047683716
+    canfitshipgroup01: 1657
+    canfitshipgroup02: 1404
+    canfitshipgroup03: 1406
+    hisecmodifier: 0.10000000149011612
+    hp: 40.0
     id: 45544
+    lowsecmodifier: 1.899999976158142
     marketGroup: 2347
-    mass: 200.0
+    maxgroupfitted: 1
+    metagroupid: 4
     name: Standup M-Set Thukker Basic Capital Component Manufacturing Material Efficiency
+    nullsecmodifier: 0.10000000149011612
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 100.0
+    requiredskill1: 26252
+    requiredskill1level: 1
+    rigsize: 2
+    securitymodifier: 1
+    structureitemvisualflag: 1
+    techlevel: 1
+    upgradecost: 100
     volume: 10.0

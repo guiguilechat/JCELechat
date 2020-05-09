@@ -1,22 +1,22 @@
 types:
   Auto Targeting System I Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
-    TechLevel: 1
     id: 1208
+    industryblueprintrank: 9.0
     marketGroup: 1579
     name: Auto Targeting System I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 1
     volume: 0.009999999776482582
   Auto Targeting System II Blueprint:
-    IndustryBlueprintRank: 23.399999618530273
-    Radius: 1.0
-    TechLevel: 2
     id: 1437
+    industryblueprintrank: 23.399999618530273
     name: Auto Targeting System II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
+    techlevel: 2
     volume: 0.009999999776482582

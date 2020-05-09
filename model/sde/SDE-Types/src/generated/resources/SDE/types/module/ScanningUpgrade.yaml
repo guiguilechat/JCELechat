@@ -1,72 +1,72 @@
 types:
   Scan Pinpointing Array I:
-    Capacity: 1.0
-    Cpu: 30.0
-    Hp: 40.0
-    MaxScanDeviationModifierModule: -10
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 25810
-    RequiredSkill1Level: 2
-    TechLevel: 1
+    capacity: 1.0
+    cpu: 30.0
+    hp: 40.0
     id: 33178
     marketGroup: 1709
+    maxscandeviationmodifiermodule: -10
     name: Scan Pinpointing Array I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 25810
+    requiredskill1level: 2
+    techlevel: 1
     volume: 5.0
   Scan Pinpointing Array II:
-    Capacity: 1.0
-    Cpu: 30.0
-    Hp: 40.0
-    MaxScanDeviationModifierModule: -20
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 25810
-    RequiredSkill1Level: 5
-    TechLevel: 2
+    capacity: 1.0
+    cpu: 30.0
+    hp: 40.0
     id: 33199
     marketGroup: 1709
+    maxscandeviationmodifiermodule: -20
+    metalevel: 5
     name: Scan Pinpointing Array II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 25810
+    requiredskill1level: 5
+    techlevel: 2
     volume: 5.0
   Scan Rangefinding Array I:
-    Capacity: 1.0
-    Cpu: 30.0
-    Hp: 40.0
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 25739
-    RequiredSkill1Level: 2
-    ScanStrengthBonusModule: 5
-    TechLevel: 1
+    capacity: 1.0
+    cpu: 30.0
+    hp: 40.0
     id: 33180
     marketGroup: 1709
     name: Scan Rangefinding Array I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 25739
+    requiredskill1level: 2
+    scanstrengthbonusmodule: 5
+    techlevel: 1
     volume: 5.0
   Scan Rangefinding Array II:
-    Capacity: 1.0
-    Cpu: 30.0
-    Hp: 40.0
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    RequiredSkill1: 25739
-    RequiredSkill1Level: 5
-    ScanStrengthBonus: 10
-    ScanStrengthBonusModule: 10
-    TechLevel: 2
+    capacity: 1.0
+    cpu: 30.0
+    hp: 40.0
     id: 33201
     marketGroup: 1709
+    metalevel: 5
     name: Scan Rangefinding Array II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    requiredskill1: 25739
+    requiredskill1level: 5
+    scanstrengthbonus: 10
+    scanstrengthbonusmodule: 10
+    techlevel: 2
     volume: 5.0

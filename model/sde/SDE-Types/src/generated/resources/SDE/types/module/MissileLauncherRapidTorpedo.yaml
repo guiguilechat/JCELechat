@@ -1,165 +1,165 @@
 types:
   Arbalest Compact Rapid Torpedo Launcher:
-    CanFitShipGroup01: 485
-    Capacity: 1.5
-    ChargeGroup1: 89
-    ChargeRate: 1
-    Cpu: 120.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 1
-    OverloadRofBonus: -15
-    Power: 100000
-    Radius: 1.0
-    ReloadTime: 40000.0
-    RequiredSkill1: 3325
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 5
-    RequiredSkill3: 20314
-    RequiredSkill3Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 27093.0
-    TechLevel: 1
-    TypeColorScheme: 11324
+    canfitshipgroup01: 485
+    capacity: 1.5
+    chargegroup1: 89
+    chargerate: 1
+    cpu: 120.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
     id: 41223
     marketGroup: 2247
+    metalevel: 1
     name: Arbalest Compact Rapid Torpedo Launcher
+    overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
+    power: 100000
     published: true
+    radius: 1.0
+    reloadtime: 40000.0
+    requiredskill1: 3325
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 5
+    requiredskill3: 20314
+    requiredskill3level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 27093.0
+    techlevel: 1
+    typecolorscheme: 11324
     volume: 4000.0
   Dread Guristas Rapid Torpedo Launcher:
-    CanFitShipGroup01: 485
-    Capacity: 1.725000023841858
-    ChargeGroup1: 89
-    ChargeGroup2: 657
-    ChargeRate: 1
-    Cpu: 120.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaGroupID: 4
-    MetaLevel: 8
-    OverloadRofBonus: -15
-    Power: 110000
-    Radius: 1.0
-    ReloadTime: 40000.0
-    RequiredSkill1: 3325
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 5
-    RequiredSkill3: 20314
-    RequiredSkill3Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 24738.0
-    TechLevel: 1
-    TypeColorScheme: 11324
+    canfitshipgroup01: 485
+    capacity: 1.725000023841858
+    chargegroup1: 89
+    chargegroup2: 657
+    chargerate: 1
+    cpu: 120.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
     id: 37293
     marketGroup: 2247
+    metagroupid: 4
+    metalevel: 8
     name: Dread Guristas Rapid Torpedo Launcher
+    overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
+    power: 110000
     published: true
+    radius: 1.0
+    reloadtime: 40000.0
+    requiredskill1: 3325
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 5
+    requiredskill3: 20314
+    requiredskill3level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 24738.0
+    techlevel: 1
+    typecolorscheme: 11324
     volume: 4000.0
   Rapid Torpedo Launcher I:
-    CanFitShipGroup01: 485
-    Capacity: 1.5
-    ChargeGroup1: 89
-    ChargeRate: 1
-    Cpu: 135.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    OverloadRofBonus: -15
-    Power: 100000
-    Radius: 1.0
-    ReloadTime: 40000.0
-    RequiredSkill1: 3325
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 5
-    RequiredSkill3: 20314
-    RequiredSkill3Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 28450.0
-    TechLevel: 1
-    TypeColorScheme: 11324
+    canfitshipgroup01: 485
+    capacity: 1.5
+    chargegroup1: 89
+    chargerate: 1
+    cpu: 135.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
     id: 37288
     marketGroup: 2247
     name: Rapid Torpedo Launcher I
+    overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
+    power: 100000
     published: true
+    radius: 1.0
+    reloadtime: 40000.0
+    requiredskill1: 3325
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 5
+    requiredskill3: 20314
+    requiredskill3level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 28450.0
+    techlevel: 1
+    typecolorscheme: 11324
     volume: 4000.0
   Rapid Torpedo Launcher II:
-    CanFitShipGroup01: 485
-    Capacity: 1.5
-    ChargeGroup1: 89
-    ChargeGroup2: 657
-    ChargeRate: 1
-    Cpu: 150.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 5
-    OverloadRofBonus: -15
-    Power: 110000
-    Radius: 1.0
-    ReloadTime: 40000.0
-    RequiredSkill1: 20213
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3325
-    RequiredSkill2Level: 5
-    RequiredSkill3: 20314
-    RequiredSkill3Level: 1
-    RequiredSkill4: 3319
-    RequiredSkill4Level: 5
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 25861.0
-    TechLevel: 2
-    TypeColorScheme: 11324
+    canfitshipgroup01: 485
+    capacity: 1.5
+    chargegroup1: 89
+    chargegroup2: 657
+    chargerate: 1
+    cpu: 150.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
     id: 37292
     marketGroup: 2247
+    metalevel: 5
     name: Rapid Torpedo Launcher II
+    overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
+    power: 110000
     published: true
+    radius: 1.0
+    reloadtime: 40000.0
+    requiredskill1: 20213
+    requiredskill1level: 1
+    requiredskill2: 3325
+    requiredskill2level: 5
+    requiredskill3: 20314
+    requiredskill3level: 1
+    requiredskill4: 3319
+    requiredskill4level: 5
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 25861.0
+    techlevel: 2
+    typecolorscheme: 11324
     volume: 4000.0
   TE-2100 Ample Rapid Torpedo Launcher:
-    CanFitShipGroup01: 485
-    Capacity: 1.725000023841858
-    ChargeGroup1: 89
-    ChargeRate: 1
-    Cpu: 135.0
-    HeatAbsorbtionRateModifier: 0.009999999776482582
-    HeatDamage: 1.0
-    Hp: 40.0
-    MetaLevel: 1
-    OverloadRofBonus: -15
-    Power: 100000
-    Radius: 1.0
-    ReloadTime: 40000.0
-    RequiredSkill1: 3325
-    RequiredSkill1Level: 1
-    RequiredSkill2: 3319
-    RequiredSkill2Level: 5
-    RequiredSkill3: 20314
-    RequiredSkill3Level: 1
-    RequiredThermoDynamicsSkill: 1
-    Slots: 1
-    Speed: 27093.0
-    TechLevel: 1
-    TypeColorScheme: 11324
+    canfitshipgroup01: 485
+    capacity: 1.725000023841858
+    chargegroup1: 89
+    chargerate: 1
+    cpu: 135.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 1.0
+    hp: 40.0
     id: 41224
     marketGroup: 2247
+    metalevel: 1
     name: TE-2100 Ample Rapid Torpedo Launcher
+    overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
+    power: 100000
     published: true
+    radius: 1.0
+    reloadtime: 40000.0
+    requiredskill1: 3325
+    requiredskill1level: 1
+    requiredskill2: 3319
+    requiredskill2level: 5
+    requiredskill3: 20314
+    requiredskill3level: 1
+    requiredthermodynamicsskill: 1
+    slots: 1
+    speed: 27093.0
+    techlevel: 1
+    typecolorscheme: 11324
     volume: 4000.0

@@ -1,15 +1,28 @@
 package fr.guiguilechat.jcelechat.model.sde.types.implant;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StasisWebRangeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.types.Implant;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,21 +35,21 @@ public class CyberElectronicSystems
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int CapNeedBonus;
+    public int capneedbonus;
     /**
      * Whether an item is an implant or not
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int Implantness;
+    public int implantness;
     /**
      * Percent bonus for Stasis Webifiers maximum range
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int StasisWebRangeBonus;
+    public int stasiswebrangebonus;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -44,14 +57,15 @@ public class CyberElectronicSystems
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Warp Scramble Range Bonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int WarpScrambleRangeBonus;
+    public int warpscramblerangebonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, Implantness.INSTANCE, StasisWebRangeBonus.INSTANCE, CapNeedBonus.INSTANCE, WarpScrambleRangeBonus.INSTANCE })));
     public static final CyberElectronicSystems.MetaGroup METAGROUP = new CyberElectronicSystems.MetaGroup();
 
     @Override
@@ -59,29 +73,34 @@ public class CyberElectronicSystems
         switch (attribute.getId()) {
             case  317 :
             {
-                return CapNeedBonus;
+                return capneedbonus;
             }
             case  331 :
             {
-                return Implantness;
+                return implantness;
             }
             case  2747 :
             {
-                return StasisWebRangeBonus;
+                return stasiswebrangebonus;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  1327 :
             {
-                return WarpScrambleRangeBonus;
+                return warpscramblerangebonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

@@ -1,1099 +1,1019 @@
 types:
   Arkonor Mining Crystal I:
-    CapNeedBonus: 50
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12180
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 450
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 75
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18036
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Arkonor Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12180
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 450
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 75
     volume: 6.0
   Arkonor Mining Crystal II:
-    CapNeedBonus: 50
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12180
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 450
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 75
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18590
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Arkonor Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12180
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 450
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 75
     volume: 10.0
   Bistot Mining Crystal I:
-    CapNeedBonus: 45
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12181
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 451
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 70
+    capneedbonus: 45
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18038
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Bistot Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12181
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 451
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 70
     volume: 6.0
   Bistot Mining Crystal II:
-    CapNeedBonus: 45
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12181
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 451
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 70
+    capneedbonus: 45
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18592
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Bistot Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12181
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 451
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 70
     volume: 10.0
   Common Moon Ore Mining Crystal I:
-    CapNeedBonus: 35
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 46153
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1920
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 60
+    capneedbonus: 35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46365
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Common Moon Ore Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46153
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1920
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 60
     volume: 6.0
   Common Moon Ore Mining Crystal II:
-    CapNeedBonus: 35
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 46153
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1920
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 60
+    capneedbonus: 35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46366
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Common Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46153
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1920
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 60
     volume: 10.0
   Crokite Mining Crystal I:
-    CapNeedBonus: 35
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12182
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 452
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 60
+    capneedbonus: 35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18040
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Crokite Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12182
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 452
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 60
     volume: 6.0
   Crokite Mining Crystal II:
-    CapNeedBonus: 35
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12182
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 452
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 60
+    capneedbonus: 35
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18594
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Crokite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12182
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 452
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 60
     volume: 10.0
   Dark Ochre Mining Crystal I:
-    CapNeedBonus: 30
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12183
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 453
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 55
+    capneedbonus: 30
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18042
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Dark Ochre Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12183
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 453
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 55
     volume: 6.0
   Dark Ochre Mining Crystal II:
-    CapNeedBonus: 30
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12183
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 453
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 55
+    capneedbonus: 30
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18596
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Dark Ochre Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12183
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 453
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 55
     volume: 10.0
   Exceptional Moon Ore Mining Crystal I:
-    CapNeedBonus: 50
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 46156
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1923
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 75
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46371
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Exceptional Moon Ore Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46156
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1923
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 75
     volume: 6.0
   Exceptional Moon Ore Mining Crystal II:
-    CapNeedBonus: 50
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 46156
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1923
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 75
+    capneedbonus: 50
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46372
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Exceptional Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46156
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1923
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 75
     volume: 10.0
   Gneiss Mining Crystal I:
-    CapNeedBonus: 25
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12184
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 467
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 50
+    capneedbonus: 25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18044
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Gneiss Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12184
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 467
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 50
     volume: 6.0
   Gneiss Mining Crystal II:
-    CapNeedBonus: 25
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12184
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 467
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 50
+    capneedbonus: 25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18598
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Gneiss Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12184
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 467
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 50
     volume: 10.0
   Hedbergite Mining Crystal I:
-    CapNeedBonus: 20
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12185
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 454
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 45
+    capneedbonus: 20
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18046
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Hedbergite Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12185
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 454
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 45
     volume: 6.0
   Hedbergite Mining Crystal II:
-    CapNeedBonus: 20
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12185
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 454
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 45
+    capneedbonus: 20
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18600
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Hedbergite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12185
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 454
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 45
     volume: 10.0
   Hemorphite Mining Crystal I:
-    CapNeedBonus: 15
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12186
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 455
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 40
+    capneedbonus: 15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18048
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Hemorphite Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12186
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 455
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 40
     volume: 6.0
   Hemorphite Mining Crystal II:
-    CapNeedBonus: 15
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12186
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 455
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 40
+    capneedbonus: 15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18602
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Hemorphite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12186
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 455
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 40
     volume: 10.0
   Jaspet Mining Crystal I:
-    CapNeedBonus: 10
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12187
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 456
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 35
+    capneedbonus: 10
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18050
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Jaspet Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12187
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 456
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 35
     volume: 6.0
   Jaspet Mining Crystal II:
-    CapNeedBonus: 10
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12187
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 456
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 35
+    capneedbonus: 10
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18604
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Jaspet Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12187
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 456
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 35
     volume: 10.0
   Kernite Mining Crystal I:
-    CapNeedBonus: 5
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12188
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 457
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 30
+    capneedbonus: 5
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18052
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Kernite Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12188
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 457
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 30
     volume: 6.0
   Kernite Mining Crystal II:
-    CapNeedBonus: 5
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12188
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 457
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 30
+    capneedbonus: 5
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18606
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Kernite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12188
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 457
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 30
     volume: 10.0
   Omber Mining Crystal I:
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12190
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 469
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18056
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Omber Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12190
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 469
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 25
     volume: 6.0
   Omber Mining Crystal II:
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12190
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 469
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 25
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18610
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Omber Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12190
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 469
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 25
     volume: 10.0
   Plagioclase Mining Crystal I:
-    CapNeedBonus: -5
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12191
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 458
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 20
+    capneedbonus: -5
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18058
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Plagioclase Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12191
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 458
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 20
     volume: 6.0
   Plagioclase Mining Crystal II:
-    CapNeedBonus: -5
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12191
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 458
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 20
+    capneedbonus: -5
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18612
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Plagioclase Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12191
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 458
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 20
     volume: 10.0
   Pyroxeres Mining Crystal I:
-    CapNeedBonus: -10
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12192
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 459
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 15
+    capneedbonus: -10
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18060
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Pyroxeres Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12192
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 459
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 15
     volume: 6.0
   Pyroxeres Mining Crystal II:
-    CapNeedBonus: -10
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12192
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 459
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 15
+    capneedbonus: -10
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18614
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Pyroxeres Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12192
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 459
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 15
     volume: 10.0
   Rare Moon Ore Mining Crystal I:
-    CapNeedBonus: 45
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 46155
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1922
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 70
+    capneedbonus: 45
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46369
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Rare Moon Ore Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46155
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1922
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 70
     volume: 6.0
   Rare Moon Ore Mining Crystal II:
-    CapNeedBonus: 45
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 46155
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1922
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 70
+    capneedbonus: 45
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46370
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Rare Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46155
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1922
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 70
     volume: 10.0
   Scordite Mining Crystal I:
-    CapNeedBonus: -15
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12193
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 460
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 10
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18062
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Scordite Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12193
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 460
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 10
     volume: 6.0
   Scordite Mining Crystal II:
-    CapNeedBonus: -15
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12193
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 460
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 10
+    capneedbonus: -15
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18616
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Scordite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12193
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 460
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 10
     volume: 10.0
   Spodumain Mining Crystal I:
-    CapNeedBonus: 40
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12194
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 461
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 65
+    capneedbonus: 40
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18064
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Spodumain Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12194
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 461
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 65
     volume: 6.0
   Spodumain Mining Crystal II:
-    CapNeedBonus: 40
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12194
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 461
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 65
+    capneedbonus: 40
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18624
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Spodumain Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12194
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 461
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 65
     volume: 10.0
   Ubiquitous Moon Ore Mining Crystal I:
-    CapNeedBonus: 30
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 46152
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1884
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 55
+    capneedbonus: 30
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46355
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Ubiquitous Moon Ore Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46152
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1884
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 55
     volume: 6.0
   Ubiquitous Moon Ore Mining Crystal II:
-    CapNeedBonus: 30
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 46152
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1884
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 55
+    capneedbonus: 30
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46356
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Ubiquitous Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46152
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1884
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 55
     volume: 10.0
   Uncommon Moon Ore Mining Crystal I:
-    CapNeedBonus: 40
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 46154
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1921
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 65
+    capneedbonus: 40
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46367
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Uncommon Moon Ore Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46154
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1921
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 65
     volume: 6.0
   Uncommon Moon Ore Mining Crystal II:
-    CapNeedBonus: 40
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 46154
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 1921
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 65
+    capneedbonus: 40
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 46368
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Uncommon Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 46154
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 1921
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 65
     volume: 10.0
   Veldspar Mining Crystal I:
-    CapNeedBonus: -20
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.10000000149011612
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    Radius: 1.0
-    RequiredSkill1: 12195
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 462
-    SpecialisationAsteroidYieldMultiplier: 1.625
-    TechLevel: 1
-    UnfitCapCost: 5
+    capneedbonus: -20
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.10000000149011612
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18066
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
     name: Veldspar Mining Crystal I
     packagedVolume: 6.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12195
+    requiredskill1level: 3
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 462
+    specialisationasteroidyieldmultiplier: 1.625
+    techlevel: 1
+    unfitcapcost: 5
     volume: 6.0
   Veldspar Mining Crystal II:
-    CapNeedBonus: -20
-    ChargeSize: 1
-    CrystalVolatilityChance: 0.20000000298023224
-    CrystalVolatilityDamage: 0.02500000037252903
-    CrystalsGetDamaged: 1
-    Hp: 1.0
-    LauncherGroup: 483
-    MainColor: 5215864
-    Mass: 1.0
-    MetaLevel: 5
-    Radius: 1.0
-    RequiredSkill1: 12195
-    RequiredSkill1Level: 4
-    RequiredSkill2: 3386
-    RequiredSkill2Level: 1
-    SpecialisationAsteroidGroup: 462
-    SpecialisationAsteroidYieldMultiplier: 1.75
-    TechLevel: 2
-    UnfitCapCost: 5
+    capneedbonus: -20
+    chargesize: 1
+    crystalsgetdamaged: 1
+    crystalvolatilitychance: 0.20000000298023224
+    crystalvolatilitydamage: 0.02500000037252903
+    hp: 1.0
     id: 18618
+    launchergroup: 483
+    maincolor: 5215864
     marketGroup: 593
-    mass: 1.0
+    metalevel: 5
     name: Veldspar Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 12195
+    requiredskill1level: 4
+    requiredskill2: 3386
+    requiredskill2level: 1
+    specialisationasteroidgroup: 462
+    specialisationasteroidyieldmultiplier: 1.75
+    techlevel: 2
+    unfitcapcost: 5
     volume: 10.0

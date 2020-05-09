@@ -1,51 +1,51 @@
 types:
   Survey Probe Launcher I:
-    Capacity: 10.0
-    ChargeGroup2: 492
-    ChargeRate: 1
-    Cpu: 220.0
-    DisallowRepeatingActivation: 1
-    Hp: 40.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3412
-    RequiredSkill1Level: 3
-    Slots: 1
-    Speed: 2000.0
-    TechLevel: 1
+    capacity: 10.0
+    chargegroup2: 492
+    chargerate: 1
+    cpu: 220.0
+    disallowrepeatingactivation: 1
+    hp: 40.0
     id: 33270
     marketGroup: 1717
+    maxgroupactive: 1
+    maxgroupfitted: 1
     name: Survey Probe Launcher I
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3412
+    requiredskill1level: 3
+    slots: 1
+    speed: 2000.0
+    techlevel: 1
     volume: 5.0
   Survey Probe Launcher II:
-    Capacity: 10.0
-    ChargeGroup2: 492
-    ChargeRate: 1
-    Cpu: 242.0
-    DisallowRepeatingActivation: 1
-    Hp: 40.0
-    MaxGroupActive: 1
-    MaxGroupFitted: 1
-    MetaLevel: 5
-    Power: 1
-    Radius: 1.0
-    ReloadTime: 10000.0
-    RequiredSkill1: 3412
-    RequiredSkill1Level: 5
-    Slots: 1
-    Speed: 2000.0
-    SurveyProbeDurationBonus: -10
-    TechLevel: 2
+    capacity: 10.0
+    chargegroup2: 492
+    chargerate: 1
+    cpu: 242.0
+    disallowrepeatingactivation: 1
+    hp: 40.0
     id: 33272
     marketGroup: 1717
+    maxgroupactive: 1
+    maxgroupfitted: 1
+    metalevel: 5
     name: Survey Probe Launcher II
     packagedVolume: 5.0
     portionSize: 1
+    power: 1
     published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 3412
+    requiredskill1level: 5
+    slots: 1
+    speed: 2000.0
+    surveyprobedurationbonus: -10
+    techlevel: 2
     volume: 5.0

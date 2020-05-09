@@ -1,36 +1,32 @@
 types:
   Standup Layered Armor Plating I:
-    ArmorHpBonus: 10
-    Cpu: 2000.0
-    Hp: 40.0
-    Mass: 500.0
-    Power: 200000
-    Radius: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 1
+    armorhpbonus: 10
+    cpu: 2000.0
+    hp: 40.0
     id: 47360
     marketGroup: 2414
-    mass: 500.0
     name: Standup Layered Armor Plating I
     packagedVolume: 4000.0
     portionSize: 1
+    power: 200000
     published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    techlevel: 1
     volume: 4000.0
   Standup Layered Armor Plating II:
-    ArmorHpBonus: 15
-    Cpu: 2400.0
-    Hp: 40.0
-    Mass: 500.0
-    MetaLevel: 5
-    Power: 240000
-    Radius: 1.0
-    StructureItemVisualFlag: 1
-    TechLevel: 2
+    armorhpbonus: 15
+    cpu: 2400.0
+    hp: 40.0
     id: 47362
     marketGroup: 2414
-    mass: 500.0
+    metalevel: 5
     name: Standup Layered Armor Plating II
     packagedVolume: 4000.0
     portionSize: 1
+    power: 240000
     published: true
+    radius: 1.0
+    structureitemvisualflag: 1
+    techlevel: 2
     volume: 4000.0

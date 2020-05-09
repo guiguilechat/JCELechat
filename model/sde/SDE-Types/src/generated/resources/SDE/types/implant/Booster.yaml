@@ -1,2322 +1,2100 @@
 types:
   Advanced Cerebral Accelerator:
-    BoosterMaxCharAgeHours: 168
-    Boosterness: 4
-    CharismaBonus: 17
-    FollowsJumpClones: 1
-    IntelligenceBonus: 17
-    Mass: 1.0
-    MemoryBonus: 17
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 17
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 17
+    boostermaxcharagehours: 168
+    boosterness: 4
+    charismabonus: 17
+    followsjumpclones: 1
     id: 33087
-    mass: 1.0
+    intelligencebonus: 17
+    memorybonus: 17
     name: Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 17
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 17
   Advanced Serenity Cerebral Accelerator:
-    BoosterDuration: 172800000
-    BoosterLastInjectionDatetime: 18387.791015625
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    Mass: 1.0
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 172800000
+    boosterlastinjectiondatetime: 18387.791015625
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 54657
+    intelligencebonus: 10
     marketGroup: 2487
-    mass: 1.0
+    memorybonus: 10
     name: Advanced Serenity Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Agency 'Hardshell' TB3 Dose I:
-    ArmorDamageAmountBonus: 3
-    BoosterDuration: 1800000
-    Boosterness: 11
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    ShieldBoostMultiplier: 3.0
-    SocialBonus: 100
+    armordamageamountbonus: 3
+    boosterduration: 1800000
+    boosterness: 11
     id: 46001
     marketGroup: 2503
-    mass: 1.0
     name: Agency 'Hardshell' TB3 Dose I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    shieldboostmultiplier: 3.0
+    socialbonus: 100
     volume: 1.0
   Agency 'Hardshell' TB5 Dose II:
-    ArmorDamageAmountBonus: 5
-    BoosterDuration: 1800000
-    Boosterness: 11
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    ShieldBoostMultiplier: 5.0
-    SocialBonus: 100
+    armordamageamountbonus: 5
+    boosterduration: 1800000
+    boosterness: 11
     id: 46002
     marketGroup: 2503
-    mass: 1.0
     name: Agency 'Hardshell' TB5 Dose II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    shieldboostmultiplier: 5.0
+    socialbonus: 100
     volume: 1.0
   Agency 'Hardshell' TB7 Dose III:
-    ArmorDamageAmountBonus: 7
-    BoosterDuration: 1800000
-    Boosterness: 11
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    ShieldBoostMultiplier: 7.0
-    SocialBonus: 100
+    armordamageamountbonus: 7
+    boosterduration: 1800000
+    boosterness: 11
     id: 46003
     marketGroup: 2503
-    mass: 1.0
     name: Agency 'Hardshell' TB7 Dose III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    shieldboostmultiplier: 7.0
+    socialbonus: 100
     volume: 1.0
   Agency 'Hardshell' TB9 Dose IV:
-    ArmorDamageAmountBonus: 9
-    BoosterDuration: 1800000
-    Boosterness: 11
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    ShieldBoostMultiplier: 9.0
-    SocialBonus: 100
+    armordamageamountbonus: 9
+    boosterduration: 1800000
+    boosterness: 11
     id: 48113
     marketGroup: 2503
-    mass: 1.0
     name: Agency 'Hardshell' TB9 Dose IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    shieldboostmultiplier: 9.0
+    socialbonus: 100
     volume: 1.0
   Agency 'Overclocker' SB3 Dose I:
-    BoosterDuration: 1800000
-    Boosterness: 11
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    SocialBonus: 100
-    VelocityBonus: 3.0
+    boosterduration: 1800000
+    boosterness: 11
     id: 46004
     marketGroup: 2504
-    mass: 1.0
     name: Agency 'Overclocker' SB3 Dose I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    socialbonus: 100
+    velocitybonus: 3.0
     volume: 1.0
   Agency 'Overclocker' SB5 Dose II:
-    BoosterDuration: 1800000
-    Boosterness: 11
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    SocialBonus: 100
-    VelocityBonus: 5.0
+    boosterduration: 1800000
+    boosterness: 11
     id: 46005
     marketGroup: 2504
-    mass: 1.0
     name: Agency 'Overclocker' SB5 Dose II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    socialbonus: 100
+    velocitybonus: 5.0
     volume: 1.0
   Agency 'Overclocker' SB7 Dose III:
-    BoosterDuration: 1800000
-    Boosterness: 11
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    SocialBonus: 100
-    VelocityBonus: 7.0
+    boosterduration: 1800000
+    boosterness: 11
     id: 46006
     marketGroup: 2504
-    mass: 1.0
     name: Agency 'Overclocker' SB7 Dose III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    socialbonus: 100
+    velocitybonus: 7.0
     volume: 1.0
   Agency 'Overclocker' SB9 Dose IV:
-    BoosterDuration: 1800000
-    Boosterness: 11
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    SocialBonus: 100
-    VelocityBonus: 9.0
+    boosterduration: 1800000
+    boosterness: 11
     id: 48114
     marketGroup: 2504
-    mass: 1.0
     name: Agency 'Overclocker' SB9 Dose IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    socialbonus: 100
+    velocitybonus: 9.0
     volume: 1.0
   Agency 'Pyrolancea' DB3 Dose I:
-    BoosterDuration: 1800000
-    Boosterness: 11
-    DamageMultiplierBonus: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 11
+    damagemultiplierbonus: 3
     id: 45998
     marketGroup: 2505
-    mass: 1.0
     name: Agency 'Pyrolancea' DB3 Dose I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    socialbonus: 100
     volume: 1.0
   Agency 'Pyrolancea' DB5 Dose II:
-    BoosterDuration: 1800000
-    Boosterness: 11
-    DamageMultiplierBonus: 5
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 11
+    damagemultiplierbonus: 5
     id: 45999
     marketGroup: 2505
-    mass: 1.0
     name: Agency 'Pyrolancea' DB5 Dose II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    socialbonus: 100
     volume: 1.0
   Agency 'Pyrolancea' DB7 Dose III:
-    BoosterDuration: 1800000
-    Boosterness: 11
-    DamageMultiplierBonus: 7
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 11
+    damagemultiplierbonus: 7
     id: 46000
     marketGroup: 2505
-    mass: 1.0
     name: Agency 'Pyrolancea' DB7 Dose III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    socialbonus: 100
     volume: 1.0
   Agency 'Pyrolancea' DB9 Dose IV:
-    BoosterDuration: 1800000
-    Boosterness: 11
-    DamageMultiplierBonus: 9
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 11
+    damagemultiplierbonus: 9
     id: 48115
     marketGroup: 2505
-    mass: 1.0
     name: Agency 'Pyrolancea' DB9 Dose IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    socialbonus: 100
     volume: 1.0
   Antipharmakon Aeolis:
-    BoosterDuration: 1800000
-    Boosterness: 1
-    CapacitorCapacityBonus: 8.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 1
+    capacitorcapacitybonus: 8.0
     id: 36912
     marketGroup: 2495
-    mass: 1.0
     name: Antipharmakon Aeolis
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Antipharmakon Iokira:
-    BoosterDuration: 1800000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    TrackingSpeedBonus: 8.0
+    boosterduration: 1800000
+    boosterness: 2
     id: 36910
     marketGroup: 2499
-    mass: 1.0
     name: Antipharmakon Iokira
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    trackingspeedbonus: 8.0
     volume: 1.0
   Antipharmakon Kosybo:
-    ArmorDamageAmountBonus: 8
-    BoosterDuration: 1800000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    armordamageamountbonus: 8
+    boosterduration: 1800000
+    boosterness: 1
     id: 36909
     marketGroup: 2495
-    mass: 1.0
     name: Antipharmakon Kosybo
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Antipharmakon Thureo:
-    BoosterDuration: 1800000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: 8.0
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 1
     id: 36908
     marketGroup: 2495
-    mass: 1.0
     name: Antipharmakon Thureo
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 8.0
+    socialbonus: 100
     volume: 1.0
   Antipharmakon Toxot:
-    BoosterDuration: 1800000
-    Boosterness: 3
-    Mass: 1.0
-    MaxFlightTimeBonus: 8
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 3
     id: 36911
     marketGroup: 2501
-    mass: 1.0
+    maxflighttimebonus: 8
     name: Antipharmakon Toxot
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Basic Capsuleer Day Glamourex Booster:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 18428.458984375
-    Boosterness: 12
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 1
-    SocialBonus: 20
-    SocialMutator: 20
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 18428.458984375
+    boosterness: 12
     id: 54815
     marketGroup: 2530
-    mass: 1.0
     name: Basic Capsuleer Day Glamourex Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 20
+    socialmutator: 20
     volume: 1.0
   Basic Serenity Cerebral Accelerator:
-    BoosterDuration: 43200000
-    BoosterLastInjectionDatetime: 18387.791015625
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    Mass: 1.0
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 43200000
+    boosterlastinjectiondatetime: 18387.791015625
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 54655
+    intelligencebonus: 10
     marketGroup: 2487
-    mass: 1.0
+    memorybonus: 10
     name: Basic Serenity Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Cerebral Accelerator:
-    NonDiminishingSkillInjectorUses: 1
-    SocialBonus: 100
     id: 50091
     marketGroup: 2487
     name: Cerebral Accelerator
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    socialbonus: 100
     volume: 1.0
   Expired 'Absolute' Injection Augmentor:
-    BoosterDuration: 57600000
-    BoosterLastInjectionDatetime: 17903.458984375
-    Boosterness: 14
-    FollowsJumpClones: 1
-    NonDiminishingSkillInjectorUses: 3
-    Nondestructible: 1
-    Radius: 1.0
-    SocialBonus: 100
+    boosterduration: 57600000
+    boosterlastinjectiondatetime: 17903.458984375
+    boosterness: 14
+    followsjumpclones: 1
     id: 49979
     name: Expired 'Absolute' Injection Augmentor
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 3
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    socialbonus: 100
     volume: 1.0
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17645.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    Mass: 1.0
-    MemoryBonus: 12
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 12
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 12
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 17645.458984375
+    boosterness: 10
+    charismabonus: 12
+    followsjumpclones: 1
     id: 47396
-    mass: 1.0
+    intelligencebonus: 12
+    memorybonus: 12
     name: Expired Advanced 'Guri Hivaa' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 12
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 12
   Expired CDIA SPACE Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17652.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    Mass: 1.0
-    MemoryBonus: 12
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 12
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 12
+    boosterduration: 259200000
+    boosterlastinjectiondatetime: 17652.458984375
+    boosterness: 10
+    charismabonus: 12
+    followsjumpclones: 1
     id: 47481
-    mass: 1.0
+    intelligencebonus: 12
+    memorybonus: 12
     name: Expired CDIA SPACE Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 12
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 12
   Expired Extended 'Guri Hivaa' Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17645.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    Mass: 1.0
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 259200000
+    boosterlastinjectiondatetime: 17645.458984375
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 47397
-    mass: 1.0
+    intelligencebonus: 10
+    memorybonus: 10
     name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Expired Guardian Angels 'Advanced' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17610.458984375
-    Boosterness: 10
-    CharismaBonus: 12
-    FollowsJumpClones: 1
-    IntelligenceBonus: 12
-    Mass: 1.0
-    MemoryBonus: 12
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 12
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 12
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 17610.458984375
+    boosterness: 10
+    charismabonus: 12
+    followsjumpclones: 1
     id: 47266
-    mass: 1.0
+    intelligencebonus: 12
+    memorybonus: 12
     name: Expired Guardian Angels 'Advanced' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 12
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 12
   Expired Guardian Angels 'Standard' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17610.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    Mass: 1.0
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 17610.458984375
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 47265
-    mass: 1.0
+    intelligencebonus: 10
+    memorybonus: 10
     name: Expired Guardian Angels 'Standard' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17610.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    Mass: 1.0
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 259200000
+    boosterlastinjectiondatetime: 17610.458984375
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 47267
-    mass: 1.0
+    intelligencebonus: 10
+    memorybonus: 10
     name: Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Expired Standard 'Guri Hivaa' Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 17645.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    Mass: 1.0
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 17645.458984375
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 47395
-    mass: 1.0
+    intelligencebonus: 10
+    memorybonus: 10
     name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Extended Capsuleer Day Glamourex Booster:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 18428.458984375
-    Boosterness: 12
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 1
-    SocialBonus: 25
-    SocialMutator: 25
+    boosterduration: 259200000
+    boosterlastinjectiondatetime: 18428.458984375
+    boosterness: 12
     id: 54816
     marketGroup: 2530
-    mass: 1.0
     name: Extended Capsuleer Day Glamourex Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 25
+    socialmutator: 25
     volume: 1.0
   Extended Serenity Cerebral Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 18387.791015625
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    Mass: 1.0
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 259200000
+    boosterlastinjectiondatetime: 18387.791015625
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 54651
+    intelligencebonus: 10
     marketGroup: 2487
-    mass: 1.0
+    memorybonus: 10
     name: Extended Serenity Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Impetus Potency-50 Glamourex Booster:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 18175.458984375
-    Boosterness: 13
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 1
-    SocialBonus: 50
-    SocialMutator: 50
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 18175.458984375
+    boosterness: 13
     id: 49749
     marketGroup: 2530
-    mass: 1.0
     name: Impetus Potency-50 Glamourex Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 50
+    socialmutator: 50
     volume: 1.0
   Impetus Potency-75 Glamourex Booster:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 18175.458984375
-    Boosterness: 12
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 1
-    SocialBonus: 75
-    SocialMutator: 75
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 18175.458984375
+    boosterness: 12
     id: 49701
     marketGroup: 2530
-    mass: 1.0
     name: Impetus Potency-75 Glamourex Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 75
+    socialmutator: 75
     volume: 1.0
   Improved Blue Pill Booster:
-    BoosterAOEVelocityPenalty: -25
-    BoosterCapacitorCapacityPenalty: -25
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.30000001192092896
-    BoosterEffectChance2: 0.30000001192092896
-    BoosterEffectChance3: 0.30000001192092896
-    BoosterEffectChance4: 0.30000001192092896
-    BoosterEffectChance5: 0.30000001192092896
-    BoosterShieldCapacityPenalty: -25
-    BoosterTurretOptimalRangePenalty: -25
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 2
-    ShieldBoostMultiplier: 25.0
-    SocialBonus: 100
+    boosteraoevelocitypenalty: -25
+    boostercapacitorcapacitypenalty: -25
+    boosterduration: 1800000
+    boostereffectchance1: 0.30000001192092896
+    boostereffectchance2: 0.30000001192092896
+    boostereffectchance3: 0.30000001192092896
+    boostereffectchance4: 0.30000001192092896
+    boostereffectchance5: 0.30000001192092896
+    boosterness: 1
+    boostershieldcapacitypenalty: -25
+    boosterturretoptimalrangepenalty: -25
     id: 10155
     marketGroup: 2491
-    mass: 1.0
     name: Improved Blue Pill Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 2
+    shieldboostmultiplier: 25.0
+    socialbonus: 100
     volume: 1.0
   Improved Crash Booster:
-    AoeCloudSizeBonus: -25.0
-    BoosterArmorHPPenalty: -25
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.30000001192092896
-    BoosterEffectChance2: 0.30000001192092896
-    BoosterEffectChance3: 0.30000001192092896
-    BoosterEffectChance4: 0.30000001192092896
-    BoosterEffectChance5: 0.30000001192092896
-    BoosterMaxVelocityPenalty: -25
-    BoosterMissileVelocityPenalty: -25
-    BoosterShieldBoostAmountPenalty: -25
-    Boosterness: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 2
-    SocialBonus: 100
+    aoecloudsizebonus: -25.0
+    boosterarmorhppenalty: -25
+    boosterduration: 1800000
+    boostereffectchance1: 0.30000001192092896
+    boostereffectchance2: 0.30000001192092896
+    boostereffectchance3: 0.30000001192092896
+    boostereffectchance4: 0.30000001192092896
+    boostereffectchance5: 0.30000001192092896
+    boostermaxvelocitypenalty: -25
+    boostermissilevelocitypenalty: -25
+    boosterness: 3
+    boostershieldboostamountpenalty: -25
     id: 10151
     marketGroup: 2500
-    mass: 1.0
     name: Improved Crash Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 2
+    socialbonus: 100
     volume: 1.0
   Improved Drop Booster:
-    BoosterArmorRepairAmountPenalty: -25
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.30000001192092896
-    BoosterEffectChance2: 0.30000001192092896
-    BoosterEffectChance3: 0.30000001192092896
-    BoosterEffectChance4: 0.30000001192092896
-    BoosterEffectChance5: 0.30000001192092896
-    BoosterMaxVelocityPenalty: -25
-    BoosterShieldCapacityPenalty: -25
-    BoosterTurretFalloffPenalty: -25
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 2
-    SocialBonus: 100
-    TrackingSpeedBonus: 31.25
+    boosterarmorrepairamountpenalty: -25
+    boosterduration: 1800000
+    boostereffectchance1: 0.30000001192092896
+    boostereffectchance2: 0.30000001192092896
+    boostereffectchance3: 0.30000001192092896
+    boostereffectchance4: 0.30000001192092896
+    boostereffectchance5: 0.30000001192092896
+    boostermaxvelocitypenalty: -25
+    boosterness: 2
+    boostershieldcapacitypenalty: -25
+    boosterturretfalloffpenalty: -25
     id: 15477
     marketGroup: 2496
-    mass: 1.0
     name: Improved Drop Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 2
+    socialbonus: 100
+    trackingspeedbonus: 31.25
     volume: 1.0
   Improved Exile Booster:
-    ArmorDamageAmountBonus: 25
-    BoosterArmorHPPenalty: -25
-    BoosterCapacitorCapacityPenalty: -25
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.30000001192092896
-    BoosterEffectChance2: 0.30000001192092896
-    BoosterEffectChance3: 0.30000001192092896
-    BoosterEffectChance4: 0.30000001192092896
-    BoosterEffectChance5: 0.30000001192092896
-    BoosterMissileAOECloudPenalty: 25
-    BoosterTurretTrackingPenalty: -25
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 2
-    SocialBonus: 100
+    armordamageamountbonus: 25
+    boosterarmorhppenalty: -25
+    boostercapacitorcapacitypenalty: -25
+    boosterduration: 1800000
+    boostereffectchance1: 0.30000001192092896
+    boostereffectchance2: 0.30000001192092896
+    boostereffectchance3: 0.30000001192092896
+    boostereffectchance4: 0.30000001192092896
+    boostereffectchance5: 0.30000001192092896
+    boostermissileaoecloudpenalty: 25
+    boosterness: 1
+    boosterturrettrackingpenalty: -25
     id: 15480
     marketGroup: 2492
-    mass: 1.0
     name: Improved Exile Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 2
+    socialbonus: 100
     volume: 1.0
   Improved Frentix Booster:
-    BoosterArmorHPPenalty: -25
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.30000001192092896
-    BoosterEffectChance2: 0.30000001192092896
-    BoosterEffectChance3: 0.30000001192092896
-    BoosterEffectChance4: 0.30000001192092896
-    BoosterEffectChance5: 0.30000001192092896
-    BoosterMaxVelocityPenalty: -25
-    BoosterShieldBoostAmountPenalty: -25
-    BoosterTurretTrackingPenalty: -25
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RangeSkillBonus: 15
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 2
-    SocialBonus: 100
+    boosterarmorhppenalty: -25
+    boosterduration: 1800000
+    boostereffectchance1: 0.30000001192092896
+    boostereffectchance2: 0.30000001192092896
+    boostereffectchance3: 0.30000001192092896
+    boostereffectchance4: 0.30000001192092896
+    boostereffectchance5: 0.30000001192092896
+    boostermaxvelocitypenalty: -25
+    boosterness: 2
+    boostershieldboostamountpenalty: -25
+    boosterturrettrackingpenalty: -25
     id: 15461
     marketGroup: 2497
-    mass: 1.0
     name: Improved Frentix Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    rangeskillbonus: 15
+    requiredskill1: 3405
+    requiredskill1level: 2
+    socialbonus: 100
     volume: 1.0
   Improved Mindflood Booster:
-    BoosterArmorRepairAmountPenalty: -25
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.30000001192092896
-    BoosterEffectChance2: 0.30000001192092896
-    BoosterEffectChance3: 0.30000001192092896
-    BoosterEffectChance4: 0.30000001192092896
-    BoosterEffectChance5: 0.30000001192092896
-    BoosterMissileAOECloudPenalty: 25
-    BoosterShieldBoostAmountPenalty: -25
-    BoosterTurretOptimalRangePenalty: -25
-    Boosterness: 1
-    CapacitorCapacityBonus: 15.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 2
-    SocialBonus: 100
+    boosterarmorrepairamountpenalty: -25
+    boosterduration: 1800000
+    boostereffectchance1: 0.30000001192092896
+    boostereffectchance2: 0.30000001192092896
+    boostereffectchance3: 0.30000001192092896
+    boostereffectchance4: 0.30000001192092896
+    boostereffectchance5: 0.30000001192092896
+    boostermissileaoecloudpenalty: 25
+    boosterness: 1
+    boostershieldboostamountpenalty: -25
+    boosterturretoptimalrangepenalty: -25
+    capacitorcapacitybonus: 15.0
     id: 15464
     marketGroup: 2493
-    mass: 1.0
     name: Improved Mindflood Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 2
+    socialbonus: 100
     volume: 1.0
   Improved Sooth Sayer Booster:
-    BoosterArmorRepairAmountPenalty: -25
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.30000001192092896
-    BoosterEffectChance2: 0.30000001192092896
-    BoosterEffectChance3: 0.30000001192092896
-    BoosterEffectChance4: 0.30000001192092896
-    BoosterEffectChance5: 0.30000001192092896
-    BoosterMaxVelocityPenalty: -25
-    BoosterShieldCapacityPenalty: -25
-    BoosterTurretOptimalRangePenalty: -25
-    Boosterness: 2
-    FalloffBonus: 15.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 2
-    SocialBonus: 100
+    boosterarmorrepairamountpenalty: -25
+    boosterduration: 1800000
+    boostereffectchance1: 0.30000001192092896
+    boostereffectchance2: 0.30000001192092896
+    boostereffectchance3: 0.30000001192092896
+    boostereffectchance4: 0.30000001192092896
+    boostereffectchance5: 0.30000001192092896
+    boostermaxvelocitypenalty: -25
+    boosterness: 2
+    boostershieldcapacitypenalty: -25
+    boosterturretoptimalrangepenalty: -25
+    falloffbonus: 15.0
     id: 10165
     marketGroup: 2498
-    mass: 1.0
     name: Improved Sooth Sayer Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 2
+    socialbonus: 100
     volume: 1.0
   Improved X-Instinct Booster:
-    BoosterArmorHPPenalty: -25
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.30000001192092896
-    BoosterEffectChance2: 0.30000001192092896
-    BoosterEffectChance3: 0.30000001192092896
-    BoosterEffectChance4: 0.30000001192092896
-    BoosterEffectChance5: 0.30000001192092896
-    BoosterMissileVelocityPenalty: -25
-    BoosterShieldCapacityPenalty: -25
-    BoosterTurretFalloffPenalty: -25
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 2
-    SignatureRadiusBonus: -11.25
-    SocialBonus: 100
+    boosterarmorhppenalty: -25
+    boosterduration: 1800000
+    boostereffectchance1: 0.30000001192092896
+    boostereffectchance2: 0.30000001192092896
+    boostereffectchance3: 0.30000001192092896
+    boostereffectchance4: 0.30000001192092896
+    boostereffectchance5: 0.30000001192092896
+    boostermissilevelocitypenalty: -25
+    boosterness: 1
+    boostershieldcapacitypenalty: -25
+    boosterturretfalloffpenalty: -25
     id: 15458
     marketGroup: 2494
-    mass: 1.0
     name: Improved X-Instinct Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 2
+    signatureradiusbonus: -11.25
+    socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk I:
-    BoosterDuration: 600000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: 2.0
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 1
     id: 54587
-    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 2.0
+    socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk II:
-    BoosterDuration: 1200000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: 2.0
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 1
     id: 54588
-    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 2.0
+    socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk III:
-    BoosterDuration: 1800000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: 2.0
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 1
     id: 54589
-    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 2.0
+    socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk IV:
-    BoosterDuration: 600000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: 3.0
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 1
     id: 54590
-    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 3.0
+    socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk V:
-    BoosterDuration: 1200000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: 3.0
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 1
     id: 54591
-    mass: 1.0
     name: Limited Synth Blue Pill Booster Mk V
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 3.0
+    socialbonus: 100
     volume: 1.0
   Limited Synth Crash Booster Mk I:
-    AoeCloudSizeBonus: -2.0
-    BoosterDuration: 600000
-    Boosterness: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    aoecloudsizebonus: -2.0
+    boosterduration: 600000
+    boosterness: 3
     id: 54624
-    mass: 1.0
     name: Limited Synth Crash Booster Mk I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Crash Booster Mk II:
-    AoeCloudSizeBonus: -2.0
-    BoosterDuration: 1200000
-    Boosterness: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    aoecloudsizebonus: -2.0
+    boosterduration: 1200000
+    boosterness: 3
     id: 54625
-    mass: 1.0
     name: Limited Synth Crash Booster Mk II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Crash Booster Mk III:
-    AoeCloudSizeBonus: -2.0
-    BoosterDuration: 1800000
-    Boosterness: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    aoecloudsizebonus: -2.0
+    boosterduration: 1800000
+    boosterness: 3
     id: 54626
-    mass: 1.0
     name: Limited Synth Crash Booster Mk III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Crash Booster Mk IV:
-    AoeCloudSizeBonus: -3.0
-    BoosterDuration: 600000
-    Boosterness: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    aoecloudsizebonus: -3.0
+    boosterduration: 600000
+    boosterness: 3
     id: 54627
-    mass: 1.0
     name: Limited Synth Crash Booster Mk IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Crash Booster Mk V:
-    AoeCloudSizeBonus: -3.0
-    BoosterDuration: 1200000
-    Boosterness: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    aoecloudsizebonus: -3.0
+    boosterduration: 1200000
+    boosterness: 3
     id: 54628
-    mass: 1.0
     name: Limited Synth Crash Booster Mk V
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Drop Booster Mk I:
-    BoosterDuration: 600000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    TrackingSpeedBonus: 2.0
+    boosterduration: 600000
+    boosterness: 2
     id: 54607
-    mass: 1.0
     name: Limited Synth Drop Booster Mk I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    trackingspeedbonus: 2.0
     volume: 1.0
   Limited Synth Drop Booster Mk II:
-    BoosterDuration: 1200000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    TrackingSpeedBonus: 2.0
+    boosterduration: 1200000
+    boosterness: 2
     id: 54610
-    mass: 1.0
     name: Limited Synth Drop Booster Mk II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    trackingspeedbonus: 2.0
     volume: 1.0
   Limited Synth Drop Booster Mk III:
-    BoosterDuration: 1800000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    TrackingSpeedBonus: 2.0
+    boosterduration: 1800000
+    boosterness: 2
     id: 54611
-    mass: 1.0
     name: Limited Synth Drop Booster Mk III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    trackingspeedbonus: 2.0
     volume: 1.0
   Limited Synth Drop Booster Mk IV:
-    BoosterDuration: 600000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    TrackingSpeedBonus: 3.0
+    boosterduration: 600000
+    boosterness: 2
     id: 54612
-    mass: 1.0
     name: Limited Synth Drop Booster Mk IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    trackingspeedbonus: 3.0
     volume: 1.0
   Limited Synth Drop Booster Mk V:
-    BoosterDuration: 1200000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    TrackingSpeedBonus: 3.0
+    boosterduration: 1200000
+    boosterness: 2
     id: 54613
-    mass: 1.0
     name: Limited Synth Drop Booster Mk V
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    trackingspeedbonus: 3.0
     volume: 1.0
   Limited Synth Exile Booster Mk I:
-    ArmorDamageAmountBonus: 2
-    BoosterDuration: 600000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    armordamageamountbonus: 2
+    boosterduration: 600000
+    boosterness: 1
     id: 54592
-    mass: 1.0
     name: Limited Synth Exile Booster Mk I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Exile Booster Mk II:
-    ArmorDamageAmountBonus: 2
-    BoosterDuration: 1200000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    armordamageamountbonus: 2
+    boosterduration: 1200000
+    boosterness: 1
     id: 54593
-    mass: 1.0
     name: Limited Synth Exile Booster Mk II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Exile Booster Mk III:
-    ArmorDamageAmountBonus: 2
-    BoosterDuration: 1800000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    armordamageamountbonus: 2
+    boosterduration: 1800000
+    boosterness: 1
     id: 54594
-    mass: 1.0
     name: Limited Synth Exile Booster Mk III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Exile Booster Mk IV:
-    ArmorDamageAmountBonus: 3
-    BoosterDuration: 600000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    armordamageamountbonus: 3
+    boosterduration: 600000
+    boosterness: 1
     id: 54595
-    mass: 1.0
     name: Limited Synth Exile Booster Mk IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Exile Booster Mk V:
-    ArmorDamageAmountBonus: 3
-    BoosterDuration: 1200000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    armordamageamountbonus: 3
+    boosterduration: 1200000
+    boosterness: 1
     id: 54596
-    mass: 1.0
     name: Limited Synth Exile Booster Mk V
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk I:
-    BoosterDuration: 600000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RangeSkillBonus: 2
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 2
     id: 54614
-    mass: 1.0
     name: Limited Synth Frentix Booster Mk I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    rangeskillbonus: 2
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk II:
-    BoosterDuration: 1200000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RangeSkillBonus: 2
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 2
     id: 54615
-    mass: 1.0
     name: Limited Synth Frentix Booster Mk II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    rangeskillbonus: 2
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk III:
-    BoosterDuration: 1800000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RangeSkillBonus: 2
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 2
     id: 54616
-    mass: 1.0
     name: Limited Synth Frentix Booster Mk III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    rangeskillbonus: 2
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk IV:
-    BoosterDuration: 600000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RangeSkillBonus: 3
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 2
     id: 54617
-    mass: 1.0
     name: Limited Synth Frentix Booster Mk IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    rangeskillbonus: 3
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk V:
-    BoosterDuration: 1200000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RangeSkillBonus: 3
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 2
     id: 54618
-    mass: 1.0
     name: Limited Synth Frentix Booster Mk V
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    rangeskillbonus: 3
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk I:
-    BoosterDuration: 600000
-    Boosterness: 1
-    CapacitorCapacityBonus: 2.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 1
+    capacitorcapacitybonus: 2.0
     id: 54597
-    mass: 1.0
     name: Limited Synth Mindflood Booster Mk I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk II:
-    BoosterDuration: 1200000
-    Boosterness: 1
-    CapacitorCapacityBonus: 2.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 1
+    capacitorcapacitybonus: 2.0
     id: 54598
-    mass: 1.0
     name: Limited Synth Mindflood Booster Mk II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk III:
-    BoosterDuration: 1800000
-    Boosterness: 1
-    CapacitorCapacityBonus: 2.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 1
+    capacitorcapacitybonus: 2.0
     id: 54599
-    mass: 1.0
     name: Limited Synth Mindflood Booster Mk III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk IV:
-    BoosterDuration: 600000
-    Boosterness: 1
-    CapacitorCapacityBonus: 3.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 1
+    capacitorcapacitybonus: 3.0
     id: 54600
-    mass: 1.0
     name: Limited Synth Mindflood Booster Mk IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk V:
-    BoosterDuration: 1200000
-    Boosterness: 1
-    CapacitorCapacityBonus: 3.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 1
+    capacitorcapacitybonus: 3.0
     id: 54601
-    mass: 1.0
     name: Limited Synth Mindflood Booster Mk V
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk I:
-    BoosterDuration: 600000
-    Boosterness: 2
-    FalloffBonus: 2.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 2
+    falloffbonus: 2.0
     id: 54619
-    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk II:
-    BoosterDuration: 1200000
-    Boosterness: 2
-    FalloffBonus: 2.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 2
+    falloffbonus: 2.0
     id: 54620
-    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk III:
-    BoosterDuration: 1800000
-    Boosterness: 2
-    FalloffBonus: 2.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 2
+    falloffbonus: 2.0
     id: 54621
-    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk IV:
-    BoosterDuration: 600000
-    Boosterness: 2
-    FalloffBonus: 3.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 2
+    falloffbonus: 3.0
     id: 54622
-    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk V:
-    BoosterDuration: 1200000
-    Boosterness: 2
-    FalloffBonus: 3.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 2
+    falloffbonus: 3.0
     id: 54623
-    mass: 1.0
     name: Limited Synth Sooth Sayer Booster Mk V
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk I:
-    BoosterDuration: 600000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: -1.5
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 1
     id: 54602
-    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk I
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    signatureradiusbonus: -1.5
+    socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk II:
-    BoosterDuration: 1200000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: -1.5
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 1
     id: 54603
-    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk II
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    signatureradiusbonus: -1.5
+    socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk III:
-    BoosterDuration: 1800000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: -1.5
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 1
     id: 54604
-    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk III
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    signatureradiusbonus: -1.5
+    socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk IV:
-    BoosterDuration: 600000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: -2.25
-    SocialBonus: 100
+    boosterduration: 600000
+    boosterness: 1
     id: 54605
-    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk IV
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    signatureradiusbonus: -2.25
+    socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk V:
-    BoosterDuration: 1200000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: -2.25
-    SocialBonus: 100
+    boosterduration: 1200000
+    boosterness: 1
     id: 54606
-    mass: 1.0
     name: Limited Synth X-Instinct Booster Mk V
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    signatureradiusbonus: -2.25
+    socialbonus: 100
     volume: 1.0
   Master-at-Arms Cerebral Accelerator:
-    BoosterDuration: 86400000
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 86400000
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 48582
+    intelligencebonus: 10
     marketGroup: 2487
+    memorybonus: 10
     name: Master-at-Arms Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Nugoehuvi Synth Blue Pill Booster:
-    BoosterDuration: 1980000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 2
-    ShieldBoostMultiplier: 5.0
-    SocialBonus: 100
+    boosterduration: 1980000
+    boosterness: 1
     id: 32248
     marketGroup: 2491
-    mass: 1.0
     name: Nugoehuvi Synth Blue Pill Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 2
+    shieldboostmultiplier: 5.0
+    socialbonus: 100
     volume: 1.0
   Onslaught Accelerator:
-    BoosterDuration: 259200000
-    BoosterLastInjectionDatetime: 17862.458984375
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 259200000
+    boosterlastinjectiondatetime: 17862.458984375
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 49753
+    intelligencebonus: 10
+    memorybonus: 10
     name: Onslaught Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Potent Capsuleer Day Glamourex Booster:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 18428.458984375
-    Boosterness: 12
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 1
-    SocialBonus: 50
-    SocialMutator: 50
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 18428.458984375
+    boosterness: 12
     id: 54817
     marketGroup: 2530
-    mass: 1.0
     name: Potent Capsuleer Day Glamourex Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    socialbonus: 50
+    socialmutator: 50
     volume: 1.0
   Prototype Cerebral Accelerator:
-    BoosterMaxCharAgeHours: 336
-    Boosterness: 4
-    CharismaBonus: 9
-    FollowsJumpClones: 1
-    IntelligenceBonus: 9
-    Mass: 1.0
-    MemoryBonus: 9
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 9
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 9
+    boostermaxcharagehours: 336
+    boosterness: 4
+    charismabonus: 9
+    followsjumpclones: 1
     id: 33111
-    mass: 1.0
+    intelligencebonus: 9
+    memorybonus: 9
     name: Prototype Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 9
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 9
   Quafe Zero:
-    BoosterDuration: 3600000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    ScanResolutionBonus: 5.0
-    SocialBonus: 100
-    VelocityBonus: 5.0
+    boosterduration: 3600000
+    boosterness: 1
     id: 3898
     marketGroup: 2506
-    mass: 1.0
     name: Quafe Zero
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    scanresolutionbonus: 5.0
+    socialbonus: 100
+    velocitybonus: 5.0
     volume: 1.0
   Serenity Monthly Cerebral Accelerator - 2020.5:
-    BoosterDuration: 43200000
-    BoosterLastInjectionDatetime: 18412.458984375
-    Boosterness: 10
-    CharismaBonus: 5
-    FollowsJumpClones: 1
-    IntelligenceBonus: 5
-    Mass: 1.0
-    MemoryBonus: 5
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 5
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 5
+    boosterduration: 43200000
+    boosterlastinjectiondatetime: 18412.458984375
+    boosterness: 10
+    charismabonus: 5
+    followsjumpclones: 1
     id: 54660
+    intelligencebonus: 5
     marketGroup: 2487
-    mass: 1.0
+    memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.5
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 5
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 5
   Standard Blue Pill Booster:
-    BoosterAOEVelocityPenalty: -20
-    BoosterCapacitorCapacityPenalty: -20
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.20000000298023224
-    BoosterEffectChance2: 0.20000000298023224
-    BoosterEffectChance3: 0.20000000298023224
-    BoosterEffectChance4: 0.20000000298023224
-    BoosterEffectChance5: 0.20000000298023224
-    BoosterShieldCapacityPenalty: -20
-    BoosterTurretOptimalRangePenalty: -20
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: 20.0
-    SocialBonus: 100
+    boosteraoevelocitypenalty: -20
+    boostercapacitorcapacitypenalty: -20
+    boosterduration: 1800000
+    boostereffectchance1: 0.20000000298023224
+    boostereffectchance2: 0.20000000298023224
+    boostereffectchance3: 0.20000000298023224
+    boostereffectchance4: 0.20000000298023224
+    boostereffectchance5: 0.20000000298023224
+    boosterness: 1
+    boostershieldcapacitypenalty: -20
+    boosterturretoptimalrangepenalty: -20
     id: 9950
     marketGroup: 2491
-    mass: 1.0
     name: Standard Blue Pill Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 20.0
+    socialbonus: 100
     volume: 1.0
   Standard Cerebral Accelerator:
-    BoosterMaxCharAgeHours: 840
-    Boosterness: 4
-    CharismaBonus: 3
-    DamageMultiplierBonus: 20
-    FollowsJumpClones: 1
-    IntelligenceBonus: 3
-    Mass: 1.0
-    MemoryBonus: 3
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 3
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    RofBonus: -20
-    SocialBonus: 100
-    WillpowerBonus: 3
+    boostermaxcharagehours: 840
+    boosterness: 4
+    charismabonus: 3
+    damagemultiplierbonus: 20
+    followsjumpclones: 1
     id: 2838
-    mass: 1.0
+    intelligencebonus: 3
+    memorybonus: 3
     name: Standard Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 3
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    rofbonus: -20
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 3
   Standard Crash Booster:
-    AoeCloudSizeBonus: -20.0
-    BoosterArmorHPPenalty: -20
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.20000000298023224
-    BoosterEffectChance2: 0.20000000298023224
-    BoosterEffectChance3: 0.20000000298023224
-    BoosterEffectChance4: 0.20000000298023224
-    BoosterEffectChance5: 0.20000000298023224
-    BoosterMaxVelocityPenalty: -20
-    BoosterMissileVelocityPenalty: -20
-    BoosterShieldBoostAmountPenalty: -20
-    Boosterness: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    aoecloudsizebonus: -20.0
+    boosterarmorhppenalty: -20
+    boosterduration: 1800000
+    boostereffectchance1: 0.20000000298023224
+    boostereffectchance2: 0.20000000298023224
+    boostereffectchance3: 0.20000000298023224
+    boostereffectchance4: 0.20000000298023224
+    boostereffectchance5: 0.20000000298023224
+    boostermaxvelocitypenalty: -20
+    boostermissilevelocitypenalty: -20
+    boosterness: 3
+    boostershieldboostamountpenalty: -20
     id: 9947
     marketGroup: 2500
-    mass: 1.0
     name: Standard Crash Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Standard Drop Booster:
-    BoosterArmorRepairAmountPenalty: -20
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.20000000298023224
-    BoosterEffectChance2: 0.20000000298023224
-    BoosterEffectChance3: 0.20000000298023224
-    BoosterEffectChance4: 0.20000000298023224
-    BoosterEffectChance5: 0.20000000298023224
-    BoosterMaxVelocityPenalty: -20
-    BoosterShieldCapacityPenalty: -20
-    BoosterTurretFalloffPenalty: -20
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    TrackingSpeedBonus: 25.0
+    boosterarmorrepairamountpenalty: -20
+    boosterduration: 1800000
+    boostereffectchance1: 0.20000000298023224
+    boostereffectchance2: 0.20000000298023224
+    boostereffectchance3: 0.20000000298023224
+    boostereffectchance4: 0.20000000298023224
+    boostereffectchance5: 0.20000000298023224
+    boostermaxvelocitypenalty: -20
+    boosterness: 2
+    boostershieldcapacitypenalty: -20
+    boosterturretfalloffpenalty: -20
     id: 15466
     marketGroup: 2496
-    mass: 1.0
     name: Standard Drop Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    trackingspeedbonus: 25.0
     volume: 1.0
   Standard Exile Booster:
-    ArmorDamageAmountBonus: 20
-    BoosterArmorHPPenalty: -20
-    BoosterCapacitorCapacityPenalty: -20
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.20000000298023224
-    BoosterEffectChance2: 0.20000000298023224
-    BoosterEffectChance3: 0.20000000298023224
-    BoosterEffectChance4: 0.20000000298023224
-    BoosterEffectChance5: 0.20000000298023224
-    BoosterMissileAOECloudPenalty: 20
-    BoosterTurretTrackingPenalty: -20
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    armordamageamountbonus: 20
+    boosterarmorhppenalty: -20
+    boostercapacitorcapacitypenalty: -20
+    boosterduration: 1800000
+    boostereffectchance1: 0.20000000298023224
+    boostereffectchance2: 0.20000000298023224
+    boostereffectchance3: 0.20000000298023224
+    boostereffectchance4: 0.20000000298023224
+    boostereffectchance5: 0.20000000298023224
+    boostermissileaoecloudpenalty: 20
+    boosterness: 1
+    boosterturrettrackingpenalty: -20
     id: 15479
     marketGroup: 2492
-    mass: 1.0
     name: Standard Exile Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Standard Frentix Booster:
-    BoosterArmorHPPenalty: -20
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.20000000298023224
-    BoosterEffectChance2: 0.20000000298023224
-    BoosterEffectChance3: 0.20000000298023224
-    BoosterEffectChance4: 0.20000000298023224
-    BoosterEffectChance5: 0.20000000298023224
-    BoosterMaxVelocityPenalty: -20
-    BoosterShieldBoostAmountPenalty: -20
-    BoosterTurretTrackingPenalty: -20
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RangeSkillBonus: 10
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterarmorhppenalty: -20
+    boosterduration: 1800000
+    boostereffectchance1: 0.20000000298023224
+    boostereffectchance2: 0.20000000298023224
+    boostereffectchance3: 0.20000000298023224
+    boostereffectchance4: 0.20000000298023224
+    boostereffectchance5: 0.20000000298023224
+    boostermaxvelocitypenalty: -20
+    boosterness: 2
+    boostershieldboostamountpenalty: -20
+    boosterturrettrackingpenalty: -20
     id: 15460
     marketGroup: 2497
-    mass: 1.0
     name: Standard Frentix Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    rangeskillbonus: 10
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Standard Mindflood Booster:
-    BoosterArmorRepairAmountPenalty: -20
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.20000000298023224
-    BoosterEffectChance2: 0.20000000298023224
-    BoosterEffectChance3: 0.20000000298023224
-    BoosterEffectChance4: 0.20000000298023224
-    BoosterEffectChance5: 0.20000000298023224
-    BoosterMissileAOECloudPenalty: 20
-    BoosterShieldBoostAmountPenalty: -20
-    BoosterTurretOptimalRangePenalty: -20
-    Boosterness: 1
-    CapacitorCapacityBonus: 10.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterarmorrepairamountpenalty: -20
+    boosterduration: 1800000
+    boostereffectchance1: 0.20000000298023224
+    boostereffectchance2: 0.20000000298023224
+    boostereffectchance3: 0.20000000298023224
+    boostereffectchance4: 0.20000000298023224
+    boostereffectchance5: 0.20000000298023224
+    boostermissileaoecloudpenalty: 20
+    boosterness: 1
+    boostershieldboostamountpenalty: -20
+    boosterturretoptimalrangepenalty: -20
+    capacitorcapacitybonus: 10.0
     id: 15463
     marketGroup: 2493
-    mass: 1.0
     name: Standard Mindflood Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Standard Serenity Cerebral Accelerator:
-    BoosterDuration: 86400000
-    BoosterLastInjectionDatetime: 18387.791015625
-    Boosterness: 10
-    CharismaBonus: 10
-    FollowsJumpClones: 1
-    IntelligenceBonus: 10
-    Mass: 1.0
-    MemoryBonus: 10
-    NonDiminishingSkillInjectorUses: 1
-    Nondestructible: 1
-    PerceptionBonus: 10
-    Radius: 1.0
-    RequiredSkill1: 3402
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    WillpowerBonus: 10
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 18387.791015625
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
     id: 54656
+    intelligencebonus: 10
     marketGroup: 2487
-    mass: 1.0
+    memorybonus: 10
     name: Standard Serenity Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
+    perceptionbonus: 10
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
+    willpowerbonus: 10
   Standard Sooth Sayer Booster:
-    BoosterArmorRepairAmountPenalty: -20
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.20000000298023224
-    BoosterEffectChance2: 0.20000000298023224
-    BoosterEffectChance3: 0.20000000298023224
-    BoosterEffectChance4: 0.20000000298023224
-    BoosterEffectChance5: 0.20000000298023224
-    BoosterMaxVelocityPenalty: -20
-    BoosterShieldCapacityPenalty: -20
-    BoosterTurretOptimalRangePenalty: -20
-    Boosterness: 2
-    FalloffBonus: 10.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterarmorrepairamountpenalty: -20
+    boosterduration: 1800000
+    boostereffectchance1: 0.20000000298023224
+    boostereffectchance2: 0.20000000298023224
+    boostereffectchance3: 0.20000000298023224
+    boostereffectchance4: 0.20000000298023224
+    boostereffectchance5: 0.20000000298023224
+    boostermaxvelocitypenalty: -20
+    boosterness: 2
+    boostershieldcapacitypenalty: -20
+    boosterturretoptimalrangepenalty: -20
+    falloffbonus: 10.0
     id: 10164
     marketGroup: 2498
-    mass: 1.0
     name: Standard Sooth Sayer Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Standard X-Instinct Booster:
-    BoosterArmorHPPenalty: -20
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.20000000298023224
-    BoosterEffectChance2: 0.20000000298023224
-    BoosterEffectChance3: 0.20000000298023224
-    BoosterEffectChance4: 0.20000000298023224
-    BoosterEffectChance5: 0.20000000298023224
-    BoosterMissileVelocityPenalty: -20
-    BoosterShieldCapacityPenalty: -20
-    BoosterTurretFalloffPenalty: -20
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: -7.5
-    SocialBonus: 100
+    boosterarmorhppenalty: -20
+    boosterduration: 1800000
+    boostereffectchance1: 0.20000000298023224
+    boostereffectchance2: 0.20000000298023224
+    boostereffectchance3: 0.20000000298023224
+    boostereffectchance4: 0.20000000298023224
+    boostereffectchance5: 0.20000000298023224
+    boostermissilevelocitypenalty: -20
+    boosterness: 1
+    boostershieldcapacitypenalty: -20
+    boosterturretfalloffpenalty: -20
     id: 15457
     marketGroup: 2494
-    mass: 1.0
     name: Standard X-Instinct Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    signatureradiusbonus: -7.5
+    socialbonus: 100
     volume: 1.0
   Strong Blue Pill Booster:
-    BoosterAOEVelocityPenalty: -30
-    BoosterCapacitorCapacityPenalty: -30
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.4000000059604645
-    BoosterEffectChance2: 0.4000000059604645
-    BoosterEffectChance3: 0.4000000059604645
-    BoosterEffectChance4: 0.4000000059604645
-    BoosterEffectChance5: 0.4000000059604645
-    BoosterShieldCapacityPenalty: -30
-    BoosterTurretOptimalRangePenalty: -30
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 3
-    ShieldBoostMultiplier: 30.0
-    SocialBonus: 100
+    boosteraoevelocitypenalty: -30
+    boostercapacitorcapacitypenalty: -30
+    boosterduration: 1800000
+    boostereffectchance1: 0.4000000059604645
+    boostereffectchance2: 0.4000000059604645
+    boostereffectchance3: 0.4000000059604645
+    boostereffectchance4: 0.4000000059604645
+    boostereffectchance5: 0.4000000059604645
+    boosterness: 1
+    boostershieldcapacitypenalty: -30
+    boosterturretoptimalrangepenalty: -30
     id: 10156
     marketGroup: 2491
-    mass: 1.0
     name: Strong Blue Pill Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 3
+    shieldboostmultiplier: 30.0
+    socialbonus: 100
     volume: 1.0
   Strong Crash Booster:
-    AoeCloudSizeBonus: -30.0
-    BoosterArmorHPPenalty: -30
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.4000000059604645
-    BoosterEffectChance2: 0.4000000059604645
-    BoosterEffectChance3: 0.4000000059604645
-    BoosterEffectChance4: 0.4000000059604645
-    BoosterEffectChance5: 0.4000000059604645
-    BoosterMaxVelocityPenalty: -30
-    BoosterMissileVelocityPenalty: -30
-    BoosterShieldBoostAmountPenalty: -30
-    Boosterness: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 3
-    SocialBonus: 100
+    aoecloudsizebonus: -30.0
+    boosterarmorhppenalty: -30
+    boosterduration: 1800000
+    boostereffectchance1: 0.4000000059604645
+    boostereffectchance2: 0.4000000059604645
+    boostereffectchance3: 0.4000000059604645
+    boostereffectchance4: 0.4000000059604645
+    boostereffectchance5: 0.4000000059604645
+    boostermaxvelocitypenalty: -30
+    boostermissilevelocitypenalty: -30
+    boosterness: 3
+    boostershieldboostamountpenalty: -30
     id: 10152
     marketGroup: 2500
-    mass: 1.0
     name: Strong Crash Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 3
+    socialbonus: 100
     volume: 1.0
   Strong Drop Booster:
-    BoosterArmorRepairAmountPenalty: -30
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.4000000059604645
-    BoosterEffectChance2: 0.4000000059604645
-    BoosterEffectChance3: 0.4000000059604645
-    BoosterEffectChance4: 0.4000000059604645
-    BoosterEffectChance5: 0.4000000059604645
-    BoosterMaxVelocityPenalty: -30
-    BoosterShieldCapacityPenalty: -30
-    BoosterTurretFalloffPenalty: -30
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 3
-    SocialBonus: 100
-    TrackingSpeedBonus: 37.5
+    boosterarmorrepairamountpenalty: -30
+    boosterduration: 1800000
+    boostereffectchance1: 0.4000000059604645
+    boostereffectchance2: 0.4000000059604645
+    boostereffectchance3: 0.4000000059604645
+    boostereffectchance4: 0.4000000059604645
+    boostereffectchance5: 0.4000000059604645
+    boostermaxvelocitypenalty: -30
+    boosterness: 2
+    boostershieldcapacitypenalty: -30
+    boosterturretfalloffpenalty: -30
     id: 15478
     marketGroup: 2496
-    mass: 1.0
     name: Strong Drop Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 3
+    socialbonus: 100
+    trackingspeedbonus: 37.5
     volume: 1.0
   Strong Exile Booster:
-    ArmorDamageAmountBonus: 30
-    BoosterArmorHPPenalty: -30
-    BoosterCapacitorCapacityPenalty: -30
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.4000000059604645
-    BoosterEffectChance2: 0.4000000059604645
-    BoosterEffectChance3: 0.4000000059604645
-    BoosterEffectChance4: 0.4000000059604645
-    BoosterEffectChance5: 0.4000000059604645
-    BoosterMissileAOECloudPenalty: 30
-    BoosterTurretTrackingPenalty: -30
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 3
-    SocialBonus: 100
+    armordamageamountbonus: 30
+    boosterarmorhppenalty: -30
+    boostercapacitorcapacitypenalty: -30
+    boosterduration: 1800000
+    boostereffectchance1: 0.4000000059604645
+    boostereffectchance2: 0.4000000059604645
+    boostereffectchance3: 0.4000000059604645
+    boostereffectchance4: 0.4000000059604645
+    boostereffectchance5: 0.4000000059604645
+    boostermissileaoecloudpenalty: 30
+    boosterness: 1
+    boosterturrettrackingpenalty: -30
     id: 25349
     marketGroup: 2492
-    mass: 1.0
     name: Strong Exile Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 3
+    socialbonus: 100
     volume: 1.0
   Strong Frentix Booster:
-    BoosterArmorHPPenalty: -30
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.4000000059604645
-    BoosterEffectChance2: 0.4000000059604645
-    BoosterEffectChance3: 0.4000000059604645
-    BoosterEffectChance4: 0.4000000059604645
-    BoosterEffectChance5: 0.4000000059604645
-    BoosterMaxVelocityPenalty: -30
-    BoosterShieldBoostAmountPenalty: -30
-    BoosterTurretTrackingPenalty: -30
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RangeSkillBonus: 20
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 3
-    SocialBonus: 100
+    boosterarmorhppenalty: -30
+    boosterduration: 1800000
+    boostereffectchance1: 0.4000000059604645
+    boostereffectchance2: 0.4000000059604645
+    boostereffectchance3: 0.4000000059604645
+    boostereffectchance4: 0.4000000059604645
+    boostereffectchance5: 0.4000000059604645
+    boostermaxvelocitypenalty: -30
+    boosterness: 2
+    boostershieldboostamountpenalty: -30
+    boosterturrettrackingpenalty: -30
     id: 15462
     marketGroup: 2497
-    mass: 1.0
     name: Strong Frentix Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    rangeskillbonus: 20
+    requiredskill1: 3405
+    requiredskill1level: 3
+    socialbonus: 100
     volume: 1.0
   Strong Mindflood Booster:
-    BoosterArmorRepairAmountPenalty: -30
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.4000000059604645
-    BoosterEffectChance2: 0.4000000059604645
-    BoosterEffectChance3: 0.4000000059604645
-    BoosterEffectChance4: 0.4000000059604645
-    BoosterEffectChance5: 0.4000000059604645
-    BoosterMissileAOECloudPenalty: 30
-    BoosterShieldBoostAmountPenalty: -30
-    BoosterTurretOptimalRangePenalty: -30
-    Boosterness: 1
-    CapacitorCapacityBonus: 20.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 3
-    SocialBonus: 100
+    boosterarmorrepairamountpenalty: -30
+    boosterduration: 1800000
+    boostereffectchance1: 0.4000000059604645
+    boostereffectchance2: 0.4000000059604645
+    boostereffectchance3: 0.4000000059604645
+    boostereffectchance4: 0.4000000059604645
+    boostereffectchance5: 0.4000000059604645
+    boostermissileaoecloudpenalty: 30
+    boosterness: 1
+    boostershieldboostamountpenalty: -30
+    boosterturretoptimalrangepenalty: -30
+    capacitorcapacitybonus: 20.0
     id: 15465
     marketGroup: 2493
-    mass: 1.0
     name: Strong Mindflood Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 3
+    socialbonus: 100
     volume: 1.0
   Strong Sooth Sayer Booster:
-    BoosterArmorRepairAmountPenalty: -30
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.4000000059604645
-    BoosterEffectChance2: 0.4000000059604645
-    BoosterEffectChance3: 0.4000000059604645
-    BoosterEffectChance4: 0.4000000059604645
-    BoosterEffectChance5: 0.4000000059604645
-    BoosterMaxVelocityPenalty: -30
-    BoosterShieldCapacityPenalty: -30
-    BoosterTurretOptimalRangePenalty: -30
-    Boosterness: 2
-    FalloffBonus: 20.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 3
-    SocialBonus: 100
+    boosterarmorrepairamountpenalty: -30
+    boosterduration: 1800000
+    boostereffectchance1: 0.4000000059604645
+    boostereffectchance2: 0.4000000059604645
+    boostereffectchance3: 0.4000000059604645
+    boostereffectchance4: 0.4000000059604645
+    boostereffectchance5: 0.4000000059604645
+    boostermaxvelocitypenalty: -30
+    boosterness: 2
+    boostershieldcapacitypenalty: -30
+    boosterturretoptimalrangepenalty: -30
+    falloffbonus: 20.0
     id: 10166
     marketGroup: 2498
-    mass: 1.0
     name: Strong Sooth Sayer Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 3
+    socialbonus: 100
     volume: 1.0
   Strong X-Instinct Booster:
-    BoosterArmorHPPenalty: -30
-    BoosterDuration: 1800000
-    BoosterEffectChance1: 0.4000000059604645
-    BoosterEffectChance2: 0.4000000059604645
-    BoosterEffectChance3: 0.4000000059604645
-    BoosterEffectChance4: 0.4000000059604645
-    BoosterEffectChance5: 0.4000000059604645
-    BoosterMissileVelocityPenalty: -30
-    BoosterShieldCapacityPenalty: -30
-    BoosterTurretFalloffPenalty: -30
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 3
-    SignatureRadiusBonus: -15.0
-    SocialBonus: 100
+    boosterarmorhppenalty: -30
+    boosterduration: 1800000
+    boostereffectchance1: 0.4000000059604645
+    boostereffectchance2: 0.4000000059604645
+    boostereffectchance3: 0.4000000059604645
+    boostereffectchance4: 0.4000000059604645
+    boostereffectchance5: 0.4000000059604645
+    boostermissilevelocitypenalty: -30
+    boosterness: 1
+    boostershieldcapacitypenalty: -30
+    boosterturretfalloffpenalty: -30
     id: 15459
     marketGroup: 2494
-    mass: 1.0
     name: Strong X-Instinct Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 3
+    signatureradiusbonus: -15.0
+    socialbonus: 100
     volume: 1.0
   Synth Blue Pill Booster:
-    BoosterDuration: 1800000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    ShieldBoostMultiplier: 3.0
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 1
     id: 28670
     marketGroup: 2491
-    mass: 1.0
     name: Synth Blue Pill Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    shieldboostmultiplier: 3.0
+    socialbonus: 100
     volume: 1.0
   Synth Crash Booster:
-    AoeCloudSizeBonus: -3.0
-    BoosterDuration: 1800000
-    Boosterness: 3
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    aoecloudsizebonus: -3.0
+    boosterduration: 1800000
+    boosterness: 3
     id: 28672
     marketGroup: 2500
-    mass: 1.0
     name: Synth Crash Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Synth Drop Booster:
-    BoosterDuration: 1800000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
-    TrackingSpeedBonus: 3.0
+    boosterduration: 1800000
+    boosterness: 2
     id: 28674
     marketGroup: 2496
-    mass: 1.0
     name: Synth Drop Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    trackingspeedbonus: 3.0
     volume: 1.0
   Synth Exile Booster:
-    ArmorDamageAmountBonus: 3
-    BoosterDuration: 1800000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    armordamageamountbonus: 3
+    boosterduration: 1800000
+    boosterness: 1
     id: 28676
     marketGroup: 2492
-    mass: 1.0
     name: Synth Exile Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Synth Frentix Booster:
-    BoosterDuration: 1800000
-    Boosterness: 2
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RangeSkillBonus: 3
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 2
     id: 28678
     marketGroup: 2497
-    mass: 1.0
     name: Synth Frentix Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    rangeskillbonus: 3
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Synth Mindflood Booster:
-    BoosterDuration: 1800000
-    Boosterness: 1
-    CapacitorCapacityBonus: 3.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 1
+    capacitorcapacitybonus: 3.0
     id: 28680
     marketGroup: 2493
-    mass: 1.0
     name: Synth Mindflood Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Synth Sooth Sayer Booster:
-    BoosterDuration: 1800000
-    Boosterness: 2
-    FalloffBonus: 3.0
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 2
+    falloffbonus: 3.0
     id: 28684
     marketGroup: 2498
-    mass: 1.0
     name: Synth Sooth Sayer Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
     volume: 1.0
   Synth X-Instinct Booster:
-    BoosterDuration: 1800000
-    Boosterness: 1
-    Mass: 1.0
-    NonDiminishingSkillInjectorUses: 1
-    Radius: 1.0
-    RequiredSkill1: 3405
-    RequiredSkill1Level: 1
-    SignatureRadiusBonus: -2.25
-    SocialBonus: 100
+    boosterduration: 1800000
+    boosterness: 1
     id: 28682
     marketGroup: 2494
-    mass: 1.0
     name: Synth X-Instinct Booster
+    nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    signatureradiusbonus: -2.25
+    socialbonus: 100
     volume: 1.0

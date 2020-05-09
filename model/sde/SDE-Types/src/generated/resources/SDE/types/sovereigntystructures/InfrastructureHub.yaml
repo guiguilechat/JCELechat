@@ -1,19 +1,17 @@
 types:
   Infrastructure Hub:
-    Capacity: 10000.0
-    Mass: 1000000.0
-    PlanetAnchorDistance: 100000
-    Radius: 10290.0
-    ScanGravimetricStrength: 25.0
-    ScanLadarStrength: 25.0
-    ScanMagnetometricStrength: 25.0
-    ScanRadarStrength: 25.0
-    SignatureRadius: 4000.0
+    capacity: 10000.0
     id: 32458
     marketGroup: 1275
-    mass: 1000000.0
     name: Infrastructure Hub
     packagedVolume: 60000.0
+    planetanchordistance: 100000
     portionSize: 1
     published: true
+    radius: 10290.0
+    scangravimetricstrength: 25.0
+    scanladarstrength: 25.0
+    scanmagnetometricstrength: 25.0
+    scanradarstrength: 25.0
+    signatureradius: 4000.0
     volume: 60000.0

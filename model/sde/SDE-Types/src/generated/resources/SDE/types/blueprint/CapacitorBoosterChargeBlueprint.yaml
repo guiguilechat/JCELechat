@@ -1,43 +1,43 @@
 types:
   Cap Booster 100 Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 3555
+    industryblueprintrank: 1.0
     marketGroup: 339
     name: Cap Booster 100 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Cap Booster 150 Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 11284
+    industryblueprintrank: 2.0
     marketGroup: 339
     name: Cap Booster 150 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Cap Booster 200 Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 11286
+    industryblueprintrank: 2.0
     marketGroup: 339
     name: Cap Booster 200 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Cap Booster 25 Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 1178
+    industryblueprintrank: 1.0
     marketGroup: 339
     name: Cap Booster 25 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Cap Booster 3200 Blueprint:
     id: 41598
@@ -48,42 +48,42 @@ types:
     published: true
     volume: 0.009999999776482582
   Cap Booster 400 Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 11288
+    industryblueprintrank: 3.0
     marketGroup: 339
     name: Cap Booster 400 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Cap Booster 50 Blueprint:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 1179
+    industryblueprintrank: 2.0
     marketGroup: 339
     name: Cap Booster 50 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Cap Booster 75 Blueprint:
-    IndustryBlueprintRank: 1.0
-    Radius: 1.0
     id: 3553
+    industryblueprintrank: 1.0
     marketGroup: 339
     name: Cap Booster 75 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Cap Booster 800 Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 11290
+    industryblueprintrank: 3.0
     marketGroup: 339
     name: Cap Booster 800 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

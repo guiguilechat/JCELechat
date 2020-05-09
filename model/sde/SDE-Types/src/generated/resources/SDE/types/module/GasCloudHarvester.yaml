@@ -1,121 +1,121 @@
 types:
   '''Crop'' Gas Cloud Harvester':
-    CapacitorNeed: 10.0
-    Cpu: 48.0
-    DisallowEarlyDeactivation: 1
-    Duration: 30000.0
-    Hp: 40.0
-    MaxRange: 1500.0
-    MetaLevel: 1
-    MiningAmount: 10
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 25544
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 711
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 10.0
+    cpu: 48.0
+    disallowearlydeactivation: 1
+    duration: 30000.0
+    hp: 40.0
     id: 25540
     marketGroup: 1037
+    maxrange: 1500.0
+    metalevel: 1
+    miningamount: 10
     name: '''Crop'' Gas Cloud Harvester'
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 711
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   '''Plow'' Gas Cloud Harvester':
-    CapacitorNeed: 10.0
-    Cpu: 30.0
-    DisallowEarlyDeactivation: 1
-    Duration: 30000.0
-    Hp: 40.0
-    MaxRange: 1500.0
-    MetaLevel: 1
-    MiningAmount: 10
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 25544
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 711
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 10.0
+    cpu: 30.0
+    disallowearlydeactivation: 1
+    duration: 30000.0
+    hp: 40.0
     id: 25542
     marketGroup: 1037
+    maxrange: 1500.0
+    metalevel: 1
+    miningamount: 10
     name: '''Plow'' Gas Cloud Harvester'
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 711
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   Gas Cloud Harvester I:
-    CapacitorNeed: 10.0
-    Cpu: 60.0
-    DisallowEarlyDeactivation: 1
-    Duration: 30000.0
-    Hp: 40.0
-    MaxRange: 1500.0
-    MiningAmount: 10
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 25544
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 711
-    TechLevel: 1
-    TypeColorScheme: 11346
+    capacitorneed: 10.0
+    cpu: 60.0
+    disallowearlydeactivation: 1
+    duration: 30000.0
+    hp: 40.0
     id: 25266
     marketGroup: 1037
+    maxrange: 1500.0
+    miningamount: 10
     name: Gas Cloud Harvester I
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 711
+    techlevel: 1
+    typecolorscheme: 11346
     volume: 5.0
   Gas Cloud Harvester II:
-    CapacitorNeed: 15.0
-    Cpu: 70.0
-    DisallowEarlyDeactivation: 1
-    Duration: 40000.0
-    Hp: 40.0
-    MaxRange: 1500.0
-    MetaLevel: 5
-    MiningAmount: 20
-    Power: 5
-    Radius: 25.0
-    RequiredSkill1: 25544
-    RequiredSkill1Level: 5
-    Slots: 1
-    TargetGroup: 711
-    TechLevel: 2
-    TypeColorScheme: 11347
+    capacitorneed: 15.0
+    cpu: 70.0
+    disallowearlydeactivation: 1
+    duration: 40000.0
+    hp: 40.0
     id: 25812
     marketGroup: 1037
+    maxrange: 1500.0
+    metalevel: 5
+    miningamount: 20
     name: Gas Cloud Harvester II
     packagedVolume: 5.0
     portionSize: 1
+    power: 5
     published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 5
+    slots: 1
+    targetgroup: 711
+    techlevel: 2
+    typecolorscheme: 11347
     volume: 5.0
   Syndicate Gas Cloud Harvester:
-    CapacitorNeed: 10.0
-    Cpu: 26.0
-    DisallowEarlyDeactivation: 1
-    Duration: 30000.0
-    Hp: 40.0
-    MaxRange: 1500.0
-    MetaGroupID: 4
-    MetaLevel: 6
-    MiningAmount: 10
-    Power: 2
-    Radius: 25.0
-    RequiredSkill1: 25544
-    RequiredSkill1Level: 1
-    Slots: 1
-    TargetGroup: 711
-    TechLevel: 1
-    TypeColorScheme: 11353
+    capacitorneed: 10.0
+    cpu: 26.0
+    disallowearlydeactivation: 1
+    duration: 30000.0
+    hp: 40.0
     id: 28788
     marketGroup: 1037
+    maxrange: 1500.0
+    metagroupid: 4
+    metalevel: 6
+    miningamount: 10
     name: Syndicate Gas Cloud Harvester
     packagedVolume: 5.0
     portionSize: 1
+    power: 2
     published: true
+    radius: 25.0
+    requiredskill1: 25544
+    requiredskill1level: 1
+    slots: 1
+    targetgroup: 711
+    techlevel: 1
+    typecolorscheme: 11353
     volume: 5.0

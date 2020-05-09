@@ -1,15 +1,24 @@
 package fr.guiguilechat.jcelechat.model.sde.types.apparel;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ClothingAlsoCoversCategory;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ClothingRemovesCategory;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Gender;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Apparel;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,14 +31,15 @@ public class Bottoms
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ClothingAlsoCoversCategory;
+    public int clothingalsocoverscategory;
     /**
      * This item of clothing does not allow the category specified to be equipped with this item. It will be removed
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ClothingRemovesCategory;
+    public int clothingremovescategory;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ClothingRemovesCategory.INSTANCE, Mass.INSTANCE, ClothingAlsoCoversCategory.INSTANCE, Capacity.INSTANCE, Gender.INSTANCE })));
     public static final Bottoms.MetaGroup METAGROUP = new Bottoms.MetaGroup();
 
     @Override
@@ -37,17 +47,22 @@ public class Bottoms
         switch (attribute.getId()) {
             case  1797 :
             {
-                return ClothingAlsoCoversCategory;
+                return clothingalsocoverscategory;
             }
             case  1956 :
             {
-                return ClothingRemovesCategory;
+                return clothingremovescategory;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

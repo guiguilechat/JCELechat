@@ -1,225 +1,225 @@
 types:
   Eifyr and Co. 'Alchemist' Gas Harvesting GH-801:
-    DurationBonus: -1
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    durationbonus: -1
     id: 27240
+    implantness: 8
     marketGroup: 1768
     name: Eifyr and Co. 'Alchemist' Gas Harvesting GH-801
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Eifyr and Co. 'Alchemist' Gas Harvesting GH-803:
-    DurationBonus: -3
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
+    durationbonus: -3
     id: 27238
+    implantness: 8
     marketGroup: 1768
     name: Eifyr and Co. 'Alchemist' Gas Harvesting GH-803
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
     volume: 1.0
   Eifyr and Co. 'Alchemist' Gas Harvesting GH-805:
-    DurationBonus: -5
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
+    durationbonus: -5
     id: 27239
+    implantness: 8
     marketGroup: 1768
     name: Eifyr and Co. 'Alchemist' Gas Harvesting GH-805
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Inherent Implants 'Highwall' Mining MX-1001:
-    Implantness: 10
-    MiningAmountBonus: 1
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 27102
+    implantness: 10
     marketGroup: 1767
+    miningamountbonus: 1
     name: Inherent Implants 'Highwall' Mining MX-1001
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Inherent Implants 'Highwall' Mining MX-1003:
-    Implantness: 10
-    MiningAmountBonus: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
     id: 22534
+    implantness: 10
     marketGroup: 1767
+    miningamountbonus: 3
     name: Inherent Implants 'Highwall' Mining MX-1003
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
     volume: 1.0
   Inherent Implants 'Highwall' Mining MX-1005:
-    Implantness: 10
-    MiningAmountBonus: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
     id: 22535
+    implantness: 10
     marketGroup: 1767
+    miningamountbonus: 5
     name: Inherent Implants 'Highwall' Mining MX-1005
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Inherent Implants 'Highwall' Mining Upgrades MU-1001:
-    Implantness: 10
-    MiningUpgradeCPUReductionBonus: -3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 27151
+    implantness: 10
     marketGroup: 1767
+    miningupgradecpureductionbonus: -3
     name: Inherent Implants 'Highwall' Mining Upgrades MU-1001
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Inherent Implants 'Highwall' Mining Upgrades MU-1003:
-    Implantness: 10
-    MiningUpgradeCPUReductionBonus: -3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
     id: 27149
+    implantness: 10
     marketGroup: 1767
+    miningupgradecpureductionbonus: -3
     name: Inherent Implants 'Highwall' Mining Upgrades MU-1003
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
     volume: 1.0
   Inherent Implants 'Highwall' Mining Upgrades MU-1005:
-    Implantness: 10
-    MiningUpgradeCPUReductionBonus: -5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
     id: 27150
+    implantness: 10
     marketGroup: 1767
+    miningupgradecpureductionbonus: -5
     name: Inherent Implants 'Highwall' Mining Upgrades MU-1005
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Inherent Implants 'Yeti' Ice Harvesting IH-1001:
-    IceHarvestCycleBonus: -1.0
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
+    iceharvestcyclebonus: -1.0
     id: 27103
+    implantness: 10
     marketGroup: 1767
     name: Inherent Implants 'Yeti' Ice Harvesting IH-1001
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Inherent Implants 'Yeti' Ice Harvesting IH-1003:
-    IceHarvestCycleBonus: -3.0
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
+    iceharvestcyclebonus: -3.0
     id: 22570
+    implantness: 10
     marketGroup: 1767
     name: Inherent Implants 'Yeti' Ice Harvesting IH-1003
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
     volume: 1.0
   Inherent Implants 'Yeti' Ice Harvesting IH-1005:
-    IceHarvestCycleBonus: -5.0
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
+    iceharvestcyclebonus: -5.0
     id: 22571
+    implantness: 10
     marketGroup: 1767
     name: Inherent Implants 'Yeti' Ice Harvesting IH-1005
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Michi's Excavation Augmentor:
-    Implantness: 7
-    MiningAmountBonus: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
     id: 20700
+    implantness: 7
     marketGroup: 1769
+    miningamountbonus: 5
     name: Michi's Excavation Augmentor
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Reprocessing RX-801:
-    Implantness: 8
-    Radius: 1.0
-    RefiningYieldMutator: 1
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    TechLevel: 1
     id: 27175
+    implantness: 8
     marketGroup: 1768
     name: Zainou 'Beancounter' Reprocessing RX-801
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    refiningyieldmutator: 1
+    requiredskill1: 3411
+    requiredskill1level: 1
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Reprocessing RX-802:
-    Implantness: 8
-    Radius: 1.0
-    RefiningYieldMutator: 2
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    TechLevel: 1
     id: 27169
+    implantness: 8
     marketGroup: 1768
     name: Zainou 'Beancounter' Reprocessing RX-802
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    refiningyieldmutator: 2
+    requiredskill1: 3411
+    requiredskill1level: 3
+    techlevel: 1
     volume: 1.0
   Zainou 'Beancounter' Reprocessing RX-804:
-    Implantness: 8
-    Radius: 1.0
-    RefiningYieldMutator: 4
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    TechLevel: 1
     id: 27174
+    implantness: 8
     marketGroup: 1768
     name: Zainou 'Beancounter' Reprocessing RX-804
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    refiningyieldmutator: 4
+    requiredskill1: 3411
+    requiredskill1level: 5
+    techlevel: 1
     volume: 1.0

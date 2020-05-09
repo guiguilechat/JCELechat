@@ -1,269 +1,265 @@
 types:
   Biocells:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 2329
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Biocells
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Construction Blocks:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 3828
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Construction Blocks
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Consumer Electronics:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 9836
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Consumer Electronics
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Coolant:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 9832
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Coolant
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Enriched Uranium:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 44
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Enriched Uranium
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Fertilizer:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 3693
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Fertilizer
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Genetically Enhanced Livestock:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 15317
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Genetically Enhanced Livestock
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Livestock:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Mass: 900.0
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 3725
+    importtaxmultiplier: 7200
     marketGroup: 1335
-    mass: 900.0
     name: Livestock
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Mechanical Parts:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 3689
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Mechanical Parts
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Microfiber Shielding:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 2327
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Microfiber Shielding
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Miniature Electronics:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 9842
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Miniature Electronics
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Nanites:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 2463
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Nanites
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Oxides:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 2317
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Oxides
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Polyaramids:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 2321
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Polyaramids
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Polytextiles:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Mass: 200.0
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 3695
+    importtaxmultiplier: 7200
     marketGroup: 1335
-    mass: 200.0
     name: Polytextiles
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Rocket Fuel:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 9830
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Rocket Fuel
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Silicate Glass:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 3697
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Silicate Glass
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Superconductors:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 9838
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Superconductors
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Supertensile Plastics:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 2312
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Supertensile Plastics
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Synthetic Oil:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 3691
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Synthetic Oil
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Test Cultures:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 2319
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Test Cultures
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Transmitter:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 9840
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Transmitter
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Viral Agent:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 3775
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Viral Agent
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5
   Water-Cooled CPU:
-    ExportTaxMultiplier: 7200
-    ImportTaxMultiplier: 7200
-    Radius: 1.0
+    exporttaxmultiplier: 7200
     id: 2328
+    importtaxmultiplier: 7200
     marketGroup: 1335
     name: Water-Cooled CPU
     packagedVolume: 1.5
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 1.5

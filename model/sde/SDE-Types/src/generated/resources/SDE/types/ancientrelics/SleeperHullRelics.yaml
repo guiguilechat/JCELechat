@@ -1,61 +1,61 @@
 types:
   Intact Hull Section:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 30752
+    industryblueprintrank: 2.0
     marketGroup: 1909
     name: Intact Hull Section
     packagedVolume: 50.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 50.0
   Malfunctioning Hull Section:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 30753
+    industryblueprintrank: 2.0
     marketGroup: 1909
     name: Malfunctioning Hull Section
     packagedVolume: 50.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 50.0
   Small Intact Hull Section:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 34412
+    industryblueprintrank: 2.0
     marketGroup: 1909
     name: Small Intact Hull Section
     packagedVolume: 20.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 20.0
   Small Malfunctioning Hull Section:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 34414
+    industryblueprintrank: 2.0
     marketGroup: 1909
     name: Small Malfunctioning Hull Section
     packagedVolume: 20.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 20.0
   Small Wrecked Hull Section:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 34416
+    industryblueprintrank: 2.0
     marketGroup: 1909
     name: Small Wrecked Hull Section
     packagedVolume: 20.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 20.0
   Wrecked Hull Section:
-    IndustryBlueprintRank: 2.0
-    Radius: 1.0
     id: 30754
+    industryblueprintrank: 2.0
     marketGroup: 1909
     name: Wrecked Hull Section
     packagedVolume: 50.0
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 50.0

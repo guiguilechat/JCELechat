@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.ship;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,121 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseWarpSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConcordRoleBonusSecGain;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConcordTankBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPercentage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CovertOpsAndReconOpsCloakModuleDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.CpuOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Damage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneBandwidth;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DroneCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusReconShip1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusReconShip2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EliteBonusReconShip3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FwLpKill;
+import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAttenuationMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatCapacityMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateHi;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateLow;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDissipationRateMed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HeatGenerationMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HiSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.InverseCappedSecStatus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.JumpHarmonics;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxDirectionalVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxPassengers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MinTargetVelDmgMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PilotSecurityStatus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerOutput;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerToSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill2Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill3Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill4Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill5Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigSlots;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAC;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusAC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCC;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusCC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGC;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusGC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMC;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusMC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusPC1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusPC2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole2;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShipBonusRole7;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SpecialBoosterHoldCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TurretSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TypeColorScheme;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Uniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeCapacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.UpgradeSlotsLeft;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpCapacitorNeed;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpFactor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpSpeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Ship;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,119 +141,119 @@ public class ForceReconShip
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConcordRoleBonusSecGain;
+    public int concordrolebonussecgain;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConcordTankBonus;
+    public int concordtankbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ConsumptionQuantityBonusPercentage;
+    public int consumptionquantitybonuspercentage;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(30000)
-    public int CovertOpsAndReconOpsCloakModuleDelay;
+    public int covertopsandreconopscloakmoduledelay;
     /**
      * Bonus to duration.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int DurationBonus;
+    public int durationbonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EliteBonusReconShip1;
+    public int elitebonusreconship1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int EliteBonusReconShip2;
+    public int elitebonusreconship2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EliteBonusReconShip3;
+    public double elitebonusreconship3;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int FwLpKill;
+    public int fwlpkill;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HeatAttenuationHi;
+    public double heatattenuationhi;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HeatAttenuationLow;
+    public double heatattenuationlow;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double HeatAttenuationMed;
+    public double heatattenuationmed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int InverseCappedSecStatus;
+    public int inversecappedsecstatus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int JumpHarmonics;
+    public int jumpharmonics;
     /**
      * The main color of a ship type.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MainColor;
+    public int maincolor;
     /**
      * Deprecated.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int MaxDirectionalVelocity;
+    public int maxdirectionalvelocity;
     /**
      * Specifies the maximum numbers of passengers that the ship can have
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MaxPassengers;
+    public int maxpassengers;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -150,210 +268,211 @@ public class ForceReconShip
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * Deprecated.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double MinTargetVelDmgMultiplier;
+    public double mintargetveldmgmultiplier;
     /**
      * Pilot's Crimewatch sec status. Copied from character stats when boarding a ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int PilotSecurityStatus;
+    public int pilotsecuritystatus;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2;
+    public int requiredskill2;
     /**
      * Required skill level for skill 2
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill2Level;
+    public int requiredskill2level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill3;
+    public int requiredskill3;
     /**
      * Required skill level for skill 3
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill3Level;
+    public int requiredskill3level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill4;
+    public int requiredskill4;
     /**
      * Required skill level for skill 4
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill4Level;
+    public int requiredskill4level;
     /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill5;
+    public int requiredskill5;
     /**
      * Required skill level for skill 5
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RequiredSkill5Level;
+    public int requiredskill5level;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSize;
+    public int rigsize;
     /**
      * The number of rig slots on the ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int RigSlots;
+    public int rigslots;
     /**
      * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
-    public double ScanResolution;
+    public double scanresolution;
     /**
      * scanning speed in milliseconds
      */
     @HighIsGood(false)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int ScanSpeed;
+    public int scanspeed;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusAC;
+    public double shipbonusac;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusAC2;
+    public double shipbonusac2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(5)
-    public int ShipBonusCC;
+    public int shipbonuscc;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusCC2;
+    public double shipbonuscc2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(5.0)
-    public double ShipBonusGC;
+    public double shipbonusgc;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusGC2;
+    public double shipbonusgc2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusMC;
+    public double shipbonusmc;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusMC2;
+    public double shipbonusmc2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusPC1;
+    public double shipbonuspc1;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusPC2;
+    public int shipbonuspc2;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusRole1;
+    public double shipbonusrole1;
     /**
      * Ship Role Bonus. Not multiplied by skills.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ShipBonusRole2;
+    public int shipbonusrole2;
     /**
      * Fixed Role Bonus on a ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ShipBonusRole7;
+    public double shipbonusrole7;
     /**
      * special booster hold capacity
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultIntValue(0)
-    public int SpecialBoosterHoldCapacity;
+    public int specialboosterholdcapacity;
     /**
      * How many rigs can by fitted to this ship.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int UpgradeSlotsLeft;
+    public int upgradeslotsleft;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EliteBonusReconShip3 .INSTANCE, BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, RequiredSkill4 .INSTANCE, RequiredSkill4Level.INSTANCE, RequiredSkill5Level.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, RequiredSkill5 .INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, CovertOpsAndReconOpsCloakModuleDelay.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ConsumptionQuantityBonusPercentage.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, ShipBonusRole7 .INSTANCE, DroneCapacity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, PilotSecurityStatus.INSTANCE, ScanResolution.INSTANCE, RechargeRate.INSTANCE, ConcordRoleBonusSecGain.INSTANCE, InverseCappedSecStatus.INSTANCE, ConcordTankBonus.INSTANCE, DurationBonus.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, WarpSpeedMultiplier.INSTANCE, SpecialBoosterHoldCapacity.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevel.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, UpgradeSlotsLeft.INSTANCE, Uniformity.INSTANCE, ShipBonusAC2 .INSTANCE, ShipBonusCC2 .INSTANCE, ShipBonusGC2 .INSTANCE, ShipBonusMC2 .INSTANCE, MaxDirectionalVelocity.INSTANCE, MinTargetVelDmgMultiplier.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, MaxLockedTargets.INSTANCE, EliteBonusReconShip1 .INSTANCE, EliteBonusReconShip2 .INSTANCE, HeatGenerationMultiplier.INSTANCE, ShipBonusPC1 .INSTANCE, ShipBonusPC2 .INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShipBonusAC.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, ShipBonusGC.INSTANCE, ShipBonusCC.INSTANCE, TypeColorScheme.INSTANCE, ShipBonusMC.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, ShipBonusRole1 .INSTANCE, ShipBonusRole2 .INSTANCE })));
     public static final ForceReconShip.MetaGroup METAGROUP = new ForceReconShip.MetaGroup();
 
     @Override
@@ -361,197 +480,202 @@ public class ForceReconShip
         switch (attribute.getId()) {
             case  2620 :
             {
-                return ConcordRoleBonusSecGain;
+                return concordrolebonussecgain;
             }
             case  2622 :
             {
-                return ConcordTankBonus;
+                return concordtankbonus;
             }
             case  1296 :
             {
-                return ConsumptionQuantityBonusPercentage;
+                return consumptionquantitybonuspercentage;
             }
             case  1034 :
             {
-                return CovertOpsAndReconOpsCloakModuleDelay;
+                return covertopsandreconopscloakmoduledelay;
             }
             case  66 :
             {
-                return DurationBonus;
+                return durationbonus;
             }
             case  962 :
             {
-                return EliteBonusReconShip1;
+                return elitebonusreconship1;
             }
             case  963 :
             {
-                return EliteBonusReconShip2;
+                return elitebonusreconship2;
             }
             case  1537 :
             {
-                return EliteBonusReconShip3;
+                return elitebonusreconship3;
             }
             case  1555 :
             {
-                return FwLpKill;
+                return fwlpkill;
             }
             case  1259 :
             {
-                return HeatAttenuationHi;
+                return heatattenuationhi;
             }
             case  1262 :
             {
-                return HeatAttenuationLow;
+                return heatattenuationlow;
             }
             case  1261 :
             {
-                return HeatAttenuationMed;
+                return heatattenuationmed;
             }
             case  2621 :
             {
-                return InverseCappedSecStatus;
+                return inversecappedsecstatus;
             }
             case  1253 :
             {
-                return JumpHarmonics;
+                return jumpharmonics;
             }
             case  124 :
             {
-                return MainColor;
+                return maincolor;
             }
             case  661 :
             {
-                return MaxDirectionalVelocity;
+                return maxdirectionalvelocity;
             }
             case  129 :
             {
-                return MaxPassengers;
+                return maxpassengers;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  662 :
             {
-                return MinTargetVelDmgMultiplier;
+                return mintargetveldmgmultiplier;
             }
             case  2610 :
             {
-                return PilotSecurityStatus;
+                return pilotsecuritystatus;
             }
             case  183 :
             {
-                return RequiredSkill2;
+                return requiredskill2;
             }
             case  278 :
             {
-                return RequiredSkill2Level;
+                return requiredskill2level;
             }
             case  184 :
             {
-                return RequiredSkill3;
+                return requiredskill3;
             }
             case  279 :
             {
-                return RequiredSkill3Level;
+                return requiredskill3level;
             }
             case  1285 :
             {
-                return RequiredSkill4;
+                return requiredskill4;
             }
             case  1286 :
             {
-                return RequiredSkill4Level;
+                return requiredskill4level;
             }
             case  1289 :
             {
-                return RequiredSkill5;
+                return requiredskill5;
             }
             case  1287 :
             {
-                return RequiredSkill5Level;
+                return requiredskill5level;
             }
             case  1547 :
             {
-                return RigSize;
+                return rigsize;
             }
             case  1137 :
             {
-                return RigSlots;
+                return rigslots;
             }
             case  564 :
             {
-                return ScanResolution;
+                return scanresolution;
             }
             case  79 :
             {
-                return ScanSpeed;
+                return scanspeed;
             }
             case  478 :
             {
-                return ShipBonusAC;
+                return shipbonusac;
             }
             case  656 :
             {
-                return ShipBonusAC2;
+                return shipbonusac2;
             }
             case  487 :
             {
-                return ShipBonusCC;
+                return shipbonuscc;
             }
             case  657 :
             {
-                return ShipBonusCC2;
+                return shipbonuscc2;
             }
             case  486 :
             {
-                return ShipBonusGC;
+                return shipbonusgc;
             }
             case  658 :
             {
-                return ShipBonusGC2;
+                return shipbonusgc2;
             }
             case  489 :
             {
-                return ShipBonusMC;
+                return shipbonusmc;
             }
             case  659 :
             {
-                return ShipBonusMC2;
+                return shipbonusmc2;
             }
             case  2764 :
             {
-                return ShipBonusPC1;
+                return shipbonuspc1;
             }
             case  2765 :
             {
-                return ShipBonusPC2;
+                return shipbonuspc2;
             }
             case  2298 :
             {
-                return ShipBonusRole1;
+                return shipbonusrole1;
             }
             case  2299 :
             {
-                return ShipBonusRole2;
+                return shipbonusrole2;
             }
             case  793 :
             {
-                return ShipBonusRole7;
+                return shipbonusrole7;
             }
             case  2657 :
             {
-                return SpecialBoosterHoldCapacity;
+                return specialboosterholdcapacity;
             }
             case  1154 :
             {
-                return UpgradeSlotsLeft;
+                return upgradeslotsleft;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

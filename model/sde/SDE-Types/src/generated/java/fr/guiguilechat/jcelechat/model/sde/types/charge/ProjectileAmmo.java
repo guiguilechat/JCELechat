@@ -1,9 +1,12 @@
 package fr.guiguilechat.jcelechat.model.sde.types.charge;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -11,6 +14,23 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseArmorDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BaseShieldDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ChargeSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRangeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamage;
+import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeedMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WeaponRangeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.types.Charge;
 import org.yaml.snakeyaml.Yaml;
 
@@ -23,63 +43,63 @@ public class ProjectileAmmo
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BaseArmorDamage;
+    public int basearmordamage;
     /**
      * Just for the UI to display base damage on shield.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int BaseShieldDamage;
+    public int baseshielddamage;
     /**
      * The size of the charges that can fit in the turret/whatever.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int ChargeSize;
+    public int chargesize;
     /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double EmDamage;
+    public double emdamage;
     /**
      * For charges, hidden attribute used by sentry guns to modify target pick range.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double EntityFlyRangeMultiplier;
+    public double entityflyrangemultiplier;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ExplosiveDamage;
+    public double explosivedamage;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double KineticDamage;
+    public double kineticdamage;
     /**
      * One of the groups of launcher this charge can be loaded into.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int LauncherGroup;
+    public int launchergroup;
     /**
      * The main color of a ship type.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MainColor;
+    public int maincolor;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -94,7 +114,7 @@ public class ProjectileAmmo
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int MetaGroupID;
+    public int metagroupid;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -102,28 +122,29 @@ public class ProjectileAmmo
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(1)
-    public int TechLevel;
+    public int techlevel;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
-    public double ThermalDamage;
+    public double thermaldamage;
     /**
      * Scale the tracking speed of a weapon.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double TrackingSpeedMultiplier;
+    public double trackingspeedmultiplier;
     /**
      * Multiplier of range the relevant weapon.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(1.0)
-    public double WeaponRangeMultiplier;
+    public double weaponrangemultiplier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, Mass.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MainColor.INSTANCE, MetaGroupID.INSTANCE })));
     public static final ProjectileAmmo.MetaGroup METAGROUP = new ProjectileAmmo.MetaGroup();
 
     @Override
@@ -131,65 +152,70 @@ public class ProjectileAmmo
         switch (attribute.getId()) {
             case  613 :
             {
-                return BaseArmorDamage;
+                return basearmordamage;
             }
             case  612 :
             {
-                return BaseShieldDamage;
+                return baseshielddamage;
             }
             case  128 :
             {
-                return ChargeSize;
+                return chargesize;
             }
             case  114 :
             {
-                return EmDamage;
+                return emdamage;
             }
             case  779 :
             {
-                return EntityFlyRangeMultiplier;
+                return entityflyrangemultiplier;
             }
             case  116 :
             {
-                return ExplosiveDamage;
+                return explosivedamage;
             }
             case  117 :
             {
-                return KineticDamage;
+                return kineticdamage;
             }
             case  137 :
             {
-                return LauncherGroup;
+                return launchergroup;
             }
             case  124 :
             {
-                return MainColor;
+                return maincolor;
             }
             case  1692 :
             {
-                return MetaGroupID;
+                return metagroupid;
             }
             case  422 :
             {
-                return TechLevel;
+                return techlevel;
             }
             case  118 :
             {
-                return ThermalDamage;
+                return thermaldamage;
             }
             case  244 :
             {
-                return TrackingSpeedMultiplier;
+                return trackingspeedmultiplier;
             }
             case  120 :
             {
-                return WeaponRangeMultiplier;
+                return weaponrangemultiplier;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

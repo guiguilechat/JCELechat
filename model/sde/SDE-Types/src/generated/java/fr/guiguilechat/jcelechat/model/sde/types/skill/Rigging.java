@@ -1,15 +1,28 @@
 package fr.guiguilechat.jcelechat.model.sde.types.skill;
 
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
+import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PrimaryAttribute;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
+import fr.guiguilechat.jcelechat.model.sde.attributes.RigDrawbackBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SecondaryAttribute;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SkillLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SkillTimeConstant;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import org.yaml.snakeyaml.Yaml;
 
@@ -22,7 +35,8 @@ public class Rigging
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(10)
-    public int RigDrawbackBonus;
+    public int rigdrawbackbonus;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, RigDrawbackBonus.INSTANCE, SkillTimeConstant.INSTANCE, Mass.INSTANCE, PrimaryAttribute.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, SkillLevel.INSTANCE })));
     public static final Rigging.MetaGroup METAGROUP = new Rigging.MetaGroup();
 
     @Override
@@ -30,13 +44,18 @@ public class Rigging
         switch (attribute.getId()) {
             case  1139 :
             {
-                return RigDrawbackBonus;
+                return rigdrawbackbonus;
             }
             default:
             {
                 return super.attribute((attribute));
             }
         }
+    }
+
+    @Override
+    public Set<Attribute> getAttributes() {
+        return ATTRIBUTES;
     }
 
     @Override

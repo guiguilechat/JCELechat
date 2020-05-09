@@ -7,38 +7,38 @@ types:
     published: true
     volume: 0.009999999776482582
   Large Ancillary Shield Booster Blueprint:
-    IndustryBlueprintRank: 6.0
-    Radius: 1.0
     id: 4392
+    industryblueprintrank: 6.0
     name: Large Ancillary Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Medium Ancillary Shield Booster Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 32773
+    industryblueprintrank: 3.0
     name: Medium Ancillary Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Small Ancillary Shield Booster Blueprint:
-    IndustryBlueprintRank: 3.0
-    Radius: 1.0
     id: 32775
+    industryblueprintrank: 3.0
     name: Small Ancillary Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   X-Large Ancillary Shield Booster Blueprint:
-    IndustryBlueprintRank: 9.0
-    Radius: 1.0
     id: 32781
+    industryblueprintrank: 9.0
     name: X-Large Ancillary Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

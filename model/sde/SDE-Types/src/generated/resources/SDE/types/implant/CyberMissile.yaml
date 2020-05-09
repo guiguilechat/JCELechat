@@ -1,1357 +1,1357 @@
 types:
   Hardwiring - Zainou 'Sharpshooter' ZMX10:
-    DamageMultiplierBonus: 1
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 1
     id: 27206
+    implantness: 6
     name: Hardwiring - Zainou 'Sharpshooter' ZMX10
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX100:
-    DamageMultiplierBonus: 3
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 3
     id: 27204
+    implantness: 6
     name: Hardwiring - Zainou 'Sharpshooter' ZMX100
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1000:
-    DamageMultiplierBonus: 5
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 5
     id: 27205
+    implantness: 6
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1000
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX11:
-    DamageMultiplierBonus: 2
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 2
     id: 3149
+    implantness: 6
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX11
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX110:
-    DamageMultiplierBonus: 4
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 4
     id: 3150
+    implantness: 6
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX110
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Hardwiring - Zainou 'Sharpshooter' ZMX1100:
-    DamageMultiplierBonus: 6
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 6
     id: 3151
+    implantness: 6
     marketGroup: 1493
     name: Hardwiring - Zainou 'Sharpshooter' ZMX1100
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Whelan Machorin's Ballistic Smartlink:
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    RofBonus: -5
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 20371
+    implantness: 10
     marketGroup: 1497
     name: Whelan Machorin's Ballistic Smartlink
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    rofbonus: -5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-801:
-    AoeCloudSizeBonus: -1.0
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -1.0
     id: 27094
+    implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-801
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-802:
-    AoeCloudSizeBonus: -2.0
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -2.0
     id: 3125
+    implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-802
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-803:
-    AoeCloudSizeBonus: -3.0
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -3.0
     id: 24632
+    implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-803
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-804:
-    AoeCloudSizeBonus: -4.0
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -4.0
     id: 3126
+    implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-804
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-805:
-    AoeCloudSizeBonus: -5.0
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -5.0
     id: 24640
+    implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-805
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Guided Missile Precision GP-806:
-    AoeCloudSizeBonus: -6.0
-    Implantness: 8
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -6.0
     id: 3127
+    implantness: 8
     marketGroup: 1495
     name: Zainou 'Deadeye' Guided Missile Precision GP-806
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-701:
-    Implantness: 7
-    MaxFlightTimeBonus: 1
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 27092
+    implantness: 7
     marketGroup: 1494
+    maxflighttimebonus: 1
     name: Zainou 'Deadeye' Missile Bombardment MB-701
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-702:
-    Implantness: 7
-    MaxFlightTimeBonus: 2
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 3128
+    implantness: 7
     marketGroup: 1494
+    maxflighttimebonus: 2
     name: Zainou 'Deadeye' Missile Bombardment MB-702
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-703:
-    Implantness: 7
-    MaxFlightTimeBonus: 3
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 13247
+    implantness: 7
     marketGroup: 1494
+    maxflighttimebonus: 3
     name: Zainou 'Deadeye' Missile Bombardment MB-703
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-704:
-    Implantness: 7
-    MaxFlightTimeBonus: 4
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 3129
+    implantness: 7
     marketGroup: 1494
+    maxflighttimebonus: 4
     name: Zainou 'Deadeye' Missile Bombardment MB-704
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-705:
-    Implantness: 7
-    MaxFlightTimeBonus: 5
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 24636
+    implantness: 7
     marketGroup: 1494
+    maxflighttimebonus: 5
     name: Zainou 'Deadeye' Missile Bombardment MB-705
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Bombardment MB-706:
-    Implantness: 7
-    MaxFlightTimeBonus: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 3132
+    implantness: 7
     marketGroup: 1494
+    maxflighttimebonus: 6
     name: Zainou 'Deadeye' Missile Bombardment MB-706
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-701:
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 27093
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-701
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-702:
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 2.0
-    TechLevel: 1
     id: 3133
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-702
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 2.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-703:
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 3.0
-    TechLevel: 1
     id: 13248
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-703
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 3.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-704:
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 4.0
-    TechLevel: 1
     id: 3134
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-704
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 4.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-705:
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 5.0
-    TechLevel: 1
     id: 24637
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-705
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 5.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Missile Projection MP-706:
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 6.0
-    TechLevel: 1
     id: 3135
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Deadeye' Missile Projection MP-706
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 6.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1001:
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    RofBonus: -1
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 27096
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1001
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    rofbonus: -1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1002:
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    RofBonus: -2
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 3136
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1002
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    rofbonus: -2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1003:
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    RofBonus: -3
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 13249
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1003
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    rofbonus: -3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1004:
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    RofBonus: -4
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 3137
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1004
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    rofbonus: -4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1005:
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    RofBonus: -5
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 24638
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1005
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    rofbonus: -5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Rapid Launch RL-1006:
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    RofBonus: -6
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 3140
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Deadeye' Rapid Launch RL-1006
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    rofbonus: -6
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-901:
-    AoeVelocityBonus: 1.0
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoevelocitybonus: 1.0
     id: 27095
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-901
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-902:
-    AoeVelocityBonus: 2.0
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoevelocitybonus: 2.0
     id: 3141
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-902
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-903:
-    AoeVelocityBonus: 3.0
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoevelocitybonus: 3.0
     id: 13250
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-903
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-904:
-    AoeVelocityBonus: 4.0
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoevelocitybonus: 4.0
     id: 3142
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-904
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-905:
-    AoeVelocityBonus: 5.0
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoevelocitybonus: 5.0
     id: 24639
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-905
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Deadeye' Target Navigation Prediction TN-906:
-    AoeVelocityBonus: 6.0
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoevelocitybonus: 6.0
     id: 3143
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Deadeye' Target Navigation Prediction TN-906
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-601:
-    CpuNeedBonus: -1
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    cpuneedbonus: -1
     id: 27091
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-601
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-602:
-    CpuNeedBonus: -2
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    cpuneedbonus: -2
     id: 3144
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-602
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-603:
-    CpuNeedBonus: -3
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    cpuneedbonus: -3
     id: 24641
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-603
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-604:
-    CpuNeedBonus: -4
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    cpuneedbonus: -4
     id: 3145
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-604
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-605:
-    CpuNeedBonus: -5
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    cpuneedbonus: -5
     id: 24642
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-605
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Gnome' Launcher CPU Efficiency LE-606:
-    CpuNeedBonus: -6
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    cpuneedbonus: -6
     id: 3148
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Gnome' Launcher CPU Efficiency LE-606
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001:
-    AoeCloudSizeBonus: -1.0
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -1.0
     id: 27249
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1001
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002:
-    AoeCloudSizeBonus: -2.0
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -2.0
     id: 3160
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1002
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003:
-    AoeCloudSizeBonus: -3.0
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -3.0
     id: 13228
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1003
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004:
-    AoeCloudSizeBonus: -4.0
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -4.0
     id: 3161
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1004
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005:
-    AoeCloudSizeBonus: -5.0
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -5.0
     id: 27247
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1005
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006:
-    AoeCloudSizeBonus: -6.0
-    Implantness: 10
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    aoecloudsizebonus: -6.0
     id: 3164
+    implantness: 10
     marketGroup: 1497
     name: Zainou 'Snapshot' Auto-Targeting Explosion Radius FR-1006
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-601:
-    DamageMultiplierBonus: 1
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 1
     id: 27259
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-601
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-602:
-    DamageMultiplierBonus: 2
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 2
     id: 3181
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-602
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-603:
-    DamageMultiplierBonus: 3
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 3
     id: 13226
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-603
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-604:
-    DamageMultiplierBonus: 4
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 4
     id: 3182
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-604
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-605:
-    DamageMultiplierBonus: 5
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 5
     id: 27258
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-605
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Cruise Missiles CM-606:
-    DamageMultiplierBonus: 6
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 6
     id: 3183
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Cruise Missiles CM-606
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-801:
-    Implantness: 8
-    MissileVelocityBonus: 1.0
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 27244
+    implantness: 8
     marketGroup: 1495
+    missilevelocitybonus: 1.0
     name: Zainou 'Snapshot' Defender Missiles DM-801
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-802:
-    Implantness: 8
-    MissileVelocityBonus: 2.0
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 3152
+    implantness: 8
     marketGroup: 1495
+    missilevelocitybonus: 2.0
     name: Zainou 'Snapshot' Defender Missiles DM-802
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-803:
-    Implantness: 8
-    MissileVelocityBonus: 3.0
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 13227
+    implantness: 8
     marketGroup: 1495
+    missilevelocitybonus: 3.0
     name: Zainou 'Snapshot' Defender Missiles DM-803
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-804:
-    Implantness: 8
-    MissileVelocityBonus: 4.0
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 3153
+    implantness: 8
     marketGroup: 1495
+    missilevelocitybonus: 4.0
     name: Zainou 'Snapshot' Defender Missiles DM-804
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-805:
-    Implantness: 8
-    MissileVelocityBonus: 5.0
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 27243
+    implantness: 8
     marketGroup: 1495
+    missilevelocitybonus: 5.0
     name: Zainou 'Snapshot' Defender Missiles DM-805
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Defender Missiles DM-806:
-    Implantness: 8
-    MissileVelocityBonus: 6.0
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
     id: 3156
+    implantness: 8
     marketGroup: 1495
+    missilevelocitybonus: 6.0
     name: Zainou 'Snapshot' Defender Missiles DM-806
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-701:
-    DamageMultiplierBonus: 1
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 1
     id: 27246
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-701
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-702:
-    DamageMultiplierBonus: 2
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 2
     id: 3157
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-702
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-703:
-    DamageMultiplierBonus: 3
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 3
     id: 27109
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-703
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-704:
-    DamageMultiplierBonus: 4
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 4
     id: 3158
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-704
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-705:
-    DamageMultiplierBonus: 5
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 5
     id: 27245
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-705
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Assault Missiles AM-706:
-    DamageMultiplierBonus: 6
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 6
     id: 3159
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Assault Missiles AM-706
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-701:
-    DamageMultiplierBonus: 1
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 1
     id: 27251
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-701
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-702:
-    DamageMultiplierBonus: 2
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 2
     id: 3165
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-702
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-703:
-    DamageMultiplierBonus: 3
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 3
     id: 13229
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-703
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-704:
-    DamageMultiplierBonus: 4
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 4
     id: 3166
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-704
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-705:
-    DamageMultiplierBonus: 5
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 5
     id: 27250
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-705
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Heavy Missiles HM-706:
-    DamageMultiplierBonus: 6
-    Implantness: 7
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 6
     id: 3167
+    implantness: 7
     marketGroup: 1494
     name: Zainou 'Snapshot' Heavy Missiles HM-706
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-901:
-    DamageMultiplierBonus: 1
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 1
     id: 27253
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-901
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-902:
-    DamageMultiplierBonus: 2
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 2
     id: 3168
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-902
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-903:
-    DamageMultiplierBonus: 3
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 3
     id: 27108
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-903
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-904:
-    DamageMultiplierBonus: 4
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 4
     id: 3169
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-904
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-905:
-    DamageMultiplierBonus: 5
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 5
     id: 27252
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-905
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Light Missiles LM-906:
-    DamageMultiplierBonus: 6
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 6
     id: 3172
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Light Missiles LM-906
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-901:
-    DamageMultiplierBonus: 1
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 1
     id: 27255
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-901
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-902:
-    DamageMultiplierBonus: 2
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 2
     id: 3173
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-902
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-903:
-    DamageMultiplierBonus: 3
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 3
     id: 13230
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-903
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-904:
-    DamageMultiplierBonus: 4
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 4
     id: 3174
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-904
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-905:
-    DamageMultiplierBonus: 5
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 5
     id: 27254
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-905
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Rockets RD-906:
-    DamageMultiplierBonus: 6
-    Implantness: 9
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 6
     id: 3175
+    implantness: 9
     marketGroup: 1496
     name: Zainou 'Snapshot' Rockets RD-906
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-601:
-    DamageMultiplierBonus: 1
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 1
     id: 27257
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-601
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-602:
-    DamageMultiplierBonus: 2
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 1
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 2
     id: 3176
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-602
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 1
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-603:
-    DamageMultiplierBonus: 3
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 2
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 3
     id: 13231
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-603
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 2
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-604:
-    DamageMultiplierBonus: 4
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 3
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 4
     id: 3177
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-604
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 3
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-605:
-    DamageMultiplierBonus: 5
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 4
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 5
     id: 27256
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-605
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0
   Zainou 'Snapshot' Torpedoes TD-606:
-    DamageMultiplierBonus: 6
-    Implantness: 6
-    Radius: 1.0
-    RequiredSkill1: 3411
-    RequiredSkill1Level: 5
-    SpeedFactor: 1.0
-    TechLevel: 1
+    damagemultiplierbonus: 6
     id: 3180
+    implantness: 6
     marketGroup: 1493
     name: Zainou 'Snapshot' Torpedoes TD-606
     packagedVolume: 1.0
     portionSize: 1
     published: true
+    radius: 1.0
+    requiredskill1: 3411
+    requiredskill1level: 5
+    speedfactor: 1.0
+    techlevel: 1
     volume: 1.0

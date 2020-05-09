@@ -1,13 +1,13 @@
 types:
   Apostle Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 41582
+    industryblueprintrank: 200.0
     marketGroup: 2263
     name: Apostle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Dagon Blueprint:
     id: 45043
@@ -17,14 +17,14 @@ types:
     published: true
     volume: 0.009999999776482582
   Lif Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 41585
+    industryblueprintrank: 200.0
     marketGroup: 2266
     name: Lif Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Loggerhead Blueprint:
     id: 45644
@@ -34,22 +34,22 @@ types:
     published: true
     volume: 0.009999999776482582
   Minokawa Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 41583
+    industryblueprintrank: 200.0
     marketGroup: 2264
     name: Minokawa Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582
   Ninazu Blueprint:
-    IndustryBlueprintRank: 200.0
-    Radius: 1.0
     id: 41584
+    industryblueprintrank: 200.0
     marketGroup: 2265
     name: Ninazu Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
+    radius: 1.0
     volume: 0.009999999776482582

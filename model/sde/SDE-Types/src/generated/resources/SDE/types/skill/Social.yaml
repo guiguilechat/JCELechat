@@ -1,137 +1,137 @@
 types:
   Connections:
-    ConnectionBonusMutator: 0.4000000059604645
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    connectionbonusmutator: 0.4000000059604645
     id: 3359
     marketGroup: 376
     name: Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 3
+    secondaryattribute: 165
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Criminal Connections:
-    CriminalConnectionsMutator: 0.4000000059604645
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 3
-    SecondaryAttribute: 165
-    SkillTimeConstant: 3.0
+    criminalconnectionsmutator: 0.4000000059604645
     id: 3361
     marketGroup: 376
     name: Criminal Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 3
+    secondaryattribute: 165
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Diplomacy:
-    DiplomacyMutator: 0.4000000059604645
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 2
-    SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
+    diplomacymutator: 0.4000000059604645
     id: 3357
     marketGroup: 376
     name: Diplomacy
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 2
+    secondaryattribute: 165
+    skilltimeconstant: 1.0
     volume: 0.009999999776482582
   Distribution Connections:
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3443
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3355
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
     id: 3894
     marketGroup: 376
     name: Distribution Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3443
+    requiredskill1level: 3
+    requiredskill2: 3355
+    requiredskill2level: 3
+    secondaryattribute: 165
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Fast Talk:
-    FastTalkMutator: 5
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 4
-    SecondaryAttribute: 165
-    SkillTimeConstant: 4.0
+    fasttalkmutator: 5
     id: 3358
     marketGroup: 376
     name: Fast Talk
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 4
+    secondaryattribute: 165
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Mining Connections:
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3380
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3355
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
     id: 3893
     marketGroup: 376
     name: Mining Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3380
+    requiredskill1level: 3
+    requiredskill2: 3355
+    requiredskill2level: 3
+    secondaryattribute: 165
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Negotiation:
-    NegotiationBonus: 5
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 1
-    SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
     id: 3356
     marketGroup: 376
     name: Negotiation
+    negotiationbonus: 5
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 1
+    secondaryattribute: 165
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Security Connections:
-    PrimaryAttribute: 164
-    Radius: 1.0
-    RequiredSkill1: 3355
-    RequiredSkill1Level: 3
-    RequiredSkill2: 3348
-    RequiredSkill2Level: 3
-    SecondaryAttribute: 165
-    SkillTimeConstant: 2.0
     id: 3895
     marketGroup: 376
     name: Security Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    requiredskill1: 3355
+    requiredskill1level: 3
+    requiredskill2: 3348
+    requiredskill2level: 3
+    secondaryattribute: 165
+    skilltimeconstant: 2.0
     volume: 0.009999999776482582
   Social:
-    PrimaryAttribute: 164
-    Radius: 1.0
-    SecondaryAttribute: 165
-    SkillTimeConstant: 1.0
-    SocialMutator: 5
     id: 3355
     marketGroup: 376
     name: Social
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    primaryattribute: 164
     published: true
+    radius: 1.0
+    secondaryattribute: 165
+    skilltimeconstant: 1.0
+    socialmutator: 5
     volume: 0.009999999776482582

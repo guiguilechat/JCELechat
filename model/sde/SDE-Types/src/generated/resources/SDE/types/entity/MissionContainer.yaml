@@ -1,1138 +1,1051 @@
 types:
   Amarr Frigate Container:
-    Capacity: 500.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    LootRespawnTime: 600000.0
-    Radius: 39.0
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
+    capacity: 500.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
     id: 2077
+    lootrespawntime: 600000.0
     name: Amarr Frigate Container
     portionSize: 1
     published: false
+    radius: 39.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
   Barbican Repository:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 36904
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Barbican Repository
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Barbican Vault:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34499
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Barbican Vault
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Business Associate:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 1.35E7
-    Radius: 400.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 32271
-    mass: 1.35E7
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Business Associate
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 400.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   CONCORD Collection Vessel:
-    Capacity: 100.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    LootRespawnTime: 600000.0
-    Radius: 39.0
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
+    capacity: 100.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
     id: 2163
+    lootrespawntime: 600000.0
     name: CONCORD Collection Vessel
     portionSize: 1
     published: false
+    radius: 39.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
   Cargo Facility 7A-21:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E8
-    Mass: 100000.0
-    Radius: 1255.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30953
-    mass: 100000.0
+    ishacking: 1
+    lootrespawntime: 1.2E8
     name: Cargo Facility 7A-21
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 1255.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Cargo Wreathe:
-    Capacity: 500.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    LootRespawnTime: 600000.0
-    Radius: 207.0
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
+    capacity: 500.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
     id: 30899
+    lootrespawntime: 600000.0
     name: Cargo Wreathe
     portionSize: 1
     published: false
+    radius: 207.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
   Central Archive Cerebrum:
-    AccessDifficulty: -10.0
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 1
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 5000.0
-    Mass: 10000.0
-    Radius: 4738.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
-    TierDifficulty: 4
+    accessdifficulty: -10.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34449
-    mass: 10000.0
+    lootrespawntime: 5000.0
     name: Central Archive Cerebrum
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 4738.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    tierdifficulty: 4
     volume: 27500.0
   Chapel Container:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 14.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 32291
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Chapel Container
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 14.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Cilis Leglise's Headquarters:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 100000.0
-    Radius: 4007.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 32404
-    mass: 100000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Cilis Leglise's Headquarters
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 4007.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Colonial Supply Depot:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 379.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30783
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Colonial Supply Depot
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 379.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Communications Array:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E8
-    Mass: 100000.0
-    Radius: 2636.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30965
-    mass: 100000.0
+    ishacking: 1
+    lootrespawntime: 1.2E8
     name: Communications Array
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 2636.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Conference Center:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 379.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 32224
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Conference Center
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 379.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Conflux Repository:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 36906
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Conflux Repository
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Conflux Vault:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34501
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Conflux Vault
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Dead Drop:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 14.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30762
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Dead Drop
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 14.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Defiants Storage Facility:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E8
-    Mass: 100000.0
-    Radius: 1255.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 32206
-    mass: 100000.0
+    ishacking: 1
+    lootrespawntime: 1.2E8
     name: Defiants Storage Facility
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 1255.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Drone Infested Dominix:
-    CapacitorCapacity: 2700.0
-    Capacity: 600.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 1.05E8
-    Radius: 250.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 600.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 2189
-    mass: 1.05E8
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Drone Infested Dominix
     packagedVolume: 1010000.0
     portionSize: 1
     published: false
+    radius: 250.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 1010000.0
   Emergency Evacuation Freighter:
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    LootRespawnTime: 600000.0
-    Mass: 10000.0
-    Radius: 727.0
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
     id: 3503
-    mass: 10000.0
+    lootrespawntime: 600000.0
     name: Emergency Evacuation Freighter
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 727.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
     volume: 27500.0
   Generic Cargo Container:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 14.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30820
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Generic Cargo Container
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 14.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Guard Post:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 100000.0
-    Radius: 4007.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 2214
-    mass: 100000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Guard Post
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 4007.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Josameto Verification Center:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 14.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30949
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Josameto Verification Center
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 14.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Linked Broadcast Array Hub:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E8
-    Mass: 100.0
-    Radius: 459.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 32127
-    mass: 100.0
+    ishacking: 1
+    lootrespawntime: 1.2E8
     name: Linked Broadcast Array Hub
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 459.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Luxury Spaceliner:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 14.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30654
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Luxury Spaceliner
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 14.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Manager's Station:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 918.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 2903
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Manager's Station
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 918.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Mizara Family Hovel:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 379.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30777
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Mizara Family Hovel
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 379.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Nation Ore Refinery:
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    LootRespawnTime: 600000.0
-    Mass: 10000.0
-    Radius: 14.0
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
     id: 3502
-    mass: 10000.0
+    lootrespawntime: 600000.0
     name: Nation Ore Refinery
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 14.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
     volume: 27500.0
   Orca Container:
-    CapacitorCapacity: 2700.0
-    Capacity: 500.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Radius: 550.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 500.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 2187
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Orca Container
     portionSize: 1
     published: false
+    radius: 550.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
   Redoubt Repository:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 36907
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Redoubt Repository
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Redoubt Vault:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34502
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Redoubt Vault
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Remote Calibration Device - High Power:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 60000.0
-    Mass: 10000.0
-    Radius: 4738.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34374
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 60000.0
     name: Remote Calibration Device - High Power
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 4738.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Remote Calibration Device - Low Power:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 60000.0
-    Mass: 10000.0
-    Radius: 4738.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34373
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 60000.0
     name: Remote Calibration Device - Low Power
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 4738.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Safe House Ruins:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1.0E8
-    IsHacking: 1
-    LootRespawnTime: 1.2E8
-    Mass: 10000.0
-    Radius: 22578.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1.0E8
     id: 32273
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E8
     name: Safe House Ruins
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 22578.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Sansha Control Relay:
-    Capacity: 5000000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    Radius: 1239.0
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
+    capacity: 5000000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
     id: 3508
-    mass: 100000.0
+    lootrespawntime: 600000.0
     name: Sansha Control Relay
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1239.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Sansha Territorial Reclamation Outpost:
-    ArmorHP: 5000.0
-    ArmorUniformity: 1.0
-    Capacity: 10000.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 10
-    EntityEquipmentMin: 5
-    EntityFlyRange: 500.0
-    EntityLootCountMax: 10
-    EntityLootCountMin: 5
-    Falloff: 1.0
-    Hp: 5000.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    Radius: 1239.0
-    ShieldCapacity: 5000.0
-    ShieldRechargeRate: 8.64E7
-    SignatureRadius: 1000.0
-    StructureUniformity: 1.0
+    armorhp: 5000.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 10
+    entityequipmentmin: 5
+    entityflyrange: 500.0
+    entitylootcountmax: 10
+    entitylootcountmin: 5
+    falloff: 1.0
+    hp: 5000.0
     id: 3054
-    mass: 100000.0
+    lootrespawntime: 600000.0
     name: Sansha Territorial Reclamation Outpost
     packagedVolume: 1.0E8
     portionSize: 1
     published: false
+    radius: 1239.0
+    shieldcapacity: 5000.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
     volume: 1.0E8
   Senator Pillius Ardanne:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 1
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 1.35E7
-    Radius: 400.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 32299
-    mass: 1.35E7
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Senator Pillius Ardanne
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 400.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Sentinel Repository:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 36903
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Sentinel Repository
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Sentinel Vault:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34498
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Sentinel Vault
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Serpentis Transport Hub:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 727.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 32394
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Serpentis Transport Hub
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 727.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Shield Transfer Control Tower:
-    Capacity: 1.0E7
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    LootRespawnTime: 600000.0
-    Mass: 100000.0
-    Radius: 3275.0
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
+    capacity: 1.0E7
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
     id: 3495
-    mass: 100000.0
+    lootrespawntime: 600000.0
     name: Shield Transfer Control Tower
     packagedVolume: 1150.0
     portionSize: 1
     published: true
+    radius: 3275.0
+    signatureradius: 100.0
+    structureuniformity: 1.0
     volume: 1150.0
   Sisters of EVE Cold Storage Unit:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    LootRespawnTime: 600000.0
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
     id: 40542
-    mass: 10000.0
+    lootrespawntime: 600000.0
     name: Sisters of EVE Cold Storage Unit
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    signatureradius: 100.0
+    structureuniformity: 1.0
     volume: 27500.0
   Solray Gamma Alignment Unit:
-    AccessDifficulty: -10.0
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 1
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 5000.0
-    Mass: 10000.0
-    Radius: 120.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
-    TierDifficulty: 4
+    accessdifficulty: -10.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34391
-    mass: 10000.0
+    lootrespawntime: 5000.0
     name: Solray Gamma Alignment Unit
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 120.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    tierdifficulty: 4
     volume: 27500.0
   Solray Infrared Alignment Unit:
-    AccessDifficulty: -10.0
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 1
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 5000.0
-    Mass: 10000.0
-    Radius: 120.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
-    TierDifficulty: 4
+    accessdifficulty: -10.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34398
-    mass: 10000.0
+    lootrespawntime: 5000.0
     name: Solray Infrared Alignment Unit
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 120.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    tierdifficulty: 4
     volume: 27500.0
   Solray Radio Alignment Unit:
-    AccessDifficulty: -10.0
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 1
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 5000.0
-    Mass: 10000.0
-    Radius: 120.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
-    TierDifficulty: 4
+    accessdifficulty: -10.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34399
-    mass: 10000.0
+    lootrespawntime: 5000.0
     name: Solray Radio Alignment Unit
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 120.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
+    tierdifficulty: 4
     volume: 27500.0
   Storage Warehouse Container:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 727.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30793
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Storage Warehouse Container
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 727.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   The Quartermaster:
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    LootRespawnTime: 600000.0
-    SignatureRadius: 100.0
-    StructureUniformity: 1.0
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityflyrange: 500.0
+    falloff: 1.0
     id: 46279
+    lootrespawntime: 600000.0
     name: The Quartermaster
     portionSize: 1
     published: false
+    signatureradius: 100.0
+    structureuniformity: 1.0
   Vidette Repository:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 36905
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Vidette Repository
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Vidette Vault:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    LootRespawnTime: 3600000.0
-    Mass: 10000.0
-    Radius: 320.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 34500
-    mass: 10000.0
+    lootrespawntime: 3600000.0
     name: Vidette Vault
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 320.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
   Wolf Burgan's Hideout:
-    CapacitorCapacity: 2700.0
-    Capacity: 2700.0
-    DisallowAssistance: 1
-    EntityAttackRange: 15000
-    EntityChaseMaxDistance: 2500
-    EntityEquipmentMax: 5
-    EntityEquipmentMin: 2
-    EntityFlyRange: 500.0
-    Falloff: 1.0
-    Hp: 1000000.0
-    IsHacking: 1
-    LootRespawnTime: 1.2E9
-    Mass: 10000.0
-    Radius: 918.0
-    SignatureRadius: 500.0
-    SpawnWithoutGuardsToo: 1
-    StructureUniformity: 1.0
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 5
+    entityequipmentmin: 2
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
     id: 30805
-    mass: 10000.0
+    ishacking: 1
+    lootrespawntime: 1.2E9
     name: Wolf Burgan's Hideout
     packagedVolume: 27500.0
     portionSize: 1
     published: false
+    radius: 918.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    structureuniformity: 1.0
     volume: 27500.0
