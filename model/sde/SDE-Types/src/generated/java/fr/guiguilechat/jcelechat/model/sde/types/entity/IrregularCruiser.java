@@ -425,6 +425,20 @@ public class IrregularCruiser
     @DefaultDoubleValue(1.0)
     public double DamageMultiplier;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.5)
+    public double DamageMultiplierBonusMax;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double DamageMultiplierBonusPerCycle;
+    /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
     @HighIsGood(true)
@@ -1448,6 +1462,14 @@ public class IrregularCruiser
             case  64 :
             {
                 return DamageMultiplier;
+            }
+            case  2734 :
+            {
+                return DamageMultiplierBonusMax;
+            }
+            case  2733 :
+            {
+                return DamageMultiplierBonusPerCycle;
             }
             case  854 :
             {

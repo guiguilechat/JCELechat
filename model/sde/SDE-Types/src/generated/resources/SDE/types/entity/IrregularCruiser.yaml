@@ -14,6 +14,7 @@ types:
     CapacitorCapacity: 450.0
     Capacity: 280.0
     DamageMultiplier: 5.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 8.0
     EmDamageResonance: 1.0
@@ -95,6 +96,102 @@ types:
     portionSize: 1
     published: false
     volume: 118000.0
+  Anchoring Jarognik Vedmak:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 0.30000001192092896
+    ArmorDamageAmount: 35.0
+    ArmorEmDamageResonance: 0.4399999976158142
+    ArmorExplosiveDamageResonance: 0.5799999833106995
+    ArmorHP: 8700.0
+    ArmorKineticDamageResonance: 0.46000000834465027
+    ArmorThermalDamageResonance: 0.550000011920929
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 75
+    BehaviorArmorRepairerDischarge: 25
+    BehaviorArmorRepairerDuration: 9000
+    BehaviorRemoteArmorRepairDischarge: 30.0
+    BehaviorRemoteArmorRepairDuration: 3000.0
+    BehaviorRemoteArmorRepairFalloff: 40000
+    BehaviorRemoteArmorRepairRange: 30000
+    BehaviorWarpScrambleDischarge: 2.0
+    BehaviorWarpScrambleDuration: 5000
+    BehaviorWarpScrambleRange: 11400.0
+    BehaviorWarpScrambleStrength: 2
+    CapacitorCapacity: 1400.0
+    Capacity: 480.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EnergyNeutralizerDuration: 30000
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 12000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 440.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.004000000189989805
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 84.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47918
+    Hp: 3700.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 9530000.0
+    MaxDirectionalVelocity: 1
+    MaxLockedTargets: 7
+    MaxRange: 35000.0
+    MaxTargetRange: 100000.0
+    MaxVelocity: 2200.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    ModifyTargetSpeedDuration: 5000.0
+    ModifyTargetSpeedRange: 20000
+    NpcBehaviorMaximumCombatOrbitRange: 7000
+    OptimalSigRadius: 40000
+    Radius: 110.0
+    RechargeRate: 395000.0
+    ScanRadarStrength: 18.0
+    ScanResolution: 1200.0
+    ShieldCapacity: 2500.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 800000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 200.0
+    Speed: 4000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 95.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 200.0
+    WarpScrambleDuration: 8000
+    WarpSpeedMultiplier: 3.0
+    id: 54670
+    mass: 9530000.0
+    name: Anchoring Jarognik Vedmak
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    volume: 118000.0
   Auspex Slaver:
     AITankingModifierDrone: 0.699999988079071
     Agility: 3.0999999046325684
@@ -106,6 +203,7 @@ types:
     CapacitorCapacity: 370.0
     Capacity: 400.0
     DamageMultiplier: 12.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 7.0
     EmDamageResonance: 1.0
@@ -190,6 +288,7 @@ types:
     CapacitorCapacity: 450.0
     Capacity: 235.0
     DamageMultiplier: 5.952381134033203
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 10.0
     EmDamageResonance: 1.0
@@ -292,6 +391,7 @@ types:
     CapacitorCapacity: 1625.0
     Capacity: 320.0
     DamageMultiplier: 6.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 0.4690000116825104
     EnergyNeutralizerDuration: 30000
     EntityAttackRange: 15000
@@ -387,6 +487,7 @@ types:
     CapacitorCapacity: 2015.0
     Capacity: 400.0
     DamageMultiplier: 22.0
+    DamageMultiplierBonusMax: 0.5
     EmDamage: 6.0
     EmDamageResonance: 0.4690000116825104
     EnergyNeutralizerAmount: 80.0
@@ -478,6 +579,7 @@ types:
     CapacitorCapacity: 5000.0
     Capacity: 495.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 0.4690000116825104
     EnergyNeutralizerDuration: 30000
     EntityAttackRange: 15000
@@ -568,6 +670,7 @@ types:
     CapacitorCapacity: 1500.0
     Capacity: 315.0
     DamageMultiplier: 15.0
+    DamageMultiplierBonusMax: 0.5
     EmDamage: 6.0
     EmDamageResonance: 0.4690000116825104
     EnergyNeutralizerDuration: 30000
@@ -662,6 +765,7 @@ types:
     CapacitorCapacity: 1642.0
     Capacity: 320.0
     DamageMultiplier: 10.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 0.4690000116825104
     EnergyNeutralizerDuration: 30000
     EntityAttackRange: 15000
@@ -755,6 +859,7 @@ types:
     CapacitorCapacity: 6000.0
     Capacity: 495.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 0.4690000116825104
     EnergyNeutralizerDuration: 30000
     EntityAttackRange: 15000
@@ -845,6 +950,7 @@ types:
     CapacitorCapacity: 2145.0
     Capacity: 450.0
     DamageMultiplier: 16.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 0.4690000116825104
     EnergyNeutralizerDuration: 30000
     EntityAttackRange: 15000
@@ -932,6 +1038,7 @@ types:
     CapacitorCapacity: 450.0
     Capacity: 235.0
     DamageMultiplier: 3.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 40.0
     EmDamageResonance: 1.0
@@ -1027,6 +1134,7 @@ types:
     CapacitorCapacity: 625.0
     Capacity: 1200.0
     DamageMultiplier: 3.75
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 8.0
     EmDamageResonance: 1.0
@@ -1127,6 +1235,7 @@ types:
     CapacitorCapacity: 1600.0
     Capacity: 450.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 0.46000000834465027
     EnergyNeutralizerDuration: 30000
@@ -1208,6 +1317,7 @@ types:
     CapacitorCapacity: 2000.0
     Capacity: 450.0
     DamageMultiplier: 21.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 0.46000000834465027
     EnergyNeutralizerDuration: 30000
@@ -1302,6 +1412,7 @@ types:
     CapacitorCapacity: 2000.0
     Capacity: 460.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 0.46000000834465027
     EnergyNeutralizerAmount: 110.0
@@ -1382,6 +1493,7 @@ types:
     CapacitorCapacity: 1250.0
     Capacity: 250.0
     DamageMultiplier: 3.0
+    DamageMultiplierBonusMax: 0.5
     EmDamage: 20.0
     EmDamageResonance: 1.0
     EnergyNeutralizerDuration: 30000
@@ -1470,6 +1582,7 @@ types:
     ArmorUniformity: 0.75
     CapacitorCapacity: 725.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 20.0
     EmDamageResonance: 1.0
@@ -1561,6 +1674,7 @@ types:
     CapacitorCapacity: 110.0
     Capacity: 120.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 10.0
     EmDamageResonance: 1.0
@@ -1659,6 +1773,7 @@ types:
     CapacitorCapacity: 725.0
     Capacity: 120.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 20.0
     EmDamageResonance: 1.0
@@ -1750,6 +1865,7 @@ types:
     CapacitorCapacity: 1415.0
     Capacity: 120.0
     DamageMultiplier: 35.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 1.0
     EnergyNeutralizerDuration: 30000
@@ -1833,6 +1949,7 @@ types:
     CapacitorCapacity: 1400.0
     Capacity: 440.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 1.0
     EnergyNeutralizerDuration: 30000
     EntityAttackRange: 15000
@@ -1913,6 +2030,7 @@ types:
     CapacitorCapacity: 825.0
     Capacity: 235.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 1.0
     EnergyNeutralizerDuration: 30000
     EntityAttackRange: 15000
@@ -2007,6 +2125,7 @@ types:
     CapacitorCapacity: 2000.0
     Capacity: 305.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 0.6700000166893005
     EnergyNeutralizerAmount: 40.0
@@ -2098,6 +2217,7 @@ types:
     CapacitorCapacity: 2000.0
     Capacity: 450.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 0.6700000166893005
     EnergyNeutralizerDuration: 30000
@@ -2188,6 +2308,7 @@ types:
     CapacitorCapacity: 2000.0
     Capacity: 440.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 0.6700000166893005
     EnergyNeutralizerAmount: 40.0
@@ -2257,6 +2378,99 @@ types:
     portionSize: 1
     published: false
     volume: 92000.0
+  Liminal Jarognik Vedmak:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 0.30000001192092896
+    ArmorDamageAmount: 35.0
+    ArmorEmDamageResonance: 0.4399999976158142
+    ArmorExplosiveDamageResonance: 0.5799999833106995
+    ArmorHP: 8700.0
+    ArmorKineticDamageResonance: 0.46000000834465027
+    ArmorThermalDamageResonance: 0.550000011920929
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 75
+    BehaviorArmorRepairerDischarge: 25
+    BehaviorArmorRepairerDuration: 9000
+    BehaviorRemoteArmorRepairDischarge: 30.0
+    BehaviorRemoteArmorRepairDuration: 3000.0
+    BehaviorRemoteArmorRepairFalloff: 40000
+    BehaviorRemoteArmorRepairRange: 30000
+    CapacitorCapacity: 1400.0
+    Capacity: 480.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EnergyNeutralizerDuration: 30000
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 12000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 460.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityMissileTypeID: 52477
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.004000000189989805
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 105.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47918
+    Hp: 3700.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 9530000.0
+    MaxDirectionalVelocity: 1
+    MaxLockedTargets: 7
+    MaxRange: 35000.0
+    MaxTargetRange: 100000.0
+    MaxVelocity: 2300.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 3.0
+    MissileEntityAoeCloudSizeMultiplier: 0.75
+    MissileEntityAoeVelocityMultiplier: 2.0
+    MissileEntityFlightTimeMultiplier: 4.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 12000.0
+    ModifyTargetSpeedDuration: 5000.0
+    ModifyTargetSpeedRange: 20000
+    NpcBehaviorMaximumCombatOrbitRange: 7000
+    OptimalSigRadius: 40000
+    Radius: 110.0
+    RechargeRate: 395000.0
+    ScanRadarStrength: 18.0
+    ScanResolution: 1200.0
+    ShieldCapacity: 2500.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 800000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 200.0
+    Speed: 4000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 118.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 200.0
+    WarpScrambleDuration: 8000
+    WarpSpeedMultiplier: 3.0
+    id: 54662
+    mass: 9530000.0
+    name: Liminal Jarognik Vedmak
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    volume: 118000.0
   Mordu's Decurion:
     AITankingModifierDrone: 0.699999988079071
     Agility: 0.31725001335144043
@@ -2268,6 +2482,7 @@ types:
     CapacitorCapacity: 1562.5
     Capacity: 235.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 1.0
     EnergyNeutralizerDuration: 30000
     EntityAttackRange: 15000
@@ -2340,6 +2555,7 @@ types:
     CapacitorCapacity: 725.0
     Capacity: 120.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     EmDamage: 20.0
     EmDamageResonance: 1.0
     EnergyNeutralizerDuration: 30000
@@ -2423,6 +2639,7 @@ types:
     CapacitorCapacity: 725.0
     Capacity: 120.0
     DamageMultiplier: 0.800000011920929
+    DamageMultiplierBonusMax: 0.5
     EmDamage: 20.0
     EmDamageResonance: 1.0
     EnergyNeutralizerAmount: 60.0
@@ -2507,6 +2724,7 @@ types:
     CapacitorCapacity: 725.0
     Capacity: 235.0
     DamageMultiplier: 4.900000095367432
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 10.0
     EmDamageResonance: 1.0
@@ -2611,6 +2829,7 @@ types:
     CapacitorCapacity: 775.0
     Capacity: 235.0
     DamageMultiplier: 6.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 10.0
     EmDamageResonance: 1.0
@@ -2711,6 +2930,7 @@ types:
     CapacitorCapacity: 650.0
     Capacity: 235.0
     DamageMultiplier: 3.125
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 8.0
     EmDamageResonance: 1.0
@@ -2818,6 +3038,7 @@ types:
     CapacitorCapacity: 450.0
     Capacity: 280.0
     DamageMultiplier: 5.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 8.0
     EmDamageResonance: 1.0
@@ -2899,6 +3120,98 @@ types:
     portionSize: 1
     published: false
     volume: 118000.0
+  Renewing Jarognik Rodiva:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 0.30000001192092896
+    ArmorDamageAmount: 100.0
+    ArmorEmDamageResonance: 0.4399999976158142
+    ArmorExplosiveDamageResonance: 0.5799999833106995
+    ArmorHP: 7000.0
+    ArmorKineticDamageResonance: 0.46000000834465027
+    ArmorThermalDamageResonance: 0.550000011920929
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 75
+    BehaviorArmorRepairerDischarge: 25
+    BehaviorArmorRepairerDuration: 9000
+    BehaviorRemoteArmorRepairDischarge: 30.0
+    BehaviorRemoteArmorRepairDuration: 2000.0
+    BehaviorRemoteArmorRepairFalloff: 40000
+    BehaviorRemoteArmorRepairRange: 30000
+    CapacitorCapacity: 1870.0
+    Capacity: 435.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EnergyNeutralizerDuration: 30000
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 14000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 380.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.004000000189989805
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 34.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47918
+    Hp: 2600.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 1.012E7
+    MaxDirectionalVelocity: 1
+    MaxLockedTargets: 9
+    MaxRange: 35000.0
+    MaxTargetRange: 100000.0
+    MaxVelocity: 1900.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    ModifyTargetSpeedDuration: 5000.0
+    ModifyTargetSpeedRange: 20000
+    NpcBehaviorMaximumCombatOrbitRange: 10000
+    OptimalSigRadius: 40000
+    Radius: 250.0
+    RechargeRate: 395000.0
+    ScanRadarStrength: 22.0
+    ScanResolution: 1600.0
+    ShieldCapacity: 1800.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 800000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 200.0
+    Speed: 4000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 34.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 200.0
+    WarpScrambleDuration: 8000
+    WarpSpeedMultiplier: 3.0
+    id: 54675
+    mass: 1.012E7
+    name: Renewing Jarognik Rodiva
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    volume: 118000.0
   Serpentis Cruiser:
     AIIgnoreDronesBelowSignatureRadius: 50
     AIShouldUseEffectMultiplier: 1
@@ -2914,6 +3227,7 @@ types:
     CapacitorCapacity: 775.0
     Capacity: 480.0
     DamageMultiplier: 6.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 1.0
     EnergyNeutralizerDuration: 30000
@@ -2998,6 +3312,393 @@ types:
     portionSize: 1
     published: false
     volume: 112000.0
+  Starving Jarognik Vedmak:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 0.30000001192092896
+    ArmorDamageAmount: 35.0
+    ArmorEmDamageResonance: 0.4399999976158142
+    ArmorExplosiveDamageResonance: 0.5799999833106995
+    ArmorHP: 8700.0
+    ArmorKineticDamageResonance: 0.46000000834465027
+    ArmorThermalDamageResonance: 0.550000011920929
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 75
+    BehaviorArmorRepairerDischarge: 25
+    BehaviorArmorRepairerDuration: 9000
+    BehaviorEnergyNeutralizerDischarge: 30.0
+    BehaviorEnergyNeutralizerDuration: 8000
+    BehaviorEnergyNeutralizerFalloff: 5000
+    BehaviorEnergyNeutralizerRange: 10000
+    BehaviorRemoteArmorRepairDischarge: 30.0
+    BehaviorRemoteArmorRepairDuration: 3000.0
+    BehaviorRemoteArmorRepairFalloff: 40000
+    BehaviorRemoteArmorRepairRange: 30000
+    CapacitorCapacity: 1400.0
+    Capacity: 480.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EnergyNeutralizerAmount: 180.0
+    EnergyNeutralizerDuration: 30000
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 12000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 440.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.004000000189989805
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 84.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47918
+    Hp: 3700.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 9530000.0
+    MaxDirectionalVelocity: 1
+    MaxLockedTargets: 7
+    MaxRange: 35000.0
+    MaxTargetRange: 100000.0
+    MaxVelocity: 2200.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    ModifyTargetSpeedDuration: 5000.0
+    ModifyTargetSpeedRange: 20000
+    NpcBehaviorMaximumCombatOrbitRange: 7000
+    OptimalSigRadius: 40000
+    Radius: 110.0
+    RechargeRate: 395000.0
+    ScanRadarStrength: 18.0
+    ScanResolution: 1200.0
+    ShieldCapacity: 2500.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 800000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 200.0
+    Speed: 4000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 95.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 200.0
+    WarpScrambleDuration: 8000
+    WarpSpeedMultiplier: 3.0
+    id: 54679
+    mass: 9530000.0
+    name: Starving Jarognik Vedmak
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    volume: 118000.0
+  Tangling Jarognik Vedmak:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 0.30000001192092896
+    ArmorDamageAmount: 35.0
+    ArmorEmDamageResonance: 0.4399999976158142
+    ArmorExplosiveDamageResonance: 0.5799999833106995
+    ArmorHP: 8700.0
+    ArmorKineticDamageResonance: 0.46000000834465027
+    ArmorThermalDamageResonance: 0.550000011920929
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 75
+    BehaviorArmorRepairerDischarge: 25
+    BehaviorArmorRepairerDuration: 9000
+    BehaviorRemoteArmorRepairDischarge: 30.0
+    BehaviorRemoteArmorRepairDuration: 3000.0
+    BehaviorRemoteArmorRepairFalloff: 40000
+    BehaviorRemoteArmorRepairRange: 30000
+    BehaviorWarpScrambleDischarge: 3.0
+    BehaviorWebifierDischarge: 2.0
+    BehaviorWebifierDuration: 5000
+    BehaviorWebifierRange: 12000
+    CapacitorCapacity: 1400.0
+    Capacity: 480.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EnergyNeutralizerDuration: 30000
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 12000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 440.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.004000000189989805
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 84.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47918
+    Hp: 3700.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 9530000.0
+    MaxDirectionalVelocity: 1
+    MaxLockedTargets: 7
+    MaxRange: 35000.0
+    MaxTargetRange: 100000.0
+    MaxVelocity: 2200.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    ModifyTargetSpeedDuration: 5000.0
+    ModifyTargetSpeedRange: 20000
+    NpcBehaviorMaximumCombatOrbitRange: 7000
+    OptimalSigRadius: 40000
+    Radius: 110.0
+    RechargeRate: 395000.0
+    ScanRadarStrength: 18.0
+    ScanResolution: 1200.0
+    ShieldCapacity: 2500.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 800000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 200.0
+    Speed: 4000.0
+    SpeedFactor: -50.0
+    StructureUniformity: 1.0
+    ThermalDamage: 95.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 200.0
+    WarpScrambleDuration: 8000
+    WarpSpeedMultiplier: 3.0
+    id: 54681
+    mass: 9530000.0
+    name: Tangling Jarognik Vedmak
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    volume: 118000.0
+  Voivode Jarognik Rodiva:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 0.30000001192092896
+    ArmorDamageAmount: 150.0
+    ArmorEmDamageResonance: 0.38999998569488525
+    ArmorExplosiveDamageResonance: 0.5299999713897705
+    ArmorHP: 7000.0
+    ArmorKineticDamageResonance: 0.4099999964237213
+    ArmorThermalDamageResonance: 0.5
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 80
+    BehaviorArmorRepairerDischarge: 25
+    BehaviorArmorRepairerDuration: 9000
+    BehaviorRemoteArmorRepairDischarge: 30.0
+    BehaviorRemoteArmorRepairDuration: 2000.0
+    BehaviorRemoteArmorRepairFalloff: 40000
+    BehaviorRemoteArmorRepairRange: 30000
+    CapacitorCapacity: 1870.0
+    Capacity: 435.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EnergyNeutralizerDuration: 30000
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 14000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 380.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.012000000104308128
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 60.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47918
+    Hp: 2600.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 1.012E7
+    MaxDirectionalVelocity: 1
+    MaxLockedTargets: 9
+    MaxRange: 35000.0
+    MaxTargetRange: 100000.0
+    MaxVelocity: 1900.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    ModifyTargetSpeedDuration: 5000.0
+    ModifyTargetSpeedRange: 20000
+    NpcBehaviorMaximumCombatOrbitRange: 10000
+    OptimalSigRadius: 40000
+    Radius: 250.0
+    RechargeRate: 395000.0
+    ScanRadarStrength: 22.0
+    ScanResolution: 1600.0
+    ShieldCapacity: 1800.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 800000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 200.0
+    Speed: 4000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 60.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 300.0
+    WarpScrambleDuration: 8000
+    WarpSpeedMultiplier: 3.0
+    id: 54676
+    mass: 1.012E7
+    name: Voivode Jarognik Rodiva
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    volume: 118000.0
+  Voivode Jarognik Vedmak:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 0.30000001192092896
+    ArmorDamageAmount: 50.0
+    ArmorEmDamageResonance: 0.38999998569488525
+    ArmorExplosiveDamageResonance: 0.5299999713897705
+    ArmorHP: 8700.0
+    ArmorKineticDamageResonance: 0.4099999964237213
+    ArmorThermalDamageResonance: 0.5
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 200
+    BehaviorArmorRepairerDischarge: 25
+    BehaviorArmorRepairerDuration: 9000
+    BehaviorEnergyNeutralizerDischarge: 30.0
+    BehaviorEnergyNeutralizerDuration: 8000
+    BehaviorEnergyNeutralizerFalloff: 5000
+    BehaviorEnergyNeutralizerRange: 10000
+    BehaviorRemoteArmorRepairDischarge: 30.0
+    BehaviorRemoteArmorRepairDuration: 3000.0
+    BehaviorRemoteArmorRepairFalloff: 40000
+    BehaviorRemoteArmorRepairRange: 30000
+    BehaviorWarpScrambleDischarge: 2.0
+    BehaviorWarpScrambleDuration: 5000
+    BehaviorWarpScrambleRange: 15000.0
+    BehaviorWarpScrambleStrength: 2
+    CapacitorCapacity: 1400.0
+    Capacity: 480.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EnergyNeutralizerAmount: 180.0
+    EnergyNeutralizerDuration: 30000
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 12000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 460.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityMissileTypeID: 52477
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.012000000104308128
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 158.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47918
+    Hp: 3700.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 9530000.0
+    MaxDirectionalVelocity: 1
+    MaxLockedTargets: 7
+    MaxRange: 35000.0
+    MaxTargetRange: 100000.0
+    MaxVelocity: 2300.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 5.0
+    MissileEntityAoeCloudSizeMultiplier: 0.75
+    MissileEntityAoeVelocityMultiplier: 2.0
+    MissileEntityFlightTimeMultiplier: 4.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 10000.0
+    ModifyTargetSpeedDuration: 5000.0
+    ModifyTargetSpeedRange: 20000
+    NpcBehaviorMaximumCombatOrbitRange: 7000
+    OptimalSigRadius: 40000
+    Radius: 110.0
+    RechargeRate: 395000.0
+    ScanRadarStrength: 18.0
+    ScanResolution: 1200.0
+    ShieldCapacity: 2500.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 800000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 200.0
+    Speed: 4000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 177.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 400.0
+    WarpScrambleDuration: 8000
+    WarpSpeedMultiplier: 3.0
+    id: 54672
+    mass: 9530000.0
+    name: Voivode Jarognik Vedmak
+    packagedVolume: 118000.0
+    portionSize: 1
+    published: false
+    volume: 118000.0
   Wrecker Alvum:
     AIIgnoreDronesBelowSignatureRadius: 50
     AIShouldUseEffectMultiplier: 1
@@ -3013,6 +3714,7 @@ types:
     CapacitorCapacity: 600.0
     Capacity: 1200.0
     DamageMultiplier: 3.75
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 8.0
     EmDamageResonance: 1.0

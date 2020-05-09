@@ -1,4 +1,196 @@
 types:
+  Anchoring Jarognik Kikimora:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 1.0
+    ArmorDamageAmount: 5.0
+    ArmorEmDamageResonance: 0.49000000953674316
+    ArmorExplosiveDamageResonance: 0.6399999856948853
+    ArmorHP: 2583.0
+    ArmorKineticDamageResonance: 0.5099999904632568
+    ArmorThermalDamageResonance: 0.6000000238418579
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 25
+    BehaviorArmorRepairerDischarge: 10
+    BehaviorArmorRepairerDuration: 4500
+    BehaviorRemoteArmorRepairDischarge: 6.0
+    BehaviorRemoteArmorRepairDuration: 2000.0
+    BehaviorRemoteArmorRepairFalloff: 25000
+    BehaviorRemoteArmorRepairRange: 15000
+    BehaviorWarpScrambleDischarge: 2.0
+    BehaviorWarpScrambleDuration: 5000
+    BehaviorWarpScrambleRange: 11400.0
+    BehaviorWarpScrambleStrength: 2
+    CapacitorCapacity: 500.0
+    Capacity: 360.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 10000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 240.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.0020000000949949026
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 48.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47914
+    Hp: 910.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 1350000.0
+    MaxLockedTargets: 5
+    MaxRange: 20000.0
+    MaxTargetRange: 80000.0
+    MaxVelocity: 1950.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    NpcAssistanceRange: 5000
+    NpcBehaviorMaximumCombatOrbitRange: 6000
+    NpcRemoteArmorRepairChance: 1.0
+    NpcRemoteArmorRepairDuration: 10000
+    NpcRemoteArmorRepairThreshold: 0.25
+    OptimalSigRadius: 40
+    Radius: 42.0
+    RechargeRate: 150000.0
+    ScanRadarStrength: 12.0
+    ScanResolution: 1800.0
+    ShieldCapacity: 700.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 400000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100.0
+    Speed: 3000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 87.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 4.0
+    WarpSpeedMultiplier: 3.0
+    id: 54666
+    mass: 1350000.0
+    name: Anchoring Jarognik Kikimora
+    packagedVolume: 43000.0
+    portionSize: 1
+    published: false
+    volume: 43000.0
+  Blinding Jarognik Kikimora:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 1.0
+    ArmorDamageAmount: 5.0
+    ArmorEmDamageResonance: 0.49000000953674316
+    ArmorExplosiveDamageResonance: 0.6399999856948853
+    ArmorHP: 2583.0
+    ArmorKineticDamageResonance: 0.5099999904632568
+    ArmorThermalDamageResonance: 0.6000000238418579
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 25
+    BehaviorArmorRepairerDischarge: 10
+    BehaviorArmorRepairerDuration: 4500
+    BehaviorRemoteArmorRepairDischarge: 6.0
+    BehaviorRemoteArmorRepairDuration: 2000.0
+    BehaviorRemoteArmorRepairFalloff: 25000
+    BehaviorRemoteArmorRepairRange: 15000
+    BehaviorSensorDampenerDischarge: 5.0
+    BehaviorSensorDampenerDuration: 5000
+    BehaviorSensorDampenerFalloff: 50000.0
+    BehaviorSensorDampenerRange: 20000.0
+    CapacitorCapacity: 500.0
+    Capacity: 360.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 10000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 240.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.0020000000949949026
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 48.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47914
+    Hp: 910.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 1350000.0
+    MaxLockedTargets: 5
+    MaxRange: 20000.0
+    MaxTargetRange: 80000.0
+    MaxTargetRangeBonus: -20.0
+    MaxVelocity: 1950.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    NpcAssistanceRange: 5000
+    NpcBehaviorMaximumCombatOrbitRange: 6000
+    NpcRemoteArmorRepairChance: 1.0
+    NpcRemoteArmorRepairDuration: 10000
+    NpcRemoteArmorRepairThreshold: 0.25
+    OptimalSigRadius: 40
+    Radius: 42.0
+    RechargeRate: 150000.0
+    ScanRadarStrength: 12.0
+    ScanResolution: 1800.0
+    ScanResolutionBonus: -20.0
+    ShieldCapacity: 700.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 400000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100.0
+    Speed: 3000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 87.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 4.0
+    WarpSpeedMultiplier: 3.0
+    id: 54668
+    mass: 1350000.0
+    name: Blinding Jarognik Kikimora
+    packagedVolume: 43000.0
+    portionSize: 1
+    published: false
+    volume: 43000.0
   Carousing Catalyst:
     AITankingModifierDrone: 0.699999988079071
     Agility: 0.8999999761581421
@@ -17,6 +209,7 @@ types:
     CapacitorCapacity: 950.0
     Capacity: 425.0
     DamageMultiplier: 18.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 0.4690000116825104
     EntityAttackRange: 15000
     EntityChaseMaxDelay: 1
@@ -101,6 +294,7 @@ types:
     CapacitorCapacity: 700.0
     Capacity: 265.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 0.4690000116825104
     EntityAttackRange: 15000
     EntityChaseMaxDelay: 1
@@ -183,6 +377,7 @@ types:
     CapacitorCapacity: 190.0
     Capacity: 235.0
     DamageMultiplier: 8.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 26.0
     EmDamageResonance: 1.0
@@ -275,6 +470,7 @@ types:
     CapacitorCapacity: 750.0
     Capacity: 425.0
     DamageMultiplier: 27.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 0.46000000834465027
     EntityAttackRange: 15000
@@ -360,6 +556,7 @@ types:
     CapacitorCapacity: 725.0
     Capacity: 120.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 20.0
     EmDamageResonance: 1.0
@@ -436,6 +633,112 @@ types:
     portionSize: 1
     published: false
     volume: 109000.0
+  Ghosting Jarognik Kikimora:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 1.0
+    AoeCloudSizeBonus: 17.0
+    AoeVelocityBonus: -17.0
+    ArmorDamageAmount: 5.0
+    ArmorEmDamageResonance: 0.49000000953674316
+    ArmorExplosiveDamageResonance: 0.6399999856948853
+    ArmorHP: 2583.0
+    ArmorKineticDamageResonance: 0.5099999904632568
+    ArmorThermalDamageResonance: 0.6000000238418579
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 25
+    BehaviorArmorRepairerDischarge: 10
+    BehaviorArmorRepairerDuration: 4500
+    BehaviorRemoteArmorRepairDischarge: 6.0
+    BehaviorRemoteArmorRepairDuration: 2000.0
+    BehaviorRemoteArmorRepairFalloff: 25000
+    BehaviorRemoteArmorRepairRange: 15000
+    CapacitorCapacity: 500.0
+    Capacity: 360.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 10000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 240.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.0020000000949949026
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosionDelayBonus: -13.25
+    ExplosiveDamage: 48.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    FalloffBonus: -18.5
+    GfxBoosterID: 397
+    GfxTurretID: 47914
+    Hp: 910.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 1350000.0
+    MaxLockedTargets: 5
+    MaxRange: 20000.0
+    MaxRangeBonus: -18.5
+    MaxTargetRange: 80000.0
+    MaxVelocity: 1950.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    MissileVelocityBonus: -13.25
+    NpcAssistanceRange: 5000
+    NpcBehaviorMaximumCombatOrbitRange: 6000
+    NpcGuidanceDisruptorDischarge: 3.0
+    NpcGuidanceDisruptorDuration: 5000
+    NpcGuidanceDisruptorFalloff: 30000
+    NpcGuidanceDisruptorRange: 20000
+    NpcRemoteArmorRepairChance: 1.0
+    NpcRemoteArmorRepairDuration: 10000
+    NpcRemoteArmorRepairThreshold: 0.25
+    NpcTrackingDisruptorDischarge: 3.0
+    NpcTrackingDisruptorDuration: 5000
+    NpcTrackingDisruptorFalloff: 30000
+    NpcTrackingDisruptorRange: 20000
+    OptimalSigRadius: 40
+    Radius: 42.0
+    RechargeRate: 150000.0
+    ScanRadarStrength: 12.0
+    ScanResolution: 1800.0
+    ShieldCapacity: 700.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 400000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100.0
+    Speed: 3000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 87.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 4.0
+    TrackingSpeedBonus: -18.5
+    WarpSpeedMultiplier: 3.0
+    id: 54669
+    mass: 1350000.0
+    name: Ghosting Jarognik Kikimora
+    packagedVolume: 43000.0
+    portionSize: 1
+    published: false
+    volume: 43000.0
   Guristas Destroyer:
     AITankingModifierDrone: 0.699999988079071
     Agility: 3.200000047683716
@@ -448,6 +751,7 @@ types:
     CapacitorCapacity: 170.0
     Capacity: 235.0
     DamageMultiplier: 5.020833492279053
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 1.0
     EntityAttackRange: 15000
     EntityBracketColour: 1
@@ -536,6 +840,7 @@ types:
     CapacitorCapacity: 700.0
     Capacity: 450.0
     DamageMultiplier: 1.0
+    DamageMultiplierBonusMax: 0.5
     EmDamageResonance: 0.6700000166893005
     EntityAttackRange: 15000
     EntityChaseMaxDelay: 1
@@ -620,6 +925,7 @@ types:
     CapacitorCapacity: 700.0
     Capacity: 425.0
     DamageMultiplier: 15.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 0.6700000166893005
     EntityAttackRange: 15000
@@ -691,6 +997,98 @@ types:
     portionSize: 1
     published: false
     volume: 52000.0
+  Liminal Jarognik Kikimora:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 1.0
+    ArmorDamageAmount: 5.0
+    ArmorEmDamageResonance: 0.49000000953674316
+    ArmorExplosiveDamageResonance: 0.6399999856948853
+    ArmorHP: 2583.0
+    ArmorKineticDamageResonance: 0.5099999904632568
+    ArmorThermalDamageResonance: 0.6000000238418579
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 25
+    BehaviorArmorRepairerDischarge: 10
+    BehaviorArmorRepairerDuration: 4500
+    BehaviorRemoteArmorRepairDischarge: 6.0
+    BehaviorRemoteArmorRepairDuration: 2000.0
+    BehaviorRemoteArmorRepairFalloff: 25000
+    BehaviorRemoteArmorRepairRange: 15000
+    CapacitorCapacity: 500.0
+    Capacity: 360.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 10000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 240.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityMissileTypeID: 52476
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.0020000000949949026
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 60.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47914
+    Hp: 910.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 1350000.0
+    MaxLockedTargets: 5
+    MaxRange: 20000.0
+    MaxTargetRange: 80000.0
+    MaxVelocity: 1950.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 2.0
+    MissileEntityAoeCloudSizeMultiplier: 0.75
+    MissileEntityAoeVelocityMultiplier: 2.0
+    MissileEntityFlightTimeMultiplier: 4.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 8000.0
+    NpcAssistanceRange: 5000
+    NpcBehaviorMaximumCombatOrbitRange: 6000
+    NpcRemoteArmorRepairChance: 1.0
+    NpcRemoteArmorRepairDuration: 10000
+    NpcRemoteArmorRepairThreshold: 0.25
+    OptimalSigRadius: 40
+    Radius: 42.0
+    RechargeRate: 150000.0
+    ScanRadarStrength: 12.0
+    ScanResolution: 1800.0
+    ShieldCapacity: 700.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 400000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100.0
+    Speed: 3000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 108.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 4.0
+    WarpSpeedMultiplier: 3.0
+    id: 54663
+    mass: 1350000.0
+    name: Liminal Jarognik Kikimora
+    packagedVolume: 43000.0
+    portionSize: 1
+    published: false
+    volume: 43000.0
   Noumenal Divider:
     AITankingModifierDrone: 0.699999988079071
     Agility: 3.5
@@ -702,6 +1100,7 @@ types:
     CapacitorCapacity: 725.0
     Capacity: 120.0
     DamageMultiplier: 1.5
+    DamageMultiplierBonusMax: 0.5
     EmDamage: 20.0
     EmDamageResonance: 1.0
     EntityAttackRange: 15000
@@ -784,6 +1183,7 @@ types:
     CapacitorCapacity: 180.0
     Capacity: 235.0
     DamageMultiplier: 5.25
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamage: 6.0
     EmDamageResonance: 1.0
@@ -882,6 +1282,7 @@ types:
     CapacitorCapacity: 180.0
     Capacity: 1200.0
     DamageMultiplier: 5.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 1.0
     EntityArmorRepairAmount: 65.0
@@ -982,6 +1383,7 @@ types:
     CapacitorCapacity: 170.0
     Capacity: 1200.0
     DamageMultiplier: 5.0
+    DamageMultiplierBonusMax: 0.5
     DisallowAssistance: 1
     EmDamageResonance: 1.0
     EntityArmorRepairAmount: 65.0
@@ -1067,3 +1469,292 @@ types:
     portionSize: 1
     published: false
     volume: 60.0
+  Starving Jarognik Kikimora:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 1.0
+    ArmorDamageAmount: 5.0
+    ArmorEmDamageResonance: 0.49000000953674316
+    ArmorExplosiveDamageResonance: 0.6399999856948853
+    ArmorHP: 2583.0
+    ArmorKineticDamageResonance: 0.5099999904632568
+    ArmorThermalDamageResonance: 0.6000000238418579
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 25
+    BehaviorArmorRepairerDischarge: 10
+    BehaviorArmorRepairerDuration: 4500
+    BehaviorEnergyNeutralizerDischarge: 10.0
+    BehaviorEnergyNeutralizerDuration: 4000
+    BehaviorEnergyNeutralizerFalloff: 4000
+    BehaviorEnergyNeutralizerRange: 6000
+    BehaviorRemoteArmorRepairDischarge: 6.0
+    BehaviorRemoteArmorRepairDuration: 2000.0
+    BehaviorRemoteArmorRepairFalloff: 25000
+    BehaviorRemoteArmorRepairRange: 15000
+    CapacitorCapacity: 500.0
+    Capacity: 360.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EnergyNeutralizerAmount: 60.0
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 10000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 240.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.0020000000949949026
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 48.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47914
+    Hp: 910.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 1350000.0
+    MaxLockedTargets: 5
+    MaxRange: 20000.0
+    MaxTargetRange: 80000.0
+    MaxVelocity: 1950.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    NpcAssistanceRange: 5000
+    NpcBehaviorMaximumCombatOrbitRange: 6000
+    NpcRemoteArmorRepairChance: 1.0
+    NpcRemoteArmorRepairDuration: 10000
+    NpcRemoteArmorRepairThreshold: 0.25
+    OptimalSigRadius: 40
+    Radius: 42.0
+    RechargeRate: 150000.0
+    ScanRadarStrength: 12.0
+    ScanResolution: 1800.0
+    ShieldCapacity: 700.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 400000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100.0
+    Speed: 3000.0
+    SpeedFactor: 1.0
+    StructureUniformity: 1.0
+    ThermalDamage: 87.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 4.0
+    WarpSpeedMultiplier: 3.0
+    id: 54678
+    mass: 1350000.0
+    name: Starving Jarognik Kikimora
+    packagedVolume: 43000.0
+    portionSize: 1
+    published: false
+    volume: 43000.0
+  Tangling Jarognik Kikimora:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 1.0
+    ArmorDamageAmount: 5.0
+    ArmorEmDamageResonance: 0.49000000953674316
+    ArmorExplosiveDamageResonance: 0.6399999856948853
+    ArmorHP: 2583.0
+    ArmorKineticDamageResonance: 0.5099999904632568
+    ArmorThermalDamageResonance: 0.6000000238418579
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 25
+    BehaviorArmorRepairerDischarge: 10
+    BehaviorArmorRepairerDuration: 4500
+    BehaviorRemoteArmorRepairDischarge: 6.0
+    BehaviorRemoteArmorRepairDuration: 2000.0
+    BehaviorRemoteArmorRepairFalloff: 25000
+    BehaviorRemoteArmorRepairRange: 15000
+    BehaviorWebifierDischarge: 2.0
+    BehaviorWebifierDuration: 5000
+    BehaviorWebifierRange: 12000
+    CapacitorCapacity: 500.0
+    Capacity: 360.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 10000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 240.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.0020000000949949026
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 48.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47914
+    Hp: 910.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 1350000.0
+    MaxLockedTargets: 5
+    MaxRange: 20000.0
+    MaxTargetRange: 80000.0
+    MaxVelocity: 1950.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 1.0
+    MissileEntityAoeCloudSizeMultiplier: 1.0
+    MissileEntityAoeVelocityMultiplier: 1.0
+    MissileEntityFlightTimeMultiplier: 1.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 20000.0
+    NpcAssistanceRange: 5000
+    NpcBehaviorMaximumCombatOrbitRange: 6000
+    NpcRemoteArmorRepairChance: 1.0
+    NpcRemoteArmorRepairDuration: 10000
+    NpcRemoteArmorRepairThreshold: 0.25
+    OptimalSigRadius: 40
+    Radius: 42.0
+    RechargeRate: 150000.0
+    ScanRadarStrength: 12.0
+    ScanResolution: 1800.0
+    ShieldCapacity: 700.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 400000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100.0
+    Speed: 3000.0
+    SpeedFactor: -50.0
+    StructureUniformity: 1.0
+    ThermalDamage: 87.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 4.0
+    WarpSpeedMultiplier: 3.0
+    id: 54689
+    mass: 1350000.0
+    name: Tangling Jarognik Kikimora
+    packagedVolume: 43000.0
+    portionSize: 1
+    published: false
+    volume: 43000.0
+  Voivode Jarognik Kikimora:
+    AITankingModifierDrone: 0.699999988079071
+    Agility: 1.0
+    ArmorDamageAmount: 15.0
+    ArmorEmDamageResonance: 0.4399999976158142
+    ArmorExplosiveDamageResonance: 0.5799999833106995
+    ArmorHP: 2870.0
+    ArmorKineticDamageResonance: 0.46000000834465027
+    ArmorThermalDamageResonance: 0.550000011920929
+    ArmorUniformity: 1.0
+    BehaviorArmorRepairerAmount: 25
+    BehaviorArmorRepairerDischarge: 10
+    BehaviorArmorRepairerDuration: 4500
+    BehaviorRemoteArmorRepairDischarge: 6.0
+    BehaviorRemoteArmorRepairDuration: 2000.0
+    BehaviorRemoteArmorRepairFalloff: 25000
+    BehaviorRemoteArmorRepairRange: 15000
+    BehaviorWarpScrambleDischarge: 2.0
+    BehaviorWarpScrambleDuration: 5000
+    BehaviorWarpScrambleRange: 11400.0
+    BehaviorWarpScrambleStrength: 2
+    BehaviorWebifierDischarge: 2.0
+    BehaviorWebifierDuration: 5000
+    BehaviorWebifierRange: 12000
+    CapacitorCapacity: 500.0
+    Capacity: 360.0
+    DamageMultiplier: 0.8999999761581421
+    DamageMultiplierBonusMax: 1.5
+    DamageMultiplierBonusPerCycle: 0.029999999329447746
+    EmDamageResonance: 0.6700000166893005
+    EntityAttackRange: 15000
+    EntityChaseMaxDelay: 1
+    EntityChaseMaxDelayChance: 1.0
+    EntityChaseMaxDistance: 10000
+    EntityChaseMaxDuration: 3000
+    EntityChaseMaxDurationChance: 1.0
+    EntityCruiseSpeed: 240.0
+    EntityEquipmentGroupMax: 1
+    EntityEquipmentMax: 2
+    EntityFlyRange: 500.0
+    EntityGroupRespawnChance: 1
+    EntityMaxVelocitySignatureRadiusMultiplier: 5
+    EntityMissileTypeID: 52476
+    EntityReactionFactor: 1.0
+    EntitySecurityMaxGain: 5.0
+    EntitySecurityStatusKillBonus: 0.006000000052154064
+    EntityShieldBoostDelayChance: 1.0
+    EntityShieldBoostDuration: 10000
+    ExplosiveDamage: 75.0
+    ExplosiveDamageResonance: 0.6700000166893005
+    Falloff: 1.0
+    GfxBoosterID: 397
+    GfxTurretID: 47914
+    Hp: 1040.0
+    KineticDamageResonance: 0.6700000166893005
+    Mass: 1350000.0
+    MaxLockedTargets: 5
+    MaxRange: 20000.0
+    MaxTargetRange: 80000.0
+    MaxVelocity: 1950.0
+    MinTargetVelDmgMultiplier: 1.0
+    MissileDamageMultiplier: 3.0
+    MissileEntityAoeCloudSizeMultiplier: 0.75
+    MissileEntityAoeVelocityMultiplier: 2.0
+    MissileEntityFlightTimeMultiplier: 4.0
+    MissileEntityVelocityMultiplier: 1.0
+    MissileLaunchDuration: 6000.0
+    NpcAssistanceRange: 5000
+    NpcBehaviorMaximumCombatOrbitRange: 6000
+    NpcRemoteArmorRepairChance: 1.0
+    NpcRemoteArmorRepairDuration: 10000
+    NpcRemoteArmorRepairThreshold: 0.25
+    OptimalSigRadius: 40
+    Radius: 42.0
+    RechargeRate: 150000.0
+    ScanRadarStrength: 12.0
+    ScanResolution: 1800.0
+    ShieldCapacity: 700.0
+    ShieldEmDamageResonance: 1.0
+    ShieldExplosiveDamageResonance: 0.5
+    ShieldKineticDamageResonance: 0.6000000238418579
+    ShieldRechargeRate: 400000.0
+    ShieldThermalDamageResonance: 0.800000011920929
+    ShieldUniformity: 1.0
+    SignatureRadius: 100.0
+    Speed: 3000.0
+    SpeedFactor: -50.0
+    StructureUniformity: 1.0
+    ThermalDamage: 135.0
+    ThermalDamageResonance: 0.6700000166893005
+    TrackingSpeed: 10.0
+    WarpSpeedMultiplier: 3.0
+    id: 54673
+    mass: 1350000.0
+    name: Voivode Jarognik Kikimora
+    packagedVolume: 43000.0
+    portionSize: 1
+    published: false
+    volume: 43000.0

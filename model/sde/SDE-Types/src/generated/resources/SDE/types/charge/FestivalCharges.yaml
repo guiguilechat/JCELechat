@@ -91,7 +91,7 @@ types:
     portionSize: 100
     published: true
     volume: 0.10000000149011612
-  Capsuleer Day YC122 Firework:
+  Capsule Cascade Firework:
     Agility: 3000.0
     AimedLaunch: 1
     ArmorPiercingChance: 1
@@ -107,8 +107,9 @@ types:
     StructureUniformity: 1.0
     TechLevel: 1
     id: 54564
+    marketGroup: 1663
     mass: 100.0
-    name: Capsuleer Day YC122 Firework
+    name: Capsule Cascade Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true

@@ -7,6 +7,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Abaddon Capsuleer Day XVII SKIN:
+    id: 54761
+    marketGroup: 1964
+    name: Abaddon Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Abaddon Cold Iron SKIN:
     id: 42784
     marketGroup: 1964
@@ -1044,6 +1052,13 @@ types:
     id: 52281
     marketGroup: 2316
     name: Apotheosis Capsuleer Day XVI SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apotheosis Capsuleer Day XVII SKIN:
+    id: 54755
+    name: Apotheosis Capsuleer Day XVII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3367,6 +3382,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix Capsuleer Day XVII SKIN:
+    id: 54788
+    marketGroup: 1958
+    name: Brutix Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Brutix Cordite Blossom SKIN:
     id: 48836
     marketGroup: 1958
@@ -3872,6 +3895,13 @@ types:
     id: 46827
     marketGroup: 2388
     name: Caldari Shuttle Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Capsule Capsuleer Day XVII SKIN:
+    id: 54744
+    name: Capsule Capsuleer Day XVII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5186,6 +5216,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Condor Zento Isideko Combine SKIN:
+    id: 53150
+    marketGroup: 2003
+    name: Condor Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Confessor Cold Iron SKIN:
     id: 42907
     marketGroup: 2310
@@ -6161,6 +6199,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cyclone Capsuleer Day XVII SKIN:
+    id: 54799
+    marketGroup: 1959
+    name: Cyclone Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cyclone Exoplanets Hunter SKIN:
     id: 45967
     marketGroup: 1959
@@ -6719,6 +6765,14 @@ types:
     id: 37506
     marketGroup: 2073
     name: Devoter Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dominix Capsuleer Day XVII SKIN:
+    id: 54789
+    marketGroup: 1966
+    name: Dominix Capsuleer Day XVII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8698,6 +8752,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ferox Capsuleer Day XVII SKIN:
+    id: 54766
+    marketGroup: 1957
+    name: Ferox Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ferox Cordite Blossom SKIN:
     id: 48834
     marketGroup: 1957
@@ -9089,6 +9151,13 @@ types:
     id: 52280
     marketGroup: 2312
     name: Gnosis Capsuleer Day XVI SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gnosis Capsuleer Day XVII SKIN:
+    id: 54757
+    name: Gnosis Capsuleer Day XVII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13430,6 +13499,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maelstrom Capsuleer Day XVII SKIN:
+    id: 54800
+    marketGroup: 1967
+    name: Maelstrom Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maelstrom Dawn of Liberation SKIN:
     id: 48514
     marketGroup: 1967
@@ -13811,6 +13888,14 @@ types:
     id: 53368
     marketGroup: 1990
     name: Maller Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maller Capsuleer Day XVII SKIN:
+    id: 54759
+    marketGroup: 1990
+    name: Maller Capsuleer Day XVII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14917,6 +15002,14 @@ types:
     id: 36723
     marketGroup: 1991
     name: Moa Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Moa Capsuleer Day XVII SKIN:
+    id: 54764
+    marketGroup: 1991
+    name: Moa Capsuleer Day XVII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18374,6 +18467,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Praxis Capsuleer Day XVII SKIN:
+    id: 54758
+    name: Praxis Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Praxis Capsuleer Elite XV SKIN:
     id: 47650
     marketGroup: 2421
@@ -18643,6 +18743,14 @@ types:
   Prophecy Blood Raiders SKIN:
     id: 34605
     name: Prophecy Blood Raiders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Prophecy Capsuleer Day XVII SKIN:
+    id: 54760
+    marketGroup: 1956
+    name: Prophecy Capsuleer Day XVII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20741,6 +20849,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rokh Capsuleer Day XVII SKIN:
+    id: 54768
+    marketGroup: 1965
+    name: Rokh Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rokh Exoplanets Hunter SKIN:
     id: 45853
     marketGroup: 1965
@@ -21129,6 +21245,14 @@ types:
     id: 36815
     marketGroup: 1993
     name: Rupture Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rupture Capsuleer Day XVII SKIN:
+    id: 54798
+    marketGroup: 1993
+    name: Rupture Capsuleer Day XVII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22877,6 +23001,13 @@ types:
     id: 52279
     marketGroup: 2314
     name: Sunesis Capsuleer Day XVI SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sunesis Capsuleer Day XVII SKIN:
+    id: 54756
+    name: Sunesis Capsuleer Day XVII SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25259,6 +25390,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vexor Capsuleer Day XVII SKIN:
+    id: 54787
+    marketGroup: 1992
+    name: Vexor Capsuleer Day XVII SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vexor Exoplanets Hunter SKIN:
     id: 45895
     marketGroup: 1992
@@ -26398,14 +26537,6 @@ types:
     id: 54222
     marketGroup: 2704
     name: Zirnitra Metamateria Exotica SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  콘도르 젠토 이시데코 조합 SKIN (무기한):
-    id: 53150
-    marketGroup: 2003
-    name: 콘도르 젠토 이시데코 조합 SKIN (무기한)
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

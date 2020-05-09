@@ -242,6 +242,16 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Capsuleer Day XVII Cap:
+    Gender: 2
+    id: 54327
+    marketGroup: 1943
+    mass: 0.5
+    name: Men's Capsuleer Day XVII Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Capsuleer Elite XV Cap:
     Gender: 2
     id: 47191
@@ -612,6 +622,16 @@ types:
     marketGroup: 1943
     mass: 0.5
     name: Women's Capsuleer Day XVI Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Capsuleer Day XVII Cap:
+    Gender: 2
+    id: 54322
+    marketGroup: 1943
+    mass: 0.5
+    name: Women's Capsuleer Day XVII Cap
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

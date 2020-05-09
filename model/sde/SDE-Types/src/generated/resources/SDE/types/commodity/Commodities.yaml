@@ -2021,6 +2021,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  OODA Loop Expert System Package:
+    id: 54811
+    marketGroup: 1661
+    mass: 20.0
+    name: OODA Loop Expert System Package
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Odan Poun's Message:
     id: 23745
     mass: 1.0
@@ -2205,6 +2214,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Predictive Light Cone Plotter:
+    id: 54808
+    marketGroup: 1661
+    mass: 20.0
+    name: Predictive Light Cone Plotter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Propel Dynamics Reports:
     id: 21462
     mass: 1.0
@@ -2687,6 +2705,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Spatiotemporal Boundary Detector:
+    id: 54809
+    marketGroup: 1661
+    mass: 20.0
+    name: Spatiotemporal Boundary Detector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Speedometer:
     id: 26464
     mass: 1.0
@@ -2759,6 +2786,15 @@ types:
     portionSize: 1
     published: true
     volume: 2.0
+  String Charge Evaluation Couple:
+    id: 54810
+    marketGroup: 1661
+    mass: 20.0
+    name: String Charge Evaluation Couple
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Suho Tatanal's Investigation Dossier:
     id: 23632
     mass: 1.0

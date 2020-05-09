@@ -215,3 +215,30 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Triglavian Trinary Datastream XCZ1:
+    id: 54804
+    marketGroup: 2480
+    mass: 1.0
+    name: Triglavian Trinary Datastream XCZ1
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Triglavian Trinary Datastream XCZ2:
+    id: 54805
+    marketGroup: 2480
+    mass: 1.0
+    name: Triglavian Trinary Datastream XCZ2
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Triglavian Trinary Datastream XCZ3:
+    id: 54806
+    marketGroup: 2480
+    mass: 1.0
+    name: Triglavian Trinary Datastream XCZ3
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

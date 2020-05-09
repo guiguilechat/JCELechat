@@ -89,6 +89,13 @@ public class IrregularBattlecruiser
     @DefaultDoubleValue(0.0)
     public double Agility;
     /**
+     * An amount to modify the armor damage by.
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double ArmorDamageAmount;
+    /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
@@ -151,6 +158,62 @@ public class IrregularBattlecruiser
     @Stackable(true)
     @DefaultIntValue(0)
     public int BehaviorArmorRepairerDuration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double BehaviorEnergyNeutralizerDischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int BehaviorEnergyNeutralizerDuration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int BehaviorEnergyNeutralizerFalloff;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int BehaviorEnergyNeutralizerRange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double BehaviorRemoteArmorRepairDischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double BehaviorRemoteArmorRepairDuration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int BehaviorRemoteArmorRepairFalloff;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int BehaviorRemoteArmorRepairRange;
     /**
      * 
      */
@@ -235,6 +298,20 @@ public class IrregularBattlecruiser
     @Stackable(false)
     @DefaultDoubleValue(1.0)
     public double DamageMultiplier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.5)
+    public double DamageMultiplierBonusMax;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double DamageMultiplierBonusPerCycle;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
      */
@@ -907,6 +984,10 @@ public class IrregularBattlecruiser
             {
                 return Agility;
             }
+            case  84 :
+            {
+                return ArmorDamageAmount;
+            }
             case  267 :
             {
                 return ArmorEmDamageResonance;
@@ -942,6 +1023,38 @@ public class IrregularBattlecruiser
             case  2633 :
             {
                 return BehaviorArmorRepairerDuration;
+            }
+            case  2522 :
+            {
+                return BehaviorEnergyNeutralizerDischarge;
+            }
+            case  2519 :
+            {
+                return BehaviorEnergyNeutralizerDuration;
+            }
+            case  2521 :
+            {
+                return BehaviorEnergyNeutralizerFalloff;
+            }
+            case  2520 :
+            {
+                return BehaviorEnergyNeutralizerRange;
+            }
+            case  2494 :
+            {
+                return BehaviorRemoteArmorRepairDischarge;
+            }
+            case  2491 :
+            {
+                return BehaviorRemoteArmorRepairDuration;
+            }
+            case  2493 :
+            {
+                return BehaviorRemoteArmorRepairFalloff;
+            }
+            case  2492 :
+            {
+                return BehaviorRemoteArmorRepairRange;
             }
             case  2508 :
             {
@@ -990,6 +1103,14 @@ public class IrregularBattlecruiser
             case  64 :
             {
                 return DamageMultiplier;
+            }
+            case  2734 :
+            {
+                return DamageMultiplierBonusMax;
+            }
+            case  2733 :
+            {
+                return DamageMultiplierBonusPerCycle;
             }
             case  854 :
             {

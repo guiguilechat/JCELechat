@@ -333,6 +333,25 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Basic Capsuleer Day Glamourex Booster:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 18428.458984375
+    Boosterness: 12
+    Mass: 1.0
+    NonDiminishingSkillInjectorUses: 1
+    Radius: 1.0
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 1
+    SocialBonus: 20
+    SocialMutator: 20
+    id: 54815
+    marketGroup: 2530
+    mass: 1.0
+    name: Basic Capsuleer Day Glamourex Booster
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Basic Serenity Cerebral Accelerator:
     BoosterDuration: 43200000
     BoosterLastInjectionDatetime: 18387.791015625
@@ -547,6 +566,25 @@ types:
     id: 47395
     mass: 1.0
     name: Expired Standard 'Guri Hivaa' Cerebral Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Extended Capsuleer Day Glamourex Booster:
+    BoosterDuration: 259200000
+    BoosterLastInjectionDatetime: 18428.458984375
+    Boosterness: 12
+    Mass: 1.0
+    NonDiminishingSkillInjectorUses: 1
+    Radius: 1.0
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 1
+    SocialBonus: 25
+    SocialMutator: 25
+    id: 54816
+    marketGroup: 2530
+    mass: 1.0
+    name: Extended Capsuleer Day Glamourex Booster
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -1568,6 +1606,25 @@ types:
     WillpowerBonus: 10
     id: 49753
     name: Onslaught Accelerator
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Potent Capsuleer Day Glamourex Booster:
+    BoosterDuration: 86400000
+    BoosterLastInjectionDatetime: 18428.458984375
+    Boosterness: 12
+    Mass: 1.0
+    NonDiminishingSkillInjectorUses: 1
+    Radius: 1.0
+    RequiredSkill1: 3355
+    RequiredSkill1Level: 1
+    SocialBonus: 50
+    SocialMutator: 50
+    id: 54817
+    marketGroup: 2530
+    mass: 1.0
+    name: Potent Capsuleer Day Glamourex Booster
     packagedVolume: 1.0
     portionSize: 1
     published: true

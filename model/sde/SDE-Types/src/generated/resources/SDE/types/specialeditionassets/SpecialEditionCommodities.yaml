@@ -533,6 +533,38 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  Capsuleer Day XVII Alpha Booster Gift Box:
+    CpuMultiplier: 1.0
+    id: 54820
+    name: Capsuleer Day XVII Alpha Booster Gift Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Capsuleer Day XVII Cap and T-Shirt Crate:
+    CpuMultiplier: 1.0
+    id: 54818
+    name: Capsuleer Day XVII Cap and T-Shirt Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  Capsuleer Day XVII Fireworks Package:
+    CpuMultiplier: 1.0
+    id: 54819
+    name: Capsuleer Day XVII Fireworks Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Capsuleer Day XVII Omega Booster Gift Box:
+    CpuMultiplier: 1.0
+    id: 54821
+    name: Capsuleer Day XVII Omega Booster Gift Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Catalyst Combat Crate:
     CpuMultiplier: 1.0
     id: 53532

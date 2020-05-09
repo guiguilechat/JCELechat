@@ -35146,7 +35146,7 @@ id2name:
   53143: Hurricane Abyssal Firestorm SKIN
   53144: Talwar Abyssal Firestorm SKIN
   53149: Bantam Zento Isideko Combine SKIN
-  53150: 콘도르 젠토 이시데코 조합 SKIN (무기한)
+  53150: Condor Zento Isideko Combine SKIN
   53151: Griffin Zento Isideko Combine SKIN
   53152: Heron Zento Isideko Combine SKIN
   53153: Kestrel Zento Isideko Combine SKIN
@@ -35696,10 +35696,10 @@ id2name:
   54308: Men's 'Fatal Elite' Combat Pants
   54309: Men's 'Fatal Elite' Combat Boots
   54310: Men's 'Fatal Elite' Beret
-  54320: 54320_Female_TopMiddle_TshirtF01_Types_TshirtF01_XVII.png
-  54322: 54322_Female_hair_HeadWear_Cap_F01_Types_HeadWear_Cap_F01_XVII.png
-  54327: 54327_Male_hair_HeadWear_Cap_M01_Types_HeadWear_Cap_M01_XVII.png
-  54328: '[no messageID: 561983]'
+  54320: Women's Capsuleer Day XVII T-Shirt
+  54322: Women's Capsuleer Day XVII Cap
+  54327: Men's Capsuleer Day XVII Cap
+  54328: Men's Capsuleer Day XVII T-Shirt
   54339: Hunt YC112 Boss Spawner
   54340: Huntmaster YC112 Boss Spawner
   54341: Merlin Zento Insideko Combine SKIN (7 days/Volatile)
@@ -35878,7 +35878,7 @@ id2name:
   54561: Drake Guristas SKIN
   54562: Korako's Modified Drone Control Unit
   54563: EGDLI Loot Crate Tier 1 Frigate Skins 2 (Omega)
-  54564: Capsuleer Day YC122 Firework
+  54564: Capsule Cascade Firework
   54587: Limited Synth Blue Pill Booster Mk I
   54588: Limited Synth Blue Pill Booster Mk II
   54589: Limited Synth Blue Pill Booster Mk III
@@ -35942,6 +35942,74 @@ id2name:
   54656: Standard Serenity Cerebral Accelerator
   54657: Advanced Serenity Cerebral Accelerator
   54660: Serenity Monthly Cerebral Accelerator - 2020.5
+  54661: Liminal Jarognik Damavik
+  54662: Liminal Jarognik Vedmak
+  54663: Liminal Jarognik Kikimora
+  54664: Voivode Jarognik Drekavac
+  54665: Anchoring Jarognik Damavik
+  54666: Anchoring Jarognik Kikimora
+  54668: Blinding Jarognik Kikimora
+  54669: Ghosting Jarognik Kikimora
+  54670: Anchoring Jarognik Vedmak
+  54672: Voivode Jarognik Vedmak
+  54673: Voivode Jarognik Kikimora
+  54674: Voivode Jarognik Damavik
+  54675: Renewing Jarognik Rodiva
+  54676: Voivode Jarognik Rodiva
+  54677: Starving Jarognik Damavik
+  54678: Starving Jarognik Kikimora
+  54679: Starving Jarognik Vedmak
+  54680: Tangling Jarognik Damavik
+  54681: Tangling Jarognik Vedmak
+  54683: CD Standard Spawner
+  54684: CD Standard Boss Spawner
+  54685: CD Advanced Spawner
+  54686: CD Advanced Boss Spawner
+  54687: Upwell Research Complex Wreck
+  54688: Bowhead Wreckage
+  54689: Tangling Jarognik Kikimora
+  54711: Upwell Production Facility Wreck
+  54712: Triglavian Battleship Wreckage
+  54721: CD Supplemental Spawner
+  54722: EDENCOM Production Facility
+  54723: EDENCOM Research Complex
+  54744: Capsule Capsuleer Day XVII SKIN
+  54755: Apotheosis Capsuleer Day XVII SKIN
+  54756: Sunesis Capsuleer Day XVII SKIN
+  54757: Gnosis Capsuleer Day XVII SKIN
+  54758: Praxis Capsuleer Day XVII SKIN
+  54759: Maller Capsuleer Day XVII SKIN
+  54760: Prophecy Capsuleer Day XVII SKIN
+  54761: Abaddon Capsuleer Day XVII SKIN
+  54764: Moa Capsuleer Day XVII SKIN
+  54766: Ferox Capsuleer Day XVII SKIN
+  54768: Rokh Capsuleer Day XVII SKIN
+  54787: Vexor Capsuleer Day XVII SKIN
+  54788: Brutix Capsuleer Day XVII SKIN
+  54789: Dominix Capsuleer Day XVII SKIN
+  54798: Rupture Capsuleer Day XVII SKIN
+  54799: Cyclone Capsuleer Day XVII SKIN
+  54800: Maelstrom Capsuleer Day XVII SKIN
+  54802: Capsuleer Day Signal-10 'Needlejack' Filament
+  54803: Capsuleer Day Noise-10 'Needlejack' Filament
+  54804: Triglavian Trinary Datastream XCZ1
+  54805: Triglavian Trinary Datastream XCZ2
+  54806: Triglavian Trinary Datastream XCZ3
+  54807: Encrypted Semiosis Console (Svarog Clade)
+  54808: Predictive Light Cone Plotter
+  54809: Spatiotemporal Boundary Detector
+  54810: String Charge Evaluation Couple
+  54811: OODA Loop Expert System Package
+  54812: Basic Capsuleer Day Cerebral Accelerator
+  54813: Potent Capsuleer Day Cerebral Accelerator
+  54814: Extended Capsuleer Day Cerebral Accelerator
+  54815: Basic Capsuleer Day Glamourex Booster
+  54816: Extended Capsuleer Day Glamourex Booster
+  54817: Potent Capsuleer Day Glamourex Booster
+  54818: Capsuleer Day XVII Cap and T-Shirt Crate
+  54819: Capsuleer Day XVII Fireworks Package
+  54820: Capsuleer Day XVII Alpha Booster Gift Box
+  54821: Capsuleer Day XVII Omega Booster Gift Box
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -39982,6 +40050,7 @@ name2group:
   Abaddon: ship/Battleship
   Abaddon Blood Raiders SKIN: skins/PermanentSKIN
   Abaddon Blueprint: blueprint/BattleshipBlueprint
+  Abaddon Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Abaddon Cold Iron SKIN: skins/PermanentSKIN
   Abaddon Cryptic Mimesis SKIN: skins/PermanentSKIN
   Abaddon EoM SKIN: skins/PermanentSKIN
@@ -40681,6 +40750,9 @@ name2group:
   Ancestral Armor: commodity/Commodities
   Anchoring: skill/StructureManagement
   Anchoring Damavik: entity/InvadingPrecursorEntities
+  Anchoring Jarognik Damavik: entity/IrregularFrigate
+  Anchoring Jarognik Kikimora: entity/IrregularDestroyer
+  Anchoring Jarognik Vedmak: entity/IrregularCruiser
   Anchoring Kikimora: entity/InvadingPrecursorEntities
   Anchoring Raznaborg Damavik: entity/InvadingPrecursorEntities
   Anchoring Raznaborg Kikimora: entity/InvadingPrecursorEntities
@@ -41041,6 +41113,7 @@ name2group:
   Apotheosis: ship/Shuttle
   Apotheosis Blueprint: blueprint/ShuttleBlueprint
   Apotheosis Capsuleer Day XVI SKIN: skins/PermanentSKIN
+  Apotheosis Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Apotheosis Capsuleer Elite XV SKIN: skins/PermanentSKIN
   Apotheosis Capsuleer Networker XV SKIN: skins/PermanentSKIN
   Apotheosis Glacial Drift SKIN: skins/PermanentSKIN
@@ -41770,6 +41843,7 @@ name2group:
   Basic Blaster Damage Amplifier: infantry/InfantryModules
   Basic CPU Upgrade: infantry/InfantryModules
   Basic CPU Upgrade Unit: infantry/InfantryModules
+  Basic Capsuleer Day Glamourex Booster: implant/Booster
   Basic Cardiac Regulator: infantry/InfantryModules
   Basic Cardiac Stimulant: infantry/InfantryModules
   Basic Co-Processor: module/CPUEnhancer
@@ -41991,6 +42065,7 @@ name2group:
   Blastlance Tessella: entity/AbyssalDroneEntities
   Blastneedle Tessella: entity/AbyssalDroneEntities
   Blinding Damavik: entity/InvadingPrecursorEntities
+  Blinding Jarognik Kikimora: entity/IrregularDestroyer
   Blinding Kikimora: entity/InvadingPrecursorEntities
   Blinding Leshak: entity/InvadingPrecursorEntities
   Blinding Raznaborg Damavik: entity/InvadingPrecursorEntities
@@ -42397,6 +42472,7 @@ name2group:
   Brutix: ship/CombatBattlecruiser
   Brutix Abyssal Firestorm SKIN: skins/PermanentSKIN
   Brutix Blueprint: blueprint/BattlecruiserBlueprint
+  Brutix Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Brutix Cordite Blossom SKIN: skins/PermanentSKIN
   Brutix Dragon Phoenix SKIN: skins/PermanentSKIN
   Brutix Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -43738,18 +43814,25 @@ name2group:
   Capital Warp Core Optimizer II Blueprint: blueprint/RigBlueprint
   Capital Zero-Point Field Manipulator: commodity/ConstructionComponents
   Capped Locus Grenade: infantry/InfantryWeapons
+  Capsule Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Capsule Capsuleer Elite XV SKIN: skins/PermanentSKIN
+  Capsule Cascade Firework: charge/FestivalCharges
   Capsule Palatine SKIN: skins/PermanentSKIN
   Capsule Upwell SKIN: skins/PermanentSKIN
   Capsule YC119 Capsuleer Day SKIN: skins/PermanentSKIN
   Capsuleer Dawn Firework (Large): charge/StructureFestivalCharges
+  Capsuleer Day Noise-10 'Needlejack' Filament: commodity/JumpFilaments
+  Capsuleer Day Signal-10 'Needlejack' Filament: commodity/JumpFilaments
   Capsuleer Day XVI Apotheosis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Cap Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Gnosis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Praxis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Sunesis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI T-Shirt Crate: specialeditionassets/SpecialEditionCommodities
-  Capsuleer Day YC122 Firework: charge/FestivalCharges
+  Capsuleer Day XVII Alpha Booster Gift Box: specialeditionassets/SpecialEditionCommodities
+  Capsuleer Day XVII Cap and T-Shirt Crate: specialeditionassets/SpecialEditionCommodities
+  Capsuleer Day XVII Fireworks Package: specialeditionassets/SpecialEditionCommodities
+  Capsuleer Day XVII Omega Booster Gift Box: specialeditionassets/SpecialEditionCommodities
   Captain Amiette Barcier: entity/MissionGenericBattleships
   Captain Aneika Sareko: entity/MissionGenericBattleships
   Captain Appakir Tarvia: entity/MissionGenericBattleships
@@ -44692,6 +44775,7 @@ name2group:
   Condor Raata Sunset SKIN: skins/PermanentSKIN
   Condor Steel Cardinal SKIN: skins/PermanentSKIN
   Condor Wiyrkomi SKIN: skins/PermanentSKIN
+  Condor Zento Isideko Combine SKIN: skins/PermanentSKIN
   Conductive Polymer: material/SalvagedMaterials
   Conductive Thermoplastic: material/SalvagedMaterials
   Conference Center: entity/MissionContainer
@@ -45506,6 +45590,7 @@ name2group:
   Cyclone: ship/CombatBattlecruiser
   Cyclone Blue Tiger SKIN: skins/PermanentSKIN
   Cyclone Blueprint: blueprint/BattlecruiserBlueprint
+  Cyclone Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Cyclone Exoplanets Hunter SKIN: skins/PermanentSKIN
   Cyclone Glacial Drift SKIN: skins/PermanentSKIN
   Cyclone Justice SKIN: skins/PermanentSKIN
@@ -46418,6 +46503,7 @@ name2group:
   Domination X-Large Shield Booster: module/ShieldBooster
   Dominix: ship/Battleship
   Dominix Blueprint: blueprint/BattleshipBlueprint
+  Dominix Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Dominix Cryptic Mimesis SKIN: skins/PermanentSKIN
   Dominix Exoplanets Hunter SKIN: skins/PermanentSKIN
   Dominix Glacial Drift SKIN: skins/PermanentSKIN
@@ -47881,6 +47967,7 @@ name2group:
   Explosives: infantry/InfantrySkills
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   Exsanguinator: entity/DeadspaceOverseerCruiser
+  Extended Capsuleer Day Glamourex Booster: implant/Booster
   Extended Serenity Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
@@ -48335,6 +48422,7 @@ name2group:
   Ferox: ship/CombatBattlecruiser
   Ferox Blue Tiger SKIN: skins/PermanentSKIN
   Ferox Blueprint: blueprint/BattlecruiserBlueprint
+  Ferox Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Ferox Cordite Blossom SKIN: skins/PermanentSKIN
   Ferox Exoplanets Hunter SKIN: skins/PermanentSKIN
   Ferox Ghostbird SKIN: skins/PermanentSKIN
@@ -48896,6 +48984,7 @@ name2group:
   Ghalen Pastries: commodity/Frozen
   Ghosting Damavik: entity/InvadingPrecursorEntities
   Ghosting Drekavac: entity/InvadingPrecursorEntities
+  Ghosting Jarognik Kikimora: entity/IrregularDestroyer
   Ghosting Raznaborg Damavik: entity/InvadingPrecursorEntities
   Ghosting Sudenic Damavik: entity/InvadingPrecursorEntities
   Ghosting Sudenic Drekavac: entity/InvadingPrecursorEntities
@@ -49138,6 +49227,7 @@ name2group:
   Gnosis & Punisher SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Gnosis Blueprint: blueprint/BattlecruiserBlueprint
   Gnosis Capsuleer Day XVI SKIN: skins/PermanentSKIN
+  Gnosis Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Gnosis Capsuleer Elite XV SKIN: skins/PermanentSKIN
   Gnosis Capsuleer Networker XV SKIN: skins/PermanentSKIN
   Gnosis Glacial Drift SKIN: skins/PermanentSKIN
@@ -52898,6 +52988,9 @@ name2group:
   Lime Mykoserocin: celestial/HarvestableCloud
   Liminal Damavik: entity/InvadingPrecursorEntities
   Liminal Drekavac: entity/InvadingPrecursorEntities
+  Liminal Jarognik Damavik: entity/IrregularFrigate
+  Liminal Jarognik Kikimora: entity/IrregularDestroyer
+  Liminal Jarognik Vedmak: entity/IrregularCruiser
   Liminal Kikimora: entity/InvadingPrecursorEntities
   Liminal Leshak: entity/InvadingPrecursorEntities
   Liminal Rodiva: entity/InvadingPrecursorEntities
@@ -53351,6 +53444,7 @@ name2group:
   Maelstrom: ship/Battleship
   Maelstrom Blue Tiger SKIN: skins/PermanentSKIN
   Maelstrom Blueprint: blueprint/BattleshipBlueprint
+  Maelstrom Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Maelstrom Dawn of Liberation SKIN: skins/PermanentSKIN
   Maelstrom Exoplanets Hunter SKIN: skins/PermanentSKIN
   Maelstrom Firewall Breach SKIN: skins/PermanentSKIN
@@ -53471,6 +53565,7 @@ name2group:
   Maller: ship/Cruiser
   Maller Aurora Universalis SKIN: skins/PermanentSKIN
   Maller Blueprint: blueprint/CruiserBlueprint
+  Maller Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Maller Cold Iron SKIN: skins/PermanentSKIN
   Maller EoM SKIN: skins/PermanentSKIN
   Maller Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -54499,6 +54594,8 @@ name2group:
   Men's Cap (Guristas): apparel/Headwear
   Men's Capsuleer Day XVI Cap: apparel/Headwear
   Men's Capsuleer Day XVI T-Shirt: apparel/Tops
+  Men's Capsuleer Day XVII Cap: apparel/Headwear
+  Men's Capsuleer Day XVII T-Shirt: apparel/Tops
   Men's Capsuleer Elite XV Cap: apparel/Headwear
   Men's Capsuleer Elite XV T-Shirt: apparel/Tops
   Men's Capsuleer Networker XV Cap: apparel/Headwear
@@ -55323,6 +55420,7 @@ name2group:
   Moa Aurora Universalis SKIN: skins/PermanentSKIN
   Moa Blue Tiger SKIN: skins/PermanentSKIN
   Moa Blueprint: blueprint/CruiserBlueprint
+  Moa Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Moa Exoplanets Hunter SKIN: skins/PermanentSKIN
   Moa Ghostbird SKIN: skins/PermanentSKIN
   Moa Glacial Drift SKIN: skins/PermanentSKIN
@@ -56057,6 +56155,7 @@ name2group:
   Nyx Valimor Legacy SKIN: skins/PermanentSKIN
   Nyx Yoiul Star SKIN: skins/PermanentSKIN
   OE-5200 Rocket Launcher: module/MissileLauncherRocket
+  OODA Loop Expert System Package: commodity/Commodities
   OP Insecticide: commodity/Biohazard
   ORE Deep Core Mining Laser: module/MiningLaser
   ORE Expanded Cargohold: module/ExpandedCargohold
@@ -56983,6 +57082,7 @@ name2group:
   Portable Power Generator: commodity/Commodities
   Positron Cord: commodity/MaterialsAndCompounds
   Postcard From Poitot: specialeditionassets/SpecialEditionCommodities
+  Potent Capsuleer Day Glamourex Booster: implant/Booster
   Potent Viral Agent: commodity/Biohazard
   Poteque 'Prospector' Archaeology AC-905: implant/CyberScanning
   Poteque 'Prospector' Astrometric Acquisition AQ-702: implant/CyberScanning
@@ -57022,6 +57122,7 @@ name2group:
   Praxis: ship/Battleship
   Praxis Blueprint: blueprint/BattleshipBlueprint
   Praxis Capsuleer Day XVI SKIN: skins/PermanentSKIN
+  Praxis Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Praxis Capsuleer Elite XV SKIN: skins/PermanentSKIN
   Praxis Capsuleer Networker XV SKIN: skins/PermanentSKIN
   Praxis Icecloud Investigators SKIN: skins/PermanentSKIN
@@ -57043,6 +57144,7 @@ name2group:
   Precursor Frigate: skill/SpaceshipCommand
   Predator Alvior: entity/DeadspaceRogueDroneDestroyer
   Predator Drone: entity/AsteroidRogueDroneDestroyer
+  Predictive Light Cone Plotter: commodity/Commodities
   'Premier ticket for: Clear Skies': specialeditionassets/SpecialEditionCommodities
   'Premier ticket for: Day of Darkness': specialeditionassets/SpecialEditionCommodities
   'Premier ticket for: The last G campaign': specialeditionassets/SpecialEditionCommodities
@@ -57167,6 +57269,7 @@ name2group:
   Prophecy Blood Raiders SKIN (7 Days): skins/Max7DaySKIN
   Prophecy Blood Raiders SKIN (90 Days): skins/Max90DaySKIN
   Prophecy Blueprint: blueprint/BattlecruiserBlueprint
+  Prophecy Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Prophecy Cold Iron SKIN: skins/PermanentSKIN
   Prophecy Crown and Swords SKIN: skins/PermanentSKIN
   Prophecy EoM SKIN: skins/PermanentSKIN
@@ -57959,6 +58062,7 @@ name2group:
   Renegade Sanshas Slaver: entity/DeadspaceSanshaSNationCruiser
   Renegade Serpentis Assassin: entity/DeadspaceSerpentisCruiser
   Renewing Damavik: entity/InvadingPrecursorEntities
+  Renewing Jarognik Rodiva: entity/IrregularCruiser
   Renewing Leshak: entity/InvadingPrecursorEntities
   Renewing Raznaborg Damavik: entity/InvadingPrecursorEntities
   Renewing Rodiva: entity/InvadingPrecursorEntities
@@ -58574,6 +58678,7 @@ name2group:
   Rokh Blue Tiger SKIN: skins/PermanentSKIN
   Rokh Blueprint: blueprint/BattleshipBlueprint
   Rokh Caldari Union Day SKIN: skins/PermanentSKIN
+  Rokh Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Rokh Exoplanets Hunter SKIN: skins/PermanentSKIN
   Rokh Ghostbird SKIN: skins/PermanentSKIN
   Rokh Glacial Drift SKIN: skins/PermanentSKIN
@@ -58683,6 +58788,7 @@ name2group:
   Rupture Bloody Hands SKIN: skins/PermanentSKIN
   Rupture Blue Tiger SKIN: skins/PermanentSKIN
   Rupture Blueprint: blueprint/CruiserBlueprint
+  Rupture Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Rupture Chromodynamic Candy SKIN: skins/PermanentSKIN
   Rupture Dawn of Liberation SKIN: skins/PermanentSKIN
   Rupture Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -60937,6 +61043,7 @@ name2group:
   Spatial Destabilization Battery: starbase/ElectronicWarfareBattery
   Spatial Destabilization Battery Blueprint: blueprint/StarbaseECMJammingArrayBlueprints
   Spatial Phenomena Generation: skill/FleetSupport
+  Spatiotemporal Boundary Detector: commodity/Commodities
   Spear of Matar: commodity/Miscellaneous
   Spearhead Alvus: entity/DeadspaceRogueDroneBattleship
   Spearhead Drone: entity/AsteroidRogueDroneBattleship
@@ -61712,6 +61819,9 @@ name2group:
   Starsi: specialeditionassets/SpecialEditionCommodities
   Starving Damavik: entity/InvadingPrecursorEntities
   Starving Drekavac: entity/InvadingPrecursorEntities
+  Starving Jarognik Damavik: entity/IrregularFrigate
+  Starving Jarognik Kikimora: entity/IrregularDestroyer
+  Starving Jarognik Vedmak: entity/IrregularCruiser
   Starving Leshak: entity/AbyssalSpaceshipEntities
   Starving Raznaborg Damavik: entity/InvadingPrecursorEntities
   Starving Sudenic Damavik: entity/InvadingPrecursorEntities
@@ -62036,6 +62146,7 @@ name2group:
   Striking Damavik: entity/AbyssalSpaceshipEntities
   Striking Leshak: entity/AbyssalSpaceshipEntities
   Striking Vila Damavik: entity/AbyssalSpaceshipEntities
+  String Charge Evaluation Couple: commodity/Commodities
   Strip Miner I: module/StripMiner
   Strip Miner I Blueprint: blueprint/StripMinerBlueprint
   Strong Blue Pill Booster: implant/Booster
@@ -62137,6 +62248,7 @@ name2group:
   Sunesis: ship/Destroyer
   Sunesis Blueprint: blueprint/DestroyerBlueprint
   Sunesis Capsuleer Day XVI SKIN: skins/PermanentSKIN
+  Sunesis Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Sunesis Capsuleer Elite XV SKIN: skins/PermanentSKIN
   Sunesis Capsuleer Networker XV SKIN: skins/PermanentSKIN
   Sunesis Glacial Drift SKIN: skins/PermanentSKIN
@@ -62508,6 +62620,9 @@ name2group:
   Tampered Dolls: commodity/Commodities
   Tangled Power Conduit: material/SalvagedMaterials
   Tangling Damavik: entity/InvadingPrecursorEntities
+  Tangling Jarognik Damavik: entity/IrregularFrigate
+  Tangling Jarognik Kikimora: entity/IrregularDestroyer
+  Tangling Jarognik Vedmak: entity/IrregularCruiser
   Tangling Kikimora: entity/InvadingPrecursorEntities
   Tangling Leshak: entity/AbyssalSpaceshipEntities
   Tangling Raznaborg Damavik: entity/InvadingPrecursorEntities
@@ -63209,6 +63324,9 @@ name2group:
   Triglavian Trinary Datastream HFN4: commodity/TriglavianDatastreams
   Triglavian Trinary Datastream HFN5: commodity/TriglavianDatastreams
   Triglavian Trinary Datastream HFN6: commodity/TriglavianDatastreams
+  Triglavian Trinary Datastream XCZ1: commodity/TriglavianDatastreams
+  Triglavian Trinary Datastream XCZ2: commodity/TriglavianDatastreams
+  Triglavian Trinary Datastream XCZ3: commodity/TriglavianDatastreams
   Trinary Data: commodity/Miscellaneous
   Trinary State Processor: commodity/ConstructionComponents
   Triple Neutron Blaster Cannon I: module/HybridWeapon
@@ -64141,6 +64259,7 @@ name2group:
   Vexor: ship/Cruiser
   Vexor Aurora Universalis SKIN: skins/PermanentSKIN
   Vexor Blueprint: blueprint/CruiserBlueprint
+  Vexor Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Vexor Exoplanets Hunter SKIN: skins/PermanentSKIN
   Vexor Glacial Drift SKIN: skins/PermanentSKIN
   Vexor Glittering Dream SKIN: skins/PermanentSKIN
@@ -64352,6 +64471,11 @@ name2group:
   Void S Blueprint: blueprint/AdvancedHybridChargeBlueprint
   Void XL: charge/AdvancedBlasterCharge
   Void XL Blueprint: blueprint/AdvancedHybridChargeBlueprint
+  Voivode Jarognik Damavik: entity/IrregularFrigate
+  Voivode Jarognik Drekavac: entity/IrregularBattlecruiser
+  Voivode Jarognik Kikimora: entity/IrregularDestroyer
+  Voivode Jarognik Rodiva: entity/IrregularCruiser
+  Voivode Jarognik Vedmak: entity/IrregularCruiser
   Volatile Locus Grenade: infantry/InfantryWeapons
   Voltaic Energized Plating: infantry/InfantryModules
   Vortex Compact Magnetic Field Stabilizer: module/MagneticFieldStabilizer
@@ -64875,6 +64999,8 @@ name2group:
   Women's Cap (Guristas): apparel/Headwear
   Women's Capsuleer Day XVI Cap: apparel/Headwear
   Women's Capsuleer Day XVI T-Shirt: apparel/Tops
+  Women's Capsuleer Day XVII Cap: apparel/Headwear
+  Women's Capsuleer Day XVII T-Shirt: apparel/Tops
   Women's Capsuleer Elite XV Cap: apparel/Headwear
   Women's Capsuleer Elite XV T-Shirt: apparel/Tops
   Women's Capsuleer Networker XV Cap: apparel/Headwear
@@ -65521,4 +65647,3 @@ name2group:
   ♦ test_drone_damage: entity/NPCFrigate
   ♦ test_drone_logi: entity/NPCFrigate
   ♦ test_ewar: entity/NPCFrigate
-  콘도르 젠토 이시데코 조합 SKIN (무기한): skins/PermanentSKIN

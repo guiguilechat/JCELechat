@@ -38,6 +38,31 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Capsuleer Day Noise-10 'Needlejack' Filament:
+    FilamentDescriptionMessageID: 561098
+    MjdShipJumpCap: 10
+    MjfgRadius: 6000
+    Radius: 1.0
+    id: 54803
+    marketGroup: 2706
+    name: Capsuleer Day Noise-10 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Capsuleer Day Signal-10 'Needlejack' Filament:
+    ActiveSystemJump: 1
+    FilamentDescriptionMessageID: 561098
+    MjdShipJumpCap: 10
+    MjfgRadius: 6000
+    Radius: 1.0
+    id: 54802
+    marketGroup: 2706
+    name: Capsuleer Day Signal-10 'Needlejack' Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   DNCR-02 Filament:
     FilamentDescriptionMessageID: 561098
     MjdShipJumpCap: 10

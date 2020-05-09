@@ -2315,8 +2315,7 @@ public interface G_ICOAccess
     /**
      * Get colony layout
      * <p>
-     * Returns full details on the layout of a single planetary colony, including links, pins and routes. Note: Planetary information is only recalculated when the colony is viewed through the client. Information will not update until this criteria is met.<br />
-     * This route is cached for up to 600 seconds
+     * Returns full details on the layout of a single planetary colony, including links, pins and routes. Note: Planetary information is only recalculated when the colony is viewed through the client. Information will not update until this criteria is met.
      * </p>
      * 
      * @param character_id
