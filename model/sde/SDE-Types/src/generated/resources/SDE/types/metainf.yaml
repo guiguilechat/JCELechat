@@ -41843,6 +41843,7 @@ name2group:
   Basic Blaster Damage Amplifier: infantry/InfantryModules
   Basic CPU Upgrade: infantry/InfantryModules
   Basic CPU Upgrade Unit: infantry/InfantryModules
+  Basic Capsuleer Day Cerebral Accelerator: implant/Booster
   Basic Capsuleer Day Glamourex Booster: implant/Booster
   Basic Cardiac Regulator: infantry/InfantryModules
   Basic Cardiac Stimulant: infantry/InfantryModules
@@ -47967,6 +47968,7 @@ name2group:
   Explosives: infantry/InfantrySkills
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   Exsanguinator: entity/DeadspaceOverseerCruiser
+  Extended Capsuleer Day Cerebral Accelerator: implant/Booster
   Extended Capsuleer Day Glamourex Booster: implant/Booster
   Extended Serenity Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
@@ -57082,6 +57084,7 @@ name2group:
   Portable Power Generator: commodity/Commodities
   Positron Cord: commodity/MaterialsAndCompounds
   Postcard From Poitot: specialeditionassets/SpecialEditionCommodities
+  Potent Capsuleer Day Cerebral Accelerator: implant/Booster
   Potent Capsuleer Day Glamourex Booster: implant/Booster
   Potent Viral Agent: commodity/Biohazard
   Poteque 'Prospector' Archaeology AC-905: implant/CyberScanning

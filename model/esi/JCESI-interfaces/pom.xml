@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat.jcelechat.model</groupId>
     <artifactId>esi</artifactId>
-    <version>5.3.6</version>
+    <version>5.3.7</version>
   </parent>
   <groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
   <artifactId>JCESI-interfaces</artifactId>

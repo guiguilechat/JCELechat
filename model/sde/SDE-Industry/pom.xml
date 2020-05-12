@@ -1,13 +1,15 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>fr.guiguilechat.jcelechat.model</groupId>
-    <artifactId>sde</artifactId>
-    <version>5.3.6</version>
-  </parent>
-  <groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-  <artifactId>SDE-Industry</artifactId>
-  <name>SDE-Industry</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>fr.guiguilechat.jcelechat.model</groupId>
+		<artifactId>sde</artifactId>
+		<version>5.3.7</version>
+	</parent>
+	<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+	<artifactId>SDE-Industry</artifactId>
+	<name>SDE-Industry</name>
 	<dependencies>
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>

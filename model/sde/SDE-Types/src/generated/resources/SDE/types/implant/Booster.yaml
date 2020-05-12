@@ -22,7 +22,7 @@ types:
     willpowerbonus: 17
   Advanced Serenity Cerebral Accelerator:
     boosterduration: 172800000
-    boosterlastinjectiondatetime: 18387.791015625
+    boosterlastinjectiondatetime: 18443.125
     boosterness: 10
     charismabonus: 10
     followsjumpclones: 1
@@ -295,6 +295,29 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
+  Basic Capsuleer Day Cerebral Accelerator:
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 18428.458984375
+    boosterness: 10
+    charismabonus: 4
+    followsjumpclones: 1
+    id: 54812
+    intelligencebonus: 4
+    marketGroup: 2487
+    memorybonus: 4
+    name: Basic Capsuleer Day Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 4
   Basic Capsuleer Day Glamourex Booster:
     boosterduration: 86400000
     boosterlastinjectiondatetime: 18428.458984375
@@ -314,7 +337,7 @@ types:
     volume: 1.0
   Basic Serenity Cerebral Accelerator:
     boosterduration: 43200000
-    boosterlastinjectiondatetime: 18387.791015625
+    boosterlastinjectiondatetime: 18443.125
     boosterness: 10
     charismabonus: 10
     followsjumpclones: 1
@@ -514,6 +537,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Extended Capsuleer Day Cerebral Accelerator:
+    boosterduration: 259200000
+    boosterlastinjectiondatetime: 18428.458984375
+    boosterness: 10
+    charismabonus: 6
+    followsjumpclones: 1
+    id: 54814
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: Extended Capsuleer Day Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 6
   Extended Capsuleer Day Glamourex Booster:
     boosterduration: 259200000
     boosterlastinjectiondatetime: 18428.458984375
@@ -533,7 +579,7 @@ types:
     volume: 1.0
   Extended Serenity Cerebral Accelerator:
     boosterduration: 259200000
-    boosterlastinjectiondatetime: 18387.791015625
+    boosterlastinjectiondatetime: 18443.125
     boosterness: 10
     charismabonus: 10
     followsjumpclones: 1
@@ -1448,6 +1494,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Potent Capsuleer Day Cerebral Accelerator:
+    boosterduration: 86400000
+    boosterlastinjectiondatetime: 18428.458984375
+    boosterness: 10
+    charismabonus: 8
+    followsjumpclones: 1
+    id: 54813
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Potent Capsuleer Day Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 8
   Potent Capsuleer Day Glamourex Booster:
     boosterduration: 86400000
     boosterlastinjectiondatetime: 18428.458984375
@@ -1699,7 +1768,7 @@ types:
     volume: 1.0
   Standard Serenity Cerebral Accelerator:
     boosterduration: 86400000
-    boosterlastinjectiondatetime: 18387.791015625
+    boosterlastinjectiondatetime: 18443.125
     boosterness: 10
     charismabonus: 10
     followsjumpclones: 1
