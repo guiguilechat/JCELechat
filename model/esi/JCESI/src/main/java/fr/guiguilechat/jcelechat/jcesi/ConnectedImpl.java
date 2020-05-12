@@ -49,6 +49,7 @@ public abstract class ConnectedImpl implements ITransfer {
 
 	public static final String IFNONEMATCH = "If-None-Match";
 	public static final String ETAG = "Etag";
+
 	/**
 	 * request an url
 	 *
@@ -62,33 +63,53 @@ public abstract class ConnectedImpl implements ITransfer {
 	 *          the data to send through the connection
 	 * @param expectedClass
 	 *          the class to convert the OK result to
+	 * @param retries
+	 *          optional number of retries on server error. Default is 3
 	 * @return a new response holding the result of the request, or null if
 	 *         connection issue
 	 */
 	protected <T> Requested<T> request(String url, String method, Map<String, String> properties,
-			Map<String, Object> transmit, Class<T> expectedClass) {
+			Map<String, Object> transmit, Class<T> expectedClass, int... retries) {
+		int maxRetry = 3;
+		if (retries != null && retries.length != 0) {
+			maxRetry = Math.max(0, retries[0]);
+		}
 		if (properties == null) {
 			properties = new HashMap<>();
 		}
 		addConnection(properties);
+		boolean isServerError = false;
 		try {
 			URL target = new URL(url);
-			HttpsURLConnection con = (HttpsURLConnection) target.openConnection();
-			con.setRequestMethod(method);
-			con.setConnectTimeout(2000);
-			for (Entry<String, String> e : properties.entrySet()) {
-				con.setRequestProperty(e.getKey(), e.getValue());
-			}
+			HttpsURLConnection con = null;
 			String transmitStr = null;
 			if (transmit != null && !transmit.isEmpty()) {
-				con.setRequestProperty("Content-Type", "application/json");
-				con.setDoOutput(true);
-				DataOutputStream wr = new DataOutputStream(con.getOutputStream());
 				transmitStr = mapToJSON(transmit);
-				wr.write(transmitStr.getBytes(StandardCharsets.UTF_8));
-				wr.flush();
-				wr.close();
 			}
+			// retry to send the data for as many retry, as long as the error is
+			// server error type
+			do {
+				con = (HttpsURLConnection) target.openConnection();
+				con.setRequestMethod(method);
+				con.setConnectTimeout(2000);
+				for (Entry<String, String> e : properties.entrySet()) {
+					con.setRequestProperty(e.getKey(), e.getValue());
+				}
+				if (transmitStr != null) {
+					con.setRequestProperty("Content-Type", "application/json");
+					con.setDoOutput(true);
+					DataOutputStream wr = new DataOutputStream(con.getOutputStream());
+					wr.write(transmitStr.getBytes(StandardCharsets.UTF_8));
+					wr.flush();
+					wr.close();
+				}
+				isServerError = con.getResponseCode() / 100 == 5;
+				if (isServerError) {
+					logger.debug("request for method=" + method + " url=" + url + " returned server error="
+							+ con.getResponseCode() + " retries=" + maxRetry);
+					maxRetry--;
+				}
+			} while (isServerError && maxRetry >= 0);
 			Map<String, List<String>> headers = con.getHeaderFields();
 			int responseCode = con.getResponseCode();
 			switch (responseCode) {
@@ -203,9 +224,10 @@ public abstract class ConnectedImpl implements ITransfer {
 			String resExpire = res.getExpires();
 			String pageExpire = page.getExpires();
 			if (!(resExpire == pageExpire || resExpire != null && resExpire.equals(pageExpire))) {
-				// if expiry are different but only differ from up to 5 second, we don't
+				// if expiry are different but only differ from up to 20 second, we
+				// don't
 				// care
-				if (Math.abs(res.getExpiresS() - page.getExpiresS()) > 5) {
+				if (Math.abs(res.getExpiresS() - page.getExpiresS()) > 20) {
 					logger.warn("mismatching page cache data [url=" + page.getURL() + " Expires=" + page.getExpires()
 					+ "] with first page [url=" + res.getURL() + " Expires=" + res.getExpires() + "]");
 				}
