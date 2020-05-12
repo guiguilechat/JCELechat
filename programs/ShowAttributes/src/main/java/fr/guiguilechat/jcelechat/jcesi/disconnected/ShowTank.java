@@ -17,7 +17,7 @@ public class ShowTank {
 	public static void main(String[] args) {
 		// irregular frigates, destroyers, cruisers, battlecruisers, battleships,
 		// capsule, carrier
-		showGroup(".*(Automated|Hunt).*", 1568, 1664, 1665, 1666, 1667, 4053, 1726);
+		showGroup(".*(Jarognik).*", 1568, 1664, 1665, 1666, 1667, 4053, 1726);
 	}
 
 	public static void showGroup(String nameFilter, int... groupIds) {
@@ -32,7 +32,6 @@ public class ShowTank {
 				showEntity(nameFilter, typeId);
 			}
 		}
-		System.out.println("done");
 	}
 
 	private static final DecimalFormat nf = new DecimalFormat("#", DecimalFormatSymbols.getInstance(Locale.ENGLISH));

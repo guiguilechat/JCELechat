@@ -43,6 +43,8 @@ public class ShowAttributes {
 
 		// agent cruor
 		// showEntity(34144);
+		// agent dramiel
+		// showEntity(34141);
 		// base angel escort dramiel
 		// showEntity(35689);
 		// dire pithum mortifier
@@ -54,10 +56,16 @@ public class ShowAttributes {
 
 		// diamond arbitrator
 		// showEntity(43559);
+		// liminal jarognik damavik
+		showEntity(54661);
 		// VHMF-32
 		// showEntity(54279);
 		// irregular frigates
-		showGroup(1568);
+		// showGroup(1568);
+		// jarognik rodiva
+		// showEntity(54675);
+		// irregular frigates, cruisers, etc.
+		// showGroup(".*Jarognik.*", 1568, 1664, 1665, 1666, 1667, 4053, 1726);
 
 		// rakovene
 		// showEntity(52315);
@@ -73,10 +81,13 @@ public class ShowAttributes {
 	}
 
 	public static void showEntity(int typeId, String... filters) {
-		R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache.universe.types(typeId).get();
+		showEntity(ESIStatic.INSTANCE.cache.universe.types(typeId).get(), filters);
+	}
+
+	public static void showEntity(R_get_universe_types_type_id type, String... filters) {
 		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(type.group_id).get();
 		R_get_universe_categories_category_id cat = ESIStatic.INSTANCE.cache.universe.categories(group.category_id).get();
-		System.out.println(type.name + "(" + typeId + ") group=" + group.name + "(" + group.group_id + ") category="
+		System.out.println(type.name + "(" + type.type_id + ") group=" + group.name + "(" + group.group_id + ") category="
 				+ cat.name + "(" + cat.category_id + ")");
 		Set<Integer> usedAttIds = new HashSet<>();
 		Map<Integer, Float> attIdToValue = Stream
@@ -218,6 +229,22 @@ public class ShowAttributes {
 		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(groupId).get();
 		for (int typeId : group.types) {
 			showEntity(typeId, filters);
+		}
+	}
+
+	public static void showGroup(String nameFilter, int... groupids) {
+		IntStream.of(groupids).parallel()
+		.flatMap(gid -> IntStream.of(ESIStatic.INSTANCE.cache.universe.groups(gid).get().types))
+		.forEach(tid -> ESIStatic.INSTANCE.cache.universe.types(tid));
+		for (int groupId : groupids) {
+			R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(groupId).get();
+			for (int typeId : group.types) {
+				R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache.universe.types(typeId).get();
+				if (nameFilter != null && !type.name.matches(nameFilter)) {
+					continue;
+				}
+				showEntity(type, (String[]) null);
+			}
 		}
 	}
 
