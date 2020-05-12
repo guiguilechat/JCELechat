@@ -52,6 +52,18 @@ public interface Requested<T> {
 	}
 
 	/**
+	 * @return the value of expires, converted using
+	 *         {@link ZonedDateTime#toEpochSecond()} ; or 0 if not found
+	 */
+	public default long getExpiresS() {
+		String expire = getExpires();
+		if (expire == null) {
+			return 0;
+		}
+		return ZonedDateTime.parse(expire, formatter).toEpochSecond();
+	}
+
+	/**
 	 *
 	 * @return the Date header, if exists, else null.
 	 */

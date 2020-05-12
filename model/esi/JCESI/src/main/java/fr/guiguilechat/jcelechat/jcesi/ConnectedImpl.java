@@ -203,8 +203,12 @@ public abstract class ConnectedImpl implements ITransfer {
 			String resExpire = res.getExpires();
 			String pageExpire = page.getExpires();
 			if (!(resExpire == pageExpire || resExpire != null && resExpire.equals(pageExpire))) {
-				logger.warn("mismatching page cache data [url=" + page.getURL() + " Expires=" + page.getExpires()
-				+ "] with first page [url=" + res.getURL() + " Expires=" + res.getExpires() + "]");
+				// if expiry are different but only differ from up to 5 second, we don't
+				// care
+				if (Math.abs(res.getExpiresS() - page.getExpiresS()) > 5) {
+					logger.warn("mismatching page cache data [url=" + page.getURL() + " Expires=" + page.getExpires()
+					+ "] with first page [url=" + res.getURL() + " Expires=" + res.getExpires() + "]");
+				}
 				mismatch[0] = true;
 			}
 		}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr)).collect(Collectors.toList());
