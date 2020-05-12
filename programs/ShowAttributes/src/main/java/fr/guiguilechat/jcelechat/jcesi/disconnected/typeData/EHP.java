@@ -28,7 +28,7 @@ public abstract class EHP implements TypeData {
 
 		@Override
 		public String name() {
-			return "EMEHP";
+			return "EM EHP";
 		}
 
 		@Override
@@ -51,7 +51,7 @@ public abstract class EHP implements TypeData {
 
 		@Override
 		public String name() {
-			return "THEHP";
+			return "TH EHP";
 		}
 
 		@Override
@@ -74,7 +74,7 @@ public abstract class EHP implements TypeData {
 
 		@Override
 		public String name() {
-			return "KIEHP";
+			return "KI EHP";
 		}
 
 		@Override
@@ -97,7 +97,7 @@ public abstract class EHP implements TypeData {
 
 		@Override
 		public String name() {
-			return "EXEHP";
+			return "EX EHP";
 		}
 
 		@Override

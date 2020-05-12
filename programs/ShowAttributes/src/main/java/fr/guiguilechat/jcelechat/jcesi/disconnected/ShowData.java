@@ -5,8 +5,11 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.EHP;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Id;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.MissileDPS;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Name;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.OrbitRange;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Tracking;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TurretDPS;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TurretMaxDPS;
@@ -20,16 +23,11 @@ public class ShowData {
 	public static void main(String[] args) {
 		TypeData[] data = { Name.INS,
 				//
-				// Id.INS,
+				Id.INS,
 				//
-				// EHP.EM, EHP.TH, EHP.KI, EHP.EX,
-				// OrbitRange.INS,
-				Tracking.INS, // TurretDPS.EM,
-				TurretDPS.TH, // TurretDPS.KI,
-				TurretDPS.EX, // TurretMaxDPS.EM,
-				TurretMaxDPS.TH, // TurretMaxDPS.KI,
-				TurretMaxDPS.EX, MissileDPS.EM, // MissileDPS.TH,
-				MissileDPS.KI, // MissileDPS.EX
+				EHP.EM, EHP.TH, EHP.KI, EHP.EX, OrbitRange.INS, Tracking.INS, TurretDPS.EM, TurretDPS.TH, TurretDPS.KI,
+				TurretDPS.EX, TurretMaxDPS.EM, TurretMaxDPS.TH, TurretMaxDPS.KI, TurretMaxDPS.EX, MissileDPS.EM, MissileDPS.TH,
+				MissileDPS.KI, MissileDPS.EX
 		};
 		// irregular frigates, destroyers, cruisers, battlecruisers, battleships,
 		// capsule, carrier

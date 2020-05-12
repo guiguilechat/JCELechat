@@ -32,7 +32,7 @@ public abstract class MissileDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "MissEmDPS";
+			return "Miss Em DPS";
 		}
 
 		@Override
@@ -45,7 +45,7 @@ public abstract class MissileDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "MissThDPS";
+			return "Miss Th DPS";
 		}
 
 		@Override
@@ -58,7 +58,7 @@ public abstract class MissileDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "MissKiDPS";
+			return "Miss Ki DPS";
 		}
 
 		@Override
@@ -71,7 +71,7 @@ public abstract class MissileDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "MissExDPS";
+			return "Miss Ex DPS";
 		}
 
 		@Override

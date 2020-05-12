@@ -32,7 +32,7 @@ public abstract class TurretDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "TurEmDPS";
+			return "Tur Em DPS";
 		}
 
 		@Override
@@ -45,7 +45,7 @@ public abstract class TurretDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "TurThDPS";
+			return "Tur Th DPS";
 		}
 
 		@Override
@@ -58,7 +58,7 @@ public abstract class TurretDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "TurKiDPS";
+			return "Tur Ki DPS";
 		}
 
 		@Override
@@ -71,7 +71,7 @@ public abstract class TurretDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "TurExDPS";
+			return "Tur Ex DPS";
 		}
 
 		@Override

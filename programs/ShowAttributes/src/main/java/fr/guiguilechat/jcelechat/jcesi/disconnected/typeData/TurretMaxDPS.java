@@ -34,7 +34,7 @@ public abstract class TurretMaxDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "TurMaxEmDPS";
+			return "Tur Max Em DPS";
 		}
 
 		@Override
@@ -47,7 +47,7 @@ public abstract class TurretMaxDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "TurMaxThDPS";
+			return "Tur Max Th DPS";
 		}
 
 		@Override
@@ -60,7 +60,7 @@ public abstract class TurretMaxDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "TurMaxKiDPS";
+			return "Tur Max Ki DPS";
 		}
 
 		@Override
@@ -73,7 +73,7 @@ public abstract class TurretMaxDPS implements TypeData {
 
 		@Override
 		public String name() {
-			return "TurMaxExDPS";
+			return "Tur Max Ex DPS";
 		}
 
 		@Override

@@ -21,7 +21,7 @@ public class OrbitRange implements TypeData {
 
 	@Override
 	public String name() {
-		return "orbitRange";
+		return "orbit Range";
 	}
 
 }
