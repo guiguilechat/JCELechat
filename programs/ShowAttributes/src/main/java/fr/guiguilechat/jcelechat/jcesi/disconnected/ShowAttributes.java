@@ -22,11 +22,6 @@ import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 public class ShowAttributes {
 
 	public static void main(String[] args) {
-		// invading entities
-		// showGroup(4028);
-		// tableGroup(4028);
-		// starving leshak
-		// showEntity(48125);
 
 		// covetor
 		// showEntity(17476);
@@ -57,7 +52,7 @@ public class ShowAttributes {
 		// diamond arbitrator
 		// showEntity(43559);
 		// liminal jarognik damavik
-		showEntity(54661);
+		// showEntity(54661);
 		// VHMF-32
 		// showEntity(54279);
 		// irregular frigates
@@ -66,6 +61,13 @@ public class ShowAttributes {
 		// showEntity(54675);
 		// irregular frigates, cruisers, etc.
 		// showGroup(".*Jarognik.*", 1568, 1664, 1665, 1666, 1667, 4053, 1726);
+		// invading entities
+		// showGroup(4028);
+		// tableGroup(4028);
+		// starving leshak
+		// showEntity(48125);
+		// invading raznaborg
+		showGroup(".*(Raznaborg).*", 4028);
 
 		// rakovene
 		// showEntity(52315);

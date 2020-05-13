@@ -6,11 +6,11 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.TypeData;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
 
-public class Tracking implements TypeData {
+public class TrackingEvasion implements TypeData {
 
-	public static Tracking INS = new Tracking();
+	public static TrackingEvasion INS = new TrackingEvasion();
 
-	protected Tracking() {
+	protected TrackingEvasion() {
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class Tracking implements TypeData {
 
 	@Override
 	public String name() {
-		return "tracking";
+		return "tracking evasion";
 	}
 
 }

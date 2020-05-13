@@ -11,18 +11,22 @@ public abstract class TurretDPS implements TypeData {
 	@Override
 	public String apply(R_get_universe_types_type_id type, Map<Integer, Double> attIdToValue,
 			Map<Integer, get_dogma_dynamic_items_type_id_item_id_dogma_effects> effectId2effect) {
-		if (effectId2effect.containsKey(10)) {
+		if (// https://esi.evetech.net/latest/dogma/effects/10
+				effectId2effect.containsKey(10)
+				// https://esi.evetech.net/latest/dogma/effects/6995
+				|| effectId2effect.containsKey(6995)) {
 			var damage = turretDamage(attIdToValue);
 			var delay = turretDelay(attIdToValue);
 			var mult = turretDamageMult(attIdToValue);
 			// System.err.println("type " + type.name + " damage=" + damage + "
-			// delay=" + delay + " mult=" + mult+" maxmultBonus="+maxMultBonus);
+			// delay=" + delay + " mult=" + mult);
 			if (damage == 0 || mult == 0) {
-				return "0";
+				return null;
 			}
 			return formater().format(1000 * damage * mult / delay);
 		} else {
-			return "0";
+			// System.err.println("type " + type.name + " has no turret effect");
+			return null;
 		}
 	}
 
