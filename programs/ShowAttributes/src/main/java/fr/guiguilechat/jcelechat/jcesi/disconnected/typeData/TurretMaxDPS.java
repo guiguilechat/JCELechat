@@ -24,11 +24,16 @@ public abstract class TurretMaxDPS implements TypeData {
 			if (damage == 0 || mult == 0 || maxMultBonus == 0) {
 				return null;
 			}
-			return formater().format(1000 * damage * mult * maxMultBonus / delay);
+			return format(1000 * damage * mult * maxMultBonus / delay);
 
 		} else {
 			return null;
 		}
+	}
+
+	@Override
+	public String unit() {
+		return "HP/s";
 	}
 
 	public abstract double turretDamage(Map<Integer, Double> attIdToValue);

@@ -11,6 +11,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.EHP;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.MissileDPS;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Name;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Neutralizer;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.OrbitRange;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TrackingEvasion;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TurretDPS;
@@ -20,7 +21,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
 
-public class ShowData {
+public class ShowEntitiesStats {
 
 	public static void main(String[] args) {
 		TypeData[] data = { Name.INS,
@@ -33,21 +34,22 @@ public class ShowData {
 				//
 				TurretMaxDPS.EM, TurretMaxDPS.TH, TurretMaxDPS.KI, TurretMaxDPS.EX,
 				//
-				MissileDPS.EM, MissileDPS.TH, MissileDPS.KI, MissileDPS.EX
+				MissileDPS.EM, MissileDPS.TH, MissileDPS.KI, MissileDPS.EX,
+				//
+				Neutralizer.INS,
 		};
 		// irregular frigates, destroyers, cruisers, battlecruisers, battleships,
 		// capsule, carrier
-		// showGroup(".*(Jarognik).*", new int[] { 1568, 1664, 1665, 1666, 1667,
-		// 4053, 1726 }, data);
+		showGroups(".*(Jarognik).*", new int[] { 1568, 1664, 1665, 1666, 1667, 4053, 1726 }, data);
 		// irregular frigates
 		// showGroup(null, new int[] { 1568 }, data);
 		// burner frigates
 		// showGroup(".*(Burner).*", new int[] { 818, 817 },data);
 		// invading trigs
-		showGroup(".*(Raznaborg Damavik).*", new int[] { 4028 }, data);
+		// showGroup(".*(Raznaborg Damavik).*", new int[] { 4028 }, data);
 	}
 
-	public static void showGroup(String nameFilter, int[] groupIds, TypeData... typedatas) {
+	public static void showGroups(String nameFilter, int[] groupIds, TypeData... typedatas) {
 		// preload the group
 		IntStream.of(groupIds).parallel()
 		.flatMap(groupId -> IntStream.of(ESIStatic.INSTANCE.cache.universe.groups(groupId).get().types))
@@ -75,6 +77,15 @@ public class ShowData {
 		StringBuilder sb = null;
 		for (TypeData td : keptData) {
 			sb = sb == null ? new StringBuilder(td.name()) : sb.append("\t").append(td.name());
+		}
+		System.out.println(sb);
+		sb = null;
+		for (TypeData td : keptData) {
+			var unit = td.unit();
+			if (unit == null) {
+				unit = ".";
+			}
+			sb = sb == null ? new StringBuilder(unit) : sb.append("\t").append(unit);
 		}
 		System.out.println(sb);
 		for (int i = 0; i < entitynb; i++) {

@@ -23,11 +23,16 @@ public abstract class TurretDPS implements TypeData {
 			if (damage == 0 || mult == 0) {
 				return null;
 			}
-			return formater().format(1000 * damage * mult / delay);
+			return format(1000 * damage * mult / delay);
 		} else {
 			// System.err.println("type " + type.name + " has no turret effect");
 			return null;
 		}
+	}
+
+	@Override
+	public String unit() {
+		return "HP/s";
 	}
 
 	public abstract double turretDamage(Map<Integer, Double> attIdToValue);

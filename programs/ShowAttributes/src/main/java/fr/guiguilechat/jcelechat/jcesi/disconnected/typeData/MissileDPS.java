@@ -21,10 +21,15 @@ public abstract class MissileDPS implements TypeData {
 			if (damage == 0 || mult == 0) {
 				return null;
 			}
-			return formater().format(1000 * damage * mult / delay);
+			return format(1000 * damage * mult / delay);
 		} else {
 			return null;
 		}
+	}
+
+	@Override
+	public String unit() {
+		return "HP/s";
 	}
 
 	public abstract double missileDamage(Map<Integer, Double> attIdToValue);

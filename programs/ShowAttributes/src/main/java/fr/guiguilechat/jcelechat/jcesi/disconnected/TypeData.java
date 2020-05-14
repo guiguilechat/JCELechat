@@ -16,10 +16,12 @@ public interface TypeData {
 
 	public String name();
 
+	public String unit();
+
 	public static final DecimalFormat nf = new DecimalFormat("#", DecimalFormatSymbols.getInstance(Locale.ENGLISH));
 
-	public default DecimalFormat formater() {
-		return nf;
+	public default String format(Number n) {
+		return nf.format(n);
 	}
 
 	//
@@ -237,6 +239,28 @@ public interface TypeData {
 			return missileAttribute(missId, 116, 0.0);
 		}
 		return 0.0;
+	}
+
+	// neutralizer
+
+	/**
+	 *
+	 * @param attIdToValue
+	 * @return the amount remove per cycle, in GJ
+	 */
+	public default double neutralizerAmount(Map<Integer, Double> attIdToValue) {
+		// https://esi.evetech.net/v1/dogma/attributes/97
+		return attIdToValue.getOrDefault(97, 0.0);
+	}
+
+	/**
+	 *
+	 * @param attIdToValue
+	 * @return the neutralizer delay, in ms
+	 */
+	public default double neutralizerDelay(Map<Integer, Double> attIdToValue) {
+		// https://esi.evetech.net/v1/dogma/attributes/2519
+		return attIdToValue.getOrDefault(2519, 0.0);
 	}
 
 }

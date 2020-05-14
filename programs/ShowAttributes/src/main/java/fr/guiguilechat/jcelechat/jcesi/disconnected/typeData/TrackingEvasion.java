@@ -21,13 +21,17 @@ public class TrackingEvasion implements TypeData {
 		var velocity = orbitVelocity(attIdToValue);
 		// System.err.println("type " + type.name + " sig=" + sig + " range=" +
 		// range + " velo=" + velocity);
-		return formater()
-				.format(velocity * 40000 / sig / range);
+		return format(velocity * 40000 / sig / range);
 	}
 
 	@Override
 	public String name() {
 		return "tracking evasion";
+	}
+
+	@Override
+	public String unit() {
+		return "rad/s";
 	}
 
 }

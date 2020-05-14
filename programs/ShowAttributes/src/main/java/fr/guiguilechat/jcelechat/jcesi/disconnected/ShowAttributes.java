@@ -60,14 +60,14 @@ public class ShowAttributes {
 		// jarognik rodiva
 		// showEntity(54675);
 		// irregular frigates, cruisers, etc.
-		// showGroup(".*Jarognik.*", 1568, 1664, 1665, 1666, 1667, 4053, 1726);
+		showGroup(".*Jarognik.*", 1568, 1664, 1665, 1666, 1667, 4053, 1726);
 		// invading entities
 		// showGroup(4028);
 		// tableGroup(4028);
 		// starving leshak
 		// showEntity(48125);
 		// invading raznaborg
-		showGroup(".*(Raznaborg).*", 4028);
+		// showGroup(".*(Raznaborg).*", 4028);
 
 		// rakovene
 		// showEntity(52315);

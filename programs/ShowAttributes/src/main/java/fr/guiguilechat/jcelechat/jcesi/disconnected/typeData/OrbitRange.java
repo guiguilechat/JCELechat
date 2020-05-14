@@ -16,12 +16,17 @@ public class OrbitRange implements TypeData {
 	@Override
 	public String apply(R_get_universe_types_type_id type, Map<Integer, Double> attIdToValue,
 			Map<Integer, get_dogma_dynamic_items_type_id_item_id_dogma_effects> effectId2effect) {
-		return formater().format(orbitRange(attIdToValue));
+		return format(orbitRange(attIdToValue));
 	}
 
 	@Override
 	public String name() {
 		return "orbit Range";
+	}
+
+	@Override
+	public String unit() {
+		return "m";
 	}
 
 }

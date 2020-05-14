@@ -24,4 +24,9 @@ public class Id implements TypeData {
 		return "id";
 	}
 
+	@Override
+	public String unit() {
+		return "";
+	}
+
 }

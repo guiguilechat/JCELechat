@@ -12,9 +12,14 @@ public abstract class EHP implements TypeData {
 	}
 
 	@Override
+	public String unit() {
+		return "EHP";
+	}
+
+	@Override
 	public String apply(R_get_universe_types_type_id type, Map<Integer, Double> attIdToValue,
 			Map<Integer, get_dogma_dynamic_items_type_id_item_id_dogma_effects> effectId2effect) {
-		return formater().format(shieldHP(attIdToValue) / shieldResonnance(attIdToValue)
+		return format(shieldHP(attIdToValue) / shieldResonnance(attIdToValue)
 				+ armorHP(attIdToValue) / armorResonnance(attIdToValue) + hullHP(attIdToValue) / hullResonnance(attIdToValue));
 	}
 
