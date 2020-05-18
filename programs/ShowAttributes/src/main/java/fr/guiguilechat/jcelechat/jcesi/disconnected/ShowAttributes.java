@@ -31,7 +31,7 @@ public class ShowAttributes {
 		// showEntity(3082);
 		// ADC II
 		// showEntity(47257);
-		// domination heavy statsi grappler
+		// domination heavy statis grappler
 		// showEntity(41059);
 		// CN web
 		// showEntity(17500);
@@ -60,7 +60,8 @@ public class ShowAttributes {
 		// jarognik rodiva
 		// showEntity(54675);
 		// irregular frigates, cruisers, etc.
-		showGroup(".*Jarognik.*", 1568, 1664, 1665, 1666, 1667, 4053, 1726);
+		// showGroups(".*Jarognik.*", 1568, 1664, 1665, 1666, 1667, 4053, 1726);
+		// showGroups(null, 1568, 1664, 1665, 1666, 1667, 4053, 1726);
 		// invading entities
 		// showGroup(4028);
 		// tableGroup(4028);
@@ -68,6 +69,8 @@ public class ShowAttributes {
 		// showEntity(48125);
 		// invading raznaborg
 		// showGroup(".*(Raznaborg).*", 4028);
+		// burners
+		// showGroups(".*(Burner).*", 818, 817);
 
 		// rakovene
 		// showEntity(52315);
@@ -80,6 +83,13 @@ public class ShowAttributes {
 
 		// drifter bs
 		// showGroup(1310);
+		//
+		// showEntity(47953);
+		// lucid preserver
+		// showEntity(48251);
+		// fieldweaver tessella
+		showEntity(47850);
+
 	}
 
 	public static void showEntity(int typeId, String... filters) {
@@ -142,10 +152,8 @@ public class ShowAttributes {
 							R_get_dogma_attributes_attribute_id modified = ESIStatic.INSTANCE.cache.dogma
 									.attributes(m.modified_attribute_id).get();
 							usedAttIds.add(m.modifying_attribute_id);
-							System.out.println("\t\t\t" + m.func + " : " + m.domain + "." + modified.display_name
-									+ " "
-									+ getOperator(m.operator) + " " + getAttValue(attIdToValue, m.modifying_attribute_id)
-									);
+							System.out.println("\t\t\t" + m.func + " : " + m.domain + "." + modified.display_name + " "
+									+ getOperator(m.operator) + " " + getAttValue(attIdToValue, m.modifying_attribute_id));
 						}
 					}
 				}
@@ -171,8 +179,8 @@ public class ShowAttributes {
 				}
 				if (e.discharge_attribute_id != 0) {
 					usedAttIds.add(e.discharge_attribute_id);
-					System.out.println(
-							"\t\tdischarge(" + e.discharge_attribute_id + ")=" + printAttValue(attIdToValue, e.discharge_attribute_id));
+					System.out.println("\t\tdischarge(" + e.discharge_attribute_id + ")="
+							+ printAttValue(attIdToValue, e.discharge_attribute_id));
 				}
 				if (e.pre_expression != 0) {
 					System.out.println("\t\tpre=" + e.pre_expression);
@@ -234,7 +242,7 @@ public class ShowAttributes {
 		}
 	}
 
-	public static void showGroup(String nameFilter, int... groupids) {
+	public static void showGroups(String nameFilter, int... groupids) {
 		IntStream.of(groupids).parallel()
 		.flatMap(gid -> IntStream.of(ESIStatic.INSTANCE.cache.universe.groups(gid).get().types))
 		.forEach(tid -> ESIStatic.INSTANCE.cache.universe.types(tid));

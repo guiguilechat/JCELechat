@@ -121,4 +121,31 @@ public abstract class EHP implements TypeData {
 		}
 	};
 
+	public static final EHP OMNI = new EHP() {
+
+		@Override
+		public String name() {
+			return "OMNI EHP";
+		}
+
+		@Override
+		public double shieldResonnance(Map<Integer, Double> attIdToValue) {
+			return 0.25 * (shieldEmResonnance(attIdToValue) + shieldThResonnance(attIdToValue)
+			+ shieldKiResonnance(attIdToValue) + shieldExResonnance(attIdToValue));
+		}
+
+		@Override
+		public double armorResonnance(Map<Integer, Double> attIdToValue) {
+			return 0.25 * (armorEmResonnance(attIdToValue) + armorThResonnance(attIdToValue) + armorKiResonnance(attIdToValue)
+			+ armorExResonnance(attIdToValue));
+		}
+
+		@Override
+		public double hullResonnance(Map<Integer, Double> attIdToValue) {
+			return 0.25 * (hullEmResonnance(attIdToValue) + hullThResonnance(attIdToValue) + hullKiResonnance(attIdToValue)
+					+ hullExResonnance(attIdToValue));
+		}
+
+	};
+
 }

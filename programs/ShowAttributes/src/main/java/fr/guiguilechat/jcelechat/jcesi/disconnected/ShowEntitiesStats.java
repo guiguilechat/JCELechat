@@ -9,10 +9,12 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.EHP;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Id;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.MissileDPS;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Name;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Neutralizer;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.OrbitRange;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Point;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TrackingEvasion;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TurretDPS;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TurretMaxDPS;
@@ -26,9 +28,9 @@ public class ShowEntitiesStats {
 	public static void main(String[] args) {
 		TypeData[] data = { Name.INS,
 				//
-				// Id.INS,
+				Id.INS,
 				//
-				EHP.EM, EHP.TH, EHP.KI, EHP.EX, OrbitRange.INS, TrackingEvasion.INS,
+				EHP.EM, EHP.TH, EHP.KI, EHP.EX, EHP.OMNI, OrbitRange.INS, TrackingEvasion.INS,
 				//
 				TurretDPS.EM, TurretDPS.TH, TurretDPS.KI, TurretDPS.EX,
 				//
@@ -36,17 +38,26 @@ public class ShowEntitiesStats {
 				//
 				MissileDPS.EM, MissileDPS.TH, MissileDPS.KI, MissileDPS.EX,
 				//
-				Neutralizer.INS,
+				Neutralizer.STR, Neutralizer.OPT, Neutralizer.FALL,
+				//
+				Point.DISRUPT, Point.SCRAM,
 		};
 		// irregular frigates, destroyers, cruisers, battlecruisers, battleships,
 		// capsule, carrier
-		showGroups(".*(Jarognik).*", new int[] { 1568, 1664, 1665, 1666, 1667, 4053, 1726 }, data);
+		// showGroups(".*(Jarognik).*", new int[] { 1568, 1664, 1665, 1666, 1667,
+		// 4053, 1726 }, data);
+
 		// irregular frigates
-		// showGroup(null, new int[] { 1568 }, data);
+		// showGroups(null, new int[] { 1568 }, data);
+
 		// burner frigates
-		// showGroup(".*(Burner).*", new int[] { 818, 817 },data);
+		// showGroups(".*(Burner).*", new int[] { 818, 817 }, data);
+
 		// invading trigs
-		// showGroup(".*(Raznaborg Damavik).*", new int[] { 4028 }, data);
+		// showGroups(".*(Raznaborg Damavik).*", new int[] { 4028 }, data);
+
+		// abyssal entities
+		showGroups(null, new int[] { 1982, 1997 }, data);
 	}
 
 	public static void showGroups(String nameFilter, int[] groupIds, TypeData... typedatas) {
@@ -93,7 +104,7 @@ public class ShowEntitiesStats {
 			for (TypeData td : keptData) {
 				String data = data2values.get(td).get(i);
 				if (data == null) {
-					data = ".";
+					data = "0";
 				}
 				sb = sb == null ? new StringBuilder(data) : sb.append("\t").append(data);
 			}

@@ -107,7 +107,9 @@ public interface TypeData {
 	 * @return the orbit velocity, in m/s
 	 */
 	public default double orbitVelocity(Map<Integer, Double> attIdToValue) {
-		return attIdToValue.getOrDefault(508, 0.0);
+		// https://esi.evetech.net/v1/dogma/attributes/508
+		// https://esi.evetech.net/v1/dogma/attributes/37
+		return Math.max(attIdToValue.getOrDefault(508, 0.0), attIdToValue.getOrDefault(37, 0.0));
 	}
 
 	/**
@@ -160,6 +162,11 @@ public interface TypeData {
 
 	public default double turretExDamage(Map<Integer, Double> attIdToValue) {
 		return attIdToValue.getOrDefault(116, 0.0);
+	}
+
+	public default double turretOptiRange(Map<Integer, Double> attIdToValue) {
+		// https://esi.evetech.net/v1/dogma/attributes/54
+		return attIdToValue.getOrDefault(54, 0.0);
 	}
 
 	//
@@ -241,7 +248,9 @@ public interface TypeData {
 		return 0.0;
 	}
 
+	//
 	// neutralizer
+	//
 
 	/**
 	 *
@@ -259,8 +268,30 @@ public interface TypeData {
 	 * @return the neutralizer delay, in ms
 	 */
 	public default double neutralizerDelay(Map<Integer, Double> attIdToValue) {
+		// https://esi.evetech.net/v1/dogma/attributes/942
 		// https://esi.evetech.net/v1/dogma/attributes/2519
-		return attIdToValue.getOrDefault(2519, 0.0);
+		return Math.max(attIdToValue.getOrDefault(2519, 0.0), attIdToValue.getOrDefault(942, 0.0));
+	}
+
+	public default double neutralizerOptimal(Map<Integer, Double> attIdToValue) {
+		// https://esi.evetech.net/v1/dogma/attributes/98
+		// https://esi.evetech.net/v1/dogma/attributes/2520
+		return Math.max(attIdToValue.getOrDefault(2520, 0.0), attIdToValue.getOrDefault(98, 0.0));
+	}
+
+	public default double NeutralizerFallOff(Map<Integer, Double> attIdToValue) {
+		// https://esi.evetech.net/v1/dogma/attributes/2521
+		return attIdToValue.getOrDefault(2521, 0.0);
+	}
+
+	//
+	// point or scramble
+	//
+
+	public default double pointRange(Map<Integer, Double> attIdToValue) {
+		// https://esi.evetech.net/v1/dogma/attributes/103
+		// https://esi.evetech.net/v1/dogma/attributes/2507
+		return Math.max(attIdToValue.getOrDefault(103, 0.0), attIdToValue.getOrDefault(2507, 0.0));
 	}
 
 }

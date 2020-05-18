@@ -16,7 +16,11 @@ public class OrbitRange implements TypeData {
 	@Override
 	public String apply(R_get_universe_types_type_id type, Map<Integer, Double> attIdToValue,
 			Map<Integer, get_dogma_dynamic_items_type_id_item_id_dogma_effects> effectId2effect) {
-		return format(orbitRange(attIdToValue));
+		var range = orbitRange(attIdToValue);
+		if (range == 0) {
+			range = turretOptiRange(attIdToValue);
+		}
+		return format(range);
 	}
 
 	@Override
