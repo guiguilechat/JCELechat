@@ -109,7 +109,9 @@ public interface TypeData {
 	public default double orbitVelocity(Map<Integer, Double> attIdToValue) {
 		// https://esi.evetech.net/v1/dogma/attributes/508
 		// https://esi.evetech.net/v1/dogma/attributes/37
-		return Math.max(attIdToValue.getOrDefault(508, 0.0), attIdToValue.getOrDefault(37, 0.0));
+		var maxspeed = attIdToValue.getOrDefault(37, 0.0);
+		var behavior = attIdToValue.getOrDefault(508, 0.0);
+		return behavior == 0 ? maxspeed : behavior;
 	}
 
 	/**
