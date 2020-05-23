@@ -16,6 +16,7 @@ import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Unlocked;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -203,54 +204,6 @@ public class Corporation {
 		}
 		return ret;
 	}
-	/**
-	 *
-	 * @return the location->typeid->quantity
-	 */
-	public ObservableMap<Long, ObservableMap<Integer, Long>> getAssets() {
-		ObservableMap<Long, ObservableMap<Integer, Long>> assets = FXCollections.observableMap(new LinkedHashMap<>());
-		R_get_corporations_corporation_id_assets[] itemsArr = con.raw.cache.corporations.assets(getId()).get().stream()
-				.filter(asset -> !get_corporations_corporation_id_assets_location_flag.AutoFit.equals(asset.location_flag))
-				.toArray(R_get_corporations_corporation_id_assets[]::new);
-		try {
-			// we make the map of itemid->locations. if a location is actually an
-			// asset, we iterally map it to this asset's location instead
-			Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
-					.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (a, b) -> {
-						var sortedItemsArray = Arrays.copyOf(itemsArr, itemsArr.length);
-						Arrays.sort(sortedItemsArray, (o1, o2) -> (int) Math.signum(o1.item_id - o2.item_id));
-						logger.warn("double item location when fetching corporation assets " + a + ";" + b);
-						for (R_get_corporations_corporation_id_assets asset : sortedItemsArray) {
-							logger.warn("" + asset.item_id + " : loc=" + asset.location_id + " type=" + asset.type_id + " x"
-									+ asset.quantity);
-						}
-						return b;
-					}));
-			Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream().collect(Collectors.toMap(Entry::getKey, e -> {
-				Long ret = e.getValue();
-				while (baseLocationMap.containsKey(ret)) {
-					ret = baseLocationMap.get(ret);
-				}
-				return ret;
-			}));
-			Map<Long, Map<Integer, Long>> newitems = Stream.of(
-					itemsArr)
-					.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Corporation::makeMap, Corporation::mergeMap));
-
-			for (Entry<Long, Map<Integer, Long>> e : newitems.entrySet()) {
-				ObservableMap<Integer, Long> om = assets.get(e.getKey());
-				if (om == null) {
-					om = FXCollections.observableHashMap();
-					assets.put(e.getKey(), om);
-				}
-				om.keySet().retainAll(e.getValue().keySet());
-				om.putAll(e.getValue());
-			}
-		} catch (Exception e) {
-			logger.warn("while getting assets", e);
-		}
-		return assets;
-	}
 
 	private ObsMapHolder<Long, Map<Integer, Long>> availableAssets = null;
 
@@ -265,9 +218,12 @@ public class Corporation {
 					assetList.follow(l -> {
 						Map<Long, Map<Integer, Long>> newmap = availableAssetsByLocation(l);
 						logger.debug("corporation " + getName() + " has available assets " + newmap);
-
 						internal.keySet().retainAll(newmap.keySet());
-						internal.putAll(newmap);
+						for (Entry<Long, Map<Integer, Long>> e : newmap.entrySet()) {
+							if (!e.getValue().equals(internal.get(e.getKey()))) {
+								internal.put(e.getKey(), Collections.unmodifiableMap(e.getValue()));
+							}
+						}
 						ret.dataReceived();
 					});
 					availableAssets = ret;

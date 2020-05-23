@@ -10,6 +10,7 @@ import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures
 
 import java.time.OffsetDateTime;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -291,35 +292,14 @@ public class EveCharacter {
 	// assets
 	//
 
+	/**
+	 *
+	 * @return the raw cached observable list of assets for this character, from
+	 *         ESI.
+	 */
 	public ObsListHolder<R_get_characters_character_id_assets> getAssetsList() {
 		// caching is already present at the cache level.
 		return con.raw.cache.characters.assets(con.characterId());
-	}
-
-	// locationid->typeid->number
-	private ObsMapHolderImpl<Long, ObservableMap<Integer, Long>> cachedAssets = null;
-
-	/**
-	 *
-	 * @return the locationID->typeid->quantity
-	 */
-	public ObsMapHolder<Long, ObservableMap<Integer, Long>> getAssets() {
-		if (cachedAssets == null) {
-			synchronized (this) {
-				if (cachedAssets == null) {
-					ObsListHolder<R_get_characters_character_id_assets> assets = con.raw.cache.characters
-							.assets(con.characterId());
-					ObservableMap<Long, ObservableMap<Integer, Long>> map = FXCollections.observableHashMap();
-					cachedAssets = con.raw.cache.toHolder(map);
-					synchronized (assets) {
-						assets.followItems(c -> applyNewAssets(c, map));
-						assets.follow((ass) -> cachedAssets.dataReceived());
-					}
-
-				}
-			}
-		}
-		return cachedAssets;
 	}
 
 	/**
@@ -330,7 +310,7 @@ public class EveCharacter {
 	 * @return the map of itemid to qtty for each assets this character owns.
 	 */
 	public Map<Integer, Long> getAssetsProd() {
-		Map<Integer, Long> assets = getAssets().get().values().parallelStream().flatMap(m -> m.entrySet().stream())
+		Map<Integer, Long> assets = getAvailableAssets().get().values().parallelStream().flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Long::sum));
 		Map<Integer, Long> prod = industry.getIndustryJobs().get().values().stream().parallel()
 				.filter(Industry::isManufacture)
@@ -386,6 +366,13 @@ public class EveCharacter {
 
 	private ObsMapHolder<Long, Map<Integer, Long>> availableAssets = null;
 
+	/**
+	 * get the available map of assets locations to assets id to assets quantity.
+	 * <br />
+	 * The assets for a location are actually unmodifiable maps.
+	 *
+	 * @return a cached observable map.
+	 */
 	public ObsMapHolder<Long, Map<Integer, Long>> getAvailableAssets() {
 		if (availableAssets == null) {
 			ObsListHolder<R_get_characters_character_id_assets> assetList = getAssetsList();
@@ -397,7 +384,11 @@ public class EveCharacter {
 						Map<Long, Map<Integer, Long>> newmap = availableAssetsByLocation(l);
 						logger.debug("character " + getName() + " has available assets " + newmap);
 						internal.keySet().retainAll(newmap.keySet());
-						internal.putAll(newmap);
+						for (Entry<Long, Map<Integer, Long>> e : newmap.entrySet()) {
+							if (!e.getValue().equals(internal.get(e.getKey()))) {
+								internal.put(e.getKey(), Collections.unmodifiableMap(e.getValue()));
+							}
+						}
 						ret.dataReceived();
 					});
 					availableAssets = ret;

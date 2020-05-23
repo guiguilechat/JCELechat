@@ -44,7 +44,8 @@ public class ShowEntitiesStats {
 		};
 		// irregular frigates, destroyers, cruisers, battlecruisers, battleships,
 		// capsule, carrier
-		showGroups(".*(Jarognik).*", new int[] { 1568, 1664, 1665, 1666, 1667, 4053, 1726 }, data);
+		// showGroups(".*(Jarognik).*", new int[] { 1568, 1664, 1665, 1666, 1667,
+		// 4053, 1726 }, data);
 
 		// irregular frigates
 		// showGroups(null, new int[] { 1568 }, data);
@@ -53,7 +54,7 @@ public class ShowEntitiesStats {
 		// showGroups(".*(Burner).*", new int[] { 818, 817 }, data);
 
 		// invading trigs
-		// showGroups(".*(Raznaborg Damavik).*", new int[] { 4028 }, data);
+		showGroups(".*(Raznaborg Damavik).*", new int[] { 4028 }, data);
 
 		// abyssal entities
 		// showGroups(null, new int[] { 1982, 1997 }, data);
