@@ -179,8 +179,9 @@ public abstract class ConnectedImpl implements ITransfer {
 	@Override
 	public <T> Requested<List<T>> requestGetPages(BiFunction<Integer, Map<String, String>, Requested<T[]>> resourceAccess,
 			Map<String, String> parameters) {
+		Requested<T[]> applied = null;
 		for (int retry = 3; retry > 0; retry--) {
-			Requested<T[]> applied = resourceAccess.apply(1, parameters);
+			applied = resourceAccess.apply(1, parameters);
 			RequestedImpl<List<T>> page1 = convertToList(applied);
 			if (page1 == null) {
 				logger.debug("received null for " + applied.getURL());
@@ -198,7 +199,12 @@ public abstract class ConnectedImpl implements ITransfer {
 				}
 				return page1;
 			}
-			logger.debug("mismatch, fetching again " + page1.getURL());
+			logger.debug("mismatch, fetching again " + page1.getURL() + " retry=" + retry);
+		}
+		if (applied == null) {
+			logger.debug("returned null for first page");
+		} else {
+			logger.debug("first page returned is " + applied.getURL() + " : " + applied.getResponseCode());
 		}
 		return null;
 	}
@@ -225,13 +231,12 @@ public abstract class ConnectedImpl implements ITransfer {
 			String pageExpire = page.getExpires();
 			if (!(resExpire == pageExpire || resExpire != null && resExpire.equals(pageExpire))) {
 				// if expiry are different but only differ from up to 20 second, we
-				// don't
-				// care
-				if (Math.abs(res.getExpiresS() - page.getExpiresS()) > 20) {
+				// don't care
+				if (Math.abs(res.getExpiresS() - page.getExpiresS()) > 20 && !mismatch[0]) {
 					logger.warn("mismatching page cache data [url=" + page.getURL() + " Expires=" + page.getExpires()
 					+ "] with first page [url=" + res.getURL() + " Expires=" + res.getExpires() + "]");
+					mismatch[0] = true;
 				}
-				mismatch[0] = true;
 			}
 		}).filter(Requested::isOk).map(req -> req.getOK()).flatMap(arr -> Stream.of(arr)).collect(Collectors.toList());
 		return listret;

@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled;
 
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.AutoFit;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpDeliveries;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG1;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG2;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG3;
@@ -11,6 +12,7 @@ import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Deliveries;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Hangar;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.HangarAll;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Impounded;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Locked;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.ShipHangar;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Unlocked;
@@ -67,6 +69,7 @@ import javafx.collections.ObservableMap;
 
 public class Corporation {
 
+	@SuppressWarnings("unused")
 	private static final Logger logger = org.slf4j.LoggerFactory.getLogger(Corporation.class);
 
 	public final ESIAccount con;
@@ -175,17 +178,18 @@ public class Corporation {
 				case SYSTEM:
 					// the location_id is a system :
 					// this is our structure
-					sysasset = ret.computeIfAbsent(resolved.name,k-> new SystemAsset());
+					sysasset = ret.computeIfAbsent(resolved.name, k -> new SystemAsset());
 					sysasset.owned.put(Location.resolve(con, folder.asset.item_id).name, folder);
 					break;
 				case STRUCTURE:
 					// location_id is a structure, that we don't own
 					if (resolved.ref == null) {
 						// we can't resolved the structure. it's in system "unresolved"
-						sysasset =ret.computeIfAbsent("unresolved",k-> new SystemAsset());
+						sysasset = ret.computeIfAbsent("unresolved", k -> new SystemAsset());
 					} else {
 						// structure is resolved. get its system.
-						String name = Location.resolve(con, ((R_get_universe_structures_structure_id) resolved.ref).solar_system_id).name;
+						String name = Location.resolve(con,
+								((R_get_universe_structures_structure_id) resolved.ref).solar_system_id).name;
 						sysasset = ret.computeIfAbsent(name, k -> new SystemAsset());
 					}
 					sysasset.rent.put(resolved.name, folder);
@@ -213,18 +217,34 @@ public class Corporation {
 			synchronized (assetList) {
 				if (availableAssets == null) {
 					ObservableMap<Long, Map<Integer, Long>> internal = FXCollections.observableMap(new LinkedHashMap<>());
-					ObsMapHolderImpl<Long, Map<Integer, Long>> ret = new ObsMapHolderImpl<>(
-							internal);
+					ObsMapHolderImpl<Long, Map<Integer, Long>> ret = new ObsMapHolderImpl<>(internal);
 					assetList.follow(l -> {
 						Map<Long, Map<Integer, Long>> newmap = availableAssetsByLocation(l);
-						logger.debug("corporation " + getName() + " has available assets " + newmap);
-						internal.keySet().retainAll(newmap.keySet());
+						System.err.println("corporation " + getName() + " receives assetsbyloc hash=" + newmap.hashCode() + " size="
+								+ newmap.size() + " prevHash=" + internal.hashCode() + " prevSize=" + internal.size());
+						boolean modification = internal.keySet().retainAll(newmap.keySet()) || newmap.isEmpty();
 						for (Entry<Long, Map<Integer, Long>> e : newmap.entrySet()) {
-							if (!e.getValue().equals(internal.get(e.getKey()))) {
-								internal.put(e.getKey(), Collections.unmodifiableMap(e.getValue()));
+							var thenew = e.getValue();
+							var old = internal.get(e.getKey());
+							if (!thenew.equals(old)) {
+								System.err.println(" corporation " + getName() + " modification of location " + e.getKey()
+								+ " : newSize=" + thenew.size() + " newHash=" + thenew.hashCode() + " oldSize="
+								+ (old == null ? 0 : old.size()) + " oldHash=" + (old == null ? 0 : old.hashCode()));
+								internal.put(e.getKey(), Collections.unmodifiableMap(thenew));
+								modification = true;
+							} else {
+								System.err.println(" corporation " + getName() + " same items for location " + e.getKey()
+								+ " : newSize=" + thenew.size() + " newHash=" + thenew.hashCode() + " oldSize="
+								+ (old == null ? 0 : old.size()) + " oldHash=" + (old == null ? 0 : old.hashCode()));
 							}
+
 						}
-						ret.dataReceived();
+						if (modification) {
+							System.err.println("corporation " + getName() + " modification of assetsbyloc");
+							ret.dataReceived();
+						} else {
+							System.err.println("corporation " + getName() + " keeps same assetsbyloc");
+						}
 					});
 					availableAssets = ret;
 				}
@@ -234,8 +254,8 @@ public class Corporation {
 	}
 
 	private static final HashSet<get_corporations_corporation_id_assets_location_flag> availableAssetsFlags = new HashSet<>(
-			Arrays.asList(AutoFit, CorpSAG1, CorpSAG2, CorpSAG3, CorpSAG4, CorpSAG5, CorpSAG6, CorpSAG7, Deliveries, Hangar,
-					HangarAll, Locked, ShipHangar, Unlocked));
+			Arrays.asList(AutoFit, CorpDeliveries, CorpSAG1, CorpSAG2, CorpSAG3, CorpSAG4, CorpSAG5, CorpSAG6, CorpSAG7,
+					Deliveries, Hangar, HangarAll, Impounded, Locked, ShipHangar, Unlocked));
 
 	/**
 	 * filter and group the assets from an asset lists
@@ -255,16 +275,14 @@ public class Corporation {
 		Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
 				.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (l1, l2) -> l1));
 		Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream().collect(Collectors.toMap(Entry::getKey, e -> {
-			Long ret = e.getValue();
-			while (baseLocationMap.containsKey(ret)) {
-				ret = baseLocationMap.get(ret);
+			Long location = e.getValue();
+			while (baseLocationMap.containsKey(location)) {
+				location = baseLocationMap.get(location);
 			}
-			return ret;
+			return location;
 		}));
-		Map<Long, Map<Integer, Long>> ret = Stream.of(
-				itemsArr)
-				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(
-						asset.location_flag))
+		Map<Long, Map<Integer, Long>> ret = Stream.of(itemsArr)
+				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(asset.location_flag))
 				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Corporation::makeMap, Corporation::mergeMap));
 		return ret;
 	}
@@ -473,7 +491,8 @@ public class Corporation {
 				if (cachedMonthWars == null) {
 					cachedMonthWars = ESIAccess.INSTANCE.wars.getMonthWars()
 							.filter(war -> war.aggressor.corporation_id == getId() || war.defender.corporation_id == getId());
-				}});
+				}
+			});
 		}
 		return cachedMonthWars;
 	}

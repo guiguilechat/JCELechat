@@ -310,7 +310,7 @@ public class EveCharacter {
 	 * @return the map of itemid to qtty for each assets this character owns.
 	 */
 	public Map<Integer, Long> getAssetsProd() {
-		Map<Integer, Long> assets = getAvailableAssets().get().values().parallelStream().flatMap(m -> m.entrySet().stream())
+		Map<Integer, Long> assets = getAvailableAssets().get().values().stream().flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Long::sum));
 		Map<Integer, Long> prod = industry.getIndustryJobs().get().values().stream().parallel()
 				.filter(Industry::isManufacture)
