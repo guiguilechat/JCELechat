@@ -22,7 +22,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
@@ -31,14 +30,11 @@ import java.util.stream.StreamSupport;
 
 import org.slf4j.Logger;
 
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpAssetFolder;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Market;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.SystemAsset;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Wallet;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
@@ -54,8 +50,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_titles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
@@ -162,53 +156,6 @@ public class Corporation {
 		return con.raw.cache.corporations.assets(getId());
 	}
 
-	public Map<String, SystemAsset> getAssetTree() {
-		List<R_get_corporations_corporation_id_assets> assets = getAssetsList().get();
-		Map<String, SystemAsset> ret = new HashMap<>();
-		Map<Long, CorpAssetFolder> idToFolder = assets.stream()
-				.collect(Collectors.toMap(asset -> asset.item_id, asset -> new CorpAssetFolder(asset)));
-		for (CorpAssetFolder folder : idToFolder.values()) {
-			CorpAssetFolder parent = idToFolder.get(folder.asset.location_id);
-			if (parent != null) {
-				parent.addAsset(folder);
-			} else {
-				Location resolved = Location.resolve(con, folder.asset.location_id);
-				SystemAsset sysasset = null;
-				switch (resolved.type) {
-				case SYSTEM:
-					// the location_id is a system :
-					// this is our structure
-					sysasset = ret.computeIfAbsent(resolved.name, k -> new SystemAsset());
-					sysasset.owned.put(Location.resolve(con, folder.asset.item_id).name, folder);
-					break;
-				case STRUCTURE:
-					// location_id is a structure, that we don't own
-					if (resolved.ref == null) {
-						// we can't resolved the structure. it's in system "unresolved"
-						sysasset = ret.computeIfAbsent("unresolved", k -> new SystemAsset());
-					} else {
-						// structure is resolved. get its system.
-						String name = Location.resolve(con,
-								((R_get_universe_structures_structure_id) resolved.ref).solar_system_id).name;
-						sysasset = ret.computeIfAbsent(name, k -> new SystemAsset());
-					}
-					sysasset.rent.put(resolved.name, folder);
-					break;
-				case STATION:
-					// this is a hangar we rent in a station
-					R_get_universe_stations_station_id station = (R_get_universe_stations_station_id) resolved.ref;
-					String name = Location.resolve(con, station.system_id).name;
-					sysasset = ret.computeIfAbsent(name, k -> new SystemAsset());
-					sysasset.rent.put(resolved.name, folder);
-					break;
-				default:
-					throw new UnsupportedOperationException("case not handled " + resolved.type);
-				}
-			}
-		}
-		return ret;
-	}
-
 	private ObsMapHolder<Long, Map<Integer, Long>> availableAssets = null;
 
 	public ObsMapHolder<Long, Map<Integer, Long>> getAvailableAssets() {
@@ -220,24 +167,14 @@ public class Corporation {
 					ObsMapHolderImpl<Long, Map<Integer, Long>> ret = new ObsMapHolderImpl<>(internal);
 					assetList.follow(l -> {
 						Map<Long, Map<Integer, Long>> newmap = availableAssetsByLocation(l);
-						System.err.println("corporation " + getName() + " receives assetsbyloc hash=" + newmap.hashCode() + " size="
-								+ newmap.size() + " prevHash=" + internal.hashCode() + " prevSize=" + internal.size());
 						boolean modification = internal.keySet().retainAll(newmap.keySet()) || newmap.isEmpty();
 						for (Entry<Long, Map<Integer, Long>> e : newmap.entrySet()) {
 							var thenew = e.getValue();
 							var old = internal.get(e.getKey());
 							if (!thenew.equals(old)) {
-								System.err.println(" corporation " + getName() + " modification of location " + e.getKey()
-								+ " : newSize=" + thenew.size() + " newHash=" + thenew.hashCode() + " oldSize="
-								+ (old == null ? 0 : old.size()) + " oldHash=" + (old == null ? 0 : old.hashCode()));
 								internal.put(e.getKey(), Collections.unmodifiableMap(thenew));
 								modification = true;
-							} else {
-								System.err.println(" corporation " + getName() + " same items for location " + e.getKey()
-								+ " : newSize=" + thenew.size() + " newHash=" + thenew.hashCode() + " oldSize="
-								+ (old == null ? 0 : old.size()) + " oldHash=" + (old == null ? 0 : old.hashCode()));
 							}
-
 						}
 						if (modification) {
 							System.err.println("corporation " + getName() + " modification of assetsbyloc");
