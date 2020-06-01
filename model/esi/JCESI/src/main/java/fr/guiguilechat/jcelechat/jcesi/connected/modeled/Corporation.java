@@ -177,10 +177,12 @@ public class Corporation {
 							}
 						}
 						if (modification) {
-							System.err.println("corporation " + getName() + " modification of assetsbyloc");
+							// System.err.println("corporation " + getName() + " modification
+							// of assetsbyloc");
 							ret.dataReceived();
 						} else {
-							System.err.println("corporation " + getName() + " keeps same assetsbyloc");
+							// System.err.println("corporation " + getName() + " keeps same
+							// assetsbyloc");
 						}
 					});
 					availableAssets = ret;

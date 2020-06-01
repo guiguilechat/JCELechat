@@ -113,6 +113,18 @@ public class RegionalMarket implements IPricing {
 
 	private HashMap<OrderFilterParams, ProxyRegionalMarket> filtered = new HashMap<>();
 
+	/**
+	 * make a filtered (cached) pricing over a range, and a system/station in that
+	 * region.
+	 *
+	 * @param centerId
+	 *          id of the system of station to limit.
+	 * @param distance
+	 *          max distance if it's a system. 0 means in that system only.
+	 * @param onlyHS
+	 *          limit to systems only in HS if center is system.
+	 * @return cached filtered pricing.
+	 */
 	public IPricing filter(int centerId, int distance, boolean onlyHS) {
 		if (!onlyHS && (centerId == 0 || distance < 0 || distance > 40)) {
 			return this;
@@ -123,27 +135,32 @@ public class RegionalMarket implements IPricing {
 			ret = LockWatchDog.BARKER.syncExecute(filtered, () -> {
 				ProxyRegionalMarket ret2 = filtered.get(key);
 				if (ret2 == null) {
-					// generate all the systems in range first
-					List<Integer> systemsInRange = new ArrayList<>();
-					systemsInRange.add(centerId);
-					if (distance > 0) {
-						R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache.universe.regions(regionID).get();
-						IntStream.of(region.constellations).parallel()
-						.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache.universe.constellations(ci).get().systems))
-						.filter(
-								si -> si != centerId && ESIStatic.INSTANCE.cache.route.get(null, null, centerId, flag.shortest, si)
-								.get().size() <= distance)
-						.forEach(systemsInRange::add);
+					boolean isStation = centerId >= 61000000 && centerId <= 62000000;
+					if (isStation) {
+						ret2 = new ProxyRegionalMarket(this, orders.filter(order -> centerId == order.location_id));
+					} else {
+						// generate all the systems in range first
+						List<Integer> systemsInRange = new ArrayList<>();
+						systemsInRange.add(centerId);
+						if (distance > 0) {
+							R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache.universe.regions(regionID).get();
+							IntStream.of(region.constellations).parallel()
+							.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache.universe.constellations(ci).get().systems))
+							.filter(
+									si -> si != centerId && ESIStatic.INSTANCE.cache.route.get(null, null, centerId, flag.shortest, si)
+									.get().size() <= distance)
+							.forEach(systemsInRange::add);
+						}
+						logger.debug("allowed systems in region " + regionID + " filter " + key + " are " + systemsInRange);
+						// then get all the stations in those systems
+						Set<Long> stationIds = systemsInRange.parallelStream()
+								.map(si -> ESIStatic.INSTANCE.cache.universe.systems(si).get())
+								.filter(sys -> !onlyHS || sys.security_status >= 0.45)
+								.flatMapToLong(sys -> IntStream.of(sys.stations).asLongStream())
+								.mapToObj(i -> (Long) i).collect(Collectors.toSet());
+						logger.debug(" corresponding stations are " + stationIds);
+						ret2 = new ProxyRegionalMarket(this, orders.filter(order -> stationIds.contains(order.location_id)));
 					}
-					logger.debug("allowed systems in region " + regionID + " filter " + key + " are " + systemsInRange);
-					// then get all the stations in those systems
-					Set<Long> stationIds = systemsInRange.parallelStream()
-							.map(si -> ESIStatic.INSTANCE.cache.universe.systems(si).get())
-							.filter(sys -> !onlyHS || sys.security_status >= 0.45)
-							.flatMapToLong(sys -> IntStream.of(sys.stations).asLongStream())
-							.mapToObj(i -> (Long) i).collect(Collectors.toSet());
-					logger.debug(" corresponding stations are " + stationIds);
-					ret2 = new ProxyRegionalMarket(this, orders.filter(order -> stationIds.contains(order.location_id)));
 				}
 				filtered.put(key, ret2);
 				return ret2;

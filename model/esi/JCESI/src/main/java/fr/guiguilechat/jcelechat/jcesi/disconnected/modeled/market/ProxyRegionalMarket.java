@@ -7,11 +7,24 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
+/**
+ * implement pricing over a filtered list of market orders. also shows a history
+ * but this is delegated to root market. Basically just keeps the filtered order
+ * and a cache of the type orders based on those filtered orders.
+ *
+ */
 public class ProxyRegionalMarket implements IPricing {
 
 	private final RegionalMarket unfiltered;
 	private final ObsListHolder<R_get_markets_region_id_orders> orders;
 
+	/**
+	 *
+	 * @param unfiltered
+	 *          the root regional market.
+	 * @param orders
+	 *          the filtered set of orders.
+	 */
 	public ProxyRegionalMarket(RegionalMarket unfiltered, ObsListHolder<R_get_markets_region_id_orders> orders) {
 		this.unfiltered = unfiltered;
 		this.orders = orders;

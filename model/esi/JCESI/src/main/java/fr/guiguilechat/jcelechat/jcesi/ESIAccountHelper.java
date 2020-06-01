@@ -247,11 +247,10 @@ public class ESIAccountHelper {
 			wr.close();
 			int responseCode = con.getResponseCode();
 			if (responseCode != 200) {
-				logger.error("while fetching url=" + url + " properties=" + con.getRequestProperties() + " appAuth=" + appAuth
+				logger.error("while fetching url=" + url + " appAuth=" + appAuth
 						+ " transmit=" + transmitData + " : response="
 						+ responseCode + " ");
 				System.err.println("response is " + responseCode);
-				System.err.println("properties are " + con.getRequestProperties());
 				if (con.getErrorStream() != null) {
 					System.err.println("returned error :");
 					new BufferedReader(new InputStreamReader(con.getErrorStream())).lines().forEach(System.err::println);
