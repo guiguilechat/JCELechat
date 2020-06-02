@@ -12,9 +12,9 @@ public class Params {
 		return this;
 	}
 
-	HashMap<Integer, Long> requiredQuantities = new HashMap<>();
+	HashMap<Integer, Integer> requiredQuantities = new HashMap<>();
 
-	public Params withQuantity(int typeid, long newqtty) {
+	public Params withQuantity(int typeid, int newqtty) {
 		requiredQuantities.put(typeid, newqtty);
 		return this;
 	}

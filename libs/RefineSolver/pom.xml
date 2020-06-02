@@ -17,5 +17,10 @@
   		<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
   		<artifactId>JCESI</artifactId>
   	</dependency>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-simple</artifactId>
+  		<optional>true</optional>
+  	</dependency>
   </dependencies>
 </project>

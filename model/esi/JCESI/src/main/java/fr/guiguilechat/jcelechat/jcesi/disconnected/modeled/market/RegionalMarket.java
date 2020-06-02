@@ -135,7 +135,7 @@ public class RegionalMarket implements IPricing {
 			ret = LockWatchDog.BARKER.syncExecute(filtered, () -> {
 				ProxyRegionalMarket ret2 = filtered.get(key);
 				if (ret2 == null) {
-					boolean isStation = centerId >= 61000000 && centerId <= 62000000;
+					boolean isStation = centerId >= 60000000 && centerId <= 61000000;
 					if (isStation) {
 						ret2 = new ProxyRegionalMarket(this, orders.filter(order -> centerId == order.location_id));
 					} else {

@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
@@ -50,11 +51,10 @@ public class Location {
 		case CONQSTATION:
 		case OFFICE:
 		case STATION:
-			return ESIStatic.INSTANCE.cache.universe
-					.systems(((R_get_universe_stations_station_id) ref).system_id).get();
+			return ESIStatic.INSTANCE.cache.universe.systems(((R_get_universe_stations_station_id) ref).system_id).get();
 		case STRUCTURE:
-			return ESIStatic.INSTANCE.cache.universe
-					.systems(((R_get_universe_structures_structure_id) ref).solar_system_id).get();
+			return ESIStatic.INSTANCE.cache.universe.systems(((R_get_universe_structures_structure_id) ref).solar_system_id)
+					.get();
 		default:
 			throw new IllegalArgumentException("Unexpected value: " + type);
 		}
@@ -78,8 +78,7 @@ public class Location {
 		case OFFICE:
 		case STATION:
 		case STRUCTURE:
-			return ESIStatic.INSTANCE.cache.universe
-					.constellations(system().constellation_id).get();
+			return ESIStatic.INSTANCE.cache.universe.constellations(system().constellation_id).get();
 		default:
 			throw new IllegalArgumentException("Unexpected value: " + type);
 		}
@@ -93,16 +92,17 @@ public class Location {
 			return null;
 		}
 		switch (type) {
-		case REGION : return  (R_get_universe_regions_region_id) ref;
+		case REGION:
+			return (R_get_universe_regions_region_id) ref;
 		case CONSTEL:
 		case SYSTEM:
 		case CONQSTATION:
 		case OFFICE:
 		case STATION:
 		case STRUCTURE:
-			return ESIStatic.INSTANCE.cache.universe
-				.regions(constel().region_id).get();
-		default : throw new IllegalArgumentException("Unexpected value: " + type);
+			return ESIStatic.INSTANCE.cache.universe.regions(constel().region_id).get();
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + type);
 		}
 	}
 
@@ -158,13 +158,19 @@ public class Location {
 				return new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);
 			}
 		} else {
-			Requested<R_get_universe_structures_structure_id> req = account.raw.get_universe_structures(locationid, null);
-			if (req.isOk()) {
-				R_get_universe_structures_structure_id struct = req.getOK();
-				return new Location(struct, locationid, struct.name, LOCTYPE.STRUCTURE);
-			} else {
-				return new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);
+			// TODO check into esiaccess if the structure id is in the public
+			// structures.
+			if (ESIAccess.INSTANCE.universe.isPublicStructure(locationid)) {
+				// can't do anything. stil need an account.
 			}
+			if (account != null) {
+				Requested<R_get_universe_structures_structure_id> req = account.raw.get_universe_structures(locationid, null);
+				if (req.isOk()) {
+					R_get_universe_structures_structure_id struct = req.getOK();
+					return new Location(struct, locationid, struct.name, LOCTYPE.STRUCTURE);
+				}
+			}
+			return new Location(null, locationid, "unknown" + locationid, LOCTYPE.STRUCTURE);
 		}
 	}
 

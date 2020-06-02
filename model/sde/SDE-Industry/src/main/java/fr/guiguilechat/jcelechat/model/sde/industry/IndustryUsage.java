@@ -33,6 +33,10 @@ public class IndustryUsage {
 		return cache;
 	}
 
+	public static IndustryUsage of(int id) {
+		return load().get(id);
+	}
+
 	public static void export(LinkedHashMap<Integer, IndustryUsage> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();

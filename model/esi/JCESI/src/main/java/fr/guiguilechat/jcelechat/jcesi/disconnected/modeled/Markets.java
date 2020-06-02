@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.IPricing;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
+import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
@@ -52,7 +53,7 @@ public class Markets {
 		return rm;
 	}
 
-	private HashMap<Long, RegionalMarket> localMarket = new HashMap<>();
+	private HashMap<Long, IPricing> localMarket = new HashMap<>();
 
 	/**
 	 * get a pricing for a specific location id. If the locationd id is a region,
@@ -63,14 +64,19 @@ public class Markets {
 	 * @return
 	 */
 	public IPricing getLocalMarket(long locationId) {
+		// if a region : get the regional market.
 		if (locationId >= 10000000l && locationId < 12000000l) {
 			return getMarket((int) locationId);
 		}
-		RegionalMarket lm = localMarket.get(locationId);
+		IPricing lm = localMarket.get(locationId);
 		if (lm == null) {
 			synchronized (localMarket) {
 				lm = localMarket.get(locationId);
 				if (lm == null) {
+					Location loc = Location.resolve(null, locationId);
+					RegionalMarket rm = getMarket(loc.region().region_id);
+					lm = rm.filter((int) locationId, 0, false);
+					localMarket.put(locationId, lm);
 				}
 			}
 		}

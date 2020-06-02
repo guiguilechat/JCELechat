@@ -25,7 +25,7 @@ public class RegionTypeOrders {
 
 	/**
 	 *
-	 * @return the observable list of buy orders, sorted by decreasing value
+	 * @return the observable list of buy orders, sorted by decreasing price
 	 */
 	public ObsListHolder<R_get_markets_region_id_orders> listBuyOrders() {
 		if (buyOrders == null) {
@@ -41,7 +41,7 @@ public class RegionTypeOrders {
 
 	/**
 	 *
-	 * @return the observable list of sell orders, sorted by increasing value
+	 * @return the observable list of sell orders, sorted by increasing price
 	 */
 	public ObsListHolder<R_get_markets_region_id_orders> listSellOrders() {
 		if (sellOrders == null) {
