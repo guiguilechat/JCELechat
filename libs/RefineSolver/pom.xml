@@ -22,5 +22,9 @@
   		<artifactId>slf4j-simple</artifactId>
   		<optional>true</optional>
   	</dependency>
+  	<dependency>
+  		<groupId>org.choco-solver</groupId>
+  		<artifactId>choco-solver</artifactId>
+  	</dependency>
   </dependencies>
 </project>

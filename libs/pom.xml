@@ -27,6 +27,11 @@
 				<artifactId>JCESI</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.choco-solver</groupId>
+				<artifactId>choco-solver</artifactId>
+				<version>4.10.2</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>

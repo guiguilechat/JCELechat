@@ -19,8 +19,18 @@ public class Params {
 		return this;
 	}
 
+	/**
+	 * volumic price, in isk/m³
+	 */
 	public double volumicCost = 0;
 
+	/**
+	 * set the {@link #volumicCost}
+	 *
+	 * @param value
+	 *          new value to set
+	 * @return this
+	 */
 	public Params withVolumicCost(double value) {
 		volumicCost = value;
 		return this;
@@ -30,6 +40,34 @@ public class Params {
 
 	public Params withRefineRate(double value) {
 		refineRate = value;
+		return this;
+	}
+
+	public boolean debug = false;
+
+	public Params withDebug(boolean value) {
+		debug = value;
+		return this;
+	}
+
+	public int maxCommands = 1;
+
+	public Params withMaxCommands(int value) {
+		maxCommands = value;
+		return this;
+	}
+
+	public boolean onlyCompressed = false;
+
+	public Params withOnlyCompressed(boolean value) {
+		onlyCompressed = value;
+		return this;
+	}
+
+	public int[] groupsLimit = null;
+
+	public Params withGroupsLimit(int... value) {
+		groupsLimit = value;
 		return this;
 	}
 
