@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.refinesolver;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -42,7 +43,11 @@ public class RefineSolver {
 	 */
 	public Result solve(Params params) {
 		this.params = params;
-		market = ESIAccess.INSTANCE.markets.getLocalMarket(params.marketLocation);
+
+		market = params.market;
+		if (market == null) {
+			market = ESIAccess.INSTANCE.markets.getLocalMarket(params.marketLocation);
+		}
 
 		//
 		// analyze on the mineral we want
@@ -69,10 +74,13 @@ public class RefineSolver {
 		// solve
 
 		Solver solver = model.getSolver();
-		// solver.showDecisions();
-		// solver.showContradiction();
+		if (params.debug) {
+			solver.showDecisions();
+			solver.showContradiction();
+			solver.showSolutions();
+		}
 		Solution solution = solver.findOptimalSolution(totalCost, false);
-		if (solution.exists()) {
+		if (solution != null && solution.exists()) {
 			return convertSolution(solution);
 		} else {
 			if (params.debug) {
@@ -162,31 +170,48 @@ public class RefineSolver {
 
 		Set<Integer> allowedGroups = params.groupsLimit == null || params.groupsLimit.length == 0 ? null
 				: IntStream.of(params.groupsLimit).boxed().collect(Collectors.toSet());
+		Set<Integer> allowedTypes = params.typeLimits == null || params.typeLimits.length == 0 ? null
+				: IntStream.of(params.typeLimits).boxed().collect(Collectors.toSet());
+
+		Set<EveType> skippedNotAllowed = new HashSet<>();
+		Set<EveType> skippedReprocess = new HashSet<>();
+		Set<EveType> skippedCompress = new HashSet<>();
+		Set<EveType> skippedNoMarket = new HashSet<>();
 
 		// first list all the roids that can be reprocessedinto the mineral we
 		// need.
 		Asteroid[] purchasedRoids = Asteroid.METACAT.load().values().parallelStream().filter(type -> {
-			// don't keep roids that are not on sale.
-			if (market.getMarketOrders(type.id).listSellOrders().isEmpty().get()) {
-				return false;
-			}
-			IndustryUsage usage = IndustryUsage.of(type.id);
-			// remove roids that do not reprocess into anything
-			if (usage == null || usage.reprocessInto.isEmpty()) {
-				return false;
-			}
-			// remove roids that are not compressed if required
-			if (usage.compressFrom == 0 && params.onlyCompressed) {
+			// remove roid that is not in the allowed ids if exists
+			if (allowedTypes != null && !allowedTypes.contains(type.id)) {
+				skippedNotAllowed.add(type);
 				return false;
 			}
 			// remove roid that is not in the correct group
 			if (allowedGroups != null && !allowedGroups.contains(type.getGroupId())) {
+				skippedNotAllowed.add(type);
 				return false;
 			}
 
+			IndustryUsage usage = IndustryUsage.of(type.id);
+			// remove roids that do not reprocess into anything
+			if (usage == null || usage.reprocessInto.isEmpty()) {
+				skippedReprocess.add(type);
+				return false;
+			}
+			// remove roids that are not compressed if required
+			if (usage.compressFrom == 0 && params.onlyCompressed) {
+				skippedCompress.add(type);
+				return false;
+			}
 			// remove roids that do not reprocess in a required mineral
 			if (!IntStream.of(requiredTypeIds).filter(mineralid -> usage.reprocessInto.getOrDefault(mineralid, 0.0) > 0)
 					.findAny().isPresent()) {
+				skippedReprocess.add(type);
+				return false;
+			}
+			// don't keep roids that are not on sale.
+			if (market.getMarketOrders(type.id).listSellOrders().isEmpty().get()) {
+				skippedNoMarket.add(type);
 				return false;
 			}
 			// TODO remove roids that have WORSE cost (including volumic) for one item
@@ -195,6 +220,21 @@ public class RefineSolver {
 			// reprocessed items.
 			return true;
 		}).toArray(Asteroid[]::new);
+
+		if (params.debug) {
+			if (!skippedNotAllowed.isEmpty()) {
+				logger.info("skipped not allowed" + skippedNotAllowed);
+			}
+			if (!skippedCompress.isEmpty()) {
+				logger.info("skipped compress" + skippedCompress);
+			}
+			if (!skippedReprocess.isEmpty()) {
+				logger.info("skipped reprocess" + skippedReprocess);
+			}
+			if (!skippedNoMarket.isEmpty()) {
+				logger.info("skipped no market" + skippedNoMarket);
+			}
+		}
 
 		if (params.debug) {
 			logger.info("filtered roids : using " + purchasedRoids.length + " of them");
@@ -219,11 +259,17 @@ public class RefineSolver {
 			purchasedVolumicPrice[idx] = (int) Math.ceil(purchasedTypes[idx].volume * params.volumicCost * 100);
 			IndustryUsage usage = IndustryUsage.of(purchasedType.id);
 			double maxQtty = 0.0;
+			double refinerate = params.refineRate;
+			if (params.groupRefineRate.containsKey(purchasedType.getGroupId())) {
+				refinerate = params.groupRefineRate.get(purchasedType.getGroupId());
+			} else if (params.catRefineRate.containsKey(purchasedType.getCategoryId())) {
+				refinerate = params.catRefineRate.get(purchasedType.getCategoryId());
+			}
 			for (Entry<Integer, Double> e : usage.reprocessInto.entrySet()) {
 				int mineralid = e.getKey();
 				for (int j = 0; j < requiredTypeIds.length; j++) {
 					if (mineralid == requiredTypeIds[j]) {
-						double refineQtty = purchasedRefineInto[idx][j] = e.getValue() * params.refineRate;
+						double refineQtty = purchasedRefineInto[idx][j] = e.getValue() * refinerate;
 						maxQtty = Double.max(maxQtty, requiredTypeQttys[j] / refineQtty);
 						break;
 					}
@@ -245,7 +291,7 @@ public class RefineSolver {
 				}
 				sb.append("\n");
 			}
-			logger.info("static data\n" + sb.toString());
+			logger.info("using purchaseable data\n" + sb.toString());
 		}
 
 	}
@@ -281,15 +327,15 @@ public class RefineSolver {
 			int maxQtty = purchasedMaxQuantity[pi];
 			ArExpression cumulQuantity = model.intVar(0);
 			for (int ci = 0; ci < params.maxCommands; ci++) {
-				IntVar commandQuantity = commandTypeQuantities[ci][pi] = model
-						.intVar(purchasedType.name + ".command" + ci + ".quantity", 0, maxQtty);
+				IntVar commandQuantity = commandTypeQuantities[ci][pi] = model.intVar(purchasedType.name + ".c" + ci + ".qtt",
+						0, maxQtty);
 				// if a command is set to 0, next command is also set to 0
 				if (ci > 0) {
 					commandTypeQuantities[ci - 1][pi].gt(0).or(commandQuantity.eq(0)).post();
 				}
 				cumulQuantity = commandTypeCumulQuantities[ci][pi] = cumulQuantity.add(commandQuantity);
 			}
-			purchasedQuantities[pi] = model.intVar(purchasedType.name + ".purchased", 0, maxQtty);
+			purchasedQuantities[pi] = model.intVar(purchasedType.name + ".qtt", 0, maxQtty);
 			purchasedQuantities[pi].eq(cumulQuantity).post();
 		}
 	}
@@ -330,10 +376,8 @@ public class RefineSolver {
 			EveType purchasedType = purchasedTypes[pi];
 			int maxQuantity = purchasedMaxQuantity[pi];
 			List<R_get_markets_region_id_orders> orders = market.getMarketOrders(purchasedType.id).listSellOrders().get();
-			// make the cumulated quantities and corresponding price of the order,
-			// starting with 0
-			// they are used to deduce the price of a command from the cumulative
-			// quantity of that command.
+			// make the cumulative order prices and quantities. they start at quantity
+			// 0
 			ArrayList<Integer> orderCumulQtty = new ArrayList<>();
 			orderCumulQtty.add(0);
 			int cumul = 0;
@@ -350,16 +394,20 @@ public class RefineSolver {
 				if (cumuli == 0) {
 					return 0;
 				} else {
-					return (int) Math.ceil(purchasedVolumicPrice[purchasedIndex] + orders.get(cumuli + 1).price * 100);
+					return (int) Math.ceil(purchasedVolumicPrice[purchasedIndex] + orders.get(cumuli - 1).price * 100);
 				}
 			}).toArray();
+			if (params.debug) {
+				logger.info(purchasedType.name + " qtties=" + IntStream.of(cumulQtty).boxed().collect(Collectors.toList())
+						+ " prices=" + IntStream.of(cumulPrice).boxed().collect(Collectors.toList()));
+			}
 			for (int ci = 0; ci < params.maxCommands; ci++) {
 				ArExpression qtty = commandTypeCumulQuantities[ci][pi];
-				// create the table of variables that say whether that quantity is &le;
+				// create the table of variables that say whether that quantity is &gt;
 				// the order's cumulated quantity
-				ArExpression[] lowerThanQtty = IntStream.of(cumulQtty).mapToObj(orderqtty -> qtty.le(orderqtty))
+				ArExpression[] qttGT = IntStream.of(cumulQtty).mapToObj(orderqtty -> qtty.gt(orderqtty))
 						.toArray(ArExpression[]::new);
-				ArExpression priceIndex = model.intVar(0).add(lowerThanQtty);
+				ArExpression priceIndex = new NaArExpression(ArExpression.Operator.ADD, qttGT);
 				IntVar commandPrice = model.intVar(purchasedType.name + ".command_" + ci + ".price", 0,
 						cumulPrice[cumulPrice.length - 1]);
 				model.element(commandPrice, cumulPrice, priceIndex.intVar()).post();
@@ -409,9 +457,9 @@ public class RefineSolver {
 				maxGrainDelta = Math.max(maxGrainDelta, purchasedGrainQtty);
 				sum = sum.add(purchasedQuantities[pi].mul(purchasedGrainQtty));
 			}
-			IntVar obtained = requiredGrainRefined[ri] = model.intVar(requiredType.name + ".obtained_grain" + grainMultiplier,
+			IntVar obtained = requiredGrainRefined[ri] = model.intVar(requiredType.name + ".got×" + grainMultiplier,
 					requiredGrainQtty, requiredGrainQtty + maxGrainDelta - 1);
-			obtained.eq(obtained).post();
+			obtained.eq(sum).post();
 		}
 	}
 

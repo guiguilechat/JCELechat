@@ -35,16 +35,16 @@ public class RegionalMarket implements IPricing {
 	}
 
 	// typeid-> cached orders
-	private Map<Integer, RegionTypeOrders> cachedOrders = new HashMap<>();
+	private Map<Integer, LocalTypeOrders> cachedOrders = new HashMap<>();
 
 	@Override
-	public RegionTypeOrders getMarketOrders(int typeID) {
-		RegionTypeOrders ret = cachedOrders.get(typeID);
+	public LocalTypeOrders getMarketOrders(int typeID) {
+		LocalTypeOrders ret = cachedOrders.get(typeID);
 		if (ret == null) {
 			ret = LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
-				RegionTypeOrders ret2 = cachedOrders.get(typeID);
+				LocalTypeOrders ret2 = cachedOrders.get(typeID);
 				if (ret2 == null) {
-					ret2 = new RegionTypeOrders(orders, typeID);
+					ret2 = new LocalTypeOrders(orders, typeID);
 					cachedOrders.put(typeID, ret2);
 				}
 				return ret2;

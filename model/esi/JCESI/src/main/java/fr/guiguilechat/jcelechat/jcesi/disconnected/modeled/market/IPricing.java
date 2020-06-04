@@ -4,7 +4,7 @@ import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 
 public interface IPricing {
 
-	public RegionTypeOrders getMarketOrders(int typeID);
+	public LocalTypeOrders getMarketOrders(int typeID);
 
 	public default ObsDoubleHolder getPrice(int typeID, long qtty, boolean buy) {
 		return getMarketOrders(typeID).getPrice(buy, qtty);

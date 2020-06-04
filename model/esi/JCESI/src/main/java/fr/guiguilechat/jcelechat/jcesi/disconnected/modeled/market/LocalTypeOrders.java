@@ -8,9 +8,9 @@ import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 /**
- * holds the regional orders for a type. Caches the price of items.
+ * holds the local orders for a type. Caches the price of items.
  */
-public class RegionTypeOrders {
+public class LocalTypeOrders {
 
 	private final ObsListHolder<R_get_markets_region_id_orders> orders;
 	private final int typeID;
@@ -18,7 +18,7 @@ public class RegionTypeOrders {
 	private ObsListHolder<R_get_markets_region_id_orders> sellOrders;
 	private ObsListHolder<R_get_markets_region_id_orders> buyOrders;
 
-	public RegionTypeOrders(ObsListHolder<R_get_markets_region_id_orders> orders, int typeID) {
+	public LocalTypeOrders(ObsListHolder<R_get_markets_region_id_orders> orders, int typeID) {
 		this.orders = orders;
 		this.typeID = typeID;
 	}
