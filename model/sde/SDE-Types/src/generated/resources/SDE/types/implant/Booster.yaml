@@ -368,6 +368,162 @@ types:
     published: true
     socialbonus: 100
     volume: 1.0
+  EDENCOM Vorton Booster DA-2:
+    boosterduration: 1800000
+    boosterlastinjectiondatetime: 18513.45703125
+    boosterness: 14
+    damagemultiplierbonus: 2
+    id: 55044
+    marketGroup: 2531
+    name: EDENCOM Vorton Booster DA-2
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+  EDENCOM Vorton Booster DA-3:
+    boosterduration: 1800000
+    boosterlastinjectiondatetime: 18513.45703125
+    boosterness: 14
+    damagemultiplierbonus: 3
+    id: 55045
+    marketGroup: 2531
+    name: EDENCOM Vorton Booster DA-3
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+  EDENCOM Vorton Booster DA-5:
+    boosterduration: 1800000
+    boosterlastinjectiondatetime: 18513.45703125
+    boosterness: 14
+    damagemultiplierbonus: 5
+    id: 55046
+    marketGroup: 2531
+    name: EDENCOM Vorton Booster DA-5
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+  EDENCOM Vorton Booster GU-2:
+    aoecloudsizebonus: -2.0
+    aoevelocitybonus: 2.0
+    boosterduration: 1800000
+    boosterlastinjectiondatetime: 18513.45703125
+    boosterness: 14
+    id: 55041
+    marketGroup: 2531
+    name: EDENCOM Vorton Booster GU-2
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+  EDENCOM Vorton Booster GU-3:
+    aoecloudsizebonus: -3.0
+    aoevelocitybonus: 3.0
+    boosterduration: 1800000
+    boosterlastinjectiondatetime: 18513.45703125
+    boosterness: 14
+    id: 55042
+    marketGroup: 2531
+    name: EDENCOM Vorton Booster GU-3
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+  EDENCOM Vorton Booster GU-5:
+    aoecloudsizebonus: -5.0
+    aoevelocitybonus: 5.0
+    boosterduration: 1800000
+    boosterlastinjectiondatetime: 18513.45703125
+    boosterness: 14
+    id: 55043
+    marketGroup: 2531
+    name: EDENCOM Vorton Booster GU-5
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+  EDENCOM Vorton Booster RA-2:
+    boosterduration: 1800000
+    boosterlastinjectiondatetime: 18513.45703125
+    boosterness: 14
+    id: 55038
+    marketGroup: 2531
+    name: EDENCOM Vorton Booster RA-2
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 2
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+  EDENCOM Vorton Booster RA-3:
+    boosterduration: 1800000
+    boosterlastinjectiondatetime: 18513.45703125
+    boosterness: 14
+    id: 55039
+    marketGroup: 2531
+    name: EDENCOM Vorton Booster RA-3
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 3
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+  EDENCOM Vorton Booster RA-5:
+    boosterduration: 1800000
+    boosterlastinjectiondatetime: 18513.45703125
+    boosterness: 14
+    id: 55040
+    marketGroup: 2531
+    name: EDENCOM Vorton Booster RA-5
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 5
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
   Expired 'Absolute' Injection Augmentor:
     boosterduration: 57600000
     boosterlastinjectiondatetime: 17903.458984375
@@ -1581,6 +1737,29 @@ types:
     marketGroup: 2487
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.5
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2020.6:
+    boosterduration: 43200000
+    boosterlastinjectiondatetime: 18442.458984375
+    boosterness: 10
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 54976
+    intelligencebonus: 5
+    marketGroup: 2487
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2020.6
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0

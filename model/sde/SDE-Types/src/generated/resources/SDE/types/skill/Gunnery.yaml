@@ -641,6 +641,24 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
+  Medium Vorton Projector:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
+    id: 55035
+    marketGroup: 364
+    name: Medium Vorton Projector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 55033
+    requiredskill1level: 3
+    requiredskill2: 55034
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
+    volume: 0.009999999776482582
   Motion Prediction:
     cannotbetrainedontrial: 1
     id: 3312
@@ -879,6 +897,22 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
+  Small Vorton Projector:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
+    id: 55034
+    marketGroup: 364
+    name: Small Vorton Projector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 55033
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    volume: 0.009999999776482582
   Surgical Strike:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 3
@@ -926,4 +960,18 @@ types:
     requiredskill1level: 4
     secondaryattribute: 168
     skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  Vorton Projector Operation:
+    cannotbetrainedontrial: 1
+    id: 55033
+    marketGroup: 364
+    name: Vorton Projector Operation
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    secondaryattribute: 168
+    skilltimeconstant: 1.0
+    turretspeebonus: -2
     volume: 0.009999999776482582

@@ -502,7 +502,7 @@ types:
     id: 14703
     marketGroup: 611
     metagroupid: 5
-    metalevel: 14
+    metalevel: 17
     name: Estamel's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -514,7 +514,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 2
     requiredthermodynamicsskill: 1
-    shieldbonus: 370.0
+    shieldbonus: 377.0
     techlevel: 1
     volume: 25.0
   Estamel's Modified X-Large Shield Booster:
@@ -527,7 +527,7 @@ types:
     id: 14707
     marketGroup: 612
     metagroupid: 5
-    metalevel: 14
+    metalevel: 17
     name: Estamel's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -539,7 +539,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
-    shieldbonus: 924.0
+    shieldbonus: 942.0
     techlevel: 1
     volume: 50.0
   Gist A-Type Large Shield Booster:
@@ -552,7 +552,7 @@ types:
     id: 19199
     marketGroup: 611
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Gist A-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -577,7 +577,7 @@ types:
     id: 19197
     marketGroup: 612
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Gist A-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -652,7 +652,7 @@ types:
     id: 19193
     marketGroup: 611
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Gist C-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -677,7 +677,7 @@ types:
     id: 19195
     marketGroup: 612
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Gist C-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -702,7 +702,7 @@ types:
     id: 19200
     marketGroup: 611
     metagroupid: 6
-    metalevel: 14
+    metalevel: 16
     name: Gist X-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -727,7 +727,7 @@ types:
     id: 19198
     marketGroup: 612
     metagroupid: 6
-    metalevel: 14
+    metalevel: 16
     name: Gist X-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -752,7 +752,7 @@ types:
     id: 19173
     marketGroup: 609
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Gistii A-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -802,7 +802,7 @@ types:
     id: 19169
     marketGroup: 609
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Gistii C-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -827,7 +827,7 @@ types:
     id: 19185
     marketGroup: 610
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Gistum A-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -877,7 +877,7 @@ types:
     id: 19181
     marketGroup: 610
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Gistum C-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -902,7 +902,7 @@ types:
     id: 14597
     marketGroup: 611
     metagroupid: 5
-    metalevel: 12
+    metalevel: 13
     name: Hakim's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -914,7 +914,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 2
     requiredthermodynamicsskill: 1
-    shieldbonus: 253.0
+    shieldbonus: 262.0
     techlevel: 1
     volume: 25.0
   Hakim's Modified X-Large Shield Booster:
@@ -927,7 +927,7 @@ types:
     id: 14601
     marketGroup: 612
     metagroupid: 5
-    metalevel: 12
+    metalevel: 13
     name: Hakim's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -939,7 +939,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
-    shieldbonus: 634.0
+    shieldbonus: 662.0
     techlevel: 1
     volume: 50.0
   Kaikka's Modified Large Shield Booster:
@@ -964,7 +964,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 2
     requiredthermodynamicsskill: 1
-    shieldbonus: 290.0
+    shieldbonus: 305.0
     techlevel: 1
     volume: 25.0
   Kaikka's Modified X-Large Shield Booster:
@@ -989,7 +989,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
-    shieldbonus: 726.0
+    shieldbonus: 764.0
     techlevel: 1
     volume: 50.0
   Large 'Outlaw' Shield Booster:
@@ -1264,7 +1264,7 @@ types:
     id: 19205
     marketGroup: 611
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Pith A-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1289,7 +1289,7 @@ types:
     id: 19206
     marketGroup: 612
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Pith A-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1364,7 +1364,7 @@ types:
     id: 19201
     marketGroup: 611
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Pith C-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1389,7 +1389,7 @@ types:
     id: 19202
     marketGroup: 612
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Pith C-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1414,7 +1414,7 @@ types:
     id: 19207
     marketGroup: 611
     metagroupid: 6
-    metalevel: 14
+    metalevel: 16
     name: Pith X-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1439,7 +1439,7 @@ types:
     id: 19208
     marketGroup: 612
     metagroupid: 6
-    metalevel: 14
+    metalevel: 16
     name: Pith X-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1464,7 +1464,7 @@ types:
     id: 19179
     marketGroup: 609
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Pithi A-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1514,7 +1514,7 @@ types:
     id: 19175
     marketGroup: 609
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Pithi C-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1539,7 +1539,7 @@ types:
     id: 19191
     marketGroup: 610
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Pithum A-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1589,7 +1589,7 @@ types:
     id: 19187
     marketGroup: 610
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Pithum C-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1845,7 +1845,7 @@ types:
     id: 14701
     marketGroup: 611
     metagroupid: 5
-    metalevel: 12
+    metalevel: 13
     name: Thon's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1857,7 +1857,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 2
     requiredthermodynamicsskill: 1
-    shieldbonus: 317.0
+    shieldbonus: 332.0
     techlevel: 1
     volume: 25.0
   Thon's Modified X-Large Shield Booster:
@@ -1870,7 +1870,7 @@ types:
     id: 14705
     marketGroup: 612
     metagroupid: 5
-    metalevel: 12
+    metalevel: 13
     name: Thon's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1882,7 +1882,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
-    shieldbonus: 792.0
+    shieldbonus: 830.0
     techlevel: 1
     volume: 50.0
   Tobias' Modified Large Shield Booster:
@@ -1895,7 +1895,7 @@ types:
     id: 14599
     marketGroup: 611
     metagroupid: 5
-    metalevel: 14
+    metalevel: 17
     name: Tobias' Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1907,7 +1907,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 2
     requiredthermodynamicsskill: 1
-    shieldbonus: 296.0
+    shieldbonus: 303.0
     techlevel: 1
     volume: 25.0
   Tobias' Modified X-Large Shield Booster:
@@ -1920,7 +1920,7 @@ types:
     id: 14603
     marketGroup: 612
     metagroupid: 5
-    metalevel: 14
+    metalevel: 17
     name: Tobias' Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1932,7 +1932,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
-    shieldbonus: 739.0
+    shieldbonus: 753.0
     techlevel: 1
     volume: 50.0
   True Sansha Capital Shield Booster:
@@ -1970,7 +1970,7 @@ types:
     id: 14702
     marketGroup: 611
     metagroupid: 5
-    metalevel: 13
+    metalevel: 15
     name: Vepas' Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1982,7 +1982,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 2
     requiredthermodynamicsskill: 1
-    shieldbonus: 343.0
+    shieldbonus: 358.0
     techlevel: 1
     volume: 25.0
   Vepas' Modified X-Large Shield Booster:
@@ -1995,7 +1995,7 @@ types:
     id: 14706
     marketGroup: 612
     metagroupid: 5
-    metalevel: 13
+    metalevel: 15
     name: Vepas' Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -2007,7 +2007,7 @@ types:
     requiredskill1: 3416
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
-    shieldbonus: 858.0
+    shieldbonus: 896.0
     techlevel: 1
     volume: 50.0
   X-Large 'Locomotive' Shield Booster:

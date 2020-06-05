@@ -1,17 +1,17 @@
 types:
-  Ahremen's Modified Armor EM Hardener:
+  Ahremen's Modified EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -49.400001525878906
+    emdamageresistancebonus: -49.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15026
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 13
-    name: Ahremen's Modified Armor EM Hardener
+    metalevel: 15
+    name: Ahremen's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -23,19 +23,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Ahremen's Modified Armor Explosive Hardener:
+  Ahremen's Modified Explosive Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.400001525878906
+    explosivedamageresistancebonus: -49.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15074
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 13
-    name: Ahremen's Modified Armor Explosive Hardener
+    metalevel: 15
+    name: Ahremen's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -47,7 +47,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Ahremen's Modified Armor Kinetic Hardener:
+  Ahremen's Modified Kinetic Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -55,11 +55,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15058
-    kineticdamageresistancebonus: -49.400001525878906
+    kineticdamageresistancebonus: -49.70000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 13
-    name: Ahremen's Modified Armor Kinetic Hardener
+    metalevel: 15
+    name: Ahremen's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -71,7 +71,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Ahremen's Modified Armor Thermal Hardener:
+  Ahremen's Modified Thermal Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -81,8 +81,8 @@ types:
     id: 15042
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 13
-    name: Ahremen's Modified Armor Thermal Hardener
+    metalevel: 15
+    name: Ahremen's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -93,9 +93,9 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.400001525878906
+    thermaldamageresistancebonus: -49.70000076293945
     volume: 5.0
-  Ammatar Navy Armor EM Hardener:
+  Ammatar Navy EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -106,8 +106,8 @@ types:
     id: 17502
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 9
-    name: Ammatar Navy Armor EM Hardener
+    metalevel: 8
+    name: Ammatar Navy EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -119,7 +119,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Ammatar Navy Armor Explosive Hardener:
+  Ammatar Navy Explosive Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -130,8 +130,8 @@ types:
     id: 17504
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 9
-    name: Ammatar Navy Armor Explosive Hardener
+    metalevel: 8
+    name: Ammatar Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -143,7 +143,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Ammatar Navy Armor Kinetic Hardener:
+  Ammatar Navy Kinetic Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -154,8 +154,8 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 9
-    name: Ammatar Navy Armor Kinetic Hardener
+    metalevel: 8
+    name: Ammatar Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -167,7 +167,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Ammatar Navy Armor Thermal Hardener:
+  Ammatar Navy Thermal Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -177,8 +177,8 @@ types:
     id: 17508
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 9
-    name: Ammatar Navy Armor Thermal Hardener
+    metalevel: 8
+    name: Ammatar Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -191,191 +191,11 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -44.0
     volume: 5.0
-  Armor EM Hardener I:
-    capacitorneed: 30.0
-    cpu: 33.0
-    duration: 20000.0
-    emdamageresistancebonus: -40.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 11301
-    marketGroup: 1681
-    name: Armor EM Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 20.0
-  Armor EM Hardener II:
-    capacitorneed: 30.0
-    cpu: 36.0
-    duration: 20000.0
-    emdamageresistancebonus: -44.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 11642
-    marketGroup: 1681
-    metalevel: 5
-    name: Armor EM Hardener II
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 5
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
-  Armor Explosive Hardener I:
-    capacitorneed: 30.0
-    cpu: 33.0
-    duration: 20000.0
-    explosivedamageresistancebonus: -40.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 11303
-    marketGroup: 1680
-    name: Armor Explosive Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 20.0
-  Armor Explosive Hardener II:
-    capacitorneed: 30.0
-    cpu: 36.0
-    duration: 20000.0
-    explosivedamageresistancebonus: -44.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 11646
-    marketGroup: 1680
-    metalevel: 5
-    name: Armor Explosive Hardener II
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 5
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
-  Armor Kinetic Hardener I:
-    capacitorneed: 30.0
-    cpu: 33.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 11305
-    kineticdamageresistancebonus: -40.0
-    marketGroup: 1679
-    name: Armor Kinetic Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 20.0
-  Armor Kinetic Hardener II:
-    capacitorneed: 30.0
-    cpu: 36.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 11644
-    kineticdamageresistancebonus: -44.0
-    marketGroup: 1679
-    metalevel: 5
-    name: Armor Kinetic Hardener II
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 5
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
-  Armor Thermal Hardener I:
-    capacitorneed: 30.0
-    cpu: 33.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 11277
-    marketGroup: 1678
-    name: Armor Thermal Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 20.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -40.0
-    volume: 20.0
-  Armor Thermal Hardener II:
-    capacitorneed: 30.0
-    cpu: 36.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 11648
-    marketGroup: 1678
-    metalevel: 5
-    name: Armor Thermal Hardener II
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 5
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    thermaldamageresistancebonus: -44.0
-    volume: 5.0
-  Brokara's Modified Armor EM Hardener:
+  Brokara's Modified EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -45.79999923706055
+    emdamageresistancebonus: -46.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -383,7 +203,7 @@ types:
     marketGroup: 1681
     metagroupid: 5
     metalevel: 11
-    name: Brokara's Modified Armor EM Hardener
+    name: Brokara's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -395,11 +215,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Brokara's Modified Armor Explosive Hardener:
+  Brokara's Modified Explosive Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -45.79999923706055
+    explosivedamageresistancebonus: -46.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -407,7 +227,7 @@ types:
     marketGroup: 1680
     metagroupid: 5
     metalevel: 11
-    name: Brokara's Modified Armor Explosive Hardener
+    name: Brokara's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -419,7 +239,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Brokara's Modified Armor Kinetic Hardener:
+  Brokara's Modified Kinetic Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -427,11 +247,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15048
-    kineticdamageresistancebonus: -45.79999923706055
+    kineticdamageresistancebonus: -46.70000076293945
     marketGroup: 1679
     metagroupid: 5
     metalevel: 11
-    name: Brokara's Modified Armor Kinetic Hardener
+    name: Brokara's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -443,7 +263,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Brokara's Modified Armor Thermal Hardener:
+  Brokara's Modified Thermal Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -454,7 +274,7 @@ types:
     marketGroup: 1678
     metagroupid: 5
     metalevel: 11
-    name: Brokara's Modified Armor Thermal Hardener
+    name: Brokara's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -465,13 +285,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -45.79999923706055
+    thermaldamageresistancebonus: -46.70000076293945
     volume: 5.0
-  Brynn's Modified Armor EM Hardener:
+  Brynn's Modified EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -45.79999923706055
+    emdamageresistancebonus: -46.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -479,7 +299,7 @@ types:
     marketGroup: 1681
     metagroupid: 5
     metalevel: 11
-    name: Brynn's Modified Armor EM Hardener
+    name: Brynn's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -491,11 +311,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Brynn's Modified Armor Explosive Hardener:
+  Brynn's Modified Explosive Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -45.79999923706055
+    explosivedamageresistancebonus: -46.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -503,7 +323,7 @@ types:
     marketGroup: 1680
     metagroupid: 5
     metalevel: 11
-    name: Brynn's Modified Armor Explosive Hardener
+    name: Brynn's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -515,7 +335,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Brynn's Modified Armor Kinetic Hardener:
+  Brynn's Modified Kinetic Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -523,11 +343,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15260
-    kineticdamageresistancebonus: -45.79999923706055
+    kineticdamageresistancebonus: -46.70000076293945
     marketGroup: 1679
     metagroupid: 5
     metalevel: 11
-    name: Brynn's Modified Armor Kinetic Hardener
+    name: Brynn's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -539,7 +359,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Brynn's Modified Armor Thermal Hardener:
+  Brynn's Modified Thermal Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -550,7 +370,7 @@ types:
     marketGroup: 1678
     metagroupid: 5
     metalevel: 11
-    name: Brynn's Modified Armor Thermal Hardener
+    name: Brynn's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -561,21 +381,21 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -45.79999923706055
+    thermaldamageresistancebonus: -46.70000076293945
     volume: 5.0
-  Centus A-Type Armor EM Hardener:
+  Centus A-Type EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -49.400001525878906
+    emdamageresistancebonus: -48.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18931
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 13
-    name: Centus A-Type Armor EM Hardener
+    metalevel: 14
+    name: Centus A-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -587,19 +407,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus A-Type Armor Explosive Hardener:
+  Centus A-Type Explosive Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.400001525878906
+    explosivedamageresistancebonus: -48.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18927
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 13
-    name: Centus A-Type Armor Explosive Hardener
+    metalevel: 14
+    name: Centus A-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -611,7 +431,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus A-Type Armor Kinetic Hardener:
+  Centus A-Type Kinetic Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -619,11 +439,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18923
-    kineticdamageresistancebonus: -49.400001525878906
+    kineticdamageresistancebonus: -48.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 13
-    name: Centus A-Type Armor Kinetic Hardener
+    metalevel: 14
+    name: Centus A-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -635,7 +455,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus A-Type Armor Thermal Hardener:
+  Centus A-Type Thermal Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -645,8 +465,8 @@ types:
     id: 18919
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 13
-    name: Centus A-Type Armor Thermal Hardener
+    metalevel: 14
+    name: Centus A-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -657,13 +477,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.400001525878906
+    thermaldamageresistancebonus: -48.79999923706055
     volume: 5.0
-  Centus B-Type Armor EM Hardener:
+  Centus B-Type EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -47.599998474121094
+    emdamageresistancebonus: -47.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -671,7 +491,7 @@ types:
     marketGroup: 1681
     metagroupid: 6
     metalevel: 12
-    name: Centus B-Type Armor EM Hardener
+    name: Centus B-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -683,11 +503,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus B-Type Armor Explosive Hardener:
+  Centus B-Type Explosive Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -47.599998474121094
+    explosivedamageresistancebonus: -47.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -695,7 +515,7 @@ types:
     marketGroup: 1680
     metagroupid: 6
     metalevel: 12
-    name: Centus B-Type Armor Explosive Hardener
+    name: Centus B-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -707,7 +527,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus B-Type Armor Kinetic Hardener:
+  Centus B-Type Kinetic Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -715,11 +535,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18911
-    kineticdamageresistancebonus: -47.599998474121094
+    kineticdamageresistancebonus: -47.29999923706055
     marketGroup: 1679
     metagroupid: 6
     metalevel: 12
-    name: Centus B-Type Armor Kinetic Hardener
+    name: Centus B-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -731,7 +551,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus B-Type Armor Thermal Hardener:
+  Centus B-Type Thermal Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -742,7 +562,7 @@ types:
     marketGroup: 1678
     metagroupid: 6
     metalevel: 12
-    name: Centus B-Type Armor Thermal Hardener
+    name: Centus B-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -753,9 +573,9 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.599998474121094
+    thermaldamageresistancebonus: -47.29999923706055
     volume: 5.0
-  Centus C-Type Armor EM Hardener:
+  Centus C-Type EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -766,8 +586,8 @@ types:
     id: 18887
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 11
-    name: Centus C-Type Armor EM Hardener
+    metalevel: 10
+    name: Centus C-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -779,7 +599,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus C-Type Armor Explosive Hardener:
+  Centus C-Type Explosive Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -790,8 +610,8 @@ types:
     id: 18891
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 11
-    name: Centus C-Type Armor Explosive Hardener
+    metalevel: 10
+    name: Centus C-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -803,7 +623,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus C-Type Armor Kinetic Hardener:
+  Centus C-Type Kinetic Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -814,8 +634,8 @@ types:
     kineticdamageresistancebonus: -45.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 11
-    name: Centus C-Type Armor Kinetic Hardener
+    metalevel: 10
+    name: Centus C-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -827,7 +647,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus C-Type Armor Thermal Hardener:
+  Centus C-Type Thermal Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -837,8 +657,8 @@ types:
     id: 18899
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 11
-    name: Centus C-Type Armor Thermal Hardener
+    metalevel: 10
+    name: Centus C-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -851,19 +671,19 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -45.79999923706055
     volume: 5.0
-  Centus X-Type Armor EM Hardener:
+  Centus X-Type EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -51.20000076293945
+    emdamageresistancebonus: -50.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18935
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 14
-    name: Centus X-Type Armor EM Hardener
+    metalevel: 16
+    name: Centus X-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -875,19 +695,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus X-Type Armor Explosive Hardener:
+  Centus X-Type Explosive Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -51.20000076293945
+    explosivedamageresistancebonus: -50.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18939
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 14
-    name: Centus X-Type Armor Explosive Hardener
+    metalevel: 16
+    name: Centus X-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -899,7 +719,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus X-Type Armor Kinetic Hardener:
+  Centus X-Type Kinetic Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -907,11 +727,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18943
-    kineticdamageresistancebonus: -51.20000076293945
+    kineticdamageresistancebonus: -50.29999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 14
-    name: Centus X-Type Armor Kinetic Hardener
+    metalevel: 16
+    name: Centus X-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -923,7 +743,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Centus X-Type Armor Thermal Hardener:
+  Centus X-Type Thermal Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -933,8 +753,8 @@ types:
     id: 18947
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 14
-    name: Centus X-Type Armor Thermal Hardener
+    metalevel: 16
+    name: Centus X-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -945,9 +765,9 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.20000076293945
+    thermaldamageresistancebonus: -50.29999923706055
     volume: 5.0
-  Chelm's Modified Armor EM Hardener:
+  Chelm's Modified EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -958,8 +778,8 @@ types:
     id: 15028
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 14
-    name: Chelm's Modified Armor EM Hardener
+    metalevel: 17
+    name: Chelm's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -971,7 +791,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Chelm's Modified Armor Explosive Hardener:
+  Chelm's Modified Explosive Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -982,8 +802,8 @@ types:
     id: 15076
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 14
-    name: Chelm's Modified Armor Explosive Hardener
+    metalevel: 17
+    name: Chelm's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -995,7 +815,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Chelm's Modified Armor Kinetic Hardener:
+  Chelm's Modified Kinetic Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1006,8 +826,8 @@ types:
     kineticdamageresistancebonus: -51.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 14
-    name: Chelm's Modified Armor Kinetic Hardener
+    metalevel: 17
+    name: Chelm's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1019,7 +839,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Chelm's Modified Armor Thermal Hardener:
+  Chelm's Modified Thermal Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1029,8 +849,8 @@ types:
     id: 15044
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 14
-    name: Chelm's Modified Armor Thermal Hardener
+    metalevel: 17
+    name: Chelm's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1043,19 +863,19 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -51.20000076293945
     volume: 5.0
-  Core A-Type Armor EM Hardener:
+  Core A-Type EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -49.400001525878906
+    emdamageresistancebonus: -48.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18965
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 13
-    name: Core A-Type Armor EM Hardener
+    metalevel: 14
+    name: Core A-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1067,19 +887,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core A-Type Armor Explosive Hardener:
+  Core A-Type Explosive Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.400001525878906
+    explosivedamageresistancebonus: -48.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18967
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 13
-    name: Core A-Type Armor Explosive Hardener
+    metalevel: 14
+    name: Core A-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1091,7 +911,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core A-Type Armor Kinetic Hardener:
+  Core A-Type Kinetic Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -1099,11 +919,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18969
-    kineticdamageresistancebonus: -49.400001525878906
+    kineticdamageresistancebonus: -48.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 13
-    name: Core A-Type Armor Kinetic Hardener
+    metalevel: 14
+    name: Core A-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1115,7 +935,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core A-Type Armor Thermal Hardener:
+  Core A-Type Thermal Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -1125,8 +945,8 @@ types:
     id: 18971
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 13
-    name: Core A-Type Armor Thermal Hardener
+    metalevel: 14
+    name: Core A-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1137,13 +957,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.400001525878906
+    thermaldamageresistancebonus: -48.79999923706055
     volume: 5.0
-  Core B-Type Armor EM Hardener:
+  Core B-Type EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -47.599998474121094
+    emdamageresistancebonus: -47.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1151,7 +971,7 @@ types:
     marketGroup: 1681
     metagroupid: 6
     metalevel: 12
-    name: Core B-Type Armor EM Hardener
+    name: Core B-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1163,11 +983,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core B-Type Armor Explosive Hardener:
+  Core B-Type Explosive Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -47.599998474121094
+    explosivedamageresistancebonus: -47.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1175,7 +995,7 @@ types:
     marketGroup: 1680
     metagroupid: 6
     metalevel: 12
-    name: Core B-Type Armor Explosive Hardener
+    name: Core B-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1187,7 +1007,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core B-Type Armor Kinetic Hardener:
+  Core B-Type Kinetic Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -1195,11 +1015,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18961
-    kineticdamageresistancebonus: -47.599998474121094
+    kineticdamageresistancebonus: -47.29999923706055
     marketGroup: 1679
     metagroupid: 6
     metalevel: 12
-    name: Core B-Type Armor Kinetic Hardener
+    name: Core B-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1211,7 +1031,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core B-Type Armor Thermal Hardener:
+  Core B-Type Thermal Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -1222,7 +1042,7 @@ types:
     marketGroup: 1678
     metagroupid: 6
     metalevel: 12
-    name: Core B-Type Armor Thermal Hardener
+    name: Core B-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1233,9 +1053,9 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.599998474121094
+    thermaldamageresistancebonus: -47.29999923706055
     volume: 5.0
-  Core C-Type Armor EM Hardener:
+  Core C-Type EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -1246,8 +1066,8 @@ types:
     id: 18949
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 11
-    name: Core C-Type Armor EM Hardener
+    metalevel: 10
+    name: Core C-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1259,7 +1079,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core C-Type Armor Explosive Hardener:
+  Core C-Type Explosive Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -1270,8 +1090,8 @@ types:
     id: 18951
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 11
-    name: Core C-Type Armor Explosive Hardener
+    metalevel: 10
+    name: Core C-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1283,7 +1103,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core C-Type Armor Kinetic Hardener:
+  Core C-Type Kinetic Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -1294,8 +1114,8 @@ types:
     kineticdamageresistancebonus: -45.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 11
-    name: Core C-Type Armor Kinetic Hardener
+    metalevel: 10
+    name: Core C-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1307,7 +1127,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core C-Type Armor Thermal Hardener:
+  Core C-Type Thermal Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -1317,8 +1137,8 @@ types:
     id: 18955
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 11
-    name: Core C-Type Armor Thermal Hardener
+    metalevel: 10
+    name: Core C-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1331,19 +1151,19 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -45.79999923706055
     volume: 5.0
-  Core X-Type Armor EM Hardener:
+  Core X-Type EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -51.20000076293945
+    emdamageresistancebonus: -50.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18973
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 14
-    name: Core X-Type Armor EM Hardener
+    metalevel: 16
+    name: Core X-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1355,19 +1175,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core X-Type Armor Explosive Hardener:
+  Core X-Type Explosive Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -51.20000076293945
+    explosivedamageresistancebonus: -50.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18975
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 14
-    name: Core X-Type Armor Explosive Hardener
+    metalevel: 16
+    name: Core X-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1379,7 +1199,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core X-Type Armor Kinetic Hardener:
+  Core X-Type Kinetic Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1387,11 +1207,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18977
-    kineticdamageresistancebonus: -51.20000076293945
+    kineticdamageresistancebonus: -50.29999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 14
-    name: Core X-Type Armor Kinetic Hardener
+    metalevel: 16
+    name: Core X-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1403,7 +1223,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Core X-Type Armor Thermal Hardener:
+  Core X-Type Thermal Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1413,8 +1233,8 @@ types:
     id: 18979
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 14
-    name: Core X-Type Armor Thermal Hardener
+    metalevel: 16
+    name: Core X-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1425,9 +1245,9 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.20000076293945
+    thermaldamageresistancebonus: -50.29999923706055
     volume: 5.0
-  Cormack's Modified Armor EM Hardener:
+  Cormack's Modified EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1438,8 +1258,8 @@ types:
     id: 15250
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 14
-    name: Cormack's Modified Armor EM Hardener
+    metalevel: 17
+    name: Cormack's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1451,7 +1271,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Cormack's Modified Armor Explosive Hardener:
+  Cormack's Modified Explosive Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1462,8 +1282,8 @@ types:
     id: 15274
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 14
-    name: Cormack's Modified Armor Explosive Hardener
+    metalevel: 17
+    name: Cormack's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1475,7 +1295,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Cormack's Modified Armor Kinetic Hardener:
+  Cormack's Modified Kinetic Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1486,8 +1306,8 @@ types:
     kineticdamageresistancebonus: -51.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 14
-    name: Cormack's Modified Armor Kinetic Hardener
+    metalevel: 17
+    name: Cormack's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1499,7 +1319,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Cormack's Modified Armor Thermal Hardener:
+  Cormack's Modified Thermal Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1509,8 +1329,8 @@ types:
     id: 15258
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 14
-    name: Cormack's Modified Armor Thermal Hardener
+    metalevel: 17
+    name: Cormack's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1523,19 +1343,19 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -51.20000076293945
     volume: 5.0
-  Corpus A-Type Armor EM Hardener:
+  Corpus A-Type EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -49.400001525878906
+    emdamageresistancebonus: -48.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18929
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 13
-    name: Corpus A-Type Armor EM Hardener
+    metalevel: 14
+    name: Corpus A-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1547,19 +1367,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus A-Type Armor Explosive Hardener:
+  Corpus A-Type Explosive Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.400001525878906
+    explosivedamageresistancebonus: -48.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18925
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 13
-    name: Corpus A-Type Armor Explosive Hardener
+    metalevel: 14
+    name: Corpus A-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1571,7 +1391,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus A-Type Armor Kinetic Hardener:
+  Corpus A-Type Kinetic Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -1579,11 +1399,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18921
-    kineticdamageresistancebonus: -49.400001525878906
+    kineticdamageresistancebonus: -48.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 13
-    name: Corpus A-Type Armor Kinetic Hardener
+    metalevel: 14
+    name: Corpus A-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1595,7 +1415,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus A-Type Armor Thermal Hardener:
+  Corpus A-Type Thermal Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -1605,8 +1425,8 @@ types:
     id: 18917
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 13
-    name: Corpus A-Type Armor Thermal Hardener
+    metalevel: 14
+    name: Corpus A-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1617,13 +1437,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.400001525878906
+    thermaldamageresistancebonus: -48.79999923706055
     volume: 5.0
-  Corpus B-Type Armor EM Hardener:
+  Corpus B-Type EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -47.599998474121094
+    emdamageresistancebonus: -47.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1631,7 +1451,7 @@ types:
     marketGroup: 1681
     metagroupid: 6
     metalevel: 12
-    name: Corpus B-Type Armor EM Hardener
+    name: Corpus B-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1643,11 +1463,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus B-Type Armor Explosive Hardener:
+  Corpus B-Type Explosive Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -47.599998474121094
+    explosivedamageresistancebonus: -47.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -1655,7 +1475,7 @@ types:
     marketGroup: 1680
     metagroupid: 6
     metalevel: 12
-    name: Corpus B-Type Armor Explosive Hardener
+    name: Corpus B-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1667,7 +1487,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus B-Type Armor Kinetic Hardener:
+  Corpus B-Type Kinetic Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -1675,11 +1495,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18909
-    kineticdamageresistancebonus: -47.599998474121094
+    kineticdamageresistancebonus: -47.29999923706055
     marketGroup: 1679
     metagroupid: 6
     metalevel: 12
-    name: Corpus B-Type Armor Kinetic Hardener
+    name: Corpus B-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1691,7 +1511,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus B-Type Armor Thermal Hardener:
+  Corpus B-Type Thermal Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -1702,7 +1522,7 @@ types:
     marketGroup: 1678
     metagroupid: 6
     metalevel: 12
-    name: Corpus B-Type Armor Thermal Hardener
+    name: Corpus B-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1713,9 +1533,9 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.599998474121094
+    thermaldamageresistancebonus: -47.29999923706055
     volume: 5.0
-  Corpus C-Type Armor EM Hardener:
+  Corpus C-Type EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -1726,8 +1546,8 @@ types:
     id: 18885
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 11
-    name: Corpus C-Type Armor EM Hardener
+    metalevel: 10
+    name: Corpus C-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1739,7 +1559,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus C-Type Armor Explosive Hardener:
+  Corpus C-Type Explosive Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -1750,8 +1570,8 @@ types:
     id: 18889
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 11
-    name: Corpus C-Type Armor Explosive Hardener
+    metalevel: 10
+    name: Corpus C-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1763,7 +1583,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus C-Type Armor Kinetic Hardener:
+  Corpus C-Type Kinetic Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -1774,8 +1594,8 @@ types:
     kineticdamageresistancebonus: -45.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 11
-    name: Corpus C-Type Armor Kinetic Hardener
+    metalevel: 10
+    name: Corpus C-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1787,7 +1607,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus C-Type Armor Thermal Hardener:
+  Corpus C-Type Thermal Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -1797,8 +1617,8 @@ types:
     id: 18897
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 11
-    name: Corpus C-Type Armor Thermal Hardener
+    metalevel: 10
+    name: Corpus C-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1811,19 +1631,19 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -45.79999923706055
     volume: 5.0
-  Corpus X-Type Armor EM Hardener:
+  Corpus X-Type EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    emdamageresistancebonus: -51.20000076293945
+    emdamageresistancebonus: -50.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18933
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 14
-    name: Corpus X-Type Armor EM Hardener
+    metalevel: 16
+    name: Corpus X-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1835,19 +1655,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus X-Type Armor Explosive Hardener:
+  Corpus X-Type Explosive Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
-    explosivedamageresistancebonus: -51.20000076293945
+    explosivedamageresistancebonus: -50.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18937
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 14
-    name: Corpus X-Type Armor Explosive Hardener
+    metalevel: 16
+    name: Corpus X-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1859,7 +1679,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus X-Type Armor Kinetic Hardener:
+  Corpus X-Type Kinetic Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1867,11 +1687,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 18941
-    kineticdamageresistancebonus: -51.20000076293945
+    kineticdamageresistancebonus: -50.29999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 14
-    name: Corpus X-Type Armor Kinetic Hardener
+    metalevel: 16
+    name: Corpus X-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1883,7 +1703,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Corpus X-Type Armor Thermal Hardener:
+  Corpus X-Type Thermal Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -1893,8 +1713,8 @@ types:
     id: 18945
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 14
-    name: Corpus X-Type Armor Thermal Hardener
+    metalevel: 16
+    name: Corpus X-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1905,9 +1725,9 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.20000076293945
+    thermaldamageresistancebonus: -50.29999923706055
     volume: 5.0
-  Dark Blood Armor EM Hardener:
+  Dark Blood EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -1918,8 +1738,8 @@ types:
     id: 13972
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 9
-    name: Dark Blood Armor EM Hardener
+    metalevel: 8
+    name: Dark Blood EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1931,7 +1751,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Dark Blood Armor Explosive Hardener:
+  Dark Blood Explosive Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -1942,8 +1762,8 @@ types:
     id: 13976
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 9
-    name: Dark Blood Armor Explosive Hardener
+    metalevel: 8
+    name: Dark Blood Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1955,7 +1775,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Dark Blood Armor Kinetic Hardener:
+  Dark Blood Kinetic Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -1966,8 +1786,8 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 9
-    name: Dark Blood Armor Kinetic Hardener
+    metalevel: 8
+    name: Dark Blood Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -1979,7 +1799,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Dark Blood Armor Thermal Hardener:
+  Dark Blood Thermal Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -1989,8 +1809,8 @@ types:
     id: 13984
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 9
-    name: Dark Blood Armor Thermal Hardener
+    metalevel: 8
+    name: Dark Blood Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2003,11 +1823,11 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -44.0
     volume: 5.0
-  Domination Armor EM Hardener:
+  Domination EM Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
-    duration: 20000.0
-    emdamageresistancebonus: -40.0
+    duration: 24000.0
+    emdamageresistancebonus: -44.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2015,7 +1835,7 @@ types:
     marketGroup: 1681
     metagroupid: 4
     metalevel: 8
-    name: Domination Armor EM Hardener
+    name: Domination EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2027,11 +1847,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Domination Armor Explosive Hardener:
+  Domination Explosive Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
-    duration: 20000.0
-    explosivedamageresistancebonus: -40.0
+    duration: 24000.0
+    explosivedamageresistancebonus: -44.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2039,7 +1859,7 @@ types:
     marketGroup: 1680
     metagroupid: 4
     metalevel: 8
-    name: Domination Armor Explosive Hardener
+    name: Domination Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2051,19 +1871,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Domination Armor Kinetic Hardener:
+  Domination Kinetic Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
-    duration: 20000.0
+    duration: 24000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 13990
-    kineticdamageresistancebonus: -40.0
+    kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
     metalevel: 8
-    name: Domination Armor Kinetic Hardener
+    name: Domination Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2075,10 +1895,10 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Domination Armor Thermal Hardener:
+  Domination Thermal Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
-    duration: 20000.0
+    duration: 24000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2086,7 +1906,7 @@ types:
     marketGroup: 1678
     metagroupid: 4
     metalevel: 8
-    name: Domination Armor Thermal Hardener
+    name: Domination Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2097,9 +1917,9 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -40.0
+    thermaldamageresistancebonus: -44.0
     volume: 5.0
-  Draclira's Modified Armor EM Hardener:
+  Draclira's Modified EM Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -2110,8 +1930,8 @@ types:
     id: 15030
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 14
-    name: Draclira's Modified Armor EM Hardener
+    metalevel: 17
+    name: Draclira's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2123,7 +1943,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Draclira's Modified Armor Explosive Hardener:
+  Draclira's Modified Explosive Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -2134,8 +1954,8 @@ types:
     id: 15078
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 14
-    name: Draclira's Modified Armor Explosive Hardener
+    metalevel: 17
+    name: Draclira's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2147,7 +1967,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Draclira's Modified Armor Kinetic Hardener:
+  Draclira's Modified Kinetic Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -2158,8 +1978,8 @@ types:
     kineticdamageresistancebonus: -51.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 14
-    name: Draclira's Modified Armor Kinetic Hardener
+    metalevel: 17
+    name: Draclira's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2171,7 +1991,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Draclira's Modified Armor Thermal Hardener:
+  Draclira's Modified Thermal Armor Hardener:
     capacitorneed: 46.0
     cpu: 23.0
     duration: 20000.0
@@ -2181,8 +2001,8 @@ types:
     id: 15046
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 14
-    name: Draclira's Modified Armor Thermal Hardener
+    metalevel: 17
+    name: Draclira's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2195,18 +2015,17 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -51.20000076293945
     volume: 5.0
-  Experimental Armor EM Hardener I:
-    capacitorneed: 26.0
-    cpu: 28.0
+  EM Armor Hardener I:
+    capacitorneed: 30.0
+    cpu: 33.0
     duration: 20000.0
     emdamageresistancebonus: -40.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
-    id: 16357
+    id: 11301
     marketGroup: 1681
-    metalevel: 3
-    name: Experimental Armor EM Hardener I
+    name: EM Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2218,18 +2037,132 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Experimental Armor Explosive Hardener I:
-    capacitorneed: 26.0
-    cpu: 28.0
+  EM Armor Hardener II:
+    capacitorneed: 30.0
+    cpu: 36.0
+    duration: 20000.0
+    emdamageresistancebonus: -44.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 11642
+    marketGroup: 1681
+    metalevel: 5
+    name: EM Armor Hardener II
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 5.0
+  Experimental Enduring EM Armor Hardener I:
+    capacitorneed: 10.0
+    cpu: 33.0
+    duration: 24000.0
+    emdamageresistancebonus: -42.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 7.909999847412109
+    hp: 40.0
+    id: 16357
+    marketGroup: 1681
+    metalevel: 1
+    name: Experimental Enduring EM Armor Hardener I
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Experimental Enduring Explosive Armor Hardener I:
+    capacitorneed: 10.0
+    cpu: 33.0
+    duration: 24000.0
+    explosivedamageresistancebonus: -42.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 7.909999847412109
+    hp: 40.0
+    id: 16365
+    marketGroup: 1680
+    metalevel: 1
+    name: Experimental Enduring Explosive Armor Hardener I
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Experimental Enduring Kinetic Armor Hardener I:
+    capacitorneed: 10.0
+    cpu: 33.0
+    duration: 24000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 7.909999847412109
+    hp: 40.0
+    id: 16373
+    kineticdamageresistancebonus: -42.0
+    marketGroup: 1679
+    metalevel: 1
+    name: Experimental Enduring Kinetic Armor Hardener I
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Experimental Enduring Thermal Armor Hardener I:
+    capacitorneed: 10.0
+    cpu: 33.0
+    duration: 24000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 7.909999847412109
+    hp: 40.0
+    id: 16381
+    marketGroup: 1678
+    metalevel: 1
+    name: Experimental Enduring Thermal Armor Hardener I
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -42.0
+    volume: 5.0
+  Explosive Armor Hardener I:
+    capacitorneed: 30.0
+    cpu: 33.0
     duration: 20000.0
     explosivedamageresistancebonus: -40.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
-    id: 16365
+    id: 11303
     marketGroup: 1680
-    metalevel: 3
-    name: Experimental Armor Explosive Hardener I
+    name: Explosive Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2241,18 +2174,18 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Experimental Armor Kinetic Hardener I:
-    capacitorneed: 26.0
-    cpu: 28.0
+  Explosive Armor Hardener II:
+    capacitorneed: 30.0
+    cpu: 36.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    explosivedamageresistancebonus: -44.0
+    heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 6.599999904632568
     hp: 40.0
-    id: 16373
-    kineticdamageresistancebonus: -40.0
-    marketGroup: 1679
-    metalevel: 3
-    name: Experimental Armor Kinetic Hardener I
+    id: 11646
+    marketGroup: 1680
+    metalevel: 5
+    name: Explosive Armor Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2260,34 +2193,11 @@ types:
     published: true
     radius: 10.0
     requiredskill1: 3394
-    requiredskill1level: 3
+    requiredskill1level: 5
     requiredthermodynamicsskill: 1
-    techlevel: 1
+    techlevel: 2
     volume: 5.0
-  Experimental Armor Thermal Hardener I:
-    capacitorneed: 26.0
-    cpu: 28.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 16381
-    marketGroup: 1678
-    metalevel: 3
-    name: Experimental Armor Thermal Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -40.0
-    volume: 5.0
-  Federation Navy Armor EM Hardener:
+  Federation Navy EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2298,8 +2208,8 @@ types:
     id: 17832
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 9
-    name: Federation Navy Armor EM Hardener
+    metalevel: 8
+    name: Federation Navy EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2311,7 +2221,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Federation Navy Armor Explosive Hardener:
+  Federation Navy Explosive Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2322,8 +2232,8 @@ types:
     id: 17834
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 9
-    name: Federation Navy Armor Explosive Hardener
+    metalevel: 8
+    name: Federation Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2335,7 +2245,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Federation Navy Armor Kinetic Hardener:
+  Federation Navy Kinetic Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2346,8 +2256,8 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 9
-    name: Federation Navy Armor Kinetic Hardener
+    metalevel: 8
+    name: Federation Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2359,7 +2269,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Federation Navy Armor Thermal Hardener:
+  Federation Navy Thermal Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2369,8 +2279,8 @@ types:
     id: 17838
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 9
-    name: Federation Navy Armor Thermal Hardener
+    metalevel: 8
+    name: Federation Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2383,7 +2293,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -44.0
     volume: 5.0
-  Imperial Navy Armor EM Hardener:
+  Imperial Navy EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2394,8 +2304,8 @@ types:
     id: 15711
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 9
-    name: Imperial Navy Armor EM Hardener
+    metalevel: 8
+    name: Imperial Navy EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2407,7 +2317,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Imperial Navy Armor Explosive Hardener:
+  Imperial Navy Explosive Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2418,8 +2328,8 @@ types:
     id: 15709
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 9
-    name: Imperial Navy Armor Explosive Hardener
+    metalevel: 8
+    name: Imperial Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2431,7 +2341,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Imperial Navy Armor Kinetic Hardener:
+  Imperial Navy Kinetic Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2442,8 +2352,8 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 9
-    name: Imperial Navy Armor Kinetic Hardener
+    metalevel: 8
+    name: Imperial Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2455,7 +2365,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Imperial Navy Armor Thermal Hardener:
+  Imperial Navy Thermal Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2465,8 +2375,8 @@ types:
     id: 15705
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 9
-    name: Imperial Navy Armor Thermal Hardener
+    metalevel: 8
+    name: Imperial Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2479,7 +2389,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -44.0
     volume: 5.0
-  Khanid Navy Armor EM Hardener:
+  Khanid Navy EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2490,8 +2400,8 @@ types:
     id: 28522
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 9
-    name: Khanid Navy Armor EM Hardener
+    metalevel: 8
+    name: Khanid Navy EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2503,7 +2413,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Khanid Navy Armor Explosive Hardener:
+  Khanid Navy Explosive Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2514,8 +2424,8 @@ types:
     id: 28524
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 9
-    name: Khanid Navy Armor Explosive Hardener
+    metalevel: 8
+    name: Khanid Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2527,7 +2437,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Khanid Navy Armor Kinetic Hardener:
+  Khanid Navy Kinetic Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2538,8 +2448,8 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 9
-    name: Khanid Navy Armor Kinetic Hardener
+    metalevel: 8
+    name: Khanid Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2551,7 +2461,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Khanid Navy Armor Thermal Hardener:
+  Khanid Navy Thermal Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -2561,8 +2471,8 @@ types:
     id: 28528
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 9
-    name: Khanid Navy Armor Thermal Hardener
+    metalevel: 8
+    name: Khanid Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2575,64 +2485,17 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -44.0
     volume: 5.0
-  Limited Armor EM Hardener I:
-    capacitorneed: 27.0
-    cpu: 30.0
-    duration: 20000.0
-    emdamageresistancebonus: -40.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 16355
-    marketGroup: 1681
-    metalevel: 2
-    name: Limited Armor EM Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Limited Armor Explosive Hardener I:
-    capacitorneed: 27.0
-    cpu: 30.0
-    duration: 20000.0
-    explosivedamageresistancebonus: -40.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 16363
-    marketGroup: 1680
-    metalevel: 2
-    name: Limited Armor Explosive Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Limited Armor Kinetic Hardener I:
-    capacitorneed: 27.0
-    cpu: 30.0
+  Kinetic Armor Hardener I:
+    capacitorneed: 30.0
+    cpu: 33.0
     duration: 20000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
-    id: 16371
+    id: 11305
     kineticdamageresistancebonus: -40.0
     marketGroup: 1679
-    metalevel: 2
-    name: Limited Armor Kinetic Hardener I
+    name: Kinetic Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2644,17 +2507,18 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Limited Armor Thermal Hardener I:
-    capacitorneed: 27.0
-    cpu: 30.0
+  Kinetic Armor Hardener II:
+    capacitorneed: 30.0
+    cpu: 36.0
     duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
+    heatabsorbtionratemodifier: 0.019999999552965164
     heatdamage: 6.599999904632568
     hp: 40.0
-    id: 16379
-    marketGroup: 1678
-    metalevel: 2
-    name: Limited Armor Thermal Hardener I
+    id: 11644
+    kineticdamageresistancebonus: -44.0
+    marketGroup: 1679
+    metalevel: 5
+    name: Kinetic Armor Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2662,23 +2526,22 @@ types:
     published: true
     radius: 10.0
     requiredskill1: 3394
-    requiredskill1level: 3
+    requiredskill1level: 5
     requiredthermodynamicsskill: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -40.0
+    techlevel: 2
     volume: 5.0
-  Prototype Armor EM Hardener I:
-    capacitorneed: 24.0
-    cpu: 26.0
+  Prototype Compact EM Armor Hardener I:
+    capacitorneed: 30.0
+    cpu: 16.0
     duration: 20000.0
-    emdamageresistancebonus: -40.0
+    emdamageresistancebonus: -42.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 16359
     marketGroup: 1681
-    metalevel: 4
-    name: Prototype Armor EM Hardener I
+    metalevel: 1
+    name: Prototype Compact EM Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2690,18 +2553,18 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Prototype Armor Explosive Hardener I:
-    capacitorneed: 24.0
-    cpu: 26.0
+  Prototype Compact Explosive Armor Hardener I:
+    capacitorneed: 30.0
+    cpu: 16.0
     duration: 20000.0
-    explosivedamageresistancebonus: -40.0
+    explosivedamageresistancebonus: -42.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 16367
     marketGroup: 1680
-    metalevel: 4
-    name: Prototype Armor Explosive Hardener I
+    metalevel: 1
+    name: Prototype Compact Explosive Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2713,18 +2576,18 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Prototype Armor Kinetic Hardener I:
-    capacitorneed: 24.0
-    cpu: 26.0
+  Prototype Compact Kinetic Armor Hardener I:
+    capacitorneed: 30.0
+    cpu: 16.0
     duration: 20000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 16375
-    kineticdamageresistancebonus: -40.0
+    kineticdamageresistancebonus: -42.0
     marketGroup: 1679
-    metalevel: 4
-    name: Prototype Armor Kinetic Hardener I
+    metalevel: 1
+    name: Prototype Compact Kinetic Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2736,17 +2599,17 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Prototype Armor Thermal Hardener I:
-    capacitorneed: 24.0
-    cpu: 26.0
+  Prototype Compact Thermal Armor Hardener I:
+    capacitorneed: 30.0
+    cpu: 16.0
     duration: 20000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 16383
     marketGroup: 1678
-    metalevel: 4
-    name: Prototype Armor Thermal Hardener I
+    metalevel: 1
+    name: Prototype Compact Thermal Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2757,21 +2620,21 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -40.0
+    thermaldamageresistancebonus: -42.0
     volume: 5.0
-  Raysere's Modified Armor EM Hardener:
+  Raysere's Modified EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -47.599998474121094
+    emdamageresistancebonus: -48.20000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15022
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 12
-    name: Raysere's Modified Armor EM Hardener
+    metalevel: 13
+    name: Raysere's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2783,19 +2646,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Raysere's Modified Armor Explosive Hardener:
+  Raysere's Modified Explosive Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -47.599998474121094
+    explosivedamageresistancebonus: -48.20000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15070
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 12
-    name: Raysere's Modified Armor Explosive Hardener
+    metalevel: 13
+    name: Raysere's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2807,7 +2670,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Raysere's Modified Armor Kinetic Hardener:
+  Raysere's Modified Kinetic Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -2815,11 +2678,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15054
-    kineticdamageresistancebonus: -47.599998474121094
+    kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 12
-    name: Raysere's Modified Armor Kinetic Hardener
+    metalevel: 13
+    name: Raysere's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2831,7 +2694,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Raysere's Modified Armor Thermal Hardener:
+  Raysere's Modified Thermal Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -2841,8 +2704,8 @@ types:
     id: 15038
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 12
-    name: Raysere's Modified Armor Thermal Hardener
+    metalevel: 13
+    name: Raysere's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2853,13 +2716,13 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.599998474121094
+    thermaldamageresistancebonus: -48.20000076293945
     volume: 5.0
-  Republic Fleet Armor EM Hardener:
+  Republic Fleet EM Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
-    duration: 20000.0
-    emdamageresistancebonus: -40.0
+    duration: 24000.0
+    emdamageresistancebonus: -44.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2867,7 +2730,7 @@ types:
     marketGroup: 1681
     metagroupid: 4
     metalevel: 8
-    name: Republic Fleet Armor EM Hardener
+    name: Republic Fleet EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2879,11 +2742,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Republic Fleet Armor Explosive Hardener:
+  Republic Fleet Explosive Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
-    duration: 20000.0
-    explosivedamageresistancebonus: -40.0
+    duration: 24000.0
+    explosivedamageresistancebonus: -44.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2891,7 +2754,7 @@ types:
     marketGroup: 1680
     metagroupid: 4
     metalevel: 8
-    name: Republic Fleet Armor Explosive Hardener
+    name: Republic Fleet Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2903,19 +2766,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Republic Fleet Armor Kinetic Hardener:
+  Republic Fleet Kinetic Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
-    duration: 20000.0
+    duration: 24000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15715
-    kineticdamageresistancebonus: -40.0
+    kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
     metalevel: 8
-    name: Republic Fleet Armor Kinetic Hardener
+    name: Republic Fleet Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2927,10 +2790,10 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Republic Fleet Armor Thermal Hardener:
+  Republic Fleet Thermal Armor Hardener:
     capacitorneed: 10.0
     cpu: 33.0
-    duration: 20000.0
+    duration: 24000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -2938,7 +2801,7 @@ types:
     marketGroup: 1678
     metagroupid: 4
     metalevel: 8
-    name: Republic Fleet Armor Thermal Hardener
+    name: Republic Fleet Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2949,21 +2812,21 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -40.0
+    thermaldamageresistancebonus: -44.0
     volume: 5.0
-  Selynne's Modified Armor EM Hardener:
+  Selynne's Modified EM Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    emdamageresistancebonus: -47.599998474121094
+    emdamageresistancebonus: -48.20000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15020
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 12
-    name: Selynne's Modified Armor EM Hardener
+    metalevel: 13
+    name: Selynne's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2975,19 +2838,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Selynne's Modified Armor Explosive Hardener:
+  Selynne's Modified Explosive Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
-    explosivedamageresistancebonus: -47.599998474121094
+    explosivedamageresistancebonus: -48.20000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15068
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 12
-    name: Selynne's Modified Armor Explosive Hardener
+    metalevel: 13
+    name: Selynne's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -2999,7 +2862,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Selynne's Modified Armor Kinetic Hardener:
+  Selynne's Modified Kinetic Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -3007,11 +2870,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15052
-    kineticdamageresistancebonus: -47.599998474121094
+    kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 12
-    name: Selynne's Modified Armor Kinetic Hardener
+    metalevel: 13
+    name: Selynne's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3023,7 +2886,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Selynne's Modified Armor Thermal Hardener:
+  Selynne's Modified Thermal Armor Hardener:
     capacitorneed: 38.0
     cpu: 20.0
     duration: 20000.0
@@ -3033,8 +2896,8 @@ types:
     id: 15036
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 12
-    name: Selynne's Modified Armor Thermal Hardener
+    metalevel: 13
+    name: Selynne's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3045,21 +2908,21 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.599998474121094
+    thermaldamageresistancebonus: -48.20000076293945
     volume: 5.0
-  Setele's Modified Armor EM Hardener:
+  Setele's Modified EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -49.400001525878906
+    emdamageresistancebonus: -49.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15248
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 13
-    name: Setele's Modified Armor EM Hardener
+    metalevel: 15
+    name: Setele's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3071,19 +2934,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Setele's Modified Armor Explosive Hardener:
+  Setele's Modified Explosive Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.400001525878906
+    explosivedamageresistancebonus: -49.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15272
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 13
-    name: Setele's Modified Armor Explosive Hardener
+    metalevel: 15
+    name: Setele's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3095,7 +2958,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Setele's Modified Armor Kinetic Hardener:
+  Setele's Modified Kinetic Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -3103,11 +2966,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15264
-    kineticdamageresistancebonus: -49.400001525878906
+    kineticdamageresistancebonus: -49.70000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 13
-    name: Setele's Modified Armor Kinetic Hardener
+    metalevel: 15
+    name: Setele's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3119,7 +2982,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Setele's Modified Armor Thermal Hardener:
+  Setele's Modified Thermal Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -3129,8 +2992,8 @@ types:
     id: 15256
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 13
-    name: Setele's Modified Armor Thermal Hardener
+    metalevel: 15
+    name: Setele's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3141,9 +3004,9 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.400001525878906
+    thermaldamageresistancebonus: -49.70000076293945
     volume: 5.0
-  Shadow Serpentis Armor EM Hardener:
+  Shadow Serpentis EM Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -3154,8 +3017,8 @@ types:
     id: 14059
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 9
-    name: Shadow Serpentis Armor EM Hardener
+    metalevel: 8
+    name: Shadow Serpentis EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3167,7 +3030,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Shadow Serpentis Armor Explosive Hardener:
+  Shadow Serpentis Explosive Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -3178,8 +3041,8 @@ types:
     id: 14061
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 9
-    name: Shadow Serpentis Armor Explosive Hardener
+    metalevel: 8
+    name: Shadow Serpentis Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3191,7 +3054,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Shadow Serpentis Armor Kinetic Hardener:
+  Shadow Serpentis Kinetic Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -3202,8 +3065,8 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 9
-    name: Shadow Serpentis Armor Kinetic Hardener
+    metalevel: 8
+    name: Shadow Serpentis Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3215,7 +3078,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Shadow Serpentis Armor Thermal Hardener:
+  Shadow Serpentis Thermal Armor Hardener:
     capacitorneed: 30.0
     cpu: 16.0
     duration: 20000.0
@@ -3225,8 +3088,8 @@ types:
     id: 14065
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 9
-    name: Shadow Serpentis Armor Thermal Hardener
+    metalevel: 8
+    name: Shadow Serpentis Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3239,11 +3102,11 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -44.0
     volume: 5.0
-  Tairei's Modified Armor EM Hardener:
+  Tairei's Modified EM Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    emdamageresistancebonus: -45.79999923706055
+    emdamageresistancebonus: -46.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3251,7 +3114,7 @@ types:
     marketGroup: 1681
     metagroupid: 5
     metalevel: 11
-    name: Tairei's Modified Armor EM Hardener
+    name: Tairei's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3263,11 +3126,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Tairei's Modified Armor Explosive Hardener:
+  Tairei's Modified Explosive Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
-    explosivedamageresistancebonus: -45.79999923706055
+    explosivedamageresistancebonus: -46.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
@@ -3275,7 +3138,7 @@ types:
     marketGroup: 1680
     metagroupid: 5
     metalevel: 11
-    name: Tairei's Modified Armor Explosive Hardener
+    name: Tairei's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3287,7 +3150,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Tairei's Modified Armor Kinetic Hardener:
+  Tairei's Modified Kinetic Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -3295,11 +3158,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15050
-    kineticdamageresistancebonus: -45.79999923706055
+    kineticdamageresistancebonus: -46.70000076293945
     marketGroup: 1679
     metagroupid: 5
     metalevel: 11
-    name: Tairei's Modified Armor Kinetic Hardener
+    name: Tairei's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3311,7 +3174,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Tairei's Modified Armor Thermal Hardener:
+  Tairei's Modified Thermal Armor Hardener:
     capacitorneed: 34.0
     cpu: 18.0
     duration: 20000.0
@@ -3322,7 +3185,7 @@ types:
     marketGroup: 1678
     metagroupid: 5
     metalevel: 11
-    name: Tairei's Modified Armor Thermal Hardener
+    name: Tairei's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3333,280 +3196,18 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -45.79999923706055
+    thermaldamageresistancebonus: -46.70000076293945
     volume: 5.0
-  True Sansha Armor EM Hardener:
+  Thermal Armor Hardener I:
     capacitorneed: 30.0
-    cpu: 16.0
-    duration: 20000.0
-    emdamageresistancebonus: -44.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 13970
-    marketGroup: 1681
-    metagroupid: 4
-    metalevel: 9
-    name: True Sansha Armor EM Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  True Sansha Armor Explosive Hardener:
-    capacitorneed: 30.0
-    cpu: 16.0
-    duration: 20000.0
-    explosivedamageresistancebonus: -44.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 13974
-    marketGroup: 1680
-    metagroupid: 4
-    metalevel: 9
-    name: True Sansha Armor Explosive Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  True Sansha Armor Kinetic Hardener:
-    capacitorneed: 30.0
-    cpu: 16.0
+    cpu: 33.0
     duration: 20000.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
-    id: 13978
-    kineticdamageresistancebonus: -44.0
-    marketGroup: 1679
-    metagroupid: 4
-    metalevel: 9
-    name: True Sansha Armor Kinetic Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  True Sansha Armor Thermal Hardener:
-    capacitorneed: 30.0
-    cpu: 16.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 13982
+    id: 11277
     marketGroup: 1678
-    metagroupid: 4
-    metalevel: 9
-    name: True Sansha Armor Thermal Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -44.0
-    volume: 5.0
-  Tuvan's Modified Armor EM Hardener:
-    capacitorneed: 38.0
-    cpu: 20.0
-    duration: 20000.0
-    emdamageresistancebonus: -47.599998474121094
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 15246
-    marketGroup: 1681
-    metagroupid: 5
-    metalevel: 12
-    name: Tuvan's Modified Armor EM Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Tuvan's Modified Armor Explosive Hardener:
-    capacitorneed: 38.0
-    cpu: 20.0
-    duration: 20000.0
-    explosivedamageresistancebonus: -47.599998474121094
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 15270
-    marketGroup: 1680
-    metagroupid: 5
-    metalevel: 12
-    name: Tuvan's Modified Armor Explosive Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Tuvan's Modified Armor Kinetic Hardener:
-    capacitorneed: 38.0
-    cpu: 20.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 15262
-    kineticdamageresistancebonus: -47.599998474121094
-    marketGroup: 1679
-    metagroupid: 5
-    metalevel: 12
-    name: Tuvan's Modified Armor Kinetic Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Tuvan's Modified Armor Thermal Hardener:
-    capacitorneed: 38.0
-    cpu: 20.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 15254
-    marketGroup: 1678
-    metagroupid: 5
-    metalevel: 12
-    name: Tuvan's Modified Armor Thermal Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -47.599998474121094
-    volume: 5.0
-  Upgraded Armor EM Hardener I:
-    capacitorneed: 29.0
-    cpu: 31.0
-    duration: 20000.0
-    emdamageresistancebonus: -40.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 16353
-    marketGroup: 1681
-    metalevel: 1
-    name: Upgraded Armor EM Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Upgraded Armor Explosive Hardener I:
-    capacitorneed: 29.0
-    cpu: 31.0
-    duration: 20000.0
-    explosivedamageresistancebonus: -40.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 16361
-    marketGroup: 1680
-    metalevel: 1
-    name: Upgraded Armor Explosive Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Upgraded Armor Kinetic Hardener I:
-    capacitorneed: 29.0
-    cpu: 31.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 16369
-    kineticdamageresistancebonus: -40.0
-    marketGroup: 1679
-    metalevel: 1
-    name: Upgraded Armor Kinetic Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 10.0
-    requiredskill1: 3394
-    requiredskill1level: 3
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Upgraded Armor Thermal Hardener I:
-    capacitorneed: 29.0
-    cpu: 31.0
-    duration: 20000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 6.599999904632568
-    hp: 40.0
-    id: 16377
-    marketGroup: 1678
-    metalevel: 1
-    name: Upgraded Armor Thermal Hardener I
+    name: Thermal Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3619,19 +3220,234 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -40.0
     volume: 5.0
-  Vizan's Modified Armor EM Hardener:
+  Thermal Armor Hardener II:
+    capacitorneed: 30.0
+    cpu: 36.0
+    duration: 20000.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 11648
+    marketGroup: 1678
+    metalevel: 5
+    name: Thermal Armor Hardener II
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 5
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    thermaldamageresistancebonus: -44.0
+    volume: 5.0
+  True Sansha EM Armor Hardener:
+    capacitorneed: 30.0
+    cpu: 16.0
+    duration: 20000.0
+    emdamageresistancebonus: -44.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 13970
+    marketGroup: 1681
+    metagroupid: 4
+    metalevel: 8
+    name: True Sansha EM Armor Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  True Sansha Explosive Armor Hardener:
+    capacitorneed: 30.0
+    cpu: 16.0
+    duration: 20000.0
+    explosivedamageresistancebonus: -44.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 13974
+    marketGroup: 1680
+    metagroupid: 4
+    metalevel: 8
+    name: True Sansha Explosive Armor Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  True Sansha Kinetic Armor Hardener:
+    capacitorneed: 30.0
+    cpu: 16.0
+    duration: 20000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 13978
+    kineticdamageresistancebonus: -44.0
+    marketGroup: 1679
+    metagroupid: 4
+    metalevel: 8
+    name: True Sansha Kinetic Armor Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  True Sansha Thermal Armor Hardener:
+    capacitorneed: 30.0
+    cpu: 16.0
+    duration: 20000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 13982
+    marketGroup: 1678
+    metagroupid: 4
+    metalevel: 8
+    name: True Sansha Thermal Armor Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -44.0
+    volume: 5.0
+  Tuvan's Modified EM Armor Hardener:
+    capacitorneed: 38.0
+    cpu: 20.0
+    duration: 20000.0
+    emdamageresistancebonus: -48.20000076293945
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 15246
+    marketGroup: 1681
+    metagroupid: 5
+    metalevel: 13
+    name: Tuvan's Modified EM Armor Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Tuvan's Modified Explosive Armor Hardener:
+    capacitorneed: 38.0
+    cpu: 20.0
+    duration: 20000.0
+    explosivedamageresistancebonus: -48.20000076293945
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 15270
+    marketGroup: 1680
+    metagroupid: 5
+    metalevel: 13
+    name: Tuvan's Modified Explosive Armor Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Tuvan's Modified Kinetic Armor Hardener:
+    capacitorneed: 38.0
+    cpu: 20.0
+    duration: 20000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 15262
+    kineticdamageresistancebonus: -48.20000076293945
+    marketGroup: 1679
+    metagroupid: 5
+    metalevel: 13
+    name: Tuvan's Modified Kinetic Armor Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Tuvan's Modified Thermal Armor Hardener:
+    capacitorneed: 38.0
+    cpu: 20.0
+    duration: 20000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 6.599999904632568
+    hp: 40.0
+    id: 15254
+    marketGroup: 1678
+    metagroupid: 5
+    metalevel: 13
+    name: Tuvan's Modified Thermal Armor Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 10.0
+    requiredskill1: 3394
+    requiredskill1level: 3
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -48.20000076293945
+    volume: 5.0
+  Vizan's Modified EM Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    emdamageresistancebonus: -49.400001525878906
+    emdamageresistancebonus: -49.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15024
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 13
-    name: Vizan's Modified Armor EM Hardener
+    metalevel: 15
+    name: Vizan's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3643,19 +3459,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Vizan's Modified Armor Explosive Hardener:
+  Vizan's Modified Explosive Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
-    explosivedamageresistancebonus: -49.400001525878906
+    explosivedamageresistancebonus: -49.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15072
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 13
-    name: Vizan's Modified Armor Explosive Hardener
+    metalevel: 15
+    name: Vizan's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3667,7 +3483,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Vizan's Modified Armor Kinetic Hardener:
+  Vizan's Modified Kinetic Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -3675,11 +3491,11 @@ types:
     heatdamage: 6.599999904632568
     hp: 40.0
     id: 15056
-    kineticdamageresistancebonus: -49.400001525878906
+    kineticdamageresistancebonus: -49.70000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 13
-    name: Vizan's Modified Armor Kinetic Hardener
+    metalevel: 15
+    name: Vizan's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3691,7 +3507,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Vizan's Modified Armor Thermal Hardener:
+  Vizan's Modified Thermal Armor Hardener:
     capacitorneed: 42.0
     cpu: 21.0
     duration: 20000.0
@@ -3701,8 +3517,8 @@ types:
     id: 15040
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 13
-    name: Vizan's Modified Armor Thermal Hardener
+    metalevel: 15
+    name: Vizan's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     portionSize: 1
@@ -3713,5 +3529,5 @@ types:
     requiredskill1level: 3
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.400001525878906
+    thermaldamageresistancebonus: -49.70000076293945
     volume: 5.0

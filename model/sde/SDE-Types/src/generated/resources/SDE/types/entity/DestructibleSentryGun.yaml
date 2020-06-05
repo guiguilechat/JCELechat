@@ -12,7 +12,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -28,10 +30,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 202
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17591
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -63,6 +67,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Amarr Energy Neutralizer Sentry I:
@@ -79,7 +84,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -95,10 +102,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 27668
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -134,6 +143,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Amarr Energy Neutralizer Sentry II:
@@ -150,7 +160,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -166,10 +178,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 27669
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -205,6 +219,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Amarr Energy Neutralizer Sentry III:
@@ -221,7 +236,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -237,10 +254,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 27670
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -276,6 +295,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Amarr Heavy Missile Battery:
@@ -291,7 +311,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -307,10 +329,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 207
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17590
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -342,6 +366,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Amarr Light Missile Battery:
@@ -357,7 +382,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -373,10 +400,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 212
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17589
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -408,6 +437,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Amarr Point Defense Battery:
@@ -423,7 +453,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -439,10 +471,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2514
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17588
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -474,6 +508,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Amarr Stasis Tower:
@@ -489,7 +524,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -504,10 +541,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17609
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -543,6 +582,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Ammatar Cruise Missile Battery:
@@ -558,7 +598,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -574,10 +616,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 202
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 19667
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -609,6 +653,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Ammatar Heavy Missile Battery:
@@ -624,7 +669,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -640,10 +687,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 207
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 19666
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -675,6 +724,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Ammatar Light Missile Battery:
@@ -690,7 +740,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -706,10 +758,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 212
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 19665
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -741,6 +795,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Ammatar Point Defense Battery:
@@ -756,7 +811,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -772,10 +829,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2514
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 19664
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -807,6 +866,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Angel Basic Defense Battery:
@@ -822,7 +882,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -838,10 +900,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2516
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 27280
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -873,6 +937,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Angel Cruise Missile Battery:
@@ -888,7 +953,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -904,10 +971,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 204
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17575
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -939,6 +1008,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Angel Energy Neutralizer Sentry I:
@@ -955,7 +1025,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -971,10 +1043,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 28139
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -1010,6 +1084,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Angel Energy Neutralizer Sentry II:
@@ -1026,7 +1101,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -1042,10 +1119,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 28144
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -1081,6 +1160,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Angel Energy Neutralizer Sentry III:
@@ -1097,7 +1177,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -1113,10 +1195,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 28150
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -1152,6 +1236,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Angel Heavy Missile Battery:
@@ -1167,7 +1252,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -1183,10 +1270,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 206
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17574
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -1218,6 +1307,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Angel Light Missile Battery:
@@ -1233,7 +1323,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -1249,10 +1341,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 213
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17573
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -1284,6 +1378,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Angel Point Defense Battery:
@@ -1299,7 +1394,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -1315,10 +1412,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2516
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17572
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -1350,6 +1449,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Angel Sentry Gun:
@@ -1365,8 +1465,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -1382,11 +1484,13 @@ types:
     entitykillbounty: 20000
     entityreactionfactor: 1.0
     explosivedamage: 4.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 383
     hp: 400.0
     id: 13114
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -1422,6 +1526,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11318
     volume: 1000.0
@@ -1438,7 +1543,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -1453,10 +1560,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17605
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -1492,6 +1601,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Archive Sentry Tower:
@@ -1505,8 +1615,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 26.100000381469727
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 30.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -1521,10 +1633,12 @@ types:
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 3758
     hp: 7500.0
     id: 34454
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -1557,6 +1671,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.029999999329447746
     volume: 1000.0
   Blood Basic Defense Battery:
@@ -1572,7 +1687,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -1588,10 +1705,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2514
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 27281
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -1626,6 +1745,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Blood Cruise Missile Battery:
@@ -1641,7 +1761,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -1657,10 +1779,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 202
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17595
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -1695,6 +1819,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Blood Energy Neutralizer Sentry I:
@@ -1711,7 +1836,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -1727,10 +1854,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 28140
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -1766,6 +1895,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Blood Energy Neutralizer Sentry II:
@@ -1782,7 +1912,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -1798,10 +1930,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 28145
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -1837,6 +1971,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Blood Energy Neutralizer Sentry III:
@@ -1853,7 +1988,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -1869,10 +2006,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 28149
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -1908,6 +2047,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Blood Heavy Missile Battery:
@@ -1923,7 +2063,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -1939,10 +2081,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 207
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17594
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -1977,6 +2121,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Blood Light Missile Battery:
@@ -1992,7 +2137,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -2008,10 +2155,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 212
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17593
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2046,6 +2195,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Blood Point Defense Battery:
@@ -2061,7 +2211,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -2077,10 +2229,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2514
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17592
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2115,6 +2269,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Blood Raider Sentry Gun:
@@ -2130,8 +2285,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 4.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -2147,11 +2304,13 @@ types:
     entitykillbounty: 20000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 360
     hp: 400.0
     id: 13116
     kineticdamage: 1.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2187,6 +2346,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11320
     volume: 1000.0
@@ -2203,7 +2363,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -2218,10 +2380,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17610
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2257,6 +2421,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Caldari Cruise Missile Battery:
@@ -2272,7 +2437,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -2288,10 +2455,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 203
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17603
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2326,6 +2495,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Caldari Energy Neutralizer Sentry I:
@@ -2342,7 +2512,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -2358,10 +2530,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 27792
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -2397,6 +2571,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Caldari Energy Neutralizer Sentry II:
@@ -2413,7 +2588,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -2429,10 +2606,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 27793
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -2468,6 +2647,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Caldari Energy Neutralizer Sentry III:
@@ -2484,7 +2664,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -2500,10 +2682,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 27794
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -2539,6 +2723,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Caldari Heavy Missile Battery:
@@ -2554,7 +2739,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -2570,10 +2757,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 208
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17602
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2608,6 +2797,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Caldari Light Missile Battery:
@@ -2623,7 +2813,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -2639,10 +2831,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 210
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17601
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2677,6 +2871,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Caldari Point Defense Battery:
@@ -2692,7 +2887,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -2708,10 +2905,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 266
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17600
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2746,6 +2945,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Caldari Stasis Tower:
@@ -2761,7 +2961,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -2776,10 +2978,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17612
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2815,6 +3019,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Damaged Sentinel Angel:
@@ -2830,7 +3035,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 800.0
     entityarmorrepairduration: 20000
@@ -2850,10 +3057,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17863
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 85000.0
     id: 28571
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2889,6 +3098,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Damaged Sentinel Bloodraider:
@@ -2904,7 +3114,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 800.0
     entityarmorrepairduration: 20000
@@ -2924,10 +3136,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 202
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 85000.0
     id: 28572
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -2963,6 +3177,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Damaged Sentinel Chimera Strain Mother:
@@ -2978,8 +3193,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 25.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 4.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 1000.0
     entityarmorrepairduration: 30000
@@ -2998,11 +3215,13 @@ types:
     entitymissiletypeid: 17857
     entityreactionfactor: 1.0
     explosivedamage: 4.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 363
     hp: 100000.0
     id: 28575
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3039,6 +3258,7 @@ types:
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 8.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Damaged Sentinel Sansha:
@@ -3054,7 +3274,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 800.0
     entityarmorrepairduration: 20000
@@ -3074,10 +3296,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17857
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 85000.0
     id: 28573
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3113,6 +3337,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Damaged Sentinel Serpentis:
@@ -3128,7 +3353,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 800.0
     entityarmorrepairduration: 20000
@@ -3149,10 +3376,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17861
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 85000.0
     id: 28574
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3188,6 +3417,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Deficient Tower Sentry Sansha II:
@@ -3203,8 +3433,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -3220,11 +3452,13 @@ types:
     entitykillbounty: 5000
     entityreactionfactor: 1.0
     explosivedamage: 2.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 363
     hp: 1600.0
     id: 24772
     kineticdamage: 2.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3260,6 +3494,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Drone Cruise Missile Battery:
@@ -3275,7 +3510,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -3291,10 +3528,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 204
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 18031
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3329,6 +3568,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Drone Energy Neutralizer Sentry I:
@@ -3345,7 +3585,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -3361,10 +3603,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 27953
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -3400,6 +3644,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Drone Energy Neutralizer Sentry II:
@@ -3416,7 +3661,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -3432,10 +3679,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 27954
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -3471,6 +3720,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Drone Energy Neutralizer Sentry III:
@@ -3487,7 +3737,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -3503,10 +3755,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 27955
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -3542,6 +3796,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Drone Heavy Missile Battery:
@@ -3557,7 +3812,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -3573,10 +3830,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 209
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 18032
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3611,6 +3870,7 @@ types:
     speed: 2.0E7
     speedfactor: 0.25
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Drone Hive:
@@ -3626,7 +3886,9 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamountpersecond: 50.0
     entityarmorrepairduration: 10000
@@ -3646,11 +3908,13 @@ types:
     entitykillbounty: 76500
     entityreactionfactor: 1.0
     explosivedamage: 5.5
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 368
     hp: 3200.0
     id: 53084
     kineticdamage: 11.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3686,6 +3950,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 11.0
+    thermaldamageresonance: 1.0
     trackingspeed: 8.0
     volume: 1000.0
   Drone Light Missile Battery:
@@ -3701,7 +3966,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -3717,10 +3984,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 211
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 18033
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3755,6 +4024,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Drone Point Defense Battery:
@@ -3770,7 +4040,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -3786,10 +4058,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2514
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 18035
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3824,6 +4098,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Drone Stasis Tower:
@@ -3839,7 +4114,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -3854,10 +4131,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 27956
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3893,6 +4172,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Drone Wall Sentry Gun:
@@ -3908,8 +4188,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -3925,11 +4207,13 @@ types:
     entitykillbounty: 10000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 368
     hp: 400.0
     id: 18023
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -3965,7 +4249,238 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
+    volume: 1000.0
+  EDENCOM GunStar:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 25000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 10.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamage: 25.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityfactionloss: 6.337600061669946E-4
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entityreactionfactor: 1.0
+    explosivedamage: 25.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 497
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 15000.0
+    id: 54579
+    kineticdamage: 25.0
+    kineticdamageresonance: 1.0
+    maxattacktargets: 2
+    maxlockedtargets: 8
+    maxrange: 250000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: EDENCOM GunStar
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 247.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    shieldcapacity: 12000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 25.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 35.0
+    volume: 1000.0
+  EDENCOM Heavy GunStar:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 37500.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 20.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamage: 25.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityfactionloss: 6.337600061669946E-4
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entityreactionfactor: 1.0
+    explosivedamage: 25.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 20454
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 15000.0
+    id: 54580
+    kineticdamage: 25.0
+    kineticdamageresonance: 1.0
+    maxattacktargets: 2
+    maxlockedtargets: 8
+    maxrange: 250000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: EDENCOM Heavy GunStar
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 2222.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    shieldcapacity: 18000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 25.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 15.0
+    volume: 1000.0
+  Entropic Disintegrator Werpost:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 37500.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.800000011920929
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 0.800000011920929
+    damagemultiplierbonusmax: 2.0
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    disallowassistance: 1
+    emdamage: 250.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentgroupmax: 1
+    entityfactionloss: 6.337600061669946E-4
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entityreactionfactor: 1.0
+    explosivedamage: 250.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 47274
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 15000.0
+    id: 54577
+    kineticdamage: 250.0
+    kineticdamageresonance: 1.0
+    maxattacktargets: 2
+    maxlockedtargets: 8
+    maxrange: 250000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Entropic Disintegrator Werpost
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 1359.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    shieldcapacity: 18000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    speed: 5000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamage: 250.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 35.0
     volume: 1000.0
   Gala Missile Battery:
     aishoulduseeffectmultiplier: 1
@@ -3980,7 +4495,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -3996,10 +4513,12 @@ types:
     entitymissiletypeid: 206
     entityreactionfactor: 1.0
     explosivedamage: 30.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 50023
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4031,6 +4550,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Gallente Cruise Missile Battery:
@@ -4046,7 +4566,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4062,10 +4584,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 204
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17587
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4100,6 +4624,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Gallente Energy Neutralizer Sentry I:
@@ -4116,7 +4641,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -4132,10 +4659,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 27795
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -4171,6 +4700,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Gallente Energy Neutralizer Sentry II:
@@ -4187,7 +4717,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -4203,10 +4735,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 27796
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -4242,6 +4776,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Gallente Energy Neutralizer Sentry III:
@@ -4258,7 +4793,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -4274,10 +4811,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 27797
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -4313,6 +4852,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Gallente Heavy Missile Battery:
@@ -4328,7 +4868,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4344,10 +4886,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 209
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17586
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4382,6 +4926,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Gallente Light Missile Battery:
@@ -4397,7 +4942,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4413,10 +4960,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 211
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17585
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4451,6 +5000,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Gallente Point Defense Battery:
@@ -4466,7 +5016,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4482,10 +5034,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2514
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17584
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4520,6 +5074,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Gallente Sentry Gun - Training:
@@ -4535,8 +5090,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 9.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4552,11 +5109,13 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 3.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 367
     hp: 3200.0
     id: 22848
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4592,6 +5151,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 15.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Gallente Stasis Tower:
@@ -4607,7 +5167,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4622,10 +5184,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17608
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4661,6 +5225,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Guristas Annihilation Missile Battery:
@@ -4676,7 +5241,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 6.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4692,10 +5259,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 203
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 25626
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4730,6 +5299,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Guristas Annihilation Missile Battery_Uber:
@@ -4745,7 +5315,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 6.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4761,10 +5333,12 @@ types:
     entitykillbounty: 1000000
     entitymissiletypeid: 202
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 5000.0
     id: 26747
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4799,6 +5373,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.15000000596046448
     volume: 1000.0
   Guristas Basic Defense Battery:
@@ -4814,7 +5389,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.2999999523162842
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4830,10 +5407,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 266
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 24767
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4868,6 +5447,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Guristas Cruise Missile Batteries:
@@ -4883,7 +5463,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -4899,10 +5481,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 203
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17599
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -4937,6 +5521,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Guristas Energy Neutralizer Sentry I:
@@ -4953,7 +5538,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -4969,10 +5556,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 28141
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -5008,6 +5597,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Guristas Energy Neutralizer Sentry II:
@@ -5024,7 +5614,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -5040,10 +5632,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 28146
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -5079,6 +5673,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Guristas Energy Neutralizer Sentry III:
@@ -5095,7 +5690,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -5111,10 +5708,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 28151
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -5150,6 +5749,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Guristas Heavy Missile Battery:
@@ -5165,7 +5765,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5181,10 +5783,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 208
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17598
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5219,6 +5823,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Guristas Light Missile Battery:
@@ -5234,7 +5839,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5250,10 +5857,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 210
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17597
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5288,6 +5897,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Guristas Point Defense Battery:
@@ -5303,7 +5913,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5319,10 +5931,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 266
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17596
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5357,6 +5971,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Guristas Sentry Gun:
@@ -5372,8 +5987,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5389,11 +6006,13 @@ types:
     entitykillbounty: 20000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 368
     hp: 400.0
     id: 13068
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5429,6 +6048,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11335
     volume: 1000.0
@@ -5445,7 +6065,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5460,10 +6082,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17611
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5499,6 +6123,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   H-2874 Defense Sentinel:
@@ -5511,8 +6136,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 16.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 15.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5528,11 +6155,13 @@ types:
     entitykillbounty: 35000
     entityreactionfactor: 1.0
     explosivedamage: 15.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 366
     hp: 3200.0
     id: 25385
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5568,6 +6197,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 9.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Hive mother:
@@ -5583,8 +6213,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5600,11 +6232,13 @@ types:
     entitykillbounty: 100000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 368
     hp: 400.0
     id: 18000
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5640,6 +6274,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
   Hive mother 2:
@@ -5655,8 +6290,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5672,11 +6309,13 @@ types:
     entitykillbounty: 100000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 368
     hp: 400.0
     id: 18001
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5712,6 +6351,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
   Impaired Archive Sentry Tower:
@@ -5725,8 +6365,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 26.100000381469727
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 30.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5741,10 +6383,12 @@ types:
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 3758
     hp: 7500.0
     id: 34455
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5777,6 +6421,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.004999999888241291
     volume: 1000.0
   Inert Proximity-activated Autoturret:
@@ -5793,8 +6438,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 15.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 2
@@ -5809,10 +6456,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 70000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 100000.0
     gfxturretid: 3025
     hp: 7000.0
     id: 35663
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5847,6 +6496,7 @@ types:
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Minmatar Cruise Missile Battery:
@@ -5862,7 +6512,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -5878,10 +6530,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 204
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17579
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -5916,6 +6570,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Minmatar Energy Neutralizer Sentry I:
@@ -5932,7 +6587,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -5948,10 +6605,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 27798
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -5987,6 +6646,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Minmatar Energy Neutralizer Sentry II:
@@ -6003,7 +6663,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -6019,10 +6681,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 27799
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -6058,6 +6722,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Minmatar Energy Neutralizer Sentry III:
@@ -6074,7 +6739,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -6090,10 +6757,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 27800
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -6129,6 +6798,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Minmatar Heavy Missile Battery:
@@ -6144,7 +6814,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -6160,10 +6832,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 206
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17578
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -6198,6 +6872,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Minmatar Light Missile Battery:
@@ -6213,7 +6888,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -6229,10 +6906,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 213
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17577
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -6267,6 +6946,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Minmatar Point Defense Battery:
@@ -6282,7 +6962,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -6298,10 +6980,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2516
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17576
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -6336,6 +7020,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Minmatar Stasis Tower:
@@ -6351,7 +7036,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -6366,10 +7053,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17606
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -6405,6 +7094,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Minmatar Station Sentry:
@@ -6420,8 +7110,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 16.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 3.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -6437,11 +7129,13 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 15.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 379
     hp: 5200.0
     id: 25827
     kineticdamage: 9.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -6477,6 +7171,81 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.009999999776482582
+    volume: 1000.0
+  PLACEDHOLDER Triglavian Defense Platform XL:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 5000.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 10.0
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamage: 15.0
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 70000
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 367
+    hp: 7000.0
+    id: 54578
+    kineticdamageresonance: 1.0
+    maxattacktargets: 1
+    maxlockedtargets: 8
+    maxrange: 250000.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: PLACEDHOLDER Triglavian Defense Platform XL
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 371.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 400.0
+    speed: 3000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Proximity-activated Autoturret:
@@ -6492,8 +7261,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 10.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 15.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -6508,10 +7279,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 70000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 367
     hp: 7000.0
     id: 34873
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -6546,6 +7319,7 @@ types:
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Restless Sentry Tower:
@@ -6559,8 +7333,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 23.399999618530273
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 30.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -6575,10 +7351,12 @@ types:
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 3758
     hp: 5500.0
     id: 30462
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -6611,6 +7389,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
   Rewired Sentry Gun:
@@ -6622,7 +7401,9 @@ types:
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 15000
     entitybracketcolour: 2
@@ -6639,9 +7420,11 @@ types:
     entitylootcountmax: 10
     entitylootcountmin: 5
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 34437
+    kineticdamageresonance: 1.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -6664,6 +7447,7 @@ types:
     signatureradius: 100.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
   Sansha Cruise Missile Battery:
     aishoulduseeffectmultiplier: 1
     aishouldusesignatureradius: 1
@@ -6677,7 +7461,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -6693,10 +7479,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 202
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17583
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -6731,6 +7519,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sansha Energy Neutralizer Sentry I:
@@ -6747,7 +7536,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -6763,10 +7554,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 28142
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -6802,6 +7595,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Sansha Energy Neutralizer Sentry II:
@@ -6818,7 +7612,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -6834,10 +7630,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 28147
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -6873,6 +7671,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Sansha Energy Neutralizer Sentry III:
@@ -6889,7 +7688,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -6905,10 +7706,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 28152
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -6944,6 +7747,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Sansha Heavy Missile Battery:
@@ -6959,7 +7763,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -6975,10 +7781,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 207
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17582
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7013,6 +7821,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sansha Light Missile Battery:
@@ -7028,7 +7837,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -7044,10 +7855,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 212
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17581
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7082,6 +7895,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sansha Point Defense Battery:
@@ -7097,7 +7911,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -7113,10 +7929,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2514
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17580
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7151,6 +7969,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sansha Sentry Gun:
@@ -7166,8 +7985,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 4.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -7183,11 +8004,13 @@ types:
     entitykillbounty: 20000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 360
     hp: 400.0
     id: 13113
     kineticdamage: 1.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7223,6 +8046,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11349
     volume: 1000.0
@@ -7239,7 +8063,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -7254,10 +8080,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17607
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7293,6 +8121,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Secret Angel Facility:
@@ -7308,7 +8137,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 10000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -7327,10 +8158,12 @@ types:
     entitylootcountmax: 6
     entitylootcountmin: 3
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 26709
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7366,6 +8199,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1.0E8
   Sentinel Angel:
@@ -7381,7 +8215,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 20000
@@ -7401,10 +8237,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17863
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 250000.0
     id: 17875
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7440,6 +8278,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sentinel Bloodraider:
@@ -7455,7 +8294,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 20000
@@ -7475,10 +8316,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 202
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 250000.0
     id: 17638
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7514,6 +8357,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sentinel Chimera Strain Mother:
@@ -7529,8 +8373,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 25.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 4.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 10000
@@ -7549,11 +8395,13 @@ types:
     entitymissiletypeid: 17857
     entityreactionfactor: 1.0
     explosivedamage: 4.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 363
     hp: 250000.0
     id: 17878
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7590,6 +8438,7 @@ types:
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 8.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sentinel Gallente:
@@ -7605,7 +8454,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 20000
@@ -7625,10 +8476,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17861
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 250000.0
     id: 17880
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7664,6 +8517,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sentinel Jormungand Strain Mother:
@@ -7679,8 +8533,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 25.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 10000
@@ -7699,11 +8555,13 @@ types:
     entitymissiletypeid: 17861
     entityreactionfactor: 1.0
     explosivedamage: 4.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 250000.0
     id: 17879
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7740,6 +8598,7 @@ types:
     speedfactor: -75.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sentinel Sansha:
@@ -7755,7 +8614,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 20000
@@ -7775,10 +8636,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17857
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 250000.0
     id: 17876
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7814,6 +8677,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sentinel Serpentis:
@@ -7829,7 +8693,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 20000
@@ -7850,10 +8716,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17861
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 250000.0
     id: 17877
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -7889,6 +8757,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Sentry Tower:
@@ -7905,7 +8774,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -7921,10 +8792,12 @@ types:
     entitymissiletypeid: 204
     entityreactionfactor: 1.0
     entitysecuritystatuskillbonus: 0.009999999776482582
+    explosivedamageresonance: 1.0
     falloff: 5000.0
     gfxturretid: 372
     hp: 25.0
     id: 48594
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 5000.0
@@ -7959,6 +8832,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Serpentis Crash Storage Platform:
@@ -7974,7 +8848,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 10000
@@ -7996,10 +8872,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17861
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 250000.0
     id: 26856
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8035,6 +8913,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Serpentis Cruise Missile Battery:
@@ -8050,7 +8929,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -8066,10 +8947,12 @@ types:
     entitykillbounty: 55000
     entitymissiletypeid: 204
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17571
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8104,6 +8987,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Serpentis Energy Neutralizer Sentry I:
@@ -8120,7 +9004,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 50.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -8136,10 +9022,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1600.0
     id: 28143
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 50000.0
@@ -8175,6 +9063,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Serpentis Energy Neutralizer Sentry II:
@@ -8191,7 +9080,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 100.0
     energyneutralizerduration: 5000
     energyneutralizerentitychance: 1.0
@@ -8207,10 +9098,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 358
     hp: 6400.0
     id: 28148
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -8246,6 +9139,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Serpentis Energy Neutralizer Sentry III:
@@ -8262,7 +9156,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 400.0
     energyneutralizerduration: 10000
     energyneutralizerentitychance: 1.0
@@ -8278,10 +9174,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxturretid: 358
     hp: 25600.0
     id: 28153
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -8317,6 +9215,7 @@ types:
     speed: 4000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 1000.0
   Serpentis Exile Storage Platform:
@@ -8332,7 +9231,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 10000
@@ -8354,10 +9255,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17861
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 250000.0
     id: 26857
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8393,6 +9296,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Serpentis Heavy Missile Battery:
@@ -8408,7 +9312,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -8424,10 +9330,12 @@ types:
     entitykillbounty: 40000
     entitymissiletypeid: 209
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17570
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8462,6 +9370,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Serpentis Light Missile Battery:
@@ -8477,7 +9386,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -8493,10 +9404,12 @@ types:
     entitykillbounty: 25000
     entitymissiletypeid: 211
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 18034
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8531,6 +9444,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Serpentis Mindflood Storage Platform:
@@ -8546,7 +9460,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityarmorrepairamount: 5000.0
     entityarmorrepairduration: 10000
@@ -8568,10 +9484,12 @@ types:
     entitylootcountmin: 4
     entitymissiletypeid: 17861
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 250000.0
     id: 26858
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8607,6 +9525,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Serpentis Point Defense Battery:
@@ -8622,7 +9541,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -8638,10 +9559,12 @@ types:
     entitykillbounty: 10000
     entitymissiletypeid: 2514
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17568
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8676,6 +9599,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Serpentis Sentry Gun:
@@ -8691,8 +9615,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -8708,11 +9634,13 @@ types:
     entitykillbounty: 20000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 374
     hp: 400.0
     id: 13115
     kineticdamage: 4.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8748,6 +9676,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 4.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     typecolorscheme: 11351
     volume: 1000.0
@@ -8764,7 +9693,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -8779,10 +9710,12 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 35000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17163
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8818,6 +9751,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Siege Artillery Sentry:
@@ -8833,8 +9767,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 40.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 3.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -8850,11 +9786,13 @@ types:
     entitykillbounty: 350000
     entityreactionfactor: 1.0
     explosivedamage: 15.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 2750
     hp: 32000.0
     id: 21744
     kineticdamage: 9.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8890,6 +9828,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Siege Autocannon Sentry:
@@ -8905,8 +9844,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 40.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 3.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -8922,11 +9863,13 @@ types:
     entitykillbounty: 350000
     entityreactionfactor: 1.0
     explosivedamage: 9.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 2749
     hp: 32000.0
     id: 21745
     kineticdamage: 15.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -8962,6 +9905,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 3.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Siege Beam Laser Sentry:
@@ -8977,8 +9921,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 40.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 9.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -8994,11 +9940,13 @@ types:
     entitykillbounty: 350000
     entityreactionfactor: 1.0
     explosivedamage: 3.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 2750
     hp: 32000.0
     id: 21746
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9034,6 +9982,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 15.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Siege Blaster Sentry:
@@ -9049,8 +9998,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 40.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 3.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9066,11 +10017,13 @@ types:
     entitykillbounty: 350000
     entityreactionfactor: 1.0
     explosivedamage: 3.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 2747
     hp: 32000.0
     id: 21749
     kineticdamage: 9.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9106,6 +10059,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 15.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Siege Pulse Laser Sentry:
@@ -9121,8 +10075,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 40.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 15.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9138,11 +10094,13 @@ types:
     entitykillbounty: 350000
     entityreactionfactor: 1.0
     explosivedamage: 3.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 2746
     hp: 32000.0
     id: 21747
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9178,6 +10136,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 9.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Siege Railgun Sentry:
@@ -9193,8 +10152,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 40.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 3.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9210,11 +10171,13 @@ types:
     entitykillbounty: 350000
     entityreactionfactor: 1.0
     explosivedamage: 3.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 2748
     hp: 32000.0
     id: 21748
     kineticdamage: 15.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9250,6 +10213,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 9.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Station Sentry 9F:
@@ -9265,8 +10229,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 15.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 10.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9282,11 +10248,13 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 3.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 364
     hp: 5200.0
     id: 25840
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9322,6 +10290,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 19.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   TEST Cap Drain Sentry:
@@ -9335,8 +10304,10 @@ types:
     capacitorcapacity: 7000.0
     capacity: 235.0
     damagemultiplier: 3.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 20.0
+    emdamageresonance: 1.0
     energyneutralizeramount: 200.0
     energyneutralizerduration: 100
     energyneutralizerentitychance: 1.0
@@ -9355,10 +10326,12 @@ types:
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 25000.0
     gfxturretid: 358
     hp: 1250.0
     id: 25817
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 500000.0
@@ -9390,6 +10363,7 @@ types:
     speed: 10000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.4000000059604645
     volume: 60.0
   TEST ICON Amarr Carrier:
@@ -9403,7 +10377,9 @@ types:
     capacitorcapacity: 3700.0
     capacity: 3300.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizeramount: 1000.0
     energyneutralizerduration: 30000
     energyneutralizerentitychance: 0.5
@@ -9432,11 +10408,13 @@ types:
     entitymissiletypeid: 203
     entityreactionfactor: 0.8399999737739563
     entitysecuritymaxgain: 5.0
+    explosivedamageresonance: 1.0
     falloff: 75000.0
     gfxboosterid: 397
     gfxturretid: 364
     hp: 137500.0
     id: 27765
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 1
     maxrange: 100000.0
@@ -9471,6 +10449,7 @@ types:
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.013920499943196774
     volume: 1.395E7
   Tower Basic Sentry Angel:
@@ -9486,8 +10465,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9503,11 +10484,13 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 5.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 381
     hp: 50.0
     id: 27282
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9543,6 +10526,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Basic Sentry Bloodraider:
@@ -9558,8 +10542,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 16.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9575,11 +10561,13 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 16.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 362
     hp: 50.0
     id: 27283
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9615,6 +10603,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 5.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Basic Sentry Guristas:
@@ -9630,8 +10619,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.25
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9647,11 +10638,13 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 368
     hp: 50.0
     id: 27284
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9687,6 +10680,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 5.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Basic Sentry Serpentis:
@@ -9702,8 +10696,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9719,11 +10715,13 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 369
     hp: 50.0
     id: 27285
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9759,6 +10757,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 5.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Missile Battery Serpentis I:
@@ -9774,7 +10773,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9790,10 +10791,12 @@ types:
     entitykillbounty: 30000
     entitymissiletypeid: 210
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 372
     hp: 800.0
     id: 17164
+    kineticdamageresonance: 1.0
     maxattacktargets: 3
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9828,6 +10831,7 @@ types:
     speed: 2.0E7
     speedfactor: -75.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Amarr I:
@@ -9843,8 +10847,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9860,10 +10866,12 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 362
     hp: 800.0
     id: 17160
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9899,6 +10907,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Amarr II:
@@ -9914,8 +10923,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -9931,10 +10942,12 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 363
     hp: 1600.0
     id: 17161
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -9970,6 +10983,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Amarr III:
@@ -9985,8 +10999,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10002,10 +11018,12 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 364
     hp: 3200.0
     id: 16739
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10041,6 +11059,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Ammatar I:
@@ -10056,8 +11075,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 150000
     entitybracketcolour: 1
@@ -10073,10 +11094,12 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 362
     hp: 800.0
     id: 19668
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 40000.0
@@ -10112,6 +11135,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Ammatar II:
@@ -10127,8 +11151,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 150000
     entitybracketcolour: 1
@@ -10144,10 +11170,12 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 363
     hp: 1600.0
     id: 19669
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 60000.0
@@ -10183,6 +11211,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Ammatar III:
@@ -10198,8 +11227,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 150000
     entitybracketcolour: 1
@@ -10215,10 +11246,12 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 364
     hp: 3200.0
     id: 19670
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 100000.0
@@ -10254,6 +11287,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Angel I:
@@ -10269,8 +11303,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10286,11 +11322,13 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 381
     hp: 800.0
     id: 17147
     kineticdamage: 6.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10325,6 +11363,7 @@ types:
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Angel II:
@@ -10340,8 +11379,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10357,11 +11398,13 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 380
     hp: 1600.0
     id: 17146
     kineticdamage: 6.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10396,6 +11439,7 @@ types:
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Angel III:
@@ -10411,8 +11455,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10428,11 +11474,13 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 379
     hp: 3200.0
     id: 16740
     kineticdamage: 6.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10467,6 +11515,7 @@ types:
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Bloodraider I:
@@ -10482,8 +11531,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10499,10 +11550,12 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 362
     hp: 800.0
     id: 17145
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10538,6 +11591,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Bloodraider II:
@@ -10553,8 +11607,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10570,10 +11626,12 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 363
     hp: 1600.0
     id: 17144
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10609,6 +11667,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Bloodraider III:
@@ -10624,8 +11683,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10641,10 +11702,12 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 364
     hp: 3200.0
     id: 16741
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10680,6 +11743,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Caldari I:
@@ -10695,8 +11759,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10711,11 +11777,13 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 30000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 368
     hp: 800.0
     id: 17149
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10751,6 +11819,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Caldari II:
@@ -10766,8 +11835,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10782,11 +11853,13 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 50000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 366
     hp: 1600.0
     id: 17148
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10822,6 +11895,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Caldari III:
@@ -10837,8 +11911,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10853,11 +11929,13 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 70000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 366
     hp: 3200.0
     id: 16742
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10893,6 +11971,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Drone I:
@@ -10908,7 +11987,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10924,11 +12005,13 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 369
     hp: 800.0
     id: 18028
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -10964,6 +12047,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Drone II:
@@ -10979,7 +12063,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -10995,11 +12081,13 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 365
     hp: 1600.0
     id: 18027
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11035,6 +12123,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Drone III:
@@ -11050,7 +12139,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11066,11 +12157,13 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 367
     hp: 3200.0
     id: 18026
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11106,6 +12199,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Gallente I:
@@ -11121,7 +12215,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11137,11 +12233,13 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 369
     hp: 800.0
     id: 17151
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11177,6 +12275,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Gallente II:
@@ -11192,7 +12291,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11208,11 +12309,13 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 365
     hp: 1600.0
     id: 17150
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11248,6 +12351,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Gallente III:
@@ -11263,7 +12367,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11279,11 +12385,13 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 367
     hp: 3200.0
     id: 16743
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11319,6 +12427,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Guristas I:
@@ -11334,8 +12443,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11350,11 +12461,13 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 30000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 368
     hp: 800.0
     id: 17152
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11390,6 +12503,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Guristas II:
@@ -11405,8 +12519,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11421,11 +12537,13 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 50000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 366
     hp: 1600.0
     id: 17153
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11461,6 +12579,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Guristas III:
@@ -11476,8 +12595,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11492,11 +12613,13 @@ types:
     entitygrouprespawnchance: 1
     entitykillbounty: 70000
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 366
     hp: 3200.0
     id: 16744
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11532,6 +12655,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Guristas III_buffed:
@@ -11547,8 +12671,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 12.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 12.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11564,11 +12690,13 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 3.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 366
     hp: 3200.0
     id: 25706
     kineticdamage: 3.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11604,6 +12732,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 15.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Minmatar I:
@@ -11619,8 +12748,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11636,11 +12767,13 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 381
     hp: 800.0
     id: 17155
     kineticdamage: 6.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11675,6 +12808,7 @@ types:
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Minmatar II:
@@ -11690,8 +12824,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11707,11 +12843,13 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 380
     hp: 1600.0
     id: 17154
     kineticdamage: 6.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11746,6 +12884,7 @@ types:
     speed: 2500.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Minmatar III:
@@ -11761,8 +12900,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 1.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11778,11 +12919,13 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 8.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 379
     hp: 3200.0
     id: 16745
     kineticdamage: 6.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11817,6 +12960,7 @@ types:
     speed: 3000.0
     speedfactor: 1.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Sansha I:
@@ -11832,8 +12976,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11849,10 +12995,12 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 362
     hp: 800.0
     id: 17157
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11888,6 +13036,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Sansha II:
@@ -11903,8 +13052,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11920,10 +13071,12 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 363
     hp: 1600.0
     id: 17156
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -11959,6 +13112,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Sansha III:
@@ -11974,8 +13128,10 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 8.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -11991,10 +13147,12 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 364
     hp: 3200.0
     id: 16746
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -12030,6 +13188,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Tower Sentry Serpentis I:
@@ -12045,7 +13204,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 2.5
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -12061,11 +13222,13 @@ types:
     entitykillbounty: 30000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 369
     hp: 800.0
     id: 17159
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -12101,6 +13264,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.03999999910593033
     volume: 1000.0
   Tower Sentry Serpentis II:
@@ -12116,7 +13280,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 4.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -12132,11 +13298,13 @@ types:
     entitykillbounty: 50000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 365
     hp: 1600.0
     id: 17158
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -12172,6 +13340,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.019999999552965164
     volume: 1000.0
   Tower Sentry Serpentis III:
@@ -12187,7 +13356,9 @@ types:
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 8.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -12203,11 +13374,13 @@ types:
     entitykillbounty: 70000
     entityreactionfactor: 1.0
     explosivedamage: 1.0
+    explosivedamageresonance: 1.0
     falloff: 50000.0
     gfxturretid: 367
     hp: 3200.0
     id: 16747
     kineticdamage: 8.0
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -12243,6 +13416,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 6.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
   Vigilant Sentry Tower:
@@ -12256,8 +13430,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 13.0
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 30.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -12272,10 +13448,12 @@ types:
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 3758
     hp: 2500.0
     id: 30460
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -12308,6 +13486,7 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0
   Wakeful Sentry Tower:
@@ -12321,8 +13500,10 @@ types:
     capacitorcapacity: 250.0
     capacity: 1000.0
     damagemultiplier: 18.200000762939453
+    damagemultiplierbonusmax: 0.5
     disallowassistance: 1
     emdamage: 30.0
+    emdamageresonance: 1.0
     energyneutralizerduration: 30000
     entityattackrange: 250000
     entitybracketcolour: 1
@@ -12337,10 +13518,12 @@ types:
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
     entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
     falloff: 10000.0
     gfxturretid: 3758
     hp: 3500.0
     id: 30461
+    kineticdamageresonance: 1.0
     maxattacktargets: 1
     maxlockedtargets: 8
     maxrange: 250000.0
@@ -12373,5 +13556,6 @@ types:
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamage: 30.0
+    thermaldamageresonance: 1.0
     trackingspeed: 0.02500000037252903
     volume: 1000.0

@@ -22,7 +22,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 import org.yaml.snakeyaml.Yaml;
 
-public class ArmorReinforcerBlueprint
+public class ArmorPlateBlueprint
     extends Blueprint
 {
     /**
@@ -62,7 +62,7 @@ public class ArmorReinforcerBlueprint
     @DefaultIntValue(1)
     public int techlevel;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE })));
-    public static final ArmorReinforcerBlueprint.MetaGroup METAGROUP = new ArmorReinforcerBlueprint.MetaGroup();
+    public static final ArmorPlateBlueprint.MetaGroup METAGROUP = new ArmorPlateBlueprint.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
@@ -100,18 +100,18 @@ public class ArmorReinforcerBlueprint
     }
 
     @Override
-    public IMetaGroup<ArmorReinforcerBlueprint> getGroup() {
+    public IMetaGroup<ArmorPlateBlueprint> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<ArmorReinforcerBlueprint>
+        implements IMetaGroup<ArmorPlateBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/types/blueprint/ArmorReinforcerBlueprint.yaml";
-        private Map<String, ArmorReinforcerBlueprint> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/ArmorPlateBlueprint.yaml";
+        private Map<String, ArmorPlateBlueprint> cache = (null);
 
         @Override
-        public IMetaCategory<? super ArmorReinforcerBlueprint> category() {
+        public IMetaCategory<? super ArmorPlateBlueprint> category() {
             return Blueprint.METACAT;
         }
 
@@ -122,13 +122,13 @@ public class ArmorReinforcerBlueprint
 
         @Override
         public String getName() {
-            return "ArmorReinforcerBlueprint";
+            return "ArmorPlateBlueprint";
         }
 
         @Override
-        public synchronized Map<String, ArmorReinforcerBlueprint> load() {
+        public synchronized Map<String, ArmorPlateBlueprint> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(ArmorReinforcerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(ArmorPlateBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -138,7 +138,7 @@ public class ArmorReinforcerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorReinforcerBlueprint> types;
+            public LinkedHashMap<String, ArmorPlateBlueprint> types;
         }
     }
 }

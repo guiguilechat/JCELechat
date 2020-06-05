@@ -6,6 +6,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -57,6 +58,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -108,6 +110,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -159,6 +162,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -210,6 +214,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -261,6 +266,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -312,6 +318,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -360,6 +367,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -408,6 +416,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -456,6 +465,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -507,6 +517,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -558,6 +569,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -609,6 +621,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -657,6 +670,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -708,6 +722,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -759,6 +774,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -810,6 +826,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -861,6 +878,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -912,6 +930,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -963,6 +982,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1014,6 +1034,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1065,6 +1086,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1116,6 +1138,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1167,6 +1190,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1218,6 +1242,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1269,6 +1294,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -1317,6 +1343,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1368,6 +1395,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1419,6 +1447,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1470,6 +1499,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1521,6 +1551,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1572,6 +1603,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1623,6 +1655,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1674,6 +1707,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1725,6 +1759,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -1773,6 +1808,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1824,6 +1860,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1875,6 +1912,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1926,6 +1964,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -1977,6 +2016,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2028,6 +2068,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2079,6 +2120,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2130,6 +2172,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2181,6 +2224,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2232,6 +2276,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2283,6 +2328,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2334,6 +2380,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2385,6 +2432,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2436,6 +2484,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2487,6 +2536,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2542,6 +2592,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2593,6 +2644,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2644,6 +2696,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2695,6 +2748,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2746,6 +2800,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2797,6 +2852,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -2847,6 +2903,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -2897,6 +2954,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2948,6 +3006,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -2999,6 +3058,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3050,6 +3110,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3101,6 +3162,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3152,6 +3214,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3203,6 +3266,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3254,6 +3318,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -3304,6 +3369,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3355,6 +3421,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3406,6 +3473,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3457,6 +3525,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3508,6 +3577,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3559,6 +3629,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3610,6 +3681,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3661,6 +3733,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3712,6 +3785,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3763,6 +3837,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3814,6 +3889,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3865,6 +3941,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3916,6 +3993,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -3967,6 +4045,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4018,6 +4097,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4069,6 +4149,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4120,6 +4201,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4171,6 +4253,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4222,6 +4305,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4273,6 +4357,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4324,6 +4409,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4375,6 +4461,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4426,6 +4513,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4477,6 +4565,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4528,6 +4617,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4579,6 +4669,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4630,6 +4721,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4681,6 +4773,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4732,6 +4825,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4783,6 +4877,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4832,6 +4927,7 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     ecmduration: 30000
     emdamageresonance: 1.0
@@ -4872,6 +4968,7 @@ types:
     armorhp: 1200000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
     ecmduration: 30000
@@ -4918,6 +5015,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -4969,6 +5067,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5020,6 +5119,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5071,6 +5171,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5122,6 +5223,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5173,6 +5275,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5224,6 +5327,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5275,6 +5379,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5326,6 +5431,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5377,6 +5483,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5428,6 +5535,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5479,6 +5587,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5530,6 +5639,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5581,6 +5691,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -5629,6 +5740,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -5677,6 +5789,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5728,6 +5841,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5779,6 +5893,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5830,6 +5945,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5881,6 +5997,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5932,6 +6049,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -5983,6 +6101,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6034,6 +6153,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6085,6 +6205,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6136,6 +6257,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -6184,6 +6306,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -6232,6 +6355,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -6278,6 +6402,7 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -6322,6 +6447,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6375,6 +6501,7 @@ types:
     behaviorsensordampenerdischarge: 7.0
     behaviorsensordampenerduration: 5000
     behaviorsensordampenerrange: 30000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.0
@@ -6432,6 +6559,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6476,6 +6604,55 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Dazh Porevitium Transmuter:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 1200000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacity: 1000.0
+    damagemultiplier: 1.0
+    ecmduration: 30000
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    entitytargetjam: 1
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 450000.0
+    id: 54316
+    kineticdamageresonance: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Dazh Porevitium Transmuter
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 71387.0
+    shieldcapacity: 250000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
   Deactivated Acceleration Gate:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -6483,6 +6660,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6534,6 +6712,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6585,6 +6764,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 20000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6634,6 +6814,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6685,6 +6866,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6736,6 +6918,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6787,6 +6970,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6838,6 +7022,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6889,6 +7074,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6940,6 +7126,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -6991,6 +7178,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7042,6 +7230,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7093,6 +7282,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7144,6 +7334,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7195,6 +7386,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7246,6 +7438,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7297,6 +7490,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7348,6 +7542,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7399,6 +7594,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7450,6 +7646,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7501,6 +7698,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7552,6 +7750,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -7600,6 +7799,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -7648,6 +7848,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -7696,6 +7897,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -7746,6 +7948,7 @@ types:
     behaviorecmdischarge: 7.0
     behaviorecmduration: 5
     behaviorecmrange: 10000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.0
@@ -7803,6 +8006,55 @@ types:
     thermaldamageresonance: 1.0
     volume: 1000.0
     warpscrambleduration: 8000
+  EDENCOM Stockpile Tenshu:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 1200000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacity: 1000.0
+    damagemultiplier: 1.0
+    ecmduration: 30000
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    entitytargetjam: 1
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 450000.0
+    id: 54574
+    kineticdamageresonance: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: EDENCOM Stockpile Tenshu
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 8785.0
+    shieldcapacity: 250000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 1000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
   Empty Station Battery:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -7810,6 +8062,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7862,6 +8115,7 @@ types:
     armorthermaldamageresonance: 1.0
     behaviorsmartbombdischarge: 7
     behaviorsmartbombduration: 10000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.0
@@ -7919,6 +8173,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -7970,6 +8225,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8014,6 +8270,70 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Extractive Super-Nexus:
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.5
+    armorhp: 550000.0
+    armorkineticdamageresonance: 0.5
+    armorthermaldamageresonance: 0.5
+    behaviorminingamount: 23.5
+    behaviorminingdischarge: 5
+    behaviorminingduration: 30000
+    behaviorminingmaxrange: 300000
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacitorcapacity: 20000.0
+    capacity: 1000000.0
+    damagemultiplier: 1.0
+    ecmduration: 30000
+    emdamageresonance: 0.5
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityfactionloss: 0.009506399743258953
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    entitytargetjam: 1
+    explosivedamageresonance: 0.5
+    falloff: 1.0
+    gfxturretid: 54658
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 450000.0
+    id: 54576
+    kineticdamageresonance: 0.5
+    maxlockedtargets: 10
+    maxtargetrange: 300000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Extractive Super-Nexus
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 2500.0
+    rechargerate: 2320000.0
+    scangravimetricstrength: 1000.0
+    scanladarstrength: 1000.0
+    scanmagnetometricstrength: 1000.0
+    scanradarstrength: 1000.0
+    scanresolution: 500.0
+    shieldcapacity: 250000.0
+    shieldemdamageresonance: 0.5
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 0.5
+    signatureradius: 1000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.5
+    volume: 1000.0
+    warpscrambleduration: 8000
   Extremely Powerful EM Forcefield:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -8021,6 +8341,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8073,6 +8394,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8124,6 +8446,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -8172,6 +8495,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8218,6 +8542,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8264,6 +8589,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8310,6 +8636,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8356,6 +8683,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8402,6 +8730,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8448,6 +8777,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8499,6 +8829,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8550,6 +8881,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8601,6 +8933,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8652,6 +8985,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8703,6 +9037,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8754,6 +9089,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8805,6 +9141,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8856,6 +9193,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -8907,6 +9245,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -8955,6 +9294,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9006,6 +9346,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9057,6 +9398,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9108,6 +9450,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9159,6 +9502,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9210,6 +9554,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -9258,6 +9603,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -9306,6 +9652,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -9354,6 +9701,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -9402,6 +9750,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -9450,6 +9799,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9501,6 +9851,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9552,6 +9903,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9603,6 +9955,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9654,6 +10007,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9705,6 +10059,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9756,6 +10111,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9807,6 +10163,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9857,6 +10214,7 @@ types:
     armorhp: 5000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9908,6 +10266,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -9959,6 +10318,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10010,6 +10370,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10061,6 +10422,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10112,6 +10474,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10163,6 +10526,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10214,6 +10578,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10265,6 +10630,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10316,6 +10682,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10367,6 +10734,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10418,6 +10786,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10469,6 +10838,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10520,6 +10890,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10571,6 +10942,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10622,6 +10994,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10673,6 +11046,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10724,6 +11098,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10775,6 +11150,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10826,6 +11202,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10877,6 +11254,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10928,6 +11306,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -10979,6 +11358,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11030,6 +11410,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11081,6 +11462,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11132,6 +11514,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11183,6 +11566,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11234,6 +11618,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11285,6 +11670,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11336,6 +11722,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11387,6 +11774,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11438,6 +11826,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11482,6 +11871,69 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Jariloz Semiotic Suppressor:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 30000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviorecmdischarge: 20.0
+    behaviorecmduration: 5000
+    behaviorecmfalloff: 2000.0
+    behaviorecmrange: 8000
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    ecmduration: 30000
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 1000000
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    entitytargetjam: 1
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxturretid: 372
+    hp: 2500.0
+    id: 54198
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 20
+    maxtargetrange: 15000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Jariloz Semiotic Suppressor
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 371.0
+    rechargerate: 10.0
+    scangravimetricstrength: 15.0
+    scangravimetricstrengthbonus: 5.800000190734863
+    scanladarstrengthbonus: 5.800000190734863
+    scanmagnetometricstrengthbonus: 5.800000190734863
+    scanradarstrengthbonus: 5.800000190734863
+    scanresolution: 3000.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 260.0
+    speedfactor: -50.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
   Landing Pad:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -11489,6 +11941,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11540,6 +11993,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11590,6 +12044,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11641,6 +12096,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 2500000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11692,6 +12148,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11743,6 +12200,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11794,6 +12252,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11845,6 +12304,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -11897,6 +12357,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1000.0
     capacity: 7250.0
     damagemultiplier: 20.0
@@ -11963,6 +12424,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -12013,6 +12475,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12064,6 +12527,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12115,6 +12579,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12166,6 +12631,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12217,6 +12683,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12268,6 +12735,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12319,6 +12787,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12370,6 +12839,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12421,6 +12891,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12472,6 +12943,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12523,6 +12995,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12574,6 +13047,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -12622,6 +13096,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12673,6 +13148,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12724,6 +13200,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12775,6 +13252,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -12823,6 +13301,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -12871,6 +13350,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12922,6 +13402,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -12973,6 +13454,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13024,6 +13506,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13075,6 +13558,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13126,6 +13610,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13170,6 +13655,126 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Moroz Enthalpic Inhibitor:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 30000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviorenergyneutralizerdischarge: 10.0
+    behaviorenergyneutralizerduration: 5000
+    behaviorenergyneutralizerfalloff: 2000
+    behaviorenergyneutralizerrange: 8000
+    behaviormicrojumpattackdischarge: 7
+    behaviormicrojumpattackrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    ecmduration: 30000
+    emdamageresonance: 1.0
+    energyneutralizeramount: 800.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 1000000
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    entitytargetjam: 1
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxturretid: 372
+    hp: 2500.0
+    id: 54197
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 20
+    maxtargetrange: 15000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Moroz Enthalpic Inhibitor
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 371.0
+    rechargerate: 10.0
+    scangravimetricstrength: 15.0
+    scanresolution: 3000.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 260.0
+    speedfactor: -50.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
+  Nemiz Pulse Destructor:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 30000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviorsmartbombdischarge: 7
+    behaviorsmartbombduration: 5000
+    behaviorsmartbombentitydamagemultiplier: 0.25
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    ecmduration: 30000
+    emdamageresonance: 1.0
+    empfieldrange: 10000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 1000000
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    entitytargetjam: 1
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxturretid: 372
+    hp: 2500.0
+    id: 53838
+    kineticdamageresonance: 1.0
+    maxtargetrange: 15000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Nemiz Pulse Destructor
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 371.0
+    rechargerate: 10.0
+    scangravimetricstrength: 15.0
+    scanresolution: 3000.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 260.0
+    speedfactor: -50.0
+    structureuniformity: 1.0
+    thermaldamage: 500.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
   Occupied Amarr Bunker:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -13177,6 +13782,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13228,6 +13834,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13277,6 +13884,7 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     ecmduration: 30000
     emdamageresonance: 1.0
@@ -13311,120 +13919,51 @@ types:
     thermaldamageresonance: 1.0
     volume: 1000.0
     warpscrambleduration: 8000
-  PLACEHOLDER Just the place for a snark:
+  PLACEHOLDER Snark:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
-    armorhp: 80000.0
+    armorhp: 1200000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
-    behaviormicrojumpattackdischarge: 7
-    behaviormicrojumpattackduration: 3000
-    behaviormicrojumpattackjumpdistance: 75000
-    behaviormicrojumpattackrange: 30000
-    capacitorcapacity: 1000.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
-    disallowassistance: 1
     ecmduration: 30000
     emdamageresonance: 1.0
     entityattackrange: 15000
-    entitybracketcolour: 1
     entitychasemaxdelay: 5000
     entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 1000000
+    entitychasemaxdistance: 2500
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
-    entityequipmentmax: 3
+    entityequipmentmax: 1
+    entityequipmentmin: 1
     entityflyrange: 500.0
     entityreactionfactor: 1.0
     entitytargetjam: 1
     explosivedamageresonance: 1.0
     falloff: 1.0
-    gfxturretid: 372
-    hp: 10000.0
-    id: 53836
+    hp: 450000.0
+    id: 54575
     kineticdamageresonance: 1.0
-    maxlockedtargets: 20
-    maxtargetrange: 30000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
-    name: PLACEHOLDER Just the place for a snark
+    name: PLACEHOLDER Snark
     optimalsigradius: 1000
     packagedVolume: 1000.0
     portionSize: 1
     published: false
     radius: 371.0
-    rechargerate: 10.0
-    scangravimetricstrength: 15.0
-    scanresolution: 3000.0
-    shieldcapacity: 40000.0
+    shieldcapacity: 250000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 625000.0
+    shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
-    signatureradius: 260.0
-    speedfactor: -50.0
+    signatureradius: 1000.0
+    speedfactor: 1.0
     structureuniformity: 1.0
-    thermaldamageresonance: 1.0
-    volume: 1000.0
-    warpscrambleduration: 8000
-  PLACEHOLDER That alone should encourage the crew:
-    armoremdamageresonance: 1.0
-    armorexplosivedamageresonance: 1.0
-    armorhp: 80000.0
-    armorkineticdamageresonance: 1.0
-    armorthermaldamageresonance: 1.0
-    behaviorsmartbombdischarge: 7
-    behaviorsmartbombduration: 10000
-    capacitorcapacity: 1000.0
-    capacity: 1000.0
-    damagemultiplier: 1.0
-    disallowassistance: 1
-    ecmduration: 30000
-    emdamageresonance: 1.0
-    empfieldrange: 30000
-    entityattackrange: 15000
-    entitybracketcolour: 1
-    entitychasemaxdelay: 5000
-    entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 1000000
-    entitychasemaxduration: 5000
-    entitychasemaxdurationchance: 1.0
-    entityequipmentgroupmax: 1
-    entityequipmentmax: 3
-    entityflyrange: 500.0
-    entityreactionfactor: 1.0
-    entitytargetjam: 1
-    explosivedamageresonance: 1.0
-    falloff: 1.0
-    gfxturretid: 372
-    hp: 10000.0
-    id: 53838
-    kineticdamageresonance: 1.0
-    maxtargetrange: 30000.0
-    missileentityflighttimemultiplier: 1.0
-    missileentityvelocitymultiplier: 1.0
-    name: PLACEHOLDER That alone should encourage the crew
-    optimalsigradius: 1000
-    packagedVolume: 1000.0
-    portionSize: 1
-    published: false
-    radius: 371.0
-    rechargerate: 10.0
-    scangravimetricstrength: 15.0
-    scanresolution: 3000.0
-    shieldcapacity: 40000.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 1.0
-    shieldkineticdamageresonance: 1.0
-    shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 1.0
-    signatureradius: 260.0
-    speedfactor: -50.0
-    structureuniformity: 1.0
-    thermaldamage: 250.0
     thermaldamageresonance: 1.0
     volume: 1000.0
     warpscrambleduration: 8000
@@ -13435,6 +13974,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13486,6 +14026,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13537,6 +14078,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -13585,6 +14127,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13629,6 +14172,65 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Pohviz Spatial Displacer:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 30000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    behaviormicrojumpattackdischarge: 7
+    behaviormicrojumpattackduration: 5000
+    behaviormicrojumpattackjumpdistance: 75000
+    behaviormicrojumpattackrange: 10000
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 1.0
+    disallowassistance: 1
+    ecmduration: 30000
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 1000000
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    entitytargetjam: 1
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxturretid: 372
+    hp: 2500.0
+    id: 53836
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 20
+    maxtargetrange: 15000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Pohviz Spatial Displacer
+    optimalsigradius: 1000
+    packagedVolume: 1000.0
+    portionSize: 1
+    published: false
+    radius: 371.0
+    rechargerate: 10.0
+    scangravimetricstrength: 15.0
+    scanresolution: 3000.0
+    shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 260.0
+    speedfactor: -50.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 1000.0
+    warpscrambleduration: 8000
   Power Generator:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -13636,6 +14238,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13687,6 +14290,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13738,6 +14342,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13790,6 +14395,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13841,6 +14447,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13892,6 +14499,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13943,6 +14551,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -13994,6 +14603,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14045,6 +14655,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14096,6 +14707,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14147,6 +14759,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14198,6 +14811,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14249,6 +14863,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -14299,6 +14914,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14350,6 +14966,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14401,6 +15018,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10250.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14452,6 +15070,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14503,6 +15122,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 7250.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14554,6 +15174,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14605,6 +15226,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14656,6 +15278,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14707,6 +15330,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14758,6 +15382,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14809,6 +15434,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14860,6 +15486,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14911,6 +15538,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -14962,6 +15590,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15013,6 +15642,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15064,6 +15694,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15115,6 +15746,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15166,6 +15798,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15217,6 +15850,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15268,6 +15902,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15319,6 +15954,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -15366,6 +16002,7 @@ types:
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15417,6 +16054,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15468,6 +16106,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15518,6 +16157,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15569,6 +16209,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15620,6 +16261,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15671,6 +16313,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15722,6 +16365,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15773,6 +16417,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15824,6 +16469,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15875,6 +16521,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -15926,6 +16573,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -15974,6 +16622,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16025,6 +16674,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16076,6 +16726,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16127,6 +16778,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16178,6 +16830,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16229,6 +16882,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16280,6 +16934,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16331,6 +16986,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16382,6 +17038,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16433,6 +17090,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16484,6 +17142,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16535,6 +17194,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -16585,6 +17245,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -16635,6 +17296,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -16685,6 +17347,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -16735,6 +17398,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 1.55E8
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16786,6 +17450,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 200000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16837,6 +17502,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -16887,6 +17553,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -16937,6 +17604,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -16988,6 +17656,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17039,6 +17708,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -17089,6 +17759,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17140,6 +17811,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17191,6 +17863,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17242,6 +17915,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17293,6 +17967,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17344,6 +18019,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17395,6 +18071,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 20000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17446,6 +18123,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17497,6 +18175,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -17547,6 +18226,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 2.0E7
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17598,6 +18278,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 20000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17649,6 +18330,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -17699,6 +18381,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17750,6 +18433,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 20000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17801,6 +18485,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17852,6 +18537,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17903,6 +18589,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -17953,6 +18640,7 @@ types:
     armorhp: 80000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwebifierdischarge: 7.0
     behaviorwebifierduration: 5000
     behaviorwebifierrange: 15000
@@ -18011,6 +18699,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 250.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18062,6 +18751,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -18110,6 +18800,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -18158,6 +18849,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -18206,6 +18898,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -18254,6 +18947,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -18302,6 +18996,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -18350,6 +19045,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -18398,6 +19094,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18449,6 +19146,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18500,6 +19198,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18551,6 +19250,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 3200.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18602,6 +19302,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowassistance: 1
     ecmduration: 30000
@@ -18650,6 +19351,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18701,6 +19403,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18752,6 +19455,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18803,6 +19507,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18854,6 +19559,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -18903,6 +19609,7 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     ecmduration: 30000
@@ -18940,6 +19647,50 @@ types:
     thermaldamageresonance: 1.0
     volume: 1.0E8
     warpscrambleduration: 8000
+  Test Spawner (Xordazh-class):
+    armoremdamageresonance: 0.009999999776482582
+    armorexplosivedamageresonance: 0.009999999776482582
+    armorhp: 1.0E8
+    armorkineticdamageresonance: 0.009999999776482582
+    armorthermaldamageresonance: 0.009999999776482582
+    armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
+    damagemultiplier: 1.0
+    ecmduration: 30000
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entityreactionfactor: 1.0
+    entitytargetjam: 1
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 1.0E8
+    id: 54313
+    kineticdamageresonance: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Test Spawner (Xordazh-class)
+    optimalsigradius: 1000
+    portionSize: 1
+    published: false
+    radius: 1.0
+    shieldcapacity: 1.0E8
+    shieldemdamageresonance: 0.009999999776482582
+    shieldexplosivedamageresonance: 0.009999999776482582
+    shieldkineticdamageresonance: 0.009999999776482582
+    shieldrechargerate: 1000.0
+    shieldthermaldamageresonance: 0.009999999776482582
+    signatureradius: 100.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    warpscrambleduration: 8000
   Tough Gallente Starbase Control Tower:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0
@@ -18947,6 +19698,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -19001,6 +19753,7 @@ types:
     behaviormicrojumpattackduration: 3000
     behaviormicrojumpattackjumpdistance: 75000
     behaviormicrojumpattackrange: 30000
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.0
@@ -19056,6 +19809,7 @@ types:
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     ecmduration: 30000
     emdamageresonance: 1.0
@@ -19098,6 +19852,7 @@ types:
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     ecmduration: 30000
     emdamageresonance: 1.0
@@ -19140,6 +19895,7 @@ types:
     armorhp: 1000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     ecmduration: 30000
     emdamageresonance: 1.0
@@ -19181,6 +19937,7 @@ types:
     armorexplosivedamageresonance: 1.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     ecmduration: 30000
     emdamageresonance: 1.0
@@ -19219,6 +19976,7 @@ types:
     armorhp: 1200000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
     ecmduration: 30000
@@ -19237,7 +19995,8 @@ types:
     entitytargetjam: 1
     explosivedamageresonance: 1.0
     falloff: 1.0
-    hp: 450000.0
+    haslonganimationwhenaddedtospacescene: 1
+    hp: 1200000.0
     id: 53292
     kineticdamageresonance: 1.0
     missileentityflighttimemultiplier: 1.0
@@ -19254,7 +20013,7 @@ types:
     shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
     shieldthermaldamageresonance: 1.0
-    signatureradius: 1000.0
+    signatureradius: 100.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
@@ -19266,6 +20025,7 @@ types:
     armorhp: 80000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 1000.0
     damagemultiplier: 1.0
     ecmduration: 30000
@@ -19313,6 +20073,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -19364,6 +20125,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -19415,6 +20177,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     ecmduration: 30000
@@ -19465,6 +20228,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -19515,6 +20279,7 @@ types:
     armorkineticdamageresonance: 0.0010000000474974513
     armorthermaldamageresonance: 0.0010000000474974513
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -19566,6 +20331,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -19617,6 +20383,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 0.75
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     disallowoffensivemodifiers: 1
     ecmduration: 30000
@@ -19676,6 +20443,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -19726,6 +20494,7 @@ types:
     armorhp: 80000.0
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1000.0
     capacity: 1000.0
     damagemultiplier: 1.0
@@ -19784,6 +20553,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -19835,6 +20605,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 8850.0
     damagemultiplier: 1.0
     disallowassistance: 1
@@ -19880,12 +20651,13 @@ types:
     volume: 1150.0
     warpscrambleduration: 8000
   World Ark (Xordazh-class):
-    armoremdamageresonance: 0.009999999776482582
-    armorexplosivedamageresonance: 0.009999999776482582
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1.0E8
-    armorkineticdamageresonance: 0.009999999776482582
-    armorthermaldamageresonance: 0.009999999776482582
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     damagemultiplier: 1.0
     ecmduration: 30000
     emdamageresonance: 1.0
@@ -19902,7 +20674,7 @@ types:
     explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1.0E8
-    id: 52361
+    id: 54326
     kineticdamageresonance: 1.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -19912,11 +20684,11 @@ types:
     published: false
     radius: 1.0
     shieldcapacity: 1.0E8
-    shieldemdamageresonance: 0.009999999776482582
-    shieldexplosivedamageresonance: 0.009999999776482582
-    shieldkineticdamageresonance: 0.009999999776482582
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 1000.0
-    shieldthermaldamageresonance: 0.009999999776482582
+    shieldthermaldamageresonance: 1.0
     signatureradius: 100.0
     speedfactor: 1.0
     structureuniformity: 1.0
@@ -19929,6 +20701,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
+    behaviorsmartbombentitydamagemultiplier: 1.0
     capacity: 10000.0
     damagemultiplier: 1.0
     disallowassistance: 1

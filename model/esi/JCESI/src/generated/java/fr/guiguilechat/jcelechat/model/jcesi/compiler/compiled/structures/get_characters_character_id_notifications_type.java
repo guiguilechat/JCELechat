@@ -359,6 +359,8 @@ public enum get_characters_character_id_notifications_type {
     StructureDestroyed("StructureDestroyed"),
     @JsonProperty("StructureFuelAlert")
     StructureFuelAlert("StructureFuelAlert"),
+    @JsonProperty("StructureImpendingAbandonmentAssetsAtRisk")
+    StructureImpendingAbandonmentAssetsAtRisk("StructureImpendingAbandonmentAssetsAtRisk"),
     @JsonProperty("StructureItemsDelivered")
     StructureItemsDelivered("StructureItemsDelivered"),
     @JsonProperty("StructureItemsMovedToSafety")

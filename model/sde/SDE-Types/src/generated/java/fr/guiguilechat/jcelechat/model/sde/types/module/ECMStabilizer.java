@@ -44,8 +44,8 @@ public class ECMStabilizer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int ecmrangebonus;
+    @DefaultDoubleValue(0.0)
+    public double ecmrangebonus;
     /**
      * 
      */

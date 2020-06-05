@@ -26,16 +26,25 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorECMDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorECMDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorECMFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorECMRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerFalloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMicroJumpAttackDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMicroJumpAttackDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMicroJumpAttackJumpDistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMicroJumpAttackRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningAmount;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorMiningMaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSmartBombDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSmartBombDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSmartBombEntityDamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWebifierFalloff;
@@ -56,6 +65,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ECMRangeOptimal;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmpFieldRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackDelayMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackDelayMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
@@ -83,6 +93,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.HasLongAnimationWhenAddedToSpaceScene;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
@@ -247,6 +258,34 @@ public class LargeCollidableStructure
     @DefaultIntValue(0)
     public int behaviorecmrange;
     /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double behaviorenergyneutralizerdischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorenergyneutralizerduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorenergyneutralizerfalloff;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorenergyneutralizerrange;
+    /**
      * The capacitor discharge amount for the npcBehaviorMicroJumpAttackDischarge effect
      */
     @HighIsGood(true)
@@ -274,6 +313,34 @@ public class LargeCollidableStructure
     @Stackable(true)
     @DefaultIntValue(0)
     public int behaviormicrojumpattackrange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double behaviorminingamount;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorminingdischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorminingduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorminingmaxrange;
     /**
      * 
      */
@@ -316,6 +383,13 @@ public class LargeCollidableStructure
     @Stackable(true)
     @DefaultIntValue(0)
     public int behaviorsmartbombduration;
+    /**
+     * Controls how much of the NpcBehaviorSmartBomb effect's damage gets applied to entities
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double behaviorsmartbombentitydamagemultiplier;
     /**
      * 
      */
@@ -428,6 +502,13 @@ public class LargeCollidableStructure
     @Stackable(true)
     @DefaultIntValue(0)
     public int empfieldrange;
+    /**
+     * An amount to modify the power of the target by.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double energyneutralizeramount;
     /**
      * Maximum attack delay time for entity.
      */
@@ -620,6 +701,13 @@ public class LargeCollidableStructure
     @Stackable(true)
     @DefaultIntValue(0)
     public int gfxturretid;
+    /**
+     * The item with this attribute set to 1 keeps track of when added to space, and puts that on the slim item, but if it was before downtime the slim item value gets set to -1. Created for supporting long animations upon adding to space.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int haslonganimationwhenaddedtospacescene;
     /**
      * The maximum hitpoints of an object.
      */
@@ -936,7 +1024,7 @@ public class LargeCollidableStructure
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BehaviorMicroJumpAttackRange.INSTANCE, BehaviorMicroJumpAttackJumpDistance.INSTANCE, BehaviorMicroJumpAttackDuration.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityBracketColour.INSTANCE, DamageMultiplierBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, AgentID.INSTANCE, Duration.INSTANCE, MaxTargetRange.INSTANCE, DisallowAssistance.INSTANCE, EmpFieldRange.INSTANCE, WarpScrambleRange.INSTANCE, DisallowOffensiveModifiers.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, Uniformity.INSTANCE, EntityChaseMaxDistance.INSTANCE, ProximityRange.INSTANCE, Falloff.INSTANCE, EntityFlyRange.INSTANCE, EntityTargetJam.INSTANCE, TrackingSpeed.INSTANCE, ECMDuration.INSTANCE, Radius.INSTANCE, ECMEntityChance.INSTANCE, ECMRangeOptimal.INSTANCE, ECMRangeFalloff.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorWebifierDischarge.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, BehaviorECMDuration.INSTANCE, BehaviorECMRange.INSTANCE, ShieldUniformity.INSTANCE, BehaviorECMFalloff.INSTANCE, BehaviorECMDischarge.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EntityDefenderChance.INSTANCE, GfxTurretID.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, BehaviorSmartBombDuration.INSTANCE, BehaviorSmartBombDischarge.INSTANCE, BehaviorMicroJumpAttackDischarge.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BehaviorMicroJumpAttackRange.INSTANCE, BehaviorMicroJumpAttackJumpDistance.INSTANCE, BehaviorMicroJumpAttackDuration.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, HasLongAnimationWhenAddedToSpaceScene.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityBracketColour.INSTANCE, DamageMultiplierBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, AgentID.INSTANCE, Duration.INSTANCE, MaxTargetRange.INSTANCE, DisallowAssistance.INSTANCE, EnergyNeutralizerAmount.INSTANCE, EmpFieldRange.INSTANCE, WarpScrambleRange.INSTANCE, DisallowOffensiveModifiers.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, BehaviorMiningMaxRange.INSTANCE, EmDamage.INSTANCE, BehaviorMiningDischarge.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, Uniformity.INSTANCE, EntityChaseMaxDistance.INSTANCE, ProximityRange.INSTANCE, Falloff.INSTANCE, EntityFlyRange.INSTANCE, EntityTargetJam.INSTANCE, TrackingSpeed.INSTANCE, ECMDuration.INSTANCE, Radius.INSTANCE, ECMEntityChance.INSTANCE, ECMRangeOptimal.INSTANCE, ECMRangeFalloff.INSTANCE, BehaviorMiningAmount.INSTANCE, BehaviorMiningDuration.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorWebifierDischarge.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ScanMagnetometricStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanGravimetricStrength.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, BehaviorSmartBombEntityDamageMultiplier.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, BehaviorECMDuration.INSTANCE, BehaviorECMRange.INSTANCE, ShieldUniformity.INSTANCE, BehaviorECMFalloff.INSTANCE, BehaviorECMDischarge.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EntityDefenderChance.INSTANCE, GfxTurretID.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, WarpScrambleDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, BehaviorSmartBombDuration.INSTANCE, BehaviorSmartBombDischarge.INSTANCE, BehaviorMicroJumpAttackDischarge.INSTANCE })));
     public static final LargeCollidableStructure.MetaGroup METAGROUP = new LargeCollidableStructure.MetaGroup();
 
     @Override
@@ -1006,6 +1094,22 @@ public class LargeCollidableStructure
             {
                 return behaviorecmrange;
             }
+            case  2522 :
+            {
+                return behaviorenergyneutralizerdischarge;
+            }
+            case  2519 :
+            {
+                return behaviorenergyneutralizerduration;
+            }
+            case  2521 :
+            {
+                return behaviorenergyneutralizerfalloff;
+            }
+            case  2520 :
+            {
+                return behaviorenergyneutralizerrange;
+            }
             case  2815 :
             {
                 return behaviormicrojumpattackdischarge;
@@ -1021,6 +1125,22 @@ public class LargeCollidableStructure
             case  2816 :
             {
                 return behaviormicrojumpattackrange;
+            }
+            case  2489 :
+            {
+                return behaviorminingamount;
+            }
+            case  2674 :
+            {
+                return behaviorminingdischarge;
+            }
+            case  2490 :
+            {
+                return behaviorminingduration;
+            }
+            case  2673 :
+            {
+                return behaviorminingmaxrange;
             }
             case  2530 :
             {
@@ -1045,6 +1165,10 @@ public class LargeCollidableStructure
             case  2812 :
             {
                 return behaviorsmartbombduration;
+            }
+            case  3039 :
+            {
+                return behaviorsmartbombentitydamagemultiplier;
             }
             case  2502 :
             {
@@ -1109,6 +1233,10 @@ public class LargeCollidableStructure
             case  99 :
             {
                 return empfieldrange;
+            }
+            case  97 :
+            {
+                return energyneutralizeramount;
             }
             case  476 :
             {
@@ -1217,6 +1345,10 @@ public class LargeCollidableStructure
             case  245 :
             {
                 return gfxturretid;
+            }
+            case  2827 :
+            {
+                return haslonganimationwhenaddedtospacescene;
             }
             case  9 :
             {

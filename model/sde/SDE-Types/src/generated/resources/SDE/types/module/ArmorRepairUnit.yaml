@@ -162,7 +162,7 @@ types:
     techlevel: 1
     volume: 50.0
   Ahremen's Modified Large Armor Repairer:
-    armordamageamount: 1346.0
+    armordamageamount: 1401.0
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
@@ -172,7 +172,7 @@ types:
     id: 14853
     marketGroup: 1051
     metagroupid: 5
-    metalevel: 13
+    metalevel: 15
     name: Ahremen's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -270,7 +270,7 @@ types:
     techlevel: 1
     volume: 5.0
   Brokara's Modified Large Armor Repairer:
-    armordamageamount: 1139.0
+    armordamageamount: 1194.0
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
@@ -297,7 +297,7 @@ types:
     techlevel: 1
     volume: 50.0
   Brynn's Modified Large Armor Repairer:
-    armordamageamount: 1012.0
+    armordamageamount: 1060.0
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
@@ -454,7 +454,7 @@ types:
     id: 19009
     marketGroup: 1049
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Centii A-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -508,7 +508,7 @@ types:
     id: 19005
     marketGroup: 1049
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Centii C-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -535,7 +535,7 @@ types:
     id: 19027
     marketGroup: 1050
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Centum A-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -589,7 +589,7 @@ types:
     id: 19023
     marketGroup: 1050
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Centum C-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -616,7 +616,7 @@ types:
     id: 19044
     marketGroup: 1051
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Centus A-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -670,7 +670,7 @@ types:
     id: 19040
     marketGroup: 1051
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Centus C-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -697,7 +697,7 @@ types:
     id: 19046
     marketGroup: 1051
     metagroupid: 6
-    metalevel: 14
+    metalevel: 16
     name: Centus X-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -714,7 +714,7 @@ types:
     techlevel: 1
     volume: 50.0
   Chelm's Modified Large Armor Repairer:
-    armordamageamount: 1449.0
+    armordamageamount: 1475.0
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
@@ -724,7 +724,7 @@ types:
     id: 14854
     marketGroup: 1051
     metagroupid: 5
-    metalevel: 14
+    metalevel: 17
     name: Chelm's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -774,7 +774,7 @@ types:
     id: 19037
     marketGroup: 1051
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Core A-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -828,7 +828,7 @@ types:
     id: 19035
     marketGroup: 1051
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Core C-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -855,7 +855,7 @@ types:
     id: 19038
     marketGroup: 1051
     metagroupid: 6
-    metalevel: 14
+    metalevel: 16
     name: Core X-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -882,7 +882,7 @@ types:
     id: 19015
     marketGroup: 1049
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Coreli A-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -936,7 +936,7 @@ types:
     id: 19011
     marketGroup: 1049
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Coreli C-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -963,7 +963,7 @@ types:
     id: 19033
     marketGroup: 1050
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Corelum A-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1017,7 +1017,7 @@ types:
     id: 19029
     marketGroup: 1050
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Corelum C-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1034,7 +1034,7 @@ types:
     techlevel: 1
     volume: 10.0
   Cormack's Modified Large Armor Repairer:
-    armordamageamount: 1288.0
+    armordamageamount: 1311.0
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
@@ -1044,7 +1044,7 @@ types:
     id: 15163
     marketGroup: 1051
     metagroupid: 5
-    metalevel: 14
+    metalevel: 17
     name: Cormack's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1071,7 +1071,7 @@ types:
     id: 19003
     marketGroup: 1049
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Corpii A-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1125,7 +1125,7 @@ types:
     id: 18999
     marketGroup: 1049
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Corpii C-Type Small Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1152,7 +1152,7 @@ types:
     id: 19021
     marketGroup: 1050
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Corpum A-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1206,7 +1206,7 @@ types:
     id: 19017
     marketGroup: 1050
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Corpum C-Type Medium Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1233,7 +1233,7 @@ types:
     id: 19043
     marketGroup: 1051
     metagroupid: 6
-    metalevel: 13
+    metalevel: 14
     name: Corpus A-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1287,7 +1287,7 @@ types:
     id: 19039
     marketGroup: 1051
     metagroupid: 6
-    metalevel: 11
+    metalevel: 10
     name: Corpus C-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1314,7 +1314,7 @@ types:
     id: 19045
     marketGroup: 1051
     metagroupid: 6
-    metalevel: 14
+    metalevel: 16
     name: Corpus X-Type Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -1518,7 +1518,7 @@ types:
     techlevel: 1
     volume: 5.0
   Draclira's Modified Large Armor Repairer:
-    armordamageamount: 1449.0
+    armordamageamount: 1475.0
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
@@ -1528,7 +1528,7 @@ types:
     id: 14855
     marketGroup: 1051
     metagroupid: 5
-    metalevel: 14
+    metalevel: 17
     name: Draclira's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -2074,7 +2074,7 @@ types:
     techlevel: 1
     volume: 50.0
   Raysere's Modified Large Armor Repairer:
-    armordamageamount: 1242.0
+    armordamageamount: 1297.0
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
@@ -2084,7 +2084,7 @@ types:
     id: 14851
     marketGroup: 1051
     metagroupid: 5
-    metalevel: 12
+    metalevel: 13
     name: Raysere's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -2182,7 +2182,7 @@ types:
     techlevel: 1
     volume: 5.0
   Selynne's Modified Large Armor Repairer:
-    armordamageamount: 1242.0
+    armordamageamount: 1297.0
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
@@ -2192,7 +2192,7 @@ types:
     id: 14850
     marketGroup: 1051
     metagroupid: 5
-    metalevel: 12
+    metalevel: 13
     name: Selynne's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -2209,7 +2209,7 @@ types:
     techlevel: 1
     volume: 50.0
   Setele's Modified Large Armor Repairer:
-    armordamageamount: 1196.0
+    armordamageamount: 1244.0
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
@@ -2219,7 +2219,7 @@ types:
     id: 15162
     marketGroup: 1051
     metagroupid: 5
-    metalevel: 13
+    metalevel: 15
     name: Setele's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -2458,7 +2458,7 @@ types:
     techlevel: 1
     volume: 5.0
   Tairei's Modified Large Armor Repairer:
-    armordamageamount: 1139.0
+    armordamageamount: 1194.0
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
@@ -2566,7 +2566,7 @@ types:
     techlevel: 1
     volume: 5.0
   Tuvan's Modified Large Armor Repairer:
-    armordamageamount: 1104.0
+    armordamageamount: 1152.0
     capacitorneed: 400.0
     cpu: 46.0
     duration: 15000.0
@@ -2576,7 +2576,7 @@ types:
     id: 15161
     marketGroup: 1051
     metagroupid: 5
-    metalevel: 12
+    metalevel: 13
     name: Tuvan's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0
@@ -2593,7 +2593,7 @@ types:
     techlevel: 1
     volume: 50.0
   Vizan's Modified Large Armor Repairer:
-    armordamageamount: 1346.0
+    armordamageamount: 1401.0
     capacitorneed: 450.0
     cpu: 46.0
     duration: 15000.0
@@ -2603,7 +2603,7 @@ types:
     id: 14852
     marketGroup: 1051
     metagroupid: 5
-    metalevel: 13
+    metalevel: 15
     name: Vizan's Modified Large Armor Repairer
     overloadarmordamageamount: 10
     overloadselfdurationbonus: -15.0

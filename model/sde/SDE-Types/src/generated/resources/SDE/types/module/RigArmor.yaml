@@ -1,128 +1,4 @@
 types:
-  Capital Anti-EM Pump I:
-    drawback: -10
-    emdamageresistancebonus: -30.0
-    hp: 40.0
-    id: 31001
-    marketGroup: 1730
-    name: Capital Anti-EM Pump I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Anti-EM Pump II:
-    drawback: -10
-    emdamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31007
-    marketGroup: 1730
-    metalevel: 5
-    name: Capital Anti-EM Pump II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Anti-Explosive Pump I:
-    drawback: -10
-    explosivedamageresistancebonus: -30.0
-    hp: 40.0
-    id: 31013
-    marketGroup: 1730
-    name: Capital Anti-Explosive Pump I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Anti-Explosive Pump II:
-    drawback: -10
-    explosivedamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31019
-    marketGroup: 1730
-    metalevel: 5
-    name: Capital Anti-Explosive Pump II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Anti-Kinetic Pump I:
-    drawback: -10
-    hp: 40.0
-    id: 31025
-    kineticdamageresistancebonus: -30.0
-    marketGroup: 1730
-    name: Capital Anti-Kinetic Pump I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Anti-Kinetic Pump II:
-    drawback: -10
-    hp: 40.0
-    id: 31031
-    kineticdamageresistancebonus: -35.0
-    marketGroup: 1730
-    metalevel: 5
-    name: Capital Anti-Kinetic Pump II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Anti-Thermal Pump I:
-    drawback: -10
-    hp: 40.0
-    id: 31037
-    marketGroup: 1730
-    name: Capital Anti-Thermal Pump I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    thermaldamageresistancebonus: -30.0
-    upgradecost: 50
-    volume: 40.0
-  Capital Anti-Thermal Pump II:
-    drawback: -10
-    hp: 40.0
-    id: 31043
-    marketGroup: 1730
-    metalevel: 5
-    name: Capital Anti-Thermal Pump II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    thermaldamageresistancebonus: -35.0
-    upgradecost: 75
-    volume: 40.0
   Capital Auxiliary Nano Pump I:
     drawback: 10
     hp: 40.0
@@ -153,6 +29,99 @@ types:
     rigsize: 4
     techlevel: 2
     upgradecost: 150
+    volume: 40.0
+  Capital EM Armor Reinforcer I:
+    drawback: -10
+    emdamageresistancebonus: -30.0
+    hp: 40.0
+    id: 31001
+    marketGroup: 1730
+    name: Capital EM Armor Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  Capital EM Armor Reinforcer II:
+    drawback: -10
+    emdamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31007
+    marketGroup: 1730
+    metalevel: 5
+    name: Capital EM Armor Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  Capital Explosive Armor Reinforcer I:
+    drawback: -10
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
+    id: 31013
+    marketGroup: 1730
+    name: Capital Explosive Armor Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  Capital Explosive Armor Reinforcer II:
+    drawback: -10
+    explosivedamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31019
+    marketGroup: 1730
+    metalevel: 5
+    name: Capital Explosive Armor Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  Capital Kinetic Armor Reinforcer I:
+    drawback: -10
+    hp: 40.0
+    id: 31025
+    kineticdamageresistancebonus: -30.0
+    marketGroup: 1730
+    name: Capital Kinetic Armor Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    upgradecost: 50
+    volume: 40.0
+  Capital Kinetic Armor Reinforcer II:
+    drawback: -10
+    hp: 40.0
+    id: 31031
+    kineticdamageresistancebonus: -35.0
+    marketGroup: 1730
+    metalevel: 5
+    name: Capital Kinetic Armor Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    upgradecost: 75
     volume: 40.0
   Capital Nanobot Accelerator I:
     drawback: 10
@@ -214,6 +183,37 @@ types:
     radius: 100.0
     rigsize: 4
     techlevel: 2
+    upgradecost: 75
+    volume: 40.0
+  Capital Thermal Armor Reinforcer I:
+    drawback: -10
+    hp: 40.0
+    id: 31037
+    marketGroup: 1730
+    name: Capital Thermal Armor Reinforcer I
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
+    upgradecost: 50
+    volume: 40.0
+  Capital Thermal Armor Reinforcer II:
+    drawback: -10
+    hp: 40.0
+    id: 31043
+    marketGroup: 1730
+    metalevel: 5
+    name: Capital Thermal Armor Reinforcer II
+    packagedVolume: 40.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 4
+    techlevel: 2
+    thermaldamageresistancebonus: -35.0
     upgradecost: 75
     volume: 40.0
   Capital Transverse Bulkhead I:
@@ -278,130 +278,6 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 40.0
-  Large Anti-EM Pump I:
-    drawback: -10
-    emdamageresistancebonus: -30.0
-    hp: 40.0
-    id: 25736
-    marketGroup: 1208
-    name: Large Anti-EM Pump I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Anti-EM Pump II:
-    drawback: -10
-    emdamageresistancebonus: -35.0
-    hp: 40.0
-    id: 26286
-    marketGroup: 1208
-    metalevel: 5
-    name: Large Anti-EM Pump II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 75
-    volume: 20.0
-  Large Anti-Explosive Pump I:
-    drawback: -10
-    explosivedamageresistancebonus: -30.0
-    hp: 40.0
-    id: 25888
-    marketGroup: 1208
-    name: Large Anti-Explosive Pump I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Anti-Explosive Pump II:
-    drawback: -10
-    explosivedamageresistancebonus: -35.0
-    hp: 40.0
-    id: 26288
-    marketGroup: 1208
-    metalevel: 5
-    name: Large Anti-Explosive Pump II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 75
-    volume: 20.0
-  Large Anti-Kinetic Pump I:
-    drawback: -10
-    hp: 40.0
-    id: 25890
-    kineticdamageresistancebonus: -30.0
-    marketGroup: 1208
-    name: Large Anti-Kinetic Pump I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    upgradecost: 50
-    volume: 20.0
-  Large Anti-Kinetic Pump II:
-    drawback: -10
-    hp: 40.0
-    id: 26290
-    kineticdamageresistancebonus: -35.0
-    marketGroup: 1208
-    metalevel: 5
-    name: Large Anti-Kinetic Pump II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    upgradecost: 75
-    volume: 20.0
-  Large Anti-Thermal Pump I:
-    drawback: -10
-    hp: 40.0
-    id: 25892
-    marketGroup: 1208
-    name: Large Anti-Thermal Pump I
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 1
-    thermaldamageresistancebonus: -30.0
-    upgradecost: 50
-    volume: 20.0
-  Large Anti-Thermal Pump II:
-    drawback: -10
-    hp: 40.0
-    id: 26292
-    marketGroup: 1208
-    metalevel: 5
-    name: Large Anti-Thermal Pump II
-    packagedVolume: 20.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 3
-    techlevel: 2
-    thermaldamageresistancebonus: -35.0
-    upgradecost: 75
-    volume: 20.0
   Large Auxiliary Nano Pump I:
     drawback: 10
     hp: 40.0
@@ -432,6 +308,99 @@ types:
     rigsize: 3
     techlevel: 2
     upgradecost: 150
+    volume: 20.0
+  Large EM Armor Reinforcer I:
+    drawback: -10
+    emdamageresistancebonus: -30.0
+    hp: 40.0
+    id: 25736
+    marketGroup: 1208
+    name: Large EM Armor Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  Large EM Armor Reinforcer II:
+    drawback: -10
+    emdamageresistancebonus: -35.0
+    hp: 40.0
+    id: 26286
+    marketGroup: 1208
+    metalevel: 5
+    name: Large EM Armor Reinforcer II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 75
+    volume: 20.0
+  Large Explosive Armor Reinforcer I:
+    drawback: -10
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
+    id: 25888
+    marketGroup: 1208
+    name: Large Explosive Armor Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  Large Explosive Armor Reinforcer II:
+    drawback: -10
+    explosivedamageresistancebonus: -35.0
+    hp: 40.0
+    id: 26288
+    marketGroup: 1208
+    metalevel: 5
+    name: Large Explosive Armor Reinforcer II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 75
+    volume: 20.0
+  Large Kinetic Armor Reinforcer I:
+    drawback: -10
+    hp: 40.0
+    id: 25890
+    kineticdamageresistancebonus: -30.0
+    marketGroup: 1208
+    name: Large Kinetic Armor Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    upgradecost: 50
+    volume: 20.0
+  Large Kinetic Armor Reinforcer II:
+    drawback: -10
+    hp: 40.0
+    id: 26290
+    kineticdamageresistancebonus: -35.0
+    marketGroup: 1208
+    metalevel: 5
+    name: Large Kinetic Armor Reinforcer II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    upgradecost: 75
     volume: 20.0
   Large Nanobot Accelerator I:
     drawback: 10
@@ -493,6 +462,37 @@ types:
     radius: 100.0
     rigsize: 3
     techlevel: 2
+    upgradecost: 75
+    volume: 20.0
+  Large Thermal Armor Reinforcer I:
+    drawback: -10
+    hp: 40.0
+    id: 25892
+    marketGroup: 1208
+    name: Large Thermal Armor Reinforcer I
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
+    upgradecost: 50
+    volume: 20.0
+  Large Thermal Armor Reinforcer II:
+    drawback: -10
+    hp: 40.0
+    id: 26292
+    marketGroup: 1208
+    metalevel: 5
+    name: Large Thermal Armor Reinforcer II
+    packagedVolume: 20.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 3
+    techlevel: 2
+    thermaldamageresistancebonus: -35.0
     upgradecost: 75
     volume: 20.0
   Large Transverse Bulkhead I:
@@ -557,130 +557,6 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 20.0
-  Medium Anti-EM Pump I:
-    drawback: -10
-    emdamageresistancebonus: -30.0
-    hp: 40.0
-    id: 30999
-    marketGroup: 1207
-    name: Medium Anti-EM Pump I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Anti-EM Pump II:
-    drawback: -10
-    emdamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31005
-    marketGroup: 1207
-    metalevel: 5
-    name: Medium Anti-EM Pump II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Anti-Explosive Pump I:
-    drawback: -10
-    explosivedamageresistancebonus: -30.0
-    hp: 40.0
-    id: 31011
-    marketGroup: 1207
-    name: Medium Anti-Explosive Pump I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Anti-Explosive Pump II:
-    drawback: -10
-    explosivedamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31017
-    marketGroup: 1207
-    metalevel: 5
-    name: Medium Anti-Explosive Pump II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Anti-Kinetic Pump I:
-    drawback: -10
-    hp: 40.0
-    id: 31023
-    kineticdamageresistancebonus: -30.0
-    marketGroup: 1207
-    name: Medium Anti-Kinetic Pump I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    upgradecost: 50
-    volume: 10.0
-  Medium Anti-Kinetic Pump II:
-    drawback: -10
-    hp: 40.0
-    id: 31029
-    kineticdamageresistancebonus: -35.0
-    marketGroup: 1207
-    metalevel: 5
-    name: Medium Anti-Kinetic Pump II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    upgradecost: 75
-    volume: 10.0
-  Medium Anti-Thermal Pump I:
-    drawback: -10
-    hp: 40.0
-    id: 31035
-    marketGroup: 1207
-    name: Medium Anti-Thermal Pump I
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 1
-    thermaldamageresistancebonus: -30.0
-    upgradecost: 50
-    volume: 10.0
-  Medium Anti-Thermal Pump II:
-    drawback: -10
-    hp: 40.0
-    id: 31041
-    marketGroup: 1207
-    metalevel: 5
-    name: Medium Anti-Thermal Pump II
-    packagedVolume: 10.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 2
-    techlevel: 2
-    thermaldamageresistancebonus: -35.0
-    upgradecost: 75
-    volume: 10.0
   Medium Auxiliary Nano Pump I:
     drawback: 10
     hp: 40.0
@@ -711,6 +587,99 @@ types:
     rigsize: 2
     techlevel: 2
     upgradecost: 150
+    volume: 10.0
+  Medium EM Armor Reinforcer I:
+    drawback: -10
+    emdamageresistancebonus: -30.0
+    hp: 40.0
+    id: 30999
+    marketGroup: 1207
+    name: Medium EM Armor Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  Medium EM Armor Reinforcer II:
+    drawback: -10
+    emdamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31005
+    marketGroup: 1207
+    metalevel: 5
+    name: Medium EM Armor Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  Medium Explosive Armor Reinforcer I:
+    drawback: -10
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
+    id: 31011
+    marketGroup: 1207
+    name: Medium Explosive Armor Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  Medium Explosive Armor Reinforcer II:
+    drawback: -10
+    explosivedamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31017
+    marketGroup: 1207
+    metalevel: 5
+    name: Medium Explosive Armor Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  Medium Kinetic Armor Reinforcer I:
+    drawback: -10
+    hp: 40.0
+    id: 31023
+    kineticdamageresistancebonus: -30.0
+    marketGroup: 1207
+    name: Medium Kinetic Armor Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    upgradecost: 50
+    volume: 10.0
+  Medium Kinetic Armor Reinforcer II:
+    drawback: -10
+    hp: 40.0
+    id: 31029
+    kineticdamageresistancebonus: -35.0
+    marketGroup: 1207
+    metalevel: 5
+    name: Medium Kinetic Armor Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    upgradecost: 75
     volume: 10.0
   Medium Nanobot Accelerator I:
     drawback: 10
@@ -772,6 +741,37 @@ types:
     radius: 100.0
     rigsize: 2
     techlevel: 2
+    upgradecost: 75
+    volume: 10.0
+  Medium Thermal Armor Reinforcer I:
+    drawback: -10
+    hp: 40.0
+    id: 31035
+    marketGroup: 1207
+    name: Medium Thermal Armor Reinforcer I
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
+    upgradecost: 50
+    volume: 10.0
+  Medium Thermal Armor Reinforcer II:
+    drawback: -10
+    hp: 40.0
+    id: 31041
+    marketGroup: 1207
+    metalevel: 5
+    name: Medium Thermal Armor Reinforcer II
+    packagedVolume: 10.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 2
+    techlevel: 2
+    thermaldamageresistancebonus: -35.0
     upgradecost: 75
     volume: 10.0
   Medium Transverse Bulkhead I:
@@ -836,130 +836,6 @@ types:
     techlevel: 2
     upgradecost: 75
     volume: 10.0
-  Small Anti-EM Pump I:
-    drawback: -10
-    emdamageresistancebonus: -30.0
-    hp: 40.0
-    id: 30997
-    marketGroup: 1206
-    name: Small Anti-EM Pump I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 1
-    upgradecost: 50
-    volume: 5.0
-  Small Anti-EM Pump II:
-    drawback: -10
-    emdamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31003
-    marketGroup: 1206
-    metalevel: 5
-    name: Small Anti-EM Pump II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 2
-    upgradecost: 75
-    volume: 5.0
-  Small Anti-Explosive Pump I:
-    drawback: -10
-    explosivedamageresistancebonus: -30.0
-    hp: 40.0
-    id: 31009
-    marketGroup: 1206
-    name: Small Anti-Explosive Pump I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 1
-    upgradecost: 50
-    volume: 5.0
-  Small Anti-Explosive Pump II:
-    drawback: -10
-    explosivedamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31015
-    marketGroup: 1206
-    metalevel: 5
-    name: Small Anti-Explosive Pump II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 2
-    upgradecost: 75
-    volume: 5.0
-  Small Anti-Kinetic Pump I:
-    drawback: -10
-    hp: 40.0
-    id: 31021
-    kineticdamageresistancebonus: -30.0
-    marketGroup: 1206
-    name: Small Anti-Kinetic Pump I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 1
-    upgradecost: 50
-    volume: 5.0
-  Small Anti-Kinetic Pump II:
-    drawback: -10
-    hp: 40.0
-    id: 31027
-    kineticdamageresistancebonus: -35.0
-    marketGroup: 1206
-    metalevel: 5
-    name: Small Anti-Kinetic Pump II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 2
-    upgradecost: 75
-    volume: 5.0
-  Small Anti-Thermal Pump I:
-    drawback: -10
-    hp: 40.0
-    id: 31033
-    marketGroup: 1206
-    name: Small Anti-Thermal Pump I
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -30.0
-    upgradecost: 50
-    volume: 5.0
-  Small Anti-Thermal Pump II:
-    drawback: -10
-    hp: 40.0
-    id: 31039
-    marketGroup: 1206
-    metalevel: 5
-    name: Small Anti-Thermal Pump II
-    packagedVolume: 5.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 1
-    techlevel: 2
-    thermaldamageresistancebonus: -35.0
-    upgradecost: 75
-    volume: 5.0
   Small Auxiliary Nano Pump I:
     drawback: 10
     hp: 40.0
@@ -990,6 +866,99 @@ types:
     rigsize: 1
     techlevel: 2
     upgradecost: 150
+    volume: 5.0
+  Small EM Armor Reinforcer I:
+    drawback: -10
+    emdamageresistancebonus: -30.0
+    hp: 40.0
+    id: 30997
+    marketGroup: 1206
+    name: Small EM Armor Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  Small EM Armor Reinforcer II:
+    drawback: -10
+    emdamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31003
+    marketGroup: 1206
+    metalevel: 5
+    name: Small EM Armor Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  Small Explosive Armor Reinforcer I:
+    drawback: -10
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
+    id: 31009
+    marketGroup: 1206
+    name: Small Explosive Armor Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  Small Explosive Armor Reinforcer II:
+    drawback: -10
+    explosivedamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31015
+    marketGroup: 1206
+    metalevel: 5
+    name: Small Explosive Armor Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  Small Kinetic Armor Reinforcer I:
+    drawback: -10
+    hp: 40.0
+    id: 31021
+    kineticdamageresistancebonus: -30.0
+    marketGroup: 1206
+    name: Small Kinetic Armor Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  Small Kinetic Armor Reinforcer II:
+    drawback: -10
+    hp: 40.0
+    id: 31027
+    kineticdamageresistancebonus: -35.0
+    marketGroup: 1206
+    metalevel: 5
+    name: Small Kinetic Armor Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 75
     volume: 5.0
   Small Nanobot Accelerator I:
     drawback: 10
@@ -1051,6 +1020,37 @@ types:
     radius: 100.0
     rigsize: 1
     techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  Small Thermal Armor Reinforcer I:
+    drawback: -10
+    hp: 40.0
+    id: 31033
+    marketGroup: 1206
+    name: Small Thermal Armor Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
+    upgradecost: 50
+    volume: 5.0
+  Small Thermal Armor Reinforcer II:
+    drawback: -10
+    hp: 40.0
+    id: 31039
+    marketGroup: 1206
+    metalevel: 5
+    name: Small Thermal Armor Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    thermaldamageresistancebonus: -35.0
     upgradecost: 75
     volume: 5.0
   Small Transverse Bulkhead I:

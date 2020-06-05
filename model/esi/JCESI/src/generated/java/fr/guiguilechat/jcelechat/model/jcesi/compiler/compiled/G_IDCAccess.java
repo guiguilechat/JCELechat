@@ -120,7 +120,8 @@ public interface G_IDCAccess
      * Character affiliation
      * <p>
      * Bulk lookup of character IDs to corporation, alliance and faction<br />
-     * This route is cached for up to 3600 seconds
+     * This route is cached for up to 3600 seconds<br />
+     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#POST-/characters/affiliation/)
      * </p>
      * 
      * @param characters

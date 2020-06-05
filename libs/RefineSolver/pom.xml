@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat.jcelechat</groupId>
     <artifactId>libs</artifactId>
-    <version>5.3.8</version>
+    <version>5.3.9</version>
   </parent>
   <artifactId>RefineSolver</artifactId>
   <name>RefineSolver</name>

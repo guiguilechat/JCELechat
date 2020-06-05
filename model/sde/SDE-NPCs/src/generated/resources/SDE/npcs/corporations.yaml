@@ -369,8 +369,7 @@ corporations:
     name: 24th Imperial Crusade
     warfare: Amarr Empire
   AEGIS:
-    concordRate: 1.0
-    faction: CONCORD Assembly
+    faction: EDENCOM
     id: 1000297
     name: AEGIS
   Academy of Aggressive Behaviour:

@@ -1,196 +1,196 @@
 types:
-  '''Desert Heat'' Anti-Thermal Shield Hardener Blueprint':
+  '''Desert Heat'' Thermal Shield Hardener Blueprint':
     id: 20636
     industryblueprintrank: 6.0
-    name: '''Desert Heat'' Anti-Thermal Shield Hardener Blueprint'
+    name: '''Desert Heat'' Thermal Shield Hardener Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  '''Nugget'' Anti-Kinetic Shield Hardener Blueprint':
+  '''Nugget'' Kinetic Shield Hardener Blueprint':
     id: 20634
     industryblueprintrank: 6.0
-    name: '''Nugget'' Anti-Kinetic Shield Hardener Blueprint'
+    name: '''Nugget'' Kinetic Shield Hardener Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  '''Poacher'' Anti-EM Shield Hardener Blueprint':
+  '''Poacher'' EM Shield Hardener Blueprint':
     id: 20640
     industryblueprintrank: 6.0
-    name: '''Poacher'' Anti-EM Shield Hardener Blueprint'
+    name: '''Poacher'' EM Shield Hardener Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  '''Posse'' Adaptive Invulnerability Shield Hardener Blueprint':
+  '''Posse'' Multispectrum Shield Hardener Blueprint':
     id: 20638
     industryblueprintrank: 6.0
-    name: '''Posse'' Adaptive Invulnerability Shield Hardener Blueprint'
+    name: '''Posse'' Multispectrum Shield Hardener Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  '''Snake Eyes'' Anti-Explosive Shield Hardener Blueprint':
+  '''Snake Eyes'' Explosive Shield Hardener Blueprint':
     id: 20642
     industryblueprintrank: 6.0
-    name: '''Snake Eyes'' Anti-Explosive Shield Hardener Blueprint'
+    name: '''Snake Eyes'' Explosive Shield Hardener Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Adaptive Invulnerability Shield Hardener I Blueprint:
-    id: 1129
+  Civilian EM Shield Hardener Blueprint:
+    id: 30421
     industryblueprintrank: 6.0
-    marketGroup: 1548
-    name: Adaptive Invulnerability Shield Hardener I Blueprint
+    name: Civilian EM Shield Hardener Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Adaptive Invulnerability Shield Hardener II Blueprint:
-    id: 2282
-    industryblueprintrank: 15.600000381469727
-    name: Adaptive Invulnerability Shield Hardener II Blueprint
+  Civilian Explosive Shield Hardener Blueprint:
+    id: 30423
+    industryblueprintrank: 6.0
+    name: Civilian Explosive Shield Hardener Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
-    techlevel: 2
+    techlevel: 1
     volume: 0.009999999776482582
-  Anti-EM Shield Hardener I Blueprint:
+  Civilian Kinetic Shield Hardener Blueprint:
+    id: 30425
+    industryblueprintrank: 6.0
+    name: Civilian Kinetic Shield Hardener Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Civilian Thermal Shield Hardener Blueprint:
+    id: 30343
+    industryblueprintrank: 6.0
+    name: Civilian Thermal Shield Hardener Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  EM Shield Hardener I Blueprint:
     id: 2294
     industryblueprintrank: 6.0
     marketGroup: 1548
-    name: Anti-EM Shield Hardener I Blueprint
+    name: EM Shield Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Anti-EM Shield Hardener II Blueprint:
+  EM Shield Hardener II Blueprint:
     id: 2302
     industryblueprintrank: 15.600000381469727
-    name: Anti-EM Shield Hardener II Blueprint
+    name: EM Shield Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Anti-Explosive Shield Hardener I Blueprint:
+  Explosive Shield Hardener I Blueprint:
     id: 2290
     industryblueprintrank: 6.0
     marketGroup: 1548
-    name: Anti-Explosive Shield Hardener I Blueprint
+    name: Explosive Shield Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Anti-Explosive Shield Hardener II Blueprint:
+  Explosive Shield Hardener II Blueprint:
     id: 2298
     industryblueprintrank: 15.600000381469727
-    name: Anti-Explosive Shield Hardener II Blueprint
+    name: Explosive Shield Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Anti-Kinetic Shield Hardener I Blueprint:
+  Kinetic Shield Hardener I Blueprint:
     id: 2292
     industryblueprintrank: 6.0
     marketGroup: 1548
-    name: Anti-Kinetic Shield Hardener I Blueprint
+    name: Kinetic Shield Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Anti-Kinetic Shield Hardener II Blueprint:
+  Kinetic Shield Hardener II Blueprint:
     id: 2300
     industryblueprintrank: 15.600000381469727
-    name: Anti-Kinetic Shield Hardener II Blueprint
+    name: Kinetic Shield Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Anti-Thermal Shield Hardener I Blueprint:
+  Multispectrum Shield Hardener I Blueprint:
+    id: 1129
+    industryblueprintrank: 6.0
+    marketGroup: 1548
+    name: Multispectrum Shield Hardener I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Multispectrum Shield Hardener II Blueprint:
+    id: 2282
+    industryblueprintrank: 15.600000381469727
+    name: Multispectrum Shield Hardener II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Thermal Shield Hardener I Blueprint:
     id: 2296
     industryblueprintrank: 6.0
     marketGroup: 1548
-    name: Anti-Thermal Shield Hardener I Blueprint
+    name: Thermal Shield Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
-  Anti-Thermal Shield Hardener II Blueprint:
+  Thermal Shield Hardener II Blueprint:
     id: 2304
     industryblueprintrank: 15.600000381469727
-    name: Anti-Thermal Shield Hardener II Blueprint
+    name: Thermal Shield Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     radius: 1.0
     techlevel: 2
-    volume: 0.009999999776482582
-  Civilian Anti-EM Shield Hardener Blueprint:
-    id: 30421
-    industryblueprintrank: 6.0
-    name: Civilian Anti-EM Shield Hardener Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Civilian Anti-Explosive Shield Hardener Blueprint:
-    id: 30423
-    industryblueprintrank: 6.0
-    name: Civilian Anti-Explosive Shield Hardener Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Civilian Anti-Kinetic Shield Hardener Blueprint:
-    id: 30425
-    industryblueprintrank: 6.0
-    name: Civilian Anti-Kinetic Shield Hardener Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Civilian Anti-Thermal Shield Hardener Blueprint:
-    id: 30343
-    industryblueprintrank: 6.0
-    name: Civilian Anti-Thermal Shield Hardener Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
     volume: 0.009999999776482582

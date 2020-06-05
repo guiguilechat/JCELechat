@@ -299,6 +299,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Broken Skill Canister:
+    cpumultiplier: 1.0
+    id: 54968
+    marketGroup: 1661
+    name: Broken Skill Canister
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   CDIA Training Exercise Supply Crate:
     cpumultiplier: 1.0
     id: 47482
@@ -2596,6 +2605,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Vorton Projector Booster Gift Box:
+    cpumultiplier: 1.0
+    id: 55029
+    marketGroup: 1661
+    name: Vorton Projector Booster Gift Box
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Well-Worn Fedora:
     cpumultiplier: 1.0
     id: 48751

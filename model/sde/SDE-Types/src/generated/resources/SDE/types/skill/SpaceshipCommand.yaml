@@ -557,6 +557,38 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 4.0
     volume: 0.009999999776482582
+  EDENCOM Cruiser:
+    cannotbetrainedontrial: 1
+    id: 55032
+    marketGroup: 377
+    name: EDENCOM Cruiser
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 2
+    requiredskill2: 55031
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  EDENCOM Frigate:
+    cannotbetrainedontrial: 1
+    id: 55031
+    marketGroup: 377
+    name: EDENCOM Frigate
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
   Electronic Attack Ships:
     cannotbetrainedontrial: 1
     id: 28615

@@ -102,8 +102,8 @@ public class NPCMiningBarge
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorminingamount;
+    @DefaultDoubleValue(0.0)
+    public double behaviorminingamount;
     /**
      * 
      */

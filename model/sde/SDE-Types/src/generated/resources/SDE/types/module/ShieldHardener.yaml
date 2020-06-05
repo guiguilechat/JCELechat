@@ -1,5 +1,5 @@
 types:
-  '''Desert Heat'' Anti-Thermal Shield Hardener':
+  '''Desert Heat'' Thermal Shield Hardener':
     capacitorneed: 20.0
     cpu: 30.0
     duration: 10000.0
@@ -10,7 +10,7 @@ types:
     marketGroup: 1692
     metagroupid: 3
     metalevel: 6
-    name: '''Desert Heat'' Anti-Thermal Shield Hardener'
+    name: '''Desert Heat'' Thermal Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -24,7 +24,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -44.0
     volume: 5.0
-  '''Nugget'' Anti-Kinetic Shield Hardener':
+  '''Nugget'' Kinetic Shield Hardener':
     capacitorneed: 20.0
     cpu: 30.0
     duration: 10000.0
@@ -36,7 +36,7 @@ types:
     marketGroup: 1693
     metagroupid: 3
     metalevel: 6
-    name: '''Nugget'' Anti-Kinetic Shield Hardener'
+    name: '''Nugget'' Kinetic Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -49,7 +49,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  '''Poacher'' Anti-EM Shield Hardener':
+  '''Poacher'' EM Shield Hardener':
     capacitorneed: 20.0
     cpu: 30.0
     duration: 10000.0
@@ -61,7 +61,7 @@ types:
     marketGroup: 1695
     metagroupid: 3
     metalevel: 6
-    name: '''Poacher'' Anti-EM Shield Hardener'
+    name: '''Poacher'' EM Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -74,7 +74,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  '''Posse'' Adaptive Invulnerability Shield Hardener':
+  '''Posse'' Multispectrum Shield Hardener':
     capacitorneed: 40.0
     cpu: 27.0
     duration: 10000.0
@@ -88,7 +88,7 @@ types:
     marketGroup: 1696
     metagroupid: 3
     metalevel: 6
-    name: '''Posse'' Adaptive Invulnerability Shield Hardener'
+    name: '''Posse'' Multispectrum Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -102,7 +102,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -26.0
     volume: 5.0
-  '''Snake Eyes'' Anti-Explosive Shield Hardener':
+  '''Snake Eyes'' Explosive Shield Hardener':
     capacitorneed: 20.0
     cpu: 30.0
     duration: 10000.0
@@ -114,7 +114,7 @@ types:
     marketGroup: 1694
     metagroupid: 3
     metalevel: 6
-    name: '''Snake Eyes'' Anti-Explosive Shield Hardener'
+    name: '''Snake Eyes'' Explosive Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -127,70 +127,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Adaptive Invulnerability Shield Hardener I:
-    capacitorneed: 40.0
-    cpu: 40.0
-    duration: 10000.0
-    emdamageresistancebonus: -20.0
-    explosivedamageresistancebonus: -20.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 578
-    kineticdamageresistancebonus: -20.0
-    marketGroup: 1696
-    name: Adaptive Invulnerability Shield Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -20.0
-    volume: 5.0
-  Adaptive Invulnerability Shield Hardener II:
-    capacitorneed: 32.0
-    cpu: 44.0
-    duration: 10000.0
-    emdamageresistancebonus: -26.0
-    explosivedamageresistancebonus: -26.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 2281
-    kineticdamageresistancebonus: -26.0
-    marketGroup: 1696
-    metalevel: 5
-    name: Adaptive Invulnerability Shield Hardener II
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    thermaldamageresistancebonus: -26.0
-    volume: 5.0
-  Anti-EM Shield Hardener I:
+  Caldari Navy EM Shield Hardener:
     capacitorneed: 20.0
-    cpu: 40.0
-    duration: 10000.0
-    emdamageresistancebonus: -40.0
+    cpu: 30.0
+    duration: 12000.0
+    emdamageresistancebonus: -45.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatdamage: 4.0
     hp: 40.0
-    id: 2293
+    id: 17499
     marketGroup: 1695
-    name: Anti-EM Shield Hardener I
+    metagroupid: 4
+    metalevel: 8
+    name: Caldari Navy EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -203,41 +152,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Anti-EM Shield Hardener II:
+  Caldari Navy Explosive Shield Hardener:
     capacitorneed: 20.0
-    cpu: 44.0
-    duration: 10000.0
-    emdamageresistancebonus: -44.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 2301
-    marketGroup: 1695
-    metalevel: 5
-    name: Anti-EM Shield Hardener II
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
-  Anti-Explosive Shield Hardener I:
-    capacitorneed: 20.0
-    cpu: 40.0
-    duration: 10000.0
-    explosivedamageresistancebonus: -40.0
+    cpu: 30.0
+    duration: 12000.0
+    explosivedamageresistancebonus: -45.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatdamage: 4.0
     hp: 40.0
-    id: 2289
+    id: 17496
     marketGroup: 1694
-    name: Anti-Explosive Shield Hardener I
+    metagroupid: 4
+    metalevel: 8
+    name: Caldari Navy Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -250,41 +177,19 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Anti-Explosive Shield Hardener II:
+  Caldari Navy Kinetic Shield Hardener:
     capacitorneed: 20.0
-    cpu: 44.0
-    duration: 10000.0
-    explosivedamageresistancebonus: -44.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 2297
-    marketGroup: 1694
-    metalevel: 5
-    name: Anti-Explosive Shield Hardener II
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
-  Anti-Kinetic Shield Hardener I:
-    capacitorneed: 20.0
-    cpu: 40.0
-    duration: 10000.0
+    cpu: 30.0
+    duration: 12000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
+    heatdamage: 4.0
     hp: 40.0
-    id: 2291
-    kineticdamageresistancebonus: -40.0
+    id: 17495
+    kineticdamageresistancebonus: -45.0
     marketGroup: 1693
-    name: Anti-Kinetic Shield Hardener I
+    metagroupid: 4
+    metalevel: 8
+    name: Caldari Navy Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -297,78 +202,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Anti-Kinetic Shield Hardener II:
-    capacitorneed: 20.0
-    cpu: 44.0
-    duration: 10000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 2299
-    kineticdamageresistancebonus: -44.0
-    marketGroup: 1693
-    metalevel: 5
-    name: Anti-Kinetic Shield Hardener II
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    volume: 5.0
-  Anti-Thermal Shield Hardener I:
-    capacitorneed: 20.0
-    cpu: 40.0
-    duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 2295
-    marketGroup: 1692
-    name: Anti-Thermal Shield Hardener I
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -40.0
-    volume: 5.0
-  Anti-Thermal Shield Hardener II:
-    capacitorneed: 20.0
-    cpu: 44.0
-    duration: 10000.0
-    heatabsorbtionratemodifier: 0.019999999552965164
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 2303
-    marketGroup: 1692
-    metalevel: 5
-    name: Anti-Thermal Shield Hardener II
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 4
-    requiredthermodynamicsskill: 1
-    techlevel: 2
-    thermaldamageresistancebonus: -44.0
-    volume: 5.0
-  Caldari Navy Adaptive Invulnerability Shield Hardener:
+  Caldari Navy Multispectrum Shield Hardener:
     capacitorneed: 40.0
     cpu: 27.0
     duration: 12000.0
@@ -382,7 +216,7 @@ types:
     marketGroup: 1696
     metagroupid: 4
     metalevel: 8
-    name: Caldari Navy Adaptive Invulnerability Shield Hardener
+    name: Caldari Navy Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -396,82 +230,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -30.0
     volume: 5.0
-  Caldari Navy Anti-EM Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 30.0
-    duration: 12000.0
-    emdamageresistancebonus: -45.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 17499
-    marketGroup: 1695
-    metagroupid: 4
-    metalevel: 8
-    name: Caldari Navy Anti-EM Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Caldari Navy Anti-Explosive Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 30.0
-    duration: 12000.0
-    explosivedamageresistancebonus: -45.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 17496
-    marketGroup: 1694
-    metagroupid: 4
-    metalevel: 8
-    name: Caldari Navy Anti-Explosive Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Caldari Navy Anti-Kinetic Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 30.0
-    duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 17495
-    kineticdamageresistancebonus: -45.0
-    marketGroup: 1693
-    metagroupid: 4
-    metalevel: 8
-    name: Caldari Navy Anti-Kinetic Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Caldari Navy Anti-Thermal Shield Hardener:
+  Caldari Navy Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 30.0
     duration: 12000.0
@@ -482,7 +241,7 @@ types:
     marketGroup: 1692
     metagroupid: 4
     metalevel: 8
-    name: Caldari Navy Anti-Thermal Shield Hardener
+    name: Caldari Navy Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -496,7 +255,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -45.0
     volume: 5.0
-  Civilian Anti-EM Shield Hardener:
+  Civilian EM Shield Hardener:
     capacitorneed: 25.0
     cpu: 40.0
     duration: 10000.0
@@ -506,7 +265,7 @@ types:
     hp: 40.0
     id: 30420
     marketGroup: 1695
-    name: Civilian Anti-EM Shield Hardener
+    name: Civilian EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -519,7 +278,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Civilian Anti-Explosive Shield Hardener:
+  Civilian Explosive Shield Hardener:
     capacitorneed: 25.0
     cpu: 40.0
     duration: 10000.0
@@ -529,7 +288,7 @@ types:
     hp: 40.0
     id: 30422
     marketGroup: 1694
-    name: Civilian Anti-Explosive Shield Hardener
+    name: Civilian Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -542,7 +301,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Civilian Anti-Kinetic Shield Hardener:
+  Civilian Kinetic Shield Hardener:
     capacitorneed: 25.0
     cpu: 40.0
     duration: 10000.0
@@ -552,7 +311,7 @@ types:
     id: 30424
     kineticdamageresistancebonus: -28.0
     marketGroup: 1693
-    name: Civilian Anti-Kinetic Shield Hardener
+    name: Civilian Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -565,7 +324,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Civilian Anti-Thermal Shield Hardener:
+  Civilian Thermal Shield Hardener:
     capacitorneed: 25.0
     cpu: 40.0
     duration: 10000.0
@@ -574,7 +333,7 @@ types:
     hp: 40.0
     id: 30342
     marketGroup: 1692
-    name: Civilian Anti-Thermal Shield Hardener
+    name: Civilian Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -588,7 +347,79 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -28.0
     volume: 5.0
-  Compact Adaptive Invulnerability Shield Hardener:
+  Compact EM Shield Hardener:
+    capacitorneed: 20.0
+    cpu: 30.0
+    duration: 10000.0
+    emdamageresistancebonus: -42.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 9622
+    marketGroup: 1695
+    metalevel: 1
+    name: Compact EM Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Compact Explosive Shield Hardener:
+    capacitorneed: 20.0
+    cpu: 30.0
+    duration: 10000.0
+    explosivedamageresistancebonus: -42.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 9646
+    marketGroup: 1694
+    metalevel: 1
+    name: Compact Explosive Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Compact Kinetic Shield Hardener:
+    capacitorneed: 20.0
+    cpu: 30.0
+    duration: 10000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 9608
+    kineticdamageresistancebonus: -42.0
+    marketGroup: 1693
+    metalevel: 1
+    name: Compact Kinetic Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Compact Multispectrum Shield Hardener:
     capacitorneed: 40.0
     cpu: 27.0
     duration: 10000.0
@@ -601,7 +432,7 @@ types:
     kineticdamageresistancebonus: -23.200000762939453
     marketGroup: 1696
     metalevel: 1
-    name: Compact Adaptive Invulnerability Shield Hardener
+    name: Compact Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -615,79 +446,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -23.200000762939453
     volume: 5.0
-  Compact Anti-EM Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 30.0
-    duration: 10000.0
-    emdamageresistancebonus: -42.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 9622
-    marketGroup: 1695
-    metalevel: 1
-    name: Compact Anti-EM Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Compact Anti-Explosive Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 30.0
-    duration: 10000.0
-    explosivedamageresistancebonus: -42.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 9646
-    marketGroup: 1694
-    metalevel: 1
-    name: Compact Anti-Explosive Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Compact Anti-Kinetic Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 30.0
-    duration: 10000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 9608
-    kineticdamageresistancebonus: -42.0
-    marketGroup: 1693
-    metalevel: 1
-    name: Compact Anti-Kinetic Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Compact Anti-Thermal Shield Hardener:
+  Compact Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 30.0
     duration: 10000.0
@@ -697,7 +456,7 @@ types:
     id: 9660
     marketGroup: 1692
     metalevel: 1
-    name: Compact Anti-Thermal Shield Hardener
+    name: Compact Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -711,7 +470,82 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -42.0
     volume: 5.0
-  Domination Adaptive Invulnerability Shield Hardener:
+  Domination EM Shield Hardener:
+    capacitorneed: 10.0
+    cpu: 36.0
+    duration: 12000.0
+    emdamageresistancebonus: -44.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 13994
+    marketGroup: 1695
+    metagroupid: 4
+    metalevel: 8
+    name: Domination EM Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Domination Explosive Shield Hardener:
+    capacitorneed: 10.0
+    cpu: 36.0
+    duration: 12000.0
+    explosivedamageresistancebonus: -44.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 13996
+    marketGroup: 1694
+    metagroupid: 4
+    metalevel: 8
+    name: Domination Explosive Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Domination Kinetic Shield Hardener:
+    capacitorneed: 10.0
+    cpu: 36.0
+    duration: 12000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 13997
+    kineticdamageresistancebonus: -44.0
+    marketGroup: 1693
+    metagroupid: 4
+    metalevel: 8
+    name: Domination Kinetic Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Domination Multispectrum Shield Hardener:
     capacitorneed: 16.0
     cpu: 34.0
     duration: 12000.0
@@ -725,7 +559,7 @@ types:
     marketGroup: 1696
     metagroupid: 4
     metalevel: 8
-    name: Domination Adaptive Invulnerability Shield Hardener
+    name: Domination Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -739,82 +573,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -26.0
     volume: 5.0
-  Domination Anti-EM Shield Hardener:
-    capacitorneed: 10.0
-    cpu: 36.0
-    duration: 12000.0
-    emdamageresistancebonus: -44.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 13994
-    marketGroup: 1695
-    metagroupid: 4
-    metalevel: 8
-    name: Domination Anti-EM Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Domination Anti-Explosive Shield Hardener:
-    capacitorneed: 10.0
-    cpu: 36.0
-    duration: 12000.0
-    explosivedamageresistancebonus: -44.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 13996
-    marketGroup: 1694
-    metagroupid: 4
-    metalevel: 8
-    name: Domination Anti-Explosive Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Domination Anti-Kinetic Shield Hardener:
-    capacitorneed: 10.0
-    cpu: 36.0
-    duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 13997
-    kineticdamageresistancebonus: -44.0
-    marketGroup: 1693
-    metagroupid: 4
-    metalevel: 8
-    name: Domination Anti-Kinetic Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Domination Anti-Thermal Shield Hardener:
+  Domination Thermal Shield Hardener:
     capacitorneed: 10.0
     cpu: 36.0
     duration: 12000.0
@@ -825,7 +584,7 @@ types:
     marketGroup: 1692
     metagroupid: 4
     metalevel: 8
-    name: Domination Anti-Thermal Shield Hardener
+    name: Domination Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -839,7 +598,82 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -44.0
     volume: 5.0
-  Dread Guristas Adaptive Invulnerability Shield Hardener:
+  Dread Guristas EM Shield Hardener:
+    capacitorneed: 20.0
+    cpu: 33.0
+    duration: 15000.0
+    emdamageresistancebonus: -45.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 13965
+    marketGroup: 1695
+    metagroupid: 4
+    metalevel: 8
+    name: Dread Guristas EM Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Dread Guristas Explosive Shield Hardener:
+    capacitorneed: 20.0
+    cpu: 33.0
+    duration: 15000.0
+    explosivedamageresistancebonus: -45.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 13967
+    marketGroup: 1694
+    metagroupid: 4
+    metalevel: 8
+    name: Dread Guristas Explosive Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Dread Guristas Kinetic Shield Hardener:
+    capacitorneed: 20.0
+    cpu: 33.0
+    duration: 15000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 13968
+    kineticdamageresistancebonus: -45.0
+    marketGroup: 1693
+    metagroupid: 4
+    metalevel: 8
+    name: Dread Guristas Kinetic Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Dread Guristas Multispectrum Shield Hardener:
     capacitorneed: 40.0
     cpu: 30.0
     duration: 15000.0
@@ -853,7 +687,7 @@ types:
     marketGroup: 1696
     metagroupid: 4
     metalevel: 8
-    name: Dread Guristas Adaptive Invulnerability Shield Hardener
+    name: Dread Guristas Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -867,82 +701,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -30.0
     volume: 5.0
-  Dread Guristas Anti-EM Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 33.0
-    duration: 15000.0
-    emdamageresistancebonus: -45.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 13965
-    marketGroup: 1695
-    metagroupid: 4
-    metalevel: 8
-    name: Dread Guristas Anti-EM Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Dread Guristas Anti-Explosive Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 33.0
-    duration: 15000.0
-    explosivedamageresistancebonus: -45.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 13967
-    marketGroup: 1694
-    metagroupid: 4
-    metalevel: 8
-    name: Dread Guristas Anti-Explosive Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Dread Guristas Anti-Kinetic Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 33.0
-    duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 3.4000000953674316
-    hp: 40.0
-    id: 13968
-    kineticdamageresistancebonus: -45.0
-    marketGroup: 1693
-    metagroupid: 4
-    metalevel: 8
-    name: Dread Guristas Anti-Kinetic Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Dread Guristas Anti-Thermal Shield Hardener:
+  Dread Guristas Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 33.0
     duration: 15000.0
@@ -953,7 +712,7 @@ types:
     marketGroup: 1692
     metagroupid: 4
     metalevel: 8
-    name: Dread Guristas Anti-Thermal Shield Hardener
+    name: Dread Guristas Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -967,7 +726,126 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -45.0
     volume: 5.0
-  Enduring Adaptive Invulnerability Shield Hardener:
+  EM Shield Hardener I:
+    capacitorneed: 20.0
+    cpu: 40.0
+    duration: 10000.0
+    emdamageresistancebonus: -40.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 2293
+    marketGroup: 1695
+    name: EM Shield Hardener I
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  EM Shield Hardener II:
+    capacitorneed: 20.0
+    cpu: 44.0
+    duration: 10000.0
+    emdamageresistancebonus: -44.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 2301
+    marketGroup: 1695
+    metalevel: 5
+    name: EM Shield Hardener II
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 5.0
+  Enduring EM Shield Hardener:
+    capacitorneed: 16.0
+    cpu: 40.0
+    duration: 15000.0
+    emdamageresistancebonus: -42.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 54292
+    marketGroup: 1695
+    metalevel: 1
+    name: Enduring EM Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Enduring Explosive Shield Hardener:
+    capacitorneed: 16.0
+    cpu: 40.0
+    duration: 15000.0
+    explosivedamageresistancebonus: -42.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 54293
+    marketGroup: 1694
+    metalevel: 1
+    name: Enduring Explosive Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Enduring Kinetic Shield Hardener:
+    capacitorneed: 16.0
+    cpu: 40.0
+    duration: 15000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 54294
+    kineticdamageresistancebonus: -42.0
+    marketGroup: 1693
+    metalevel: 1
+    name: Enduring Kinetic Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Enduring Multispectrum Shield Hardener:
     capacitorneed: 32.0
     cpu: 40.0
     duration: 15000.0
@@ -980,7 +858,7 @@ types:
     kineticdamageresistancebonus: -23.200000762939453
     marketGroup: 1696
     metalevel: 1
-    name: Enduring Adaptive Invulnerability Shield Hardener
+    name: Enduring Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -994,79 +872,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -23.200000762939453
     volume: 5.0
-  Enduring Anti-EM Shield Hardener:
-    capacitorneed: 16.0
-    cpu: 40.0
-    duration: 15000.0
-    emdamageresistancebonus: -42.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 54292
-    marketGroup: 1695
-    metalevel: 1
-    name: Enduring Anti-EM Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Enduring Anti-Explosive Shield Hardener:
-    capacitorneed: 16.0
-    cpu: 40.0
-    duration: 15000.0
-    explosivedamageresistancebonus: -42.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 54293
-    marketGroup: 1694
-    metalevel: 1
-    name: Enduring Anti-Explosive Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Enduring Anti-Kinetic Shield Hardener:
-    capacitorneed: 16.0
-    cpu: 40.0
-    duration: 15000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 54294
-    kineticdamageresistancebonus: -42.0
-    marketGroup: 1693
-    metalevel: 1
-    name: Enduring Anti-Kinetic Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Enduring Anti-Thermal Shield Hardener:
+  Enduring Thermal Shield Hardener:
     capacitorneed: 16.0
     cpu: 40.0
     duration: 15000.0
@@ -1076,7 +882,7 @@ types:
     id: 54295
     marketGroup: 1692
     metalevel: 1
-    name: Enduring Anti-Thermal Shield Hardener
+    name: Enduring Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1090,7 +896,82 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -42.0
     volume: 5.0
-  Estamel's Modified Adaptive Invulnerability Shield Hardener:
+  Estamel's Modified EM Shield Hardener:
+    capacitorneed: 20.0
+    cpu: 42.0
+    duration: 12000.0
+    emdamageresistancebonus: -51.20000076293945
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 14755
+    marketGroup: 1695
+    metagroupid: 5
+    metalevel: 17
+    name: Estamel's Modified EM Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Estamel's Modified Explosive Shield Hardener:
+    capacitorneed: 20.0
+    cpu: 42.0
+    duration: 12000.0
+    explosivedamageresistancebonus: -51.20000076293945
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 14759
+    marketGroup: 1694
+    metagroupid: 5
+    metalevel: 17
+    name: Estamel's Modified Explosive Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Estamel's Modified Kinetic Shield Hardener:
+    capacitorneed: 20.0
+    cpu: 42.0
+    duration: 12000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 14751
+    kineticdamageresistancebonus: -51.20000076293945
+    marketGroup: 1693
+    metagroupid: 5
+    metalevel: 17
+    name: Estamel's Modified Kinetic Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Estamel's Modified Multispectrum Shield Hardener:
     capacitorneed: 40.0
     cpu: 37.0
     duration: 12000.0
@@ -1104,7 +985,7 @@ types:
     marketGroup: 1696
     metagroupid: 5
     metalevel: 17
-    name: Estamel's Modified Adaptive Invulnerability Shield Hardener
+    name: Estamel's Modified Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1118,82 +999,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -40.0
     volume: 5.0
-  Estamel's Modified Anti-EM Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 42.0
-    duration: 12000.0
-    emdamageresistancebonus: -51.20000076293945
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 14755
-    marketGroup: 1695
-    metagroupid: 5
-    metalevel: 17
-    name: Estamel's Modified Anti-EM Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Estamel's Modified Anti-Explosive Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 42.0
-    duration: 12000.0
-    explosivedamageresistancebonus: -51.20000076293945
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 14759
-    marketGroup: 1694
-    metagroupid: 5
-    metalevel: 17
-    name: Estamel's Modified Anti-Explosive Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Estamel's Modified Anti-Kinetic Shield Hardener:
-    capacitorneed: 20.0
-    cpu: 42.0
-    duration: 12000.0
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 14751
-    kineticdamageresistancebonus: -51.20000076293945
-    marketGroup: 1693
-    metagroupid: 5
-    metalevel: 17
-    name: Estamel's Modified Anti-Kinetic Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    volume: 5.0
-  Estamel's Modified Anti-Thermal Shield Hardener:
+  Estamel's Modified Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 42.0
     duration: 12000.0
@@ -1204,7 +1010,7 @@ types:
     marketGroup: 1692
     metagroupid: 5
     metalevel: 17
-    name: Estamel's Modified Anti-Thermal Shield Hardener
+    name: Estamel's Modified Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1218,11 +1024,58 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -51.20000076293945
     volume: 5.0
-  Gist A-Type Anti-EM Shield Hardener:
+  Explosive Shield Hardener I:
+    capacitorneed: 20.0
+    cpu: 40.0
+    duration: 10000.0
+    explosivedamageresistancebonus: -40.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 2289
+    marketGroup: 1694
+    name: Explosive Shield Hardener I
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Explosive Shield Hardener II:
+    capacitorneed: 20.0
+    cpu: 44.0
+    duration: 10000.0
+    explosivedamageresistancebonus: -44.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 2297
+    marketGroup: 1694
+    metalevel: 5
+    name: Explosive Shield Hardener II
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 5.0
+  Gist A-Type EM Shield Hardener:
     capacitorneed: 18.0
     cpu: 37.0
     duration: 12000.0
-    emdamageresistancebonus: -47.599998474121094
+    emdamageresistancebonus: -48.20000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1230,7 +1083,7 @@ types:
     marketGroup: 1695
     metagroupid: 6
     metalevel: 14
-    name: Gist A-Type Anti-EM Shield Hardener
+    name: Gist A-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1243,11 +1096,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist A-Type Anti-Explosive Shield Hardener:
+  Gist A-Type Explosive Shield Hardener:
     capacitorneed: 18.0
     cpu: 37.0
     duration: 12000.0
-    explosivedamageresistancebonus: -47.599998474121094
+    explosivedamageresistancebonus: -48.20000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1255,7 +1108,7 @@ types:
     marketGroup: 1694
     metagroupid: 6
     metalevel: 14
-    name: Gist A-Type Anti-Explosive Shield Hardener
+    name: Gist A-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1268,7 +1121,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist A-Type Anti-Kinetic Shield Hardener:
+  Gist A-Type Kinetic Shield Hardener:
     capacitorneed: 18.0
     cpu: 37.0
     duration: 12000.0
@@ -1276,11 +1129,11 @@ types:
     heatdamage: 4.0
     hp: 40.0
     id: 19273
-    kineticdamageresistancebonus: -47.599998474121094
+    kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1693
     metagroupid: 6
     metalevel: 14
-    name: Gist A-Type Anti-Kinetic Shield Hardener
+    name: Gist A-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1293,7 +1146,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist A-Type Anti-Thermal Shield Hardener:
+  Gist A-Type Thermal Shield Hardener:
     capacitorneed: 18.0
     cpu: 37.0
     duration: 12000.0
@@ -1304,7 +1157,7 @@ types:
     marketGroup: 1692
     metagroupid: 6
     metalevel: 14
-    name: Gist A-Type Anti-Thermal Shield Hardener
+    name: Gist A-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1316,13 +1169,13 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.599998474121094
+    thermaldamageresistancebonus: -48.20000076293945
     volume: 5.0
-  Gist B-Type Anti-EM Shield Hardener:
+  Gist B-Type EM Shield Hardener:
     capacitorneed: 17.0
     cpu: 34.0
     duration: 12000.0
-    emdamageresistancebonus: -45.79999923706055
+    emdamageresistancebonus: -46.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1330,7 +1183,7 @@ types:
     marketGroup: 1695
     metagroupid: 6
     metalevel: 12
-    name: Gist B-Type Anti-EM Shield Hardener
+    name: Gist B-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1343,11 +1196,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist B-Type Anti-Explosive Shield Hardener:
+  Gist B-Type Explosive Shield Hardener:
     capacitorneed: 17.0
     cpu: 34.0
     duration: 12000.0
-    explosivedamageresistancebonus: -45.79999923706055
+    explosivedamageresistancebonus: -46.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1355,7 +1208,7 @@ types:
     marketGroup: 1694
     metagroupid: 6
     metalevel: 12
-    name: Gist B-Type Anti-Explosive Shield Hardener
+    name: Gist B-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1368,7 +1221,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist B-Type Anti-Kinetic Shield Hardener:
+  Gist B-Type Kinetic Shield Hardener:
     capacitorneed: 17.0
     cpu: 34.0
     duration: 12000.0
@@ -1376,11 +1229,11 @@ types:
     heatdamage: 4.0
     hp: 40.0
     id: 19271
-    kineticdamageresistancebonus: -45.79999923706055
+    kineticdamageresistancebonus: -46.599998474121094
     marketGroup: 1693
     metagroupid: 6
     metalevel: 12
-    name: Gist B-Type Anti-Kinetic Shield Hardener
+    name: Gist B-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1393,7 +1246,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist B-Type Anti-Thermal Shield Hardener:
+  Gist B-Type Thermal Shield Hardener:
     capacitorneed: 17.0
     cpu: 34.0
     duration: 12000.0
@@ -1404,7 +1257,7 @@ types:
     marketGroup: 1692
     metagroupid: 6
     metalevel: 12
-    name: Gist B-Type Anti-Thermal Shield Hardener
+    name: Gist B-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1416,9 +1269,9 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -45.79999923706055
+    thermaldamageresistancebonus: -46.599998474121094
     volume: 5.0
-  Gist C-Type Anti-EM Shield Hardener:
+  Gist C-Type EM Shield Hardener:
     capacitorneed: 16.0
     cpu: 31.0
     duration: 12000.0
@@ -1430,7 +1283,7 @@ types:
     marketGroup: 1695
     metagroupid: 6
     metalevel: 10
-    name: Gist C-Type Anti-EM Shield Hardener
+    name: Gist C-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1443,7 +1296,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist C-Type Anti-Explosive Shield Hardener:
+  Gist C-Type Explosive Shield Hardener:
     capacitorneed: 16.0
     cpu: 31.0
     duration: 12000.0
@@ -1455,7 +1308,7 @@ types:
     marketGroup: 1694
     metagroupid: 6
     metalevel: 10
-    name: Gist C-Type Anti-Explosive Shield Hardener
+    name: Gist C-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1468,7 +1321,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist C-Type Anti-Kinetic Shield Hardener:
+  Gist C-Type Kinetic Shield Hardener:
     capacitorneed: 16.0
     cpu: 31.0
     duration: 12000.0
@@ -1480,7 +1333,7 @@ types:
     marketGroup: 1693
     metagroupid: 6
     metalevel: 10
-    name: Gist C-Type Anti-Kinetic Shield Hardener
+    name: Gist C-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1493,7 +1346,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist C-Type Anti-Thermal Shield Hardener:
+  Gist C-Type Thermal Shield Hardener:
     capacitorneed: 16.0
     cpu: 31.0
     duration: 12000.0
@@ -1504,7 +1357,7 @@ types:
     marketGroup: 1692
     metagroupid: 6
     metalevel: 10
-    name: Gist C-Type Anti-Thermal Shield Hardener
+    name: Gist C-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1518,11 +1371,11 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -45.0
     volume: 5.0
-  Gist X-Type Anti-EM Shield Hardener:
+  Gist X-Type EM Shield Hardener:
     capacitorneed: 19.0
     cpu: 40.0
     duration: 12000.0
-    emdamageresistancebonus: -49.400001525878906
+    emdamageresistancebonus: -49.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1530,7 +1383,7 @@ types:
     marketGroup: 1695
     metagroupid: 6
     metalevel: 16
-    name: Gist X-Type Anti-EM Shield Hardener
+    name: Gist X-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1543,11 +1396,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist X-Type Anti-Explosive Shield Hardener:
+  Gist X-Type Explosive Shield Hardener:
     capacitorneed: 19.0
     cpu: 40.0
     duration: 12000.0
-    explosivedamageresistancebonus: -49.400001525878906
+    explosivedamageresistancebonus: -49.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1555,7 +1408,7 @@ types:
     marketGroup: 1694
     metagroupid: 6
     metalevel: 16
-    name: Gist X-Type Anti-Explosive Shield Hardener
+    name: Gist X-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1568,7 +1421,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist X-Type Anti-Kinetic Shield Hardener:
+  Gist X-Type Kinetic Shield Hardener:
     capacitorneed: 19.0
     cpu: 40.0
     duration: 12000.0
@@ -1576,11 +1429,11 @@ types:
     heatdamage: 4.0
     hp: 40.0
     id: 19287
-    kineticdamageresistancebonus: -49.400001525878906
+    kineticdamageresistancebonus: -49.79999923706055
     marketGroup: 1693
     metagroupid: 6
     metalevel: 16
-    name: Gist X-Type Anti-Kinetic Shield Hardener
+    name: Gist X-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1593,7 +1446,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Gist X-Type Anti-Thermal Shield Hardener:
+  Gist X-Type Thermal Shield Hardener:
     capacitorneed: 19.0
     cpu: 40.0
     duration: 12000.0
@@ -1604,7 +1457,7 @@ types:
     marketGroup: 1692
     metagroupid: 6
     metalevel: 16
-    name: Gist X-Type Anti-Thermal Shield Hardener
+    name: Gist X-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1616,23 +1469,23 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.400001525878906
+    thermaldamageresistancebonus: -49.79999923706055
     volume: 5.0
-  Gistum A-Type Adaptive Invulnerability Shield Hardener:
+  Gistum A-Type Multispectrum Shield Hardener:
     capacitorneed: 36.0
     cpu: 33.0
     duration: 12000.0
-    emdamageresistancebonus: -35.0
-    explosivedamageresistancebonus: -35.0
+    emdamageresistancebonus: -36.29999923706055
+    explosivedamageresistancebonus: -36.29999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
     id: 4346
-    kineticdamageresistancebonus: -35.0
+    kineticdamageresistancebonus: -36.29999923706055
     marketGroup: 1696
     metagroupid: 6
     metalevel: 14
-    name: Gistum A-Type Adaptive Invulnerability Shield Hardener
+    name: Gistum A-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1644,23 +1497,23 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -35.0
+    thermaldamageresistancebonus: -36.29999923706055
     volume: 5.0
-  Gistum B-Type Adaptive Invulnerability Shield Hardener:
+  Gistum B-Type Multispectrum Shield Hardener:
     capacitorneed: 34.0
     cpu: 30.0
     duration: 12000.0
-    emdamageresistancebonus: -32.5
-    explosivedamageresistancebonus: -32.5
+    emdamageresistancebonus: -33.70000076293945
+    explosivedamageresistancebonus: -33.70000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
     id: 4345
-    kineticdamageresistancebonus: -32.5
+    kineticdamageresistancebonus: -33.70000076293945
     marketGroup: 1696
     metagroupid: 6
     metalevel: 12
-    name: Gistum B-Type Adaptive Invulnerability Shield Hardener
+    name: Gistum B-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1672,9 +1525,9 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -32.5
+    thermaldamageresistancebonus: -33.70000076293945
     volume: 5.0
-  Gistum C-Type Adaptive Invulnerability Shield Hardener:
+  Gistum C-Type Multispectrum Shield Hardener:
     capacitorneed: 32.0
     cpu: 27.0
     duration: 12000.0
@@ -1688,7 +1541,7 @@ types:
     marketGroup: 1696
     metagroupid: 6
     metalevel: 10
-    name: Gistum C-Type Adaptive Invulnerability Shield Hardener
+    name: Gistum C-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1702,39 +1555,11 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -30.0
     volume: 5.0
-  Kaikka's Modified Adaptive Invulnerability Shield Hardener:
-    capacitorneed: 40.0
-    cpu: 29.0
-    duration: 12000.0
-    emdamageresistancebonus: -32.5
-    explosivedamageresistancebonus: -32.5
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 14764
-    kineticdamageresistancebonus: -32.5
-    marketGroup: 1696
-    metagroupid: 5
-    metalevel: 11
-    name: Kaikka's Modified Adaptive Invulnerability Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -32.5
-    volume: 5.0
-  Kaikka's Modified Anti-EM Shield Hardener:
+  Kaikka's Modified EM Shield Hardener:
     capacitorneed: 20.0
     cpu: 33.0
     duration: 12000.0
-    emdamageresistancebonus: -45.79999923706055
+    emdamageresistancebonus: -46.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1742,7 +1567,7 @@ types:
     marketGroup: 1695
     metagroupid: 5
     metalevel: 11
-    name: Kaikka's Modified Anti-EM Shield Hardener
+    name: Kaikka's Modified EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1755,11 +1580,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Kaikka's Modified Anti-Explosive Shield Hardener:
+  Kaikka's Modified Explosive Shield Hardener:
     capacitorneed: 20.0
     cpu: 33.0
     duration: 12000.0
-    explosivedamageresistancebonus: -45.79999923706055
+    explosivedamageresistancebonus: -46.599998474121094
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1767,7 +1592,7 @@ types:
     marketGroup: 1694
     metagroupid: 5
     metalevel: 11
-    name: Kaikka's Modified Anti-Explosive Shield Hardener
+    name: Kaikka's Modified Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1780,7 +1605,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Kaikka's Modified Anti-Kinetic Shield Hardener:
+  Kaikka's Modified Kinetic Shield Hardener:
     capacitorneed: 20.0
     cpu: 33.0
     duration: 12000.0
@@ -1788,11 +1613,11 @@ types:
     heatdamage: 4.0
     hp: 40.0
     id: 14748
-    kineticdamageresistancebonus: -45.79999923706055
+    kineticdamageresistancebonus: -46.599998474121094
     marketGroup: 1693
     metagroupid: 5
     metalevel: 11
-    name: Kaikka's Modified Anti-Kinetic Shield Hardener
+    name: Kaikka's Modified Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1805,7 +1630,35 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Kaikka's Modified Anti-Thermal Shield Hardener:
+  Kaikka's Modified Multispectrum Shield Hardener:
+    capacitorneed: 40.0
+    cpu: 29.0
+    duration: 12000.0
+    emdamageresistancebonus: -33.70000076293945
+    explosivedamageresistancebonus: -33.70000076293945
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 14764
+    kineticdamageresistancebonus: -33.70000076293945
+    marketGroup: 1696
+    metagroupid: 5
+    metalevel: 11
+    name: Kaikka's Modified Multispectrum Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -33.70000076293945
+    volume: 5.0
+  Kaikka's Modified Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 33.0
     duration: 12000.0
@@ -1816,7 +1669,7 @@ types:
     marketGroup: 1692
     metagroupid: 5
     metalevel: 11
-    name: Kaikka's Modified Anti-Thermal Shield Hardener
+    name: Kaikka's Modified Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1828,13 +1681,113 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -45.79999923706055
+    thermaldamageresistancebonus: -46.599998474121094
     volume: 5.0
-  Pith A-Type Anti-EM Shield Hardener:
+  Kinetic Shield Hardener I:
+    capacitorneed: 20.0
+    cpu: 40.0
+    duration: 10000.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 2291
+    kineticdamageresistancebonus: -40.0
+    marketGroup: 1693
+    name: Kinetic Shield Hardener I
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    volume: 5.0
+  Kinetic Shield Hardener II:
+    capacitorneed: 20.0
+    cpu: 44.0
+    duration: 10000.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 2299
+    kineticdamageresistancebonus: -44.0
+    marketGroup: 1693
+    metalevel: 5
+    name: Kinetic Shield Hardener II
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    volume: 5.0
+  Multispectrum Shield Hardener I:
+    capacitorneed: 40.0
+    cpu: 40.0
+    duration: 10000.0
+    emdamageresistancebonus: -20.0
+    explosivedamageresistancebonus: -20.0
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 578
+    kineticdamageresistancebonus: -20.0
+    marketGroup: 1696
+    name: Multispectrum Shield Hardener I
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -20.0
+    volume: 5.0
+  Multispectrum Shield Hardener II:
+    capacitorneed: 32.0
+    cpu: 44.0
+    duration: 10000.0
+    emdamageresistancebonus: -26.0
+    explosivedamageresistancebonus: -26.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 2281
+    kineticdamageresistancebonus: -26.0
+    marketGroup: 1696
+    metalevel: 5
+    name: Multispectrum Shield Hardener II
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    thermaldamageresistancebonus: -26.0
+    volume: 5.0
+  Pith A-Type EM Shield Hardener:
     capacitorneed: 20.0
     cpu: 39.0
     duration: 12000.0
-    emdamageresistancebonus: -49.400001525878906
+    emdamageresistancebonus: -49.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1842,7 +1795,7 @@ types:
     marketGroup: 1695
     metagroupid: 6
     metalevel: 14
-    name: Pith A-Type Anti-EM Shield Hardener
+    name: Pith A-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1855,11 +1808,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith A-Type Anti-Explosive Shield Hardener:
+  Pith A-Type Explosive Shield Hardener:
     capacitorneed: 20.0
     cpu: 39.0
     duration: 12000.0
-    explosivedamageresistancebonus: -49.400001525878906
+    explosivedamageresistancebonus: -49.0
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1867,7 +1820,7 @@ types:
     marketGroup: 1694
     metagroupid: 6
     metalevel: 14
-    name: Pith A-Type Anti-Explosive Shield Hardener
+    name: Pith A-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1880,7 +1833,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith A-Type Anti-Kinetic Shield Hardener:
+  Pith A-Type Kinetic Shield Hardener:
     capacitorneed: 20.0
     cpu: 39.0
     duration: 12000.0
@@ -1888,11 +1841,11 @@ types:
     heatdamage: 4.0
     hp: 40.0
     id: 19274
-    kineticdamageresistancebonus: -49.400001525878906
+    kineticdamageresistancebonus: -49.0
     marketGroup: 1693
     metagroupid: 6
     metalevel: 14
-    name: Pith A-Type Anti-Kinetic Shield Hardener
+    name: Pith A-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1905,7 +1858,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith A-Type Anti-Thermal Shield Hardener:
+  Pith A-Type Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 39.0
     duration: 12000.0
@@ -1916,7 +1869,7 @@ types:
     marketGroup: 1692
     metagroupid: 6
     metalevel: 14
-    name: Pith A-Type Anti-Thermal Shield Hardener
+    name: Pith A-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1928,13 +1881,13 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.400001525878906
+    thermaldamageresistancebonus: -49.0
     volume: 5.0
-  Pith B-Type Anti-EM Shield Hardener:
+  Pith B-Type EM Shield Hardener:
     capacitorneed: 20.0
     cpu: 36.0
     duration: 12000.0
-    emdamageresistancebonus: -47.599998474121094
+    emdamageresistancebonus: -47.400001525878906
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1942,7 +1895,7 @@ types:
     marketGroup: 1695
     metagroupid: 6
     metalevel: 12
-    name: Pith B-Type Anti-EM Shield Hardener
+    name: Pith B-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1955,11 +1908,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith B-Type Anti-Explosive Shield Hardener:
+  Pith B-Type Explosive Shield Hardener:
     capacitorneed: 20.0
     cpu: 36.0
     duration: 12000.0
-    explosivedamageresistancebonus: -47.599998474121094
+    explosivedamageresistancebonus: -47.400001525878906
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -1967,7 +1920,7 @@ types:
     marketGroup: 1694
     metagroupid: 6
     metalevel: 12
-    name: Pith B-Type Anti-Explosive Shield Hardener
+    name: Pith B-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -1980,7 +1933,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith B-Type Anti-Kinetic Shield Hardener:
+  Pith B-Type Kinetic Shield Hardener:
     capacitorneed: 20.0
     cpu: 36.0
     duration: 12000.0
@@ -1988,11 +1941,11 @@ types:
     heatdamage: 4.0
     hp: 40.0
     id: 19272
-    kineticdamageresistancebonus: -47.599998474121094
+    kineticdamageresistancebonus: -47.400001525878906
     marketGroup: 1693
     metagroupid: 6
     metalevel: 12
-    name: Pith B-Type Anti-Kinetic Shield Hardener
+    name: Pith B-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2005,7 +1958,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith B-Type Anti-Thermal Shield Hardener:
+  Pith B-Type Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 36.0
     duration: 12000.0
@@ -2016,7 +1969,7 @@ types:
     marketGroup: 1692
     metagroupid: 6
     metalevel: 12
-    name: Pith B-Type Anti-Thermal Shield Hardener
+    name: Pith B-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2028,9 +1981,9 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.599998474121094
+    thermaldamageresistancebonus: -47.400001525878906
     volume: 5.0
-  Pith C-Type Anti-EM Shield Hardener:
+  Pith C-Type EM Shield Hardener:
     capacitorneed: 20.0
     cpu: 33.0
     duration: 12000.0
@@ -2042,7 +1995,7 @@ types:
     marketGroup: 1695
     metagroupid: 6
     metalevel: 10
-    name: Pith C-Type Anti-EM Shield Hardener
+    name: Pith C-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2055,7 +2008,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith C-Type Anti-Explosive Shield Hardener:
+  Pith C-Type Explosive Shield Hardener:
     capacitorneed: 20.0
     cpu: 33.0
     duration: 12000.0
@@ -2067,7 +2020,7 @@ types:
     marketGroup: 1694
     metagroupid: 6
     metalevel: 10
-    name: Pith C-Type Anti-Explosive Shield Hardener
+    name: Pith C-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2080,7 +2033,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith C-Type Anti-Kinetic Shield Hardener:
+  Pith C-Type Kinetic Shield Hardener:
     capacitorneed: 20.0
     cpu: 33.0
     duration: 12000.0
@@ -2092,7 +2045,7 @@ types:
     marketGroup: 1693
     metagroupid: 6
     metalevel: 10
-    name: Pith C-Type Anti-Kinetic Shield Hardener
+    name: Pith C-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2105,7 +2058,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith C-Type Anti-Thermal Shield Hardener:
+  Pith C-Type Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 33.0
     duration: 12000.0
@@ -2116,7 +2069,7 @@ types:
     marketGroup: 1692
     metagroupid: 6
     metalevel: 10
-    name: Pith C-Type Anti-Thermal Shield Hardener
+    name: Pith C-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2130,11 +2083,11 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -45.79999923706055
     volume: 5.0
-  Pith X-Type Anti-EM Shield Hardener:
+  Pith X-Type EM Shield Hardener:
     capacitorneed: 20.0
     cpu: 42.0
     duration: 12000.0
-    emdamageresistancebonus: -51.20000076293945
+    emdamageresistancebonus: -50.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -2142,7 +2095,7 @@ types:
     marketGroup: 1695
     metagroupid: 6
     metalevel: 16
-    name: Pith X-Type Anti-EM Shield Hardener
+    name: Pith X-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2155,11 +2108,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith X-Type Anti-Explosive Shield Hardener:
+  Pith X-Type Explosive Shield Hardener:
     capacitorneed: 20.0
     cpu: 42.0
     duration: 12000.0
-    explosivedamageresistancebonus: -51.20000076293945
+    explosivedamageresistancebonus: -50.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -2167,7 +2120,7 @@ types:
     marketGroup: 1694
     metagroupid: 6
     metalevel: 16
-    name: Pith X-Type Anti-Explosive Shield Hardener
+    name: Pith X-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2180,7 +2133,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith X-Type Anti-Kinetic Shield Hardener:
+  Pith X-Type Kinetic Shield Hardener:
     capacitorneed: 20.0
     cpu: 42.0
     duration: 12000.0
@@ -2188,11 +2141,11 @@ types:
     heatdamage: 4.0
     hp: 40.0
     id: 19288
-    kineticdamageresistancebonus: -51.20000076293945
+    kineticdamageresistancebonus: -50.79999923706055
     marketGroup: 1693
     metagroupid: 6
     metalevel: 16
-    name: Pith X-Type Anti-Kinetic Shield Hardener
+    name: Pith X-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2205,7 +2158,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Pith X-Type Anti-Thermal Shield Hardener:
+  Pith X-Type Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 42.0
     duration: 12000.0
@@ -2216,7 +2169,7 @@ types:
     marketGroup: 1692
     metagroupid: 6
     metalevel: 16
-    name: Pith X-Type Anti-Thermal Shield Hardener
+    name: Pith X-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2228,9 +2181,9 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -51.20000076293945
+    thermaldamageresistancebonus: -50.79999923706055
     volume: 5.0
-  Pithum A-Type Adaptive Invulnerability Shield Hardener:
+  Pithum A-Type Multispectrum Shield Hardener:
     capacitorneed: 40.0
     cpu: 35.0
     duration: 12000.0
@@ -2244,7 +2197,7 @@ types:
     marketGroup: 1696
     metagroupid: 6
     metalevel: 14
-    name: Pithum A-Type Adaptive Invulnerability Shield Hardener
+    name: Pithum A-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2258,7 +2211,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -37.5
     volume: 5.0
-  Pithum B-Type Adaptive Invulnerability Shield Hardener:
+  Pithum B-Type Multispectrum Shield Hardener:
     capacitorneed: 40.0
     cpu: 32.0
     duration: 12000.0
@@ -2272,7 +2225,7 @@ types:
     marketGroup: 1696
     metagroupid: 6
     metalevel: 12
-    name: Pithum B-Type Adaptive Invulnerability Shield Hardener
+    name: Pithum B-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2286,7 +2239,7 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -35.0
     volume: 5.0
-  Pithum C-Type Adaptive Invulnerability Shield Hardener:
+  Pithum C-Type Multispectrum Shield Hardener:
     capacitorneed: 40.0
     cpu: 29.0
     duration: 12000.0
@@ -2300,7 +2253,7 @@ types:
     marketGroup: 1696
     metagroupid: 6
     metalevel: 10
-    name: Pithum C-Type Adaptive Invulnerability Shield Hardener
+    name: Pithum C-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2314,21 +2267,16 @@ types:
     techlevel: 1
     thermaldamageresistancebonus: -32.5
     volume: 5.0
-  Thon's Modified Adaptive Invulnerability Shield Hardener:
-    capacitorneed: 40.0
-    cpu: 32.0
-    duration: 12000.0
-    emdamageresistancebonus: -35.0
-    explosivedamageresistancebonus: -35.0
+  Thermal Shield Hardener I:
+    capacitorneed: 20.0
+    cpu: 40.0
+    duration: 10000.0
     heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
+    heatdamage: 3.4000000953674316
     hp: 40.0
-    id: 14765
-    kineticdamageresistancebonus: -35.0
-    marketGroup: 1696
-    metagroupid: 5
-    metalevel: 13
-    name: Thon's Modified Adaptive Invulnerability Shield Hardener
+    id: 2295
+    marketGroup: 1692
+    name: Thermal Shield Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2340,13 +2288,37 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -35.0
+    thermaldamageresistancebonus: -40.0
     volume: 5.0
-  Thon's Modified Anti-EM Shield Hardener:
+  Thermal Shield Hardener II:
+    capacitorneed: 20.0
+    cpu: 44.0
+    duration: 10000.0
+    heatabsorbtionratemodifier: 0.019999999552965164
+    heatdamage: 3.4000000953674316
+    hp: 40.0
+    id: 2303
+    marketGroup: 1692
+    metalevel: 5
+    name: Thermal Shield Hardener II
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 4
+    requiredthermodynamicsskill: 1
+    techlevel: 2
+    thermaldamageresistancebonus: -44.0
+    volume: 5.0
+  Thon's Modified EM Shield Hardener:
     capacitorneed: 20.0
     cpu: 36.0
     duration: 12000.0
-    emdamageresistancebonus: -47.599998474121094
+    emdamageresistancebonus: -48.20000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -2354,7 +2326,7 @@ types:
     marketGroup: 1695
     metagroupid: 5
     metalevel: 13
-    name: Thon's Modified Anti-EM Shield Hardener
+    name: Thon's Modified EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2367,11 +2339,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Thon's Modified Anti-Explosive Shield Hardener:
+  Thon's Modified Explosive Shield Hardener:
     capacitorneed: 20.0
     cpu: 36.0
     duration: 12000.0
-    explosivedamageresistancebonus: -47.599998474121094
+    explosivedamageresistancebonus: -48.20000076293945
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -2379,7 +2351,7 @@ types:
     marketGroup: 1694
     metagroupid: 5
     metalevel: 13
-    name: Thon's Modified Anti-Explosive Shield Hardener
+    name: Thon's Modified Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2392,7 +2364,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Thon's Modified Anti-Kinetic Shield Hardener:
+  Thon's Modified Kinetic Shield Hardener:
     capacitorneed: 20.0
     cpu: 36.0
     duration: 12000.0
@@ -2400,11 +2372,11 @@ types:
     heatdamage: 4.0
     hp: 40.0
     id: 14749
-    kineticdamageresistancebonus: -47.599998474121094
+    kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1693
     metagroupid: 5
     metalevel: 13
-    name: Thon's Modified Anti-Kinetic Shield Hardener
+    name: Thon's Modified Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2417,7 +2389,35 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Thon's Modified Anti-Thermal Shield Hardener:
+  Thon's Modified Multispectrum Shield Hardener:
+    capacitorneed: 40.0
+    cpu: 32.0
+    duration: 12000.0
+    emdamageresistancebonus: -36.29999923706055
+    explosivedamageresistancebonus: -36.29999923706055
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 14765
+    kineticdamageresistancebonus: -36.29999923706055
+    marketGroup: 1696
+    metagroupid: 5
+    metalevel: 13
+    name: Thon's Modified Multispectrum Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -36.29999923706055
+    volume: 5.0
+  Thon's Modified Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 36.0
     duration: 12000.0
@@ -2428,7 +2428,7 @@ types:
     marketGroup: 1692
     metagroupid: 5
     metalevel: 13
-    name: Thon's Modified Anti-Thermal Shield Hardener
+    name: Thon's Modified Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2440,41 +2440,13 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -47.599998474121094
+    thermaldamageresistancebonus: -48.20000076293945
     volume: 5.0
-  Vepas's Modified Adaptive Invulnerability Shield Hardener:
-    capacitorneed: 40.0
-    cpu: 35.0
-    duration: 12000.0
-    emdamageresistancebonus: -37.5
-    explosivedamageresistancebonus: -37.5
-    heatabsorbtionratemodifier: 0.009999999776482582
-    heatdamage: 4.0
-    hp: 40.0
-    id: 14766
-    kineticdamageresistancebonus: -37.5
-    marketGroup: 1696
-    metagroupid: 5
-    metalevel: 15
-    name: Vepas's Modified Adaptive Invulnerability Shield Hardener
-    overloadhardeningbonus: 20
-    packagedVolume: 5.0
-    passiveexplosivedamageresonancemultiplier: 1
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3420
-    requiredskill1level: 1
-    requiredthermodynamicsskill: 1
-    techlevel: 1
-    thermaldamageresistancebonus: -37.5
-    volume: 5.0
-  Vepas's Modified Anti-EM Shield Hardener:
+  Vepas's Modified EM Shield Hardener:
     capacitorneed: 20.0
     cpu: 39.0
     duration: 12000.0
-    emdamageresistancebonus: -49.400001525878906
+    emdamageresistancebonus: -49.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -2482,7 +2454,7 @@ types:
     marketGroup: 1695
     metagroupid: 5
     metalevel: 15
-    name: Vepas's Modified Anti-EM Shield Hardener
+    name: Vepas's Modified EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2495,11 +2467,11 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Vepas's Modified Anti-Explosive Shield Hardener:
+  Vepas's Modified Explosive Shield Hardener:
     capacitorneed: 20.0
     cpu: 39.0
     duration: 12000.0
-    explosivedamageresistancebonus: -49.400001525878906
+    explosivedamageresistancebonus: -49.79999923706055
     heatabsorbtionratemodifier: 0.009999999776482582
     heatdamage: 4.0
     hp: 40.0
@@ -2507,7 +2479,7 @@ types:
     marketGroup: 1694
     metagroupid: 5
     metalevel: 15
-    name: Vepas's Modified Anti-Explosive Shield Hardener
+    name: Vepas's Modified Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2520,7 +2492,7 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Vepas's Modified Anti-Kinetic Shield Hardener:
+  Vepas's Modified Kinetic Shield Hardener:
     capacitorneed: 20.0
     cpu: 39.0
     duration: 12000.0
@@ -2528,11 +2500,11 @@ types:
     heatdamage: 4.0
     hp: 40.0
     id: 14750
-    kineticdamageresistancebonus: -49.400001525878906
+    kineticdamageresistancebonus: -49.79999923706055
     marketGroup: 1693
     metagroupid: 5
     metalevel: 15
-    name: Vepas's Modified Anti-Kinetic Shield Hardener
+    name: Vepas's Modified Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2545,7 +2517,35 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
-  Vepas's Modified Anti-Thermal Shield Hardener:
+  Vepas's Modified Multispectrum Shield Hardener:
+    capacitorneed: 40.0
+    cpu: 35.0
+    duration: 12000.0
+    emdamageresistancebonus: -38.79999923706055
+    explosivedamageresistancebonus: -38.79999923706055
+    heatabsorbtionratemodifier: 0.009999999776482582
+    heatdamage: 4.0
+    hp: 40.0
+    id: 14766
+    kineticdamageresistancebonus: -38.79999923706055
+    marketGroup: 1696
+    metagroupid: 5
+    metalevel: 15
+    name: Vepas's Modified Multispectrum Shield Hardener
+    overloadhardeningbonus: 20
+    packagedVolume: 5.0
+    passiveexplosivedamageresonancemultiplier: 1
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3420
+    requiredskill1level: 1
+    requiredthermodynamicsskill: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -38.79999923706055
+    volume: 5.0
+  Vepas's Modified Thermal Shield Hardener:
     capacitorneed: 20.0
     cpu: 39.0
     duration: 12000.0
@@ -2556,7 +2556,7 @@ types:
     marketGroup: 1692
     metagroupid: 5
     metalevel: 15
-    name: Vepas's Modified Anti-Thermal Shield Hardener
+    name: Vepas's Modified Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
     passiveexplosivedamageresonancemultiplier: 1
@@ -2568,5 +2568,5 @@ types:
     requiredskill1level: 1
     requiredthermodynamicsskill: 1
     techlevel: 1
-    thermaldamageresistancebonus: -49.400001525878906
+    thermaldamageresistancebonus: -49.79999923706055
     volume: 5.0

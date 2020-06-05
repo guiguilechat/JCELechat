@@ -4,16 +4,16 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
 
 
 /**
- * Just for the UI to display the ship warp speed.
+ * The item with this attribute set to 1 keeps track of when added to space, and puts that on the slim item, but if it was before downtime the slim item value gets set to -1. Created for supporting long animations upon adding to space.
  */
-public class BaseWarpSpeed
+public class HasLongAnimationWhenAddedToSpaceScene
     extends IntAttribute
 {
-    public static final BaseWarpSpeed INSTANCE = new BaseWarpSpeed();
+    public static final HasLongAnimationWhenAddedToSpaceScene INSTANCE = new HasLongAnimationWhenAddedToSpaceScene();
 
     @Override
     public int getId() {
-        return  1281;
+        return  2827;
     }
 
     @Override
@@ -38,6 +38,6 @@ public class BaseWarpSpeed
 
     @Override
     public String toString() {
-        return "BaseWarpSpeed";
+        return "HasLongAnimationWhenAddedToSpaceScene";
     }
 }

@@ -191,11 +191,11 @@ types:
     warpspeedmultiplier: 5.0
   Council Diplomatic Shuttle:
     agility: 1.0
-    armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.8999999761581421
+    armoremdamageresonance: 0.6700000166893005
+    armorexplosivedamageresonance: 0.6700000166893005
     armorhp: 300.0
-    armorkineticdamageresonance: 0.6499999761581421
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.6700000166893005
+    armorthermaldamageresonance: 0.6700000166893005
     armoruniformity: 0.75
     basewarpspeed: 1
     capacitorcapacity: 250.0
@@ -211,7 +211,7 @@ types:
     heatdissipationratelow: 0.009999999776482582
     heatdissipationratemed: 0.009999999776482582
     heatgenerationmultiplier: 1.0
-    hp: 24.0
+    hp: 50.0
     id: 34496
     jumpfatiguemultiplier: 0.10000000149011612
     kineticdamageresonance: 0.6700000166893005
@@ -221,6 +221,7 @@ types:
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 500.0
+    metalevel: 7
     name: Council Diplomatic Shuttle
     packagedVolume: 500.0
     portionSize: 1
@@ -237,14 +238,14 @@ types:
     scanmagnetometricstrength: 8.0
     scanradarstrength: 8.0
     scanspeed: 5000
-    shieldcapacity: 350.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldcapacity: 300.0
+    shieldemdamageresonance: 0.6700000166893005
+    shieldexplosivedamageresonance: 0.6700000166893005
+    shieldkineticdamageresonance: 0.6700000166893005
     shieldrechargerate: 625000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.6700000166893005
     shielduniformity: 0.5
-    signatureradius: 25.0
+    signatureradius: 20.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005

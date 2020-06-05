@@ -2696,6 +2696,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Basilisk Eden's Hunters SKIN:
+    id: 54908
+    marketGroup: 2078
+    name: Basilisk Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Basilisk Emergency Response Squad SKIN:
     id: 48724
     marketGroup: 2078
@@ -2740,6 +2748,14 @@ types:
     id: 46844
     marketGroup: 2078
     name: Basilisk Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Basilisk Kybernaut Clade SKIN:
+    id: 54917
+    marketGroup: 2078
+    name: Basilisk Kybernaut Clade SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2972,6 +2988,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bifrost Eden's Hunters SKIN:
+    id: 54910
+    marketGroup: 2145
+    name: Bifrost Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bifrost Exoplanets Hunter SKIN:
     id: 45951
     marketGroup: 2145
@@ -2984,6 +3008,14 @@ types:
     id: 46890
     marketGroup: 2145
     name: Bifrost Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bifrost Kybernaut Clade SKIN:
+    id: 54919
+    marketGroup: 2145
+    name: Bifrost Kybernaut Clade SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3414,6 +3446,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix Federal Police SKIN:
+    id: 52436
+    marketGroup: 1958
+    name: Brutix Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Brutix Glacial Drift SKIN:
     id: 46951
     marketGroup: 1958
@@ -3477,6 +3517,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix Navy Issue Federal Police SKIN:
+    id: 52437
+    marketGroup: 2103
+    name: Brutix Navy Issue Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Brutix Navy Issue Glacial Drift SKIN:
     id: 46956
     marketGroup: 2103
@@ -3517,14 +3565,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Brutix Navy Issue Police SKIN:
-    id: 52437
-    marketGroup: 2103
-    name: Brutix Navy Issue Police SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Brutix Navy Issue Sapphire Sungrazer SKIN:
     id: 45025
     marketGroup: 2103
@@ -3537,14 +3577,6 @@ types:
     id: 44928
     marketGroup: 2103
     name: Brutix Navy Issue Spirit SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Brutix Police SKIN:
-    id: 52436
-    marketGroup: 1958
-    name: Brutix Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6793,6 +6825,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dominix Federal Police SKIN:
+    id: 54901
+    marketGroup: 1966
+    name: Dominix Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Dominix Glacial Drift SKIN:
     id: 46957
     marketGroup: 1966
@@ -6882,6 +6922,14 @@ types:
     id: 45916
     marketGroup: 2108
     name: Dominix Navy Issue Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dominix Navy Issue Federal Police SKIN:
+    id: 54902
+    marketGroup: 2108
+    name: Dominix Navy Issue Federal Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7495,10 +7543,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Drekavac Eden's Hunters SKIN:
+    id: 54906
+    marketGroup: 2519
+    name: Drekavac Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Drekavac Hadean Horror SKIN:
     id: 49936
     marketGroup: 2519
     name: Drekavac Hadean Horror SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Drekavac Kybernaut Clade SKIN:
+    id: 54915
+    marketGroup: 2519
+    name: Drekavac Kybernaut Clade SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8080,6 +8144,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Erebus Federal Police SKIN:
+    id: 52440
+    marketGroup: 1979
+    name: Erebus Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Erebus Glacial Drift SKIN:
     id: 46967
     marketGroup: 1979
@@ -8139,14 +8211,6 @@ types:
     id: 46433
     marketGroup: 1979
     name: Erebus Kopis Edge SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Erebus Police SKIN:
-    id: 52440
-    marketGroup: 1979
-    name: Erebus Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8610,6 +8674,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Federation Navy Comet Federal Police SKIN:
+    id: 34718
+    marketGroup: 2000
+    name: Federation Navy Comet Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Federation Navy Comet Glacial Drift SKIN:
     id: 46937
     marketGroup: 2000
@@ -8645,14 +8717,6 @@ types:
   Federation Navy Comet Police Pursuit Serenity Only SKIN:
     id: 37089
     name: Federation Navy Comet Police Pursuit Serenity Only SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Federation Navy Comet Police SKIN:
-    id: 34718
-    marketGroup: 2000
-    name: Federation Navy Comet Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9548,6 +9612,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Guardian Eden's Hunters SKIN:
+    id: 54909
+    marketGroup: 2077
+    name: Guardian Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Guardian Emergency Response Squad SKIN:
     id: 48723
     marketGroup: 2077
@@ -9608,6 +9680,14 @@ types:
     id: 43507
     marketGroup: 2077
     name: Guardian Ironblood SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Guardian Kybernaut Clade SKIN:
+    id: 54918
+    marketGroup: 2077
+    name: Guardian Kybernaut Clade SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11149,6 +11229,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hyperion Federal Police SKIN:
+    id: 52438
+    marketGroup: 1966
+    name: Hyperion Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hyperion Glacial Drift SKIN:
     id: 46958
     marketGroup: 1966
@@ -11200,14 +11288,6 @@ types:
     id: 46424
     marketGroup: 1966
     name: Hyperion Kopis Edge SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Hyperion Police SKIN:
-    id: 52438
-    marketGroup: 1966
-    name: Hyperion Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11925,6 +12005,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ishtar Federal Police SKIN:
+    id: 50003
+    marketGroup: 2071
+    name: Ishtar Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ishtar Glacial Drift SKIN:
     id: 46943
     marketGroup: 2071
@@ -11984,14 +12072,6 @@ types:
     id: 46409
     marketGroup: 2071
     name: Ishtar Kopis Edge SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Ishtar Police SKIN:
-    id: 50003
-    marketGroup: 2071
-    name: Ishtar Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12487,10 +12567,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kikimora Eden's Hunters SKIN:
+    id: 54905
+    marketGroup: 2521
+    name: Kikimora Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kikimora Hadean Horror SKIN:
     id: 49933
     marketGroup: 2521
     name: Kikimora Hadean Horror SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kikimora Kybernaut Clade SKIN:
+    id: 54914
+    marketGroup: 2521
+    name: Kikimora Kybernaut Clade SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12679,6 +12775,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kronos Federal Police SKIN:
+    id: 34817
+    marketGroup: 2026
+    name: Kronos Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kronos Glacial Drift SKIN:
     id: 46961
     marketGroup: 2026
@@ -12722,14 +12826,6 @@ types:
     id: 46427
     marketGroup: 2026
     name: Kronos Kopis Edge SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Kronos Police SKIN:
-    id: 34817
-    marketGroup: 2026
-    name: Kronos Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12955,6 +13051,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Leshak Eden's Hunters SKIN:
+    id: 54907
+    marketGroup: 2482
+    name: Leshak Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Leshak Hadean Horror SKIN:
     id: 48655
     marketGroup: 2482
@@ -12966,6 +13070,14 @@ types:
   Leshak Hadean Horror Serenity Only SKIN:
     id: 49521
     name: Leshak Hadean Horror Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Leshak Kybernaut Clade SKIN:
+    id: 54916
+    marketGroup: 2482
+    name: Leshak Kybernaut Clade SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14453,6 +14565,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Megathron Federal Police SKIN:
+    id: 34802
+    marketGroup: 1966
+    name: Megathron Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Megathron Glacial Drift SKIN:
     id: 46959
     marketGroup: 1966
@@ -14575,14 +14695,6 @@ types:
     id: 49814
     marketGroup: 1966
     name: Megathron Operation Permafrost SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Megathron Police SKIN:
-    id: 34802
-    marketGroup: 1966
-    name: Megathron Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15955,10 +16067,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nestor Eden's Hunters SKIN:
+    id: 54904
+    marketGroup: 1963
+    name: Nestor Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nestor Glacial Drift SKIN:
     id: 47015
     marketGroup: 1963
     name: Nestor Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nestor Kybernaut Clade SKIN:
+    id: 54913
+    marketGroup: 1963
+    name: Nestor Kybernaut Clade SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16280,6 +16408,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ninazu Federal Police SKIN:
+    id: 52439
+    marketGroup: 2280
+    name: Ninazu Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ninazu Frontier Safeguarder SKIN:
     id: 54443
     marketGroup: 2280
@@ -16320,14 +16456,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Ninazu Police SKIN:
-    id: 52439
-    marketGroup: 2280
-    name: Ninazu Police SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
   Ninazu Valimor Legacy SKIN:
     id: 41684
     marketGroup: 2280
@@ -16336,10 +16464,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Noctis Eden's Hunters SKIN:
+    id: 54911
+    marketGroup: 2328
+    name: Noctis Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Noctis Glacial Drift SKIN:
     id: 46994
     marketGroup: 2328
     name: Noctis Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Noctis Kybernaut Clade SKIN:
+    id: 54920
+    marketGroup: 2328
+    name: Noctis Kybernaut Clade SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16448,6 +16592,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nyx Federal Police SKIN:
+    id: 50004
+    marketGroup: 1976
+    name: Nyx Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nyx Glacial Drift SKIN:
     id: 46966
     marketGroup: 1976
@@ -16515,14 +16667,6 @@ types:
     id: 53015
     marketGroup: 1976
     name: Nyx Malagrin Marshlight SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Nyx Police SKIN:
-    id: 50004
-    marketGroup: 1976
-    name: Nyx Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23873,6 +24017,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thanatos Federal Police SKIN:
+    id: 54903
+    marketGroup: 1976
+    name: Thanatos Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thanatos Glacial Drift SKIN:
     id: 46965
     marketGroup: 1976
@@ -24030,6 +24182,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thorax Federal Police SKIN:
+    id: 52435
+    marketGroup: 1992
+    name: Thorax Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thorax Glacial Drift SKIN:
     id: 44185
     marketGroup: 1992
@@ -24097,14 +24257,6 @@ types:
     id: 54446
     marketGroup: 1992
     name: Thorax Permaband Roadies SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Thorax Police SKIN:
-    id: 52435
-    marketGroup: 1992
-    name: Thorax Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25406,6 +25558,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vexor Federal Police SKIN:
+    id: 50002
+    marketGroup: 1992
+    name: Vexor Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vexor Glacial Drift SKIN:
     id: 44184
     marketGroup: 1992
@@ -25500,6 +25660,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vexor Navy Issue Federal Police SKIN:
+    id: 54900
+    marketGroup: 2063
+    name: Vexor Navy Issue Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vexor Navy Issue Glacial Drift SKIN:
     id: 46950
     marketGroup: 2063
@@ -25584,14 +25752,6 @@ types:
     id: 49955
     marketGroup: 2063
     name: Vexor Navy Issue Yoiul Festival YC121 SKIN
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    volume: 0.009999999776482582
-  Vexor Police SKIN:
-    id: 50002
-    marketGroup: 1992
-    name: Vexor Police SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25919,6 +26079,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vindicator Eden's Hunters SKIN:
+    id: 54912
+    marketGroup: 1963
+    name: Vindicator Eden's Hunters SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vindicator Glacial Drift SKIN:
     id: 46977
     marketGroup: 1963
@@ -25939,6 +26107,14 @@ types:
     id: 46042
     marketGroup: 1963
     name: Vindicator IGC SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vindicator Kybernaut Clade SKIN:
+    id: 54921
+    marketGroup: 1963
+    name: Vindicator Kybernaut Clade SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

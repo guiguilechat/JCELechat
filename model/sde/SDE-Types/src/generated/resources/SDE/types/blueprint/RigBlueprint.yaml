@@ -62,174 +62,6 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
-  Capital Anti-EM Pump I Blueprint:
-    id: 31002
-    industryblueprintrank: 20.0
-    marketGroup: 1719
-    name: Capital Anti-EM Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Capital Anti-EM Pump II Blueprint:
-    id: 31008
-    industryblueprintrank: 200.0
-    name: Capital Anti-EM Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Capital Anti-EM Screen Reinforcer I Blueprint:
-    id: 31721
-    industryblueprintrank: 20.0
-    marketGroup: 1729
-    name: Capital Anti-EM Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Capital Anti-EM Screen Reinforcer II Blueprint:
-    id: 31727
-    industryblueprintrank: 200.0
-    name: Capital Anti-EM Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Capital Anti-Explosive Pump I Blueprint:
-    id: 31014
-    industryblueprintrank: 20.0
-    marketGroup: 1719
-    name: Capital Anti-Explosive Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Capital Anti-Explosive Pump II Blueprint:
-    id: 31020
-    industryblueprintrank: 200.0
-    name: Capital Anti-Explosive Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Capital Anti-Explosive Screen Reinforcer I Blueprint:
-    id: 31733
-    industryblueprintrank: 20.0
-    marketGroup: 1729
-    name: Capital Anti-Explosive Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Capital Anti-Explosive Screen Reinforcer II Blueprint:
-    id: 31739
-    industryblueprintrank: 200.0
-    name: Capital Anti-Explosive Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Capital Anti-Kinetic Pump I Blueprint:
-    id: 31026
-    industryblueprintrank: 20.0
-    marketGroup: 1719
-    name: Capital Anti-Kinetic Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Capital Anti-Kinetic Pump II Blueprint:
-    id: 31032
-    industryblueprintrank: 200.0
-    name: Capital Anti-Kinetic Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Capital Anti-Kinetic Screen Reinforcer I Blueprint:
-    id: 31745
-    industryblueprintrank: 20.0
-    marketGroup: 1729
-    name: Capital Anti-Kinetic Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Capital Anti-Kinetic Screen Reinforcer II Blueprint:
-    id: 31751
-    industryblueprintrank: 200.0
-    name: Capital Anti-Kinetic Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Capital Anti-Thermal Pump I Blueprint:
-    id: 31038
-    industryblueprintrank: 20.0
-    marketGroup: 1719
-    name: Capital Anti-Thermal Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Capital Anti-Thermal Pump II Blueprint:
-    id: 31044
-    industryblueprintrank: 200.0
-    name: Capital Anti-Thermal Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Capital Anti-Thermal Screen Reinforcer I Blueprint:
-    id: 31757
-    industryblueprintrank: 20.0
-    marketGroup: 1729
-    name: Capital Anti-Thermal Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Capital Anti-Thermal Screen Reinforcer II Blueprint:
-    id: 31763
-    industryblueprintrank: 200.0
-    name: Capital Anti-Thermal Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
   Capital Auxiliary Nano Pump I Blueprint:
     id: 27065
     industryblueprintrank: 20.0
@@ -596,6 +428,48 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Capital EM Armor Reinforcer I Blueprint:
+    id: 31002
+    industryblueprintrank: 20.0
+    marketGroup: 1719
+    name: Capital EM Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital EM Armor Reinforcer II Blueprint:
+    id: 31008
+    industryblueprintrank: 200.0
+    name: Capital EM Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Capital EM Shield Reinforcer I Blueprint:
+    id: 31721
+    industryblueprintrank: 20.0
+    marketGroup: 1729
+    name: Capital EM Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital EM Shield Reinforcer II Blueprint:
+    id: 31727
+    industryblueprintrank: 200.0
+    name: Capital EM Shield Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
   Capital Egress Port Maximizer I Blueprint:
     id: 31387
     industryblueprintrank: 20.0
@@ -779,6 +653,48 @@ types:
     id: 31152
     industryblueprintrank: 200.0
     name: Capital Engine Thermal Shielding II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Capital Explosive Armor Reinforcer I Blueprint:
+    id: 31014
+    industryblueprintrank: 20.0
+    marketGroup: 1719
+    name: Capital Explosive Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital Explosive Armor Reinforcer II Blueprint:
+    id: 31020
+    industryblueprintrank: 200.0
+    name: Capital Explosive Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Capital Explosive Shield Reinforcer I Blueprint:
+    id: 31733
+    industryblueprintrank: 20.0
+    marketGroup: 1729
+    name: Capital Explosive Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital Explosive Shield Reinforcer II Blueprint:
+    id: 31739
+    industryblueprintrank: 200.0
+    name: Capital Explosive Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1021,6 +937,48 @@ types:
     id: 31285
     industryblueprintrank: 200.0
     name: Capital Ionic Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Capital Kinetic Armor Reinforcer I Blueprint:
+    id: 31026
+    industryblueprintrank: 20.0
+    marketGroup: 1719
+    name: Capital Kinetic Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital Kinetic Armor Reinforcer II Blueprint:
+    id: 31032
+    industryblueprintrank: 200.0
+    name: Capital Kinetic Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Capital Kinetic Shield Reinforcer I Blueprint:
+    id: 31745
+    industryblueprintrank: 20.0
+    marketGroup: 1729
+    name: Capital Kinetic Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital Kinetic Shield Reinforcer II Blueprint:
+    id: 31751
+    industryblueprintrank: 200.0
+    name: Capital Kinetic Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1531,6 +1489,48 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Capital Thermal Armor Reinforcer I Blueprint:
+    id: 31038
+    industryblueprintrank: 20.0
+    marketGroup: 1719
+    name: Capital Thermal Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital Thermal Armor Reinforcer II Blueprint:
+    id: 31044
+    industryblueprintrank: 200.0
+    name: Capital Thermal Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Capital Thermal Shield Reinforcer I Blueprint:
+    id: 31757
+    industryblueprintrank: 20.0
+    marketGroup: 1729
+    name: Capital Thermal Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Capital Thermal Shield Reinforcer II Blueprint:
+    id: 31763
+    industryblueprintrank: 200.0
+    name: Capital Thermal Shield Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
   Capital Tracking Diagnostic Subroutines I Blueprint:
     id: 31351
     industryblueprintrank: 20.0
@@ -1735,174 +1735,6 @@ types:
     id: 26371
     industryblueprintrank: 150.0
     name: Large Ancillary Current Router II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Large Anti-EM Pump I Blueprint:
-    id: 25737
-    industryblueprintrank: 15.0
-    marketGroup: 1202
-    name: Large Anti-EM Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Large Anti-EM Pump II Blueprint:
-    id: 26287
-    industryblueprintrank: 150.0
-    name: Large Anti-EM Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Large Anti-EM Screen Reinforcer I Blueprint:
-    id: 26077
-    industryblueprintrank: 15.0
-    marketGroup: 1269
-    name: Large Anti-EM Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Large Anti-EM Screen Reinforcer II Blueprint:
-    id: 26437
-    industryblueprintrank: 150.0
-    name: Large Anti-EM Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Large Anti-Explosive Pump I Blueprint:
-    id: 25889
-    industryblueprintrank: 15.0
-    marketGroup: 1202
-    name: Large Anti-Explosive Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Large Anti-Explosive Pump II Blueprint:
-    id: 26289
-    industryblueprintrank: 150.0
-    name: Large Anti-Explosive Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Large Anti-Explosive Screen Reinforcer I Blueprint:
-    id: 26079
-    industryblueprintrank: 15.0
-    marketGroup: 1269
-    name: Large Anti-Explosive Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Large Anti-Explosive Screen Reinforcer II Blueprint:
-    id: 26439
-    industryblueprintrank: 150.0
-    name: Large Anti-Explosive Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Large Anti-Kinetic Pump I Blueprint:
-    id: 25891
-    industryblueprintrank: 15.0
-    marketGroup: 1202
-    name: Large Anti-Kinetic Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Large Anti-Kinetic Pump II Blueprint:
-    id: 26291
-    industryblueprintrank: 150.0
-    name: Large Anti-Kinetic Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Large Anti-Kinetic Screen Reinforcer I Blueprint:
-    id: 26081
-    industryblueprintrank: 15.0
-    marketGroup: 1269
-    name: Large Anti-Kinetic Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Large Anti-Kinetic Screen Reinforcer II Blueprint:
-    id: 26441
-    industryblueprintrank: 150.0
-    name: Large Anti-Kinetic Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Large Anti-Thermal Pump I Blueprint:
-    id: 25893
-    industryblueprintrank: 15.0
-    marketGroup: 1202
-    name: Large Anti-Thermal Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Large Anti-Thermal Pump II Blueprint:
-    id: 26293
-    industryblueprintrank: 150.0
-    name: Large Anti-Thermal Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Large Anti-Thermal Screen Reinforcer I Blueprint:
-    id: 26083
-    industryblueprintrank: 15.0
-    marketGroup: 1269
-    name: Large Anti-Thermal Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Large Anti-Thermal Screen Reinforcer II Blueprint:
-    id: 26443
-    industryblueprintrank: 150.0
-    name: Large Anti-Thermal Screen Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2275,6 +2107,48 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Large EM Armor Reinforcer I Blueprint:
+    id: 25737
+    industryblueprintrank: 15.0
+    marketGroup: 1202
+    name: Large EM Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large EM Armor Reinforcer II Blueprint:
+    id: 26287
+    industryblueprintrank: 150.0
+    name: Large EM Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Large EM Shield Reinforcer I Blueprint:
+    id: 26077
+    industryblueprintrank: 15.0
+    marketGroup: 1269
+    name: Large EM Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large EM Shield Reinforcer II Blueprint:
+    id: 26437
+    industryblueprintrank: 150.0
+    name: Large EM Shield Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
   Large Egress Port Maximizer I Blueprint:
     id: 25951
     industryblueprintrank: 15.0
@@ -2458,6 +2332,48 @@ types:
     id: 26309
     industryblueprintrank: 150.0
     name: Large Engine Thermal Shielding II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Large Explosive Armor Reinforcer I Blueprint:
+    id: 25889
+    industryblueprintrank: 15.0
+    marketGroup: 1202
+    name: Large Explosive Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Explosive Armor Reinforcer II Blueprint:
+    id: 26289
+    industryblueprintrank: 150.0
+    name: Large Explosive Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Large Explosive Shield Reinforcer I Blueprint:
+    id: 26079
+    industryblueprintrank: 15.0
+    marketGroup: 1269
+    name: Large Explosive Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Explosive Shield Reinforcer II Blueprint:
+    id: 26439
+    industryblueprintrank: 150.0
+    name: Large Explosive Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2700,6 +2616,48 @@ types:
     id: 26359
     industryblueprintrank: 150.0
     name: Large Ionic Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Large Kinetic Armor Reinforcer I Blueprint:
+    id: 25891
+    industryblueprintrank: 15.0
+    marketGroup: 1202
+    name: Large Kinetic Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Kinetic Armor Reinforcer II Blueprint:
+    id: 26291
+    industryblueprintrank: 150.0
+    name: Large Kinetic Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Large Kinetic Shield Reinforcer I Blueprint:
+    id: 26081
+    industryblueprintrank: 15.0
+    marketGroup: 1269
+    name: Large Kinetic Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Kinetic Shield Reinforcer II Blueprint:
+    id: 26441
+    industryblueprintrank: 150.0
+    name: Large Kinetic Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3210,6 +3168,48 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Large Thermal Armor Reinforcer I Blueprint:
+    id: 25893
+    industryblueprintrank: 15.0
+    marketGroup: 1202
+    name: Large Thermal Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Thermal Armor Reinforcer II Blueprint:
+    id: 26293
+    industryblueprintrank: 150.0
+    name: Large Thermal Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Large Thermal Shield Reinforcer I Blueprint:
+    id: 26083
+    industryblueprintrank: 15.0
+    marketGroup: 1269
+    name: Large Thermal Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Large Thermal Shield Reinforcer II Blueprint:
+    id: 26443
+    industryblueprintrank: 150.0
+    name: Large Thermal Shield Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
   Large Tracking Diagnostic Subroutines I Blueprint:
     id: 26113
     industryblueprintrank: 15.0
@@ -3414,174 +3414,6 @@ types:
     id: 31367
     industryblueprintrank: 100.0
     name: Medium Ancillary Current Router II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Medium Anti-EM Pump I Blueprint:
-    id: 31000
-    industryblueprintrank: 10.0
-    marketGroup: 1204
-    name: Medium Anti-EM Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Medium Anti-EM Pump II Blueprint:
-    id: 31006
-    industryblueprintrank: 100.0
-    name: Medium Anti-EM Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Medium Anti-EM Screen Reinforcer I Blueprint:
-    id: 31719
-    industryblueprintrank: 10.0
-    marketGroup: 1268
-    name: Medium Anti-EM Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Medium Anti-EM Screen Reinforcer II Blueprint:
-    id: 31725
-    industryblueprintrank: 100.0
-    name: Medium Anti-EM Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Medium Anti-Explosive Pump I Blueprint:
-    id: 31012
-    industryblueprintrank: 10.0
-    marketGroup: 1204
-    name: Medium Anti-Explosive Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Medium Anti-Explosive Pump II Blueprint:
-    id: 31018
-    industryblueprintrank: 100.0
-    name: Medium Anti-Explosive Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Medium Anti-Explosive Screen Reinforcer I Blueprint:
-    id: 31731
-    industryblueprintrank: 10.0
-    marketGroup: 1268
-    name: Medium Anti-Explosive Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Medium Anti-Explosive Screen Reinforcer II Blueprint:
-    id: 31737
-    industryblueprintrank: 100.0
-    name: Medium Anti-Explosive Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Medium Anti-Kinetic Pump I Blueprint:
-    id: 31024
-    industryblueprintrank: 10.0
-    marketGroup: 1204
-    name: Medium Anti-Kinetic Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Medium Anti-Kinetic Pump II Blueprint:
-    id: 31030
-    industryblueprintrank: 100.0
-    name: Medium Anti-Kinetic Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Medium Anti-Kinetic Screen Reinforcer I Blueprint:
-    id: 31743
-    industryblueprintrank: 10.0
-    marketGroup: 1268
-    name: Medium Anti-Kinetic Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Medium Anti-Kinetic Screen Reinforcer II Blueprint:
-    id: 31749
-    industryblueprintrank: 100.0
-    name: Medium Anti-Kinetic Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Medium Anti-Thermal Pump I Blueprint:
-    id: 31036
-    industryblueprintrank: 10.0
-    marketGroup: 1204
-    name: Medium Anti-Thermal Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Medium Anti-Thermal Pump II Blueprint:
-    id: 31042
-    industryblueprintrank: 100.0
-    name: Medium Anti-Thermal Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Medium Anti-Thermal Screen Reinforcer I Blueprint:
-    id: 31755
-    industryblueprintrank: 10.0
-    marketGroup: 1268
-    name: Medium Anti-Thermal Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Medium Anti-Thermal Screen Reinforcer II Blueprint:
-    id: 31761
-    industryblueprintrank: 100.0
-    name: Medium Anti-Thermal Screen Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3954,6 +3786,48 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Medium EM Armor Reinforcer I Blueprint:
+    id: 31000
+    industryblueprintrank: 10.0
+    marketGroup: 1204
+    name: Medium EM Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium EM Armor Reinforcer II Blueprint:
+    id: 31006
+    industryblueprintrank: 100.0
+    name: Medium EM Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Medium EM Shield Reinforcer I Blueprint:
+    id: 31719
+    industryblueprintrank: 10.0
+    marketGroup: 1268
+    name: Medium EM Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium EM Shield Reinforcer II Blueprint:
+    id: 31725
+    industryblueprintrank: 100.0
+    name: Medium EM Shield Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
   Medium Egress Port Maximizer I Blueprint:
     id: 31385
     industryblueprintrank: 10.0
@@ -4137,6 +4011,48 @@ types:
     id: 31150
     industryblueprintrank: 100.0
     name: Medium Engine Thermal Shielding II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Medium Explosive Armor Reinforcer I Blueprint:
+    id: 31012
+    industryblueprintrank: 10.0
+    marketGroup: 1204
+    name: Medium Explosive Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium Explosive Armor Reinforcer II Blueprint:
+    id: 31018
+    industryblueprintrank: 100.0
+    name: Medium Explosive Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Medium Explosive Shield Reinforcer I Blueprint:
+    id: 31731
+    industryblueprintrank: 10.0
+    marketGroup: 1268
+    name: Medium Explosive Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium Explosive Shield Reinforcer II Blueprint:
+    id: 31737
+    industryblueprintrank: 100.0
+    name: Medium Explosive Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4390,6 +4306,48 @@ types:
     id: 31283
     industryblueprintrank: 100.0
     name: Medium Ionic Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Medium Kinetic Armor Reinforcer I Blueprint:
+    id: 31024
+    industryblueprintrank: 10.0
+    marketGroup: 1204
+    name: Medium Kinetic Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium Kinetic Armor Reinforcer II Blueprint:
+    id: 31030
+    industryblueprintrank: 100.0
+    name: Medium Kinetic Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Medium Kinetic Shield Reinforcer I Blueprint:
+    id: 31743
+    industryblueprintrank: 10.0
+    marketGroup: 1268
+    name: Medium Kinetic Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium Kinetic Shield Reinforcer II Blueprint:
+    id: 31749
+    industryblueprintrank: 100.0
+    name: Medium Kinetic Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4911,6 +4869,48 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Medium Thermal Armor Reinforcer I Blueprint:
+    id: 31036
+    industryblueprintrank: 10.0
+    marketGroup: 1204
+    name: Medium Thermal Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium Thermal Armor Reinforcer II Blueprint:
+    id: 31042
+    industryblueprintrank: 100.0
+    name: Medium Thermal Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Medium Thermal Shield Reinforcer I Blueprint:
+    id: 31755
+    industryblueprintrank: 10.0
+    marketGroup: 1268
+    name: Medium Thermal Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Medium Thermal Shield Reinforcer II Blueprint:
+    id: 31761
+    industryblueprintrank: 100.0
+    name: Medium Thermal Shield Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
   Medium Tracking Diagnostic Subroutines I Blueprint:
     id: 31349
     industryblueprintrank: 10.0
@@ -5115,174 +5115,6 @@ types:
     id: 31365
     industryblueprintrank: 50.0
     name: Small Ancillary Current Router II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Small Anti-EM Pump I Blueprint:
-    id: 30998
-    industryblueprintrank: 5.0
-    marketGroup: 1203
-    name: Small Anti-EM Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Small Anti-EM Pump II Blueprint:
-    id: 31004
-    industryblueprintrank: 50.0
-    name: Small Anti-EM Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Small Anti-EM Screen Reinforcer I Blueprint:
-    id: 31717
-    industryblueprintrank: 5.0
-    marketGroup: 1267
-    name: Small Anti-EM Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Small Anti-EM Screen Reinforcer II Blueprint:
-    id: 31723
-    industryblueprintrank: 50.0
-    name: Small Anti-EM Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Small Anti-Explosive Pump I Blueprint:
-    id: 31010
-    industryblueprintrank: 5.0
-    marketGroup: 1203
-    name: Small Anti-Explosive Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Small Anti-Explosive Pump II Blueprint:
-    id: 31016
-    industryblueprintrank: 50.0
-    name: Small Anti-Explosive Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Small Anti-Explosive Screen Reinforcer I Blueprint:
-    id: 31729
-    industryblueprintrank: 5.0
-    marketGroup: 1267
-    name: Small Anti-Explosive Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Small Anti-Explosive Screen Reinforcer II Blueprint:
-    id: 31735
-    industryblueprintrank: 50.0
-    name: Small Anti-Explosive Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Small Anti-Kinetic Pump I Blueprint:
-    id: 31022
-    industryblueprintrank: 5.0
-    marketGroup: 1203
-    name: Small Anti-Kinetic Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Small Anti-Kinetic Pump II Blueprint:
-    id: 31028
-    industryblueprintrank: 50.0
-    name: Small Anti-Kinetic Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Small Anti-Kinetic Screen Reinforcer I Blueprint:
-    id: 31741
-    industryblueprintrank: 5.0
-    marketGroup: 1267
-    name: Small Anti-Kinetic Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Small Anti-Kinetic Screen Reinforcer II Blueprint:
-    id: 31747
-    industryblueprintrank: 50.0
-    name: Small Anti-Kinetic Screen Reinforcer II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Small Anti-Thermal Pump I Blueprint:
-    id: 31034
-    industryblueprintrank: 5.0
-    marketGroup: 1203
-    name: Small Anti-Thermal Pump I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Small Anti-Thermal Pump II Blueprint:
-    id: 31040
-    industryblueprintrank: 50.0
-    name: Small Anti-Thermal Pump II Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 2
-    volume: 0.009999999776482582
-  Small Anti-Thermal Screen Reinforcer I Blueprint:
-    id: 31753
-    industryblueprintrank: 5.0
-    marketGroup: 1267
-    name: Small Anti-Thermal Screen Reinforcer I Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    radius: 1.0
-    techlevel: 1
-    volume: 0.009999999776482582
-  Small Anti-Thermal Screen Reinforcer II Blueprint:
-    id: 31759
-    industryblueprintrank: 50.0
-    name: Small Anti-Thermal Screen Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5655,6 +5487,48 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Small EM Armor Reinforcer I Blueprint:
+    id: 30998
+    industryblueprintrank: 5.0
+    marketGroup: 1203
+    name: Small EM Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small EM Armor Reinforcer II Blueprint:
+    id: 31004
+    industryblueprintrank: 50.0
+    name: Small EM Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Small EM Shield Reinforcer I Blueprint:
+    id: 31717
+    industryblueprintrank: 5.0
+    marketGroup: 1267
+    name: Small EM Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small EM Shield Reinforcer II Blueprint:
+    id: 31723
+    industryblueprintrank: 50.0
+    name: Small EM Shield Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
   Small Egress Port Maximizer I Blueprint:
     id: 31383
     industryblueprintrank: 5.0
@@ -5838,6 +5712,48 @@ types:
     id: 31148
     industryblueprintrank: 50.0
     name: Small Engine Thermal Shielding II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Small Explosive Armor Reinforcer I Blueprint:
+    id: 31010
+    industryblueprintrank: 5.0
+    marketGroup: 1203
+    name: Small Explosive Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small Explosive Armor Reinforcer II Blueprint:
+    id: 31016
+    industryblueprintrank: 50.0
+    name: Small Explosive Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Small Explosive Shield Reinforcer I Blueprint:
+    id: 31729
+    industryblueprintrank: 5.0
+    marketGroup: 1267
+    name: Small Explosive Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small Explosive Shield Reinforcer II Blueprint:
+    id: 31735
+    industryblueprintrank: 50.0
+    name: Small Explosive Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6080,6 +5996,48 @@ types:
     id: 31281
     industryblueprintrank: 50.0
     name: Small Ionic Field Projector II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Small Kinetic Armor Reinforcer I Blueprint:
+    id: 31022
+    industryblueprintrank: 5.0
+    marketGroup: 1203
+    name: Small Kinetic Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small Kinetic Armor Reinforcer II Blueprint:
+    id: 31028
+    industryblueprintrank: 50.0
+    name: Small Kinetic Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Small Kinetic Shield Reinforcer I Blueprint:
+    id: 31741
+    industryblueprintrank: 5.0
+    marketGroup: 1267
+    name: Small Kinetic Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small Kinetic Shield Reinforcer II Blueprint:
+    id: 31747
+    industryblueprintrank: 50.0
+    name: Small Kinetic Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6584,6 +6542,48 @@ types:
     id: 31341
     industryblueprintrank: 50.0
     name: Small Targeting Systems Stabilizer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Small Thermal Armor Reinforcer I Blueprint:
+    id: 31034
+    industryblueprintrank: 5.0
+    marketGroup: 1203
+    name: Small Thermal Armor Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small Thermal Armor Reinforcer II Blueprint:
+    id: 31040
+    industryblueprintrank: 50.0
+    name: Small Thermal Armor Reinforcer II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 2
+    volume: 0.009999999776482582
+  Small Thermal Shield Reinforcer I Blueprint:
+    id: 31753
+    industryblueprintrank: 5.0
+    marketGroup: 1267
+    name: Small Thermal Shield Reinforcer I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Small Thermal Shield Reinforcer II Blueprint:
+    id: 31759
+    industryblueprintrank: 50.0
+    name: Small Thermal Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

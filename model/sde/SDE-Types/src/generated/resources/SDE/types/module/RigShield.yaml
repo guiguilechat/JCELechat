@@ -1,128 +1,4 @@
 types:
-  Capital Anti-EM Screen Reinforcer I:
-    drawback: 10
-    emdamageresistancebonus: -30.0
-    hp: 40.0
-    id: 31720
-    marketGroup: 1732
-    name: Capital Anti-EM Screen Reinforcer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Anti-EM Screen Reinforcer II:
-    drawback: 10
-    emdamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31726
-    marketGroup: 1732
-    metalevel: 5
-    name: Capital Anti-EM Screen Reinforcer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Anti-Explosive Screen Reinforcer I:
-    drawback: 10
-    explosivedamageresistancebonus: -30.0
-    hp: 40.0
-    id: 31732
-    marketGroup: 1732
-    name: Capital Anti-Explosive Screen Reinforcer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Anti-Explosive Screen Reinforcer II:
-    drawback: 10
-    explosivedamageresistancebonus: -35.0
-    hp: 40.0
-    id: 31738
-    marketGroup: 1732
-    metalevel: 5
-    name: Capital Anti-Explosive Screen Reinforcer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Anti-Kinetic Screen Reinforcer I:
-    drawback: 10
-    hp: 40.0
-    id: 31744
-    kineticdamageresistancebonus: -30.0
-    marketGroup: 1732
-    name: Capital Anti-Kinetic Screen Reinforcer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    upgradecost: 50
-    volume: 40.0
-  Capital Anti-Kinetic Screen Reinforcer II:
-    drawback: 10
-    hp: 40.0
-    id: 31750
-    kineticdamageresistancebonus: -35.0
-    marketGroup: 1732
-    metalevel: 5
-    name: Capital Anti-Kinetic Screen Reinforcer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    upgradecost: 75
-    volume: 40.0
-  Capital Anti-Thermal Screen Reinforcer I:
-    drawback: 10
-    hp: 40.0
-    id: 31756
-    marketGroup: 1732
-    name: Capital Anti-Thermal Screen Reinforcer I
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 1
-    thermaldamageresistancebonus: -30.0
-    upgradecost: 50
-    volume: 40.0
-  Capital Anti-Thermal Screen Reinforcer II:
-    drawback: 10
-    hp: 40.0
-    id: 31762
-    marketGroup: 1732
-    metalevel: 5
-    name: Capital Anti-Thermal Screen Reinforcer II
-    packagedVolume: 40.0
-    portionSize: 1
-    published: true
-    radius: 100.0
-    rigsize: 4
-    techlevel: 2
-    thermaldamageresistancebonus: -35.0
-    upgradecost: 75
-    volume: 40.0
   Capital Core Defense Capacitor Safeguard I:
     drawback: 10
     hp: 40.0
@@ -278,130 +154,130 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 40.0
-  Large Anti-EM Screen Reinforcer I:
+  Capital EM Shield Reinforcer I:
     drawback: 10
     emdamageresistancebonus: -30.0
     hp: 40.0
-    id: 26076
-    marketGroup: 1236
-    name: Large Anti-EM Screen Reinforcer I
-    packagedVolume: 20.0
+    id: 31720
+    marketGroup: 1732
+    name: Capital EM Shield Reinforcer I
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 3
+    rigsize: 4
     techlevel: 1
     upgradecost: 50
-    volume: 20.0
-  Large Anti-EM Screen Reinforcer II:
+    volume: 40.0
+  Capital EM Shield Reinforcer II:
     drawback: 10
     emdamageresistancebonus: -35.0
     hp: 40.0
-    id: 26436
-    marketGroup: 1236
+    id: 31726
+    marketGroup: 1732
     metalevel: 5
-    name: Large Anti-EM Screen Reinforcer II
-    packagedVolume: 20.0
+    name: Capital EM Shield Reinforcer II
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 3
+    rigsize: 4
     techlevel: 2
     upgradecost: 75
-    volume: 20.0
-  Large Anti-Explosive Screen Reinforcer I:
+    volume: 40.0
+  Capital Explosive Shield Reinforcer I:
     drawback: 10
     explosivedamageresistancebonus: -30.0
     hp: 40.0
-    id: 26078
-    marketGroup: 1236
-    name: Large Anti-Explosive Screen Reinforcer I
-    packagedVolume: 20.0
+    id: 31732
+    marketGroup: 1732
+    name: Capital Explosive Shield Reinforcer I
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 3
+    rigsize: 4
     techlevel: 1
     upgradecost: 50
-    volume: 20.0
-  Large Anti-Explosive Screen Reinforcer II:
+    volume: 40.0
+  Capital Explosive Shield Reinforcer II:
     drawback: 10
     explosivedamageresistancebonus: -35.0
     hp: 40.0
-    id: 26438
-    marketGroup: 1236
+    id: 31738
+    marketGroup: 1732
     metalevel: 5
-    name: Large Anti-Explosive Screen Reinforcer II
-    packagedVolume: 20.0
+    name: Capital Explosive Shield Reinforcer II
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 3
+    rigsize: 4
     techlevel: 2
     upgradecost: 75
-    volume: 20.0
-  Large Anti-Kinetic Screen Reinforcer I:
+    volume: 40.0
+  Capital Kinetic Shield Reinforcer I:
     drawback: 10
     hp: 40.0
-    id: 26080
+    id: 31744
     kineticdamageresistancebonus: -30.0
-    marketGroup: 1236
-    name: Large Anti-Kinetic Screen Reinforcer I
-    packagedVolume: 20.0
+    marketGroup: 1732
+    name: Capital Kinetic Shield Reinforcer I
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 3
+    rigsize: 4
     techlevel: 1
     upgradecost: 50
-    volume: 20.0
-  Large Anti-Kinetic Screen Reinforcer II:
+    volume: 40.0
+  Capital Kinetic Shield Reinforcer II:
     drawback: 10
     hp: 40.0
-    id: 26440
+    id: 31750
     kineticdamageresistancebonus: -35.0
-    marketGroup: 1236
+    marketGroup: 1732
     metalevel: 5
-    name: Large Anti-Kinetic Screen Reinforcer II
-    packagedVolume: 20.0
+    name: Capital Kinetic Shield Reinforcer II
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 3
+    rigsize: 4
     techlevel: 2
     upgradecost: 75
-    volume: 20.0
-  Large Anti-Thermal Screen Reinforcer I:
+    volume: 40.0
+  Capital Thermal Shield Reinforcer I:
     drawback: 10
     hp: 40.0
-    id: 26082
-    marketGroup: 1236
-    name: Large Anti-Thermal Screen Reinforcer I
-    packagedVolume: 20.0
+    id: 31756
+    marketGroup: 1732
+    name: Capital Thermal Shield Reinforcer I
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 3
+    rigsize: 4
     techlevel: 1
     thermaldamageresistancebonus: -30.0
     upgradecost: 50
-    volume: 20.0
-  Large Anti-Thermal Screen Reinforcer II:
+    volume: 40.0
+  Capital Thermal Shield Reinforcer II:
     drawback: 10
     hp: 40.0
-    id: 26442
-    marketGroup: 1236
+    id: 31762
+    marketGroup: 1732
     metalevel: 5
-    name: Large Anti-Thermal Screen Reinforcer II
-    packagedVolume: 20.0
+    name: Capital Thermal Shield Reinforcer II
+    packagedVolume: 40.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 3
+    rigsize: 4
     techlevel: 2
     thermaldamageresistancebonus: -35.0
     upgradecost: 75
-    volume: 20.0
+    volume: 40.0
   Large Core Defense Capacitor Safeguard I:
     drawback: 10
     hp: 40.0
@@ -557,130 +433,130 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 20.0
-  Medium Anti-EM Screen Reinforcer I:
+  Large EM Shield Reinforcer I:
     drawback: 10
     emdamageresistancebonus: -30.0
     hp: 40.0
-    id: 31718
-    marketGroup: 1235
-    name: Medium Anti-EM Screen Reinforcer I
-    packagedVolume: 10.0
+    id: 26076
+    marketGroup: 1236
+    name: Large EM Shield Reinforcer I
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 3
     techlevel: 1
     upgradecost: 50
-    volume: 10.0
-  Medium Anti-EM Screen Reinforcer II:
+    volume: 20.0
+  Large EM Shield Reinforcer II:
     drawback: 10
     emdamageresistancebonus: -35.0
     hp: 40.0
-    id: 31724
-    marketGroup: 1235
+    id: 26436
+    marketGroup: 1236
     metalevel: 5
-    name: Medium Anti-EM Screen Reinforcer II
-    packagedVolume: 10.0
+    name: Large EM Shield Reinforcer II
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 3
     techlevel: 2
     upgradecost: 75
-    volume: 10.0
-  Medium Anti-Explosive Screen Reinforcer I:
+    volume: 20.0
+  Large Explosive Shield Reinforcer I:
     drawback: 10
     explosivedamageresistancebonus: -30.0
     hp: 40.0
-    id: 31730
-    marketGroup: 1235
-    name: Medium Anti-Explosive Screen Reinforcer I
-    packagedVolume: 10.0
+    id: 26078
+    marketGroup: 1236
+    name: Large Explosive Shield Reinforcer I
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 3
     techlevel: 1
     upgradecost: 50
-    volume: 10.0
-  Medium Anti-Explosive Screen Reinforcer II:
+    volume: 20.0
+  Large Explosive Shield Reinforcer II:
     drawback: 10
     explosivedamageresistancebonus: -35.0
     hp: 40.0
-    id: 31736
-    marketGroup: 1235
+    id: 26438
+    marketGroup: 1236
     metalevel: 5
-    name: Medium Anti-Explosive Screen Reinforcer II
-    packagedVolume: 10.0
+    name: Large Explosive Shield Reinforcer II
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 3
     techlevel: 2
     upgradecost: 75
-    volume: 10.0
-  Medium Anti-Kinetic Screen Reinforcer I:
+    volume: 20.0
+  Large Kinetic Shield Reinforcer I:
     drawback: 10
     hp: 40.0
-    id: 31742
+    id: 26080
     kineticdamageresistancebonus: -30.0
-    marketGroup: 1235
-    name: Medium Anti-Kinetic Screen Reinforcer I
-    packagedVolume: 10.0
+    marketGroup: 1236
+    name: Large Kinetic Shield Reinforcer I
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 3
     techlevel: 1
     upgradecost: 50
-    volume: 10.0
-  Medium Anti-Kinetic Screen Reinforcer II:
+    volume: 20.0
+  Large Kinetic Shield Reinforcer II:
     drawback: 10
     hp: 40.0
-    id: 31748
+    id: 26440
     kineticdamageresistancebonus: -35.0
-    marketGroup: 1235
+    marketGroup: 1236
     metalevel: 5
-    name: Medium Anti-Kinetic Screen Reinforcer II
-    packagedVolume: 10.0
+    name: Large Kinetic Shield Reinforcer II
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 3
     techlevel: 2
     upgradecost: 75
-    volume: 10.0
-  Medium Anti-Thermal Screen Reinforcer I:
+    volume: 20.0
+  Large Thermal Shield Reinforcer I:
     drawback: 10
     hp: 40.0
-    id: 31754
-    marketGroup: 1235
-    name: Medium Anti-Thermal Screen Reinforcer I
-    packagedVolume: 10.0
+    id: 26082
+    marketGroup: 1236
+    name: Large Thermal Shield Reinforcer I
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 3
     techlevel: 1
     thermaldamageresistancebonus: -30.0
     upgradecost: 50
-    volume: 10.0
-  Medium Anti-Thermal Screen Reinforcer II:
+    volume: 20.0
+  Large Thermal Shield Reinforcer II:
     drawback: 10
     hp: 40.0
-    id: 31760
-    marketGroup: 1235
+    id: 26442
+    marketGroup: 1236
     metalevel: 5
-    name: Medium Anti-Thermal Screen Reinforcer II
-    packagedVolume: 10.0
+    name: Large Thermal Shield Reinforcer II
+    packagedVolume: 20.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 2
+    rigsize: 3
     techlevel: 2
     thermaldamageresistancebonus: -35.0
     upgradecost: 75
-    volume: 10.0
+    volume: 20.0
   Medium Core Defense Capacitor Safeguard I:
     drawback: 10
     hp: 40.0
@@ -836,130 +712,130 @@ types:
     techlevel: 2
     upgradecost: 150
     volume: 10.0
-  Small Anti-EM Screen Reinforcer I:
+  Medium EM Shield Reinforcer I:
     drawback: 10
     emdamageresistancebonus: -30.0
     hp: 40.0
-    id: 31716
-    marketGroup: 1234
-    name: Small Anti-EM Screen Reinforcer I
-    packagedVolume: 5.0
+    id: 31718
+    marketGroup: 1235
+    name: Medium EM Shield Reinforcer I
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 1
     upgradecost: 50
-    volume: 5.0
-  Small Anti-EM Screen Reinforcer II:
+    volume: 10.0
+  Medium EM Shield Reinforcer II:
     drawback: 10
     emdamageresistancebonus: -35.0
     hp: 40.0
-    id: 31722
-    marketGroup: 1234
+    id: 31724
+    marketGroup: 1235
     metalevel: 5
-    name: Small Anti-EM Screen Reinforcer II
-    packagedVolume: 5.0
+    name: Medium EM Shield Reinforcer II
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 2
     upgradecost: 75
-    volume: 5.0
-  Small Anti-Explosive Screen Reinforcer I:
+    volume: 10.0
+  Medium Explosive Shield Reinforcer I:
     drawback: 10
     explosivedamageresistancebonus: -30.0
     hp: 40.0
-    id: 31728
-    marketGroup: 1234
-    name: Small Anti-Explosive Screen Reinforcer I
-    packagedVolume: 5.0
+    id: 31730
+    marketGroup: 1235
+    name: Medium Explosive Shield Reinforcer I
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 1
     upgradecost: 50
-    volume: 5.0
-  Small Anti-Explosive Screen Reinforcer II:
+    volume: 10.0
+  Medium Explosive Shield Reinforcer II:
     drawback: 10
     explosivedamageresistancebonus: -35.0
     hp: 40.0
-    id: 31734
-    marketGroup: 1234
+    id: 31736
+    marketGroup: 1235
     metalevel: 5
-    name: Small Anti-Explosive Screen Reinforcer II
-    packagedVolume: 5.0
+    name: Medium Explosive Shield Reinforcer II
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 2
     upgradecost: 75
-    volume: 5.0
-  Small Anti-Kinetic Screen Reinforcer I:
+    volume: 10.0
+  Medium Kinetic Shield Reinforcer I:
     drawback: 10
     hp: 40.0
-    id: 31740
+    id: 31742
     kineticdamageresistancebonus: -30.0
-    marketGroup: 1234
-    name: Small Anti-Kinetic Screen Reinforcer I
-    packagedVolume: 5.0
+    marketGroup: 1235
+    name: Medium Kinetic Shield Reinforcer I
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 1
     upgradecost: 50
-    volume: 5.0
-  Small Anti-Kinetic Screen Reinforcer II:
+    volume: 10.0
+  Medium Kinetic Shield Reinforcer II:
     drawback: 10
     hp: 40.0
-    id: 31746
+    id: 31748
     kineticdamageresistancebonus: -35.0
-    marketGroup: 1234
+    marketGroup: 1235
     metalevel: 5
-    name: Small Anti-Kinetic Screen Reinforcer II
-    packagedVolume: 5.0
+    name: Medium Kinetic Shield Reinforcer II
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 2
     upgradecost: 75
-    volume: 5.0
-  Small Anti-Thermal Screen Reinforcer I:
+    volume: 10.0
+  Medium Thermal Shield Reinforcer I:
     drawback: 10
     hp: 40.0
-    id: 31752
-    marketGroup: 1234
-    name: Small Anti-Thermal Screen Reinforcer I
-    packagedVolume: 5.0
+    id: 31754
+    marketGroup: 1235
+    name: Medium Thermal Shield Reinforcer I
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 1
     thermaldamageresistancebonus: -30.0
     upgradecost: 50
-    volume: 5.0
-  Small Anti-Thermal Screen Reinforcer II:
+    volume: 10.0
+  Medium Thermal Shield Reinforcer II:
     drawback: 10
     hp: 40.0
-    id: 31758
-    marketGroup: 1234
+    id: 31760
+    marketGroup: 1235
     metalevel: 5
-    name: Small Anti-Thermal Screen Reinforcer II
-    packagedVolume: 5.0
+    name: Medium Thermal Shield Reinforcer II
+    packagedVolume: 10.0
     portionSize: 1
     published: true
     radius: 100.0
-    rigsize: 1
+    rigsize: 2
     techlevel: 2
     thermaldamageresistancebonus: -35.0
     upgradecost: 75
-    volume: 5.0
+    volume: 10.0
   Small Core Defense Capacitor Safeguard I:
     drawback: 10
     hp: 40.0
@@ -1114,4 +990,128 @@ types:
     rigsize: 1
     techlevel: 2
     upgradecost: 150
+    volume: 5.0
+  Small EM Shield Reinforcer I:
+    drawback: 10
+    emdamageresistancebonus: -30.0
+    hp: 40.0
+    id: 31716
+    marketGroup: 1234
+    name: Small EM Shield Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  Small EM Shield Reinforcer II:
+    drawback: 10
+    emdamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31722
+    marketGroup: 1234
+    metalevel: 5
+    name: Small EM Shield Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  Small Explosive Shield Reinforcer I:
+    drawback: 10
+    explosivedamageresistancebonus: -30.0
+    hp: 40.0
+    id: 31728
+    marketGroup: 1234
+    name: Small Explosive Shield Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  Small Explosive Shield Reinforcer II:
+    drawback: 10
+    explosivedamageresistancebonus: -35.0
+    hp: 40.0
+    id: 31734
+    marketGroup: 1234
+    metalevel: 5
+    name: Small Explosive Shield Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  Small Kinetic Shield Reinforcer I:
+    drawback: 10
+    hp: 40.0
+    id: 31740
+    kineticdamageresistancebonus: -30.0
+    marketGroup: 1234
+    name: Small Kinetic Shield Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    upgradecost: 50
+    volume: 5.0
+  Small Kinetic Shield Reinforcer II:
+    drawback: 10
+    hp: 40.0
+    id: 31746
+    kineticdamageresistancebonus: -35.0
+    marketGroup: 1234
+    metalevel: 5
+    name: Small Kinetic Shield Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    upgradecost: 75
+    volume: 5.0
+  Small Thermal Shield Reinforcer I:
+    drawback: 10
+    hp: 40.0
+    id: 31752
+    marketGroup: 1234
+    name: Small Thermal Shield Reinforcer I
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 1
+    thermaldamageresistancebonus: -30.0
+    upgradecost: 50
+    volume: 5.0
+  Small Thermal Shield Reinforcer II:
+    drawback: 10
+    hp: 40.0
+    id: 31758
+    marketGroup: 1234
+    metalevel: 5
+    name: Small Thermal Shield Reinforcer II
+    packagedVolume: 5.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    rigsize: 1
+    techlevel: 2
+    thermaldamageresistancebonus: -35.0
+    upgradecost: 75
     volume: 5.0

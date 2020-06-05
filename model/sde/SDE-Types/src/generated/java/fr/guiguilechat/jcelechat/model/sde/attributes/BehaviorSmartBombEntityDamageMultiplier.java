@@ -4,26 +4,26 @@ import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
 
 
 /**
- * 
+ * Controls how much of the NpcBehaviorSmartBomb effect's damage gets applied to entities
  */
-public class BehaviorMiningAmount
+public class BehaviorSmartBombEntityDamageMultiplier
     extends DoubleAttribute
 {
-    public static final BehaviorMiningAmount INSTANCE = new BehaviorMiningAmount();
+    public static final BehaviorSmartBombEntityDamageMultiplier INSTANCE = new BehaviorSmartBombEntityDamageMultiplier();
 
     @Override
     public int getId() {
-        return  2489;
+        return  3039;
     }
 
     @Override
     public boolean getHighIsGood() {
-        return true;
+        return false;
     }
 
     @Override
     public double getDefaultValue() {
-        return  0.0;
+        return  1.0;
     }
 
     @Override
@@ -33,11 +33,11 @@ public class BehaviorMiningAmount
 
     @Override
     public boolean getStackable() {
-        return true;
+        return false;
     }
 
     @Override
     public String toString() {
-        return "BehaviorMiningAmount";
+        return "BehaviorSmartBombEntityDamageMultiplier";
     }
 }

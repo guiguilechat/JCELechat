@@ -5,7 +5,7 @@ types:
     armorhp: 219.0
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
-    behaviorminingamount: 51
+    behaviorminingamount: 51.0
     behaviorminingdischarge: 40
     behaviorminingduration: 60000
     behaviorminingmaxrange: 11000

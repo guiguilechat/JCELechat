@@ -5,7 +5,6 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 0.009999999776482582
   Noise-25 'Needlejack' Filament Blueprint:
     id: 53990
@@ -13,7 +12,6 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 0.009999999776482582
   Signal-15 'Needlejack' Filament Blueprint:
     id: 53989
@@ -21,7 +19,6 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 0.009999999776482582
   Signal-25 'Needlejack' Filament Blueprint:
     id: 53991
@@ -29,5 +26,4 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
-    radius: 1.0
     volume: 0.009999999776482582
