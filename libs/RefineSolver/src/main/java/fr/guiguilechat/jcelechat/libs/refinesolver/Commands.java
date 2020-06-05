@@ -7,7 +7,7 @@ import java.util.Map.Entry;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 
-public class Result {
+public class Commands {
 
 	public static class Command {
 		public double cost;

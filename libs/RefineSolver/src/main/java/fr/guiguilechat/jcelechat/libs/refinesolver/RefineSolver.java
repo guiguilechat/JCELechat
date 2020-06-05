@@ -18,13 +18,36 @@ import org.slf4j.Logger;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.IPricing;
-import fr.guiguilechat.jcelechat.libs.refinesolver.Result.Command;
+import fr.guiguilechat.jcelechat.libs.refinesolver.Commands.Command;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
 
+/**
+ * solve a basket acquisition problem
+ * <p>
+ * given a basket of items to acquire, a pricing of items (as a list of offers :
+ * quantity and price), a volumic price, a refine function from items to the
+ * required items, find the commands that can be passed to minimize the total
+ * cost of the commands
+ * </p>
+ * <p>
+ * The cost of a command is the sum of the costs of the items . The price of an
+ * item is the price of the cumulative orders that fulfil the quantity of that
+ * command and the previous.<br />
+ * Example : if there are three orders for tritanium, each for one items, and
+ * the prices are 1, 2 and 10 isks ; and we allow two commands and want 3
+ * tritanium, so the 3 orders<br />
+ * If the first command takes both first, orders and the price will be 2 isks,
+ * the cost 4 isks, and the second command will take order 2, so price 10 isk,
+ * cost 10 isk for a total of 14 isk.<br />
+ * If the first command takes first order, price is 1 isk and cost is 1isk,
+ * while second order takes two other orders so price is 10 isks and cost is 20
+ * isks for a total of 21 isks.
+ * </p>
+ */
 public class RefineSolver {
 
 	private static final Logger logger = org.slf4j.LoggerFactory.getLogger(RefineSolver.class);
@@ -41,7 +64,7 @@ public class RefineSolver {
 	 * @param params
 	 * @return
 	 */
-	public Result solve(Params params) {
+	public Commands solve(Params params) {
 		this.params = params;
 
 		market = params.market;
@@ -59,7 +82,7 @@ public class RefineSolver {
 				.mapToInt(e -> e.getKey()).toArray();
 
 		if (requiredTypeIds.length == 0) {
-			return new Result();
+			return new Commands();
 		}
 		makeStaticData();
 
@@ -86,7 +109,7 @@ public class RefineSolver {
 			if (params.debug) {
 				logger.info("could not find a solution");
 			}
-			return new Result();
+			return new Commands();
 		}
 	}
 
@@ -117,10 +140,10 @@ public class RefineSolver {
 	protected EveType[] purchasedTypes;
 
 	/**
-	 * for each type we can purchase, the price in cents(rounded up) that such a
-	 * unit requires to pay.
+	 * for each type we can purchase, the price in isk that such a unit requires
+	 * to pay.
 	 */
-	protected int[] purchasedVolumicPrice;
+	protected double[] purchasedVolumicPrice;
 
 	/**
 	 * for each item we can buy, the max quantity we actually may need to buy
@@ -242,13 +265,13 @@ public class RefineSolver {
 
 		purchasedTypes = new EveType[requiredTypeIds.length + purchasedRoids.length];
 		purchasedRefineInto = new double[purchasedTypes.length][requiredTypeIds.length];
-		purchasedVolumicPrice = new int[purchasedTypes.length];
+		purchasedVolumicPrice = new double[purchasedTypes.length];
 		purchasedMaxQuantity = new int[purchasedTypes.length];
 
 		// then fill those values from minerals
 		for (int i = 0; i < requiredTypeIds.length; i++) {
 			purchasedTypes[i] = TypeIndex.getType(requiredTypeIds[i]);
-			purchasedVolumicPrice[i] = (int) Math.ceil(purchasedTypes[i].volume * params.volumicCost * 100);
+			purchasedVolumicPrice[i] = purchasedTypes[i].volume * params.volumicCost;
 			purchasedRefineInto[i][i] = 1.0;
 			purchasedMaxQuantity[i] = requiredTypeQttys[i];
 		}
@@ -256,7 +279,7 @@ public class RefineSolver {
 		for (int i = 0; i < purchasedRoids.length; i++) {
 			int idx = i + requiredTypeIds.length;
 			EveType purchasedType = purchasedTypes[idx] = purchasedRoids[i];
-			purchasedVolumicPrice[idx] = (int) Math.ceil(purchasedTypes[idx].volume * params.volumicCost * 100);
+			purchasedVolumicPrice[idx] = purchasedTypes[idx].volume * params.volumicCost;
 			IndustryUsage usage = IndustryUsage.of(purchasedType.id);
 			double maxQtty = 0.0;
 			double refinerate = params.refineRate;
@@ -378,25 +401,28 @@ public class RefineSolver {
 			List<R_get_markets_region_id_orders> orders = market.getMarketOrders(purchasedType.id).listSellOrders().get();
 			// make the cumulative order prices and quantities. they start at quantity
 			// 0
-			ArrayList<Integer> orderCumulQtty = new ArrayList<>();
-			orderCumulQtty.add(0);
-			int cumul = 0;
+			ArrayList<Integer> orderCumulQtties = new ArrayList<>();
+			orderCumulQtties.add(0);
+			ArrayList<Double> orderPrices = new ArrayList<>();
+			orderPrices.add(0.0);
+			double lastPrice = 0.0;
+			int summQtties = 0;
+			int purchasedIndex = pi;
 			for (R_get_markets_region_id_orders order : orders) {
-				cumul += order.volume_remain;
-				orderCumulQtty.add(cumul);
-				if (cumul >= maxQuantity) {
+				summQtties += order.volume_remain;
+				if (order.price == lastPrice) {
+					orderCumulQtties.add(orderCumulQtties.remove(orderCumulQtties.size() - 1) + order.volume_remain);
+				} else {
+					double orderPrice = purchasedVolumicPrice[purchasedIndex] + order.price;
+					orderCumulQtties.add(summQtties);
+					orderPrices.add(orderPrice);
+				}
+				if (summQtties >= maxQuantity) {
 					break;
 				}
 			}
-			int[] cumulQtty = orderCumulQtty.stream().mapToInt(i -> i).toArray();
-			int purchasedIndex = pi;
-			int[] cumulPrice = IntStream.range(0, cumulQtty.length).map(cumuli -> {
-				if (cumuli == 0) {
-					return 0;
-				} else {
-					return (int) Math.ceil(purchasedVolumicPrice[purchasedIndex] + orders.get(cumuli - 1).price * 100);
-				}
-			}).toArray();
+			int[] cumulQtty = orderCumulQtties.stream().mapToInt(i -> i).toArray();
+			int[] cumulPrice = orderPrices.stream().mapToInt(i -> (int) Math.ceil(i * 100)).toArray();
 			if (params.debug) {
 				logger.info(purchasedType.name + " qtties=" + IntStream.of(cumulQtty).boxed().collect(Collectors.toList())
 						+ " prices=" + IntStream.of(cumulPrice).boxed().collect(Collectors.toList()));
@@ -463,8 +489,8 @@ public class RefineSolver {
 		}
 	}
 
-	protected Result convertSolution(Solution solution) {
-		Result ret = new Result();
+	protected Commands convertSolution(Solution solution) {
+		Commands ret = new Commands();
 		for (int ci = 0; ci < params.maxCommands; ci++) {
 			Command command = new Command();
 			for (int pi = 0; pi < purchasedTypes.length; pi++) {
