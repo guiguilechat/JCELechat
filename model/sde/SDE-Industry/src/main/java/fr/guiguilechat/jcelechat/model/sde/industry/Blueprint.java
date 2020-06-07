@@ -103,6 +103,9 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		public ArrayList<MaterialReq> materials = new ArrayList<>();
 		public ArrayList<MaterialProd> products = new ArrayList<>();
 		public LinkedHashMap<String, Integer> skills = new LinkedHashMap<>();
+		/**
+		 * time in seconds to execute one run of that activity.
+		 */
 		public int time;
 
 		public Activity() {
