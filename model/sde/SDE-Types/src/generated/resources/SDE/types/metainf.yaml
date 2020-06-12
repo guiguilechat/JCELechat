@@ -36180,7 +36180,7 @@ id2name:
   54656: Standard Serenity Cerebral Accelerator
   54657: Advanced Serenity Cerebral Accelerator
   54658: Triglavian Structure Mining Laser PLACEHOLDER
-  54660: Serenity Monthly Cerebral Accelerator - 2020.5
+  54660: Expired Serenity Monthly Cerebral Accelerator - 2020.5
   54661: Liminal Jarognik Damavik
   54662: Liminal Jarognik Vedmak
   54663: Liminal Jarognik Kikimora
@@ -36335,6 +36335,7 @@ id2name:
   55044: EDENCOM Vorton Booster DA-2
   55045: EDENCOM Vorton Booster DA-3
   55046: EDENCOM Vorton Booster DA-5
+  55700: Serenity Special Cerebral Accelerator
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -48317,6 +48318,7 @@ name2group:
   Expired Extended 'Guri Hivaa' Cerebral Accelerator: implant/Booster
   Expired Guardian Angels 'Advanced' Cerebral Accelerator: implant/Booster
   Expired Guardian Angels 'Standard' Cerebral Accelerator: implant/Booster
+  Expired Serenity Monthly Cerebral Accelerator - 2020.5: implant/Booster
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator: implant/Booster
   Expired Standard 'Guri Hivaa' Cerebral Accelerator: implant/Booster
   Exploration Supplies: entity/SpawnContainer
@@ -60096,8 +60098,8 @@ name2group:
   Sentry Station Alpha/Beta: entity/DeadspaceOverseerSStructure
   Sentry Tower: entity/DestructibleSentryGun
   Sepentis Regional Baron Arain Percourt: entity/DeadspaceOverseerBattleship
-  Serenity Monthly Cerebral Accelerator - 2020.5: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.6: implant/Booster
+  Serenity Special Cerebral Accelerator: implant/Booster
   Serpentis 3D Scanner Gamut: commodity/ArtifactsAndPrototypes
   Serpentis Administration Facility: entity/DeadspaceOverseerSSentry
   Serpentis Admiral: entity/AsteroidSerpentisBattleship

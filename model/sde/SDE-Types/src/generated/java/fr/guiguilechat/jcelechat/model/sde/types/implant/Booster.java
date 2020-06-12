@@ -131,8 +131,8 @@ public class Booster
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int boosterduration;
+    @DefaultDoubleValue(0.0)
+    public double boosterduration;
     /**
      * 
      */

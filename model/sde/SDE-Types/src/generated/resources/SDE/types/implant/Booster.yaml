@@ -21,7 +21,7 @@ types:
     volume: 1.0
     willpowerbonus: 17
   Advanced Serenity Cerebral Accelerator:
-    boosterduration: 172800000
+    boosterduration: 1.728E8
     boosterlastinjectiondatetime: 18443.125
     boosterness: 10
     charismabonus: 10
@@ -45,7 +45,7 @@ types:
     willpowerbonus: 10
   Agency 'Hardshell' TB3 Dose I:
     armordamageamountbonus: 3
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     id: 46001
     marketGroup: 2503
@@ -60,7 +60,7 @@ types:
     volume: 1.0
   Agency 'Hardshell' TB5 Dose II:
     armordamageamountbonus: 5
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     id: 46002
     marketGroup: 2503
@@ -75,7 +75,7 @@ types:
     volume: 1.0
   Agency 'Hardshell' TB7 Dose III:
     armordamageamountbonus: 7
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     id: 46003
     marketGroup: 2503
@@ -90,7 +90,7 @@ types:
     volume: 1.0
   Agency 'Hardshell' TB9 Dose IV:
     armordamageamountbonus: 9
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     id: 48113
     marketGroup: 2503
@@ -104,7 +104,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Agency 'Overclocker' SB3 Dose I:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     id: 46004
     marketGroup: 2504
@@ -118,7 +118,7 @@ types:
     velocitybonus: 3.0
     volume: 1.0
   Agency 'Overclocker' SB5 Dose II:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     id: 46005
     marketGroup: 2504
@@ -132,7 +132,7 @@ types:
     velocitybonus: 5.0
     volume: 1.0
   Agency 'Overclocker' SB7 Dose III:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     id: 46006
     marketGroup: 2504
@@ -146,7 +146,7 @@ types:
     velocitybonus: 7.0
     volume: 1.0
   Agency 'Overclocker' SB9 Dose IV:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     id: 48114
     marketGroup: 2504
@@ -160,7 +160,7 @@ types:
     velocitybonus: 9.0
     volume: 1.0
   Agency 'Pyrolancea' DB3 Dose I:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     damagemultiplierbonus: 3
     id: 45998
@@ -174,7 +174,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Agency 'Pyrolancea' DB5 Dose II:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     damagemultiplierbonus: 5
     id: 45999
@@ -188,7 +188,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Agency 'Pyrolancea' DB7 Dose III:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     damagemultiplierbonus: 7
     id: 46000
@@ -202,7 +202,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Agency 'Pyrolancea' DB9 Dose IV:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 11
     damagemultiplierbonus: 9
     id: 48115
@@ -216,7 +216,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Antipharmakon Aeolis:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     capacitorcapacitybonus: 8.0
     id: 36912
@@ -232,7 +232,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Antipharmakon Iokira:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 2
     id: 36910
     marketGroup: 2499
@@ -249,7 +249,7 @@ types:
     volume: 1.0
   Antipharmakon Kosybo:
     armordamageamountbonus: 8
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     id: 36909
     marketGroup: 2495
@@ -264,7 +264,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Antipharmakon Thureo:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     id: 36908
     marketGroup: 2495
@@ -280,7 +280,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Antipharmakon Toxot:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 3
     id: 36911
     marketGroup: 2501
@@ -296,7 +296,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Basic Capsuleer Day Cerebral Accelerator:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18428.458984375
     boosterness: 10
     charismabonus: 4
@@ -319,7 +319,7 @@ types:
     volume: 1.0
     willpowerbonus: 4
   Basic Capsuleer Day Glamourex Booster:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18428.458984375
     boosterness: 12
     id: 54815
@@ -336,7 +336,7 @@ types:
     socialmutator: 20
     volume: 1.0
   Basic Serenity Cerebral Accelerator:
-    boosterduration: 43200000
+    boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18443.125
     boosterness: 10
     charismabonus: 10
@@ -369,7 +369,7 @@ types:
     socialbonus: 100
     volume: 1.0
   EDENCOM Vorton Booster DA-2:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18513.45703125
     boosterness: 14
     damagemultiplierbonus: 2
@@ -386,7 +386,7 @@ types:
     socialbonus: 100
     volume: 1.0
   EDENCOM Vorton Booster DA-3:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18513.45703125
     boosterness: 14
     damagemultiplierbonus: 3
@@ -403,7 +403,7 @@ types:
     socialbonus: 100
     volume: 1.0
   EDENCOM Vorton Booster DA-5:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18513.45703125
     boosterness: 14
     damagemultiplierbonus: 5
@@ -422,7 +422,7 @@ types:
   EDENCOM Vorton Booster GU-2:
     aoecloudsizebonus: -2.0
     aoevelocitybonus: 2.0
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18513.45703125
     boosterness: 14
     id: 55041
@@ -440,7 +440,7 @@ types:
   EDENCOM Vorton Booster GU-3:
     aoecloudsizebonus: -3.0
     aoevelocitybonus: 3.0
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18513.45703125
     boosterness: 14
     id: 55042
@@ -458,7 +458,7 @@ types:
   EDENCOM Vorton Booster GU-5:
     aoecloudsizebonus: -5.0
     aoevelocitybonus: 5.0
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18513.45703125
     boosterness: 14
     id: 55043
@@ -474,7 +474,7 @@ types:
     socialbonus: 100
     volume: 1.0
   EDENCOM Vorton Booster RA-2:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18513.45703125
     boosterness: 14
     id: 55038
@@ -491,7 +491,7 @@ types:
     socialbonus: 100
     volume: 1.0
   EDENCOM Vorton Booster RA-3:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18513.45703125
     boosterness: 14
     id: 55039
@@ -508,7 +508,7 @@ types:
     socialbonus: 100
     volume: 1.0
   EDENCOM Vorton Booster RA-5:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18513.45703125
     boosterness: 14
     id: 55040
@@ -525,7 +525,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Expired 'Absolute' Injection Augmentor:
-    boosterduration: 57600000
+    boosterduration: 5.76E7
     boosterlastinjectiondatetime: 17903.458984375
     boosterness: 14
     followsjumpclones: 1
@@ -540,7 +540,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 17645.458984375
     boosterness: 10
     charismabonus: 12
@@ -562,7 +562,7 @@ types:
     volume: 1.0
     willpowerbonus: 12
   Expired CDIA SPACE Cerebral Accelerator:
-    boosterduration: 259200000
+    boosterduration: 2.592E8
     boosterlastinjectiondatetime: 17652.458984375
     boosterness: 10
     charismabonus: 12
@@ -584,7 +584,7 @@ types:
     volume: 1.0
     willpowerbonus: 12
   Expired Extended 'Guri Hivaa' Cerebral Accelerator:
-    boosterduration: 259200000
+    boosterduration: 2.592E8
     boosterlastinjectiondatetime: 17645.458984375
     boosterness: 10
     charismabonus: 10
@@ -606,7 +606,7 @@ types:
     volume: 1.0
     willpowerbonus: 10
   Expired Guardian Angels 'Advanced' Cerebral Accelerator:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 17610.458984375
     boosterness: 10
     charismabonus: 12
@@ -628,7 +628,7 @@ types:
     volume: 1.0
     willpowerbonus: 12
   Expired Guardian Angels 'Standard' Cerebral Accelerator:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 17610.458984375
     boosterness: 10
     charismabonus: 10
@@ -649,8 +649,31 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Expired Serenity Monthly Cerebral Accelerator - 2020.5:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18412.458984375
+    boosterness: 10
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 54660
+    intelligencebonus: 5
+    marketGroup: 2487
+    memorybonus: 5
+    name: Expired Serenity Monthly Cerebral Accelerator - 2020.5
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator:
-    boosterduration: 259200000
+    boosterduration: 2.592E8
     boosterlastinjectiondatetime: 17610.458984375
     boosterness: 10
     charismabonus: 10
@@ -672,7 +695,7 @@ types:
     volume: 1.0
     willpowerbonus: 10
   Expired Standard 'Guri Hivaa' Cerebral Accelerator:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 17645.458984375
     boosterness: 10
     charismabonus: 10
@@ -694,7 +717,7 @@ types:
     volume: 1.0
     willpowerbonus: 10
   Extended Capsuleer Day Cerebral Accelerator:
-    boosterduration: 259200000
+    boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18428.458984375
     boosterness: 10
     charismabonus: 6
@@ -717,7 +740,7 @@ types:
     volume: 1.0
     willpowerbonus: 6
   Extended Capsuleer Day Glamourex Booster:
-    boosterduration: 259200000
+    boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18428.458984375
     boosterness: 12
     id: 54816
@@ -734,7 +757,7 @@ types:
     socialmutator: 25
     volume: 1.0
   Extended Serenity Cerebral Accelerator:
-    boosterduration: 259200000
+    boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18443.125
     boosterness: 10
     charismabonus: 10
@@ -757,7 +780,7 @@ types:
     volume: 1.0
     willpowerbonus: 10
   Impetus Potency-50 Glamourex Booster:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18175.458984375
     boosterness: 13
     id: 49749
@@ -774,7 +797,7 @@ types:
     socialmutator: 50
     volume: 1.0
   Impetus Potency-75 Glamourex Booster:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18175.458984375
     boosterness: 12
     id: 49701
@@ -793,7 +816,7 @@ types:
   Improved Blue Pill Booster:
     boosteraoevelocitypenalty: -25
     boostercapacitorcapacitypenalty: -25
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.30000001192092896
     boostereffectchance2: 0.30000001192092896
     boostereffectchance3: 0.30000001192092896
@@ -818,7 +841,7 @@ types:
   Improved Crash Booster:
     aoecloudsizebonus: -25.0
     boosterarmorhppenalty: -25
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.30000001192092896
     boostereffectchance2: 0.30000001192092896
     boostereffectchance3: 0.30000001192092896
@@ -842,7 +865,7 @@ types:
     volume: 1.0
   Improved Drop Booster:
     boosterarmorrepairamountpenalty: -25
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.30000001192092896
     boostereffectchance2: 0.30000001192092896
     boostereffectchance3: 0.30000001192092896
@@ -869,7 +892,7 @@ types:
     armordamageamountbonus: 25
     boosterarmorhppenalty: -25
     boostercapacitorcapacitypenalty: -25
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.30000001192092896
     boostereffectchance2: 0.30000001192092896
     boostereffectchance3: 0.30000001192092896
@@ -892,7 +915,7 @@ types:
     volume: 1.0
   Improved Frentix Booster:
     boosterarmorhppenalty: -25
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.30000001192092896
     boostereffectchance2: 0.30000001192092896
     boostereffectchance3: 0.30000001192092896
@@ -917,7 +940,7 @@ types:
     volume: 1.0
   Improved Mindflood Booster:
     boosterarmorrepairamountpenalty: -25
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.30000001192092896
     boostereffectchance2: 0.30000001192092896
     boostereffectchance3: 0.30000001192092896
@@ -942,7 +965,7 @@ types:
     volume: 1.0
   Improved Sooth Sayer Booster:
     boosterarmorrepairamountpenalty: -25
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.30000001192092896
     boostereffectchance2: 0.30000001192092896
     boostereffectchance3: 0.30000001192092896
@@ -967,7 +990,7 @@ types:
     volume: 1.0
   Improved X-Instinct Booster:
     boosterarmorhppenalty: -25
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.30000001192092896
     boostereffectchance2: 0.30000001192092896
     boostereffectchance3: 0.30000001192092896
@@ -991,7 +1014,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk I:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 1
     id: 54587
     name: Limited Synth Blue Pill Booster Mk I
@@ -1006,7 +1029,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk II:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 1
     id: 54588
     name: Limited Synth Blue Pill Booster Mk II
@@ -1021,7 +1044,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk III:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     id: 54589
     name: Limited Synth Blue Pill Booster Mk III
@@ -1036,7 +1059,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk IV:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 1
     id: 54590
     name: Limited Synth Blue Pill Booster Mk IV
@@ -1051,7 +1074,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Blue Pill Booster Mk V:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 1
     id: 54591
     name: Limited Synth Blue Pill Booster Mk V
@@ -1067,7 +1090,7 @@ types:
     volume: 1.0
   Limited Synth Crash Booster Mk I:
     aoecloudsizebonus: -2.0
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 3
     id: 54624
     name: Limited Synth Crash Booster Mk I
@@ -1082,7 +1105,7 @@ types:
     volume: 1.0
   Limited Synth Crash Booster Mk II:
     aoecloudsizebonus: -2.0
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 3
     id: 54625
     name: Limited Synth Crash Booster Mk II
@@ -1097,7 +1120,7 @@ types:
     volume: 1.0
   Limited Synth Crash Booster Mk III:
     aoecloudsizebonus: -2.0
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 3
     id: 54626
     name: Limited Synth Crash Booster Mk III
@@ -1112,7 +1135,7 @@ types:
     volume: 1.0
   Limited Synth Crash Booster Mk IV:
     aoecloudsizebonus: -3.0
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 3
     id: 54627
     name: Limited Synth Crash Booster Mk IV
@@ -1127,7 +1150,7 @@ types:
     volume: 1.0
   Limited Synth Crash Booster Mk V:
     aoecloudsizebonus: -3.0
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 3
     id: 54628
     name: Limited Synth Crash Booster Mk V
@@ -1141,7 +1164,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Drop Booster Mk I:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 2
     id: 54607
     name: Limited Synth Drop Booster Mk I
@@ -1156,7 +1179,7 @@ types:
     trackingspeedbonus: 2.0
     volume: 1.0
   Limited Synth Drop Booster Mk II:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 2
     id: 54610
     name: Limited Synth Drop Booster Mk II
@@ -1171,7 +1194,7 @@ types:
     trackingspeedbonus: 2.0
     volume: 1.0
   Limited Synth Drop Booster Mk III:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 2
     id: 54611
     name: Limited Synth Drop Booster Mk III
@@ -1186,7 +1209,7 @@ types:
     trackingspeedbonus: 2.0
     volume: 1.0
   Limited Synth Drop Booster Mk IV:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 2
     id: 54612
     name: Limited Synth Drop Booster Mk IV
@@ -1201,7 +1224,7 @@ types:
     trackingspeedbonus: 3.0
     volume: 1.0
   Limited Synth Drop Booster Mk V:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 2
     id: 54613
     name: Limited Synth Drop Booster Mk V
@@ -1217,7 +1240,7 @@ types:
     volume: 1.0
   Limited Synth Exile Booster Mk I:
     armordamageamountbonus: 2
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 1
     id: 54592
     name: Limited Synth Exile Booster Mk I
@@ -1232,7 +1255,7 @@ types:
     volume: 1.0
   Limited Synth Exile Booster Mk II:
     armordamageamountbonus: 2
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 1
     id: 54593
     name: Limited Synth Exile Booster Mk II
@@ -1247,7 +1270,7 @@ types:
     volume: 1.0
   Limited Synth Exile Booster Mk III:
     armordamageamountbonus: 2
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     id: 54594
     name: Limited Synth Exile Booster Mk III
@@ -1262,7 +1285,7 @@ types:
     volume: 1.0
   Limited Synth Exile Booster Mk IV:
     armordamageamountbonus: 3
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 1
     id: 54595
     name: Limited Synth Exile Booster Mk IV
@@ -1277,7 +1300,7 @@ types:
     volume: 1.0
   Limited Synth Exile Booster Mk V:
     armordamageamountbonus: 3
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 1
     id: 54596
     name: Limited Synth Exile Booster Mk V
@@ -1291,7 +1314,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk I:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 2
     id: 54614
     name: Limited Synth Frentix Booster Mk I
@@ -1306,7 +1329,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk II:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 2
     id: 54615
     name: Limited Synth Frentix Booster Mk II
@@ -1321,7 +1344,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk III:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 2
     id: 54616
     name: Limited Synth Frentix Booster Mk III
@@ -1336,7 +1359,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk IV:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 2
     id: 54617
     name: Limited Synth Frentix Booster Mk IV
@@ -1351,7 +1374,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Frentix Booster Mk V:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 2
     id: 54618
     name: Limited Synth Frentix Booster Mk V
@@ -1366,7 +1389,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk I:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 1
     capacitorcapacitybonus: 2.0
     id: 54597
@@ -1381,7 +1404,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk II:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 1
     capacitorcapacitybonus: 2.0
     id: 54598
@@ -1396,7 +1419,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk III:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     capacitorcapacitybonus: 2.0
     id: 54599
@@ -1411,7 +1434,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk IV:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 1
     capacitorcapacitybonus: 3.0
     id: 54600
@@ -1426,7 +1449,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Mindflood Booster Mk V:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 1
     capacitorcapacitybonus: 3.0
     id: 54601
@@ -1441,7 +1464,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk I:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 2
     falloffbonus: 2.0
     id: 54619
@@ -1456,7 +1479,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk II:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 2
     falloffbonus: 2.0
     id: 54620
@@ -1471,7 +1494,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk III:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 2
     falloffbonus: 2.0
     id: 54621
@@ -1486,7 +1509,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk IV:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 2
     falloffbonus: 3.0
     id: 54622
@@ -1501,7 +1524,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth Sooth Sayer Booster Mk V:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 2
     falloffbonus: 3.0
     id: 54623
@@ -1516,7 +1539,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk I:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 1
     id: 54602
     name: Limited Synth X-Instinct Booster Mk I
@@ -1531,7 +1554,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk II:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 1
     id: 54603
     name: Limited Synth X-Instinct Booster Mk II
@@ -1546,7 +1569,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk III:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     id: 54604
     name: Limited Synth X-Instinct Booster Mk III
@@ -1561,7 +1584,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk IV:
-    boosterduration: 600000
+    boosterduration: 600000.0
     boosterness: 1
     id: 54605
     name: Limited Synth X-Instinct Booster Mk IV
@@ -1576,7 +1599,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Limited Synth X-Instinct Booster Mk V:
-    boosterduration: 1200000
+    boosterduration: 1200000.0
     boosterness: 1
     id: 54606
     name: Limited Synth X-Instinct Booster Mk V
@@ -1591,7 +1614,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Master-at-Arms Cerebral Accelerator:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterness: 10
     charismabonus: 10
     followsjumpclones: 1
@@ -1613,7 +1636,7 @@ types:
     volume: 1.0
     willpowerbonus: 10
   Nugoehuvi Synth Blue Pill Booster:
-    boosterduration: 1980000
+    boosterduration: 1980000.0
     boosterness: 1
     id: 32248
     marketGroup: 2491
@@ -1629,7 +1652,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Onslaught Accelerator:
-    boosterduration: 259200000
+    boosterduration: 2.592E8
     boosterlastinjectiondatetime: 17862.458984375
     boosterness: 10
     charismabonus: 10
@@ -1651,7 +1674,7 @@ types:
     volume: 1.0
     willpowerbonus: 10
   Potent Capsuleer Day Cerebral Accelerator:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18428.458984375
     boosterness: 10
     charismabonus: 8
@@ -1674,7 +1697,7 @@ types:
     volume: 1.0
     willpowerbonus: 8
   Potent Capsuleer Day Glamourex Booster:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18428.458984375
     boosterness: 12
     id: 54817
@@ -1712,7 +1735,7 @@ types:
     volume: 1.0
     willpowerbonus: 9
   Quafe Zero:
-    boosterduration: 3600000
+    boosterduration: 3600000.0
     boosterness: 1
     id: 3898
     marketGroup: 2506
@@ -1726,31 +1749,8 @@ types:
     socialbonus: 100
     velocitybonus: 5.0
     volume: 1.0
-  Serenity Monthly Cerebral Accelerator - 2020.5:
-    boosterduration: 43200000
-    boosterlastinjectiondatetime: 18412.458984375
-    boosterness: 10
-    charismabonus: 5
-    followsjumpclones: 1
-    id: 54660
-    intelligencebonus: 5
-    marketGroup: 2487
-    memorybonus: 5
-    name: Serenity Monthly Cerebral Accelerator - 2020.5
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 5
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.6:
-    boosterduration: 43200000
+    boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18442.458984375
     boosterness: 10
     charismabonus: 5
@@ -1772,10 +1772,33 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Special Cerebral Accelerator:
+    boosterduration: 2.592E9
+    boostermaxcharagehours: 2400
+    boosterness: 20
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 55700
+    intelligencebonus: 10
+    marketGroup: 2487
+    memorybonus: 10
+    name: Serenity Special Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
   Standard Blue Pill Booster:
     boosteraoevelocitypenalty: -20
     boostercapacitorcapacitypenalty: -20
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.20000000298023224
     boostereffectchance2: 0.20000000298023224
     boostereffectchance3: 0.20000000298023224
@@ -1823,7 +1846,7 @@ types:
   Standard Crash Booster:
     aoecloudsizebonus: -20.0
     boosterarmorhppenalty: -20
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.20000000298023224
     boostereffectchance2: 0.20000000298023224
     boostereffectchance3: 0.20000000298023224
@@ -1847,7 +1870,7 @@ types:
     volume: 1.0
   Standard Drop Booster:
     boosterarmorrepairamountpenalty: -20
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.20000000298023224
     boostereffectchance2: 0.20000000298023224
     boostereffectchance3: 0.20000000298023224
@@ -1874,7 +1897,7 @@ types:
     armordamageamountbonus: 20
     boosterarmorhppenalty: -20
     boostercapacitorcapacitypenalty: -20
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.20000000298023224
     boostereffectchance2: 0.20000000298023224
     boostereffectchance3: 0.20000000298023224
@@ -1897,7 +1920,7 @@ types:
     volume: 1.0
   Standard Frentix Booster:
     boosterarmorhppenalty: -20
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.20000000298023224
     boostereffectchance2: 0.20000000298023224
     boostereffectchance3: 0.20000000298023224
@@ -1922,7 +1945,7 @@ types:
     volume: 1.0
   Standard Mindflood Booster:
     boosterarmorrepairamountpenalty: -20
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.20000000298023224
     boostereffectchance2: 0.20000000298023224
     boostereffectchance3: 0.20000000298023224
@@ -1946,7 +1969,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Standard Serenity Cerebral Accelerator:
-    boosterduration: 86400000
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18443.125
     boosterness: 10
     charismabonus: 10
@@ -1970,7 +1993,7 @@ types:
     willpowerbonus: 10
   Standard Sooth Sayer Booster:
     boosterarmorrepairamountpenalty: -20
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.20000000298023224
     boostereffectchance2: 0.20000000298023224
     boostereffectchance3: 0.20000000298023224
@@ -1995,7 +2018,7 @@ types:
     volume: 1.0
   Standard X-Instinct Booster:
     boosterarmorhppenalty: -20
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.20000000298023224
     boostereffectchance2: 0.20000000298023224
     boostereffectchance3: 0.20000000298023224
@@ -2021,7 +2044,7 @@ types:
   Strong Blue Pill Booster:
     boosteraoevelocitypenalty: -30
     boostercapacitorcapacitypenalty: -30
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.4000000059604645
     boostereffectchance2: 0.4000000059604645
     boostereffectchance3: 0.4000000059604645
@@ -2046,7 +2069,7 @@ types:
   Strong Crash Booster:
     aoecloudsizebonus: -30.0
     boosterarmorhppenalty: -30
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.4000000059604645
     boostereffectchance2: 0.4000000059604645
     boostereffectchance3: 0.4000000059604645
@@ -2070,7 +2093,7 @@ types:
     volume: 1.0
   Strong Drop Booster:
     boosterarmorrepairamountpenalty: -30
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.4000000059604645
     boostereffectchance2: 0.4000000059604645
     boostereffectchance3: 0.4000000059604645
@@ -2097,7 +2120,7 @@ types:
     armordamageamountbonus: 30
     boosterarmorhppenalty: -30
     boostercapacitorcapacitypenalty: -30
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.4000000059604645
     boostereffectchance2: 0.4000000059604645
     boostereffectchance3: 0.4000000059604645
@@ -2120,7 +2143,7 @@ types:
     volume: 1.0
   Strong Frentix Booster:
     boosterarmorhppenalty: -30
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.4000000059604645
     boostereffectchance2: 0.4000000059604645
     boostereffectchance3: 0.4000000059604645
@@ -2145,7 +2168,7 @@ types:
     volume: 1.0
   Strong Mindflood Booster:
     boosterarmorrepairamountpenalty: -30
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.4000000059604645
     boostereffectchance2: 0.4000000059604645
     boostereffectchance3: 0.4000000059604645
@@ -2170,7 +2193,7 @@ types:
     volume: 1.0
   Strong Sooth Sayer Booster:
     boosterarmorrepairamountpenalty: -30
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.4000000059604645
     boostereffectchance2: 0.4000000059604645
     boostereffectchance3: 0.4000000059604645
@@ -2195,7 +2218,7 @@ types:
     volume: 1.0
   Strong X-Instinct Booster:
     boosterarmorhppenalty: -30
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boostereffectchance1: 0.4000000059604645
     boostereffectchance2: 0.4000000059604645
     boostereffectchance3: 0.4000000059604645
@@ -2219,7 +2242,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Synth Blue Pill Booster:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     id: 28670
     marketGroup: 2491
@@ -2236,7 +2259,7 @@ types:
     volume: 1.0
   Synth Crash Booster:
     aoecloudsizebonus: -3.0
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 3
     id: 28672
     marketGroup: 2500
@@ -2251,7 +2274,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Synth Drop Booster:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 2
     id: 28674
     marketGroup: 2496
@@ -2268,7 +2291,7 @@ types:
     volume: 1.0
   Synth Exile Booster:
     armordamageamountbonus: 3
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     id: 28676
     marketGroup: 2492
@@ -2283,7 +2306,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Synth Frentix Booster:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 2
     id: 28678
     marketGroup: 2497
@@ -2299,7 +2322,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Synth Mindflood Booster:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     capacitorcapacitybonus: 3.0
     id: 28680
@@ -2315,7 +2338,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Synth Sooth Sayer Booster:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 2
     falloffbonus: 3.0
     id: 28684
@@ -2331,7 +2354,7 @@ types:
     socialbonus: 100
     volume: 1.0
   Synth X-Instinct Booster:
-    boosterduration: 1800000
+    boosterduration: 1800000.0
     boosterness: 1
     id: 28682
     marketGroup: 2494
