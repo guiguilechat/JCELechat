@@ -6,6 +6,7 @@ types:
     name: Plutonium
     packagedVolume: 1.0
     portionSize: 1
+    price: 12000.0
     published: true
     volume: 1.0
   Radioactive Waste:
@@ -23,5 +24,6 @@ types:
     name: Toxic Waste
     packagedVolume: 1.0
     portionSize: 1
+    price: 150.0
     published: true
     volume: 1.0

@@ -35,6 +35,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 40000
+    price: 500000.0
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -92,6 +93,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 32000
+    price: 500000.0
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -149,6 +151,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 64000
+    price: 2500000.0
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -206,6 +209,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 136000
+    price: 1.25E7
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -263,6 +267,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 36000
+    price: 500000.0
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -320,6 +325,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 72000
+    price: 2500000.0
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -377,6 +383,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 144000
+    price: 1.25E7
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -433,6 +440,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 80000
+    price: 2500000.0
     proximityrange: 350000
     published: true
     radius: 366.0
@@ -489,6 +497,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 160000
+    price: 1.25E7
     proximityrange: 350000
     published: true
     radius: 366.0

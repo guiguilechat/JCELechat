@@ -12,6 +12,7 @@ import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
 import fr.guiguilechat.jcelechat.model.sde.loaders.ESILoader;
+import fr.guiguilechat.jcelechat.model.sde.loaders.MixedLoader;
 import fr.guiguilechat.jcelechat.model.sde.loaders.SDELoader;
 import fr.guiguilechat.jcelechat.model.sde.translate.TypesTranslater;
 
@@ -31,6 +32,13 @@ public class MainCompile {
 			public TypeHierarchy load() {
 				return SDELoader.load();
 			}
+		},
+		MIXED {
+			@Override
+			public TypeHierarchy load() {
+				return MixedLoader.load();
+			}
+
 		};
 
 		public abstract TypeHierarchy load();
@@ -44,7 +52,7 @@ public class MainCompile {
 	 * @throws IOException
 	 */
 	public static void main(String... args) throws IOException {
-		LOADER loader = LOADER.ESI;
+		LOADER loader = LOADER.MIXED;
 		boolean specifictests = false;
 		long startTime = System.currentTimeMillis();
 		File srcTarget = new File(args[0]);

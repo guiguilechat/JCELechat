@@ -7,6 +7,7 @@ types:
     name: Absolution Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -19,6 +20,7 @@ types:
     name: Astarte Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -31,6 +33,7 @@ types:
     name: Brutix Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.7E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -42,6 +45,7 @@ types:
     name: Brutix Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.7E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -54,6 +58,7 @@ types:
     name: Claymore Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -66,6 +71,7 @@ types:
     name: Cyclone Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.25E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -78,6 +84,7 @@ types:
     name: Damnation Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -90,6 +97,7 @@ types:
     name: Drake Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.8E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -101,6 +109,7 @@ types:
     name: Drake Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.8E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -122,6 +131,7 @@ types:
     name: Eos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -134,6 +144,7 @@ types:
     name: Ferox Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.4E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -157,6 +168,7 @@ types:
     name: Harbinger Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.85E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -168,6 +180,7 @@ types:
     name: Harbinger Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.85E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -180,6 +193,7 @@ types:
     name: Hurricane Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.65E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -191,6 +205,7 @@ types:
     name: Hurricane Fleet Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.65E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -203,6 +218,7 @@ types:
     name: Myrmidon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -215,6 +231,7 @@ types:
     name: Naga Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.15E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -227,6 +244,7 @@ types:
     name: Nighthawk Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -239,6 +257,7 @@ types:
     name: Oracle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.25E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -251,6 +270,7 @@ types:
     name: Prophecy Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.55E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -263,6 +283,7 @@ types:
     name: Sleipnir Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -275,6 +296,7 @@ types:
     name: Talos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.5E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -287,6 +309,7 @@ types:
     name: Tornado Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.92E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -299,6 +322,7 @@ types:
     name: Vulture Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E10
     published: true
     radius: 1.0
     techlevel: 2

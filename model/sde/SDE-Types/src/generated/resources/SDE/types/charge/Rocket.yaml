@@ -22,6 +22,7 @@ types:
     name: Caldari Navy Inferno Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 260.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -57,6 +58,7 @@ types:
     name: Caldari Navy Mjolnir Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 350.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -91,6 +93,7 @@ types:
     name: Caldari Navy Nova Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 180.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -125,6 +128,7 @@ types:
     name: Caldari Navy Scourge Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 240.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -158,6 +162,7 @@ types:
     name: Dread Guristas Inferno Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 260.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -193,6 +198,7 @@ types:
     name: Dread Guristas Mjolnir Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 350.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -227,6 +233,7 @@ types:
     name: Dread Guristas Nova Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 180.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -261,6 +268,7 @@ types:
     name: Dread Guristas Scourge Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 240.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -294,6 +302,7 @@ types:
     name: Guristas Inferno Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 260.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -329,6 +338,7 @@ types:
     name: Guristas Mjolnir Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 350.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -363,6 +373,7 @@ types:
     name: Guristas Nova Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 180.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -397,6 +408,7 @@ types:
     name: Guristas Scourge Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 240.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -428,6 +440,7 @@ types:
     name: Inferno Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 260.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -461,6 +474,7 @@ types:
     name: Mjolnir Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 350.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -493,6 +507,7 @@ types:
     name: Nova Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 180.0
     published: true
     radius: 300.0
     requiredskill1: 3320
@@ -525,6 +540,7 @@ types:
     name: Scourge Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 100
+    price: 240.0
     published: true
     radius: 300.0
     requiredskill1: 3320

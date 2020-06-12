@@ -35,6 +35,7 @@ types:
     name: Capital Cap Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.4E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -52,6 +53,7 @@ types:
     name: Capital Compact Pb-Acid Cap Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.8E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -78,6 +80,7 @@ types:
     name: Large Cap Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 624500.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -88,6 +91,7 @@ types:
     name: Large Cap Battery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -99,6 +103,7 @@ types:
     name: Medium Cap Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -109,6 +114,7 @@ types:
     name: Medium Cap Battery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -120,6 +126,7 @@ types:
     name: Small Cap Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -130,6 +137,7 @@ types:
     name: Small Cap Battery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

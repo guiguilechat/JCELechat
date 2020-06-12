@@ -6,6 +6,7 @@ types:
     name: Concussion Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,6 +17,7 @@ types:
     name: Electron Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -26,6 +28,7 @@ types:
     name: Lockbreaker Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -36,6 +39,7 @@ types:
     name: Scorch Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -46,6 +50,7 @@ types:
     name: Shrapnel Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -56,6 +61,7 @@ types:
     name: Void Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582

@@ -7,6 +7,7 @@ types:
     name: Auto-Targeting Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 37500.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -23,6 +24,7 @@ types:
     name: Bomb Deployment
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -40,6 +42,7 @@ types:
     name: Cruise Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -60,6 +63,7 @@ types:
     name: Cruise Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -79,6 +83,7 @@ types:
     name: Defender Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 45000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -94,6 +99,7 @@ types:
     name: Guided Missile Precision
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -110,6 +116,7 @@ types:
     name: Heavy Assault Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -130,6 +137,7 @@ types:
     name: Heavy Assault Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -148,6 +156,7 @@ types:
     name: Heavy Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -168,6 +177,7 @@ types:
     name: Heavy Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -186,6 +196,7 @@ types:
     name: Light Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -206,6 +217,7 @@ types:
     name: Light Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 30000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -223,6 +235,7 @@ types:
     name: Missile Bombardment
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -239,6 +252,7 @@ types:
     name: Missile Launcher Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 30000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -254,6 +268,7 @@ types:
     name: Missile Projection
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -270,6 +285,7 @@ types:
     name: Rapid Launch
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 60000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -287,6 +303,7 @@ types:
     name: Rocket Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -307,6 +324,7 @@ types:
     name: Rockets
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 30000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -324,6 +342,7 @@ types:
     name: Target Navigation Prediction
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 90000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -340,6 +359,7 @@ types:
     name: Torpedo Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -360,6 +380,7 @@ types:
     name: Torpedoes
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -379,6 +400,7 @@ types:
     name: Warhead Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -395,6 +417,7 @@ types:
     name: XL Cruise Missile Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -415,6 +438,7 @@ types:
     name: XL Cruise Missiles
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -433,6 +457,7 @@ types:
     name: XL Torpedo Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -453,6 +478,7 @@ types:
     name: XL Torpedoes
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E7
     primaryattribute: 167
     published: true
     radius: 1.0

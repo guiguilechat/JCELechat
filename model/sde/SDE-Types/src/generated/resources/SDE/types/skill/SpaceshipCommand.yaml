@@ -7,6 +7,7 @@ types:
     name: Advanced Spaceship Command
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -22,6 +23,7 @@ types:
     name: Amarr Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -40,6 +42,7 @@ types:
     name: Amarr Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -57,6 +60,7 @@ types:
     name: Amarr Carrier
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -80,6 +84,7 @@ types:
     name: Amarr Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -98,6 +103,7 @@ types:
     name: Amarr Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -113,6 +119,7 @@ types:
     name: Amarr Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -132,6 +139,7 @@ types:
     name: Amarr Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -149,6 +157,7 @@ types:
     name: Amarr Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -164,6 +173,7 @@ types:
     name: Amarr Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -179,6 +189,7 @@ types:
     name: Amarr Strategic Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -194,6 +205,7 @@ types:
     name: Amarr Tactical Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -209,6 +221,7 @@ types:
     name: Amarr Titan
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E9
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -230,6 +243,7 @@ types:
     name: Assault Frigates
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -249,6 +263,7 @@ types:
     name: Black Ops
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.5E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -268,6 +283,7 @@ types:
     name: Caldari Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -285,6 +301,7 @@ types:
     name: Caldari Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -302,6 +319,7 @@ types:
     name: Caldari Carrier
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -325,6 +343,7 @@ types:
     name: Caldari Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -342,6 +361,7 @@ types:
     name: Caldari Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -357,6 +377,7 @@ types:
     name: Caldari Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -376,6 +397,7 @@ types:
     name: Caldari Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -393,6 +415,7 @@ types:
     name: Caldari Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -408,6 +431,7 @@ types:
     name: Caldari Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -423,6 +447,7 @@ types:
     name: Caldari Strategic Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -438,6 +463,7 @@ types:
     name: Caldari Tactical Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -453,6 +479,7 @@ types:
     name: Caldari Titan
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E9
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -474,6 +501,7 @@ types:
     name: Capital Industrial Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -496,6 +524,7 @@ types:
     name: Capital Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -511,6 +540,7 @@ types:
     name: Command Destroyers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -528,6 +558,7 @@ types:
     name: Command Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.5E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -547,6 +578,7 @@ types:
     name: Covert Ops
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -596,6 +628,7 @@ types:
     name: Electronic Attack Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -613,6 +646,7 @@ types:
     name: Exhumers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -632,6 +666,7 @@ types:
     name: Expedition Frigates
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -651,6 +686,7 @@ types:
     name: Flag Cruisers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.5E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -670,6 +706,7 @@ types:
     name: Gallente Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -687,6 +724,7 @@ types:
     name: Gallente Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -704,6 +742,7 @@ types:
     name: Gallente Carrier
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -727,6 +766,7 @@ types:
     name: Gallente Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -744,6 +784,7 @@ types:
     name: Gallente Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -759,6 +800,7 @@ types:
     name: Gallente Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -778,6 +820,7 @@ types:
     name: Gallente Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -795,6 +838,7 @@ types:
     name: Gallente Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -810,6 +854,7 @@ types:
     name: Gallente Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -825,6 +870,7 @@ types:
     name: Gallente Strategic Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -840,6 +886,7 @@ types:
     name: Gallente Tactical Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -855,6 +902,7 @@ types:
     name: Gallente Titan
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E9
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -876,6 +924,7 @@ types:
     name: Heavy Assault Cruisers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.5E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -897,6 +946,7 @@ types:
     name: Heavy Interdiction Cruisers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.5E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -916,6 +966,7 @@ types:
     name: Industrial Command Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -935,6 +986,7 @@ types:
     name: Interceptors
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -952,6 +1004,7 @@ types:
     name: Interdictors
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -971,6 +1024,7 @@ types:
     name: Jump Freighters
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E8
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -988,6 +1042,7 @@ types:
     name: Logistics Cruisers
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -1007,6 +1062,7 @@ types:
     name: Logistics Frigates
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -1026,6 +1082,7 @@ types:
     name: Marauders
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.5E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -1045,6 +1102,7 @@ types:
     name: Mining Barge
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1064,6 +1122,7 @@ types:
     name: Mining Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1079,6 +1138,7 @@ types:
     name: Minmatar Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1096,6 +1156,7 @@ types:
     name: Minmatar Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1113,6 +1174,7 @@ types:
     name: Minmatar Carrier
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1136,6 +1198,7 @@ types:
     name: Minmatar Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1153,6 +1216,7 @@ types:
     name: Minmatar Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1168,6 +1232,7 @@ types:
     name: Minmatar Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1187,6 +1252,7 @@ types:
     name: Minmatar Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1204,6 +1270,7 @@ types:
     name: Minmatar Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1219,6 +1286,7 @@ types:
     name: Minmatar Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1234,6 +1302,7 @@ types:
     name: Minmatar Strategic Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1249,6 +1318,7 @@ types:
     name: Minmatar Tactical Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1264,6 +1334,7 @@ types:
     name: Minmatar Titan
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E9
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1285,6 +1356,7 @@ types:
     name: ORE Freighter
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1302,6 +1374,7 @@ types:
     name: ORE Industrial
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1317,6 +1390,7 @@ types:
     name: Precursor Battlecruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1335,6 +1409,7 @@ types:
     name: Precursor Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1352,6 +1427,7 @@ types:
     name: Precursor Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1370,6 +1446,7 @@ types:
     name: Precursor Destroyer
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 40000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1385,6 +1462,7 @@ types:
     name: Precursor Dreadnought
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E8
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1404,6 +1482,7 @@ types:
     name: Precursor Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1419,6 +1498,7 @@ types:
     name: Recon Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.5E7
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -1442,6 +1522,7 @@ types:
     name: Spaceship Command
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 30000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1455,6 +1536,7 @@ types:
     name: Transport Ships
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.5E7
     primaryattribute: 168
     published: true
     radius: 1.0

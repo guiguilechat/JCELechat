@@ -91,6 +91,7 @@ types:
     name: Eifyr and Co. 'Rogue' Afterburner AB-602
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -105,6 +106,7 @@ types:
     name: Eifyr and Co. 'Rogue' Afterburner AB-604
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -119,6 +121,7 @@ types:
     name: Eifyr and Co. 'Rogue' Afterburner AB-606
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -133,6 +136,7 @@ types:
     name: Eifyr and Co. 'Rogue' Afterburner AB-608
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -147,6 +151,7 @@ types:
     name: Eifyr and Co. 'Rogue' Afterburner AB-610
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -161,6 +166,7 @@ types:
     name: Eifyr and Co. 'Rogue' Afterburner AB-612
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -175,6 +181,7 @@ types:
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -189,6 +196,7 @@ types:
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -203,6 +211,7 @@ types:
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -217,6 +226,7 @@ types:
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-704
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -245,6 +255,7 @@ types:
     name: Eifyr and Co. 'Rogue' Evasive Maneuvering EM-706
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -259,6 +270,7 @@ types:
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-801
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -273,6 +285,7 @@ types:
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-802
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -287,6 +300,7 @@ types:
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-803
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -301,6 +315,7 @@ types:
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-804
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -329,6 +344,7 @@ types:
     name: Eifyr and Co. 'Rogue' Fuel Conservation FC-806
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -343,6 +359,7 @@ types:
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-901
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -357,6 +374,7 @@ types:
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-902
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -371,6 +389,7 @@ types:
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-903
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -385,6 +404,7 @@ types:
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-904
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -413,6 +433,7 @@ types:
     name: Eifyr and Co. 'Rogue' High Speed Maneuvering HS-906
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -427,6 +448,7 @@ types:
     name: Eifyr and Co. 'Rogue' Navigation NN-601
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -441,6 +463,7 @@ types:
     name: Eifyr and Co. 'Rogue' Navigation NN-602
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -455,6 +478,7 @@ types:
     name: Eifyr and Co. 'Rogue' Navigation NN-603
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -469,6 +493,7 @@ types:
     name: Eifyr and Co. 'Rogue' Navigation NN-604
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -497,6 +522,7 @@ types:
     name: Eifyr and Co. 'Rogue' Navigation NN-606
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -510,6 +536,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-602
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -524,6 +551,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-604
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -538,6 +566,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-606
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -552,6 +581,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-608
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -566,6 +596,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-610
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -580,6 +611,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Operation WD-612
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -594,6 +626,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-605
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -608,6 +641,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-608
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -622,6 +656,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-610
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -636,6 +671,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-613
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -650,6 +686,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-615
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -664,6 +701,7 @@ types:
     name: Eifyr and Co. 'Rogue' Warp Drive Speed WS-618
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -692,6 +730,7 @@ types:
     name: Zor's Custom Navigation Hyper-Link
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -707,6 +746,7 @@ types:
     name: Zor's Custom Navigation Link
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

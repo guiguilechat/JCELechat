@@ -4,6 +4,7 @@ types:
     name: APEX 'Atlas' Sentinel
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Atlas' Sentinel vX.1:
@@ -11,6 +12,7 @@ types:
     name: APEX 'Atlas' Sentinel vX.1
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Centurion' Commando:
@@ -18,6 +20,7 @@ types:
     name: APEX 'Centurion' Commando
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Chiron' Logistics:
@@ -25,6 +28,7 @@ types:
     name: APEX 'Chiron' Logistics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Dominus' Sentinel:
@@ -32,6 +36,7 @@ types:
     name: APEX 'Dominus' Sentinel
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Dragon' Scout:
@@ -39,6 +44,7 @@ types:
     name: APEX 'Dragon' Scout
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Dragon' Scout vX.1:
@@ -46,6 +52,7 @@ types:
     name: APEX 'Dragon' Scout vX.1
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Hawk' Scout:
@@ -53,6 +60,7 @@ types:
     name: APEX 'Hawk' Scout
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Kampo' Logistics:
@@ -60,6 +68,7 @@ types:
     name: APEX 'Kampo' Logistics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Nomad' Assault:
@@ -67,6 +76,7 @@ types:
     name: APEX 'Nomad' Assault
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Nomad' Assault vX.1:
@@ -74,6 +84,7 @@ types:
     name: APEX 'Nomad' Assault vX.1
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Opus' Assault:
@@ -81,6 +92,7 @@ types:
     name: APEX 'Opus' Assault
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Paladin' Commando:
@@ -88,6 +100,7 @@ types:
     name: APEX 'Paladin' Commando
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Rasetsu' Assault:
@@ -95,6 +108,7 @@ types:
     name: APEX 'Rasetsu' Assault
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Renegade' Commando:
@@ -102,6 +116,7 @@ types:
     name: APEX 'Renegade' Commando
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Samurai' Commando:
@@ -109,6 +124,7 @@ types:
     name: APEX 'Samurai' Commando
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Seraph' Logistics:
@@ -116,6 +132,7 @@ types:
     name: APEX 'Seraph' Logistics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Serpent' Scout:
@@ -123,6 +140,7 @@ types:
     name: APEX 'Serpent' Scout
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Shaman' Logistics:
@@ -130,6 +148,7 @@ types:
     name: APEX 'Shaman' Logistics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Shogun' Sentinel:
@@ -137,6 +156,7 @@ types:
     name: APEX 'Shogun' Sentinel
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Spartan' Assault:
@@ -144,6 +164,7 @@ types:
     name: APEX 'Spartan' Assault
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Tiger' Scout:
@@ -151,6 +172,7 @@ types:
     name: APEX 'Tiger' Scout
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   APEX 'Warlord' Sentinel:
@@ -158,6 +180,7 @@ types:
     name: APEX 'Warlord' Sentinel
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Federation 'Atlas' Sentinel:
@@ -165,6 +188,7 @@ types:
     name: Federation 'Atlas' Sentinel
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Federation 'Centurion' Commando:
@@ -172,6 +196,7 @@ types:
     name: Federation 'Centurion' Commando
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Federation 'Chiron' Logistics:
@@ -179,6 +204,7 @@ types:
     name: Federation 'Chiron' Logistics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Federation 'Serpent' Scout:
@@ -186,6 +212,7 @@ types:
     name: Federation 'Serpent' Scout
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Federation 'Spartan' Assault:
@@ -193,6 +220,7 @@ types:
     name: Federation 'Spartan' Assault
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Imperial 'Dominus' Sentinel:
@@ -200,6 +228,7 @@ types:
     name: Imperial 'Dominus' Sentinel
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Imperial 'Dragon' Scout:
@@ -207,6 +236,7 @@ types:
     name: Imperial 'Dragon' Scout
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Imperial 'Opus' Assault:
@@ -214,6 +244,7 @@ types:
     name: Imperial 'Opus' Assault
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Imperial 'Paladin' Commando:
@@ -221,6 +252,7 @@ types:
     name: Imperial 'Paladin' Commando
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Imperial 'Seraph' Logistics:
@@ -228,6 +260,7 @@ types:
     name: Imperial 'Seraph' Logistics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Republic 'Nomad' Assault:
@@ -235,6 +268,7 @@ types:
     name: Republic 'Nomad' Assault
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Republic 'Renegade' Commando:
@@ -242,6 +276,7 @@ types:
     name: Republic 'Renegade' Commando
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Republic 'Shaman' Logistics:
@@ -249,6 +284,7 @@ types:
     name: Republic 'Shaman' Logistics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Republic 'Tiger' Scout:
@@ -256,6 +292,7 @@ types:
     name: Republic 'Tiger' Scout
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   Republic 'Warlord' Sentinel:
@@ -263,6 +300,7 @@ types:
     name: Republic 'Warlord' Sentinel
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   State 'Hawk' Scout:
@@ -270,6 +308,7 @@ types:
     name: State 'Hawk' Scout
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   State 'Kampo' Logistics:
@@ -277,6 +316,7 @@ types:
     name: State 'Kampo' Logistics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   State 'Rasetsu' Assault:
@@ -284,6 +324,7 @@ types:
     name: State 'Rasetsu' Assault
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   State 'Samurai' Commando:
@@ -291,6 +332,7 @@ types:
     name: State 'Samurai' Commando
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582
   State 'Shogun' Sentinel:
@@ -298,5 +340,6 @@ types:
     name: State 'Shogun' Sentinel
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4760.0
     published: false
     volume: 0.009999999776482582

@@ -24,6 +24,7 @@ types:
     name: Concussion Bomb
     packagedVolume: 75.0
     portionSize: 20
+    price: 129920.0
     published: true
     radius: 300.0
     requiredskill1: 28073
@@ -57,6 +58,7 @@ types:
     name: Electron Bomb
     packagedVolume: 75.0
     portionSize: 20
+    price: 129920.0
     published: true
     radius: 300.0
     requiredskill1: 28073
@@ -89,6 +91,7 @@ types:
     name: Scorch Bomb
     packagedVolume: 75.0
     portionSize: 20
+    price: 129920.0
     published: true
     radius: 300.0
     requiredskill1: 28073
@@ -123,6 +126,7 @@ types:
     name: Shrapnel Bomb
     packagedVolume: 75.0
     portionSize: 20
+    price: 129920.0
     published: true
     radius: 300.0
     requiredskill1: 28073

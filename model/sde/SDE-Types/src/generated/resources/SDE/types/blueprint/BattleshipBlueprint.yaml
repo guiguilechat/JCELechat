@@ -7,6 +7,7 @@ types:
     name: Abaddon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.8E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -19,6 +20,7 @@ types:
     name: Apocalypse Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.265E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -53,6 +55,7 @@ types:
     name: Armageddon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.565E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -64,6 +67,7 @@ types:
     name: Armageddon Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.625E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -98,6 +102,7 @@ types:
     name: Dominix Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.66E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -109,6 +114,7 @@ types:
     name: Dominix Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.25E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -120,6 +126,7 @@ types:
     name: Golem Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.65E9
     published: true
     radius: 1.0
     techlevel: 2
@@ -132,6 +139,7 @@ types:
     name: Hyperion Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.76E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -143,6 +151,7 @@ types:
     name: Kronos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.76E9
     published: true
     radius: 1.0
     techlevel: 2
@@ -175,6 +184,7 @@ types:
     name: Maelstrom Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.45E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -196,6 +206,7 @@ types:
     name: Megathron Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.25E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -251,6 +262,7 @@ types:
     name: Paladin Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.8E9
     published: true
     radius: 1.0
     techlevel: 2
@@ -272,6 +284,7 @@ types:
     name: Praxis Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.8E9
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -294,6 +307,7 @@ types:
     name: Raven Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.135E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -328,6 +342,7 @@ types:
     name: Rokh Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.65E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -340,6 +355,7 @@ types:
     name: Scorpion Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.075E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -351,6 +367,7 @@ types:
     name: Scorpion Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.125E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -374,6 +391,7 @@ types:
     name: Tempest Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.055E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -397,6 +415,7 @@ types:
     name: Typhoon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.75E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -408,6 +427,7 @@ types:
     name: Typhoon Fleet Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.5E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -419,6 +439,7 @@ types:
     name: Vargur Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.45E9
     published: true
     radius: 1.0
     techlevel: 2

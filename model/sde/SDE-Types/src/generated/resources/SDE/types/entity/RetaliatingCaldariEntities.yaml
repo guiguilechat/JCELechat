@@ -1876,6 +1876,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 107000.0
     portionSize: 1
+    price: 1.3340104E7
     published: false
     radius: 174.0
     rechargerate: 500000.0
@@ -1937,6 +1938,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 92000.0
     portionSize: 1
+    price: 1.795095E7
     published: false
     radius: 202.0
     rechargerate: 285000.0
@@ -1997,6 +1999,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 252000.0
     portionSize: 1
+    price: 3.8E7
     published: false
     radius: 263.0
     rechargerate: 875000.0
@@ -2062,6 +2065,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 20000.0
     portionSize: 1
+    price: 2000000.0
     published: false
     radius: 27.0
     rechargerate: 337500.0
@@ -2132,6 +2136,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 19400.0
     portionSize: 1
+    price: 2426356.0
     published: false
     radius: 41.0
     rechargerate: 190000.0
@@ -2212,6 +2217,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 1.625E7
     portionSize: 1
+    price: 1.5415511E9
     published: false
     radius: 1700.0
     rechargerate: 4400000.0
@@ -2341,6 +2347,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 486000.0
     portionSize: 1
+    price: 1.0875E8
     published: false
     radius: 250.0
     rechargerate: 1000000.0
@@ -2406,6 +2413,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 96000.0
     portionSize: 1
+    price: 1.5001492E7
     published: false
     radius: 131.0
     rechargerate: 328000.0
@@ -2475,6 +2483,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 468000.0
     portionSize: 1
+    price: 7.125E7
     published: false
     radius: 250.0
     rechargerate: 1100000.0

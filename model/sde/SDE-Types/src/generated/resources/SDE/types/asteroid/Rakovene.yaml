@@ -8,6 +8,7 @@ types:
     name: Rakovene
     packagedVolume: 16.0
     portionSize: 100
+    price: 401168.0
     published: true
     radius: 1.0
     reprocessingskilltype: 3385

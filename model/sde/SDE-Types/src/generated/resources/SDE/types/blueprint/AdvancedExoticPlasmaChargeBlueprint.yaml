@@ -4,6 +4,7 @@ types:
     name: Mystic L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   Mystic M Blueprint:
@@ -11,6 +12,7 @@ types:
     name: Mystic M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   Mystic S Blueprint:
@@ -18,6 +20,7 @@ types:
     name: Mystic S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   Occult L Blueprint:
@@ -25,6 +28,7 @@ types:
     name: Occult L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   Occult M Blueprint:
@@ -32,6 +36,7 @@ types:
     name: Occult M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   Occult S Blueprint:
@@ -39,5 +44,6 @@ types:
     name: Occult S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582

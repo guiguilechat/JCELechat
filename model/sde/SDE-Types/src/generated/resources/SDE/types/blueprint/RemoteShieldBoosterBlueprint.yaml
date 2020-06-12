@@ -5,6 +5,7 @@ types:
     name: CONCORD Capital Remote Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.465951E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -14,6 +15,7 @@ types:
     name: Capital Ancillary Remote Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.6E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -23,6 +25,7 @@ types:
     name: Capital Asymmetric Enduring Remote Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.9E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -32,6 +35,7 @@ types:
     name: Capital Murky Compact Remote Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.9E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -42,6 +46,7 @@ types:
     name: Capital Remote Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.465951E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -52,6 +57,7 @@ types:
     name: Capital Remote Shield Booster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -62,6 +68,7 @@ types:
     name: Capital S95a Scoped Remote Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.9E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -86,6 +93,7 @@ types:
     name: Large Ancillary Remote Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 490000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -96,6 +104,7 @@ types:
     name: Large Remote Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 312440.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -106,6 +115,7 @@ types:
     name: Large Remote Shield Booster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -115,6 +125,7 @@ types:
     name: Medium Ancillary Remote Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 185000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -125,6 +136,7 @@ types:
     name: Medium Remote Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 124700.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -135,6 +147,7 @@ types:
     name: Medium Remote Shield Booster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -144,6 +157,7 @@ types:
     name: Small Ancillary Remote Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 75000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -154,6 +168,7 @@ types:
     name: Small Remote Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 49960.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -164,6 +179,7 @@ types:
     name: Small Remote Shield Booster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

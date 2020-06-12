@@ -19,6 +19,7 @@ types:
     name: Standup Cruise Missile
     packagedVolume: 0.5
     portionSize: 100
+    price: 325000.0
     published: true
     radius: 300.0
     structureitemvisualflag: 1
@@ -45,6 +46,7 @@ types:
     name: Standup Heavy Missile
     packagedVolume: 0.5
     portionSize: 100
+    price: 325000.0
     published: true
     radius: 300.0
     structureitemvisualflag: 1
@@ -71,6 +73,7 @@ types:
     name: Standup Light Missile
     packagedVolume: 0.5
     portionSize: 100
+    price: 325000.0
     published: true
     radius: 300.0
     structureitemvisualflag: 1

@@ -5,6 +5,7 @@ types:
     name: Improved Blue Pill Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Improved Crash Booster Reaction Formula:
@@ -13,6 +14,7 @@ types:
     name: Improved Crash Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Improved Drop Booster Reaction Formula:
@@ -21,6 +23,7 @@ types:
     name: Improved Drop Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Improved Exile Booster Reaction Formula:
@@ -29,6 +32,7 @@ types:
     name: Improved Exile Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Improved Frentix Booster Reaction Formula:
@@ -37,6 +41,7 @@ types:
     name: Improved Frentix Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Improved Mindflood Booster Reaction Formula:
@@ -45,6 +50,7 @@ types:
     name: Improved Mindflood Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Improved Sooth Sayer Booster Reaction Formula:
@@ -53,6 +59,7 @@ types:
     name: Improved Sooth Sayer Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Improved X-Instinct Booster Reaction Formula:
@@ -61,6 +68,7 @@ types:
     name: Improved X-Instinct Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Standard Blue Pill Booster Reaction Formula:
@@ -69,6 +77,7 @@ types:
     name: Standard Blue Pill Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Standard Crash Booster Reaction Formula:
@@ -77,6 +86,7 @@ types:
     name: Standard Crash Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Standard Drop Booster Reaction Formula:
@@ -85,6 +95,7 @@ types:
     name: Standard Drop Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Standard Exile Booster Reaction Formula:
@@ -93,6 +104,7 @@ types:
     name: Standard Exile Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Standard Frentix Booster Reaction Formula:
@@ -101,6 +113,7 @@ types:
     name: Standard Frentix Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Standard Mindflood Booster Reaction Formula:
@@ -109,6 +122,7 @@ types:
     name: Standard Mindflood Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Standard Sooth Sayer Booster Reaction Formula:
@@ -117,6 +131,7 @@ types:
     name: Standard Sooth Sayer Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Standard X-Instinct Booster Reaction Formula:
@@ -125,6 +140,7 @@ types:
     name: Standard X-Instinct Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Strong Blue Pill Booster Reaction Formula:
@@ -133,6 +149,7 @@ types:
     name: Strong Blue Pill Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Strong Crash Booster Reaction Formula:
@@ -141,6 +158,7 @@ types:
     name: Strong Crash Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Strong Drop Booster Reaction Formula:
@@ -149,6 +167,7 @@ types:
     name: Strong Drop Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Strong Exile Booster Reaction Formula:
@@ -157,6 +176,7 @@ types:
     name: Strong Exile Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Strong Frentix Booster Reaction Formula:
@@ -165,6 +185,7 @@ types:
     name: Strong Frentix Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Strong Mindflood Booster Reaction Formula:
@@ -173,6 +194,7 @@ types:
     name: Strong Mindflood Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Strong Sooth Sayer Booster Reaction Formula:
@@ -181,6 +203,7 @@ types:
     name: Strong Sooth Sayer Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Strong X-Instinct Booster Reaction Formula:
@@ -189,6 +212,7 @@ types:
     name: Strong X-Instinct Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Synth Blue Pill Booster Reaction Formula:
@@ -197,6 +221,7 @@ types:
     name: Synth Blue Pill Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Synth Crash Booster Reaction Formula:
@@ -205,6 +230,7 @@ types:
     name: Synth Crash Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Synth Drop Booster Reaction Formula:
@@ -213,6 +239,7 @@ types:
     name: Synth Drop Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Synth Exile Booster Reaction Formula:
@@ -221,6 +248,7 @@ types:
     name: Synth Exile Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Synth Frentix Booster Reaction Formula:
@@ -229,6 +257,7 @@ types:
     name: Synth Frentix Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Synth Mindflood Booster Reaction Formula:
@@ -237,6 +266,7 @@ types:
     name: Synth Mindflood Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Synth Sooth Sayer Booster Reaction Formula:
@@ -245,6 +275,7 @@ types:
     name: Synth Sooth Sayer Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Synth X-Instinct Booster Reaction Formula:
@@ -253,5 +284,6 @@ types:
     name: Synth X-Instinct Booster Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582

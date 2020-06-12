@@ -25,6 +25,7 @@ types:
     name: Standup Anticapital Missile Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -34,6 +35,7 @@ types:
     name: Standup Anticapital Missile Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   Standup Arcing Vorton Projector I Blueprint:
@@ -42,6 +44,7 @@ types:
     name: Standup Arcing Vorton Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -52,6 +55,7 @@ types:
     name: Standup Ballistic Control System I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -61,6 +65,7 @@ types:
     name: Standup Ballistic Control System II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     volume: 0.009999999776482582
   Standup Biochemical Reactor I Blueprint:
@@ -69,6 +74,7 @@ types:
     name: Standup Biochemical Reactor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -79,6 +85,7 @@ types:
     name: Standup Cap Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup Cap Battery II Blueprint:
@@ -86,6 +93,7 @@ types:
     name: Standup Cap Battery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup Capacitor Power Relay I Blueprint:
@@ -94,6 +102,7 @@ types:
     name: Standup Capacitor Power Relay I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup Capacitor Power Relay II Blueprint:
@@ -101,6 +110,7 @@ types:
     name: Standup Capacitor Power Relay II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     volume: 0.009999999776482582
   Standup Capital Shipyard I Blueprint:
@@ -109,6 +119,7 @@ types:
     name: Standup Capital Shipyard I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -119,6 +130,7 @@ types:
     name: Standup Cloning Center I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.6E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -129,6 +141,7 @@ types:
     name: Standup Co-Processor Array I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -138,6 +151,7 @@ types:
     name: Standup Co-Processor Array II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     volume: 0.009999999776482582
   Standup Composite Reactor I Blueprint:
@@ -146,6 +160,7 @@ types:
     name: Standup Composite Reactor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -156,6 +171,7 @@ types:
     name: Standup ECM Jammer Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Standup Energy Neutralization Burst Projector Blueprint:
@@ -164,6 +180,7 @@ types:
     name: Standup Energy Neutralization Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Standup Focused Warp Disruptor I Blueprint:
@@ -172,6 +189,7 @@ types:
     name: Standup Focused Warp Disruptor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -181,6 +199,7 @@ types:
     name: Standup Focused Warp Disruptor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup Guided Bomb Launcher I Blueprint:
@@ -189,6 +208,7 @@ types:
     name: Standup Guided Bomb Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -198,6 +218,7 @@ types:
     name: Standup Guided Bomb Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     volume: 0.009999999776482582
   Standup Heavy Energy Neutralizer I Blueprint:
@@ -206,6 +227,7 @@ types:
     name: Standup Heavy Energy Neutralizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -215,6 +237,7 @@ types:
     name: Standup Heavy Energy Neutralizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Standup Hyasyoda Research Lab Blueprint:
@@ -222,6 +245,7 @@ types:
     name: Standup Hyasyoda Research Lab Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -232,6 +256,7 @@ types:
     name: Standup Hybrid Reactor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -242,6 +267,7 @@ types:
     name: Standup Invention Lab I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -252,6 +278,7 @@ types:
     name: Standup Layered Armor Plating I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup Layered Armor Plating II Blueprint:
@@ -259,6 +286,7 @@ types:
     name: Standup Layered Armor Plating II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     volume: 0.009999999776482582
   Standup Manufacturing Plant I Blueprint:
@@ -267,6 +295,7 @@ types:
     name: Standup Manufacturing Plant I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -277,6 +306,7 @@ types:
     name: Standup Market Hub I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -287,6 +317,7 @@ types:
     name: Standup Missile Guidance Enhancer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     volume: 0.009999999776482582
   Standup Missile Guidance Enhancer II Blueprint:
@@ -294,6 +325,7 @@ types:
     name: Standup Missile Guidance Enhancer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     volume: 0.009999999776482582
   Standup Moon Drill I Blueprint:
@@ -302,6 +334,7 @@ types:
     name: Standup Moon Drill I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.6E9
     published: true
     volume: 0.009999999776482582
   Standup Multirole Missile Launcher I Blueprint:
@@ -310,6 +343,7 @@ types:
     name: Standup Multirole Missile Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -319,6 +353,7 @@ types:
     name: Standup Multirole Missile Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   Standup Point Defense Battery I Blueprint:
@@ -327,6 +362,7 @@ types:
     name: Standup Point Defense Battery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -336,6 +372,7 @@ types:
     name: Standup Point Defense Battery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     volume: 0.009999999776482582
   Standup Reactor Control Unit I Blueprint:
@@ -344,6 +381,7 @@ types:
     name: Standup Reactor Control Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -353,6 +391,7 @@ types:
     name: Standup Reactor Control Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     volume: 0.009999999776482582
   Standup Remote Sensor Dampener I Blueprint:
@@ -361,6 +400,7 @@ types:
     name: Standup Remote Sensor Dampener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -370,6 +410,7 @@ types:
     name: Standup Remote Sensor Dampener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup Reprocessing Facility I Blueprint:
@@ -378,6 +419,7 @@ types:
     name: Standup Reprocessing Facility I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.6E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -388,6 +430,7 @@ types:
     name: Standup Research Lab I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -398,6 +441,7 @@ types:
     name: Standup Sensor Dampening Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Standup Signal Amplifier I Blueprint:
@@ -406,6 +450,7 @@ types:
     name: Standup Signal Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -415,6 +460,7 @@ types:
     name: Standup Signal Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     volume: 0.009999999776482582
   Standup Stasis Webification Burst Projector Blueprint:
@@ -423,6 +469,7 @@ types:
     name: Standup Stasis Webification Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Standup Stasis Webifier I Blueprint:
@@ -431,6 +478,7 @@ types:
     name: Standup Stasis Webifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -440,6 +488,7 @@ types:
     name: Standup Stasis Webifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup Supercapital Shipyard I Blueprint:
@@ -448,6 +497,7 @@ types:
     name: Standup Supercapital Shipyard I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.0E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -458,6 +508,7 @@ types:
     name: Standup Target Illumination Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Standup Target Painter I Blueprint:
@@ -466,6 +517,7 @@ types:
     name: Standup Target Painter I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -475,6 +527,7 @@ types:
     name: Standup Target Painter II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup Variable Spectrum ECM I Blueprint:
@@ -483,6 +536,7 @@ types:
     name: Standup Variable Spectrum ECM I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -492,6 +546,7 @@ types:
     name: Standup Variable Spectrum ECM II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup Warp Disruption Burst Projector Blueprint:
@@ -500,6 +555,7 @@ types:
     name: Standup Warp Disruption Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Standup Weapon Disruption Burst Projector Blueprint:
@@ -508,6 +564,7 @@ types:
     name: Standup Weapon Disruption Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Standup Weapon Disruptor I Blueprint:
@@ -516,6 +573,7 @@ types:
     name: Standup Weapon Disruptor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -525,6 +583,7 @@ types:
     name: Standup Weapon Disruptor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Standup XL Energy Neutralizer I Blueprint:
@@ -533,6 +592,7 @@ types:
     name: Standup XL Energy Neutralizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -542,5 +602,6 @@ types:
     name: Standup XL Energy Neutralizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     volume: 0.009999999776482582

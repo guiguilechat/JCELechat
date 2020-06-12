@@ -6,6 +6,7 @@ types:
     name: Crystalline Carbonide
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,6 +17,7 @@ types:
     name: Fermionic Condensates
     packagedVolume: 1.2999999523162842
     portionSize: 1
+    price: 12000.0
     published: true
     radius: 1.0
     volume: 1.2999999523162842
@@ -26,6 +28,7 @@ types:
     name: Fernite Carbide
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -36,6 +39,7 @@ types:
     name: Ferrogel
     packagedVolume: 1.0
     portionSize: 1
+    price: 5500.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -46,6 +50,7 @@ types:
     name: Fullerides
     packagedVolume: 0.15000000596046448
     portionSize: 1
+    price: 230.0
     published: true
     radius: 1.0
     volume: 0.15000000596046448
@@ -56,6 +61,7 @@ types:
     name: Hypersynaptic Fibers
     packagedVolume: 0.6000000238418579
     portionSize: 1
+    price: 2560.0
     published: true
     radius: 1.0
     volume: 0.6000000238418579
@@ -66,6 +72,7 @@ types:
     name: Nanotransistors
     packagedVolume: 0.25
     portionSize: 1
+    price: 700.0
     published: true
     radius: 1.0
     volume: 0.25
@@ -76,6 +83,7 @@ types:
     name: Nonlinear Metamaterials
     packagedVolume: 1.0
     portionSize: 1
+    price: 3500.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -86,6 +94,7 @@ types:
     name: Phenolic Composites
     packagedVolume: 0.20000000298023224
     portionSize: 1
+    price: 600.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -96,6 +105,7 @@ types:
     name: Photonic Metamaterials
     packagedVolume: 1.0
     portionSize: 1
+    price: 3500.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -106,6 +116,7 @@ types:
     name: Plasmonic Metamaterials
     packagedVolume: 1.0
     portionSize: 1
+    price: 3500.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -116,6 +127,7 @@ types:
     name: Sylramic Fibers
     packagedVolume: 0.05000000074505806
     portionSize: 1
+    price: 20.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -126,6 +138,7 @@ types:
     name: Terahertz Metamaterials
     packagedVolume: 1.0
     portionSize: 1
+    price: 3500.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -136,6 +149,7 @@ types:
     name: Titanium Carbide
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -146,6 +160,7 @@ types:
     name: Tungsten Carbide
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

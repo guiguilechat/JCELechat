@@ -20,6 +20,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9900.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -50,6 +51,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9900.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -80,6 +82,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9900.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -109,6 +112,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 1420.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -139,6 +143,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9900.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -168,6 +173,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 1420.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -198,6 +204,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9900.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -228,6 +235,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9900.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -256,6 +264,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9900.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -285,6 +294,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 83760.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -315,6 +325,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9900.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582

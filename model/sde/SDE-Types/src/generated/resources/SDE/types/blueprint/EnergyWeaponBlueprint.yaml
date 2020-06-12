@@ -96,6 +96,7 @@ types:
     name: Afocal Precise Dual Giga Beam Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.68E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -107,6 +108,7 @@ types:
     name: Afocal Precise Dual Giga Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8.6E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -118,6 +120,7 @@ types:
     name: Afocal Precise Quad Mega Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -129,6 +132,7 @@ types:
     name: Anode Scoped Dual Giga Beam Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.68E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -140,6 +144,7 @@ types:
     name: Anode Scoped Dual Giga Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8.6E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -151,6 +156,7 @@ types:
     name: Anode Scoped Quad Mega Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -162,6 +168,7 @@ types:
     name: CONCORD Dual Giga Beam Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.300626E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -173,6 +180,7 @@ types:
     name: CONCORD Dual Giga Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.8404274E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -184,6 +192,7 @@ types:
     name: Dark Blood Dual Giga Beam Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.8404274E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -195,6 +204,7 @@ types:
     name: Dark Blood Dual Giga Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.300626E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -206,6 +216,7 @@ types:
     name: Dark Blood Quad Mega Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.300626E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -217,6 +228,7 @@ types:
     name: Dual Giga Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.8404274E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -227,6 +239,7 @@ types:
     name: Dual Giga Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.8404274E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -238,6 +251,7 @@ types:
     name: Dual Giga Pulse Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.300626E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -248,6 +262,7 @@ types:
     name: Dual Giga Pulse Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.300626E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -259,6 +274,7 @@ types:
     name: Dual Heavy Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -269,6 +285,7 @@ types:
     name: Dual Heavy Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -280,6 +297,7 @@ types:
     name: Dual Heavy Pulse Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -290,6 +308,7 @@ types:
     name: Dual Heavy Pulse Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -301,6 +320,7 @@ types:
     name: Dual Light Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 90000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -311,6 +331,7 @@ types:
     name: Dual Light Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -322,6 +343,7 @@ types:
     name: Dual Light Pulse Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 60000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -332,6 +354,7 @@ types:
     name: Dual Light Pulse Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -343,6 +366,7 @@ types:
     name: Focused Medium Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 900000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -353,6 +377,7 @@ types:
     name: Focused Medium Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -364,6 +389,7 @@ types:
     name: Focused Medium Pulse Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 600000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -374,6 +400,7 @@ types:
     name: Focused Medium Pulse Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -385,6 +412,7 @@ types:
     name: Gatling Pulse Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 20000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -395,6 +423,7 @@ types:
     name: Gatling Pulse Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -406,6 +435,7 @@ types:
     name: Heavy Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -416,6 +446,7 @@ types:
     name: Heavy Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -427,6 +458,7 @@ types:
     name: Heavy Pulse Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1200000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -437,6 +469,7 @@ types:
     name: Heavy Pulse Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -448,6 +481,7 @@ types:
     name: Mega Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -458,6 +492,7 @@ types:
     name: Mega Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -469,6 +504,7 @@ types:
     name: Mega Pulse Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -479,6 +515,7 @@ types:
     name: Mega Pulse Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -490,6 +527,7 @@ types:
     name: Modal Enduring Dual Giga Beam Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.68E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -501,6 +539,7 @@ types:
     name: Modal Enduring Dual Giga Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8.6E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -512,6 +551,7 @@ types:
     name: Modal Enduring Quad Mega Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -523,6 +563,7 @@ types:
     name: Modulated Compact Dual Giga Beam Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.68E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -534,6 +575,7 @@ types:
     name: Modulated Compact Dual Giga Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8.6E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -545,6 +587,7 @@ types:
     name: Modulated Compact Quad Mega Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -554,6 +597,7 @@ types:
     name: Polarized Heavy Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -563,6 +607,7 @@ types:
     name: Polarized Mega Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -572,6 +617,7 @@ types:
     name: Polarized Small Focused Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -583,6 +629,7 @@ types:
     name: Quad Light Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 185280.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -593,6 +640,7 @@ types:
     name: Quad Light Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -604,6 +652,7 @@ types:
     name: Quad Mega Pulse Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.5E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -614,6 +663,7 @@ types:
     name: Quad Mega Pulse Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.300626E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -625,6 +675,7 @@ types:
     name: Small Focused Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -635,6 +686,7 @@ types:
     name: Small Focused Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -646,6 +698,7 @@ types:
     name: Small Focused Pulse Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 120000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -656,6 +709,7 @@ types:
     name: Small Focused Pulse Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -667,6 +721,7 @@ types:
     name: Tachyon Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -677,6 +732,7 @@ types:
     name: Tachyon Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -688,6 +744,7 @@ types:
     name: True Sansha Dual Giga Beam Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.8404274E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -699,6 +756,7 @@ types:
     name: True Sansha Dual Giga Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.300626E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -710,6 +768,7 @@ types:
     name: True Sansha Quad Mega Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.300626E7
     published: true
     radius: 1.0
     techlevel: 1

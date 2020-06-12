@@ -15,6 +15,7 @@ types:
     name: Assault Damage Control I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -23,6 +24,7 @@ types:
     name: Assault Damage Control II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -32,6 +34,7 @@ types:
     name: Capital Emergency Hull Energizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.6E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -40,6 +43,7 @@ types:
     name: Capital Emergency Hull Energizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -50,6 +54,7 @@ types:
     name: Capital Implacable Compact Emergency Hull Energizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.2E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -59,6 +64,7 @@ types:
     name: Capital Indefatigable Enduring Emergency Hull Energizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.2E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -68,6 +74,7 @@ types:
     name: Civilian Damage Control Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -79,6 +86,7 @@ types:
     name: Damage Control I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -89,6 +97,7 @@ types:
     name: Damage Control II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -99,6 +108,7 @@ types:
     name: Sisters Capital Emergency Hull Energizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     published: true
     radius: 1.0
     techlevel: 1

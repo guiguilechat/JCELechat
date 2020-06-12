@@ -5,6 +5,7 @@ types:
     name: Javelin L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -15,6 +16,7 @@ types:
     name: Javelin M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -25,6 +27,7 @@ types:
     name: Javelin S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -34,6 +37,7 @@ types:
     name: Javelin XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4000000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -44,6 +48,7 @@ types:
     name: Null L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -54,6 +59,7 @@ types:
     name: Null M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -64,6 +70,7 @@ types:
     name: Null S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -73,6 +80,7 @@ types:
     name: Null XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6000000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -83,6 +91,7 @@ types:
     name: Spike L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -93,6 +102,7 @@ types:
     name: Spike M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -103,6 +113,7 @@ types:
     name: Spike S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -112,6 +123,7 @@ types:
     name: Spike XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 8000000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -122,6 +134,7 @@ types:
     name: Void L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -132,6 +145,7 @@ types:
     name: Void M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -142,6 +156,7 @@ types:
     name: Void S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -151,6 +166,7 @@ types:
     name: Void XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     techlevel: 2

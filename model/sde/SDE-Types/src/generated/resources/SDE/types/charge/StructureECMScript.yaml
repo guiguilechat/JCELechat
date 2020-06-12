@@ -7,6 +7,7 @@ types:
     name: Standup Gravimetric ECM Script
     packagedVolume: 1.0
     portionSize: 1
+    price: 4000.0
     published: true
     radius: 1.0
     scangravimetricstrengthbonusbonus: 100
@@ -23,6 +24,7 @@ types:
     name: Standup Ladar ECM Script
     packagedVolume: 1.0
     portionSize: 1
+    price: 4000.0
     published: true
     radius: 1.0
     scangravimetricstrengthbonusbonus: -50
@@ -39,6 +41,7 @@ types:
     name: Standup Magnetometric ECM Script
     packagedVolume: 1.0
     portionSize: 1
+    price: 4000.0
     published: true
     radius: 1.0
     scangravimetricstrengthbonusbonus: -50
@@ -55,6 +58,7 @@ types:
     name: Standup Radar ECM Script
     packagedVolume: 1.0
     portionSize: 1
+    price: 4000.0
     published: true
     radius: 1.0
     scangravimetricstrengthbonusbonus: -50

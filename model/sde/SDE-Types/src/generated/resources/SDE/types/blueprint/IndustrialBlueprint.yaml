@@ -7,6 +7,7 @@ types:
     name: Badger Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3487500.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -18,6 +19,7 @@ types:
     name: Bestower Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4977500.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -29,6 +31,7 @@ types:
     name: Epithal Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -40,6 +43,7 @@ types:
     name: Hoarder Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4525000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -51,6 +55,7 @@ types:
     name: Iteron Mark V Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.125E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -62,6 +67,7 @@ types:
     name: Kryos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3425000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -73,6 +79,7 @@ types:
     name: Mammoth Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9375000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -83,6 +90,7 @@ types:
     name: Miasmos Amastris Edition Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4287500.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -94,6 +102,7 @@ types:
     name: Miasmos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4287500.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -104,6 +113,7 @@ types:
     name: Miasmos Quafe Ultra Edition Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4287500.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -114,6 +124,7 @@ types:
     name: Miasmos Quafe Ultramarine Edition Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4287500.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -125,6 +136,7 @@ types:
     name: Nereus Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3100000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -136,6 +148,7 @@ types:
     name: Noctis Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.9E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -146,6 +159,7 @@ types:
     name: Primae Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -157,6 +171,7 @@ types:
     name: Sigil Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4977500.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -168,6 +183,7 @@ types:
     name: Tayra Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7425000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -179,6 +195,7 @@ types:
     name: Wreathe Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3225000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

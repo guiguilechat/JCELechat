@@ -46,6 +46,7 @@ types:
     name: EM Armor Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -56,6 +57,7 @@ types:
     name: EM Armor Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -67,6 +69,7 @@ types:
     name: Explosive Armor Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -77,6 +80,7 @@ types:
     name: Explosive Armor Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -208,6 +212,7 @@ types:
     name: Kinetic Armor Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -218,6 +223,7 @@ types:
     name: Kinetic Armor Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -269,6 +275,7 @@ types:
     name: Thermal Armor Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -279,6 +286,7 @@ types:
     name: Thermal Armor Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

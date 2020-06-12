@@ -25,6 +25,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
+    price: 5.1E7
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -66,6 +67,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
+    price: 4.0E8
     published: true
     radius: 1.0
     remoteresistanceid: 2045
@@ -102,6 +104,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
+    price: 4.0E8
     published: true
     radius: 1.0
     remoteresistanceid: 2112
@@ -138,6 +141,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
+    price: 4.0E8
     published: true
     radius: 1.0
     remoteresistanceid: 2115
@@ -173,6 +177,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
+    price: 4.0E8
     published: true
     radius: 1.0
     remoteresistanceid: 2114
@@ -210,6 +215,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
+    price: 4.0E8
     published: true
     radius: 1.0
     requiredskill1: 27911
@@ -250,6 +256,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
+    price: 4.0E8
     published: true
     radius: 1.0
     remoteresistanceid: 2113

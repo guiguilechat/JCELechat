@@ -5,6 +5,7 @@ types:
     name: Frostline 'Omnivore' Harvester Upgrade Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -15,6 +16,7 @@ types:
     name: Ice Harvester Upgrade I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -25,6 +27,7 @@ types:
     name: Ice Harvester Upgrade II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -36,6 +39,7 @@ types:
     name: Mining Laser Upgrade I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -46,6 +50,7 @@ types:
     name: Mining Laser Upgrade II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     published: true
     radius: 1.0
     techlevel: 2

@@ -6,6 +6,7 @@ types:
     name: Helium Fuel Block Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,6 +17,7 @@ types:
     name: Hydrogen Fuel Block Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -26,6 +28,7 @@ types:
     name: Nitrogen Fuel Block Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -36,6 +39,7 @@ types:
     name: Oxygen Fuel Block Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582

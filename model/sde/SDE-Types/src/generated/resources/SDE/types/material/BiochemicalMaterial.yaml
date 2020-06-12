@@ -6,6 +6,7 @@ types:
     name: Pure Improved Blue Pill Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -16,6 +17,7 @@ types:
     name: Pure Improved Crash Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -26,6 +28,7 @@ types:
     name: Pure Improved Drop Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -36,6 +39,7 @@ types:
     name: Pure Improved Exile Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -46,6 +50,7 @@ types:
     name: Pure Improved Frentix Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -56,6 +61,7 @@ types:
     name: Pure Improved Mindflood Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -66,6 +72,7 @@ types:
     name: Pure Improved Sooth Sayer Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -76,6 +83,7 @@ types:
     name: Pure Improved X-Instinct Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -86,6 +94,7 @@ types:
     name: Pure Standard Blue Pill Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -96,6 +105,7 @@ types:
     name: Pure Standard Crash Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -106,6 +116,7 @@ types:
     name: Pure Standard Drop Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -116,6 +127,7 @@ types:
     name: Pure Standard Exile Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -126,6 +138,7 @@ types:
     name: Pure Standard Frentix Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -136,6 +149,7 @@ types:
     name: Pure Standard Mindflood Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -146,6 +160,7 @@ types:
     name: Pure Standard Sooth Sayer Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -156,6 +171,7 @@ types:
     name: Pure Standard X-Instinct Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -166,6 +182,7 @@ types:
     name: Pure Strong Blue Pill Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -176,6 +193,7 @@ types:
     name: Pure Strong Crash Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -186,6 +204,7 @@ types:
     name: Pure Strong Drop Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -196,6 +215,7 @@ types:
     name: Pure Strong Exile Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -206,6 +226,7 @@ types:
     name: Pure Strong Frentix Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -216,6 +237,7 @@ types:
     name: Pure Strong Mindflood Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -226,6 +248,7 @@ types:
     name: Pure Strong Sooth Sayer Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -236,6 +259,7 @@ types:
     name: Pure Strong X-Instinct Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -246,6 +270,7 @@ types:
     name: Pure Synth Blue Pill Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -256,6 +281,7 @@ types:
     name: Pure Synth Crash Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -266,6 +292,7 @@ types:
     name: Pure Synth Drop Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -276,6 +303,7 @@ types:
     name: Pure Synth Exile Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -286,6 +314,7 @@ types:
     name: Pure Synth Frentix Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -296,6 +325,7 @@ types:
     name: Pure Synth Mindflood Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -306,6 +336,7 @@ types:
     name: Pure Synth Sooth Sayer Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -316,6 +347,7 @@ types:
     name: Pure Synth X-Instinct Booster
     packagedVolume: 1.0
     portionSize: 1
+    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0

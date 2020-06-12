@@ -5,6 +5,7 @@ types:
     name: Helium Fuel Block
     packagedVolume: 5.0
     portionSize: 40
+    price: 95.0
     published: true
     volume: 5.0
   Hydrogen Fuel Block:
@@ -13,6 +14,7 @@ types:
     name: Hydrogen Fuel Block
     packagedVolume: 5.0
     portionSize: 40
+    price: 95.0
     published: true
     volume: 5.0
   Nitrogen Fuel Block:
@@ -21,6 +23,7 @@ types:
     name: Nitrogen Fuel Block
     packagedVolume: 5.0
     portionSize: 40
+    price: 95.0
     published: true
     volume: 5.0
   Oxygen Fuel Block:
@@ -29,5 +32,6 @@ types:
     name: Oxygen Fuel Block
     packagedVolume: 5.0
     portionSize: 40
+    price: 95.0
     published: true
     volume: 5.0

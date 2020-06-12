@@ -18,6 +18,7 @@ types:
     packagedVolume: 6000.0
     portionSize: 1
     power: 200000
+    price: 7.5E7
     published: true
     radius: 506.0
     refiningyieldmultiplier: 0.5
@@ -54,6 +55,7 @@ types:
     packagedVolume: 6000.0
     portionSize: 1
     power: 150000
+    price: 2.5E7
     published: true
     radius: 506.0
     refiningyieldmultiplier: 0.5

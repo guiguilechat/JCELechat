@@ -6,6 +6,7 @@ types:
     name: Capital Remote Hull Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -25,6 +26,7 @@ types:
     name: Large Remote Hull Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -35,6 +37,7 @@ types:
     name: Large Remote Hull Repairer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -46,6 +49,7 @@ types:
     name: Medium Remote Hull Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -56,6 +60,7 @@ types:
     name: Medium Remote Hull Repairer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -67,6 +72,7 @@ types:
     name: Small Remote Hull Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -77,6 +83,7 @@ types:
     name: Small Remote Hull Repairer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     published: true
     radius: 1.0
     techlevel: 2

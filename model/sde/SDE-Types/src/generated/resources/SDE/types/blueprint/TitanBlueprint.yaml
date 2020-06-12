@@ -6,6 +6,7 @@ types:
     name: Avatar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.5E10
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,6 +17,7 @@ types:
     name: Erebus Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.25E10
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -33,6 +35,7 @@ types:
     name: Leviathan Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.0E10
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -50,6 +53,7 @@ types:
     name: Ragnarok Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.75E10
     published: true
     radius: 1.0
     volume: 0.009999999776482582

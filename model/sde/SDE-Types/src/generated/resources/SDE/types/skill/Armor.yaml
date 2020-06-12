@@ -7,6 +7,7 @@ types:
     name: Armor Layering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -23,6 +24,7 @@ types:
     name: Capital Remote Armor Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -39,6 +41,7 @@ types:
     name: Capital Remote Hull Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -55,6 +58,7 @@ types:
     name: Capital Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -75,6 +79,7 @@ types:
     name: EM Armor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -91,6 +96,7 @@ types:
     name: Explosive Armor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -107,6 +113,7 @@ types:
     name: Hull Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 85000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -123,6 +130,7 @@ types:
     name: Kinetic Armor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -139,6 +147,7 @@ types:
     name: Mechanics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 30000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -153,6 +162,7 @@ types:
     name: Remote Armor Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -171,6 +181,7 @@ types:
     name: Remote Hull Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -187,6 +198,7 @@ types:
     name: Repair Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 45000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -203,6 +215,7 @@ types:
     name: Thermal Armor Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     primaryattribute: 165
     published: true
     radius: 1.0

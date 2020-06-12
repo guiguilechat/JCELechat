@@ -72,6 +72,7 @@ types:
     name: DNCR-02 Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -97,6 +98,7 @@ types:
     name: DSHR-01 Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -145,6 +147,7 @@ types:
     name: PRNCR-03 Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612

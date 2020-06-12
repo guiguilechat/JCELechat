@@ -22,6 +22,7 @@ types:
     name: Amarr Empire Slave Trader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Captain Insignia I:
@@ -31,6 +32,7 @@ types:
     name: Ammatar Navy Captain Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 45000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Colonel Insignia I:
@@ -40,6 +42,7 @@ types:
     name: Ammatar Navy Colonel Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Colonel Insignia II:
@@ -49,6 +52,7 @@ types:
     name: Ammatar Navy Colonel Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 750000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Fleet Commander Insignia:
@@ -58,6 +62,7 @@ types:
     name: Ammatar Navy Fleet Commander Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Major Insignia I:
@@ -67,6 +72,7 @@ types:
     name: Ammatar Navy Major Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Major Insignia II:
@@ -76,6 +82,7 @@ types:
     name: Ammatar Navy Major Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Midshipman Insignia I:
@@ -85,6 +92,7 @@ types:
     name: Ammatar Navy Midshipman Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Midshipman Insignia II:
@@ -94,6 +102,7 @@ types:
     name: Ammatar Navy Midshipman Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Midshipman Insignia III:
@@ -103,6 +112,7 @@ types:
     name: Ammatar Navy Midshipman Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Raid Leader Insignia:
@@ -112,6 +122,7 @@ types:
     name: Ammatar Navy Raid Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Sergeant Elite Insignia:
@@ -121,6 +132,7 @@ types:
     name: Ammatar Navy Sergeant Elite Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 60000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Sergeant Insignia I:
@@ -130,6 +142,7 @@ types:
     name: Ammatar Navy Sergeant Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 20000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Sergeant Insignia II:
@@ -139,6 +152,7 @@ types:
     name: Ammatar Navy Sergeant Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 25000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Sergeant Insignia III:
@@ -148,6 +162,7 @@ types:
     name: Ammatar Navy Sergeant Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Sergeant Major Insignia I:
@@ -157,6 +172,7 @@ types:
     name: Ammatar Navy Sergeant Major Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Navy Squad Leader Insignia:
@@ -166,6 +182,7 @@ types:
     name: Ammatar Navy Squad Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Slave Trader Insignia:
@@ -175,6 +192,7 @@ types:
     name: Ammatar Slave Trader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     volume: 0.10000000149011612
   CONCORD Captain Emblem:
@@ -184,6 +202,7 @@ types:
     name: CONCORD Captain Emblem
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 150000.0
     published: true
     volume: 0.10000000149011612
   CONCORD Colonel Emblem:
@@ -193,6 +212,7 @@ types:
     name: CONCORD Colonel Emblem
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000000.0
     published: true
     volume: 0.10000000149011612
   CONCORD General Emblem:
@@ -202,6 +222,7 @@ types:
     name: CONCORD General Emblem
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   CONCORD Officer Emblem:
@@ -211,6 +232,7 @@ types:
     name: CONCORD Officer Emblem
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 65000.0
     published: true
     volume: 0.10000000149011612
   CONCORD Panther Emblem:
@@ -220,6 +242,7 @@ types:
     name: CONCORD Panther Emblem
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 65000.0
     published: true
     volume: 0.10000000149011612
   CONCORD Piranha Emblem:
@@ -229,6 +252,7 @@ types:
     name: CONCORD Piranha Emblem
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 35000.0
     published: true
     volume: 0.10000000149011612
   CONCORD Raptor Emblem:
@@ -238,6 +262,7 @@ types:
     name: CONCORD Raptor Emblem
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 200000.0
     published: true
     volume: 0.10000000149011612
   CONCORD Soldier Emblem:
@@ -247,6 +272,7 @@ types:
     name: CONCORD Soldier Emblem
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.10000000149011612
   CONCORD Star Emblem:
@@ -256,6 +282,7 @@ types:
     name: CONCORD Star Emblem
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.10000000149011612
   Caldari Navy Admiral Insignia I:
@@ -265,6 +292,7 @@ types:
     name: Caldari Navy Admiral Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 750000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Captain Elite Insignia:
@@ -274,6 +302,7 @@ types:
     name: Caldari Navy Captain Elite Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 60000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Captain Insignia I:
@@ -283,6 +312,7 @@ types:
     name: Caldari Navy Captain Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 20000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Captain Insignia II:
@@ -292,6 +322,7 @@ types:
     name: Caldari Navy Captain Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 25000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Captain Insignia III:
@@ -301,6 +332,7 @@ types:
     name: Caldari Navy Captain Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Captain Insignia IV:
@@ -310,6 +342,7 @@ types:
     name: Caldari Navy Captain Insignia IV
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Captain Insignia V:
@@ -319,6 +352,7 @@ types:
     name: Caldari Navy Captain Insignia V
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Commodore Insignia I:
@@ -328,6 +362,7 @@ types:
     name: Caldari Navy Commodore Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 60000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Commodore Insignia II:
@@ -337,6 +372,7 @@ types:
     name: Caldari Navy Commodore Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Fleet Commander Insignia:
@@ -346,6 +382,7 @@ types:
     name: Caldari Navy Fleet Commander Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Fleet Rear-Admiral Insignia:
@@ -355,6 +392,7 @@ types:
     name: Caldari Navy Fleet Rear-Admiral Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Midshipman Insignia I:
@@ -364,6 +402,7 @@ types:
     name: Caldari Navy Midshipman Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Midshipman Insignia II:
@@ -373,6 +412,7 @@ types:
     name: Caldari Navy Midshipman Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Midshipman Insignia III:
@@ -382,6 +422,7 @@ types:
     name: Caldari Navy Midshipman Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Raid Leader Insignia:
@@ -391,6 +432,7 @@ types:
     name: Caldari Navy Raid Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Squad Leader Insignia:
@@ -400,6 +442,7 @@ types:
     name: Caldari Navy Squad Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Vice Admiral Insignia I:
@@ -409,6 +452,7 @@ types:
     name: Caldari Navy Vice Admiral Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Dakin Gara's Insignia:
@@ -426,6 +470,7 @@ types:
     name: Federation Navy Command Sergeant Major Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Fleet Captain Insignia I:
@@ -435,6 +480,7 @@ types:
     name: Federation Navy Fleet Captain Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 60000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Fleet Colonel Insignia I:
@@ -444,6 +490,7 @@ types:
     name: Federation Navy Fleet Colonel Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Fleet Colonel Insignia II:
@@ -453,6 +500,7 @@ types:
     name: Federation Navy Fleet Colonel Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 750000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Fleet Commander Insignia:
@@ -462,6 +510,7 @@ types:
     name: Federation Navy Fleet Commander Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Fleet Major Insignia I:
@@ -471,6 +520,7 @@ types:
     name: Federation Navy Fleet Major Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Fleet Rear-Admiral Insignia:
@@ -480,6 +530,7 @@ types:
     name: Federation Navy Fleet Rear-Admiral Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Midshipman Insignia I:
@@ -489,6 +540,7 @@ types:
     name: Federation Navy Midshipman Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Midshipman Insignia II:
@@ -498,6 +550,7 @@ types:
     name: Federation Navy Midshipman Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Midshipman Insignia III:
@@ -507,6 +560,7 @@ types:
     name: Federation Navy Midshipman Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Raid Leader Insignia:
@@ -516,6 +570,7 @@ types:
     name: Federation Navy Raid Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Sergeant Elite Insignia:
@@ -525,6 +580,7 @@ types:
     name: Federation Navy Sergeant Elite Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 60000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Sergeant Insignia I:
@@ -534,6 +590,7 @@ types:
     name: Federation Navy Sergeant Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 20000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Sergeant Insignia II:
@@ -543,6 +600,7 @@ types:
     name: Federation Navy Sergeant Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 25000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Sergeant Insignia III:
@@ -552,6 +610,7 @@ types:
     name: Federation Navy Sergeant Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Sergeant Major Insignia I:
@@ -561,6 +620,7 @@ types:
     name: Federation Navy Sergeant Major Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Federation Navy Squad Leader Insignia:
@@ -570,6 +630,7 @@ types:
     name: Federation Navy Squad Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Genom Tara's Insignia:
@@ -596,6 +657,7 @@ types:
     name: Imperial Navy Captain Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Colonel Insignia I:
@@ -605,6 +667,7 @@ types:
     name: Imperial Navy Colonel Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Fleet Commander Insignia:
@@ -614,6 +677,7 @@ types:
     name: Imperial Navy Fleet Commander Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Fleet Rear-Admiral Insignia:
@@ -623,6 +687,7 @@ types:
     name: Imperial Navy Fleet Rear-Admiral Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy General Insignia I:
@@ -632,6 +697,7 @@ types:
     name: Imperial Navy General Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy General Insignia II:
@@ -641,6 +707,7 @@ types:
     name: Imperial Navy General Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 750000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Major Insignia I:
@@ -650,6 +717,7 @@ types:
     name: Imperial Navy Major Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 60000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Midshipman Insignia I:
@@ -659,6 +727,7 @@ types:
     name: Imperial Navy Midshipman Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Midshipman Insignia II:
@@ -668,6 +737,7 @@ types:
     name: Imperial Navy Midshipman Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Midshipman Insignia III:
@@ -677,6 +747,7 @@ types:
     name: Imperial Navy Midshipman Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Raid Leader Insignia:
@@ -686,6 +757,7 @@ types:
     name: Imperial Navy Raid Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Sergeant Elite Insignia:
@@ -695,6 +767,7 @@ types:
     name: Imperial Navy Sergeant Elite Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 60000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Sergeant Insignia I:
@@ -704,6 +777,7 @@ types:
     name: Imperial Navy Sergeant Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 20000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Sergeant Insignia II:
@@ -713,6 +787,7 @@ types:
     name: Imperial Navy Sergeant Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 25000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Sergeant Insignia III:
@@ -722,6 +797,7 @@ types:
     name: Imperial Navy Sergeant Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Sergeant Major Insignia I:
@@ -731,6 +807,7 @@ types:
     name: Imperial Navy Sergeant Major Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Imperial Navy Squad Leader Insignia:
@@ -740,6 +817,7 @@ types:
     name: Imperial Navy Squad Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Ixon Kruz's Insignia:
@@ -816,6 +894,7 @@ types:
     name: Khanid Eagle Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Khanid Elite Fighter Insignia:
@@ -825,6 +904,7 @@ types:
     name: Khanid Elite Fighter Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 25000.0
     published: true
     volume: 0.10000000149011612
   Khanid Fighter Insignia:
@@ -834,6 +914,7 @@ types:
     name: Khanid Fighter Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 12000.0
     published: true
     volume: 0.10000000149011612
   Khanid Hawk Insignia:
@@ -843,6 +924,7 @@ types:
     name: Khanid Hawk Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 35000.0
     published: true
     volume: 0.10000000149011612
   Khanid High Commander Insignia:
@@ -852,6 +934,7 @@ types:
     name: Khanid High Commander Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Khanid Officer Insignia:
@@ -861,6 +944,7 @@ types:
     name: Khanid Officer Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Khanid Rookie Insignia:
@@ -870,6 +954,7 @@ types:
     name: Khanid Rookie Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Khanid Royal Insignia:
@@ -879,6 +964,7 @@ types:
     name: Khanid Royal Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000000.0
     published: true
     volume: 0.10000000149011612
   Khanid Scout Insignia:
@@ -888,6 +974,7 @@ types:
     name: Khanid Scout Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 12000.0
     published: true
     volume: 0.10000000149011612
   Khanid Slave Trader Insignia:
@@ -897,6 +984,7 @@ types:
     name: Khanid Slave Trader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     volume: 0.10000000149011612
   Khanid Sparrow Insignia:
@@ -906,6 +994,7 @@ types:
     name: Khanid Sparrow Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Khanid Warbird Insignia:
@@ -915,6 +1004,7 @@ types:
     name: Khanid Warbird Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Luther Veron's Insignia:
@@ -948,6 +1038,7 @@ types:
     name: Minmatar Freedom Fighter Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 20000.0
     published: true
     volume: 0.10000000149011612
   Mizuma Gomi's Insignia:
@@ -982,6 +1073,7 @@ types:
     name: Oronata Vion's Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 750000.0
     published: true
     volume: 0.10000000149011612
   Ratei's Insignia:
@@ -999,6 +1091,7 @@ types:
     name: Republic Fleet Captain Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 60000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Commander Insignia I:
@@ -1008,6 +1101,7 @@ types:
     name: Republic Fleet Commander Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Commander Insignia II:
@@ -1017,6 +1111,7 @@ types:
     name: Republic Fleet Commander Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 750000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet High Captain Insignia I:
@@ -1026,6 +1121,7 @@ types:
     name: Republic Fleet High Captain Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet High Captain Insignia II:
@@ -1034,6 +1130,7 @@ types:
     name: Republic Fleet High Captain Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Midshipman Insignia I:
@@ -1043,6 +1140,7 @@ types:
     name: Republic Fleet Midshipman Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Midshipman Insignia II:
@@ -1052,6 +1150,7 @@ types:
     name: Republic Fleet Midshipman Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Midshipman Insignia III:
@@ -1061,6 +1160,7 @@ types:
     name: Republic Fleet Midshipman Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 15000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Navy Commander Insignia:
@@ -1070,6 +1170,7 @@ types:
     name: Republic Fleet Navy Commander Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Navy Rear-Admiral Insignia:
@@ -1079,6 +1180,7 @@ types:
     name: Republic Fleet Navy Rear-Admiral Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 5000000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Private Elite Insignia:
@@ -1088,6 +1190,7 @@ types:
     name: Republic Fleet Private Elite Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 60000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Private Insignia I:
@@ -1097,6 +1200,7 @@ types:
     name: Republic Fleet Private Insignia I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 20000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Private Insignia II:
@@ -1106,6 +1210,7 @@ types:
     name: Republic Fleet Private Insignia II
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 25000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Private Insignia III:
@@ -1115,6 +1220,7 @@ types:
     name: Republic Fleet Private Insignia III
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Private Insignia IV:
@@ -1124,6 +1230,7 @@ types:
     name: Republic Fleet Private Insignia IV
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Private Insignia V:
@@ -1133,6 +1240,7 @@ types:
     name: Republic Fleet Private Insignia V
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Raid Leader Insignia:
@@ -1142,6 +1250,7 @@ types:
     name: Republic Fleet Raid Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.10000000149011612
   Republic Fleet Squad Leader Insignia:
@@ -1151,6 +1260,7 @@ types:
     name: Republic Fleet Squad Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Shaqil Dragat's Insignia:
@@ -1202,6 +1312,7 @@ types:
     name: Tomi Hakiro's Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 20000.0
     published: true
     volume: 0.10000000149011612
   Whelan Machorin's Insignia:

@@ -6,6 +6,7 @@ types:
     name: Capital Algid Energy Administrations Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -16,6 +17,7 @@ types:
     name: Capital Algid Energy Administrations Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -27,6 +29,7 @@ types:
     name: Capital Algid Hybrid Administrations Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -37,6 +40,7 @@ types:
     name: Capital Algid Hybrid Administrations Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -48,6 +52,7 @@ types:
     name: Capital Ancillary Current Router I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -58,6 +63,7 @@ types:
     name: Capital Ancillary Current Router II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -69,6 +75,7 @@ types:
     name: Capital Auxiliary Nano Pump I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -79,6 +86,7 @@ types:
     name: Capital Auxiliary Nano Pump II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -90,6 +98,7 @@ types:
     name: Capital Auxiliary Thrusters I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -100,6 +109,7 @@ types:
     name: Capital Auxiliary Thrusters II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -111,6 +121,7 @@ types:
     name: Capital Bay Loading Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -121,6 +132,7 @@ types:
     name: Capital Bay Loading Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -132,6 +144,7 @@ types:
     name: Capital Capacitor Control Circuit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -142,6 +155,7 @@ types:
     name: Capital Capacitor Control Circuit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -153,6 +167,7 @@ types:
     name: Capital Cargohold Optimization I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -163,6 +178,7 @@ types:
     name: Capital Cargohold Optimization II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -173,6 +189,7 @@ types:
     name: Capital Command Processor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -183,6 +200,7 @@ types:
     name: Capital Core Defense Capacitor Safeguard I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -193,6 +211,7 @@ types:
     name: Capital Core Defense Capacitor Safeguard II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -204,6 +223,7 @@ types:
     name: Capital Core Defense Charge Economizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -214,6 +234,7 @@ types:
     name: Capital Core Defense Charge Economizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -225,6 +246,7 @@ types:
     name: Capital Core Defense Field Extender I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -235,6 +257,7 @@ types:
     name: Capital Core Defense Field Extender II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -246,6 +269,7 @@ types:
     name: Capital Core Defense Field Purger I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -256,6 +280,7 @@ types:
     name: Capital Core Defense Field Purger II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -267,6 +292,7 @@ types:
     name: Capital Core Defense Operational Solidifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -277,6 +303,7 @@ types:
     name: Capital Core Defense Operational Solidifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -288,6 +315,7 @@ types:
     name: Capital Drone Control Range Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -298,6 +326,7 @@ types:
     name: Capital Drone Control Range Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -309,6 +338,7 @@ types:
     name: Capital Drone Durability Enhancer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -319,6 +349,7 @@ types:
     name: Capital Drone Durability Enhancer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -330,6 +361,7 @@ types:
     name: Capital Drone Mining Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -340,6 +372,7 @@ types:
     name: Capital Drone Mining Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -351,6 +384,7 @@ types:
     name: Capital Drone Repair Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -361,6 +395,7 @@ types:
     name: Capital Drone Repair Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -372,6 +407,7 @@ types:
     name: Capital Drone Scope Chip I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -382,6 +418,7 @@ types:
     name: Capital Drone Scope Chip II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -393,6 +430,7 @@ types:
     name: Capital Drone Speed Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -403,6 +441,7 @@ types:
     name: Capital Drone Speed Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -414,6 +453,7 @@ types:
     name: Capital Dynamic Fuel Valve I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -424,6 +464,7 @@ types:
     name: Capital Dynamic Fuel Valve II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -435,6 +476,7 @@ types:
     name: Capital EM Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -445,6 +487,7 @@ types:
     name: Capital EM Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -456,6 +499,7 @@ types:
     name: Capital EM Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -466,6 +510,7 @@ types:
     name: Capital EM Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -477,6 +522,7 @@ types:
     name: Capital Egress Port Maximizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -487,6 +533,7 @@ types:
     name: Capital Egress Port Maximizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -498,6 +545,7 @@ types:
     name: Capital Emission Scope Sharpener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -508,6 +556,7 @@ types:
     name: Capital Emission Scope Sharpener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -519,6 +568,7 @@ types:
     name: Capital Energy Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -529,6 +579,7 @@ types:
     name: Capital Energy Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -540,6 +591,7 @@ types:
     name: Capital Energy Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -550,6 +602,7 @@ types:
     name: Capital Energy Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -561,6 +614,7 @@ types:
     name: Capital Energy Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -571,6 +625,7 @@ types:
     name: Capital Energy Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -582,6 +637,7 @@ types:
     name: Capital Energy Discharge Elutriation I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -592,6 +648,7 @@ types:
     name: Capital Energy Discharge Elutriation II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -603,6 +660,7 @@ types:
     name: Capital Energy Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -613,6 +671,7 @@ types:
     name: Capital Energy Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -624,6 +683,7 @@ types:
     name: Capital Energy Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -634,6 +694,7 @@ types:
     name: Capital Energy Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -645,6 +706,7 @@ types:
     name: Capital Engine Thermal Shielding I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -655,6 +717,7 @@ types:
     name: Capital Engine Thermal Shielding II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -666,6 +729,7 @@ types:
     name: Capital Explosive Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -676,6 +740,7 @@ types:
     name: Capital Explosive Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -687,6 +752,7 @@ types:
     name: Capital Explosive Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -697,6 +763,7 @@ types:
     name: Capital Explosive Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -708,6 +775,7 @@ types:
     name: Capital Gravity Capacitor Upgrade I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -718,6 +786,7 @@ types:
     name: Capital Gravity Capacitor Upgrade II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -729,6 +798,7 @@ types:
     name: Capital Higgs Anchor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -740,6 +810,7 @@ types:
     name: Capital Hybrid Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -750,6 +821,7 @@ types:
     name: Capital Hybrid Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -761,6 +833,7 @@ types:
     name: Capital Hybrid Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -771,6 +844,7 @@ types:
     name: Capital Hybrid Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -782,6 +856,7 @@ types:
     name: Capital Hybrid Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -792,6 +867,7 @@ types:
     name: Capital Hybrid Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -803,6 +879,7 @@ types:
     name: Capital Hybrid Discharge Elutriation I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -813,6 +890,7 @@ types:
     name: Capital Hybrid Discharge Elutriation II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -824,6 +902,7 @@ types:
     name: Capital Hybrid Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -834,6 +913,7 @@ types:
     name: Capital Hybrid Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -845,6 +925,7 @@ types:
     name: Capital Hybrid Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -855,6 +936,7 @@ types:
     name: Capital Hybrid Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -866,6 +948,7 @@ types:
     name: Capital Hydraulic Bay Thrusters I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -876,6 +959,7 @@ types:
     name: Capital Hydraulic Bay Thrusters II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -887,6 +971,7 @@ types:
     name: Capital Hyperspatial Velocity Optimizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -897,6 +982,7 @@ types:
     name: Capital Hyperspatial Velocity Optimizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -908,6 +994,7 @@ types:
     name: Capital Inverted Signal Field Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -918,6 +1005,7 @@ types:
     name: Capital Inverted Signal Field Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -929,6 +1017,7 @@ types:
     name: Capital Ionic Field Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -939,6 +1028,7 @@ types:
     name: Capital Ionic Field Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -950,6 +1040,7 @@ types:
     name: Capital Kinetic Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -960,6 +1051,7 @@ types:
     name: Capital Kinetic Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -971,6 +1063,7 @@ types:
     name: Capital Kinetic Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -981,6 +1074,7 @@ types:
     name: Capital Kinetic Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -992,6 +1086,7 @@ types:
     name: Capital Liquid Cooled Electronics I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1002,6 +1097,7 @@ types:
     name: Capital Liquid Cooled Electronics II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1013,6 +1109,7 @@ types:
     name: Capital Low Friction Nozzle Joints I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1023,6 +1120,7 @@ types:
     name: Capital Low Friction Nozzle Joints II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1034,6 +1132,7 @@ types:
     name: Capital Memetic Algorithm Bank I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1044,6 +1143,7 @@ types:
     name: Capital Memetic Algorithm Bank II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1055,6 +1155,7 @@ types:
     name: Capital Nanobot Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1065,6 +1166,7 @@ types:
     name: Capital Nanobot Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1076,6 +1178,7 @@ types:
     name: Capital Particle Dispersion Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1086,6 +1189,7 @@ types:
     name: Capital Particle Dispersion Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1097,6 +1201,7 @@ types:
     name: Capital Particle Dispersion Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1107,6 +1212,7 @@ types:
     name: Capital Particle Dispersion Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1118,6 +1224,7 @@ types:
     name: Capital Polycarbon Engine Housing I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1128,6 +1235,7 @@ types:
     name: Capital Polycarbon Engine Housing II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1139,6 +1247,7 @@ types:
     name: Capital Powergrid Subroutine Maximizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1149,6 +1258,7 @@ types:
     name: Capital Powergrid Subroutine Maximizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1160,6 +1270,7 @@ types:
     name: Capital Processor Overclocking Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1170,6 +1281,7 @@ types:
     name: Capital Processor Overclocking Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1181,6 +1293,7 @@ types:
     name: Capital Projectile Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1191,6 +1304,7 @@ types:
     name: Capital Projectile Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1202,6 +1316,7 @@ types:
     name: Capital Projectile Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1212,6 +1327,7 @@ types:
     name: Capital Projectile Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1223,6 +1339,7 @@ types:
     name: Capital Projectile Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1233,6 +1350,7 @@ types:
     name: Capital Projectile Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1244,6 +1362,7 @@ types:
     name: Capital Projectile Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1254,6 +1373,7 @@ types:
     name: Capital Projectile Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1265,6 +1385,7 @@ types:
     name: Capital Projectile Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1275,6 +1396,7 @@ types:
     name: Capital Projectile Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1286,6 +1408,7 @@ types:
     name: Capital Remote Repair Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1296,6 +1419,7 @@ types:
     name: Capital Remote Repair Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1307,6 +1431,7 @@ types:
     name: Capital Rocket Fuel Cache Partition I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1317,6 +1442,7 @@ types:
     name: Capital Rocket Fuel Cache Partition II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1328,6 +1454,7 @@ types:
     name: Capital Salvage Tackle I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1338,6 +1465,7 @@ types:
     name: Capital Salvage Tackle II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1349,6 +1477,7 @@ types:
     name: Capital Semiconductor Memory Cell I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1359,6 +1488,7 @@ types:
     name: Capital Semiconductor Memory Cell II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1370,6 +1500,7 @@ types:
     name: Capital Sentry Damage Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1380,6 +1511,7 @@ types:
     name: Capital Sentry Damage Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1391,6 +1523,7 @@ types:
     name: Capital Signal Disruption Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1401,6 +1534,7 @@ types:
     name: Capital Signal Disruption Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1412,6 +1546,7 @@ types:
     name: Capital Signal Focusing Kit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1422,6 +1557,7 @@ types:
     name: Capital Signal Focusing Kit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1433,6 +1569,7 @@ types:
     name: Capital Stasis Drone Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1443,6 +1580,7 @@ types:
     name: Capital Stasis Drone Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1454,6 +1592,7 @@ types:
     name: Capital Targeting System Subcontroller I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1464,6 +1603,7 @@ types:
     name: Capital Targeting System Subcontroller II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1475,6 +1615,7 @@ types:
     name: Capital Targeting Systems Stabilizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1485,6 +1626,7 @@ types:
     name: Capital Targeting Systems Stabilizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1496,6 +1638,7 @@ types:
     name: Capital Thermal Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1506,6 +1649,7 @@ types:
     name: Capital Thermal Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1517,6 +1661,7 @@ types:
     name: Capital Thermal Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1527,6 +1672,7 @@ types:
     name: Capital Thermal Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1538,6 +1684,7 @@ types:
     name: Capital Tracking Diagnostic Subroutines I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1548,6 +1695,7 @@ types:
     name: Capital Tracking Diagnostic Subroutines II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1559,6 +1707,7 @@ types:
     name: Capital Transverse Bulkhead I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1569,6 +1718,7 @@ types:
     name: Capital Transverse Bulkhead II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1580,6 +1730,7 @@ types:
     name: Capital Trimark Armor Pump I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1590,6 +1741,7 @@ types:
     name: Capital Trimark Armor Pump II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1601,6 +1753,7 @@ types:
     name: Capital Warhead Calefaction Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1611,6 +1764,7 @@ types:
     name: Capital Warhead Calefaction Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1622,6 +1776,7 @@ types:
     name: Capital Warhead Flare Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1632,6 +1787,7 @@ types:
     name: Capital Warhead Flare Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1643,6 +1799,7 @@ types:
     name: Capital Warhead Rigor Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1653,6 +1810,7 @@ types:
     name: Capital Warhead Rigor Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1664,6 +1822,7 @@ types:
     name: Capital Warp Core Optimizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1674,6 +1833,7 @@ types:
     name: Capital Warp Core Optimizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1685,6 +1845,7 @@ types:
     name: Large Algid Energy Administrations Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1695,6 +1856,7 @@ types:
     name: Large Algid Energy Administrations Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1706,6 +1868,7 @@ types:
     name: Large Algid Hybrid Administrations Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1716,6 +1879,7 @@ types:
     name: Large Algid Hybrid Administrations Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1727,6 +1891,7 @@ types:
     name: Large Ancillary Current Router I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1737,6 +1902,7 @@ types:
     name: Large Ancillary Current Router II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1748,6 +1914,7 @@ types:
     name: Large Auxiliary Nano Pump I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1758,6 +1925,7 @@ types:
     name: Large Auxiliary Nano Pump II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1769,6 +1937,7 @@ types:
     name: Large Auxiliary Thrusters I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1779,6 +1948,7 @@ types:
     name: Large Auxiliary Thrusters II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1790,6 +1960,7 @@ types:
     name: Large Bay Loading Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1800,6 +1971,7 @@ types:
     name: Large Bay Loading Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1811,6 +1983,7 @@ types:
     name: Large Capacitor Control Circuit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1821,6 +1994,7 @@ types:
     name: Large Capacitor Control Circuit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1832,6 +2006,7 @@ types:
     name: Large Cargohold Optimization I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1842,6 +2017,7 @@ types:
     name: Large Cargohold Optimization II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1852,6 +2028,7 @@ types:
     name: Large Command Processor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -1862,6 +2039,7 @@ types:
     name: Large Core Defense Capacitor Safeguard I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1872,6 +2050,7 @@ types:
     name: Large Core Defense Capacitor Safeguard II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1883,6 +2062,7 @@ types:
     name: Large Core Defense Charge Economizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1893,6 +2073,7 @@ types:
     name: Large Core Defense Charge Economizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1904,6 +2085,7 @@ types:
     name: Large Core Defense Field Extender I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1914,6 +2096,7 @@ types:
     name: Large Core Defense Field Extender II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1925,6 +2108,7 @@ types:
     name: Large Core Defense Field Purger I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1935,6 +2119,7 @@ types:
     name: Large Core Defense Field Purger II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1946,6 +2131,7 @@ types:
     name: Large Core Defense Operational Solidifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1956,6 +2142,7 @@ types:
     name: Large Core Defense Operational Solidifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1967,6 +2154,7 @@ types:
     name: Large Drone Control Range Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1977,6 +2165,7 @@ types:
     name: Large Drone Control Range Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -1988,6 +2177,7 @@ types:
     name: Large Drone Durability Enhancer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1998,6 +2188,7 @@ types:
     name: Large Drone Durability Enhancer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2009,6 +2200,7 @@ types:
     name: Large Drone Mining Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2019,6 +2211,7 @@ types:
     name: Large Drone Mining Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2030,6 +2223,7 @@ types:
     name: Large Drone Repair Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2040,6 +2234,7 @@ types:
     name: Large Drone Repair Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2051,6 +2246,7 @@ types:
     name: Large Drone Scope Chip I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2061,6 +2257,7 @@ types:
     name: Large Drone Scope Chip II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2072,6 +2269,7 @@ types:
     name: Large Drone Speed Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2082,6 +2280,7 @@ types:
     name: Large Drone Speed Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2093,6 +2292,7 @@ types:
     name: Large Dynamic Fuel Valve I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2103,6 +2303,7 @@ types:
     name: Large Dynamic Fuel Valve II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2114,6 +2315,7 @@ types:
     name: Large EM Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2124,6 +2326,7 @@ types:
     name: Large EM Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2135,6 +2338,7 @@ types:
     name: Large EM Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2145,6 +2349,7 @@ types:
     name: Large EM Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2156,6 +2361,7 @@ types:
     name: Large Egress Port Maximizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2166,6 +2372,7 @@ types:
     name: Large Egress Port Maximizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2177,6 +2384,7 @@ types:
     name: Large Emission Scope Sharpener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2187,6 +2395,7 @@ types:
     name: Large Emission Scope Sharpener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2198,6 +2407,7 @@ types:
     name: Large Energy Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2208,6 +2418,7 @@ types:
     name: Large Energy Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2219,6 +2430,7 @@ types:
     name: Large Energy Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2229,6 +2441,7 @@ types:
     name: Large Energy Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2240,6 +2453,7 @@ types:
     name: Large Energy Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2250,6 +2464,7 @@ types:
     name: Large Energy Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2261,6 +2476,7 @@ types:
     name: Large Energy Discharge Elutriation I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2271,6 +2487,7 @@ types:
     name: Large Energy Discharge Elutriation II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2282,6 +2499,7 @@ types:
     name: Large Energy Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2292,6 +2510,7 @@ types:
     name: Large Energy Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2303,6 +2522,7 @@ types:
     name: Large Energy Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2313,6 +2533,7 @@ types:
     name: Large Energy Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2324,6 +2545,7 @@ types:
     name: Large Engine Thermal Shielding I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2334,6 +2556,7 @@ types:
     name: Large Engine Thermal Shielding II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2345,6 +2568,7 @@ types:
     name: Large Explosive Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2355,6 +2579,7 @@ types:
     name: Large Explosive Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2366,6 +2591,7 @@ types:
     name: Large Explosive Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2376,6 +2602,7 @@ types:
     name: Large Explosive Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2387,6 +2614,7 @@ types:
     name: Large Gravity Capacitor Upgrade I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2397,6 +2625,7 @@ types:
     name: Large Gravity Capacitor Upgrade II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2408,6 +2637,7 @@ types:
     name: Large Higgs Anchor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2419,6 +2649,7 @@ types:
     name: Large Hybrid Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2429,6 +2660,7 @@ types:
     name: Large Hybrid Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2440,6 +2672,7 @@ types:
     name: Large Hybrid Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2450,6 +2683,7 @@ types:
     name: Large Hybrid Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2461,6 +2695,7 @@ types:
     name: Large Hybrid Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2471,6 +2706,7 @@ types:
     name: Large Hybrid Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2482,6 +2718,7 @@ types:
     name: Large Hybrid Discharge Elutriation I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2492,6 +2729,7 @@ types:
     name: Large Hybrid Discharge Elutriation II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2503,6 +2741,7 @@ types:
     name: Large Hybrid Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2513,6 +2752,7 @@ types:
     name: Large Hybrid Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2524,6 +2764,7 @@ types:
     name: Large Hybrid Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2534,6 +2775,7 @@ types:
     name: Large Hybrid Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2545,6 +2787,7 @@ types:
     name: Large Hydraulic Bay Thrusters I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2555,6 +2798,7 @@ types:
     name: Large Hydraulic Bay Thrusters II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2566,6 +2810,7 @@ types:
     name: Large Hyperspatial Velocity Optimizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2576,6 +2821,7 @@ types:
     name: Large Hyperspatial Velocity Optimizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2587,6 +2833,7 @@ types:
     name: Large Inverted Signal Field Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2597,6 +2844,7 @@ types:
     name: Large Inverted Signal Field Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2608,6 +2856,7 @@ types:
     name: Large Ionic Field Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2618,6 +2867,7 @@ types:
     name: Large Ionic Field Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2629,6 +2879,7 @@ types:
     name: Large Kinetic Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2639,6 +2890,7 @@ types:
     name: Large Kinetic Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2650,6 +2902,7 @@ types:
     name: Large Kinetic Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2660,6 +2913,7 @@ types:
     name: Large Kinetic Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2671,6 +2925,7 @@ types:
     name: Large Liquid Cooled Electronics I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2681,6 +2936,7 @@ types:
     name: Large Liquid Cooled Electronics II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2692,6 +2948,7 @@ types:
     name: Large Low Friction Nozzle Joints I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2702,6 +2959,7 @@ types:
     name: Large Low Friction Nozzle Joints II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2713,6 +2971,7 @@ types:
     name: Large Memetic Algorithm Bank I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2723,6 +2982,7 @@ types:
     name: Large Memetic Algorithm Bank II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2734,6 +2994,7 @@ types:
     name: Large Nanobot Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2744,6 +3005,7 @@ types:
     name: Large Nanobot Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2755,6 +3017,7 @@ types:
     name: Large Particle Dispersion Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2765,6 +3028,7 @@ types:
     name: Large Particle Dispersion Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2776,6 +3040,7 @@ types:
     name: Large Particle Dispersion Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2786,6 +3051,7 @@ types:
     name: Large Particle Dispersion Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2797,6 +3063,7 @@ types:
     name: Large Polycarbon Engine Housing I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2807,6 +3074,7 @@ types:
     name: Large Polycarbon Engine Housing II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2818,6 +3086,7 @@ types:
     name: Large Powergrid Subroutine Maximizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2828,6 +3097,7 @@ types:
     name: Large Powergrid Subroutine Maximizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2839,6 +3109,7 @@ types:
     name: Large Processor Overclocking Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2849,6 +3120,7 @@ types:
     name: Large Processor Overclocking Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2860,6 +3132,7 @@ types:
     name: Large Projectile Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2870,6 +3143,7 @@ types:
     name: Large Projectile Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2881,6 +3155,7 @@ types:
     name: Large Projectile Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2891,6 +3166,7 @@ types:
     name: Large Projectile Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2902,6 +3178,7 @@ types:
     name: Large Projectile Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2912,6 +3189,7 @@ types:
     name: Large Projectile Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2923,6 +3201,7 @@ types:
     name: Large Projectile Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2933,6 +3212,7 @@ types:
     name: Large Projectile Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2944,6 +3224,7 @@ types:
     name: Large Projectile Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2954,6 +3235,7 @@ types:
     name: Large Projectile Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2965,6 +3247,7 @@ types:
     name: Large Remote Repair Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2975,6 +3258,7 @@ types:
     name: Large Remote Repair Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -2986,6 +3270,7 @@ types:
     name: Large Rocket Fuel Cache Partition I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2996,6 +3281,7 @@ types:
     name: Large Rocket Fuel Cache Partition II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3007,6 +3293,7 @@ types:
     name: Large Salvage Tackle I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3017,6 +3304,7 @@ types:
     name: Large Salvage Tackle II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3028,6 +3316,7 @@ types:
     name: Large Semiconductor Memory Cell I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3038,6 +3327,7 @@ types:
     name: Large Semiconductor Memory Cell II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3049,6 +3339,7 @@ types:
     name: Large Sentry Damage Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3059,6 +3350,7 @@ types:
     name: Large Sentry Damage Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3070,6 +3362,7 @@ types:
     name: Large Signal Disruption Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3080,6 +3373,7 @@ types:
     name: Large Signal Disruption Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3091,6 +3385,7 @@ types:
     name: Large Signal Focusing Kit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3101,6 +3396,7 @@ types:
     name: Large Signal Focusing Kit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3112,6 +3408,7 @@ types:
     name: Large Stasis Drone Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3122,6 +3419,7 @@ types:
     name: Large Stasis Drone Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3133,6 +3431,7 @@ types:
     name: Large Targeting System Subcontroller I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3143,6 +3442,7 @@ types:
     name: Large Targeting System Subcontroller II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3154,6 +3454,7 @@ types:
     name: Large Targeting Systems Stabilizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3164,6 +3465,7 @@ types:
     name: Large Targeting Systems Stabilizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3175,6 +3477,7 @@ types:
     name: Large Thermal Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3185,6 +3488,7 @@ types:
     name: Large Thermal Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3196,6 +3500,7 @@ types:
     name: Large Thermal Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3206,6 +3511,7 @@ types:
     name: Large Thermal Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3217,6 +3523,7 @@ types:
     name: Large Tracking Diagnostic Subroutines I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3227,6 +3534,7 @@ types:
     name: Large Tracking Diagnostic Subroutines II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3238,6 +3546,7 @@ types:
     name: Large Transverse Bulkhead I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3248,6 +3557,7 @@ types:
     name: Large Transverse Bulkhead II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3259,6 +3569,7 @@ types:
     name: Large Trimark Armor Pump I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3269,6 +3580,7 @@ types:
     name: Large Trimark Armor Pump II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3280,6 +3592,7 @@ types:
     name: Large Warhead Calefaction Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3290,6 +3603,7 @@ types:
     name: Large Warhead Calefaction Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3301,6 +3615,7 @@ types:
     name: Large Warhead Flare Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3311,6 +3626,7 @@ types:
     name: Large Warhead Flare Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3322,6 +3638,7 @@ types:
     name: Large Warhead Rigor Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3332,6 +3649,7 @@ types:
     name: Large Warhead Rigor Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3343,6 +3661,7 @@ types:
     name: Large Warp Core Optimizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3353,6 +3672,7 @@ types:
     name: Large Warp Core Optimizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3364,6 +3684,7 @@ types:
     name: Medium Algid Energy Administrations Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3374,6 +3695,7 @@ types:
     name: Medium Algid Energy Administrations Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3385,6 +3707,7 @@ types:
     name: Medium Algid Hybrid Administrations Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3395,6 +3718,7 @@ types:
     name: Medium Algid Hybrid Administrations Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3406,6 +3730,7 @@ types:
     name: Medium Ancillary Current Router I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3416,6 +3741,7 @@ types:
     name: Medium Ancillary Current Router II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3427,6 +3753,7 @@ types:
     name: Medium Auxiliary Nano Pump I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3437,6 +3764,7 @@ types:
     name: Medium Auxiliary Nano Pump II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3448,6 +3776,7 @@ types:
     name: Medium Auxiliary Thrusters I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3458,6 +3787,7 @@ types:
     name: Medium Auxiliary Thrusters II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3469,6 +3799,7 @@ types:
     name: Medium Bay Loading Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3479,6 +3810,7 @@ types:
     name: Medium Bay Loading Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3490,6 +3822,7 @@ types:
     name: Medium Capacitor Control Circuit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3500,6 +3833,7 @@ types:
     name: Medium Capacitor Control Circuit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3511,6 +3845,7 @@ types:
     name: Medium Cargohold Optimization I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3521,6 +3856,7 @@ types:
     name: Medium Cargohold Optimization II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3531,6 +3867,7 @@ types:
     name: Medium Command Processor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -3541,6 +3878,7 @@ types:
     name: Medium Core Defense Capacitor Safeguard I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3551,6 +3889,7 @@ types:
     name: Medium Core Defense Capacitor Safeguard II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3562,6 +3901,7 @@ types:
     name: Medium Core Defense Charge Economizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3572,6 +3912,7 @@ types:
     name: Medium Core Defense Charge Economizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3583,6 +3924,7 @@ types:
     name: Medium Core Defense Field Extender I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3593,6 +3935,7 @@ types:
     name: Medium Core Defense Field Extender II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3604,6 +3947,7 @@ types:
     name: Medium Core Defense Field Purger I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3614,6 +3958,7 @@ types:
     name: Medium Core Defense Field Purger II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3625,6 +3970,7 @@ types:
     name: Medium Core Defense Operational Solidifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3635,6 +3981,7 @@ types:
     name: Medium Core Defense Operational Solidifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3646,6 +3993,7 @@ types:
     name: Medium Drone Control Range Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3656,6 +4004,7 @@ types:
     name: Medium Drone Control Range Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3667,6 +4016,7 @@ types:
     name: Medium Drone Durability Enhancer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3677,6 +4027,7 @@ types:
     name: Medium Drone Durability Enhancer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3688,6 +4039,7 @@ types:
     name: Medium Drone Mining Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3698,6 +4050,7 @@ types:
     name: Medium Drone Mining Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3709,6 +4062,7 @@ types:
     name: Medium Drone Repair Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3719,6 +4073,7 @@ types:
     name: Medium Drone Repair Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3730,6 +4085,7 @@ types:
     name: Medium Drone Scope Chip I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3740,6 +4096,7 @@ types:
     name: Medium Drone Scope Chip II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3751,6 +4108,7 @@ types:
     name: Medium Drone Speed Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3761,6 +4119,7 @@ types:
     name: Medium Drone Speed Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3772,6 +4131,7 @@ types:
     name: Medium Dynamic Fuel Valve I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3782,6 +4142,7 @@ types:
     name: Medium Dynamic Fuel Valve II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3793,6 +4154,7 @@ types:
     name: Medium EM Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3803,6 +4165,7 @@ types:
     name: Medium EM Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3814,6 +4177,7 @@ types:
     name: Medium EM Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3824,6 +4188,7 @@ types:
     name: Medium EM Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3835,6 +4200,7 @@ types:
     name: Medium Egress Port Maximizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3845,6 +4211,7 @@ types:
     name: Medium Egress Port Maximizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3856,6 +4223,7 @@ types:
     name: Medium Emission Scope Sharpener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3866,6 +4234,7 @@ types:
     name: Medium Emission Scope Sharpener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3877,6 +4246,7 @@ types:
     name: Medium Energy Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3887,6 +4257,7 @@ types:
     name: Medium Energy Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3898,6 +4269,7 @@ types:
     name: Medium Energy Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3908,6 +4280,7 @@ types:
     name: Medium Energy Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3919,6 +4292,7 @@ types:
     name: Medium Energy Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3929,6 +4303,7 @@ types:
     name: Medium Energy Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3940,6 +4315,7 @@ types:
     name: Medium Energy Discharge Elutriation I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3950,6 +4326,7 @@ types:
     name: Medium Energy Discharge Elutriation II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3961,6 +4338,7 @@ types:
     name: Medium Energy Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3971,6 +4349,7 @@ types:
     name: Medium Energy Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -3982,6 +4361,7 @@ types:
     name: Medium Energy Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -3992,6 +4372,7 @@ types:
     name: Medium Energy Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4003,6 +4384,7 @@ types:
     name: Medium Engine Thermal Shielding I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4013,6 +4395,7 @@ types:
     name: Medium Engine Thermal Shielding II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4024,6 +4407,7 @@ types:
     name: Medium Explosive Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4034,6 +4418,7 @@ types:
     name: Medium Explosive Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4045,6 +4430,7 @@ types:
     name: Medium Explosive Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4055,6 +4441,7 @@ types:
     name: Medium Explosive Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4066,6 +4453,7 @@ types:
     name: Medium Gravity Capacitor Upgrade I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4076,6 +4464,7 @@ types:
     name: Medium Gravity Capacitor Upgrade II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4087,6 +4476,7 @@ types:
     name: Medium Higgs Anchor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4098,6 +4488,7 @@ types:
     name: Medium Hybrid Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4108,6 +4499,7 @@ types:
     name: Medium Hybrid Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4119,6 +4511,7 @@ types:
     name: Medium Hybrid Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4129,6 +4522,7 @@ types:
     name: Medium Hybrid Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4140,6 +4534,7 @@ types:
     name: Medium Hybrid Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4150,6 +4545,7 @@ types:
     name: Medium Hybrid Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4161,6 +4557,7 @@ types:
     name: Medium Hybrid Discharge Elutriation I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4171,6 +4568,7 @@ types:
     name: Medium Hybrid Discharge Elutriation II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4182,6 +4580,7 @@ types:
     name: Medium Hybrid Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4192,6 +4591,7 @@ types:
     name: Medium Hybrid Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4203,6 +4603,7 @@ types:
     name: Medium Hybrid Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4213,6 +4614,7 @@ types:
     name: Medium Hybrid Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4224,6 +4626,7 @@ types:
     name: Medium Hydraulic Bay Thrusters I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4234,6 +4637,7 @@ types:
     name: Medium Hydraulic Bay Thrusters II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4245,6 +4649,7 @@ types:
     name: Medium Hyperspatial Velocity Optimizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4255,6 +4660,7 @@ types:
     name: Medium Hyperspatial Velocity Optimizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4266,6 +4672,7 @@ types:
     name: Medium Ice Harvester Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4277,6 +4684,7 @@ types:
     name: Medium Inverted Signal Field Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4287,6 +4695,7 @@ types:
     name: Medium Inverted Signal Field Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4298,6 +4707,7 @@ types:
     name: Medium Ionic Field Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4308,6 +4718,7 @@ types:
     name: Medium Ionic Field Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4319,6 +4730,7 @@ types:
     name: Medium Kinetic Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4329,6 +4741,7 @@ types:
     name: Medium Kinetic Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4340,6 +4753,7 @@ types:
     name: Medium Kinetic Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4350,6 +4764,7 @@ types:
     name: Medium Kinetic Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4361,6 +4776,7 @@ types:
     name: Medium Liquid Cooled Electronics I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4371,6 +4787,7 @@ types:
     name: Medium Liquid Cooled Electronics II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4382,6 +4799,7 @@ types:
     name: Medium Low Friction Nozzle Joints I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4392,6 +4810,7 @@ types:
     name: Medium Low Friction Nozzle Joints II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4403,6 +4822,7 @@ types:
     name: Medium Memetic Algorithm Bank I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4413,6 +4833,7 @@ types:
     name: Medium Memetic Algorithm Bank II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4424,6 +4845,7 @@ types:
     name: Medium Mercoxit Mining Crystal Optimization I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4435,6 +4857,7 @@ types:
     name: Medium Nanobot Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4445,6 +4868,7 @@ types:
     name: Medium Nanobot Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4456,6 +4880,7 @@ types:
     name: Medium Particle Dispersion Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4466,6 +4891,7 @@ types:
     name: Medium Particle Dispersion Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4477,6 +4903,7 @@ types:
     name: Medium Particle Dispersion Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4487,6 +4914,7 @@ types:
     name: Medium Particle Dispersion Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4498,6 +4926,7 @@ types:
     name: Medium Polycarbon Engine Housing I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4508,6 +4937,7 @@ types:
     name: Medium Polycarbon Engine Housing II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4519,6 +4949,7 @@ types:
     name: Medium Powergrid Subroutine Maximizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4529,6 +4960,7 @@ types:
     name: Medium Powergrid Subroutine Maximizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4540,6 +4972,7 @@ types:
     name: Medium Processor Overclocking Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4550,6 +4983,7 @@ types:
     name: Medium Processor Overclocking Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4561,6 +4995,7 @@ types:
     name: Medium Projectile Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4571,6 +5006,7 @@ types:
     name: Medium Projectile Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4582,6 +5018,7 @@ types:
     name: Medium Projectile Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4592,6 +5029,7 @@ types:
     name: Medium Projectile Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4603,6 +5041,7 @@ types:
     name: Medium Projectile Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4613,6 +5052,7 @@ types:
     name: Medium Projectile Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4624,6 +5064,7 @@ types:
     name: Medium Projectile Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4634,6 +5075,7 @@ types:
     name: Medium Projectile Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4645,6 +5087,7 @@ types:
     name: Medium Projectile Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4655,6 +5098,7 @@ types:
     name: Medium Projectile Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4666,6 +5110,7 @@ types:
     name: Medium Remote Repair Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4676,6 +5121,7 @@ types:
     name: Medium Remote Repair Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4687,6 +5133,7 @@ types:
     name: Medium Rocket Fuel Cache Partition I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4697,6 +5144,7 @@ types:
     name: Medium Rocket Fuel Cache Partition II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4708,6 +5156,7 @@ types:
     name: Medium Salvage Tackle I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4718,6 +5167,7 @@ types:
     name: Medium Salvage Tackle II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4729,6 +5179,7 @@ types:
     name: Medium Semiconductor Memory Cell I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4739,6 +5190,7 @@ types:
     name: Medium Semiconductor Memory Cell II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4750,6 +5202,7 @@ types:
     name: Medium Sentry Damage Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4760,6 +5213,7 @@ types:
     name: Medium Sentry Damage Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4771,6 +5225,7 @@ types:
     name: Medium Signal Disruption Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4781,6 +5236,7 @@ types:
     name: Medium Signal Disruption Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4792,6 +5248,7 @@ types:
     name: Medium Signal Focusing Kit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4802,6 +5259,7 @@ types:
     name: Medium Signal Focusing Kit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4813,6 +5271,7 @@ types:
     name: Medium Stasis Drone Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4823,6 +5282,7 @@ types:
     name: Medium Stasis Drone Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4834,6 +5294,7 @@ types:
     name: Medium Targeting System Subcontroller I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4844,6 +5305,7 @@ types:
     name: Medium Targeting System Subcontroller II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4855,6 +5317,7 @@ types:
     name: Medium Targeting Systems Stabilizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4865,6 +5328,7 @@ types:
     name: Medium Targeting Systems Stabilizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4876,6 +5340,7 @@ types:
     name: Medium Thermal Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4886,6 +5351,7 @@ types:
     name: Medium Thermal Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4897,6 +5363,7 @@ types:
     name: Medium Thermal Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4907,6 +5374,7 @@ types:
     name: Medium Thermal Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4918,6 +5386,7 @@ types:
     name: Medium Tracking Diagnostic Subroutines I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4928,6 +5397,7 @@ types:
     name: Medium Tracking Diagnostic Subroutines II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4939,6 +5409,7 @@ types:
     name: Medium Transverse Bulkhead I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4949,6 +5420,7 @@ types:
     name: Medium Transverse Bulkhead II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4960,6 +5432,7 @@ types:
     name: Medium Trimark Armor Pump I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4970,6 +5443,7 @@ types:
     name: Medium Trimark Armor Pump II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -4981,6 +5455,7 @@ types:
     name: Medium Warhead Calefaction Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -4991,6 +5466,7 @@ types:
     name: Medium Warhead Calefaction Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5002,6 +5478,7 @@ types:
     name: Medium Warhead Flare Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5012,6 +5489,7 @@ types:
     name: Medium Warhead Flare Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5023,6 +5501,7 @@ types:
     name: Medium Warhead Rigor Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5033,6 +5512,7 @@ types:
     name: Medium Warhead Rigor Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5044,6 +5524,7 @@ types:
     name: Medium Warp Core Optimizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5054,6 +5535,7 @@ types:
     name: Medium Warp Core Optimizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5065,6 +5547,7 @@ types:
     name: Small Algid Energy Administrations Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5075,6 +5558,7 @@ types:
     name: Small Algid Energy Administrations Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5086,6 +5570,7 @@ types:
     name: Small Algid Hybrid Administrations Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5096,6 +5581,7 @@ types:
     name: Small Algid Hybrid Administrations Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5107,6 +5593,7 @@ types:
     name: Small Ancillary Current Router I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5117,6 +5604,7 @@ types:
     name: Small Ancillary Current Router II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5128,6 +5616,7 @@ types:
     name: Small Auxiliary Nano Pump I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5138,6 +5627,7 @@ types:
     name: Small Auxiliary Nano Pump II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5149,6 +5639,7 @@ types:
     name: Small Auxiliary Thrusters I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5159,6 +5650,7 @@ types:
     name: Small Auxiliary Thrusters II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5170,6 +5662,7 @@ types:
     name: Small Bay Loading Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5180,6 +5673,7 @@ types:
     name: Small Bay Loading Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5191,6 +5685,7 @@ types:
     name: Small Capacitor Control Circuit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5201,6 +5696,7 @@ types:
     name: Small Capacitor Control Circuit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5212,6 +5708,7 @@ types:
     name: Small Cargohold Optimization I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5222,6 +5719,7 @@ types:
     name: Small Cargohold Optimization II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5232,6 +5730,7 @@ types:
     name: Small Command Processor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -5242,6 +5741,7 @@ types:
     name: Small Core Defense Capacitor Safeguard I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5252,6 +5752,7 @@ types:
     name: Small Core Defense Capacitor Safeguard II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5263,6 +5764,7 @@ types:
     name: Small Core Defense Charge Economizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5273,6 +5775,7 @@ types:
     name: Small Core Defense Charge Economizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5284,6 +5787,7 @@ types:
     name: Small Core Defense Field Extender I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5294,6 +5798,7 @@ types:
     name: Small Core Defense Field Extender II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5305,6 +5810,7 @@ types:
     name: Small Core Defense Field Purger I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5315,6 +5821,7 @@ types:
     name: Small Core Defense Field Purger II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5326,6 +5833,7 @@ types:
     name: Small Core Defense Operational Solidifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5336,6 +5844,7 @@ types:
     name: Small Core Defense Operational Solidifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5347,6 +5856,7 @@ types:
     name: Small Drone Control Range Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5357,6 +5867,7 @@ types:
     name: Small Drone Control Range Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5368,6 +5879,7 @@ types:
     name: Small Drone Durability Enhancer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5378,6 +5890,7 @@ types:
     name: Small Drone Durability Enhancer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5389,6 +5902,7 @@ types:
     name: Small Drone Mining Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5399,6 +5913,7 @@ types:
     name: Small Drone Mining Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5410,6 +5925,7 @@ types:
     name: Small Drone Repair Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5420,6 +5936,7 @@ types:
     name: Small Drone Repair Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5431,6 +5948,7 @@ types:
     name: Small Drone Scope Chip I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5441,6 +5959,7 @@ types:
     name: Small Drone Scope Chip II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5452,6 +5971,7 @@ types:
     name: Small Drone Speed Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5462,6 +5982,7 @@ types:
     name: Small Drone Speed Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5473,6 +5994,7 @@ types:
     name: Small Dynamic Fuel Valve I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5483,6 +6005,7 @@ types:
     name: Small Dynamic Fuel Valve II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5494,6 +6017,7 @@ types:
     name: Small EM Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5504,6 +6028,7 @@ types:
     name: Small EM Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5515,6 +6040,7 @@ types:
     name: Small EM Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5525,6 +6051,7 @@ types:
     name: Small EM Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5536,6 +6063,7 @@ types:
     name: Small Egress Port Maximizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5546,6 +6074,7 @@ types:
     name: Small Egress Port Maximizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5557,6 +6086,7 @@ types:
     name: Small Emission Scope Sharpener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5567,6 +6097,7 @@ types:
     name: Small Emission Scope Sharpener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5578,6 +6109,7 @@ types:
     name: Small Energy Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5588,6 +6120,7 @@ types:
     name: Small Energy Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5599,6 +6132,7 @@ types:
     name: Small Energy Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5609,6 +6143,7 @@ types:
     name: Small Energy Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5620,6 +6155,7 @@ types:
     name: Small Energy Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5630,6 +6166,7 @@ types:
     name: Small Energy Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5641,6 +6178,7 @@ types:
     name: Small Energy Discharge Elutriation I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5651,6 +6189,7 @@ types:
     name: Small Energy Discharge Elutriation II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5662,6 +6201,7 @@ types:
     name: Small Energy Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5672,6 +6212,7 @@ types:
     name: Small Energy Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5683,6 +6224,7 @@ types:
     name: Small Energy Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5693,6 +6235,7 @@ types:
     name: Small Energy Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5704,6 +6247,7 @@ types:
     name: Small Engine Thermal Shielding I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5714,6 +6258,7 @@ types:
     name: Small Engine Thermal Shielding II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5725,6 +6270,7 @@ types:
     name: Small Explosive Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5735,6 +6281,7 @@ types:
     name: Small Explosive Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5746,6 +6293,7 @@ types:
     name: Small Explosive Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5756,6 +6304,7 @@ types:
     name: Small Explosive Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5767,6 +6316,7 @@ types:
     name: Small Gravity Capacitor Upgrade I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5777,6 +6327,7 @@ types:
     name: Small Gravity Capacitor Upgrade II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5788,6 +6339,7 @@ types:
     name: Small Higgs Anchor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5799,6 +6351,7 @@ types:
     name: Small Hybrid Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5809,6 +6362,7 @@ types:
     name: Small Hybrid Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5820,6 +6374,7 @@ types:
     name: Small Hybrid Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5830,6 +6385,7 @@ types:
     name: Small Hybrid Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5841,6 +6397,7 @@ types:
     name: Small Hybrid Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5851,6 +6408,7 @@ types:
     name: Small Hybrid Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5862,6 +6420,7 @@ types:
     name: Small Hybrid Discharge Elutriation I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5872,6 +6431,7 @@ types:
     name: Small Hybrid Discharge Elutriation II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5883,6 +6443,7 @@ types:
     name: Small Hybrid Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5893,6 +6454,7 @@ types:
     name: Small Hybrid Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5904,6 +6466,7 @@ types:
     name: Small Hybrid Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5914,6 +6477,7 @@ types:
     name: Small Hybrid Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5925,6 +6489,7 @@ types:
     name: Small Hydraulic Bay Thrusters I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5935,6 +6500,7 @@ types:
     name: Small Hydraulic Bay Thrusters II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5946,6 +6512,7 @@ types:
     name: Small Hyperspatial Velocity Optimizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5956,6 +6523,7 @@ types:
     name: Small Hyperspatial Velocity Optimizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5967,6 +6535,7 @@ types:
     name: Small Inverted Signal Field Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5977,6 +6546,7 @@ types:
     name: Small Inverted Signal Field Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -5988,6 +6558,7 @@ types:
     name: Small Ionic Field Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -5998,6 +6569,7 @@ types:
     name: Small Ionic Field Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6009,6 +6581,7 @@ types:
     name: Small Kinetic Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6019,6 +6592,7 @@ types:
     name: Small Kinetic Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6030,6 +6604,7 @@ types:
     name: Small Kinetic Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6040,6 +6615,7 @@ types:
     name: Small Kinetic Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6051,6 +6627,7 @@ types:
     name: Small Liquid Cooled Electronics I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6061,6 +6638,7 @@ types:
     name: Small Liquid Cooled Electronics II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6072,6 +6650,7 @@ types:
     name: Small Low Friction Nozzle Joints I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6082,6 +6661,7 @@ types:
     name: Small Low Friction Nozzle Joints II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6093,6 +6673,7 @@ types:
     name: Small Memetic Algorithm Bank I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6103,6 +6684,7 @@ types:
     name: Small Memetic Algorithm Bank II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6114,6 +6696,7 @@ types:
     name: Small Nanobot Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6124,6 +6707,7 @@ types:
     name: Small Nanobot Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6135,6 +6719,7 @@ types:
     name: Small Particle Dispersion Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6145,6 +6730,7 @@ types:
     name: Small Particle Dispersion Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6156,6 +6742,7 @@ types:
     name: Small Particle Dispersion Projector I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6166,6 +6753,7 @@ types:
     name: Small Particle Dispersion Projector II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6177,6 +6765,7 @@ types:
     name: Small Polycarbon Engine Housing I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6187,6 +6776,7 @@ types:
     name: Small Polycarbon Engine Housing II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6198,6 +6788,7 @@ types:
     name: Small Powergrid Subroutine Maximizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6208,6 +6799,7 @@ types:
     name: Small Powergrid Subroutine Maximizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6219,6 +6811,7 @@ types:
     name: Small Processor Overclocking Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6229,6 +6822,7 @@ types:
     name: Small Processor Overclocking Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6240,6 +6834,7 @@ types:
     name: Small Projectile Ambit Extension I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6250,6 +6845,7 @@ types:
     name: Small Projectile Ambit Extension II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6261,6 +6857,7 @@ types:
     name: Small Projectile Burst Aerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6271,6 +6868,7 @@ types:
     name: Small Projectile Burst Aerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6282,6 +6880,7 @@ types:
     name: Small Projectile Collision Accelerator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6292,6 +6891,7 @@ types:
     name: Small Projectile Collision Accelerator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6303,6 +6903,7 @@ types:
     name: Small Projectile Locus Coordinator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6313,6 +6914,7 @@ types:
     name: Small Projectile Locus Coordinator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6324,6 +6926,7 @@ types:
     name: Small Projectile Metastasis Adjuster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6334,6 +6937,7 @@ types:
     name: Small Projectile Metastasis Adjuster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6345,6 +6949,7 @@ types:
     name: Small Remote Repair Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6355,6 +6960,7 @@ types:
     name: Small Remote Repair Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6366,6 +6972,7 @@ types:
     name: Small Rocket Fuel Cache Partition I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6376,6 +6983,7 @@ types:
     name: Small Rocket Fuel Cache Partition II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6387,6 +6995,7 @@ types:
     name: Small Salvage Tackle I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6397,6 +7006,7 @@ types:
     name: Small Salvage Tackle II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6408,6 +7018,7 @@ types:
     name: Small Semiconductor Memory Cell I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6418,6 +7029,7 @@ types:
     name: Small Semiconductor Memory Cell II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6429,6 +7041,7 @@ types:
     name: Small Sentry Damage Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6439,6 +7052,7 @@ types:
     name: Small Sentry Damage Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6450,6 +7064,7 @@ types:
     name: Small Signal Disruption Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6460,6 +7075,7 @@ types:
     name: Small Signal Disruption Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6471,6 +7087,7 @@ types:
     name: Small Signal Focusing Kit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6481,6 +7098,7 @@ types:
     name: Small Signal Focusing Kit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6492,6 +7110,7 @@ types:
     name: Small Stasis Drone Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6502,6 +7121,7 @@ types:
     name: Small Stasis Drone Augmentor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6513,6 +7133,7 @@ types:
     name: Small Targeting System Subcontroller I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6523,6 +7144,7 @@ types:
     name: Small Targeting System Subcontroller II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6534,6 +7156,7 @@ types:
     name: Small Targeting Systems Stabilizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6544,6 +7167,7 @@ types:
     name: Small Targeting Systems Stabilizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6555,6 +7179,7 @@ types:
     name: Small Thermal Armor Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6565,6 +7190,7 @@ types:
     name: Small Thermal Armor Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6576,6 +7202,7 @@ types:
     name: Small Thermal Shield Reinforcer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6586,6 +7213,7 @@ types:
     name: Small Thermal Shield Reinforcer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6597,6 +7225,7 @@ types:
     name: Small Tracking Diagnostic Subroutines I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6607,6 +7236,7 @@ types:
     name: Small Tracking Diagnostic Subroutines II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6618,6 +7248,7 @@ types:
     name: Small Transverse Bulkhead I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6628,6 +7259,7 @@ types:
     name: Small Transverse Bulkhead II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6639,6 +7271,7 @@ types:
     name: Small Trimark Armor Pump I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6649,6 +7282,7 @@ types:
     name: Small Trimark Armor Pump II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6660,6 +7294,7 @@ types:
     name: Small Warhead Calefaction Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6670,6 +7305,7 @@ types:
     name: Small Warhead Calefaction Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6681,6 +7317,7 @@ types:
     name: Small Warhead Flare Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6691,6 +7328,7 @@ types:
     name: Small Warhead Flare Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6702,6 +7340,7 @@ types:
     name: Small Warhead Rigor Catalyst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6712,6 +7351,7 @@ types:
     name: Small Warhead Rigor Catalyst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -6723,6 +7363,7 @@ types:
     name: Small Warp Core Optimizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -6733,6 +7374,7 @@ types:
     name: Small Warp Core Optimizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 2

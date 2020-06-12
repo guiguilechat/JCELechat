@@ -23,6 +23,7 @@ types:
     portionSize: 1
     posanchoredpersolarsystemamount: 1
     power: 375000
+    price: 2.0E7
     published: true
     radius: 629.0
     requiressovupgrade1: 2008

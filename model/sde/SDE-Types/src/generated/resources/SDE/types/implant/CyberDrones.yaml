@@ -183,6 +183,7 @@ types:
     name: CreoDron 'Bumblebee' Drone Tuner T10-5D
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -200,6 +201,7 @@ types:
     name: CreoDron 'Yellowjacket' Drone Tuner D5-10T
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -217,6 +219,7 @@ types:
     name: Overmind 'Goliath' Drone Tuner T25-10S
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -234,6 +237,7 @@ types:
     name: Overmind 'Hawkmoth' Drone Tuner S10-25T
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

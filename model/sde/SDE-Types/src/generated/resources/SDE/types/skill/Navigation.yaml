@@ -6,6 +6,7 @@ types:
     name: Acceleration Control
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -24,6 +25,7 @@ types:
     name: Afterburner
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 35000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -40,6 +42,7 @@ types:
     name: Cynosural Field Theory
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -56,6 +59,7 @@ types:
     name: Evasive Maneuvering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 35000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -72,6 +76,7 @@ types:
     name: Fuel Conservation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 37500.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -90,6 +95,7 @@ types:
     name: High Speed Maneuvering
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -108,6 +114,7 @@ types:
     name: Jump Drive Calibration
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -124,6 +131,7 @@ types:
     name: Jump Drive Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -144,6 +152,7 @@ types:
     name: Jump Fuel Conservation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -160,6 +169,7 @@ types:
     name: Jump Portal Generation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -180,6 +190,7 @@ types:
     name: Micro Jump Drive Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -197,6 +208,7 @@ types:
     name: Navigation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 30000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -211,6 +223,7 @@ types:
     name: Warp Drive Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 45000.0
     primaryattribute: 165
     published: true
     radius: 1.0

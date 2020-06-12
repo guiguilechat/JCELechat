@@ -5,6 +5,7 @@ types:
     name: Anshar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.95E9
     published: true
     radius: 1.0
     techlevel: 2
@@ -15,6 +16,7 @@ types:
     name: Ark Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.9E9
     published: true
     radius: 1.0
     techlevel: 2
@@ -25,6 +27,7 @@ types:
     name: Bowhead Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.55E9
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -35,6 +38,7 @@ types:
     name: Charon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -46,6 +50,7 @@ types:
     name: Fenrir Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.85E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -56,6 +61,7 @@ types:
     name: Nomad Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.85E9
     published: true
     radius: 1.0
     techlevel: 2
@@ -67,6 +73,7 @@ types:
     name: Obelisk Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.95E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -78,6 +85,7 @@ types:
     name: Providence Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.9E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -88,6 +96,7 @@ types:
     name: Rhea Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1.0
     techlevel: 2

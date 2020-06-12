@@ -5,6 +5,7 @@ types:
     name: Armor Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -20,6 +21,7 @@ types:
     name: Astronautics Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -35,6 +37,7 @@ types:
     name: Drones Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -50,6 +53,7 @@ types:
     name: Electronic Superiority Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -65,6 +69,7 @@ types:
     name: Energy Weapon Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -80,6 +85,7 @@ types:
     name: Hybrid Weapon Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -95,6 +101,7 @@ types:
     name: Jury Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 75000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -110,6 +117,7 @@ types:
     name: Launcher Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -125,6 +133,7 @@ types:
     name: Projectile Weapon Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -140,6 +149,7 @@ types:
     name: Shield Rigging
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0

@@ -8,6 +8,7 @@ types:
     name: Talassonite
     packagedVolume: 16.0
     portionSize: 100
+    price: 234353.0
     published: true
     radius: 1.0
     reprocessingskilltype: 3385

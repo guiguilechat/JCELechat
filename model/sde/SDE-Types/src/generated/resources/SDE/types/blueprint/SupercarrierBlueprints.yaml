@@ -6,6 +6,7 @@ types:
     name: Aeon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.85E10
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,6 +17,7 @@ types:
     name: Hel Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.9E10
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -26,6 +28,7 @@ types:
     name: Nyx Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E10
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -35,6 +38,7 @@ types:
     name: Revenant Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.85E10
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -52,6 +56,7 @@ types:
     name: Wyvern Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.8E10
     published: true
     radius: 1.0
     volume: 0.009999999776482582

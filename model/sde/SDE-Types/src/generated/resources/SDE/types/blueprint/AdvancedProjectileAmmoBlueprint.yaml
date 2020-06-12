@@ -5,6 +5,7 @@ types:
     name: Barrage L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -15,6 +16,7 @@ types:
     name: Barrage M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -25,6 +27,7 @@ types:
     name: Barrage S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -34,6 +37,7 @@ types:
     name: Barrage XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3000000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -44,6 +48,7 @@ types:
     name: Hail L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -54,6 +59,7 @@ types:
     name: Hail M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -64,6 +70,7 @@ types:
     name: Hail S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -73,6 +80,7 @@ types:
     name: Hail XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -83,6 +91,7 @@ types:
     name: Quake L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -93,6 +102,7 @@ types:
     name: Quake M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -103,6 +113,7 @@ types:
     name: Quake S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -112,6 +123,7 @@ types:
     name: Quake XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6000000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -122,6 +134,7 @@ types:
     name: Tremor L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -132,6 +145,7 @@ types:
     name: Tremor M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -142,6 +156,7 @@ types:
     name: Tremor S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -151,6 +166,7 @@ types:
     name: Tremor XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     published: true
     radius: 1.0
     techlevel: 2

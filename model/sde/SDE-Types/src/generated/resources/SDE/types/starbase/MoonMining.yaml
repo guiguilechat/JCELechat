@@ -17,6 +17,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 10000
+    price: 5000000.0
     published: true
     radius: 1289.0
     scangravimetricstrength: 200.0

@@ -6,6 +6,7 @@ types:
     name: Dragonfly I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0336332E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -15,6 +16,7 @@ types:
     name: Dragonfly II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0336332E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -26,6 +28,7 @@ types:
     name: Einherji I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.000134E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -35,6 +38,7 @@ types:
     name: Einherji II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.000134E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -45,6 +49,7 @@ types:
     name: Equite I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.004734E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -53,6 +58,7 @@ types:
     name: Equite II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.004734E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -64,6 +70,7 @@ types:
     name: Firbolg I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.1394992E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -73,6 +80,7 @@ types:
     name: Firbolg II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.1394992E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -83,6 +91,7 @@ types:
     name: Gram I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.000134E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -91,6 +100,7 @@ types:
     name: Gram II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.000134E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -101,6 +111,7 @@ types:
     name: Locust I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0336332E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -109,6 +120,7 @@ types:
     name: Locust II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0336332E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -119,6 +131,7 @@ types:
     name: Satyr I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.1394992E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -127,6 +140,7 @@ types:
     name: Satyr II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.1394992E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -137,6 +151,7 @@ types:
     name: Standup Dragonfly I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -145,6 +160,7 @@ types:
     name: Standup Dragonfly II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -154,6 +170,7 @@ types:
     name: Standup Einherji I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -162,6 +179,7 @@ types:
     name: Standup Einherji II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -171,6 +189,7 @@ types:
     name: Standup Equite I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -179,6 +198,7 @@ types:
     name: Standup Equite II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -188,6 +208,7 @@ types:
     name: Standup Firbolg I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -196,6 +217,7 @@ types:
     name: Standup Firbolg II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -205,6 +227,7 @@ types:
     name: Standup Gram I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -213,6 +236,7 @@ types:
     name: Standup Gram II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -222,6 +246,7 @@ types:
     name: Standup Locust I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -230,6 +255,7 @@ types:
     name: Standup Locust II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -239,6 +265,7 @@ types:
     name: Standup Satyr I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -247,6 +274,7 @@ types:
     name: Standup Satyr II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -256,6 +284,7 @@ types:
     name: Standup Templar I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -264,6 +293,7 @@ types:
     name: Standup Templar II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -274,6 +304,7 @@ types:
     name: Templar I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.004734E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -283,6 +314,7 @@ types:
     name: Templar II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.004734E8
     published: true
     radius: 1.0
     techlevel: 2

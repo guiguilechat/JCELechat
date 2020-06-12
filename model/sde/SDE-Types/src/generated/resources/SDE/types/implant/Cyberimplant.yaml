@@ -29,6 +29,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -68,6 +69,7 @@ types:
     name: High-Grade Mimesis Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -546,6 +548,7 @@ types:
     name: High-grade Ascendancy Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -586,6 +589,7 @@ types:
     name: High-grade Ascendancy Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -626,6 +630,7 @@ types:
     name: High-grade Ascendancy Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -665,6 +670,7 @@ types:
     name: High-grade Ascendancy Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -705,6 +711,7 @@ types:
     name: High-grade Ascendancy Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -746,6 +753,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -787,6 +795,7 @@ types:
     name: High-grade Asklepian Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -828,6 +837,7 @@ types:
     name: High-grade Asklepian Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -869,6 +879,7 @@ types:
     name: High-grade Asklepian Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -909,6 +920,7 @@ types:
     name: High-grade Asklepian Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -949,6 +961,7 @@ types:
     name: High-grade Asklepian Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -988,6 +1001,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1028,6 +1042,7 @@ types:
     name: High-grade Crystal Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1068,6 +1083,7 @@ types:
     name: High-grade Crystal Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1108,6 +1124,7 @@ types:
     name: High-grade Crystal Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1147,6 +1164,7 @@ types:
     name: High-grade Crystal Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1187,6 +1205,7 @@ types:
     name: High-grade Crystal Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2232,6 +2251,7 @@ types:
     name: High-grade Nirvana Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2271,6 +2291,7 @@ types:
     name: High-grade Nirvana Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2310,6 +2331,7 @@ types:
     name: High-grade Nirvana Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2348,6 +2370,7 @@ types:
     name: High-grade Nirvana Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2387,6 +2410,7 @@ types:
     name: High-grade Nirvana Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2665,6 +2689,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2707,6 +2732,7 @@ types:
     name: High-grade Snake Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2749,6 +2775,7 @@ types:
     name: High-grade Snake Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2791,6 +2818,7 @@ types:
     name: High-grade Snake Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2832,6 +2860,7 @@ types:
     name: High-grade Snake Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2874,6 +2903,7 @@ types:
     name: High-grade Snake Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -3152,6 +3182,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -3192,6 +3223,7 @@ types:
     name: High-grade Talisman Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -3232,6 +3264,7 @@ types:
     name: High-grade Talisman Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -3272,6 +3305,7 @@ types:
     name: High-grade Talisman Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -3311,6 +3345,7 @@ types:
     name: High-grade Talisman Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -3350,6 +3385,7 @@ types:
     name: High-grade Talisman Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -3627,6 +3663,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -3666,6 +3703,7 @@ types:
     name: Low-Grade Mimesis Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -8177,6 +8215,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -8216,6 +8255,7 @@ types:
     name: Mid-Grade Mimesis Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -8694,6 +8734,7 @@ types:
     name: Mid-grade Ascendancy Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -8734,6 +8775,7 @@ types:
     name: Mid-grade Ascendancy Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -8774,6 +8816,7 @@ types:
     name: Mid-grade Ascendancy Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -8813,6 +8856,7 @@ types:
     name: Mid-grade Ascendancy Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -8853,6 +8897,7 @@ types:
     name: Mid-grade Ascendancy Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -10618,6 +10663,7 @@ types:
     name: Mid-grade Nirvana Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -10657,6 +10703,7 @@ types:
     name: Mid-grade Nirvana Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -10696,6 +10743,7 @@ types:
     name: Mid-grade Nirvana Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -10734,6 +10782,7 @@ types:
     name: Mid-grade Nirvana Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -10773,6 +10822,7 @@ types:
     name: Mid-grade Nirvana Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

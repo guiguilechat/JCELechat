@@ -35,6 +35,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 5.0
     portionSize: 1
+    price: 2000.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -96,6 +97,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 10.0
     portionSize: 1
+    price: 17000.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -157,6 +159,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 25.0
     portionSize: 1
+    price: 60000.0
     proximityrange: 7000
     published: true
     radius: 15.0
