@@ -48,7 +48,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 		<openjfx-version>15-ea+4</openjfx-version>
-		<tools.version>1.4.4</tools.version>
+		<tools.version>1.4.6</tools.version>
 	</properties>
 	<build>
 		<plugins>
