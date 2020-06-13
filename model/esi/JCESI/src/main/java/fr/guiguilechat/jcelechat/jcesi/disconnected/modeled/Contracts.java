@@ -9,7 +9,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 
 public class Contracts {
 
@@ -38,7 +37,7 @@ public class Contracts {
 		}
 	}
 
-	private HashMap<Integer, ObsMapHolder<Integer, ContractDesc>> cacheRegionContracts = new HashMap<>();
+	private HashMap<Integer, ObsListHolder<ContractDesc>> cacheRegionContracts = new HashMap<>();
 
 	/**
 	 *
@@ -49,8 +48,8 @@ public class Contracts {
 	 *          id of the region.
 	 * @returna cached synced variable
 	 */
-	public ObsMapHolder<Integer, ContractDesc> getRegionContracts(int regionId) {
-		ObsMapHolder<Integer, ContractDesc> ret = cacheRegionContracts.get(regionId);
+	public ObsListHolder<ContractDesc> getRegionContracts(int regionId) {
+		ObsListHolder<ContractDesc> ret = cacheRegionContracts.get(regionId);
 		if (ret == null) {
 			ObsListHolder<R_get_contracts_public_region_id> raws = esiConnection.cache.contracts.getpublic(regionId);
 			synchronized (cacheRegionContracts) {
@@ -61,9 +60,8 @@ public class Contracts {
 							ESIStatic.INSTANCE.cache.contracts.public_items(cid.contract_id);
 							ESIStatic.INSTANCE.cache.contracts.public_bids(cid.contract_id);
 						}
-					}).toMap(c -> (Integer) c.contract_id,
-							c -> new ContractDesc(c, ESIStatic.INSTANCE.cache.contracts.public_items(c.contract_id).get(),
-									ESIStatic.INSTANCE.cache.contracts.public_bids(c.contract_id).get()));
+					}).mapItems(c -> new ContractDesc(c, ESIStatic.INSTANCE.cache.contracts.public_items(c.contract_id).get(),
+							ESIStatic.INSTANCE.cache.contracts.public_bids(c.contract_id).get()));
 					cacheRegionContracts.put(regionId, ret);
 				}
 			}
@@ -71,7 +69,7 @@ public class Contracts {
 		return ret;
 	}
 
-	private HashMap<Integer, ObsMapHolder<Integer, ContractDesc>> cacheRegionItemExchange = new HashMap<>();
+	private HashMap<Integer, ObsListHolder<ContractDesc>> cacheRegionItemExchanges = new HashMap<>();
 
 	/**
 	 * get the public item exchange contracts for a region.
@@ -80,21 +78,44 @@ public class Contracts {
 	 *          id of the region.
 	 * @return a cached synced variable
 	 */
-	public ObsMapHolder<Integer, ContractDesc> getRegionItemExchange(int regionId) {
-		ObsMapHolder<Integer, ContractDesc> ret = cacheRegionItemExchange.get(regionId);
+	public ObsListHolder<ContractDesc> getRegionItemExchanges(int regionId) {
+		ObsListHolder<ContractDesc> ret = cacheRegionItemExchanges.get(regionId);
 		if (ret == null) {
 			ObsListHolder<R_get_contracts_public_region_id> raws = esiConnection.cache.contracts.getpublic(regionId);
 			synchronized (cacheRegionContracts) {
-				ret = cacheRegionItemExchange.get(regionId);
+				ret = cacheRegionItemExchanges.get(regionId);
 				if (ret == null) {
 					ret = raws.filter(c -> c.type == get_contracts_public_region_id_type.item_exchange).peek(map -> {
 						for (R_get_contracts_public_region_id cid : map) {
 							ESIStatic.INSTANCE.cache.contracts.public_items(cid.contract_id);
 						}
-					}).toMap(c -> (Integer) c.contract_id,
-							c -> new ContractDesc(c, ESIStatic.INSTANCE.cache.contracts.public_items(c.contract_id).get(),
-									null));
-					cacheRegionItemExchange.put(regionId, ret);
+					}).mapItems(
+							c -> new ContractDesc(c, ESIStatic.INSTANCE.cache.contracts.public_items(c.contract_id).get(), null));
+					cacheRegionItemExchanges.put(regionId, ret);
+				}
+			}
+		}
+		return ret;
+	}
+
+	private HashMap<Integer, ObsListHolder<ContractDesc>> cacheRegionItemOffers = new HashMap<>();
+
+	/**
+	 * get the contracts that offer items and only require isks
+	 *
+	 * @param regionId
+	 *          id of the region.
+	 * @return a cached synced variable
+	 */
+	public ObsListHolder<ContractDesc> getRegionItemOffers(int regionId) {
+		ObsListHolder<ContractDesc> ret = cacheRegionItemOffers.get(regionId);
+		if (ret == null) {
+			ObsListHolder<ContractDesc> offers = getRegionItemExchanges(regionId);
+			synchronized (cacheRegionItemOffers) {
+				ret = cacheRegionItemOffers.get(regionId);
+				if (ret == null) {
+					ret = offers.filter(cd -> cd.items.stream().filter(it -> !it.is_included).findAny().isEmpty());
+					cacheRegionItemOffers.put(regionId, ret);
 				}
 			}
 		}
