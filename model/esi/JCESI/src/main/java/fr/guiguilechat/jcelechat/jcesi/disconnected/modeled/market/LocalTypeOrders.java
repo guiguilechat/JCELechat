@@ -15,66 +15,58 @@ public class LocalTypeOrders {
 	private final ObsListHolder<R_get_markets_region_id_orders> orders;
 	private final int typeID;
 
-	private ObsListHolder<R_get_markets_region_id_orders> sellOrders;
-	private ObsListHolder<R_get_markets_region_id_orders> buyOrders;
-
 	public LocalTypeOrders(ObsListHolder<R_get_markets_region_id_orders> orders, int typeID) {
 		this.orders = orders;
 		this.typeID = typeID;
 	}
+
+	private ObsListHolder<R_get_markets_region_id_orders> cachedBuyOrders;
 
 	/**
 	 *
 	 * @return the observable list of buy orders, sorted by decreasing price
 	 */
 	public ObsListHolder<R_get_markets_region_id_orders> listBuyOrders() {
-		if (buyOrders == null) {
+		if (cachedBuyOrders == null) {
 			LockWatchDog.BARKER.syncExecute(orders, () -> {
-				if (buyOrders == null) {
-					buyOrders = orders.filter(order -> order.type_id == typeID && order.is_buy_order && order.min_volume == 1)
+				if (cachedBuyOrders == null) {
+					cachedBuyOrders = orders
+							.filter(order -> order.type_id == typeID && order.is_buy_order && order.min_volume == 1)
 							.sorted((o1, o2) -> -Double.compare(o1.price, o2.price));
 				}
 			});
 		}
-		return buyOrders;
+		return cachedBuyOrders;
 	}
+
+	private ObsListHolder<R_get_markets_region_id_orders> cachedSellOrders;
 
 	/**
 	 *
 	 * @return the observable list of sell orders, sorted by increasing price
 	 */
 	public ObsListHolder<R_get_markets_region_id_orders> listSellOrders() {
-		if (sellOrders == null) {
+		if (cachedSellOrders == null) {
 			LockWatchDog.BARKER.syncExecute(orders, () -> {
-				if (sellOrders == null) {
-					sellOrders = orders.filter(order -> order.type_id == typeID && !order.is_buy_order && order.min_volume == 1)
+				if (cachedSellOrders == null) {
+					cachedSellOrders = orders
+							.filter(order -> order.type_id == typeID && !order.is_buy_order && order.min_volume == 1)
 							.sorted((o1, o2) -> Double.compare(o1.price, o2.price));
 				}
 			});
 		}
-		return sellOrders;
+		return cachedSellOrders;
 	}
 
-	private HashMap<Long, ObsDoubleHolder> qttyBuyPrice = new HashMap<>();
-
-	private HashMap<Long, ObsDoubleHolder> qttySellPrice = new HashMap<>();
+	private HashMap<Long, ObsDoubleHolder> cachedBuyPrice = new HashMap<>();
 
 	public ObsDoubleHolder getBuyPrice(long qtty) {
-		return getPrice(true, qtty);
-	}
-
-	public ObsDoubleHolder getSellPrice(long qtty) {
-		return getPrice(false, qtty);
-	}
-
-	public ObsDoubleHolder getPrice(boolean buy, long qtty) {
-		HashMap<Long, ObsDoubleHolder> map = buy ? qttyBuyPrice : qttySellPrice;
-		ObsDoubleHolder ret = map.get(qtty);
+		ObsDoubleHolder ret = cachedBuyPrice.get(qtty);
 		if (ret == null) {
-			synchronized (map) {
-				ret = map.get(qtty);
+			ObsListHolder<R_get_markets_region_id_orders> source = listBuyOrders();
+			synchronized (cachedBuyPrice) {
+				ret = cachedBuyPrice.get(qtty);
 				if (ret == null) {
-					ObsListHolder<R_get_markets_region_id_orders> source = buy ? listBuyOrders() : listSellOrders();
 					ret = source.reduceDouble(l -> {
 						double total = 0.0;
 						long remain = qtty;
@@ -87,24 +79,59 @@ public class LocalTypeOrders {
 								remain -= o.volume_remain;
 							}
 						}
-						return buy ? total : Double.POSITIVE_INFINITY;
+						return total;
 					});
-					map.put(qtty, ret);
+					cachedBuyPrice.put(qtty, ret);
 				}
 			}
 		}
 		return ret;
 	}
 
+	private HashMap<Long, ObsDoubleHolder> cachedSellPrice = new HashMap<>();
+
+	public ObsDoubleHolder getSellPrice(long qtty) {
+		ObsDoubleHolder ret = cachedSellPrice.get(qtty);
+		if (ret == null) {
+			ObsListHolder<R_get_markets_region_id_orders> source = listSellOrders();
+			synchronized (cachedSellPrice) {
+				ret = cachedSellPrice.get(qtty);
+				if (ret == null) {
+					ret = source.reduceDouble(l -> {
+						double total = 0.0;
+						long remain = qtty;
+						for (R_get_markets_region_id_orders o : l) {
+							if (o.volume_remain >= remain) {
+								total += remain * o.price;
+								return total;
+							} else {
+								total += o.price * o.volume_remain;
+								remain -= o.volume_remain;
+							}
+						}
+						return Double.POSITIVE_INFINITY;
+					});
+					cachedSellPrice.put(qtty, ret);
+				}
+			}
+		}
+		return ret;
+	}
+
+	public ObsDoubleHolder getPrice(boolean buy, long qtty) {
+		return buy ? getBuyPrice(qtty) : getSellPrice(qtty);
+	}
+
 	/**
 	 * @return the quantity of items on sale lower than given SO value
-	 * @param maxvalue maximum price of the sell orders.
+	 * @param maxvalue
+	 *          maximum price of the sell orders.
 	 */
 	public long getSOLower(double maxvalue) {
 		long qtty = 0;
 		for (R_get_markets_region_id_orders order : listSellOrders().get()) {
 			if (order.price <= maxvalue) {
-				qtty+=order.volume_remain;
+				qtty += order.volume_remain;
 			} else {
 				return qtty;
 			}
