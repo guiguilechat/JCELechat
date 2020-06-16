@@ -1,0 +1,25 @@
+types:
+  Compact Vorton Tuning System  Blueprint:
+    id: 54874
+    name: Compact Vorton Tuning System  Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  Vorton Tuning System I Blueprint:
+    id: 54873
+    name: Vorton Tuning System I Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  Vorton Tuning System II Blueprint:
+    id: 54876
+    name: Vorton Tuning System II Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582

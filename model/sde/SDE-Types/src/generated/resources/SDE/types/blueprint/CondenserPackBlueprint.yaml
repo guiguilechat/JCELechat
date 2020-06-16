@@ -1,0 +1,113 @@
+types:
+  BlastShot Condenser Pack L Blueprint:
+    id: 54871
+    name: BlastShot Condenser Pack L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  BlastShot Condenser Pack M Blueprint:
+    id: 54867
+    name: BlastShot Condenser Pack M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  BlastShot Condenser Pack S Blueprint:
+    id: 54863
+    name: BlastShot Condenser Pack S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  GalvaSurge Condenser Pack L Blueprint:
+    id: 54869
+    name: GalvaSurge Condenser Pack L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  GalvaSurge Condenser Pack M Blueprint:
+    id: 54865
+    name: GalvaSurge Condenser Pack M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  GalvaSurge Condenser Pack S Blueprint:
+    id: 54861
+    name: GalvaSurge Condenser Pack S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  MesmerFlux Condenser Pack L Blueprint:
+    id: 54870
+    name: MesmerFlux Condenser Pack L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  MesmerFlux Condenser Pack M Blueprint:
+    id: 54866
+    name: MesmerFlux Condenser Pack M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  MesmerFlux Condenser Pack S Blueprint:
+    id: 54862
+    name: MesmerFlux Condenser Pack S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  SlamBolt Condenser Pack L Blueprint:
+    id: 54872
+    name: SlamBolt Condenser Pack L Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  SlamBolt Condenser Pack M Blueprint:
+    id: 54868
+    name: SlamBolt Condenser Pack M Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  SlamBolt Condenser Pack S Blueprint:
+    id: 54864
+    name: SlamBolt Condenser Pack S Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  '[no messageID: 564090]':
+    id: 54875
+    name: '[no messageID: 564090]'
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582
+  unused blueprint type:
+    id: 54883
+    name: unused blueprint type
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 40000.0
+    published: true
+    volume: 0.009999999776482582

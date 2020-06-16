@@ -1,0 +1,145 @@
+types:
+  ElectroPunch Ultra L:
+    aoevelocitybonus: 0.75
+    capneedbonus: 25
+    chargesize: 3
+    emdamage: 595.0
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 0.5
+    id: 54783
+    kineticdamage: 591.0
+    launchergroup: 74
+    maincolor: 11835778
+    marketGroup: 2739
+    metalevel: 5
+    name: ElectroPunch Ultra L
+    packagedVolume: 0.02500000037252903
+    portionSize: 200
+    price: 100000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 54829
+    requiredskill1level: 1
+    techlevel: 2
+    volume: 0.02500000037252903
+    weaponrangemultiplier: 0.5
+  ElectroPunch Ultra M:
+    aoevelocitybonus: 0.75
+    capneedbonus: 25
+    chargesize: 2
+    emdamage: 258.0
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 1.0
+    id: 54786
+    kineticdamage: 243.0
+    launchergroup: 74
+    maincolor: 11835778
+    marketGroup: 2738
+    metalevel: 5
+    name: ElectroPunch Ultra M
+    packagedVolume: 0.012500000186264515
+    portionSize: 200
+    price: 100000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 54828
+    requiredskill1level: 1
+    techlevel: 2
+    volume: 0.012500000186264515
+    weaponrangemultiplier: 0.5
+  ElectroPunch Ultra S:
+    aoevelocitybonus: 0.75
+    capneedbonus: 25
+    chargesize: 1
+    emdamage: 56.0
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 1.0
+    id: 54784
+    kineticdamage: 56.0
+    launchergroup: 74
+    maincolor: 11835778
+    marketGroup: 2737
+    metalevel: 5
+    name: ElectroPunch Ultra S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 200
+    price: 100000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 54827
+    requiredskill1level: 1
+    techlevel: 2
+    volume: 0.0024999999441206455
+    weaponrangemultiplier: 0.5
+  StrikeSnipe Ultra L:
+    aoevelocitybonus: 0.75
+    capneedbonus: 25
+    chargesize: 3
+    emdamage: 325.0
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 1.0
+    id: 54782
+    kineticdamage: 321.0
+    launchergroup: 74
+    maincolor: 11835778
+    marketGroup: 2739
+    metalevel: 5
+    name: StrikeSnipe Ultra L
+    packagedVolume: 0.02500000037252903
+    portionSize: 200
+    price: 100000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 54829
+    requiredskill1level: 1
+    techlevel: 2
+    volume: 0.02500000037252903
+    weaponrangemultiplier: 1.7999999523162842
+  StrikeSnipe Ultra M:
+    aoevelocitybonus: 0.75
+    capneedbonus: 25
+    chargesize: 2
+    emdamage: 140.0
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 1.0
+    id: 54785
+    kineticdamage: 136.0
+    launchergroup: 74
+    maincolor: 11835778
+    marketGroup: 2738
+    metalevel: 5
+    name: StrikeSnipe Ultra M
+    packagedVolume: 0.012500000186264515
+    portionSize: 200
+    price: 100000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 54828
+    requiredskill1level: 1
+    techlevel: 2
+    volume: 0.012500000186264515
+    weaponrangemultiplier: 1.7999999523162842
+  StrikeSnipe Ultra S:
+    aoevelocitybonus: 0.75
+    capneedbonus: 25
+    chargesize: 1
+    emdamage: 34.0
+    entityflyrangemultiplier: 0.5
+    fallofmultiplier: 1.0
+    id: 54781
+    kineticdamage: 28.0
+    launchergroup: 74
+    maincolor: 11835778
+    marketGroup: 2737
+    metalevel: 5
+    name: StrikeSnipe Ultra S
+    packagedVolume: 0.0024999999441206455
+    portionSize: 200
+    price: 100000.0
+    published: true
+    radius: 1.0
+    requiredskill1: 54827
+    requiredskill1level: 1
+    techlevel: 2
+    volume: 0.0024999999441206455
+    weaponrangemultiplier: 1.7999999523162842

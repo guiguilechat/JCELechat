@@ -50,6 +50,7 @@ group2class:
   asteroid/UncommonMoonAsteroids: fr.guiguilechat.jcelechat.model.sde.types.asteroid.UncommonMoonAsteroids
   asteroid/Veldspar: fr.guiguilechat.jcelechat.model.sde.types.asteroid.Veldspar
   blueprint/AdvancedCapitalConstructionComponentBlueprints: fr.guiguilechat.jcelechat.model.sde.types.blueprint.AdvancedCapitalConstructionComponentBlueprints
+  blueprint/AdvancedCondenserPackBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.AdvancedCondenserPackBlueprint
   blueprint/AdvancedExoticPlasmaChargeBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.AdvancedExoticPlasmaChargeBlueprint
   blueprint/AdvancedFrequencyCrystalBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.AdvancedFrequencyCrystalBlueprint
   blueprint/AdvancedHybridChargeBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.AdvancedHybridChargeBlueprint
@@ -85,6 +86,7 @@ group2class:
   blueprint/CommandBurstChargeBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CommandBurstChargeBlueprint
   blueprint/CommandDestroyerBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CommandDestroyerBlueprint
   blueprint/CompositeReactionFormulas: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CompositeReactionFormulas
+  blueprint/CondenserPackBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CondenserPackBlueprint
   blueprint/ConstructionComponentBlueprints: fr.guiguilechat.jcelechat.model.sde.types.blueprint.ConstructionComponentBlueprints
   blueprint/ContainerBlueprints: fr.guiguilechat.jcelechat.model.sde.types.blueprint.ContainerBlueprints
   blueprint/CruiserBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.CruiserBlueprint
@@ -223,6 +225,8 @@ group2class:
   blueprint/TrackingComputerBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.TrackingComputerBlueprint
   blueprint/TrackingEnhancerBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.TrackingEnhancerBlueprint
   blueprint/TractorBeamBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.TractorBeamBlueprint
+  blueprint/VortonProjectorBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.VortonProjectorBlueprint
+  blueprint/VortonProjectorUpgradeBlueprints: fr.guiguilechat.jcelechat.model.sde.types.blueprint.VortonProjectorUpgradeBlueprints
   blueprint/WarpScramblerBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.WarpScramblerBlueprint
   blueprint/WeaponDisruptorBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.WeaponDisruptorBlueprint
   bonus/AmarrEducation: fr.guiguilechat.jcelechat.model.sde.types.bonus.AmarrEducation
@@ -247,6 +251,7 @@ group2class:
   charge/AdvancedAutocannonAmmo: fr.guiguilechat.jcelechat.model.sde.types.charge.AdvancedAutocannonAmmo
   charge/AdvancedBeamLaserCrystal: fr.guiguilechat.jcelechat.model.sde.types.charge.AdvancedBeamLaserCrystal
   charge/AdvancedBlasterCharge: fr.guiguilechat.jcelechat.model.sde.types.charge.AdvancedBlasterCharge
+  charge/AdvancedCondenserPack: fr.guiguilechat.jcelechat.model.sde.types.charge.AdvancedCondenserPack
   charge/AdvancedCruiseMissile: fr.guiguilechat.jcelechat.model.sde.types.charge.AdvancedCruiseMissile
   charge/AdvancedExoticPlasmaCharge: fr.guiguilechat.jcelechat.model.sde.types.charge.AdvancedExoticPlasmaCharge
   charge/AdvancedHeavyAssaultMissile: fr.guiguilechat.jcelechat.model.sde.types.charge.AdvancedHeavyAssaultMissile
@@ -266,6 +271,7 @@ group2class:
   charge/BombECM: fr.guiguilechat.jcelechat.model.sde.types.charge.BombECM
   charge/BombEnergy: fr.guiguilechat.jcelechat.model.sde.types.charge.BombEnergy
   charge/CapacitorBoosterCharge: fr.guiguilechat.jcelechat.model.sde.types.charge.CapacitorBoosterCharge
+  charge/CondenserPack: fr.guiguilechat.jcelechat.model.sde.types.charge.CondenserPack
   charge/CruiseMissile: fr.guiguilechat.jcelechat.model.sde.types.charge.CruiseMissile
   charge/DefenderMissiles: fr.guiguilechat.jcelechat.model.sde.types.charge.DefenderMissiles
   charge/ExoticPlasmaCharge: fr.guiguilechat.jcelechat.model.sde.types.charge.ExoticPlasmaCharge
@@ -855,6 +861,8 @@ group2class:
   module/TrackingComputer: fr.guiguilechat.jcelechat.model.sde.types.module.TrackingComputer
   module/TrackingEnhancer: fr.guiguilechat.jcelechat.model.sde.types.module.TrackingEnhancer
   module/TractorBeam: fr.guiguilechat.jcelechat.model.sde.types.module.TractorBeam
+  module/VortonProjector: fr.guiguilechat.jcelechat.model.sde.types.module.VortonProjector
+  module/VortonProjectorUpgrade: fr.guiguilechat.jcelechat.model.sde.types.module.VortonProjectorUpgrade
   module/WarpAccelerator: fr.guiguilechat.jcelechat.model.sde.types.module.WarpAccelerator
   module/WarpCoreStabilizer: fr.guiguilechat.jcelechat.model.sde.types.module.WarpCoreStabilizer
   module/WarpDisruptFieldGenerator: fr.guiguilechat.jcelechat.model.sde.types.module.WarpDisruptFieldGenerator
@@ -42828,6 +42836,12 @@ name2group:
   Blackbird Wiyrkomi SKIN: skins/PermanentSKIN
   Blackbird Zento Isideko Combine SKIN: skins/PermanentSKIN
   Blaque Voucher: commodity/Miscellaneous
+  BlastShot Condenser Pack L: charge/CondenserPack
+  BlastShot Condenser Pack L Blueprint: blueprint/CondenserPackBlueprint
+  BlastShot Condenser Pack M: charge/CondenserPack
+  BlastShot Condenser Pack M Blueprint: blueprint/CondenserPackBlueprint
+  BlastShot Condenser Pack S: charge/CondenserPack
+  BlastShot Condenser Pack S Blueprint: blueprint/CondenserPackBlueprint
   Blasted Neon Sign: entity/SpawnContainer
   Blasted Neon Sign_mission: entity/DeadspaceOverseerSStructure
   Blaster: infantry/InfantryWeapons
@@ -45416,6 +45430,8 @@ name2group:
   Compact Nanohive: infantry/InfantryEquipment
   Compact Thermal Shield Amplifier: module/ShieldResistanceAmplifier
   Compact Thermal Shield Hardener: module/ShieldHardener
+  Compact Vorton Tuning System  Blueprint: blueprint/VortonProjectorUpgradeBlueprints
+  Compact Vorton Tuning System I: module/VortonProjectorUpgrade
   Complex 120mm Armor Plates: infantry/InfantryModules
   Complex 60mm Armor Plates: infantry/InfantryModules
   Complex Afterburner: infantry/InfantryModules
@@ -48237,6 +48253,12 @@ name2group:
   Elder Corpum Sage: entity/DeadspaceBloodRaidersCruiser
   Elder Corpum Shadow Sage: entity/DeadspaceBloodRaidersCruiser
   Electric Conduit: commodity/MaterialsAndCompounds
+  ElectroPunch Ultra L: charge/AdvancedCondenserPack
+  ElectroPunch Ultra L Blueprint: blueprint/AdvancedCondenserPackBlueprint
+  ElectroPunch Ultra M: charge/AdvancedCondenserPack
+  ElectroPunch Ultra M Blueprint: blueprint/AdvancedCondenserPackBlueprint
+  ElectroPunch Ultra S: charge/AdvancedCondenserPack
+  ElectroPunch Ultra S Blueprint: blueprint/AdvancedCondenserPackBlueprint
   Electrolytes: planetarycommodities/BasicCommoditiesTier1
   Electrolytic Capacitor Unit: commodity/ConstructionComponents
   Electrolytic Capacitor Unit Blueprint: blueprint/ConstructionComponentBlueprints
@@ -49810,6 +49832,12 @@ name2group:
   Gallium Ample Hexa 2500mm Repeating Cannon Blueprint: blueprint/ProjectileWeaponBlueprint
   Gallium Ample Quad 3500mm Siege Artillery: module/ProjectileWeapon
   Gallium Ample Quad 3500mm Siege Artillery Blueprint: blueprint/ProjectileWeaponBlueprint
+  GalvaSurge Condenser Pack L: charge/CondenserPack
+  GalvaSurge Condenser Pack L Blueprint: blueprint/CondenserPackBlueprint
+  GalvaSurge Condenser Pack M: charge/CondenserPack
+  GalvaSurge Condenser Pack M Blueprint: blueprint/CondenserPackBlueprint
+  GalvaSurge Condenser Pack S: charge/CondenserPack
+  GalvaSurge Condenser Pack S Blueprint: blueprint/CondenserPackBlueprint
   Gamat Hakoot: entity/DeadspaceOverseerFrigate
   Gamboge Cytoserocin: celestial/HarvestableCloud
   Gamealfur Ale: specialeditionassets/SpecialEditionCommodities
@@ -53313,6 +53341,10 @@ name2group:
   Large Command Processor I: module/RigCore
   Large Command Processor I Blueprint: blueprint/RigBlueprint
   Large Compact Pb-Acid Cap Battery: module/CapacitorBattery
+  Large Compact Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
+  Large Compact Vorton projector: module/VortonProjector
+  Large Consortium Vorton Projector: module/VortonProjector
+  Large Consortium Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
   Large Container of Explosives: entity/LargeCollidableStructure
   Large Core Defense Capacitor Safeguard I: module/RigShield
   Large Core Defense Capacitor Safeguard I Blueprint: blueprint/RigBlueprint
@@ -53593,6 +53625,7 @@ name2group:
   Large Nanobot Accelerator I Blueprint: blueprint/RigBlueprint
   Large Nanobot Accelerator II: module/RigArmor
   Large Nanobot Accelerator II Blueprint: blueprint/RigBlueprint
+  Large Officer Volton Projector Blueprint: blueprint/VortonProjectorBlueprint
   Large Particle Dispersion Augmentor I: module/RigElectronicSystems
   Large Particle Dispersion Augmentor I Blueprint: blueprint/RigBlueprint
   Large Particle Dispersion Augmentor II: module/RigElectronicSystems
@@ -53685,6 +53718,8 @@ name2group:
   Large Salvage Tackle I Blueprint: blueprint/RigBlueprint
   Large Salvage Tackle II: module/RigResourceProcessing
   Large Salvage Tackle II Blueprint: blueprint/RigBlueprint
+  Large Scoped Vorton Projector: module/VortonProjector
+  Large Scoped Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
   Large Sealed Cargo Containers: commodity/Miscellaneous
   Large Secure Container: celestial/SecureCargoContainer
   Large Secure Container Blueprint: blueprint/ContainerBlueprints
@@ -53753,6 +53788,10 @@ name2group:
   Large Trimark Armor Pump II Blueprint: blueprint/RigBlueprint
   Large Turret Operation: infantry/InfantrySkills
   Large Vorton Projector: skill/Gunnery
+  Large Vorton Projector I: module/VortonProjector
+  Large Vorton Projector I Blueprint: blueprint/VortonProjectorBlueprint
+  Large Vorton Projector II: module/VortonProjector
+  Large Vorton Projector II Blueprint: blueprint/VortonProjectorBlueprint
   Large Vorton Specialization: skill/Gunnery
   Large Warhead Calefaction Catalyst I: module/RigLauncher
   Large Warhead Calefaction Catalyst I Blueprint: blueprint/RigBlueprint
@@ -54904,6 +54943,10 @@ name2group:
   Medium Command Processor I: module/RigCore
   Medium Command Processor I Blueprint: blueprint/RigBlueprint
   Medium Compact Pb-Acid Cap Battery: module/CapacitorBattery
+  Medium Compact Vorton Projector: module/VortonProjector
+  Medium Compact Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
+  Medium Consortium Vorton Projector: module/VortonProjector
+  Medium Consortium Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
   Medium Core Defense Capacitor Safeguard I: module/RigShield
   Medium Core Defense Capacitor Safeguard I Blueprint: blueprint/RigBlueprint
   Medium Core Defense Capacitor Safeguard II: module/RigShield
@@ -55215,6 +55258,8 @@ name2group:
   Medium Salvage Tackle I Blueprint: blueprint/RigBlueprint
   Medium Salvage Tackle II: module/RigResourceProcessing
   Medium Salvage Tackle II Blueprint: blueprint/RigBlueprint
+  Medium Scoped Vorton Projector: module/VortonProjector
+  Medium Scoped Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
   Medium Secure Container: celestial/SecureCargoContainer
   Medium Secure Container Blueprint: blueprint/ContainerBlueprints
   Medium Semiconductor Memory Cell I: module/RigCore
@@ -55285,6 +55330,10 @@ name2group:
   Medium Trimark Armor Pump II Blueprint: blueprint/RigBlueprint
   Medium Vorton Projector: skill/Gunnery
   Medium Vorton Projector (old): abstrct/TypeGraveyard
+  Medium Vorton Projector I: module/VortonProjector
+  Medium Vorton Projector I Blueprint: blueprint/VortonProjectorBlueprint
+  Medium Vorton Projector II: module/VortonProjector
+  Medium Vorton Projector II Blueprint: blueprint/VortonProjectorBlueprint
   Medium Vorton Specialization: skill/Gunnery
   Medium Warhead Calefaction Catalyst I: module/RigLauncher
   Medium Warhead Calefaction Catalyst I Blueprint: blueprint/RigBlueprint
@@ -55729,6 +55778,12 @@ name2group:
   Merlin Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Merlin Wiyrkomi Serenity Only SKIN: skins/PermanentSKIN
   Merlin Zento Isideko Combine SKIN: skins/PermanentSKIN
+  MesmerFlux Condenser Pack L: charge/CondenserPack
+  MesmerFlux Condenser Pack L Blueprint: blueprint/CondenserPackBlueprint
+  MesmerFlux Condenser Pack M: charge/CondenserPack
+  MesmerFlux Condenser Pack M Blueprint: blueprint/CondenserPackBlueprint
+  MesmerFlux Condenser Pack S: charge/CondenserPack
+  MesmerFlux Condenser Pack S Blueprint: blueprint/CondenserPackBlueprint
   Meson Exotic Plasma L: charge/ExoticPlasmaCharge
   Meson Exotic Plasma L Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Meson Exotic Plasma M: charge/ExoticPlasmaCharge
@@ -61557,6 +61612,12 @@ name2group:
   Skirmish Command Specialist: skill/FleetSupport
   Skybreaker: ship/Frigate
   Skybreaker Blueprint: blueprint/FrigateBlueprint
+  SlamBolt Condenser Pack L: charge/CondenserPack
+  SlamBolt Condenser Pack L Blueprint: blueprint/CondenserPackBlueprint
+  SlamBolt Condenser Pack M: charge/CondenserPack
+  SlamBolt Condenser Pack M Blueprint: blueprint/CondenserPackBlueprint
+  SlamBolt Condenser Pack S: charge/CondenserPack
+  SlamBolt Condenser Pack S Blueprint: blueprint/CondenserPackBlueprint
   Slasher: ship/Frigate
   Slasher Aurora Universalis SKIN: skins/PermanentSKIN
   Slasher Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -61759,6 +61820,10 @@ name2group:
   Small Command Processor I: module/RigCore
   Small Command Processor I Blueprint: blueprint/RigBlueprint
   Small Compact Pb-Acid Cap Battery: module/CapacitorBattery
+  Small Compact Vorton Projector: module/VortonProjector
+  Small Compact Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
+  Small Consortium Vorton Projector: module/VortonProjector
+  Small Consortium Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
   Small Core Defense Capacitor Safeguard I: module/RigShield
   Small Core Defense Capacitor Safeguard I Blueprint: blueprint/RigBlueprint
   Small Core Defense Capacitor Safeguard II: module/RigShield
@@ -62094,6 +62159,8 @@ name2group:
   Small Salvage Tackle I Blueprint: blueprint/RigBlueprint
   Small Salvage Tackle II: module/RigResourceProcessing
   Small Salvage Tackle II Blueprint: blueprint/RigBlueprint
+  Small Scoped Vorton Projector: module/VortonProjector
+  Small Scoped Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
   Small Sealed Cargo Containers: commodity/Miscellaneous
   Small Secure Container: celestial/SecureCargoContainer
   Small Secure Container Blueprint: blueprint/ContainerBlueprints
@@ -62166,6 +62233,10 @@ name2group:
   Small Turret Operation: infantry/InfantrySkills
   Small Vorton Projector: skill/Gunnery
   Small Vorton Projector (old): abstrct/TypeGraveyard
+  Small Vorton Projector I: module/VortonProjector
+  Small Vorton Projector I Blueprint: blueprint/VortonProjectorBlueprint
+  Small Vorton Projector II: module/VortonProjector
+  Small Vorton Projector II Blueprint: blueprint/VortonProjectorBlueprint
   Small Vorton Specialization: skill/Gunnery
   Small Warded Container: commodity/Miscellaneous
   Small Warhead Calefaction Catalyst I: module/RigLauncher
@@ -63356,6 +63427,12 @@ name2group:
   Stratios Yoiul Star SKIN: skins/PermanentSKIN
   Stratum Form Feel Bonus: bonus/PhysicalBenefit
   Strike Force Gear: commodity/Commodities
+  StrikeSnipe Ultra L: charge/AdvancedCondenserPack
+  StrikeSnipe Ultra L Blueprint: blueprint/AdvancedCondenserPackBlueprint
+  StrikeSnipe Ultra M: charge/AdvancedCondenserPack
+  StrikeSnipe Ultra M Blueprint: blueprint/AdvancedCondenserPackBlueprint
+  StrikeSnipe Ultra S: charge/AdvancedCondenserPack
+  StrikeSnipe Ultra S Blueprint: blueprint/AdvancedCondenserPackBlueprint
   Strikegrip Tessera: entity/AbyssalDroneEntities
   Strikelance Tessella: entity/AbyssalDroneEntities
   Strikeneedle Tessella: entity/AbyssalDroneEntities
@@ -65747,6 +65824,10 @@ name2group:
   Vorton Projector Booster Gift Box: specialeditionassets/SpecialEditionCommodities
   Vorton Projector Operation: skill/Gunnery
   Vorton Projector Operation (old): abstrct/TypeGraveyard
+  Vorton Tuning System I: module/VortonProjectorUpgrade
+  Vorton Tuning System I Blueprint: blueprint/VortonProjectorUpgradeBlueprints
+  Vorton Tuning System II: module/VortonProjectorUpgrade
+  Vorton Tuning System II Blueprint: blueprint/VortonProjectorUpgradeBlueprints
   Vulture: ship/CommandShip
   Vulture Biosecurity Responders SKIN: skins/PermanentSKIN
   Vulture Blue Tiger SKIN: skins/PermanentSKIN
@@ -66811,6 +66892,7 @@ name2group:
   '[no messageID: 536334]': entity/SpawnContainer
   '[no messageID: 536407]': entity/SpawnContainer
   '[no messageID: 536408]': entity/SpawnContainer
+  '[no messageID: 564090]': blueprint/CondenserPackBlueprint
   asurface1_f_01:amarrbase:amarr: system/System
   asurface_c_01:amarrbase:amarr: system/System
   chantal testing thingy: entity/DeadspaceOverseerFrigate
@@ -66822,6 +66904,7 @@ name2group:
   resource harvesting and combat prototype: worldspace/WorldSpace
   swarren: worldspace/WorldSpace
   testing group: entity/MissionGenericBattleCruisers
+  unused blueprint type: blueprint/AdvancedCondenserPackBlueprint
   weapon_container: entity/SpawnContainer
   wrecktest: worldspace/WorldSpace
   ‘Tairei’s Crimson’ AM-L SKIN: infantry/InfantryColorSkin

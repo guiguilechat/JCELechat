@@ -9,6 +9,8 @@ import java.util.LinkedHashMap;
 
 import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.jcelechat.model.sde.EveType;
+import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
 
@@ -51,9 +53,7 @@ public class LPOffer {
 
 	// structure
 
-	public static class ItemRef {
-		public String itemname;
-		public int itemid;
+	public static class ItemRef extends TypeRef<EveType> {
 		public int quantity;
 	}
 

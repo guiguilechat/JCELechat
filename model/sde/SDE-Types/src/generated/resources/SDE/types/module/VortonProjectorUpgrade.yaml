@@ -1,0 +1,54 @@
+types:
+  Compact Vorton Tuning System I:
+    cpu: 25.0
+    damagemultiplier: 1.0800000429153442
+    hp: 40.0
+    id: 54974
+    marketGroup: 2740
+    metalevel: 1
+    name: Compact Vorton Tuning System I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.9049999713897705
+    techlevel: 1
+    volume: 5.0
+  Vorton Tuning System I:
+    cpu: 27.0
+    damagemultiplier: 1.0700000524520874
+    hp: 40.0
+    id: 54973
+    marketGroup: 2740
+    name: Vorton Tuning System I
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 1
+    speedmultiplier: 0.9200000166893005
+    techlevel: 1
+    volume: 5.0
+  Vorton Tuning System II:
+    cpu: 30.0
+    damagemultiplier: 1.100000023841858
+    hp: 40.0
+    id: 54975
+    marketGroup: 2740
+    metalevel: 5
+    name: Vorton Tuning System II
+    packagedVolume: 5.0
+    portionSize: 1
+    power: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3318
+    requiredskill1level: 4
+    speedmultiplier: 0.8949999809265137
+    techlevel: 2
+    volume: 5.0

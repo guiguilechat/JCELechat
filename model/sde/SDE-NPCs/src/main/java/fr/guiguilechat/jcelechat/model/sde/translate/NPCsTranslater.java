@@ -82,7 +82,7 @@ public class NPCsTranslater {
 		Corporation.export(corporations, folderOut);
 		LPOffer.export(lpoffers, folderOut);
 
-		System.err.println("exported npcs in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
+		logger.info("exported npcs in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 	}
 
 	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,
@@ -93,8 +93,8 @@ public class NPCsTranslater {
 		LinkedHashMap<String, Station> stations = Station.load();
 		HashMap<Integer, EcrpNPCCorporations> snpcCorps = EcrpNPCCorporations.loadById();
 		Map<Integer, R_get_corporations_corporation_id> npcCorps = Stream
-				.of(esi.connection.get_corporations_npccorps(null).getOK())
-				.parallel().collect(Collectors.toMap(l -> l, l -> esi.connection.get_corporations(l, null).getOK()));
+				.of(esi.connection.get_corporations_npccorps(null).getOK()).parallel()
+				.collect(Collectors.toMap(l -> l, l -> esi.connection.get_corporations(l, null).getOK()));
 		Integer[] allyIds = npcCorps.keySet().stream().map(corp -> snpcCorps.get(corp)).filter(corp -> corp != null)
 				.map(c -> c.factionID).filter(i -> i > 0).distinct().toArray(Integer[]::new);
 		if (allyIds.length == 0) {
@@ -103,7 +103,7 @@ public class NPCsTranslater {
 						+ e.getValue().faction_id);
 			}
 		} else {
-			System.err.println("npc alliances are " + Arrays.asList(allyIds));
+			logger.debug("npc alliances are " + Arrays.asList(allyIds));
 		}
 		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.connection.get_universe_factions(null).getOK())
 				.collect(Collectors.toMap(f -> f.faction_id, f -> f));
@@ -124,7 +124,7 @@ public class NPCsTranslater {
 			if (station != null) {
 				agent.station = station;
 				if (station != null) {
-					agent.stationId=eagt.locationID;
+					agent.stationId = eagt.locationID;
 				}
 				agent.system = stations.get(station).solarSystem;
 			}
@@ -135,14 +135,14 @@ public class NPCsTranslater {
 			add.id = e.getKey();
 			EcrpNPCCorporations snpc = snpcCorps.get(add.id);
 			if (snpc == null) {
-				logger.warn("can't find corporation from id " + add.id);
+				logger.debug("can't find corporation from id " + add.id);
 				continue;
 			}
 			add.name = e.getValue().name;
 			R_get_universe_factions faction = factionById.get(snpc.factionID);
 
 			if (faction == null) {
-				logger.warn("can't find faction from id " + snpc.factionID + " for corporation " + add.name);
+				logger.debug("can't find faction from id " + snpc.factionID + " for corporation " + add.name);
 				continue;
 			}
 			add.faction = faction.name;
@@ -152,15 +152,13 @@ public class NPCsTranslater {
 			add.concordRate = convertConcordRate(add.name, add.faction, add.warfare);
 			corporations.put(e.getValue().name, add);
 		}
-		corporations.values().stream().parallel().flatMap(c -> {
+		Map<Integer, LPOffer> covertedOffers = corporations.values().stream().parallel().flatMap(c -> {
 			Requested<R_get_loyalty_stores_corporation_id_offers[]> req = esi.connection.get_loyalty_stores_offers(c.id,
 					null);
 			return req.isOk() ? Stream.of(req.getOK()) : Stream.empty();
-		}).forEachOrdered(o -> {
-			if (!offers.containsKey(o.offer_id)) {
-				offers.put(o.offer_id, makeOffer(o));
-			}
-		});
+		}).map(offer -> makeOffer(offer)).filter(o -> o != null)
+				.collect(Collectors.toMap(off -> off.id, off -> off, (o1, o2) -> o1));
+		offers.putAll(covertedOffers);
 		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, esi.connection, offers));
 	}
 
@@ -198,8 +196,7 @@ public class NPCsTranslater {
 		for (get_corporations_corporation_id_starbases_starbase_id_fuels ir : o.required_items) {
 			ItemRef translated = new ItemRef();
 			translated.quantity = ir.quantity;
-			translated.itemname = EtypeIDs.getName(ir.type_id);
-			translated.itemid = ir.type_id;
+			translated.id = ir.type_id;
 			lpo.requirements.items.add(translated);
 		}
 
@@ -209,21 +206,27 @@ public class NPCsTranslater {
 			for (Material m : bp.activities.manufacturing.materials) {
 				ItemRef translated = new ItemRef();
 				translated.quantity = m.quantity * o.quantity;
-				translated.itemname = EtypeIDs.getName(m.typeID);
-				;
-				translated.itemid = m.typeID;
+				translated.id = m.typeID;
 				lpo.requirements.items.add(translated);
 			}
 			Material prod = bp.activities.manufacturing.products.get(0);
-			lpo.product.itemname = EtypeIDs.getName(prod.typeID);
-			lpo.product.itemid = prod.typeID;
+			lpo.product.id = prod.typeID;
 			lpo.product.quantity = prod.quantity * o.quantity;
-			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.itemname + "(BPC)";
+			if (lpo.product.type() == null) {
+				logger.debug("discard offer " + o.offer_id + " as product type " + prod.typeID + " can't be loaded");
+				return null;
+			} else {
+				lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.name() + "(BPC)";
+			}
 		} else {// the lp offers a non-bpc
 			lpo.product.quantity = o.quantity;
-			lpo.product.itemname = EtypeIDs.getName(o.type_id);
-			lpo.product.itemid = o.type_id;
-			lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.itemname;
+			lpo.product.id = o.type_id;
+			if (lpo.product.type() == null) {
+				logger.debug("discard offer " + o.offer_id + " as product type " + o.type_id + " can't be loaded");
+				return null;
+			} else {
+				lpo.name = (o.quantity == 1 ? "" : "" + o.quantity + "* ") + lpo.product.name();
+			}
 		}
 		return lpo;
 	}
@@ -232,7 +235,9 @@ public class NPCsTranslater {
 		Requested<R_get_loyalty_stores_corporation_id_offers[]> offers = raw.get_loyalty_stores_offers(c.id, null);
 		if (offers != null && offers.isOk()) {
 			for (R_get_loyalty_stores_corporation_id_offers o : offers.getOK()) {
-				c.lpoffers.add(o.offer_id);
+				if (alloffers.containsKey(o.offer_id)) {
+					c.lpoffers.add(o.offer_id);
+				}
 			}
 		}
 		Collections.sort(c.lpoffers);

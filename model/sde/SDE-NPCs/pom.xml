@@ -38,6 +38,11 @@
 			<artifactId>JCESI</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>SDE-Types</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
