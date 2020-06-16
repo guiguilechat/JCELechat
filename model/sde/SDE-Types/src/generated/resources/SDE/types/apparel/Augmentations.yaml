@@ -17,6 +17,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's 'Barbatus Medicus' Facial Augmentation:
+    gender: 2
+    id: 55636
+    marketGroup: 1836
+    name: Men's 'Barbatus Medicus' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Bitwave Glacier' Augmentation:
     gender: 2
     id: 49987
@@ -79,6 +88,15 @@ types:
     id: 49678
     marketGroup: 1836
     name: Men's 'Eico Azurbrak' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Eico BioSec' Facial Augmentation:
+    gender: 2
+    id: 54926
+    marketGroup: 1836
+    name: Men's 'Eico BioSec' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -294,6 +312,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's 'Eico BioSec' Facial Augmentation:
+    gender: 2
+    id: 54927
+    marketGroup: 1836
+    name: Women's 'Eico BioSec' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Eico Flamjaw' Facial Augmentation:
     gender: 2
     id: 49672
@@ -376,6 +403,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Purity Vector' Facial Augmentation:
+    gender: 2
+    id: 55627
+    marketGroup: 1836
+    name: Women's 'Purity Vector' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'RubySet TorsoRig' Body Augmentation:
     gender: 2

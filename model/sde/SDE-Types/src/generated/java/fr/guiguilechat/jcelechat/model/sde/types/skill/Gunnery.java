@@ -14,6 +14,8 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AoeCloudSizeBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.AoeVelocityBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanNotBeTrainedOnTrial;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapNeedBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
@@ -42,6 +44,20 @@ import org.yaml.snakeyaml.Yaml;
 public class Gunnery
     extends Skill
 {
+    /**
+     * Booster attribute to explosion radius of missiles vs. signature radius.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double aoecloudsizebonus;
+    /**
+     * Increases velocity of missile explosion
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double aoevelocitybonus;
     /**
      * If set to 1 then this skill can not be trained on accounts that are marked as Alpha Clone. Any other value (although you should probably use 0) will result in all accounts being able to train this skill.
      */
@@ -133,12 +149,20 @@ public class Gunnery
     @Stackable(true)
     @DefaultIntValue(0)
     public int turretspeebonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, Mass.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, TurretSpeeBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, Mass.INSTANCE, RofBonus.INSTANCE, RangeSkillBonus.INSTANCE, Capacity.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, SkillTimeConstant.INSTANCE, PrimaryAttribute.INSTANCE, ConsumptionQuantityBonus.INSTANCE, RequiredSkill1Level.INSTANCE, SecondaryAttribute.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, CanNotBeTrainedOnTrial.INSTANCE, RequiredSkill3Level.INSTANCE, RequiredSkill3 .INSTANCE, SkillLevel.INSTANCE, TurretSpeeBonus.INSTANCE, CapNeedBonus.INSTANCE, FalloffBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final Gunnery.MetaGroup METAGROUP = new Gunnery.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  848 :
+            {
+                return aoecloudsizebonus;
+            }
+            case  847 :
+            {
+                return aoevelocitybonus;
+            }
             case  1047 :
             {
                 return cannotbetrainedontrial;

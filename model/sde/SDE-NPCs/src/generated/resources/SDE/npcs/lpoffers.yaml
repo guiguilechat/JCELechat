@@ -322,16 +322,16 @@ offers:
       lp: 6750
   3443:
     id: 3443
-    name: Imperial Navy Armor EM Hardener
+    name: Imperial Navy EM Armor Hardener
     product:
       itemid: 15711
-      itemname: Imperial Navy Armor EM Hardener
+      itemname: Imperial Navy EM Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11301
-        itemname: Armor EM Hardener I
+        itemname: EM Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -345,16 +345,16 @@ offers:
       lp: 11250
   3444:
     id: 3444
-    name: Imperial Navy Armor Explosive Hardener
+    name: Imperial Navy Explosive Armor Hardener
     product:
       itemid: 15709
-      itemname: Imperial Navy Armor Explosive Hardener
+      itemname: Imperial Navy Explosive Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11303
-        itemname: Armor Explosive Hardener I
+        itemname: Explosive Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -368,16 +368,16 @@ offers:
       lp: 11250
   3445:
     id: 3445
-    name: Imperial Navy Armor Kinetic Hardener
+    name: Imperial Navy Kinetic Armor Hardener
     product:
       itemid: 15707
-      itemname: Imperial Navy Armor Kinetic Hardener
+      itemname: Imperial Navy Kinetic Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11305
-        itemname: Armor Kinetic Hardener I
+        itemname: Kinetic Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -391,16 +391,16 @@ offers:
       lp: 11250
   3446:
     id: 3446
-    name: Imperial Navy Armor Thermal Hardener
+    name: Imperial Navy Thermal Armor Hardener
     product:
       itemid: 15705
-      itemname: Imperial Navy Armor Thermal Hardener
+      itemname: Imperial Navy Thermal Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11277
-        itemname: Armor Thermal Hardener I
+        itemname: Thermal Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -1923,16 +1923,16 @@ offers:
       lp: 45000
   3531:
     id: 3531
-    name: Caldari Navy Kinetic Deflection Field
+    name: Caldari Navy Kinetic Shield Hardener
     product:
       itemid: 17495
-      itemname: Caldari Navy Kinetic Deflection Field
+      itemname: Caldari Navy Kinetic Shield Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 2291
-        itemname: Kinetic Deflection Field I
+        itemname: Kinetic Shield Hardener I
         quantity: 1
       - itemid: 15593
         itemname: Federation Navy Fleet Major Insignia I
@@ -2055,16 +2055,16 @@ offers:
       lp: 30000
   3537:
     id: 3537
-    name: Caldari Navy Explosive Deflection Amplifier
+    name: Caldari Navy Explosive Shield Amplifier
     product:
       itemid: 15915
-      itemname: Caldari Navy Explosive Deflection Amplifier
+      itemname: Caldari Navy Explosive Shield Amplifier
       quantity: 1
     requirements:
       isk: 3600000
       items:
       - itemid: 2529
-        itemname: Explosive Deflection Amplifier I
+        itemname: Explosive Shield Amplifier I
         quantity: 1
       - itemid: 15592
         itemname: Federation Navy Fleet Captain Insignia I
@@ -2075,16 +2075,16 @@ offers:
       lp: 9000
   3538:
     id: 3538
-    name: Caldari Navy Explosive Deflection Field
+    name: Caldari Navy Explosive Shield Hardener
     product:
       itemid: 17496
-      itemname: Caldari Navy Explosive Deflection Field
+      itemname: Caldari Navy Explosive Shield Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 2289
-        itemname: Explosive Deflection Field I
+        itemname: Explosive Shield Hardener I
         quantity: 1
       - itemid: 15593
         itemname: Federation Navy Fleet Major Insignia I
@@ -2098,16 +2098,16 @@ offers:
       lp: 11250
   3539:
     id: 3539
-    name: Caldari Navy Thermal Dissipation Amplifier
+    name: Caldari Navy Thermal Shield Amplifier
     product:
       itemid: 15913
-      itemname: Caldari Navy Thermal Dissipation Amplifier
+      itemname: Caldari Navy Thermal Shield Amplifier
       quantity: 1
     requirements:
       isk: 3600000
       items:
       - itemid: 2537
-        itemname: Thermal Dissipation Amplifier I
+        itemname: Thermal Shield Amplifier I
         quantity: 1
       - itemid: 15592
         itemname: Federation Navy Fleet Captain Insignia I
@@ -2118,16 +2118,16 @@ offers:
       lp: 9000
   3540:
     id: 3540
-    name: Caldari Navy Thermal Dissipation Field
+    name: Caldari Navy Thermal Shield Hardener
     product:
       itemid: 17497
-      itemname: Caldari Navy Thermal Dissipation Field
+      itemname: Caldari Navy Thermal Shield Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 2295
-        itemname: Thermal Dissipation Field I
+        itemname: Thermal Shield Hardener I
         quantity: 1
       - itemid: 15593
         itemname: Federation Navy Fleet Major Insignia I
@@ -2161,16 +2161,16 @@ offers:
       lp: 24000
   3542:
     id: 3542
-    name: Caldari Navy Adaptive Invulnerability Field
+    name: Caldari Navy Multispectrum Shield Hardener
     product:
       itemid: 17498
-      itemname: Caldari Navy Adaptive Invulnerability Field
+      itemname: Caldari Navy Multispectrum Shield Hardener
       quantity: 1
     requirements:
       isk: 72000000
       items:
       - itemid: 578
-        itemname: Adaptive Invulnerability Field I
+        itemname: Multispectrum Shield Hardener I
         quantity: 1
       - itemid: 15593
         itemname: Federation Navy Fleet Major Insignia I
@@ -2184,16 +2184,16 @@ offers:
       lp: 180000
   3543:
     id: 3543
-    name: Caldari Navy Kinetic Deflection Amplifier
+    name: Caldari Navy Kinetic Shield Amplifier
     product:
       itemid: 15911
-      itemname: Caldari Navy Kinetic Deflection Amplifier
+      itemname: Caldari Navy Kinetic Shield Amplifier
       quantity: 1
     requirements:
       isk: 3600000
       items:
       - itemid: 2545
-        itemname: Kinetic Deflection Amplifier I
+        itemname: Kinetic Shield Amplifier I
         quantity: 1
       - itemid: 15592
         itemname: Federation Navy Fleet Captain Insignia I
@@ -2250,16 +2250,16 @@ offers:
       lp: 50625
   3546:
     id: 3546
-    name: Caldari Navy EM Ward Amplifier
+    name: Caldari Navy EM Shield Amplifier
     product:
       itemid: 15909
-      itemname: Caldari Navy EM Ward Amplifier
+      itemname: Caldari Navy EM Shield Amplifier
       quantity: 1
     requirements:
       isk: 3600000
       items:
       - itemid: 1808
-        itemname: EM Ward Amplifier I
+        itemname: EM Shield Amplifier I
         quantity: 1
       - itemid: 15592
         itemname: Federation Navy Fleet Captain Insignia I
@@ -2310,16 +2310,16 @@ offers:
       lp: 40500
   3550:
     id: 3550
-    name: Caldari Navy EM Ward Field
+    name: Caldari Navy EM Shield Hardener
     product:
       itemid: 17499
-      itemname: Caldari Navy EM Ward Field
+      itemname: Caldari Navy EM Shield Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 2293
-        itemname: EM Ward Field I
+        itemname: EM Shield Hardener I
         quantity: 1
       - itemid: 15593
         itemname: Federation Navy Fleet Major Insignia I
@@ -3596,16 +3596,16 @@ offers:
       lp: 6000
   3630:
     id: 3630
-    name: Federation Navy Armor EM Hardener
+    name: Federation Navy EM Armor Hardener
     product:
       itemid: 17832
-      itemname: Federation Navy Armor EM Hardener
+      itemname: Federation Navy EM Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11301
-        itemname: Armor EM Hardener I
+        itemname: EM Armor Hardener I
         quantity: 1
       - itemid: 15656
         itemname: Caldari Navy Commodore Insignia II
@@ -3619,16 +3619,16 @@ offers:
       lp: 11250
   3631:
     id: 3631
-    name: Federation Navy Armor Explosive Hardener
+    name: Federation Navy Explosive Armor Hardener
     product:
       itemid: 17834
-      itemname: Federation Navy Armor Explosive Hardener
+      itemname: Federation Navy Explosive Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11303
-        itemname: Armor Explosive Hardener I
+        itemname: Explosive Armor Hardener I
         quantity: 1
       - itemid: 15656
         itemname: Caldari Navy Commodore Insignia II
@@ -3642,16 +3642,16 @@ offers:
       lp: 11250
   3632:
     id: 3632
-    name: Federation Navy Armor Kinetic Hardener
+    name: Federation Navy Kinetic Armor Hardener
     product:
       itemid: 17836
-      itemname: Federation Navy Armor Kinetic Hardener
+      itemname: Federation Navy Kinetic Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11305
-        itemname: Armor Kinetic Hardener I
+        itemname: Kinetic Armor Hardener I
         quantity: 1
       - itemid: 15656
         itemname: Caldari Navy Commodore Insignia II
@@ -3665,16 +3665,16 @@ offers:
       lp: 11250
   3633:
     id: 3633
-    name: Federation Navy Armor Thermal Hardener
+    name: Federation Navy Thermal Armor Hardener
     product:
       itemid: 17838
-      itemname: Federation Navy Armor Thermal Hardener
+      itemname: Federation Navy Thermal Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11277
-        itemname: Armor Thermal Hardener I
+        itemname: Thermal Armor Hardener I
         quantity: 1
       - itemid: 15656
         itemname: Caldari Navy Commodore Insignia II
@@ -5200,16 +5200,16 @@ offers:
       lp: 6000
   3717:
     id: 3717
-    name: Republic Fleet Armor EM Hardener
+    name: Republic Fleet EM Armor Hardener
     product:
       itemid: 15719
-      itemname: Republic Fleet Armor EM Hardener
+      itemname: Republic Fleet EM Armor Hardener
       quantity: 1
     requirements:
       isk: 4000000
       items:
       - itemid: 11301
-        itemname: Armor EM Hardener I
+        itemname: EM Armor Hardener I
         quantity: 1
       - itemid: 15615
         itemname: Imperial Navy General Insignia I
@@ -5220,16 +5220,16 @@ offers:
       lp: 10000
   3718:
     id: 3718
-    name: Republic Fleet Armor Explosive Hardener
+    name: Republic Fleet Explosive Armor Hardener
     product:
       itemid: 15717
-      itemname: Republic Fleet Armor Explosive Hardener
+      itemname: Republic Fleet Explosive Armor Hardener
       quantity: 1
     requirements:
       isk: 4000000
       items:
       - itemid: 11303
-        itemname: Armor Explosive Hardener I
+        itemname: Explosive Armor Hardener I
         quantity: 1
       - itemid: 15615
         itemname: Imperial Navy General Insignia I
@@ -5240,16 +5240,16 @@ offers:
       lp: 10000
   3719:
     id: 3719
-    name: Republic Fleet Armor Kinetic Hardener
+    name: Republic Fleet Kinetic Armor Hardener
     product:
       itemid: 15715
-      itemname: Republic Fleet Armor Kinetic Hardener
+      itemname: Republic Fleet Kinetic Armor Hardener
       quantity: 1
     requirements:
       isk: 4000000
       items:
       - itemid: 11305
-        itemname: Armor Kinetic Hardener I
+        itemname: Kinetic Armor Hardener I
         quantity: 1
       - itemid: 15615
         itemname: Imperial Navy General Insignia I
@@ -5260,16 +5260,16 @@ offers:
       lp: 10000
   3720:
     id: 3720
-    name: Republic Fleet Armor Thermal Hardener
+    name: Republic Fleet Thermal Armor Hardener
     product:
       itemid: 15713
-      itemname: Republic Fleet Armor Thermal Hardener
+      itemname: Republic Fleet Thermal Armor Hardener
       quantity: 1
     requirements:
       isk: 4000000
       items:
       - itemid: 11277
-        itemname: Armor Thermal Hardener I
+        itemname: Thermal Armor Hardener I
         quantity: 1
       - itemid: 15615
         itemname: Imperial Navy General Insignia I
@@ -5412,16 +5412,16 @@ offers:
       lp: 26250
   3727:
     id: 3727
-    name: Republic Fleet Explosive Deflection Amplifier
+    name: Republic Fleet Explosive Shield Amplifier
     product:
       itemid: 15923
-      itemname: Republic Fleet Explosive Deflection Amplifier
+      itemname: Republic Fleet Explosive Shield Amplifier
       quantity: 1
     requirements:
       isk: 3200000
       items:
       - itemid: 2529
-        itemname: Explosive Deflection Amplifier I
+        itemname: Explosive Shield Amplifier I
         quantity: 1
       - itemid: 15613
         itemname: Imperial Navy Major Insignia I
@@ -5455,16 +5455,16 @@ offers:
       lp: 30000
   3729:
     id: 3729
-    name: Republic Fleet Thermal Dissipation Amplifier
+    name: Republic Fleet Thermal Shield Amplifier
     product:
       itemid: 15921
-      itemname: Republic Fleet Thermal Dissipation Amplifier
+      itemname: Republic Fleet Thermal Shield Amplifier
       quantity: 1
     requirements:
       isk: 3200000
       items:
       - itemid: 2537
-        itemname: Thermal Dissipation Amplifier I
+        itemname: Thermal Shield Amplifier I
         quantity: 1
       - itemid: 15613
         itemname: Imperial Navy Major Insignia I
@@ -5495,16 +5495,16 @@ offers:
       lp: 7000
   3731:
     id: 3731
-    name: Republic Fleet Kinetic Deflection Amplifier
+    name: Republic Fleet Kinetic Shield Amplifier
     product:
       itemid: 15919
-      itemname: Republic Fleet Kinetic Deflection Amplifier
+      itemname: Republic Fleet Kinetic Shield Amplifier
       quantity: 1
     requirements:
       isk: 3200000
       items:
       - itemid: 2545
-        itemname: Kinetic Deflection Amplifier I
+        itemname: Kinetic Shield Amplifier I
         quantity: 1
       - itemid: 15613
         itemname: Imperial Navy Major Insignia I
@@ -5607,16 +5607,16 @@ offers:
       lp: 6000
   3736:
     id: 3736
-    name: Republic Fleet EM Ward Amplifier
+    name: Republic Fleet EM Shield Amplifier
     product:
       itemid: 15917
-      itemname: Republic Fleet EM Ward Amplifier
+      itemname: Republic Fleet EM Shield Amplifier
       quantity: 1
     requirements:
       isk: 3200000
       items:
       - itemid: 1808
-        itemname: EM Ward Amplifier I
+        itemname: EM Shield Amplifier I
         quantity: 1
       - itemid: 15613
         itemname: Imperial Navy Major Insignia I
@@ -7199,16 +7199,16 @@ offers:
       lp: 9000
   3828:
     id: 3828
-    name: Ammatar Navy Armor EM Hardener
+    name: Ammatar Navy EM Armor Hardener
     product:
       itemid: 17502
-      itemname: Ammatar Navy Armor EM Hardener
+      itemname: Ammatar Navy EM Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11301
-        itemname: Armor EM Hardener I
+        itemname: EM Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -7222,16 +7222,16 @@ offers:
       lp: 11250
   3829:
     id: 3829
-    name: Ammatar Navy Armor Explosive Hardener
+    name: Ammatar Navy Explosive Armor Hardener
     product:
       itemid: 17504
-      itemname: Ammatar Navy Armor Explosive Hardener
+      itemname: Ammatar Navy Explosive Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11303
-        itemname: Armor Explosive Hardener I
+        itemname: Explosive Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -7245,16 +7245,16 @@ offers:
       lp: 11250
   3830:
     id: 3830
-    name: Ammatar Navy Armor Kinetic Hardener
+    name: Ammatar Navy Kinetic Armor Hardener
     product:
       itemid: 17506
-      itemname: Ammatar Navy Armor Kinetic Hardener
+      itemname: Ammatar Navy Kinetic Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11305
-        itemname: Armor Kinetic Hardener I
+        itemname: Kinetic Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -7268,16 +7268,16 @@ offers:
       lp: 11250
   3831:
     id: 3831
-    name: Ammatar Navy Armor Thermal Hardener
+    name: Ammatar Navy Thermal Armor Hardener
     product:
       itemid: 17508
-      itemname: Ammatar Navy Armor Thermal Hardener
+      itemname: Ammatar Navy Thermal Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11277
-        itemname: Armor Thermal Hardener I
+        itemname: Thermal Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -15838,10 +15838,10 @@ offers:
       lp: 20250
   4428:
     id: 4428
-    name: 5* Imperial Navy Armor EM Hardener(BPC)
+    name: 5* Imperial Navy EM Armor Hardener(BPC)
     product:
       itemid: 15711
-      itemname: Imperial Navy Armor EM Hardener
+      itemname: Imperial Navy EM Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -15870,10 +15870,10 @@ offers:
       lp: 33750
   4429:
     id: 4429
-    name: 5* Imperial Navy Armor Explosive Hardener(BPC)
+    name: 5* Imperial Navy Explosive Armor Hardener(BPC)
     product:
       itemid: 15709
-      itemname: Imperial Navy Armor Explosive Hardener
+      itemname: Imperial Navy Explosive Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -15908,10 +15908,10 @@ offers:
       lp: 33750
   4430:
     id: 4430
-    name: 5* Imperial Navy Armor Kinetic Hardener(BPC)
+    name: 5* Imperial Navy Kinetic Armor Hardener(BPC)
     product:
       itemid: 15707
-      itemname: Imperial Navy Armor Kinetic Hardener
+      itemname: Imperial Navy Kinetic Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -15943,10 +15943,10 @@ offers:
       lp: 33750
   4431:
     id: 4431
-    name: 5* Imperial Navy Armor Thermal Hardener(BPC)
+    name: 5* Imperial Navy Thermal Armor Hardener(BPC)
     product:
       itemid: 15705
-      itemname: Imperial Navy Armor Thermal Hardener
+      itemname: Imperial Navy Thermal Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -16480,10 +16480,10 @@ offers:
       lp: 18000
   4452:
     id: 4452
-    name: 5* Federation Navy Armor EM Hardener(BPC)
+    name: 5* Federation Navy EM Armor Hardener(BPC)
     product:
       itemid: 17832
-      itemname: Federation Navy Armor EM Hardener
+      itemname: Federation Navy EM Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -16512,10 +16512,10 @@ offers:
       lp: 33750
   4453:
     id: 4453
-    name: 5* Federation Navy Armor Explosive Hardener(BPC)
+    name: 5* Federation Navy Explosive Armor Hardener(BPC)
     product:
       itemid: 17834
-      itemname: Federation Navy Armor Explosive Hardener
+      itemname: Federation Navy Explosive Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -16550,10 +16550,10 @@ offers:
       lp: 33750
   4454:
     id: 4454
-    name: 5* Federation Navy Armor Kinetic Hardener(BPC)
+    name: 5* Federation Navy Kinetic Armor Hardener(BPC)
     product:
       itemid: 17836
-      itemname: Federation Navy Armor Kinetic Hardener
+      itemname: Federation Navy Kinetic Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -16585,10 +16585,10 @@ offers:
       lp: 33750
   4455:
     id: 4455
-    name: 5* Federation Navy Armor Thermal Hardener(BPC)
+    name: 5* Federation Navy Thermal Armor Hardener(BPC)
     product:
       itemid: 17838
-      itemname: Federation Navy Armor Thermal Hardener
+      itemname: Federation Navy Thermal Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -17022,10 +17022,10 @@ offers:
       lp: 18000
   4471:
     id: 4471
-    name: 5* Republic Fleet Armor EM Hardener(BPC)
+    name: 5* Republic Fleet EM Armor Hardener(BPC)
     product:
       itemid: 15719
-      itemname: Republic Fleet Armor EM Hardener
+      itemname: Republic Fleet EM Armor Hardener
       quantity: 5
     requirements:
       isk: 12000000
@@ -17054,10 +17054,10 @@ offers:
       lp: 30000
   4472:
     id: 4472
-    name: 5* Republic Fleet Armor Explosive Hardener(BPC)
+    name: 5* Republic Fleet Explosive Armor Hardener(BPC)
     product:
       itemid: 15717
-      itemname: Republic Fleet Armor Explosive Hardener
+      itemname: Republic Fleet Explosive Armor Hardener
       quantity: 5
     requirements:
       isk: 12000000
@@ -17092,10 +17092,10 @@ offers:
       lp: 30000
   4473:
     id: 4473
-    name: 5* Republic Fleet Armor Kinetic Hardener(BPC)
+    name: 5* Republic Fleet Kinetic Armor Hardener(BPC)
     product:
       itemid: 15715
-      itemname: Republic Fleet Armor Kinetic Hardener
+      itemname: Republic Fleet Kinetic Armor Hardener
       quantity: 5
     requirements:
       isk: 12000000
@@ -17127,10 +17127,10 @@ offers:
       lp: 30000
   4474:
     id: 4474
-    name: 5* Republic Fleet Armor Thermal Hardener(BPC)
+    name: 5* Republic Fleet Thermal Armor Hardener(BPC)
     product:
       itemid: 15713
-      itemname: Republic Fleet Armor Thermal Hardener
+      itemname: Republic Fleet Thermal Armor Hardener
       quantity: 5
     requirements:
       isk: 12000000
@@ -17585,10 +17585,10 @@ offers:
       lp: 90000
   4495:
     id: 4495
-    name: 5* Ammatar Navy Armor EM Hardener(BPC)
+    name: 5* Ammatar Navy EM Armor Hardener(BPC)
     product:
       itemid: 17502
-      itemname: Ammatar Navy Armor EM Hardener
+      itemname: Ammatar Navy EM Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -17617,10 +17617,10 @@ offers:
       lp: 33750
   4496:
     id: 4496
-    name: 5* Ammatar Navy Armor Explosive Hardener(BPC)
+    name: 5* Ammatar Navy Explosive Armor Hardener(BPC)
     product:
       itemid: 17504
-      itemname: Ammatar Navy Armor Explosive Hardener
+      itemname: Ammatar Navy Explosive Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -17655,10 +17655,10 @@ offers:
       lp: 33750
   4497:
     id: 4497
-    name: 5* Ammatar Navy Armor Kinetic Hardener(BPC)
+    name: 5* Ammatar Navy Kinetic Armor Hardener(BPC)
     product:
       itemid: 17506
-      itemname: Ammatar Navy Armor Kinetic Hardener
+      itemname: Ammatar Navy Kinetic Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -17690,10 +17690,10 @@ offers:
       lp: 33750
   4498:
     id: 4498
-    name: 5* Ammatar Navy Armor Thermal Hardener(BPC)
+    name: 5* Ammatar Navy Thermal Armor Hardener(BPC)
     product:
       itemid: 17508
-      itemname: Ammatar Navy Armor Thermal Hardener
+      itemname: Ammatar Navy Thermal Armor Hardener
       quantity: 5
     requirements:
       isk: 13500000
@@ -18053,10 +18053,10 @@ offers:
       lp: 18000
   4542:
     id: 4542
-    name: 5* Caldari Navy Explosive Deflection Amplifier(BPC)
+    name: 5* Caldari Navy Explosive Shield Amplifier(BPC)
     product:
       itemid: 15915
-      itemname: Caldari Navy Explosive Deflection Amplifier
+      itemname: Caldari Navy Explosive Shield Amplifier
       quantity: 5
     requirements:
       isk: 10800000
@@ -18076,10 +18076,10 @@ offers:
       lp: 27000
   4543:
     id: 4543
-    name: 5* Caldari Navy Thermal Dissipation Amplifier(BPC)
+    name: 5* Caldari Navy Thermal Shield Amplifier(BPC)
     product:
       itemid: 15913
-      itemname: Caldari Navy Thermal Dissipation Amplifier
+      itemname: Caldari Navy Thermal Shield Amplifier
       quantity: 5
     requirements:
       isk: 10800000
@@ -18099,10 +18099,10 @@ offers:
       lp: 27000
   4544:
     id: 4544
-    name: 5* Caldari Navy Kinetic Deflection Amplifier(BPC)
+    name: 5* Caldari Navy Kinetic Shield Amplifier(BPC)
     product:
       itemid: 15911
-      itemname: Caldari Navy Kinetic Deflection Amplifier
+      itemname: Caldari Navy Kinetic Shield Amplifier
       quantity: 5
     requirements:
       isk: 10800000
@@ -18122,10 +18122,10 @@ offers:
       lp: 27000
   4545:
     id: 4545
-    name: 5* Caldari Navy EM Ward Amplifier(BPC)
+    name: 5* Caldari Navy EM Shield Amplifier(BPC)
     product:
       itemid: 15909
-      itemname: Caldari Navy EM Ward Amplifier
+      itemname: Caldari Navy EM Shield Amplifier
       quantity: 5
     requirements:
       isk: 10800000
@@ -18818,10 +18818,10 @@ offers:
       lp: 108000
   4566:
     id: 4566
-    name: 5* Republic Fleet Explosive Deflection Amplifier(BPC)
+    name: 5* Republic Fleet Explosive Shield Amplifier(BPC)
     product:
       itemid: 15923
-      itemname: Republic Fleet Explosive Deflection Amplifier
+      itemname: Republic Fleet Explosive Shield Amplifier
       quantity: 5
     requirements:
       isk: 9600000
@@ -18841,10 +18841,10 @@ offers:
       lp: 24000
   4567:
     id: 4567
-    name: 5* Republic Fleet Thermal Dissipation Amplifier(BPC)
+    name: 5* Republic Fleet Thermal Shield Amplifier(BPC)
     product:
       itemid: 15921
-      itemname: Republic Fleet Thermal Dissipation Amplifier
+      itemname: Republic Fleet Thermal Shield Amplifier
       quantity: 5
     requirements:
       isk: 9600000
@@ -18864,10 +18864,10 @@ offers:
       lp: 24000
   4568:
     id: 4568
-    name: 5* Republic Fleet Kinetic Deflection Amplifier(BPC)
+    name: 5* Republic Fleet Kinetic Shield Amplifier(BPC)
     product:
       itemid: 15919
-      itemname: Republic Fleet Kinetic Deflection Amplifier
+      itemname: Republic Fleet Kinetic Shield Amplifier
       quantity: 5
     requirements:
       isk: 9600000
@@ -18887,10 +18887,10 @@ offers:
       lp: 24000
   4569:
     id: 4569
-    name: 5* Republic Fleet EM Ward Amplifier(BPC)
+    name: 5* Republic Fleet EM Shield Amplifier(BPC)
     product:
       itemid: 15917
-      itemname: Republic Fleet EM Ward Amplifier
+      itemname: Republic Fleet EM Shield Amplifier
       quantity: 5
     requirements:
       isk: 9600000
@@ -19157,16 +19157,16 @@ offers:
       lp: 6750
   4588:
     id: 4588
-    name: Khanid Navy Armor EM Hardener
+    name: Khanid Navy EM Armor Hardener
     product:
       itemid: 28522
-      itemname: Khanid Navy Armor EM Hardener
+      itemname: Khanid Navy EM Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11301
-        itemname: Armor EM Hardener I
+        itemname: EM Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -19180,16 +19180,16 @@ offers:
       lp: 11250
   4589:
     id: 4589
-    name: Khanid Navy Armor Explosive Hardener
+    name: Khanid Navy Explosive Armor Hardener
     product:
       itemid: 28524
-      itemname: Khanid Navy Armor Explosive Hardener
+      itemname: Khanid Navy Explosive Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11303
-        itemname: Armor Explosive Hardener I
+        itemname: Explosive Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -19203,16 +19203,16 @@ offers:
       lp: 11250
   4590:
     id: 4590
-    name: Khanid Navy Armor Kinetic Hardener
+    name: Khanid Navy Kinetic Armor Hardener
     product:
       itemid: 28526
-      itemname: Khanid Navy Armor Kinetic Hardener
+      itemname: Khanid Navy Kinetic Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11305
-        itemname: Armor Kinetic Hardener I
+        itemname: Kinetic Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -19226,16 +19226,16 @@ offers:
       lp: 11250
   4591:
     id: 4591
-    name: Khanid Navy Armor Thermal Hardener
+    name: Khanid Navy Thermal Armor Hardener
     product:
       itemid: 28528
-      itemname: Khanid Navy Armor Thermal Hardener
+      itemname: Khanid Navy Thermal Armor Hardener
       quantity: 1
     requirements:
       isk: 4500000
       items:
       - itemid: 11277
-        itemname: Armor Thermal Hardener I
+        itemname: Thermal Armor Hardener I
         quantity: 1
       - itemid: 15631
         itemname: Republic Fleet High Captain Insignia I
@@ -29567,10 +29567,10 @@ offers:
       lp: 80000
   16275:
     id: 16275
-    name: 'Punisher Imperial War Reserves Pack '
+    name: Punisher Imperial War Reserves Pack
     product:
       itemid: 46444
-      itemname: 'Punisher Imperial War Reserves Pack '
+      itemname: Punisher Imperial War Reserves Pack
       quantity: 1
     requirements:
       isk: 1500000
@@ -29757,10 +29757,10 @@ offers:
       lp: 2000
   16319:
     id: 16319
-    name: 'Cormorant Destroyer Battle Pack '
+    name: Cormorant Destroyer Battle Pack
     product:
       itemid: 46454
-      itemname: 'Cormorant Destroyer Battle Pack '
+      itemname: Cormorant Destroyer Battle Pack
       quantity: 1
     requirements:
       isk: 2000000
@@ -31722,141 +31722,830 @@ offers:
       lp: 267750
   16429:
     id: 16429
-    name: 5* missingType_53989
+    name: 5* Signal-15 'Needlejack' Filament(BPC)
     product:
-      itemid: 53989
-      itemname: missingType_53989
+      itemid: 53986
+      itemname: Signal-15 'Needlejack' Filament
       quantity: 5
     requirements:
       isk: 7500000
+      items:
+      - itemid: 53984
+        itemname: Signal-5 'Needlejack' Filament
+        quantity: 5
+      - itemid: 30305
+        itemname: Fullerene Intercalated Graphite
+        quantity: 7500
       lp: 35000
   16430:
     id: 16430
-    name: 5* missingType_53988
+    name: 5* Noise-15 'Needlejack' Filament(BPC)
     product:
-      itemid: 53988
-      itemname: missingType_53988
+      itemid: 53985
+      itemname: Noise-15 'Needlejack' Filament
       quantity: 5
     requirements:
       isk: 5000000
+      items:
+      - itemid: 53977
+        itemname: Noise-5 'Needlejack' Filament
+        quantity: 5
+      - itemid: 30305
+        itemname: Fullerene Intercalated Graphite
+        quantity: 5000
       lp: 20000
   16431:
     id: 16431
-    name: missingType_53908
+    name: High-grade Savior Alpha(BPC)
     product:
-      itemid: 53908
-      itemname: missingType_53908
+      itemid: 53890
+      itemname: High-grade Savior Alpha
       quantity: 1
     requirements:
       isk: 23625000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 47
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 79
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 542
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 594
       lp: 23625
   16432:
     id: 16432
-    name: missingType_53909
+    name: High-grade Savior Beta(BPC)
     product:
-      itemid: 53909
-      itemname: missingType_53909
+      itemid: 53891
+      itemname: High-grade Savior Beta
       quantity: 1
     requirements:
       isk: 31500000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 45
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 114
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 542
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 620
       lp: 31500
   16433:
     id: 16433
-    name: missingType_53911
+    name: High-grade Savior Delta(BPC)
     product:
-      itemid: 53911
-      itemname: missingType_53911
+      itemid: 53893
+      itemname: High-grade Savior Delta
       quantity: 1
     requirements:
       isk: 78750000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 46
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 157
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 888
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 906
       lp: 78750
   16434:
     id: 16434
-    name: missingType_53912
+    name: High-grade Savior Epsilon(BPC)
     product:
-      itemid: 53912
-      itemname: missingType_53912
+      itemid: 53894
+      itemname: High-grade Savior Epsilon
       quantity: 1
     requirements:
       isk: 141750000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 48
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 172
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 1070
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 1261
       lp: 141750
   16435:
     id: 16435
-    name: missingType_53910
+    name: High-grade Savior Gamma(BPC)
     product:
-      itemid: 53910
-      itemname: missingType_53910
+      itemid: 53892
+      itemname: High-grade Savior Gamma
       quantity: 1
     requirements:
       isk: 47250000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 47
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 146
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 691
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 887
       lp: 47250
   16436:
     id: 16436
-    name: missingType_53913
+    name: High-grade Savior Omega(BPC)
     product:
-      itemid: 53913
-      itemname: missingType_53913
+      itemid: 53895
+      itemname: High-grade Savior Omega
       quantity: 1
     requirements:
       isk: 267750000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 50
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 183
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 609
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 654
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 687
       lp: 267750
   16437:
     id: 16437
-    name: missingType_53914
+    name: Mid-grade Savior Alpha(BPC)
     product:
-      itemid: 53914
-      itemname: missingType_53914
+      itemid: 53896
+      itemname: Mid-grade Savior Alpha
       quantity: 1
     requirements:
       isk: 7500000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 23
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 48
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 326
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 357
       lp: 7500
   16438:
     id: 16438
-    name: missingType_53915
+    name: Mid-grade Savior Beta(BPC)
     product:
-      itemid: 53915
-      itemname: missingType_53915
+      itemid: 53897
+      itemname: Mid-grade Savior Beta
       quantity: 1
     requirements:
       isk: 10000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 22
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 69
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 326
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 372
       lp: 10000
   16439:
     id: 16439
-    name: missingType_53917
+    name: Mid-grade Savior Delta(BPC)
     product:
-      itemid: 53917
-      itemname: missingType_53917
+      itemid: 53899
+      itemname: Mid-grade Savior Delta
       quantity: 1
     requirements:
       isk: 25000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 22
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 94
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 532
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 543
       lp: 25000
   16440:
     id: 16440
-    name: missingType_53918
+    name: Mid-grade Savior Epsilon(BPC)
     product:
-      itemid: 53918
-      itemname: missingType_53918
+      itemid: 53900
+      itemname: Mid-grade Savior Epsilon
       quantity: 1
     requirements:
       isk: 45000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 23
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 103
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 642
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 757
       lp: 45000
   16441:
     id: 16441
-    name: missingType_53916
+    name: Mid-grade Savior Gamma(BPC)
     product:
-      itemid: 53916
-      itemname: missingType_53916
+      itemid: 53898
+      itemname: Mid-grade Savior Gamma
       quantity: 1
     requirements:
       isk: 15000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 23
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 88
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 414
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 532
       lp: 15000
   16442:
     id: 16442
-    name: missingType_53919
+    name: Mid-grade Savior Omega(BPC)
     product:
-      itemid: 53919
-      itemname: missingType_53919
+      itemid: 53901
+      itemname: Mid-grade Savior Omega
       quantity: 1
     requirements:
       isk: 85000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 34575
+        itemname: Antikythera Element
+        quantity: 25
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 110
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 366
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 392
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 412
       lp: 85000
+  16443:
+    id: 16443
+    name: Low-grade Hydra Alpha(BPC)
+    product:
+      itemid: 54404
+      itemname: Low-grade Hydra Alpha
+      quantity: 1
+    requirements:
+      isk: 3750000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 29
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 70
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 196
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 214
+      lp: 3750
+  16444:
+    id: 16444
+    name: Low-grade Hydra Beta(BPC)
+    product:
+      itemid: 54405
+      itemname: Low-grade Hydra Beta
+      quantity: 1
+    requirements:
+      isk: 5000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 41
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 70
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 196
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 223
+      lp: 5000
+  16445:
+    id: 16445
+    name: Low-grade Hydra Delta(BPC)
+    product:
+      itemid: 54407
+      itemname: Low-grade Hydra Delta
+      quantity: 1
+    requirements:
+      isk: 12500000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 56
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 70
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 319
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 326
+      lp: 12500
+  16446:
+    id: 16446
+    name: Low-grade Hydra Epsilon(BPC)
+    product:
+      itemid: 54408
+      itemname: Low-grade Hydra Epsilon
+      quantity: 1
+    requirements:
+      isk: 22500000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 62
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 77
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 385
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 454
+      lp: 22500
+  16447:
+    id: 16447
+    name: Low-grade Hydra Gamma(BPC)
+    product:
+      itemid: 54406
+      itemname: Low-grade Hydra Gamma
+      quantity: 1
+    requirements:
+      isk: 7500000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 53
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 77
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 248
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 319
+      lp: 7500
+  16448:
+    id: 16448
+    name: Low-grade Hydra Omega(BPC)
+    product:
+      itemid: 54409
+      itemname: Low-grade Hydra Omega
+      quantity: 1
+    requirements:
+      isk: 42500000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 66
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 91
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 220
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 235
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 247
+      lp: 42500
+  16449:
+    id: 16449
+    name: Mid-grade Hydra Alpha(BPC)
+    product:
+      itemid: 54398
+      itemname: Mid-grade Hydra Alpha
+      quantity: 1
+    requirements:
+      isk: 7500000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 48
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 161
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 326
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 357
+      lp: 7500
+  16450:
+    id: 16450
+    name: Mid-grade Hydra Beta(BPC)
+    product:
+      itemid: 54399
+      itemname: Mid-grade Hydra Beta
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 69
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 154
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 326
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 372
+      lp: 10000
+  16451:
+    id: 16451
+    name: Mid-grade Hydra Gamma(BPC)
+    product:
+      itemid: 54400
+      itemname: Mid-grade Hydra Gamma
+      quantity: 1
+    requirements:
+      isk: 15000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 88
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 161
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 414
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 532
+      lp: 15000
+  16452:
+    id: 16452
+    name: Mid-grade Hydra Delta(BPC)
+    product:
+      itemid: 54401
+      itemname: Mid-grade Hydra Delta
+      quantity: 1
+    requirements:
+      isk: 25000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 94
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 154
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 532
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 543
+      lp: 25000
+  16453:
+    id: 16453
+    name: Mid-grade Hydra Epsilon(BPC)
+    product:
+      itemid: 54402
+      itemname: Mid-grade Hydra Epsilon
+      quantity: 1
+    requirements:
+      isk: 45000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 103
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 161
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 642
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 757
+      lp: 45000
+  16454:
+    id: 16454
+    name: Mid-grade Hydra Omega(BPC)
+    product:
+      itemid: 54403
+      itemname: Mid-grade Hydra Omega
+      quantity: 1
+    requirements:
+      isk: 85000000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 110
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 175
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 366
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 392
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 412
+      lp: 85000
+  16455:
+    id: 16455
+    name: High-grade Hydra Alpha(BPC)
+    product:
+      itemid: 54392
+      itemname: High-grade Hydra Alpha
+      quantity: 1
+    requirements:
+      isk: 23625000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 79
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 329
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 542
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 594
+      lp: 23625
+  16456:
+    id: 16456
+    name: High-grade Hydra Beta(BPC)
+    product:
+      itemid: 54393
+      itemname: High-grade Hydra Beta
+      quantity: 1
+    requirements:
+      isk: 31500000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 114
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 315
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 542
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 620
+      lp: 31500
+  16457:
+    id: 16457
+    name: High-grade Hydra Gamma(BPC)
+    product:
+      itemid: 54394
+      itemname: High-grade Hydra Gamma
+      quantity: 1
+    requirements:
+      isk: 47250000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 146
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 329
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 691
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 887
+      lp: 47250
+  16458:
+    id: 16458
+    name: High-grade Hydra Delta(BPC)
+    product:
+      itemid: 54395
+      itemname: High-grade Hydra Delta
+      quantity: 1
+    requirements:
+      isk: 78750000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 157
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 322
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 888
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 906
+      lp: 78750
+  16459:
+    id: 16459
+    name: High-grade Hydra Epsilon(BPC)
+    product:
+      itemid: 54396
+      itemname: High-grade Hydra Epsilon
+      quantity: 1
+    requirements:
+      isk: 141750000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 172
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 336
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 1070
+      - itemid: 12836
+        itemname: Transcranial Microcontrollers
+        quantity: 1261
+      lp: 141750
+  16460:
+    id: 16460
+    name: High-grade Hydra Omega(BPC)
+    product:
+      itemid: 54397
+      itemname: High-grade Hydra Omega
+      quantity: 1
+    requirements:
+      isk: 267750000
+      items:
+      - itemid: 2869
+        itemname: Nano-Factory
+        quantity: 1
+      - itemid: 11399
+        itemname: Morphite
+        quantity: 183
+      - itemid: 28363
+        itemname: Drone Cerebral Fragment
+        quantity: 350
+      - itemid: 2348
+        itemname: Gel-Matrix Biopaste
+        quantity: 609
+      - itemid: 2367
+        itemname: Cryoprotectant Solution
+        quantity: 654
+      - itemid: 2346
+        itemname: Synthetic Synapses
+        quantity: 687
+      lp: 267750

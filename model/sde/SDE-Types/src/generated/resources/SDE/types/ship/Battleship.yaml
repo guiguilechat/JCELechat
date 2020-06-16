@@ -71,6 +71,8 @@ types:
     shipbonusab2: 7.5
     shipbonuscb: 5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 470.0
     structureuniformity: 1.0
     techlevel: 1
@@ -154,6 +156,8 @@ types:
     shipbonusab2: 7.5
     shipbonuscb: 5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 380.0
     structureuniformity: 1.0
     techlevel: 1
@@ -239,6 +243,8 @@ types:
     shipbonusab2: 5.0
     shipbonuscb: 5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 400.0
     structureuniformity: 1.0
     techlevel: 1
@@ -323,6 +329,8 @@ types:
     shipbonusab2: 7.5
     shipbonuscb: 5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 370.0
     structureuniformity: 1.0
     techlevel: 1
@@ -407,6 +415,8 @@ types:
     shipbonusab2: 5.0
     shipbonuscb: 5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 450.0
     structureuniformity: 1.0
     techlevel: 1
@@ -492,6 +502,8 @@ types:
     shipbonusab2: -5.0
     shipbonuscb: 5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 400.0
     structureuniformity: 1.0
     techlevel: 1
@@ -576,6 +588,8 @@ types:
     shipbonusab2: -5.0
     shipbonuscb: 5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 400.0
     structureuniformity: 1.0
     techlevel: 1
@@ -666,6 +680,8 @@ types:
     shipbonusmb: 5.0
     shipbonusrole7: 200.0
     shipbonusrole8: -50.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 370.0
     structureuniformity: 1.0
     techlevel: 1
@@ -753,6 +769,8 @@ types:
     shipbonuscb: 5
     shipbonusmb: 20.0
     shipbonusrole7: 100.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 400.0
     structureuniformity: 1.0
     techlevel: 1
@@ -837,6 +855,8 @@ types:
     shipbonusgb: 7.5
     shipbonusgb2: 10.0
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 465.0
     structureuniformity: 1.0
     techlevel: 1
@@ -923,6 +943,8 @@ types:
     shipbonusgb: 5.0
     shipbonusgb2: 10.0
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 455.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1008,6 +1030,8 @@ types:
     shipbonusgb: 10.0
     shipbonusgb2: 7.5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 485.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1094,6 +1118,8 @@ types:
     shipbonuspbs2: 5
     shipbonusrole1: 100.0
     shipbonusrole2: -50
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 370.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1182,6 +1208,8 @@ types:
     shipbonusgb: 7.5
     shipbonusmb: 5.0
     shipbonusrole7: -25.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     shiprolebonuswarpspeed: 25
     signatureradius: 380.0
     structureuniformity: 1.0
@@ -1266,6 +1294,8 @@ types:
     shipbonuscb: 5
     shipbonusmb: 7.5
     shipbonusmb2: -5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 460.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1350,6 +1380,8 @@ types:
     shipbonusgb: -5.0
     shipbonusgb2: 7.5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 380.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1437,6 +1469,8 @@ types:
     shipbonusgb: 5.0
     shipbonusgb2: 7.5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 400.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1524,6 +1558,8 @@ types:
     shipbonusgb: -5.0
     shipbonusgb2: 7.5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 385.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1616,6 +1652,8 @@ types:
     shipbonusmb: 5.0
     shipbonusrole7: 50.0
     shipbonusrole8: 100.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     shipmaintenancebaycapacity: 5000
     signatureradius: 420.0
     structureuniformity: 1.0
@@ -1707,6 +1745,8 @@ types:
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusrole7: 150.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 370.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1794,6 +1834,8 @@ types:
     shipbonusmb: 5.0
     shipbonusrole7: 25.0
     shipbonusrole8: 37.5
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 465.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1884,6 +1926,8 @@ types:
     shipbonusgb2: 10.0
     shipbonusmb: 5.0
     shipbonusrole7: 275.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 450.0
     structureuniformity: 1.0
     techlevel: 1
@@ -1968,6 +2012,8 @@ types:
     shipbonuscb: 10
     shipbonuscb3: 10
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 410.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2055,6 +2101,8 @@ types:
     shipbonuscb: -5
     shipbonuscb3: 10
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 410.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2141,6 +2189,8 @@ types:
     shipbonuscb: 10
     shipbonuscb3: 10
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 460.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2225,6 +2275,8 @@ types:
     shipbonusab: 5.0
     shipbonuscb: 10
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 500.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2309,6 +2361,8 @@ types:
     shipbonuscb: 15
     shipbonuscb3: 25
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 440.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2395,6 +2449,8 @@ types:
     shipbonusab: 5.0
     shipbonuscb: -5
     shipbonusmb: 5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 465.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2479,6 +2535,8 @@ types:
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusmb2: -7.5
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 360.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2565,6 +2623,8 @@ types:
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusmb2: -7.5
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 350.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2651,12 +2711,98 @@ types:
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusmb2: -5.0
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 340.0
     structureuniformity: 1.0
     techlevel: 1
     thermaldamageresonance: 0.6700000166893005
     turretslotsleft: 8
     typecolorscheme: 11422
+    uniformity: 1.0
+    upgradecapacity: 400
+    upgradeslotsleft: 3
+    volume: 486000.0
+    warpcapacitorneed: 1.3800000431274384E-7
+    warpspeedmultiplier: 3.0
+  Thunderchild:
+    agility: 0.13600000739097595
+    armoremdamageresonance: 0.5
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 4620.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.550000011920929
+    armoruniformity: 0.75
+    basewarpspeed: 1
+    capacitorcapacity: 7200.0
+    capacity: 861.0
+    cpuoutput: 880
+    dronebandwidth: 25
+    dronecapacity: 25
+    emdamageresonance: 0.6700000166893005
+    explosivedamageresonance: 0.6700000166893005
+    frigateescapebaycapacity: 1
+    fwlpkill: 500
+    gfxboosterid: 395
+    heatattenuationhi: 0.8199999928474426
+    heatattenuationlow: 0.7099999785423279
+    heatattenuationmed: 0.7599999904632568
+    heatcapacityhi: 100
+    heatcapacitylow: 100
+    heatcapacitymed: 100
+    heatdissipationratehi: 0.009999999776482582
+    heatdissipationratelow: 0.009999999776482582
+    heatdissipationratemed: 0.009999999776482582
+    heatgenerationmultiplier: 0.5
+    hislots: 2
+    hp: 6600.0
+    id: 54733
+    kineticdamageresonance: 0.6700000166893005
+    lowslots: 5
+    maincolor: 16777215
+    marketGroup: 1379
+    maxdirectionalvelocity: 1000
+    maxlockedtargets: 7
+    maxpassengers: 1000
+    maxtargetrange: 118000.0
+    maxvelocity: 95.0
+    medslots: 7
+    mintargetveldmgmultiplier: 0.5
+    name: Thunderchild
+    packagedVolume: 50000.0
+    portionSize: 1
+    poweroutput: 16500
+    powertospeed: 1
+    price: 1.25E8
+    propulsiongraphicid: 395
+    published: true
+    radius: 250.0
+    rechargerate: 1125000.0
+    requiredskill1: 54794
+    requiredskill1level: 1
+    rigsize: 3
+    rigslots: 3
+    scangravimetricstrength: 26.0
+    scanresolution: 103.0
+    scanspeed: 9000
+    shieldcapacity: 13500.0
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.5
+    shieldrechargerate: 2500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    shipbonusab: 5.0
+    shipbonuscb: 5
+    shipbonusmb: 5.0
+    shipbonusub1: 5
+    shipbonusub2: -5
+    signatureradius: 485.0
+    structureuniformity: 1.0
+    techlevel: 1
+    thermaldamageresonance: 0.6700000166893005
+    turretslotsleft: 1
+    typecolorscheme: 11324
     uniformity: 1.0
     upgradecapacity: 400
     upgradeslotsleft: 3
@@ -2735,6 +2881,8 @@ types:
     shipbonuscb: 5
     shipbonusmb: -5.0
     shipbonusmb2: 7.5
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 330.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2821,6 +2969,8 @@ types:
     shipbonuscb: 5
     shipbonusmb: 7.5
     shipbonusmb2: -7.5
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 320.0
     structureuniformity: 1.0
     techlevel: 1
@@ -2909,6 +3059,8 @@ types:
     shipbonusgb: 7.5
     shipbonusmb: 10.0
     shipbonusrole7: 37.5
+    shipbonusub1: 1
+    shipbonusub2: 1
     signatureradius: 400.0
     structureuniformity: 1.0
     techlevel: 1

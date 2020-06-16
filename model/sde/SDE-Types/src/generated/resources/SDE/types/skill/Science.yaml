@@ -697,6 +697,21 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
+  Upwell Encryption Methods:
+    cannotbetrainedontrial: 1
+    id: 55025
+    marketGroup: 375
+    name: Upwell Encryption Methods
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 21718
+    requiredskill1level: 2
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
   Yan Jung Technology:
     cannotbetrainedontrial: 1
     id: 23124

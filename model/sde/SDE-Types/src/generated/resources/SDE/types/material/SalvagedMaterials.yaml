@@ -149,6 +149,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Electromagnetic Metaprismatic Sheeting:
+    id: 54970
+    marketGroup: 1863
+    name: Electromagnetic Metaprismatic Sheeting
+    packagedVolume: 0.25
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.25
   Enhanced Ward Console:
     hp: 20.0
     id: 25625
@@ -169,6 +178,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Hyperbolic Metatransistor Array:
+    id: 54971
+    marketGroup: 1863
+    name: Hyperbolic Metatransistor Array
+    packagedVolume: 0.25
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.25
   Impetus Console:
     hp: 20.0
     id: 25621
@@ -369,6 +387,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Ultraconducting Ablative Nanocable:
+    id: 54972
+    marketGroup: 1863
+    name: Ultraconducting Ablative Nanocable
+    packagedVolume: 0.25
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.25
   Ward Console:
     hp: 20.0
     id: 25606

@@ -405,6 +405,8 @@ public enum get_characters_character_id_notifications_type {
     WarConcordInvalidates("WarConcordInvalidates"),
     @JsonProperty("WarDeclared")
     WarDeclared("WarDeclared"),
+    @JsonProperty("WarEndedHqSecurityDrop")
+    WarEndedHqSecurityDrop("WarEndedHqSecurityDrop"),
     @JsonProperty("WarHQRemovedFromSpace")
     WarHQRemovedFromSpace("WarHQRemovedFromSpace"),
     @JsonProperty("WarInherited")

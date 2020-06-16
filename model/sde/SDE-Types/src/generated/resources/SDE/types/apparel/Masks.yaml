@@ -1,0 +1,19 @@
+types:
+  Men's Biosecurity Response Team Mask:
+    id: 54830
+    marketGroup: 1407
+    mass: 0.5
+    name: Men's Biosecurity Response Team Mask
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Biosecurity Response Team Mask:
+    id: 54714
+    marketGroup: 1407
+    mass: 0.5
+    name: Women's Biosecurity Response Team Mask
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612

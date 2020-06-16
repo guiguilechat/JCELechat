@@ -492,6 +492,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's Biosecurity Response Team Coat:
+    gender: 1
+    id: 40462
+    marketGroup: 1399
+    name: Men's Biosecurity Response Team Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
   Men's CONCORD 'Solitaire' Survival Suit:
     clothingalsocoverscategory: 25
     clothingalsocoverscategory2: 22
@@ -851,6 +861,16 @@ types:
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    volume: 0.10000000149011612
+  Men's Virtuality Biotechnician Coat:
+    gender: 1
+    id: 40464
+    marketGroup: 1399
+    name: Men's Virtuality Biotechnician Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
     volume: 0.10000000149011612
   Women's 'Eternity' Suit Top (Black/Gold):
     clothingremovescategory: 2
@@ -1607,6 +1627,17 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's Biosecurity Response Team Coat:
+    clothingalsocoverscategory: 25
+    gender: 3
+    id: 40458
+    marketGroup: 1405
+    name: Women's Biosecurity Response Team Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
   Women's CONCORD 'Solitaire' Survival Suit:
     clothingalsocoverscategory: 25
     clothingalsocoverscategory2: 22
@@ -1966,4 +1997,15 @@ types:
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    volume: 0.10000000149011612
+  Women's Virtuality Biotechnician Coat:
+    clothingalsocoverscategory: 25
+    gender: 3
+    id: 40460
+    marketGroup: 1405
+    name: Women's Virtuality Biotechnician Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
     volume: 0.10000000149011612

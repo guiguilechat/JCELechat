@@ -6344,6 +6344,7 @@ types:
     name: Low-grade Nirvana Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -6383,6 +6384,7 @@ types:
     name: Low-grade Nirvana Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -6422,6 +6424,7 @@ types:
     name: Low-grade Nirvana Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -6460,6 +6463,7 @@ types:
     name: Low-grade Nirvana Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -6499,6 +6503,7 @@ types:
     name: Low-grade Nirvana Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

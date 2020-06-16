@@ -842,6 +842,15 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Skybreaker Blueprint:
+    id: 54842
+    industryjobcostmultiplier: 1
+    name: Skybreaker Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
   Slasher Blueprint:
     id: 689
     industryblueprintrank: 20.0

@@ -69,6 +69,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's BioCrystal Protective Glasses:
+    gender: 2
+    id: 54966
+    marketGroup: 1408
+    name: Men's BioCrystal Protective Glasses
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Genolution Tactical Goggles:
     gender: 2
     id: 42906
@@ -156,6 +165,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's BioCrystal Protective Glasses:
+    gender: 2
+    id: 54965
+    marketGroup: 1408
+    name: Women's BioCrystal Protective Glasses
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's Genolution Tactical Goggles:
     gender: 2

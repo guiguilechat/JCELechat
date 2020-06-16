@@ -11,6 +11,7 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.abstrct.Audio;
 import fr.guiguilechat.jcelechat.model.sde.types.abstrct.Decorations;
 import fr.guiguilechat.jcelechat.model.sde.types.abstrct.Miscellaneous;
+import fr.guiguilechat.jcelechat.model.sde.types.abstrct.TypeGraveyard;
 
 public abstract class Abstrct
     extends EveType
@@ -44,7 +45,7 @@ public abstract class Abstrct
 
         @Override
         public Collection<IMetaGroup<? extends Abstrct>> groups() {
-            return Arrays.asList(Decorations.METAGROUP, Audio.METAGROUP, Miscellaneous.METAGROUP);
+            return Arrays.asList(Decorations.METAGROUP, Audio.METAGROUP, Miscellaneous.METAGROUP, TypeGraveyard.METAGROUP);
         }
     }
 }

@@ -589,6 +589,24 @@ types:
     secondaryattribute: 167
     skilltimeconstant: 4.0
     volume: 0.009999999776482582
+  EDENCOM Battleship:
+    cannotbetrainedontrial: 1
+    id: 54794
+    marketGroup: 377
+    name: EDENCOM Battleship
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.5E7
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 3327
+    requiredskill1level: 5
+    requiredskill2: 55032
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
+    volume: 0.009999999776482582
   EDENCOM Cruiser:
     cannotbetrainedontrial: 1
     id: 55032
@@ -596,6 +614,7 @@ types:
     name: EDENCOM Cruiser
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -613,6 +632,7 @@ types:
     name: EDENCOM Frigate
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.05E7
     primaryattribute: 167
     published: true
     radius: 1.0

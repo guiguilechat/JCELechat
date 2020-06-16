@@ -277,6 +277,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Project Discovery Cytometry Cap:
+    gender: 2
+    id: 54948
+    marketGroup: 1943
+    name: Men's Project Discovery Cytometry Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's YC119 Yoiul Festival Cap:
     gender: 1
     id: 44125
@@ -621,6 +630,15 @@ types:
     id: 50132
     marketGroup: 1943
     name: Women's Permaband Tour Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Project Discovery Cytometry Cap:
+    gender: 2
+    id: 54949
+    marketGroup: 1943
+    name: Women's Project Discovery Cytometry Cap
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

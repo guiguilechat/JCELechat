@@ -246,6 +246,7 @@ types:
     name: Triglavian Trinary Datastream XCZ1
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream XCZ2:
@@ -255,6 +256,7 @@ types:
     name: Triglavian Trinary Datastream XCZ2
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream XCZ3:
@@ -264,5 +266,6 @@ types:
     name: Triglavian Trinary Datastream XCZ3
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1.0
     published: true
     volume: 0.10000000149011612

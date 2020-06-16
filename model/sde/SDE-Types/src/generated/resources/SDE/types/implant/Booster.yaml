@@ -37,6 +37,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -313,46 +314,6 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
-  Basic Capsuleer Day Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18428.458984375
-    boosterness: 10
-    charismabonus: 4
-    followsjumpclones: 1
-    id: 54812
-    intelligencebonus: 4
-    marketGroup: 2487
-    memorybonus: 4
-    name: Basic Capsuleer Day Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 4
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 4
-  Basic Capsuleer Day Glamourex Booster:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18428.458984375
-    boosterness: 12
-    id: 54815
-    marketGroup: 2530
-    name: Basic Capsuleer Day Glamourex Booster
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 20
-    socialmutator: 20
-    volume: 1.0
   Basic Serenity Cerebral Accelerator:
     boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18443.125
@@ -369,6 +330,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -397,6 +359,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -414,6 +377,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -431,6 +395,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -449,6 +414,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -467,6 +433,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -485,6 +452,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -501,6 +469,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 2
@@ -518,6 +487,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 3
@@ -535,6 +505,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 5
@@ -688,6 +659,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -741,46 +713,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Extended Capsuleer Day Cerebral Accelerator:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18428.458984375
-    boosterness: 10
-    charismabonus: 6
-    followsjumpclones: 1
-    id: 54814
-    intelligencebonus: 6
-    marketGroup: 2487
-    memorybonus: 6
-    name: Extended Capsuleer Day Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 6
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 6
-  Extended Capsuleer Day Glamourex Booster:
-    boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18428.458984375
-    boosterness: 12
-    id: 54816
-    marketGroup: 2530
-    name: Extended Capsuleer Day Glamourex Booster
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 25
-    socialmutator: 25
-    volume: 1.0
   Extended Serenity Cerebral Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18443.125
@@ -797,6 +729,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -804,42 +737,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Impetus Potency-50 Glamourex Booster:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18175.458984375
-    boosterness: 13
-    id: 49749
-    marketGroup: 2530
-    name: Impetus Potency-50 Glamourex Booster
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 50
-    socialmutator: 50
-    volume: 1.0
-  Impetus Potency-75 Glamourex Booster:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18175.458984375
-    boosterness: 12
-    id: 49701
-    marketGroup: 2530
-    name: Impetus Potency-75 Glamourex Booster
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 75
-    socialmutator: 75
-    volume: 1.0
   Improved Blue Pill Booster:
     boosteraoevelocitypenalty: -25
     boostercapacitorcapacitypenalty: -25
@@ -1056,6 +953,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1071,6 +969,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1086,6 +985,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1101,6 +1001,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1116,6 +1017,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1132,6 +1034,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1147,6 +1050,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1162,6 +1066,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1177,6 +1082,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1192,6 +1098,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1206,6 +1113,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1221,6 +1129,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1236,6 +1145,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1251,6 +1161,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1266,6 +1177,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1282,6 +1194,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1297,6 +1210,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1312,6 +1226,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1327,6 +1242,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1342,6 +1258,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1356,6 +1273,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 2
@@ -1371,6 +1289,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 2
@@ -1386,6 +1305,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 2
@@ -1401,6 +1321,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 3
@@ -1416,6 +1337,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 3
@@ -1432,6 +1354,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1447,6 +1370,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1462,6 +1386,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1477,6 +1402,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1492,6 +1418,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1507,6 +1434,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1522,6 +1450,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1537,6 +1466,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1552,6 +1482,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1567,6 +1498,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1581,6 +1513,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1596,6 +1529,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1611,6 +1545,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1626,6 +1561,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1641,6 +1577,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -1709,46 +1646,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Potent Capsuleer Day Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18428.458984375
-    boosterness: 10
-    charismabonus: 8
-    followsjumpclones: 1
-    id: 54813
-    intelligencebonus: 8
-    marketGroup: 2487
-    memorybonus: 8
-    name: Potent Capsuleer Day Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 8
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 8
-  Potent Capsuleer Day Glamourex Booster:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18428.458984375
-    boosterness: 12
-    id: 54817
-    marketGroup: 2530
-    name: Potent Capsuleer Day Glamourex Booster
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3355
-    requiredskill1level: 1
-    socialbonus: 50
-    socialmutator: 50
-    volume: 1.0
   Prototype Cerebral Accelerator:
     boostermaxcharagehours: 336
     boosterness: 4
@@ -1803,6 +1700,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2029,6 +1927,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402

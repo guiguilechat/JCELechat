@@ -71,6 +71,7 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
+    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -91,7 +92,7 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 4.0
     volume: 43000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Blinding Jarognik Kikimora:
     agility: 1.0
     aitankingmodifierdrone: 0.699999988079071
@@ -165,6 +166,7 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
+    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -186,7 +188,7 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 4.0
     volume: 43000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Carousing Catalyst:
     agility: 0.8999999761581421
     aitankingmodifierdrone: 0.699999988079071
@@ -701,6 +703,7 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
+    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -722,7 +725,7 @@ types:
     trackingspeed: 4.0
     trackingspeedbonus: -18.5
     volume: 43000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Guristas Destroyer:
     agility: 3.200000047683716
     aitankingmodifierdrone: 0.699999988079071
@@ -1044,6 +1047,7 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
+    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -1064,7 +1068,7 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 4.0
     volume: 43000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Noumenal Divider:
     agility: 3.5
     aitankingmodifierdrone: 0.699999988079071
@@ -1510,6 +1514,7 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
+    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -1530,7 +1535,7 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 4.0
     volume: 43000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Tangling Jarognik Kikimora:
     agility: 1.0
     aitankingmodifierdrone: 0.699999988079071
@@ -1602,6 +1607,7 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
+    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -1622,7 +1628,211 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 4.0
     volume: 43000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
+  Type-A Anomalous Alvior:
+    agility: 0.4000000059604645
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.800000011920929
+    armorexplosivedamageresonance: 0.6000000238418579
+    armorhp: 1500.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 25
+    behaviorarmorrepairerdischarge: 15
+    behaviorarmorrepairerduration: 4500
+    behaviorenergyneutralizerdischarge: 25.0
+    behaviorenergyneutralizerduration: 6000
+    behaviorenergyneutralizerfalloff: 8000
+    behaviorenergyneutralizerrange: 4000
+    behaviorshieldboosteramount: 25
+    behaviorshieldboosterdischarge: 15
+    behaviorshieldboosterduration: 3000
+    behaviorwarpdisruptdischarge: 1.0
+    behaviorwarpdisruptduration: 5000
+    behaviorwarpdisruptrange: 25000
+    behaviorwarpdisruptstrength: 1
+    capacitorcapacity: 800.0
+    capacity: 1200.0
+    damagemultiplier: 30.0
+    damagemultiplierbonusmax: 0.5
+    emdamage: 5.0
+    emdamageresonance: 0.8999999761581421
+    energyneutralizeramount: 40.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 10000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 300.0
+    entityequipmentgroupmax: 4
+    entityequipmentmax: 2
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 200000
+    entitylootcountmax: 2
+    entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entityreactionfactor: 0.25
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.0020000000949949026
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 0.6700000166893005
+    falloff: 11250.0
+    gfxboosterid: 394
+    gfxturretid: 390
+    hp: 1500.0
+    id: 55018
+    kineticdamageresonance: 0.6700000166893005
+    maxlockedtargets: 7
+    maxrange: 36000.0
+    maxtargetrange: 100000.0
+    maxvelocity: 2500.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Type-A Anomalous Alvior
+    npcassistancerange: 5000
+    npcbehaviormaximumcombatorbitrange: 5000
+    npcremotearmorrepairchance: 1.0
+    npcremotearmorrepairduration: 10000
+    npcremotearmorrepairthreshold: 0.25
+    optimalsigradius: 40000
+    packagedVolume: 60.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 50.0
+    rechargerate: 200000.0
+    scanladarstrength: 15.0
+    scanresolution: 700.0
+    scanspeed: 2000
+    shieldcapacity: 2000.0
+    shieldemdamageresonance: 0.800000011920929
+    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 125.0
+    speed: 3000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.6700000166893005
+    trackingspeed: 1000.0
+    volume: 60.0
+    warpspeedmultiplier: 20.0
+  Type-D Anomalous Alvior:
+    agility: 0.4000000059604645
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.800000011920929
+    armorhp: 1500.0
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 1.0
+    behaviorarmorrepaireramount: 25
+    behaviorarmorrepairerdischarge: 15
+    behaviorarmorrepairerduration: 4500
+    behaviorenergyneutralizerdischarge: 25.0
+    behaviorenergyneutralizerduration: 6000
+    behaviorenergyneutralizerfalloff: 8000
+    behaviorenergyneutralizerrange: 4000
+    behaviorshieldboosteramount: 25
+    behaviorshieldboosterdischarge: 15
+    behaviorshieldboosterduration: 3000
+    behaviorwarpdisruptdischarge: 1.0
+    behaviorwarpdisruptduration: 5000
+    behaviorwarpdisruptrange: 25000
+    behaviorwarpdisruptstrength: 1
+    capacitorcapacity: 800.0
+    capacity: 1200.0
+    damagemultiplier: 30.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 0.6700000166893005
+    energyneutralizeramount: 40.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 10000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 300.0
+    entityequipmentgroupmax: 4
+    entityequipmentmax: 2
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 200000
+    entitylootcountmax: 2
+    entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 4
+    entityreactionfactor: 0.25
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.0020000000949949026
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamage: 5.0
+    explosivedamageresonance: 0.8999999761581421
+    falloff: 11250.0
+    gfxboosterid: 394
+    gfxturretid: 390
+    hp: 1500.0
+    id: 55019
+    kineticdamageresonance: 0.6700000166893005
+    maxlockedtargets: 7
+    maxrange: 36000.0
+    maxtargetrange: 100000.0
+    maxvelocity: 2500.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Type-D Anomalous Alvior
+    npcassistancerange: 5000
+    npcbehaviormaximumcombatorbitrange: 5000
+    npcremotearmorrepairchance: 1.0
+    npcremotearmorrepairduration: 10000
+    npcremotearmorrepairthreshold: 0.25
+    optimalsigradius: 40000
+    packagedVolume: 60.0
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 50.0
+    rechargerate: 200000.0
+    scanradarstrength: 15.0
+    scanresolution: 700.0
+    scanspeed: 2000
+    shieldcapacity: 2000.0
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.800000011920929
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 625000.0
+    shieldthermaldamageresonance: 0.6000000238418579
+    shielduniformity: 0.75
+    signatureradius: 125.0
+    speed: 3000.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.6700000166893005
+    trackingspeed: 1000.0
+    volume: 60.0
+    warpspeedmultiplier: 20.0
   Voivode Jarognik Kikimora:
     agility: 1.0
     aitankingmodifierdrone: 0.699999988079071
@@ -1699,6 +1909,7 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
+    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -1719,4 +1930,4 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 10.0
     volume: 43000.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0

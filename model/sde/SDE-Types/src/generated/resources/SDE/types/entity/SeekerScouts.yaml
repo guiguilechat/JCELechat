@@ -237,7 +237,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.07000000029802322
+    missiledamagemultiplier: 0.05000000074505806
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -386,7 +386,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 350.0
-    missiledamagemultiplier: 0.05000000074505806
+    missiledamagemultiplier: 0.029999999329447746
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -503,7 +503,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.07000000029802322
+    missiledamagemultiplier: 0.05000000074505806
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -679,7 +679,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.07000000029802322
+    missiledamagemultiplier: 0.05000000074505806
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
@@ -923,7 +923,7 @@ types:
     maxattacktargets: 1
     maxlockedtargets: 2
     maxvelocity: 320.0
-    missiledamagemultiplier: 0.07000000029802322
+    missiledamagemultiplier: 0.05000000074505806
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0

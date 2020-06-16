@@ -468,6 +468,44 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 8.0
     volume: 0.009999999776482582
+  Large Vorton Projector:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 5
+    id: 54826
+    marketGroup: 364
+    name: Large Vorton Projector
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.8E7
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 55033
+    requiredskill1level: 5
+    requiredskill2: 55035
+    requiredskill2level: 3
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
+  Large Vorton Specialization:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
+    id: 54829
+    marketGroup: 364
+    name: Large Vorton Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E7
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 54841
+    requiredskill1level: 5
+    requiredskill2: 54826
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
+    volume: 0.009999999776482582
   Medium Artillery Specialization:
     cannotbetrainedontrial: 1
     damagemultiplierbonus: 2
@@ -685,6 +723,7 @@ types:
     name: Medium Vorton Projector
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.125E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -694,6 +733,25 @@ types:
     requiredskill2level: 3
     secondaryattribute: 168
     skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  Medium Vorton Specialization:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
+    id: 54828
+    marketGroup: 364
+    name: Medium Vorton Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 9000000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 54841
+    requiredskill1level: 4
+    requiredskill2: 55035
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Motion Prediction:
     cannotbetrainedontrial: 1
@@ -955,6 +1013,7 @@ types:
     name: Small Vorton Projector
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.03E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -962,6 +1021,25 @@ types:
     requiredskill1level: 1
     secondaryattribute: 168
     skilltimeconstant: 1.0
+    volume: 0.009999999776482582
+  Small Vorton Specialization:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 2
+    id: 54827
+    marketGroup: 364
+    name: Small Vorton Specialization
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 6000000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 54841
+    requiredskill1level: 3
+    requiredskill2: 55034
+    requiredskill2level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 3.0
     volume: 0.009999999776482582
   Surgical Strike:
     cannotbetrainedontrial: 1
@@ -1014,6 +1092,58 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
+  Vorton Arc Extension:
+    cannotbetrainedontrial: 1
+    id: 55511
+    marketGroup: 364
+    name: Vorton Arc Extension
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 100000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    rangeskillbonus: 5
+    requiredskill1: 55033
+    requiredskill1level: 2
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  Vorton Arc Guidance:
+    aoecloudsizebonus: -5.0
+    aoevelocitybonus: 10.0
+    cannotbetrainedontrial: 1
+    id: 54841
+    marketGroup: 364
+    name: Vorton Arc Guidance
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 90000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 55033
+    requiredskill1level: 2
+    secondaryattribute: 168
+    skilltimeconstant: 2.0
+    volume: 0.009999999776482582
+  Vorton Power Amplification:
+    cannotbetrainedontrial: 1
+    damagemultiplierbonus: 3
+    id: 54840
+    marketGroup: 364
+    name: Vorton Power Amplification
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1500000.0
+    primaryattribute: 167
+    published: true
+    radius: 1.0
+    requiredskill1: 55033
+    requiredskill1level: 4
+    secondaryattribute: 168
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582
   Vorton Projector Operation:
     cannotbetrainedontrial: 1
     id: 55033
@@ -1021,6 +1151,7 @@ types:
     name: Vorton Projector Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.03E7
     primaryattribute: 167
     published: true
     radius: 1.0

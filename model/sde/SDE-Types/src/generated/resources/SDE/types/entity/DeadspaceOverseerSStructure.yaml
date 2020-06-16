@@ -1,8 +1,13 @@
 types:
   Akkeshu's Storage Facility:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -11,9 +16,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 5
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 25377
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -23,14 +30,24 @@ types:
     published: false
     radius: 911.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   Altar of the Blessed:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -39,9 +56,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 40000.0
     id: 24243
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -51,13 +70,23 @@ types:
     published: false
     radius: 2787.0
     shieldcapacity: 10000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Amarr Battlestation:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -66,9 +95,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 200000.0
     id: 23642
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -77,13 +108,23 @@ types:
     published: false
     radius: 14592.0
     shieldcapacity: 100000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
   Angel Battlestation:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -92,9 +133,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 200000.0
     id: 19487
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -104,14 +147,24 @@ types:
     published: false
     radius: 6185.0
     shieldcapacity: 50000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Angel Control Center:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -120,9 +173,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 26251
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -132,23 +187,35 @@ types:
     published: false
     radius: 834.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Angel Information Center:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 100000.0
     id: 22232
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -158,14 +225,24 @@ types:
     published: false
     radius: 4974.0
     shieldcapacity: 50000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Angel Radiating Telescope:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -174,9 +251,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 7
     entitylootcountmin: 4
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 12000.0
     id: 19558
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -186,15 +265,25 @@ types:
     published: false
     radius: 2636.0
     shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Angels Retirement Home:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 1
     entitychasemaxdistance: 2500
@@ -204,9 +293,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 17422
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -216,15 +307,25 @@ types:
     published: false
     radius: 379.0
     shieldcapacity: 93000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Assembly Management HQ:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -232,9 +333,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 5000.0
     id: 17994
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -244,14 +347,24 @@ types:
     published: false
     radius: 3394.0
     shieldcapacity: 80000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 120000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Asteroid Colony:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 3500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -260,9 +373,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 5000.0
     id: 20162
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -272,13 +387,23 @@ types:
     published: false
     radius: 4007.0
     shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Asteroid Deadspace Mining Post:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -287,9 +412,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 15000.0
     id: 23522
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -299,14 +426,24 @@ types:
     published: false
     radius: 9213.0
     shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0
   Asteroid Station:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 3000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -315,9 +452,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 6000.0
     id: 24262
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -327,15 +466,25 @@ types:
     published: false
     radius: 2617.0
     shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Barou Lardoss's Iteron:
     agentid: 3018459
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 600.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -344,9 +493,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 600.0
     id: 22182
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -356,14 +507,24 @@ types:
     published: false
     radius: 553.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Barricaded Warehouse:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -372,9 +533,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 21617
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -384,14 +547,24 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Bastion Museum:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -400,9 +573,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 5
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 8000.0
     id: 22098
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -412,15 +587,25 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Biodome Gardens:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -429,9 +614,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 17273
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -441,14 +628,24 @@ types:
     published: false
     radius: 4974.0
     shieldcapacity: 500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Blasted Neon Sign_mission:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -457,9 +654,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 1
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 50.0
     id: 24761
+    kineticdamageresonance: 1.0
     lootrespawntime: 120000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -469,14 +668,24 @@ types:
     published: false
     radius: 1348.0
     shieldcapacity: 50.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Blood Kernel:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -485,9 +694,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 50000.0
     id: 23964
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -497,14 +708,24 @@ types:
     published: false
     radius: 711.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Blood Raider Chapel:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1200.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -513,9 +734,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 800.0
     id: 20196
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -525,14 +748,24 @@ types:
     published: false
     radius: 971.0
     shieldcapacity: 450.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Blood Raider Control Center:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -541,9 +774,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 26247
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -553,14 +788,24 @@ types:
     published: false
     radius: 703.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Blood Research Outpost:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -569,9 +814,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 400.0
     id: 26733
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -581,14 +828,24 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Brothel:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -597,9 +854,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 22320
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -609,14 +868,24 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   COSMOS Storage Silo:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -625,9 +894,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 10000.0
     id: 21459
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -637,14 +908,24 @@ types:
     published: false
     radius: 1226.0
     shieldcapacity: 500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Caldari Broadcasting Unit:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -653,9 +934,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 22739
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -665,13 +948,23 @@ types:
     published: false
     radius: 70.0
     shieldcapacity: 3000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Caldari Research Outpost:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 50000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -680,9 +973,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 4
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 50000.0
     id: 25360
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -691,14 +986,24 @@ types:
     published: false
     radius: 12748.0
     shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
   Captive Fighting Arena:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -706,9 +1011,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 15000.0
     id: 18645
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -718,14 +1025,24 @@ types:
     published: false
     radius: 2495.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Cartel Research Outpost:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -734,9 +1051,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 400.0
     id: 26731
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -746,15 +1065,25 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Centus Reprocessing Station:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -763,9 +1092,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 70000.0
     id: 19957
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -775,14 +1106,24 @@ types:
     published: false
     radius: 1218.0
     shieldcapacity: 60000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 95000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   ComLink Scanner:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 930.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -791,9 +1132,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 200.0
     id: 22031
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -803,15 +1146,25 @@ types:
     published: false
     radius: 70.0
     shieldcapacity: 930.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 86400.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Core Serpentis Operational Headquarters:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -820,9 +1173,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 25000.0
     id: 24579
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -832,14 +1187,24 @@ types:
     published: false
     radius: 8380.0
     shieldcapacity: 6000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 600000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Core Serpentis Sentry:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 40000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -848,9 +1213,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 10000.0
     id: 23908
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -860,14 +1227,24 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Cracked Hive Mind Cage:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -876,9 +1253,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 3000.0
     id: 23688
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -888,15 +1267,25 @@ types:
     published: false
     radius: 717.0
     shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   CreoCorp Main Factory:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 200.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -905,9 +1294,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 150.0
     id: 17632
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -917,14 +1308,24 @@ types:
     published: false
     radius: 4007.0
     shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Damaged Portal:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 93000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -933,9 +1334,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 15000.0
     id: 22158
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -945,14 +1348,24 @@ types:
     published: false
     radius: 890.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Deadspace Control Station:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -961,9 +1374,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 500.0
     id: 17645
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -973,15 +1388,25 @@ types:
     published: false
     radius: 9213.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0
   Deadspace Synchronization HQ:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 600.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -990,9 +1415,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 600.0
     id: 17631
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1002,14 +1429,108 @@ types:
     published: false
     radius: 4737.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
+  Decloaked Backup Storage Vault:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 20000.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitybracketcolour: 1
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 1
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 10000.0
+    id: 54998
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Decloaked Backup Storage Vault
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: false
+    radius: 937.0
+    shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 4000.0
+  Decloaked Infested Fluid Router Relay:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 20000.0
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitybracketcolour: 1
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 3
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    entitylootcountmax: 3
+    entitylootcountmin: 1
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    hp: 10000.0
+    id: 54999
+    kineticdamageresonance: 1.0
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: Decloaked Infested Fluid Router Relay
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: false
+    radius: 937.0
+    shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
+    shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
+    signatureradius: 2000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 4000.0
   Decloaked Transmission Relay:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     capacity: 10000.0
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1018,9 +1539,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 500000.0
     id: 41589
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1030,14 +1553,24 @@ types:
     published: false
     radius: 7684.0
     shieldcapacity: 1000000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 5000000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 20000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Deserted Nefantar Bunker:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1046,9 +1579,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 22241
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1058,15 +1593,25 @@ types:
     published: false
     radius: 713.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Deserted Starbase Storage Facility:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1075,9 +1620,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 19560
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1087,15 +1634,25 @@ types:
     published: false
     radius: 911.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   Dewak's First Officer's HQ:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1104,9 +1661,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 19590
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1116,15 +1675,25 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Docked & Loaded Mammoth:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 600.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1132,9 +1701,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 6000.0
     id: 17747
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1144,14 +1715,24 @@ types:
     published: false
     radius: 660.0
     shieldcapacity: 60000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 86400.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Drug Storage Facility:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1161,9 +1742,11 @@ types:
     entitykillbounty: 10000
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 23240
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1173,14 +1756,24 @@ types:
     published: false
     radius: 911.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   Dry River Warehouse:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1189,9 +1782,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 21519
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1201,14 +1796,24 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Dysfunctional Raid Drone:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 200.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1217,9 +1822,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 300.0
     id: 23689
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1229,14 +1836,24 @@ types:
     published: false
     radius: 222.0
     shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Elere Febre's Habitation module:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1245,9 +1862,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 5
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 23514
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1257,14 +1876,24 @@ types:
     published: false
     radius: 379.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Expeditionary Storage Facility:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1273,9 +1902,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 10000.0
     id: 25402
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1285,14 +1916,24 @@ types:
     published: false
     radius: 1226.0
     shieldcapacity: 500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   FON Operation Station:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1301,9 +1942,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 400.0
     id: 23617
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1313,15 +1956,25 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Flimsy Pirate Base:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 50.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     capacity: 8850.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1330,9 +1983,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 60.0
     id: 27279
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1342,14 +1997,24 @@ types:
     published: false
     radius: 782.0
     shieldcapacity: 30.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 150.0
   Force Repeller Relic:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1358,9 +2023,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1.0
     id: 24351
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1370,15 +2037,25 @@ types:
     published: false
     radius: 15000.0
     shieldcapacity: 9000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 5.64E7
+    shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Gallente Miner:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 600.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 500.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1387,9 +2064,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 1
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 600.0
     id: 22184
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1399,15 +2078,25 @@ types:
     published: false
     radius: 31.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 22500.0
   Gardan's Fantasy Complex:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 9300.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1416,9 +2105,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 15000.0
     id: 17390
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1428,14 +2119,24 @@ types:
     published: false
     radius: 4737.0
     shieldcapacity: 9300.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Gas/Storage Silo:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1444,9 +2145,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 5
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 10000.0
     id: 21627
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1456,15 +2159,25 @@ types:
     published: false
     radius: 1226.0
     shieldcapacity: 500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Gate Security:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1473,9 +2186,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 2000.0
     id: 17891
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1485,15 +2200,25 @@ types:
     published: false
     radius: 2313.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   General Lafema:
     agentid: 3018460
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1502,9 +2227,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 2500.0
     id: 21861
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1514,15 +2241,25 @@ types:
     published: false
     radius: 660.0
     shieldcapacity: 1800.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   General Minas Iksan:
     agentid: 3018529
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 50000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 7250.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1531,9 +2268,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 35000.0
     id: 22704
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1543,14 +2282,24 @@ types:
     published: false
     radius: 1700.0
     shieldcapacity: 45000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.85E7
   Generator Building:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1559,9 +2308,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 7000.0
     id: 24256
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1571,14 +2322,24 @@ types:
     published: false
     radius: 3394.0
     shieldcapacity: 6000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Gisti Repair Station:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 930.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1587,9 +2348,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 200.0
     id: 22161
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1599,14 +2362,24 @@ types:
     published: false
     radius: 1045.0
     shieldcapacity: 930.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 86400.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Guristas Bunker_MISSION:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1615,9 +2388,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 19565
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1627,14 +2402,24 @@ types:
     published: false
     radius: 949.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Guristas Control Center:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1643,9 +2428,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 26248
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1655,14 +2442,24 @@ types:
     published: false
     radius: 949.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Guristas Research Outpost:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1671,9 +2468,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 400.0
     id: 26735
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1683,14 +2482,24 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Guristas Starbase Control Tower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1699,9 +2508,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 800.0
     id: 20326
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1711,14 +2522,24 @@ types:
     published: false
     radius: 3275.0
     shieldcapacity: 500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   Guristas War Installation:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1727,9 +2548,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 8
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 200000.0
     id: 25717
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1739,14 +2562,24 @@ types:
     published: false
     radius: 11451.0
     shieldcapacity: 50000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Guristas_Small Armory:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 930.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1755,9 +2588,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 200.0
     id: 25388
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1767,14 +2602,24 @@ types:
     published: false
     radius: 1045.0
     shieldcapacity: 930.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 86400.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Habitation Module:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1783,9 +2628,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 22794
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1795,14 +2642,24 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Habitation Module - Tsuna's Science Labs:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 6000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1811,9 +2668,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 4
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 3000.0
     id: 20523
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1823,14 +2682,24 @@ types:
     published: false
     radius: 379.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Hiding Hole:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1839,9 +2708,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 5
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 22039
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1851,15 +2722,25 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Hive Under Construction:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1868,9 +2749,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 15000.0
     id: 19427
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1880,15 +2763,25 @@ types:
     published: false
     radius: 50752.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Industrial Derelict:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 600.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1897,9 +2790,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 600.0
     id: 19653
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1909,14 +2804,24 @@ types:
     published: false
     radius: 553.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Infested station ruins:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 15000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1925,9 +2830,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 10000.0
     id: 19742
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1937,15 +2844,25 @@ types:
     published: false
     radius: 5858.0
     shieldcapacity: 8000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Inner Sanctum:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -1954,9 +2871,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 10000.0
     id: 17613
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -1966,14 +2885,24 @@ types:
     published: false
     radius: 971.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Kameira Quarters:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -1982,9 +2911,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 50000.0
     id: 22750
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -1994,14 +2925,24 @@ types:
     published: false
     radius: 4737.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Kazka Brothel:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2010,9 +2951,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 21622
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2022,13 +2965,23 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Lephny's Mining Post:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2037,9 +2990,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 2000.0
     id: 20542
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2049,14 +3004,24 @@ types:
     published: false
     radius: 9213.0
     shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0
   Low-Tech Deadspace Energy Harvester:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 300.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2065,9 +3030,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 5
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 500.0
     id: 19557
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2077,15 +3044,25 @@ types:
     published: false
     radius: 120.0
     shieldcapacity: 100.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Megathron under frantic repair:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2094,9 +3071,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 4500.0
     id: 17748
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2106,14 +3085,24 @@ types:
     published: false
     radius: 539.0
     shieldcapacity: 80000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 86400.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Metal Scraps In Storage:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2122,9 +3111,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 19708
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2134,14 +3125,24 @@ types:
     published: false
     radius: 911.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   Minmatar Command Post:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2150,9 +3151,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 1
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 22710
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2162,14 +3165,24 @@ types:
     published: false
     radius: 471.0
     shieldcapacity: 3000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Minmatar Starbase Control Tower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2178,9 +3191,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 22709
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2190,15 +3205,25 @@ types:
     published: false
     radius: 3346.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   Non-Secured Asteroid Colony:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2207,9 +3232,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 500.0
     id: 17799
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2219,14 +3246,24 @@ types:
     published: false
     radius: 4737.0
     shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Officers Quarters:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2235,9 +3272,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 5
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 21600
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2247,14 +3286,24 @@ types:
     published: false
     radius: 379.0
     shieldcapacity: 8250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Oggiin Kalda's Residence:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2263,9 +3312,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 22725
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2275,14 +3326,24 @@ types:
     published: false
     radius: 379.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Okelle's Pleasure Hub:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2290,9 +3351,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 100000.0
     id: 26168
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2302,14 +3365,24 @@ types:
     published: false
     radius: 4974.0
     shieldcapacity: 50000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Old Nefantar Bunker:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2318,9 +3391,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 21884
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2330,15 +3405,25 @@ types:
     published: false
     radius: 713.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Oofus's Repair Shop:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 930.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2347,9 +3432,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 150.0
     id: 17275
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2359,14 +3446,24 @@ types:
     published: false
     radius: 372.0
     shieldcapacity: 930.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 864000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Overseer's Stash:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1000
@@ -2375,9 +3472,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 5
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 24771
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2387,13 +3486,23 @@ types:
     published: false
     radius: 753.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Pagera Manton:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2402,9 +3511,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 4
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 200000.0
     id: 25734
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2413,13 +3524,23 @@ types:
     published: false
     radius: 13991.0
     shieldcapacity: 100000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
   Pend Insurance Storage Bin:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2428,9 +3549,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 23413
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2440,14 +3563,24 @@ types:
     published: false
     radius: 911.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   Pirate Headquarters:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 9000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2456,9 +3589,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 9000.0
     id: 19504
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2468,15 +3603,25 @@ types:
     published: false
     radius: 4737.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Radiating Telescope:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2485,9 +3630,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 20000.0
     id: 18632
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2497,14 +3644,24 @@ types:
     published: false
     radius: 2636.0
     shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Radio Telescope:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 800.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2513,9 +3670,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 20329
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2525,14 +3684,24 @@ types:
     published: false
     radius: 2636.0
     shieldcapacity: 700.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Refitted Bestower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 600.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2541,9 +3710,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 600.0
     id: 22145
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2553,14 +3724,24 @@ types:
     published: false
     radius: 660.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Rent-A-Dream Pleasure Gardens:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 3000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2568,9 +3749,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1500.0
     id: 21635
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2580,14 +3763,24 @@ types:
     published: false
     radius: 4974.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Runner's Relay Station:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2596,9 +3789,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 23600
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2608,14 +3803,24 @@ types:
     published: false
     radius: 738.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Sansha Control Center:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2624,9 +3829,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 26249
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2636,14 +3843,24 @@ types:
     published: false
     radius: 753.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Sansha Deadspace Outpost:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 3000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2652,9 +3869,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 4000.0
     id: 26606
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2664,15 +3883,25 @@ types:
     published: false
     radius: 1239.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Sansha Outpost Administration Building:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2681,9 +3910,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 18633
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2693,14 +3924,24 @@ types:
     published: false
     radius: 1239.0
     shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Sansha Research Outpost:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2709,9 +3950,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 400.0
     id: 26736
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2721,14 +3964,24 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Scanner Post:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 930.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2737,9 +3990,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 1
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 200.0
     id: 22757
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2749,14 +4004,24 @@ types:
     published: false
     radius: 70.0
     shieldcapacity: 930.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 86400.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Scanner Tower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2765,9 +4030,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 5000.0
     id: 22289
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2777,14 +4044,24 @@ types:
     published: false
     radius: 2636.0
     shieldcapacity: 2000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Scramble Wave Generator:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2793,9 +4070,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 17979
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2805,14 +4084,24 @@ types:
     published: false
     radius: 1263.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0
   Sentry Station Alpha/Beta:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2821,9 +4110,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 400.0
     id: 23960
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2833,14 +4124,24 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Serpentis Bunker:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2849,9 +4150,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 800.0
     id: 20325
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2861,14 +4164,24 @@ types:
     published: false
     radius: 738.0
     shieldcapacity: 650.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Serpentis Command Outpost:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2877,9 +4190,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 400.0
     id: 23696
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2889,14 +4204,24 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Serpentis Control Center:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2905,9 +4230,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 26250
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2917,14 +4244,24 @@ types:
     published: false
     radius: 738.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Serpentis Narcotics Storage:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -2933,9 +4270,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 23567
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -2945,14 +4284,24 @@ types:
     published: false
     radius: 738.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Serpentis Repackaging Factory:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 100000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2961,9 +4310,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 200000.0
     id: 23695
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -2973,14 +4324,24 @@ types:
     published: false
     radius: 8380.0
     shieldcapacity: 50000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Serpentis Research Outpost:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -2989,9 +4350,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 400.0
     id: 26738
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3001,14 +4364,24 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Serpentis Stronghold:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 20000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3017,9 +4390,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 5000.0
     id: 23520
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3029,15 +4404,25 @@ types:
     published: false
     radius: 8380.0
     shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Serpentis Supply Stronghold:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3046,9 +4431,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 20000.0
     id: 17818
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3058,14 +4445,24 @@ types:
     published: false
     radius: 8380.0
     shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Shattered Hive Mind Cage:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 2000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3074,9 +4471,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 3000.0
     id: 23691
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3086,13 +4485,23 @@ types:
     published: false
     radius: 717.0
     shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Shielded Prison Facility:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1000
@@ -3100,9 +4509,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 25384
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3112,14 +4523,24 @@ types:
     published: false
     radius: 1263.0
     shieldcapacity: 10600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0
   Sispur Estate Control Tower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3128,9 +4549,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 2000.0
     id: 22156
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3140,15 +4563,25 @@ types:
     published: false
     radius: 3346.0
     shieldcapacity: 2500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   Slaver Rig Control Tower:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3156,9 +4589,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 17821
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3168,14 +4603,24 @@ types:
     published: false
     radius: 3394.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Small Rebel Base:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3184,9 +4629,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 22059
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3196,14 +4643,24 @@ types:
     published: false
     radius: 713.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Special Forces Command Post:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 3000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3212,9 +4669,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 2000.0
     id: 22047
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3224,15 +4683,25 @@ types:
     published: false
     radius: 471.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Staff Quarters:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3241,9 +4710,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 17822
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3253,14 +4724,24 @@ types:
     published: false
     radius: 379.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Starbase Major Assembly Array:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3269,9 +4750,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 5
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 24671
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3281,14 +4764,24 @@ types:
     published: false
     radius: 1672.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Starbase Storage Facility:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 8850.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3297,9 +4790,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 6
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 19622
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3309,15 +4804,25 @@ types:
     published: false
     radius: 911.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1150.0
   Stargate under construction and repair:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 93000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3326,9 +4831,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 50000.0
     id: 17135
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3338,14 +4845,24 @@ types:
     published: false
     radius: 5991.0
     shieldcapacity: 93000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Storage Silo:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3354,9 +4871,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 10000.0
     id: 24751
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3366,15 +4885,25 @@ types:
     published: false
     radius: 1226.0
     shieldcapacity: 500.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Strain Operation Bunker:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 200.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3383,9 +4912,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: -3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 300.0
     id: 19426
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3395,14 +4926,24 @@ types:
     published: false
     radius: 717.0
     shieldcapacity: 200.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Subspace Data Miner:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3411,9 +4952,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 19738
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3423,15 +4966,25 @@ types:
     published: false
     radius: 2636.0
     shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Supply Traffic Management:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3440,9 +4993,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 400.0
     id: 17820
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3452,14 +5007,24 @@ types:
     published: false
     radius: 918.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Temple of the Revelation:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 12500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3468,9 +5033,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 15000.0
     id: 24257
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3480,14 +5047,24 @@ types:
     published: false
     radius: 971.0
     shieldcapacity: 5000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   The Damsels Wimpy Brothel:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3496,9 +5073,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 1
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 19502
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3508,14 +5087,24 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   The Damsels Wimpy Prison:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3524,9 +5113,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 1
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1000.0
     id: 19501
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3536,15 +5127,25 @@ types:
     published: false
     radius: 416.0
     shieldcapacity: 250.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Thorak's Biodome Garden:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3553,9 +5154,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 3
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 150.0
     id: 17614
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3565,15 +5168,25 @@ types:
     published: false
     radius: 4974.0
     shieldcapacity: 150.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 6000000.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Thukker Component Assembly Facility:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 10000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     armoruniformity: 1.0
     capacity: 20000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3582,9 +5195,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 10000.0
     id: 33910
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3594,15 +5209,25 @@ types:
     published: false
     radius: 937.0
     shieldcapacity: 600.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 2000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 4000.0
   UNUSED_CargoRig_LCS_DL1_DCP1:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 530.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3611,9 +5236,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 15000.0
     id: 17563
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3623,15 +5250,25 @@ types:
     published: false
     radius: 1255.0
     shieldcapacity: 530.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 930.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3640,9 +5277,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 4
     entitylootcountmin: 2
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 150.0
     id: 17179
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3652,15 +5291,25 @@ types:
     published: false
     radius: 713.0
     shieldcapacity: 930.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   UNUSED_Gist_Bunker_LCS_ID104_DL5_DCP1:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3669,9 +5318,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 700.0
     id: 17388
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3681,15 +5332,25 @@ types:
     published: false
     radius: 834.0
     shieldcapacity: 6000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   UNUSED_HabMod_Residential_LCS:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 500.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
     disallowoffensivemodifiers: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 5000
@@ -3698,9 +5359,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 300.0
     id: 17633
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3710,14 +5373,24 @@ types:
     published: false
     radius: 379.0
     shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Unstable Particle Acceleration Superstructure:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 5000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3726,9 +5399,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 2
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 10000.0
     id: 27292
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.5
     missileentityvelocitymultiplier: 1.5
@@ -3738,14 +5413,24 @@ types:
     published: false
     radius: 4553.0
     shieldcapacity: 3000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Wiyrkomi Surveillance Outpost:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 4000.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3754,9 +5439,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 10
     entitylootcountmin: 5
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 4000.0
     id: 23593
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3766,14 +5453,24 @@ types:
     published: false
     radius: 300.0
     shieldcapacity: 4000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 8.64E7
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8
   Yan Jung Gargoyle:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
     armorhp: 1930.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
     capacity: 10000.0
     disallowassistance: 1
+    emdamageresonance: 1.0
     entityattackrange: 15000
     entitychasemaxdistance: 2500
     entityequipmentgroupmax: 1
@@ -3782,9 +5479,11 @@ types:
     entityflyrange: 500.0
     entitylootcountmax: 3
     entitylootcountmin: 1
+    explosivedamageresonance: 1.0
     falloff: 1.0
     hp: 1600.0
     id: 24356
+    kineticdamageresonance: 1.0
     lootrespawntime: 600000.0
     missileentityflighttimemultiplier: 1.0
     missileentityvelocitymultiplier: 1.0
@@ -3794,7 +5493,12 @@ types:
     published: false
     radius: 70.0
     shieldcapacity: 1930.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 1.0
+    shieldkineticdamageresonance: 1.0
     shieldrechargerate: 86400.0
+    shieldthermaldamageresonance: 1.0
     signatureradius: 1000.0
     structureuniformity: 1.0
+    thermaldamageresonance: 1.0
     volume: 1.0E8

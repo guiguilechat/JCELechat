@@ -696,6 +696,15 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  Stormbringer Blueprint:
+    id: 54843
+    industryjobcostmultiplier: 1
+    name: Stormbringer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
   Stratios Blueprint:
     id: 33471
     industryblueprintrank: 40.0

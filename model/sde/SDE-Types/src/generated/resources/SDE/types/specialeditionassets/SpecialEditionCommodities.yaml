@@ -907,6 +907,22 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Federation Day Clothing Crate:
+    cpumultiplier: 1.0
+    id: 55746
+    name: Federation Day Clothing Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Federation Day Fireworks Crate:
+    cpumultiplier: 1.0
+    id: 55745
+    name: Federation Day Fireworks Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Federation Grand Prix Bronze Package:
     cpumultiplier: 1.0
     id: 48375
@@ -1144,6 +1160,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Flow Cytometry Rewards Crate:
+    cpumultiplier: 1.0
+    id: 55358
+    marketGroup: 1661
+    name: Flow Cytometry Rewards Crate
+    packagedVolume: 6000.0
+    portionSize: 1
+    published: true
+    volume: 6000.0
   Forged Frigate Blueprints:
     cpumultiplier: 1.0
     id: 44208
@@ -2375,6 +2400,15 @@ types:
     id: 46050
     marketGroup: 1661
     name: Superior Exoplanets Hunter Reward Crate
+    packagedVolume: 6000.0
+    portionSize: 1
+    published: true
+    volume: 6000.0
+  Superior Flow Cytometry Rewards Crate:
+    cpumultiplier: 1.0
+    id: 55359
+    marketGroup: 1661
+    name: Superior Flow Cytometry Rewards Crate
     packagedVolume: 6000.0
     portionSize: 1
     published: true

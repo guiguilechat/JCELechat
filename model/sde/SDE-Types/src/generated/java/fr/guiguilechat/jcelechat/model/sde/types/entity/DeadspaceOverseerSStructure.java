@@ -15,11 +15,16 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AgentID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorKineticDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowAssistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowOffensiveModifiers;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
@@ -31,8 +36,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LootRespawnTime;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
@@ -41,10 +48,15 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityVelocityMulti
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TrackingSpeed;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.Yaml;
@@ -60,12 +72,40 @@ public class DeadspaceOverseerSStructure
     @DefaultIntValue(0)
     public int agentid;
     /**
+     * Multiplies EM damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double armoremdamageresonance;
+    /**
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double armorexplosivedamageresonance;
+    /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double armorhp;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double armorkineticdamageresonance;
+    /**
+     * Multiplies THERMAL damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double armorthermaldamageresonance;
     /**
      * DO NOT MESS WITH
      */
@@ -94,6 +134,13 @@ public class DeadspaceOverseerSStructure
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowoffensivemodifiers;
+    /**
+     * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double emdamageresonance;
     /**
      * The distance from a target an entity starts using its weapons.
      */
@@ -175,6 +222,13 @@ public class DeadspaceOverseerSStructure
     @DefaultDoubleValue(0.0)
     public double entitysecuritystatuskillbonus;
     /**
+     * damage multiplier vs. explosive damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double explosivedamageresonance;
+    /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
@@ -188,6 +242,13 @@ public class DeadspaceOverseerSStructure
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double hp;
+    /**
+     * damage multiplier vs. kinetic damagers.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double kineticdamageresonance;
     /**
      * The number of milliseconds before the container replenishes the loot inside itself.
      */
@@ -246,12 +307,40 @@ public class DeadspaceOverseerSStructure
     @DefaultDoubleValue(0.0)
     public double shieldcharge;
     /**
+     * Multiplies EM damage taken by shield
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double shieldemdamageresonance;
+    /**
+     * Multiplies EXPLOSIVE damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double shieldexplosivedamageresonance;
+    /**
+     * Multiplies KINETIC damage taken by Armor. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double shieldkineticdamageresonance;
+    /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double shieldrechargerate;
+    /**
+     * Multiplies THERMAL damage taken by Shield. 
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double shieldthermaldamageresonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
@@ -274,13 +363,20 @@ public class DeadspaceOverseerSStructure
     @DefaultDoubleValue(1.0)
     public double structureuniformity;
     /**
+     * damage multiplier vs. thermal.
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultDoubleValue(1.0)
+    public double thermaldamageresonance;
+    /**
      * Weapon accuracy
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultDoubleValue(0.0)
     public double trackingspeed;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMin.INSTANCE, AgentID.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, DisallowAssistance.INSTANCE, LootRespawnTime.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, ShieldUniformity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, MaxRange.INSTANCE, EntityAttackRange.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, EntityEquipmentMin.INSTANCE, AgentID.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, DisallowAssistance.INSTANCE, LootRespawnTime.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, EntityBracketColour.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, EntityKillBounty.INSTANCE, Radius.INSTANCE, ShieldUniformity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, MaxRange.INSTANCE, EntityAttackRange.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
     public static final DeadspaceOverseerSStructure.MetaGroup METAGROUP = new DeadspaceOverseerSStructure.MetaGroup();
 
     @Override
@@ -290,9 +386,25 @@ public class DeadspaceOverseerSStructure
             {
                 return agentid;
             }
+            case  267 :
+            {
+                return armoremdamageresonance;
+            }
+            case  268 :
+            {
+                return armorexplosivedamageresonance;
+            }
             case  265 :
             {
                 return armorhp;
+            }
+            case  269 :
+            {
+                return armorkineticdamageresonance;
+            }
+            case  270 :
+            {
+                return armorthermaldamageresonance;
             }
             case  524 :
             {
@@ -309,6 +421,10 @@ public class DeadspaceOverseerSStructure
             case  872 :
             {
                 return disallowoffensivemodifiers;
+            }
+            case  113 :
+            {
+                return emdamageresonance;
             }
             case  247 :
             {
@@ -354,6 +470,10 @@ public class DeadspaceOverseerSStructure
             {
                 return entitysecuritystatuskillbonus;
             }
+            case  111 :
+            {
+                return explosivedamageresonance;
+            }
             case  158 :
             {
                 return falloff;
@@ -361,6 +481,10 @@ public class DeadspaceOverseerSStructure
             case  9 :
             {
                 return hp;
+            }
+            case  109 :
+            {
+                return kineticdamageresonance;
             }
             case  470 :
             {
@@ -394,9 +518,25 @@ public class DeadspaceOverseerSStructure
             {
                 return shieldcharge;
             }
+            case  271 :
+            {
+                return shieldemdamageresonance;
+            }
+            case  272 :
+            {
+                return shieldexplosivedamageresonance;
+            }
+            case  273 :
+            {
+                return shieldkineticdamageresonance;
+            }
             case  479 :
             {
                 return shieldrechargerate;
+            }
+            case  274 :
+            {
+                return shieldthermaldamageresonance;
             }
             case  484 :
             {
@@ -409,6 +549,10 @@ public class DeadspaceOverseerSStructure
             case  525 :
             {
                 return structureuniformity;
+            }
+            case  110 :
+            {
+                return thermaldamageresonance;
             }
             case  160 :
             {

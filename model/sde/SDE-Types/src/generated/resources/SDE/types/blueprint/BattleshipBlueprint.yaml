@@ -407,6 +407,15 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  Thunderchild Blueprint:
+    id: 54844
+    industryjobcostmultiplier: 1
+    name: Thunderchild Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
   Typhoon Blueprint:
     id: 998
     industryblueprintrank: 60.0

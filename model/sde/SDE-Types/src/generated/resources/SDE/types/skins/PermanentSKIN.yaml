@@ -1,4 +1,12 @@
 types:
+  Abaddon Biosecurity Responders SKIN:
+    id: 55310
+    marketGroup: 1964
+    name: Abaddon Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Abaddon Blood Raiders SKIN:
     id: 36913
     marketGroup: 1964
@@ -140,6 +148,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Abaddon Starline Majestic SKIN:
+    id: 55720
+    marketGroup: 1964
+    name: Abaddon Starline Majestic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Abaddon Tash-Murkon SKIN:
     id: 34624
     marketGroup: 1964
@@ -159,6 +175,14 @@ types:
     id: 46378
     marketGroup: 1964
     name: Abaddon Valkyrie SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Absolution Biosecurity Responders SKIN:
+    id: 55349
+    marketGroup: 2104
+    name: Absolution Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -239,6 +263,14 @@ types:
     id: 48243
     marketGroup: 2104
     name: Absolution Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Aeon Biosecurity Responders SKIN:
+    id: 55315
+    marketGroup: 1974
+    name: Aeon Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -377,6 +409,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Algos Biosecurity Responders SKIN:
+    id: 55576
+    marketGroup: 1996
+    name: Algos Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Algos Exoplanets Hunter SKIN:
     id: 45887
     marketGroup: 1996
@@ -503,6 +543,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Amarr Shuttle Biosecurity Responders SKIN:
+    id: 55331
+    marketGroup: 2387
+    name: Amarr Shuttle Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Amarr Shuttle Exoplanets Hunter SKIN:
     id: 45751
     marketGroup: 2387
@@ -515,6 +563,14 @@ types:
     id: 46773
     marketGroup: 2387
     name: Amarr Shuttle Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Anathema Biosecurity Responders SKIN:
+    id: 55342
+    marketGroup: 2051
+    name: Anathema Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -595,6 +651,14 @@ types:
     id: 52573
     marketGroup: 2051
     name: Anathema Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Anshar Biosecurity Responders SKIN:
+    id: 55625
+    marketGroup: 2097
+    name: Anshar Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -690,6 +754,14 @@ types:
     id: 53365
     marketGroup: 1964
     name: Apocalypse Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apocalypse Biosecurity Responders SKIN:
+    id: 55311
+    marketGroup: 1964
+    name: Apocalypse Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -806,6 +878,14 @@ types:
     id: 49817
     marketGroup: 1964
     name: Apocalypse Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apocalypse Navy Issue Biosecurity Responders SKIN:
+    id: 55336
+    marketGroup: 2108
+    name: Apocalypse Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -948,6 +1028,14 @@ types:
     id: 52392
     marketGroup: 1964
     name: Apocalypse Triglavian Twilight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apostle Biosecurity Responders SKIN:
+    id: 55320
+    marketGroup: 2278
+    name: Apostle Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1135,6 +1223,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Arazu Biosecurity Responders SKIN:
+    id: 55619
+    marketGroup: 2083
+    name: Arazu Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Arazu Exoplanets Hunter SKIN:
     id: 45900
     marketGroup: 2083
@@ -1218,6 +1314,14 @@ types:
   Arbitrator Ardishapur Serenity Only SKIN:
     id: 37899
     name: Arbitrator Ardishapur Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Arbitrator Biosecurity Responders SKIN:
+    id: 55326
+    marketGroup: 1990
+    name: Arbitrator Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1312,6 +1416,14 @@ types:
     id: 52407
     marketGroup: 1990
     name: Arbitrator Triglavian Twilight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Archon Biosecurity Responders SKIN:
+    id: 55316
+    marketGroup: 1974
+    name: Archon Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1442,6 +1554,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ares Biosecurity Responders SKIN:
+    id: 55631
+    marketGroup: 2061
+    name: Ares Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ares Exoplanets Hunter SKIN:
     id: 45882
     marketGroup: 2061
@@ -1502,6 +1622,14 @@ types:
     id: 37558
     marketGroup: 2061
     name: Ares Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ark Biosecurity Responders SKIN:
+    id: 55352
+    marketGroup: 2095
+    name: Ark Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1610,6 +1738,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Armageddon Biosecurity Responders SKIN:
+    id: 55317
+    marketGroup: 1964
+    name: Armageddon Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Armageddon Cold Iron SKIN:
     id: 42786
     marketGroup: 1964
@@ -1692,6 +1828,14 @@ types:
     id: 49818
     marketGroup: 1964
     name: Armageddon Lavacore Imperial SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Armageddon Navy Issue Biosecurity Responders SKIN:
+    id: 55335
+    marketGroup: 2108
+    name: Armageddon Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1857,6 +2001,14 @@ types:
   Ashimmu Serenity Splatter:
     id: 49461
     name: Ashimmu Serenity Splatter
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Astarte Biosecurity Responders SKIN:
+    id: 55612
+    marketGroup: 2106
+    name: Astarte Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2035,6 +2187,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Atron Biosecurity Responders SKIN:
+    id: 55596
+    marketGroup: 2004
+    name: Atron Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Atron Exoplanets Hunter SKIN:
     id: 45871
     marketGroup: 2004
@@ -2152,6 +2312,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Augoror Biosecurity Responders SKIN:
+    id: 55329
+    marketGroup: 1990
+    name: Augoror Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Augoror Cold Iron SKIN:
     id: 42767
     marketGroup: 1990
@@ -2217,6 +2385,14 @@ types:
   Augoror Khanid Serenity Only SKIN:
     id: 37943
     name: Augoror Khanid Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Augoror Navy Issue Biosecurity Responders SKIN:
+    id: 55333
+    marketGroup: 2063
+    name: Augoror Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2320,6 +2496,14 @@ types:
     id: 47305
     marketGroup: 1990
     name: Augoror Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Avatar Biosecurity Responders SKIN:
+    id: 55313
+    marketGroup: 1978
+    name: Avatar Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2490,10 +2674,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Avatar Starline Majestic SKIN:
+    id: 55722
+    marketGroup: 1978
+    name: Avatar Starline Majestic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Avatar Yoiul Star SKIN:
     id: 53422
     marketGroup: 1978
     name: Avatar Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Badger Biosecurity Responders SKIN:
+    id: 55515
+    marketGroup: 2008
+    name: Badger Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2565,6 +2765,14 @@ types:
     id: 53200
     marketGroup: 2008
     name: Badger Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bantam Biosecurity Responders SKIN:
+    id: 55532
+    marketGroup: 2003
+    name: Bantam Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2684,6 +2892,14 @@ types:
     id: 37967
     marketGroup: 1963
     name: Barghest Waschi Uprising 'Parade' SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Basilisk Biosecurity Responders SKIN:
+    id: 55556
+    marketGroup: 2078
+    name: Basilisk Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2808,6 +3024,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bellicose Biosecurity Responders SKIN:
+    id: 55637
+    marketGroup: 1993
+    name: Bellicose Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bellicose Blue Tiger SKIN:
     id: 36814
     marketGroup: 1993
@@ -2882,6 +3106,14 @@ types:
     id: 36767
     marketGroup: 1993
     name: Bellicose Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bestower Biosecurity Responders SKIN:
+    id: 55312
+    marketGroup: 2007
+    name: Bestower Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2988,6 +3220,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bifrost Biosecurity Responders SKIN:
+    id: 55693
+    marketGroup: 2145
+    name: Bifrost Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bifrost Eden's Hunters SKIN:
     id: 54910
     marketGroup: 2145
@@ -3032,6 +3272,14 @@ types:
     id: 40326
     marketGroup: 2145
     name: Bifrost Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Blackbird Biosecurity Responders SKIN:
+    id: 55514
+    marketGroup: 1991
+    name: Blackbird Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3255,6 +3503,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Breacher Biosecurity Responders SKIN:
+    id: 55639
+    marketGroup: 2005
+    name: Breacher Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Breacher Blue Tiger SKIN:
     id: 36798
     marketGroup: 2005
@@ -3322,6 +3578,14 @@ types:
     id: 36751
     marketGroup: 2005
     name: Breacher Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Broadsword Biosecurity Responders SKIN:
+    id: 55690
+    marketGroup: 2076
+    name: Broadsword Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3410,6 +3674,14 @@ types:
     id: 53244
     marketGroup: 1958
     name: Brutix Abyssal Firestorm SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Brutix Biosecurity Responders SKIN:
+    id: 55581
+    marketGroup: 1958
+    name: Brutix Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3505,6 +3777,14 @@ types:
     id: 53013
     marketGroup: 1958
     name: Brutix Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Brutix Navy Issue Biosecurity Responders SKIN:
+    id: 55607
+    marketGroup: 2103
+    name: Brutix Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3628,6 +3908,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Burst Biosecurity Responders SKIN:
+    id: 55640
+    marketGroup: 2005
+    name: Burst Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Burst Blue Tiger SKIN:
     id: 36799
     marketGroup: 2005
@@ -3687,6 +3975,14 @@ types:
     id: 36752
     marketGroup: 2005
     name: Burst Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bustard Biosecurity Responders SKIN:
+    id: 55551
+    marketGroup: 2089
+    name: Bustard Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3787,6 +4083,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Buzzard Biosecurity Responders SKIN:
+    id: 55570
+    marketGroup: 2052
+    name: Buzzard Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Buzzard Blue Tiger SKIN:
     id: 36713
     marketGroup: 2052
@@ -3867,6 +4171,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Caldari Navy Hookbill Biosecurity Responders SKIN:
+    id: 55547
+    marketGroup: 2000
+    name: Caldari Navy Hookbill Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caldari Navy Hookbill Exoplanets Hunter SKIN:
     id: 45826
     marketGroup: 2000
@@ -3911,6 +4223,14 @@ types:
     id: 53163
     marketGroup: 2000
     name: Caldari Navy Hookbill Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caldari Shuttle Biosecurity Responders SKIN:
+    id: 55534
+    marketGroup: 2388
+    name: Caldari Shuttle Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3974,6 +4294,14 @@ types:
     id: 53133
     marketGroup: 1991
     name: Caracal Abyssal Firestorm SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caracal Biosecurity Responders SKIN:
+    id: 55512
+    marketGroup: 1991
+    name: Caracal Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4054,6 +4382,14 @@ types:
     id: 40598
     marketGroup: 1991
     name: Caracal Matigu Seabeast SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caracal Navy Issue Biosecurity Responders SKIN:
+    id: 55542
+    marketGroup: 2063
+    name: Caracal Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4230,6 +4566,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Catalyst Biosecurity Responders SKIN:
+    id: 55575
+    marketGroup: 1996
+    name: Catalyst Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Catalyst Exoplanets Hunter SKIN:
     id: 45888
     marketGroup: 1996
@@ -4385,6 +4729,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Celestis Biosecurity Responders SKIN:
+    id: 55577
+    marketGroup: 1992
+    name: Celestis Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Celestis Exoplanets Hunter SKIN:
     id: 45892
     marketGroup: 1992
@@ -4475,6 +4827,14 @@ types:
     id: 47105
     marketGroup: 2070
     name: Cerberus "Blaze" Squadron SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cerberus Biosecurity Responders SKIN:
+    id: 55549
+    marketGroup: 2070
+    name: Cerberus Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4607,6 +4967,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Charon Biosecurity Responders SKIN:
+    id: 55527
+    marketGroup: 1985
+    name: Charon Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Charon Blue Tiger SKIN:
     id: 36749
     marketGroup: 1985
@@ -4694,6 +5062,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cheetah Biosecurity Responders SKIN:
+    id: 55677
+    marketGroup: 2054
+    name: Cheetah Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cheetah Blue Tiger SKIN:
     id: 36806
     marketGroup: 2054
@@ -4762,6 +5138,14 @@ types:
     id: 46822
     marketGroup: 2380
     name: Chemosh Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Chimera Biosecurity Responders SKIN:
+    id: 55518
+    marketGroup: 1975
+    name: Chimera Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4885,6 +5269,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Claw Biosecurity Responders SKIN:
+    id: 55685
+    marketGroup: 2062
+    name: Claw Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Claw Blue Tiger SKIN:
     id: 36809
     marketGroup: 2062
@@ -4957,6 +5349,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Claymore Biosecurity Responders SKIN:
+    id: 55698
+    marketGroup: 2107
+    name: Claymore Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Claymore Blue Tiger SKIN:
     id: 36827
     marketGroup: 2107
@@ -4969,6 +5369,14 @@ types:
     id: 45970
     marketGroup: 2107
     name: Claymore Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Claymore Freedom's Revolution SKIN:
+    id: 55712
+    marketGroup: 2107
+    name: Claymore Freedom's Revolution SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5040,6 +5448,14 @@ types:
     id: 53367
     marketGroup: 1994
     name: Coercer Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Coercer Biosecurity Responders SKIN:
+    id: 55323
+    marketGroup: 1994
+    name: Coercer Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5177,6 +5593,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Condor Biosecurity Responders SKIN:
+    id: 55536
+    marketGroup: 2003
+    name: Condor Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Condor Blue Tiger SKIN:
     id: 36706
     marketGroup: 2003
@@ -5252,6 +5676,14 @@ types:
     id: 53150
     marketGroup: 2003
     name: Condor Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Confessor Biosecurity Responders SKIN:
+    id: 55325
+    marketGroup: 2310
+    name: Confessor Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5340,6 +5772,14 @@ types:
     id: 44101
     marketGroup: 2310
     name: Confessor Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Corax Biosecurity Responders SKIN:
+    id: 55540
+    marketGroup: 1995
+    name: Corax Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5451,6 +5891,14 @@ types:
     id: 53372
     marketGroup: 1995
     name: Cormorant Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cormorant Biosecurity Responders SKIN:
+    id: 55541
+    marketGroup: 1995
+    name: Cormorant Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5738,6 +6186,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crane Biosecurity Responders SKIN:
+    id: 55561
+    marketGroup: 2089
+    name: Crane Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crane Blue Tiger SKIN:
     id: 36747
     marketGroup: 2089
@@ -5802,6 +6258,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crane Starline Majestic SKIN:
+    id: 55724
+    marketGroup: 2089
+    name: Crane Starline Majestic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crane Steel Cardinal SKIN:
     id: 46142
     marketGroup: 2089
@@ -5822,6 +6286,14 @@ types:
     id: 53202
     marketGroup: 2089
     name: Crane Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Crow Biosecurity Responders SKIN:
+    id: 55562
+    marketGroup: 2060
+    name: Crow Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5898,6 +6370,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crucifier Biosecurity Responders SKIN:
+    id: 55318
+    marketGroup: 2002
+    name: Crucifier Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crucifier Cold Iron SKIN:
     id: 42746
     marketGroup: 2002
@@ -5948,6 +6428,14 @@ types:
   Crucifier Kador Serenity Only SKIN:
     id: 37915
     name: Crucifier Kador Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Crucifier Navy Issue Biosecurity Responders SKIN:
+    id: 55338
+    marketGroup: 2000
+    name: Crucifier Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6063,6 +6551,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crusader Biosecurity Responders SKIN:
+    id: 55351
+    marketGroup: 2059
+    name: Crusader Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crusader Cold Iron SKIN:
     id: 42757
     marketGroup: 2059
@@ -6131,6 +6627,14 @@ types:
     id: 52569
     marketGroup: 2059
     name: Crusader Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Curse Biosecurity Responders SKIN:
+    id: 55347
+    marketGroup: 2081
+    name: Curse Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6219,6 +6723,14 @@ types:
     id: 52578
     marketGroup: 2081
     name: Curse Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cyclone Biosecurity Responders SKIN:
+    id: 55660
+    marketGroup: 1959
+    name: Cyclone Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6449,6 +6961,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Damnation Biosecurity Responders SKIN:
+    id: 55341
+    marketGroup: 2104
+    name: Damnation Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Damnation Cold Iron SKIN:
     id: 42782
     marketGroup: 2104
@@ -6585,6 +7105,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Deacon Biosecurity Responders SKIN:
+    id: 55353
+    marketGroup: 2137
+    name: Deacon Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Deacon Cold Iron SKIN:
     id: 42759
     marketGroup: 2137
@@ -6637,6 +7165,14 @@ types:
     id: 40320
     marketGroup: 2137
     name: Deacon Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Deimos Biosecurity Responders SKIN:
+    id: 55618
+    marketGroup: 2071
+    name: Deimos Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6721,6 +7257,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Devoter Biosecurity Responders SKIN:
+    id: 55301
+    marketGroup: 2073
+    name: Devoter Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Devoter Cold Iron SKIN:
     id: 42772
     marketGroup: 2073
@@ -6797,6 +7341,14 @@ types:
     id: 37506
     marketGroup: 2073
     name: Devoter Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dominix Biosecurity Responders SKIN:
+    id: 55579
+    marketGroup: 1966
+    name: Dominix Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6914,6 +7466,14 @@ types:
     id: 46423
     marketGroup: 1966
     name: Dominix Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dominix Navy Issue Biosecurity Responders SKIN:
+    id: 55609
+    marketGroup: 2108
+    name: Dominix Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7076,6 +7636,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dragoon Biosecurity Responders SKIN:
+    id: 55324
+    marketGroup: 1994
+    name: Dragoon Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Dragoon Cold Iron SKIN:
     id: 42763
     marketGroup: 1994
@@ -7201,6 +7769,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Drake Biosecurity Responders SKIN:
+    id: 55526
+    marketGroup: 1957
+    name: Drake Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Drake Blue Tiger SKIN:
     id: 36731
     marketGroup: 1957
@@ -7293,6 +7869,14 @@ types:
     id: 40607
     marketGroup: 1957
     name: Drake Matigu Seabeast SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Drake Navy Issue Biosecurity Responders SKIN:
+    id: 55545
+    marketGroup: 2103
+    name: Drake Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7396,6 +7980,14 @@ types:
     id: 47312
     marketGroup: 1957
     name: Drake Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Drake Starline Majestic SKIN:
+    id: 55723
+    marketGroup: 1957
+    name: Drake Starline Majestic SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7579,6 +8171,14 @@ types:
     id: 52444
     marketGroup: 2519
     name: Drekavac Red Forests Thunderbird SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Eagle Biosecurity Responders SKIN:
+    id: 55566
+    marketGroup: 2070
+    name: Eagle Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7818,6 +8418,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Enforcer Biosecurity Responders SKIN:
+    id: 55296
+    marketGroup: 2362
+    name: Enforcer Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Enforcer CONCORD Aerospace 'Prototype' SKIN:
     id: 45480
     marketGroup: 2362
@@ -7878,6 +8486,14 @@ types:
     id: 47681
     marketGroup: 2362
     name: Enforcer SARO 'Black Troop' SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Enyo Biosecurity Responders SKIN:
+    id: 55630
+    marketGroup: 2049
+    name: Enyo Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7954,6 +8570,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Eos Biosecurity Responders SKIN:
+    id: 55622
+    marketGroup: 2106
+    name: Eos Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Eos Exoplanets Hunter SKIN:
     id: 45909
     marketGroup: 2106
@@ -8014,6 +8638,14 @@ types:
     id: 37577
     marketGroup: 2106
     name: Eos Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Epithal Biosecurity Responders SKIN:
+    id: 55589
+    marketGroup: 2009
+    name: Epithal Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8093,6 +8725,14 @@ types:
     id: 37587
     marketGroup: 2009
     name: Epithal Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Erebus Biosecurity Responders SKIN:
+    id: 55572
+    marketGroup: 1979
+    name: Erebus Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8263,6 +8903,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Eris Biosecurity Responders SKIN:
+    id: 55628
+    marketGroup: 2040
+    name: Eris Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Eris Exoplanets Hunter SKIN:
     id: 45890
     marketGroup: 2040
@@ -8346,6 +8994,14 @@ types:
     id: 53369
     marketGroup: 2002
     name: Executioner Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Executioner Biosecurity Responders SKIN:
+    id: 55319
+    marketGroup: 2002
+    name: Executioner Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8444,6 +9100,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Exequror Biosecurity Responders SKIN:
+    id: 55574
+    marketGroup: 1992
+    name: Exequror Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Exequror Combat Medic Section SKIN:
     id: 48721
     marketGroup: 1992
@@ -8510,6 +9174,14 @@ types:
     id: 46405
     marketGroup: 1992
     name: Exequror Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Exequror Navy Issue Biosecurity Responders SKIN:
+    id: 55610
+    marketGroup: 2063
+    name: Exequror Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8594,6 +9266,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Falcon Biosecurity Responders SKIN:
+    id: 55571
+    marketGroup: 2082
+    name: Falcon Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Falcon Blue Tiger SKIN:
     id: 36729
     marketGroup: 2082
@@ -8666,18 +9346,18 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Federation Navy Comet Exoplanets Hunter SKIN:
-    id: 45885
+  Federation Navy Comet Biosecurity Responders SKIN:
+    id: 55606
     marketGroup: 2000
-    name: Federation Navy Comet Exoplanets Hunter SKIN
+    name: Federation Navy Comet Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Federation Navy Comet Federal Police SKIN:
-    id: 34718
+  Federation Navy Comet Exoplanets Hunter SKIN:
+    id: 45885
     marketGroup: 2000
-    name: Federation Navy Comet Federal Police SKIN
+    name: Federation Navy Comet Exoplanets Hunter SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8721,6 +9401,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Federation Navy Comet Police SKIN:
+    id: 34718
+    marketGroup: 2000
+    name: Federation Navy Comet Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Federation Navy Comet Sapphire Sungrazer SKIN:
     id: 45021
     marketGroup: 2000
@@ -8733,6 +9421,14 @@ types:
     id: 44903
     marketGroup: 2000
     name: Federation Navy Comet Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Fenrir Biosecurity Responders SKIN:
+    id: 55656
+    marketGroup: 1987
+    name: Fenrir Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8804,6 +9500,14 @@ types:
     id: 36796
     marketGroup: 1987
     name: Fenrir Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ferox Biosecurity Responders SKIN:
+    id: 55525
+    marketGroup: 1957
+    name: Ferox Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8941,6 +9645,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Flycatcher Biosecurity Responders SKIN:
+    id: 55560
+    marketGroup: 2039
+    name: Flycatcher Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Flycatcher Blue Tiger SKIN:
     id: 36720
     marketGroup: 2039
@@ -9021,6 +9733,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Gallente Shuttle Biosecurity Responders SKIN:
+    id: 55594
+    marketGroup: 2389
+    name: Gallente Shuttle Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Gallente Shuttle Exoplanets Hunter SKIN:
     id: 45869
     marketGroup: 2389
@@ -9033,6 +9753,13 @@ types:
     id: 46928
     marketGroup: 2389
     name: Gallente Shuttle Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gallente Shuttle Inner Zone Shipping SKIN:
+    id: 55743
+    name: Gallente Shuttle Inner Zone Shipping SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9305,6 +10032,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Golem Biosecurity Responders SKIN:
+    id: 55550
+    marketGroup: 2025
+    name: Golem Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Golem Blue Tiger SKIN:
     id: 36740
     marketGroup: 2025
@@ -9461,6 +10196,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Griffin Biosecurity Responders SKIN:
+    id: 55535
+    marketGroup: 2003
+    name: Griffin Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Griffin Blue Tiger SKIN:
     id: 36707
     marketGroup: 2003
@@ -9513,6 +10256,14 @@ types:
     id: 40581
     marketGroup: 2003
     name: Griffin Matigu Seabeast SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Griffin Navy Issue Biosecurity Responders SKIN:
+    id: 55548
+    marketGroup: 2000
+    name: Griffin Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9600,6 +10351,14 @@ types:
     id: 53151
     marketGroup: 2003
     name: Griffin Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Guardian Biosecurity Responders SKIN:
+    id: 55355
+    marketGroup: 2077
+    name: Guardian Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9724,6 +10483,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Guardian Starline Majestic SKIN:
+    id: 55719
+    marketGroup: 2077
+    name: Guardian Starline Majestic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Guristas Victory SKIN:
     id: 45552
     marketGroup: 2120
@@ -9736,6 +10503,14 @@ types:
     id: 53366
     marketGroup: 1956
     name: Harbinger Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Harbinger Biosecurity Responders SKIN:
+    id: 55307
+    marketGroup: 1956
+    name: Harbinger Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9829,6 +10604,14 @@ types:
   Harbinger Khanid Serenity Only SKIN:
     id: 37940
     name: Harbinger Khanid Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Harbinger Navy Issue Biosecurity Responders SKIN:
+    id: 55334
+    marketGroup: 2103
+    name: Harbinger Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9929,6 +10712,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Harpy Biosecurity Responders SKIN:
+    id: 55569
+    marketGroup: 2048
+    name: Harpy Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Harpy Blue Tiger SKIN:
     id: 36711
     marketGroup: 2048
@@ -10009,6 +10800,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hawk Biosecurity Responders SKIN:
+    id: 55552
+    marketGroup: 2048
+    name: Hawk Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hawk Blue Tiger SKIN:
     id: 36712
     marketGroup: 2048
@@ -10085,6 +10884,14 @@ types:
     id: 53156
     marketGroup: 2048
     name: Hawk Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hecate Biosecurity Responders SKIN:
+    id: 55584
+    marketGroup: 2356
+    name: Hecate Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10177,6 +10984,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hel Biosecurity Responders SKIN:
+    id: 55665
+    marketGroup: 1977
+    name: Hel Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hel Bloody Hands SKIN:
     id: 47179
     marketGroup: 1977
@@ -10213,6 +11028,14 @@ types:
     id: 46014
     marketGroup: 1977
     name: Hel Firewall Breach SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hel Freedom's Revolution SKIN:
+    id: 55716
+    marketGroup: 1977
+    name: Hel Freedom's Revolution SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10312,6 +11135,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Helios Biosecurity Responders SKIN:
+    id: 55624
+    marketGroup: 2053
+    name: Helios Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Helios Exoplanets Hunter SKIN:
     id: 45879
     marketGroup: 2053
@@ -10392,6 +11223,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Heretic Biosecurity Responders SKIN:
+    id: 55345
+    marketGroup: 2038
+    name: Heretic Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Heretic Cold Iron SKIN:
     id: 42765
     marketGroup: 2038
@@ -10460,6 +11299,14 @@ types:
     id: 37499
     marketGroup: 2038
     name: Heretic Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Heron Biosecurity Responders SKIN:
+    id: 55528
+    marketGroup: 2003
+    name: Heron Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10550,6 +11397,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hoarder Biosecurity Responders SKIN:
+    id: 55662
+    marketGroup: 2010
+    name: Hoarder Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hoarder Blue Tiger SKIN:
     id: 36838
     marketGroup: 2010
@@ -10601,6 +11456,14 @@ types:
     id: 36791
     marketGroup: 2010
     name: Hoarder Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hound Biosecurity Responders SKIN:
+    id: 55684
+    marketGroup: 2054
+    name: Hound Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10665,6 +11528,14 @@ types:
     id: 36760
     marketGroup: 2054
     name: Hound Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Huginn Biosecurity Responders SKIN:
+    id: 55687
+    marketGroup: 2084
+    name: Huginn Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10920,6 +11791,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hurricane Biosecurity Responders SKIN:
+    id: 55661
+    marketGroup: 1959
+    name: Hurricane Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hurricane Bloody Hands SKIN:
     id: 47167
     marketGroup: 1959
@@ -10960,6 +11839,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hurricane Fleet Issue Biosecurity Responders SKIN:
+    id: 55673
+    marketGroup: 2103
+    name: Hurricane Fleet Issue Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hurricane Fleet Issue Bloody Hands SKIN:
     id: 47168
     marketGroup: 2103
@@ -10972,6 +11859,14 @@ types:
     id: 45972
     marketGroup: 2103
     name: Hurricane Fleet Issue Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Fleet Issue Freedom's Revolution SKIN:
+    id: 55717
+    marketGroup: 2103
+    name: Hurricane Fleet Issue Freedom's Revolution SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11012,6 +11907,14 @@ types:
     id: 52883
     marketGroup: 2103
     name: Hurricane Fleet Issue Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Freedom's Revolution SKIN:
+    id: 55713
+    marketGroup: 1959
+    name: Hurricane Freedom's Revolution SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11134,6 +12037,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hyena Biosecurity Responders SKIN:
+    id: 55691
+    marketGroup: 2058
+    name: Hyena Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hyena Blue Tiger SKIN:
     id: 36808
     marketGroup: 2058
@@ -11209,6 +12120,14 @@ types:
   Hyperion Aliastra Serenity Only SKIN:
     id: 37113
     name: Hyperion Aliastra Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hyperion Biosecurity Responders SKIN:
+    id: 55580
+    marketGroup: 1966
+    name: Hyperion Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11332,6 +12251,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ibis Biosecurity Responders SKIN:
+    id: 55533
+    marketGroup: 2353
+    name: Ibis Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ibis Exoplanets Hunter SKIN:
     id: 45811
     marketGroup: 2353
@@ -11392,6 +12319,14 @@ types:
     id: 52353
     marketGroup: 2485
     name: Ikitursa Singularity Storm SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Imicus Biosecurity Responders SKIN:
+    id: 55595
+    marketGroup: 2004
+    name: Imicus Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11482,6 +12417,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Impairor Biosecurity Responders SKIN:
+    id: 55332
+    marketGroup: 2308
+    name: Impairor Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Impairor Cold Iron SKIN:
     id: 42909
     marketGroup: 2308
@@ -11510,6 +12453,14 @@ types:
     id: 42543
     marketGroup: 2308
     name: Impairor Purity of the Throne SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Impel Biosecurity Responders SKIN:
+    id: 55343
+    marketGroup: 2088
+    name: Impel Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11602,6 +12553,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Imperial Navy Slicer Biosecurity Responders SKIN:
+    id: 55337
+    marketGroup: 2000
+    name: Imperial Navy Slicer Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Imperial Navy Slicer Cold Iron SKIN:
     id: 42760
     marketGroup: 2000
@@ -11669,6 +12628,14 @@ types:
   Incursus Aliastra Serenity Only SKIN:
     id: 36989
     name: Incursus Aliastra Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Incursus Biosecurity Responders SKIN:
+    id: 55598
+    marketGroup: 2004
+    name: Incursus Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11784,6 +12751,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Inquisitor Biosecurity Responders SKIN:
+    id: 55304
+    marketGroup: 2002
+    name: Inquisitor Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Inquisitor Cold Iron SKIN:
     id: 42748
     marketGroup: 2002
@@ -11893,6 +12868,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ishkur Biosecurity Responders SKIN:
+    id: 55623
+    marketGroup: 2049
+    name: Ishkur Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ishkur Exoplanets Hunter SKIN:
     id: 45878
     marketGroup: 2049
@@ -11969,6 +12952,14 @@ types:
     id: 47103
     marketGroup: 2071
     name: Ishtar "Blaze" Squadron SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ishtar Biosecurity Responders SKIN:
+    id: 55626
+    marketGroup: 2071
+    name: Ishtar Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12131,6 +13122,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Iteron Mark V Biosecurity Responders SKIN:
+    id: 55588
+    marketGroup: 2009
+    name: Iteron Mark V Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Iteron Mark V Exoplanets Hunter SKIN:
     id: 45923
     marketGroup: 2009
@@ -12240,6 +13239,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Jackdaw Biosecurity Responders SKIN:
+    id: 55531
+    marketGroup: 2391
+    name: Jackdaw Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Jackdaw Exoplanets Hunter SKIN:
     id: 45832
     marketGroup: 2391
@@ -12336,6 +13343,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Jaguar Biosecurity Responders SKIN:
+    id: 55676
+    marketGroup: 2050
+    name: Jaguar Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Jaguar Blue Tiger SKIN:
     id: 36804
     marketGroup: 2050
@@ -12408,6 +13423,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Keres Biosecurity Responders SKIN:
+    id: 55614
+    marketGroup: 2057
+    name: Keres Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Keres Exoplanets Hunter SKIN:
     id: 45881
     marketGroup: 2057
@@ -12468,6 +13491,14 @@ types:
     id: 37557
     marketGroup: 2057
     name: Keres Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kestrel Biosecurity Responders SKIN:
+    id: 55529
+    marketGroup: 2003
+    name: Kestrel Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12615,6 +13646,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kirin Biosecurity Responders SKIN:
+    id: 55557
+    marketGroup: 2138
+    name: Kirin Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kirin Blue Tiger SKIN:
     id: 40321
     marketGroup: 2138
@@ -12667,6 +13706,14 @@ types:
     id: 53162
     marketGroup: 2138
     name: Kirin Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kitsune Biosecurity Responders SKIN:
+    id: 55554
+    marketGroup: 2056
+    name: Kitsune Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12755,6 +13802,14 @@ types:
     id: 46878
     marketGroup: 2383
     name: Komodo Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kronos Biosecurity Responders SKIN:
+    id: 55617
+    marketGroup: 2026
+    name: Kronos Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12884,6 +13939,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kryos Biosecurity Responders SKIN:
+    id: 55587
+    marketGroup: 2009
+    name: Kryos Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kryos Exoplanets Hunter SKIN:
     id: 45924
     marketGroup: 2009
@@ -12943,6 +14006,14 @@ types:
     id: 37589
     marketGroup: 2009
     name: Kryos Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Lachesis Biosecurity Responders SKIN:
+    id: 55635
+    marketGroup: 2083
+    name: Lachesis Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13007,6 +14078,14 @@ types:
     id: 37572
     marketGroup: 2083
     name: Lachesis Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Legion Biosecurity Responders SKIN:
+    id: 55330
+    marketGroup: 2371
+    name: Legion Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13122,6 +14201,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Leviathan Biosecurity Responders SKIN:
+    id: 55520
+    marketGroup: 2092
+    name: Leviathan Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Leviathan Blue Tiger SKIN:
     id: 36744
     marketGroup: 2092
@@ -13210,6 +14297,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Leviathan Starline Majestic SKIN:
+    id: 55726
+    marketGroup: 2092
+    name: Leviathan Starline Majestic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Leviathan Steel Cardinal SKIN:
     id: 46139
     marketGroup: 2092
@@ -13238,6 +14333,14 @@ types:
     id: 53199
     marketGroup: 2092
     name: Leviathan Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Lif Biosecurity Responders SKIN:
+    id: 55653
+    marketGroup: 2281
+    name: Lif Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13326,6 +14429,14 @@ types:
     id: 46026
     marketGroup: 2373
     name: Loki Battlescar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Loki Biosecurity Responders SKIN:
+    id: 55652
+    marketGroup: 2373
+    name: Loki Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13603,6 +14714,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maelstrom Biosecurity Responders SKIN:
+    id: 55654
+    marketGroup: 1967
+    name: Maelstrom Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maelstrom Blue Tiger SKIN:
     id: 36829
     marketGroup: 1967
@@ -13727,6 +14846,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Magnate Biosecurity Responders SKIN:
+    id: 55303
+    marketGroup: 2002
+    name: Magnate Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Magnate Cold Iron SKIN:
     id: 42749
     marketGroup: 2002
@@ -13836,6 +14963,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Magus Biosecurity Responders SKIN:
+    id: 55620
+    marketGroup: 2144
+    name: Magus Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Magus Exoplanets Hunter SKIN:
     id: 45889
     marketGroup: 2144
@@ -13896,6 +15031,14 @@ types:
     id: 40324
     marketGroup: 2144
     name: Magus Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Malediction Biosecurity Responders SKIN:
+    id: 55344
+    marketGroup: 2059
+    name: Malediction Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14000,6 +15143,14 @@ types:
     id: 53368
     marketGroup: 1990
     name: Maller Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maller Biosecurity Responders SKIN:
+    id: 55328
+    marketGroup: 1990
+    name: Maller Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14121,6 +15272,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Mammoth Biosecurity Responders SKIN:
+    id: 55657
+    marketGroup: 2010
+    name: Mammoth Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Mammoth Blue Tiger SKIN:
     id: 36839
     marketGroup: 2010
@@ -14195,6 +15354,14 @@ types:
     id: 36792
     marketGroup: 2010
     name: Mammoth Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Manticore Biosecurity Responders SKIN:
+    id: 55553
+    marketGroup: 2052
+    name: Manticore Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14279,6 +15446,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Marshal Biosecurity Responders SKIN:
+    id: 55294
+    marketGroup: 2406
+    name: Marshal Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Marshal CONCORD Aerospace 'Prototype' SKIN:
     id: 47159
     marketGroup: 2406
@@ -14343,6 +15518,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Mastodon Biosecurity Responders SKIN:
+    id: 55681
+    marketGroup: 2091
+    name: Mastodon Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Mastodon Blue Tiger SKIN:
     id: 36842
     marketGroup: 2091
@@ -14395,6 +15578,14 @@ types:
     id: 36795
     marketGroup: 2091
     name: Mastodon Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maulus Biosecurity Responders SKIN:
+    id: 55597
+    marketGroup: 2004
+    name: Maulus Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14457,6 +15648,14 @@ types:
     id: 46386
     marketGroup: 2004
     name: Maulus Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maulus Navy Issue Biosecurity Responders SKIN:
+    id: 55605
+    marketGroup: 2000
+    name: Maulus Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14557,6 +15756,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Megathron Biosecurity Responders SKIN:
+    id: 55578
+    marketGroup: 1966
+    name: Megathron Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Megathron Exoplanets Hunter SKIN:
     id: 45913
     marketGroup: 1966
@@ -14631,6 +15838,14 @@ types:
     id: 53014
     marketGroup: 1966
     name: Megathron Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Megathron Navy Issue Biosecurity Responders SKIN:
+    id: 55608
+    marketGroup: 2108
+    name: Megathron Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14765,6 +15980,14 @@ types:
     id: 37580
     marketGroup: 1966
     name: Megathron Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Merlin Biosecurity Responders SKIN:
+    id: 55530
+    marketGroup: 2003
+    name: Merlin Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14919,6 +16142,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Miasmos Biosecurity Responders SKIN:
+    id: 55599
+    marketGroup: 2009
+    name: Miasmos Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Miasmos Exoplanets Hunter SKIN:
     id: 45925
     marketGroup: 2009
@@ -14990,6 +16221,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Minmatar Shuttle Biosecurity Responders SKIN:
+    id: 55641
+    marketGroup: 2390
+    name: Minmatar Shuttle Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Minmatar Shuttle Exoplanets Hunter SKIN:
     id: 45931
     marketGroup: 2390
@@ -15002,6 +16241,14 @@ types:
     id: 46879
     marketGroup: 2390
     name: Minmatar Shuttle Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Minokawa Biosecurity Responders SKIN:
+    id: 55537
+    marketGroup: 2279
+    name: Minokawa Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15106,6 +16353,14 @@ types:
     id: 53371
     marketGroup: 1991
     name: Moa Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Moa Biosecurity Responders SKIN:
+    id: 55538
+    marketGroup: 1991
+    name: Moa Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15260,6 +16515,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Moros Biosecurity Responders SKIN:
+    id: 55592
+    marketGroup: 1982
+    name: Moros Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Moros Exoplanets Hunter SKIN:
     id: 45918
     marketGroup: 1982
@@ -15366,6 +16629,14 @@ types:
     id: 37583
     marketGroup: 1982
     name: Moros Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Muninn Biosecurity Responders SKIN:
+    id: 55686
+    marketGroup: 2072
+    name: Muninn Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15482,6 +16753,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Myrmidon Biosecurity Responders SKIN:
+    id: 55582
+    marketGroup: 1958
+    name: Myrmidon Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Myrmidon Capsuleer Day XV SKIN:
     id: 47633
     marketGroup: 1958
@@ -15572,6 +16851,14 @@ types:
     id: 37574
     marketGroup: 1958
     name: Myrmidon Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Naga Biosecurity Responders SKIN:
+    id: 55524
+    marketGroup: 1957
+    name: Naga Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15694,6 +16981,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Naglfar Biosecurity Responders SKIN:
+    id: 55664
+    marketGroup: 1983
+    name: Naglfar Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Naglfar Blue Tiger SKIN:
     id: 36834
     marketGroup: 1983
@@ -15797,6 +17092,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Navitas Biosecurity Responders SKIN:
+    id: 55585
+    marketGroup: 2004
+    name: Navitas Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Navitas Exoplanets Hunter SKIN:
     id: 45875
     marketGroup: 2004
@@ -15864,6 +17167,14 @@ types:
     id: 37551
     marketGroup: 2004
     name: Navitas Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nemesis Biosecurity Responders SKIN:
+    id: 55615
+    marketGroup: 2053
+    name: Nemesis Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15940,6 +17251,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nereus Biosecurity Responders SKIN:
+    id: 55600
+    marketGroup: 2009
+    name: Nereus Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nereus Exoplanets Hunter SKIN:
     id: 45926
     marketGroup: 2009
@@ -15952,6 +17271,13 @@ types:
     id: 46972
     marketGroup: 2009
     name: Nereus Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nereus Inner Zone Shipping SKIN:
+    id: 55744
+    name: Nereus Inner Zone Shipping SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16169,6 +17495,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nidhoggur Biosecurity Responders SKIN:
+    id: 55666
+    marketGroup: 1977
+    name: Nidhoggur Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nidhoggur Bloody Hands SKIN:
     id: 47177
     marketGroup: 1977
@@ -16213,6 +17547,14 @@ types:
     id: 46015
     marketGroup: 1977
     name: Nidhoggur Firewall Breach SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nidhoggur Freedom's Revolution SKIN:
+    id: 55715
+    marketGroup: 1977
+    name: Nidhoggur Freedom's Revolution SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16304,6 +17646,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nighthawk Biosecurity Responders SKIN:
+    id: 55559
+    marketGroup: 2105
+    name: Nighthawk Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nighthawk Blue Tiger SKIN:
     id: 36734
     marketGroup: 2105
@@ -16388,6 +17738,14 @@ types:
     id: 52596
     marketGroup: 1963
     name: Nightmare True Deliverance SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ninazu Biosecurity Responders SKIN:
+    id: 55602
+    marketGroup: 2280
+    name: Ninazu Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16504,6 +17862,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nomad Biosecurity Responders SKIN:
+    id: 55680
+    marketGroup: 2098
+    name: Nomad Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nomad Blue Tiger SKIN:
     id: 36844
     marketGroup: 2098
@@ -16556,6 +17922,14 @@ types:
     id: 36797
     marketGroup: 2098
     name: Nomad Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Nyx Biosecurity Responders SKIN:
+    id: 55590
+    marketGroup: 1976
+    name: Nyx Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16742,6 +18116,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Obelisk Biosecurity Responders SKIN:
+    id: 55601
+    marketGroup: 1986
+    name: Obelisk Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Obelisk Exoplanets Hunter SKIN:
     id: 45929
     marketGroup: 1986
@@ -16852,6 +18234,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Occator Biosecurity Responders SKIN:
+    id: 55632
+    marketGroup: 2090
+    name: Occator Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Occator Exoplanets Hunter SKIN:
     id: 45928
     marketGroup: 2090
@@ -16928,6 +18318,14 @@ types:
     id: 37593
     marketGroup: 2090
     name: Occator Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Biosecurity Responders SKIN:
+    id: 55327
+    marketGroup: 1990
+    name: Omen Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17014,6 +18412,14 @@ types:
   Omen Kador Serenity Only SKIN:
     id: 37096
     name: Omen Kador Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Navy Issue Biosecurity Responders SKIN:
+    id: 55339
+    marketGroup: 2063
+    name: Omen Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17151,6 +18557,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Oneiros Biosecurity Responders SKIN:
+    id: 55634
+    marketGroup: 2079
+    name: Oneiros Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Oneiros Emergency Response Squad SKIN:
     id: 48725
     marketGroup: 2079
@@ -17227,6 +18641,14 @@ types:
     id: 37570
     marketGroup: 2079
     name: Oneiros Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Onyx Biosecurity Responders SKIN:
+    id: 55564
+    marketGroup: 2074
+    name: Onyx Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17323,6 +18745,14 @@ types:
     id: 52282
     marketGroup: 1956
     name: Oracle Argyros Elite XVI SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Oracle Biosecurity Responders SKIN:
+    id: 55308
+    marketGroup: 1956
+    name: Oracle Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17671,6 +19101,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Osprey Biosecurity Responders SKIN:
+    id: 55539
+    marketGroup: 1991
+    name: Osprey Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Osprey Blue Tiger SKIN:
     id: 36724
     marketGroup: 1991
@@ -17730,6 +19168,14 @@ types:
     id: 40600
     marketGroup: 1991
     name: Osprey Matigu Seabeast SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Osprey Navy Issue Biosecurity Responders SKIN:
+    id: 55546
+    marketGroup: 2063
+    name: Osprey Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17829,6 +19275,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Pacifier Biosecurity Responders SKIN:
+    id: 55295
+    marketGroup: 2361
+    name: Pacifier Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Pacifier CONCORD Aerospace 'Prototype' SKIN:
     id: 45481
     marketGroup: 2361
@@ -17889,6 +19343,14 @@ types:
     id: 47680
     marketGroup: 2361
     name: Pacifier SARO 'Black Troop' SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Paladin Biosecurity Responders SKIN:
+    id: 55350
+    marketGroup: 2024
+    name: Paladin Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18033,6 +19495,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Panther Biosecurity Responders SKIN:
+    id: 55682
+    marketGroup: 2113
+    name: Panther Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Panther Bloody Hands SKIN:
     id: 47175
     marketGroup: 2113
@@ -18169,6 +19639,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Phobos Biosecurity Responders SKIN:
+    id: 55633
+    marketGroup: 2075
+    name: Phobos Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Phobos Exoplanets Hunter SKIN:
     id: 45898
     marketGroup: 2075
@@ -18229,6 +19707,14 @@ types:
     id: 37569
     marketGroup: 2075
     name: Phobos Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Phoenix Biosecurity Responders SKIN:
+    id: 55517
+    marketGroup: 1981
+    name: Phoenix Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18320,6 +19806,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Phoenix Starline Majestic SKIN:
+    id: 55725
+    marketGroup: 1981
+    name: Phoenix Starline Majestic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Phoenix Steel Cardinal SKIN:
     id: 46136
     marketGroup: 1981
@@ -18355,6 +19849,14 @@ types:
     id: 53196
     marketGroup: 1981
     name: Phoenix Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Pilgrim Biosecurity Responders SKIN:
+    id: 55356
+    marketGroup: 2081
+    name: Pilgrim Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18435,6 +19937,14 @@ types:
     id: 52579
     marketGroup: 2081
     name: Pilgrim Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Pontifex Biosecurity Responders SKIN:
+    id: 55354
+    marketGroup: 2142
+    name: Pontifex Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18654,6 +20164,14 @@ types:
     id: 43675
     marketGroup: 2331
     name: Primae Rosada Dawn SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Probe Biosecurity Responders SKIN:
+    id: 55644
+    marketGroup: 2005
+    name: Probe Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18884,6 +20402,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prophecy Biosecurity Responders SKIN:
+    id: 55309
+    marketGroup: 1956
+    name: Prophecy Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prophecy Blood Raiders SKIN:
     id: 34605
     name: Prophecy Blood Raiders SKIN
@@ -19020,6 +20546,14 @@ types:
     id: 52393
     marketGroup: 1956
     name: Prophecy Triglavian Twilight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Prorator Biosecurity Responders SKIN:
+    id: 55300
+    marketGroup: 2088
+    name: Prorator Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19228,6 +20762,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Proteus Biosecurity Responders SKIN:
+    id: 55604
+    marketGroup: 2372
+    name: Proteus Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Proteus Exoplanets Hunter SKIN:
     id: 45902
     marketGroup: 2372
@@ -19279,6 +20821,14 @@ types:
   Providence Ardishapur Serenity Only SKIN:
     id: 37898
     name: Providence Ardishapur Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Providence Biosecurity Responders SKIN:
+    id: 55321
+    marketGroup: 1984
+    name: Providence Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19393,6 +20943,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prowler Biosecurity Responders SKIN:
+    id: 55697
+    marketGroup: 2091
+    name: Prowler Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prowler Blue Tiger SKIN:
     id: 36841
     marketGroup: 2091
@@ -19445,6 +21003,14 @@ types:
     id: 36794
     marketGroup: 2091
     name: Prowler Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Punisher Biosecurity Responders SKIN:
+    id: 55306
+    marketGroup: 2002
+    name: Punisher Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19574,6 +21140,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Purifier Biosecurity Responders SKIN:
+    id: 55299
+    marketGroup: 2051
+    name: Purifier Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Purifier Cold Iron SKIN:
     id: 42755
     marketGroup: 2051
@@ -19658,6 +21232,14 @@ types:
     id: 52574
     marketGroup: 2051
     name: Purifier Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ragnarok Biosecurity Responders SKIN:
+    id: 55638
+    marketGroup: 2093
+    name: Ragnarok Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19758,6 +21340,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rapier Biosecurity Responders SKIN:
+    id: 55696
+    marketGroup: 2084
+    name: Rapier Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rapier Blue Tiger SKIN:
     id: 36823
     marketGroup: 2084
@@ -19818,6 +21408,14 @@ types:
     id: 36776
     marketGroup: 2084
     name: Rapier Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raptor Biosecurity Responders SKIN:
+    id: 55555
+    marketGroup: 2060
+    name: Raptor Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19981,6 +21579,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Raven Biosecurity Responders SKIN:
+    id: 55523
+    marketGroup: 1965
+    name: Raven Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Raven Blue Tiger SKIN:
     id: 36736
     marketGroup: 1965
@@ -20072,6 +21678,14 @@ types:
     id: 40612
     marketGroup: 1965
     name: Raven Matigu Seabeast SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raven Navy Issue Biosecurity Responders SKIN:
+    id: 55543
+    marketGroup: 2108
+    name: Raven Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20209,6 +21823,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Reaper Biosecurity Responders SKIN:
+    id: 55642
+    marketGroup: 2355
+    name: Reaper Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Reaper Exoplanets Hunter SKIN:
     id: 45932
     marketGroup: 2355
@@ -20221,6 +21843,14 @@ types:
     id: 44160
     marketGroup: 2355
     name: Reaper Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Redeemer Biosecurity Responders SKIN:
+    id: 55298
+    marketGroup: 2110
+    name: Redeemer Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20337,6 +21967,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Republic Fleet Firetail Biosecurity Responders SKIN:
+    id: 55671
+    marketGroup: 2000
+    name: Republic Fleet Firetail Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Republic Fleet Firetail Dawn of Liberation SKIN:
     id: 48499
     marketGroup: 2000
@@ -20373,6 +22011,14 @@ types:
     id: 52858
     marketGroup: 2000
     name: Republic Fleet Firetail Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Retribution Biosecurity Responders SKIN:
+    id: 55348
+    marketGroup: 2047
+    name: Retribution Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20589,6 +22235,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Revelation Biosecurity Responders SKIN:
+    id: 55314
+    marketGroup: 1980
+    name: Revelation Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Revelation Cold Iron SKIN:
     id: 42791
     marketGroup: 1980
@@ -20723,6 +22377,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Revelation Starline Majestic SKIN:
+    id: 55721
+    marketGroup: 1980
+    name: Revelation Starline Majestic SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Revelation Yoiul Star SKIN:
     id: 53421
     marketGroup: 1980
@@ -20743,6 +22405,14 @@ types:
     id: 52598
     marketGroup: 2376
     name: Revenant True Deliverance SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rhea Biosecurity Responders SKIN:
+    id: 55568
+    marketGroup: 2096
+    name: Rhea Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20823,6 +22493,14 @@ types:
     id: 49156
     marketGroup: 2005
     name: Rifter Absent Heroes SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rifter Biosecurity Responders SKIN:
+    id: 55643
+    marketGroup: 2005
+    name: Rifter Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20977,6 +22655,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rokh Biosecurity Responders SKIN:
+    id: 55522
+    marketGroup: 1965
+    name: Rokh Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rokh Blue Tiger SKIN:
     id: 36737
     marketGroup: 1965
@@ -21091,6 +22777,14 @@ types:
     id: 53190
     marketGroup: 1965
     name: Rokh Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rook Biosecurity Responders SKIN:
+    id: 55563
+    marketGroup: 2082
+    name: Rook Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21377,6 +23071,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Biosecurity Responders SKIN:
+    id: 55651
+    marketGroup: 1993
+    name: Rupture Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Bloody Hands SKIN:
     id: 47161
     marketGroup: 1993
@@ -21495,6 +23197,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sabre Biosecurity Responders SKIN:
+    id: 55694
+    marketGroup: 2041
+    name: Sabre Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sabre Blue Tiger SKIN:
     id: 36813
     marketGroup: 2041
@@ -21591,6 +23301,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sacrilege Biosecurity Responders SKIN:
+    id: 55346
+    marketGroup: 2069
+    name: Sacrilege Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sacrilege Cold Iron SKIN:
     id: 42770
     marketGroup: 2069
@@ -21679,6 +23397,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scalpel Biosecurity Responders SKIN:
+    id: 55678
+    marketGroup: 2140
+    name: Scalpel Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scalpel Dawn of Liberation SKIN:
     id: 48498
     marketGroup: 2140
@@ -21715,6 +23441,14 @@ types:
     id: 40325
     marketGroup: 2140
     name: Scalpel Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scimitar Biosecurity Responders SKIN:
+    id: 55695
+    marketGroup: 2080
+    name: Scimitar Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21815,6 +23549,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scorpion Biosecurity Responders SKIN:
+    id: 55521
+    marketGroup: 1965
+    name: Scorpion Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scorpion Blue Tiger SKIN:
     id: 36738
     marketGroup: 1965
@@ -21874,6 +23616,14 @@ types:
     id: 40614
     marketGroup: 1965
     name: Scorpion Matigu Seabeast SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scorpion Navy Issue Biosecurity Responders SKIN:
+    id: 55544
+    marketGroup: 2108
+    name: Scorpion Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21981,6 +23731,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scythe Biosecurity Responders SKIN:
+    id: 55650
+    marketGroup: 1993
+    name: Scythe Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scythe Bloody Hands SKIN:
     id: 47164
     marketGroup: 1993
@@ -22017,6 +23775,14 @@ types:
     id: 45956
     marketGroup: 1993
     name: Scythe Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scythe Fleet Issue Biosecurity Responders SKIN:
+    id: 55669
+    marketGroup: 2063
+    name: Scythe Fleet Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22115,6 +23881,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sentinel Biosecurity Responders SKIN:
+    id: 55297
+    marketGroup: 2055
+    name: Sentinel Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sentinel Cold Iron SKIN:
     id: 42756
     marketGroup: 2055
@@ -22183,6 +23957,14 @@ types:
     id: 46582
     marketGroup: 2120
     name: Serpentis Victory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sigil Biosecurity Responders SKIN:
+    id: 55322
+    marketGroup: 2007
+    name: Sigil Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22261,6 +24043,14 @@ types:
     id: 37525
     marketGroup: 2007
     name: Sigil Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sin Biosecurity Responders SKIN:
+    id: 55621
+    marketGroup: 2112
+    name: Sin Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22524,6 +24314,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Slasher Biosecurity Responders SKIN:
+    id: 55646
+    marketGroup: 2005
+    name: Slasher Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Slasher Blue Tiger SKIN:
     id: 36802
     marketGroup: 2005
@@ -22622,6 +24420,14 @@ types:
     id: 36755
     marketGroup: 2005
     name: Slasher Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sleipnir Biosecurity Responders SKIN:
+    id: 55688
+    marketGroup: 2107
+    name: Sleipnir Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22730,6 +24536,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Biosecurity Responders SKIN:
+    id: 55649
+    marketGroup: 1993
+    name: Stabber Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Blue Tiger SKIN:
     id: 36817
     marketGroup: 1993
@@ -22750,6 +24564,14 @@ types:
     id: 45957
     marketGroup: 1993
     name: Stabber Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Fleet Issue Biosecurity Responders SKIN:
+    id: 55670
+    marketGroup: 2063
+    name: Stabber Fleet Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22895,6 +24717,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stiletto Biosecurity Responders SKIN:
+    id: 55692
+    marketGroup: 2062
+    name: Stiletto Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stiletto Blue Tiger SKIN:
     id: 36810
     marketGroup: 2062
@@ -22955,6 +24785,14 @@ types:
     id: 36763
     marketGroup: 2062
     name: Stiletto Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stork Biosecurity Responders SKIN:
+    id: 55565
+    marketGroup: 2143
+    name: Stork Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23236,6 +25074,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Svipul Biosecurity Responders SKIN:
+    id: 55647
+    marketGroup: 2392
+    name: Svipul Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Svipul Exoplanets Hunter SKIN:
     id: 45953
     marketGroup: 2392
@@ -23296,6 +25142,14 @@ types:
     id: 50031
     marketGroup: 1958
     name: Talos Amaranthine Mantle SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Talos Biosecurity Responders SKIN:
+    id: 55583
+    marketGroup: 1958
+    name: Talos Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23441,6 +25295,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Talwar Biosecurity Responders SKIN:
+    id: 55667
+    marketGroup: 1997
+    name: Talwar Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Talwar Blue Tiger SKIN:
     id: 36811
     marketGroup: 1997
@@ -23519,6 +25381,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Taranis Biosecurity Responders SKIN:
+    id: 55613
+    marketGroup: 2061
+    name: Taranis Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Taranis Exoplanets Hunter SKIN:
     id: 45883
     marketGroup: 2061
@@ -23579,6 +25449,14 @@ types:
     id: 37559
     marketGroup: 2061
     name: Taranis Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tayra Biosecurity Responders SKIN:
+    id: 55516
+    marketGroup: 2008
+    name: Tayra Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23686,6 +25564,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tempest Biosecurity Responders SKIN:
+    id: 55655
+    marketGroup: 1967
+    name: Tempest Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tempest Bloody Hands SKIN:
     id: 47173
     marketGroup: 1967
@@ -23722,6 +25608,14 @@ types:
     id: 45974
     marketGroup: 1967
     name: Tempest Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Fleet Issue Biosecurity Responders SKIN:
+    id: 55674
+    marketGroup: 2108
+    name: Tempest Fleet Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23850,6 +25744,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tengu Biosecurity Responders SKIN:
+    id: 55513
+    marketGroup: 2370
+    name: Tengu Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tengu Emperor Bear SKIN:
     id: 52303
     marketGroup: 2370
@@ -23937,6 +25839,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thalia Biosecurity Responders SKIN:
+    id: 55629
+    marketGroup: 2139
+    name: Thalia Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thalia Exoplanets Hunter SKIN:
     id: 45884
     marketGroup: 2139
@@ -23989,6 +25899,14 @@ types:
     id: 40323
     marketGroup: 2139
     name: Thalia Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thanatos Biosecurity Responders SKIN:
+    id: 55591
+    marketGroup: 1976
+    name: Thanatos Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24174,6 +26092,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thorax Biosecurity Responders SKIN:
+    id: 55573
+    marketGroup: 1992
+    name: Thorax Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thorax Exoplanets Hunter SKIN:
     id: 45894
     marketGroup: 1992
@@ -24325,6 +26251,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thrasher Biosecurity Responders SKIN:
+    id: 55648
+    marketGroup: 1997
+    name: Thrasher Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thrasher Blue Tiger SKIN:
     id: 36812
     marketGroup: 1997
@@ -24449,6 +26383,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tormentor Biosecurity Responders SKIN:
+    id: 55305
+    marketGroup: 2002
+    name: Tormentor Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tormentor Cold Iron SKIN:
     id: 42751
     marketGroup: 2002
@@ -24539,6 +26481,14 @@ types:
     id: 52284
     marketGroup: 1959
     name: Tornado Argyros Elite XVI SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tornado Biosecurity Responders SKIN:
+    id: 55659
+    marketGroup: 1959
+    name: Tornado Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24640,6 +26590,14 @@ types:
     id: 36779
     marketGroup: 1959
     name: Tornado Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tristan Biosecurity Responders SKIN:
+    id: 55586
+    marketGroup: 2004
+    name: Tristan Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24786,6 +26744,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Typhoon Biosecurity Responders SKIN:
+    id: 55663
+    marketGroup: 1967
+    name: Typhoon Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Typhoon Bloody Hands SKIN:
     id: 47171
     marketGroup: 1967
@@ -24826,6 +26792,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Typhoon Fleet Issue Biosecurity Responders SKIN:
+    id: 55675
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Typhoon Fleet Issue Bloody Hands SKIN:
     id: 47172
     marketGroup: 2108
@@ -24846,6 +26820,14 @@ types:
     id: 45979
     marketGroup: 2108
     name: Typhoon Fleet Issue Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Typhoon Fleet Issue Freedom's Revolution SKIN:
+    id: 55718
+    marketGroup: 2108
+    name: Typhoon Fleet Issue Freedom's Revolution SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24878,6 +26860,14 @@ types:
     id: 52890
     marketGroup: 2108
     name: Typhoon Fleet Issue Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Typhoon Freedom's Revolution SKIN:
+    id: 55714
+    marketGroup: 1967
+    name: Typhoon Freedom's Revolution SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25000,6 +26990,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vagabond Biosecurity Responders SKIN:
+    id: 55679
+    marketGroup: 2072
+    name: Vagabond Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vagabond Blue Tiger SKIN:
     id: 36819
     marketGroup: 2072
@@ -25099,6 +27097,14 @@ types:
     id: 46045
     marketGroup: 2383
     name: Vanquisher IGC SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vargur Biosecurity Responders SKIN:
+    id: 55689
+    marketGroup: 2027
+    name: Vargur Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25298,6 +27304,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Velator Biosecurity Responders SKIN:
+    id: 55593
+    marketGroup: 2354
+    name: Velator Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Velator Exoplanets Hunter SKIN:
     id: 45870
     marketGroup: 2354
@@ -25334,6 +27348,14 @@ types:
     id: 46044
     marketGroup: 2376
     name: Vendetta IGC SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vengeance Biosecurity Responders SKIN:
+    id: 55340
+    marketGroup: 2047
+    name: Vengeance Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25542,6 +27564,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vexor Biosecurity Responders SKIN:
+    id: 55603
+    marketGroup: 1992
+    name: Vexor Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vexor Capsuleer Day XVII SKIN:
     id: 54787
     marketGroup: 1992
@@ -25640,6 +27670,14 @@ types:
     id: 46407
     marketGroup: 1992
     name: Vexor Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Navy Issue Biosecurity Responders SKIN:
+    id: 55611
+    marketGroup: 2063
+    name: Vexor Navy Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25818,6 +27856,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Viator Biosecurity Responders SKIN:
+    id: 55616
+    marketGroup: 2090
+    name: Viator Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Viator Exoplanets Hunter SKIN:
     id: 45927
     marketGroup: 2090
@@ -25898,6 +27944,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vigil Biosecurity Responders SKIN:
+    id: 55645
+    marketGroup: 2005
+    name: Vigil Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vigil Blue Tiger SKIN:
     id: 36803
     marketGroup: 2005
@@ -25918,6 +27972,14 @@ types:
     id: 45938
     marketGroup: 2005
     name: Vigil Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vigil Fleet Issue Biosecurity Responders SKIN:
+    id: 55672
+    marketGroup: 2000
+    name: Vigil Fleet Issue Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26143,6 +28205,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vulture Biosecurity Responders SKIN:
+    id: 55567
+    marketGroup: 2105
+    name: Vulture Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vulture Blue Tiger SKIN:
     id: 36735
     marketGroup: 2105
@@ -26215,6 +28285,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Widow Biosecurity Responders SKIN:
+    id: 55558
+    marketGroup: 2111
+    name: Widow Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Widow Blue Tiger SKIN:
     id: 36739
     marketGroup: 2111
@@ -26283,6 +28361,14 @@ types:
     id: 53192
     marketGroup: 2111
     name: Widow Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Wolf Biosecurity Responders SKIN:
+    id: 55683
+    marketGroup: 2050
+    name: Wolf Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26407,6 +28493,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Wreathe Biosecurity Responders SKIN:
+    id: 55658
+    marketGroup: 2010
+    name: Wreathe Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Wreathe Blue Tiger SKIN:
     id: 36840
     marketGroup: 2010
@@ -26458,6 +28552,14 @@ types:
     id: 36793
     marketGroup: 2010
     name: Wreathe Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Wyvern Biosecurity Responders SKIN:
+    id: 55519
+    marketGroup: 1975
+    name: Wyvern Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26593,6 +28695,14 @@ types:
     id: 50143
     marketGroup: 2485
     name: Zarmazd Metamateria Exotica SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Zealot Biosecurity Responders SKIN:
+    id: 55302
+    marketGroup: 2069
+    name: Zealot Biosecurity Responders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

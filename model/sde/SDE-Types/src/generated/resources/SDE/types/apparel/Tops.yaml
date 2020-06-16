@@ -636,6 +636,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Project Discovery Cytometry T-Shirt:
+    gender: 2
+    id: 54943
+    marketGroup: 1398
+    name: Men's Project Discovery Cytometry T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's YC119 Yoiul Festival T-shirt:
     gender: 1
     id: 44123
@@ -1459,6 +1468,15 @@ types:
     id: 50130
     marketGroup: 1406
     name: Women's Permaband Tour T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Project Discovery Cytometry T-Shirt:
+    gender: 2
+    id: 54944
+    marketGroup: 1406
+    name: Women's Project Discovery Cytometry T-Shirt
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

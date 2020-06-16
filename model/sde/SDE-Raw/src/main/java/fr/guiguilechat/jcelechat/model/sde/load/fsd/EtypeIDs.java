@@ -31,10 +31,12 @@ public class EtypeIDs {
 			public double bonus;
 			public HashMap<String, String> bonusText;
 			public int importance;
+			public boolean isPositive;
 			public int nameID;
 			public int unitID;
 		}
 
+		public int iconID;
 		public ArrayList<Bonus> miscBonuses;
 		public ArrayList<Bonus> roleBonuses;
 		public HashMap<Integer, ArrayList<Bonus>> types;

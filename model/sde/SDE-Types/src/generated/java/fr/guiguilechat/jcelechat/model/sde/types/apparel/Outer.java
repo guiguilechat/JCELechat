@@ -10,6 +10,7 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
@@ -28,6 +29,13 @@ import org.yaml.snakeyaml.Yaml;
 public class Outer
     extends Apparel
 {
+    /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double capacity;
     /**
      * This item of clothing covers multiple areas of the body, so the category of clothes specified by this attribute is no longer mandatory
      */
@@ -63,12 +71,41 @@ public class Outer
     @Stackable(true)
     @DefaultIntValue(0)
     public int clothingruleexception;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ClothingRemovesCategory.INSTANCE, Mass.INSTANCE, ClothingAlsoCoversCategory.INSTANCE, ClothingRuleException.INSTANCE, Capacity.INSTANCE, ClothingAlsoCoversCategory2 .INSTANCE, Gender.INSTANCE, ClothingRemovesCategory2 .INSTANCE })));
+    /**
+     * Used to describe what sex a given item is meant for.
+     * 
+     *  1 = Male,
+     *  2 = Unisex,
+     *  3 = Female
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(2)
+    public int gender;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultDoubleValue(0.0)
+    public double mass;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultDoubleValue(0.0)
+    public double radius;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, ClothingRemovesCategory.INSTANCE, ClothingAlsoCoversCategory.INSTANCE, ClothingRuleException.INSTANCE, Capacity.INSTANCE, ClothingAlsoCoversCategory2 .INSTANCE, Gender.INSTANCE, ClothingRemovesCategory2 .INSTANCE })));
     public static final Outer.MetaGroup METAGROUP = new Outer.MetaGroup();
 
     @Override
     public Number attribute(Attribute attribute) {
         switch (attribute.getId()) {
+            case  38 :
+            {
+                return capacity;
+            }
             case  1797 :
             {
                 return clothingalsocoverscategory;
@@ -88,6 +125,18 @@ public class Outer
             case  1957 :
             {
                 return clothingruleexception;
+            }
+            case  1773 :
+            {
+                return gender;
+            }
+            case  4 :
+            {
+                return mass;
+            }
+            case  162 :
+            {
+                return radius;
             }
             default:
             {
