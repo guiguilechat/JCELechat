@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat.jcelechat</groupId>
     <artifactId>programs</artifactId>
-    <version>5.3.11</version>
+    <version>5.3.12</version>
   </parent>
   <groupId>fr.guiguilechat.jcelechat.programs</groupId>
   <artifactId>MoonWorth</artifactId>
