@@ -179,10 +179,10 @@ public class IndustryTranslater {
 		Activity ret = new Activity();
 		ret.time = activity.time;
 		activity.materials.stream().map(m -> convertMaterialReq(m)).peek(o -> skip[0] = skip[0] || o == null)
-		.forEach(ret.materials::add);
+		.filter(o -> o != null).sorted((m1, m2) -> Integer.compare(m1.id, m2.id)).forEach(ret.materials::add);
 		activity.products.stream().map(p -> convertMaterialProd(p)).peek(o -> skip[0] = skip[0] || o == null)
-		.forEach(ret.products::add);
-		activity.skills.stream().forEach(s -> {
+		.filter(o -> o != null).sorted((m1, m2) -> Integer.compare(m1.id, m2.id)).forEach(ret.products::add);
+		activity.skills.stream().sorted((s1, s2) -> Integer.compare(s1.typeID, s2.typeID)).forEach(s -> {
 			EveType skill = TypeIndex.getType(s.typeID);
 			if (skill == null) {
 				logger.debug("missing skill " + s.typeID);
