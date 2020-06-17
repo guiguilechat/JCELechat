@@ -32,26 +32,26 @@ public class Market {
 	// market orders of the character
 	//
 
-	private ObsMapHolder<Integer, Integer> cachedSOs = null;
+	private ObsMapHolder<Integer, Long> cachedSOs = null;
 
-	private ObsMapHolder<Integer, Integer> cachedBOs = null;
+	private ObsMapHolder<Integer, Long> cachedBOs = null;
 
 	private void makeBOSOs() {
 		if (cachedSOs == null || cachedBOs == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedSOs == null || cachedBOs == null) {
-					ObservableMap<Integer, Integer> underlyingsos = FXCollections.observableMap(new HashMap<>());
-					ObsMapHolderImpl<Integer, Integer> newmarketSOs = new ObsMapHolderImpl<>(underlyingsos);
-					ObservableMap<Integer, Integer> underlyingbos = FXCollections.observableMap(new HashMap<>());
-					ObsMapHolderImpl<Integer, Integer> newmarketBOs = new ObsMapHolderImpl<>(underlyingbos);
+					ObservableMap<Integer, Long> underlyingsos = FXCollections.observableMap(new HashMap<>());
+					ObsMapHolderImpl<Integer, Long> newmarketSOs = new ObsMapHolderImpl<>(underlyingsos);
+					ObservableMap<Integer, Long> underlyingbos = FXCollections.observableMap(new HashMap<>());
+					ObsMapHolderImpl<Integer, Long> newmarketBOs = new ObsMapHolderImpl<>(underlyingbos);
 					getOrders().follow((map) -> {
-						HashMap<Integer, Integer> newMapsos = new HashMap<>();
-						HashMap<Integer, Integer> newMapbos = new HashMap<>();
+						HashMap<Integer, Long> newMapsos = new HashMap<>();
+						HashMap<Integer, Long> newMapbos = new HashMap<>();
 						for (R_get_characters_character_id_orders v : map.values()) {
 							if (!v.is_buy_order) {
-								newMapsos.put(v.type_id, newMapsos.getOrDefault(v.type_id, 0) + v.volume_remain);
+								newMapsos.put(v.type_id, newMapsos.getOrDefault(v.type_id, 0l) + v.volume_remain);
 							} else {
-								newMapbos.put(v.type_id, newMapbos.getOrDefault(v.type_id, 0) + v.volume_remain);
+								newMapbos.put(v.type_id, newMapbos.getOrDefault(v.type_id, 0l) + v.volume_remain);
 							}
 						}
 						synchronized (underlyingsos) {
@@ -72,12 +72,12 @@ public class Market {
 		}
 	}
 
-	public ObsMapHolder<Integer, Integer> getSOs() {
+	public ObsMapHolder<Integer, Long> getSOs() {
 		makeBOSOs();
 		return cachedSOs;
 	}
 
-	public ObsMapHolder<Integer, Integer> getBOs() {
+	public ObsMapHolder<Integer, Long> getBOs() {
 		makeBOSOs();
 		return cachedBOs;
 	}
