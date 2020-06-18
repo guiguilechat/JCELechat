@@ -14,6 +14,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsCollectionHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
@@ -47,7 +48,7 @@ public class Market {
 					getOrders().follow((map) -> {
 						HashMap<Integer, Long> newMapsos = new HashMap<>();
 						HashMap<Integer, Long> newMapbos = new HashMap<>();
-						for (R_get_characters_character_id_orders v : map.values()) {
+						for (R_get_characters_character_id_orders v : map) {
 							if (!v.is_buy_order) {
 								newMapsos.put(v.type_id, newMapsos.getOrDefault(v.type_id, 0l) + v.volume_remain);
 							} else {
@@ -82,27 +83,18 @@ public class Market {
 		return cachedBOs;
 	}
 
-	private ObsMapHolder<Long, R_get_characters_character_id_orders> cacheOrders = null;
-
-	public ObsMapHolder<Long, R_get_characters_character_id_orders> getOrders() {
-		if (cacheOrders == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cacheOrders == null) {
-					cacheOrders = ObsMapHolderImpl.toMap(con.raw.cache.characters.orders(con.characterId()), o -> o.order_id);
-				}
-			});
-		}
-		return cacheOrders;
+	public ObsListHolder<R_get_characters_character_id_orders> getOrders() {
+		return con.raw.cache.characters.orders(con.characterId());
 	}
 
 	private ObsSetHolder<Long> cachedOrderIds = null;
 
 	public ObsSetHolder<Long> getOrderIds() {
 		if (cachedOrderIds == null) {
-			ObsMapHolder<Long, R_get_characters_character_id_orders> orders = getOrders();
+			ObsListHolder<R_get_characters_character_id_orders> orders = getOrders();
 			LockWatchDog.BARKER.syncExecute(orders, () -> {
 				if (cachedOrderIds == null) {
-					cachedOrderIds = orders.values().mapItems(order -> order.order_id).distinct();
+					cachedOrderIds = orders.mapItems(order -> order.order_id).distinct();
 				}
 			});
 		}
