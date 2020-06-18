@@ -150018,3 +150018,1601 @@ blueprints:
     research_time:
       time: 6300
     seeded: false
+  54845:
+    copying:
+      time: 720
+    id: 54845
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54808
+        quantity: 1
+      - id: 54809
+        quantity: 1
+      products:
+      - id: 54850
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 13800
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 10916
+      - id: 35
+        quantity: 592
+      - id: 36
+        quantity: 684
+      - id: 39
+        quantity: 16
+      - id: 48112
+        quantity: 142
+      - id: 54970
+        quantity: 4
+      - id: 54971
+        quantity: 6
+      - id: 54972
+        quantity: 24
+      products:
+      - id: 54739
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54846:
+    copying:
+      time: 2160
+    id: 54846
+    manufacturing:
+      materials:
+      - id: 54753
+        quantity: 1
+      - id: 54971
+        quantity: 36
+      products:
+      - id: 54754
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 2700
+    maxCopyRuns: 60
+    research_material:
+      time: 945
+    research_time:
+      time: 945
+    seeded: false
+  54848:
+    copying:
+      time: 720
+    id: 54848
+    manufacturing:
+      materials:
+      - id: 54739
+        quantity: 1
+      - id: 54970
+        quantity: 4
+      products:
+      - id: 54740
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54849:
+    copying:
+      time: 720
+    id: 54849
+    manufacturing:
+      materials:
+      - id: 54739
+        quantity: 1
+      - id: 54970
+        quantity: 4
+      products:
+      - id: 54741
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54850:
+    copying:
+      materials:
+      - id: 3812
+        quantity: 10
+      - id: 11467
+        quantity: 1
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 1872
+    id: 54850
+    manufacturing:
+      materials:
+      - id: 9848
+        quantity: 4
+      - id: 11399
+        quantity: 32
+      - id: 11486
+        quantity: 1
+      - id: 11690
+        quantity: 44
+      - id: 54739
+        quantity: 1
+      products:
+      - id: 54742
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 5
+        Electromagnetic Physics: 1
+        Quantum Physics: 1
+      time: 2340
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 1
+      - id: 9836
+        quantity: 1
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 2
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 819
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 1
+      - id: 9836
+        quantity: 1
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 819
+    seeded: false
+  54851:
+    copying:
+      time: 720
+    id: 54851
+    manufacturing:
+      materials:
+      - id: 54742
+        quantity: 1
+      - id: 54971
+        quantity: 10
+      products:
+      - id: 54743
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54852:
+    copying:
+      time: 1440
+    id: 54852
+    invention:
+      materials:
+      - id: 20412
+        quantity: 2
+      - id: 20414
+        quantity: 2
+      - id: 54808
+        quantity: 2
+      - id: 54809
+        quantity: 2
+      products:
+      - id: 54855
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 30900
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 54798
+      - id: 35
+        quantity: 17886
+      - id: 36
+        quantity: 21594
+      - id: 37
+        quantity: 12
+      - id: 38
+        quantity: 108
+      - id: 48112
+        quantity: 265
+      - id: 54970
+        quantity: 6
+      - id: 54971
+        quantity: 10
+      - id: 54972
+        quantity: 46
+      products:
+      - id: 54745
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 1800
+    maxCopyRuns: 100
+    research_material:
+      time: 630
+    research_time:
+      time: 630
+    seeded: false
+  54853:
+    copying:
+      time: 1440
+    id: 54853
+    manufacturing:
+      materials:
+      - id: 54745
+        quantity: 1
+      - id: 54970
+        quantity: 8
+      products:
+      - id: 54746
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 1800
+    maxCopyRuns: 100
+    research_material:
+      time: 630
+    research_time:
+      time: 630
+    seeded: false
+  54854:
+    copying:
+      time: 1440
+    id: 54854
+    manufacturing:
+      materials:
+      - id: 54745
+        quantity: 1
+      - id: 54970
+        quantity: 8
+      products:
+      - id: 54747
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 1800
+    maxCopyRuns: 100
+    research_material:
+      time: 630
+    research_time:
+      time: 630
+    seeded: false
+  54855:
+    copying:
+      materials:
+      - id: 3812
+        quantity: 20
+      - id: 11467
+        quantity: 1
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 3744
+    id: 54855
+    manufacturing:
+      materials:
+      - id: 9848
+        quantity: 30
+      - id: 11399
+        quantity: 120
+      - id: 11486
+        quantity: 1
+      - id: 11690
+        quantity: 120
+      - id: 54745
+        quantity: 1
+      products:
+      - id: 54748
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 5
+        Electromagnetic Physics: 1
+        Quantum Physics: 1
+      time: 4680
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 2
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 1638
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 1638
+    seeded: false
+  54856:
+    copying:
+      time: 1440
+    id: 54856
+    manufacturing:
+      materials:
+      - id: 54748
+        quantity: 1
+      - id: 54971
+        quantity: 18
+      products:
+      - id: 54749
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 1800
+    maxCopyRuns: 100
+    research_material:
+      time: 630
+    research_time:
+      time: 630
+    seeded: false
+  54857:
+    copying:
+      time: 2160
+    id: 54857
+    invention:
+      materials:
+      - id: 20412
+        quantity: 3
+      - id: 20414
+        quantity: 3
+      - id: 54808
+        quantity: 3
+      - id: 54809
+        quantity: 3
+      products:
+      - id: 54860
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 51000
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 911040
+      - id: 35
+        quantity: 233712
+      - id: 36
+        quantity: 77976
+      - id: 37
+        quantity: 21200
+      - id: 38
+        quantity: 3288
+      - id: 40
+        quantity: 260
+      - id: 48112
+        quantity: 440
+      - id: 54970
+        quantity: 12
+      - id: 54971
+        quantity: 24
+      - id: 54972
+        quantity: 82
+      products:
+      - id: 54750
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 2700
+    maxCopyRuns: 60
+    research_material:
+      time: 945
+    research_time:
+      time: 945
+    seeded: false
+  54858:
+    copying:
+      time: 2160
+    id: 54858
+    manufacturing:
+      materials:
+      - id: 54750
+        quantity: 1
+      - id: 54970
+        quantity: 14
+      products:
+      - id: 54751
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 2700
+    maxCopyRuns: 60
+    research_material:
+      time: 945
+    research_time:
+      time: 945
+    seeded: false
+  54859:
+    copying:
+      time: 2160
+    id: 54859
+    manufacturing:
+      materials:
+      - id: 54750
+        quantity: 1
+      - id: 54970
+        quantity: 14
+      products:
+      - id: 54752
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 2700
+    maxCopyRuns: 60
+    research_material:
+      time: 945
+    research_time:
+      time: 945
+    seeded: false
+  54860:
+    copying:
+      materials:
+      - id: 3812
+        quantity: 30
+      - id: 11467
+        quantity: 1
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 5616
+    id: 54860
+    manufacturing:
+      materials:
+      - id: 9848
+        quantity: 112
+      - id: 11399
+        quantity: 304
+      - id: 11486
+        quantity: 1
+      - id: 11690
+        quantity: 288
+      - id: 54750
+        quantity: 1
+      products:
+      - id: 54753
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 5
+        Electromagnetic Physics: 1
+        Quantum Physics: 1
+      time: 7020
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 5
+      - id: 9836
+        quantity: 3
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 2
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 2457
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 5
+      - id: 9836
+        quantity: 3
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 2457
+    seeded: false
+  54861:
+    copying:
+      time: 240
+    id: 54861
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54810
+        quantity: 1
+      products:
+      - id: 54884
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 22800
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 816
+      - id: 35
+        quantity: 68
+      - id: 38
+        quantity: 4
+      - id: 54970
+        quantity: 1
+      - id: 54972
+        quantity: 6
+      products:
+      - id: 54769
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 300
+    maxCopyRuns: 600
+    research_material:
+      time: 105
+    research_time:
+      time: 105
+    seeded: false
+  54862:
+    copying:
+      time: 240
+    id: 54862
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54811
+        quantity: 1
+      products:
+      - id: 54885
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 22800
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 816
+      - id: 35
+        quantity: 68
+      - id: 38
+        quantity: 4
+      - id: 54970
+        quantity: 1
+      - id: 54972
+        quantity: 6
+      products:
+      - id: 54770
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 300
+    maxCopyRuns: 600
+    research_material:
+      time: 105
+    research_time:
+      time: 105
+    seeded: false
+  54863:
+    copying:
+      time: 240
+    id: 54863
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54810
+        quantity: 1
+      products:
+      - id: 54884
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 22800
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 816
+      - id: 35
+        quantity: 68
+      - id: 38
+        quantity: 4
+      - id: 54970
+        quantity: 1
+      - id: 54972
+        quantity: 6
+      products:
+      - id: 54771
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 300
+    maxCopyRuns: 600
+    research_material:
+      time: 105
+    research_time:
+      time: 105
+    seeded: false
+  54864:
+    copying:
+      time: 240
+    id: 54864
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54811
+        quantity: 1
+      products:
+      - id: 54885
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 22800
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 816
+      - id: 35
+        quantity: 68
+      - id: 38
+        quantity: 4
+      - id: 54970
+        quantity: 1
+      - id: 54972
+        quantity: 6
+      products:
+      - id: 54772
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 300
+    maxCopyRuns: 600
+    research_material:
+      time: 105
+    research_time:
+      time: 105
+    seeded: false
+  54865:
+    copying:
+      time: 480
+    id: 54865
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54810
+        quantity: 2
+      products:
+      - id: 54886
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 45600
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 2694
+      - id: 35
+        quantity: 2502
+      - id: 36
+        quantity: 42
+      - id: 54970
+        quantity: 2
+      - id: 54972
+        quantity: 8
+      products:
+      - id: 54773
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 600
+    maxCopyRuns: 300
+    research_material:
+      time: 210
+    research_time:
+      time: 210
+    seeded: false
+  54866:
+    copying:
+      time: 480
+    id: 54866
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54811
+        quantity: 2
+      products:
+      - id: 54887
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 45600
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 2694
+      - id: 35
+        quantity: 2502
+      - id: 36
+        quantity: 42
+      - id: 54970
+        quantity: 2
+      - id: 54972
+        quantity: 8
+      products:
+      - id: 54774
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 600
+    maxCopyRuns: 300
+    research_material:
+      time: 210
+    research_time:
+      time: 210
+    seeded: false
+  54867:
+    copying:
+      time: 480
+    id: 54867
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54810
+        quantity: 2
+      products:
+      - id: 54886
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 45600
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 2694
+      - id: 35
+        quantity: 2502
+      - id: 36
+        quantity: 42
+      - id: 54970
+        quantity: 2
+      - id: 54972
+        quantity: 8
+      products:
+      - id: 54775
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 600
+    maxCopyRuns: 300
+    research_material:
+      time: 210
+    research_time:
+      time: 210
+    seeded: false
+  54868:
+    copying:
+      time: 480
+    id: 54868
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54811
+        quantity: 2
+      products:
+      - id: 54887
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 45600
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 2694
+      - id: 35
+        quantity: 2502
+      - id: 36
+        quantity: 42
+      - id: 54970
+        quantity: 2
+      - id: 54972
+        quantity: 8
+      products:
+      - id: 54776
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 600
+    maxCopyRuns: 300
+    research_material:
+      time: 210
+    research_time:
+      time: 210
+    seeded: false
+  54869:
+    copying:
+      time: 720
+    id: 54869
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54810
+        quantity: 3
+      products:
+      - id: 54888
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 68100
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 14224
+      - id: 35
+        quantity: 1016
+      - id: 36
+        quantity: 712
+      - id: 37
+        quantity: 232
+      - id: 54970
+        quantity: 4
+      - id: 54972
+        quantity: 14
+      products:
+      - id: 54777
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54870:
+    copying:
+      time: 720
+    id: 54870
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54811
+        quantity: 3
+      products:
+      - id: 54889
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 68100
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 14224
+      - id: 35
+        quantity: 1016
+      - id: 36
+        quantity: 712
+      - id: 37
+        quantity: 232
+      - id: 54970
+        quantity: 4
+      - id: 54972
+        quantity: 14
+      products:
+      - id: 54778
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54871:
+    copying:
+      time: 720
+    id: 54871
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54810
+        quantity: 3
+      products:
+      - id: 54888
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 68100
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 14224
+      - id: 35
+        quantity: 1016
+      - id: 36
+        quantity: 712
+      - id: 37
+        quantity: 232
+      - id: 54970
+        quantity: 4
+      - id: 54972
+        quantity: 14
+      products:
+      - id: 54779
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54872:
+    copying:
+      time: 720
+    id: 54872
+    invention:
+      materials:
+      - id: 20412
+        quantity: 1
+      - id: 20414
+        quantity: 1
+      - id: 54811
+        quantity: 3
+      products:
+      - id: 54889
+        probability: 0.34
+        quantity: 10
+      skills:
+        Plasma Physics: 1
+        Quantum Physics: 1
+        Upwell Encryption Methods: 1
+      time: 68100
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 14224
+      - id: 35
+        quantity: 1016
+      - id: 36
+        quantity: 712
+      - id: 37
+        quantity: 232
+      - id: 54970
+        quantity: 4
+      - id: 54972
+        quantity: 14
+      products:
+      - id: 54780
+        probability: 1.0
+        quantity: 500
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54873:
+    copying:
+      time: 720
+    id: 54873
+    invention:
+      materials:
+      - id: 20418
+        quantity: 2
+      - id: 20424
+        quantity: 2
+      - id: 54808
+        quantity: 2
+      products:
+      - id: 54876
+        probability: 0.34
+        quantity: 10
+      skills:
+        Mechanical Engineering: 1
+        Electronic Engineering: 1
+        Upwell Encryption Methods: 1
+      time: 13800
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 8050
+      - id: 35
+        quantity: 1459
+      - id: 54970
+        quantity: 2
+      - id: 54971
+        quantity: 6
+      - id: 54972
+        quantity: 20
+      products:
+      - id: 54973
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54874:
+    copying:
+      time: 720
+    id: 54874
+    manufacturing:
+      materials:
+      - id: 54970
+        quantity: 10
+      - id: 54973
+        quantity: 1
+      products:
+      - id: 54974
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 1
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  54876:
+    copying:
+      materials:
+      - id: 3812
+        quantity: 10
+      - id: 11467
+        quantity: 1
+      skills:
+        Mechanical Engineering: 1
+        Electronic Engineering: 1
+      time: 1872
+    id: 54876
+    manufacturing:
+      materials:
+      - id: 3689
+        quantity: 8
+      - id: 9842
+        quantity: 3
+      - id: 11399
+        quantity: 5
+      - id: 11483
+        quantity: 1
+      - id: 11540
+        quantity: 8
+      - id: 54973
+        quantity: 1
+      products:
+      - id: 54975
+        probability: 1.0
+        quantity: 1
+      skills:
+        Industry: 5
+        Mechanical Engineering: 1
+        Electronic Engineering: 1
+      time: 2340
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 4
+      - id: 9836
+        quantity: 2
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 5
+        Mechanical Engineering: 1
+        Electronic Engineering: 1
+      time: 819
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Mechanical Engineering: 1
+        Electronic Engineering: 1
+      time: 819
+    seeded: false
+  54884:
+    copying:
+      materials:
+      - id: 11467
+        quantity: 1
+      skills:
+        Science: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 3840
+    id: 54884
+    manufacturing:
+      materials:
+      - id: 11399
+        quantity: 4
+      - id: 11476
+        quantity: 1
+      - id: 16670
+        quantity: 240
+      - id: 16679
+        quantity: 240
+      products:
+      - id: 54784
+        probability: 1.0
+        quantity: 200
+      skills:
+        Industry: 5
+        Electromagnetic Physics: 1
+        Quantum Physics: 1
+      time: 4800
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 1
+      - id: 9836
+        quantity: 1
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 168
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 1
+      - id: 9836
+        quantity: 1
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 168
+    seeded: false
+  54885:
+    copying:
+      materials:
+      - id: 11746
+        quantity: 1
+      skills:
+        Science: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 3840
+    id: 54885
+    manufacturing:
+      materials:
+      - id: 11399
+        quantity: 4
+      - id: 11476
+        quantity: 1
+      - id: 16670
+        quantity: 240
+      - id: 16679
+        quantity: 240
+      products:
+      - id: 54781
+        probability: 1.0
+        quantity: 200
+      skills:
+        Industry: 5
+        Electromagnetic Physics: 1
+        Quantum Physics: 1
+      time: 4800
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 1
+      - id: 9836
+        quantity: 1
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 168
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 1
+      - id: 9836
+        quantity: 1
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 168
+    seeded: false
+  54886:
+    copying:
+      materials:
+      - id: 11467
+        quantity: 1
+      skills:
+        Science: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 7680
+    id: 54886
+    manufacturing:
+      materials:
+      - id: 11399
+        quantity: 36
+      - id: 11476
+        quantity: 1
+      - id: 16670
+        quantity: 1440
+      - id: 16679
+        quantity: 1440
+      products:
+      - id: 54786
+        probability: 1.0
+        quantity: 200
+      skills:
+        Industry: 5
+        Electromagnetic Physics: 1
+        Quantum Physics: 1
+      time: 9600
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 336
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 336
+    seeded: false
+  54887:
+    copying:
+      materials:
+      - id: 11746
+        quantity: 1
+      skills:
+        Science: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 7680
+    id: 54887
+    manufacturing:
+      materials:
+      - id: 11399
+        quantity: 36
+      - id: 11476
+        quantity: 1
+      - id: 16670
+        quantity: 1440
+      - id: 16679
+        quantity: 1440
+      products:
+      - id: 54785
+        probability: 1.0
+        quantity: 200
+      skills:
+        Industry: 5
+        Electromagnetic Physics: 1
+        Quantum Physics: 1
+      time: 9600
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 336
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 3
+      - id: 9836
+        quantity: 2
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 336
+    seeded: false
+  54888:
+    copying:
+      materials:
+      - id: 11467
+        quantity: 1
+      skills:
+        Science: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 11520
+    id: 54888
+    manufacturing:
+      materials:
+      - id: 11399
+        quantity: 120
+      - id: 11476
+        quantity: 1
+      - id: 16670
+        quantity: 4800
+      - id: 16679
+        quantity: 4800
+      products:
+      - id: 54783
+        probability: 1.0
+        quantity: 200
+      skills:
+        Industry: 5
+        Electromagnetic Physics: 1
+        Quantum Physics: 1
+      time: 14400
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 5
+      - id: 9836
+        quantity: 3
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 504
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 5
+      - id: 9836
+        quantity: 3
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 504
+    seeded: false
+  54889:
+    copying:
+      materials:
+      - id: 11746
+        quantity: 1
+      skills:
+        Science: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 11520
+    id: 54889
+    manufacturing:
+      materials:
+      - id: 11399
+        quantity: 120
+      - id: 11476
+        quantity: 1
+      - id: 16670
+        quantity: 4800
+      - id: 16679
+        quantity: 4800
+      products:
+      - id: 54782
+        probability: 1.0
+        quantity: 200
+      skills:
+        Industry: 5
+        Electromagnetic Physics: 1
+        Quantum Physics: 1
+      time: 14400
+    maxCopyRuns: 10
+    research_material:
+      materials:
+      - id: 3814
+        quantity: 5
+      - id: 9836
+        quantity: 3
+      - id: 11467
+        quantity: 1
+      skills:
+        Metallurgy: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 504
+    research_time:
+      materials:
+      - id: 3814
+        quantity: 5
+      - id: 9836
+        quantity: 3
+      - id: 11467
+        quantity: 1
+      skills:
+        Research: 5
+        Plasma Physics: 1
+        Quantum Physics: 1
+      time: 504
+    seeded: false
