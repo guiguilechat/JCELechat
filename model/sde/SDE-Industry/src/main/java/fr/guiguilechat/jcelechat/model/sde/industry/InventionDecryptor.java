@@ -4,12 +4,13 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.jcelechat.model.sde.EveType;
+import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
@@ -145,27 +146,34 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 			System.err.println("skills are null, throwing exception");
 			throw new NullPointerException("skills null");
 		}
-		int engSkills = target.invention.skills.keySet().stream().filter(s -> !s.contains("Encryption"))
-				.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
-		int encSkill = target.invention.skills.keySet().stream().filter(s -> s.contains("Encryption"))
-				.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
-		return Math.min(1.0, invented.probability * (1.0 + engSkills * 1.0 / 30 + encSkill * 1.0 / 40) * probmult());
-	}
-
-	private static HashMap<Science, Double> probabilityIncreaseSkills = null;
-
-	private HashMap<Science, Double> probabilityIncreaseSkills() {
-		if (probabilityIncreaseSkills == null) {
-			HashMap<Science, Double> ret = new HashMap<>();
-			for (Science e : Science.METAGROUP.load().values()) {
-				if (e.name.contains("Encryption")) {
-					ret.put(e, 2.5);
-				} else if (e.name.contains("")) {
-
+		double skillsProbaMult = 1.0;
+		for (String skillName : target.invention.skills.keySet()) {
+			EveType sk = TypeIndex.getType(skillName);
+			if (sk instanceof Science) {
+				Science sc = (Science) sk;
+				double skillMult = skillInventionProbaMult(sc);
+				if (skillMult != 0) {
+					skillsProbaMult += skillMult * skills.getOrDefault(skillName, 0);
 				}
 			}
 		}
-		return probabilityIncreaseSkills;
+		return Math.min(1.0, invented.probability * skillsProbaMult * probmult());
+	}
+
+	public static double skillInventionProbaMult(Science skill) {
+		// physics, engineering etc skills require two skills at V
+		if (skill.requiredskill1level == 5 && skill.requiredskill2level == 5) {
+			return 1.0 / 30;
+		}
+		// encryption methods require hacking
+		if (skill.requiredskill1 == 21718) {
+			return 1.0 / 40;
+		}
+		// hardcoded sleeper encryption methods.
+		if (skill.id == 3408) {
+			return 1.0 / 40;
+		}
+		return 0.0;
 	}
 
 	@Override

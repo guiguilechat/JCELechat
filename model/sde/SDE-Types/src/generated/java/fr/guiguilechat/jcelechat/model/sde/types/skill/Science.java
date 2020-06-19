@@ -7,6 +7,9 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.yaml.snakeyaml.Yaml;
+
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
@@ -37,7 +40,6 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.SkillIsObsolete;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SkillLevel;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SkillTimeConstant;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
-import org.yaml.snakeyaml.Yaml;
 
 public class Science
     extends Skill
@@ -204,7 +206,7 @@ public class Science
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.attribute(attribute);
             }
         }
     }
@@ -223,7 +225,7 @@ public class Science
         implements IMetaGroup<Science>
     {
         public static final String RESOURCE_PATH = "SDE/types/skill/Science.yaml";
-        private Map<String, Science> cache = (null);
+        private Map<String, Science> cache = null;
 
         @Override
         public IMetaCategory<? super Science> category() {
@@ -243,8 +245,8 @@ public class Science
         @Override
         public synchronized Map<String, Science> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(Science.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
-                    cache = new Yaml().loadAs(reader, (Container.class)).types;
+                try(final InputStreamReader reader = new InputStreamReader(Science.MetaGroup.class.getClassLoader().getResourceAsStream(RESOURCE_PATH))) {
+                    cache = new Yaml().loadAs(reader, Container.class).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
                 }
