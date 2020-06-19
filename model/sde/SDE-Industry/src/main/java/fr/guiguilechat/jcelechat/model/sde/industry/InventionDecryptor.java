@@ -4,12 +4,16 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 import org.yaml.snakeyaml.Yaml;
 
+import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
+import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
+import fr.guiguilechat.jcelechat.model.sde.types.skill.Science;
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
 
@@ -17,11 +21,16 @@ import fr.lelouet.tools.application.yaml.YAMLTools;
  * decryptors used in invention.
  *
  */
-public class InventionDecryptor {
+public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 
 	// loading/dumping
 
 	private static LinkedHashMap<Integer, InventionDecryptor> cache = null;
+
+	private static GenericDecryptor NULLDECRYPTOR = new GenericDecryptor();
+	static {
+		NULLDECRYPTOR.name = "no decryptor";
+	}
 
 	public static final String RESOURCE_PATH = "SDE/industry/decryptors.yaml";
 
@@ -54,14 +63,31 @@ public class InventionDecryptor {
 		public LinkedHashMap<Integer, InventionDecryptor> decryptors;
 	}
 
-	// structure
+	// data
 
-	public int maxrun = 0;
-	public double probmult = 1.0;
-	public int id = 0;
-	public int me = 0;
-	public int te = 0;
-	public String name;
+	@Override
+	public GenericDecryptor type() {
+		if (id == 0) {
+			return NULLDECRYPTOR;
+		}
+		return super.type();
+	}
+
+	public int maxrun() {
+		return (int) type().inventionmaxrunmodifier;
+	}
+
+	public double probmult() {
+		return type().inventionpropabilitymultiplier;
+	}
+
+	public int me() {
+		return (int) type().inventionmemodifier;
+	}
+
+	public int te() {
+		return (int) type().inventiontemodifier;
+	}
 
 	////
 	// interaction with invention
@@ -75,7 +101,7 @@ public class InventionDecryptor {
 	 * @return the effective ME, if success
 	 */
 	public int getMe(Blueprint target) {
-		return 2 + me;
+		return 2 + me();
 	}
 
 	/**
@@ -86,7 +112,7 @@ public class InventionDecryptor {
 	 * @return the effective TE, if success
 	 */
 	public int getTe(Blueprint target) {
-		return 4 + te;
+		return 4 + te();
 	}
 
 	/**
@@ -98,7 +124,7 @@ public class InventionDecryptor {
 	 * @return the effective number of runs, if success
 	 */
 	public int getMaxRuns(Blueprint target) {
-		return target.invention.products.get(0).quantity + maxrun;
+		return target.invention.products.get(0).quantity + maxrun();
 	}
 
 	/**
@@ -110,7 +136,7 @@ public class InventionDecryptor {
 	 * @param invented
 	 *          one of the products of the invention from target
 	 * @param skills
-	 *          the skills of the inventer
+	 *          the skills of the inventor
 	 * @return the probability (base 1) to success based only on the parameters
 	 *         given.
 	 */
@@ -123,25 +149,30 @@ public class InventionDecryptor {
 				.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
 		int encSkill = target.invention.skills.keySet().stream().filter(s -> s.contains("Encryption"))
 				.mapToInt(n -> skills.getOrDefault(n, 0)).sum();
-		return Math.min(1.0, invented.probability * (1.0 + engSkills * 1.0 / 30 + encSkill * 1.0 / 40) * probmult);
+		return Math.min(1.0, invented.probability * (1.0 + engSkills * 1.0 / 30 + encSkill * 1.0 / 40) * probmult());
 	}
 
-	@Override
-	public String toString() {
-		return name + " id" + id + " me" + me + " te" + te + " mult" + probmult + " run" + maxrun;
-	}
+	private static HashMap<Science, Double> probabilityIncreaseSkills = null;
 
-	@Override
-	public int hashCode() {
-		return name.hashCode();
+	private HashMap<Science, Double> probabilityIncreaseSkills() {
+		if (probabilityIncreaseSkills == null) {
+			HashMap<Science, Double> ret = new HashMap<>();
+			for (Science e : Science.METAGROUP.load().values()) {
+				if (e.name.contains("Encryption")) {
+					ret.put(e, 2.5);
+				} else if (e.name.contains("")) {
+
+				}
+			}
+		}
+		return probabilityIncreaseSkills;
 	}
 
 	@Override
 	public boolean equals(Object obj) {
 		if (obj != null && obj.getClass() == this.getClass()) {
 			InventionDecryptor o = (InventionDecryptor) obj;
-			return name.equals(o.name) && maxrun == o.maxrun && probmult == o.probmult && id == o.id && me == o.me
-					&& te == o.te;
+			return o.id == id;
 		}
 		return false;
 	}

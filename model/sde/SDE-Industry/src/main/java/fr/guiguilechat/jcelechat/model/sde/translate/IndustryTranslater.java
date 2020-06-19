@@ -19,6 +19,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
+import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionTypeID;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
@@ -55,17 +56,18 @@ public class IndustryTranslater {
 		LinkedHashMap<Integer, InventionDecryptor> decryptors = new LinkedHashMap<>();
 		LinkedHashMap<Integer, IndustryUsage> usages = new LinkedHashMap<>();
 
-		translateBlueprints(blueprints, decryptors, usages);
+		translateBlueprints(blueprints, usages);
+		translateDecryptors(decryptors);
 		translateCompression(usages);
 
 		// sort decryptors
 
 		Stream.of(blueprints, decryptors).forEach(m -> {
-			ArrayList<Entry<Integer, ? extends Object>> list = new ArrayList<>(m.entrySet());
+			ArrayList<Entry<Integer, ? extends TypeRef<?>>> list = new ArrayList<>(m.entrySet());
 			Collections.sort(list, (e1, e2) -> e1.getKey().compareTo(e2.getKey()));
 			m.clear();
-			for (Entry<Integer, ? extends Object> e : list) {
-				((Map<Integer, Object>) m).put(e.getKey(), e.getValue());
+			for (Entry<Integer, ? extends TypeRef<?>> e : list) {
+				((Map<Integer, TypeRef<?>>) m).put(e.getKey(), e.getValue());
 			}
 		});
 
@@ -80,7 +82,7 @@ public class IndustryTranslater {
 	}
 
 	private static void translateBlueprints(LinkedHashMap<Integer, Blueprint> blueprints,
-			LinkedHashMap<Integer, InventionDecryptor> decryptors, LinkedHashMap<Integer, IndustryUsage> usages) {
+			LinkedHashMap<Integer, IndustryUsage> usages) {
 		// set of type ids that are seeded by NPCs
 		Set<Integer> seededItems = EcrpNPCCorporationTrades.load().stream().map(t -> t.typeID).collect(Collectors.toSet());
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
@@ -142,14 +144,6 @@ public class IndustryTranslater {
 				}
 			}
 		}
-
-		for (Entry<String, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
-			decryptors.put(e.getValue().id, convertDecryptor(e.getValue()));
-		}
-
-		InventionDecryptor nullDecryptor = new InventionDecryptor();
-		nullDecryptor.name = "no decryptor";
-		decryptors.put(0, nullDecryptor);
 
 		// sort the usages by item name
 		ArrayList<Entry<Integer, IndustryUsage>> l = new ArrayList<>(usages.entrySet());
@@ -226,14 +220,17 @@ public class IndustryTranslater {
 		}
 	}
 
+	private static void translateDecryptors(LinkedHashMap<Integer, InventionDecryptor> decryptors) {
+		for (Entry<String, GenericDecryptor> e : GenericDecryptor.METAGROUP.load().entrySet()) {
+			decryptors.put(e.getValue().id, convertDecryptor(e.getValue()));
+		}
+		InventionDecryptor nullDecryptor = new InventionDecryptor();
+		decryptors.put(0, nullDecryptor);
+	}
+
 	public static InventionDecryptor convertDecryptor(GenericDecryptor dec) {
 		InventionDecryptor ret = new InventionDecryptor();
-		ret.me = (int) dec.inventionmemodifier;
-		ret.te = (int) dec.inventiontemodifier;
-		ret.maxrun = (int) dec.inventionmaxrunmodifier;
 		ret.id = dec.id;
-		ret.name = dec.name;
-		ret.probmult = dec.inventionpropabilitymultiplier;
 		return ret;
 	}
 
@@ -258,7 +255,7 @@ public class IndustryTranslater {
 			List<? extends MaterialReq> materials, Function<IndustryUsage, Set<Integer>> categorizer) {
 		if (materials == null || materials.isEmpty()) {
 		} else {
-			for (MaterialReq m : materials) {
+			for (MaterialReq<?> m : materials) {
 				if (m == null) {
 					logger.debug("null material in list of bp id=" + bpoID + " : " + materials);
 				}
