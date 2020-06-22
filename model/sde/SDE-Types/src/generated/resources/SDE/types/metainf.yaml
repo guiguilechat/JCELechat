@@ -36313,7 +36313,7 @@ id2name:
   54812: Expired Basic Capsuleer Day Cerebral Accelerator
   54813: Expired Potent Capsuleer Day Cerebral Accelerator
   54814: Expired Extended Capsuleer Day Cerebral Accelerator
-  54815: Basic Capsuleer Day Glamourex Booster
+  54815: Expired Basic Capsuleer Day Glamourex Booster
   54816: Expired Extended Capsuleer Day Glamourex Booster
   54817: Expired Potent Capsuleer Day Glamourex Booster
   54818: Capsuleer Day XVII Cap and T-Shirt Crate
@@ -36787,11 +36787,11 @@ id2name:
   55750: EDENCOM Battleship Wreck
   55751: 55751_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_AmarrFoundationF01.png
   55752: 55752_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_CaldariUnionF01.png
-  55753: 55753_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_GallenteFederationF01.png
+  55753: Women's 'Federal Defender' Beret
   55754: 55754_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_MinmatarLiberationF01.png
   55755: 55755_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_AmarrFoundationM01.png
   55756: 55756_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_CaldariUnionM01.png
-  55757: 55757_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_GallenteFederationM01.png
+  55757: Men's 'Federal Defender' Beret
   55758: 55758_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_MinmatarLiberationM01.png
   350916: Plasma Cannon
   351063: Heavy Machine Gun
@@ -55510,6 +55510,7 @@ name2group:
   Men's 'Fatal Elite' Combat Boots: apparel/Footwear
   Men's 'Fatal Elite' Combat Jacket: apparel/Outer
   Men's 'Fatal Elite' Combat Pants: apparel/Bottoms
+  Men's 'Federal Defender' Beret: apparel/Headwear
   Men's 'Field Marshal' Coat: apparel/Outer
   Men's 'Field Marshal' Coat (green): apparel/Outer
   Men's 'Form' T-shirt (Blood Raiders): apparel/Tops
@@ -66079,6 +66080,7 @@ name2group:
   Women's 'Fatal Elite' Combat Boots: apparel/Footwear
   Women's 'Fatal Elite' Combat Jacket: apparel/Outer
   Women's 'Fatal Elite' Combat Pants: apparel/Bottoms
+  Women's 'Federal Defender' Beret: apparel/Headwear
   Women's 'Function' T-shirt (Blood Raiders): apparel/Tops
   Women's 'Function' T-shirt (black): apparel/Tops
   Women's 'Function' T-shirt (blue): apparel/Tops

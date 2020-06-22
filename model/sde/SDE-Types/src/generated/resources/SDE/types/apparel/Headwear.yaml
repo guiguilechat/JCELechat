@@ -48,6 +48,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's 'Federal Defender' Beret:
+    gender: 2
+    id: 55757
+    marketGroup: 1943
+    name: Men's 'Federal Defender' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Liberator' Beret (Minmatar Republic):
     gender: 1
     id: 42712
@@ -441,6 +450,15 @@ types:
     id: 54304
     marketGroup: 1943
     name: Women's 'Fatal Elite' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Federal Defender' Beret:
+    gender: 2
+    id: 55753
+    marketGroup: 1943
+    name: Women's 'Federal Defender' Beret
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

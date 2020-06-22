@@ -2783,7 +2783,7 @@ types:
     rigsize: 3
     rigslots: 3
     scangravimetricstrength: 26.0
-    scanresolution: 103.0
+    scanresolution: 142.0
     scanspeed: 9000
     shieldcapacity: 13500.0
     shieldemdamageresonance: 0.800000011920929

@@ -19,10 +19,10 @@ types:
     weaponrangemultiplier: 0.75
   BlastShot Condenser Pack M:
     chargesize: 2
-    emdamage: 97.0
+    emdamage: 126.0
     entityflyrangemultiplier: 0.5
     id: 54775
-    kineticdamage: 321.0
+    kineticdamage: 417.0
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
@@ -37,10 +37,10 @@ types:
     weaponrangemultiplier: 0.75
   BlastShot Condenser Pack S:
     chargesize: 1
-    emdamage: 12.0
+    emdamage: 14.0
     entityflyrangemultiplier: 0.5
     id: 54771
-    kineticdamage: 81.0
+    kineticdamage: 97.0
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
@@ -73,10 +73,10 @@ types:
     weaponrangemultiplier: 0.75
   GalvaSurge Condenser Pack M:
     chargesize: 2
-    emdamage: 321.0
+    emdamage: 417.0
     entityflyrangemultiplier: 0.5
     id: 54773
-    kineticdamage: 97.0
+    kineticdamage: 126.0
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
@@ -91,10 +91,10 @@ types:
     weaponrangemultiplier: 0.75
   GalvaSurge Condenser Pack S:
     chargesize: 1
-    emdamage: 81.0
+    emdamage: 97.0
     entityflyrangemultiplier: 0.5
     id: 54769
-    kineticdamage: 12.0
+    kineticdamage: 14.0
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
@@ -127,10 +127,10 @@ types:
     weaponrangemultiplier: 1.5
   MesmerFlux Condenser Pack M:
     chargesize: 2
-    emdamage: 160.0
+    emdamage: 208.0
     entityflyrangemultiplier: 0.5
     id: 54774
-    kineticdamage: 49.0
+    kineticdamage: 64.0
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
@@ -145,10 +145,10 @@ types:
     weaponrangemultiplier: 1.5
   MesmerFlux Condenser Pack S:
     chargesize: 1
-    emdamage: 37.0
+    emdamage: 44.0
     entityflyrangemultiplier: 0.5
     id: 54770
-    kineticdamage: 9.0
+    kineticdamage: 11.0
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
@@ -181,10 +181,10 @@ types:
     weaponrangemultiplier: 1.5
   SlamBolt Condenser Pack M:
     chargesize: 2
-    emdamage: 49.0
+    emdamage: 64.0
     entityflyrangemultiplier: 0.5
     id: 54776
-    kineticdamage: 160.0
+    kineticdamage: 208.0
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2735
@@ -199,10 +199,10 @@ types:
     weaponrangemultiplier: 1.5
   SlamBolt Condenser Pack S:
     chargesize: 1
-    emdamage: 9.0
+    emdamage: 11.0
     entityflyrangemultiplier: 0.5
     id: 54772
-    kineticdamage: 37.0
+    kineticdamage: 44.0
     launchergroup: 74
     maincolor: 16764120
     marketGroup: 2734
