@@ -36,6 +36,8 @@ public class ShowLP {
 	}
 
 	public static void main(String[] args) {
+		int parrallelism = Runtime.getRuntime().availableProcessors() * 100;
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 		TypeGrouper tg = new TypeGrouper();
 		// precache
 		access.corporations.npccorps().flatten(corp -> {
@@ -81,7 +83,7 @@ public class ShowLP {
 			}
 		}
 
-		showGroup("", offers2Data.values(), null, offers2corps);
+		showGroup("", offers2Data.values(), new HashSet<>(), offers2corps);
 
 	}
 
@@ -92,12 +94,12 @@ public class ShowLP {
 		for (GroupData data : sortedByBiggerSizeDesc) {
 			Set<Integer> evaluated = data.offers;
 			if (done == null || !done.contains(data)) {
-				if (done != null) {
-					done.add(data);
-				}
 				System.out.println(prefix + "(" + evaluated.size() + ")" + offers2corps.get(evaluated).stream()
 						.map(corpid -> access.corporations.get(corpid).get().name).sorted().collect(Collectors.toList()));
-				showGroup("  " + prefix, data.biggers, done == null ? new HashSet<>() : done, offers2corps);
+				showGroup("  " + prefix, data.biggers, null, offers2corps);
+				if (done != null) {
+					done.addAll(data.biggers);
+				}
 			}
 		}
 	}

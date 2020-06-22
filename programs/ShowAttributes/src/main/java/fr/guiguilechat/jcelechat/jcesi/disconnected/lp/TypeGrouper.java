@@ -56,7 +56,7 @@ public class TypeGrouper {
 		Map<Integer, Double> atts = new HashMap<>();
 		atts.put(0, (double) product.group_id);
 		if (product.dogma_attributes == null) {
-			return INVALID_SEMANTIC;
+			atts.put(-1, (double) product.type_id);
 		} else {
 			for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes att : product.dogma_attributes) {
 				atts.put(att.attribute_id, (double) att.value);
