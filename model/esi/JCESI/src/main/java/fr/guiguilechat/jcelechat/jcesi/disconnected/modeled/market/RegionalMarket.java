@@ -169,4 +169,9 @@ public class RegionalMarket implements IPricing {
 		return ret;
 	}
 
+	@Override
+	public String toString() {
+		return "regionalMarket(" + regionID + ")";
+	}
+
 }

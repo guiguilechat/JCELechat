@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -141,10 +142,9 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 	 * @return the probability (base 1) to success based only on the parameters
 	 *         given.
 	 */
-	public double getProbability(Blueprint target, MaterialProd<?> invented, Map<String, Integer> skills) {
+	public double getProbability(Blueprint target, MaterialProd<?> invented, Map<Integer, Integer> skills) {
 		if (skills == null) {
-			System.err.println("skills are null, throwing exception");
-			throw new NullPointerException("skills null");
+			skills = Collections.emptyMap();
 		}
 		double skillsProbaMult = 1.0;
 		for (String skillName : target.invention.skills.keySet()) {
@@ -153,7 +153,7 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 				Science sc = (Science) sk;
 				double skillMult = skillInventionProbaMult(sc);
 				if (skillMult != 0) {
-					skillsProbaMult += skillMult * skills.getOrDefault(skillName, 0);
+					skillsProbaMult += skillMult * skills.getOrDefault(sk.id, 0);
 				}
 			}
 		}
