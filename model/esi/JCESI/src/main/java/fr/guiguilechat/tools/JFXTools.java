@@ -61,7 +61,7 @@ public class JFXTools {
 			suffix = "";
 		}
 		String rets = "" + prefix;
-		return (rets.length() > 4 ? rets.substring(0, 4).replaceAll("\\.$", "") : rets) + suffix;
+		return (rets.length() > 5 ? rets.substring(0, 5).replaceAll("\\.$", "") : rets) + suffix;
 	}
 
 	public static String formatDurationSeconds(long seconds) {

@@ -10,12 +10,11 @@ import java.util.Map;
 
 import org.yaml.snakeyaml.Yaml;
 
-import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
+import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
-import fr.guiguilechat.jcelechat.model.sde.types.skill.Science;
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
 
@@ -32,6 +31,7 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 	private static GenericDecryptor NULLDECRYPTOR = new GenericDecryptor();
 	static {
 		NULLDECRYPTOR.name = "no decryptor";
+		NULLDECRYPTOR.inventionpropabilitymultiplier = 1.0;
 	}
 
 	public static final String RESOURCE_PATH = "SDE/industry/decryptors.yaml";
@@ -122,7 +122,7 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 	 * given one
 	 *
 	 * @param target
-	 *          the blueprint copy
+	 *          the blueprint copy t1
 	 * @return the effective number of runs, if success
 	 */
 	public int getMaxRuns(Blueprint target) {
@@ -146,34 +146,41 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 		if (skills == null) {
 			skills = Collections.emptyMap();
 		}
-		double skillsProbaMult = 1.0;
+		int skillsProbaPoints_base120 = 0;
+
 		for (String skillName : target.invention.skills.keySet()) {
-			EveType sk = TypeIndex.getType(skillName);
-			if (sk instanceof Science) {
-				Science sc = (Science) sk;
-				double skillMult = skillInventionProbaMult(sc);
-				if (skillMult != 0) {
-					skillsProbaMult += skillMult * skills.getOrDefault(sk.id, 0);
-				}
+			Skill sk = (Skill) TypeIndex.getType(skillName);
+			int skillMult = inventionProbaIncr_base120(sk);
+			System.err.println(" " + skillName + " invention gain mult_b120=" + skillMult);
+			if (skillMult != 0) {
+				skillsProbaPoints_base120 += skillMult * skills.getOrDefault(sk.id, 0);
 			}
 		}
+
+		double skillsProbaMult = 1.0 * skillsProbaPoints_base120 / 120;
+		System.err.println("invent from " + target.name() + "with dec=" + name() + " gives base=" + invented.probability
+				+ " skills=" + skillsProbaMult + " decryptormult=" + probmult());
 		return Math.min(1.0, invented.probability * skillsProbaMult * probmult());
 	}
 
-	public static double skillInventionProbaMult(Science skill) {
-		// physics, engineering etc skills require two skills at V
-		if (skill.requiredskill1level == 5 && skill.requiredskill2level == 5) {
-			return 1.0 / 30;
-		}
+	/**
+	 * get the increase, in base 120 points and per skill level, of the invention
+	 * probability when using a BP whose invention activity requires that skill.
+	 *
+	 * @param skill
+	 *          the skill required
+	 * @return the increase in points base 120
+	 */
+	public static int inventionProbaIncr_base120(Skill skill) {
 		// encryption methods require hacking
 		if (skill.requiredskill1 == 21718) {
-			return 1.0 / 40;
+			return 3;
 		}
 		// hardcoded sleeper encryption methods.
 		if (skill.id == 3408) {
-			return 1.0 / 40;
+			return 3;
 		}
-		return 0.0;
+		return 4;
 	}
 
 	@Override
