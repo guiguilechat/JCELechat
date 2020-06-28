@@ -22,6 +22,12 @@ public class Industry {
 		con = conn;
 	}
 
+	/**
+	 * get the indices of a system
+	 *
+	 * @param sysID
+	 * @return
+	 */
 	public IndustryIndices getSystemIndices(int sysID) {
 		if (indicesMap == null) {
 			synchronized (this) {
@@ -35,6 +41,11 @@ public class Industry {
 		return indicesMap.get(sysID);
 	}
 
+	/**
+	 * contains the industry indices per activy, as a multiplier of the base cost.
+	 * eg a 1% manufacturing system will have its manufacturing set to 0.01
+	 *
+	 */
 	public static class IndustryIndices {
 		public float manufacturing, researching_time_efficiency, researching_material_efficiency, copying, invention,
 		reaction;

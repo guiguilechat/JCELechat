@@ -8,6 +8,8 @@ import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
@@ -23,6 +25,8 @@ import fr.lelouet.tools.application.yaml.YAMLTools;
  *
  */
 public class InventionDecryptor extends TypeRef<GenericDecryptor> {
+
+	private static final Logger logger = LoggerFactory.getLogger(InventionDecryptor.class);
 
 	// loading/dumping
 
@@ -151,14 +155,13 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 		for (String skillName : target.invention.skills.keySet()) {
 			Skill sk = (Skill) TypeIndex.getType(skillName);
 			int skillMult = inventionProbaIncr_base120(sk);
-			System.err.println(" " + skillName + " invention gain mult_b120=" + skillMult);
 			if (skillMult != 0) {
 				skillsProbaPoints_base120 += skillMult * skills.getOrDefault(sk.id, 0);
 			}
 		}
 
 		double skillsProbaMult = 1.0 * skillsProbaPoints_base120 / 120;
-		System.err.println("invent from " + target.name() + "with dec=" + name() + " gives base=" + invented.probability
+		logger.debug(" invent from " + target.name() + "with dec=" + name() + " gives base=" + invented.probability
 				+ " skills=" + skillsProbaMult + " decryptormult=" + probmult());
 		return Math.min(1.0, invented.probability * skillsProbaMult * probmult());
 	}
