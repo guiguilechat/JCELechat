@@ -259,7 +259,7 @@ public class EveCharacter {
 	 */
 	public ObsIntHolder getAvailResSlots() {
 		if (cacheAvailResSlots == null) {
-			ObsIntHolder allSlots = getTotalProdSlots();
+			ObsIntHolder allSlots = getTotalResearchSlots();
 			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getResearchJobs();
 			synchronized (jobs) {
 				if (cacheAvailResSlots == null) {
@@ -335,8 +335,7 @@ public class EveCharacter {
 	public Map<Integer, Long> getAssetsProd() {
 		Map<Integer, Long> assets = getAvailableAssets().get().values().stream().flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Long::sum));
-		Map<Integer, Long> prod = industry.getJobs().get().stream().parallel()
-				.filter(Industry::isManufacture)
+		Map<Integer, Long> prod = industry.getJobs().get().stream().parallel().filter(Industry::isManufacture)
 				.collect(Collectors.toMap(e -> e.product_type_id, e -> (long) e.runs, Long::sum));
 		return Stream.concat(assets.entrySet().stream(), prod.entrySet().stream())
 				.collect(Collectors.toMap(Entry::getKey, Entry::getValue, Long::sum));
@@ -434,8 +433,7 @@ public class EveCharacter {
 	public static Map<Long, Map<Integer, Long>> availableAssetsByLocation(
 			Iterable<R_get_characters_character_id_assets> assets) {
 		// remove all the items that have a bad location_flag
-		R_get_characters_character_id_assets[] itemsArr = StreamSupport.stream(assets.spliterator(),
-				false)
+		R_get_characters_character_id_assets[] itemsArr = StreamSupport.stream(assets.spliterator(), false)
 				.toArray(R_get_characters_character_id_assets[]::new);
 
 		// we make the map of itemid->locations. if a location is actually an
@@ -449,10 +447,8 @@ public class EveCharacter {
 			}
 			return ret;
 		}));
-		Map<Long, Map<Integer, Long>> ret = Stream.of(
-				itemsArr)
-				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(
-						asset.location_flag))
+		Map<Long, Map<Integer, Long>> ret = Stream.of(itemsArr)
+				.filter(asset -> !asset.is_singleton && availableAssetsFlags.contains(asset.location_flag))
 				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), EveCharacter::makeMap, EveCharacter::mergeMap));
 		return ret;
 	}

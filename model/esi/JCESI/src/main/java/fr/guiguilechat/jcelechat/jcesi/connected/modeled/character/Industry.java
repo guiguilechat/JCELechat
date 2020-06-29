@@ -44,6 +44,10 @@ public class Industry {
 		return cacheJobs;
 	}
 
+	//
+	// research
+	//
+
 	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheResearchJobs = null;
 
 	public ObsListHolder<R_get_characters_character_id_industry_jobs> getResearchJobs() {
@@ -57,6 +61,10 @@ public class Industry {
 		}
 		return cacheResearchJobs;
 	}
+
+	//
+	// invent
+	//
 
 	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheInventJobs = null;
 
@@ -72,6 +80,10 @@ public class Industry {
 		return cacheInventJobs;
 	}
 
+	//
+	// copy
+	//
+
 	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheCopyJobs = null;
 
 	public ObsListHolder<R_get_characters_character_id_industry_jobs> getCopyJobs() {
@@ -86,6 +98,24 @@ public class Industry {
 		return cacheCopyJobs;
 	}
 
+	private ObsMapHolder<Integer, Long> cacheCopy = null;
+
+	public ObsMapHolder<Integer, Long> getCopy() {
+		if (cacheCopy == null) {
+			ObsListHolder<R_get_characters_character_id_industry_jobs> copyjobs = getCopyJobs();
+			synchronized (copyjobs) {
+				if (cacheCopy == null) {
+					cacheCopy = copyjobs.toMap(j -> j.product_type_id, j -> (long) j.runs, Long::sum);
+				}
+			}
+		}
+		return cacheCopy;
+	}
+
+	//
+	// manufacturing
+	//
+
 	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheProductionJobs = null;
 
 	public ObsListHolder<R_get_characters_character_id_industry_jobs> getProductionJobs() {
@@ -99,6 +129,12 @@ public class Industry {
 		}
 		return cacheProductionJobs;
 	}
+
+	// TODO cache with resolver of bp to product quantity
+
+	//
+	// used BP
+	//
 
 	private ObsSetHolder<Long> cachedUsedBPs = null;
 
