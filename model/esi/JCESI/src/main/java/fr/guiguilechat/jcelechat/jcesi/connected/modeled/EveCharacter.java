@@ -42,7 +42,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
@@ -60,10 +59,6 @@ import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.beans.binding.Bindings;
-import javafx.beans.binding.LongBinding;
-import javafx.beans.property.SimpleIntegerProperty;
-import javafx.beans.value.ObservableNumberValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener.Change;
 import javafx.collections.ObservableMap;
@@ -237,55 +232,83 @@ public class EveCharacter {
 
 	// slots for industry jobs
 
-	private ObsIntHolder researchSlots = null;
+	private ObsIntHolder cacheTotalResearchSlots = null;
 
-	public ObsIntHolder availableResearchSlots() {
-		if (researchSlots == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (researchSlots == null) {
-					// System.err.println("making research slots for " +
-					// con.characterName());
-					ObsIntHolder jobs = industry.getResearchJobs().size();
-					// System.err.println("indus jobs is " + jobs.get());
-					ObsIntHolder corpJobs = con.corporation.getIndustryJobs().values()
-							.filter(j -> j.installer_id == con.characterId() && (Corporation.isCopy(j) || Corporation.isInvention(j)
-									|| Corporation.isME(j) || Corporation.isTE(j)))
-							.size();
-					// System.err.println("corps jobs is " + corpJobs.get());
-					ObsIntHolder skill1 = skills.ID2Level().at(3406, 0).mapInt(i -> i);
-					// System.err.println("skill 3406 is " + skill1.get());
-					ObsIntHolder skill2 = skills.ID2Level().at(24624, 0).mapInt(i -> i);
-					// System.err.println("skill 24624 is " + skill2.get());
-					ObsIntHolder totalSlots = skill1.add(skill2).add(1);
-					// System.err.println("total slots is " + totalSlots.get());
-					ObsIntHolder totalJobs = jobs.add(corpJobs);
-					// System.err.println("total jobs is " + totalJobs.get());
-					researchSlots = totalSlots.sub(totalJobs);
-					// System.err.println("research slots is " + researchSlots.get());
+	/**
+	 *
+	 * @return the total research slots this character has available from the
+	 *         skills.
+	 */
+	public ObsIntHolder getTotalResearchSlots() {
+		if (cacheTotalResearchSlots == null) {
+			ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
+			synchronized (cskills) {
+				if (cacheTotalResearchSlots == null) {
+					cacheTotalResearchSlots = cskills.at(3406, 0).mapInt(i -> i).add(cskills.at(24624, 0).mapInt(i -> i)).add(1);
 				}
-			});
+			}
 		}
-		return researchSlots;
+		return cacheTotalResearchSlots;
 	}
 
-	public ObservableNumberValue availableManufSlots() {
-		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> charjobs = industry.getIndustryJobs();
-		charjobs.values().filter(Industry::isManufacture).size();
-		LongBinding charJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (charjobs) {
-				return charjobs.get().values().stream().filter(Industry::isManufacture).count();
+	private ObsIntHolder cacheAvailResSlots;
+
+	/**
+	 *
+	 * @return the amount of production slots this character has available
+	 */
+	public ObsIntHolder getAvailResSlots() {
+		if (cacheAvailResSlots == null) {
+			ObsIntHolder allSlots = getTotalProdSlots();
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getResearchJobs();
+			synchronized (jobs) {
+				if (cacheAvailResSlots == null) {
+					ObsIntHolder corpOwnedJobs = con.corporation.industry.getResearchJobs()
+							.filter(j -> j.installer_id == con.characterId()).size();
+					cacheAvailResSlots = allSlots.sub(jobs.size()).sub(corpOwnedJobs);
+				}
 			}
-		}, charjobs.asObservable());
-		ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> corpJobs = con.corporation.getIndustryJobs();
-		LongBinding corpJobsVar = Bindings.createLongBinding(() -> {
-			synchronized (corpJobs) {
-				return corpJobs.get().values().stream().filter(j -> j.installer_id == con.characterId())
-						.filter(j -> Corporation.isManufacture(j)).count();
+		}
+		return cacheAvailResSlots;
+	}
+
+	private ObsIntHolder cacheTotalProdSlots = null;
+
+	/**
+	 *
+	 * @return the total slots this character has available from the skills.
+	 */
+	public ObsIntHolder getTotalProdSlots() {
+		if (cacheTotalProdSlots == null) {
+			ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
+			synchronized (cskills) {
+				if (cacheTotalProdSlots == null) {
+					cacheTotalProdSlots = cskills.at(3387, 0).mapInt(i -> i).add(cskills.at(24625, 0).mapInt(i -> i)).add(1);
+				}
 			}
-		}, corpJobs.asObservable());
-		return new SimpleIntegerProperty(
-				1 + skills.ID2Level().getOrDefault(3387, 0) + skills.ID2Level().getOrDefault(24625, 0)).subtract(charJobsVar)
-				.subtract(corpJobsVar);
+		}
+		return cacheTotalProdSlots;
+	}
+
+	private ObsIntHolder cacheAvailProdSlots;
+
+	/**
+	 *
+	 * @return the amount of production slots this character has available
+	 */
+	public ObsIntHolder getAvailProdSlots() {
+		if (cacheAvailProdSlots == null) {
+			ObsIntHolder allSlots = getTotalProdSlots();
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getProductionJobs();
+			synchronized (jobs) {
+				if (cacheAvailProdSlots == null) {
+					ObsIntHolder corpOwnedJobs = con.corporation.industry.getProductionJobs()
+							.filter(j -> j.installer_id == con.characterId()).size();
+					cacheAvailProdSlots = allSlots.sub(jobs.size()).sub(corpOwnedJobs);
+				}
+			}
+		}
+		return cacheAvailProdSlots;
 	}
 
 	//
@@ -312,7 +335,7 @@ public class EveCharacter {
 	public Map<Integer, Long> getAssetsProd() {
 		Map<Integer, Long> assets = getAvailableAssets().get().values().stream().flatMap(m -> m.entrySet().stream())
 				.collect(Collectors.toMap(e -> e.getKey(), e -> e.getValue(), Long::sum));
-		Map<Integer, Long> prod = industry.getIndustryJobs().get().values().stream().parallel()
+		Map<Integer, Long> prod = industry.getJobs().get().stream().parallel()
 				.filter(Industry::isManufacture)
 				.collect(Collectors.toMap(e -> e.product_type_id, e -> (long) e.runs, Long::sum));
 		return Stream.concat(assets.entrySet().stream(), prod.entrySet().stream())

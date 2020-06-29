@@ -5,7 +5,10 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_blueprints_location_flag;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
+import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Industry {
 
@@ -20,41 +23,96 @@ public class Industry {
 	//
 
 	/**
-	 * fetch the list of industry jobs for this character. Completed jobs are
-	 * ignored.
+	 * fetch the list of active industry jobs for this character. Completed jobs
+	 * are ignored.
 	 *
 	 * @return the internal cache of the jobs for this character. successive calls
 	 *         will return the same value.
 	 *
 	 */
 
-	private ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> industryJobs = null;
+	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheJobs = null;
 
-	public ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> getIndustryJobs() {
-		if (industryJobs == null) {
+	public ObsListHolder<R_get_characters_character_id_industry_jobs> getJobs() {
+		if (cacheJobs == null) {
 			synchronized (this) {
-				if (industryJobs == null) {
-					industryJobs = con.raw.cache.characters.industry_jobs(con.characterId(), false).toMap(j -> j.job_id);
+				if (cacheJobs == null) {
+					cacheJobs = con.raw.cache.characters.industry_jobs(con.characterId(), false);
 				}
 			}
 		}
-		return industryJobs;
+		return cacheJobs;
 	}
 
-	private ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> researchJobs = null;
+	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheResearchJobs = null;
 
-	public ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> getResearchJobs() {
-		ObsMapHolder<Integer, R_get_characters_character_id_industry_jobs> industryJobs = getIndustryJobs();
-		if (researchJobs == null) {
-			synchronized (industryJobs) {
-				if (researchJobs == null) {
-					researchJobs = industryJobs.filter(null, j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j));
+	public ObsListHolder<R_get_characters_character_id_industry_jobs> getResearchJobs() {
+		if (cacheResearchJobs == null) {
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = getJobs();
+			synchronized (jobs) {
+				if (cacheResearchJobs == null) {
+					cacheResearchJobs = jobs.filter(j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j));
 				}
 			}
 		}
-		return researchJobs;
+		return cacheResearchJobs;
 	}
 
+	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheInventJobs = null;
+
+	public ObsListHolder<R_get_characters_character_id_industry_jobs> getInventJobs() {
+		if (cacheInventJobs == null) {
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = getJobs();
+			synchronized (jobs) {
+				if (cacheInventJobs == null) {
+					cacheInventJobs = jobs.filter(Industry::isInvention);
+				}
+			}
+		}
+		return cacheInventJobs;
+	}
+
+	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheCopyJobs = null;
+
+	public ObsListHolder<R_get_characters_character_id_industry_jobs> getCopyJobs() {
+		if (cacheCopyJobs == null) {
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = getJobs();
+			synchronized (jobs) {
+				if (cacheCopyJobs == null) {
+					cacheCopyJobs = jobs.filter(Industry::isCopy);
+				}
+			}
+		}
+		return cacheCopyJobs;
+	}
+
+	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheProductionJobs = null;
+
+	public ObsListHolder<R_get_characters_character_id_industry_jobs> getProductionJobs() {
+		if (cacheProductionJobs == null) {
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = getJobs();
+			synchronized (jobs) {
+				if (cacheProductionJobs == null) {
+					cacheProductionJobs = jobs.filter(Industry::isManufacture);
+				}
+			}
+		}
+		return cacheProductionJobs;
+	}
+
+	private ObsSetHolder<Long> cachedUsedBPs = null;
+
+	public ObsSetHolder<Long> getUsedBPs() {
+		if (cachedUsedBPs == null) {
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = getJobs();
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedUsedBPs == null) {
+					cachedUsedBPs = jobs.mapItems(j -> j.blueprint_id).distinct();
+				}
+			});
+		}
+		return cachedUsedBPs;
+	}
 
 	public static boolean isManufacture(R_get_characters_character_id_industry_jobs job) {
 		return job.activity_id == 1;
@@ -88,7 +146,7 @@ public class Industry {
 				if (blueprints == null) {
 					blueprints = con.raw.cache.characters.blueprints(con.characterId())
 							.toMap(b -> b.item_id,
-							this::convertBlueprint);
+									this::convertBlueprint);
 				}
 			}
 		}

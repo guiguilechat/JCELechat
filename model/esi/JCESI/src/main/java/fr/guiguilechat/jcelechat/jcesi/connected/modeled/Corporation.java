@@ -31,6 +31,7 @@ import java.util.stream.StreamSupport;
 import org.slf4j.Logger;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.CorpBookmarks;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Industry;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Market;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Wallet;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
@@ -39,11 +40,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_contacts;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_divisions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_facilities;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_membertracking;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles_history;
@@ -56,7 +55,6 @@ import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
@@ -71,12 +69,14 @@ public class Corporation {
 	public final CorpBookmarks bms;
 	public final Wallet wallet;
 	public final Market market;
+	public final Industry industry;
 
 	public Corporation(ESIAccount con) {
 		this.con = con;
 		bms = new CorpBookmarks(con);
 		wallet = new Wallet(this);
 		market = new Market(this);
+		industry = new Industry(con);
 	}
 
 	public int getId() {
@@ -94,57 +94,6 @@ public class Corporation {
 
 	public ObsObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
 		return con.raw.cache.corporations.divisions(getId());
-	}
-
-	//
-	// industry jobs
-	//
-
-	private ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> cachedIndustryJobs = null;
-
-	public ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> getIndustryJobs() {
-		if (cachedIndustryJobs == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedIndustryJobs == null) {
-					cachedIndustryJobs = con.raw.cache.corporations.industry_jobs(getId(), false).toMap(j -> j.job_id);
-				}
-			});
-		}
-		return cachedIndustryJobs;
-	}
-
-	private ObsSetHolder<Long> cachedUsedBPs = null;
-
-	public ObsSetHolder<Long> getUsedBPs() {
-		if (cachedUsedBPs == null) {
-			ObsMapHolder<Integer, R_get_corporations_corporation_id_industry_jobs> jobs = getIndustryJobs();
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedUsedBPs == null) {
-					cachedUsedBPs = jobs.values().mapItems(j -> j.blueprint_id).distinct();
-				}
-			});
-		}
-		return cachedUsedBPs;
-	}
-
-	public static boolean isManufacture(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 1;
-	}
-
-	public static boolean isTE(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 3;
-	}
-
-	public static boolean isME(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 4;
-	}
-
-	public static boolean isCopy(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 5;
-	}
-
-	public static boolean isInvention(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 8;
 	}
 
 	//
@@ -237,10 +186,6 @@ public class Corporation {
 			m1.merge(e.getKey(), e.getValue(), (a, b) -> a + b);
 		}
 		return m1;
-	}
-
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> getBlueprints() {
-		return ObsMapHolderImpl.toMap(con.raw.cache.corporations.blueprints(getId()), bp -> bp.item_id);
 	}
 
 	//
