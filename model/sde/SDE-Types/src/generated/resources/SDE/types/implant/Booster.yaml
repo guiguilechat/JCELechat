@@ -229,6 +229,29 @@ types:
     radius: 1.0
     socialbonus: 100
     volume: 1.0
+  Amarr spaceship skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 21
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55803
+    intelligencebonus: 1
+    marketGroup: 2487
+    memorybonus: 1
+    name: Amarr spaceship skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Antipharmakon Aeolis:
     boosterduration: 1800000.0
     boosterness: 1
@@ -338,6 +361,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Caldari spaceship skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 22
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55804
+    intelligencebonus: 1
+    marketGroup: 2487
+    memorybonus: 1
+    name: Caldari spaceship skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Cerebral Accelerator:
     id: 50091
     marketGroup: 2487
@@ -737,6 +783,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Gallente spaceship skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 23
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55805
+    intelligencebonus: 1
+    marketGroup: 2487
+    memorybonus: 1
+    name: Gallente spaceship skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Improved Blue Pill Booster:
     boosteraoevelocitypenalty: -25
     boostercapacitorcapacitypenalty: -25
@@ -1607,6 +1676,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Minmatar spaceship skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 24
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55806
+    intelligencebonus: 1
+    marketGroup: 2487
+    memorybonus: 1
+    name: Minmatar spaceship skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Nugoehuvi Synth Blue Pill Booster:
     boosterduration: 1980000.0
     boosterness: 1
@@ -1695,6 +1787,30 @@ types:
     marketGroup: 2487
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.6
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2020.7:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18474.166015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 55747
+    intelligencebonus: 5
+    marketGroup: 2487
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2020.7
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0

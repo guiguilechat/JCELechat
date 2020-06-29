@@ -36782,6 +36782,7 @@ id2name:
   55744: Nereus Inner Zone Shipping SKIN
   55745: Federation Day Fireworks Crate
   55746: Federation Day Clothing Crate
+  55747: Serenity Monthly Cerebral Accelerator - 2020.7
   55748: EDENCOM Frigate Wreck
   55749: EDENCOM Cruiser Wreck
   55750: EDENCOM Battleship Wreck
@@ -36793,6 +36794,10 @@ id2name:
   55756: 55756_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_CaldariUnionM01.png
   55757: Men's 'Federal Defender' Beret
   55758: 55758_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_MinmatarLiberationM01.png
+  55803: Amarr spaceship skill accelerator
+  55804: Caldari spaceship skill accelerator
+  55805: Gallente spaceship skill accelerator
+  55806: Minmatar spaceship skill accelerator
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -41355,6 +41360,7 @@ name2group:
   Amarr Transport Ship: entity/MissionAmarrEmpireCruiser
   Amarr Wall: entity/LargeCollidableStructure
   Amarr Workers' Quarters: entity/SpawnContainer
+  Amarr spaceship skill accelerator: implant/Booster
   Amarrian Agent: commodity/Livestock
   Amarrian Battleship Wreckage: entity/SpawnContainer
   Amarrian Breeding Facility: entity/LargeCollidableStructure
@@ -43979,6 +43985,7 @@ name2group:
   Caldari Traitor's DNA: commodity/Miscellaneous
   Caldari Transport Ship: entity/MissionCaldariStateCruiser
   Caldari Wall: entity/LargeCollidableStructure
+  Caldari spaceship skill accelerator: implant/Booster
   Calibration Subsystem: infantry/InfantryModules
   Callisto: infantry/InfantryVehicles
   Calm Abyssal Filaments Crate: specialeditionassets/SpecialEditionCommodities
@@ -49822,6 +49829,7 @@ name2group:
   Gallente Trading Hub: station/Station
   Gallente Transport Ship: entity/MissionFactionIndustrials
   Gallente Wall: entity/LargeCollidableStructure
+  Gallente spaceship skill accelerator: implant/Booster
   Gallentean Deadspace Mansion: entity/LargeCollidableStructure
   Gallentean Deadspace Outpost: entity/LargeCollidableStructure
   Gallentean Laboratory w/scientists: entity/LargeCollidableStructure
@@ -56394,6 +56402,7 @@ name2group:
   Minmatar UUB Nexus Chip: commodity/Miscellaneous
   Minmatar UUC Nexus Chip: commodity/Miscellaneous
   Minmatar Wall: entity/LargeCollidableStructure
+  Minmatar spaceship skill accelerator: implant/Booster
   Minokawa: ship/ForceAuxiliary
   Minokawa Biosecurity Responders SKIN: skins/PermanentSKIN
   Minokawa Blue Tiger SKIN: skins/PermanentSKIN
@@ -60844,6 +60853,7 @@ name2group:
   Sentry Tower: entity/DestructibleSentryGun
   Sepentis Regional Baron Arain Percourt: entity/DeadspaceOverseerBattleship
   Serenity Monthly Cerebral Accelerator - 2020.6: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2020.7: implant/Booster
   Serenity Special Cerebral Accelerator: implant/Booster
   Serpentis 3D Scanner Gamut: commodity/ArtifactsAndPrototypes
   Serpentis Administration Facility: entity/DeadspaceOverseerSSentry
