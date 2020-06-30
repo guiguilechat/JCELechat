@@ -51,6 +51,10 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		return cacheById;
 	}
 
+	public static Blueprint of(int bpid) {
+		return loadById().get(bpid);
+	}
+
 	public static void export(LinkedHashMap<Integer, Blueprint> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
@@ -289,6 +293,22 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	public String toString() {
 		return name() + "(" + id + ") copy=" + copying + " manuf=" + manufacturing + " invent=" + invention + " ME="
 				+ research_material + " TE=" + research_time + " reaction=" + reaction;
+	}
+
+	/**
+	 * get the amount of item that are produced, per run of the bp.
+	 *
+	 * @param bpId
+	 *          the id of the bp that is being used for manufacturing.
+	 * @return the number of items produced by one run of the bp.
+	 */
+	public static int productQtty(int bpId) {
+		Blueprint bp = of(bpId);
+		if (bp == null || bp.manufacturing == null || bp.manufacturing.products == null
+				|| bp.manufacturing.products.isEmpty()) {
+			return 0;
+		}
+		return bp.manufacturing.products.get(0).quantity;
 	}
 
 }

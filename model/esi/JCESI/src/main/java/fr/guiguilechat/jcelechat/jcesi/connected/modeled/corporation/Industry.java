@@ -1,5 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation;
 
+import java.util.function.IntUnaryOperator;
+
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_industry_jobs;
@@ -27,6 +29,26 @@ public class Industry {
 			});
 		}
 		return cachedJobs;
+	}
+
+	public static boolean isManufacture(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 1;
+	}
+
+	public static boolean isTE(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 3;
+	}
+
+	public static boolean isME(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 4;
+	}
+
+	public static boolean isCopy(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 5;
+	}
+
+	public static boolean isInvention(R_get_corporations_corporation_id_industry_jobs job) {
+		return job.activity_id == 8;
 	}
 
 	//
@@ -63,6 +85,21 @@ public class Industry {
 			}
 		}
 		return cacheInventJobs;
+	}
+
+	private ObsMapHolder<Integer, Long> cacheInvent = null;
+
+	public ObsMapHolder<Integer, Long> getInvent() {
+		if (cacheInvent == null) {
+			ObsListHolder<R_get_corporations_corporation_id_industry_jobs> inventJobs = getInventJobs();
+			synchronized (inventJobs) {
+				if (cacheInvent == null) {
+					cacheInvent = inventJobs.toMap(j -> j.product_type_id,
+							j -> (long) Math.floor(j.runs * j.licensed_runs * j.probability), Long::sum);
+				}
+			}
+		}
+		return cacheInvent;
 	}
 
 	//
@@ -115,6 +152,33 @@ public class Industry {
 		return cacheProductionJobs;
 	}
 
+	private ObsMapHolder<Integer, Long> cacheProduction = null;
+
+	/**
+	 * get the cached value of present production
+	 *
+	 * @param bpoId2ProductQtty
+	 *          resolves the production of a bp, in product per run, from the id
+	 *          of the bp. is stored inside the cached map if not done already.
+	 * @return
+	 */
+	public ObsMapHolder<Integer, Long> getProduction(IntUnaryOperator bpoId2ProductQtty) {
+		if (cacheProduction == null) {
+			ObsListHolder<R_get_corporations_corporation_id_industry_jobs> jobs = getProductionJobs();
+			synchronized (jobs) {
+				if (cacheProduction == null) {
+					cacheProduction = jobs.toMap(j -> j.product_type_id,
+							j -> (long) (j.runs * bpoId2ProductQtty.applyAsInt(j.blueprint_type_id)), Long::sum);
+				}
+			}
+		}
+		return cacheProduction;
+	}
+
+	//
+	// bp usage
+	//
+
 	private ObsSetHolder<Long> cachedUsedBPs = null;
 
 	public ObsSetHolder<Long> getUsedBPs() {
@@ -127,26 +191,6 @@ public class Industry {
 			});
 		}
 		return cachedUsedBPs;
-	}
-
-	public static boolean isManufacture(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 1;
-	}
-
-	public static boolean isTE(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 3;
-	}
-
-	public static boolean isME(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 4;
-	}
-
-	public static boolean isCopy(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 5;
-	}
-
-	public static boolean isInvention(R_get_corporations_corporation_id_industry_jobs job) {
-		return job.activity_id == 8;
 	}
 
 	// get the blueprints
