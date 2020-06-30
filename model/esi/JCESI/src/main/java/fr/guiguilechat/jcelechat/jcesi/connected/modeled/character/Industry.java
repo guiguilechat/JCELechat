@@ -105,7 +105,7 @@ public class Industry {
 			ObsListHolder<R_get_characters_character_id_industry_jobs> copyjobs = getCopyJobs();
 			synchronized (copyjobs) {
 				if (cacheCopy == null) {
-					cacheCopy = copyjobs.toMap(j -> j.product_type_id, j -> (long) j.runs, Long::sum);
+					cacheCopy = copyjobs.toMap(j -> j.product_type_id, j -> (long) (j.runs * j.licensed_runs), Long::sum);
 				}
 			}
 		}
