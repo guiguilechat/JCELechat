@@ -232,34 +232,33 @@ public class EveCharacter {
 
 	// slots for industry jobs
 
-	private ObsIntHolder cacheTotalResearchSlots = null;
+	private ObsIntHolder cacheMaxResearchSlots = null;
 
 	/**
 	 *
-	 * @return the total research slots this character has available from the
-	 *         skills.
+	 * @return the max research slots this character has from its skills.
 	 */
-	public ObsIntHolder getTotalResearchSlots() {
-		if (cacheTotalResearchSlots == null) {
+	public ObsIntHolder getMaxResearchSlots() {
+		if (cacheMaxResearchSlots == null) {
 			ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
 			synchronized (cskills) {
-				if (cacheTotalResearchSlots == null) {
-					cacheTotalResearchSlots = cskills.at(3406, 0).mapInt(i -> i).add(cskills.at(24624, 0).mapInt(i -> i)).add(1);
+				if (cacheMaxResearchSlots == null) {
+					cacheMaxResearchSlots = cskills.at(3406, 0).mapInt(i -> i).add(cskills.at(24624, 0).mapInt(i -> i)).add(1);
 				}
 			}
 		}
-		return cacheTotalResearchSlots;
+		return cacheMaxResearchSlots;
 	}
 
 	private ObsIntHolder cacheAvailResSlots;
 
 	/**
 	 *
-	 * @return the amount of production slots this character has available
+	 * @return the amount of research slots this character has available
 	 */
 	public ObsIntHolder getAvailResSlots() {
 		if (cacheAvailResSlots == null) {
-			ObsIntHolder allSlots = getTotalResearchSlots();
+			ObsIntHolder allSlots = getMaxResearchSlots();
 			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getResearchJobs();
 			synchronized (jobs) {
 				if (cacheAvailResSlots == null) {
@@ -272,22 +271,22 @@ public class EveCharacter {
 		return cacheAvailResSlots;
 	}
 
-	private ObsIntHolder cacheTotalProdSlots = null;
+	private ObsIntHolder cacheMaxProdSlots = null;
 
 	/**
 	 *
-	 * @return the total slots this character has available from the skills.
+	 * @return the max production slots this character has from its skills.
 	 */
-	public ObsIntHolder getTotalProdSlots() {
-		if (cacheTotalProdSlots == null) {
+	public ObsIntHolder getMaxProdSlots() {
+		if (cacheMaxProdSlots == null) {
 			ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
 			synchronized (cskills) {
-				if (cacheTotalProdSlots == null) {
-					cacheTotalProdSlots = cskills.at(3387, 0).mapInt(i -> i).add(cskills.at(24625, 0).mapInt(i -> i)).add(1);
+				if (cacheMaxProdSlots == null) {
+					cacheMaxProdSlots = cskills.at(3387, 0).mapInt(i -> i).add(cskills.at(24625, 0).mapInt(i -> i)).add(1);
 				}
 			}
 		}
-		return cacheTotalProdSlots;
+		return cacheMaxProdSlots;
 	}
 
 	private ObsIntHolder cacheAvailProdSlots;
@@ -298,7 +297,7 @@ public class EveCharacter {
 	 */
 	public ObsIntHolder getAvailProdSlots() {
 		if (cacheAvailProdSlots == null) {
-			ObsIntHolder allSlots = getTotalProdSlots();
+			ObsIntHolder allSlots = getMaxProdSlots();
 			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getProductionJobs();
 			synchronized (jobs) {
 				if (cacheAvailProdSlots == null) {
@@ -309,6 +308,45 @@ public class EveCharacter {
 			}
 		}
 		return cacheAvailProdSlots;
+	}
+
+	private ObsIntHolder cacheMaxReactionSlots = null;
+
+	/**
+	 *
+	 * @return the max reaction slots this character has from its skills.
+	 */
+	public ObsIntHolder getMaxReactionSlots() {
+		if (cacheMaxReactionSlots == null) {
+			ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
+			synchronized (cskills) {
+				if (cacheMaxReactionSlots == null) {
+					cacheMaxReactionSlots = cskills.at(45749, 0).mapInt(i -> i).add(cskills.at(45748, 0).mapInt(i -> i)).add(1);
+				}
+			}
+		}
+		return cacheMaxReactionSlots;
+	}
+
+	private ObsIntHolder cacheAvailReactionSlots;
+
+	/**
+	 *
+	 * @return the amount of reaction slots this character has available
+	 */
+	public ObsIntHolder getAvailReactionSlots() {
+		if (cacheAvailReactionSlots == null) {
+			ObsIntHolder allSlots = getMaxReactionSlots();
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getReactionJobs();
+			synchronized (jobs) {
+				if (cacheAvailReactionSlots == null) {
+					ObsIntHolder corpOwnedJobs = con.corporation.industry.getReactionJobs()
+							.filter(j -> j.installer_id == con.characterId()).size();
+					cacheAvailReactionSlots = allSlots.sub(jobs.size()).sub(corpOwnedJobs);
+				}
+			}
+		}
+		return cacheAvailReactionSlots;
 	}
 
 	//
