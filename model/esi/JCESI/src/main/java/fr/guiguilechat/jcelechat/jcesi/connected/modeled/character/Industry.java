@@ -66,6 +66,10 @@ public class Industry {
 		return job.activity_id == 8;
 	}
 
+	public static boolean isReaction(R_get_characters_character_id_industry_jobs job) {
+		return job.activity_id == 11;
+	}
+
 	//
 	// research
 	//
@@ -189,6 +193,47 @@ public class Industry {
 			}
 		}
 		return cacheProduction;
+	}
+
+	//
+	// reactions
+	//
+
+	private ObsListHolder<R_get_characters_character_id_industry_jobs> cacheReactionJobs = null;
+
+	public ObsListHolder<R_get_characters_character_id_industry_jobs> getReactionJobs() {
+		if (cacheReactionJobs == null) {
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = getJobs();
+			synchronized (jobs) {
+				if (cacheReactionJobs == null) {
+					cacheReactionJobs = jobs.filter(Industry::isReaction);
+				}
+			}
+		}
+		return cacheReactionJobs;
+	}
+
+	private ObsMapHolder<Integer, Long> cacheReaction = null;
+
+	/**
+	 * get the cached value of present production
+	 *
+	 * @param bpoId2ReactionQtty
+	 *          resolves the reaction of a bp, in product per run, from the id of
+	 *          the bp. is stored inside the cached map if not done already.
+	 * @return
+	 */
+	public ObsMapHolder<Integer, Long> getReaction(IntUnaryOperator bpoId2ReactionQtty) {
+		if (cacheReaction == null) {
+			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = getReactionJobs();
+			synchronized (jobs) {
+				if (cacheReaction == null) {
+					cacheReaction = jobs.toMap(j -> j.product_type_id,
+							j -> (long) (j.runs * bpoId2ReactionQtty.applyAsInt(j.blueprint_type_id)), Long::sum);
+				}
+			}
+		}
+		return cacheReaction;
 	}
 
 	//
