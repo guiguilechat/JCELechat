@@ -25,8 +25,6 @@ import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import javafx.animation.PauseTransition;
-import javafx.beans.value.ObservableDoubleValue;
-import javafx.beans.value.ObservableLongValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.util.Duration;
@@ -73,6 +71,74 @@ public class RegionTypeHistory {
 		return LocalDate.now(Clock.systemUTC()).minusDays(days).format(DateTimeFormatter.ISO_LOCAL_DATE);
 	}
 
+	// limited history
+
+	public class LimitedHistory {
+
+		public final int days;
+
+		public LimitedHistory(int days) {
+			this.days = days;
+		}
+
+		private ObsListHolder<R_get_markets_region_id_history> cacheValues = null;
+
+		public ObsListHolder<R_get_markets_region_id_history> getValues() {
+			if (cacheValues == null) {
+				synchronized (this) {
+					if (cacheValues == null) {
+						cacheValues = limitData(days);
+					}
+				}
+			}
+			return cacheValues;
+		}
+
+		private ObsDoubleHolder cacheAverage = null;
+
+		public ObsDoubleHolder getAverage() {
+			if (cacheAverage == null) {
+				ObsListHolder<R_get_markets_region_id_history> values = getValues();
+				synchronized (values) {
+					if (cacheAverage == null) {
+						cacheAverage = values.reduceDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum()
+								/ l.stream().mapToLong(h -> h.volume).sum());
+					}
+				}
+			}
+			return cacheAverage;
+		}
+
+		private ObsLongHolder cacheVolume = null;
+
+		public ObsLongHolder getVolume() {
+			if (cacheVolume == null) {
+				ObsListHolder<R_get_markets_region_id_history> values = getValues();
+				synchronized (values) {
+					if (cacheVolume == null) {
+						cacheVolume = values.reduceLong(l -> l.stream().mapToLong(h -> h.volume).sum());
+					}
+				}
+			}
+			return cacheVolume;
+		}
+
+		private ObsDoubleHolder cacheTotalValue = null;
+
+		public ObsDoubleHolder getTotalValue() {
+			if (cacheTotalValue == null) {
+				ObsListHolder<R_get_markets_region_id_history> values = getValues();
+				synchronized (values) {
+					if (cacheTotalValue == null) {
+						cacheTotalValue = values.reduceDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum());
+					}
+				}
+			}
+			return cacheTotalValue;
+		}
+
+	}
+
 	private ObsListHolder<R_get_markets_region_id_history> limitData(int maxDays) {
 		ObservableList<R_get_markets_region_id_history> internal = FXCollections.observableArrayList();
 		ObsListHolderImpl<R_get_markets_region_id_history> ret = new ObsListHolderImpl<>(internal);
@@ -84,107 +150,31 @@ public class RegionTypeHistory {
 		return ret;
 	}
 
-	// daily
+	/**
+	 * limit to last one day
+	 */
+	public final LimitedHistory daily = new LimitedHistory(1);
 
-	private ObsListHolder<R_get_markets_region_id_history> dailyValues = null;
+	/**
+	 * limit to last 7 days
+	 */
+	public final LimitedHistory weekly = new LimitedHistory(7);
 
-	private ObsDoubleHolder dailyAverage = null;
+	/**
+	 * limit to 30 last days
+	 */
+	public final LimitedHistory monthly = new LimitedHistory(30);
 
-	private ObsLongHolder dailyVolume = null;
+	/**
+	 * limit to 91 last days
+	 */
+	public final LimitedHistory quarterly = new LimitedHistory(91);
 
-	private void makeDailyVariables() {
-		if (dailyValues == null) {
-			synchronized (this) {
-				if (dailyValues == null) {
-					ObsListHolder<R_get_markets_region_id_history> dailyValues = limitData(1);
-					dailyAverage = dailyValues.reduceDouble(
-							l -> l.stream().mapToDouble(h -> h.average * h.volume).sum() / l.stream().mapToLong(h -> h.volume).sum());
-					dailyVolume = dailyValues.reduceLong(l -> l.stream().mapToLong(h -> h.volume).sum());
-					this.dailyValues = dailyValues;
-				}
-			}
-		}
-	}
+	/**
+	 * limit to 365 last days
+	 */
+	public final LimitedHistory yearly = new LimitedHistory(365);
 
-	public ObservableDoubleValue dailyAverage() {
-		makeDailyVariables();
-		dailyAverage.get();
-		return dailyAverage.asObservableNumber();
-	}
-
-	public ObservableLongValue dailyVolume() {
-		makeDailyVariables();
-		dailyVolume.get();
-		return dailyVolume.asObservableNumber();
-	}
-
-	// weekly
-
-	private ObsListHolder<R_get_markets_region_id_history> weeklyValues = null;
-
-	private ObsDoubleHolder weeklyAverage = null;
-
-	private ObsLongHolder weeklyVolume = null;
-
-	private void makeWeeklyVariables() {
-		if (weeklyValues == null) {
-			synchronized (this) {
-				if (weeklyValues == null) {
-					ObsListHolder<R_get_markets_region_id_history> weeklyValues = limitData(7);
-					weeklyAverage = weeklyValues.reduceDouble(
-							l -> l.stream().mapToDouble(h -> h.average * h.volume).sum() / l.stream().mapToLong(h -> h.volume).sum());
-					weeklyVolume = weeklyValues.reduceLong(l -> l.stream().mapToLong(h -> h.volume).sum());
-					this.weeklyValues = weeklyValues;
-				}
-			}
-		}
-	}
-
-	public ObservableDoubleValue weeklyAverage() {
-		makeWeeklyVariables();
-		weeklyAverage.get();
-		return weeklyAverage.asObservableNumber();
-	}
-
-	public ObservableLongValue weeklyVolume() {
-		makeWeeklyVariables();
-		weeklyVolume.get();
-		return weeklyVolume.asObservableNumber();
-	}
-
-	// monthly
-
-	private ObsListHolder<R_get_markets_region_id_history> monthlyValues = null;
-
-	private ObsDoubleHolder monthlyAverage = null;
-
-	private ObsLongHolder monthlyVolume = null;
-
-	private void makeMonthlyVariables() {
-		if (monthlyValues == null) {
-			synchronized (this) {
-				if (monthlyValues == null) {
-					ObsListHolder<R_get_markets_region_id_history> monthlyValues = limitData(30);
-					monthlyAverage = monthlyValues.reduceDouble(
-							l -> l.stream().mapToDouble(h -> h.average * h.volume).sum() / l.stream().mapToLong(h -> h.volume).sum());
-					monthlyVolume = monthlyValues.reduceLong(l -> l.stream().mapToLong(h -> h.volume).sum());
-					this.monthlyValues = monthlyValues;
-				}
-			}
-		}
-	}
-
-	public ObservableDoubleValue monthlyAverage() {
-		makeMonthlyVariables();
-		monthlyAverage.get();
-		return monthlyAverage.asObservableNumber();
-	}
-
-	public ObservableLongValue monthlyVolume() {
-		makeMonthlyVariables();
-		monthlyVolume.get();
-		return monthlyVolume.asObservableNumber();
-	}
 
 	// ??
 

@@ -69,14 +69,14 @@ public class MoonWorthController {
 		MONTH {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
-				ObservableDoubleValue var = controller.market().getHistory(typeID).monthlyAverage();
+				ObservableDoubleValue var = controller.market().getHistory(typeID).monthly.getAverage().asObservableNumber();
 				return var.doubleValue();
 			}
 		},
 		WEEK {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
-				ObservableDoubleValue var = controller.market().getHistory(typeID).weeklyAverage();
+				ObservableDoubleValue var = controller.market().getHistory(typeID).weekly.getAverage().asObservableNumber();
 				return var.doubleValue();
 			}
 		},
