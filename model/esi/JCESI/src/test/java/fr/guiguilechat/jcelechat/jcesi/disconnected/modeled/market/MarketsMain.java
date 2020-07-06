@@ -12,8 +12,8 @@ public class MarketsMain {
 		System.err.println("SO for " + 3200 + " of item " + 25591 + " is " + market.getSO(25591, 3200).get());
 		System.err.println("BO for " + 3200 + " of item " + 25591 + " is " + market.getBO(25591, 3200).get());
 		System.err.println("best volumes desc" + market.getHistory(25591).getSortedVolumes().get());
-		System.err.println("best vol offset 0 : " + market.getHistory(25591).getBestVolume(0).get());
-		System.err.println("best vol offset 2 : " + market.getHistory(25591).getBestVolume(2).get());
+		System.err.println("best vol offset 0 : " + market.getHistory(25591).quarterly.getBestVolume(0).get());
+		System.err.println("best vol offset 2 : " + market.getHistory(25591).quarterly.getBestVolume(2).get());
 
 		while (true) {
 			Thread.sleep(1000);
