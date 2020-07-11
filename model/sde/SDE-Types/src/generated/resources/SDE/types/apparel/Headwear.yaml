@@ -185,6 +185,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Valkear' Beret:
+    gender: 2
+    id: 55758
+    marketGroup: 1943
+    name: Men's 'Valkear' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Aurora Universalis Cap:
     gender: 2
     id: 53384
@@ -550,6 +559,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Valkear' Beret:
+    gender: 2
+    id: 55754
+    marketGroup: 1943
+    name: Women's 'Valkear' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's Aurora Universalis Cap:
     gender: 2

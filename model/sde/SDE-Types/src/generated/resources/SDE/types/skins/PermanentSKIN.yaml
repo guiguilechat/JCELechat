@@ -16245,6 +16245,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Minmatar Shuttle Nefantar SKIN:
+    id: 55816
+    name: Minmatar Shuttle Nefantar SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Minokawa Biosecurity Responders SKIN:
     id: 55537
     marketGroup: 2279
@@ -28528,6 +28535,13 @@ types:
   Wreathe Justice SKIN:
     id: 36421
     name: Wreathe Justice SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Wreathe Nefantar SKIN:
+    id: 55817
+    name: Wreathe Nefantar SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

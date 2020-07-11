@@ -666,6 +666,7 @@ group2class:
   entity/StorylineMissionFrigate: fr.guiguilechat.jcelechat.model.sde.types.entity.StorylineMissionFrigate
   entity/StructureEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.StructureEntities
   entity/TemporaryCloud: fr.guiguilechat.jcelechat.model.sde.types.entity.TemporaryCloud
+  entity/TemporaryCollidableStructure: fr.guiguilechat.jcelechat.model.sde.types.entity.TemporaryCollidableStructure
   fighter/HeavyFighter: fr.guiguilechat.jcelechat.model.sde.types.fighter.HeavyFighter
   fighter/LightFighter: fr.guiguilechat.jcelechat.model.sde.types.fighter.LightFighter
   fighter/SupportFighter: fr.guiguilechat.jcelechat.model.sde.types.fighter.SupportFighter
@@ -34596,11 +34597,11 @@ id2name:
   52351: Nergal Singularity Storm SKIN
   52352: Draugur Singularity Storm SKIN
   52353: Ikitursa Singularity Storm SKIN
-  52354: ECM TFU Wreck
-  52355: Damp TFU Wreck
-  52356: Web TFU Wreck
-  52357: MJFG TFU Wreck
-  52358: Bomb TFU Wreck
+  52354: ECM Field Effect Subpylon Wreck
+  52355: Dampening Field Effect Subpylon Wreck
+  52356: Stasis Field Effect Subpylon Wreck
+  52357: Transport Field Effect Subpylon Wreck
+  52358: Energy Pulse Field Effect Subpylon Wreck
   52359: Triglavian Graviton Monitor
   52360: Triglavian Entropic Monitor
   52361: World Ark (Xordazh-class)
@@ -36183,13 +36184,13 @@ id2name:
   54647: EGDLI Loot Crate Special 1 (Omega)
   54648: 150,000 Skill Points
   54650: 5,000 Skill Points
-  54651: Extended Serenity Cerebral Accelerator
+  54651: Expired Extended Serenity Cerebral Accelerator
   54652: 1,000 Skill Points
   54653: 2,500 Skill Points
   54654: 7,500 Skill Points
-  54655: Basic Serenity Cerebral Accelerator
-  54656: Standard Serenity Cerebral Accelerator
-  54657: Advanced Serenity Cerebral Accelerator
+  54655: Expired Basic Serenity Cerebral Accelerator
+  54656: Expired Standard Serenity Cerebral Accelerator
+  54657: Expired Advanced Serenity Cerebral Accelerator
   54658: Triglavian Structure Mining Laser PLACEHOLDER
   54660: Expired Serenity Monthly Cerebral Accelerator - 2020.5
   54661: Liminal Jarognik Damavik
@@ -36789,15 +36790,44 @@ id2name:
   55751: 55751_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_AmarrFoundationF01.png
   55752: 55752_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_CaldariUnionF01.png
   55753: Women's 'Federal Defender' Beret
-  55754: 55754_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_MinmatarLiberationF01.png
+  55754: Women's 'Valkear' Beret
   55755: 55755_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_AmarrFoundationM01.png
   55756: 55756_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_CaldariUnionM01.png
   55757: Men's 'Federal Defender' Beret
-  55758: 55758_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_MinmatarLiberationM01.png
+  55758: Men's 'Valkear' Beret
+  55766: Triglavian World Ark Werpost Spawner (Do not translate)
+  55767: Xordazh Poshlost Denial Zone
+  55771: Minmatar Battlecruiser Tornado
+  55772: Minmatar Strategic Cruiser Loki
+  55773: Minmatar Destroyer Talwar
+  55783: RFS Maiori Kul-Brutor
+  55784: RFS Oskla Shakim
+  55785: RFS Karin Midular
+  55786: RFS Shara Osali
+  55787: RFS Drupar Maak
+  55788: RFS Jormal Kehok
+  55789: RFS Brecin Utulf
+  55790: RFS Maiori Kul-Brutor Parade Beacon
+  55791: RFS Oskla Shakim Parade Beacon
+  55792: RFS Karin Midular Parade Beacon
+  55793: RFS Shara Osali Parade Beacon
+  55794: RFS Drupar Maak Parade Beacon
+  55795: RFS Jormal Kehok Parade Beacon
+  55796: RFS Brecin Utulf Parade Beacon
+  55799: Xordazh Invasion Cache
   55803: Amarr spaceship skill accelerator
   55804: Caldari spaceship skill accelerator
   55805: Gallente spaceship skill accelerator
   55806: Minmatar spaceship skill accelerator
+  55807: Minmatar Liberation Day Apparel Crate
+  55815: Minmatar Liberation Day Fireworks Crate
+  55816: Minmatar Shuttle Nefantar SKIN
+  55817: Wreathe Nefantar SKIN
+  55818: Xordazh Invasion Cache Wreck
+  55826: Expert Cerebral Accelerator
+  55828: ORE Capital Ship Rorqual Wreckage
+  55829: Triglavian Dreadnought Zirnitra Wreckage
+  55833: Birthday Bash
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -40985,7 +41015,6 @@ name2group:
   Advanced Medium Ship Construction: skill/Production
   Advanced Planetology: skill/PlanetManagement
   Advanced Precision Enhancer: infantry/InfantryModules
-  Advanced Serenity Cerebral Accelerator: implant/Booster
   Advanced Small Ship Assembly Array: starbase/AssemblyArray
   Advanced Small Ship Assembly Array Blueprint: blueprint/StarbaseBlueprint
   Advanced Small Ship Construction: skill/Production
@@ -42677,7 +42706,6 @@ name2group:
   Basic Robotics: commodity/Commodities
   Basic Robotics Blueprint: blueprint/ToolBlueprint
   Basic Scanner: infantry/InfantryModules
-  Basic Serenity Cerebral Accelerator: implant/Booster
   Basic Shield Energizer: infantry/InfantryModules
   Basic Shield Extender: infantry/InfantryModules
   Basic Shield Hardener: infantry/InfantryModules
@@ -46573,7 +46601,7 @@ name2group:
   Damnation Raata Sunset SKIN: skins/PermanentSKIN
   Damnation Star Captain SKIN: skins/PermanentSKIN
   Damning Evidence: commodity/Miscellaneous
-  Dampening Field Effect Subpylon: entity/LargeCollidableStructure
+  Dampening Field Effect Subpylon: entity/TemporaryCollidableStructure
   Daredevil: ship/Frigate
   Daredevil Angel's Hex SKIN: skins/PermanentSKIN
   Daredevil Blueprint: blueprint/FrigateBlueprint
@@ -48036,7 +48064,7 @@ name2group:
   EC-3 Assault Mass Driver: infantry/InfantryWeapons
   ECCM Script: charge/SensorBoosterScript
   ECCM Script Blueprint: blueprint/ScriptBlueprint
-  ECM Field Effect Subpylon: entity/LargeCollidableStructure
+  ECM Field Effect Subpylon: entity/TemporaryCollidableStructure
   ECM Jammer Burst Projector: module/BurstProjectors
   ECM Jammer Burst Projector Blueprint: blueprint/BurstProjectorBlueprint
   EDENCOM Battleship: skill/SpaceshipCommand
@@ -48471,7 +48499,7 @@ name2group:
   Energy Neutralization Burst Projector Blueprint: blueprint/BurstProjectorBlueprint
   Energy Neutralizing Battery: starbase/EnergyNeutralizingBattery
   Energy Neutralizing Battery Blueprint: blueprint/StarbaseEnergyNeutralizingBatteryBlueprints
-  Energy Pulse Field Effect Subpylon: entity/LargeCollidableStructure
+  Energy Pulse Field Effect Subpylon: entity/TemporaryCollidableStructure
   Energy Pulse Weapons: skill/Engineering
   Energy Weapon Rigging: skill/Rigging
   Enfeebling Scoped Ladar ECM: module/ECM
@@ -48880,17 +48908,22 @@ name2group:
   Experimental Thermal Plating I: module/ArmorCoating
   Experimental XT-2800 Heavy Assault Missile Launcher I: module/MissileLauncherHeavyAssault
   Experimental ZW-4100 Torpedo Launcher: module/MissileLauncherTorpedo
+  Expert Cerebral Accelerator: implant/Booster
   Expired 'Absolute' Injection Augmentor: implant/Booster
   Expired Advanced 'Guri Hivaa' Cerebral Accelerator: implant/Booster
+  Expired Advanced Serenity Cerebral Accelerator: implant/Booster
+  Expired Basic Serenity Cerebral Accelerator: implant/Booster
   Expired CDIA SPACE Cerebral Accelerator: implant/Booster
   Expired Capsuleer Day Noise-10 'Needlejack' Filament: commodity/ExpiredJumpFilaments
   Expired Capsuleer Day Signal-10 'Needlejack' Filament: commodity/ExpiredJumpFilaments
   Expired Extended 'Guri Hivaa' Cerebral Accelerator: implant/Booster
+  Expired Extended Serenity Cerebral Accelerator: implant/Booster
   Expired Guardian Angels 'Advanced' Cerebral Accelerator: implant/Booster
   Expired Guardian Angels 'Standard' Cerebral Accelerator: implant/Booster
   Expired Serenity Monthly Cerebral Accelerator - 2020.5: implant/Booster
   Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator: implant/Booster
   Expired Standard 'Guri Hivaa' Cerebral Accelerator: implant/Booster
+  Expired Standard Serenity Cerebral Accelerator: implant/Booster
   Exploration Supplies: entity/SpawnContainer
   Explosion Dampening Array: starbase/ShieldHardeningArray
   Explosion Dampening Array Blueprint: blueprint/StarbaseBlueprint
@@ -48915,7 +48948,6 @@ name2group:
   Explosives: infantry/InfantrySkills
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   Exsanguinator: entity/DeadspaceOverseerCruiser
-  Extended Serenity Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
   Extractive Super-Nexus: entity/LargeCollidableStructure
@@ -52785,7 +52817,7 @@ name2group:
   Jaques Klemont: entity/MissionGenericCruisers
   Jara Kumora - Contract: infantry/Agents
   Jared Kalem: entity/MissionGenericBattleships
-  Jariloz Semiotic Suppressor: entity/LargeCollidableStructure
+  Jariloz Semiotic Suppressor: entity/TemporaryCollidableStructure
   Jariloznik Kikimora: entity/InvadingPrecursorEntities
   Jark Makon: commodity/Livestock
   Jarkon Puman: entity/MissionGenericCruisers
@@ -55666,6 +55698,7 @@ name2group:
   Men's 'Trench' Boots (gray): apparel/Footwear
   Men's 'Trench' Boots (tan): apparel/Footwear
   Men's 'Twinswitch' Facial Augmentation: apparel/Augmentations
+  Men's 'Valkear' Beret: apparel/Headwear
   Men's 'Valkyrie' Flight Jacket: apparel/Outer
   Men's 'Vermillion Dragon' Facial Augmentation: apparel/Augmentations
   Men's 'Wirepoise' Facial Augmentation: apparel/Augmentations
@@ -56312,6 +56345,8 @@ name2group:
   Minmatar Industrial Station: station/Station
   Minmatar Infrastructure Hub: entity/FWInfrastructureHub
   Minmatar Junction: entity/LargeCollidableStructure
+  Minmatar Liberation Day Apparel Crate: specialeditionassets/SpecialEditionCommodities
+  Minmatar Liberation Day Fireworks Crate: specialeditionassets/SpecialEditionCommodities
   Minmatar Lif: entity/HiddenZenithMinmatarCapital
   Minmatar Light Dropsuits: infantry/InfantrySkills
   Minmatar Light Frame M-I: infantry/InfantryDropsuits
@@ -56375,6 +56410,7 @@ name2group:
   Minmatar Shuttle Blueprint: blueprint/ShuttleBlueprint
   Minmatar Shuttle Exoplanets Hunter SKIN: skins/PermanentSKIN
   Minmatar Shuttle Glacial Drift SKIN: skins/PermanentSKIN
+  Minmatar Shuttle Nefantar SKIN: skins/PermanentSKIN
   Minmatar Starbase Control Tower: entity/DeadspaceOverseerSStructure
   Minmatar Starbase Control Tower_Tough_Good Loot: entity/LargeCollidableStructure
   Minmatar Starbase Control Tower_Tough_Good Loot_testing: entity/LargeCollidableStructure
@@ -56684,7 +56720,7 @@ name2group:
   Moros Serpentis SKIN: skins/PermanentSKIN
   Moros Spirit SKIN: skins/PermanentSKIN
   Moros Valimor Legacy SKIN: skins/PermanentSKIN
-  Moroz Enthalpic Inhibitor: entity/LargeCollidableStructure
+  Moroz Enthalpic Inhibitor: entity/TemporaryCollidableStructure
   Moroznik Kikimora: entity/InvadingPrecursorEntities
   Morpheus Enduring Magnetometric ECM: module/ECM
   Morphite: material/Mineral
@@ -56949,7 +56985,7 @@ name2group:
   Nemesis Serpentis SKIN: skins/PermanentSKIN
   Nemesis Spirit SKIN: skins/PermanentSKIN
   Nemesis Valimor Legacy SKIN: skins/PermanentSKIN
-  Nemiz Pulse Destructor: entity/LargeCollidableStructure
+  Nemiz Pulse Destructor: entity/TemporaryCollidableStructure
   Nemiznik Kikimora: entity/InvadingPrecursorEntities
   Neo Mercurite: material/IntermediateMaterials
   Neo Mercurite Reaction Formula: blueprint/CompositeReactionFormulas
@@ -58155,7 +58191,7 @@ name2group:
   Plutonium Charge XL Blueprint: blueprint/HybridChargeBlueprint
   Pod_Smoke_01: effects/ParticleSystems
   Podded Pilot: entity/SpawnContainer
-  Pohviz Spatial Displacer: entity/LargeCollidableStructure
+  Pohviz Spatial Displacer: entity/TemporaryCollidableStructure
   Pohviznik Kikimora: entity/InvadingPrecursorEntities
   Poksu Mineral Group Strong Box: commodity/StrongBoxes
   Polaris Eviction Notice: specialeditionassets/SpecialEditionCommodities
@@ -62490,7 +62526,6 @@ name2group:
   Standard Sentinel C-I: infantry/InfantryDropsuits
   Standard Sentinel G-I: infantry/InfantryDropsuits
   Standard Sentinel M-I: infantry/InfantryDropsuits
-  Standard Serenity Cerebral Accelerator: implant/Booster
   Standard Sooth Sayer Booster: implant/Booster
   Standard Sooth Sayer Booster Blueprint: blueprint/BoosterBlueprints
   Standard Sooth Sayer Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
@@ -63123,7 +63158,7 @@ name2group:
   Starving Sudenic Damavik: entity/InvadingPrecursorEntities
   Starving Sudenic Drekavac: entity/InvadingPrecursorEntities
   Starving Vedmak: entity/AbyssalSpaceshipEntities
-  Stasis Field Effect Subpylon: entity/LargeCollidableStructure
+  Stasis Field Effect Subpylon: entity/TemporaryCollidableStructure
   Stasis Webification Battery: starbase/StasisWebificationBattery
   Stasis Webification Battery Blueprint: blueprint/StarbaseStasisWebificationBatteryBlueprints
   Stasis Webification Burst Projector: module/BurstProjectors
@@ -64591,7 +64626,7 @@ name2group:
   Transaction And Salary Logs: commodity/Miscellaneous
   Transcranial Microcontrollers: planetarycommodities/SpecializedCommoditiesTier3
   Transmitter: planetarycommodities/RefinedCommoditiesTier2
-  Transport Field Effect Subpylon: entity/LargeCollidableStructure
+  Transport Field Effect Subpylon: entity/TemporaryCollidableStructure
   Transport Ships: skill/SpaceshipCommand
   Transputer Orb: commodity/Commodities
   Transstellar Empire Control: infantry/InfantrySkills
@@ -66325,6 +66360,7 @@ name2group:
   Women's 'Strut' Pants (red): apparel/Bottoms
   Women's 'Strut' Pants (yellow gloss): apparel/Bottoms
   Women's 'Tripoint' Facial Augmentation: apparel/Augmentations
+  Women's 'Valkear' Beret: apparel/Headwear
   Women's 'Valkyrie' Flight Jacket: apparel/Outer
   Women's 'Vise' Cybernetic Arm (black and orange ringed left): apparel/Prosthetics
   Women's 'Vise' Cybernetic Arm (black and orange ringed right): apparel/Prosthetics
@@ -66426,6 +66462,7 @@ name2group:
   Wreathe Exoplanets Hunter SKIN: skins/PermanentSKIN
   Wreathe Glacial Drift SKIN: skins/PermanentSKIN
   Wreathe Justice SKIN: skins/PermanentSKIN
+  Wreathe Nefantar SKIN: skins/PermanentSKIN
   Wreathe Snowline Bladeracer SKIN: skins/PermanentSKIN
   Wreathe Tronhadar Ink SKIN: skins/PermanentSKIN
   Wreathe Valklear Glory SKIN: skins/PermanentSKIN
@@ -66522,6 +66559,7 @@ name2group:
   Xenophobia Bonus: bonus/PhobiaHandicap
   Xenotime: asteroid/ExceptionalMoonAsteroids
   Xevni Jipon: entity/MissionGenericBattleships
+  Xordazh Invasion Cache: entity/PrecursorCache
   Xray L: charge/FrequencyCrystal
   Xray L Blueprint: blueprint/FrequencyCrystalBlueprint
   Xray M: charge/FrequencyCrystal

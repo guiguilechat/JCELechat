@@ -199,3 +199,30 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     volume: 1.0E8
+  Xordazh Invasion Cache:
+    armoremdamageresonance: 1.0
+    armorexplosivedamageresonance: 1.0
+    armorhp: 100.0
+    armorkineticdamageresonance: 1.0
+    armorthermaldamageresonance: 1.0
+    armoruniformity: 1.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentmax: 3
+    entityequipmentmin: 3
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 100.0
+    id: 55799
+    name: Xordazh Invasion Cache
+    packagedVolume: 1.0E8
+    portionSize: 1
+    published: false
+    radius: 1226.0
+    shieldcapacity: 100.0
+    shieldrechargerate: 8.64E7
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    volume: 1.0E8

@@ -1831,6 +1831,22 @@ types:
     portionSize: 1
     published: true
     volume: 2520.0
+  Minmatar Liberation Day Apparel Crate:
+    cpumultiplier: 1.0
+    id: 55807
+    name: Minmatar Liberation Day Apparel Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Minmatar Liberation Day Fireworks Crate:
+    cpumultiplier: 1.0
+    id: 55815
+    name: Minmatar Liberation Day Fireworks Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Model of a Fighter:
     cpumultiplier: 1.0
     id: 33030

@@ -21,30 +21,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 17
-  Advanced Serenity Cerebral Accelerator:
-    boosterduration: 1.728E8
-    boosterlastinjectiondatetime: 18443.125
-    boosterness: 10
-    charismabonus: 10
-    followsjumpclones: 1
-    id: 54657
-    intelligencebonus: 10
-    marketGroup: 2487
-    memorybonus: 10
-    name: Advanced Serenity Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 10
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 10
   Agency 'Hardshell' TB3 Dose I:
     armordamageamountbonus: 3
     boosterduration: 1800000.0
@@ -337,30 +313,6 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
-  Basic Serenity Cerebral Accelerator:
-    boosterduration: 4.32E7
-    boosterlastinjectiondatetime: 18443.125
-    boosterness: 10
-    charismabonus: 10
-    followsjumpclones: 1
-    id: 54655
-    intelligencebonus: 10
-    marketGroup: 2487
-    memorybonus: 10
-    name: Basic Serenity Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 10
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 10
   Caldari spaceship skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -559,6 +511,28 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
+  Expert Cerebral Accelerator:
+    boosterduration: 1.08E9
+    boosterness: 10
+    charismabonus: 8
+    followsjumpclones: 1
+    id: 55826
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Expert Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 8
   Expired 'Absolute' Injection Augmentor:
     boosterduration: 5.76E7
     boosterlastinjectiondatetime: 17903.458984375
@@ -597,6 +571,54 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 12
+  Expired Advanced Serenity Cerebral Accelerator:
+    boosterduration: 1.728E8
+    boosterlastinjectiondatetime: 18443.125
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 54657
+    intelligencebonus: 10
+    marketGroup: 2487
+    memorybonus: 10
+    name: Expired Advanced Serenity Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Expired Basic Serenity Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18443.125
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 54655
+    intelligencebonus: 10
+    marketGroup: 2487
+    memorybonus: 10
+    name: Expired Basic Serenity Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
   Expired CDIA SPACE Cerebral Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 17652.458984375
@@ -630,6 +652,30 @@ types:
     intelligencebonus: 10
     memorybonus: 10
     name: Expired Extended 'Guri Hivaa' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Expired Extended Serenity Cerebral Accelerator:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18443.125
+    boosterness: 10
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 54651
+    intelligencebonus: 10
+    marketGroup: 2487
+    memorybonus: 10
+    name: Expired Extended Serenity Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -759,17 +805,17 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Extended Serenity Cerebral Accelerator:
-    boosterduration: 2.592E8
+  Expired Standard Serenity Cerebral Accelerator:
+    boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18443.125
     boosterness: 10
     charismabonus: 10
     followsjumpclones: 1
-    id: 54651
+    id: 54656
     intelligencebonus: 10
     marketGroup: 2487
     memorybonus: 10
-    name: Extended Serenity Cerebral Accelerator
+    name: Expired Standard Serenity Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -1778,7 +1824,7 @@ types:
     volume: 1.0
   Serenity Monthly Cerebral Accelerator - 2020.6:
     boosterduration: 4.32E7
-    boosterlastinjectiondatetime: 18442.458984375
+    boosterlastinjectiondatetime: 18453.666015625
     boosterness: 10
     charismabonus: 5
     followsjumpclones: 1
@@ -1802,7 +1848,7 @@ types:
     willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.7:
     boosterduration: 4.32E7
-    boosterlastinjectiondatetime: 18474.166015625
+    boosterlastinjectiondatetime: 18475.666015625
     boosterness: 19
     charismabonus: 5
     followsjumpclones: 1
@@ -2027,30 +2073,6 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
-  Standard Serenity Cerebral Accelerator:
-    boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18443.125
-    boosterness: 10
-    charismabonus: 10
-    followsjumpclones: 1
-    id: 54656
-    intelligencebonus: 10
-    marketGroup: 2487
-    memorybonus: 10
-    name: Standard Serenity Cerebral Accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 10
-    portionSize: 1
-    price: 32768.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 10
   Standard Sooth Sayer Booster:
     boosterarmorrepairamountpenalty: -20
     boosterduration: 1800000.0
