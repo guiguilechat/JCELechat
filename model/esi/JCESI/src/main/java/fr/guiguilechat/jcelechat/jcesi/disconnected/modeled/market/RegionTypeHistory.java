@@ -3,12 +3,10 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 import java.time.Clock;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.DoubleStream;
-import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
@@ -33,28 +31,22 @@ public class RegionTypeHistory {
 
 	private static final Logger logger = LoggerFactory.getLogger(RegionTypeHistory.class);
 
-	public final CacheStatic caches;
+	public final CacheStatic cachestatic;
 
 	private final ObsListHolder<R_get_markets_region_id_history> history;
 
 	public final int typeID;
 
 	public RegionTypeHistory(CacheStatic cache, int regionID, int typeID) {
-		caches = cache;
+		cachestatic = cache;
 		this.typeID = typeID;
-		history = caches.markets.history(regionID, typeID).sorted((a, b) -> b.date.compareTo(a.date));
-		// history.peek(l -> logger.warn("received new list for item " + typeID + "
-		// size=" + l.size()));
-	}
-
-	public ObsListHolder<R_get_markets_region_id_history> getData() {
-		return history;
+		history = cachestatic.markets.history(regionID, typeID).sorted((a, b) -> b.date.compareTo(a.date));
 	}
 
 	private static Stream<R_get_markets_region_id_history> withinDays(List<R_get_markets_region_id_history> list,
 			int days) {
 		String lowerBound = daysAgo(days);
-		return list.stream().limit(days).filter(h -> h.date.compareTo(lowerBound) <= 0);
+		return list.stream().limit(days).filter(h -> h.date.compareTo(lowerBound) >= 0);
 	}
 
 	/**
@@ -64,10 +56,10 @@ public class RegionTypeHistory {
 	 *         {@link DateTimeFormatter#ISO_LOCAL_DATE} format.
 	 */
 	private static String daysAgo(int days) {
-		return LocalDate.now(Clock.systemUTC()).minusDays(days).format(DateTimeFormatter.ISO_LOCAL_DATE);
+		return LocalDate.now(Clock.systemUTC()).minusDays(days - 1).format(DateTimeFormatter.ISO_LOCAL_DATE);
 	}
 
-	// limited history
+	// limited history over a max given number of days.
 
 	public class LimitedHistory {
 
@@ -77,24 +69,32 @@ public class RegionTypeHistory {
 			this.days = days;
 		}
 
-		private ObsListHolder<R_get_markets_region_id_history> cacheValues = null;
+		private ObsListHolder<R_get_markets_region_id_history> cacheData = null;
 
-		public ObsListHolder<R_get_markets_region_id_history> getValues() {
-			if (cacheValues == null) {
+		/**
+		 *
+		 * @return the cached observable list of day history, limited.
+		 */
+		public ObsListHolder<R_get_markets_region_id_history> getData() {
+			if (cacheData == null) {
 				synchronized (this) {
-					if (cacheValues == null) {
-						cacheValues = limitData(days);
+					if (cacheData == null) {
+						cacheData = limitData(days);
 					}
 				}
 			}
-			return cacheValues;
+			return cacheData;
 		}
 
 		private ObsDoubleHolder cacheAverage = null;
 
+		/**
+		 *
+		 * @return the cached observable average sale value over the limit.
+		 */
 		public ObsDoubleHolder getAverage() {
 			if (cacheAverage == null) {
-				ObsListHolder<R_get_markets_region_id_history> values = getValues();
+				ObsListHolder<R_get_markets_region_id_history> values = getData();
 				synchronized (values) {
 					if (cacheAverage == null) {
 						cacheAverage = values.reduceDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum()
@@ -107,9 +107,13 @@ public class RegionTypeHistory {
 
 		private ObsLongHolder cacheVolume = null;
 
+		/**
+		 *
+		 * @return the cached observable sale volume over the limit.
+		 */
 		public ObsLongHolder getVolume() {
 			if (cacheVolume == null) {
-				ObsListHolder<R_get_markets_region_id_history> values = getValues();
+				ObsListHolder<R_get_markets_region_id_history> values = getData();
 				synchronized (values) {
 					if (cacheVolume == null) {
 						cacheVolume = values.reduceLong(l -> l.stream().mapToLong(h -> h.volume).sum());
@@ -121,9 +125,13 @@ public class RegionTypeHistory {
 
 		private ObsDoubleHolder cacheTotalValue = null;
 
+		/**
+		 *
+		 * @return the cached observable total sale value over the limit.
+		 */
 		public ObsDoubleHolder getTotalValue() {
 			if (cacheTotalValue == null) {
-				ObsListHolder<R_get_markets_region_id_history> values = getValues();
+				ObsListHolder<R_get_markets_region_id_history> values = getData();
 				synchronized (values) {
 					if (cacheTotalValue == null) {
 						cacheTotalValue = values.reduceDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum());
@@ -135,35 +143,25 @@ public class RegionTypeHistory {
 
 		//
 
-		private ObsListHolderImpl<Long> sortedVolumes = null;
+		private ObsListHolder<Long> sortedVolumes = null;
 
-		/** get the list of volumes over last X days, sorted by volume descending */
+		/** get the list of volumes over the limit, sorted by volume descending */
 		public ObsListHolder<Long> getSortedVolumes() {
 			if (sortedVolumes == null) {
-				ObsListHolder<R_get_markets_region_id_history> values = getValues();
+				ObsListHolder<R_get_markets_region_id_history> data = getData();
 				synchronized (this) {
 					if (sortedVolumes == null) {
-						ObservableList<Long> internal = FXCollections.observableArrayList();
-						ObsListHolderImpl<Long> ret = new ObsListHolderImpl<>(internal);
-						values.follow((l) -> {
-							internal.clear();
-							if (l.size() > 0) {
-								R_get_markets_region_id_history first = l.get(l.size() - 1);
-								LocalDate firstDate = DateTimeFormatter.ISO_LOCAL_DATE.parse(first.date, LocalDate::from);
-								LocalDate now = LocalDate.now(Clock.systemUTC());
-								int nbDays = (int) (now.toEpochDay() - firstDate.toEpochDay());
-								long[] volumes = new long[nbDays];
-								for (int i = 0; i < l.size() && i < nbDays; i++) {
-									volumes[i] = l.get(i).volume;
-								}
-								Arrays.sort(volumes);
-								internal.addAll(LongStream.of(volumes).mapToObj(lon -> lon).collect(Collectors.toList()));
-							} else {
+						sortedVolumes = data.toList(l -> {
+							List<Long> list = l.stream().map(h -> h.volume)
+									// reverse sort for long to have by volume DECREASING
+									.sorted((l1, l2) -> Long.compare(l2, l1))
+									.collect(Collectors.toList());
+							// fill missing days with 0s
+							while (list.size() < days) {
+								list.add(0l);
 							}
-							ret.dataReceived();
+							return list;
 						});
-						// reverse because Arrays.sort use increasing order
-						sortedVolumes = ret.reverse();
 					}
 				}
 			}
@@ -285,8 +283,36 @@ public class RegionTypeHistory {
 			return ret;
 		}
 
+		/**
+		 *
+		 * @param percentile
+		 *          a percentile of daily highest price to remove
+		 * @return the highest daily price after percentile % . eg if the highest
+		 *         prices for last days are 3,10,15,9, the prices are orders
+		 *         decreasing : 15,10,9,3 and the first % of this is removed. the
+		 *         percentile is then 25, the first quarter is removed and the
+		 *         highest is returned, here 10
+		 */
+		public double maxPrice(int percentile) {
+			// highest prices per day, ordered decreasing.
+			double[] orderedPrices = getData().get().stream().map(sales -> sales.highest)
+					.sorted((d1, d2) -> -Double.compare(d1, d2)).mapToDouble(d -> d).toArray();
+			int index = (int) Math.ceil(1.0 * (days + 1) * percentile / 100);
+			if (index < orderedPrices.length) {
+				return orderedPrices[index];
+			}
+			return 0;
+		}
+
 	}
 
+	/**
+	 * limit to max days. If max days is 1, then will limit to today
+	 *
+	 * @param maxDays
+	 *          number of days to limit, including today
+	 * @return a new observable list
+	 */
 	private ObsListHolder<R_get_markets_region_id_history> limitData(int maxDays) {
 		ObservableList<R_get_markets_region_id_history> internal = FXCollections.observableArrayList();
 		ObsListHolderImpl<R_get_markets_region_id_history> ret = new ObsListHolderImpl<>(internal);
@@ -323,61 +349,4 @@ public class RegionTypeHistory {
 	 */
 	public final LimitedHistory yearly = new LimitedHistory(365);
 
-	// ??
-
-	private ObsListHolderImpl<Long> sortedVolumes = null;
-
-	/** get the list of volumes over last X days, sorted by volume descending */
-	public ObsListHolder<Long> getSortedVolumes() {
-		if (sortedVolumes == null) {
-			synchronized (this) {
-				if (sortedVolumes == null) {
-					ObservableList<Long> internal = FXCollections.observableArrayList();
-					ObsListHolderImpl<Long> ret = new ObsListHolderImpl<>(internal);
-					history.follow((l) -> {
-						internal.clear();
-						if (l.size() > 0) {
-							R_get_markets_region_id_history first = l.get(l.size() - 1);
-							LocalDate firstDate = DateTimeFormatter.ISO_LOCAL_DATE.parse(first.date, LocalDate::from);
-							LocalDate now = LocalDate.now(Clock.systemUTC());
-							int nbDays = (int) (now.toEpochDay() - firstDate.toEpochDay());
-							long[] volumes = new long[nbDays];
-							for (int i = 0; i < l.size() && i < nbDays; i++) {
-								volumes[i] = l.get(i).volume;
-							}
-							Arrays.sort(volumes);
-							internal.addAll(LongStream.of(volumes).mapToObj(lon -> lon).collect(Collectors.toList()));
-						} else {
-						}
-						ret.dataReceived();
-					});
-					// reverse because Arrays.sort use increasing order
-					sortedVolumes = ret.reverse();
-				}
-			}
-		}
-		return sortedVolumes;
-	}
-
-	/**
-	 *
-	 * @param percentile
-	 *          a percentile of daily highest price to remove
-	 * @return the highest daily price after percentile % . eg if the highest
-	 *         prices for last days are 3,10,15,9, the prices are orders
-	 *         decreasing : 15,10,9,3 and the first % of this is removed. the
-	 *         percentile is then 25, the first quarter is removed and the highest
-	 *         is returned, here 10
-	 */
-	public double maxDailyPrice(int percentile) {
-		// highest prices, ordered increasing.
-		double[] orderedPrices = getData().get().stream().mapToDouble(sales -> sales.highest).sorted().toArray();
-		double ret = 0;
-		int size = Math.max(360, orderedPrices.length);
-		int indexFromEnd = (int) Math.ceil(1.0 * size * percentile / 100);
-		if (orderedPrices.length > indexFromEnd) {
-			ret = orderedPrices[orderedPrices.length - 1 - indexFromEnd];
-		}
-		return ret;
-	}
 }
