@@ -161,7 +161,7 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 		}
 
 		double skillsProbaMult = 1.0 * skillsProbaPoints_base120 / 120;
-		logger.debug(" invent from " + target.name() + "with dec=" + name() + " gives base=" + invented.probability
+		logger.trace(" invent from " + target.name() + "with dec=" + name() + " gives base=" + invented.probability
 				+ " skills=" + skillsProbaMult + " decryptormult=" + probmult());
 		return Math.min(1.0, invented.probability * skillsProbaMult * probmult());
 	}
