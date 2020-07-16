@@ -131,10 +131,10 @@ public class NPCsTranslater {
 					agent.station = station.name;
 					agent.stationId = eagt.locationID;
 				}
+				agents.put(agent.name, agent);
 			} else {
 				logger.warn("invalid location for agent " + agent.name + " locid=" + eagt.locationID);
 			}
-			agents.put(agent.name, agent);
 		}
 
 		logger.info("translated agents data");
