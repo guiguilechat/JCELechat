@@ -144,17 +144,17 @@ public class NPCsTranslater {
 			add.id = e.getKey();
 			R_get_corporations_corporation_id snpc = npcCorps.get(add.id);
 			if (snpc == null) {
-				logger.debug("can't find corporation from id " + add.id);
+				logger.warn("can't find corporation from id " + add.id);
 				continue;
 			}
 			add.name = e.getValue().name;
-			R_get_universe_factions faction = factionById.get(snpc.faction_id);
 
+			R_get_universe_factions faction = factionById.get(snpc.faction_id);
 			if (faction == null) {
 				logger.debug("can't find faction from id " + snpc.faction_id + " for corporation " + add.name);
-				continue;
+			} else {
+				add.faction = faction.name;
 			}
-			add.faction = faction.name;
 			if (e.getValue().faction_id != 0) {
 				add.warfare = factionById.get(e.getValue().faction_id).name;
 			}
@@ -172,7 +172,7 @@ public class NPCsTranslater {
 	}
 
 	private static double convertConcordRate(String name, String alliance, String fw) {
-		if (fw != null) {
+		if (fw != null || alliance == null) {
 			return 0;
 		}
 		switch (alliance) {
