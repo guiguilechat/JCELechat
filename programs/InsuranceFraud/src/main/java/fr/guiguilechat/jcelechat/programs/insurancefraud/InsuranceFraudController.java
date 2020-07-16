@@ -11,7 +11,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_insurance_prices;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
@@ -311,7 +311,7 @@ public class InsuranceFraudController {
 				if (requiredMats != null) {
 					ret.isks = costMult * requiredMats.parallelStream()
 							.mapToDouble(
-									mat -> mat.quantity * ESIAccess.INSTANCE.markets.getAdjusted(TypeIndex.getType(mat.name()).id))
+									mat -> mat.quantity * ESIModel.INSTANCE.markets.getAdjusted(TypeIndex.getType(mat.name()).id))
 							.sum();
 					double produced = bpo.manufacturing.products.get(0).quantity * bpo.manufacturing.products.get(0).probability;
 					Map<String, Double> mapMat = requiredMats.stream().collect(Collectors.toMap(req -> req.name(),

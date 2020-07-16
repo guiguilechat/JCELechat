@@ -1,52 +1,4 @@
 types:
-  High-Grade Mimesis Alpha Blueprint:
-    id: 52972
-    name: High-Grade Mimesis Alpha Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  High-Grade Mimesis Beta Blueprint:
-    id: 52974
-    name: High-Grade Mimesis Beta Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  High-Grade Mimesis Delta Blueprint:
-    id: 52975
-    name: High-Grade Mimesis Delta Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  High-Grade Mimesis Epsilon Blueprint:
-    id: 52976
-    name: High-Grade Mimesis Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  High-Grade Mimesis Gamma Blueprint:
-    id: 52977
-    name: High-Grade Mimesis Gamma Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  High-Grade Mimesis Omega Blueprint:
-    id: 52978
-    name: High-Grade Mimesis Omega Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
   High-grade Ascendancy Alpha Blueprint:
     id: 33536
     industryblueprintrank: 30.0
@@ -157,6 +109,54 @@ types:
     radius: 1.0
     techlevel: 1
     volume: 0.009999999776482582
+  High-grade Mimesis Alpha Blueprint:
+    id: 52972
+    name: High-grade Mimesis Alpha Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Mimesis Beta Blueprint:
+    id: 52974
+    name: High-grade Mimesis Beta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Mimesis Delta Blueprint:
+    id: 52975
+    name: High-grade Mimesis Delta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Mimesis Epsilon Blueprint:
+    id: 52976
+    name: High-grade Mimesis Epsilon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Mimesis Gamma Blueprint:
+    id: 52977
+    name: High-grade Mimesis Gamma Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Mimesis Omega Blueprint:
+    id: 52978
+    name: High-grade Mimesis Omega Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
   High-grade Nirvana Alpha Blueprint:
     id: 53728
     name: High-grade Nirvana Alpha Blueprint
@@ -253,54 +253,6 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
-  Low-Grade Mimesis Alpha Blueprint:
-    id: 52684
-    name: Low-Grade Mimesis Alpha Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Low-Grade Mimesis Beta Blueprint:
-    id: 52685
-    name: Low-Grade Mimesis Beta Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Low-Grade Mimesis Delta Blueprint:
-    id: 52687
-    name: Low-Grade Mimesis Delta Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Low-Grade Mimesis Epsilon Blueprint:
-    id: 52688
-    name: Low-Grade Mimesis Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Low-Grade Mimesis Gamma Blueprint:
-    id: 52686
-    name: Low-Grade Mimesis Gamma Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Low-Grade Mimesis Omega Blueprint:
-    id: 52689
-    name: Low-Grade Mimesis Omega Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
   Low-grade Hydra Alpha Blueprint:
     id: 54422
     name: Low-grade Hydra Alpha Blueprint
@@ -353,6 +305,54 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Mimesis Alpha Blueprint:
+    id: 52684
+    name: Low-grade Mimesis Alpha Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Mimesis Beta Blueprint:
+    id: 52685
+    name: Low-grade Mimesis Beta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Mimesis Delta Blueprint:
+    id: 52687
+    name: Low-grade Mimesis Delta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Mimesis Epsilon Blueprint:
+    id: 52688
+    name: Low-grade Mimesis Epsilon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Mimesis Gamma Blueprint:
+    id: 52686
+    name: Low-grade Mimesis Gamma Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Mimesis Omega Blueprint:
+    id: 52689
+    name: Low-grade Mimesis Omega Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
     techlevel: 1
     volume: 0.009999999776482582
   Low-grade Nirvana Alpha Blueprint:
@@ -446,54 +446,6 @@ types:
   Low-grade Savior Omega Blueprint:
     id: 53925
     name: Low-grade Savior Omega Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Mid-Grade Mimesis Alpha Blueprint:
-    id: 52791
-    name: Mid-Grade Mimesis Alpha Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Mid-Grade Mimesis Beta Blueprint:
-    id: 52792
-    name: Mid-Grade Mimesis Beta Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Mid-Grade Mimesis Delta Blueprint:
-    id: 52793
-    name: Mid-Grade Mimesis Delta Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Mid-Grade Mimesis Epsilon Blueprint:
-    id: 52794
-    name: Mid-Grade Mimesis Epsilon Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Mid-Grade Mimesis Gamma Blueprint:
-    id: 52795
-    name: Mid-Grade Mimesis Gamma Blueprint
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    published: true
-    techlevel: 1
-    volume: 0.009999999776482582
-  Mid-Grade Mimesis Omega Blueprint:
-    id: 52796
-    name: Mid-Grade Mimesis Omega Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -611,6 +563,54 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Mimesis Alpha Blueprint:
+    id: 52791
+    name: Mid-grade Mimesis Alpha Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Mimesis Beta Blueprint:
+    id: 52792
+    name: Mid-grade Mimesis Beta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Mimesis Delta Blueprint:
+    id: 52793
+    name: Mid-grade Mimesis Delta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Mimesis Epsilon Blueprint:
+    id: 52794
+    name: Mid-grade Mimesis Epsilon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Mimesis Gamma Blueprint:
+    id: 52795
+    name: Mid-grade Mimesis Gamma Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Mimesis Omega Blueprint:
+    id: 52796
+    name: Mid-grade Mimesis Omega Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
     techlevel: 1
     volume: 0.009999999776482582
   Mid-grade Nirvana Alpha Blueprint:

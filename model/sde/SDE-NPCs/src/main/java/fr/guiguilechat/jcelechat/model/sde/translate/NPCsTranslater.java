@@ -2,7 +2,6 @@ package fr.guiguilechat.jcelechat.model.sde.translate;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -13,26 +12,29 @@ import java.util.stream.Stream;
 
 import org.slf4j.LoggerFactory;
 
+import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.FileTools;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_corporations_corporation_id_starbases_starbase_id_fuels;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgents;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporations;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCDivisions;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
-import fr.guiguilechat.jcelechat.model.sde.locations.Station;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Corporation;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer.ItemRef;
+import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
+import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 
 public class NPCsTranslater {
 
@@ -46,6 +48,9 @@ public class NPCsTranslater {
 	 */
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
+
+		int parrallelism = Runtime.getRuntime().availableProcessors() * 100;
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
 		long timeStart = System.currentTimeMillis();
 		File folderOut = new File(args.length == 0 ? "src/generated/resources/" : args[0]);
@@ -88,28 +93,26 @@ public class NPCsTranslater {
 	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,
 			Map<Integer, String> divisionTypes, LinkedHashMap<String, Agent> agents,
 			LinkedHashMap<String, Corporation> corporations, LinkedHashMap<Integer, LPOffer> offers) {
-		ESIAccess esi = ESIAccess.INSTANCE;
-		Map<Integer, String> stationsByID = Station.loadById();
-		LinkedHashMap<String, Station> stations = Station.load();
-		HashMap<Integer, EcrpNPCCorporations> snpcCorps = EcrpNPCCorporations.loadById();
-		Map<Integer, R_get_corporations_corporation_id> npcCorps = Stream
-				.of(esi.connection.get_corporations_npccorps(null).getOK()).parallel()
-				.collect(Collectors.toMap(l -> l, l -> esi.connection.get_corporations(l, null).getOK()));
-		Integer[] allyIds = npcCorps.keySet().stream().map(corp -> snpcCorps.get(corp)).filter(corp -> corp != null)
-				.map(c -> c.factionID).filter(i -> i > 0).distinct().toArray(Integer[]::new);
-		if (allyIds.length == 0) {
-			for (Entry<Integer, R_get_corporations_corporation_id> e : npcCorps.entrySet()) {
-				System.err.println(" " + e.getKey() + " : " + e.getValue().name + " : " + e.getValue().alliance_id + " : "
-						+ e.getValue().faction_id);
-			}
-		} else {
-			logger.debug("npc alliances are " + Arrays.asList(allyIds));
-		}
-		Map<Integer, R_get_universe_factions> factionById = Stream.of(esi.connection.get_universe_factions(null).getOK())
-				.collect(Collectors.toMap(f -> f.faction_id, f -> f));
-		Map<Integer, String> agentNames = Stream
-				.of(esi.universe.names(eagents.stream().parallel().mapToInt(a -> a.agentID).toArray()))
-				.collect(Collectors.toMap(n -> (int) n.id, n -> n.name));
+		ESIModel esi = ESIModel.INSTANCE;
+		CacheStatic cache = ESIStatic.INSTANCE.cache;
+
+		// prefetch
+		ObsMapHolder<Integer, R_get_corporations_corporation_id> corporationsHolder = cache.corporations.npccorps()
+				.peek(l -> {
+					l.parallelStream().forEach(cache.corporations::get);
+				}).toMap(i -> i, i -> cache.corporations.get(i).get());
+		ObsMapHolder<Integer, R_get_universe_factions> factionsHolder = cache.universe.factions().toMap(f -> f.faction_id);
+		eagents.parallelStream().map(ag -> ag.locationID).distinct().forEach(lid -> Location.resolve(null, lid).system());
+
+
+		Map<Integer, String> agentNames = ObsListHolderImpl
+				.of(esi.universe.names(eagents.stream().mapToInt(a -> a.agentID).toArray()))
+				.toMap(n -> n.id, n -> n.name).get();
+		Map<Integer, R_get_corporations_corporation_id> npcCorps = corporationsHolder.get();
+		Map<Integer, R_get_universe_factions> factionById = factionsHolder.get();
+		Map<Integer, Location> agentsLocation = eagents.parallelStream()
+				.collect(Collectors.toMap(ag -> ag.agentID, ag -> Location.resolve(null, ag.locationID)));
+		logger.info("NPC prefetch received");
 
 		for (EagtAgents eagt : eagents) {
 			Agent agent = new Agent();
@@ -120,29 +123,35 @@ public class NPCsTranslater {
 			agent.level = eagt.level;
 			agent.type = agentTypes.get(eagt.agentTypeID);
 			agent.division = divisionTypes.get(eagt.divisionID);
-			String station = stationsByID.get(eagt.locationID);
-			if (station != null) {
-				agent.station = station;
+			Location loc = agentsLocation.get(eagt.agentID);
+			if (loc != null) {
+				agent.system = loc.system().name;
+				R_get_universe_stations_station_id station = loc.station();
 				if (station != null) {
+					agent.station = station.name;
 					agent.stationId = eagt.locationID;
 				}
-				agent.system = stations.get(station).solarSystem;
+			} else {
+				logger.warn("invalid location for agent " + agent.name + " locid=" + eagt.locationID);
 			}
 			agents.put(agent.name, agent);
 		}
+
+		logger.info("translated agents data");
+
 		for (Entry<Integer, R_get_corporations_corporation_id> e : npcCorps.entrySet()) {
 			Corporation add = new Corporation();
 			add.id = e.getKey();
-			EcrpNPCCorporations snpc = snpcCorps.get(add.id);
+			R_get_corporations_corporation_id snpc = npcCorps.get(add.id);
 			if (snpc == null) {
 				logger.debug("can't find corporation from id " + add.id);
 				continue;
 			}
 			add.name = e.getValue().name;
-			R_get_universe_factions faction = factionById.get(snpc.factionID);
+			R_get_universe_factions faction = factionById.get(snpc.faction_id);
 
 			if (faction == null) {
-				logger.debug("can't find faction from id " + snpc.factionID + " for corporation " + add.name);
+				logger.debug("can't find faction from id " + snpc.faction_id + " for corporation " + add.name);
 				continue;
 			}
 			add.faction = faction.name;

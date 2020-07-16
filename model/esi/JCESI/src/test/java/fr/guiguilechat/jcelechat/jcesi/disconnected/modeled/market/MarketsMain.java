@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 
 public class MarketsMain {
 
 	public static void main(String[] args) throws InterruptedException {
 
 		int region = 10000002;
-		ESIAccess acc = ESIAccess.INSTANCE;
+		ESIModel acc = ESIModel.INSTANCE;
 		RegionalMarket market = acc.markets.getMarket(region);
 		// 25591 is contaminated lorentz fluid.
 		System.err.println("SO for " + 3200 + " of item " + 25591 + " is " + market.getSO(25591, 3200).get());

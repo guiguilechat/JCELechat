@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
@@ -153,7 +153,7 @@ public class PraisalController {
 		if (newValue == null) {
 			marketHolder1.setValue(null);
 		} else {
-			marketHolder1.setValue(ESIAccess.INSTANCE.markets.getMarket(newValue.id));
+			marketHolder1.setValue(ESIModel.INSTANCE.markets.getMarket(newValue.id));
 		}
 	}
 
@@ -161,7 +161,7 @@ public class PraisalController {
 		if (newValue == null) {
 			marketHolder2.setValue(null);
 		} else {
-			marketHolder2.setValue(ESIAccess.INSTANCE.markets.getMarket(newValue.id));
+			marketHolder2.setValue(ESIModel.INSTANCE.markets.getMarket(newValue.id));
 		}
 	}
 

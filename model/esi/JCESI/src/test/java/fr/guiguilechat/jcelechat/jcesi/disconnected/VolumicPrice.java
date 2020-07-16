@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
@@ -32,7 +32,7 @@ public class VolumicPrice {
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 1000;
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 
-		ESIAccess esi = ESIAccess.INSTANCE;
+		ESIModel esi = ESIModel.INSTANCE;
 		RegionalMarket market = esi.markets.getMarket(10000002);
 
 		Set<String> createdItems = IntStream.of(esi.universe.cache.categories(9).get().groups).parallel()

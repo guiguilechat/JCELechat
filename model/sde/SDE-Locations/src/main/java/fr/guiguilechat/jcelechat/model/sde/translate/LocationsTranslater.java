@@ -42,8 +42,6 @@ public class LocationsTranslater {
 		PENALTY, WORMHOLE, JOVIAN, ABYSSAL, KS
 	}
 
-	static long timeStart;
-
 	/**
 	 *
 	 * @param args
@@ -53,7 +51,10 @@ public class LocationsTranslater {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 
-		timeStart = System.currentTimeMillis();
+		int parrallelism = Runtime.getRuntime().availableProcessors() * 100;
+		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
+
+		long timeStart = System.currentTimeMillis();
 		File folderOut = new File(args.length == 0 ? "src/generated/resources/" : args[0]);
 		FileTools.delDir(folderOut);
 		folderOut.mkdirs();
@@ -82,6 +83,8 @@ public class LocationsTranslater {
 		Constellation.export(constellations, folderOut);
 		SolarSystem.export(systems, folderOut);
 		Station.export(stations, folderOut);
+
+		logger.info("exported locations in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 
 	}
 
@@ -260,6 +263,9 @@ public class LocationsTranslater {
 			return null;
 		}
 		added.name = esta == null ? "missing_" + id : esta.stationName;
+		if (added.name == null) {
+			added.name = solarSystemName + "_" + id;
+		}
 		stations.put(added.name, added);
 		return added;
 	}

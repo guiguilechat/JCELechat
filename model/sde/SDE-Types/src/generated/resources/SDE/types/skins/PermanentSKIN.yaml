@@ -4298,6 +4298,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Caracal Abyssal Glory SKIN:
+    id: 55849
+    name: Caracal Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caracal Biosecurity Responders SKIN:
     id: 55512
     marketGroup: 1991
@@ -15984,6 +15991,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Merlin Abyssal Glory SKIN:
+    id: 55850
+    name: Merlin Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Merlin Biosecurity Responders SKIN:
     id: 55530
     marketGroup: 2003
@@ -18325,6 +18339,13 @@ types:
     id: 37593
     marketGroup: 2090
     name: Occator Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Abyssal Glory SKIN:
+    id: 55848
+    name: Omen Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21014,6 +21035,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Punisher Abyssal Glory SKIN:
+    id: 55847
+    name: Punisher Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Punisher Biosecurity Responders SKIN:
     id: 55306
     marketGroup: 2002
@@ -22500,6 +22528,13 @@ types:
     id: 49156
     marketGroup: 2005
     name: Rifter Absent Heroes SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rifter Abyssal Glory SKIN:
+    id: 55854
+    name: Rifter Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24543,6 +24578,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Abyssal Glory SKIN:
+    id: 55853
+    name: Stabber Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Biosecurity Responders SKIN:
     id: 55649
     marketGroup: 1993
@@ -26084,6 +26126,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thorax Abyssal Glory SKIN:
+    id: 55851
+    name: Thorax Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thorax Aliastra SKIN:
     id: 34692
     marketGroup: 1992
@@ -26597,6 +26646,13 @@ types:
     id: 36779
     marketGroup: 1959
     name: Tornado Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tristan Abyssal Glory SKIN:
+    id: 55852
+    name: Tristan Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

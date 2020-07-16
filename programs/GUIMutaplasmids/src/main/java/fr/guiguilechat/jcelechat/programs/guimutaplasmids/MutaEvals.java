@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
@@ -284,7 +284,7 @@ public class MutaEvals extends Application {
 		if (presentSliders == null) {
 			return;
 		}
-		market = ESIAccess.INSTANCE.markets
+		market = ESIModel.INSTANCE.markets
 				.getMarket(Region.load().get(regionMarket.getSelectionModel().getSelectedItem()).id);
 		for (ModifiedItem item : presentSliders.family.results()) {
 			ModifiedItemCost added = new ModifiedItemCost(item, market, presentSliders.attValues, qttyVal, this::getPrice);

@@ -2277,6 +2277,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Serenity Special SKINs Crate:
+    cpumultiplier: 1.0
+    id: 55827
+    marketGroup: 1661
+    name: Serenity Special SKINs Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Ship Fitting Guide:
     cpumultiplier: 1.0
     id: 33018

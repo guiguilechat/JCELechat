@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
@@ -35,8 +35,33 @@ public class Location {
 	}
 
 	/**
+	 * return the system thi
 	 *
-	 * @return the system is the ref is not null, or null.
+	 * @return
+	 */
+	public R_get_universe_stations_station_id station() {
+		if (ref == null) {
+			return null;
+		}
+
+		switch (type) {
+		case REGION:
+		case CONSTEL:
+		case SYSTEM:
+		case CONQSTATION:
+		case OFFICE:
+		case STRUCTURE:
+			return null;
+		case STATION:
+			return (R_get_universe_stations_station_id) ref;
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + type);
+		}
+	}
+
+	/**
+	 *
+	 * @return the system of the ref if possible, or null.
 	 */
 	public R_get_universe_systems_system_id system() {
 		if (ref == null) {
@@ -62,7 +87,7 @@ public class Location {
 
 	/**
 	 *
-	 * @return the constellation is the ref is not null, or null.
+	 * @return the constellation of the ref if possible, or null.
 	 */
 	public R_get_universe_constellations_constellation_id constel() {
 		if (ref == null) {
@@ -85,7 +110,7 @@ public class Location {
 	}
 
 	/**
-	 * @return the region if the ref is not null; otherwise return null
+	 * @return the region of the ref if possible, or null
 	 */
 	public R_get_universe_regions_region_id region() {
 		if (ref == null) {
@@ -160,7 +185,7 @@ public class Location {
 		} else {
 			// TODO check into esiaccess if the structure id is in the public
 			// structures.
-			if (ESIAccess.INSTANCE.universe.isPublicStructure(locationid)) {
+			if (ESIModel.INSTANCE.universe.isPublicStructure(locationid)) {
 				// can't do anything. stil need an account.
 			}
 			if (account != null) {

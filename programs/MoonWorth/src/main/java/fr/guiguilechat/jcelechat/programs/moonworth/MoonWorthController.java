@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
@@ -199,7 +199,7 @@ public class MoonWorthController {
 		if (newValue == null) {
 			marketHolder.setValue(null);
 		} else {
-			marketHolder.setValue(ESIAccess.INSTANCE.markets.getMarket(newValue.id));
+			marketHolder.setValue(ESIModel.INSTANCE.markets.getMarket(newValue.id));
 			Asteroid.METACAT.load().values().stream().filter(astero -> astero.marketGroup != 0)
 			.forEach(astero -> marketHolder.getValue().getBO(astero.id, 1));
 		}

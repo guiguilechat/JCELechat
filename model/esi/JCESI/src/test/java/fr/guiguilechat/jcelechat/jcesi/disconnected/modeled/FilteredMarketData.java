@@ -9,7 +9,7 @@ public class FilteredMarketData {
 		int theforge = 10000002;
 		int jita = 30000142;
 		int scorchbomb = 27916;
-		RegionalMarket basemarket = ESIAccess.INSTANCE.markets.getMarket(theforge);
+		RegionalMarket basemarket = ESIModel.INSTANCE.markets.getMarket(theforge);
 		IPricing jitamarket = basemarket.filter(jita, 0, false);
 		System.err
 				.println("sell orders in theforge" + basemarket.getMarketOrders(scorchbomb).listSellOrders().size().get());

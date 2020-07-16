@@ -9,13 +9,13 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
 
 public class FetchRegionBelts {
 
 	public static void main(String[] args) {
-		List<RegionData> regiondatas = ESIAccess.INSTANCE.universe.cache.regions().get().parallelStream()
+		List<RegionData> regiondatas = ESIModel.INSTANCE.universe.cache.regions().get().parallelStream()
 				.map(rid -> regionData(rid))
 				.filter(rd -> rd != null).sorted((rd1, rd2) -> rd1.region.compareTo(rd2.region))
 				.collect(Collectors.toList());
@@ -40,7 +40,7 @@ public class FetchRegionBelts {
 
 	public static RegionData regionData(int regionId) {
 		RegionData ret = new RegionData();
-		R_get_universe_regions_region_id region = ESIAccess.INSTANCE.universe.cache.regions(regionId).get();
+		R_get_universe_regions_region_id region = ESIModel.INSTANCE.universe.cache.regions(regionId).get();
 		if (region.name.matches("[A-Z]-R.*")) {
 			// System.err.println("skip wh region " + region.name);
 			return null;

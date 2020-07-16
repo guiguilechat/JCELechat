@@ -1019,7 +1019,7 @@ agents:
     name: Achi Astenaisen
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Achoghu Choosha:
     corporation: Impro
@@ -3679,7 +3679,7 @@ agents:
     name: Ahtamaa Visken
     station: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     stationId: 60013825
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Ahtamon Pavanakka:
     corporation: Lai Dai Corporation
@@ -4833,7 +4833,7 @@ agents:
     name: Aivuken Kirvira
     station: New Caldari V (Oniteseru) - Moon 2 - House of Records Archives
     stationId: 60003724
-    system: NewCaldari
+    system: New Caldari
     type: BasicAgent
   Aizagenen Arozainen:
     corporation: Poksu Mineral Group
@@ -5108,7 +5108,7 @@ agents:
     name: Ake Wagas
     station: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     stationId: 60013825
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Akelf Ortar:
     corporation: Republic Justice Department
@@ -5493,7 +5493,7 @@ agents:
     name: Akotoon Nolirz
     station: Ardishapur Prime II - Further Foodstuffs Plantation
     stationId: 60007693
-    system: ArdishapurPrime
+    system: Ardishapur Prime
     type: BasicAgent
   Akouh Hishmich:
     corporation: Kor-Azor Family
@@ -5504,7 +5504,7 @@ agents:
     name: Akouh Hishmich
     station: Kor-Azor Prime II - Kor-Azor Family Bureau
     stationId: 60008692
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Akova Totama:
     corporation: Poksu Mineral Group
@@ -5823,7 +5823,7 @@ agents:
     name: Alaoutitoh Hevulainen
     station: Tash-Murkon Prime V - Moon 5 - Expert Distribution Warehouse
     stationId: 60002497
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Alarancke Vesnync:
     corporation: Federal Administration
@@ -8197,7 +8197,7 @@ agents:
     name: Amaurin Abamier
     station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
     stationId: 60012859
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Amavene Ylle:
     corporation: Astral Mining Inc.
@@ -10408,7 +10408,7 @@ agents:
     name: Anolher Rarmesu
     station: Ardishapur Prime II - Further Foodstuffs Plantation
     stationId: 60007693
-    system: ArdishapurPrime
+    system: Ardishapur Prime
     type: BasicAgent
   Anomun Sasama:
     corporation: Imperial Armaments
@@ -11606,7 +11606,7 @@ agents:
     name: Apra Alahma
     station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     stationId: 60008686
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Apset Odiber:
     corporation: Trust Partners
@@ -14993,7 +14993,7 @@ agents:
     station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Ishukone Corporation
       Factory
     stationId: 60002212
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Asaniri Reirvenen:
     corporation: Peace and Order Unit
@@ -15455,7 +15455,7 @@ agents:
     name: Ashken Enaeel
     station: Kador Prime VI - Moon 1 - Kador Family Bureau
     stationId: 60008614
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Ashmarir Naita:
     corporation: Civic Court
@@ -17566,7 +17566,7 @@ agents:
     name: Aucier Prayl
     station: Kador Prime IX - TransStellar Shipping Storage
     stationId: 60009157
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Audaerne Jucissire:
     corporation: Material Acquisition
@@ -18446,7 +18446,7 @@ agents:
     name: Aurecque Marbette
     station: Lower Debyl V - Chemal Tech Factory
     stationId: 60010744
-    system: LowerDebyl
+    system: Lower Debyl
     type: BasicAgent
   Aurejet Anyadal:
     corporation: Amarr Civil Service
@@ -19898,7 +19898,7 @@ agents:
     name: Aydefroy Brechalle
     station: Old Man Star VIII - Moon 2 - Senate Bureau
     stationId: 60011605
-    system: OldManStar
+    system: Old Man Star
     type: BasicAgent
   Ayderitte Estibiese:
     corporation: President
@@ -20019,7 +20019,7 @@ agents:
     name: Aymirot Compsier
     station: Old Man Star VIII - Moon 1 - Quafe Company Warehouse
     stationId: 60009937
-    system: OldManStar
+    system: Old Man Star
     type: BasicAgent
   Aymynouel Chaland:
     corporation: Chemal Tech
@@ -20646,7 +20646,7 @@ agents:
     name: Bairshir Umam
     station: Ardishapur Prime IX - Moon 17 - Ardishapur Family Bureau
     stationId: 60008722
-    system: ArdishapurPrime
+    system: Ardishapur Prime
     type: BasicAgent
   Bakkarault Brevier:
     corporation: Impetus
@@ -20800,7 +20800,7 @@ agents:
     name: Bama Lierku
     station: Tash-Murkon Prime V - Moon 7 - Amarr Constructions Warehouse
     stationId: 60006154
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Bamadah Sheymel:
     corporation: Nurtura
@@ -21834,7 +21834,7 @@ agents:
     name: Beduim Quereg
     station: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     stationId: 60008650
-    system: SarumPrime
+    system: Sarum Prime
     type: EventMissionAgent
   Beedaener Handriveau:
     corporation: Intaki Commerce
@@ -22757,7 +22757,7 @@ agents:
     name: Bildecaina Riveau
     station: Kador Prime II - TransStellar Shipping Storage
     stationId: 60009145
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Bilni Zat:
     corporation: Ministry of Internal Order
@@ -23241,7 +23241,7 @@ agents:
     name: Bley Oreriel
     station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
     stationId: 60012859
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Blie Ignoget:
     corporation: Astral Mining Inc.
@@ -24077,7 +24077,7 @@ agents:
     name: Bouras Gakeli
     station: Kador Prime I - Kador Family Bureau
     stationId: 60008620
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Bourens Boingaroix:
     corporation: Aliastra
@@ -26790,7 +26790,7 @@ agents:
     name: Chiku Koronen
     station: New Caldari V (Oniteseru) - Moon 2 - House of Records Archives
     stationId: 60003724
-    system: NewCaldari
+    system: New Caldari
     type: EventMissionAgent
   Chilela Armaiah:
     corporation: Civic Court
@@ -26944,7 +26944,7 @@ agents:
     name: Chostins Gaenloovitte
     station: Lower Debyl VIII - Moon 15 - Chemal Tech Factory
     stationId: 60010747
-    system: LowerDebyl
+    system: Lower Debyl
     type: BasicAgent
   Chozal Kenamben:
     corporation: CONCORD
@@ -27318,7 +27318,7 @@ agents:
     name: Cliene Veine
     station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
     stationId: 60012859
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Cloellire Moncitant:
     corporation: Federation Navy
@@ -27747,7 +27747,7 @@ agents:
     name: Cooleemina Wiranstoure
     station: Lower Debyl V - Chemal Tech Factory
     stationId: 60010744
-    system: LowerDebyl
+    system: Lower Debyl
     type: BasicAgent
   Coommarecque Lalolles:
     corporation: Combined Harvest
@@ -28649,7 +28649,7 @@ agents:
     name: Damos Ossiam
     station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     stationId: 60008686
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: EventMissionAgent
   Damsia Chadla:
     corporation: Nurtura
@@ -28891,7 +28891,7 @@ agents:
     name: Darnena Anjedin
     station: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     stationId: 60008650
-    system: SarumPrime
+    system: Sarum Prime
     type: BasicAgent
   Darolevre Verac:
     corporation: CreoDron
@@ -29265,7 +29265,7 @@ agents:
     name: Delabet Adiam
     station: Sarum Prime III - Moon 2 - Imperial Academy
     stationId: 60014632
-    system: SarumPrime
+    system: Sarum Prime
     type: BasicAgent
   Delennotte Deloettan:
     corporation: Quafe Company
@@ -30310,7 +30310,7 @@ agents:
     name: Dorim Fatimar
     station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
     stationId: 60008758
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: EventMissionAgent
   Doritte Sybbolia:
     corporation: TransStellar Shipping
@@ -30530,7 +30530,7 @@ agents:
     name: Dralle Arson
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Drele Hussevris:
     corporation: Federal Freight
@@ -31927,7 +31927,7 @@ agents:
     name: Egino Aranata
     station: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     stationId: 60013858
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Egino Erashin:
     corporation: Expert Distribution
@@ -32565,7 +32565,7 @@ agents:
     name: Eitasena Annidhar
     station: Serpentis Prime II - Archangels Testing Facilities
     stationId: 60012247
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Eitasena Hesker:
     corporation: Core Complexion Inc.
@@ -32961,7 +32961,7 @@ agents:
     name: Elage Rienne
     station: Old Man Star VIII - Moon 2 - Senate Bureau
     stationId: 60011605
-    system: OldManStar
+    system: Old Man Star
     type: BasicAgent
   Elahassen Jachi:
     corporation: Food Relief
@@ -34282,7 +34282,7 @@ agents:
     name: Engardin Trahad
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Engata Lirfur:
     corporation: X-Sense
@@ -35613,7 +35613,7 @@ agents:
     name: Ershol Arajah
     station: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     stationId: 60008764
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Ersi Argrik:
     corporation: Serpentis Inquest
@@ -35624,7 +35624,7 @@ agents:
     name: Ersi Argrik
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Ertlie Gere:
     corporation: Intaki Syndicate
@@ -35932,7 +35932,7 @@ agents:
     name: Eskanen Paatavainen
     station: Tash-Murkon Prime III - Moon 1 - Expert Distribution Retail Center
     stationId: 60002485
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Eskar Aerdar:
     corporation: Republic Justice Department
@@ -36207,7 +36207,7 @@ agents:
     name: Essbet Tittori
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Essegaines Edmalere:
     corporation: Sisters of EVE
@@ -36350,7 +36350,7 @@ agents:
     name: Estavoire Ostrie
     station: Kador Prime II - TransStellar Shipping Storage
     stationId: 60009145
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Estelm Vudugbad:
     corporation: Core Complexion Inc.
@@ -36372,7 +36372,7 @@ agents:
     name: Estie Rolle
     station: Kador Prime VII - Moon 1 - TransStellar Shipping Storage
     stationId: 60009142
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Estime Hovrelaert:
     corporation: The Scope
@@ -37074,7 +37074,7 @@ agents:
     name: Eves Obarmant
     station: Tash-Murkon Prime III - Moon 1 - DED Assembly Plant
     stationId: 60012985
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: CONCORDAgent
   Eveynel Daerne:
     corporation: TransStellar Shipping
@@ -37822,7 +37822,7 @@ agents:
     name: Farela Laresh
     station: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     stationId: 60008764
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Farimla Yarvanu:
     corporation: Amarr Constructions
@@ -38977,7 +38977,7 @@ agents:
     name: Fosha Dyrer
     station: Kador Prime VI - Moon 1 - Kador Family Bureau
     stationId: 60008614
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Fotine Anilla:
     corporation: True Power
@@ -40175,7 +40175,7 @@ agents:
     name: Gamanne Adaulleler
     station: Old Man Star VIII - Moon 2 - Senate Bureau
     stationId: 60011605
-    system: OldManStar
+    system: Old Man Star
     type: BasicAgent
   Gamis Pena:
     corporation: Ministry of Internal Order
@@ -40296,7 +40296,7 @@ agents:
     name: Gara Minsk
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Gara Nielon:
     corporation: HZO Refinery
@@ -42012,7 +42012,7 @@ agents:
     name: Goligere Debanelis
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Gollain Direrie:
     corporation: Duvolle Laboratories
@@ -42100,7 +42100,7 @@ agents:
     name: Gomosabin Zerdanne
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Gonakis Eraettafrin:
     corporation: Republic Military School
@@ -44857,7 +44857,7 @@ agents:
     name: Han Taltanen
     station: New Caldari I (Matigu) - Poksu Mineral Group Mineral Reserve
     stationId: 60000688
-    system: NewCaldari
+    system: New Caldari
     type: BasicAgent
   Hana Isourin:
     corporation: Federation Navy
@@ -45121,7 +45121,7 @@ agents:
     name: Hara Lafleur
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Haraila Aruta:
     corporation: Caldari Business Tribunal
@@ -46648,7 +46648,7 @@ agents:
     name: Heinulaila Suola
     station: Kor-Azor Prime V - Moon 1 - Ishukone Corporation Factory
     stationId: 60002209
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: ResearchAgent
   Heinulaila Yaris:
     corporation: Nugoeihuvi Corporation
@@ -48166,7 +48166,7 @@ agents:
     name: Hira Jonra
     station: Kor-Azor Prime V - Moon 2 - Amarr Civil Service Bureau Offices
     stationId: 60007819
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Hirasez Malite:
     corporation: Ministry of Assessment
@@ -48749,7 +48749,7 @@ agents:
     name: Hoel Broin
     station: Old Man Star VIII - Moon 2 - Senate Bureau
     stationId: 60011605
-    system: OldManStar
+    system: Old Man Star
     type: GenericStorylineMissionAgent
   Hofuan Heli:
     corporation: Noble Appliances
@@ -50310,7 +50310,7 @@ agents:
     name: Hut Itola
     station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
     stationId: 60012859
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Huthin Maja:
     corporation: Imperial Armaments
@@ -51322,7 +51322,7 @@ agents:
     name: Ieva Omaken
     station: Lower Debyl VII - Moon 13 - Expert Distribution Retail Center
     stationId: 60002509
-    system: LowerDebyl
+    system: Lower Debyl
     type: BasicAgent
   Ieyaki Aunka:
     corporation: Kaalakiota Corporation
@@ -51476,7 +51476,7 @@ agents:
     name: Ignoitton Siveslet
     station: Old Man Star VIII - Moon 2 - Senate Bureau
     stationId: 60011605
-    system: OldManStar
+    system: Old Man Star
     type: BasicAgent
   Ignoure Audesiaen:
     corporation: Senate
@@ -51487,7 +51487,7 @@ agents:
     name: Ignoure Audesiaen
     station: Old Man Star VIII - Moon 2 - Senate Bureau
     stationId: 60011605
-    system: OldManStar
+    system: Old Man Star
     type: BasicAgent
   Igu Hudi:
     corporation: Imperial Chancellor
@@ -53377,7 +53377,7 @@ agents:
     name: Inikko Samanuni
     station: New Caldari Prime - Moon 1 - Poksu Mineral Group Mineral Reserve
     stationId: 60000682
-    system: NewCaldari
+    system: New Caldari
     type: BasicAgent
   Inikko Sirsashainen:
     corporation: Caldari Constructions
@@ -54411,7 +54411,7 @@ agents:
     name: Isastime Nuboliyen
     station: Kador Prime I - Kador Family Bureau
     stationId: 60008620
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Isaugnedan Presetin:
     corporation: CreoDron
@@ -55764,7 +55764,7 @@ agents:
     name: Iwaya Naukko
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: GenericStorylineMissionAgent
   Iwaya Sippeskallio:
     corporation: Caldari Navy
@@ -56446,7 +56446,7 @@ agents:
     name: Jaquon Jalibar
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Jara Kumora:
     corporation: Mordu's Legion
@@ -56589,7 +56589,7 @@ agents:
     name: Jarvas Ladier
     station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
     stationId: 60012859
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Jas Uittatoh:
     corporation: Spacelane Patrol
@@ -56798,7 +56798,7 @@ agents:
     name: Jaynerk Aurthes
     station: Ardishapur Prime II - Further Foodstuffs Plantation
     stationId: 60007693
-    system: ArdishapurPrime
+    system: Ardishapur Prime
     type: BasicAgent
   Jaynerk Lanoh:
     corporation: Imperial Shipment
@@ -56941,7 +56941,7 @@ agents:
     name: Jeka Vantoh
     station: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     stationId: 60003334
-    system: NewCaldari
+    system: New Caldari
     type: EventMissionAgent
   Jelfhiki Assbet:
     corporation: Tribal Liberation Force
@@ -57117,7 +57117,7 @@ agents:
     name: Jerva Vantoh
     station: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     stationId: 60003334
-    system: NewCaldari
+    system: New Caldari
     type: EventMissionAgent
   Jesahek Garan:
     corporation: Carthum Conglomerate
@@ -57500,7 +57500,7 @@ agents:
     name: Joppa Atzi
     station: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     stationId: 60008764
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Jopri Rayl:
     corporation: Imperial Armaments
@@ -58237,7 +58237,7 @@ agents:
     name: Juvoire Sche
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Kaaleskailen Engas:
     corporation: Caldari Provisions
@@ -58501,7 +58501,7 @@ agents:
     name: Kahala Okilen
     station: Tash-Murkon Prime III - Moon 1 - Expert Distribution Retail Center
     stationId: 60002485
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Kahazen Kuzek:
     corporation: Carthum Conglomerate
@@ -59359,7 +59359,7 @@ agents:
     name: Kalvas Vuotikiura
     station: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     stationId: 60013858
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Kamaala Ononala:
     corporation: Sukuuvestaa Corporation
@@ -59843,7 +59843,7 @@ agents:
     name: Kara Takin
     station: New Caldari II (Matias) - Kaalakiota Corporation Factory
     stationId: 60014935
-    system: NewCaldari
+    system: New Caldari
     type: BasicAgent
   Kara Ueshano:
     corporation: Expert Distribution
@@ -60569,7 +60569,7 @@ agents:
     name: Katitera Ongrik
     station: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     stationId: 60013825
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Katken Shitaluma:
     corporation: Caldari Constructions
@@ -60866,7 +60866,7 @@ agents:
     name: Kaymotin Gradance
     station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
     stationId: 60012859
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Kazaka Uoraa:
     corporation: Caldari Provisions
@@ -63074,7 +63074,7 @@ agents:
     name: Kofur Karveran
     station: Kador Prime VI - Moon 1 - Kador Family Bureau
     stationId: 60008614
-    system: KadorPrime
+    system: Kador Prime
     type: EventMissionAgent
   Kogaras Okayumi:
     corporation: CBD Corporation
@@ -65273,7 +65273,7 @@ agents:
     name: Kushan Horeat
     station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
     stationId: 60008758
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: EventMissionAgent
   Kusken Otiai:
     corporation: Rapid Assembly
@@ -65779,7 +65779,7 @@ agents:
     name: Laldellins Bassobins
     station: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     stationId: 60013858
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Laldjan Tolomer:
     corporation: Nefantar Miner Association
@@ -67703,7 +67703,7 @@ agents:
     name: Luthetion Preque
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Luvald Anfrard:
     corporation: Core Complexion Inc.
@@ -68836,7 +68836,7 @@ agents:
     name: Malite Shassal
     station: Kador Prime VI - Moon 1 - Kador Family Bureau
     stationId: 60008614
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Malkikka Linachi:
     corporation: Caldari Provisions
@@ -69045,7 +69045,7 @@ agents:
     name: Mamin Choonka
     station: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     stationId: 60008650
-    system: SarumPrime
+    system: Sarum Prime
     type: EventMissionAgent
   Mammazin Paral:
     corporation: Ministry of Internal Order
@@ -69199,7 +69199,7 @@ agents:
     name: Manban Laremund
     station: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     stationId: 60013858
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Manbier Ommenne:
     corporation: Quafe Company
@@ -69276,7 +69276,7 @@ agents:
     name: Manel Kador
     station: Kador Prime VI - Moon 1 - Kador Family Bureau
     stationId: 60008614
-    system: KadorPrime
+    system: Kador Prime
     type: EventMissionAgent
   Manera Faba:
     corporation: Emperor Family
@@ -71509,7 +71509,7 @@ agents:
     name: Merimeth Sarum
     station: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     stationId: 60008650
-    system: SarumPrime
+    system: Sarum Prime
     type: EventMissionAgent
   Mermene Wirtnard:
     corporation: Quafe Company
@@ -73192,7 +73192,7 @@ agents:
     name: Molea Sigaza
     station: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     stationId: 60008650
-    system: SarumPrime
+    system: Sarum Prime
     type: GenericStorylineMissionAgent
   Moledune Hevinivis:
     corporation: Intaki Space Police
@@ -74831,7 +74831,7 @@ agents:
     name: Nafrid Sharum
     station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
     stationId: 60008758
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: EventMissionAgent
   Nag Payah:
     corporation: Amarr Trade Registry
@@ -75755,7 +75755,7 @@ agents:
     name: Nashokoda Pekumatken
     station: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     stationId: 60003334
-    system: NewCaldari
+    system: New Caldari
     type: BasicAgent
   Nashrat Tedanken:
     corporation: Ministry of War
@@ -76997,7 +76997,7 @@ agents:
     name: Nimpor Fatimar
     station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
     stationId: 60008758
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: EventMissionAgent
   Nina Darrchien:
     corporation: The Sanctuary
@@ -77295,7 +77295,7 @@ agents:
     station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Ishukone Corporation
       Factory
     stationId: 60002212
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Nituma Rainakaila:
     corporation: Internal Security
@@ -77317,7 +77317,7 @@ agents:
     name: Niuchi Sobaseki
     station: Tash-Murkon Prime V - Moon 7 - Expert Distribution Retail Center
     stationId: 60002491
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Niurihokka Okanini:
     corporation: Nugoeihuvi Corporation
@@ -77449,7 +77449,7 @@ agents:
     name: Nofni Padichier
     station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     stationId: 60008686
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Noghy Kiru:
     corporation: Theology Council
@@ -77790,7 +77790,7 @@ agents:
     name: Nosha Ahnin
     station: Kador Prime VI - Moon 1 - Kador Family Bureau
     stationId: 60008614
-    system: KadorPrime
+    system: Kador Prime
     type: EventMissionAgent
   Nosha Ahninn:
     corporation: Kador Family
@@ -77801,7 +77801,7 @@ agents:
     name: Nosha Ahninn
     station: Kador Prime VI - Moon 1 - Kador Family Bureau
     stationId: 60008614
-    system: KadorPrime
+    system: Kador Prime
     type: EventMissionAgent
   Nosken Murvas:
     corporation: Caldari Navy
@@ -77845,7 +77845,7 @@ agents:
     name: Nossa Farad
     station: Kador Prime VI - Moon 1 - Kador Family Bureau
     stationId: 60008614
-    system: KadorPrime
+    system: Kador Prime
     type: EventMissionAgent
   Notaraka Ysen:
     corporation: Ytiri
@@ -78197,7 +78197,7 @@ agents:
     name: Nurveh Mermazgab
     station: Kor-Azor Prime II - Kor-Azor Family Bureau
     stationId: 60008692
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Nuse Louis:
     corporation: True Creations
@@ -79505,7 +79505,7 @@ agents:
     name: Oguet Aene
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Oguken Saakkatoh:
     corporation: State Protectorate
@@ -79923,7 +79923,7 @@ agents:
     name: Ohtar Defsunun
     station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
     stationId: 60008758
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Ohtrik Energur:
     corporation: Prosper
@@ -79956,7 +79956,7 @@ agents:
     name: Ohulainen Pesabato
     station: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     stationId: 60013825
-    system: KhanidPrime
+    system: Khanid Prime
     type: ResearchAgent
   Ohvajuuri Ahama:
     corporation: The Sanctuary
@@ -81111,7 +81111,7 @@ agents:
     name: Okoka Jehninth
     station: Kador Prime VIII - Moon 3 - Inherent Implants Biotech Production
     stationId: 60006946
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Okokka Aunki:
     corporation: Corporate Police Force
@@ -81935,7 +81935,7 @@ agents:
     name: Ollolf Boddagdur
     station: Lower Debyl V - Chemal Tech Factory
     stationId: 60010744
-    system: LowerDebyl
+    system: Lower Debyl
     type: GenericStorylineMissionAgent
   Ollon Dumes:
     corporation: Duvolle Laboratories
@@ -83079,7 +83079,7 @@ agents:
     name: Onlar Skadidsar
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: BasicAgent
   Onmi Mara:
     corporation: Kaalakiota Corporation
@@ -85147,7 +85147,7 @@ agents:
     name: Ossel Oryerchiron
     station: Kador Prime VIII - Moon 1 - TransStellar Shipping Storage
     stationId: 60009151
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Ossen Unonen:
     corporation: Caldari Constructions
@@ -87050,7 +87050,7 @@ agents:
     name: Palephia Nurreuka
     station: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     stationId: 60013825
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Palimoila Obachi:
     corporation: Chief Executive Panel
@@ -91096,7 +91096,7 @@ agents:
     name: Ragot Parah
     station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
     stationId: 60008758
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: EventMissionAgent
   Ragtvittak Eraleder:
     corporation: Tribal Liberation Force
@@ -91184,7 +91184,7 @@ agents:
     name: Raidon Setala
     station: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     stationId: 60003334
-    system: NewCaldari
+    system: New Caldari
     type: EventMissionAgent
   Raigaken Arakenda:
     corporation: Guristas
@@ -92238,7 +92238,7 @@ agents:
     name: Ravacesel Roque
     station: Serpentis Prime VI - Moon 1 - Serpentis Inquest Biotech Research Center
     stationId: 60013993
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   Raveeva Astihr:
     corporation: Guristas
@@ -92546,7 +92546,7 @@ agents:
     name: Reigen Ornolfer
     station: Khanid Prime V - Moon 1 - Khanid Innovation Factory
     stationId: 60013825
-    system: KhanidPrime
+    system: Khanid Prime
     type: ResearchAgent
   Reigetter Arnogar:
     corporation: Republic Parliament
@@ -92788,7 +92788,7 @@ agents:
     name: Reqqa Bratesch
     station: Tash-Murkon Prime V - Moon 5 - Tash-Murkon Family Bureau
     stationId: 60008758
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: EventMissionAgent
   Reraka Hemakid:
     corporation: Nurtura
@@ -96967,7 +96967,7 @@ agents:
     name: Sartheron Folle
     station: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     stationId: 60013858
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Saru Mataka:
     corporation: HZO Refinery
@@ -97770,7 +97770,7 @@ agents:
     name: Seda Kushanula
     station: Lower Debyl VII - Moon 13 - Expert Distribution Retail Center
     stationId: 60002509
-    system: LowerDebyl
+    system: Lower Debyl
     type: BasicAgent
   Sedaman Bankizak:
     corporation: Joint Harvesting
@@ -98166,7 +98166,7 @@ agents:
     name: Semilbaz Chibi
     station: Sarum Prime VI - Moon 7 - Sarum Family Assembly Plant
     stationId: 60008650
-    system: SarumPrime
+    system: Sarum Prime
     type: BasicAgent
   Semmenen Isokava:
     corporation: Propel Dynamics
@@ -98638,7 +98638,7 @@ agents:
     name: Shafra Gulias
     station: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     stationId: 60013858
-    system: KhanidPrime
+    system: Khanid Prime
     type: EventMissionAgent
   Shafrak Seswek:
     corporation: Imperial Armaments
@@ -98902,7 +98902,7 @@ agents:
     name: Sharenisali Sirjariad
     station: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     stationId: 60008764
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Sharik Thorir:
     corporation: Tribal Liberation Force
@@ -99242,7 +99242,7 @@ agents:
     name: Shes Saal
     station: Khanid Prime IX - Khanid Transport Storage
     stationId: 60013828
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Sheseretiyi Atted:
     corporation: Joint Harvesting
@@ -102376,7 +102376,7 @@ agents:
     name: Soskes Ifodun
     station: Ardishapur Prime II - Further Foodstuffs Plantation
     stationId: 60007693
-    system: ArdishapurPrime
+    system: Ardishapur Prime
     type: BasicAgent
   Sotah Imya:
     corporation: Amarr Civil Service
@@ -103287,7 +103287,7 @@ agents:
     name: Suky Karkinen
     station: New Caldari V (Oniteseru) - Moon 2 - House of Records Archives
     stationId: 60003724
-    system: NewCaldari
+    system: New Caldari
     type: EventMissionAgent
   Sula Kate:
     corporation: Caldari Funds Unlimited
@@ -103628,7 +103628,7 @@ agents:
     name: Suresen Uotenen
     station: Tash-Murkon Prime II - Moon 1 - Kaalakiota Corporation Factory
     stationId: 60001096
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Surier Suvaere:
     corporation: Center for Advanced Studies
@@ -103836,7 +103836,7 @@ agents:
     name: Suvaere Oloere
     station: Kador Prime VIII - Moon 1 - TransStellar Shipping Storage
     stationId: 60009151
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Suvasemi Ohkuya:
     corporation: Ytiri
@@ -105101,7 +105101,7 @@ agents:
     name: Taridor Khiknizi
     station: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     stationId: 60008764
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: BasicAgent
   Tarine Jatur:
     corporation: Ammatar Fleet
@@ -106190,7 +106190,7 @@ agents:
     name: Terrus Harkan
     station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     stationId: 60008686
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: EpicArcAgent
   Tertlaert Auste:
     corporation: Poteque Pharmaceuticals
@@ -110313,7 +110313,7 @@ agents:
     name: Ukanno Mottoya
     station: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     stationId: 60003334
-    system: NewCaldari
+    system: New Caldari
     type: EventMissionAgent
   Ukaras Ebiken:
     corporation: Deep Core Mining Inc.
@@ -111291,7 +111291,7 @@ agents:
     name: Urara Oshuhad
     station: Tash-Murkon Prime V - Moon 1 - Tash-Murkon Family Bureau
     stationId: 60008764
-    system: Tash-MurkonPrime
+    system: Tash-Murkon Prime
     type: GenericStorylineMissionAgent
   Urat Mehrekar:
     corporation: Ministry of War
@@ -111819,7 +111819,7 @@ agents:
     name: Utraki Oksikka
     station: Kador Prime IX - Moon 2 - Kaalakiota Corporation Factory
     stationId: 60001168
-    system: KadorPrime
+    system: Kador Prime
     type: BasicAgent
   Utranuolen Jesone:
     corporation: Wiyrkomi Corporation
@@ -114371,7 +114371,7 @@ agents:
     name: Viggholon Olenckbrouck
     station: Lower Debyl V - Chemal Tech Factory
     stationId: 60010744
-    system: LowerDebyl
+    system: Lower Debyl
     type: BasicAgent
   Vikayara Soukka:
     corporation: Caldari Provisions
@@ -114591,7 +114591,7 @@ agents:
     name: Vinkuski Tekkinashi
     station: Khanid Prime VII - Moon 2 - Khanid Works Shipyard
     stationId: 60013858
-    system: KhanidPrime
+    system: Khanid Prime
     type: BasicAgent
   Vinolfid Harmirkar:
     corporation: True Creations
@@ -116306,7 +116306,7 @@ agents:
     name: Wessette Gauze
     station: Serpentis Prime VIII - Moon 2 - Serpentis Corporation Chemical Refinery
     stationId: 60012859
-    system: SerpentisPrime
+    system: Serpentis Prime
     type: EventMissionAgent
   West Ludorim:
     corporation: Sebiestor Tribe
@@ -117668,7 +117668,7 @@ agents:
     name: Yaphal Ahsod
     station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     stationId: 60008686
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Yaphal Mahle:
     corporation: Ministry of Internal Order
@@ -118768,7 +118768,7 @@ agents:
     name: Yonnyllere Ashtemes
     station: Old Man Star VIII - Moon 2 - Senate Bureau
     stationId: 60011605
-    system: OldManStar
+    system: Old Man Star
     type: BasicAgent
   Yonoraita Immeri:
     corporation: Hyasyoda Corporation
@@ -119592,7 +119592,7 @@ agents:
     name: Zahrenin Eshuk
     station: Kor-Azor Prime II - Moon 1 - Joint Harvesting Plantation
     stationId: 60007246
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Zaiden Tatsa:
     corporation: Carthum Conglomerate
@@ -120448,7 +120448,7 @@ agents:
     name: Zoke Eredlis
     station: Kor-Azor Prime V - Moon 2 - Amarr Civil Service Bureau Offices
     stationId: 60007819
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: BasicAgent
   Zomili Mabahian:
     corporation: DED
@@ -120525,7 +120525,7 @@ agents:
     name: Zoun Makui
     station: New Caldari Prime - Moon 1 - Chief Executive Panel Bureau
     stationId: 60003334
-    system: NewCaldari
+    system: New Caldari
     type: EventMissionAgent
   Zuen Carlune:
     corporation: Pend Insurance
@@ -120646,7 +120646,7 @@ agents:
     name: gasd asdfas
     station: Kor-Azor Prime IV (Eclipticum) - Moon Griklaeum - Kor-Azor Family Bureau
     stationId: 60008686
-    system: Kor-AzorPrime
+    system: Kor-Azor Prime
     type: EventMissionAgent
   hilmirinnn:
     corporation: Trust Partners

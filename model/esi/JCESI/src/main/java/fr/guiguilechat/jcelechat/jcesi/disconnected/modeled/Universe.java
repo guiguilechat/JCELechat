@@ -57,6 +57,7 @@ public class Universe {
 			return new R_post_universe_names[0];
 		}
 		synchronized (cachedNames) {
+			IntStream.of(ids).filter(i -> !cachedNames.containsKey(i));
 			// have to work with long, because CCP bug.
 			int[] missingIds = IntStream.of(ids).filter(i -> !cachedNames.containsKey(i)).toArray();
 			int[] fullbuffer = new int[MAXLONGIDPERREQUEST];

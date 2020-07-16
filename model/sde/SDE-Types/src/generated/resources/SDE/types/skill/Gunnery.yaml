@@ -476,7 +476,7 @@ types:
     name: Large Vorton Projector
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.8E7
+    price: 6.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1099,7 +1099,7 @@ types:
     name: Vorton Arc Extension
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 100000.0
+    price: 3.09E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1118,7 +1118,7 @@ types:
     name: Vorton Arc Guidance
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 90000.0
+    price: 3.1E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1135,7 +1135,7 @@ types:
     name: Vorton Power Amplification
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1500000.0
+    price: 4.5E7
     primaryattribute: 167
     published: true
     radius: 1.0

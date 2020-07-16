@@ -16,7 +16,7 @@ import org.chocosolver.solver.expression.discrete.arithmetic.NaArExpression;
 import org.chocosolver.solver.variables.IntVar;
 import org.slf4j.Logger;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.IPricing;
 import fr.guiguilechat.jcelechat.libs.refinesolver.Commands.Command;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -69,7 +69,7 @@ public class RefineSolver {
 
 		market = params.market;
 		if (market == null) {
-			market = ESIAccess.INSTANCE.markets.getLocalMarket(params.marketLocation);
+			market = ESIModel.INSTANCE.markets.getLocalMarket(params.marketLocation);
 		}
 
 		//

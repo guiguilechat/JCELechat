@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 
 public class TestUniverse {
 
-	protected static fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe uni = ESIAccess.INSTANCE.universe;
+	protected static fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.Universe uni = ESIModel.INSTANCE.universe;
 
 	static int jitaIV4 = 60003760;
 	static int lanngisiIII2 = 60012625;

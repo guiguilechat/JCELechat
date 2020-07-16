@@ -450,6 +450,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Proven Kybernaut' Combat Suit:
+    gender: 2
+    id: 55857
+    marketGroup: 1399
+    name: Men's 'Proven Kybernaut' Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Source' Coat (black):
     gender: 1
     id: 33803
@@ -840,6 +849,15 @@ types:
     id: 48385
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Perun)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Triglavian Survival Suit (Proving Grounds):
+    gender: 2
+    id: 55858
+    marketGroup: 1399
+    name: Men's Triglavian Survival Suit (Proving Grounds)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1236,6 +1254,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Proven Kybernaut' Combat Suit:
+    gender: 2
+    id: 55856
+    marketGroup: 1405
+    name: Women's 'Proven Kybernaut' Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'Rocket' Dress (black):
     gender: 3
@@ -1976,6 +2003,15 @@ types:
     id: 48382
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Perun)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Triglavian Survival Suit (Proving Grounds):
+    gender: 2
+    id: 55855
+    marketGroup: 1405
+    name: Women's Triglavian Survival Suit (Proving Grounds)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
