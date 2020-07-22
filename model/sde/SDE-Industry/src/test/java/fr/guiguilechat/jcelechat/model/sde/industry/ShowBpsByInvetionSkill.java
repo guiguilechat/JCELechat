@@ -6,7 +6,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.Activity;
+import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 
 public class ShowBpsByInvetionSkill {
 
@@ -16,8 +18,8 @@ public class ShowBpsByInvetionSkill {
 			String bpName = blueprint.name();
 			if (blueprint.invention != null) {
 				Activity act = blueprint.invention;
-				for (Entry<String, Integer> e : act.skills.entrySet()) {
-					String skillName = e.getKey();
+				for (Entry<TypeRef<Skill>, Integer> e : act.skills.entrySet()) {
+					String skillName = e.getKey().name();
 					Integer skillLvl = e.getValue();
 					Map<Integer, List<String>> level2bps = skillName2level2bps.get(skillName);
 					if (level2bps == null) {

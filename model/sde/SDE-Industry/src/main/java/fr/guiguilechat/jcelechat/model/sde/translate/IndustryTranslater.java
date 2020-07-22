@@ -32,6 +32,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
+import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.guiguilechat.jcelechat.model.sde.types.decryptors.GenericDecryptor;
 
 public class IndustryTranslater {
@@ -182,7 +183,9 @@ public class IndustryTranslater {
 				logger.debug("missing skill " + s.typeID);
 				skip[0] = true;
 			} else {
-				ret.skills.put(skill.name, s.level);
+				TypeRef<Skill> ref = new TypeRef<>();
+				ref.id = skill.id;
+				ret.skills.put(ref, s.level);
 			}
 		});
 		if (skip[0]) {

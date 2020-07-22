@@ -12,7 +12,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
-import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.types.Skill;
@@ -152,8 +151,8 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 		}
 		int skillsProbaPoints_base120 = 0;
 
-		for (String skillName : target.invention.skills.keySet()) {
-			Skill sk = (Skill) TypeIndex.getType(skillName);
+		for (TypeRef<Skill> skillRef : target.invention.skills.keySet()) {
+			Skill sk = skillRef.type();
 			int skillMult = inventionProbaIncr_base120(sk);
 			if (skillMult != 0) {
 				skillsProbaPoints_base120 += skillMult * skills.getOrDefault(sk.id, 0);

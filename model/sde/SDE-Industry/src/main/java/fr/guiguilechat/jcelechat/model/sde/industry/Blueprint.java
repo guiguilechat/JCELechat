@@ -14,6 +14,7 @@ import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeRef;
+import fr.guiguilechat.jcelechat.model.sde.types.Skill;
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
 
@@ -106,7 +107,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	public static class Activity {
 		public ArrayList<MaterialReq> materials = new ArrayList<>();
 		public ArrayList<MaterialProd> products = new ArrayList<>();
-		public LinkedHashMap<String, Integer> skills = new LinkedHashMap<>();
+		public LinkedHashMap<TypeRef<Skill>, Integer> skills = new LinkedHashMap<>();
 		/**
 		 * time in seconds to execute one run of that activity.
 		 */
@@ -224,8 +225,8 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 				// bx-804 reduces by 4%
 				* 0.96;
 		// all engineering and physics skills have a 5% te bonus
-		for (String s : manufacturing.skills.keySet()) {
-			if (s.contains("Engineering") || s.contains("Physics")) {
+		for (TypeRef<Skill> s : manufacturing.skills.keySet()) {
+			if (s.name().contains("Engineering") || s.name().contains("Physics")) {
 				temult *= 0.95;
 			}
 		}
