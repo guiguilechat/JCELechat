@@ -181,8 +181,9 @@ public class LocationsTranslater {
 		}
 		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation> e : region.constellations
 				.entrySet()) {
-			r.constellations.add(e.getKey());
-			addConstellation(e.getKey(), e.getValue(), regionName, constellations, systems, stations, rtype);
+			Constellation constel = addConstellation(e.getKey(), e.getValue(), regionName, constellations, systems, stations,
+					rtype);
+			r.constellations.add(constel.name);
 		}
 		r.isKS = rtype == REGION_TYPE.KS;
 		r.name = regionName;
@@ -199,12 +200,12 @@ public class LocationsTranslater {
 		constellations.put(constelName, c);
 		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem> e : constellation.systems
 				.entrySet()) {
-			c.systems.add(e.getKey());
 			SolarSystem sys = addSystem(e.getKey(), e.getValue(), constelName, regionName, systems, stations, rtype);
 			c.hasBorder |= sys.isBorder;
 			c.hasCorridor |= sys.isCorridor;
 			c.hasFringe |= sys.isFringe;
 			c.hasHub |= sys.isHub;
+			c.systems.add(sys.name);
 		}
 		c.name = constelName;
 		c.id = constellation.constellationID;

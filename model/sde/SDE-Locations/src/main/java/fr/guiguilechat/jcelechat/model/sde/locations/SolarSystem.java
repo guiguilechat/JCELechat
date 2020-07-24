@@ -8,12 +8,16 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
 
 public class SolarSystem extends ALocation {
+
+	private static final Logger logger = LoggerFactory.getLogger(SolarSystem.class);
 
 	// loading
 
@@ -73,18 +77,21 @@ public class SolarSystem extends ALocation {
 			return null;
 		}
 		SolarSystem ret = load().get(name);
-		if (ret != null) {
-			return ret;
-		}
-		name = name.toLowerCase();
-		if (lowerCased == null) {
-			synchronized (cache) {
-				if (lowerCased == null) {
-					lowerCased = cache.keySet().stream().collect(Collectors.toMap(String::toLowerCase, s -> s));
+		if (ret == null) {
+			name = name.toLowerCase();
+			if (lowerCased == null) {
+				synchronized (cache) {
+					if (lowerCased == null) {
+						lowerCased = cache.keySet().stream().collect(Collectors.toMap(String::toLowerCase, s -> s));
+					}
 				}
 			}
+			ret = cache.get(lowerCased.get(name));
 		}
-		return cache.get(lowerCased.get(name));
+		if (ret == null) {
+			logger.warn("can't load system for name " + name);
+		}
+		return ret;
 	}
 
 	public static SolarSystem getSystem(int id) {

@@ -823,7 +823,7 @@ locations:
     - Subi
     - Oraron
     - Anares
-    - SanMatar
+    - San Matar
     - Kalangin
     - Bedaleya
     - Sazdih
@@ -974,7 +974,7 @@ locations:
     - Fua
     - Hoosa
     - Kekah
-    - ThroneWorlds
+    - Throne Worlds
     - Mofa
     - Parud
     - Nakid
@@ -2724,7 +2724,7 @@ locations:
     - Agiesseson
     - Aeman
     - Lolbrerie
-    - GallenteBorderZone
+    - Gallente Border Zone
     id: 10000032
     isKS: true
     isWormhole: false
@@ -3071,7 +3071,7 @@ locations:
     - Imurukka
     - Uusasai
     - Outartoh
-    - CaldariBorderZone
+    - Caldari Border Zone
     id: 10000033
     isKS: true
     isWormhole: false

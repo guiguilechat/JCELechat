@@ -4003,8 +4003,8 @@ locations:
     - Shastal
     - Naeel
     - Thakala
-    - LowerDebyl
-    - UpperDebyl
+    - Lower Debyl
+    - Upper Debyl
     - Ehnoum
   Aeman:
     adjacentConstellations:
@@ -4993,7 +4993,7 @@ locations:
     name: Arvachah
     systems:
     - Pasha
-    - Tash-MurkonPrime
+    - Tash-Murkon Prime
     - Baviasi
     - Shesha
     - Emrayur
@@ -10551,7 +10551,7 @@ locations:
     - Decon
     - Aufay
     - Metserel
-    - DuAnnes
+    - Du Annes
     - Sharuveil
     - Adreland
   E-312G:
@@ -12210,10 +12210,10 @@ locations:
     isWormhole: false
     name: EVE
     systems:
-    - NewEden
-    - PromisedLand
-    - CentralPoint
-    - DeadEnd
+    - New Eden
+    - Promised Land
+    - Central Point
+    - Dead End
     - Exit
     - Gateway
     - Canard
@@ -13354,7 +13354,7 @@ locations:
     systems:
     - Khafis
     - Askonak
-    - KadorPrime
+    - Kador Prime
     - Dantan
     - Nordar
     - Uanim
@@ -13998,7 +13998,7 @@ locations:
     - Amdonen
     - Nakregde
     - Nishah
-    - Kor-AzorPrime
+    - Kor-Azor Prime
     - Mora
     - Conoban
     - Masanuh
@@ -16444,7 +16444,7 @@ locations:
     systems:
     - Maurasi
     - Jita
-    - NewCaldari
+    - New Caldari
     - Urlen
     - Kisogo
     - Perimeter
@@ -17328,7 +17328,7 @@ locations:
     - Bagodan
     - Hanan
     - Hama
-    - SarumPrime
+    - Sarum Prime
     - Alkabsi
     - Irnal
     - Murzi
@@ -18941,7 +18941,7 @@ locations:
     systems:
     - Bukah
     - Neyi
-    - KhanidPrime
+    - Khanid Prime
     - Kihtaled
     - Ipref
     - Jachanu
@@ -20570,7 +20570,7 @@ locations:
     isWormhole: false
     name: Phoenix
     systems:
-    - SerpentisPrime
+    - Serpentis Prime
     - A-1CON
     - WY-9LL
     - MN5N-X
@@ -22387,7 +22387,7 @@ locations:
     - Rasile
     - Nifshed
     - Dakba
-    - ArdishapurPrime
+    - Ardishapur Prime
     - Nererut
   Sound:
     adjacentConstellations:
@@ -24531,7 +24531,7 @@ locations:
     - Parts
     - Allamotte
     - Arant
-    - OldManStar
+    - Old Man Star
     - Obalyu
     - Villore
     - Vifrevaert

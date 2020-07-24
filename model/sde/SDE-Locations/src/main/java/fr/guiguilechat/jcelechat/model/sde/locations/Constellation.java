@@ -84,18 +84,21 @@ public class Constellation extends ALocation {
 			return null;
 		}
 		Constellation ret = load().get(name);
-		if (ret != null) {
-			return ret;
-		}
-		name = name.toLowerCase();
-		if (lowerCased == null) {
-			synchronized (cache) {
-				if (lowerCased == null) {
-					lowerCased = cache.keySet().stream().collect(Collectors.toMap(String::toLowerCase, s -> s));
+		if (ret == null) {
+			name = name.toLowerCase();
+			if (lowerCased == null) {
+				synchronized (cache) {
+					if (lowerCased == null) {
+						lowerCased = cache.keySet().stream().collect(Collectors.toMap(String::toLowerCase, s -> s));
+					}
 				}
 			}
+			ret = cache.get(lowerCased.get(name));
 		}
-		return cache.get(lowerCased.get(name));
+		if (ret == null) {
+			logger.warn("can't load constel for name " + name);
+		}
+		return ret;
 	}
 
 	// structure

@@ -10,12 +10,16 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
 
 public class Region extends ALocation {
+
+	private static final Logger logger = LoggerFactory.getLogger(Region.class);
 
 	// loading/dumping
 
@@ -89,18 +93,21 @@ public class Region extends ALocation {
 			return null;
 		}
 		Region ret = load().get(name);
-		if (ret != null) {
-			return ret;
-		}
-		name = name.toLowerCase();
-		if (lowerCased == null) {
-			synchronized (cache) {
-				if (lowerCased == null) {
-					lowerCased = cache.keySet().stream().collect(Collectors.toMap(String::toLowerCase, s -> s));
+		if (ret == null) {
+			name = name.toLowerCase();
+			if (lowerCased == null) {
+				synchronized (cache) {
+					if (lowerCased == null) {
+						lowerCased = cache.keySet().stream().collect(Collectors.toMap(String::toLowerCase, s -> s));
+					}
 				}
 			}
+			ret = cache.get(lowerCased.get(name));
 		}
-		return cache.get(lowerCased.get(name));
+		if (ret == null) {
+			logger.warn("can't load region for name " + name);
+		}
+		return ret;
 	}
 
 	// structure
@@ -109,7 +116,7 @@ public class Region extends ALocation {
 
 	/** stream the systems names in a region */
 	public Stream<String> systems() {
-		return constellations.stream().map(Constellation.load()::get).flatMap(c -> c.systems.stream());
+		return constellations.stream().map(Constellation::getConstellation).flatMap(c -> c.systems.stream());
 	}
 
 }
