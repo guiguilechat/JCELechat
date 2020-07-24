@@ -10857,9 +10857,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Ardene
-  ArdishapurPrime_60007693:
+  Ardishapur Prime_60007693:
     id: 60007693
-    name: ArdishapurPrime_60007693
+    name: Ardishapur Prime_60007693
     services:
     - Courier Missions
     - Docking
@@ -10870,10 +10870,10 @@ locations:
     - News
     - Office Rental
     - Reprocessing Plant
-    solarSystem: ArdishapurPrime
-  ArdishapurPrime_60008722:
+    solarSystem: Ardishapur Prime
+  Ardishapur Prime_60008722:
     id: 60008722
-    name: ArdishapurPrime_60008722
+    name: Ardishapur Prime_60008722
     services:
     - Bounty Missions
     - Cloning
@@ -10890,7 +10890,7 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: ArdishapurPrime
+    solarSystem: Ardishapur Prime
   Arera_60005473:
     id: 60005473
     name: Arera_60005473
@@ -47812,9 +47812,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Kaaputenen
-  KadorPrime_60001168:
+  Kador Prime_60001168:
     id: 60001168
-    name: KadorPrime_60001168
+    name: Kador Prime_60001168
     services:
     - Black Market
     - Bounty Missions
@@ -47840,10 +47840,10 @@ locations:
     - Stock Exchange
     - Storage
     - Surgery
-    solarSystem: KadorPrime
-  KadorPrime_60006946:
+    solarSystem: Kador Prime
+  Kador Prime_60006946:
     id: 60006946
-    name: KadorPrime_60006946
+    name: Kador Prime_60006946
     services:
     - Bounty Missions
     - Cloning
@@ -47860,10 +47860,10 @@ locations:
     - Office Rental
     - Reprocessing Plant
     - Surgery
-    solarSystem: KadorPrime
-  KadorPrime_60008614:
+    solarSystem: Kador Prime
+  Kador Prime_60008614:
     id: 60008614
-    name: KadorPrime_60008614
+    name: Kador Prime_60008614
     services:
     - Bounty Missions
     - Cloning
@@ -47880,10 +47880,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: KadorPrime
-  KadorPrime_60008620:
+    solarSystem: Kador Prime
+  Kador Prime_60008620:
     id: 60008620
-    name: KadorPrime_60008620
+    name: Kador Prime_60008620
     services:
     - Bounty Missions
     - Cloning
@@ -47900,10 +47900,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: KadorPrime
-  KadorPrime_60009142:
+    solarSystem: Kador Prime
+  Kador Prime_60009142:
     id: 60009142
-    name: KadorPrime_60009142
+    name: Kador Prime_60009142
     services:
     - Courier Missions
     - Docking
@@ -47917,10 +47917,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Storage
-    solarSystem: KadorPrime
-  KadorPrime_60009145:
+    solarSystem: Kador Prime
+  Kador Prime_60009145:
     id: 60009145
-    name: KadorPrime_60009145
+    name: Kador Prime_60009145
     services:
     - Courier Missions
     - Docking
@@ -47934,10 +47934,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Storage
-    solarSystem: KadorPrime
-  KadorPrime_60009151:
+    solarSystem: Kador Prime
+  Kador Prime_60009151:
     id: 60009151
-    name: KadorPrime_60009151
+    name: Kador Prime_60009151
     services:
     - Courier Missions
     - Docking
@@ -47951,10 +47951,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Storage
-    solarSystem: KadorPrime
-  KadorPrime_60009157:
+    solarSystem: Kador Prime
+  Kador Prime_60009157:
     id: 60009157
-    name: KadorPrime_60009157
+    name: Kador Prime_60009157
     services:
     - Courier Missions
     - Docking
@@ -47968,7 +47968,7 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Storage
-    solarSystem: KadorPrime
+    solarSystem: Kador Prime
   Kahah_60013837:
     id: 60013837
     name: Kahah_60013837
@@ -49562,9 +49562,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Khafis
-  KhanidPrime_60013825:
+  Khanid Prime_60013825:
     id: 60013825
-    name: KhanidPrime_60013825
+    name: Khanid Prime_60013825
     services:
     - Black Market
     - Bounty Missions
@@ -49590,10 +49590,10 @@ locations:
     - Stock Exchange
     - Storage
     - Surgery
-    solarSystem: KhanidPrime
-  KhanidPrime_60013828:
+    solarSystem: Khanid Prime
+  Khanid Prime_60013828:
     id: 60013828
-    name: KhanidPrime_60013828
+    name: Khanid Prime_60013828
     services:
     - Courier Missions
     - Docking
@@ -49607,10 +49607,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Storage
-    solarSystem: KhanidPrime
-  KhanidPrime_60013858:
+    solarSystem: Khanid Prime
+  Khanid Prime_60013858:
     id: 60013858
-    name: KhanidPrime_60013858
+    name: Khanid Prime_60013858
     services:
     - Bounty Missions
     - Courier Missions
@@ -49627,7 +49627,7 @@ locations:
     - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    solarSystem: KhanidPrime
+    solarSystem: Khanid Prime
   Khankenirdia_60012529:
     id: 60012529
     name: Khankenirdia_60012529
@@ -51180,9 +51180,9 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Koona
-  Kor-AzorPrime_60002209:
+  Kor-Azor Prime_60002209:
     id: 60002209
-    name: Kor-AzorPrime_60002209
+    name: Kor-Azor Prime_60002209
     services:
     - Black Market
     - Bounty Missions
@@ -51208,10 +51208,10 @@ locations:
     - Stock Exchange
     - Storage
     - Surgery
-    solarSystem: Kor-AzorPrime
-  Kor-AzorPrime_60002212:
+    solarSystem: Kor-Azor Prime
+  Kor-Azor Prime_60002212:
     id: 60002212
-    name: Kor-AzorPrime_60002212
+    name: Kor-Azor Prime_60002212
     services:
     - Black Market
     - Bounty Missions
@@ -51237,10 +51237,10 @@ locations:
     - Stock Exchange
     - Storage
     - Surgery
-    solarSystem: Kor-AzorPrime
-  Kor-AzorPrime_60007246:
+    solarSystem: Kor-Azor Prime
+  Kor-Azor Prime_60007246:
     id: 60007246
-    name: Kor-AzorPrime_60007246
+    name: Kor-Azor Prime_60007246
     services:
     - Courier Missions
     - Docking
@@ -51251,10 +51251,10 @@ locations:
     - News
     - Office Rental
     - Reprocessing Plant
-    solarSystem: Kor-AzorPrime
-  Kor-AzorPrime_60007819:
+    solarSystem: Kor-Azor Prime
+  Kor-Azor Prime_60007819:
     id: 60007819
-    name: Kor-AzorPrime_60007819
+    name: Kor-Azor Prime_60007819
     services:
     - Bounty Missions
     - Cloning
@@ -51270,10 +51270,10 @@ locations:
     - Office Rental
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: Kor-AzorPrime
-  Kor-AzorPrime_60008686:
+    solarSystem: Kor-Azor Prime
+  Kor-Azor Prime_60008686:
     id: 60008686
-    name: Kor-AzorPrime_60008686
+    name: Kor-Azor Prime_60008686
     services:
     - Bounty Missions
     - Cloning
@@ -51290,10 +51290,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: Kor-AzorPrime
-  Kor-AzorPrime_60008692:
+    solarSystem: Kor-Azor Prime
+  Kor-Azor Prime_60008692:
     id: 60008692
-    name: Kor-AzorPrime_60008692
+    name: Kor-Azor Prime_60008692
     services:
     - Bounty Missions
     - Cloning
@@ -51310,7 +51310,7 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: Kor-AzorPrime
+    solarSystem: Kor-Azor Prime
   Korama_60000766:
     id: 60000766
     name: Korama_60000766
@@ -54548,9 +54548,9 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Lour
-  LowerDebyl_60002509:
+  Lower Debyl_60002509:
     id: 60002509
-    name: LowerDebyl_60002509
+    name: Lower Debyl_60002509
     services:
     - Bounty Missions
     - Cloning
@@ -54570,10 +54570,10 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     - Surgery
-    solarSystem: LowerDebyl
-  LowerDebyl_60010744:
+    solarSystem: Lower Debyl
+  Lower Debyl_60010744:
     id: 60010744
-    name: LowerDebyl_60010744
+    name: Lower Debyl_60010744
     services:
     - Black Market
     - Bounty Missions
@@ -54599,10 +54599,10 @@ locations:
     - Stock Exchange
     - Storage
     - Surgery
-    solarSystem: LowerDebyl
-  LowerDebyl_60010747:
+    solarSystem: Lower Debyl
+  Lower Debyl_60010747:
     id: 60010747
-    name: LowerDebyl_60010747
+    name: Lower Debyl_60010747
     services:
     - Black Market
     - Bounty Missions
@@ -54628,7 +54628,7 @@ locations:
     - Stock Exchange
     - Storage
     - Surgery
-    solarSystem: LowerDebyl
+    solarSystem: Lower Debyl
   Lulm_60010075:
     id: 60010075
     name: Lulm_60010075
@@ -61919,9 +61919,9 @@ locations:
     - Storage
     - Surgery
     solarSystem: Netsalakka
-  NewCaldari_60000682:
+  New Caldari_60000682:
     id: 60000682
-    name: NewCaldari_60000682
+    name: New Caldari_60000682
     services:
     - Bounty Missions
     - Courier Missions
@@ -61936,10 +61936,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Storage
-    solarSystem: NewCaldari
-  NewCaldari_60000688:
+    solarSystem: New Caldari
+  New Caldari_60000688:
     id: 60000688
-    name: NewCaldari_60000688
+    name: New Caldari_60000688
     services:
     - Bounty Missions
     - Courier Missions
@@ -61954,10 +61954,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Storage
-    solarSystem: NewCaldari
-  NewCaldari_60003334:
+    solarSystem: New Caldari
+  New Caldari_60003334:
     id: 60003334
-    name: NewCaldari_60003334
+    name: New Caldari_60003334
     services:
     - Bounty Missions
     - Cloning
@@ -61974,10 +61974,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: NewCaldari
-  NewCaldari_60003724:
+    solarSystem: New Caldari
+  New Caldari_60003724:
     id: 60003724
-    name: NewCaldari_60003724
+    name: New Caldari_60003724
     services:
     - Bounty Missions
     - Courier Missions
@@ -61991,10 +61991,10 @@ locations:
     - Office Rental
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: NewCaldari
-  NewCaldari_60014935:
+    solarSystem: New Caldari
+  New Caldari_60014935:
     id: 60014935
-    name: NewCaldari_60014935
+    name: New Caldari_60014935
     services:
     - Bounty Missions
     - Courier Missions
@@ -62009,7 +62009,7 @@ locations:
     - Office Rental
     - Repair Facilities
     - Reprocessing Plant
-    solarSystem: NewCaldari
+    solarSystem: New Caldari
   Ney_60000022:
     id: 60000022
     name: Ney_60000022
@@ -65246,9 +65246,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Olbra
-  OldManStar_60009937:
+  Old Man Star_60009937:
     id: 60009937
-    name: OldManStar_60009937
+    name: Old Man Star_60009937
     services:
     - Bounty Missions
     - Courier Missions
@@ -65262,10 +65262,10 @@ locations:
     - Office Rental
     - Repair Facilities
     - Reprocessing Plant
-    solarSystem: OldManStar
-  OldManStar_60011605:
+    solarSystem: Old Man Star
+  Old Man Star_60011605:
     id: 60011605
-    name: OldManStar_60011605
+    name: Old Man Star_60011605
     services:
     - Bounty Missions
     - Cloning
@@ -65282,7 +65282,7 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: OldManStar
+    solarSystem: Old Man Star
   Olelon_60015015:
     id: 60015015
     name: Olelon_60015015
@@ -77770,9 +77770,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Sarline
-  SarumPrime_60008650:
+  Sarum Prime_60008650:
     id: 60008650
-    name: SarumPrime_60008650
+    name: Sarum Prime_60008650
     services:
     - Bounty Missions
     - Courier Missions
@@ -77787,10 +77787,10 @@ locations:
     - Office Rental
     - Repair Facilities
     - Reprocessing Plant
-    solarSystem: SarumPrime
-  SarumPrime_60014632:
+    solarSystem: Sarum Prime
+  Sarum Prime_60014632:
     id: 60014632
-    name: SarumPrime_60014632
+    name: Sarum Prime_60014632
     services:
     - Bounty Missions
     - Cloning
@@ -77806,7 +77806,7 @@ locations:
     - Office Rental
     - Repair Facilities
     - Reprocessing Plant
-    solarSystem: SarumPrime
+    solarSystem: Sarum Prime
   Sasiekko_60006205:
     id: 60006205
     name: Sasiekko_60006205
@@ -78630,9 +78630,9 @@ locations:
     - Reprocessing Plant
     - Surgery
     solarSystem: Serad
-  SerpentisPrime_60012247:
+  Serpentis Prime_60012247:
     id: 60012247
-    name: SerpentisPrime_60012247
+    name: Serpentis Prime_60012247
     services:
     - Bounty Missions
     - Courier Missions
@@ -78648,10 +78648,10 @@ locations:
     - Office Rental
     - Repair Facilities
     - Reprocessing Plant
-    solarSystem: SerpentisPrime
-  SerpentisPrime_60012859:
+    solarSystem: Serpentis Prime
+  Serpentis Prime_60012859:
     id: 60012859
-    name: SerpentisPrime_60012859
+    name: Serpentis Prime_60012859
     services:
     - Bounty Missions
     - Courier Missions
@@ -78668,10 +78668,10 @@ locations:
     - Refinery
     - Repair Facilities
     - Reprocessing Plant
-    solarSystem: SerpentisPrime
-  SerpentisPrime_60013993:
+    solarSystem: Serpentis Prime
+  Serpentis Prime_60013993:
     id: 60013993
-    name: SerpentisPrime_60013993
+    name: Serpentis Prime_60013993
     services:
     - Bounty Missions
     - Cloning
@@ -78688,7 +78688,7 @@ locations:
     - Office Rental
     - Reprocessing Plant
     - Surgery
-    solarSystem: SerpentisPrime
+    solarSystem: Serpentis Prime
   Serren_60007885:
     id: 60007885
     name: Serren_60007885
@@ -84736,9 +84736,9 @@ locations:
     - Reprocessing Plant
     - Surgery
     solarSystem: Tasabeshi
-  Tash-MurkonPrime_60001096:
+  Tash-Murkon Prime_60001096:
     id: 60001096
-    name: Tash-MurkonPrime_60001096
+    name: Tash-Murkon Prime_60001096
     services:
     - Black Market
     - Bounty Missions
@@ -84764,10 +84764,10 @@ locations:
     - Stock Exchange
     - Storage
     - Surgery
-    solarSystem: Tash-MurkonPrime
-  Tash-MurkonPrime_60002485:
+    solarSystem: Tash-Murkon Prime
+  Tash-Murkon Prime_60002485:
     id: 60002485
-    name: Tash-MurkonPrime_60002485
+    name: Tash-Murkon Prime_60002485
     services:
     - Bounty Missions
     - Cloning
@@ -84787,10 +84787,10 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     - Surgery
-    solarSystem: Tash-MurkonPrime
-  Tash-MurkonPrime_60002491:
+    solarSystem: Tash-Murkon Prime
+  Tash-Murkon Prime_60002491:
     id: 60002491
-    name: Tash-MurkonPrime_60002491
+    name: Tash-Murkon Prime_60002491
     services:
     - Bounty Missions
     - Cloning
@@ -84810,10 +84810,10 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     - Surgery
-    solarSystem: Tash-MurkonPrime
-  Tash-MurkonPrime_60002497:
+    solarSystem: Tash-Murkon Prime
+  Tash-Murkon Prime_60002497:
     id: 60002497
-    name: Tash-MurkonPrime_60002497
+    name: Tash-Murkon Prime_60002497
     services:
     - Bounty Missions
     - Courier Missions
@@ -84827,10 +84827,10 @@ locations:
     - Office Rental
     - Repair Facilities
     - Reprocessing Plant
-    solarSystem: Tash-MurkonPrime
-  Tash-MurkonPrime_60006154:
+    solarSystem: Tash-Murkon Prime
+  Tash-Murkon Prime_60006154:
     id: 60006154
-    name: Tash-MurkonPrime_60006154
+    name: Tash-Murkon Prime_60006154
     services:
     - Bounty Missions
     - Courier Missions
@@ -84846,10 +84846,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Storage
-    solarSystem: Tash-MurkonPrime
-  Tash-MurkonPrime_60008758:
+    solarSystem: Tash-Murkon Prime
+  Tash-Murkon Prime_60008758:
     id: 60008758
-    name: Tash-MurkonPrime_60008758
+    name: Tash-Murkon Prime_60008758
     services:
     - Bounty Missions
     - Cloning
@@ -84866,10 +84866,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: Tash-MurkonPrime
-  Tash-MurkonPrime_60008764:
+    solarSystem: Tash-Murkon Prime
+  Tash-Murkon Prime_60008764:
     id: 60008764
-    name: Tash-MurkonPrime_60008764
+    name: Tash-Murkon Prime_60008764
     services:
     - Bounty Missions
     - Cloning
@@ -84886,10 +84886,10 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     - Stock Exchange
-    solarSystem: Tash-MurkonPrime
-  Tash-MurkonPrime_60012985:
+    solarSystem: Tash-Murkon Prime
+  Tash-Murkon Prime_60012985:
     id: 60012985
-    name: Tash-MurkonPrime_60012985
+    name: Tash-Murkon Prime_60012985
     services:
     - Bounty Missions
     - Courier Missions
@@ -84904,7 +84904,7 @@ locations:
     - Office Rental
     - Repair Facilities
     - Reprocessing Plant
-    solarSystem: Tash-MurkonPrime
+    solarSystem: Tash-Murkon Prime
   Tasti_60001621:
     id: 60001621
     name: Tasti_60001621

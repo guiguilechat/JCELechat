@@ -49,7 +49,7 @@ locations:
     - 0YMH-Q
     - ENP-SH
     adjacentRegions:
-    - GreatWildlands
+    - Great Wildlands
     - Insmother
     adjacentSystems:
     - PUZ-IO
@@ -208,7 +208,7 @@ locations:
     - LN-L8L
     - Prelle
     adjacentRegions:
-    - CloudRing
+    - Cloud Ring
     adjacentSystems:
     - RORZ-H
     - Z-Y7R7
@@ -268,7 +268,7 @@ locations:
     - WQZ8-4
     - 0YMH-Q
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - 1V-LI2
     - 0UBC-R
@@ -374,7 +374,7 @@ locations:
     - 9BGY-6
     - CZ-06R
     adjacentRegions:
-    - PerrigenFalls
+    - Perrigen Falls
     adjacentSystems:
     - UGR-J2
     - 5T-A3D
@@ -419,8 +419,8 @@ locations:
     - QA-P7J
     - N-LY4R
     adjacentRegions:
-    - EtheriumReach
-    - ScaldingPass
+    - Etherium Reach
+    - Scalding Pass
     adjacentSystems:
     - G-QTSD
     - 6-EQYE
@@ -615,7 +615,7 @@ locations:
     - PX0-P4
     adjacentRegions:
     - Oasa
-    - PerrigenFalls
+    - Perrigen Falls
     adjacentSystems:
     - QB-AE6
     - AY9X-Q
@@ -695,8 +695,8 @@ locations:
     - Eoldulf
     - HRJG-D
     adjacentRegions:
-    - MoldenHeath
-    - GreatWildlands
+    - Molden Heath
+    - Great Wildlands
     adjacentSystems:
     - QBZO-R
     - LXQ2-T
@@ -727,7 +727,7 @@ locations:
     - Ancbeu
     - DS-M4Q
     adjacentRegions:
-    - VergeVendor
+    - Verge Vendor
     adjacentSystems:
     - 97X-CH
     - VV-VCR
@@ -757,7 +757,7 @@ locations:
     - N4TD-6
     - 0HD-6C
     adjacentRegions:
-    - CobaltEdge
+    - Cobalt Edge
     - Venal
     adjacentSystems:
     - RKE-CP
@@ -832,7 +832,7 @@ locations:
     - NOB-HD
     - NPL-WH
     adjacentRegions:
-    - TheSpire
+    - The Spire
     adjacentSystems:
     - ZWM-BB
     - GA58-7
@@ -859,7 +859,7 @@ locations:
     - U-HSM3
     - M9-AN3
     adjacentRegions:
-    - EtheriumReach
+    - Etherium Reach
     - Malpais
     adjacentSystems:
     - J7M-3W
@@ -1129,7 +1129,7 @@ locations:
     - 5Y1E-3
     - 760-9C
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - GGE-5Q
     - OAQY-M
@@ -1206,7 +1206,7 @@ locations:
     - F-W6B4
     - LWMW-6
     adjacentRegions:
-    - PerrigenFalls
+    - Perrigen Falls
     adjacentSystems:
     - 1-HDQ4
     - XY-ZCI
@@ -1233,7 +1233,7 @@ locations:
     - UL8-RD
     - GDBW-2
     adjacentRegions:
-    - PerrigenFalls
+    - Perrigen Falls
     adjacentSystems:
     - N6NK-J
     - B-B0ME
@@ -1404,7 +1404,7 @@ locations:
     - Z-6NQ6
     - GN-ACS
     adjacentRegions:
-    - CloudRing
+    - Cloud Ring
     adjacentSystems:
     - 1-3HWZ
     - X-M2LR
@@ -1505,7 +1505,7 @@ locations:
     - PG-RWX
     - M9-AN3
     adjacentRegions:
-    - TheKalevalaExpanse
+    - The Kalevala Expanse
     adjacentSystems:
     - KGT3-6
     - KMH-J1
@@ -1584,7 +1584,7 @@ locations:
     - PFL-QY
     - O5PO-O
     adjacentRegions:
-    - PerrigenFalls
+    - Perrigen Falls
     adjacentSystems:
     - 1-EVAX
     - 13-49W
@@ -1641,7 +1641,7 @@ locations:
     - 51ZT-6
     - 7VJ-7M
     adjacentRegions:
-    - GreatWildlands
+    - Great Wildlands
     adjacentSystems:
     - RNM-Y6
     - XV-MWG
@@ -1751,7 +1751,7 @@ locations:
     - YCM-AI
     adjacentRegions:
     - Curse
-    - WickedCreek
+    - Wicked Creek
     adjacentSystems:
     - GN-PDU
     - 9PX2-F
@@ -1790,7 +1790,7 @@ locations:
     - 5YHF-H
     adjacentRegions:
     - Venal
-    - ValeoftheSilent
+    - Vale of the Silent
     adjacentSystems:
     - H-W9TY
     - 3A1P-N
@@ -1845,7 +1845,7 @@ locations:
     - PR-ACX
     adjacentRegions:
     - Insmother
-    - WickedCreek
+    - Wicked Creek
     adjacentSystems:
     - SHBF-V
     - WU-FHQ
@@ -1874,8 +1874,8 @@ locations:
     - BVA-YH
     - I3-2J0
     adjacentRegions:
-    - TheSpire
-    - GreatWildlands
+    - The Spire
+    - Great Wildlands
     adjacentSystems:
     - K-RMI5
     - JNG7-K
@@ -1978,7 +1978,7 @@ locations:
     - DITJ-X
     - 3GK-WS
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - B-1UJC
     - UM-SCG
@@ -2071,7 +2071,7 @@ locations:
     - CN5-F2
     - 51ZT-6
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - L-Z9KJ
     - 4-43BW
@@ -2098,7 +2098,7 @@ locations:
     - S4S-SD
     - 9KX-M0
     adjacentRegions:
-    - ValeoftheSilent
+    - Vale of the Silent
     adjacentSystems:
     - FB5U-I
     - L-GY1B
@@ -2147,7 +2147,7 @@ locations:
     adjacentConstellations:
     - Crown
     adjacentRegions:
-    - OuterRing
+    - Outer Ring
     adjacentSystems:
     - P-NUWP
     hasBorder: true
@@ -2171,7 +2171,7 @@ locations:
     - B-D245
     - MRC-29
     adjacentRegions:
-    - PerrigenFalls
+    - Perrigen Falls
     - Cache
     adjacentSystems:
     - PFV-ZH
@@ -2439,7 +2439,7 @@ locations:
     - 2O-VY7
     - 1M4-FN
     adjacentRegions:
-    - TheKalevalaExpanse
+    - The Kalevala Expanse
     adjacentSystems:
     - QZX-L9
     - 13-49W
@@ -2486,7 +2486,7 @@ locations:
     - UWRZ-2
     - Assilot
     adjacentRegions:
-    - CloudRing
+    - Cloud Ring
     adjacentSystems:
     - X36Y-G
     - 6RCQ-V
@@ -2539,7 +2539,7 @@ locations:
     - AC-RON
     adjacentRegions:
     - Cache
-    - WickedCreek
+    - Wicked Creek
     adjacentSystems:
     - XQP-9C
     - C8H5-X
@@ -2636,8 +2636,8 @@ locations:
     - Mivora
     - 1VN-XC
     adjacentRegions:
-    - TheKalevalaExpanse
-    - TheForge
+    - The Kalevala Expanse
+    - The Forge
     adjacentSystems:
     - FZX-PU
     - 89JS-J
@@ -2927,7 +2927,7 @@ locations:
     - E-8CSQ
     adjacentRegions:
     - Geminate
-    - TheKalevalaExpanse
+    - The Kalevala Expanse
     adjacentSystems:
     - L-TOFR
     - UDVW-O
@@ -4062,7 +4062,7 @@ locations:
   Agiesseson:
     adjacentConstellations:
     - Chasnaye
-    - CaldariBorderZone
+    - Caldari Border Zone
     - Lolbrerie
     - Disier
     - Algintal
@@ -4070,7 +4070,7 @@ locations:
     - Odilis
     adjacentRegions:
     - Everyshore
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Harerget
     - Tennen
@@ -4153,7 +4153,7 @@ locations:
     - Patrie
     adjacentRegions:
     - Essence
-    - TheCitadel
+    - The Citadel
     - Genesis
     adjacentSystems:
     - Attyn
@@ -4183,7 +4183,7 @@ locations:
     - Arvachah
     adjacentSystems:
     - Azhgabid
-    - Tash-MurkonPrime
+    - Tash-Murkon Prime
     - Yanuel
     hasBorder: true
     hasCorridor: true
@@ -4271,7 +4271,7 @@ locations:
     - Barvigrard
     - Evannater
     adjacentRegions:
-    - TheForge
+    - The Forge
     - Heimatar
     adjacentSystems:
     - Akkio
@@ -4455,8 +4455,8 @@ locations:
     - Pegeler
     - Inolari
     adjacentRegions:
-    - BlackRise
-    - CloudRing
+    - Black Rise
+    - Cloud Ring
     adjacentSystems:
     - Odamia
     - Nennamaila
@@ -4700,7 +4700,7 @@ locations:
     - Okomon
     - Onirvura
     adjacentRegions:
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Inaro
     - Urlen
@@ -4872,12 +4872,12 @@ locations:
     - Koichi
     adjacentRegions:
     - Lonetrek
-    - TheForge
+    - The Forge
     adjacentSystems:
     - Isaziwa
     - Vellaine
     - Isanamo
-    - NewCaldari
+    - New Caldari
     - Auviken
     - Paara
     - Tunttaras
@@ -5004,7 +5004,7 @@ locations:
     - YS-GOP
     - Minnen
     adjacentRegions:
-    - PureBlind
+    - Pure Blind
     adjacentSystems:
     - EC-P8R
     - Piak
@@ -6263,7 +6263,7 @@ locations:
     - 6GU-AT
     - J33-JR
     adjacentRegions:
-    - TheSpire
+    - The Spire
     adjacentSystems:
     - QHH-13
     - K-YL9T
@@ -6308,7 +6308,7 @@ locations:
     - TY0-Q2
     - E1L-UY
     adjacentRegions:
-    - TheSpire
+    - The Spire
     adjacentSystems:
     - OTJ9-E
     - 4F9Y-3
@@ -6657,7 +6657,7 @@ locations:
     - Arand
     adjacentRegions:
     - Genesis
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Kemerk
     - Aere
@@ -6690,7 +6690,7 @@ locations:
     - Lorundio
     - Algintal
     adjacentRegions:
-    - SinqLaison
+    - Sinq Laison
     - Heimatar
     adjacentSystems:
     - Dudreda
@@ -8366,7 +8366,7 @@ locations:
     - 5ZR-29
     - 4YFT-F
     adjacentRegions:
-    - WickedCreek
+    - Wicked Creek
     adjacentSystems:
     - OAQY-M
     - G9NE-B
@@ -8393,7 +8393,7 @@ locations:
     - 4ZXC-8
     - 0PS-L5
     adjacentRegions:
-    - CobaltEdge
+    - Cobalt Edge
     adjacentSystems:
     - 5JEZ-I
     - FV-YEA
@@ -8414,7 +8414,7 @@ locations:
     - R8WV-7
     - J-D5U7
     - LQQH-J
-  CaldariBorderZone:
+  Caldari Border Zone:
     adjacentConstellations:
     - Patrie
     - Agiesseson
@@ -8423,7 +8423,7 @@ locations:
     - Thoulde
     adjacentRegions:
     - Essence
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Jolevier
     - Unel
@@ -8438,7 +8438,7 @@ locations:
     id: 20000405
     isKS: true
     isWormhole: false
-    name: CaldariBorderZone
+    name: Caldari Border Zone
     systems:
     - Yashunen
     - Iivinen
@@ -8451,7 +8451,7 @@ locations:
     - Pegasus
     - Yrton
     adjacentRegions:
-    - CloudRing
+    - Cloud Ring
     adjacentSystems:
     - YZS5-4
     - B-DBYQ
@@ -8524,7 +8524,7 @@ locations:
     - Agiesseson
     - Odilis
     adjacentRegions:
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Atlanins
     - Jaschercis
@@ -8673,19 +8673,19 @@ locations:
     - Disier
     - Osnins
     - Jonenor
-    - CaldariBorderZone
+    - Caldari Border Zone
     - Thoulde
     adjacentRegions:
     - Genesis
-    - SinqLaison
+    - Sinq Laison
     - Everyshore
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Pakhshi
     - Pettinck
     - Bereye
     - Trosquesere
-    - DuAnnes
+    - Du Annes
     - Grinacanne
     - Kassigainen
     - Synchelle
@@ -10087,8 +10087,8 @@ locations:
     - S4S-SD
     - VT-LHB
     adjacentRegions:
-    - TheKalevalaExpanse
-    - PerrigenFalls
+    - The Kalevala Expanse
+    - Perrigen Falls
     adjacentSystems:
     - Z0G-XG
     - L-GY1B
@@ -10114,7 +10114,7 @@ locations:
     - L7-RDZ
     - UL8-RD
     adjacentRegions:
-    - PerrigenFalls
+    - Perrigen Falls
     adjacentSystems:
     - PVF-N9
     - AZA-QE
@@ -10201,7 +10201,7 @@ locations:
     - 3D-ROC
     - T-4ACL
     adjacentRegions:
-    - TheSpire
+    - The Spire
     adjacentSystems:
     - 3ET-G8
     - 3VL6-I
@@ -10290,7 +10290,7 @@ locations:
     - 5Y1E-3
     adjacentRegions:
     - Insmother
-    - WickedCreek
+    - Wicked Creek
     adjacentSystems:
     - M9-MLR
     - MSG-BZ
@@ -10319,7 +10319,7 @@ locations:
     - 3GK-WS
     - 760-9C
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     - Insmother
     adjacentSystems:
     - 1V-LI2
@@ -10375,7 +10375,7 @@ locations:
     - HNZF-Z
     - CZ-06R
     adjacentRegions:
-    - CobaltEdge
+    - Cobalt Edge
     adjacentSystems:
     - Y-RAW3
     - R8WV-7
@@ -10484,14 +10484,14 @@ locations:
     - Ichida
     adjacentRegions:
     - Domain
-    - TheBleakLands
+    - The Bleak Lands
     adjacentSystems:
     - Esescama
     - Shastal
     - Mendori
     - Naeel
-    - LowerDebyl
-    - UpperDebyl
+    - Lower Debyl
+    - Upper Debyl
     - Yuhelia
     - Jarkkolen
     hasBorder: true
@@ -11898,7 +11898,7 @@ locations:
     - 9D1V-O
     - IZ-FBT
     adjacentRegions:
-    - ParagonSoul
+    - Paragon Soul
     adjacentSystems:
     - P9F-ZG
     - 450I-W
@@ -11931,7 +11931,7 @@ locations:
     - Z6T6-B
     adjacentRegions:
     - Insmother
-    - EtheriumReach
+    - Etherium Reach
     adjacentSystems:
     - KPI-OW
     - X1-IZ0
@@ -11965,8 +11965,8 @@ locations:
     - S0X-O4
     - MY-HQD
     adjacentRegions:
-    - OuterPassage
-    - PerrigenFalls
+    - Outer Passage
+    - Perrigen Falls
     adjacentSystems:
     - QQGH-G
     - 1I5-0V
@@ -12015,8 +12015,8 @@ locations:
     - 2FYX-H
     - B-MQ0Y
     adjacentRegions:
-    - OuterPassage
-    - PerrigenFalls
+    - Outer Passage
+    - Perrigen Falls
     adjacentSystems:
     - L1YK-V
     - F-5WYK
@@ -12040,7 +12040,7 @@ locations:
     - WS5L-X
     - S4S-SD
     adjacentRegions:
-    - TheKalevalaExpanse
+    - The Kalevala Expanse
     adjacentSystems:
     - DOA-YU
     - B1UE-J
@@ -12169,7 +12169,7 @@ locations:
     - 4YFT-F
     - DITJ-X
     adjacentRegions:
-    - WickedCreek
+    - Wicked Creek
     - Insmother
     adjacentSystems:
     - 5E-CMA
@@ -12312,7 +12312,7 @@ locations:
     - Tartatven
     - Eoldulf
     adjacentRegions:
-    - GreatWildlands
+    - Great Wildlands
     adjacentSystems:
     - B-VIP9
     - Muttokon
@@ -12369,8 +12369,8 @@ locations:
     - Paradise
     - Sound
     adjacentRegions:
-    - GreatWildlands
-    - ScaldingPass
+    - Great Wildlands
+    - Scalding Pass
     adjacentSystems:
     - UT-UZB
     - G-0Q86
@@ -12451,7 +12451,7 @@ locations:
     - 1VN-XC
     adjacentRegions:
     - Metropolis
-    - EtheriumReach
+    - Etherium Reach
     adjacentSystems:
     - Klingt
     - Meildolf
@@ -12481,7 +12481,7 @@ locations:
     - Fittakan
     adjacentRegions:
     - Metropolis
-    - MoldenHeath
+    - Molden Heath
     adjacentSystems:
     - Balginia
     - Eram
@@ -12589,8 +12589,8 @@ locations:
     - Tandoiras
     - Tiat
     adjacentRegions:
-    - SinqLaison
-    - TheBleakLands
+    - Sinq Laison
+    - The Bleak Lands
     adjacentSystems:
     - Audaerne
     - Kurniainen
@@ -12618,7 +12618,7 @@ locations:
     - Aideron
     - Sanctum
     adjacentRegions:
-    - VergeVendor
+    - Verge Vendor
     - Genesis
     adjacentSystems:
     - Villore
@@ -13072,9 +13072,9 @@ locations:
     - Rollera
     - A3-T8B
     adjacentRegions:
-    - TheForge
+    - The Forge
     - Metropolis
-    - ValeoftheSilent
+    - Vale of the Silent
     adjacentSystems:
     - NBPH-N
     - Akkio
@@ -13193,7 +13193,7 @@ locations:
     - VSC-W9
     - V2S-RH
     adjacentRegions:
-    - OuterPassage
+    - Outer Passage
     - Insmother
     adjacentSystems:
     - RT64-C
@@ -13218,7 +13218,7 @@ locations:
     adjacentConstellations:
     - 17K-QM
     adjacentRegions:
-    - ParagonSoul
+    - Paragon Soul
     adjacentSystems:
     - O-MCZR
     hasBorder: true
@@ -13325,7 +13325,7 @@ locations:
     adjacentConstellations:
     - Kakol
     - Moghiz
-    - ThroneWorlds
+    - Throne Worlds
     - Gebem
     - Nimedaz
     - Ahrnot
@@ -13465,7 +13465,7 @@ locations:
     - Alselbosier
     - Mallugier
     adjacentRegions:
-    - VergeVendor
+    - Verge Vendor
     adjacentSystems:
     - Ostingele
     - Aidart
@@ -13566,7 +13566,7 @@ locations:
     - Hoosa
     adjacentRegions:
     - Kador
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Mod
     - Esmes
@@ -13606,8 +13606,8 @@ locations:
     - 3D-ROC
     - 4R-HUN
     adjacentRegions:
-    - EtheriumReach
-    - TheSpire
+    - Etherium Reach
+    - The Spire
     adjacentSystems:
     - 89-JPE
     - 0J-MQW
@@ -13763,7 +13763,7 @@ locations:
     - N-39FI
     - IZ-FBT
     adjacentRegions:
-    - PeriodBasis
+    - Period Basis
     adjacentSystems:
     - TCAG-3
     - O4T-Z5
@@ -13809,7 +13809,7 @@ locations:
     - 4-QV2L
     - 5F8-PZ
     adjacentRegions:
-    - WickedCreek
+    - Wicked Creek
     adjacentSystems:
     - V7G-RL
     - 9N-0HF
@@ -13914,12 +13914,12 @@ locations:
     - OR-7N5
     - 5NQI-E
     - L-Z9KJ
-  GallenteBorderZone:
+  Gallente Border Zone:
     adjacentConstellations:
     - Kimotoro
     - Lolbrerie
     adjacentRegions:
-    - TheForge
+    - The Forge
     adjacentSystems:
     - Perimeter
     - Olettiers
@@ -13932,7 +13932,7 @@ locations:
     id: 20000387
     isKS: true
     isWormhole: false
-    name: GallenteBorderZone
+    name: Gallente Border Zone
     systems:
     - Iyen-Oursta
     - Faurent
@@ -13969,7 +13969,7 @@ locations:
     - Febihkin
     - Jatari
     - Amdimmah
-    - ThroneWorlds
+    - Throne Worlds
     - Nimedaz
     - Trigentia
     - Finaka
@@ -14256,7 +14256,7 @@ locations:
     - E-UBWI
     - N-APJ8
     adjacentRegions:
-    - TheSpire
+    - The Spire
     adjacentSystems:
     - 2B-UUQ
     - RXA-W1
@@ -14359,7 +14359,7 @@ locations:
     - AP-S8F
     - 1VN-XC
     adjacentRegions:
-    - EtheriumReach
+    - Etherium Reach
     adjacentSystems:
     - 7JF-0Z
     - C-4D0W
@@ -14432,7 +14432,7 @@ locations:
     - Kainokai
     - Otawasa
     adjacentRegions:
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Isanamo
     - Litiura
@@ -14520,8 +14520,8 @@ locations:
     - Semou
     adjacentRegions:
     - Metropolis
-    - TheBleakLands
-    - SinqLaison
+    - The Bleak Lands
+    - Sinq Laison
     - Devoid
     adjacentSystems:
     - Hofjaldgund
@@ -14594,7 +14594,7 @@ locations:
   Hevaka:
     adjacentConstellations:
     - Joas
-    - SanMatar
+    - San Matar
     - Ortner
     adjacentRegions:
     - Heimatar
@@ -14675,7 +14675,7 @@ locations:
     - I3-2J0
     - Rollera
     adjacentRegions:
-    - GreatWildlands
+    - Great Wildlands
     adjacentSystems:
     - N-RAEL
     - Erlendur
@@ -15002,7 +15002,7 @@ locations:
     - N-K4Q0
     - Aulari
     adjacentRegions:
-    - TheForge
+    - The Forge
     adjacentSystems:
     - O1-FTD
     - Oijanen
@@ -15050,7 +15050,7 @@ locations:
     - 4YFT-F
     - K-DLD2
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - 6EG7-R
     - F-5FDA
@@ -15126,7 +15126,7 @@ locations:
     - Kurala
     - Makiriemi
     adjacentRegions:
-    - BlackRise
+    - Black Rise
     - Lonetrek
     adjacentSystems:
     - Jeras
@@ -15178,7 +15178,7 @@ locations:
     adjacentRegions:
     - Lonetrek
     adjacentSystems:
-    - NewCaldari
+    - New Caldari
     - Tunttaras
     - Jita
     hasBorder: true
@@ -15227,7 +15227,7 @@ locations:
     - Mivora
     adjacentRegions:
     - Heimatar
-    - TheForge
+    - The Forge
     adjacentSystems:
     - Osvestmunnur
     - Aldagolf
@@ -15318,9 +15318,9 @@ locations:
     - Otawasa
     adjacentRegions:
     - Essence
-    - VergeVendor
+    - Verge Vendor
     - Lonetrek
-    - BlackRise
+    - Black Rise
     adjacentSystems:
     - Deven
     - Tierijev
@@ -15671,7 +15671,7 @@ locations:
     - Tandoiras
     - Enka
     adjacentRegions:
-    - TheBleakLands
+    - The Bleak Lands
     adjacentSystems:
     - Arzad
     - Huola
@@ -15701,12 +15701,12 @@ locations:
     - Woenckee
     - Okakuola
     adjacentRegions:
-    - TheCitadel
-    - VergeVendor
-    - BlackRise
+    - The Citadel
+    - Verge Vendor
+    - Black Rise
     adjacentSystems:
     - Yvangier
-    - OldManStar
+    - Old Man Star
     - Nagamanen
     - Murethand
     - Oinasiken
@@ -15735,8 +15735,8 @@ locations:
     - Q-PVMK
     - Mekashtad
     adjacentRegions:
-    - MoldenHeath
-    - GreatWildlands
+    - Molden Heath
+    - Great Wildlands
     adjacentSystems:
     - Kasrasi
     - Audesder
@@ -16009,7 +16009,7 @@ locations:
     - I3-2J0
     - NK-AOZ
     adjacentRegions:
-    - GreatWildlands
+    - Great Wildlands
     adjacentSystems:
     - K-IYNW
     - U-L4KS
@@ -16088,7 +16088,7 @@ locations:
     - Arekin
     - Koichi
     adjacentRegions:
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Nalvula
     - Aurohunen
@@ -16187,7 +16187,7 @@ locations:
     - Neburab
   Kalangin:
     adjacentConstellations:
-    - SanMatar
+    - San Matar
     - Joas
     - Mekashtad
     adjacentSystems:
@@ -16213,7 +16213,7 @@ locations:
     - Kiereend
   Kantanen:
     adjacentConstellations:
-    - CaldariBorderZone
+    - Caldari Border Zone
     - Tasen
     - Uusasai
     - Otawasa
@@ -16413,12 +16413,12 @@ locations:
     - Anttanen
     - Tasen
     - Suon
-    - GallenteBorderZone
+    - Gallente Border Zone
     - Okela
     adjacentRegions:
-    - TheCitadel
+    - The Citadel
     - Lonetrek
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Itamo
     - Muvolailen
@@ -16454,9 +16454,9 @@ locations:
     - Ryra
     - Sasen
     - Semou
-    - SanMatar
+    - San Matar
     adjacentRegions:
-    - TheBleakLands
+    - The Bleak Lands
     - Derelik
     adjacentSystems:
     - Odin
@@ -16489,8 +16489,8 @@ locations:
     - Sela
     - Okela
     adjacentRegions:
-    - TheCitadel
-    - TheForge
+    - The Citadel
+    - The Forge
     adjacentSystems:
     - Aikoro
     - Akonoinen
@@ -16548,7 +16548,7 @@ locations:
     - Ieyama
     - Okakuola
     adjacentRegions:
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Samanuni
     - Manjonakko
@@ -16620,7 +16620,7 @@ locations:
     - 02QH-A
     - U-3HAO
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - 0-3VW8
     - U2-28D
@@ -16761,7 +16761,7 @@ locations:
     - 1P-VL2
     - X-VN63
     adjacentRegions:
-    - ValeoftheSilent
+    - Vale of the Silent
     adjacentSystems:
     - 9OO-LH
     - DBT-GB
@@ -16840,7 +16840,7 @@ locations:
     - TY0-Q2
     adjacentRegions:
     - Oasa
-    - OuterPassage
+    - Outer Passage
     adjacentSystems:
     - QE2-FS
     - 9S-GPT
@@ -16933,7 +16933,7 @@ locations:
     - Ebo
   Lolbrerie:
     adjacentConstellations:
-    - GallenteBorderZone
+    - Gallente Border Zone
     - Agiesseson
     - Aeman
     adjacentSystems:
@@ -17020,7 +17020,7 @@ locations:
     - 4M6-GJ
     - 2O-VY7
     adjacentRegions:
-    - TheKalevalaExpanse
+    - The Kalevala Expanse
     adjacentSystems:
     - 9F-3CR
     - A-YB15
@@ -17134,8 +17134,8 @@ locations:
     - 6GU-AT
     - OWT3-6
     adjacentRegions:
-    - OuterPassage
-    - TheSpire
+    - Outer Passage
+    - The Spire
     adjacentSystems:
     - XUPK-Z
     - M-MCP8
@@ -17188,7 +17188,7 @@ locations:
     - S0X-O4
     - 4-0VL9
     adjacentRegions:
-    - PerrigenFalls
+    - Perrigen Falls
     adjacentSystems:
     - Y4B-BQ
     - PA-ALN
@@ -17247,7 +17247,7 @@ locations:
     - 1RG-GU
     - D-95MV
     adjacentRegions:
-    - WickedCreek
+    - Wicked Creek
     adjacentSystems:
     - 5H-SM2
     - OFVH-Y
@@ -17299,13 +17299,13 @@ locations:
     - Sasen
     - Mofa
     - Maseend
-    - ThroneWorlds
+    - Throne Worlds
     - Sosarir
     - Kashag
     - Kekah
     - Qeti
     adjacentRegions:
-    - TheBleakLands
+    - The Bleak Lands
     adjacentSystems:
     - Otelen
     - Merz
@@ -17372,7 +17372,7 @@ locations:
     - Ieyama
     - Sela
     adjacentRegions:
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Uemisaisen
     - Iidoken
@@ -17432,7 +17432,7 @@ locations:
     - Pietanen
     - Inolari
     adjacentRegions:
-    - BlackRise
+    - Black Rise
     adjacentSystems:
     - Otalieto
     - Raihbaka
@@ -17457,7 +17457,7 @@ locations:
     - Fislipesnes
     - Anwyns
     adjacentRegions:
-    - VergeVendor
+    - Verge Vendor
     adjacentSystems:
     - Slays
     - Aidart
@@ -17549,7 +17549,7 @@ locations:
     - Spaen
     - Nadire
     adjacentRegions:
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Elarel
     - Schoorasana
@@ -17728,7 +17728,7 @@ locations:
   Mekashtad:
     adjacentConstellations:
     - Kalangin
-    - SanMatar
+    - San Matar
     - Mal
     - Joas
     adjacentSystems:
@@ -17903,7 +17903,7 @@ locations:
     - Pietanen
     - Haurala
     adjacentRegions:
-    - BlackRise
+    - Black Rise
     adjacentSystems:
     - Haajinen
     - Onnamon
@@ -17977,7 +17977,7 @@ locations:
     - Orpana
     adjacentRegions:
     - Tribute
-    - TheForge
+    - The Forge
     adjacentSystems:
     - M-OEE8
     - Hageken
@@ -18008,7 +18008,7 @@ locations:
     adjacentRegions:
     - Geminate
     - Metropolis
-    - EtheriumReach
+    - Etherium Reach
     adjacentSystems:
     - EOA-ZC
     - Todifrauan
@@ -18033,7 +18033,7 @@ locations:
   Mobit:
     adjacentConstellations:
     - Megeh
-    - ThroneWorlds
+    - Throne Worlds
     - Mulata
     - Jatari
     - Armi
@@ -18109,7 +18109,7 @@ locations:
     adjacentConstellations:
     - Somi
     - Febihkin
-    - ThroneWorlds
+    - Throne Worlds
     - Norgoh
     adjacentRegions:
     - Tash-Murkon
@@ -18162,7 +18162,7 @@ locations:
     - Djimame
   Mossas:
     adjacentConstellations:
-    - SanMatar
+    - San Matar
     - Subi
     adjacentSystems:
     - Akpivem
@@ -18184,7 +18184,7 @@ locations:
     - Khankenirdia
   Mulata:
     adjacentConstellations:
-    - ThroneWorlds
+    - Throne Worlds
     - Mobit
     adjacentSystems:
     - Toshabia
@@ -18214,7 +18214,7 @@ locations:
     - XOV7-5
     - 6KFH-X
     adjacentRegions:
-    - ParagonSoul
+    - Paragon Soul
     adjacentSystems:
     - G-M4GK
     - 0A-KZ0
@@ -18271,7 +18271,7 @@ locations:
     - OSJ7-I
     - 8K-CHA
     adjacentRegions:
-    - ValeoftheSilent
+    - Vale of the Silent
     adjacentSystems:
     - BND-16
     - M-MD31
@@ -18578,7 +18578,7 @@ locations:
     - 7-ZDOK
     - QJ2-0M
     adjacentRegions:
-    - CobaltEdge
+    - Cobalt Edge
     adjacentSystems:
     - QOK-SX
     - 8RL-OG
@@ -18804,7 +18804,7 @@ locations:
     - Rifenda
     - Mimishia
     adjacentSystems:
-    - Tash-MurkonPrime
+    - Tash-Murkon Prime
     - Marthia
     - Rand
     - Gaknem
@@ -18951,7 +18951,7 @@ locations:
   Norgoh:
     adjacentConstellations:
     - Moghiz
-    - ThroneWorlds
+    - Throne Worlds
     - Arvachah
     - Megeh
     - Somi
@@ -18962,7 +18962,7 @@ locations:
     adjacentSystems:
     - Jennim
     - Amarr
-    - Tash-MurkonPrime
+    - Tash-Murkon Prime
     - Romi
     - Nafomeh
     - Gid
@@ -19177,8 +19177,8 @@ locations:
     - XHL-TZ
     - TPB-KG
     adjacentRegions:
-    - CobaltEdge
-    - PerrigenFalls
+    - Cobalt Edge
+    - Perrigen Falls
     adjacentSystems:
     - M-NWLB
     - EJ-5X2
@@ -19207,7 +19207,7 @@ locations:
     - 3D-ROC
     - 4-0VL9
     adjacentRegions:
-    - EtheriumReach
+    - Etherium Reach
     adjacentSystems:
     - Q-UVY6
     - P65-TA
@@ -19277,7 +19277,7 @@ locations:
     - XOV7-5
     adjacentRegions:
     - Querious
-    - PeriodBasis
+    - Period Basis
     adjacentSystems:
     - QY1E-N
     - PF-KUQ
@@ -19336,7 +19336,7 @@ locations:
     - Z6T6-B
     adjacentRegions:
     - Cache
-    - OuterPassage
+    - Outer Passage
     adjacentSystems:
     - 8OYE-Z
     - XUPK-Z
@@ -19449,7 +19449,7 @@ locations:
     - Chasnaye
     - Nexus
     adjacentRegions:
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Doussivitte
     - Adreland
@@ -19501,7 +19501,7 @@ locations:
     - Kurala
     adjacentRegions:
     - Essence
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Hikkoken
     - Abune
@@ -19539,8 +19539,8 @@ locations:
     - Uusasai
     - Sela
     adjacentRegions:
-    - TheCitadel
-    - TheForge
+    - The Citadel
+    - The Forge
     adjacentSystems:
     - Tama
     - Ahynada
@@ -19680,7 +19680,7 @@ locations:
     - Nomaa
     - Ishisomo
     - Osmon
-    - NewCaldari
+    - New Caldari
     hasBorder: true
     hasCorridor: true
     hasFringe: false
@@ -19698,7 +19698,7 @@ locations:
     - Otela
   Oraron:
     adjacentConstellations:
-    - SanMatar
+    - San Matar
     - Bedaleya
     - Subi
     adjacentSystems:
@@ -19728,7 +19728,7 @@ locations:
     - Z-DO53
     - Mito
     adjacentRegions:
-    - ValeoftheSilent
+    - Vale of the Silent
     - Lonetrek
     adjacentSystems:
     - Vouskiaho
@@ -19753,7 +19753,7 @@ locations:
     - Eruka
   Orshed:
     adjacentConstellations:
-    - SanMatar
+    - San Matar
     adjacentSystems:
     - Nirbhi
     hasBorder: true
@@ -19777,7 +19777,7 @@ locations:
     - Hevaka
     - Odengsolf
     - Hed
-    - SanMatar
+    - San Matar
     - Gedur
     - Huvilma
     adjacentRegions:
@@ -19895,7 +19895,7 @@ locations:
     - Wiedadur
     - Ortner
     adjacentRegions:
-    - MoldenHeath
+    - Molden Heath
     adjacentSystems:
     - Aeddin
     - Gerek
@@ -19971,7 +19971,7 @@ locations:
     - Arekin
     - Kimotoro
     adjacentRegions:
-    - TheForge
+    - The Forge
     adjacentSystems:
     - Ahynada
     - Jita
@@ -19996,7 +19996,7 @@ locations:
     - 8AO-5V
     - 3NA-Z1
     adjacentRegions:
-    - EtheriumReach
+    - Etherium Reach
     adjacentSystems:
     - TZ-74M
     - Q-GICU
@@ -20081,7 +20081,7 @@ locations:
     - 4R-HUN
     - PGPJ-8
     adjacentRegions:
-    - EtheriumReach
+    - Etherium Reach
     adjacentSystems:
     - IF-KD1
     - N06Z-Q
@@ -20338,7 +20338,7 @@ locations:
     adjacentConstellations:
     - Somi
     - Chardu
-    - ThroneWorlds
+    - Throne Worlds
     - Hoosa
     - Yekti
     - Zemont
@@ -20377,12 +20377,12 @@ locations:
     - Jeon
     - Woenckee
     - Beyt
-    - CaldariBorderZone
+    - Caldari Border Zone
     - Thoulde
     adjacentRegions:
-    - VergeVendor
+    - Verge Vendor
     - Placid
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Villore
     - Amoderia
@@ -20415,7 +20415,7 @@ locations:
     - Sanctum
     - Aideron
     adjacentRegions:
-    - VergeVendor
+    - Verge Vendor
     - Genesis
     adjacentSystems:
     - Hulmate
@@ -20449,7 +20449,7 @@ locations:
     - Centaur
     - Manticore
     adjacentRegions:
-    - OuterRing
+    - Outer Ring
     adjacentSystems:
     - 7-692B
     - PNQY-Y
@@ -20609,7 +20609,7 @@ locations:
     - Yrton
     - Miennue
     adjacentRegions:
-    - PureBlind
+    - Pure Blind
     adjacentSystems:
     - 7D-0SQ
     - QXW-PV
@@ -20804,8 +20804,8 @@ locations:
     - AC-RON
     - N5V-Y0
     adjacentRegions:
-    - WickedCreek
-    - ScaldingPass
+    - Wicked Creek
+    - Scalding Pass
     adjacentSystems:
     - YPW-M4
     - RERZ-L
@@ -20856,7 +20856,7 @@ locations:
     - NPL-WH
     - CZ-06R
     adjacentRegions:
-    - OuterPassage
+    - Outer Passage
     - Oasa
     adjacentSystems:
     - GQLB-V
@@ -20934,7 +20934,7 @@ locations:
     adjacentConstellations:
     - Crown
     adjacentRegions:
-    - OuterRing
+    - Outer Ring
     adjacentSystems:
     - TQ-RR8
     hasBorder: true
@@ -21077,7 +21077,7 @@ locations:
     - 51ZT-6
     adjacentRegions:
     - Detorid
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - 3-LJW3
     - LKZ-CY
@@ -21135,7 +21135,7 @@ locations:
     - SLYP-5
     - PGPJ-8
     adjacentRegions:
-    - TheSpire
+    - The Spire
     adjacentSystems:
     - C6C-K9
     - 4-QDIX
@@ -21345,7 +21345,7 @@ locations:
     - Tranquillity
     - 51ZT-6
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - XX9-WV
     - H-ADOC
@@ -21482,7 +21482,7 @@ locations:
     - Akimamur
     adjacentRegions:
     - Geminate
-    - MoldenHeath
+    - Molden Heath
     - Heimatar
     adjacentSystems:
     - AD-5B8
@@ -21537,7 +21537,7 @@ locations:
     - Abthi
     adjacentRegions:
     - Providence
-    - TheBleakLands
+    - The Bleak Lands
     adjacentSystems:
     - Uadelah
     - KBP7-G
@@ -21616,7 +21616,7 @@ locations:
     - E1L-UY
     - MY-HQD
     adjacentRegions:
-    - TheSpire
+    - The Spire
     adjacentSystems:
     - 9-ZA4Z
     - EU-WFW
@@ -21671,7 +21671,7 @@ locations:
     - 78-6RI
     - E6EO-H
     adjacentRegions:
-    - EtheriumReach
+    - Etherium Reach
     - Malpais
     adjacentSystems:
     - MN9P-A
@@ -21764,7 +21764,7 @@ locations:
     adjacentConstellations:
     - Crown
     adjacentRegions:
-    - OuterRing
+    - Outer Ring
     adjacentSystems:
     - E9G-MT
     hasBorder: true
@@ -21860,7 +21860,7 @@ locations:
     - H-PA29
     - YP-J33
     - D-8SI1
-  SanMatar:
+  San Matar:
     adjacentConstellations:
     - Kalangin
     - Oraron
@@ -21889,7 +21889,7 @@ locations:
     id: 20000001
     isKS: true
     isWormhole: false
-    name: SanMatar
+    name: San Matar
     systems:
     - Zaid
     - Akpivem
@@ -21950,8 +21950,8 @@ locations:
     adjacentRegions:
     - Essence
     - Everyshore
-    - VergeVendor
-    - SinqLaison
+    - Verge Vendor
+    - Sinq Laison
     adjacentSystems:
     - Deninard
     - Arant
@@ -22097,7 +22097,7 @@ locations:
     - Regalia
     - Yrton
     adjacentRegions:
-    - CloudRing
+    - Cloud Ring
     adjacentSystems:
     - ZXI-K2
     - 5-MLDT
@@ -22147,10 +22147,10 @@ locations:
     - Makiriemi
     - Okunda
     adjacentRegions:
-    - TheForge
+    - The Forge
     adjacentSystems:
     - Ekura
-    - NewCaldari
+    - New Caldari
     - Sobaseki
     - Piekura
     - Aurohunen
@@ -22201,7 +22201,7 @@ locations:
     - Kisana
     - Jayai
     adjacentRegions:
-    - TheBleakLands
+    - The Bleak Lands
     - Heimatar
     adjacentSystems:
     - Lamaa
@@ -22229,7 +22229,7 @@ locations:
     - Beyt
     - Amevync
     adjacentRegions:
-    - PureBlind
+    - Pure Blind
     adjacentSystems:
     - RQH-MY
     - Maut
@@ -22421,7 +22421,7 @@ locations:
     - Tandoiras
     adjacentRegions:
     - Everyshore
-    - TheBleakLands
+    - The Bleak Lands
     adjacentSystems:
     - Mormelot
     - Stegette
@@ -22608,7 +22608,7 @@ locations:
     - Uusasai
     - Yekti
     adjacentRegions:
-    - TheForge
+    - The Forge
     - Domain
     adjacentSystems:
     - Anttiri
@@ -22720,7 +22720,7 @@ locations:
     - D61-WV
     - S-Q02B
     adjacentRegions:
-    - PerrigenFalls
+    - Perrigen Falls
     adjacentSystems:
     - 6U-MFQ
     - J9A-BH
@@ -22960,7 +22960,7 @@ locations:
     - IV-LWJ
     - E-UBWI
     adjacentRegions:
-    - TheSpire
+    - The Spire
     adjacentSystems:
     - LVL-GZ
     - TK-DLH
@@ -23043,7 +23043,7 @@ locations:
     adjacentRegions:
     - Devoid
     - Metropolis
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Sosan
     - Isbrabata
@@ -23098,7 +23098,7 @@ locations:
     - Suon
     - Uusasai
     adjacentRegions:
-    - TheForge
+    - The Forge
     adjacentSystems:
     - Urlen
     - Uedama
@@ -23167,15 +23167,15 @@ locations:
     - Miroona
   Thoulde:
     adjacentConstellations:
-    - CaldariBorderZone
+    - Caldari Border Zone
     - Crux
     - Sanctum
     - Patrie
     - Disier
     adjacentRegions:
-    - TheCitadel
+    - The Citadel
     - Genesis
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Kassigainen
     - Algogille
@@ -23202,7 +23202,7 @@ locations:
     - Seyllin
     - Noghere
     - Ane
-  ThroneWorlds:
+  Throne Worlds:
     adjacentConstellations:
     - Mobit
     - Parud
@@ -23219,11 +23219,11 @@ locations:
     - Akhragan
     - Ashab
     - Mamenkhanar
-    - KadorPrime
+    - Kador Prime
     - Kooreng
     - Bhizheba
-    - SarumPrime
-    - Kor-AzorPrime
+    - Sarum Prime
+    - Kor-Azor Prime
     hasBorder: true
     hasCorridor: true
     hasFringe: false
@@ -23231,7 +23231,7 @@ locations:
     id: 20000322
     isKS: true
     isWormhole: false
-    name: ThroneWorlds
+    name: Throne Worlds
     systems:
     - Simbeloud
     - Kehour
@@ -23299,7 +23299,7 @@ locations:
     - Assilot
     - Urpiken
     adjacentRegions:
-    - BlackRise
+    - Black Rise
     adjacentSystems:
     - O-ZXUV
     - PPG-XC
@@ -23325,7 +23325,7 @@ locations:
     - 51ZT-6
     - Rapture
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - S-E6ES
     - Y-DW5K
@@ -23850,7 +23850,7 @@ locations:
     - XFLN-F
     adjacentRegions:
     - Deklein
-    - PureBlind
+    - Pure Blind
     adjacentSystems:
     - 8S28-3
     - E-Z2ZX
@@ -23919,7 +23919,7 @@ locations:
     - Anwyns
     - Fabas
     adjacentRegions:
-    - VergeVendor
+    - Verge Vendor
     adjacentSystems:
     - Bherdasopt
     - Tourier
@@ -23946,8 +23946,8 @@ locations:
     - Pietanen
     - Urpiken
     adjacentRegions:
-    - PureBlind
-    - BlackRise
+    - Pure Blind
+    - Black Rise
     adjacentSystems:
     - 93PI-4
     - Iitanmadan
@@ -24016,7 +24016,7 @@ locations:
     - Inolari
     adjacentRegions:
     - Lonetrek
-    - CloudRing
+    - Cloud Ring
     adjacentSystems:
     - Karjataimon
     - W-4NUU
@@ -24097,7 +24097,7 @@ locations:
     - 730-KH
     - Elfrard
     adjacentRegions:
-    - MoldenHeath
+    - Molden Heath
     adjacentSystems:
     - NIH-02
     - Egbinger
@@ -24153,7 +24153,7 @@ locations:
     - 4YFT-F
     adjacentRegions:
     - Curse
-    - ScaldingPass
+    - Scalding Pass
     adjacentSystems:
     - JPL-RA
     - F8K-WQ
@@ -24187,8 +24187,8 @@ locations:
     - 8K-CHA
     - 9KX-M0
     adjacentRegions:
-    - TheKalevalaExpanse
-    - ValeoftheSilent
+    - The Kalevala Expanse
+    - Vale of the Silent
     adjacentSystems:
     - 1S-SU1
     - 9-KWXC
@@ -24374,7 +24374,7 @@ locations:
     - NT1-5Q
     - D-GU3R
     adjacentRegions:
-    - EtheriumReach
+    - Etherium Reach
     adjacentSystems:
     - TDP-T3
     - Z-DRIY
@@ -24509,7 +24509,7 @@ locations:
     - Disier
     adjacentRegions:
     - Genesis
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Aeschee
     - Allebin
@@ -24545,7 +24545,7 @@ locations:
     - Woenckee
     adjacentRegions:
     - Syndicate
-    - VergeVendor
+    - Verge Vendor
     adjacentSystems:
     - MHC-R3
     - Stacmon
@@ -24653,7 +24653,7 @@ locations:
     - XOV7-5
     - Q4IG-S
     adjacentRegions:
-    - PeriodBasis
+    - Period Basis
     adjacentSystems:
     - JVJ2-N
     - XZ-SKZ
@@ -24682,7 +24682,7 @@ locations:
     - 52-JKU
     - E-8CSQ
     adjacentRegions:
-    - ValeoftheSilent
+    - Vale of the Silent
     - Venal
     adjacentSystems:
     - T-ZWA1
@@ -25106,7 +25106,7 @@ locations:
     - GORV-P
     - 1G-8KY
     adjacentRegions:
-    - PureBlind
+    - Pure Blind
     - Venal
     adjacentSystems:
     - N-FK87
@@ -25139,7 +25139,7 @@ locations:
     - B-D245
     adjacentRegions:
     - Cache
-    - TheSpire
+    - The Spire
     adjacentSystems:
     - PKN-NJ
     - XR-ZL7
@@ -25193,7 +25193,7 @@ locations:
     - 38G6-L
     adjacentRegions:
     - Deklein
-    - PureBlind
+    - Pure Blind
     adjacentSystems:
     - O-CNPR
     - CCP-US
@@ -25277,7 +25277,7 @@ locations:
     - WS5L-X
     - PX0-P4
     adjacentRegions:
-    - TheKalevalaExpanse
+    - The Kalevala Expanse
     adjacentSystems:
     - O31W-6
     - TP-APY
@@ -25694,7 +25694,7 @@ locations:
     - W9MQ-1
     - TPB-KG
     adjacentRegions:
-    - PerrigenFalls
+    - Perrigen Falls
     adjacentSystems:
     - VG-6CH
     - MTO2-2
@@ -25817,7 +25817,7 @@ locations:
     - 59H-0G
     - Ganoure
     adjacentRegions:
-    - OuterRing
+    - Outer Ring
     - Placid
     adjacentSystems:
     - K5-JRD
@@ -25946,7 +25946,7 @@ locations:
     - Parud
     - Hoosa
     adjacentRegions:
-    - TheCitadel
+    - The Citadel
     - Kador
     adjacentSystems:
     - Kaaputenen
@@ -26040,7 +26040,7 @@ locations:
     - 49A-BZ
     - Balenne
     adjacentRegions:
-    - OuterRing
+    - Outer Ring
     - Fountain
     - Syndicate
     adjacentSystems:
@@ -26075,7 +26075,7 @@ locations:
     - Wyllequet
     - Coriault
     adjacentRegions:
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Pulin
     - Cherore
@@ -26179,7 +26179,7 @@ locations:
     - YUT3-U
     adjacentRegions:
     - Tribute
-    - TheForge
+    - The Forge
     adjacentSystems:
     - UH-9ZG
     - MSHD-4
@@ -26436,11 +26436,11 @@ locations:
     - Sosarir
     - Vaarma
     adjacentRegions:
-    - TheBleakLands
+    - The Bleak Lands
     adjacentSystems:
     - Orkashu
     - Thebeka
-    - ArdishapurPrime
+    - Ardishapur Prime
     - Sasiekko
     hasBorder: true
     hasCorridor: true

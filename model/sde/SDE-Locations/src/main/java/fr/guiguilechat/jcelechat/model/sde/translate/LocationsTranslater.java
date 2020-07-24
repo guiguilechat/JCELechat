@@ -104,14 +104,18 @@ public class LocationsTranslater {
 		Stream.of(uni.eve, uni.wormhole).flatMap(e -> e.values().stream()).flatMap(r -> r.constellations.values().stream())
 		.flatMap(c -> c.systems.entrySet().stream()).forEach(e -> {
 			for (Integer sid : e.getValue().stargates.keySet()) {
-				gateToSystem.put(sid, e.getKey());
+				gateToSystem.put(sid, unFuckLocationName(e.getKey()));
 			}
 		});
 
 		Stream.of(uni.eve, uni.wormhole).parallel().flatMap(e -> e.values().stream())
 		.flatMap(r -> r.constellations.values().stream()).flatMap(c -> c.systems.entrySet().stream())
 		.forEachOrdered(e -> {
-			SolarSystem oSystem = systems.get(e.getKey());
+			SolarSystem oSystem = systems.get(unFuckLocationName(e.getKey()));
+			if (oSystem == null) {
+				System.err.println("null syst for name " + e.getKey());
+			}
+
 			Constellation oConstel = constellations.get(oSystem.constellation);
 			Region oRegion = regions.get(oSystem.region);
 			for (Stargate st : e.getValue().stargates.values()) {
@@ -120,6 +124,9 @@ public class LocationsTranslater {
 					oSystem.adjacentSystems.add(destoName);
 				}
 				SolarSystem destination = systems.get(destoName);
+				if (destination == null) {
+					System.err.println("null dest for syst name " + destoName);
+				}
 				if (!oSystem.constellation.equals(destination.constellation)) {
 					if (!oSystem.adjacentConstellations.contains(destination.constellation)) {
 						oSystem.adjacentConstellations.add(destination.constellation);
@@ -154,11 +161,12 @@ public class LocationsTranslater {
 
 	}
 
-	public static void addRegion(String name, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region region,
+	public static void addRegion(String regionName, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Region region,
 			LinkedHashMap<String, Region> regions, LinkedHashMap<String, Constellation> constellations,
 			LinkedHashMap<String, SolarSystem> systems, LinkedHashMap<String, Station> stations, REGION_TYPE rtype) {
+		regionName = unFuckLocationName(regionName);
 		Region r = new Region();
-		regions.put(name, r);
+		regions.put(regionName, r);
 		// set jovian KS to specific JOVIAN type
 		if (rtype == REGION_TYPE.KS) {
 			if (
@@ -174,41 +182,42 @@ public class LocationsTranslater {
 		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation> e : region.constellations
 				.entrySet()) {
 			r.constellations.add(e.getKey());
-			addConstellation(e.getKey(), e.getValue(), name, constellations, systems, stations, rtype);
+			addConstellation(e.getKey(), e.getValue(), regionName, constellations, systems, stations, rtype);
 		}
 		r.isKS = rtype == REGION_TYPE.KS;
-		r.name = name;
+		r.name = regionName;
 		r.id = region.regionID;
 		r.isWormhole = rtype == REGION_TYPE.WORMHOLE;
 	}
 
-	public static Constellation addConstellation(String name,
+	public static Constellation addConstellation(String constelName,
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.Constellation constellation, String regionName,
 			LinkedHashMap<String, Constellation> constellations, LinkedHashMap<String, SolarSystem> systems,
 			LinkedHashMap<String, Station> stations, REGION_TYPE rtype) {
+		constelName = unFuckLocationName(constelName);
 		Constellation c = new Constellation();
-		constellations.put(name, c);
+		constellations.put(constelName, c);
 		for (Entry<String, fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem> e : constellation.systems
 				.entrySet()) {
 			c.systems.add(e.getKey());
-			SolarSystem sys = addSystem(e.getKey(), e.getValue(), name, regionName, systems, stations, rtype);
+			SolarSystem sys = addSystem(e.getKey(), e.getValue(), constelName, regionName, systems, stations, rtype);
 			c.hasBorder |= sys.isBorder;
 			c.hasCorridor |= sys.isCorridor;
 			c.hasFringe |= sys.isFringe;
 			c.hasHub |= sys.isHub;
 		}
-		c.name = name;
+		c.name = constelName;
 		c.id = constellation.constellationID;
 		c.isWormhole = rtype == REGION_TYPE.WORMHOLE;
 		c.isKS = rtype == REGION_TYPE.KS;
 		return c;
 	}
 
-	public static SolarSystem addSystem(
-			String sysName,
+	public static SolarSystem addSystem(String sysName,
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem system, String ConstellationName,
 			String regionName, LinkedHashMap<String, SolarSystem> systems, LinkedHashMap<String, Station> stations,
 			REGION_TYPE rtype) {
+		sysName = unFuckLocationName(sysName);
 		SolarSystem s = new SolarSystem();
 		systems.put(sysName, s);
 		s.name = sysName;
@@ -288,5 +297,23 @@ public class LocationsTranslater {
 			stationsByID = EstaStations.loadById();
 		}
 		return stationsByID;
+	}
+
+	/**
+	 * unfuck a location name provided by CCP in the SDE .
+	 * <ul>
+	 * <li>replace "aB" by "a B" because SDE location names miss the spaces.</li>
+	 * </ul>
+	 *
+	 * @param name
+	 * @return
+	 */
+	public static String unFuckLocationName(String name) {
+		String ret = name.replaceAll("([a-z])([A-Z])", "$1\\ $2");
+		ret = ret.replaceAll("ofthe", " of the");
+		// if (!ret.equals(name)) {
+		// System.err.println("unfucked [" + name + "] into [" + ret + "]");
+		// }
+		return ret;
 	}
 }

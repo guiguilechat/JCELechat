@@ -188,7 +188,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-R00008
-  BlackRise:
+  Black Rise:
     adjacentConstellations:
     - Umamon
     - Tinnimerci
@@ -200,9 +200,9 @@ locations:
     - Minnen
     adjacentRegions:
     - Lonetrek
-    - CloudRing
+    - Cloud Ring
     - Placid
-    - TheCitadel
+    - The Citadel
     - Essence
     adjacentSystems:
     - Karjataimon
@@ -224,7 +224,7 @@ locations:
     id: 10000069
     isKS: true
     isWormhole: false
-    name: BlackRise
+    name: Black Rise
   Branch:
     adjacentConstellations:
     - D-AWFI
@@ -395,10 +395,10 @@ locations:
     - 6GU-AT
     - OWT3-6
     adjacentRegions:
-    - OuterPassage
+    - Outer Passage
     - Insmother
-    - TheSpire
-    - GreatWildlands
+    - The Spire
+    - Great Wildlands
     adjacentSystems:
     - RT64-C
     - 3-0FYP
@@ -479,7 +479,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Catch
-  CloudRing:
+  Cloud Ring:
     adjacentConstellations:
     - 0A-73B
     - Urpiken
@@ -489,11 +489,11 @@ locations:
     - Centaur
     - 49A-BZ
     adjacentRegions:
-    - PureBlind
-    - BlackRise
+    - Pure Blind
+    - Black Rise
     - Fade
     - Placid
-    - OuterRing
+    - Outer Ring
     - Fountain
     - Syndicate
     adjacentSystems:
@@ -514,8 +514,8 @@ locations:
     id: 10000051
     isKS: true
     isWormhole: false
-    name: CloudRing
-  CobaltEdge:
+    name: Cloud Ring
+  Cobalt Edge:
     adjacentConstellations:
     - O9X-CV
     - 2-ZRM0
@@ -525,7 +525,7 @@ locations:
     adjacentRegions:
     - Oasa
     - Tenal
-    - OuterPassage
+    - Outer Passage
     adjacentSystems:
     - IAMJ-Q
     - SF-XJS
@@ -547,7 +547,7 @@ locations:
     id: 10000053
     isKS: true
     isWormhole: false
-    name: CobaltEdge
+    name: Cobalt Edge
   Curse:
     adjacentConstellations:
     - 51ZT-6
@@ -557,9 +557,9 @@ locations:
     - EM-L3K
     - Anares
     adjacentRegions:
-    - ScaldingPass
+    - Scalding Pass
     - Catch
-    - GreatWildlands
+    - Great Wildlands
     - Derelik
     adjacentSystems:
     - S-E6ES
@@ -754,7 +754,7 @@ locations:
     - Fountain
     - Aridia
     - Querious
-    - PeriodBasis
+    - Period Basis
     adjacentSystems:
     - Y-2ANO
     - Sakht
@@ -796,8 +796,8 @@ locations:
     - G2E-RJ
     adjacentRegions:
     - Heimatar
-    - MoldenHeath
-    - GreatWildlands
+    - Molden Heath
+    - Great Wildlands
     - Curse
     - Devoid
     - Providence
@@ -843,7 +843,7 @@ locations:
     - IJE6-J
     adjacentRegions:
     - Insmother
-    - WickedCreek
+    - Wicked Creek
     - Tenerifis
     - Immensea
     adjacentSystems:
@@ -879,7 +879,7 @@ locations:
   Devoid:
     adjacentConstellations:
     - Sasen
-    - SanMatar
+    - San Matar
     - XV7L-S
     - Tandoiras
     - Bedaleya
@@ -887,7 +887,7 @@ locations:
     - Ichida
     - Hed
     adjacentRegions:
-    - TheBleakLands
+    - The Bleak Lands
     - Derelik
     - Providence
     - Domain
@@ -938,21 +938,21 @@ locations:
     - Arvachah
     adjacentRegions:
     - Kador
-    - SinqLaison
+    - Sinq Laison
     - Kor-Azor
     - Tash-Murkon
-    - TheCitadel
+    - The Citadel
     - Devoid
     - Providence
-    - TheBleakLands
+    - The Bleak Lands
     adjacentSystems:
     - Mod
     - Esmes
     - Hiroudeh
     - Romi
-    - KadorPrime
+    - Kador Prime
     - Kooreng
-    - Kor-AzorPrime
+    - Kor-Azor Prime
     - Nafomeh
     - Kaaputenen
     - Goram
@@ -969,7 +969,7 @@ locations:
     - Matyas
     - Otelen
     - Jennim
-    - Tash-MurkonPrime
+    - Tash-Murkon Prime
     constellations:
     - Fua
     - Hoosa
@@ -1111,7 +1111,7 @@ locations:
     - 3-PC31
     - 3-U491
     adjacentRegions:
-    - ParagonSoul
+    - Paragon Soul
     - Stain
     - Feythabolis
     adjacentSystems:
@@ -1140,7 +1140,7 @@ locations:
     name: Esoteria
   Essence:
     adjacentConstellations:
-    - CaldariBorderZone
+    - Caldari Border Zone
     - Sanctum
     - Disier
     - Obray
@@ -1153,12 +1153,12 @@ locations:
     - Osnins
     - Jonenor
     adjacentRegions:
-    - TheCitadel
+    - The Citadel
     - Genesis
-    - SinqLaison
-    - VergeVendor
+    - Sinq Laison
+    - Verge Vendor
     - Placid
-    - BlackRise
+    - Black Rise
     - Everyshore
     adjacentSystems:
     - Kassigainen
@@ -1181,7 +1181,7 @@ locations:
     - Pettinck
     - Bereye
     - Trosquesere
-    - DuAnnes
+    - Du Annes
     - Grinacanne
     constellations:
     - Thoulde
@@ -1197,7 +1197,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Essence
-  EtheriumReach:
+  Etherium Reach:
     adjacentConstellations:
     - Eoldulf
     - HRJG-D
@@ -1212,14 +1212,14 @@ locations:
     - OC-TTA
     - E-UBWI
     adjacentRegions:
-    - MoldenHeath
-    - GreatWildlands
+    - Molden Heath
+    - Great Wildlands
     - Insmother
-    - TheKalevalaExpanse
-    - PerrigenFalls
+    - The Kalevala Expanse
+    - Perrigen Falls
     - Malpais
-    - TheForge
-    - TheSpire
+    - The Forge
+    - The Spire
     adjacentSystems:
     - Skarkon
     - BRT-OP
@@ -1254,7 +1254,7 @@ locations:
     id: 10000027
     isKS: true
     isWormhole: false
-    name: EtheriumReach
+    name: Etherium Reach
   Everyshore:
     adjacentConstellations:
     - Agiesseson
@@ -1270,7 +1270,7 @@ locations:
     - Stion
     - Wyllequet
     adjacentRegions:
-    - SinqLaison
+    - Sinq Laison
     - Genesis
     - Essence
     adjacentSystems:
@@ -1332,8 +1332,8 @@ locations:
     - LN-L8L
     adjacentRegions:
     - Deklein
-    - PureBlind
-    - CloudRing
+    - Pure Blind
+    - Cloud Ring
     adjacentSystems:
     - CCP-US
     - U-INPD
@@ -1394,8 +1394,8 @@ locations:
     - NJU-QV
     - Selonat
     adjacentRegions:
-    - OuterRing
-    - CloudRing
+    - Outer Ring
+    - Cloud Ring
     - Delve
     - Aridia
     adjacentSystems:
@@ -1443,10 +1443,10 @@ locations:
     - Rollera
     - A3-T8B
     adjacentRegions:
-    - GreatWildlands
-    - TheForge
-    - TheKalevalaExpanse
-    - ValeoftheSilent
+    - Great Wildlands
+    - The Forge
+    - The Kalevala Expanse
+    - Vale of the Silent
     - Metropolis
     adjacentSystems:
     - K-IYNW
@@ -1497,8 +1497,8 @@ locations:
     - Aridia
     - Essence
     - Everyshore
-    - VergeVendor
-    - SinqLaison
+    - Verge Vendor
+    - Sinq Laison
     - Kador
     - Kor-Azor
     adjacentSystems:
@@ -1544,7 +1544,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Genesis
-  GreatWildlands:
+  Great Wildlands:
     adjacentConstellations:
     - 1VN-XC
     - 02QH-A
@@ -1556,9 +1556,9 @@ locations:
     - 4YFT-F
     - Elysium
     adjacentRegions:
-    - EtheriumReach
-    - ScaldingPass
-    - MoldenHeath
+    - Etherium Reach
+    - Scalding Pass
+    - Molden Heath
     - Derelik
     - Geminate
     - Cache
@@ -1593,7 +1593,7 @@ locations:
     id: 10000011
     isKS: true
     isWormhole: false
-    name: GreatWildlands
+    name: Great Wildlands
   H-R00032:
     constellations:
     - H-C00331
@@ -1606,7 +1606,7 @@ locations:
   Heimatar:
     adjacentConstellations:
     - Hevaka
-    - SanMatar
+    - San Matar
     - Gedur
     - Meinigefur
     - Fittakan
@@ -1623,9 +1623,9 @@ locations:
     adjacentRegions:
     - Derelik
     - Metropolis
-    - MoldenHeath
-    - TheBleakLands
-    - SinqLaison
+    - Molden Heath
+    - The Bleak Lands
+    - Sinq Laison
     - Devoid
     adjacentSystems:
     - Uplingur
@@ -1741,12 +1741,12 @@ locations:
     - DJ-XCW
     - DITJ-X
     adjacentRegions:
-    - EtheriumReach
-    - ScaldingPass
+    - Etherium Reach
+    - Scalding Pass
     - Cache
-    - TheSpire
+    - The Spire
     - Detorid
-    - WickedCreek
+    - Wicked Creek
     adjacentSystems:
     - G-QTSD
     - 6-EQYE
@@ -1814,7 +1814,7 @@ locations:
   Kador:
     adjacentConstellations:
     - Mih
-    - ThroneWorlds
+    - Throne Worlds
     - Gebem
     - Nimedaz
     - Somi
@@ -1918,7 +1918,7 @@ locations:
     - Amdimmah
     - Meli
     - Febihkin
-    - ThroneWorlds
+    - Throne Worlds
     - Trigentia
     - Finaka
     - Mazake
@@ -1973,11 +1973,11 @@ locations:
     - Otawasa
     - Ieyama
     adjacentRegions:
-    - BlackRise
-    - TheCitadel
-    - TheForge
+    - Black Rise
+    - The Citadel
+    - The Forge
     - Tribute
-    - PureBlind
+    - Pure Blind
     adjacentSystems:
     - Raihbaka
     - Tama
@@ -1989,7 +1989,7 @@ locations:
     - Obe
     - 93PI-4
     - Sarenemi
-    - NewCaldari
+    - New Caldari
     - Onnamon
     - Alikara
     - Aikoro
@@ -2029,10 +2029,10 @@ locations:
     - NT1-5Q
     - S4S-SD
     adjacentRegions:
-    - EtheriumReach
-    - TheKalevalaExpanse
-    - PerrigenFalls
-    - TheSpire
+    - Etherium Reach
+    - The Kalevala Expanse
+    - Perrigen Falls
+    - The Spire
     - Oasa
     adjacentSystems:
     - N06Z-Q
@@ -2087,12 +2087,12 @@ locations:
     - Akimamur
     adjacentRegions:
     - Heimatar
-    - TheForge
-    - SinqLaison
-    - TheBleakLands
-    - GreatWildlands
+    - The Forge
+    - Sinq Laison
+    - The Bleak Lands
+    - Great Wildlands
     - Geminate
-    - MoldenHeath
+    - Molden Heath
     adjacentSystems:
     - Meirakulf
     - Vullat
@@ -2141,7 +2141,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Metropolis
-  MoldenHeath:
+  Molden Heath:
     adjacentConstellations:
     - Osta
     - Erada
@@ -2152,9 +2152,9 @@ locations:
     adjacentRegions:
     - Heimatar
     - Metropolis
-    - EtheriumReach
+    - Etherium Reach
     - Derelik
-    - GreatWildlands
+    - Great Wildlands
     adjacentSystems:
     - Austraka
     - Magiko
@@ -2172,7 +2172,7 @@ locations:
     id: 10000028
     isKS: true
     isWormhole: false
-    name: MoldenHeath
+    name: Molden Heath
   Oasa:
     adjacentConstellations:
     - 1M4-FN
@@ -2188,9 +2188,9 @@ locations:
     - WXB-RY
     adjacentRegions:
     - Malpais
-    - CobaltEdge
-    - PerrigenFalls
-    - TheSpire
+    - Cobalt Edge
+    - Perrigen Falls
+    - The Spire
     adjacentSystems:
     - O8W-5O
     - 863P-X
@@ -2246,7 +2246,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Omist
-  OuterPassage:
+  Outer Passage:
     adjacentConstellations:
     - FQ-COP
     - LWMW-6
@@ -2257,9 +2257,9 @@ locations:
     - E65-47
     adjacentRegions:
     - Cache
-    - PerrigenFalls
-    - CobaltEdge
-    - TheSpire
+    - Perrigen Falls
+    - Cobalt Edge
+    - The Spire
     adjacentSystems:
     - LJ-RJK
     - PFV-ZH
@@ -2286,8 +2286,8 @@ locations:
     id: 10000021
     isKS: true
     isWormhole: false
-    name: OuterPassage
-  OuterRing:
+    name: Outer Passage
+  Outer Ring:
     adjacentConstellations:
     - Yrton
     - YFN-UN
@@ -2296,7 +2296,7 @@ locations:
     - SKX-PL
     - Pegasus
     adjacentRegions:
-    - CloudRing
+    - Cloud Ring
     - Syndicate
     - Fountain
     adjacentSystems:
@@ -2319,15 +2319,15 @@ locations:
     id: 10000057
     isKS: true
     isWormhole: false
-    name: OuterRing
-  ParagonSoul:
+    name: Outer Ring
+  Paragon Soul:
     adjacentConstellations:
     - FY6-NK
     - E-ILCH
     - N-39FI
     adjacentRegions:
     - Esoteria
-    - PeriodBasis
+    - Period Basis
     adjacentSystems:
     - KSM-1T
     - SN9S-N
@@ -2343,8 +2343,8 @@ locations:
     id: 10000059
     isKS: true
     isWormhole: false
-    name: ParagonSoul
-  PeriodBasis:
+    name: Paragon Soul
+  Period Basis:
     adjacentConstellations:
     - OK-FEM
     - W-ULNA
@@ -2352,7 +2352,7 @@ locations:
     adjacentRegions:
     - Delve
     - Stain
-    - ParagonSoul
+    - Paragon Soul
     adjacentSystems:
     - LWX-93
     - CJF-1P
@@ -2368,8 +2368,8 @@ locations:
     id: 10000063
     isKS: true
     isWormhole: false
-    name: PeriodBasis
-  PerrigenFalls:
+    name: Period Basis
+  Perrigen Falls:
     adjacentConstellations:
     - E65-47
     - E1L-UY
@@ -2386,12 +2386,12 @@ locations:
     - 1M4-FN
     - D-YKXH
     adjacentRegions:
-    - TheSpire
+    - The Spire
     - Malpais
     - Oasa
-    - EtheriumReach
+    - Etherium Reach
     - Venal
-    - OuterPassage
+    - Outer Passage
     adjacentSystems:
     - OTJ9-E
     - EU-WFW
@@ -2426,7 +2426,7 @@ locations:
     id: 10000066
     isKS: true
     isWormhole: false
-    name: PerrigenFalls
+    name: Perrigen Falls
   Placid:
     adjacentConstellations:
     - S4GH-I
@@ -2439,11 +2439,11 @@ locations:
     - Inolari
     - Patrie
     adjacentRegions:
-    - PureBlind
-    - VergeVendor
+    - Pure Blind
+    - Verge Vendor
     - Syndicate
-    - BlackRise
-    - CloudRing
+    - Black Rise
+    - Cloud Ring
     - Essence
     adjacentSystems:
     - RQH-MY
@@ -2515,7 +2515,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Providence
-  PureBlind:
+  Pure Blind:
     adjacentConstellations:
     - Serthoulde
     - XFLN-F
@@ -2527,7 +2527,7 @@ locations:
     adjacentRegions:
     - Placid
     - Fade
-    - CloudRing
+    - Cloud Ring
     - Lonetrek
     - Tribute
     adjacentSystems:
@@ -2556,7 +2556,7 @@ locations:
     id: 10000023
     isKS: true
     isWormhole: false
-    name: PureBlind
+    name: Pure Blind
   Querious:
     adjacentConstellations:
     - BRP2-K
@@ -2598,7 +2598,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Querious
-  ScaldingPass:
+  Scalding Pass:
     adjacentConstellations:
     - QA-P7J
     - 5Y1E-3
@@ -2616,9 +2616,9 @@ locations:
     - 3GK-WS
     adjacentRegions:
     - Insmother
-    - WickedCreek
+    - Wicked Creek
     - Curse
-    - GreatWildlands
+    - Great Wildlands
     adjacentSystems:
     - MSG-BZ
     - TP7-KE
@@ -2653,8 +2653,8 @@ locations:
     id: 10000008
     isKS: true
     isWormhole: false
-    name: ScaldingPass
-  SinqLaison:
+    name: Scalding Pass
+  Sinq Laison:
     adjacentConstellations:
     - Crux
     - Odilis
@@ -2670,7 +2670,7 @@ locations:
     - Balrille
     - Fua
     - Chasnaye
-    - CaldariBorderZone
+    - Caldari Border Zone
     - Kimotoro
     adjacentRegions:
     - Essence
@@ -2678,10 +2678,10 @@ locations:
     - Metropolis
     - Heimatar
     - Genesis
-    - TheBleakLands
+    - The Bleak Lands
     - Domain
-    - TheCitadel
-    - TheForge
+    - The Citadel
+    - The Forge
     adjacentSystems:
     - Duripant
     - Ethernity
@@ -2728,7 +2728,7 @@ locations:
     id: 10000032
     isKS: true
     isWormhole: false
-    name: SinqLaison
+    name: Sinq Laison
   Solitude:
     adjacentConstellations:
     - 59H-0G
@@ -2760,7 +2760,7 @@ locations:
     adjacentRegions:
     - Esoteria
     - Catch
-    - PeriodBasis
+    - Period Basis
     adjacentSystems:
     - VYJ-DA
     - 3GD6-8
@@ -2800,9 +2800,9 @@ locations:
     - Braille
     - Elose
     adjacentRegions:
-    - OuterRing
-    - VergeVendor
-    - CloudRing
+    - Outer Ring
+    - Verge Vendor
+    - Cloud Ring
     - Placid
     - Solitude
     adjacentSystems:
@@ -2900,7 +2900,7 @@ locations:
     - 0C-PZ4
     adjacentRegions:
     - Branch
-    - CobaltEdge
+    - Cobalt Edge
     - Venal
     adjacentSystems:
     - CH9L-K
@@ -2968,7 +2968,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tenerifis
-  TheBleakLands:
+  The Bleak Lands:
     adjacentConstellations:
     - Jayai
     - Eugidi
@@ -2983,7 +2983,7 @@ locations:
     adjacentRegions:
     - Devoid
     - Metropolis
-    - SinqLaison
+    - Sinq Laison
     - Domain
     - Heimatar
     adjacentSystems:
@@ -3007,8 +3007,8 @@ locations:
     id: 10000038
     isKS: true
     isWormhole: false
-    name: TheBleakLands
-  TheCitadel:
+    name: The Bleak Lands
+  The Citadel:
     adjacentConstellations:
     - Jeon
     - Aideron
@@ -3028,12 +3028,12 @@ locations:
     - Thoulde
     adjacentRegions:
     - Essence
-    - VergeVendor
+    - Verge Vendor
     - Lonetrek
-    - BlackRise
-    - TheForge
+    - Black Rise
+    - The Forge
     - Domain
-    - SinqLaison
+    - Sinq Laison
     adjacentSystems:
     - Deven
     - Tierijev
@@ -3046,7 +3046,7 @@ locations:
     - Mara
     - Vellaine
     - Isanamo
-    - NewCaldari
+    - New Caldari
     - Tunttaras
     - Funtanainen
     - Isikemi
@@ -3075,8 +3075,8 @@ locations:
     id: 10000033
     isKS: true
     isWormhole: false
-    name: TheCitadel
-  TheForge:
+    name: The Citadel
+  The Forge:
     adjacentConstellations:
     - Okela
     - IPS-QB
@@ -3086,7 +3086,7 @@ locations:
     - Sela
     - Arekin
     - Tasen
-    - GallenteBorderZone
+    - Gallente Border Zone
     - Z-DO53
     - Mito
     - F-ZNNG
@@ -3096,11 +3096,11 @@ locations:
     adjacentRegions:
     - Lonetrek
     - Geminate
-    - TheCitadel
-    - SinqLaison
-    - ValeoftheSilent
+    - The Citadel
+    - Sinq Laison
+    - Vale of the Silent
     - Metropolis
-    - EtheriumReach
+    - Etherium Reach
     adjacentSystems:
     - Tunttaras
     - BWF-ZZ
@@ -3135,8 +3135,8 @@ locations:
     id: 10000002
     isKS: true
     isWormhole: false
-    name: TheForge
-  TheKalevalaExpanse:
+    name: The Forge
+  The Kalevala Expanse:
     adjacentConstellations:
     - V1G-63
     - 8AO-5V
@@ -3149,9 +3149,9 @@ locations:
     - 9KX-M0
     adjacentRegions:
     - Geminate
-    - EtheriumReach
+    - Etherium Reach
     - Malpais
-    - ValeoftheSilent
+    - Vale of the Silent
     adjacentSystems:
     - 9P4O-F
     - TZ-74M
@@ -3176,8 +3176,8 @@ locations:
     id: 10000034
     isKS: true
     isWormhole: false
-    name: TheKalevalaExpanse
-  TheSpire:
+    name: The Kalevala Expanse
+  The Spire:
     adjacentConstellations:
     - S0X-O4
     - 2FYX-H
@@ -3192,10 +3192,10 @@ locations:
     - 5HN-S5
     - B-D245
     adjacentRegions:
-    - PerrigenFalls
-    - OuterPassage
+    - Perrigen Falls
+    - Outer Passage
     - Insmother
-    - EtheriumReach
+    - Etherium Reach
     - Oasa
     - Malpais
     - Cache
@@ -3228,7 +3228,7 @@ locations:
     id: 10000018
     isKS: true
     isWormhole: false
-    name: TheSpire
+    name: The Spire
   Tribute:
     adjacentConstellations:
     - N32Z-Z
@@ -3242,8 +3242,8 @@ locations:
     - Mito
     adjacentRegions:
     - Venal
-    - ValeoftheSilent
-    - PureBlind
+    - Vale of the Silent
+    - Pure Blind
     - Lonetrek
     adjacentSystems:
     - 3A1P-N
@@ -3290,7 +3290,7 @@ locations:
     isKS: false
     isWormhole: false
     name: UUA-F4
-  ValeoftheSilent:
+  Vale of the Silent:
     adjacentConstellations:
     - LLAP-1
     - Orpana
@@ -3302,9 +3302,9 @@ locations:
     - 6-CBBM
     adjacentRegions:
     - Tribute
-    - TheForge
+    - The Forge
     - Geminate
-    - TheKalevalaExpanse
+    - The Kalevala Expanse
     adjacentSystems:
     - MSHD-4
     - Obe
@@ -3336,7 +3336,7 @@ locations:
     id: 10000003
     isKS: true
     isWormhole: false
-    name: ValeoftheSilent
+    name: Vale of the Silent
   Venal:
     adjacentConstellations:
     - JE7-F2
@@ -3351,7 +3351,7 @@ locations:
     - 52-JKU
     adjacentRegions:
     - Branch
-    - PerrigenFalls
+    - Perrigen Falls
     - Deklein
     - Tribute
     - Tenal
@@ -3385,7 +3385,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Venal
-  VergeVendor:
+  Verge Vendor:
     adjacentConstellations:
     - Patrie
     - Jeon
@@ -3403,7 +3403,7 @@ locations:
     - Placid
     - Syndicate
     - Genesis
-    - TheCitadel
+    - The Citadel
     adjacentSystems:
     - Mesybier
     - Indregulle
@@ -3430,8 +3430,8 @@ locations:
     id: 10000068
     isKS: true
     isWormhole: false
-    name: VergeVendor
-  WickedCreek:
+    name: Verge Vendor
+  Wicked Creek:
     adjacentConstellations:
     - GJH-1C
     - MZ-PA2
@@ -3444,7 +3444,7 @@ locations:
     - 5F8-PZ
     adjacentRegions:
     - Detorid
-    - ScaldingPass
+    - Scalding Pass
     - Insmother
     adjacentSystems:
     - OEG-K9
@@ -3476,4 +3476,4 @@ locations:
     id: 10000006
     isKS: true
     isWormhole: false
-    name: WickedCreek
+    name: Wicked Creek
