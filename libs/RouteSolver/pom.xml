@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>fr.guiguilechat.jcelechat</groupId>
+    <artifactId>libs</artifactId>
+    <version>5.4.3</version>
+  </parent>
+  <groupId>fr.guiguilechat.jcelechat.libs</groupId>
+  <artifactId>RouteSolver</artifactId>
+  <name>RouteSolver</name>
+  <description>solve a route generation in Eve</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+  		<artifactId>SDE-Locations</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
+  		<artifactId>JCESI</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-simple</artifactId>
+  		<optional>true</optional>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.choco-solver</groupId>
+  		<artifactId>choco-solver</artifactId>
+  	</dependency>
+  </dependencies>
+</project>

@@ -209,6 +209,7 @@ public class LocationsTranslater {
 		}
 		c.name = constelName;
 		c.id = constellation.constellationID;
+		c.region = regionName;
 		c.isWormhole = rtype == REGION_TYPE.WORMHOLE;
 		c.isKS = rtype == REGION_TYPE.KS;
 		return c;

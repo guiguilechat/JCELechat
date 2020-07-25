@@ -103,6 +103,8 @@ public class Constellation extends ALocation {
 
 	// structure
 
+	public String region;
+
 	public ArrayList<String> systems = new ArrayList<>();
 
 	public boolean hasCorridor = false;

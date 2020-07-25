@@ -104,6 +104,14 @@ public class SolarSystem extends ALocation {
 
 	public String constellation, region;
 
+	public Constellation constellation() {
+		return Constellation.getConstellation(constellation);
+	}
+
+	public Region region() {
+		return Region.getRegion(region);
+	}
+
 	public boolean isCorridor = false;
 	public boolean isBorder = false;
 	public boolean isFringe = false;

@@ -14,6 +14,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>RefineSolver</module>
+		<module>RouteSolver</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
@@ -31,6 +32,11 @@
 				<groupId>org.choco-solver</groupId>
 				<artifactId>choco-solver</artifactId>
 				<version>4.10.2</version>
+			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+				<artifactId>SDE-Locations</artifactId>
+				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
