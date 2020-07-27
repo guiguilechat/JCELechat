@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.routesolver;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -14,7 +15,7 @@ public class RouteParams {
 		return SolarSystem.getSystem(startSystem);
 	}
 
-	public RouteParams witStart(String start) {
+	public RouteParams withStart(String start) {
 		startSystem = start;
 		return this;
 	}
@@ -28,7 +29,7 @@ public class RouteParams {
 		return stopSystem == null ? SolarSystem.getSystem(startSystem) : SolarSystem.getSystem(stopSystem);
 	}
 
-	public RouteParams witStop(String stop) {
+	public RouteParams withStop(String stop) {
 		stopSystem = stop;
 		return this;
 	}
@@ -39,16 +40,31 @@ public class RouteParams {
 	 */
 	public Set<String> includeRegions = new HashSet<>();
 
+	public RouteParams withIncludeRegions(String... regions) {
+		includeRegions.addAll(Arrays.asList(regions));
+		return this;
+	}
+
 	/**
 	 * the route must visit all the systems in those constellations when they are
 	 * reachable from start system.
 	 */
-	public Set<String> includeConstellation = new HashSet<>();
+	public Set<String> includeConstellations = new HashSet<>();
+
+	public RouteParams withIncludeConstellations(String... constellations) {
+		includeConstellations.addAll(Arrays.asList(constellations));
+		return this;
+	}
 
 	/**
 	 * the route must visit all those systems.
 	 */
 	public Set<String> includeSystems = new HashSet<>();
+
+	public RouteParams withIncludeSystem(String... systems) {
+		includeSystems.addAll(Arrays.asList(systems));
+		return this;
+	}
 
 	/**
 	 * if true, only go to systems that are in the same security status (HS, NS,
@@ -56,12 +72,22 @@ public class RouteParams {
 	 */
 	public boolean keepSec = true;
 
+	public RouteParams withKeepSec(boolean keepSec) {
+		this.keepSec = keepSec;
+		return this;
+	}
+
 	/**
 	 * if true, only visit systems that are in the include list. Of course this
 	 * makes no sense if the start or stop is not reachable from at least one of
 	 * those.
 	 */
 	public boolean limitSystems = false;
+
+	public RouteParams withLimitSystems(boolean limits) {
+		limitSystems = limits;
+		return this;
+	}
 
 	public Route solve() {
 		return null;

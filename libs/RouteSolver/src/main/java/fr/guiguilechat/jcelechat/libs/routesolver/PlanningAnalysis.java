@@ -5,8 +5,12 @@ import java.util.EnumSet;
 import java.util.LinkedHashSet;
 import java.util.function.Predicate;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.jcelechat.model.sde.locations.Constellation;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
+import fr.guiguilechat.jcelechat.model.sde.locations.Route;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
 
@@ -22,7 +26,7 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
  *
  * <p>
  * implicit required systems are those in the included
- * {@link RouteParams#includeConstellation constellations} and
+ * {@link RouteParams#includeConstellations constellations} and
  * {@link RouteParams#includeRegions regions} that share the security status
  * with one explicit required system, or all of them if
  * {@link RouteParams#keepSec} is set to false.
@@ -35,6 +39,8 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
  */
 public class PlanningAnalysis {
 
+	private static final Logger logger = LoggerFactory.getLogger(PlanningAnalysis.class);
+
 	private final RouteParams params;
 
 	public LinkedHashSet<SolarSystem> required = new LinkedHashSet<>();
@@ -46,44 +52,67 @@ public class PlanningAnalysis {
 	}
 
 	protected void build() {
-		required.add(params.start());
-		required.add(params.stop());
+		SolarSystem start = params.start();
+		SolarSystem stop = params.stop();
+		required.add(start);
+		required.add(stop);
 		for (String sn : params.includeSystems) {
 			SolarSystem ss = SolarSystem.getSystem(sn);
 			if (ss == null) {
-				System.err.println("no system for " + sn);
+				logger.error("no system for " + sn);
 			}
 			required.add(ss);
 		}
 
 		// which security of included constellations and regions are allowed for
 		// implicit systems ?
-		EnumSet<SolarSystem.SECSTATUS> allowed = EnumSet.noneOf(SECSTATUS.class);
+		EnumSet<SolarSystem.SECSTATUS> allowedSecStatus = EnumSet.noneOf(SECSTATUS.class);
 		if (params.keepSec) {
 			for (SolarSystem ss : required) {
-				allowed.add(ss.secStatus());
+				allowedSecStatus.add(ss.secStatus());
 			}
 		} else {
-			allowed.addAll(Arrays.asList(SECSTATUS.values()));
+			allowedSecStatus.addAll(Arrays.asList(SECSTATUS.values()));
+		}
+		SECSTATUS[] ssArr = allowedSecStatus.toArray(SECSTATUS[]::new);
+
+		// check that each explicitly required system, besides the source, is
+		// reachable from source
+		if (params.keepSec) {
+			for (SolarSystem ss : required) {
+				if (ss != start) {
+					int[] route = Route.route(start.id, ss.id, ssArr);
+					if (route == null || route.length == 0) {
+						logger.warn("can't find route from " + start.name + " to " + ss.name
+								+ " that only matches systems secutiry " + allowedSecStatus);
+					}
+				}
+			}
 		}
 
 		// add the implicit required systems.
-		Predicate<SolarSystem> implicitRequiredFilter = ss -> allowed.contains(ss.secStatus());
-		for (String cn : params.includeConstellation) {
+		Predicate<SolarSystem> implicitRequiredFilter = ss -> allowedSecStatus.contains(ss.secStatus())
+				&& Route.route(start.id, ss.id, ssArr).length > 0;
+		for (String cn : params.includeConstellations) {
 			Constellation cs = Constellation.getConstellation(cn);
 			cs.systems.stream().map(SolarSystem::getSystem).filter(implicitRequiredFilter).forEach(required::add);
 		}
-		for (String rn : params.includeConstellation) {
+		for (String rn : params.includeRegions) {
 			Region rg = Region.getRegion(rn);
 			rg.systems().map(SolarSystem::getSystem).filter(implicitRequiredFilter).forEach(required::add);
 		}
-
 		// then add the optional systems.
 		if (!params.limitSystems) {
 			for (SolarSystem ss1 : required) {
 				for (SolarSystem ss2 : required) {
 					if (ss1.name.compareTo(ss2.name) < 0) {
-
+						int[] intermediates = Route.route(ss1.id, ss2.id, ssArr);
+						for (int i = 0; i < intermediates.length - 1; i++) {
+							SolarSystem intermediate = SolarSystem.getSystem(intermediates[i]);
+							if (!required.contains(intermediate)) {
+								optional.add(intermediate);
+							}
+						}
 					}
 				}
 			}
