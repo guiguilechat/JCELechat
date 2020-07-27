@@ -142,7 +142,7 @@ public class PraisalController {
 	protected void load() {
 		LocationHelper.initRegion(regionSelect1);
 		LocationHelper.initRegion(regionSelect2);
-		Region theforge = Region.getRegion("TheForge");
+		Region theforge = Region.getRegion("The Forge");
 		Platform.runLater(() -> {
 			regionSelect1.getSelectionModel().select(theforge);
 			regionSelect2.getSelectionModel().select(theforge);

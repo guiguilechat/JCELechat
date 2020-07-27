@@ -46,13 +46,13 @@ public class RouteParams {
 	public Set<String> includeConstellation = new HashSet<>();
 
 	/**
-	 * the route must visit all those systems when they are reachable.
+	 * the route must visit all those systems.
 	 */
 	public Set<String> includeSystems = new HashSet<>();
 
 	/**
 	 * if true, only go to systems that are in the same security status (HS, NS,
-	 * LS) than the start or stop systems.
+	 * LS) than the start, stop and included systems.
 	 */
 	public boolean keepSec = true;
 
@@ -62,5 +62,9 @@ public class RouteParams {
 	 * those.
 	 */
 	public boolean limitSystems = false;
+
+	public Route solve() {
+		return null;
+	}
 
 }

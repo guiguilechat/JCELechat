@@ -120,6 +120,14 @@ public class SolarSystem extends ALocation {
 
 	// helper
 
+	public static enum SECSTATUS {
+		HS, LS, NS;
+	}
+
+	public SECSTATUS secStatus() {
+		return truesec > 0.45 ? SECSTATUS.HS : truesec <= 0 ? SECSTATUS.NS : SECSTATUS.LS;
+	}
+
 	public boolean isHS() {
 		return truesec > 0.45;
 	}
@@ -129,7 +137,7 @@ public class SolarSystem extends ALocation {
 	}
 
 	public boolean isNS() {
-		return 0 > truesec;
+		return 0 >= truesec;
 	}
 
 	@Override

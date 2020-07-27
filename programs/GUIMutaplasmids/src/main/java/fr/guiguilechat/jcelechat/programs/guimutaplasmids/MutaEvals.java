@@ -102,7 +102,7 @@ public class MutaEvals extends Application {
 				(ChangeListener<MutaplasmidFamily>) (observable, oldValue, newValue) -> updateAttributes(newValue));
 
 		regionMarket = new ChoiceBox<>(FXCollections.observableArrayList(Region.load().keySet()));
-		regionMarket.getSelectionModel().select("TheForge");
+		regionMarket.getSelectionModel().select("The Forge");
 		regionMarket.getSelectionModel().selectedItemProperty()
 		.addListener((ChangeListener<String>) (observable, oldValue, newValue) -> {
 			updateTableItems();

@@ -42,7 +42,7 @@ public class MakeStats {
 
 	public static void main(String[] args) {
 		LootParser bp = new LootParser();
-		RegionalMarket em = ESIModel.INSTANCE.markets.getMarket(Region.load().get("TheForge").id);
+		RegionalMarket em = ESIModel.INSTANCE.markets.getMarket(Region.load().get("The Forge").id);
 		File srcDir = new File("src/main/resources");
 		srcDir.mkdirs();
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;

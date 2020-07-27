@@ -60,7 +60,7 @@ public class OreWorthController {
 		table.setItems(FXCollections.observableArrayList());
 
 		new Thread(this::load).start();
-		regionSelect.getSelectionModel().select(Region.getRegion("TheForge"));
+		regionSelect.getSelectionModel().select(Region.getRegion("The Forge"));
 	}
 
 	protected void load() {

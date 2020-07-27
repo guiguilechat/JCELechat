@@ -28,7 +28,7 @@ public class ExampleStaticAccess {
 		/**
 		 * some access have pages, we can fetch all the pages using this
 		 * method<br />
-		 * get all the page of present BUY orders in TheForge for Veldpsar,
+		 * get all the page of present BUY orders in The Forge for Veldpsar,
 		 */
 		List<R_get_markets_region_id_orders> bos = stat
 				.requestGetPages((p, h) -> stat.get_markets_orders(order_type.buy, p, theforge, veldspar, h), null).getOK();
