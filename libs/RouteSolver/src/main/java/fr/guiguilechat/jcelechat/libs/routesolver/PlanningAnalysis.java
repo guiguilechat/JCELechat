@@ -2,8 +2,11 @@ package fr.guiguilechat.jcelechat.libs.routesolver;
 
 import java.util.Arrays;
 import java.util.EnumSet;
+import java.util.HashMap;
 import java.util.LinkedHashSet;
+import java.util.Map;
 import java.util.function.Predicate;
+import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,6 +48,18 @@ public class PlanningAnalysis {
 
 	public LinkedHashSet<SolarSystem> required = new LinkedHashSet<>();
 	public LinkedHashSet<SolarSystem> optional = new LinkedHashSet<>();
+
+	public Map<SolarSystem, Integer> system2Index = new HashMap<>();
+
+	public int system(SolarSystem ss) {
+		return system2Index.getOrDefault(ss, -1);
+	}
+
+	public SolarSystem[] index2system;
+
+	public SolarSystem system(int index) {
+		return index2system[index];
+	}
 
 	public PlanningAnalysis(RouteParams params) {
 		this.params = params;
@@ -93,30 +108,35 @@ public class PlanningAnalysis {
 		// add the implicit required systems.
 		Predicate<SolarSystem> implicitRequiredFilter = ss -> allowedSecStatus.contains(ss.secStatus())
 				&& Route.route(start.id, ss.id, ssArr).length > 0;
-		for (String cn : params.includeConstellations) {
-			Constellation cs = Constellation.getConstellation(cn);
-			cs.systems.stream().map(SolarSystem::getSystem).filter(implicitRequiredFilter).forEach(required::add);
-		}
-		for (String rn : params.includeRegions) {
-			Region rg = Region.getRegion(rn);
-			rg.systems().map(SolarSystem::getSystem).filter(implicitRequiredFilter).forEach(required::add);
-		}
-		// then add the optional systems.
-		if (!params.limitSystems) {
-			for (SolarSystem ss1 : required) {
-				for (SolarSystem ss2 : required) {
-					if (ss1.name.compareTo(ss2.name) < 0) {
-						int[] intermediates = Route.route(ss1.id, ss2.id, ssArr);
-						for (int i = 0; i < intermediates.length - 1; i++) {
-							SolarSystem intermediate = SolarSystem.getSystem(intermediates[i]);
-							if (!required.contains(intermediate)) {
-								optional.add(intermediate);
+				for (String cn : params.includeConstellations) {
+					Constellation cs = Constellation.getConstellation(cn);
+					cs.systems.stream().map(SolarSystem::getSystem).filter(implicitRequiredFilter).forEach(required::add);
+				}
+				for (String rn : params.includeRegions) {
+					Region rg = Region.getRegion(rn);
+					rg.systems().map(SolarSystem::getSystem).filter(implicitRequiredFilter).forEach(required::add);
+				}
+				// then add the optional systems.
+				if (!params.limitSystems) {
+					for (SolarSystem ss1 : required) {
+						for (SolarSystem ss2 : required) {
+							if (ss1.name.compareTo(ss2.name) < 0) {
+								int[] intermediates = Route.route(ss1.id, ss2.id, ssArr);
+								for (int i = 0; i < intermediates.length - 1; i++) {
+									SolarSystem intermediate = SolarSystem.getSystem(intermediates[i]);
+									if (!required.contains(intermediate)) {
+										optional.add(intermediate);
+									}
+								}
 							}
 						}
 					}
 				}
-			}
-		}
+
+				index2system = Stream.concat(required.stream(), optional.stream()).toArray(SolarSystem[]::new);
+				for (int i = 0; i < index2system.length; i++) {
+					system2Index.put(index2system[i], i);
+				}
 
 	}
 
