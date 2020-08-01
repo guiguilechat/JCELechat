@@ -56,7 +56,7 @@ public class RegionTypeHistory {
 	 *         {@link DateTimeFormatter#ISO_LOCAL_DATE} format.
 	 */
 	private static String daysAgo(int days) {
-		return LocalDate.now(Clock.systemUTC()).minusDays(days - 1).format(DateTimeFormatter.ISO_LOCAL_DATE);
+		return LocalDate.now(Clock.systemUTC()).minusDays(days).format(DateTimeFormatter.ISO_LOCAL_DATE);
 	}
 
 	// limited history over a max given number of days.
@@ -259,8 +259,6 @@ public class RegionTypeHistory {
 							} else {
 								int lowIndex = (int) Math.floor(resultIndex - missingdays);
 								if (lowIndex == dailySoVolumesInc.length - 1) {
-									System.err.println("typeID=" + typeID + " entries=" + dailySoVolumesInc.length + " over " + nbDays
-											+ " days, " + " missingdays=" + missingdays + " resultindex=" + resultIndex);
 									volume = Math.round(dailySoVolumesInc[dailySoVolumesInc.length - 1]);
 								} else {
 									double highBoundratio = resultIndex - missingdays - lowIndex;
@@ -318,7 +316,8 @@ public class RegionTypeHistory {
 		ObsListHolderImpl<R_get_markets_region_id_history> ret = new ObsListHolderImpl<>(internal);
 		history.follow((l) -> {
 			internal.clear();
-			withinDays(l, maxDays).forEach(internal::add);
+			List<R_get_markets_region_id_history> list = withinDays(l, maxDays).collect(Collectors.toList());
+			internal.addAll(list);
 			ret.dataReceived();
 		});
 		return ret;

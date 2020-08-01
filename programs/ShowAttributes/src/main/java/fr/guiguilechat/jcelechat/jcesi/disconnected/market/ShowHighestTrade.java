@@ -42,6 +42,7 @@ public class ShowHighestTrade {
 	public static void main(String[] args) {
 		int region = 10000002;
 		RegionalMarket market = ESIModel.INSTANCE.markets.getMarket(region);
+		// ESIStatic.INSTANCE.cache.markets.types(region);
 		List<EveType> types = Stream
 				.of(Accessories.METACAT, AncientRelics.METACAT, Apparel.METACAT, Asteroid.METACAT, Blueprint.METACAT,
 						Charge.METACAT, Commodity.METACAT, Decryptors.METACAT, Deployable.METACAT, Drone.METACAT, Fighter.METACAT,

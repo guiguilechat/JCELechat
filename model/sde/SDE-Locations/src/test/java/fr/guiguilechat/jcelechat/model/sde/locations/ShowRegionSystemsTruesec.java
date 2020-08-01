@@ -15,7 +15,8 @@ public class ShowRegionSystemsTruesec {
 		if (nexts) {
 			regions = Stream.concat(regions, reg.adjacentRegions.stream().map(Region::getRegion));
 		}
-		regions.flatMap(Region::systems).sorted().map(SolarSystem::getSystem)
+		regions.flatMap(Region::systems).sorted((s1, s2) -> s1.toLowerCase().compareTo(s2.toLowerCase()))
+		.map(SolarSystem::getSystem)
 		.forEach(s -> System.out.println(s.name + "\t" + s.truesec));
 	}
 
