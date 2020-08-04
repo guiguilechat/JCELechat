@@ -194,6 +194,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's Amarr 'Loyalist' Beret:
+    gender: 2
+    id: 55755
+    marketGroup: 1943
+    name: Men's Amarr 'Loyalist' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Aurora Universalis Cap:
     gender: 2
     id: 53384
@@ -565,6 +574,15 @@ types:
     id: 55754
     marketGroup: 1943
     name: Women's 'Valkear' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Amarr 'Loyalist' Beret:
+    gender: 2
+    id: 55751
+    marketGroup: 1943
+    name: Women's Amarr 'Loyalist' Beret
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

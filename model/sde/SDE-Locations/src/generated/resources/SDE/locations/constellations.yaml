@@ -16,6 +16,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0-8MWQ
+    region: Vale of the Silent
     systems:
     - VI2K-J
     - 6Y-WRK
@@ -36,6 +37,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0-YMZM
+    region: Insmother
     systems:
     - 9OLQ-6
     - Q-3HS5
@@ -63,6 +65,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 02QH-A
+    region: Scalding Pass
     systems:
     - U2-28D
     - 6-EQYE
@@ -83,6 +86,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 03C-SU
+    region: Tribute
     systems:
     - C8VC-S
     - W-UQA5
@@ -111,6 +115,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 04-H4M
+    region: Providence
     systems:
     - 8B-VLX
     - R3-K7K
@@ -133,6 +138,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 04-LOF
+    region: Oasa
     systems:
     - BQ0-UU
     - 3-JG3X
@@ -149,6 +155,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 05-1B6
+    region: J7HZ-F
     systems:
     - TNK-BQ
     - THS-MN
@@ -169,6 +176,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 05M-I1
+    region: Impass
     systems:
     - 01TG-J
     - A1BK-A
@@ -196,6 +204,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 09-4XW
+    region: Tenal
     systems:
     - 1QH-0K
     - ZH3-BS
@@ -220,6 +229,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0A-73B
+    region: Pure Blind
     systems:
     - UI-8ZE
     - OGV-AS
@@ -254,6 +264,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0C-PZ4
+    region: Branch
     systems:
     - S-B7IT
     - JRZ-B9
@@ -282,6 +293,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0EA3-8
+    region: Insmother
     systems:
     - RQN-OO
     - GDHN-K
@@ -308,6 +320,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0FC-ZX
+    region: Wicked Creek
     systems:
     - W-QN5X
     - 30-YOU
@@ -341,6 +354,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0HD-6C
+    region: Venal
     systems:
     - Z3U-GI
     - 42XJ-N
@@ -361,6 +375,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0KTC-R
+    region: Venal
     systems:
     - ZD4-G9
     - L-IE41
@@ -387,6 +402,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0PS-L5
+    region: Oasa
     systems:
     - 0-QP56
     - ORB4-J
@@ -404,6 +420,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 0VFS-G
+    region: UUA-F4
     systems:
     - 9K-VDI
     - U8MM-3
@@ -435,6 +452,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 0YMH-Q
+    region: Insmother
     systems:
     - EFM-C4
     - 74-VZA
@@ -455,6 +473,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 1-A81R
+    region: Delve
     systems:
     - Y5C-YD
     - 31X-RE
@@ -471,6 +490,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 1-Z95W
+    region: J7HZ-F
     systems:
     - 1SR-HT
     - Z-FYJR
@@ -497,6 +517,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 17K-QM
+    region: Paragon Soul
     systems:
     - ARBX-9
     - 33-JRO
@@ -517,6 +538,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 1A-WYQ
+    region: Impass
     systems:
     - XWY-YM
     - O2-39S
@@ -545,6 +567,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 1ANT-J
+    region: Feythabolis
     systems:
     - CFLF-P
     - 9-ZFCG
@@ -571,6 +594,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 1D-65L
+    region: Tenal
     systems:
     - V7-MID
     - JSI-LL
@@ -598,6 +622,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 1G-8KY
+    region: Venal
     systems:
     - Z-GY5S
     - 9-R6GU
@@ -630,6 +655,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 1M4-FN
+    region: Malpais
     systems:
     - F-TQWO
     - O8W-5O
@@ -654,6 +680,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 1P-VL2
+    region: Tribute
     systems:
     - MJI3-8
     - J-GAMP
@@ -680,6 +707,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 1RG-GU
+    region: Detorid
     systems:
     - FR46-E
     - RZ-PIY
@@ -710,6 +738,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 1VN-XC
+    region: Etherium Reach
     systems:
     - CT8K-0
     - PX-IHN
@@ -744,6 +773,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 2-M6DE
+    region: Syndicate
     systems:
     - M2-CF1
     - JH-M2W
@@ -771,6 +801,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 2-ZRM0
+    region: Tenal
     systems:
     - A1RR-M
     - Y-YHZQ
@@ -795,6 +826,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 2747-4
+    region: Malpais
     systems:
     - FO9-FZ
     - UW-6MW
@@ -819,6 +851,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 29V-1R
+    region: Deklein
     systems:
     - R8S-1K
     - FO8M-2
@@ -845,6 +878,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 2FYX-H
+    region: Outer Passage
     systems:
     - ZZK-VF
     - SN-Q1T
@@ -874,6 +908,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 2O-VY7
+    region: The Kalevala Expanse
     systems:
     - SY-0AM
     - QZX-L9
@@ -894,6 +929,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 2Q-8WA
+    region: The Kalevala Expanse
     systems:
     - 86L-9F
     - O5-YNW
@@ -912,6 +948,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 2RX9-6
+    region: J7HZ-F
     systems:
     - W-WQM5
     - G5J-LH
@@ -936,6 +973,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3-PC31
+    region: Feythabolis
     systems:
     - OBK-K8
     - 2-RSC7
@@ -962,6 +1000,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3-U491
+    region: Feythabolis
     systems:
     - AZN-D2
     - CL-J9W
@@ -985,6 +1024,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 304-QS
+    region: Branch
     systems:
     - HB7R-F
     - AH-B84
@@ -1009,6 +1049,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 304Z-R
+    region: Pure Blind
     systems:
     - ZKYV-W
     - FWA-4V
@@ -1044,6 +1085,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 38G6-L
+    region: Pure Blind
     systems:
     - X-7OMU
     - J-CIJV
@@ -1061,6 +1103,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 3A-CND
+    region: J7HZ-F
     systems:
     - RN-5K9
     - 0M-M64
@@ -1087,6 +1130,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3B-IWE
+    region: Querious
     systems:
     - DG-L7S
     - F2OY-X
@@ -1114,6 +1158,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3D-ROC
+    region: The Spire
     systems:
     - N-PS2Y
     - XT-1E0
@@ -1144,6 +1189,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3GK-WS
+    region: Wicked Creek
     systems:
     - 5DE-QS
     - OAIG-0
@@ -1169,6 +1215,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3NA-Z1
+    region: The Kalevala Expanse
     systems:
     - EPCD-D
     - BM-VYZ
@@ -1194,6 +1241,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3R-BJL
+    region: Detorid
     systems:
     - F2W-C6
     - 8FN-GP
@@ -1218,6 +1266,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3RU-10
+    region: Oasa
     systems:
     - Q-ITV5
     - WVMS-X
@@ -1247,6 +1296,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3TS-12
+    region: Malpais
     systems:
     - NIM-FY
     - QCGG-Q
@@ -1269,6 +1319,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 3WN-1T
+    region: Esoteria
     systems:
     - 6EK-BV
     - E1UU-3
@@ -1292,6 +1343,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4-0VL9
+    region: The Spire
     systems:
     - MOSA-I
     - L7-BLT
@@ -1319,6 +1371,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4-QV2L
+    region: Wicked Creek
     systems:
     - XEN7-0
     - WRL4-2
@@ -1341,6 +1394,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 41JS-R
+    region: Stain
     systems:
     - IP-MVJ
     - Q-Q2S6
@@ -1368,6 +1422,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 42-WDG
+    region: Feythabolis
     systems:
     - SWBV-2
     - NPD9-A
@@ -1391,6 +1446,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 48R-PS
+    region: Venal
     systems:
     - N5Y-4N
     - MQFX-Q
@@ -1417,6 +1473,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 49A-BZ
+    region: Syndicate
     systems:
     - A-SJ8X
     - 31-MLU
@@ -1450,6 +1507,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4BZ-R3
+    region: Providence
     systems:
     - D-GTMI
     - FSW-3C
@@ -1468,6 +1526,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 4I-WP1
+    region: J7HZ-F
     systems:
     - N-FKXV
     - 6-QXE6
@@ -1488,6 +1547,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4LEZ-6
+    region: Perrigen Falls
     systems:
     - 6Q4-X6
     - U4-V3J
@@ -1522,6 +1582,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4M6-GJ
+    region: Etherium Reach
     systems:
     - QNXJ-M
     - 2G-VDP
@@ -1542,6 +1603,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4MY-AB
+    region: Immensea
     systems:
     - D-BAMJ
     - PH-NFR
@@ -1570,6 +1632,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4QZ-2M
+    region: Querious
     systems:
     - QY1E-N
     - YQX-7U
@@ -1598,6 +1661,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4R-HUN
+    region: Malpais
     systems:
     - IBOX-2
     - JA-G0T
@@ -1624,6 +1688,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4SRW-B
+    region: Detorid
     systems:
     - IAS-I5
     - K7S-FF
@@ -1660,6 +1725,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4YFT-F
+    region: Scalding Pass
     systems:
     - N3-JBX
     - S1-XTL
@@ -1684,6 +1750,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 4ZXC-8
+    region: Oasa
     systems:
     - QYT-X8
     - 5-IH57
@@ -1709,6 +1776,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5-88B9
+    region: Providence
     systems:
     - 8P9-BM
     - VKI-T7
@@ -1731,6 +1799,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 50-5UD
+    region: Tenerifis
     systems:
     - B8HU-Z
     - BB-EKF
@@ -1770,6 +1839,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 51ZT-6
+    region: Scalding Pass
     systems:
     - EIN-QG
     - JMH-PT
@@ -1804,6 +1874,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 52-JKU
+    region: Tribute
     systems:
     - D7-ZAC
     - SH1-6P
@@ -1828,6 +1899,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 59H-0G
+    region: Syndicate
     systems:
     - U0V6-T
     - KFR-ZE
@@ -1860,6 +1932,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5F8-PZ
+    region: Detorid
     systems:
     - 9N-0HF
     - GR-X26
@@ -1889,6 +1962,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5HN-S5
+    region: Cache
     systems:
     - B-T6BT
     - VK-A5G
@@ -1916,6 +1990,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5J-SSP
+    region: Impass
     systems:
     - Y-JKJ8
     - 3-UCBF
@@ -1939,6 +2014,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5P4-QA
+    region: Detorid
     systems:
     - L-QQ6P
     - M-XUZZ
@@ -1965,6 +2041,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5VN-B7
+    region: Stain
     systems:
     - DSS-EZ
     - VTGN-U
@@ -1990,6 +2067,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5Y1E-3
+    region: Wicked Creek
     systems:
     - M-MBRT
     - TP7-KE
@@ -2016,6 +2094,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5YHF-H
+    region: Vale of the Silent
     systems:
     - V-NL3K
     - TVN-FM
@@ -2037,6 +2116,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5Z0Y-S
+    region: Omist
     systems:
     - M9-FIB
     - Y-MSJN
@@ -2057,6 +2137,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5ZAB-N
+    region: Cobalt Edge
     systems:
     - J-QOKQ
     - 4T-VDE
@@ -2084,6 +2165,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 5ZR-29
+    region: Wicked Creek
     systems:
     - 0RI-OV
     - SJJ-4F
@@ -2111,6 +2193,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 6-CBBM
+    region: The Kalevala Expanse
     systems:
     - XTJ-5Q
     - 1-KCSA
@@ -2136,6 +2219,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 6-UCYU
+    region: Delve
     systems:
     - FWST-8
     - 319-3D
@@ -2158,6 +2242,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 6-V49K
+    region: Syndicate
     systems:
     - DUV-5Y
     - Z-QENW
@@ -2185,6 +2270,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 6GU-AT
+    region: Outer Passage
     systems:
     - F-WCLC
     - 2WU-XT
@@ -2208,6 +2294,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 6I-3VX
+    region: Tenerifis
     systems:
     - 7KIK-H
     - G-D0N3
@@ -2224,6 +2311,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 6I-9Y2
+    region: A821-A
     systems:
     - NSE-U1
     - R79-I7
@@ -2247,6 +2335,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 6JCS-4
+    region: Catch
     systems:
     - KH0Z-0
     - NH-1X6
@@ -2273,6 +2362,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 6KFH-X
+    region: Period Basis
     systems:
     - ZU-MS3
     - E2-RDQ
@@ -2293,6 +2383,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 6TT8-Z
+    region: Etherium Reach
     systems:
     - GTY-FW
     - 3H58-R
@@ -2317,6 +2408,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 7-ZDOK
+    region: Outer Passage
     systems:
     - NHKO-4
     - Y-UO9U
@@ -2346,6 +2438,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 730-KH
+    region: Great Wildlands
     systems:
     - JPL-RA
     - NIH-02
@@ -2366,6 +2459,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 74IL-O
+    region: Geminate
     systems:
     - 5F-YRA
     - JE1-36
@@ -2391,6 +2485,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 760-9C
+    region: Wicked Creek
     systems:
     - 07-SLO
     - GPD5-0
@@ -2411,6 +2506,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 78-6RI
+    region: The Kalevala Expanse
     systems:
     - SH6X-F
     - LS3-HP
@@ -2427,6 +2523,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 7PUP-K
+    region: UUA-F4
     systems:
     - N-FJBK
     - 2-4ZT5
@@ -2451,6 +2548,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 7UNX-J
+    region: Malpais
     systems:
     - 5-A0PX
     - CLW-SI
@@ -2474,6 +2572,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 7VJ-7M
+    region: Scalding Pass
     systems:
     - ZNF-OK
     - C8-7AS
@@ -2498,6 +2597,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 7X-X1Y
+    region: Fade
     systems:
     - YKSC-A
     - C-OK0R
@@ -2519,6 +2619,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 7ZRW-G
+    region: Esoteria
     systems:
     - NIZJ-0
     - H-T40Z
@@ -2556,6 +2657,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8-4EFQ
+    region: Insmother
     systems:
     - 2-Q4YG
     - 2JT-3Q
@@ -2582,6 +2684,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8-IL7S
+    region: Branch
     systems:
     - 0P9Z-I
     - Q-FEEJ
@@ -2598,6 +2701,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 826-A5
+    region: A821-A
     systems:
     - B-Y06L
     - DT-7EO
@@ -2622,6 +2726,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 88G-M4
+    region: Vale of the Silent
     systems:
     - VORM-W
     - JZV-F4
@@ -2651,6 +2756,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8AO-5V
+    region: Etherium Reach
     systems:
     - TZ-74M
     - 43-1TL
@@ -2677,6 +2783,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8BO-IH
+    region: Querious
     systems:
     - W6V-VM
     - 9CG6-H
@@ -2697,6 +2804,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8ET-D1
+    region: Querious
     systems:
     - 8-GE2P
     - YF-6L1
@@ -2722,6 +2830,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8G-JN6
+    region: Etherium Reach
     systems:
     - C9R-NO
     - CYB-BZ
@@ -2746,6 +2855,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8K-CHA
+    region: Geminate
     systems:
     - VSJ-PP
     - 3USX-F
@@ -2771,6 +2881,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8MJO-4
+    region: Omist
     systems:
     - J-4FNO
     - PEM-LC
@@ -2800,6 +2911,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8T-OLH
+    region: Esoteria
     systems:
     - X-7BIX
     - Q0OH-V
@@ -2828,6 +2940,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 8UD2-J
+    region: The Kalevala Expanse
     systems:
     - LEM-I1
     - 1S-SU1
@@ -2859,6 +2972,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 9BGY-6
+    region: Perrigen Falls
     systems:
     - OP7-BP
     - R-AYGT
@@ -2883,6 +2997,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 9D1V-O
+    region: Esoteria
     systems:
     - 29YH-V
     - IPX-H5
@@ -2912,6 +3027,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 9HXQ-G
+    region: Catch
     systems:
     - MY-W1V
     - YHN-3K
@@ -2940,6 +3056,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 9KX-M0
+    region: Vale of the Silent
     systems:
     - PX5-LR
     - 9-GBPD
@@ -2960,6 +3077,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 9NP-KR
+    region: Querious
     systems:
     - 8B-SAJ
     - L-6W1J
@@ -2988,6 +3106,7 @@ locations:
     isKS: true
     isWormhole: false
     name: 9P57-V
+    region: Tenal
     systems:
     - KMV-CQ
     - S-1LIO
@@ -3004,6 +3123,7 @@ locations:
     isKS: false
     isWormhole: false
     name: 9RW5-Z
+    region: UUA-F4
     systems:
     - Polaris
     - RU-97T
@@ -3020,6 +3140,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00001
+    region: A-R00002
     systems:
     - J161115
     - J161811
@@ -3041,6 +3162,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00002
+    region: A-R00002
     systems:
     - J144704
     - J110108
@@ -3063,6 +3185,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00003
+    region: A-R00002
     systems:
     - J131232
     - J153530
@@ -3084,6 +3207,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00004
+    region: A-R00002
     systems:
     - J213342
     - J165901
@@ -3106,6 +3230,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00005
+    region: A-R00002
     systems:
     - J115738
     - J232715
@@ -3125,6 +3250,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00006
+    region: A-R00002
     systems:
     - J152928
     - J120335
@@ -3145,6 +3271,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00007
+    region: A-R00002
     systems:
     - J104103
     - J233359
@@ -3165,6 +3292,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00008
+    region: A-R00002
     systems:
     - J231004
     - J114719
@@ -3187,6 +3315,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00009
+    region: A-R00002
     systems:
     - J150629
     - J215431
@@ -3209,6 +3338,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00010
+    region: A-R00002
     systems:
     - J151141
     - J143649
@@ -3231,6 +3361,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00011
+    region: A-R00002
     systems:
     - J102414
     - J205004
@@ -3251,6 +3382,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00012
+    region: A-R00002
     systems:
     - J172003
     - J141038
@@ -3271,6 +3403,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00013
+    region: A-R00002
     systems:
     - J133128
     - J105232
@@ -3292,6 +3425,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00014
+    region: A-R00002
     systems:
     - J223026
     - J143421
@@ -3313,6 +3447,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00015
+    region: A-R00003
     systems:
     - J142136
     - J102005
@@ -3335,6 +3470,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00016
+    region: A-R00003
     systems:
     - J171805
     - J161107
@@ -3354,6 +3490,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00017
+    region: A-R00003
     systems:
     - J105013
     - J155203
@@ -3373,6 +3510,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00018
+    region: A-R00003
     systems:
     - J113918
     - J161344
@@ -3394,6 +3532,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00019
+    region: A-R00003
     systems:
     - J111811
     - J171312
@@ -3413,6 +3552,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00020
+    region: A-R00003
     systems:
     - J122224
     - J112934
@@ -3435,6 +3575,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00311
+    region: A-R00001
     systems:
     - J100744
     - J225046
@@ -3451,6 +3592,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00312
+    region: A-R00001
     systems:
     - J111301
     - J164218
@@ -3473,6 +3615,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00313
+    region: A-R00001
     systems:
     - J112628
     - J162604
@@ -3493,6 +3636,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00314
+    region: A-R00001
     systems:
     - J101453
     - J144855
@@ -3513,6 +3657,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00315
+    region: A-R00001
     systems:
     - J103404
     - J224324
@@ -3532,6 +3677,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00316
+    region: A-R00001
     systems:
     - J154226
     - J142701
@@ -3551,6 +3697,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00317
+    region: A-R00001
     systems:
     - J233550
     - J115549
@@ -3570,6 +3717,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00318
+    region: A-R00001
     systems:
     - J114033
     - J110750
@@ -3592,6 +3740,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00319
+    region: A-R00001
     systems:
     - J223733
     - J133030
@@ -3611,6 +3760,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00320
+    region: A-R00001
     systems:
     - J134143
     - J103151
@@ -3633,6 +3783,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00321
+    region: A-R00001
     systems:
     - J114540
     - J162641
@@ -3655,6 +3806,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00322
+    region: A-R00001
     systems:
     - J141812
     - J172907
@@ -3676,6 +3828,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00323
+    region: A-R00001
     systems:
     - J215900
     - J163804
@@ -3698,6 +3851,7 @@ locations:
     isKS: false
     isWormhole: true
     name: A-C00325
+    region: A-R00001
     systems:
     - J010569
     - J012402
@@ -3725,6 +3879,7 @@ locations:
     isKS: true
     isWormhole: false
     name: A-JI5E
+    region: Catch
     systems:
     - SNFV-I
     - V2-VC2
@@ -3750,6 +3905,7 @@ locations:
     isKS: true
     isWormhole: false
     name: A-Z7C9
+    region: Querious
     systems:
     - MKD-O8
     - T8T-RA
@@ -3772,6 +3928,7 @@ locations:
     isKS: true
     isWormhole: false
     name: A21H-Z
+    region: Deklein
     systems:
     - 3JN9-Q
     - AGG-NR
@@ -3798,6 +3955,7 @@ locations:
     isKS: true
     isWormhole: false
     name: A3-T8B
+    region: Vale of the Silent
     systems:
     - 7-PO3P
     - MQ-O27
@@ -3830,6 +3988,7 @@ locations:
     isKS: true
     isWormhole: false
     name: AC-RON
+    region: Wicked Creek
     systems:
     - 8-OZU1
     - L-FM3P
@@ -3855,6 +4014,7 @@ locations:
     isKS: true
     isWormhole: false
     name: AGI1-F
+    region: Outer Passage
     systems:
     - Q7E-DU
     - 9Z-XJN
@@ -3875,6 +4035,7 @@ locations:
     isKS: true
     isWormhole: false
     name: AJG-MV
+    region: Esoteria
     systems:
     - H-YHYM
     - PE-H02
@@ -3900,6 +4061,7 @@ locations:
     isKS: true
     isWormhole: false
     name: AP-S8F
+    region: Great Wildlands
     systems:
     - CI4M-T
     - M-YWAL
@@ -3927,6 +4089,7 @@ locations:
     isKS: true
     isWormhole: false
     name: AU-S0B
+    region: Tenerifis
     systems:
     - D-9UEV
     - 78R-PI
@@ -3947,6 +4110,7 @@ locations:
     isKS: true
     isWormhole: false
     name: AV-SCL
+    region: Feythabolis
     systems:
     - OXC-UL
     - 5-IZGE
@@ -3974,6 +4138,7 @@ locations:
     isKS: true
     isWormhole: false
     name: AZBG-H
+    region: Providence
     systems:
     - 5IO8-U
     - QR-K85
@@ -3999,6 +4164,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Abthi
+    region: Devoid
     systems:
     - Shastal
     - Naeel
@@ -4024,6 +4190,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Aeman
+    region: Sinq Laison
     systems:
     - Rancer
     - Otou
@@ -4052,6 +4219,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Afinoo
+    region: Aridia
     systems:
     - Hier
     - Kenahehab
@@ -4088,6 +4256,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Agiesseson
+    region: Sinq Laison
     systems:
     - Oirtlair
     - Claysson
@@ -4110,6 +4279,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Aguh
+    region: Derelik
     systems:
     - Ilahed
     - Ishkad
@@ -4136,6 +4306,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ahrnot
+    region: Kador
     systems:
     - Hostakoh
     - Jeshideh
@@ -4170,6 +4341,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Aideron
+    region: Verge Vendor
     systems:
     - Stou
     - Arraron
@@ -4193,6 +4365,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ajah
+    region: Tash-Murkon
     systems:
     - Sizamod
     - Assiad
@@ -4224,6 +4397,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Akar
+    region: Khanid
     systems:
     - Ashkoo
     - Nahrneder
@@ -4257,6 +4431,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Akimamur
+    region: Heimatar
     systems:
     - Aralgrund
     - Bogelek
@@ -4286,6 +4461,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Aldodan
+    region: Metropolis
     systems:
     - Brin
     - Todifrauan
@@ -4316,6 +4492,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Algintal
+    region: Sinq Laison
     systems:
     - Audaerne
     - Fluekele
@@ -4339,6 +4516,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Almur
+    region: Molden Heath
     systems:
     - Altbrard
     - Istodard
@@ -4363,6 +4541,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Alpakian
+    region: Khanid
     systems:
     - Rafeme
     - Zirsem
@@ -4387,6 +4566,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Alselbosier
+    region: Placid
     systems:
     - Reynire
     - Pain
@@ -4413,6 +4593,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ambrye
+    region: Sinq Laison
     systems:
     - Pucherie
     - Vittenyn
@@ -4440,6 +4621,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Amdimmah
+    region: Khanid
     systems:
     - Safshela
     - Gidali
@@ -4471,6 +4653,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Amevync
+    region: Placid
     systems:
     - Anchauttes
     - Aldranette
@@ -4499,6 +4682,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Anama
+    region: Aridia
     systems:
     - Shakasi
     - Van
@@ -4521,6 +4705,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ananah
+    region: Derelik
     systems:
     - Camal
     - Fera
@@ -4556,6 +4741,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Anares
+    region: Derelik
     systems:
     - Chidah
     - Nazhgete
@@ -4586,6 +4772,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ancbeu
+    region: Verge Vendor
     systems:
     - Claulenne
     - Chesiette
@@ -4613,6 +4800,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Angils
+    region: Metropolis
     systems:
     - Egmar
     - Orfrold
@@ -4633,6 +4821,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ani
+    region: Metropolis
     systems:
     - Lanngisi
     - Tvink
@@ -4655,6 +4844,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Anidaza
+    region: Tash-Murkon
     systems:
     - Sagain
     - Modun
@@ -4685,6 +4875,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ankard
+    region: Metropolis
     systems:
     - Altrinur
     - Fildar
@@ -4714,6 +4905,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Anttanen
+    region: The Forge
     systems:
     - Sirseshin
     - Uitra
@@ -4750,6 +4942,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Anwyns
+    region: Verge Vendor
     systems:
     - Merolles
     - Channace
@@ -4781,6 +4974,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Aokinen
+    region: Black Rise
     systems:
     - Astoh
     - Samanuni
@@ -4804,6 +4998,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Aptetter
+    region: Metropolis
     systems:
     - Libold
     - Fredagod
@@ -4826,6 +5021,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Arand
+    region: Essence
     systems:
     - Isenan
     - Atlulle
@@ -4850,6 +5046,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Araz
+    region: Kador
     systems:
     - Munory
     - Jakri
@@ -4892,6 +5089,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Arekin
+    region: The Citadel
     systems:
     - Oiniken
     - Kaimon
@@ -4912,6 +5110,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Argeir
+    region: Metropolis
     systems:
     - Engosi
     - Atonder
@@ -4932,6 +5131,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Armi
+    region: Domain
     systems:
     - Bourar
     - Rimbah
@@ -4954,6 +5154,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Arniri
+    region: Khanid
     systems:
     - Edani
     - Rahabeda
@@ -4991,6 +5192,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Arvachah
+    region: Tash-Murkon
     systems:
     - Pasha
     - Tash-Murkon Prime
@@ -5016,6 +5218,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Asalola
+    region: Lonetrek
     systems:
     - Isinokka
     - Yoma
@@ -5043,6 +5246,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ashela
+    region: Genesis
     systems:
     - Sibe
     - Nardiarang
@@ -5070,6 +5274,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Assilot
+    region: Cloud Ring
     systems:
     - 5S-KNL
     - PPG-XC
@@ -5096,6 +5301,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Aulari
+    region: The Forge
     systems:
     - Osmon
     - Oijanen
@@ -5126,6 +5332,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Aven
+    region: Genesis
     systems:
     - Gonditsa
     - Shalne
@@ -5152,6 +5359,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Avib
+    region: Domain
     systems:
     - Shabura
     - Hadonoo
@@ -5168,6 +5376,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00021
+    region: B-R00004
     systems:
     - J113057
     - J164417
@@ -5187,6 +5396,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00022
+    region: B-R00004
     systems:
     - J144605
     - J141857
@@ -5208,6 +5418,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00023
+    region: B-R00004
     systems:
     - J151548
     - J114346
@@ -5229,6 +5440,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00024
+    region: B-R00004
     systems:
     - J235321
     - J132009
@@ -5251,6 +5463,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00025
+    region: B-R00004
     systems:
     - J132557
     - J130256
@@ -5271,6 +5484,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00026
+    region: B-R00004
     systems:
     - J142547
     - J210422
@@ -5291,6 +5505,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00027
+    region: B-R00004
     systems:
     - J103948
     - J152801
@@ -5310,6 +5525,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00028
+    region: B-R00004
     systems:
     - J132418
     - J103408
@@ -5329,6 +5545,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00029
+    region: B-R00004
     systems:
     - J235117
     - J164938
@@ -5351,6 +5568,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00030
+    region: B-R00004
     systems:
     - J162700
     - J172354
@@ -5372,6 +5590,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00031
+    region: B-R00005
     systems:
     - J151250
     - J103716
@@ -5391,6 +5610,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00032
+    region: B-R00005
     systems:
     - J115651
     - J122832
@@ -5412,6 +5632,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00033
+    region: B-R00005
     systems:
     - J172556
     - J123450
@@ -5433,6 +5654,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00034
+    region: B-R00005
     systems:
     - J114055
     - J231517
@@ -5452,6 +5674,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00035
+    region: B-R00005
     systems:
     - J105203
     - J164130
@@ -5471,6 +5694,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00036
+    region: B-R00005
     systems:
     - J135703
     - J234942
@@ -5492,6 +5716,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00037
+    region: B-R00005
     systems:
     - J140308
     - J230207
@@ -5513,6 +5738,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00038
+    region: B-R00005
     systems:
     - J150341
     - J154538
@@ -5532,6 +5758,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00039
+    region: B-R00005
     systems:
     - J120442
     - J100033
@@ -5553,6 +5780,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00040
+    region: B-R00005
     systems:
     - J211908
     - J133015
@@ -5574,6 +5802,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00041
+    region: B-R00006
     systems:
     - J130650
     - J225316
@@ -5594,6 +5823,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00042
+    region: B-R00006
     systems:
     - J123435
     - J170558
@@ -5613,6 +5843,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00043
+    region: B-R00006
     systems:
     - J114749
     - J115911
@@ -5634,6 +5865,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00044
+    region: B-R00006
     systems:
     - J214843
     - J163902
@@ -5655,6 +5887,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00045
+    region: B-R00006
     systems:
     - J115314
     - J223320
@@ -5677,6 +5910,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00046
+    region: B-R00006
     systems:
     - J132712
     - J134949
@@ -5696,6 +5930,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00047
+    region: B-R00006
     systems:
     - J115530
     - J120704
@@ -5715,6 +5950,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00048
+    region: B-R00006
     systems:
     - J163446
     - J145619
@@ -5734,6 +5970,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00049
+    region: B-R00006
     systems:
     - J204221
     - J212238
@@ -5753,6 +5990,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00050
+    region: B-R00006
     systems:
     - J214854
     - J131706
@@ -5772,6 +6010,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00051
+    region: B-R00006
     systems:
     - J101415
     - J155035
@@ -5792,6 +6031,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00052
+    region: B-R00006
     systems:
     - J160305
     - J142838
@@ -5814,6 +6054,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00053
+    region: B-R00006
     systems:
     - J225805
     - J235759
@@ -5836,6 +6077,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00054
+    region: B-R00006
     systems:
     - J131618
     - J121928
@@ -5855,6 +6097,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00055
+    region: B-R00007
     systems:
     - J214929
     - J103924
@@ -5875,6 +6118,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00056
+    region: B-R00007
     systems:
     - J221337
     - J165157
@@ -5894,6 +6138,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00057
+    region: B-R00007
     systems:
     - J113039
     - J120455
@@ -5916,6 +6161,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00058
+    region: B-R00007
     systems:
     - J143234
     - J143933
@@ -5935,6 +6181,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00059
+    region: B-R00007
     systems:
     - J104321
     - J154937
@@ -5955,6 +6202,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00060
+    region: B-R00008
     systems:
     - J171309
     - J151348
@@ -5975,6 +6223,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00061
+    region: B-R00008
     systems:
     - J173213
     - J233839
@@ -5995,6 +6244,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00062
+    region: B-R00008
     systems:
     - J101719
     - J144739
@@ -6016,6 +6266,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00063
+    region: B-R00008
     systems:
     - J134405
     - J122931
@@ -6035,6 +6286,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00064
+    region: B-R00008
     systems:
     - J120634
     - J102209
@@ -6055,6 +6307,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00065
+    region: B-R00008
     systems:
     - J154249
     - J210536
@@ -6074,6 +6327,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00066
+    region: B-R00008
     systems:
     - J113723
     - J145145
@@ -6096,6 +6350,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00067
+    region: B-R00008
     systems:
     - J122732
     - J102038
@@ -6118,6 +6373,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00068
+    region: B-R00008
     systems:
     - J133049
     - J134306
@@ -6139,6 +6395,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00069
+    region: B-R00008
     systems:
     - J145634
     - J171142
@@ -6160,6 +6417,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00070
+    region: B-R00008
     systems:
     - J125029
     - J145440
@@ -6182,6 +6440,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00071
+    region: B-R00008
     systems:
     - J112019
     - J162332
@@ -6199,6 +6458,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00072
+    region: B-R00008
     systems:
     - J223029
   B-C00073:
@@ -6210,6 +6470,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00073
+    region: B-R00008
     systems:
     - J234810
   B-C00074:
@@ -6221,6 +6482,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00074
+    region: B-R00008
     systems:
     - J135230
   B-C00075:
@@ -6232,6 +6494,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00075
+    region: B-R00008
     systems:
     - J111038
   B-C00326:
@@ -6243,6 +6506,7 @@ locations:
     isKS: false
     isWormhole: true
     name: B-C00326
+    region: B-R00004
     systems:
     - J013070
     - J002964
@@ -6278,6 +6542,7 @@ locations:
     isKS: true
     isWormhole: false
     name: B-D245
+    region: Outer Passage
     systems:
     - 80G-H5
     - JUE-DX
@@ -6294,6 +6559,7 @@ locations:
     isKS: false
     isWormhole: false
     name: B-HLOG
+    region: UUA-F4
     systems:
     - 16-31U
     - VM-QFU
@@ -6322,6 +6588,7 @@ locations:
     isKS: true
     isWormhole: false
     name: B-MQ0Y
+    region: Perrigen Falls
     systems:
     - FLK-LJ
     - 0FG-KS
@@ -6338,6 +6605,7 @@ locations:
     isKS: false
     isWormhole: false
     name: B-PHYN
+    region: UUA-F4
     systems:
     - WLE-PY
     - J-Z1UW
@@ -6368,6 +6636,7 @@ locations:
     isKS: true
     isWormhole: false
     name: B4H-9W
+    region: Delve
     systems:
     - AJI-MA
     - QX-LIJ
@@ -6384,6 +6653,7 @@ locations:
     isKS: false
     isWormhole: false
     name: B9J-NT
+    region: A821-A
     systems:
     - 69A-54
     - PQWA-L
@@ -6407,6 +6677,7 @@ locations:
     isKS: true
     isWormhole: false
     name: BB-48X
+    region: Cobalt Edge
     systems:
     - 87-1PM
     - 5ED-4E
@@ -6429,6 +6700,7 @@ locations:
     isKS: true
     isWormhole: false
     name: BB8E-G
+    region: Great Wildlands
     systems:
     - ZM-DNR
     - V-2GYS
@@ -6454,6 +6726,7 @@ locations:
     isKS: true
     isWormhole: false
     name: BI-NFW
+    region: Branch
     systems:
     - 5-P1Y2
     - C-LBQS
@@ -6479,6 +6752,7 @@ locations:
     isKS: true
     isWormhole: false
     name: BRP2-K
+    region: Catch
     systems:
     - Y-PNRL
     - CNC-4V
@@ -6496,6 +6770,7 @@ locations:
     isKS: false
     isWormhole: false
     name: BS8-ZQ
+    region: J7HZ-F
     systems:
     - 3E-ER7
     - REZ-YZ
@@ -6516,6 +6791,7 @@ locations:
     isKS: true
     isWormhole: false
     name: BUG6-X
+    region: Vale of the Silent
     systems:
     - FS-RFL
     - 05R-7A
@@ -6541,6 +6817,7 @@ locations:
     isKS: true
     isWormhole: false
     name: BVA-YH
+    region: Cache
     systems:
     - 8-BIE3
     - LMM7-L
@@ -6561,6 +6838,7 @@ locations:
     isKS: true
     isWormhole: false
     name: BXT7-V
+    region: Perrigen Falls
     systems:
     - 2-YO2K
     - QHY-RU
@@ -6587,6 +6865,7 @@ locations:
     isKS: true
     isWormhole: false
     name: BZ-10K
+    region: Branch
     systems:
     - X7R-JW
     - 8-4GQM
@@ -6615,6 +6894,7 @@ locations:
     isKS: true
     isWormhole: false
     name: BZZ-1U
+    region: Tenerifis
     systems:
     - NR8S-Y
     - T6GY-Y
@@ -6641,6 +6921,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Balenne
+    region: Cloud Ring
     systems:
     - O-ZXUV
     - 77-KDQ
@@ -6672,6 +6953,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Balrille
+    region: Essence
     systems:
     - Deninard
     - Annages
@@ -6710,6 +6992,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Barvigrard
+    region: Metropolis
     systems:
     - Hagilur
     - Anher
@@ -6734,6 +7017,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Basilisk
+    region: Fountain
     systems:
     - Z-YN5Y
     - 4HS-CR
@@ -6763,6 +7047,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Bedaleya
+    region: Derelik
     systems:
     - Hasateem
     - Nakah
@@ -6785,6 +7070,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Belt
+    region: Outer Ring
     systems:
     - H-M1BY
     - 0-9UHT
@@ -6809,6 +7095,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Benurad
+    region: Heimatar
     systems:
     - Hrondedir
     - Hedgiviter
@@ -6833,6 +7120,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Besateoden
+    region: Molden Heath
     systems:
     - Varigne
     - Orien
@@ -6862,6 +7150,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Beyt
+    region: Placid
     systems:
     - Chardalane
     - Orvolle
@@ -6890,6 +7179,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Braille
+    region: Solitude
     systems:
     - Aimoguier
     - Anckee
@@ -6916,6 +7206,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Brazinget
+    region: Metropolis
     systems:
     - Gedugaud
     - Hilfhurmur
@@ -6936,6 +7227,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Budar
+    region: Khanid
     systems:
     - Timudan
     - Cabeki
@@ -6952,6 +7244,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00076
+    region: C-R00009
     systems:
     - J102057
     - J113629
@@ -6968,6 +7261,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00077
+    region: C-R00009
     systems:
     - J105007
     - J124753
@@ -6984,6 +7278,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00078
+    region: C-R00009
     systems:
     - J101012
     - J111355
@@ -7001,6 +7296,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00079
+    region: C-R00009
     systems:
     - J114648
     - J110448
@@ -7017,6 +7313,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00080
+    region: C-R00009
     systems:
     - J114048
     - J123303
@@ -7034,6 +7331,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00081
+    region: C-R00009
     systems:
     - J112850
     - J165803
@@ -7050,6 +7348,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00082
+    region: C-R00009
     systems:
     - J124203
     - J222104
@@ -7066,6 +7365,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00083
+    region: C-R00009
     systems:
     - J111619
     - J101750
@@ -7082,6 +7382,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00084
+    region: C-R00009
     systems:
     - J124630
     - J140521
@@ -7098,6 +7399,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00085
+    region: C-R00010
     systems:
     - J143916
     - J103955
@@ -7114,6 +7416,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00086
+    region: C-R00010
     systems:
     - J140050
     - J151341
@@ -7131,6 +7434,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00087
+    region: C-R00010
     systems:
     - J133651
     - J110706
@@ -7147,6 +7451,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00088
+    region: C-R00010
     systems:
     - J125949
     - J212329
@@ -7164,6 +7469,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00089
+    region: C-R00010
     systems:
     - J154642
     - J163526
@@ -7180,6 +7486,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00090
+    region: C-R00010
     systems:
     - J224926
     - J214654
@@ -7196,6 +7503,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00091
+    region: C-R00010
     systems:
     - J111214
     - J135526
@@ -7212,6 +7520,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00092
+    region: C-R00010
     systems:
     - J164342
     - J151538
@@ -7229,6 +7538,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00093
+    region: C-R00011
     systems:
     - J164457
     - J152143
@@ -7246,6 +7556,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00094
+    region: C-R00011
     systems:
     - J115253
     - J142520
@@ -7263,6 +7574,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00095
+    region: C-R00011
     systems:
     - J230226
     - J225524
@@ -7279,6 +7591,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00096
+    region: C-R00011
     systems:
     - J121628
     - J135355
@@ -7296,6 +7609,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00097
+    region: C-R00011
     systems:
     - J115015
     - J134301
@@ -7312,6 +7626,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00098
+    region: C-R00011
     systems:
     - J111031
     - J120452
@@ -7328,6 +7643,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00099
+    region: C-R00011
     systems:
     - J170740
     - J122213
@@ -7345,6 +7661,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00100
+    region: C-R00011
     systems:
     - J155117
     - J165118
@@ -7362,6 +7679,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00101
+    region: C-R00011
     systems:
     - J124257
     - J100728
@@ -7378,6 +7696,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00102
+    region: C-R00011
     systems:
     - J111421
     - J125149
@@ -7394,6 +7713,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00103
+    region: C-R00011
     systems:
     - J114127
     - J161455
@@ -7411,6 +7731,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00104
+    region: C-R00011
     systems:
     - J120945
     - J162459
@@ -7428,6 +7749,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00105
+    region: C-R00011
     systems:
     - J155852
     - J170511
@@ -7445,6 +7767,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00106
+    region: C-R00012
     systems:
     - J121856
     - J130835
@@ -7462,6 +7785,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00107
+    region: C-R00012
     systems:
     - J154145
     - J100129
@@ -7479,6 +7803,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00108
+    region: C-R00012
     systems:
     - J103326
     - J155124
@@ -7495,6 +7820,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00109
+    region: C-R00012
     systems:
     - J205412
     - J145851
@@ -7511,6 +7837,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00110
+    region: C-R00012
     systems:
     - J131802
     - J233739
@@ -7528,6 +7855,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00111
+    region: C-R00012
     systems:
     - J131859
     - J141451
@@ -7545,6 +7873,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00112
+    region: C-R00012
     systems:
     - J163745
     - J224826
@@ -7562,6 +7891,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00113
+    region: C-R00012
     systems:
     - J113334
     - J165153
@@ -7579,6 +7909,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00114
+    region: C-R00012
     systems:
     - J105409
     - J131559
@@ -7596,6 +7927,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00115
+    region: C-R00012
     systems:
     - J135036
     - J154634
@@ -7612,6 +7944,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00116
+    region: C-R00012
     systems:
     - J101854
     - J232826
@@ -7628,6 +7961,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00117
+    region: C-R00012
     systems:
     - J114916
     - J121300
@@ -7644,6 +7978,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00118
+    region: C-R00012
     systems:
     - J124327
     - J152044
@@ -7660,6 +7995,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00119
+    region: C-R00012
     systems:
     - J142443
     - J114358
@@ -7677,6 +8013,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00120
+    region: C-R00012
     systems:
     - J101354
     - J110425
@@ -7693,6 +8030,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00121
+    region: C-R00012
     systems:
     - J133121
     - J231240
@@ -7710,6 +8048,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00122
+    region: C-R00013
     systems:
     - J164501
     - J212812
@@ -7726,6 +8065,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00123
+    region: C-R00013
     systems:
     - J113048
     - J135304
@@ -7742,6 +8082,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00124
+    region: C-R00013
     systems:
     - J171542
     - J121706
@@ -7758,6 +8099,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00125
+    region: C-R00013
     systems:
     - J143110
     - J110121
@@ -7774,6 +8116,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00126
+    region: C-R00013
     systems:
     - J113432
     - J130719
@@ -7790,6 +8133,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00127
+    region: C-R00013
     systems:
     - J104903
     - J204039
@@ -7806,6 +8150,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00128
+    region: C-R00013
     systems:
     - J225350
     - J133521
@@ -7823,6 +8168,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00129
+    region: C-R00014
     systems:
     - J121921
     - J212025
@@ -7839,6 +8185,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00130
+    region: C-R00014
     systems:
     - J224401
     - J231245
@@ -7855,6 +8202,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00131
+    region: C-R00014
     systems:
     - J151804
     - J131245
@@ -7872,6 +8220,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00132
+    region: C-R00014
     systems:
     - J161854
     - J114010
@@ -7889,6 +8238,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00133
+    region: C-R00014
     systems:
     - J214009
     - J171420
@@ -7906,6 +8256,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00134
+    region: C-R00014
     systems:
     - J232441
     - J230708
@@ -7922,6 +8273,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00135
+    region: C-R00014
     systems:
     - J104416
     - J104841
@@ -7939,6 +8291,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00136
+    region: C-R00014
     systems:
     - J164751
     - J230722
@@ -7955,6 +8308,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00137
+    region: C-R00014
     systems:
     - J151242
     - J154449
@@ -7971,6 +8325,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00138
+    region: C-R00014
     systems:
     - J101323
     - J172422
@@ -7987,6 +8342,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00139
+    region: C-R00014
     systems:
     - J123443
     - J155545
@@ -8004,6 +8360,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00140
+    region: C-R00014
     systems:
     - J112948
     - J235712
@@ -8021,6 +8378,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00141
+    region: C-R00014
     systems:
     - J132226
     - J151645
@@ -8037,6 +8395,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00142
+    region: C-R00014
     systems:
     - J211805
     - J233628
@@ -8053,6 +8412,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00143
+    region: C-R00014
     systems:
     - J170550
     - J143704
@@ -8069,6 +8429,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00144
+    region: C-R00015
     systems:
     - J170236
     - J220338
@@ -8085,6 +8446,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00145
+    region: C-R00015
     systems:
     - J161213
     - J213534
@@ -8101,6 +8463,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00146
+    region: C-R00015
     systems:
     - J104421
     - J104330
@@ -8117,6 +8480,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00147
+    region: C-R00015
     systems:
     - J144024
     - J122806
@@ -8134,6 +8498,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00148
+    region: C-R00015
     systems:
     - J103237
     - J204323
@@ -8151,6 +8516,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00149
+    region: C-R00015
     systems:
     - J135723
     - J105201
@@ -8168,6 +8534,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00150
+    region: C-R00015
     systems:
     - J133218
     - J112747
@@ -8184,6 +8551,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00151
+    region: C-R00015
     systems:
     - J121027
     - J102304
@@ -8200,6 +8568,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00152
+    region: C-R00015
     systems:
     - J145632
     - J131304
@@ -8217,6 +8586,7 @@ locations:
     isKS: false
     isWormhole: true
     name: C-C00327
+    region: C-R00009
     systems:
     - J002838
     - J012794
@@ -8246,6 +8616,7 @@ locations:
     isKS: true
     isWormhole: false
     name: C-ULS4
+    region: Branch
     systems:
     - ZIU-EP
     - 3-N3OO
@@ -8273,6 +8644,7 @@ locations:
     isKS: true
     isWormhole: false
     name: C45-9Y
+    region: Feythabolis
     systems:
     - Z-PNIA
     - I5Q2-S
@@ -8300,6 +8672,7 @@ locations:
     isKS: true
     isWormhole: false
     name: C73-U5
+    region: Immensea
     systems:
     - E1F-LK
     - RF6T-8
@@ -8325,6 +8698,7 @@ locations:
     isKS: true
     isWormhole: false
     name: C9XB-L
+    region: Outer Passage
     systems:
     - 3-QNM4
     - NQ-M6W
@@ -8352,6 +8726,7 @@ locations:
     isKS: true
     isWormhole: false
     name: CL-QB2
+    region: Tenerifis
     systems:
     - W-16DY
     - S-9RCJ
@@ -8379,6 +8754,7 @@ locations:
     isKS: true
     isWormhole: false
     name: CN5-F2
+    region: Scalding Pass
     systems:
     - 3S-6VU
     - 8CN-CH
@@ -8407,6 +8783,7 @@ locations:
     isKS: true
     isWormhole: false
     name: CZ-06R
+    region: Oasa
     systems:
     - W5-VBR
     - X-Z4JW
@@ -8439,6 +8816,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Caldari Border Zone
+    region: The Citadel
     systems:
     - Yashunen
     - Iivinen
@@ -8463,6 +8841,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Centaur
+    region: Fountain
     systems:
     - EI-O0O
     - 7X-02R
@@ -8485,6 +8864,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Charak
+    region: Genesis
     systems:
     - Anyed
     - Asanot
@@ -8509,6 +8889,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Chardu
+    region: Domain
     systems:
     - Lahnina
     - Pedel
@@ -8539,6 +8920,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Chasnaye
+    region: Everyshore
     systems:
     - Azer
     - Cherore
@@ -8560,6 +8942,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Chimera
+    region: Fountain
     systems:
     - QV28-G
     - 15U-JY
@@ -8591,6 +8974,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Comadu
+    region: Kor-Azor
     systems:
     - Rannoze
     - Atarli
@@ -8626,6 +9010,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Coriault
+    region: Sinq Laison
     systems:
     - Botane
     - Aunia
@@ -8658,6 +9043,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Crown
+    region: Outer Ring
     systems:
     - UO9-YG
     - C0T-77
@@ -8697,6 +9083,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Crux
+    region: Essence
     systems:
     - Oursulaert
     - Luminaire
@@ -8724,6 +9111,7 @@ locations:
     isKS: true
     isWormhole: false
     name: D-95MV
+    region: Detorid
     systems:
     - O3-4MN
     - TYB-69
@@ -8751,6 +9139,7 @@ locations:
     isKS: true
     isWormhole: false
     name: D-AWFI
+    region: Deklein
     systems:
     - CZDJ-1
     - UEJX-G
@@ -8767,6 +9156,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00153
+    region: D-R00016
     systems:
     - J142200
     - J210458
@@ -8784,6 +9174,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00154
+    region: D-R00016
     systems:
     - J100046
     - J103731
@@ -8801,6 +9192,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00155
+    region: D-R00016
     systems:
     - J130253
     - J214811
@@ -8818,6 +9210,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00156
+    region: D-R00016
     systems:
     - J112610
     - J151643
@@ -8835,6 +9228,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00157
+    region: D-R00016
     systems:
     - J171359
     - J121845
@@ -8852,6 +9246,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00158
+    region: D-R00016
     systems:
     - J145129
     - J134407
@@ -8869,6 +9264,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00159
+    region: D-R00016
     systems:
     - J102534
     - J105546
@@ -8885,6 +9281,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00160
+    region: D-R00016
     systems:
     - J152255
     - J131047
@@ -8901,6 +9298,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00161
+    region: D-R00016
     systems:
     - J101551
     - J111950
@@ -8917,6 +9315,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00162
+    region: D-R00017
     systems:
     - J103110
     - J133638
@@ -8933,6 +9332,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00163
+    region: D-R00017
     systems:
     - J165326
     - J122656
@@ -8950,6 +9350,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00164
+    region: D-R00017
     systems:
     - J111404
     - J150112
@@ -8966,6 +9367,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00165
+    region: D-R00017
     systems:
     - J115118
     - J114026
@@ -8982,6 +9384,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00166
+    region: D-R00018
     systems:
     - J165020
     - J162226
@@ -8998,6 +9401,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00167
+    region: D-R00018
     systems:
     - J212954
     - J111555
@@ -9014,6 +9418,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00168
+    region: D-R00018
     systems:
     - J132149
     - J155338
@@ -9031,6 +9436,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00169
+    region: D-R00018
     systems:
     - J111329
     - J165920
@@ -9048,6 +9454,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00170
+    region: D-R00018
     systems:
     - J155521
     - J165423
@@ -9065,6 +9472,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00171
+    region: D-R00018
     systems:
     - J163641
     - J203952
@@ -9082,6 +9490,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00172
+    region: D-R00018
     systems:
     - J121347
     - J120643
@@ -9098,6 +9507,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00173
+    region: D-R00019
     systems:
     - J125247
     - J214308
@@ -9115,6 +9525,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00174
+    region: D-R00019
     systems:
     - J113727
     - J115026
@@ -9132,6 +9543,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00175
+    region: D-R00019
     systems:
     - J110719
     - J172512
@@ -9149,6 +9561,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00176
+    region: D-R00019
     systems:
     - J1226-0
     - J130332
@@ -9165,6 +9578,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00177
+    region: D-R00019
     systems:
     - J103242
     - J131004
@@ -9182,6 +9596,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00178
+    region: D-R00019
     systems:
     - J102439
     - J160459
@@ -9199,6 +9614,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00179
+    region: D-R00019
     systems:
     - J140244
     - J154541
@@ -9215,6 +9631,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00180
+    region: D-R00019
     systems:
     - J220151
     - J152654
@@ -9232,6 +9649,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00181
+    region: D-R00019
     systems:
     - J165719
     - J212129
@@ -9248,6 +9666,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00182
+    region: D-R00019
     systems:
     - J140912
     - J141252
@@ -9265,6 +9684,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00183
+    region: D-R00019
     systems:
     - J133157
     - J163435
@@ -9282,6 +9702,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00184
+    region: D-R00019
     systems:
     - J112928
     - J133358
@@ -9298,6 +9719,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00185
+    region: D-R00019
     systems:
     - J102844
     - J154724
@@ -9315,6 +9737,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00186
+    region: D-R00019
     systems:
     - J162303
     - J121116
@@ -9332,6 +9755,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00187
+    region: D-R00020
     systems:
     - J162632
     - J171225
@@ -9348,6 +9772,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00188
+    region: D-R00020
     systems:
     - J115304
     - J131252
@@ -9364,6 +9789,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00189
+    region: D-R00020
     systems:
     - J150951
     - J101331
@@ -9381,6 +9807,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00190
+    region: D-R00020
     systems:
     - J150320
     - J130554
@@ -9397,6 +9824,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00191
+    region: D-R00020
     systems:
     - J124933
     - J145944
@@ -9413,6 +9841,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00192
+    region: D-R00020
     systems:
     - J223312
     - J165645
@@ -9430,6 +9859,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00193
+    region: D-R00020
     systems:
     - J100142
     - J101129
@@ -9446,6 +9876,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00194
+    region: D-R00020
     systems:
     - J113227
     - J152633
@@ -9462,6 +9893,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00195
+    region: D-R00021
     systems:
     - J101042
     - J123753
@@ -9479,6 +9911,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00196
+    region: D-R00021
     systems:
     - J111007
     - J135346
@@ -9495,6 +9928,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00197
+    region: D-R00021
     systems:
     - J101145
     - J231710
@@ -9512,6 +9946,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00198
+    region: D-R00021
     systems:
     - J162831
     - J111458
@@ -9529,6 +9964,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00199
+    region: D-R00021
     systems:
     - J113551
     - J102336
@@ -9545,6 +9981,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00200
+    region: D-R00021
     systems:
     - J204230
     - J100107
@@ -9561,6 +9998,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00201
+    region: D-R00021
     systems:
     - J123947
     - J170305
@@ -9577,6 +10015,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00202
+    region: D-R00021
     systems:
     - J151021
     - J114133
@@ -9593,6 +10032,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00203
+    region: D-R00021
     systems:
     - J141425
     - J150805
@@ -9609,6 +10049,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00204
+    region: D-R00021
     systems:
     - J144131
     - J114735
@@ -9625,6 +10066,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00205
+    region: D-R00021
     systems:
     - J111644
     - J164031
@@ -9642,6 +10084,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00206
+    region: D-R00021
     systems:
     - J145739
     - J225441
@@ -9659,6 +10102,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00207
+    region: D-R00021
     systems:
     - J111629
     - J160032
@@ -9676,6 +10120,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00208
+    region: D-R00021
     systems:
     - J132144
     - J142335
@@ -9692,6 +10137,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00209
+    region: D-R00021
     systems:
     - J140932
     - J160156
@@ -9708,6 +10154,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00210
+    region: D-R00021
     systems:
     - J142800
     - J113508
@@ -9725,6 +10172,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00211
+    region: D-R00021
     systems:
     - J135543
     - J132735
@@ -9741,6 +10189,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00212
+    region: D-R00021
     systems:
     - J141740
     - J101315
@@ -9757,6 +10206,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00213
+    region: D-R00022
     systems:
     - J111753
     - J154321
@@ -9773,6 +10223,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00214
+    region: D-R00022
     systems:
     - J161357
     - J113950
@@ -9789,6 +10240,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00215
+    region: D-R00022
     systems:
     - J105858
     - J103213
@@ -9805,6 +10257,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00216
+    region: D-R00022
     systems:
     - J130330
     - J132740
@@ -9821,6 +10274,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00217
+    region: D-R00022
     systems:
     - J151416
     - J100846
@@ -9837,6 +10291,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00218
+    region: D-R00022
     systems:
     - J224031
     - J154854
@@ -9853,6 +10308,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00219
+    region: D-R00022
     systems:
     - J122503
     - J113131
@@ -9869,6 +10325,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00220
+    region: D-R00022
     systems:
     - J144038
     - J150318
@@ -9886,6 +10343,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00221
+    region: D-R00022
     systems:
     - J154232
     - J101142
@@ -9902,6 +10360,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00222
+    region: D-R00022
     systems:
     - J115031
     - J122706
@@ -9918,6 +10377,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00223
+    region: D-R00022
     systems:
     - J113437
     - J153110
@@ -9935,6 +10395,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00224
+    region: D-R00022
     systems:
     - J122056
     - J132532
@@ -9952,6 +10413,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00225
+    region: D-R00022
     systems:
     - J145424
     - J104948
@@ -9968,6 +10430,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00226
+    region: D-R00022
     systems:
     - J134216
     - J224558
@@ -9984,6 +10447,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00227
+    region: D-R00023
     systems:
     - J225530
     - J220215
@@ -10000,6 +10464,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00228
+    region: D-R00023
     systems:
     - J153722
     - J223808
@@ -10016,6 +10481,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00229
+    region: D-R00023
     systems:
     - J113133
     - J233449
@@ -10033,6 +10499,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00230
+    region: D-R00023
     systems:
     - J162255
     - J215615
@@ -10049,6 +10516,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00231
+    region: D-R00023
     systems:
     - J131624
     - J165611
@@ -10062,6 +10530,7 @@ locations:
     isKS: false
     isWormhole: true
     name: D-C00328
+    region: D-R00016
     systems:
     - J011195
     - J011355
@@ -10101,6 +10570,7 @@ locations:
     isKS: true
     isWormhole: false
     name: D-GU3R
+    region: Etherium Reach
     systems:
     - LPVL-5
     - PXE-RG
@@ -10126,6 +10596,7 @@ locations:
     isKS: true
     isWormhole: false
     name: D-YKXH
+    region: Malpais
     systems:
     - W-XY4J
     - QZ1-OH
@@ -10142,6 +10613,7 @@ locations:
     isKS: false
     isWormhole: false
     name: D-YMGR
+    region: J7HZ-F
     systems:
     - RS08-B
     - VR3-PS
@@ -10164,6 +10636,7 @@ locations:
     isKS: true
     isWormhole: false
     name: D4J-PP
+    region: Oasa
     systems:
     - E6Q-LE
     - HO4E-Q
@@ -10189,6 +10662,7 @@ locations:
     isKS: true
     isWormhole: false
     name: D5-SOW
+    region: Delve
     systems:
     - T-IPZB
     - Q-JQSG
@@ -10213,6 +10687,7 @@ locations:
     isKS: true
     isWormhole: false
     name: D61-WV
+    region: Oasa
     systems:
     - OZ-DS5
     - 0PU2-R
@@ -10233,6 +10708,7 @@ locations:
     isKS: true
     isWormhole: false
     name: D9DM-O
+    region: Paragon Soul
     systems:
     - ZBY-0I
     - LD-2VL
@@ -10253,6 +10729,7 @@ locations:
     isKS: true
     isWormhole: false
     name: DA0V-R
+    region: Cobalt Edge
     systems:
     - M-VACR
     - 58Z-IH
@@ -10276,6 +10753,7 @@ locations:
     isKS: true
     isWormhole: false
     name: DILJ-7
+    region: Vale of the Silent
     systems:
     - XF-PWO
     - R-P7KL
@@ -10303,6 +10781,7 @@ locations:
     isKS: true
     isWormhole: false
     name: DITJ-X
+    region: Scalding Pass
     systems:
     - ZDB-HT
     - Q-NA5H
@@ -10339,6 +10818,7 @@ locations:
     isKS: true
     isWormhole: false
     name: DJ-XCW
+    region: Wicked Creek
     systems:
     - 5E-CMA
     - 6-L4YC
@@ -10359,6 +10839,7 @@ locations:
     isKS: true
     isWormhole: false
     name: DMXN-3
+    region: Vale of the Silent
     systems:
     - Q-R3GP
     - FA-DMO
@@ -10388,6 +10869,7 @@ locations:
     isKS: true
     isWormhole: false
     name: DOCS-O
+    region: Oasa
     systems:
     - XEF6-Z
     - SON-TW
@@ -10412,6 +10894,7 @@ locations:
     isKS: true
     isWormhole: false
     name: DS-M4Q
+    region: Syndicate
     systems:
     - T-LIWS
     - PFP-GU
@@ -10435,6 +10918,7 @@ locations:
     isKS: true
     isWormhole: false
     name: DYK-G8
+    region: Great Wildlands
     systems:
     - WE3-BX
     - LXTC-S
@@ -10467,6 +10951,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Damadil
+    region: Tash-Murkon
     systems:
     - Onazel
     - Perdan
@@ -10502,6 +10987,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Daredan
+    region: Devoid
     systems:
     - Uadelah
     - Hakshma
@@ -10543,6 +11029,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Disier
+    region: Sinq Laison
     systems:
     - Grinacanne
     - Erme
@@ -10571,6 +11058,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E-312G
+    region: Branch
     systems:
     - B8O-KJ
     - XM-4L0
@@ -10597,6 +11085,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E-72A3
+    region: Tenal
     systems:
     - T-K10W
     - C-XNUA
@@ -10625,6 +11114,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E-8CSQ
+    region: Vale of the Silent
     systems:
     - BR-6XP
     - UL-4ZW
@@ -10648,6 +11138,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E-95ID
+    region: Insmother
     systems:
     - F39H-1
     - XQP-9C
@@ -10664,6 +11155,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00232
+    region: E-R00024
     systems:
     - J135100
     - J170540
@@ -10683,6 +11175,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00233
+    region: E-R00024
     systems:
     - J102446
     - J164147
@@ -10703,6 +11196,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00234
+    region: E-R00024
     systems:
     - J133537
     - J223018
@@ -10722,6 +11216,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00235
+    region: E-R00024
     systems:
     - J111106
     - J121230
@@ -10739,6 +11234,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00236
+    region: E-R00024
     systems:
     - J154733
     - J122721
@@ -10755,6 +11251,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00237
+    region: E-R00024
     systems:
     - J103727
     - J152739
@@ -10772,6 +11269,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00238
+    region: E-R00024
     systems:
     - J105441
     - J131948
@@ -10790,6 +11288,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00239
+    region: E-R00024
     systems:
     - J143123
     - J120750
@@ -10810,6 +11309,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00240
+    region: E-R00024
     systems:
     - J153335
     - J155600
@@ -10829,6 +11329,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00241
+    region: E-R00024
     systems:
     - J121649
     - J135559
@@ -10848,6 +11349,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00242
+    region: E-R00024
     systems:
     - J131401
     - J170231
@@ -10865,6 +11367,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00243
+    region: E-R00025
     systems:
     - J215338
     - J133525
@@ -10881,6 +11384,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00244
+    region: E-R00025
     systems:
     - J103701
     - J110938
@@ -10901,6 +11405,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00245
+    region: E-R00025
     systems:
     - J114019
     - J135046
@@ -10920,6 +11425,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00246
+    region: E-R00025
     systems:
     - J155905
     - J124409
@@ -10937,6 +11443,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00247
+    region: E-R00025
     systems:
     - J114154
     - J213055
@@ -10956,6 +11463,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00248
+    region: E-R00025
     systems:
     - J133252
     - J102736
@@ -10974,6 +11482,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00249
+    region: E-R00025
     systems:
     - J123602
     - J124100
@@ -10991,6 +11500,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00250
+    region: E-R00025
     systems:
     - J164511
     - J110018
@@ -11008,6 +11518,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00251
+    region: E-R00025
     systems:
     - J144107
     - J113758
@@ -11026,6 +11537,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00252
+    region: E-R00025
     systems:
     - J214712
     - J142624
@@ -11044,6 +11556,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00253
+    region: E-R00025
     systems:
     - J131718
     - J135540
@@ -11061,6 +11574,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00254
+    region: E-R00025
     systems:
     - J143057
     - J165953
@@ -11079,6 +11593,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00255
+    region: E-R00025
     systems:
     - J125990
     - J114518
@@ -11095,6 +11610,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00256
+    region: E-R00026
     systems:
     - J121959
     - J122049
@@ -11113,6 +11629,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00257
+    region: E-R00026
     systems:
     - J145359
     - J154906
@@ -11129,6 +11646,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00258
+    region: E-R00026
     systems:
     - J104617
     - J143107
@@ -11149,6 +11667,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00259
+    region: E-R00026
     systems:
     - J101248
     - J114842
@@ -11167,6 +11686,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00260
+    region: E-R00026
     systems:
     - J123628
     - J134652
@@ -11185,6 +11705,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00261
+    region: E-R00026
     systems:
     - J171158
     - J141250
@@ -11204,6 +11725,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00262
+    region: E-R00026
     systems:
     - J233630
     - J105822
@@ -11221,6 +11743,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00263
+    region: E-R00026
     systems:
     - J123440
     - J104846
@@ -11237,6 +11760,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00264
+    region: E-R00026
     systems:
     - J133913
     - J153447
@@ -11253,6 +11777,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00265
+    region: E-R00027
     systems:
     - J100252
     - J153919
@@ -11272,6 +11797,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00266
+    region: E-R00027
     systems:
     - J133529
     - J100919
@@ -11288,6 +11814,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00267
+    region: E-R00027
     systems:
     - J102853
     - J220546
@@ -11304,6 +11831,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00268
+    region: E-R00027
     systems:
     - J151204
     - J123235
@@ -11324,6 +11852,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00269
+    region: E-R00027
     systems:
     - J105719
     - J142110
@@ -11344,6 +11873,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00270
+    region: E-R00027
     systems:
     - J105135
     - J110841
@@ -11361,6 +11891,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00271
+    region: E-R00027
     systems:
     - J131747
     - J212203
@@ -11378,6 +11909,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00272
+    region: E-R00027
     systems:
     - J103448
     - J130334
@@ -11396,6 +11928,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00273
+    region: E-R00027
     systems:
     - J100616
     - J151300
@@ -11414,6 +11947,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00274
+    region: E-R00028
     systems:
     - J115644
     - J121459
@@ -11433,6 +11967,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00275
+    region: E-R00028
     systems:
     - J130510
     - J161747
@@ -11450,6 +11985,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00276
+    region: E-R00028
     systems:
     - J210750
     - J235305
@@ -11466,6 +12002,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00277
+    region: E-R00028
     systems:
     - J151200
     - J122520
@@ -11485,6 +12022,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00278
+    region: E-R00028
     systems:
     - J111245
     - J132946
@@ -11502,6 +12040,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00279
+    region: E-R00028
     systems:
     - J134702
     - J164732
@@ -11520,6 +12059,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00280
+    region: E-R00028
     systems:
     - J115907
     - J132605
@@ -11536,6 +12076,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00281
+    region: E-R00028
     systems:
     - J102053
     - J110530
@@ -11553,6 +12094,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00282
+    region: E-R00028
     systems:
     - J100820
     - J115950
@@ -11572,6 +12114,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00283
+    region: E-R00028
     systems:
     - J130039
     - J144434
@@ -11590,6 +12133,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00284
+    region: E-R00028
     systems:
     - J145706
     - J124058
@@ -11607,6 +12151,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00285
+    region: E-R00028
     systems:
     - J131450
     - J152827
@@ -11626,6 +12171,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00286
+    region: E-R00029
     systems:
     - J130305
     - J135554
@@ -11643,6 +12189,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00287
+    region: E-R00029
     systems:
     - J120354
     - J165312
@@ -11659,6 +12206,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00288
+    region: E-R00029
     systems:
     - J125716
     - J114315
@@ -11676,6 +12224,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00289
+    region: E-R00029
     systems:
     - J122518
     - J170417
@@ -11695,6 +12244,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00290
+    region: E-R00029
     systems:
     - J115124
     - J125245
@@ -11715,6 +12265,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00291
+    region: E-R00029
     systems:
     - J142138
     - J153106
@@ -11735,6 +12286,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00292
+    region: E-R00029
     systems:
     - J133923
     - J131509
@@ -11755,6 +12307,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00293
+    region: E-R00029
     systems:
     - J233517
     - J210519
@@ -11773,6 +12326,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00294
+    region: E-R00029
     systems:
     - J141032
     - J103215
@@ -11791,6 +12345,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00295
+    region: E-R00029
     systems:
     - J140133
     - J215304
@@ -11807,6 +12362,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00296
+    region: E-R00029
     systems:
     - J152106
     - J213344
@@ -11826,6 +12382,7 @@ locations:
     isKS: false
     isWormhole: true
     name: E-C00329
+    region: E-R00024
     systems:
     - J010811
     - J005663
@@ -11859,6 +12416,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E-I1JW
+    region: Venal
     systems:
     - P-GKF5
     - D-SKWC
@@ -11881,6 +12439,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E-IFSA
+    region: Tenerifis
     systems:
     - 4-IT9G
     - L2GN-K
@@ -11914,6 +12473,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E-ILCH
+    region: Esoteria
     systems:
     - MS2-V8
     - JD-TYH
@@ -11947,6 +12507,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E-UBWI
+    region: The Spire
     systems:
     - Q-UVY6
     - QFU-4S
@@ -11983,6 +12544,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E1L-UY
+    region: The Spire
     systems:
     - G-VFVB
     - P65-TA
@@ -12003,6 +12565,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E3-NLE
+    region: Tribute
     systems:
     - DBT-GB
     - 3G-LHB
@@ -12028,6 +12591,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E65-47
+    region: The Spire
     systems:
     - S-CUEA
     - KS8G-M
@@ -12052,6 +12616,7 @@ locations:
     isKS: true
     isWormhole: false
     name: E6EO-H
+    region: Malpais
     systems:
     - S-R9J2
     - XU-BF8
@@ -12074,6 +12639,7 @@ locations:
     isKS: true
     isWormhole: false
     name: EIX-HK
+    region: Tenerifis
     systems:
     - Y-EQ0C
     - 8-BEW8
@@ -12095,6 +12661,7 @@ locations:
     isKS: true
     isWormhole: false
     name: EK-NQ2
+    region: Impass
     systems:
     - 442-CS
     - TWJ-AW
@@ -12125,6 +12692,7 @@ locations:
     isKS: true
     isWormhole: false
     name: EL8Z-M
+    region: Immensea
     systems:
     - 9-XN3F
     - Y-FZ5N
@@ -12151,6 +12719,7 @@ locations:
     isKS: true
     isWormhole: false
     name: EM-L3K
+    region: Catch
     systems:
     - WLAR-J
     - L7XS-5
@@ -12188,6 +12757,7 @@ locations:
     isKS: true
     isWormhole: false
     name: ENP-SH
+    region: Scalding Pass
     systems:
     - 1V-LI2
     - 2-KPW6
@@ -12209,6 +12779,7 @@ locations:
     isKS: true
     isWormhole: false
     name: EVE
+    region: Genesis
     systems:
     - New Eden
     - Promised Land
@@ -12235,6 +12806,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ekrin
+    region: Genesis
     systems:
     - Apanake
     - Ashokon
@@ -12264,6 +12836,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Elalan
+    region: Everyshore
     systems:
     - Averon
     - Avele
@@ -12297,6 +12870,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Elerelle
+    region: Solitude
     systems:
     - Babirmoult
     - Ogaria
@@ -12325,6 +12899,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Elfrard
+    region: Molden Heath
     systems:
     - Weld
     - Hegfunden
@@ -12352,6 +12927,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Elose
+    region: Solitude
     systems:
     - Lour
     - Pertnineere
@@ -12387,6 +12963,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Elysium
+    region: Curse
     systems:
     - KLMT-W
     - XX9-WV
@@ -12413,6 +12990,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Emsek
+    region: Tash-Murkon
     systems:
     - Pera
     - Chamume
@@ -12434,6 +13012,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Enka
+    region: Devoid
     systems:
     - Arveyil
     - Ulerah
@@ -12466,6 +13045,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Eoldulf
+    region: Molden Heath
     systems:
     - Unertek
     - Mimiror
@@ -12499,6 +13079,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Erada
+    region: Heimatar
     systems:
     - Hurjafren
     - Vullat
@@ -12524,6 +13105,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ergruk
+    region: Metropolis
     systems:
     - Wirdalen
     - Erstet
@@ -12549,6 +13131,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Essin
+    region: Metropolis
     systems:
     - Hofjaldgund
     - Ebolfer
@@ -12575,6 +13158,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Etsala
+    region: The Forge
     systems:
     - Kiainti
     - Vouskiaho
@@ -12603,6 +13187,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Eugidi
+    region: Metropolis
     systems:
     - Vimeini
     - Eytjangard
@@ -12632,6 +13217,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Eustron
+    region: Essence
     systems:
     - Cat
     - Derririntel
@@ -12664,6 +13250,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Evannater
+    region: Heimatar
     systems:
     - Endrulf
     - Auren
@@ -12681,6 +13268,7 @@ locations:
     isKS: false
     isWormhole: false
     name: F-0CTG
+    region: A821-A
     systems:
     - FR-RCH
     - 3-CE1R
@@ -12698,6 +13286,7 @@ locations:
     isKS: false
     isWormhole: false
     name: F-8DMX
+    region: J7HZ-F
     systems:
     - G1VU-H
     - DVAR-P
@@ -12714,6 +13303,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00297
+    region: F-R00030
     systems:
     - J135504
     - J104859
@@ -12731,6 +13321,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00298
+    region: F-R00030
     systems:
     - J115855
     - J141434
@@ -12748,6 +13339,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00299
+    region: F-R00030
     systems:
     - J144420
     - J151838
@@ -12769,6 +13361,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00300
+    region: F-R00030
     systems:
     - J115935
     - J230049
@@ -12787,6 +13380,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00301
+    region: F-R00030
     systems:
     - J160855
     - J155311
@@ -12803,6 +13397,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00302
+    region: F-R00030
     systems:
     - J170118
     - J112028
@@ -12821,6 +13416,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00303
+    region: F-R00030
     systems:
     - J140555
     - J145510
@@ -12838,6 +13434,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00304
+    region: F-R00030
     systems:
     - J171404
     - J104632
@@ -12857,6 +13454,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00305
+    region: F-R00030
     systems:
     - J223432
     - J155650
@@ -12876,6 +13474,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00306
+    region: F-R00030
     systems:
     - J135220
     - J105801
@@ -12894,6 +13493,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00307
+    region: F-R00030
     systems:
     - J104037
     - J104857
@@ -12912,6 +13512,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00308
+    region: F-R00030
     systems:
     - J172842
     - J211353
@@ -12930,6 +13531,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00309
+    region: F-R00030
     systems:
     - J151817
     - J133241
@@ -12948,6 +13550,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00310
+    region: F-R00030
     systems:
     - J111447
     - J164701
@@ -12967,6 +13570,7 @@ locations:
     isKS: false
     isWormhole: true
     name: F-C00330
+    region: F-R00030
     systems:
     - J010951
     - J012475
@@ -12986,6 +13590,7 @@ locations:
     isKS: true
     isWormhole: false
     name: F-I56R
+    region: Delve
     systems:
     - 7-K6UE
     - KBAK-I
@@ -13008,6 +13613,7 @@ locations:
     isKS: true
     isWormhole: false
     name: F-RA63
+    region: Querious
     systems:
     - C-7SBM
     - BX2-ZX
@@ -13032,6 +13638,7 @@ locations:
     isKS: true
     isWormhole: false
     name: F-V9QW
+    region: Vale of the Silent
     systems:
     - G96R-F
     - T-ZWA1
@@ -13058,6 +13665,7 @@ locations:
     isKS: true
     isWormhole: false
     name: F-W6B4
+    region: Oasa
     systems:
     - FZCR-3
     - 5-9L3H
@@ -13088,6 +13696,7 @@ locations:
     isKS: true
     isWormhole: false
     name: F-ZNNG
+    region: Geminate
     systems:
     - UBX-CC
     - G-73MR
@@ -13114,6 +13723,7 @@ locations:
     isKS: true
     isWormhole: false
     name: F5-O9O
+    region: Tenerifis
     systems:
     - DZ6-I5
     - QCDG-H
@@ -13139,6 +13749,7 @@ locations:
     isKS: true
     isWormhole: false
     name: FD-7Y4
+    region: Insmother
     systems:
     - W-MF6J
     - HL-VZX
@@ -13162,6 +13773,7 @@ locations:
     isKS: true
     isWormhole: false
     name: FDR-EQ
+    region: Catch
     systems:
     - UQ-PWD
     - CB4-Q2
@@ -13180,6 +13792,7 @@ locations:
     isKS: false
     isWormhole: false
     name: FL-TD4
+    region: UUA-F4
     systems:
     - XBO7-F
     - F-JB3H
@@ -13207,6 +13820,7 @@ locations:
     isKS: true
     isWormhole: false
     name: FQ-COP
+    region: Cache
     systems:
     - 0LY-W1
     - 4YO-QK
@@ -13229,6 +13843,7 @@ locations:
     isKS: true
     isWormhole: false
     name: FY6-NK
+    region: Esoteria
     systems:
     - QFIU-K
     - B1D-KU
@@ -13256,6 +13871,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Fabai
+    region: Aridia
     systems:
     - Sakht
     - Anath
@@ -13287,6 +13903,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Fabas
+    region: Genesis
     systems:
     - Heorah
     - Agal
@@ -13314,6 +13931,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Favo
+    region: Kador
     systems:
     - Rayeret
     - Menri
@@ -13351,6 +13969,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Febihkin
+    region: Kador
     systems:
     - Khafis
     - Askonak
@@ -13374,6 +13993,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Fekhoya
+    region: Khanid
     systems:
     - Balanaz
     - Col
@@ -13400,6 +14020,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Finaka
+    region: Khanid
     systems:
     - Hishai
     - Saloti
@@ -13425,6 +14046,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Finena
+    region: Kor-Azor
     systems:
     - Neesher
     - Kizama
@@ -13451,6 +14073,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Firille
+    region: Sinq Laison
     systems:
     - Pulin
     - Chelien
@@ -13479,6 +14102,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Fislipesnes
+    region: Placid
     systems:
     - Dastryns
     - Stacmon
@@ -13509,6 +14133,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Fittakan
+    region: Molden Heath
     systems:
     - Aeddin
     - Gelfiven
@@ -13530,6 +14155,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Frar
+    region: Metropolis
     systems:
     - Hebisa
     - Aderkan
@@ -13551,6 +14177,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Fribrodi
+    region: Metropolis
     systems:
     - Dudreda
     - Ansen
@@ -13580,6 +14207,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Fua
+    region: Domain
     systems:
     - Sahda
     - Akila
@@ -13598,6 +14226,7 @@ locations:
     isKS: false
     isWormhole: true
     name: G-C00311
+    region: G-R00031
     systems:
     - Thera
   G-HISF:
@@ -13620,6 +14249,7 @@ locations:
     isKS: true
     isWormhole: false
     name: G-HISF
+    region: Malpais
     systems:
     - J-Z8C2
     - I8-AJY
@@ -13655,6 +14285,7 @@ locations:
     isKS: true
     isWormhole: false
     name: G2E-RJ
+    region: Providence
     systems:
     - 4B-NQN
     - G-5EN2
@@ -13675,6 +14306,7 @@ locations:
     isKS: true
     isWormhole: false
     name: G3-MU3
+    region: Cobalt Edge
     systems:
     - E-B957
     - 5HN-D6
@@ -13702,6 +14334,7 @@ locations:
     isKS: true
     isWormhole: false
     name: G3IP-E
+    region: Tenerifis
     systems:
     - X-1QGA
     - CCE-0J
@@ -13728,6 +14361,7 @@ locations:
     isKS: true
     isWormhole: false
     name: G8-D09
+    region: Pure Blind
     systems:
     - R-LW2I
     - 3V8-LJ
@@ -13748,6 +14382,7 @@ locations:
     isKS: true
     isWormhole: false
     name: GDBW-2
+    region: Malpais
     systems:
     - UYG-YX
     - RUF3-O
@@ -13775,6 +14410,7 @@ locations:
     isKS: true
     isWormhole: false
     name: GEP-XF
+    region: Paragon Soul
     systems:
     - 2I-520
     - G-M4GK
@@ -13797,6 +14433,7 @@ locations:
     isKS: true
     isWormhole: false
     name: GFE-SS
+    region: Tenal
     systems:
     - 0M-103
     - 6OYQ-Z
@@ -13821,6 +14458,7 @@ locations:
     isKS: true
     isWormhole: false
     name: GJH-1C
+    region: Detorid
     systems:
     - OEG-K9
     - V-4DBR
@@ -13842,6 +14480,7 @@ locations:
     isKS: true
     isWormhole: false
     name: GN-ACS
+    region: Syndicate
     systems:
     - 9U-TTJ
     - 9GYL-O
@@ -13862,6 +14501,7 @@ locations:
     isKS: true
     isWormhole: false
     name: GORV-P
+    region: Tribute
     systems:
     - OY-UZ1
     - X-CFN6
@@ -13885,6 +14525,7 @@ locations:
     isKS: true
     isWormhole: false
     name: GP-GIU
+    region: Branch
     systems:
     - CX-1XF
     - Q-NJZ4
@@ -13907,6 +14548,7 @@ locations:
     isKS: true
     isWormhole: false
     name: GU-JZ1
+    region: Wicked Creek
     systems:
     - 7K-NSE
     - B-WQDP
@@ -13933,6 +14575,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Gallente Border Zone
+    region: Sinq Laison
     systems:
     - Iyen-Oursta
     - Faurent
@@ -13957,6 +14600,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ganoure
+    region: Placid
     systems:
     - Kenninck
     - Espigoure
@@ -13994,6 +14638,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Gebem
+    region: Kor-Azor
     systems:
     - Amdonen
     - Nakregde
@@ -14023,6 +14668,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Gedur
+    region: Metropolis
     systems:
     - Arlulf
     - Nedegulf
@@ -14055,6 +14701,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Giatole
+    region: Everyshore
     systems:
     - Alachene
     - Leremblompes
@@ -14078,6 +14725,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Goins
+    region: Solitude
     systems:
     - Yvaeroure
     - Vecodie
@@ -14098,6 +14746,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Griffin
+    region: Fountain
     systems:
     - G-UTHL
     - M-KXEH
@@ -14122,6 +14771,7 @@ locations:
     isKS: true
     isWormhole: false
     name: H-6HGD
+    region: Querious
     systems:
     - A3-LOG
     - O3L-95
@@ -14138,6 +14788,7 @@ locations:
     isKS: false
     isWormhole: true
     name: H-C00331
+    region: H-R00032
     systems:
     - J000551
     - J000487
@@ -14152,6 +14803,7 @@ locations:
     isKS: false
     isWormhole: true
     name: H-C00332
+    region: H-R00032
     systems:
     - J000528
     - J000461
@@ -14173,6 +14825,7 @@ locations:
     isKS: false
     isWormhole: true
     name: H-C00333
+    region: H-R00032
     systems:
     - J000214
     - J000844
@@ -14197,6 +14850,7 @@ locations:
     isKS: true
     isWormhole: false
     name: H-KW4A
+    region: Providence
     systems:
     - H9-J8N
     - 7YWV-S
@@ -14222,6 +14876,7 @@ locations:
     isKS: true
     isWormhole: false
     name: H-QXM7
+    region: Stain
     systems:
     - L0AD-B
     - 8O-OSG
@@ -14243,6 +14898,7 @@ locations:
     isKS: true
     isWormhole: false
     name: H26A-B
+    region: Stain
     systems:
     - WNS-7J
     - Y1-UQ2
@@ -14269,6 +14925,7 @@ locations:
     isKS: true
     isWormhole: false
     name: H7Q-DG
+    region: Etherium Reach
     systems:
     - QHJR-E
     - Z-FET0
@@ -14285,6 +14942,7 @@ locations:
     isKS: false
     isWormhole: false
     name: HN5-RL
+    region: UUA-F4
     systems:
     - 9MX-1C
     - FRW3-2
@@ -14318,6 +14976,7 @@ locations:
     isKS: true
     isWormhole: false
     name: HNZF-Z
+    region: Cobalt Edge
     systems:
     - X-41DA
     - YVSL-2
@@ -14346,6 +15005,7 @@ locations:
     isKS: true
     isWormhole: false
     name: HOV-VI
+    region: Detorid
     systems:
     - DX-DFJ
     - KE-0FB
@@ -14371,6 +15031,7 @@ locations:
     isKS: true
     isWormhole: false
     name: HRJG-D
+    region: Great Wildlands
     systems:
     - OJOS-T
     - 66U-1P
@@ -14395,6 +15056,7 @@ locations:
     isKS: true
     isWormhole: false
     name: HS7W-T
+    region: Providence
     systems:
     - 6-OQJV
     - ZT-LPU
@@ -14416,6 +15078,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Hale
+    region: Curse
     systems:
     - G-R4W1
     - BPK-XK
@@ -14448,6 +15111,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Haurala
+    region: Lonetrek
     systems:
     - Uemisaisen
     - Sotrentaira
@@ -14474,6 +15138,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Heart
+    region: Outer Ring
     systems:
     - 4C-B7X
     - D5IW-F
@@ -14502,6 +15167,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Heaven
+    region: Curse
     systems:
     - Jamunda
     - Jorund
@@ -14539,6 +15205,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Hed
+    region: Heimatar
     systems:
     - Dal
     - Auga
@@ -14559,6 +15226,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Helab
+    region: Aridia
     systems:
     - Soliara
     - Fageras
@@ -14584,6 +15252,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Heti
+    region: Kador
     systems:
     - Chaneya
     - Ansasos
@@ -14610,6 +15279,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Hevaka
+    region: Derelik
     systems:
     - Nimambal
     - Hasiari
@@ -14633,6 +15303,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Homroon
+    region: Khanid
     systems:
     - Dimoohan
     - Neda
@@ -14662,6 +15333,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Hoosa
+    region: Domain
     systems:
     - Abaim
     - Somouh
@@ -14687,6 +15359,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Hulf
+    region: Metropolis
     systems:
     - Hodrold
     - Erindur
@@ -14713,6 +15386,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Huvilma
+    region: Heimatar
     systems:
     - Alakgur
     - Olfeim
@@ -14739,6 +15413,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Hydra
+    region: Fountain
     systems:
     - TEG-SD
     - J-RQMF
@@ -14770,6 +15445,7 @@ locations:
     isKS: true
     isWormhole: false
     name: I-3ODK
+    region: Feythabolis
     systems:
     - BLC-X0
     - 3L-Y9M
@@ -14793,6 +15469,7 @@ locations:
     isKS: true
     isWormhole: false
     name: I-CCEI
+    region: Paragon Soul
     systems:
     - 3PPT-9
     - 8Q-UYU
@@ -14820,6 +15497,7 @@ locations:
     isKS: true
     isWormhole: false
     name: I-WRVM
+    region: Cobalt Edge
     systems:
     - VAF1-P
     - CUT-0V
@@ -14850,6 +15528,7 @@ locations:
     isKS: true
     isWormhole: false
     name: I3-2J0
+    region: Great Wildlands
     systems:
     - 0-3VW8
     - K-IYNW
@@ -14866,6 +15545,7 @@ locations:
     isKS: false
     isWormhole: false
     name: I4-DK8
+    region: J7HZ-F
     systems:
     - IAMZ-5
     - M-FDTD
@@ -14891,6 +15571,7 @@ locations:
     isKS: true
     isWormhole: false
     name: I89-EP
+    region: Vale of the Silent
     systems:
     - 4GYV-Q
     - 4-HWWF
@@ -14915,6 +15596,7 @@ locations:
     isKS: true
     isWormhole: false
     name: I9B-8X
+    region: Providence
     systems:
     - SI-I89
     - D-6WS1
@@ -14939,6 +15621,7 @@ locations:
     isKS: true
     isWormhole: false
     name: ICH-B6
+    region: Etherium Reach
     systems:
     - I64-XB
     - N-SFZK
@@ -14967,6 +15650,7 @@ locations:
     isKS: true
     isWormhole: false
     name: IJE6-J
+    region: Immensea
     systems:
     - FRTC-5
     - QN-6J2
@@ -14990,6 +15674,7 @@ locations:
     isKS: true
     isWormhole: false
     name: IM-8S5
+    region: Outer Passage
     systems:
     - V-SEE6
     - 2-84WC
@@ -15014,6 +15699,7 @@ locations:
     isKS: true
     isWormhole: false
     name: IPS-QB
+    region: Geminate
     systems:
     - 8MG-J6
     - RLSI-V
@@ -15036,6 +15722,7 @@ locations:
     isKS: true
     isWormhole: false
     name: IV-LWJ
+    region: Insmother
     systems:
     - Z182-R
     - 5M2-KP
@@ -15063,6 +15750,7 @@ locations:
     isKS: true
     isWormhole: false
     name: IYOO-M
+    region: Great Wildlands
     systems:
     - QQ3-YI
     - ZJ-GOU
@@ -15089,6 +15777,7 @@ locations:
     isKS: true
     isWormhole: false
     name: IZ-FBT
+    region: Paragon Soul
     systems:
     - 1DDR-X
     - ZWV-GD
@@ -15113,6 +15802,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ichida
+    region: The Bleak Lands
     systems:
     - Jarkkolen
     - Junsen
@@ -15140,6 +15830,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ieyama
+    region: The Citadel
     systems:
     - Uuna
     - Usi
@@ -15164,6 +15855,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ihatalo
+    region: The Forge
     systems:
     - Ikami
     - Akora
@@ -15189,6 +15881,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ihilakken
+    region: The Forge
     systems:
     - Hirtamon
     - Aokannitoh
@@ -15212,6 +15905,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Imurukka
+    region: The Citadel
     systems:
     - Erila
     - Inoue
@@ -15241,6 +15935,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Inkelm
+    region: Metropolis
     systems:
     - Moselgi
     - Iluin
@@ -15272,6 +15967,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Inolari
+    region: Black Rise
     systems:
     - Pavanakka
     - Raihbaka
@@ -15301,6 +15997,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ishaga
+    region: Black Rise
     systems:
     - Aivonen
     - Immuri
@@ -15335,6 +16032,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Isoma
+    region: The Citadel
     systems:
     - Nagamanen
     - Tannolen
@@ -15353,6 +16051,7 @@ locations:
     isKS: false
     isWormhole: false
     name: J-4QD7
+    region: UUA-F4
     systems:
     - 8-RS3U
     - X-L6BO
@@ -15377,6 +16076,7 @@ locations:
     isKS: true
     isWormhole: false
     name: J-78ZG
+    region: Etherium Reach
     systems:
     - 3IK-7O
     - UAV-1E
@@ -15399,6 +16099,7 @@ locations:
     isKS: true
     isWormhole: false
     name: J-9M7D
+    region: Wicked Creek
     systems:
     - H6-EYX
     - 4-EFLU
@@ -15426,6 +16127,7 @@ locations:
     isKS: true
     isWormhole: false
     name: J0-59Y
+    region: The Spire
     systems:
     - JNG7-K
     - Y4OK-W
@@ -15449,6 +16151,7 @@ locations:
     isKS: true
     isWormhole: false
     name: J33-JR
+    region: Outer Passage
     systems:
     - 6-GRN7
     - YQM-P1
@@ -15470,6 +16173,7 @@ locations:
     isKS: true
     isWormhole: false
     name: J8-G8K
+    region: Period Basis
     systems:
     - VQE-CN
     - G-C8QO
@@ -15497,6 +16201,7 @@ locations:
     isKS: true
     isWormhole: false
     name: JE7-F2
+    region: Branch
     systems:
     - J7YR-1
     - KMC-WI
@@ -15518,6 +16223,7 @@ locations:
     isKS: true
     isWormhole: false
     name: JG-ZLG
+    region: Stain
     systems:
     - 6Y-0TW
     - E7-WSY
@@ -15538,6 +16244,7 @@ locations:
     isKS: true
     isWormhole: false
     name: JQA8-6
+    region: Feythabolis
     systems:
     - H-P4LB
     - 5ELE-A
@@ -15559,6 +16266,7 @@ locations:
     isKS: true
     isWormhole: false
     name: JQV5-9
+    region: Syndicate
     systems:
     - 2G38-I
     - S-U8A4
@@ -15579,6 +16287,7 @@ locations:
     isKS: true
     isWormhole: false
     name: JSZ-X6
+    region: Esoteria
     systems:
     - CR-0E5
     - 16P-PX
@@ -15599,6 +16308,7 @@ locations:
     isKS: true
     isWormhole: false
     name: JZV-O6
+    region: Catch
     systems:
     - FZ-6A5
     - 6-MM99
@@ -15626,6 +16336,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Jakemhih
+    region: Domain
     systems:
     - Ziriert
     - Mamet
@@ -15657,6 +16368,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Jatari
+    region: Kor-Azor
     systems:
     - Nebian
     - Jeni
@@ -15685,6 +16397,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Jayai
+    region: Devoid
     systems:
     - Tararan
     - Roushzar
@@ -15718,6 +16431,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Jeon
+    region: Essence
     systems:
     - Fliet
     - Actee
@@ -15751,6 +16465,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Joas
+    region: Derelik
     systems:
     - Arnola
     - Astabih
@@ -15774,6 +16489,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Jonar
+    region: Metropolis
     systems:
     - Freatlidur
     - Eiluvodi
@@ -15802,6 +16518,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Jonenor
+    region: Sinq Laison
     systems:
     - Trosquesere
     - Stayme
@@ -15828,6 +16545,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Josmaert
+    region: Placid
     systems:
     - Brellystier
     - Grispire
@@ -15844,6 +16562,7 @@ locations:
     isKS: false
     isWormhole: true
     name: K-C00334
+    region: K-R00033
     systems:
     - J110145
     - J164710
@@ -15870,6 +16589,7 @@ locations:
     isKS: true
     isWormhole: false
     name: K-DLD2
+    region: Great Wildlands
     systems:
     - F8K-WQ
     - N-6Z8B
@@ -15890,6 +16610,7 @@ locations:
     isKS: true
     isWormhole: false
     name: K-JO26
+    region: Querious
     systems:
     - 8-SNUD
     - IGE-NE
@@ -15914,6 +16635,7 @@ locations:
     isKS: true
     isWormhole: false
     name: K-N3MD
+    region: Immensea
     systems:
     - Z-H2MA
     - B-KDOZ
@@ -15935,6 +16657,7 @@ locations:
     isKS: true
     isWormhole: false
     name: K-QUVW
+    region: Pure Blind
     systems:
     - RD-G2R
     - KDV-DE
@@ -15957,6 +16680,7 @@ locations:
     isKS: true
     isWormhole: false
     name: K-ZKBM
+    region: Immensea
     systems:
     - A4B-V5
     - JDAS-0
@@ -15975,6 +16699,7 @@ locations:
     isKS: false
     isWormhole: false
     name: KCR-1E
+    region: UUA-F4
     systems:
     - A3-PAT
     - P6-DBM
@@ -15997,6 +16722,7 @@ locations:
     isKS: true
     isWormhole: false
     name: KPU3-3
+    region: Outer Passage
     systems:
     - 4O-ZRI
     - CNHV-M
@@ -16021,6 +16747,7 @@ locations:
     isKS: true
     isWormhole: false
     name: KR-XF4
+    region: Geminate
     systems:
     - RFGW-V
     - CFYY-J
@@ -16053,6 +16780,7 @@ locations:
     isKS: true
     isWormhole: false
     name: KUSW-P
+    region: Esoteria
     systems:
     - HHQ-M1
     - RBW-8G
@@ -16074,6 +16802,7 @@ locations:
     isKS: true
     isWormhole: false
     name: KWCZ-A
+    region: Branch
     systems:
     - 313I-B
     - J9-5MQ
@@ -16102,6 +16831,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kaala
+    region: Lonetrek
     systems:
     - Jan
     - Vaajaita
@@ -16128,6 +16858,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kabo
+    region: Devoid
     systems:
     - Soosat
     - Ussad
@@ -16151,6 +16882,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kainokai
+    region: Lonetrek
     systems:
     - Kuoka
     - Tsukuras
@@ -16177,6 +16909,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kakol
+    region: Kador
     systems:
     - Ghesis
     - Gonan
@@ -16202,6 +16935,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kalangin
+    region: Derelik
     systems:
     - Fovihi
     - Kasrasi
@@ -16233,6 +16967,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kantanen
+    region: The Citadel
     systems:
     - Kubinen
     - Uedama
@@ -16257,6 +16992,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Karnola
+    region: Lonetrek
     systems:
     - Akiainavas
     - Ruvas
@@ -16290,6 +17026,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kashag
+    region: Domain
     systems:
     - Sibot
     - Mista
@@ -16318,6 +17055,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kehina
+    region: Domain
     systems:
     - Nalu
     - Nadohman
@@ -16347,6 +17085,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kekah
+    region: Domain
     systems:
     - Fabin
     - Charra
@@ -16371,6 +17110,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kiartanne
+    region: Verge Vendor
     systems:
     - Gisleres
     - Jufvitte
@@ -16394,6 +17134,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kihkounad
+    region: Genesis
     systems:
     - Anara
     - Partod
@@ -16441,6 +17182,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kimotoro
+    region: The Forge
     systems:
     - Maurasi
     - Jita
@@ -16471,6 +17213,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kisana
+    region: Devoid
     systems:
     - Gheth
     - Sasoutikh
@@ -16510,6 +17253,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Koichi
+    region: Lonetrek
     systems:
     - Funtanainen
     - Kappas
@@ -16535,6 +17279,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kraken
+    region: Fountain
     systems:
     - ESC-RI
     - H-S80W
@@ -16561,6 +17306,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Kurala
+    region: Black Rise
     systems:
     - Ikoskio
     - Prism
@@ -16583,6 +17329,7 @@ locations:
     isKS: true
     isWormhole: false
     name: L-1T22
+    region: Venal
     systems:
     - LHJ-2G
     - OJ-CT4
@@ -16606,6 +17353,7 @@ locations:
     isKS: true
     isWormhole: false
     name: L-H07K
+    region: Feythabolis
     systems:
     - 6O-XIO
     - U1-C18
@@ -16633,6 +17381,7 @@ locations:
     isKS: true
     isWormhole: false
     name: L-TEVM
+    region: Great Wildlands
     systems:
     - F7A-MR
     - PUZ-IO
@@ -16649,6 +17398,7 @@ locations:
     isKS: false
     isWormhole: false
     name: L5-H1O
+    region: UUA-F4
     systems:
     - WF-1LM
     - D95-FQ
@@ -16677,6 +17427,7 @@ locations:
     isKS: true
     isWormhole: false
     name: L7-RDZ
+    region: Perrigen Falls
     systems:
     - 7MMJ-3
     - 9-EXU9
@@ -16694,6 +17445,7 @@ locations:
     isKS: false
     isWormhole: false
     name: LC-AQD
+    region: UUA-F4
     systems:
     - W-6TS9
     - VIG-VR
@@ -16721,6 +17473,7 @@ locations:
     isKS: true
     isWormhole: false
     name: LI-BA0
+    region: Querious
     systems:
     - ED-L9T
     - I1Y-IU
@@ -16745,6 +17498,7 @@ locations:
     isKS: true
     isWormhole: false
     name: LIB-F9
+    region: Branch
     systems:
     - Y-1918
     - W-4FA9
@@ -16776,6 +17530,7 @@ locations:
     isKS: true
     isWormhole: false
     name: LLAP-1
+    region: Tribute
     systems:
     - MSHD-4
     - PNDN-V
@@ -16802,6 +17557,7 @@ locations:
     isKS: true
     isWormhole: false
     name: LN-L8L
+    region: Pure Blind
     systems:
     - P-2TTL
     - RORZ-H
@@ -16826,6 +17582,7 @@ locations:
     isKS: true
     isWormhole: false
     name: LSC-4P
+    region: Delve
     systems:
     - N8D9-Z
     - 8F-TK3
@@ -16853,6 +17610,7 @@ locations:
     isKS: true
     isWormhole: false
     name: LWMW-6
+    region: Perrigen Falls
     systems:
     - L5Y4-M
     - W-CSFY
@@ -16875,6 +17633,7 @@ locations:
     isKS: true
     isWormhole: false
     name: LY-FY6
+    region: Pure Blind
     systems:
     - Q-5211
     - M-YCD4
@@ -16899,6 +17658,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Leseasesh
+    region: Aridia
     systems:
     - Shafrak
     - Yahyerer
@@ -16923,6 +17683,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Liela
+    region: Domain
     systems:
     - Rayl
     - Clarelam
@@ -16949,6 +17710,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Lolbrerie
+    region: Sinq Laison
     systems:
     - Sileperer
     - Olettiers
@@ -16974,6 +17736,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Lorundio
+    region: Metropolis
     systems:
     - Eust
     - Asgeir
@@ -17005,6 +17768,7 @@ locations:
     isKS: true
     isWormhole: false
     name: M-J57M
+    region: Tenal
     systems:
     - PNS7-J
     - RLTG-3
@@ -17032,6 +17796,7 @@ locations:
     isKS: true
     isWormhole: false
     name: M9-AN3
+    region: Etherium Reach
     systems:
     - F9-FUV
     - BNX-AS
@@ -17060,6 +17825,7 @@ locations:
     isKS: true
     isWormhole: false
     name: MDM8-J
+    region: Pure Blind
     systems:
     - KQK1-2
     - 2D-0SO
@@ -17082,6 +17848,7 @@ locations:
     isKS: true
     isWormhole: false
     name: MK7-AO
+    region: Syndicate
     systems:
     - A-3ES3
     - IIRH-G
@@ -17116,6 +17883,7 @@ locations:
     isKS: true
     isWormhole: false
     name: MPJW-6
+    region: Querious
     systems:
     - 4-GJT1
     - AO-N1P
@@ -17149,6 +17917,7 @@ locations:
     isKS: true
     isWormhole: false
     name: MRC-29
+    region: Cache
     systems:
     - RV5-TT
     - PKN-NJ
@@ -17173,6 +17942,7 @@ locations:
     isKS: true
     isWormhole: false
     name: MW49-U
+    region: Malpais
     systems:
     - RXTY-4
     - ZO-YJZ
@@ -17201,6 +17971,7 @@ locations:
     isKS: true
     isWormhole: false
     name: MY-HQD
+    region: The Spire
     systems:
     - L-EUY2
     - WIW-X8
@@ -17234,6 +18005,7 @@ locations:
     isKS: true
     isWormhole: false
     name: MY-QQI
+    region: Immensea
     systems:
     - Z8-81T
     - ZBP-TP
@@ -17260,6 +18032,7 @@ locations:
     isKS: true
     isWormhole: false
     name: MZ-PA2
+    region: Detorid
     systems:
     - C5-SUU
     - JFV-ID
@@ -17284,6 +18057,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Maal
+    region: Aridia
     systems:
     - Keba
     - Pserz
@@ -17323,6 +18097,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Maddam
+    region: Domain
     systems:
     - Mahrokht
     - Bagodan
@@ -17354,6 +18129,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Makh
+    region: Genesis
     systems:
     - Saphthar
     - Keri
@@ -17391,6 +18167,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Makiriemi
+    region: Lonetrek
     systems:
     - Isikano
     - Pakkonen
@@ -17415,6 +18192,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mal
+    region: Derelik
     systems:
     - Mahnagh
     - Uhtafal
@@ -17444,6 +18222,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Malariya
+    region: Lonetrek
     systems:
     - Elanoda
     - Oishami
@@ -17469,6 +18248,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mallugier
+    region: Placid
     systems:
     - Gallusiene
     - Ruerrotta
@@ -17490,6 +18270,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mamouna
+    region: Derelik
     systems:
     - Kuharah
     - Jayneleb
@@ -17512,6 +18293,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Manticore
+    region: Fountain
     systems:
     - E-BWUU
     - Q-XEB3
@@ -17536,6 +18318,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mareerieh
+    region: Aridia
     systems:
     - Isid
     - Vehan
@@ -17562,6 +18345,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Marele
+    region: Everyshore
     systems:
     - Groothese
     - Mormelot
@@ -17589,6 +18373,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Maseend
+    region: Domain
     systems:
     - Lashkai
     - Jaswelu
@@ -17611,6 +18396,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mayonhen
+    region: Aridia
     systems:
     - Haimeh
     - Mishi
@@ -17642,6 +18428,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mazake
+    region: Domain
     systems:
     - Noli
     - Hutian
@@ -17683,6 +18470,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Megeh
+    region: Kador
     systems:
     - Romi
     - Aphend
@@ -17716,6 +18504,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Meinigefur
+    region: Metropolis
     systems:
     - Embod
     - Arlek
@@ -17744,6 +18533,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mekashtad
+    region: Derelik
     systems:
     - Salashayama
     - Orva
@@ -17782,6 +18572,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Meli
+    region: Genesis
     systems:
     - Naka
     - Gayar
@@ -17803,6 +18594,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mermaid
+    region: Fountain
     systems:
     - ZTS-4D
     - XUW-3X
@@ -17825,6 +18617,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Miennue
+    region: Cloud Ring
     systems:
     - CX7-70
     - X-M9ON
@@ -17856,6 +18649,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mih
+    region: Genesis
     systems:
     - Serren
     - Alal
@@ -17888,6 +18682,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mimishia
+    region: Tash-Murkon
     systems:
     - Hoona
     - Sacalan
@@ -17919,6 +18714,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Minnen
+    region: Lonetrek
     systems:
     - Piak
     - Nonni
@@ -17939,6 +18735,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Minotaur
+    region: Fountain
     systems:
     - V6-NY1
     - OL3-78
@@ -17962,6 +18759,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mise
+    region: Tash-Murkon
     systems:
     - Ivih
     - Gyerzen
@@ -17991,6 +18789,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mito
+    region: Lonetrek
     systems:
     - Taisy
     - Vuorrassi
@@ -18023,6 +18822,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mivora
+    region: The Forge
     systems:
     - Akkio
     - Otosela
@@ -18054,6 +18854,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mobit
+    region: Domain
     systems:
     - Mikhir
     - Akhragan
@@ -18075,6 +18876,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mobrault
+    region: Solitude
     systems:
     - Toustain
     - Pochelympe
@@ -18097,6 +18899,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mofa
+    region: Domain
     systems:
     - Hayumtom
     - Faswiba
@@ -18128,6 +18931,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Moghiz
+    region: Kador
     systems:
     - Elmed
     - Ustnia
@@ -18153,6 +18957,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Monalaz
+    region: Genesis
     systems:
     - Angur
     - Antem
@@ -18175,6 +18980,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mossas
+    region: Derelik
     systems:
     - Zemalu
     - Maspah
@@ -18197,6 +19003,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Mulata
+    region: Domain
     systems:
     - Mamenkhanar
     - Arera
@@ -18228,6 +19035,7 @@ locations:
     isKS: true
     isWormhole: false
     name: N-39FI
+    region: Period Basis
     systems:
     - TCAG-3
     - UR-E46
@@ -18256,6 +19064,7 @@ locations:
     isKS: true
     isWormhole: false
     name: N-APJ8
+    region: Etherium Reach
     systems:
     - KGT3-6
     - 4LJ6-Q
@@ -18286,6 +19095,7 @@ locations:
     isKS: true
     isWormhole: false
     name: N-K4Q0
+    region: Geminate
     systems:
     - O1-FTD
     - Roua
@@ -18309,6 +19119,7 @@ locations:
     isKS: true
     isWormhole: false
     name: N-LY4R
+    region: Insmother
     systems:
     - N7-BIY
     - F3-8X2
@@ -18339,6 +19150,7 @@ locations:
     isKS: true
     isWormhole: false
     name: N-OGI1
+    region: Catch
     systems:
     - QSM-LM
     - 2J-WJY
@@ -18364,6 +19176,7 @@ locations:
     isKS: true
     isWormhole: false
     name: N-U2LX
+    region: Deklein
     systems:
     - 3OAT-Q
     - N-TFXK
@@ -18388,6 +19201,7 @@ locations:
     isKS: true
     isWormhole: false
     name: N32Z-Z
+    region: Venal
     systems:
     - 3A1P-N
     - 92K-H2
@@ -18412,6 +19226,7 @@ locations:
     isKS: true
     isWormhole: false
     name: N4TD-6
+    region: Cobalt Edge
     systems:
     - 42SU-L
     - D9Z-VY
@@ -18434,6 +19249,7 @@ locations:
     isKS: true
     isWormhole: false
     name: N5V-Y0
+    region: Insmother
     systems:
     - KS-1TS
     - MJ-LGH
@@ -18458,6 +19274,7 @@ locations:
     isKS: true
     isWormhole: false
     name: NJU-QV
+    region: Delve
     systems:
     - 5-CQDA
     - I-E3TG
@@ -18482,6 +19299,7 @@ locations:
     isKS: true
     isWormhole: false
     name: NK-AOZ
+    region: Geminate
     systems:
     - O-VWPB
     - K25-XD
@@ -18515,6 +19333,7 @@ locations:
     isKS: true
     isWormhole: false
     name: NNLX-K
+    region: Catch
     systems:
     - IS-R7P
     - ERVK-P
@@ -18539,6 +19358,7 @@ locations:
     isKS: true
     isWormhole: false
     name: NOB-HD
+    region: Outer Passage
     systems:
     - UC-8XF
     - J-0KB3
@@ -18562,6 +19382,7 @@ locations:
     isKS: true
     isWormhole: false
     name: NOK-FZ
+    region: Period Basis
     systems:
     - 0A-KZ0
     - 48I1-X
@@ -18592,6 +19413,7 @@ locations:
     isKS: true
     isWormhole: false
     name: NPL-WH
+    region: Outer Passage
     systems:
     - DJ-GBH
     - 8K-QCZ
@@ -18611,6 +19433,7 @@ locations:
     isKS: false
     isWormhole: false
     name: NSM-6F
+    region: J7HZ-F
     systems:
     - BKK4-H
     - Y-4V7U
@@ -18643,6 +19466,7 @@ locations:
     isKS: true
     isWormhole: false
     name: NT1-5Q
+    region: Perrigen Falls
     systems:
     - TDP-T3
     - A9-F18
@@ -18667,6 +19491,7 @@ locations:
     isKS: true
     isWormhole: false
     name: NZU8-G
+    region: Detorid
     systems:
     - E51-JE
     - U69-YC
@@ -18699,6 +19524,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Nadire
+    region: Sinq Laison
     systems:
     - Raeghoscon
     - Lermireve
@@ -18722,6 +19548,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Nagaslaiken
+    region: The Citadel
     systems:
     - Ohvosamon
     - Oijamon
@@ -18748,6 +19575,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Nakid
+    region: Domain
     systems:
     - Sieh
     - Bittanshal
@@ -18768,6 +19596,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Naloran
+    region: Kador
     systems:
     - Hikansog
     - Akhmoh
@@ -18790,6 +19619,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Nashar
+    region: Domain
     systems:
     - Miyeli
     - Arshat
@@ -18817,6 +19647,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Nasorin
+    region: Tash-Murkon
     systems:
     - Yanuel
     - Taru
@@ -18847,6 +19678,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Nazdirer
+    region: Genesis
     systems:
     - Cleyd
     - Ahbazon
@@ -18879,6 +19711,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Nexus
+    region: Sinq Laison
     systems:
     - Abenync
     - Aurcel
@@ -18908,6 +19741,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Nimedaz
+    region: Kor-Azor
     systems:
     - Nibainkier
     - Danyana
@@ -18938,6 +19772,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Nohshayess
+    region: Khanid
     systems:
     - Bukah
     - Neyi
@@ -18974,6 +19809,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Norgoh
+    region: Domain
     systems:
     - Safizon
     - Zatsyaki
@@ -18992,6 +19828,7 @@ locations:
     isKS: false
     isWormhole: false
     name: O-BSIB
+    region: A821-A
     systems:
     - LQB-TC
     - II-1B3
@@ -19016,6 +19853,7 @@ locations:
     isKS: true
     isWormhole: false
     name: O-EIMK
+    region: Delve
     systems:
     - 3-DMQT
     - N-8YET
@@ -19041,6 +19879,7 @@ locations:
     isKS: true
     isWormhole: false
     name: O-EOI9
+    region: Tenal
     systems:
     - W0X-MG
     - U5-XW7
@@ -19065,6 +19904,7 @@ locations:
     isKS: true
     isWormhole: false
     name: O-PQU0
+    region: Esoteria
     systems:
     - WT-2J9
     - C-PEWN
@@ -19088,6 +19928,7 @@ locations:
     isKS: true
     isWormhole: false
     name: O5K-Y6
+    region: Delve
     systems:
     - IP6V-X
     - RF-K9W
@@ -19119,6 +19960,7 @@ locations:
     isKS: true
     isWormhole: false
     name: O5PO-O
+    region: Perrigen Falls
     systems:
     - R-AG7W
     - V-3K7C
@@ -19143,6 +19985,7 @@ locations:
     isKS: true
     isWormhole: false
     name: O5QG-M
+    region: Omist
     systems:
     - S-XZHU
     - 9MWZ-B
@@ -19163,6 +20006,7 @@ locations:
     isKS: true
     isWormhole: false
     name: O6W-QE
+    region: Impass
     systems:
     - GBT4-J
     - X-0CKQ
@@ -19191,6 +20035,7 @@ locations:
     isKS: true
     isWormhole: false
     name: O9X-CV
+    region: Oasa
     systems:
     - UGR-J2
     - KED-2O
@@ -19222,6 +20067,7 @@ locations:
     isKS: true
     isWormhole: false
     name: OC-TTA
+    region: The Spire
     systems:
     - KPI-OW
     - 1I5-0V
@@ -19246,6 +20092,7 @@ locations:
     isKS: true
     isWormhole: false
     name: OFQ-HG
+    region: Feythabolis
     systems:
     - UB5Z-3
     - M2GJ-X
@@ -19262,6 +20109,7 @@ locations:
     isKS: false
     isWormhole: false
     name: OG-DJD
+    region: J7HZ-F
     systems:
     - ZA6-9N
     - 7H-Z5R
@@ -19291,6 +20139,7 @@ locations:
     isKS: true
     isWormhole: false
     name: OK-FEM
+    region: Delve
     systems:
     - C3N-3S
     - M0O-JG
@@ -19322,6 +20171,7 @@ locations:
     isKS: true
     isWormhole: false
     name: OSJ7-I
+    region: Vale of the Silent
     systems:
     - FMBR-8
     - FH-TTC
@@ -19349,6 +20199,7 @@ locations:
     isKS: true
     isWormhole: false
     name: OWT3-6
+    region: The Spire
     systems:
     - DVN6-0
     - XR-ZL7
@@ -19369,6 +20220,7 @@ locations:
     isKS: true
     isWormhole: false
     name: OY3-DM
+    region: Period Basis
     systems:
     - Z-M5A1
     - RYQC-I
@@ -19397,6 +20249,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Obray
+    region: Verge Vendor
     systems:
     - Clellinon
     - Luse
@@ -19431,6 +20284,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Odengsolf
+    region: Heimatar
     systems:
     - Avesber
     - Frarn
@@ -19465,6 +20319,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Odilis
+    region: Everyshore
     systems:
     - Gicodel
     - Mattere
@@ -19486,6 +20341,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ohvarainen
+    region: The Bleak Lands
     systems:
     - Komaa
     - Imata
@@ -19515,6 +20371,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Okakuola
+    region: Black Rise
     systems:
     - Rakapas
     - Notoras
@@ -19560,6 +20417,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Okela
+    region: Lonetrek
     systems:
     - Ichinumi
     - Jouvulen
@@ -19585,6 +20443,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Okkelen
+    region: The Forge
     systems:
     - Otomainen
     - Otitoh
@@ -19611,6 +20470,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Okomon
+    region: The Forge
     systems:
     - Saisio
     - Hampinen
@@ -19636,6 +20496,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Okunda
+    region: Lonetrek
     systems:
     - Dantumi
     - Aurohunen
@@ -19656,6 +20517,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ombil
+    region: Aridia
     systems:
     - Hakatiz
     - Gesh
@@ -19689,6 +20551,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Onirvura
+    region: The Forge
     systems:
     - Poinen
     - Olo
@@ -19714,6 +20577,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Oraron
+    region: Derelik
     systems:
     - Ejahi
     - Asghatil
@@ -19743,6 +20607,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Orpana
+    region: The Forge
     systems:
     - Uchoshi
     - Obe
@@ -19764,6 +20629,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Orshed
+    region: Derelik
     systems:
     - Jofan
     - Yadi
@@ -19801,6 +20667,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ortner
+    region: Heimatar
     systems:
     - Hulm
     - Malukker
@@ -19829,6 +20696,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Orus
+    region: Kor-Azor
     systems:
     - Daran
     - Tadadan
@@ -19850,6 +20718,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Orvanne
+    region: Solitude
     systems:
     - Sarline
     - Gererique
@@ -19880,6 +20749,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Osnins
+    region: Everyshore
     systems:
     - Junsoraert
     - Jurlesel
@@ -19908,6 +20778,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Osta
+    region: Heimatar
     systems:
     - Obrolber
     - Austraka
@@ -19936,6 +20807,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Otawasa
+    region: The Citadel
     systems:
     - Hysera
     - Yria
@@ -19958,6 +20830,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Otsabaira
+    region: The Forge
     systems:
     - Akkilen
     - Ukkalen
@@ -19984,6 +20857,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Outartoh
+    region: The Citadel
     systems:
     - Tasabeshi
     - Ono
@@ -20008,6 +20882,7 @@ locations:
     isKS: true
     isWormhole: false
     name: P-B2NE
+    region: The Kalevala Expanse
     systems:
     - O9K-FT
     - FZX-PU
@@ -20029,6 +20904,7 @@ locations:
     isKS: true
     isWormhole: false
     name: P-FL48
+    region: The Spire
     systems:
     - OSW-0P
     - 6W-6O9
@@ -20049,6 +20925,7 @@ locations:
     isKS: true
     isWormhole: false
     name: P-I9PF
+    region: Scalding Pass
     systems:
     - J2-PZ6
     - V-KDY2
@@ -20069,6 +20946,7 @@ locations:
     isKS: true
     isWormhole: false
     name: P6N8-J
+    region: Providence
     systems:
     - JEIV-E
     - O-Y5JQ
@@ -20093,6 +20971,7 @@ locations:
     isKS: true
     isWormhole: false
     name: PFL-QY
+    region: Malpais
     systems:
     - NRD-5Q
     - Z0H2-4
@@ -20117,6 +20996,7 @@ locations:
     isKS: true
     isWormhole: false
     name: PG-RWX
+    region: Etherium Reach
     systems:
     - RK-Q51
     - M-V0PQ
@@ -20147,6 +21027,7 @@ locations:
     isKS: true
     isWormhole: false
     name: PGPJ-8
+    region: Etherium Reach
     systems:
     - YX-0KH
     - GN-TNT
@@ -20172,6 +21053,7 @@ locations:
     isKS: true
     isWormhole: false
     name: PR-ACX
+    region: Detorid
     systems:
     - L8-WNE
     - 1-GBVE
@@ -20202,6 +21084,7 @@ locations:
     isKS: true
     isWormhole: false
     name: PUB-0R
+    region: Querious
     systems:
     - G-3BOG
     - K7D-II
@@ -20224,6 +21107,7 @@ locations:
     isKS: true
     isWormhole: false
     name: PX0-P4
+    region: Malpais
     systems:
     - 7T-0QS
     - IL-OL1
@@ -20245,6 +21129,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Panorad
+    region: Metropolis
     systems:
     - Josekorn
     - Irgrus
@@ -20274,6 +21159,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Panoumid
+    region: Kor-Azor
     systems:
     - Nare
     - Zinkon
@@ -20298,6 +21184,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Paradise
+    region: Curse
     systems:
     - V-IUEL
     - 0SHT-A
@@ -20327,6 +21214,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Parrosa
+    region: Kador
     systems:
     - Yarebap
     - Mandoo
@@ -20362,6 +21250,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Parud
+    region: Domain
     systems:
     - Penirgman
     - Chaven
@@ -20400,6 +21289,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Patrie
+    region: Essence
     systems:
     - Pemene
     - Yvangier
@@ -20432,6 +21322,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Peccanouette
+    region: Essence
     systems:
     - Adirain
     - Aere
@@ -20464,6 +21355,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Pegasus
+    region: Fountain
     systems:
     - 4-EP12
     - A8-XBW
@@ -20491,6 +21383,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Pegeler
+    region: Placid
     systems:
     - Eugales
     - Archavoinet
@@ -20515,6 +21408,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Peges
+    region: Tash-Murkon
     systems:
     - Kari
     - Judra
@@ -20543,6 +21437,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Pezarba
+    region: Kador
     systems:
     - Mod
     - Bersyrim
@@ -20569,6 +21464,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Phoenix
+    region: Fountain
     systems:
     - Serpentis Prime
     - A-1CON
@@ -20594,6 +21490,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Pietanen
+    region: Lonetrek
     systems:
     - Iitanmadan
     - Jotenen
@@ -20622,6 +21519,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Prelle
+    region: Cloud Ring
     systems:
     - Z-Y7R7
     - FQ9W-C
@@ -20644,6 +21542,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Q-2BI6
+    region: Esoteria
     systems:
     - 0-O6XF
     - C-VZAK
@@ -20668,6 +21567,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Q-6LG1
+    region: Providence
     systems:
     - 3D-CQU
     - 3KB-J0
@@ -20690,6 +21590,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Q-IPAA
+    region: Immensea
     systems:
     - NS2L-4
     - PPFB-U
@@ -20716,6 +21617,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Q-PVMK
+    region: Great Wildlands
     systems:
     - 7Q-8Z2
     - U3K-4A
@@ -20739,6 +21641,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Q0-4FU
+    region: Perrigen Falls
     systems:
     - QKQ3-L
     - VWES-Y
@@ -20763,6 +21666,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Q4IG-S
+    region: Stain
     systems:
     - 0-7XA8
     - UKYS-5
@@ -20787,6 +21691,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Q5KW-Z
+    region: Branch
     systems:
     - 1G-MJE
     - 9F-7PZ
@@ -20822,6 +21727,7 @@ locations:
     isKS: true
     isWormhole: false
     name: QA-P7J
+    region: Insmother
     systems:
     - 8G-2FP
     - C-J6MT
@@ -20843,6 +21749,7 @@ locations:
     isKS: true
     isWormhole: false
     name: QI1M-Q
+    region: Scalding Pass
     systems:
     - NSBE-L
     - V-S9YY
@@ -20870,6 +21777,7 @@ locations:
     isKS: true
     isWormhole: false
     name: QJ2-0M
+    region: Cobalt Edge
     systems:
     - 4-PCHD
     - SK7-G6
@@ -20892,6 +21800,7 @@ locations:
     isKS: true
     isWormhole: false
     name: QO-17V
+    region: Stain
     systems:
     - WJO0-G
     - 0G-A25
@@ -20921,6 +21830,7 @@ locations:
     isKS: true
     isWormhole: false
     name: QP6B-I
+    region: Tenerifis
     systems:
     - 3L3N-X
     - Y-ORBJ
@@ -20945,6 +21855,7 @@ locations:
     isKS: true
     isWormhole: false
     name: QS-FVH
+    region: Syndicate
     systems:
     - 4L-E5P
     - 0T-AMZ
@@ -20965,6 +21876,7 @@ locations:
     isKS: true
     isWormhole: false
     name: QZJ-FL
+    region: Impass
     systems:
     - FR-B1H
     - WFYM-0
@@ -20985,6 +21897,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Qermi
+    region: Kador
     systems:
     - Lazara
     - Shemah
@@ -21007,6 +21920,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Qeti
+    region: Domain
     systems:
     - Afivad
     - Jesoyeh
@@ -21039,6 +21953,7 @@ locations:
     isKS: true
     isWormhole: false
     name: R-CL2W
+    region: Insmother
     systems:
     - J-ZYSZ
     - GB-6X5
@@ -21061,6 +21976,7 @@ locations:
     isKS: true
     isWormhole: false
     name: R-IZDC
+    region: Stain
     systems:
     - DK6W-I
     - NRT4-U
@@ -21091,6 +22007,7 @@ locations:
     isKS: true
     isWormhole: false
     name: R-M719
+    region: Wicked Creek
     systems:
     - 5H-SM2
     - XQS-GZ
@@ -21120,6 +22037,7 @@ locations:
     isKS: true
     isWormhole: false
     name: R2-BT6
+    region: Esoteria
     systems:
     - F-UVBV
     - A1-AUH
@@ -21148,6 +22066,7 @@ locations:
     isKS: true
     isWormhole: false
     name: RDD-E6
+    region: Etherium Reach
     systems:
     - 1GH-48
     - JAWX-R
@@ -21170,6 +22089,7 @@ locations:
     isKS: true
     isWormhole: false
     name: RF9-ZU
+    region: Wicked Creek
     systems:
     - MWA-5Q
     - ZH-GKG
@@ -21198,6 +22118,7 @@ locations:
     isKS: true
     isWormhole: false
     name: RFQ-8Y
+    region: Detorid
     systems:
     - MD-0AW
     - H-FGJO
@@ -21220,6 +22141,7 @@ locations:
     isKS: true
     isWormhole: false
     name: RFY-QB
+    region: Deklein
     systems:
     - J1AU-9
     - 43B-O1
@@ -21247,6 +22169,7 @@ locations:
     isKS: true
     isWormhole: false
     name: RHG-4O
+    region: Feythabolis
     systems:
     - R4K-8L
     - P8-BKO
@@ -21268,6 +22191,7 @@ locations:
     isKS: true
     isWormhole: false
     name: RJ-1R7
+    region: Geminate
     systems:
     - W-3BSU
     - B-F1MI
@@ -21295,6 +22219,7 @@ locations:
     isKS: true
     isWormhole: false
     name: RL36-K
+    region: Omist
     systems:
     - UEP0-A
     - 7L9-ZC
@@ -21312,6 +22237,7 @@ locations:
     isKS: false
     isWormhole: false
     name: RO-AZT
+    region: UUA-F4
     systems:
     - U-ITH5
     - N-4G5L
@@ -21332,6 +22258,7 @@ locations:
     isKS: true
     isWormhole: false
     name: RTCU-5
+    region: Immensea
     systems:
     - WYF8-8
     - EA-HSA
@@ -21358,6 +22285,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Rapture
+    region: Curse
     systems:
     - S1DP-Y
     - M-N7WD
@@ -21383,6 +22311,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ravin
+    region: Kor-Azor
     systems:
     - Schmaeel
     - Kerying
@@ -21406,6 +22335,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Regalia
+    region: Outer Ring
     systems:
     - AN-G54
     - ZXI-K2
@@ -21438,6 +22368,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Reya
+    region: Genesis
     systems:
     - Hirizan
     - Imya
@@ -21466,6 +22397,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Rifenda
+    region: Tash-Murkon
     systems:
     - Nehkiah
     - Gaknem
@@ -21498,6 +22430,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Rollera
+    region: Metropolis
     systems:
     - Eurgrana
     - Eldjaerin
@@ -21520,6 +22453,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ruomo
+    region: The Forge
     systems:
     - Itamo
     - Vaankalen
@@ -21552,6 +22486,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ryra
+    region: Devoid
     systems:
     - Esescama
     - Dital
@@ -21578,6 +22513,7 @@ locations:
     isKS: true
     isWormhole: false
     name: S-B1E4
+    region: Deklein
     systems:
     - LT-DRO
     - 85-B52
@@ -21603,6 +22539,7 @@ locations:
     isKS: true
     isWormhole: false
     name: S-Q02B
+    region: Oasa
     systems:
     - LA2-KV
     - 1-BK1Q
@@ -21629,6 +22566,7 @@ locations:
     isKS: true
     isWormhole: false
     name: S0X-O4
+    region: Perrigen Falls
     systems:
     - 2AUL-X
     - OBV-YC
@@ -21653,6 +22591,7 @@ locations:
     isKS: true
     isWormhole: false
     name: S4GH-I
+    region: Pure Blind
     systems:
     - HPS5-C
     - TFA0-U
@@ -21689,6 +22628,7 @@ locations:
     isKS: true
     isWormhole: false
     name: S4S-SD
+    region: The Kalevala Expanse
     systems:
     - 74-DRC
     - L-GY1B
@@ -21710,6 +22650,7 @@ locations:
     isKS: true
     isWormhole: false
     name: SB3-IH
+    region: Stain
     systems:
     - RRWI-5
     - QCKK-T
@@ -21730,6 +22671,7 @@ locations:
     isKS: true
     isWormhole: false
     name: SG-CTQ
+    region: Delve
     systems:
     - NIDJ-K
     - PS-94K
@@ -21753,6 +22695,7 @@ locations:
     isKS: true
     isWormhole: false
     name: SI1-CF
+    region: Cobalt Edge
     systems:
     - CBY8-J
     - ETXT-F
@@ -21775,6 +22718,7 @@ locations:
     isKS: true
     isWormhole: false
     name: SKX-PL
+    region: Syndicate
     systems:
     - EU0I-T
     - G-6SXJ
@@ -21800,6 +22744,7 @@ locations:
     isKS: true
     isWormhole: false
     name: SLYP-5
+    region: Etherium Reach
     systems:
     - E8-432
     - FGJP-J
@@ -21824,6 +22769,7 @@ locations:
     isKS: true
     isWormhole: false
     name: SPNZ-Z
+    region: Delve
     systems:
     - JP4-AA
     - PDE-U3
@@ -21853,6 +22799,7 @@ locations:
     isKS: true
     isWormhole: false
     name: ST-0EZ
+    region: Venal
     systems:
     - 9-266Q
     - 1-Y6KI
@@ -21890,6 +22837,7 @@ locations:
     isKS: true
     isWormhole: false
     name: San Matar
+    region: Derelik
     systems:
     - Zaid
     - Akpivem
@@ -21924,6 +22872,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sanair
+    region: Tash-Murkon
     systems:
     - Goram
     - Anjedin
@@ -21977,6 +22926,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sanctum
+    region: Genesis
     systems:
     - Kemerk
     - Manarq
@@ -22002,6 +22952,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Santenpaa
+    region: The Citadel
     systems:
     - Komo
     - Saila
@@ -22040,6 +22991,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sasen
+    region: The Bleak Lands
     systems:
     - Lamaa
     - Kamela
@@ -22063,6 +23015,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Satyr
+    region: Fountain
     systems:
     - B32-14
     - CHA2-Q
@@ -22085,6 +23038,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sazdih
+    region: Derelik
     systems:
     - Uzistoon
     - Moh
@@ -22109,6 +23063,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Scepter
+    region: Outer Ring
     systems:
     - NP6-38
     - G5-EN3
@@ -22131,6 +23086,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Seevadin
+    region: Khanid
     systems:
     - Upt
     - Claini
@@ -22162,6 +23118,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sela
+    region: Lonetrek
     systems:
     - Amsen
     - Isseras
@@ -22186,6 +23143,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Selonat
+    region: Aridia
     systems:
     - Esaeel
     - Karan
@@ -22216,6 +23174,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Semou
+    region: Devoid
     systems:
     - Sifilar
     - Tzvi
@@ -22242,6 +23201,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Serthoulde
+    region: Placid
     systems:
     - Reschard
     - Mantenault
@@ -22268,6 +23228,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sib
+    region: Khanid
     systems:
     - Tzashrah
     - Ashi
@@ -22290,6 +23251,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Skaven
+    region: Fountain
     systems:
     - ATQ-QS
     - 1-5GBW
@@ -22310,6 +23272,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sole
+    region: Outer Ring
     systems:
     - A2V6-6
     - BOE7-P
@@ -22349,6 +23312,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Somi
+    region: Tash-Murkon
     systems:
     - Riramia
     - Jarzalad
@@ -22378,6 +23342,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sosarir
+    region: Domain
     systems:
     - Gid
     - Thebeka
@@ -22404,6 +23369,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sound
+    region: Curse
     systems:
     - EW-JR5
     - CL-85V
@@ -22436,6 +23402,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Spaen
+    region: Sinq Laison
     systems:
     - Schoorasana
     - Boillair
@@ -22461,6 +23428,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sphinx
+    region: Fountain
     systems:
     - KCT-0A
     - N2-OQG
@@ -22488,6 +23456,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Stadakorn
+    region: Metropolis
     systems:
     - Agtver
     - Erego
@@ -22521,6 +23490,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Stion
+    region: Sinq Laison
     systems:
     - Ation
     - Aliette
@@ -22548,6 +23518,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Subhatoub
+    region: Tash-Murkon
     systems:
     - Alra
     - Seitam
@@ -22573,6 +23544,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Subi
+    region: Derelik
     systems:
     - Shedoo
     - Bekirdod
@@ -22593,6 +23565,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sukanan
+    region: Tash-Murkon
     systems:
     - Rethan
     - Tirbam
@@ -22625,6 +23598,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Suon
+    region: The Citadel
     systems:
     - Sirppala
     - Inaro
@@ -22655,6 +23629,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sveipar
+    region: Heimatar
     systems:
     - Lustrevik
     - Ammold
@@ -22680,6 +23655,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Sword
+    region: Outer Ring
     systems:
     - GA-2V7
     - R-OCBA
@@ -22704,6 +23680,7 @@ locations:
     isKS: true
     isWormhole: false
     name: T-1WDH
+    region: Catch
     systems:
     - AOK-WQ
     - E1-4YH
@@ -22736,6 +23713,7 @@ locations:
     isKS: true
     isWormhole: false
     name: T-4ACL
+    region: Oasa
     systems:
     - DS3-6A
     - DYS-CG
@@ -22762,6 +23740,7 @@ locations:
     isKS: true
     isWormhole: false
     name: T-HHHT
+    region: Catch
     systems:
     - E-YJ8G
     - ZQ-Z3Y
@@ -22782,6 +23761,7 @@ locations:
     isKS: true
     isWormhole: false
     name: T-L301
+    region: Stain
     systems:
     - 7-X3RN
     - 4A-XJ6
@@ -22807,6 +23787,7 @@ locations:
     isKS: true
     isWormhole: false
     name: T-RQ7S
+    region: Branch
     systems:
     - ME-4IU
     - I-7JR4
@@ -22830,6 +23811,7 @@ locations:
     isKS: true
     isWormhole: false
     name: T-W4L3
+    region: Great Wildlands
     systems:
     - WTIE-6
     - F5-CGW
@@ -22848,6 +23830,7 @@ locations:
     isKS: false
     isWormhole: false
     name: T7B-VB
+    region: UUA-F4
     systems:
     - P-MVFP
     - 6Q5K-5
@@ -22870,6 +23853,7 @@ locations:
     isKS: true
     isWormhole: false
     name: T875-C
+    region: Detorid
     systems:
     - E-ACV6
     - Q0J-RH
@@ -22898,6 +23882,7 @@ locations:
     isKS: true
     isWormhole: false
     name: TA-A7V
+    region: Syndicate
     systems:
     - 2Q-I6Q
     - 97X-CH
@@ -22924,6 +23909,7 @@ locations:
     isKS: true
     isWormhole: false
     name: TCC-ZV
+    region: Paragon Soul
     systems:
     - 4Y-OBL
     - T-ZFID
@@ -22946,6 +23932,7 @@ locations:
     isKS: true
     isWormhole: false
     name: TJ10-O
+    region: Tenal
     systems:
     - 30-D5G
     - 5-O8B1
@@ -22973,6 +23960,7 @@ locations:
     isKS: true
     isWormhole: false
     name: TL-FDN
+    region: Insmother
     systems:
     - 27-HP0
     - HFC-AQ
@@ -23001,6 +23989,7 @@ locations:
     isKS: true
     isWormhole: false
     name: TPB-KG
+    region: Perrigen Falls
     systems:
     - 01B-88
     - 0-U2M4
@@ -23027,6 +24016,7 @@ locations:
     isKS: true
     isWormhole: false
     name: TY0-Q2
+    region: Perrigen Falls
     systems:
     - 5V-Q1R
     - M4-KX5
@@ -23058,6 +24048,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tandoiras
+    region: The Bleak Lands
     systems:
     - Oyonata
     - Kurniainen
@@ -23084,6 +24075,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tartatven
+    region: Molden Heath
     systems:
     - Hrokkur
     - Aedald
@@ -23112,6 +24104,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tasen
+    region: The Citadel
     systems:
     - Isikesu
     - Kusomonmon
@@ -23136,6 +24129,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Taurus
+    region: Fountain
     systems:
     - 3ZTV-V
     - 9D6O-M
@@ -23158,6 +24152,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tendrara
+    region: Kor-Azor
     systems:
     - Enal
     - Jedandan
@@ -23190,6 +24185,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Thoulde
+    region: Essence
     systems:
     - Synchelle
     - Adrel
@@ -23232,6 +24228,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Throne Worlds
+    region: Domain
     systems:
     - Simbeloud
     - Kehour
@@ -23262,6 +24259,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tiat
+    region: Metropolis
     systems:
     - Hadozeko
     - Resbroko
@@ -23286,6 +24284,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tid
+    region: Aridia
     systems:
     - Sazilid
     - Nema
@@ -23312,6 +24311,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tinnimerci
+    region: Cloud Ring
     systems:
     - O-0HW8
     - 6-4V20
@@ -23338,6 +24338,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tranquillity
+    region: Curse
     systems:
     - K-MGJ7
     - G-G78S
@@ -23365,6 +24366,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Trigentia
+    region: Kador
     systems:
     - Akhwa
     - Turba
@@ -23389,6 +24391,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Tsemshatel
+    region: Tash-Murkon
     systems:
     - Yasud
     - Asezai
@@ -23415,6 +24418,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U-3HAO
+    region: Great Wildlands
     systems:
     - 56D-TC
     - FVXK-D
@@ -23438,6 +24442,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U-7RBK
+    region: Pure Blind
     systems:
     - 2-6TGQ
     - PFU-LH
@@ -23458,6 +24463,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U-EUG7
+    region: Insmother
     systems:
     - O-7LAI
     - 4DS-OI
@@ -23483,6 +24489,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U-HSM3
+    region: The Kalevala Expanse
     systems:
     - GSO-SR
     - B3ZU-H
@@ -23513,6 +24520,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U-IOR1
+    region: Outer Passage
     systems:
     - 8-AA98
     - 2ULC-J
@@ -23537,6 +24545,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U-JTBT
+    region: Catch
     systems:
     - 4NBN-9
     - QETZ-W
@@ -23565,6 +24574,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U29-0S
+    region: Vale of the Silent
     systems:
     - LZ-6SU
     - B-588R
@@ -23586,6 +24596,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U7-GIV
+    region: Omist
     systems:
     - MMUF-8
     - 99-0GS
@@ -23617,6 +24628,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U7L-MQ
+    region: Stain
     systems:
     - 2IGP-1
     - 4GQ-XQ
@@ -23645,6 +24657,7 @@ locations:
     isKS: true
     isWormhole: false
     name: U8-CWA
+    region: Pure Blind
     systems:
     - EL8-4Q
     - XI-VUF
@@ -23671,6 +24684,7 @@ locations:
     isKS: true
     isWormhole: false
     name: UBPU-9
+    region: Geminate
     systems:
     - WH-2EZ
     - B6-52M
@@ -23699,6 +24713,7 @@ locations:
     isKS: true
     isWormhole: false
     name: UD-ZJ3
+    region: Providence
     systems:
     - K1I1-J
     - AY-24I
@@ -23719,6 +24734,7 @@ locations:
     isKS: true
     isWormhole: false
     name: UK-MI6
+    region: Vale of the Silent
     systems:
     - KX-2UI
     - MA-XAP
@@ -23743,6 +24759,7 @@ locations:
     isKS: true
     isWormhole: false
     name: UL8-RD
+    region: Malpais
     systems:
     - Z-DDVJ
     - 8-2JZA
@@ -23759,6 +24776,7 @@ locations:
     isKS: false
     isWormhole: false
     name: UN2H-D
+    region: A821-A
     systems:
     - JL-P9P
     - T-YWDD
@@ -23789,6 +24807,7 @@ locations:
     isKS: true
     isWormhole: false
     name: UR-HG4
+    region: Insmother
     systems:
     - 3U-48K
     - RERZ-L
@@ -23811,6 +24830,7 @@ locations:
     isKS: true
     isWormhole: false
     name: UTQ-BO
+    region: Deklein
     systems:
     - MXX5-9
     - JU-OWQ
@@ -23834,6 +24854,7 @@ locations:
     isKS: true
     isWormhole: false
     name: UTZ-7B
+    region: Venal
     systems:
     - AJCJ-1
     - 6NJ8-V
@@ -23865,6 +24886,7 @@ locations:
     isKS: true
     isWormhole: false
     name: UWRZ-2
+    region: Fade
     systems:
     - K4YZ-Y
     - L-SCBU
@@ -23902,6 +24924,7 @@ locations:
     isKS: true
     isWormhole: false
     name: UX3-N2
+    region: Catch
     systems:
     - HED-GP
     - B-3QPD
@@ -23932,6 +24955,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ubar
+    region: Genesis
     systems:
     - Malma
     - Diaderi
@@ -23960,6 +24984,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Umamon
+    region: Lonetrek
     systems:
     - Anin
     - Saranen
@@ -23982,6 +25007,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Unicorn
+    region: Fountain
     systems:
     - L-1SW8
     - B17O-R
@@ -24002,6 +25028,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Unour
+    region: Placid
     systems:
     - Ivorider
     - Mollin
@@ -24029,6 +25056,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Urpiken
+    region: Black Rise
     systems:
     - Ashitsu
     - Sarenemi
@@ -24051,6 +25079,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Urtfer
+    region: Heimatar
     systems:
     - Egmur
     - Klir
@@ -24084,6 +25113,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Uusasai
+    region: The Citadel
     systems:
     - Tintoh
     - Ikao
@@ -24109,6 +25139,7 @@ locations:
     isKS: true
     isWormhole: false
     name: V-4QJC
+    region: Great Wildlands
     systems:
     - SL-YBS
     - L1S-G1
@@ -24130,6 +25161,7 @@ locations:
     isKS: true
     isWormhole: false
     name: V-H3V0
+    region: Stain
     systems:
     - DABV-N
     - J-AYLV
@@ -24171,6 +25203,7 @@ locations:
     isKS: true
     isWormhole: false
     name: V-LQBF
+    region: Great Wildlands
     systems:
     - AZF-GH
     - CRXA-Y
@@ -24201,6 +25234,7 @@ locations:
     isKS: true
     isWormhole: false
     name: V1G-63
+    region: Geminate
     systems:
     - 9P4O-F
     - 4D9-66
@@ -24229,6 +25263,7 @@ locations:
     isKS: true
     isWormhole: false
     name: V2S-RH
+    region: Insmother
     systems:
     - UDE-FX
     - B-II34
@@ -24249,6 +25284,7 @@ locations:
     isKS: false
     isWormhole: false
     name: V8UW-M
+    region: UUA-F4
     systems:
     - 7O-POM
     - ZZ7-L6
@@ -24274,6 +25310,7 @@ locations:
     isKS: true
     isWormhole: false
     name: VH1-NS
+    region: Stain
     systems:
     - U2-BJ2
     - 42-UOW
@@ -24290,6 +25327,7 @@ locations:
     isKS: false
     isWormhole: false
     name: VL-OGL
+    region: UUA-F4
     systems:
     - RF-342
     - S-QNXH
@@ -24311,6 +25349,7 @@ locations:
     isKS: true
     isWormhole: false
     name: VNX-P0
+    region: Fade
     systems:
     - MPPA-A
     - 8QMO-E
@@ -24337,6 +25376,7 @@ locations:
     isKS: true
     isWormhole: false
     name: VS-8P0
+    region: Cache
     systems:
     - YE1-9S
     - W2T-TR
@@ -24362,6 +25402,7 @@ locations:
     isKS: true
     isWormhole: false
     name: VSC-W9
+    region: Cache
     systems:
     - P7-45V
     - 5F-MG1
@@ -24386,6 +25427,7 @@ locations:
     isKS: true
     isWormhole: false
     name: VT-LHB
+    region: Perrigen Falls
     systems:
     - 972C-1
     - M5NO-B
@@ -24406,6 +25448,7 @@ locations:
     isKS: false
     isWormhole: false
     name: VW-JMB
+    region: UUA-F4
     systems:
     - 8MX-OR
     - S94-X8
@@ -24434,6 +25477,7 @@ locations:
     isKS: true
     isWormhole: false
     name: VW7-YN
+    region: Deklein
     systems:
     - CCP-US
     - 2R-CRW
@@ -24465,6 +25509,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Vaarma
+    region: The Bleak Lands
     systems:
     - Myyhera
     - Iesa
@@ -24491,6 +25536,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Velvet
+    region: Outer Ring
     systems:
     - ZXC8-1
     - Z-40CG
@@ -24526,6 +25572,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Vieres
+    region: Essence
     systems:
     - Ladistier
     - Parts
@@ -24562,6 +25609,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Viriette
+    region: Placid
     systems:
     - Harroule
     - Ostingele
@@ -24590,6 +25638,7 @@ locations:
     isKS: true
     isWormhole: false
     name: W-3E44
+    region: Tenerifis
     systems:
     - JV1V-O
     - M-RPN3
@@ -24613,6 +25662,7 @@ locations:
     isKS: true
     isWormhole: false
     name: W-3Y6D
+    region: Great Wildlands
     systems:
     - 92-B0X
     - 5FCV-A
@@ -24637,6 +25687,7 @@ locations:
     isKS: true
     isWormhole: false
     name: W-4U1E
+    region: Delve
     systems:
     - QY6-RK
     - D-3GIQ
@@ -24666,6 +25717,7 @@ locations:
     isKS: true
     isWormhole: false
     name: W-ULNA
+    region: Stain
     systems:
     - RPS-0K
     - 6QBH-S
@@ -24697,6 +25749,7 @@ locations:
     isKS: true
     isWormhole: false
     name: W-XBGF
+    region: Tribute
     systems:
     - QFF-O6
     - IMK-K1
@@ -24713,6 +25766,7 @@ locations:
     isKS: false
     isWormhole: false
     name: W1-F3U
+    region: A821-A
     systems:
     - FX-XMW
     - G-N6MC
@@ -24743,6 +25797,7 @@ locations:
     isKS: true
     isWormhole: false
     name: W9MQ-1
+    region: Venal
     systems:
     - V3X-L8
     - Z0-TJW
@@ -24775,6 +25830,7 @@ locations:
     isKS: true
     isWormhole: false
     name: WE-WLQ
+    region: Oasa
     systems:
     - MZLW-9
     - G-W1ND
@@ -24799,6 +25855,7 @@ locations:
     isKS: true
     isWormhole: false
     name: WF-OP4
+    region: Stain
     systems:
     - LGL-SD
     - A-DZA8
@@ -24825,6 +25882,7 @@ locations:
     isKS: true
     isWormhole: false
     name: WMP-OF
+    region: Pure Blind
     systems:
     - A8I-C5
     - M-76XI
@@ -24850,6 +25908,7 @@ locations:
     isKS: true
     isWormhole: false
     name: WQZ8-4
+    region: Scalding Pass
     systems:
     - RYC-19
     - IAK-JW
@@ -24874,6 +25933,7 @@ locations:
     isKS: true
     isWormhole: false
     name: WS5L-X
+    region: Malpais
     systems:
     - 9NI-FW
     - N6NK-J
@@ -24890,6 +25950,7 @@ locations:
     isKS: false
     isWormhole: false
     name: WSC-AL
+    region: J7HZ-F
     systems:
     - PQA-9K
     - WLL-QX
@@ -24910,6 +25971,7 @@ locations:
     isKS: true
     isWormhole: false
     name: WTE-CK
+    region: Immensea
     systems:
     - J-QA7I
     - 7YSF-E
@@ -24934,6 +25996,7 @@ locations:
     isKS: true
     isWormhole: false
     name: WXB-RY
+    region: Perrigen Falls
     systems:
     - 8B-A4E
     - A1F-22
@@ -24962,6 +26025,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Wiedadur
+    region: Heimatar
     systems:
     - Tongofur
     - Gerek
@@ -24984,6 +26048,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Wield
+    region: Outer Ring
     systems:
     - RTX0-S
     - JKJ-VJ
@@ -25015,6 +26080,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Woenckee
+    region: Verge Vendor
     systems:
     - Costolle
     - Murethand
@@ -25042,6 +26108,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Wyllequet
+    region: Sinq Laison
     systems:
     - Bawilan
     - Brybier
@@ -25065,6 +26132,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Wyvern
+    region: Fountain
     systems:
     - RP2-OQ
     - AC2E-3
@@ -25089,6 +26157,7 @@ locations:
     isKS: true
     isWormhole: false
     name: X-FHU3
+    region: Tenal
     systems:
     - SZ6-TA
     - L-P3XM
@@ -25122,6 +26191,7 @@ locations:
     isKS: true
     isWormhole: false
     name: X-VN63
+    region: Tribute
     systems:
     - F-RT6Q
     - B-S42H
@@ -25152,6 +26222,7 @@ locations:
     isKS: true
     isWormhole: false
     name: X5O9-E
+    region: Outer Passage
     systems:
     - M4U-EH
     - O-O2GN
@@ -25177,6 +26248,7 @@ locations:
     isKS: true
     isWormhole: false
     name: X7-FTR
+    region: Perrigen Falls
     systems:
     - PE-SAM
     - RY-2FX
@@ -25207,6 +26279,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XFLN-F
+    region: Fade
     systems:
     - DW-T2I
     - DO6H-Q
@@ -25236,6 +26309,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XHL-TZ
+    region: Cobalt Edge
     systems:
     - U6R-F9
     - HXK-J6
@@ -25264,6 +26338,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XHYS-O
+    region: Venal
     systems:
     - EK2-ET
     - W3KK-R
@@ -25290,6 +26365,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XI0-X2
+    region: Malpais
     systems:
     - N-H95C
     - Y6-9LF
@@ -25314,6 +26390,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XJ-0RG
+    region: Stain
     systems:
     - HQ-TDJ
     - 37S-KO
@@ -25334,6 +26411,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XLL-Z7
+    region: Querious
     systems:
     - 3D5K-R
     - H74-B0
@@ -25358,6 +26436,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XMNF-7
+    region: Venal
     systems:
     - 2TH-3F
     - WLF-D3
@@ -25387,6 +26466,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XOV7-5
+    region: Period Basis
     systems:
     - XZ-SKZ
     - 35-JWD
@@ -25410,6 +26490,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XPBM-F
+    region: Branch
     systems:
     - C-4ZOS
     - K-8SQS
@@ -25432,6 +26513,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XPG-HE
+    region: The Kalevala Expanse
     systems:
     - K76A-3
     - 9-0QB7
@@ -25462,6 +26544,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XPJ1-6
+    region: Delve
     systems:
     - Z3V-1W
     - A-ELE2
@@ -25488,6 +26571,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XR9-LP
+    region: Catch
     systems:
     - A-803L
     - J-ODE7
@@ -25518,6 +26602,7 @@ locations:
     isKS: true
     isWormhole: false
     name: XV7L-S
+    region: Providence
     systems:
     - Y9-MDG
     - TU-O0T
@@ -25540,6 +26625,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Y-2D6Q
+    region: Stain
     systems:
     - 0GN-VO
     - O5Y3-W
@@ -25564,6 +26650,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Y-JSM8
+    region: Cache
     systems:
     - C-6YHJ
     - M53-1V
@@ -25589,6 +26676,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Y-LRWI
+    region: Omist
     systems:
     - XPUM-L
     - LQ-AHE
@@ -25615,6 +26703,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Y-M7ML
+    region: Scalding Pass
     systems:
     - ZFJH-T
     - WHI-61
@@ -25635,6 +26724,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Y46-EN
+    region: Immensea
     systems:
     - 4DV-1T
     - XS-K1O
@@ -25655,6 +26745,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Y4Y7-Q
+    region: Syndicate
     systems:
     - 5-DSFH
     - X-PYH5
@@ -25679,6 +26770,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Y8-HHZ
+    region: Venal
     systems:
     - 2PLH-3
     - 4-7IL9
@@ -25706,6 +26798,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Y8HB-U
+    region: Venal
     systems:
     - P-VYVL
     - XW-6TC
@@ -25729,6 +26822,7 @@ locations:
     isKS: true
     isWormhole: false
     name: YB7B-8
+    region: Querious
     systems:
     - VT-G2P
     - YOP-0T
@@ -25757,6 +26851,7 @@ locations:
     isKS: true
     isWormhole: false
     name: YCM-AI
+    region: Scalding Pass
     systems:
     - WFFE-4
     - 9M-M0P
@@ -25780,6 +26875,7 @@ locations:
     isKS: true
     isWormhole: false
     name: YDS0-Y
+    region: Vale of the Silent
     systems:
     - Q-EHMJ
     - C-DHON
@@ -25802,6 +26898,7 @@ locations:
     isKS: true
     isWormhole: false
     name: YENX-U
+    region: Immensea
     systems:
     - Y-C4AL
     - 08-N7Q
@@ -25832,6 +26929,7 @@ locations:
     isKS: true
     isWormhole: false
     name: YFN-UN
+    region: Syndicate
     systems:
     - 8V-SJJ
     - 3KNK-A
@@ -25863,6 +26961,7 @@ locations:
     isKS: true
     isWormhole: false
     name: YS-GOP
+    region: Pure Blind
     systems:
     - EC-P8R
     - L-TS8S
@@ -25884,6 +26983,7 @@ locations:
     isKS: true
     isWormhole: false
     name: YUT3-U
+    region: Vale of the Silent
     systems:
     - IFJ-EL
     - 47L-J4
@@ -25911,6 +27011,7 @@ locations:
     isKS: true
     isWormhole: false
     name: YX-LYK
+    region: Delve
     systems:
     - ZA9-PY
     - 1-SMEB
@@ -25932,6 +27033,7 @@ locations:
     isKS: true
     isWormhole: false
     name: YZKE-Q
+    region: Feythabolis
     systems:
     - 3-BADZ
     - UTDH-N
@@ -25963,6 +27065,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Yekti
+    region: Domain
     systems:
     - Saana
     - Niarja
@@ -25994,6 +27097,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Yestadan
+    region: Domain
     systems:
     - Cailanar
     - Armala
@@ -26025,6 +27129,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Youledian
+    region: Khanid
     systems:
     - Ashmarir
     - Lansez
@@ -26057,6 +27162,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Yrton
+    region: Cloud Ring
     systems:
     - 5-MLDT
     - XT-R36
@@ -26094,6 +27200,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Ysiette
+    region: Everyshore
     systems:
     - Marosier
     - Jaschercis
@@ -26133,6 +27240,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Z-6NQ6
+    region: Syndicate
     systems:
     - FD-MLJ
     - F67E-Q
@@ -26161,6 +27269,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Z-D6K5
+    region: Deklein
     systems:
     - 0P-F3K
     - CU9-T0
@@ -26195,6 +27304,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Z-DO53
+    region: Vale of the Silent
     systems:
     - 9OO-LH
     - P3EN-E
@@ -26221,6 +27331,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Z-ONUI
+    region: Insmother
     systems:
     - U-UTU9
     - A-TJ0G
@@ -26241,6 +27352,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Z01V-Z
+    region: Stain
     systems:
     - 4XW2-D
     - OOO-FS
@@ -26271,6 +27383,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Z6T6-B
+    region: The Spire
     systems:
     - HIK-MC
     - E-BFLT
@@ -26298,6 +27411,7 @@ locations:
     isKS: true
     isWormhole: false
     name: ZPI-2E
+    region: Detorid
     systems:
     - FMH-OV
     - 77S8-E
@@ -26318,6 +27432,7 @@ locations:
     isKS: true
     isWormhole: false
     name: ZQ2-CF
+    region: Providence
     systems:
     - F-DTOO
     - PI5-39
@@ -26340,6 +27455,7 @@ locations:
     isKS: true
     isWormhole: false
     name: ZQ7-QS
+    region: Tenerifis
     systems:
     - IL-YTR
     - EQWO-Y
@@ -26364,6 +27480,7 @@ locations:
     isKS: true
     isWormhole: false
     name: ZW-BY5
+    region: Catch
     systems:
     - GE-94X
     - GMLH-K
@@ -26384,6 +27501,7 @@ locations:
     isKS: true
     isWormhole: false
     name: ZYL-FT
+    region: Geminate
     systems:
     - 4NGK-F
     - KR-V6G
@@ -26418,6 +27536,7 @@ locations:
     isKS: true
     isWormhole: false
     name: ZYR-NF
+    region: Impass
     systems:
     - 9I-SRF
     - F-3H2P
@@ -26450,6 +27569,7 @@ locations:
     isKS: true
     isWormhole: false
     name: Zemont
+    region: Domain
     systems:
     - Youl
     - Mai

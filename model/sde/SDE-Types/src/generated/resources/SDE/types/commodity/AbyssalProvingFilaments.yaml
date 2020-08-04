@@ -17,6 +17,15 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
+  Event 4 Proving Filament:
+    id: 55825
+    marketGroup: 2747
+    name: Event 4 Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
   FFA Destroyers Proving Filament:
     id: 55822
     marketGroup: 2747

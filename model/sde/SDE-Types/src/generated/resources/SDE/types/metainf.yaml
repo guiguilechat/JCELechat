@@ -34767,7 +34767,7 @@ id2name:
   52652: Raznaborg Ghosting Damavik
   52653: Raznaborg Blinding Kikimora
   52654: Raznaborg Tangling Damavik
-  52655: Tangling Strike Kikimora
+  52655: Raznaborg Tangling Kikimora
   52656: Raznaborg Harrowing Damavik
   52657: Raznaborg Harrowing Kikimora
   52658: Zorya's Kikimora
@@ -36792,11 +36792,11 @@ id2name:
   55748: EDENCOM Frigate Wreck
   55749: EDENCOM Cruiser Wreck
   55750: EDENCOM Battleship Wreck
-  55751: 55751_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_AmarrFoundationF01.png
+  55751: Women's Amarr 'Loyalist' Beret
   55752: 55752_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_CaldariUnionF01.png
   55753: Women's 'Federal Defender' Beret
   55754: Women's 'Valkear' Beret
-  55755: 55755_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_AmarrFoundationM01.png
+  55755: Men's Amarr 'Loyalist' Beret
   55756: 55756_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_CaldariUnionM01.png
   55757: Men's 'Federal Defender' Beret
   55758: Men's 'Valkear' Beret
@@ -36851,7 +36851,7 @@ id2name:
   55822: FFA Destroyers Proving Filament
   55823: 3v3 Slicers Proving Filament
   55824: QA 4v4 Proving Filament
-  55825: Proving Filament 9
+  55825: Event 4 Proving Filament
   55826: Expert Cerebral Accelerator
   55827: Serenity Special SKINs Crate
   55828: ORE Capital Ship Rorqual Wreckage
@@ -36933,6 +36933,36 @@ id2name:
   55909: EGDLI (2) Skin Tier 2 (Alpha)
   55910: EGDLI (2) Skin Tier 3 (Alpha)
   55911: 'EGDLI (2) Abyssal Tier 4 (Alpha) '
+  55919: TES Jamyl the Liberator
+  55920: TES Yonis the Pious
+  55921: TES Uriam of Fiery Heart
+  55922: TES Garkeh of the Marches
+  55923: TES Aritcio the Redeemed
+  55924: TES Merimeth the Serene
+  55925: TES Catiz of Tash-Murkon
+  55927: Serenity Monthly Cerebral Accelerator - 2020.8
+  55928: Serenity August Season Standard Cerebral Accelerator
+  55929: Serenity August Season Advanced Cerebral Accelerator
+  55935: TES Jamyl the Liberator Parade
+  55936: TES Yonis the Pious Parade
+  55937: TES Uriam of Fiery Heart Parade
+  55938: TES Garkeh of the Marches Parade
+  55939: TES Aritcio the Redeemed Parade
+  55940: TES Merimeth the Serene Parade
+  55941: TES Catiz of Tash-Murkon Parade
+  55942: Standard Armor Skill Accelerator
+  55943: Elite Armor Skill Accelerator
+  55944: Standard Shield Skill Accelerator
+  55945: Elite Shield Skill Accelerator
+  55946: Standard Engineering Skill Accelerator
+  55947: Elite Engineering Skill Accelerator
+  55948: Amarr Shuttle Khanid SKIN
+  55949: Sigil Khanid SKIN
+  55977: Serenity August Season Pass
+  55980: Amarr Foundation Day Apparel Crate
+  55981: Amarr Foundation Day Fireworks Crate
+  55982: Event 5 Proving Filament
+  55983: Event 6 Proving Filament
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -41388,6 +41418,8 @@ name2group:
   Amarr Fence: entity/LargeCollidableStructure
   Amarr Forensic Investigative Deployment: commodity/Livestock
   Amarr Forensic Investigative Team: commodity/Livestock
+  Amarr Foundation Day Apparel Crate: specialeditionassets/SpecialEditionCommodities
+  Amarr Foundation Day Fireworks Crate: specialeditionassets/SpecialEditionCommodities
   Amarr Freighter: skill/SpaceshipCommand
   Amarr Frigate: skill/SpaceshipCommand
   Amarr Frigate Container: entity/MissionContainer
@@ -41455,6 +41487,7 @@ name2group:
   Amarr Shuttle Blueprint: blueprint/ShuttleBlueprint
   Amarr Shuttle Exoplanets Hunter SKIN: skins/PermanentSKIN
   Amarr Shuttle Glacial Drift SKIN: skins/PermanentSKIN
+  Amarr Shuttle Khanid SKIN: skins/PermanentSKIN
   Amarr Slave Trader: entity/MissionAmarrEmpireCruiser
   Amarr Slave Transport Ship: entity/MissionAmarrEmpireCruiser
   Amarr Slaver Ship: entity/MissionAmarrEmpireCruiser
@@ -48424,8 +48457,10 @@ name2group:
   Elere Febre's Data Log: commodity/Commodities
   Elere Febre's Habitation module: entity/DeadspaceOverseerSStructure
   Elgur Erinn: entity/DeadspaceOverseerFrigate
+  Elite Armor Skill Accelerator: implant/Booster
   Elite Drone AI: material/RogueDroneComponents
   Elite Drone Parasite: entity/DeadspaceRogueDroneBattleship
+  Elite Engineering Skill Accelerator: implant/Booster
   Elite Federal Navy Brutix: entity/RetaliatingGallenteEntities
   Elite Federal Navy Deimos: entity/RetaliatingGallenteEntities
   Elite Federal Navy Dominix: entity/RetaliatingGallenteEntities
@@ -48473,6 +48508,7 @@ name2group:
   Elite Republic Fleet Scimitar: entity/RetaliatingMinmatarEntities
   Elite Republic Fleet Tempest: entity/RetaliatingMinmatarEntities
   Elite Republic Fleet Typhoon: entity/RetaliatingMinmatarEntities
+  Elite Shield Skill Accelerator: implant/Booster
   Elite Slaves: commodity/Livestock
   Elite State Navy Basilisk: entity/RetaliatingCaldariEntities
   Elite State Navy Cerberus: entity/RetaliatingCaldariEntities
@@ -48864,6 +48900,7 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
+  Event 4 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
@@ -55791,6 +55828,7 @@ name2group:
   Men's 'Valkyrie' Flight Jacket: apparel/Outer
   Men's 'Vermillion Dragon' Facial Augmentation: apparel/Augmentations
   Men's 'Wirepoise' Facial Augmentation: apparel/Augmentations
+  Men's Amarr 'Loyalist' Beret: apparel/Headwear
   Men's Amarr 'Loyalist' T-Shirt: apparel/Tops
   Men's Amarr Empire Command Jacket: apparel/Outer
   Men's Amarr Empire Exploration Suit: apparel/Outer
@@ -59268,6 +59306,7 @@ name2group:
   Raznaborg Starving Vedmak: entity/InvadingPrecursorEntities
   Raznaborg Tangling Damavik: entity/InvadingPrecursorEntities
   Raznaborg Tangling Drekavac: entity/InvadingPrecursorEntities
+  Raznaborg Tangling Kikimora: entity/InvadingPrecursorEntities
   Raznaborg Tangling Leshak: entity/InvadingPrecursorEntities
   Raznaborg Tangling Vedmak: entity/InvadingPrecursorEntities
   Raznaborg Vedmak: entity/InvadingPrecursorEntities
@@ -60985,8 +61024,12 @@ name2group:
   Sentry Station Alpha/Beta: entity/DeadspaceOverseerSStructure
   Sentry Tower: entity/DestructibleSentryGun
   Sepentis Regional Baron Arain Percourt: entity/DeadspaceOverseerBattleship
+  Serenity August Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity August Season Pass: implant/Booster
+  Serenity August Season Standard Cerebral Accelerator: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.6: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.7: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2020.8: implant/Booster
   Serenity Special Cerebral Accelerator: implant/Booster
   Serenity Special SKINs Crate: specialeditionassets/SpecialEditionCommodities
   Serpentis 3D Scanner Gamut: commodity/ArtifactsAndPrototypes
@@ -61622,6 +61665,7 @@ name2group:
   Sigil Kador SKIN (7 Days): skins/Max7DaySKIN
   Sigil Kador SKIN (90 Days): skins/Max90DaySKIN
   Sigil Kador Serenity Only SKIN: skins/PermanentSKIN
+  Sigil Khanid SKIN: skins/PermanentSKIN
   Sigil Oasis of Faith SKIN: skins/PermanentSKIN
   Sigil Purity of the Throne SKIN: skins/PermanentSKIN
   Sigil Raata Sunset SKIN: skins/PermanentSKIN
@@ -62578,6 +62622,7 @@ name2group:
   Staff Recruiter Scrambler Pistol: infantry/InfantryWeapons
   Staff Recruiter Sniper Rifle: infantry/InfantryWeapons
   Standard 'Ardour' Cerebral Accelerator Blueprint Crate: specialeditionassets/SpecialEditionCommodities
+  Standard Armor Skill Accelerator: implant/Booster
   Standard Assault A-I: infantry/InfantryDropsuits
   Standard Assault C-I: infantry/InfantryDropsuits
   Standard Assault G-I: infantry/InfantryDropsuits
@@ -62598,6 +62643,7 @@ name2group:
   Standard Drop Booster: implant/Booster
   Standard Drop Booster Blueprint: blueprint/BoosterBlueprints
   Standard Drop Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
+  Standard Engineering Skill Accelerator: implant/Booster
   Standard Exile Booster: implant/Booster
   Standard Exile Booster Blueprint: blueprint/BoosterBlueprints
   Standard Exile Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
@@ -62625,6 +62671,7 @@ name2group:
   Standard Sentinel C-I: infantry/InfantryDropsuits
   Standard Sentinel G-I: infantry/InfantryDropsuits
   Standard Sentinel M-I: infantry/InfantryDropsuits
+  Standard Shield Skill Accelerator: implant/Booster
   Standard Sooth Sayer Booster: implant/Booster
   Standard Sooth Sayer Booster Blueprint: blueprint/BoosterBlueprints
   Standard Sooth Sayer Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
@@ -64066,7 +64113,6 @@ name2group:
   Tangling Jarognik Vedmak: entity/IrregularCruiser
   Tangling Kikimora: entity/InvadingPrecursorEntities
   Tangling Leshak: entity/AbyssalSpaceshipEntities
-  Tangling Strike Kikimora: entity/InvadingPrecursorEntities
   Tangling Sudenic Damavik: entity/InvadingPrecursorEntities
   Tangling Sudenic Kikimora: entity/InvadingPrecursorEntities
   Tangling Vila Damavik: entity/AbyssalSpaceshipEntities
@@ -66482,6 +66528,7 @@ name2group:
   Women's 'Vise' Cybernetic Arm (white and gray ringed left): apparel/Prosthetics
   Women's 'Vise' Cybernetic Arm (white and gray ringed right): apparel/Prosthetics
   Women's 'Waveform' Facial Augmentation: apparel/Augmentations
+  Women's Amarr 'Loyalist' Beret: apparel/Headwear
   Women's Amarr 'Loyalist' T-Shirt: apparel/Tops
   Women's Amarr Empire Command Jacket: apparel/Outer
   Women's Amarr Empire Exploration Suit: apparel/Outer

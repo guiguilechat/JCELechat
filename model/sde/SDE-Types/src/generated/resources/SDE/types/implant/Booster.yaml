@@ -511,6 +511,72 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
+  Elite Armor Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 26
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55943
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Elite Armor Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Elite Engineering Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 30
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55947
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Elite Engineering Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Elite Shield Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 28
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55945
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Elite Shield Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Expert Cerebral Accelerator:
     boosterduration: 1.08E9
     boosterness: 10
@@ -1822,6 +1888,75 @@ types:
     socialbonus: 100
     velocitybonus: 5.0
     volume: 1.0
+  Serenity August Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18522.666015625
+    boosterness: 52
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 55929
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity August Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity August Season Pass:
+    boosterduration: 2.9376E9
+    boosterlastinjectiondatetime: 18503.125
+    boosterness: 53
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55977
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity August Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity August Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18522.666015625
+    boosterness: 51
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 55928
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity August Season Standard Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.6:
     boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18453.666015625
@@ -1870,6 +2005,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2020.8:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18506.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 55927
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2020.8
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
   Serenity Special Cerebral Accelerator:
     boosterduration: 2.592E9
     boostermaxcharagehours: 2400
@@ -1893,6 +2051,28 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Standard Armor Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 25
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55942
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard Armor Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Standard Blue Pill Booster:
     boosteraoevelocitypenalty: -20
     boostercapacitorcapacitypenalty: -20
@@ -1995,6 +2175,28 @@ types:
     socialbonus: 100
     trackingspeedbonus: 25.0
     volume: 1.0
+  Standard Engineering Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 29
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55946
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard Engineering Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Standard Exile Booster:
     armordamageamountbonus: 20
     boosterarmorhppenalty: -20
@@ -2073,6 +2275,28 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
+  Standard Shield Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 2400
+    boosterness: 27
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 55944
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard Shield Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Standard Sooth Sayer Booster:
     boosterarmorrepairamountpenalty: -20
     boosterduration: 1800000.0

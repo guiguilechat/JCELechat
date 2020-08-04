@@ -191,6 +191,22 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  Amarr Foundation Day Apparel Crate:
+    cpumultiplier: 1.0
+    id: 55980
+    name: Amarr Foundation Day Apparel Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Amarr Foundation Day Fireworks Crate:
+    cpumultiplier: 1.0
+    id: 55981
+    name: Amarr Foundation Day Fireworks Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Amarr Inception Package:
     cpumultiplier: 1.0
     id: 43930

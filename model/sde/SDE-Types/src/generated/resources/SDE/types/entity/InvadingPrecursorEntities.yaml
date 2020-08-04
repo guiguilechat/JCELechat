@@ -7522,6 +7522,81 @@ types:
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 70.0
     volume: 233000.0
+  Raznaborg Tangling Kikimora:
+    agility: 1.0
+    armordamageamount: 9.0
+    armoremdamageresonance: 0.49000000953674316
+    armorexplosivedamageresonance: 0.6399999856948853
+    armorhp: 1291.5
+    armorkineticdamageresonance: 0.5099999904632568
+    armorthermaldamageresonance: 0.6000000238418579
+    armoruniformity: 1.0
+    behaviorremotearmorrepairdischarge: 10.0
+    behaviorremotearmorrepairduration: 3600.0
+    behaviorremotearmorrepairfalloff: 25000
+    behaviorremotearmorrepairrange: 15000
+    behaviorwebifierduration: 6500
+    behaviorwebifierrange: 9000
+    capacitorcapacity: 500.0
+    capacity: 360.0
+    damagemultiplier: 0.8999999761581421
+    damagemultiplierbonusmax: 1.5
+    damagemultiplierbonuspercycle: 0.05000000074505806
+    emdamageresonance: 0.6700000166893005
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 8000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 182.8125
+    entityequipmentmax: 2
+    entityfactionloss: 0.005849999841302633
+    entitymaxvelocitysignatureradiusmultiplier: 5
+    explosivedamage: 36.0
+    explosivedamageresonance: 0.6700000166893005
+    falloff: 1.0
+    gfxboosterid: 397
+    gfxturretid: 47914
+    hp: 455.0
+    id: 52655
+    kineticdamageresonance: 0.6700000166893005
+    maximumrangecap: 300000
+    maxlockedtargets: 5
+    maxrange: 17500.0
+    maxtargetrange: 80000.0
+    maxvelocity: 1462.5
+    missiledamagemultiplier: 1.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Raznaborg Tangling Kikimora
+    npcbehaviormaximumcombatorbitrange: 6000
+    optimalsigradius: 40
+    packagedVolume: 43000.0
+    portionSize: 1
+    price: 3.35E7
+    published: false
+    radius: 42.0
+    rechargerate: 150000.0
+    scanradarstrength: 12.0
+    scanresolution: 600.0
+    shieldcapacity: 350.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 400000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 1.0
+    signatureradius: 100.0
+    speed: 3000.0
+    speedfactor: -37.5
+    structureuniformity: 1.0
+    thermaldamage: 65.25
+    thermaldamageresonance: 0.6700000166893005
+    trackingspeed: 0.5
+    volume: 43000.0
   Raznaborg Tangling Leshak:
     agility: 0.10000000149011612
     armordamageamount: 225.0
@@ -9076,81 +9151,6 @@ types:
     speedfactor: -60.0
     structureuniformity: 1.0
     thermaldamage: 87.0
-    thermaldamageresonance: 0.6700000166893005
-    trackingspeed: 0.5
-    volume: 43000.0
-  Tangling Strike Kikimora:
-    agility: 1.0
-    armordamageamount: 9.0
-    armoremdamageresonance: 0.49000000953674316
-    armorexplosivedamageresonance: 0.6399999856948853
-    armorhp: 1291.5
-    armorkineticdamageresonance: 0.5099999904632568
-    armorthermaldamageresonance: 0.6000000238418579
-    armoruniformity: 1.0
-    behaviorremotearmorrepairdischarge: 10.0
-    behaviorremotearmorrepairduration: 3600.0
-    behaviorremotearmorrepairfalloff: 25000
-    behaviorremotearmorrepairrange: 15000
-    behaviorwebifierduration: 6500
-    behaviorwebifierrange: 9000
-    capacitorcapacity: 500.0
-    capacity: 360.0
-    damagemultiplier: 0.8999999761581421
-    damagemultiplierbonusmax: 1.5
-    damagemultiplierbonuspercycle: 0.05000000074505806
-    emdamageresonance: 0.6700000166893005
-    entitychasemaxdelay: 1
-    entitychasemaxdelaychance: 1.0
-    entitychasemaxdistance: 8000
-    entitychasemaxduration: 3000
-    entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 182.8125
-    entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
-    entitymaxvelocitysignatureradiusmultiplier: 5
-    explosivedamage: 36.0
-    explosivedamageresonance: 0.6700000166893005
-    falloff: 1.0
-    gfxboosterid: 397
-    gfxturretid: 47914
-    hp: 455.0
-    id: 52655
-    kineticdamageresonance: 0.6700000166893005
-    maximumrangecap: 300000
-    maxlockedtargets: 5
-    maxrange: 17500.0
-    maxtargetrange: 80000.0
-    maxvelocity: 1462.5
-    missiledamagemultiplier: 1.0
-    missileentityaoecloudsizemultiplier: 1.0
-    missileentityaoevelocitymultiplier: 1.0
-    missileentityflighttimemultiplier: 1.0
-    missileentityvelocitymultiplier: 1.0
-    missilelaunchduration: 20000.0
-    name: Tangling Strike Kikimora
-    npcbehaviormaximumcombatorbitrange: 6000
-    optimalsigradius: 40
-    packagedVolume: 43000.0
-    portionSize: 1
-    price: 3.35E7
-    published: false
-    radius: 42.0
-    rechargerate: 150000.0
-    scanradarstrength: 12.0
-    scanresolution: 600.0
-    shieldcapacity: 350.0
-    shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
-    shieldrechargerate: 400000.0
-    shieldthermaldamageresonance: 0.800000011920929
-    shielduniformity: 1.0
-    signatureradius: 100.0
-    speed: 3000.0
-    speedfactor: -37.5
-    structureuniformity: 1.0
-    thermaldamage: 65.25
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 0.5
     volume: 43000.0

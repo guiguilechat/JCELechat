@@ -567,6 +567,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Amarr Shuttle Khanid SKIN:
+    id: 55948
+    name: Amarr Shuttle Khanid SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Anathema Biosecurity Responders SKIN:
     id: 55342
     marketGroup: 2051
@@ -24061,6 +24068,13 @@ types:
   Sigil Kador Serenity Only SKIN:
     id: 37917
     name: Sigil Kador Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sigil Khanid SKIN:
+    id: 55949
+    name: Sigil Khanid SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
