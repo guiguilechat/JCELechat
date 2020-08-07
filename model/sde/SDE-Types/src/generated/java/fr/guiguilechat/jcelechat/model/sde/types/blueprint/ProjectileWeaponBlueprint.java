@@ -81,7 +81,7 @@ public class ProjectileWeaponBlueprint
     public static final ProjectileWeaponBlueprint.MetaGroup METAGROUP = new ProjectileWeaponBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -109,7 +109,7 @@ public class ProjectileWeaponBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

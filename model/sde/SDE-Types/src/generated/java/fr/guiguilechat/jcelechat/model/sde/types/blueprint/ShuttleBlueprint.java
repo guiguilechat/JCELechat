@@ -55,7 +55,7 @@ public class ShuttleBlueprint
     public static final ShuttleBlueprint.MetaGroup METAGROUP = new ShuttleBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class ShuttleBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

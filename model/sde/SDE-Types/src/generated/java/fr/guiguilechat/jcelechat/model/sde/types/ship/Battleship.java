@@ -427,7 +427,7 @@ public class Battleship
     public static final Battleship.MetaGroup METAGROUP = new Battleship.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  3020 :
             {
@@ -599,7 +599,7 @@ public class Battleship
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

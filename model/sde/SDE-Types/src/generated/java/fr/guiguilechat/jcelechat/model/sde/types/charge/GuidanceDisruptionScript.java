@@ -91,7 +91,7 @@ public class GuidanceDisruptionScript
     public static final GuidanceDisruptionScript.MetaGroup METAGROUP = new GuidanceDisruptionScript.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2023 :
             {
@@ -127,7 +127,7 @@ public class GuidanceDisruptionScript
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -88,7 +88,7 @@ public class FleetSupport
     public static final FleetSupport.MetaGroup METAGROUP = new FleetSupport.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  670 :
             {
@@ -120,7 +120,7 @@ public class FleetSupport
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

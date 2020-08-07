@@ -222,7 +222,7 @@ public class FlexShieldHardener
     public static final FlexShieldHardener.MetaGroup METAGROUP = new FlexShieldHardener.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -318,7 +318,7 @@ public class FlexShieldHardener
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -55,7 +55,7 @@ public class FuelBlockBlueprint
     public static final FuelBlockBlueprint.MetaGroup METAGROUP = new FuelBlockBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class FuelBlockBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

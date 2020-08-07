@@ -597,7 +597,7 @@ public class DeadspaceSerpentisDestroyer
     public static final DeadspaceSerpentisDestroyer.MetaGroup METAGROUP = new DeadspaceSerpentisDestroyer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -885,7 +885,7 @@ public class DeadspaceSerpentisDestroyer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

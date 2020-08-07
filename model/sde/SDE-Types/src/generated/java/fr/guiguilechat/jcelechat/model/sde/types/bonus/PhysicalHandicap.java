@@ -63,7 +63,7 @@ public class PhysicalHandicap
     public static final PhysicalHandicap.MetaGroup METAGROUP = new PhysicalHandicap.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  205 :
             {
@@ -87,7 +87,7 @@ public class PhysicalHandicap
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

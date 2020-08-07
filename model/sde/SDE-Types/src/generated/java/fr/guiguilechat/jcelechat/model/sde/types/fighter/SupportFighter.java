@@ -281,7 +281,7 @@ public class SupportFighter
     public static final SupportFighter.MetaGroup METAGROUP = new SupportFighter.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2158 :
             {
@@ -393,7 +393,7 @@ public class SupportFighter
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -168,7 +168,7 @@ public class StructureResourceProcessingServiceModule
     public static final StructureResourceProcessingServiceModule.MetaGroup METAGROUP = new StructureResourceProcessingServiceModule.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -240,7 +240,7 @@ public class StructureResourceProcessingServiceModule
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

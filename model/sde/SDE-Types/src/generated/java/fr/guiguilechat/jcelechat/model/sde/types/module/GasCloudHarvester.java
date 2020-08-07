@@ -166,7 +166,7 @@ public class GasCloudHarvester
     public static final GasCloudHarvester.MetaGroup METAGROUP = new GasCloudHarvester.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -234,7 +234,7 @@ public class GasCloudHarvester
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -141,7 +141,7 @@ public class StructureReactorRigLEfficiency
     public static final StructureReactorRigLEfficiency.MetaGroup METAGROUP = new StructureReactorRigLEfficiency.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2714 :
             {
@@ -201,7 +201,7 @@ public class StructureReactorRigLEfficiency
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

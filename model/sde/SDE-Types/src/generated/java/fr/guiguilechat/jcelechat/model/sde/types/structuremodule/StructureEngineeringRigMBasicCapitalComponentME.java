@@ -189,7 +189,7 @@ public class StructureEngineeringRigMBasicCapitalComponentME
     public static final StructureEngineeringRigMBasicCapitalComponentME.MetaGroup METAGROUP = new StructureEngineeringRigMBasicCapitalComponentME.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -269,7 +269,7 @@ public class StructureEngineeringRigMBasicCapitalComponentME
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

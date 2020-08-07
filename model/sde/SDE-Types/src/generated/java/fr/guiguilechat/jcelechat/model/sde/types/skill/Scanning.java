@@ -96,7 +96,7 @@ public class Scanning
     public static final Scanning.MetaGroup METAGROUP = new Scanning.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1772 :
             {
@@ -132,7 +132,7 @@ public class Scanning
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

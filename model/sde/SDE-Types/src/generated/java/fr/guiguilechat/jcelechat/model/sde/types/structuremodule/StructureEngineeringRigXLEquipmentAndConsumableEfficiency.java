@@ -173,7 +173,7 @@ public class StructureEngineeringRigXLEquipmentAndConsumableEfficiency
     public static final StructureEngineeringRigXLEquipmentAndConsumableEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigXLEquipmentAndConsumableEfficiency.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -249,7 +249,7 @@ public class StructureEngineeringRigXLEquipmentAndConsumableEfficiency
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

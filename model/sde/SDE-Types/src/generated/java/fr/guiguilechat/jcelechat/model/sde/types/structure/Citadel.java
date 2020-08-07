@@ -269,7 +269,7 @@ public class Citadel
     public static final Citadel.MetaGroup METAGROUP = new Citadel.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2244 :
             {
@@ -361,7 +361,7 @@ public class Citadel
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

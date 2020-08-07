@@ -55,7 +55,7 @@ public class HybridComponentBlueprints
     public static final HybridComponentBlueprints.MetaGroup METAGROUP = new HybridComponentBlueprints.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class HybridComponentBlueprints
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -60,7 +60,7 @@ public class Headwear
     public static final Headwear.MetaGroup METAGROUP = new Headwear.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -80,7 +80,7 @@ public class Headwear
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -65,7 +65,7 @@ public class ScanningUpgradeTimeBlueprint
     public static final ScanningUpgradeTimeBlueprint.MetaGroup METAGROUP = new ScanningUpgradeTimeBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class ScanningUpgradeTimeBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

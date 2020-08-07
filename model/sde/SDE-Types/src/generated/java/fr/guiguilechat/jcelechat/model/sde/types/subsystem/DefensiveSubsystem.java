@@ -221,7 +221,7 @@ public class DefensiveSubsystem
     public static final DefensiveSubsystem.MetaGroup METAGROUP = new DefensiveSubsystem.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1159 :
             {
@@ -317,7 +317,7 @@ public class DefensiveSubsystem
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

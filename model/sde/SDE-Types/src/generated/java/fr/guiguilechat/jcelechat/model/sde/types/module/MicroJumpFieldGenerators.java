@@ -190,7 +190,7 @@ public class MicroJumpFieldGenerators
     public static final MicroJumpFieldGenerators.MetaGroup METAGROUP = new MicroJumpFieldGenerators.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1299 :
             {
@@ -274,7 +274,7 @@ public class MicroJumpFieldGenerators
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

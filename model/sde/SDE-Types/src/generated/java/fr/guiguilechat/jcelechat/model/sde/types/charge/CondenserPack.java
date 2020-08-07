@@ -132,7 +132,7 @@ public class CondenserPack
     public static final CondenserPack.MetaGroup METAGROUP = new CondenserPack.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -188,7 +188,7 @@ public class CondenserPack
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

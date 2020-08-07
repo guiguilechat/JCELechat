@@ -169,7 +169,7 @@ public class Drones
     public static final Drones.MetaGroup METAGROUP = new Drones.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  902 :
             {
@@ -241,7 +241,7 @@ public class Drones
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -172,7 +172,7 @@ public class ExoticPlasmaCharge
     public static final ExoticPlasmaCharge.MetaGroup METAGROUP = new ExoticPlasmaCharge.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -244,7 +244,7 @@ public class ExoticPlasmaCharge
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

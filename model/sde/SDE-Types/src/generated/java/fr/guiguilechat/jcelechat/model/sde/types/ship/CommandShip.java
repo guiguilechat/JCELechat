@@ -324,7 +324,7 @@ public class CommandShip
     public static final CommandShip.MetaGroup METAGROUP = new CommandShip.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1000 :
             {
@@ -444,7 +444,7 @@ public class CommandShip
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

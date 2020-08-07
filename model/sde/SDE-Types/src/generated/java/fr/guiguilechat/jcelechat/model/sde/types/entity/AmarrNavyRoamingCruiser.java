@@ -661,7 +661,7 @@ public class AmarrNavyRoamingCruiser
     public static final AmarrNavyRoamingCruiser.MetaGroup METAGROUP = new AmarrNavyRoamingCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -981,7 +981,7 @@ public class AmarrNavyRoamingCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

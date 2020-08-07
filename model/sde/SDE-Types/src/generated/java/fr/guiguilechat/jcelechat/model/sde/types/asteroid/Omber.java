@@ -87,7 +87,7 @@ public class Omber
     public static final Omber.MetaGroup METAGROUP = new Omber.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2727 :
             {
@@ -119,7 +119,7 @@ public class Omber
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

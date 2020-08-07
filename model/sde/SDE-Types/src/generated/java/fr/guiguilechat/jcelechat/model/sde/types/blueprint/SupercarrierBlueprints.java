@@ -55,7 +55,7 @@ public class SupercarrierBlueprints
     public static final SupercarrierBlueprints.MetaGroup METAGROUP = new SupercarrierBlueprints.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class SupercarrierBlueprints
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

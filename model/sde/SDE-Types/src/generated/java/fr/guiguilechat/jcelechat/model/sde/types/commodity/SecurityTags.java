@@ -56,7 +56,7 @@ public class SecurityTags
     public static final SecurityTags.MetaGroup METAGROUP = new SecurityTags.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -76,7 +76,7 @@ public class SecurityTags
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

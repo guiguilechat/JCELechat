@@ -492,7 +492,7 @@ public class CovertOps
     public static final CovertOps.MetaGroup METAGROUP = new CovertOps.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2620 :
             {
@@ -692,7 +692,7 @@ public class CovertOps
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

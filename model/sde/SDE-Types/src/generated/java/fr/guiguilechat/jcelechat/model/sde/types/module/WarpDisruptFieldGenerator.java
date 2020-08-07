@@ -270,7 +270,7 @@ public class WarpDisruptFieldGenerator
     public static final WarpDisruptFieldGenerator.MetaGroup METAGROUP = new WarpDisruptFieldGenerator.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1350 :
             {
@@ -390,7 +390,7 @@ public class WarpDisruptFieldGenerator
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

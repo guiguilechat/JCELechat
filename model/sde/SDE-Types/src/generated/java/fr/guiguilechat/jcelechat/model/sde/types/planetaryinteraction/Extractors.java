@@ -90,7 +90,7 @@ public class Extractors
     public static final Extractors.MetaGroup METAGROUP = new Extractors.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  49 :
             {
@@ -126,7 +126,7 @@ public class Extractors
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

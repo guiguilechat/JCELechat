@@ -56,7 +56,7 @@ public class HybridTechComponents
     public static final HybridTechComponents.MetaGroup METAGROUP = new HybridTechComponents.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -76,7 +76,7 @@ public class HybridTechComponents
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

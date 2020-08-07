@@ -73,7 +73,7 @@ public class HullModsBlueprint
     public static final HullModsBlueprint.MetaGroup METAGROUP = new HullModsBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -101,7 +101,7 @@ public class HullModsBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

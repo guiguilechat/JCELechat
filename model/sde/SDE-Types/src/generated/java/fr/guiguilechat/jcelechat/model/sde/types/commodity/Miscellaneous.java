@@ -72,7 +72,7 @@ public class Miscellaneous
     public static final Miscellaneous.MetaGroup METAGROUP = new Miscellaneous.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -100,7 +100,7 @@ public class Miscellaneous
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

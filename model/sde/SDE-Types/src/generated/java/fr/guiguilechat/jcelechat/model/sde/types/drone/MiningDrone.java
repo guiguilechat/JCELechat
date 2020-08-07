@@ -205,7 +205,7 @@ public class MiningDrone
     public static final MiningDrone.MetaGroup METAGROUP = new MiningDrone.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -277,7 +277,7 @@ public class MiningDrone
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

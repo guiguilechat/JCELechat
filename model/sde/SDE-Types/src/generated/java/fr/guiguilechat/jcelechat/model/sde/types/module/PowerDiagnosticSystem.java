@@ -134,7 +134,7 @@ public class PowerDiagnosticSystem
     public static final PowerDiagnosticSystem.MetaGroup METAGROUP = new PowerDiagnosticSystem.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  147 :
             {
@@ -186,7 +186,7 @@ public class PowerDiagnosticSystem
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

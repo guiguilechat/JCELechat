@@ -364,7 +364,7 @@ public class Interceptor
     public static final Interceptor.MetaGroup METAGROUP = new Interceptor.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  568 :
             {
@@ -500,7 +500,7 @@ public class Interceptor
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

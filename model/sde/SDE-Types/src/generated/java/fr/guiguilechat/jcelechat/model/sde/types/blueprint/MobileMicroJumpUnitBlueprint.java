@@ -55,7 +55,7 @@ public class MobileMicroJumpUnitBlueprint
     public static final MobileMicroJumpUnitBlueprint.MetaGroup METAGROUP = new MobileMicroJumpUnitBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class MobileMicroJumpUnitBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

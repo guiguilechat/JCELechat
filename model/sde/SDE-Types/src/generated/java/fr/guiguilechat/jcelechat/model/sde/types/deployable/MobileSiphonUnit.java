@@ -163,7 +163,7 @@ public class MobileSiphonUnit
     public static final MobileSiphonUnit.MetaGroup METAGROUP = new MobileSiphonUnit.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  556 :
             {
@@ -231,7 +231,7 @@ public class MobileSiphonUnit
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

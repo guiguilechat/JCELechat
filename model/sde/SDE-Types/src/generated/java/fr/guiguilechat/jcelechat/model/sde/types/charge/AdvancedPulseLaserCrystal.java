@@ -213,7 +213,7 @@ public class AdvancedPulseLaserCrystal
     public static final AdvancedPulseLaserCrystal.MetaGroup METAGROUP = new AdvancedPulseLaserCrystal.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -309,7 +309,7 @@ public class AdvancedPulseLaserCrystal
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

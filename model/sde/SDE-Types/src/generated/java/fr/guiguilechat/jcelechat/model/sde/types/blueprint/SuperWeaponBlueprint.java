@@ -55,7 +55,7 @@ public class SuperWeaponBlueprint
     public static final SuperWeaponBlueprint.MetaGroup METAGROUP = new SuperWeaponBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class SuperWeaponBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -86,7 +86,7 @@ public class CyberResourceProcessing
     public static final CyberResourceProcessing.MetaGroup METAGROUP = new CyberResourceProcessing.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  66 :
             {
@@ -118,7 +118,7 @@ public class CyberResourceProcessing
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

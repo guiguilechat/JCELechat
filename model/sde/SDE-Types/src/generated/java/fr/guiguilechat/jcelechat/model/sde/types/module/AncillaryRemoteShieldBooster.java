@@ -206,7 +206,7 @@ public class AncillaryRemoteShieldBooster
     public static final AncillaryRemoteShieldBooster.MetaGroup METAGROUP = new AncillaryRemoteShieldBooster.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -298,7 +298,7 @@ public class AncillaryRemoteShieldBooster
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -55,7 +55,7 @@ public class MobileCynosuralInhibitorBlueprint
     public static final MobileCynosuralInhibitorBlueprint.MetaGroup METAGROUP = new MobileCynosuralInhibitorBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class MobileCynosuralInhibitorBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -87,7 +87,7 @@ public class CaldariEducation
     public static final CaldariEducation.MetaGroup METAGROUP = new CaldariEducation.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  216 :
             {
@@ -123,7 +123,7 @@ public class CaldariEducation
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

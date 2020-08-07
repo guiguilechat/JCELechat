@@ -190,7 +190,7 @@ public class BurstJammer
     public static final BurstJammer.MetaGroup METAGROUP = new BurstJammer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -270,7 +270,7 @@ public class BurstJammer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

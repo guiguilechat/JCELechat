@@ -733,7 +733,7 @@ public class AsteroidAngelCartelTitan
     public static final AsteroidAngelCartelTitan.MetaGroup METAGROUP = new AsteroidAngelCartelTitan.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1089,7 +1089,7 @@ public class AsteroidAngelCartelTitan
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -86,7 +86,7 @@ public class CyberArmor
     public static final CyberArmor.MetaGroup METAGROUP = new CyberArmor.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1083 :
             {
@@ -118,7 +118,7 @@ public class CyberArmor
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

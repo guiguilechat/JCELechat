@@ -235,7 +235,7 @@ public class IrregularShuttle
     public static final IrregularShuttle.MetaGroup METAGROUP = new IrregularShuttle.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -343,7 +343,7 @@ public class IrregularShuttle
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -158,7 +158,7 @@ public class RigScanning
     public static final RigScanning.MetaGroup METAGROUP = new RigScanning.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1160 :
             {
@@ -226,7 +226,7 @@ public class RigScanning
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

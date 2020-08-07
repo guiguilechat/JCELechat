@@ -733,7 +733,7 @@ public class AsteroidRogueDroneDestroyer
     public static final AsteroidRogueDroneDestroyer.MetaGroup METAGROUP = new AsteroidRogueDroneDestroyer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1089,7 +1089,7 @@ public class AsteroidRogueDroneDestroyer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

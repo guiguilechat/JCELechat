@@ -134,7 +134,7 @@ public class ArmorPlatingEnergized
     public static final ArmorPlatingEnergized.MetaGroup METAGROUP = new ArmorPlatingEnergized.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  148 :
             {
@@ -186,7 +186,7 @@ public class ArmorPlatingEnergized
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

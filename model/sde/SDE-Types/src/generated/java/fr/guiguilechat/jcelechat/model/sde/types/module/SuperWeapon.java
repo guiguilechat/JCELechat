@@ -465,7 +465,7 @@ public class SuperWeapon
     public static final SuperWeapon.MetaGroup METAGROUP = new SuperWeapon.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2535 :
             {
@@ -685,7 +685,7 @@ public class SuperWeapon
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

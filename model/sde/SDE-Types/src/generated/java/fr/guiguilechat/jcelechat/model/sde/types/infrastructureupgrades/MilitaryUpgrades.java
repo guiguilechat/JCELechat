@@ -290,7 +290,7 @@ public class MilitaryUpgrades
     public static final MilitaryUpgrades.MetaGroup METAGROUP = new MilitaryUpgrades.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1583 :
             {
@@ -426,7 +426,7 @@ public class MilitaryUpgrades
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -326,7 +326,7 @@ public class PrecursorWeapon
     public static final PrecursorWeapon.MetaGroup METAGROUP = new PrecursorWeapon.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1302 :
             {
@@ -474,7 +474,7 @@ public class PrecursorWeapon
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

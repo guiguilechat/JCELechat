@@ -145,7 +145,7 @@ public class Shields
     public static final Shields.MetaGroup METAGROUP = new Shields.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1047 :
             {
@@ -205,7 +205,7 @@ public class Shields
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

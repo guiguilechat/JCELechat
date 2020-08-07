@@ -302,7 +302,7 @@ public class VortonProjector
     public static final VortonProjector.MetaGroup METAGROUP = new VortonProjector.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  3036 :
             {
@@ -442,7 +442,7 @@ public class VortonProjector
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

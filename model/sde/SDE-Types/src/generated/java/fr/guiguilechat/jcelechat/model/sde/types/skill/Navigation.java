@@ -153,7 +153,7 @@ public class Navigation
     public static final Navigation.MetaGroup METAGROUP = new Navigation.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  151 :
             {
@@ -217,7 +217,7 @@ public class Navigation
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

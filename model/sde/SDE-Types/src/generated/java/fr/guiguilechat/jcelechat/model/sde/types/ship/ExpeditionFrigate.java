@@ -340,7 +340,7 @@ public class ExpeditionFrigate
     public static final ExpeditionFrigate.MetaGroup METAGROUP = new ExpeditionFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2464 :
             {
@@ -468,7 +468,7 @@ public class ExpeditionFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

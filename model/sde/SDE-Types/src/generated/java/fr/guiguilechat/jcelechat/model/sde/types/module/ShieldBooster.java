@@ -158,7 +158,7 @@ public class ShieldBooster
     public static final ShieldBooster.MetaGroup METAGROUP = new ShieldBooster.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -222,7 +222,7 @@ public class ShieldBooster
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

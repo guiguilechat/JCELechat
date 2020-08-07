@@ -269,7 +269,7 @@ public class Torpedo
     public static final Torpedo.MetaGroup METAGROUP = new Torpedo.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -389,7 +389,7 @@ public class Torpedo
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

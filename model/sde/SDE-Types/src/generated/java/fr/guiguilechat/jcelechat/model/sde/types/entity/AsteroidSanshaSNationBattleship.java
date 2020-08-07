@@ -701,7 +701,7 @@ public class AsteroidSanshaSNationBattleship
     public static final AsteroidSanshaSNationBattleship.MetaGroup METAGROUP = new AsteroidSanshaSNationBattleship.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1041,7 +1041,7 @@ public class AsteroidSanshaSNationBattleship
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -222,7 +222,7 @@ public class AncillaryRemoteArmorRepairer
     public static final AncillaryRemoteArmorRepairer.MetaGroup METAGROUP = new AncillaryRemoteArmorRepairer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  84 :
             {
@@ -322,7 +322,7 @@ public class AncillaryRemoteArmorRepairer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

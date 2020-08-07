@@ -64,7 +64,7 @@ public class StrongBoxes
     public static final StrongBoxes.MetaGroup METAGROUP = new StrongBoxes.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -84,7 +84,7 @@ public class StrongBoxes
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

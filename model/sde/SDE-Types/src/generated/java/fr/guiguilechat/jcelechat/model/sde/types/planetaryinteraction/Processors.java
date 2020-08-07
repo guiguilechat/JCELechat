@@ -50,7 +50,7 @@ public class Processors
     public static final Processors.MetaGroup METAGROUP = new Processors.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  49 :
             {
@@ -66,7 +66,7 @@ public class Processors
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

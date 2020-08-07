@@ -221,7 +221,7 @@ public class BombEnergy
     public static final BombEnergy.MetaGroup METAGROUP = new BombEnergy.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -321,7 +321,7 @@ public class BombEnergy
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

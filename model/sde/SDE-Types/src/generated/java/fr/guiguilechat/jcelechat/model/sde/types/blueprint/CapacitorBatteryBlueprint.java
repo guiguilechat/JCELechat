@@ -65,7 +65,7 @@ public class CapacitorBatteryBlueprint
     public static final CapacitorBatteryBlueprint.MetaGroup METAGROUP = new CapacitorBatteryBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class CapacitorBatteryBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

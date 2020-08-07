@@ -625,7 +625,7 @@ public class Cyberimplant
     public static final Cyberimplant.MetaGroup METAGROUP = new Cyberimplant.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  3017 :
             {
@@ -937,7 +937,7 @@ public class Cyberimplant
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

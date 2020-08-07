@@ -307,7 +307,7 @@ public class MobileMissileSentry
     public static final MobileMissileSentry.MetaGroup METAGROUP = new MobileMissileSentry.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  771 :
             {
@@ -439,7 +439,7 @@ public class MobileMissileSentry
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

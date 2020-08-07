@@ -716,7 +716,7 @@ public class Supercarrier
     public static final Supercarrier.MetaGroup METAGROUP = new Supercarrier.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  853 :
             {
@@ -1028,7 +1028,7 @@ public class Supercarrier
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

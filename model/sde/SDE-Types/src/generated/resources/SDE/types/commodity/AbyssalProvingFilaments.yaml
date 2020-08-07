@@ -1,7 +1,6 @@
 types:
   2v2 Cruiser Brawl Proving Filament:
     id: 55821
-    marketGroup: 2747
     name: 2v2 Cruiser Brawl Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
@@ -21,6 +20,15 @@ types:
     id: 55825
     marketGroup: 2747
     name: Event 4 Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Event 5 Proving Filament:
+    id: 55982
+    marketGroup: 2747
+    name: Event 5 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

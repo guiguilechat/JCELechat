@@ -315,7 +315,7 @@ public class ElectronicWarfareBattery
     public static final ElectronicWarfareBattery.MetaGroup METAGROUP = new ElectronicWarfareBattery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1165 :
             {
@@ -451,7 +451,7 @@ public class ElectronicWarfareBattery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

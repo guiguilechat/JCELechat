@@ -74,7 +74,7 @@ public class Tool
     public static final Tool.MetaGroup METAGROUP = new Tool.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -102,7 +102,7 @@ public class Tool
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

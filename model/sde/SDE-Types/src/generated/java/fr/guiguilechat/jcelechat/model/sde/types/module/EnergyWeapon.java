@@ -374,7 +374,7 @@ public class EnergyWeapon
     public static final EnergyWeapon.MetaGroup METAGROUP = new EnergyWeapon.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1855 :
             {
@@ -546,7 +546,7 @@ public class EnergyWeapon
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -588,7 +588,7 @@ public class IrregularIndustrial
     public static final IrregularIndustrial.MetaGroup METAGROUP = new IrregularIndustrial.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -872,7 +872,7 @@ public class IrregularIndustrial
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

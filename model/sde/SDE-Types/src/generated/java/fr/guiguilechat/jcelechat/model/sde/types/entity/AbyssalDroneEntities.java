@@ -825,7 +825,7 @@ public class AbyssalDroneEntities
     public static final AbyssalDroneEntities.MetaGroup METAGROUP = new AbyssalDroneEntities.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -1229,7 +1229,7 @@ public class AbyssalDroneEntities
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

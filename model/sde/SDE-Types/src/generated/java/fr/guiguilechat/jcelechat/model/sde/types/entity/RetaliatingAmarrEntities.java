@@ -923,7 +923,7 @@ public class RetaliatingAmarrEntities
     public static final RetaliatingAmarrEntities.MetaGroup METAGROUP = new RetaliatingAmarrEntities.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2645 :
             {
@@ -1375,7 +1375,7 @@ public class RetaliatingAmarrEntities
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

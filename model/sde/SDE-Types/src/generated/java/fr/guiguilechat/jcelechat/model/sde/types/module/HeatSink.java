@@ -110,7 +110,7 @@ public class HeatSink
     public static final HeatSink.MetaGroup METAGROUP = new HeatSink.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -150,7 +150,7 @@ public class HeatSink
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

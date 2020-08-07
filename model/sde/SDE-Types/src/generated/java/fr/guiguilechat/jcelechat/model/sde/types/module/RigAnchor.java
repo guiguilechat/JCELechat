@@ -110,7 +110,7 @@ public class RigAnchor
     public static final RigAnchor.MetaGroup METAGROUP = new RigAnchor.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  151 :
             {
@@ -154,7 +154,7 @@ public class RigAnchor
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

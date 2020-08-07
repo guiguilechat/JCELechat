@@ -72,7 +72,7 @@ public class NPCForceAuxiliary
     public static final NPCForceAuxiliary.MetaGroup METAGROUP = new NPCForceAuxiliary.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -100,7 +100,7 @@ public class NPCForceAuxiliary
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

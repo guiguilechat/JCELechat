@@ -580,7 +580,7 @@ public class MissionFactionIndustrials
     public static final MissionFactionIndustrials.MetaGroup METAGROUP = new MissionFactionIndustrials.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -860,7 +860,7 @@ public class MissionFactionIndustrials
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

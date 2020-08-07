@@ -115,7 +115,7 @@ public class TrackingScript
     public static final TrackingScript.MetaGroup METAGROUP = new TrackingScript.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2023 :
             {
@@ -163,7 +163,7 @@ public class TrackingScript
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

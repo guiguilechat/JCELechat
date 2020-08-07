@@ -53,7 +53,7 @@ public class CyberProduction
     public static final CyberProduction.MetaGroup METAGROUP = new CyberProduction.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  331 :
             {
@@ -69,7 +69,7 @@ public class CyberProduction
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

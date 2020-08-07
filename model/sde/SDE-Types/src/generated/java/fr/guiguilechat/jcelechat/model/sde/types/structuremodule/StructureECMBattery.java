@@ -206,7 +206,7 @@ public class StructureECMBattery
     public static final StructureECMBattery.MetaGroup METAGROUP = new StructureECMBattery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -294,7 +294,7 @@ public class StructureECMBattery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

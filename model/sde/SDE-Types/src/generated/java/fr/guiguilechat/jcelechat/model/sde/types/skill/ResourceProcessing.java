@@ -146,7 +146,7 @@ public class ResourceProcessing
     public static final ResourceProcessing.MetaGroup METAGROUP = new ResourceProcessing.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1772 :
             {
@@ -206,7 +206,7 @@ public class ResourceProcessing
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

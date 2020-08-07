@@ -239,7 +239,7 @@ public abstract class Orbitals
     public static final Orbitals.MetaCat METACAT = new Orbitals.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  556 :
             {
@@ -351,7 +351,7 @@ public abstract class Orbitals
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

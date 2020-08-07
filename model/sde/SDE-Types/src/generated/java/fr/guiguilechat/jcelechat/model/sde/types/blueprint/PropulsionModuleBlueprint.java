@@ -81,7 +81,7 @@ public class PropulsionModuleBlueprint
     public static final PropulsionModuleBlueprint.MetaGroup METAGROUP = new PropulsionModuleBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -109,7 +109,7 @@ public class PropulsionModuleBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

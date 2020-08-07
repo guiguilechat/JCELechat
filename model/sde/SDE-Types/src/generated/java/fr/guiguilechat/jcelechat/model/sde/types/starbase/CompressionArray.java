@@ -123,7 +123,7 @@ public class CompressionArray
     public static final CompressionArray.MetaGroup METAGROUP = new CompressionArray.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1032 :
             {
@@ -167,7 +167,7 @@ public class CompressionArray
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

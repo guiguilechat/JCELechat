@@ -64,7 +64,7 @@ public abstract class PlanetaryResources
     public static final PlanetaryResources.MetaCat METACAT = new PlanetaryResources.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -88,7 +88,7 @@ public abstract class PlanetaryResources
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

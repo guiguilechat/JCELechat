@@ -198,7 +198,7 @@ public class DataMiners
     public static final DataMiners.MetaGroup METAGROUP = new DataMiners.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  902 :
             {
@@ -282,7 +282,7 @@ public class DataMiners
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

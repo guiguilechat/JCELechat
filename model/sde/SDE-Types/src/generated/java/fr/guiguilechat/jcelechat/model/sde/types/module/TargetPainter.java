@@ -174,7 +174,7 @@ public class TargetPainter
     public static final TargetPainter.MetaGroup METAGROUP = new TargetPainter.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -246,7 +246,7 @@ public class TargetPainter
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

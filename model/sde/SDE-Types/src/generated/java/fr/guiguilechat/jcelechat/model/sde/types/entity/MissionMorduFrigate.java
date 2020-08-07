@@ -773,7 +773,7 @@ public class MissionMorduFrigate
     public static final MissionMorduFrigate.MetaGroup METAGROUP = new MissionMorduFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1149,7 +1149,7 @@ public class MissionMorduFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -204,7 +204,7 @@ public class StructureCitadelServiceModule
     public static final StructureCitadelServiceModule.MetaGroup METAGROUP = new StructureCitadelServiceModule.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -296,7 +296,7 @@ public class StructureCitadelServiceModule
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

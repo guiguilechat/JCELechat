@@ -158,7 +158,7 @@ public class RigDrones
     public static final RigDrones.MetaGroup METAGROUP = new RigDrones.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  39 :
             {
@@ -226,7 +226,7 @@ public class RigDrones
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

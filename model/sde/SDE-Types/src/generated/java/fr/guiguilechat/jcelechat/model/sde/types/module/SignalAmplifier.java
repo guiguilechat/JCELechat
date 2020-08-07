@@ -150,7 +150,7 @@ public class SignalAmplifier
     public static final SignalAmplifier.MetaGroup METAGROUP = new SignalAmplifier.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -210,7 +210,7 @@ public class SignalAmplifier
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

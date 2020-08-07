@@ -110,7 +110,7 @@ public class ArmorPlate
     public static final ArmorPlate.MetaGroup METAGROUP = new ArmorPlate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1159 :
             {
@@ -150,7 +150,7 @@ public class ArmorPlate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

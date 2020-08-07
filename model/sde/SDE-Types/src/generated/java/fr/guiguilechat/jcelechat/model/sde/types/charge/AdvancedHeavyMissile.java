@@ -253,7 +253,7 @@ public class AdvancedHeavyMissile
     public static final AdvancedHeavyMissile.MetaGroup METAGROUP = new AdvancedHeavyMissile.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -369,7 +369,7 @@ public class AdvancedHeavyMissile
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -136,7 +136,7 @@ public class TypeGraveyard
     public static final TypeGraveyard.MetaGroup METAGROUP = new TypeGraveyard.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1047 :
             {
@@ -196,7 +196,7 @@ public class TypeGraveyard
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

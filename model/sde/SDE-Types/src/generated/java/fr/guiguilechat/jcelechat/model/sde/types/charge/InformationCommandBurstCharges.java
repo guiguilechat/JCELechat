@@ -130,7 +130,7 @@ public class InformationCommandBurstCharges
     public static final InformationCommandBurstCharges.MetaGroup METAGROUP = new InformationCommandBurstCharges.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  137 :
             {
@@ -186,7 +186,7 @@ public class InformationCommandBurstCharges
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

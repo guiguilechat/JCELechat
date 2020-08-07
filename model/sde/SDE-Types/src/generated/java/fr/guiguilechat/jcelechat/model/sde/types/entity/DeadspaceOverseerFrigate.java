@@ -893,7 +893,7 @@ public class DeadspaceOverseerFrigate
     public static final DeadspaceOverseerFrigate.MetaGroup METAGROUP = new DeadspaceOverseerFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1329,7 +1329,7 @@ public class DeadspaceOverseerFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

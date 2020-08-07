@@ -101,7 +101,7 @@ public class CyberLeadership
     public static final CyberLeadership.MetaGroup METAGROUP = new CyberLeadership.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  331 :
             {
@@ -137,7 +137,7 @@ public class CyberLeadership
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

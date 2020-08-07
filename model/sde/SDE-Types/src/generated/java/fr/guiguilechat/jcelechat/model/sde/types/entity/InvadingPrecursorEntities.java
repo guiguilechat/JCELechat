@@ -1188,7 +1188,7 @@ public class InvadingPrecursorEntities
     public static final InvadingPrecursorEntities.MetaGroup METAGROUP = new InvadingPrecursorEntities.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2645 :
             {
@@ -1772,7 +1772,7 @@ public class InvadingPrecursorEntities
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

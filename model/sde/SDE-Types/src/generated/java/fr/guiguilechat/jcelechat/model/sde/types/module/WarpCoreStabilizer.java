@@ -118,7 +118,7 @@ public class WarpCoreStabilizer
     public static final WarpCoreStabilizer.MetaGroup METAGROUP = new WarpCoreStabilizer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -162,7 +162,7 @@ public class WarpCoreStabilizer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

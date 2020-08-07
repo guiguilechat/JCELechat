@@ -65,7 +65,7 @@ public class ShieldExtenderBlueprint
     public static final ShieldExtenderBlueprint.MetaGroup METAGROUP = new ShieldExtenderBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class ShieldExtenderBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

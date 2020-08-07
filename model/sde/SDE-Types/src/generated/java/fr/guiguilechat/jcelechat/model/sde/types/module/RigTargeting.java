@@ -110,7 +110,7 @@ public class RigTargeting
     public static final RigTargeting.MetaGroup METAGROUP = new RigTargeting.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  619 :
             {
@@ -154,7 +154,7 @@ public class RigTargeting
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

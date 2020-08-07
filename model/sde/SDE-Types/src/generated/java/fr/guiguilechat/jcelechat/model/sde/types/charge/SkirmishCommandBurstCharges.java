@@ -130,7 +130,7 @@ public class SkirmishCommandBurstCharges
     public static final SkirmishCommandBurstCharges.MetaGroup METAGROUP = new SkirmishCommandBurstCharges.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  137 :
             {
@@ -186,7 +186,7 @@ public class SkirmishCommandBurstCharges
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

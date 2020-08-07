@@ -87,7 +87,7 @@ public class Gneiss
     public static final Gneiss.MetaGroup METAGROUP = new Gneiss.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2727 :
             {
@@ -119,7 +119,7 @@ public class Gneiss
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

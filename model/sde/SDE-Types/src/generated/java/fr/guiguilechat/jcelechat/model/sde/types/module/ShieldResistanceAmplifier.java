@@ -134,7 +134,7 @@ public class ShieldResistanceAmplifier
     public static final ShieldResistanceAmplifier.MetaGroup METAGROUP = new ShieldResistanceAmplifier.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  72 :
             {
@@ -186,7 +186,7 @@ public class ShieldResistanceAmplifier
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

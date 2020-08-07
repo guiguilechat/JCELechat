@@ -46,7 +46,8 @@ public class EeveUnits {
 		return cache;
 	}
 
-	public String description, displayName, unitName;
+	public String description, displayName, // actually no more present.
+			unitName;
 	public int unitID;
 
 }

@@ -65,7 +65,7 @@ public class CoProcessorBlueprint
     public static final CoProcessorBlueprint.MetaGroup METAGROUP = new CoProcessorBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class CoProcessorBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -805,7 +805,7 @@ public class IncursionSanshaSNationFrigate
     public static final IncursionSanshaSNationFrigate.MetaGroup METAGROUP = new IncursionSanshaSNationFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1197,7 +1197,7 @@ public class IncursionSanshaSNationFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

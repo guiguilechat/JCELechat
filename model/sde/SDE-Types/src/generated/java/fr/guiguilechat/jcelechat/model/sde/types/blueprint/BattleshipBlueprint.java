@@ -73,7 +73,7 @@ public class BattleshipBlueprint
     public static final BattleshipBlueprint.MetaGroup METAGROUP = new BattleshipBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -101,7 +101,7 @@ public class BattleshipBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

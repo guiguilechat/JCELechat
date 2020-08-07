@@ -150,7 +150,7 @@ public class SurveyProbeLauncher
     public static final SurveyProbeLauncher.MetaGroup METAGROUP = new SurveyProbeLauncher.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  605 :
             {
@@ -214,7 +214,7 @@ public class SurveyProbeLauncher
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -829,7 +829,7 @@ public class StorylineMissionFrigate
     public static final StorylineMissionFrigate.MetaGroup METAGROUP = new StorylineMissionFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1233,7 +1233,7 @@ public class StorylineMissionFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -72,7 +72,7 @@ public class NPCTitan
     public static final NPCTitan.MetaGroup METAGROUP = new NPCTitan.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -100,7 +100,7 @@ public class NPCTitan
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

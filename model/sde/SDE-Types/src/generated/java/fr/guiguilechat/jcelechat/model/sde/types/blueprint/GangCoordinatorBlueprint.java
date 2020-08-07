@@ -65,7 +65,7 @@ public class GangCoordinatorBlueprint
     public static final GangCoordinatorBlueprint.MetaGroup METAGROUP = new GangCoordinatorBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class GangCoordinatorBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

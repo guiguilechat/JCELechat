@@ -74,7 +74,7 @@ public class ExpiredJumpFilaments
     public static final ExpiredJumpFilaments.MetaGroup METAGROUP = new ExpiredJumpFilaments.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  3025 :
             {
@@ -106,7 +106,7 @@ public class ExpiredJumpFilaments
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

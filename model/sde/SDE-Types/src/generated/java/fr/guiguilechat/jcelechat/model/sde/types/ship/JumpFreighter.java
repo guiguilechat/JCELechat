@@ -404,7 +404,7 @@ public class JumpFreighter
     public static final JumpFreighter.MetaGroup METAGROUP = new JumpFreighter.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  853 :
             {
@@ -564,7 +564,7 @@ public class JumpFreighter
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

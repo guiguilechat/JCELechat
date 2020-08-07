@@ -65,7 +65,7 @@ public class HeatSinkBlueprint
     public static final HeatSinkBlueprint.MetaGroup METAGROUP = new HeatSinkBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class HeatSinkBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

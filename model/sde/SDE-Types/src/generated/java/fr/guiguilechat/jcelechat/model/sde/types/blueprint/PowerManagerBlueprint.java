@@ -65,7 +65,7 @@ public class PowerManagerBlueprint
     public static final PowerManagerBlueprint.MetaGroup METAGROUP = new PowerManagerBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class PowerManagerBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

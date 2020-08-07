@@ -65,7 +65,7 @@ public class ShieldHardenerBlueprint
     public static final ShieldHardenerBlueprint.MetaGroup METAGROUP = new ShieldHardenerBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class ShieldHardenerBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

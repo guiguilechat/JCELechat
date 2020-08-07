@@ -65,7 +65,7 @@ public class CloakingDeviceBlueprint
     public static final CloakingDeviceBlueprint.MetaGroup METAGROUP = new CloakingDeviceBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class CloakingDeviceBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

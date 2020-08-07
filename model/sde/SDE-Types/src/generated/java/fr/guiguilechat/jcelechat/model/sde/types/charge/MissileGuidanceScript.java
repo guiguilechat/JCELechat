@@ -91,7 +91,7 @@ public class MissileGuidanceScript
     public static final MissileGuidanceScript.MetaGroup METAGROUP = new MissileGuidanceScript.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2023 :
             {
@@ -127,7 +127,7 @@ public class MissileGuidanceScript
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

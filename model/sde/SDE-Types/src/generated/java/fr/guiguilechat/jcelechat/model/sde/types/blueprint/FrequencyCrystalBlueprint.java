@@ -55,7 +55,7 @@ public class FrequencyCrystalBlueprint
     public static final FrequencyCrystalBlueprint.MetaGroup METAGROUP = new FrequencyCrystalBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class FrequencyCrystalBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

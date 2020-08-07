@@ -981,7 +981,7 @@ public class FactionDrone
     public static final FactionDrone.MetaGroup METAGROUP = new FactionDrone.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1461,7 +1461,7 @@ public class FactionDrone
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

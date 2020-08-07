@@ -107,7 +107,7 @@ public class TrackingArray
     public static final TrackingArray.MetaGroup METAGROUP = new TrackingArray.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -143,7 +143,7 @@ public class TrackingArray
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

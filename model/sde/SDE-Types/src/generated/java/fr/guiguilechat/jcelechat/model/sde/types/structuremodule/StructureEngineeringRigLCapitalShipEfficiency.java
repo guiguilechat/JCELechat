@@ -181,7 +181,7 @@ public class StructureEngineeringRigLCapitalShipEfficiency
     public static final StructureEngineeringRigLCapitalShipEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLCapitalShipEfficiency.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -261,7 +261,7 @@ public class StructureEngineeringRigLCapitalShipEfficiency
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

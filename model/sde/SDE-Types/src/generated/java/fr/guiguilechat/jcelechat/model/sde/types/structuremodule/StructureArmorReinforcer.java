@@ -78,7 +78,7 @@ public class StructureArmorReinforcer
     public static final StructureArmorReinforcer.MetaGroup METAGROUP = new StructureArmorReinforcer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  335 :
             {
@@ -106,7 +106,7 @@ public class StructureArmorReinforcer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -212,7 +212,7 @@ public class EngineeringComplex
     public static final EngineeringComplex.MetaGroup METAGROUP = new EngineeringComplex.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2244 :
             {
@@ -280,7 +280,7 @@ public class EngineeringComplex
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

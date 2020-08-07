@@ -861,7 +861,7 @@ public class MissionGallenteFederationFrigate
     public static final MissionGallenteFederationFrigate.MetaGroup METAGROUP = new MissionGallenteFederationFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1281,7 +1281,7 @@ public class MissionGallenteFederationFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

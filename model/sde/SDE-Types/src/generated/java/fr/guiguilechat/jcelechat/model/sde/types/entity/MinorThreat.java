@@ -860,7 +860,7 @@ public class MinorThreat
     public static final MinorThreat.MetaGroup METAGROUP = new MinorThreat.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -1280,7 +1280,7 @@ public class MinorThreat
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

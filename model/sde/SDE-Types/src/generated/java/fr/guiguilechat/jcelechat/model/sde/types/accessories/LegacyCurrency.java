@@ -64,7 +64,7 @@ public class LegacyCurrency
     public static final LegacyCurrency.MetaGroup METAGROUP = new LegacyCurrency.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1818 :
             {
@@ -88,7 +88,7 @@ public class LegacyCurrency
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

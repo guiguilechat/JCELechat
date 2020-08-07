@@ -115,7 +115,7 @@ public class PrototypeExplorationShip
     public static final PrototypeExplorationShip.MetaGroup METAGROUP = new PrototypeExplorationShip.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  124 :
             {
@@ -131,7 +131,7 @@ public class PrototypeExplorationShip
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

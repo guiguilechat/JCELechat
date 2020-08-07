@@ -91,7 +91,7 @@ public class SensorBoosterScript
     public static final SensorBoosterScript.MetaGroup METAGROUP = new SensorBoosterScript.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  128 :
             {
@@ -127,7 +127,7 @@ public class SensorBoosterScript
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -262,7 +262,7 @@ public class CloakingDevice
     public static final CloakingDevice.MetaGroup METAGROUP = new CloakingDevice.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  169 :
             {
@@ -378,7 +378,7 @@ public class CloakingDevice
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

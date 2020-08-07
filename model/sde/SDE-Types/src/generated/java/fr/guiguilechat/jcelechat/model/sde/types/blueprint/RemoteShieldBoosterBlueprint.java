@@ -65,7 +65,7 @@ public class RemoteShieldBoosterBlueprint
     public static final RemoteShieldBoosterBlueprint.MetaGroup METAGROUP = new RemoteShieldBoosterBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class RemoteShieldBoosterBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

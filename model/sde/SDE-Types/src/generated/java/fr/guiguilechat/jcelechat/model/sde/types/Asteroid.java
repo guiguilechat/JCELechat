@@ -107,7 +107,7 @@ public abstract class Asteroid
     public static final Asteroid.MetaCat METACAT = new Asteroid.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2699 :
             {
@@ -139,7 +139,7 @@ public abstract class Asteroid
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

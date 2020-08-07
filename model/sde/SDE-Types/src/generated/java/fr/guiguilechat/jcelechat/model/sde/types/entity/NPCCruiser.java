@@ -1060,7 +1060,7 @@ public class NPCCruiser
     public static final NPCCruiser.MetaGroup METAGROUP = new NPCCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -1580,7 +1580,7 @@ public class NPCCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

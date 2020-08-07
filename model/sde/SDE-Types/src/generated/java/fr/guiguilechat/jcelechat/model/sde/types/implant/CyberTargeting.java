@@ -62,7 +62,7 @@ public class CyberTargeting
     public static final CyberTargeting.MetaGroup METAGROUP = new CyberTargeting.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  331 :
             {
@@ -82,7 +82,7 @@ public class CyberTargeting
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

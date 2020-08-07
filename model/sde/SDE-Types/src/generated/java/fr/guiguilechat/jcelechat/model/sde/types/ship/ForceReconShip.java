@@ -476,7 +476,7 @@ public class ForceReconShip
     public static final ForceReconShip.MetaGroup METAGROUP = new ForceReconShip.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2620 :
             {
@@ -668,7 +668,7 @@ public class ForceReconShip
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

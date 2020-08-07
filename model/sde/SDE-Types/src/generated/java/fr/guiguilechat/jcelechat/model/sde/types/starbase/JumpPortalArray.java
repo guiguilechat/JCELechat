@@ -195,7 +195,7 @@ public class JumpPortalArray
     public static final JumpPortalArray.MetaGroup METAGROUP = new JumpPortalArray.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1032 :
             {
@@ -275,7 +275,7 @@ public class JumpPortalArray
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -110,7 +110,7 @@ public class ShieldExtender
     public static final ShieldExtender.MetaGroup METAGROUP = new ShieldExtender.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  72 :
             {
@@ -150,7 +150,7 @@ public class ShieldExtender
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

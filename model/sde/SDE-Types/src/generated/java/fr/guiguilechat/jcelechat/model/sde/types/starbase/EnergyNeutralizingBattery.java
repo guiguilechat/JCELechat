@@ -283,7 +283,7 @@ public class EnergyNeutralizingBattery
     public static final EnergyNeutralizingBattery.MetaGroup METAGROUP = new EnergyNeutralizingBattery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1165 :
             {
@@ -403,7 +403,7 @@ public class EnergyNeutralizingBattery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

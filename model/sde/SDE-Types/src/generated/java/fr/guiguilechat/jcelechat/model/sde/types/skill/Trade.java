@@ -97,7 +97,7 @@ public class Trade
     public static final Trade.MetaGroup METAGROUP = new Trade.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1047 :
             {
@@ -133,7 +133,7 @@ public class Trade
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

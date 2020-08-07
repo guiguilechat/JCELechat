@@ -102,7 +102,7 @@ public class CyberGunnery
     public static final CyberGunnery.MetaGroup METAGROUP = new CyberGunnery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  317 :
             {
@@ -142,7 +142,7 @@ public class CyberGunnery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -126,7 +126,7 @@ public class ShipScanner
     public static final ShipScanner.MetaGroup METAGROUP = new ShipScanner.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -178,7 +178,7 @@ public class ShipScanner
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

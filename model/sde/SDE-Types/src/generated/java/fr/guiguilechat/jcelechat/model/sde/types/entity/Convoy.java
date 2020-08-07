@@ -451,7 +451,7 @@ public class Convoy
     public static final Convoy.MetaGroup METAGROUP = new Convoy.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -667,7 +667,7 @@ public class Convoy
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

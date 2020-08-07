@@ -69,7 +69,7 @@ public class CyberBiology
     public static final CyberBiology.MetaGroup METAGROUP = new CyberBiology.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1126 :
             {
@@ -93,7 +93,7 @@ public class CyberBiology
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

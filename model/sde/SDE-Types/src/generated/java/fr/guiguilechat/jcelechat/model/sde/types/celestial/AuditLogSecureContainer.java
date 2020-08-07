@@ -93,7 +93,7 @@ public class AuditLogSecureContainer
     public static final AuditLogSecureContainer.MetaGroup METAGROUP = new AuditLogSecureContainer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1852 :
             {
@@ -129,7 +129,7 @@ public class AuditLogSecureContainer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

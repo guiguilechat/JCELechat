@@ -444,7 +444,7 @@ public class Logistics
     public static final Logistics.MetaGroup METAGROUP = new Logistics.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1034 :
             {
@@ -620,7 +620,7 @@ public class Logistics
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

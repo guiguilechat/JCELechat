@@ -182,7 +182,7 @@ public class MissileGuidanceComputer
     public static final MissileGuidanceComputer.MetaGroup METAGROUP = new MissileGuidanceComputer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -262,7 +262,7 @@ public class MissileGuidanceComputer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

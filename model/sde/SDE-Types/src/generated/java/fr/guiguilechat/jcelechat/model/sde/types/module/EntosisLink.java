@@ -230,7 +230,7 @@ public class EntosisLink
     public static final EntosisLink.MetaGroup METAGROUP = new EntosisLink.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1163 :
             {
@@ -334,7 +334,7 @@ public class EntosisLink
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -55,7 +55,7 @@ public class FueledArmorRepairerBlueprint
     public static final FueledArmorRepairerBlueprint.MetaGroup METAGROUP = new FueledArmorRepairerBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class FueledArmorRepairerBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -685,7 +685,7 @@ public class AsteroidAngelCartelDestroyer
     public static final AsteroidAngelCartelDestroyer.MetaGroup METAGROUP = new AsteroidAngelCartelDestroyer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1017,7 +1017,7 @@ public class AsteroidAngelCartelDestroyer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

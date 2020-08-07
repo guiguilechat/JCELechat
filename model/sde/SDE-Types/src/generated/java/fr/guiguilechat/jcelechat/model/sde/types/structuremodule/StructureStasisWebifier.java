@@ -182,7 +182,7 @@ public class StructureStasisWebifier
     public static final StructureStasisWebifier.MetaGroup METAGROUP = new StructureStasisWebifier.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -262,7 +262,7 @@ public class StructureStasisWebifier
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

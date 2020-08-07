@@ -214,7 +214,7 @@ public class SensorBooster
     public static final SensorBooster.MetaGroup METAGROUP = new SensorBooster.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -306,7 +306,7 @@ public class SensorBooster
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

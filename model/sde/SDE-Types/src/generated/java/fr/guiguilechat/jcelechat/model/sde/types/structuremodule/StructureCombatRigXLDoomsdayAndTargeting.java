@@ -189,7 +189,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
     public static final StructureCombatRigXLDoomsdayAndTargeting.MetaGroup METAGROUP = new StructureCombatRigXLDoomsdayAndTargeting.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -273,7 +273,7 @@ public class StructureCombatRigXLDoomsdayAndTargeting
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -148,7 +148,7 @@ public class HybridCharge
     public static final HybridCharge.MetaGroup METAGROUP = new HybridCharge.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -208,7 +208,7 @@ public class HybridCharge
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

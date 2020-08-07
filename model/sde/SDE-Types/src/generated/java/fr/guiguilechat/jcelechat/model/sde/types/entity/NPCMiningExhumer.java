@@ -355,7 +355,7 @@ public class NPCMiningExhumer
     public static final NPCMiningExhumer.MetaGroup METAGROUP = new NPCMiningExhumer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -523,7 +523,7 @@ public class NPCMiningExhumer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

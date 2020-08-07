@@ -271,7 +271,7 @@ public class IndustryTranslater {
 	private static void translateCompression(LinkedHashMap<Integer, IndustryUsage> usages) {
 		for (Asteroid compressed : Asteroid.METACAT.load().values()) {
 			if (compressed.getAttributes().contains(CompressionTypeID.INSTANCE)) {
-				Integer compressIntoId = compressed.attribute(CompressionTypeID.INSTANCE).intValue();
+				Integer compressIntoId = compressed.valueSet(CompressionTypeID.INSTANCE).intValue();
 				if (compressIntoId != 0) {
 					EveType compressInto = TypeIndex.getType(compressIntoId);
 					if (compressInto == null) {

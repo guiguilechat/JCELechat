@@ -120,7 +120,7 @@ public class Station
     public static final Station.MetaGroup METAGROUP = new Station.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
@@ -172,7 +172,7 @@ public class Station
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -837,7 +837,7 @@ public class AsteroidAngelCartelFrigate
     public static final AsteroidAngelCartelFrigate.MetaGroup METAGROUP = new AsteroidAngelCartelFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1245,7 +1245,7 @@ public class AsteroidAngelCartelFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

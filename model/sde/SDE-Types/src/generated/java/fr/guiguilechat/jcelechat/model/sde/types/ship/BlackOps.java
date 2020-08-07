@@ -521,7 +521,7 @@ public class BlackOps
     public static final BlackOps.MetaGroup METAGROUP = new BlackOps.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  861 :
             {
@@ -741,7 +741,7 @@ public class BlackOps
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -155,7 +155,7 @@ public class ScannerArray
     public static final ScannerArray.MetaGroup METAGROUP = new ScannerArray.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -215,7 +215,7 @@ public class ScannerArray
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -262,7 +262,7 @@ public class TitanPhenomenaGenerator
     public static final TitanPhenomenaGenerator.MetaGroup METAGROUP = new TitanPhenomenaGenerator.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2535 :
             {
@@ -382,7 +382,7 @@ public class TitanPhenomenaGenerator
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

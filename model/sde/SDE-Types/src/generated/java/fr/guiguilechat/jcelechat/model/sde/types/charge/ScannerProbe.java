@@ -172,7 +172,7 @@ public class ScannerProbe
     public static final ScannerProbe.MetaGroup METAGROUP = new ScannerProbe.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -244,7 +244,7 @@ public class ScannerProbe
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

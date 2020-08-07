@@ -147,7 +147,7 @@ public class DeadspaceOverseerSBelongings
     public static final DeadspaceOverseerSBelongings.MetaGroup METAGROUP = new DeadspaceOverseerSBelongings.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  482 :
             {
@@ -211,7 +211,7 @@ public class DeadspaceOverseerSBelongings
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

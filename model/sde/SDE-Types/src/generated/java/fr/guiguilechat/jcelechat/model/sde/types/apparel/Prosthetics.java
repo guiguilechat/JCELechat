@@ -60,7 +60,7 @@ public class Prosthetics
     public static final Prosthetics.MetaGroup METAGROUP = new Prosthetics.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -80,7 +80,7 @@ public class Prosthetics
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

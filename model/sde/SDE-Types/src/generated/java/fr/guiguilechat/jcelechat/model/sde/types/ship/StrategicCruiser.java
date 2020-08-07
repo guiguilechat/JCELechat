@@ -380,7 +380,7 @@ public class StrategicCruiser
     public static final StrategicCruiser.MetaGroup METAGROUP = new StrategicCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1555 :
             {
@@ -528,7 +528,7 @@ public class StrategicCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

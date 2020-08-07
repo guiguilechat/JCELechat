@@ -205,7 +205,7 @@ public class AdvancedAutocannonAmmo
     public static final AdvancedAutocannonAmmo.MetaGroup METAGROUP = new AdvancedAutocannonAmmo.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -297,7 +297,7 @@ public class AdvancedAutocannonAmmo
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

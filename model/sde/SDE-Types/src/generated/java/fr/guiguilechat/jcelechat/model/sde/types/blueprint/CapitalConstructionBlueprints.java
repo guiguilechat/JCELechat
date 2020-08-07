@@ -55,7 +55,7 @@ public class CapitalConstructionBlueprints
     public static final CapitalConstructionBlueprints.MetaGroup METAGROUP = new CapitalConstructionBlueprints.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class CapitalConstructionBlueprints
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -94,7 +94,7 @@ public class OverdriveInjectorSystem
     public static final OverdriveInjectorSystem.MetaGroup METAGROUP = new OverdriveInjectorSystem.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  149 :
             {
@@ -126,7 +126,7 @@ public class OverdriveInjectorSystem
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

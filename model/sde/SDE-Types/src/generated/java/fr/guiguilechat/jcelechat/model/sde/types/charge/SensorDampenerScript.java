@@ -75,7 +75,7 @@ public class SensorDampenerScript
     public static final SensorDampenerScript.MetaGroup METAGROUP = new SensorDampenerScript.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  128 :
             {
@@ -103,7 +103,7 @@ public class SensorDampenerScript
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

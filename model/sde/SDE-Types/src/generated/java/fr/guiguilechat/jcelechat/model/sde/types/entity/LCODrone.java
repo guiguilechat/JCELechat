@@ -305,7 +305,7 @@ public class LCODrone
     public static final LCODrone.MetaGroup METAGROUP = new LCODrone.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
@@ -449,7 +449,7 @@ public class LCODrone
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -102,7 +102,7 @@ public class CPUEnhancer
     public static final CPUEnhancer.MetaGroup METAGROUP = new CPUEnhancer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -138,7 +138,7 @@ public class CPUEnhancer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

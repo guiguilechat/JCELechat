@@ -815,7 +815,7 @@ public class IncursionSanshaSNationBattleship
     public static final IncursionSanshaSNationBattleship.MetaGroup METAGROUP = new IncursionSanshaSNationBattleship.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1211,7 +1211,7 @@ public class IncursionSanshaSNationBattleship
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

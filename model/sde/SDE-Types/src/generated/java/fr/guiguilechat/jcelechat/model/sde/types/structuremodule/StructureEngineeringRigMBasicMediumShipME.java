@@ -181,7 +181,7 @@ public class StructureEngineeringRigMBasicMediumShipME
     public static final StructureEngineeringRigMBasicMediumShipME.MetaGroup METAGROUP = new StructureEngineeringRigMBasicMediumShipME.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -261,7 +261,7 @@ public class StructureEngineeringRigMBasicMediumShipME
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

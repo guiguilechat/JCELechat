@@ -110,7 +110,7 @@ public class CargoScanner
     public static final CargoScanner.MetaGroup METAGROUP = new CargoScanner.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -154,7 +154,7 @@ public class CargoScanner
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -181,7 +181,7 @@ public class StructureEngineeringRigLAmmunitionEfficiency
     public static final StructureEngineeringRigLAmmunitionEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLAmmunitionEfficiency.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -261,7 +261,7 @@ public class StructureEngineeringRigLAmmunitionEfficiency
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

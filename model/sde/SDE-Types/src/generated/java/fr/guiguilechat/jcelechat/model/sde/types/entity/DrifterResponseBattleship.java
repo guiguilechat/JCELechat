@@ -741,7 +741,7 @@ public class DrifterResponseBattleship
     public static final DrifterResponseBattleship.MetaGroup METAGROUP = new DrifterResponseBattleship.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1101,7 +1101,7 @@ public class DrifterResponseBattleship
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -101,7 +101,7 @@ public class StructureDrillingRigMEfficiency
     public static final StructureDrillingRigMEfficiency.MetaGroup METAGROUP = new StructureDrillingRigMEfficiency.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1300 :
             {
@@ -141,7 +141,7 @@ public class StructureDrillingRigMEfficiency
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

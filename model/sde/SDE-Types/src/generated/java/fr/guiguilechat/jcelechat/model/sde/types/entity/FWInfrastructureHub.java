@@ -145,7 +145,7 @@ public class FWInfrastructureHub
     public static final FWInfrastructureHub.MetaGroup METAGROUP = new FWInfrastructureHub.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
@@ -209,7 +209,7 @@ public class FWInfrastructureHub
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

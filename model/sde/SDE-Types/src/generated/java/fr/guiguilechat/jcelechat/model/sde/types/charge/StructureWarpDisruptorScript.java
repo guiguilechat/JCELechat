@@ -75,7 +75,7 @@ public class StructureWarpDisruptorScript
     public static final StructureWarpDisruptorScript.MetaGroup METAGROUP = new StructureWarpDisruptorScript.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1350 :
             {
@@ -103,7 +103,7 @@ public class StructureWarpDisruptorScript
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

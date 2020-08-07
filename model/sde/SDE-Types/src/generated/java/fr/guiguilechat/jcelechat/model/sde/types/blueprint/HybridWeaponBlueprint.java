@@ -81,7 +81,7 @@ public class HybridWeaponBlueprint
     public static final HybridWeaponBlueprint.MetaGroup METAGROUP = new HybridWeaponBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -109,7 +109,7 @@ public class HybridWeaponBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

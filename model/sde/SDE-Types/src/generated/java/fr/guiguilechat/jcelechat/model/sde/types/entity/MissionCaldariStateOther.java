@@ -396,7 +396,7 @@ public class MissionCaldariStateOther
     public static final MissionCaldariStateOther.MetaGroup METAGROUP = new MissionCaldariStateOther.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -584,7 +584,7 @@ public class MissionCaldariStateOther
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

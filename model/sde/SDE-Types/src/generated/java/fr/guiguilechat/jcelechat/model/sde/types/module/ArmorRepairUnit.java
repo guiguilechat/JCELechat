@@ -174,7 +174,7 @@ public class ArmorRepairUnit
     public static final ArmorRepairUnit.MetaGroup METAGROUP = new ArmorRepairUnit.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  84 :
             {
@@ -246,7 +246,7 @@ public class ArmorRepairUnit
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

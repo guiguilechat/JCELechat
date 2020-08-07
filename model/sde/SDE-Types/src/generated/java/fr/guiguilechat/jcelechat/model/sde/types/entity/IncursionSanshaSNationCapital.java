@@ -703,7 +703,7 @@ public class IncursionSanshaSNationCapital
     public static final IncursionSanshaSNationCapital.MetaGroup METAGROUP = new IncursionSanshaSNationCapital.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1043,7 +1043,7 @@ public class IncursionSanshaSNationCapital
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

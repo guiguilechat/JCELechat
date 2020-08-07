@@ -63,7 +63,7 @@ public class Biomass
     public static final Biomass.MetaGroup METAGROUP = new Biomass.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -87,7 +87,7 @@ public class Biomass
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

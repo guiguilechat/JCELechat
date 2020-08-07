@@ -50,7 +50,7 @@ public class StorageFacilities
     public static final StorageFacilities.MetaGroup METAGROUP = new StorageFacilities.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  49 :
             {
@@ -66,7 +66,7 @@ public class StorageFacilities
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

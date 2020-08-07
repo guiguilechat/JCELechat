@@ -261,7 +261,7 @@ public class CruiseMissile
     public static final CruiseMissile.MetaGroup METAGROUP = new CruiseMissile.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -377,7 +377,7 @@ public class CruiseMissile
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

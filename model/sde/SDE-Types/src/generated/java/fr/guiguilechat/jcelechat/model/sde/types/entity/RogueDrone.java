@@ -572,7 +572,7 @@ public class RogueDrone
     public static final RogueDrone.MetaGroup METAGROUP = new RogueDrone.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -848,7 +848,7 @@ public class RogueDrone
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

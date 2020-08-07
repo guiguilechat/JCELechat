@@ -292,7 +292,7 @@ public class CombatReconShip
     public static final CombatReconShip.MetaGroup METAGROUP = new CombatReconShip.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1958 :
             {
@@ -396,7 +396,7 @@ public class CombatReconShip
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

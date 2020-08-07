@@ -56,7 +56,7 @@ public class BiochemicalMaterial
     public static final BiochemicalMaterial.MetaGroup METAGROUP = new BiochemicalMaterial.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -76,7 +76,7 @@ public class BiochemicalMaterial
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

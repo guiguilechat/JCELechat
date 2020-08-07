@@ -117,7 +117,7 @@ public class StructureDrillingRigMStability
     public static final StructureDrillingRigMStability.MetaGroup METAGROUP = new StructureDrillingRigMStability.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1300 :
             {
@@ -165,7 +165,7 @@ public class StructureDrillingRigMStability
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

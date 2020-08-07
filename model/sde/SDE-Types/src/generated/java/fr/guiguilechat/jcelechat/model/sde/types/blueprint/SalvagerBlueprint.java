@@ -65,7 +65,7 @@ public class SalvagerBlueprint
     public static final SalvagerBlueprint.MetaGroup METAGROUP = new SalvagerBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class SalvagerBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

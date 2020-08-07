@@ -55,7 +55,7 @@ public class StarbaseSensorDampeningArrayBlueprints
     public static final StarbaseSensorDampeningArrayBlueprints.MetaGroup METAGROUP = new StarbaseSensorDampeningArrayBlueprints.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class StarbaseSensorDampeningArrayBlueprints
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

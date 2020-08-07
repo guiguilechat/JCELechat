@@ -87,7 +87,7 @@ public class Plagioclase
     public static final Plagioclase.MetaGroup METAGROUP = new Plagioclase.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2727 :
             {
@@ -119,7 +119,7 @@ public class Plagioclase
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

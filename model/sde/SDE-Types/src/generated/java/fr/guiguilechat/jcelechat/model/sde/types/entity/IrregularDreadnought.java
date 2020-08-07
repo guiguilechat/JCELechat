@@ -362,7 +362,7 @@ public class IrregularDreadnought
     public static final IrregularDreadnought.MetaGroup METAGROUP = new IrregularDreadnought.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -534,7 +534,7 @@ public class IrregularDreadnought
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

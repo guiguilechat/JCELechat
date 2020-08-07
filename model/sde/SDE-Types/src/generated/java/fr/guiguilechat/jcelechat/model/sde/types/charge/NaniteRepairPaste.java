@@ -34,7 +34,7 @@ public class NaniteRepairPaste
     public static final NaniteRepairPaste.MetaGroup METAGROUP = new NaniteRepairPaste.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  9 :
             {
@@ -42,7 +42,7 @@ public class NaniteRepairPaste
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

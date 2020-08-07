@@ -277,7 +277,7 @@ public class AdvancedRocket
     public static final AdvancedRocket.MetaGroup METAGROUP = new AdvancedRocket.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -405,7 +405,7 @@ public class AdvancedRocket
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

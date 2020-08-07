@@ -110,7 +110,7 @@ public class StructureFittingModule
     public static final StructureFittingModule.MetaGroup METAGROUP = new StructureFittingModule.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -154,7 +154,7 @@ public class StructureFittingModule
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

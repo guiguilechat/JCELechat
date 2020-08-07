@@ -859,7 +859,7 @@ public class RetaliatingMinmatarEntities
     public static final RetaliatingMinmatarEntities.MetaGroup METAGROUP = new RetaliatingMinmatarEntities.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2723 :
             {
@@ -1279,7 +1279,7 @@ public class RetaliatingMinmatarEntities
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

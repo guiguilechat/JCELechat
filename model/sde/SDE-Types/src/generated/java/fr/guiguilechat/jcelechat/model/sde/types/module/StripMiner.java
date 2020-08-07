@@ -158,7 +158,7 @@ public class StripMiner
     public static final StripMiner.MetaGroup METAGROUP = new StripMiner.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -222,7 +222,7 @@ public class StripMiner
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

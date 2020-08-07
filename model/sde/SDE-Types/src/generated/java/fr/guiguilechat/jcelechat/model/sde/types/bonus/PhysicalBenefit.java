@@ -103,7 +103,7 @@ public class PhysicalBenefit
     public static final PhysicalBenefit.MetaGroup METAGROUP = new PhysicalBenefit.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  205 :
             {
@@ -147,7 +147,7 @@ public class PhysicalBenefit
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

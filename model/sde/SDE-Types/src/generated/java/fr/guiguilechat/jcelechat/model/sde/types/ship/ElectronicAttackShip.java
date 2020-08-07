@@ -308,7 +308,7 @@ public class ElectronicAttackShip
     public static final ElectronicAttackShip.MetaGroup METAGROUP = new ElectronicAttackShip.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1249 :
             {
@@ -420,7 +420,7 @@ public class ElectronicAttackShip
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

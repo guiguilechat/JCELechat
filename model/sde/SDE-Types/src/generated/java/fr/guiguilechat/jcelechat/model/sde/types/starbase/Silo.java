@@ -99,7 +99,7 @@ public class Silo
     public static final Silo.MetaGroup METAGROUP = new Silo.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  629 :
             {
@@ -131,7 +131,7 @@ public class Silo
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

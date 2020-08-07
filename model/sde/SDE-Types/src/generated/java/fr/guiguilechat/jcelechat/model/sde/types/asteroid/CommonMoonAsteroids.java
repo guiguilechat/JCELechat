@@ -71,7 +71,7 @@ public class CommonMoonAsteroids
     public static final CommonMoonAsteroids.MetaGroup METAGROUP = new CommonMoonAsteroids.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2727 :
             {
@@ -95,7 +95,7 @@ public class CommonMoonAsteroids
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

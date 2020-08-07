@@ -94,7 +94,7 @@ public class PassiveTargetingSystem
     public static final PassiveTargetingSystem.MetaGroup METAGROUP = new PassiveTargetingSystem.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -130,7 +130,7 @@ public class PassiveTargetingSystem
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

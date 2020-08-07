@@ -237,7 +237,7 @@ public class InsuranceFraudController {
 
 	public static int getBasicType(Asteroid ore) {
 		if (ore.getAttributes().contains(OreBasicType.INSTANCE)) {
-			return ore.attribute(OreBasicType.INSTANCE).intValue();
+			return ore.valueSet(OreBasicType.INSTANCE).intValue();
 		}
 		return ore.id;
 	}

@@ -158,7 +158,7 @@ public class FighterSupportUnit
     public static final FighterSupportUnit.MetaGroup METAGROUP = new FighterSupportUnit.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -222,7 +222,7 @@ public class FighterSupportUnit
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

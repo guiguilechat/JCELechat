@@ -87,7 +87,7 @@ public class Jaspet
     public static final Jaspet.MetaGroup METAGROUP = new Jaspet.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2727 :
             {
@@ -119,7 +119,7 @@ public class Jaspet
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

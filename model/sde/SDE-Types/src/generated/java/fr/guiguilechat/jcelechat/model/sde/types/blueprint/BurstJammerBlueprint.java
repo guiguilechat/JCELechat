@@ -65,7 +65,7 @@ public class BurstJammerBlueprint
     public static final BurstJammerBlueprint.MetaGroup METAGROUP = new BurstJammerBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class BurstJammerBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

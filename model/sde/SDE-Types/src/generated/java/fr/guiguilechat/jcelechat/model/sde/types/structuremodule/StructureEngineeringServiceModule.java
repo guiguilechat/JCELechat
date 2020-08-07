@@ -248,7 +248,7 @@ public class StructureEngineeringServiceModule
     public static final StructureEngineeringServiceModule.MetaGroup METAGROUP = new StructureEngineeringServiceModule.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -356,7 +356,7 @@ public class StructureEngineeringServiceModule
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

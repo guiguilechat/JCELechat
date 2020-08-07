@@ -123,7 +123,7 @@ public class MobileReactor
     public static final MobileReactor.MetaGroup METAGROUP = new MobileReactor.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1032 :
             {
@@ -167,7 +167,7 @@ public class MobileReactor
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

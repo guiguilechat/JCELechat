@@ -173,7 +173,7 @@ public class MercoxitMiningCrystal
     public static final MercoxitMiningCrystal.MetaGroup METAGROUP = new MercoxitMiningCrystal.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  317 :
             {
@@ -249,7 +249,7 @@ public class MercoxitMiningCrystal
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

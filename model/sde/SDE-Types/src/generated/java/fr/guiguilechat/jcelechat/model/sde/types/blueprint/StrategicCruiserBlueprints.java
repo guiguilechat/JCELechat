@@ -65,7 +65,7 @@ public class StrategicCruiserBlueprints
     public static final StrategicCruiserBlueprints.MetaGroup METAGROUP = new StrategicCruiserBlueprints.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class StrategicCruiserBlueprints
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

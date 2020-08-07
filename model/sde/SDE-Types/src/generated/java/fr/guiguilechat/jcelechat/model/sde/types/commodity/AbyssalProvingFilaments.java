@@ -47,7 +47,7 @@ public class AbyssalProvingFilaments
     public static final AbyssalProvingFilaments.MetaGroup METAGROUP = new AbyssalProvingFilaments.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -63,7 +63,7 @@ public class AbyssalProvingFilaments
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

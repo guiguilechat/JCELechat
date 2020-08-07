@@ -692,7 +692,7 @@ public class TemporaryCollidableStructure
     public static final TemporaryCollidableStructure.MetaGroup METAGROUP = new TemporaryCollidableStructure.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  929 :
             {
@@ -1028,7 +1028,7 @@ public class TemporaryCollidableStructure
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

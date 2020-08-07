@@ -110,7 +110,7 @@ public class CapacitorPowerRelay
     public static final CapacitorPowerRelay.MetaGroup METAGROUP = new CapacitorPowerRelay.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  144 :
             {
@@ -150,7 +150,7 @@ public class CapacitorPowerRelay
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

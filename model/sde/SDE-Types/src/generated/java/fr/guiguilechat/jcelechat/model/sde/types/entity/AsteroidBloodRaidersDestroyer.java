@@ -613,7 +613,7 @@ public class AsteroidBloodRaidersDestroyer
     public static final AsteroidBloodRaidersDestroyer.MetaGroup METAGROUP = new AsteroidBloodRaidersDestroyer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -909,7 +909,7 @@ public class AsteroidBloodRaidersDestroyer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

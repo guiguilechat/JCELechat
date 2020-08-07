@@ -110,7 +110,7 @@ public class CyberMissile
     public static final CyberMissile.MetaGroup METAGROUP = new CyberMissile.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -154,7 +154,7 @@ public class CyberMissile
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -182,7 +182,7 @@ public class RemoteCapacitorTransmitter
     public static final RemoteCapacitorTransmitter.MetaGroup METAGROUP = new RemoteCapacitorTransmitter.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -258,7 +258,7 @@ public class RemoteCapacitorTransmitter
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

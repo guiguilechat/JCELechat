@@ -132,7 +132,7 @@ public class InterdictionProbe
     public static final InterdictionProbe.MetaGroup METAGROUP = new InterdictionProbe.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -188,7 +188,7 @@ public class InterdictionProbe
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -200,7 +200,7 @@ public abstract class Starbase
     public static final Starbase.MetaCat METACAT = new Starbase.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  556 :
             {
@@ -280,7 +280,7 @@ public abstract class Starbase
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

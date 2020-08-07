@@ -57,7 +57,7 @@ public abstract class AncientRelics
     public static final AncientRelics.MetaCat METACAT = new AncientRelics.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -77,7 +77,7 @@ public abstract class AncientRelics
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

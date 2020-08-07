@@ -14,6 +14,11 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EeveUnits;
 import fr.guiguilechat.jcelechat.model.sde.meta.Unit;
 
+/**
+ * @deprecated CCP removed the displayName from unit, making this useless.
+ *
+ */
+@Deprecated
 public class UnitTranslater {
 
 	/** hardcoded human written list of  all the units name that should use the prefixed value */
@@ -42,6 +47,7 @@ public class UnitTranslater {
 				enumString = unit.description;
 			}
 			if (enumString != null) {
+				// enum list of allowed values
 				Map<Integer, String> termsMap = Stream.of(enumString.split(" ")).filter(s -> s.contains("="))
 						.collect(Collectors.toMap(s -> Integer.parseInt(s.split("=")[0]), s -> s.split("=")[1]));
 				created.enums = new String[termsMap.keySet().stream().mapToInt(i -> i).max().getAsInt() + 1];
@@ -49,7 +55,9 @@ public class UnitTranslater {
 					created.enums[e.getKey()] = e.getValue();
 				}
 			} else {
+				// no enumerated list of values.
 				if (UNIT_NAMES_FOR_PREFIX.contains(unit.unitName)) {
+					System.err.println(unit.unitName + " display=" + unit.displayName);
 					created.prefix = unit.displayName.length() == 1 ? unit.displayName : unit.displayName + " ";
 				} else {
 					created.suffix = unit.displayName;

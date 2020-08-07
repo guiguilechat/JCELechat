@@ -110,7 +110,7 @@ public class Gyrostabilizer
     public static final Gyrostabilizer.MetaGroup METAGROUP = new Gyrostabilizer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -150,7 +150,7 @@ public class Gyrostabilizer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

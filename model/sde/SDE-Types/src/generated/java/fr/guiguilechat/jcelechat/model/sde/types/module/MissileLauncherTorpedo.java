@@ -222,7 +222,7 @@ public class MissileLauncherTorpedo
     public static final MissileLauncherTorpedo.MetaGroup METAGROUP = new MissileLauncherTorpedo.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  604 :
             {
@@ -318,7 +318,7 @@ public class MissileLauncherTorpedo
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

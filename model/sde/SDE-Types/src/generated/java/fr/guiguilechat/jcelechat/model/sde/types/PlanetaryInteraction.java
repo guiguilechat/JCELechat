@@ -51,7 +51,7 @@ public abstract class PlanetaryInteraction
     public static final PlanetaryInteraction.MetaCat METACAT = new PlanetaryInteraction.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -67,7 +67,7 @@ public abstract class PlanetaryInteraction
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

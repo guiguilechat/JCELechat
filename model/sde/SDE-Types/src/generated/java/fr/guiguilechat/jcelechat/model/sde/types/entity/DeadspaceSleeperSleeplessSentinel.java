@@ -734,7 +734,7 @@ public class DeadspaceSleeperSleeplessSentinel
     public static final DeadspaceSleeperSleeplessSentinel.MetaGroup METAGROUP = new DeadspaceSleeperSleeplessSentinel.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1090,7 +1090,7 @@ public class DeadspaceSleeperSleeplessSentinel
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

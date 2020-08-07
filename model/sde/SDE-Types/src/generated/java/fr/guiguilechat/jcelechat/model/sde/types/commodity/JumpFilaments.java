@@ -74,7 +74,7 @@ public class JumpFilaments
     public static final JumpFilaments.MetaGroup METAGROUP = new JumpFilaments.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  3025 :
             {
@@ -106,7 +106,7 @@ public class JumpFilaments
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

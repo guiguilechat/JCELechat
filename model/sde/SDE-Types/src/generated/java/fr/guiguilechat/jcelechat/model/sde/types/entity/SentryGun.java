@@ -387,7 +387,7 @@ public class SentryGun
     public static final SentryGun.MetaGroup METAGROUP = new SentryGun.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -571,7 +571,7 @@ public class SentryGun
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

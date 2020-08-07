@@ -148,7 +148,7 @@ public class MobileMicroJumpUnit
     public static final MobileMicroJumpUnit.MetaGroup METAGROUP = new MobileMicroJumpUnit.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  524 :
             {
@@ -208,7 +208,7 @@ public class MobileMicroJumpUnit
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

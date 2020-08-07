@@ -71,7 +71,7 @@ public class CargoContainer
     public static final CargoContainer.MetaGroup METAGROUP = new CargoContainer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -99,7 +99,7 @@ public class CargoContainer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

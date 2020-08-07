@@ -13,6 +13,11 @@ public abstract class Attribute {
     public abstract boolean getStackable();
 
     public Number value(EveType Type) {
-        return Type.attribute(this);
+        Number retrieved = Type.valueSet(this);
+        if (retrieved == null) {
+            return getDefaultValue();
+        } else {
+            return retrieved;
+        }
     }
 }

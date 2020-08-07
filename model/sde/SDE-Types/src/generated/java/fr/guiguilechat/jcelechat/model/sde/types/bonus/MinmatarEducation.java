@@ -87,7 +87,7 @@ public class MinmatarEducation
     public static final MinmatarEducation.MetaGroup METAGROUP = new MinmatarEducation.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  216 :
             {
@@ -123,7 +123,7 @@ public class MinmatarEducation
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

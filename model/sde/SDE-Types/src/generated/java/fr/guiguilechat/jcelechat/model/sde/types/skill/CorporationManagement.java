@@ -120,7 +120,7 @@ public class CorporationManagement
     public static final CorporationManagement.MetaGroup METAGROUP = new CorporationManagement.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1820 :
             {
@@ -168,7 +168,7 @@ public class CorporationManagement
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -148,7 +148,7 @@ public class UpwellJumpGate
     public static final UpwellJumpGate.MetaGroup METAGROUP = new UpwellJumpGate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2798 :
             {
@@ -184,7 +184,7 @@ public class UpwellJumpGate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

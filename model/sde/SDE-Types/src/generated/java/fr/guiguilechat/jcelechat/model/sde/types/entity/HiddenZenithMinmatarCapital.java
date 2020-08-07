@@ -468,7 +468,7 @@ public class HiddenZenithMinmatarCapital
     public static final HiddenZenithMinmatarCapital.MetaGroup METAGROUP = new HiddenZenithMinmatarCapital.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -692,7 +692,7 @@ public class HiddenZenithMinmatarCapital
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

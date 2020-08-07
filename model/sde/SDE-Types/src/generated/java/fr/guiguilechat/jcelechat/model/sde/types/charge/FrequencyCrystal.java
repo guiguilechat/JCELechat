@@ -188,7 +188,7 @@ public class FrequencyCrystal
     public static final FrequencyCrystal.MetaGroup METAGROUP = new FrequencyCrystal.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -268,7 +268,7 @@ public class FrequencyCrystal
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

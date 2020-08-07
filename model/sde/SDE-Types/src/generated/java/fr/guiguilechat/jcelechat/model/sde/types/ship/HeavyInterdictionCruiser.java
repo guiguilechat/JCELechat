@@ -364,7 +364,7 @@ public class HeavyInterdictionCruiser
     public static final HeavyInterdictionCruiser.MetaGroup METAGROUP = new HeavyInterdictionCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  310 :
             {
@@ -500,7 +500,7 @@ public class HeavyInterdictionCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

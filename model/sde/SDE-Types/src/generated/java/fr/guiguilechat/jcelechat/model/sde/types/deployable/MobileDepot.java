@@ -92,7 +92,7 @@ public class MobileDepot
     public static final MobileDepot.MetaGroup METAGROUP = new MobileDepot.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  524 :
             {
@@ -124,7 +124,7 @@ public class MobileDepot
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

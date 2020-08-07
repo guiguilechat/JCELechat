@@ -611,7 +611,7 @@ public abstract class Ship
     public static final Ship.MetaCat METACAT = new Ship.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -887,7 +887,7 @@ public abstract class Ship
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

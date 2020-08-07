@@ -65,7 +65,7 @@ public class StructureRigBlueprint
     public static final StructureRigBlueprint.MetaGroup METAGROUP = new StructureRigBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class StructureRigBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

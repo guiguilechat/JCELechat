@@ -108,7 +108,7 @@ public class StructureMoonDrillingServiceModule
     public static final StructureMoonDrillingServiceModule.MetaGroup METAGROUP = new StructureMoonDrillingServiceModule.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1032 :
             {
@@ -152,7 +152,7 @@ public class StructureMoonDrillingServiceModule
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

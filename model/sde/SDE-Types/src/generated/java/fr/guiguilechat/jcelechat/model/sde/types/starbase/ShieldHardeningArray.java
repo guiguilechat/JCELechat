@@ -131,7 +131,7 @@ public class ShieldHardeningArray
     public static final ShieldHardeningArray.MetaGroup METAGROUP = new ShieldHardeningArray.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -179,7 +179,7 @@ public class ShieldHardeningArray
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

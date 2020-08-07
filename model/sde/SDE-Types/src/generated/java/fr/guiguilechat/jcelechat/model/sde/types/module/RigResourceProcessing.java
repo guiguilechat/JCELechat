@@ -94,7 +94,7 @@ public class RigResourceProcessing
     public static final RigResourceProcessing.MetaGroup METAGROUP = new RigResourceProcessing.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  902 :
             {
@@ -130,7 +130,7 @@ public class RigResourceProcessing
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

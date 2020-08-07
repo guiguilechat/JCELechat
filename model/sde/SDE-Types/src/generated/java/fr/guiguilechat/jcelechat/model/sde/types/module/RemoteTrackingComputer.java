@@ -214,7 +214,7 @@ public class RemoteTrackingComputer
     public static final RemoteTrackingComputer.MetaGroup METAGROUP = new RemoteTrackingComputer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -306,7 +306,7 @@ public class RemoteTrackingComputer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

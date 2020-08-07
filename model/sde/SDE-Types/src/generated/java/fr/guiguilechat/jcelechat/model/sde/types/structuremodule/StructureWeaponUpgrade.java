@@ -142,7 +142,7 @@ public class StructureWeaponUpgrade
     public static final StructureWeaponUpgrade.MetaGroup METAGROUP = new StructureWeaponUpgrade.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -202,7 +202,7 @@ public class StructureWeaponUpgrade
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

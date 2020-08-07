@@ -131,7 +131,7 @@ public class EncounterSurveillanceSystem
     public static final EncounterSurveillanceSystem.MetaGroup METAGROUP = new EncounterSurveillanceSystem.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  524 :
             {
@@ -183,7 +183,7 @@ public class EncounterSurveillanceSystem
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

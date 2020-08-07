@@ -42,7 +42,7 @@ public class StrategicUpgrades
     public static final StrategicUpgrades.MetaGroup METAGROUP = new StrategicUpgrades.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1615 :
             {
@@ -54,7 +54,7 @@ public class StrategicUpgrades
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

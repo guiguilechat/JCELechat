@@ -197,7 +197,7 @@ public class AdvancedRailgunCharge
     public static final AdvancedRailgunCharge.MetaGroup METAGROUP = new AdvancedRailgunCharge.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -285,7 +285,7 @@ public class AdvancedRailgunCharge
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

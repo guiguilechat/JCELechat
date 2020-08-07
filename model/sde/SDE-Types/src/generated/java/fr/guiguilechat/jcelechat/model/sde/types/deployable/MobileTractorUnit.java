@@ -132,7 +132,7 @@ public class MobileTractorUnit
     public static final MobileTractorUnit.MetaGroup METAGROUP = new MobileTractorUnit.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  524 :
             {
@@ -184,7 +184,7 @@ public class MobileTractorUnit
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

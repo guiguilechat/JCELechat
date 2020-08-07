@@ -56,7 +56,7 @@ public class MoonMaterials
     public static final MoonMaterials.MetaGroup METAGROUP = new MoonMaterials.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -76,7 +76,7 @@ public class MoonMaterials
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

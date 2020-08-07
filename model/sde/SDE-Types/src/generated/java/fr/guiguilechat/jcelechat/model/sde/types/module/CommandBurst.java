@@ -326,7 +326,7 @@ public class CommandBurst
     public static final CommandBurst.MetaGroup METAGROUP = new CommandBurst.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2535 :
             {
@@ -478,7 +478,7 @@ public class CommandBurst
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

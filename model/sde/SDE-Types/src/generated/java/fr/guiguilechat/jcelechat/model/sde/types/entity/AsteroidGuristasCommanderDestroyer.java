@@ -709,7 +709,7 @@ public class AsteroidGuristasCommanderDestroyer
     public static final AsteroidGuristasCommanderDestroyer.MetaGroup METAGROUP = new AsteroidGuristasCommanderDestroyer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1053,7 +1053,7 @@ public class AsteroidGuristasCommanderDestroyer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

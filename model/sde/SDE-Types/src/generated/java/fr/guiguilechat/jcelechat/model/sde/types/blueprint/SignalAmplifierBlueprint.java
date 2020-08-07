@@ -65,7 +65,7 @@ public class SignalAmplifierBlueprint
     public static final SignalAmplifierBlueprint.MetaGroup METAGROUP = new SignalAmplifierBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class SignalAmplifierBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

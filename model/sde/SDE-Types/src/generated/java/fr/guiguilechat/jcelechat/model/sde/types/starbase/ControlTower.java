@@ -332,7 +332,7 @@ public class ControlTower
     public static final ControlTower.MetaGroup METAGROUP = new ControlTower.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  266 :
             {
@@ -476,7 +476,7 @@ public class ControlTower
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -564,7 +564,7 @@ public class MissionDrone
     public static final MissionDrone.MetaGroup METAGROUP = new MissionDrone.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -836,7 +836,7 @@ public class MissionDrone
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

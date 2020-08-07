@@ -118,7 +118,7 @@ public class ReinforcedBulkhead
     public static final ReinforcedBulkhead.MetaGroup METAGROUP = new ReinforcedBulkhead.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  169 :
             {
@@ -162,7 +162,7 @@ public class ReinforcedBulkhead
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

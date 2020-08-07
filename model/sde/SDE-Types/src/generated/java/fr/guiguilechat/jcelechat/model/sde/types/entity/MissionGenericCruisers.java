@@ -949,7 +949,7 @@ public class MissionGenericCruisers
     public static final MissionGenericCruisers.MetaGroup METAGROUP = new MissionGenericCruisers.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1413,7 +1413,7 @@ public class MissionGenericCruisers
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

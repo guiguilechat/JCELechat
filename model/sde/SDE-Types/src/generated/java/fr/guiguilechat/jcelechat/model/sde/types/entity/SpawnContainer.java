@@ -314,7 +314,7 @@ public class SpawnContainer
     public static final SpawnContainer.MetaGroup METAGROUP = new SpawnContainer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  901 :
             {
@@ -462,7 +462,7 @@ public class SpawnContainer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

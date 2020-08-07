@@ -363,7 +363,7 @@ public class NPCMiningFrigate
     public static final NPCMiningFrigate.MetaGroup METAGROUP = new NPCMiningFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -535,7 +535,7 @@ public class NPCMiningFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

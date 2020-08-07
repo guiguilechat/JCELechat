@@ -60,7 +60,7 @@ public class Eyewear
     public static final Eyewear.MetaGroup METAGROUP = new Eyewear.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -80,7 +80,7 @@ public class Eyewear
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

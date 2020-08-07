@@ -885,7 +885,7 @@ public class DestructibleSentryGun
     public static final DestructibleSentryGun.MetaGroup METAGROUP = new DestructibleSentryGun.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1317,7 +1317,7 @@ public class DestructibleSentryGun
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

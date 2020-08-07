@@ -136,7 +136,7 @@ public class Production
     public static final Production.MetaGroup METAGROUP = new Production.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1961 :
             {
@@ -192,7 +192,7 @@ public class Production
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

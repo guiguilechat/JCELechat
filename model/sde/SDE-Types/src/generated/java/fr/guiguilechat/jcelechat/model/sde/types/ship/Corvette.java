@@ -444,7 +444,7 @@ public class Corvette
     public static final Corvette.MetaGroup METAGROUP = new Corvette.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1259 :
             {
@@ -620,7 +620,7 @@ public class Corvette
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

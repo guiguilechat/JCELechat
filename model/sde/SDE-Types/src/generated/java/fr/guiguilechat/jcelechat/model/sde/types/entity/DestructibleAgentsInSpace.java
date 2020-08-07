@@ -226,7 +226,7 @@ public class DestructibleAgentsInSpace
     public static final DestructibleAgentsInSpace.MetaGroup METAGROUP = new DestructibleAgentsInSpace.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  841 :
             {
@@ -330,7 +330,7 @@ public class DestructibleAgentsInSpace
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

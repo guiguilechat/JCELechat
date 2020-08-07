@@ -173,7 +173,7 @@ public class CoreSubsystem
     public static final CoreSubsystem.MetaGroup METAGROUP = new CoreSubsystem.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  482 :
             {
@@ -245,7 +245,7 @@ public class CoreSubsystem
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

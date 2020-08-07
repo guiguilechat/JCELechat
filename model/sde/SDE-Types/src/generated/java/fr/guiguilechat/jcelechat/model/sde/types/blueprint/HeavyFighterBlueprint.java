@@ -81,7 +81,7 @@ public class HeavyFighterBlueprint
     public static final HeavyFighterBlueprint.MetaGroup METAGROUP = new HeavyFighterBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -109,7 +109,7 @@ public class HeavyFighterBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

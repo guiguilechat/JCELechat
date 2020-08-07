@@ -131,7 +131,7 @@ public class ReprocessingArray
     public static final ReprocessingArray.MetaGroup METAGROUP = new ReprocessingArray.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1032 :
             {
@@ -179,7 +179,7 @@ public class ReprocessingArray
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -724,7 +724,7 @@ public class DeadspaceSleeperUpgradedAvenger
     public static final DeadspaceSleeperUpgradedAvenger.MetaGroup METAGROUP = new DeadspaceSleeperUpgradedAvenger.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1076,7 +1076,7 @@ public class DeadspaceSleeperUpgradedAvenger
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

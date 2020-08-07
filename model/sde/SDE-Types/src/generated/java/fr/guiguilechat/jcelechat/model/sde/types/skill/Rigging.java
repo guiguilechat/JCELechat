@@ -40,7 +40,7 @@ public class Rigging
     public static final Rigging.MetaGroup METAGROUP = new Rigging.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1139 :
             {
@@ -48,7 +48,7 @@ public class Rigging
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

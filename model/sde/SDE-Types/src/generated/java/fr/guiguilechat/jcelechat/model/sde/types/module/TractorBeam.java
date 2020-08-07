@@ -158,7 +158,7 @@ public class TractorBeam
     public static final TractorBeam.MetaGroup METAGROUP = new TractorBeam.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  63 :
             {
@@ -226,7 +226,7 @@ public class TractorBeam
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

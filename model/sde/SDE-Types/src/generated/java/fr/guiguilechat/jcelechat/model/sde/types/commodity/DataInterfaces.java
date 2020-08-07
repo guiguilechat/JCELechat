@@ -80,7 +80,7 @@ public class DataInterfaces
     public static final DataInterfaces.MetaGroup METAGROUP = new DataInterfaces.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -112,7 +112,7 @@ public class DataInterfaces
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -95,7 +95,7 @@ public class Mercoxit
     public static final Mercoxit.MetaGroup METAGROUP = new Mercoxit.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1941 :
             {
@@ -131,7 +131,7 @@ public class Mercoxit
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

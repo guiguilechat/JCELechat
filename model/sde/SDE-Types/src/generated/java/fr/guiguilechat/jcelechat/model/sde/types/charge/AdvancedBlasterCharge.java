@@ -197,7 +197,7 @@ public class AdvancedBlasterCharge
     public static final AdvancedBlasterCharge.MetaGroup METAGROUP = new AdvancedBlasterCharge.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  613 :
             {
@@ -285,7 +285,7 @@ public class AdvancedBlasterCharge
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

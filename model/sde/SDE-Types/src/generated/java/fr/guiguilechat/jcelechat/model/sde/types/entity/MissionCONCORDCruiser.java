@@ -725,7 +725,7 @@ public class MissionCONCORDCruiser
     public static final MissionCONCORDCruiser.MetaGroup METAGROUP = new MissionCONCORDCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1077,7 +1077,7 @@ public class MissionCONCORDCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

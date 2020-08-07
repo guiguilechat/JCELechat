@@ -545,7 +545,7 @@ public class Character
     public static final Character.MetaGroup METAGROUP = new Character.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  442 :
             {
@@ -809,7 +809,7 @@ public class Character
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

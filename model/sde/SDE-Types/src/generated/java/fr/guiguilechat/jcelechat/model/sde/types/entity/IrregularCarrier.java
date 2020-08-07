@@ -436,7 +436,7 @@ public class IrregularCarrier
     public static final IrregularCarrier.MetaGroup METAGROUP = new IrregularCarrier.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -644,7 +644,7 @@ public class IrregularCarrier
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

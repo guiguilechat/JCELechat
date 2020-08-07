@@ -110,7 +110,7 @@ public class MissileGuidanceEnhancer
     public static final MissileGuidanceEnhancer.MetaGroup METAGROUP = new MissileGuidanceEnhancer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -154,7 +154,7 @@ public class MissileGuidanceEnhancer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

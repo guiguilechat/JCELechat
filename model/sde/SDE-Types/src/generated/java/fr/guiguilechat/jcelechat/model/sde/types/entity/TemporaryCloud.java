@@ -104,7 +104,7 @@ public class TemporaryCloud
     public static final TemporaryCloud.MetaGroup METAGROUP = new TemporaryCloud.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -148,7 +148,7 @@ public class TemporaryCloud
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

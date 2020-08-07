@@ -396,7 +396,7 @@ public class IrregularFighter
     public static final IrregularFighter.MetaGroup METAGROUP = new IrregularFighter.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -584,7 +584,7 @@ public class IrregularFighter
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

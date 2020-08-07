@@ -161,7 +161,7 @@ public abstract class StructureModule
     public static final StructureModule.MetaCat METACAT = new StructureModule.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -181,7 +181,7 @@ public abstract class StructureModule
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

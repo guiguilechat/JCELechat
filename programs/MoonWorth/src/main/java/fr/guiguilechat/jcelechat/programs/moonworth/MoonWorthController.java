@@ -283,8 +283,8 @@ public class MoonWorthController {
 		Asteroid.METACAT.load().values().stream().filter(ast -> ast.marketGroup != 0).forEach(ast -> {
 			double volumicPrice = eval.value(ast.id, this) / ast.volume;
 			try {
-				Asteroid compressed = (Asteroid) TypeIndex.getType(ast.attribute(CompressionTypeID.INSTANCE).intValue());
-				double compressionRequired = ast.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
+				Asteroid compressed = (Asteroid) TypeIndex.getType(ast.valueSet(CompressionTypeID.INSTANCE).intValue());
+				double compressionRequired = ast.valueSet(CompressionQuantityNeeded.INSTANCE).doubleValue();
 				double volumicprice2 = eval.value(compressed.id, this) / ast.volume / compressionRequired;
 				if (volumicprice2 > volumicPrice) {
 					volumicPrice = volumicprice2;

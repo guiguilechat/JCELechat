@@ -581,7 +581,7 @@ public class MissionCaldariStateCarrier
     public static final MissionCaldariStateCarrier.MetaGroup METAGROUP = new MissionCaldariStateCarrier.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -861,7 +861,7 @@ public class MissionCaldariStateCarrier
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

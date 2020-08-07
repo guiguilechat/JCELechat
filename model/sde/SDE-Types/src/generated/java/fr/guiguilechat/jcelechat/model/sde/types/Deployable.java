@@ -119,7 +119,7 @@ public abstract class Deployable
     public static final Deployable.MetaCat METACAT = new Deployable.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
@@ -167,7 +167,7 @@ public abstract class Deployable
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

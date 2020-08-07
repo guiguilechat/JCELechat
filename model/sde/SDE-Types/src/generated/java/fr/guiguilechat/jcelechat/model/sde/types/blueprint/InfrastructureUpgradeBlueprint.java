@@ -55,7 +55,7 @@ public class InfrastructureUpgradeBlueprint
     public static final InfrastructureUpgradeBlueprint.MetaGroup METAGROUP = new InfrastructureUpgradeBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class InfrastructureUpgradeBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

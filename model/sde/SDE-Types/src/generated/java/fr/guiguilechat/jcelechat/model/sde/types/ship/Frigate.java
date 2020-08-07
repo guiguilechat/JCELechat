@@ -715,7 +715,7 @@ public class Frigate
     public static final Frigate.MetaGroup METAGROUP = new Frigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2464 :
             {
@@ -1031,7 +1031,7 @@ public class Frigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

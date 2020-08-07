@@ -81,7 +81,7 @@ public class EnergyWeaponBlueprint
     public static final EnergyWeaponBlueprint.MetaGroup METAGROUP = new EnergyWeaponBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -109,7 +109,7 @@ public class EnergyWeaponBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

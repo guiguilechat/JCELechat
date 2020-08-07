@@ -765,7 +765,7 @@ public class DeadspaceAngelCartelBattleCruiser
     public static final DeadspaceAngelCartelBattleCruiser.MetaGroup METAGROUP = new DeadspaceAngelCartelBattleCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1137,7 +1137,7 @@ public class DeadspaceAngelCartelBattleCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

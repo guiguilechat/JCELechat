@@ -326,7 +326,7 @@ public class ProjectileWeapon
     public static final ProjectileWeapon.MetaGroup METAGROUP = new ProjectileWeapon.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  63 :
             {
@@ -474,7 +474,7 @@ public class ProjectileWeapon
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

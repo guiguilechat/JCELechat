@@ -55,7 +55,7 @@ public class StarbaseECMJammingArrayBlueprints
     public static final StarbaseECMJammingArrayBlueprints.MetaGroup METAGROUP = new StarbaseECMJammingArrayBlueprints.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class StarbaseECMJammingArrayBlueprints
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

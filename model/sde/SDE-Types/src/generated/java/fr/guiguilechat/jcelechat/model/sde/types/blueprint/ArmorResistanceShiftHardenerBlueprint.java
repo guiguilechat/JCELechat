@@ -55,7 +55,7 @@ public class ArmorResistanceShiftHardenerBlueprint
     public static final ArmorResistanceShiftHardenerBlueprint.MetaGroup METAGROUP = new ArmorResistanceShiftHardenerBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class ArmorResistanceShiftHardenerBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

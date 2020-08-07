@@ -133,7 +133,7 @@ public class StructureCompositeReactorRigMTE
     public static final StructureCompositeReactorRigMTE.MetaGroup METAGROUP = new StructureCompositeReactorRigMTE.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2713 :
             {
@@ -189,7 +189,7 @@ public class StructureCompositeReactorRigMTE
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

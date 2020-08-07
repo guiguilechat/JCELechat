@@ -79,7 +79,7 @@ public class BloodlineBonus
     public static final BloodlineBonus.MetaGroup METAGROUP = new BloodlineBonus.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  205 :
             {
@@ -111,7 +111,7 @@ public class BloodlineBonus
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

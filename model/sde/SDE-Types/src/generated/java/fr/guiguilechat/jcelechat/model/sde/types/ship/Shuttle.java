@@ -148,7 +148,7 @@ public class Shuttle
     public static final Shuttle.MetaGroup METAGROUP = new Shuttle.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1971 :
             {
@@ -176,7 +176,7 @@ public class Shuttle
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

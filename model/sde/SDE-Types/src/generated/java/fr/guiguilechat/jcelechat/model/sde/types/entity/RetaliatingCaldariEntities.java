@@ -883,7 +883,7 @@ public class RetaliatingCaldariEntities
     public static final RetaliatingCaldariEntities.MetaGroup METAGROUP = new RetaliatingCaldariEntities.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2723 :
             {
@@ -1315,7 +1315,7 @@ public class RetaliatingCaldariEntities
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

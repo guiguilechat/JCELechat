@@ -284,7 +284,7 @@ public class AttackBattlecruiser
     public static final AttackBattlecruiser.MetaGroup METAGROUP = new AttackBattlecruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1787 :
             {
@@ -384,7 +384,7 @@ public class AttackBattlecruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

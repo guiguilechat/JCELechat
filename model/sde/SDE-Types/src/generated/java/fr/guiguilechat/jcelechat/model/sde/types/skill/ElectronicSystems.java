@@ -153,7 +153,7 @@ public class ElectronicSystems
     public static final ElectronicSystems.MetaGroup METAGROUP = new ElectronicSystems.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1047 :
             {
@@ -217,7 +217,7 @@ public class ElectronicSystems
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

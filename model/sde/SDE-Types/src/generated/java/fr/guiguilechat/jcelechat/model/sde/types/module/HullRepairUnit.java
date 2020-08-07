@@ -182,7 +182,7 @@ public class HullRepairUnit
     public static final HullRepairUnit.MetaGroup METAGROUP = new HullRepairUnit.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -258,7 +258,7 @@ public class HullRepairUnit
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

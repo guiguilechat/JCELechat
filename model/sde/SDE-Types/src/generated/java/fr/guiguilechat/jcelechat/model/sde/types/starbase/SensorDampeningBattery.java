@@ -291,7 +291,7 @@ public class SensorDampeningBattery
     public static final SensorDampeningBattery.MetaGroup METAGROUP = new SensorDampeningBattery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1165 :
             {
@@ -415,7 +415,7 @@ public class SensorDampeningBattery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

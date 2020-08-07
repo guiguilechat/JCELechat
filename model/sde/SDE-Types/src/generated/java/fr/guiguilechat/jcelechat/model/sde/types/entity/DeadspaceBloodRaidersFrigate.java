@@ -781,7 +781,7 @@ public class DeadspaceBloodRaidersFrigate
     public static final DeadspaceBloodRaidersFrigate.MetaGroup METAGROUP = new DeadspaceBloodRaidersFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1161,7 +1161,7 @@ public class DeadspaceBloodRaidersFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

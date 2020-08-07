@@ -118,7 +118,7 @@ public class DroneDamageModules
     public static final DroneDamageModules.MetaGroup METAGROUP = new DroneDamageModules.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -162,7 +162,7 @@ public class DroneDamageModules
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

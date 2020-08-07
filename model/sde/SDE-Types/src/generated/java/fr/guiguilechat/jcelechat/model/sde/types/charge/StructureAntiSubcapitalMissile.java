@@ -163,7 +163,7 @@ public class StructureAntiSubcapitalMissile
     public static final StructureAntiSubcapitalMissile.MetaGroup METAGROUP = new StructureAntiSubcapitalMissile.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -235,7 +235,7 @@ public class StructureAntiSubcapitalMissile
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

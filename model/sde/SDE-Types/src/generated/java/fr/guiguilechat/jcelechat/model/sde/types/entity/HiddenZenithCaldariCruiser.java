@@ -789,7 +789,7 @@ public class HiddenZenithCaldariCruiser
     public static final HiddenZenithCaldariCruiser.MetaGroup METAGROUP = new HiddenZenithCaldariCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1173,7 +1173,7 @@ public class HiddenZenithCaldariCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

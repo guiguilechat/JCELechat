@@ -65,7 +65,7 @@ public class StasisWebBlueprint
     public static final StasisWebBlueprint.MetaGroup METAGROUP = new StasisWebBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class StasisWebBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

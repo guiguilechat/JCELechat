@@ -110,7 +110,7 @@ public class FestivalLauncher
     public static final FestivalLauncher.MetaGroup METAGROUP = new FestivalLauncher.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  604 :
             {
@@ -154,7 +154,7 @@ public class FestivalLauncher
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

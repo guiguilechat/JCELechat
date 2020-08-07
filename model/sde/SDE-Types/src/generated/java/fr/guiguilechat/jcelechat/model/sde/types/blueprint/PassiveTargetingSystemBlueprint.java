@@ -65,7 +65,7 @@ public class PassiveTargetingSystemBlueprint
     public static final PassiveTargetingSystemBlueprint.MetaGroup METAGROUP = new PassiveTargetingSystemBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class PassiveTargetingSystemBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

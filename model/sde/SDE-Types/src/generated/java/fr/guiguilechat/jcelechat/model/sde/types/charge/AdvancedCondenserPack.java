@@ -173,7 +173,7 @@ public class AdvancedCondenserPack
     public static final AdvancedCondenserPack.MetaGroup METAGROUP = new AdvancedCondenserPack.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  847 :
             {
@@ -249,7 +249,7 @@ public class AdvancedCondenserPack
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

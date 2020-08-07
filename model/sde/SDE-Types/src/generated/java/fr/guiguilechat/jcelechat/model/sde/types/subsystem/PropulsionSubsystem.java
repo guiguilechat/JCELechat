@@ -133,7 +133,7 @@ public class PropulsionSubsystem
     public static final PropulsionSubsystem.MetaGroup METAGROUP = new PropulsionSubsystem.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2690 :
             {
@@ -185,7 +185,7 @@ public class PropulsionSubsystem
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -116,7 +116,7 @@ public class SalvageDrone
     public static final SalvageDrone.MetaGroup METAGROUP = new SalvageDrone.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  902 :
             {
@@ -148,7 +148,7 @@ public class SalvageDrone
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

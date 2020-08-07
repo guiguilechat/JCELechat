@@ -56,7 +56,7 @@ public class IntermediateMaterials
     public static final IntermediateMaterials.MetaGroup METAGROUP = new IntermediateMaterials.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -76,7 +76,7 @@ public class IntermediateMaterials
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

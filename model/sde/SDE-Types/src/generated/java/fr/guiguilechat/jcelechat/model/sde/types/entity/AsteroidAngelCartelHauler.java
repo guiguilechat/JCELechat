@@ -589,7 +589,7 @@ public class AsteroidAngelCartelHauler
     public static final AsteroidAngelCartelHauler.MetaGroup METAGROUP = new AsteroidAngelCartelHauler.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -873,7 +873,7 @@ public class AsteroidAngelCartelHauler
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

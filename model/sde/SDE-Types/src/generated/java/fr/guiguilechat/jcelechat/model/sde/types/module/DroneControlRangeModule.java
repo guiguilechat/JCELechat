@@ -102,7 +102,7 @@ public class DroneControlRangeModule
     public static final DroneControlRangeModule.MetaGroup METAGROUP = new DroneControlRangeModule.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -138,7 +138,7 @@ public class DroneControlRangeModule
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

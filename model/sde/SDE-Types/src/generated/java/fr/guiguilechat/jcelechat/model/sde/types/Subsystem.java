@@ -131,7 +131,7 @@ public abstract class Subsystem
     public static final Subsystem.MetaCat METACAT = new Subsystem.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -187,7 +187,7 @@ public abstract class Subsystem
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

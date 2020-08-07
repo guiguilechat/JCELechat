@@ -245,7 +245,7 @@ public class BombECM
     public static final BombECM.MetaGroup METAGROUP = new BombECM.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -357,7 +357,7 @@ public class BombECM
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

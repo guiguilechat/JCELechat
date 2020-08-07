@@ -149,7 +149,7 @@ public class StructureCombatRigMEWCapReduction
     public static final StructureCombatRigMEWCapReduction.MetaGroup METAGROUP = new StructureCombatRigMEWCapReduction.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -213,7 +213,7 @@ public class StructureCombatRigMEWCapReduction
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

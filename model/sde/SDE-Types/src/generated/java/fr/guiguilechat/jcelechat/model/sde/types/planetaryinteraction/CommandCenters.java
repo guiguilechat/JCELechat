@@ -83,7 +83,7 @@ public class CommandCenters
     public static final CommandCenters.MetaGroup METAGROUP = new CommandCenters.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  48 :
             {
@@ -115,7 +115,7 @@ public class CommandCenters
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

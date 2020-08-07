@@ -108,7 +108,7 @@ public abstract class Charge
     public static final Charge.MetaCat METACAT = new Charge.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -124,7 +124,7 @@ public abstract class Charge
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

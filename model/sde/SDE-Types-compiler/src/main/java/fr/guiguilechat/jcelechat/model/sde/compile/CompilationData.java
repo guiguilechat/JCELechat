@@ -35,6 +35,7 @@ public class CompilationData {
 	public JMethod groupGetCat;
 	public JMethod catGetGroups;
 	public JMethod groupGetTypes;
-	;
+
+	public JMethod valueSetMeth;
 
 }

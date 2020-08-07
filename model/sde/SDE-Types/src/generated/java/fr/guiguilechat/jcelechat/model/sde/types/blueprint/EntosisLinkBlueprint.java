@@ -57,7 +57,7 @@ public class EntosisLinkBlueprint
     public static final EntosisLinkBlueprint.MetaGroup METAGROUP = new EntosisLinkBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -77,7 +77,7 @@ public class EntosisLinkBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

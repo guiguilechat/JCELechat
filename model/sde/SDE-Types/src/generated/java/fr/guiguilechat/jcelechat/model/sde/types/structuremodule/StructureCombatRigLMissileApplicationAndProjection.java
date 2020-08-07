@@ -157,7 +157,7 @@ public class StructureCombatRigLMissileApplicationAndProjection
     public static final StructureCombatRigLMissileApplicationAndProjection.MetaGroup METAGROUP = new StructureCombatRigLMissileApplicationAndProjection.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -225,7 +225,7 @@ public class StructureCombatRigLMissileApplicationAndProjection
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

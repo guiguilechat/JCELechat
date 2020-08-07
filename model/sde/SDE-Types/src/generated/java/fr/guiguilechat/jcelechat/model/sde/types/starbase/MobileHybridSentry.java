@@ -339,7 +339,7 @@ public class MobileHybridSentry
     public static final MobileHybridSentry.MetaGroup METAGROUP = new MobileHybridSentry.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  771 :
             {
@@ -487,7 +487,7 @@ public class MobileHybridSentry
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

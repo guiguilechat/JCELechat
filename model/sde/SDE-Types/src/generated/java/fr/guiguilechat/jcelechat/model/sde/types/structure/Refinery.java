@@ -228,7 +228,7 @@ public class Refinery
     public static final Refinery.MetaGroup METAGROUP = new Refinery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2698 :
             {
@@ -304,7 +304,7 @@ public class Refinery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

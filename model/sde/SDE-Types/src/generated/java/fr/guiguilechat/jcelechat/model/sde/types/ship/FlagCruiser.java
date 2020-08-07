@@ -364,7 +364,7 @@ public class FlagCruiser
     public static final FlagCruiser.MetaGroup METAGROUP = new FlagCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2253 :
             {
@@ -504,7 +504,7 @@ public class FlagCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

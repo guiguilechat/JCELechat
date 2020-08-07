@@ -153,7 +153,7 @@ public class Gunnery
     public static final Gunnery.MetaGroup METAGROUP = new Gunnery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -217,7 +217,7 @@ public class Gunnery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

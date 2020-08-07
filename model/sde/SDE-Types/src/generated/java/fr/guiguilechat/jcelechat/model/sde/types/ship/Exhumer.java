@@ -316,7 +316,7 @@ public class Exhumer
     public static final Exhumer.MetaGroup METAGROUP = new Exhumer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2464 :
             {
@@ -432,7 +432,7 @@ public class Exhumer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

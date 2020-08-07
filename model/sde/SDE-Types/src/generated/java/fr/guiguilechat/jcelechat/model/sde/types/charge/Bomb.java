@@ -253,7 +253,7 @@ public class Bomb
     public static final Bomb.MetaGroup METAGROUP = new Bomb.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -369,7 +369,7 @@ public class Bomb
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

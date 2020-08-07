@@ -102,7 +102,7 @@ public class ExpandedCargohold
     public static final ExpandedCargohold.MetaGroup METAGROUP = new ExpandedCargohold.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  149 :
             {
@@ -138,7 +138,7 @@ public class ExpandedCargohold
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -134,7 +134,7 @@ public class StructureMultiroleMissileLauncher
     public static final StructureMultiroleMissileLauncher.MetaGroup METAGROUP = new StructureMultiroleMissileLauncher.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -190,7 +190,7 @@ public class StructureMultiroleMissileLauncher
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

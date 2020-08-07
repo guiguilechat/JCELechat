@@ -310,7 +310,7 @@ public class CynosuralFieldGenerator
     public static final CynosuralFieldGenerator.MetaGroup METAGROUP = new CynosuralFieldGenerator.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1163 :
             {
@@ -454,7 +454,7 @@ public class CynosuralFieldGenerator
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

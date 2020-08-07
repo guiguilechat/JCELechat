@@ -94,7 +94,7 @@ public class InertialStabilizer
     public static final InertialStabilizer.MetaGroup METAGROUP = new InertialStabilizer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  169 :
             {
@@ -126,7 +126,7 @@ public class InertialStabilizer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

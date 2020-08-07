@@ -173,7 +173,7 @@ public class StructureEngineeringRigXLLaboratoryOptimization
     public static final StructureEngineeringRigXLLaboratoryOptimization.MetaGroup METAGROUP = new StructureEngineeringRigXLLaboratoryOptimization.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -249,7 +249,7 @@ public class StructureEngineeringRigXLLaboratoryOptimization
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

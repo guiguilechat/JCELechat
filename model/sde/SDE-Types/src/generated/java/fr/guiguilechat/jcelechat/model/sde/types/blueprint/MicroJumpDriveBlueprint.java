@@ -55,7 +55,7 @@ public class MicroJumpDriveBlueprint
     public static final MicroJumpDriveBlueprint.MetaGroup METAGROUP = new MicroJumpDriveBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class MicroJumpDriveBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

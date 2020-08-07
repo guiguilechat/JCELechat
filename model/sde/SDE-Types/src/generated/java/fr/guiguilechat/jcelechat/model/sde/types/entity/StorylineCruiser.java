@@ -837,7 +837,7 @@ public class StorylineCruiser
     public static final StorylineCruiser.MetaGroup METAGROUP = new StorylineCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1245,7 +1245,7 @@ public class StorylineCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

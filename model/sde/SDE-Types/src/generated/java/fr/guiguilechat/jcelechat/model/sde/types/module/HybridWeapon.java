@@ -350,7 +350,7 @@ public class HybridWeapon
     public static final HybridWeapon.MetaGroup METAGROUP = new HybridWeapon.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  63 :
             {
@@ -510,7 +510,7 @@ public class HybridWeapon
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

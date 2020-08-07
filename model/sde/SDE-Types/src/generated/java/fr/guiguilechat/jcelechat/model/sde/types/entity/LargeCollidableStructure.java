@@ -772,7 +772,7 @@ public class LargeCollidableStructure
     public static final LargeCollidableStructure.MetaGroup METAGROUP = new LargeCollidableStructure.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  930 :
             {
@@ -1148,7 +1148,7 @@ public class LargeCollidableStructure
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

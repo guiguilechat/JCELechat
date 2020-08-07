@@ -246,7 +246,7 @@ public class RemoteSensorBooster
     public static final RemoteSensorBooster.MetaGroup METAGROUP = new RemoteSensorBooster.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -354,7 +354,7 @@ public class RemoteSensorBooster
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

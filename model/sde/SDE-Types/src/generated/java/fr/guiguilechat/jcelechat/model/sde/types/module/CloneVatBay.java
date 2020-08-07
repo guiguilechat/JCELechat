@@ -182,7 +182,7 @@ public class CloneVatBay
     public static final CloneVatBay.MetaGroup METAGROUP = new CloneVatBay.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  981 :
             {
@@ -262,7 +262,7 @@ public class CloneVatBay
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

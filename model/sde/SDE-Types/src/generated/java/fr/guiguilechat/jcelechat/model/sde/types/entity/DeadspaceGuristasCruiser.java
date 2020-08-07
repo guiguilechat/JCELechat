@@ -901,7 +901,7 @@ public class DeadspaceGuristasCruiser
     public static final DeadspaceGuristasCruiser.MetaGroup METAGROUP = new DeadspaceGuristasCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1341,7 +1341,7 @@ public class DeadspaceGuristasCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

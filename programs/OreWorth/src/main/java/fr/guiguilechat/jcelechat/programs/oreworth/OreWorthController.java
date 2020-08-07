@@ -80,9 +80,9 @@ public class OreWorthController {
 	protected double mineVolume(Asteroid ore) {
 		if (ore.name.startsWith("Compressed ")) {
 			if (ore.getAttributes().contains(OreBasicType.INSTANCE)) {
-				int basicId = ore.attribute(OreBasicType.INSTANCE).intValue();
+				int basicId = ore.valueSet(OreBasicType.INSTANCE).intValue();
 				Asteroid basic = (Asteroid) TypeIndex.getType(basicId);
-				return basic.volume * basic.attribute(CompressionQuantityNeeded.INSTANCE).doubleValue();
+				return basic.volume * basic.valueSet(CompressionQuantityNeeded.INSTANCE).doubleValue();
 			}
 		}
 		return ore.volume;

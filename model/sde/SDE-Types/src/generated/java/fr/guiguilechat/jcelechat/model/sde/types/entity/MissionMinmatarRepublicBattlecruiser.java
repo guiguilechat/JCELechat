@@ -821,7 +821,7 @@ public class MissionMinmatarRepublicBattlecruiser
     public static final MissionMinmatarRepublicBattlecruiser.MetaGroup METAGROUP = new MissionMinmatarRepublicBattlecruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1221,7 +1221,7 @@ public class MissionMinmatarRepublicBattlecruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

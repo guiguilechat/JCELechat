@@ -708,7 +708,7 @@ public class Titan
     public static final Titan.MetaGroup METAGROUP = new Titan.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  63 :
             {
@@ -1016,7 +1016,7 @@ public class Titan
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

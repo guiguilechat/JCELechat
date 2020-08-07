@@ -114,7 +114,7 @@ public class IndustrialUpgrades
     public static final IndustrialUpgrades.MetaGroup METAGROUP = new IndustrialUpgrades.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1584 :
             {
@@ -162,7 +162,7 @@ public class IndustrialUpgrades
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -108,7 +108,7 @@ public class UpwellCynoBeacon
     public static final UpwellCynoBeacon.MetaGroup METAGROUP = new UpwellCynoBeacon.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2792 :
             {
@@ -124,7 +124,7 @@ public class UpwellCynoBeacon
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

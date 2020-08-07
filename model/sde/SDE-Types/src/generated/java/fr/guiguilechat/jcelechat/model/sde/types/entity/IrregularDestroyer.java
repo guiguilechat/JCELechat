@@ -1335,7 +1335,7 @@ public class IrregularDestroyer
     public static final IrregularDestroyer.MetaGroup METAGROUP = new IrregularDestroyer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1991,7 +1991,7 @@ public class IrregularDestroyer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

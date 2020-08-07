@@ -85,7 +85,7 @@ public class CyberLearning
     public static final CyberLearning.MetaGroup METAGROUP = new CyberLearning.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  175 :
             {
@@ -117,7 +117,7 @@ public class CyberLearning
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -605,7 +605,7 @@ public class AsteroidSerpentisBattleCruiser
     public static final AsteroidSerpentisBattleCruiser.MetaGroup METAGROUP = new AsteroidSerpentisBattleCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -897,7 +897,7 @@ public class AsteroidSerpentisBattleCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

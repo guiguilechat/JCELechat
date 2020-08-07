@@ -126,7 +126,7 @@ public class RigProjectileWeapon
     public static final RigProjectileWeapon.MetaGroup METAGROUP = new RigProjectileWeapon.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  310 :
             {
@@ -178,7 +178,7 @@ public class RigProjectileWeapon
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

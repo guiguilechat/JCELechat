@@ -653,7 +653,7 @@ public class HiddenZenithAmarrFrigate
     public static final HiddenZenithAmarrFrigate.MetaGroup METAGROUP = new HiddenZenithAmarrFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -969,7 +969,7 @@ public class HiddenZenithAmarrFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

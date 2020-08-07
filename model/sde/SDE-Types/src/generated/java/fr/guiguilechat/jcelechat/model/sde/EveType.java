@@ -28,11 +28,18 @@ public abstract class EveType {
         return getCategory().getCategoryId();
     }
 
-    public Number attribute(Attribute attribute) {
+    /**
+     * get the value affected to this for given attribute, or null if not set
+     */
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
+            case  4 :
+            {
+                return mass;
+            }
             default:
             {
-                throw new UnsupportedOperationException(((("can't load attribute id "+ attribute.getId())+" on type id ")+(((id)+" ")+(name))));
+                return null;
             }
         }
     }

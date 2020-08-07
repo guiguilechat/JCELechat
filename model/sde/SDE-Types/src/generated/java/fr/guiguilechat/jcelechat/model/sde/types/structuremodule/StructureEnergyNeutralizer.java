@@ -182,7 +182,7 @@ public class StructureEnergyNeutralizer
     public static final StructureEnergyNeutralizer.MetaGroup METAGROUP = new StructureEnergyNeutralizer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -258,7 +258,7 @@ public class StructureEnergyNeutralizer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -741,7 +741,7 @@ public class AsteroidRogueDroneCommanderBattleship
     public static final AsteroidRogueDroneCommanderBattleship.MetaGroup METAGROUP = new AsteroidRogueDroneCommanderBattleship.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1101,7 +1101,7 @@ public class AsteroidRogueDroneCommanderBattleship
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

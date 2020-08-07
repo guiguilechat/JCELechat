@@ -182,7 +182,7 @@ public class SmartBomb
     public static final SmartBomb.MetaGroup METAGROUP = new SmartBomb.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -258,7 +258,7 @@ public class SmartBomb
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

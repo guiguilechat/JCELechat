@@ -238,7 +238,7 @@ public class WeaponDisruptor
     public static final WeaponDisruptor.MetaGroup METAGROUP = new WeaponDisruptor.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -342,7 +342,7 @@ public class WeaponDisruptor
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

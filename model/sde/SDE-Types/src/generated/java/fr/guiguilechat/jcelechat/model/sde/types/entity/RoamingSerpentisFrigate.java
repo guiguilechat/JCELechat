@@ -693,7 +693,7 @@ public class RoamingSerpentisFrigate
     public static final RoamingSerpentisFrigate.MetaGroup METAGROUP = new RoamingSerpentisFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1029,7 +1029,7 @@ public class RoamingSerpentisFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

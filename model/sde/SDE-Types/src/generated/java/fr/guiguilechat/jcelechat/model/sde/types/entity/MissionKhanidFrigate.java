@@ -773,7 +773,7 @@ public class MissionKhanidFrigate
     public static final MissionKhanidFrigate.MetaGroup METAGROUP = new MissionKhanidFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1149,7 +1149,7 @@ public class MissionKhanidFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

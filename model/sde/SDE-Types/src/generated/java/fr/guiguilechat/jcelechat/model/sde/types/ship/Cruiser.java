@@ -518,7 +518,7 @@ public class Cruiser
     public static final Cruiser.MetaGroup METAGROUP = new Cruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1034 :
             {
@@ -734,7 +734,7 @@ public class Cruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

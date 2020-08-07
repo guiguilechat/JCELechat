@@ -182,7 +182,7 @@ public class ArmorResistanceShiftHardener
     public static final ArmorResistanceShiftHardener.MetaGroup METAGROUP = new ArmorResistanceShiftHardener.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -262,7 +262,7 @@ public class ArmorResistanceShiftHardener
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

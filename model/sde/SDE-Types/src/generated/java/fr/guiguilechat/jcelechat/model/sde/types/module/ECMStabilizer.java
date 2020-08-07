@@ -94,7 +94,7 @@ public class ECMStabilizer
     public static final ECMStabilizer.MetaGroup METAGROUP = new ECMStabilizer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -130,7 +130,7 @@ public class ECMStabilizer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

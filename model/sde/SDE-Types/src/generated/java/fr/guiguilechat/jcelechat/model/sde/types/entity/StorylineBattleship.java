@@ -805,7 +805,7 @@ public class StorylineBattleship
     public static final StorylineBattleship.MetaGroup METAGROUP = new StorylineBattleship.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1197,7 +1197,7 @@ public class StorylineBattleship
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

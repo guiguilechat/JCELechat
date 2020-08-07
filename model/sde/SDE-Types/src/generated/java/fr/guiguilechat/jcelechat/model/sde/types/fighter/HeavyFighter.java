@@ -401,7 +401,7 @@ public class HeavyFighter
     public static final HeavyFighter.MetaGroup METAGROUP = new HeavyFighter.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2158 :
             {
@@ -569,7 +569,7 @@ public class HeavyFighter
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

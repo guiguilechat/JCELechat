@@ -73,7 +73,7 @@ public class MiningBargeBlueprint
     public static final MiningBargeBlueprint.MetaGroup METAGROUP = new MiningBargeBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -101,7 +101,7 @@ public class MiningBargeBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

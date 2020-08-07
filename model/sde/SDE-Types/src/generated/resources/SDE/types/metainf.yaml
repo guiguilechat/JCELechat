@@ -48901,6 +48901,7 @@ name2group:
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
   Event 4 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 5 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities

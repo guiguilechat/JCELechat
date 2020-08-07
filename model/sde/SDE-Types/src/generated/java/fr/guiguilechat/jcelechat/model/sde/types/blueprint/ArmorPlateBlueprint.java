@@ -65,7 +65,7 @@ public class ArmorPlateBlueprint
     public static final ArmorPlateBlueprint.MetaGroup METAGROUP = new ArmorPlateBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class ArmorPlateBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

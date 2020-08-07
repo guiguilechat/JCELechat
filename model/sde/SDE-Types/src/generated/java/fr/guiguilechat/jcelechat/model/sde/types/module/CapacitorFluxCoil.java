@@ -134,7 +134,7 @@ public class CapacitorFluxCoil
     public static final CapacitorFluxCoil.MetaGroup METAGROUP = new CapacitorFluxCoil.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  147 :
             {
@@ -186,7 +186,7 @@ public class CapacitorFluxCoil
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -112,7 +112,7 @@ public class CapturePoint
     public static final CapturePoint.MetaGroup METAGROUP = new CapturePoint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -160,7 +160,7 @@ public class CapturePoint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

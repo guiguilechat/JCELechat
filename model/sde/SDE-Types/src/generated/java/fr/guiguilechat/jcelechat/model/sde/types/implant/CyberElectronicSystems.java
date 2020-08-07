@@ -69,7 +69,7 @@ public class CyberElectronicSystems
     public static final CyberElectronicSystems.MetaGroup METAGROUP = new CyberElectronicSystems.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  317 :
             {
@@ -93,7 +93,7 @@ public class CyberElectronicSystems
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

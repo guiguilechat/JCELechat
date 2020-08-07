@@ -104,7 +104,7 @@ public class StationImprovementPlatform
     public static final StationImprovementPlatform.MetaGroup METAGROUP = new StationImprovementPlatform.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  556 :
             {
@@ -148,7 +148,7 @@ public class StationImprovementPlatform
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

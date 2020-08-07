@@ -116,7 +116,7 @@ public class StasisNullifiers
     public static final StasisNullifiers.MetaGroup METAGROUP = new StasisNullifiers.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -164,7 +164,7 @@ public class StasisNullifiers
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

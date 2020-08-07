@@ -206,7 +206,7 @@ public class WarpScrambler
     public static final WarpScrambler.MetaGroup METAGROUP = new WarpScrambler.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1350 :
             {
@@ -294,7 +294,7 @@ public class WarpScrambler
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -669,7 +669,7 @@ public class RoamingAngelCartelFrigate
     public static final RoamingAngelCartelFrigate.MetaGroup METAGROUP = new RoamingAngelCartelFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -993,7 +993,7 @@ public class RoamingAngelCartelFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -102,7 +102,7 @@ public class ShieldRecharger
     public static final ShieldRecharger.MetaGroup METAGROUP = new ShieldRecharger.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -138,7 +138,7 @@ public class ShieldRecharger
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

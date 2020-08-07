@@ -130,7 +130,7 @@ public class MiningForemanBurstCharges
     public static final MiningForemanBurstCharges.MetaGroup METAGROUP = new MiningForemanBurstCharges.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  137 :
             {
@@ -186,7 +186,7 @@ public class MiningForemanBurstCharges
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

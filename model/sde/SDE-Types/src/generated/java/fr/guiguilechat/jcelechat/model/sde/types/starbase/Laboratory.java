@@ -115,7 +115,7 @@ public class Laboratory
     public static final Laboratory.MetaGroup METAGROUP = new Laboratory.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -155,7 +155,7 @@ public class Laboratory
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

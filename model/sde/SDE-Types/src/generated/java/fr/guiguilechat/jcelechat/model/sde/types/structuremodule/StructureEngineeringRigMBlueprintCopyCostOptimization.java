@@ -165,7 +165,7 @@ public class StructureEngineeringRigMBlueprintCopyCostOptimization
     public static final StructureEngineeringRigMBlueprintCopyCostOptimization.MetaGroup METAGROUP = new StructureEngineeringRigMBlueprintCopyCostOptimization.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -237,7 +237,7 @@ public class StructureEngineeringRigMBlueprintCopyCostOptimization
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

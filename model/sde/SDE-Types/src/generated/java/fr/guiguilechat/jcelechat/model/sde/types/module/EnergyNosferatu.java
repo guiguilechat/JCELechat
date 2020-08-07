@@ -182,7 +182,7 @@ public class EnergyNosferatu
     public static final EnergyNosferatu.MetaGroup METAGROUP = new EnergyNosferatu.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -258,7 +258,7 @@ public class EnergyNosferatu
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

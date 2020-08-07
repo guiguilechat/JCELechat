@@ -258,7 +258,7 @@ public class PrecursorCache
     public static final PrecursorCache.MetaGroup METAGROUP = new PrecursorCache.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -378,7 +378,7 @@ public class PrecursorCache
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

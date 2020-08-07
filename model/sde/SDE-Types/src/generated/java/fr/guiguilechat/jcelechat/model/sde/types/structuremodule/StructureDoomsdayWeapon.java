@@ -216,7 +216,7 @@ public class StructureDoomsdayWeapon
     public static final StructureDoomsdayWeapon.MetaGroup METAGROUP = new StructureDoomsdayWeapon.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1302 :
             {
@@ -312,7 +312,7 @@ public class StructureDoomsdayWeapon
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -404,7 +404,7 @@ public class MissionFactionTransports
     public static final MissionFactionTransports.MetaGroup METAGROUP = new MissionFactionTransports.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -596,7 +596,7 @@ public class MissionFactionTransports
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

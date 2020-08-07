@@ -81,7 +81,7 @@ public class MissileLauncherBlueprint
     public static final MissileLauncherBlueprint.MetaGroup METAGROUP = new MissileLauncherBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -109,7 +109,7 @@ public class MissileLauncherBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

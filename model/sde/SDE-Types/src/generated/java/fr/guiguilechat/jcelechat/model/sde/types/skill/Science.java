@@ -144,7 +144,7 @@ public class Science
     public static final Science.MetaGroup METAGROUP = new Science.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  453 :
             {
@@ -204,7 +204,7 @@ public class Science
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

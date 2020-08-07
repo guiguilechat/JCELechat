@@ -88,7 +88,7 @@ public class StructureManagement
     public static final StructureManagement.MetaGroup METAGROUP = new StructureManagement.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1047 :
             {
@@ -120,7 +120,7 @@ public class StructureManagement
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

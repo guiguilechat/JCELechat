@@ -165,7 +165,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     public static final StructureCombatRigLEWProjectionAndCapReduction.MetaGroup METAGROUP = new StructureCombatRigLEWProjectionAndCapReduction.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -237,7 +237,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

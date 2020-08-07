@@ -142,7 +142,7 @@ public class RigArmor
     public static final RigArmor.MetaGroup METAGROUP = new RigArmor.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  335 :
             {
@@ -202,7 +202,7 @@ public class RigArmor
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

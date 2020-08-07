@@ -709,7 +709,7 @@ public class DeadspaceSanshaSNationDestroyer
     public static final DeadspaceSanshaSNationDestroyer.MetaGroup METAGROUP = new DeadspaceSanshaSNationDestroyer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1053,7 +1053,7 @@ public class DeadspaceSanshaSNationDestroyer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

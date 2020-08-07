@@ -389,7 +389,7 @@ public class Booster
     public static final Booster.MetaGroup METAGROUP = new Booster.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2806 :
             {
@@ -573,7 +573,7 @@ public class Booster
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

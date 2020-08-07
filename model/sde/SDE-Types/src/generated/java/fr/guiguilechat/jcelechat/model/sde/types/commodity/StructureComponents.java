@@ -56,7 +56,7 @@ public class StructureComponents
     public static final StructureComponents.MetaGroup METAGROUP = new StructureComponents.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -76,7 +76,7 @@ public class StructureComponents
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

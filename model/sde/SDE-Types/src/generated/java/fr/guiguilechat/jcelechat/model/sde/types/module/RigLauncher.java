@@ -126,7 +126,7 @@ public class RigLauncher
     public static final RigLauncher.MetaGroup METAGROUP = new RigLauncher.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -178,7 +178,7 @@ public class RigLauncher
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

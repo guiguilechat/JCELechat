@@ -360,7 +360,7 @@ public abstract class Fighter
     public static final Fighter.MetaCat METACAT = new Fighter.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -528,7 +528,7 @@ public abstract class Fighter
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

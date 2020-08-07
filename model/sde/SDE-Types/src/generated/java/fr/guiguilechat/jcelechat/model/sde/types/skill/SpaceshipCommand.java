@@ -145,7 +145,7 @@ public class SpaceshipCommand
     public static final SpaceshipCommand.MetaGroup METAGROUP = new SpaceshipCommand.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  151 :
             {
@@ -205,7 +205,7 @@ public class SpaceshipCommand
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

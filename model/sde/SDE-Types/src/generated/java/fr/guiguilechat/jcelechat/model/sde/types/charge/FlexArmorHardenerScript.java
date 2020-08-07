@@ -83,7 +83,7 @@ public class FlexArmorHardenerScript
     public static final FlexArmorHardenerScript.MetaGroup METAGROUP = new FlexArmorHardenerScript.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  128 :
             {
@@ -115,7 +115,7 @@ public class FlexArmorHardenerScript
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

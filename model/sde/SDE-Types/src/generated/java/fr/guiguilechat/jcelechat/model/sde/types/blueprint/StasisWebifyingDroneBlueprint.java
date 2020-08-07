@@ -55,7 +55,7 @@ public class StasisWebifyingDroneBlueprint
     public static final StasisWebifyingDroneBlueprint.MetaGroup METAGROUP = new StasisWebifyingDroneBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class StasisWebifyingDroneBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

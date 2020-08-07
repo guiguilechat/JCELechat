@@ -380,7 +380,7 @@ public class DeadspaceOverseerSStructure
     public static final DeadspaceOverseerSStructure.MetaGroup METAGROUP = new DeadspaceOverseerSStructure.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  840 :
             {
@@ -560,7 +560,7 @@ public class DeadspaceOverseerSStructure
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

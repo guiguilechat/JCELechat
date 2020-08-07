@@ -258,7 +258,7 @@ public class MissionContainer
     public static final MissionContainer.MetaGroup METAGROUP = new MissionContainer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  901 :
             {
@@ -378,7 +378,7 @@ public class MissionContainer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

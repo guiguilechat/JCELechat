@@ -87,7 +87,7 @@ public class DarkOchre
     public static final DarkOchre.MetaGroup METAGROUP = new DarkOchre.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2727 :
             {
@@ -119,7 +119,7 @@ public class DarkOchre
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

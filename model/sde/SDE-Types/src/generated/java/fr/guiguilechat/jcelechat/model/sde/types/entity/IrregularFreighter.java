@@ -354,7 +354,7 @@ public class IrregularFreighter
     public static final IrregularFreighter.MetaGroup METAGROUP = new IrregularFreighter.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -522,7 +522,7 @@ public class IrregularFreighter
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

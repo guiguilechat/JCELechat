@@ -337,7 +337,7 @@ public class Marauder
     public static final Marauder.MetaGroup METAGROUP = new Marauder.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1265 :
             {
@@ -465,7 +465,7 @@ public class Marauder
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -214,7 +214,7 @@ public class StructureDisruptionBattery
     public static final StructureDisruptionBattery.MetaGroup METAGROUP = new StructureDisruptionBattery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  848 :
             {
@@ -310,7 +310,7 @@ public class StructureDisruptionBattery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

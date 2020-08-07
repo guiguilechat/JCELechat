@@ -102,7 +102,7 @@ public class DroneNavigationComputer
     public static final DroneNavigationComputer.MetaGroup METAGROUP = new DroneNavigationComputer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -138,7 +138,7 @@ public class DroneNavigationComputer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

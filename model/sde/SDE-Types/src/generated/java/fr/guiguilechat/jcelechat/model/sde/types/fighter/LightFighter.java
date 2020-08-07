@@ -369,7 +369,7 @@ public class LightFighter
     public static final LightFighter.MetaGroup METAGROUP = new LightFighter.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2227 :
             {
@@ -525,7 +525,7 @@ public class LightFighter
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

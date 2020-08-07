@@ -190,7 +190,7 @@ public class MutadaptiveRemoteArmorRepairer
     public static final MutadaptiveRemoteArmorRepairer.MetaGroup METAGROUP = new MutadaptiveRemoteArmorRepairer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  84 :
             {
@@ -274,7 +274,7 @@ public class MutadaptiveRemoteArmorRepairer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

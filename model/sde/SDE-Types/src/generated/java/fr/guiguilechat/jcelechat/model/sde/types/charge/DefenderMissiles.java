@@ -164,7 +164,7 @@ public class DefenderMissiles
     public static final DefenderMissiles.MetaGroup METAGROUP = new DefenderMissiles.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -236,7 +236,7 @@ public class DefenderMissiles
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

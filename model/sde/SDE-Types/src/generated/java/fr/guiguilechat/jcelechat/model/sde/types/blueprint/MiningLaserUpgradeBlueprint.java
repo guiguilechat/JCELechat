@@ -65,7 +65,7 @@ public class MiningLaserUpgradeBlueprint
     public static final MiningLaserUpgradeBlueprint.MetaGroup METAGROUP = new MiningLaserUpgradeBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class MiningLaserUpgradeBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -73,7 +73,7 @@ public class DestroyerBlueprint
     public static final DestroyerBlueprint.MetaGroup METAGROUP = new DestroyerBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -101,7 +101,7 @@ public class DestroyerBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

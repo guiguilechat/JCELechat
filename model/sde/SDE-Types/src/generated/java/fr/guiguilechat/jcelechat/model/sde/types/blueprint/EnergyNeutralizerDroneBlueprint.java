@@ -55,7 +55,7 @@ public class EnergyNeutralizerDroneBlueprint
     public static final EnergyNeutralizerDroneBlueprint.MetaGroup METAGROUP = new EnergyNeutralizerDroneBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class EnergyNeutralizerDroneBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

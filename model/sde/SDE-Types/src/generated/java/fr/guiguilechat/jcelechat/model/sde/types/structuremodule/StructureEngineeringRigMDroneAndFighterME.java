@@ -181,7 +181,7 @@ public class StructureEngineeringRigMDroneAndFighterME
     public static final StructureEngineeringRigMDroneAndFighterME.MetaGroup METAGROUP = new StructureEngineeringRigMDroneAndFighterME.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -261,7 +261,7 @@ public class StructureEngineeringRigMDroneAndFighterME
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

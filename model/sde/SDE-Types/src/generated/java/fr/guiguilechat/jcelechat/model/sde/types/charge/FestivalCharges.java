@@ -148,7 +148,7 @@ public class FestivalCharges
     public static final FestivalCharges.MetaGroup METAGROUP = new FestivalCharges.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -212,7 +212,7 @@ public class FestivalCharges
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

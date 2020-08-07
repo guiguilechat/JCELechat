@@ -636,7 +636,7 @@ public class Carrier
     public static final Carrier.MetaGroup METAGROUP = new Carrier.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  853 :
             {
@@ -908,7 +908,7 @@ public class Carrier
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

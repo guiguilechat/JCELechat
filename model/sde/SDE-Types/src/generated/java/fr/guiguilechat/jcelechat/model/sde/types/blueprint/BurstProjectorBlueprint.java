@@ -55,7 +55,7 @@ public class BurstProjectorBlueprint
     public static final BurstProjectorBlueprint.MetaGroup METAGROUP = new BurstProjectorBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class BurstProjectorBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -55,7 +55,7 @@ public class StarbaseMissileBatteryBlueprints
     public static final StarbaseMissileBatteryBlueprints.MetaGroup METAGROUP = new StarbaseMissileBatteryBlueprints.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class StarbaseMissileBatteryBlueprints
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

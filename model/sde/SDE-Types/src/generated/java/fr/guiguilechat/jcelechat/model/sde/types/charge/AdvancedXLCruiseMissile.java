@@ -237,7 +237,7 @@ public class AdvancedXLCruiseMissile
     public static final AdvancedXLCruiseMissile.MetaGroup METAGROUP = new AdvancedXLCruiseMissile.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -345,7 +345,7 @@ public class AdvancedXLCruiseMissile
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

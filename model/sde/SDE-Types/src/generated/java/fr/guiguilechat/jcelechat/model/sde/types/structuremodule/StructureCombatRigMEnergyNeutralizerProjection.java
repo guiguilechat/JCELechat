@@ -157,7 +157,7 @@ public class StructureCombatRigMEnergyNeutralizerProjection
     public static final StructureCombatRigMEnergyNeutralizerProjection.MetaGroup METAGROUP = new StructureCombatRigMEnergyNeutralizerProjection.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -225,7 +225,7 @@ public class StructureCombatRigMEnergyNeutralizerProjection
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -158,7 +158,7 @@ public class RigNavigation
     public static final RigNavigation.MetaGroup METAGROUP = new RigNavigation.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  624 :
             {
@@ -226,7 +226,7 @@ public class RigNavigation
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

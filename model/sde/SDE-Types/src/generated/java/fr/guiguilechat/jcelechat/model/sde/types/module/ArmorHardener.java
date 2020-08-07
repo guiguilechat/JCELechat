@@ -174,7 +174,7 @@ public class ArmorHardener
     public static final ArmorHardener.MetaGroup METAGROUP = new ArmorHardener.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -246,7 +246,7 @@ public class ArmorHardener
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

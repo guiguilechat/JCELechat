@@ -165,7 +165,7 @@ public class StructureEngineeringRigLStructureEfficiency
     public static final StructureEngineeringRigLStructureEfficiency.MetaGroup METAGROUP = new StructureEngineeringRigLStructureEfficiency.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -237,7 +237,7 @@ public class StructureEngineeringRigLStructureEfficiency
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

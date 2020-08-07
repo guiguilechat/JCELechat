@@ -178,7 +178,7 @@ public class StructureGuidedBombLauncher
     public static final StructureGuidedBombLauncher.MetaGroup METAGROUP = new StructureGuidedBombLauncher.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -254,7 +254,7 @@ public class StructureGuidedBombLauncher
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -206,7 +206,7 @@ public class ECM
     public static final ECM.MetaGroup METAGROUP = new ECM.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  6 :
             {
@@ -294,7 +294,7 @@ public class ECM
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

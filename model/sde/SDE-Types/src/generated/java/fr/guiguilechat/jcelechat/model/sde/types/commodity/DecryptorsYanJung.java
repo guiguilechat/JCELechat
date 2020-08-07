@@ -79,7 +79,7 @@ public class DecryptorsYanJung
     public static final DecryptorsYanJung.MetaGroup METAGROUP = new DecryptorsYanJung.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -111,7 +111,7 @@ public class DecryptorsYanJung
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

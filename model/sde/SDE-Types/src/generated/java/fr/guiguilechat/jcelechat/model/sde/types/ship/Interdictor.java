@@ -332,7 +332,7 @@ public class Interdictor
     public static final Interdictor.MetaGroup METAGROUP = new Interdictor.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  727 :
             {
@@ -456,7 +456,7 @@ public class Interdictor
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

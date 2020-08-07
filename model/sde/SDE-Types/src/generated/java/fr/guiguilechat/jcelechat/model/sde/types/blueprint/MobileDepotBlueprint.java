@@ -55,7 +55,7 @@ public class MobileDepotBlueprint
     public static final MobileDepotBlueprint.MetaGroup METAGROUP = new MobileDepotBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class MobileDepotBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

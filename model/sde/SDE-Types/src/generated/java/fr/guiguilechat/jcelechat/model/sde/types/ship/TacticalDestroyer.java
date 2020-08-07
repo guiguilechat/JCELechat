@@ -324,7 +324,7 @@ public class TacticalDestroyer
     public static final TacticalDestroyer.MetaGroup METAGROUP = new TacticalDestroyer.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1555 :
             {
@@ -444,7 +444,7 @@ public class TacticalDestroyer
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

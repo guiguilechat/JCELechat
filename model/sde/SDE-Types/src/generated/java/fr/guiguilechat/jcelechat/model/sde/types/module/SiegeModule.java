@@ -662,7 +662,7 @@ public class SiegeModule
     public static final SiegeModule.MetaGroup METAGROUP = new SiegeModule.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2253 :
             {
@@ -982,7 +982,7 @@ public class SiegeModule
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

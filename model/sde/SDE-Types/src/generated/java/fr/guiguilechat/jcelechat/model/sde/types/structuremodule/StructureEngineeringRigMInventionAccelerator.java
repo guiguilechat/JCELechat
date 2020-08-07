@@ -165,7 +165,7 @@ public class StructureEngineeringRigMInventionAccelerator
     public static final StructureEngineeringRigMInventionAccelerator.MetaGroup METAGROUP = new StructureEngineeringRigMInventionAccelerator.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -237,7 +237,7 @@ public class StructureEngineeringRigMInventionAccelerator
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

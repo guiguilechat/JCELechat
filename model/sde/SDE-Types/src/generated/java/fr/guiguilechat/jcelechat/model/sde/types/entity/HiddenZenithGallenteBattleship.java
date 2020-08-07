@@ -573,7 +573,7 @@ public class HiddenZenithGallenteBattleship
     public static final HiddenZenithGallenteBattleship.MetaGroup METAGROUP = new HiddenZenithGallenteBattleship.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -849,7 +849,7 @@ public class HiddenZenithGallenteBattleship
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

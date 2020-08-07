@@ -677,7 +677,7 @@ public class RoamingAngelCartelCruiser
     public static final RoamingAngelCartelCruiser.MetaGroup METAGROUP = new RoamingAngelCartelCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1005,7 +1005,7 @@ public class RoamingAngelCartelCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -108,7 +108,7 @@ public class MobileScanInhibitor
     public static final MobileScanInhibitor.MetaGroup METAGROUP = new MobileScanInhibitor.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  524 :
             {
@@ -148,7 +148,7 @@ public class MobileScanInhibitor
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -65,7 +65,7 @@ public class SurveyScannerBlueprint
     public static final SurveyScannerBlueprint.MetaGroup METAGROUP = new SurveyScannerBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class SurveyScannerBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

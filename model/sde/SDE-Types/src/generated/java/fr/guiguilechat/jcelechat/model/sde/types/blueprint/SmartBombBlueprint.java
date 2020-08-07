@@ -65,7 +65,7 @@ public class SmartBombBlueprint
     public static final SmartBombBlueprint.MetaGroup METAGROUP = new SmartBombBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class SmartBombBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

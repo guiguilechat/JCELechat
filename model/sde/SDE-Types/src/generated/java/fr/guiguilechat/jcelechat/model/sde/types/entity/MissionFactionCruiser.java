@@ -813,7 +813,7 @@ public class MissionFactionCruiser
     public static final MissionFactionCruiser.MetaGroup METAGROUP = new MissionFactionCruiser.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1209,7 +1209,7 @@ public class MissionFactionCruiser
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

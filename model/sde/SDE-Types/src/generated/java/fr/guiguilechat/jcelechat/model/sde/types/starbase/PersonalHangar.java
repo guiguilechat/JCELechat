@@ -99,7 +99,7 @@ public class PersonalHangar
     public static final PersonalHangar.MetaGroup METAGROUP = new PersonalHangar.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -131,7 +131,7 @@ public class PersonalHangar
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -76,7 +76,7 @@ public class Bottoms
     public static final Bottoms.MetaGroup METAGROUP = new Bottoms.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -104,7 +104,7 @@ public class Bottoms
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

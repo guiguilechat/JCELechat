@@ -269,7 +269,7 @@ public class OutpostConversionRigs
     public static final OutpostConversionRigs.MetaGroup METAGROUP = new OutpostConversionRigs.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2775 :
             {
@@ -389,7 +389,7 @@ public class OutpostConversionRigs
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

@@ -1113,7 +1113,7 @@ public class MissionGenericFrigates
     public static final MissionGenericFrigates.MetaGroup METAGROUP = new MissionGenericFrigates.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1657,7 +1657,7 @@ public class MissionGenericFrigates
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

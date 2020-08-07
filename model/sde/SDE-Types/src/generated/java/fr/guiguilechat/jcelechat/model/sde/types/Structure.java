@@ -508,7 +508,7 @@ public abstract class Structure
     public static final Structure.MetaCat METACAT = new Structure.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2253 :
             {
@@ -752,7 +752,7 @@ public abstract class Structure
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

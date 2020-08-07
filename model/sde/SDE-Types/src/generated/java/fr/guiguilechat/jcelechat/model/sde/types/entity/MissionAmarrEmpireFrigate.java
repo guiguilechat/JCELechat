@@ -885,7 +885,7 @@ public class MissionAmarrEmpireFrigate
     public static final MissionAmarrEmpireFrigate.MetaGroup METAGROUP = new MissionAmarrEmpireFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1317,7 +1317,7 @@ public class MissionAmarrEmpireFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

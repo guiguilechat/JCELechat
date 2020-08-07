@@ -65,7 +65,7 @@ public class GunneryUpgradeBlueprint
     public static final GunneryUpgradeBlueprint.MetaGroup METAGROUP = new GunneryUpgradeBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class GunneryUpgradeBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

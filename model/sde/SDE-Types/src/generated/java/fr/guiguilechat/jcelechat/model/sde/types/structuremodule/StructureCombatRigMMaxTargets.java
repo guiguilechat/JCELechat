@@ -117,7 +117,7 @@ public class StructureCombatRigMMaxTargets
     public static final StructureCombatRigMMaxTargets.MetaGroup METAGROUP = new StructureCombatRigMMaxTargets.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -165,7 +165,7 @@ public class StructureCombatRigMMaxTargets
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

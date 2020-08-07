@@ -102,7 +102,7 @@ public class NanofiberInternalStructure
     public static final NanofiberInternalStructure.MetaGroup METAGROUP = new NanofiberInternalStructure.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  169 :
             {
@@ -138,7 +138,7 @@ public class NanofiberInternalStructure
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

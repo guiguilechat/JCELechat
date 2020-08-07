@@ -110,7 +110,7 @@ public class CapacitorBattery
     public static final CapacitorBattery.MetaGroup METAGROUP = new CapacitorBattery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  67 :
             {
@@ -150,7 +150,7 @@ public class CapacitorBattery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

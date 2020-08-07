@@ -63,7 +63,7 @@ public class SpecialEditionCommodities
     public static final SpecialEditionCommodities.MetaGroup METAGROUP = new SpecialEditionCommodities.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2422 :
             {
@@ -87,7 +87,7 @@ public class SpecialEditionCommodities
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

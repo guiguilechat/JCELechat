@@ -134,7 +134,7 @@ public class ShieldFluxCoil
     public static final ShieldFluxCoil.MetaGroup METAGROUP = new ShieldFluxCoil.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  147 :
             {
@@ -186,7 +186,7 @@ public class ShieldFluxCoil
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

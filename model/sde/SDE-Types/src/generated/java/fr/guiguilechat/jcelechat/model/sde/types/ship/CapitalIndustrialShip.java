@@ -532,7 +532,7 @@ public class CapitalIndustrialShip
     public static final CapitalIndustrialShip.MetaGroup METAGROUP = new CapitalIndustrialShip.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  853 :
             {
@@ -756,7 +756,7 @@ public class CapitalIndustrialShip
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

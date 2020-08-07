@@ -340,7 +340,7 @@ public class DeepSpaceTransport
     public static final DeepSpaceTransport.MetaGroup METAGROUP = new DeepSpaceTransport.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2464 :
             {
@@ -468,7 +468,7 @@ public class DeepSpaceTransport
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

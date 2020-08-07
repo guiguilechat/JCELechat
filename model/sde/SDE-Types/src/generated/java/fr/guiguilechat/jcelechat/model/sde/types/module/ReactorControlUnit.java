@@ -134,7 +134,7 @@ public class ReactorControlUnit
     public static final ReactorControlUnit.MetaGroup METAGROUP = new ReactorControlUnit.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  147 :
             {
@@ -186,7 +186,7 @@ public class ReactorControlUnit
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

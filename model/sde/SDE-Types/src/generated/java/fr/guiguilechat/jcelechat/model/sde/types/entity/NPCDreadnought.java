@@ -746,7 +746,7 @@ public class NPCDreadnought
     public static final NPCDreadnought.MetaGroup METAGROUP = new NPCDreadnought.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2723 :
             {
@@ -1110,7 +1110,7 @@ public class NPCDreadnought
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

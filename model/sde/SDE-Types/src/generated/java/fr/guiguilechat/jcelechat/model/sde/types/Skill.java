@@ -116,7 +116,7 @@ public abstract class Skill
     public static final Skill.MetaCat METACAT = new Skill.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -156,7 +156,7 @@ public abstract class Skill
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

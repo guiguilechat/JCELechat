@@ -55,7 +55,7 @@ public class FueledShieldBoosterBlueprint
     public static final FueledShieldBoosterBlueprint.MetaGroup METAGROUP = new FueledShieldBoosterBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -75,7 +75,7 @@ public class FueledShieldBoosterBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

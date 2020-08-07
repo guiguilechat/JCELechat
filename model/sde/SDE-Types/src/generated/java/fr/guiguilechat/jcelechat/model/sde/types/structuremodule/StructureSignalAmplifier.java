@@ -118,7 +118,7 @@ public class StructureSignalAmplifier
     public static final StructureSignalAmplifier.MetaGroup METAGROUP = new StructureSignalAmplifier.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -166,7 +166,7 @@ public class StructureSignalAmplifier
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

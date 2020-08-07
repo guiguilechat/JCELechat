@@ -65,7 +65,7 @@ public class DroneDamageModuleBlueprint
     public static final DroneDamageModuleBlueprint.MetaGroup METAGROUP = new DroneDamageModuleBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class DroneDamageModuleBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

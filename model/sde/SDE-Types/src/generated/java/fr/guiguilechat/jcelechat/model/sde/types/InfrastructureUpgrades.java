@@ -47,7 +47,7 @@ public abstract class InfrastructureUpgrades
     public static final InfrastructureUpgrades.MetaCat METACAT = new InfrastructureUpgrades.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -63,7 +63,7 @@ public abstract class InfrastructureUpgrades
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

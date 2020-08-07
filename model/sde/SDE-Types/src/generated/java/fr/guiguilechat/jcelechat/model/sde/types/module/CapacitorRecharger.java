@@ -102,7 +102,7 @@ public class CapacitorRecharger
     public static final CapacitorRecharger.MetaGroup METAGROUP = new CapacitorRecharger.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  144 :
             {
@@ -138,7 +138,7 @@ public class CapacitorRecharger
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

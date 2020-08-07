@@ -198,7 +198,7 @@ public class InterdictionSphereLauncher
     public static final InterdictionSphereLauncher.MetaGroup METAGROUP = new InterdictionSphereLauncher.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1298 :
             {
@@ -286,7 +286,7 @@ public class InterdictionSphereLauncher
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

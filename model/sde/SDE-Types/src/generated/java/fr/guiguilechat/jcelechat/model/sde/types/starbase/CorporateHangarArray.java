@@ -99,7 +99,7 @@ public class CorporateHangarArray
     public static final CorporateHangarArray.MetaGroup METAGROUP = new CorporateHangarArray.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  50 :
             {
@@ -131,7 +131,7 @@ public class CorporateHangarArray
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

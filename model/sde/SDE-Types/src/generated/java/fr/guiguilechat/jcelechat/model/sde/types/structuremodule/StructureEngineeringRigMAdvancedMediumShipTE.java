@@ -165,7 +165,7 @@ public class StructureEngineeringRigMAdvancedMediumShipTE
     public static final StructureEngineeringRigMAdvancedMediumShipTE.MetaGroup METAGROUP = new StructureEngineeringRigMAdvancedMediumShipTE.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  2595 :
             {
@@ -237,7 +237,7 @@ public class StructureEngineeringRigMAdvancedMediumShipTE
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

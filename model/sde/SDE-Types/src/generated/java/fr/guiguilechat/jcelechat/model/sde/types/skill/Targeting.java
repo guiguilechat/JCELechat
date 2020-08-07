@@ -65,7 +65,7 @@ public class Targeting
     public static final Targeting.MetaGroup METAGROUP = new Targeting.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  311 :
             {
@@ -85,7 +85,7 @@ public class Targeting
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

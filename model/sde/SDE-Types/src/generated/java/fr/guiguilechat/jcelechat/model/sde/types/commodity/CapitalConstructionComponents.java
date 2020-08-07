@@ -56,7 +56,7 @@ public class CapitalConstructionComponents
     public static final CapitalConstructionComponents.MetaGroup METAGROUP = new CapitalConstructionComponents.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -76,7 +76,7 @@ public class CapitalConstructionComponents
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

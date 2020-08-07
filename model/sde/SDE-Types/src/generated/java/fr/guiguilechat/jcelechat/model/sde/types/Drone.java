@@ -318,7 +318,7 @@ public abstract class Drone
     public static final Drone.MetaCat METACAT = new Drone.MetaCat();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  265 :
             {
@@ -466,7 +466,7 @@ public abstract class Drone
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

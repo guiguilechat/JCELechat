@@ -789,7 +789,7 @@ public class PirateDrone
     public static final PirateDrone.MetaGroup METAGROUP = new PirateDrone.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -1173,7 +1173,7 @@ public class PirateDrone
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

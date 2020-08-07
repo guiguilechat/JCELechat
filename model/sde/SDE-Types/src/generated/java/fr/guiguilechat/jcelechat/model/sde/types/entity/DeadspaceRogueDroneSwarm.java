@@ -653,7 +653,7 @@ public class DeadspaceRogueDroneSwarm
     public static final DeadspaceRogueDroneSwarm.MetaGroup METAGROUP = new DeadspaceRogueDroneSwarm.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1651 :
             {
@@ -969,7 +969,7 @@ public class DeadspaceRogueDroneSwarm
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

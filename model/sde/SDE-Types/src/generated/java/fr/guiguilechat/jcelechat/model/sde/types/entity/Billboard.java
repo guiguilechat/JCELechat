@@ -169,7 +169,7 @@ public class Billboard
     public static final Billboard.MetaGroup METAGROUP = new Billboard.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  267 :
             {
@@ -245,7 +245,7 @@ public class Billboard
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

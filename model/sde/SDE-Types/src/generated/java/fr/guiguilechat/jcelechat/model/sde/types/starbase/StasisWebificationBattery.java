@@ -283,7 +283,7 @@ public class StasisWebificationBattery
     public static final StasisWebificationBattery.MetaGroup METAGROUP = new StasisWebificationBattery.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  1165 :
             {
@@ -403,7 +403,7 @@ public class StasisWebificationBattery
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

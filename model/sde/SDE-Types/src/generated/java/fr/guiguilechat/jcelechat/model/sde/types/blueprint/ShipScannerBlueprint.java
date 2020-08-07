@@ -65,7 +65,7 @@ public class ShipScannerBlueprint
     public static final ShipScannerBlueprint.MetaGroup METAGROUP = new ShipScannerBlueprint.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  38 :
             {
@@ -89,7 +89,7 @@ public class ShipScannerBlueprint
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

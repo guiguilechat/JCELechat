@@ -412,7 +412,7 @@ public class NPCIndustrialCommand
     public static final NPCIndustrialCommand.MetaGroup METAGROUP = new NPCIndustrialCommand.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -608,7 +608,7 @@ public class NPCIndustrialCommand
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }

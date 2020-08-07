@@ -452,7 +452,7 @@ public class SDECompiler {
 
 		ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "id");
 		ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "marketGroup");
-		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "mass");
+		JFieldVar massField = ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "mass");
 		ret.eveTypeClass.field(JMod.PUBLIC, ret.model.ref(String.class), "name");
 		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "packagedVolume");
 		ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "portionSize");
@@ -460,13 +460,14 @@ public class SDECompiler {
 		ret.eveTypeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
 		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
 
-		JMethod attrMeth = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
-		JVar att = attrMeth.param(attributeClass, "attribute");
-		JSwitch js = attrMeth.body()._switch(att.invoke("getId"));
-		js._default().body()
-		._throw(JExpr._new(cm.ref(UnsupportedOperationException.class))
-				.arg(JExpr.lit("can't load attribute id ").plus(att.invoke("getId")).plus(" on type id ")
-						.plus(JExpr.direct("id").plus(" ").plus(JExpr.direct("name")))));
+		ret.valueSetMeth = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(Number.class), "valueSet");
+		{
+			JVar att = ret.valueSetMeth.param(attributeClass, "attribute");
+			JSwitch switchattid = ret.valueSetMeth.body()._switch(att.invoke("getId"));
+			switchattid._case(JExpr.lit(4)).body()._return(massField);
+			switchattid._default().body()._return(JExpr._null());
+			ret.valueSetMeth.javadoc().add("get the value affected to this for given attribute, or null if not set");
+		}
 
 		// create toString() as a name(id)
 		JMethod TypeToString = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(String.class), "toString");
@@ -494,8 +495,14 @@ public class SDECompiler {
 		tryblock._catch(cm.ref(Exception.class));
 
 		JMethod valueMeth = attributeClass.method(JMod.PUBLIC, cm.ref(Number.class), "value");
-		JVar Typeparam = valueMeth.param(ret.eveTypeClass, "Type");
-		valueMeth.body()._return(Typeparam.invoke(attrMeth).arg(JExpr._this()));
+		{
+			JVar Typeparam = valueMeth.param(ret.eveTypeClass, "Type");
+			JVar retrieved = valueMeth.body().decl(ret.model.ref(Number.class), "retrieved")
+					.init(Typeparam.invoke(ret.valueSetMeth).arg(JExpr._this()));
+			JConditional ifnull = valueMeth.body()._if(retrieved.eqNull());
+			ifnull._then()._return(JExpr.invoke("getDefaultValue"));
+			ifnull._else()._return(retrieved);
+		}
 
 		JMethod valueDoubleMeth = doubleAttribute.method(JMod.PUBLIC, cm.DOUBLE.boxify(), "value");
 		valueDoubleMeth.annotate(Override.class);
@@ -705,7 +712,7 @@ public class SDECompiler {
 				f.annotate(getDefaultIntValueAnnotation()).param("value", (int) attr.defaultValue);
 			}
 			if (jsAttr == null) {
-				JMethod attrMeth = cl.method(JMod.PUBLIC, cm.ref(Number.class), "attribute");
+				JMethod attrMeth = cl.method(JMod.PUBLIC, cm.ref(Number.class), "valueSet");
 				attrMeth.annotate(Override.class);
 				JVar att = attrMeth.param(attributeClass, "attribute");
 				jsAttr = attrMeth.body()._switch(att.invoke("getId"));
@@ -714,7 +721,7 @@ public class SDECompiler {
 			f.javadoc().add(attr.description);
 		}
 		if (jsAttr != null) {
-			jsAttr._default().body()._return(JExpr._super().invoke("attribute").arg(JExpr.direct("attribute")));
+			jsAttr._default().body()._return(JExpr._super().invoke("valueSet").arg(JExpr.direct("attribute")));
 		}
 	}
 

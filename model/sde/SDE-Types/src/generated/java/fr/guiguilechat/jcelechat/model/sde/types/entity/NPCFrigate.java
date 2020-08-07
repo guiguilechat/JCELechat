@@ -1100,7 +1100,7 @@ public class NPCFrigate
     public static final NPCFrigate.MetaGroup METAGROUP = new NPCFrigate.MetaGroup();
 
     @Override
-    public Number attribute(Attribute attribute) {
+    public Number valueSet(Attribute attribute) {
         switch (attribute.getId()) {
             case  70 :
             {
@@ -1640,7 +1640,7 @@ public class NPCFrigate
             }
             default:
             {
-                return super.attribute((attribute));
+                return super.valueSet((attribute));
             }
         }
     }
