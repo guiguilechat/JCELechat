@@ -22,7 +22,7 @@ public class EntitySuperWeaponFallOff
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  250000.0;
     }
 

@@ -22,7 +22,7 @@ public class EntityRemoteECMDurationScale
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.8999999761581421;
     }
 

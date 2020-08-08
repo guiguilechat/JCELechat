@@ -22,7 +22,7 @@ public class ShipBonusCarrierA3
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.0;
     }
 

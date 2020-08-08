@@ -22,7 +22,7 @@ public class EliteBonusCovertOps4
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.0;
     }
 

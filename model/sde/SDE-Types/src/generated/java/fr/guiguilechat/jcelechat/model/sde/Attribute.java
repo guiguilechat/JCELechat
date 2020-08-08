@@ -6,7 +6,7 @@ public abstract class Attribute {
 
     public abstract boolean getHighIsGood();
 
-    public abstract double getDefaultValue();
+    public abstract Number getDefaultValue();
 
     public abstract boolean getPublished();
 

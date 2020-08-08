@@ -22,7 +22,7 @@ public class PosStructureControlDistanceMax
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  15000.0;
     }
 

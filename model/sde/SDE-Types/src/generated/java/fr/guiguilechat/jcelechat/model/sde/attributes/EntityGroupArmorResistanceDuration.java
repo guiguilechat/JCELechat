@@ -22,7 +22,7 @@ public class EntityGroupArmorResistanceDuration
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  10000.0;
     }
 

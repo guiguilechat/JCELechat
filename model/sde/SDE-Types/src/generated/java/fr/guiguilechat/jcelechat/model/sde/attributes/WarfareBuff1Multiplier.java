@@ -22,7 +22,7 @@ public class WarfareBuff1Multiplier
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.0;
     }
 

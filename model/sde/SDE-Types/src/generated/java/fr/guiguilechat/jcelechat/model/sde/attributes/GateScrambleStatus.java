@@ -22,7 +22,7 @@ public class GateScrambleStatus
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return -1000.0;
     }
 

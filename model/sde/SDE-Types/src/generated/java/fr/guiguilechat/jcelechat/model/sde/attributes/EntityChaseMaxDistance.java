@@ -22,7 +22,7 @@ public class EntityChaseMaxDistance
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  2500.0;
     }
 

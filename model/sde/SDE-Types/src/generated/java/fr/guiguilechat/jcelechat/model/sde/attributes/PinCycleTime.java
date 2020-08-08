@@ -22,7 +22,7 @@ public class PinCycleTime
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  300.0;
     }
 

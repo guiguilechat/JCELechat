@@ -22,7 +22,7 @@ public class EntityAttackRange
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  15000.0;
     }
 

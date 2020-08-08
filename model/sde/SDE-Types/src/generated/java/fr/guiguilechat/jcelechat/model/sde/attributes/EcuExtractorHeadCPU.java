@@ -22,7 +22,7 @@ public class EcuExtractorHeadCPU
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  110.0;
     }
 

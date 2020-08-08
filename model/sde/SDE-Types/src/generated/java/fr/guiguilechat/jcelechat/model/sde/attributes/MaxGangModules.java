@@ -22,7 +22,7 @@ public class MaxGangModules
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  3.0;
     }
 

@@ -22,7 +22,7 @@ public class ShipBonusGC
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  5.0;
     }
 

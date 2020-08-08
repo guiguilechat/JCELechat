@@ -22,7 +22,7 @@ public class EntityMaxVelocitySignatureRadiusMultiplier
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  6.0;
     }
 

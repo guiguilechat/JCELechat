@@ -22,7 +22,7 @@ public class EntitySuperWeaponOptimalSignatureRadius
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  20.0;
     }
 

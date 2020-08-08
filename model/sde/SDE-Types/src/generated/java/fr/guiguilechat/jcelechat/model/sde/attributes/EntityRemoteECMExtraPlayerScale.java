@@ -22,7 +22,7 @@ public class EntityRemoteECMExtraPlayerScale
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  8.0;
     }
 

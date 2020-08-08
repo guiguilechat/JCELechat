@@ -19,7 +19,7 @@ public class ShipBonusUC2
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  1.0;
     }
 

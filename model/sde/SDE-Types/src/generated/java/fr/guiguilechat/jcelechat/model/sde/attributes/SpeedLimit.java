@@ -22,7 +22,7 @@ public class SpeedLimit
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  1000000.0;
     }
 

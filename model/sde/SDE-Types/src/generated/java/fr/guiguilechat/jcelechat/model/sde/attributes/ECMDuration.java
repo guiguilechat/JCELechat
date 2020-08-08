@@ -22,7 +22,7 @@ public class ECMDuration
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  30000.0;
     }
 

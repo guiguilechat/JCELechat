@@ -24,7 +24,7 @@ public class NpcRemoteArmorRepairThreshold
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.25;
     }
 

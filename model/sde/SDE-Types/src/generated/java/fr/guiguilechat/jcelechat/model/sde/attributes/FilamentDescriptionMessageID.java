@@ -19,7 +19,7 @@ public class FilamentDescriptionMessageID
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  561098.0;
     }
 

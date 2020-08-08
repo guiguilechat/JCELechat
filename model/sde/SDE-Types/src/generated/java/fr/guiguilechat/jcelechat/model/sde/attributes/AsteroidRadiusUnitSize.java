@@ -22,7 +22,7 @@ public class AsteroidRadiusUnitSize
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  90.0;
     }
 

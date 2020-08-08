@@ -22,7 +22,7 @@ public class WarpScrambleDuration
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  8000.0;
     }
 

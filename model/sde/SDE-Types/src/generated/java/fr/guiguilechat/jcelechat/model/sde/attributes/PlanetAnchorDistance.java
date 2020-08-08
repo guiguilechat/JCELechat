@@ -22,7 +22,7 @@ public class PlanetAnchorDistance
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  100000.0;
     }
 

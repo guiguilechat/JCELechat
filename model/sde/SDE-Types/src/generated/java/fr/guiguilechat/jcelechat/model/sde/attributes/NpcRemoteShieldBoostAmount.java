@@ -22,7 +22,7 @@ public class NpcRemoteShieldBoostAmount
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  50.0;
     }
 

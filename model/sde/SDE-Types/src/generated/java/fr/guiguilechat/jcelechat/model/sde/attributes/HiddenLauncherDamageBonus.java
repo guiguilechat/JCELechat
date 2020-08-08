@@ -22,7 +22,7 @@ public class HiddenLauncherDamageBonus
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  1.0;
     }
 

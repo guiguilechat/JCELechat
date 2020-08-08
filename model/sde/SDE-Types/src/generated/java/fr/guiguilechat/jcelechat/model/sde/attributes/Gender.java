@@ -26,7 +26,7 @@ public class Gender
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  2.0;
     }
 

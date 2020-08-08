@@ -22,7 +22,7 @@ public class MissileFOFVelocityPercent
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  100.0;
     }
 

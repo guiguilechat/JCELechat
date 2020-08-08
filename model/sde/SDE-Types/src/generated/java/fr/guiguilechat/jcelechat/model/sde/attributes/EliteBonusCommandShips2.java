@@ -22,7 +22,7 @@ public class EliteBonusCommandShips2
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.0;
     }
 

@@ -22,7 +22,7 @@ public class AutoFractureDelay
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  10800.0;
     }
 

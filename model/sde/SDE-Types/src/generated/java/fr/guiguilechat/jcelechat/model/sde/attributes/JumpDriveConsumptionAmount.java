@@ -22,7 +22,7 @@ public class JumpDriveConsumptionAmount
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  2000.0;
     }
 

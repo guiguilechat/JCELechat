@@ -22,7 +22,7 @@ public class EntityChaseMaxDelay
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  5000.0;
     }
 

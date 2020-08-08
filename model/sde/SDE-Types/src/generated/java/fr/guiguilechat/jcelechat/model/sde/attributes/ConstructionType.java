@@ -22,7 +22,7 @@ public class ConstructionType
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.0;
     }
 

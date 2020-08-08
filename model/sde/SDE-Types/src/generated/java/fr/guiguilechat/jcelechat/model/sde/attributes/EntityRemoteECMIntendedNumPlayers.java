@@ -22,7 +22,7 @@ public class EntityRemoteECMIntendedNumPlayers
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  40.0;
     }
 

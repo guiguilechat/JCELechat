@@ -22,7 +22,7 @@ public class MissileLaunchDuration
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  20000.0;
     }
 

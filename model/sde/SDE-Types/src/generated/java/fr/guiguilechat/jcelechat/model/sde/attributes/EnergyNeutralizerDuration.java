@@ -22,7 +22,7 @@ public class EnergyNeutralizerDuration
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  30000.0;
     }
 

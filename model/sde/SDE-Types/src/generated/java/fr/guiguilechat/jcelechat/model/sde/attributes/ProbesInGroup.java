@@ -22,7 +22,7 @@ public class ProbesInGroup
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  3.0;
     }
 

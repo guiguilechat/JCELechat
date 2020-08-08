@@ -22,7 +22,7 @@ public class LootRespawnTime
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  600000.0;
     }
 

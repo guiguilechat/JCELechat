@@ -376,7 +376,7 @@ public class SDECompiler {
 			attributeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Attribute");
 			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getId");
 			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getHighIsGood");
-			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.DOUBLE, "getDefaultValue");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm._ref(Number.class), "getDefaultValue");
 			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getPublished");
 			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getStackable");
 
@@ -598,7 +598,7 @@ public class SDECompiler {
 				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getHighIsGood");
 				meth.annotate(cm.ref(Override.class));
 				meth.body()._return(JExpr.lit(eattr.highIsGood));
-				meth = attClass.method(JMod.PUBLIC, cm.DOUBLE, "getDefaultValue");
+				meth = attClass.method(JMod.PUBLIC, cm._ref(Number.class), "getDefaultValue");
 				meth.annotate(cm.ref(Override.class));
 				meth.body()._return(JExpr.lit(eattr.defaultValue));
 				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getPublished");

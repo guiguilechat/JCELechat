@@ -22,7 +22,7 @@ public class AttributeT1ShipManufactureTime
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.0;
     }
 

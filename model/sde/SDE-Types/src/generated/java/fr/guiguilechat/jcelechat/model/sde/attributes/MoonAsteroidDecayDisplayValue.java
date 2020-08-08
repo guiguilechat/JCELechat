@@ -22,7 +22,7 @@ public class MoonAsteroidDecayDisplayValue
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  48.0;
     }
 

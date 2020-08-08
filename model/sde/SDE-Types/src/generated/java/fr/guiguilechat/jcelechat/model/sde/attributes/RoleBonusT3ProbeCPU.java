@@ -22,7 +22,7 @@ public class RoleBonusT3ProbeCPU
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.0;
     }
 

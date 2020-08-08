@@ -22,7 +22,7 @@ public class FreighterBonusM2
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.0;
     }
 

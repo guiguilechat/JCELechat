@@ -22,7 +22,7 @@ public class AnchoringDelay
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  60000.0;
     }
 

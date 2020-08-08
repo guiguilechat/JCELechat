@@ -22,7 +22,7 @@ public class WarfareBuff4ID
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  0.0;
     }
 

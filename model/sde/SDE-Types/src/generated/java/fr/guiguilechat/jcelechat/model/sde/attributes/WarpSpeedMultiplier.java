@@ -22,7 +22,7 @@ public class WarpSpeedMultiplier
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  3.0;
     }
 

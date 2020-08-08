@@ -22,7 +22,7 @@ public class MissileVelocityBonusBonus
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  1399.0;
     }
 

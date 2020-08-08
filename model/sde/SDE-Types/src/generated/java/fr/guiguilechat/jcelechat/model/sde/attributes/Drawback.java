@@ -22,7 +22,7 @@ public class Drawback
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  10.0;
     }
 

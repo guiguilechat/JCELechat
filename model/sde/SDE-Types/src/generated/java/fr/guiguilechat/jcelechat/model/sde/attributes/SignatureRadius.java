@@ -22,7 +22,7 @@ public class SignatureRadius
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  100.0;
     }
 

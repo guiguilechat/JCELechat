@@ -22,7 +22,7 @@ public class MaxFOFTargetRange
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  200000.0;
     }
 

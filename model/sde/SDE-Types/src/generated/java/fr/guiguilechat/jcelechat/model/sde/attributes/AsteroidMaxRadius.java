@@ -22,7 +22,7 @@ public class AsteroidMaxRadius
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  16255.0;
     }
 

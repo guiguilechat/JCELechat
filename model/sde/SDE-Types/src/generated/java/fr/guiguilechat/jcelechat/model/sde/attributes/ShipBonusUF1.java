@@ -19,7 +19,7 @@ public class ShipBonusUF1
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  1.0;
     }
 

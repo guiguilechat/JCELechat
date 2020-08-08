@@ -22,7 +22,7 @@ public class ImplantSetSisters
     }
 
     @Override
-    public double getDefaultValue() {
+    public Number getDefaultValue() {
         return  1.0;
     }
 
