@@ -46,7 +46,7 @@ public class RegionTypeHistory {
 	private static Stream<R_get_markets_region_id_history> withinDays(List<R_get_markets_region_id_history> list,
 			int days) {
 		String lowerBound = daysAgo(days);
-		return list.stream().limit(days).filter(h -> h.date.compareTo(lowerBound) >= 0);
+		return list.stream().filter(h -> h.date.compareTo(lowerBound) >= 0);
 	}
 
 	/**
@@ -322,11 +322,6 @@ public class RegionTypeHistory {
 		});
 		return ret;
 	}
-
-	/**
-	 * limit to last one day
-	 */
-	public final LimitedHistory daily = new LimitedHistory(1);
 
 	/**
 	 * limit to last 7 days

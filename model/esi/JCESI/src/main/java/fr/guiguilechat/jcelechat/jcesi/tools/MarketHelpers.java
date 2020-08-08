@@ -40,28 +40,6 @@ public class MarketHelpers {
 	 * @return a new property bound to the average daily value of given typeid in
 	 *         the given market region
 	 */
-	public static DoubleProperty dailyAVG(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractDouble(marketHolder, m -> m.getHistory(typeID).daily.getAverage().asObservableNumber());
-	}
-
-	/**
-	 *
-	 * @param typeID
-	 * @param marketHolder
-	 * @return a new property bound to the average daily volume of given typeid in
-	 *         the given market region
-	 */
-	public static LongProperty dailyVOL(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractLong(marketHolder, m -> m.getHistory(typeID).daily.getVolume().asObservableNumber());
-	}
-
-	/**
-	 *
-	 * @param typeID
-	 * @param marketHolder
-	 * @return a new property bound to the average daily value of given typeid in
-	 *         the given market region
-	 */
 	public static DoubleProperty weeklyAVG(int typeID, Property<RegionalMarket> marketHolder) {
 		return JFXTools.extractDouble(marketHolder, m -> m.getHistory(typeID).weekly.getAverage().asObservableNumber());
 	}

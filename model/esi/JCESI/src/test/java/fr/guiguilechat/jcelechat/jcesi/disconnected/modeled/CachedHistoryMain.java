@@ -20,7 +20,7 @@ public class CachedHistoryMain {
 
 	protected static void showAverageWebII() {
 		RegionTypeHistory h = new RegionTypeHistory(ESIStatic.INSTANCE.cache, 10000002, 527);
-		System.err.println("average=" + h.daily.getAverage().get());
+		System.err.println("average=" + h.weekly.getAverage().get());
 	}
 
 }
