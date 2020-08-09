@@ -15,8 +15,8 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.Constellation;
-import fr.guiguilechat.jcelechat.model.sde.locations.Distances;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.Distances;
 
 public class AnalyzeBurnersDest {
 

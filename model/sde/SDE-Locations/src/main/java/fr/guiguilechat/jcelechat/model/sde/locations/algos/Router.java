@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.locations;
+package fr.guiguilechat.jcelechat.model.sde.locations.algos;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
 
 /**
@@ -21,9 +22,9 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
  * Solar systems are reindexed to only keep KS
  * </p>
  */
-public class Route {
+public class Router {
 
-	public static final Route INSTANCE = new Route();
+	public static final Router INSTANCE = new Router();
 
 	private int[] IDX2ID;
 
@@ -129,8 +130,8 @@ public class Route {
 	}
 
 	public static class DisTree {
-		int parent;
-		int dist;
+		public int parent;
+		public int dist;
 
 		public DisTree() {
 		}

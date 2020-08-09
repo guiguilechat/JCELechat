@@ -13,9 +13,9 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.Constellation;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
-import fr.guiguilechat.jcelechat.model.sde.locations.Route;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.Router;
 
 /**
  * analysis of a planning. This consist in the listing of the systems that are
@@ -96,7 +96,7 @@ public class PlanningAnalysis {
 		if (params.keepSec) {
 			for (SolarSystem ss : required) {
 				if (ss != start) {
-					int[] route = Route.route(start.id, ss.id, ssArr);
+					int[] route = Router.route(start.id, ss.id, ssArr);
 					if (route == null || route.length == 0) {
 						logger.warn("can't find route from " + start.name + " to " + ss.name
 								+ " that only matches systems secutiry " + allowedSecStatus);
@@ -107,7 +107,7 @@ public class PlanningAnalysis {
 
 		// add the implicit required systems.
 		Predicate<SolarSystem> implicitRequiredFilter = ss -> allowedSecStatus.contains(ss.secStatus())
-				&& Route.route(start.id, ss.id, ssArr).length > 0;
+				&& Router.route(start.id, ss.id, ssArr).length > 0;
 				for (String cn : params.includeConstellations) {
 					Constellation cs = Constellation.getConstellation(cn);
 					cs.systems.stream().map(SolarSystem::getSystem).filter(implicitRequiredFilter).forEach(required::add);
@@ -121,7 +121,7 @@ public class PlanningAnalysis {
 					for (SolarSystem ss1 : required) {
 						for (SolarSystem ss2 : required) {
 							if (ss1.name.compareTo(ss2.name) < 0) {
-								int[] intermediates = Route.route(ss1.id, ss2.id, ssArr);
+								int[] intermediates = Router.route(ss1.id, ss2.id, ssArr);
 								for (int i = 0; i < intermediates.length - 1; i++) {
 									SolarSystem intermediate = SolarSystem.getSystem(intermediates[i]);
 									if (!required.contains(intermediate)) {

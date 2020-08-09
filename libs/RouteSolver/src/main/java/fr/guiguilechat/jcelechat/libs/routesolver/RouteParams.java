@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.Route;
 
 public class RouteParams {
 

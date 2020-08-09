@@ -1,9 +1,11 @@
-package fr.guiguilechat.jcelechat.model.sde.locations;
+package fr.guiguilechat.jcelechat.model.sde.locations.algos;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
+
+import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 
 /**
  * compute and cache distances between locations
