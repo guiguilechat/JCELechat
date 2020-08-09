@@ -19,6 +19,17 @@ public class RegionSplitter {
 
 	private static final Logger logger = LoggerFactory.getLogger(RegionSplitter.class);
 
+	/**
+	 * split the set of systems, around a source, accessible with jumps in the
+	 * same region and in HS, in a given number of clusters around system.
+	 *
+	 * @param source
+	 *          system to start the exploration of the region, in HS, around.
+	 * @param clusters
+	 *          number of central systems.
+	 * @return a list of the systems that make the sum of square distances of each
+	 *         concerned system in the region the lowest possible.
+	 */
 	public static List<SolarSystem> splitHS(SolarSystem source, int clusters) {
 		IndexedSystems idx = new IndexedSystems(ReachableRegionHs.around(source));
 		int[][] jumps = new int[idx.size()][idx.size()];
@@ -32,12 +43,12 @@ public class RegionSplitter {
 			}
 		}
 		int[] bestSol = null;
-		int bestVal = Integer.MAX_VALUE;
-		for (int[] sol = preSolution(clusters); nextSolution(sol, idx.size() - 1);) {
-			int val = eval(sol, jumps);
-			if (val < bestVal) {
-				bestVal = val;
-				bestSol = Arrays.copyOf(sol, sol.length);
+		int bestEval = Integer.MAX_VALUE;
+		for (int[] valuation = preValuation(clusters); nextValuation(valuation, idx.size() - 1);) {
+			int val = eval(valuation, jumps);
+			if (val < bestEval) {
+				bestEval = val;
+				bestSol = Arrays.copyOf(valuation, valuation.length);
 				logger.debug("  new solution " + IntStream.of(bestSol).mapToObj(idx::system).collect(Collectors.toList())
 						+ " value " + val + " avg=" + Math.sqrt(val) / idx.size());
 			}
@@ -46,13 +57,15 @@ public class RegionSplitter {
 	}
 
 	/**
-	 * create an invalid first solution. next call to nexSolution will actually
-	 * return the first solution
+	 * create an invalid first evaluation. Next call to
+	 * {@link #nextValuation(int[], int)} will actually instantiate it to the
+	 * first valuation
 	 *
 	 * @param clusters
-	 * @return
+	 *          number of variables
+	 * @return a new int[] of size clusters
 	 */
-	public static int[] preSolution(int clusters) {
+	public static int[] preValuation(int clusters) {
 		int[] ret = new int[clusters];
 		for (int i = 0; i < clusters; i++) {
 			ret[i]=i;
@@ -61,33 +74,53 @@ public class RegionSplitter {
 		return ret;
 	}
 
-	public static boolean nextSolution(int[] solution, int maxValue) {
-		for (int backIdx = 0; backIdx < solution.length; backIdx++) {
-			int idx = solution.length - 1 - backIdx;
+	/**
+	 * modify the valuation to make it get the next value.
+	 *
+	 * @param valuation
+	 *          the valuation to update to the next value
+	 * @param maxValue
+	 *          maximum allowed value in each variable
+	 * @return true if the next valuation was found, false if there is no more
+	 *         valuation.
+	 */
+	public static boolean nextValuation(int[] valuation, int maxValue) {
+		for (int backIdx = 0; backIdx < valuation.length; backIdx++) {
+			int idx = valuation.length - 1 - backIdx;
 			int mvalue = maxValue - backIdx;
-			if (solution[idx] >= mvalue) {
+			if (valuation[idx] >= mvalue) {
 				if (idx == 0) {
 					return false;
 				}
-				solution[idx] = -1;
+				valuation[idx] = -1;
 			} else {
-				solution[idx]++;
+				valuation[idx]++;
 				break;
 			}
 		}
-		for (int i = 1; i < solution.length; i++) {
-			if (solution[i] == -1) {
-				solution[i] = solution[i - 1] + 1;
+		for (int i = 1; i < valuation.length; i++) {
+			if (valuation[i] == -1) {
+				valuation[i] = valuation[i - 1] + 1;
 			}
 		}
 		return true;
 	}
 
-	public static int eval(int[] solution, int[][] jumps) {
+	/**
+	 * evaluate a valuation
+	 *
+	 * @param valuation
+	 *          the valuation to evaluate
+	 * @param jumps
+	 *          the symetric map of distances
+	 * @return the sum of the square of distances from each system in the matrix
+	 *         to the closest system in the valuation.
+	 */
+	public static int eval(int[] valuation, int[][] jumps) {
 		int ret = 0;
 		for (int[] jump : jumps) {
 			int dist = Integer.MAX_VALUE;
-			for (int element : solution) {
+			for (int element : valuation) {
 				int dstSol = jump[element];
 				if (dstSol < dist) {
 					dist = dstSol;
