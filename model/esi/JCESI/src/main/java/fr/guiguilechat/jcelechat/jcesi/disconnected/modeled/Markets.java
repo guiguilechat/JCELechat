@@ -28,7 +28,8 @@ public class Markets {
 	private HashMap<Integer, RegionalMarket> regionMarkets = new HashMap<>();
 
 	/**
-	 * get the regional market for given region ID.
+	 * get the regional market for given region ID. The returned market is already
+	 * scheduled to retrieve the orders.
 	 *
 	 * @param regionID
 	 * @return
