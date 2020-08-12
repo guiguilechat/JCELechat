@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.routesolver;
+package fr.guiguilechat.jcelechat.model.sde.locations.algos;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

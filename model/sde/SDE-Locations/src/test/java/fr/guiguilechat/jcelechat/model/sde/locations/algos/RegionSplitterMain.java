@@ -18,13 +18,13 @@ public class RegionSplitterMain {
 		// show("Eredan", 3);
 		// show("Hek", 2);
 		// show("Hek", 3);
-		show("Hek", 5);
+		show("Hek", 4, false);
 	}
 
-	public static void show(String sysName, int qtty) {
+	public static void show(String sysName, int qtty, boolean useSquareDistance) {
 		logger.info(
-				"around " + sysName + " in " + qtty + " =" + RegionSplitter.splitHS(SolarSystem.getSystem(sysName), qtty));
-
+				"around " + sysName + " in " + qtty + " ="
+						+ HSRegionSplitter.INSTANCE.around(SolarSystem.getSystem(sysName), qtty, useSquareDistance));
 	}
 
 }

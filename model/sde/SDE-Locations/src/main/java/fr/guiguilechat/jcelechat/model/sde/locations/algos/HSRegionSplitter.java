@@ -9,52 +9,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
 
 /**
  * split a region into n main systems, in order to reduce the amount of jumps
  * from each system to the closest of those systems.
  */
-public class RegionSplitter {
+public class HSRegionSplitter implements IRegionStager {
 
-	private static final Logger logger = LoggerFactory.getLogger(RegionSplitter.class);
+	private static final Logger logger = LoggerFactory.getLogger(HSRegionSplitter.class);
 
-	/**
-	 * split the set of systems, around a source, accessible with jumps in the
-	 * same region and in HS, in a given number of clusters around system.
-	 *
-	 * @param source
-	 *          system to start the exploration of the region, in HS, around.
-	 * @param clusters
-	 *          number of central systems.
-	 * @return a list of the systems that make the sum of square distances of each
-	 *         concerned system in the region the lowest possible.
-	 */
-	public static List<SolarSystem> splitHS(SolarSystem source, int clusters) {
-		IndexedSystems idx = new IndexedSystems(ReachableRegionHs.around(source));
-		int[][] jumps = new int[idx.size()][idx.size()];
-		for (int i = 0; i < idx.size(); i++) {
-			SolarSystem from = idx.system(i);
-			jumps[i][i] = 0;
-			for (int j = i + 1; j < idx.size(); j++) {
-				SolarSystem to = idx.system(j);
-				jumps[i][j] = jumps[j][i] = fr.guiguilechat.jcelechat.model.sde.locations.algos.Router.route(from.id, to.id,
-						SECSTATUS.HS).length;
-			}
-		}
-		int[] bestSol = null;
-		int bestEval = Integer.MAX_VALUE;
-		for (int[] valuation = preValuation(clusters); nextValuation(valuation, idx.size() - 1);) {
-			int val = eval(valuation, jumps);
-			if (val < bestEval) {
-				bestEval = val;
-				bestSol = Arrays.copyOf(valuation, valuation.length);
-				logger.debug("  new solution " + IntStream.of(bestSol).mapToObj(idx::system).collect(Collectors.toList())
-						+ " value " + val + " avg=" + Math.sqrt(val) / idx.size());
-			}
-		}
-		return IntStream.of(bestSol).mapToObj(idx::system).collect(Collectors.toList());
-	}
+	public static final HSRegionSplitter INSTANCE = new HSRegionSplitter();
 
 	/**
 	 * create an invalid first evaluation. Next call to
@@ -116,7 +80,7 @@ public class RegionSplitter {
 	 * @return the sum of the square of distances from each system in the matrix
 	 *         to the closest system in the valuation.
 	 */
-	public static int eval(int[] valuation, int[][] jumps) {
+	public static int eval(int[] valuation, int[][] jumps, boolean useSquareDistance) {
 		int ret = 0;
 		for (int[] jump : jumps) {
 			int dist = Integer.MAX_VALUE;
@@ -126,9 +90,25 @@ public class RegionSplitter {
 					dist = dstSol;
 				}
 			}
-			ret += dist * dist;
+			ret += useSquareDistance ? dist * dist : dist;
 		}
 		return ret;
+	}
+
+	@Override
+	public List<SolarSystem> around(IndexedSystems idx, int[][] jumps, int clusters, boolean useSquareDistance) {
+		int[] bestSol = null;
+		int bestEval = Integer.MAX_VALUE;
+		for (int[] valuation = preValuation(clusters); nextValuation(valuation, idx.size() - 1);) {
+			int val = eval(valuation, jumps, useSquareDistance);
+			if (val < bestEval) {
+				bestEval = val;
+				bestSol = Arrays.copyOf(valuation, valuation.length);
+				logger.debug("  new solution " + IntStream.of(bestSol).mapToObj(idx::system).collect(Collectors.toList())
+						+ " value " + val + " avg=" + (useSquareDistance ? Math.sqrt(val) : val) / idx.size());
+			}
+		}
+		return IntStream.of(bestSol).mapToObj(idx::system).collect(Collectors.toList());
 	}
 
 }

@@ -63,12 +63,12 @@ public class ShowHighestTrade {
 
 		public TypeMarketdata(EveType type, RegionalMarket market) {
 			this.type = type;
-			totalValue = market.getHistory(type.id).monthly.getTotalValue().get();
+			totalValue = market.getHistory(type.id).quarterly.getTotalValue().get();
 		}
 
 		@Override
 		public String toString() {
-			return type.name + "\t" + JFXTools.formatPrice(totalValue);
+			return type.name + "\t" + JFXTools.formatPrice(totalValue / 3);
 		}
 
 	}

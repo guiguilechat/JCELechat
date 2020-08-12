@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 public class ShowRegionSystemsTruesec {
 
 	public static void main(String[] args) {
-		String regionName = "Metropolis";
+		String regionName = "Essence";
 		boolean nexts = true;
 		if (args != null && args.length > 0 && args[0].length() > 0) {
 			regionName = args[0];
