@@ -1,5 +1,5 @@
 types:
-  Large Compact Vorton projector:
+  Large Compact Vorton Projector:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.8199999928474426
     aoevelocity: 79.0
@@ -18,7 +18,7 @@ types:
     maincolor: 8627698
     marketGroup: 2744
     maxrange: 57600.0
-    name: Large Compact Vorton projector
+    name: Large Compact Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 50.0
     portionSize: 1

@@ -17,7 +17,7 @@ types:
     armorthermaldamageresonance: 0.5
     armoruniformity: 0.75
     behaviorenergyneutralizerduration: 10000
-    behaviorenergyneutralizerrange: 100000
+    behaviorenergyneutralizerrange: 100000.0
     capacitorcapacity: 7700.0
     capacity: 120.0
     damagemultiplier: 15.0

@@ -70,7 +70,9 @@ public class SDECache {
 		return new File(checkDir(), "etag.txt");
 	}
 
-	private boolean triedDL = false;
+	// set to true to avoid downloading the SDE. CCP screwed up and we can't use
+	// it
+	private boolean triedDL = true;
 
 	/**
 	 * if needed, download the full yaml from the sde . those files will be

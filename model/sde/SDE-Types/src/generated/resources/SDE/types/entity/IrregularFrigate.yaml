@@ -295,8 +295,8 @@ types:
     behaviorarmorrepairerduration: 4500
     behaviorenergyneutralizerdischarge: 25.0
     behaviorenergyneutralizerduration: 6000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorwarpscrambledischarge: 1.0
     behaviorwarpscrambleduration: 5000
     behaviorwarpscramblerange: 11400.0
@@ -1529,8 +1529,8 @@ types:
     behaviorarmorrepairerduration: 4500
     behaviorenergyneutralizerdischarge: 10.0
     behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorshieldboosteramount: 80
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
@@ -1629,8 +1629,8 @@ types:
     behaviorarmorrepairerduration: 4500
     behaviorenergyneutralizerdischarge: 10.0
     behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorshieldboosteramount: 80
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
@@ -1729,8 +1729,8 @@ types:
     behaviorarmorrepairerduration: 4500
     behaviorenergyneutralizerdischarge: 10.0
     behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorshieldboosteramount: 100
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 3000
@@ -1829,8 +1829,8 @@ types:
     behaviorarmorrepairerduration: 4500
     behaviorenergyneutralizerdischarge: 10.0
     behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorshieldboosteramount: 100
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 3000
@@ -2093,8 +2093,8 @@ types:
     armorthermaldamageresonance: 0.49000000953674316
     behaviorenergyneutralizerdischarge: 15.0
     behaviorenergyneutralizerduration: 10000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorshieldboosteramount: 22
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 3000
@@ -2192,8 +2192,8 @@ types:
     behaviorecmrange: 23040
     behaviorenergyneutralizerdischarge: 15.0
     behaviorenergyneutralizerduration: 10000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorshieldboosteramount: 22
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 3000
@@ -2367,8 +2367,8 @@ types:
     armorthermaldamageresonance: 0.49000000953674316
     behaviorenergyneutralizerdischarge: 15.0
     behaviorenergyneutralizerduration: 9000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorshieldboosteramount: 22
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 3000
@@ -3650,8 +3650,8 @@ types:
     behaviorarmorrepairerduration: 4500
     behaviorenergyneutralizerdischarge: 10.0
     behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 4000
-    behaviorenergyneutralizerrange: 6000
+    behaviorenergyneutralizerfalloff: 4000.0
+    behaviorenergyneutralizerrange: 6000.0
     behaviorremotearmorrepairdischarge: 6.0
     behaviorremotearmorrepairduration: 2000.0
     behaviorremotearmorrepairfalloff: 25000

@@ -1456,8 +1456,8 @@ types:
     behaviorarmorrepairerduration: 4500
     behaviorenergyneutralizerdischarge: 10.0
     behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 4000
-    behaviorenergyneutralizerrange: 6000
+    behaviorenergyneutralizerfalloff: 4000.0
+    behaviorenergyneutralizerrange: 6000.0
     behaviorremotearmorrepairdischarge: 6.0
     behaviorremotearmorrepairduration: 2000.0
     behaviorremotearmorrepairfalloff: 25000
@@ -1646,8 +1646,8 @@ types:
     behaviorarmorrepairerduration: 4500
     behaviorenergyneutralizerdischarge: 25.0
     behaviorenergyneutralizerduration: 6000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorshieldboosteramount: 25
     behaviorshieldboosterdischarge: 15
     behaviorshieldboosterduration: 3000
@@ -1748,8 +1748,8 @@ types:
     behaviorarmorrepairerduration: 4500
     behaviorenergyneutralizerdischarge: 25.0
     behaviorenergyneutralizerduration: 6000
-    behaviorenergyneutralizerfalloff: 8000
-    behaviorenergyneutralizerrange: 4000
+    behaviorenergyneutralizerfalloff: 8000.0
+    behaviorenergyneutralizerrange: 4000.0
     behaviorshieldboosteramount: 25
     behaviorshieldboosterdischarge: 15
     behaviorshieldboosterduration: 3000

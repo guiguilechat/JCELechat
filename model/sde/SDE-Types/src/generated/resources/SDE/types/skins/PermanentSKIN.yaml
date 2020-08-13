@@ -24362,6 +24362,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Skybreaker Bluestar Defenders SKIN:
+    id: 55984
+    marketGroup: 2000
+    name: Skybreaker Bluestar Defenders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Slasher Aurora Universalis SKIN:
     id: 53364
     marketGroup: 2005
@@ -24928,6 +24936,14 @@ types:
     id: 53167
     marketGroup: 2143
     name: Stork Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stormbringer Bluestar Defenders SKIN:
+    id: 55985
+    marketGroup: 2063
+    name: Stormbringer Bluestar Defenders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26434,6 +26450,14 @@ types:
     id: 36765
     marketGroup: 1997
     name: Thrasher Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Thunderchild Bluestar Defenders SKIN:
+    id: 55986
+    marketGroup: 2108
+    name: Thunderchild Bluestar Defenders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

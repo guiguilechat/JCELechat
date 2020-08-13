@@ -1114,8 +1114,8 @@ types:
     armorthermaldamageresonance: 0.5525000095367432
     behaviorenergyneutralizerdischarge: 33.75
     behaviorenergyneutralizerduration: 6000
-    behaviorenergyneutralizerfalloff: 2500
-    behaviorenergyneutralizerrange: 5000
+    behaviorenergyneutralizerfalloff: 2500.0
+    behaviorenergyneutralizerrange: 5000.0
     behaviorwebifierdischarge: 3.75
     behaviorwebifierduration: 5000
     behaviorwebifierrange: 15000
@@ -1702,8 +1702,8 @@ types:
     armorthermaldamageresonance: 0.5525000095367432
     behaviorenergyneutralizerdischarge: 33.75
     behaviorenergyneutralizerduration: 6000
-    behaviorenergyneutralizerfalloff: 3000
-    behaviorenergyneutralizerrange: 6000
+    behaviorenergyneutralizerfalloff: 3000.0
+    behaviorenergyneutralizerrange: 6000.0
     behaviorwebifierdischarge: 3.75
     behaviorwebifierduration: 5000
     behaviorwebifierrange: 15000

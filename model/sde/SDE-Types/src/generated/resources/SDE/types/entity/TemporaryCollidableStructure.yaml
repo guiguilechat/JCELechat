@@ -200,8 +200,8 @@ types:
     armorthermaldamageresonance: 1.0
     behaviorenergyneutralizerdischarge: 10.0
     behaviorenergyneutralizerduration: 5000
-    behaviorenergyneutralizerfalloff: 2000
-    behaviorenergyneutralizerrange: 8000
+    behaviorenergyneutralizerfalloff: 2000.0
+    behaviorenergyneutralizerrange: 8000.0
     behaviormicrojumpattackdischarge: 7
     behaviormicrojumpattackrange: 30000
     behaviorsmartbombentitydamagemultiplier: 1.0

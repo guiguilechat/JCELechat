@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.types.module.ArmorCoating;
 import fr.guiguilechat.jcelechat.model.sde.types.module.ArmorHardener;
-import fr.guiguilechat.jcelechat.model.sde.types.module.ArmorPlatingEnergized;
+import fr.guiguilechat.jcelechat.model.sde.types.module.EnergizedArmorMembrane;
 import fr.guiguilechat.jcelechat.model.sde.types.module.ShieldHardener;
 import fr.guiguilechat.jcelechat.model.sde.types.module.ShieldResistanceAmplifier;
 
@@ -47,7 +47,7 @@ public class ShowResistReduction {
 					Math.min(ah.kineticdamageresistancebonus, ah.explosivedamageresistancebonus)));
 		}
 
-		public ItemReduction(ArmorPlatingEnergized ah) {
+		public ItemReduction(EnergizedArmorMembrane ah) {
 			this(ah, 1.25 * Math.min(Math.min(ah.emdamageresistancebonus, ah.thermaldamageresistancebonus),
 					Math.min(ah.kineticdamageresistancebonus, ah.explosivedamageresistancebonus)));
 		}
@@ -66,7 +66,7 @@ public class ShowResistReduction {
 	public static void main(String[] args) {
 		Stream<ItemReduction> ahStream = ArmorHardener.METAGROUP.load().values().stream().map(ItemReduction::new);
 		Stream<ItemReduction> acStream = ArmorCoating.METAGROUP.load().values().stream().map(ItemReduction::new);
-		Stream<ItemReduction> apeStream = ArmorPlatingEnergized.METAGROUP.load().values().stream().map(ItemReduction::new);
+		Stream<ItemReduction> apeStream = EnergizedArmorMembrane.METAGROUP.load().values().stream().map(ItemReduction::new);
 		Stream<ItemReduction> shStream = ShieldHardener.METAGROUP.load().values().stream().map(ItemReduction::new);
 		Stream<ItemReduction> sraStream = ShieldResistanceAmplifier.METAGROUP.load().values().stream()
 				.map(ItemReduction::new);

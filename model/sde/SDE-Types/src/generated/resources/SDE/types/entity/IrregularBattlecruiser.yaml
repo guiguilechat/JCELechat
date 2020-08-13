@@ -1059,8 +1059,8 @@ types:
     behaviorarmorrepairerduration: 9000
     behaviorenergyneutralizerdischarge: 30.0
     behaviorenergyneutralizerduration: 8000
-    behaviorenergyneutralizerfalloff: 5000
-    behaviorenergyneutralizerrange: 10000
+    behaviorenergyneutralizerfalloff: 5000.0
+    behaviorenergyneutralizerrange: 10000.0
     behaviorremotearmorrepairdischarge: 30.0
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000

@@ -4102,6 +4102,54 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 27500.0
+  Habitation Module - Personnel Quarters:
+    capacitorcapacity: 2700.0
+    capacity: 2700.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
+    id: 30815
+    lootrespawntime: 1.2E9
+    name: Habitation Module - Personnel Quarters
+    packagedVolume: 27500.0
+    portionSize: 1
+    published: false
+    radius: 379.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 27500.0
+  Habitation Module - Scientist Quarters:
+    capacitorcapacity: 2700.0
+    capacity: 10000.0
+    disallowassistance: 1
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 1
+    entityequipmentmin: 1
+    entityflyrange: 500.0
+    falloff: 1.0
+    hp: 1000000.0
+    id: 29213
+    lootrespawntime: 1200000.0
+    name: Habitation Module - Scientist Quarters
+    packagedVolume: 100000.0
+    portionSize: 1
+    published: false
+    radius: 379.0
+    signatureradius: 500.0
+    spawnwithoutguardstoo: 1
+    specialtutoriallootrespawntime: 30000
+    structureuniformity: 1.0
+    volume: 100000.0
   Habitation Module With Encoded Data Chip:
     capacitorcapacity: 2700.0
     capacity: 10000.0
@@ -4126,54 +4174,6 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 1.0E8
-  Habitation Module w/4xScientists:
-    capacitorcapacity: 2700.0
-    capacity: 10000.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityequipmentmax: 1
-    entityequipmentmin: 1
-    entityflyrange: 500.0
-    falloff: 1.0
-    hp: 1000000.0
-    id: 29213
-    lootrespawntime: 1200000.0
-    name: Habitation Module w/4xScientists
-    packagedVolume: 100000.0
-    portionSize: 1
-    published: false
-    radius: 379.0
-    signatureradius: 500.0
-    spawnwithoutguardstoo: 1
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-    volume: 100000.0
-  Habitation Module w/FR Personnel:
-    capacitorcapacity: 2700.0
-    capacity: 2700.0
-    disallowassistance: 1
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityequipmentmax: 1
-    entityequipmentmin: 1
-    entityflyrange: 500.0
-    falloff: 1.0
-    hp: 1000000.0
-    id: 30815
-    lootrespawntime: 1.2E9
-    name: Habitation Module w/FR Personnel
-    packagedVolume: 27500.0
-    portionSize: 1
-    published: false
-    radius: 379.0
-    signatureradius: 500.0
-    spawnwithoutguardstoo: 1
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-    volume: 27500.0
   Habitation_Module_Container:
     capacitorcapacity: 1000.0
     capacity: 1000.0
@@ -6412,6 +6412,8 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
@@ -6438,6 +6440,8 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
@@ -6464,6 +6468,8 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
@@ -6490,6 +6496,8 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
@@ -6516,6 +6524,8 @@ types:
     portionSize: 1
     published: false
     radius: 14.0
+    requiredskill1: 21718
+    requiredskill1level: 1
     signatureradius: 500.0
     spawnwithoutguardstoo: 1
     specialtutoriallootrespawntime: 30000
@@ -8651,54 +8661,6 @@ types:
     specialtutoriallootrespawntime: 30000
     structureuniformity: 1.0
     volume: 27500.0
-  '[no messageID: 536334]':
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityflyrange: 500.0
-    falloff: 1.0
-    id: 48079
-    lootrespawntime: 600000.0
-    name: '[no messageID: 536334]'
-    packagedVolume: 1.0
-    portionSize: 1
-    published: false
-    signatureradius: 100.0
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-    volume: 1.0
-  '[no messageID: 536407]':
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityflyrange: 500.0
-    falloff: 1.0
-    id: 48084
-    lootrespawntime: 600000.0
-    name: '[no messageID: 536407]'
-    packagedVolume: 1.0
-    portionSize: 1
-    published: false
-    signatureradius: 100.0
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-    volume: 1.0
-  '[no messageID: 536408]':
-    entityattackrange: 15000
-    entitychasemaxdistance: 2500
-    entityequipmentgroupmax: 1
-    entityflyrange: 500.0
-    falloff: 1.0
-    id: 48085
-    lootrespawntime: 600000.0
-    name: '[no messageID: 536408]'
-    packagedVolume: 1.0
-    portionSize: 1
-    published: false
-    signatureradius: 100.0
-    specialtutoriallootrespawntime: 30000
-    structureuniformity: 1.0
-    volume: 1.0
   colins test Hulk:
     accessdifficulty: -10.0
     capacitorcapacity: 2700.0

@@ -95,14 +95,6 @@ types:
     price: 40000.0
     published: true
     volume: 0.009999999776482582
-  '[no messageID: 564090]':
-    id: 54875
-    name: '[no messageID: 564090]'
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 40000.0
-    published: true
-    volume: 0.009999999776482582
   unused blueprint type:
     id: 54883
     name: unused blueprint type

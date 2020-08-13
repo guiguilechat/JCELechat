@@ -463,7 +463,7 @@ offers:
       lp: 18000
   3453:
     id: 3453
-    name: Imperial Navy Energized Adaptive Nano Membrane
+    name: Imperial Navy Multispectrum Energized Membrane
     product:
       id: 15729
       quantity: 1
@@ -479,7 +479,7 @@ offers:
       lp: 9000
   3454:
     id: 3454
-    name: Imperial Navy Energized Kinetic Membrane
+    name: Imperial Navy Kinetic Energized Membrane
     product:
       id: 15727
       quantity: 1
@@ -495,7 +495,7 @@ offers:
       lp: 9000
   3455:
     id: 3455
-    name: Imperial Navy Energized Explosive Membrane
+    name: Imperial Navy Explosive Energized Membrane
     product:
       id: 15725
       quantity: 1
@@ -511,7 +511,7 @@ offers:
       lp: 9000
   3456:
     id: 3456
-    name: Imperial Navy Energized EM Membrane
+    name: Imperial Navy EM Energized Membrane
     product:
       id: 15723
       quantity: 1
@@ -527,7 +527,7 @@ offers:
       lp: 9000
   3457:
     id: 3457
-    name: Imperial Navy Energized Thermal Membrane
+    name: Imperial Navy Thermal Energized Membrane
     product:
       id: 15721
       quantity: 1
@@ -3077,7 +3077,7 @@ offers:
       lp: 30000
   3638:
     id: 3638
-    name: Federation Navy Energized Adaptive Nano Membrane
+    name: Federation Navy Multispectrum Energized Membrane
     product:
       id: 15739
       quantity: 1
@@ -3093,7 +3093,7 @@ offers:
       lp: 8000
   3639:
     id: 3639
-    name: Federation Navy Energized Kinetic Membrane
+    name: Federation Navy Kinetic Energized Membrane
     product:
       id: 15737
       quantity: 1
@@ -3109,7 +3109,7 @@ offers:
       lp: 8000
   3640:
     id: 3640
-    name: Federation Navy Energized Explosive Membrane
+    name: Federation Navy Explosive Energized Membrane
     product:
       id: 15735
       quantity: 1
@@ -3125,7 +3125,7 @@ offers:
       lp: 8000
   3641:
     id: 3641
-    name: Federation Navy Energized EM Membrane
+    name: Federation Navy EM Energized Membrane
     product:
       id: 15733
       quantity: 1
@@ -3141,7 +3141,7 @@ offers:
       lp: 8000
   3642:
     id: 3642
-    name: Federation Navy Energized Thermal Membrane
+    name: Federation Navy Thermal Energized Membrane
     product:
       id: 15731
       quantity: 1
@@ -5742,7 +5742,7 @@ offers:
       lp: 30000
   3823:
     id: 3823
-    name: Ammatar Navy Energized Adaptive Nano Membrane
+    name: Ammatar Navy Multispectrum Energized Membrane
     product:
       id: 17536
       quantity: 1
@@ -5758,7 +5758,7 @@ offers:
       lp: 9000
   3824:
     id: 3824
-    name: Ammatar Navy Energized Kinetic Membrane
+    name: Ammatar Navy Kinetic Energized Membrane
     product:
       id: 17538
       quantity: 1
@@ -5774,7 +5774,7 @@ offers:
       lp: 9000
   3825:
     id: 3825
-    name: Ammatar Navy Energized Explosive Membrane
+    name: Ammatar Navy Explosive Energized Membrane
     product:
       id: 17540
       quantity: 1
@@ -5790,7 +5790,7 @@ offers:
       lp: 9000
   3826:
     id: 3826
-    name: Ammatar Navy Energized EM Membrane
+    name: Ammatar Navy EM Energized Membrane
     product:
       id: 17542
       quantity: 1
@@ -5806,7 +5806,7 @@ offers:
       lp: 9000
   3827:
     id: 3827
-    name: Ammatar Navy Energized Thermal Membrane
+    name: Ammatar Navy Thermal Energized Membrane
     product:
       id: 17544
       quantity: 1
@@ -13156,7 +13156,7 @@ offers:
       lp: 60000
   4433:
     id: 4433
-    name: 5* Imperial Navy Energized Adaptive Nano Membrane(BPC)
+    name: 5* Imperial Navy Multispectrum Energized Membrane(BPC)
     product:
       id: 15729
       quantity: 5
@@ -13180,7 +13180,7 @@ offers:
       lp: 27000
   4434:
     id: 4434
-    name: 5* Imperial Navy Energized Kinetic Membrane(BPC)
+    name: 5* Imperial Navy Kinetic Energized Membrane(BPC)
     product:
       id: 15727
       quantity: 5
@@ -13204,7 +13204,7 @@ offers:
       lp: 27000
   4435:
     id: 4435
-    name: 5* Imperial Navy Energized Explosive Membrane(BPC)
+    name: 5* Imperial Navy Explosive Energized Membrane(BPC)
     product:
       id: 15725
       quantity: 5
@@ -13228,7 +13228,7 @@ offers:
       lp: 27000
   4436:
     id: 4436
-    name: 5* Imperial Navy Energized EM Membrane(BPC)
+    name: 5* Imperial Navy EM Energized Membrane(BPC)
     product:
       id: 15723
       quantity: 5
@@ -13252,7 +13252,7 @@ offers:
       lp: 27000
   4437:
     id: 4437
-    name: 5* Imperial Navy Energized Thermal Membrane(BPC)
+    name: 5* Imperial Navy Thermal Energized Membrane(BPC)
     product:
       id: 15721
       quantity: 5
@@ -13646,7 +13646,7 @@ offers:
       lp: 120000
   4457:
     id: 4457
-    name: 5* Federation Navy Energized Adaptive Nano Membrane(BPC)
+    name: 5* Federation Navy Multispectrum Energized Membrane(BPC)
     product:
       id: 15739
       quantity: 5
@@ -13670,7 +13670,7 @@ offers:
       lp: 24000
   4458:
     id: 4458
-    name: 5* Federation Navy Energized Kinetic Membrane(BPC)
+    name: 5* Federation Navy Kinetic Energized Membrane(BPC)
     product:
       id: 15737
       quantity: 5
@@ -13694,7 +13694,7 @@ offers:
       lp: 24000
   4459:
     id: 4459
-    name: 5* Federation Navy Energized Explosive Membrane(BPC)
+    name: 5* Federation Navy Explosive Energized Membrane(BPC)
     product:
       id: 15735
       quantity: 5
@@ -13718,7 +13718,7 @@ offers:
       lp: 24000
   4460:
     id: 4460
-    name: 5* Federation Navy Energized EM Membrane(BPC)
+    name: 5* Federation Navy EM Energized Membrane(BPC)
     product:
       id: 15733
       quantity: 5
@@ -13742,7 +13742,7 @@ offers:
       lp: 24000
   4461:
     id: 4461
-    name: 5* Federation Navy Energized Thermal Membrane(BPC)
+    name: 5* Federation Navy Thermal Energized Membrane(BPC)
     product:
       id: 15731
       quantity: 5
@@ -14230,7 +14230,7 @@ offers:
       lp: 2000
   4490:
     id: 4490
-    name: 5* Ammatar Navy Energized Kinetic Membrane(BPC)
+    name: 5* Ammatar Navy Kinetic Energized Membrane(BPC)
     product:
       id: 17538
       quantity: 5
@@ -14254,7 +14254,7 @@ offers:
       lp: 27000
   4491:
     id: 4491
-    name: 5* Ammatar Navy Energized Explosive Membrane(BPC)
+    name: 5* Ammatar Navy Explosive Energized Membrane(BPC)
     product:
       id: 17540
       quantity: 5
@@ -14278,7 +14278,7 @@ offers:
       lp: 27000
   4492:
     id: 4492
-    name: 5* Ammatar Navy Energized EM Membrane(BPC)
+    name: 5* Ammatar Navy EM Energized Membrane(BPC)
     product:
       id: 17542
       quantity: 5
@@ -14302,7 +14302,7 @@ offers:
       lp: 27000
   4493:
     id: 4493
-    name: 5* Ammatar Navy Energized Thermal Membrane(BPC)
+    name: 5* Ammatar Navy Thermal Energized Membrane(BPC)
     product:
       id: 17544
       quantity: 5
@@ -15706,7 +15706,7 @@ offers:
       lp: 40000
   4596:
     id: 4596
-    name: Khanid Navy Energized Adaptive Nano Membrane
+    name: Khanid Navy Multispectrum Energized Membrane
     product:
       id: 28534
       quantity: 1
@@ -15722,7 +15722,7 @@ offers:
       lp: 9000
   4597:
     id: 4597
-    name: Khanid Navy Energized Kinetic Membrane
+    name: Khanid Navy Kinetic Energized Membrane
     product:
       id: 28536
       quantity: 1
@@ -15738,7 +15738,7 @@ offers:
       lp: 9000
   4598:
     id: 4598
-    name: Khanid Navy Energized Explosive Membrane
+    name: Khanid Navy Explosive Energized Membrane
     product:
       id: 28538
       quantity: 1
@@ -15754,7 +15754,7 @@ offers:
       lp: 9000
   4599:
     id: 4599
-    name: Khanid Navy Energized EM Membrane
+    name: Khanid Navy EM Energized Membrane
     product:
       id: 28540
       quantity: 1
@@ -15770,7 +15770,7 @@ offers:
       lp: 9000
   4600:
     id: 4600
-    name: Khanid Navy Energized Thermal Membrane
+    name: Khanid Navy Thermal Energized Membrane
     product:
       id: 28542
       quantity: 1
@@ -26602,7 +26602,7 @@ offers:
       lp: 2000
   16473:
     id: 16473
-    name: 5* Large Compact Vorton projector(BPC)
+    name: 5* Large Compact Vorton Projector(BPC)
     product:
       id: 54751
       quantity: 5

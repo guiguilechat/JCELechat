@@ -732,7 +732,6 @@ group2class:
   module/ArmorCoating: fr.guiguilechat.jcelechat.model.sde.types.module.ArmorCoating
   module/ArmorHardener: fr.guiguilechat.jcelechat.model.sde.types.module.ArmorHardener
   module/ArmorPlate: fr.guiguilechat.jcelechat.model.sde.types.module.ArmorPlate
-  module/ArmorPlatingEnergized: fr.guiguilechat.jcelechat.model.sde.types.module.ArmorPlatingEnergized
   module/ArmorRepairUnit: fr.guiguilechat.jcelechat.model.sde.types.module.ArmorRepairUnit
   module/ArmorResistanceShiftHardener: fr.guiguilechat.jcelechat.model.sde.types.module.ArmorResistanceShiftHardener
   module/AutomatedTargetingSystem: fr.guiguilechat.jcelechat.model.sde.types.module.AutomatedTargetingSystem
@@ -761,6 +760,7 @@ group2class:
   module/DroneTrackingModules: fr.guiguilechat.jcelechat.model.sde.types.module.DroneTrackingModules
   module/ECM: fr.guiguilechat.jcelechat.model.sde.types.module.ECM
   module/ECMStabilizer: fr.guiguilechat.jcelechat.model.sde.types.module.ECMStabilizer
+  module/EnergizedArmorMembrane: fr.guiguilechat.jcelechat.model.sde.types.module.EnergizedArmorMembrane
   module/EnergyNeutralizer: fr.guiguilechat.jcelechat.model.sde.types.module.EnergyNeutralizer
   module/EnergyNosferatu: fr.guiguilechat.jcelechat.model.sde.types.module.EnergyNosferatu
   module/EnergyWeapon: fr.guiguilechat.jcelechat.model.sde.types.module.EnergyWeapon
@@ -5267,42 +5267,42 @@ id2name:
   11208: Advanced Sensor Upgrades
   11209: Barren Asteroid
   11210: Sheared Rock Formation
-  11215: Basic Energized EM Membrane
-  11216: Basic Energized EM Membrane Blueprint
-  11217: Energized EM Membrane I
-  11218: Energized EM Membrane I Blueprint
-  11219: Energized EM Membrane II
-  11220: Energized EM Membrane II Blueprint
-  11225: Basic Energized Explosive Membrane
-  11226: Basic Energized Explosive Membrane Blueprint
-  11227: Energized Explosive Membrane I
-  11228: Energized Explosive Membrane I Blueprint
-  11229: Energized Explosive Membrane II
-  11230: Energized Explosive Membrane II Blueprint
-  11235: Basic Energized Armor Layering Membrane
-  11236: Basic Energized Armor Layering Membrane Blueprint
-  11237: Energized Armor Layering Membrane I
-  11238: Energized Armor Layering Membrane I Blueprint
-  11239: Energized Armor Layering Membrane II
-  11240: Energized Armor Layering Membrane II Blueprint
-  11245: Basic Energized Kinetic Membrane
-  11246: Basic Energized Kinetic Membrane Blueprint
-  11247: Energized Kinetic Membrane I
-  11248: Energized Kinetic Membrane I Blueprint
-  11249: Energized Kinetic Membrane II
-  11250: Energized Kinetic Membrane II Blueprint
-  11255: Basic Energized Thermal Membrane
-  11256: Basic Energized Thermal Membrane Blueprint
-  11257: Energized Thermal Membrane I
-  11258: Energized Thermal Membrane I Blueprint
-  11259: Energized Thermal Membrane II
-  11260: Energized Thermal Membrane II Blueprint
-  11265: Basic Energized Adaptive Nano Membrane
-  11266: Basic Energized Adaptive Nano Membrane Blueprint
-  11267: Energized Adaptive Nano Membrane I
-  11268: Energized Adaptive Nano Membrane I Blueprint
-  11269: Energized Adaptive Nano Membrane II
-  11270: Energized Adaptive Nano Membrane II Blueprint
+  11215: '''Basic'' EM Energized Membrane'
+  11216: '''Basic'' EM Energized Membrane Blueprint'
+  11217: EM Energized Membrane I
+  11218: EM Energized Membrane I Blueprint
+  11219: EM Energized Membrane II
+  11220: EM Energized Membrane II Blueprint
+  11225: '''Basic'' Explosive Energized Membrane'
+  11226: '''Basic'' Explosive Energized Membrane Blueprint'
+  11227: Explosive Energized Membrane I
+  11228: Explosive Energized Membrane I Blueprint
+  11229: Explosive Energized Membrane II
+  11230: Explosive Energized Membrane II Blueprint
+  11235: '''Basic'' Layered Energized Membrane'
+  11236: '''Basic'' Layered Energized Membrane Blueprint'
+  11237: Layered Energized Membrane I
+  11238: Layered Energized Membrane I Blueprint
+  11239: Layered Energized Membrane II
+  11240: Layered Energized Membrane II Blueprint
+  11245: '''Basic'' Kinetic Energized Membrane'
+  11246: '''Basic'' Kinetic Energized Membrane Blueprint'
+  11247: Kinetic Energized Membrane I
+  11248: Kinetic Energized Membrane I Blueprint
+  11249: Kinetic Energized Membrane II
+  11250: Kinetic Energized Membrane II Blueprint
+  11255: '''Basic'' Thermal Energized Membrane'
+  11256: '''Basic'' Thermal Energized Membrane Blueprint'
+  11257: Thermal Energized Membrane I
+  11258: Thermal Energized Membrane I Blueprint
+  11259: Thermal Energized Membrane II
+  11260: Thermal Energized Membrane II Blueprint
+  11265: '''Basic'' Multispectrum Energized Membrane'
+  11266: '''Basic'' Multispectrum Energized Membrane Blueprint'
+  11267: Multispectrum Energized Membrane I
+  11268: Multispectrum Energized Membrane I Blueprint
+  11269: Multispectrum Energized Membrane II
+  11270: Multispectrum Energized Membrane II Blueprint
   11277: Thermal Armor Hardener I
   11278: Thermal Armor Hardener I Blueprint
   11279: 1600mm Steel Plates I
@@ -6757,21 +6757,21 @@ id2name:
   14067: Shadow Serpentis Large Armor Repairer
   14068: Shadow Serpentis Medium Armor Repairer
   14069: Shadow Serpentis Small Armor Repairer
-  14070: Dark Blood Energized Adaptive Nano Membrane
-  14072: True Sansha Energized Adaptive Nano Membrane
-  14074: Shadow Serpentis Energized Adaptive Nano Membrane
-  14076: Dark Blood Energized Kinetic Membrane
-  14078: True Sansha Energized Kinetic Membrane
-  14080: Shadow Serpentis Energized Kinetic Membrane
-  14082: Dark Blood Energized Explosive Membrane
-  14084: True Sansha Energized Explosive Membrane
-  14086: Shadow Serpentis Energized Explosive Membrane
-  14088: Dark Blood Energized EM Membrane
-  14090: True Sansha Energized EM Membrane
-  14092: Shadow Serpentis Energized EM Membrane
-  14094: Dark Blood Energized Thermal Membrane
-  14096: True Sansha Energized Thermal Membrane
-  14098: Shadow Serpentis Energized Thermal Membrane
+  14070: Dark Blood Multispectrum Energized Membrane
+  14072: True Sansha Multispectrum Energized Membrane
+  14074: Shadow Serpentis Multispectrum Energized Membrane
+  14076: Dark Blood Kinetic Energized Membrane
+  14078: True Sansha Kinetic Energized Membrane
+  14080: Shadow Serpentis Kinetic Energized Membrane
+  14082: Dark Blood Explosive Energized Membrane
+  14084: True Sansha Explosive Energized Membrane
+  14086: Shadow Serpentis Explosive Energized Membrane
+  14088: Dark Blood EM Energized Membrane
+  14090: True Sansha EM Energized Membrane
+  14092: Shadow Serpentis EM Energized Membrane
+  14094: Dark Blood Thermal Energized Membrane
+  14096: True Sansha Thermal Energized Membrane
+  14098: Shadow Serpentis Thermal Energized Membrane
   14100: Domination Tracking Enhancer
   14102: Domination 100MN Afterburner
   14104: Shadow Serpentis 100MN Afterburner
@@ -7183,46 +7183,46 @@ id2name:
   14930: Ahremen's Modified Thermal Coating
   14932: Chelm's Modified Thermal Coating
   14934: Draclira's Modified Thermal Coating
-  14936: Brokara's Modified Energized Adaptive Nano Membrane
-  14938: Tairei's Modified Energized Adaptive Nano Membrane
-  14940: Selynne's Modified Energized Adaptive Nano Membrane
-  14942: Raysere's Modified Energized Adaptive Nano Membrane
-  14944: Vizan's Modified Energized Adaptive Nano Membrane
-  14946: Ahremen's Modified Energized Adaptive Nano Membrane
-  14948: Chelm's Modified Energized Adaptive Nano Membrane
-  14950: Draclira's Modified Energized Adaptive Nano Membrane
-  14952: Brokara's Modified Energized Thermal Membrane
-  14954: Tairei's Modified Energized Thermal Membrane
-  14956: Selynne's Modified Energized Thermal Membrane
-  14958: Raysere's Modified Energized Thermal Membrane
-  14960: Vizan's Modified Energized Thermal Membrane
-  14962: Ahremen's Modified Energized Thermal Membrane
-  14964: Chelm's Modified Energized Thermal Membrane
-  14966: Draclira's Modified Energized Thermal Membrane
-  14968: Brokara's Modified Energized EM Membrane
-  14970: Tairei's Modified Energized EM Membrane
-  14972: Selynne's Modified Energized EM Membrane
-  14974: Raysere's Modified Energized EM Membrane
-  14976: Vizan's Modified Energized EM Membrane
-  14978: Ahremen's Modified Energized EM Membrane
-  14980: Chelm's Modified Energized EM Membrane
-  14982: Draclira's Modified Energized EM Membrane
-  14984: Brokara's Modified Energized Explosive Membrane
-  14986: Tairei's Modified Energized Explosive Membrane
-  14988: Selynne's Modified Energized Explosive Membrane
-  14990: Raysere's Modified Energized Explosive Membrane
-  14992: Vizan's Modified Energized Explosive Membrane
-  14994: Ahremen's Modified Energized Explosive Membrane
-  14996: Chelm's Modified Energized Explosive Membrane
-  14998: Draclira's Modified Energized Explosive Membrane
-  15000: Brokara's Modified Energized Kinetic Membrane
-  15002: Tairei's Modified Energized Kinetic Membrane
-  15004: Selynne's Modified Energized Kinetic Membrane
-  15006: Raysere's Modified Energized Kinetic Membrane
-  15008: Vizan's Modified Energized Kinetic Membrane
-  15010: Ahremen's Modified Energized Kinetic Membrane
-  15012: Chelm's Modified Energized Kinetic Membrane
-  15014: Draclira's Modified Energized Kinetic Membrane
+  14936: Brokara's Modified Multispectrum Energized Membrane
+  14938: Tairei's Modified Multispectrum Energized Membrane
+  14940: Selynne's Modified Multispectrum Energized Membrane
+  14942: Raysere's Modified Multispectrum Energized Membrane
+  14944: Vizan's Modified Multispectrum Energized Membrane
+  14946: Ahremen's Modified Multispectrum Energized Membrane
+  14948: Chelm's Modified Multispectrum Energized Membrane
+  14950: Draclira's Modified Multispectrum Energized Membrane
+  14952: Brokara's Modified Thermal Energized Membrane
+  14954: Tairei's Modified Thermal Energized Membrane
+  14956: Selynne's Modified Thermal Energized Membrane
+  14958: Raysere's Modified Thermal Energized Membrane
+  14960: Vizan's Modified Thermal Energized Membrane
+  14962: Ahremen's Modified Thermal Energized Membrane
+  14964: Chelm's Modified Thermal Energized Membrane
+  14966: Draclira's Modified Thermal Energized Membrane
+  14968: Brokara's Modified EM Energized Membrane
+  14970: Tairei's Modified EM Energized Membrane
+  14972: Selynne's Modified EM Energized Membrane
+  14974: Raysere's Modified EM Energized Membrane
+  14976: Vizan's Modified EM Energized Membrane
+  14978: Ahremen's Modified EM Energized Membrane
+  14980: Chelm's Modified EM Energized Membrane
+  14982: Draclira's Modified EM Energized Membrane
+  14984: Brokara's Modified Explosive Energized Membrane
+  14986: Tairei's Modified Explosive Energized Membrane
+  14988: Selynne's Modified Explosive Energized Membrane
+  14990: Raysere's Modified Explosive Energized Membrane
+  14992: Vizan's Modified Explosive Energized Membrane
+  14994: Ahremen's Modified Explosive Energized Membrane
+  14996: Chelm's Modified Explosive Energized Membrane
+  14998: Draclira's Modified Explosive Energized Membrane
+  15000: Brokara's Modified Kinetic Energized Membrane
+  15002: Tairei's Modified Kinetic Energized Membrane
+  15004: Selynne's Modified Kinetic Energized Membrane
+  15006: Raysere's Modified Kinetic Energized Membrane
+  15008: Vizan's Modified Kinetic Energized Membrane
+  15010: Ahremen's Modified Kinetic Energized Membrane
+  15012: Chelm's Modified Kinetic Energized Membrane
+  15014: Draclira's Modified Kinetic Energized Membrane
   15016: Brokara's Modified EM Armor Hardener
   15018: Tairei's Modified EM Armor Hardener
   15020: Selynne's Modified EM Armor Hardener
@@ -7319,26 +7319,26 @@ id2name:
   15198: Tuvan's Modified Kinetic Coating
   15200: Setele's Modified Kinetic Coating
   15202: Cormack's Modified Kinetic Coating
-  15204: Brynn's Modified Energized Adaptive Nano Membrane
-  15206: Tuvan's Modified Energized Adaptive Nano Membrane
-  15208: Setele's Modified Energized Adaptive Nano Membrane
-  15210: Cormack's Modified Energized Adaptive Nano Membrane
-  15212: Brynn's Modified Energized Thermal Membrane
-  15214: Tuvan's Modified Energized Thermal Membrane
-  15216: Setele's Modified Energized Thermal Membrane
-  15218: Cormack's Modified Energized Thermal Membrane
-  15220: Brynn's Modified Energized EM Membrane
-  15222: Tuvan's Modified Energized EM Membrane
-  15224: Setele's Modified Energized EM Membrane
-  15226: Cormack's Modified Energized EM Membrane
-  15228: Brynn's Modified Energized Explosive Membrane
-  15230: Tuvan's Modified Energized Explosive Membrane
-  15232: Setele's Modified Energized Explosive Membrane
-  15234: Cormack's Modified Energized Explosive Membrane
-  15236: Brynn's Modified Energized Kinetic Membrane
-  15238: Tuvan's Modified Energized Kinetic Membrane
-  15240: Setele's Modified Energized Kinetic Membrane
-  15242: Cormack's Modified Energized Kinetic Membrane
+  15204: Brynn's Modified Multispectrum Energized Membrane
+  15206: Tuvan's Modified Multispectrum Energized Membrane
+  15208: Setele's Modified Multispectrum Energized Membrane
+  15210: Cormack's Modified Multispectrum Energized Membrane
+  15212: Brynn's Modified Thermal Energized Membrane
+  15214: Tuvan's Modified Thermal Energized Membrane
+  15216: Setele's Modified Thermal Energized Membrane
+  15218: Cormack's Modified Thermal Energized Membrane
+  15220: Brynn's Modified EM Energized Membrane
+  15222: Tuvan's Modified EM Energized Membrane
+  15224: Setele's Modified EM Energized Membrane
+  15226: Cormack's Modified EM Energized Membrane
+  15228: Brynn's Modified Explosive Energized Membrane
+  15230: Tuvan's Modified Explosive Energized Membrane
+  15232: Setele's Modified Explosive Energized Membrane
+  15234: Cormack's Modified Explosive Energized Membrane
+  15236: Brynn's Modified Kinetic Energized Membrane
+  15238: Tuvan's Modified Kinetic Energized Membrane
+  15240: Setele's Modified Kinetic Energized Membrane
+  15242: Cormack's Modified Kinetic Energized Membrane
   15244: Brynn's Modified EM Armor Hardener
   15246: Tuvan's Modified EM Armor Hardener
   15248: Setele's Modified EM Armor Hardener
@@ -7603,26 +7603,26 @@ id2name:
   15718: Republic Fleet Explosive Armor Hardener Blueprint
   15719: Republic Fleet EM Armor Hardener
   15720: Republic Fleet EM Armor Hardener Blueprint
-  15721: Imperial Navy Energized Thermal Membrane
-  15722: Imperial Navy Energized Thermal Membrane Blueprint
-  15723: Imperial Navy Energized EM Membrane
-  15724: Imperial Navy Energized EM Membrane Blueprint
-  15725: Imperial Navy Energized Explosive Membrane
-  15726: Imperial Navy Energized Explosive Membrane Blueprint
-  15727: Imperial Navy Energized Kinetic Membrane
-  15728: Imperial Navy Energized Kinetic Membrane Blueprint
-  15729: Imperial Navy Energized Adaptive Nano Membrane
-  15730: Imperial Navy Energized Adaptive Nano Membrane Blueprint
-  15731: Federation Navy Energized Thermal Membrane
-  15732: Federation Navy Energized Thermal Membrane Blueprint
-  15733: Federation Navy Energized EM Membrane
-  15734: Federation Navy Energized EM Membrane Blueprint
-  15735: Federation Navy Energized Explosive Membrane
-  15736: Federation Navy Energized Explosive Membrane Blueprint
-  15737: Federation Navy Energized Kinetic Membrane
-  15738: Federation Navy Energized Kinetic Membrane Blueprint
-  15739: Federation Navy Energized Adaptive Nano Membrane
-  15740: Federation Navy Energized Adaptive Nano Membrane Blueprint
+  15721: Imperial Navy Thermal Energized Membrane
+  15722: Imperial Navy Thermal Energized Membrane Blueprint
+  15723: Imperial Navy EM Energized Membrane
+  15724: Imperial Navy EM Energized Membrane Blueprint
+  15725: Imperial Navy Explosive Energized Membrane
+  15726: Imperial Navy Explosive Energized Membrane Blueprint
+  15727: Imperial Navy Kinetic Energized Membrane
+  15728: Imperial Navy Kinetic Energized Membrane Blueprint
+  15729: Imperial Navy Multispectrum Energized Membrane
+  15730: Imperial Navy Multispectrum Energized Membrane Blueprint
+  15731: Federation Navy Thermal Energized Membrane
+  15732: Federation Navy Thermal Energized Membrane Blueprint
+  15733: Federation Navy EM Energized Membrane
+  15734: Federation Navy EM Energized Membrane Blueprint
+  15735: Federation Navy Explosive Energized Membrane
+  15736: Federation Navy Explosive Energized Membrane Blueprint
+  15737: Federation Navy Kinetic Energized Membrane
+  15738: Federation Navy Kinetic Energized Membrane Blueprint
+  15739: Federation Navy Multispectrum Energized Membrane
+  15740: Federation Navy Multispectrum Energized Membrane Blueprint
   15741: Ammatar Navy Small Armor Repairer
   15742: Ammatar Navy Medium Armor Repairer
   15743: Ammatar Navy Large Armor Repairer
@@ -8155,27 +8155,27 @@ id2name:
   16385: Upgraded Energized Adaptive Nano Membrane I
   16387: Limited Energized Adaptive Nano Membrane I
   16389: Experimental Energized Adaptive Nano Membrane I
-  16391: Prototype Energized Adaptive Nano Membrane I
+  16391: Compact Multispectrum Energized Membrane
   16393: Upgraded Energized Kinetic Membrane I
   16395: Limited Energized Kinetic Membrane I
   16397: Experimental Energized Kinetic Membrane I
-  16399: Prototype Energized Kinetic Membrane I
+  16399: Compact Kinetic Energized Membrane
   16401: Upgraded Energized Explosive Membrane I
   16403: Limited Energized Explosive Membrane I
   16405: Experimental Energized Explosive Membrane I
-  16407: Prototype Energized Explosive Membrane I
+  16407: Compact Explosive Energized Membrane
   16409: Upgraded Energized EM Membrane I
   16411: Limited Energized EM Membrane I
   16413: Experimental Energized EM Membrane I
-  16415: Prototype Energized EM Membrane I
+  16415: Compact EM Energized Membrane
   16417: Upgraded Energized Armor Layering Membrane I
   16419: Limited Energized Armor Layering Membrane I
   16421: Experimental Energized Armor Layering Membrane I
-  16423: Prototype Energized Armor Layering Membrane I
+  16423: Compact Layered Energized Membrane
   16425: Upgraded Energized Thermal Membrane I
   16427: Limited Energized Thermal Membrane I
   16429: Experimental Energized Thermal Membrane I
-  16431: Prototype Energized Thermal Membrane I
+  16431: Compact Thermal Energized Membrane
   16433: Small I-ax Enduring Remote Armor Repairer
   16435: Small Coaxial Compact Remote Armor Repairer
   16437: Small 'Arup' Remote Armor Repairer
@@ -9095,16 +9095,16 @@ id2name:
   17527: Imperial Navy Cap Recharger Blueprint
   17528: Imperial Navy Capacitor Power Relay
   17529: Imperial Navy Capacitor Power Relay Blueprint
-  17536: Ammatar Navy Energized Adaptive Nano Membrane
-  17537: Ammatar Navy Energized Adaptive Nano Membrane Blueprint
-  17538: Ammatar Navy Energized Kinetic Membrane
-  17539: Ammatar Navy Energized Kinetic Membrane Blueprint
-  17540: Ammatar Navy Energized Explosive Membrane
-  17541: Ammatar Navy Energized Explosive Membrane Blueprint
-  17542: Ammatar Navy Energized EM Membrane
-  17543: Ammatar Navy Energized EM Membrane Blueprint
-  17544: Ammatar Navy Energized Thermal Membrane
-  17545: Ammatar Navy Energized Thermal Membrane Blueprint
+  17536: Ammatar Navy Multispectrum Energized Membrane
+  17537: Ammatar Navy Multispectrum Energized Membrane Blueprint
+  17538: Ammatar Navy Kinetic Energized Membrane
+  17539: Ammatar Navy Kinetic Energized Membrane Blueprint
+  17540: Ammatar Navy Explosive Energized Membrane
+  17541: Ammatar Navy Explosive Energized Membrane Blueprint
+  17542: Ammatar Navy EM Energized Membrane
+  17543: Ammatar Navy EM Energized Membrane Blueprint
+  17544: Ammatar Navy Thermal Energized Membrane
+  17545: Ammatar Navy Thermal Energized Membrane Blueprint
   17546: Imperial Navy Large Armor Repairer
   17547: Imperial Navy Medium Armor Repairer
   17548: Imperial Navy Small Armor Repairer
@@ -9720,49 +9720,49 @@ id2name:
   18793: Coreli A-Type Explosive Coating
   18795: Coreli A-Type EM Coating
   18797: Coreli A-Type Thermal Coating
-  18799: Corelum C-Type Energized Adaptive Nano Membrane
-  18801: Corelum C-Type Energized Kinetic Membrane
-  18803: Corelum C-Type Energized Explosive Membrane
-  18805: Corelum C-Type Energized EM Membrane
-  18807: Corelum C-Type Energized Thermal Membrane
-  18809: Corelum B-Type Energized Adaptive Nano Membrane
-  18811: Corelum B-Type Energized Kinetic Membrane
-  18813: Corelum B-Type Energized Explosive Membrane
-  18815: Corelum B-Type Energized EM Membrane
-  18817: Corelum B-Type Energized Thermal Membrane
-  18819: Corelum A-Type Energized Adaptive Nano Membrane
-  18821: Corelum A-Type Energized Kinetic Membrane
-  18823: Corelum A-Type Energized Explosive Membrane
-  18825: Corelum A-Type Energized EM Membrane
-  18827: Corelum A-Type Energized Thermal Membrane
-  18829: Corpum C-Type Energized Adaptive Nano Membrane
-  18831: Centum C-Type Energized Adaptive Nano Membrane
-  18833: Corpum C-Type Energized Kinetic Membrane
-  18835: Centum C-Type Energized Kinetic Membrane
-  18837: Corpum C-Type Energized Explosive Membrane
-  18839: Centum C-Type Energized Explosive Membrane
-  18841: Corpum C-Type Energized EM Membrane
-  18843: Centum C-Type Energized EM Membrane
-  18845: Corpum C-Type Energized Thermal Membrane
-  18847: Centum C-Type Energized Thermal Membrane
-  18849: Corpum B-Type Energized Adaptive Nano Membrane
-  18851: Centum B-Type Energized Adaptive Nano Membrane
-  18853: Corpum B-Type Energized Kinetic Membrane
-  18855: Centum B-Type Energized Kinetic Membrane
-  18857: Corpum B-Type Energized Explosive Membrane
-  18859: Centum B-Type Energized Explosive Membrane
-  18861: Corpum B-Type Energized Thermal Membrane
-  18863: Centum B-Type Energized Thermal Membrane
-  18865: Corpum A-Type Energized Thermal Membrane
-  18867: Centum A-Type Energized Thermal Membrane
-  18869: Corpum A-Type Energized EM Membrane
-  18871: Centum A-Type Energized EM Membrane
-  18873: Corpum A-Type Energized Explosive Membrane
-  18875: Centum A-Type Energized Explosive Membrane
-  18877: Corpum A-Type Energized Kinetic Membrane
-  18879: Centum A-Type Energized Kinetic Membrane
-  18881: Corpum A-Type Energized Adaptive Nano Membrane
-  18883: Centum A-Type Energized Adaptive Nano Membrane
+  18799: Corelum C-Type Multispectrum Energized Membrane
+  18801: Corelum C-Type Kinetic Energized Membrane
+  18803: Corelum C-Type Explosive Energized Membrane
+  18805: Corelum C-Type EM Energized Membrane
+  18807: Corelum C-Type Thermal Energized Membrane
+  18809: Corelum B-Type Multispectrum Energized Membrane
+  18811: Corelum B-Type Kinetic Energized Membrane
+  18813: Corelum B-Type Explosive Energized Membrane
+  18815: Corelum B-Type EM Energized Membrane
+  18817: Corelum B-Type Thermal Energized Membrane
+  18819: Corelum A-Type Multispectrum Energized Membrane
+  18821: Corelum A-Type Kinetic Energized Membrane
+  18823: Corelum A-Type Explosive Energized Membrane
+  18825: Corelum A-Type EM Energized Membrane
+  18827: Corelum A-Type Thermal Energized Membrane
+  18829: Corpum C-Type Multispectrum Energized Membrane
+  18831: Centum C-Type Multispectrum Energized Membrane
+  18833: Corpum C-Type Kinetic Energized Membrane
+  18835: Centum C-Type Kinetic Energized Membrane
+  18837: Corpum C-Type Explosive Energized Membrane
+  18839: Centum C-Type Explosive Energized Membrane
+  18841: Corpum C-Type EM Energized Membrane
+  18843: Centum C-Type EM Energized Membrane
+  18845: Corpum C-Type Thermal Energized Membrane
+  18847: Centum C-Type Thermal Energized Membrane
+  18849: Corpum B-Type Multispectrum Energized Membrane
+  18851: Centum B-Type Multispectrum Energized Membrane
+  18853: Corpum B-Type Kinetic Energized Membrane
+  18855: Centum B-Type Kinetic Energized Membrane
+  18857: Corpum B-Type Explosive Energized Membrane
+  18859: Centum B-Type Explosive Energized Membrane
+  18861: Corpum B-Type Thermal Energized Membrane
+  18863: Centum B-Type Thermal Energized Membrane
+  18865: Corpum A-Type Thermal Energized Membrane
+  18867: Centum A-Type Thermal Energized Membrane
+  18869: Corpum A-Type EM Energized Membrane
+  18871: Centum A-Type EM Energized Membrane
+  18873: Corpum A-Type Explosive Energized Membrane
+  18875: Centum A-Type Explosive Energized Membrane
+  18877: Corpum A-Type Kinetic Energized Membrane
+  18879: Centum A-Type Kinetic Energized Membrane
+  18881: Corpum A-Type Multispectrum Energized Membrane
+  18883: Centum A-Type Multispectrum Energized Membrane
   18885: Corpus C-Type EM Armor Hardener
   18887: Centus C-Type EM Armor Hardener
   18889: Corpus C-Type Explosive Armor Hardener
@@ -9999,8 +9999,8 @@ id2name:
   19351: Gistum A-Type 50MN Microwarpdrive
   19353: Gist A-Type 500MN Microwarpdrive
   19359: Gist X-Type 500MN Microwarpdrive
-  19361: Corpum B-Type Energized EM Membrane
-  19363: Centum B-Type Energized EM Membrane
+  19361: Corpum B-Type EM Energized Membrane
+  19363: Centum B-Type EM Energized Membrane
   19365: Sarum Customs General
   19366: Ammatar Customs General
   19367: Caldari Customs Commissioner
@@ -12247,12 +12247,12 @@ id2name:
   22876: '''Aura'' Warp Core Stabilizer I Blueprint'
   22877: '''Natura'' Warp Core Stabilizer I'
   22878: '''Natura'' Warp Core Stabilizer I Blueprint'
-  22879: '''Pilfer'' Energized Adaptive Nano Membrane I'
-  22880: '''Pilfer'' Energized Adaptive Nano Membrane I Blueprint'
-  22881: '''Moonshine'' Energized Thermal Membrane I'
-  22882: '''Moonshine'' Energized Thermal Membrane I Blueprint'
-  22883: '''Mafia'' Energized Kinetic Membrane I'
-  22884: '''Mafia'' Energized Kinetic Membrane I Blueprint'
+  22879: '''Pilfer'' Multispectrum Energized Membrane'
+  22880: '''Pilfer'' Multispectrum Energized Membrane Blueprint'
+  22881: '''Moonshine'' Thermal Energized Membrane'
+  22882: '''Moonshine'' Thermal Energized Membrane Blueprint'
+  22883: '''Mafia'' Kinetic Energized Membrane'
+  22884: '''Mafia'' Kinetic Energized Membrane Blueprint'
   22885: Stealth System I
   22886: Stealth System I Blueprint
   22887: '''Harmony'' Small Armor Repairer I'
@@ -16683,16 +16683,16 @@ id2name:
   28531: Khanid Navy Cap Recharger Blueprint
   28532: Khanid Navy Capacitor Power Relay
   28533: Khanid Navy Capacitor Power Relay Blueprint
-  28534: Khanid Navy Energized Adaptive Nano Membrane
-  28535: Khanid Navy Energized Adaptive Nano Membrane Blueprint
-  28536: Khanid Navy Energized Kinetic Membrane
-  28537: Khanid Navy Energized Kinetic Membrane Blueprint
-  28538: Khanid Navy Energized Explosive Membrane
-  28539: Khanid Navy Energized Explosive Membrane Blueprint
-  28540: Khanid Navy Energized EM Membrane
-  28541: Khanid Navy Energized EM Membrane Blueprint
-  28542: Khanid Navy Energized Thermal Membrane
-  28543: Khanid Navy Energized Thermal Membrane Blueprint
+  28534: Khanid Navy Multispectrum Energized Membrane
+  28535: Khanid Navy Multispectrum Energized Membrane Blueprint
+  28536: Khanid Navy Kinetic Energized Membrane
+  28537: Khanid Navy Kinetic Energized Membrane Blueprint
+  28538: Khanid Navy Explosive Energized Membrane
+  28539: Khanid Navy Explosive Energized Membrane Blueprint
+  28540: Khanid Navy EM Energized Membrane
+  28541: Khanid Navy EM Energized Membrane Blueprint
+  28542: Khanid Navy Thermal Energized Membrane
+  28543: Khanid Navy Thermal Energized Membrane Blueprint
   28544: Khanid Navy Large Armor Repairer
   28545: Khanid Navy Large EMP Smartbomb
   28546: Khanid Navy Large EMP Smartbomb Blueprint
@@ -17216,7 +17216,7 @@ id2name:
   29209: Billboard
   29211: Faulty Suntendi Virtu-Real Implant
   29212: Suntendi Research Outpost
-  29213: Habitation Module w/4xScientists
+  29213: Habitation Module - Scientist Quarters
   29214: Quarantine Station Ruins
   29215: Unidentified Spacecraft
   29216: Heiress
@@ -18335,7 +18335,7 @@ id2name:
   30812: Corin Risia
   30813: Wrecked Ship
   30814: FR Personnel
-  30815: Habitation Module w/FR Personnel
+  30815: Habitation Module - Personnel Quarters
   30816: Medical Supplies
   30818: Izia Tabar
   30819: Mysterious Drone
@@ -22734,7 +22734,7 @@ id2name:
   36461: Massive Debris
   36462: Massive Debris
   36463: Massive Debris
-  36464: '[no messageID: 507048]'
+  36464: Vortex
   36465: Command Node Beacon
   36480: Men's 'Hephaestus' Shirt (blue)
   36481: Men's 'Hephaestus' Shirt (white/red)
@@ -29776,11 +29776,6 @@ id2name:
   44240: Garmur Bluebird SKIN
   44241: Orthrus Bluebird SKIN
   44242: Barghest Bluebird SKIN
-  44243: '[no messageID: 523791]'
-  44244: '[no messageID: 523793]'
-  44245: '[no messageID: 523795]'
-  44246: '[no messageID: 523797]'
-  44247: '[no messageID: 523799]'
   44248: Enlistment (Amarr) for Naval Capsuleers
   44249: Enlistment (Caldari) for Naval Capsuleers
   44250: Enlistment (Gallente) for Naval Capsuleers
@@ -33029,13 +33024,10 @@ id2name:
   48076: Upwell G2L- Outpost Rig
   48077: Upwell A3L-- Outpost Rig
   48078: Upwell M3RLP Outpost Rig
-  48079: '[no messageID: 536334]'
   48080: Mutaplasmid Residue
   48081: Women's Triglavian Survival Suit (Bioadaptive)
   48082: Men's Triglavian Survival Suit (Bioadaptive)
   48083: PantsEngM01_silver.type
-  48084: '[no messageID: 536407]'
-  48085: '[no messageID: 536408]'
   48086: Ghosting Damavik
   48087: Starving Vedmak
   48088: Tangling Damavik
@@ -36235,7 +36227,7 @@ id2name:
   54718: 54718_Male_Accessories_Masks_Mask_M_Types_Mask_M_blue.png
   54719: 54719_Male_Accessories_Masks_Mask_M_Types_Mask_M_blackredsoe.png
   54720: 54720_Male_Accessories_Masks_Mask_M_Types_Mask_M_darkblue.png
-  54721: '[no messageID: 563644]'
+  54721: CD Supplemental Spawner
   54722: EDENCOM Production Facility
   54723: EDENCOM Research Complex
   54726: Invasion Triglavian Major Conduit Small Wave Spawner
@@ -36262,7 +36254,7 @@ id2name:
   54748: Medium Vorton Projector II
   54749: Medium Consortium Vorton Projector
   54750: Large Vorton Projector I
-  54751: Large Compact Vorton projector
+  54751: Large Compact Vorton Projector
   54752: Large Scoped Vorton Projector
   54753: Large Vorton Projector II
   54754: Large Consortium Vorton Projector
@@ -36371,7 +36363,7 @@ id2name:
   54872: SlamBolt Condenser Pack L Blueprint
   54873: Vorton Tuning System I Blueprint
   54874: Compact Vorton Tuning System  Blueprint
-  54875: '[no messageID: 564090]'
+  54875: unused blueprint type
   54876: Vorton Tuning System II Blueprint
   54877: unused blueprint type
   54878: unused blueprint type
@@ -36885,6 +36877,10 @@ id2name:
   55857: Men's 'Proven Kybernaut' Combat Suit
   55858: Men's Triglavian Survival Suit (Proving Grounds)
   55859: Character Attributes Remap Certificate
+  55860: '''Pickpocket'' EM Energized Membrane'
+  55861: '''Pickpocket'' EM Energized Membrane Blueprint'
+  55862: '''Bribe'' Explosive Energized Membrane'
+  55863: '''Bribe'' Explosive Energized Membrane Blueprint'
   55864: Slasher Tronhadar Ink SKIN (30 days Limited)
   55865: Rifter Tronhadar Ink SKIN (30 days Limited)
   55866: Stabber Tronhadar Ink SKIN (30 days Limited)
@@ -36933,6 +36929,8 @@ id2name:
   55909: EGDLI (2) Skin Tier 2 (Alpha)
   55910: EGDLI (2) Skin Tier 3 (Alpha)
   55911: 'EGDLI (2) Abyssal Tier 4 (Alpha) '
+  55912: Fort Knocks Wreck
+  55913: Fort Knocks Wreck Beacon
   55919: TES Jamyl the Liberator
   55920: TES Yonis the Pious
   55921: TES Uriam of Fiery Heart
@@ -36963,6 +36961,30 @@ id2name:
   55981: Amarr Foundation Day Fireworks Crate
   55982: Event 5 Proving Filament
   55983: Event 6 Proving Filament
+  55984: Skybreaker Bluestar Defenders SKIN
+  55985: Stormbringer Bluestar Defenders SKIN
+  55986: Thunderchild Bluestar Defenders SKIN
+  56047: Weak Metaliminal Dark Storm Enviroment
+  56048: Strong Metaliminal Dark Storm Enviroment
+  56049: Weak Metaliminal Electrical Storm Enviroment
+  56050: Strong Metaliminal Electrical Storm Enviroment
+  56051: Weak Metaliminal Exotic Matter Storm Enviroment
+  56052: Strong Metaliminal Exotic Matter Storm Enviroment
+  56053: Weak Metaliminal Gamma Ray Storm Enviroment
+  56054: Strong Metaliminal Gamma Ray Storm Enviroment
+  56055: Weak Metaliminal Plasma Firestorm Enviroment
+  56056: Strong Metaliminal Plasma Firestorm Enviroment
+  56057: Strong Metaliminal Electrical Storm
+  56058: Weak Metaliminal Exotic Matter Storm
+  56059: Strong Metaliminal Exotic Matter Storm
+  56060: Weak Metaliminal Gamma Ray Storm
+  56061: Strong Metaliminal Gamma Ray Storm
+  56062: Weak Metaliminal Plasma Firestorm
+  56063: Strong Metaliminal Plasma Firestorm
+  56064: Weak Metaliminal Electrical Storm
+  56092: Event 7 Proving Filament
+  56093: Event 8 Proving Filament
+  56094: Event 9 Proving Filament
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -39577,18 +39599,28 @@ name2group:
   '''Basic'' Capacitor Recharger': module/CapacitorRecharger
   '''Basic'' Damage Control': module/DamageControl
   '''Basic'' EM Coating': module/ArmorCoating
+  '''Basic'' EM Energized Membrane': module/EnergizedArmorMembrane
+  '''Basic'' EM Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Basic'' EM Shield Amplifier': module/ShieldResistanceAmplifier
   '''Basic'' Expanded Cargohold': module/ExpandedCargohold
   '''Basic'' Explosive Coating': module/ArmorCoating
+  '''Basic'' Explosive Energized Membrane': module/EnergizedArmorMembrane
+  '''Basic'' Explosive Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Basic'' Explosive Shield Amplifier': module/ShieldResistanceAmplifier
   '''Basic'' Gyrostabilizer': module/Gyrostabilizer
   '''Basic'' Heat Sink': module/HeatSink
   '''Basic'' Inertial Stabilizers': module/InertialStabilizer
   '''Basic'' Kinetic Coating': module/ArmorCoating
+  '''Basic'' Kinetic Energized Membrane': module/EnergizedArmorMembrane
+  '''Basic'' Kinetic Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Basic'' Kinetic Shield Amplifier': module/ShieldResistanceAmplifier
   '''Basic'' Layered Coating': module/ArmorCoating
+  '''Basic'' Layered Energized Membrane': module/EnergizedArmorMembrane
+  '''Basic'' Layered Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Basic'' Magnetic Field Stabilizer': module/MagneticFieldStabilizer
   '''Basic'' Multispectrum Coating': module/ArmorCoating
+  '''Basic'' Multispectrum Energized Membrane': module/EnergizedArmorMembrane
+  '''Basic'' Multispectrum Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Basic'' Nanofiber Internal Structure': module/NanofiberInternalStructure
   '''Basic'' Overdrive Injector System': module/OverdriveInjectorSystem
   '''Basic'' Power Diagnostic System': module/PowerDiagnosticSystem
@@ -39597,6 +39629,8 @@ name2group:
   '''Basic'' Shield Power Relay': module/ShieldPowerRelay
   '''Basic'' Signal Amplifier': module/SignalAmplifier
   '''Basic'' Thermal Coating': module/ArmorCoating
+  '''Basic'' Thermal Energized Membrane': module/EnergizedArmorMembrane
+  '''Basic'' Thermal Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Basic'' Thermal Shield Amplifier': module/ShieldResistanceAmplifier
   '''Basic'' Tracking Enhancer': module/TrackingEnhancer
   '''Basilo'' Basic-H M-I': infantry/InfantryDropsuits
@@ -39624,6 +39658,8 @@ name2group:
   '''Bootleg'' Remote Sensor Booster': module/RemoteSensorBooster
   '''Bootleg'' Remote Sensor Booster Blueprint': blueprint/SensorBoosterBlueprint
   '''Bravo Company'' GA-L SKIN': infantry/InfantryColorSkin
+  '''Bribe'' Explosive Energized Membrane': module/EnergizedArmorMembrane
+  '''Bribe'' Explosive Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Brille'' Enhanced Reactive Plates': infantry/InfantryModules
   '''Brimstone'' ST-1 Missile Launcher': infantry/InfantryWeapons
   '''Broadside'' MH-82 Heavy Machine Gun': infantry/InfantryWeapons
@@ -39996,8 +40032,8 @@ name2group:
   '''Mace'' Dual Light Beam Laser I Blueprint': blueprint/EnergyWeaponBlueprint
   '''Macro'' Enhanced Cardiac Stimulant': infantry/InfantryModules
   '''Maelstrom'' R11-4 Flux Nanohive': infantry/InfantryEquipment
-  '''Mafia'' Energized Kinetic Membrane I': module/ArmorPlatingEnergized
-  '''Mafia'' Energized Kinetic Membrane I Blueprint': blueprint/ArmorCoatingBlueprint
+  '''Mafia'' Kinetic Energized Membrane': module/EnergizedArmorMembrane
+  '''Mafia'' Kinetic Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Magni'' Assault M-I+': infantry/InfantryDropsuits
   '''Magpie'' Mobile Tractor Unit': deployable/MobileTractorUnit
   '''Magpie'' Mobile Tractor Unit Blueprint': blueprint/MobileTractorUnitBlueprint
@@ -40036,8 +40072,8 @@ name2group:
   '''Monolith'' Basic Armor Repairer': infantry/InfantryModules
   '''Monopoly'' Magnetic Field Stabilizer': module/MagneticFieldStabilizer
   '''Monopoly'' Magnetic Field Stabilizer Blueprint': blueprint/GunneryUpgradeBlueprint
-  '''Moonshine'' Energized Thermal Membrane I': module/ArmorPlatingEnergized
-  '''Moonshine'' Energized Thermal Membrane I Blueprint': blueprint/ArmorCoatingBlueprint
+  '''Moonshine'' Thermal Energized Membrane': module/EnergizedArmorMembrane
+  '''Moonshine'' Thermal Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Moreau'' Fortizar': structure/Citadel
   '''Mortis'' 80GJ Particle Accelerator': infantry/InfantryWeapons
   '''Motte'' Capacitor Power Relay I': module/CapacitorPowerRelay
@@ -40158,10 +40194,12 @@ name2group:
   '''Phantasm'' ARN-18 Cloak Field': infantry/InfantryEquipment
   '''Pickaxe'' Rapid Light Missile Launcher': module/MissileLauncherRapidLight
   '''Pickaxe'' Rapid Light Missile Launcher Blueprint': blueprint/MissileLauncherBlueprint
+  '''Pickpocket'' EM Energized Membrane': module/EnergizedArmorMembrane
+  '''Pickpocket'' EM Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Pike'' Small EMP Smartbomb I': module/SmartBomb
   '''Pike'' Small EMP Smartbomb I Blueprint': blueprint/SmartBombBlueprint
-  '''Pilfer'' Energized Adaptive Nano Membrane I': module/ArmorPlatingEnergized
-  '''Pilfer'' Energized Adaptive Nano Membrane I Blueprint': blueprint/ArmorCoatingBlueprint
+  '''Pilfer'' Multispectrum Energized Membrane': module/EnergizedArmorMembrane
+  '''Pilfer'' Multispectrum Energized Membrane Blueprint': blueprint/ArmorCoatingBlueprint
   '''Piru'' Basic-L C-I': infantry/InfantryDropsuits
   '''Plough'' Heavy Capacitor Booster I': module/CapacitorBooster
   '''Plough'' Heavy Capacitor Booster I Blueprint': blueprint/CapacitorBoosterBlueprint
@@ -40761,7 +40799,6 @@ name2group:
   280mm Howitzer Artillery II Blueprint: blueprint/ProjectileWeaponBlueprint
   280mm Prototype Siege Cannon: module/ProjectileWeapon
   2nd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  2v2 Cruiser Brawl Proving Filament: commodity/AbyssalProvingFilaments
   300 Aurum Token: accessories/LegacyCurrency
   300 Billion ISK Contract Copy: specialeditionassets/SpecialEditionCommodities
   30km Amarr Capture Point: entity/CapturePoint
@@ -40777,7 +40814,6 @@ name2group:
   350mm Railgun II: module/HybridWeapon
   350mm Railgun II Blueprint: blueprint/HybridWeaponBlueprint
   3rd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  3v3 Slicers Proving Filament: commodity/AbyssalProvingFilaments
   400mm Crystalline Carbonide Restrained Plates: module/ArmorPlate
   400mm Rolled Tungsten Compact Plates: module/ArmorPlate
   400mm Steel Plates I: module/ArmorPlate
@@ -41220,27 +41256,27 @@ name2group:
   Ahremen's Modified Dual Heavy Pulse Laser: module/EnergyWeapon
   Ahremen's Modified EM Armor Hardener: module/ArmorHardener
   Ahremen's Modified EM Coating: module/ArmorCoating
-  Ahremen's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Ahremen's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Ahremen's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Ahremen's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Ahremen's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Ahremen's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Ahremen's Modified Explosive Armor Hardener: module/ArmorHardener
   Ahremen's Modified Explosive Coating: module/ArmorCoating
+  Ahremen's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Ahremen's Modified Heat Sink: module/HeatSink
   Ahremen's Modified Heavy Capacitor Booster: module/CapacitorBooster
   Ahremen's Modified Heavy Energy Neutralizer: module/EnergyNeutralizer
   Ahremen's Modified Heavy Energy Nosferatu: module/EnergyNosferatu
   Ahremen's Modified Kinetic Armor Hardener: module/ArmorHardener
   Ahremen's Modified Kinetic Coating: module/ArmorCoating
+  Ahremen's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Ahremen's Modified Large Armor Repairer: module/ArmorRepairUnit
   Ahremen's Modified Large EMP Smartbomb: module/SmartBomb
   Ahremen's Modified Mega Pulse Laser: module/EnergyWeapon
   Ahremen's Modified Multispectrum Coating: module/ArmorCoating
+  Ahremen's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Ahremen's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Ahremen's Modified Reactor Control Unit: module/ReactorControlUnit
   Ahremen's Modified Thermal Armor Hardener: module/ArmorHardener
   Ahremen's Modified Thermal Coating: module/ArmorCoating
+  Ahremen's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Aidonis Honorary Fellow Medallion: commodity/Miscellaneous
   Aiko Temura: entity/MissionGenericFrigates
   Air Show Entrance Badge: commodity/Miscellaneous
@@ -41570,22 +41606,16 @@ name2group:
   Ammatar Navy EM Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Ammatar Navy EM Coating: module/ArmorCoating
   Ammatar Navy EM Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Ammatar Navy EM Energized Membrane: module/EnergizedArmorMembrane
+  Ammatar Navy EM Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Ammatar Navy Elite Soldier: entity/MissionAmarrEmpireFrigate
-  Ammatar Navy Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Ammatar Navy Energized Adaptive Nano Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Ammatar Navy Energized EM Membrane: module/ArmorPlatingEnergized
-  Ammatar Navy Energized EM Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Ammatar Navy Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Ammatar Navy Energized Explosive Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Ammatar Navy Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Ammatar Navy Energized Kinetic Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Ammatar Navy Energized Thermal Membrane: module/ArmorPlatingEnergized
-  Ammatar Navy Energized Thermal Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Ammatar Navy Executioner: entity/MissionAmarrEmpireFrigate
   Ammatar Navy Explosive Armor Hardener: module/ArmorHardener
   Ammatar Navy Explosive Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Ammatar Navy Explosive Coating: module/ArmorCoating
   Ammatar Navy Explosive Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Ammatar Navy Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Ammatar Navy Explosive Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Ammatar Navy Fleet Commander: entity/MissionAmarrEmpireBattleship
   Ammatar Navy Fleet Commander Insignia: commodity/EmpireInsigniaDrops
   Ammatar Navy Focused Medium Beam Laser: module/EnergyWeapon
@@ -41609,6 +41639,8 @@ name2group:
   Ammatar Navy Kinetic Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Ammatar Navy Kinetic Coating: module/ArmorCoating
   Ammatar Navy Kinetic Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Ammatar Navy Kinetic Energized Membrane: module/EnergizedArmorMembrane
+  Ammatar Navy Kinetic Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Ammatar Navy Large Armor Repairer: module/ArmorRepairUnit
   Ammatar Navy Large EMP Smartbomb: module/SmartBomb
   Ammatar Navy Large EMP Smartbomb Blueprint: blueprint/SmartBombBlueprint
@@ -41633,6 +41665,8 @@ name2group:
   Ammatar Navy Midshipman Insignia III: commodity/EmpireInsigniaDrops
   Ammatar Navy Multispectrum Coating: module/ArmorCoating
   Ammatar Navy Multispectrum Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Ammatar Navy Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Ammatar Navy Multispectrum Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Ammatar Navy Officer: entity/MissionAmarrEmpireFrigate
   Ammatar Navy Power Diagnostic System: module/PowerDiagnosticSystem
   Ammatar Navy Power Diagnostic System Blueprint: blueprint/PowerManagerBlueprint
@@ -41668,6 +41702,8 @@ name2group:
   Ammatar Navy Thermal Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Ammatar Navy Thermal Coating: module/ArmorCoating
   Ammatar Navy Thermal Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Ammatar Navy Thermal Energized Membrane: module/EnergizedArmorMembrane
+  Ammatar Navy Thermal Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Ammatar Personnel Transport: entity/MissionAmarrEmpireCruiser
   Ammatar Point Defense Battery: entity/DestructibleSentryGun
   Ammatar Slave Trader: entity/MissionAmarrEmpireCruiser
@@ -42793,18 +42829,6 @@ name2group:
   Basic Countermeasure: infantry/InfantryModules
   Basic Decryptor2: infantry/SalvageDecryptors
   Basic Dispersion Stabilizer: infantry/InfantryModules
-  Basic Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Basic Energized Adaptive Nano Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Basic Energized Armor Layering Membrane: module/ArmorPlatingEnergized
-  Basic Energized Armor Layering Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Basic Energized EM Membrane: module/ArmorPlatingEnergized
-  Basic Energized EM Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Basic Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Basic Energized Explosive Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Basic Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Basic Energized Kinetic Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Basic Energized Thermal Membrane: module/ArmorPlatingEnergized
-  Basic Energized Thermal Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Basic Ferroscale Plates: infantry/InfantryModules
   Basic Fuel Injector: infantry/InfantryModules
   Basic Heat Sink: infantry/InfantryModules
@@ -43375,27 +43399,27 @@ name2group:
   Brokara's Modified Dual Heavy Pulse Laser: module/EnergyWeapon
   Brokara's Modified EM Armor Hardener: module/ArmorHardener
   Brokara's Modified EM Coating: module/ArmorCoating
-  Brokara's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Brokara's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Brokara's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Brokara's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Brokara's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Brokara's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Brokara's Modified Explosive Armor Hardener: module/ArmorHardener
   Brokara's Modified Explosive Coating: module/ArmorCoating
+  Brokara's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Brokara's Modified Heat Sink: module/HeatSink
   Brokara's Modified Heavy Capacitor Booster: module/CapacitorBooster
   Brokara's Modified Heavy Energy Neutralizer: module/EnergyNeutralizer
   Brokara's Modified Heavy Energy Nosferatu: module/EnergyNosferatu
   Brokara's Modified Kinetic Armor Hardener: module/ArmorHardener
   Brokara's Modified Kinetic Coating: module/ArmorCoating
+  Brokara's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Brokara's Modified Large Armor Repairer: module/ArmorRepairUnit
   Brokara's Modified Large EMP Smartbomb: module/SmartBomb
   Brokara's Modified Mega Pulse Laser: module/EnergyWeapon
   Brokara's Modified Multispectrum Coating: module/ArmorCoating
+  Brokara's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Brokara's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Brokara's Modified Reactor Control Unit: module/ReactorControlUnit
   Brokara's Modified Thermal Armor Hardener: module/ArmorHardener
   Brokara's Modified Thermal Coating: module/ArmorCoating
+  Brokara's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Broken Broadcast Node: commodity/Miscellaneous
   Broken Bug Device: commodity/Commodities
   Broken ComLink Scanner: commodity/Commodities
@@ -43478,24 +43502,24 @@ name2group:
   Brynn's Modified Dual 250mm Railgun: module/HybridWeapon
   Brynn's Modified EM Armor Hardener: module/ArmorHardener
   Brynn's Modified EM Coating: module/ArmorCoating
-  Brynn's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Brynn's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Brynn's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Brynn's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Brynn's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Brynn's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Brynn's Modified Explosive Armor Hardener: module/ArmorHardener
   Brynn's Modified Explosive Coating: module/ArmorCoating
+  Brynn's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Brynn's Modified Kinetic Armor Hardener: module/ArmorHardener
   Brynn's Modified Kinetic Coating: module/ArmorCoating
+  Brynn's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Brynn's Modified Large Armor Repairer: module/ArmorRepairUnit
   Brynn's Modified Large Plasma Smartbomb: module/SmartBomb
   Brynn's Modified Magnetic Field Stabilizer: module/MagneticFieldStabilizer
   Brynn's Modified Multispectrum Coating: module/ArmorCoating
+  Brynn's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Brynn's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Brynn's Modified Reactor Control Unit: module/ReactorControlUnit
   Brynn's Modified Sensor Booster: module/SensorBooster
   Brynn's Modified Thermal Armor Hardener: module/ArmorHardener
   Brynn's Modified Thermal Coating: module/ArmorCoating
+  Brynn's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Brynn's Modified Tracking Computer: module/TrackingComputer
   Bug-Ridden Corpse: commodity/Commodities
   Burned Logic Circuit: material/SalvagedMaterials
@@ -45086,31 +45110,31 @@ name2group:
   Central Data Core: commodity/Miscellaneous
   Central System Controller: material/AncientSalvage
   Centrien's Shuttle: entity/SpawnContainer
-  Centum A-Type Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Centum A-Type Energized EM Membrane: module/ArmorPlatingEnergized
-  Centum A-Type Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Centum A-Type Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Centum A-Type Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Centum A-Type EM Energized Membrane: module/EnergizedArmorMembrane
+  Centum A-Type Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Centum A-Type Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Centum A-Type Medium Armor Repairer: module/ArmorRepairUnit
   Centum A-Type Medium Remote Armor Repairer: module/RemoteArmorRepairer
   Centum A-Type Medium Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
-  Centum B-Type Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Centum B-Type Energized EM Membrane: module/ArmorPlatingEnergized
-  Centum B-Type Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Centum B-Type Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Centum B-Type Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Centum A-Type Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Centum A-Type Thermal Energized Membrane: module/EnergizedArmorMembrane
+  Centum B-Type EM Energized Membrane: module/EnergizedArmorMembrane
+  Centum B-Type Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Centum B-Type Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Centum B-Type Medium Armor Repairer: module/ArmorRepairUnit
   Centum B-Type Medium Remote Armor Repairer: module/RemoteArmorRepairer
   Centum B-Type Medium Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
+  Centum B-Type Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Centum B-Type Thermal Energized Membrane: module/EnergizedArmorMembrane
   Centum Beast: entity/DeadspaceSanshaSNationCruiser
-  Centum C-Type Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Centum C-Type Energized EM Membrane: module/ArmorPlatingEnergized
-  Centum C-Type Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Centum C-Type Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Centum C-Type Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Centum C-Type EM Energized Membrane: module/EnergizedArmorMembrane
+  Centum C-Type Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Centum C-Type Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Centum C-Type Medium Armor Repairer: module/ArmorRepairUnit
   Centum C-Type Medium Remote Armor Repairer: module/RemoteArmorRepairer
   Centum C-Type Medium Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
+  Centum C-Type Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Centum C-Type Thermal Energized Membrane: module/EnergizedArmorMembrane
   Centum Execrator: entity/DeadspaceSanshaSNationCruiser
   Centum Fiend: entity/DeadspaceSanshaSNationCruiser
   Centum Hellhound: entity/DeadspaceSanshaSNationCruiser
@@ -45266,28 +45290,28 @@ name2group:
   Chelm's Modified Dual Heavy Beam Laser: module/EnergyWeapon
   Chelm's Modified EM Armor Hardener: module/ArmorHardener
   Chelm's Modified EM Coating: module/ArmorCoating
-  Chelm's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Chelm's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Chelm's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Chelm's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Chelm's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Chelm's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Chelm's Modified Explosive Armor Hardener: module/ArmorHardener
   Chelm's Modified Explosive Coating: module/ArmorCoating
+  Chelm's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Chelm's Modified Heat Sink: module/HeatSink
   Chelm's Modified Heavy Capacitor Booster: module/CapacitorBooster
   Chelm's Modified Heavy Energy Neutralizer: module/EnergyNeutralizer
   Chelm's Modified Heavy Energy Nosferatu: module/EnergyNosferatu
   Chelm's Modified Kinetic Armor Hardener: module/ArmorHardener
   Chelm's Modified Kinetic Coating: module/ArmorCoating
+  Chelm's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Chelm's Modified Large Armor Repairer: module/ArmorRepairUnit
   Chelm's Modified Large EMP Smartbomb: module/SmartBomb
   Chelm's Modified Mega Beam Laser: module/EnergyWeapon
   Chelm's Modified Multispectrum Coating: module/ArmorCoating
+  Chelm's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Chelm's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Chelm's Modified Reactor Control Unit: module/ReactorControlUnit
   Chelm's Modified Tachyon Beam Laser: module/EnergyWeapon
   Chelm's Modified Thermal Armor Hardener: module/ArmorHardener
   Chelm's Modified Thermal Coating: module/ArmorCoating
+  Chelm's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Chemosh: ship/Dreadnought
   Chemosh Blueprint: blueprint/DreadnoughtBlueprint
   Chemosh Glacial Drift SKIN: skins/PermanentSKIN
@@ -45582,16 +45606,22 @@ name2group:
   Compact Carbine Quad 800mm Repeating Cannon Blueprint: blueprint/ProjectileWeaponBlueprint
   Compact Compounds: material/NamedComponents
   Compact Conductors: material/NamedComponents
+  Compact EM Energized Membrane: module/EnergizedArmorMembrane
   Compact EM Shield Amplifier: module/ShieldResistanceAmplifier
   Compact EM Shield Hardener: module/ShieldHardener
   Compact Electronics: material/NamedComponents
   Compact Entropic Radiation Sink: module/EntropicRadiationSink
+  Compact Explosive Energized Membrane: module/EnergizedArmorMembrane
   Compact Explosive Shield Amplifier: module/ShieldResistanceAmplifier
   Compact Explosive Shield Hardener: module/ShieldHardener
+  Compact Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Compact Kinetic Shield Amplifier: module/ShieldResistanceAmplifier
   Compact Kinetic Shield Hardener: module/ShieldHardener
+  Compact Layered Energized Membrane: module/EnergizedArmorMembrane
+  Compact Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Compact Multispectrum Shield Hardener: module/ShieldHardener
   Compact Nanohive: infantry/InfantryEquipment
+  Compact Thermal Energized Membrane: module/EnergizedArmorMembrane
   Compact Thermal Shield Amplifier: module/ShieldResistanceAmplifier
   Compact Thermal Shield Hardener: module/ShieldHardener
   Compact Vorton Tuning System  Blueprint: blueprint/VortonProjectorUpgradeBlueprints
@@ -45972,31 +46002,31 @@ name2group:
   Corelior Trooper: entity/DeadspaceSerpentisDestroyer
   Corelum A-Type 10MN Afterburner: module/PropulsionModule
   Corelum A-Type 50MN Microwarpdrive: module/PropulsionModule
-  Corelum A-Type Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Corelum A-Type Energized EM Membrane: module/ArmorPlatingEnergized
-  Corelum A-Type Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Corelum A-Type Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Corelum A-Type Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Corelum A-Type EM Energized Membrane: module/EnergizedArmorMembrane
+  Corelum A-Type Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Corelum A-Type Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Corelum A-Type Medium Armor Repairer: module/ArmorRepairUnit
   Corelum A-Type Medium Remote Armor Repairer: module/RemoteArmorRepairer
+  Corelum A-Type Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Corelum A-Type Thermal Energized Membrane: module/EnergizedArmorMembrane
   Corelum B-Type 10MN Afterburner: module/PropulsionModule
   Corelum B-Type 50MN Microwarpdrive: module/PropulsionModule
-  Corelum B-Type Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Corelum B-Type Energized EM Membrane: module/ArmorPlatingEnergized
-  Corelum B-Type Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Corelum B-Type Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Corelum B-Type Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Corelum B-Type EM Energized Membrane: module/EnergizedArmorMembrane
+  Corelum B-Type Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Corelum B-Type Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Corelum B-Type Medium Armor Repairer: module/ArmorRepairUnit
   Corelum B-Type Medium Remote Armor Repairer: module/RemoteArmorRepairer
+  Corelum B-Type Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Corelum B-Type Thermal Energized Membrane: module/EnergizedArmorMembrane
   Corelum C-Type 10MN Afterburner: module/PropulsionModule
   Corelum C-Type 50MN Microwarpdrive: module/PropulsionModule
-  Corelum C-Type Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Corelum C-Type Energized EM Membrane: module/ArmorPlatingEnergized
-  Corelum C-Type Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Corelum C-Type Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Corelum C-Type Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Corelum C-Type EM Energized Membrane: module/EnergizedArmorMembrane
+  Corelum C-Type Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Corelum C-Type Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Corelum C-Type Medium Armor Repairer: module/ArmorRepairUnit
   Corelum C-Type Medium Remote Armor Repairer: module/RemoteArmorRepairer
+  Corelum C-Type Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Corelum C-Type Thermal Energized Membrane: module/EnergizedArmorMembrane
   Corelum Chief Defender: entity/DeadspaceSerpentisCruiser
   Corelum Chief Guard: entity/DeadspaceSerpentisCruiser
   Corelum Chief Infantry: entity/DeadspaceSerpentisCruiser
@@ -46026,27 +46056,27 @@ name2group:
   Cormack's Modified Damage Control: module/DamageControl
   Cormack's Modified EM Armor Hardener: module/ArmorHardener
   Cormack's Modified EM Coating: module/ArmorCoating
+  Cormack's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Cormack's Modified Electron Blaster Cannon: module/HybridWeapon
-  Cormack's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Cormack's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Cormack's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Cormack's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Cormack's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
   Cormack's Modified Explosive Armor Hardener: module/ArmorHardener
   Cormack's Modified Explosive Coating: module/ArmorCoating
+  Cormack's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Cormack's Modified Ion Blaster Cannon: module/HybridWeapon
   Cormack's Modified Kinetic Armor Hardener: module/ArmorHardener
   Cormack's Modified Kinetic Coating: module/ArmorCoating
+  Cormack's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Cormack's Modified Large Armor Repairer: module/ArmorRepairUnit
   Cormack's Modified Large Plasma Smartbomb: module/SmartBomb
   Cormack's Modified Magnetic Field Stabilizer: module/MagneticFieldStabilizer
   Cormack's Modified Multispectrum Coating: module/ArmorCoating
+  Cormack's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Cormack's Modified Neutron Blaster Cannon: module/HybridWeapon
   Cormack's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Cormack's Modified Reactor Control Unit: module/ReactorControlUnit
   Cormack's Modified Sensor Booster: module/SensorBooster
   Cormack's Modified Thermal Armor Hardener: module/ArmorHardener
   Cormack's Modified Thermal Coating: module/ArmorCoating
+  Cormack's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Cormack's Modified Tracking Computer: module/TrackingComputer
   Cormorant: ship/Destroyer
   Cormorant Abyssal Firestorm SKIN: skins/PermanentSKIN
@@ -46146,40 +46176,40 @@ name2group:
   Corpse Male: celestial/Biomass
   Corpse Stash: entity/SpawnContainer
   Corpse of Enlil Bel: commodity/Commodities
-  Corpum A-Type Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Corpum A-Type Energized EM Membrane: module/ArmorPlatingEnergized
-  Corpum A-Type Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Corpum A-Type Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Corpum A-Type Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Corpum A-Type EM Energized Membrane: module/EnergizedArmorMembrane
+  Corpum A-Type Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Corpum A-Type Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Corpum A-Type Medium Armor Repairer: module/ArmorRepairUnit
   Corpum A-Type Medium Energy Neutralizer: module/EnergyNeutralizer
   Corpum A-Type Medium Energy Nosferatu: module/EnergyNosferatu
   Corpum A-Type Medium Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
+  Corpum A-Type Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Corpum A-Type Thermal Energized Membrane: module/EnergizedArmorMembrane
   Corpum Arch Engraver: entity/DeadspaceBloodRaidersCruiser
   Corpum Arch Priest: entity/DeadspaceBloodRaidersCruiser
   Corpum Arch Reaver: entity/DeadspaceBloodRaidersCruiser
   Corpum Arch Sage: entity/DeadspaceBloodRaidersCruiser
   Corpum Arch Sage_COSMOS: entity/StorylineCruiser
   Corpum Arch Templar: entity/DeadspaceBloodRaidersCruiser
-  Corpum B-Type Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Corpum B-Type Energized EM Membrane: module/ArmorPlatingEnergized
-  Corpum B-Type Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Corpum B-Type Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Corpum B-Type Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Corpum B-Type EM Energized Membrane: module/EnergizedArmorMembrane
+  Corpum B-Type Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Corpum B-Type Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Corpum B-Type Medium Armor Repairer: module/ArmorRepairUnit
   Corpum B-Type Medium Energy Neutralizer: module/EnergyNeutralizer
   Corpum B-Type Medium Energy Nosferatu: module/EnergyNosferatu
   Corpum B-Type Medium Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
+  Corpum B-Type Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Corpum B-Type Thermal Energized Membrane: module/EnergizedArmorMembrane
   Corpum Blood Duke: entity/StorylineCruiser
-  Corpum C-Type Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Corpum C-Type Energized EM Membrane: module/ArmorPlatingEnergized
-  Corpum C-Type Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Corpum C-Type Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Corpum C-Type Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Corpum C-Type EM Energized Membrane: module/EnergizedArmorMembrane
+  Corpum C-Type Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Corpum C-Type Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Corpum C-Type Medium Armor Repairer: module/ArmorRepairUnit
   Corpum C-Type Medium Energy Neutralizer: module/EnergyNeutralizer
   Corpum C-Type Medium Energy Nosferatu: module/EnergyNosferatu
   Corpum C-Type Medium Remote Capacitor Transmitter: module/RemoteCapacitorTransmitter
+  Corpum C-Type Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Corpum C-Type Thermal Energized Membrane: module/EnergizedArmorMembrane
   Corpum Commander Medallion: commodity/CriminalTags
   Corpum Dark Priest: entity/DeadspaceBloodRaidersCruiser
   Corpum Priest: entity/DeadspaceBloodRaidersCruiser
@@ -46799,18 +46829,15 @@ name2group:
   Dark Blood Dual Light Pulse Laser: module/EnergyWeapon
   Dark Blood EM Armor Hardener: module/ArmorHardener
   Dark Blood EM Coating: module/ArmorCoating
+  Dark Blood EM Energized Membrane: module/EnergizedArmorMembrane
   Dark Blood Electrum Tag: commodity/CriminalTags
-  Dark Blood Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Dark Blood Energized EM Membrane: module/ArmorPlatingEnergized
-  Dark Blood Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Dark Blood Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Dark Blood Energized Thermal Membrane: module/ArmorPlatingEnergized
   Dark Blood Energy Neutralizing Battery: starbase/EnergyNeutralizingBattery
   Dark Blood Energy Neutralizing Battery Blueprint: blueprint/StarbaseEnergyNeutralizingBatteryBlueprints
   Dark Blood Engraver: entity/AsteroidBloodRaidersCommanderFrigate
   Dark Blood Exorcist: entity/AsteroidBloodRaidersCommanderBattleCruiser
   Dark Blood Explosive Armor Hardener: module/ArmorHardener
   Dark Blood Explosive Coating: module/ArmorCoating
+  Dark Blood Explosive Energized Membrane: module/EnergizedArmorMembrane
   Dark Blood Fanatic: entity/AsteroidBloodRaidersCommanderBattleCruiser
   Dark Blood Focused Medium Beam Laser: module/EnergyWeapon
   Dark Blood Focused Medium Pulse Laser: module/EnergyWeapon
@@ -46838,6 +46865,7 @@ name2group:
   Dark Blood Keeper: entity/DeadspaceOverseerFrigate
   Dark Blood Kinetic Armor Hardener: module/ArmorHardener
   Dark Blood Kinetic Coating: module/ArmorCoating
+  Dark Blood Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Dark Blood Large Armor Repairer: module/ArmorRepairUnit
   Dark Blood Large Beam Laser Battery: starbase/MobileLaserSentry
   Dark Blood Large Beam Laser Battery Blueprint: blueprint/StarbaseLaserBatteryBlueprints
@@ -46866,6 +46894,7 @@ name2group:
   Dark Blood Multifrequency S: charge/FrequencyCrystal
   Dark Blood Multifrequency XL: charge/FrequencyCrystal
   Dark Blood Multispectrum Coating: module/ArmorCoating
+  Dark Blood Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Dark Blood Oracle: entity/AsteroidBloodRaidersCommanderBattleship
   Dark Blood Palladium Tag: commodity/CriminalTags
   Dark Blood Patriarch: entity/AsteroidBloodRaidersCommanderBattleship
@@ -46914,6 +46943,7 @@ name2group:
   Dark Blood Templar: entity/AsteroidBloodRaidersCommanderDestroyer
   Dark Blood Thermal Armor Hardener: module/ArmorHardener
   Dark Blood Thermal Coating: module/ArmorCoating
+  Dark Blood Thermal Energized Membrane: module/EnergizedArmorMembrane
   Dark Blood Titan: entity/AsteroidBloodRaiderTitan
   Dark Blood Ultraviolet L: charge/FrequencyCrystal
   Dark Blood Ultraviolet M: charge/FrequencyCrystal
@@ -47580,28 +47610,28 @@ name2group:
   Draclira's Modified Dual Heavy Beam Laser: module/EnergyWeapon
   Draclira's Modified EM Armor Hardener: module/ArmorHardener
   Draclira's Modified EM Coating: module/ArmorCoating
-  Draclira's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Draclira's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Draclira's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Draclira's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Draclira's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Draclira's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Draclira's Modified Explosive Armor Hardener: module/ArmorHardener
   Draclira's Modified Explosive Coating: module/ArmorCoating
+  Draclira's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Draclira's Modified Heat Sink: module/HeatSink
   Draclira's Modified Heavy Capacitor Booster: module/CapacitorBooster
   Draclira's Modified Heavy Energy Neutralizer: module/EnergyNeutralizer
   Draclira's Modified Heavy Energy Nosferatu: module/EnergyNosferatu
   Draclira's Modified Kinetic Armor Hardener: module/ArmorHardener
   Draclira's Modified Kinetic Coating: module/ArmorCoating
+  Draclira's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Draclira's Modified Large Armor Repairer: module/ArmorRepairUnit
   Draclira's Modified Large EMP Smartbomb: module/SmartBomb
   Draclira's Modified Mega Beam Laser: module/EnergyWeapon
   Draclira's Modified Multispectrum Coating: module/ArmorCoating
+  Draclira's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Draclira's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Draclira's Modified Reactor Control Unit: module/ReactorControlUnit
   Draclira's Modified Tachyon Beam Laser: module/EnergyWeapon
   Draclira's Modified Thermal Armor Hardener: module/ArmorHardener
   Draclira's Modified Thermal Coating: module/ArmorCoating
+  Draclira's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Dragonaurs Caracal: entity/IrregularCruiser
   Dragonaurs Cormorant: entity/IrregularDestroyer
   Dragonaurs Drake: entity/IrregularBattlecruiser
@@ -48226,6 +48256,10 @@ name2group:
   EM Coating I Blueprint: blueprint/ArmorCoatingBlueprint
   EM Coating II: module/ArmorCoating
   EM Coating II Blueprint: blueprint/ArmorCoatingBlueprint
+  EM Energized Membrane I: module/EnergizedArmorMembrane
+  EM Energized Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
+  EM Energized Membrane II: module/EnergizedArmorMembrane
+  EM Energized Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
   EM Pulse Generator: commodity/ConstructionComponents
   EM Pulse Generator Blueprint: blueprint/ConstructionComponentBlueprints
   EM Shield Amplifier I: module/ShieldResistanceAmplifier
@@ -48599,32 +48633,8 @@ name2group:
   Enduring Kinetic Shield Hardener: module/ShieldHardener
   Enduring Multispectrum Shield Hardener: module/ShieldHardener
   Enduring Thermal Shield Hardener: module/ShieldHardener
-  Energized Adaptive Nano Membrane I: module/ArmorPlatingEnergized
-  Energized Adaptive Nano Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized Adaptive Nano Membrane II: module/ArmorPlatingEnergized
-  Energized Adaptive Nano Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized Armor Layering Membrane I: module/ArmorPlatingEnergized
-  Energized Armor Layering Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized Armor Layering Membrane II: module/ArmorPlatingEnergized
-  Energized Armor Layering Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized EM Membrane I: module/ArmorPlatingEnergized
-  Energized EM Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized EM Membrane II: module/ArmorPlatingEnergized
-  Energized EM Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized Explosive Membrane I: module/ArmorPlatingEnergized
-  Energized Explosive Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized Explosive Membrane II: module/ArmorPlatingEnergized
-  Energized Explosive Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized Kinetic Membrane I: module/ArmorPlatingEnergized
-  Energized Kinetic Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized Kinetic Membrane II: module/ArmorPlatingEnergized
-  Energized Kinetic Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
   Energized Nanite Plating: infantry/InfantryModules
   Energized Plating I: infantry/InfantryModules
-  Energized Thermal Membrane I: module/ArmorPlatingEnergized
-  Energized Thermal Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
-  Energized Thermal Membrane II: module/ArmorPlatingEnergized
-  Energized Thermal Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
   Energy Cells: commodity/MaterialsAndCompounds
   Energy Grid Upgrades: skill/Engineering
   Energy Neutralization Burst Projector: module/BurstProjectors
@@ -48902,6 +48912,7 @@ name2group:
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
   Event 4 Proving Filament: commodity/AbyssalProvingFilaments
   Event 5 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 6 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
@@ -49012,12 +49023,6 @@ name2group:
   Experimental Enduring Explosive Armor Hardener I: module/ArmorHardener
   Experimental Enduring Kinetic Armor Hardener I: module/ArmorHardener
   Experimental Enduring Thermal Armor Hardener I: module/ArmorHardener
-  Experimental Energized Adaptive Nano Membrane I: module/ArmorPlatingEnergized
-  Experimental Energized Armor Layering Membrane I: module/ArmorPlatingEnergized
-  Experimental Energized EM Membrane I: module/ArmorPlatingEnergized
-  Experimental Energized Explosive Membrane I: module/ArmorPlatingEnergized
-  Experimental Energized Kinetic Membrane I: module/ArmorPlatingEnergized
-  Experimental Energized Thermal Membrane I: module/ArmorPlatingEnergized
   Experimental Forge Gun: infantry/InfantryWeapons
   Experimental Heavy Machine Gun: infantry/InfantryWeapons
   Experimental Hyperspatial Accelerator: module/WarpAccelerator
@@ -49067,6 +49072,10 @@ name2group:
   Explosive Coating I Blueprint: blueprint/ArmorCoatingBlueprint
   Explosive Coating II: module/ArmorCoating
   Explosive Coating II Blueprint: blueprint/ArmorCoatingBlueprint
+  Explosive Energized Membrane I: module/EnergizedArmorMembrane
+  Explosive Energized Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
+  Explosive Energized Membrane II: module/EnergizedArmorMembrane
+  Explosive Energized Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
   Explosive Shield Amplifier I: module/ShieldResistanceAmplifier
   Explosive Shield Amplifier I Blueprint: blueprint/ShieldResistanceAmplifierBlueprint
   Explosive Shield Amplifier II: module/ShieldResistanceAmplifier
@@ -49097,7 +49106,6 @@ name2group:
   F/45 Remote Explosive: infantry/InfantryEquipment
   F/49 Proximity Explosive: infantry/InfantryEquipment
   F45 Peripheral Damage Control Unit: infantry/InfantryModules
-  FFA Destroyers Proving Filament: commodity/AbyssalProvingFilaments
   FFR Enduring Assault Damage Control: module/DamageControl
   FON Banner: commodity/Commodities
   FON Battleship: entity/StorylineBattleship
@@ -49351,22 +49359,16 @@ name2group:
   Federation Navy EM Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Federation Navy EM Coating: module/ArmorCoating
   Federation Navy EM Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Federation Navy EM Energized Membrane: module/EnergizedArmorMembrane
+  Federation Navy EM Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Federation Navy Electron Blaster Cannon: module/HybridWeapon
   Federation Navy Elite Soldier: entity/MissionGallenteFederationFrigate
-  Federation Navy Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Federation Navy Energized Adaptive Nano Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Federation Navy Energized EM Membrane: module/ArmorPlatingEnergized
-  Federation Navy Energized EM Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Federation Navy Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Federation Navy Energized Explosive Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Federation Navy Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Federation Navy Energized Kinetic Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Federation Navy Energized Thermal Membrane: module/ArmorPlatingEnergized
-  Federation Navy Energized Thermal Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Federation Navy Explosive Armor Hardener: module/ArmorHardener
   Federation Navy Explosive Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Federation Navy Explosive Coating: module/ArmorCoating
   Federation Navy Explosive Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Federation Navy Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Federation Navy Explosive Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Federation Navy First Sergeant: entity/FactionDrone
   Federation Navy Fleet Captain: entity/FactionDrone
   Federation Navy Fleet Captain Insignia I: commodity/EmpireInsigniaDrops
@@ -49401,6 +49403,8 @@ name2group:
   Federation Navy Kinetic Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Federation Navy Kinetic Coating: module/ArmorCoating
   Federation Navy Kinetic Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Federation Navy Kinetic Energized Membrane: module/EnergizedArmorMembrane
+  Federation Navy Kinetic Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Federation Navy Large Armor Repairer: module/ArmorRepairUnit
   Federation Navy Large Plasma Smartbomb: module/SmartBomb
   Federation Navy Large Plasma Smartbomb Blueprint: blueprint/SmartBombBlueprint
@@ -49423,6 +49427,8 @@ name2group:
   Federation Navy Midshipman Insignia III: commodity/EmpireInsigniaDrops
   Federation Navy Multispectrum Coating: module/ArmorCoating
   Federation Navy Multispectrum Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Federation Navy Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Federation Navy Multispectrum Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Federation Navy Neutron Blaster Cannon: module/HybridWeapon
   Federation Navy Officer: entity/MissionGallenteFederationFrigate
   Federation Navy Officer Vexor: entity/MissionGallenteFederationCruiser
@@ -49458,6 +49464,8 @@ name2group:
   Federation Navy Thermal Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Federation Navy Thermal Coating: module/ArmorCoating
   Federation Navy Thermal Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Federation Navy Thermal Energized Membrane: module/EnergizedArmorMembrane
+  Federation Navy Thermal Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Federation Navy Thorax: entity/MissionGallenteFederationCruiser
   Federation Navy Thorium Charge L: charge/HybridCharge
   Federation Navy Thorium Charge M: charge/HybridCharge
@@ -50945,15 +50953,15 @@ name2group:
   Habitation Module - Brothel: entity/LargeCollidableStructure
   Habitation Module - Casino: entity/LargeCollidableStructure
   Habitation Module - Narcotics supermarket: entity/LargeCollidableStructure
+  Habitation Module - Personnel Quarters: entity/SpawnContainer
   Habitation Module - Pleasure hub: entity/LargeCollidableStructure
   Habitation Module - Police base: entity/LargeCollidableStructure
   Habitation Module - Prison: entity/LargeCollidableStructure
   Habitation Module - Residential: entity/LargeCollidableStructure
   Habitation Module - Roadhouse: entity/LargeCollidableStructure
+  Habitation Module - Scientist Quarters: entity/SpawnContainer
   Habitation Module - Tsuna's Science Labs: entity/DeadspaceOverseerSStructure
   Habitation Module With Encoded Data Chip: entity/SpawnContainer
-  Habitation Module w/4xScientists: entity/SpawnContainer
-  Habitation Module w/FR Personnel: entity/SpawnContainer
   Habitation_Module_Container: entity/SpawnContainer
   Hacked Decryptor Key: infantry/SalvageDecryptors
   Hacked Drop Uplink: infantry/InfantryEquipment
@@ -52040,22 +52048,16 @@ name2group:
   Imperial Navy EM Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Imperial Navy EM Coating: module/ArmorCoating
   Imperial Navy EM Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Imperial Navy EM Energized Membrane: module/EnergizedArmorMembrane
+  Imperial Navy EM Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Imperial Navy Elite Soldier: entity/MissionAmarrEmpireFrigate
-  Imperial Navy Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Imperial Navy Energized Adaptive Nano Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Imperial Navy Energized EM Membrane: module/ArmorPlatingEnergized
-  Imperial Navy Energized EM Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Imperial Navy Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Imperial Navy Energized Explosive Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Imperial Navy Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Imperial Navy Energized Kinetic Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Imperial Navy Energized Thermal Membrane: module/ArmorPlatingEnergized
-  Imperial Navy Energized Thermal Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Imperial Navy Executioner: entity/MissionAmarrEmpireFrigate
   Imperial Navy Explosive Armor Hardener: module/ArmorHardener
   Imperial Navy Explosive Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Imperial Navy Explosive Coating: module/ArmorCoating
   Imperial Navy Explosive Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Imperial Navy Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Imperial Navy Explosive Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Imperial Navy Fleet Commander: entity/MissionAmarrEmpireBattleship
   Imperial Navy Fleet Commander Insignia: commodity/EmpireInsigniaDrops
   Imperial Navy Fleet Marshall: entity/FactionDrone
@@ -52094,6 +52096,8 @@ name2group:
   Imperial Navy Kinetic Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Imperial Navy Kinetic Coating: module/ArmorCoating
   Imperial Navy Kinetic Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Imperial Navy Kinetic Energized Membrane: module/EnergizedArmorMembrane
+  Imperial Navy Kinetic Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Imperial Navy Large Armor Repairer: module/ArmorRepairUnit
   Imperial Navy Large EMP Smartbomb: module/SmartBomb
   Imperial Navy Large EMP Smartbomb Blueprint: blueprint/SmartBombBlueprint
@@ -52130,6 +52134,8 @@ name2group:
   Imperial Navy Multifrequency S: charge/FrequencyCrystal
   Imperial Navy Multispectrum Coating: module/ArmorCoating
   Imperial Navy Multispectrum Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Imperial Navy Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Imperial Navy Multispectrum Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Imperial Navy Officer: entity/MissionAmarrEmpireCruiser
   Imperial Navy Omen: entity/MissionAmarrEmpireCruiser
   Imperial Navy Omnidirectional Tracking Enhancer: module/DroneTrackingEnhancer
@@ -52184,6 +52190,8 @@ name2group:
   Imperial Navy Thermal Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Imperial Navy Thermal Coating: module/ArmorCoating
   Imperial Navy Thermal Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Imperial Navy Thermal Energized Membrane: module/EnergizedArmorMembrane
+  Imperial Navy Thermal Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Imperial Navy Ultraviolet L: charge/FrequencyCrystal
   Imperial Navy Ultraviolet M: charge/FrequencyCrystal
   Imperial Navy Ultraviolet S: charge/FrequencyCrystal
@@ -53167,20 +53175,14 @@ name2group:
   Khanid Navy EM Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Khanid Navy EM Coating: module/ArmorCoating
   Khanid Navy EM Coating Blueprint: blueprint/ArmorCoatingBlueprint
-  Khanid Navy Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Khanid Navy Energized Adaptive Nano Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Khanid Navy Energized EM Membrane: module/ArmorPlatingEnergized
-  Khanid Navy Energized EM Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Khanid Navy Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Khanid Navy Energized Explosive Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Khanid Navy Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Khanid Navy Energized Kinetic Membrane Blueprint: blueprint/ArmorCoatingBlueprint
-  Khanid Navy Energized Thermal Membrane: module/ArmorPlatingEnergized
-  Khanid Navy Energized Thermal Membrane Blueprint: blueprint/ArmorCoatingBlueprint
+  Khanid Navy EM Energized Membrane: module/EnergizedArmorMembrane
+  Khanid Navy EM Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Khanid Navy Explosive Armor Hardener: module/ArmorHardener
   Khanid Navy Explosive Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Khanid Navy Explosive Coating: module/ArmorCoating
   Khanid Navy Explosive Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Khanid Navy Explosive Energized Membrane: module/EnergizedArmorMembrane
+  Khanid Navy Explosive Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Khanid Navy General: entity/FactionDrone
   Khanid Navy Heavy Assault Missile Launcher: module/MissileLauncherHeavyAssault
   Khanid Navy Heavy Assault Missile Launcher Blueprint: blueprint/MissileLauncherBlueprint
@@ -53188,6 +53190,8 @@ name2group:
   Khanid Navy Kinetic Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Khanid Navy Kinetic Coating: module/ArmorCoating
   Khanid Navy Kinetic Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Khanid Navy Kinetic Energized Membrane: module/EnergizedArmorMembrane
+  Khanid Navy Kinetic Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Khanid Navy Large Armor Repairer: module/ArmorRepairUnit
   Khanid Navy Large EMP Smartbomb: module/SmartBomb
   Khanid Navy Large EMP Smartbomb Blueprint: blueprint/SmartBombBlueprint
@@ -53197,6 +53201,8 @@ name2group:
   Khanid Navy Medium EMP Smartbomb Blueprint: blueprint/SmartBombBlueprint
   Khanid Navy Multispectrum Coating: module/ArmorCoating
   Khanid Navy Multispectrum Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Khanid Navy Multispectrum Energized Membrane: module/EnergizedArmorMembrane
+  Khanid Navy Multispectrum Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Khanid Navy Rocket Launcher: module/MissileLauncherRocket
   Khanid Navy Rocket Launcher Blueprint: blueprint/MissileLauncherBlueprint
   Khanid Navy Sergeant: entity/FactionDrone
@@ -53209,6 +53215,8 @@ name2group:
   Khanid Navy Thermal Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Khanid Navy Thermal Coating: module/ArmorCoating
   Khanid Navy Thermal Coating Blueprint: blueprint/ArmorCoatingBlueprint
+  Khanid Navy Thermal Energized Membrane: module/EnergizedArmorMembrane
+  Khanid Navy Thermal Energized Membrane Blueprint: blueprint/ArmorCoatingBlueprint
   Khanid Navy Torpedo Launcher: module/MissileLauncherTorpedo
   Khanid Navy Warp Disruptor: module/WarpScrambler
   Khanid Navy Warp Disruptor Blueprint: blueprint/WarpScramblerBlueprint
@@ -53257,6 +53265,10 @@ name2group:
   Kinetic Coating I Blueprint: blueprint/ArmorCoatingBlueprint
   Kinetic Coating II: module/ArmorCoating
   Kinetic Coating II Blueprint: blueprint/ArmorCoatingBlueprint
+  Kinetic Energized Membrane I: module/EnergizedArmorMembrane
+  Kinetic Energized Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
+  Kinetic Energized Membrane II: module/EnergizedArmorMembrane
+  Kinetic Energized Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
   Kinetic Shield Amplifier I: module/ShieldResistanceAmplifier
   Kinetic Shield Amplifier I Blueprint: blueprint/ShieldResistanceAmplifierBlueprint
   Kinetic Shield Amplifier II: module/ShieldResistanceAmplifier
@@ -53513,8 +53525,8 @@ name2group:
   Large Command Processor I: module/RigCore
   Large Command Processor I Blueprint: blueprint/RigBlueprint
   Large Compact Pb-Acid Cap Battery: module/CapacitorBattery
+  Large Compact Vorton Projector: module/VortonProjector
   Large Compact Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
-  Large Compact Vorton projector: module/VortonProjector
   Large Consortium Vorton Projector: module/VortonProjector
   Large Consortium Vorton Projector Blueprint: blueprint/VortonProjectorBlueprint
   Large Container of Explosives: entity/LargeCollidableStructure
@@ -54016,6 +54028,10 @@ name2group:
   Layered Coating I Blueprint: blueprint/ArmorCoatingBlueprint
   Layered Coating II: module/ArmorCoating
   Layered Coating II Blueprint: blueprint/ArmorCoatingBlueprint
+  Layered Energized Membrane I: module/EnergizedArmorMembrane
+  Layered Energized Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
+  Layered Energized Membrane II: module/EnergizedArmorMembrane
+  Layered Energized Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
   Lazarus Trezun: entity/MissionGenericFrigates
   Lazarus's Tag: commodity/CriminalTags
   Lazron Kamon: commodity/Livestock
@@ -54231,12 +54247,6 @@ name2group:
   Limited Cybernetic Subprocessor - Beta: implant/CyberLearning
   Limited Electron Blaster Cannon I: module/HybridWeapon
   Limited Electron Blaster I: module/HybridWeapon
-  Limited Energized Adaptive Nano Membrane I: module/ArmorPlatingEnergized
-  Limited Energized Armor Layering Membrane I: module/ArmorPlatingEnergized
-  Limited Energized EM Membrane I: module/ArmorPlatingEnergized
-  Limited Energized Explosive Membrane I: module/ArmorPlatingEnergized
-  Limited Energized Kinetic Membrane I: module/ArmorPlatingEnergized
-  Limited Energized Thermal Membrane I: module/ArmorPlatingEnergized
   Limited Expanded 'Archiver' Cargo: module/ExpandedCargohold
   Limited Expanded 'Archiver' Cargo Blueprint: blueprint/HullModsBlueprint
   Limited Hyperspatial Accelerator: module/WarpAccelerator
@@ -56885,6 +56895,10 @@ name2group:
   Multispectrum Coating I Blueprint: blueprint/ArmorCoatingBlueprint
   Multispectrum Coating II: module/ArmorCoating
   Multispectrum Coating II Blueprint: blueprint/ArmorCoatingBlueprint
+  Multispectrum Energized Membrane I: module/EnergizedArmorMembrane
+  Multispectrum Energized Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
+  Multispectrum Energized Membrane II: module/EnergizedArmorMembrane
+  Multispectrum Energized Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
   Multispectrum Shield Hardener I: module/ShieldHardener
   Multispectrum Shield Hardener I Blueprint: blueprint/ShieldHardenerBlueprint
   Multispectrum Shield Hardener II: module/ShieldHardener
@@ -58737,12 +58751,6 @@ name2group:
   Prototype Compact Explosive Armor Hardener I: module/ArmorHardener
   Prototype Compact Kinetic Armor Hardener I: module/ArmorHardener
   Prototype Compact Thermal Armor Hardener I: module/ArmorHardener
-  Prototype Energized Adaptive Nano Membrane I: module/ArmorPlatingEnergized
-  Prototype Energized Armor Layering Membrane I: module/ArmorPlatingEnergized
-  Prototype Energized EM Membrane I: module/ArmorPlatingEnergized
-  Prototype Energized Explosive Membrane I: module/ArmorPlatingEnergized
-  Prototype Energized Kinetic Membrane I: module/ArmorPlatingEnergized
-  Prototype Energized Thermal Membrane I: module/ArmorPlatingEnergized
   Prototype Hyperspatial Accelerator: module/WarpAccelerator
   Prototype Hyperspatial Accelerator Blueprint: blueprint/HullModsBlueprint
   Prototype Iris Probe Launcher: module/ScanProbeLauncher
@@ -59247,28 +59255,28 @@ name2group:
   Raysere's Modified Dual Heavy Beam Laser: module/EnergyWeapon
   Raysere's Modified EM Armor Hardener: module/ArmorHardener
   Raysere's Modified EM Coating: module/ArmorCoating
-  Raysere's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Raysere's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Raysere's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Raysere's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Raysere's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Raysere's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Raysere's Modified Explosive Armor Hardener: module/ArmorHardener
   Raysere's Modified Explosive Coating: module/ArmorCoating
+  Raysere's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Raysere's Modified Heat Sink: module/HeatSink
   Raysere's Modified Heavy Capacitor Booster: module/CapacitorBooster
   Raysere's Modified Heavy Energy Neutralizer: module/EnergyNeutralizer
   Raysere's Modified Heavy Energy Nosferatu: module/EnergyNosferatu
   Raysere's Modified Kinetic Armor Hardener: module/ArmorHardener
   Raysere's Modified Kinetic Coating: module/ArmorCoating
+  Raysere's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Raysere's Modified Large Armor Repairer: module/ArmorRepairUnit
   Raysere's Modified Large EMP Smartbomb: module/SmartBomb
   Raysere's Modified Mega Beam Laser: module/EnergyWeapon
   Raysere's Modified Multispectrum Coating: module/ArmorCoating
+  Raysere's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Raysere's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Raysere's Modified Reactor Control Unit: module/ReactorControlUnit
   Raysere's Modified Tachyon Beam Laser: module/EnergyWeapon
   Raysere's Modified Thermal Armor Hardener: module/ArmorHardener
   Raysere's Modified Thermal Coating: module/ArmorCoating
+  Raysere's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Raytio Family Supplies: commodity/Commodities
   Raznaborg Anchoring Damavik: entity/InvadingPrecursorEntities
   Raznaborg Anchoring Drekavac: entity/InvadingPrecursorEntities
@@ -60093,7 +60101,7 @@ name2group:
   Rokh Wiyrkomi SKIN (90 Days): skins/Max90DaySKIN
   Rokh Wiyrkomi Serenity Only SKIN: skins/PermanentSKIN
   Rokh Zento Isideko Combine SKIN: skins/PermanentSKIN
-  Roland: entity/MissionGenericCruisers
+  Roland: entity/MissionGenericFrigates
   Rolette Residence: entity/SpawnContainer
   Rolled Tungsten Alloy: material/IntermediateMaterials
   Rolled Tungsten Alloy Reaction Formula: blueprint/CompositeReactionFormulas
@@ -60885,28 +60893,28 @@ name2group:
   Selynne's Modified Dual Heavy Beam Laser: module/EnergyWeapon
   Selynne's Modified EM Armor Hardener: module/ArmorHardener
   Selynne's Modified EM Coating: module/ArmorCoating
-  Selynne's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Selynne's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Selynne's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Selynne's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Selynne's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Selynne's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Selynne's Modified Explosive Armor Hardener: module/ArmorHardener
   Selynne's Modified Explosive Coating: module/ArmorCoating
+  Selynne's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Selynne's Modified Heat Sink: module/HeatSink
   Selynne's Modified Heavy Capacitor Booster: module/CapacitorBooster
   Selynne's Modified Heavy Energy Neutralizer: module/EnergyNeutralizer
   Selynne's Modified Heavy Energy Nosferatu: module/EnergyNosferatu
   Selynne's Modified Kinetic Armor Hardener: module/ArmorHardener
   Selynne's Modified Kinetic Coating: module/ArmorCoating
+  Selynne's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Selynne's Modified Large Armor Repairer: module/ArmorRepairUnit
   Selynne's Modified Large EMP Smartbomb: module/SmartBomb
   Selynne's Modified Mega Beam Laser: module/EnergyWeapon
   Selynne's Modified Multispectrum Coating: module/ArmorCoating
+  Selynne's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Selynne's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Selynne's Modified Reactor Control Unit: module/ReactorControlUnit
   Selynne's Modified Tachyon Beam Laser: module/EnergyWeapon
   Selynne's Modified Thermal Armor Hardener: module/ArmorHardener
   Selynne's Modified Thermal Coating: module/ArmorCoating
+  Selynne's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Senator Pillius Ardanne: entity/MissionContainer
   Senatorial Silver Star: commodity/Miscellaneous
   Senior Recruiter Assault C-I: infantry/InfantryDropsuits
@@ -61229,24 +61237,24 @@ name2group:
   Setele's Modified Dual 250mm Railgun: module/HybridWeapon
   Setele's Modified EM Armor Hardener: module/ArmorHardener
   Setele's Modified EM Coating: module/ArmorCoating
-  Setele's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Setele's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Setele's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Setele's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Setele's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Setele's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Setele's Modified Explosive Armor Hardener: module/ArmorHardener
   Setele's Modified Explosive Coating: module/ArmorCoating
+  Setele's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Setele's Modified Kinetic Armor Hardener: module/ArmorHardener
   Setele's Modified Kinetic Coating: module/ArmorCoating
+  Setele's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Setele's Modified Large Armor Repairer: module/ArmorRepairUnit
   Setele's Modified Large Plasma Smartbomb: module/SmartBomb
   Setele's Modified Magnetic Field Stabilizer: module/MagneticFieldStabilizer
   Setele's Modified Multispectrum Coating: module/ArmorCoating
+  Setele's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Setele's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Setele's Modified Reactor Control Unit: module/ReactorControlUnit
   Setele's Modified Sensor Booster: module/SensorBooster
   Setele's Modified Thermal Armor Hardener: module/ArmorHardener
   Setele's Modified Thermal Coating: module/ArmorCoating
+  Setele's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Setele's Modified Tracking Computer: module/TrackingComputer
   Seven Assassin: entity/MissionGenericCruisers
   Seven Bodyguard: entity/MissionGenericCruisers
@@ -61400,15 +61408,12 @@ name2group:
   Shadow Serpentis Dual 250mm Railgun: module/HybridWeapon
   Shadow Serpentis EM Armor Hardener: module/ArmorHardener
   Shadow Serpentis EM Coating: module/ArmorCoating
+  Shadow Serpentis EM Energized Membrane: module/EnergizedArmorMembrane
   Shadow Serpentis Electron Blaster Cannon: module/HybridWeapon
   Shadow Serpentis Electrum Tag: commodity/CriminalTags
-  Shadow Serpentis Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Shadow Serpentis Energized EM Membrane: module/ArmorPlatingEnergized
-  Shadow Serpentis Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Shadow Serpentis Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Shadow Serpentis Energized Thermal Membrane: module/ArmorPlatingEnergized
   Shadow Serpentis Explosive Armor Hardener: module/ArmorHardener
   Shadow Serpentis Explosive Coating: module/ArmorCoating
+  Shadow Serpentis Explosive Energized Membrane: module/EnergizedArmorMembrane
   Shadow Serpentis Flotilla Admiral: entity/AsteroidSerpentisCommanderBattleship
   Shadow Serpentis Gold Tag: commodity/CriminalTags
   Shadow Serpentis Grand Admiral: entity/AsteroidSerpentisCommanderBattleship
@@ -61431,6 +61436,7 @@ name2group:
   Shadow Serpentis Ion Siege Blaster Blueprint: blueprint/HybridWeaponBlueprint
   Shadow Serpentis Kinetic Armor Hardener: module/ArmorHardener
   Shadow Serpentis Kinetic Coating: module/ArmorCoating
+  Shadow Serpentis Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Shadow Serpentis Large Armor Repairer: module/ArmorRepairUnit
   Shadow Serpentis Large Plasma Smartbomb: module/SmartBomb
   Shadow Serpentis Light Electron Blaster: module/HybridWeapon
@@ -61442,6 +61448,7 @@ name2group:
   Shadow Serpentis Medium Plasma Smartbomb: module/SmartBomb
   Shadow Serpentis Micro Plasma Smartbomb: module/SmartBomb
   Shadow Serpentis Multispectrum Coating: module/ArmorCoating
+  Shadow Serpentis Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Shadow Serpentis Neutron Blaster Cannon: module/HybridWeapon
   Shadow Serpentis Palladium Tag: commodity/CriminalTags
   Shadow Serpentis Patroller: entity/AsteroidSerpentisCommanderFrigate
@@ -61467,6 +61474,7 @@ name2group:
   Shadow Serpentis Stasis Webifier: module/StasisWeb
   Shadow Serpentis Thermal Armor Hardener: module/ArmorHardener
   Shadow Serpentis Thermal Coating: module/ArmorCoating
+  Shadow Serpentis Thermal Energized Membrane: module/EnergizedArmorMembrane
   Shadow Serpentis Thief: entity/DeadspaceOverseerBattleship
   Shadow Serpentis Titan: entity/AsteroidSerpentisTitan
   Shadow Serpentis Tracking Computer: module/TrackingComputer
@@ -61505,8 +61513,6 @@ name2group:
   Shakyr Personal Guard: entity/MissionGenericFrigates
   Shanty Town Gate Clearance: commodity/AccelerationGateKeys
   Shaqil Dragat's Insignia: commodity/EmpireInsigniaDrops
-  Shaqil's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Shaqil's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
   Shaqil's Modified Gyrostabilizer: module/Gyrostabilizer
   Shaqil's Modified Rapid Heavy Missile Launcher: module/MissileLauncherRapidHeavy
   Shaqil's Speed Enhancer: implant/CyberNavigation
@@ -61612,7 +61618,7 @@ name2group:
   Shipyard Code Part (One half): commodity/AccelerationGateKeys
   Shipyard Tough: entity/LargeCollidableStructure
   Shock Assault: infantry/InfantryDropsuits
-  Shogon: entity/MissionGenericCruisers
+  Shogon: entity/MissionGenericFrigates
   Short Attention Span Bonus: bonus/PhysicalHandicap
   Shotgun: infantry/InfantryWeapons
   Shotgun Ammo Capacity: infantry/InfantrySkills
@@ -61802,6 +61808,7 @@ name2group:
   Skirmish Command Specialist: skill/FleetSupport
   Skybreaker: ship/Frigate
   Skybreaker Blueprint: blueprint/FrigateBlueprint
+  Skybreaker Bluestar Defenders SKIN: skins/PermanentSKIN
   SlamBolt Condenser Pack L: charge/CondenserPack
   SlamBolt Condenser Pack L Blueprint: blueprint/CondenserPackBlueprint
   SlamBolt Condenser Pack M: charge/CondenserPack
@@ -63542,6 +63549,7 @@ name2group:
   Storm Suspended Plasma Extractor: planetaryinteraction/Extractors
   Stormbringer: ship/Cruiser
   Stormbringer Blueprint: blueprint/CruiserBlueprint
+  Stormbringer Bluestar Defenders SKIN: skins/PermanentSKIN
   Strain Annihilator Alvum: entity/DeadspaceRogueDroneCruiser
   Strain Annihilator Drone: entity/AsteroidRogueDroneCruiser
   Strain Atomizer Alvum: entity/DeadspaceRogueDroneCruiser
@@ -63998,27 +64006,27 @@ name2group:
   Tairei's Modified Dual Heavy Pulse Laser: module/EnergyWeapon
   Tairei's Modified EM Armor Hardener: module/ArmorHardener
   Tairei's Modified EM Coating: module/ArmorCoating
-  Tairei's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Tairei's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Tairei's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Tairei's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Tairei's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Tairei's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Tairei's Modified Explosive Armor Hardener: module/ArmorHardener
   Tairei's Modified Explosive Coating: module/ArmorCoating
+  Tairei's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Tairei's Modified Heat Sink: module/HeatSink
   Tairei's Modified Heavy Capacitor Booster: module/CapacitorBooster
   Tairei's Modified Heavy Energy Neutralizer: module/EnergyNeutralizer
   Tairei's Modified Heavy Energy Nosferatu: module/EnergyNosferatu
   Tairei's Modified Kinetic Armor Hardener: module/ArmorHardener
   Tairei's Modified Kinetic Coating: module/ArmorCoating
+  Tairei's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Tairei's Modified Large Armor Repairer: module/ArmorRepairUnit
   Tairei's Modified Large EMP Smartbomb: module/SmartBomb
   Tairei's Modified Mega Pulse Laser: module/EnergyWeapon
   Tairei's Modified Multispectrum Coating: module/ArmorCoating
+  Tairei's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Tairei's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Tairei's Modified Reactor Control Unit: module/ReactorControlUnit
   Tairei's Modified Thermal Armor Hardener: module/ArmorHardener
   Tairei's Modified Thermal Coating: module/ArmorCoating
+  Tairei's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Taisu Magdesh: entity/MissionGenericBattleships
   Taisu Magdesh's Insignia: commodity/EmpireInsigniaDrops
   Takmahl Astral Treatment: commodity/DecryptorsTakmahl
@@ -64426,6 +64434,10 @@ name2group:
   Thermal Coating I Blueprint: blueprint/ArmorCoatingBlueprint
   Thermal Coating II: module/ArmorCoating
   Thermal Coating II Blueprint: blueprint/ArmorCoatingBlueprint
+  Thermal Energized Membrane I: module/EnergizedArmorMembrane
+  Thermal Energized Membrane I Blueprint: blueprint/ArmorCoatingBlueprint
+  Thermal Energized Membrane II: module/EnergizedArmorMembrane
+  Thermal Energized Membrane II Blueprint: blueprint/ArmorCoatingBlueprint
   Thermal Shield Amplifier I: module/ShieldResistanceAmplifier
   Thermal Shield Amplifier I Blueprint: blueprint/ShieldResistanceAmplifierBlueprint
   Thermal Shield Amplifier II: module/ShieldResistanceAmplifier
@@ -64574,6 +64586,7 @@ name2group:
   Thulium Hafnite Reaction Formula: blueprint/CompositeReactionFormulas
   Thunderchild: ship/Battleship
   Thunderchild Blueprint: blueprint/BattleshipBlueprint
+  Thunderchild Bluestar Defenders SKIN: skins/PermanentSKIN
   Thyram Arachnan's Dossier: commodity/Commodities
   Tiamat: ship/ForceReconShip
   Tiamat Blueprint: blueprint/CruiserBlueprint
@@ -64966,16 +64979,13 @@ name2group:
   True Sansha Dual Light Pulse Laser: module/EnergyWeapon
   True Sansha EM Armor Hardener: module/ArmorHardener
   True Sansha EM Coating: module/ArmorCoating
+  True Sansha EM Energized Membrane: module/EnergizedArmorMembrane
   True Sansha Electrum Tag: commodity/CriminalTags
-  True Sansha Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  True Sansha Energized EM Membrane: module/ArmorPlatingEnergized
-  True Sansha Energized Explosive Membrane: module/ArmorPlatingEnergized
-  True Sansha Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  True Sansha Energized Thermal Membrane: module/ArmorPlatingEnergized
   True Sansha Energy Neutralizing Battery: starbase/EnergyNeutralizingBattery
   True Sansha Energy Neutralizing Battery Blueprint: blueprint/StarbaseEnergyNeutralizingBatteryBlueprints
   True Sansha Explosive Armor Hardener: module/ArmorHardener
   True Sansha Explosive Coating: module/ArmorCoating
+  True Sansha Explosive Energized Membrane: module/EnergizedArmorMembrane
   True Sansha Focused Medium Beam Laser: module/EnergyWeapon
   True Sansha Focused Medium Pulse Laser: module/EnergyWeapon
   True Sansha Foreman: entity/DeadspaceOverseerCruiser
@@ -64991,6 +65001,7 @@ name2group:
   True Sansha Heavy Pulse Laser: module/EnergyWeapon
   True Sansha Kinetic Armor Hardener: module/ArmorHardener
   True Sansha Kinetic Coating: module/ArmorCoating
+  True Sansha Kinetic Energized Membrane: module/EnergizedArmorMembrane
   True Sansha Large Armor Repairer: module/ArmorRepairUnit
   True Sansha Large Beam Laser Battery: starbase/MobileLaserSentry
   True Sansha Large Beam Laser Battery Blueprint: blueprint/StarbaseLaserBatteryBlueprints
@@ -65011,6 +65022,7 @@ name2group:
   True Sansha Mega Pulse Laser: module/EnergyWeapon
   True Sansha Micro EMP Smartbomb: module/SmartBomb
   True Sansha Multispectrum Coating: module/ArmorCoating
+  True Sansha Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   True Sansha Palladium Tag: commodity/CriminalTags
   True Sansha Platinum Tag: commodity/CriminalTags
   True Sansha Power Diagnostic System: module/PowerDiagnosticSystem
@@ -65037,6 +65049,7 @@ name2group:
   True Sansha Tachyon Beam Laser: module/EnergyWeapon
   True Sansha Thermal Armor Hardener: module/ArmorHardener
   True Sansha Thermal Coating: module/ArmorCoating
+  True Sansha Thermal Energized Membrane: module/EnergizedArmorMembrane
   True Sansha Torpedo Launcher: module/MissileLauncherTorpedo
   True Sansha Warp Disruption Field Generator: module/WarpDisruptFieldGenerator
   True Sansha Warp Disruptor: module/WarpScrambler
@@ -65147,27 +65160,27 @@ name2group:
   Tuvan's Modified Damage Control: module/DamageControl
   Tuvan's Modified EM Armor Hardener: module/ArmorHardener
   Tuvan's Modified EM Coating: module/ArmorCoating
+  Tuvan's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Tuvan's Modified Electron Blaster Cannon: module/HybridWeapon
-  Tuvan's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Tuvan's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Tuvan's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Tuvan's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Tuvan's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
   Tuvan's Modified Explosive Armor Hardener: module/ArmorHardener
   Tuvan's Modified Explosive Coating: module/ArmorCoating
+  Tuvan's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Tuvan's Modified Ion Blaster Cannon: module/HybridWeapon
   Tuvan's Modified Kinetic Armor Hardener: module/ArmorHardener
   Tuvan's Modified Kinetic Coating: module/ArmorCoating
+  Tuvan's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Tuvan's Modified Large Armor Repairer: module/ArmorRepairUnit
   Tuvan's Modified Large Plasma Smartbomb: module/SmartBomb
   Tuvan's Modified Magnetic Field Stabilizer: module/MagneticFieldStabilizer
   Tuvan's Modified Multispectrum Coating: module/ArmorCoating
+  Tuvan's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Tuvan's Modified Neutron Blaster Cannon: module/HybridWeapon
   Tuvan's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Tuvan's Modified Reactor Control Unit: module/ReactorControlUnit
   Tuvan's Modified Sensor Booster: module/SensorBooster
   Tuvan's Modified Thermal Armor Hardener: module/ArmorHardener
   Tuvan's Modified Thermal Coating: module/ArmorCoating
+  Tuvan's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Tuvan's Modified Tracking Computer: module/TrackingComputer
   Twilit Abyssal Overmind: entity/AbyssalSpaceshipEntities
   Twinkling Cobaltite: asteroid/CommonMoonAsteroids
@@ -65420,12 +65433,6 @@ name2group:
   Upgraded 'Malkuth' Torpedo Launcher: module/MissileLauncherTorpedo
   Upgraded Avenger: entity/DeadspaceSleeperUpgradedAvenger
   Upgraded EM Coating I: module/ArmorCoating
-  Upgraded Energized Adaptive Nano Membrane I: module/ArmorPlatingEnergized
-  Upgraded Energized Armor Layering Membrane I: module/ArmorPlatingEnergized
-  Upgraded Energized EM Membrane I: module/ArmorPlatingEnergized
-  Upgraded Energized Explosive Membrane I: module/ArmorPlatingEnergized
-  Upgraded Energized Kinetic Membrane I: module/ArmorPlatingEnergized
-  Upgraded Energized Thermal Membrane I: module/ArmorPlatingEnergized
   Upgraded Explosive Coating I: module/ArmorCoating
   Upgraded Kinetic Coating I: module/ArmorCoating
   Upgraded Layered Coating I: module/ArmorCoating
@@ -65964,27 +65971,27 @@ name2group:
   Vizan's Modified Dual Heavy Pulse Laser: module/EnergyWeapon
   Vizan's Modified EM Armor Hardener: module/ArmorHardener
   Vizan's Modified EM Coating: module/ArmorCoating
-  Vizan's Modified Energized Adaptive Nano Membrane: module/ArmorPlatingEnergized
-  Vizan's Modified Energized EM Membrane: module/ArmorPlatingEnergized
-  Vizan's Modified Energized Explosive Membrane: module/ArmorPlatingEnergized
-  Vizan's Modified Energized Kinetic Membrane: module/ArmorPlatingEnergized
-  Vizan's Modified Energized Thermal Membrane: module/ArmorPlatingEnergized
+  Vizan's Modified EM Energized Membrane: module/EnergizedArmorMembrane
   Vizan's Modified Explosive Armor Hardener: module/ArmorHardener
   Vizan's Modified Explosive Coating: module/ArmorCoating
+  Vizan's Modified Explosive Energized Membrane: module/EnergizedArmorMembrane
   Vizan's Modified Heat Sink: module/HeatSink
   Vizan's Modified Heavy Capacitor Booster: module/CapacitorBooster
   Vizan's Modified Heavy Energy Neutralizer: module/EnergyNeutralizer
   Vizan's Modified Heavy Energy Nosferatu: module/EnergyNosferatu
   Vizan's Modified Kinetic Armor Hardener: module/ArmorHardener
   Vizan's Modified Kinetic Coating: module/ArmorCoating
+  Vizan's Modified Kinetic Energized Membrane: module/EnergizedArmorMembrane
   Vizan's Modified Large Armor Repairer: module/ArmorRepairUnit
   Vizan's Modified Large EMP Smartbomb: module/SmartBomb
   Vizan's Modified Mega Pulse Laser: module/EnergyWeapon
   Vizan's Modified Multispectrum Coating: module/ArmorCoating
+  Vizan's Modified Multispectrum Energized Membrane: module/EnergizedArmorMembrane
   Vizan's Modified Power Diagnostic System: module/PowerDiagnosticSystem
   Vizan's Modified Reactor Control Unit: module/ReactorControlUnit
   Vizan's Modified Thermal Armor Hardener: module/ArmorHardener
   Vizan's Modified Thermal Coating: module/ArmorCoating
+  Vizan's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Viziam Contact Grenade: infantry/InfantryWeapons
   Viziam Drop Uplink: infantry/InfantryEquipment
   Viziam Flux Drop Uplink: infantry/InfantryEquipment
@@ -67093,10 +67100,6 @@ name2group:
   '[TEST] Shield Gen 1': infantry/InfantryEquipment
   '[TEST] Shield Gen 2': infantry/InfantryEquipment
   '[TEST] Swarm Launcher': infantry/InfantryWeapons
-  '[no messageID: 536334]': entity/SpawnContainer
-  '[no messageID: 536407]': entity/SpawnContainer
-  '[no messageID: 536408]': entity/SpawnContainer
-  '[no messageID: 564090]': blueprint/CondenserPackBlueprint
   asurface1_f_01:amarrbase:amarr: system/System
   asurface_c_01:amarrbase:amarr: system/System
   chantal testing thingy: entity/DeadspaceOverseerFrigate

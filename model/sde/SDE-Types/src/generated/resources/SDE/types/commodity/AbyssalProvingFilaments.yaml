@@ -1,28 +1,10 @@
 types:
-  2v2 Cruiser Brawl Proving Filament:
-    id: 55821
-    name: 2v2 Cruiser Brawl Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  3v3 Slicers Proving Filament:
-    id: 55823
-    marketGroup: 2747
-    name: 3v3 Slicers Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
   Event 4 Proving Filament:
     id: 55825
     marketGroup: 2747
     name: Event 4 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     volume: 0.10000000149011612
   Event 5 Proving Filament:
@@ -31,15 +13,13 @@ types:
     name: Event 5 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     volume: 0.10000000149011612
-  FFA Destroyers Proving Filament:
-    id: 55822
+  Event 6 Proving Filament:
+    id: 55983
     marketGroup: 2747
-    name: FFA Destroyers Proving Filament
+    name: Event 6 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     volume: 0.10000000149011612

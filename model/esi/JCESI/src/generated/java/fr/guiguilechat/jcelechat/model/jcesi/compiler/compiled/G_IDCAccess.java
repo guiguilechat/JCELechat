@@ -1037,8 +1037,7 @@ public interface G_IDCAccess
      * Get character portraits
      * <p>
      * Get portrait urls for a character<br />
-     * This route expires daily at 11:05<br />
-     * [Diff of the upcoming changes](https://esi.evetech.net/diff/latest/dev/#GET-/characters/{character_id}/portrait/)
+     * This route expires daily at 11:05
      * </p>
      * 
      * @param character_id

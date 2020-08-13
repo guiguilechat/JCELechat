@@ -33,7 +33,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResistanceBon
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
-public class ArmorPlatingEnergized
+public class EnergizedArmorMembrane
     extends Module
 {
     /**
@@ -131,7 +131,7 @@ public class ArmorPlatingEnergized
     @DefaultDoubleValue(0.0)
     public double thermaldamageresistancebonus;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, ArmorHPMultiplier.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, EmDamageResistanceBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, MetaLevel.INSTANCE, KineticDamageResistanceBonus.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
-    public static final ArmorPlatingEnergized.MetaGroup METAGROUP = new ArmorPlatingEnergized.MetaGroup();
+    public static final EnergizedArmorMembrane.MetaGroup METAGROUP = new EnergizedArmorMembrane.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -197,18 +197,18 @@ public class ArmorPlatingEnergized
     }
 
     @Override
-    public IMetaGroup<ArmorPlatingEnergized> getGroup() {
+    public IMetaGroup<EnergizedArmorMembrane> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<ArmorPlatingEnergized>
+        implements IMetaGroup<EnergizedArmorMembrane>
     {
-        public static final String RESOURCE_PATH = "SDE/types/module/ArmorPlatingEnergized.yaml";
-        private Map<String, ArmorPlatingEnergized> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/module/EnergizedArmorMembrane.yaml";
+        private Map<String, EnergizedArmorMembrane> cache = (null);
 
         @Override
-        public IMetaCategory<? super ArmorPlatingEnergized> category() {
+        public IMetaCategory<? super EnergizedArmorMembrane> category() {
             return Module.METACAT;
         }
 
@@ -219,13 +219,13 @@ public class ArmorPlatingEnergized
 
         @Override
         public String getName() {
-            return "ArmorPlatingEnergized";
+            return "EnergizedArmorMembrane";
         }
 
         @Override
-        public synchronized Map<String, ArmorPlatingEnergized> load() {
+        public synchronized Map<String, EnergizedArmorMembrane> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(ArmorPlatingEnergized.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(EnergizedArmorMembrane.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -235,7 +235,7 @@ public class ArmorPlatingEnergized
         }
 
         private static class Container {
-            public LinkedHashMap<String, ArmorPlatingEnergized> types;
+            public LinkedHashMap<String, EnergizedArmorMembrane> types;
         }
     }
 }

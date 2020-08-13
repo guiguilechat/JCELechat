@@ -69,7 +69,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 187.5
+    entitycruisespeed: 125.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.025350000709295273
@@ -84,7 +84,7 @@ types:
     maxlockedtargets: 7
     maxrange: 60000.0
     maxtargetrange: 85000.0
-    maxvelocity: 1171.875
+    maxvelocity: 781.0
     missiledamagemultiplier: 1.0
     name: Elite Imperial Navy Apocalypse
     npcbehaviormaximumcombatorbitrange: 40000
@@ -123,40 +123,40 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 4300
-    behaviorenergyneutralizerfalloff: 20500
-    behaviorenergyneutralizerrange: 19000
+    behaviorenergyneutralizerdischarge: 112.77999877929688
+    behaviorenergyneutralizerduration: 6143
+    behaviorenergyneutralizerfalloff: 6785.71435546875
+    behaviorenergyneutralizerrange: 13571.4287109375
     capacitorcapacity: 7500.0
     capacity: 875.0
     damagemultiplier: 5.474999904632568
     emdamage: 216.0
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 206.0
+    energyneutralizeramount: 137.3333282470703
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 164.0625
+    entitycruisespeed: 109.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.025350000709295273
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -26.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 19877.140625
-    falloffbonus: -50.0
+    falloff: 12250.0
+    falloffbonus: -19.83333396911621
     gfxboosterid: 394
     gfxturretid: 462
     hp: 15000.0
     id: 54016
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
-    maxrange: 60000.0
-    maxrangebonus: -50.0
+    maxrange: 49000.0
+    maxrangebonus: -17.2549991607666
     maxtargetrange: 85000.0
-    maxvelocity: 1025.387451171875
+    maxvelocity: 684.0
     missiledamagemultiplier: 1.0
     missilevelocitybonus: -26.0
     name: Elite Imperial Navy Armageddon
@@ -192,7 +192,7 @@ types:
     thermaldamage: 154.2899932861328
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 13.640000343322754
-    trackingspeedbonus: -50.0
+    trackingspeedbonus: -19.83333396911621
     uniformity: 1.0
     volume: 486000.0
   Elite Imperial Navy Crusader:
@@ -221,7 +221,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 521.25
+    entitycruisespeed: 348.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.011699999682605267
@@ -236,7 +236,7 @@ types:
     maxlockedtargets: 7
     maxrange: 25000.0
     maxtargetrange: 35000.0
-    maxvelocity: 3257.8125
+    maxvelocity: 2172.0
     missiledamagemultiplier: 1.0
     name: Elite Imperial Navy Crusader
     npcbehaviormaximumcombatorbitrange: 15000
@@ -287,7 +287,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 633.75
+    entitycruisespeed: 423.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.011699999682605267
@@ -302,7 +302,7 @@ types:
     maxlockedtargets: 7
     maxrange: 25000.0
     maxtargetrange: 35000.0
-    maxvelocity: 3960.9375
+    maxvelocity: 2641.0
     missiledamagemultiplier: 1.0
     name: Elite Imperial Navy Deacon
     npcbehaviormaximumcombatorbitrange: 15000
@@ -354,7 +354,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 507.5
+    entitycruisespeed: 338.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.017760999500751495
@@ -369,7 +369,7 @@ types:
     maxlockedtargets: 7
     maxrange: 35000.0
     maxtargetrange: 64000.0
-    maxvelocity: 3171.875
+    maxvelocity: 2115.0
     missiledamagemultiplier: 1.0
     name: Elite Imperial Navy Guardian
     npcbehaviormaximumcombatorbitrange: 18500
@@ -416,7 +416,7 @@ types:
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 273.4375
+    entitycruisespeed: 182.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.022200999781489372
@@ -431,7 +431,7 @@ types:
     maxlockedtargets: 7
     maxrange: 45000.0
     maxtargetrange: 72000.0
-    maxvelocity: 1708.987548828125
+    maxvelocity: 1139.0
     missiledamagemultiplier: 1.0
     name: Elite Imperial Navy Harbinger
     npcbehaviormaximumcombatorbitrange: 28000
@@ -470,30 +470,30 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 23000
-    behaviorenergyneutralizerrange: 18000
+    behaviorenergyneutralizerdischarge: 65.0
+    behaviorenergyneutralizerduration: 5714
+    behaviorenergyneutralizerfalloff: 6428.5712890625
+    behaviorenergyneutralizerrange: 12857.142578125
     capacitorcapacity: 1800.0
     capacity: 315.0
     damagemultiplier: 5.474999904632568
     emdamage: 42.0
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 169.0
+    energyneutralizeramount: 112.66666412353516
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 472.5
+    entitycruisespeed: 315.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.017760999500751495
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -21.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 11595.0
-    falloffbonus: -41.0
+    falloff: 8750.0
+    falloffbonus: -16.263334274291992
     gfxboosterid: 394
     gfxturretid: 6919
     hp: 1575.0
@@ -501,9 +501,9 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxrange: 35000.0
-    maxrangebonus: -41.0
+    maxrangebonus: -16.263334274291992
     maxtargetrange: 64000.0
-    maxvelocity: 2953.125
+    maxvelocity: 1969.0
     missiledamagemultiplier: 1.0
     missilevelocitybonus: -21.0
     name: Elite Imperial Navy Pilgrim
@@ -539,7 +539,7 @@ types:
     thermaldamage: 30.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
-    trackingspeedbonus: -41.0
+    trackingspeedbonus: -16.263334274291992
     uniformity: 1.0
     volume: 120000.0
   Elite Imperial Navy Sentinel:
@@ -552,30 +552,30 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 3400
-    behaviorenergyneutralizerfalloff: 18000
-    behaviorenergyneutralizerrange: 15000
+    behaviorenergyneutralizerdischarge: 35.0
+    behaviorenergyneutralizerduration: 4857
+    behaviorenergyneutralizerfalloff: 5357.14306640625
+    behaviorenergyneutralizerrange: 10714.2861328125
     capacitorcapacity: 518.75
     capacity: 165.0
     damagemultiplier: 5.625
     emdamage: 21.600000381469727
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 105.0
+    energyneutralizeramount: 70.0
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 531.25
+    entitycruisespeed: 354.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.011699999682605267
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -13.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 8282.1396484375
-    falloffbonus: -25.0
+    falloff: 6250.0
+    falloffbonus: -11.666666984558105
     gfxboosterid: 394
     gfxturretid: 5219
     hp: 562.5
@@ -583,9 +583,9 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxrange: 25000.0
-    maxrangebonus: -25.0
+    maxrangebonus: -11.666666984558105
     maxtargetrange: 35000.0
-    maxvelocity: 3320.3125
+    maxvelocity: 2214.0
     missiledamagemultiplier: 1.0
     missilevelocitybonus: -13.0
     name: Elite Imperial Navy Sentinel
@@ -621,7 +621,7 @@ types:
     thermaldamage: 15.430000305175781
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
-    trackingspeedbonus: -25.0
+    trackingspeedbonus: -11.666666984558105
     uniformity: 1.0
     volume: 28100.0
   Elite Imperial Navy Zealot:
@@ -642,7 +642,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 500.0
+    entitycruisespeed: 333.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.017760999500751495
@@ -657,7 +657,7 @@ types:
     maxlockedtargets: 7
     maxrange: 35000.0
     maxtargetrange: 64000.0
-    maxvelocity: 3125.0
+    maxvelocity: 2083.0
     missiledamagemultiplier: 1.0
     name: Elite Imperial Navy Zealot
     npcbehaviormaximumcombatorbitrange: 18500
@@ -704,7 +704,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 262.5
+    entitycruisespeed: 175.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.029601000249385834
@@ -719,7 +719,7 @@ types:
     maxlockedtargets: 7
     maxrange: 60000.0
     maxtargetrange: 85000.0
-    maxvelocity: 1640.625
+    maxvelocity: 1094.0
     missiledamagemultiplier: 1.0
     name: Exalted Imperial Navy Apocalypse
     npcbehaviormaximumcombatorbitrange: 40000
@@ -758,40 +758,40 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 4300
-    behaviorenergyneutralizerfalloff: 20500
-    behaviorenergyneutralizerrange: 19000
+    behaviorenergyneutralizerdischarge: 112.77999877929688
+    behaviorenergyneutralizerduration: 6143
+    behaviorenergyneutralizerfalloff: 6785.71435546875
+    behaviorenergyneutralizerrange: 13571.4287109375
     capacitorcapacity: 7500.0
     capacity: 875.0
     damagemultiplier: 7.664999961853027
     emdamage: 216.0
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 248.0
+    energyneutralizeramount: 165.3333282470703
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 229.6875
+    entitycruisespeed: 153.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.029601000249385834
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -31.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 19877.140625
-    falloffbonus: -60.0
+    falloff: 12250.0
+    falloffbonus: -23.799999237060547
     gfxboosterid: 394
     gfxturretid: 462
     hp: 25000.0
     id: 54025
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
-    maxrange: 60000.0
-    maxrangebonus: -60.0
+    maxrange: 49000.0
+    maxrangebonus: -20.70599937438965
     maxtargetrange: 85000.0
-    maxvelocity: 1435.54248046875
+    maxvelocity: 957.0
     missiledamagemultiplier: 1.0
     missilevelocitybonus: -31.0
     name: Exalted Imperial Navy Armageddon
@@ -827,7 +827,7 @@ types:
     thermaldamage: 154.2899932861328
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 13.640000343322754
-    trackingspeedbonus: -60.0
+    trackingspeedbonus: -23.799999237060547
     uniformity: 1.0
     volume: 486000.0
   Exalted Imperial Navy Crusader:
@@ -856,7 +856,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 729.75
+    entitycruisespeed: 487.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.019500000402331352
@@ -871,7 +871,7 @@ types:
     maxlockedtargets: 7
     maxrange: 25000.0
     maxtargetrange: 35000.0
-    maxvelocity: 4560.9375
+    maxvelocity: 3041.0
     missiledamagemultiplier: 1.0
     name: Exalted Imperial Navy Crusader
     npcbehaviormaximumcombatorbitrange: 15000
@@ -922,7 +922,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 887.25
+    entitycruisespeed: 592.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.019500000402331352
@@ -937,7 +937,7 @@ types:
     maxlockedtargets: 7
     maxrange: 25000.0
     maxtargetrange: 35000.0
-    maxvelocity: 5545.3125
+    maxvelocity: 3697.0
     missiledamagemultiplier: 1.0
     name: Exalted Imperial Navy Deacon
     npcbehaviormaximumcombatorbitrange: 15000
@@ -989,7 +989,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 710.5
+    entitycruisespeed: 474.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.023840000852942467
@@ -1004,7 +1004,7 @@ types:
     maxlockedtargets: 7
     maxrange: 35000.0
     maxtargetrange: 64000.0
-    maxvelocity: 4440.625
+    maxvelocity: 2960.0
     missiledamagemultiplier: 1.0
     name: Exalted Imperial Navy Guardian
     npcbehaviormaximumcombatorbitrange: 18500
@@ -1051,7 +1051,7 @@ types:
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 382.8125
+    entitycruisespeed: 255.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.025350000709295273
@@ -1066,7 +1066,7 @@ types:
     maxlockedtargets: 7
     maxrange: 45000.0
     maxtargetrange: 72000.0
-    maxvelocity: 2392.58251953125
+    maxvelocity: 1595.0
     missiledamagemultiplier: 1.0
     name: Exalted Imperial Navy Harbinger
     npcbehaviormaximumcombatorbitrange: 28000
@@ -1105,30 +1105,30 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 23000
-    behaviorenergyneutralizerrange: 18000
+    behaviorenergyneutralizerdischarge: 65.0
+    behaviorenergyneutralizerduration: 5714
+    behaviorenergyneutralizerfalloff: 6428.5712890625
+    behaviorenergyneutralizerrange: 12857.142578125
     capacitorcapacity: 1800.0
     capacity: 315.0
     damagemultiplier: 7.664999961853027
     emdamage: 42.0
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 203.0
+    energyneutralizeramount: 135.3333282470703
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 661.5
+    entitycruisespeed: 441.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.023840000852942467
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -26.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 11595.0
-    falloffbonus: -49.0
+    falloff: 8750.0
+    falloffbonus: -19.43666648864746
     gfxboosterid: 394
     gfxturretid: 6919
     hp: 2625.0
@@ -1136,9 +1136,9 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxrange: 35000.0
-    maxrangebonus: -49.0
+    maxrangebonus: -19.43666648864746
     maxtargetrange: 64000.0
-    maxvelocity: 4134.375
+    maxvelocity: 2756.0
     missiledamagemultiplier: 1.0
     missilevelocitybonus: -26.0
     name: Exalted Imperial Navy Pilgrim
@@ -1174,7 +1174,7 @@ types:
     thermaldamage: 30.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
-    trackingspeedbonus: -49.0
+    trackingspeedbonus: -19.43666648864746
     uniformity: 1.0
     volume: 120000.0
   Exalted Imperial Navy Sentinel:
@@ -1187,30 +1187,30 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 3400
-    behaviorenergyneutralizerfalloff: 18000
-    behaviorenergyneutralizerrange: 15000
+    behaviorenergyneutralizerdischarge: 35.0
+    behaviorenergyneutralizerduration: 4857
+    behaviorenergyneutralizerfalloff: 5357.14306640625
+    behaviorenergyneutralizerrange: 10714.2861328125
     capacitorcapacity: 518.75
     capacity: 165.0
     damagemultiplier: 7.875
     emdamage: 21.600000381469727
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 126.0
+    energyneutralizeramount: 84.0
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 743.75
+    entitycruisespeed: 496.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.019500000402331352
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -16.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 8282.1396484375
-    falloffbonus: -30.0
+    falloff: 6250.0
+    falloffbonus: -14.0
     gfxboosterid: 394
     gfxturretid: 5219
     hp: 937.5
@@ -1218,9 +1218,9 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxrange: 25000.0
-    maxrangebonus: -30.0
+    maxrangebonus: -14.0
     maxtargetrange: 35000.0
-    maxvelocity: 4648.4375
+    maxvelocity: 3099.0
     missiledamagemultiplier: 1.0
     missilevelocitybonus: -16.0
     name: Exalted Imperial Navy Sentinel
@@ -1256,7 +1256,7 @@ types:
     thermaldamage: 15.430000305175781
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
-    trackingspeedbonus: -30.0
+    trackingspeedbonus: -14.0
     uniformity: 1.0
     volume: 28100.0
   Exalted Imperial Navy Zealot:
@@ -1277,7 +1277,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 700.0
+    entitycruisespeed: 467.0
     entityequipmentmax: 3
     entityequipmentmin: 1
     entityfactionloss: 0.023840000852942467
@@ -1292,7 +1292,7 @@ types:
     maxlockedtargets: 7
     maxrange: 35000.0
     maxtargetrange: 64000.0
-    maxvelocity: 4375.0
+    maxvelocity: 2917.0
     missiledamagemultiplier: 1.0
     name: Exalted Imperial Navy Zealot
     npcbehaviormaximumcombatorbitrange: 18500
@@ -1393,16 +1393,16 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 4300
-    behaviorenergyneutralizerfalloff: 20500
-    behaviorenergyneutralizerrange: 19000
+    behaviorenergyneutralizerdischarge: 112.77999877929688
+    behaviorenergyneutralizerduration: 6143
+    behaviorenergyneutralizerfalloff: 6785.71435546875
+    behaviorenergyneutralizerrange: 13571.4287109375
     capacitorcapacity: 7500.0
     capacity: 875.0
     damagemultiplier: 4.380000114440918
     emdamage: 216.0
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 165.0
+    energyneutralizeramount: 110.0
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
@@ -1415,16 +1415,16 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -21.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 19877.140625
-    falloffbonus: -40.0
+    falloff: 12250.0
+    falloffbonus: -17.850000381469727
     gfxboosterid: 394
     gfxturretid: 462
     hp: 10000.0
     id: 52930
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
-    maxrange: 60000.0
-    maxrangebonus: -40.0
+    maxrange: 49000.0
+    maxrangebonus: -15.529500007629395
     maxtargetrange: 85000.0
     maxvelocity: 820.3099975585938
     missiledamagemultiplier: 1.0
@@ -1462,7 +1462,7 @@ types:
     thermaldamage: 154.2899932861328
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 13.640000343322754
-    trackingspeedbonus: -40.0
+    trackingspeedbonus: -17.850000381469727
     uniformity: 1.0
     volume: 486000.0
   Imperial Navy Crusader:
@@ -1740,16 +1740,16 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 23000
-    behaviorenergyneutralizerrange: 18000
+    behaviorenergyneutralizerdischarge: 65.0
+    behaviorenergyneutralizerduration: 5714
+    behaviorenergyneutralizerfalloff: 6428.5712890625
+    behaviorenergyneutralizerrange: 12857.142578125
     capacitorcapacity: 1800.0
     capacity: 315.0
     damagemultiplier: 4.380000114440918
     emdamage: 42.0
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 135.0
+    energyneutralizeramount: 90.0
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
@@ -1762,8 +1762,8 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -17.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 11595.0
-    falloffbonus: -33.0
+    falloff: 8750.0
+    falloffbonus: -14.726249694824219
     gfxboosterid: 394
     gfxturretid: 6919
     hp: 1050.0
@@ -1771,7 +1771,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxrange: 35000.0
-    maxrangebonus: -33.0
+    maxrangebonus: -14.726249694824219
     maxtargetrange: 64000.0
     maxvelocity: 2362.5
     missiledamagemultiplier: 1.0
@@ -1809,7 +1809,7 @@ types:
     thermaldamage: 30.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
-    trackingspeedbonus: -33.0
+    trackingspeedbonus: -14.726249694824219
     uniformity: 1.0
     volume: 120000.0
   Imperial Navy Revelation:
@@ -1900,16 +1900,16 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 3400
-    behaviorenergyneutralizerfalloff: 18000
-    behaviorenergyneutralizerrange: 15000
+    behaviorenergyneutralizerdischarge: 35.0
+    behaviorenergyneutralizerduration: 4857
+    behaviorenergyneutralizerfalloff: 5357.14306640625
+    behaviorenergyneutralizerrange: 10714.2861328125
     capacitorcapacity: 518.75
     capacity: 165.0
     damagemultiplier: 4.5
     emdamage: 21.600000381469727
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 84.0
+    energyneutralizeramount: 56.0
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
@@ -1922,8 +1922,8 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -11.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 8282.1396484375
-    falloffbonus: -20.0
+    falloff: 6250.0
+    falloffbonus: -10.5
     gfxboosterid: 394
     gfxturretid: 5219
     hp: 375.0
@@ -1931,7 +1931,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxrange: 25000.0
-    maxrangebonus: -20.0
+    maxrangebonus: -10.5
     maxtargetrange: 35000.0
     maxvelocity: 2656.25
     missiledamagemultiplier: 1.0
@@ -1969,7 +1969,7 @@ types:
     thermaldamage: 15.430000305175781
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
-    trackingspeedbonus: -20.0
+    trackingspeedbonus: -10.5
     uniformity: 1.0
     volume: 28100.0
   Imperial Navy Zealot:
@@ -2044,16 +2044,16 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 4000
-    behaviorenergyneutralizerfalloff: 23000
-    behaviorenergyneutralizerrange: 18000
+    behaviorenergyneutralizerdischarge: 65.0
+    behaviorenergyneutralizerduration: 5714
+    behaviorenergyneutralizerfalloff: 6428.5712890625
+    behaviorenergyneutralizerrange: 12857.142578125
     capacitorcapacity: 1800.0
     capacity: 315.0
     damagemultiplier: 3.2850000858306885
     emdamage: 42.0
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 101.0
+    energyneutralizeramount: 67.33333587646484
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 15000
@@ -2066,8 +2066,8 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -13.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 11595.0
-    falloffbonus: -24.0
+    falloff: 8750.0
+    falloffbonus: -10.710000038146973
     gfxboosterid: 394
     gfxturretid: 6919
     hp: 525.0
@@ -2075,7 +2075,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxrange: 35000.0
-    maxrangebonus: -24.0
+    maxrangebonus: -10.710000038146973
     maxtargetrange: 64000.0
     maxvelocity: 1771.875
     missiledamagemultiplier: 1.0
@@ -2113,7 +2113,7 @@ types:
     thermaldamage: 30.0
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 72.0
-    trackingspeedbonus: -24.0
+    trackingspeedbonus: -10.710000038146973
     uniformity: 1.0
     volume: 120000.0
   Scout Imperial Navy Apocalypse:
@@ -2188,16 +2188,16 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 4300
-    behaviorenergyneutralizerfalloff: 20500
-    behaviorenergyneutralizerrange: 19000
+    behaviorenergyneutralizerdischarge: 112.77999877929688
+    behaviorenergyneutralizerduration: 6143
+    behaviorenergyneutralizerfalloff: 6785.71435546875
+    behaviorenergyneutralizerrange: 13571.4287109375
     capacitorcapacity: 7500.0
     capacity: 875.0
     damagemultiplier: 3.2850000858306885
     emdamage: 216.0
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 124.0
+    energyneutralizeramount: 82.66666412353516
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 60000
@@ -2210,16 +2210,16 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -16.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 19877.140625
-    falloffbonus: -30.0
+    falloff: 12250.0
+    falloffbonus: -13.387499809265137
     gfxboosterid: 394
     gfxturretid: 462
     hp: 5000.0
     id: 54007
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
-    maxrange: 60000.0
-    maxrangebonus: -30.0
+    maxrange: 49000.0
+    maxrangebonus: -11.647125244140625
     maxtargetrange: 85000.0
     maxvelocity: 615.2324829101562
     missiledamagemultiplier: 1.0
@@ -2257,7 +2257,7 @@ types:
     thermaldamage: 154.2899932861328
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 13.640000343322754
-    trackingspeedbonus: -30.0
+    trackingspeedbonus: -13.387499809265137
     uniformity: 1.0
     volume: 486000.0
   Scout Imperial Navy Crusader:
@@ -2535,16 +2535,16 @@ types:
     armorkineticdamageresonance: 0.5600000023841858
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
-    behaviorenergyneutralizerdischarge: 10.0
-    behaviorenergyneutralizerduration: 3400
-    behaviorenergyneutralizerfalloff: 18000
-    behaviorenergyneutralizerrange: 15000
+    behaviorenergyneutralizerdischarge: 35.0
+    behaviorenergyneutralizerduration: 4857
+    behaviorenergyneutralizerfalloff: 5357.14306640625
+    behaviorenergyneutralizerrange: 10714.2861328125
     capacitorcapacity: 518.75
     capacity: 165.0
     damagemultiplier: 3.375
     emdamage: 21.600000381469727
     emdamageresonance: 0.6700000166893005
-    energyneutralizeramount: 63.0
+    energyneutralizeramount: 42.0
     entitychasemaxdelay: 1
     entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 12000
@@ -2557,8 +2557,8 @@ types:
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -8.0
     explosivedamageresonance: 0.6700000166893005
-    falloff: 8282.1396484375
-    falloffbonus: -15.0
+    falloff: 6250.0
+    falloffbonus: -7.875
     gfxboosterid: 394
     gfxturretid: 5219
     hp: 187.5
@@ -2566,7 +2566,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxrange: 25000.0
-    maxrangebonus: -15.0
+    maxrangebonus: -7.875
     maxtargetrange: 35000.0
     maxvelocity: 1992.1875
     missiledamagemultiplier: 1.0
@@ -2604,7 +2604,7 @@ types:
     thermaldamage: 15.430000305175781
     thermaldamageresonance: 0.6700000166893005
     trackingspeed: 380.0
-    trackingspeedbonus: -15.0
+    trackingspeedbonus: -7.875
     uniformity: 1.0
     volume: 28100.0
   'Scout Imperial Navy Zealot ':

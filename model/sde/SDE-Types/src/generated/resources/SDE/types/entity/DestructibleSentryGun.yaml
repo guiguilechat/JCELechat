@@ -4313,6 +4313,7 @@ types:
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
+    scanresolution: 105.0
     shieldcapacity: 12000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
@@ -4389,6 +4390,7 @@ types:
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
+    scanresolution: 105.0
     shieldcapacity: 18000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645
@@ -4467,6 +4469,7 @@ types:
     scanladarstrength: 100.0
     scanmagnetometricstrength: 100.0
     scanradarstrength: 100.0
+    scanresolution: 105.0
     shieldcapacity: 18000.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.4000000059604645

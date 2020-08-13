@@ -333,15 +333,15 @@ public class RetaliatingAmarrEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorenergyneutralizerfalloff;
+    @DefaultDoubleValue(0.0)
+    public double behaviorenergyneutralizerfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorenergyneutralizerrange;
+    @DefaultDoubleValue(0.0)
+    public double behaviorenergyneutralizerrange;
     /**
      * 
      */

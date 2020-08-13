@@ -75,7 +75,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 507.5
+    entitycruisespeed: 338.0
     entityequipmentmax: 3
     entityfactionloss: 0.017760999500751495
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -89,7 +89,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 64000.0
-    maxvelocity: 3171.875
+    maxvelocity: 2115.0
     missiledamagemultiplier: 0.5625
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -109,7 +109,7 @@ types:
     scanresolution: 385.0
     shieldbonus: 750.0
     shieldcapacity: 7875.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -138,7 +138,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 500.0
+    entitycruisespeed: 333.0
     entityequipmentmax: 3
     entityfactionloss: 0.017760999500751495
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -152,7 +152,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 64000.0
-    maxvelocity: 3125.0
+    maxvelocity: 2083.0
     missiledamagemultiplier: 2.5
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -170,7 +170,7 @@ types:
     scanradarstrength: 21.0
     scanresolution: 306.0
     shieldcapacity: 11400.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -199,7 +199,7 @@ types:
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 273.4375
+    entitycruisespeed: 182.0
     entityequipmentmax: 3
     entityfactionloss: 0.022200999781489372
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -213,7 +213,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 72000.0
-    maxvelocity: 1708.987548828125
+    maxvelocity: 1139.0
     missiledamagemultiplier: 4.787499904632568
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -231,7 +231,7 @@ types:
     scanradarstrength: 21.0
     scanresolution: 210.0
     shieldcapacity: 11766.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1800000.0
@@ -264,7 +264,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 633.75
+    entitycruisespeed: 423.0
     entityequipmentmax: 3
     entityfactionloss: 0.011699999682605267
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -278,7 +278,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 35000.0
-    maxvelocity: 3960.9375
+    maxvelocity: 2641.0
     missiledamagemultiplier: 0.4000000059604645
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -298,7 +298,7 @@ types:
     scanresolution: 920.0
     shieldbonus: 200.0
     shieldcapacity: 2250.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -335,7 +335,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 531.25
+    entitycruisespeed: 354.0
     entityequipmentmax: 3
     entityfactionloss: 0.011699999682605267
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -349,7 +349,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 35000.0
-    maxvelocity: 3320.3125
+    maxvelocity: 2214.0
     missiledamagemultiplier: 2.4375
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -372,7 +372,7 @@ types:
     scanradarstrengthbonus: 4.0
     scanresolution: 575.0
     shieldcapacity: 1815.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -405,7 +405,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 521.25
+    entitycruisespeed: 348.0
     entityequipmentmax: 3
     entityfactionloss: 0.011699999682605267
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -420,7 +420,7 @@ types:
     maxlockedtargets: 7
     maxrange: 25000.0
     maxtargetrange: 35000.0
-    maxvelocity: 3257.8125
+    maxvelocity: 2172.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -438,7 +438,7 @@ types:
     scanradarstrength: 10.0
     scanresolution: 975.0
     shieldcapacity: 2175.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -470,7 +470,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 187.5
+    entitycruisespeed: 125.0
     entityequipmentmax: 3
     entityfactionloss: 0.025350000709295273
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -484,7 +484,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 85000.0
-    maxvelocity: 1171.875
+    maxvelocity: 781.0
     missiledamagemultiplier: 5.0
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -502,7 +502,7 @@ types:
     scanradarstrength: 25.0
     scanresolution: 120.0
     shieldcapacity: 19687.5
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 3390000.0
@@ -535,7 +535,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 472.5
+    entitycruisespeed: 315.0
     entityequipmentmax: 3
     entityfactionloss: 0.017760999500751495
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -549,7 +549,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 64000.0
-    maxvelocity: 2953.125
+    maxvelocity: 1969.0
     missiledamagemultiplier: 2.2750000953674316
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -572,7 +572,7 @@ types:
     scanradarstrengthbonus: 7.25
     scanresolution: 237.0
     shieldcapacity: 9900.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -605,7 +605,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 164.0625
+    entitycruisespeed: 109.0
     entityequipmentmax: 3
     entityfactionloss: 0.025350000709295273
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -619,7 +619,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 85000.0
-    maxvelocity: 1025.387451171875
+    maxvelocity: 684.0
     missiledamagemultiplier: 5.099999904632568
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -642,7 +642,7 @@ types:
     scanradarstrengthbonus: 7.75
     scanresolution: 110.0
     shieldcapacity: 21562.5
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 3390000.0
@@ -675,7 +675,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 710.5
+    entitycruisespeed: 474.0
     entityequipmentmax: 3
     entityfactionloss: 0.023840000852942467
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -689,7 +689,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 64000.0
-    maxvelocity: 4440.625
+    maxvelocity: 2960.0
     missiledamagemultiplier: 0.7875000238418579
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -709,7 +709,7 @@ types:
     scanresolution: 385.0
     shieldbonus: 1050.0
     shieldcapacity: 13125.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -738,7 +738,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 700.0
+    entitycruisespeed: 467.0
     entityequipmentmax: 3
     entityfactionloss: 0.023840000852942467
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -752,7 +752,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 64000.0
-    maxvelocity: 4375.0
+    maxvelocity: 2917.0
     missiledamagemultiplier: 3.5
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -770,7 +770,7 @@ types:
     scanradarstrength: 21.0
     scanresolution: 306.0
     shieldcapacity: 19000.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -799,7 +799,7 @@ types:
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 382.8125
+    entitycruisespeed: 255.0
     entityequipmentmax: 3
     entityfactionloss: 0.025350000709295273
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -813,7 +813,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 72000.0
-    maxvelocity: 2392.58251953125
+    maxvelocity: 1595.0
     missiledamagemultiplier: 6.702499866485596
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -831,7 +831,7 @@ types:
     scanradarstrength: 21.0
     scanresolution: 210.0
     shieldcapacity: 19610.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1800000.0
@@ -864,7 +864,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 887.25
+    entitycruisespeed: 592.0
     entityequipmentmax: 3
     entityfactionloss: 0.019500000402331352
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -878,7 +878,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 35000.0
-    maxvelocity: 5545.3125
+    maxvelocity: 3697.0
     missiledamagemultiplier: 0.5600000023841858
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -898,7 +898,7 @@ types:
     scanresolution: 920.0
     shieldbonus: 280.0
     shieldcapacity: 3750.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -935,7 +935,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 743.75
+    entitycruisespeed: 496.0
     entityequipmentmax: 3
     entityfactionloss: 0.019500000402331352
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -949,7 +949,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 35000.0
-    maxvelocity: 4648.4375
+    maxvelocity: 3099.0
     missiledamagemultiplier: 3.4124999046325684
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -972,7 +972,7 @@ types:
     scanradarstrengthbonus: 5.599999904632568
     scanresolution: 575.0
     shieldcapacity: 3025.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -1005,7 +1005,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 729.75
+    entitycruisespeed: 487.0
     entityequipmentmax: 3
     entityfactionloss: 0.019500000402331352
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -1020,7 +1020,7 @@ types:
     maxlockedtargets: 7
     maxrange: 25000.0
     maxtargetrange: 35000.0
-    maxvelocity: 4560.9375
+    maxvelocity: 3041.0
     missiledamagemultiplier: 1.0
     missileentityaoecloudsizemultiplier: 1.0
     missileentityaoevelocitymultiplier: 1.0
@@ -1038,7 +1038,7 @@ types:
     scanradarstrength: 10.0
     scanresolution: 975.0
     shieldcapacity: 3625.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -1070,7 +1070,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 262.5
+    entitycruisespeed: 175.0
     entityequipmentmax: 3
     entityfactionloss: 0.029601000249385834
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -1084,7 +1084,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 85000.0
-    maxvelocity: 1640.625
+    maxvelocity: 1094.0
     missiledamagemultiplier: 7.0
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -1102,7 +1102,7 @@ types:
     scanradarstrength: 25.0
     scanresolution: 120.0
     shieldcapacity: 32812.5
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 3390000.0
@@ -1135,7 +1135,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 661.5
+    entitycruisespeed: 441.0
     entityequipmentmax: 3
     entityfactionloss: 0.023840000852942467
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -1149,7 +1149,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 64000.0
-    maxvelocity: 4134.375
+    maxvelocity: 2756.0
     missiledamagemultiplier: 3.184999942779541
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -1172,7 +1172,7 @@ types:
     scanradarstrengthbonus: 10.149999618530273
     scanresolution: 237.0
     shieldcapacity: 16500.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -1205,7 +1205,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 229.6875
+    entitycruisespeed: 153.0
     entityequipmentmax: 3
     entityfactionloss: 0.029601000249385834
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -1219,7 +1219,7 @@ types:
     kineticdamageresonance: 0.6700000166893005
     maxlockedtargets: 7
     maxtargetrange: 85000.0
-    maxvelocity: 1435.54248046875
+    maxvelocity: 957.0
     missiledamagemultiplier: 7.139999866485596
     missileentityaoecloudsizemultiplier: 0.75
     missileentityaoevelocitymultiplier: 3.0
@@ -1242,7 +1242,7 @@ types:
     scanradarstrengthbonus: 10.850000381469727
     scanresolution: 110.0
     shieldcapacity: 35937.5
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 3390000.0
@@ -1303,7 +1303,7 @@ types:
     scanradarstrength: 21.0
     scanresolution: 306.0
     shieldcapacity: 3800.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -1364,7 +1364,7 @@ types:
     scanradarstrength: 21.0
     scanresolution: 210.0
     shieldcapacity: 3922.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1800000.0
@@ -1425,7 +1425,7 @@ types:
     scanradarstrength: 25.0
     scanresolution: 120.0
     shieldcapacity: 6562.5
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 3390000.0
@@ -1495,7 +1495,7 @@ types:
     scanradarstrengthbonus: 4.349999904632568
     scanresolution: 237.0
     shieldcapacity: 3300.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -1565,7 +1565,7 @@ types:
     scanradarstrengthbonus: 4.650000095367432
     scanresolution: 110.0
     shieldcapacity: 7187.5
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 3390000.0
@@ -1632,7 +1632,7 @@ types:
     scanresolution: 385.0
     shieldbonus: 450.0
     shieldcapacity: 2625.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -1699,7 +1699,7 @@ types:
     scanresolution: 920.0
     shieldbonus: 120.0
     shieldcapacity: 750.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -1773,7 +1773,7 @@ types:
     scanradarstrengthbonus: 2.4000000953674316
     scanresolution: 575.0
     shieldcapacity: 605.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -1839,7 +1839,7 @@ types:
     scanradarstrength: 10.0
     scanresolution: 975.0
     shieldcapacity: 725.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -1909,7 +1909,7 @@ types:
     scanresolution: 385.0
     shieldbonus: 600.0
     shieldcapacity: 5250.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -1970,7 +1970,7 @@ types:
     scanradarstrength: 21.0
     scanresolution: 306.0
     shieldcapacity: 7600.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -2031,7 +2031,7 @@ types:
     scanradarstrength: 21.0
     scanresolution: 210.0
     shieldcapacity: 7844.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1800000.0
@@ -2098,7 +2098,7 @@ types:
     scanresolution: 920.0
     shieldbonus: 160.0
     shieldcapacity: 1500.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -2172,7 +2172,7 @@ types:
     scanradarstrengthbonus: 3.200000047683716
     scanresolution: 575.0
     shieldcapacity: 1210.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -2316,7 +2316,7 @@ types:
     scanradarstrength: 10.0
     scanresolution: 975.0
     shieldcapacity: 1450.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 625000.0
@@ -2380,7 +2380,7 @@ types:
     scanradarstrength: 25.0
     scanresolution: 120.0
     shieldcapacity: 13125.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 3390000.0
@@ -2450,7 +2450,7 @@ types:
     scanradarstrengthbonus: 5.800000190734863
     scanresolution: 237.0
     shieldcapacity: 6600.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 1250000.0
@@ -2520,7 +2520,7 @@ types:
     scanradarstrengthbonus: 6.199999809265137
     scanresolution: 110.0
     shieldcapacity: 14375.0
-    shieldemdamageresonance: 1.0
+    shieldemdamageresonance: 0.6000000238418579
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.44999998807907104
     shieldrechargerate: 3390000.0

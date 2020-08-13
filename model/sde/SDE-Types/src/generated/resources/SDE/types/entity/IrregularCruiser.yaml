@@ -468,8 +468,8 @@ types:
     behaviorarmorrepairerduration: 9000
     behaviorenergyneutralizerdischarge: 50.0
     behaviorenergyneutralizerduration: 10000
-    behaviorenergyneutralizerfalloff: 16000
-    behaviorenergyneutralizerrange: 8000
+    behaviorenergyneutralizerfalloff: 16000.0
+    behaviorenergyneutralizerrange: 8000.0
     behaviorwarpdisruptdischarge: 1.0
     behaviorwarpdisruptduration: 5000
     behaviorwarpdisruptrange: 30000
@@ -1367,8 +1367,8 @@ types:
     armorthermaldamageresonance: 0.49000000953674316
     behaviorenergyneutralizerdischarge: 25.0
     behaviorenergyneutralizerduration: 5000
-    behaviorenergyneutralizerfalloff: 5000
-    behaviorenergyneutralizerrange: 10000
+    behaviorenergyneutralizerfalloff: 5000.0
+    behaviorenergyneutralizerrange: 10000.0
     behaviorshieldboosteramount: 260
     behaviorshieldboosterdischarge: 140
     behaviorshieldboosterduration: 10000
@@ -2071,8 +2071,8 @@ types:
     behaviorecmrange: 46080
     behaviorenergyneutralizerdischarge: 30.0
     behaviorenergyneutralizerduration: 15000
-    behaviorenergyneutralizerfalloff: 16000
-    behaviorenergyneutralizerrange: 8000
+    behaviorenergyneutralizerfalloff: 16000.0
+    behaviorenergyneutralizerrange: 8000.0
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
@@ -2246,8 +2246,8 @@ types:
     armorthermaldamageresonance: 0.49000000953674316
     behaviorenergyneutralizerdischarge: 30.0
     behaviorenergyneutralizerduration: 12000
-    behaviorenergyneutralizerfalloff: 16000
-    behaviorenergyneutralizerrange: 8000
+    behaviorenergyneutralizerfalloff: 16000.0
+    behaviorenergyneutralizerrange: 8000.0
     behaviorshieldboosteramount: 65
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
@@ -2576,8 +2576,8 @@ types:
     armorthermaldamageresonance: 0.800000011920929
     behaviorenergyneutralizerdischarge: 50.0
     behaviorenergyneutralizerduration: 10000
-    behaviorenergyneutralizerfalloff: 28000
-    behaviorenergyneutralizerrange: 12000
+    behaviorenergyneutralizerfalloff: 28000.0
+    behaviorenergyneutralizerrange: 12000.0
     capacitorcapacity: 725.0
     capacity: 120.0
     damagemultiplier: 0.800000011920929
@@ -3256,8 +3256,8 @@ types:
     behaviorarmorrepairerduration: 9000
     behaviorenergyneutralizerdischarge: 30.0
     behaviorenergyneutralizerduration: 8000
-    behaviorenergyneutralizerfalloff: 5000
-    behaviorenergyneutralizerrange: 10000
+    behaviorenergyneutralizerfalloff: 5000.0
+    behaviorenergyneutralizerrange: 10000.0
     behaviorremotearmorrepairdischarge: 30.0
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000
@@ -3762,8 +3762,8 @@ types:
     behaviorarmorrepairerduration: 9000
     behaviorenergyneutralizerdischarge: 30.0
     behaviorenergyneutralizerduration: 8000
-    behaviorenergyneutralizerfalloff: 5000
-    behaviorenergyneutralizerrange: 10000
+    behaviorenergyneutralizerfalloff: 5000.0
+    behaviorenergyneutralizerrange: 10000.0
     behaviorremotearmorrepairdischarge: 30.0
     behaviorremotearmorrepairduration: 3000.0
     behaviorremotearmorrepairfalloff: 40000

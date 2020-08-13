@@ -20,7 +20,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 729.75
+    entitycruisespeed: 487.0
     entityequipmentmax: 3
     entityfactionloss: 0.019500000402331352
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -37,7 +37,7 @@ types:
     maxlockedtargets: 7
     maxrange: 20625.0
     maxtargetrange: 35000.0
-    maxvelocity: 4560.9375
+    maxvelocity: 3041.0
     missiledamagemultiplier: 0.26249998807907104
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -94,7 +94,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 661.5
+    entitycruisespeed: 441.0
     entityequipmentmax: 3
     entityfactionloss: 0.023840000852942467
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -111,7 +111,7 @@ types:
     maxlockedtargets: 7
     maxrange: 46117.5
     maxtargetrange: 64000.0
-    maxvelocity: 4134.375
+    maxvelocity: 2756.0
     missiledamagemultiplier: 1.2949999570846558
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -162,7 +162,7 @@ types:
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 382.8125
+    entitycruisespeed: 255.0
     entityequipmentmax: 3
     entityfactionloss: 0.025350000709295273
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -179,7 +179,7 @@ types:
     maxlockedtargets: 7
     maxrange: 46117.5
     maxtargetrange: 72000.0
-    maxvelocity: 2392.58251953125
+    maxvelocity: 1595.0
     missiledamagemultiplier: 2.380000114440918
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -236,7 +236,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 743.75
+    entitycruisespeed: 496.0
     entityequipmentmax: 3
     entityfactionloss: 0.019500000402331352
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -253,7 +253,7 @@ types:
     maxlockedtargets: 7
     maxrange: 20625.0
     maxtargetrange: 35000.0
-    maxvelocity: 4648.4375
+    maxvelocity: 3099.0
     missiledamagemultiplier: 1.347499966621399
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -308,7 +308,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 700.0
+    entitycruisespeed: 467.0
     entityequipmentmax: 3
     entityfactionloss: 0.023840000852942467
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -325,7 +325,7 @@ types:
     maxlockedtargets: 7
     maxrange: 46117.5
     maxtargetrange: 64000.0
-    maxvelocity: 4375.0
+    maxvelocity: 2917.0
     missiledamagemultiplier: 1.347499966621399
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -379,7 +379,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 887.25
+    entitycruisespeed: 592.0
     entityequipmentmax: 3
     entityfactionloss: 0.019500000402331352
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -396,7 +396,7 @@ types:
     maxlockedtargets: 7
     maxrange: 20625.0
     maxtargetrange: 35000.0
-    maxvelocity: 5545.3125
+    maxvelocity: 3697.0
     missiledamagemultiplier: 0.26249998807907104
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -451,7 +451,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 710.5
+    entitycruisespeed: 474.0
     entityequipmentmax: 3
     entityfactionloss: 0.023840000852942467
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -468,7 +468,7 @@ types:
     maxlockedtargets: 7
     maxrange: 46117.5
     maxtargetrange: 64000.0
-    maxvelocity: 4440.625
+    maxvelocity: 2960.0
     missiledamagemultiplier: 0.3675000071525574
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -519,7 +519,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 262.5
+    entitycruisespeed: 175.0
     entityequipmentmax: 3
     entityfactionloss: 0.029601000249385834
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -536,7 +536,7 @@ types:
     maxlockedtargets: 7
     maxrange: 72380.0
     maxtargetrange: 85000.0
-    maxvelocity: 1640.625
+    maxvelocity: 1094.0
     missiledamagemultiplier: 2.484999895095825
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -589,7 +589,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 229.6875
+    entitycruisespeed: 153.0
     entityequipmentmax: 3
     entityfactionloss: 0.029601000249385834
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -606,7 +606,7 @@ types:
     maxlockedtargets: 7
     maxrange: 48510.0
     maxtargetrange: 85000.0
-    maxvelocity: 1435.54248046875
+    maxvelocity: 957.0
     missiledamagemultiplier: 2.9049999713897705
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -716,7 +716,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 521.25
+    entitycruisespeed: 348.0
     entityequipmentmax: 3
     entityfactionloss: 0.011699999682605267
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -733,7 +733,7 @@ types:
     maxlockedtargets: 7
     maxrange: 20625.0
     maxtargetrange: 35000.0
-    maxvelocity: 3257.8125
+    maxvelocity: 2172.0
     missiledamagemultiplier: 0.1875
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -790,7 +790,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 472.5
+    entitycruisespeed: 315.0
     entityequipmentmax: 3
     entityfactionloss: 0.017760999500751495
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -807,7 +807,7 @@ types:
     maxlockedtargets: 7
     maxrange: 46117.5
     maxtargetrange: 64000.0
-    maxvelocity: 2953.125
+    maxvelocity: 1969.0
     missiledamagemultiplier: 0.925000011920929
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -858,7 +858,7 @@ types:
     entitychasemaxdistance: 22000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 273.4375
+    entitycruisespeed: 182.0
     entityequipmentmax: 3
     entityfactionloss: 0.022200999781489372
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -875,7 +875,7 @@ types:
     maxlockedtargets: 7
     maxrange: 46117.5
     maxtargetrange: 72000.0
-    maxvelocity: 1708.987548828125
+    maxvelocity: 1139.0
     missiledamagemultiplier: 1.7000000476837158
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -932,7 +932,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 531.25
+    entitycruisespeed: 354.0
     entityequipmentmax: 3
     entityfactionloss: 0.011699999682605267
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -949,7 +949,7 @@ types:
     maxlockedtargets: 7
     maxrange: 20625.0
     maxtargetrange: 35000.0
-    maxvelocity: 3320.3125
+    maxvelocity: 2214.0
     missiledamagemultiplier: 0.9624999761581421
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -1004,7 +1004,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 500.0
+    entitycruisespeed: 333.0
     entityequipmentmax: 3
     entityfactionloss: 0.017760999500751495
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -1021,7 +1021,7 @@ types:
     maxlockedtargets: 7
     maxrange: 46117.5
     maxtargetrange: 64000.0
-    maxvelocity: 3125.0
+    maxvelocity: 2083.0
     missiledamagemultiplier: 0.9624999761581421
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -1075,7 +1075,7 @@ types:
     entitychasemaxdistance: 12000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 633.75
+    entitycruisespeed: 423.0
     entityequipmentmax: 3
     entityfactionloss: 0.011699999682605267
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -1092,7 +1092,7 @@ types:
     maxlockedtargets: 7
     maxrange: 20625.0
     maxtargetrange: 35000.0
-    maxvelocity: 3960.9375
+    maxvelocity: 2641.0
     missiledamagemultiplier: 0.1875
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -1147,7 +1147,7 @@ types:
     entitychasemaxdistance: 15000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 507.5
+    entitycruisespeed: 338.0
     entityequipmentmax: 3
     entityfactionloss: 0.017760999500751495
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -1164,7 +1164,7 @@ types:
     maxlockedtargets: 7
     maxrange: 46117.5
     maxtargetrange: 64000.0
-    maxvelocity: 3171.875
+    maxvelocity: 2115.0
     missiledamagemultiplier: 0.26249998807907104
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -1215,7 +1215,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 187.5
+    entitycruisespeed: 125.0
     entityequipmentmax: 3
     entityfactionloss: 0.025350000709295273
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -1232,7 +1232,7 @@ types:
     maxlockedtargets: 7
     maxrange: 72380.0
     maxtargetrange: 85000.0
-    maxvelocity: 1171.875
+    maxvelocity: 781.0
     missiledamagemultiplier: 1.774999976158142
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
@@ -1285,7 +1285,7 @@ types:
     entitychasemaxdistance: 60000
     entitychasemaxduration: 3000
     entitychasemaxdurationchance: 1.0
-    entitycruisespeed: 164.0625
+    entitycruisespeed: 109.0
     entityequipmentmax: 3
     entityfactionloss: 0.025350000709295273
     entitymaxvelocitysignatureradiusmultiplier: 5
@@ -1302,7 +1302,7 @@ types:
     maxlockedtargets: 7
     maxrange: 48510.0
     maxtargetrange: 85000.0
-    maxvelocity: 1025.387451171875
+    maxvelocity: 684.0
     missiledamagemultiplier: 2.075000047683716
     missileentityaoecloudsizemultiplier: 3.0
     missileentityaoevelocitymultiplier: 3.0
