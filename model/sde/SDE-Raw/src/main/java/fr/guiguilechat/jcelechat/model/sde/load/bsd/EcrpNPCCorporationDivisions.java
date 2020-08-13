@@ -13,14 +13,13 @@ import org.yaml.snakeyaml.nodes.NodeId;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
-@Deprecated(forRemoval = true)
-public class EcrpNPCCorporationTrades {
+public class EcrpNPCCorporationDivisions {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/crpNPCCorporationTrades.yaml");
-	private static ArrayList<EcrpNPCCorporationTrades> cache;
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/crpNPCCorporationDivisions.yaml");
+	private static ArrayList<EcrpNPCCorporationDivisions> cache;
 
 	@SuppressWarnings("unchecked")
-	public static synchronized ArrayList<EcrpNPCCorporationTrades> load() {
+	public static ArrayList<EcrpNPCCorporationDivisions> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
 			Constructor cons = new Constructor(ArrayList.class) {
@@ -28,7 +27,7 @@ public class EcrpNPCCorporationTrades {
 				@Override
 				protected Construct getConstructor(Node node) {
 					if (node.getNodeId() == NodeId.mapping) {
-						node.setType(EcrpNPCCorporationTrades.class);
+						node.setType(EcrpNPCCorporationDivisions.class);
 					}
 					Construct ret = super.getConstructor(node);
 					return ret;
@@ -44,7 +43,8 @@ public class EcrpNPCCorporationTrades {
 		return cache;
 	}
 
-	public int corporationID;
-	public int typeID;
+	public int corporationIOD;
+	public int divisionID;
+	public int size;
 
 }

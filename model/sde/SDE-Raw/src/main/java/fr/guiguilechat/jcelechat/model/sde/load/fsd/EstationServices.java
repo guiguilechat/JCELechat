@@ -54,8 +54,8 @@ public class EstationServices {
 
 	// structure
 
-	public HashMap<String, String> serviceNameID = new HashMap<>();
 	public HashMap<String, String> descriptionID = new HashMap<>();
+	public HashMap<String, String> serviceNameID = new HashMap<>();
 
 	//
 

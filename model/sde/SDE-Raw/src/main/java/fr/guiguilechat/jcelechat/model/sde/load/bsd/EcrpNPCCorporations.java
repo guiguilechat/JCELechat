@@ -14,6 +14,7 @@ import org.yaml.snakeyaml.nodes.NodeId;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
+@Deprecated(forRemoval = true)
 public class EcrpNPCCorporations {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/crpNPCCorporations.yaml");
