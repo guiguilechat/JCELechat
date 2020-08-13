@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
 
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
@@ -32,7 +34,7 @@ public class EnpcCorporations {
 						MappingNode mn = (MappingNode) node;
 						if (mn.getValue().size() > 0) {
 							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter(s -> "ceoID".equals(s)).findAny().isPresent()) {
+									.filter(s -> "size".equals(s)).findAny().isPresent()) {
 								node.setType(EnpcCorporations.class);
 							}
 						}
@@ -94,8 +96,18 @@ public class EnpcCorporations {
 		return nameID.getOrDefault("en", "unknowncorp" + nameID);
 	}
 
+	public static final int CONCORD_ID = 1000125;
+
+	public static Map<Integer, Double> concordRates() {
+		return load().get(CONCORD_ID).exchangeRates;
+	}
+
+	//
+
 	public static void main(String[] args) {
-		EnpcCorporations.load();
+		for (Entry<Integer, EnpcCorporations> e : EnpcCorporations.load().entrySet()) {
+			e.getValue().enName();
+		}
 	}
 
 }

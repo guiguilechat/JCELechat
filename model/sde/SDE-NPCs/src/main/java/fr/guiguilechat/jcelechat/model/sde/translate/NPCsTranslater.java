@@ -25,9 +25,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_corporations_corporation_id_starbases_starbase_id_fuels;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgents;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCDivisions;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Corporation;
@@ -61,7 +61,12 @@ public class NPCsTranslater {
 		LinkedHashMap<String, Corporation> corporations = new LinkedHashMap<>();
 		LinkedHashMap<Integer, LPOffer> lpoffers = new LinkedHashMap<>();
 
-		translate(EagtAgents.load(), EagtAgentTypes.loadById(), EcrpNPCDivisions.loadById(), agents, corporations,
+		Map<Integer, String> activities = new HashMap<>();
+		activities.put(18, "R&D");
+		activities.put(22, "Distribution");
+		activities.put(23, "Mining");
+		activities.put(24, "Security");
+		translate(EagtAgents.load(), EagtAgentTypes.loadById(), activities, agents, corporations,
 				lpoffers);
 
 		// sort
@@ -97,18 +102,21 @@ public class NPCsTranslater {
 		CacheStatic cache = ESIStatic.INSTANCE.cache;
 
 		// prefetch
-		ObsMapHolder<Integer, R_get_corporations_corporation_id> corporationsHolder = cache.corporations.npccorps()
-				.peek(l -> {
-					l.parallelStream().forEach(cache.corporations::get);
-				}).toMap(i -> i, i -> cache.corporations.get(i).get());
+		ObsMapHolder<Integer, R_get_corporations_corporation_id>
+		corporationsHolder = cache.corporations.npccorps()
+		.peek(l -> {
+			l.parallelStream().forEach(cache.corporations::get);
+		}).toMap(i -> i, i -> cache.corporations.get(i).get());
 		ObsMapHolder<Integer, R_get_universe_factions> factionsHolder = cache.universe.factions().toMap(f -> f.faction_id);
 		eagents.parallelStream().map(ag -> ag.locationID).distinct().forEach(lid -> Location.resolve(null, lid).system());
 
 
+		LinkedHashMap<Integer, EnpcCorporations> ecorps = EnpcCorporations.load();
 		Map<Integer, String> agentNames = ObsListHolderImpl
 				.of(esi.universe.names(eagents.stream().mapToInt(a -> a.agentID).toArray()))
 				.toMap(n -> n.id, n -> n.name).get();
-		Map<Integer, R_get_corporations_corporation_id> npcCorps = corporationsHolder.get();
+		Map<Integer, R_get_corporations_corporation_id> npcCorps =
+				corporationsHolder.get();
 		Map<Integer, R_get_universe_factions> factionById = factionsHolder.get();
 		Map<Integer, Location> agentsLocation = eagents.parallelStream()
 				.collect(Collectors.toMap(ag -> ag.agentID, ag -> Location.resolve(null, ag.locationID)));
@@ -116,13 +124,13 @@ public class NPCsTranslater {
 
 		for (EagtAgents eagt : eagents) {
 			Agent agent = new Agent();
-			agent.corporation = npcCorps.get(eagt.corporationID).name;
+			agent.corporation = ecorps.get(eagt.corporationID).enName();
 			agent.id = eagt.agentID;
 			agent.name = agentNames.get(eagt.agentID);
 			agent.isLocator = eagt.isLocator;
 			agent.level = eagt.level;
 			agent.type = agentTypes.get(eagt.agentTypeID);
-			agent.division = divisionTypes.get(eagt.divisionID);
+			agent.division = divisionTypes.getOrDefault(eagt.divisionID, "div_" + eagt.divisionID);
 			Location loc = agentsLocation.get(eagt.agentID);
 			if (loc != null) {
 				agent.system = loc.system().name;
@@ -139,27 +147,28 @@ public class NPCsTranslater {
 
 		logger.info("translated agents data");
 
-		for (Entry<Integer, R_get_corporations_corporation_id> e : npcCorps.entrySet()) {
+		for (Entry<Integer, EnpcCorporations> e : ecorps.entrySet()) {
 			Corporation add = new Corporation();
 			add.id = e.getKey();
-			R_get_corporations_corporation_id snpc = npcCorps.get(add.id);
-			if (snpc == null) {
-				logger.warn("can't find corporation from id " + add.id);
-				continue;
-			}
-			add.name = e.getValue().name;
+			EnpcCorporations snpc = e.getValue();
+			add.name = snpc.enName();
 
-			R_get_universe_factions faction = factionById.get(snpc.faction_id);
+			R_get_universe_factions faction = factionById.get(snpc.factionID);
 			if (faction == null) {
-				logger.debug("can't find faction from id " + snpc.faction_id + " for corporation " + add.name);
+				logger.debug("can't find faction from id " + snpc.factionID + " for corporation " + add.name);
 			} else {
 				add.faction = faction.name;
 			}
-			if (e.getValue().faction_id != 0) {
-				add.warfare = factionById.get(e.getValue().faction_id).name;
+			R_get_corporations_corporation_id esicorp = npcCorps.get(add.id);
+			if (esicorp != null && esicorp.faction_id != 0) {
+				add.warfare = factionById.get(esicorp.faction_id).name;
 			}
-			add.concordRate = convertConcordRate(add.name, add.faction, add.warfare);
-			corporations.put(e.getValue().name, add);
+
+			add.concordRate = EnpcCorporations.concordRates().getOrDefault(add.id, 0.0);
+			if (add.id == EnpcCorporations.CONCORD_ID) {
+				add.concordRate=1.0;
+			}
+			corporations.put(add.name, add);
 		}
 		Map<Integer, LPOffer> covertedOffers = corporations.values().stream().parallel().flatMap(c -> {
 			Requested<R_get_loyalty_stores_corporation_id_offers[]> req = esi.connection.get_loyalty_stores_offers(c.id,
@@ -169,29 +178,6 @@ public class NPCsTranslater {
 				.collect(Collectors.toMap(off -> off.id, off -> off, (o1, o2) -> o1));
 		offers.putAll(covertedOffers);
 		corporations.values().stream().parallel().forEach(c -> loadCorpOffers(c, esi.connection, offers));
-	}
-
-	private static double convertConcordRate(String name, String alliance, String fw) {
-		if (fw != null || alliance == null) {
-			return 0;
-		}
-		switch (alliance) {
-		case "CONCORD Assembly":
-			return 1;
-		case "Amarr Empire":
-		case "Ammatar Mandate":
-		case "Caldari State":
-		case "Gallente Federation":
-		case "Khanid Kingdom":
-		case "Minmatar Republic":
-			return 0.8;
-		case "ORE":
-		case "The Syndicate":
-		case "Thukker Tribe":
-		case "Servant Sisters of EVE":
-			return 0.4;
-		}
-		return 0;
 	}
 
 	protected static LPOffer makeOffer(R_get_loyalty_stores_corporation_id_offers o) {

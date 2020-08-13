@@ -650,6 +650,7 @@ agents:
     type: ResearchAgent
   Abishi Tian:
     corporation: School of Applied Knowledge
+    division: div_27
     id: 3018938
     isLocator: false
     level: 1
@@ -2211,6 +2212,7 @@ agents:
     type: BasicAgent
   Aernolaert Bruelle:
     corporation: Federal Navy Academy
+    division: div_25
     id: 3019334
     isLocator: false
     level: 1
@@ -2804,6 +2806,7 @@ agents:
     type: BasicAgent
   Agalle Vacoloure:
     corporation: Federal Navy Academy
+    division: div_26
     id: 3019453
     isLocator: false
     level: 1
@@ -4585,6 +4588,7 @@ agents:
     type: ResearchAgent
   Aire Arryns:
     corporation: Hedion University
+    division: div_26
     id: 3019445
     isLocator: false
     level: 1
@@ -6080,6 +6084,7 @@ agents:
     type: GenericStorylineMissionAgent
   Albo Onurbad:
     corporation: Republic Military School
+    division: div_26
     id: 3019454
     isLocator: false
     level: 1
@@ -6332,6 +6337,7 @@ agents:
     type: BasicAgent
   Aldu Nat:
     corporation: Imperial Academy
+    division: div_25
     id: 3019339
     isLocator: false
     level: 1
@@ -10149,6 +10155,7 @@ agents:
     type: GenericStorylineMissionAgent
   Anmon Otsi:
     corporation: Science and Trade Institute
+    division: div_29
     id: 3019473
     isLocator: false
     level: 1
@@ -10962,6 +10969,7 @@ agents:
     type: BasicAgent
   Antogase Pandon:
     corporation: University of Caille
+    division: div_25
     id: 3018931
     isLocator: false
     level: 1
@@ -14008,6 +14016,7 @@ agents:
     type: BasicAgent
   Arninald Beinarakur:
     corporation: Pator Tech School
+    division: div_28
     id: 3019346
     isLocator: false
     level: 1
@@ -14491,6 +14500,7 @@ agents:
     type: BasicAgent
   Artgert Ardreas:
     corporation: Republic University
+    division: div_29
     id: 3019478
     isLocator: false
     level: 1
@@ -16603,6 +16613,7 @@ agents:
     type: BasicAgent
   Aswamih Omid:
     corporation: Royal Amarr Institute
+    division: div_25
     id: 3019336
     isLocator: false
     level: 1
@@ -22377,6 +22388,7 @@ agents:
     type: BasicAgent
   Berlimaute Remintgarnes:
     corporation: University of Caille
+    division: div_28
     id: 3019341
     isLocator: false
     level: 1
@@ -24180,6 +24192,7 @@ agents:
     type: BasicAgent
   Bradondar Alfalur:
     corporation: Pator Tech School
+    division: div_26
     id: 3019456
     isLocator: false
     level: 1
@@ -25378,6 +25391,7 @@ agents:
     type: BasicAgent
   Cala Baliaerdt:
     corporation: Center for Advanced Studies
+    division: div_29
     id: 3019475
     isLocator: false
     level: 1
@@ -25916,6 +25930,7 @@ agents:
     type: BasicAgent
   Chakh Madafe:
     corporation: Imperial Academy
+    division: div_28
     id: 3018921
     isLocator: false
     level: 1
@@ -26751,6 +26766,7 @@ agents:
     type: EventMissionAgent
   Chigas Ovoken:
     corporation: State War Academy
+    division: div_26
     id: 3019449
     isLocator: false
     level: 1
@@ -28599,6 +28615,7 @@ agents:
     type: EventMissionAgent
   Dalofer Mattore:
     corporation: Pator Tech School
+    division: div_25
     id: 3018932
     isLocator: false
     level: 1
@@ -36640,6 +36657,7 @@ agents:
     type: ResearchAgent
   Ettes Alureel:
     corporation: University of Caille
+    division: div_29
     id: 3019474
     isLocator: false
     level: 1
@@ -36793,6 +36811,7 @@ agents:
     type: GenericStorylineMissionAgent
   Eurbibad Kird:
     corporation: Republic University
+    division: div_25
     id: 3019342
     isLocator: false
     level: 1
@@ -39740,6 +39759,7 @@ agents:
     type: BasicAgent
   Fykalia Adaferid:
     corporation: Republic Military School
+    division: div_28
     id: 3018920
     isLocator: false
     level: 1
@@ -42104,6 +42124,7 @@ agents:
     type: EventMissionAgent
   Gonakis Eraettafrin:
     corporation: Republic Military School
+    division: div_29
     id: 3019477
     isLocator: false
     level: 1
@@ -42224,6 +42245,7 @@ agents:
     type: EventMissionAgent
   Gosauvel Aulbres:
     corporation: Federal Navy Academy
+    division: div_29
     id: 3019476
     isLocator: false
     level: 1
@@ -43708,6 +43730,7 @@ agents:
     type: GenericStorylineMissionAgent
   Hadana Avyer:
     corporation: Hedion University
+    division: div_29
     id: 3019468
     isLocator: false
     level: 1
@@ -44224,6 +44247,7 @@ agents:
     type: BasicAgent
   Hakkaras Ihora:
     corporation: State War Academy
+    division: div_25
     id: 3019353
     isLocator: false
     level: 1
@@ -45191,6 +45215,7 @@ agents:
     type: BasicAgent
   Harbuko Bedgimund:
     corporation: Pator Tech School
+    division: div_27
     id: 3019347
     isLocator: false
     level: 1
@@ -45784,6 +45809,7 @@ agents:
     type: BasicAgent
   Hasier Parcie:
     corporation: Federal Navy Academy
+    division: div_28
     id: 3018923
     isLocator: false
     level: 1
@@ -49677,6 +49703,7 @@ agents:
     type: BasicAgent
   Houve Raennere:
     corporation: Center for Advanced Studies
+    division: div_27
     id: 3018926
     isLocator: false
     level: 1
@@ -51975,6 +52002,7 @@ agents:
     type: BasicAgent
   Ijumachi Vuonolailen:
     corporation: State War Academy
+    division: div_29
     id: 3019472
     isLocator: false
     level: 1
@@ -52216,6 +52244,7 @@ agents:
     type: BasicAgent
   Ikonaiki Ebora:
     corporation: Science and Trade Institute
+    division: div_28
     id: 3019355
     isLocator: false
     level: 1
@@ -57154,6 +57183,7 @@ agents:
     type: BasicAgent
   Jiekan Jepen:
     corporation: Hedion University
+    division: div_25
     id: 3018930
     isLocator: false
     level: 1
@@ -57296,6 +57326,7 @@ agents:
     type: BasicAgent
   Joas Alathema:
     corporation: Royal Amarr Institute
+    division: div_28
     id: 3019337
     isLocator: false
     level: 1
@@ -61420,6 +61451,7 @@ agents:
     type: BasicAgent
   Ketandia Iosos:
     corporation: Imperial Academy
+    division: div_26
     id: 3019446
     isLocator: false
     level: 1
@@ -61914,6 +61946,7 @@ agents:
     type: BasicAgent
   Kiamarian Nagakoun:
     corporation: Royal Amarr Institute
+    division: div_29
     id: 3019470
     isLocator: false
     level: 1
@@ -62650,6 +62683,7 @@ agents:
     type: BasicAgent
   Kirvas Ohvali:
     corporation: Science and Trade Institute
+    division: div_27
     id: 3019354
     isLocator: false
     level: 1
@@ -63353,6 +63387,7 @@ agents:
     type: BasicAgent
   Kokseri Velen:
     corporation: State War Academy
+    division: div_27
     id: 3019352
     isLocator: false
     level: 1
@@ -66235,6 +66270,7 @@ agents:
     type: BasicAgent
   Latorfani Aldimund:
     corporation: Republic Military School
+    division: div_25
     id: 3019344
     isLocator: false
     level: 1
@@ -67136,6 +67172,7 @@ agents:
     type: BasicAgent
   Loict Mensier:
     corporation: Center for Advanced Studies
+    division: div_25
     id: 3019332
     isLocator: false
     level: 1
@@ -75979,6 +76016,7 @@ agents:
     type: GenericStorylineMissionAgent
   Navai Mosten:
     corporation: Imperial Academy
+    division: div_29
     id: 3019469
     isLocator: false
     level: 1
@@ -78531,6 +78569,7 @@ agents:
     type: BasicAgent
   Ochishi Veilai:
     corporation: Science and Trade Institute
+    division: div_25
     id: 3018929
     isLocator: false
     level: 1
@@ -81467,6 +81506,7 @@ agents:
     type: BasicAgent
   Olarie Lacenten:
     corporation: Center for Advanced Studies
+    division: div_26
     id: 3019452
     isLocator: false
     level: 1
@@ -89969,6 +90009,7 @@ agents:
     type: BasicAgent
   Potillot Mumnier:
     corporation: University of Caille
+    division: div_26
     id: 3019451
     isLocator: false
     level: 1
@@ -90606,6 +90647,7 @@ agents:
     type: BasicAgent
   Pusamon Arnen:
     corporation: School of Applied Knowledge
+    division: div_25
     id: 3019370
     isLocator: false
     level: 1
@@ -91309,6 +91351,7 @@ agents:
     type: BasicAgent
   Raish Okarema:
     corporation: Royal Amarr Institute
+    division: div_26
     id: 3019447
     isLocator: false
     level: 1
@@ -91704,6 +91747,7 @@ agents:
     type: BasicAgent
   Ranta Tarumo:
     corporation: State War Academy
+    division: div_28
     id: 3018935
     isLocator: false
     level: 1
@@ -93496,6 +93540,7 @@ agents:
     type: BasicAgent
   Rimaremi Tasanen:
     corporation: Science and Trade Institute
+    division: div_26
     id: 3019450
     isLocator: false
     level: 1
@@ -98478,6 +98523,7 @@ agents:
     type: FactionalWarfareAgent
   Seville Eyron:
     corporation: Center for Advanced Studies
+    division: div_28
     id: 3019333
     isLocator: false
     level: 1
@@ -99214,6 +99260,7 @@ agents:
     type: BasicAgent
   Sherkah Ashek:
     corporation: Imperial Academy
+    division: div_27
     id: 3019338
     isLocator: false
     level: 1
@@ -99730,6 +99777,7 @@ agents:
     type: BasicAgent
   Shiokala Notaja:
     corporation: School of Applied Knowledge
+    division: div_29
     id: 3019471
     isLocator: false
     level: 1
@@ -102721,6 +102769,7 @@ agents:
     type: BasicAgent
   Stedad Yrmori:
     corporation: Republic Military School
+    division: div_27
     id: 3019345
     isLocator: false
     level: 1
@@ -102907,6 +102956,7 @@ agents:
     type: BasicAgent
   Stird Odetlef:
     corporation: Republic University
+    division: div_28
     id: 3019343
     isLocator: false
     level: 1
@@ -103753,6 +103803,7 @@ agents:
     type: BasicAgent
   Sut Bjar:
     corporation: Pator Tech School
+    division: div_29
     id: 3019479
     isLocator: false
     level: 1
@@ -107107,6 +107158,7 @@ agents:
     type: BasicAgent
   Timestre Facent:
     corporation: Federal Navy Academy
+    division: div_27
     id: 3019335
     isLocator: false
     level: 1
@@ -109735,6 +109787,7 @@ agents:
     type: BasicAgent
   Uba Virserin:
     corporation: Republic University
+    division: div_27
     id: 3018927
     isLocator: false
     level: 1
@@ -110768,6 +110821,7 @@ agents:
     type: BasicAgent
   Unachi Arikola:
     corporation: School of Applied Knowledge
+    division: div_26
     id: 3019448
     isLocator: false
     level: 1
@@ -115134,6 +115188,7 @@ agents:
     type: BasicAgent
   Voenins Blune:
     corporation: University of Caille
+    division: div_27
     id: 3019340
     isLocator: false
     level: 1
@@ -116343,6 +116398,7 @@ agents:
     type: BasicAgent
   Wettor Fugen:
     corporation: Republic University
+    division: div_26
     id: 3019455
     isLocator: false
     level: 1
@@ -117442,6 +117498,7 @@ agents:
     type: BasicAgent
   Yamonen Petihainen:
     corporation: School of Applied Knowledge
+    division: div_28
     id: 3019371
     isLocator: false
     level: 1
@@ -119542,6 +119599,7 @@ agents:
     type: EventMissionAgent
   Zafarara Fari:
     corporation: Hedion University
+    division: div_28
     id: 3019349
     isLocator: false
     level: 1
@@ -120179,6 +120237,7 @@ agents:
     type: BasicAgent
   Zhesar Sungestot:
     corporation: Hedion University
+    division: div_27
     id: 3019348
     isLocator: false
     level: 1
@@ -120277,6 +120336,7 @@ agents:
     type: BasicAgent
   Zidah Arvo:
     corporation: Royal Amarr Institute
+    division: div_27
     id: 3018924
     isLocator: false
     level: 1
