@@ -9,15 +9,17 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.FileTools;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EstaOperationServices;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EstaServices;
+import fr.guiguilechat.jcelechat.model.sde.load.bsd.EinvNames;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EstaStations;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EstationOperations;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EstationServices;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Universe;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.Moon;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.universe.SolarSystem.NPCStation;
@@ -273,7 +275,7 @@ public class LocationsTranslater {
 			logger.error("station id " + id + " can't be retrieved from " + EstaStations.FILE);
 			return null;
 		}
-		added.name = esta == null ? "missing_" + id : esta.stationName;
+		added.name = EinvNames.loadById().get(id);
 		if (added.name == null) {
 			added.name = solarSystemName + "_" + id;
 		}
@@ -283,11 +285,12 @@ public class LocationsTranslater {
 
 	private static Map<Integer, Set<String>> operationServices = null;
 
-	protected static Map<Integer, Set<String>> operationServices() {
+	protected static synchronized Map<Integer, Set<String>> operationServices() {
 		if (operationServices == null) {
-			Map<Integer, String> servicesnames = EstaServices.loadById();
-			operationServices = EstaOperationServices.loadByOperationId().entrySet().stream().collect(Collectors
-					.toMap(e -> e.getKey(), e -> e.getValue().stream().map(servicesnames::get).collect(Collectors.toSet())));
+			Map<Integer, String> servicesnames = EstationServices.load().entrySet().stream()
+					.collect(Collectors.toMap(Entry::getKey, e -> e.getValue().enName()));
+			operationServices = EstationOperations.load().entrySet().stream().collect(Collectors.toMap(Entry::getKey,
+					e -> IntStream.of(e.getValue().services).mapToObj(servicesnames::get).collect(Collectors.toSet())));
 		}
 		return operationServices;
 	}

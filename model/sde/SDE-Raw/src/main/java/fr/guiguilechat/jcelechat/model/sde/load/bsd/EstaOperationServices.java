@@ -17,6 +17,10 @@ import org.yaml.snakeyaml.nodes.NodeId;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
+/**
+ * @deprecated was moved to fsd
+ */
+@Deprecated(forRemoval = true)
 public class EstaOperationServices {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/staOperationServices.yaml");

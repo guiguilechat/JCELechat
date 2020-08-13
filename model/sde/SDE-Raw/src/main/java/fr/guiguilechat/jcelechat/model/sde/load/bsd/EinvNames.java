@@ -4,8 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Construct;
@@ -15,18 +15,13 @@ import org.yaml.snakeyaml.nodes.NodeId;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
-/**
- * @deprecated since CCP moved it in the FSD
- *
- */
-@Deprecated(forRemoval = true)
-public class EstaServices {
+public class EinvNames {
 
-	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/staServices.yaml");
-	private static ArrayList<EstaServices> cache;
+	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/invNames.yaml");
+	private static ArrayList<EinvNames> cache;
 
 	@SuppressWarnings("unchecked")
-	public static synchronized ArrayList<EstaServices> load() {
+	public static synchronized ArrayList<EinvNames> load() {
 		if (cache == null) {
 			SDECache.INSTANCE.donwloadSDE();
 			Constructor cons = new Constructor(ArrayList.class) {
@@ -34,7 +29,7 @@ public class EstaServices {
 				@Override
 				protected Construct getConstructor(Node node) {
 					if (node.getNodeId() == NodeId.mapping) {
-						node.setType(EstaServices.class);
+						node.setType(EinvNames.class);
 					}
 					Construct ret = super.getConstructor(node);
 					return ret;
@@ -50,15 +45,22 @@ public class EstaServices {
 		return cache;
 	}
 
+	private static Map<Integer, String> id2Names = null;
+
 	public static Map<Integer, String> loadById() {
-		HashMap<Integer, String> ret = new HashMap<>();
-		for (EstaServices s : load()) {
-			ret.put(s.serviceID, s.serviceName);
+		if (id2Names == null) {
+			ArrayList<EinvNames> data = load();
+			synchronized (data) {
+				if (id2Names == null) {
+					id2Names = data.stream().collect(Collectors.toMap(e -> e.itemID, e -> e.itemName));
+				}
+			}
 		}
-		return ret;
+		return id2Names;
 	}
 
-	public int serviceID;
-	public String serviceName;
-	public String description;
+	// structure
+
+	public int itemID;
+	public String itemName;
 }
