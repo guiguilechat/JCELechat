@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.locations.algos;
+package fr.guiguilechat.jcelechat.model.sde.locations.distances;
 
 import java.util.Arrays;
 import java.util.HashMap;

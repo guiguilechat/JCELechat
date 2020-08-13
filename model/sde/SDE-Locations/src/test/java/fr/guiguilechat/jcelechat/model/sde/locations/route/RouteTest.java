@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.model.sde.locations.algos;
+package fr.guiguilechat.jcelechat.model.sde.locations.route;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.Route;
+import fr.guiguilechat.jcelechat.model.sde.locations.route.Route;
 
 public class RouteTest {
 

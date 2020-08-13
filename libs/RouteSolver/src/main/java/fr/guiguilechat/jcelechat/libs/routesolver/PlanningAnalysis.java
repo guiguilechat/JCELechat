@@ -15,7 +15,7 @@ import fr.guiguilechat.jcelechat.model.sde.locations.Constellation;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.Router;
+import fr.guiguilechat.jcelechat.model.sde.locations.route.SecStatusRouter;
 
 /**
  * analysis of a planning. This consist in the listing of the systems that are
@@ -90,13 +90,14 @@ public class PlanningAnalysis {
 			allowedSecStatus.addAll(Arrays.asList(SECSTATUS.values()));
 		}
 		SECSTATUS[] ssArr = allowedSecStatus.toArray(SECSTATUS[]::new);
+		SecStatusRouter router = new SecStatusRouter(ssArr);
 
 		// check that each explicitly required system, besides the source, is
 		// reachable from source
 		if (params.keepSec) {
 			for (SolarSystem ss : required) {
 				if (ss != start) {
-					int[] route = Router.route(start.id, ss.id, ssArr);
+					int[] route = router.getRoute(start.id, ss.id);
 					if (route == null || route.length == 0) {
 						logger.warn("can't find route from " + start.name + " to " + ss.name
 								+ " that only matches systems secutiry " + allowedSecStatus);
@@ -107,7 +108,7 @@ public class PlanningAnalysis {
 
 		// add the implicit required systems.
 		Predicate<SolarSystem> implicitRequiredFilter = ss -> allowedSecStatus.contains(ss.secStatus())
-				&& Router.route(start.id, ss.id, ssArr).length > 0;
+				&& router.getRoute(start.id, ss.id).length > 0;
 				for (String cn : params.includeConstellations) {
 					Constellation cs = Constellation.getConstellation(cn);
 					cs.systems.stream().map(SolarSystem::getSystem).filter(implicitRequiredFilter).forEach(required::add);
@@ -121,7 +122,7 @@ public class PlanningAnalysis {
 					for (SolarSystem ss1 : required) {
 						for (SolarSystem ss2 : required) {
 							if (ss1.name.compareTo(ss2.name) < 0) {
-								int[] intermediates = Router.route(ss1.id, ss2.id, ssArr);
+								int[] intermediates = router.getRoute(ss1.id, ss2.id);
 								for (int i = 0; i < intermediates.length - 1; i++) {
 									SolarSystem intermediate = SolarSystem.getSystem(intermediates[i]);
 									if (!required.contains(intermediate)) {

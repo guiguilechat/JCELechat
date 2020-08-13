@@ -1,6 +1,7 @@
-package fr.guiguilechat.jcelechat.model.sde.locations.algos;
+package fr.guiguilechat.jcelechat.model.sde.locations.route;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.Constellation;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
@@ -35,6 +36,14 @@ public class Route extends ArrayList<SolarSystem> {
 		}
 
 		return sb.toString();
+	}
+
+	public Route() {
+		super();
+	}
+
+	public Route(Collection<? extends SolarSystem> systems) {
+		super(systems);
 	}
 
 }

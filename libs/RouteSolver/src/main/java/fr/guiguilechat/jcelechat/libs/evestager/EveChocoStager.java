@@ -12,14 +12,14 @@ import org.chocosolver.solver.variables.IntVar;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionStager;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IndexedSystems;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
 public class EveChocoStager implements IRegionStager{
 
 	public static final EveChocoStager INSTANCE = new EveChocoStager();
 
 	@Override
-	public List<SolarSystem> around(IndexedSystems idx, int[][] jumps, int clusters, boolean useSquareDistance) {
+	public List<SolarSystem> around(SysIndex idx, int[][] jumps, int clusters, boolean useSquareDistance) {
 		Model choco = new Model();
 		int highestDist = 0;
 		for (int i = 0; i < jumps.length; i++) {

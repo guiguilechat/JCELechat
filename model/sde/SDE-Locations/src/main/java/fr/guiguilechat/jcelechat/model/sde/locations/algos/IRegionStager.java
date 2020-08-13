@@ -4,7 +4,6 @@ import java.util.Collection;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
 
 public interface IRegionStager {
 
@@ -16,8 +15,8 @@ public interface IRegionStager {
 	 *          the system we start the expansion around
 	 * @return
 	 */
-	public default IndexedSystems index(SolarSystem source) {
-		return new IndexedSystems(expand(source));
+	public default SysIndex index(SolarSystem source) {
+		return new SysIndex(expand(source));
 	}
 
 	public default Collection<SolarSystem> expand(SolarSystem source) {
@@ -30,15 +29,15 @@ public interface IRegionStager {
 	 * @param idx
 	 * @return a new matrix of the distances between each system.
 	 */
-	public default int[][] jumps(IndexedSystems idx) {
+	public default int[][] jumps(SysIndex idx) {
 		int[][] jumps = new int[idx.size()][idx.size()];
 		for (int i = 0; i < idx.size(); i++) {
 			SolarSystem from = idx.system(i);
 			jumps[i][i] = 0;
 			for (int j = i + 1; j < idx.size(); j++) {
 				SolarSystem to = idx.system(j);
-				jumps[i][j] = jumps[j][i] = fr.guiguilechat.jcelechat.model.sde.locations.algos.Router.route(from.id, to.id,
-						SECSTATUS.HS).length;
+				jumps[i][j] = jumps[j][i] = fr.guiguilechat.jcelechat.model.sde.locations.route.SecStatusRouter.HS
+						.getRoute(from.id, to.id).length;
 			}
 		}
 		return jumps;
@@ -56,11 +55,11 @@ public interface IRegionStager {
 	 *         concerned system in the region the lowest possible.
 	 */
 	public default List<SolarSystem> around(SolarSystem source, int clusters, boolean useSquareDistance) {
-		IndexedSystems idx = index(source);
+		SysIndex idx = index(source);
 		int[][] jumps = jumps(idx);
 		return around(idx, jumps, clusters, useSquareDistance);
 	}
 
-	public List<SolarSystem> around(IndexedSystems idx, int[][] jumps, int clusters, boolean useSquareDistance);
+	public List<SolarSystem> around(SysIndex idx, int[][] jumps, int clusters, boolean useSquareDistance);
 
 }

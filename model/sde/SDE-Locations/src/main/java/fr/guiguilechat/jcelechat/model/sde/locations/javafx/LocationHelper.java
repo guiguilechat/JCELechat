@@ -1,5 +1,6 @@
-package fr.guiguilechat.jcelechat.model.sde.locations;
+package fr.guiguilechat.jcelechat.model.sde.locations.javafx;
 
+import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import javafx.scene.control.ChoiceBox;
 import javafx.util.StringConverter;
 

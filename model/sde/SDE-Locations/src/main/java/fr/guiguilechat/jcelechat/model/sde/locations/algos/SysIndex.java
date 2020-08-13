@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
  * A reindex of a collection of systems. The internal collections is immutable -
  * however the systems are mutable.
  */
-public class IndexedSystems implements Iterable<SolarSystem> {
+public class SysIndex implements Iterable<SolarSystem> {
 
 	private final SolarSystem[] idx2sys;
 	private final Map<SolarSystem, Integer> sys2idx;
@@ -23,12 +23,12 @@ public class IndexedSystems implements Iterable<SolarSystem> {
 		return idx2sys.length;
 	}
 
-	public IndexedSystems(Collection<SolarSystem> systems) {
+	public SysIndex(Collection<SolarSystem> systems) {
 		idx2sys = systems.stream().sorted((s, v) -> s.name.compareTo(v.name)).toArray(SolarSystem[]::new);
 		sys2idx = IntStream.range(0, idx2sys.length).boxed().collect(Collectors.toMap(i -> idx2sys[i], i -> i));
 	}
 
-	public IndexedSystems(SolarSystem systems) {
+	public SysIndex(SolarSystem systems) {
 		this(Stream.of(systems).collect(Collectors.toSet()));
 	}
 
@@ -48,7 +48,7 @@ public class IndexedSystems implements Iterable<SolarSystem> {
 	 *          a system indexed
 	 * @return the index of that system.
 	 */
-	public int system(SolarSystem sys) {
+	public int index(SolarSystem sys) {
 		return sys2idx.get(sys);
 	}
 

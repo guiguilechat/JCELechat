@@ -96,7 +96,7 @@ public class HSRegionSplitter implements IRegionStager {
 	}
 
 	@Override
-	public List<SolarSystem> around(IndexedSystems idx, int[][] jumps, int clusters, boolean useSquareDistance) {
+	public List<SolarSystem> around(SysIndex idx, int[][] jumps, int clusters, boolean useSquareDistance) {
 		int[] bestSol = null;
 		int bestEval = Integer.MAX_VALUE;
 		for (int[] valuation = preValuation(clusters); nextValuation(valuation, idx.size() - 1);) {
