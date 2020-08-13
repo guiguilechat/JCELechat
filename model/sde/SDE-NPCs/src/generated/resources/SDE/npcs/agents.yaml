@@ -111347,13 +111347,13 @@ agents:
     stationId: 60008764
     system: Tash-Murkon Prime
     type: GenericStorylineMissionAgent
-  Urat Mehrekar:
+  Urat Mekar:
     corporation: Ministry of War
     division: Security
     id: 3018896
     isLocator: false
     level: 4
-    name: Urat Mehrekar
+    name: Urat Mekar
     station: Akhragan VIII - Ministry of War Archives
     stationId: 60007888
     system: Akhragan

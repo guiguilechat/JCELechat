@@ -9,7 +9,7 @@ types:
     id: 3542
     marketGroup: 778
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: CONCORD Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -34,7 +34,7 @@ types:
     id: 15900
     marketGroup: 611
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -59,7 +59,7 @@ types:
     id: 15899
     marketGroup: 610
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -84,7 +84,7 @@ types:
     id: 15898
     marketGroup: 609
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -109,7 +109,7 @@ types:
     id: 15897
     marketGroup: 612
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -133,7 +133,7 @@ types:
     hp: 40.0
     id: 41505
     marketGroup: 778
-    metalevel: 1
+    metalevelold: 1
     name: Capital C-5L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -157,7 +157,7 @@ types:
     hp: 40.0
     id: 41506
     marketGroup: 778
-    metalevel: 1
+    metalevelold: 1
     name: Capital Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -204,7 +204,7 @@ types:
     hp: 40.0
     id: 41507
     marketGroup: 778
-    metalevel: 5
+    metalevelold: 5
     name: Capital Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -252,7 +252,7 @@ types:
     id: 41510
     marketGroup: 778
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -277,7 +277,7 @@ types:
     id: 13948
     marketGroup: 611
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -302,7 +302,7 @@ types:
     id: 13950
     marketGroup: 610
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -327,7 +327,7 @@ types:
     id: 13952
     marketGroup: 609
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -352,7 +352,7 @@ types:
     id: 13954
     marketGroup: 612
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -377,7 +377,7 @@ types:
     id: 41509
     marketGroup: 778
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -402,7 +402,7 @@ types:
     id: 13947
     marketGroup: 611
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -427,7 +427,7 @@ types:
     id: 13949
     marketGroup: 610
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -452,7 +452,7 @@ types:
     id: 13951
     marketGroup: 609
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -477,7 +477,7 @@ types:
     id: 13953
     marketGroup: 612
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -502,7 +502,7 @@ types:
     id: 14703
     marketGroup: 611
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Estamel's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -527,7 +527,7 @@ types:
     id: 14707
     marketGroup: 612
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Estamel's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -552,7 +552,7 @@ types:
     id: 19199
     marketGroup: 611
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gist A-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -577,7 +577,7 @@ types:
     id: 19197
     marketGroup: 612
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gist A-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -602,7 +602,7 @@ types:
     id: 19194
     marketGroup: 611
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gist B-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -627,7 +627,7 @@ types:
     id: 19196
     marketGroup: 612
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gist B-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -652,7 +652,7 @@ types:
     id: 19193
     marketGroup: 611
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gist C-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -677,7 +677,7 @@ types:
     id: 19195
     marketGroup: 612
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gist C-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -702,7 +702,7 @@ types:
     id: 19200
     marketGroup: 611
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Gist X-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -727,7 +727,7 @@ types:
     id: 19198
     marketGroup: 612
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Gist X-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -752,7 +752,7 @@ types:
     id: 19173
     marketGroup: 609
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gistii A-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -777,7 +777,7 @@ types:
     id: 19171
     marketGroup: 609
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gistii B-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -802,7 +802,7 @@ types:
     id: 19169
     marketGroup: 609
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gistii C-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -827,7 +827,7 @@ types:
     id: 19185
     marketGroup: 610
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gistum A-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -852,7 +852,7 @@ types:
     id: 19183
     marketGroup: 610
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gistum B-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -877,7 +877,7 @@ types:
     id: 19181
     marketGroup: 610
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gistum C-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -902,7 +902,7 @@ types:
     id: 14597
     marketGroup: 611
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Hakim's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -927,7 +927,7 @@ types:
     id: 14601
     marketGroup: 612
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Hakim's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -952,7 +952,7 @@ types:
     id: 14700
     marketGroup: 611
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -977,7 +977,7 @@ types:
     id: 14704
     marketGroup: 612
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1002,7 +1002,7 @@ types:
     id: 20621
     marketGroup: 611
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Large 'Outlaw' Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1037,7 +1037,7 @@ types:
     hp: 40.0
     id: 10880
     marketGroup: 611
-    metalevel: 1
+    metalevelold: 1
     name: Large C5-L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1061,7 +1061,7 @@ types:
     hp: 40.0
     id: 10876
     marketGroup: 611
-    metalevel: 1
+    metalevelold: 1
     name: Large Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1108,7 +1108,7 @@ types:
     hp: 40.0
     id: 10858
     marketGroup: 611
-    metalevel: 5
+    metalevelold: 5
     name: Large Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1133,7 +1133,7 @@ types:
     id: 20619
     marketGroup: 610
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Medium 'Lone Ranger' Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1168,7 +1168,7 @@ types:
     hp: 40.0
     id: 10872
     marketGroup: 610
-    metalevel: 1
+    metalevelold: 1
     name: Medium C5-L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1192,7 +1192,7 @@ types:
     hp: 40.0
     id: 10868
     marketGroup: 610
-    metalevel: 1
+    metalevelold: 1
     name: Medium Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1239,7 +1239,7 @@ types:
     hp: 40.0
     id: 10850
     marketGroup: 610
-    metalevel: 5
+    metalevelold: 5
     name: Medium Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1264,7 +1264,7 @@ types:
     id: 19205
     marketGroup: 611
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pith A-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1289,7 +1289,7 @@ types:
     id: 19206
     marketGroup: 612
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pith A-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1314,7 +1314,7 @@ types:
     id: 19203
     marketGroup: 611
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pith B-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1339,7 +1339,7 @@ types:
     id: 19204
     marketGroup: 612
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pith B-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1364,7 +1364,7 @@ types:
     id: 19201
     marketGroup: 611
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Pith C-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1389,7 +1389,7 @@ types:
     id: 19202
     marketGroup: 612
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Pith C-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1414,7 +1414,7 @@ types:
     id: 19207
     marketGroup: 611
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Pith X-Type Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1439,7 +1439,7 @@ types:
     id: 19208
     marketGroup: 612
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Pith X-Type X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1464,7 +1464,7 @@ types:
     id: 19179
     marketGroup: 609
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pithi A-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1489,7 +1489,7 @@ types:
     id: 19177
     marketGroup: 609
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pithi B-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1514,7 +1514,7 @@ types:
     id: 19175
     marketGroup: 609
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Pithi C-Type Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1539,7 +1539,7 @@ types:
     id: 19191
     marketGroup: 610
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pithum A-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1564,7 +1564,7 @@ types:
     id: 19189
     marketGroup: 610
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pithum B-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1589,7 +1589,7 @@ types:
     id: 19187
     marketGroup: 610
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Pithum C-Type Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1614,7 +1614,7 @@ types:
     id: 15904
     marketGroup: 611
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1639,7 +1639,7 @@ types:
     id: 15903
     marketGroup: 610
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Medium Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1664,7 +1664,7 @@ types:
     id: 15902
     marketGroup: 609
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Small Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1689,7 +1689,7 @@ types:
     id: 15901
     marketGroup: 612
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1714,7 +1714,7 @@ types:
     id: 20617
     marketGroup: 609
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Small 'Settler' Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1749,7 +1749,7 @@ types:
     hp: 40.0
     id: 6437
     marketGroup: 609
-    metalevel: 1
+    metalevelold: 1
     name: Small C5-L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1773,7 +1773,7 @@ types:
     hp: 40.0
     id: 6441
     marketGroup: 609
-    metalevel: 1
+    metalevelold: 1
     name: Small Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1820,7 +1820,7 @@ types:
     hp: 40.0
     id: 400
     marketGroup: 609
-    metalevel: 5
+    metalevelold: 5
     name: Small Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1845,7 +1845,7 @@ types:
     id: 14701
     marketGroup: 611
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Thon's Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1870,7 +1870,7 @@ types:
     id: 14705
     marketGroup: 612
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Thon's Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1895,7 +1895,7 @@ types:
     id: 14599
     marketGroup: 611
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Tobias' Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1920,7 +1920,7 @@ types:
     id: 14603
     marketGroup: 612
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Tobias' Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1945,7 +1945,7 @@ types:
     id: 41508
     marketGroup: 778
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Capital Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1970,7 +1970,7 @@ types:
     id: 14702
     marketGroup: 611
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vepas' Modified Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -1995,7 +1995,7 @@ types:
     id: 14706
     marketGroup: 612
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vepas' Modified X-Large Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -2020,7 +2020,7 @@ types:
     id: 20623
     marketGroup: 612
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: X-Large 'Locomotive' Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -2055,7 +2055,7 @@ types:
     hp: 40.0
     id: 10888
     marketGroup: 612
-    metalevel: 1
+    metalevelold: 1
     name: X-Large C5-L Compact Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -2079,7 +2079,7 @@ types:
     hp: 40.0
     id: 10884
     marketGroup: 612
-    metalevel: 1
+    metalevelold: 1
     name: X-Large Clarity Ward Enduring Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -2126,7 +2126,7 @@ types:
     hp: 40.0
     id: 10842
     marketGroup: 612
-    metalevel: 5
+    metalevelold: 5
     name: X-Large Shield Booster II
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10

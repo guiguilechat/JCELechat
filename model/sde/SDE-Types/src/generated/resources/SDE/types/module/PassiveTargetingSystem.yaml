@@ -6,7 +6,7 @@ types:
     hp: 40.0
     id: 5871
     marketGroup: 672
-    metalevel: 3
+    metalevelold: 3
     name: 41F Veiled Targeting Unit
     packagedVolume: 5.0
     portionSize: 1
@@ -24,7 +24,7 @@ types:
     hp: 40.0
     id: 5865
     marketGroup: 672
-    metalevel: 2
+    metalevelold: 2
     name: Indirect Target Acquisition I
     packagedVolume: 5.0
     portionSize: 1
@@ -59,7 +59,7 @@ types:
     hp: 40.0
     id: 2341
     marketGroup: 672
-    metalevel: 5
+    metalevelold: 5
     name: Passive Targeter II
     packagedVolume: 5.0
     portionSize: 1
@@ -77,7 +77,7 @@ types:
     hp: 40.0
     id: 5867
     marketGroup: 672
-    metalevel: 4
+    metalevelold: 4
     name: Passive Targeting Array I
     packagedVolume: 5.0
     portionSize: 1
@@ -95,7 +95,7 @@ types:
     hp: 40.0
     id: 5869
     marketGroup: 672
-    metalevel: 1
+    metalevelold: 1
     name: Suppressed Targeting System I
     packagedVolume: 5.0
     portionSize: 1

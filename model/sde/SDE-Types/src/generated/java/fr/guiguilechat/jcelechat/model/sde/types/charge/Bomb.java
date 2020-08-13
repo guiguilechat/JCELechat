@@ -37,7 +37,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -205,7 +205,7 @@ public class Bomb
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * The type ID of the skill that is required.
      */
@@ -249,7 +249,7 @@ public class Bomb
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double thermaldamage;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Mass.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, LauncherGroup.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, AoeCloudSize.INSTANCE, ArmorThermalDamageResonance.INSTANCE, AoeFalloff.INSTANCE, RequiredSkill1Level.INSTANCE, ExplosionDelay.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, ExplosionRange.INSTANCE, DetonationRange.INSTANCE, DisallowInEmpireSpace.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, MetaLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AimedLaunch.INSTANCE, Mass.INSTANCE, Agility.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, LauncherGroup.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, AoeCloudSize.INSTANCE, ArmorThermalDamageResonance.INSTANCE, AoeFalloff.INSTANCE, RequiredSkill1Level.INSTANCE, ExplosionDelay.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, MaxVelocity.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, ExplosionRange.INSTANCE, DetonationRange.INSTANCE, DisallowInEmpireSpace.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, MetaLevelOld.INSTANCE })));
     public static final Bomb.MetaGroup METAGROUP = new Bomb.MetaGroup();
 
     @Override
@@ -341,7 +341,7 @@ public class Bomb
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  182 :
             {

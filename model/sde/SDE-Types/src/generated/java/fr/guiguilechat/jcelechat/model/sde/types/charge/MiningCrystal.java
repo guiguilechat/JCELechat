@@ -25,7 +25,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -111,7 +111,7 @@ public class MiningCrystal
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * The type ID of the skill that is required.
      */
@@ -169,7 +169,7 @@ public class MiningCrystal
     @Stackable(true)
     @DefaultIntValue(0)
     public int unfitcapcost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpecialisationAsteroidGroup.INSTANCE, SpecialisationAsteroidYieldMultiplier.INSTANCE, CrystalVolatilityChance.INSTANCE, CrystalVolatilityDamage.INSTANCE, UnfitCapCost.INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevel.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, SpecialisationAsteroidGroup.INSTANCE, SpecialisationAsteroidYieldMultiplier.INSTANCE, CrystalVolatilityChance.INSTANCE, CrystalVolatilityDamage.INSTANCE, UnfitCapCost.INSTANCE, CrystalsGetDamaged.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final MiningCrystal.MetaGroup METAGROUP = new MiningCrystal.MetaGroup();
 
     @Override
@@ -213,7 +213,7 @@ public class MiningCrystal
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  182 :
             {

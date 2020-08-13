@@ -23,7 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.LowSlotModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MedSlotModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -129,7 +129,7 @@ public class PropulsionSubsystem
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpbubbleimmunemodifier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AgilityBonusAdd.INSTANCE, WarpBubbleImmuneModifier.INSTANCE, Mass.INSTANCE, Hp.INSTANCE, MaxTargetRange.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrPropulsion.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, SubsystemBonusGallentePropulsion.INSTANCE, LowSlotModifier.INSTANCE, Radius.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusCaldariPropulsion.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusAmarrPropulsion2 .INSTANCE, SubsystemBonusCaldariPropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion.INSTANCE, SubsystemBonusGallentePropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion2 .INSTANCE, RequiredSkill1 .INSTANCE, MetaLevel.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AgilityBonusAdd.INSTANCE, WarpBubbleImmuneModifier.INSTANCE, Mass.INSTANCE, Hp.INSTANCE, MaxTargetRange.INSTANCE, RequiredSkill1Level.INSTANCE, SubSystemSlot.INSTANCE, SubsystemBonusAmarrPropulsion.INSTANCE, HiSlotModifier.INSTANCE, MedSlotModifier.INSTANCE, SubsystemBonusGallentePropulsion.INSTANCE, LowSlotModifier.INSTANCE, Radius.INSTANCE, FitsToShipType.INSTANCE, SubsystemBonusCaldariPropulsion.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SubsystemBonusAmarrPropulsion2 .INSTANCE, SubsystemBonusCaldariPropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion.INSTANCE, SubsystemBonusGallentePropulsion2 .INSTANCE, SubsystemBonusMinmatarPropulsion2 .INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE })));
     public static final PropulsionSubsystem.MetaGroup METAGROUP = new PropulsionSubsystem.MetaGroup();
 
     @Override

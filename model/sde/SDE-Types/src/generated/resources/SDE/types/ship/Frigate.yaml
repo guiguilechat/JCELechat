@@ -47,7 +47,7 @@ types:
     maxvelocity: 312.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Astero
@@ -495,7 +495,7 @@ types:
     maxvelocity: 360.0
     medslots: 5
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Caldari Navy Hookbill
@@ -757,7 +757,7 @@ types:
     maxvelocity: 340.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Crucifier Navy Issue
@@ -847,7 +847,7 @@ types:
     maxvelocity: 330.0
     medslots: 3
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Cruor
@@ -1030,7 +1030,7 @@ types:
     maxvelocity: 385.0
     medslots: 3
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Daredevil
@@ -1124,7 +1124,7 @@ types:
     maxvelocity: 460.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Dramiel
@@ -1213,7 +1213,7 @@ types:
     maxvelocity: 404.0
     medslots: 1
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 1.0
     name: Echelon
@@ -1380,7 +1380,7 @@ types:
     maxvelocity: 375.0
     medslots: 3
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Federation Navy Comet
@@ -1469,7 +1469,7 @@ types:
     maxvelocity: 415.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Garmur
@@ -1561,7 +1561,7 @@ types:
     maxvelocity: 500.0
     medslots: 4
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Gold Magnate
@@ -1739,7 +1739,7 @@ types:
     maxvelocity: 325.0
     medslots: 5
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Griffin Navy Issue
@@ -2012,7 +2012,7 @@ types:
     maxvelocity: 350.0
     medslots: 2
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Imperial Navy Slicer
@@ -2543,7 +2543,7 @@ types:
     maxvelocity: 315.0
     medslots: 3
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Maulus Navy Issue
@@ -2988,7 +2988,7 @@ types:
     maxvelocity: 410.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Republic Fleet Firetail
@@ -3164,7 +3164,7 @@ types:
     maxvelocity: 450.0
     medslots: 4
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Silver Magnate
@@ -3423,7 +3423,7 @@ types:
     maxvelocity: 340.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Succubus
@@ -3876,7 +3876,7 @@ types:
     maxvelocity: 400.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Vigil Fleet Issue
@@ -3970,7 +3970,7 @@ types:
     maxvelocity: 320.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Worm

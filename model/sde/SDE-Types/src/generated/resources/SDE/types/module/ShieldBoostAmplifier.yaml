@@ -5,7 +5,7 @@ types:
     hp: 40.0
     id: 16535
     marketGroup: 613
-    metalevel: 4
+    metalevelold: 4
     name: '''Copasetic'' Particle Field Acceleration'
     packagedVolume: 5.0
     portionSize: 1
@@ -24,7 +24,7 @@ types:
     id: 20613
     marketGroup: 613
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Glycerine'' Shield Boost Amplifier'
     packagedVolume: 5.0
     portionSize: 1
@@ -42,7 +42,7 @@ types:
     hp: 40.0
     id: 16533
     marketGroup: 613
-    metalevel: 3
+    metalevelold: 3
     name: '''Stalwart'' Particle Field Magnifier'
     packagedVolume: 5.0
     portionSize: 1
@@ -60,7 +60,7 @@ types:
     hp: 40.0
     id: 16531
     marketGroup: 613
-    metalevel: 2
+    metalevelold: 2
     name: 5a Prototype Shield Support I
     packagedVolume: 5.0
     portionSize: 1
@@ -79,7 +79,7 @@ types:
     id: 15905
     marketGroup: 613
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     name: Caldari Navy Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -98,7 +98,7 @@ types:
     id: 14045
     marketGroup: 613
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -117,7 +117,7 @@ types:
     id: 14047
     marketGroup: 613
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     name: Dread Guristas Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -136,7 +136,7 @@ types:
     id: 14714
     marketGroup: 613
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Estamel's Modified Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -155,7 +155,7 @@ types:
     id: 19293
     marketGroup: 613
     metagroupid: 6
-    metalevel: 13
+    metalevelold: 13
     name: Gist A-Type Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -174,7 +174,7 @@ types:
     id: 19299
     marketGroup: 613
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gist B-Type Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -193,7 +193,7 @@ types:
     id: 19297
     marketGroup: 613
     metagroupid: 6
-    metalevel: 11
+    metalevelold: 11
     name: Gist C-Type Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -212,7 +212,7 @@ types:
     id: 19301
     marketGroup: 613
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gist X-Type Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -231,7 +231,7 @@ types:
     id: 14636
     marketGroup: 613
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Hakim's Modified Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -249,7 +249,7 @@ types:
     hp: 40.0
     id: 16529
     marketGroup: 613
-    metalevel: 1
+    metalevelold: 1
     name: Ionic Field Accelerator I
     packagedVolume: 5.0
     portionSize: 1
@@ -268,7 +268,7 @@ types:
     id: 14708
     marketGroup: 613
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -287,7 +287,7 @@ types:
     id: 19311
     marketGroup: 613
     metagroupid: 6
-    metalevel: 13
+    metalevelold: 13
     name: Pith A-Type Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -306,7 +306,7 @@ types:
     id: 19303
     marketGroup: 613
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pith B-Type Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -325,7 +325,7 @@ types:
     id: 19289
     marketGroup: 613
     metagroupid: 6
-    metalevel: 11
+    metalevelold: 11
     name: Pith C-Type Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -344,7 +344,7 @@ types:
     id: 19295
     marketGroup: 613
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pith X-Type Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -363,7 +363,7 @@ types:
     id: 15907
     marketGroup: 613
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -398,7 +398,7 @@ types:
     hp: 40.0
     id: 24443
     marketGroup: 613
-    metalevel: 5
+    metalevelold: 5
     name: Shield Boost Amplifier II
     packagedVolume: 5.0
     portionSize: 1
@@ -417,7 +417,7 @@ types:
     id: 14710
     marketGroup: 613
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Thon's Modified Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -436,7 +436,7 @@ types:
     id: 14638
     marketGroup: 613
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Tobias' Modified Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1
@@ -455,7 +455,7 @@ types:
     id: 14712
     marketGroup: 613
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Vepas' Modified Shield Boost Amplifier
     packagedVolume: 5.0
     portionSize: 1

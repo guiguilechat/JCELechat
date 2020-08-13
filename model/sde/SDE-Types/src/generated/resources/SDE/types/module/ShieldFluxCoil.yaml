@@ -7,7 +7,7 @@ types:
     id: 508
     marketGroup: 687
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Basic'' Shield Flux Coil'
     packagedVolume: 5.0
     portionSize: 1
@@ -28,7 +28,7 @@ types:
     id: 37825
     marketGroup: 687
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Shield Flux Coil
     packagedVolume: 5.0
     portionSize: 1
@@ -48,7 +48,7 @@ types:
     hp: 40.0
     id: 8297
     marketGroup: 687
-    metalevel: 1
+    metalevelold: 1
     name: Mark I Compact Shield Flux Coil
     packagedVolume: 5.0
     portionSize: 1
@@ -87,7 +87,7 @@ types:
     hp: 40.0
     id: 1256
     marketGroup: 687
-    metalevel: 5
+    metalevelold: 5
     name: Shield Flux Coil II
     packagedVolume: 5.0
     portionSize: 1
@@ -107,7 +107,7 @@ types:
     hp: 40.0
     id: 8295
     marketGroup: 687
-    metalevel: 1
+    metalevelold: 1
     name: Type-D Restrained Shield Flux Coil
     packagedVolume: 5.0
     portionSize: 1

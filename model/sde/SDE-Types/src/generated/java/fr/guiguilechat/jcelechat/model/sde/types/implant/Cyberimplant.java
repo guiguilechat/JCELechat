@@ -61,6 +61,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MemoryBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Nondestructible;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PassiveEmDamageResistanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PassiveExplosiveDamageResistanceBonus;
@@ -407,6 +408,14 @@ public class Cyberimplant
     @DefaultIntValue(0)
     public int memorybonus;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int metalevelold;
+    /**
      * This will make the item non-destructible upon podding.  ONLY FOR IMPLANTS AND BOOSTERS
      */
     @HighIsGood(true)
@@ -621,7 +630,7 @@ public class Cyberimplant
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpowerbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ImplantSetThukker.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ImplantSetSisters.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, ScanRadarStrengthPercent.INSTANCE, DamageMultiplierBonusMaxModifier.INSTANCE, DamageMultiplierBonusPerCycleModifier.INSTANCE, SetBonusMimesis.INSTANCE, ImplantSetSyndicate.INSTANCE, ImplantSetORE.INSTANCE, ImplantSetWarpSpeed.INSTANCE, ImplantSetMordus.INSTANCE, ImplantSetImperialNavy.INSTANCE, ImplantSetCaldariNavy.INSTANCE, ImplantSetFederationNavy.INSTANCE, ImplantSetRepublicFleet.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, AgilityBonus.INSTANCE, DisallowOffensiveModifierBonus.INSTANCE, ArmorRepairBonus.INSTANCE, ScanRadarStrengthModifier.INSTANCE, ScanLadarStrengthModifier.INSTANCE, ImplantSetBloodraider.INSTANCE, ScanGravimetricStrengthModifier.INSTANCE, ScanMagnetometricStrengthModifier.INSTANCE, ImplantSetLGImperialNavy.INSTANCE, ImplantSetSerpentis.INSTANCE, ImplantSetLGFederationNavy.INSTANCE, Radius.INSTANCE, ImplantSetSerpentis2 .INSTANCE, ImplantSetLGCaldariNavy.INSTANCE, ShieldBoostMultiplier.INSTANCE, ImplantSetLGRepublicFleet.INSTANCE, TechLevel.INSTANCE, RangeSkillBonus.INSTANCE, RepairBonus.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, SignatureRadiusBonus.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, PowerEngineeringOutputBonus.INSTANCE, VelocityBonus.INSTANCE, DoesNotEmergencyWarp.INSTANCE, SmugglingChanceBonus.INSTANCE, DurationBonus.INSTANCE, ImplantSetGuristas.INSTANCE, ShieldHpBonus.INSTANCE, ImplantSetNirvana.INSTANCE, Implantness.INSTANCE, ScanStrengthBonus.INSTANCE, ArmorHpBonus.INSTANCE, ImplantSetSavior.INSTANCE, RemoteRepDurationBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, ImplantSetHydra.INSTANCE, HydraDroneTrackingBonus.INSTANCE, HydraDroneRangeBonus.INSTANCE, HydraMissileFlightTimeBonus.INSTANCE, HydraMissileExplosionVelocityBonus.INSTANCE, ImplantSetHalo.INSTANCE, MaxRangeBonus.INSTANCE, ImplantSetAmulet.INSTANCE, PassiveEmDamageResistanceBonus.INSTANCE, Nondestructible.INSTANCE, PassiveExplosiveDamageResistanceBonus.INSTANCE, PassiveKineticDamageResistanceBonus.INSTANCE, PassiveThermicDamageResistanceBonus.INSTANCE, BoosterAttributeModifier.INSTANCE, JumpDriveRangeBonus.INSTANCE, WarpSBonus.INSTANCE, TrackingSpeedMultiplier.INSTANCE, FollowsJumpClones.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ImplantSetThukker.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ImplantSetSisters.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, ScanRadarStrengthPercent.INSTANCE, DamageMultiplierBonusMaxModifier.INSTANCE, DamageMultiplierBonusPerCycleModifier.INSTANCE, SetBonusMimesis.INSTANCE, ImplantSetSyndicate.INSTANCE, ImplantSetORE.INSTANCE, ImplantSetWarpSpeed.INSTANCE, ImplantSetMordus.INSTANCE, ImplantSetImperialNavy.INSTANCE, ImplantSetCaldariNavy.INSTANCE, ImplantSetFederationNavy.INSTANCE, ImplantSetRepublicFleet.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, AgilityBonus.INSTANCE, DisallowOffensiveModifierBonus.INSTANCE, ArmorRepairBonus.INSTANCE, ScanRadarStrengthModifier.INSTANCE, ScanLadarStrengthModifier.INSTANCE, ImplantSetBloodraider.INSTANCE, ScanGravimetricStrengthModifier.INSTANCE, ScanMagnetometricStrengthModifier.INSTANCE, ImplantSetLGImperialNavy.INSTANCE, ImplantSetSerpentis.INSTANCE, ImplantSetLGFederationNavy.INSTANCE, Radius.INSTANCE, ImplantSetSerpentis2 .INSTANCE, ImplantSetLGCaldariNavy.INSTANCE, ShieldBoostMultiplier.INSTANCE, ImplantSetLGRepublicFleet.INSTANCE, TechLevel.INSTANCE, RangeSkillBonus.INSTANCE, RepairBonus.INSTANCE, Capacity.INSTANCE, CpuOutputBonus2 .INSTANCE, SignatureRadiusBonus.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, MaxTargetRangeBonus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, PowerEngineeringOutputBonus.INSTANCE, VelocityBonus.INSTANCE, DoesNotEmergencyWarp.INSTANCE, SmugglingChanceBonus.INSTANCE, DurationBonus.INSTANCE, ImplantSetGuristas.INSTANCE, ShieldHpBonus.INSTANCE, ImplantSetNirvana.INSTANCE, Implantness.INSTANCE, ScanStrengthBonus.INSTANCE, ArmorHpBonus.INSTANCE, ImplantSetSavior.INSTANCE, RemoteRepDurationBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, ImplantSetHydra.INSTANCE, HydraDroneTrackingBonus.INSTANCE, HydraDroneRangeBonus.INSTANCE, HydraMissileFlightTimeBonus.INSTANCE, HydraMissileExplosionVelocityBonus.INSTANCE, ImplantSetHalo.INSTANCE, MaxRangeBonus.INSTANCE, ImplantSetAmulet.INSTANCE, PassiveEmDamageResistanceBonus.INSTANCE, Nondestructible.INSTANCE, PassiveExplosiveDamageResistanceBonus.INSTANCE, PassiveKineticDamageResistanceBonus.INSTANCE, PassiveThermicDamageResistanceBonus.INSTANCE, BoosterAttributeModifier.INSTANCE, JumpDriveRangeBonus.INSTANCE, WarpSBonus.INSTANCE, TrackingSpeedMultiplier.INSTANCE, MetaLevelOld.INSTANCE, FollowsJumpClones.INSTANCE })));
     public static final Cyberimplant.MetaGroup METAGROUP = new Cyberimplant.MetaGroup();
 
     @Override
@@ -810,6 +819,10 @@ public class Cyberimplant
             case  177 :
             {
                 return memorybonus;
+            }
+            case  633 :
+            {
+                return metalevelold;
             }
             case  1890 :
             {

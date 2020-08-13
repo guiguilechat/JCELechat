@@ -6,7 +6,7 @@ types:
     hp: 3000.0
     id: 33591
     marketGroup: 1844
-    metalevel: 1
+    metalevelold: 1
     name: Mobile Micro Jump Unit
     packagedVolume: 50.0
     portionSize: 1
@@ -36,7 +36,7 @@ types:
     capacity: 27000.0
     hp: 3000.0
     id: 33990
-    metalevel: 1
+    metalevelold: 1
     name: Tournament Micro Jump Unit
     packagedVolume: 1.0
     portionSize: 1

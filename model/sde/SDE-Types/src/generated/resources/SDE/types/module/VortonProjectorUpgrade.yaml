@@ -5,7 +5,7 @@ types:
     hp: 40.0
     id: 54974
     marketGroup: 2740
-    metalevel: 1
+    metalevelold: 1
     name: Compact Vorton Tuning System I
     packagedVolume: 5.0
     portionSize: 1
@@ -40,7 +40,7 @@ types:
     hp: 40.0
     id: 54975
     marketGroup: 2740
-    metalevel: 5
+    metalevelold: 5
     name: Vorton Tuning System II
     packagedVolume: 5.0
     portionSize: 1

@@ -36,7 +36,7 @@ types:
     marketGroup: 2212
     maxrange: 90000.0
     maxtargetrangebonus: -61.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Remote Sensor Dampener II
     packagedVolume: 4000.0
     portionSize: 1
@@ -83,7 +83,7 @@ types:
     id: 47366
     marketGroup: 2214
     maxrange: 90000.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Target Painter II
     packagedVolume: 4000.0
     portionSize: 1
@@ -140,7 +140,7 @@ types:
     marketGroup: 2215
     maxrange: 180000.0
     maxrangebonus: -66.0
-    metalevel: 5
+    metalevelold: 5
     missilevelocitybonus: -41.0
     name: Standup Weapon Disruptor II
     packagedVolume: 4000.0

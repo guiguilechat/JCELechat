@@ -61,7 +61,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 110.0
     medslots: 7
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Marshal
     packagedVolume: 50000.0
@@ -174,7 +174,7 @@ types:
     maxtargetrange: 48000.0
     maxvelocity: 146.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Panther
     packagedVolume: 50000.0
@@ -277,7 +277,7 @@ types:
     maxtargetrange: 52000.0
     maxvelocity: 117.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Redeemer
     packagedVolume: 50000.0
@@ -380,7 +380,7 @@ types:
     maxtargetrange: 56000.0
     maxvelocity: 117.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Sin
     packagedVolume: 50000.0
@@ -485,7 +485,7 @@ types:
     maxtargetrange: 72000.0
     maxvelocity: 106.0
     medslots: 8
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Widow
     packagedVolume: 50000.0

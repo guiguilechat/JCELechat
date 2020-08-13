@@ -6,7 +6,7 @@ types:
     id: 506
     marketGroup: 667
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Basic'' Capacitor Power Relay'
     packagedVolume: 5.0
     portionSize: 1
@@ -24,7 +24,7 @@ types:
     id: 23896
     marketGroup: 667
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Motte'' Capacitor Power Relay I'
     packagedVolume: 5.0
     portionSize: 1
@@ -42,7 +42,7 @@ types:
     id: 15090
     marketGroup: 667
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Ahremen's Modified Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -60,7 +60,7 @@ types:
     id: 17510
     marketGroup: 667
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -78,7 +78,7 @@ types:
     id: 15080
     marketGroup: 667
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brokara's Modified Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -111,7 +111,7 @@ types:
     hp: 40.0
     id: 1447
     marketGroup: 667
-    metalevel: 5
+    metalevelold: 5
     name: Capacitor Power Relay II
     packagedVolume: 5.0
     portionSize: 1
@@ -129,7 +129,7 @@ types:
     id: 15092
     marketGroup: 667
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Chelm's Modified Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -147,7 +147,7 @@ types:
     id: 14144
     marketGroup: 667
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -165,7 +165,7 @@ types:
     id: 15094
     marketGroup: 667
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Draclira's Modified Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -183,7 +183,7 @@ types:
     id: 17528
     marketGroup: 667
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -201,7 +201,7 @@ types:
     id: 28532
     marketGroup: 667
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -219,7 +219,7 @@ types:
     id: 15437
     marketGroup: 667
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Makur's Modified Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -236,7 +236,7 @@ types:
     hp: 40.0
     id: 8177
     marketGroup: 667
-    metalevel: 1
+    metalevelold: 1
     name: Mark I Compact Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -254,7 +254,7 @@ types:
     id: 15086
     marketGroup: 667
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Raysere's Modified Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -272,7 +272,7 @@ types:
     id: 15084
     marketGroup: 667
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Selynne's Modified Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -290,7 +290,7 @@ types:
     id: 15082
     marketGroup: 667
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Tairei's Modified Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -308,7 +308,7 @@ types:
     id: 14146
     marketGroup: 667
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -325,7 +325,7 @@ types:
     hp: 40.0
     id: 8175
     marketGroup: 667
-    metalevel: 1
+    metalevelold: 1
     name: Type-D Restrained Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -343,7 +343,7 @@ types:
     id: 15088
     marketGroup: 667
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Vizan's Modified Capacitor Power Relay
     packagedVolume: 5.0
     portionSize: 1

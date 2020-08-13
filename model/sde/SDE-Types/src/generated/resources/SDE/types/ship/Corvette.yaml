@@ -39,7 +39,7 @@ types:
     maxvelocity: 360.0
     medslots: 3
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Echo
     packagedVolume: 2500.0
@@ -114,7 +114,7 @@ types:
     maxvelocity: 310.0
     medslots: 3
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 1.0
     name: Hematos
     packagedVolume: 2500.0
@@ -268,7 +268,7 @@ types:
     maxvelocity: 330.0
     medslots: 3
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Immolator
     packagedVolume: 2500.0
@@ -500,7 +500,7 @@ types:
     maxvelocity: 295.0
     medslots: 3
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 1.0
     name: Taipan
     packagedVolume: 2500.0
@@ -653,7 +653,7 @@ types:
     maxvelocity: 340.0
     medslots: 2
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 1.0
     name: Violator
     packagedVolume: 2500.0

@@ -50,7 +50,7 @@ types:
     marketGroup: 542
     massaddition: 500000000
     maxgroupactive: 1
-    metalevel: 5
+    metalevelold: 5
     name: 10000MN Afterburner II
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -84,7 +84,7 @@ types:
     marketGroup: 542
     massaddition: 500000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 10000MN Monopropellant Enduring Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -118,7 +118,7 @@ types:
     marketGroup: 542
     massaddition: 500000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 10000MN Y-S8 Compact Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -186,7 +186,7 @@ types:
     marketGroup: 542
     massaddition: 50000000
     maxgroupactive: 1
-    metalevel: 5
+    metalevelold: 5
     name: 100MN Afterburner II
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -215,7 +215,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: 100MN Analog Booster Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -243,7 +243,7 @@ types:
     marketGroup: 542
     massaddition: 50000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 100MN Monopropellant Enduring Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -271,7 +271,7 @@ types:
     marketGroup: 542
     massaddition: 50000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 100MN Y-S8 Compact Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -339,7 +339,7 @@ types:
     marketGroup: 542
     massaddition: 5000000
     maxgroupactive: 1
-    metalevel: 5
+    metalevelold: 5
     name: 10MN Afterburner II
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -368,7 +368,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: 10MN Analog Booster Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -396,7 +396,7 @@ types:
     marketGroup: 542
     massaddition: 5000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 10MN Monopropellant Enduring Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -424,7 +424,7 @@ types:
     marketGroup: 542
     massaddition: 5000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 10MN Y-S8 Compact Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -492,7 +492,7 @@ types:
     marketGroup: 542
     massaddition: 500000
     maxgroupactive: 1
-    metalevel: 5
+    metalevelold: 5
     name: 1MN Afterburner II
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -521,7 +521,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: 1MN Analog Booster Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -573,7 +573,7 @@ types:
     marketGroup: 542
     massaddition: 500000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 1MN Monopropellant Enduring Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -601,7 +601,7 @@ types:
     marketGroup: 542
     massaddition: 500000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 1MN Y-S8 Compact Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -636,7 +636,7 @@ types:
     marketGroup: 131
     massaddition: 500000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 50000MN Cold-Gas Enduring Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -707,7 +707,7 @@ types:
     marketGroup: 131
     massaddition: 500000000
     maxgroupactive: 1
-    metalevel: 5
+    metalevelold: 5
     name: 50000MN Microwarpdrive II
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -742,7 +742,7 @@ types:
     marketGroup: 131
     massaddition: 500000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 50000MN Quad LiF Restrained Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -778,7 +778,7 @@ types:
     marketGroup: 131
     massaddition: 500000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 50000MN Y-T8 Compact Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -821,7 +821,7 @@ types:
     marketGroup: 131
     massaddition: 50000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 500MN Cold-Gas Enduring Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -852,7 +852,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: 500MN Digital Booster Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -911,7 +911,7 @@ types:
     marketGroup: 131
     massaddition: 50000000
     maxgroupactive: 1
-    metalevel: 5
+    metalevelold: 5
     name: 500MN Microwarpdrive II
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -941,7 +941,7 @@ types:
     marketGroup: 131
     massaddition: 50000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 500MN Quad LiF Restrained Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -971,7 +971,7 @@ types:
     marketGroup: 131
     massaddition: 50000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 500MN Y-T8 Compact Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1014,7 +1014,7 @@ types:
     marketGroup: 131
     massaddition: 5000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 50MN Cold-Gas Enduring Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1045,7 +1045,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: 50MN Digital Booster Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1104,7 +1104,7 @@ types:
     marketGroup: 131
     massaddition: 5000000
     maxgroupactive: 1
-    metalevel: 5
+    metalevelold: 5
     name: 50MN Microwarpdrive II
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1134,7 +1134,7 @@ types:
     marketGroup: 131
     massaddition: 5000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 50MN Quad LiF Restrained Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1164,7 +1164,7 @@ types:
     marketGroup: 131
     massaddition: 5000000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 50MN Y-T8 Compact Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1207,7 +1207,7 @@ types:
     marketGroup: 131
     massaddition: 500000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 5MN Cold-Gas Enduring Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1238,7 +1238,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: 5MN Digital Booster Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1297,7 +1297,7 @@ types:
     marketGroup: 131
     massaddition: 500000
     maxgroupactive: 1
-    metalevel: 5
+    metalevelold: 5
     name: 5MN Microwarpdrive II
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1327,7 +1327,7 @@ types:
     marketGroup: 131
     massaddition: 500000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 5MN Quad LiF Restrained Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1357,7 +1357,7 @@ types:
     marketGroup: 131
     massaddition: 500000
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: 5MN Y-T8 Compact Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1387,7 +1387,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
     packagedVolume: 5.0
@@ -1417,7 +1417,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
     packagedVolume: 10.0
@@ -1447,7 +1447,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Core A-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -1477,7 +1477,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Core A-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1507,7 +1507,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Core B-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -1537,7 +1537,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Core B-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1567,7 +1567,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Core C-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -1597,7 +1597,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Core C-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1627,7 +1627,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Core X-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -1657,7 +1657,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Core X-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1687,7 +1687,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Coreli A-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -1717,7 +1717,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Coreli A-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1747,7 +1747,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Coreli B-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -1777,7 +1777,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Coreli B-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1807,7 +1807,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Coreli C-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -1837,7 +1837,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Coreli C-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1867,7 +1867,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Corelum A-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -1897,7 +1897,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Corelum A-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1927,7 +1927,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Corelum B-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -1957,7 +1957,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Corelum B-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -1987,7 +1987,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Corelum C-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2017,7 +2017,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Corelum C-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2047,7 +2047,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Cormack's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
     packagedVolume: 5.0
@@ -2077,7 +2077,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Cormack's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
     packagedVolume: 10.0
@@ -2113,7 +2113,7 @@ types:
     massaddition: 500000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination 10000MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -2142,7 +2142,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2171,7 +2171,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2200,7 +2200,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2236,7 +2236,7 @@ types:
     massaddition: 500000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination 50000MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -2267,7 +2267,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2298,7 +2298,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2329,7 +2329,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2359,7 +2359,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2388,7 +2388,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2417,7 +2417,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2447,7 +2447,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2478,7 +2478,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2509,7 +2509,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2539,7 +2539,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gist A-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2569,7 +2569,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gist A-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2599,7 +2599,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gist B-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2629,7 +2629,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gist B-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2659,7 +2659,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gist C-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2689,7 +2689,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gist C-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2719,7 +2719,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Gist X-Type 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2749,7 +2749,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Gist X-Type 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2779,7 +2779,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gistii A-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2809,7 +2809,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gistii A-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2839,7 +2839,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gistii B-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2869,7 +2869,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gistii B-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2899,7 +2899,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gistii C-Type 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2929,7 +2929,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gistii C-Type 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -2959,7 +2959,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gistum A-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -2989,7 +2989,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gistum A-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -3019,7 +3019,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gistum B-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -3049,7 +3049,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gistum B-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -3079,7 +3079,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gistum C-Type 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -3109,7 +3109,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gistum C-Type 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -3139,7 +3139,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Gotan's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
     packagedVolume: 5.0
@@ -3169,7 +3169,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Gotan's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
     packagedVolume: 10.0
@@ -3199,7 +3199,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Hakim's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
     packagedVolume: 5.0
@@ -3229,7 +3229,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Hakim's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
     packagedVolume: 10.0
@@ -3259,7 +3259,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Mizuro's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
     packagedVolume: 5.0
@@ -3289,7 +3289,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Mizuro's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
     packagedVolume: 10.0
@@ -3319,7 +3319,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -3348,7 +3348,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -3377,7 +3377,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -3407,7 +3407,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -3438,7 +3438,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -3469,7 +3469,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -3499,7 +3499,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Setele's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
     packagedVolume: 5.0
@@ -3529,7 +3529,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Setele's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
     packagedVolume: 10.0
@@ -3565,7 +3565,7 @@ types:
     massaddition: 500000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis 10000MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -3594,7 +3594,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis 100MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -3623,7 +3623,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis 10MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -3652,7 +3652,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis 1MN Afterburner
     overloadspeedfactorbonus: 50
     packagedVolume: 5.0
@@ -3688,7 +3688,7 @@ types:
     massaddition: 500000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis 50000MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 1000.0
@@ -3719,7 +3719,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis 500MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -3750,7 +3750,7 @@ types:
     massaddition: 5000000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis 50MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -3781,7 +3781,7 @@ types:
     massaddition: 500000
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis 5MN Microwarpdrive
     overloadspeedfactorbonus: 50
     packagedVolume: 10.0
@@ -3811,7 +3811,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Tobias' Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
     packagedVolume: 5.0
@@ -3841,7 +3841,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Tobias' Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
     packagedVolume: 10.0
@@ -3871,7 +3871,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Tuvan's Modified 100MN Afterburner
     overloadspeedfactorbonus: 60
     packagedVolume: 5.0
@@ -3901,7 +3901,7 @@ types:
     massaddition: 50000000
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Tuvan's Modified 500MN Microwarpdrive
     overloadspeedfactorbonus: 60
     packagedVolume: 10.0

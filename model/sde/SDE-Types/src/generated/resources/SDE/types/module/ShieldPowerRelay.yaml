@@ -7,7 +7,7 @@ types:
     id: 1419
     marketGroup: 688
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Basic'' Shield Power Relay'
     packagedVolume: 5.0
     portionSize: 1
@@ -28,7 +28,7 @@ types:
     id: 37820
     marketGroup: 688
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Shield Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -48,7 +48,7 @@ types:
     hp: 40.0
     id: 8337
     marketGroup: 688
-    metalevel: 1
+    metalevelold: 1
     name: Mark I Compact Shield Power Relay
     packagedVolume: 5.0
     portionSize: 1
@@ -87,7 +87,7 @@ types:
     hp: 40.0
     id: 1422
     marketGroup: 688
-    metalevel: 5
+    metalevelold: 5
     name: Shield Power Relay II
     packagedVolume: 5.0
     portionSize: 1
@@ -107,7 +107,7 @@ types:
     hp: 40.0
     id: 8335
     marketGroup: 688
-    metalevel: 1
+    metalevelold: 1
     name: Type-D Restrained Shield Power Relay
     packagedVolume: 5.0
     portionSize: 1

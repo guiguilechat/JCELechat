@@ -5,7 +5,7 @@ types:
     id: 45611
     lowslotmodifier: 2
     marketGroup: 1134
-    metalevel: 1
+    metalevelold: 1
     name: Legion Propulsion - Intercalated Nanofibers
     packagedVolume: 40.0
     portionSize: 1
@@ -27,7 +27,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1134
     maxtargetrange: -20000.0
-    metalevel: 1
+    metalevelold: 1
     name: Legion Propulsion - Interdiction Nullifier
     packagedVolume: 40.0
     portionSize: 1
@@ -49,7 +49,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1134
     medslotmodifier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Legion Propulsion - Wake Limiter
     packagedVolume: 40.0
     portionSize: 1
@@ -69,7 +69,7 @@ types:
     id: 45620
     lowslotmodifier: 2
     marketGroup: 1137
-    metalevel: 1
+    metalevelold: 1
     name: Loki Propulsion - Intercalated Nanofibers
     packagedVolume: 40.0
     portionSize: 1
@@ -91,7 +91,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1137
     maxtargetrange: -20000.0
-    metalevel: 1
+    metalevelold: 1
     name: Loki Propulsion - Interdiction Nullifier
     packagedVolume: 40.0
     portionSize: 1
@@ -112,7 +112,7 @@ types:
     id: 45621
     marketGroup: 1137
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Loki Propulsion - Wake Limiter
     packagedVolume: 40.0
     portionSize: 1
@@ -132,7 +132,7 @@ types:
     id: 45617
     lowslotmodifier: 2
     marketGroup: 1136
-    metalevel: 1
+    metalevelold: 1
     name: Proteus Propulsion - Hyperspatial Optimization
     packagedVolume: 40.0
     portionSize: 1
@@ -154,7 +154,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1136
     maxtargetrange: -20000.0
-    metalevel: 1
+    metalevelold: 1
     name: Proteus Propulsion - Interdiction Nullifier
     packagedVolume: 40.0
     portionSize: 1
@@ -176,7 +176,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1136
     medslotmodifier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Proteus Propulsion - Localized Injectors
     packagedVolume: 40.0
     portionSize: 1
@@ -197,7 +197,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1135
     medslotmodifier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Tengu Propulsion - Chassis Optimization
     packagedVolume: 40.0
     portionSize: 1
@@ -217,7 +217,7 @@ types:
     id: 45615
     marketGroup: 1135
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Tengu Propulsion - Fuel Catalyst
     packagedVolume: 40.0
     portionSize: 1
@@ -239,7 +239,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1135
     maxtargetrange: -20000.0
-    metalevel: 1
+    metalevelold: 1
     name: Tengu Propulsion - Interdiction Nullifier
     packagedVolume: 40.0
     portionSize: 1

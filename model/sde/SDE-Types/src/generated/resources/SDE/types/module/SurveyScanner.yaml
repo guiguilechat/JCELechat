@@ -7,7 +7,7 @@ types:
     hp: 40.0
     id: 6569
     marketGroup: 714
-    metalevel: 1
+    metalevelold: 1
     name: ML-3 Scoped Survey Scanner
     packagedVolume: 5.0
     portionSize: 1
@@ -48,7 +48,7 @@ types:
     hp: 40.0
     id: 2333
     marketGroup: 714
-    metalevel: 5
+    metalevelold: 5
     name: Survey Scanner II
     packagedVolume: 5.0
     portionSize: 1

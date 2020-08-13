@@ -24,7 +24,7 @@ types:
     marketGroup: 683
     maxrange: 13000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -74,7 +74,7 @@ types:
     marketGroup: 683
     maxrange: 15000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -101,7 +101,7 @@ types:
     marketGroup: 683
     maxrange: 15000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -128,7 +128,7 @@ types:
     marketGroup: 683
     maxrange: 13000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -155,7 +155,7 @@ types:
     marketGroup: 683
     maxrange: 14000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -181,7 +181,7 @@ types:
     id: 4027
     marketGroup: 683
     maxrange: 10000.0
-    metalevel: 1
+    metalevelold: 1
     name: Fleeting Compact Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -208,7 +208,7 @@ types:
     marketGroup: 683
     maxrange: 19000.0
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Gotan's Modified Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -235,7 +235,7 @@ types:
     marketGroup: 683
     maxrange: 18000.0
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Hakim's Modified Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -262,7 +262,7 @@ types:
     marketGroup: 683
     maxrange: 12000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -289,7 +289,7 @@ types:
     marketGroup: 683
     maxrange: 17000.0
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Mizuro's Modified Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -316,7 +316,7 @@ types:
     marketGroup: 683
     maxrange: 15000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -343,7 +343,7 @@ types:
     marketGroup: 683
     maxrange: 14000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -394,7 +394,7 @@ types:
     id: 527
     marketGroup: 683
     maxrange: 10000.0
-    metalevel: 5
+    metalevelold: 5
     name: Stasis Webifier II
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -421,7 +421,7 @@ types:
     marketGroup: 683
     maxrange: 20000.0
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Tobias' Modified Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -448,7 +448,7 @@ types:
     marketGroup: 683
     maxrange: 15000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0
@@ -474,7 +474,7 @@ types:
     id: 4025
     marketGroup: 683
     maxrange: 10000.0
-    metalevel: 1
+    metalevelold: 1
     name: X5 Enduring Stasis Webifier
     overloadrangebonus: 30
     packagedVolume: 5.0

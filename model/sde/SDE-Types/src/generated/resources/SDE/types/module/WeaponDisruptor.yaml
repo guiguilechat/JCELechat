@@ -17,7 +17,7 @@ types:
     marketGroup: 680
     maxrange: 48000.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     missilevelocitybonus: -9.0
     name: '''Distributor'' Guidance Disruptor'
     overloadtrackingmodulestrengthbonus: 20
@@ -50,7 +50,7 @@ types:
     maxrange: 48000.0
     maxrangebonus: -17.190000534057617
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Investor'' Tracking Disruptor I'
     overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
@@ -83,7 +83,7 @@ types:
     id: 37545
     marketGroup: 680
     maxrange: 40000.0
-    metalevel: 1
+    metalevelold: 1
     missilevelocitybonus: -8.5
     name: A-211 Enduring Guidance Disruptor
     overloadtrackingmodulestrengthbonus: 20
@@ -115,7 +115,7 @@ types:
     marketGroup: 680
     maxrange: 40000.0
     maxrangebonus: -16.239999771118164
-    metalevel: 1
+    metalevelold: 1
     name: Baker Nunn Enduring Tracking Disruptor I
     overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
@@ -147,7 +147,7 @@ types:
     marketGroup: 680
     maxrange: 40000.0
     maxrangebonus: -16.239999771118164
-    metalevel: 1
+    metalevelold: 1
     name: Balmer Series Compact Tracking Disruptor I
     overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
@@ -180,7 +180,7 @@ types:
     id: 5321
     marketGroup: 680
     maxrange: 40000.0
-    metalevel: 1
+    metalevelold: 1
     missilevelocitybonus: -8.5
     name: C-IR Compact Guidance Disruptor
     overloadtrackingmodulestrengthbonus: 20
@@ -212,7 +212,7 @@ types:
     marketGroup: 680
     maxrange: 44000.0
     maxrangebonus: -16.239999771118164
-    metalevel: 1
+    metalevelold: 1
     name: DDO Scoped Tracking Disruptor I
     overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0
@@ -277,7 +277,7 @@ types:
     id: 37546
     marketGroup: 680
     maxrange: 48000.0
-    metalevel: 5
+    metalevelold: 5
     missilevelocitybonus: -9.0
     name: Guidance Disruptor II
     overloadtrackingmodulestrengthbonus: 20
@@ -310,7 +310,7 @@ types:
     id: 37544
     marketGroup: 680
     maxrange: 44000.0
-    metalevel: 1
+    metalevelold: 1
     missilevelocitybonus: -8.5
     name: Highstroke Scoped Guidance Disruptor
     overloadtrackingmodulestrengthbonus: 20
@@ -373,7 +373,7 @@ types:
     marketGroup: 680
     maxrange: 48000.0
     maxrangebonus: -17.190000534057617
-    metalevel: 5
+    metalevelold: 5
     name: Tracking Disruptor II
     overloadtrackingmodulestrengthbonus: 20
     packagedVolume: 5.0

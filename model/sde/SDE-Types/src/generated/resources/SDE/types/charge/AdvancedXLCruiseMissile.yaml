@@ -13,7 +13,7 @@ types:
     launchergroup: 1674
     marketGroup: 2261
     maxvelocity: 7000.0
-    metalevel: 5
+    metalevelold: 5
     name: Inferno Fury XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -44,7 +44,7 @@ types:
     launchergroup: 1674
     marketGroup: 2260
     maxvelocity: 7000.0
-    metalevel: 5
+    metalevelold: 5
     name: Inferno Precision XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -76,7 +76,7 @@ types:
     launchergroup: 1674
     marketGroup: 2261
     maxvelocity: 7000.0
-    metalevel: 5
+    metalevelold: 5
     name: Mjolnir Fury XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -107,7 +107,7 @@ types:
     launchergroup: 1674
     marketGroup: 2260
     maxvelocity: 7000.0
-    metalevel: 5
+    metalevelold: 5
     name: Mjolnir Precision XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -138,7 +138,7 @@ types:
     launchergroup: 1674
     marketGroup: 2261
     maxvelocity: 7000.0
-    metalevel: 5
+    metalevelold: 5
     name: Nova Fury XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -169,7 +169,7 @@ types:
     launchergroup: 1674
     marketGroup: 2260
     maxvelocity: 7000.0
-    metalevel: 5
+    metalevelold: 5
     name: Nova Precision XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -200,7 +200,7 @@ types:
     launchergroup: 1674
     marketGroup: 2261
     maxvelocity: 7000.0
-    metalevel: 5
+    metalevelold: 5
     name: Scourge Fury XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -231,7 +231,7 @@ types:
     launchergroup: 1674
     marketGroup: 2260
     maxvelocity: 7000.0
-    metalevel: 5
+    metalevelold: 5
     name: Scourge Precision XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100

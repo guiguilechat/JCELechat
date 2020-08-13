@@ -20,7 +20,7 @@ types:
     id: 31284
     marketGroup: 1793
     maxtargetrangebonus: 30.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Ionic Field Projector II
     packagedVolume: 40.0
     portionSize: 1
@@ -50,7 +50,7 @@ types:
     hp: 40.0
     id: 31332
     marketGroup: 1793
-    metalevel: 5
+    metalevelold: 5
     name: Capital Targeting System Subcontroller II
     packagedVolume: 40.0
     portionSize: 1
@@ -82,7 +82,7 @@ types:
     id: 26358
     marketGroup: 1792
     maxtargetrangebonus: 30.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Ionic Field Projector II
     packagedVolume: 20.0
     portionSize: 1
@@ -112,7 +112,7 @@ types:
     hp: 40.0
     id: 26364
     marketGroup: 1792
-    metalevel: 5
+    metalevelold: 5
     name: Large Targeting System Subcontroller II
     packagedVolume: 20.0
     portionSize: 1
@@ -144,7 +144,7 @@ types:
     id: 31282
     marketGroup: 1791
     maxtargetrangebonus: 30.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Ionic Field Projector II
     packagedVolume: 10.0
     portionSize: 1
@@ -174,7 +174,7 @@ types:
     hp: 40.0
     id: 31330
     marketGroup: 1791
-    metalevel: 5
+    metalevelold: 5
     name: Medium Targeting System Subcontroller II
     packagedVolume: 10.0
     portionSize: 1
@@ -206,7 +206,7 @@ types:
     id: 31280
     marketGroup: 1790
     maxtargetrangebonus: 30.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Ionic Field Projector II
     packagedVolume: 5.0
     portionSize: 1
@@ -236,7 +236,7 @@ types:
     hp: 40.0
     id: 31328
     marketGroup: 1790
-    metalevel: 5
+    metalevelold: 5
     name: Small Targeting System Subcontroller II
     packagedVolume: 5.0
     portionSize: 1

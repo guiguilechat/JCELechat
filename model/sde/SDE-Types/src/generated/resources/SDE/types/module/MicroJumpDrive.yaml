@@ -13,7 +13,7 @@ types:
     marketGroup: 1650
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 1
+    metalevelold: 1
     modulereactivationdelay: 180000
     name: Large Micro Jump Drive
     packagedVolume: 10.0
@@ -43,7 +43,7 @@ types:
     marketGroup: 1650
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 1
+    metalevelold: 1
     modulereactivationdelay: 180000
     name: Medium Micro Jump Drive
     packagedVolume: 10.0

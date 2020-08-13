@@ -33,7 +33,7 @@ types:
     id: 22229
     marketGroup: 1038
     maxrange: 10000.0
-    metalevel: 5
+    metalevelold: 5
     miningamount: 1000
     name: Ice Harvester II
     packagedVolume: 5.0
@@ -58,7 +58,7 @@ types:
     marketGroup: 1038
     maxrange: 12500.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     miningamount: 1000
     name: ORE Ice Harvester
     packagedVolume: 5.0
@@ -84,7 +84,7 @@ types:
     marketGroup: 1040
     maxrange: 18750.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     miningamount: 700
     name: ORE Strip Miner
     packagedVolume: 5.0

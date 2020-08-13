@@ -596,7 +596,7 @@ types:
     name: EDENCOM Battleship
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
+    price: 1.05E8
     primaryattribute: 167
     published: true
     radius: 1.0

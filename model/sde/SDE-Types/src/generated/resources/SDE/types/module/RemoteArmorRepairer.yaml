@@ -13,7 +13,7 @@ types:
     maxrange: 8400.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Beatnik'' Small Remote Armor Repairer'
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -41,7 +41,7 @@ types:
     maxrange: 10500.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Love'' Medium Remote Armor Repairer'
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -69,7 +69,7 @@ types:
     maxrange: 14400.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Peace'' Large Remote Armor Repairer'
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -96,7 +96,7 @@ types:
     maxrange: 19000.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: CONCORD Capital Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
@@ -123,7 +123,7 @@ types:
     marketGroup: 1056
     maxrange: 15000.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Capital Coaxial Compact Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
@@ -150,7 +150,7 @@ types:
     marketGroup: 1056
     maxrange: 15000.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Capital I-ax Enduring Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
@@ -203,7 +203,7 @@ types:
     marketGroup: 1056
     maxrange: 18000.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 5
+    metalevelold: 5
     name: Capital Remote Armor Repairer II
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
@@ -230,7 +230,7 @@ types:
     marketGroup: 1056
     maxrange: 16500.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Capital Solace Scoped Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
@@ -258,7 +258,7 @@ types:
     maxrange: 10150.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Centii A-Type Small Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -286,7 +286,7 @@ types:
     maxrange: 9800.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Centii B-Type Small Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -314,7 +314,7 @@ types:
     maxrange: 9450.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Centii C-Type Small Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -342,7 +342,7 @@ types:
     maxrange: 12688.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Centum A-Type Medium Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -370,7 +370,7 @@ types:
     maxrange: 12250.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Centum B-Type Medium Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -398,7 +398,7 @@ types:
     maxrange: 11813.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Centum C-Type Medium Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -449,7 +449,7 @@ types:
     maxrange: 10150.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Coreli A-Type Small Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -477,7 +477,7 @@ types:
     maxrange: 9800.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Coreli B-Type Small Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -505,7 +505,7 @@ types:
     maxrange: 9450.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Coreli C-Type Small Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -533,7 +533,7 @@ types:
     maxrange: 12688.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Corelum A-Type Medium Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -561,7 +561,7 @@ types:
     maxrange: 12250.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Corelum B-Type Medium Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -589,7 +589,7 @@ types:
     maxrange: 11813.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Corelum C-Type Medium Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -617,7 +617,7 @@ types:
     maxrange: 19000.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Capital Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
@@ -644,7 +644,7 @@ types:
     marketGroup: 1057
     maxrange: 12000.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Large Coaxial Compact Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -671,7 +671,7 @@ types:
     marketGroup: 1057
     maxrange: 12000.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Large I-ax Enduring Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -724,7 +724,7 @@ types:
     marketGroup: 1057
     maxrange: 14400.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 5
+    metalevelold: 5
     name: Large Remote Armor Repairer II
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -751,7 +751,7 @@ types:
     marketGroup: 1057
     maxrange: 13200.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Large Solace Scoped Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 25.0
@@ -778,7 +778,7 @@ types:
     marketGroup: 1058
     maxrange: 8750.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Medium Coaxial Compact Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -805,7 +805,7 @@ types:
     marketGroup: 1058
     maxrange: 8750.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Medium I-ax Enduring Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -858,7 +858,7 @@ types:
     marketGroup: 1058
     maxrange: 10500.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 5
+    metalevelold: 5
     name: Medium Remote Armor Repairer II
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -885,7 +885,7 @@ types:
     marketGroup: 1058
     maxrange: 9625.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Medium Solace Scoped Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -913,7 +913,7 @@ types:
     maxrange: 19000.0
     mediumremoterepfittingmultiplier: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Capital Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
@@ -940,7 +940,7 @@ types:
     marketGroup: 1059
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Small Coaxial Compact Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -967,7 +967,7 @@ types:
     marketGroup: 1059
     maxrange: 7000.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Small I-ax Enduring Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -1020,7 +1020,7 @@ types:
     marketGroup: 1059
     maxrange: 8400.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 5
+    metalevelold: 5
     name: Small Remote Armor Repairer II
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0
@@ -1047,7 +1047,7 @@ types:
     marketGroup: 1059
     maxrange: 7700.0
     mediumremoterepfittingmultiplier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Small Solace Scoped Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0

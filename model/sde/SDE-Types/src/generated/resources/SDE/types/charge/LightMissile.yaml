@@ -17,7 +17,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Inferno Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -52,7 +52,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Mjolnir Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -86,7 +86,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Nova Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -120,7 +120,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Scourge Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -180,7 +180,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Inferno Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -215,7 +215,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Mjolnir Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -249,7 +249,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Nova Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -283,7 +283,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Scourge Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -316,7 +316,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Inferno Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -351,7 +351,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Mjolnir Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -385,7 +385,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Nova Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -419,7 +419,7 @@ types:
     marketGroup: 998
     maxvelocity: 3750.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Scourge Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100

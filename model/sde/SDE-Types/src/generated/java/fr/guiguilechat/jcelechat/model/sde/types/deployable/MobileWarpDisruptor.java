@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowInEmpireSpace;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -75,7 +75,7 @@ public class MobileWarpDisruptor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * The type ID of the skill that is required.
      */
@@ -111,7 +111,7 @@ public class MobileWarpDisruptor
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblerange;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, WarpScrambleRange.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, AnchoringDelay.INSTANCE, ScanLadarStrength.INSTANCE, DisallowInEmpireSpace.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevel.INSTANCE, MetaGroupID.INSTANCE, ShieldRechargeRate.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, WarpScrambleRange.INSTANCE, ShieldCapacity.INSTANCE, SignatureRadius.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, AnchoringDelay.INSTANCE, ScanLadarStrength.INSTANCE, DisallowInEmpireSpace.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final MobileWarpDisruptor.MetaGroup METAGROUP = new MobileWarpDisruptor.MetaGroup();
 
     @Override
@@ -131,7 +131,7 @@ public class MobileWarpDisruptor
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  182 :
             {

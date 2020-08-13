@@ -19,7 +19,7 @@ types:
     hp: 40.0
     id: 31115
     marketGroup: 1740
-    metalevel: 5
+    metalevelold: 5
     name: Capital Auxiliary Thrusters II
     packagedVolume: 40.0
     portionSize: 1
@@ -51,7 +51,7 @@ types:
     hp: 40.0
     id: 31127
     marketGroup: 1740
-    metalevel: 5
+    metalevelold: 5
     name: Capital Cargohold Optimization II
     packagedVolume: 40.0
     portionSize: 1
@@ -82,7 +82,7 @@ types:
     hp: 40.0
     id: 31139
     marketGroup: 1740
-    metalevel: 5
+    metalevelold: 5
     name: Capital Dynamic Fuel Valve II
     packagedVolume: 40.0
     portionSize: 1
@@ -113,7 +113,7 @@ types:
     hp: 40.0
     id: 31151
     marketGroup: 1740
-    metalevel: 5
+    metalevelold: 5
     name: Capital Engine Thermal Shielding II
     packagedVolume: 40.0
     portionSize: 1
@@ -143,7 +143,7 @@ types:
     hp: 40.0
     id: 31169
     marketGroup: 1740
-    metalevel: 5
+    metalevelold: 5
     name: Capital Hyperspatial Velocity Optimizer II
     packagedVolume: 40.0
     portionSize: 1
@@ -175,7 +175,7 @@ types:
     hp: 40.0
     id: 31175
     marketGroup: 1740
-    metalevel: 5
+    metalevelold: 5
     name: Capital Low Friction Nozzle Joints II
     packagedVolume: 40.0
     portionSize: 1
@@ -208,7 +208,7 @@ types:
     id: 31187
     implantbonusvelocity: 6.599999904632568
     marketGroup: 1740
-    metalevel: 5
+    metalevelold: 5
     name: Capital Polycarbon Engine Housing II
     packagedVolume: 40.0
     portionSize: 1
@@ -238,7 +238,7 @@ types:
     hp: 40.0
     id: 31199
     marketGroup: 1740
-    metalevel: 5
+    metalevelold: 5
     name: Capital Warp Core Optimizer II
     packagedVolume: 40.0
     portionSize: 1
@@ -269,7 +269,7 @@ types:
     hp: 40.0
     id: 26318
     marketGroup: 1212
-    metalevel: 5
+    metalevelold: 5
     name: Large Auxiliary Thrusters II
     packagedVolume: 20.0
     portionSize: 1
@@ -301,7 +301,7 @@ types:
     hp: 40.0
     id: 26304
     marketGroup: 1212
-    metalevel: 5
+    metalevelold: 5
     name: Large Cargohold Optimization II
     packagedVolume: 20.0
     portionSize: 1
@@ -332,7 +332,7 @@ types:
     hp: 40.0
     id: 26306
     marketGroup: 1212
-    metalevel: 5
+    metalevelold: 5
     name: Large Dynamic Fuel Valve II
     packagedVolume: 20.0
     portionSize: 1
@@ -363,7 +363,7 @@ types:
     hp: 40.0
     id: 26308
     marketGroup: 1212
-    metalevel: 5
+    metalevelold: 5
     name: Large Engine Thermal Shielding II
     packagedVolume: 20.0
     portionSize: 1
@@ -393,7 +393,7 @@ types:
     hp: 40.0
     id: 26322
     marketGroup: 1212
-    metalevel: 5
+    metalevelold: 5
     name: Large Hyperspatial Velocity Optimizer II
     packagedVolume: 20.0
     portionSize: 1
@@ -425,7 +425,7 @@ types:
     hp: 40.0
     id: 26310
     marketGroup: 1212
-    metalevel: 5
+    metalevelold: 5
     name: Large Low Friction Nozzle Joints II
     packagedVolume: 20.0
     portionSize: 1
@@ -458,7 +458,7 @@ types:
     id: 26312
     implantbonusvelocity: 6.599999904632568
     marketGroup: 1212
-    metalevel: 5
+    metalevelold: 5
     name: Large Polycarbon Engine Housing II
     packagedVolume: 20.0
     portionSize: 1
@@ -488,7 +488,7 @@ types:
     hp: 40.0
     id: 26320
     marketGroup: 1212
-    metalevel: 5
+    metalevelold: 5
     name: Large Warp Core Optimizer II
     packagedVolume: 20.0
     portionSize: 1
@@ -519,7 +519,7 @@ types:
     hp: 40.0
     id: 31113
     marketGroup: 1211
-    metalevel: 5
+    metalevelold: 5
     name: Medium Auxiliary Thrusters II
     packagedVolume: 10.0
     portionSize: 1
@@ -551,7 +551,7 @@ types:
     hp: 40.0
     id: 31125
     marketGroup: 1211
-    metalevel: 5
+    metalevelold: 5
     name: Medium Cargohold Optimization II
     packagedVolume: 10.0
     portionSize: 1
@@ -582,7 +582,7 @@ types:
     hp: 40.0
     id: 31137
     marketGroup: 1211
-    metalevel: 5
+    metalevelold: 5
     name: Medium Dynamic Fuel Valve II
     packagedVolume: 10.0
     portionSize: 1
@@ -613,7 +613,7 @@ types:
     hp: 40.0
     id: 31149
     marketGroup: 1211
-    metalevel: 5
+    metalevelold: 5
     name: Medium Engine Thermal Shielding II
     packagedVolume: 10.0
     portionSize: 1
@@ -643,7 +643,7 @@ types:
     hp: 40.0
     id: 31167
     marketGroup: 1211
-    metalevel: 5
+    metalevelold: 5
     name: Medium Hyperspatial Velocity Optimizer II
     packagedVolume: 10.0
     portionSize: 1
@@ -675,7 +675,7 @@ types:
     hp: 40.0
     id: 31173
     marketGroup: 1211
-    metalevel: 5
+    metalevelold: 5
     name: Medium Low Friction Nozzle Joints II
     packagedVolume: 10.0
     portionSize: 1
@@ -708,7 +708,7 @@ types:
     id: 31185
     implantbonusvelocity: 6.599999904632568
     marketGroup: 1211
-    metalevel: 5
+    metalevelold: 5
     name: Medium Polycarbon Engine Housing II
     packagedVolume: 10.0
     portionSize: 1
@@ -738,7 +738,7 @@ types:
     hp: 40.0
     id: 31197
     marketGroup: 1211
-    metalevel: 5
+    metalevelold: 5
     name: Medium Warp Core Optimizer II
     packagedVolume: 10.0
     portionSize: 1
@@ -769,7 +769,7 @@ types:
     hp: 40.0
     id: 31111
     marketGroup: 1210
-    metalevel: 5
+    metalevelold: 5
     name: Small Auxiliary Thrusters II
     packagedVolume: 5.0
     portionSize: 1
@@ -801,7 +801,7 @@ types:
     hp: 40.0
     id: 31123
     marketGroup: 1210
-    metalevel: 5
+    metalevelold: 5
     name: Small Cargohold Optimization II
     packagedVolume: 5.0
     portionSize: 1
@@ -832,7 +832,7 @@ types:
     hp: 40.0
     id: 31135
     marketGroup: 1210
-    metalevel: 5
+    metalevelold: 5
     name: Small Dynamic Fuel Valve II
     packagedVolume: 5.0
     portionSize: 1
@@ -863,7 +863,7 @@ types:
     hp: 40.0
     id: 31147
     marketGroup: 1210
-    metalevel: 5
+    metalevelold: 5
     name: Small Engine Thermal Shielding II
     packagedVolume: 5.0
     portionSize: 1
@@ -893,7 +893,7 @@ types:
     hp: 40.0
     id: 31165
     marketGroup: 1210
-    metalevel: 5
+    metalevelold: 5
     name: Small Hyperspatial Velocity Optimizer II
     packagedVolume: 5.0
     portionSize: 1
@@ -925,7 +925,7 @@ types:
     hp: 40.0
     id: 31171
     marketGroup: 1210
-    metalevel: 5
+    metalevelold: 5
     name: Small Low Friction Nozzle Joints II
     packagedVolume: 5.0
     portionSize: 1
@@ -958,7 +958,7 @@ types:
     id: 31183
     implantbonusvelocity: 6.599999904632568
     marketGroup: 1210
-    metalevel: 5
+    metalevelold: 5
     name: Small Polycarbon Engine Housing II
     packagedVolume: 5.0
     portionSize: 1
@@ -988,7 +988,7 @@ types:
     hp: 40.0
     id: 31195
     marketGroup: 1210
-    metalevel: 5
+    metalevelold: 5
     name: Small Warp Core Optimizer II
     packagedVolume: 5.0
     portionSize: 1

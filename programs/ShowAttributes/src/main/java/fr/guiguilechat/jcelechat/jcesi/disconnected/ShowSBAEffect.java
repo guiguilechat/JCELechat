@@ -8,10 +8,11 @@ public class ShowSBAEffect {
 		System.out.println("name\tmeta level\tcpu\teffect\teffect / CPU");
 		ShieldBoostAmplifier.METAGROUP.load().values().stream()
 		.sorted((s1, s2) -> Double.compare(s1.shieldboostmultiplier, s2.shieldboostmultiplier))
-		.sorted((s1, s2) -> Integer.compare(s1.metalevel, s2.metalevel)).forEachOrdered(sba -> {
+				.sorted((s1, s2) -> Integer.compare(s1.metalevelold, s2.metalevelold)).forEachOrdered(sba -> {
 			double effect = Math.log(1 + 0.01 * sba.shieldboostmultiplier) / Math.log(1.3);
 			System.out.println(
-					circle(sba.metalevel, sba.metagroupid) + " " + sba.name + "\t" + sba.metalevel + "\t" + sba.cpu + "\t"
+							circle(sba.metalevelold, sba.metagroupid) + " " + sba.name + "\t" + sba.metalevelold + "\t" + sba.cpu
+									+ "\t"
 							+ String.format("%.3f", effect) + "\t" + String.format("%.3f", effect / sba.cpu));
 		});
 

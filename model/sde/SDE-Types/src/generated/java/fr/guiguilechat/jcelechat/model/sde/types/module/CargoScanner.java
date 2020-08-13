@@ -22,7 +22,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivatio
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -76,7 +76,7 @@ public class CargoScanner
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * current power need
      */
@@ -106,7 +106,7 @@ public class CargoScanner
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, CapacitorNeed.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevel.INSTANCE, Power.INSTANCE, CargoScanRange.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, CapacitorNeed.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE, CargoScanRange.INSTANCE })));
     public static final CargoScanner.MetaGroup METAGROUP = new CargoScanner.MetaGroup();
 
     @Override
@@ -134,7 +134,7 @@ public class CargoScanner
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  30 :
             {

@@ -13,7 +13,7 @@ types:
     marketGroup: 2529
     maxgroupfitted: 1
     maxrange: 10750.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Mutadaptive Compact Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -72,7 +72,7 @@ types:
     marketGroup: 2529
     maxgroupfitted: 1
     maxrange: 12000.0
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Mutadaptive Remote Armor Repairer II
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -102,7 +102,7 @@ types:
     marketGroup: 2529
     maxgroupfitted: 1
     maxrange: 11625.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Mutadaptive Scoped Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -132,7 +132,7 @@ types:
     marketGroup: 2529
     maxgroupfitted: 1
     maxrange: 12500.0
-    metalevel: 3
+    metalevelold: 3
     name: Perun Heavy Mutadaptive Remote Armor Repairer
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0

@@ -9,7 +9,7 @@ types:
     id: 20635
     marketGroup: 1692
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Desert Heat'' Thermal Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -36,7 +36,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1693
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Nugget'' Kinetic Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -62,7 +62,7 @@ types:
     id: 20639
     marketGroup: 1695
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Poacher'' EM Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -90,7 +90,7 @@ types:
     kineticdamageresistancebonus: -26.0
     marketGroup: 1696
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Posse'' Multispectrum Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -117,7 +117,7 @@ types:
     id: 20641
     marketGroup: 1694
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Snake Eyes'' Explosive Shield Hardener'
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -143,7 +143,7 @@ types:
     id: 17499
     marketGroup: 1695
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -169,7 +169,7 @@ types:
     id: 17496
     marketGroup: 1694
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -195,7 +195,7 @@ types:
     kineticdamageresistancebonus: -45.0
     marketGroup: 1693
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -223,7 +223,7 @@ types:
     kineticdamageresistancebonus: -30.0
     marketGroup: 1696
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -249,7 +249,7 @@ types:
     id: 17497
     marketGroup: 1692
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -371,7 +371,7 @@ types:
     hp: 40.0
     id: 9622
     marketGroup: 1695
-    metalevel: 1
+    metalevelold: 1
     name: Compact EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -396,7 +396,7 @@ types:
     hp: 40.0
     id: 9646
     marketGroup: 1694
-    metalevel: 1
+    metalevelold: 1
     name: Compact Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -421,7 +421,7 @@ types:
     id: 9608
     kineticdamageresistancebonus: -42.0
     marketGroup: 1693
-    metalevel: 1
+    metalevelold: 1
     name: Compact Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -448,7 +448,7 @@ types:
     id: 9632
     kineticdamageresistancebonus: -23.200000762939453
     marketGroup: 1696
-    metalevel: 1
+    metalevelold: 1
     name: Compact Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -473,7 +473,7 @@ types:
     hp: 40.0
     id: 9660
     marketGroup: 1692
-    metalevel: 1
+    metalevelold: 1
     name: Compact Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -500,7 +500,7 @@ types:
     id: 13994
     marketGroup: 1695
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -526,7 +526,7 @@ types:
     id: 13996
     marketGroup: 1694
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -552,7 +552,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1693
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -580,7 +580,7 @@ types:
     kineticdamageresistancebonus: -26.0
     marketGroup: 1696
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -606,7 +606,7 @@ types:
     id: 13995
     marketGroup: 1692
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -633,7 +633,7 @@ types:
     id: 13965
     marketGroup: 1695
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -659,7 +659,7 @@ types:
     id: 13967
     marketGroup: 1694
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -685,7 +685,7 @@ types:
     kineticdamageresistancebonus: -45.0
     marketGroup: 1693
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -713,7 +713,7 @@ types:
     kineticdamageresistancebonus: -30.0
     marketGroup: 1696
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -739,7 +739,7 @@ types:
     id: 13966
     marketGroup: 1692
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -789,7 +789,7 @@ types:
     hp: 40.0
     id: 2301
     marketGroup: 1695
-    metalevel: 5
+    metalevelold: 5
     name: EM Shield Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -814,7 +814,7 @@ types:
     hp: 40.0
     id: 54292
     marketGroup: 1695
-    metalevel: 1
+    metalevelold: 1
     name: Enduring EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -839,7 +839,7 @@ types:
     hp: 40.0
     id: 54293
     marketGroup: 1694
-    metalevel: 1
+    metalevelold: 1
     name: Enduring Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -864,7 +864,7 @@ types:
     id: 54294
     kineticdamageresistancebonus: -42.0
     marketGroup: 1693
-    metalevel: 1
+    metalevelold: 1
     name: Enduring Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -891,7 +891,7 @@ types:
     id: 54291
     kineticdamageresistancebonus: -23.200000762939453
     marketGroup: 1696
-    metalevel: 1
+    metalevelold: 1
     name: Enduring Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -916,7 +916,7 @@ types:
     hp: 40.0
     id: 54295
     marketGroup: 1692
-    metalevel: 1
+    metalevelold: 1
     name: Enduring Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -943,7 +943,7 @@ types:
     id: 14755
     marketGroup: 1695
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Estamel's Modified EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -969,7 +969,7 @@ types:
     id: 14759
     marketGroup: 1694
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Estamel's Modified Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -995,7 +995,7 @@ types:
     kineticdamageresistancebonus: -51.20000076293945
     marketGroup: 1693
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Estamel's Modified Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1023,7 +1023,7 @@ types:
     kineticdamageresistancebonus: -40.0
     marketGroup: 1696
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Estamel's Modified Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1049,7 +1049,7 @@ types:
     id: 14763
     marketGroup: 1692
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Estamel's Modified Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1099,7 +1099,7 @@ types:
     hp: 40.0
     id: 2297
     marketGroup: 1694
-    metalevel: 5
+    metalevelold: 5
     name: Explosive Shield Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1125,7 +1125,7 @@ types:
     id: 19279
     marketGroup: 1695
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gist A-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1151,7 +1151,7 @@ types:
     id: 19275
     marketGroup: 1694
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gist A-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1177,7 +1177,7 @@ types:
     kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1693
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gist A-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1202,7 +1202,7 @@ types:
     id: 19277
     marketGroup: 1692
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gist A-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1229,7 +1229,7 @@ types:
     id: 19265
     marketGroup: 1695
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gist B-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1255,7 +1255,7 @@ types:
     id: 19269
     marketGroup: 1694
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gist B-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1281,7 +1281,7 @@ types:
     kineticdamageresistancebonus: -46.599998474121094
     marketGroup: 1693
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gist B-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1306,7 +1306,7 @@ types:
     id: 19267
     marketGroup: 1692
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gist B-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1333,7 +1333,7 @@ types:
     id: 19263
     marketGroup: 1695
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gist C-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1359,7 +1359,7 @@ types:
     id: 19259
     marketGroup: 1694
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gist C-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1385,7 +1385,7 @@ types:
     kineticdamageresistancebonus: -45.0
     marketGroup: 1693
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gist C-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1410,7 +1410,7 @@ types:
     id: 19261
     marketGroup: 1692
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gist C-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1437,7 +1437,7 @@ types:
     id: 19281
     marketGroup: 1695
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Gist X-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1463,7 +1463,7 @@ types:
     id: 19285
     marketGroup: 1694
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Gist X-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1489,7 +1489,7 @@ types:
     kineticdamageresistancebonus: -49.79999923706055
     marketGroup: 1693
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Gist X-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1514,7 +1514,7 @@ types:
     id: 19283
     marketGroup: 1692
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Gist X-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1543,7 +1543,7 @@ types:
     kineticdamageresistancebonus: -36.29999923706055
     marketGroup: 1696
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Gistum A-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1572,7 +1572,7 @@ types:
     kineticdamageresistancebonus: -33.70000076293945
     marketGroup: 1696
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Gistum B-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1601,7 +1601,7 @@ types:
     kineticdamageresistancebonus: -30.0
     marketGroup: 1696
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Gistum C-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1628,7 +1628,7 @@ types:
     id: 14752
     marketGroup: 1695
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1654,7 +1654,7 @@ types:
     id: 14756
     marketGroup: 1694
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1680,7 +1680,7 @@ types:
     kineticdamageresistancebonus: -46.599998474121094
     marketGroup: 1693
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1708,7 +1708,7 @@ types:
     kineticdamageresistancebonus: -33.70000076293945
     marketGroup: 1696
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1734,7 +1734,7 @@ types:
     id: 14760
     marketGroup: 1692
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1784,7 +1784,7 @@ types:
     id: 2299
     kineticdamageresistancebonus: -44.0
     marketGroup: 1693
-    metalevel: 5
+    metalevelold: 5
     name: Kinetic Shield Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1838,7 +1838,7 @@ types:
     id: 2281
     kineticdamageresistancebonus: -26.0
     marketGroup: 1696
-    metalevel: 5
+    metalevelold: 5
     name: Multispectrum Shield Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1865,7 +1865,7 @@ types:
     id: 19280
     marketGroup: 1695
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pith A-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1891,7 +1891,7 @@ types:
     id: 19276
     marketGroup: 1694
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pith A-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1917,7 +1917,7 @@ types:
     kineticdamageresistancebonus: -49.0
     marketGroup: 1693
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pith A-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1942,7 +1942,7 @@ types:
     id: 19278
     marketGroup: 1692
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pith A-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1969,7 +1969,7 @@ types:
     id: 19266
     marketGroup: 1695
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pith B-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1995,7 +1995,7 @@ types:
     id: 19270
     marketGroup: 1694
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pith B-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2021,7 +2021,7 @@ types:
     kineticdamageresistancebonus: -47.400001525878906
     marketGroup: 1693
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pith B-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2046,7 +2046,7 @@ types:
     id: 19268
     marketGroup: 1692
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pith B-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2073,7 +2073,7 @@ types:
     id: 19264
     marketGroup: 1695
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Pith C-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2099,7 +2099,7 @@ types:
     id: 19260
     marketGroup: 1694
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Pith C-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2125,7 +2125,7 @@ types:
     kineticdamageresistancebonus: -45.79999923706055
     marketGroup: 1693
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Pith C-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2150,7 +2150,7 @@ types:
     id: 19262
     marketGroup: 1692
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Pith C-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2177,7 +2177,7 @@ types:
     id: 19282
     marketGroup: 1695
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Pith X-Type EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2203,7 +2203,7 @@ types:
     id: 19286
     marketGroup: 1694
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Pith X-Type Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2229,7 +2229,7 @@ types:
     kineticdamageresistancebonus: -50.79999923706055
     marketGroup: 1693
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Pith X-Type Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2254,7 +2254,7 @@ types:
     id: 19284
     marketGroup: 1692
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Pith X-Type Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2283,7 +2283,7 @@ types:
     kineticdamageresistancebonus: -37.5
     marketGroup: 1696
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Pithum A-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2312,7 +2312,7 @@ types:
     kineticdamageresistancebonus: -35.0
     marketGroup: 1696
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Pithum B-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2341,7 +2341,7 @@ types:
     kineticdamageresistancebonus: -32.5
     marketGroup: 1696
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Pithum C-Type Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2390,7 +2390,7 @@ types:
     hp: 40.0
     id: 2303
     marketGroup: 1692
-    metalevel: 5
+    metalevelold: 5
     name: Thermal Shield Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2417,7 +2417,7 @@ types:
     id: 14753
     marketGroup: 1695
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Thon's Modified EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2443,7 +2443,7 @@ types:
     id: 14757
     marketGroup: 1694
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Thon's Modified Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2469,7 +2469,7 @@ types:
     kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1693
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Thon's Modified Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2497,7 +2497,7 @@ types:
     kineticdamageresistancebonus: -36.29999923706055
     marketGroup: 1696
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Thon's Modified Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2523,7 +2523,7 @@ types:
     id: 14761
     marketGroup: 1692
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Thon's Modified Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2550,7 +2550,7 @@ types:
     id: 14754
     marketGroup: 1695
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vepas's Modified EM Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2576,7 +2576,7 @@ types:
     id: 14758
     marketGroup: 1694
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vepas's Modified Explosive Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2602,7 +2602,7 @@ types:
     kineticdamageresistancebonus: -49.79999923706055
     marketGroup: 1693
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vepas's Modified Kinetic Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2630,7 +2630,7 @@ types:
     kineticdamageresistancebonus: -38.79999923706055
     marketGroup: 1696
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vepas's Modified Multispectrum Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2656,7 +2656,7 @@ types:
     id: 14762
     marketGroup: 1692
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vepas's Modified Thermal Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0

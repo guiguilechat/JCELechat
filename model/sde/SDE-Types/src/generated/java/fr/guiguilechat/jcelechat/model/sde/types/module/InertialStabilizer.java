@@ -19,7 +19,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -60,7 +60,7 @@ public class InertialStabilizer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * The type ID of the skill that is required.
      */
@@ -90,7 +90,7 @@ public class InertialStabilizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AgilityMultiplier.INSTANCE, MetaLevel.INSTANCE, Hp.INSTANCE, SignatureRadiusBonus.INSTANCE, MetaGroupID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, AgilityMultiplier.INSTANCE, MetaLevelOld.INSTANCE, Hp.INSTANCE, SignatureRadiusBonus.INSTANCE, MetaGroupID.INSTANCE })));
     public static final InertialStabilizer.MetaGroup METAGROUP = new InertialStabilizer.MetaGroup();
 
     @Override
@@ -106,7 +106,7 @@ public class InertialStabilizer
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  182 :
             {

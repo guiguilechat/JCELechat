@@ -5,7 +5,7 @@ types:
     hp: 150000.0
     id: 33476
     marketGroup: 1832
-    metalevel: 1
+    metalevelold: 1
     name: Mobile Cynosural Inhibitor
     packagedVolume: 50.0
     portionSize: 1

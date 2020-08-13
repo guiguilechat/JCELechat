@@ -45,7 +45,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 80.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     name: Bustard
     packagedVolume: 20000.0
     portionSize: 1
@@ -135,7 +135,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 90.0
     medslots: 2
-    metalevel: 5
+    metalevelold: 5
     name: Impel
     packagedVolume: 20000.0
     portionSize: 1
@@ -224,7 +224,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 120.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     name: Mastodon
     packagedVolume: 20000.0
     portionSize: 1
@@ -314,7 +314,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 110.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     name: Occator
     packagedVolume: 20000.0
     portionSize: 1

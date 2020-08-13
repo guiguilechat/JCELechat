@@ -33,7 +33,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RefiningYieldMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -187,7 +187,7 @@ public class OutpostConversionRigs
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * The factor by which the structure modifies the using pilot's refining yield rate.
      */
@@ -265,7 +265,7 @@ public class OutpostConversionRigs
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, StructureRigMaxTargetBonus.INSTANCE, StructureRigScanResBonus.INSTANCE, StructureRigPDRangeBonus.INSTANCE, Mass.INSTANCE, StructureRigPDCapUseBonus.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, RefiningYieldMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, ConversionRigHPCapBonus.INSTANCE, RequiredSkill1Level.INSTANCE, AttributeT1ShipManufactureTime.INSTANCE, AttributeT2ShipManufactureTime.INSTANCE, AttributeAdvCompManufactureTime.INSTANCE, AttributeCapCompManufactureTime.INSTANCE, AttributeEquipmentManufactureTime.INSTANCE, AttributeMEResearchTime.INSTANCE, AttributeTEResearchTime.INSTANCE, MetaGroupID.INSTANCE, AttributeCopyTime.INSTANCE, AttributeInventionTime.INSTANCE, AttributeResearchCosts.INSTANCE, StructureItemVisualFlag.INSTANCE, AttributeInventionCosts.INSTANCE, AttributeEngRigMatBonus.INSTANCE, Radius.INSTANCE, StructureServiceRoleBonus.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevel.INSTANCE, StructureRigMaxTargetRangeBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, StructureRigMaxTargetBonus.INSTANCE, StructureRigScanResBonus.INSTANCE, StructureRigPDRangeBonus.INSTANCE, Mass.INSTANCE, StructureRigPDCapUseBonus.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, RefiningYieldMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, ConversionRigHPCapBonus.INSTANCE, RequiredSkill1Level.INSTANCE, AttributeT1ShipManufactureTime.INSTANCE, AttributeT2ShipManufactureTime.INSTANCE, AttributeAdvCompManufactureTime.INSTANCE, AttributeCapCompManufactureTime.INSTANCE, AttributeEquipmentManufactureTime.INSTANCE, AttributeMEResearchTime.INSTANCE, AttributeTEResearchTime.INSTANCE, MetaGroupID.INSTANCE, AttributeCopyTime.INSTANCE, AttributeInventionTime.INSTANCE, AttributeResearchCosts.INSTANCE, StructureItemVisualFlag.INSTANCE, AttributeInventionCosts.INSTANCE, AttributeEngRigMatBonus.INSTANCE, Radius.INSTANCE, StructureServiceRoleBonus.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, StructureRigMaxTargetRangeBonus.INSTANCE })));
     public static final OutpostConversionRigs.MetaGroup METAGROUP = new OutpostConversionRigs.MetaGroup();
 
     @Override
@@ -341,7 +341,7 @@ public class OutpostConversionRigs
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  717 :
             {

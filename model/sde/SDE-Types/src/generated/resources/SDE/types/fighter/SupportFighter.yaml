@@ -68,7 +68,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 744.0
-    metalevel: 5
+    metalevelold: 5
     name: Cenobite II
     packagedVolume: 3000.0
     portionSize: 1
@@ -163,7 +163,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 744.0
-    metalevel: 5
+    metalevelold: 5
     name: Dromi II
     packagedVolume: 3000.0
     portionSize: 1
@@ -264,7 +264,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 744.0
-    metalevel: 5
+    metalevelold: 5
     name: Scarab II
     packagedVolume: 3000.0
     portionSize: 1
@@ -353,7 +353,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 744.0
-    metalevel: 5
+    metalevelold: 5
     name: Siren II
     packagedVolume: 3000.0
     portionSize: 1
@@ -445,7 +445,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1488.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Cenobite II
     packagedVolume: 6000.0
     portionSize: 1
@@ -534,7 +534,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1488.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Dromi II
     packagedVolume: 6000.0
     portionSize: 1
@@ -629,7 +629,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1488.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Scarab II
     packagedVolume: 6000.0
     portionSize: 1
@@ -712,7 +712,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1488.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Siren II
     packagedVolume: 6000.0
     portionSize: 1

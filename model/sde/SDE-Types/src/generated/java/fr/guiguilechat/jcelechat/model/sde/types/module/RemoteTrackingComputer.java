@@ -30,7 +30,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadTrackingModuleStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -152,7 +152,7 @@ public class RemoteTrackingComputer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * 
      */
@@ -210,7 +210,7 @@ public class RemoteTrackingComputer
     @Stackable(true)
     @DefaultDoubleValue(0.0)
     public double trackingspeedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, DisallowAgainstEwImmuneTarget.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadTrackingModuleStrengthBonus.INSTANCE, RequiredSkill1Level.INSTANCE, MetaGroupID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, FalloffBonus.INSTANCE, Power.INSTANCE, MaxRangeBonus.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevel.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, DisallowAgainstEwImmuneTarget.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadTrackingModuleStrengthBonus.INSTANCE, RequiredSkill1Level.INSTANCE, MetaGroupID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, FalloffBonus.INSTANCE, Power.INSTANCE, MaxRangeBonus.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, FalloffEffectiveness.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final RemoteTrackingComputer.MetaGroup METAGROUP = new RemoteTrackingComputer.MetaGroup();
 
     @Override
@@ -270,7 +270,7 @@ public class RemoteTrackingComputer
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  1935 :
             {

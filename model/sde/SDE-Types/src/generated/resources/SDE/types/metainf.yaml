@@ -36843,7 +36843,7 @@ id2name:
   55822: FFA Destroyers Proving Filament
   55823: 3v3 Slicers Proving Filament
   55824: QA 4v4 Proving Filament
-  55825: Event 4 Proving Filament
+  55825: 2v2 Battlecruisers Proving Filament
   55826: Expert Cerebral Accelerator
   55827: Serenity Special SKINs Crate
   55828: ORE Capital Ship Rorqual Wreckage
@@ -36959,8 +36959,8 @@ id2name:
   55977: Serenity August Season Pass
   55980: Amarr Foundation Day Apparel Crate
   55981: Amarr Foundation Day Fireworks Crate
-  55982: Event 5 Proving Filament
-  55983: Event 6 Proving Filament
+  55982: 5v5 Corvette Proving Filament
+  55983: 2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament
   55984: Skybreaker Bluestar Defenders SKIN
   55985: Stormbringer Bluestar Defenders SKIN
   55986: Thunderchild Bluestar Defenders SKIN
@@ -40799,6 +40799,8 @@ name2group:
   280mm Howitzer Artillery II Blueprint: blueprint/ProjectileWeaponBlueprint
   280mm Prototype Siege Cannon: module/ProjectileWeapon
   2nd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
+  2v2 Battlecruisers Proving Filament: commodity/AbyssalProvingFilaments
+  2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament: commodity/AbyssalProvingFilaments
   300 Aurum Token: accessories/LegacyCurrency
   300 Billion ISK Contract Copy: specialeditionassets/SpecialEditionCommodities
   30km Amarr Capture Point: entity/CapturePoint
@@ -40888,6 +40890,7 @@ name2group:
   5MN Y-T8 Compact Microwarpdrive: module/PropulsionModule
   5a Prototype Shield Support I: module/ShieldBoostAmplifier
   5th Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
+  5v5 Corvette Proving Filament: commodity/AbyssalProvingFilaments
   60km Capture Point: entity/CapturePoint
   60mm Reinforced Type-A Plates: infantry/InfantryModules
   650mm Artillery Cannon I: module/ProjectileWeapon
@@ -48910,9 +48913,6 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
-  Event 4 Proving Filament: commodity/AbyssalProvingFilaments
-  Event 5 Proving Filament: commodity/AbyssalProvingFilaments
-  Event 6 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities

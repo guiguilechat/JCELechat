@@ -26,7 +26,7 @@ types:
     id: 31512
     marketGroup: 1734
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Algid Hybrid Administrations Unit II
     packagedVolume: 40.0
     portionSize: 1
@@ -65,7 +65,7 @@ types:
     id: 31524
     marketGroup: 1734
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Hybrid Ambit Extension II
     packagedVolume: 40.0
     portionSize: 1
@@ -102,7 +102,7 @@ types:
     id: 31536
     marketGroup: 1734
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Hybrid Burst Aerator II
     packagedVolume: 40.0
     portionSize: 1
@@ -139,7 +139,7 @@ types:
     id: 31548
     marketGroup: 1734
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Hybrid Collision Accelerator II
     packagedVolume: 40.0
     portionSize: 1
@@ -178,7 +178,7 @@ types:
     id: 31560
     marketGroup: 1734
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Hybrid Discharge Elutriation II
     packagedVolume: 40.0
     portionSize: 1
@@ -217,7 +217,7 @@ types:
     marketGroup: 1734
     maxrangebonus: 20.0
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Hybrid Locus Coordinator II
     packagedVolume: 40.0
     portionSize: 1
@@ -255,7 +255,7 @@ types:
     id: 31584
     marketGroup: 1734
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Hybrid Metastasis Adjuster II
     packagedVolume: 40.0
     portionSize: 1
@@ -295,7 +295,7 @@ types:
     id: 26398
     marketGroup: 1230
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Algid Hybrid Administrations Unit II
     packagedVolume: 20.0
     portionSize: 1
@@ -334,7 +334,7 @@ types:
     id: 26400
     marketGroup: 1230
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Hybrid Ambit Extension II
     packagedVolume: 20.0
     portionSize: 1
@@ -371,7 +371,7 @@ types:
     id: 26394
     marketGroup: 1230
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Hybrid Burst Aerator II
     packagedVolume: 20.0
     portionSize: 1
@@ -408,7 +408,7 @@ types:
     id: 26396
     marketGroup: 1230
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Hybrid Collision Accelerator II
     packagedVolume: 20.0
     portionSize: 1
@@ -447,7 +447,7 @@ types:
     id: 26392
     marketGroup: 1230
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Hybrid Discharge Elutriation II
     packagedVolume: 20.0
     portionSize: 1
@@ -486,7 +486,7 @@ types:
     marketGroup: 1230
     maxrangebonus: 20.0
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Hybrid Locus Coordinator II
     packagedVolume: 20.0
     portionSize: 1
@@ -524,7 +524,7 @@ types:
     id: 26404
     marketGroup: 1230
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Hybrid Metastasis Adjuster II
     packagedVolume: 20.0
     portionSize: 1
@@ -564,7 +564,7 @@ types:
     id: 31510
     marketGroup: 1229
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Algid Hybrid Administrations Unit II
     packagedVolume: 10.0
     portionSize: 1
@@ -603,7 +603,7 @@ types:
     id: 31522
     marketGroup: 1229
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Hybrid Ambit Extension II
     packagedVolume: 10.0
     portionSize: 1
@@ -640,7 +640,7 @@ types:
     id: 31534
     marketGroup: 1229
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Hybrid Burst Aerator II
     packagedVolume: 10.0
     portionSize: 1
@@ -677,7 +677,7 @@ types:
     id: 31546
     marketGroup: 1229
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Hybrid Collision Accelerator II
     packagedVolume: 10.0
     portionSize: 1
@@ -716,7 +716,7 @@ types:
     id: 31558
     marketGroup: 1229
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Hybrid Discharge Elutriation II
     packagedVolume: 10.0
     portionSize: 1
@@ -755,7 +755,7 @@ types:
     marketGroup: 1229
     maxrangebonus: 20.0
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Hybrid Locus Coordinator II
     packagedVolume: 10.0
     portionSize: 1
@@ -793,7 +793,7 @@ types:
     id: 31582
     marketGroup: 1229
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Hybrid Metastasis Adjuster II
     packagedVolume: 10.0
     portionSize: 1
@@ -833,7 +833,7 @@ types:
     id: 31508
     marketGroup: 1228
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Algid Hybrid Administrations Unit II
     packagedVolume: 5.0
     portionSize: 1
@@ -872,7 +872,7 @@ types:
     id: 31520
     marketGroup: 1228
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Hybrid Ambit Extension II
     packagedVolume: 5.0
     portionSize: 1
@@ -909,7 +909,7 @@ types:
     id: 31532
     marketGroup: 1228
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Hybrid Burst Aerator II
     packagedVolume: 5.0
     portionSize: 1
@@ -946,7 +946,7 @@ types:
     id: 31544
     marketGroup: 1228
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Hybrid Collision Accelerator II
     packagedVolume: 5.0
     portionSize: 1
@@ -985,7 +985,7 @@ types:
     id: 31556
     marketGroup: 1228
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Hybrid Discharge Elutriation II
     packagedVolume: 5.0
     portionSize: 1
@@ -1024,7 +1024,7 @@ types:
     marketGroup: 1228
     maxrangebonus: 20.0
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Hybrid Locus Coordinator II
     packagedVolume: 5.0
     portionSize: 1
@@ -1062,7 +1062,7 @@ types:
     id: 31580
     marketGroup: 1228
     maxrangemultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Hybrid Metastasis Adjuster II
     packagedVolume: 5.0
     portionSize: 1

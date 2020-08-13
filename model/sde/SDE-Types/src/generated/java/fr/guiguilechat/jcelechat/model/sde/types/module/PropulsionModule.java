@@ -33,7 +33,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MassAddition;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSpeedFactorBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
@@ -178,7 +178,7 @@ public class PropulsionModule
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
@@ -250,7 +250,7 @@ public class PropulsionModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, OverloadSpeedFactorBonus.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CapacitorCapacityMultiplier.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipGroup06 .INSTANCE, MetaGroupID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MassAddition.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadiusBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, SpeedBoostFactor.INSTANCE, MetaLevel.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, OverloadSpeedFactorBonus.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, CanFitShipGroup05 .INSTANCE, CanFitShipGroup01 .INSTANCE, CapacitorCapacityMultiplier.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipGroup04 .INSTANCE, CanFitShipGroup06 .INSTANCE, MetaGroupID.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MassAddition.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadiusBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, SpeedBoostFactor.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
     public static final PropulsionModule.MetaGroup METAGROUP = new PropulsionModule.MetaGroup();
 
     @Override
@@ -322,7 +322,7 @@ public class PropulsionModule
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  669 :
             {

@@ -84,7 +84,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 578.0
-    metalevel: 5
+    metalevelold: 5
     name: Ametat II
     packagedVolume: 2000.0
     portionSize: 1
@@ -195,7 +195,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 495.0
-    metalevel: 5
+    metalevelold: 5
     name: Antaeus II
     packagedVolume: 2000.0
     portionSize: 1
@@ -321,7 +321,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 771.0
-    metalevel: 5
+    metalevelold: 5
     name: Cyclops II
     packagedVolume: 1800.0
     portionSize: 1
@@ -432,7 +432,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 605.0
-    metalevel: 5
+    metalevelold: 5
     name: Gungnir II
     packagedVolume: 2000.0
     portionSize: 1
@@ -558,7 +558,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 900.0
-    metalevel: 5
+    metalevelold: 5
     name: Malleus II
     packagedVolume: 1800.0
     portionSize: 1
@@ -684,7 +684,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 814.5
-    metalevel: 5
+    metalevelold: 5
     name: Mantis II
     packagedVolume: 1800.0
     portionSize: 1
@@ -744,7 +744,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 814.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow
     packagedVolume: 1800.0
     portionSize: 1
@@ -853,7 +853,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 1156.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Ametat II
     packagedVolume: 4000.0
     portionSize: 1
@@ -958,7 +958,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 990.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Antaeus II
     packagedVolume: 4000.0
     portionSize: 1
@@ -1077,7 +1077,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1542.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Cyclops II
     packagedVolume: 3600.0
     portionSize: 1
@@ -1182,7 +1182,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 1210.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Gungnir II
     packagedVolume: 4000.0
     portionSize: 1
@@ -1301,7 +1301,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1800.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Malleus II
     packagedVolume: 3600.0
     portionSize: 1
@@ -1421,7 +1421,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1629.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Mantis II
     packagedVolume: 3600.0
     portionSize: 1
@@ -1478,7 +1478,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 1629.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Standup Shadow
     packagedVolume: 3600.0
     portionSize: 1
@@ -1583,7 +1583,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 1046.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Termite II
     packagedVolume: 4000.0
     portionSize: 1
@@ -1702,7 +1702,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 1884.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Tyrfing II
     packagedVolume: 3600.0
     portionSize: 1
@@ -1810,7 +1810,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 100000.0
     maxvelocity: 523.0
-    metalevel: 5
+    metalevelold: 5
     name: Termite II
     packagedVolume: 2000.0
     portionSize: 1
@@ -1936,7 +1936,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 54000.0
     maxvelocity: 942.0
-    metalevel: 5
+    metalevelold: 5
     name: Tyrfing II
     packagedVolume: 1800.0
     portionSize: 1

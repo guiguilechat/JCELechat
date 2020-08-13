@@ -5,7 +5,7 @@ types:
     id: 21484
     marketGroup: 645
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplierbonus: 1.100000023841858
     name: '''Full Duplex'' Ballistic Control System'
     packagedVolume: 5.0
@@ -53,7 +53,7 @@ types:
     hp: 40.0
     id: 22291
     marketGroup: 645
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplierbonus: 1.100000023841858
     name: Ballistic Control System II
     packagedVolume: 5.0
@@ -73,7 +73,7 @@ types:
     id: 47447
     marketGroup: 645
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplierbonus: 1.0700000524520874
     name: C3-A 'Hivaa Saitsuo' Ballistic Control System
     packagedVolume: 5.0
@@ -95,7 +95,7 @@ types:
     id: 47448
     marketGroup: 645
     metagroupid: 4
-    metalevel: 12
+    metalevelold: 12
     missiledamagemultiplierbonus: 1.100000023841858
     name: C3-X 'Hivaa Saitsuo' Ballistic Control System
     packagedVolume: 5.0
@@ -116,7 +116,7 @@ types:
     id: 15681
     marketGroup: 645
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
     name: Caldari Navy Ballistic Control System
     packagedVolume: 5.0
@@ -134,7 +134,7 @@ types:
     hp: 40.0
     id: 16457
     marketGroup: 645
-    metalevel: 1
+    metalevelold: 1
     missiledamagemultiplierbonus: 1.0800000429153442
     name: Crosslink Compact Ballistic Control System
     packagedVolume: 5.0
@@ -153,7 +153,7 @@ types:
     id: 13935
     marketGroup: 645
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
     name: Domination Ballistic Control System
     packagedVolume: 5.0
@@ -172,7 +172,7 @@ types:
     id: 13937
     marketGroup: 645
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
     name: Dread Guristas Ballistic Control System
     packagedVolume: 5.0
@@ -191,7 +191,7 @@ types:
     id: 14690
     marketGroup: 645
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     missiledamagemultiplierbonus: 1.1449999809265137
     name: Estamel's Modified Ballistic Control System
     packagedVolume: 5.0
@@ -210,7 +210,7 @@ types:
     id: 14532
     marketGroup: 645
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     missiledamagemultiplierbonus: 1.1399999856948853
     name: Gotan's Modified Ballistic Control System
     packagedVolume: 5.0
@@ -229,7 +229,7 @@ types:
     id: 14528
     marketGroup: 645
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     missiledamagemultiplierbonus: 1.1349999904632568
     name: Hakim's Modified Ballistic Control System
     packagedVolume: 5.0
@@ -248,7 +248,7 @@ types:
     id: 46270
     marketGroup: 645
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplierbonus: 1.100000023841858
     name: Kaatara's Custom Ballistic Control System
     packagedVolume: 5.0
@@ -267,7 +267,7 @@ types:
     id: 14684
     marketGroup: 645
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     missiledamagemultiplierbonus: 1.1299999952316284
     name: Kaikka's Modified Ballistic Control System
     packagedVolume: 5.0
@@ -286,7 +286,7 @@ types:
     id: 28563
     marketGroup: 645
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
     name: Khanid Navy Ballistic Control System
     packagedVolume: 5.0
@@ -305,7 +305,7 @@ types:
     hp: 40.0
     id: 49790
     marketGroup: 645
-    metalevel: 1
+    metalevelold: 1
     missiledamagemultiplierbonus: 1.0800000429153442
     name: ML-EKP 'Polybolos' Ballistic Control System
     packagedVolume: 5.0
@@ -324,7 +324,7 @@ types:
     id: 14530
     marketGroup: 645
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     missiledamagemultiplierbonus: 1.1299999952316284
     name: Mizuro's Modified Ballistic Control System
     packagedVolume: 5.0
@@ -343,7 +343,7 @@ types:
     id: 15683
     marketGroup: 645
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplierbonus: 1.1200000047683716
     name: Republic Fleet Ballistic Control System
     packagedVolume: 5.0
@@ -362,7 +362,7 @@ types:
     id: 14686
     marketGroup: 645
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     missiledamagemultiplierbonus: 1.1349999904632568
     name: Thon's Modified Ballistic Control System
     packagedVolume: 5.0
@@ -381,7 +381,7 @@ types:
     id: 14534
     marketGroup: 645
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     missiledamagemultiplierbonus: 1.1449999809265137
     name: Tobias' Modified Ballistic Control System
     packagedVolume: 5.0
@@ -400,7 +400,7 @@ types:
     id: 14688
     marketGroup: 645
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     missiledamagemultiplierbonus: 1.1399999856948853
     name: Vepas' Modified Ballistic Control System
     packagedVolume: 5.0

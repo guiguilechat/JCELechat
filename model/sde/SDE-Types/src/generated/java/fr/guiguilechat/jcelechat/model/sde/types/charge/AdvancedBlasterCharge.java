@@ -28,7 +28,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerNeedMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -135,7 +135,7 @@ public class AdvancedBlasterCharge
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * 
      */
@@ -193,7 +193,7 @@ public class AdvancedBlasterCharge
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double weaponrangemultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, PowerNeedMultiplier.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, Mass.INSTANCE, FallofMultiplier.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevel.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, PowerNeedMultiplier.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, Mass.INSTANCE, FallofMultiplier.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, CapNeedBonus.INSTANCE })));
     public static final AdvancedBlasterCharge.MetaGroup METAGROUP = new AdvancedBlasterCharge.MetaGroup();
 
     @Override
@@ -249,7 +249,7 @@ public class AdvancedBlasterCharge
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  608 :
             {

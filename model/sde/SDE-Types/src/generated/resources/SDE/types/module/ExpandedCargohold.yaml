@@ -6,7 +6,7 @@ types:
     marketGroup: 1197
     maxvelocitymodifier: 0.800000011920929
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Basic'' Expanded Cargohold'
     packagedVolume: 5.0
     portionSize: 1
@@ -53,7 +53,7 @@ types:
     id: 1319
     marketGroup: 1197
     maxvelocitymodifier: 0.8199999928474426
-    metalevel: 5
+    metalevelold: 5
     name: Expanded Cargohold II
     packagedVolume: 5.0
     portionSize: 1
@@ -71,7 +71,7 @@ types:
     marketGroup: 1197
     maxvelocitymodifier: 0.8999999761581421
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Limited Expanded 'Archiver' Cargo
     packagedVolume: 5.0
     portionSize: 1
@@ -89,7 +89,7 @@ types:
     marketGroup: 1197
     maxvelocitymodifier: 0.8999999761581421
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: ORE Expanded Cargohold
     packagedVolume: 5.0
     portionSize: 1
@@ -106,7 +106,7 @@ types:
     id: 5493
     marketGroup: 1197
     maxvelocitymodifier: 0.8700000047683716
-    metalevel: 1
+    metalevelold: 1
     name: Type-D Restrained Expanded Cargo
     packagedVolume: 5.0
     portionSize: 1

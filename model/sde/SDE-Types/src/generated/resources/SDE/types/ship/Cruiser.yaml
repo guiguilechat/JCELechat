@@ -135,7 +135,7 @@ types:
     maxvelocity: 208.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Ashimmu
     nosoverride: 1
@@ -321,7 +321,7 @@ types:
     maxvelocity: 215.0
     medslots: 3
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Augoror Navy Issue
     packagedVolume: 10000.0
@@ -675,7 +675,7 @@ types:
     maxvelocity: 210.0
     medslots: 5
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Caracal Navy Issue
     packagedVolume: 10000.0
@@ -851,7 +851,7 @@ types:
     maxvelocity: 263.0
     medslots: 5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Cynabal
     packagedVolume: 10000.0
@@ -1035,7 +1035,7 @@ types:
     maxvelocity: 255.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Exequror Navy Issue
     packagedVolume: 10000.0
@@ -1125,7 +1125,7 @@ types:
     maxvelocity: 195.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Gila
     packagedVolume: 10000.0
@@ -1219,7 +1219,7 @@ types:
     maxvelocity: 180.0
     medslots: 4
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.25
     name: Guardian-Vexor
     packagedVolume: 10000.0
@@ -1571,7 +1571,7 @@ types:
     maxvelocity: 265.0
     medslots: 3
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Omen Navy Issue
     packagedVolume: 10000.0
@@ -1660,7 +1660,7 @@ types:
     maxtargetrange: 20000.0
     maxvelocity: 250.0
     medslots: 3
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.25
     name: Opux Luxury Yacht
     packagedVolume: 10000.0
@@ -1749,7 +1749,7 @@ types:
     maxvelocity: 230.0
     medslots: 5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Orthrus
     packagedVolume: 10000.0
@@ -1935,7 +1935,7 @@ types:
     maxvelocity: 260.0
     medslots: 6
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Osprey Navy Issue
     packagedVolume: 10000.0
@@ -2025,7 +2025,7 @@ types:
     maxvelocity: 228.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Phantasm
     packagedVolume: 10000.0
@@ -2394,7 +2394,7 @@ types:
     maxvelocity: 280.0
     medslots: 5
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Scythe Fleet Issue
     packagedVolume: 10000.0
@@ -2574,7 +2574,7 @@ types:
     maxvelocity: 250.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Stabber Fleet Issue
     packagedVolume: 10000.0
@@ -2750,7 +2750,7 @@ types:
     maxvelocity: 182.0
     medslots: 5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Stratios
     packagedVolume: 10000.0
@@ -2845,7 +2845,7 @@ types:
     maxvelocity: 195.0
     medslots: 5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Stratios Emergency Responder
     packagedVolume: 10000.0
@@ -3205,7 +3205,7 @@ types:
     maxvelocity: 210.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Vexor Navy Issue
     packagedVolume: 10000.0
@@ -3293,7 +3293,7 @@ types:
     maxvelocity: 250.0
     medslots: 1
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.25
     name: Victorieux Luxury Yacht
     packagedVolume: 10000.0
@@ -3383,7 +3383,7 @@ types:
     maxvelocity: 242.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Vigilant
     packagedVolume: 10000.0

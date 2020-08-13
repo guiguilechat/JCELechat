@@ -11,7 +11,7 @@ types:
     id: 18068
     marketGroup: 1039
     maxrange: 10000.0
-    metalevel: 5
+    metalevelold: 5
     miningamount: 120
     name: Modulated Deep Core Miner II
     packagedVolume: 5.0
@@ -44,7 +44,7 @@ types:
     id: 24305
     marketGroup: 1040
     maxrange: 15000.0
-    metalevel: 5
+    metalevelold: 5
     miningamount: 313
     name: Modulated Deep Core Strip Miner II
     packagedVolume: 5.0
@@ -76,7 +76,7 @@ types:
     id: 17912
     marketGroup: 1040
     maxrange: 15000.0
-    metalevel: 5
+    metalevelold: 5
     miningamount: 450
     name: Modulated Strip Miner II
     packagedVolume: 5.0

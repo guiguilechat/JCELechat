@@ -16,7 +16,7 @@ types:
     launchergroup: 507
     marketGroup: 928
     maxvelocity: 3375.0
-    metalevel: 5
+    metalevelold: 5
     name: Inferno Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
@@ -52,7 +52,7 @@ types:
     launchergroup: 507
     marketGroup: 930
     maxvelocity: 1875.0
-    metalevel: 5
+    metalevelold: 5
     name: Inferno Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
@@ -88,7 +88,7 @@ types:
     launchergroup: 507
     marketGroup: 928
     maxvelocity: 3375.0
-    metalevel: 5
+    metalevelold: 5
     name: Mjolnir Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
@@ -124,7 +124,7 @@ types:
     launchergroup: 507
     marketGroup: 930
     maxvelocity: 1875.0
-    metalevel: 5
+    metalevelold: 5
     name: Mjolnir Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
@@ -159,7 +159,7 @@ types:
     launchergroup: 507
     marketGroup: 928
     maxvelocity: 3375.0
-    metalevel: 5
+    metalevelold: 5
     name: Nova Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
@@ -195,7 +195,7 @@ types:
     launchergroup: 507
     marketGroup: 930
     maxvelocity: 1875.0
-    metalevel: 5
+    metalevelold: 5
     name: Nova Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
@@ -230,7 +230,7 @@ types:
     launchergroup: 507
     marketGroup: 928
     maxvelocity: 3375.0
-    metalevel: 5
+    metalevelold: 5
     name: Scourge Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
@@ -266,7 +266,7 @@ types:
     launchergroup: 507
     marketGroup: 930
     maxvelocity: 1875.0
-    metalevel: 5
+    metalevelold: 5
     name: Scourge Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000

@@ -25,7 +25,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadPainterStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -112,7 +112,7 @@ public class TargetPainter
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * 
      */
@@ -170,7 +170,7 @@ public class TargetPainter
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, SignatureRadiusBonus.INSTANCE, OverloadPainterStrengthBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill2Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevel.INSTANCE, RemoteResistanceID.INSTANCE, HeatDamage.INSTANCE, FalloffEffectiveness.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, SignatureRadiusBonus.INSTANCE, OverloadPainterStrengthBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill2Level.INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, RemoteResistanceID.INSTANCE, HeatDamage.INSTANCE, FalloffEffectiveness.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final TargetPainter.MetaGroup METAGROUP = new TargetPainter.MetaGroup();
 
     @Override
@@ -210,7 +210,7 @@ public class TargetPainter
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  1937 :
             {

@@ -57,7 +57,7 @@ types:
     hp: 40.0
     id: 4391
     marketGroup: 611
-    metalevel: 1
+    metalevelold: 1
     name: Large Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -102,7 +102,7 @@ types:
     hp: 40.0
     id: 32772
     marketGroup: 610
-    metalevel: 1
+    metalevelold: 1
     name: Medium Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -130,7 +130,7 @@ types:
     hp: 40.0
     id: 32774
     marketGroup: 609
-    metalevel: 1
+    metalevelold: 1
     name: Small Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10
@@ -175,7 +175,7 @@ types:
     hp: 40.0
     id: 32780
     marketGroup: 612
-    metalevel: 1
+    metalevelold: 1
     name: X-Large Ancillary Shield Booster
     overloadselfdurationbonus: -15.0
     overloadshieldbonus: 10

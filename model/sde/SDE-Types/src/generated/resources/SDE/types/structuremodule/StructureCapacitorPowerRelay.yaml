@@ -20,7 +20,7 @@ types:
     hp: 40.0
     id: 47358
     marketGroup: 2220
-    metalevel: 5
+    metalevelold: 5
     name: Standup Capacitor Power Relay II
     packagedVolume: 4000.0
     portionSize: 1

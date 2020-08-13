@@ -12,7 +12,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 20000.0
-    metalevel: 1
+    metalevelold: 1
     name: Affirmative. Modified Entosis Link
     packagedVolume: 10.0
     portionSize: 1
@@ -73,7 +73,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 50000.0
-    metalevel: 5
+    metalevelold: 5
     name: Entosis Link II
     packagedVolume: 20.0
     portionSize: 1
@@ -104,7 +104,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 20000.0
-    metalevel: 1
+    metalevelold: 1
     name: Noir. Modified Entosis Link
     packagedVolume: 10.0
     portionSize: 1
@@ -135,7 +135,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 24000.0
-    metalevel: 1
+    metalevelold: 1
     name: Pandemic SPHERE Modified Entosis Link
     packagedVolume: 10.0
     portionSize: 1
@@ -166,7 +166,7 @@ types:
     marketGroup: 2018
     maxgroupfitted: 1
     maxrange: 20000.0
-    metalevel: 1
+    metalevelold: 1
     name: Spectre Fleet's Modified Entosis Link
     packagedVolume: 10.0
     portionSize: 1

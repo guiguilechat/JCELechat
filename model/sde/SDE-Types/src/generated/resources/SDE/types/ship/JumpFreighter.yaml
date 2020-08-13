@@ -50,7 +50,7 @@ types:
     marketGroup: 1092
     maxpassengers: 150
     maxvelocity: 78.0
-    metalevel: 5
+    metalevelold: 5
     name: Anshar
     packagedVolume: 1300000.0
     portionSize: 1
@@ -138,7 +138,7 @@ types:
     marketGroup: 1090
     maxpassengers: 150
     maxvelocity: 84.0
-    metalevel: 5
+    metalevelold: 5
     name: Ark
     packagedVolume: 1300000.0
     portionSize: 1
@@ -226,7 +226,7 @@ types:
     marketGroup: 1093
     maxpassengers: 150
     maxvelocity: 96.0
-    metalevel: 5
+    metalevelold: 5
     name: Nomad
     packagedVolume: 1300000.0
     portionSize: 1
@@ -314,7 +314,7 @@ types:
     marketGroup: 1091
     maxpassengers: 150
     maxvelocity: 72.0
-    metalevel: 5
+    metalevelold: 5
     name: Rhea
     packagedVolume: 1300000.0
     portionSize: 1

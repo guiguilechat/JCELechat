@@ -420,7 +420,7 @@ types:
     maxvelocity: 80.0
     medslots: 7
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Revenant
     packagedVolume: 1300000.0
     portionSize: 1
@@ -544,7 +544,7 @@ types:
     maxvelocity: 85.0
     medslots: 5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Vendetta
     packagedVolume: 1300000.0
     portionSize: 1

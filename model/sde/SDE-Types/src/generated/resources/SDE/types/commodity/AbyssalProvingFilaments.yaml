@@ -1,25 +1,28 @@
 types:
-  Event 4 Proving Filament:
+  2v2 Battlecruisers Proving Filament:
     id: 55825
     marketGroup: 2747
-    name: Event 4 Proving Filament
+    name: 2v2 Battlecruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Event 5 Proving Filament:
-    id: 55982
-    marketGroup: 2747
-    name: Event 5 Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Event 6 Proving Filament:
+  2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament:
     id: 55983
     marketGroup: 2747
-    name: Event 6 Proving Filament
+    name: 2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  5v5 Corvette Proving Filament:
+    id: 55982
+    marketGroup: 2747
+    name: 5v5 Corvette Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.10000000149011612

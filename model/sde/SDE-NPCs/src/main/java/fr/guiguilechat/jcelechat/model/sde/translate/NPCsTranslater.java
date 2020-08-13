@@ -25,6 +25,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_corporations_corporation_id_starbases_starbase_id_fuels;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgentTypes;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgents;
+import fr.guiguilechat.jcelechat.model.sde.load.bsd.EinvNames;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
@@ -33,7 +34,6 @@ import fr.guiguilechat.jcelechat.model.sde.npcs.Agent;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Corporation;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer.ItemRef;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 
 public class NPCsTranslater {
@@ -112,9 +112,7 @@ public class NPCsTranslater {
 
 
 		LinkedHashMap<Integer, EnpcCorporations> ecorps = EnpcCorporations.load();
-		Map<Integer, String> agentNames = ObsListHolderImpl
-				.of(esi.universe.names(eagents.stream().mapToInt(a -> a.agentID).toArray()))
-				.toMap(n -> n.id, n -> n.name).get();
+		Map<Integer, String> idx2name = EinvNames.loadById();
 		Map<Integer, R_get_corporations_corporation_id> npcCorps =
 				corporationsHolder.get();
 		Map<Integer, R_get_universe_factions> factionById = factionsHolder.get();
@@ -126,7 +124,7 @@ public class NPCsTranslater {
 			Agent agent = new Agent();
 			agent.corporation = ecorps.get(eagt.corporationID).enName();
 			agent.id = eagt.agentID;
-			agent.name = agentNames.get(eagt.agentID);
+			agent.name = idx2name.get(eagt.agentID);
 			agent.isLocator = eagt.isLocator;
 			agent.level = eagt.level;
 			agent.type = agentTypes.get(eagt.agentTypeID);

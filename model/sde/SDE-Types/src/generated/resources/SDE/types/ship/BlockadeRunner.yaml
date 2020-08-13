@@ -46,7 +46,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 160.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     name: Crane
     packagedVolume: 20000.0
     portionSize: 1
@@ -134,7 +134,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 170.0
     medslots: 2
-    metalevel: 5
+    metalevelold: 5
     name: Prorator
     packagedVolume: 20000.0
     portionSize: 1
@@ -224,7 +224,7 @@ types:
     maxtargetrange: 30000.0
     maxvelocity: 220.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     name: Prowler
     packagedVolume: 20000.0
     portionSize: 1
@@ -313,7 +313,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 165.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     name: Viator
     packagedVolume: 20000.0
     portionSize: 1

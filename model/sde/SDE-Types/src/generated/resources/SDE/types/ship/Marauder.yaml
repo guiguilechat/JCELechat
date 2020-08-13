@@ -47,7 +47,7 @@ types:
     maxtargetrange: 95000.0
     maxvelocity: 100.0
     medslots: 7
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Golem
     packagedVolume: 50000.0
@@ -139,7 +139,7 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 105.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Kronos
     packagedVolume: 50000.0
@@ -232,7 +232,7 @@ types:
     maxtargetrange: 91000.0
     maxvelocity: 100.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Paladin
     packagedVolume: 50000.0
@@ -324,7 +324,7 @@ types:
     maxtargetrange: 81000.0
     maxvelocity: 110.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.5
     name: Vargur
     packagedVolume: 50000.0

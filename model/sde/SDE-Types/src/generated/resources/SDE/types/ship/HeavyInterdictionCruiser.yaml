@@ -42,7 +42,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 220.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Broadsword
     packagedVolume: 10000.0
@@ -131,7 +131,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 215.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Devoter
     packagedVolume: 10000.0
@@ -217,7 +217,7 @@ types:
     maxvelocity: 240.0
     medslots: 7
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.25
     name: Fiend
     packagedVolume: 10000.0
@@ -308,7 +308,7 @@ types:
     maxtargetrange: 80000.0
     maxvelocity: 200.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Onyx
     packagedVolume: 10000.0
@@ -393,7 +393,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 205.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Phobos
     packagedVolume: 10000.0

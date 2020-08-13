@@ -30,7 +30,7 @@ types:
     maxpassengers: 1
     maxtargetrange: 35000.0
     maxvelocity: 300.0
-    metalevel: 6
+    metalevelold: 6
     name: Zephyr
     packagedVolume: 500.0
     portionSize: 1

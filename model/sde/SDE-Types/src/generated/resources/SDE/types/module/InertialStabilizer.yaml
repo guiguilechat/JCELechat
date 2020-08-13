@@ -5,7 +5,7 @@ types:
     id: 1401
     marketGroup: 1086
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Basic'' Inertial Stabilizers'
     packagedVolume: 5.0
     portionSize: 1
@@ -22,7 +22,7 @@ types:
     id: 34481
     marketGroup: 1086
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Inertial Stabilizers
     packagedVolume: 5.0
     portionSize: 1
@@ -53,7 +53,7 @@ types:
     hp: 40.0
     id: 1405
     marketGroup: 1086
-    metalevel: 5
+    metalevelold: 5
     name: Inertial Stabilizers II
     packagedVolume: 5.0
     portionSize: 1
@@ -70,7 +70,7 @@ types:
     id: 34483
     marketGroup: 1086
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Inertial Stabilizers
     packagedVolume: 5.0
     portionSize: 1
@@ -87,7 +87,7 @@ types:
     id: 21498
     marketGroup: 1086
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Synthetic Hull Conversion Inertia Stabilizers
     packagedVolume: 5.0
     portionSize: 1
@@ -103,7 +103,7 @@ types:
     hp: 40.0
     id: 5533
     marketGroup: 1086
-    metalevel: 1
+    metalevelold: 1
     name: Type-D Restrained Inertial Stabilizers
     packagedVolume: 5.0
     portionSize: 1

@@ -16,7 +16,7 @@ types:
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: CONCORD Warp Disruption Field Generator
     overloadselfdurationbonus: -33.29999923706055
     packagedVolume: 50.0
@@ -52,7 +52,7 @@ types:
     id: 37610
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metalevel: 1
+    metalevelold: 1
     name: Clutch Restrained Warp Disruption Field Generator
     overloadselfdurationbonus: -33.29999923706055
     packagedVolume: 50.0
@@ -88,7 +88,7 @@ types:
     id: 37611
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metalevel: 1
+    metalevelold: 1
     name: M-36 Enduring Warp Disruption Field Generator
     overloadselfdurationbonus: -33.29999923706055
     packagedVolume: 50.0
@@ -124,7 +124,7 @@ types:
     id: 37608
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metalevel: 1
+    metalevelold: 1
     name: Pitfall Compact Warp Disruption Field Generator
     overloadselfdurationbonus: -33.29999923706055
     packagedVolume: 50.0
@@ -161,7 +161,7 @@ types:
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Warp Disruption Field Generator
     overloadselfdurationbonus: -33.29999923706055
     packagedVolume: 50.0
@@ -232,7 +232,7 @@ types:
     id: 4248
     marketGroup: 1085
     maxvelocitymultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Warp Disruption Field Generator II
     overloadselfdurationbonus: -33.29999923706055
     packagedVolume: 50.0

@@ -6,7 +6,7 @@ types:
     id: 10188
     marketGroup: 648
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Basic'' Magnetic Field Stabilizer'
     packagedVolume: 5.0
     portionSize: 1
@@ -25,7 +25,7 @@ types:
     id: 22919
     marketGroup: 648
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Monopoly'' Magnetic Field Stabilizer'
     packagedVolume: 5.0
     portionSize: 1
@@ -58,7 +58,7 @@ types:
     id: 15144
     marketGroup: 648
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -77,7 +77,7 @@ types:
     id: 15150
     marketGroup: 648
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Cormack's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -96,7 +96,7 @@ types:
     id: 15895
     marketGroup: 648
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -115,7 +115,7 @@ types:
     id: 44113
     marketGroup: 648
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Kaatara's Custom Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -150,7 +150,7 @@ types:
     hp: 40.0
     id: 10190
     marketGroup: 648
-    metalevel: 5
+    metalevelold: 5
     name: Magnetic Field Stabilizer II
     packagedVolume: 5.0
     portionSize: 1
@@ -169,7 +169,7 @@ types:
     id: 15416
     marketGroup: 648
     metagroupid: 3
-    metalevel: 12
+    metalevelold: 12
     name: Naiyon's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -188,7 +188,7 @@ types:
     id: 15148
     marketGroup: 648
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Setele's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -207,7 +207,7 @@ types:
     id: 13945
     marketGroup: 648
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -226,7 +226,7 @@ types:
     id: 44114
     marketGroup: 648
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Torelle's Custom Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -245,7 +245,7 @@ types:
     id: 15146
     marketGroup: 648
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Tuvan's Modified Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -263,7 +263,7 @@ types:
     hp: 40.0
     id: 11105
     marketGroup: 648
-    metalevel: 1
+    metalevelold: 1
     name: Vortex Compact Magnetic Field Stabilizer
     packagedVolume: 5.0
     portionSize: 1

@@ -14,7 +14,7 @@ types:
     hp: 40.0
     id: 35789
     marketGroup: 2032
-    metalevel: 1
+    metalevelold: 1
     missilevelocitybonus: 4.5
     name: Astro-Inertial Compact Missile Guidance Computer
     overloadtrackingmodulestrengthbonus: 15
@@ -75,7 +75,7 @@ types:
     hp: 40.0
     id: 35790
     marketGroup: 2032
-    metalevel: 5
+    metalevelold: 5
     missilevelocitybonus: 5.5
     name: Missile Guidance Computer II
     overloadtrackingmodulestrengthbonus: 15

@@ -6,7 +6,7 @@ types:
     id: 41459
     marketGroup: 2241
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: CONCORD Capital Shield Extender
     packagedVolume: 1000.0
     portionSize: 1
@@ -25,7 +25,7 @@ types:
     id: 31930
     marketGroup: 608
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Large Shield Extender
     packagedVolume: 20.0
     portionSize: 1
@@ -44,7 +44,7 @@ types:
     id: 31926
     marketGroup: 606
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Medium Shield Extender
     packagedVolume: 10.0
     portionSize: 1
@@ -63,7 +63,7 @@ types:
     id: 31922
     marketGroup: 605
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Small Shield Extender
     packagedVolume: 5.0
     portionSize: 1
@@ -81,7 +81,7 @@ types:
     hp: 40.0
     id: 40355
     marketGroup: 2241
-    metalevel: 1
+    metalevelold: 1
     name: Capital Azeotropic Restrained Shield Extender
     packagedVolume: 1000.0
     portionSize: 1
@@ -99,7 +99,7 @@ types:
     hp: 40.0
     id: 40356
     marketGroup: 2241
-    metalevel: 1
+    metalevelold: 1
     name: Capital F-S9 Regolith Compact Shield Extender
     packagedVolume: 1000.0
     portionSize: 1
@@ -134,7 +134,7 @@ types:
     hp: 40.0
     id: 40357
     marketGroup: 2241
-    metalevel: 5
+    metalevelold: 5
     name: Capital Shield Extender II
     packagedVolume: 1000.0
     portionSize: 1
@@ -153,7 +153,7 @@ types:
     id: 41462
     marketGroup: 2241
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Capital Shield Extender
     packagedVolume: 1000.0
     portionSize: 1
@@ -172,7 +172,7 @@ types:
     id: 41461
     marketGroup: 2241
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Capital Shield Extender
     packagedVolume: 1000.0
     portionSize: 1
@@ -191,7 +191,7 @@ types:
     id: 20631
     marketGroup: 608
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Large 'Sheriff' Shield Extender
     packagedVolume: 20.0
     portionSize: 1
@@ -220,7 +220,7 @@ types:
     hp: 40.0
     id: 8419
     marketGroup: 608
-    metalevel: 1
+    metalevelold: 1
     name: Large Azeotropic Restrained Shield Extender
     packagedVolume: 20.0
     portionSize: 1
@@ -238,7 +238,7 @@ types:
     hp: 40.0
     id: 8529
     marketGroup: 608
-    metalevel: 1
+    metalevelold: 1
     name: Large F-S9 Regolith Compact Shield Extender
     packagedVolume: 20.0
     portionSize: 1
@@ -273,7 +273,7 @@ types:
     hp: 40.0
     id: 3841
     marketGroup: 608
-    metalevel: 5
+    metalevelold: 5
     name: Large Shield Extender II
     packagedVolume: 20.0
     portionSize: 1
@@ -292,7 +292,7 @@ types:
     id: 20629
     marketGroup: 606
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Medium 'Canyon' Shield Extender
     packagedVolume: 10.0
     portionSize: 1
@@ -321,7 +321,7 @@ types:
     hp: 40.0
     id: 8433
     marketGroup: 606
-    metalevel: 1
+    metalevelold: 1
     name: Medium Azeotropic Restrained Shield Extender
     packagedVolume: 10.0
     portionSize: 1
@@ -339,7 +339,7 @@ types:
     hp: 40.0
     id: 8517
     marketGroup: 606
-    metalevel: 1
+    metalevelold: 1
     name: Medium F-S9 Regolith Compact Shield Extender
     packagedVolume: 10.0
     portionSize: 1
@@ -374,7 +374,7 @@ types:
     hp: 40.0
     id: 3831
     marketGroup: 606
-    metalevel: 5
+    metalevelold: 5
     name: Medium Shield Extender II
     packagedVolume: 10.0
     portionSize: 1
@@ -393,7 +393,7 @@ types:
     id: 31932
     marketGroup: 608
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Large Shield Extender
     packagedVolume: 20.0
     portionSize: 1
@@ -412,7 +412,7 @@ types:
     id: 31928
     marketGroup: 606
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Medium Shield Extender
     packagedVolume: 10.0
     portionSize: 1
@@ -431,7 +431,7 @@ types:
     id: 31924
     marketGroup: 605
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Small Shield Extender
     packagedVolume: 5.0
     portionSize: 1
@@ -450,7 +450,7 @@ types:
     id: 20627
     marketGroup: 605
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Small 'Trapper' Shield Extender
     packagedVolume: 2.5
     portionSize: 1
@@ -468,7 +468,7 @@ types:
     id: 20625
     marketGroup: 605
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Small 'Wolf' Shield Extender
     packagedVolume: 5.0
     portionSize: 1
@@ -497,7 +497,7 @@ types:
     hp: 40.0
     id: 8427
     marketGroup: 605
-    metalevel: 1
+    metalevelold: 1
     name: Small Azeotropic Restrained Shield Extender
     packagedVolume: 5.0
     portionSize: 1
@@ -514,7 +514,7 @@ types:
     hp: 40.0
     id: 8521
     marketGroup: 605
-    metalevel: 1
+    metalevelold: 1
     name: Small F-S9 Regolith Compact Shield Extender
     packagedVolume: 5.0
     portionSize: 1
@@ -549,7 +549,7 @@ types:
     hp: 40.0
     id: 380
     marketGroup: 605
-    metalevel: 5
+    metalevelold: 5
     name: Small Shield Extender II
     packagedVolume: 5.0
     portionSize: 1
@@ -568,7 +568,7 @@ types:
     id: 28744
     marketGroup: 608
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Thukker Large Shield Extender
     packagedVolume: 20.0
     portionSize: 1
@@ -587,7 +587,7 @@ types:
     id: 28746
     marketGroup: 606
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Thukker Medium Shield Extender
     packagedVolume: 10.0
     portionSize: 1
@@ -606,7 +606,7 @@ types:
     id: 28742
     marketGroup: 605
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Thukker Small Shield Extender
     packagedVolume: 5.0
     portionSize: 1
@@ -624,7 +624,7 @@ types:
     id: 41460
     marketGroup: 2241
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Capital Shield Extender
     packagedVolume: 1000.0
     portionSize: 1

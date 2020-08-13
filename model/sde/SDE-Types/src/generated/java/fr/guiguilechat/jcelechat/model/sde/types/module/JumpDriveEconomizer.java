@@ -19,7 +19,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantityBonusPercentage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -59,7 +59,7 @@ public class JumpDriveEconomizer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * current power need
      */
@@ -89,7 +89,7 @@ public class JumpDriveEconomizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ConsumptionQuantityBonusPercentage.INSTANCE, CanFitShipGroup01 .INSTANCE, Radius.INSTANCE, CanFitShipGroup02 .INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, MetaLevel.INSTANCE, Hp.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ConsumptionQuantityBonusPercentage.INSTANCE, CanFitShipGroup01 .INSTANCE, Radius.INSTANCE, CanFitShipGroup02 .INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, TechLevel.INSTANCE, RequiredSkill1 .INSTANCE, Capacity.INSTANCE, MetaLevelOld.INSTANCE, Hp.INSTANCE, Power.INSTANCE })));
     public static final JumpDriveEconomizer.MetaGroup METAGROUP = new JumpDriveEconomizer.MetaGroup();
 
     @Override
@@ -109,7 +109,7 @@ public class JumpDriveEconomizer
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  30 :
             {

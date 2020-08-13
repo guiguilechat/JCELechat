@@ -43,7 +43,7 @@ types:
     maxtargetrange: 30500.0
     maxvelocity: 425.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Ares
     packagedVolume: 2500.0
@@ -130,7 +130,7 @@ types:
     maxtargetrange: 22500.0
     maxvelocity: 480.0
     medslots: 2
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Claw
     packagedVolume: 2500.0
@@ -216,7 +216,7 @@ types:
     maxtargetrange: 32500.0
     maxvelocity: 430.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Crow
     packagedVolume: 2500.0
@@ -301,7 +301,7 @@ types:
     maxtargetrange: 25000.0
     maxvelocity: 455.0
     medslots: 2
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Crusader
     packagedVolume: 2500.0
@@ -386,7 +386,7 @@ types:
     maxvelocity: 450.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Imp
     packagedVolume: 2500.0
@@ -476,7 +476,7 @@ types:
     maxtargetrange: 31500.0
     maxvelocity: 470.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Malediction
     packagedVolume: 2500.0
@@ -562,7 +562,7 @@ types:
     maxtargetrange: 27500.0
     maxvelocity: 420.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Raptor
     packagedVolume: 2500.0
@@ -648,7 +648,7 @@ types:
     maxtargetrange: 29500.0
     maxvelocity: 435.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Stiletto
     packagedVolume: 2500.0
@@ -736,7 +736,7 @@ types:
     maxtargetrange: 22500.0
     maxvelocity: 420.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Taranis
     packagedVolume: 2500.0
@@ -823,7 +823,7 @@ types:
     maxtargetrange: 32500.0
     maxvelocity: 430.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Whiptail
     packagedVolume: 2500.0

@@ -44,7 +44,7 @@ types:
     maxtargetrange: 130000.0
     maxvelocity: 205.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     name: Curse
     packagedVolume: 10000.0
     portionSize: 1
@@ -131,7 +131,7 @@ types:
     maxtargetrange: 125000.0
     maxvelocity: 240.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     name: Huginn
     packagedVolume: 10000.0
     portionSize: 1
@@ -218,7 +218,7 @@ types:
     maxtargetrange: 140000.0
     maxvelocity: 220.0
     medslots: 7
-    metalevel: 5
+    metalevelold: 5
     name: Lachesis
     packagedVolume: 10000.0
     portionSize: 1
@@ -304,7 +304,7 @@ types:
     maxtargetrange: 150000.0
     maxvelocity: 194.0
     medslots: 7
-    metalevel: 5
+    metalevelold: 5
     name: Rook
     packagedVolume: 10000.0
     portionSize: 1

@@ -21,7 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MassBonusPercentage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
@@ -69,7 +69,7 @@ public class RigAnchor
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * 
      */
@@ -106,7 +106,7 @@ public class RigAnchor
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpbubbleimmunemodifier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, WarpBubbleImmuneModifier.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MassBonusPercentage.INSTANCE, Drawback.INSTANCE, AgilityBonus.INSTANCE, MetaLevel.INSTANCE, VelocityBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, WarpBubbleImmuneModifier.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MassBonusPercentage.INSTANCE, Drawback.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, VelocityBonus.INSTANCE })));
     public static final RigAnchor.MetaGroup METAGROUP = new RigAnchor.MetaGroup();
 
     @Override
@@ -130,7 +130,7 @@ public class RigAnchor
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  1547 :
             {

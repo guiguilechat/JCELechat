@@ -44,7 +44,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 140.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     miningamountmultiplier: 1.0
     miningdurationrolebonus: -25
     mintargetveldmgmultiplier: 0.05000000074505806
@@ -133,7 +133,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 90.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Mackinaw
@@ -222,7 +222,7 @@ types:
     maxtargetrange: 35000.0
     maxvelocity: 200.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     miningamountmultiplier: 1.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Skiff

@@ -10,7 +10,7 @@ types:
     hp: 40.0
     id: 8105
     marketGroup: 642
-    metalevel: 4
+    metalevelold: 4
     name: '''Arbalest'' Heavy Missile Launcher'
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -41,7 +41,7 @@ types:
     hp: 40.0
     id: 8101
     marketGroup: 642
-    metalevel: 1
+    metalevelold: 1
     name: '''Malkuth'' Heavy Missile Launcher I'
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -74,7 +74,7 @@ types:
     id: 20599
     marketGroup: 642
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Undertaker'' Heavy Missile Launcher'
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -105,7 +105,7 @@ types:
     hp: 40.0
     id: 8103
     marketGroup: 642
-    metalevel: 2
+    metalevelold: 2
     name: Advanced 'Limos' Heavy Missile Bay I
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -138,7 +138,7 @@ types:
     id: 16064
     marketGroup: 642
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -171,7 +171,7 @@ types:
     id: 13921
     marketGroup: 642
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     name: Domination Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -204,7 +204,7 @@ types:
     id: 13922
     marketGroup: 642
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -266,7 +266,7 @@ types:
     hp: 40.0
     id: 2410
     marketGroup: 642
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Missile Launcher II
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -299,7 +299,7 @@ types:
     id: 17487
     marketGroup: 642
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     name: Republic Fleet Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -332,7 +332,7 @@ types:
     id: 22567
     marketGroup: 642
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     name: True Sansha Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 10.0
@@ -363,7 +363,7 @@ types:
     hp: 40.0
     id: 7997
     marketGroup: 642
-    metalevel: 3
+    metalevelold: 3
     name: XR-3200 Heavy Missile Bay
     overloadrofbonus: -15
     packagedVolume: 10.0

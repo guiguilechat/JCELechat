@@ -40,7 +40,7 @@ types:
     maxsubsystems: 5
     maxtargetrange: 70000.0
     maxvelocity: 185.0
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Legion
     packagedVolume: 5000.0
@@ -128,7 +128,7 @@ types:
     maxsubsystems: 5
     maxtargetrange: 65000.0
     maxvelocity: 185.0
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Loki
     packagedVolume: 5000.0
@@ -216,7 +216,7 @@ types:
     maxsubsystems: 5
     maxtargetrange: 70000.0
     maxvelocity: 180.0
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Proteus
     packagedVolume: 5000.0
@@ -304,7 +304,7 @@ types:
     maxsubsystems: 5
     maxtargetrange: 75000.0
     maxvelocity: 170.0
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Tengu
     packagedVolume: 5000.0

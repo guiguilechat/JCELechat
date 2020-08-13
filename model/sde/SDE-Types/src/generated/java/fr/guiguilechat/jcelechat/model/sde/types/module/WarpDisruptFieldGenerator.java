@@ -31,7 +31,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MassBonusPercentage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSelfDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -166,7 +166,7 @@ public class WarpDisruptFieldGenerator
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * 
      */
@@ -266,7 +266,7 @@ public class WarpDisruptFieldGenerator
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, SpeedFactorBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowAssistance.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, SignatureRadiusBonus.INSTANCE, MassBonusPercentage.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, SpeedBoostFactorBonus.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevel.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, ActivationBlockedStrenght.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, SpeedFactorBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowAssistance.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, SignatureRadiusBonus.INSTANCE, MassBonusPercentage.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, SpeedBoostFactorBonus.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MaxVelocityMultiplier.INSTANCE })));
     public static final WarpDisruptFieldGenerator.MetaGroup METAGROUP = new WarpDisruptFieldGenerator.MetaGroup();
 
     @Override
@@ -330,7 +330,7 @@ public class WarpDisruptFieldGenerator
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  1206 :
             {

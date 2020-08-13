@@ -36,7 +36,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: '''Draccous'' Fortizar'
     packagedVolume: 80000.0
     portionSize: 1
@@ -120,7 +120,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: '''Horizon'' Fortizar'
     packagedVolume: 80000.0
     portionSize: 1
@@ -204,7 +204,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: '''Marginis'' Fortizar'
     packagedVolume: 80000.0
     portionSize: 1
@@ -288,7 +288,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: '''Moreau'' Fortizar'
     packagedVolume: 80000.0
     portionSize: 1
@@ -373,7 +373,7 @@ types:
     maxtargetrange: 380000.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: '''Prometheus'' Fortizar'
     packagedVolume: 80000.0
     portionSize: 1
@@ -702,7 +702,7 @@ types:
     maxtargetrange: 420000.0
     medslots: 8
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell Palatine Keepstar
     packagedVolume: 800000.0
     portionSize: 1

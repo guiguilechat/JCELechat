@@ -27,7 +27,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.LauncherGroup;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -126,7 +126,7 @@ public class AdvancedArtilleryAmmo
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * The type ID of the skill that is required.
      */
@@ -177,7 +177,7 @@ public class AdvancedArtilleryAmmo
     @Stackable(true)
     @DefaultDoubleValue(1.0)
     public double weaponrangemultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, Mass.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, MaxVelocityModifier.INSTANCE, EmDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, RequiredSkill1Level.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevel.INSTANCE, MainColor.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, Mass.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, LauncherGroup.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, MaxVelocityModifier.INSTANCE, EmDamage.INSTANCE, TrackingSpeedMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, RequiredSkill1Level.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE })));
     public static final AdvancedArtilleryAmmo.MetaGroup METAGROUP = new AdvancedArtilleryAmmo.MetaGroup();
 
     @Override
@@ -229,7 +229,7 @@ public class AdvancedArtilleryAmmo
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  182 :
             {

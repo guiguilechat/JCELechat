@@ -13,7 +13,7 @@ types:
     marketGroup: 1426
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 1
+    metalevelold: 1
     name: Target Spectrum Breaker
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0

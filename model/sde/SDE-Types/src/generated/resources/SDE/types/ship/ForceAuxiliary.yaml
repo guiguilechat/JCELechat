@@ -180,7 +180,7 @@ types:
     maxvelocity: 85.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dagon
     nosoverride: 1
     packagedVolume: 1300000.0
@@ -420,7 +420,7 @@ types:
     maxvelocity: 80.0
     medslots: 8
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Loggerhead
     packagedVolume: 1300000.0
     portionSize: 1

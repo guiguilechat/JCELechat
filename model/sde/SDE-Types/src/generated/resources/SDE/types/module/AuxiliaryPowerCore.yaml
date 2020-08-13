@@ -19,7 +19,7 @@ types:
     hp: 40.0
     id: 4254
     marketGroup: 660
-    metalevel: 5
+    metalevelold: 5
     name: Micro Auxiliary Power Core II
     packagedVolume: 20.0
     portionSize: 1
@@ -36,7 +36,7 @@ types:
     id: 31936
     marketGroup: 660
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Navy Micro Auxiliary Power Core
     packagedVolume: 20.0
     portionSize: 1
@@ -53,7 +53,7 @@ types:
     id: 28740
     marketGroup: 660
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Thukker Micro Auxiliary Power Core
     packagedVolume: 5.0
     portionSize: 1
@@ -69,7 +69,7 @@ types:
     hp: 40.0
     id: 16537
     marketGroup: 660
-    metalevel: 1
+    metalevelold: 1
     name: Vigor Compact Micro Auxiliary Power Core
     packagedVolume: 5.0
     portionSize: 1

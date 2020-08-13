@@ -33,7 +33,7 @@ types:
     id: 30834
     marketGroup: 1718
     maxrange: 6000.0
-    metalevel: 5
+    metalevelold: 5
     name: Data Analyzer II
     packagedVolume: 5.0
     portionSize: 1
@@ -85,7 +85,7 @@ types:
     marketGroup: 1718
     maxrange: 5000.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Ligature Integrated Analyzer
     packagedVolume: 5.0
     portionSize: 1
@@ -112,7 +112,7 @@ types:
     id: 3581
     marketGroup: 1718
     maxrange: 10000.0
-    metalevel: 6
+    metalevelold: 6
     name: Purloined Sansha Data Analyzer
     packagedVolume: 5.0
     portionSize: 1
@@ -160,7 +160,7 @@ types:
     id: 30832
     marketGroup: 1718
     maxrange: 6000.0
-    metalevel: 5
+    metalevelold: 5
     name: Relic Analyzer II
     packagedVolume: 5.0
     portionSize: 1
@@ -186,7 +186,7 @@ types:
     marketGroup: 1718
     maxrange: 6000.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Zeugma Integrated Analyzer
     packagedVolume: 5.0
     portionSize: 1

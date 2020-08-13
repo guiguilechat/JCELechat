@@ -10,7 +10,7 @@ types:
     maincolor: 11835778
     marketGroup: 854
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Quake L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
@@ -35,7 +35,7 @@ types:
     maincolor: 11835778
     marketGroup: 855
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Quake M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
@@ -60,7 +60,7 @@ types:
     maincolor: 11835778
     marketGroup: 856
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Quake S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
@@ -85,7 +85,7 @@ types:
     maincolor: 11835778
     marketGroup: 2252
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Quake XL
     packagedVolume: 0.125
     portionSize: 100
@@ -110,7 +110,7 @@ types:
     maincolor: 11835778
     marketGroup: 854
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Tremor L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
@@ -135,7 +135,7 @@ types:
     maincolor: 11835778
     marketGroup: 855
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Tremor M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
@@ -160,7 +160,7 @@ types:
     maincolor: 11835778
     marketGroup: 856
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Tremor S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
@@ -185,7 +185,7 @@ types:
     maincolor: 11835778
     marketGroup: 2252
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Tremor XL
     packagedVolume: 0.125
     portionSize: 100

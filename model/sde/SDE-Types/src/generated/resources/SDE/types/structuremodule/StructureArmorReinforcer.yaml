@@ -20,7 +20,7 @@ types:
     hp: 40.0
     id: 47362
     marketGroup: 2414
-    metalevel: 5
+    metalevelold: 5
     name: Standup Layered Armor Plating II
     packagedVolume: 4000.0
     portionSize: 1

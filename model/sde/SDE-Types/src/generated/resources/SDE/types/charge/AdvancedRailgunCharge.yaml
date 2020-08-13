@@ -8,7 +8,7 @@ types:
     maincolor: 11835778
     marketGroup: 863
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Javelin L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
@@ -33,7 +33,7 @@ types:
     maincolor: 11835778
     marketGroup: 864
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Javelin M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
@@ -58,7 +58,7 @@ types:
     maincolor: 11835778
     marketGroup: 865
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Javelin S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
@@ -83,7 +83,7 @@ types:
     maincolor: 11835778
     marketGroup: 2255
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Javelin XL
     packagedVolume: 0.125
     portionSize: 100
@@ -108,7 +108,7 @@ types:
     maincolor: 11835778
     marketGroup: 863
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Spike L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
@@ -133,7 +133,7 @@ types:
     maincolor: 11835778
     marketGroup: 864
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Spike M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
@@ -158,7 +158,7 @@ types:
     maincolor: 11835778
     marketGroup: 865
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Spike S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
@@ -183,7 +183,7 @@ types:
     maincolor: 11835778
     marketGroup: 2255
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Spike XL
     packagedVolume: 0.125
     portionSize: 100

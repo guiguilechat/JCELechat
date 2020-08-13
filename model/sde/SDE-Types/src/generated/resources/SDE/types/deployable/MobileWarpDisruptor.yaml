@@ -29,7 +29,7 @@ types:
     hp: 144000.0
     id: 26888
     marketGroup: 405
-    metalevel: 5
+    metalevelold: 5
     name: Mobile Large Warp Disruptor II
     packagedVolume: 585.0
     portionSize: 1
@@ -76,7 +76,7 @@ types:
     hp: 36000.0
     id: 26890
     marketGroup: 405
-    metalevel: 5
+    metalevelold: 5
     name: Mobile Medium Warp Disruptor II
     packagedVolume: 195.0
     portionSize: 1
@@ -123,7 +123,7 @@ types:
     hp: 8400.0
     id: 26892
     marketGroup: 405
-    metalevel: 5
+    metalevelold: 5
     name: Mobile Small Warp Disruptor II
     packagedVolume: 65.0
     portionSize: 1
@@ -148,7 +148,7 @@ types:
     id: 28770
     marketGroup: 405
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     name: Syndicate Mobile Large Warp Disruptor
     packagedVolume: 585.0
     portionSize: 1
@@ -173,7 +173,7 @@ types:
     id: 28772
     marketGroup: 405
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     name: Syndicate Mobile Medium Warp Disruptor
     packagedVolume: 195.0
     portionSize: 1
@@ -198,7 +198,7 @@ types:
     id: 28774
     marketGroup: 405
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     name: Syndicate Mobile Small Warp Disruptor
     packagedVolume: 65.0
     portionSize: 1

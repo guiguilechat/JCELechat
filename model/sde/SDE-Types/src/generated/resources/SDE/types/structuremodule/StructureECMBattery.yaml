@@ -15,7 +15,7 @@ types:
     marketGroup: 2211
     maxrange: 97500.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Standup Variable Spectrum ECM
     packagedVolume: 4000.0
     portionSize: 1
@@ -76,7 +76,7 @@ types:
     id: 47338
     marketGroup: 2211
     maxrange: 90000.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Variable Spectrum ECM II
     packagedVolume: 4000.0
     portionSize: 1

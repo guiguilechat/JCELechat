@@ -213,7 +213,7 @@ types:
     maxvelocity: 94.0
     medslots: 5
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.5
     name: Apocalypse Imperial Issue
     packagedVolume: 50000.0
@@ -299,7 +299,7 @@ types:
     maxvelocity: 120.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.5
     name: Apocalypse Navy Issue
     packagedVolume: 50000.0
@@ -472,7 +472,7 @@ types:
     maxvelocity: 94.0
     medslots: 4
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.5
     name: Armageddon Imperial Issue
     packagedVolume: 50000.0
@@ -558,7 +558,7 @@ types:
     maxvelocity: 105.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.5
     name: Armageddon Navy Issue
     packagedVolume: 50000.0
@@ -646,7 +646,7 @@ types:
     maxvelocity: 148.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Barghest
     packagedVolume: 50000.0
@@ -736,7 +736,7 @@ types:
     maxvelocity: 101.0
     medslots: 5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Bhaalgorn
     nosoverride: 1
@@ -912,7 +912,7 @@ types:
     maxvelocity: 110.0
     medslots: 6
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.5
     name: Dominix Navy Issue
     packagedVolume: 50000.0
@@ -1175,7 +1175,7 @@ types:
     maxvelocity: 161.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Machariel
     packagedVolume: 50000.0
@@ -1438,7 +1438,7 @@ types:
     maxvelocity: 115.0
     medslots: 5
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.5
     name: Megathron Federate Issue
     packagedVolume: 50000.0
@@ -1527,7 +1527,7 @@ types:
     maxvelocity: 130.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.5
     name: Megathron Navy Issue
     packagedVolume: 50000.0
@@ -1618,7 +1618,7 @@ types:
     maxvelocity: 70.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Nestor
     packagedVolume: 50000.0
@@ -1711,7 +1711,7 @@ types:
     maxvelocity: 114.0
     medslots: 7
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Nightmare
     packagedVolume: 50000.0
@@ -1802,7 +1802,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 75.0
     medslots: 7
-    metalevel: 4
+    metalevelold: 4
     mintargetveldmgmultiplier: 0.5
     name: Praxis
     packagedVolume: 50000.0
@@ -1892,7 +1892,7 @@ types:
     maxvelocity: 94.0
     medslots: 7
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Rattlesnake
     packagedVolume: 50000.0
@@ -2070,7 +2070,7 @@ types:
     maxvelocity: 123.0
     medslots: 7
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.5
     name: Raven Navy Issue
     packagedVolume: 50000.0
@@ -2158,7 +2158,7 @@ types:
     maxvelocity: 94.0
     medslots: 6
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.5
     name: Raven State Issue
     packagedVolume: 50000.0
@@ -2419,7 +2419,7 @@ types:
     maxvelocity: 103.0
     medslots: 8
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.5
     name: Scorpion Navy Issue
     packagedVolume: 50000.0
@@ -2593,7 +2593,7 @@ types:
     maxvelocity: 130.0
     medslots: 5
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.5
     name: Tempest Fleet Issue
     packagedVolume: 50000.0
@@ -2681,7 +2681,7 @@ types:
     maxvelocity: 120.0
     medslots: 6
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.5
     name: Tempest Tribal Issue
     packagedVolume: 50000.0
@@ -2939,7 +2939,7 @@ types:
     maxvelocity: 138.0
     medslots: 5
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.5
     name: Typhoon Fleet Issue
     packagedVolume: 50000.0
@@ -3026,7 +3026,7 @@ types:
     maxvelocity: 132.0
     medslots: 5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Vindicator
     packagedVolume: 50000.0

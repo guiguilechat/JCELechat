@@ -27,7 +27,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.IsHacking;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
@@ -129,7 +129,7 @@ public class DataMiners
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * current power need
      */
@@ -194,7 +194,7 @@ public class DataMiners
     @Stackable(true)
     @DefaultIntValue(0)
     public int virusstrength;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, AccessDifficultyBonus.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, VirusCoherence.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, MaxRange.INSTANCE, VirusStrength.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, VirusElementSlots.INSTANCE, MetaLevel.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, AccessDifficultyBonus.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, Cpu.INSTANCE, IsHacking.INSTANCE, IsArcheology.INSTANCE, VirusCoherence.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DisallowRepeatingActivation.INSTANCE, MaxRange.INSTANCE, VirusStrength.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, VirusElementSlots.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final DataMiners.MetaGroup METAGROUP = new DataMiners.MetaGroup();
 
     @Override
@@ -242,7 +242,7 @@ public class DataMiners
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  30 :
             {

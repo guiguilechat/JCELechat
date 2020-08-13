@@ -42,7 +42,7 @@ types:
     marketGroup: 2229
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     name: Standup Guided Bomb Launcher II
     onlinemaxsecurityclass: 1
     packagedVolume: 8000.0

@@ -9,7 +9,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 860
-    metalevel: 5
+    metalevelold: 5
     name: Null L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
@@ -35,7 +35,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 861
-    metalevel: 5
+    metalevelold: 5
     name: Null M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
@@ -61,7 +61,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 862
-    metalevel: 5
+    metalevelold: 5
     name: Null S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
@@ -87,7 +87,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2254
-    metalevel: 5
+    metalevelold: 5
     name: Null XL
     packagedVolume: 0.125
     portionSize: 100
@@ -114,7 +114,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 860
-    metalevel: 5
+    metalevelold: 5
     name: Void L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
@@ -141,7 +141,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 861
-    metalevel: 5
+    metalevelold: 5
     name: Void M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
@@ -168,7 +168,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 862
-    metalevel: 5
+    metalevelold: 5
     name: Void S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
@@ -195,7 +195,7 @@ types:
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2254
-    metalevel: 5
+    metalevelold: 5
     name: Void XL
     packagedVolume: 0.125
     portionSize: 100

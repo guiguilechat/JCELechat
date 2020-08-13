@@ -17,7 +17,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Inferno Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -53,7 +53,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Mjolnir Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -88,7 +88,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -123,7 +123,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Scourge Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -157,7 +157,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Inferno Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -193,7 +193,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Mjolnir Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -228,7 +228,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -263,7 +263,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Scourge Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -297,7 +297,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Inferno Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -333,7 +333,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Mjolnir Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -368,7 +368,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
@@ -403,7 +403,7 @@ types:
     marketGroup: 1001
     maxvelocity: 4700.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Scourge Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100

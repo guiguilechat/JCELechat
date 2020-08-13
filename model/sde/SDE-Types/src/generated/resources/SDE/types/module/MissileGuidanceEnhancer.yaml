@@ -26,7 +26,7 @@ types:
     hp: 40.0
     id: 35771
     marketGroup: 2033
-    metalevel: 5
+    metalevelold: 5
     missilevelocitybonus: 6.0
     name: Missile Guidance Enhancer II
     packagedVolume: 5.0
@@ -46,7 +46,7 @@ types:
     hp: 40.0
     id: 35774
     marketGroup: 2033
-    metalevel: 1
+    metalevelold: 1
     missilevelocitybonus: 5.5
     name: Pro-Nav Compact Missile Guidance Enhancer
     packagedVolume: 5.0

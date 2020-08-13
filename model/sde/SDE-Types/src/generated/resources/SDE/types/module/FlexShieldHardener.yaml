@@ -48,7 +48,7 @@ types:
     kineticdamageresistancebonus: -19.0
     marketGroup: 2246
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     name: Capital Flex Shield Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 1000.0
@@ -83,7 +83,7 @@ types:
     marketGroup: 2246
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Capital Flex Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 1000.0
@@ -118,7 +118,7 @@ types:
     marketGroup: 2246
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Capital Flex Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 1000.0
@@ -153,7 +153,7 @@ types:
     marketGroup: 2246
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Capital Flex Shield Hardener
     overloadhardeningbonus: 20
     packagedVolume: 1000.0

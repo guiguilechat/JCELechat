@@ -28,7 +28,7 @@ types:
     hp: 40.0
     id: 1855
     marketGroup: 713
-    metalevel: 5
+    metalevelold: 5
     name: Ship Scanner II
     packagedVolume: 5.0
     portionSize: 1
@@ -50,7 +50,7 @@ types:
     hp: 40.0
     id: 6527
     marketGroup: 713
-    metalevel: 1
+    metalevelold: 1
     name: Ta3 Compact Ship Scanner
     packagedVolume: 5.0
     portionSize: 1

@@ -14,7 +14,7 @@ types:
     marketGroup: 706
     maxrangebonus: 7.5
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Marketeer'' Tracking Computer'
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -45,7 +45,7 @@ types:
     marketGroup: 706
     maxrangebonus: 8.699999809265137
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -76,7 +76,7 @@ types:
     marketGroup: 706
     maxrangebonus: 9.899999618530273
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Cormack's Modified Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -106,7 +106,7 @@ types:
     id: 6176
     marketGroup: 706
     maxrangebonus: 6.0
-    metalevel: 1
+    metalevelold: 1
     name: F-12 Enduring Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -137,7 +137,7 @@ types:
     marketGroup: 706
     maxrangebonus: 8.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -167,7 +167,7 @@ types:
     id: 6173
     marketGroup: 706
     maxrangebonus: 6.0
-    metalevel: 1
+    metalevelold: 1
     name: Optical Compact Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -198,7 +198,7 @@ types:
     marketGroup: 706
     maxrangebonus: 9.5
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Setele's Modified Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -229,7 +229,7 @@ types:
     marketGroup: 706
     maxrangebonus: 8.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -288,7 +288,7 @@ types:
     id: 1978
     marketGroup: 706
     maxrangebonus: 7.5
-    metalevel: 5
+    metalevelold: 5
     name: Tracking Computer II
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -319,7 +319,7 @@ types:
     marketGroup: 706
     maxrangebonus: 9.100000381469727
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Tuvan's Modified Tracking Computer
     overloadtrackingmodulestrengthbonus: 15
     packagedVolume: 5.0

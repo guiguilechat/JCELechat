@@ -35,7 +35,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Arkonor Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -86,7 +86,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Bistot Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -137,7 +137,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Common Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -188,7 +188,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Crokite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -239,7 +239,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Dark Ochre Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -290,7 +290,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Exceptional Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -341,7 +341,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Gneiss Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -392,7 +392,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Hedbergite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -443,7 +443,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Hemorphite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -494,7 +494,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Jaspet Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -545,7 +545,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Kernite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -594,7 +594,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Omber Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -645,7 +645,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Plagioclase Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -696,7 +696,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Pyroxeres Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -747,7 +747,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Rare Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -798,7 +798,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Scordite Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -849,7 +849,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Spodumain Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -900,7 +900,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Ubiquitous Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -951,7 +951,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Uncommon Moon Ore Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1
@@ -1002,7 +1002,7 @@ types:
     launchergroup: 483
     maincolor: 5215864
     marketGroup: 593
-    metalevel: 5
+    metalevelold: 5
     name: Veldspar Mining Crystal II
     packagedVolume: 10.0
     portionSize: 1

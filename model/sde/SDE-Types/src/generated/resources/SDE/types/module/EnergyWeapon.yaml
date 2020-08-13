@@ -16,7 +16,7 @@ types:
     marketGroup: 568
     maxrange: 22000.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Arquebus'' Heavy Beam Laser I'
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -54,7 +54,7 @@ types:
     marketGroup: 569
     maxrange: 44000.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Ballista'' Tachyon Beam Laser I'
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -92,7 +92,7 @@ types:
     marketGroup: 569
     maxrange: 40000.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Catapult'' Mega Beam Laser I'
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -130,7 +130,7 @@ types:
     marketGroup: 568
     maxrange: 19250.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Crossbow'' Focused Medium Beam Laser I'
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -168,7 +168,7 @@ types:
     marketGroup: 567
     maxrange: 11000.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Gauntlet'' Small Focused Beam Laser I'
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -243,7 +243,7 @@ types:
     marketGroup: 572
     maxrange: 10500.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Joust'' Heavy Pulse Laser I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -281,7 +281,7 @@ types:
     marketGroup: 570
     maxrange: 5250.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Longbow'' Small Focused Pulse Laser I'
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -319,7 +319,7 @@ types:
     marketGroup: 567
     maxrange: 9625.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Mace'' Dual Light Beam Laser I'
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -355,7 +355,7 @@ types:
     id: 41117
     marketGroup: 773
     maxrange: 100000.0
-    metalevel: 1
+    metalevelold: 1
     name: Afocal Precise Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -391,7 +391,7 @@ types:
     id: 41102
     marketGroup: 774
     maxrange: 42000.0
-    metalevel: 1
+    metalevelold: 1
     name: Afocal Precise Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -428,7 +428,7 @@ types:
     id: 41065
     marketGroup: 774
     maxrange: 33000.0
-    metalevel: 1
+    metalevelold: 1
     name: Afocal Precise Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -468,7 +468,7 @@ types:
     marketGroup: 573
     maxrange: 22680.0
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Ahremen's Modified Dual Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -506,7 +506,7 @@ types:
     marketGroup: 573
     maxrange: 25200.0
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Ahremen's Modified Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -544,7 +544,7 @@ types:
     marketGroup: 569
     maxrange: 42000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Dual Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -582,7 +582,7 @@ types:
     marketGroup: 573
     maxrange: 22680.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Dual Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -620,7 +620,7 @@ types:
     marketGroup: 567
     maxrange: 12032.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Dual Light Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -658,7 +658,7 @@ types:
     marketGroup: 570
     maxrange: 5906.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Dual Light Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -696,7 +696,7 @@ types:
     marketGroup: 568
     maxrange: 24063.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Focused Medium Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -734,7 +734,7 @@ types:
     marketGroup: 572
     maxrange: 11813.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Focused Medium Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -772,7 +772,7 @@ types:
     marketGroup: 570
     maxrange: 5250.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Gatling Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -810,7 +810,7 @@ types:
     marketGroup: 568
     maxrange: 27500.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -848,7 +848,7 @@ types:
     marketGroup: 572
     maxrange: 13125.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -886,7 +886,7 @@ types:
     marketGroup: 569
     maxrange: 48000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Mega Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -924,7 +924,7 @@ types:
     marketGroup: 573
     maxrange: 25200.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -962,7 +962,7 @@ types:
     marketGroup: 568
     maxrange: 11000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Quad Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1000,7 +1000,7 @@ types:
     marketGroup: 567
     maxrange: 13750.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Small Focused Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1038,7 +1038,7 @@ types:
     marketGroup: 570
     maxrange: 6563.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Small Focused Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1076,7 +1076,7 @@ types:
     marketGroup: 569
     maxrange: 52800.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Tachyon Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1112,7 +1112,7 @@ types:
     id: 41116
     marketGroup: 773
     maxrange: 105000.0
-    metalevel: 1
+    metalevelold: 1
     name: Anode Scoped Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1148,7 +1148,7 @@ types:
     id: 41101
     marketGroup: 774
     maxrange: 44100.0
-    metalevel: 1
+    metalevelold: 1
     name: Anode Scoped Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1185,7 +1185,7 @@ types:
     id: 41064
     marketGroup: 774
     maxrange: 34650.0
-    metalevel: 1
+    metalevelold: 1
     name: Anode Scoped Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1225,7 +1225,7 @@ types:
     marketGroup: 573
     maxrange: 22680.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Brokara's Modified Dual Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1263,7 +1263,7 @@ types:
     marketGroup: 573
     maxrange: 25200.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Brokara's Modified Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1302,7 +1302,7 @@ types:
     marketGroup: 773
     maxrange: 110000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: CONCORD Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1340,7 +1340,7 @@ types:
     marketGroup: 774
     maxrange: 46200.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: CONCORD Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1378,7 +1378,7 @@ types:
     marketGroup: 569
     maxrange: 42000.0
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Chelm's Modified Dual Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1416,7 +1416,7 @@ types:
     marketGroup: 569
     maxrange: 48000.0
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Chelm's Modified Mega Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1454,7 +1454,7 @@ types:
     marketGroup: 569
     maxrange: 52800.0
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Chelm's Modified Tachyon Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1492,7 +1492,7 @@ types:
     marketGroup: 773
     maxrange: 110000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1530,7 +1530,7 @@ types:
     marketGroup: 774
     maxrange: 46200.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1568,7 +1568,7 @@ types:
     marketGroup: 569
     maxrange: 42000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Dual Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1606,7 +1606,7 @@ types:
     marketGroup: 573
     maxrange: 22680.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Dual Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1644,7 +1644,7 @@ types:
     marketGroup: 567
     maxrange: 12032.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Dual Light Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1682,7 +1682,7 @@ types:
     marketGroup: 570
     maxrange: 5906.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Dual Light Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1720,7 +1720,7 @@ types:
     marketGroup: 568
     maxrange: 24063.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Focused Medium Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1758,7 +1758,7 @@ types:
     marketGroup: 572
     maxrange: 11813.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Focused Medium Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1796,7 +1796,7 @@ types:
     marketGroup: 570
     maxrange: 5250.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Gatling Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1834,7 +1834,7 @@ types:
     marketGroup: 568
     maxrange: 27500.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1872,7 +1872,7 @@ types:
     marketGroup: 572
     maxrange: 13125.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1910,7 +1910,7 @@ types:
     marketGroup: 569
     maxrange: 48000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Mega Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -1948,7 +1948,7 @@ types:
     marketGroup: 573
     maxrange: 25200.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -1986,7 +1986,7 @@ types:
     marketGroup: 568
     maxrange: 11000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Quad Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2025,7 +2025,7 @@ types:
     marketGroup: 774
     maxrange: 36300.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2065,7 +2065,7 @@ types:
     marketGroup: 567
     maxrange: 13750.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Small Focused Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2103,7 +2103,7 @@ types:
     marketGroup: 570
     maxrange: 6563.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Small Focused Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2141,7 +2141,7 @@ types:
     marketGroup: 569
     maxrange: 52800.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Tachyon Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2179,7 +2179,7 @@ types:
     marketGroup: 569
     maxrange: 42000.0
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Draclira's Modified Dual Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2217,7 +2217,7 @@ types:
     marketGroup: 569
     maxrange: 48000.0
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Draclira's Modified Mega Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2255,7 +2255,7 @@ types:
     marketGroup: 569
     maxrange: 52800.0
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Draclira's Modified Tachyon Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2291,7 +2291,7 @@ types:
     id: 7045
     marketGroup: 569
     maxrange: 36750.0
-    metalevel: 1
+    metalevelold: 1
     name: Dual Afocal Heavy Maser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2327,7 +2327,7 @@ types:
     id: 6633
     marketGroup: 567
     maxrange: 10107.0
-    metalevel: 1
+    metalevelold: 1
     name: Dual Afocal Light Maser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2363,7 +2363,7 @@ types:
     id: 5217
     marketGroup: 570
     maxrange: 4961.0
-    metalevel: 1
+    metalevelold: 1
     name: Dual Afocal Pulse Maser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2399,7 +2399,7 @@ types:
     id: 7049
     marketGroup: 569
     maxrange: 40250.0
-    metalevel: 3
+    metalevelold: 3
     name: Dual Anode Heavy Particle Stream I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2435,7 +2435,7 @@ types:
     id: 6637
     marketGroup: 567
     maxrange: 11069.0
-    metalevel: 3
+    metalevelold: 3
     name: Dual Anode Light Particle Stream I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2471,7 +2471,7 @@ types:
     id: 5221
     marketGroup: 570
     maxrange: 5434.0
-    metalevel: 3
+    metalevelold: 3
     name: Dual Anode Pulse Particle Stream I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2543,7 +2543,7 @@ types:
     id: 37299
     marketGroup: 773
     maxrange: 110000.0
-    metalevel: 5
+    metalevelold: 5
     name: Dual Giga Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2617,7 +2617,7 @@ types:
     id: 37298
     marketGroup: 774
     maxrange: 46200.0
-    metalevel: 5
+    metalevelold: 5
     name: Dual Giga Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2655,7 +2655,7 @@ types:
     id: 7001
     marketGroup: 573
     maxrange: 19845.0
-    metalevel: 1
+    metalevelold: 1
     name: Dual Heavy Afocal Pulse Maser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2691,7 +2691,7 @@ types:
     id: 7005
     marketGroup: 573
     maxrange: 21735.0
-    metalevel: 3
+    metalevelold: 3
     name: Dual Heavy Anode Pulse Particle Stream I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2763,7 +2763,7 @@ types:
     id: 2985
     marketGroup: 569
     maxrange: 42000.0
-    metalevel: 5
+    metalevelold: 5
     name: Dual Heavy Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -2801,7 +2801,7 @@ types:
     id: 6999
     marketGroup: 573
     maxrange: 20790.0
-    metalevel: 2
+    metalevelold: 2
     name: Dual Heavy Modal Pulse Laser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2837,7 +2837,7 @@ types:
     id: 7003
     marketGroup: 573
     maxrange: 22680.0
-    metalevel: 4
+    metalevelold: 4
     name: Dual Heavy Modulated Pulse Energy Beam I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2909,7 +2909,7 @@ types:
     id: 4147
     marketGroup: 573
     maxrange: 22680.0
-    metalevel: 5
+    metalevelold: 5
     name: Dual Heavy Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -2983,7 +2983,7 @@ types:
     id: 2993
     marketGroup: 567
     maxrange: 11550.0
-    metalevel: 5
+    metalevelold: 5
     name: Dual Light Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3057,7 +3057,7 @@ types:
     id: 3001
     marketGroup: 570
     maxrange: 5670.0
-    metalevel: 5
+    metalevelold: 5
     name: Dual Light Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3095,7 +3095,7 @@ types:
     id: 7043
     marketGroup: 569
     maxrange: 38500.0
-    metalevel: 2
+    metalevelold: 2
     name: Dual Modal Heavy Laser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3131,7 +3131,7 @@ types:
     id: 6631
     marketGroup: 567
     maxrange: 10588.0
-    metalevel: 2
+    metalevelold: 2
     name: Dual Modal Light Laser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3167,7 +3167,7 @@ types:
     id: 5215
     marketGroup: 570
     maxrange: 5198.0
-    metalevel: 2
+    metalevelold: 2
     name: Dual Modal Pulse Laser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3203,7 +3203,7 @@ types:
     id: 7047
     marketGroup: 569
     maxrange: 42000.0
-    metalevel: 4
+    metalevelold: 4
     name: Dual Modulated Heavy Energy Beam I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3239,7 +3239,7 @@ types:
     id: 6635
     marketGroup: 567
     maxrange: 11550.0
-    metalevel: 4
+    metalevelold: 4
     name: Dual Modulated Light Energy Beam I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3275,7 +3275,7 @@ types:
     id: 5219
     marketGroup: 570
     maxrange: 5670.0
-    metalevel: 4
+    metalevelold: 4
     name: Dual Modulated Pulse Energy Beam I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3311,7 +3311,7 @@ types:
     id: 6861
     marketGroup: 568
     maxrange: 20213.0
-    metalevel: 1
+    metalevelold: 1
     name: Focused Afocal Medium Maser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3347,7 +3347,7 @@ types:
     id: 6807
     marketGroup: 572
     maxrange: 9923.0
-    metalevel: 1
+    metalevelold: 1
     name: Focused Afocal Pulse Maser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3383,7 +3383,7 @@ types:
     id: 6865
     marketGroup: 568
     maxrange: 22138.0
-    metalevel: 3
+    metalevelold: 3
     name: Focused Anode Medium Particle Stream I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3419,7 +3419,7 @@ types:
     id: 6811
     marketGroup: 572
     maxrange: 10868.0
-    metalevel: 3
+    metalevelold: 3
     name: Focused Anode Pulse Particle Stream I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3491,7 +3491,7 @@ types:
     id: 3009
     marketGroup: 568
     maxrange: 23100.0
-    metalevel: 5
+    metalevelold: 5
     name: Focused Medium Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3565,7 +3565,7 @@ types:
     id: 3512
     marketGroup: 572
     maxrange: 11340.0
-    metalevel: 5
+    metalevelold: 5
     name: Focused Medium Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3603,7 +3603,7 @@ types:
     id: 6859
     marketGroup: 568
     maxrange: 21175.0
-    metalevel: 2
+    metalevelold: 2
     name: Focused Modal Medium Laser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3639,7 +3639,7 @@ types:
     id: 6805
     marketGroup: 572
     maxrange: 10395.0
-    metalevel: 2
+    metalevelold: 2
     name: Focused Modal Pulse Laser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3675,7 +3675,7 @@ types:
     id: 6863
     marketGroup: 568
     maxrange: 23100.0
-    metalevel: 4
+    metalevelold: 4
     name: Focused Modulated Medium Energy Beam I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -3711,7 +3711,7 @@ types:
     id: 6809
     marketGroup: 572
     maxrange: 11340.0
-    metalevel: 4
+    metalevelold: 4
     name: Focused Modulated Pulse Energy Beam I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3747,7 +3747,7 @@ types:
     id: 5177
     marketGroup: 570
     maxrange: 4410.0
-    metalevel: 1
+    metalevelold: 1
     name: Gatling Afocal Maser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3783,7 +3783,7 @@ types:
     id: 5181
     marketGroup: 570
     maxrange: 4830.0
-    metalevel: 3
+    metalevelold: 3
     name: Gatling Anode Particle Stream I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3819,7 +3819,7 @@ types:
     id: 5175
     marketGroup: 570
     maxrange: 4620.0
-    metalevel: 2
+    metalevelold: 2
     name: Gatling Modal Laser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3855,7 +3855,7 @@ types:
     id: 5179
     marketGroup: 570
     maxrange: 5040.0
-    metalevel: 4
+    metalevelold: 4
     name: Gatling Modulated Energy Beam I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3927,7 +3927,7 @@ types:
     id: 3017
     marketGroup: 570
     maxrange: 5040.0
-    metalevel: 5
+    metalevelold: 5
     name: Gatling Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -3965,7 +3965,7 @@ types:
     id: 6961
     marketGroup: 568
     maxrange: 23100.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Afocal Maser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4001,7 +4001,7 @@ types:
     id: 6921
     marketGroup: 572
     maxrange: 11025.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Afocal Pulse Maser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4037,7 +4037,7 @@ types:
     id: 6965
     marketGroup: 568
     maxrange: 25300.0
-    metalevel: 3
+    metalevelold: 3
     name: Heavy Anode Particle Stream I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4073,7 +4073,7 @@ types:
     id: 6925
     marketGroup: 572
     maxrange: 12075.0
-    metalevel: 3
+    metalevelold: 3
     name: Heavy Anode Pulse Particle Stream I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4145,7 +4145,7 @@ types:
     id: 3025
     marketGroup: 568
     maxrange: 26400.0
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4183,7 +4183,7 @@ types:
     id: 6959
     marketGroup: 568
     maxrange: 24200.0
-    metalevel: 2
+    metalevelold: 2
     name: Heavy Modal Laser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4219,7 +4219,7 @@ types:
     id: 6919
     marketGroup: 572
     maxrange: 11550.0
-    metalevel: 2
+    metalevelold: 2
     name: Heavy Modal Pulse Laser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4255,7 +4255,7 @@ types:
     id: 6963
     marketGroup: 568
     maxrange: 26400.0
-    metalevel: 4
+    metalevelold: 4
     name: Heavy Modulated Energy Beam I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4291,7 +4291,7 @@ types:
     id: 6923
     marketGroup: 572
     maxrange: 12600.0
-    metalevel: 4
+    metalevelold: 4
     name: Heavy Modulated Pulse Energy Beam I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4363,7 +4363,7 @@ types:
     id: 3520
     marketGroup: 572
     maxrange: 12600.0
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4403,7 +4403,7 @@ types:
     marketGroup: 569
     maxrange: 42000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Dual Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4441,7 +4441,7 @@ types:
     marketGroup: 573
     maxrange: 22680.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Dual Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4479,7 +4479,7 @@ types:
     marketGroup: 567
     maxrange: 12032.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Dual Light Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4517,7 +4517,7 @@ types:
     marketGroup: 570
     maxrange: 5906.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Dual Light Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4555,7 +4555,7 @@ types:
     marketGroup: 568
     maxrange: 24063.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Focused Medium Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4593,7 +4593,7 @@ types:
     marketGroup: 572
     maxrange: 11813.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Focused Medium Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4631,7 +4631,7 @@ types:
     marketGroup: 570
     maxrange: 5250.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Gatling Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4669,7 +4669,7 @@ types:
     marketGroup: 568
     maxrange: 27500.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4707,7 +4707,7 @@ types:
     marketGroup: 572
     maxrange: 13125.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4745,7 +4745,7 @@ types:
     marketGroup: 569
     maxrange: 48000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Mega Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4783,7 +4783,7 @@ types:
     marketGroup: 573
     maxrange: 25200.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4821,7 +4821,7 @@ types:
     marketGroup: 568
     maxrange: 11000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Quad Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4859,7 +4859,7 @@ types:
     marketGroup: 567
     maxrange: 13750.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Small Focused Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4897,7 +4897,7 @@ types:
     marketGroup: 570
     maxrange: 6563.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Small Focused Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -4935,7 +4935,7 @@ types:
     marketGroup: 569
     maxrange: 52800.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Tachyon Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -4997,7 +4997,7 @@ types:
     id: 7125
     marketGroup: 569
     maxrange: 42000.0
-    metalevel: 1
+    metalevelold: 1
     name: Mega Afocal Maser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5033,7 +5033,7 @@ types:
     id: 7085
     marketGroup: 573
     maxrange: 22050.0
-    metalevel: 1
+    metalevelold: 1
     name: Mega Afocal Pulse Maser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5069,7 +5069,7 @@ types:
     id: 7131
     marketGroup: 569
     maxrange: 46000.0
-    metalevel: 3
+    metalevelold: 3
     name: Mega Anode Particle Stream I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5105,7 +5105,7 @@ types:
     id: 7089
     marketGroup: 573
     maxrange: 24150.0
-    metalevel: 3
+    metalevelold: 3
     name: Mega Anode Pulse Particle Stream I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5177,7 +5177,7 @@ types:
     id: 3049
     marketGroup: 569
     maxrange: 48000.0
-    metalevel: 5
+    metalevelold: 5
     name: Mega Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5215,7 +5215,7 @@ types:
     id: 7123
     marketGroup: 569
     maxrange: 44000.0
-    metalevel: 2
+    metalevelold: 2
     name: Mega Modal Laser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5251,7 +5251,7 @@ types:
     id: 7083
     marketGroup: 573
     maxrange: 23100.0
-    metalevel: 2
+    metalevelold: 2
     name: Mega Modal Pulse Laser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5287,7 +5287,7 @@ types:
     id: 7127
     marketGroup: 569
     maxrange: 48000.0
-    metalevel: 4
+    metalevelold: 4
     name: Mega Modulated Energy Beam I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5323,7 +5323,7 @@ types:
     id: 7087
     marketGroup: 573
     maxrange: 25200.0
-    metalevel: 4
+    metalevelold: 4
     name: Mega Modulated Pulse Energy Beam I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5395,7 +5395,7 @@ types:
     id: 3057
     marketGroup: 573
     maxrange: 25200.0
-    metalevel: 5
+    metalevelold: 5
     name: Mega Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5433,7 +5433,7 @@ types:
     id: 41115
     marketGroup: 773
     maxrange: 100000.0
-    metalevel: 1
+    metalevelold: 1
     name: Modal Enduring Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5469,7 +5469,7 @@ types:
     id: 41100
     marketGroup: 774
     maxrange: 42000.0
-    metalevel: 1
+    metalevelold: 1
     name: Modal Enduring Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5506,7 +5506,7 @@ types:
     id: 41063
     marketGroup: 774
     maxrange: 33000.0
-    metalevel: 1
+    metalevelold: 1
     name: Modal Enduring Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5544,7 +5544,7 @@ types:
     id: 41114
     marketGroup: 773
     maxrange: 100000.0
-    metalevel: 1
+    metalevelold: 1
     name: Modulated Compact Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5580,7 +5580,7 @@ types:
     id: 41099
     marketGroup: 774
     maxrange: 42000.0
-    metalevel: 1
+    metalevelold: 1
     name: Modulated Compact Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5617,7 +5617,7 @@ types:
     id: 37297
     marketGroup: 774
     maxrange: 33000.0
-    metalevel: 1
+    metalevelold: 1
     name: Modulated Compact Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5656,7 +5656,7 @@ types:
     id: 34274
     marketGroup: 572
     maxrange: 10080.0
-    metalevel: 9
+    metalevelold: 9
     name: Polarized Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5697,7 +5697,7 @@ types:
     id: 34276
     marketGroup: 573
     maxrange: 20160.0
-    metalevel: 9
+    metalevelold: 9
     name: Polarized Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5738,7 +5738,7 @@ types:
     id: 34272
     marketGroup: 570
     maxrange: 5040.0
-    metalevel: 9
+    metalevelold: 9
     name: Polarized Small Focused Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -5778,7 +5778,7 @@ types:
     id: 6759
     marketGroup: 568
     maxrange: 9240.0
-    metalevel: 1
+    metalevelold: 1
     name: Quad Afocal Light Maser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5814,7 +5814,7 @@ types:
     id: 6763
     marketGroup: 568
     maxrange: 10120.0
-    metalevel: 3
+    metalevelold: 3
     name: Quad Anode Light Particle Stream I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5886,7 +5886,7 @@ types:
     id: 3285
     marketGroup: 568
     maxrange: 10560.0
-    metalevel: 5
+    metalevelold: 5
     name: Quad Light Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -5964,7 +5964,7 @@ types:
     id: 37296
     marketGroup: 774
     maxrange: 36300.0
-    metalevel: 5
+    metalevelold: 5
     name: Quad Mega Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -6004,7 +6004,7 @@ types:
     id: 6757
     marketGroup: 568
     maxrange: 9680.0
-    metalevel: 2
+    metalevelold: 2
     name: Quad Modal Light Laser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6040,7 +6040,7 @@ types:
     id: 6761
     marketGroup: 568
     maxrange: 10560.0
-    metalevel: 4
+    metalevelold: 4
     name: Quad Modulated Light Energy Beam I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6078,7 +6078,7 @@ types:
     marketGroup: 569
     maxrange: 42000.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Raysere's Modified Dual Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6116,7 +6116,7 @@ types:
     marketGroup: 569
     maxrange: 48000.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Raysere's Modified Mega Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6154,7 +6154,7 @@ types:
     marketGroup: 569
     maxrange: 52800.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Raysere's Modified Tachyon Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6191,7 +6191,7 @@ types:
     marketGroup: 569
     maxrange: 42000.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Selynne's Modified Dual Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6229,7 +6229,7 @@ types:
     marketGroup: 569
     maxrange: 48000.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Selynne's Modified Mega Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6267,7 +6267,7 @@ types:
     marketGroup: 569
     maxrange: 52800.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Selynne's Modified Tachyon Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6303,7 +6303,7 @@ types:
     id: 6717
     marketGroup: 567
     maxrange: 11550.0
-    metalevel: 1
+    metalevelold: 1
     name: Small Focused Afocal Maser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6339,7 +6339,7 @@ types:
     id: 6673
     marketGroup: 570
     maxrange: 5513.0
-    metalevel: 1
+    metalevelold: 1
     name: Small Focused Afocal Pulse Maser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -6375,7 +6375,7 @@ types:
     id: 6721
     marketGroup: 567
     maxrange: 12650.0
-    metalevel: 3
+    metalevelold: 3
     name: Small Focused Anode Particle Stream I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6411,7 +6411,7 @@ types:
     id: 6677
     marketGroup: 570
     maxrange: 6038.0
-    metalevel: 3
+    metalevelold: 3
     name: Small Focused Anode Pulse Particle Stream I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -6483,7 +6483,7 @@ types:
     id: 3033
     marketGroup: 567
     maxrange: 13200.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Focused Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6521,7 +6521,7 @@ types:
     id: 6715
     marketGroup: 567
     maxrange: 12100.0
-    metalevel: 2
+    metalevelold: 2
     name: Small Focused Modal Laser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6557,7 +6557,7 @@ types:
     id: 6671
     marketGroup: 570
     maxrange: 5775.0
-    metalevel: 2
+    metalevelold: 2
     name: Small Focused Modal Pulse Laser I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -6593,7 +6593,7 @@ types:
     id: 6719
     marketGroup: 567
     maxrange: 13200.0
-    metalevel: 4
+    metalevelold: 4
     name: Small Focused Modulated Energy Beam I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6629,7 +6629,7 @@ types:
     id: 6675
     marketGroup: 570
     maxrange: 6300.0
-    metalevel: 4
+    metalevelold: 4
     name: Small Focused Modulated Pulse Energy Beam I
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -6701,7 +6701,7 @@ types:
     id: 3041
     marketGroup: 570
     maxrange: 6300.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Focused Pulse Laser II
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -6739,7 +6739,7 @@ types:
     id: 7169
     marketGroup: 569
     maxrange: 46200.0
-    metalevel: 1
+    metalevelold: 1
     name: Tachyon Afocal Maser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6775,7 +6775,7 @@ types:
     id: 7173
     marketGroup: 569
     maxrange: 50600.0
-    metalevel: 3
+    metalevelold: 3
     name: Tachyon Anode Particle Stream I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6847,7 +6847,7 @@ types:
     id: 3065
     marketGroup: 569
     maxrange: 52800.0
-    metalevel: 5
+    metalevelold: 5
     name: Tachyon Beam Laser II
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6885,7 +6885,7 @@ types:
     id: 7167
     marketGroup: 569
     maxrange: 48400.0
-    metalevel: 2
+    metalevelold: 2
     name: Tachyon Modal Laser I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6921,7 +6921,7 @@ types:
     id: 7171
     marketGroup: 569
     maxrange: 52800.0
-    metalevel: 4
+    metalevelold: 4
     name: Tachyon Modulated Energy Beam I
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -6959,7 +6959,7 @@ types:
     marketGroup: 573
     maxrange: 22680.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Tairei's Modified Dual Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -6997,7 +6997,7 @@ types:
     marketGroup: 573
     maxrange: 25200.0
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Tairei's Modified Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7035,7 +7035,7 @@ types:
     marketGroup: 773
     maxrange: 110000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Dual Giga Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -7073,7 +7073,7 @@ types:
     marketGroup: 774
     maxrange: 46200.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Dual Giga Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7111,7 +7111,7 @@ types:
     marketGroup: 569
     maxrange: 42000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Dual Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -7149,7 +7149,7 @@ types:
     marketGroup: 573
     maxrange: 22680.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Dual Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7187,7 +7187,7 @@ types:
     marketGroup: 567
     maxrange: 12032.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Dual Light Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -7225,7 +7225,7 @@ types:
     marketGroup: 570
     maxrange: 5906.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Dual Light Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7263,7 +7263,7 @@ types:
     marketGroup: 568
     maxrange: 24063.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Focused Medium Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -7301,7 +7301,7 @@ types:
     marketGroup: 572
     maxrange: 11813.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Focused Medium Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7339,7 +7339,7 @@ types:
     marketGroup: 570
     maxrange: 5250.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Gatling Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7377,7 +7377,7 @@ types:
     marketGroup: 568
     maxrange: 27500.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Heavy Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -7415,7 +7415,7 @@ types:
     marketGroup: 572
     maxrange: 13125.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7453,7 +7453,7 @@ types:
     marketGroup: 569
     maxrange: 48000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Mega Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -7491,7 +7491,7 @@ types:
     marketGroup: 573
     maxrange: 25200.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7529,7 +7529,7 @@ types:
     marketGroup: 568
     maxrange: 11000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Quad Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -7568,7 +7568,7 @@ types:
     marketGroup: 774
     maxrange: 36300.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Quad Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7608,7 +7608,7 @@ types:
     marketGroup: 567
     maxrange: 13750.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Small Focused Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -7646,7 +7646,7 @@ types:
     marketGroup: 570
     maxrange: 6563.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Small Focused Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7684,7 +7684,7 @@ types:
     marketGroup: 569
     maxrange: 52800.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Tachyon Beam Laser
     optimalsigradius: 40000
     overloadrofbonus: -15
@@ -7722,7 +7722,7 @@ types:
     marketGroup: 573
     maxrange: 22680.0
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Vizan's Modified Dual Heavy Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15
@@ -7760,7 +7760,7 @@ types:
     marketGroup: 573
     maxrange: 25200.0
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Vizan's Modified Mega Pulse Laser
     optimalsigradius: 40000
     overloaddamagemodifier: 15

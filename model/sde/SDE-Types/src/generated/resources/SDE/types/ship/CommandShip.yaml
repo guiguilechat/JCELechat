@@ -44,7 +44,7 @@ types:
     maxtargetrange: 75000.0
     maxvelocity: 158.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Absolution
     packagedVolume: 15000.0
@@ -132,7 +132,7 @@ types:
     maxtargetrange: 75000.0
     maxvelocity: 165.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Astarte
     packagedVolume: 15000.0
@@ -220,7 +220,7 @@ types:
     maxtargetrange: 75000.0
     maxvelocity: 170.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Claymore
     packagedVolume: 15000.0
@@ -310,7 +310,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 150.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Damnation
     packagedVolume: 15000.0
@@ -399,7 +399,7 @@ types:
     maxtargetrange: 75000.0
     maxvelocity: 150.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Eos
     packagedVolume: 15000.0
@@ -489,7 +489,7 @@ types:
     maxtargetrange: 80000.0
     maxvelocity: 150.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Nighthawk
     packagedVolume: 15000.0
@@ -577,7 +577,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 165.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Sleipnir
     packagedVolume: 15000.0
@@ -665,7 +665,7 @@ types:
     maxtargetrange: 95000.0
     maxvelocity: 140.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Vulture
     packagedVolume: 15000.0

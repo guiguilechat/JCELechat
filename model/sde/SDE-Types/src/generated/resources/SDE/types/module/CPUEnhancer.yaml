@@ -5,7 +5,7 @@ types:
     id: 20569
     marketGroup: 676
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Deuce'' Co-Processor I'
     packagedVolume: 5.0
     portionSize: 1
@@ -22,7 +22,7 @@ types:
     id: 20567
     marketGroup: 676
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Dyad'' Co-Processor I'
     packagedVolume: 5.0
     portionSize: 1
@@ -39,7 +39,7 @@ types:
     id: 3469
     marketGroup: 676
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Basic Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -56,7 +56,7 @@ types:
     id: 15308
     marketGroup: 676
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -73,7 +73,7 @@ types:
     id: 15675
     marketGroup: 676
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -104,7 +104,7 @@ types:
     hp: 40.0
     id: 3888
     marketGroup: 676
-    metalevel: 5
+    metalevelold: 5
     name: Co-Processor II
     packagedVolume: 5.0
     portionSize: 1
@@ -121,7 +121,7 @@ types:
     id: 15314
     marketGroup: 676
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Cormack's Modified Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -138,7 +138,7 @@ types:
     id: 14230
     marketGroup: 676
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -155,7 +155,7 @@ types:
     id: 14774
     marketGroup: 676
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Estamel's Modified Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -172,7 +172,7 @@ types:
     id: 15677
     marketGroup: 676
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -189,7 +189,7 @@ types:
     id: 14768
     marketGroup: 676
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -206,7 +206,7 @@ types:
     id: 28561
     marketGroup: 676
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -222,7 +222,7 @@ types:
     hp: 40.0
     id: 8748
     marketGroup: 676
-    metalevel: 1
+    metalevelold: 1
     name: Photonic Upgraded Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -239,7 +239,7 @@ types:
     id: 15312
     marketGroup: 676
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Setele's Modified Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -256,7 +256,7 @@ types:
     id: 14232
     marketGroup: 676
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -273,7 +273,7 @@ types:
     id: 14770
     marketGroup: 676
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Thon's Modified Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -290,7 +290,7 @@ types:
     id: 15310
     marketGroup: 676
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Tuvan's Modified Co-Processor
     packagedVolume: 5.0
     portionSize: 1
@@ -307,7 +307,7 @@ types:
     id: 14772
     marketGroup: 676
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Vepas' Modified Co-Processor
     packagedVolume: 5.0
     portionSize: 1

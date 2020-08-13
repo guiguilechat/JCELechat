@@ -8,7 +8,7 @@ types:
     id: 25540
     marketGroup: 1037
     maxrange: 1500.0
-    metalevel: 1
+    metalevelold: 1
     miningamount: 10
     name: '''Crop'' Gas Cloud Harvester'
     packagedVolume: 5.0
@@ -33,7 +33,7 @@ types:
     id: 25542
     marketGroup: 1037
     maxrange: 1500.0
-    metalevel: 1
+    metalevelold: 1
     miningamount: 10
     name: '''Plow'' Gas Cloud Harvester'
     packagedVolume: 5.0
@@ -82,7 +82,7 @@ types:
     id: 25812
     marketGroup: 1037
     maxrange: 1500.0
-    metalevel: 5
+    metalevelold: 5
     miningamount: 20
     name: Gas Cloud Harvester II
     packagedVolume: 5.0
@@ -108,7 +108,7 @@ types:
     marketGroup: 1037
     maxrange: 1500.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     miningamount: 10
     name: Syndicate Gas Cloud Harvester
     packagedVolume: 5.0

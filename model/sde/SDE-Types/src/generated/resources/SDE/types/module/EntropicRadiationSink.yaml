@@ -53,7 +53,7 @@ types:
     hp: 40.0
     id: 47911
     marketGroup: 2471
-    metalevel: 5
+    metalevelold: 5
     name: Entropic Radiation Sink II
     packagedVolume: 5.0
     portionSize: 1

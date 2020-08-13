@@ -302,7 +302,7 @@ types:
     maxvelocity: 65.0
     medslots: 8
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Komodo
     packagedVolume: 1.0E7
     portionSize: 1
@@ -543,7 +543,7 @@ types:
     maxvelocity: 65.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Molok
     nosoverride: 1
     packagedVolume: 1.0E7
@@ -781,7 +781,7 @@ types:
     maxvelocity: 75.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Vanquisher
     packagedVolume: 1.0E7
     portionSize: 1

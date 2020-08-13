@@ -11,7 +11,7 @@ types:
     marketGroup: 678
     maxgroupactive: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Ghost'' Burst Jammer'
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0
@@ -66,7 +66,7 @@ types:
     id: 2117
     marketGroup: 678
     maxgroupactive: 1
-    metalevel: 5
+    metalevelold: 5
     name: Burst Jammer II
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0
@@ -94,7 +94,7 @@ types:
     id: 5365
     marketGroup: 678
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: Cetus Scoped Burst Jammer
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0
@@ -122,7 +122,7 @@ types:
     id: 5361
     marketGroup: 678
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: Deluge Enduring Burst Jammer
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0
@@ -150,7 +150,7 @@ types:
     id: 5363
     marketGroup: 678
     maxgroupactive: 1
-    metalevel: 1
+    metalevelold: 1
     name: Rash Compact Burst Jammer
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0
@@ -179,7 +179,7 @@ types:
     marketGroup: 678
     maxgroupactive: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Sentient Burst Jammer
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0
@@ -208,7 +208,7 @@ types:
     marketGroup: 678
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Unit D-34343's Modified Burst Jammer
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0
@@ -237,7 +237,7 @@ types:
     marketGroup: 678
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Unit F-435454's Modified Burst Jammer
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0
@@ -266,7 +266,7 @@ types:
     marketGroup: 678
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Unit P-343554's Modified Burst Jammer
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0
@@ -295,7 +295,7 @@ types:
     marketGroup: 678
     maxgroupactive: 1
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Unit W-634's Modified Burst Jammer
     overloadecmstrengthbonus: 20
     packagedVolume: 5.0

@@ -9,7 +9,7 @@ types:
     marketGroup: 938
     maxrangebonus: 10.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     name: Dread Guristas Omnidirectional Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -31,7 +31,7 @@ types:
     marketGroup: 938
     maxrangebonus: 10.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     name: Imperial Navy Omnidirectional Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -52,7 +52,7 @@ types:
     id: 41033
     marketGroup: 938
     maxrangebonus: 8.25
-    metalevel: 1
+    metalevelold: 1
     name: N-JM Compact Omnidirectional Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -93,7 +93,7 @@ types:
     id: 33824
     marketGroup: 938
     maxrangebonus: 10.0
-    metalevel: 5
+    metalevelold: 5
     name: Omnidirectional Tracking Enhancer II
     packagedVolume: 5.0
     portionSize: 1
@@ -115,7 +115,7 @@ types:
     marketGroup: 938
     maxrangebonus: 10.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     name: Sentient Omnidirectional Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -137,7 +137,7 @@ types:
     marketGroup: 938
     maxrangebonus: 10.5
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Unit D-34343's Modified Omnidirectional Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -159,7 +159,7 @@ types:
     marketGroup: 938
     maxrangebonus: 11.0
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Unit F-435454's Modified Omnidirectional Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -181,7 +181,7 @@ types:
     marketGroup: 938
     maxrangebonus: 11.5
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Unit P-343554's Modified Omnidirectional Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -203,7 +203,7 @@ types:
     marketGroup: 938
     maxrangebonus: 12.0
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Unit W-634's Modified Omnidirectional Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1

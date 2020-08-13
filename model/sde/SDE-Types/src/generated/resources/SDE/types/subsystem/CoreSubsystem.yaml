@@ -7,7 +7,7 @@ types:
     lowslotmodifier: 3
     marketGroup: 1122
     medslotmodifier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Legion Core - Augmented Antimatter Reactor
     packagedVolume: 40.0
     portionSize: 1
@@ -29,7 +29,7 @@ types:
     marketGroup: 1122
     maxlockedtargetsbonus: 1
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Legion Core - Dissolution Sequencer
     packagedVolume: 40.0
     portionSize: 1
@@ -51,7 +51,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1122
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Legion Core - Energy Parasitic Complex
     packagedVolume: 40.0
     portionSize: 1
@@ -74,7 +74,7 @@ types:
     lowslotmodifier: 3
     marketGroup: 1125
     medslotmodifier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Loki Core - Augmented Nuclear Reactor
     packagedVolume: 40.0
     portionSize: 1
@@ -96,7 +96,7 @@ types:
     marketGroup: 1125
     maxlockedtargetsbonus: 1
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Loki Core - Dissolution Sequencer
     packagedVolume: 40.0
     portionSize: 1
@@ -117,7 +117,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1125
     medslotmodifier: 3
-    metalevel: 1
+    metalevelold: 1
     name: Loki Core - Immobility Drivers
     packagedVolume: 40.0
     portionSize: 1
@@ -139,7 +139,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1124
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Proteus Core - Augmented Fusion Reactor
     packagedVolume: 40.0
     portionSize: 1
@@ -162,7 +162,7 @@ types:
     marketGroup: 1124
     maxlockedtargetsbonus: 1
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Proteus Core - Electronic Efficiency Gate
     packagedVolume: 40.0
     portionSize: 1
@@ -182,7 +182,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1124
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Proteus Core - Friction Extension Processor
     packagedVolume: 40.0
     portionSize: 1
@@ -204,7 +204,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1123
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Tengu Core - Augmented Graviton Reactor
     packagedVolume: 40.0
     portionSize: 1
@@ -227,7 +227,7 @@ types:
     marketGroup: 1123
     maxlockedtargetsbonus: 1
     medslotmodifier: 3
-    metalevel: 1
+    metalevelold: 1
     name: Tengu Core - Electronic Efficiency Gate
     packagedVolume: 40.0
     portionSize: 1
@@ -247,7 +247,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1123
     medslotmodifier: 3
-    metalevel: 1
+    metalevelold: 1
     name: Tengu Core - Obfuscation Manifold
     packagedVolume: 40.0
     portionSize: 1

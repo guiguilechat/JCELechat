@@ -5,7 +5,7 @@ types:
     id: 16297
     marketGroup: 1088
     maxtargetrangebonus: -48.0
-    metalevel: 1
+    metalevelold: 1
     name: '''Accord'' Core Compensation'
     packagedVolume: 5.0
     portionSize: 1
@@ -25,7 +25,7 @@ types:
     marketGroup: 1088
     maxtargetrangebonus: -44.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Aura'' Warp Core Stabilizer I'
     packagedVolume: 5.0
     portionSize: 1
@@ -44,7 +44,7 @@ types:
     id: 16303
     marketGroup: 1088
     maxtargetrangebonus: -42.0
-    metalevel: 4
+    metalevelold: 4
     name: '''Halcyon'' Core Equalizer I'
     packagedVolume: 5.0
     portionSize: 1
@@ -64,7 +64,7 @@ types:
     marketGroup: 1088
     maxtargetrangebonus: -40.0
     metagroupid: 3
-    metalevel: 7
+    metalevelold: 7
     name: '''Natura'' Warp Core Stabilizer I'
     packagedVolume: 5.0
     portionSize: 1
@@ -83,7 +83,7 @@ types:
     id: 16299
     marketGroup: 1088
     maxtargetrangebonus: -46.0
-    metalevel: 2
+    metalevelold: 2
     name: '''Repose'' Core Compensation'
     packagedVolume: 5.0
     portionSize: 1
@@ -102,7 +102,7 @@ types:
     id: 16301
     marketGroup: 1088
     maxtargetrangebonus: -44.0
-    metalevel: 3
+    metalevelold: 3
     name: '''Stoic'' Core Equalizer I'
     packagedVolume: 5.0
     portionSize: 1
@@ -139,7 +139,7 @@ types:
     id: 11640
     marketGroup: 1088
     maxtargetrangebonus: -40.0
-    metalevel: 5
+    metalevelold: 5
     name: Warp Core Stabilizer II
     packagedVolume: 5.0
     portionSize: 1

@@ -101,7 +101,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 872.0
-    metalevel: 5
+    metalevelold: 5
     name: Dragonfly II
     packagedVolume: 1000.0
     portionSize: 1
@@ -229,7 +229,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1009.0
-    metalevel: 5
+    metalevelold: 5
     name: Einherji II
     packagedVolume: 1000.0
     portionSize: 1
@@ -348,7 +348,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 1156.0
-    metalevel: 5
+    metalevelold: 5
     name: Equite II
     packagedVolume: 800.0
     portionSize: 1
@@ -476,7 +476,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 826.0
-    metalevel: 5
+    metalevelold: 5
     name: Firbolg II
     packagedVolume: 1000.0
     portionSize: 1
@@ -595,7 +595,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 1211.0
-    metalevel: 5
+    metalevelold: 5
     name: Gram II
     packagedVolume: 800.0
     portionSize: 1
@@ -714,7 +714,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 1046.0
-    metalevel: 5
+    metalevelold: 5
     name: Locust II
     packagedVolume: 800.0
     portionSize: 1
@@ -833,7 +833,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 991.0
-    metalevel: 5
+    metalevelold: 5
     name: Satyr II
     packagedVolume: 800.0
     portionSize: 1
@@ -958,7 +958,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1744.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Dragonfly II
     packagedVolume: 2000.0
     portionSize: 1
@@ -1081,7 +1081,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 2018.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Einherji II
     packagedVolume: 2000.0
     portionSize: 1
@@ -1195,7 +1195,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2890.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Equite II
     packagedVolume: 1600.0
     portionSize: 1
@@ -1317,7 +1317,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1652.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Firbolg II
     packagedVolume: 2000.0
     portionSize: 1
@@ -1431,7 +1431,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 3028.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Gram II
     packagedVolume: 1600.0
     portionSize: 1
@@ -1544,7 +1544,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2615.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Locust II
     packagedVolume: 1600.0
     portionSize: 1
@@ -1657,7 +1657,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 60000.0
     maxvelocity: 2478.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Satyr II
     packagedVolume: 1600.0
     portionSize: 1
@@ -1779,7 +1779,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 1926.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Templar II
     packagedVolume: 2000.0
     portionSize: 1
@@ -1905,7 +1905,7 @@ types:
     maxlockedtargets: 6
     maxtargetrange: 70000.0
     maxvelocity: 963.0
-    metalevel: 5
+    metalevelold: 5
     name: Templar II
     packagedVolume: 1000.0
     portionSize: 1

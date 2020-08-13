@@ -29,7 +29,7 @@ types:
     marketGroup: 2219
     maxlockedtargetsbonus: 2
     maxtargetrangebonus: 15.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Signal Amplifier II
     packagedVolume: 4000.0
     portionSize: 1

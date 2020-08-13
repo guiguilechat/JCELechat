@@ -8,7 +8,7 @@ types:
     id: 47883
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A1F Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -33,7 +33,7 @@ types:
     id: 47983
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A1O Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -61,7 +61,7 @@ types:
     id: 47985
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A1P Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -86,7 +86,7 @@ types:
     id: 47996
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A1R Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -114,7 +114,7 @@ types:
     id: 48028
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2-FP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -141,7 +141,7 @@ types:
     id: 48029
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2-FR Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -168,7 +168,7 @@ types:
     id: 47991
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2F- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -195,7 +195,7 @@ types:
     id: 48043
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2FO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -224,7 +224,7 @@ types:
     id: 47981
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2FP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -251,7 +251,7 @@ types:
     id: 48033
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2L- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -278,7 +278,7 @@ types:
     id: 48030
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2OF Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -306,7 +306,7 @@ types:
     id: 48053
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2P- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -334,7 +334,7 @@ types:
     id: 47987
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2PF Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -361,7 +361,7 @@ types:
     id: 48042
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A2PO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -389,7 +389,7 @@ types:
     id: 48046
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3F-- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -417,7 +417,7 @@ types:
     id: 48031
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3FOP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -446,7 +446,7 @@ types:
     id: 47990
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3FP- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -476,7 +476,7 @@ types:
     id: 48027
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3FPL Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -504,7 +504,7 @@ types:
     id: 47986
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3FPO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -533,7 +533,7 @@ types:
     id: 48070
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3FPR Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -560,7 +560,7 @@ types:
     id: 48077
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3L-- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -589,7 +589,7 @@ types:
     id: 48064
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3L-P Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -617,7 +617,7 @@ types:
     id: 48069
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3P-F Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -645,7 +645,7 @@ types:
     id: 48012
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3PF- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -675,7 +675,7 @@ types:
     id: 48056
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3PFL Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -703,7 +703,7 @@ types:
     id: 47982
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell A3PFO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -732,7 +732,7 @@ types:
     id: 47999
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C1I Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -762,7 +762,7 @@ types:
     id: 47984
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C1L Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -787,7 +787,7 @@ types:
     id: 48004
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C1R Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -818,7 +818,7 @@ types:
     id: 48015
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C2IL Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -846,7 +846,7 @@ types:
     id: 48018
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C2IR Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -876,7 +876,7 @@ types:
     id: 48014
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C2L- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -908,7 +908,7 @@ types:
     id: 48044
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C2LF Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -939,7 +939,7 @@ types:
     id: 48001
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C2LI Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -970,7 +970,7 @@ types:
     id: 48073
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3-LI- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1003,7 +1003,7 @@ types:
     id: 48026
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3FIL Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1036,7 +1036,7 @@ types:
     id: 48063
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3FLI Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1067,7 +1067,7 @@ types:
     id: 48074
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3ILR Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1097,7 +1097,7 @@ types:
     id: 48045
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3L-- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1129,7 +1129,7 @@ types:
     id: 48068
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3L-F Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1160,7 +1160,7 @@ types:
     id: 48049
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3L-I Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1191,7 +1191,7 @@ types:
     id: 48016
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3L-IO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1222,7 +1222,7 @@ types:
     id: 48075
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3L-R Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1254,7 +1254,7 @@ types:
     id: 48061
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3LF- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1287,7 +1287,7 @@ types:
     id: 48062
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3LFI Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1318,7 +1318,7 @@ types:
     id: 48017
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3LI- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1351,7 +1351,7 @@ types:
     id: 48047
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3LIF Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1382,7 +1382,7 @@ types:
     id: 48013
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell C3LIO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1409,7 +1409,7 @@ types:
     id: 47992
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G1F Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1437,7 +1437,7 @@ types:
     id: 48019
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G1L Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1462,7 +1462,7 @@ types:
     id: 47988
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G1O Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1489,7 +1489,7 @@ types:
     id: 48007
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G1P Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1514,7 +1514,7 @@ types:
     id: 47995
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G1R Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1540,7 +1540,7 @@ types:
     id: 48066
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G2F- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1567,7 +1567,7 @@ types:
     id: 48008
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G2FP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1595,7 +1595,7 @@ types:
     id: 48076
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G2L- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1620,7 +1620,7 @@ types:
     id: 48021
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G2O- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1647,7 +1647,7 @@ types:
     id: 48034
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G2OP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1675,7 +1675,7 @@ types:
     id: 48011
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G2PF Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1701,7 +1701,7 @@ types:
     id: 48039
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G2PR Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1731,7 +1731,7 @@ types:
     id: 48037
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G3FLP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1758,7 +1758,7 @@ types:
     id: 48054
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G3FP- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1785,7 +1785,7 @@ types:
     id: 48067
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G3FPO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1814,7 +1814,7 @@ types:
     id: 48059
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G3L-- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1844,7 +1844,7 @@ types:
     id: 48065
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell G3LFP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1871,7 +1871,7 @@ types:
     id: 48003
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M1L Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1896,7 +1896,7 @@ types:
     id: 48000
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M1O Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1923,7 +1923,7 @@ types:
     id: 48035
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M1P Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1948,7 +1948,7 @@ types:
     id: 47882
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M1R Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -1975,7 +1975,7 @@ types:
     id: 48071
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2-RL Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2000,7 +2000,7 @@ types:
     id: 48005
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2-RO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2027,7 +2027,7 @@ types:
     id: 48009
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2-RP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2054,7 +2054,7 @@ types:
     id: 48072
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2LR Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2079,7 +2079,7 @@ types:
     id: 48006
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2OR Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2106,7 +2106,7 @@ types:
     id: 47998
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2PR Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2131,7 +2131,7 @@ types:
     id: 47884
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2R- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2158,7 +2158,7 @@ types:
     id: 47997
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2RL Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2183,7 +2183,7 @@ types:
     id: 47980
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2RO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2210,7 +2210,7 @@ types:
     id: 48010
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M2RP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2238,7 +2238,7 @@ types:
     id: 48040
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3-RPL Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2265,7 +2265,7 @@ types:
     id: 48058
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3L-- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2292,7 +2292,7 @@ types:
     id: 48048
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3L-R Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2320,7 +2320,7 @@ types:
     id: 48041
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3LPR Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2348,7 +2348,7 @@ types:
     id: 48060
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3LRP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2375,7 +2375,7 @@ types:
     id: 48023
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3P-RF Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2401,7 +2401,7 @@ types:
     id: 48036
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3PR- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2426,7 +2426,7 @@ types:
     id: 47979
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3R-- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2452,7 +2452,7 @@ types:
     id: 48024
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3R-F Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2479,7 +2479,7 @@ types:
     id: 48052
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3R-L Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2506,7 +2506,7 @@ types:
     id: 48002
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3R-LO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2532,7 +2532,7 @@ types:
     id: 47989
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3R-O Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2559,7 +2559,7 @@ types:
     id: 48051
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3R-P Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2585,7 +2585,7 @@ types:
     id: 48038
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3RFO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2613,7 +2613,7 @@ types:
     id: 48057
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3RL- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2641,7 +2641,7 @@ types:
     id: 48078
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3RLP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2666,7 +2666,7 @@ types:
     id: 47994
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3RO- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2693,7 +2693,7 @@ types:
     id: 48025
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3ROF Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2721,7 +2721,7 @@ types:
     id: 48020
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3ROL Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2748,7 +2748,7 @@ types:
     id: 48032
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3ROP Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2775,7 +2775,7 @@ types:
     id: 48050
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3RP- Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2802,7 +2802,7 @@ types:
     id: 48022
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3RPF Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2830,7 +2830,7 @@ types:
     id: 48055
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3RPL Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2856,7 +2856,7 @@ types:
     id: 47993
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell M3RPO Outpost Rig
     packagedVolume: 20.0
     portionSize: 1
@@ -2882,7 +2882,7 @@ types:
     id: 47881
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Upwell Standard Outpost Rig
     packagedVolume: 20.0
     portionSize: 1

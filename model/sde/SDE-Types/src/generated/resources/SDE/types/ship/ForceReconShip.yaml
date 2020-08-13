@@ -47,7 +47,7 @@ types:
     maxtargetrange: 112000.0
     maxvelocity: 207.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Arazu
     packagedVolume: 10000.0
@@ -138,7 +138,7 @@ types:
     maxtargetrange: 110000.0
     maxvelocity: 170.0
     medslots: 7
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 1.0
     name: Chameleon
     packagedVolume: 10000.0
@@ -233,7 +233,7 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 170.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Enforcer
     packagedVolume: 10000.0
@@ -336,7 +336,7 @@ types:
     maxtargetrange: 120000.0
     maxvelocity: 192.0
     medslots: 7
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Falcon
     packagedVolume: 10000.0
@@ -426,7 +426,7 @@ types:
     maxvelocity: 260.0
     medslots: 6
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.25
     name: Moracha
     packagedVolume: 10000.0
@@ -519,7 +519,7 @@ types:
     maxtargetrange: 104000.0
     maxvelocity: 198.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Pilgrim
     packagedVolume: 10000.0
@@ -611,7 +611,7 @@ types:
     maxtargetrange: 100000.0
     maxvelocity: 230.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Rapier
     packagedVolume: 10000.0
@@ -798,7 +798,7 @@ types:
     maxvelocity: 220.0
     medslots: 5
     metagroupid: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     name: Victor
     packagedVolume: 10000.0

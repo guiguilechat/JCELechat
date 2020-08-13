@@ -7,7 +7,7 @@ types:
     id: 22621
     marketGroup: 935
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Anguis'' Ice Harvester Upgrade'
     packagedVolume: 5.0
     portionSize: 1
@@ -26,7 +26,7 @@ types:
     id: 22615
     marketGroup: 935
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     miningamountbonus: 10
     name: '''Aoede'' Mining Laser Upgrade'
     packagedVolume: 5.0
@@ -46,7 +46,7 @@ types:
     id: 22613
     marketGroup: 935
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     miningamountbonus: 9
     name: '''Carpo'' Mining Laser Upgrade'
     packagedVolume: 5.0
@@ -67,7 +67,7 @@ types:
     id: 22623
     marketGroup: 935
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Ingenii'' Ice Harvester Upgrade'
     packagedVolume: 5.0
     portionSize: 1
@@ -85,7 +85,7 @@ types:
     hp: 40.0
     id: 22611
     marketGroup: 935
-    metalevel: 1
+    metalevelold: 1
     miningamountbonus: 8
     name: Elara Restrained Mining Laser Upgrade
     packagedVolume: 5.0
@@ -105,7 +105,7 @@ types:
     iceharvestcyclebonus: -8.0
     id: 22619
     marketGroup: 935
-    metalevel: 1
+    metalevelold: 1
     name: Frigoris Restrained Ice Harvester Upgrade
     packagedVolume: 5.0
     portionSize: 1
@@ -163,7 +163,7 @@ types:
     iceharvestcyclebonus: -9.0
     id: 28578
     marketGroup: 935
-    metalevel: 5
+    metalevelold: 5
     name: Ice Harvester Upgrade II
     packagedVolume: 5.0
     portionSize: 1
@@ -199,7 +199,7 @@ types:
     hp: 40.0
     id: 28576
     marketGroup: 935
-    metalevel: 5
+    metalevelold: 5
     miningamountbonus: 9
     name: Mining Laser Upgrade II
     packagedVolume: 5.0

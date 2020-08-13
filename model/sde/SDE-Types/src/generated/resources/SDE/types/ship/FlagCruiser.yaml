@@ -40,7 +40,7 @@ types:
     maxtargetrange: 250000.0
     maxvelocity: 220.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     name: Monitor
     packagedVolume: 10000.0
     portionSize: 1

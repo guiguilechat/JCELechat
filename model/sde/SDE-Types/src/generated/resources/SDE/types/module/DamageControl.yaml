@@ -14,7 +14,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Basic'' Damage Control'
     packagedVolume: 5.0
     portionSize: 1
@@ -44,7 +44,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Radical'' Damage Control'
     packagedVolume: 5.0
     portionSize: 1
@@ -163,7 +163,7 @@ types:
     id: 47257
     marketGroup: 615
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     modulereactivationdelay: 150000
     name: Assault Damage Control II
     packagedVolume: 5.0
@@ -195,7 +195,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -272,7 +272,7 @@ types:
     marketGroup: 615
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     name: Capital Emergency Hull Energizer II
     packagedVolume: 2000.0
     portionSize: 1
@@ -311,7 +311,7 @@ types:
     marketGroup: 615
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 1
+    metalevelold: 1
     name: Capital Implacable Compact Emergency Hull Energizer
     packagedVolume: 2000.0
     portionSize: 1
@@ -350,7 +350,7 @@ types:
     marketGroup: 615
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 1
+    metalevelold: 1
     name: Capital Indefatigable Enduring Emergency Hull Energizer
     packagedVolume: 2000.0
     portionSize: 1
@@ -408,7 +408,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Cormack's Modified Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -465,7 +465,7 @@ types:
     id: 2048
     marketGroup: 615
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     name: Damage Control II
     packagedVolume: 5.0
     portionSize: 1
@@ -564,7 +564,7 @@ types:
     id: 5839
     marketGroup: 615
     maxgroupfitted: 1
-    metalevel: 1
+    metalevelold: 1
     name: IFFA Compact Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -594,7 +594,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Sentient Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -624,7 +624,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Setele's Modified Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -659,7 +659,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     modulereactivationdelay: 150000
     name: Shadow Serpentis Assault Damage Control
     packagedVolume: 5.0
@@ -691,7 +691,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -731,7 +731,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Sisters Capital Emergency Hull Energizer
     packagedVolume: 2000.0
     portionSize: 1
@@ -761,7 +761,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Syndicate Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -791,7 +791,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Tuvan's Modified Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -821,7 +821,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Unit D-34343's Modified Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -851,7 +851,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Unit F-435454's Modified Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -881,7 +881,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Unit P-343554's Modified Damage Control
     packagedVolume: 5.0
     portionSize: 1
@@ -911,7 +911,7 @@ types:
     marketGroup: 615
     maxgroupfitted: 1
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Unit W-634's Modified Damage Control
     packagedVolume: 5.0
     portionSize: 1

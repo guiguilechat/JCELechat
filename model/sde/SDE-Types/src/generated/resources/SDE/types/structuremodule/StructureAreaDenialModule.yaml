@@ -64,7 +64,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     maxgrouponline: 1
-    metalevel: 5
+    metalevelold: 5
     name: Standup Point Defense Battery II
     onlinemaxsecurityclass: 1
     packagedVolume: 8000.0

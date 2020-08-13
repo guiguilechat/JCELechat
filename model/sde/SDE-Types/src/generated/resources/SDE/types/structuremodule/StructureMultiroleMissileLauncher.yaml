@@ -33,7 +33,7 @@ types:
     hp: 40.0
     id: 47298
     marketGroup: 2231
-    metalevel: 5
+    metalevelold: 5
     name: Standup Multirole Missile Launcher II
     packagedVolume: 4000.0
     portionSize: 1

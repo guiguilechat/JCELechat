@@ -33,7 +33,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 5082.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Acolyte'
@@ -104,7 +104,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1980.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Berserker'
@@ -173,7 +173,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 2218.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Hammerhead'
@@ -243,7 +243,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 3696.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Hobgoblin'
@@ -313,7 +313,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 4158.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Hornet'
@@ -383,7 +383,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 3036.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Infiltrator'
@@ -453,7 +453,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1320.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Ogre'
@@ -523,7 +523,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1822.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Praetor'
@@ -594,7 +594,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 3300.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Valkyrie'
@@ -663,7 +663,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2495.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Vespa'
@@ -734,7 +734,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 5544.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Warrior'
@@ -803,7 +803,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1485.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Augmented'' Wasp'
@@ -873,7 +873,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 4235.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Acolyte'
@@ -942,7 +942,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1650.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Berserker'
@@ -1009,7 +1009,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1848.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Hammerhead'
@@ -1077,7 +1077,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 3080.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Hobgoblin'
@@ -1145,7 +1145,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 3465.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Hornet'
@@ -1213,7 +1213,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2530.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Infiltrator'
@@ -1281,7 +1281,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1100.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Ogre'
@@ -1349,7 +1349,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1518.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Praetor'
@@ -1418,7 +1418,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 2750.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Valkyrie'
@@ -1485,7 +1485,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2079.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Vespa'
@@ -1554,7 +1554,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 4620.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Warrior'
@@ -1621,7 +1621,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1238.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Integrated'' Wasp'
@@ -1690,7 +1690,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 1680.0
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: '''Subverted'' JVN-UC49'
@@ -1822,7 +1822,7 @@ types:
     maxlockedtargets: 8
     maxrange: 2400.0
     maxvelocity: 4620.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Acolyte II
@@ -1955,7 +1955,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 1800.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Berserker II
@@ -2086,7 +2086,7 @@ types:
     maxlockedtargets: 8
     maxrange: 36000.0
     maxvelocity: 9.999999747378752E-6
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Bouncer II
@@ -2155,7 +2155,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 3780.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Caldari Navy Hornet
@@ -2222,7 +2222,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2268.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Caldari Navy Vespa
@@ -2288,7 +2288,7 @@ types:
     maxrange: 60000.0
     maxvelocity: 9.999999747378752E-6
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Caldari Navy Warden
@@ -2355,7 +2355,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1350.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Caldari Navy Wasp
@@ -2546,7 +2546,7 @@ types:
     maxlockedtargets: 8
     maxrange: 42000.0
     maxvelocity: 9.999999747378752E-6
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Curator II
@@ -2614,7 +2614,7 @@ types:
     maxrange: 18000.0
     maxvelocity: 9.999999747378752E-6
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Federation Navy Garde
@@ -2681,7 +2681,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 2016.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Federation Navy Hammerhead
@@ -2748,7 +2748,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 3360.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Federation Navy Hobgoblin
@@ -2815,7 +2815,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1200.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Federation Navy Ogre
@@ -2946,7 +2946,7 @@ types:
     maxlockedtargets: 8
     maxrange: 18000.0
     maxvelocity: 9.999999747378752E-6
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Garde II
@@ -3018,7 +3018,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1820.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Gecko
@@ -3149,7 +3149,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 2016.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Hammerhead II
@@ -3282,7 +3282,7 @@ types:
     maxlockedtargets: 8
     maxrange: 2100.0
     maxvelocity: 3360.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Hobgoblin II
@@ -3416,7 +3416,7 @@ types:
     maxlockedtargets: 8
     maxrange: 2400.0
     maxvelocity: 3780.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Hornet II
@@ -3485,7 +3485,7 @@ types:
     maxrange: 2400.0
     maxvelocity: 4620.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Imperial Navy Acolyte
@@ -3551,7 +3551,7 @@ types:
     maxrange: 42000.0
     maxvelocity: 9.999999747378752E-6
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Imperial Navy Curator
@@ -3618,7 +3618,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 2760.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Imperial Navy Infiltrator
@@ -3685,7 +3685,7 @@ types:
     maxrange: 4800.0
     maxvelocity: 1656.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Imperial Navy Praetor
@@ -3816,7 +3816,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4800.0
     maxvelocity: 2760.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Infiltrator II
@@ -3948,7 +3948,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 1200.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Ogre II
@@ -4082,7 +4082,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4800.0
     maxvelocity: 1656.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Praetor II
@@ -4151,7 +4151,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 1800.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Republic Fleet Berserker
@@ -4217,7 +4217,7 @@ types:
     maxrange: 36000.0
     maxvelocity: 9.999999747378752E-6
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Republic Fleet Bouncer
@@ -4284,7 +4284,7 @@ types:
     maxrange: 4200.0
     maxvelocity: 3000.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Republic Fleet Valkyrie
@@ -4351,7 +4351,7 @@ types:
     maxrange: 2100.0
     maxvelocity: 5040.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Republic Fleet Warrior
@@ -4482,7 +4482,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4200.0
     maxvelocity: 3000.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Valkyrie II
@@ -4615,7 +4615,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4800.0
     maxvelocity: 2268.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Vespa II
@@ -4746,7 +4746,7 @@ types:
     maxlockedtargets: 8
     maxrange: 60000.0
     maxvelocity: 9.999999747378752E-6
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Warden II
@@ -4879,7 +4879,7 @@ types:
     maxlockedtargets: 8
     maxrange: 2100.0
     maxvelocity: 5040.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Warrior II
@@ -5012,7 +5012,7 @@ types:
     maxlockedtargets: 8
     maxrange: 4800.0
     maxvelocity: 1350.0
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Wasp II

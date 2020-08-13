@@ -45,7 +45,7 @@ types:
     maxtargetrange: 55000.0
     maxvelocity: 310.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Hound
     packagedVolume: 2500.0
@@ -135,7 +135,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 280.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Manticore
     packagedVolume: 2500.0
@@ -225,7 +225,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 275.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Nemesis
     packagedVolume: 2500.0
@@ -315,7 +315,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 300.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Purifier
     packagedVolume: 2500.0
@@ -406,7 +406,7 @@ types:
     maxvelocity: 350.0
     medslots: 3
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Virtuoso
     packagedVolume: 2500.0

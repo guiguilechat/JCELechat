@@ -17,7 +17,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Inferno Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -52,7 +52,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Mjolnir Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -86,7 +86,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Nova Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -120,7 +120,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 2
+    metalevelold: 2
     name: Caldari Navy Scourge Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -153,7 +153,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Inferno Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -188,7 +188,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Mjolnir Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -222,7 +222,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Nova Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -256,7 +256,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 3
+    metalevelold: 3
     name: Dread Guristas Scourge Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -289,7 +289,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Inferno Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -324,7 +324,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Mjolnir Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -358,7 +358,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Nova Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
@@ -392,7 +392,7 @@ types:
     marketGroup: 1003
     maxvelocity: 2250.0
     metagroupid: 4
-    metalevel: 1
+    metalevelold: 1
     name: Guristas Scourge Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100

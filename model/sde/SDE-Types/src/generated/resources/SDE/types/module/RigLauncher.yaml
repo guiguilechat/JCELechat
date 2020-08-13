@@ -20,7 +20,7 @@ types:
     hp: 40.0
     id: 31596
     marketGroup: 1733
-    metalevel: 5
+    metalevelold: 5
     name: Capital Bay Loading Accelerator II
     packagedVolume: 40.0
     portionSize: 1
@@ -53,7 +53,7 @@ types:
     hp: 40.0
     id: 33301
     marketGroup: 1733
-    metalevel: 5
+    metalevelold: 5
     name: Capital Hydraulic Bay Thrusters II
     packagedVolume: 40.0
     portionSize: 1
@@ -88,7 +88,7 @@ types:
     id: 31618
     marketGroup: 1733
     maxflighttimebonus: 20
-    metalevel: 5
+    metalevelold: 5
     name: Capital Rocket Fuel Cache Partition II
     packagedVolume: 40.0
     portionSize: 1
@@ -122,7 +122,7 @@ types:
     hp: 40.0
     id: 31630
     marketGroup: 1733
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplierbonus: 1.149999976158142
     name: Capital Warhead Calefaction Catalyst II
     packagedVolume: 40.0
@@ -158,7 +158,7 @@ types:
     hp: 40.0
     id: 31642
     marketGroup: 1733
-    metalevel: 5
+    metalevelold: 5
     name: Capital Warhead Flare Catalyst II
     packagedVolume: 40.0
     portionSize: 1
@@ -193,7 +193,7 @@ types:
     hp: 40.0
     id: 31654
     marketGroup: 1733
-    metalevel: 5
+    metalevelold: 5
     name: Capital Warhead Rigor Catalyst II
     packagedVolume: 40.0
     portionSize: 1
@@ -226,7 +226,7 @@ types:
     hp: 40.0
     id: 26406
     marketGroup: 1233
-    metalevel: 5
+    metalevelold: 5
     name: Large Bay Loading Accelerator II
     packagedVolume: 20.0
     portionSize: 1
@@ -259,7 +259,7 @@ types:
     hp: 40.0
     id: 26416
     marketGroup: 1233
-    metalevel: 5
+    metalevelold: 5
     name: Large Hydraulic Bay Thrusters II
     packagedVolume: 20.0
     portionSize: 1
@@ -294,7 +294,7 @@ types:
     id: 26418
     marketGroup: 1233
     maxflighttimebonus: 20
-    metalevel: 5
+    metalevelold: 5
     name: Large Rocket Fuel Cache Partition II
     packagedVolume: 20.0
     portionSize: 1
@@ -328,7 +328,7 @@ types:
     hp: 40.0
     id: 26420
     marketGroup: 1233
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplierbonus: 1.149999976158142
     name: Large Warhead Calefaction Catalyst II
     packagedVolume: 20.0
@@ -364,7 +364,7 @@ types:
     hp: 40.0
     id: 26412
     marketGroup: 1233
-    metalevel: 5
+    metalevelold: 5
     name: Large Warhead Flare Catalyst II
     packagedVolume: 20.0
     portionSize: 1
@@ -399,7 +399,7 @@ types:
     hp: 40.0
     id: 26414
     marketGroup: 1233
-    metalevel: 5
+    metalevelold: 5
     name: Large Warhead Rigor Catalyst II
     packagedVolume: 20.0
     portionSize: 1
@@ -432,7 +432,7 @@ types:
     hp: 40.0
     id: 31594
     marketGroup: 1232
-    metalevel: 5
+    metalevelold: 5
     name: Medium Bay Loading Accelerator II
     packagedVolume: 10.0
     portionSize: 1
@@ -465,7 +465,7 @@ types:
     hp: 40.0
     id: 31606
     marketGroup: 1232
-    metalevel: 5
+    metalevelold: 5
     name: Medium Hydraulic Bay Thrusters II
     packagedVolume: 10.0
     portionSize: 1
@@ -500,7 +500,7 @@ types:
     id: 31616
     marketGroup: 1232
     maxflighttimebonus: 20
-    metalevel: 5
+    metalevelold: 5
     name: Medium Rocket Fuel Cache Partition II
     packagedVolume: 10.0
     portionSize: 1
@@ -534,7 +534,7 @@ types:
     hp: 40.0
     id: 31628
     marketGroup: 1232
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplierbonus: 1.149999976158142
     name: Medium Warhead Calefaction Catalyst II
     packagedVolume: 10.0
@@ -570,7 +570,7 @@ types:
     hp: 40.0
     id: 31640
     marketGroup: 1232
-    metalevel: 5
+    metalevelold: 5
     name: Medium Warhead Flare Catalyst II
     packagedVolume: 10.0
     portionSize: 1
@@ -605,7 +605,7 @@ types:
     hp: 40.0
     id: 31652
     marketGroup: 1232
-    metalevel: 5
+    metalevelold: 5
     name: Medium Warhead Rigor Catalyst II
     packagedVolume: 10.0
     portionSize: 1
@@ -638,7 +638,7 @@ types:
     hp: 40.0
     id: 31592
     marketGroup: 1231
-    metalevel: 5
+    metalevelold: 5
     name: Small Bay Loading Accelerator II
     packagedVolume: 5.0
     portionSize: 1
@@ -671,7 +671,7 @@ types:
     hp: 40.0
     id: 31604
     marketGroup: 1231
-    metalevel: 5
+    metalevelold: 5
     name: Small Hydraulic Bay Thrusters II
     packagedVolume: 5.0
     portionSize: 1
@@ -706,7 +706,7 @@ types:
     id: 31614
     marketGroup: 1231
     maxflighttimebonus: 20
-    metalevel: 5
+    metalevelold: 5
     name: Small Rocket Fuel Cache Partition II
     packagedVolume: 5.0
     portionSize: 1
@@ -740,7 +740,7 @@ types:
     hp: 40.0
     id: 31626
     marketGroup: 1231
-    metalevel: 5
+    metalevelold: 5
     missiledamagemultiplierbonus: 1.149999976158142
     name: Small Warhead Calefaction Catalyst II
     packagedVolume: 5.0
@@ -776,7 +776,7 @@ types:
     hp: 40.0
     id: 31638
     marketGroup: 1231
-    metalevel: 5
+    metalevelold: 5
     name: Small Warhead Flare Catalyst II
     packagedVolume: 5.0
     portionSize: 1
@@ -811,7 +811,7 @@ types:
     hp: 40.0
     id: 31650
     marketGroup: 1231
-    metalevel: 5
+    metalevelold: 5
     name: Small Warhead Rigor Catalyst II
     packagedVolume: 5.0
     portionSize: 1

@@ -92,7 +92,7 @@ types:
     maxlockedtargets: 8
     maxrange: 10000.0
     maxvelocity: 2400.0
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Armor Maintenance Bot II
     packagedVolume: 25.0
     portionSize: 1
@@ -217,7 +217,7 @@ types:
     maxlockedtargets: 8
     maxrange: 10000.0
     maxvelocity: 2400.0
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Hull Maintenance Bot II
     packagedVolume: 25.0
     portionSize: 1
@@ -343,7 +343,7 @@ types:
     maxlockedtargets: 8
     maxrange: 10000.0
     maxvelocity: 2400.0
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Shield Maintenance Bot II
     packagedVolume: 25.0
     portionSize: 1
@@ -471,7 +471,7 @@ types:
     maxlockedtargets: 8
     maxrange: 5000.0
     maxvelocity: 3840.0
-    metalevel: 5
+    metalevelold: 5
     name: Light Armor Maintenance Bot II
     packagedVolume: 5.0
     portionSize: 1
@@ -596,7 +596,7 @@ types:
     maxlockedtargets: 8
     maxrange: 5000.0
     maxvelocity: 3840.0
-    metalevel: 5
+    metalevelold: 5
     name: Light Hull Maintenance Bot II
     packagedVolume: 5.0
     portionSize: 1
@@ -722,7 +722,7 @@ types:
     maxlockedtargets: 8
     maxrange: 5000.0
     maxvelocity: 3840.0
-    metalevel: 5
+    metalevelold: 5
     name: Light Shield Maintenance Bot II
     packagedVolume: 5.0
     portionSize: 1
@@ -850,7 +850,7 @@ types:
     maxlockedtargets: 8
     maxrange: 7500.0
     maxvelocity: 3300.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Armor Maintenance Bot II
     packagedVolume: 10.0
     portionSize: 1
@@ -975,7 +975,7 @@ types:
     maxlockedtargets: 8
     maxrange: 7500.0
     maxvelocity: 3300.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Hull Maintenance Bot II
     packagedVolume: 10.0
     portionSize: 1
@@ -1101,7 +1101,7 @@ types:
     maxlockedtargets: 8
     maxrange: 7500.0
     maxvelocity: 3300.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Shield Maintenance Bot II
     packagedVolume: 10.0
     portionSize: 1

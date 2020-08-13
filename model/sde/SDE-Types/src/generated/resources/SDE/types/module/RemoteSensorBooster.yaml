@@ -16,7 +16,7 @@ types:
     maxrange: 30000.0
     maxtargetrangebonus: 40.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Bootleg'' Remote Sensor Booster'
     overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -52,7 +52,7 @@ types:
     marketGroup: 673
     maxrange: 27500.0
     maxtargetrangebonus: 36.0
-    metalevel: 1
+    metalevelold: 1
     name: Coadjunct Scoped Remote Sensor Booster
     overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -89,7 +89,7 @@ types:
     marketGroup: 673
     maxrange: 25000.0
     maxtargetrangebonus: 36.0
-    metalevel: 1
+    metalevelold: 1
     name: F-23 Compact Remote Sensor Booster
     overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -126,7 +126,7 @@ types:
     marketGroup: 673
     maxrange: 25000.0
     maxtargetrangebonus: 36.0
-    metalevel: 1
+    metalevelold: 1
     name: Linked Enduring Remote Sensor Booster
     overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -199,7 +199,7 @@ types:
     marketGroup: 673
     maxrange: 30000.0
     maxtargetrangebonus: 40.0
-    metalevel: 5
+    metalevelold: 5
     name: Remote Sensor Booster II
     overloadsensormodulestrengthbonus: 15
     packagedVolume: 5.0
@@ -237,7 +237,7 @@ types:
     maxrange: 35000.0
     maxtargetrangebonus: 44.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Sentient Remote Sensor Booster
     overloadsensormodulestrengthbonus: 15
     packagedVolume: 25.0
@@ -275,7 +275,7 @@ types:
     maxrange: 35000.0
     maxtargetrangebonus: 44.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Remote Sensor Booster
     overloadsensormodulestrengthbonus: 15
     packagedVolume: 25.0

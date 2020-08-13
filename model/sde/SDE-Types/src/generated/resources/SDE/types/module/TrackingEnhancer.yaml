@@ -7,7 +7,7 @@ types:
     marketGroup: 707
     maxrangebonus: 5.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Basic'' Tracking Enhancer'
     packagedVolume: 5.0
     portionSize: 1
@@ -27,7 +27,7 @@ types:
     marketGroup: 707
     maxrangebonus: 10.5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -46,7 +46,7 @@ types:
     id: 6325
     marketGroup: 707
     maxrangebonus: 8.25
-    metalevel: 1
+    metalevelold: 1
     name: Fourier Compact Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -66,7 +66,7 @@ types:
     marketGroup: 707
     maxrangebonus: 12.0
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Gotan's Modified Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -86,7 +86,7 @@ types:
     marketGroup: 707
     maxrangebonus: 11.5
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Hakim's Modified Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -106,7 +106,7 @@ types:
     marketGroup: 707
     maxrangebonus: 11.0
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Mizuro's Modified Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -126,7 +126,7 @@ types:
     marketGroup: 707
     maxrangebonus: 10.5
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -146,7 +146,7 @@ types:
     marketGroup: 707
     maxrangebonus: 12.5
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Tobias' Modified Tracking Enhancer
     packagedVolume: 5.0
     portionSize: 1
@@ -183,7 +183,7 @@ types:
     id: 1999
     marketGroup: 707
     maxrangebonus: 10.0
-    metalevel: 5
+    metalevelold: 5
     name: Tracking Enhancer II
     packagedVolume: 5.0
     portionSize: 1

@@ -45,7 +45,7 @@ types:
     maxtargetrange: 42500.0
     maxvelocity: 282.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Anathema
     packagedVolume: 2500.0
@@ -133,7 +133,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 306.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Buzzard
     packagedVolume: 2500.0
@@ -223,7 +223,7 @@ types:
     maxvelocity: 375.0
     medslots: 3
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Caedes
     nosoverride: 1
@@ -318,7 +318,7 @@ types:
     maxtargetrange: 37500.0
     maxvelocity: 381.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Cheetah
     packagedVolume: 2500.0
@@ -409,7 +409,7 @@ types:
     maxvelocity: 440.0
     medslots: 5
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Chremoas
     packagedVolume: 2500.0
@@ -502,7 +502,7 @@ types:
     maxtargetrange: 47500.0
     maxvelocity: 330.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Helios
     packagedVolume: 2500.0
@@ -685,7 +685,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 300.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Pacifier
     packagedVolume: 2500.0

@@ -16,7 +16,7 @@ types:
     marketGroup: 2223
     maxrange: 150000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Standup Heavy Energy Neutralizer
     packagedVolume: 8000.0
     portionSize: 1
@@ -67,7 +67,7 @@ types:
     id: 47332
     marketGroup: 2223
     maxrange: 120000.0
-    metalevel: 5
+    metalevelold: 5
     name: Standup Heavy Energy Neutralizer II
     packagedVolume: 8000.0
     portionSize: 1
@@ -120,7 +120,7 @@ types:
     id: 47330
     marketGroup: 2223
     maxrange: 180000.0
-    metalevel: 2
+    metalevelold: 2
     name: Standup XL Energy Neutralizer II
     packagedVolume: 8000.0
     portionSize: 1

@@ -33,7 +33,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MainColor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadDamageModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadRofBonus;
@@ -190,7 +190,7 @@ public class HybridWeapon
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */
@@ -346,7 +346,7 @@ public class HybridWeapon
     @Stackable(false)
     @DefaultIntValue(0)
     public int typecolorscheme;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, DamageMultiplier.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, RequiredSkill4 .INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill4Level.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Falloff.INSTANCE, Power.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, OptimalSigRadius.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, OverloadRofBonus.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, ChargeRate.INSTANCE, MetaLevel.INSTANCE, OverloadDamageModifier.INSTANCE, ResistanceKiller.INSTANCE, HeatDamage.INSTANCE, ResistanceKillerHull.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MainColor.INSTANCE, TargetModule.INSTANCE, AccuracyBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, DamageMultiplier.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, RequiredSkill4 .INSTANCE, CapacitorNeed.INSTANCE, RequiredSkill4Level.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill3Level.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, ChargeGroup2 .INSTANCE, Falloff.INSTANCE, Power.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, DamageMultiplierBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, TypeColorScheme.INSTANCE, OptimalSigRadius.INSTANCE, Slots.INSTANCE, Cpu.INSTANCE, Speed.INSTANCE, OverloadRofBonus.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, RequiredSkill2 .INSTANCE, RequiredSkill3 .INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, OverloadDamageModifier.INSTANCE, ResistanceKiller.INSTANCE, HeatDamage.INSTANCE, ResistanceKillerHull.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MainColor.INSTANCE, TargetModule.INSTANCE, AccuracyBonus.INSTANCE })));
     public static final HybridWeapon.MetaGroup METAGROUP = new HybridWeapon.MetaGroup();
 
     @Override
@@ -418,7 +418,7 @@ public class HybridWeapon
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  620 :
             {

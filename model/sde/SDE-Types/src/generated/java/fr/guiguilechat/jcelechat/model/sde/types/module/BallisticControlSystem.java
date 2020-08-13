@@ -21,7 +21,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.DroneDamageBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplierBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -80,7 +80,7 @@ public class BallisticControlSystem
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * Additional percentage to the characters missile damage multiplier.
      */
@@ -138,7 +138,7 @@ public class BallisticControlSystem
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DroneDamageBonus.INSTANCE, Hp.INSTANCE, SpeedMultiplier.INSTANCE, AoeVelocityBonus.INSTANCE, Cpu.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevel.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DroneDamageBonus.INSTANCE, Hp.INSTANCE, SpeedMultiplier.INSTANCE, AoeVelocityBonus.INSTANCE, Cpu.INSTANCE, MissileDamageMultiplierBonus.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2Level.INSTANCE, RequiredSkill2 .INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final BallisticControlSystem.MetaGroup METAGROUP = new BallisticControlSystem.MetaGroup();
 
     @Override
@@ -162,7 +162,7 @@ public class BallisticControlSystem
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  213 :
             {

@@ -10,7 +10,7 @@ types:
     id: 15026
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Ahremen's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -34,7 +34,7 @@ types:
     id: 15074
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Ahremen's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -58,7 +58,7 @@ types:
     kineticdamageresistancebonus: -49.70000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Ahremen's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -81,7 +81,7 @@ types:
     id: 15042
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Ahremen's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -106,7 +106,7 @@ types:
     id: 17502
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -130,7 +130,7 @@ types:
     id: 17504
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -154,7 +154,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -177,7 +177,7 @@ types:
     id: 17508
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -202,7 +202,7 @@ types:
     id: 15016
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brokara's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -226,7 +226,7 @@ types:
     id: 15064
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brokara's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -250,7 +250,7 @@ types:
     kineticdamageresistancebonus: -46.70000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brokara's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -273,7 +273,7 @@ types:
     id: 15032
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brokara's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -298,7 +298,7 @@ types:
     id: 15244
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -322,7 +322,7 @@ types:
     id: 15268
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -346,7 +346,7 @@ types:
     kineticdamageresistancebonus: -46.70000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -369,7 +369,7 @@ types:
     id: 15252
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brynn's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -394,7 +394,7 @@ types:
     id: 18931
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Centus A-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -418,7 +418,7 @@ types:
     id: 18927
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Centus A-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -442,7 +442,7 @@ types:
     kineticdamageresistancebonus: -48.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Centus A-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -465,7 +465,7 @@ types:
     id: 18919
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Centus A-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -490,7 +490,7 @@ types:
     id: 18903
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Centus B-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -514,7 +514,7 @@ types:
     id: 18907
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Centus B-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -538,7 +538,7 @@ types:
     kineticdamageresistancebonus: -47.29999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Centus B-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -561,7 +561,7 @@ types:
     id: 18915
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Centus B-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -586,7 +586,7 @@ types:
     id: 18887
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Centus C-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -610,7 +610,7 @@ types:
     id: 18891
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Centus C-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -634,7 +634,7 @@ types:
     kineticdamageresistancebonus: -45.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Centus C-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -657,7 +657,7 @@ types:
     id: 18899
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Centus C-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -682,7 +682,7 @@ types:
     id: 18935
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Centus X-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -706,7 +706,7 @@ types:
     id: 18939
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Centus X-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -730,7 +730,7 @@ types:
     kineticdamageresistancebonus: -50.29999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Centus X-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -753,7 +753,7 @@ types:
     id: 18947
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Centus X-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -778,7 +778,7 @@ types:
     id: 15028
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Chelm's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -802,7 +802,7 @@ types:
     id: 15076
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Chelm's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -826,7 +826,7 @@ types:
     kineticdamageresistancebonus: -51.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Chelm's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -849,7 +849,7 @@ types:
     id: 15044
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Chelm's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -874,7 +874,7 @@ types:
     id: 18965
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Core A-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -898,7 +898,7 @@ types:
     id: 18967
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Core A-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -922,7 +922,7 @@ types:
     kineticdamageresistancebonus: -48.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Core A-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -945,7 +945,7 @@ types:
     id: 18971
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Core A-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -970,7 +970,7 @@ types:
     id: 18957
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Core B-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -994,7 +994,7 @@ types:
     id: 18959
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Core B-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1018,7 +1018,7 @@ types:
     kineticdamageresistancebonus: -47.29999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Core B-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1041,7 +1041,7 @@ types:
     id: 18963
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Core B-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1066,7 +1066,7 @@ types:
     id: 18949
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Core C-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1090,7 +1090,7 @@ types:
     id: 18951
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Core C-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1114,7 +1114,7 @@ types:
     kineticdamageresistancebonus: -45.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Core C-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1137,7 +1137,7 @@ types:
     id: 18955
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Core C-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1162,7 +1162,7 @@ types:
     id: 18973
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Core X-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1186,7 +1186,7 @@ types:
     id: 18975
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Core X-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1210,7 +1210,7 @@ types:
     kineticdamageresistancebonus: -50.29999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Core X-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1233,7 +1233,7 @@ types:
     id: 18979
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Core X-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1258,7 +1258,7 @@ types:
     id: 15250
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Cormack's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1282,7 +1282,7 @@ types:
     id: 15274
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Cormack's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1306,7 +1306,7 @@ types:
     kineticdamageresistancebonus: -51.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Cormack's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1329,7 +1329,7 @@ types:
     id: 15258
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Cormack's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1354,7 +1354,7 @@ types:
     id: 18929
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Corpus A-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1378,7 +1378,7 @@ types:
     id: 18925
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Corpus A-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1402,7 +1402,7 @@ types:
     kineticdamageresistancebonus: -48.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Corpus A-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1425,7 +1425,7 @@ types:
     id: 18917
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 14
+    metalevelold: 14
     name: Corpus A-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1450,7 +1450,7 @@ types:
     id: 18901
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Corpus B-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1474,7 +1474,7 @@ types:
     id: 18905
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Corpus B-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1498,7 +1498,7 @@ types:
     kineticdamageresistancebonus: -47.29999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Corpus B-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1521,7 +1521,7 @@ types:
     id: 18913
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 12
+    metalevelold: 12
     name: Corpus B-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1546,7 +1546,7 @@ types:
     id: 18885
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Corpus C-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1570,7 +1570,7 @@ types:
     id: 18889
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Corpus C-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1594,7 +1594,7 @@ types:
     kineticdamageresistancebonus: -45.79999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Corpus C-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1617,7 +1617,7 @@ types:
     id: 18897
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 10
+    metalevelold: 10
     name: Corpus C-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1642,7 +1642,7 @@ types:
     id: 18933
     marketGroup: 1681
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Corpus X-Type EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1666,7 +1666,7 @@ types:
     id: 18937
     marketGroup: 1680
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Corpus X-Type Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1690,7 +1690,7 @@ types:
     kineticdamageresistancebonus: -50.29999923706055
     marketGroup: 1679
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Corpus X-Type Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1713,7 +1713,7 @@ types:
     id: 18945
     marketGroup: 1678
     metagroupid: 6
-    metalevel: 16
+    metalevelold: 16
     name: Corpus X-Type Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1738,7 +1738,7 @@ types:
     id: 13972
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1762,7 +1762,7 @@ types:
     id: 13976
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1786,7 +1786,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1809,7 +1809,7 @@ types:
     id: 13984
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1834,7 +1834,7 @@ types:
     id: 13986
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1858,7 +1858,7 @@ types:
     id: 13988
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1882,7 +1882,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1905,7 +1905,7 @@ types:
     id: 13992
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1930,7 +1930,7 @@ types:
     id: 15030
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Draclira's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1954,7 +1954,7 @@ types:
     id: 15078
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Draclira's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -1978,7 +1978,7 @@ types:
     kineticdamageresistancebonus: -51.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Draclira's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2001,7 +2001,7 @@ types:
     id: 15046
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Draclira's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2047,7 +2047,7 @@ types:
     hp: 40.0
     id: 11642
     marketGroup: 1681
-    metalevel: 5
+    metalevelold: 5
     name: EM Armor Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2070,7 +2070,7 @@ types:
     hp: 40.0
     id: 16357
     marketGroup: 1681
-    metalevel: 1
+    metalevelold: 1
     name: Experimental Enduring EM Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2093,7 +2093,7 @@ types:
     hp: 40.0
     id: 16365
     marketGroup: 1680
-    metalevel: 1
+    metalevelold: 1
     name: Experimental Enduring Explosive Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2116,7 +2116,7 @@ types:
     id: 16373
     kineticdamageresistancebonus: -42.0
     marketGroup: 1679
-    metalevel: 1
+    metalevelold: 1
     name: Experimental Enduring Kinetic Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2138,7 +2138,7 @@ types:
     hp: 40.0
     id: 16381
     marketGroup: 1678
-    metalevel: 1
+    metalevelold: 1
     name: Experimental Enduring Thermal Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2184,7 +2184,7 @@ types:
     hp: 40.0
     id: 11646
     marketGroup: 1680
-    metalevel: 5
+    metalevelold: 5
     name: Explosive Armor Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2208,7 +2208,7 @@ types:
     id: 17832
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2232,7 +2232,7 @@ types:
     id: 17834
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2256,7 +2256,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2279,7 +2279,7 @@ types:
     id: 17838
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2304,7 +2304,7 @@ types:
     id: 15711
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2328,7 +2328,7 @@ types:
     id: 15709
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2352,7 +2352,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2375,7 +2375,7 @@ types:
     id: 15705
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2400,7 +2400,7 @@ types:
     id: 28522
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2424,7 +2424,7 @@ types:
     id: 28524
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2448,7 +2448,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2471,7 +2471,7 @@ types:
     id: 28528
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2517,7 +2517,7 @@ types:
     id: 11644
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
-    metalevel: 5
+    metalevelold: 5
     name: Kinetic Armor Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2540,7 +2540,7 @@ types:
     hp: 40.0
     id: 16359
     marketGroup: 1681
-    metalevel: 1
+    metalevelold: 1
     name: Prototype Compact EM Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2563,7 +2563,7 @@ types:
     hp: 40.0
     id: 16367
     marketGroup: 1680
-    metalevel: 1
+    metalevelold: 1
     name: Prototype Compact Explosive Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2586,7 +2586,7 @@ types:
     id: 16375
     kineticdamageresistancebonus: -42.0
     marketGroup: 1679
-    metalevel: 1
+    metalevelold: 1
     name: Prototype Compact Kinetic Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2608,7 +2608,7 @@ types:
     hp: 40.0
     id: 16383
     marketGroup: 1678
-    metalevel: 1
+    metalevelold: 1
     name: Prototype Compact Thermal Armor Hardener I
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2633,7 +2633,7 @@ types:
     id: 15022
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Raysere's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2657,7 +2657,7 @@ types:
     id: 15070
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Raysere's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2681,7 +2681,7 @@ types:
     kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Raysere's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2704,7 +2704,7 @@ types:
     id: 15038
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Raysere's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2729,7 +2729,7 @@ types:
     id: 15719
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2753,7 +2753,7 @@ types:
     id: 15717
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2777,7 +2777,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2800,7 +2800,7 @@ types:
     id: 15713
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2825,7 +2825,7 @@ types:
     id: 15020
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Selynne's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2849,7 +2849,7 @@ types:
     id: 15068
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Selynne's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2873,7 +2873,7 @@ types:
     kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Selynne's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2896,7 +2896,7 @@ types:
     id: 15036
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Selynne's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2921,7 +2921,7 @@ types:
     id: 15248
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Setele's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2945,7 +2945,7 @@ types:
     id: 15272
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Setele's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2969,7 +2969,7 @@ types:
     kineticdamageresistancebonus: -49.70000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Setele's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -2992,7 +2992,7 @@ types:
     id: 15256
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Setele's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3017,7 +3017,7 @@ types:
     id: 14059
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3041,7 +3041,7 @@ types:
     id: 14061
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3065,7 +3065,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3088,7 +3088,7 @@ types:
     id: 14065
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3113,7 +3113,7 @@ types:
     id: 15018
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Tairei's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3137,7 +3137,7 @@ types:
     id: 15066
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Tairei's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3161,7 +3161,7 @@ types:
     kineticdamageresistancebonus: -46.70000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Tairei's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3184,7 +3184,7 @@ types:
     id: 15034
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Tairei's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3229,7 +3229,7 @@ types:
     hp: 40.0
     id: 11648
     marketGroup: 1678
-    metalevel: 5
+    metalevelold: 5
     name: Thermal Armor Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3254,7 +3254,7 @@ types:
     id: 13970
     marketGroup: 1681
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3278,7 +3278,7 @@ types:
     id: 13974
     marketGroup: 1680
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3302,7 +3302,7 @@ types:
     kineticdamageresistancebonus: -44.0
     marketGroup: 1679
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3325,7 +3325,7 @@ types:
     id: 13982
     marketGroup: 1678
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3350,7 +3350,7 @@ types:
     id: 15246
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Tuvan's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3374,7 +3374,7 @@ types:
     id: 15270
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Tuvan's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3398,7 +3398,7 @@ types:
     kineticdamageresistancebonus: -48.20000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Tuvan's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3421,7 +3421,7 @@ types:
     id: 15254
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Tuvan's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3446,7 +3446,7 @@ types:
     id: 15024
     marketGroup: 1681
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vizan's Modified EM Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3470,7 +3470,7 @@ types:
     id: 15072
     marketGroup: 1680
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vizan's Modified Explosive Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3494,7 +3494,7 @@ types:
     kineticdamageresistancebonus: -49.70000076293945
     marketGroup: 1679
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vizan's Modified Kinetic Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0
@@ -3517,7 +3517,7 @@ types:
     id: 15040
     marketGroup: 1678
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vizan's Modified Thermal Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 5.0

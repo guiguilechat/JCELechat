@@ -31,7 +31,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureItemVisualFlag;
@@ -162,7 +162,7 @@ public class StructureEnergyNeutralizer
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * current power need
      */
@@ -178,7 +178,7 @@ public class StructureEnergyNeutralizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EnergyNeutralizerAmount.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, EntityCapacitorLevelModifierSmall.INSTANCE, EntityCapacitorLevelModifierMedium.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, EntityCapacitorLevelModifierLarge.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, EnergyNeutralizerSignatureResolution.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, MetaLevel.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EnergyNeutralizerAmount.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, EntityCapacitorLevelModifierSmall.INSTANCE, EntityCapacitorLevelModifierMedium.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, EntityCapacitorLevelModifierLarge.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, EnergyNeutralizerSignatureResolution.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureEnergyNeutralizer.MetaGroup METAGROUP = new StructureEnergyNeutralizer.MetaGroup();
 
     @Override
@@ -246,7 +246,7 @@ public class StructureEnergyNeutralizer
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  30 :
             {

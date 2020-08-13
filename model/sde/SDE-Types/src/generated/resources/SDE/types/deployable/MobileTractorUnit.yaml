@@ -11,7 +11,7 @@ types:
     maxrange: 175000.0
     maxtargetrange: 175000.0
     maxtractorvelocity: 1500
-    metalevel: 3
+    metalevelold: 3
     name: '''Magpie'' Mobile Tractor Unit'
     packagedVolume: 100.0
     portionSize: 1
@@ -40,7 +40,7 @@ types:
     maxrange: 125000.0
     maxtargetrange: 125000.0
     maxtractorvelocity: 1250
-    metalevel: 2
+    metalevelold: 2
     name: '''Packrat'' Mobile Tractor Unit'
     packagedVolume: 125.0
     portionSize: 1
@@ -69,7 +69,7 @@ types:
     maxrange: 125000.0
     maxtargetrange: 125000.0
     maxtractorvelocity: 1000
-    metalevel: 1
+    metalevelold: 1
     name: Mobile Tractor Unit
     packagedVolume: 100.0
     portionSize: 1

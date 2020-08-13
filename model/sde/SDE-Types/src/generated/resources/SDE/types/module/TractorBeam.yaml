@@ -36,7 +36,7 @@ types:
     marketGroup: 872
     maxrange: 240000.0
     maxtractorvelocity: 3600
-    metalevel: 5
+    metalevelold: 5
     name: Capital Tractor Beam II
     packagedVolume: 1000.0
     portionSize: 1
@@ -85,7 +85,7 @@ types:
     marketGroup: 872
     maxrange: 24000.0
     maxtractorvelocity: 600
-    metalevel: 5
+    metalevelold: 5
     name: Small Tractor Beam II
     packagedVolume: 50.0
     portionSize: 1

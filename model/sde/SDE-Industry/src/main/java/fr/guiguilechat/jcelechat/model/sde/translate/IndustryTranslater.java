@@ -27,8 +27,8 @@ import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialProd;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint.MaterialReq;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.industry.InventionDecryptor;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EcrpNPCCorporationTrades;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeMaterials.Material;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
@@ -85,7 +85,9 @@ public class IndustryTranslater {
 	private static void translateBlueprints(LinkedHashMap<Integer, Blueprint> blueprints,
 			LinkedHashMap<Integer, IndustryUsage> usages) {
 		// set of type ids that are seeded by NPCs
-		Set<Integer> seededItems = EcrpNPCCorporationTrades.load().stream().map(t -> t.typeID).collect(Collectors.toSet());
+		Set<Integer> seededItems = EnpcCorporations.load().values().stream()
+				.flatMap(crp -> crp.corporationTrades.keySet().stream())
+				.collect(Collectors.toSet());
 		for (Entry<Integer, Eblueprints> e : Eblueprints.load().entrySet()) {
 			EveType type = TypeIndex.getType(e.getValue().blueprintTypeID);
 			if (type != null) {

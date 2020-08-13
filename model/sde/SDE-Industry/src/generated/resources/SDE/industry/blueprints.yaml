@@ -170235,3 +170235,79 @@ blueprints:
         : 1
       time: 504
     seeded: false
+  55861:
+    copying:
+      time: 720
+    id: 55861
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 10178
+      - id: 35
+        quantity: 6494
+      - id: 36
+        quantity: 7
+      - id: 38
+        quantity: 3
+      - id: 40
+        quantity: 2
+      - id: 23129
+        quantity: 1
+      - id: 23139
+        quantity: 3
+      - id: 23169
+        quantity: 1
+      products:
+      - id: 55860
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 23124
+        : 2
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false
+  55863:
+    copying:
+      time: 720
+    id: 55863
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 10178
+      - id: 35
+        quantity: 6494
+      - id: 36
+        quantity: 7
+      - id: 38
+        quantity: 3
+      - id: 40
+        quantity: 2
+      - id: 23129
+        quantity: 1
+      - id: 23139
+        quantity: 3
+      - id: 23169
+        quantity: 1
+      products:
+      - id: 55862
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 23124
+        : 2
+      time: 900
+    maxCopyRuns: 200
+    research_material:
+      time: 315
+    research_time:
+      time: 315
+    seeded: false

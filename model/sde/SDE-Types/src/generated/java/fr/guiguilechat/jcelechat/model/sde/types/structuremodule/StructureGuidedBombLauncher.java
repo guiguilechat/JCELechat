@@ -27,7 +27,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OnlineMaxSecurityClass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
@@ -126,7 +126,7 @@ public class StructureGuidedBombLauncher
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * Determines the maximum security class that a module can be onlined within. Used for structure modules.
      * 
@@ -174,7 +174,7 @@ public class StructureGuidedBombLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup02 .INSTANCE, Speed.INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, ChargeRate.INSTANCE, MetaLevel.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup02 .INSTANCE, Speed.INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureGuidedBombLauncher.MetaGroup METAGROUP = new StructureGuidedBombLauncher.MetaGroup();
 
     @Override
@@ -226,7 +226,7 @@ public class StructureGuidedBombLauncher
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  2581 :
             {

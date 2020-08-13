@@ -14,7 +14,7 @@ types:
     marketGroup: 1317
     maxvelocity: 7000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Guristas Inferno XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -45,7 +45,7 @@ types:
     marketGroup: 1317
     maxvelocity: 7000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Guristas Mjolnir XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -75,7 +75,7 @@ types:
     marketGroup: 1317
     maxvelocity: 7000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Guristas Nova XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -105,7 +105,7 @@ types:
     marketGroup: 1317
     maxvelocity: 7000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Guristas Scourge XL Cruise Missile
     packagedVolume: 0.30000001192092896
     portionSize: 100

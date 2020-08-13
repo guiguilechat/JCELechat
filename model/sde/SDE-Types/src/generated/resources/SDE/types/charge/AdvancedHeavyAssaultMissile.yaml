@@ -16,7 +16,7 @@ types:
     launchergroup: 771
     marketGroup: 972
     maxvelocity: 3375.0
-    metalevel: 5
+    metalevelold: 5
     name: Inferno Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
@@ -51,7 +51,7 @@ types:
     launchergroup: 771
     marketGroup: 973
     maxvelocity: 1875.0
-    metalevel: 5
+    metalevelold: 5
     name: Inferno Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
@@ -87,7 +87,7 @@ types:
     launchergroup: 771
     marketGroup: 972
     maxvelocity: 3375.0
-    metalevel: 5
+    metalevelold: 5
     name: Mjolnir Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
@@ -122,7 +122,7 @@ types:
     launchergroup: 771
     marketGroup: 973
     maxvelocity: 1875.0
-    metalevel: 5
+    metalevelold: 5
     name: Mjolnir Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
@@ -157,7 +157,7 @@ types:
     launchergroup: 771
     marketGroup: 972
     maxvelocity: 3375.0
-    metalevel: 5
+    metalevelold: 5
     name: Nova Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
@@ -192,7 +192,7 @@ types:
     launchergroup: 771
     marketGroup: 973
     maxvelocity: 1875.0
-    metalevel: 5
+    metalevelold: 5
     name: Nova Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
@@ -227,7 +227,7 @@ types:
     launchergroup: 771
     marketGroup: 972
     maxvelocity: 3375.0
-    metalevel: 5
+    metalevelold: 5
     name: Scourge Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
@@ -262,7 +262,7 @@ types:
     launchergroup: 771
     marketGroup: 973
     maxvelocity: 1875.0
-    metalevel: 5
+    metalevelold: 5
     name: Scourge Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000

@@ -13,7 +13,7 @@ types:
     maxrange: 9000.0
     maxvelocitymultiplier: 1.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Delineative'' Warp Scrambler'
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -41,7 +41,7 @@ types:
     marketGroup: 1935
     maxrange: 24000.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Interruptive'' Warp Disruptor'
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -93,7 +93,7 @@ types:
     marketGroup: 1935
     maxrange: 26000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -121,7 +121,7 @@ types:
     maxrange: 10000.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -167,7 +167,7 @@ types:
     marketGroup: 1935
     maxrange: 30000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -195,7 +195,7 @@ types:
     maxrange: 11250.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -223,7 +223,7 @@ types:
     marketGroup: 1935
     maxrange: 30000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Heavy Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -251,7 +251,7 @@ types:
     maxrange: 12250.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Heavy Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -279,7 +279,7 @@ types:
     marketGroup: 1935
     maxrange: 30000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -307,7 +307,7 @@ types:
     maxrange: 11250.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -335,7 +335,7 @@ types:
     marketGroup: 1935
     maxrange: 26000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -363,7 +363,7 @@ types:
     maxrange: 10000.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -392,7 +392,7 @@ types:
     marketGroup: 1936
     maxrange: 8250.0
     maxvelocitymultiplier: 1.0
-    metalevel: 1
+    metalevelold: 1
     name: Faint Epsilon Scoped Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -419,7 +419,7 @@ types:
     id: 5403
     marketGroup: 1935
     maxrange: 22000.0
-    metalevel: 1
+    metalevelold: 1
     name: Faint Scoped Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -445,7 +445,7 @@ types:
     marketGroup: 1935
     maxrange: 28000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -473,7 +473,7 @@ types:
     maxrange: 10500.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Federation Navy Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -501,7 +501,7 @@ types:
     marketGroup: 1935
     maxrange: 37000.0
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Gotan's Modified Heavy Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -529,7 +529,7 @@ types:
     maxrange: 14250.0
     maxvelocitymultiplier: 1.0
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Gotan's Modified Heavy Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -557,7 +557,7 @@ types:
     marketGroup: 1935
     maxrange: 34000.0
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Hakim's Modified Heavy Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -585,7 +585,7 @@ types:
     maxrange: 13500.0
     maxvelocitymultiplier: 1.0
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Hakim's Modified Heavy Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -614,7 +614,7 @@ types:
     marketGroup: 1936
     maxrange: 9250.0
     maxvelocitymultiplier: 1.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Faint Epsilon Scoped Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -641,7 +641,7 @@ types:
     id: 40733
     marketGroup: 1935
     maxrange: 24000.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Faint Scoped Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -666,7 +666,7 @@ types:
     id: 40731
     marketGroup: 1935
     maxrange: 22000.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Fleeting Compact Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -693,7 +693,7 @@ types:
     marketGroup: 1936
     maxrange: 8500.0
     maxvelocitymultiplier: 1.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Initiated Compact Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -720,7 +720,7 @@ types:
     id: 40732
     marketGroup: 1935
     maxrange: 22000.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy J5 Enduring Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -747,7 +747,7 @@ types:
     marketGroup: 1936
     maxrange: 8500.0
     maxvelocitymultiplier: 1.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy J5b Enduring Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -798,7 +798,7 @@ types:
     id: 40734
     marketGroup: 1935
     maxrange: 26000.0
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Warp Disruptor II
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -853,7 +853,7 @@ types:
     marketGroup: 1936
     maxrange: 10000.0
     maxvelocitymultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Warp Scrambler II
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -880,7 +880,7 @@ types:
     id: 5405
     marketGroup: 1935
     maxrange: 20000.0
-    metalevel: 1
+    metalevelold: 1
     name: Initiated Compact Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -907,7 +907,7 @@ types:
     marketGroup: 1936
     maxrange: 7500.0
     maxvelocitymultiplier: 1.0
-    metalevel: 1
+    metalevelold: 1
     name: Initiated Compact Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -934,7 +934,7 @@ types:
     id: 5399
     marketGroup: 1935
     maxrange: 20000.0
-    metalevel: 1
+    metalevelold: 1
     name: J5 Enduring Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -961,7 +961,7 @@ types:
     marketGroup: 1936
     maxrange: 7500.0
     maxvelocitymultiplier: 1.0
-    metalevel: 1
+    metalevelold: 1
     name: J5b Enduring Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -989,7 +989,7 @@ types:
     marketGroup: 1935
     maxrange: 26000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1017,7 +1017,7 @@ types:
     maxrange: 10000.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1045,7 +1045,7 @@ types:
     marketGroup: 1935
     maxrange: 31000.0
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Mizuro's Modified Heavy Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1073,7 +1073,7 @@ types:
     maxrange: 12750.0
     maxvelocitymultiplier: 1.0
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Mizuro's Modified Heavy Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1101,7 +1101,7 @@ types:
     marketGroup: 1935
     maxrange: 30000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1129,7 +1129,7 @@ types:
     maxrange: 11250.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1157,7 +1157,7 @@ types:
     marketGroup: 1935
     maxrange: 28000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Heavy Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -1185,7 +1185,7 @@ types:
     maxrange: 11250.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Heavy Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 100.0
@@ -1213,7 +1213,7 @@ types:
     marketGroup: 1935
     maxrange: 28000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1241,7 +1241,7 @@ types:
     maxrange: 10500.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1269,7 +1269,7 @@ types:
     marketGroup: 1935
     maxrange: 40000.0
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Tobias' Modified Heavy Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1297,7 +1297,7 @@ types:
     maxrange: 15000.0
     maxvelocitymultiplier: 1.0
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Tobias' Modified Heavy Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1325,7 +1325,7 @@ types:
     marketGroup: 1935
     maxrange: 30000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Warp Disruptor
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1353,7 +1353,7 @@ types:
     maxrange: 11250.0
     maxvelocitymultiplier: 1.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Warp Scrambler
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1404,7 +1404,7 @@ types:
     id: 3244
     marketGroup: 1935
     maxrange: 24000.0
-    metalevel: 5
+    metalevelold: 5
     name: Warp Disruptor II
     overloadrangebonus: 20
     packagedVolume: 5.0
@@ -1459,7 +1459,7 @@ types:
     marketGroup: 1936
     maxrange: 9000.0
     maxvelocitymultiplier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Warp Scrambler II
     overloadrangebonus: 20
     packagedVolume: 5.0

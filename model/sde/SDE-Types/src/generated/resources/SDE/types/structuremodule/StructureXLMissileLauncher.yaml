@@ -33,7 +33,7 @@ types:
     hp: 40.0
     id: 47323
     marketGroup: 2230
-    metalevel: 5
+    metalevelold: 5
     name: Standup Anticapital Missile Launcher II
     packagedVolume: 4000.0
     portionSize: 1

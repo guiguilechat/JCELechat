@@ -48,7 +48,7 @@ types:
     maxtargetrange: 20000.0
     maxvelocity: 420.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     miningamountmultiplier: 4.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Endurance
@@ -140,7 +140,7 @@ types:
     maxtargetrange: 20000.0
     maxvelocity: 380.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     miningamountmultiplier: 2.0
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Prospect

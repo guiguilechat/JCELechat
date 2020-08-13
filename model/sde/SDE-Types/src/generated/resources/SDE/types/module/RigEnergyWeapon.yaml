@@ -24,7 +24,7 @@ types:
     hp: 40.0
     id: 31428
     marketGroup: 1735
-    metalevel: 5
+    metalevelold: 5
     name: Capital Algid Energy Administrations Unit II
     packagedVolume: 40.0
     portionSize: 1
@@ -61,7 +61,7 @@ types:
     hp: 40.0
     id: 31440
     marketGroup: 1735
-    metalevel: 5
+    metalevelold: 5
     name: Capital Energy Ambit Extension II
     packagedVolume: 40.0
     portionSize: 1
@@ -96,7 +96,7 @@ types:
     hp: 40.0
     id: 31452
     marketGroup: 1735
-    metalevel: 5
+    metalevelold: 5
     name: Capital Energy Burst Aerator II
     packagedVolume: 40.0
     portionSize: 1
@@ -131,7 +131,7 @@ types:
     hp: 40.0
     id: 31464
     marketGroup: 1735
-    metalevel: 5
+    metalevelold: 5
     name: Capital Energy Collision Accelerator II
     packagedVolume: 40.0
     portionSize: 1
@@ -168,7 +168,7 @@ types:
     hp: 40.0
     id: 31476
     marketGroup: 1735
-    metalevel: 5
+    metalevelold: 5
     name: Capital Energy Discharge Elutriation II
     packagedVolume: 40.0
     portionSize: 1
@@ -205,7 +205,7 @@ types:
     id: 31488
     marketGroup: 1735
     maxrangebonus: 20.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Energy Locus Coordinator II
     packagedVolume: 40.0
     portionSize: 1
@@ -241,7 +241,7 @@ types:
     hp: 40.0
     id: 31500
     marketGroup: 1735
-    metalevel: 5
+    metalevelold: 5
     name: Capital Energy Metastasis Adjuster II
     packagedVolume: 40.0
     portionSize: 1
@@ -279,7 +279,7 @@ types:
     hp: 40.0
     id: 26384
     marketGroup: 1227
-    metalevel: 5
+    metalevelold: 5
     name: Large Algid Energy Administrations Unit II
     packagedVolume: 20.0
     portionSize: 1
@@ -316,7 +316,7 @@ types:
     hp: 40.0
     id: 26386
     marketGroup: 1227
-    metalevel: 5
+    metalevelold: 5
     name: Large Energy Ambit Extension II
     packagedVolume: 20.0
     portionSize: 1
@@ -351,7 +351,7 @@ types:
     hp: 40.0
     id: 26380
     marketGroup: 1227
-    metalevel: 5
+    metalevelold: 5
     name: Large Energy Burst Aerator II
     packagedVolume: 20.0
     portionSize: 1
@@ -386,7 +386,7 @@ types:
     hp: 40.0
     id: 26382
     marketGroup: 1227
-    metalevel: 5
+    metalevelold: 5
     name: Large Energy Collision Accelerator II
     packagedVolume: 20.0
     portionSize: 1
@@ -423,7 +423,7 @@ types:
     hp: 40.0
     id: 26378
     marketGroup: 1227
-    metalevel: 5
+    metalevelold: 5
     name: Large Energy Discharge Elutriation II
     packagedVolume: 20.0
     portionSize: 1
@@ -460,7 +460,7 @@ types:
     id: 26388
     marketGroup: 1227
     maxrangebonus: 20.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Energy Locus Coordinator II
     packagedVolume: 20.0
     portionSize: 1
@@ -496,7 +496,7 @@ types:
     hp: 40.0
     id: 26390
     marketGroup: 1227
-    metalevel: 5
+    metalevelold: 5
     name: Large Energy Metastasis Adjuster II
     packagedVolume: 20.0
     portionSize: 1
@@ -534,7 +534,7 @@ types:
     hp: 40.0
     id: 31426
     marketGroup: 1226
-    metalevel: 5
+    metalevelold: 5
     name: Medium Algid Energy Administrations Unit II
     packagedVolume: 10.0
     portionSize: 1
@@ -571,7 +571,7 @@ types:
     hp: 40.0
     id: 31438
     marketGroup: 1226
-    metalevel: 5
+    metalevelold: 5
     name: Medium Energy Ambit Extension II
     packagedVolume: 10.0
     portionSize: 1
@@ -606,7 +606,7 @@ types:
     hp: 40.0
     id: 31450
     marketGroup: 1226
-    metalevel: 5
+    metalevelold: 5
     name: Medium Energy Burst Aerator II
     packagedVolume: 10.0
     portionSize: 1
@@ -641,7 +641,7 @@ types:
     hp: 40.0
     id: 31462
     marketGroup: 1226
-    metalevel: 5
+    metalevelold: 5
     name: Medium Energy Collision Accelerator II
     packagedVolume: 10.0
     portionSize: 1
@@ -678,7 +678,7 @@ types:
     hp: 40.0
     id: 31474
     marketGroup: 1226
-    metalevel: 5
+    metalevelold: 5
     name: Medium Energy Discharge Elutriation II
     packagedVolume: 10.0
     portionSize: 1
@@ -715,7 +715,7 @@ types:
     id: 31486
     marketGroup: 1226
     maxrangebonus: 20.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Energy Locus Coordinator II
     packagedVolume: 10.0
     portionSize: 1
@@ -751,7 +751,7 @@ types:
     hp: 40.0
     id: 31498
     marketGroup: 1226
-    metalevel: 5
+    metalevelold: 5
     name: Medium Energy Metastasis Adjuster II
     packagedVolume: 10.0
     portionSize: 1
@@ -789,7 +789,7 @@ types:
     hp: 40.0
     id: 31424
     marketGroup: 1225
-    metalevel: 5
+    metalevelold: 5
     name: Small Algid Energy Administrations Unit II
     packagedVolume: 5.0
     portionSize: 1
@@ -826,7 +826,7 @@ types:
     hp: 40.0
     id: 31436
     marketGroup: 1225
-    metalevel: 5
+    metalevelold: 5
     name: Small Energy Ambit Extension II
     packagedVolume: 5.0
     portionSize: 1
@@ -861,7 +861,7 @@ types:
     hp: 40.0
     id: 31448
     marketGroup: 1225
-    metalevel: 5
+    metalevelold: 5
     name: Small Energy Burst Aerator II
     packagedVolume: 5.0
     portionSize: 1
@@ -896,7 +896,7 @@ types:
     hp: 40.0
     id: 31460
     marketGroup: 1225
-    metalevel: 5
+    metalevelold: 5
     name: Small Energy Collision Accelerator II
     packagedVolume: 5.0
     portionSize: 1
@@ -933,7 +933,7 @@ types:
     hp: 40.0
     id: 31472
     marketGroup: 1225
-    metalevel: 5
+    metalevelold: 5
     name: Small Energy Discharge Elutriation II
     packagedVolume: 5.0
     portionSize: 1
@@ -970,7 +970,7 @@ types:
     id: 31484
     marketGroup: 1225
     maxrangebonus: 20.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Energy Locus Coordinator II
     packagedVolume: 5.0
     portionSize: 1
@@ -1006,7 +1006,7 @@ types:
     hp: 40.0
     id: 31496
     marketGroup: 1225
-    metalevel: 5
+    metalevelold: 5
     name: Small Energy Metastasis Adjuster II
     packagedVolume: 5.0
     portionSize: 1

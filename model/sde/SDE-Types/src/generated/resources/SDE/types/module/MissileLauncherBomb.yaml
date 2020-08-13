@@ -49,7 +49,7 @@ types:
     marketGroup: 1014
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     minvelocityactivationlimit: 1
     modulereactivationdelay: 135000
     name: Bomb Launcher II

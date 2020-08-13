@@ -41,7 +41,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 375.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Hyena
     packagedVolume: 2500.0
@@ -127,7 +127,7 @@ types:
     maxtargetrange: 64500.0
     maxvelocity: 350.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Keres
     packagedVolume: 2500.0
@@ -212,7 +212,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 315.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Kitsune
     packagedVolume: 2500.0
@@ -299,7 +299,7 @@ types:
     maxtargetrange: 64000.0
     maxvelocity: 340.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Sentinel
     packagedVolume: 2500.0

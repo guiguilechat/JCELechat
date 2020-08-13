@@ -46,7 +46,7 @@ types:
     maxtargetrange: 80000.0
     maxvelocity: 192.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     name: Basilisk
     packagedVolume: 10000.0
     portionSize: 1
@@ -138,7 +138,7 @@ types:
     maxvelocity: 200.0
     medslots: 6
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     name: Etana
     packagedVolume: 10000.0
     portionSize: 1
@@ -229,7 +229,7 @@ types:
     maxtargetrange: 65000.0
     maxvelocity: 209.0
     medslots: 2
-    metalevel: 5
+    metalevelold: 5
     name: Guardian
     packagedVolume: 10000.0
     portionSize: 1
@@ -320,7 +320,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 230.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     name: Oneiros
     packagedVolume: 10000.0
     portionSize: 1
@@ -412,7 +412,7 @@ types:
     maxvelocity: 250.0
     medslots: 3
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     name: Rabisu
     nosoverride: 1
     packagedVolume: 10000.0
@@ -511,7 +511,7 @@ types:
     maxtargetrange: 60000.0
     maxvelocity: 253.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     name: Scimitar
     packagedVolume: 10000.0
     portionSize: 1
@@ -601,7 +601,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 238.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     name: Zarmazd
     packagedVolume: 10000.0
     portionSize: 1

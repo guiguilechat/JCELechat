@@ -29,7 +29,7 @@ types:
     id: 30836
     marketGroup: 1715
     maxrange: 6000.0
-    metalevel: 5
+    metalevelold: 5
     name: Salvager II
     packagedVolume: 5.0
     portionSize: 1

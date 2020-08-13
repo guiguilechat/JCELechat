@@ -21,7 +21,7 @@ types:
     hp: 40.0
     id: 31211
     marketGroup: 1789
-    metalevel: 5
+    metalevelold: 5
     name: Capital Emission Scope Sharpener II
     packagedVolume: 40.0
     portionSize: 1
@@ -52,7 +52,7 @@ types:
     hp: 40.0
     id: 31224
     marketGroup: 1789
-    metalevel: 5
+    metalevelold: 5
     name: Capital Gravity Capacitor Upgrade II
     packagedVolume: 40.0
     portionSize: 1
@@ -85,7 +85,7 @@ types:
     hp: 40.0
     id: 31248
     marketGroup: 1789
-    metalevel: 5
+    metalevelold: 5
     name: Capital Memetic Algorithm Bank II
     packagedVolume: 40.0
     portionSize: 1
@@ -116,7 +116,7 @@ types:
     hp: 40.0
     id: 31320
     marketGroup: 1789
-    metalevel: 5
+    metalevelold: 5
     name: Capital Signal Focusing Kit II
     packagedVolume: 40.0
     portionSize: 1
@@ -149,7 +149,7 @@ types:
     hp: 40.0
     id: 26342
     marketGroup: 1788
-    metalevel: 5
+    metalevelold: 5
     name: Large Emission Scope Sharpener II
     packagedVolume: 20.0
     portionSize: 1
@@ -180,7 +180,7 @@ types:
     hp: 40.0
     id: 26350
     marketGroup: 1788
-    metalevel: 5
+    metalevelold: 5
     name: Large Gravity Capacitor Upgrade II
     packagedVolume: 20.0
     portionSize: 1
@@ -213,7 +213,7 @@ types:
     hp: 40.0
     id: 26346
     marketGroup: 1788
-    metalevel: 5
+    metalevelold: 5
     name: Large Memetic Algorithm Bank II
     packagedVolume: 20.0
     portionSize: 1
@@ -244,7 +244,7 @@ types:
     hp: 40.0
     id: 26362
     marketGroup: 1788
-    metalevel: 5
+    metalevelold: 5
     name: Large Signal Focusing Kit II
     packagedVolume: 20.0
     portionSize: 1
@@ -277,7 +277,7 @@ types:
     hp: 40.0
     id: 31209
     marketGroup: 1787
-    metalevel: 5
+    metalevelold: 5
     name: Medium Emission Scope Sharpener II
     packagedVolume: 10.0
     portionSize: 1
@@ -308,7 +308,7 @@ types:
     hp: 40.0
     id: 31222
     marketGroup: 1787
-    metalevel: 5
+    metalevelold: 5
     name: Medium Gravity Capacitor Upgrade II
     packagedVolume: 10.0
     portionSize: 1
@@ -341,7 +341,7 @@ types:
     hp: 40.0
     id: 31246
     marketGroup: 1787
-    metalevel: 5
+    metalevelold: 5
     name: Medium Memetic Algorithm Bank II
     packagedVolume: 10.0
     portionSize: 1
@@ -372,7 +372,7 @@ types:
     hp: 40.0
     id: 31318
     marketGroup: 1787
-    metalevel: 5
+    metalevelold: 5
     name: Medium Signal Focusing Kit II
     packagedVolume: 10.0
     portionSize: 1
@@ -405,7 +405,7 @@ types:
     hp: 40.0
     id: 31207
     marketGroup: 1786
-    metalevel: 5
+    metalevelold: 5
     name: Small Emission Scope Sharpener II
     packagedVolume: 5.0
     portionSize: 1
@@ -436,7 +436,7 @@ types:
     hp: 40.0
     id: 31220
     marketGroup: 1786
-    metalevel: 5
+    metalevelold: 5
     name: Small Gravity Capacitor Upgrade II
     packagedVolume: 5.0
     portionSize: 1
@@ -469,7 +469,7 @@ types:
     hp: 40.0
     id: 31244
     marketGroup: 1786
-    metalevel: 5
+    metalevelold: 5
     name: Small Memetic Algorithm Bank II
     packagedVolume: 5.0
     portionSize: 1
@@ -500,7 +500,7 @@ types:
     hp: 40.0
     id: 31316
     marketGroup: 1786
-    metalevel: 5
+    metalevelold: 5
     name: Small Signal Focusing Kit II
     packagedVolume: 5.0
     portionSize: 1

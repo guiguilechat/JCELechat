@@ -27,7 +27,7 @@ types:
     hp: 40.0
     id: 2038
     marketGroup: 711
-    metalevel: 5
+    metalevelold: 5
     name: Cargo Scanner II
     packagedVolume: 5.0
     portionSize: 1
@@ -47,7 +47,7 @@ types:
     hp: 40.0
     id: 6135
     marketGroup: 711
-    metalevel: 1
+    metalevelold: 1
     name: PL-0 Scoped Cargo Scanner
     packagedVolume: 5.0
     portionSize: 1
@@ -67,7 +67,7 @@ types:
     hp: 40.0
     id: 6131
     marketGroup: 711
-    metalevel: 1
+    metalevelold: 1
     name: Type-E Enduring Cargo Scanner
     packagedVolume: 5.0
     portionSize: 1

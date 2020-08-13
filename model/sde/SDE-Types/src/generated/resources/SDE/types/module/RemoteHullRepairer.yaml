@@ -37,7 +37,7 @@ types:
     id: 41475
     marketGroup: 1063
     maxrange: 18000.0
-    metalevel: 5
+    metalevelold: 5
     name: Capital Remote Hull Repairer II
     overloadselfdurationbonus: -15.0
     packagedVolume: 1000.0
@@ -90,7 +90,7 @@ types:
     id: 3986
     marketGroup: 1062
     maxrange: 14400.0
-    metalevel: 5
+    metalevelold: 5
     name: Large Remote Hull Repairer II
     overloadselfdurationbonus: -15.0
     packagedVolume: 50.0
@@ -141,7 +141,7 @@ types:
     id: 4296
     marketGroup: 1061
     maxrange: 10500.0
-    metalevel: 5
+    metalevelold: 5
     name: Medium Remote Hull Repairer II
     overloadselfdurationbonus: -15.0
     packagedVolume: 10.0
@@ -192,7 +192,7 @@ types:
     id: 4299
     marketGroup: 1060
     maxrange: 8400.0
-    metalevel: 5
+    metalevelold: 5
     name: Small Remote Hull Repairer II
     overloadselfdurationbonus: -15.0
     packagedVolume: 5.0

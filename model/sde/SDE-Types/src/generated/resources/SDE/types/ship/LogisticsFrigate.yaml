@@ -44,7 +44,7 @@ types:
     maxtargetrange: 45000.0
     maxvelocity: 405.0
     medslots: 2
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Deacon
     packagedVolume: 2500.0
@@ -132,7 +132,7 @@ types:
     maxtargetrange: 50000.0
     maxvelocity: 370.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Kirin
     packagedVolume: 2500.0
@@ -221,7 +221,7 @@ types:
     maxtargetrange: 40000.0
     maxvelocity: 415.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Scalpel
     packagedVolume: 2500.0
@@ -310,7 +310,7 @@ types:
     maxtargetrange: 43000.0
     maxvelocity: 410.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 0.05000000074505806
     name: Thalia
     packagedVolume: 2500.0

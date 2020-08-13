@@ -35,7 +35,7 @@ types:
     marketGroup: 712
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     name: Core Probe Launcher II
     packagedVolume: 5.0
     portionSize: 1
@@ -87,7 +87,7 @@ types:
     marketGroup: 712
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     name: Expanded Probe Launcher II
     packagedVolume: 5.0
     portionSize: 1
@@ -113,7 +113,7 @@ types:
     id: 2083
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 4
+    metalevelold: 4
     name: Prototype Iris Probe Launcher
     packagedVolume: 5.0
     portionSize: 1
@@ -139,7 +139,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     name: Sisters Core Probe Launcher
     packagedVolume: 5.0
     portionSize: 1
@@ -167,7 +167,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     name: Sisters Expanded Probe Launcher
     packagedVolume: 5.0
     portionSize: 1

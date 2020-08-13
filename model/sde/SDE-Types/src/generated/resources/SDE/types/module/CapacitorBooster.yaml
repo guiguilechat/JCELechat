@@ -12,7 +12,7 @@ types:
     marketGroup: 700
     maxgrouponline: 10
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Harness'' Medium Capacitor Booster I'
     overloadselfdurationbonus: -20.0
     packagedVolume: 10.0
@@ -40,7 +40,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Plough'' Heavy Capacitor Booster I'
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -68,7 +68,7 @@ types:
     marketGroup: 699
     maxgrouponline: 10
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Saddle'' Small Capacitor Booster I'
     overloadselfdurationbonus: -20.0
     packagedVolume: 5.0
@@ -95,7 +95,7 @@ types:
     id: 4959
     marketGroup: 698
     maxgrouponline: 10
-    metalevel: 6
+    metalevelold: 6
     name: '''Seed'' Micro Capacitor Booster I'
     overloadselfdurationbonus: -20.0
     packagedVolume: 2.5
@@ -123,7 +123,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Ahremen's Modified Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -151,7 +151,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -179,7 +179,7 @@ types:
     marketGroup: 700
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Medium Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 10.0
@@ -207,7 +207,7 @@ types:
     marketGroup: 699
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Ammatar Navy Small Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 5.0
@@ -235,7 +235,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Brokara's Modified Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -288,7 +288,7 @@ types:
     id: 41493
     marketGroup: 2243
     maxgrouponline: 10
-    metalevel: 5
+    metalevelold: 5
     name: Capital Capacitor Booster II
     overloadselfdurationbonus: -20.0
     packagedVolume: 1000.0
@@ -315,7 +315,7 @@ types:
     id: 41492
     marketGroup: 2243
     maxgrouponline: 10
-    metalevel: 1
+    metalevelold: 1
     name: Capital F-RX Compact Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 1000.0
@@ -343,7 +343,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Chelm's Modified Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -371,7 +371,7 @@ types:
     marketGroup: 2243
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Capital Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 1000.0
@@ -399,7 +399,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -427,7 +427,7 @@ types:
     marketGroup: 700
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Medium Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 10.0
@@ -455,7 +455,7 @@ types:
     marketGroup: 699
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Small Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 5.0
@@ -483,7 +483,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Draclira's Modified Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -511,7 +511,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Heavy 'Brave' Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -564,7 +564,7 @@ types:
     id: 3578
     marketGroup: 701
     maxgrouponline: 10
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Capacitor Booster II
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -591,7 +591,7 @@ types:
     id: 5051
     marketGroup: 701
     maxgrouponline: 10
-    metalevel: 1
+    metalevelold: 1
     name: Heavy F-RX Compact Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -619,7 +619,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -647,7 +647,7 @@ types:
     marketGroup: 700
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Medium Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 10.0
@@ -675,7 +675,7 @@ types:
     marketGroup: 699
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Imperial Navy Small Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 5.0
@@ -703,7 +703,7 @@ types:
     marketGroup: 700
     maxgrouponline: 10
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Medium 'Gattotte' Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 10.0
@@ -756,7 +756,7 @@ types:
     id: 2024
     marketGroup: 700
     maxgrouponline: 10
-    metalevel: 5
+    metalevelold: 5
     name: Medium Capacitor Booster II
     overloadselfdurationbonus: -20.0
     packagedVolume: 10.0
@@ -783,7 +783,7 @@ types:
     id: 4833
     marketGroup: 700
     maxgrouponline: 10
-    metalevel: 1
+    metalevelold: 1
     name: Medium F-RX Compact Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 10.0
@@ -811,7 +811,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Raysere's Modified Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -839,7 +839,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Selynne's Modified Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -867,7 +867,7 @@ types:
     marketGroup: 699
     maxgrouponline: 10
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Small 'Siesta' Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 5.0
@@ -920,7 +920,7 @@ types:
     id: 3568
     marketGroup: 699
     maxgrouponline: 10
-    metalevel: 5
+    metalevelold: 5
     name: Small Capacitor Booster II
     overloadselfdurationbonus: -20.0
     packagedVolume: 5.0
@@ -947,7 +947,7 @@ types:
     id: 5011
     marketGroup: 699
     maxgrouponline: 10
-    metalevel: 1
+    metalevelold: 1
     name: Small F-RX Compact Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 5.0
@@ -975,7 +975,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Tairei's Modified Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -1003,7 +1003,7 @@ types:
     marketGroup: 2243
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Capital Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 1000.0
@@ -1031,7 +1031,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0
@@ -1059,7 +1059,7 @@ types:
     marketGroup: 700
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Medium Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 10.0
@@ -1087,7 +1087,7 @@ types:
     marketGroup: 699
     maxgrouponline: 10
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: True Sansha Small Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 5.0
@@ -1115,7 +1115,7 @@ types:
     marketGroup: 701
     maxgrouponline: 10
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Vizan's Modified Heavy Capacitor Booster
     overloadselfdurationbonus: -20.0
     packagedVolume: 20.0

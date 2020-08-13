@@ -7,10 +7,10 @@ import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
  * Authoring has been moved to FSD
  * The ranking of the module within its tech level
  */
-public class MetaLevel
+public class MetaLevelOld
     extends IntAttribute
 {
-    public static final MetaLevel INSTANCE = new MetaLevel();
+    public static final MetaLevelOld INSTANCE = new MetaLevelOld();
 
     @Override
     public int getId() {
@@ -39,6 +39,6 @@ public class MetaLevel
 
     @Override
     public String toString() {
-        return "MetaLevel";
+        return "MetaLevelOld";
     }
 }

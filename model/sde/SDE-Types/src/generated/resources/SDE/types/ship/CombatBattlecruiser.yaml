@@ -123,7 +123,7 @@ types:
     maxvelocity: 165.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Brutix Navy Issue
     packagedVolume: 15000.0
@@ -373,7 +373,7 @@ types:
     maxvelocity: 180.0
     medslots: 6
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Drake Navy Issue
     packagedVolume: 15000.0
@@ -784,7 +784,7 @@ types:
     maxvelocity: 175.0
     medslots: 5
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Harbinger Navy Issue
     packagedVolume: 15000.0
@@ -952,7 +952,7 @@ types:
     maxvelocity: 185.0
     medslots: 4
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     mintargetveldmgmultiplier: 0.25
     name: Hurricane Fleet Issue
     packagedVolume: 15000.0

@@ -9,7 +9,7 @@ types:
     hp: 40.0
     id: 16527
     marketGroup: 639
-    metalevel: 4
+    metalevelold: 4
     name: '''Arbalest'' Rocket Launcher I'
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -41,7 +41,7 @@ types:
     id: 20593
     marketGroup: 639
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Balefire'' Rocket Launcher'
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -71,7 +71,7 @@ types:
     hp: 40.0
     id: 16523
     marketGroup: 639
-    metalevel: 2
+    metalevelold: 2
     name: '''Limos'' Rocket Launcher I'
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -101,7 +101,7 @@ types:
     hp: 40.0
     id: 16521
     marketGroup: 639
-    metalevel: 1
+    metalevelold: 1
     name: '''Malkuth'' Rocket Launcher I'
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -133,7 +133,7 @@ types:
     id: 16065
     marketGroup: 639
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Rocket Launcher
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -165,7 +165,7 @@ types:
     id: 13931
     marketGroup: 639
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     name: Domination Rocket Launcher
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -197,7 +197,7 @@ types:
     id: 13933
     marketGroup: 639
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Rocket Launcher
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -229,7 +229,7 @@ types:
     id: 28511
     marketGroup: 639
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Khanid Navy Rocket Launcher
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -261,7 +261,7 @@ types:
     id: 21542
     marketGroup: 639
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: N-1 Neon Type Rocket Bay
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -291,7 +291,7 @@ types:
     hp: 40.0
     id: 16525
     marketGroup: 639
-    metalevel: 3
+    metalevelold: 3
     name: OE-5200 Rocket Launcher
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -322,7 +322,7 @@ types:
     hp: 40.0
     id: 34290
     marketGroup: 639
-    metalevel: 9
+    metalevelold: 9
     name: Polarized Rocket Launcher
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -356,7 +356,7 @@ types:
     id: 17488
     marketGroup: 639
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     name: Republic Fleet Rocket Launcher
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -416,7 +416,7 @@ types:
     hp: 40.0
     id: 10631
     marketGroup: 639
-    metalevel: 5
+    metalevelold: 5
     name: Rocket Launcher II
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -448,7 +448,7 @@ types:
     id: 22564
     marketGroup: 639
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     name: True Sansha Rocket Launcher
     overloadrofbonus: -15
     packagedVolume: 5.0

@@ -6,7 +6,7 @@ types:
     hp: 40.0
     id: 22921
     maxrange: 12000.0
-    metalevel: 6
+    metalevelold: 6
     miningamount: 55
     name: '''Habitat'' Miner I'
     packagedVolume: 5.0
@@ -27,7 +27,7 @@ types:
     hp: 40.0
     id: 22923
     maxrange: 12400.0
-    metalevel: 6
+    metalevelold: 6
     miningamount: 60
     name: '''Wild'' Miner I'
     packagedVolume: 5.0
@@ -97,7 +97,7 @@ types:
     id: 5239
     marketGroup: 1039
     maxrange: 16000.0
-    metalevel: 1
+    metalevelold: 1
     miningamount: 50
     name: EP-S Gaussian Scoped Mining Laser
     packagedVolume: 5.0
@@ -121,7 +121,7 @@ types:
     marketGroup: 1039
     maxrange: 10000.0
     metagroupid: 3
-    metalevel: 8
+    metalevelold: 8
     miningamount: 45
     name: Gallente Mining Laser
     packagedVolume: 5.0
@@ -168,7 +168,7 @@ types:
     id: 37451
     marketGroup: 2151
     maxrange: 8000.0
-    metalevel: 5
+    metalevelold: 5
     miningamount: 1000
     name: Ice Mining Laser II
     packagedVolume: 5.0
@@ -213,7 +213,7 @@ types:
     id: 482
     marketGroup: 1039
     maxrange: 12000.0
-    metalevel: 5
+    metalevelold: 5
     miningamount: 60
     name: Miner II
     packagedVolume: 5.0
@@ -239,7 +239,7 @@ types:
     marketGroup: 1039
     maxrange: 7000.0
     metagroupid: 4
-    metalevel: 6
+    metalevelold: 6
     miningamount: 40
     name: ORE Deep Core Mining Laser
     packagedVolume: 5.0
@@ -266,7 +266,7 @@ types:
     marketGroup: 2151
     maxrange: 11000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     miningamount: 1000
     name: ORE Ice Mining Laser
     packagedVolume: 5.0
@@ -290,7 +290,7 @@ types:
     marketGroup: 1039
     maxrange: 16000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     miningamount: 65
     name: ORE Miner
     packagedVolume: 5.0
@@ -313,7 +313,7 @@ types:
     id: 5245
     marketGroup: 1039
     maxrange: 11000.0
-    metalevel: 1
+    metalevelold: 1
     miningamount: 50
     name: Particle Bore Compact Mining Laser
     packagedVolume: 5.0
@@ -337,7 +337,7 @@ types:
     marketGroup: 1039
     maxrange: 11000.0
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     miningamount: 25
     name: Single Diode Basic Mining Laser
     packagedVolume: 5.0

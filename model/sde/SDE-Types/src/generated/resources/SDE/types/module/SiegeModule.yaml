@@ -151,7 +151,7 @@ types:
     marketGroup: 801
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     name: Industrial Core II
     packagedVolume: 1000.0
     portionSize: 1
@@ -253,7 +253,7 @@ types:
     marketGroup: 801
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     name: Siege Module II
     packagedVolume: 1000.0
     portionSize: 1
@@ -365,7 +365,7 @@ types:
     maxgroupactive: 1
     maxgroupfitted: 1
     maxlockedtargetsbonus: 5
-    metalevel: 5
+    metalevelold: 5
     name: Triage Module II
     packagedVolume: 1000.0
     portionSize: 1

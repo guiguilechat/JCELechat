@@ -24,7 +24,7 @@ types:
     id: 33199
     marketGroup: 1709
     maxscandeviationmodifiermodule: -20
-    metalevel: 5
+    metalevelold: 5
     name: Scan Pinpointing Array II
     packagedVolume: 5.0
     portionSize: 1
@@ -60,7 +60,7 @@ types:
     hp: 40.0
     id: 33201
     marketGroup: 1709
-    metalevel: 5
+    metalevelold: 5
     name: Scan Rangefinding Array II
     packagedVolume: 5.0
     portionSize: 1

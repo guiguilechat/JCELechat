@@ -36,7 +36,7 @@ types:
     hp: 40.0
     id: 41415
     marketGroup: 938
-    metalevel: 5
+    metalevelold: 5
     name: Fighter Support Unit II
     packagedVolume: 1000.0
     portionSize: 1
@@ -60,7 +60,7 @@ types:
     hp: 40.0
     id: 41414
     marketGroup: 938
-    metalevel: 1
+    metalevelold: 1
     name: Hermes Compact Fighter Support Unit
     packagedVolume: 1000.0
     portionSize: 1
@@ -86,7 +86,7 @@ types:
     id: 41417
     marketGroup: 938
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Sentient Fighter Support Unit
     packagedVolume: 1000.0
     portionSize: 1
@@ -112,7 +112,7 @@ types:
     id: 32951
     marketGroup: 938
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Unit D-34343's Modified Fighter Support Unit
     packagedVolume: 800.0
     portionSize: 1
@@ -137,7 +137,7 @@ types:
     id: 32953
     marketGroup: 938
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Unit F-435454's Modified Fighter Support Unit
     packagedVolume: 600.0
     portionSize: 1
@@ -162,7 +162,7 @@ types:
     id: 32955
     marketGroup: 938
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Unit P-343554's Modified Fighter Support Unit
     packagedVolume: 400.0
     portionSize: 1
@@ -187,7 +187,7 @@ types:
     id: 32957
     marketGroup: 938
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Unit W-634's Modified Fighter Support Unit
     packagedVolume: 200.0
     portionSize: 1

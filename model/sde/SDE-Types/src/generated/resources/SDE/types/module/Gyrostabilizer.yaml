@@ -6,7 +6,7 @@ types:
     id: 518
     marketGroup: 646
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Basic'' Gyrostabilizer'
     packagedVolume: 5.0
     portionSize: 1
@@ -25,7 +25,7 @@ types:
     id: 21486
     marketGroup: 646
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: '''Kindred'' Gyrostabilizer'
     packagedVolume: 5.0
     portionSize: 1
@@ -57,7 +57,7 @@ types:
     hp: 40.0
     id: 5933
     marketGroup: 646
-    metalevel: 1
+    metalevelold: 1
     name: Counterbalanced Compact Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -76,7 +76,7 @@ types:
     id: 13939
     marketGroup: 646
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -95,7 +95,7 @@ types:
     id: 14540
     marketGroup: 646
     metagroupid: 5
-    metalevel: 15
+    metalevelold: 15
     name: Gotan's Modified Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -130,7 +130,7 @@ types:
     hp: 40.0
     id: 519
     marketGroup: 646
-    metalevel: 5
+    metalevelold: 5
     name: Gyrostabilizer II
     packagedVolume: 5.0
     portionSize: 1
@@ -149,7 +149,7 @@ types:
     id: 14538
     marketGroup: 646
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Hakim's Modified Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -168,7 +168,7 @@ types:
     id: 14536
     marketGroup: 646
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Mizuro's Modified Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -187,7 +187,7 @@ types:
     id: 15806
     marketGroup: 646
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -206,7 +206,7 @@ types:
     id: 15447
     marketGroup: 646
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Shaqil's Modified Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -225,7 +225,7 @@ types:
     id: 14542
     marketGroup: 646
     metagroupid: 5
-    metalevel: 17
+    metalevelold: 17
     name: Tobias' Modified Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1
@@ -244,7 +244,7 @@ types:
     id: 44112
     marketGroup: 646
     metagroupid: 3
-    metalevel: 6
+    metalevelold: 6
     name: Vadari's Custom Gyrostabilizer
     packagedVolume: 5.0
     portionSize: 1

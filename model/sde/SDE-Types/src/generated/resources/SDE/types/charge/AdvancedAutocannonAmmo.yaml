@@ -12,7 +12,7 @@ types:
     maincolor: 11835778
     marketGroup: 857
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Barrage L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
@@ -40,7 +40,7 @@ types:
     maincolor: 11835778
     marketGroup: 858
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Barrage M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
@@ -68,7 +68,7 @@ types:
     maincolor: 11835778
     marketGroup: 859
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Barrage S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
@@ -96,7 +96,7 @@ types:
     maincolor: 11835778
     marketGroup: 2253
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Barrage XL
     packagedVolume: 0.125
     portionSize: 100
@@ -124,7 +124,7 @@ types:
     maincolor: 11835778
     marketGroup: 857
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Hail L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
@@ -152,7 +152,7 @@ types:
     maincolor: 11835778
     marketGroup: 858
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Hail M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
@@ -180,7 +180,7 @@ types:
     maincolor: 11835778
     marketGroup: 859
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Hail S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
@@ -208,7 +208,7 @@ types:
     maincolor: 11835778
     marketGroup: 2253
     maxvelocitymodifier: 1.0
-    metalevel: 5
+    metalevelold: 5
     name: Hail XL
     packagedVolume: 0.125
     portionSize: 100

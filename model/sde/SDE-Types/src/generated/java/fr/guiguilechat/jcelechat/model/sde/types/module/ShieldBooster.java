@@ -23,7 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSelfDurationBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadShieldBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
@@ -96,7 +96,7 @@ public class ShieldBooster
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * 
      */
@@ -154,7 +154,7 @@ public class ShieldBooster
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ShieldBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, CapacitorNeed.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadShieldBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevel.INSTANCE, HeatDamage.INSTANCE, MetaGroupID.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ShieldBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, CapacitorNeed.INSTANCE, Capacity.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, OverloadShieldBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MetaGroupID.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, Power.INSTANCE })));
     public static final ShieldBooster.MetaGroup METAGROUP = new ShieldBooster.MetaGroup();
 
     @Override
@@ -186,7 +186,7 @@ public class ShieldBooster
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  1206 :
             {

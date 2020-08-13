@@ -16,7 +16,7 @@ types:
     launchergroup: 508
     marketGroup: 929
     maxvelocity: 2250.0
-    metalevel: 5
+    metalevelold: 5
     name: Inferno Javelin Torpedo
     packagedVolume: 0.05000000074505806
     portionSize: 5000
@@ -50,7 +50,7 @@ types:
     launchergroup: 508
     marketGroup: 931
     maxvelocity: 1250.0
-    metalevel: 5
+    metalevelold: 5
     name: Inferno Rage Torpedo
     packagedVolume: 0.05000000074505806
     portionSize: 5000
@@ -86,7 +86,7 @@ types:
     launchergroup: 508
     marketGroup: 929
     maxvelocity: 2250.0
-    metalevel: 5
+    metalevelold: 5
     name: Mjolnir Javelin Torpedo
     packagedVolume: 0.05000000074505806
     portionSize: 5000
@@ -120,7 +120,7 @@ types:
     launchergroup: 508
     marketGroup: 931
     maxvelocity: 1250.0
-    metalevel: 5
+    metalevelold: 5
     name: Mjolnir Rage Torpedo
     packagedVolume: 0.05000000074505806
     portionSize: 5000
@@ -155,7 +155,7 @@ types:
     launchergroup: 508
     marketGroup: 929
     maxvelocity: 2250.0
-    metalevel: 5
+    metalevelold: 5
     name: Nova Javelin Torpedo
     packagedVolume: 0.05000000074505806
     portionSize: 5000
@@ -189,7 +189,7 @@ types:
     launchergroup: 508
     marketGroup: 931
     maxvelocity: 1250.0
-    metalevel: 5
+    metalevelold: 5
     name: Nova Rage Torpedo
     packagedVolume: 0.05000000074505806
     portionSize: 5000
@@ -224,7 +224,7 @@ types:
     launchergroup: 508
     marketGroup: 929
     maxvelocity: 2250.0
-    metalevel: 5
+    metalevelold: 5
     name: Scourge Javelin Torpedo
     packagedVolume: 0.05000000074505806
     portionSize: 5000
@@ -258,7 +258,7 @@ types:
     launchergroup: 508
     marketGroup: 931
     maxvelocity: 1250.0
-    metalevel: 5
+    metalevelold: 5
     name: Scourge Rage Torpedo
     packagedVolume: 0.05000000074505806
     portionSize: 5000

@@ -25,7 +25,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ImplantBonusVelocity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MassBonusPercentage;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RigSize;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFBonus;
@@ -110,7 +110,7 @@ public class RigNavigation
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * 
      */
@@ -154,7 +154,7 @@ public class RigNavigation
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpcapacitorneedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, CargoCapacityBonus.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MassBonusPercentage.INSTANCE, WarpSBonus.INSTANCE, Drawback.INSTANCE, ImplantBonusVelocity.INSTANCE, AgilityBonus.INSTANCE, CapacitorNeedMultiplier.INSTANCE, MetaLevel.INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, DurationBonus.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, CargoCapacityBonus.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, MassBonusPercentage.INSTANCE, WarpSBonus.INSTANCE, Drawback.INSTANCE, ImplantBonusVelocity.INSTANCE, AgilityBonus.INSTANCE, CapacitorNeedMultiplier.INSTANCE, MetaLevelOld.INSTANCE, VelocityBonus.INSTANCE, CapNeedBonus.INSTANCE, SpeedFBonus.INSTANCE, WarpCapacitorNeedBonus.INSTANCE })));
     public static final RigNavigation.MetaGroup METAGROUP = new RigNavigation.MetaGroup();
 
     @Override
@@ -198,7 +198,7 @@ public class RigNavigation
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  1547 :
             {

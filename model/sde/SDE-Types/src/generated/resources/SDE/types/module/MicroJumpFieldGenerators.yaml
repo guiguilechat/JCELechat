@@ -13,7 +13,7 @@ types:
     marketGroup: 2135
     maxgroupactive: 1
     maxgroupfitted: 1
-    metalevel: 1
+    metalevelold: 1
     mjdjumprange: 100000
     mjdshipjumpcap: 25
     mjfgradius: 6000

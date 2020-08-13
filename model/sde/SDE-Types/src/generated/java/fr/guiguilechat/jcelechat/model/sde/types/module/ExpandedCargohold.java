@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocityModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaGroupID;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
@@ -68,7 +68,7 @@ public class ExpandedCargohold
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int metalevel;
+    public int metalevelold;
     /**
      * The type ID of the skill that is required.
      */
@@ -98,7 +98,7 @@ public class ExpandedCargohold
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxVelocityModifier.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, CargoCapacityMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, StructureHPMultiplier.INSTANCE, Capacity.INSTANCE, MetaLevel.INSTANCE, Hp.INSTANCE, MetaGroupID.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxVelocityModifier.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, RequiredSkill1Level.INSTANCE, CargoCapacityMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, TechLevel.INSTANCE, StructureHPMultiplier.INSTANCE, Capacity.INSTANCE, MetaLevelOld.INSTANCE, Hp.INSTANCE, MetaGroupID.INSTANCE })));
     public static final ExpandedCargohold.MetaGroup METAGROUP = new ExpandedCargohold.MetaGroup();
 
     @Override
@@ -118,7 +118,7 @@ public class ExpandedCargohold
             }
             case  633 :
             {
-                return metalevel;
+                return metalevelold;
             }
             case  182 :
             {

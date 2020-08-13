@@ -10,7 +10,7 @@ types:
     lowslotmodifier: 3
     marketGroup: 1126
     medslotmodifier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Legion Defensive - Augmented Plating
     packagedVolume: 40.0
     portionSize: 1
@@ -37,7 +37,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1126
     medslotmodifier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Legion Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
@@ -67,7 +67,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1126
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Legion Defensive - Nanobot Injector
     packagedVolume: 40.0
     portionSize: 1
@@ -94,7 +94,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1128
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Loki Defensive - Adaptive Defense Node
     packagedVolume: 40.0
     portionSize: 1
@@ -122,7 +122,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1128
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Loki Defensive - Augmented Durability
     packagedVolume: 40.0
     portionSize: 1
@@ -150,7 +150,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1128
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Loki Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
@@ -178,7 +178,7 @@ types:
     lowslotmodifier: 3
     marketGroup: 1129
     medslotmodifier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Proteus Defensive - Augmented Plating
     packagedVolume: 40.0
     portionSize: 1
@@ -205,7 +205,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1129
     medslotmodifier: 1
-    metalevel: 1
+    metalevelold: 1
     name: Proteus Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
@@ -235,7 +235,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1129
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Proteus Defensive - Nanobot Injector
     packagedVolume: 40.0
     portionSize: 1
@@ -262,7 +262,7 @@ types:
     lowslotmodifier: 1
     marketGroup: 1127
     medslotmodifier: 3
-    metalevel: 1
+    metalevelold: 1
     name: Tengu Defensive - Amplification Node
     packagedVolume: 40.0
     portionSize: 1
@@ -290,7 +290,7 @@ types:
     jumpharmonicsmodifier: 5
     marketGroup: 1127
     medslotmodifier: 3
-    metalevel: 1
+    metalevelold: 1
     name: Tengu Defensive - Covert Reconfiguration
     packagedVolume: 40.0
     portionSize: 1
@@ -317,7 +317,7 @@ types:
     lowslotmodifier: 2
     marketGroup: 1127
     medslotmodifier: 2
-    metalevel: 1
+    metalevelold: 1
     name: Tengu Defensive - Supplemental Screening
     packagedVolume: 40.0
     portionSize: 1

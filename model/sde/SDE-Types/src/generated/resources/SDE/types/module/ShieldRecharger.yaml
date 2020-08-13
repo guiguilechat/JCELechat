@@ -5,7 +5,7 @@ types:
     hp: 40.0
     id: 6485
     marketGroup: 126
-    metalevel: 1
+    metalevelold: 1
     name: M51 Benefactor Compact Shield Recharger
     packagedVolume: 5.0
     portionSize: 1
@@ -24,7 +24,7 @@ types:
     id: 37805
     marketGroup: 126
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Republic Fleet Shield Recharger
     packagedVolume: 5.0
     portionSize: 1
@@ -59,7 +59,7 @@ types:
     hp: 40.0
     id: 394
     marketGroup: 126
-    metalevel: 5
+    metalevelold: 5
     name: Shield Recharger II
     packagedVolume: 5.0
     portionSize: 1

@@ -41,7 +41,7 @@ types:
     maxvelocity: 228.0
     medslots: 4
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 0.25
     name: Adrestia
     packagedVolume: 10000.0
@@ -128,7 +128,7 @@ types:
     maxtargetrange: 95000.0
     maxvelocity: 220.0
     medslots: 5
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     mwdsignatureradiusbonus: -50
     name: Cerberus
@@ -214,7 +214,7 @@ types:
     maxtargetrange: 85000.0
     maxvelocity: 230.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     mwdsignatureradiusbonus: -50
     name: Deimos
@@ -302,7 +302,7 @@ types:
     maxtargetrange: 90000.0
     maxvelocity: 190.0
     medslots: 6
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     mwdsignatureradiusbonus: -50
     name: Eagle
@@ -478,7 +478,7 @@ types:
     maxtargetrange: 80000.0
     maxvelocity: 175.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     mwdsignatureradiusbonus: -50
     name: Ishtar
@@ -566,7 +566,7 @@ types:
     maxvelocity: 210.0
     medslots: 3
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 1.0
     name: Mimir
     packagedVolume: 10000.0
@@ -655,7 +655,7 @@ types:
     maxtargetrange: 80000.0
     maxvelocity: 235.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     mwdsignatureradiusbonus: -50
     name: Muninn
@@ -744,7 +744,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 200.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     mwdsignatureradiusbonus: -50
     name: Sacrilege
@@ -833,7 +833,7 @@ types:
     maxtargetrange: 70000.0
     maxvelocity: 295.0
     medslots: 4
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     mwdsignatureradiusbonus: -50
     name: Vagabond
@@ -921,7 +921,7 @@ types:
     maxvelocity: 209.0
     medslots: 4
     metagroupid: 4
-    metalevel: 9
+    metalevelold: 9
     mintargetveldmgmultiplier: 1.0
     name: Vangel
     packagedVolume: 10000.0
@@ -1010,7 +1010,7 @@ types:
     maxtargetrange: 75000.0
     maxvelocity: 210.0
     medslots: 3
-    metalevel: 5
+    metalevelold: 5
     mintargetveldmgmultiplier: 1.0
     mwdsignatureradiusbonus: -50
     name: Zealot

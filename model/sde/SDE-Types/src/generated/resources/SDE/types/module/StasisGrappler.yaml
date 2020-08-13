@@ -22,7 +22,7 @@ types:
     maxgroupfitted: 1
     maxrange: 1000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Domination Heavy Stasis Grappler
     overloadrangebonus: 300
     packagedVolume: 50.0
@@ -59,7 +59,7 @@ types:
     marketGroup: 2154
     maxgroupfitted: 1
     maxrange: 1000.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Gunnar Compact Stasis Grappler
     overloadrangebonus: 300
     packagedVolume: 50.0
@@ -96,7 +96,7 @@ types:
     marketGroup: 2154
     maxgroupfitted: 1
     maxrange: 1000.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Jigoro Enduring Stasis Grappler
     overloadrangebonus: 300
     packagedVolume: 50.0
@@ -133,7 +133,7 @@ types:
     marketGroup: 2154
     maxgroupfitted: 1
     maxrange: 1000.0
-    metalevel: 1
+    metalevelold: 1
     name: Heavy Karelin Scoped Stasis Grappler
     overloadrangebonus: 300
     packagedVolume: 50.0
@@ -206,7 +206,7 @@ types:
     marketGroup: 2154
     maxgroupfitted: 1
     maxrange: 1000.0
-    metalevel: 5
+    metalevelold: 5
     name: Heavy Stasis Grappler II
     overloadrangebonus: 300
     packagedVolume: 50.0
@@ -244,7 +244,7 @@ types:
     maxgroupfitted: 1
     maxrange: 1000.0
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Heavy Stasis Grappler
     overloadrangebonus: 300
     packagedVolume: 50.0

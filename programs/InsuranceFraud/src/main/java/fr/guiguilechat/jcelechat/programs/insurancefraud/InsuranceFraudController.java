@@ -16,7 +16,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_i
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
-import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OreBasicType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
@@ -72,7 +72,7 @@ public class InsuranceFraudController {
 				name.set(item.name);
 				published = true;
 				techLevel = item.techlevel;
-				metaLevel = item.metalevel;
+				metaLevel = item.metalevelold;
 				craftCost = getCraftRequirement(item.name);
 				if (craftCost != null) {
 					prodTax.set(craftCost.isks);
@@ -91,7 +91,7 @@ public class InsuranceFraudController {
 							if (att.attribute_id == TechLevel.INSTANCE.getId()) {
 								techLevel = (int) att.value;
 							}
-							if (att.attribute_id == MetaLevel.INSTANCE.getId()) {
+							if (att.attribute_id == MetaLevelOld.INSTANCE.getId()) {
 								metaLevel = (int) att.value;
 							}
 						}

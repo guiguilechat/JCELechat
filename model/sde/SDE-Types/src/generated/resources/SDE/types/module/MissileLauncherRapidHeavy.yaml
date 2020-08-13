@@ -10,7 +10,7 @@ types:
     hp: 40.0
     id: 33440
     marketGroup: 1827
-    metalevel: 4
+    metalevelold: 4
     name: '''Arbalest'' Rapid Heavy Missile Launcher I'
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -41,7 +41,7 @@ types:
     hp: 40.0
     id: 33441
     marketGroup: 1827
-    metalevel: 2
+    metalevelold: 2
     name: '''Limos'' Rapid Heavy Missile Launcher I'
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -72,7 +72,7 @@ types:
     hp: 40.0
     id: 33442
     marketGroup: 1827
-    metalevel: 1
+    metalevelold: 1
     name: '''Malkuth'' Rapid Heavy Missile Launcher I'
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -105,7 +105,7 @@ types:
     id: 33446
     marketGroup: 1827
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Caldari Navy Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -138,7 +138,7 @@ types:
     id: 33452
     marketGroup: 1827
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     name: Domination Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -171,7 +171,7 @@ types:
     id: 33453
     marketGroup: 1827
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -204,7 +204,7 @@ types:
     id: 33454
     marketGroup: 1827
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Estamel's Modified Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -237,7 +237,7 @@ types:
     id: 33455
     marketGroup: 1827
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Gotan's Modified Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -270,7 +270,7 @@ types:
     id: 33456
     marketGroup: 1827
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Hakim's Modified Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -303,7 +303,7 @@ types:
     id: 33457
     marketGroup: 1827
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Kaikka's Modified Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -336,7 +336,7 @@ types:
     id: 33458
     marketGroup: 1827
     metagroupid: 5
-    metalevel: 11
+    metalevelold: 11
     name: Mizuro's Modified Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -398,7 +398,7 @@ types:
     hp: 40.0
     id: 33450
     marketGroup: 1827
-    metalevel: 5
+    metalevelold: 5
     name: Rapid Heavy Missile Launcher II
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -431,7 +431,7 @@ types:
     id: 33459
     marketGroup: 1827
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     name: Republic Fleet Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -464,7 +464,7 @@ types:
     id: 33461
     marketGroup: 1827
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Shaqil's Modified Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -497,7 +497,7 @@ types:
     id: 33462
     marketGroup: 1827
     metagroupid: 5
-    metalevel: 12
+    metalevelold: 12
     name: Thon's Modified Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -530,7 +530,7 @@ types:
     id: 33463
     marketGroup: 1827
     metagroupid: 5
-    metalevel: 14
+    metalevelold: 14
     name: Tobias' Modified Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -563,7 +563,7 @@ types:
     id: 33464
     marketGroup: 1827
     metagroupid: 4
-    metalevel: 7
+    metalevelold: 7
     name: True Sansha Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -596,7 +596,7 @@ types:
     id: 33465
     marketGroup: 1827
     metagroupid: 5
-    metalevel: 13
+    metalevelold: 13
     name: Vepas' Modified Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0
@@ -627,7 +627,7 @@ types:
     hp: 40.0
     id: 33466
     marketGroup: 1827
-    metalevel: 3
+    metalevelold: 3
     name: YO-5000 Rapid Heavy Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 20.0

@@ -47,7 +47,7 @@ types:
     kineticdamageresistancebonus: -19.0
     marketGroup: 2245
     maxgroupfitted: 1
-    metalevel: 5
+    metalevelold: 5
     name: Capital Flex Armor Hardener II
     overloadhardeningbonus: 20
     packagedVolume: 1000.0
@@ -81,7 +81,7 @@ types:
     marketGroup: 2245
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dark Blood Capital Flex Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 1000.0
@@ -115,7 +115,7 @@ types:
     marketGroup: 2245
     maxgroupfitted: 1
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Shadow Serpentis Capital Flex Armor Hardener
     overloadhardeningbonus: 20
     packagedVolume: 1000.0

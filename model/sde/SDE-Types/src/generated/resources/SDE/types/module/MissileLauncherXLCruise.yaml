@@ -9,7 +9,7 @@ types:
     hp: 40.0
     id: 41175
     marketGroup: 777
-    metalevel: 1
+    metalevelold: 1
     name: Arbalest Compact XL Cruise Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 1000.0
@@ -40,7 +40,7 @@ types:
     id: 3563
     marketGroup: 777
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: CONCORD XL Cruise Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 1000.0
@@ -71,7 +71,7 @@ types:
     id: 41174
     marketGroup: 777
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     name: Dread Guristas XL Cruise Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 1000.0
@@ -100,7 +100,7 @@ types:
     hp: 40.0
     id: 41176
     marketGroup: 777
-    metalevel: 1
+    metalevelold: 1
     name: TE-2100 Ample XL Cruise Missile Launcher
     overloadrofbonus: -15
     packagedVolume: 1000.0
@@ -158,7 +158,7 @@ types:
     hp: 40.0
     id: 37295
     marketGroup: 777
-    metalevel: 5
+    metalevelold: 5
     name: XL Cruise Missile Launcher II
     overloadrofbonus: -15
     packagedVolume: 1000.0

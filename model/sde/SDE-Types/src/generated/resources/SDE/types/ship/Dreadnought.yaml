@@ -64,7 +64,7 @@ types:
     maxvelocity: 75.0
     medslots: 7
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Caiman
     packagedVolume: 1300000.0
@@ -178,7 +178,7 @@ types:
     maxvelocity: 80.0
     medslots: 4
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Chemosh
     nosoverride: 1
@@ -743,7 +743,7 @@ types:
     maxvelocity: 80.0
     medslots: 6
     metagroupid: 4
-    metalevel: 8
+    metalevelold: 8
     mintargetveldmgmultiplier: 0.5
     name: Vehement
     packagedVolume: 1300000.0

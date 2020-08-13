@@ -19,7 +19,7 @@ types:
     hp: 40.0
     id: 31774
     marketGroup: 1732
-    metalevel: 5
+    metalevelold: 5
     name: Capital Core Defense Capacitor Safeguard II
     packagedVolume: 40.0
     portionSize: 1
@@ -50,7 +50,7 @@ types:
     hp: 40.0
     id: 31786
     marketGroup: 1732
-    metalevel: 5
+    metalevelold: 5
     name: Capital Core Defense Charge Economizer II
     packagedVolume: 40.0
     portionSize: 1
@@ -81,7 +81,7 @@ types:
     hp: 40.0
     id: 31798
     marketGroup: 1732
-    metalevel: 5
+    metalevelold: 5
     name: Capital Core Defense Field Extender II
     packagedVolume: 40.0
     portionSize: 1
@@ -112,7 +112,7 @@ types:
     hp: 40.0
     id: 31814
     marketGroup: 1732
-    metalevel: 5
+    metalevelold: 5
     name: Capital Core Defense Field Purger II
     packagedVolume: 40.0
     portionSize: 1
@@ -144,7 +144,7 @@ types:
     hp: 40.0
     id: 31826
     marketGroup: 1732
-    metalevel: 5
+    metalevelold: 5
     name: Capital Core Defense Operational Solidifier II
     packagedVolume: 40.0
     portionSize: 1
@@ -175,7 +175,7 @@ types:
     hp: 40.0
     id: 31726
     marketGroup: 1732
-    metalevel: 5
+    metalevelold: 5
     name: Capital EM Shield Reinforcer II
     packagedVolume: 40.0
     portionSize: 1
@@ -206,7 +206,7 @@ types:
     hp: 40.0
     id: 31738
     marketGroup: 1732
-    metalevel: 5
+    metalevelold: 5
     name: Capital Explosive Shield Reinforcer II
     packagedVolume: 40.0
     portionSize: 1
@@ -237,7 +237,7 @@ types:
     id: 31750
     kineticdamageresistancebonus: -35.0
     marketGroup: 1732
-    metalevel: 5
+    metalevelold: 5
     name: Capital Kinetic Shield Reinforcer II
     packagedVolume: 40.0
     portionSize: 1
@@ -267,7 +267,7 @@ types:
     hp: 40.0
     id: 31762
     marketGroup: 1732
-    metalevel: 5
+    metalevelold: 5
     name: Capital Thermal Shield Reinforcer II
     packagedVolume: 40.0
     portionSize: 1
@@ -298,7 +298,7 @@ types:
     hp: 40.0
     id: 26444
     marketGroup: 1236
-    metalevel: 5
+    metalevelold: 5
     name: Large Core Defense Capacitor Safeguard II
     packagedVolume: 20.0
     portionSize: 1
@@ -329,7 +329,7 @@ types:
     hp: 40.0
     id: 26446
     marketGroup: 1236
-    metalevel: 5
+    metalevelold: 5
     name: Large Core Defense Charge Economizer II
     packagedVolume: 20.0
     portionSize: 1
@@ -360,7 +360,7 @@ types:
     hp: 40.0
     id: 26448
     marketGroup: 1236
-    metalevel: 5
+    metalevelold: 5
     name: Large Core Defense Field Extender II
     packagedVolume: 20.0
     portionSize: 1
@@ -391,7 +391,7 @@ types:
     hp: 40.0
     id: 26450
     marketGroup: 1236
-    metalevel: 5
+    metalevelold: 5
     name: Large Core Defense Field Purger II
     packagedVolume: 20.0
     portionSize: 1
@@ -423,7 +423,7 @@ types:
     hp: 40.0
     id: 26452
     marketGroup: 1236
-    metalevel: 5
+    metalevelold: 5
     name: Large Core Defense Operational Solidifier II
     packagedVolume: 20.0
     portionSize: 1
@@ -454,7 +454,7 @@ types:
     hp: 40.0
     id: 26436
     marketGroup: 1236
-    metalevel: 5
+    metalevelold: 5
     name: Large EM Shield Reinforcer II
     packagedVolume: 20.0
     portionSize: 1
@@ -485,7 +485,7 @@ types:
     hp: 40.0
     id: 26438
     marketGroup: 1236
-    metalevel: 5
+    metalevelold: 5
     name: Large Explosive Shield Reinforcer II
     packagedVolume: 20.0
     portionSize: 1
@@ -516,7 +516,7 @@ types:
     id: 26440
     kineticdamageresistancebonus: -35.0
     marketGroup: 1236
-    metalevel: 5
+    metalevelold: 5
     name: Large Kinetic Shield Reinforcer II
     packagedVolume: 20.0
     portionSize: 1
@@ -546,7 +546,7 @@ types:
     hp: 40.0
     id: 26442
     marketGroup: 1236
-    metalevel: 5
+    metalevelold: 5
     name: Large Thermal Shield Reinforcer II
     packagedVolume: 20.0
     portionSize: 1
@@ -577,7 +577,7 @@ types:
     hp: 40.0
     id: 31772
     marketGroup: 1235
-    metalevel: 5
+    metalevelold: 5
     name: Medium Core Defense Capacitor Safeguard II
     packagedVolume: 10.0
     portionSize: 1
@@ -608,7 +608,7 @@ types:
     hp: 40.0
     id: 31784
     marketGroup: 1235
-    metalevel: 5
+    metalevelold: 5
     name: Medium Core Defense Charge Economizer II
     packagedVolume: 10.0
     portionSize: 1
@@ -639,7 +639,7 @@ types:
     hp: 40.0
     id: 31796
     marketGroup: 1235
-    metalevel: 5
+    metalevelold: 5
     name: Medium Core Defense Field Extender II
     packagedVolume: 10.0
     portionSize: 1
@@ -670,7 +670,7 @@ types:
     hp: 40.0
     id: 31812
     marketGroup: 1235
-    metalevel: 5
+    metalevelold: 5
     name: Medium Core Defense Field Purger II
     packagedVolume: 10.0
     portionSize: 1
@@ -702,7 +702,7 @@ types:
     hp: 40.0
     id: 31824
     marketGroup: 1235
-    metalevel: 5
+    metalevelold: 5
     name: Medium Core Defense Operational Solidifier II
     packagedVolume: 10.0
     portionSize: 1
@@ -733,7 +733,7 @@ types:
     hp: 40.0
     id: 31724
     marketGroup: 1235
-    metalevel: 5
+    metalevelold: 5
     name: Medium EM Shield Reinforcer II
     packagedVolume: 10.0
     portionSize: 1
@@ -764,7 +764,7 @@ types:
     hp: 40.0
     id: 31736
     marketGroup: 1235
-    metalevel: 5
+    metalevelold: 5
     name: Medium Explosive Shield Reinforcer II
     packagedVolume: 10.0
     portionSize: 1
@@ -795,7 +795,7 @@ types:
     id: 31748
     kineticdamageresistancebonus: -35.0
     marketGroup: 1235
-    metalevel: 5
+    metalevelold: 5
     name: Medium Kinetic Shield Reinforcer II
     packagedVolume: 10.0
     portionSize: 1
@@ -825,7 +825,7 @@ types:
     hp: 40.0
     id: 31760
     marketGroup: 1235
-    metalevel: 5
+    metalevelold: 5
     name: Medium Thermal Shield Reinforcer II
     packagedVolume: 10.0
     portionSize: 1
@@ -856,7 +856,7 @@ types:
     hp: 40.0
     id: 31770
     marketGroup: 1234
-    metalevel: 5
+    metalevelold: 5
     name: Small Core Defense Capacitor Safeguard II
     packagedVolume: 5.0
     portionSize: 1
@@ -887,7 +887,7 @@ types:
     hp: 40.0
     id: 31782
     marketGroup: 1234
-    metalevel: 5
+    metalevelold: 5
     name: Small Core Defense Charge Economizer II
     packagedVolume: 5.0
     portionSize: 1
@@ -918,7 +918,7 @@ types:
     hp: 40.0
     id: 31794
     marketGroup: 1234
-    metalevel: 5
+    metalevelold: 5
     name: Small Core Defense Field Extender II
     packagedVolume: 5.0
     portionSize: 1
@@ -949,7 +949,7 @@ types:
     hp: 40.0
     id: 31810
     marketGroup: 1234
-    metalevel: 5
+    metalevelold: 5
     name: Small Core Defense Field Purger II
     packagedVolume: 5.0
     portionSize: 1
@@ -981,7 +981,7 @@ types:
     hp: 40.0
     id: 31822
     marketGroup: 1234
-    metalevel: 5
+    metalevelold: 5
     name: Small Core Defense Operational Solidifier II
     packagedVolume: 5.0
     portionSize: 1
@@ -1012,7 +1012,7 @@ types:
     hp: 40.0
     id: 31722
     marketGroup: 1234
-    metalevel: 5
+    metalevelold: 5
     name: Small EM Shield Reinforcer II
     packagedVolume: 5.0
     portionSize: 1
@@ -1043,7 +1043,7 @@ types:
     hp: 40.0
     id: 31734
     marketGroup: 1234
-    metalevel: 5
+    metalevelold: 5
     name: Small Explosive Shield Reinforcer II
     packagedVolume: 5.0
     portionSize: 1
@@ -1074,7 +1074,7 @@ types:
     id: 31746
     kineticdamageresistancebonus: -35.0
     marketGroup: 1234
-    metalevel: 5
+    metalevelold: 5
     name: Small Kinetic Shield Reinforcer II
     packagedVolume: 5.0
     portionSize: 1
@@ -1104,7 +1104,7 @@ types:
     hp: 40.0
     id: 31758
     marketGroup: 1234
-    metalevel: 5
+    metalevelold: 5
     name: Small Thermal Shield Reinforcer II
     packagedVolume: 5.0
     portionSize: 1
