@@ -14,11 +14,11 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
  * split a region into n main systems, in order to reduce the amount of jumps
  * from each system to the closest of those systems.
  */
-public class HSRegionSplitter implements IRegionStager {
+public class HSRegionStager implements IRegionStager {
 
-	private static final Logger logger = LoggerFactory.getLogger(HSRegionSplitter.class);
+	private static final Logger logger = LoggerFactory.getLogger(HSRegionStager.class);
 
-	public static final HSRegionSplitter INSTANCE = new HSRegionSplitter();
+	public static final HSRegionStager INSTANCE = new HSRegionStager();
 
 	/**
 	 * create an invalid first evaluation. Next call to
@@ -104,8 +104,10 @@ public class HSRegionSplitter implements IRegionStager {
 			if (val < bestEval) {
 				bestEval = val;
 				bestSol = Arrays.copyOf(valuation, valuation.length);
-				logger.debug("  new solution " + IntStream.of(bestSol).mapToObj(idx::system).collect(Collectors.toList())
-						+ " value " + val + " avg=" + (useSquareDistance ? Math.sqrt(val) : val) / idx.size());
+				// logger.debug(" new solution " +
+				// IntStream.of(bestSol).mapToObj(idx::system).collect(Collectors.toList())
+				// + " value " + val + " avg=" + (useSquareDistance ? Math.sqrt(val) :
+				// val) / idx.size());
 			}
 		}
 		return IntStream.of(bestSol).mapToObj(idx::system).collect(Collectors.toList());

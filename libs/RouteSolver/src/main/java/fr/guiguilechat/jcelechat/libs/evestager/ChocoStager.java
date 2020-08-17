@@ -2,21 +2,25 @@ package fr.guiguilechat.jcelechat.libs.evestager;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.chocosolver.solver.Model;
 import org.chocosolver.solver.Solution;
 import org.chocosolver.solver.Solver;
 import org.chocosolver.solver.search.strategy.Search;
+import org.chocosolver.solver.search.strategy.selectors.values.IntValueSelector;
+import org.chocosolver.solver.search.strategy.selectors.variables.InputOrder;
+import org.chocosolver.solver.search.strategy.strategy.IntStrategy;
 import org.chocosolver.solver.variables.IntVar;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionStager;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
-public class EveChocoStager implements IRegionStager{
+public class ChocoStager implements IRegionStager {
 
-	public static final EveChocoStager INSTANCE = new EveChocoStager();
+	public static final ChocoStager INSTANCE = new ChocoStager();
 
 	@Override
 	public List<SolarSystem> around(SysIndex idx, int[][] jumps, int clusters, boolean useSquareDistance) {
@@ -32,7 +36,7 @@ public class EveChocoStager implements IRegionStager{
 		for (int i = 0; i < clusters; i++) {
 			clusterCenters[i] = choco.intVar("cluster_" + i + ".center", allSys);
 			if (i != 0) {
-				clusterCenters[i].gt(clusterCenters[i-1]).post();
+				clusterCenters[i].gt(clusterCenters[i - 1]).post();
 			}
 		}
 		// clusterDistances[i][j] is the distance from system i to the center of the
@@ -66,8 +70,29 @@ public class EveChocoStager implements IRegionStager{
 		Solver solver = choco.getSolver();
 		// solver.showDecisions();
 		// solver.showContradiction();
-		solver.showSolutions();
-		solver.setSearch(Search.inputOrderLBSearch(clusterCenters));
+		// solver.showSolutions();
+
+		int[] sumDists = IntStream.range(0, jumps.length).map(i2 -> IntStream.of(jumps[i2]).sum()).toArray();
+		int[] sumSqDists = IntStream.range(0, jumps.length).map(i2 -> IntStream.of(jumps[i2]).map(i3 -> i3 * i3).sum())
+				.toArray();
+		int[] idxSortedBySumDistsInc = IntStream.range(0, jumps.length).boxed()
+				.sorted((i1, i2) -> sumDists[i1] - sumDists[i2]).mapToInt(i -> i).toArray();
+		int[] idxSortedBySumSqDistsInc = IntStream.range(0, jumps.length).boxed()
+				.sorted((i1, i2) -> sumSqDists[i1] - sumSqDists[i2]).mapToInt(i -> i).toArray();
+		int[] idxPriorities = useSquareDistance ? idxSortedBySumSqDistsInc : idxSortedBySumDistsInc;
+		System.err.println(
+				"systems priorities : " + IntStream.of(idxPriorities).mapToObj(idx::system).collect(Collectors.toList()));
+		IntStrategy heuristic = Search.intVarSearch(new InputOrder<>(choco), (IntValueSelector) var -> {
+			for (int i : idxPriorities) {
+				if (var.contains(i)) {
+					return i;
+				}
+			}
+			return var.getLB();
+		}, clusterCenters);
+		// heuristic = Search.inputOrderLBSearch(clusterCenters);
+		solver.setSearch(heuristic);
+
 		Solution found = solver.findOptimalSolution(totalDist, false);
 		if (found == null || !found.exists()) {
 			return null;

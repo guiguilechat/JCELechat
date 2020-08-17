@@ -3,6 +3,9 @@ package fr.guiguilechat.jcelechat.model.sde.locations.algos;
 import java.util.Collection;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 
 public interface IRegionStager {
@@ -61,5 +64,14 @@ public interface IRegionStager {
 	}
 
 	public List<SolarSystem> around(SysIndex idx, int[][] jumps, int clusters, boolean useSquareDistance);
+
+	static final Logger logger = LoggerFactory.getLogger(IRegionStager.class);
+
+	public static void show(IRegionStager stager, String sysName, int qtty, boolean useSquareDistance) {
+		long timeStart = System.currentTimeMillis();
+		List<SolarSystem> res = stager.around(SolarSystem.getSystem(sysName), qtty, useSquareDistance);
+		long timeStop = System.currentTimeMillis();
+		logger.info("around " + sysName + " in " + qtty + " =(" + (timeStop - timeStart) / 1000 + "s)" + res);
+	}
 
 }
