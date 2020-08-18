@@ -28,7 +28,6 @@ public class ChocoStager implements IRegionStager {
 	@Override
 	public List<SolarSystem> around(SysIndex idx, int[][] jumps, Params params) {
 		int clusters = params.clusters;
-		boolean useSquareDistance = params.useSquareDistance;
 		Model choco = new Model();
 		int highestDist = 0;
 		for (int i = 0; i < jumps.length; i++) {
@@ -80,30 +79,15 @@ public class ChocoStager implements IRegionStager {
 			choco.member(i, selectedCenters).reifyWith(selected[i]);
 		}
 		IntVar totalDist;
-		if (useSquareDistance) {
-			IntVar[] closestSquare = new IntVar[idx.size()];
-			for (int i = 0; i < idx.size(); i++) {
-				closestSquare[i] = choco.intVar("", 0, highestDist * highestDist);
-				choco.square(closestSquare[i], closest[i]).post();
-			}
-			totalDist = choco.intVar("sum_square_dist", 0, idx.size() * highestDist * highestDist / 4);
-			choco.sum(closestSquare, "=", totalDist).post();
-		} else {
-			totalDist = choco.intVar("sum_dist", 0, idx.size() * highestDist / 2);
-			choco.sum(closest, "=", totalDist).post();
-		}
+		totalDist = choco.intVar("sum_dist", 0, idx.size() * highestDist / 2);
+		choco.sum(closest, "=", totalDist).post();
 		Solver solver = choco.getSolver();
 
 		int[] sumDists = IntStream.range(0, jumps.length).map(i2 -> IntStream.of(jumps[i2]).sum()).toArray();
-		int[] sumSqDists = IntStream.range(0, jumps.length).map(i2 -> IntStream.of(jumps[i2]).map(i3 -> i3 * i3).sum())
-				.toArray();
 		int[] idxSortedBySumDistsInc = IntStream.range(0, jumps.length).boxed()
 				.sorted((i1, i2) -> sumDists[i1] - sumDists[i2]).mapToInt(i -> i).toArray();
-		int[] idxSortedBySumSqDistsInc = IntStream.range(0, jumps.length).boxed()
-				.sorted((i1, i2) -> sumSqDists[i1] - sumSqDists[i2]).mapToInt(i -> i).toArray();
-		int[] idxPriorities = useSquareDistance ? idxSortedBySumSqDistsInc : idxSortedBySumDistsInc;
 		IntStrategy heuristic = Search.intVarSearch(new InputOrder<>(choco), (IntValueSelector) var -> {
-			for (int i : idxPriorities) {
+			for (int i : idxSortedBySumDistsInc) {
 				if (var.contains(i)) {
 					return i;
 				}
@@ -118,7 +102,8 @@ public class ChocoStager implements IRegionStager {
 			solver.showContradiction();
 			solver.showSolutions();
 			logger.debug(
-					"systems priorities : " + IntStream.of(idxPriorities).mapToObj(idx::system).collect(Collectors.toList()));
+					"systems priorities : "
+							+ IntStream.of(idxSortedBySumDistsInc).mapToObj(idx::system).collect(Collectors.toList()));
 		}
 
 		Solution found = solver.findOptimalSolution(totalDist, false);

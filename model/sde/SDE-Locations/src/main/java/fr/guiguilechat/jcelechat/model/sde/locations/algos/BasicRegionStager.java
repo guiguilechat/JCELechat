@@ -81,7 +81,7 @@ public class BasicRegionStager implements IRegionStager {
 	 * @return the sum of the square of distances from each system in the matrix
 	 *         to the closest system in the valuation.
 	 */
-	public static int eval(int[] valuation, int[][] jumps, boolean useSquareDistance) {
+	public static int eval(int[] valuation, int[][] jumps) {
 		int ret = 0;
 		for (int[] jump : jumps) {
 			int dist = Integer.MAX_VALUE;
@@ -91,7 +91,7 @@ public class BasicRegionStager implements IRegionStager {
 					dist = dstSol;
 				}
 			}
-			ret += useSquareDistance ? dist * dist : dist;
+			ret += dist;
 		}
 		return ret;
 	}
@@ -99,11 +99,10 @@ public class BasicRegionStager implements IRegionStager {
 	@Override
 	public List<SolarSystem> around(SysIndex idx, int[][] jumps, Params params) {
 		int clusters = params.clusters;
-		boolean useSquareDistance = params.useSquareDistance;
 		int[] bestSol = null;
 		int bestEval = Integer.MAX_VALUE;
 		for (int[] valuation = preValuation(clusters); nextValuation(valuation, idx.size() - 1);) {
-			int val = eval(valuation, jumps, useSquareDistance);
+			int val = eval(valuation, jumps);
 			if (val < bestEval) {
 				bestEval = val;
 				bestSol = Arrays.copyOf(valuation, valuation.length);

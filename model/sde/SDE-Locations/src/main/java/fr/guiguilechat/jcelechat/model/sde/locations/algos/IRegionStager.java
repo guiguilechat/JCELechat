@@ -121,15 +121,19 @@ public interface IRegionStager {
 	 * @param idx
 	 * @return a new matrix of the distances between each system.
 	 */
-	public default int[][] jumps(SysIndex idx) {
+	public default int[][] jumps(SysIndex idx, boolean useSquare) {
 		int[][] jumps = new int[idx.size()][idx.size()];
 		for (int i = 0; i < idx.size(); i++) {
 			SolarSystem from = idx.system(i);
 			jumps[i][i] = 0;
 			for (int j = i + 1; j < idx.size(); j++) {
 				SolarSystem to = idx.system(j);
-				jumps[i][j] = jumps[j][i] = fr.guiguilechat.jcelechat.model.sde.locations.route.SecStatusRouter.HS
+				int dist = fr.guiguilechat.jcelechat.model.sde.locations.route.SecStatusRouter.HS
 						.getRoute(from.id, to.id).length;
+				if (useSquare) {
+					dist = dist * dist;
+				}
+				jumps[i][j] = jumps[j][i] = dist;
 			}
 		}
 		return jumps;
@@ -148,7 +152,7 @@ public interface IRegionStager {
 	 */
 	public default List<SolarSystem> around(SolarSystem source, Params params) {
 		SysIndex idx = new SysIndex(expand(source, params));
-		int[][] jumps = jumps(idx);
+		int[][] jumps = jumps(idx, params.useSquareDistance);
 		return around(idx, jumps, params);
 	}
 
