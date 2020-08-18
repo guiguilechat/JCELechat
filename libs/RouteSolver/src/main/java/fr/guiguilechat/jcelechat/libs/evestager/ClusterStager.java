@@ -14,6 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
  *
  *
  */
+@SuppressWarnings("unused")
 public class ClusterStager implements IRegionStager {
 
 	private static class Cluster {
@@ -21,7 +22,7 @@ public class ClusterStager implements IRegionStager {
 	}
 
 	@Override
-	public List<SolarSystem> around(SysIndex idx, int[][] jumps, int clusters, boolean useSquareDistance) {
+	public List<SolarSystem> around(SysIndex idx, int[][] jumps, Params params) {
 		// TODO Auto-generated method stub
 		return null;
 	}

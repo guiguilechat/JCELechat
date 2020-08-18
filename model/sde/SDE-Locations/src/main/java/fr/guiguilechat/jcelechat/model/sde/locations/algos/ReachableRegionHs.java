@@ -17,8 +17,12 @@ public class ReachableRegionHs {
 	 * @return a set containing the source and all the systems of the region that
 	 *         are reachable through jumps in HS and in the same region.
 	 */
-	public static Set<SolarSystem> around(SolarSystem source) {
-		String region = source.region;
+	public static Set<SolarSystem> around(SolarSystem source, String... otherRegions) {
+		Set<String> regions = new HashSet<>();
+		regions.add(source.region);
+		if (otherRegions != null) {
+			regions.addAll(Arrays.asList(otherRegions));
+		}
 		// systems that are reachable through Hs and by the region only
 		Set<SolarSystem> reachable = new HashSet<>(Arrays.asList(source));
 		Set<SolarSystem> futureLoop = new HashSet<>(Arrays.asList(source));
@@ -27,7 +31,7 @@ public class ReachableRegionHs {
 			for (SolarSystem exploreSyst : futureLoop) {
 				for (String sysName : exploreSyst.adjacentSystems) {
 					SolarSystem adjacent = SolarSystem.getSystem(sysName);
-					if (adjacent.isHS() && adjacent.region.equals(region) && reachable.add(adjacent)) {
+					if (adjacent.isHS() && regions.contains(adjacent.region) && reachable.add(adjacent)) {
 						nextLayer.add(adjacent);
 					}
 				}

@@ -12,9 +12,12 @@ import org.chocosolver.solver.search.strategy.Search;
 import org.chocosolver.solver.search.strategy.selectors.values.IntValueSelector;
 import org.chocosolver.solver.search.strategy.selectors.variables.InputOrder;
 import org.chocosolver.solver.search.strategy.strategy.IntStrategy;
+import org.chocosolver.solver.variables.BoolVar;
 import org.chocosolver.solver.variables.IntVar;
+import org.chocosolver.solver.variables.SetVar;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.Station;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionStager;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
@@ -23,7 +26,9 @@ public class ChocoStager implements IRegionStager {
 	public static final ChocoStager INSTANCE = new ChocoStager();
 
 	@Override
-	public List<SolarSystem> around(SysIndex idx, int[][] jumps, int clusters, boolean useSquareDistance) {
+	public List<SolarSystem> around(SysIndex idx, int[][] jumps, Params params) {
+		int clusters = params.clusters;
+		boolean useSquareDistance = params.useSquareDistance;
 		Model choco = new Model();
 		int highestDist = 0;
 		for (int i = 0; i < jumps.length; i++) {
@@ -33,26 +38,46 @@ public class ChocoStager implements IRegionStager {
 		}
 		IntVar[] clusterCenters = new IntVar[clusters];
 		int[] allSys = IntStream.rangeClosed(0, idx.size()).toArray();
+		SetVar selectedCenters = choco.setVar("selected_systems",
+				params.mustInclude.stream().map(SolarSystem::getSystem).mapToInt(idx::index).toArray(), allSys);
 		for (int i = 0; i < clusters; i++) {
 			clusterCenters[i] = choco.intVar("cluster_" + i + ".center", allSys);
 			if (i != 0) {
 				clusterCenters[i].gt(clusterCenters[i - 1]).post();
 			}
 		}
+		choco.union(clusterCenters, selectedCenters).post();
 		// clusterDistances[i][j] is the distance from system i to the center of the
 		// cluster j
 		IntVar[][] clusterDistances = new IntVar[idx.size()][];
 		// closest[i] is the distance from system i to the closest center of a
 		// cluster
 		IntVar[] closest = new IntVar[idx.size()];
+		// set to true for i if system i is selected as a center
+		BoolVar[] selected = new BoolVar[idx.size()];
 		for (int i = 0; i < idx.size(); i++) {
+			String name = idx.system(i).name;
 			clusterDistances[i] = new IntVar[clusters];
 			for (int cl = 0; cl < clusters; cl++) {
 				clusterDistances[i][cl] = choco.intVar(idx.system(i).name + ".dist_" + cl, 0, highestDist);
 				choco.element(clusterDistances[i][cl], jumps[i], clusterCenters[cl]).post();
 			}
-			closest[i] = choco.intVar(idx.system(i).name + ".closest", 0, highestDist);
+			closest[i] = choco.intVar(name + ".closest", 0, highestDist);
 			choco.min(closest[i], clusterDistances[i]).post();
+
+			selected[i] = choco.boolVar(name + ".selected");
+			boolean canBeSelected = true;
+			if (!params.acceptNoStation) {
+				canBeSelected = Station.load().values().stream().filter(sta -> sta.solarSystem.equals(name)).findAny()
+						.isPresent();
+			}
+			if (canBeSelected) {
+				selected[i] = choco.boolVar(name + ".selected");
+			} else {
+				logger.debug("refusing system " + name + " that has not station");
+				selected[i] = choco.boolVar(name + ".selected", false);
+			}
+			choco.member(i, selectedCenters).reifyWith(selected[i]);
 		}
 		IntVar totalDist;
 		if (useSquareDistance) {
@@ -68,9 +93,6 @@ public class ChocoStager implements IRegionStager {
 			choco.sum(closest, "=", totalDist).post();
 		}
 		Solver solver = choco.getSolver();
-		// solver.showDecisions();
-		// solver.showContradiction();
-		// solver.showSolutions();
 
 		int[] sumDists = IntStream.range(0, jumps.length).map(i2 -> IntStream.of(jumps[i2]).sum()).toArray();
 		int[] sumSqDists = IntStream.range(0, jumps.length).map(i2 -> IntStream.of(jumps[i2]).map(i3 -> i3 * i3).sum())
@@ -80,8 +102,6 @@ public class ChocoStager implements IRegionStager {
 		int[] idxSortedBySumSqDistsInc = IntStream.range(0, jumps.length).boxed()
 				.sorted((i1, i2) -> sumSqDists[i1] - sumSqDists[i2]).mapToInt(i -> i).toArray();
 		int[] idxPriorities = useSquareDistance ? idxSortedBySumSqDistsInc : idxSortedBySumDistsInc;
-		System.err.println(
-				"systems priorities : " + IntStream.of(idxPriorities).mapToObj(idx::system).collect(Collectors.toList()));
 		IntStrategy heuristic = Search.intVarSearch(new InputOrder<>(choco), (IntValueSelector) var -> {
 			for (int i : idxPriorities) {
 				if (var.contains(i)) {
@@ -92,6 +112,14 @@ public class ChocoStager implements IRegionStager {
 		}, clusterCenters);
 		// heuristic = Search.inputOrderLBSearch(clusterCenters);
 		solver.setSearch(heuristic);
+
+		if (params.debug) {
+			solver.showDecisions();
+			solver.showContradiction();
+			solver.showSolutions();
+			logger.debug(
+					"systems priorities : " + IntStream.of(idxPriorities).mapToObj(idx::system).collect(Collectors.toList()));
+		}
 
 		Solution found = solver.findOptimalSolution(totalDist, false);
 		if (found == null || !found.exists()) {
