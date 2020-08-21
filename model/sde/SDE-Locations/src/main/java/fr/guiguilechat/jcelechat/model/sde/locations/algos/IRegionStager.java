@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.distances.Distances;
 
 public interface IRegionStager {
 
@@ -122,21 +123,15 @@ public interface IRegionStager {
 	 * @return a new matrix of the distances between each system.
 	 */
 	public default int[][] jumps(SysIndex idx, boolean useSquare) {
-		int[][] jumps = new int[idx.size()][idx.size()];
-		for (int i = 0; i < idx.size(); i++) {
-			SolarSystem from = idx.system(i);
-			jumps[i][i] = 0;
-			for (int j = i + 1; j < idx.size(); j++) {
-				SolarSystem to = idx.system(j);
-				int dist = fr.guiguilechat.jcelechat.model.sde.locations.route.SecStatusRouter.HS
-						.getRoute(from.id, to.id).length;
-				if (useSquare) {
-					dist = dist * dist;
+		int[][] ret = Distances.of(idx);
+		if (useSquare) {
+			for (int i = 0; i < ret.length; i++) {
+				for (int j = 0; j < ret.length; j++) {
+					ret[i][j] = ret[i][j] * ret[i][j];
 				}
-				jumps[i][j] = jumps[j][i] = dist;
 			}
 		}
-		return jumps;
+		return ret;
 	}
 
 	/**

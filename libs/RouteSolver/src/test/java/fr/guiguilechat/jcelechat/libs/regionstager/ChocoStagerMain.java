@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.evestager;
+package fr.guiguilechat.jcelechat.libs.regionstager;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionStager;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionStager.Params;

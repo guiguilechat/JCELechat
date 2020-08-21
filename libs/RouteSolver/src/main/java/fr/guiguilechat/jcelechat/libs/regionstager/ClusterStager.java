@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.evestager;
+package fr.guiguilechat.jcelechat.libs.regionstager;
 
 import java.util.ArrayList;
 import java.util.List;

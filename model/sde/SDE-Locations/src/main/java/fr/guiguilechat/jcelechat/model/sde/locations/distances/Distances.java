@@ -6,6 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
 /**
  * compute and cache distances between locations
@@ -82,6 +83,21 @@ public class Distances {
 			atDistance = nextJump;
 		}
 		return Integer.MAX_VALUE;
+	}
+
+	public static int[][] of(SysIndex idx) {
+		int[][] jumps = new int[idx.size()][idx.size()];
+		for (int i = 0; i < idx.size(); i++) {
+			SolarSystem from = idx.system(i);
+			jumps[i][i] = 0;
+			for (int j = i + 1; j < idx.size(); j++) {
+				SolarSystem to = idx.system(j);
+				int dist = fr.guiguilechat.jcelechat.model.sde.locations.route.SecStatusRouter.HS.getRoute(from.id,
+						to.id).length;
+				jumps[i][j] = jumps[j][i] = dist;
+			}
+		}
+		return jumps;
 	}
 
 }
