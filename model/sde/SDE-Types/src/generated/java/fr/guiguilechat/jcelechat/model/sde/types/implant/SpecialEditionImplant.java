@@ -28,6 +28,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Implantness;
 import fr.guiguilechat.jcelechat.model.sde.attributes.IntelligenceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MemoryBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Nondestructible;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PerceptionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerEngineeringOutputBonus;
@@ -128,6 +129,14 @@ public class SpecialEditionImplant
     @DefaultIntValue(0)
     public int memorybonus;
     /**
+     * Authoring has been moved to FSD
+     * The ranking of the module within its tech level
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int metalevelold;
+    /**
      * This will make the item non-destructible upon podding.  ONLY FOR IMPLANTS AND BOOSTERS
      */
     @HighIsGood(true)
@@ -170,7 +179,7 @@ public class SpecialEditionImplant
     @Stackable(true)
     @DefaultIntValue(0)
     public int willpowerbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Nondestructible.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, ImplantSetChristmas.INSTANCE, CpuOutputBonus2 .INSTANCE, Implantness.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, AgilityBonus.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, FollowsJumpClones.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Nondestructible.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, ImplantSetChristmas.INSTANCE, CpuOutputBonus2 .INSTANCE, Implantness.INSTANCE, CharismaBonus.INSTANCE, IntelligenceBonus.INSTANCE, MemoryBonus.INSTANCE, ShieldCapacityBonus.INSTANCE, PerceptionBonus.INSTANCE, WillpowerBonus.INSTANCE, ImplantBonusVelocity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, CapacitorCapacityBonus.INSTANCE, AgilityBonus.INSTANCE, MetaLevelOld.INSTANCE, PowerEngineeringOutputBonus.INSTANCE, CapRechargeBonus.INSTANCE, ArmorHpBonus2 .INSTANCE, FollowsJumpClones.INSTANCE })));
     public static final SpecialEditionImplant.MetaGroup METAGROUP = new SpecialEditionImplant.MetaGroup();
 
     @Override
@@ -223,6 +232,10 @@ public class SpecialEditionImplant
             case  177 :
             {
                 return memorybonus;
+            }
+            case  633 :
+            {
+                return metalevelold;
             }
             case  1890 :
             {
