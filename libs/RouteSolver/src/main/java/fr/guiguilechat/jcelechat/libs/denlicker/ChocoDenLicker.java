@@ -9,6 +9,9 @@ import org.chocosolver.solver.Model;
 import org.chocosolver.solver.Solution;
 import org.chocosolver.solver.Solver;
 import org.chocosolver.solver.search.strategy.Search;
+import org.chocosolver.solver.search.strategy.selectors.variables.InputOrder;
+import org.chocosolver.solver.search.strategy.strategy.IntStrategy;
+import org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer;
 import org.chocosolver.solver.variables.IntVar;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
@@ -74,6 +77,44 @@ public class ChocoDenLicker implements IDenLicker {
 			}
 		}
 
+		// place constraints on the clusters.
+		// Let C be a sub-cluster of systems.
+		// Then there are at least two edges that exit this cluster that are used.
+		// Also there are at most 2×size of this clusters edges that exit that
+		// cluster.
+		// since with n systems, it means there are 2^n - 2 possible clusters (-2 to
+		// remove empty and full clusters) ; then we can't add constraints for 2^n .
+		// Instead, we create the clusters of systems that are close together, by
+		// aggregating the systems that are close to a cluster by a distance less
+		// than the median edge distance.
+
+
+		int medianEdge = IntStream.of(edgeLength).sorted().skip(edgeLength.length / 2).findFirst().getAsInt();
+		// each cluster is defined by the index of the system with lower index in
+		// that cluster.
+		int[] clusters = new int[idx.size()];
+		// we start with each system being its own cluster
+		for (int i = 0; i < clusters.length; i++) {
+			clusters[i] = i;
+		}
+		// first find the parent, if exists, for all systems.
+		for (int i = 0; i < clusters.length; i++) {
+			for (int j = i + 1; j < clusters.length; j++) {
+				if (distances[i][j] < medianEdge && clusters[j] > i) {
+					clusters[j] = i;
+				}
+			}
+		}
+		// then resolve the root of the parent for all systems.
+		// recursive proof : since the systems before the i th are resolved to the
+		// smallest one of the cluster, and the parent of a system
+		// is lower index, then replacing the parent of system i by the parent of
+		// its parent resolves to the smallest system of the cluster.
+		for (int i = 0; i < clusters.length; i++) {
+			clusters[i] = clusters[clusters[i]];
+		}
+		// now we have each system resolved to the smallest index of its cluster.
+
 		// find a good min and max values for the objective.
 		int sumLowEdges = IntStream.of(edgeLength).sorted().limit(idx.size()).sum();
 		int sumHighEdges = IntStream.of(edgeLength).boxed().sorted((i, j) -> j - i).mapToInt(i -> i).limit(idx.size())
@@ -106,13 +147,36 @@ public class ChocoDenLicker implements IDenLicker {
 
 		IntVar[] edges_by_length_desc = IntStream.range(0, edgeLength.length).boxed()
 				.sorted((i, j) -> edgeLength[j] - edgeLength[i]).map(i -> edgeUsed[i]).toArray(IntVar[]::new);
+		IntStrategy removeHighEdges = Search.inputOrderLBSearch(edges_by_length_desc);
+		IntStrategy nextRouteFast = Search.inputOrderLBSearch(route);
+		IntStrategy nextRouteClosest = Search.intVarSearch(new InputOrder<>(choco), var -> {
+			// find the actual index of the variable
+			int varIdx = 0;
+			for (; varIdx < route.length && route[varIdx] != var; varIdx++) {
+			}
+			int previous = route[varIdx - 1].getValue();
+			int ret = 0;
+			int dist = Integer.MAX_VALUE;
+			for (int j = 0; j < distances.length; j++) {
+				if (var.contains(j) && distances[previous][j] < dist) {
+					dist = distances[previous][j];
+					ret = j;
+				}
+			}
+			return ret;
+		}, route);
 
-		solver.setSearch(Search.inputOrderLBSearch(edges_by_length_desc), Search.inputOrderLBSearch(route),
+		StrategiesSequencer optimalSearch = new StrategiesSequencer(removeHighEdges, nextRouteClosest,
 				Search.defaultSearch(choco));
+		// FindAndProve<IntVar> fap = new
+		// FindAndProve<>(choco.retrieveIntVars(true), nextRouteClosest,
+		// optimalSearch);
+		// solver.setSearch(fap);
+		solver.setSearch(optimalSearch);
 
 		solver.showSolutions();
-		// solver.showDecisions();
-		// solver.showContradiction();
+		solver.showDecisions();
+		solver.showContradiction();
 		Solution solution = solver.findOptimalSolution(totalDist, false);
 		// Solution solution = solver.findSolution();
 		return Stream.of(route).map(iv -> idx.system(solution.getIntVal(iv))).collect(Collectors.toList());
