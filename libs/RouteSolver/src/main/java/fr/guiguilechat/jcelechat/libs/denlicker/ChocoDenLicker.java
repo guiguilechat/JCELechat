@@ -13,12 +13,16 @@ import org.chocosolver.solver.search.strategy.selectors.variables.InputOrder;
 import org.chocosolver.solver.search.strategy.strategy.IntStrategy;
 import org.chocosolver.solver.search.strategy.strategy.StrategiesSequencer;
 import org.chocosolver.solver.variables.IntVar;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IDenLicker;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
 public class ChocoDenLicker implements IDenLicker {
+
+	private static final Logger logger = LoggerFactory.getLogger(ChocoDenLicker.class);
 
 	public static final ChocoDenLicker INSTANCE = new ChocoDenLicker();
 
@@ -88,37 +92,64 @@ public class ChocoDenLicker implements IDenLicker {
 		// aggregating the systems that are close to a cluster by a distance less
 		// than the median edge distance.
 
+		int[] clusters = createClusters(distances, (int) Math.ceil(Math.sqrt(idx.size())));
+		int[] clustersRoot = IntStream.of(clusters).distinct().toArray();
+		int minDistFromClusters = 0;
+		if (clustersRoot.length > 1) {
+			for (int i : clustersRoot) {
+				int[] clusterSystems = IntStream.range(i, idx.size()).filter(sysi -> clusters[sysi] == i).toArray();
+				logger.debug("cluster [" + idx.system(i) + "]: "
+						+ IntStream.of(clusterSystems).mapToObj(idx::system).collect(Collectors.toList()));
+			}
 
-		int medianEdge = IntStream.of(edgeLength).sorted().skip(edgeLength.length / 2).findFirst().getAsInt();
-		// each cluster is defined by the index of the system with lower index in
-		// that cluster.
-		int[] clusters = new int[idx.size()];
-		// we start with each system being its own cluster
-		for (int i = 0; i < clusters.length; i++) {
-			clusters[i] = i;
-		}
-		// first find the parent, if exists, for all systems.
-		for (int i = 0; i < clusters.length; i++) {
-			for (int j = i + 1; j < clusters.length; j++) {
-				if (distances[i][j] < medianEdge && clusters[j] > i) {
-					clusters[j] = i;
+			// generate the min distance for systems internal to a cluster, and
+			// between
+			// system out of a cluster, for each cluster main system.
+			int[] clusterMinIntra = new int[idx.size()];
+			int[] clusterMinInter = new int[idx.size()];
+			for (int i = 0; i < idx.size(); i++) {
+				clusterMinIntra[i] = clusterMinInter[i] = Integer.MAX_VALUE;
+			}
+			for (int i = 0; i < idx.size(); i++) {
+				for (int j = 0; j < i; j++) {
+					int cl1 = clusters[i], cl2 = clusters[j], dist = distances[i][j];
+					if (cl1 == cl2) {
+						// update intra if needed
+						if (dist < clusterMinIntra[cl1]) {
+							clusterMinIntra[cl1] = dist;
+						}
+					} else {
+						// update intra for both if needed
+						if (dist < clusterMinInter[cl1]) {
+							clusterMinInter[cl1] = dist;
+						}
+						if (dist < clusterMinInter[cl2]) {
+							clusterMinInter[cl2] = dist;
+						}
+					}
 				}
 			}
+			// now we can sum : for each cluster, the number of systems inside, -1 ;
+			// time the inter distance, plus the intra distance.
+			// that sum gives us a new minimum for distances
+			for (int clusterRoot : clustersRoot) {
+				int nb = (int) IntStream.of(clusters).filter(i -> i == clusterRoot).count();
+				int inter = clusterMinInter[clusterRoot];
+				int intra = 0;
+				if (nb > 1) {
+					intra = (nb - 1) * clusterMinIntra[clusterRoot];
+				}
+				logger.debug("cluster " + idx.system(clusterRoot) + "(" + nb + ") add inter=" + inter + " intra=" + intra);
+				minDistFromClusters += inter + intra;
+			}
 		}
-		// then resolve the root of the parent for all systems.
-		// recursive proof : since the systems before the i th are resolved to the
-		// smallest one of the cluster, and the parent of a system
-		// is lower index, then replacing the parent of system i by the parent of
-		// its parent resolves to the smallest system of the cluster.
-		for (int i = 0; i < clusters.length; i++) {
-			clusters[i] = clusters[clusters[i]];
-		}
-		// now we have each system resolved to the smallest index of its cluster.
 
 		// find a good min and max values for the objective.
+		// get the nth lowest, highest edges with n being the number of systems.
 		int sumLowEdges = IntStream.of(edgeLength).sorted().limit(idx.size()).sum();
 		int sumHighEdges = IntStream.of(edgeLength).boxed().sorted((i, j) -> j - i).mapToInt(i -> i).limit(idx.size())
 				.sum();
+		// also, for each system the highest/lowest proximity with another system
 		int sumLowProx = 0;
 		int sumHigProx = 0;
 		for (int i = 0; i < distances.length; i++) {
@@ -137,11 +168,23 @@ public class ChocoDenLicker implements IDenLicker {
 			sumLowProx += closer;
 			sumHigProx += further;
 		}
-		System.err.println("sum N edges low " + sumLowEdges + " high " + sumHighEdges);
-		System.err.println("sum prox low " + sumLowProx + " high " + sumHigProx);
-		IntVar totalDist = choco.intVar("totaldist", Math.max(sumLowEdges, sumLowProx), Math.min(sumHighEdges, sumHigProx));
+
+		int lb = Math.max(sumLowEdges, sumLowProx);
+		if (minDistFromClusters > lb) {
+			lb = minDistFromClusters;
+		}
+		int ub = Math.min(sumHighEdges, sumHigProx);
+		logger.debug("variable objectif from " + lb + " (prox=" + sumLowProx + " edges=" + sumLowEdges + " clusters="
+				+ minDistFromClusters + ") to " + ub + " (prox=" + sumHigProx + " edges=" + sumHighEdges + ")");
+
+		IntVar totalDist = choco.intVar("totaldist", lb, ub);
 		choco.scalar(edgeUsed, edgeLength, "=", totalDist).post();
 		choco.sum(edgeUsed, "=", idx.size()).post();
+
+		boolean exit = true;
+		if (exit) {
+			return null;
+		}
 
 		Solver solver = choco.getSolver();
 
@@ -180,6 +223,39 @@ public class ChocoDenLicker implements IDenLicker {
 		Solution solution = solver.findOptimalSolution(totalDist, false);
 		// Solution solution = solver.findSolution();
 		return Stream.of(route).map(iv -> idx.system(solution.getIntVal(iv))).collect(Collectors.toList());
+	}
+
+	public static int[] createClusters(int[][] distances, int maxClusters) {
+		int[] clustering = new int[distances.length];
+		// we start with each system being its own cluster
+		for (int i = 0; i < clustering.length; i++) {
+			clustering[i] = i;
+		}
+		int[] edgesLength = Stream.of(distances).flatMapToInt(iArr -> IntStream.of(iArr)).sorted().distinct()
+				.filter(i -> i > 0).toArray();
+		logger.debug("clustering " + distances.length + " systems into max " + maxClusters + " clusters ; edges length are "
+				+ IntStream.of(edgesLength).boxed().collect(Collectors.toList()));
+		long nbClusters = IntStream.of(clustering).distinct().count();
+		for (int edgeIndex = 0; edgeIndex < edgesLength.length && nbClusters > maxClusters; edgeIndex++) {
+			int edgeLength = edgesLength[edgeIndex];
+			for (int i = 0; i < distances.length; i++) {
+				for (int j = 0; j < i; j++) {
+					if (distances[i][j] == edgeLength && clustering[i] != clustering[j]) {
+						// we merge the two clusters
+						int replaced = Math.max(clustering[i], clustering[j]);
+						int newval = Math.min(clustering[i], clustering[j]);
+						for (int k = 0; k < clustering.length; k++) {
+							if (clustering[k] == replaced) {
+								clustering[k] = newval;
+							}
+						}
+					}
+				}
+			}
+			nbClusters = IntStream.of(clustering).distinct().count();
+			logger.debug("after mergin all clusters distant by " + edgeLength + " ; keep " + nbClusters + " clusters");
+		}
+		return clustering;
 	}
 
 }

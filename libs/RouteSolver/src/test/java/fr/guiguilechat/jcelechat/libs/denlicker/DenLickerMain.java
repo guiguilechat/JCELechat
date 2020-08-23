@@ -12,8 +12,8 @@ public class DenLickerMain {
 		String source = "Faktun";
 		Params params = Params.empty();
 
-		// source = "Nakugard";
-		// params.withRegion("Heimatar", "Molden heath");
+		source = "Nakugard";
+		params.withRegion("Heimatar", "Molden heath");
 
 		System.err.println(impl.from(SolarSystem.getSystem(source), params));
 	}
