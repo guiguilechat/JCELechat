@@ -15,7 +15,7 @@ public class DenLickerMain {
 		source = "Nakugard";
 		params.withRegion("Heimatar", "Molden heath");
 
-		System.err.println(impl.from(SolarSystem.getSystem(source), params));
+		System.err.println(impl.list(SolarSystem.getSystem(source), params));
 	}
 
 }

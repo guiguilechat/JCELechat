@@ -1,6 +1,8 @@
 package fr.guiguilechat.jcelechat.libs.denlicker;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -27,7 +29,7 @@ public class ChocoDenLicker implements IDenLicker {
 	public static final ChocoDenLicker INSTANCE = new ChocoDenLicker();
 
 	@Override
-	public List<SolarSystem> from(SysIndex idx, int[][] distances, int sourceIdx) {
+	public List<SolarSystem> list(SysIndex idx, int[][] distances, int sourceIdx) {
 		Model choco = new Model();
 		// make the route as the indexes. first one must be the source.
 		IntVar[] route = new IntVar[idx.size()];
@@ -76,7 +78,7 @@ public class ChocoDenLicker implements IDenLicker {
 				int edgeIdx = i * (i - 1) / 2 + j;
 				edgeLength[edgeIdx] = distances[i][j];
 				edgeUsed[edgeIdx] = choco
-						.boolVar(idx.system(i).name + "-" + idx.system(j).name + " [" + edgeLength[edgeIdx] + "]");
+						.boolVar(idx.system(i).name + "-" + idx.system(j).name + "[" + edgeLength[edgeIdx] + "]");
 				edgeUsed[edgeIdx].eq(previousIdx[i].eq(j).or(previousIdx[j].eq(i))).post();
 			}
 		}
@@ -96,10 +98,27 @@ public class ChocoDenLicker implements IDenLicker {
 		int[] clustersRoot = IntStream.of(clusters).distinct().toArray();
 		int minDistFromClusters = 0;
 		if (clustersRoot.length > 1) {
-			for (int i : clustersRoot) {
-				int[] clusterSystems = IntStream.range(i, idx.size()).filter(sysi -> clusters[sysi] == i).toArray();
-				logger.debug("cluster [" + idx.system(i) + "]: "
+			for (int clusterRoot : clustersRoot) {
+				int[] clusterSystems = IntStream.range(clusterRoot, idx.size()).filter(sysi -> clusters[sysi] == clusterRoot)
+						.toArray();
+				logger.debug("cluster [" + idx.system(clusterRoot) + "] systems="
 						+ IntStream.of(clusterSystems).mapToObj(idx::system).collect(Collectors.toList()));
+				Set<IntVar> exitEdges = new HashSet<>();
+				// for each couple i,j with i in the cluster and j not in the cluster.
+				for (int i = 0; i < distances.length; i++) {
+					if (clusters[i] == clusterRoot) {
+						for (int j = 0; j < distances.length; j++) {
+							if (clusters[j] != clusterRoot) {
+								// same edge value as above
+								int edgeIdx = j < i ? i * (i - 1) / 2 + j : j * (j - 1) / 2 + i;
+								exitEdges.add(edgeUsed[edgeIdx]);
+							}
+						}
+					}
+				}
+				logger.debug("cluster [" + idx.system(clusterRoot) + "] exits=" + exitEdges);
+				IntVar exitEdgesUsed = choco.intVar("cl_" + idx.system(clusterRoot).name + ".exitEdges", 2, distances.length);
+				choco.sum(exitEdges.toArray(IntVar[]::new), "=", exitEdgesUsed).post();
 			}
 
 			// generate the min distance for systems internal to a cluster, and
@@ -181,17 +200,21 @@ public class ChocoDenLicker implements IDenLicker {
 		choco.scalar(edgeUsed, edgeLength, "=", totalDist).post();
 		choco.sum(edgeUsed, "=", idx.size()).post();
 
-		boolean exit = true;
+		boolean exit = false;
 		if (exit) {
 			return null;
 		}
 
 		Solver solver = choco.getSolver();
 
+		// remove high edges strategy removes all the edges, from the highest to the
+		// lowest edge distance excluxed.
+		int lowestEdge = IntStream.of(edgeLength).sorted().limit(1).sum();
 		IntVar[] edges_by_length_desc = IntStream.range(0, edgeLength.length).boxed()
+				.filter(i -> edgeLength[i] > lowestEdge)
 				.sorted((i, j) -> edgeLength[j] - edgeLength[i]).map(i -> edgeUsed[i]).toArray(IntVar[]::new);
 		IntStrategy removeHighEdges = Search.inputOrderLBSearch(edges_by_length_desc);
-		IntStrategy nextRouteFast = Search.inputOrderLBSearch(route);
+		// IntStrategy nextRouteFast = Search.inputOrderLBSearch(route);
 		IntStrategy nextRouteClosest = Search.intVarSearch(new InputOrder<>(choco), var -> {
 			// find the actual index of the variable
 			int varIdx = 0;
@@ -219,7 +242,7 @@ public class ChocoDenLicker implements IDenLicker {
 
 		solver.showSolutions();
 		solver.showDecisions();
-		solver.showContradiction();
+		// solver.showContradiction();
 		Solution solution = solver.findOptimalSolution(totalDist, false);
 		// Solution solution = solver.findSolution();
 		return Stream.of(route).map(iv -> idx.system(solution.getIntVal(iv))).collect(Collectors.toList());

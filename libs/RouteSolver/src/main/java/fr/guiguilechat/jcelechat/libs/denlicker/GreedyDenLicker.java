@@ -20,7 +20,7 @@ public class GreedyDenLicker implements IDenLicker {
 	}
 
 	@Override
-	public List<SolarSystem> from(SysIndex idx, int[][] distances, int sourceIdx) {
+	public List<SolarSystem> list(SysIndex idx, int[][] distances, int sourceIdx) {
 		List<Edge> edges = new ArrayList<>();
 		for (int i = 0; i < idx.size(); i++) {
 			for (int j = 0; j < i; j++) {
