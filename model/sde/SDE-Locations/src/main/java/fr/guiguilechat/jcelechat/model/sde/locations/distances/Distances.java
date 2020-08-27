@@ -92,7 +92,7 @@ public class Distances {
 			jumps[i][i] = 0;
 			for (int j = i + 1; j < idx.size(); j++) {
 				SolarSystem to = idx.system(j);
-				int dist = fr.guiguilechat.jcelechat.model.sde.locations.route.SecStatusRouter.HS.getRoute(from.id,
+				int dist = fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter.HS.getRoute(from.id,
 						to.id).length;
 				jumps[i][j] = jumps[j][i] = dist;
 			}

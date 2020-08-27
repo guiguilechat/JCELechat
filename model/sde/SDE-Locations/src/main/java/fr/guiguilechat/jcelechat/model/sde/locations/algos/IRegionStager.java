@@ -113,7 +113,7 @@ public interface IRegionStager {
 	}
 
 	public default Collection<SolarSystem> expand(SolarSystem source, Params params) {
-		return ReachableRegionHs.around(source, params.addRegions.toArray(String[]::new));
+		return Reach.fromHS(source, params.addRegions.toArray(String[]::new));
 	}
 
 	/**

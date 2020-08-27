@@ -14,12 +14,12 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
  * split a region into n main systems, in order to reduce the amount of jumps
  * from each system to the closest of those systems.
  */
-public class BasicRegionStager implements IRegionStager {
+public class BruteStager implements IRegionStager {
 
 	@SuppressWarnings("unused")
-	private static final Logger logger = LoggerFactory.getLogger(BasicRegionStager.class);
+	private static final Logger logger = LoggerFactory.getLogger(BruteStager.class);
 
-	public static final BasicRegionStager INSTANCE = new BasicRegionStager();
+	public static final BruteStager INSTANCE = new BruteStager();
 
 	/**
 	 * create an invalid first evaluation. Next call to

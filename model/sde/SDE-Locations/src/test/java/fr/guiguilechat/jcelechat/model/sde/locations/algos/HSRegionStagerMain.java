@@ -11,9 +11,9 @@ public class HSRegionStagerMain {
 		// IRegionStager.show(HSRegionStager.INSTANCE, "Eredan", 1, false);
 		// IRegionStager.show(HSRegionStager.INSTANCE, "Eredan", 2, false);
 		// IRegionStager.show(HSRegionStager.INSTANCE, "Eredan", 3, false);
-		IRegionStager.show(BasicRegionStager.INSTANCE, "Hek", Params.clusters(2));
-		IRegionStager.show(BasicRegionStager.INSTANCE, "Hek", Params.clusters(3));
-		IRegionStager.show(BasicRegionStager.INSTANCE, "Hek", Params.clusters(4));
+		IRegionStager.show(BruteStager.INSTANCE, "Hek", Params.clusters(2));
+		IRegionStager.show(BruteStager.INSTANCE, "Hek", Params.clusters(3));
+		IRegionStager.show(BruteStager.INSTANCE, "Hek", Params.clusters(4));
 	}
 
 

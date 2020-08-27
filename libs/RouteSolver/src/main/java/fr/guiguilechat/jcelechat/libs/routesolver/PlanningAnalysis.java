@@ -1,6 +1,5 @@
 package fr.guiguilechat.jcelechat.libs.routesolver;
 
-import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
@@ -15,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.locations.Constellation;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
-import fr.guiguilechat.jcelechat.model.sde.locations.route.SecStatusRouter;
+import fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter;
 
 /**
  * analysis of a planning. This consist in the listing of the systems that are
@@ -79,18 +78,18 @@ public class PlanningAnalysis {
 			required.add(ss);
 		}
 
+		Predicate<SolarSystem> pred = ss -> true;
 		// which security of included constellations and regions are allowed for
 		// implicit systems ?
+
 		EnumSet<SolarSystem.SECSTATUS> allowedSecStatus = EnumSet.noneOf(SECSTATUS.class);
 		if (params.keepSec) {
 			for (SolarSystem ss : required) {
 				allowedSecStatus.add(ss.secStatus());
 			}
-		} else {
-			allowedSecStatus.addAll(Arrays.asList(SECSTATUS.values()));
+			pred = ss -> allowedSecStatus.contains(ss.secStatus());
 		}
-		SECSTATUS[] ssArr = allowedSecStatus.toArray(SECSTATUS[]::new);
-		SecStatusRouter router = new SecStatusRouter(ssArr);
+		PredicateRouter router = new PredicateRouter(pred);
 
 		// check that each explicitly required system, besides the source, is
 		// reachable from source

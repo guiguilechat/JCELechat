@@ -1,35 +1,44 @@
 package fr.guiguilechat.jcelechat.model.sde.locations.route;
 
 import java.util.Arrays;
-import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.stream.Stream;
+import java.util.function.Predicate;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
+import fr.guiguilechat.jcelechat.model.sde.translate.Invasions;
 
 /**
- * Router that try to respect a specific set of sec status, in addition to the
- * source and destination systems' status
+ * Router that try to respect a specific predicate on the system between the
+ * origin and the dest.
  *
  */
-public class SecStatusRouter implements IRouter {
+public class PredicateRouter implements IRouter {
 
-	private final SECSTATUS[] allowedStatus;
+	private final Predicate<SolarSystem> predicate;
 
-	public SecStatusRouter(SECSTATUS... allowedStatus) {
-		this.allowedStatus = allowedStatus;
+	public PredicateRouter(Predicate<SolarSystem> predicate) {
+		this.predicate = predicate;
 	}
 
-	public static final SecStatusRouter HS = new SecStatusRouter(SECSTATUS.HS);
-	public static final SecStatusRouter LS = new SecStatusRouter(SECSTATUS.LS);
-	public static final SecStatusRouter NS = new SecStatusRouter(SECSTATUS.NS);
-	public static final SecStatusRouter ALL = new SecStatusRouter(SECSTATUS.HS, SECSTATUS.LS, SECSTATUS.NS);
+	private static final Set<SolarSystem> INVADED = Invasions.INSTANCE.getDangerousSystems();
+
+	/**
+	 * only accept intermediate systems between source and dest that in HS, and
+	 * not invaded besides Fortress
+	 */
+	public static final PredicateRouter HS = new PredicateRouter(
+			s -> s.secStatus() == SECSTATUS.HS && !INVADED.contains(s));
+	public static final PredicateRouter LS = new PredicateRouter(s -> s.secStatus() == SECSTATUS.LS);
+	public static final PredicateRouter NS = new PredicateRouter(s -> s.secStatus() == SECSTATUS.NS);
+	public static final PredicateRouter KS = new PredicateRouter(
+			s -> s.secStatus() == SECSTATUS.HS || s.secStatus() == SECSTATUS.LS
+			|| s.secStatus() ==SECSTATUS.NS);
 
 	/**
 	 * Node of the tree of systems reachable from another one.
@@ -64,15 +73,6 @@ public class SecStatusRouter implements IRouter {
 	 * @return
 	 */
 	protected Map<Integer, DisTree> explore(int idFrom, int idTo) {
-		// need to add from and to otherwise we may not be able to go in dest
-		// system.
-		EnumSet<SECSTATUS> allowed = EnumSet.noneOf(SECSTATUS.class);
-		allowed.add(SolarSystem.getSystem(idFrom).secStatus());
-		allowed.add(SolarSystem.getSystem(idTo).secStatus());
-		if (allowedStatus != null && allowedStatus.length != 0) {
-			Stream.of(allowedStatus).forEach(allowed::add);
-		}
-
 		Map<Integer, DisTree> ret = new HashMap<>();
 		ret.put(idFrom, new DisTree(idFrom, 0));
 		Set<Integer> next = new HashSet<>(Arrays.asList(idFrom));
@@ -84,12 +84,13 @@ public class SecStatusRouter implements IRouter {
 				SolarSystem ss = SolarSystem.getSystem(sid);
 				for (String sn : ss.adjacentSystems) {
 					SolarSystem adj = SolarSystem.getSystem(sn);
-					if (!ret.containsKey(adj.id) && allowed.contains(adj.secStatus())) {
+					if (adj.id == idTo) {
+						ret.put(adj.id, new DisTree(sid, dist));
+						return ret;
+					}
+					if (!ret.containsKey(adj.id) && predicate.test(adj)) {
 						ret.put(adj.id, new DisTree(sid, dist));
 						next.add(adj.id);
-					}
-					if (adj.id == idTo) {
-						return ret;
 					}
 				}
 			}
