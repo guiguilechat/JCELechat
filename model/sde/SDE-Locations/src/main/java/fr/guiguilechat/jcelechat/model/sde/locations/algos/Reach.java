@@ -13,7 +13,7 @@ public class Reach {
 
 	/**
 	 * get all the systems that are reachable from the source, following a
-	 * predicate. Algo is basically Dijkstra
+	 * predicate. Algo is basically BFS
 	 *
 	 * @param source
 	 *          solarsystem to start the exploration
@@ -46,14 +46,14 @@ public class Reach {
 			regions.addAll(Arrays.asList(otherRegions));
 		}
 		Set<SolarSystem> avoidf = avoid == null ? Collections.emptySet() : avoid;
-		Predicate<SolarSystem> pred = (avoid == null)
-				? (ss -> ss.isHS() && regions.contains(ss.region))
-				: (ss -> ss.isHS() && regions.contains(ss.region) && !avoidf.contains(ss));
-		return from(source, pred);
+		Predicate<SolarSystem> pred = avoid == null
+				? ss -> ss.isHS() && regions.contains(ss.region)
+						: ss -> ss.isHS() && regions.contains(ss.region) && !avoidf.contains(ss);
+						return from(source, pred);
 	}
 
 	/**
-	 * get the systems using dijkstra , avoid systems that are not HS, not in the
+	 * get the systems using BFS , avoid systems that are not HS, not in the
 	 * source region of an additional region, or in the dangerous status of the
 	 * invasions
 	 *

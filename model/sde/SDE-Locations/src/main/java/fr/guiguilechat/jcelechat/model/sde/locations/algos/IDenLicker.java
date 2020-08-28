@@ -34,7 +34,7 @@ public interface IDenLicker {
 		List<SolarSystem> targets = Reach.fromHS(source, params.addRegions.toArray(String[]::new)).stream()
 				.filter(ss -> ss.truesec > 0.45 && ss.truesec <= 0.65).collect(Collectors.toList());
 		SysIndex idx = new SysIndex(targets);
-		int[][] distances = Distances.of(idx);
+		int[][] distances = Distances.of(idx, null);
 		int sourceIdx = idx.index(source);
 		return list(idx, distances, sourceIdx);
 	}

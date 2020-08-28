@@ -15,7 +15,9 @@ import fr.guiguilechat.jcelechat.model.sde.translate.Invasions;
 
 /**
  * Router that try to respect a specific predicate on the system between the
- * origin and the dest.
+ * origin and the dest. Since distances between systems are 1, is an unwedigthed
+ * graph , and BFS is used rather than Dijkstra for faster algo and less memory
+ * usage.
  *
  */
 public class PredicateRouter implements IRouter {
@@ -27,13 +29,21 @@ public class PredicateRouter implements IRouter {
 	}
 
 	private static final Set<SolarSystem> INVADED = Invasions.INSTANCE.getDangerousSystems();
+	private static final Set<SolarSystem> SECREDUCED = Invasions.INSTANCE.getBadsecSystems();
 
 	/**
 	 * only accept intermediate systems between source and dest that in HS, and
 	 * not invaded besides Fortress
 	 */
-	public static final PredicateRouter HS = new PredicateRouter(
+	public static final PredicateRouter HSNOINVASION = new PredicateRouter(
 			s -> s.secStatus() == SECSTATUS.HS && !INVADED.contains(s));
+	/**
+	 * Only accept intermediates systems that are in HS after modification from
+	 * the trigs (so avoid liminal)
+	 */
+	public static final PredicateRouter HS = new PredicateRouter(
+			s -> s.secStatus() == SECSTATUS.HS && !SECREDUCED.contains(s));
+
 	public static final PredicateRouter LS = new PredicateRouter(s -> s.secStatus() == SECSTATUS.LS);
 	public static final PredicateRouter NS = new PredicateRouter(s -> s.secStatus() == SECSTATUS.NS);
 	public static final PredicateRouter KS = new PredicateRouter(
@@ -63,8 +73,8 @@ public class PredicateRouter implements IRouter {
 	}
 
 	/**
-	 * explore the systems to get their distance and parent until a given system
-	 * is reached. This is used to find a route.
+	 * BFS algo to explore the systems to get their distance and parent until a
+	 * given system is reached. This is used to find a route.
 	 *
 	 * @param idFrom
 	 *          starting system

@@ -123,7 +123,7 @@ public class Invasions {
 	}
 
 	/**
-	 * set of state that are dangerous to navigate withing, basically all the
+	 * set of state that are dangerous to navigate within, basically all the
 	 * states besides Fortress
 	 */
 	private final Set<String> DANGEROUS_STATES = new HashSet<>(
@@ -150,4 +150,28 @@ public class Invasions {
 		}
 		return cacheDangerousSystems;
 	}
+
+	private final Set<String> BADSEC_STATES = new HashSet<>(Arrays.asList("final_liminality", "Final Liminality"));
+
+	private Set<SolarSystem> cacheBadsecSystems = null;
+
+	/**
+	 * list the solar systems that have been invaded and are in a dangerous state.
+	 * Dangerous state being any other than fortress
+	 *
+	 * @return a cached Set of the solar systems.
+	 */
+	public Set<SolarSystem> getBadsecSystems() {
+		if (cacheBadsecSystems == null) {
+			List<JsonEntry> entries = getEntries();
+			synchronized (this) {
+				if (cacheBadsecSystems == null) {
+					cacheBadsecSystems = entries.stream().filter(e -> BADSEC_STATES.contains(e.status))
+							.map(e -> SolarSystem.getSystem(e.system_name)).collect(Collectors.toSet());
+				}
+			}
+		}
+		return cacheBadsecSystems;
+	}
+
 }

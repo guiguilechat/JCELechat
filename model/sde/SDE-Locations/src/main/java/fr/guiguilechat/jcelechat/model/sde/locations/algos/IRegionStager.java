@@ -123,7 +123,7 @@ public interface IRegionStager {
 	 * @return a new matrix of the distances between each system.
 	 */
 	public default int[][] jumps(SysIndex idx, boolean useSquare) {
-		int[][] ret = Distances.of(idx);
+		int[][] ret = Distances.of(idx, null);
 		if (useSquare) {
 			for (int i = 0; i < ret.length; i++) {
 				for (int j = 0; j < ret.length; j++) {

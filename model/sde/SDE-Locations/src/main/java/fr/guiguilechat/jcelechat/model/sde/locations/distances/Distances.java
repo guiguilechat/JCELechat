@@ -7,6 +7,8 @@ import java.util.Set;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
+import fr.guiguilechat.jcelechat.model.sde.locations.route.IRouter;
+import fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter;
 
 /**
  * compute and cache distances between locations
@@ -16,7 +18,6 @@ public class Distances {
 
 	protected HashMap<String, HashMap<String, Integer>> cachedSysDistances = new HashMap<>();
 	protected HashMap<String, HashMap<String, Integer>> cachedConstelDistances = new HashMap<>();
-
 
 	/**
 	 * @param sys1
@@ -85,15 +86,30 @@ public class Distances {
 		return Integer.MAX_VALUE;
 	}
 
-	public static int[][] of(SysIndex idx) {
+	/**
+	 * make the matrix of distances for a set of indexes system, using a router.
+	 *
+	 * @param idx
+	 *          indexed systems
+	 * @param router
+	 *          method to get the distances between two systems. if set to null,
+	 *          then {@link PredicateRouter#HSNOINVASION}, which is the most
+	 *          restrictive one, is used.
+	 * @return a new matrix of the distances, so symmetrical with diag 0, with
+	 *         ret[i][j] = distance from idx.system(i) to id.system(j) according
+	 *         to the router.
+	 */
+	public static int[][] of(SysIndex idx, IRouter router) {
+		if (router == null) {
+			router = PredicateRouter.HSNOINVASION;
+		}
 		int[][] jumps = new int[idx.size()][idx.size()];
 		for (int i = 0; i < idx.size(); i++) {
 			SolarSystem from = idx.system(i);
 			jumps[i][i] = 0;
 			for (int j = i + 1; j < idx.size(); j++) {
 				SolarSystem to = idx.system(j);
-				int dist = fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter.HS.getRoute(from.id,
-						to.id).length;
+				int dist = router.getRoute(from.id, to.id).length;
 				jumps[i][j] = jumps[j][i] = dist;
 			}
 		}

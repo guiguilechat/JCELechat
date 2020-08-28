@@ -120,6 +120,11 @@ public class SolarSystem extends ALocation {
 
 	// helper
 
+	/**
+	 * sec status represents the speed of intervention from Concord. HS means
+	 * concord will destroy you, LS means turrets will defend you, and NS means
+	 * you gonna die helplessly
+	 */
 	public static enum SECSTATUS {
 		HS, LS, NS;
 	}
