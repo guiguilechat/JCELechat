@@ -47,10 +47,7 @@ public class ChocoDenLicker implements IDenLicker {
 			route[idx.size() - 1].lt(route[1]).post();
 		}
 		// each system appears only once
-		IntVar one = choco.intVar(1);
-		for (int i = 0; i < idx.size(); i++) {
-			choco.count(i, route, one).post();
-		}
+		choco.allDifferent(route).post();
 		// create the positions for each system
 		IntVar[] positions = new IntVar[idx.size()];
 		// the index of the system in previous position
@@ -241,7 +238,7 @@ public class ChocoDenLicker implements IDenLicker {
 		solver.setSearch(optimalSearch);
 
 		solver.showSolutions();
-		solver.showDecisions();
+		// solver.showDecisions();
 		// solver.showContradiction();
 		Solution solution = solver.findOptimalSolution(totalDist, false);
 		// Solution solution = solver.findSolution();

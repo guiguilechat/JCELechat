@@ -8,7 +8,7 @@ public class DenLickerMain {
 
 	public static void main(String[] args) {
 		IDenLicker impl = ChocoDenLicker.INSTANCE;
-		impl = GreedyDenLicker.INSTANCE;
+		// impl = GreedyDenLicker.INSTANCE;
 		String source = "Faktun";
 		Params params = Params.empty();
 
