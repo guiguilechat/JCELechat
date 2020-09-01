@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The chance an entity will delay repeating use of its shield boosting effect if it has one.
  */
 public class EntityShieldBoostDelayChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityShieldBoostDelayChance INSTANCE = new EntityShieldBoostDelayChance();
 

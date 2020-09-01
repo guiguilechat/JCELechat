@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
@@ -125,49 +125,49 @@ public class NPCBattleship
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double agility;
     /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armoremdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorexplosivedamageresonance;
     /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double armorhp;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorthermaldamageresonance;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorecmdischarge;
     /**
      * 
@@ -181,7 +181,7 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorecmfalloff;
     /**
      * 
@@ -195,7 +195,7 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorenergyneutralizerdischarge;
     /**
      * 
@@ -209,14 +209,14 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorenergyneutralizerfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorenergyneutralizerrange;
     /**
      * 
@@ -258,14 +258,14 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviormicrowarpdrivespeedfactor;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorsensordampenerdischarge;
     /**
      * 
@@ -279,21 +279,21 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorsensordampenerfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorsensordampenerrange;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviortargetpainterdischarge;
     /**
      * 
@@ -321,7 +321,7 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorwarpdisruptdischarge;
     /**
      * 
@@ -349,7 +349,7 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double behaviorwebifierdischarge;
     /**
      * 
@@ -377,14 +377,14 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacity;
     /**
      * charge of module
@@ -398,7 +398,7 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double damagemultiplier;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
@@ -412,28 +412,28 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double emdamage;
     /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double emdamageresonance;
     /**
      * An amount to modify the power of the target by.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double energyneutralizeramount;
     /**
      * Resistance against Energy Neutralizing and Nosferatu
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double energywarfareresistance;
     /**
      *  0: white (default)
@@ -449,7 +449,7 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entityfactionloss;
     /**
      * Reward for destroying this entity.
@@ -470,7 +470,7 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitysecuritymaxgain;
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
@@ -478,28 +478,28 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitysecuritystatuskillbonus;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double explosivedamage;
     /**
      * damage multiplier vs. explosive damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double explosivedamageresonance;
     /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double falloff;
     /**
      * Graphic ID of the boosters for drone type ships.
@@ -520,28 +520,28 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
      * damage multiplier vs. kinetic damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double kineticdamageresonance;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double mass;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
@@ -555,70 +555,70 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxrange;
     /**
      * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxtargetrange;
     /**
      * Bonus to Max Targeting Range
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxtargetrangebonus;
     /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
      * The characters missile use efficiency, scales the damage missiles do.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missiledamagemultiplier;
     /**
      * Affects the signature radius of the target in missile impact calculations.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missileentityaoecloudsizemultiplier;
     /**
      * Affects the velocity of the target in missile impact calculations.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missileentityaoevelocitymultiplier;
     /**
      * Multiplier for the missile's flight time.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missileentityflighttimemultiplier;
     /**
      * Multiplier for the missile's speed.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missileentityvelocitymultiplier;
     /**
      * Cycle time for a missile launch, in milliseconds.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(20000.0)
+    @DefaultRealValue(20000.0)
     public double missilelaunchduration;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
@@ -632,91 +632,91 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double rechargerate;
     /**
      * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scangravimetricstrength;
     /**
      * +/- modifier to the gravimetric strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scangravimetricstrengthbonus;
     /**
      * Ladar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanladarstrength;
     /**
      * +/- modifier to the ladar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanladarstrengthbonus;
     /**
      * Magnetometric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanmagnetometricstrength;
     /**
      * +/- modifier to the magnetometric strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanmagnetometricstrengthbonus;
     /**
      * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanradarstrength;
     /**
      * +/- modifier to the radar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanradarstrengthbonus;
     /**
      * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolution;
     /**
      * Bonus for scan resolution
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolutionbonus;
     /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
@@ -724,105 +724,105 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcharge;
     /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldemdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldkineticdamageresonance;
     /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldrechargerate;
     /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shielduniformity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(100.0)
+    @DefaultRealValue(100.0)
     public double signatureradius;
     /**
      * Autogenerated skill attribute, signatureRadiusBonus
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double signatureradiusbonus;
     /**
      * Time in milliseconds between possible activations
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double speed;
     /**
      * Factor by which topspeed increases.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double speedfactor;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double structureuniformity;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double thermaldamage;
     /**
      * damage multiplier vs. thermal.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double thermaldamageresonance;
     /**
      * Weapon accuracy
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double trackingspeed;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityBracketColour.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SignatureRadiusBonus.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, BehaviorMicroWarpDriveDischarge.INSTANCE, RechargeRate.INSTANCE, BehaviorMicroWarpDriveDuration.INSTANCE, BehaviorMicroWarpDriveMassAddition.INSTANCE, BehaviorMicroWarpDriveSignatureRadiusBonus.INSTANCE, BehaviorMicroWarpDriveSpeedFactor.INSTANCE, BehaviorMicroWarpDriveSpeedBoostFactor.INSTANCE, DamageMultiplier.INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, DisallowAssistance.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, EnergyNeutralizerAmount.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, MaxLockedTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorWebifierDischarge.INSTANCE, BehaviorWarpDisruptDuration.INSTANCE, BehaviorWarpDisruptRange.INSTANCE, BehaviorWarpDisruptDischarge.INSTANCE, BehaviorWarpDisruptStrength.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, BehaviorTargetPainterDuration.INSTANCE, BehaviorTargetPainterRange.INSTANCE, BehaviorTargetPainterFalloff.INSTANCE, BehaviorTargetPainterDischarge.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorECMDuration.INSTANCE, ShieldUniformity.INSTANCE, BehaviorECMRange.INSTANCE, BehaviorECMFalloff.INSTANCE, BehaviorECMDischarge.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final NPCBattleship.MetaGroup METAGROUP = new NPCBattleship.MetaGroup();

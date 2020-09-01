@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AgentCommRange;
@@ -64,14 +64,14 @@ public class DestructibleAgentsInSpace
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double armorhp;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacity;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
@@ -113,7 +113,7 @@ public class DestructibleAgentsInSpace
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(500.0)
+    @DefaultRealValue(500.0)
     public double entityflyrange;
     /**
      * The maximum number of pieces of loot dropped by this entity.
@@ -135,14 +135,14 @@ public class DestructibleAgentsInSpace
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitysecuritystatuskillbonus;
     /**
      * distance from maximum range at which accuracy has fallen by half
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double falloff;
     /**
      * Graphic ID of the boosters for drone type ships.
@@ -156,35 +156,35 @@ public class DestructibleAgentsInSpace
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double mass;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxrange;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double radius;
     /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
@@ -192,35 +192,35 @@ public class DestructibleAgentsInSpace
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldrechargerate;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(100.0)
+    @DefaultRealValue(100.0)
     public double signatureradius;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double structureuniformity;
     /**
      * Weapon accuracy
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double trackingspeed;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, AgentID.INSTANCE, EntityEquipmentMin.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, EntityEquipmentMax.INSTANCE, AgentCommRange.INSTANCE, StructureUniformity.INSTANCE, DisallowAssistance.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, ShieldRechargeRate.INSTANCE, TrackingSpeed.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, MaxRange.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityLootCountMin.INSTANCE, EntityLootCountMax.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
     public static final DestructibleAgentsInSpace.MetaGroup METAGROUP = new DestructibleAgentsInSpace.MetaGroup();

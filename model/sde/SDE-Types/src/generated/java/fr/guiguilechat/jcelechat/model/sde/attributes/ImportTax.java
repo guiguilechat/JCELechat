@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Base importation tax (ISK per m3 of volume) for commodities imported to pin.
  */
 public class ImportTax
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ImportTax INSTANCE = new ImportTax();
 

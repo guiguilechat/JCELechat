@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
@@ -52,7 +52,7 @@ public class FlexShieldHardener
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
      * One of the groups of charge this launcher can be loaded with.
@@ -73,49 +73,49 @@ public class FlexShieldHardener
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double duration;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double emdamageresistancebonus;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double explosivedamageresistancebonus;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double heatabsorbtionratemodifier;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double heatdamage;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double kineticdamageresistancebonus;
     /**
      * 
@@ -166,7 +166,7 @@ public class FlexShieldHardener
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0)
+    @DefaultRealValue(10000.0)
     public double reloadtime;
     /**
      * The type ID of the skill that is required.
@@ -216,7 +216,7 @@ public class FlexShieldHardener
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double thermaldamageresistancebonus;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, EmDamageResistanceBonus.INSTANCE, ExplosiveDamageResistanceBonus.INSTANCE, KineticDamageResistanceBonus.INSTANCE, ThermalDamageResistanceBonus.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ChargeGroup1 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, OverloadHardeningBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE })));
     public static final FlexShieldHardener.MetaGroup METAGROUP = new FlexShieldHardener.MetaGroup();

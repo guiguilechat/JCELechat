@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Used to calculate cpu load multiplier for PI links
  */
 public class CpuLoadLevelModifier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final CpuLoadLevelModifier INSTANCE = new CpuLoadLevelModifier();
 

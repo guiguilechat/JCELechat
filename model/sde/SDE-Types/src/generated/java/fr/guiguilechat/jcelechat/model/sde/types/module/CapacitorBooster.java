@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
@@ -59,28 +59,28 @@ public class CapacitorBooster
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double duration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double heatabsorbtionratemodifier;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double heatdamage;
     /**
      * Maximum modules of same group that can be onlined at same time, 0 = no limit, 1 = 1
@@ -117,7 +117,7 @@ public class CapacitorBooster
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double overloadselfdurationbonus;
     /**
      * current power need
@@ -131,7 +131,7 @@ public class CapacitorBooster
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0)
+    @DefaultRealValue(10000.0)
     public double reloadtime;
     /**
      * The type ID of the skill that is required.

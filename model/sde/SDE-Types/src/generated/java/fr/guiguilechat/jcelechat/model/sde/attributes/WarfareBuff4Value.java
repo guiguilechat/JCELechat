@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * 
  */
 public class WarfareBuff4Value
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final WarfareBuff4Value INSTANCE = new WarfareBuff4Value();
 

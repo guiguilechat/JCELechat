@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus to fighter ROF (%)
  */
 public class FighterBonusROFPercent
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final FighterBonusROFPercent INSTANCE = new FighterBonusROFPercent();
 

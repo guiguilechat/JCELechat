@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AmmoCapacity;
@@ -97,14 +97,14 @@ public class MobileMissileSentry
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double emdamageresonance;
     /**
      * Maximum attack delay time for entity.
@@ -125,21 +125,21 @@ public class MobileMissileSentry
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(500.0)
+    @DefaultRealValue(500.0)
     public double entityflyrange;
     /**
      * The chance of an entity attacking the same person as its group members.  Scales delay in joining in on fights too.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entityreactionfactor;
     /**
      * damage multiplier vs. explosive damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double explosivedamageresonance;
     /**
      * 
@@ -153,14 +153,14 @@ public class MobileMissileSentry
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double incapacitationratio;
     /**
      * damage multiplier vs. kinetic damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double kineticdamageresonance;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
@@ -174,7 +174,7 @@ public class MobileMissileSentry
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxtargetrange;
     /**
      * Authoring has been moved to FSD.
@@ -196,42 +196,42 @@ public class MobileMissileSentry
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missiledamagemultiplier;
     /**
      * Affects the signature radius of the target in missile impact calculations.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missileentityaoecloudsizemultiplier;
     /**
      * Affects the velocity of the target in missile impact calculations.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missileentityaoevelocitymultiplier;
     /**
      * Multiplier for the missile's flight time.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missileentityflighttimemultiplier;
     /**
      * Multiplier for the missile's speed.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missileentityvelocitymultiplier;
     /**
      * Cycle time for a missile launch, in milliseconds.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(20000.0)
+    @DefaultRealValue(20000.0)
     public double missilelaunchduration;
     /**
      * If a starbase structure has this attribute = 1 then it can be controlled by owners with infrastructure tactical officer skill and corp role.
@@ -273,14 +273,14 @@ public class MobileMissileSentry
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolution;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shielduniformity;
     /**
      * The amount of time after attacking a target that an entity will wait before switching to a new one.
@@ -294,14 +294,14 @@ public class MobileMissileSentry
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double thermaldamageresonance;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double uniformity;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {AmmoCapacity.INSTANCE, Mass.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, ControlTowerMinimumDistance.INSTANCE, StructureUniformity.INSTANCE, PosPlayerControlStructure.INSTANCE, RequiredSkill1Level.INSTANCE, ProximityRange.INSTANCE, MetaGroupID.INSTANCE, IncapacitationRatio.INSTANCE, Power.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, AnchoringDelay.INSTANCE, Cpu.INSTANCE, TargetSwitchDelay.INSTANCE, ScanResolution.INSTANCE, RequiredSkill1 .INSTANCE, MaxLockedTargets.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, EntityAttackDelayMin.INSTANCE, ChargeGroup1 .INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, MissileLaunchDuration.INSTANCE })));
     public static final MobileMissileSentry.MetaGroup METAGROUP = new MobileMissileSentry.MetaGroup();

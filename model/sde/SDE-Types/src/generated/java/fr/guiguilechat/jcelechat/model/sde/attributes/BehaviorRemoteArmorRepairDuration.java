@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * 
  */
 public class BehaviorRemoteArmorRepairDuration
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final BehaviorRemoteArmorRepairDuration INSTANCE = new BehaviorRemoteArmorRepairDuration();
 

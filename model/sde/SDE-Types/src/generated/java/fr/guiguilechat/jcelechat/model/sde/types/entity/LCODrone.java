@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorHP;
@@ -60,21 +60,21 @@ public class LCODrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double armorhp;
     /**
      * Capacitor capacity
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacity;
     /**
      * charge of module
@@ -88,7 +88,7 @@ public class LCODrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double damagemultiplier;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
@@ -102,63 +102,63 @@ public class LCODrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double emdamage;
     /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double emdamageresonance;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double explosivedamage;
     /**
      * damage multiplier vs. explosive damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double explosivedamageresonance;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * The hull damage proportion at which an entity becomes incapacitated.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double incapacitationratio;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
      * damage multiplier vs. kinetic damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double kineticdamageresonance;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double mass;
     /**
      * The maximum number of their targets that the character can attack at a given time.
@@ -179,7 +179,7 @@ public class LCODrone
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
      * The range at which this thing does it thing.
@@ -200,42 +200,42 @@ public class LCODrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double rechargerate;
     /**
      * Gravimetric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scangravimetricstrength;
     /**
      * Ladar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanladarstrength;
     /**
      * Magnetometric strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanmagnetometricstrength;
     /**
      * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanradarstrength;
     /**
      * scanning speed in milliseconds
@@ -249,7 +249,7 @@ public class LCODrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
@@ -257,49 +257,49 @@ public class LCODrone
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcharge;
     /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldrechargerate;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shielduniformity;
     /**
      * Time in milliseconds between possible activations
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double speed;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double structureuniformity;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double thermaldamage;
     /**
      * damage multiplier vs. thermal.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double thermaldamageresonance;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {MaxLockedTargets.INSTANCE, DamageMultiplier.INSTANCE, MaxAttackTargets.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, StructureUniformity.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, Charge.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, DisallowAssistance.INSTANCE, ProximityRange.INSTANCE, IncapacitationRatio.INSTANCE, OrbitRange.INSTANCE, ShieldRechargeRate.INSTANCE, Radius.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, Speed.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, RechargeRate.INSTANCE })));
     public static final LCODrone.MetaGroup METAGROUP = new LCODrone.MetaGroup();

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier to the HP of a ships armor module.
  */
 public class ArmorHPMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ArmorHPMultiplier INSTANCE = new ArmorHPMultiplier();
 

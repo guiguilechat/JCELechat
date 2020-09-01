@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The chance that a passer by will be chosen as a target of a scan for contraband.
  */
 public class ContrabandScanChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ContrabandScanChance INSTANCE = new ContrabandScanChance();
 

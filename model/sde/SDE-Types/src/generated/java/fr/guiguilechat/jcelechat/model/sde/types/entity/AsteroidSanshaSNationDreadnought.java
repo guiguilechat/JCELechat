@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AIChanceToNotTargetSwitch;
@@ -110,7 +110,7 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double aichancetonottargetswitch;
     /**
      * NPC'S with this attribute wont shoot drones with signature radius less than this value.
@@ -153,70 +153,70 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.699999988079071)
+    @DefaultRealValue(0.699999988079071)
     public double aitankingmodifierdrone;
     /**
      * The agility of the object.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double agility;
     /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armoremdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorexplosivedamageresonance;
     /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double armorhp;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorthermaldamageresonance;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double armoruniformity;
     /**
      * Capacitor capacity
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacity;
     /**
      * charge of module
@@ -230,7 +230,7 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double damagemultiplier;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
@@ -244,14 +244,14 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double emdamage;
     /**
      * An amount to modify the power of the target by.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double energyneutralizeramount;
     /**
      * Duration of NPC Energy Neutralizer effect
@@ -265,7 +265,7 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double energyneutralizerentitychance;
     /**
      * Optimal Range of Energy Neutralizer
@@ -316,7 +316,7 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entitychasemaxdelaychance;
     /**
      * The distance outside of which the entity activates their MWD equivalent.
@@ -337,21 +337,21 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entitychasemaxdurationchance;
     /**
      * The speed that entities fly at when not chasing a target.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitycruisespeed;
     /**
      * % chance of entity to shoot defender at incoming missile
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitydefenderchance;
     /**
      * 
@@ -372,14 +372,14 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entityfactionloss;
     /**
      * The distance at which the entity orbits, follows.. and more.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(500.0)
+    @DefaultRealValue(500.0)
     public double entityflyrange;
     /**
      * The chance an entity will respawn into his group if destroyed.
@@ -414,14 +414,14 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entityreactionfactor;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitysecuritymaxgain;
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
@@ -429,14 +429,14 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitysecuritystatuskillbonus;
     /**
      * the average shield amount regenerated per second
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entityshieldboostamountpersecond;
     /**
      * How long between repeats.
@@ -450,7 +450,7 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double falloff;
     /**
      * 
@@ -478,7 +478,7 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * 
@@ -492,7 +492,7 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double mass;
     /**
      * The maximum number of their targets that the character can attack at a given time.
@@ -513,28 +513,28 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxrange;
     /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
      * Chance that  an entity will use a Stasis Web on a target.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double modifytargetspeedchance;
     /**
      * Duration of entities Stasis Web 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(5000.0)
+    @DefaultRealValue(5000.0)
     public double modifytargetspeedduration;
     /**
      * Range of entities Stasis Web
@@ -562,35 +562,35 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double rechargerate;
     /**
      * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanradarstrength;
     /**
      * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolution;
     /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
@@ -598,91 +598,91 @@ public class AsteroidSanshaSNationDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcharge;
     /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldemdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldkineticdamageresonance;
     /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldrechargerate;
     /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shielduniformity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(100.0)
+    @DefaultRealValue(100.0)
     public double signatureradius;
     /**
      * Time in milliseconds between possible activations
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double speed;
     /**
      * Factor by which topspeed increases.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double speedfactor;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double structureuniformity;
     /**
      * Thermal damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double thermaldamage;
     /**
      * Weapon accuracy
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double trackingspeed;
     /**
      * 

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Fixed Role Bonus on a ship.
  */
 public class ShipBonusRole7
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ShipBonusRole7 INSTANCE = new ShipBonusRole7();
 

@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ArmorEmDamageResonance;
@@ -43,42 +43,42 @@ public class Billboard
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armoremdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorexplosivedamageresonance;
     /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double armorhp;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorthermaldamageresonance;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacity;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
@@ -92,28 +92,28 @@ public class Billboard
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double mass;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double radius;
     /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
@@ -121,49 +121,49 @@ public class Billboard
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcharge;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldkineticdamageresonance;
     /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldrechargerate;
     /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shielduniformity;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double structureuniformity;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ShieldUniformity.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, DisallowAssistance.INSTANCE, ShieldRechargeRate.INSTANCE })));
     public static final Billboard.MetaGroup METAGROUP = new Billboard.MetaGroup();

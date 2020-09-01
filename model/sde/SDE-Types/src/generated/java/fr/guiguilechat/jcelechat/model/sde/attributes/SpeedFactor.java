@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Factor by which topspeed increases.
  */
 public class SpeedFactor
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final SpeedFactor INSTANCE = new SpeedFactor();
 

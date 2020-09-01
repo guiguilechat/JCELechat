@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Missile Damage Modifier. Smaller is better (Don't use less than 0.5)
  */
 public class AoeDamageReductionFactor
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final AoeDamageReductionFactor INSTANCE = new AoeDamageReductionFactor();
 

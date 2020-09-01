@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Duration of booster, after this duration the booster is destroyed
  */
 public class BoosterDuration
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final BoosterDuration INSTANCE = new BoosterDuration();
 

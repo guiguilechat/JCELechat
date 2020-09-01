@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
@@ -63,7 +63,7 @@ public class JumpPortalArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double anchoringsecuritylevelmax;
     /**
      * Minimum distance where a starbase structure can be anchored at from the control tower shield extremity in meters.
@@ -77,21 +77,21 @@ public class JumpPortalArray
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double emdamageresonance;
     /**
      * damage multiplier vs. explosive damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double explosivedamageresonance;
     /**
      * 
@@ -105,7 +105,7 @@ public class JumpPortalArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double incapacitationratio;
     /**
      * Number of units it consumes per light year.
@@ -126,21 +126,21 @@ public class JumpPortalArray
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double jumpdriverange;
     /**
      * Multiplier used to calculate amount of quantity used for jumping via portals based on mass of ship.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double jumpportalconsumptionmassfactor;
     /**
      * damage multiplier vs. kinetic damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double kineticdamageresonance;
     /**
      * How many structures in this group can be anchored for the same alliance per solar system.  0 means there is no limit.
@@ -175,21 +175,21 @@ public class JumpPortalArray
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolution;
     /**
      * damage multiplier vs. thermal.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double thermaldamageresonance;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double uniformity;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {FighterAbilityAntiCapitalMissileResistance.INSTANCE, Mass.INSTANCE, PosCargobayAcceptType.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, AnchoringSecurityLevelMax.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, ControlTowerMinimumDistance.INSTANCE, StructureUniformity.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, IncapacitationRatio.INSTANCE, Power.INSTANCE, ShieldRechargeRate.INSTANCE, JumpDriveConsumptionType.INSTANCE, Radius.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, DisallowOffensiveModifiers.INSTANCE, JumpPortalConsumptionMassFactor.INSTANCE, PosAnchoredPerSolarSystemAmount.INSTANCE, AnchoringDelay.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, Cpu.INSTANCE, ScanResolution.INSTANCE, RequiresSovUpgrade1 .INSTANCE })));
     public static final JumpPortalArray.MetaGroup METAGROUP = new JumpPortalArray.MetaGroup();

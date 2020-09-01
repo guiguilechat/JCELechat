@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The characters missile use efficiency, scales the damage missiles do.
  */
 public class MissileDamageMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final MissileDamageMultiplier INSTANCE = new MissileDamageMultiplier();
 

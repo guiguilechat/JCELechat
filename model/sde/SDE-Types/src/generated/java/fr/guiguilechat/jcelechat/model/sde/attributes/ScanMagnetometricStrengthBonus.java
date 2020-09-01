@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * +/- modifier to the magnetometric strength of an electronic system.
  */
 public class ScanMagnetometricStrengthBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ScanMagnetometricStrengthBonus INSTANCE = new ScanMagnetometricStrengthBonus();
 

@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
@@ -43,7 +43,7 @@ public class FestivalCharges
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double agility;
     /**
      * Determines wether a missile launches aligned with the ship (0) or directly at the target (1).
@@ -92,7 +92,7 @@ public class FestivalCharges
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
@@ -106,7 +106,7 @@ public class FestivalCharges
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
      * If present on a type which is used like a missile, signifies that it should never do damage (whether it has any to do or not).
@@ -120,14 +120,14 @@ public class FestivalCharges
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double speedmultiplier;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double structureuniformity;
     /**
      * Authoring has been moved to FSD
@@ -142,7 +142,7 @@ public class FestivalCharges
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double thermaldamage;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, BaseShieldDamage.INSTANCE, AimedLaunch.INSTANCE, Mass.INSTANCE, MaxVelocity.INSTANCE, BaseArmorDamage.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, DetonationRange.INSTANCE, SpeedMultiplier.INSTANCE, StructureUniformity.INSTANCE, MissileNeverDoesDamage.INSTANCE, ThermalDamage.INSTANCE, ExplosionDelay.INSTANCE, ArmorPiercingChance.INSTANCE })));
     public static final FestivalCharges.MetaGroup METAGROUP = new FestivalCharges.MetaGroup();

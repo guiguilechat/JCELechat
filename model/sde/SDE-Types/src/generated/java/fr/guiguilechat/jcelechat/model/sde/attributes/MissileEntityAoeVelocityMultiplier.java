@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Affects the velocity of the target in missile impact calculations.
  */
 public class MissileEntityAoeVelocityMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final MissileEntityAoeVelocityMultiplier INSTANCE = new MissileEntityAoeVelocityMultiplier();
 

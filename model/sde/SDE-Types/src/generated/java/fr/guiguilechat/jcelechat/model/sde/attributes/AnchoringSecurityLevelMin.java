@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The minimum security level at which the structure can be anchored.
  */
 public class AnchoringSecurityLevelMin
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final AnchoringSecurityLevelMin INSTANCE = new AnchoringSecurityLevelMin();
 

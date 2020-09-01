@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Virtue set bonus attribute
  */
 public class ImplantSetSisters
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ImplantSetSisters INSTANCE = new ImplantSetSisters();
 

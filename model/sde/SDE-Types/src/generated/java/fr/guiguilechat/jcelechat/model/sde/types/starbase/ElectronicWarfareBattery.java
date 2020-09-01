@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
@@ -84,21 +84,21 @@ public class ElectronicWarfareBattery
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double duration;
     /**
      * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double emdamageresonance;
     /**
      * Maximum attack delay time for entity.
@@ -119,14 +119,14 @@ public class ElectronicWarfareBattery
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(500.0)
+    @DefaultRealValue(500.0)
     public double entityflyrange;
     /**
      * The chance of an entity attacking the same person as its group members.  Scales delay in joining in on fights too.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entityreactionfactor;
     /**
      * Used for target jam effects to reduce max locked targets of victem to a negative value to ensure the victem looses its targets, use extreme value
@@ -140,7 +140,7 @@ public class ElectronicWarfareBattery
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double explosivedamageresonance;
     /**
      * distance from maximum range at which effectiveness has fallen by half
@@ -161,14 +161,14 @@ public class ElectronicWarfareBattery
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double incapacitationratio;
     /**
      * damage multiplier vs. kinetic damagers.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double kineticdamageresonance;
     /**
      * Maximum number of locked targets that the character or their ships electronics can handle at any given time.  Both have individual limits which apply separately.
@@ -182,14 +182,14 @@ public class ElectronicWarfareBattery
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxrange;
     /**
      * Maximum range at which the scanner can lock a target.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxtargetrange;
     /**
      * Authoring has been moved to FSD.
@@ -253,42 +253,42 @@ public class ElectronicWarfareBattery
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scangravimetricstrengthbonus;
     /**
      * +/- modifier to the ladar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanladarstrengthbonus;
     /**
      * +/- modifier to the magnetometric strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanmagnetometricstrengthbonus;
     /**
      * +/- modifier to the radar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanradarstrengthbonus;
     /**
      * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolution;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shielduniformity;
     /**
      * The amount of time after attacking a target that an entity will wait before switching to a new one.
@@ -302,14 +302,14 @@ public class ElectronicWarfareBattery
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double thermaldamageresonance;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double uniformity;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorUniformity.INSTANCE, ControlTowerMinimumDistance.INSTANCE, StructureUniformity.INSTANCE, PosPlayerControlStructure.INSTANCE, RequiredSkill1Level.INSTANCE, ProximityRange.INSTANCE, IncapacitationRatio.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, AnchoringDelay.INSTANCE, Cpu.INSTANCE, TargetSwitchDelay.INSTANCE, ScanResolution.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, EwTargetJam.INSTANCE, MaxLockedTargets.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, Duration.INSTANCE, MaxTargetRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityReactionFactor.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, RemoteResistanceID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, KineticDamageResonance.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ThermalDamageResonance.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ExplosiveDamageResonance.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, EmDamageResonance.INSTANCE, FalloffEffectiveness.INSTANCE })));
     public static final ElectronicWarfareBattery.MetaGroup METAGROUP = new ElectronicWarfareBattery.MetaGroup();

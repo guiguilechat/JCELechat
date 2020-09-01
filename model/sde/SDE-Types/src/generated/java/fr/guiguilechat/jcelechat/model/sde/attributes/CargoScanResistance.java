@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Chance of being able to resist a cargo scan.
  */
 public class CargoScanResistance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final CargoScanResistance INSTANCE = new CargoScanResistance();
 

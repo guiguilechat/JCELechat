@@ -468,6 +468,20 @@ types:
     portionSize: 1
     published: true
     volume: 2520.0
+  Caldari Union Day Apparel Crate:
+    cpumultiplier: 1.0
+    id: 56091
+    name: Caldari Union Day Apparel Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Caldari Union Day Fireworks Crate:
+    cpumultiplier: 1.0
+    id: 56095
+    name: Caldari Union Day Fireworks Crate
+    portionSize: 1
+    published: true
   Calm Abyssal Filaments Crate:
     cpumultiplier: 1.0
     id: 49708

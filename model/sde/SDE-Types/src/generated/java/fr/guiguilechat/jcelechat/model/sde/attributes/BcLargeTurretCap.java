@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Used by Battlecruisers for large turret capacitor reduction
  */
 public class BcLargeTurretCap
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final BcLargeTurretCap INSTANCE = new BcLargeTurretCap();
 

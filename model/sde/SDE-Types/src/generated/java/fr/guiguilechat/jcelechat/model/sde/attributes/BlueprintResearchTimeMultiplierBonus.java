@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus or penalty to the percentage time it takes to research a blueprint.
  */
 public class BlueprintResearchTimeMultiplierBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final BlueprintResearchTimeMultiplierBonus INSTANCE = new BlueprintResearchTimeMultiplierBonus();
 

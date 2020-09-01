@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The chance of engaging chase for the maximum duration.
  */
 public class EntityChaseMaxDurationChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityChaseMaxDurationChance INSTANCE = new EntityChaseMaxDurationChance();
 

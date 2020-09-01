@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier on droneBandwidth. The default value should be 0 to ensure that CONCORD NPCs can set the bandwidth of a target ship to 0.
  */
 public class DroneBandwidthMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final DroneBandwidthMultiplier INSTANCE = new DroneBandwidthMultiplier();
 

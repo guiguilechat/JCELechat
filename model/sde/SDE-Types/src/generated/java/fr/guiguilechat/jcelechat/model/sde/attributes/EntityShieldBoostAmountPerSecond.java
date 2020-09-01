@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * the average shield amount regenerated per second
  */
 public class EntityShieldBoostAmountPerSecond
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityShieldBoostAmountPerSecond INSTANCE = new EntityShieldBoostAmountPerSecond();
 

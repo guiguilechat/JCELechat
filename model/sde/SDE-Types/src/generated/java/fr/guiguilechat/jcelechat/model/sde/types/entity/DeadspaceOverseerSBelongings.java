@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
@@ -40,14 +40,14 @@ public class DeadspaceOverseerSBelongings
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacity;
     /**
      * If this module is in use and this attribute is 1, then assistance modules cannot be used on the ship.
@@ -99,35 +99,35 @@ public class DeadspaceOverseerSBelongings
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitysecuritystatuskillbonus;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * The number of milliseconds before the container replenishes the loot inside itself.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(600000.0)
+    @DefaultRealValue(600000.0)
     public double lootrespawntime;
     /**
      * Integer that describes the types mass
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double mass;
     /**
      * Radius of an object in meters
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double radius;
     /**
      * Whether a spawn container should refill itself when there are no guards assigned to it.
@@ -141,7 +141,7 @@ public class DeadspaceOverseerSBelongings
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double structureuniformity;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorCapacity.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, SpawnWithoutGuardsToo.INSTANCE, EntityEquipmentMin.INSTANCE, DisallowOffensiveModifiers.INSTANCE, Hp.INSTANCE, EntityEquipmentMax.INSTANCE, StructureUniformity.INSTANCE, EntityEquipmentGroupMax.INSTANCE, DisallowAssistance.INSTANCE, LootRespawnTime.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityBracketColour.INSTANCE })));
     public static final DeadspaceOverseerSBelongings.MetaGroup METAGROUP = new DeadspaceOverseerSBelongings.MetaGroup();

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * This is a bookkeeping attribute for blueprints, which will hopefully be deprecated by the end of 2014
  */
 public class IndustryBlueprintRank
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final IndustryBlueprintRank INSTANCE = new IndustryBlueprintRank();
 

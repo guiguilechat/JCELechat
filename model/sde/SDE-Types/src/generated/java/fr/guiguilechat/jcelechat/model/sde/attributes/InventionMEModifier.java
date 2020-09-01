@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Modifies the mineral efficiency of invented BPCs
  */
 public class InventionMEModifier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final InventionMEModifier INSTANCE = new InventionMEModifier();
 

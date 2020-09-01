@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Length of activation time.
  */
 public class Duration
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final Duration INSTANCE = new Duration();
 

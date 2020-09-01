@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier to the explosive damage resistance of something.
  */
 public class ExplosiveDamageResonanceMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ExplosiveDamageResonanceMultiplier INSTANCE = new ExplosiveDamageResonanceMultiplier();
 

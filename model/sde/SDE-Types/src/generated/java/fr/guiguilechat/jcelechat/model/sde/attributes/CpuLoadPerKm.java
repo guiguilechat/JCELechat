@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * CPU Usage per kilometer
  */
 public class CpuLoadPerKm
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final CpuLoadPerKm INSTANCE = new CpuLoadPerKm();
 

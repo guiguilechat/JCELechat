@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Modifier for damageMultiplierBonusMax used by Triglavians
  */
 public class DamageMultiplierBonusMaxModifier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final DamageMultiplierBonusMaxModifier INSTANCE = new DamageMultiplierBonusMaxModifier();
 

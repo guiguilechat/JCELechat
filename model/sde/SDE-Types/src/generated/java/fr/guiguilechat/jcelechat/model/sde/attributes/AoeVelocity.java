@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Velocity of the damage cloud created on impact.
  */
 public class AoeVelocity
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final AoeVelocity INSTANCE = new AoeVelocity();
 

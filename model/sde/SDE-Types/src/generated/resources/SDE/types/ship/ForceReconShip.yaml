@@ -733,7 +733,7 @@ types:
     shipbonuscc: 5
     shipbonusgc: 5.0
     shipbonuspc1: 7.5
-    shipbonuspc2: 5
+    shipbonuspc2: 5.0
     shipbonusrole1: 100.0
     shipbonusrole2: -50
     signatureradius: 115.0

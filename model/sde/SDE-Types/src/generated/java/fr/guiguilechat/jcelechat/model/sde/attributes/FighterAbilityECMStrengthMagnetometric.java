@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Magnetometric ECM Jammer Strength
  */
 public class FighterAbilityECMStrengthMagnetometric
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final FighterAbilityECMStrengthMagnetometric INSTANCE = new FighterAbilityECMStrengthMagnetometric();
 

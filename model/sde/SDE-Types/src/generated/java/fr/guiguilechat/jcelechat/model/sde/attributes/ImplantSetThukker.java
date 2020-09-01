@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Nomad set bonus attribute
  */
 public class ImplantSetThukker
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ImplantSetThukker INSTANCE = new ImplantSetThukker();
 

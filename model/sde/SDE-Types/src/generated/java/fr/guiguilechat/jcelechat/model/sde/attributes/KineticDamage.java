@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Kinetic damage done.
  */
 public class KineticDamage
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final KineticDamage INSTANCE = new KineticDamage();
 

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier to a recharge rate time.
  */
 public class ShieldRechargeRateMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ShieldRechargeRateMultiplier INSTANCE = new ShieldRechargeRateMultiplier();
 

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Impedance against Remote Repair (shield, armor, hull and energy).
  */
 public class RemoteRepairImpedance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final RemoteRepairImpedance INSTANCE = new RemoteRepairImpedance();
 

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The weighting given to this type and its chance of being picked for a grouping.
  */
 public class UsageWeighting
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final UsageWeighting INSTANCE = new UsageWeighting();
 

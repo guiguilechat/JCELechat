@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
@@ -42,14 +42,14 @@ public class PlanetaryLinks
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpuloadlevelmodifier;
     /**
      * CPU Usage per kilometer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpuloadperkm;
     /**
      * Transport capacity (bandwidth) in m3 per hour.
@@ -70,14 +70,14 @@ public class PlanetaryLinks
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double powerloadlevelmodifier;
     /**
      * Megawatts per kilometer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double powerloadperkm;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {PowerLoadPerKm.INSTANCE, CpuLoad.INSTANCE, CpuLoadPerKm.INSTANCE, Radius.INSTANCE, CpuLoadLevelModifier.INSTANCE, PowerLoadLevelModifier.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, PowerLoad.INSTANCE, LogisticalCapacity.INSTANCE })));
     public static final PlanetaryLinks.MetaGroup METAGROUP = new PlanetaryLinks.MetaGroup();

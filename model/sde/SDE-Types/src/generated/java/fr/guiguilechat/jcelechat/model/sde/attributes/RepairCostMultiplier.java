@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier to adjust the cost of repairs.
  */
 public class RepairCostMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final RepairCostMultiplier INSTANCE = new RepairCostMultiplier();
 

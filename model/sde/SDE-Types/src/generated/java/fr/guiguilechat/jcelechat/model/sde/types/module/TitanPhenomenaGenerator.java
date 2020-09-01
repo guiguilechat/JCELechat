@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BuffDuration;
@@ -86,7 +86,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
@@ -107,7 +107,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * If set to True on a module, the module will not be allowed to activate whilst the ship is inside a starbase forcefield
@@ -135,7 +135,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double duration;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
@@ -156,7 +156,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxrange;
     /**
      * Authoring has been moved to FSD
@@ -214,7 +214,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double warfarebuff1value;
     /**
      * 
@@ -228,7 +228,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double warfarebuff2value;
     /**
      * 
@@ -242,7 +242,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double warfarebuff3value;
     /**
      * 
@@ -256,7 +256,7 @@ public class TitanPhenomenaGenerator
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double warfarebuff4value;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DisallowActivateInForcefield.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, ConsumptionQuantity.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, Radius.INSTANCE, WarfareBuff1ID.INSTANCE, WarfareBuff1Value.INSTANCE, TechLevel.INSTANCE, WarfareBuff2ID.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, BuffDuration.INSTANCE, WarfareBuff2Value.INSTANCE, WarfareBuff3ID.INSTANCE, WarfareBuff4ID.INSTANCE, WarfareBuff3Value.INSTANCE, WarfareBuff4Value.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final TitanPhenomenaGenerator.MetaGroup METAGROUP = new TitanPhenomenaGenerator.MetaGroup();

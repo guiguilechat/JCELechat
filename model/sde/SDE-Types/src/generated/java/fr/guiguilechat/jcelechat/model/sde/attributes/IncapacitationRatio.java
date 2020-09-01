@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The hull damage proportion at which an entity becomes incapacitated.
  */
 public class IncapacitationRatio
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final IncapacitationRatio INSTANCE = new IncapacitationRatio();
 

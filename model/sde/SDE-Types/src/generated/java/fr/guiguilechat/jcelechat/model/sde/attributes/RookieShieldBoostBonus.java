@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus to shield booster repair amount
  */
 public class RookieShieldBoostBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final RookieShieldBoostBonus INSTANCE = new RookieShieldBoostBonus();
 

@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
@@ -135,14 +135,14 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * Modules with this attribute set to 1 can not be used in deadspace. Modules with this attribute set to 2 can not be used in deadspace even where "disableModuleBlocking" is selected
@@ -163,14 +163,14 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double duration;
     /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double emdamage;
     /**
      * Range of broadcasted EMP field.
@@ -184,21 +184,21 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double explosivedamage;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
@@ -260,7 +260,7 @@ public class StructureAreaDenialModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double thermaldamage;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, CanFitShipType11 .INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, MaxGroupOnline.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, CanFitShipType7 .INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, EmpFieldRange.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, CanFitShipType8 .INSTANCE, ThermalDamage.INSTANCE, CanFitShipType6 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType10 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final StructureAreaDenialModule.MetaGroup METAGROUP = new StructureAreaDenialModule.MetaGroup();

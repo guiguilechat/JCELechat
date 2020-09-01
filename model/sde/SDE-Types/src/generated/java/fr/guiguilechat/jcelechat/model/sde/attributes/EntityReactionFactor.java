@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The chance of an entity attacking the same person as its group members.  Scales delay in joining in on fights too.
  */
 public class EntityReactionFactor
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityReactionFactor INSTANCE = new EntityReactionFactor();
 

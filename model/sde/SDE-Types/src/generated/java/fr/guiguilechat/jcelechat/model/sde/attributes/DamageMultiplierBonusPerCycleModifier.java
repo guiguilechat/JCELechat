@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Modifier for Triglavian ramp-up value
  */
 public class DamageMultiplierBonusPerCycleModifier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final DamageMultiplierBonusPerCycleModifier INSTANCE = new DamageMultiplierBonusPerCycleModifier();
 

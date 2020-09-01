@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Modifies the max runs in a blueprint created through invention
  */
 public class InventionMaxRunModifier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final InventionMaxRunModifier INSTANCE = new InventionMaxRunModifier();
 

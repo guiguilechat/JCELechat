@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The number of milliseconds before the container replenishes the loot inside itself.
  */
 public class LootRespawnTime
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final LootRespawnTime INSTANCE = new LootRespawnTime();
 

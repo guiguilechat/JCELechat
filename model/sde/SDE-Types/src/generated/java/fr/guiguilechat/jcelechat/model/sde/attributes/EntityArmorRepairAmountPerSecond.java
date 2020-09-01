@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * the average armor amount repaired per second
  */
 public class EntityArmorRepairAmountPerSecond
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityArmorRepairAmountPerSecond INSTANCE = new EntityArmorRepairAmountPerSecond();
 

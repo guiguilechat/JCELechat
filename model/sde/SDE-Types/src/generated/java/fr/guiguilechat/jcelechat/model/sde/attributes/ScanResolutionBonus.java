@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus for scan resolution
  */
 public class ScanResolutionBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ScanResolutionBonus INSTANCE = new ScanResolutionBonus();
 

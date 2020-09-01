@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipType1;
@@ -66,14 +66,14 @@ public class StructureDoomsdayWeapon
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * The delay in ms until the damage is done to the target. (Allows some FX to be played)
@@ -115,7 +115,7 @@ public class StructureDoomsdayWeapon
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double duration;
     /**
      * 
@@ -129,35 +129,35 @@ public class StructureDoomsdayWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double emdamage;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double explosivedamage;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
      * Damage lost per target hit
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double lightningweapondamagelosstarget;
     /**
      * Number of targets affected by the structure doomsday beam.
@@ -210,7 +210,7 @@ public class StructureDoomsdayWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double thermaldamage;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, DisallowEarlyDeactivation.INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, EffectDeactivationDelay.INSTANCE, DamageDelayDuration.INSTANCE, DisallowInHighSec.INSTANCE, Cpu.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, DisallowRepeatingActivation.INSTANCE, LightningWeaponTargetAmount.INSTANCE, LightningWeaponTargetRange.INSTANCE, LightningWeaponDamageLossTarget.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final StructureDoomsdayWeapon.MetaGroup METAGROUP = new StructureDoomsdayWeapon.MetaGroup();

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Booster attribute to explosion radius of missiles vs. signature radius.
  */
 public class AoeCloudSizeBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final AoeCloudSizeBonus INSTANCE = new AoeCloudSizeBonus();
 

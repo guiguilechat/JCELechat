@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The factor by which the amount mined by a mining laser is scaled.
  */
 public class MiningAmountMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final MiningAmountMultiplier INSTANCE = new MiningAmountMultiplier();
 

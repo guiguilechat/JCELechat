@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Megawatts per kilometer
  */
 public class PowerLoadPerKm
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final PowerLoadPerKm INSTANCE = new PowerLoadPerKm();
 

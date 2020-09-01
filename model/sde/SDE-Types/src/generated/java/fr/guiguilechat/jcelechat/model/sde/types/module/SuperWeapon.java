@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BuffDuration;
@@ -125,7 +125,7 @@ public class SuperWeapon
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
      * The amount of the given resource type needed to be consumed for each activation cycle of this structure.
@@ -146,7 +146,7 @@ public class SuperWeapon
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * The delay in ms until the damage is done to the target. (Allows some FX to be played)
@@ -296,7 +296,7 @@ public class SuperWeapon
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double duration;
     /**
      * 
@@ -310,14 +310,14 @@ public class SuperWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double emdamage;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double explosivedamage;
     /**
      * 
@@ -338,7 +338,7 @@ public class SuperWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
@@ -359,7 +359,7 @@ public class SuperWeapon
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxrange;
     /**
      * 
@@ -437,14 +437,14 @@ public class SuperWeapon
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(100.0)
+    @DefaultRealValue(100.0)
     public double signatureradius;
     /**
      * Factor by which topspeed increases.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double speedfactor;
     /**
      * Authoring has been moved to FSD
@@ -459,7 +459,7 @@ public class SuperWeapon
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double thermaldamage;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, CanFitShipType1 .INSTANCE, RequiredSkill2Level.INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, SignatureRadius.INSTANCE, EffectDeactivationDelay.INSTANCE, DamageDelayDuration.INSTANCE, DoomsdayEnergyNeutResistanceID.INSTANCE, DisallowDocking.INSTANCE, DisallowInEmpireSpace.INSTANCE, Cpu.INSTANCE, MaxRange.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, JumpDelayDuration.INSTANCE, ConsumptionType.INSTANCE, Duration.INSTANCE, ConsumptionQuantity.INSTANCE, DoomsdayEnergyNeutRadius.INSTANCE, DoomsdayEnergyNeutAmount.INSTANCE, SiegeModeWarpStatus.INSTANCE, DoomsdayEnergyNeutSignatureRadius.INSTANCE, DoomsdayWarningDuration.INSTANCE, DoomsdayDamageRadius.INSTANCE, DoomsdayDamageDuration.INSTANCE, DoomsdayDamageCycleTime.INSTANCE, IsPointTargeted.INSTANCE, DisallowActivateOnWarp.INSTANCE, PanicDuration.INSTANCE, DoomsdayAOERange.INSTANCE, BuffDuration.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, DisallowRepeatingActivation.INSTANCE, ThermalDamage.INSTANCE, MetaLevelOld.INSTANCE, DoomsdayNoJumpOrCloakDuration.INSTANCE, MaxGroupActive.INSTANCE, DoomsdayImmobilityDuration.INSTANCE, DoomsdayAOEShape.INSTANCE, DoomsdayRangeIsFixed.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final SuperWeapon.MetaGroup METAGROUP = new SuperWeapon.MetaGroup();

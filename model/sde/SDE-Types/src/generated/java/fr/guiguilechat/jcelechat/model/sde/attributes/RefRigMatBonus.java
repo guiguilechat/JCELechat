@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Refinery rig material bonus
  */
 public class RefRigMatBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final RefRigMatBonus INSTANCE = new RefRigMatBonus();
 

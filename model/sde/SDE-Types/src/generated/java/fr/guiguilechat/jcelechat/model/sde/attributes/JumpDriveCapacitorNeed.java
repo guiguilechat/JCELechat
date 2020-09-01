@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Minimum capacitor need for jump drive operation from full capacitor in modifier%.
  */
 public class JumpDriveCapacitorNeed
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final JumpDriveCapacitorNeed INSTANCE = new JumpDriveCapacitorNeed();
 

@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
@@ -67,7 +67,7 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
@@ -106,28 +106,28 @@ public class StructureResourceProcessingServiceModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.5)
+    @DefaultRealValue(0.5)
     public double refiningyieldice;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.5)
+    @DefaultRealValue(0.5)
     public double refiningyieldmoonores;
     /**
      * The factor by which the structure modifies the using pilot's refining yield rate.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.5)
+    @DefaultRealValue(0.5)
     public double refiningyieldmultiplier;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.5)
+    @DefaultRealValue(0.5)
     public double refiningyieldnormalores;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.

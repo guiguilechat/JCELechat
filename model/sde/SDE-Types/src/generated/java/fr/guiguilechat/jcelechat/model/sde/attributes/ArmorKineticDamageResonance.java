@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplies KINETIC damage taken by Armor. 
  */
 public class ArmorKineticDamageResonance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ArmorKineticDamageResonance INSTANCE = new ArmorKineticDamageResonance();
 

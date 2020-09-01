@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Controls how much of the NpcBehaviorSmartBomb effect's damage gets applied to entities
  */
 public class BehaviorSmartBombEntityDamageMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final BehaviorSmartBombEntityDamageMultiplier INSTANCE = new BehaviorSmartBombEntityDamageMultiplier();
 

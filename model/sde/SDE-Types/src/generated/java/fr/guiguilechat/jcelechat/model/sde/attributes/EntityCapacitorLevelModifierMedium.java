@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * modifier to an entity capacitor level to represent energy drain for medium ships
  */
 public class EntityCapacitorLevelModifierMedium
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityCapacitorLevelModifierMedium INSTANCE = new EntityCapacitorLevelModifierMedium();
 

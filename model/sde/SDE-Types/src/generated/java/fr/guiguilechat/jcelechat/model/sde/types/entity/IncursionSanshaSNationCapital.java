@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AIChanceToNotTargetSwitch;
@@ -109,7 +109,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double aichancetonottargetswitch;
     /**
      * Can not be attacked by doomsday devices
@@ -152,63 +152,63 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double agility;
     /**
      * Multiplies EM damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armoremdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorexplosivedamageresonance;
     /**
      * The number of hit points on the entities armor.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double armorhp;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorthermaldamageresonance;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double armoruniformity;
     /**
      * Capacitor capacity
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorcapacity;
     /**
      * The cargo space allowed
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacity;
     /**
      * charge of module
@@ -229,7 +229,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double energyneutralizeramount;
     /**
      * Duration of NPC Energy Neutralizer effect
@@ -243,7 +243,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double energyneutralizerentitychance;
     /**
      * Optimal Range of Energy Neutralizer
@@ -294,7 +294,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entitychasemaxdelaychance;
     /**
      * The distance outside of which the entity activates their MWD equivalent.
@@ -315,14 +315,14 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entitychasemaxdurationchance;
     /**
      * The speed that entities fly at when not chasing a target.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitycruisespeed;
     /**
      * The maximum drops of same group (example: entity can only drop 1 of group: energy laser)
@@ -350,14 +350,14 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entityfactionloss;
     /**
      * The distance at which the entity orbits, follows.. and more.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(500.0)
+    @DefaultRealValue(500.0)
     public double entityflyrange;
     /**
      * The chance an entity will respawn into his group if destroyed.
@@ -385,7 +385,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entityreactionfactor;
     /**
      * The base time between ECM bursts
@@ -413,7 +413,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.8999999761581421)
+    @DefaultRealValue(0.8999999761581421)
     public double entityremoteecmdurationscale;
     /**
      * The number of players in each step of scaling of remote ECM
@@ -441,7 +441,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitysecuritymaxgain;
     /**
      * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
@@ -449,21 +449,21 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entitysecuritystatuskillbonus;
     /**
      * How much the shield is boosted each duration.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entityshieldboostamount;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double entityshieldboostdelaychancelarge;
     /**
      * How long between repeats.
@@ -484,7 +484,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * 
@@ -498,7 +498,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double mass;
     /**
      * The maximum number of their targets that the character can attack at a given time.
@@ -519,7 +519,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
      * Maximum distance to a friendly NPC so that remote repairs may be performed on it.
@@ -563,7 +563,7 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.75)
+    @DefaultRealValue(0.75)
     public double npcremoteshieldboostthreshold;
     /**
      * The graphicID of the propulsion system.
@@ -577,63 +577,63 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double radius;
     /**
      * Amount of time taken to fully recharge the capacitor.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double rechargerate;
     /**
      * +/- modifier to the gravimetric strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scangravimetricstrengthbonus;
     /**
      * +/- modifier to the ladar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanladarstrengthbonus;
     /**
      * +/- modifier to the magnetometric strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanmagnetometricstrengthbonus;
     /**
      * Radar strength.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanradarstrength;
     /**
      * +/- modifier to the radar strength of an electronic system.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanradarstrengthbonus;
     /**
      * The resolution that the vessel can target other objects at.
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolution;
     /**
      * Amount of maximum shield HP on the item.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcapacity;
     /**
      * DO NOT MESS WITH. Helper attribute for entities, stands in for the shield charge.
@@ -641,63 +641,63 @@ public class IncursionSanshaSNationCapital
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldcharge;
     /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldemdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldkineticdamageresonance;
     /**
      * Amount of time taken to fully recharge the shield.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldrechargerate;
     /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shielduniformity;
     /**
      * Signature Radius is used for turret tracking and scanning.
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(100.0)
+    @DefaultRealValue(100.0)
     public double signatureradius;
     /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double structureuniformity;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EntityGroupRespawnChance.INSTANCE, EntityRemoteECMChanceOfActivation.INSTANCE, Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityBracketColour.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, EnergyNeutralizerEntityChance.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EnergyNeutralizerDuration.INSTANCE, NpcRemoteShieldBoostDuration.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, NpcRemoteShieldBoostChance.INSTANCE, ScanResolution.INSTANCE, NpcRemoteShieldBoostAmount.INSTANCE, NpcRemoteShieldBoostThreshold.INSTANCE, RechargeRate.INSTANCE, NpcAssistanceRange.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, ScanRadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, EntityReactionFactor.INSTANCE, DisallowAssistance.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, NpcRemoteShieldBoostMaxTargets.INSTANCE, ShieldRechargeRate.INSTANCE, EnergyNeutralizerAmount.INSTANCE, CapacitorCapacity.INSTANCE, EnergyNeutralizerRangeOptimal.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, AIShouldUseTargetSwitching.INSTANCE, EntityShieldBoostDelayChanceLarge.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, AIShouldUseSecondaryTarget.INSTANCE, ScanRadarStrengthBonus.INSTANCE, AIShouldUseSignatureRadius.INSTANCE, AIChanceToNotTargetSwitch.INSTANCE, AIShouldUseEffectMultiplier.INSTANCE, AIImmuneToSuperWeapon.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, IsCapitalSize.INSTANCE, EntityRemoteECMDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityRemoteECMMinDuration.INSTANCE, EntityShieldBoostDuration.INSTANCE, EntityCruiseSpeed.INSTANCE, EntityRemoteECMDurationScale.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, EntityRemoteECMBaseDuration.INSTANCE, EntityShieldBoostAmount.INSTANCE, EntityRemoteECMExtraPlayerScale.INSTANCE, EntityRemoteECMIntendedNumPlayers.INSTANCE })));
     public static final IncursionSanshaSNationCapital.MetaGroup METAGROUP = new IncursionSanshaSNationCapital.MetaGroup();

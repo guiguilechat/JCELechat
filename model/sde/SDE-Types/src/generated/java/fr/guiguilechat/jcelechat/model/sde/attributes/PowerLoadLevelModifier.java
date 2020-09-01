@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Power load multiplier for PI link levels
  */
 public class PowerLoadLevelModifier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final PowerLoadLevelModifier INSTANCE = new PowerLoadLevelModifier();
 

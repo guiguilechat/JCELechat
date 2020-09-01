@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Amount of time taken to fully recharge the shield.
  */
 public class ShieldRechargeRate
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ShieldRechargeRate INSTANCE = new ShieldRechargeRate();
 

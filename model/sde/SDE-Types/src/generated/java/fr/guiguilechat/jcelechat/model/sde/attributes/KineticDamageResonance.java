@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * damage multiplier vs. kinetic damagers.
  */
 public class KineticDamageResonance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final KineticDamageResonance INSTANCE = new KineticDamageResonance();
 

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Chance that  an entity will use a Stasis Web on a target.
  */
 public class ModifyTargetSpeedChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ModifyTargetSpeedChance INSTANCE = new ModifyTargetSpeedChance();
 

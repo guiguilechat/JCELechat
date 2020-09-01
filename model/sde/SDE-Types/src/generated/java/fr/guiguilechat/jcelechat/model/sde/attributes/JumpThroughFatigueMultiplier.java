@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier for jump fatigue distance, applied to characters going through a bridge provided by this type.
  */
 public class JumpThroughFatigueMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final JumpThroughFatigueMultiplier INSTANCE = new JumpThroughFatigueMultiplier();
 

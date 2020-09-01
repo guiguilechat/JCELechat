@@ -134,7 +134,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 12
     maxtargetrange: 60000.0
-    maxvelocity: 318.0
+    maxvelocity: 325.0
     medslots: 3
     mintargetveldmgmultiplier: 0.05000000074505806
     mwdsignatureradiusbonus: -50
@@ -166,7 +166,7 @@ types:
     shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
     shipbonuspd1: 20
-    shipbonuspd2: 15
+    shipbonuspd2: 30
     shipbonusrole1: 100.0
     shipbonusrole2: -50
     signatureradius: 62.0

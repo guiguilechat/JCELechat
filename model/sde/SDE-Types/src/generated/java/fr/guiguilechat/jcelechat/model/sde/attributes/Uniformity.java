@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
  */
 public class Uniformity
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final Uniformity INSTANCE = new Uniformity();
 

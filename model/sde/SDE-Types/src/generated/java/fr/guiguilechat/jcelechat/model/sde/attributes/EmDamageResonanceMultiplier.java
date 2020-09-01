@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier to the EM damage resonance of something.
  */
 public class EmDamageResonanceMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EmDamageResonanceMultiplier INSTANCE = new EmDamageResonanceMultiplier();
 

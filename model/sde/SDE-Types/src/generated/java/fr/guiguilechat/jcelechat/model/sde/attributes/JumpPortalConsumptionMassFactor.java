@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier used to calculate amount of quantity used for jumping via portals based on mass of ship.
  */
 public class JumpPortalConsumptionMassFactor
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final JumpPortalConsumptionMassFactor INSTANCE = new JumpPortalConsumptionMassFactor();
 

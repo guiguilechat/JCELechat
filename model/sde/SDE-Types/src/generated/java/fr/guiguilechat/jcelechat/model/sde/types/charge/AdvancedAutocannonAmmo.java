@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BaseArmorDamage;
@@ -64,7 +64,7 @@ public class AdvancedAutocannonAmmo
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double capacitorrechargeratemultiplier;
     /**
      * The size of the charges that can fit in the turret/whatever.
@@ -78,42 +78,42 @@ public class AdvancedAutocannonAmmo
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double cpumultiplier;
     /**
      * EM damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double emdamage;
     /**
      * For charges, hidden attribute used by sentry guns to modify target pick range.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entityflyrangemultiplier;
     /**
      * Explosive damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double explosivedamage;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double fallofmultiplier;
     /**
      * Kinetic damage done.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double kineticdamage;
     /**
      * One of the groups of launcher this charge can be loaded into.
@@ -134,7 +134,7 @@ public class AdvancedAutocannonAmmo
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double maxvelocitymodifier;
     /**
      * Authoring has been moved to FSD
@@ -170,7 +170,7 @@ public class AdvancedAutocannonAmmo
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double speedmultiplier;
     /**
      * Authoring has been moved to FSD
@@ -185,21 +185,21 @@ public class AdvancedAutocannonAmmo
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double thermaldamage;
     /**
      * Scale the tracking speed of a weapon.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double trackingspeedmultiplier;
     /**
      * Multiplier of range the relevant weapon.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double weaponrangemultiplier;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, Mass.INSTANCE, FallofMultiplier.INSTANCE, LauncherGroup.INSTANCE, CpuMultiplier.INSTANCE, EntityFlyRangeMultiplier.INSTANCE, SpeedMultiplier.INSTANCE, CapacitorRechargeRateMultiplier.INSTANCE, RequiredSkill1Level.INSTANCE, PowerNeedMultiplier.INSTANCE, Radius.INSTANCE, BaseShieldDamage.INSTANCE, BaseArmorDamage.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, EmDamage.INSTANCE, MaxVelocityModifier.INSTANCE, TrackingSpeedMultiplier.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, RequiredSkill1 .INSTANCE, ThermalDamage.INSTANCE, WeaponRangeMultiplier.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE })));
     public static final AdvancedAutocannonAmmo.MetaGroup METAGROUP = new AdvancedAutocannonAmmo.MetaGroup();

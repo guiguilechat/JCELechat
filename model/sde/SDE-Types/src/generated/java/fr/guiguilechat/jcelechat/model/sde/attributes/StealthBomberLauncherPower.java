@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Used for stealth bombers to decrease power need on cruise launchers.
  */
 public class StealthBomberLauncherPower
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final StealthBomberLauncherPower INSTANCE = new StealthBomberLauncherPower();
 

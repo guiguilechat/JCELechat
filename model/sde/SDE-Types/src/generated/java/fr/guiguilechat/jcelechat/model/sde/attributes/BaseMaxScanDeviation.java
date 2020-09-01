@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * This is the lowest maximum scan deviation in AU for probes under the revised probing system
  */
 public class BaseMaxScanDeviation
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final BaseMaxScanDeviation INSTANCE = new BaseMaxScanDeviation();
 

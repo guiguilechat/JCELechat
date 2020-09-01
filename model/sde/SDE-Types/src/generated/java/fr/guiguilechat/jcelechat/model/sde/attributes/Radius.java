@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Radius of an object in meters
  */
 public class Radius
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final Radius INSTANCE = new Radius();
 

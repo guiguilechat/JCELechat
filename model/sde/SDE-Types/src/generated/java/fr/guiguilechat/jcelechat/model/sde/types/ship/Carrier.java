@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AdvancedAgility;
@@ -188,14 +188,14 @@ public class Carrier
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double energywarfareresistance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double entosisassistanceimpedancemultiplier;
     /**
      * 
@@ -286,21 +286,21 @@ public class Carrier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double heatattenuationhi;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double heatattenuationlow;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double heatattenuationmed;
     /**
      * 
@@ -314,7 +314,7 @@ public class Carrier
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double jumpdrivecapacitorneed;
     /**
      * Number of units it consumes per light year.
@@ -342,7 +342,7 @@ public class Carrier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double jumpdriverange;
     /**
      * 
@@ -406,14 +406,14 @@ public class Carrier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double remoteassistanceimpedance;
     /**
      * Impedance against Remote Repair (shield, armor, hull and energy).
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double remoterepairimpedance;
     /**
      * The type ID of the skill that is required.
@@ -455,7 +455,7 @@ public class Carrier
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolution;
     /**
      * scanning speed in milliseconds
@@ -469,7 +469,7 @@ public class Carrier
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double sensordampenerresistance;
     /**
      * Multiplied by Amarr Carrier skill level.
@@ -546,7 +546,7 @@ public class Carrier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shipbonuscarrierg3;
     /**
      * Multiplied by Gallente Carrier skill level.
@@ -574,7 +574,7 @@ public class Carrier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shipbonuscarrierm3;
     /**
      * Multiplied by Minmatar Carrier skill level.
@@ -588,7 +588,7 @@ public class Carrier
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shipbonusrole1;
     /**
      * The capacity of the hangar in a ship.
@@ -609,14 +609,14 @@ public class Carrier
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double stasiswebifierresistance;
     /**
      * Resistance against Target Painters
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double targetpainterresistance;
     /**
      * How many rigs can by fitted to this ship.
@@ -630,7 +630,7 @@ public class Carrier
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double weapondisruptionresistance;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {BaseWarpSpeed.INSTANCE, Damage.INSTANCE, Mass.INSTANCE, FighterCapacity.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, RigSize.INSTANCE, PowerOutput.INSTANCE, ArmorEmDamageResonance.INSTANCE, LowSlots.INSTANCE, ArmorUniformity.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, SpecialFuelBayCapacity.INSTANCE, MedSlots.INSTANCE, StructureUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, RoleBonusCommandBurstAoERange.INSTANCE, HiSlots.INSTANCE, ArmorThermalDamageResonance.INSTANCE, PowerLoad.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, Charge.INSTANCE, ShieldThermalDamageResonance.INSTANCE, FwLpKill.INSTANCE, PowerToSpeed.INSTANCE, WarpFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, DroneCapacity.INSTANCE, MaximumRangeCap.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, CpuOutput.INSTANCE, CpuLoad.INSTANCE, ScanResolution.INSTANCE, ShipBonusCarrierA1 .INSTANCE, RechargeRate.INSTANCE, ShipBonusCarrierA2 .INSTANCE, ShipBonusCarrierA3 .INSTANCE, ShipBonusCarrierA4 .INSTANCE, ShipBonusCarrierC1 .INSTANCE, ShipBonusCarrierC2 .INSTANCE, ShipBonusCarrierC3 .INSTANCE, ShipBonusCarrierC4 .INSTANCE, ShipBonusCarrierG1 .INSTANCE, SensorDampenerResistance.INSTANCE, ShipBonusCarrierG2 .INSTANCE, WeaponDisruptionResistance.INSTANCE, ShipBonusCarrierG3 .INSTANCE, TargetPainterResistance.INSTANCE, ShipBonusCarrierG4 .INSTANCE, ShipBonusCarrierM1 .INSTANCE, StasisWebifierResistance.INSTANCE, RemoteRepairImpedance.INSTANCE, ShipBonusCarrierM2 .INSTANCE, ShipBonusCarrierM3 .INSTANCE, ShipBonusCarrierM4 .INSTANCE, Agility.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, AdvancedAgility.INSTANCE, RemoteAssistanceImpedance.INSTANCE, WarpSpeedMultiplier.INSTANCE, CanJump.INSTANCE, JumpDriveConsumptionType.INSTANCE, JumpDriveRange.INSTANCE, JumpDriveConsumptionAmount.INSTANCE, JumpDriveDuration.INSTANCE, LauncherSlotsLeft.INSTANCE, TurretSlotsLeft.INSTANCE, AdvancedCapitalAgility.INSTANCE, UpgradeCapacity.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, RigSlots.INSTANCE, EmDamageResonance.INSTANCE, MetaLevelOld.INSTANCE, MainColor.INSTANCE, MaxPassengers.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, UpgradeSlotsLeft.INSTANCE, JumpDriveCapacitorNeed.INSTANCE, Uniformity.INSTANCE, HasShipMaintenanceBay.INSTANCE, ShipMaintenanceBayCapacity.INSTANCE, HasFleetHangars.INSTANCE, FleetHangarCapacity.INSTANCE, WarpCapacitorNeed.INSTANCE, HeatCapacityHi.INSTANCE, HeatDissipationRateHi.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, FighterTubes.INSTANCE, FighterLightSlots.INSTANCE, FighterSupportSlots.INSTANCE, HeatDissipationRateMed.INSTANCE, HeatDissipationRateLow.INSTANCE, HeatCapacityMed.INSTANCE, HeatCapacityLow.INSTANCE, DisallowInHighSec.INSTANCE, GateScrambleStatus.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, MaxLockedTargets.INSTANCE, EntosisAssistanceImpedanceMultiplier.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, HeatGenerationMultiplier.INSTANCE, MaxOperationalDistance.INSTANCE, MaxOperationalUsers.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, PropulsionGraphicID.INSTANCE, ShieldRechargeRate.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, JumpHarmonics.INSTANCE, EntosisDurationMultiplier.INSTANCE, TypeColorScheme.INSTANCE, HeatAttenuationHi.INSTANCE, HeatAttenuationMed.INSTANCE, HeatAttenuationLow.INSTANCE, GfxBoosterID.INSTANCE, DroneBandwidth.INSTANCE, IsCapitalSize.INSTANCE, ShipBonusRole1 .INSTANCE, EnergyWarfareResistance.INSTANCE })));
     public static final Carrier.MetaGroup METAGROUP = new Carrier.MetaGroup();

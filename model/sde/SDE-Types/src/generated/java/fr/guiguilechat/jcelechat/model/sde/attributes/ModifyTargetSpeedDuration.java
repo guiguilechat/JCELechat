@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Duration of entities Stasis Web 
  */
 public class ModifyTargetSpeedDuration
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ModifyTargetSpeedDuration INSTANCE = new ModifyTargetSpeedDuration();
 

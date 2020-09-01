@@ -35820,7 +35820,7 @@ id2name:
   54254: Empire Boss Spawner - Triglavian Invasion Phase 3
   54255: Hunt Acceleration Gate Key
   54256: Landmark Cloud
-  54257: Test DLI Loot crate
+  54257: Test crate 1
   54258: Triglavian Dungeon Easy/Base Spawner
   54259: Triglavian Dungeon Base/Easy/Elite Spawner
   54260: Guristas Hunt Coordination Hub
@@ -36785,11 +36785,11 @@ id2name:
   55749: EDENCOM Cruiser Wreck
   55750: EDENCOM Battleship Wreck
   55751: Women's Amarr 'Loyalist' Beret
-  55752: 55752_Female_hair_HeadWear_Beret_F01_Types_HeadWear_Beret_CaldariUnionF01.png
+  55752: Women's 'State Protector' Beret
   55753: Women's 'Federal Defender' Beret
   55754: Women's 'Valkear' Beret
   55755: Men's Amarr 'Loyalist' Beret
-  55756: 55756_Male_hair_HeadWear_Beret_M01_Types_HeadWear_Beret_CaldariUnionM01.png
+  55756: Men's 'State Protector' Beret
   55757: Men's 'Federal Defender' Beret
   55758: Men's 'Valkear' Beret
   55764: Surface Volcanic 01
@@ -36956,7 +36956,33 @@ id2name:
   55947: Elite Engineering Skill Accelerator
   55948: Amarr Shuttle Khanid SKIN
   55949: Sigil Khanid SKIN
+  55951: Caldari Eagle Cruiser
+  55952: Caldari Vulture Battlecruiser
+  55953: Caldari Falcon Cruiser
+  55954: Caldari Basilisk Cruiser
+  55955: Caldari Golem Battleship
+  55956: Caldari Cerberus Cruiser
+  55957: Caldari Rook Cruiser
+  55958: Caldari Widow Battleship
+  55959: Caldari Onyx Cruiser
+  55960: POUS Tuviio Kishbin
+  55961: ISS Istria Josameto
+  55962: SPS Laril Hyykoda
+  55963: IWS Otro Gariushi
+  55964: CPFS Kaal Osmon
+  55965: HGS Matias Sobaseki
+  55966: WPCS Tyunaul Seituoda
+  55967: LDPS Saki Orluusa
+  55968: Sukuuvestaa Corporation Parade Beacon
+  55969: Nugoeihuvi Corporation Parade Beacon
+  55970: CBD Corporation Parade Beacon
+  55971: Ishukone Corporation Parade Beacon
+  55972: Hyasyoda Corporation Parade Beacon
+  55973: Kaalakiota Corporation Parade Beacon
+  55974: Wiyrkomi Corporation Parade Beacon
+  55975: Lai Dai Corporation Parade Beacon
   55977: Serenity August Season Pass
+  55978: Caldari Nighthawk Battlecruiser
   55980: Amarr Foundation Day Apparel Crate
   55981: Amarr Foundation Day Fireworks Crate
   55982: 5v5 Corvette Proving Filament
@@ -36982,9 +37008,33 @@ id2name:
   56062: Weak Metaliminal Plasma Firestorm
   56063: Strong Metaliminal Plasma Firestorm
   56064: Weak Metaliminal Electrical Storm
+  56089: Caldari Shuttle Sukuuvestaa SKIN
+  56090: Badger Sukuuvestaa SKIN
+  56091: Caldari Union Day Apparel Crate
   56092: Event 7 Proving Filament
   56093: Event 8 Proving Filament
   56094: Event 9 Proving Filament
+  56095: Caldari Union Day Fireworks Crate
+  56116: Test crate 2
+  56125: Serenity YC122.9 Season Booster - Max Velocity
+  56128: Serenity Monthly Cerebral Accelerator - 2020.9
+  56129: Serenity September Season Standard Cerebral Accelerator
+  56130: Serenity September Season Advanced Cerebral Accelerator
+  56153: Serenity YC122.9 Season Booster - Warp Speed
+  56154: Serenity YC122.9 Season Booster - Agility
+  56155: Serenity YC122.9 Season Booster - Signature Radius
+  56156: Serenity YC122.9 Season Booster - Probe Scanning Strength
+  56157: Serenity YC122.9 Season Booster - Mining Range
+  56158: Serenity YC122.9 Season Booster - EW Range
+  56179: Serenity September Season Pass
+  56180: Standard gunnery skill accelerator
+  56181: Advanced gunnery Skill accelerator
+  56182: Standard missile skill accelerator
+  56183: Advanced missile skill accelerator
+  56184: Standard drone skill accelerator
+  56185: Advanced drone skill accelerator
+  56186: Standard ore processing skill accelerator
+  56187: Advanced ore processing skill accelerator
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -40799,7 +40849,6 @@ name2group:
   280mm Howitzer Artillery II Blueprint: blueprint/ProjectileWeaponBlueprint
   280mm Prototype Siege Cannon: module/ProjectileWeapon
   2nd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  2v2 Battlecruisers Proving Filament: commodity/AbyssalProvingFilaments
   2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament: commodity/AbyssalProvingFilaments
   300 Aurum Token: accessories/LegacyCurrency
   300 Billion ISK Contract Copy: specialeditionassets/SpecialEditionCommodities
@@ -40890,7 +40939,6 @@ name2group:
   5MN Y-T8 Compact Microwarpdrive: module/PropulsionModule
   5a Prototype Shield Support I: module/ShieldBoostAmplifier
   5th Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  5v5 Corvette Proving Filament: commodity/AbyssalProvingFilaments
   60km Capture Point: entity/CapturePoint
   60mm Reinforced Type-A Plates: infantry/InfantryModules
   650mm Artillery Cannon I: module/ProjectileWeapon
@@ -41191,6 +41239,10 @@ name2group:
   Advanced Spaceship Command: skill/SpaceshipCommand
   Advanced Target Management: skill/Targeting
   Advanced Weapon Upgrades: skill/Engineering
+  Advanced drone skill accelerator: implant/Booster
+  Advanced gunnery Skill accelerator: implant/Booster
+  Advanced missile skill accelerator: implant/Booster
+  Advanced ore processing skill accelerator: implant/Booster
   Advisory Notes: commodity/Miscellaneous
   Aeon: ship/Supercarrier
   Aeon Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -42700,6 +42752,7 @@ name2group:
   Badger Matigu Seabeast SKIN: skins/PermanentSKIN
   Badger Raata Sunset SKIN: skins/PermanentSKIN
   Badger Steel Cardinal SKIN: skins/PermanentSKIN
+  Badger Sukuuvestaa SKIN: skins/PermanentSKIN
   Badger Wiyrkomi SKIN: skins/PermanentSKIN
   Badger Zento Isideko Combine SKIN: skins/PermanentSKIN
   Badly Corrupted Holoreel: specialeditionassets/SpecialEditionCommodities
@@ -44142,6 +44195,7 @@ name2group:
   Caldari Shuttle Blueprint: blueprint/ShuttleBlueprint
   Caldari Shuttle Exoplanets Hunter SKIN: skins/PermanentSKIN
   Caldari Shuttle Glacial Drift SKIN: skins/PermanentSKIN
+  Caldari Shuttle Sukuuvestaa SKIN: skins/PermanentSKIN
   Caldari Starbase Control Tower: entity/LargeCollidableStructure
   Caldari Starbase Control Tower_Tough_Good Loot: entity/LargeCollidableStructure
   Caldari Starship Engineering: skill/Science
@@ -44167,6 +44221,8 @@ name2group:
   Caldari Trading Station: station/Station
   Caldari Traitor's DNA: commodity/Miscellaneous
   Caldari Transport Ship: entity/MissionCaldariStateCruiser
+  Caldari Union Day Apparel Crate: specialeditionassets/SpecialEditionCommodities
+  Caldari Union Day Fireworks Crate: specialeditionassets/SpecialEditionCommodities
   Caldari Wall: entity/LargeCollidableStructure
   Caldari spaceship skill accelerator: implant/Booster
   Calibration Subsystem: infantry/InfantryModules
@@ -48913,6 +48969,8 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
+  Event 7 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 8 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
@@ -55801,6 +55859,7 @@ name2group:
   Men's 'Serpentis' T-shirt (olive/black): apparel/Tops
   Men's 'Setcouple' Facial Augmentation: apparel/Augmentations
   Men's 'Source' Coat (black): apparel/Outer
+  Men's 'State Protector' Beret: apparel/Headwear
   Men's 'Sterling' Dress Shirt (Ishukone Special Edition): apparel/Tops
   Men's 'Sterling' Dress Shirt (black): apparel/Tops
   Men's 'Sterling' Dress Shirt (dust): apparel/Tops
@@ -61039,8 +61098,19 @@ name2group:
   Serenity Monthly Cerebral Accelerator - 2020.6: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.7: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.8: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2020.9: implant/Booster
+  Serenity September Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity September Season Pass: implant/Booster
+  Serenity September Season Standard Cerebral Accelerator: implant/Booster
   Serenity Special Cerebral Accelerator: implant/Booster
   Serenity Special SKINs Crate: specialeditionassets/SpecialEditionCommodities
+  Serenity YC122.9 Season Booster - Agility: implant/Booster
+  Serenity YC122.9 Season Booster - EW Range: implant/Booster
+  Serenity YC122.9 Season Booster - Max Velocity: implant/Booster
+  Serenity YC122.9 Season Booster - Mining Range: implant/Booster
+  Serenity YC122.9 Season Booster - Probe Scanning Strength: implant/Booster
+  Serenity YC122.9 Season Booster - Signature Radius: implant/Booster
+  Serenity YC122.9 Season Booster - Warp Speed: implant/Booster
   Serpentis 3D Scanner Gamut: commodity/ArtifactsAndPrototypes
   Serpentis Administration Facility: entity/DeadspaceOverseerSSentry
   Serpentis Admiral: entity/AsteroidSerpentisBattleship
@@ -62688,6 +62758,10 @@ name2group:
   Standard X-Instinct Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
   Standard XL: charge/FrequencyCrystal
   Standard XL Blueprint: blueprint/FrequencyCrystalBlueprint
+  Standard drone skill accelerator: implant/Booster
+  Standard gunnery skill accelerator: implant/Booster
+  Standard missile skill accelerator: implant/Booster
+  Standard ore processing skill accelerator: implant/Booster
   Standup Ametat I: fighter/HeavyFighter
   Standup Ametat I Blueprint: blueprint/HeavyFighterBlueprint
   Standup Ametat II: fighter/HeavyFighter
@@ -64329,6 +64403,8 @@ name2group:
   Test Spawner (Xordazh-class): entity/LargeCollidableStructure
   Test Steam: effects/ParticleSystems
   Test Suit: infantry/InfantryDropsuits
+  Test crate 1: commodity/Miscellaneous
+  Test crate 2: commodity/Miscellaneous
   TestDreadFriendly: entity/InvadingPrecursorEntities
   TestNPC001: entity/DeadspaceOverseerCruiser
   TestProphetBlood: entity/DeadspaceOverseerBattleship
@@ -66464,6 +66540,7 @@ name2group:
   Women's 'Spiderweb' Headwear (copper): apparel/Headwear
   Women's 'Spiderweb' Headwear (golden): apparel/Headwear
   Women's 'Spiderweb' Headwear (metallic): apparel/Headwear
+  Women's 'State Protector' Beret: apparel/Headwear
   Women's 'Sterling' Dress Blouse (Blood Raider): apparel/Tops
   Women's 'Sterling' Dress Blouse (black leather): apparel/Tops
   Women's 'Sterling' Dress Blouse (black): apparel/Tops

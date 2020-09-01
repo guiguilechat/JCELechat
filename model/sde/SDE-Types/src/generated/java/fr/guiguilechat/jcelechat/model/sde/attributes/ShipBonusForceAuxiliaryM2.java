@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplied by Minmatar Carrier skill level.
  */
 public class ShipBonusForceAuxiliaryM2
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ShipBonusForceAuxiliaryM2 INSTANCE = new ShipBonusForceAuxiliaryM2();
 

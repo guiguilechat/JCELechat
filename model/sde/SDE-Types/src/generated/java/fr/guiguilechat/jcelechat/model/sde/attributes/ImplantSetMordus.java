@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Centurion set bonus attribute
  */
 public class ImplantSetMordus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ImplantSetMordus INSTANCE = new ImplantSetMordus();
 

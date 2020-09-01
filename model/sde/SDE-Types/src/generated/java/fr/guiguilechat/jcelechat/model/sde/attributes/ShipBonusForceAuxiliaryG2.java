@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplied by Gallente Carrier skill level.
  */
 public class ShipBonusForceAuxiliaryG2
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ShipBonusForceAuxiliaryG2 INSTANCE = new ShipBonusForceAuxiliaryG2();
 

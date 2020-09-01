@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * the chance of the NPC remote reapiring it's comrads.
  */
 public class NpcRemoteArmorRepairChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final NpcRemoteArmorRepairChance INSTANCE = new NpcRemoteArmorRepairChance();
 

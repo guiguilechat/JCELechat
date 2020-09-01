@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The last allowed injection date.  After this date the booster can no longer be consumed. Formatted YYYY.MM.DD HH:MM:SS
  */
 public class BoosterLastInjectionDatetime
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final BoosterLastInjectionDatetime INSTANCE = new BoosterLastInjectionDatetime();
 

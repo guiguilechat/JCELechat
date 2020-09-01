@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BarterDiscount;
@@ -118,7 +118,7 @@ public class Character
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacity;
     /**
      * The charisma of a character.
@@ -139,14 +139,14 @@ public class Character
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double contrabanddetectionchance;
     /**
      * Chance of being caught selling contraband on market. 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double contrabandfencingchance;
     /**
      * Blueprint copying speed
@@ -216,7 +216,7 @@ public class Character
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double damagecloudchance;
     /**
      * Bonus to Effective Standing towards Hostile NPC
@@ -321,7 +321,7 @@ public class Character
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double mass;
     /**
      * 
@@ -377,7 +377,7 @@ public class Character
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double missiledamagemultiplier;
     /**
      * Missile FOF velocity percent
@@ -419,7 +419,7 @@ public class Character
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double radius;
     /**
      * Maximum amount of Reactions slots that can be used at a time
@@ -447,7 +447,7 @@ public class Character
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double repaircostmultiplier;
     /**
      * Repair cost percent
@@ -475,14 +475,14 @@ public class Character
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.5)
+    @DefaultRealValue(0.5)
     public double shipbrokenmodulerepaircostmultiplier;
     /**
      * Chance of being caught Transporting contraband. 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double smugglingchance;
     /**
      * Bonus To standing gain towards non CONCORD npcs  

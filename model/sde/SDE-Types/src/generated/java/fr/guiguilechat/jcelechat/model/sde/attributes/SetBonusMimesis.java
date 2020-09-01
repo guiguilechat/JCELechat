@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * 
  */
 public class SetBonusMimesis
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final SetBonusMimesis INSTANCE = new SetBonusMimesis();
 

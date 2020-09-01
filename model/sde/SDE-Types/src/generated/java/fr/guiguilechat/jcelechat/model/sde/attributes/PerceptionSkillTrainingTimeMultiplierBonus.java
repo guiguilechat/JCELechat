@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus or penalty to the percentage time it takes to train skills with Perception as the primary attribute.
  */
 public class PerceptionSkillTrainingTimeMultiplierBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final PerceptionSkillTrainingTimeMultiplierBonus INSTANCE = new PerceptionSkillTrainingTimeMultiplierBonus();
 

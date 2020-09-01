@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier to the capacity of a shield.
  */
 public class ShieldCapacityMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ShieldCapacityMultiplier INSTANCE = new ShieldCapacityMultiplier();
 

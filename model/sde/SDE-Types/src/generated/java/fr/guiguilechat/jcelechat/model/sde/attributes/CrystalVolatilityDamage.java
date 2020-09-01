@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The amount of damage done if the crystal is damaged in the process of using it.
  */
 public class CrystalVolatilityDamage
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final CrystalVolatilityDamage INSTANCE = new CrystalVolatilityDamage();
 

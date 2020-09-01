@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The agility of the object.
  */
 public class Agility
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final Agility INSTANCE = new Agility();
 

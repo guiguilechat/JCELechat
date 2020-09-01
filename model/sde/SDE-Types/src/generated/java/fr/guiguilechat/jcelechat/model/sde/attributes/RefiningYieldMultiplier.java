@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The factor by which the structure modifies the using pilot's refining yield rate.
  */
 public class RefiningYieldMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final RefiningYieldMultiplier INSTANCE = new RefiningYieldMultiplier();
 

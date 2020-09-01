@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Signature Radius is used for turret tracking and scanning.
  */
 public class SignatureRadius
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final SignatureRadius INSTANCE = new SignatureRadius();
 

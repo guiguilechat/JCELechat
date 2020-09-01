@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
@@ -196,14 +196,14 @@ public class BlackOps
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double elitebonusblackops1;
     /**
      * eliteBonusBlackOps2
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double elitebonusblackops2;
     /**
      * 
@@ -235,21 +235,21 @@ public class BlackOps
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double heatattenuationhi;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double heatattenuationlow;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double heatattenuationmed;
     /**
      * 
@@ -263,7 +263,7 @@ public class BlackOps
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double jumpdrivecapacitorneed;
     /**
      * Number of units it consumes per light year.
@@ -291,14 +291,14 @@ public class BlackOps
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double jumpdriverange;
     /**
      * Multiplier for jump fatigue distance
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double jumpfatiguemultiplier;
     /**
      * 
@@ -312,14 +312,14 @@ public class BlackOps
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double jumpportalconsumptionmassfactor;
     /**
      * Multiplier for jump fatigue distance, applied to characters going through a bridge provided by this type.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double jumpthroughfatiguemultiplier;
     /**
      * The main color of a ship type.
@@ -347,7 +347,7 @@ public class BlackOps
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double mintargetveldmgmultiplier;
     /**
      * Pilot's Crimewatch sec status. Copied from character stats when boarding a ship.
@@ -431,7 +431,7 @@ public class BlackOps
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolution;
     /**
      * scanning speed in milliseconds
@@ -452,14 +452,14 @@ public class BlackOps
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(5.0)
+    @DefaultRealValue(5.0)
     public double shipbonusab;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shipbonusab2;
     /**
      * 
@@ -480,28 +480,28 @@ public class BlackOps
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shipbonusgb;
     /**
      * skill bonus attribute2 for gallente battleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shipbonusgb2;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(5.0)
+    @DefaultRealValue(5.0)
     public double shipbonusmb;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shipbonusmb2;
     /**
      * special fuel bay capacity

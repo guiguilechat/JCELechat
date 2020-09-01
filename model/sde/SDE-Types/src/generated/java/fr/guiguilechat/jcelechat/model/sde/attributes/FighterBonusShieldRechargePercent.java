@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus to fighter shield recharge (%)
  */
 public class FighterBonusShieldRechargePercent
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final FighterBonusShieldRechargePercent INSTANCE = new FighterBonusShieldRechargePercent();
 

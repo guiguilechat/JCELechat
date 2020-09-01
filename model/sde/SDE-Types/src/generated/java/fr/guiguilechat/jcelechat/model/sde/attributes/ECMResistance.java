@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Resistance to ECM. 0 gives Immunity.
  */
 public class ECMResistance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ECMResistance INSTANCE = new ECMResistance();
 

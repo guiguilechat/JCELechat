@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Electro magnetic damage multiplier for shield and armor. Represented as "% Resistance" in the UI.
  */
 public class EmDamageResonance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EmDamageResonance INSTANCE = new EmDamageResonance();
 

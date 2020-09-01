@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Distance below which range does not affect the to-hit equation.
  */
 public class MaxRange
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final MaxRange INSTANCE = new MaxRange();
 

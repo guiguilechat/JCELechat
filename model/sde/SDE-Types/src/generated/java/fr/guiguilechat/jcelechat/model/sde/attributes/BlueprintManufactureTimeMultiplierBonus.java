@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus or penalty to the percentage time it takes to manufacture from a blueprint.
  */
 public class BlueprintManufactureTimeMultiplierBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final BlueprintManufactureTimeMultiplierBonus INSTANCE = new BlueprintManufactureTimeMultiplierBonus();
 

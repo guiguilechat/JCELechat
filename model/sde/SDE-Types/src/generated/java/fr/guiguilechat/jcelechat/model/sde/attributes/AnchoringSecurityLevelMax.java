@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The maximum security level at which the structure can be anchored. Used as a non-functional display attribute on some deployables.
  */
 public class AnchoringSecurityLevelMax
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final AnchoringSecurityLevelMax INSTANCE = new AnchoringSecurityLevelMax();
 

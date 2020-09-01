@@ -145,6 +145,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's 'State Protector' Beret:
+    gender: 2
+    id: 55756
+    marketGroup: 1943
+    name: Men's 'State Protector' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Tectonic' Headwear (matte black):
     gender: 1
     id: 34057
@@ -568,6 +577,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'State Protector' Beret:
+    gender: 2
+    id: 55752
+    marketGroup: 1943
+    name: Women's 'State Protector' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'Valkear' Beret:
     gender: 2

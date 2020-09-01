@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus to Max Targeting Range
  */
 public class MaxTargetRangeBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final MaxTargetRangeBonus INSTANCE = new MaxTargetRangeBonus();
 

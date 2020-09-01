@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Amount of maximum shield HP on the item.
  */
 public class ShieldCapacity
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ShieldCapacity INSTANCE = new ShieldCapacity();
 

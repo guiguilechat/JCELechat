@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplies EM damage taken by shield
  */
 public class ShieldEmDamageResonance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ShieldEmDamageResonance INSTANCE = new ShieldEmDamageResonance();
 

@@ -1084,7 +1084,7 @@ types:
     maxlockedtargets: 7
     maxpassengers: 999
     maxtargetrange: 87000.0
-    maxvelocity: 113.0
+    maxvelocity: 125.0
     medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Leshak

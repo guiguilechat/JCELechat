@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Tanking modifier applied to drones if their owner is tanking. 1.0 is no modifier
  */
 public class AITankingModifierDrone
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final AITankingModifierDrone INSTANCE = new AITankingModifierDrone();
 

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Maximum velocity of ship
  */
 public class MaxVelocity
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final MaxVelocity INSTANCE = new MaxVelocity();
 

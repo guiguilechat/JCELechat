@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup01;
@@ -75,14 +75,14 @@ public class StructureFestivalLauncher
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * current power need
@@ -96,7 +96,7 @@ public class StructureFestivalLauncher
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(10000.0)
+    @DefaultRealValue(10000.0)
     public double reloadtime;
     /**
      * The number of slots this module requires.  Only used for launchers, bays and turrets.
@@ -110,7 +110,7 @@ public class StructureFestivalLauncher
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double speed;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, Speed.INSTANCE, CanFitShipGroup03 .INSTANCE, ChargeRate.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureFestivalLauncher.MetaGroup METAGROUP = new StructureFestivalLauncher.MetaGroup();

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Gravimetric ECM Jammer Strength
  */
 public class FighterAbilityECMStrengthGravimetric
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final FighterAbilityECMStrengthGravimetric INSTANCE = new FighterAbilityECMStrengthGravimetric();
 

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Ladar ECM Jammer Strength
  */
 public class FighterAbilityECMStrengthLadar
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final FighterAbilityECMStrengthLadar INSTANCE = new FighterAbilityECMStrengthLadar();
 

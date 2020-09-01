@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The amount of charge used from the capacitor for a module activation.
  */
 public class CapacitorNeed
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final CapacitorNeed INSTANCE = new CapacitorNeed();
 

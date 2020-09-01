@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The cargo space allowed
  */
 public class Capacity
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final Capacity INSTANCE = new Capacity();
 

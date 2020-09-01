@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Controls how quickly an asteroid radius increases as its quantity grows.
  */
 public class AsteroidRadiusGrowthFactor
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final AsteroidRadiusGrowthFactor INSTANCE = new AsteroidRadiusGrowthFactor();
 

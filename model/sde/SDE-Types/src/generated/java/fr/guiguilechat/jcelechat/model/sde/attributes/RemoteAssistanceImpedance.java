@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Impedance against Remote assistance (sensor boosters, tracking computers and ECCM).
  */
 public class RemoteAssistanceImpedance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final RemoteAssistanceImpedance INSTANCE = new RemoteAssistanceImpedance();
 

@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde;
 
-public abstract class DoubleAttribute
+public abstract class RealAttribute
     extends Attribute
 {
 

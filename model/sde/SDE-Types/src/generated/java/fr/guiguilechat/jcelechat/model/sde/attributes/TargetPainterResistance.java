@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Resistance against Target Painters
  */
 public class TargetPainterResistance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final TargetPainterResistance INSTANCE = new TargetPainterResistance();
 

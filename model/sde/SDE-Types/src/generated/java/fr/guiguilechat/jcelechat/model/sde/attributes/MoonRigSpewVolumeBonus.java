@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Moon rig bonus that increases volume of moon spew in relation to extraction time
  */
 public class MoonRigSpewVolumeBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final MoonRigSpewVolumeBonus INSTANCE = new MoonRigSpewVolumeBonus();
 

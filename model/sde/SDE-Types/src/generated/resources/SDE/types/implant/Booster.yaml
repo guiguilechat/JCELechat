@@ -21,6 +21,93 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 17
+  Advanced drone skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 43
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56185
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced drone skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Advanced gunnery Skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 39
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56181
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced gunnery Skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Advanced missile skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 41
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56183
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced missile skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Advanced ore processing skill accelerator:
+    boosterduration: 60000.0
+    boosterness: 45
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56187
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced ore processing skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Agency 'Hardshell' TB3 Dose I:
     armordamageamountbonus: 3
     boosterduration: 1800000.0
@@ -2028,6 +2115,94 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2020.9:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18536.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56128
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2020.9
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity September Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18543.125
+    boosterness: 55
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56130
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity September Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity September Season Pass:
+    boosterduration: 2.592E9
+    boosterlastinjectiondatetime: 18531.125
+    boosterness: 56
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56179
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity September Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity September Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18543.125
+    boosterness: 54
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56129
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity September Season Standard Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
   Serenity Special Cerebral Accelerator:
     boosterduration: 2.592E9
     boostermaxcharagehours: 2400
@@ -2051,6 +2226,139 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Serenity YC122.9 Season Booster - Agility:
+    agilitybonus: -5.0
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18543.125
+    boosterness: 33
+    charismabonus: 5
+    id: 56154
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC122.9 Season Booster - Agility
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC122.9 Season Booster - EW Range:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18543.125
+    boosterness: 37
+    charismabonus: 5
+    id: 56158
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC122.9 Season Booster - EW Range
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    rangeskillbonus: 5
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC122.9 Season Booster - Max Velocity:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18543.125
+    boosterness: 31
+    charismabonus: 5
+    id: 56125
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC122.9 Season Booster - Max Velocity
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    velocitybonus: 5.0
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC122.9 Season Booster - Mining Range:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18543.125
+    boosterness: 36
+    charismabonus: 5
+    id: 56157
+    intelligencebonus: 5
+    maxrangebonus: 5.0
+    memorybonus: 5
+    name: Serenity YC122.9 Season Booster - Mining Range
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC122.9 Season Booster - Probe Scanning Strength:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18543.125
+    boosterness: 35
+    charismabonus: 5
+    id: 56156
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC122.9 Season Booster - Probe Scanning Strength
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    scanstrengthbonus: 5
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC122.9 Season Booster - Signature Radius:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18543.125
+    boosterness: 34
+    charismabonus: 5
+    id: 56155
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC122.9 Season Booster - Signature Radius
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    signatureradiusbonus: -5.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC122.9 Season Booster - Warp Speed:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18543.125
+    boosterness: 32
+    charismabonus: 5
+    id: 56153
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC122.9 Season Booster - Warp Speed
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    warpsbonus: 5
+    willpowerbonus: 5
   Standard Armor Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -2349,6 +2657,93 @@ types:
     signatureradiusbonus: -7.5
     socialbonus: 100
     volume: 1.0
+  Standard drone skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 42
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56184
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard drone skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Standard gunnery skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 38
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56180
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard gunnery skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Standard missile skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 40
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56182
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard missile skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Standard ore processing skill accelerator:
+    boosterduration: 60000.0
+    boosterness: 44
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56186
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard ore processing skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Strong Blue Pill Booster:
     boosteraoevelocitypenalty: -30
     boostercapacitorcapacitypenalty: -30

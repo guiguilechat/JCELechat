@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * How much the shield is boosted each duration.
  */
 public class EntityShieldBoostAmount
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityShieldBoostAmount INSTANCE = new EntityShieldBoostAmount();
 

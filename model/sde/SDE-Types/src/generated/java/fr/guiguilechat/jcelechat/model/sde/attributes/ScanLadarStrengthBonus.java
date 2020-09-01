@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * +/- modifier to the ladar strength of an electronic system.
  */
 public class ScanLadarStrengthBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ScanLadarStrengthBonus INSTANCE = new ScanLadarStrengthBonus();
 

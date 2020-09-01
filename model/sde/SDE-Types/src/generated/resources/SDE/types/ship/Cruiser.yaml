@@ -2145,7 +2145,7 @@ types:
     shipbonuscc: 5
     shipbonusgc: 5.0
     shipbonuspc1: 12.5
-    shipbonuspc2: -5
+    shipbonuspc2: -5.0
     shipbonusrole1: 100.0
     shipbonusrole2: -50
     shipbonusrole3: 525
@@ -3054,7 +3054,7 @@ types:
     shipbonuscc: 5
     shipbonusgc: 5.0
     shipbonuspc1: 5.0
-    shipbonuspc2: 5
+    shipbonuspc2: 7.5
     shipbonusrole1: 100.0
     shipbonusrole2: -50
     shipbonusuc1: 1.0

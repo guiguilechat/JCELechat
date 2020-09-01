@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Range in light years the ship can maximum jump to.
  */
 public class JumpDriveRange
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final JumpDriveRange INSTANCE = new JumpDriveRange();
 

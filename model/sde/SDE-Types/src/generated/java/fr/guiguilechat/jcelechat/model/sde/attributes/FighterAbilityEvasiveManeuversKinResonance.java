@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Shield Kinetic Damage Resistance
  */
 public class FighterAbilityEvasiveManeuversKinResonance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final FighterAbilityEvasiveManeuversKinResonance INSTANCE = new FighterAbilityEvasiveManeuversKinResonance();
 

@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
  *  0.9 means: Must be below 10% armor to get repairs
  */
 public class NpcRemoteArmorRepairThreshold
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final NpcRemoteArmorRepairThreshold INSTANCE = new NpcRemoteArmorRepairThreshold();
 

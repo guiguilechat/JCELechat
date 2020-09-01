@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The chance that the customs official has of detecting contraband on board a scanned vessel
  */
 public class ContrabandDetectionChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ContrabandDetectionChance INSTANCE = new ContrabandDetectionChance();
 

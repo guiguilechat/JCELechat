@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Reduction in damage lost per target on the Arcing Vorton Projector
  */
 public class StructureRigDoomsdayDamageLossTargetBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final StructureRigDoomsdayDamageLossTargetBonus INSTANCE = new StructureRigDoomsdayDamageLossTargetBonus();
 

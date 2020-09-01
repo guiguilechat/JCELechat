@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Scales the max target range of a ships electronics.
  */
 public class MaxTargetRangeMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final MaxTargetRangeMultiplier INSTANCE = new MaxTargetRangeMultiplier();
 

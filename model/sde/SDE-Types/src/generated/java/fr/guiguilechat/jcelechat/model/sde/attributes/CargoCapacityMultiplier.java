@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier to the amount of cargo capacity for a ship.
  */
 public class CargoCapacityMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final CargoCapacityMultiplier INSTANCE = new CargoCapacityMultiplier();
 

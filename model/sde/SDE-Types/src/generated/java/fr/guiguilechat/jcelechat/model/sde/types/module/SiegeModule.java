@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ActivationBlockedStrenght;
@@ -108,7 +108,7 @@ public class SiegeModule
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double ecmresistance;
     /**
      * 
@@ -129,28 +129,28 @@ public class SiegeModule
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armoremdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double armorthermaldamageresonance;
     /**
      * 
@@ -164,7 +164,7 @@ public class SiegeModule
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
      * commandBonusEffectiveAdd
@@ -192,7 +192,7 @@ public class SiegeModule
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double cpu;
     /**
      * If module is offensive should it deactivate on disconnect. Default to 1
@@ -241,14 +241,14 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double dronedamagebonus;
     /**
      * Length of activation time.
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double duration;
     /**
      * Bonus attribute for capacitor need of EW and propulsion jamming.
@@ -262,35 +262,35 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double falloffbonus;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double hullemdamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double hullexplosivedamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double hullkineticdamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double hullthermaldamageresonance;
     /**
      * 
@@ -395,7 +395,7 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxrangebonus;
     /**
      * Authoring has been moved to FSD
@@ -410,7 +410,7 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double missilevelocitybonus;
     /**
      * current power need
@@ -431,7 +431,7 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double remoterepairimpedancebonus;
     /**
      * The type ID of the skill that is required.
@@ -494,7 +494,7 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double scanresolutionmultiplier;
     /**
      * 
@@ -508,35 +508,35 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shieldboostmultiplier;
     /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldemdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldkineticdamageresonance;
     /**
      * Multiplies THERMAL damage taken by Shield. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
      * Bonus to HAW Missile Launcher Rate of Fire
@@ -634,7 +634,7 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double speedfactor;
     /**
      * 
@@ -656,7 +656,7 @@ public class SiegeModule
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double weapondisruptionresistancebonus;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {SiegeTorpedoVelocityBonus.INSTANCE, SiegeLauncherROFBonus.INSTANCE, SiegeMissileDamageBonus.INSTANCE, SiegeTurretDamageBonus.INSTANCE, ScanGravimetricStrengthPercent.INSTANCE, ScanLadarStrengthPercent.INSTANCE, Mass.INSTANCE, SiegeHAWMissileROFBonus.INSTANCE, ScanMagnetometricStrengthPercent.INSTANCE, CapacitorNeed.INSTANCE, ScanRadarStrengthPercent.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorKineticDamageResonance.INSTANCE, ArmorThermalDamageResonance.INSTANCE, DeactivateIfOffensive.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, CanFitShipGroup01 .INSTANCE, ShieldThermalDamageResonance.INSTANCE, SpeedFactor.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill2Level.INSTANCE, IndustrialCoreBonusDroneDamageHP.INSTANCE, IndustrialCoreBonusDroneVelocity.INSTANCE, IndustrialCoreBonusDroneMining.INSTANCE, IndustrialCoreBonusDroneIceHarvesting.INSTANCE, IndustrialCoreBonusMiningBurstStrength.INSTANCE, IndustrialCoreBonusCommandBurstRange.INSTANCE, Power.INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, ShieldBoostMultiplier.INSTANCE, TechLevel.INSTANCE, RemoteRepairImpedanceBonus.INSTANCE, EwCapacitorNeedBonus.INSTANCE, Capacity.INSTANCE, DisallowTethering.INSTANCE, SiegeRemoteLogisticsDurationBonus.INSTANCE, SiegeRemoteLogisticsAmountBonus.INSTANCE, SiegeLocalLogisticsDurationBonus.INSTANCE, SiegeLocalLogisticsAmountBonus.INSTANCE, SiegeRemoteLogisticsRangeBonus.INSTANCE, IndustrialCoreRemoteLogisticsRangeBonus.INSTANCE, IndustrialCoreRemoteLogisticsDurationBonus.INSTANCE, IndustrialCoreLocalLogisticsDurationBonus.INSTANCE, SensorDampenerResistanceBonus.INSTANCE, IndustrialCoreLocalLogisticsAmountBonus.INSTANCE, RemoteAssistanceImpedanceBonus.INSTANCE, WeaponDisruptionResistanceBonus.INSTANCE, DisallowDocking.INSTANCE, Cpu.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, RequiredSkill2 .INSTANCE, SiegeMassMultiplier.INSTANCE, MaxLockedTargets.INSTANCE, ActivationBlockedStrenght.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, ConsumptionQuantity.INSTANCE, ECMResistance.INSTANCE, HullEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, SpeedBonus.INSTANCE, HullKineticDamageResonance.INSTANCE, HullThermalDamageResonance.INSTANCE, SiegeModeWarpStatus.INSTANCE, CommandBonusEffectiveAdd.INSTANCE, DisallowActivateOnWarp.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, DroneDamageBonus.INSTANCE, DisallowOffensiveModifiers.INSTANCE, MaxLockedTargetsBonus.INSTANCE, TargetPainterResistanceBonus.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ArmorDamageAmountBonus.INSTANCE })));
     public static final SiegeModule.MetaGroup METAGROUP = new SiegeModule.MetaGroup();

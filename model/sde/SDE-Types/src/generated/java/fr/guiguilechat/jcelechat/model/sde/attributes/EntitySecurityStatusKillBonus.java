@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
  * Value is a % movement of the character's current security towards the upper/lower limit.
  */
 public class EntitySecurityStatusKillBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntitySecurityStatusKillBonus INSTANCE = new EntitySecurityStatusKillBonus();
 

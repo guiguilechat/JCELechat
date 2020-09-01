@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * 
  */
 public class EliteBonusHeavyGunship2
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EliteBonusHeavyGunship2 INSTANCE = new EliteBonusHeavyGunship2();
 

@@ -2761,6 +2761,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Badger Sukuuvestaa SKIN:
+    id: 56090
+    name: Badger Sukuuvestaa SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Badger Wiyrkomi SKIN:
     id: 36333
     name: Badger Wiyrkomi SKIN
@@ -4254,6 +4261,13 @@ types:
     id: 46827
     marketGroup: 2388
     name: Caldari Shuttle Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caldari Shuttle Sukuuvestaa SKIN:
+    id: 56089
+    name: Caldari Shuttle Sukuuvestaa SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

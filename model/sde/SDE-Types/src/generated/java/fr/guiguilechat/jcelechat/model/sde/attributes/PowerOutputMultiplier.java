@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multipier to power core output.
  */
 public class PowerOutputMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final PowerOutputMultiplier INSTANCE = new PowerOutputMultiplier();
 

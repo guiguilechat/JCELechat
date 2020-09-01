@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Agility;
@@ -45,21 +45,21 @@ public class ScannerProbe
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double agility;
     /**
      * This is the lowest maximum scan deviation in AU for probes under the revised probing system
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double basemaxscandeviation;
     /**
      * This is the lowest scan range value in AUs for probes under the revised probing system
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double basescanrange;
     /**
      * This is the highest sensor strength in points for probes under the revised probing system
@@ -87,7 +87,7 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double hp;
     /**
      * One of the groups of launcher this charge can be loaded into.
@@ -101,7 +101,7 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxvelocity;
     /**
      * Authoring has been moved to FSD.
@@ -151,7 +151,7 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double structureuniformity;
     /**
      * Authoring has been moved to FSD
@@ -166,7 +166,7 @@ public class ScannerProbe
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(3.0)
+    @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, MaxVelocity.INSTANCE, ProbeCanScanShips.INSTANCE, Agility.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, LauncherGroup.INSTANCE, ExplosionRange.INSTANCE, StructureUniformity.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, WarpSpeedMultiplier.INSTANCE, ExplosionDelay.INSTANCE, BaseScanRange.INSTANCE, BaseSensorStrength.INSTANCE, MetaGroupID.INSTANCE, BaseMaxScanDeviation.INSTANCE, RangeFactor.INSTANCE })));
     public static final ScannerProbe.MetaGroup METAGROUP = new ScannerProbe.MetaGroup();

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * CPU need of module
  */
 public class Cpu
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final Cpu INSTANCE = new Cpu();
 

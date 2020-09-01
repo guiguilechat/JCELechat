@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Used for chance based accuracy hit calculation for entity super weapon.
  */
 public class EntitySuperWeaponTrackingSpeed
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntitySuperWeaponTrackingSpeed INSTANCE = new EntitySuperWeaponTrackingSpeed();
 

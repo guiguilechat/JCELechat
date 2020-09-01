@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * % chance of entity to shoot defender at incoming missile
  */
 public class EntityDefenderChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityDefenderChance INSTANCE = new EntityDefenderChance();
 

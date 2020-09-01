@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplier for the missile's flight time.
  */
 public class MissileEntityFlightTimeMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final MissileEntityFlightTimeMultiplier INSTANCE = new MissileEntityFlightTimeMultiplier();
 

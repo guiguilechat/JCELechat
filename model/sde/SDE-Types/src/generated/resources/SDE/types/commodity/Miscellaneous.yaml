@@ -4461,6 +4461,24 @@ types:
     price: 100.0
     published: true
     volume: 2.0
+  Test crate 1:
+    exporttaxmultiplier: 1
+    id: 54257
+    importtaxmultiplier: 1
+    name: Test crate 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Test crate 2:
+    exporttaxmultiplier: 1
+    id: 56116
+    importtaxmultiplier: 1
+    name: Test crate 2
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   The Benevolent:
     exporttaxmultiplier: 1
     id: 32285

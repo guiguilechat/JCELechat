@@ -6,7 +6,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
 
 /**
- * singleton fo access to static (disconnected) calls.
+ * singleton for access to static (disconnected) calls.
  *
  */
 public class ESIStatic extends ConnectedImpl implements G_IDCAccess {

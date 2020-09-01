@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Integer that describes the types mass
  */
 public class Mass
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final Mass INSTANCE = new Mass();
 

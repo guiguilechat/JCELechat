@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus to shield.
  */
 public class ShieldBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ShieldBonus INSTANCE = new ShieldBonus();
 

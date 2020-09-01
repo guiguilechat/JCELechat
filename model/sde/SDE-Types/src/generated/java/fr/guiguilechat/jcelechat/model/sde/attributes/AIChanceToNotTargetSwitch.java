@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * A percentage chance to not change targets 0.0 - 1.0. 1.0 they will never change targets 0.0 they will always change targets
  */
 public class AIChanceToNotTargetSwitch
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final AIChanceToNotTargetSwitch INSTANCE = new AIChanceToNotTargetSwitch();
 

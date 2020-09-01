@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Modifies the time efficiency of invented BPCs
  */
 public class InventionTEModifier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final InventionTEModifier INSTANCE = new InventionTEModifier();
 

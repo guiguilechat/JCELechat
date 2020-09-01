@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * %chance of new asteroid releasing damage cloud each mining turn.
  */
 public class DamageCloudChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final DamageCloudChance INSTANCE = new DamageCloudChance();
 

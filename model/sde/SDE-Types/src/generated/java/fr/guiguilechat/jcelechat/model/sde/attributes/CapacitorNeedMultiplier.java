@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Scales the capacitor need for fitted modules.
  */
 public class CapacitorNeedMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final CapacitorNeedMultiplier INSTANCE = new CapacitorNeedMultiplier();
 

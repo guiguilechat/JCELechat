@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Time bonus for Refinery Structures
  */
 public class StrReactionTimeMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final StrReactionTimeMultiplier INSTANCE = new StrReactionTimeMultiplier();
 

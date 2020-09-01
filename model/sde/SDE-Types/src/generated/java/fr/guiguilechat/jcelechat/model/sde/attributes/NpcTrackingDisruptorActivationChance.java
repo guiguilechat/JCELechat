@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Chance of NPC effect to be activated each duration
  */
 public class NpcTrackingDisruptorActivationChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final NpcTrackingDisruptorActivationChance INSTANCE = new NpcTrackingDisruptorActivationChance();
 

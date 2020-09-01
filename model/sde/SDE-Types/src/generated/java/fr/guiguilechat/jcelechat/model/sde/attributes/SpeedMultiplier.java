@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Typically scales the firing speed of a weapon.  Reducing speed means faster, strangely..
  */
 public class SpeedMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final SpeedMultiplier INSTANCE = new SpeedMultiplier();
 

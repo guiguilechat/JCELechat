@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Chance of being caught selling contraband on market. 
  */
 public class ContrabandFencingChance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ContrabandFencingChance INSTANCE = new ContrabandFencingChance();
 

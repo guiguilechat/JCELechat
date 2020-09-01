@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * For charges, hidden attribute used by sentry guns to modify target pick range.
  */
 public class EntityFlyRangeMultiplier
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityFlyRangeMultiplier INSTANCE = new EntityFlyRangeMultiplier();
 

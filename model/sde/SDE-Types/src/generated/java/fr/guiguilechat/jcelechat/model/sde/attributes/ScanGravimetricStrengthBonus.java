@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * +/- modifier to the gravimetric strength of an electronic system.
  */
 public class ScanGravimetricStrengthBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ScanGravimetricStrengthBonus INSTANCE = new ScanGravimetricStrengthBonus();
 

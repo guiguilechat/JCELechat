@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * An amount to modify the armor damage by.
  */
 public class ArmorDamageAmount
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final ArmorDamageAmount INSTANCE = new ArmorDamageAmount();
 

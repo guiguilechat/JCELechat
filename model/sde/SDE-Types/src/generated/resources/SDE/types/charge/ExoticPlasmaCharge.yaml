@@ -59,7 +59,7 @@ types:
   Baryon Exotic Plasma XL:
     chargesize: 4
     entityflyrangemultiplier: 0.5
-    explosivedamage: 644.0
+    explosivedamage: 1610.0
     hp: 1.0
     id: 52916
     launchergroup: 1986
@@ -71,7 +71,7 @@ types:
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 980.0
+    thermaldamage: 2450.0
     trackingspeedmultiplier: 1.0
     volume: 0.009999999776482582
     weaponrangemultiplier: 1.100000023841858
@@ -135,7 +135,7 @@ types:
   Meson Exotic Plasma XL:
     chargesize: 4
     entityflyrangemultiplier: 0.5
-    explosivedamage: 476.0
+    explosivedamage: 1190.0
     hp: 1.0
     id: 53302
     launchergroup: 1986
@@ -147,7 +147,7 @@ types:
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 756.0
+    thermaldamage: 1890.0
     trackingspeedmultiplier: 1.0
     volume: 0.009999999776482582
     weaponrangemultiplier: 1.7999999523162842
@@ -211,7 +211,7 @@ types:
   Tetryon Exotic Plasma XL:
     chargesize: 4
     entityflyrangemultiplier: 0.5
-    explosivedamage: 532.0
+    explosivedamage: 1330.0
     hp: 1.0
     id: 53301
     launchergroup: 1986
@@ -223,7 +223,7 @@ types:
     published: true
     radius: 1.0
     techlevel: 1
-    thermaldamage: 1204.0
+    thermaldamage: 3010.0
     trackingspeedmultiplier: 1.0
     volume: 0.009999999776482582
     weaponrangemultiplier: 0.699999988079071

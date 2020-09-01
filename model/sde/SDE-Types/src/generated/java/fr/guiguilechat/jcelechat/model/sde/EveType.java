@@ -2,8 +2,8 @@ package fr.guiguilechat.jcelechat.model.sde;
 
 import java.lang.reflect.Field;
 import java.util.Set;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 
 public abstract class EveType {
     public int id;
@@ -51,7 +51,7 @@ public abstract class EveType {
 
     public void loadDefault() {
         for (Field f: (getClass().getFields())) {
-            DefaultDoubleValue annotDouble = f.getAnnotation(DefaultDoubleValue.class);
+            DefaultRealValue annotDouble = f.getAnnotation(DefaultRealValue.class);
             if (annotDouble!= (null)) {
                 try {
                     f.setAccessible(true);

@@ -37,6 +37,7 @@ import com.helger.jcodemodel.JMod;
 import com.helger.jcodemodel.JNarrowedClass;
 import com.helger.jcodemodel.JOp;
 import com.helger.jcodemodel.JPackage;
+import com.helger.jcodemodel.JPrimitiveType;
 import com.helger.jcodemodel.JSwitch;
 import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JTypeVar;
@@ -84,7 +85,7 @@ public class SDECompiler {
 	//
 
 	JDefinedClass attributeClass;
-	JDefinedClass doubleAttribute, intAttribute;
+	JDefinedClass realAttribute, intAttribute;
 	JMethod typeGetAttributes;
 
 	public CompilationData compile(TypeHierarchy hierarchy) {
@@ -141,7 +142,7 @@ public class SDECompiler {
 				catIDToMetaInstance.put(cate.getKey(), catClass.staticRef(metaInstance));
 
 				// metaCat.getCategoryId return the id
-				JMethod catID = metaCat.method(JMod.PUBLIC, cm.INT, "getCategoryId");
+				JMethod catID = metaCat.method(JMod.PUBLIC, intType(), "getCategoryId");
 				catID.body()._return(JExpr.lit(cate.getKey()));
 				catID.annotate(Override.class);
 
@@ -230,7 +231,7 @@ public class SDECompiler {
 				getCat.annotate(Override.class);
 
 				// MetaGroup.getGroupID returns the group id
-				JMethod groupID = metaGroup.method(JMod.PUBLIC, cm.INT, "getGroupId");
+				JMethod groupID = metaGroup.method(JMod.PUBLIC, intType(), "getGroupId");
 				groupID.body()._return(JExpr.lit(groupEntry.getKey()));
 				groupID.annotate(Override.class);
 
@@ -305,7 +306,7 @@ public class SDECompiler {
 
 			// create the getType(int id)
 			getType = ret.typeIndexClass.method(JMod.PUBLIC | JMod.STATIC, ret.eveTypeClass, "getType");
-			JVar TypeId = getType.param(cm.INT, "id");
+			JVar TypeId = getType.param(intType(), "id");
 			getType.body()._return(ret.typeIndexClass.staticInvoke("getType")
 					.arg(ret.typeIndexClass.staticInvoke("load").ref("id2name").invoke("get").arg(TypeId)));
 
@@ -319,7 +320,7 @@ public class SDECompiler {
 			JDefinedClass clazz = rootPackage()._class("TypeRef");
 			ret.typeRefClass = clazz;
 			JTypeVar generic = clazz.generify("T", ret.eveTypeClass);
-			JFieldVar id_f = clazz.field(JMod.PUBLIC, cm.INT, "id");
+			JFieldVar id_f = clazz.field(JMod.PUBLIC, intType(), "id");
 
 			// access to the type
 			JFieldVar type_f = clazz.field(JMod.PRIVATE | JMod.TRANSIENT, generic, "type");
@@ -374,13 +375,13 @@ public class SDECompiler {
 		// Attribute, IntAttribute, DoubleAttribute
 		try {
 			attributeClass = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "Attribute");
-			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.INT, "getId");
+			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, intType(), "getId");
 			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getHighIsGood");
 			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm._ref(Number.class), "getDefaultValue");
 			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getPublished");
 			attributeClass.method(JMod.PUBLIC | JMod.ABSTRACT, cm.BOOLEAN, "getStackable");
 
-			doubleAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "DoubleAttribute")._extends(attributeClass);
+			realAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "RealAttribute")._extends(attributeClass);
 			intAttribute = rootPackage()._class(JMod.ABSTRACT | JMod.PUBLIC, "IntAttribute")._extends(attributeClass);
 		} catch (JClassAlreadyExistsException e3) {
 			throw new UnsupportedOperationException("catch this", e3);
@@ -397,11 +398,11 @@ public class SDECompiler {
 		try {
 			ret.metaCatClass = rootPackage()._interface(JMod.PUBLIC, "IMetaCategory");
 			JTypeVar paramMetaCat = ret.metaCatClass.generify("T", ret.eveTypeClass);
-			ret.metaCatClass.method(JMod.PUBLIC, cm.INT, "getCategoryId");
+			ret.metaCatClass.method(JMod.PUBLIC, intType(), "getCategoryId");
 
 			ret.metaGroupClass = rootPackage()._interface(JMod.PUBLIC | JMod.PUBLIC, "IMetaGroup");
 			JTypeVar paramMetaGroup = ret.metaGroupClass.generify("T", ret.eveTypeClass);
-			ret.metaGroupClass.method(JMod.PUBLIC, cm.INT, "getGroupId");
+			ret.metaGroupClass.method(JMod.PUBLIC, intType(), "getGroupId");
 
 			ret.catGetGroups = ret.metaCatClass.method(JMod.PUBLIC,
 					cm.ref(Collection.class).narrow(ret.metaGroupClass.narrow(paramMetaCat.wildcardExtends())), "groups");
@@ -443,22 +444,22 @@ public class SDECompiler {
 		// create body of EveType
 
 		ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, ret.metaGroupClass.narrow(cm.wildcard()), "getGroup");
-		ret.eveTypeClass.method(JMod.PUBLIC, cm.INT, "getGroupId").body()
+		ret.eveTypeClass.method(JMod.PUBLIC, intType(), "getGroupId").body()
 		._return(JExpr.invoke("getGroup").invoke("getGroupId"));
 
 		ret.eveTypeClass.method(JMod.PUBLIC | JMod.ABSTRACT, ret.metaCatClass.narrow(cm.wildcard()), "getCategory");
-		ret.eveTypeClass.method(JMod.PUBLIC, cm.INT, "getCategoryId").body()
+		ret.eveTypeClass.method(JMod.PUBLIC, intType(), "getCategoryId").body()
 		._return(JExpr.invoke("getCategory").invoke("getCategoryId"));
 
-		ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "id");
-		ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "marketGroup");
-		JFieldVar massField = ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "mass");
+		ret.eveTypeClass.field(JMod.PUBLIC, intType(), "id");
+		ret.eveTypeClass.field(JMod.PUBLIC, intType(), "marketGroup");
+		JFieldVar massField = ret.eveTypeClass.field(JMod.PUBLIC, realType(), "mass");
 		ret.eveTypeClass.field(JMod.PUBLIC, ret.model.ref(String.class), "name");
-		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "packagedVolume");
-		ret.eveTypeClass.field(JMod.PUBLIC, cm.INT, "portionSize");
-		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "price");
+		ret.eveTypeClass.field(JMod.PUBLIC, realType(), "packagedVolume");
+		ret.eveTypeClass.field(JMod.PUBLIC, intType(), "portionSize");
+		ret.eveTypeClass.field(JMod.PUBLIC, realType(), "price");
 		ret.eveTypeClass.field(JMod.PUBLIC, cm.BOOLEAN, "published");
-		ret.eveTypeClass.field(JMod.PUBLIC, cm.DOUBLE, "volume");
+		ret.eveTypeClass.field(JMod.PUBLIC, realType(), "volume");
 
 		ret.valueSetMeth = ret.eveTypeClass.method(JMod.PUBLIC, cm.ref(Number.class), "valueSet");
 		{
@@ -504,12 +505,12 @@ public class SDECompiler {
 			ifnull._else()._return(retrieved);
 		}
 
-		JMethod valueDoubleMeth = doubleAttribute.method(JMod.PUBLIC, cm.DOUBLE.boxify(), "value");
-		valueDoubleMeth.annotate(Override.class);
-		JVar TypeDoubleparam = valueDoubleMeth.param(ret.eveTypeClass, "Type");
-		valueDoubleMeth.body()._return(JExpr._super().invoke("value").arg(TypeDoubleparam).invoke("doubleValue"));
+		JMethod valueRealMeth = realAttribute.method(JMod.PUBLIC, realType().boxify(), "value");
+		valueRealMeth.annotate(Override.class);
+		JVar TypeDoubleparam = valueRealMeth.param(ret.eveTypeClass, "Type");
+		valueRealMeth.body()._return(JExpr._super().invoke("value").arg(TypeDoubleparam).invoke("doubleValue"));
 
-		JMethod valueIntMeth = intAttribute.method(JMod.PUBLIC, cm.INT.boxify(), "value");
+		JMethod valueIntMeth = intAttribute.method(JMod.PUBLIC, intType().boxify(), "value");
 		valueIntMeth.annotate(Override.class);
 		JVar TypeIntparam = valueIntMeth.param(ret.eveTypeClass, "Type");
 		valueIntMeth.body()._return(JExpr._super().invoke("value").arg(TypeIntparam).invoke("intValue"));
@@ -566,6 +567,14 @@ public class SDECompiler {
 		}
 	}
 
+	protected JPrimitiveType realType() {
+		return cm.DOUBLE;
+	}
+
+	protected JPrimitiveType intType() {
+		return cm.INT;
+	}
+
 	/**
 	 * create the attributes as java classes.
 	 *
@@ -588,11 +597,11 @@ public class SDECompiler {
 			try {
 				attClass = attributesPackage()._class(name);
 				if (eattr.hasFloat) {
-					attClass._extends(doubleAttribute);
+					attClass._extends(realAttribute);
 				} else {
 					attClass._extends(intAttribute);
 				}
-				JMethod meth = attClass.method(JMod.PUBLIC, cm.INT, "getId");
+				JMethod meth = attClass.method(JMod.PUBLIC, intType(), "getId");
 				meth.annotate(cm.ref(Override.class));
 				meth.body()._return(JExpr.lit(attId));
 				meth = attClass.method(JMod.PUBLIC, cm.BOOLEAN, "getHighIsGood");
@@ -651,20 +660,20 @@ public class SDECompiler {
 		return stackableAnnotation;
 	}
 
-	protected JDefinedClass defaultDoubleValueAnnotation;
+	protected JDefinedClass defaultRealValueAnnotation;
 
 	protected JDefinedClass getDefaultDoubleValueAnnotation() {
-		if (defaultDoubleValueAnnotation == null) {
+		if (defaultRealValueAnnotation == null) {
 			try {
-				defaultDoubleValueAnnotation = annotationsPackage()._annotationTypeDeclaration("DefaultDoubleValue");
-				defaultDoubleValueAnnotation.annotate(Retention.class).param("value",
+				defaultRealValueAnnotation = annotationsPackage()._annotationTypeDeclaration("DefaultRealValue");
+				defaultRealValueAnnotation.annotate(Retention.class).param("value",
 						cm.ref(RetentionPolicy.class).staticRef("RUNTIME"));
-				defaultDoubleValueAnnotation.method(JMod.PUBLIC, cm.DOUBLE, "value");
+				defaultRealValueAnnotation.method(JMod.PUBLIC, realType(), "value");
 			} catch (JClassAlreadyExistsException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
 		}
-		return defaultDoubleValueAnnotation;
+		return defaultRealValueAnnotation;
 	}
 
 	protected JDefinedClass defaulIntValueAnnotation;
@@ -675,7 +684,7 @@ public class SDECompiler {
 				defaulIntValueAnnotation = annotationsPackage()._annotationTypeDeclaration("DefaultIntValue");
 				defaulIntValueAnnotation.annotate(Retention.class).param("value",
 						cm.ref(RetentionPolicy.class).staticRef("RUNTIME"));
-				defaulIntValueAnnotation.method(JMod.PUBLIC, cm.INT, "value");
+				defaulIntValueAnnotation.method(JMod.PUBLIC, intType(), "value");
 			} catch (JClassAlreadyExistsException e) {
 				throw new UnsupportedOperationException("catch this", e);
 			}
@@ -703,7 +712,7 @@ public class SDECompiler {
 
 		for (Integer attributeID : sortedAttIds) {
 			AttributeDetails attr = hierarchy.attID2Details.get(attributeID);
-			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? cm.DOUBLE : cm.INT, formatName(attr.name).toLowerCase());
+			JFieldVar f = cl.field(JMod.PUBLIC, attr.hasFloat ? realType() : intType(), formatName(attr.name).toLowerCase());
 			f.annotate(getHighIsGoodAnnotation()).param("value", attr.highIsGood);
 			f.annotate(getStackableAnnotation()).param("value", attr.stackable);
 			if (attr.hasFloat) {

@@ -538,16 +538,16 @@ public class EveCharacter {
 		return standings;
 	}
 
-	private Map<Integer, ObsDoubleHolder> cacheStanding = new HashMap<>();
+	private Map<Integer, ObsObjHolder<Float>> cacheStanding = new HashMap<>();
 
-	public ObsDoubleHolder getStanding(int id) {
-		ObsDoubleHolder ret = cacheStanding.get(id);
+	public ObsObjHolder<Float> getStanding(int id) {
+		ObsObjHolder<Float> ret = cacheStanding.get(id);
 		if (ret == null) {
 			ObsMapHolder<Integer, M_get_standings_3> std = getStandings();
 			synchronized (cacheStanding) {
 				ret = cacheStanding.get(id);
 				if (ret == null) {
-					ret = std.at(id, new M_get_standings_3()).mapDouble(m -> m.standing);
+					ret = std.at(id, new M_get_standings_3()).map(m -> m.standing);
 					cacheStanding.put(id, ret);
 				}
 			}

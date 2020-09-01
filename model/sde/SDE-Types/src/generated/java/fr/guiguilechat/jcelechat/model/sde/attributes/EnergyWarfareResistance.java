@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Resistance against Energy Neutralizing and Nosferatu
  */
 public class EnergyWarfareResistance
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EnergyWarfareResistance INSTANCE = new EnergyWarfareResistance();
 

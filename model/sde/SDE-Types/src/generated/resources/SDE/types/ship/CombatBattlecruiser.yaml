@@ -426,8 +426,8 @@ types:
     capacitorcapacity: 3000.0
     capacity: 650.0
     cpuoutput: 410
-    dronebandwidth: 75
-    dronecapacity: 125
+    dronebandwidth: 50
+    dronecapacity: 75
     emdamageresonance: 0.6700000166893005
     explosivedamageresonance: 0.6700000166893005
     fwlpkill: 100

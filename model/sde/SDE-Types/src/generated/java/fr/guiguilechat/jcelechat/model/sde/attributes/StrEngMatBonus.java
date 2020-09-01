@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Material bonus for Engineering Complexes Structures
  */
 public class StrEngMatBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final StrEngMatBonus INSTANCE = new StrEngMatBonus();
 

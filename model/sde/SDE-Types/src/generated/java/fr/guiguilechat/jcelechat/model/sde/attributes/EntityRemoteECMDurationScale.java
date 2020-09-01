@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * The scaling factor used for the NPC remote ECM
  */
 public class EntityRemoteECMDurationScale
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final EntityRemoteECMDurationScale INSTANCE = new EntityRemoteECMDurationScale();
 

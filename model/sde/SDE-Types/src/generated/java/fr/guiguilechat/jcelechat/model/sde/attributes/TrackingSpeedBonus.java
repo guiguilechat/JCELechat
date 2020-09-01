@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.DoubleAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Tracking Speed Bonus
  */
 public class TrackingSpeedBonus
-    extends DoubleAttribute
+    extends RealAttribute
 {
     public static final TrackingSpeedBonus INSTANCE = new TrackingSpeedBonus();
 

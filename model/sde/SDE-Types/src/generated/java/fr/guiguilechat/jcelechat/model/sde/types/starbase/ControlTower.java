@@ -10,8 +10,8 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
 import fr.guiguilechat.jcelechat.model.sde.IMetaCategory;
 import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
-import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultDoubleValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultIntValue;
+import fr.guiguilechat.jcelechat.model.sde.annotations.DefaultRealValue;
 import fr.guiguilechat.jcelechat.model.sde.annotations.HighIsGood;
 import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.AnchoringDelay;
@@ -185,28 +185,28 @@ public class ControlTower
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double hullemdamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double hullexplosivedamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double hullkineticdamageresonance;
     /**
      * 
      */
     @HighIsGood(false)
     @Stackable(true)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double hullthermaldamageresonance;
     /**
      * The distance that structures have to be from a control tower in order to work with it.
@@ -220,7 +220,7 @@ public class ControlTower
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double maxtargetrange;
     /**
      * Authoring has been moved to FSD.
@@ -284,21 +284,21 @@ public class ControlTower
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldemdamageresonance;
     /**
      * Multiplies EXPLOSIVE damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldexplosivedamageresonance;
     /**
      * Multiplies KINETIC damage taken by Armor. 
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldkineticdamageresonance;
     /**
      * Radius of the force shield that this structure generates.
@@ -312,21 +312,21 @@ public class ControlTower
      */
     @HighIsGood(false)
     @Stackable(false)
-    @DefaultDoubleValue(1.0)
+    @DefaultRealValue(1.0)
     public double shieldthermaldamageresonance;
     /**
      * DO NOT MESS WITH This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double shielduniformity;
     /**
      * This number is deducted from the %chance of the seeping to armor, to slow seep of damage through shield.
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultDoubleValue(0.0)
+    @DefaultRealValue(0.0)
     public double uniformity;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ControlTowerEwTargetSwitchDelayBonus.INSTANCE, Mass.INSTANCE, ControlTowerSize.INSTANCE, ShieldCapacity.INSTANCE, Uniformity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, MaxStructureDistance.INSTANCE, ArmorDamage.INSTANCE, PowerOutput.INSTANCE, ArmorUniformity.INSTANCE, StructureUniformity.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, ControlTowerMissileVelocityBonus.INSTANCE, ProximityRange.INSTANCE, MetaGroupID.INSTANCE, Radius.INSTANCE, UnanchoringDelay.INSTANCE, OnliningDelay.INSTANCE, Capacity.INSTANCE, ShieldRadius.INSTANCE, SignatureRadius.INSTANCE, AnchoringDelay.INSTANCE, CpuOutput.INSTANCE, PosStructureControlDistanceMax.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, MoonAnchorDistance.INSTANCE, MaxTargetRange.INSTANCE, HullEmDamageResonance.INSTANCE, HullExplosiveDamageResonance.INSTANCE, HullKineticDamageResonance.INSTANCE, ScanRadarStrength.INSTANCE, CapacitySecondary.INSTANCE, HullThermalDamageResonance.INSTANCE, ScanLadarStrength.INSTANCE, PosControlTowerPeriod.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, ControlTowerLaserDamageBonus.INSTANCE, PrototypingBonus.INSTANCE, ShieldRechargeRate.INSTANCE, ShieldUniformity.INSTANCE, DisallowOffensiveModifiers.INSTANCE, ControlTowerLaserOptimalBonus.INSTANCE, ControlTowerProjectileOptimalBonus.INSTANCE, ControlTowerProjectileFallOffBonus.INSTANCE, ControlTowerProjectileROFBonus.INSTANCE, ControlTowerMissileROFBonus.INSTANCE, ControlTowerSiloCapacityBonus.INSTANCE, ControlTowerHybridDamageBonus.INSTANCE })));
     public static final ControlTower.MetaGroup METAGROUP = new ControlTower.MetaGroup();
