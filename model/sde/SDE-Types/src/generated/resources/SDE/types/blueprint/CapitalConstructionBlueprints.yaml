@@ -4,7 +4,7 @@ types:
     name: Capital Absorption Thruster Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.393368E9
+    price: 1.393368064E9
     published: true
     volume: 0.009999999776482582
   Capital Armor Plates Blueprint:
@@ -14,7 +14,7 @@ types:
     name: Capital Armor Plates Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.2912108E9
+    price: 1.291210752E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -25,7 +25,7 @@ types:
     name: Capital Capacitor Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.146936E9
+    price: 1.146936064E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -47,7 +47,7 @@ types:
     name: Capital Clone Vat Bay Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.6834184E9
+    price: 1.683418368E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -58,7 +58,7 @@ types:
     name: Capital Computer System Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.2283988E9
+    price: 1.228398848E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -69,7 +69,7 @@ types:
     name: Capital Construction Parts Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.005494E9
+    price: 1.005494016E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -80,7 +80,7 @@ types:
     name: Capital Corporate Hangar Bay Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.6707848E9
+    price: 1.670784768E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -91,7 +91,7 @@ types:
     name: Capital Doomsday Weapon Mount Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.1468868E9
+    price: 2.146886784E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -102,7 +102,7 @@ types:
     name: Capital Drone Bay Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.722796E8
+    price: 8.72279616E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -113,7 +113,7 @@ types:
     name: Capital Jump Bridge Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.1413428E9
+    price: 3.14134272E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -135,7 +135,7 @@ types:
     name: Capital Launcher Hardpoint Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.393368E9
+    price: 1.393368064E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -146,7 +146,7 @@ types:
     name: Capital Power Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.3600632E9
+    price: 1.360063232E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -157,7 +157,7 @@ types:
     name: Capital Propulsion Engine Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.253962E9
+    price: 1.253961984E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -166,7 +166,7 @@ types:
     name: Capital Radiation Conversion Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.393368E9
+    price: 1.393368064E9
     published: true
     volume: 0.009999999776482582
   Capital Sensor Cluster Blueprint:
@@ -176,7 +176,7 @@ types:
     name: Capital Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.2027632E9
+    price: 1.202763264E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -187,7 +187,7 @@ types:
     name: Capital Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.306728E9
+    price: 1.306727936E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -198,7 +198,7 @@ types:
     name: Capital Ship Maintenance Bay Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.6973612E9
+    price: 1.697361152E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -220,7 +220,7 @@ types:
     name: Capital Turret Hardpoint Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.462602E9
+    price: 1.462601984E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -229,6 +229,6 @@ types:
     name: Capital Ultratidal Entropic Mounting Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.393368E9
+    price: 1.393368064E9
     published: true
     volume: 0.009999999776482582

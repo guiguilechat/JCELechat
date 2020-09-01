@@ -6,7 +6,7 @@ types:
     name: Bustard Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -18,7 +18,7 @@ types:
     name: Crane Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -30,7 +30,7 @@ types:
     name: Impel Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -42,7 +42,7 @@ types:
     name: Mastodon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -54,7 +54,7 @@ types:
     name: Occator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -66,7 +66,7 @@ types:
     name: Prorator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -78,7 +78,7 @@ types:
     name: Prowler Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -90,7 +90,7 @@ types:
     name: Viator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2

@@ -94,22 +94,22 @@ public class EtypeIDs {
 		}
 	}
 
-	public double basePrice;
-	public double capacity;
+	public float basePrice;
+	public float capacity;
 	public HashMap<String, String> description = new HashMap<>();
 	public int factionID;
 	public int graphicID;
 	public int groupID;
 	public int iconID;
 	public int marketGroupID;
-	public double mass;
+	public float mass;
 	public HashMap<Integer, List<Integer>> masteries = new HashMap<>();
 	public int metaGroupID;
 	public HashMap<String, String> name = new HashMap<>();
 	public int portionSize;
 	public boolean published;
 	public int raceID;
-	public double radius;
+	public float radius;
 	public String sofFactionName;
 	public int sofMaterialSetID;
 	public int soundID;
@@ -118,7 +118,7 @@ public class EtypeIDs {
 
 	public Etraits traits;
 
-	public double volume;
+	public float volume;
 
 	public String enName() {
 		String ret = name.get("en");

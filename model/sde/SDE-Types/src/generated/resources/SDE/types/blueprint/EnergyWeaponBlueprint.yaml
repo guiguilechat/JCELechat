@@ -180,7 +180,7 @@ types:
     name: CONCORD Dual Giga Pulse Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.8404274E7
+    price: 4.8404272E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -192,7 +192,7 @@ types:
     name: Dark Blood Dual Giga Beam Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.8404274E7
+    price: 4.8404272E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -228,7 +228,7 @@ types:
     name: Dual Giga Beam Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.8404274E7
+    price: 4.8404272E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -239,7 +239,7 @@ types:
     name: Dual Giga Beam Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.8404274E7
+    price: 4.8404272E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -744,7 +744,7 @@ types:
     name: True Sansha Dual Giga Beam Laser Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.8404274E7
+    price: 4.8404272E7
     published: true
     radius: 1.0
     techlevel: 1

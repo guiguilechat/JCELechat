@@ -7,7 +7,7 @@ types:
     name: Absolution Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -20,7 +20,7 @@ types:
     name: Astarte Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -58,7 +58,7 @@ types:
     name: Claymore Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -84,7 +84,7 @@ types:
     name: Damnation Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -131,7 +131,7 @@ types:
     name: Eos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -244,7 +244,7 @@ types:
     name: Nighthawk Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -283,7 +283,7 @@ types:
     name: Sleipnir Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -322,7 +322,7 @@ types:
     name: Vulture Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2

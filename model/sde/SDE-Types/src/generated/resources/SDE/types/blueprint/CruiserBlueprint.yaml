@@ -7,7 +7,7 @@ types:
     name: Arazu Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -68,7 +68,7 @@ types:
     name: Basilisk Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -155,7 +155,7 @@ types:
     name: Cerberus Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -179,7 +179,7 @@ types:
     name: Curse Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -203,7 +203,7 @@ types:
     name: Deimos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -227,7 +227,7 @@ types:
     name: Eagle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -286,7 +286,7 @@ types:
     name: Falcon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -319,7 +319,7 @@ types:
     name: Guardian Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -344,7 +344,7 @@ types:
     name: Huginn Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -355,7 +355,7 @@ types:
     name: Ikitursa Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -367,7 +367,7 @@ types:
     name: Ishtar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -380,7 +380,7 @@ types:
     name: Lachesis Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -440,7 +440,7 @@ types:
     name: Muninn Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -477,7 +477,7 @@ types:
     name: Oneiros Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -559,7 +559,7 @@ types:
     name: Pilgrim Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -581,7 +581,7 @@ types:
     name: Rapier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -603,7 +603,7 @@ types:
     name: Rook Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -629,7 +629,7 @@ types:
     name: Sacrilege Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -642,7 +642,7 @@ types:
     name: Scimitar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -757,7 +757,7 @@ types:
     name: Vagabond Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -843,7 +843,7 @@ types:
     name: Zarmazd Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -855,7 +855,7 @@ types:
     name: Zealot Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2

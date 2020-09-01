@@ -69,7 +69,7 @@ public class EdgmAttributeTypes {
 	public int attributeID;
 	public String attributeName;
 	public int categoryID;
-	public double defaultValue;
+	public float defaultValue;
 	public String description;
 	public boolean highIsGood;
 	public boolean published;

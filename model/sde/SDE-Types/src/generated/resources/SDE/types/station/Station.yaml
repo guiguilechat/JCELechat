@@ -33,7 +33,7 @@ types:
     name: Amarr Factory Outpost
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171823E9
+    price: 1.702171776E9
     published: false
     radius: 19079.0
     signatureradius: 10000.0
@@ -217,7 +217,7 @@ types:
     name: Caldari Research Outpost
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617576E9
+    price: 1.683617536E9
     published: false
     radius: 12748.0
     signatureradius: 10000.0
@@ -292,7 +292,7 @@ types:
     name: Gallente Administrative Outpost
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018549E9
+    price: 1.403018496E9
     published: false
     radius: 27119.0
     signatureradius: 10000.0
@@ -502,7 +502,7 @@ types:
     name: Minmatar Service Outpost
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932072E9
+    price: 1.983932032E9
     published: false
     radius: 18000.0
     signatureradius: 10000.0

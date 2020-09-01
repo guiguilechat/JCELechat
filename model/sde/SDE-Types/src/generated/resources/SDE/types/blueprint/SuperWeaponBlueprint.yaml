@@ -6,7 +6,7 @@ types:
     name: '''Aurora Ominae'' Thermal Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.40950758E8
+    price: 2.40950752E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -44,7 +44,7 @@ types:
     name: '''Gjallarhorn'' Explosive Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.40435272E8
+    price: 2.40435264E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -91,7 +91,7 @@ types:
     name: '''Judgment'' Electromagnetic Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.4072788E8
+    price: 2.40727872E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -102,7 +102,7 @@ types:
     name: '''Oblivion'' Kinetic Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582

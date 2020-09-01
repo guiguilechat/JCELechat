@@ -26,7 +26,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40950758E8
+    price: 2.40950752E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -78,7 +78,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -129,7 +129,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -181,7 +181,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -221,7 +221,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40435272E8
+    price: 2.40435264E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -272,7 +272,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -324,7 +324,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -375,7 +375,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -427,7 +427,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -466,7 +466,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.4072788E8
+    price: 2.40727872E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -505,7 +505,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -556,7 +556,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -608,7 +608,7 @@ types:
     packagedVolume: 2000.0
     portionSize: 1
     power: 100000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 24563
@@ -687,7 +687,7 @@ types:
     panicduration: 240000
     portionSize: 1
     power: 50000
-    price: 2.40947786E8
+    price: 2.40947792E8
     published: true
     radius: 1000.0
     requiredskill1: 44067

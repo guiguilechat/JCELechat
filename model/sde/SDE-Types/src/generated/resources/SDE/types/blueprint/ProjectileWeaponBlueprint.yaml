@@ -396,7 +396,7 @@ types:
     name: CONCORD Quad 3500mm Siege Artillery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.7692954E7
+    price: 3.7692952E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -456,7 +456,7 @@ types:
     name: Domination Quad 3500mm Siege Artillery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.7692954E7
+    price: 3.7692952E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -661,7 +661,7 @@ types:
     name: Quad 3500mm Siege Artillery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.7692954E7
+    price: 3.7692952E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -672,7 +672,7 @@ types:
     name: Quad 3500mm Siege Artillery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.7692954E7
+    price: 3.7692952E7
     published: true
     radius: 1.0
     techlevel: 2

@@ -5,7 +5,7 @@ types:
     name: CONCORD Capital Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1002322E7
+    price: 5.100232E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -37,7 +37,7 @@ types:
     name: Capital Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1002322E7
+    price: 5.100232E7
     published: true
     radius: 1.0
     techlevel: 1

@@ -147,7 +147,7 @@ types:
     name: Customs Office Gantry Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5000001E7
+    price: 2.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582

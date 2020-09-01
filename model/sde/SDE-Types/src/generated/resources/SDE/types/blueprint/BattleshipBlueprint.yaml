@@ -20,7 +20,7 @@ types:
     name: Apocalypse Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.265E9
+    price: 1.264999936E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -55,7 +55,7 @@ types:
     name: Armageddon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.565E9
+    price: 1.564999936E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -67,7 +67,7 @@ types:
     name: Armageddon Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.625E8
+    price: 6.62499968E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -307,7 +307,7 @@ types:
     name: Raven Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.135E9
+    price: 1.135000064E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -355,7 +355,7 @@ types:
     name: Scorpion Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.075E9
+    price: 1.075000064E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -367,7 +367,7 @@ types:
     name: Scorpion Navy Issue Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.125E8
+    price: 7.12499968E8
     published: true
     radius: 1.0
     techlevel: 1

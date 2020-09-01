@@ -497,7 +497,7 @@ types:
     name: Standup Supercapital Shipyard I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E9
+    price: 8.999999488E9
     published: true
     radius: 1.0
     structureitemvisualflag: 1

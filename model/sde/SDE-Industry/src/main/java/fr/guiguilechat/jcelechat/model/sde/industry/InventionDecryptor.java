@@ -34,7 +34,7 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 	private static GenericDecryptor NULLDECRYPTOR = new GenericDecryptor();
 	static {
 		NULLDECRYPTOR.name = "no decryptor";
-		NULLDECRYPTOR.inventionpropabilitymultiplier = 1.0;
+		NULLDECRYPTOR.inventionpropabilitymultiplier = 1.0f;
 	}
 
 	public static final String RESOURCE_PATH = "SDE/industry/decryptors.yaml";

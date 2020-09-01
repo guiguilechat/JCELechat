@@ -7,7 +7,7 @@ types:
     name: Anathema Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -20,7 +20,7 @@ types:
     name: Ares Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -96,7 +96,7 @@ types:
     name: Buzzard Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -142,7 +142,7 @@ types:
     name: Cheetah Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -166,7 +166,7 @@ types:
     name: Claw Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -192,7 +192,7 @@ types:
     name: Crow Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -238,7 +238,7 @@ types:
     name: Crusader Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -305,7 +305,7 @@ types:
     name: Enyo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -375,7 +375,7 @@ types:
     name: Harpy Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -388,7 +388,7 @@ types:
     name: Hawk Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -401,7 +401,7 @@ types:
     name: Helios Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -427,7 +427,7 @@ types:
     name: Hound Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -520,7 +520,7 @@ types:
     name: Ishkur Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -533,7 +533,7 @@ types:
     name: Jaguar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -607,7 +607,7 @@ types:
     name: Malediction Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -632,7 +632,7 @@ types:
     name: Manticore Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -693,7 +693,7 @@ types:
     name: Nemesis Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -704,7 +704,7 @@ types:
     name: Nergal Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -764,7 +764,7 @@ types:
     name: Purifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -777,7 +777,7 @@ types:
     name: Raptor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -801,7 +801,7 @@ types:
     name: Retribution Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -872,7 +872,7 @@ types:
     name: Stiletto Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -896,7 +896,7 @@ types:
     name: Taranis Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -946,7 +946,7 @@ types:
     name: Vengeance Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1015,7 +1015,7 @@ types:
     name: Wolf Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E10
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2

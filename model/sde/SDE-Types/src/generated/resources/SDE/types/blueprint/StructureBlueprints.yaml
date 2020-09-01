@@ -23,7 +23,7 @@ types:
     name: Athanor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.5E9
+    price: 5.500000256E9
     published: true
     volume: 0.009999999776482582
   Azbel Blueprint:
@@ -32,7 +32,7 @@ types:
     name: Azbel Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E10
+    price: 2.4999999488E10
     published: true
     volume: 0.009999999776482582
   Fortizar Blueprint:
@@ -41,7 +41,7 @@ types:
     name: Fortizar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E10
+    price: 7.0000001024E10
     published: true
     volume: 0.009999999776482582
   Keepstar Blueprint:
@@ -50,7 +50,7 @@ types:
     name: Keepstar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E11
+    price: 6.99999977472E11
     published: true
     volume: 0.009999999776482582
   Pharolux Cyno Beacon Blueprint:
@@ -77,7 +77,7 @@ types:
     name: Sotiyo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E11
+    price: 9.9999997952E10
     published: true
     volume: 0.009999999776482582
   Tatara Blueprint:
