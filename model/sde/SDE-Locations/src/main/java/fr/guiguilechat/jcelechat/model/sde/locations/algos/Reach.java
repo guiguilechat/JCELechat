@@ -64,7 +64,7 @@ public class Reach {
 	 * @return a new set of systems.
 	 */
 	public static Set<SolarSystem> fromHS(SolarSystem source, String... addRegions) {
-		return fromHS(source, Invasions.INSTANCE.getDangerousSystems(), addRegions);
+		return fromHS(source, Invasions.INSTANCE.getDangerousSystems(false, false), addRegions);
 	}
 
 }

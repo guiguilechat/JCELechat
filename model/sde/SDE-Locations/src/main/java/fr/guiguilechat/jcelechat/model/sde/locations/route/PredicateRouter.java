@@ -28,18 +28,19 @@ public class PredicateRouter implements IRouter {
 		this.predicate = predicate;
 	}
 
-	private static final Set<SolarSystem> INVADED = Invasions.INSTANCE.getDangerousSystems();
+	private static final Set<SolarSystem> INVADED = Invasions.INSTANCE.getDangerousSystems(false, false);
 	private static final Set<SolarSystem> SECREDUCED = Invasions.INSTANCE.getBadsecSystems();
 
 	/**
 	 * only accept intermediate systems between source and dest that in HS, and
-	 * not invaded besides Fortress
+	 * not invaded
 	 */
 	public static final PredicateRouter HSNOINVASION = new PredicateRouter(
 			s -> s.secStatus() == SECSTATUS.HS && !INVADED.contains(s));
+
 	/**
 	 * Only accept intermediates systems that are in HS after modification from
-	 * the trigs (so avoid liminal)
+	 * the trigs (so avoid liminality)
 	 */
 	public static final PredicateRouter HS = new PredicateRouter(
 			s -> s.secStatus() == SECSTATUS.HS && !SECREDUCED.contains(s));

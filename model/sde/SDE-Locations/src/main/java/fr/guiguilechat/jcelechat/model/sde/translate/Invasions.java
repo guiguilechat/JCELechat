@@ -10,10 +10,13 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
+import fr.guiguilechat.jcelechat.model.sde.translate.Invasions.JsonEntry.STATUS;
 
 /**
  * get data about systems being invaded
@@ -22,8 +25,12 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 public class Invasions {
 
 	public static void main(String[] args) throws MalformedURLException, IOException {
-		for (SolarSystem e : INSTANCE.getDangerousSystems()) {
-			System.out.println(e);
+		for (SolarSystem e : INSTANCE.getDangerousSystems(false, false)) {
+			System.out.println("\t" + e);
+		}
+		System.out.println("bad sec :");
+		for (SolarSystem e : INSTANCE.getBadsecSystems()) {
+			System.out.println("\t" + e);
 		}
 	}
 
@@ -33,13 +40,53 @@ public class Invasions {
 	}
 
 	public static class JsonEntry {
-		public double derived_security_status;
-		public String status;
+
+		public static enum STATUS {
+			@JsonProperty("final_liminality")
+			FINAL_LIMINALITY(true),
+			@JsonProperty("second_liminality")
+			SECOND_LIMINALITY(true),
+			@JsonProperty("first_liminality")
+			FIRST_LIMINALITY(true),
+			@JsonProperty("triglavian_minor_victory")
+			TRIG_MINOR(false),
+			@JsonProperty("stellar_reconnaissance")
+			RECON(false),
+			@JsonProperty("edencom_minor_victory")
+			EDEN_MINOR(false),
+			@JsonProperty("redoubt")
+			REDOUBT(false),
+			@JsonProperty("bulwark")
+			BULWARK(false),
+			@JsonProperty("fortress")
+			FORTRESS(false);
+
+			public final boolean applySecStatus;
+
+			STATUS(boolean applySecStatus) {
+				this.applySecStatus = applySecStatus;
+			}
+		}
+
+		public float derived_security_status;
+		public STATUS status;
 		public int system_id;
 		public String system_name;
-		public double system_security;
+		public float system_security;
 		public String system_sovereignty;
 		public String updated_at;
+
+		public SECSTATUS derivedSec() {
+			return SECSTATUS.of(status.applySecStatus ? derived_security_status : system_security);
+		}
+
+		public SECSTATUS baseSec() {
+			return SECSTATUS.of(system_security);
+		}
+
+		public boolean secReduced() {
+			return baseSec() != derivedSec();
+		}
 	}
 
 	private List<JsonEntry> cachedEntries = null;
@@ -67,7 +114,7 @@ public class Invasions {
 		return cachedEntries;
 	}
 
-	private Map<String, String> cachedSysName2Status = null;
+	private Map<String, STATUS> cachedSysName2Status = null;
 
 	/**
 	 * fetch the list of systems and their state from
@@ -75,7 +122,7 @@ public class Invasions {
 	 *
 	 * @return the cached map.
 	 */
-	public Map<String, String> getSysName2Status() {
+	public Map<String, STATUS> getSysName2Status() {
 		if (cachedSysName2Status == null) {
 			List<JsonEntry> entries = getEntries();
 			synchronized (this) {
@@ -87,77 +134,69 @@ public class Invasions {
 		return cachedSysName2Status;
 	}
 
-	//
-	// trying through the invasion page with JSOUP
-	//
-	// private Map<String, String> fetchSysName2Status() {
-	// Document document;
-	// try {
-	// document = Jsoup.connect("https://kybernaut.space/invasions").get();
-	// } catch (IOException e) {
-	// throw new UnsupportedOperationException("catch this", e);
-	// }
-	// return
-	// document.select("div[class=info-block]").stream().collect(Collectors
-	// .toMap(element -> element.selectFirst("h2").text(), element ->
-	// element.selectFirst("li[class=status]").text()));
-	// }
-
-	private Map<SolarSystem, String> cachedSystems = null;
+	private Map<SolarSystem, STATUS> cacheSystems2Status = null;
 
 	/**
 	 *
-	 * @return
+	 * @return the mapping of solar system invaded, to their status
 	 */
-	public Map<SolarSystem, String> getSystems() {
-		if (cachedSystems == null) {
-			Map<String, String> sysnames = getSysName2Status();
+	public Map<SolarSystem, STATUS> getSystems2Status() {
+		if (cacheSystems2Status == null) {
+			Map<String, STATUS> sysnames = getSysName2Status();
 			synchronized (this) {
-				if (cachedSystems == null) {
-					cachedSystems = sysnames.entrySet().stream()
+				if (cacheSystems2Status == null) {
+					cacheSystems2Status = sysnames.entrySet().stream()
 							.collect(Collectors.toMap(e -> SolarSystem.getSystem(e.getKey()), e -> e.getValue()));
 				}
 			}
 		}
-		return cachedSystems;
+		return cacheSystems2Status;
 	}
 
-	/**
-	 * set of state that are dangerous to navigate within, basically all the
-	 * states besides Fortress
-	 */
-	private final Set<String> DANGEROUS_STATES = new HashSet<>(
-			Arrays.asList("edencom_minor_victory", "Edencom Minor Victory", "final_liminality", "Final Liminality",
-					"stellar_reconnaissance", "Stellar Reconnaissance", "triglavian_minor_victory", "Triglavian Minor Victory"));
-
-	private Set<SolarSystem> cacheDangerousSystems = null;
+	@SuppressWarnings("unchecked")
+	private Set<SolarSystem> cacheDangerousSystems[] = new Set[4];
 
 	/**
 	 * list the solar systems that have been invaded and are in a dangerous state.
-	 * Dangerous state being any other than fortress
+	 * if both trig and edencom are allowed, then recon status is allowed.
+	 * liminalities are never allowed : even if you side with trigs, players will
+	 * make that system dangerous.
+	 *
+	 * @param allowTrig
+	 *          if set to true, allow triglavian minor victory
+	 * @param allowEdencom
+	 *          if set to true, allow edencom victories
 	 *
 	 * @return a cached Set of the solar systems.
 	 */
-	public Set<SolarSystem> getDangerousSystems() {
-		if (cacheDangerousSystems == null) {
+	public Set<SolarSystem> getDangerousSystems(boolean allowTrig, boolean allowEdencom) {
+		int index = (allowTrig ? 2 : 0) + (allowEdencom ? 1 : 0);
+		if (cacheDangerousSystems[index] == null) {
 			List<JsonEntry> entries = getEntries();
 			synchronized (this) {
-				if (cacheDangerousSystems == null) {
-					cacheDangerousSystems = entries.stream().filter(e -> DANGEROUS_STATES.contains(e.status))
+				if (cacheDangerousSystems[index] == null) {
+					Set<STATUS> dangerous = new HashSet<>(
+							Arrays.asList(STATUS.FINAL_LIMINALITY, STATUS.FIRST_LIMINALITY, STATUS.SECOND_LIMINALITY));
+					if (!allowEdencom) {
+						dangerous.addAll(
+								Arrays.asList(STATUS.RECON, STATUS.EDEN_MINOR, STATUS.REDOUBT, STATUS.BULWARK, STATUS.FORTRESS));
+					}
+					if (!allowEdencom) {
+						dangerous.addAll(Arrays.asList(STATUS.RECON, STATUS.TRIG_MINOR));
+					}
+					cacheDangerousSystems[index] = entries.stream().filter(e -> dangerous.contains(e.status))
 							.map(e -> SolarSystem.getSystem(e.system_name)).collect(Collectors.toSet());
 				}
 			}
 		}
-		return cacheDangerousSystems;
+		return cacheDangerousSystems[index];
 	}
-
-	private final Set<String> BADSEC_STATES = new HashSet<>(Arrays.asList("final_liminality", "Final Liminality"));
-
 	private Set<SolarSystem> cacheBadsecSystems = null;
 
 	/**
 	 * list the solar systems that have been invaded and are in a dangerous state.
-	 * Dangerous state being any other than fortress
+	 * Dangerous state being any invasion state since any can have roaming fleet
+	 * that scramble
 	 *
 	 * @return a cached Set of the solar systems.
 	 */
@@ -166,8 +205,8 @@ public class Invasions {
 			List<JsonEntry> entries = getEntries();
 			synchronized (this) {
 				if (cacheBadsecSystems == null) {
-					cacheBadsecSystems = entries.stream().filter(e -> BADSEC_STATES.contains(e.status))
-							.map(e -> SolarSystem.getSystem(e.system_name)).collect(Collectors.toSet());
+					cacheBadsecSystems = entries.stream().filter(e -> e.secReduced()).map(e -> SolarSystem.getSystem(e.system_id))
+							.collect(Collectors.toSet());
 				}
 			}
 		}

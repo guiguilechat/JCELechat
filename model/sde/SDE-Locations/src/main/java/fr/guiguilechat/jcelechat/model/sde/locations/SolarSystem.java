@@ -127,10 +127,14 @@ public class SolarSystem extends ALocation {
 	 */
 	public static enum SECSTATUS {
 		HS, LS, NS;
+
+		public static SECSTATUS of(double truesec) {
+			return truesec > 0.45 ? SECSTATUS.HS : truesec <= 0 ? SECSTATUS.NS : SECSTATUS.LS;
+		}
 	}
 
 	public SECSTATUS secStatus() {
-		return truesec > 0.45 ? SECSTATUS.HS : truesec <= 0 ? SECSTATUS.NS : SECSTATUS.LS;
+		return SECSTATUS.of(truesec);
 	}
 
 	public boolean isHS() {
