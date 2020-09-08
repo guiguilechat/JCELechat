@@ -6,8 +6,8 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.function.Predicate;
 
+import fr.guiguilechat.jcelechat.model.sde.locations.Invasions;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.translate.Invasions;
 
 public class Reach {
 
@@ -64,7 +64,7 @@ public class Reach {
 	 * @return a new set of systems.
 	 */
 	public static Set<SolarSystem> fromHS(SolarSystem source, String... addRegions) {
-		return fromHS(source, Invasions.INSTANCE.getDangerousSystems(false, false), addRegions);
+		return fromHS(source, Invasions.INSTANCE.getPointSystems(false, false), addRegions);
 	}
 
 }

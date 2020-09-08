@@ -9,9 +9,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.function.Predicate;
 
+import fr.guiguilechat.jcelechat.model.sde.locations.Invasions;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
-import fr.guiguilechat.jcelechat.model.sde.translate.Invasions;
 
 /**
  * Router that try to respect a specific predicate on the system between the
@@ -28,8 +28,8 @@ public class PredicateRouter implements IRouter {
 		this.predicate = predicate;
 	}
 
-	private static final Set<SolarSystem> INVADED = Invasions.INSTANCE.getDangerousSystems(false, false);
-	private static final Set<SolarSystem> SECREDUCED = Invasions.INSTANCE.getBadsecSystems();
+	private static final Set<SolarSystem> INVADED = Invasions.INSTANCE.getPointSystems(false, false);
+	private static final Set<SolarSystem> SECREDUCED = Invasions.INSTANCE.getReducedSystems();
 
 	/**
 	 * only accept intermediate systems between source and dest that in HS, and

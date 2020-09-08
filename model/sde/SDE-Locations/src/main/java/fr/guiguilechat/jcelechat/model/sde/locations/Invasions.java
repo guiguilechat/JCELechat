@@ -1,10 +1,8 @@
-package fr.guiguilechat.jcelechat.model.sde.translate;
+package fr.guiguilechat.jcelechat.model.sde.locations;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -14,9 +12,8 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.Invasions.JsonEntry.STATUS;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
-import fr.guiguilechat.jcelechat.model.sde.translate.Invasions.JsonEntry.STATUS;
 
 /**
  * get data about systems being invaded
@@ -25,11 +22,11 @@ import fr.guiguilechat.jcelechat.model.sde.translate.Invasions.JsonEntry.STATUS;
 public class Invasions {
 
 	public static void main(String[] args) throws MalformedURLException, IOException {
-		for (SolarSystem e : INSTANCE.getDangerousSystems(false, false)) {
+		for (SolarSystem e : INSTANCE.getPointSystems(false, false)) {
 			System.out.println("\t" + e);
 		}
 		System.out.println("bad sec :");
-		for (SolarSystem e : INSTANCE.getBadsecSystems()) {
+		for (SolarSystem e : INSTANCE.getReducedSystems()) {
 			System.out.println("\t" + e);
 		}
 	}
@@ -43,28 +40,45 @@ public class Invasions {
 
 		public static enum STATUS {
 			@JsonProperty("final_liminality")
-			FINAL_LIMINALITY(true),
+			FINAL_LIMINALITY(true, true, false),
 			@JsonProperty("second_liminality")
-			SECOND_LIMINALITY(true),
+			SECOND_LIMINALITY(true, true, false),
 			@JsonProperty("first_liminality")
-			FIRST_LIMINALITY(true),
+			FIRST_LIMINALITY(true, true, false),
 			@JsonProperty("triglavian_minor_victory")
-			TRIG_MINOR(false),
+			TRIG_MINOR(false, true, false),
 			@JsonProperty("stellar_reconnaissance")
-			RECON(false),
+			RECON(false, true, true),
 			@JsonProperty("edencom_minor_victory")
-			EDEN_MINOR(false),
+			EDEN_MINOR(false, false, true),
 			@JsonProperty("redoubt")
-			REDOUBT(false),
+			REDOUBT(false, false, true),
 			@JsonProperty("bulwark")
-			BULWARK(false),
+			BULWARK(false, false, true),
 			@JsonProperty("fortress")
-			FORTRESS(false);
+			FORTRESS(false, false, true);
 
 			public final boolean applySecStatus;
+			public final boolean hasTrigPoint;
+			public final boolean hasEdenPoint;
 
-			STATUS(boolean applySecStatus) {
+			STATUS(boolean applySecStatus, boolean trigPoint, boolean edenPoint) {
 				this.applySecStatus = applySecStatus;
+				hasTrigPoint = trigPoint;
+				hasEdenPoint = edenPoint;
+			}
+
+			/**
+			 * tell if the status makes roaming fleet point you at gate
+			 *
+			 * @param friendTriglavian
+			 *          true if we are friend with triglavian
+			 * @param friendEdencom
+			 *          true if we are friend with edencom
+			 * @return true if a faction not friend with can point.
+			 */
+			public boolean hasPoint(boolean friendTriglavian, boolean friendEdencom) {
+				return hasTrigPoint && !friendTriglavian || hasEdenPoint && !friendEdencom;
 			}
 		}
 
@@ -154,63 +168,82 @@ public class Invasions {
 	}
 
 	@SuppressWarnings("unchecked")
-	private Set<SolarSystem> cacheDangerousSystems[] = new Set[4];
+	private Set<SolarSystem> cachePointSystems[] = new Set[4];
 
 	/**
 	 * list the solar systems that have been invaded and are in a dangerous state.
 	 * if both trig and edencom are allowed, then recon status is allowed.
-	 * liminalities are never allowed : even if you side with trigs, players will
-	 * make that system dangerous.
 	 *
-	 * @param allowTrig
-	 *          if set to true, allow triglavian minor victory
-	 * @param allowEdencom
-	 *          if set to true, allow edencom victories
+	 * @param friendTrig
+	 *          if set to true, allow system that have triglavian points
+	 * @param friendEden
+	 *          if set to true, allow system with edencom points
 	 *
 	 * @return a cached Set of the solar systems.
 	 */
-	public Set<SolarSystem> getDangerousSystems(boolean allowTrig, boolean allowEdencom) {
-		int index = (allowTrig ? 2 : 0) + (allowEdencom ? 1 : 0);
-		if (cacheDangerousSystems[index] == null) {
+	public Set<SolarSystem> getPointSystems(boolean friendTrig, boolean friendEden) {
+		int index = (friendTrig ? 2 : 0) + (friendEden ? 1 : 0);
+		if (cachePointSystems[index] == null) {
 			List<JsonEntry> entries = getEntries();
-			synchronized (this) {
-				if (cacheDangerousSystems[index] == null) {
-					Set<STATUS> dangerous = new HashSet<>(
-							Arrays.asList(STATUS.FINAL_LIMINALITY, STATUS.FIRST_LIMINALITY, STATUS.SECOND_LIMINALITY));
-					if (!allowEdencom) {
-						dangerous.addAll(
-								Arrays.asList(STATUS.RECON, STATUS.EDEN_MINOR, STATUS.REDOUBT, STATUS.BULWARK, STATUS.FORTRESS));
-					}
-					if (!allowEdencom) {
-						dangerous.addAll(Arrays.asList(STATUS.RECON, STATUS.TRIG_MINOR));
-					}
-					cacheDangerousSystems[index] = entries.stream().filter(e -> dangerous.contains(e.status))
+			synchronized (cachePointSystems) {
+				if (cachePointSystems[index] == null) {
+					cachePointSystems[index] = entries.stream().filter(e -> e.status.hasPoint(friendTrig, friendEden))
 							.map(e -> SolarSystem.getSystem(e.system_name)).collect(Collectors.toSet());
 				}
 			}
 		}
-		return cacheDangerousSystems[index];
+		return cachePointSystems[index];
 	}
-	private Set<SolarSystem> cacheBadsecSystems = null;
+
+	private Set<SolarSystem> cacheReducedSystems = null;
 
 	/**
-	 * list the solar systems that have been invaded and are in a dangerous state.
-	 * Dangerous state being any invasion state since any can have roaming fleet
-	 * that scramble
+	 * list the solar systems that have been invaded and are in a lower sec status
 	 *
 	 * @return a cached Set of the solar systems.
 	 */
-	public Set<SolarSystem> getBadsecSystems() {
-		if (cacheBadsecSystems == null) {
+	public Set<SolarSystem> getReducedSystems() {
+		if (cacheReducedSystems == null) {
 			List<JsonEntry> entries = getEntries();
 			synchronized (this) {
-				if (cacheBadsecSystems == null) {
-					cacheBadsecSystems = entries.stream().filter(e -> e.secReduced()).map(e -> SolarSystem.getSystem(e.system_id))
+				if (cacheReducedSystems == null) {
+					cacheReducedSystems = entries.stream().filter(e -> e.secReduced())
+							.map(e -> SolarSystem.getSystem(e.system_id))
 							.collect(Collectors.toSet());
 				}
 			}
 		}
-		return cacheBadsecSystems;
+		return cacheReducedSystems;
+	}
+
+	@SuppressWarnings("unchecked")
+	private Set<SolarSystem> cacheDangerousHS[] = new Set[4];
+
+	/**
+	 * get the HS systems that have been either converted to non HS or have
+	 * roaming fleet that can point on gate
+	 *
+	 * @param friendTrig
+	 *          true if we are friend to trig
+	 * @param friendEden
+	 *          true if we are friend to eden
+	 * @return a cached internal set
+	 */
+	public Set<SolarSystem> getDangerousHSSystems(boolean friendTrig, boolean friendEden) {
+		int index = (friendTrig ? 2 : 0) + (friendEden ? 1 : 0);
+		if (cacheDangerousHS[index] == null) {
+			List<JsonEntry> entries = getEntries();
+			synchronized (cacheDangerousHS) {
+				if (cacheDangerousHS[index] == null) {
+					cacheDangerousHS[index] = entries.stream()
+							.filter(e -> e.baseSec() == SECSTATUS.HS
+							&& (e.derivedSec() != e.baseSec() || e.status.hasPoint(friendTrig, friendEden)))
+							.map(e -> SolarSystem.getSystem(e.system_id))
+							.collect(Collectors.toSet());
+				}
+			}
+		}
+		return cacheDangerousHS[index];
 	}
 
 }
