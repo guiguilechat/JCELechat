@@ -22,7 +22,7 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem.SECSTATUS;
  */
 public class PredicateRouter implements IRouter {
 
-	private final Predicate<SolarSystem> predicate;
+	public final Predicate<SolarSystem> predicate;
 
 	public PredicateRouter(Predicate<SolarSystem> predicate) {
 		this.predicate = predicate;

@@ -5,12 +5,14 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.function.Predicate;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.distances.Distances;
+import fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter;
 
 public interface IRegionStager {
 
@@ -112,8 +114,21 @@ public interface IRegionStager {
 		}
 	}
 
-	public default Collection<SolarSystem> expand(SolarSystem source, Params params) {
-		return Reach.fromHS(source, params.addRegions.toArray(String[]::new));
+	/**
+	 * expand the systems reachable from a source, with given params. Avoid all
+	 * systems that are not in HS or invaded.
+	 *
+	 * @param source
+	 *          the system to sart the expansion
+	 * @param addRegions
+	 *          regions we allow to to go, besides the source region.
+	 * @return
+	 */
+	public default Collection<SolarSystem> expandHS(SolarSystem source, Set<String> addRegions) {
+		Set<String> allowedRegions = new HashSet<>(addRegions);
+		allowedRegions.add(source.region);
+		Predicate<SolarSystem> accept = PredicateRouter.HSNOINVASION.predicate.and(s -> allowedRegions.contains(s.region));
+		return Reach.from(source, accept);
 	}
 
 	/**
@@ -146,7 +161,7 @@ public interface IRegionStager {
 	 *         concerned system in the region the lowest possible.
 	 */
 	public default List<SolarSystem> around(SolarSystem source, Params params) {
-		SysIndex idx = new SysIndex(expand(source, params));
+		SysIndex idx = new SysIndex(expandHS(source, params.addRegions));
 		int[][] jumps = jumps(idx, params.useSquareDistance);
 		return around(idx, jumps, params);
 	}

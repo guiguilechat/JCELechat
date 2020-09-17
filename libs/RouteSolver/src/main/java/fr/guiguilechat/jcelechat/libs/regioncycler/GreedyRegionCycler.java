@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.denlicker;
+package fr.guiguilechat.jcelechat.libs.regioncycler;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,12 +7,12 @@ import java.util.List;
 import java.util.Set;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IDenLicker;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
-public class GreedyDenLicker implements IDenLicker {
+public class GreedyRegionCycler implements IRegionCycler {
 
-	public static final GreedyDenLicker INSTANCE = new GreedyDenLicker();
+	public static final GreedyRegionCycler INSTANCE = new GreedyRegionCycler();
 
 	private static class Edge {
 		public int i, j;

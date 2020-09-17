@@ -5,12 +5,13 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.function.Predicate;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.distances.Distances;
+import fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter;
 
-public interface IDenLicker {
+public interface IRegionCycler {
 
 	public static class Params {
 
@@ -29,15 +30,47 @@ public interface IDenLicker {
 			return new Params().withRegion(regions);
 		}
 
+		/**
+		 * predicate on a system to check if we are allowed to jump in it.
+		 */
+		public Predicate<SolarSystem> allowedSystems = PredicateRouter.HSNOINVASION.predicate;
+
+		public Params withAllowed(Predicate<SolarSystem> allowed) {
+			allowedSystems = allowed;
+			return this;
+		}
+
+		/**
+		 * predicate on an allowed system to check if it is important.
+		 */
+		public Predicate<SolarSystem> importantSystems = null;
+
+		public Params withImportant(Predicate<SolarSystem> important) {
+			importantSystems = important;
+			return this;
+		}
+
 	}
 
 	public default LinkedHashMap<SolarSystem, Integer> list(SolarSystem source, Params params) {
-		List<SolarSystem> targets = Reach.fromHS(source, params.addRegions.toArray(String[]::new)).stream()
-				.filter(ss -> ss.truesec > 0.45 && ss.truesec <= 0.65).collect(Collectors.toList());
+		Predicate<SolarSystem> allowedPred = params.allowedSystems.and(s -> params.addRegions.contains(s.region));
+		// first find all the systems that are reachable via allowed systems
+		Set<SolarSystem> targets = Reach.from(source, allowedPred);
+		// then keep only the important ones.
+		if (params.importantSystems != null) {
+			targets.removeIf(params.importantSystems.negate());
+			// always accept the source as important
+			targets.add(source);
+		}
+		// then reindex and make the distances matrix
 		SysIndex idx = new SysIndex(targets);
-		int[][] distances = Distances.of(idx, null);
+		int[][] distances = Distances.of(idx, new PredicateRouter(allowedPred));
 		int sourceIdx = idx.index(source);
+
+		// call the actual implementation
 		List<SolarSystem> list = list(idx, distances, sourceIdx);
+
+		// then transform the list of systems into the linkedmap.
 		LinkedHashMap<SolarSystem, Integer> ret = new LinkedHashMap<>();
 		int lastIdx = idx.index(source);
 		for (SolarSystem ss : list) {

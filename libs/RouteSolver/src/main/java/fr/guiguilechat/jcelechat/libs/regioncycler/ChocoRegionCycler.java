@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.denlicker;
+package fr.guiguilechat.jcelechat.libs.regioncycler;
 
 import java.util.HashSet;
 import java.util.List;
@@ -19,14 +19,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IDenLicker;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
-public class ChocoDenLicker implements IDenLicker {
+public class ChocoRegionCycler implements IRegionCycler {
 
-	private static final Logger logger = LoggerFactory.getLogger(ChocoDenLicker.class);
+	private static final Logger logger = LoggerFactory.getLogger(ChocoRegionCycler.class);
 
-	public static final ChocoDenLicker INSTANCE = new ChocoDenLicker();
+	public static final ChocoRegionCycler INSTANCE = new ChocoRegionCycler();
 
 	@Override
 	public List<SolarSystem> list(SysIndex idx, int[][] distances, int sourceIdx) {

@@ -1,9 +1,9 @@
-package fr.guiguilechat.jcelechat.libs.denlicker;
+package fr.guiguilechat.jcelechat.libs.regioncycler;
 
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IDenLicker;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
 /**
@@ -13,7 +13,7 @@ import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
  * iterate over the N-1 other. so that makes (N-1)! possible enumerations.
  *
  */
-public class BruteDenLicker implements IDenLicker {
+public class BruteRegionCycler implements IRegionCycler {
 
 	@Override
 	public List<SolarSystem> list(SysIndex idx, int[][] distances, int sourceIdx) {
