@@ -149,7 +149,7 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 		if (skills == null) {
 			skills = Collections.emptyMap();
 		}
-		int skillsProbaPoints_base120 = 0;
+		int skillsProbaPoints_base120 = 120;
 
 		for (TypeRef<Skill> skillRef : target.invention.skills.keySet()) {
 			Skill sk = skillRef.type();
@@ -160,9 +160,10 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 		}
 
 		double skillsProbaMult = 1.0 * skillsProbaPoints_base120 / 120;
-		logger.trace(" invent from " + target.name() + "with dec=" + name() + " gives base=" + invented.probability
-				+ " skills=" + skillsProbaMult + " decryptormult=" + probmult());
-		return Math.min(1.0, invented.probability * skillsProbaMult * probmult());
+		double ret = Math.min(1.0, invented.probability * skillsProbaMult * probmult());
+		logger.debug(" invent from " + target.name() + "with dec=" + name() + " gives total=" + ret + " base="
+				+ invented.probability + " skills=" + skillsProbaMult + " decryptormult=" + probmult());
+		return ret;
 	}
 
 	/**

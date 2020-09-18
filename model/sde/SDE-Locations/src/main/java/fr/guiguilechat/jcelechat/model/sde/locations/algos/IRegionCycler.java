@@ -50,10 +50,14 @@ public interface IRegionCycler {
 			return this;
 		}
 
+		public static final Predicate<SolarSystem> IMPORTANT_DENS = sys -> sys.truesec < 0.65;
+		public static final Predicate<SolarSystem> IMPORTANT_REFUGES = sys -> sys.truesec < 0.95;
+
 	}
 
 	public default LinkedHashMap<SolarSystem, Integer> list(SolarSystem source, Params params) {
-		Predicate<SolarSystem> allowedPred = params.allowedSystems.and(s -> params.addRegions.contains(s.region));
+		Predicate<SolarSystem> allowedPred = params.allowedSystems
+				.and(s -> s.region.equals(source.region) || params.addRegions.contains(s.region));
 		// first find all the systems that are reachable via allowed systems
 		Set<SolarSystem> targets = Reach.from(source, allowedPred);
 		// then keep only the important ones.
