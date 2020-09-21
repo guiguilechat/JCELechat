@@ -1,17 +1,18 @@
 package fr.guiguilechat.jcelechat.model.sde.locations.algos;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Set;
 import java.util.function.Predicate;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.distances.Distances;
 import fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter;
+import fr.lelouet.tools.solver.IFondHamilton;
+import fr.lelouet.tools.solver.SimpleGraph;
 
-public interface IRegionCycler {
+public interface IRegionCycler extends IFondHamilton {
 
 	public static class Params {
 
@@ -60,48 +61,16 @@ public interface IRegionCycler {
 				.and(s -> s.region.equals(source.region) || params.addRegions.contains(s.region));
 		// first find all the systems that are reachable via allowed systems
 		Set<SolarSystem> targets = Reach.from(source, allowedPred);
-		// then keep only the important ones.
-		if (params.importantSystems != null) {
-			targets.removeIf(params.importantSystems.negate());
-			// always accept the source as important
-			targets.add(source);
-		}
-		// then reindex and make the distances matrix
-		SysIndex idx = new SysIndex(targets);
-		int[][] distances = Distances.of(idx, new PredicateRouter(allowedPred));
-		int sourceIdx = idx.index(source);
-
-		// call the actual implementation
-		List<SolarSystem> list = list(idx, distances, sourceIdx);
-
-		// then transform the list of systems into the linkedmap.
-		LinkedHashMap<SolarSystem, Integer> ret = new LinkedHashMap<>();
-		int lastIdx = idx.index(source);
-		for (SolarSystem ss : list) {
-			if (ss == source) {
-				continue;
+		SimpleGraph<SolarSystem> graph = new SimpleGraph<>(Comparator.comparing(s -> s.name));
+		for (SolarSystem ss : targets) {
+			for (String adjName : ss.adjacentSystems) {
+				SolarSystem adj = SolarSystem.getSystem(adjName);
+				if (targets.contains(adj)) {
+					graph.addEdge(ss, adj);
+				}
 			}
-			int index = idx.index(ss);
-			ret.put(ss, distances[index][lastIdx]);
-			lastIdx = index;
 		}
-		ret.put(source, distances[lastIdx][sourceIdx]);
-		return ret;
+		return this.solve(source, graph, params.importantSystems);
 	}
-
-	/**
-	 * return the list of systems for a circular route. The first one must be the
-	 * source.
-	 *
-	 * @param idx
-	 *          index of the systems to pass by
-	 * @param distances
-	 *          complete matrix of distances for each couple of systems
-	 * @param sourceIdx
-	 *          the index of the system to start the route and finish it.
-	 * @return A route that passes by all the systems indexed, and try to minimize
-	 *         the total distance.
-	 */
-	public List<SolarSystem> list(SysIndex idx, int[][] distances, int sourceIdx);
 
 }

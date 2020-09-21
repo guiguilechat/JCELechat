@@ -1,10 +1,7 @@
 package fr.guiguilechat.jcelechat.libs.regioncycler;
 
-import java.util.List;
-
-import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
+import fr.lelouet.tools.solver.fondhamilton.BruteFondHamilton;
 
 /**
  * enumerates all the possible permutation of the index
@@ -13,13 +10,8 @@ import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
  * iterate over the N-1 other. so that makes (N-1)! possible enumerations.
  *
  */
-public class BruteRegionCycler implements IRegionCycler {
+public class BruteRegionCycler extends BruteFondHamilton implements IRegionCycler {
 
-	@Override
-	public List<SolarSystem> list(SysIndex idx, int[][] distances, int sourceIdx) {
-
-		// TODO Auto-generated method stub
-		return null;
-	}
+	public static final BruteRegionCycler INSTANCE = new BruteRegionCycler();
 
 }

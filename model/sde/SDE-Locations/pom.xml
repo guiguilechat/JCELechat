@@ -29,6 +29,10 @@
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>fr.lelouet.tools.solver</groupId>
+			<artifactId>FondHamilton</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

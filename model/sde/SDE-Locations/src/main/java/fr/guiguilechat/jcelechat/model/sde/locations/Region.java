@@ -5,6 +5,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -118,5 +121,20 @@ public class Region extends ALocation {
 	public Stream<String> systems() {
 		return constellations.stream().map(Constellation::getConstellation).flatMap(c -> c.systems.stream());
 	}
+
+	public static final Collection<String> EMPIRE_ANGELS = Collections
+			.unmodifiableCollection(Arrays.asList("Heimatar", "Metropolis", "Molden Heath"));
+
+	public static final Collection<String> EMPIRE_BLOODS = Collections
+			.unmodifiableCollection(Arrays.asList("Aridia", "Genesis", "Kador", "Khanid", "Kor-Azor", "The Bleak Lands"));
+
+	public static final Collection<String> EMPIRE_GURISTAS = Collections
+			.unmodifiableCollection(Arrays.asList("Black Rise", "The Citadel", "TheForge", "Lonetrek"));
+
+	public static final Collection<String> EMPIRE_SANSHAS = Collections
+			.unmodifiableCollection(Arrays.asList("Derelik", "Devoid", "Domain", "Tash-Murkon"));
+
+	public static final Collection<String> EMPIRE_SERPENTIS = Collections.unmodifiableCollection(
+			Arrays.asList("Essence", "Everyshore", "Placid", "Sinq Laison", "Solitude", "Verge Vendor"));
 
 }

@@ -177,6 +177,11 @@
 				<artifactId>YamlSettings</artifactId>
 				<version>${tools.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>fr.lelouet.tools.solver</groupId>
+				<artifactId>FondHamilton</artifactId>
+				<version>${tools.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<scm>
