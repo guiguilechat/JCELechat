@@ -7,20 +7,20 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler.Params;
 
-public class RegionCyclerAngelsDens extends AMain {
+public class NakugardCycleRefuges extends AMain {
 
 	public static void main(String[] args) {
-		new RegionCyclerAngelsDens().run("Nakugard");
+		new NakugardCycleRefuges().run("Nakugard");
 	}
 
 	@Override
 	protected IRegionCycler impl() {
-		return GeneticRegionCycler.INSTANCE;
+		return GreedyDERegionCycler.INSTANCE;
 	}
 
 	@Override
 	protected Predicate<SolarSystem> important() {
-		return Params.IMPORTANT_DENS;
+		return Params.IMPORTANT_REFUGES;
 	}
 
 	@Override

@@ -7,10 +7,10 @@ import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler.Params;
 
-public class RegionCyclerAngelsRefuges extends AMain {
+public class AmarrCycleRefuges extends AMain {
 
 	public static void main(String[] args) {
-		new RegionCyclerAngelsRefuges().run("Nakugard");
+		new AmarrCycleRefuges().run("Amarr");
 	}
 
 	@Override
@@ -25,7 +25,7 @@ public class RegionCyclerAngelsRefuges extends AMain {
 
 	@Override
 	protected Params params() {
-		return super.params().withRegion(Region.EMPIRE_ANGELS);
+		return super.params().withRegion(Region.EMPIRE_SANSHAS);
 	}
 
 }
