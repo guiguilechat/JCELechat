@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.libs.regioncycler;
 
 import java.util.function.Predicate;
 
+import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler.Params;
@@ -24,7 +25,7 @@ public class RegionCyclerAngelsDens extends AMain {
 
 	@Override
 	protected Params params() {
-		return super.params().withRegion("Heimatar", "Molden heath");
+		return super.params().withRegion(Region.EMPIRE_ANGELS);
 	}
 
 }

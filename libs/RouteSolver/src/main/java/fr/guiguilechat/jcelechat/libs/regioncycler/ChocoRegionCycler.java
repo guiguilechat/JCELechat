@@ -4,9 +4,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler;
-import fr.lelouet.tools.solver.fondhamilton.ChocoFondHamilton;
+import fr.lelouet.tools.solver.fondhamilton.ChocoFH;
 
-public class ChocoRegionCycler extends ChocoFondHamilton implements IRegionCycler {
+public class ChocoRegionCycler extends ChocoFH implements IRegionCycler {
 
 	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(ChocoRegionCycler.class);

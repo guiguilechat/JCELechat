@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.model.sde.locations.algos;
 
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -20,6 +21,11 @@ public interface IRegionCycler extends IFondHamilton {
 
 		public Params withRegion(String... regions) {
 			addRegions.addAll(Arrays.asList(regions));
+			return this;
+		}
+
+		public Params withRegion(Collection<String> regions) {
+			addRegions.addAll(regions);
 			return this;
 		}
 
