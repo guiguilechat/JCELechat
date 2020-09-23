@@ -26,7 +26,6 @@ public abstract class AMain {
 		logger.debug("start");
 		long start = System.currentTimeMillis();
 		Params params = params();
-		logger.debug("made params");
 		LinkedHashMap<SolarSystem, Integer> res = impl().list(SolarSystem.getSystem(source), params);
 		System.out.println("#" + res.values().stream().mapToInt(i -> i).sum() + " : " + res);
 		logger.debug("end in " + (System.currentTimeMillis() - start) + " ms");

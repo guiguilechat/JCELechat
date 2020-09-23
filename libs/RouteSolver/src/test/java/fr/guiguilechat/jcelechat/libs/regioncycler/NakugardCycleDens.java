@@ -15,7 +15,7 @@ public class NakugardCycleDens extends AMain {
 
 	@Override
 	protected IRegionCycler impl() {
-		return GeneticRegionCycler.INSTANCE;
+		return GreedyDERegionCycler.INSTANCE;
 	}
 
 	@Override

@@ -11,7 +11,6 @@ public class SastaCycleRefuges extends AMain {
 
 	public static void main(String[] args) {
 		new SastaCycleRefuges().run("Sasta");
-		new SastaCycleRefuges().run("Sasta");
 	}
 
 	@Override
