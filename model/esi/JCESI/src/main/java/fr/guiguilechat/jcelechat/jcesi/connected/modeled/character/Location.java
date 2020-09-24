@@ -44,7 +44,7 @@ public class Location {
 			ObsObjHolder<R_get_characters_character_id_location> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (stationID == null) {
-					stationID = fetch.mapInt(info -> info.solar_system_id);
+					stationID = fetch.mapInt(info -> info.station_id);
 				}
 			});
 		}

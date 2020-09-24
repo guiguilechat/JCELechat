@@ -129,12 +129,22 @@ public class Region extends ALocation {
 			.unmodifiableCollection(Arrays.asList("Aridia", "Genesis", "Kador", "Khanid", "Kor-Azor", "The Bleak Lands"));
 
 	public static final Collection<String> EMPIRE_GURISTAS = Collections
-			.unmodifiableCollection(Arrays.asList("Black Rise", "The Citadel", "TheForge", "Lonetrek"));
+			.unmodifiableCollection(Arrays.asList("Black Rise", "The Citadel", "The Forge", "Lonetrek"));
 
 	public static final Collection<String> EMPIRE_SANSHAS = Collections
 			.unmodifiableCollection(Arrays.asList("Derelik", "Devoid", "Domain", "Tash-Murkon"));
 
 	public static final Collection<String> EMPIRE_SERPENTIS = Collections.unmodifiableCollection(
 			Arrays.asList("Essence", "Everyshore", "Placid", "Sinq Laison", "Solitude", "Verge Vendor"));
+
+	public static Collection<String> piratesHSRegion(SolarSystem ss) {
+		for (Collection<String> c : Arrays.asList(EMPIRE_ANGELS, EMPIRE_BLOODS, EMPIRE_GURISTAS, EMPIRE_SANSHAS,
+				EMPIRE_SERPENTIS)) {
+			if (c.contains(ss.region)) {
+				return c;
+			}
+		}
+		return Collections.emptyList();
+	}
 
 }

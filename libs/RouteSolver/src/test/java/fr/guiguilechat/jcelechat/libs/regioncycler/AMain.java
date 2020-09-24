@@ -19,7 +19,7 @@ public abstract class AMain {
 	protected abstract Predicate<SolarSystem> important();
 
 	protected Params params() {
-		return Params.empty().withImportant(important());
+		return Params.hsNoInvasion().withImportant(important());
 	}
 
 	public void run(String source) {
@@ -27,7 +27,7 @@ public abstract class AMain {
 		long start = System.currentTimeMillis();
 		Params params = params();
 		LinkedHashMap<SolarSystem, Integer> res = impl().list(SolarSystem.getSystem(source), params);
-		System.out.println("#" + res.values().stream().mapToInt(i -> i).sum() + " : " + res);
+		System.out.println("#" + res.values().stream().mapToInt(i -> i).sum() + "(" + res.size() + "steps)" + " : " + res);
 		logger.debug("end in " + (System.currentTimeMillis() - start) + " ms");
 	}
 }

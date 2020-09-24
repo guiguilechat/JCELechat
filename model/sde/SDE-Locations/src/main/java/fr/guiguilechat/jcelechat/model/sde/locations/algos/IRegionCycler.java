@@ -29,8 +29,8 @@ public interface IRegionCycler extends IFondHamilton {
 			return this;
 		}
 
-		public static Params empty() {
-			return new Params();
+		public static Params hsNoInvasion() {
+			return new Params().withAllowed(PredicateRouter.HSNOINVASION.predicate);
 		}
 
 		public static Params regions(String... regions) {

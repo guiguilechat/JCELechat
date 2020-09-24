@@ -182,6 +182,11 @@
 				<artifactId>FondHamilton</artifactId>
 				<version>${tools.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.libs</groupId>
+				<artifactId>RouteSolver</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<scm>
