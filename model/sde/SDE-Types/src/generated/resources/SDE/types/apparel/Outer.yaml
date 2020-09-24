@@ -501,6 +501,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's Bioadaptive Kybernaut Combat Suit:
+    gender: 2
+    id: 56266
+    marketGroup: 1399
+    name: Men's Bioadaptive Kybernaut Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's Biosecurity Response Team Coat:
     gender: 1
     id: 40462
@@ -581,6 +590,24 @@ types:
     id: 54177
     marketGroup: 1399
     name: Men's DED Cryptologic Technician Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's EDENCOM 'Defiant' Combat Suit:
+    gender: 2
+    id: 56267
+    marketGroup: 1399
+    name: Men's EDENCOM 'Defiant' Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's EDENCOM 'Valiant' Command Jacket:
+    gender: 2
+    id: 56224
+    marketGroup: 1405
+    name: Men's EDENCOM 'Valiant' Command Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -840,6 +867,15 @@ types:
     id: 48387
     marketGroup: 1399
     name: Men's Triglavian Survival Suit (Encounter)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's Triglavian Survival Suit (Liminality):
+    gender: 2
+    id: 56226
+    marketGroup: 1405
+    name: Men's Triglavian Survival Suit (Liminality)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1654,6 +1690,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's Bioadaptive Kybernaut Combat Suit:
+    gender: 2
+    id: 56264
+    marketGroup: 1405
+    name: Women's Bioadaptive Kybernaut Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's Biosecurity Response Team Coat:
     clothingalsocoverscategory: 25
     gender: 3
@@ -1735,6 +1780,24 @@ types:
     id: 54158
     marketGroup: 1405
     name: Women's DED Cryptologic Technician Coat
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's EDENCOM 'Defiant' Combat Suit:
+    gender: 2
+    id: 56265
+    marketGroup: 1405
+    name: Women's EDENCOM 'Defiant' Combat Suit
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's EDENCOM 'Valiant' Command Jacket:
+    gender: 2
+    id: 56223
+    marketGroup: 1399
+    name: Women's EDENCOM 'Valiant' Command Jacket
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1994,6 +2057,15 @@ types:
     id: 48386
     marketGroup: 1405
     name: Women's Triglavian Survival Suit (Encounter)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's Triglavian Survival Suit (Liminality):
+    gender: 2
+    id: 56225
+    marketGroup: 1399
+    name: Women's Triglavian Survival Suit (Liminality)
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

@@ -26346,7 +26346,7 @@ offers:
         quantity: 177780
       - id: 34
         quantity: 422220
-      lp: 2500
+      lp: 250
   16462:
     id: 16462
     name: 5* Stormbringer(BPC)
@@ -26381,7 +26381,7 @@ offers:
         quantity: 1555560
       - id: 34
         quantity: 6111110
-      lp: 3750
+      lp: 375
   16463:
     id: 16463
     name: 5* Thunderchild(BPC)
@@ -26416,7 +26416,7 @@ offers:
         quantity: 8240000
       - id: 34
         quantity: 32451665
-      lp: 5000
+      lp: 500
   16464:
     id: 16464
     name: 10* Small Vorton Projector I(BPC)
@@ -26445,7 +26445,7 @@ offers:
         quantity: 6840
       - id: 34
         quantity: 109160
-      lp: 2000
+      lp: 200
   16465:
     id: 16465
     name: 10* Medium Vorton Projector I(BPC)
@@ -26476,7 +26476,7 @@ offers:
         quantity: 215940
       - id: 34
         quantity: 547980
-      lp: 3000
+      lp: 300
   16466:
     id: 16466
     name: 10* Large Vorton Projector I(BPC)
@@ -26509,7 +26509,7 @@ offers:
         quantity: 2337120
       - id: 34
         quantity: 9110400
-      lp: 4000
+      lp: 400
   16467:
     id: 16467
     name: 5* Small Compact Vorton Projector(BPC)
@@ -26524,7 +26524,7 @@ offers:
         quantity: 5
       - id: 54970
         quantity: 20
-      lp: 500
+      lp: 50
   16468:
     id: 16468
     name: 5* Small Scoped Vorton Projector(BPC)
@@ -26539,7 +26539,7 @@ offers:
         quantity: 5
       - id: 54970
         quantity: 20
-      lp: 500
+      lp: 50
   16469:
     id: 16469
     name: Small Consortium Vorton Projector(BPC)
@@ -26554,7 +26554,7 @@ offers:
         quantity: 1
       - id: 54971
         quantity: 10
-      lp: 1000
+      lp: 100
   16470:
     id: 16470
     name: 5* Medium Compact Vorton Projector(BPC)
@@ -26569,7 +26569,7 @@ offers:
         quantity: 5
       - id: 54970
         quantity: 40
-      lp: 1000
+      lp: 100
   16471:
     id: 16471
     name: 5* Medium Scoped Vorton Projector(BPC)
@@ -26584,7 +26584,7 @@ offers:
         quantity: 5
       - id: 54970
         quantity: 40
-      lp: 1000
+      lp: 100
   16472:
     id: 16472
     name: Medium Consortium Vorton Projector(BPC)
@@ -26599,7 +26599,7 @@ offers:
         quantity: 1
       - id: 54971
         quantity: 18
-      lp: 2000
+      lp: 200
   16473:
     id: 16473
     name: 5* Large Compact Vorton Projector(BPC)
@@ -26614,7 +26614,7 @@ offers:
         quantity: 5
       - id: 54970
         quantity: 70
-      lp: 1500
+      lp: 150
   16474:
     id: 16474
     name: 5* Large Scoped Vorton Projector(BPC)
@@ -26629,7 +26629,7 @@ offers:
         quantity: 5
       - id: 54970
         quantity: 70
-      lp: 1500
+      lp: 150
   16475:
     id: 16475
     name: Large Consortium Vorton Projector(BPC)
@@ -26644,7 +26644,7 @@ offers:
         quantity: 1
       - id: 54971
         quantity: 36
-      lp: 3000
+      lp: 300
   16476:
     id: 16476
     name: 5* Compact Vorton Tuning System I(BPC)
@@ -26659,7 +26659,7 @@ offers:
         quantity: 5
       - id: 54970
         quantity: 50
-      lp: 500
+      lp: 50
   16477:
     id: 16477
     name: 10* Vorton Tuning System I(BPC)
@@ -26680,7 +26680,7 @@ offers:
         quantity: 14590
       - id: 34
         quantity: 80500
-      lp: 2000
+      lp: 200
   16478:
     id: 16478
     name: 10* GalvaSurge Condenser Pack S(BPC)
@@ -26703,7 +26703,7 @@ offers:
         quantity: 680
       - id: 34
         quantity: 8160
-      lp: 1000
+      lp: 100
   16479:
     id: 16479
     name: 10* MesmerFlux Condenser Pack S(BPC)
@@ -26726,7 +26726,7 @@ offers:
         quantity: 680
       - id: 34
         quantity: 8160
-      lp: 1000
+      lp: 100
   16480:
     id: 16480
     name: 10* BlastShot Condenser Pack S(BPC)
@@ -26749,7 +26749,7 @@ offers:
         quantity: 680
       - id: 34
         quantity: 8160
-      lp: 1000
+      lp: 100
   16481:
     id: 16481
     name: 10* SlamBolt Condenser Pack S(BPC)
@@ -26772,7 +26772,7 @@ offers:
         quantity: 680
       - id: 34
         quantity: 8160
-      lp: 1000
+      lp: 100
   16482:
     id: 16482
     name: 10* GalvaSurge Condenser Pack M(BPC)
@@ -26795,7 +26795,7 @@ offers:
         quantity: 25020
       - id: 34
         quantity: 26940
-      lp: 1500
+      lp: 150
   16483:
     id: 16483
     name: 10* MesmerFlux Condenser Pack M(BPC)
@@ -26818,7 +26818,7 @@ offers:
         quantity: 25020
       - id: 34
         quantity: 26940
-      lp: 1500
+      lp: 150
   16484:
     id: 16484
     name: 10* BlastShot Condenser Pack M(BPC)
@@ -26841,7 +26841,7 @@ offers:
         quantity: 25020
       - id: 34
         quantity: 26940
-      lp: 1500
+      lp: 150
   16485:
     id: 16485
     name: 10* SlamBolt Condenser Pack M(BPC)
@@ -26864,7 +26864,7 @@ offers:
         quantity: 25020
       - id: 34
         quantity: 26940
-      lp: 1500
+      lp: 150
   16486:
     id: 16486
     name: 10* GalvaSurge Condenser Pack L(BPC)
@@ -26889,7 +26889,7 @@ offers:
         quantity: 10160
       - id: 34
         quantity: 142240
-      lp: 2000
+      lp: 200
   16487:
     id: 16487
     name: 10* MesmerFlux Condenser Pack L(BPC)
@@ -26914,7 +26914,7 @@ offers:
         quantity: 10160
       - id: 34
         quantity: 142240
-      lp: 2000
+      lp: 200
   16488:
     id: 16488
     name: 10* BlastShot Condenser Pack L(BPC)
@@ -26939,7 +26939,7 @@ offers:
         quantity: 10160
       - id: 34
         quantity: 142240
-      lp: 2000
+      lp: 200
   16489:
     id: 16489
     name: 10* SlamBolt Condenser Pack L(BPC)
@@ -26964,7 +26964,7 @@ offers:
         quantity: 10160
       - id: 34
         quantity: 142240
-      lp: 2000
+      lp: 200
   16490:
     id: 16490
     name: Small Vorton Specialization
@@ -26977,7 +26977,7 @@ offers:
         quantity: 10
       - id: 55832
         quantity: 5
-      lp: 2000
+      lp: 200
   16491:
     id: 16491
     name: Medium Vorton Specialization
@@ -26990,7 +26990,7 @@ offers:
         quantity: 15
       - id: 55832
         quantity: 10
-      lp: 3000
+      lp: 300
   16492:
     id: 16492
     name: Large Vorton Specialization
@@ -27003,7 +27003,7 @@ offers:
         quantity: 20
       - id: 55832
         quantity: 15
-      lp: 4000
+      lp: 400
   16493:
     id: 16493
     name: Upwell Encryption Methods
@@ -27014,7 +27014,7 @@ offers:
       items:
       - id: 55832
         quantity: 40
-      lp: 8000
+      lp: 800
   16494:
     id: 16494
     name: 100* Electromagnetic Metaprismatic Sheeting
@@ -27025,7 +27025,7 @@ offers:
       items:
       - id: 55830
         quantity: 100
-      lp: 20000
+      lp: 2000
   16495:
     id: 16495
     name: 100* Hyperbolic Metatransistor Array
@@ -27036,7 +27036,7 @@ offers:
       items:
       - id: 55831
         quantity: 100
-      lp: 25000
+      lp: 2500
   16496:
     id: 16496
     name: 100* Ultraconducting Ablative Nanocable
@@ -27047,4 +27047,4 @@ offers:
       items:
       - id: 55830
         quantity: 100
-      lp: 18000
+      lp: 1800

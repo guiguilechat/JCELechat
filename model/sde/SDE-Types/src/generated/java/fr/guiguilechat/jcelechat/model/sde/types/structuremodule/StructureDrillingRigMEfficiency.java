@@ -41,12 +41,26 @@ public class StructureDrillingRigMEfficiency
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * The maximum hitpoints of an object.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * 
      */
@@ -61,6 +75,13 @@ public class StructureDrillingRigMEfficiency
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double moonrigspewvolumebonus;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -82,6 +103,13 @@ public class StructureDrillingRigMEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int rigsize;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -107,9 +135,17 @@ public class StructureDrillingRigMEfficiency
             {
                 return canfitshipgroup03;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  9 :
             {
                 return hp;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  1544 :
             {
@@ -118,6 +154,10 @@ public class StructureDrillingRigMEfficiency
             case  2710 :
             {
                 return moonrigspewvolumebonus;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  182 :
             {
@@ -130,6 +170,10 @@ public class StructureDrillingRigMEfficiency
             case  1547 :
             {
                 return rigsize;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

@@ -64,6 +64,7 @@ types:
     strrefiningyieldbonus: 2
     structuredamagelimit: 5000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56202
     structureservicerolebonus: -20
     targetpainterresistance: 9.999999747378752E-6
     tetheringrange: 10000
@@ -144,6 +145,7 @@ types:
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56205
     structureservicerolebonus: -25
     targetpainterresistance: 9.999999747378752E-6
     tetheringrange: 10000

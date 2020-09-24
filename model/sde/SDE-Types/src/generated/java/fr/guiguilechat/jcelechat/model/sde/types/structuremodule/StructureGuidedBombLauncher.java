@@ -64,6 +64,13 @@ public class StructureGuidedBombLauncher
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
@@ -106,6 +113,13 @@ public class StructureGuidedBombLauncher
     @DefaultRealValue(0.0)
     public double hp;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
+    /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
@@ -146,6 +160,13 @@ public class StructureGuidedBombLauncher
     @DefaultIntValue(0)
     public int power;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
      * reload time (ms)
      */
     @HighIsGood(false)
@@ -167,6 +188,13 @@ public class StructureGuidedBombLauncher
     @DefaultRealValue(0.0)
     public double speed;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -174,7 +202,7 @@ public class StructureGuidedBombLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup02 .INSTANCE, Speed.INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup02 .INSTANCE, Speed.INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, ChargeGroup1 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
     public static final StructureGuidedBombLauncher.MetaGroup METAGROUP = new StructureGuidedBombLauncher.MetaGroup();
 
     @Override
@@ -191,6 +219,10 @@ public class StructureGuidedBombLauncher
             case  1300 :
             {
                 return canfitshipgroup03;
+            }
+            case  38 :
+            {
+                return capacity;
             }
             case  604 :
             {
@@ -216,6 +248,10 @@ public class StructureGuidedBombLauncher
             {
                 return hp;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  763 :
             {
                 return maxgroupactive;
@@ -236,6 +272,10 @@ public class StructureGuidedBombLauncher
             {
                 return power;
             }
+            case  162 :
+            {
+                return radius;
+            }
             case  1795 :
             {
                 return reloadtime;
@@ -247,6 +287,10 @@ public class StructureGuidedBombLauncher
             case  51 :
             {
                 return speed;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

@@ -69,6 +69,13 @@ public class StructureDoomsdayWeapon
     @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -174,6 +181,13 @@ public class StructureDoomsdayWeapon
     @DefaultIntValue(0)
     public int lightningweapontargetrange;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
+    /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
     @HighIsGood(true)
@@ -206,6 +220,20 @@ public class StructureDoomsdayWeapon
     @DefaultIntValue(0)
     public int power;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Thermal damage done.
      */
     @HighIsGood(true)
@@ -229,6 +257,10 @@ public class StructureDoomsdayWeapon
             case  6 :
             {
                 return capacitorneed;
+            }
+            case  38 :
+            {
+                return capacity;
             }
             case  50 :
             {
@@ -290,6 +322,10 @@ public class StructureDoomsdayWeapon
             {
                 return lightningweapontargetrange;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  763 :
             {
                 return maxgroupactive;
@@ -305,6 +341,14 @@ public class StructureDoomsdayWeapon
             case  30 :
             {
                 return power;
+            }
+            case  162 :
+            {
+                return radius;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  118 :
             {

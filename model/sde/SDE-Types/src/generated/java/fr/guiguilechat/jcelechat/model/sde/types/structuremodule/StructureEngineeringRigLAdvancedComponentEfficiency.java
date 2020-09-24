@@ -95,6 +95,13 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -115,6 +122,13 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double lowsecmodifier;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * 
      */
@@ -145,6 +159,13 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     @DefaultRealValue(1.0)
     public double nullsecmodifier;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -172,6 +193,13 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
     @Stackable(true)
     @DefaultIntValue(0)
     public int securitymodifier;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
     /**
      * High-sec bonus on structure rigs.
      */
@@ -235,6 +263,10 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
             {
                 return canfitshipgroup03;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  2355 :
             {
                 return hisecmodifier;
@@ -247,6 +279,10 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
             {
                 return lowsecmodifier;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  1544 :
             {
                 return maxgroupfitted;
@@ -258,6 +294,10 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
             case  2357 :
             {
                 return nullsecmodifier;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  182 :
             {
@@ -274,6 +314,10 @@ public class StructureEngineeringRigLAdvancedComponentEfficiency
             case  2358 :
             {
                 return securitymodifier;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  2095 :
             {

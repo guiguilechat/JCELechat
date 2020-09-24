@@ -1567,10 +1567,10 @@ types:
     price: 1000.0
     published: true
     volume: 3.0
-  Valkears:
+  Valklears:
     id: 26908
     mass: 90.0
-    name: Valkears
+    name: Valklears
     packagedVolume: 1.0
     portionSize: 1
     price: 50000.0

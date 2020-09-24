@@ -1,4 +1,17 @@
 types:
+  10000MN Abyssal Afterburner:
+    capacitorcapacitymultiplier: 1.0
+    id: 56305
+    name: 10000MN Abyssal Afterburner
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3450
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
+    volume: 4000.0
   10000MN Afterburner I:
     canfitshipgroup01: 547
     canfitshipgroup02: 485
@@ -617,6 +630,19 @@ types:
     speedfactor: 125.0
     techlevel: 1
     volume: 5.0
+  50000MN Abyssal Microwarpdrive:
+    capacitorcapacitymultiplier: 1.0
+    id: 56306
+    name: 50000MN Abyssal Microwarpdrive
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3454
+    requiredskill1level: 4
+    speedfactor: 1.0
+    techlevel: 1
+    volume: 4000.0
   50000MN Cold-Gas Enduring Microwarpdrive:
     canfitshipgroup01: 547
     canfitshipgroup02: 485

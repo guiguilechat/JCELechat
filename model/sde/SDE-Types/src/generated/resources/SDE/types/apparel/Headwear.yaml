@@ -57,6 +57,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's 'Imperial Loyalist' Beret:
+    gender: 2
+    id: 55755
+    marketGroup: 1943
+    name: Men's 'Imperial Loyalist' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's 'Kybernaut Clade' Beret:
+    gender: 2
+    id: 56210
+    marketGroup: 1943
+    name: Men's 'Kybernaut Clade' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Liberator' Beret (Minmatar Republic):
     gender: 1
     id: 42712
@@ -136,6 +154,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Republic Valklear' Beret:
+    gender: 2
+    id: 55758
+    marketGroup: 1943
+    name: Men's 'Republic Valklear' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Sable' Cap (Black):
     gender: 2
     id: 42723
@@ -193,24 +220,6 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
-    volume: 0.10000000149011612
-  Men's 'Valkear' Beret:
-    gender: 2
-    id: 55758
-    marketGroup: 1943
-    name: Men's 'Valkear' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Men's Amarr 'Loyalist' Beret:
-    gender: 2
-    id: 55755
-    marketGroup: 1943
-    name: Men's Amarr 'Loyalist' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
     volume: 0.10000000149011612
   Men's Aurora Universalis Cap:
     gender: 2
@@ -282,6 +291,15 @@ types:
     id: 47478
     marketGroup: 1943
     name: Men's Capsuleer Networker XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's EDENCOM 'Reliant' Beret:
+    gender: 2
+    id: 56145
+    marketGroup: 1943
+    name: Men's EDENCOM 'Reliant' Beret
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -490,6 +508,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Women's 'Imperial Loyalist' Beret:
+    gender: 2
+    id: 55751
+    marketGroup: 1943
+    name: Women's 'Imperial Loyalist' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Kybernaut Clade' Beret:
+    gender: 2
+    id: 56209
+    marketGroup: 1943
+    name: Women's 'Kybernaut Clade' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Liberator' Beret (Minmatar Republic):
     gender: 3
     id: 42738
@@ -528,6 +564,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Republic Valklear' Beret:
+    gender: 2
+    id: 55754
+    marketGroup: 1943
+    name: Women's 'Republic Valklear' Beret
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'Sable' Cap (Black):
     gender: 2
@@ -583,24 +628,6 @@ types:
     id: 55752
     marketGroup: 1943
     name: Women's 'State Protector' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's 'Valkear' Beret:
-    gender: 2
-    id: 55754
-    marketGroup: 1943
-    name: Women's 'Valkear' Beret
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Women's Amarr 'Loyalist' Beret:
-    gender: 2
-    id: 55751
-    marketGroup: 1943
-    name: Women's Amarr 'Loyalist' Beret
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -675,6 +702,15 @@ types:
     id: 47477
     marketGroup: 1943
     name: Women's Capsuleer Networker XV Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's EDENCOM 'Reliant' Beret:
+    gender: 2
+    id: 56144
+    marketGroup: 1943
+    name: Women's EDENCOM 'Reliant' Beret
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

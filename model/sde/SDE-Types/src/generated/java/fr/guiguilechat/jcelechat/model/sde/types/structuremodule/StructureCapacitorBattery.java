@@ -38,6 +38,13 @@ public class StructureCapacitorBattery
     @DefaultIntValue(0)
     public int capacitorbonus;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -51,6 +58,13 @@ public class StructureCapacitorBattery
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
@@ -67,6 +81,20 @@ public class StructureCapacitorBattery
     @DefaultIntValue(0)
     public int power;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -74,7 +102,7 @@ public class StructureCapacitorBattery
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Cpu.INSTANCE, Radius.INSTANCE, CapacitorBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Cpu.INSTANCE, CapacitorBonus.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
     public static final StructureCapacitorBattery.MetaGroup METAGROUP = new StructureCapacitorBattery.MetaGroup();
 
     @Override
@@ -84,6 +112,10 @@ public class StructureCapacitorBattery
             {
                 return capacitorbonus;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  50 :
             {
                 return cpu;
@@ -92,6 +124,10 @@ public class StructureCapacitorBattery
             {
                 return hp;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  633 :
             {
                 return metalevelold;
@@ -99,6 +135,14 @@ public class StructureCapacitorBattery
             case  30 :
             {
                 return power;
+            }
+            case  162 :
+            {
+                return radius;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

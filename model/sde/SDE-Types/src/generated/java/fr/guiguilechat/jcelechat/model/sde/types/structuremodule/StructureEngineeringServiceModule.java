@@ -142,6 +142,13 @@ public class StructureEngineeringServiceModule
     @DefaultIntValue(0)
     public int canfitshiptype9;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -162,6 +169,13 @@ public class StructureEngineeringServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinhighsec;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * 
      */
@@ -202,6 +216,13 @@ public class StructureEngineeringServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int power;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * 
      */
@@ -244,7 +265,14 @@ public class StructureEngineeringServiceModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int servicemodulefullpowerstatehitpointmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, CanFitShipType7 .INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, DisallowInHighSec.INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType6 .INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, CanFitShipType10 .INSTANCE, RequiresSovUpgrade1 .INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, MaxTypeFitted.INSTANCE })));
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, CanFitShipType1 .INSTANCE, CanFitShipType2 .INSTANCE, CanFitShipType3 .INSTANCE, CanFitShipType5 .INSTANCE, CanFitShipType4 .INSTANCE, MetaGroupID.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, CanFitShipType7 .INSTANCE, Radius.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, DisallowInEmpireSpace.INSTANCE, DisallowInHighSec.INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, CanFitShipType8 .INSTANCE, CanFitShipType9 .INSTANCE, CanFitShipType6 .INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, CanFitShipType10 .INSTANCE, RequiresSovUpgrade1 .INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final StructureEngineeringServiceModule.MetaGroup METAGROUP = new StructureEngineeringServiceModule.MetaGroup();
 
     @Override
@@ -302,6 +330,10 @@ public class StructureEngineeringServiceModule
             {
                 return canfitshiptype9;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  50 :
             {
                 return cpu;
@@ -313,6 +345,10 @@ public class StructureEngineeringServiceModule
             case  1970 :
             {
                 return disallowinhighsec;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  2431 :
             {
@@ -329,6 +365,10 @@ public class StructureEngineeringServiceModule
             case  30 :
             {
                 return power;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  1595 :
             {
@@ -353,6 +393,10 @@ public class StructureEngineeringServiceModule
             case  2744 :
             {
                 return servicemodulefullpowerstatehitpointmultiplier;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             default:
             {

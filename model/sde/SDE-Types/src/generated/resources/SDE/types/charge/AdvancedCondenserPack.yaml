@@ -27,11 +27,11 @@ types:
     aoevelocitybonus: 0.75
     capneedbonus: 25
     chargesize: 2
-    emdamage: 335.0
+    emdamage: 402.0
     entityflyrangemultiplier: 0.5
     fallofmultiplier: 1.0
     id: 54786
-    kineticdamage: 316.0
+    kineticdamage: 379.0
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2738
@@ -51,11 +51,11 @@ types:
     aoevelocitybonus: 0.75
     capneedbonus: 25
     chargesize: 1
-    emdamage: 67.0
+    emdamage: 80.0
     entityflyrangemultiplier: 0.5
     fallofmultiplier: 1.0
     id: 54784
-    kineticdamage: 67.0
+    kineticdamage: 80.0
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2737
@@ -99,11 +99,11 @@ types:
     aoevelocitybonus: 0.75
     capneedbonus: 25
     chargesize: 2
-    emdamage: 182.0
+    emdamage: 218.0
     entityflyrangemultiplier: 0.5
     fallofmultiplier: 1.0
     id: 54785
-    kineticdamage: 177.0
+    kineticdamage: 212.0
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2738
@@ -123,11 +123,11 @@ types:
     aoevelocitybonus: 0.75
     capneedbonus: 25
     chargesize: 1
-    emdamage: 41.0
+    emdamage: 49.0
     entityflyrangemultiplier: 0.5
     fallofmultiplier: 1.0
     id: 54781
-    kineticdamage: 34.0
+    kineticdamage: 41.0
     launchergroup: 74
     maincolor: 11835778
     marketGroup: 2737

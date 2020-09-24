@@ -93,6 +93,13 @@ public class StructureEngineeringRigMBasicCapitalComponentME
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -113,6 +120,13 @@ public class StructureEngineeringRigMBasicCapitalComponentME
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double lowsecmodifier;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * 
      */
@@ -143,6 +157,13 @@ public class StructureEngineeringRigMBasicCapitalComponentME
     @DefaultRealValue(1.0)
     public double nullsecmodifier;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -171,6 +192,13 @@ public class StructureEngineeringRigMBasicCapitalComponentME
     @DefaultIntValue(0)
     public int securitymodifier;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -185,7 +213,7 @@ public class StructureEngineeringRigMBasicCapitalComponentME
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, AttributeEngRigTimeBonus.INSTANCE, AttributeEngRigMatBonus.INSTANCE, Radius.INSTANCE, AttributeEngRigCostBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, MetaGroupID.INSTANCE, AttributeThukkerEngRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, AttributeEngRigTimeBonus.INSTANCE, Radius.INSTANCE, AttributeEngRigMatBonus.INSTANCE, AttributeEngRigCostBonus.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, MetaGroupID.INSTANCE, AttributeThukkerEngRigMatBonus.INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureEngineeringRigMBasicCapitalComponentME.MetaGroup METAGROUP = new StructureEngineeringRigMBasicCapitalComponentME.MetaGroup();
 
     @Override
@@ -219,6 +247,10 @@ public class StructureEngineeringRigMBasicCapitalComponentME
             {
                 return canfitshipgroup03;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  2355 :
             {
                 return hisecmodifier;
@@ -231,6 +263,10 @@ public class StructureEngineeringRigMBasicCapitalComponentME
             {
                 return lowsecmodifier;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  1544 :
             {
                 return maxgroupfitted;
@@ -242,6 +278,10 @@ public class StructureEngineeringRigMBasicCapitalComponentME
             case  2357 :
             {
                 return nullsecmodifier;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  182 :
             {
@@ -258,6 +298,10 @@ public class StructureEngineeringRigMBasicCapitalComponentME
             case  2358 :
             {
                 return securitymodifier;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

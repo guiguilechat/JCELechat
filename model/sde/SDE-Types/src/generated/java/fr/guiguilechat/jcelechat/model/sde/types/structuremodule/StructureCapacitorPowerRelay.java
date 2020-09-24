@@ -39,6 +39,13 @@ public class StructureCapacitorPowerRelay
     @DefaultRealValue(1.0)
     public double capacitorrechargeratemultiplier;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -52,6 +59,13 @@ public class StructureCapacitorPowerRelay
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * Authoring has been moved to FSD.
      * meta group of type
@@ -83,6 +97,20 @@ public class StructureCapacitorPowerRelay
     @DefaultIntValue(0)
     public int power;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -90,7 +118,7 @@ public class StructureCapacitorPowerRelay
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorRechargeRateMultiplier.INSTANCE, Cpu.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {CapacitorRechargeRateMultiplier.INSTANCE, Radius.INSTANCE, Cpu.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, MetaLevelOld.INSTANCE, MetaGroupID.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
     public static final StructureCapacitorPowerRelay.MetaGroup METAGROUP = new StructureCapacitorPowerRelay.MetaGroup();
 
     @Override
@@ -100,6 +128,10 @@ public class StructureCapacitorPowerRelay
             {
                 return capacitorrechargeratemultiplier;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  50 :
             {
                 return cpu;
@@ -107,6 +139,10 @@ public class StructureCapacitorPowerRelay
             case  9 :
             {
                 return hp;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  1692 :
             {
@@ -119,6 +155,14 @@ public class StructureCapacitorPowerRelay
             case  30 :
             {
                 return power;
+            }
+            case  162 :
+            {
+                return radius;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

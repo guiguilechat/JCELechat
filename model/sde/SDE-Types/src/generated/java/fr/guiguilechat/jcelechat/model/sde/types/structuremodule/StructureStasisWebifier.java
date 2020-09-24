@@ -72,6 +72,13 @@ public class StructureStasisWebifier
     @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -106,6 +113,13 @@ public class StructureStasisWebifier
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -157,6 +171,13 @@ public class StructureStasisWebifier
     @DefaultIntValue(0)
     public int power;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
      * Attribute ID of the resistance type v's this Ewar module.
      */
     @HighIsGood(true)
@@ -171,6 +192,13 @@ public class StructureStasisWebifier
     @DefaultRealValue(1.0)
     public double speedfactor;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -178,7 +206,7 @@ public class StructureStasisWebifier
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, MaxGroupOnline.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, RemoteResistanceID.INSTANCE, MaxGroupActive.INSTANCE, FalloffEffectiveness.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, MaxGroupOnline.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, RemoteResistanceID.INSTANCE, MaxGroupActive.INSTANCE, FalloffEffectiveness.INSTANCE, ModuleReactivationDelay.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
     public static final StructureStasisWebifier.MetaGroup METAGROUP = new StructureStasisWebifier.MetaGroup();
 
     @Override
@@ -200,6 +228,10 @@ public class StructureStasisWebifier
             {
                 return capacitorneed;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  50 :
             {
                 return cpu;
@@ -219,6 +251,10 @@ public class StructureStasisWebifier
             case  9 :
             {
                 return hp;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  763 :
             {
@@ -248,6 +284,10 @@ public class StructureStasisWebifier
             {
                 return power;
             }
+            case  162 :
+            {
+                return radius;
+            }
             case  2138 :
             {
                 return remoteresistanceid;
@@ -255,6 +295,10 @@ public class StructureStasisWebifier
             case  20 :
             {
                 return speedfactor;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

@@ -67,6 +67,7 @@ types:
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56206
     structureservicerolebonus: -25
     targetpainterresistance: 9.999999747378752E-6
     tetheringrange: 10000
@@ -140,6 +141,7 @@ types:
     strengtimebonus: 0.8500000238418579
     structuredamagelimit: 5000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56203
     structureservicerolebonus: -25
     targetpainterresistance: 9.999999747378752E-6
     tetheringrange: 10000
@@ -219,6 +221,7 @@ types:
     structureaoerofrolebonus: -30
     structuredamagelimit: 75000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56208
     structureservicerolebonus: -25
     targetpainterresistance: 9.999999747378752E-6
     tetheringrange: 10000

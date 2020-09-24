@@ -1,4 +1,13 @@
 types:
+  1v1 T1 Combat and Navy Frigates Proving Filament:
+    id: 56093
+    marketGroup: 2747
+    name: 1v1 T1 Combat and Navy Frigates Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
   2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament:
     id: 55983
     marketGroup: 2747
@@ -8,19 +17,27 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Event 7 Proving Filament:
-    id: 56092
+  2v2 Cruiser Clash Proving Filament:
+    id: 56094
     marketGroup: 2747
-    name: Event 7 Proving Filament
+    name: 2v2 Cruiser Clash Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Event 8 Proving Filament:
-    id: 56093
+  Event 10 Proving Filament:
+    id: 56353
     marketGroup: 2747
-    name: Event 8 Proving Filament
+    name: Event 10 Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  FFA Cruisers Proving Filament:
+    id: 56092
+    marketGroup: 2747
+    name: FFA Cruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

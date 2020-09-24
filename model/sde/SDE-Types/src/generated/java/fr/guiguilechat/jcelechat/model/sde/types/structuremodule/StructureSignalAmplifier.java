@@ -57,6 +57,13 @@ public class StructureSignalAmplifier
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -70,6 +77,13 @@ public class StructureSignalAmplifier
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * Additional amount of locked targets that can be handled.
      */
@@ -100,12 +114,26 @@ public class StructureSignalAmplifier
     @DefaultIntValue(0)
     public int power;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
      * Bonus for scan resolution
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double scanresolutionbonus;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -114,7 +142,7 @@ public class StructureSignalAmplifier
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, MaxLockedTargetsBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, MaxLockedTargetsBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxTargetRangeBonus.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
     public static final StructureSignalAmplifier.MetaGroup METAGROUP = new StructureSignalAmplifier.MetaGroup();
 
     @Override
@@ -132,6 +160,10 @@ public class StructureSignalAmplifier
             {
                 return canfitshipgroup03;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  50 :
             {
                 return cpu;
@@ -139,6 +171,10 @@ public class StructureSignalAmplifier
             case  9 :
             {
                 return hp;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  235 :
             {
@@ -156,9 +192,17 @@ public class StructureSignalAmplifier
             {
                 return power;
             }
+            case  162 :
+            {
+                return radius;
+            }
             case  566 :
             {
                 return scanresolutionbonus;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

@@ -63,6 +63,13 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -84,6 +91,13 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @DefaultRealValue(1.0)
     public double lowsecmodifier;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -97,6 +111,13 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double nullsecmodifier;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -125,6 +146,13 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @Stackable(true)
     @DefaultIntValue(0)
     public int securitymodifier;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
     /**
      * 
      */
@@ -161,7 +189,7 @@ public class StructureCombatRigLEWProjectionAndCapReduction
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, StructureRigEwarOptimalBonus.INSTANCE, Hp.INSTANCE, StructureRigEwarFalloffBonus.INSTANCE, StructureRigEwarCapUseBonus.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, MaxGroupFitted.INSTANCE, StructureRigEwarOptimalBonus.INSTANCE, Hp.INSTANCE, StructureRigEwarFalloffBonus.INSTANCE, StructureRigEwarCapUseBonus.INSTANCE, RigSize.INSTANCE, CanFitShipGroup01 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureCombatRigLEWProjectionAndCapReduction.MetaGroup METAGROUP = new StructureCombatRigLEWProjectionAndCapReduction.MetaGroup();
 
     @Override
@@ -179,6 +207,10 @@ public class StructureCombatRigLEWProjectionAndCapReduction
             {
                 return canfitshipgroup03;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  2355 :
             {
                 return hisecmodifier;
@@ -191,6 +223,10 @@ public class StructureCombatRigLEWProjectionAndCapReduction
             {
                 return lowsecmodifier;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  1544 :
             {
                 return maxgroupfitted;
@@ -198,6 +234,10 @@ public class StructureCombatRigLEWProjectionAndCapReduction
             case  2357 :
             {
                 return nullsecmodifier;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  182 :
             {
@@ -214,6 +254,10 @@ public class StructureCombatRigLEWProjectionAndCapReduction
             case  2358 :
             {
                 return securitymodifier;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  2442 :
             {

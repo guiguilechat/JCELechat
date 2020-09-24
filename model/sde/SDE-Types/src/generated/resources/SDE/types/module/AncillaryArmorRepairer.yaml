@@ -1,4 +1,21 @@
 types:
+  Capital Abyssal Ancillary Armor Repairer:
+    capacity: 1.2799999713897705
+    chargegroup2: 916
+    chargerate: 16
+    id: 56308
+    name: Capital Abyssal Ancillary Armor Repairer
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    reloadtime: 10000.0
+    requiredskill1: 21803
+    requiredskill1level: 1
+    requiredskill2: 3392
+    requiredskill2level: 3
+    techlevel: 1
+    volume: 4000.0
   Capital Ancillary Armor Repairer:
     armordamageamount: 4800.0
     capacitorneed: 1600.0

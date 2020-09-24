@@ -2612,6 +2612,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Tranquil Abyssal Filaments Crate:
+    cpumultiplier: 1.0
+    id: 56365
+    marketGroup: 1661
+    name: Tranquil Abyssal Filaments Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Unit of Lag:
     cpumultiplier: 0.10000000149011612
     id: 33021

@@ -90,6 +90,13 @@ public class StructureDisruptionBattery
     @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -131,6 +138,13 @@ public class StructureDisruptionBattery
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * Distance below which range does not affect the to-hit equation.
      */
@@ -175,6 +189,13 @@ public class StructureDisruptionBattery
     @DefaultIntValue(0)
     public int power;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
      * Attribute ID of the resistance type v's this Ewar module.
      */
     @HighIsGood(true)
@@ -196,6 +217,13 @@ public class StructureDisruptionBattery
     @DefaultRealValue(0.0)
     public double signatureradiusbonus;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -210,7 +238,7 @@ public class StructureDisruptionBattery
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double trackingspeedbonus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, ExplosionDelayBonus.INSTANCE, RemoteResistanceID.INSTANCE, FalloffBonus.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, MaxRangeBonus.INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadiusBonus.INSTANCE, Cpu.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, FalloffEffectiveness.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, CapacitorNeed.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, AoeVelocityBonus.INSTANCE, AoeCloudSizeBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, ExplosionDelayBonus.INSTANCE, RemoteResistanceID.INSTANCE, FalloffBonus.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, MaxRangeBonus.INSTANCE, Radius.INSTANCE, MissileVelocityBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, SignatureRadiusBonus.INSTANCE, Cpu.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, MetaLevelOld.INSTANCE, FalloffEffectiveness.INSTANCE, TrackingSpeedBonus.INSTANCE })));
     public static final StructureDisruptionBattery.MetaGroup METAGROUP = new StructureDisruptionBattery.MetaGroup();
 
     @Override
@@ -240,6 +268,10 @@ public class StructureDisruptionBattery
             {
                 return capacitorneed;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  50 :
             {
                 return cpu;
@@ -263,6 +295,10 @@ public class StructureDisruptionBattery
             case  9 :
             {
                 return hp;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  54 :
             {
@@ -288,6 +324,10 @@ public class StructureDisruptionBattery
             {
                 return power;
             }
+            case  162 :
+            {
+                return radius;
+            }
             case  2138 :
             {
                 return remoteresistanceid;
@@ -299,6 +339,10 @@ public class StructureDisruptionBattery
             case  554 :
             {
                 return signatureradiusbonus;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

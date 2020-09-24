@@ -1,11 +1,11 @@
 types:
   Marshal:
     agility: 0.07000000029802322
-    armoremdamageresonance: 0.6700000166893005
-    armorexplosivedamageresonance: 0.6700000166893005
+    armoremdamageresonance: 0.6000000238418579
+    armorexplosivedamageresonance: 0.6000000238418579
     armorhp: 5000.0
-    armorkineticdamageresonance: 0.6700000166893005
-    armorthermaldamageresonance: 0.6700000166893005
+    armorkineticdamageresonance: 0.6000000238418579
+    armorthermaldamageresonance: 0.6000000238418579
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
@@ -89,11 +89,11 @@ types:
     scanresolution: 235.0
     scanspeed: 7500
     shieldcapacity: 5000.0
-    shieldemdamageresonance: 0.6700000166893005
-    shieldexplosivedamageresonance: 0.6700000166893005
-    shieldkineticdamageresonance: 0.6700000166893005
+    shieldemdamageresonance: 0.6000000238418579
+    shieldexplosivedamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 3125000.0
-    shieldthermaldamageresonance: 0.6700000166893005
+    shieldthermaldamageresonance: 0.6000000238418579
     shielduniformity: 0.75
     shipbonus2cb: -5
     shipbonusab: 10.0
@@ -104,7 +104,7 @@ types:
     shipbonusmb: 10.0
     shipbonusmb2: -5.0
     signatureradius: 330.0
-    specialfuelbaycapacity: 1250
+    specialfuelbaycapacity: 2150
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -118,11 +118,11 @@ types:
     warpspeedmultiplier: 3.5
   Panther:
     agility: 0.06400000303983688
-    armoremdamageresonance: 0.36000001430511475
+    armoremdamageresonance: 0.25999999046325684
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 4375.0
     armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.6175000071525574
+    armorthermaldamageresonance: 0.5099999904632568
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
@@ -196,18 +196,18 @@ types:
     scanresolution: 200.0
     scanspeed: 6750
     shieldcapacity: 4968.0
-    shieldemdamageresonance: 0.8999999761581421
+    shieldemdamageresonance: 0.6399999856948853
     shieldexplosivedamageresonance: 0.5
     shieldkineticdamageresonance: 0.6000000238418579
     shieldrechargerate: 3125000.0
-    shieldthermaldamageresonance: 0.7599999904632568
+    shieldthermaldamageresonance: 0.6299999952316284
     shielduniformity: 0.75
     shipbonusab: 5.0
     shipbonuscb: 5
     shipbonusmb: 5.0
     shipbonusmb2: -5.0
     signatureradius: 288.0
-    specialfuelbaycapacity: 1250
+    specialfuelbaycapacity: 2150
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -222,9 +222,9 @@ types:
   Redeemer:
     agility: 0.07199999690055847
     armoremdamageresonance: 0.5
-    armorexplosivedamageresonance: 0.7200000286102295
+    armorexplosivedamageresonance: 0.5099999904632568
     armorhp: 5312.0
-    armorkineticdamageresonance: 0.7124999761581421
+    armorkineticdamageresonance: 0.5899999737739563
     armorthermaldamageresonance: 0.6499999761581421
     armoruniformity: 0.75
     basewarpspeed: 1
@@ -300,8 +300,8 @@ types:
     scanspeed: 7500
     shieldcapacity: 4375.0
     shieldemdamageresonance: 1.0
-    shieldexplosivedamageresonance: 0.44999998807907104
-    shieldkineticdamageresonance: 0.5699999928474426
+    shieldexplosivedamageresonance: 0.3199999928474426
+    shieldkineticdamageresonance: 0.4699999988079071
     shieldrechargerate: 3125000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
@@ -310,7 +310,7 @@ types:
     shipbonuscb: 5
     shipbonusmb: 5.0
     signatureradius: 333.0
-    specialfuelbaycapacity: 1250
+    specialfuelbaycapacity: 2150
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -327,8 +327,8 @@ types:
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 4968.0
-    armorkineticdamageresonance: 0.550000011920929
-    armorthermaldamageresonance: 0.6499999761581421
+    armorkineticdamageresonance: 0.4000000059604645
+    armorthermaldamageresonance: 0.5299999713897705
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
@@ -404,9 +404,9 @@ types:
     shieldcapacity: 4375.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.5
+    shieldkineticdamageresonance: 0.36000001430511475
     shieldrechargerate: 3125000.0
-    shieldthermaldamageresonance: 0.800000011920929
+    shieldthermaldamageresonance: 0.6499999761581421
     shielduniformity: 0.75
     shipbonusab: 5.0
     shipbonuscb: 5
@@ -414,7 +414,7 @@ types:
     shipbonusgb2: 10.0
     shipbonusmb: 5.0
     signatureradius: 378.0
-    specialfuelbaycapacity: 1250
+    specialfuelbaycapacity: 2150
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -431,8 +431,8 @@ types:
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.8999999761581421
     armorhp: 4375.0
-    armorkineticdamageresonance: 0.75
-    armorthermaldamageresonance: 0.44999998807907104
+    armorkineticdamageresonance: 0.6100000143051147
+    armorthermaldamageresonance: 0.33000001311302185
     armoruniformity: 0.75
     basewarpspeed: 1
     canjump: 1
@@ -509,9 +509,9 @@ types:
     shieldcapacity: 5312.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.5
-    shieldkineticdamageresonance: 0.6000000238418579
+    shieldkineticdamageresonance: 0.49000000953674316
     shieldrechargerate: 3125000.0
-    shieldthermaldamageresonance: 0.699999988079071
+    shieldthermaldamageresonance: 0.5
     shielduniformity: 0.75
     shipbonus2cb: -5
     shipbonusab: 5.0
@@ -519,7 +519,7 @@ types:
     shipbonuscb3: 10
     shipbonusmb: 5.0
     signatureradius: 405.0
-    specialfuelbaycapacity: 1250
+    specialfuelbaycapacity: 2150
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005

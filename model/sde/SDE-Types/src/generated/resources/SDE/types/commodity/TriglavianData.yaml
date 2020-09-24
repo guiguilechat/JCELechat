@@ -22,11 +22,11 @@ types:
     marketGroup: 2480
     mass: 1.0
     name: Triglavian Survey Database
-    packagedVolume: 0.10000000149011612
+    packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 100000.0
     published: true
-    volume: 0.10000000149011612
+    volume: 0.009999999776482582
   Triglavian Transconduit Datacaster:
     id: 55831
     marketGroup: 2480

@@ -74,6 +74,13 @@ public class StructureECMBattery
     @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
@@ -116,6 +123,13 @@ public class StructureECMBattery
     @DefaultRealValue(0.0)
     public double hp;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
+    /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
@@ -152,6 +166,13 @@ public class StructureECMBattery
     @Stackable(true)
     @DefaultIntValue(0)
     public int power;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * reload time (ms)
      */
@@ -195,6 +216,13 @@ public class StructureECMBattery
     @DefaultRealValue(0.0)
     public double scanradarstrengthbonus;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -202,7 +230,7 @@ public class StructureECMBattery
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RemoteResistanceID.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, Cpu.INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, FalloffEffectiveness.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {ChargeSize.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RemoteResistanceID.INSTANCE, MetaGroupID.INSTANCE, ChargeGroup1 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, Cpu.INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, FalloffEffectiveness.INSTANCE })));
     public static final StructureECMBattery.MetaGroup METAGROUP = new StructureECMBattery.MetaGroup();
 
     @Override
@@ -223,6 +251,10 @@ public class StructureECMBattery
             case  6 :
             {
                 return capacitorneed;
+            }
+            case  38 :
+            {
+                return capacity;
             }
             case  604 :
             {
@@ -248,6 +280,10 @@ public class StructureECMBattery
             {
                 return hp;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  54 :
             {
                 return maxrange;
@@ -263,6 +299,10 @@ public class StructureECMBattery
             case  30 :
             {
                 return power;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  1795 :
             {
@@ -287,6 +327,10 @@ public class StructureECMBattery
             case  241 :
             {
                 return scanradarstrengthbonus;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

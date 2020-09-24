@@ -71,6 +71,13 @@ public class StructureEnergyNeutralizer
     @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -134,6 +141,13 @@ public class StructureEnergyNeutralizer
     @DefaultRealValue(0.0)
     public double hp;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
+    /**
      * Distance below which range does not affect the to-hit equation.
      */
     @HighIsGood(true)
@@ -171,6 +185,20 @@ public class StructureEnergyNeutralizer
     @DefaultIntValue(0)
     public int power;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -178,7 +206,7 @@ public class StructureEnergyNeutralizer
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EnergyNeutralizerAmount.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, EntityCapacitorLevelModifierSmall.INSTANCE, EntityCapacitorLevelModifierMedium.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, EntityCapacitorLevelModifierLarge.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, EnergyNeutralizerSignatureResolution.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {EnergyNeutralizerAmount.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, EntityCapacitorLevelModifierSmall.INSTANCE, EntityCapacitorLevelModifierMedium.INSTANCE, Hp.INSTANCE, Duration.INSTANCE, EntityCapacitorLevelModifierLarge.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, EnergyNeutralizerSignatureResolution.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, MaxRange.INSTANCE, MetaLevelOld.INSTANCE, FalloffEffectiveness.INSTANCE, MetaGroupID.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
     public static final StructureEnergyNeutralizer.MetaGroup METAGROUP = new StructureEnergyNeutralizer.MetaGroup();
 
     @Override
@@ -199,6 +227,10 @@ public class StructureEnergyNeutralizer
             case  6 :
             {
                 return capacitorneed;
+            }
+            case  38 :
+            {
+                return capacity;
             }
             case  50 :
             {
@@ -236,6 +268,10 @@ public class StructureEnergyNeutralizer
             {
                 return hp;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  54 :
             {
                 return maxrange;
@@ -251,6 +287,14 @@ public class StructureEnergyNeutralizer
             case  30 :
             {
                 return power;
+            }
+            case  162 :
+            {
+                return radius;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

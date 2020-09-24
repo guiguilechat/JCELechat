@@ -124,6 +124,17 @@ types:
     shieldbonus: 630.0
     techlevel: 1
     volume: 50.0
+  Capital Abyssal Shield Booster:
+    id: 56309
+    name: Capital Abyssal Shield Booster
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    requiredskill1: 21802
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
   Capital C-5L Compact Shield Booster:
     capacitorneed: 2400.0
     cpu: 240.0

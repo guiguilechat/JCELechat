@@ -53,6 +53,13 @@ public class StructureResourceRigXLReprocessing
     @DefaultIntValue(0)
     public int canfitshipgroup02;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -74,6 +81,13 @@ public class StructureResourceRigXLReprocessing
     @DefaultRealValue(1.0)
     public double lowsecmodifier;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -87,6 +101,13 @@ public class StructureResourceRigXLReprocessing
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double nullsecmodifier;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * The factor by which the structure modifies the using pilot's refining yield rate.
      */
@@ -123,6 +144,13 @@ public class StructureResourceRigXLReprocessing
     @DefaultIntValue(0)
     public int securitymodifier;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -151,6 +179,10 @@ public class StructureResourceRigXLReprocessing
             {
                 return canfitshipgroup02;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  2355 :
             {
                 return hisecmodifier;
@@ -163,6 +195,10 @@ public class StructureResourceRigXLReprocessing
             {
                 return lowsecmodifier;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  1544 :
             {
                 return maxgroupfitted;
@@ -170,6 +206,10 @@ public class StructureResourceRigXLReprocessing
             case  2357 :
             {
                 return nullsecmodifier;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  717 :
             {
@@ -190,6 +230,10 @@ public class StructureResourceRigXLReprocessing
             case  2358 :
             {
                 return securitymodifier;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

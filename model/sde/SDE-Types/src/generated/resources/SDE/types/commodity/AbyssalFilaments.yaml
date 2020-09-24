@@ -119,6 +119,61 @@ types:
     radius: 1.0
     volume: 0.10000000149011612
     weatherid: 47866
+  Cataclysmic Dark Filament:
+    difficultytier: 6
+    id: 56140
+    marketGroup: 2458
+    name: Cataclysmic Dark Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47863
+  Cataclysmic Electrical Filament:
+    difficultytier: 6
+    id: 56139
+    marketGroup: 2461
+    name: Cataclysmic Electrical Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47865
+  Cataclysmic Exotic Filament:
+    difficultytier: 6
+    id: 56141
+    marketGroup: 2457
+    name: Cataclysmic Exotic Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47862
+  Cataclysmic Firestorm Filament:
+    difficultytier: 6
+    id: 56142
+    marketGroup: 2459
+    name: Cataclysmic Firestorm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47864
+  Cataclysmic Gamma Filament:
+    difficultytier: 6
+    id: 56143
+    marketGroup: 2460
+    name: Cataclysmic Gamma Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47866
   Chaotic Dark Filament:
     difficultytier: 5
     id: 47895
@@ -295,6 +350,61 @@ types:
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47866
+  Tranquil Dark Filament:
+    difficultytier: 1
+    id: 56132
+    marketGroup: 2458
+    name: Tranquil Dark Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47863
+  Tranquil Electrical Filament:
+    difficultytier: 1
+    id: 56131
+    marketGroup: 2461
+    name: Tranquil Electrical Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47865
+  Tranquil Exotic Filament:
+    difficultytier: 1
+    id: 56133
+    marketGroup: 2457
+    name: Tranquil Exotic Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47862
+  Tranquil Firestorm Filament:
+    difficultytier: 1
+    id: 56134
+    marketGroup: 2459
+    name: Tranquil Firestorm Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.10000000149011612
+    weatherid: 47864
+  Tranquil Gamma Filament:
+    difficultytier: 1
+    id: 56136
+    marketGroup: 2460
+    name: Tranquil Gamma Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     radius: 1.0
     volume: 0.10000000149011612

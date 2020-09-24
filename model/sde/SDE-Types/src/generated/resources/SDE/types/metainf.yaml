@@ -1002,6 +1002,7 @@ group2class:
   structure/UpwellCynoJammer: fr.guiguilechat.jcelechat.model.sde.types.structure.UpwellCynoJammer
   structure/UpwellJumpGate: fr.guiguilechat.jcelechat.model.sde.types.structure.UpwellJumpGate
   structuremodule/OutpostConversionRigs: fr.guiguilechat.jcelechat.model.sde.types.structuremodule.OutpostConversionRigs
+  structuremodule/QuantumCores: fr.guiguilechat.jcelechat.model.sde.types.structuremodule.QuantumCores
   structuremodule/StructureAreaDenialModule: fr.guiguilechat.jcelechat.model.sde.types.structuremodule.StructureAreaDenialModule
   structuremodule/StructureArmorReinforcer: fr.guiguilechat.jcelechat.model.sde.types.structuremodule.StructureArmorReinforcer
   structuremodule/StructureBiochemicalReactorRigMME: fr.guiguilechat.jcelechat.model.sde.types.structuremodule.StructureBiochemicalReactorRigMME
@@ -8226,8 +8227,8 @@ id2name:
   16527: '''Arbalest'' Rocket Launcher I'
   16529: Ionic Field Accelerator I
   16531: 5a Prototype Shield Support I
-  16533: '''Stalwart'' Particle Field Magnifier'
-  16535: '''Copasetic'' Particle Field Acceleration'
+  16533: Stalwart Restrained Shield Boost Amplifier
+  16535: Copasetic Compact Shield Boost Amplifier
   16537: Vigor Compact Micro Auxiliary Power Core
   16539: Micro B88 Core Augmentation
   16541: Micro K-Exhaust Core Augmentation
@@ -15421,7 +15422,7 @@ id2name:
   26905: Slave Ownership Record
   26906: Slave Manifests
   26907: Starkmanir Slave
-  26908: Valkears
+  26908: Valklears
   26911: Avatar Wreck
   26912: Small Remote Armor Repairer II
   26913: Medium Remote Armor Repairer II
@@ -36784,14 +36785,14 @@ id2name:
   55748: EDENCOM Frigate Wreck
   55749: EDENCOM Cruiser Wreck
   55750: EDENCOM Battleship Wreck
-  55751: Women's Amarr 'Loyalist' Beret
+  55751: Women's 'Imperial Loyalist' Beret
   55752: Women's 'State Protector' Beret
   55753: Women's 'Federal Defender' Beret
-  55754: Women's 'Valkear' Beret
-  55755: Men's Amarr 'Loyalist' Beret
+  55754: Women's 'Republic Valklear' Beret
+  55755: Men's 'Imperial Loyalist' Beret
   55756: Men's 'State Protector' Beret
   55757: Men's 'Federal Defender' Beret
-  55758: Men's 'Valkear' Beret
+  55758: Men's 'Republic Valklear' Beret
   55764: Surface Volcanic 01
   55765: ENV_Abyssal_Infernal_PVP_01a
   55766: Triglavian World Ark Werpost Spawner (Do not translate)
@@ -37008,24 +37009,62 @@ id2name:
   56062: Weak Metaliminal Plasma Firestorm
   56063: Strong Metaliminal Plasma Firestorm
   56064: Weak Metaliminal Electrical Storm
-  56089: Caldari Shuttle Sukuuvestaa SKIN
+  56089: 'Caldari Shuttle Sukuuvestaa SKIN '
   56090: Badger Sukuuvestaa SKIN
   56091: Caldari Union Day Apparel Crate
-  56092: Event 7 Proving Filament
-  56093: Event 8 Proving Filament
-  56094: Event 9 Proving Filament
+  56092: FFA Cruisers Proving Filament
+  56093: 1v1 T1 Combat and Navy Frigates Proving Filament
+  56094: 2v2 Cruiser Clash Proving Filament
   56095: Caldari Union Day Fireworks Crate
   56116: Test crate 2
   56125: Serenity YC122.9 Season Booster - Max Velocity
   56128: Serenity Monthly Cerebral Accelerator - 2020.9
   56129: Serenity September Season Standard Cerebral Accelerator
   56130: Serenity September Season Advanced Cerebral Accelerator
+  56131: Tranquil Electrical Filament
+  56132: Tranquil Dark Filament
+  56133: Tranquil Exotic Filament
+  56134: Tranquil Firestorm Filament
+  56136: Tranquil Gamma Filament
+  56138: Devoted Hunter
+  56139: Cataclysmic Electrical Filament
+  56140: Cataclysmic Dark Filament
+  56141: Cataclysmic Exotic Filament
+  56142: Cataclysmic Firestorm Filament
+  56143: Cataclysmic Gamma Filament
+  56144: Women's EDENCOM 'Reliant' Beret
+  56145: Men's EDENCOM 'Reliant' Beret
+  56146: Women's EDENCOM 'Reliant' T-Shirt
+  56147: Men's EDENCOM 'Reliant' T-Shirt
+  56148: Devoted Knight
+  56150: Striking Kikimora
+  56151: Ghosting Kikimora
+  56152: Tangling Kikimora
   56153: Serenity YC122.9 Season Booster - Warp Speed
   56154: Serenity YC122.9 Season Booster - Agility
   56155: Serenity YC122.9 Season Booster - Signature Radius
   56156: Serenity YC122.9 Season Booster - Probe Scanning Strength
   56157: Serenity YC122.9 Season Booster - Mining Range
   56158: Serenity YC122.9 Season Booster - EW Range
+  56159: Renewing Rodiva
+  56160: Striking Drekavac
+  56161: Shining Drekavac
+  56162: Devoted Fisher
+  56163: Devoted Priest
+  56164: Devoted Trapper
+  56165: Devoted Smith
+  56166: Devoted Lookout
+  56167: Devoted Herald
+  56168: Devoted Torchbearer
+  56170: Attacker Pacifier Disparu Troop
+  56171: Arrester Pacifier Disparu Troop
+  56172: Marker Pacifier Disparu Troop
+  56173: Drainer Pacifier Disparu Troop
+  56174: Assault Enforcer Disparu Troop
+  56175: Drainer Enforcer Disparu Troop
+  56176: Attacker Marshal Disparu Troop
+  56177: Arrester Marshal Disparu Troop
+  56178: Drainer Marshal Disparu Troop
   56179: Serenity September Season Pass
   56180: Standard gunnery skill accelerator
   56181: Advanced gunnery Skill accelerator
@@ -37035,6 +37074,107 @@ id2name:
   56185: Advanced drone skill accelerator
   56186: Standard ore processing skill accelerator
   56187: Advanced ore processing skill accelerator
+  56188: Skybreaker Disparu Troop
+  56189: Stormbringer Disparu Troop
+  56190: Vengeance Crown and Swords SKIN
+  56191: Anathema Crown and Swords SKIN
+  56192: Zealot Crown and Swords SKIN
+  56193: Sacrilege Crown and Swords SKIN
+  56194: Oracle Crown and Swords SKIN
+  56195: Abaddon Crown and Swords SKIN
+  56196: Apostle Crown and Swords SKIN
+  56197: Ark Crown and Swords SKIN
+  56198: Archon Crown and Swords SKIN
+  56199: Aeon Crown and Swords SKIN
+  56200: Thunderchild Disparu Troop
+  56201: Astrahus Upwell Quantum Core
+  56202: Athanor Upwell Quantum Core
+  56203: Raitaru Upwell Quantum Core
+  56204: Fortizar Upwell Quantum Core
+  56205: Tatara Upwell Quantum Core
+  56206: Azbel Upwell Quantum Core
+  56207: Keepstar Upwell Quantum Core
+  56208: Sotiyo Upwell Quantum Core
+  56209: Women's 'Kybernaut Clade' Beret
+  56210: Men's 'Kybernaut Clade' Beret
+  56211: Women's 'Kybernaut Clade' T-Shirt
+  56212: Men's 'Kybernaut Clade' T-Shirt
+  56213: Endobenthic Abyssal Overmind
+  56214: Drifter Command Battleship
+  56216: Marker Enforcer Disparu Troop
+  56223: Women's EDENCOM 'Valiant' Command Jacket
+  56224: Men's EDENCOM 'Valiant' Command Jacket
+  56225: Women's Triglavian Survival Suit (Liminality)
+  56226: Men's Triglavian Survival Suit (Liminality)
+  56264: Women's Bioadaptive Kybernaut Combat Suit
+  56265: Women's EDENCOM 'Defiant' Combat Suit
+  56266: Men's Bioadaptive Kybernaut Combat Suit
+  56267: Men's EDENCOM 'Defiant' Combat Suit
+  56269: Decayed Heavy Warp Scrambler Mutaplasmid
+  56270: Unstable Heavy Warp Scrambler Mutaplasmid
+  56271: Gravid Heavy Warp Scrambler Mutaplasmid
+  56272: Unstable Heavy Warp Disruptor Mutaplasmid
+  56273: Gravid Heavy Warp Disruptor Mutaplasmid
+  56274: Decayed Heavy Warp Disruptor Mutaplasmid
+  56275: Decayed 10000MN Afterburner Mutaplasmid
+  56276: Unstable 10000MN Afterburner Mutaplasmid
+  56277: Gravid 10000MN Afterburner Mutaplasmid
+  56278: Decayed 50000MN Microwarpdrive Mutaplasmid
+  56279: Unstable 50000MN Microwarpdrive Mutaplasmid
+  56280: Gravid 50000MN Microwarpdrive Mutaplasmid
+  56281: Decayed Capital Armor Repairer Mutaplasmid
+  56282: Unstable Capital Armor Repairer Mutaplasmid
+  56283: Gravid Capital Armor Repairer Mutaplasmid
+  56284: Unstable Capital Ancillary Armor Repairer Mutaplasmid
+  56285: Decayed Capital Shield Booster Mutaplasmid
+  56286: Unstable Capital Shield Booster Mutaplasmid
+  56287: Gravid Capital Shield Booster Mutaplasmid
+  56288: Unstable Capital Ancillary Shield Booster Mutaplasmid
+  56289: Decayed Capital Energy Nosferatu Mutaplasmid
+  56290: Unstable Capital Energy Nosferatu Mutaplasmid
+  56291: Gravid Capital Energy Nosferatu Mutaplasmid
+  56292: Decayed Capital Energy Neutralizer Mutaplasmid
+  56293: Unstable Capital Energy Neutralizer Mutaplasmid
+  56294: Gravid Capital Energy Neutralizer Mutaplasmid
+  56295: Lucifer Cynabal
+  56299: Decayed Siege Module Mutaplasmid
+  56300: Unstable Siege Module Mutaplasmid
+  56301: Gravid Siege Module Mutaplasmid
+  56303: Heavy Abyssal Warp Scrambler
+  56304: Heavy Abyssal Warp Disruptor
+  56305: 10000MN Abyssal Afterburner
+  56306: 50000MN Abyssal Microwarpdrive
+  56307: Capital Abyssal Armor Repairer
+  56308: Capital Abyssal Ancillary Armor Repairer
+  56309: Capital Abyssal Shield Booster
+  56310: Capital Abyssal Ancillary Shield Booster
+  56311: Capital Abyssal Energy Nosferatu
+  56312: Capital Abyssal Energy Neutralizer
+  56313: Abyssal Siege Module
+  56314: Edencom Battleship placeholder
+  56315: Elite Lucifer Cynabal
+  56316: Lucifer Ixion
+  56346: Lucifer Dramiel
+  56347: Elite Lucifer Dramiel
+  56348: Lucifer Fury
+  56349: Lucifer Echo
+  56350: Lucifer Medusa
+  56351: Lucifer Burst
+  56352: Lucifer Swordspine
+  56353: Event 10 Proving Filament
+  56354: Event 11 Proving Filament
+  56355: Event 12 Proving Filament
+  56356: Event 13 Proving Filament
+  56357: Event 14 Proving Filament
+  56358: Event 15 Proving Filament
+  56359: Event 16 Proving Filament
+  56360: Event 17 Proving Filament
+  56361: Event 18 Proving Filament
+  56362: GM's Secret Stash Container
+  56365: Tranquil Abyssal Filaments Crate
+  56622: Skybreaker Strikeflight Red SKIN
+  56623: Stormbringer Strikeflight Red SKIN
+  56624: Thunderchild Strikeflight Red SKIN
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -39781,7 +39921,6 @@ name2group:
   '''Construct'' Viziam Scrambler Pistol': infantry/InfantryWeapons
   '''Construct'' Wiyrkomi Swarm Launcher': infantry/InfantryWeapons
   '''Contagion'' Enhanced Codebreaker': infantry/InfantryModules
-  '''Copasetic'' Particle Field Acceleration': module/ShieldBoostAmplifier
   '''Corona'' Ishukone Sniper Rifle': infantry/InfantryWeapons
   '''Corporate'' Light Electron Blaster I': module/HybridWeapon
   '''Corporate'' Light Electron Blaster I Blueprint': blueprint/HybridWeaponBlueprint
@@ -40512,7 +40651,6 @@ name2group:
   '''Squire'' Small Remote Capacitor Transmitter Blueprint': blueprint/RemoteCapacitorTransmitterBlueprint
   '''Stahl'' Assault C-I': infantry/InfantryDropsuits
   '''Stallo'' Assault ck.0+': infantry/InfantryDropsuits
-  '''Stalwart'' Particle Field Magnifier': module/ShieldBoostAmplifier
   '''Starkad'' Basic-M M/I+': infantry/InfantryDropsuits
   '''State Peacekeeper'' Assault C/1-Series': infantry/InfantryDropsuits
   '''State Peacekeeper'' Assault ck.0': infantry/InfantryDropsuits
@@ -40621,6 +40759,7 @@ name2group:
   1.5dn Myofibril Stimulant: infantry/InfantryModules
   100 Aurum Token: accessories/LegacyCurrency
   1000 Aurum Token: accessories/LegacyCurrency
+  10000MN Abyssal Afterburner: module/PropulsionModule
   10000MN Afterburner I: module/PropulsionModule
   10000MN Afterburner I Blueprint: blueprint/PropulsionModuleBlueprint
   10000MN Afterburner II: module/PropulsionModule
@@ -40746,6 +40885,7 @@ name2group:
   1MN Monopropellant Enduring Afterburner: module/PropulsionModule
   1MN Y-S8 Compact Afterburner: module/PropulsionModule
   1st Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
+  1v1 T1 Combat and Navy Frigates Proving Filament: commodity/AbyssalProvingFilaments
   200mm 'Scout' Accelerator Cannon: module/HybridWeapon
   200mm AutoCannon I: module/ProjectileWeapon
   200mm AutoCannon I Blueprint: blueprint/ProjectileWeaponBlueprint
@@ -40850,6 +40990,7 @@ name2group:
   280mm Prototype Siege Cannon: module/ProjectileWeapon
   2nd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
   2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament: commodity/AbyssalProvingFilaments
+  2v2 Cruiser Clash Proving Filament: commodity/AbyssalProvingFilaments
   300 Aurum Token: accessories/LegacyCurrency
   300 Billion ISK Contract Copy: specialeditionassets/SpecialEditionCommodities
   30km Amarr Capture Point: entity/CapturePoint
@@ -40896,6 +41037,7 @@ name2group:
   4th Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
   5/10 DED Angel Big Boss: entity/DeadspaceOverseerCruiser
   500 Aurum Token: accessories/LegacyCurrency
+  50000MN Abyssal Microwarpdrive: module/PropulsionModule
   50000MN Cold-Gas Enduring Microwarpdrive: module/PropulsionModule
   50000MN Cold-Gas Enduring Microwarpdrive Blueprint: blueprint/PropulsionModuleBlueprint
   50000MN Microwarpdrive I: module/PropulsionModule
@@ -40937,7 +41079,6 @@ name2group:
   5MN Microwarpdrive II Blueprint: blueprint/PropulsionModuleBlueprint
   5MN Quad LiF Restrained Microwarpdrive: module/PropulsionModule
   5MN Y-T8 Compact Microwarpdrive: module/PropulsionModule
-  5a Prototype Shield Support I: module/ShieldBoostAmplifier
   5th Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
   60km Capture Point: entity/CapturePoint
   60mm Reinforced Type-A Plates: infantry/InfantryModules
@@ -41097,6 +41238,7 @@ name2group:
   Abaddon Blueprint: blueprint/BattleshipBlueprint
   Abaddon Capsuleer Day XVII SKIN: skins/PermanentSKIN
   Abaddon Cold Iron SKIN: skins/PermanentSKIN
+  Abaddon Crown and Swords SKIN: skins/PermanentSKIN
   Abaddon Cryptic Mimesis SKIN: skins/PermanentSKIN
   Abaddon EoM SKIN: skins/PermanentSKIN
   Abaddon Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -41154,6 +41296,7 @@ name2group:
   Abyssal Gyrostabilizer: module/Gyrostabilizer
   Abyssal Heat Sink: module/HeatSink
   Abyssal Magnetic Field Stabilizer: module/MagneticFieldStabilizer
+  Abyssal Siege Module: module/SiegeModule
   Abyssal Stasis Webifier: module/StasisWeb
   Abyssal Warp Disruptor: module/WarpScrambler
   Abyssal Warp Scrambler: module/WarpScrambler
@@ -41248,6 +41391,7 @@ name2group:
   Aeon Biosecurity Responders SKIN: skins/PermanentSKIN
   Aeon Blueprint: blueprint/SupercarrierBlueprints
   Aeon Cold Iron SKIN: skins/PermanentSKIN
+  Aeon Crown and Swords SKIN: skins/PermanentSKIN
   Aeon EoM SKIN: skins/PermanentSKIN
   Aeon Eros Blossom SKIN: skins/PermanentSKIN
   Aeon Exoplanets Hunter SKIN: skins/PermanentSKIN
@@ -41788,6 +41932,7 @@ name2group:
   Anathema Biosecurity Responders SKIN: skins/PermanentSKIN
   Anathema Blueprint: blueprint/FrigateBlueprint
   Anathema Cold Iron SKIN: skins/PermanentSKIN
+  Anathema Crown and Swords SKIN: skins/PermanentSKIN
   Anathema EoM SKIN: skins/PermanentSKIN
   Anathema Exoplanets Hunter SKIN: skins/PermanentSKIN
   Anathema Glacial Drift SKIN: skins/PermanentSKIN
@@ -42136,6 +42281,7 @@ name2group:
   Apostle Blueprint: blueprint/ForceAuxiliaryBlueprint
   Apostle Capsuleer Elite XV SKIN: skins/PermanentSKIN
   Apostle Cold Iron SKIN: skins/PermanentSKIN
+  Apostle Crown and Swords SKIN: skins/PermanentSKIN
   Apostle Exoplanets Hunter SKIN: skins/PermanentSKIN
   Apostle Frontier Safeguarder SKIN: skins/PermanentSKIN
   Apostle Glacial Drift SKIN: skins/PermanentSKIN
@@ -42295,6 +42441,7 @@ name2group:
   Archon Biosecurity Responders SKIN: skins/PermanentSKIN
   Archon Blueprint: blueprint/CarrierBlueprint
   Archon Cold Iron SKIN: skins/PermanentSKIN
+  Archon Crown and Swords SKIN: skins/PermanentSKIN
   Archon EoM SKIN: skins/PermanentSKIN
   Archon Exoplanets Hunter SKIN: skins/PermanentSKIN
   Archon Glacial Drift SKIN: skins/PermanentSKIN
@@ -42342,6 +42489,7 @@ name2group:
   Ark Biosecurity Responders SKIN: skins/PermanentSKIN
   Ark Blueprint: blueprint/FreighterBlueprint
   Ark Cold Iron SKIN: skins/PermanentSKIN
+  Ark Crown and Swords SKIN: skins/PermanentSKIN
   Ark EoM SKIN: skins/PermanentSKIN
   Ark Exoplanets Hunter SKIN: skins/PermanentSKIN
   Ark Glacial Drift SKIN: skins/PermanentSKIN
@@ -42450,6 +42598,8 @@ name2group:
   Army Quarters: entity/SpawnContainer
   Arnon Epithalamus: entity/IncursionSanshaSNationCruiser
   Arrak Nutan: entity/StorylineMissionBattleship
+  Arrester Marshal Disparu Troop: entity/AbyssalSpaceshipEntities
+  Arrester Pacifier Disparu Troop: entity/AbyssalSpaceshipEntities
   Artificer: infantry/InfantryDropsuits
   Artificial Miyan: commodity/Livestock
   Artificial Neural Network: material/SalvagedMaterials
@@ -42476,6 +42626,7 @@ name2group:
   Assault Damage Control II: module/DamageControl
   Assault Damage Control II Blueprint: blueprint/DamageControlBlueprint
   Assault Dropships: infantry/InfantrySkills
+  Assault Enforcer Disparu Troop: entity/AbyssalSpaceshipEntities
   Assault Forge Gun: infantry/InfantryWeapons
   Assault Frigates: skill/SpaceshipCommand
   Assault G-I: infantry/InfantryDropsuits
@@ -42564,6 +42715,7 @@ name2group:
   Asteroid Structure: entity/LargeCollidableStructure
   Astrahus: structure/Citadel
   Astrahus Blueprint: blueprint/StructureBlueprints
+  Astrahus Upwell Quantum Core: structuremodule/QuantumCores
   Astral Mining Inc. Strong Box: commodity/StrongBoxes
   Astro-Inertial Compact Missile Guidance Computer: module/MissileGuidanceComputer
   AstroFarm: entity/LargeCollidableStructure
@@ -42578,6 +42730,7 @@ name2group:
   Asynchronous Fire Control: infantry/InfantryModules
   Athanor: structure/Refinery
   Athanor Blueprint: blueprint/StructureBlueprints
+  Athanor Upwell Quantum Core: structuremodule/QuantumCores
   Athran Agent: entity/MissionKhanidFrigate
   Athran Operative: entity/MissionKhanidFrigate
   Atmospheric Gases: material/MoonMaterials
@@ -42608,6 +42761,8 @@ name2group:
   Atron Serpentis SKIN: skins/PermanentSKIN
   Atron Spirit SKIN: skins/PermanentSKIN
   Atron Valimor Legacy SKIN: skins/PermanentSKIN
+  Attacker Marshal Disparu Troop: entity/AbyssalSpaceshipEntities
+  Attacker Pacifier Disparu Troop: entity/AbyssalSpaceshipEntities
   Attainment Decryptor: decryptors/GenericDecryptor
   Auctioneer: entity/Convoy
   Auga Hypophysis: entity/IncursionSanshaSNationCruiser
@@ -42728,6 +42883,7 @@ name2group:
   Awakened Watchman: entity/DeadspaceSleeperAwakenedPatroller
   Azbel: structure/EngineeringComplex
   Azbel Blueprint: blueprint/StructureBlueprints
+  Azbel Upwell Quantum Core: structuremodule/QuantumCores
   Azil's Transport: entity/SpawnContainer
   Azure Canyon Tourist Pass: commodity/Commodities
   Azure Cytoserocin: celestial/HarvestableCloud
@@ -44195,7 +44351,7 @@ name2group:
   Caldari Shuttle Blueprint: blueprint/ShuttleBlueprint
   Caldari Shuttle Exoplanets Hunter SKIN: skins/PermanentSKIN
   Caldari Shuttle Glacial Drift SKIN: skins/PermanentSKIN
-  Caldari Shuttle Sukuuvestaa SKIN: skins/PermanentSKIN
+  'Caldari Shuttle Sukuuvestaa SKIN ': skins/PermanentSKIN
   Caldari Starbase Control Tower: entity/LargeCollidableStructure
   Caldari Starbase Control Tower_Tough_Good Loot: entity/LargeCollidableStructure
   Caldari Starship Engineering: skill/Science
@@ -44274,6 +44430,12 @@ name2group:
   Capital ACM Compact Armor Repairer Blueprint: blueprint/ArmorRepairUnitBlueprint
   Capital Absorption Thruster Array: commodity/CapitalConstructionComponents
   Capital Absorption Thruster Array Blueprint: blueprint/CapitalConstructionBlueprints
+  Capital Abyssal Ancillary Armor Repairer: module/AncillaryArmorRepairer
+  Capital Abyssal Ancillary Shield Booster: module/AncillaryShieldBooster
+  Capital Abyssal Armor Repairer: module/ArmorRepairUnit
+  Capital Abyssal Energy Neutralizer: module/EnergyNeutralizer
+  Capital Abyssal Energy Nosferatu: module/EnergyNosferatu
+  Capital Abyssal Shield Booster: module/ShieldBooster
   Capital Algid Energy Administrations Unit I: module/RigEnergyWeapon
   Capital Algid Energy Administrations Unit I Blueprint: blueprint/RigBlueprint
   Capital Algid Energy Administrations Unit II: module/RigEnergyWeapon
@@ -45021,6 +45183,11 @@ name2group:
   Carthum Assault Scrambler Rifle: infantry/InfantryWeapons
   Cartographer's Quarters: entity/SpawnContainer
   'Cartography: The Art of Treasure Map Making': commodity/Commodities
+  Cataclysmic Dark Filament: commodity/AbyssalFilaments
+  Cataclysmic Electrical Filament: commodity/AbyssalFilaments
+  Cataclysmic Exotic Filament: commodity/AbyssalFilaments
+  Cataclysmic Firestorm Filament: commodity/AbyssalFilaments
+  Cataclysmic Gamma Filament: commodity/AbyssalFilaments
   Catalyst: ship/Destroyer
   Catalyst Aliastra SKIN: skins/PermanentSKIN
   Catalyst Aliastra SKIN (30 Days): skins/Max30DaySKIN
@@ -45920,6 +46087,7 @@ name2group:
   Cooking With Veldspar: specialeditionassets/SpecialEditionCommodities
   Coolant: planetarycommodities/RefinedCommoditiesTier2
   Coordinate Plotting Device: entity/SpawnContainer
+  Copasetic Compact Shield Boost Amplifier: module/ShieldBoostAmplifier
   Copious Cobaltite: asteroid/CommonMoonAsteroids
   Copious Euxenite: asteroid/CommonMoonAsteroids
   Copious Scheelite: asteroid/CommonMoonAsteroids
@@ -47145,14 +47313,20 @@ name2group:
   Deathglow Residue: specialeditionassets/SpecialEditionCommodities
   Deathglow Scumlord: entity/IrregularBattleship
   Deathglow Splendorcook: entity/IrregularBattlecruiser
+  Decayed 10000MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Decayed 100MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Decayed 10MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Decayed 1MN Afterburner Mutaplasmid: commodity/Mutaplasmids
+  Decayed 50000MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Decayed 500MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Decayed 50MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Decayed 5MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Decayed Assault Damage Control Mutaplasmid: commodity/Mutaplasmids
   Decayed Ballistic Control System Mutaplasmid: commodity/Mutaplasmids
+  Decayed Capital Armor Repairer Mutaplasmid: commodity/Mutaplasmids
+  Decayed Capital Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
+  Decayed Capital Energy Nosferatu Mutaplasmid: commodity/Mutaplasmids
+  Decayed Capital Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Decayed Damage Control Mutaplasmid: commodity/Mutaplasmids
   Decayed Deathglow: specialeditionassets/SpecialEditionCommodities
   Decayed Entropic Radiation Sink Mutaplasmid: commodity/Mutaplasmids
@@ -47160,6 +47334,8 @@ name2group:
   Decayed Heat Sink Mutaplasmid: commodity/Mutaplasmids
   Decayed Heavy Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
   Decayed Heavy Energy Nosferatu Mutaplasmid: commodity/Mutaplasmids
+  Decayed Heavy Warp Disruptor Mutaplasmid: commodity/Mutaplasmids
+  Decayed Heavy Warp Scrambler Mutaplasmid: commodity/Mutaplasmids
   Decayed Large Armor Plate Mutaplasmid: commodity/Mutaplasmids
   Decayed Large Armor Repairer Mutaplasmid: commodity/Mutaplasmids
   Decayed Large Cap Battery Mutaplasmid: commodity/Mutaplasmids
@@ -47173,6 +47349,7 @@ name2group:
   Decayed Medium Energy Nosferatu Mutaplasmid: commodity/Mutaplasmids
   Decayed Medium Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Decayed Medium Shield Extender Mutaplasmid: commodity/Mutaplasmids
+  Decayed Siege Module Mutaplasmid: commodity/Mutaplasmids
   Decayed Small Armor Plate Mutaplasmid: commodity/Mutaplasmids
   Decayed Small Armor Repairer Mutaplasmid: commodity/Mutaplasmids
   Decayed Small Cap Battery Mutaplasmid: commodity/Mutaplasmids
@@ -47280,6 +47457,15 @@ name2group:
   Device: commodity/Commodities
   Devilfish Alvi: entity/DeadspaceRogueDroneFrigate
   Devilfish Drone: entity/AsteroidRogueDroneFrigate
+  Devoted Fisher: entity/AbyssalSpaceshipEntities
+  Devoted Herald: entity/AbyssalSpaceshipEntities
+  Devoted Hunter: entity/AbyssalSpaceshipEntities
+  Devoted Knight: entity/AbyssalSpaceshipEntities
+  Devoted Lookout: entity/AbyssalSpaceshipEntities
+  Devoted Priest: entity/AbyssalSpaceshipEntities
+  Devoted Smith: entity/AbyssalSpaceshipEntities
+  Devoted Torchbearer: entity/AbyssalSpaceshipEntities
+  Devoted Trapper: entity/AbyssalSpaceshipEntities
   Devoter: ship/HeavyInterdictionCruiser
   Devoter Biosecurity Responders SKIN: skins/PermanentSKIN
   Devoter Blueprint: blueprint/CruiserBlueprint
@@ -47727,6 +47913,9 @@ name2group:
   Dragoon Tash-Murkon SKIN (7 Days): skins/Max7DaySKIN
   Dragoon Tash-Murkon SKIN (90 Days): skins/Max90DaySKIN
   Dragoon Tash-Murkon Serenity Only SKIN: skins/PermanentSKIN
+  Drainer Enforcer Disparu Troop: entity/AbyssalSpaceshipEntities
+  Drainer Marshal Disparu Troop: entity/AbyssalSpaceshipEntities
+  Drainer Pacifier Disparu Troop: entity/AbyssalSpaceshipEntities
   Drake: ship/CombatBattlecruiser
   Drake & Oracle Argyros SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Drake & Rupture SKIN Crate: specialeditionassets/SpecialEditionCommodities
@@ -48047,6 +48236,7 @@ name2group:
   Dried Moss: specialeditionassets/SpecialEditionCommodities
   Drifter Assault Battleship: entity/AbyssalSpaceshipEntities
   Drifter Battleship: entity/HiddenZenithDrifters
+  Drifter Command Battleship: entity/AbyssalSpaceshipEntities
   Drifter Cruiser: entity/DrifterReinforcements
   Drifter Entanglement Cruiser: entity/AbyssalSpaceshipEntities
   Drifter Foothold Battleship: entity/AbyssalSpaceshipEntities
@@ -48370,6 +48560,7 @@ name2group:
   Echelon: ship/Frigate
   Echo: ship/Corvette
   Ectoplasm: commodity/Biohazard
+  Edencom Battleship placeholder: entity/AbyssalSpaceshipEntities
   Edict of Ancestry: commodity/Commodities
   Effotber's Transit Overseer: entity/DeadspaceOverseerBattleship
   Eha Hidaiki: entity/DeadspaceOverseerFrigate
@@ -48591,6 +48782,8 @@ name2group:
   Elite Imperial Navy Sentinel: entity/RetaliatingAmarrEntities
   Elite Imperial Navy Zealot: entity/RetaliatingAmarrEntities
   Elite Laser Pistols: commodity/Commodities
+  Elite Lucifer Cynabal: entity/AbyssalSpaceshipEntities
+  Elite Lucifer Dramiel: entity/AbyssalSpaceshipEntities
   Elite Repair Drone: entity/DeadspaceRogueDroneCruiser
   Elite Republic Fleet Claw: entity/RetaliatingMinmatarEntities
   Elite Republic Fleet Huginn: entity/RetaliatingMinmatarEntities
@@ -48651,6 +48844,7 @@ name2group:
   Encrypted Strongbox: infantry/SalvageContainers
   Encrypted Transmission: commodity/Miscellaneous
   Encryption Code Book: commodity/Commodities
+  Endobenthic Abyssal Overmind: entity/AbyssalSpaceshipEntities
   Endurance: ship/ExpeditionFrigate
   Endurance Amarr Industrial Livery SKIN: skins/PermanentSKIN
   Endurance Amarr Industrial Livery Serenity Only SKIN: skins/PermanentSKIN
@@ -48969,8 +49163,7 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
-  Event 7 Proving Filament: commodity/AbyssalProvingFilaments
-  Event 8 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 10 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
@@ -49164,6 +49357,7 @@ name2group:
   F/45 Remote Explosive: infantry/InfantryEquipment
   F/49 Proximity Explosive: infantry/InfantryEquipment
   F45 Peripheral Damage Control Unit: infantry/InfantryModules
+  FFA Cruisers Proving Filament: commodity/AbyssalProvingFilaments
   FFR Enduring Assault Damage Control: module/DamageControl
   FON Banner: commodity/Commodities
   FON Battleship: entity/StorylineBattleship
@@ -49765,6 +49959,7 @@ name2group:
   Fortified Drug Lab: entity/LargeCollidableStructure
   Fortizar: structure/Citadel
   Fortizar Blueprint: blueprint/StructureBlueprints
+  Fortizar Upwell Quantum Core: structuremodule/QuantumCores
   Foundation Stone: commodity/Miscellaneous
   Four Freedoms Firework: charge/FestivalCharges
   Fourier Compact Tracking Enhancer: module/TrackingEnhancer
@@ -50180,6 +50375,7 @@ name2group:
   Ghosting Damavik: entity/InvadingPrecursorEntities
   Ghosting Drekavac: entity/InvadingPrecursorEntities
   Ghosting Jarognik Kikimora: entity/IrregularDestroyer
+  Ghosting Kikimora: entity/AbyssalSpaceshipEntities
   Ghosting Sudenic Damavik: entity/InvadingPrecursorEntities
   Ghosting Sudenic Drekavac: entity/InvadingPrecursorEntities
   Ghosting Vila Damavik: entity/AbyssalSpaceshipEntities
@@ -50521,20 +50717,28 @@ name2group:
   Grand Teigjon Casino Chip: specialeditionassets/SpecialEditionCommodities
   Graphene Nanoribbons: material/HybridPolymers
   Graphene Nanoribbons Reaction Formula: blueprint/PolymerReactionFormulas
+  Gravid 10000MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Gravid 100MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Gravid 10MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Gravid 1MN Afterburner Mutaplasmid: commodity/Mutaplasmids
+  Gravid 50000MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Gravid 500MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Gravid 50MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Gravid 5MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Gravid Assault Damage Control Mutaplasmid: commodity/Mutaplasmids
   Gravid Ballistic Control System Mutaplasmid: commodity/Mutaplasmids
+  Gravid Capital Armor Repairer Mutaplasmid: commodity/Mutaplasmids
+  Gravid Capital Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
+  Gravid Capital Energy Nosferatu Mutaplasmid: commodity/Mutaplasmids
+  Gravid Capital Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Gravid Damage Control Mutaplasmid: commodity/Mutaplasmids
   Gravid Entropic Radiation Sink Mutaplasmid: commodity/Mutaplasmids
   Gravid Gyrostabilizer Mutaplasmid: commodity/Mutaplasmids
   Gravid Heat Sink Mutaplasmid: commodity/Mutaplasmids
   Gravid Heavy Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
   Gravid Heavy Energy Nosferatu Mutaplasmid: commodity/Mutaplasmids
+  Gravid Heavy Warp Disruptor Mutaplasmid: commodity/Mutaplasmids
+  Gravid Heavy Warp Scrambler Mutaplasmid: commodity/Mutaplasmids
   Gravid Large Armor Plate Mutaplasmid: commodity/Mutaplasmids
   Gravid Large Armor Repairer Mutaplasmid: commodity/Mutaplasmids
   Gravid Large Cap Battery Mutaplasmid: commodity/Mutaplasmids
@@ -50548,6 +50752,7 @@ name2group:
   Gravid Medium Energy Nosferatu Mutaplasmid: commodity/Mutaplasmids
   Gravid Medium Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Gravid Medium Shield Extender Mutaplasmid: commodity/Mutaplasmids
+  Gravid Siege Module Mutaplasmid: commodity/Mutaplasmids
   Gravid Small Armor Plate Mutaplasmid: commodity/Mutaplasmids
   Gravid Small Armor Repairer Mutaplasmid: commodity/Mutaplasmids
   Gravid Small Cap Battery Mutaplasmid: commodity/Mutaplasmids
@@ -51202,6 +51407,8 @@ name2group:
   Heavy 'Vrykolakas' Energy Nosferatu Blueprint: blueprint/EnergyNosferatuBlueprint
   Heavy Abyssal Energy Neutralizer: module/EnergyNeutralizer
   Heavy Abyssal Energy Nosferatu: module/EnergyNosferatu
+  Heavy Abyssal Warp Disruptor: module/WarpScrambler
+  Heavy Abyssal Warp Scrambler: module/WarpScrambler
   Heavy Afocal Maser I: module/EnergyWeapon
   Heavy Afocal Pulse Maser I: module/EnergyWeapon
   Heavy Amarr SKIN - Yellow: infantry/InfantryColorSkin
@@ -52862,7 +53069,6 @@ name2group:
   Ion Siege Blaster II Blueprint: blueprint/HybridWeaponBlueprint
   Ion Thruster: commodity/ConstructionComponents
   Ion Thruster Blueprint: blueprint/ConstructionComponentBlueprints
-  Ionic Field Accelerator I: module/ShieldBoostAmplifier
   Ionic Solutions: planetaryresources/PlanetLiquidGasRawResource
   Iridescent Gneiss: asteroid/Gneiss
   Iridium Charge L: charge/HybridCharge
@@ -53152,6 +53358,7 @@ name2group:
   Kazue's Caiman: entity/IrregularDreadnought
   Keepstar: structure/Citadel
   Keepstar Blueprint: blueprint/StructureBlueprints
+  Keepstar Upwell Quantum Core: structuremodule/QuantumCores
   Keizo Veron: entity/MissionGenericCruisers
   Kelmiler's Transaction Documents 18992 D: commodity/Commodities
   Kennel of Hybrid Slaver Hounds: commodity/Miscellaneous
@@ -54633,6 +54840,14 @@ name2group:
   Lucid Upholder: entity/AbyssalSpaceshipEntities
   Lucid Warden: entity/AbyssalSpaceshipEntities
   Lucid Watchman: entity/AbyssalSpaceshipEntities
+  Lucifer Burst: entity/AbyssalSpaceshipEntities
+  Lucifer Cynabal: entity/AbyssalSpaceshipEntities
+  Lucifer Dramiel: entity/AbyssalSpaceshipEntities
+  Lucifer Echo: entity/AbyssalSpaceshipEntities
+  Lucifer Fury: entity/AbyssalSpaceshipEntities
+  Lucifer Ixion: entity/AbyssalSpaceshipEntities
+  Lucifer Medusa: entity/AbyssalSpaceshipEntities
+  Lucifer Swordspine: entity/AbyssalSpaceshipEntities
   Luis' Modified VC-107 Combat Rifle: infantry/InfantryWeapons
   Luminous Kernite: asteroid/Kernite
   Lump of Carbon: specialeditionassets/SpecialEditionCommodities
@@ -54967,6 +55182,8 @@ name2group:
   Mark I Compact Reinforced Bulkheads: module/ReinforcedBulkhead
   Mark I Compact Shield Flux Coil: module/ShieldFluxCoil
   Mark I Compact Shield Power Relay: module/ShieldPowerRelay
+  Marker Enforcer Disparu Troop: entity/AbyssalSpaceshipEntities
+  Marker Pacifier Disparu Troop: entity/AbyssalSpaceshipEntities
   Marketeer: entity/Convoy
   Marketing: skill/Trade
   Markus Ikmani: entity/MissionGenericBattleships
@@ -55786,6 +56003,9 @@ name2group:
   Men's 'Impact' Jacket (green camo): apparel/Outer
   Men's 'Impact' Jacket (monochrome): apparel/Outer
   Men's 'Impact' Jacket (reflective blue): apparel/Outer
+  Men's 'Imperial Loyalist' Beret: apparel/Headwear
+  Men's 'Kybernaut Clade' Beret: apparel/Headwear
+  Men's 'Kybernaut Clade' T-Shirt: apparel/Tops
   Men's 'Liberator' Beret (Minmatar Republic): apparel/Headwear
   Men's 'Liberator' Cap (Minmatar Republic): apparel/Headwear
   Men's 'Lockstep' Boots: apparel/Footwear
@@ -55848,6 +56068,7 @@ name2group:
   Men's 'Quafe' T-shirt YC 116: apparel/Tops
   Men's 'Quafethron' T-shirt: apparel/Tops
   Men's 'Red Star' T-shirt: apparel/Tops
+  Men's 'Republic Valklear' Beret: apparel/Headwear
   Men's 'Rider' Pants (black silver): apparel/Bottoms
   Men's 'Rider' Pants (red gold): apparel/Bottoms
   Men's 'Rider' Pants (reflective blue): apparel/Bottoms
@@ -55894,11 +56115,9 @@ name2group:
   Men's 'Trench' Boots (gray): apparel/Footwear
   Men's 'Trench' Boots (tan): apparel/Footwear
   Men's 'Twinswitch' Facial Augmentation: apparel/Augmentations
-  Men's 'Valkear' Beret: apparel/Headwear
   Men's 'Valkyrie' Flight Jacket: apparel/Outer
   Men's 'Vermillion Dragon' Facial Augmentation: apparel/Augmentations
   Men's 'Wirepoise' Facial Augmentation: apparel/Augmentations
-  Men's Amarr 'Loyalist' Beret: apparel/Headwear
   Men's Amarr 'Loyalist' T-Shirt: apparel/Tops
   Men's Amarr Empire Command Jacket: apparel/Outer
   Men's Amarr Empire Exploration Suit: apparel/Outer
@@ -55906,6 +56125,7 @@ name2group:
   Men's Aurora Universalis T-Shirt: apparel/Tops
   Men's Beret (Blood Raiders): apparel/Headwear
   Men's BioCrystal Protective Glasses: apparel/Eyewear
+  Men's Bioadaptive Kybernaut Combat Suit: apparel/Outer
   Men's Biosecurity Response Team Coat: apparel/Outer
   Men's Biosecurity Response Team Mask: apparel/Masks
   Men's CONCORD 'Solitaire' Survival Suit: apparel/Outer
@@ -55926,6 +56146,10 @@ name2group:
   Men's Capsuleer Networker XV T-Shirt: apparel/Tops
   Men's Corporate Troubleshooter Gear: apparel/Outer
   Men's DED Cryptologic Technician Coat: apparel/Outer
+  Men's EDENCOM 'Defiant' Combat Suit: apparel/Outer
+  Men's EDENCOM 'Reliant' Beret: apparel/Headwear
+  Men's EDENCOM 'Reliant' T-Shirt: apparel/Tops
+  Men's EDENCOM 'Valiant' Command Jacket: apparel/Outer
   Men's Empyrean Dragons Jacket: apparel/Outer
   Men's Exoplanets Data Analyst Lab Coat: apparel/Outer
   Men's Exoplanets Hunter Cap: apparel/Headwear
@@ -55960,6 +56184,7 @@ name2group:
   Men's State Military Stockpile Jacket: apparel/Outer
   Men's Triglavian Survival Suit (Bioadaptive): apparel/Outer
   Men's Triglavian Survival Suit (Encounter): apparel/Outer
+  Men's Triglavian Survival Suit (Liminality): apparel/Outer
   Men's Triglavian Survival Suit (Perun): apparel/Outer
   Men's Triglavian Survival Suit (Proving Grounds): apparel/Outer
   Men's Triglavian Survival Suit (Svarog): apparel/Outer
@@ -57794,6 +58019,7 @@ name2group:
   Oracle Blueprint: blueprint/BattlecruiserBlueprint
   Oracle Capsuleer Day XV SKIN: skins/PermanentSKIN
   Oracle Cold Iron SKIN: skins/PermanentSKIN
+  Oracle Crown and Swords SKIN: skins/PermanentSKIN
   Oracle EoM SKIN: skins/PermanentSKIN
   Oracle Exoplanets Hunter SKIN: skins/PermanentSKIN
   Oracle Glacial Drift SKIN: skins/PermanentSKIN
@@ -59164,6 +59390,7 @@ name2group:
   Railgun Installation: infantry/InfantryWeapons
   Raitaru: structure/EngineeringComplex
   Raitaru Blueprint: blueprint/StructureBlueprints
+  Raitaru Upwell Quantum Core: structuremodule/QuantumCores
   Rakka's Rattlesnake: entity/IrregularBattleship
   Rakogh Citadel: entity/DeadspaceOverseerSSentry
   Rakogh Officer Gate Key: commodity/AccelerationGateKeys
@@ -59518,7 +59745,7 @@ name2group:
   Renewing Damavik: entity/InvadingPrecursorEntities
   Renewing Jarognik Rodiva: entity/IrregularCruiser
   Renewing Leshak: entity/InvadingPrecursorEntities
-  Renewing Rodiva: entity/InvadingPrecursorEntities
+  Renewing Rodiva: entity/AbyssalSpaceshipEntities
   Renewing Sudenic Damavik: entity/InvadingPrecursorEntities
   Renewing Sudenic Leshak: entity/InvadingPrecursorEntities
   Renewing Sudenic Rodiva: entity/InvadingPrecursorEntities
@@ -60343,6 +60570,7 @@ name2group:
   Sacrilege Biosecurity Responders SKIN: skins/PermanentSKIN
   Sacrilege Blueprint: blueprint/CruiserBlueprint
   Sacrilege Cold Iron SKIN: skins/PermanentSKIN
+  Sacrilege Crown and Swords SKIN: skins/PermanentSKIN
   Sacrilege EoM SKIN: skins/PermanentSKIN
   Sacrilege Exoplanets Hunter SKIN: skins/PermanentSKIN
   Sacrilege Glacial Drift SKIN: skins/PermanentSKIN
@@ -61661,6 +61889,7 @@ name2group:
   Shimmering Vanadinite: asteroid/UncommonMoonAsteroids
   Shimon Jaen: entity/MissionGenericCruisers
   Shimon Jaen's Insignia: commodity/EmpireInsigniaDrops
+  Shining Drekavac: entity/AbyssalSpaceshipEntities
   Shining Loparite: asteroid/ExceptionalMoonAsteroids
   Shining Monazite: asteroid/ExceptionalMoonAsteroids
   Shining Vila Damavik: entity/AbyssalSpaceshipEntities
@@ -61879,6 +62108,8 @@ name2group:
   Skybreaker: ship/Frigate
   Skybreaker Blueprint: blueprint/FrigateBlueprint
   Skybreaker Bluestar Defenders SKIN: skins/PermanentSKIN
+  Skybreaker Disparu Troop: entity/AbyssalSpaceshipEntities
+  Skybreaker Strikeflight Red SKIN: skins/PermanentSKIN
   SlamBolt Condenser Pack L: charge/CondenserPack
   SlamBolt Condenser Pack L Blueprint: blueprint/CondenserPackBlueprint
   SlamBolt Condenser Pack M: charge/CondenserPack
@@ -62578,6 +62809,7 @@ name2group:
   Sort Dragon's Guide To Diplomacy: specialeditionassets/SpecialEditionCommodities
   Sotiyo: structure/EngineeringComplex
   Sotiyo Blueprint: blueprint/StructureBlueprints
+  Sotiyo Upwell Quantum Core: structuremodule/QuantumCores
   Soul Keeper: entity/StorylineMissionBattleship
   Sovereignty: skill/CorporationManagement
   Soxfour's Spaceboots: specialeditionassets/SpecialEditionCommodities
@@ -62699,6 +62931,7 @@ name2group:
   Staff Recruiter Militia Frame: infantry/InfantryDropsuits
   Staff Recruiter Scrambler Pistol: infantry/InfantryWeapons
   Staff Recruiter Sniper Rifle: infantry/InfantryWeapons
+  Stalwart Restrained Shield Boost Amplifier: module/ShieldBoostAmplifier
   Standard 'Ardour' Cerebral Accelerator Blueprint Crate: specialeditionassets/SpecialEditionCommodities
   Standard Armor Skill Accelerator: implant/Booster
   Standard Assault A-I: infantry/InfantryDropsuits
@@ -63624,6 +63857,8 @@ name2group:
   Stormbringer: ship/Cruiser
   Stormbringer Blueprint: blueprint/CruiserBlueprint
   Stormbringer Bluestar Defenders SKIN: skins/PermanentSKIN
+  Stormbringer Disparu Troop: entity/AbyssalSpaceshipEntities
+  Stormbringer Strikeflight Red SKIN: skins/PermanentSKIN
   Strain Annihilator Alvum: entity/DeadspaceRogueDroneCruiser
   Strain Annihilator Drone: entity/AsteroidRogueDroneCruiser
   Strain Atomizer Alvum: entity/DeadspaceRogueDroneCruiser
@@ -63714,6 +63949,8 @@ name2group:
   Striker Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Striker Drone: entity/AsteroidRogueDroneBattleCruiser
   Striking Damavik: entity/AbyssalSpaceshipEntities
+  Striking Drekavac: entity/AbyssalSpaceshipEntities
+  Striking Kikimora: entity/AbyssalSpaceshipEntities
   Striking Leshak: entity/AbyssalSpaceshipEntities
   Striking Vila Damavik: entity/AbyssalSpaceshipEntities
   String Charge Evaluation Couple: commodity/Commodities
@@ -64194,7 +64431,7 @@ name2group:
   Tangling Jarognik Damavik: entity/IrregularFrigate
   Tangling Jarognik Kikimora: entity/IrregularDestroyer
   Tangling Jarognik Vedmak: entity/IrregularCruiser
-  Tangling Kikimora: entity/InvadingPrecursorEntities
+  Tangling Kikimora: entity/AbyssalSpaceshipEntities
   Tangling Leshak: entity/AbyssalSpaceshipEntities
   Tangling Sudenic Damavik: entity/InvadingPrecursorEntities
   Tangling Sudenic Kikimora: entity/InvadingPrecursorEntities
@@ -64237,6 +64474,7 @@ name2group:
   Tarot of St. Jamyl: specialeditionassets/SpecialEditionCommodities
   Tatara: structure/Refinery
   Tatara Blueprint: blueprint/StructureBlueprints
+  Tatara Upwell Quantum Core: structuremodule/QuantumCores
   Tattered Doll: commodity/Miscellaneous
   Tauron: entity/MissionGenericBattleships
   Tayra: ship/Industrial
@@ -64663,6 +64901,8 @@ name2group:
   Thunderchild: ship/Battleship
   Thunderchild Blueprint: blueprint/BattleshipBlueprint
   Thunderchild Bluestar Defenders SKIN: skins/PermanentSKIN
+  Thunderchild Disparu Troop: entity/AbyssalSpaceshipEntities
+  Thunderchild Strikeflight Red SKIN: skins/PermanentSKIN
   Thyram Arachnan's Dossier: commodity/Commodities
   Tiamat: ship/ForceReconShip
   Tiamat Blueprint: blueprint/CruiserBlueprint
@@ -64859,6 +65099,12 @@ name2group:
   Training Container - Salvaging: entity/SpawnContainer
   Training Drone: entity/RogueDrone
   Trajectory Analysis: skill/Gunnery
+  Tranquil Abyssal Filaments Crate: specialeditionassets/SpecialEditionCommodities
+  Tranquil Dark Filament: commodity/AbyssalFilaments
+  Tranquil Electrical Filament: commodity/AbyssalFilaments
+  Tranquil Exotic Filament: commodity/AbyssalFilaments
+  Tranquil Firestorm Filament: commodity/AbyssalFilaments
+  Tranquil Gamma Filament: commodity/AbyssalFilaments
   Transaction And Salary Logs: commodity/Miscellaneous
   Transcranial Microcontrollers: planetarycommodities/SpecializedCommoditiesTier3
   Transmitter: planetarycommodities/RefinedCommoditiesTier2
@@ -65457,20 +65703,30 @@ name2group:
   Unrefined Titanium Chromide Reaction Formula: blueprint/CompositeReactionFormulas
   Unrefined Vanadium Hafnite: material/IntermediateMaterials
   Unrefined Vanadium Hafnite Reaction Formula: blueprint/CompositeReactionFormulas
+  Unstable 10000MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Unstable 100MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Unstable 10MN Afterburner Mutaplasmid: commodity/Mutaplasmids
   Unstable 1MN Afterburner Mutaplasmid: commodity/Mutaplasmids
+  Unstable 50000MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Unstable 500MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Unstable 50MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Unstable 5MN Microwarpdrive Mutaplasmid: commodity/Mutaplasmids
   Unstable Assault Damage Control Mutaplasmid: commodity/Mutaplasmids
   Unstable Ballistic Control System Mutaplasmid: commodity/Mutaplasmids
+  Unstable Capital Ancillary Armor Repairer Mutaplasmid: commodity/Mutaplasmids
+  Unstable Capital Ancillary Shield Booster Mutaplasmid: commodity/Mutaplasmids
+  Unstable Capital Armor Repairer Mutaplasmid: commodity/Mutaplasmids
+  Unstable Capital Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
+  Unstable Capital Energy Nosferatu Mutaplasmid: commodity/Mutaplasmids
+  Unstable Capital Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Unstable Damage Control Mutaplasmid: commodity/Mutaplasmids
   Unstable Entropic Radiation Sink Mutaplasmid: commodity/Mutaplasmids
   Unstable Gyrostabilizer Mutaplasmid: commodity/Mutaplasmids
   Unstable Heat Sink Mutaplasmid: commodity/Mutaplasmids
   Unstable Heavy Energy Neutralizer Mutaplasmid: commodity/Mutaplasmids
   Unstable Heavy Energy Nosferatu Mutaplasmid: commodity/Mutaplasmids
+  Unstable Heavy Warp Disruptor Mutaplasmid: commodity/Mutaplasmids
+  Unstable Heavy Warp Scrambler Mutaplasmid: commodity/Mutaplasmids
   Unstable Large Ancillary Armor Repairer Mutaplasmid: commodity/Mutaplasmids
   Unstable Large Ancillary Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Unstable Large Armor Plate Mutaplasmid: commodity/Mutaplasmids
@@ -65489,6 +65745,7 @@ name2group:
   Unstable Medium Shield Booster Mutaplasmid: commodity/Mutaplasmids
   Unstable Medium Shield Extender Mutaplasmid: commodity/Mutaplasmids
   Unstable Particle Acceleration Superstructure: entity/DeadspaceOverseerSStructure
+  Unstable Siege Module Mutaplasmid: commodity/Mutaplasmids
   Unstable Signal Disruptor: entity/LargeCollidableStructure
   Unstable Small Ancillary Armor Repairer Mutaplasmid: commodity/Mutaplasmids
   Unstable Small Armor Plate Mutaplasmid: commodity/Mutaplasmids
@@ -65661,7 +65918,7 @@ name2group:
   Vagabond Valklear Glory SKIN: skins/PermanentSKIN
   Vagrant Anarchist: entity/AsteroidGuristasDestroyer
   Vagrant Nihilist: entity/AsteroidGuristasDestroyer
-  Valkears: commodity/Livestock
+  Valklears: commodity/Livestock
   Valkyrie I: drone/CombatDrone
   Valkyrie I Blueprint: blueprint/CombatDroneBlueprint
   Valkyrie II: drone/CombatDrone
@@ -65783,6 +66040,7 @@ name2group:
   Vengeance Biosecurity Responders SKIN: skins/PermanentSKIN
   Vengeance Blueprint: blueprint/FrigateBlueprint
   Vengeance Cold Iron SKIN: skins/PermanentSKIN
+  Vengeance Crown and Swords SKIN: skins/PermanentSKIN
   Vengeance EoM SKIN: skins/PermanentSKIN
   Vengeance Exoplanets Hunter SKIN: skins/PermanentSKIN
   Vengeance Glacial Drift SKIN: skins/PermanentSKIN
@@ -66430,6 +66688,7 @@ name2group:
   Women's 'Humanitarian' T-shirt YC 115: apparel/Tops
   Women's 'Humanitarian' T-shirt YC 117: apparel/Tops
   Women's 'Imkuradori' Facial Augmentation: apparel/Augmentations
+  Women's 'Imperial Loyalist' Beret: apparel/Headwear
   Women's 'Impress' Skirt (black leather): apparel/Bottoms
   Women's 'Impress' Skirt (black wax): apparel/Bottoms
   Women's 'Impress' Skirt (brown leather): apparel/Bottoms
@@ -66444,6 +66703,8 @@ name2group:
   Women's 'Impress' Skirt (silver): apparel/Bottoms
   Women's 'Impress' Skirt (white): apparel/Bottoms
   Women's 'Khalikos Vector' Facial Augmentation: apparel/Augmentations
+  Women's 'Kybernaut Clade' Beret: apparel/Headwear
+  Women's 'Kybernaut Clade' T-Shirt: apparel/Tops
   Women's 'Liberator' Beret (Minmatar Republic): apparel/Headwear
   Women's 'Liberator' Cap (Minmatar Republic): apparel/Headwear
   Women's 'Luxury' T-shirt: apparel/Tops
@@ -66510,6 +66771,7 @@ name2group:
   Women's 'Quafe' T-shirt YC 116: apparel/Tops
   Women's 'Quafethron' T-shirt: apparel/Tops
   Women's 'Red Star' T-shirt: apparel/Tops
+  Women's 'Republic Valklear' Beret: apparel/Headwear
   Women's 'Rocket' Dress (black): apparel/Outer
   Women's 'Rocket' Dress (blue): apparel/Outer
   Women's 'Rocket' Dress (copper): apparel/Outer
@@ -66596,7 +66858,6 @@ name2group:
   Women's 'Strut' Pants (red): apparel/Bottoms
   Women's 'Strut' Pants (yellow gloss): apparel/Bottoms
   Women's 'Tripoint' Facial Augmentation: apparel/Augmentations
-  Women's 'Valkear' Beret: apparel/Headwear
   Women's 'Valkyrie' Flight Jacket: apparel/Outer
   Women's 'Vise' Cybernetic Arm (black and orange ringed left): apparel/Prosthetics
   Women's 'Vise' Cybernetic Arm (black and orange ringed right): apparel/Prosthetics
@@ -66613,7 +66874,6 @@ name2group:
   Women's 'Vise' Cybernetic Arm (white and gray ringed left): apparel/Prosthetics
   Women's 'Vise' Cybernetic Arm (white and gray ringed right): apparel/Prosthetics
   Women's 'Waveform' Facial Augmentation: apparel/Augmentations
-  Women's Amarr 'Loyalist' Beret: apparel/Headwear
   Women's Amarr 'Loyalist' T-Shirt: apparel/Tops
   Women's Amarr Empire Command Jacket: apparel/Outer
   Women's Amarr Empire Exploration Suit: apparel/Outer
@@ -66621,6 +66881,7 @@ name2group:
   Women's Aurora Universalis T-Shirt: apparel/Tops
   Women's Beret (Blood Raiders): apparel/Headwear
   Women's BioCrystal Protective Glasses: apparel/Eyewear
+  Women's Bioadaptive Kybernaut Combat Suit: apparel/Outer
   Women's Biosecurity Response Team Coat: apparel/Outer
   Women's Biosecurity Response Team Mask: apparel/Masks
   Women's CONCORD 'Solitaire' Survival Suit: apparel/Outer
@@ -66641,6 +66902,10 @@ name2group:
   Women's Capsuleer Networker XV T-Shirt: apparel/Tops
   Women's Corporate Troubleshooter Gear: apparel/Outer
   Women's DED Cryptologic Technician Coat: apparel/Outer
+  Women's EDENCOM 'Defiant' Combat Suit: apparel/Outer
+  Women's EDENCOM 'Reliant' Beret: apparel/Headwear
+  Women's EDENCOM 'Reliant' T-Shirt: apparel/Tops
+  Women's EDENCOM 'Valiant' Command Jacket: apparel/Outer
   Women's Empyrean Dragons Jacket: apparel/Outer
   Women's Exoplanets Data Analyst Lab Coat: apparel/Outer
   Women's Exoplanets Hunter Cap: apparel/Headwear
@@ -66675,6 +66940,7 @@ name2group:
   Women's State Military Stockpile Jacket: apparel/Outer
   Women's Triglavian Survival Suit (Bioadaptive): apparel/Outer
   Women's Triglavian Survival Suit (Encounter): apparel/Outer
+  Women's Triglavian Survival Suit (Liminality): apparel/Outer
   Women's Triglavian Survival Suit (Perun): apparel/Outer
   Women's Triglavian Survival Suit (Proving Grounds): apparel/Outer
   Women's Triglavian Survival Suit (Svarog): apparel/Outer
@@ -67090,6 +67356,7 @@ name2group:
   Zealot Capsuleer Day XV SKIN: skins/PermanentSKIN
   Zealot Cold Iron SKIN: skins/PermanentSKIN
   Zealot Cordite Blossom SKIN: skins/PermanentSKIN
+  Zealot Crown and Swords SKIN: skins/PermanentSKIN
   Zealot EoM SKIN: skins/PermanentSKIN
   Zealot Exoplanets Hunter SKIN: skins/PermanentSKIN
   Zealot Glacial Drift SKIN: skins/PermanentSKIN

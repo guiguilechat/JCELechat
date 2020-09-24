@@ -49,12 +49,26 @@ public class StructureMoonDrillingServiceModule
     @DefaultIntValue(0)
     public int canfitshipgroup01;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double cpu;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * 
      */
@@ -69,6 +83,13 @@ public class StructureMoonDrillingServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int power;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * Fuel consumed at the beginning of each hour to keep a service module online.
      */
@@ -104,7 +125,14 @@ public class StructureMoonDrillingServiceModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int servicemodulefullpowerstatehitpointmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, AnchoringSecurityLevelMax.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, MaxTypeFitted.INSTANCE })));
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, AnchoringSecurityLevelMax.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final StructureMoonDrillingServiceModule.MetaGroup METAGROUP = new StructureMoonDrillingServiceModule.MetaGroup();
 
     @Override
@@ -118,9 +146,17 @@ public class StructureMoonDrillingServiceModule
             {
                 return canfitshipgroup01;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  50 :
             {
                 return cpu;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  2431 :
             {
@@ -129,6 +165,10 @@ public class StructureMoonDrillingServiceModule
             case  30 :
             {
                 return power;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  2109 :
             {
@@ -149,6 +189,10 @@ public class StructureMoonDrillingServiceModule
             case  2744 :
             {
                 return servicemodulefullpowerstatehitpointmultiplier;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             default:
             {

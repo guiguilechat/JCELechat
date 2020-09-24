@@ -71,6 +71,7 @@ types:
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56204
     structurerolebonus: 25
     structureservicerolebonus: -25
     structureuniformity: 1.0
@@ -155,6 +156,7 @@ types:
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56204
     structurerolebonus: 25
     structureservicerolebonus: -25
     structureuniformity: 1.0
@@ -239,6 +241,7 @@ types:
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56204
     structurerolebonus: 25
     structureservicerolebonus: -50
     structureuniformity: 1.0
@@ -324,6 +327,7 @@ types:
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56204
     structurerolebonus: 25
     structureservicerolebonus: -35
     structureuniformity: 1.0
@@ -409,6 +413,7 @@ types:
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56204
     structurerolebonus: 25
     structureservicerolebonus: -25
     structureuniformity: 1.0
@@ -489,6 +494,7 @@ types:
     strengtimebonus: 1.0
     structuredamagelimit: 5000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56201
     structurerolebonus: 25
     structureservicerolebonus: -25
     structureuniformity: 1.0
@@ -571,6 +577,7 @@ types:
     structureaoerofrolebonus: -20
     structuredamagelimit: 15000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56204
     structurerolebonus: 25
     structureservicerolebonus: -25
     structureuniformity: 1.0
@@ -653,6 +660,7 @@ types:
     structureaoerofrolebonus: -30
     structuredamagelimit: 75000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56207
     structurerolebonus: 25
     structureservicerolebonus: -25
     structureuniformity: 1.0
@@ -737,6 +745,7 @@ types:
     structureaoerofrolebonus: -35
     structuredamagelimit: 75000
     structurefullpowerstatehitpointmultiplier: 1
+    structurerequiresdeedtype: 56207
     structurerolebonus: 25
     structureservicerolebonus: -25
     structureuniformity: 1.0

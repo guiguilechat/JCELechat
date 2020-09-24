@@ -1,4 +1,20 @@
 types:
+  Capital Abyssal Ancillary Shield Booster:
+    capacity: 900.0
+    chargegroup2: 87
+    chargerate: 1
+    chargesize: 4
+    id: 56310
+    name: Capital Abyssal Ancillary Shield Booster
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: true
+    radius: 500.0
+    reloadtime: 10000.0
+    requiredskill1: 21802
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
   Capital Ancillary Shield Booster:
     capacitorneed: 4000.0
     capacity: 900.0

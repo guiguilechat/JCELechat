@@ -59,6 +59,13 @@ public class StructureXLMissileLauncher
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
@@ -87,6 +94,13 @@ public class StructureXLMissileLauncher
     @DefaultRealValue(0.0)
     public double hp;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
+    /**
      * Authoring has been moved to FSD
      * The ranking of the module within its tech level
      */
@@ -101,6 +115,13 @@ public class StructureXLMissileLauncher
     @Stackable(true)
     @DefaultIntValue(0)
     public int power;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * reload time (ms)
      */
@@ -123,6 +144,13 @@ public class StructureXLMissileLauncher
     @DefaultRealValue(0.0)
     public double speed;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -130,7 +158,7 @@ public class StructureXLMissileLauncher
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, Speed.INSTANCE, CanFitShipGroup03 .INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, ChargeGroup1 .INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, ReloadTime.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, Hp.INSTANCE, Slots.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, Speed.INSTANCE, CanFitShipGroup03 .INSTANCE, ChargeRate.INSTANCE, MetaLevelOld.INSTANCE, ChargeGroup1 .INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE })));
     public static final StructureXLMissileLauncher.MetaGroup METAGROUP = new StructureXLMissileLauncher.MetaGroup();
 
     @Override
@@ -148,6 +176,10 @@ public class StructureXLMissileLauncher
             {
                 return canfitshipgroup03;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  604 :
             {
                 return chargegroup1;
@@ -164,6 +196,10 @@ public class StructureXLMissileLauncher
             {
                 return hp;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  633 :
             {
                 return metalevelold;
@@ -171,6 +207,10 @@ public class StructureXLMissileLauncher
             case  30 :
             {
                 return power;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  1795 :
             {
@@ -183,6 +223,10 @@ public class StructureXLMissileLauncher
             case  51 :
             {
                 return speed;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

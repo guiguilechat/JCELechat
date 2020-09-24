@@ -1,7 +1,7 @@
 types:
   Large Compact Vorton Projector:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.8199999928474426
+    aoedamagereductionfactor: 0.699999988079071
     aoevelocity: 79.0
     canfitshiptype1: 54733
     capacitorneed: 135.0
@@ -41,7 +41,7 @@ types:
     vortonarctargets: 5
   Large Consortium Vorton Projector:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.8199999928474426
+    aoedamagereductionfactor: 0.699999988079071
     aoevelocity: 79.0
     canfitshiptype1: 54733
     capacitorneed: 135.0
@@ -82,7 +82,7 @@ types:
     vortonarctargets: 5
   Large Scoped Vorton Projector:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.8199999928474426
+    aoedamagereductionfactor: 0.699999988079071
     aoevelocity: 79.0
     canfitshiptype1: 54733
     capacitorneed: 135.0
@@ -122,7 +122,7 @@ types:
     vortonarctargets: 5
   Large Vorton Projector I:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.8199999928474426
+    aoedamagereductionfactor: 0.699999988079071
     aoevelocity: 79.0
     canfitshiptype1: 54733
     capacitorneed: 135.0
@@ -162,7 +162,7 @@ types:
     vortonarctargets: 5
   Large Vorton Projector II:
     aoecloudsize: 333
-    aoedamagereductionfactor: 0.8199999928474426
+    aoedamagereductionfactor: 0.699999988079071
     aoevelocity: 79.0
     canfitshiptype1: 54733
     capacitorneed: 135.0
@@ -205,7 +205,7 @@ types:
     vortonarctargets: 5
   Medium Compact Vorton Projector:
     aoecloudsize: 143
-    aoedamagereductionfactor: 0.6499999761581421
+    aoedamagereductionfactor: 0.5
     aoevelocity: 105.0
     canfitshiptype1: 54732
     capacitorneed: 32.0
@@ -245,7 +245,7 @@ types:
     vortonarctargets: 5
   Medium Consortium Vorton Projector:
     aoecloudsize: 143
-    aoedamagereductionfactor: 0.6499999761581421
+    aoedamagereductionfactor: 0.5
     aoevelocity: 105.0
     canfitshiptype1: 54732
     capacitorneed: 32.0
@@ -286,7 +286,7 @@ types:
     vortonarctargets: 5
   Medium Scoped Vorton Projector:
     aoecloudsize: 143
-    aoedamagereductionfactor: 0.6499999761581421
+    aoedamagereductionfactor: 0.5
     aoevelocity: 105.0
     canfitshiptype1: 54732
     capacitorneed: 32.0
@@ -326,7 +326,7 @@ types:
     vortonarctargets: 5
   Medium Vorton Projector I:
     aoecloudsize: 143
-    aoedamagereductionfactor: 0.6499999761581421
+    aoedamagereductionfactor: 0.5
     aoevelocity: 105.0
     canfitshiptype1: 54732
     capacitorneed: 32.0
@@ -366,7 +366,7 @@ types:
     vortonarctargets: 5
   Medium Vorton Projector II:
     aoecloudsize: 143
-    aoedamagereductionfactor: 0.6499999761581421
+    aoedamagereductionfactor: 0.5
     aoevelocity: 105.0
     canfitshiptype1: 54732
     capacitorneed: 32.0
@@ -409,7 +409,7 @@ types:
     vortonarctargets: 5
   Small Compact Vorton Projector:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.6000000238418579
+    aoedamagereductionfactor: 0.4000000059604645
     aoevelocity: 190.0
     canfitshiptype1: 54731
     capacitorneed: 7.0
@@ -425,7 +425,7 @@ types:
     id: 54740
     maincolor: 8627698
     marketGroup: 2742
-    maxrange: 17280.0
+    maxrange: 22464.0
     name: Small Compact Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -449,7 +449,7 @@ types:
     vortonarctargets: 5
   Small Consortium Vorton Projector:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.6000000238418579
+    aoedamagereductionfactor: 0.4000000059604645
     aoevelocity: 190.0
     canfitshiptype1: 54731
     capacitorneed: 7.0
@@ -466,7 +466,7 @@ types:
     id: 54743
     maincolor: 8627698
     marketGroup: 2742
-    maxrange: 21120.0
+    maxrange: 27456.0
     name: Small Consortium Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -490,7 +490,7 @@ types:
     vortonarctargets: 5
   Small Scoped Vorton Projector:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.6000000238418579
+    aoedamagereductionfactor: 0.4000000059604645
     aoevelocity: 190.0
     canfitshiptype1: 54731
     capacitorneed: 7.0
@@ -506,7 +506,7 @@ types:
     id: 54741
     maincolor: 8627698
     marketGroup: 2742
-    maxrange: 21120.0
+    maxrange: 27456.0
     name: Small Scoped Vorton Projector
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -530,7 +530,7 @@ types:
     vortonarctargets: 5
   Small Vorton Projector I:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.6000000238418579
+    aoedamagereductionfactor: 0.4000000059604645
     aoevelocity: 190.0
     canfitshiptype1: 54731
     capacitorneed: 7.0
@@ -546,7 +546,7 @@ types:
     id: 54739
     maincolor: 8627698
     marketGroup: 2742
-    maxrange: 17280.0
+    maxrange: 22464.0
     name: Small Vorton Projector I
     overloadrofbonus: -15
     packagedVolume: 5.0
@@ -570,7 +570,7 @@ types:
     vortonarctargets: 5
   Small Vorton Projector II:
     aoecloudsize: 43
-    aoedamagereductionfactor: 0.6000000238418579
+    aoedamagereductionfactor: 0.4000000059604645
     aoevelocity: 190.0
     canfitshiptype1: 54731
     capacitorneed: 7.0
@@ -587,7 +587,7 @@ types:
     id: 54742
     maincolor: 8627698
     marketGroup: 2742
-    maxrange: 19200.0
+    maxrange: 24960.0
     name: Small Vorton Projector II
     overloadrofbonus: -15
     packagedVolume: 5.0

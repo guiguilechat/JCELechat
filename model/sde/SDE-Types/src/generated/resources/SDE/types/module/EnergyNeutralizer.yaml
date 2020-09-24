@@ -144,6 +144,20 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
+  Capital Abyssal Energy Neutralizer:
+    entitycapacitorlevelmodifierlarge: 1.0
+    entitycapacitorlevelmodifiermedium: 1.0
+    entitycapacitorlevelmodifiersmall: 1.0
+    id: 56312
+    name: Capital Abyssal Energy Neutralizer
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 4000.0
   Capital Energy Neutralizer I:
     capacitorneed: 3600.0
     cpu: 90.0

@@ -129,6 +129,17 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 5.0
+  Capital Abyssal Energy Nosferatu:
+    id: 56311
+    name: Capital Abyssal Energy Nosferatu
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3423
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 4000.0
   Capital Energy Nosferatu I:
     cpu: 100.0
     duration: 20000.0

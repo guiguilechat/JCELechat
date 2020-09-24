@@ -14,7 +14,7 @@ public class SecStatusRouterTest {
 		int JITAID = 30000142;
 		int HEKID = 30002053;
 		int UTTINDARID = 30002049;
-		Map<Integer, DisTree> explored = PredicateRouter.HSNOINVASION.explore(JITAID, HEKID);
+		Map<Integer, DisTree> explored = PredicateRouter.HS.explore(JITAID, HEKID);
 		DisTree hekRes = explored.get(HEKID);
 		Assert.assertEquals(hekRes.dist, 19);
 		Assert.assertEquals(hekRes.parent, UTTINDARID);
@@ -28,7 +28,7 @@ public class SecStatusRouterTest {
 		int JITAID = 30000142;
 		int HEKID = 30002053;
 		int OTOUID = 30002723;
-		Map<Integer, DisTree> explored = PredicateRouter.LS.explore(JITAID, HEKID);
+		Map<Integer, DisTree> explored = PredicateRouter.KS.explore(JITAID, HEKID);
 		DisTree hekRes = explored.get(HEKID);
 		Assert.assertEquals(hekRes.dist, 9);
 		Assert.assertEquals(hekRes.parent, OTOUID);

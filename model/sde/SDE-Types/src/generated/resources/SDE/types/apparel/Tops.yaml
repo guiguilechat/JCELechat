@@ -209,6 +209,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Kybernaut Clade' T-Shirt:
+    gender: 2
+    id: 56212
+    marketGroup: 1398
+    name: Men's 'Kybernaut Clade' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Luxury' T-shirt:
     gender: 1
     id: 33488
@@ -587,6 +596,15 @@ types:
     id: 47480
     marketGroup: 1398
     name: Men's Capsuleer Networker XV T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Men's EDENCOM 'Reliant' T-Shirt:
+    gender: 2
+    id: 56147
+    marketGroup: 1398
+    name: Men's EDENCOM 'Reliant' T-Shirt
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1075,6 +1093,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Women's 'Kybernaut Clade' T-Shirt:
+    gender: 2
+    id: 56211
+    marketGroup: 1406
+    name: Women's 'Kybernaut Clade' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Luxury' T-shirt:
     gender: 3
     id: 33487
@@ -1423,6 +1450,15 @@ types:
     id: 47479
     marketGroup: 1406
     name: Women's Capsuleer Networker XV T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's EDENCOM 'Reliant' T-Shirt:
+    gender: 2
+    id: 56146
+    marketGroup: 1406
+    name: Women's EDENCOM 'Reliant' T-Shirt
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

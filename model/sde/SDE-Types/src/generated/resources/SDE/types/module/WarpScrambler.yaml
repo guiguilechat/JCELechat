@@ -601,6 +601,32 @@ types:
     techlevel: 1
     volume: 5.0
     warpscramblestrength: 10
+  Heavy Abyssal Warp Disruptor:
+    falloff: 1.0
+    id: 56304
+    name: Heavy Abyssal Warp Disruptor
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3435
+    requiredskill1level: 5
+    techlevel: 1
+    volume: 100.0
+  Heavy Abyssal Warp Scrambler:
+    falloff: 1.0
+    id: 56303
+    name: Heavy Abyssal Warp Scrambler
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3435
+    requiredskill1level: 5
+    requiredskill2: 3449
+    requiredskill2level: 5
+    techlevel: 1
+    volume: 100.0
   Heavy Faint Epsilon Scoped Warp Scrambler:
     activationblockedstrenght: 1
     capacitorneed: 40.0

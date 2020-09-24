@@ -372,6 +372,17 @@ types:
     requiredthermodynamicsskill: 1
     techlevel: 1
     volume: 4000.0
+  Capital Abyssal Armor Repairer:
+    id: 56307
+    name: Capital Abyssal Armor Repairer
+    packagedVolume: 4000.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 21803
+    requiredskill1level: 4
+    techlevel: 1
+    volume: 4000.0
   Capital Armor Repairer I:
     armordamageamount: 9600.0
     capacitorneed: 2400.0

@@ -145,6 +145,13 @@ public class OutpostConversionRigs
     @DefaultIntValue(0)
     public int canfitshipgroup01;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -158,6 +165,13 @@ public class OutpostConversionRigs
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * 
      */
@@ -189,6 +203,13 @@ public class OutpostConversionRigs
     @DefaultIntValue(0)
     public int metalevelold;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
      * The factor by which the structure modifies the using pilot's refining yield rate.
      */
     @HighIsGood(true)
@@ -216,6 +237,13 @@ public class OutpostConversionRigs
     @Stackable(true)
     @DefaultIntValue(0)
     public int rigsize;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
     /**
      * 
      */
@@ -265,7 +293,7 @@ public class OutpostConversionRigs
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, StructureRigMaxTargetBonus.INSTANCE, StructureRigScanResBonus.INSTANCE, StructureRigPDRangeBonus.INSTANCE, Mass.INSTANCE, StructureRigPDCapUseBonus.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, RefiningYieldMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, ConversionRigHPCapBonus.INSTANCE, RequiredSkill1Level.INSTANCE, AttributeT1ShipManufactureTime.INSTANCE, AttributeT2ShipManufactureTime.INSTANCE, AttributeAdvCompManufactureTime.INSTANCE, AttributeCapCompManufactureTime.INSTANCE, AttributeEquipmentManufactureTime.INSTANCE, AttributeMEResearchTime.INSTANCE, AttributeTEResearchTime.INSTANCE, MetaGroupID.INSTANCE, AttributeCopyTime.INSTANCE, AttributeInventionTime.INSTANCE, AttributeResearchCosts.INSTANCE, StructureItemVisualFlag.INSTANCE, AttributeInventionCosts.INSTANCE, AttributeEngRigMatBonus.INSTANCE, Radius.INSTANCE, StructureServiceRoleBonus.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, StructureRigMaxTargetRangeBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, StructureRigMaxTargetBonus.INSTANCE, StructureRigScanResBonus.INSTANCE, StructureRigPDRangeBonus.INSTANCE, Mass.INSTANCE, StructureRigPDCapUseBonus.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, RefiningYieldMultiplier.INSTANCE, CanFitShipGroup01 .INSTANCE, ConversionRigHPCapBonus.INSTANCE, RequiredSkill1Level.INSTANCE, AttributeT1ShipManufactureTime.INSTANCE, AttributeT2ShipManufactureTime.INSTANCE, AttributeAdvCompManufactureTime.INSTANCE, AttributeCapCompManufactureTime.INSTANCE, AttributeEquipmentManufactureTime.INSTANCE, AttributeMEResearchTime.INSTANCE, AttributeTEResearchTime.INSTANCE, MetaGroupID.INSTANCE, AttributeCopyTime.INSTANCE, AttributeInventionTime.INSTANCE, StructureItemVisualFlag.INSTANCE, AttributeResearchCosts.INSTANCE, AttributeInventionCosts.INSTANCE, Radius.INSTANCE, AttributeEngRigMatBonus.INSTANCE, StructureServiceRoleBonus.INSTANCE, Capacity.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, StructureRigMaxTargetRangeBonus.INSTANCE })));
     public static final OutpostConversionRigs.MetaGroup METAGROUP = new OutpostConversionRigs.MetaGroup();
 
     @Override
@@ -323,6 +351,10 @@ public class OutpostConversionRigs
             {
                 return canfitshipgroup01;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  2772 :
             {
                 return conversionrighpcapbonus;
@@ -330,6 +362,10 @@ public class OutpostConversionRigs
             case  9 :
             {
                 return hp;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  1544 :
             {
@@ -342,6 +378,10 @@ public class OutpostConversionRigs
             case  633 :
             {
                 return metalevelold;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  717 :
             {
@@ -358,6 +398,10 @@ public class OutpostConversionRigs
             case  1547 :
             {
                 return rigsize;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  2434 :
             {

@@ -55,6 +55,13 @@ public class StructureCombatRigXLMissileAndAoEMissile
     @DefaultIntValue(0)
     public int canfitshipgroup02;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -76,6 +83,13 @@ public class StructureCombatRigXLMissileAndAoEMissile
     @DefaultRealValue(1.0)
     public double lowsecmodifier;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -89,6 +103,13 @@ public class StructureCombatRigXLMissileAndAoEMissile
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double nullsecmodifier;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -117,6 +138,13 @@ public class StructureCombatRigXLMissileAndAoEMissile
     @Stackable(true)
     @DefaultIntValue(0)
     public int securitymodifier;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
     /**
      * 
      */
@@ -153,7 +181,7 @@ public class StructureCombatRigXLMissileAndAoEMissile
     @Stackable(true)
     @DefaultIntValue(0)
     public int upgradecost;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, StructureRigMissileExploVeloBonus.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, StructureRigMissileVelocityBonus.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, StructureRigMissileExplosionRadiusBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup02 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, StructureItemVisualFlag.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {UpgradeCost.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, StructureRigMissileExploVeloBonus.INSTANCE, Capacity.INSTANCE, TechLevel.INSTANCE, StructureRigMissileVelocityBonus.INSTANCE, MaxGroupFitted.INSTANCE, Hp.INSTANCE, RigSize.INSTANCE, StructureRigMissileExplosionRadiusBonus.INSTANCE, CanFitShipGroup01 .INSTANCE, HiSecModifier.INSTANCE, CanFitShipGroup02 .INSTANCE, LowSecModifier.INSTANCE, RequiredSkill1Level.INSTANCE, NullSecModifier.INSTANCE, SecurityModifier.INSTANCE, RequiredSkill1 .INSTANCE, StructureItemVisualFlag.INSTANCE })));
     public static final StructureCombatRigXLMissileAndAoEMissile.MetaGroup METAGROUP = new StructureCombatRigXLMissileAndAoEMissile.MetaGroup();
 
     @Override
@@ -167,6 +195,10 @@ public class StructureCombatRigXLMissileAndAoEMissile
             {
                 return canfitshipgroup02;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  2355 :
             {
                 return hisecmodifier;
@@ -179,6 +211,10 @@ public class StructureCombatRigXLMissileAndAoEMissile
             {
                 return lowsecmodifier;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  1544 :
             {
                 return maxgroupfitted;
@@ -186,6 +222,10 @@ public class StructureCombatRigXLMissileAndAoEMissile
             case  2357 :
             {
                 return nullsecmodifier;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  182 :
             {
@@ -202,6 +242,10 @@ public class StructureCombatRigXLMissileAndAoEMissile
             case  2358 :
             {
                 return securitymodifier;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  2438 :
             {

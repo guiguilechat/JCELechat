@@ -52,6 +52,13 @@ public class StructureCompositeReactorRigMME
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * Security status restriction, preventing ships from entering high sec and modules from being activated.
      */
     @HighIsGood(true)
@@ -73,6 +80,13 @@ public class StructureCompositeReactorRigMME
     @DefaultRealValue(1.0)
     public double lowsecmodifier;
     /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
+    /**
      * 
      */
     @HighIsGood(true)
@@ -86,6 +100,13 @@ public class StructureCompositeReactorRigMME
     @Stackable(true)
     @DefaultRealValue(1.0)
     public double nullsecmodifier;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * The type ID of the skill that is required.
      */
@@ -115,6 +136,13 @@ public class StructureCompositeReactorRigMME
     @DefaultIntValue(0)
     public int securitymodifier;
     /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    /**
      * Authoring has been moved to FSD
      * Tech level of an item
      */
@@ -143,6 +171,10 @@ public class StructureCompositeReactorRigMME
             {
                 return canfitshipgroup03;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  1970 :
             {
                 return disallowinhighsec;
@@ -155,6 +187,10 @@ public class StructureCompositeReactorRigMME
             {
                 return lowsecmodifier;
             }
+            case  4 :
+            {
+                return mass;
+            }
             case  1544 :
             {
                 return maxgroupfitted;
@@ -162,6 +198,10 @@ public class StructureCompositeReactorRigMME
             case  2357 :
             {
                 return nullsecmodifier;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  182 :
             {
@@ -178,6 +218,10 @@ public class StructureCompositeReactorRigMME
             case  2358 :
             {
                 return securitymodifier;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

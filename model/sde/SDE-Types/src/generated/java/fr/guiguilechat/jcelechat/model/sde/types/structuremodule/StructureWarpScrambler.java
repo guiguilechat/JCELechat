@@ -82,6 +82,13 @@ public class StructureWarpScrambler
     @DefaultRealValue(0.0)
     public double capacitorneed;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * One of the groups of charge this launcher can be loaded with.
      */
     @HighIsGood(true)
@@ -123,6 +130,13 @@ public class StructureWarpScrambler
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -181,12 +195,26 @@ public class StructureWarpScrambler
     @DefaultIntValue(0)
     public int power;
     /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
+    /**
      * reload time (ms)
      */
     @HighIsGood(false)
     @Stackable(true)
     @DefaultRealValue(10000.0)
     public double reloadtime;
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -228,6 +256,10 @@ public class StructureWarpScrambler
             {
                 return capacitorneed;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  604 :
             {
                 return chargegroup1;
@@ -251,6 +283,10 @@ public class StructureWarpScrambler
             case  9 :
             {
                 return hp;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  763 :
             {
@@ -284,9 +320,17 @@ public class StructureWarpScrambler
             {
                 return power;
             }
+            case  162 :
+            {
+                return radius;
+            }
             case  1795 :
             {
                 return reloadtime;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             case  422 :
             {

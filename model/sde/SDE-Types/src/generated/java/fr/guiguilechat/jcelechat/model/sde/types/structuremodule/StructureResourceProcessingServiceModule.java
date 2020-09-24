@@ -63,6 +63,13 @@ public class StructureResourceProcessingServiceModule
     @DefaultIntValue(0)
     public int canfitshipgroup03;
     /**
+     * The cargo space allowed
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double capacity;
+    /**
      * CPU need of module
      */
     @HighIsGood(false)
@@ -76,6 +83,13 @@ public class StructureResourceProcessingServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int disallowinhighsec;
+    /**
+     * Integer that describes the types mass
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double mass;
     /**
      * 
      */
@@ -101,6 +115,13 @@ public class StructureResourceProcessingServiceModule
     @Stackable(true)
     @DefaultIntValue(0)
     public int power;
+    /**
+     * Radius of an object in meters
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double radius;
     /**
      * 
      */
@@ -164,7 +185,14 @@ public class StructureResourceProcessingServiceModule
     @Stackable(true)
     @DefaultIntValue(1)
     public int servicemodulefullpowerstatehitpointmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, RefiningYieldNormalOres.INSTANCE, RefiningYieldMultiplier.INSTANCE, RefiningYieldMoonOres.INSTANCE, RefiningYieldIce.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup02 .INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, Power.INSTANCE, StructureItemVisualFlag.INSTANCE, MaxTypeFitted.INSTANCE })));
+    /**
+     * Dogma attribute that specifies if the item should have the structure icon or not.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int structureitemvisualflag;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE, RefiningYieldNormalOres.INSTANCE, RefiningYieldMultiplier.INSTANCE, RefiningYieldMoonOres.INSTANCE, RefiningYieldIce.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, DisallowInHighSec.INSTANCE, CanFitShipGroup02 .INSTANCE, ServiceModuleFullPowerStateArmorPlatingMultiplier.INSTANCE, CanFitShipGroup03 .INSTANCE, OnlineMaxSecurityClass.INSTANCE, ServiceModuleFullPowerStateHitpointMultiplier.INSTANCE, ServiceModuleFuelConsumptionGroup.INSTANCE, ServiceModuleFuelAmount.INSTANCE, ServiceModuleFuelOnlineAmount.INSTANCE, StructureItemVisualFlag.INSTANCE, Power.INSTANCE, MaxTypeFitted.INSTANCE })));
     public static final StructureResourceProcessingServiceModule.MetaGroup METAGROUP = new StructureResourceProcessingServiceModule.MetaGroup();
 
     @Override
@@ -182,6 +210,10 @@ public class StructureResourceProcessingServiceModule
             {
                 return canfitshipgroup03;
             }
+            case  38 :
+            {
+                return capacity;
+            }
             case  50 :
             {
                 return cpu;
@@ -189,6 +221,10 @@ public class StructureResourceProcessingServiceModule
             case  1970 :
             {
                 return disallowinhighsec;
+            }
+            case  4 :
+            {
+                return mass;
             }
             case  2431 :
             {
@@ -201,6 +237,10 @@ public class StructureResourceProcessingServiceModule
             case  30 :
             {
                 return power;
+            }
+            case  162 :
+            {
+                return radius;
             }
             case  2448 :
             {
@@ -237,6 +277,10 @@ public class StructureResourceProcessingServiceModule
             case  2744 :
             {
                 return servicemodulefullpowerstatehitpointmultiplier;
+            }
+            case  2334 :
+            {
+                return structureitemvisualflag;
             }
             default:
             {

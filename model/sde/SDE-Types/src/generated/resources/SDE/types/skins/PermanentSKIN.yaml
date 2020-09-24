@@ -31,6 +31,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Abaddon Crown and Swords SKIN:
+    id: 56195
+    marketGroup: 1964
+    name: Abaddon Crown and Swords SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Abaddon Cryptic Mimesis SKIN:
     id: 48893
     marketGroup: 1964
@@ -279,6 +287,14 @@ types:
     id: 42793
     marketGroup: 1974
     name: Aeon Cold Iron SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Aeon Crown and Swords SKIN:
+    id: 56199
+    marketGroup: 1974
+    name: Aeon Crown and Swords SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -586,6 +602,14 @@ types:
     id: 42754
     marketGroup: 2051
     name: Anathema Cold Iron SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Anathema Crown and Swords SKIN:
+    id: 56191
+    marketGroup: 2051
+    name: Anathema Crown and Swords SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1063,6 +1087,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Apostle Crown and Swords SKIN:
+    id: 56196
+    marketGroup: 2278
+    name: Apostle Crown and Swords SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Apostle Exoplanets Hunter SKIN:
     id: 46146
     marketGroup: 2278
@@ -1443,6 +1475,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Archon Crown and Swords SKIN:
+    id: 56198
+    marketGroup: 1974
+    name: Archon Crown and Swords SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Archon EoM SKIN:
     id: 36315
     marketGroup: 1974
@@ -1645,6 +1685,14 @@ types:
     id: 42800
     marketGroup: 2095
     name: Ark Cold Iron SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ark Crown and Swords SKIN:
+    id: 56197
+    marketGroup: 2095
+    name: Ark Crown and Swords SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4265,9 +4313,9 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
-  Caldari Shuttle Sukuuvestaa SKIN:
+  'Caldari Shuttle Sukuuvestaa SKIN ':
     id: 56089
-    name: Caldari Shuttle Sukuuvestaa SKIN
+    name: 'Caldari Shuttle Sukuuvestaa SKIN '
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18822,6 +18870,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Oracle Crown and Swords SKIN:
+    id: 56194
+    marketGroup: 1956
+    name: Oracle Crown and Swords SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Oracle EoM SKIN:
     id: 36286
     name: Oracle EoM SKIN
@@ -23380,6 +23436,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Sacrilege Crown and Swords SKIN:
+    id: 56193
+    marketGroup: 2069
+    name: Sacrilege Crown and Swords SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sacrilege EoM SKIN:
     id: 36298
     marketGroup: 2069
@@ -24384,6 +24448,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Skybreaker Strikeflight Red SKIN:
+    id: 56622
+    name: Skybreaker Strikeflight Red SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Slasher Aurora Universalis SKIN:
     id: 53364
     marketGroup: 2005
@@ -24958,6 +25029,13 @@ types:
     id: 55985
     marketGroup: 2063
     name: Stormbringer Bluestar Defenders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stormbringer Strikeflight Red SKIN:
+    id: 56623
+    name: Stormbringer Strikeflight Red SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26476,6 +26554,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thunderchild Strikeflight Red SKIN:
+    id: 56624
+    name: Thunderchild Strikeflight Red SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tormentor Ardishapur SKIN:
     id: 34730
     marketGroup: 2002
@@ -27479,6 +27564,14 @@ types:
     id: 42753
     marketGroup: 2047
     name: Vengeance Cold Iron SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vengeance Crown and Swords SKIN:
+    id: 56190
+    marketGroup: 2047
+    name: Vengeance Crown and Swords SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28849,6 +28942,14 @@ types:
     id: 48831
     marketGroup: 2069
     name: Zealot Cordite Blossom SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Zealot Crown and Swords SKIN:
+    id: 56192
+    marketGroup: 2069
+    name: Zealot Crown and Swords SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
