@@ -61,6 +61,9 @@ public class JFXTools {
 			suffix = "";
 		}
 		String rets = "" + prefix;
+		if (rets.endsWith(".0")) {
+			rets=rets.substring(0, rets.length()-2);
+		}
 		return (rets.length() > 5 ? rets.substring(0, 5).replaceAll("\\.$", "") : rets) + suffix;
 	}
 
