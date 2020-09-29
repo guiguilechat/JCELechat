@@ -1,7 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.regionstager;
 
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionStager;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionStager.Params;
+import fr.guiguilechat.jcelechat.libs.regionstager.IRegionStager.Params;
 
 public class ChocoStagerMain {
 

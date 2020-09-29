@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.locations.algos;
+package fr.guiguilechat.jcelechat.libs.regionstager;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,10 +9,23 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
 /**
  * split a region into n main systems, in order to reduce the amount of jumps
- * from each system to the closest of those systems.
+ * from each system to the closest of those systems.<br />
+ * This implementation bruteforces the possible main systems.
+ * <p>
+ * A valuation is an array of system indices that are used. Since in that
+ * context, the array [1,2,3] is the same as [3,2,1] we only consider a
+ * valuation as consisting in increasing indices. so [0,1] is a valid valuation
+ * but [1,0] is not.
+ * </p>
+ * <p>
+ * this implementation uses a increment on the valuations, and a prevaluation
+ * function to get a invalid valuation that will be valid, to use in a for loop.
+ * </p>
+ *
  */
 public class BruteStager implements IRegionStager {
 

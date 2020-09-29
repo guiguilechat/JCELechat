@@ -1,10 +1,12 @@
-package fr.guiguilechat.jcelechat.model.sde.locations.algos;
+package fr.guiguilechat.jcelechat.libs.regionstager;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import fr.guiguilechat.jcelechat.libs.regionstager.BruteStager;
 
 public class TestHSRegionStager {
 

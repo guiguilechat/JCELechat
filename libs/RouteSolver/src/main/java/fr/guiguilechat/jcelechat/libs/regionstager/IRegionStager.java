@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.locations.algos;
+package fr.guiguilechat.jcelechat.libs.regionstager;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -11,9 +11,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.Reach;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 import fr.guiguilechat.jcelechat.model.sde.locations.distances.Distances;
 import fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter;
 
+/**
+ * defines the parameters to solve a staging problem.
+ *
+ */
 public interface IRegionStager {
 
 	public static class Params {

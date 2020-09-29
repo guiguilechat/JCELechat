@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.locations.algos;
+package fr.guiguilechat.jcelechat.libs.regioncycler;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -9,6 +9,7 @@ import java.util.Set;
 import java.util.function.Predicate;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
+import fr.guiguilechat.jcelechat.model.sde.locations.algos.Reach;
 import fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter;
 import fr.lelouet.tools.solver.IFondHamilton;
 import fr.lelouet.tools.solver.SimpleGraph;

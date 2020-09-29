@@ -18,7 +18,6 @@ import org.chocosolver.solver.variables.SetVar;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.locations.Station;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionStager;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
 public class ChocoStager implements IRegionStager {

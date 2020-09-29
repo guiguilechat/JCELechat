@@ -2,10 +2,9 @@ package fr.guiguilechat.jcelechat.libs.regioncycler;
 
 import java.util.function.Predicate;
 
+import fr.guiguilechat.jcelechat.libs.regioncycler.IRegionCycler.Params;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionCycler.Params;
 
 public class JitaCycleRefuges extends AMain {
 

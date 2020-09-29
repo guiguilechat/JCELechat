@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
-import fr.guiguilechat.jcelechat.model.sde.locations.algos.IRegionStager;
 import fr.guiguilechat.jcelechat.model.sde.locations.algos.SysIndex;
 
 /**
