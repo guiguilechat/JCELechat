@@ -6,8 +6,6 @@ import java.util.stream.IntStream;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import fr.guiguilechat.jcelechat.libs.regionstager.BruteStager;
-
 public class TestHSRegionStager {
 
 	@Test
