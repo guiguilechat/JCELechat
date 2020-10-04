@@ -5,7 +5,7 @@ import java.util.Set;
 import fr.guiguilechat.jcelechat.model.sde.locations.Invasions;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 
-public class CenterHSMainEdencom {
+public class CenterHSEdencomMain {
 
 	public static void main(String[] args) {
 		SolarSystem ss = SolarSystem.getSystem("Tar");

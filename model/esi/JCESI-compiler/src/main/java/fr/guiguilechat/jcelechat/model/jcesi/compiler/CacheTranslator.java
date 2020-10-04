@@ -42,7 +42,7 @@ import javafx.collections.ObservableMap;
 
 /**
  * create a cache information over the result of a {@link FetchTranslator}.
- * Basically holds all the ifnormations used when calling the {@link #apply()}
+ * Basically holds all the informations used when calling the {@link #apply()}
  * methods, because this methods can make a lot of things and this avoids
  * guessing data several times.
  *
