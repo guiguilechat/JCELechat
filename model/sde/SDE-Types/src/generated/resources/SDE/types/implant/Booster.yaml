@@ -435,7 +435,7 @@ types:
     volume: 1.0
   EDENCOM Vorton Booster DA-2:
     boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18513.45703125
+    boosterlastinjectiondatetime: 18604.45703125
     boosterness: 14
     damagemultiplierbonus: 2
     id: 55044
@@ -453,7 +453,7 @@ types:
     volume: 1.0
   EDENCOM Vorton Booster DA-3:
     boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18513.45703125
+    boosterlastinjectiondatetime: 18604.45703125
     boosterness: 14
     damagemultiplierbonus: 3
     id: 55045
@@ -471,7 +471,7 @@ types:
     volume: 1.0
   EDENCOM Vorton Booster DA-5:
     boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18513.45703125
+    boosterlastinjectiondatetime: 18604.45703125
     boosterness: 14
     damagemultiplierbonus: 5
     id: 55046
@@ -491,7 +491,7 @@ types:
     aoecloudsizebonus: -2.0
     aoevelocitybonus: 2.0
     boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18513.45703125
+    boosterlastinjectiondatetime: 18604.45703125
     boosterness: 14
     id: 55041
     marketGroup: 2531
@@ -510,7 +510,7 @@ types:
     aoecloudsizebonus: -3.0
     aoevelocitybonus: 3.0
     boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18513.45703125
+    boosterlastinjectiondatetime: 18604.45703125
     boosterness: 14
     id: 55042
     marketGroup: 2531
@@ -529,7 +529,7 @@ types:
     aoecloudsizebonus: -5.0
     aoevelocitybonus: 5.0
     boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18513.45703125
+    boosterlastinjectiondatetime: 18604.45703125
     boosterness: 14
     id: 55043
     marketGroup: 2531
@@ -546,7 +546,7 @@ types:
     volume: 1.0
   EDENCOM Vorton Booster RA-2:
     boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18513.45703125
+    boosterlastinjectiondatetime: 18604.45703125
     boosterness: 14
     id: 55038
     marketGroup: 2531
@@ -564,7 +564,7 @@ types:
     volume: 1.0
   EDENCOM Vorton Booster RA-3:
     boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18513.45703125
+    boosterlastinjectiondatetime: 18604.45703125
     boosterness: 14
     id: 55039
     marketGroup: 2531
@@ -582,7 +582,7 @@ types:
     volume: 1.0
   EDENCOM Vorton Booster RA-5:
     boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18513.45703125
+    boosterlastinjectiondatetime: 18604.45703125
     boosterness: 14
     id: 55040
     marketGroup: 2531
@@ -982,6 +982,72 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Festival-only New Eden Commander Pack:
+    boosterduration: 6.048E8
+    boosterlastinjectiondatetime: 18555.125
+    boosterness: 61
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 56661
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Festival-only New Eden Commander Pack
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Festival-only New Eden Marshal Pack:
+    boosterduration: 6.048E8
+    boosterlastinjectiondatetime: 18555.125
+    boosterness: 62
+    charismabonus: 15
+    followsjumpclones: 1
+    id: 56662
+    intelligencebonus: 15
+    memorybonus: 15
+    name: Festival-only New Eden Marshal Pack
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 15
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 15
+  Festival-only New Eden Vanguard Pack:
+    boosterduration: 6.048E8
+    boosterlastinjectiondatetime: 18555.125
+    boosterness: 60
+    charismabonus: 3
+    followsjumpclones: 1
+    id: 56659
+    intelligencebonus: 3
+    memorybonus: 3
+    name: Festival-only New Eden Vanguard Pack
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 3
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 3
   Gallente spaceship skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -2044,6 +2110,28 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2020.10:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18567.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56619
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2020.10
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.6:
     boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18453.666015625
@@ -2125,6 +2213,72 @@ types:
     intelligencebonus: 5
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.9
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity October Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18576.125
+    boosterness: 58
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56621
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity October Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity October Season Pass:
+    boosterduration: 2.7648E9
+    boosterlastinjectiondatetime: 18564.125
+    boosterness: 59
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56640
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity October Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity October Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18576.125
+    boosterness: 57
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56620
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity October Season Standard Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0

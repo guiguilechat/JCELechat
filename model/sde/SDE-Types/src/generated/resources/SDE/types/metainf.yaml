@@ -37172,9 +37172,16 @@ id2name:
   56361: Event 18 Proving Filament
   56362: GM's Secret Stash Container
   56365: Tranquil Abyssal Filaments Crate
+  56619: Serenity Monthly Cerebral Accelerator - 2020.10
+  56620: Serenity October Season Standard Cerebral Accelerator
+  56621: Serenity October Season Advanced Cerebral Accelerator
   56622: Skybreaker Strikeflight Red SKIN
   56623: Stormbringer Strikeflight Red SKIN
   56624: Thunderchild Strikeflight Red SKIN
+  56640: Serenity October Season Pass
+  56659: Festival-only New Eden Vanguard Pack
+  56661: Festival-only New Eden Commander Pack
+  56662: Festival-only New Eden Marshal Pack
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -40989,7 +40996,6 @@ name2group:
   280mm Howitzer Artillery II Blueprint: blueprint/ProjectileWeaponBlueprint
   280mm Prototype Siege Cannon: module/ProjectileWeapon
   2nd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament: commodity/AbyssalProvingFilaments
   2v2 Cruiser Clash Proving Filament: commodity/AbyssalProvingFilaments
   300 Aurum Token: accessories/LegacyCurrency
   300 Billion ISK Contract Copy: specialeditionassets/SpecialEditionCommodities
@@ -49164,6 +49170,7 @@ name2group:
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
   Event 10 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 11 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
@@ -49357,7 +49364,6 @@ name2group:
   F/45 Remote Explosive: infantry/InfantryEquipment
   F/49 Proximity Explosive: infantry/InfantryEquipment
   F45 Peripheral Damage Control Unit: infantry/InfantryModules
-  FFA Cruisers Proving Filament: commodity/AbyssalProvingFilaments
   FFR Enduring Assault Damage Control: module/DamageControl
   FON Banner: commodity/Commodities
   FON Battleship: entity/StorylineBattleship
@@ -49849,6 +49855,9 @@ name2group:
   Festival Skill Points, Calm Electrical Filament and Snowballs Crate: specialeditionassets/SpecialEditionCommodities
   Festival Snowballs Crate: specialeditionassets/SpecialEditionCommodities
   Festival Tier 1 Filament Crate: specialeditionassets/SpecialEditionCommodities
+  Festival-only New Eden Commander Pack: implant/Booster
+  Festival-only New Eden Marshal Pack: implant/Booster
+  Festival-only New Eden Vanguard Pack: implant/Booster
   Festive Firecrackers: specialeditionassets/SpecialEditionCommodities
   Fieldweaver Tessella: entity/AbyssalDroneEntities
   Fiend: ship/HeavyInterdictionCruiser
@@ -61323,10 +61332,14 @@ name2group:
   Serenity August Season Advanced Cerebral Accelerator: implant/Booster
   Serenity August Season Pass: implant/Booster
   Serenity August Season Standard Cerebral Accelerator: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2020.10: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.6: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.7: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.8: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.9: implant/Booster
+  Serenity October Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity October Season Pass: implant/Booster
+  Serenity October Season Standard Cerebral Accelerator: implant/Booster
   Serenity September Season Advanced Cerebral Accelerator: implant/Booster
   Serenity September Season Pass: implant/Booster
   Serenity September Season Standard Cerebral Accelerator: implant/Booster

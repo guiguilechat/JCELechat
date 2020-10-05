@@ -8,15 +8,6 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament:
-    id: 55983
-    marketGroup: 2747
-    name: 2v2 Caldari Destroyer, Interceptor, and Navy Frigate Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
   2v2 Cruiser Clash Proving Filament:
     id: 56094
     marketGroup: 2747
@@ -34,12 +25,11 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  FFA Cruisers Proving Filament:
-    id: 56092
+  Event 11 Proving Filament:
+    id: 56354
     marketGroup: 2747
-    name: FFA Cruisers Proving Filament
+    name: Event 11 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     volume: 0.10000000149011612
