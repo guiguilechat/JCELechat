@@ -137,6 +137,11 @@ public class Region extends ALocation {
 	public static final Collection<String> EMPIRE_SERPENTIS = Collections.unmodifiableCollection(
 			Arrays.asList("Essence", "Everyshore", "Placid", "Sinq Laison", "Solitude", "Verge Vendor"));
 
+	public static final Collection<String> EMPIRE = Collections.unmodifiableCollection(Stream
+			.concat(Stream.concat(EMPIRE_ANGELS.stream(), EMPIRE_BLOODS.stream()),
+					Stream.concat(EMPIRE_GURISTAS.stream(), Stream.concat(EMPIRE_SANSHAS.stream(), EMPIRE_SERPENTIS.stream())))
+			.collect(Collectors.toList()));
+
 	public static Collection<String> piratesHSRegion(SolarSystem ss) {
 		for (Collection<String> c : Arrays.asList(EMPIRE_ANGELS, EMPIRE_BLOODS, EMPIRE_GURISTAS, EMPIRE_SANSHAS,
 				EMPIRE_SERPENTIS)) {
