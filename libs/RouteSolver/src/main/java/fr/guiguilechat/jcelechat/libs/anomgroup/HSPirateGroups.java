@@ -18,10 +18,10 @@ public class HSPirateGroups {
 		add(serpentis, Region.EMPIRE_SERPENTIS);
 	}
 
-	protected void add(PirateGroup guristas2, Collection<String> empireGuristas) {
-		for (String rn : empireGuristas) {
+	protected void add(PirateGroup pirategroup, Collection<String> regions) {
+		for (String rn : regions) {
 			Region r = Region.getRegion(rn);
-			r.systems().map(SolarSystem::getSystem).forEach(guristas2::accept);
+			r.systems().map(SolarSystem::getSystem).forEach(pirategroup::accept);
 		}
 	}
 
