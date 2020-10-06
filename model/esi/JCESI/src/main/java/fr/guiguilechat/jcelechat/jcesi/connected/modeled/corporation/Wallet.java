@@ -12,6 +12,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.Corporation;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders_history;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
@@ -52,6 +53,22 @@ public class Wallet {
 			});
 		}
 		return cachedTotal;
+	}
+
+	private ObsDoubleHolder cachedFirstDivision = null;
+
+	/** get the total sum of all the divisions' wallets */
+	public ObsDoubleHolder getFirstDivision() {
+		if (cachedFirstDivision == null) {
+			LockWatchDog.BARKER.syncExecute(this, () -> {
+				if (cachedFirstDivision == null) {
+					cachedFirstDivision = getAcc().raw.cache.corporations.wallets(getId())
+							.reduceDouble(l -> l.stream().filter(div -> div.division == 1).findFirst()
+									.orElseGet(() -> new R_get_corporations_corporation_id_wallets()).balance);
+				}
+			});
+		}
+		return cachedFirstDivision;
 	}
 
 	private ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions> cachedWholeTransactions = null;
