@@ -31,7 +31,7 @@ public class ShowRefineM14 {
 		System.out.println("name\tid\tmeta");
 		for (Module m : modules) {
 			IndustryUsage iu = IndustryUsage.of(m.id);
-			System.out.println(m.name + "\t" + m.id + "\t" + mlo.value(m) + "\t\t"
+			System.out.println("\'" + m.name + "\t" + m.id + "\t" + mlo.value(m) + "\t\t"
 					+ IntStream.of(matids).mapToObj(id -> "" + 0.5 * iu.reprocessInto.getOrDefault(id, 0.0))
 					.collect(Collectors.joining("\t")));
 		}

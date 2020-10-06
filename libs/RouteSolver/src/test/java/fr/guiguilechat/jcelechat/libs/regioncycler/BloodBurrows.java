@@ -26,7 +26,7 @@ public class BloodBurrows extends AMain {
 	@Override
 	protected Params params() {
 		ArrayList<String> regions = new ArrayList<>(Region.EMPIRE);
-		return super.params().withRegion(regions).withAllowed(ss -> ss.isHS());
+		return super.params().withRegion(regions).withAllowed(ss -> true);
 	}
 
 }
