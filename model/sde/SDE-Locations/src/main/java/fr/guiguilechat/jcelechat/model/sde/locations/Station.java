@@ -48,6 +48,18 @@ public class Station {
 		return loadById;
 	}
 
+	public static Station get(int stationID) {
+		String name = loadById().get(stationID);
+		if (name == null) {
+			return null;
+		}
+		return load().get(name);
+	}
+
+	public static Station get(String stationName) {
+		return load().get(stationName);
+	}
+
 	public static void export(LinkedHashMap<String, Station> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
@@ -74,5 +86,14 @@ public class Station {
 	public String name;
 
 	public String solarSystem;
+
+	private transient SolarSystem solarsystem = null;
+
+	public synchronized SolarSystem system() {
+		if (solarsystem == null) {
+			solarsystem = SolarSystem.getSystem(solarSystem);
+		}
+		return solarsystem;
+	}
 
 }

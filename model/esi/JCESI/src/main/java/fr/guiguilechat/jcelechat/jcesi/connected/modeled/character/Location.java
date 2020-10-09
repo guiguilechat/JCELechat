@@ -23,7 +23,7 @@ public class Location {
 		return con.raw.cache.characters.location(con.characterId());
 	}
 
-	public ObsIntHolder solarSystem = null;
+	protected ObsIntHolder solarSystem = null;
 
 	public ObsIntHolder getSolarSystemID() {
 		if (solarSystem == null) {
@@ -37,7 +37,7 @@ public class Location {
 		return solarSystem;
 	}
 
-	public ObsIntHolder stationID = null;
+	protected ObsIntHolder stationID = null;
 
 	public ObsIntHolder getStationID() {
 		if (stationID == null) {
@@ -51,7 +51,7 @@ public class Location {
 		return stationID;
 	}
 
-	public ObsLongHolder structureID = null;
+	protected ObsLongHolder structureID = null;
 
 	public ObsLongHolder getStructureID() {
 		if (structureID == null) {

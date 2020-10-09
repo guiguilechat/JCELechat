@@ -118,7 +118,8 @@ public class RegionalMarket implements IPricing {
 	 * region.
 	 *
 	 * @param centerId
-	 *          id of the system of station to limit.
+	 *          id of the system of station to limit. if set to a station, will
+	 *          only get the orders in that specific station.
 	 * @param distance
 	 *          max distance if it's a system. 0 means in that system only.
 	 * @param onlyHS
