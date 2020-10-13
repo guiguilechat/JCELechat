@@ -6,6 +6,7 @@ types:
     name: Decayed 10000MN Afterburner Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Decayed 100MN Afterburner Mutaplasmid:
@@ -45,6 +46,7 @@ types:
     name: Decayed 50000MN Microwarpdrive Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Decayed 500MN Microwarpdrive Mutaplasmid:
@@ -104,6 +106,7 @@ types:
     name: Decayed Capital Armor Repairer Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Decayed Capital Energy Neutralizer Mutaplasmid:
@@ -113,6 +116,7 @@ types:
     name: Decayed Capital Energy Neutralizer Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Decayed Capital Energy Nosferatu Mutaplasmid:
@@ -122,6 +126,7 @@ types:
     name: Decayed Capital Energy Nosferatu Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Decayed Capital Shield Booster Mutaplasmid:
@@ -131,6 +136,7 @@ types:
     name: Decayed Capital Shield Booster Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Decayed Damage Control Mutaplasmid:
@@ -200,6 +206,7 @@ types:
     name: Decayed Heavy Warp Disruptor Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Decayed Heavy Warp Scrambler Mutaplasmid:
@@ -209,6 +216,7 @@ types:
     name: Decayed Heavy Warp Scrambler Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Decayed Large Armor Plate Mutaplasmid:
@@ -348,6 +356,7 @@ types:
     name: Decayed Siege Module Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Decayed Small Armor Plate Mutaplasmid:
@@ -467,6 +476,7 @@ types:
     name: Gravid 10000MN Afterburner Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Gravid 100MN Afterburner Mutaplasmid:
@@ -506,6 +516,7 @@ types:
     name: Gravid 50000MN Microwarpdrive Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Gravid 500MN Microwarpdrive Mutaplasmid:
@@ -565,6 +576,7 @@ types:
     name: Gravid Capital Armor Repairer Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Gravid Capital Energy Neutralizer Mutaplasmid:
@@ -574,6 +586,7 @@ types:
     name: Gravid Capital Energy Neutralizer Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Gravid Capital Energy Nosferatu Mutaplasmid:
@@ -583,6 +596,7 @@ types:
     name: Gravid Capital Energy Nosferatu Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Gravid Capital Shield Booster Mutaplasmid:
@@ -592,6 +606,7 @@ types:
     name: Gravid Capital Shield Booster Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Gravid Damage Control Mutaplasmid:
@@ -661,6 +676,7 @@ types:
     name: Gravid Heavy Warp Disruptor Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Gravid Heavy Warp Scrambler Mutaplasmid:
@@ -670,6 +686,7 @@ types:
     name: Gravid Heavy Warp Scrambler Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Gravid Large Armor Plate Mutaplasmid:
@@ -809,6 +826,7 @@ types:
     name: Gravid Siege Module Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Gravid Small Armor Plate Mutaplasmid:
@@ -928,6 +946,7 @@ types:
     name: Unstable 10000MN Afterburner Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable 100MN Afterburner Mutaplasmid:
@@ -967,6 +986,7 @@ types:
     name: Unstable 50000MN Microwarpdrive Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable 500MN Microwarpdrive Mutaplasmid:
@@ -1026,6 +1046,7 @@ types:
     name: Unstable Capital Ancillary Armor Repairer Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable Capital Ancillary Shield Booster Mutaplasmid:
@@ -1035,6 +1056,7 @@ types:
     name: Unstable Capital Ancillary Shield Booster Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable Capital Armor Repairer Mutaplasmid:
@@ -1044,6 +1066,7 @@ types:
     name: Unstable Capital Armor Repairer Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable Capital Energy Neutralizer Mutaplasmid:
@@ -1053,6 +1076,7 @@ types:
     name: Unstable Capital Energy Neutralizer Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable Capital Energy Nosferatu Mutaplasmid:
@@ -1062,6 +1086,7 @@ types:
     name: Unstable Capital Energy Nosferatu Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable Capital Shield Booster Mutaplasmid:
@@ -1071,6 +1096,7 @@ types:
     name: Unstable Capital Shield Booster Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable Damage Control Mutaplasmid:
@@ -1140,6 +1166,7 @@ types:
     name: Unstable Heavy Warp Disruptor Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable Heavy Warp Scrambler Mutaplasmid:
@@ -1149,6 +1176,7 @@ types:
     name: Unstable Heavy Warp Scrambler Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable Large Ancillary Armor Repairer Mutaplasmid:
@@ -1328,6 +1356,7 @@ types:
     name: Unstable Siege Module Mutaplasmid
     packagedVolume: 1.0
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 1.0
   Unstable Small Ancillary Armor Repairer Mutaplasmid:

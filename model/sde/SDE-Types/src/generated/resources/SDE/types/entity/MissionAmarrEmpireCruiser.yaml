@@ -1861,8 +1861,8 @@ types:
     modifytargetspeedrange: 20000
     name: Divine Imperial Tamir
     npctrackingdisruptoractivationchance: 0.4000000059604645
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 37500
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 37500.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1
@@ -1954,8 +1954,8 @@ types:
     modifytargetspeedrange: 20000
     name: Divine Imperial Wrath
     npctrackingdisruptoractivationchance: 0.3499999940395355
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 37500
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 37500.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1
@@ -2044,8 +2044,8 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Agatho
     npctrackingdisruptoractivationchance: 0.11999999731779099
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 37500
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 37500.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1
@@ -2134,8 +2134,8 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Donus
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 37500
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 37500.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1
@@ -3942,8 +3942,8 @@ types:
     modifytargetspeedrange: 20000
     name: Independent Veteran Arbitrator
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 125
     packagedVolume: 130000.0
     portionSize: 1
@@ -4037,8 +4037,8 @@ types:
     modifytargetspeedrange: 20000
     name: Independent Veteran Augoror
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 125
     packagedVolume: 130000.0
     portionSize: 1
@@ -4132,8 +4132,8 @@ types:
     modifytargetspeedrange: 20000
     name: Independent Veteran Maller
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 125
     packagedVolume: 130000.0
     portionSize: 1
@@ -4227,8 +4227,8 @@ types:
     modifytargetspeedrange: 20000
     name: Independent Veteran Omen
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 125
     packagedVolume: 130000.0
     portionSize: 1

@@ -31,10 +31,18 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerD
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNeutralizerRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNosferatuDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNosferatuDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNosferatuFalloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorEnergyNosferatuRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorRemoteArmorRepairRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerFalloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSensorDampenerRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeDisallowTetheringModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeECMResistanceModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeLocalLogisticsAmountModifier;
@@ -48,6 +56,10 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeSensorDampene
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeTurretDamageModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeWarpScrambleStatusModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorSiegeWeaponDisruptionResistanceModifier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorTargetPainterDischarge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorTargetPainterDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorTargetPainterFalloff;
+import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorTargetPainterRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpScrambleDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpScrambleDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.BehaviorWarpScrambleRange;
@@ -60,6 +72,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Charge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonusMax;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DamageMultiplierBonusPerCycle;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EnergyNeutralizerAmount;
@@ -75,22 +89,38 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMaxVelocitySignatureRadiusMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMissileTypeID;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityMaxGain;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntitySecurityStatusKillBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosionDelayBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Falloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.FalloffBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityAntiCapitalMissileResistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.FighterAbilityKamikazeResistance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxBoosterID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.GfxTurretID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.IsCapitalSize;
+import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.KineticDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxLockedTargets;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaxTargetRangeBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxVelocity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MaximumRangeCap;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeCloudSizeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityAoeVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityFlightTimeMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityVelocityMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.MissileLaunchDuration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileVelocityBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NosOverride;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcBehaviorMaximumCombatOrbitRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcGuidanceDisruptorDischarge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcGuidanceDisruptorDuration;
@@ -101,6 +131,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.NpcTrackingDisruptorDurati
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcTrackingDisruptorFalloff;
 import fr.guiguilechat.jcelechat.model.sde.attributes.NpcTrackingDisruptorRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.PowerTransferAmount;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanGravimetricStrength;
@@ -108,6 +139,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrength;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
@@ -117,6 +149,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadiusBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SpeedFactor;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
@@ -129,7 +162,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleStatus;
 import fr.guiguilechat.jcelechat.model.sde.types.Entity;
 import org.yaml.snakeyaml.Yaml;
 
-public class RetaliatingAmarrEntities
+public class TriglavianEntities
     extends Entity
 {
     /**
@@ -348,6 +381,34 @@ public class RetaliatingAmarrEntities
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
+    public double behaviorenergynosferatudischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorenergynosferatuduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorenergynosferatufalloff;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int behaviorenergynosferaturange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
     public double behaviorremotearmorrepairdischarge;
     /**
      * 
@@ -370,6 +431,62 @@ public class RetaliatingAmarrEntities
     @Stackable(true)
     @DefaultIntValue(0)
     public int behaviorremotearmorrepairrange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorsensordampenerdischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorsensordampenerduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorsensordampenerfalloff;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviorsensordampenerrange;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterdischarge;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterduration;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterfalloff;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterrange;
     /**
      * 
      */
@@ -410,8 +527,8 @@ public class RetaliatingAmarrEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierduration;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierduration;
     /**
      * 
      */
@@ -424,8 +541,8 @@ public class RetaliatingAmarrEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierrange;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierrange;
     /**
      * Capacitor capacity
      */
@@ -454,6 +571,20 @@ public class RetaliatingAmarrEntities
     @Stackable(false)
     @DefaultRealValue(1.0)
     public double damagemultiplier;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.5)
+    public double damagemultiplierbonusmax;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double damagemultiplierbonuspercycle;
     /**
      * EM damage done.
      */
@@ -562,12 +693,41 @@ public class RetaliatingAmarrEntities
     @DefaultIntValue(6)
     public int entitymaxvelocitysignatureradiusmultiplier;
     /**
+     * The type of missiles the entity launches.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int entitymissiletypeid;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entitysecuritymaxgain;
+    /**
+     * How much security status is modified by for killing this entity.  Depending on the entity, this may be a positive or negative amount.
+     * Value is a % movement of the character's current security towards the upper/lower limit.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double entitysecuritystatuskillbonus;
+    /**
      * Autogenerated skill attribute, explosionDelayBonus
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double explosiondelaybonus;
+    /**
+     * Explosive damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double explosivedamage;
     /**
      * damage multiplier vs. explosive damagers.
      */
@@ -590,6 +750,20 @@ public class RetaliatingAmarrEntities
     @DefaultRealValue(0.0)
     public double falloffbonus;
     /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilityanticapitalmissileresistance;
+    /**
+     * 
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int fighterabilitykamikazeresistance;
+    /**
      * Graphic ID of the boosters for drone type ships.
      */
     @HighIsGood(true)
@@ -610,6 +784,20 @@ public class RetaliatingAmarrEntities
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double hp;
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int iscapitalsize;
+    /**
+     * Kinetic damage done.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double kineticdamage;
     /**
      * damage multiplier vs. kinetic damagers.
      */
@@ -653,12 +841,26 @@ public class RetaliatingAmarrEntities
     @DefaultRealValue(0.0)
     public double maxtargetrange;
     /**
+     * Bonus to Max Targeting Range
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double maxtargetrangebonus;
+    /**
      * Maximum velocity of ship
      */
     @HighIsGood(true)
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double maxvelocity;
+    /**
+     * The maximum possible target range.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(300000)
+    public int maximumrangecap;
     /**
      * The characters missile use efficiency, scales the damage missiles do.
      */
@@ -667,6 +869,41 @@ public class RetaliatingAmarrEntities
     @DefaultRealValue(1.0)
     public double missiledamagemultiplier;
     /**
+     * Affects the signature radius of the target in missile impact calculations.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityaoecloudsizemultiplier;
+    /**
+     * Affects the velocity of the target in missile impact calculations.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityaoevelocitymultiplier;
+    /**
+     * Multiplier for the missile's flight time.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityflighttimemultiplier;
+    /**
+     * Multiplier for the missile's speed.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double missileentityvelocitymultiplier;
+    /**
+     * Cycle time for a missile launch, in milliseconds.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(20000.0)
+    public double missilelaunchduration;
+    /**
      * Autogenerated skill attribute, missileVelocityBonus 
      */
     @HighIsGood(true)
@@ -674,12 +911,19 @@ public class RetaliatingAmarrEntities
     @DefaultRealValue(0.0)
     public double missilevelocitybonus;
     /**
-     * Used by Behavior NPCs to work out minimum orbit range. If the npc has an effect with a shorter range, it will use the effects range instead.
+     * NOS override allows a nosferatu module to drain the target capacitor below the current ships capacitor level.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(0)
-    public int npcbehaviormaximumcombatorbitrange;
+    public int nosoverride;
+    /**
+     * Used by Behavior NPCs to work out minimum orbit range. If the npc has an effect with a shorter range, it will use the effects range instead.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double npcbehaviormaximumcombatorbitrange;
     /**
      * 
      */
@@ -692,22 +936,22 @@ public class RetaliatingAmarrEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npcguidancedisruptorduration;
+    @DefaultRealValue(0.0)
+    public double npcguidancedisruptorduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npcguidancedisruptorfalloff;
+    @DefaultRealValue(0.0)
+    public double npcguidancedisruptorfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npcguidancedisruptorrange;
+    @DefaultRealValue(0.0)
+    public double npcguidancedisruptorrange;
     /**
      * 
      */
@@ -720,22 +964,22 @@ public class RetaliatingAmarrEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npctrackingdisruptorduration;
+    @DefaultRealValue(0.0)
+    public double npctrackingdisruptorduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npctrackingdisruptorfalloff;
+    @DefaultRealValue(0.0)
+    public double npctrackingdisruptorfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npctrackingdisruptorrange;
+    @DefaultRealValue(0.0)
+    public double npctrackingdisruptorrange;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */
@@ -743,6 +987,13 @@ public class RetaliatingAmarrEntities
     @Stackable(true)
     @DefaultIntValue(1000)
     public int optimalsigradius;
+    /**
+     * Amount of power to transfer.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int powertransferamount;
     /**
      * Radius of an object in meters
      */
@@ -792,6 +1043,13 @@ public class RetaliatingAmarrEntities
     @Stackable(false)
     @DefaultRealValue(0.0)
     public double scanresolution;
+    /**
+     * Bonus for scan resolution
+     */
+    @HighIsGood(true)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double scanresolutionbonus;
     /**
      * Amount of maximum shield HP on the item.
      */
@@ -857,6 +1115,13 @@ public class RetaliatingAmarrEntities
     @DefaultRealValue(100.0)
     public double signatureradius;
     /**
+     * Autogenerated skill attribute, signatureRadiusBonus
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double signatureradiusbonus;
+    /**
      * Time in milliseconds between possible activations
      */
     @HighIsGood(false)
@@ -919,8 +1184,8 @@ public class RetaliatingAmarrEntities
     @Stackable(true)
     @DefaultIntValue(0)
     public int warpscramblestatus;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, EntityBracketColour.INSTANCE, MissileVelocityBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, BehaviorSiegeRemoteRepairImpedanceModifier.INSTANCE, AoeVelocityBonus.INSTANCE, BehaviorSiegeRemoteAssistanceImpedanceModifier.INSTANCE, AoeCloudSizeBonus.INSTANCE, BehaviorSiegeSensorDampenerResistanceModifier.INSTANCE, BehaviorSiegeWeaponDisruptionResistanceModifier.INSTANCE, BehaviorSiegeECMResistanceModifier.INSTANCE, BehaviorSiegeMaxVelocityModifier.INSTANCE, ExplosionDelayBonus.INSTANCE, ArmorDamageAmount.INSTANCE, BehaviorSiegeWarpScrambleStatusModifier.INSTANCE, BehaviorSiegeDisallowTetheringModifier.INSTANCE, BehaviorSiegeMassModifier.INSTANCE, BehaviorSiegeLocalLogisticsAmountModifier.INSTANCE, BehaviorSiegeLocalLogisticsDurationModifier.INSTANCE, BehaviorSiegeTurretDamageModifier.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, EnergyNeutralizerAmount.INSTANCE, WarpScrambleStatus.INSTANCE, OptimalSigRadius.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ThermalDamage.INSTANCE, Uniformity.INSTANCE, EntityChaseMaxDistance.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, BehaviorSiegeMissileDamageModifier.INSTANCE, BehaviorRemoteArmorRepairDuration.INSTANCE, BehaviorRemoteArmorRepairRange.INSTANCE, BehaviorRemoteArmorRepairFalloff.INSTANCE, BehaviorRemoteArmorRepairDischarge.INSTANCE, MaxLockedTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorWebifierDischarge.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorWarpScrambleDuration.INSTANCE, BehaviorWarpScrambleRange.INSTANCE, BehaviorWarpScrambleDischarge.INSTANCE, BehaviorWarpScrambleStrength.INSTANCE, NpcGuidanceDisruptorDuration.INSTANCE, NpcGuidanceDisruptorRange.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, NpcGuidanceDisruptorFalloff.INSTANCE, ScanMagnetometricStrength.INSTANCE, NpcGuidanceDisruptorDischarge.INSTANCE, ScanGravimetricStrength.INSTANCE, NpcTrackingDisruptorDuration.INSTANCE, NpcTrackingDisruptorRange.INSTANCE, MissileDamageMultiplier.INSTANCE, NpcTrackingDisruptorFalloff.INSTANCE, NpcTrackingDisruptorDischarge.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, EntityCruiseSpeed.INSTANCE, TrackingSpeedBonus.INSTANCE })));
-    public static final RetaliatingAmarrEntities.MetaGroup METAGROUP = new RetaliatingAmarrEntities.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, SpeedFactor.INSTANCE, MaximumRangeCap.INSTANCE, EntityBracketColour.INSTANCE, MissileVelocityBonus.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, SignatureRadiusBonus.INSTANCE, EntityFactionLoss.INSTANCE, Speed.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxTargetRangeBonus.INSTANCE, MaxRange.INSTANCE, ScanResolutionBonus.INSTANCE, RechargeRate.INSTANCE, DamageMultiplier.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, BehaviorEnergyNosferatuDischarge.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, BehaviorEnergyNosferatuDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, BehaviorEnergyNosferatuFalloff.INSTANCE, BehaviorEnergyNosferatuRange.INSTANCE, BehaviorArmorRepairerDuration.INSTANCE, BehaviorArmorRepairerDischarge.INSTANCE, BehaviorArmorRepairerAmount.INSTANCE, MaxTargetRange.INSTANCE, BehaviorSiegeRemoteRepairImpedanceModifier.INSTANCE, AoeVelocityBonus.INSTANCE, BehaviorSiegeRemoteAssistanceImpedanceModifier.INSTANCE, AoeCloudSizeBonus.INSTANCE, BehaviorSiegeSensorDampenerResistanceModifier.INSTANCE, BehaviorSiegeWeaponDisruptionResistanceModifier.INSTANCE, BehaviorSiegeECMResistanceModifier.INSTANCE, BehaviorSiegeMaxVelocityModifier.INSTANCE, ArmorDamageAmount.INSTANCE, ExplosionDelayBonus.INSTANCE, BehaviorSiegeWarpScrambleStatusModifier.INSTANCE, BehaviorSiegeDisallowTetheringModifier.INSTANCE, BehaviorSiegeMassModifier.INSTANCE, BehaviorSiegeLocalLogisticsAmountModifier.INSTANCE, BehaviorSiegeLocalLogisticsDurationModifier.INSTANCE, BehaviorSiegeTurretDamageModifier.INSTANCE, MissileEntityAoeCloudSizeMultiplier.INSTANCE, PowerTransferAmount.INSTANCE, MissileEntityAoeVelocityMultiplier.INSTANCE, FalloffBonus.INSTANCE, MaxRangeBonus.INSTANCE, EnergyNeutralizerAmount.INSTANCE, WarpScrambleStatus.INSTANCE, OptimalSigRadius.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EmDamageResonance.INSTANCE, EmDamage.INSTANCE, ExplosiveDamage.INSTANCE, KineticDamage.INSTANCE, ThermalDamage.INSTANCE, FighterAbilityKamikazeResistance.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, Uniformity.INSTANCE, EntityChaseMaxDistance.INSTANCE, NosOverride.INSTANCE, Falloff.INSTANCE, TrackingSpeed.INSTANCE, Radius.INSTANCE, BehaviorSiegeMissileDamageModifier.INSTANCE, DamageMultiplierBonusPerCycle.INSTANCE, DamageMultiplierBonusMax.INSTANCE, BehaviorRemoteArmorRepairDuration.INSTANCE, BehaviorRemoteArmorRepairRange.INSTANCE, BehaviorRemoteArmorRepairFalloff.INSTANCE, BehaviorRemoteArmorRepairDischarge.INSTANCE, MaxLockedTargets.INSTANCE, BehaviorWebifierDuration.INSTANCE, BehaviorWebifierRange.INSTANCE, FighterAbilityAntiCapitalMissileResistance.INSTANCE, BehaviorWebifierFalloff.INSTANCE, BehaviorWebifierDischarge.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, BehaviorWarpScrambleDuration.INSTANCE, BehaviorWarpScrambleRange.INSTANCE, BehaviorWarpScrambleDischarge.INSTANCE, BehaviorWarpScrambleStrength.INSTANCE, NpcGuidanceDisruptorDuration.INSTANCE, ScanRadarStrength.INSTANCE, NpcGuidanceDisruptorRange.INSTANCE, ScanLadarStrength.INSTANCE, NpcGuidanceDisruptorFalloff.INSTANCE, ScanMagnetometricStrength.INSTANCE, NpcGuidanceDisruptorDischarge.INSTANCE, ScanGravimetricStrength.INSTANCE, NpcTrackingDisruptorDuration.INSTANCE, MissileDamageMultiplier.INSTANCE, NpcTrackingDisruptorRange.INSTANCE, NpcTrackingDisruptorFalloff.INSTANCE, NpcTrackingDisruptorDischarge.INSTANCE, BehaviorEnergyNeutralizerDuration.INSTANCE, BehaviorEnergyNeutralizerRange.INSTANCE, BehaviorEnergyNeutralizerFalloff.INSTANCE, BehaviorEnergyNeutralizerDischarge.INSTANCE, BehaviorTargetPainterDuration.INSTANCE, BehaviorTargetPainterRange.INSTANCE, BehaviorTargetPainterFalloff.INSTANCE, BehaviorTargetPainterDischarge.INSTANCE, ShieldRechargeRate.INSTANCE, BehaviorSensorDampenerDuration.INSTANCE, BehaviorSensorDampenerRange.INSTANCE, EntityKillBounty.INSTANCE, BehaviorSensorDampenerFalloff.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, CapacitorCapacity.INSTANCE, BehaviorSensorDampenerDischarge.INSTANCE, ShieldUniformity.INSTANCE, GfxTurretID.INSTANCE, GfxBoosterID.INSTANCE, IsCapitalSize.INSTANCE, MissileLaunchDuration.INSTANCE, EntityMissileTypeID.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE, TrackingSpeedBonus.INSTANCE })));
+    public static final TriglavianEntities.MetaGroup METAGROUP = new TriglavianEntities.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -1045,6 +1310,22 @@ public class RetaliatingAmarrEntities
             {
                 return behaviorenergyneutralizerrange;
             }
+            case  2629 :
+            {
+                return behaviorenergynosferatudischarge;
+            }
+            case  2630 :
+            {
+                return behaviorenergynosferatuduration;
+            }
+            case  2631 :
+            {
+                return behaviorenergynosferatufalloff;
+            }
+            case  2632 :
+            {
+                return behaviorenergynosferaturange;
+            }
             case  2494 :
             {
                 return behaviorremotearmorrepairdischarge;
@@ -1060,6 +1341,38 @@ public class RetaliatingAmarrEntities
             case  2492 :
             {
                 return behaviorremotearmorrepairrange;
+            }
+            case  2530 :
+            {
+                return behaviorsensordampenerdischarge;
+            }
+            case  2527 :
+            {
+                return behaviorsensordampenerduration;
+            }
+            case  2529 :
+            {
+                return behaviorsensordampenerfalloff;
+            }
+            case  2528 :
+            {
+                return behaviorsensordampenerrange;
+            }
+            case  2526 :
+            {
+                return behaviortargetpainterdischarge;
+            }
+            case  2523 :
+            {
+                return behaviortargetpainterduration;
+            }
+            case  2525 :
+            {
+                return behaviortargetpainterfalloff;
+            }
+            case  2524 :
+            {
+                return behaviortargetpainterrange;
             }
             case  2508 :
             {
@@ -1108,6 +1421,14 @@ public class RetaliatingAmarrEntities
             case  64 :
             {
                 return damagemultiplier;
+            }
+            case  2734 :
+            {
+                return damagemultiplierbonusmax;
+            }
+            case  2733 :
+            {
+                return damagemultiplierbonuspercycle;
             }
             case  114 :
             {
@@ -1169,9 +1490,25 @@ public class RetaliatingAmarrEntities
             {
                 return entitymaxvelocitysignatureradiusmultiplier;
             }
+            case  507 :
+            {
+                return entitymissiletypeid;
+            }
+            case  563 :
+            {
+                return entitysecuritymaxgain;
+            }
+            case  252 :
+            {
+                return entitysecuritystatuskillbonus;
+            }
             case  596 :
             {
                 return explosiondelaybonus;
+            }
+            case  116 :
+            {
+                return explosivedamage;
             }
             case  111 :
             {
@@ -1185,6 +1522,14 @@ public class RetaliatingAmarrEntities
             {
                 return falloffbonus;
             }
+            case  2244 :
+            {
+                return fighterabilityanticapitalmissileresistance;
+            }
+            case  2433 :
+            {
+                return fighterabilitykamikazeresistance;
+            }
             case  246 :
             {
                 return gfxboosterid;
@@ -1196,6 +1541,14 @@ public class RetaliatingAmarrEntities
             case  9 :
             {
                 return hp;
+            }
+            case  1785 :
+            {
+                return iscapitalsize;
+            }
+            case  117 :
+            {
+                return kineticdamage;
             }
             case  109 :
             {
@@ -1221,17 +1574,49 @@ public class RetaliatingAmarrEntities
             {
                 return maxtargetrange;
             }
+            case  309 :
+            {
+                return maxtargetrangebonus;
+            }
             case  37 :
             {
                 return maxvelocity;
+            }
+            case  797 :
+            {
+                return maximumrangecap;
             }
             case  212 :
             {
                 return missiledamagemultiplier;
             }
+            case  858 :
+            {
+                return missileentityaoecloudsizemultiplier;
+            }
+            case  859 :
+            {
+                return missileentityaoevelocitymultiplier;
+            }
+            case  646 :
+            {
+                return missileentityflighttimemultiplier;
+            }
+            case  645 :
+            {
+                return missileentityvelocitymultiplier;
+            }
+            case  506 :
+            {
+                return missilelaunchduration;
+            }
             case  547 :
             {
                 return missilevelocitybonus;
+            }
+            case  1945 :
+            {
+                return nosoverride;
             }
             case  2786 :
             {
@@ -1273,6 +1658,10 @@ public class RetaliatingAmarrEntities
             {
                 return optimalsigradius;
             }
+            case  90 :
+            {
+                return powertransferamount;
+            }
             case  162 :
             {
                 return radius;
@@ -1300,6 +1689,10 @@ public class RetaliatingAmarrEntities
             case  564 :
             {
                 return scanresolution;
+            }
+            case  566 :
+            {
+                return scanresolutionbonus;
             }
             case  263 :
             {
@@ -1336,6 +1729,10 @@ public class RetaliatingAmarrEntities
             case  552 :
             {
                 return signatureradius;
+            }
+            case  554 :
+            {
+                return signatureradiusbonus;
             }
             case  51 :
             {
@@ -1386,35 +1783,35 @@ public class RetaliatingAmarrEntities
     }
 
     @Override
-    public IMetaGroup<RetaliatingAmarrEntities> getGroup() {
+    public IMetaGroup<TriglavianEntities> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<RetaliatingAmarrEntities>
+        implements IMetaGroup<TriglavianEntities>
     {
-        public static final String RESOURCE_PATH = "SDE/types/entity/RetaliatingAmarrEntities.yaml";
-        private Map<String, RetaliatingAmarrEntities> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/entity/TriglavianEntities.yaml";
+        private Map<String, TriglavianEntities> cache = (null);
 
         @Override
-        public IMetaCategory<? super RetaliatingAmarrEntities> category() {
+        public IMetaCategory<? super TriglavianEntities> category() {
             return Entity.METACAT;
         }
 
         @Override
         public int getGroupId() {
-            return  4034;
+            return  4028;
         }
 
         @Override
         public String getName() {
-            return "RetaliatingAmarrEntities";
+            return "TriglavianEntities";
         }
 
         @Override
-        public synchronized Map<String, RetaliatingAmarrEntities> load() {
+        public synchronized Map<String, TriglavianEntities> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(RetaliatingAmarrEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(TriglavianEntities.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -1424,7 +1821,7 @@ public class RetaliatingAmarrEntities
         }
 
         private static class Container {
-            public LinkedHashMap<String, RetaliatingAmarrEntities> types;
+            public LinkedHashMap<String, TriglavianEntities> types;
         }
     }
 }

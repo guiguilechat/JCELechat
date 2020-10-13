@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat</groupId>
 		<artifactId>JCELechat</artifactId>
-		<version>5.4.9</version>
+		<version>5.5.0</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat</groupId>
 	<artifactId>libs</artifactId>
@@ -13,7 +13,6 @@
 	<description>libraries for JCE-LECHAT. Those libraries provide tools to manage, optimize the data from the game.</description>
 	<packaging>pom</packaging>
 	<modules>
-		<module>RefineSolver</module>
 		<module>RouteSolver</module>
 	</modules>
 	<dependencyManagement>

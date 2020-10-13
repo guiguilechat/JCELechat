@@ -554,8 +554,8 @@ types:
     modifytargetspeedrange: 20000
     name: True Sansha's Savage
     npctrackingdisruptoractivationchance: 0.0625
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 20000.0
     portionSize: 1
@@ -803,8 +803,8 @@ types:
     modifytargetspeedrange: 20000
     name: True Sansha's Slavehunter
     npctrackingdisruptoractivationchance: 0.07500000298023224
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 21120.0
     portionSize: 1

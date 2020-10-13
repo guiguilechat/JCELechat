@@ -925,7 +925,6 @@ locations:
     - Moghiz
     - Gebem
     - Somi
-    - Suon
     - Sanair
     - Daredan
     - Emsek
@@ -933,7 +932,6 @@ locations:
     - Rifenda
     - 04-H4M
     - Jatari
-    - Vaarma
     - Sasen
     - Arvachah
     adjacentRegions:
@@ -941,7 +939,6 @@ locations:
     - Sinq Laison
     - Kor-Azor
     - Tash-Murkon
-    - The Citadel
     - Devoid
     - Providence
     - The Bleak Lands
@@ -954,7 +951,6 @@ locations:
     - Kooreng
     - Kor-Azor Prime
     - Nafomeh
-    - Kaaputenen
     - Goram
     - Hati
     - Riramia
@@ -965,7 +961,6 @@ locations:
     - R3-K7K
     - Zororzih
     - Fensi
-    - Sasiekko
     - Matyas
     - Otelen
     - Jennim
@@ -1199,7 +1194,6 @@ locations:
     name: Essence
   Etherium Reach:
     adjacentConstellations:
-    - Eoldulf
     - HRJG-D
     - 0YMH-Q
     - S4S-SD
@@ -1212,7 +1206,6 @@ locations:
     - OC-TTA
     - E-UBWI
     adjacentRegions:
-    - Molden Heath
     - Great Wildlands
     - Insmother
     - The Kalevala Expanse
@@ -1221,7 +1214,6 @@ locations:
     - The Forge
     - The Spire
     adjacentSystems:
-    - Skarkon
     - BRT-OP
     - EFM-C4
     - L-GY1B
@@ -1970,7 +1962,6 @@ locations:
     - YS-GOP
     - Urpiken
     - Aokinen
-    - Otawasa
     - Ieyama
     adjacentRegions:
     - Black Rise
@@ -1995,7 +1986,6 @@ locations:
     - Aikoro
     - Jita
     - EC-P8R
-    - Venilen
     - Hasama
     constellations:
     - Malariya
@@ -2146,20 +2136,17 @@ locations:
     - Osta
     - Erada
     - Rollera
-    - 1VN-XC
     - Joas
     - V-4QJC
     adjacentRegions:
     - Heimatar
     - Metropolis
-    - Etherium Reach
     - Derelik
     - Great Wildlands
     adjacentSystems:
     - Austraka
     - Magiko
     - Tabbetzur
-    - L4X-1V
     - Kenobanala
     - B-VIP9
     constellations:
@@ -2472,6 +2459,15 @@ locations:
     isKS: true
     isWormhole: false
     name: Placid
+  Pochven:
+    constellations:
+    - Krai Perun
+    - Krai Svarog
+    - Krai Veles
+    id: 10000070
+    isKS: true
+    isWormhole: false
+    name: Pochven
   Providence:
     adjacentConstellations:
     - NNLX-K
@@ -2974,7 +2970,6 @@ locations:
     - Eugidi
     - Spaen
     - Daredan
-    - Zemont
     - Semou
     - Kisana
     - Ryra
@@ -2984,14 +2979,13 @@ locations:
     - Devoid
     - Metropolis
     - Sinq Laison
-    - Domain
     - Heimatar
+    - Domain
     adjacentSystems:
     - Sosan
     - Isbrabata
     - Gratesier
     - Hati
-    - Raravoss
     - Tzvi
     - Ohide
     - Choonka
@@ -3016,12 +3010,10 @@ locations:
     - Okakuola
     - Kimotoro
     - Anttanen
-    - Yekti
     - Kurala
     - Makiriemi
     - Kaala
     - Koichi
-    - Haurala
     - Patrie
     - Agiesseson
     - Crux
@@ -3032,7 +3024,6 @@ locations:
     - Lonetrek
     - Black Rise
     - The Forge
-    - Domain
     - Sinq Laison
     adjacentSystems:
     - Deven
@@ -3041,7 +3032,6 @@ locations:
     - Kedama
     - Urlen
     - Sirseshin
-    - Niarja
     - Mushikegi
     - Mara
     - Vellaine
@@ -3050,7 +3040,6 @@ locations:
     - Tunttaras
     - Funtanainen
     - Isikemi
-    - Kino
     - Sarekuwa
     - Jita
     - Maurasi

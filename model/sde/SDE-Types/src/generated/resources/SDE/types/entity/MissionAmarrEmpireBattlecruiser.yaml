@@ -720,8 +720,8 @@ types:
     modifytargetspeedduration: 5000.0
     name: Imperial Templar Seer
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 125
     packagedVolume: 130000.0
     portionSize: 1
@@ -810,8 +810,8 @@ types:
     modifytargetspeedduration: 5000.0
     name: Independent Harbinger
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 125
     packagedVolume: 130000.0
     portionSize: 1
@@ -900,8 +900,8 @@ types:
     modifytargetspeedduration: 5000.0
     name: Independent Prophecy
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 125
     packagedVolume: 130000.0
     portionSize: 1

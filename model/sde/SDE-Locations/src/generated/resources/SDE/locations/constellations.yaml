@@ -720,15 +720,12 @@ locations:
     adjacentConstellations:
     - J-78ZG
     - 8AO-5V
-    - Eoldulf
     - HRJG-D
     adjacentRegions:
-    - Molden Heath
     - Great Wildlands
     adjacentSystems:
     - QBZO-R
     - LXQ2-T
-    - Skarkon
     - BRT-OP
     hasBorder: true
     hasCorridor: true
@@ -4912,7 +4909,6 @@ locations:
     - Unpas
     - Tuuriainas
     - Shihuken
-    - Senda
     - Geras
     - Nomaa
   Anwyns:
@@ -4956,14 +4952,12 @@ locations:
   Aokinen:
     adjacentConstellations:
     - Kurala
-    - Ishaga
     - Inolari
     - Minnen
     adjacentRegions:
     - Lonetrek
     adjacentSystems:
     - Ikoskio
-    - Akidagi
     - Kinakka
     - Piak
     hasBorder: false
@@ -4980,9 +4974,7 @@ locations:
     - Samanuni
     - Tsuruma
     - Uchomida
-    - Ichoriya
     - Uuhulanen
-    - Ahtila
     - Rohamaa
     - Onnamon
   Aptetter:
@@ -5065,7 +5057,6 @@ locations:
     - Nagaslaiken
     - Outartoh
     - Okela
-    - Santenpaa
     - Koichi
     adjacentRegions:
     - Lonetrek
@@ -5078,7 +5069,6 @@ locations:
     - Auviken
     - Paara
     - Tunttaras
-    - Komo
     - Funtanainen
     - Isikemi
     hasBorder: true
@@ -12841,7 +12831,6 @@ locations:
     - Averon
     - Avele
     - Laic
-    - Angymonne
     - Carirgnottin
     - Odixie
     - Muer
@@ -13027,16 +13016,13 @@ locations:
     - Elfrard
     - Besateoden
     - Rollera
-    - 1VN-XC
     adjacentRegions:
     - Metropolis
-    - Etherium Reach
     adjacentSystems:
     - Klingt
     - Meildolf
     - Tabbetzur
     - Orien
-    - L4X-1V
     hasBorder: true
     hasCorridor: true
     hasFringe: false
@@ -13051,7 +13037,6 @@ locations:
     - Mimiror
     - Ennur
     - Fegomenko
-    - Skarkon
     - Osvetur
   Erada:
     adjacentConstellations:
@@ -13147,7 +13132,6 @@ locations:
     - Otsabaira
     adjacentSystems:
     - Uchoshi
-    - Osaa
     - Ihakana
     - Akkilen
     hasBorder: true
@@ -13162,7 +13146,6 @@ locations:
     systems:
     - Kiainti
     - Vouskiaho
-    - Otanuomi
     - Vasala
     - Walvalin
     - Otsela
@@ -13223,7 +13206,6 @@ locations:
     - Derririntel
     - Andole
     - Atlangeins
-    - Vale
     - Ommare
     - Hecarrin
   Evannater:
@@ -14181,7 +14163,6 @@ locations:
     systems:
     - Dudreda
     - Ansen
-    - Krirald
     - Arwa
     - Hakisalki
     - Arifsdald
@@ -15093,14 +15074,10 @@ locations:
     - Makiriemi
     - Minnen
     - Kainokai
-    - Otawasa
-    adjacentRegions:
-    - The Citadel
     adjacentSystems:
     - Isanamo
     - Litiura
     - Kuoka
-    - Venilen
     - Autama
     - Tsukuras
     hasBorder: true
@@ -15116,7 +15093,6 @@ locations:
     - Uemisaisen
     - Sotrentaira
     - Erenta
-    - Kino
     - Raussinen
     - Ouranienen
   Heart:
@@ -15889,7 +15865,6 @@ locations:
     - Ansila
     - Eskunen
     - Outuni
-    - Sakenta
     - Hykkota
     - Ohmahailen
   Imurukka:
@@ -15909,7 +15884,6 @@ locations:
     systems:
     - Erila
     - Inoue
-    - Konola
     - Isaziwa
     - Horkkisen
     - Eitu
@@ -15980,14 +15954,12 @@ locations:
     adjacentConstellations:
     - Inolari
     - Amevync
-    - Aokinen
     - Okakuola
     adjacentRegions:
     - Placid
     adjacentSystems:
     - Pavanakka
     - Aldranette
-    - Ichoriya
     - Pynekastoh
     hasBorder: false
     hasCorridor: false
@@ -16812,20 +16784,18 @@ locations:
     - Q-4DEC
   Kaala:
     adjacentConstellations:
-    - Mito
     - Okunda
     - Arekin
     - Koichi
     adjacentRegions:
     - The Citadel
     adjacentSystems:
-    - Nalvula
     - Aurohunen
     - Alikara
     - Hageken
     hasBorder: true
     hasCorridor: false
-    hasFringe: true
+    hasFringe: false
     hasHub: true
     id: 20000202
     isKS: true
@@ -16837,7 +16807,6 @@ locations:
     - Vaajaita
     - Vellaine
     - Autaris
-    - Arvasaras
     - Akonoinen
   Kabo:
     adjacentConstellations:
@@ -16876,7 +16845,7 @@ locations:
     - Iidoken
     hasBorder: true
     hasCorridor: true
-    hasFringe: true
+    hasFringe: false
     hasHub: true
     id: 20000207
     isKS: true
@@ -16886,7 +16855,6 @@ locations:
     systems:
     - Kuoka
     - Tsukuras
-    - Nani
     - Ajanen
     - Autama
     - Kirras
@@ -16973,7 +16941,6 @@ locations:
     - Uedama
     - Rairomon
     - Huttaken
-    - Tunudan
     - Kulelen
     - Enderailen
     - Hogimo
@@ -17079,7 +17046,7 @@ locations:
     - Madimal
     hasBorder: true
     hasCorridor: true
-    hasFringe: true
+    hasFringe: false
     hasHub: true
     id: 20000326
     isKS: true
@@ -17090,7 +17057,6 @@ locations:
     - Fabin
     - Charra
     - Airshaz
-    - Harva
     - Aghesi
     - Patzcha
   Kiartanne:
@@ -17262,6 +17228,84 @@ locations:
     - Isikemi
     - Sobaseki
     - Veisto
+  Krai Perun:
+    adjacentConstellations:
+    - Krai Svarog
+    - Krai Veles
+    adjacentSystems:
+    - Urhinichi
+    - Arvasaras
+    hasBorder: true
+    hasCorridor: true
+    hasFringe: true
+    hasHub: true
+    id: 20000787
+    isKS: true
+    isWormhole: false
+    name: Krai Perun
+    region: Pochven
+    systems:
+    - Komo
+    - Krirald
+    - Otanuomi
+    - Nalvula
+    - Kino
+    - Ignebaener
+    - Konola
+    - Sakenta
+    - Otela
+  Krai Svarog:
+    adjacentConstellations:
+    - Krai Veles
+    - Krai Perun
+    adjacentSystems:
+    - Senda
+    - Otanuomi
+    hasBorder: true
+    hasCorridor: true
+    hasFringe: true
+    hasHub: true
+    id: 20000788
+    isKS: true
+    isWormhole: false
+    name: Krai Svarog
+    region: Pochven
+    systems:
+    - Kuharah
+    - Nani
+    - Tunudan
+    - Niarja
+    - Harva
+    - Raravoss
+    - Ahtila
+    - Skarkon
+    - Urhinichi
+  Krai Veles:
+    adjacentConstellations:
+    - Krai Svarog
+    - Krai Perun
+    adjacentSystems:
+    - Ahtila
+    - Sakenta
+    hasBorder: true
+    hasCorridor: true
+    hasFringe: true
+    hasHub: true
+    id: 20000789
+    isKS: true
+    isWormhole: false
+    name: Krai Veles
+    region: Pochven
+    systems:
+    - Wirashoda
+    - Angymonne
+    - Archee
+    - Ichoriya
+    - Vale
+    - Senda
+    - Kaunokka
+    - Ala
+    - Arvasaras
   Kraken:
     adjacentConstellations:
     - Phoenix
@@ -18272,7 +18316,6 @@ locations:
     name: Mamouna
     region: Derelik
     systems:
-    - Kuharah
     - Jayneleb
     - Lilmad
     - Podion
@@ -18771,7 +18814,6 @@ locations:
     adjacentConstellations:
     - 1P-VL2
     - Koichi
-    - Kaala
     - Orpana
     adjacentRegions:
     - Tribute
@@ -18779,7 +18821,6 @@ locations:
     adjacentSystems:
     - M-OEE8
     - Hageken
-    - Jan
     - Obe
     hasBorder: true
     hasCorridor: false
@@ -18793,7 +18834,6 @@ locations:
     systems:
     - Taisy
     - Vuorrassi
-    - Nalvula
     - Otsasai
     - Hakonen
     - Oimmo
@@ -20544,7 +20584,7 @@ locations:
     - Osmon
     - New Caldari
     hasBorder: true
-    hasCorridor: true
+    hasCorridor: false
     hasFringe: false
     hasHub: true
     id: 20000022
@@ -20558,7 +20598,6 @@ locations:
     - Josameto
     - Obanen
     - Liekuri
-    - Otela
   Oraron:
     adjacentConstellations:
     - San Matar
@@ -20598,10 +20637,9 @@ locations:
     - Vouskiaho
     - P3EN-E
     - Hakonen
-    - Otanuomi
     hasBorder: true
     hasCorridor: true
-    hasFringe: true
+    hasFringe: false
     hasHub: true
     id: 20000029
     isKS: true
@@ -20612,7 +20650,6 @@ locations:
     - Uchoshi
     - Obe
     - Ohkunen
-    - Wirashoda
     - Osaa
     - Mastakomon
     - Eruka
@@ -20791,16 +20828,12 @@ locations:
     adjacentConstellations:
     - Isoma
     - Kantanen
-    - Haurala
-    adjacentRegions:
-    - Lonetrek
     adjacentSystems:
     - Hasmijaala
     - Kulelen
-    - Kino
     - Hogimo
     hasBorder: true
-    hasCorridor: true
+    hasCorridor: false
     hasFringe: true
     hasHub: true
     id: 20000410
@@ -20812,7 +20845,6 @@ locations:
     - Hysera
     - Yria
     - Venilen
-    - Kaunokka
     - Oisio
     - Oshaima
   Otsabaira:
@@ -21315,7 +21347,7 @@ locations:
     - Emsar
     - Arraron
     hasBorder: true
-    hasCorridor: true
+    hasCorridor: false
     hasFringe: false
     hasHub: true
     id: 20000732
@@ -21327,7 +21359,6 @@ locations:
     - Adirain
     - Aere
     - Aeschee
-    - Ignebaener
     - Arnon
     - Attyn
     - Lisbaetanne
@@ -22939,10 +22970,8 @@ locations:
     - Tarta
   Santenpaa:
     adjacentConstellations:
-    - Arekin
     - Uusasai
     adjacentSystems:
-    - Ahynada
     - Waira
     hasBorder: true
     hasCorridor: true
@@ -22954,7 +22983,6 @@ locations:
     name: Santenpaa
     region: The Citadel
     systems:
-    - Komo
     - Saila
     - Uotila
     - Laah
@@ -23408,7 +23436,6 @@ locations:
     - Boillair
     - Fasse
     - Ardene
-    - Ala
     - Gratesier
     - Ney
   Sphinx:
@@ -23579,16 +23606,13 @@ locations:
     - Kimotoro
     - Anttanen
     - Uusasai
-    - Yekti
     adjacentRegions:
     - The Forge
-    - Domain
     adjacentSystems:
     - Anttiri
     - Urlen
     - Sirseshin
     - Ikao
-    - Niarja
     - Kamio
     hasBorder: true
     hasCorridor: true
@@ -23606,7 +23630,6 @@ locations:
     - Waskisen
     - Irjunen
     - Kaaputenen
-    - Urhinichi
   Sveipar:
     adjacentConstellations:
     - Erada
@@ -25490,16 +25513,12 @@ locations:
     - Tandoiras
     - Ichida
     - Ohvarainen
-    - Zemont
     - Sasen
-    adjacentRegions:
-    - Domain
     adjacentSystems:
     - Sahtogas
     - Tannakan
     - Ronne
     - Komaa
-    - Raravoss
     - Kamela
     hasBorder: true
     hasCorridor: true
@@ -26112,7 +26131,6 @@ locations:
     systems:
     - Bawilan
     - Brybier
-    - Archee
     - Atier
     - Adrallezoen
     - Brapelille
@@ -27043,15 +27061,12 @@ locations:
     - ZS-2LT
   Yekti:
     adjacentConstellations:
-    - Suon
     - Megeh
     - Parud
     - Hoosa
     adjacentRegions:
-    - The Citadel
     - Kador
     adjacentSystems:
-    - Kaaputenen
     - Romi
     - Ashab
     - Sayartchen
@@ -27068,7 +27083,6 @@ locations:
     region: Domain
     systems:
     - Saana
-    - Niarja
     - Fabum
     - Madirmilire
     - Bahromab
@@ -27553,14 +27567,10 @@ locations:
     adjacentConstellations:
     - Parud
     - Sosarir
-    - Vaarma
-    adjacentRegions:
-    - The Bleak Lands
     adjacentSystems:
     - Orkashu
     - Thebeka
     - Ardishapur Prime
-    - Sasiekko
     hasBorder: true
     hasCorridor: true
     hasFringe: true
@@ -27577,4 +27587,3 @@ locations:
     - Sharhelund
     - Zaimeth
     - Ekid
-    - Raravoss

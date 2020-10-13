@@ -3046,8 +3046,8 @@ types:
     modifytargetspeedrange: 20000
     name: True Centum General
     npctrackingdisruptoractivationchance: 0.10000000149011612
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 37500
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 37500.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1

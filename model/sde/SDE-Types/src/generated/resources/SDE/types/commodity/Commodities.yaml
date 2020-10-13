@@ -581,6 +581,14 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Corrupted Neurosynaptic Profile:
+    id: 56709
+    marketGroup: 20
+    name: Corrupted Neurosynaptic Profile
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Counterfeit Credits:
     id: 21468
     name: Counterfeit Credits
@@ -610,6 +618,14 @@ types:
     price: 320000.0
     published: true
     volume: 5.0
+  Cultural Semiosis Data:
+    id: 56715
+    marketGroup: 20
+    name: Cultural Semiosis Data
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Custom-built Guidance System:
     id: 23740
     name: Custom-built Guidance System
@@ -1187,6 +1203,14 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Holistic Neurosynaptic Template:
+    id: 56712
+    marketGroup: 20
+    name: Holistic Neurosynaptic Template
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Holy Statue:
     id: 24581
     name: Holy Statue
@@ -1295,6 +1319,14 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Intact Neurosynaptic Profile:
+    id: 56711
+    marketGroup: 20
+    name: Intact Neurosynaptic Profile
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Inter-Galactic Media Report - The Audesder Incident (1 of 3):
     id: 23890
     name: Inter-Galactic Media Report - The Audesder Incident (1 of 3)
@@ -1312,6 +1344,14 @@ types:
   Inter-Galactic Media Report - The Audesder Incident (3 of 3):
     id: 23892
     name: Inter-Galactic Media Report - The Audesder Incident (3 of 3)
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Interstellar Navigation Logs:
+    id: 56708
+    marketGroup: 20
+    name: Interstellar Navigation Logs
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -1660,6 +1700,14 @@ types:
     portionSize: 1
     published: true
     volume: 2.0
+  Modular Systems Hologram:
+    id: 56714
+    marketGroup: 20
+    name: Modular Systems Hologram
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Motherload Bomb:
     id: 22055
     name: Motherload Bomb
@@ -1880,6 +1928,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Partial Neurosynaptic Profile:
+    id: 56710
+    marketGroup: 20
+    name: Partial Neurosynaptic Profile
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Parts of Printing Machine:
     id: 21517
     name: Parts of Printing Machine
@@ -1982,6 +2038,14 @@ types:
   Prophecy Virus:
     id: 22142
     name: Prophecy Virus
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Protective Equipment Patterns:
+    id: 56716
+    marketGroup: 20
+    name: Protective Equipment Patterns
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -2719,6 +2783,14 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Vessel Core Hologram:
+    id: 56713
+    marketGroup: 20
+    name: Vessel Core Hologram
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Villard Wheel:
     id: 27274
     name: Villard Wheel

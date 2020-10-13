@@ -151,6 +151,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Crimson Harvest keypass:
+    id: 56691
+    mass: 1.0
+    name: Crimson Harvest keypass
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Dented Cipher:
     id: 17907
     mass: 1.0
@@ -591,6 +599,11 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Shining Flame keypass:
+    id: 56692
+    name: Shining Flame keypass
+    portionSize: 1
+    published: true
   Shiny Sentry Key:
     id: 23907
     mass: 1.0

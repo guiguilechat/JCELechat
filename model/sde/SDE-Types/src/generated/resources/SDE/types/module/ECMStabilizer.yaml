@@ -1,67 +1,13 @@
 types:
-  '''Hypnos'' Signal Distortion Amplifier I':
-    cpu: 29.0
-    ecmrangebonus: 10.0
-    ecmstrengthbonuspercent: 10
-    hp: 40.0
-    id: 25565
-    marketGroup: 967
-    metalevelold: 4
-    name: '''Hypnos'' Signal Distortion Amplifier I'
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3427
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 5.0
-  Compulsive Signal Distortion Amplifier I:
-    cpu: 28.0
-    ecmrangebonus: 9.0
-    ecmstrengthbonuspercent: 9
-    hp: 40.0
-    id: 25567
-    marketGroup: 967
-    metalevelold: 3
-    name: Compulsive Signal Distortion Amplifier I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3427
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 5.0
-  Induced Signal Distortion Amplifier I:
-    cpu: 27.0
+  Hypnos Compact Signal Distortion Amplifier I:
+    cpu: 24.0
     ecmrangebonus: 8.0
     ecmstrengthbonuspercent: 8
     hp: 40.0
-    id: 25569
-    marketGroup: 967
-    metalevelold: 2
-    name: Induced Signal Distortion Amplifier I
-    packagedVolume: 5.0
-    portionSize: 1
-    power: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3427
-    requiredskill1level: 3
-    techlevel: 1
-    volume: 5.0
-  Initiated Signal Distortion Amplifier I:
-    cpu: 26.0
-    ecmrangebonus: 7.0
-    ecmstrengthbonuspercent: 7
-    hp: 40.0
-    id: 25571
+    id: 25565
     marketGroup: 967
     metalevelold: 1
-    name: Initiated Signal Distortion Amplifier I
+    name: Hypnos Compact Signal Distortion Amplifier I
     packagedVolume: 5.0
     portionSize: 1
     power: 1
@@ -72,9 +18,9 @@ types:
     techlevel: 1
     volume: 5.0
   Signal Distortion Amplifier I:
-    cpu: 30.0
-    ecmrangebonus: 5.0
-    ecmstrengthbonuspercent: 5
+    cpu: 27.0
+    ecmrangebonus: 7.0
+    ecmstrengthbonuspercent: 7
     hp: 40.0
     id: 25561
     marketGroup: 967

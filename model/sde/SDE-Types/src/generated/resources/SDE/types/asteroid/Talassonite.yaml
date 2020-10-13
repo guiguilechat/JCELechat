@@ -1,4 +1,32 @@
 types:
+  Abyssal Talassonite:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 15.0
+    asteroidradiusunitsize: 1000
+    id: 56625
+    marketGroup: 2540
+    name: Abyssal Talassonite
+    packagedVolume: 16.0
+    portionSize: 100
+    price: 234353.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 56632
+    volume: 16.0
+  Hadal Talassonite:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 15.0
+    asteroidradiusunitsize: 1000
+    id: 56626
+    marketGroup: 2540
+    name: Hadal Talassonite
+    packagedVolume: 16.0
+    portionSize: 100
+    price: 234353.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 56632
+    volume: 16.0
   Talassonite:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
@@ -11,5 +39,5 @@ types:
     price: 234353.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 3385
+    reprocessingskilltype: 56632
     volume: 16.0

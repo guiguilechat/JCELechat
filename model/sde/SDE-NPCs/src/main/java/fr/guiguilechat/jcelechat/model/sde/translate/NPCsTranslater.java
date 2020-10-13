@@ -3,6 +3,7 @@ package fr.guiguilechat.jcelechat.model.sde.translate;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -22,10 +23,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_corporations_corporation_id_starbases_starbase_id_fuels;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgentTypes;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EagtAgents;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EinvNames;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eagents;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
@@ -66,7 +65,7 @@ public class NPCsTranslater {
 		activities.put(22, "Distribution");
 		activities.put(23, "Mining");
 		activities.put(24, "Security");
-		translate(EagtAgents.load(), EagtAgentTypes.loadById(), activities, agents, corporations,
+		translate(Eagents.load(), activities, agents, corporations,
 				lpoffers);
 
 		// sort
@@ -95,7 +94,7 @@ public class NPCsTranslater {
 		logger.info("exported npcs in " + (System.currentTimeMillis() - timeStart) / 1000 + "s");
 	}
 
-	private static void translate(ArrayList<EagtAgents> eagents, HashMap<Integer, String> agentTypes,
+	private static void translate(LinkedHashMap<Integer, Eagents> eagents,
 			Map<Integer, String> divisionTypes, LinkedHashMap<String, Agent> agents,
 			LinkedHashMap<String, Corporation> corporations, LinkedHashMap<Integer, LPOffer> offers) {
 		ESIModel esi = ESIModel.INSTANCE;
@@ -108,38 +107,40 @@ public class NPCsTranslater {
 			l.parallelStream().forEach(cache.corporations::get);
 		}).toMap(i -> i, i -> cache.corporations.get(i).get());
 		ObsMapHolder<Integer, R_get_universe_factions> factionsHolder = cache.universe.factions().toMap(f -> f.faction_id);
-		eagents.parallelStream().map(ag -> ag.locationID).distinct().forEach(lid -> Location.resolve(null, lid).system());
-
+		eagents.values().parallelStream().map(ag -> ag.locationID).distinct()
+		.forEach(lid -> Location.resolve(null, lid).system());
+		//
 
 		LinkedHashMap<Integer, EnpcCorporations> ecorps = EnpcCorporations.load();
 		Map<Integer, String> idx2name = EinvNames.loadById();
 		Map<Integer, R_get_corporations_corporation_id> npcCorps =
 				corporationsHolder.get();
 		Map<Integer, R_get_universe_factions> factionById = factionsHolder.get();
-		Map<Integer, Location> agentsLocation = eagents.parallelStream()
-				.collect(Collectors.toMap(ag -> ag.agentID, ag -> Location.resolve(null, ag.locationID)));
+		Map<Integer, Location> agentsLocation = eagents.entrySet().parallelStream()
+				.collect(Collectors.toMap(eag -> eag.getKey(), eag -> Location.resolve(null, eag.getValue().locationID)));
 		logger.info("NPC prefetch received");
 
-		for (EagtAgents eagt : eagents) {
+		for (Entry<Integer, Eagents> eagt : eagents.entrySet()) {
 			Agent agent = new Agent();
-			agent.corporation = ecorps.get(eagt.corporationID).enName();
-			agent.id = eagt.agentID;
-			agent.name = idx2name.get(eagt.agentID);
-			agent.isLocator = eagt.isLocator;
-			agent.level = eagt.level;
-			agent.type = agentTypes.get(eagt.agentTypeID);
-			agent.division = divisionTypes.getOrDefault(eagt.divisionID, "div_" + eagt.divisionID);
-			Location loc = agentsLocation.get(eagt.agentID);
+			Eagents agt = eagt.getValue();
+			agent.id = eagt.getKey();
+			agent.corporation = ecorps.get(agt.corporationID).enName();
+			agent.name = idx2name.get(agent.id);
+			agent.isLocator = agt.isLocator;
+			agent.level = agt.level;
+			agent.type = "agentType_" + agt.agentTypeID;
+			agent.division = divisionTypes.getOrDefault(agt.divisionID, "div_" + agt.divisionID);
+			Location loc = agentsLocation.get(agent.id);
 			if (loc != null) {
 				agent.system = loc.system().name;
 				R_get_universe_stations_station_id station = loc.station();
 				if (station != null) {
 					agent.station = station.name;
-					agent.stationId = eagt.locationID;
+					agent.stationId = agt.locationID;
 				}
 				agents.put(agent.name, agent);
 			} else {
-				logger.warn("invalid location for agent " + agent.name + " locid=" + eagt.locationID);
+				logger.warn("invalid location for agent " + agent.name + " locid=" + agt.locationID);
 			}
 		}
 
@@ -186,12 +187,12 @@ public class NPCsTranslater {
 		lpo.name = EtypeIDs.getName(o.type_id);
 		lpo.id = o.offer_id;
 
-		for (get_corporations_corporation_id_starbases_starbase_id_fuels ir : o.required_items) {
+		Stream.of(o.required_items).sorted(Comparator.comparing(req -> req.type_id)).forEach(ir -> {
 			ItemRef translated = new ItemRef();
 			translated.quantity = ir.quantity;
 			translated.id = ir.type_id;
 			lpo.requirements.items.add(translated);
-		}
+		});
 
 		Eblueprints bp = bps.get(o.type_id);
 

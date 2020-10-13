@@ -61,8 +61,8 @@ types:
     missilelaunchduration: 10000.0
     name: True Sansha's Beast Lord
     npctrackingdisruptoractivationchance: 0.01875000074505806
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 400
     packagedVolume: 100100.0
     portionSize: 1
@@ -549,8 +549,8 @@ types:
     missilelaunchduration: 1.0
     name: True Sansha's Plague Lord
     npctrackingdisruptoractivationchance: 0.015625
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 400
     packagedVolume: 100100.0
     portionSize: 1

@@ -1,13 +1,4 @@
 types:
-  1v1 T1 Combat and Navy Frigates Proving Filament:
-    id: 56093
-    marketGroup: 2747
-    name: 1v1 T1 Combat and Navy Frigates Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
   2v2 Cruiser Clash Proving Filament:
     id: 56094
     marketGroup: 2747
@@ -23,6 +14,7 @@ types:
     name: Event 10 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.10000000149011612
   Event 11 Proving Filament:
@@ -31,5 +23,15 @@ types:
     name: Event 11 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Event 12 Proving Filament:
+    id: 56355
+    marketGroup: 2747
+    name: Event 12 Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.10000000149011612

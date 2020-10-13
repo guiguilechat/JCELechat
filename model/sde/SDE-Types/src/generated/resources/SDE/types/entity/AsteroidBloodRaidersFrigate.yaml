@@ -55,8 +55,8 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Collector
     npctrackingdisruptoractivationchance: 0.05999999865889549
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -596,8 +596,8 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Seeker
     npctrackingdisruptoractivationchance: 0.05000000074505806
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -831,8 +831,8 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Collector
     npctrackingdisruptoractivationchance: 0.30000001192092896
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -1390,8 +1390,8 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Seeker
     npctrackingdisruptoractivationchance: 0.25
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -1636,8 +1636,8 @@ types:
     modifytargetspeedrange: 20000
     name: Warrior Collector
     npctrackingdisruptoractivationchance: 0.05999999865889549
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -2026,8 +2026,8 @@ types:
     modifytargetspeedrange: 20000
     name: Warrior Seeker
     npctrackingdisruptoractivationchance: 0.05000000074505806
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1

@@ -539,15 +539,15 @@ public class AsteroidSanshaSNationCommanderCruiser
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npctrackingdisruptorduration;
+    @DefaultRealValue(0.0)
+    public double npctrackingdisruptorduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npctrackingdisruptorrange;
+    @DefaultRealValue(0.0)
+    public double npctrackingdisruptorrange;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */

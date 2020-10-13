@@ -21,28 +21,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 17
-  Advanced drone skill accelerator:
-    boosterduration: 60000.0
-    boostermaxcharagehours: 4320
-    boosterness: 43
-    charismabonus: 1
-    followsjumpclones: 1
-    id: 56185
-    intelligencebonus: 1
-    memorybonus: 1
-    name: Advanced drone skill accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 1
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 1
   Advanced gunnery Skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 4320
@@ -997,6 +975,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1019,6 +998,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 15
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1041,6 +1021,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2125,6 +2106,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2218,6 +2200,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2240,6 +2223,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2262,6 +2246,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2284,6 +2269,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2306,6 +2292,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2328,6 +2315,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2350,6 +2338,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2394,6 +2383,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -2412,6 +2402,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     rangeskillbonus: 5
@@ -2431,6 +2422,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -2451,6 +2443,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -2469,6 +2462,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     scanstrengthbonus: 5
@@ -2488,6 +2482,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     signatureradiusbonus: -5.0
@@ -2507,6 +2502,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -2843,28 +2839,6 @@ types:
     intelligencebonus: 1
     memorybonus: 1
     name: Standard gunnery skill accelerator
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 1
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 1
-  Standard missile skill accelerator:
-    boosterduration: 60000.0
-    boostermaxcharagehours: 4320
-    boosterness: 40
-    charismabonus: 1
-    followsjumpclones: 1
-    id: 56182
-    intelligencebonus: 1
-    memorybonus: 1
-    name: Standard missile skill accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3242,3 +3216,47 @@ types:
     signatureradiusbonus: -2.25
     socialbonus: 100
     volume: 1.0
+  '[no messageID: 569526]':
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 40
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56182
+    intelligencebonus: 1
+    memorybonus: 1
+    name: '[no messageID: 569526]'
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  '[no messageID: 569532]':
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 43
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56185
+    intelligencebonus: 1
+    memorybonus: 1
+    name: '[no messageID: 569532]'
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1

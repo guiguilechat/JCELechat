@@ -66,8 +66,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centus Beast Lord
     npctrackingdisruptoractivationchance: 0.014999999664723873
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 400
     packagedVolume: 100100.0
     portionSize: 1
@@ -603,8 +603,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centus Plague Lord
     npctrackingdisruptoractivationchance: 0.012500000186264515
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 400
     packagedVolume: 100100.0
     portionSize: 1
@@ -1049,8 +1049,8 @@ types:
     modifytargetspeedrange: 20000
     name: True Centus Beast Lord
     npctrackingdisruptoractivationchance: 0.01875000074505806
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 400
     packagedVolume: 100100.0
     portionSize: 1
@@ -1585,8 +1585,8 @@ types:
     modifytargetspeedrange: 20000
     name: True Centus Plague Lord
     npctrackingdisruptoractivationchance: 0.015625
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 400
     packagedVolume: 100100.0
     portionSize: 1

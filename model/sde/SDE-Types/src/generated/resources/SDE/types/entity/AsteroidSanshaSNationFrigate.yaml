@@ -753,8 +753,8 @@ types:
     modifytargetspeedrange: 20000
     name: Sansha's Loyal Savage
     npctrackingdisruptoractivationchance: 0.25
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 40
     packagedVolume: 20000.0
     portionSize: 1
@@ -1022,8 +1022,8 @@ types:
     modifytargetspeedrange: 20000
     name: Sansha's Loyal Slavehunter
     npctrackingdisruptoractivationchance: 0.30000001192092896
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 40
     packagedVolume: 20000.0
     portionSize: 1
@@ -1362,8 +1362,8 @@ types:
     modifytargetspeedrange: 20000
     name: Sansha's Savage
     npctrackingdisruptoractivationchance: 0.05000000074505806
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 20000.0
     portionSize: 1
@@ -1617,8 +1617,8 @@ types:
     modifytargetspeedrange: 20000
     name: Sansha's Slavehunter
     npctrackingdisruptoractivationchance: 0.05999999865889549
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 21120.0
     portionSize: 1

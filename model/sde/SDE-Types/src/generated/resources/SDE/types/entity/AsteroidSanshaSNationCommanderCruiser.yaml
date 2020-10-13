@@ -60,8 +60,8 @@ types:
     missilelaunchduration: 13200.0
     name: True Sansha's Beast
     npctrackingdisruptoractivationchance: 0.08749999850988388
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -144,8 +144,8 @@ types:
     missilelaunchduration: 1.0
     name: True Sansha's Execrator
     npctrackingdisruptoractivationchance: 0.125
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -387,8 +387,8 @@ types:
     missilelaunchduration: 1.0
     name: True Sansha's Juggernaut
     npctrackingdisruptoractivationchance: 0.10000000149011612
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -710,8 +710,8 @@ types:
     missilelaunchduration: 12000.0
     name: True Sansha's Slaughterer
     npctrackingdisruptoractivationchance: 0.11249999701976776
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1

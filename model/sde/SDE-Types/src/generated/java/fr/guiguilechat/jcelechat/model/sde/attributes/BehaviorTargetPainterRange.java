@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * 
  */
 public class BehaviorTargetPainterRange
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final BehaviorTargetPainterRange INSTANCE = new BehaviorTargetPainterRange();
 

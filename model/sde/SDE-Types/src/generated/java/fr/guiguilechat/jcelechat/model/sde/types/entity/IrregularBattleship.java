@@ -446,8 +446,8 @@ public class IrregularBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierduration;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierduration;
     /**
      * 
      */
@@ -460,8 +460,8 @@ public class IrregularBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierrange;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierrange;
     /**
      * Capacitor capacity
      */
@@ -995,8 +995,8 @@ public class IrregularBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npcbehaviormaximumcombatorbitrange;
+    @DefaultRealValue(0.0)
+    public double npcbehaviormaximumcombatorbitrange;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */

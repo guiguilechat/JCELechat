@@ -54,8 +54,8 @@ types:
     maxvelocity: 320.0
     name: Cleansing Flame Amarr Cruiser
     npctrackingdisruptoractivationchance: 0.3499999940395355
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 37500
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 37500.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1

@@ -2,6 +2,7 @@ package fr.guiguilechat.jcelechat.model.sde.load.fsd;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -34,7 +35,7 @@ public class EnpcCorporations {
 						MappingNode mn = (MappingNode) node;
 						if (mn.getValue().size() > 0) {
 							if (mn.getValue().stream().map(nt -> ((ScalarNode) nt.getKeyNode()).getValue())
-									.filter(s -> "size".equals(s)).findAny().isPresent()) {
+									.filter(s -> "tickerName".equals(s)).findAny().isPresent()) {
 								node.setType(EnpcCorporations.class);
 							}
 						}
@@ -88,6 +89,14 @@ public class EnpcCorporations {
 	public String tickerName;
 	public boolean uniqueName;
 	public String url;
+	public HashMap<Integer, Edivisions> divisions = new HashMap<>();
+	public ArrayList<Integer> lpOfferTables = new ArrayList<>();
+
+	public static class Edivisions {
+		public int divisionNumber;
+		public int leaderID;
+		public int size;
+	}
 
 
 	//

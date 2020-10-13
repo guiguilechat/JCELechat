@@ -2702,12 +2702,12 @@ offers:
       items:
       - id: 12066
         quantity: 1
-      - id: 15656
-        quantity: 5
-      - id: 15605
-        quantity: 5
       - id: 15604
         quantity: 8
+      - id: 15605
+        quantity: 5
+      - id: 15656
+        quantity: 5
       lp: 15000
   3617:
     id: 3617
@@ -2720,12 +2720,12 @@ offers:
       items:
       - id: 12054
         quantity: 1
-      - id: 15656
-        quantity: 5
-      - id: 15605
-        quantity: 17
       - id: 15604
         quantity: 24
+      - id: 15605
+        quantity: 17
+      - id: 15656
+        quantity: 5
       lp: 45000
   3618:
     id: 3618
@@ -2874,12 +2874,12 @@ offers:
       items:
       - id: 12354
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 10
       - id: 15604
         quantity: 17
+      - id: 15605
+        quantity: 10
+      - id: 15656
+        quantity: 2
       lp: 30000
   3627:
     id: 3627
@@ -2892,12 +2892,12 @@ offers:
       items:
       - id: 574
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 10
       - id: 15604
         quantity: 17
+      - id: 15605
+        quantity: 10
+      - id: 15656
+        quantity: 2
       lp: 30000
   3628:
     id: 3628
@@ -2946,12 +2946,12 @@ offers:
       items:
       - id: 11301
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 4
       - id: 15604
         quantity: 6
+      - id: 15605
+        quantity: 4
+      - id: 15656
+        quantity: 2
       lp: 11250
   3631:
     id: 3631
@@ -2964,12 +2964,12 @@ offers:
       items:
       - id: 11303
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 4
       - id: 15604
         quantity: 6
+      - id: 15605
+        quantity: 4
+      - id: 15656
+        quantity: 2
       lp: 11250
   3632:
     id: 3632
@@ -2982,12 +2982,12 @@ offers:
       items:
       - id: 11305
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 4
       - id: 15604
         quantity: 6
+      - id: 15605
+        quantity: 4
+      - id: 15656
+        quantity: 2
       lp: 11250
   3633:
     id: 3633
@@ -3000,12 +3000,12 @@ offers:
       items:
       - id: 11277
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 4
       - id: 15604
         quantity: 6
+      - id: 15605
+        quantity: 4
+      - id: 15656
+        quantity: 2
       lp: 11250
   3634:
     id: 3634
@@ -3050,12 +3050,12 @@ offers:
       items:
       - id: 572
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 10
       - id: 15604
         quantity: 17
+      - id: 15605
+        quantity: 10
+      - id: 15656
+        quantity: 2
       lp: 30000
   3637:
     id: 3637
@@ -3068,12 +3068,12 @@ offers:
       items:
       - id: 571
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 10
       - id: 15604
         quantity: 17
+      - id: 15605
+        quantity: 10
+      - id: 15656
+        quantity: 2
       lp: 30000
   3638:
     id: 3638
@@ -3214,12 +3214,12 @@ offers:
       items:
       - id: 575
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 10
       - id: 15604
         quantity: 17
+      - id: 15605
+        quantity: 10
+      - id: 15656
+        quantity: 2
       lp: 30000
   3647:
     id: 3647
@@ -3232,12 +3232,12 @@ offers:
       items:
       - id: 3538
         quantity: 1
-      - id: 15656
-        quantity: 5
-      - id: 15605
-        quantity: 17
       - id: 15604
         quantity: 24
+      - id: 15605
+        quantity: 17
+      - id: 15656
+        quantity: 5
       lp: 45000
   3648:
     id: 3648
@@ -3250,12 +3250,12 @@ offers:
       items:
       - id: 3987
         quantity: 1
-      - id: 15656
-        quantity: 5
-      - id: 15605
-        quantity: 20
       - id: 15604
         quantity: 31
+      - id: 15605
+        quantity: 20
+      - id: 15656
+        quantity: 5
       lp: 56250
   3649:
     id: 3649
@@ -3322,12 +3322,12 @@ offers:
       items:
       - id: 9944
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 10
       - id: 15604
         quantity: 17
+      - id: 15605
+        quantity: 10
+      - id: 15656
+        quantity: 2
       lp: 30000
   3653:
     id: 3653
@@ -3390,12 +3390,12 @@ offers:
       items:
       - id: 573
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 10
       - id: 15604
         quantity: 17
+      - id: 15605
+        quantity: 10
+      - id: 15656
+        quantity: 2
       lp: 30000
   3658:
     id: 3658
@@ -3498,12 +3498,12 @@ offers:
       items:
       - id: 526
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 7
       - id: 15604
         quantity: 11
+      - id: 15605
+        quantity: 7
+      - id: 15656
+        quantity: 2
       lp: 20000
   3664:
     id: 3664
@@ -10656,16 +10656,16 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17743
-        quantity: 1
-      - id: 17239
-        quantity: 1
       - id: 12533
-        quantity: 5
-      - id: 12548
         quantity: 5
       - id: 12547
         quantity: 10
+      - id: 12548
+        quantity: 5
+      - id: 17239
+        quantity: 1
+      - id: 17743
+        quantity: 1
       - id: 34
         quantity: 23333
       - id: 35
@@ -10713,16 +10713,16 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 18657
-        quantity: 1
-      - id: 16189
-        quantity: 1
-      - id: 16183
-        quantity: 5
       - id: 15981
         quantity: 5
       - id: 16181
         quantity: 5
+      - id: 16183
+        quantity: 5
+      - id: 16189
+        quantity: 1
+      - id: 18657
+        quantity: 1
       - id: 34
         quantity: 611111
       - id: 35
@@ -10770,16 +10770,16 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17299
-        quantity: 1
-      - id: 17260
-        quantity: 1
-      - id: 17211
-        quantity: 1
       - id: 12550
         quantity: 5
       - id: 12551
         quantity: 10
+      - id: 17211
+        quantity: 1
+      - id: 17260
+        quantity: 1
+      - id: 17299
+        quantity: 1
       - id: 34
         quantity: 10608662
       - id: 35
@@ -11105,13 +11105,13 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17623
-        quantity: 1
-      - id: 17624
-        quantity: 1
       - id: 14292
         quantity: 1
       - id: 17251
+        quantity: 1
+      - id: 17623
+        quantity: 1
+      - id: 17624
         quantity: 1
       - id: 18655
         quantity: 1
@@ -11162,16 +11162,16 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17630
-        quantity: 1
-      - id: 17251
-        quantity: 1
       - id: 12542
         quantity: 30
       - id: 12543
         quantity: 20
       - id: 17209
         quantity: 20
+      - id: 17251
+        quantity: 1
+      - id: 17630
+        quantity: 1
       - id: 34
         quantity: 622222
       - id: 35
@@ -11219,16 +11219,16 @@ offers:
       quantity: 1
     requirements:
       items:
+      - id: 12545
+        quantity: 10
+      - id: 17206
+        quantity: 10
+      - id: 17244
+        quantity: 1
       - id: 17295
         quantity: 1
       - id: 17639
         quantity: 1
-      - id: 17244
-        quantity: 1
-      - id: 17206
-        quantity: 10
-      - id: 12545
-        quantity: 10
       - id: 34
         quantity: 10608667
       - id: 35
@@ -11528,16 +11528,16 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17272
-        quantity: 1
-      - id: 17263
-        quantity: 1
-      - id: 12538
-        quantity: 5
       - id: 12537
         quantity: 10
+      - id: 12538
+        quantity: 5
       - id: 17219
         quantity: 10
+      - id: 17263
+        quantity: 1
+      - id: 17272
+        quantity: 1
       - id: 34
         quantity: 24444
       - id: 35
@@ -11585,16 +11585,16 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17293
-        quantity: 1
-      - id: 17270
-        quantity: 1
-      - id: 17217
-        quantity: 10
       - id: 12539
         quantity: 5
+      - id: 17217
+        quantity: 10
       - id: 17218
         quantity: 8
+      - id: 17270
+        quantity: 1
+      - id: 17293
+        quantity: 1
       - id: 34
         quantity: 611111
       - id: 35
@@ -11642,13 +11642,13 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17291
-        quantity: 1
       - id: 17216
         quantity: 2
       - id: 17267
         quantity: 1
       - id: 17271
+        quantity: 1
+      - id: 17291
         quantity: 1
       - id: 34
         quantity: 10549436
@@ -11700,12 +11700,12 @@ offers:
     requirements:
       isk: 36000000
       items:
-      - id: 15656
-        quantity: 7
-      - id: 15605
-        quantity: 33
       - id: 15604
         quantity: 49
+      - id: 15605
+        quantity: 33
+      - id: 15656
+        quantity: 7
       - id: 34
         quantity: 387065
       - id: 35
@@ -11730,12 +11730,12 @@ offers:
     requirements:
       isk: 67500000
       items:
-      - id: 15656
-        quantity: 12
-      - id: 15605
-        quantity: 62
       - id: 15604
         quantity: 92
+      - id: 15605
+        quantity: 62
+      - id: 15656
+        quantity: 12
       - id: 34
         quantity: 201180
       - id: 35
@@ -11873,16 +11873,16 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17230
-        quantity: 1
-      - id: 17221
-        quantity: 1
-      - id: 17222
-        quantity: 1
       - id: 12528
         quantity: 30
       - id: 17190
         quantity: 30
+      - id: 17221
+        quantity: 1
+      - id: 17222
+        quantity: 1
+      - id: 17230
+        quantity: 1
       - id: 34
         quantity: 22222
       - id: 35
@@ -11930,16 +11930,16 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17817
-        quantity: 1
-      - id: 15641
-        quantity: 1
       - id: 15623
         quantity: 30
+      - id: 15641
+        quantity: 1
       - id: 15672
         quantity: 30
       - id: 16001
         quantity: 30
+      - id: 17817
+        quantity: 1
       - id: 34
         quantity: 622222
       - id: 35
@@ -11987,14 +11987,14 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 17305
+      - id: 15645
         quantity: 1
       - id: 17192
         quantity: 5
-      - id: 15645
-        quantity: 1
       - id: 17196
         quantity: 5
+      - id: 17305
+        quantity: 1
       - id: 34
         quantity: 10549422
       - id: 35
@@ -13525,12 +13525,12 @@ offers:
     requirements:
       isk: 13500000
       items:
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 13
       - id: 15604
         quantity: 18
+      - id: 15605
+        quantity: 13
+      - id: 15656
+        quantity: 2
       - id: 34
         quantity: 128245
       - id: 35
@@ -13549,12 +13549,12 @@ offers:
     requirements:
       isk: 13500000
       items:
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 13
       - id: 15604
         quantity: 18
+      - id: 15605
+        quantity: 13
+      - id: 15656
+        quantity: 2
       - id: 34
         quantity: 220180
       - id: 35
@@ -13577,12 +13577,12 @@ offers:
     requirements:
       isk: 13500000
       items:
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 13
       - id: 15604
         quantity: 18
+      - id: 15605
+        quantity: 13
+      - id: 15656
+        quantity: 2
       - id: 40
         quantity: 10
       - id: 34
@@ -13603,12 +13603,12 @@ offers:
     requirements:
       isk: 13500000
       items:
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 13
       - id: 15604
         quantity: 18
+      - id: 15605
+        quantity: 13
+      - id: 15656
+        quantity: 2
       - id: 34
         quantity: 154465
       - id: 35
@@ -13773,12 +13773,12 @@ offers:
     requirements:
       isk: 36000000
       items:
-      - id: 15656
-        quantity: 7
-      - id: 15605
-        quantity: 33
       - id: 15604
         quantity: 49
+      - id: 15605
+        quantity: 33
+      - id: 15656
+        quantity: 7
       - id: 34
         quantity: 40250
       - id: 35
@@ -14905,12 +14905,12 @@ offers:
     requirements:
       isk: 18000000
       items:
-      - id: 15656
-        quantity: 5
-      - id: 15605
-        quantity: 17
       - id: 15604
         quantity: 24
+      - id: 15605
+        quantity: 17
+      - id: 15656
+        quantity: 5
       - id: 34
         quantity: 99420
       - id: 35
@@ -14935,12 +14935,12 @@ offers:
     requirements:
       isk: 54000000
       items:
-      - id: 15656
-        quantity: 10
-      - id: 15605
-        quantity: 49
       - id: 15604
         quantity: 74
+      - id: 15605
+        quantity: 49
+      - id: 15656
+        quantity: 10
       - id: 34
         quantity: 318765
       - id: 35
@@ -15089,10 +15089,10 @@ offers:
       items:
       - id: 15602
         quantity: 7
-      - id: 15605
-        quantity: 21
       - id: 15604
         quantity: 33
+      - id: 15605
+        quantity: 21
       - id: 34
         quantity: 4310
       - id: 35
@@ -15793,12 +15793,12 @@ offers:
     requirements:
       isk: 9600000
       items:
-      - id: 20138
-        quantity: 1
       - id: 15630
         quantity: 63
       - id: 15631
         quantity: 106
+      - id: 20138
+        quantity: 1
       lp: 24000
   4602:
     id: 4602
@@ -16053,12 +16053,12 @@ offers:
     requirements:
       isk: 9600000
       items:
-      - id: 20138
-        quantity: 1
       - id: 15592
         quantity: 63
       - id: 15593
         quantity: 106
+      - id: 20138
+        quantity: 1
       lp: 24000
   4617:
     id: 4617
@@ -16069,12 +16069,12 @@ offers:
     requirements:
       isk: 2800000
       items:
-      - id: 20138
-        quantity: 1
       - id: 15613
         quantity: 18
       - id: 15614
         quantity: 31
+      - id: 20138
+        quantity: 1
       lp: 7000
   4618:
     id: 4618
@@ -17257,11 +17257,11 @@ offers:
     requirements:
       isk: 500000
       items:
+      - id: 11293
+        quantity: 1
       - id: 15631
         quantity: 2
       - id: 15998
-        quantity: 1
-      - id: 11293
         quantity: 1
       lp: 1000
   14667:
@@ -17303,10 +17303,10 @@ offers:
       items:
       - id: 11299
         quantity: 1
-      - id: 15661
-        quantity: 2
       - id: 15632
         quantity: 1
+      - id: 15661
+        quantity: 2
       lp: 5000
   14670:
     id: 14670
@@ -17319,10 +17319,10 @@ offers:
       items:
       - id: 11279
         quantity: 1
-      - id: 15661
-        quantity: 4
       - id: 15632
         quantity: 2
+      - id: 15661
+        quantity: 4
       lp: 10000
   14672:
     id: 14672
@@ -17441,10 +17441,10 @@ offers:
       items:
       - id: 3839
         quantity: 1
-      - id: 15673
-        quantity: 4
       - id: 15594
         quantity: 2
+      - id: 15673
+        quantity: 4
       lp: 10000
   14680:
     id: 14680
@@ -17457,10 +17457,10 @@ offers:
       items:
       - id: 377
         quantity: 1
-      - id: 15614
-        quantity: 4
       - id: 15612
         quantity: 2
+      - id: 15614
+        quantity: 4
       lp: 1000
   14681:
     id: 14681
@@ -17487,10 +17487,10 @@ offers:
       items:
       - id: 3839
         quantity: 1
-      - id: 15669
-        quantity: 4
       - id: 15615
         quantity: 2
+      - id: 15669
+        quantity: 4
       lp: 10000
   14683:
     id: 14683
@@ -17501,12 +17501,12 @@ offers:
     requirements:
       isk: 4000000
       items:
-      - id: 23533
-        quantity: 1
       - id: 15604
         quantity: 4
       - id: 15605
         quantity: 2
+      - id: 23533
+        quantity: 1
       lp: 10000
   14684:
     id: 14684
@@ -17519,10 +17519,10 @@ offers:
       items:
       - id: 12709
         quantity: 1
-      - id: 15669
-        quantity: 4
       - id: 15615
         quantity: 2
+      - id: 15669
+        quantity: 4
       lp: 10000
   14685:
     id: 14685
@@ -17563,10 +17563,10 @@ offers:
       items:
       - id: 12225
         quantity: 1
-      - id: 15661
-        quantity: 4
       - id: 15632
         quantity: 2
+      - id: 15661
+        quantity: 4
       lp: 10000
   14688:
     id: 14688
@@ -17579,10 +17579,10 @@ offers:
       items:
       - id: 1539
         quantity: 1
-      - id: 15673
-        quantity: 4
       - id: 15594
         quantity: 2
+      - id: 15673
+        quantity: 4
       lp: 10000
   14689:
     id: 14689
@@ -21680,10 +21680,10 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 24696
-        quantity: 1
       - id: 17794
         quantity: 2
+      - id: 24696
+        quantity: 1
       lp: 250000
   15779:
     id: 15779
@@ -21693,10 +21693,10 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 24698
-        quantity: 1
       - id: 17646
         quantity: 2
+      - id: 24698
+        quantity: 1
       lp: 250000
   15780:
     id: 15780
@@ -21719,10 +21719,10 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 24702
-        quantity: 1
       - id: 17816
         quantity: 2
+      - id: 24702
+        quantity: 1
       lp: 250000
   15782:
     id: 15782
@@ -21822,10 +21822,10 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 24696
-        quantity: 1
       - id: 17794
         quantity: 2
+      - id: 24696
+        quantity: 1
       lp: 100000
   15787:
     id: 15787
@@ -21835,10 +21835,10 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 24698
-        quantity: 1
       - id: 17646
         quantity: 2
+      - id: 24698
+        quantity: 1
       lp: 100000
   15788:
     id: 15788
@@ -21861,10 +21861,10 @@ offers:
       quantity: 1
     requirements:
       items:
-      - id: 24702
-        quantity: 1
       - id: 17816
         quantity: 2
+      - id: 24702
+        quantity: 1
       lp: 100000
   15790:
     id: 15790
@@ -22298,14 +22298,14 @@ offers:
     requirements:
       isk: 10500000
       items:
-      - id: 33448
-        quantity: 1
       - id: 15614
         quantity: 2
       - id: 15615
         quantity: 10
       - id: 15669
         quantity: 14
+      - id: 33448
+        quantity: 1
       lp: 26250
   15820:
     id: 15820
@@ -22342,14 +22342,14 @@ offers:
     requirements:
       isk: 10500000
       items:
-      - id: 33448
-        quantity: 1
       - id: 15593
         quantity: 2
       - id: 15594
         quantity: 10
       - id: 15673
         quantity: 14
+      - id: 33448
+        quantity: 1
       lp: 26250
   15822:
     id: 15822
@@ -22667,12 +22667,12 @@ offers:
       items:
       - id: 4393
         quantity: 1
-      - id: 15656
-        quantity: 2
-      - id: 15605
-        quantity: 10
       - id: 15604
         quantity: 17
+      - id: 15605
+        quantity: 10
+      - id: 15656
+        quantity: 2
       lp: 30000
   16074:
     id: 16074
@@ -22683,14 +22683,14 @@ offers:
     requirements:
       isk: 7200000
       items:
-      - id: 24395
-        quantity: 1
       - id: 15599
         quantity: 89
       - id: 15600
         quantity: 112
       - id: 15601
         quantity: 135
+      - id: 24395
+        quantity: 1
       lp: 18000
   16075:
     id: 16075
@@ -22719,14 +22719,14 @@ offers:
     requirements:
       isk: 12000000
       items:
-      - id: 33822
-        quantity: 1
       - id: 15631
         quantity: 2
       - id: 15632
         quantity: 10
       - id: 15661
         quantity: 17
+      - id: 33822
+        quantity: 1
       lp: 30000
   16077:
     id: 16077
@@ -23189,14 +23189,14 @@ offers:
     requirements:
       isk: 15000000
       items:
+      - id: 526
+        quantity: 1
+      - id: 15614
+        quantity: 2
       - id: 15615
         quantity: 15
       - id: 15669
         quantity: 4
-      - id: 15614
-        quantity: 2
-      - id: 526
-        quantity: 1
       lp: 80000
   16194:
     id: 16194
@@ -24035,9 +24035,9 @@ offers:
     requirements:
       isk: 100000000
       items:
-      - id: 22559
-        quantity: 1
       - id: 21888
+        quantity: 1
+      - id: 22559
         quantity: 1
       lp: 100000
   16273:
@@ -26314,232 +26314,241 @@ offers:
       lp: 267750
   16461:
     id: 16461
-    name: 5* Skybreaker(BPC)
+    name: Skybreaker(BPC)
     product:
       id: 54731
-      quantity: 5
+      quantity: 1
     requirements:
+      isk: 1000000
       items:
       - id: 55830
         quantity: 100
       - id: 55831
-        quantity: 750
+        quantity: 100
       - id: 40
-        quantity: 40
+        quantity: 8
       - id: 54971
-        quantity: 40
+        quantity: 8
       - id: 54970
-        quantity: 60
+        quantity: 12
       - id: 39
-        quantity: 80
+        quantity: 16
       - id: 54972
-        quantity: 120
+        quantity: 24
       - id: 38
-        quantity: 420
+        quantity: 84
       - id: 47975
-        quantity: 1060
+        quantity: 212
       - id: 37
-        quantity: 11780
+        quantity: 2356
       - id: 36
-        quantity: 62220
+        quantity: 12444
       - id: 35
-        quantity: 177780
+        quantity: 35556
       - id: 34
-        quantity: 422220
+        quantity: 84444
       lp: 250
   16462:
     id: 16462
-    name: 5* Stormbringer(BPC)
+    name: Stormbringer(BPC)
     product:
       id: 54732
-      quantity: 5
+      quantity: 1
     requirements:
-      items:
-      - id: 55830
-        quantity: 200
-      - id: 55831
-        quantity: 1250
-      - id: 54971
-        quantity: 120
-      - id: 54970
-        quantity: 140
-      - id: 54972
-        quantity: 280
-      - id: 47975
-        quantity: 2115
-      - id: 40
-        quantity: 3880
-      - id: 39
-        quantity: 12660
-      - id: 38
-        quantity: 26670
-      - id: 37
-        quantity: 98890
-      - id: 36
-        quantity: 400000
-      - id: 35
-        quantity: 1555560
-      - id: 34
-        quantity: 6111110
-      lp: 375
-  16463:
-    id: 16463
-    name: 5* Thunderchild(BPC)
-    product:
-      id: 54733
-      quantity: 5
-    requirements:
+      isk: 4000000
       items:
       - id: 55830
         quantity: 400
       - id: 55831
-        quantity: 2000
-      - id: 54970
-        quantity: 410
+        quantity: 400
       - id: 54971
-        quantity: 470
+        quantity: 24
+      - id: 54970
+        quantity: 28
       - id: 54972
-        quantity: 600
+        quantity: 56
       - id: 47975
-        quantity: 3840
+        quantity: 423
       - id: 40
-        quantity: 15720
+        quantity: 776
       - id: 39
-        quantity: 64335
+        quantity: 2532
       - id: 38
-        quantity: 126250
+        quantity: 5334
       - id: 37
-        quantity: 438970
+        quantity: 19778
       - id: 36
-        quantity: 1841945
+        quantity: 80000
       - id: 35
-        quantity: 8240000
+        quantity: 311112
       - id: 34
-        quantity: 32451665
+        quantity: 1222222
+      lp: 375
+  16463:
+    id: 16463
+    name: Thunderchild(BPC)
+    product:
+      id: 54733
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 55830
+        quantity: 800
+      - id: 55831
+        quantity: 800
+      - id: 54970
+        quantity: 82
+      - id: 54971
+        quantity: 94
+      - id: 54972
+        quantity: 120
+      - id: 47975
+        quantity: 768
+      - id: 40
+        quantity: 3144
+      - id: 39
+        quantity: 12867
+      - id: 38
+        quantity: 25250
+      - id: 37
+        quantity: 87794
+      - id: 36
+        quantity: 368389
+      - id: 35
+        quantity: 1648000
+      - id: 34
+        quantity: 6490333
       lp: 500
   16464:
     id: 16464
-    name: 10* Small Vorton Projector I(BPC)
+    name: Small Vorton Projector I(BPC)
     product:
       id: 54739
-      quantity: 10
+      quantity: 1
     requirements:
       items:
       - id: 55830
-        quantity: 1000
+        quantity: 20
       - id: 55831
-        quantity: 50
+        quantity: 20
       - id: 54970
-        quantity: 40
+        quantity: 4
       - id: 54971
-        quantity: 60
+        quantity: 6
       - id: 39
-        quantity: 160
+        quantity: 16
       - id: 54972
-        quantity: 240
+        quantity: 24
       - id: 48112
-        quantity: 1420
+        quantity: 142
       - id: 35
-        quantity: 5920
+        quantity: 592
       - id: 36
-        quantity: 6840
+        quantity: 684
       - id: 34
-        quantity: 109160
+        quantity: 10916
       lp: 200
   16465:
     id: 16465
-    name: 10* Medium Vorton Projector I(BPC)
+    name: Medium Vorton Projector I(BPC)
     product:
       id: 54745
-      quantity: 10
+      quantity: 1
     requirements:
+      isk: 1000000
       items:
       - id: 55830
-        quantity: 2000
+        quantity: 80
       - id: 55831
-        quantity: 100
+        quantity: 80
       - id: 54970
-        quantity: 60
+        quantity: 6
       - id: 54971
-        quantity: 100
+        quantity: 10
       - id: 37
-        quantity: 120
+        quantity: 12
       - id: 54972
-        quantity: 460
+        quantity: 46
       - id: 38
-        quantity: 1080
+        quantity: 108
       - id: 48112
-        quantity: 2650
+        quantity: 265
       - id: 35
-        quantity: 178860
+        quantity: 17886
       - id: 36
-        quantity: 215940
+        quantity: 21594
       - id: 34
-        quantity: 547980
+        quantity: 54798
       lp: 300
   16466:
     id: 16466
-    name: 10* Large Vorton Projector I(BPC)
+    name: Large Vorton Projector I(BPC)
     product:
       id: 54750
-      quantity: 10
+      quantity: 1
     requirements:
+      isk: 5000000
       items:
       - id: 55830
-        quantity: 3000
+        quantity: 430
       - id: 55831
-        quantity: 150
+        quantity: 430
       - id: 54970
-        quantity: 120
+        quantity: 12
       - id: 54971
-        quantity: 240
+        quantity: 24
       - id: 54972
-        quantity: 820
+        quantity: 82
       - id: 40
-        quantity: 2600
+        quantity: 260
       - id: 48112
-        quantity: 4400
+        quantity: 440
       - id: 38
-        quantity: 32880
+        quantity: 3288
       - id: 37
-        quantity: 212000
+        quantity: 21200
       - id: 36
-        quantity: 779760
+        quantity: 77976
       - id: 35
-        quantity: 2337120
+        quantity: 233712
       - id: 34
-        quantity: 9110400
+        quantity: 911040
       lp: 400
   16467:
     id: 16467
-    name: 5* Small Compact Vorton Projector(BPC)
+    name: Small Compact Vorton Projector(BPC)
     product:
       id: 54740
-      quantity: 5
+      quantity: 1
     requirements:
       items:
       - id: 55830
-        quantity: 50
-      - id: 54739
-        quantity: 5
-      - id: 54970
         quantity: 20
-      lp: 50
+      - id: 55831
+        quantity: 20
+      - id: 54739
+        quantity: 1
+      - id: 54970
+        quantity: 4
+      lp: 200
   16468:
     id: 16468
-    name: 5* Small Scoped Vorton Projector(BPC)
+    name: Small Scoped Vorton Projector(BPC)
     product:
       id: 54741
-      quantity: 5
+      quantity: 1
     requirements:
       items:
       - id: 55830
-        quantity: 50
-      - id: 54739
-        quantity: 5
-      - id: 54970
         quantity: 20
-      lp: 50
+      - id: 55831
+        quantity: 20
+      - id: 54739
+        quantity: 1
+      - id: 54970
+        quantity: 4
+      lp: 200
   16469:
     id: 16469
     name: Small Consortium Vorton Projector(BPC)
@@ -26547,7 +26556,14 @@ offers:
       id: 54743
       quantity: 1
     requirements:
+      isk: 10000000
       items:
+      - id: 48121
+        quantity: 125
+      - id: 55830
+        quantity: 250
+      - id: 55831
+        quantity: 250
       - id: 55832
         quantity: 5
       - id: 54742
@@ -26557,34 +26573,40 @@ offers:
       lp: 100
   16470:
     id: 16470
-    name: 5* Medium Compact Vorton Projector(BPC)
+    name: Medium Compact Vorton Projector(BPC)
     product:
       id: 54746
-      quantity: 5
+      quantity: 1
     requirements:
+      isk: 1200000
       items:
       - id: 55830
-        quantity: 100
+        quantity: 80
+      - id: 55831
+        quantity: 80
       - id: 54745
-        quantity: 5
+        quantity: 1
       - id: 54970
-        quantity: 40
-      lp: 100
+        quantity: 8
+      lp: 300
   16471:
     id: 16471
-    name: 5* Medium Scoped Vorton Projector(BPC)
+    name: Medium Scoped Vorton Projector(BPC)
     product:
       id: 54747
-      quantity: 5
+      quantity: 1
     requirements:
+      isk: 1200000
       items:
       - id: 55830
-        quantity: 100
+        quantity: 80
+      - id: 55831
+        quantity: 80
       - id: 54745
-        quantity: 5
+        quantity: 1
       - id: 54970
-        quantity: 40
-      lp: 100
+        quantity: 8
+      lp: 300
   16472:
     id: 16472
     name: Medium Consortium Vorton Projector(BPC)
@@ -26592,7 +26614,14 @@ offers:
       id: 54749
       quantity: 1
     requirements:
+      isk: 20000000
       items:
+      - id: 48121
+        quantity: 250
+      - id: 55830
+        quantity: 500
+      - id: 55831
+        quantity: 500
       - id: 55832
         quantity: 10
       - id: 54748
@@ -26602,34 +26631,40 @@ offers:
       lp: 200
   16473:
     id: 16473
-    name: 5* Large Compact Vorton Projector(BPC)
+    name: Large Compact Vorton Projector(BPC)
     product:
       id: 54751
-      quantity: 5
+      quantity: 1
     requirements:
+      isk: 5500000
       items:
       - id: 55830
-        quantity: 150
+        quantity: 430
+      - id: 55831
+        quantity: 430
       - id: 54750
-        quantity: 5
+        quantity: 1
       - id: 54970
-        quantity: 70
-      lp: 150
+        quantity: 14
+      lp: 400
   16474:
     id: 16474
-    name: 5* Large Scoped Vorton Projector(BPC)
+    name: Large Scoped Vorton Projector(BPC)
     product:
       id: 54752
-      quantity: 5
+      quantity: 1
     requirements:
+      isk: 5500000
       items:
       - id: 55830
-        quantity: 150
+        quantity: 430
+      - id: 55831
+        quantity: 430
       - id: 54750
-        quantity: 5
+        quantity: 1
       - id: 54970
-        quantity: 70
-      lp: 150
+        quantity: 14
+      lp: 400
   16475:
     id: 16475
     name: Large Consortium Vorton Projector(BPC)
@@ -26637,7 +26672,14 @@ offers:
       id: 54754
       quantity: 1
     requirements:
+      isk: 40000000
       items:
+      - id: 48121
+        quantity: 500
+      - id: 55830
+        quantity: 1000
+      - id: 55831
+        quantity: 1000
       - id: 55832
         quantity: 15
       - id: 54753
@@ -26647,39 +26689,45 @@ offers:
       lp: 300
   16476:
     id: 16476
-    name: 5* Compact Vorton Tuning System I(BPC)
+    name: Compact Vorton Tuning System I(BPC)
     product:
       id: 54974
-      quantity: 5
+      quantity: 1
     requirements:
+      isk: 500000
       items:
       - id: 55830
-        quantity: 50
+        quantity: 35
+      - id: 55831
+        quantity: 35
       - id: 54973
-        quantity: 5
+        quantity: 1
       - id: 54970
-        quantity: 50
+        quantity: 10
       lp: 50
   16477:
     id: 16477
-    name: 10* Vorton Tuning System I(BPC)
+    name: Vorton Tuning System I(BPC)
     product:
       id: 54973
-      quantity: 10
+      quantity: 1
     requirements:
+      isk: 500000
       items:
       - id: 55830
-        quantity: 600
+        quantity: 35
+      - id: 55831
+        quantity: 35
       - id: 54970
-        quantity: 20
+        quantity: 2
       - id: 54971
-        quantity: 60
+        quantity: 6
       - id: 54972
-        quantity: 200
+        quantity: 20
       - id: 35
-        quantity: 14590
+        quantity: 1459
       - id: 34
-        quantity: 80500
+        quantity: 8050
       lp: 200
   16478:
     id: 16478
@@ -26688,11 +26736,12 @@ offers:
       id: 54769
       quantity: 5000
     requirements:
+      isk: 100000
       items:
       - id: 55830
-        quantity: 300
+        quantity: 40
       - id: 55831
-        quantity: 10
+        quantity: 40
       - id: 54970
         quantity: 10
       - id: 38
@@ -26703,7 +26752,6 @@ offers:
         quantity: 680
       - id: 34
         quantity: 8160
-      lp: 100
   16479:
     id: 16479
     name: 10* MesmerFlux Condenser Pack S(BPC)
@@ -26711,11 +26759,12 @@ offers:
       id: 54770
       quantity: 5000
     requirements:
+      isk: 100000
       items:
       - id: 55830
-        quantity: 300
+        quantity: 40
       - id: 55831
-        quantity: 10
+        quantity: 40
       - id: 54970
         quantity: 10
       - id: 38
@@ -26726,7 +26775,6 @@ offers:
         quantity: 680
       - id: 34
         quantity: 8160
-      lp: 100
   16480:
     id: 16480
     name: 10* BlastShot Condenser Pack S(BPC)
@@ -26734,11 +26782,12 @@ offers:
       id: 54771
       quantity: 5000
     requirements:
+      isk: 100000
       items:
       - id: 55830
-        quantity: 300
+        quantity: 40
       - id: 55831
-        quantity: 10
+        quantity: 40
       - id: 54970
         quantity: 10
       - id: 38
@@ -26749,7 +26798,6 @@ offers:
         quantity: 680
       - id: 34
         quantity: 8160
-      lp: 100
   16481:
     id: 16481
     name: 10* SlamBolt Condenser Pack S(BPC)
@@ -26757,11 +26805,12 @@ offers:
       id: 54772
       quantity: 5000
     requirements:
+      isk: 100000
       items:
       - id: 55830
-        quantity: 300
+        quantity: 40
       - id: 55831
-        quantity: 10
+        quantity: 40
       - id: 54970
         quantity: 10
       - id: 38
@@ -26772,7 +26821,6 @@ offers:
         quantity: 680
       - id: 34
         quantity: 8160
-      lp: 100
   16482:
     id: 16482
     name: 10* GalvaSurge Condenser Pack M(BPC)
@@ -26780,11 +26828,12 @@ offers:
       id: 54773
       quantity: 5000
     requirements:
+      isk: 200000
       items:
       - id: 55830
-        quantity: 500
+        quantity: 80
       - id: 55831
-        quantity: 20
+        quantity: 80
       - id: 54970
         quantity: 20
       - id: 54972
@@ -26795,7 +26844,6 @@ offers:
         quantity: 25020
       - id: 34
         quantity: 26940
-      lp: 150
   16483:
     id: 16483
     name: 10* MesmerFlux Condenser Pack M(BPC)
@@ -26803,11 +26851,12 @@ offers:
       id: 54774
       quantity: 5000
     requirements:
+      isk: 200000
       items:
       - id: 55830
-        quantity: 500
+        quantity: 80
       - id: 55831
-        quantity: 20
+        quantity: 80
       - id: 54970
         quantity: 20
       - id: 54972
@@ -26818,7 +26867,6 @@ offers:
         quantity: 25020
       - id: 34
         quantity: 26940
-      lp: 150
   16484:
     id: 16484
     name: 10* BlastShot Condenser Pack M(BPC)
@@ -26826,11 +26874,12 @@ offers:
       id: 54775
       quantity: 5000
     requirements:
+      isk: 200000
       items:
       - id: 55830
-        quantity: 500
+        quantity: 80
       - id: 55831
-        quantity: 20
+        quantity: 80
       - id: 54970
         quantity: 20
       - id: 54972
@@ -26841,7 +26890,6 @@ offers:
         quantity: 25020
       - id: 34
         quantity: 26940
-      lp: 150
   16485:
     id: 16485
     name: 10* SlamBolt Condenser Pack M(BPC)
@@ -26849,11 +26897,12 @@ offers:
       id: 54776
       quantity: 5000
     requirements:
+      isk: 200000
       items:
       - id: 55830
-        quantity: 500
+        quantity: 80
       - id: 55831
-        quantity: 20
+        quantity: 80
       - id: 54970
         quantity: 20
       - id: 54972
@@ -26864,7 +26913,6 @@ offers:
         quantity: 25020
       - id: 34
         quantity: 26940
-      lp: 150
   16486:
     id: 16486
     name: 10* GalvaSurge Condenser Pack L(BPC)
@@ -26872,11 +26920,12 @@ offers:
       id: 54777
       quantity: 5000
     requirements:
+      isk: 400000
       items:
       - id: 55830
-        quantity: 750
+        quantity: 160
       - id: 55831
-        quantity: 30
+        quantity: 160
       - id: 54970
         quantity: 40
       - id: 54972
@@ -26889,7 +26938,6 @@ offers:
         quantity: 10160
       - id: 34
         quantity: 142240
-      lp: 200
   16487:
     id: 16487
     name: 10* MesmerFlux Condenser Pack L(BPC)
@@ -26897,11 +26945,12 @@ offers:
       id: 54778
       quantity: 5000
     requirements:
+      isk: 400000
       items:
       - id: 55830
-        quantity: 750
+        quantity: 160
       - id: 55831
-        quantity: 30
+        quantity: 160
       - id: 54970
         quantity: 40
       - id: 54972
@@ -26914,7 +26963,6 @@ offers:
         quantity: 10160
       - id: 34
         quantity: 142240
-      lp: 200
   16488:
     id: 16488
     name: 10* BlastShot Condenser Pack L(BPC)
@@ -26922,11 +26970,12 @@ offers:
       id: 54779
       quantity: 5000
     requirements:
+      isk: 400000
       items:
       - id: 55830
-        quantity: 750
+        quantity: 160
       - id: 55831
-        quantity: 30
+        quantity: 160
       - id: 54970
         quantity: 40
       - id: 54972
@@ -26939,7 +26988,6 @@ offers:
         quantity: 10160
       - id: 34
         quantity: 142240
-      lp: 200
   16489:
     id: 16489
     name: 10* SlamBolt Condenser Pack L(BPC)
@@ -26947,11 +26995,12 @@ offers:
       id: 54780
       quantity: 5000
     requirements:
+      isk: 400000
       items:
       - id: 55830
-        quantity: 750
+        quantity: 160
       - id: 55831
-        quantity: 30
+        quantity: 160
       - id: 54970
         quantity: 40
       - id: 54972
@@ -26964,7 +27013,6 @@ offers:
         quantity: 10160
       - id: 34
         quantity: 142240
-      lp: 200
   16490:
     id: 16490
     name: Small Vorton Specialization
@@ -26974,10 +27022,10 @@ offers:
     requirements:
       items:
       - id: 55830
-        quantity: 10
+        quantity: 500
       - id: 55832
-        quantity: 5
-      lp: 200
+        quantity: 1
+      lp: 2000
   16491:
     id: 16491
     name: Medium Vorton Specialization
@@ -26987,10 +27035,10 @@ offers:
     requirements:
       items:
       - id: 55830
-        quantity: 15
+        quantity: 500
       - id: 55832
-        quantity: 10
-      lp: 300
+        quantity: 2
+      lp: 3000
   16492:
     id: 16492
     name: Large Vorton Specialization
@@ -27000,10 +27048,10 @@ offers:
     requirements:
       items:
       - id: 55830
-        quantity: 20
+        quantity: 500
       - id: 55832
-        quantity: 15
-      lp: 400
+        quantity: 4
+      lp: 4000
   16493:
     id: 16493
     name: Upwell Encryption Methods
@@ -27013,8 +27061,8 @@ offers:
     requirements:
       items:
       - id: 55832
-        quantity: 40
-      lp: 800
+        quantity: 5
+      lp: 8000
   16494:
     id: 16494
     name: 100* Electromagnetic Metaprismatic Sheeting
@@ -27024,8 +27072,9 @@ offers:
     requirements:
       items:
       - id: 55830
-        quantity: 100
-      lp: 2000
+        quantity: 50
+      - id: 55831
+        quantity: 50
   16495:
     id: 16495
     name: 100* Hyperbolic Metatransistor Array
@@ -27034,9 +27083,10 @@ offers:
       quantity: 100
     requirements:
       items:
+      - id: 55830
+        quantity: 25
       - id: 55831
-        quantity: 100
-      lp: 2500
+        quantity: 25
   16496:
     id: 16496
     name: 100* Ultraconducting Ablative Nanocable
@@ -27046,5 +27096,1774 @@ offers:
     requirements:
       items:
       - id: 55830
+        quantity: 15
+      - id: 55831
+        quantity: 15
+  17006:
+    id: 17006
+    name: Tetryon Exotic Plasma S(BPC)
+    product:
+      id: 47885
+      quantity: 5000
+    requirements:
+      isk: 100000
+      items:
+      - id: 56708
+        quantity: 240
+      - id: 47975
+        quantity: 2
+      - id: 35
+        quantity: 21
+      - id: 34
+        quantity: 27
+      - id: 48112
+        quantity: 45
+  17007:
+    id: 17007
+    name: Baryon Exotic Plasma S(BPC)
+    product:
+      id: 47924
+      quantity: 5000
+    requirements:
+      isk: 100000
+      items:
+      - id: 56708
+        quantity: 240
+      - id: 47975
+        quantity: 2
+      - id: 35
+        quantity: 21
+      - id: 34
+        quantity: 27
+      - id: 48112
+        quantity: 45
+  17008:
+    id: 17008
+    name: Meson Exotic Plasma S(BPC)
+    product:
+      id: 47925
+      quantity: 5000
+    requirements:
+      isk: 100000
+      items:
+      - id: 56708
+        quantity: 240
+      - id: 47975
+        quantity: 2
+      - id: 35
+        quantity: 21
+      - id: 34
+        quantity: 27
+      - id: 48112
+        quantity: 45
+  17009:
+    id: 17009
+    name: Tetryon Exotic Plasma M(BPC)
+    product:
+      id: 47886
+      quantity: 5000
+    requirements:
+      isk: 200000
+      items:
+      - id: 56708
+        quantity: 480
+      - id: 47975
+        quantity: 3
+      - id: 48112
+        quantity: 85
+      - id: 35
+        quantity: 119
+      - id: 34
+        quantity: 143
+  17010:
+    id: 17010
+    name: Baryon Exotic Plasma M(BPC)
+    product:
+      id: 47928
+      quantity: 5000
+    requirements:
+      isk: 200000
+      items:
+      - id: 56708
+        quantity: 480
+      - id: 47975
+        quantity: 3
+      - id: 48112
+        quantity: 85
+      - id: 35
+        quantity: 119
+      - id: 34
+        quantity: 143
+  17011:
+    id: 17011
+    name: Meson Exotic Plasma M(BPC)
+    product:
+      id: 47929
+      quantity: 5000
+    requirements:
+      isk: 200000
+      items:
+      - id: 56708
+        quantity: 480
+      - id: 47975
+        quantity: 3
+      - id: 48112
+        quantity: 85
+      - id: 35
+        quantity: 119
+      - id: 34
+        quantity: 143
+  17012:
+    id: 17012
+    name: Baryon Exotic Plasma L(BPC)
+    product:
+      id: 47932
+      quantity: 5000
+    requirements:
+      isk: 400000
+      items:
+      - id: 56708
+        quantity: 960
+      - id: 47975
+        quantity: 5
+      - id: 48112
+        quantity: 125
+      - id: 34
+        quantity: 458
+      - id: 35
+        quantity: 580
+  17013:
+    id: 17013
+    name: Meson Exotic Plasma L(BPC)
+    product:
+      id: 47933
+      quantity: 5000
+    requirements:
+      isk: 400000
+      items:
+      - id: 56708
+        quantity: 960
+      - id: 47975
+        quantity: 5
+      - id: 48112
+        quantity: 125
+      - id: 34
+        quantity: 458
+      - id: 35
+        quantity: 580
+  17014:
+    id: 17014
+    name: Tetryon Exotic Plasma L(BPC)
+    product:
+      id: 47887
+      quantity: 5000
+    requirements:
+      isk: 400000
+      items:
+      - id: 56708
+        quantity: 960
+      - id: 47975
+        quantity: 5
+      - id: 48112
+        quantity: 125
+      - id: 34
+        quantity: 458
+      - id: 35
+        quantity: 580
+  17015:
+    id: 17015
+    name: Tetryon Exotic Plasma XL(BPC)
+    product:
+      id: 53301
+      quantity: 5000
+    requirements:
+      isk: 800000
+      items:
+      - id: 56708
+        quantity: 1920
+      - id: 47975
+        quantity: 52
+      - id: 48112
+        quantity: 1248
+      - id: 34
+        quantity: 4612
+      - id: 35
+        quantity: 5894
+  17016:
+    id: 17016
+    name: Meson Exotic Plasma XL(BPC)
+    product:
+      id: 53302
+      quantity: 5000
+    requirements:
+      isk: 800000
+      items:
+      - id: 56708
+        quantity: 1920
+      - id: 47975
+        quantity: 52
+      - id: 48112
+        quantity: 1248
+      - id: 34
+        quantity: 4612
+      - id: 35
+        quantity: 5894
+  17017:
+    id: 17017
+    name: Baryon Exotic Plasma XL(BPC)
+    product:
+      id: 52916
+      quantity: 5000
+    requirements:
+      isk: 800000
+      items:
+      - id: 56708
+        quantity: 1920
+      - id: 47975
+        quantity: 52
+      - id: 48112
+        quantity: 1248
+      - id: 34
+        quantity: 4612
+      - id: 35
+        quantity: 5894
+  17018:
+    id: 17018
+    name: Triglavian Encryption Methods
+    product:
+      id: 52308
+      quantity: 1
+    requirements:
+      isk: 2000000
+      items:
+      - id: 56708
+        quantity: 2200
+  17019:
+    id: 17019
+    name: Triglavian Quantum Engineering
+    product:
+      id: 52307
+      quantity: 1
+    requirements:
+      isk: 2000000
+      items:
+      - id: 56708
+        quantity: 2200
+  17020:
+    id: 17020
+    name: Bezdnacine Processing
+    product:
+      id: 56631
+      quantity: 1
+    requirements:
+      isk: 350000
+      items:
+      - id: 56708
+        quantity: 465
+  17021:
+    id: 17021
+    name: Rakovene Processing
+    product:
+      id: 56633
+      quantity: 1
+    requirements:
+      isk: 350000
+      items:
+      - id: 56708
+        quantity: 715
+  17022:
+    id: 17022
+    name: Talassonite Processing
+    product:
+      id: 56632
+      quantity: 1
+    requirements:
+      isk: 350000
+      items:
+      - id: 56708
+        quantity: 965
+  17023:
+    id: 17023
+    name: Precursor Frigate
+    product:
+      id: 47867
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 25
+  17024:
+    id: 17024
+    name: Precursor Destroyer
+    product:
+      id: 49742
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 50
+  17025:
+    id: 17025
+    name: Precursor Cruiser
+    product:
+      id: 47868
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 120
+  17026:
+    id: 17026
+    name: Precursor Battlecruiser
+    product:
+      id: 49743
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 300
+  17027:
+    id: 17027
+    name: Precursor Battleship
+    product:
+      id: 47869
+      quantity: 1
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 1070
+  17028:
+    id: 17028
+    name: Precursor Dreadnought
+    product:
+      id: 52997
+      quantity: 1
+    requirements:
+      isk: 100000000
+      items:
+      - id: 56708
+        quantity: 15000
+  17029:
+    id: 17029
+    name: Small Precursor Weapon
+    product:
+      id: 47870
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 25
+  17030:
+    id: 17030
+    name: Small Disintegrator Specialization
+    product:
+      id: 47873
+      quantity: 1
+    requirements:
+      isk: 500000
+      items:
+      - id: 56708
+        quantity: 9950
+  17031:
+    id: 17031
+    name: Medium Precursor Weapon
+    product:
+      id: 47871
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
         quantity: 100
-      lp: 1800
+  17032:
+    id: 17032
+    name: Medium Disintegrator Specialization
+    product:
+      id: 47874
+      quantity: 1
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 19900
+  17033:
+    id: 17033
+    name: Large Precursor Weapon
+    product:
+      id: 47872
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 480
+  17034:
+    id: 17034
+    name: Large Disintegrator Specialization
+    product:
+      id: 47875
+      quantity: 1
+    requirements:
+      isk: 5000000
+      items:
+      - id: 56708
+        quantity: 39500
+  17035:
+    id: 17035
+    name: Capital Precursor Weapon
+    product:
+      id: 52998
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 4000
+  17036:
+    id: 17036
+    name: Damavik(BPC)
+    product:
+      id: 47269
+      quantity: 1
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 400
+      - id: 40
+        quantity: 2
+      - id: 39
+        quantity: 20
+      - id: 38
+        quantity: 82
+      - id: 48112
+        quantity: 150
+      - id: 47975
+        quantity: 220
+      - id: 37
+        quantity: 398
+      - id: 36
+        quantity: 2949
+      - id: 35
+        quantity: 6290
+      - id: 34
+        quantity: 23304
+  17037:
+    id: 17037
+    name: Kikimora(BPC)
+    product:
+      id: 49710
+      quantity: 1
+    requirements:
+      isk: 2000000
+      items:
+      - id: 56708
+        quantity: 800
+      - id: 40
+        quantity: 3
+      - id: 39
+        quantity: 22
+      - id: 38
+        quantity: 82
+      - id: 48112
+        quantity: 180
+      - id: 47975
+        quantity: 230
+      - id: 37
+        quantity: 398
+      - id: 36
+        quantity: 3349
+      - id: 35
+        quantity: 7290
+      - id: 34
+        quantity: 43304
+  17038:
+    id: 17038
+    name: Rodiva(BPC)
+    product:
+      id: 49712
+      quantity: 1
+    requirements:
+      isk: 3000000
+      items:
+      - id: 56708
+        quantity: 1200
+      - id: 40
+        quantity: 156
+      - id: 47975
+        quantity: 235
+      - id: 48112
+        quantity: 546
+      - id: 39
+        quantity: 1202
+      - id: 38
+        quantity: 2387
+      - id: 37
+        quantity: 9687
+      - id: 36
+        quantity: 39907
+      - id: 35
+        quantity: 184233
+      - id: 34
+        quantity: 514356
+  17039:
+    id: 17039
+    name: Vedmak(BPC)
+    product:
+      id: 47270
+      quantity: 1
+    requirements:
+      isk: 4000000
+      items:
+      - id: 56708
+        quantity: 1600
+      - id: 40
+        quantity: 356
+      - id: 48112
+        quantity: 400
+      - id: 47975
+        quantity: 435
+      - id: 39
+        quantity: 1202
+      - id: 38
+        quantity: 2387
+      - id: 37
+        quantity: 9687
+      - id: 36
+        quantity: 39907
+      - id: 35
+        quantity: 154233
+      - id: 34
+        quantity: 614356
+  17040:
+    id: 17040
+    name: Drekavac(BPC)
+    product:
+      id: 49711
+      quantity: 1
+    requirements:
+      isk: 7000000
+      items:
+      - id: 56708
+        quantity: 2800
+      - id: 40
+        quantity: 386
+      - id: 48112
+        quantity: 560
+      - id: 47975
+        quantity: 635
+      - id: 39
+        quantity: 1402
+      - id: 38
+        quantity: 2887
+      - id: 37
+        quantity: 9687
+      - id: 36
+        quantity: 43907
+      - id: 35
+        quantity: 184233
+      - id: 34
+        quantity: 914356
+  17041:
+    id: 17041
+    name: Leshak(BPC)
+    product:
+      id: 47271
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 4000
+      - id: 47975
+        quantity: 730
+      - id: 48112
+        quantity: 850
+      - id: 40
+        quantity: 6575
+      - id: 39
+        quantity: 21186
+      - id: 38
+        quantity: 45699
+      - id: 37
+        quantity: 186361
+      - id: 36
+        quantity: 733304
+      - id: 35
+        quantity: 2930004
+      - id: 34
+        quantity: 11716296
+  17042:
+    id: 17042
+    name: Datacore - Triglavian Quantum Engineering
+    product:
+      id: 52309
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 200
+  17043:
+    id: 17043
+    name: 30* Capital Singularity Radiation Convertor
+    product:
+      id: 53288
+      quantity: 30
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 1300
+  17044:
+    id: 17044
+    name: 28* Capital Trinary State Processor
+    product:
+      id: 53290
+      quantity: 28
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 1900
+  17045:
+    id: 17045
+    name: 10* Capital Zero-Point Field Manipulator
+    product:
+      id: 53289
+      quantity: 10
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 5400
+  17046:
+    id: 17046
+    name: Capital Ultratidal Entropic Mounting(BPC)
+    product:
+      id: 53035
+      quantity: 1
+    requirements:
+      isk: 25000000
+      items:
+      - id: 56708
+        quantity: 16000
+      - id: 53289
+        quantity: 1
+      - id: 53288
+        quantity: 2
+      - id: 53290
+        quantity: 7
+      - id: 48112
+        quantity: 90
+      - id: 47975
+        quantity: 180
+      - id: 40
+        quantity: 386
+      - id: 39
+        quantity: 876
+      - id: 38
+        quantity: 2358
+      - id: 37
+        quantity: 7760
+      - id: 36
+        quantity: 45010
+      - id: 35
+        quantity: 113826
+      - id: 34
+        quantity: 546912
+  17047:
+    id: 17047
+    name: Capital Radiation Conversion Unit(BPC)
+    product:
+      id: 53036
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - id: 56708
+        quantity: 23000
+      - id: 53289
+        quantity: 3
+      - id: 53290
+        quantity: 3
+      - id: 53288
+        quantity: 12
+      - id: 47975
+        quantity: 45
+      - id: 48112
+        quantity: 45
+      - id: 40
+        quantity: 334
+      - id: 39
+        quantity: 728
+      - id: 38
+        quantity: 2191
+      - id: 37
+        quantity: 7491
+      - id: 36
+        quantity: 45621
+      - id: 35
+        quantity: 110413
+      - id: 34
+        quantity: 510149
+  17048:
+    id: 17048
+    name: Capital Absorption Thruster Array(BPC)
+    product:
+      id: 53037
+      quantity: 1
+    requirements:
+      isk: 100000000
+      items:
+      - id: 56708
+        quantity: 45500
+      - id: 53289
+        quantity: 1
+      - id: 53290
+        quantity: 1
+      - id: 53288
+        quantity: 10
+      - id: 47975
+        quantity: 90
+      - id: 48112
+        quantity: 270
+      - id: 40
+        quantity: 302
+      - id: 39
+        quantity: 604
+      - id: 38
+        quantity: 2110
+      - id: 37
+        quantity: 6938
+      - id: 36
+        quantity: 41994
+      - id: 35
+        quantity: 110416
+      - id: 34
+        quantity: 457050
+  17049:
+    id: 17049
+    name: Light Entropic Disintegrator I(BPC)
+    product:
+      id: 47272
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 120
+      - id: 36
+        quantity: 9
+      - id: 47975
+        quantity: 15
+      - id: 37
+        quantity: 20
+      - id: 48112
+        quantity: 450
+      - id: 35
+        quantity: 3158
+      - id: 34
+        quantity: 3556
+  17050:
+    id: 17050
+    name: Light Compact Entropic Disintegrator(BPC)
+    product:
+      id: 47912
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 120
+      - id: 36
+        quantity: 9
+      - id: 47975
+        quantity: 15
+      - id: 37
+        quantity: 20
+      - id: 48112
+        quantity: 450
+      - id: 35
+        quantity: 3158
+      - id: 34
+        quantity: 3556
+  17051:
+    id: 17051
+    name: Light Scoped Entropic Disintegrator(BPC)
+    product:
+      id: 47913
+      quantity: 1
+    requirements:
+      items:
+      - id: 56708
+        quantity: 120
+      - id: 36
+        quantity: 9
+      - id: 47975
+        quantity: 15
+      - id: 37
+        quantity: 20
+      - id: 48112
+        quantity: 450
+      - id: 35
+        quantity: 3158
+      - id: 34
+        quantity: 3556
+  17052:
+    id: 17052
+    name: Heavy Entropic Disintegrator I(BPC)
+    product:
+      id: 47273
+      quantity: 1
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 380
+      - id: 38
+        quantity: 6
+      - id: 47975
+        quantity: 25
+      - id: 37
+        quantity: 44
+      - id: 48112
+        quantity: 660
+      - id: 36
+        quantity: 9827
+      - id: 35
+        quantity: 10786
+      - id: 34
+        quantity: 19089
+  17053:
+    id: 17053
+    name: Heavy Compact Entropic Disintegrator(BPC)
+    product:
+      id: 47916
+      quantity: 1
+    requirements:
+      isk: 1200000
+      items:
+      - id: 56708
+        quantity: 360
+      - id: 38
+        quantity: 6
+      - id: 47975
+        quantity: 25
+      - id: 37
+        quantity: 44
+      - id: 48112
+        quantity: 660
+      - id: 36
+        quantity: 9827
+      - id: 35
+        quantity: 10786
+      - id: 34
+        quantity: 19089
+  17054:
+    id: 17054
+    name: Heavy Scoped Entropic Disintegrator(BPC)
+    product:
+      id: 47917
+      quantity: 1
+    requirements:
+      isk: 1200000
+      items:
+      - id: 56708
+        quantity: 360
+      - id: 38
+        quantity: 6
+      - id: 47975
+        quantity: 25
+      - id: 37
+        quantity: 44
+      - id: 48112
+        quantity: 660
+      - id: 36
+        quantity: 9827
+      - id: 35
+        quantity: 10786
+      - id: 34
+        quantity: 19089
+  17055:
+    id: 17055
+    name: Supratidal Entropic Disintegrator I(BPC)
+    product:
+      id: 47274
+      quantity: 1
+    requirements:
+      isk: 5000000
+      items:
+      - id: 56708
+        quantity: 2150
+      - id: 47975
+        quantity: 45
+      - id: 39
+        quantity: 62
+      - id: 40
+        quantity: 126
+      - id: 48112
+        quantity: 940
+      - id: 38
+        quantity: 1234
+      - id: 37
+        quantity: 19951
+      - id: 36
+        quantity: 42197
+      - id: 35
+        quantity: 117839
+      - id: 34
+        quantity: 328307
+  17056:
+    id: 17056
+    name: Supratidal Compact Entropic Disintegrator(BPC)
+    product:
+      id: 47920
+      quantity: 1
+    requirements:
+      isk: 5500000
+      items:
+      - id: 56708
+        quantity: 2100
+      - id: 47975
+        quantity: 45
+      - id: 39
+        quantity: 62
+      - id: 40
+        quantity: 126
+      - id: 48112
+        quantity: 940
+      - id: 38
+        quantity: 1234
+      - id: 37
+        quantity: 19951
+      - id: 36
+        quantity: 42197
+      - id: 35
+        quantity: 117839
+      - id: 34
+        quantity: 328307
+  17057:
+    id: 17057
+    name: Supratidal Scoped Entropic Disintegrator(BPC)
+    product:
+      id: 47921
+      quantity: 1
+    requirements:
+      isk: 5500000
+      items:
+      - id: 56708
+        quantity: 2100
+      - id: 47975
+        quantity: 45
+      - id: 39
+        quantity: 62
+      - id: 40
+        quantity: 126
+      - id: 48112
+        quantity: 940
+      - id: 38
+        quantity: 1234
+      - id: 37
+        quantity: 19951
+      - id: 36
+        quantity: 42197
+      - id: 35
+        quantity: 117839
+      - id: 34
+        quantity: 328307
+  17058:
+    id: 17058
+    name: Ultratidal Entropic Disintegrator I(BPC)
+    product:
+      id: 52915
+      quantity: 1
+    requirements:
+      isk: 20000000
+      items:
+      - id: 56708
+        quantity: 6400
+      - id: 47975
+        quantity: 50
+      - id: 40
+        quantity: 204
+      - id: 48112
+        quantity: 1320
+      - id: 37
+        quantity: 1496
+      - id: 36
+        quantity: 334118
+      - id: 35
+        quantity: 366724
+      - id: 34
+        quantity: 649026
+  17059:
+    id: 17059
+    name: Entropic Radiation Sink I(BPC)
+    product:
+      id: 47908
+      quantity: 1
+    requirements:
+      isk: 500000
+      items:
+      - id: 56708
+        quantity: 150
+      - id: 37
+        quantity: 2
+      - id: 40
+        quantity: 2
+      - id: 39
+        quantity: 6
+      - id: 36
+        quantity: 318
+      - id: 34
+        quantity: 676
+  17060:
+    id: 17060
+    name: Heavy Mutadaptive Scoped Remote Armor Repairer(BPC)
+    product:
+      id: 49771
+      quantity: 1
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 1300
+      - id: 47975
+        quantity: 12
+      - id: 36
+        quantity: 108
+      - id: 48112
+        quantity: 300
+      - id: 35
+        quantity: 924
+      - id: 34
+        quantity: 1506
+  17061:
+    id: 17061
+    name: Heavy Mutadaptive Compact Remote Armor Repairer(BPC)
+    product:
+      id: 49772
+      quantity: 1
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 1300
+      - id: 47975
+        quantity: 12
+      - id: 36
+        quantity: 108
+      - id: 48112
+        quantity: 300
+      - id: 35
+        quantity: 924
+      - id: 34
+        quantity: 1506
+  17062:
+    id: 17062
+    name: Heavy Mutadaptive Remote Armor Repairer I(BPC)
+    product:
+      id: 49770
+      quantity: 1
+    requirements:
+      isk: 1000000
+      items:
+      - id: 56708
+        quantity: 1300
+      - id: 47975
+        quantity: 20
+      - id: 36
+        quantity: 108
+      - id: 48112
+        quantity: 280
+      - id: 35
+        quantity: 924
+      - id: 34
+        quantity: 1506
+  17063:
+    id: 17063
+    name: Low-grade Mimesis Alpha(BPC)
+    product:
+      id: 52674
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 1000
+      - id: 56709
+        quantity: 10
+      - id: 52314
+        quantity: 11
+      - id: 11399
+        quantity: 12
+      - id: 52313
+        quantity: 30
+      - id: 2346
+        quantity: 82
+      - id: 2367
+        quantity: 89
+  17064:
+    id: 17064
+    name: Low-grade Mimesis Beta(BPC)
+    product:
+      id: 52679
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 2000
+      - id: 56709
+        quantity: 15
+      - id: 52314
+        quantity: 11
+      - id: 11399
+        quantity: 13
+      - id: 52313
+        quantity: 32
+      - id: 2346
+        quantity: 86
+      - id: 2367
+        quantity: 94
+  17065:
+    id: 17065
+    name: Low-grade Mimesis Gamma(BPC)
+    product:
+      id: 52680
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 3000
+      - id: 56709
+        quantity: 20
+      - id: 52314
+        quantity: 12
+      - id: 11399
+        quantity: 13
+      - id: 52313
+        quantity: 33
+      - id: 2346
+        quantity: 90
+      - id: 2367
+        quantity: 98
+  17066:
+    id: 17066
+    name: Low-grade Mimesis Delta(BPC)
+    product:
+      id: 52681
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 4000
+      - id: 56709
+        quantity: 25
+      - id: 52314
+        quantity: 12
+      - id: 11399
+        quantity: 14
+      - id: 52313
+        quantity: 35
+      - id: 2346
+        quantity: 94
+      - id: 2367
+        quantity: 103
+  17067:
+    id: 17067
+    name: Low-grade Mimesis Epsilon(BPC)
+    product:
+      id: 52682
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 5000
+      - id: 56709
+        quantity: 30
+      - id: 52314
+        quantity: 13
+      - id: 11399
+        quantity: 14
+      - id: 52313
+        quantity: 36
+      - id: 2346
+        quantity: 98
+      - id: 2367
+        quantity: 107
+  17068:
+    id: 17068
+    name: Mid-grade Mimesis Alpha(BPC)
+    product:
+      id: 52785
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 1000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 10
+      - id: 52314
+        quantity: 15
+      - id: 11399
+        quantity: 17
+      - id: 52313
+        quantity: 44
+      - id: 2346
+        quantity: 118
+      - id: 2367
+        quantity: 129
+  17069:
+    id: 17069
+    name: Mid-grade Mimesis Beta(BPC)
+    product:
+      id: 52786
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 2000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 15
+      - id: 52314
+        quantity: 16
+      - id: 11399
+        quantity: 18
+      - id: 52313
+        quantity: 46
+      - id: 2346
+        quantity: 124
+      - id: 2367
+        quantity: 136
+  17070:
+    id: 17070
+    name: Mid-grade Mimesis Gamma(BPC)
+    product:
+      id: 52787
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 3000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 20
+      - id: 52314
+        quantity: 17
+      - id: 11399
+        quantity: 19
+      - id: 52313
+        quantity: 48
+      - id: 2346
+        quantity: 130
+      - id: 2367
+        quantity: 142
+  17071:
+    id: 17071
+    name: Mid-grade Mimesis Delta(BPC)
+    product:
+      id: 52788
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 4000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 25
+      - id: 52314
+        quantity: 18
+      - id: 11399
+        quantity: 20
+      - id: 52313
+        quantity: 50
+      - id: 2346
+        quantity: 136
+      - id: 2367
+        quantity: 149
+  17072:
+    id: 17072
+    name: Mid-grade Mimesis Epsilon(BPC)
+    product:
+      id: 52789
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 5000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 30
+      - id: 52314
+        quantity: 18
+      - id: 11399
+        quantity: 21
+      - id: 52313
+        quantity: 53
+      - id: 2346
+        quantity: 142
+      - id: 2367
+        quantity: 155
+  17073:
+    id: 17073
+    name: High-grade Mimesis Alpha(BPC)
+    product:
+      id: 52917
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 1000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 10
+      - id: 56711
+        quantity: 10
+      - id: 52314
+        quantity: 30
+      - id: 11399
+        quantity: 35
+      - id: 52313
+        quantity: 88
+      - id: 2346
+        quantity: 236
+      - id: 2367
+        quantity: 259
+  17074:
+    id: 17074
+    name: High-grade Mimesis Beta(BPC)
+    product:
+      id: 52918
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 2000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 10
+      - id: 56711
+        quantity: 15
+      - id: 52314
+        quantity: 32
+      - id: 11399
+        quantity: 37
+      - id: 52313
+        quantity: 92
+      - id: 2346
+        quantity: 248
+      - id: 2367
+        quantity: 272
+  17075:
+    id: 17075
+    name: High-grade Mimesis Gamma(BPC)
+    product:
+      id: 52921
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 3000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 10
+      - id: 56711
+        quantity: 20
+      - id: 52314
+        quantity: 33
+      - id: 11399
+        quantity: 38
+      - id: 52313
+        quantity: 96
+      - id: 2346
+        quantity: 260
+      - id: 2367
+        quantity: 285
+  17076:
+    id: 17076
+    name: High-grade Mimesis Delta(BPC)
+    product:
+      id: 52919
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 4000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 10
+      - id: 56711
+        quantity: 25
+      - id: 52314
+        quantity: 35
+      - id: 11399
+        quantity: 40
+      - id: 52313
+        quantity: 101
+      - id: 2346
+        quantity: 272
+      - id: 2367
+        quantity: 298
+  17077:
+    id: 17077
+    name: High-grade Mimesis Epsilon(BPC)
+    product:
+      id: 52920
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 5000
+      - id: 56709
+        quantity: 10
+      - id: 56710
+        quantity: 10
+      - id: 56711
+        quantity: 30
+      - id: 52314
+        quantity: 37
+      - id: 11399
+        quantity: 42
+      - id: 52313
+        quantity: 105
+      - id: 2346
+        quantity: 284
+      - id: 2367
+        quantity: 311
+  17078:
+    id: 17078
+    name: Low-grade Mimesis Omega(BPC)
+    product:
+      id: 52683
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      items:
+      - id: 56708
+        quantity: 10000
+      - id: 56709
+        quantity: 100
+      - id: 56712
+        quantity: 10
+      - id: 52314
+        quantity: 32
+      - id: 11399
+        quantity: 36
+      - id: 52313
+        quantity: 91
+      - id: 2346
+        quantity: 245
+      - id: 2367
+        quantity: 268
+  17079:
+    id: 17079
+    name: Mid-grade Mimesis Omega(BPC)
+    product:
+      id: 52790
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      items:
+      - id: 56708
+        quantity: 20000
+      - id: 56709
+        quantity: 100
+      - id: 56710
+        quantity: 100
+      - id: 56712
+        quantity: 15
+      - id: 52314
+        quantity: 46
+      - id: 11399
+        quantity: 52
+      - id: 52313
+        quantity: 132
+      - id: 2346
+        quantity: 355
+      - id: 2367
+        quantity: 388
+  17080:
+    id: 17080
+    name: High-grade Mimesis Omega(BPC)
+    product:
+      id: 52922
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      items:
+      - id: 56708
+        quantity: 30000
+      - id: 56709
+        quantity: 100
+      - id: 56710
+        quantity: 100
+      - id: 56711
+        quantity: 100
+      - id: 56712
+        quantity: 20
+      - id: 52314
+        quantity: 91
+      - id: 11399
+        quantity: 104
+      - id: 52313
+        quantity: 263
+      - id: 2346
+        quantity: 709
+      - id: 2367
+        quantity: 776
+  17081:
+    id: 17081
+    name: Zirnitra(BPC)
+    product:
+      id: 52907
+      quantity: 1
+    requirements:
+      isk: 1000000000
+      items:
+      - id: 56708
+        quantity: 50000
+      - id: 56713
+        quantity: 10
+      - id: 53037
+        quantity: 3
+      - id: 21013
+        quantity: 6
+      - id: 53036
+        quantity: 6
+      - id: 21019
+        quantity: 7
+      - id: 24560
+        quantity: 8
+      - id: 21025
+        quantity: 9
+      - id: 53035
+        quantity: 9
+      - id: 21023
+        quantity: 11
+      - id: 21035
+        quantity: 13
+      - id: 21037
+        quantity: 13
+      - id: 24558
+        quantity: 16
+      - id: 21017
+        quantity: 28
+      - id: 21039
+        quantity: 28
+  17082:
+    id: 17082
+    name: Veles Light Entropic Disintegrator(BPC)
+    product:
+      id: 47915
+      quantity: 1
+    requirements:
+      isk: 10000000
+      items:
+      - id: 56708
+        quantity: 2000
+      - id: 56714
+        quantity: 10
+      - id: 47914
+        quantity: 1
+      - id: 47975
+        quantity: 8
+      - id: 48112
+        quantity: 28
+  17083:
+    id: 17083
+    name: Veles Heavy Entropic Disintegrator(BPC)
+    product:
+      id: 47919
+      quantity: 1
+    requirements:
+      isk: 25000000
+      items:
+      - id: 56708
+        quantity: 3500
+      - id: 56714
+        quantity: 20
+      - id: 47918
+        quantity: 1
+      - id: 47975
+        quantity: 14
+      - id: 48112
+        quantity: 52
+  17084:
+    id: 17084
+    name: Veles Supratidal Entropic Disintegrator(BPC)
+    product:
+      id: 47923
+      quantity: 1
+    requirements:
+      isk: 50000000
+      items:
+      - id: 56708
+        quantity: 7000
+      - id: 56714
+        quantity: 40
+      - id: 47922
+        quantity: 1
+      - id: 47975
+        quantity: 22
+      - id: 48112
+        quantity: 64
+  17085:
+    id: 17085
+    name: Men's 'Kybernaut Clade' Beret
+    product:
+      id: 56210
+      quantity: 1
+    requirements:
+      isk: 100000
+      items:
+      - id: 56708
+        quantity: 10
+      - id: 56715
+        quantity: 10
+  17086:
+    id: 17086
+    name: Women's 'Kybernaut Clade' Beret
+    product:
+      id: 56209
+      quantity: 1
+    requirements:
+      isk: 100000
+      items:
+      - id: 56708
+        quantity: 10
+      - id: 56715
+        quantity: 10
+  17087:
+    id: 17087
+    name: Men's 'Kybernaut Clade' T-Shirt
+    product:
+      id: 56212
+      quantity: 1
+    requirements:
+      isk: 400000
+      items:
+      - id: 56708
+        quantity: 20
+      - id: 56715
+        quantity: 30
+  17088:
+    id: 17088
+    name: Women's 'Kybernaut Clade' T-Shirt
+    product:
+      id: 56211
+      quantity: 1
+    requirements:
+      isk: 400000
+      items:
+      - id: 56708
+        quantity: 20
+      - id: 56715
+        quantity: 30
+  17089:
+    id: 17089
+    name: Men's Triglavian Survival Suit (Liminality)
+    product:
+      id: 56226
+      quantity: 1
+    requirements:
+      isk: 1600000
+      items:
+      - id: 56708
+        quantity: 30
+      - id: 56715
+        quantity: 92
+  17090:
+    id: 17090
+    name: Women's Triglavian Survival Suit (Liminality)
+    product:
+      id: 56225
+      quantity: 1
+    requirements:
+      isk: 1600000
+      items:
+      - id: 56708
+        quantity: 30
+      - id: 56715
+        quantity: 92
+  17091:
+    id: 17091
+    name: Men's Bioadaptive Kybernaut Combat Suit
+    product:
+      id: 56266
+      quantity: 1
+    requirements:
+      isk: 4800000
+      items:
+      - id: 56708
+        quantity: 40
+      - id: 56715
+        quantity: 100
+      - id: 56716
+        quantity: 10
+  17092:
+    id: 17092
+    name: Women's Bioadaptive Kybernaut Combat Suit
+    product:
+      id: 56264
+      quantity: 1
+    requirements:
+      isk: 4800000
+      items:
+      - id: 56708
+        quantity: 40
+      - id: 56715
+        quantity: 100
+      - id: 56716
+        quantity: 10
+  17093:
+    id: 17093
+    name: Women's Triglavian Survival Suit (Bioadaptive)
+    product:
+      id: 48081
+      quantity: 1
+    requirements:
+      isk: 4800000
+      items:
+      - id: 56708
+        quantity: 40
+      - id: 56715
+        quantity: 100
+      - id: 56716
+        quantity: 10
+  17094:
+    id: 17094
+    name: Men's Triglavian Survival Suit (Bioadaptive)
+    product:
+      id: 48082
+      quantity: 1
+    requirements:
+      isk: 4800000
+      items:
+      - id: 56708
+        quantity: 40
+      - id: 56715
+        quantity: 100
+      - id: 56716
+        quantity: 10

@@ -1887,6 +1887,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Armageddon Malagrin Marshlight SKIN:
+    id: 56592
+    marketGroup: 1964
+    name: Armageddon Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Armageddon Navy Issue Biosecurity Responders SKIN:
     id: 55335
     marketGroup: 2108
@@ -3549,6 +3557,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bowhead Rockbreaker Pioneers SKIN:
+    id: 56614
+    marketGroup: 2318
+    name: Bowhead Rockbreaker Pioneers SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bowhead Rosada Dawn SKIN:
     id: 43672
     marketGroup: 2318
@@ -5083,6 +5099,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Charon Malagrin Marshlight SKIN:
+    id: 56594
+    marketGroup: 1985
+    name: Charon Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Charon Matigu Seabeast SKIN:
     id: 40625
     marketGroup: 1985
@@ -5828,6 +5852,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Confessor Malagrin Marshlight SKIN:
+    id: 56590
+    marketGroup: 2310
+    name: Confessor Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Confessor Oasis of Faith SKIN:
     id: 53615
     marketGroup: 2310
@@ -6242,6 +6274,14 @@ types:
     id: 42676
     marketGroup: 2319
     name: Covetor Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Covetor Rockbreaker Pioneers SKIN:
+    id: 56610
+    marketGroup: 2319
+    name: Covetor Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6936,6 +6976,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cynabal Malagrin Marshlight SKIN:
+    id: 56602
+    marketGroup: 2030
+    name: Cynabal Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cynabal Serene Tu SKIN:
     id: 49154
     marketGroup: 2030
@@ -7542,6 +7590,14 @@ types:
     id: 46423
     marketGroup: 1966
     name: Dominix Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Dominix Malagrin Marshlight SKIN:
+    id: 56597
+    marketGroup: 1966
+    name: Dominix Malagrin Marshlight SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -8482,6 +8538,14 @@ types:
     id: 42672
     marketGroup: 2320
     name: Endurance Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Endurance Rockbreaker Pioneers SKIN:
+    id: 56607
+    marketGroup: 2320
+    name: Endurance Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9670,6 +9734,14 @@ types:
     id: 48217
     marketGroup: 1957
     name: Ferox Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ferox Malagrin Marshlight SKIN:
+    id: 56593
+    marketGroup: 1957
+    name: Ferox Malagrin Marshlight SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11028,6 +11100,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hecate Malagrin Marshlight SKIN:
+    id: 56596
+    marketGroup: 2356
+    name: Hecate Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hecate Ruby Sungrazer SKIN:
     id: 45564
     marketGroup: 2356
@@ -11823,6 +11903,14 @@ types:
     id: 42679
     marketGroup: 2012
     name: Hulk Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hulk Rockbreaker Pioneers SKIN:
+    id: 56617
+    marketGroup: 2012
+    name: Hulk Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14612,6 +14700,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Machariel Malagrin Marshlight SKIN:
+    id: 56603
+    marketGroup: 1963
+    name: Machariel Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Machariel Serenity YC117 SKIN:
     id: 34822
     name: Machariel Serenity YC117 SKIN
@@ -14770,6 +14866,14 @@ types:
     id: 42678
     marketGroup: 2012
     name: Mackinaw Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Mackinaw Rockbreaker Pioneers SKIN:
+    id: 56616
+    marketGroup: 2012
+    name: Mackinaw Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17150,6 +17254,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Naglfar Malagrin Marshlight SKIN:
+    id: 56600
+    marketGroup: 1983
+    name: Naglfar Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Naglfar Snowline Bladeracer SKIN:
     id: 52891
     marketGroup: 1983
@@ -17696,6 +17808,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nidhoggur Malagrin Marshlight SKIN:
+    id: 56601
+    marketGroup: 1977
+    name: Nidhoggur Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nidhoggur Snowline Bladeracer SKIN:
     id: 52892
     marketGroup: 1977
@@ -17940,6 +18060,14 @@ types:
     id: 46743
     marketGroup: 2328
     name: Noctis Lodestrike SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Noctis Rockbreaker Pioneers SKIN:
+    id: 56618
+    marketGroup: 2328
+    name: Noctis Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19158,6 +19286,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Orca Rockbreaker Pioneers SKIN:
+    id: 56612
+    marketGroup: 2338
+    name: Orca Rockbreaker Pioneers SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Orca Rosada Dawn SKIN:
     id: 43673
     marketGroup: 2338
@@ -19688,6 +19824,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Panther Malagrin Marshlight SKIN:
+    id: 56599
+    marketGroup: 2113
+    name: Panther Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Panther Snowline Bladeracer SKIN:
     id: 52887
     marketGroup: 2113
@@ -19883,6 +20027,14 @@ types:
   Phoenix Lai Dai Serenity Only SKIN:
     id: 37961
     name: Phoenix Lai Dai Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Phoenix Malagrin Marshlight SKIN:
+    id: 56595
+    marketGroup: 1981
+    name: Phoenix Malagrin Marshlight SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20210,6 +20362,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Porpoise Rockbreaker Pioneers SKIN:
+    id: 56606
+    marketGroup: 2338
+    name: Porpoise Rockbreaker Pioneers SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Porpoise Sansha Industrial Livery SKIN:
     id: 43853
     marketGroup: 2338
@@ -20261,6 +20421,14 @@ types:
     id: 46993
     marketGroup: 2331
     name: Primae Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Primae Rockbreaker Pioneers SKIN:
+    id: 56611
+    marketGroup: 2331
+    name: Primae Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20483,6 +20651,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Procurer Rockbreaker Pioneers SKIN:
+    id: 56608
+    marketGroup: 2319
+    name: Procurer Rockbreaker Pioneers SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Procurer Rosada Dawn SKIN:
     id: 43666
     marketGroup: 2319
@@ -20604,6 +20780,14 @@ types:
     id: 48221
     marketGroup: 1956
     name: Prophecy Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Prophecy Malagrin Marshlight SKIN:
+    id: 56591
+    marketGroup: 1956
+    name: Prophecy Malagrin Marshlight SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20855,6 +21039,14 @@ types:
     id: 42673
     marketGroup: 2320
     name: Prospect Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Prospect Rockbreaker Pioneers SKIN:
+    id: 56605
+    marketGroup: 2320
+    name: Prospect Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22331,6 +22523,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Retriever Rockbreaker Pioneers SKIN:
+    id: 56609
+    marketGroup: 2319
+    name: Retriever Rockbreaker Pioneers SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Retriever Rosada Dawn SKIN:
     id: 43667
     marketGroup: 2319
@@ -23147,6 +23347,14 @@ types:
     id: 42682
     marketGroup: 1969
     name: Rorqual Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rorqual Rockbreaker Pioneers SKIN:
+    id: 56613
+    marketGroup: 1969
+    name: Rorqual Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24420,6 +24628,14 @@ types:
     id: 42677
     marketGroup: 2012
     name: Skiff Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Skiff Rockbreaker Pioneers SKIN:
+    id: 56615
+    marketGroup: 2012
+    name: Skiff Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26170,6 +26386,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thanatos Malagrin Marshlight SKIN:
+    id: 56598
+    marketGroup: 1976
+    name: Thanatos Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thanatos Quafe SKIN:
     id: 34653
     marketGroup: 1976
@@ -27752,6 +27976,14 @@ types:
     id: 42671
     marketGroup: 2321
     name: Venture Paydirt Prospector SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Venture Rockbreaker Pioneers SKIN:
+    id: 56604
+    marketGroup: 2321
+    name: Venture Rockbreaker Pioneers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

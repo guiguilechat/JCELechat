@@ -225,8 +225,8 @@ types:
     modifytargetspeedrange: 20000
     name: Corpii Collector
     npctrackingdisruptoractivationchance: 0.05999999865889549
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -847,8 +847,8 @@ types:
     modifytargetspeedrange: 20000
     name: Corpii Seeker
     npctrackingdisruptoractivationchance: 0.05000000074505806
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -1084,8 +1084,8 @@ types:
     modifytargetspeedrange: 20000
     name: Dark Corpii Collector
     npctrackingdisruptoractivationchance: 0.09000000357627869
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -1633,8 +1633,8 @@ types:
     modifytargetspeedrange: 20000
     name: Dark Corpii Seeker
     npctrackingdisruptoractivationchance: 0.07500000298023224
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -1873,8 +1873,8 @@ types:
     modifytargetspeedrange: 10000
     name: Elder Corpii Collector
     npctrackingdisruptoractivationchance: 0.30000001192092896
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28600.0
     portionSize: 1
@@ -2459,8 +2459,8 @@ types:
     modifytargetspeedrange: 10000
     name: Elder Corpii Seeker
     npctrackingdisruptoractivationchance: 0.25
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28600.0
     portionSize: 1

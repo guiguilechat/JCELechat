@@ -840,8 +840,8 @@ types:
     modifytargetspeedrange: 10000
     name: Centii Loyal Savage
     npctrackingdisruptoractivationchance: 0.25
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 40
     packagedVolume: 21120.0
     portionSize: 1
@@ -1110,8 +1110,8 @@ types:
     modifytargetspeedrange: 10000
     name: Centii Loyal Slavehunter
     npctrackingdisruptoractivationchance: 0.30000001192092896
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 55000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 55000.0
     optimalsigradius: 40
     packagedVolume: 21120.0
     portionSize: 1
@@ -1532,8 +1532,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centii Savage
     npctrackingdisruptoractivationchance: 0.05000000074505806
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 20000.0
     portionSize: 1
@@ -1785,8 +1785,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centii Slavehunter
     npctrackingdisruptoractivationchance: 0.05999999865889549
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 21120.0
     portionSize: 1
@@ -2630,8 +2630,8 @@ types:
     modifytargetspeedrange: 20000
     name: True Centii Savage
     npctrackingdisruptoractivationchance: 0.0625
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 20000.0
     portionSize: 1
@@ -2883,8 +2883,8 @@ types:
     modifytargetspeedrange: 20000
     name: True Centii Slavehunter
     npctrackingdisruptoractivationchance: 0.07500000298023224
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 21120.0
     portionSize: 1

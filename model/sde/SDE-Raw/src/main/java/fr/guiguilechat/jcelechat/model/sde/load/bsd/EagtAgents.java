@@ -13,6 +13,7 @@ import org.yaml.snakeyaml.nodes.NodeId;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
+@Deprecated(forRemoval = true)
 public class EagtAgents {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/agtAgents.yaml");

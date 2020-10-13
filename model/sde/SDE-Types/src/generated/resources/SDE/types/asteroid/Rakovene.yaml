@@ -1,4 +1,32 @@
 types:
+  Abyssal Rakovene:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 15.0
+    asteroidradiusunitsize: 1000
+    id: 56629
+    marketGroup: 2539
+    name: Abyssal Rakovene
+    packagedVolume: 16.0
+    portionSize: 100
+    price: 401168.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 56633
+    volume: 16.0
+  Hadal Rakovene:
+    asteroidmetalevel: 1
+    asteroidradiusgrowthfactor: 15.0
+    asteroidradiusunitsize: 1000
+    id: 56630
+    marketGroup: 2539
+    name: Hadal Rakovene
+    packagedVolume: 16.0
+    portionSize: 100
+    price: 401168.0
+    published: true
+    radius: 1.0
+    reprocessingskilltype: 56633
+    volume: 16.0
   Rakovene:
     asteroidmetalevel: 1
     asteroidradiusgrowthfactor: 15.0
@@ -11,5 +39,5 @@ types:
     price: 401168.0
     published: true
     radius: 1.0
-    reprocessingskilltype: 3385
+    reprocessingskilltype: 56633
     volume: 16.0

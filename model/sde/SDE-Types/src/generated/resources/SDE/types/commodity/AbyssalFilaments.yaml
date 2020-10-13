@@ -126,6 +126,7 @@ types:
     name: Cataclysmic Dark Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -137,6 +138,7 @@ types:
     name: Cataclysmic Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -148,6 +150,7 @@ types:
     name: Cataclysmic Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -159,6 +162,7 @@ types:
     name: Cataclysmic Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -170,6 +174,7 @@ types:
     name: Cataclysmic Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -361,6 +366,7 @@ types:
     name: Tranquil Dark Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -372,6 +378,7 @@ types:
     name: Tranquil Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -383,6 +390,7 @@ types:
     name: Tranquil Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -394,6 +402,7 @@ types:
     name: Tranquil Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -405,6 +414,7 @@ types:
     name: Tranquil Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612

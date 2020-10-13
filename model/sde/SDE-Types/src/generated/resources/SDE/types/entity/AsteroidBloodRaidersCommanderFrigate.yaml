@@ -55,8 +55,8 @@ types:
     modifytargetspeedrange: 20000
     name: Dark Blood Collector
     npctrackingdisruptoractivationchance: 0.09000000357627869
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -589,8 +589,8 @@ types:
     modifytargetspeedrange: 20000
     name: Dark Blood Seeker
     npctrackingdisruptoractivationchance: 0.07500000298023224
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -820,8 +820,8 @@ types:
     modifytargetspeedrange: 20000
     name: Sellsword Collector
     npctrackingdisruptoractivationchance: 0.09000000357627869
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1
@@ -1205,8 +1205,8 @@ types:
     modifytargetspeedrange: 20000
     name: Sellsword Seeker
     npctrackingdisruptoractivationchance: 0.07500000298023224
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 40
     packagedVolume: 28100.0
     portionSize: 1

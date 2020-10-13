@@ -325,8 +325,8 @@ public class NPCDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierduration;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierduration;
     /**
      * 
      */
@@ -339,8 +339,8 @@ public class NPCDreadnought
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierrange;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierrange;
     /**
      * Capacitor capacity
      */

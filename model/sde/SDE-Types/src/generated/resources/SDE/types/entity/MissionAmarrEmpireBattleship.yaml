@@ -408,8 +408,8 @@ types:
     modifytargetspeedrange: 20000
     name: Harkan's Behemoth
     npctrackingdisruptoractivationchance: 0.10000000149011612
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 400
     packagedVolume: 1100000.0
     portionSize: 1
@@ -1396,8 +1396,8 @@ types:
     modifytargetspeedrange: 20000
     name: Imperial Templar Diviner
     npctrackingdisruptoractivationchance: 0.10000000149011612
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 400
     packagedVolume: 1100000.0
     portionSize: 1

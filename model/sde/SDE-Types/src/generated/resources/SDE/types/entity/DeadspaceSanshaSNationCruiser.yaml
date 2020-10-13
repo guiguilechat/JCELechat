@@ -65,8 +65,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centum Beast
     npctrackingdisruptoractivationchance: 0.07000000029802322
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -158,8 +158,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centum Execrator
     npctrackingdisruptoractivationchance: 0.10000000149011612
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -422,8 +422,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centum Juggernaut
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -514,8 +514,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centum Loyal Beast
     npctrackingdisruptoractivationchance: 0.3499999940395355
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 60000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 60000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -605,8 +605,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centum Loyal Execrator
     npctrackingdisruptoractivationchance: 0.5
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 60000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 60000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -869,8 +869,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centum Loyal Juggernaut
     npctrackingdisruptoractivationchance: 0.4000000059604645
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 60000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 60000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -1220,8 +1220,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centum Loyal Slaughterer
     npctrackingdisruptoractivationchance: 0.44999998807907104
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 60000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 60000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -1665,8 +1665,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centum Slaughterer
     npctrackingdisruptoractivationchance: 0.09000000357627869
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -2146,8 +2146,8 @@ types:
     modifytargetspeedrange: 10000
     name: True Centum Beast
     npctrackingdisruptoractivationchance: 0.08749999850988388
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -2239,8 +2239,8 @@ types:
     modifytargetspeedrange: 20000
     name: True Centum Execrator
     npctrackingdisruptoractivationchance: 0.125
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -2505,8 +2505,8 @@ types:
     modifytargetspeedrange: 20000
     name: True Centum Juggernaut
     npctrackingdisruptoractivationchance: 0.10000000149011612
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1
@@ -2864,8 +2864,8 @@ types:
     modifytargetspeedrange: 10000
     name: True Centum Slaughterer
     npctrackingdisruptoractivationchance: 0.11249999701976776
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 100100.0
     portionSize: 1

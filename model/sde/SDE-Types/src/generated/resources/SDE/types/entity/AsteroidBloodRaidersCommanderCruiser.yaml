@@ -363,8 +363,8 @@ types:
     missilelaunchduration: 1.0
     name: Dark Blood Arch Templar
     npctrackingdisruptoractivationchance: 0.10499999672174454
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1
@@ -599,8 +599,8 @@ types:
     missilelaunchduration: 0.800000011920929
     name: Dark Blood Revenant
     npctrackingdisruptoractivationchance: 0.11999999731779099
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1

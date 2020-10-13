@@ -410,8 +410,8 @@ public class AbyssalSpaceshipEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorsensordampenerduration;
+    @DefaultRealValue(0.0)
+    public double behaviorsensordampenerduration;
     /**
      * 
      */
@@ -438,22 +438,22 @@ public class AbyssalSpaceshipEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviortargetpainterduration;
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviortargetpainterfalloff;
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviortargetpainterrange;
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterrange;
     /**
      * 
      */
@@ -494,8 +494,8 @@ public class AbyssalSpaceshipEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierduration;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierduration;
     /**
      * 
      */
@@ -508,8 +508,8 @@ public class AbyssalSpaceshipEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierrange;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierrange;
     /**
      * Capacitor capacity
      */
@@ -866,8 +866,8 @@ public class AbyssalSpaceshipEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npcbehaviormaximumcombatorbitrange;
+    @DefaultRealValue(0.0)
+    public double npcbehaviormaximumcombatorbitrange;
     /**
      * 
      */
@@ -894,22 +894,22 @@ public class AbyssalSpaceshipEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npcguidancedisruptorduration;
+    @DefaultRealValue(0.0)
+    public double npcguidancedisruptorduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npcguidancedisruptorfalloff;
+    @DefaultRealValue(0.0)
+    public double npcguidancedisruptorfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npcguidancedisruptorrange;
+    @DefaultRealValue(0.0)
+    public double npcguidancedisruptorrange;
     /**
      * 
      */
@@ -922,22 +922,22 @@ public class AbyssalSpaceshipEntities
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npctrackingdisruptorduration;
+    @DefaultRealValue(0.0)
+    public double npctrackingdisruptorduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npctrackingdisruptorfalloff;
+    @DefaultRealValue(0.0)
+    public double npctrackingdisruptorfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int npctrackingdisruptorrange;
+    @DefaultRealValue(0.0)
+    public double npctrackingdisruptorrange;
     /**
      * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
      */

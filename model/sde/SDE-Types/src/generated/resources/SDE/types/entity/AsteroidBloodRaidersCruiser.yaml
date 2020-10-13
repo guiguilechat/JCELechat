@@ -390,8 +390,8 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Arch Templar
     npctrackingdisruptoractivationchance: 0.07000000029802322
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1
@@ -976,8 +976,8 @@ types:
     modifytargetspeedrange: 20000
     name: Blood Revenant
     npctrackingdisruptoractivationchance: 0.07999999821186066
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1
@@ -1567,8 +1567,8 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Arch Templar
     npctrackingdisruptoractivationchance: 0.3499999940395355
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1
@@ -1824,8 +1824,8 @@ types:
     modifytargetspeedrange: 20000
     name: Elder Blood Revenant
     npctrackingdisruptoractivationchance: 0.4000000059604645
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 50000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 50000.0
     optimalsigradius: 125
     packagedVolume: 118000.0
     portionSize: 1

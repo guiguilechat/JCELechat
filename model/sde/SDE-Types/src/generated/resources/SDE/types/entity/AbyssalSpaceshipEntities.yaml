@@ -51,7 +51,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Anchoring Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -124,7 +124,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Anchoring Vila Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcdronebandwidth: 3
     npcdronecapacity: 5
     optimalsigradius: 40000
@@ -165,8 +165,8 @@ types:
     armoruniformity: 0.75
     behaviorarmorrepairerduration: 6000
     behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 15000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 15000.0
     capacitorcapacity: 8250.0
     capacity: 700.0
     damagemultiplier: 1.0
@@ -198,7 +198,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 6000.0
     name: Arrester Marshal Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 15000
+    npcbehaviormaximumcombatorbitrange: 15000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -236,8 +236,8 @@ types:
     behaviorarmorrepaireramount: 120
     behaviorarmorrepairerduration: 5000
     behaviorwebifierdischarge: 1.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacitorcapacity: 500.0
     capacity: 150.0
     damagemultiplier: 1.0
@@ -269,7 +269,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Arrester Pacifier Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 15000
+    npcbehaviormaximumcombatorbitrange: 15000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -337,7 +337,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 13000.0
     name: Assault Enforcer Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 9000
+    npcbehaviormaximumcombatorbitrange: 9000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -405,7 +405,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 6000.0
     name: Attacker Marshal Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 15000
+    npcbehaviormaximumcombatorbitrange: 15000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -473,7 +473,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Attacker Pacifier Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 10000
+    npcbehaviormaximumcombatorbitrange: 10000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -572,8 +572,8 @@ types:
     armorkineticdamageresonance: 0.3199999928474426
     armorthermaldamageresonance: 0.3199999928474426
     behaviorwebifierdischarge: 3.75
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 15000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 15000.0
     capacitorcapacity: 8906.0
     damagemultiplier: 41.0
     damagemultiplierbonusmax: 0.5
@@ -646,7 +646,7 @@ types:
     behaviorremotearmorrepairfalloff: 28000
     behaviorremotearmorrepairrange: 33000
     behaviorsensordampenerdischarge: 20.0
-    behaviorsensordampenerduration: 10000
+    behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 80000.0
     behaviorsensordampenerrange: 40000.0
     capacitorcapacity: 8250.0
@@ -720,7 +720,7 @@ types:
     armorkineticdamageresonance: 0.4699999988079071
     armorthermaldamageresonance: 0.5199999809265137
     armoruniformity: 1.0
-    behaviorsensordampenerduration: 10000
+    behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 80000.0
     behaviorsensordampenerrange: 40000.0
     capacitorcapacity: 500.0
@@ -758,7 +758,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Blinding Vila Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcdronebandwidth: 3
     npcdronecapacity: 5
     optimalsigradius: 40000
@@ -800,8 +800,8 @@ types:
     behaviorshieldboosteramount: 25
     behaviorshieldboosterduration: 2000
     behaviorwebifierdischarge: 1.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacitorcapacity: 300.0
     capacity: 235.0
     damagemultiplier: 12.539999961853027
@@ -836,7 +836,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Devoted Fisher
-    npcbehaviormaximumcombatorbitrange: 7000
+    npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
     packagedVolume: 20000.0
     portionSize: 1
@@ -915,15 +915,15 @@ types:
     missilelaunchduration: 20000.0
     missilevelocitybonus: -10.625
     name: Devoted Herald
-    npcbehaviormaximumcombatorbitrange: 7000
+    npcbehaviormaximumcombatorbitrange: 7000.0
     npcguidancedisruptordischarge: 5.0
-    npcguidancedisruptorduration: 5000
-    npcguidancedisruptorfalloff: 15000
-    npcguidancedisruptorrange: 25000
+    npcguidancedisruptorduration: 5000.0
+    npcguidancedisruptorfalloff: 15000.0
+    npcguidancedisruptorrange: 25000.0
     npctrackingdisruptordischarge: 5.0
-    npctrackingdisruptorduration: 5000
-    npctrackingdisruptorfalloff: 15000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 5000.0
+    npctrackingdisruptorfalloff: 15000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 40000
     packagedVolume: 20000.0
     portionSize: 1
@@ -997,7 +997,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Devoted Hunter
-    npcbehaviormaximumcombatorbitrange: 7000
+    npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
     packagedVolume: 20000.0
     portionSize: 1
@@ -1042,8 +1042,8 @@ types:
     behaviorshieldboosterdischarge: 60
     behaviorshieldboosterduration: 3500
     behaviorwebifierdischarge: 1.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacitorcapacity: 1800.0
     capacity: 480.0
     damagemultiplier: 26.0
@@ -1079,7 +1079,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Devoted Knight
-    npcbehaviormaximumcombatorbitrange: 32000
+    npcbehaviormaximumcombatorbitrange: 32000.0
     optimalsigradius: 40000
     packagedVolume: 118000.0
     portionSize: 1
@@ -1116,7 +1116,7 @@ types:
     armorkineticdamageresonance: 0.699999988079071
     armorthermaldamageresonance: 0.800000011920929
     armoruniformity: 1.0
-    behaviorsensordampenerduration: 10000
+    behaviorsensordampenerduration: 10000.0
     behaviorsensordampenerfalloff: 80000.0
     behaviorsensordampenerrange: 40000.0
     behaviorshieldboosteramount: 25
@@ -1156,7 +1156,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Devoted Lookout
-    npcbehaviormaximumcombatorbitrange: 7000
+    npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
     packagedVolume: 20000.0
     portionSize: 1
@@ -1233,7 +1233,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Devoted Priest
-    npcbehaviormaximumcombatorbitrange: 7000
+    npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
     packagedVolume: 20000.0
     portionSize: 1
@@ -1312,7 +1312,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Devoted Smith
-    npcbehaviormaximumcombatorbitrange: 7000
+    npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
     packagedVolume: 20000.0
     portionSize: 1
@@ -1351,9 +1351,9 @@ types:
     armoruniformity: 1.0
     behaviorshieldboosteramount: 25
     behaviorshieldboosterduration: 2000
-    behaviortargetpainterduration: 5000
-    behaviortargetpainterfalloff: 10000
-    behaviortargetpainterrange: 50000
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 10000.0
+    behaviortargetpainterrange: 50000.0
     capacitorcapacity: 300.0
     capacity: 235.0
     damagemultiplier: 12.539999961853027
@@ -1388,7 +1388,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Devoted Torchbearer
-    npcbehaviormaximumcombatorbitrange: 7000
+    npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
     packagedVolume: 20000.0
     portionSize: 1
@@ -1466,7 +1466,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Devoted Trapper
-    npcbehaviormaximumcombatorbitrange: 7000
+    npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
     packagedVolume: 20000.0
     portionSize: 1
@@ -1541,7 +1541,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 13000.0
     name: Drainer Enforcer Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 9000
+    npcbehaviormaximumcombatorbitrange: 9000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -1614,7 +1614,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 6000.0
     name: Drainer Marshal Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 15000
+    npcbehaviormaximumcombatorbitrange: 15000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -1687,7 +1687,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Drainer Pacifier Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 10000
+    npcbehaviormaximumcombatorbitrange: 10000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -1867,8 +1867,8 @@ types:
     armorkineticdamageresonance: 0.5
     armorthermaldamageresonance: 0.5
     armoruniformity: 1.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacity: 250.0
     damage: 5208
     damagemultiplier: 2.0
@@ -1903,7 +1903,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Drifter Entanglement Cruiser
-    npcbehaviormaximumcombatorbitrange: 7500
+    npcbehaviormaximumcombatorbitrange: 7500.0
     optimalsigradius: 40000
     packagedVolume: 100000.0
     portionSize: 1
@@ -2124,7 +2124,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Drifter Nullcharge Cruiser
-    npcbehaviormaximumcombatorbitrange: 7500
+    npcbehaviormaximumcombatorbitrange: 7500.0
     optimalsigradius: 40000
     packagedVolume: 100000.0
     portionSize: 1
@@ -2201,7 +2201,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Drifter Nullwarp Cruiser
-    npcbehaviormaximumcombatorbitrange: 7500
+    npcbehaviormaximumcombatorbitrange: 7500.0
     optimalsigradius: 40000
     packagedVolume: 100000.0
     portionSize: 1
@@ -2422,7 +2422,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Edencom Battleship placeholder
-    npcbehaviormaximumcombatorbitrange: 10000
+    npcbehaviormaximumcombatorbitrange: 10000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -2465,8 +2465,8 @@ types:
     behaviorshieldboosterdischarge: 40
     behaviorshieldboosterduration: 9000
     behaviorwebifierdischarge: 1.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 15000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 15000.0
     capacitorcapacity: 3015.0
     capacity: 400.0
     damagemultiplier: 50.0
@@ -2502,7 +2502,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Elite Lucifer Cynabal
-    npcbehaviormaximumcombatorbitrange: 8000
+    npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
     packagedVolume: 101000.0
     portionSize: 1
@@ -2540,8 +2540,8 @@ types:
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
     behaviorwebifierdischarge: 2.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 12000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 12000.0
     capacitorcapacity: 800.0
     capacity: 130.0
     damagemultiplier: 11.0
@@ -2577,7 +2577,7 @@ types:
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 5000.0
     name: Elite Lucifer Dramiel
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     optimalsigradius: 40000
     packagedVolume: 27289.0
     portionSize: 1
@@ -2612,8 +2612,8 @@ types:
     armorkineticdamageresonance: 0.3199999928474426
     armorthermaldamageresonance: 0.3199999928474426
     behaviorwebifierdischarge: 3.75
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 15000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 15000.0
     capacitorcapacity: 8906.0
     damagemultiplier: 50.0
     damagemultiplierbonusmax: 0.5
@@ -2717,13 +2717,13 @@ types:
     missilelaunchduration: 10000.0
     missilevelocitybonus: -8.0
     name: Ephialtes Confuser
-    npcbehaviormaximumcombatorbitrange: 10000
-    npcguidancedisruptorduration: 5000
-    npcguidancedisruptorfalloff: 15000
-    npcguidancedisruptorrange: 30000
-    npctrackingdisruptorduration: 5000
-    npctrackingdisruptorfalloff: 15000
-    npctrackingdisruptorrange: 30000
+    npcbehaviormaximumcombatorbitrange: 10000.0
+    npcguidancedisruptorduration: 5000.0
+    npcguidancedisruptorfalloff: 15000.0
+    npcguidancedisruptorrange: 30000.0
+    npctrackingdisruptorduration: 5000.0
+    npctrackingdisruptorfalloff: 15000.0
+    npctrackingdisruptorrange: 30000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 397
@@ -2798,7 +2798,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Ephialtes Dissipator
-    npcbehaviormaximumcombatorbitrange: 10000
+    npcbehaviormaximumcombatorbitrange: 10000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 397
@@ -2836,8 +2836,8 @@ types:
     armorkineticdamageresonance: 0.8999999761581421
     armorthermaldamageresonance: 0.8999999761581421
     armoruniformity: 0.75
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacitorcapacity: 725.0
     damagemultiplier: 2.0
     damagemultiplierbonusmax: 0.5
@@ -2870,7 +2870,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Ephialtes Entangler
-    npcbehaviormaximumcombatorbitrange: 8000
+    npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 397
@@ -2908,9 +2908,9 @@ types:
     armorkineticdamageresonance: 0.8999999761581421
     armorthermaldamageresonance: 0.8999999761581421
     armoruniformity: 0.75
-    behaviortargetpainterduration: 5000
-    behaviortargetpainterfalloff: 40000
-    behaviortargetpainterrange: 20000
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 40000.0
+    behaviortargetpainterrange: 20000.0
     capacitorcapacity: 725.0
     damagemultiplier: 2.0
     damagemultiplierbonusmax: 0.5
@@ -2943,7 +2943,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Ephialtes Illuminator
-    npcbehaviormaximumcombatorbitrange: 10000
+    npcbehaviormaximumcombatorbitrange: 10000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 397
@@ -3014,7 +3014,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Ephialtes Lancer
-    npcbehaviormaximumcombatorbitrange: 10000
+    npcbehaviormaximumcombatorbitrange: 10000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 397
@@ -3052,7 +3052,7 @@ types:
     armorkineticdamageresonance: 0.8999999761581421
     armorthermaldamageresonance: 0.8999999761581421
     armoruniformity: 0.75
-    behaviorsensordampenerduration: 5000
+    behaviorsensordampenerduration: 5000.0
     behaviorsensordampenerfalloff: 30000.0
     behaviorsensordampenerrange: 15000.0
     capacitorcapacity: 725.0
@@ -3088,7 +3088,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Ephialtes Obfuscator
-    npcbehaviormaximumcombatorbitrange: 10000
+    npcbehaviormaximumcombatorbitrange: 10000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 397
@@ -3162,7 +3162,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Ephialtes Spearfisher
-    npcbehaviormaximumcombatorbitrange: 7000
+    npcbehaviormaximumcombatorbitrange: 7000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 397
@@ -3245,15 +3245,15 @@ types:
     missilelaunchduration: 20000.0
     missilevelocitybonus: -10.625
     name: Ghosting Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcguidancedisruptordischarge: 5.0
-    npcguidancedisruptorduration: 5000
-    npcguidancedisruptorfalloff: 10000
-    npcguidancedisruptorrange: 20000
+    npcguidancedisruptorduration: 5000.0
+    npcguidancedisruptorfalloff: 10000.0
+    npcguidancedisruptorrange: 20000.0
     npctrackingdisruptordischarge: 5.0
-    npctrackingdisruptorduration: 5000
-    npctrackingdisruptorfalloff: 10000
-    npctrackingdisruptorrange: 20000
+    npctrackingdisruptorduration: 5000.0
+    npctrackingdisruptorfalloff: 10000.0
+    npctrackingdisruptorrange: 20000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -3333,15 +3333,15 @@ types:
     missilelaunchduration: 20000.0
     missilevelocitybonus: -10.625
     name: Ghosting Kikimora
-    npcbehaviormaximumcombatorbitrange: 16000
+    npcbehaviormaximumcombatorbitrange: 16000.0
     npcguidancedisruptordischarge: 5.0
-    npcguidancedisruptorduration: 5000
-    npcguidancedisruptorfalloff: 10000
-    npcguidancedisruptorrange: 20000
+    npcguidancedisruptorduration: 5000.0
+    npcguidancedisruptorfalloff: 10000.0
+    npcguidancedisruptorrange: 20000.0
     npctrackingdisruptordischarge: 5.0
-    npctrackingdisruptorduration: 5000
-    npctrackingdisruptorfalloff: 10000
-    npctrackingdisruptorrange: 20000
+    npctrackingdisruptorduration: 5000.0
+    npctrackingdisruptorfalloff: 10000.0
+    npctrackingdisruptorrange: 20000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -3418,15 +3418,15 @@ types:
     missilelaunchduration: 20000.0
     missilevelocitybonus: -10.0
     name: Ghosting Vila Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcdronebandwidth: 3
     npcdronecapacity: 5
-    npcguidancedisruptorduration: 10000
-    npcguidancedisruptorfalloff: 20000
-    npcguidancedisruptorrange: 40000
-    npctrackingdisruptorduration: 10000
-    npctrackingdisruptorfalloff: 20000
-    npctrackingdisruptorrange: 40000
+    npcguidancedisruptorduration: 10000.0
+    npcguidancedisruptorfalloff: 20000.0
+    npcguidancedisruptorrange: 40000.0
+    npctrackingdisruptorduration: 10000.0
+    npctrackingdisruptorfalloff: 20000.0
+    npctrackingdisruptorrange: 40000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -3566,7 +3566,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Harrowing Vedmak
-    npcbehaviormaximumcombatorbitrange: 15000
+    npcbehaviormaximumcombatorbitrange: 15000.0
     optimalsigradius: 40000
     packagedVolume: 118000.0
     portionSize: 1
@@ -3636,7 +3636,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Harrowing Vila Vedmak
-    npcbehaviormaximumcombatorbitrange: 15000
+    npcbehaviormaximumcombatorbitrange: 15000.0
     npcdronebandwidth: 5
     npcdronecapacity: 15
     optimalsigradius: 40000
@@ -3714,7 +3714,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 6000.0
     name: Lucid Aegis
-    npcbehaviormaximumcombatorbitrange: 8000
+    npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
     packagedVolume: 19100.0
     portionSize: 1
@@ -3758,9 +3758,9 @@ types:
     behaviorremotearmorrepairduration: 45000.0
     behaviorremotearmorrepairfalloff: 50000
     behaviorremotearmorrepairrange: 50000
-    behaviortargetpainterduration: 5000
-    behaviortargetpainterfalloff: 50000
-    behaviortargetpainterrange: 5000
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 50000.0
+    behaviortargetpainterrange: 5000.0
     capacitorcapacity: 5000.0
     capacity: 120.0
     damage: 8593
@@ -3795,7 +3795,7 @@ types:
     missileentityvelocitymultiplier: 0.029999999329447746
     missilelaunchduration: 6000.0
     name: Lucid Deepwatcher
-    npcbehaviormaximumcombatorbitrange: 50000
+    npcbehaviormaximumcombatorbitrange: 50000.0
     optimalsigradius: 40000
     packagedVolume: 1.9E7
     portionSize: 1
@@ -3873,7 +3873,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 9000.0
     name: Lucid Escort
-    npcbehaviormaximumcombatorbitrange: 8000
+    npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
     packagedVolume: 19100.0
     portionSize: 1
@@ -3954,7 +3954,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Lucid Firewatcher
-    npcbehaviormaximumcombatorbitrange: 8000
+    npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
     packagedVolume: 19100.0
     portionSize: 1
@@ -4104,7 +4104,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 16000.0
     name: Lucid Sentinel
-    npcbehaviormaximumcombatorbitrange: 12000
+    npcbehaviormaximumcombatorbitrange: 12000.0
     optimalsigradius: 40000
     packagedVolume: 109000.0
     portionSize: 1
@@ -4147,8 +4147,8 @@ types:
     behaviorremotearmorrepairduration: 12000.0
     behaviorremotearmorrepairfalloff: 30000
     behaviorremotearmorrepairrange: 50000
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacitorcapacity: 1000.0
     capacity: 120.0
     damagemultiplier: 5.0
@@ -4183,7 +4183,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 16000.0
     name: Lucid Upholder
-    npcbehaviormaximumcombatorbitrange: 12000
+    npcbehaviormaximumcombatorbitrange: 12000.0
     optimalsigradius: 40000
     packagedVolume: 109000.0
     portionSize: 1
@@ -4226,8 +4226,8 @@ types:
     behaviorremotearmorrepairduration: 7000.0
     behaviorremotearmorrepairfalloff: 20000
     behaviorremotearmorrepairrange: 40000
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacitorcapacity: 400.0
     capacity: 120.0
     damagemultiplier: 2.0
@@ -4262,7 +4262,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Lucid Warden
-    npcbehaviormaximumcombatorbitrange: 8000
+    npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
     packagedVolume: 19100.0
     portionSize: 1
@@ -4339,7 +4339,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 14000.0
     name: Lucid Watchman
-    npcbehaviormaximumcombatorbitrange: 12000
+    npcbehaviormaximumcombatorbitrange: 12000.0
     optimalsigradius: 40000
     packagedVolume: 109000.0
     portionSize: 1
@@ -4412,7 +4412,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Lucifer Burst
-    npcbehaviormaximumcombatorbitrange: 9000
+    npcbehaviormaximumcombatorbitrange: 9000.0
     optimalsigradius: 1000
     packagedVolume: 27289.0
     portionSize: 1
@@ -4431,7 +4431,6 @@ types:
     shieldthermaldamageresonance: 0.5199999809265137
     shielduniformity: 0.75
     signatureradius: 100.0
-    speed: 6000.0
     speedfactor: 1.0
     structureuniformity: 1.0
     thermaldamageresonance: 0.6700000166893005
@@ -4454,8 +4453,8 @@ types:
     behaviorshieldboosterdischarge: 40
     behaviorshieldboosterduration: 9000
     behaviorwebifierdischarge: 1.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 13000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 13000.0
     capacitorcapacity: 2015.0
     capacity: 400.0
     damagemultiplier: 45.0
@@ -4491,7 +4490,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Lucifer Cynabal
-    npcbehaviormaximumcombatorbitrange: 8000
+    npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
     packagedVolume: 101000.0
     portionSize: 1
@@ -4563,7 +4562,7 @@ types:
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 5000.0
     name: Lucifer Dramiel
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     optimalsigradius: 40000
     packagedVolume: 27289.0
     portionSize: 1
@@ -4605,8 +4604,8 @@ types:
     behaviorwarpscramblerange: 11250.0
     behaviorwarpscramblestrength: 2
     behaviorwebifierdischarge: 2.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 12000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 12000.0
     capacitorcapacity: 500.0
     capacity: 130.0
     damagemultiplier: 7.0
@@ -4641,7 +4640,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Lucifer Echo
-    npcbehaviormaximumcombatorbitrange: 4000
+    npcbehaviormaximumcombatorbitrange: 4000.0
     optimalsigradius: 40000
     packagedVolume: 27289.0
     portionSize: 1
@@ -4717,7 +4716,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Lucifer Fury
-    npcbehaviormaximumcombatorbitrange: 8000
+    npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
     packagedVolume: 27289.0
     portionSize: 1
@@ -4757,9 +4756,9 @@ types:
     behaviorshieldboosterdischarge: 40
     behaviorshieldboosterduration: 9000
     behaviortargetpainterdischarge: 5.0
-    behaviortargetpainterduration: 5000
-    behaviortargetpainterfalloff: 80000
-    behaviortargetpainterrange: 30000
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 80000.0
+    behaviortargetpainterrange: 30000.0
     capacitorcapacity: 2015.0
     capacity: 400.0
     damagemultiplier: 5.0
@@ -4794,11 +4793,11 @@ types:
     missileentityvelocitymultiplier: 1.5
     missilelaunchduration: 10000.0
     name: Lucifer Ixion
-    npcbehaviormaximumcombatorbitrange: 18000
+    npcbehaviormaximumcombatorbitrange: 18000.0
     npcguidancedisruptordischarge: 3.0
-    npcguidancedisruptorduration: 5000
-    npcguidancedisruptorfalloff: 50000
-    npcguidancedisruptorrange: 40000
+    npcguidancedisruptorduration: 5000.0
+    npcguidancedisruptorfalloff: 50000.0
+    npcguidancedisruptorrange: 40000.0
     optimalsigradius: 40000
     packagedVolume: 101000.0
     portionSize: 1
@@ -4835,7 +4834,7 @@ types:
     armorkineticdamageresonance: 0.75
     armorthermaldamageresonance: 0.6499999761581421
     behaviorsensordampenerdischarge: 5.0
-    behaviorsensordampenerduration: 5000
+    behaviorsensordampenerduration: 5000.0
     behaviorsensordampenerfalloff: 50000.0
     behaviorsensordampenerrange: 20000.0
     behaviorshieldboosteramount: 35
@@ -4875,7 +4874,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Lucifer Medusa
-    npcbehaviormaximumcombatorbitrange: 8000
+    npcbehaviormaximumcombatorbitrange: 8000.0
     optimalsigradius: 40000
     packagedVolume: 27289.0
     portionSize: 1
@@ -4915,9 +4914,9 @@ types:
     behaviorshieldboosterdischarge: 20
     behaviorshieldboosterduration: 5000
     behaviortargetpainterdischarge: 2.0
-    behaviortargetpainterduration: 5000
-    behaviortargetpainterfalloff: 40000
-    behaviortargetpainterrange: 20000
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 40000.0
+    behaviortargetpainterrange: 20000.0
     capacitorcapacity: 500.0
     capacity: 130.0
     damagemultiplier: 7.0
@@ -4951,7 +4950,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Lucifer Swordspine
-    npcbehaviormaximumcombatorbitrange: 12000
+    npcbehaviormaximumcombatorbitrange: 12000.0
     optimalsigradius: 40000
     packagedVolume: 27289.0
     portionSize: 1
@@ -4990,9 +4989,9 @@ types:
     armoruniformity: 0.75
     behaviorarmorrepaireramount: 160
     behaviorarmorrepairerduration: 6000
-    behaviortargetpainterduration: 5000
-    behaviortargetpainterfalloff: 100000
-    behaviortargetpainterrange: 50000
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 100000.0
+    behaviortargetpainterrange: 50000.0
     capacitorcapacity: 1400.0
     capacity: 300.0
     damagemultiplier: 1.0
@@ -5024,7 +5023,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 13000.0
     name: Marker Enforcer Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 9000
+    npcbehaviormaximumcombatorbitrange: 9000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -5062,9 +5061,9 @@ types:
     armoruniformity: 0.75
     behaviorarmorrepaireramount: 120
     behaviorarmorrepairerduration: 5000
-    behaviortargetpainterduration: 5000
-    behaviortargetpainterfalloff: 100000
-    behaviortargetpainterrange: 50000
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 100000.0
+    behaviortargetpainterrange: 50000.0
     capacitorcapacity: 500.0
     capacity: 150.0
     damagemultiplier: 1.0
@@ -5096,7 +5095,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 10000.0
     name: Marker Pacifier Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 10000
+    npcbehaviormaximumcombatorbitrange: 10000.0
     optimalsigradius: 40000
     portionSize: 1
     propulsiongraphicid: 395
@@ -5310,7 +5309,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Renewing Rodiva
-    npcbehaviormaximumcombatorbitrange: 15000
+    npcbehaviormaximumcombatorbitrange: 15000.0
     optimalsigradius: 40000
     packagedVolume: 118000.0
     portionSize: 1
@@ -5352,9 +5351,9 @@ types:
     behaviorremotearmorrepairduration: 5000.0
     behaviorremotearmorrepairfalloff: 40000
     behaviorremotearmorrepairrange: 30000
-    behaviortargetpainterduration: 5000
-    behaviortargetpainterfalloff: 100000
-    behaviortargetpainterrange: 50000
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 100000.0
+    behaviortargetpainterrange: 50000.0
     capacitorcapacity: 8250.0
     capacity: 650.0
     damage: 6000
@@ -5389,10 +5388,11 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Shining Drekavac
-    npcbehaviormaximumcombatorbitrange: 30000
+    npcbehaviormaximumcombatorbitrange: 30000.0
     optimalsigradius: 40000
     packagedVolume: 495000.0
     portionSize: 1
+    price: 1.125E8
     published: false
     radius: 250.0
     rechargerate: 750000.0
@@ -5426,9 +5426,9 @@ types:
     armorkineticdamageresonance: 0.4699999988079071
     armorthermaldamageresonance: 0.5199999809265137
     armoruniformity: 1.0
-    behaviortargetpainterduration: 5000
-    behaviortargetpainterfalloff: 100000
-    behaviortargetpainterrange: 50000
+    behaviortargetpainterduration: 5000.0
+    behaviortargetpainterfalloff: 100000.0
+    behaviortargetpainterrange: 50000.0
     capacitorcapacity: 500.0
     capacity: 135.0
     damagemultiplier: 0.20000000298023224
@@ -5463,7 +5463,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Shining Vila Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcdronebandwidth: 3
     npcdronecapacity: 5
     optimalsigradius: 40000
@@ -5541,7 +5541,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Skybreaker Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 17000
+    npcbehaviormaximumcombatorbitrange: 17000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -5614,7 +5614,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Starving Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -5844,7 +5844,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Stormbringer Disparu Troop
-    npcbehaviormaximumcombatorbitrange: 24000
+    npcbehaviormaximumcombatorbitrange: 24000.0
     optimalsigradius: 40000
     packagedVolume: 118000.0
     portionSize: 1
@@ -5917,7 +5917,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Striking Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -5993,10 +5993,11 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Striking Drekavac
-    npcbehaviormaximumcombatorbitrange: 30000
+    npcbehaviormaximumcombatorbitrange: 30000.0
     optimalsigradius: 40000
     packagedVolume: 495000.0
     portionSize: 1
+    price: 1.125E8
     published: false
     radius: 250.0
     rechargerate: 750000.0
@@ -6068,7 +6069,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Striking Kikimora
-    npcbehaviormaximumcombatorbitrange: 16000
+    npcbehaviormaximumcombatorbitrange: 16000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -6213,7 +6214,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Striking Vila Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcdronebandwidth: 3
     npcdronecapacity: 5
     optimalsigradius: 40000
@@ -6257,8 +6258,8 @@ types:
     behaviorremotearmorrepairfalloff: 2500
     behaviorremotearmorrepairrange: 14000
     behaviorwebifierdischarge: 1.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacitorcapacity: 500.0
     capacity: 135.0
     damagemultiplier: 0.800000011920929
@@ -6293,7 +6294,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Tangling Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -6335,8 +6336,8 @@ types:
     behaviorremotearmorrepairfalloff: 25000
     behaviorremotearmorrepairrange: 15000
     behaviorwebifierdischarge: 1.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacitorcapacity: 625.0
     capacity: 360.0
     damagemultiplier: 2.0
@@ -6371,7 +6372,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Tangling Kikimora
-    npcbehaviormaximumcombatorbitrange: 16000
+    npcbehaviormaximumcombatorbitrange: 16000.0
     optimalsigradius: 40000
     packagedVolume: 28600.0
     portionSize: 1
@@ -6414,8 +6415,8 @@ types:
     behaviorremotearmorrepairfalloff: 28000
     behaviorremotearmorrepairrange: 33000
     behaviorwebifierdischarge: 10.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 15000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 15000.0
     capacitorcapacity: 8250.0
     capacity: 933.0
     damage: 7608
@@ -6450,7 +6451,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Tangling Leshak
-    npcbehaviormaximumcombatorbitrange: 12000
+    npcbehaviormaximumcombatorbitrange: 12000.0
     optimalsigradius: 40000
     packagedVolume: 495000.0
     portionSize: 1
@@ -6486,8 +6487,8 @@ types:
     armorkineticdamageresonance: 0.4699999988079071
     armorthermaldamageresonance: 0.5199999809265137
     armoruniformity: 1.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 10000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 10000.0
     capacitorcapacity: 500.0
     capacity: 135.0
     damagemultiplier: 0.20000000298023224
@@ -6522,7 +6523,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Tangling Vila Damavik
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcdronebandwidth: 3
     npcdronecapacity: 5
     optimalsigradius: 40000
@@ -6603,6 +6604,7 @@ types:
     optimalsigradius: 40000
     packagedVolume: 495000.0
     portionSize: 1
+    price: 1.125E8
     published: false
     radius: 250.0
     rechargerate: 750000.0

@@ -16260,7 +16260,6 @@ locations:
     - Spaen
     adjacentSystems:
     - Brapelille
-    - Archee
     - Ardene
     anchorStructures: true
     constellation: Wyllequet
@@ -16792,12 +16791,13 @@ locations:
     region: Tash-Murkon
     truesec: 0.6969883711962781
   Ahtila:
+    adjacentConstellations:
+    - Krai Veles
     adjacentSystems:
-    - Ichoriya
-    - Samanuni
-    - Onnamon
+    - Kuharah
+    - Senda
     anchorStructures: true
-    constellation: Aokinen
+    constellation: Krai Svarog
     id: 30045328
     isBorder: false
     isCorridor: false
@@ -16806,8 +16806,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Ahtila
-    region: Black Rise
-    truesec: 0.6396242357811656
+    region: Pochven
+    truesec: -1.0
   Ahtulaima:
     adjacentSystems:
     - Itamo
@@ -16827,7 +16827,6 @@ locations:
     adjacentConstellations:
     - Outartoh
     - Okela
-    - Santenpaa
     adjacentRegions:
     - Lonetrek
     adjacentSystems:
@@ -16835,7 +16834,6 @@ locations:
     - Oiniken
     - Paara
     - Tunttaras
-    - Komo
     anchorStructures: true
     constellation: Arekin
     id: 30002752
@@ -17236,13 +17234,10 @@ locations:
     region: Lonetrek
     truesec: 0.7452549433180888
   Akidagi:
-    adjacentConstellations:
-    - Aokinen
     adjacentSystems:
     - Aivonen
     - Nennamaila
     - Enaluri
-    - Ichoriya
     anchorStructures: true
     constellation: Ishaga
     id: 30045342
@@ -17377,11 +17372,10 @@ locations:
     truesec: 0.8462923524267263
   Ala:
     adjacentSystems:
-    - Ney
-    - Fasse
-    - Gratesier
+    - Vale
+    - Wirashoda
     anchorStructures: true
-    constellation: Spaen
+    constellation: Krai Veles
     id: 30002652
     isBorder: false
     isCorridor: false
@@ -17390,8 +17384,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Ala
-    region: Sinq Laison
-    truesec: 0.4537660158501825
+    region: Pochven
+    truesec: -1.0
   Alachene:
     adjacentSystems:
     - Atlanins
@@ -18536,14 +18530,11 @@ locations:
     truesec: 0.1775851257551886
   Angymonne:
     adjacentSystems:
-    - Enedore
-    - Averon
-    - Odixie
-    - Antollare
-    - Scuelazyns
-    - Muer
+    - Ichoriya
+    - Archee
+    - Vale
     anchorStructures: true
-    constellation: Elalan
+    constellation: Krai Veles
     id: 30003046
     isBorder: false
     isCorridor: false
@@ -18552,8 +18543,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Angymonne
-    region: Everyshore
-    truesec: 0.5613352787066217
+    region: Pochven
+    truesec: -1.0
   Anher:
     adjacentConstellations:
     - Aldodan
@@ -18791,7 +18782,6 @@ locations:
   Ansen:
     adjacentSystems:
     - Arwa
-    - Krirald
     - Arifsdald
     anchorStructures: true
     constellation: Fribrodi
@@ -18910,7 +18900,6 @@ locations:
   Antollare:
     adjacentSystems:
     - Enedore
-    - Angymonne
     - Laic
     - Avele
     anchorStructures: true
@@ -19240,10 +19229,10 @@ locations:
     truesec: 0.620764615838233
   Archee:
     adjacentSystems:
-    - Bawilan
-    - Adrallezoen
+    - Angymonne
+    - Vale
     anchorStructures: true
-    constellation: Wyllequet
+    constellation: Krai Veles
     id: 30002702
     isBorder: false
     isCorridor: true
@@ -19252,8 +19241,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Archee
-    region: Sinq Laison
-    truesec: 0.4453556695571489
+    region: Pochven
+    truesec: -1.0
   Ardallabier:
     adjacentConstellations:
     - Spaen
@@ -19416,7 +19405,6 @@ locations:
     adjacentSystems:
     - Dudreda
     - Arwa
-    - Krirald
     - Ansen
     anchorStructures: true
     constellation: Fribrodi
@@ -19752,10 +19740,13 @@ locations:
     region: Domain
     truesec: 0.7523862792754515
   Arvasaras:
+    adjacentConstellations:
+    - Krai Perun
     adjacentSystems:
-    - Vellaine
+    - Sakenta
+    - Kaunokka
     anchorStructures: true
-    constellation: Kaala
+    constellation: Krai Veles
     id: 30001381
     isBorder: false
     isCorridor: false
@@ -19764,8 +19755,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Arvasaras
-    region: Lonetrek
-    truesec: 0.5167338461520279
+    region: Pochven
+    truesec: -1.0
   Arveyil:
     adjacentSystems:
     - Uktiad
@@ -19785,7 +19776,6 @@ locations:
   Arwa:
     adjacentSystems:
     - Hakisalki
-    - Krirald
     - Arifsdald
     - Ansen
     anchorStructures: true
@@ -20638,7 +20628,6 @@ locations:
     adjacentSystems:
     - Laurvier
     - Arraron
-    - Ignebaener
     anchorStructures: true
     constellation: Peccanouette
     id: 30005004
@@ -21177,7 +21166,6 @@ locations:
   Averon:
     adjacentSystems:
     - Enedore
-    - Angymonne
     - Carirgnottin
     - Odixie
     - Scuelazyns
@@ -23190,7 +23178,6 @@ locations:
     adjacentSystems:
     - Kudi
     - Madirmilire
-    - Niarja
     - Saana
     anchorStructures: true
     constellation: Yekti
@@ -23569,7 +23556,6 @@ locations:
     adjacentSystems:
     - Brapelille
     - Atier
-    - Archee
     anchorStructures: true
     constellation: Wyllequet
     id: 30002700
@@ -26331,7 +26317,6 @@ locations:
     - Villore
     - Derririntel
     - Ommare
-    - Vale
     anchorStructures: true
     constellation: Eustron
     id: 30005026
@@ -26555,7 +26540,6 @@ locations:
     adjacentSystems:
     - Aghesi
     - Patzcha
-    - Harva
     anchorStructures: true
     constellation: Kekah
     id: 30002224
@@ -29732,7 +29716,6 @@ locations:
     adjacentSystems:
     - Hagilur
     - Hakisalki
-    - Krirald
     - Arifsdald
     anchorStructures: true
     constellation: Fribrodi
@@ -32056,7 +32039,6 @@ locations:
     truesec: 0.7795353406894776
   Eitu:
     adjacentSystems:
-    - Konola
     - Horkkisen
     - Erila
     anchorStructures: true
@@ -32093,7 +32075,6 @@ locations:
     adjacentSystems:
     - Youl
     - Ardishapur Prime
-    - Raravoss
     - Nakri
     anchorStructures: true
     constellation: Zemont
@@ -32485,7 +32466,6 @@ locations:
   Enderailen:
     adjacentSystems:
     - Kubinen
-    - Tunudan
     - Rairomon
     anchorStructures: true
     constellation: Kantanen
@@ -32520,7 +32500,6 @@ locations:
     - Osnins
     adjacentSystems:
     - Aice
-    - Angymonne
     - Averon
     - Laic
     - Antollare
@@ -32561,7 +32540,6 @@ locations:
     adjacentRegions:
     - Metropolis
     adjacentSystems:
-    - Skarkon
     - Meildolf
     - Tabbetzur
     anchorStructures: true
@@ -32650,7 +32628,6 @@ locations:
     - Kainokai
     adjacentSystems:
     - Uemisaisen
-    - Kino
     - Kuoka
     anchorStructures: true
     constellation: Haurala
@@ -35495,7 +35472,6 @@ locations:
     - Stion
     adjacentSystems:
     - Ney
-    - Ala
     - Stegette
     anchorStructures: true
     constellation: Spaen
@@ -36110,7 +36086,6 @@ locations:
     adjacentSystems:
     - Kazna
     - Lilmad
-    - Kuharah
     - Jayneleb
     anchorStructures: true
     constellation: Mamouna
@@ -39031,7 +39006,6 @@ locations:
     adjacentRegions:
     - The Bleak Lands
     adjacentSystems:
-    - Ala
     - Schoorasana
     - Saidusairos
     anchorStructures: true
@@ -41377,7 +41351,6 @@ locations:
     adjacentRegions:
     - The Forge
     adjacentSystems:
-    - Nalvula
     - Otsasai
     - Taisy
     - Obe
@@ -41767,9 +41740,11 @@ locations:
     truesec: 0.08506059125532228
   Harva:
     adjacentSystems:
-    - Charra
+    - Raravoss
+    - Niarja
+    - Tunudan
     anchorStructures: true
-    constellation: Kekah
+    constellation: Krai Svarog
     id: 30002225
     isBorder: false
     isCorridor: false
@@ -41778,8 +41753,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Harva
-    region: Domain
-    truesec: 0.7969726085808215
+    region: Pochven
+    truesec: -1.0
   Hasama:
     adjacentConstellations:
     - Makiriemi
@@ -44687,14 +44662,11 @@ locations:
     region: Lonetrek
     truesec: 0.8782465145545774
   Ichoriya:
-    adjacentConstellations:
-    - Ishaga
     adjacentSystems:
-    - Akidagi
-    - Uchomida
-    - Ahtila
+    - Kaunokka
+    - Angymonne
     anchorStructures: true
-    constellation: Aokinen
+    constellation: Krai Veles
     id: 30045329
     isBorder: false
     isCorridor: false
@@ -44703,8 +44675,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Ichoriya
-    region: Black Rise
-    truesec: 0.5710318155360672
+    region: Pochven
+    truesec: -1.0
   Iderion:
     adjacentConstellations:
     - Heti
@@ -44815,10 +44787,10 @@ locations:
     truesec: 0.3494454047638842
   Ignebaener:
     adjacentSystems:
-    - Attyn
-    - Lisbaetanne
+    - Otela
+    - Komo
     anchorStructures: true
-    constellation: Peccanouette
+    constellation: Krai Perun
     id: 30005005
     isBorder: false
     isCorridor: true
@@ -44827,8 +44799,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Ignebaener
-    region: Essence
-    truesec: 0.531516781442841
+    region: Pochven
+    truesec: -1.0
   Ignoitton:
     adjacentSystems:
     - Iyen-Oursta
@@ -45015,7 +44987,6 @@ locations:
     - Hirtamon
     - Tunttaras
     - Jita
-    - Sakenta
     anchorStructures: true
     constellation: Ihilakken
     id: 30000138
@@ -45691,7 +45662,6 @@ locations:
     - Arekin
     adjacentSystems:
     - Oiniken
-    - Konola
     - Inoue
     anchorStructures: true
     constellation: Imurukka
@@ -81939,12 +81909,9 @@ locations:
     region: Curse
     truesec: -0.03783249182028758
   Jan:
-    adjacentConstellations:
-    - Mito
     adjacentSystems:
     - Vaajaita
     - Autaris
-    - Nalvula
     anchorStructures: true
     constellation: Kaala
     id: 30001385
@@ -82594,7 +82561,6 @@ locations:
     adjacentSystems:
     - Poinen
     - Liekuri
-    - Otela
     - New Caldari
     anchorStructures: true
     constellation: Onirvura
@@ -84597,13 +84563,9 @@ locations:
     truesec: -0.6745795907227483
   Kaaputenen:
     adjacentConstellations:
-    - Yekti
     - Uusasai
-    adjacentRegions:
-    - Domain
     adjacentSystems:
     - Inaro
-    - Niarja
     - Kamio
     anchorStructures: true
     constellation: Suon
@@ -85025,10 +84987,10 @@ locations:
     truesec: 0.1712913981712116
   Kaunokka:
     adjacentSystems:
-    - Yria
-    - Venilen
+    - Arvasaras
+    - Ichoriya
     anchorStructures: true
-    constellation: Otawasa
+    constellation: Krai Veles
     id: 30002797
     isBorder: false
     isCorridor: true
@@ -85037,8 +84999,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Kaunokka
-    region: The Citadel
-    truesec: 0.489406820381512
+    region: Pochven
+    truesec: -1.0
   Kausaaja:
     adjacentConstellations:
     - Nagaslaiken
@@ -85064,7 +85026,6 @@ locations:
     adjacentSystems:
     - Futzchag
     - Sendaya
-    - Kuharah
     anchorStructures: true
     constellation: Mamouna
     id: 30000018
@@ -85624,15 +85585,11 @@ locations:
     region: Black Rise
     truesec: 0.4156230084766713
   Kino:
-    adjacentConstellations:
-    - Otawasa
-    adjacentRegions:
-    - The Citadel
     adjacentSystems:
-    - Erenta
-    - Venilen
+    - Nalvula
+    - Otela
     anchorStructures: true
-    constellation: Haurala
+    constellation: Krai Perun
     id: 30001372
     isBorder: false
     isCorridor: false
@@ -85641,15 +85598,14 @@ locations:
     isKS: true
     isWormhole: false
     name: Kino
-    region: Lonetrek
-    truesec: 0.7277339255835833
+    region: Pochven
+    truesec: -1.0
   Kirras:
     adjacentConstellations:
     - Okela
     adjacentSystems:
     - Iidoken
     - Autama
-    - Nani
     anchorStructures: true
     constellation: Kainokai
     id: 30001410
@@ -85831,13 +85787,11 @@ locations:
     region: The Bleak Lands
     truesec: 0.5567216531540653
   Komo:
-    adjacentConstellations:
-    - Arekin
     adjacentSystems:
-    - Ahynada
-    - Oichiya
+    - Ignebaener
+    - Sakenta
     anchorStructures: true
-    constellation: Santenpaa
+    constellation: Krai Perun
     id: 30031392
     isBorder: true
     isCorridor: true
@@ -85846,14 +85800,14 @@ locations:
     isKS: true
     isWormhole: false
     name: Komo
-    region: The Citadel
-    truesec: 0.802817851745103
+    region: Pochven
+    truesec: -1.0
   Konola:
     adjacentSystems:
-    - Isaziwa
-    - Eitu
+    - Krirald
+    - Nalvula
     anchorStructures: true
-    constellation: Imurukka
+    constellation: Krai Perun
     id: 30002737
     isBorder: false
     isCorridor: true
@@ -85862,8 +85816,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Konola
-    region: The Citadel
-    truesec: 0.6657173159595942
+    region: Pochven
+    truesec: -1.0
   Konora:
     adjacentConstellations:
     - I3-2J0
@@ -86071,12 +86025,10 @@ locations:
     truesec: 0.9117006276236286
   Krirald:
     adjacentSystems:
-    - Dudreda
-    - Arwa
-    - Arifsdald
-    - Ansen
+    - Otanuomi
+    - Konola
     anchorStructures: true
-    constellation: Fribrodi
+    constellation: Krai Perun
     id: 30002079
     isBorder: false
     isCorridor: false
@@ -86085,8 +86037,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Krirald
-    region: Metropolis
-    truesec: 0.1647438814508468
+    region: Pochven
+    truesec: -1.0
   Kronsur:
     adjacentSystems:
     - Edmalbrurdus
@@ -86145,10 +86097,10 @@ locations:
     truesec: 0.6978559926700438
   Kuharah:
     adjacentSystems:
-    - Futzchag
-    - Kazna
+    - Tunudan
+    - Ahtila
     anchorStructures: true
-    constellation: Mamouna
+    constellation: Krai Svarog
     id: 30000021
     isBorder: false
     isCorridor: true
@@ -86157,8 +86109,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Kuharah
-    region: Derelik
-    truesec: 0.1897052831056812
+    region: Pochven
+    truesec: -1.0
   Kuhri:
     adjacentSystems:
     - Chitiamem
@@ -86178,7 +86130,6 @@ locations:
     adjacentConstellations:
     - Otawasa
     adjacentSystems:
-    - Tunudan
     - Hogimo
     - Yria
     anchorStructures: true
@@ -87017,14 +86968,9 @@ locations:
     region: Outer Ring
     truesec: -0.1002518523472095
   L4X-1V:
-    adjacentConstellations:
-    - Eoldulf
-    adjacentRegions:
-    - Molden Heath
     adjacentSystems:
     - WPV-JN
     - IL-H0A
-    - Skarkon
     anchorStructures: true
     constellation: 1VN-XC
     id: 30002376
@@ -89000,7 +88946,6 @@ locations:
     truesec: 0.835555852674809
   Lisbaetanne:
     adjacentSystems:
-    - Ignebaener
     - Aere
     - Aeschee
     anchorStructures: true
@@ -91387,7 +91332,6 @@ locations:
     adjacentSystems:
     - Romi
     - Bahromab
-    - Niarja
     - Saana
     - Ashab
     anchorStructures: true
@@ -92769,7 +92713,6 @@ locations:
     adjacentSystems:
     - Fegomenko
     - Osvetur
-    - Skarkon
     anchorStructures: true
     constellation: Eoldulf
     id: 30002410
@@ -93302,7 +93245,6 @@ locations:
     truesec: 0.2866763321277128
   Muer:
     adjacentSystems:
-    - Angymonne
     - Odixie
     - Scuelazyns
     anchorStructures: true
@@ -95612,17 +95554,12 @@ locations:
     region: Domain
     truesec: 0.5813248943324829
   Nalvula:
-    adjacentConstellations:
-    - Kaala
     adjacentSystems:
-    - Vuorrassi
-    - Oimmo
-    - Otsasai
-    - Taisy
-    - Hakonen
-    - Jan
+    - Konola
+    - Kino
+    - Otela
     anchorStructures: true
-    constellation: Mito
+    constellation: Krai Perun
     id: 30001445
     isBorder: true
     isCorridor: false
@@ -95631,8 +95568,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Nalvula
-    region: Lonetrek
-    truesec: 0.3873241927184699
+    region: Pochven
+    truesec: -1.0
   Namaili:
     adjacentSystems:
     - Raravath
@@ -95670,9 +95607,10 @@ locations:
     truesec: 0.2467125210849195
   Nani:
     adjacentSystems:
-    - Kirras
+    - Urhinichi
+    - Skarkon
     anchorStructures: true
-    constellation: Kainokai
+    constellation: Krai Svarog
     id: 30001413
     isBorder: false
     isCorridor: false
@@ -95681,8 +95619,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Nani
-    region: Lonetrek
-    truesec: 0.84282983212425
+    region: Pochven
+    truesec: -1.0
   Nannaras:
     adjacentSystems:
     - Tamo
@@ -96093,7 +96031,6 @@ locations:
     - Ardene
     - Boillair
     - Fasse
-    - Ala
     anchorStructures: true
     constellation: Spaen
     id: 30002650
@@ -96139,16 +96076,11 @@ locations:
     region: Domain
     truesec: 0.4499435862760683
   Niarja:
-    adjacentConstellations:
-    - Suon
-    adjacentRegions:
-    - The Citadel
     adjacentSystems:
-    - Bahromab
-    - Madirmilire
-    - Kaaputenen
+    - Raravoss
+    - Harva
     anchorStructures: true
-    constellation: Yekti
+    constellation: Krai Svarog
     id: 30003504
     isBorder: false
     isCorridor: true
@@ -96157,8 +96089,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Niarja
-    region: Domain
-    truesec: 0.5419916062174878
+    region: Pochven
+    truesec: -1.0
   Nibainkier:
     adjacentConstellations:
     - Comadu
@@ -98657,7 +98589,6 @@ locations:
     truesec: 0.6517603884133464
   Odixie:
     adjacentSystems:
-    - Angymonne
     - Averon
     - Carirgnottin
     - Scuelazyns
@@ -98950,7 +98881,6 @@ locations:
     adjacentSystems:
     - Isenairos
     - Motsu
-    - Komo
     - Laah
     anchorStructures: true
     constellation: Santenpaa
@@ -99026,7 +98956,6 @@ locations:
   Oimmo:
     adjacentSystems:
     - Vuorrassi
-    - Nalvula
     - Otsasai
     anchorStructures: true
     constellation: Mito
@@ -99516,7 +99445,6 @@ locations:
     - Rohamaa
     - Uuhulanen
     - Tsuruma
-    - Ahtila
     - Piak
     anchorStructures: true
     constellation: Aokinen
@@ -99865,12 +99793,9 @@ locations:
     region: Placid
     truesec: 0.746238173885059
   Osaa:
-    adjacentConstellations:
-    - Etsala
     adjacentSystems:
     - Mastakomon
     - Eruka
-    - Otanuomi
     anchorStructures: true
     constellation: Orpana
     id: 30000207
@@ -100149,15 +100074,12 @@ locations:
     truesec: 0.513440820229165
   Otanuomi:
     adjacentConstellations:
-    - Orpana
+    - Krai Svarog
     adjacentSystems:
-    - Vasala
-    - Walvalin
-    - Vouskiaho
-    - Otsela
-    - Osaa
+    - Urhinichi
+    - Krirald
     anchorStructures: true
-    constellation: Etsala
+    constellation: Krai Perun
     id: 30000192
     isBorder: true
     isCorridor: false
@@ -100166,14 +100088,15 @@ locations:
     isKS: true
     isWormhole: false
     name: Otanuomi
-    region: The Forge
-    truesec: 0.3722872563531221
+    region: Pochven
+    truesec: -1.0
   Otela:
     adjacentSystems:
-    - Poinen
-    - Josameto
+    - Nalvula
+    - Kino
+    - Ignebaener
     anchorStructures: true
-    constellation: Onirvura
+    constellation: Krai Perun
     id: 30000157
     isBorder: false
     isCorridor: true
@@ -100182,8 +100105,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Otela
-    region: The Forge
-    truesec: 0.531906740544569
+    region: Pochven
+    truesec: -1.0
   Otelen:
     adjacentConstellations:
     - Maddam
@@ -100308,7 +100231,6 @@ locations:
   Otsasai:
     adjacentSystems:
     - Oimmo
-    - Nalvula
     - Taisy
     - Hakonen
     anchorStructures: true
@@ -100332,7 +100254,6 @@ locations:
     - Vasala
     - Walvalin
     - Ihakana
-    - Otanuomi
     anchorStructures: true
     constellation: Etsala
     id: 30000194
@@ -103011,7 +102932,6 @@ locations:
     - Liekuri
     - Obanen
     - Josameto
-    - Otela
     anchorStructures: true
     constellation: Onirvura
     id: 30000153
@@ -107826,17 +107746,12 @@ locations:
     region: Domain
     truesec: 0.441865979775033
   Raravoss:
-    adjacentConstellations:
-    - Vaarma
-    adjacentRegions:
-    - The Bleak Lands
     adjacentSystems:
-    - Sasiekko
-    - Ekid
-    - Zaimeth
-    - Sharhelund
+    - Skarkon
+    - Niarja
+    - Harva
     anchorStructures: true
-    constellation: Zemont
+    constellation: Krai Svarog
     id: 30003495
     isBorder: true
     isCorridor: false
@@ -107845,8 +107760,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Raravoss
-    region: Domain
-    truesec: 0.6495650539254011
+    region: Pochven
+    truesec: -1.0
   Raren:
     adjacentSystems:
     - Pelkia
@@ -110436,10 +110351,13 @@ locations:
     region: The Forge
     truesec: 0.6524402583299749
   Sakenta:
+    adjacentConstellations:
+    - Krai Veles
     adjacentSystems:
-    - Ikuchi
+    - Komo
+    - Arvasaras
     anchorStructures: true
-    constellation: Ihilakken
+    constellation: Krai Perun
     id: 30010141
     isBorder: true
     isCorridor: false
@@ -110448,8 +110366,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Sakenta
-    region: The Forge
-    truesec: 0.9792566471688858
+    region: Pochven
+    truesec: -1.0
   Sakht:
     adjacentConstellations:
     - YX-LYK
@@ -110580,7 +110498,6 @@ locations:
     - Kurala
     adjacentSystems:
     - Uchomida
-    - Ahtila
     - Uuhulanen
     - Ikoskio
     anchorStructures: true
@@ -110785,15 +110702,10 @@ locations:
     region: Domain
     truesec: 1.0
   Sasiekko:
-    adjacentConstellations:
-    - Zemont
-    adjacentRegions:
-    - Domain
     adjacentSystems:
     - Sosala
     - Netsalakka
     - Myyhera
-    - Raravoss
     anchorStructures: true
     constellation: Vaarma
     id: 30003074
@@ -111019,7 +110931,6 @@ locations:
   Scuelazyns:
     adjacentSystems:
     - Enedore
-    - Angymonne
     - Averon
     - Carirgnottin
     - Odixie
@@ -111173,10 +111084,13 @@ locations:
     region: Lonetrek
     truesec: 0.5907544917888936
   Senda:
+    adjacentConstellations:
+    - Krai Svarog
     adjacentSystems:
-    - Shihuken
+    - Wirashoda
+    - Ahtila
     anchorStructures: true
-    constellation: Anttanen
+    constellation: Krai Veles
     id: 30020141
     isBorder: true
     isCorridor: false
@@ -111185,8 +111099,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Senda
-    region: The Forge
-    truesec: 0.9066284839206079
+    region: Pochven
+    truesec: -1.0
   Sendaya:
     adjacentConstellations:
     - Mamouna
@@ -111509,7 +111423,6 @@ locations:
   Sharhelund:
     adjacentSystems:
     - Youl
-    - Raravoss
     - Zaimeth
     anchorStructures: true
     constellation: Zemont
@@ -111784,7 +111697,6 @@ locations:
     adjacentSystems:
     - Tuuriainas
     - Unpas
-    - Senda
     anchorStructures: true
     constellation: Anttanen
     id: 30000130
@@ -112142,7 +112054,6 @@ locations:
     - Inaro
     - Anttiri
     - Urlen
-    - Urhinichi
     anchorStructures: true
     constellation: Suon
     id: 30002791
@@ -112301,16 +112212,11 @@ locations:
     region: Tash-Murkon
     truesec: 0.7179746105065334
   Skarkon:
-    adjacentConstellations:
-    - 1VN-XC
-    adjacentRegions:
-    - Etherium Reach
     adjacentSystems:
-    - Mimiror
-    - Ennur
-    - L4X-1V
+    - Nani
+    - Raravoss
     anchorStructures: true
-    constellation: Eoldulf
+    constellation: Krai Svarog
     id: 30002411
     isBorder: false
     isCorridor: true
@@ -112319,8 +112225,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Skarkon
-    region: Molden Heath
-    truesec: 0.04776934987083226
+    region: Pochven
+    truesec: -1.0
   Slays:
     adjacentConstellations:
     - Mallugier
@@ -114436,7 +114342,6 @@ locations:
     adjacentRegions:
     - Tribute
     adjacentSystems:
-    - Nalvula
     - Otsasai
     - Hakonen
     - M-OEE8
@@ -115727,10 +115632,10 @@ locations:
     truesec: 0.8853122147938609
   Tunudan:
     adjacentSystems:
-    - Enderailen
-    - Kulelen
+    - Harva
+    - Kuharah
     anchorStructures: true
-    constellation: Kantanen
+    constellation: Krai Svarog
     id: 30002770
     isBorder: false
     isCorridor: true
@@ -115739,8 +115644,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Tunudan
-    region: The Citadel
-    truesec: 0.4143776905288217
+    region: Pochven
+    truesec: -1.0
   Tuomuta:
     adjacentSystems:
     - Kuomi
@@ -117951,7 +117856,6 @@ locations:
     truesec: 0.6566179886877753
   Uchomida:
     adjacentSystems:
-    - Ichoriya
     - Samanuni
     - Rohamaa
     anchorStructures: true
@@ -117972,7 +117876,6 @@ locations:
     adjacentSystems:
     - Vouskiaho
     - Mastakomon
-    - Wirashoda
     anchorStructures: true
     constellation: Orpana
     id: 30000201
@@ -118465,10 +118368,13 @@ locations:
     region: Khanid
     truesec: 0.146070973486463
   Urhinichi:
+    adjacentConstellations:
+    - Krai Perun
     adjacentSystems:
-    - Sirppala
+    - Nani
+    - Otanuomi
     anchorStructures: true
-    constellation: Suon
+    constellation: Krai Svarog
     id: 30040141
     isBorder: true
     isCorridor: false
@@ -118477,8 +118383,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Urhinichi
-    region: The Citadel
-    truesec: 0.8409210258401633
+    region: Pochven
+    truesec: -1.0
   Uriok:
     adjacentSystems:
     - Nakugard
@@ -120429,9 +120335,11 @@ locations:
     truesec: 0.2281417258566025
   Vale:
     adjacentSystems:
-    - Cat
+    - Angymonne
+    - Archee
+    - Ala
     anchorStructures: true
-    constellation: Eustron
+    constellation: Krai Veles
     id: 30005029
     isBorder: false
     isCorridor: false
@@ -120440,8 +120348,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Vale
-    region: Essence
-    truesec: 0.6512425203838945
+    region: Pochven
+    truesec: -1.0
   Valmu:
     adjacentConstellations:
     - Jakemhih
@@ -120524,7 +120432,6 @@ locations:
     adjacentSystems:
     - Kiainti
     - Walvalin
-    - Otanuomi
     - Vouskiaho
     - Otsela
     anchorStructures: true
@@ -120695,7 +120602,6 @@ locations:
     adjacentRegions:
     - The Citadel
     adjacentSystems:
-    - Arvasaras
     - Akonoinen
     - Autaris
     - Alikara
@@ -120713,13 +120619,8 @@ locations:
     truesec: 0.5811389851332576
   Venilen:
     adjacentConstellations:
-    - Haurala
     - Kantanen
-    adjacentRegions:
-    - Lonetrek
     adjacentSystems:
-    - Kaunokka
-    - Kino
     - Hogimo
     anchorStructures: true
     constellation: Otawasa
@@ -121013,7 +120914,6 @@ locations:
     - Orpana
     adjacentSystems:
     - Vasala
-    - Otanuomi
     - Uchoshi
     anchorStructures: true
     constellation: Etsala
@@ -121056,7 +120956,6 @@ locations:
     adjacentSystems:
     - Hageken
     - Oimmo
-    - Nalvula
     anchorStructures: true
     constellation: Mito
     id: 30001443
@@ -122664,7 +122563,6 @@ locations:
     adjacentSystems:
     - Kiainti
     - Vasala
-    - Otanuomi
     - Otsela
     anchorStructures: true
     constellation: Etsala
@@ -122752,9 +122650,10 @@ locations:
     truesec: 0.5805268749855232
   Wirashoda:
     adjacentSystems:
-    - Uchoshi
+    - Ala
+    - Senda
     anchorStructures: true
-    constellation: Orpana
+    constellation: Krai Veles
     id: 30000206
     isBorder: false
     isCorridor: false
@@ -122763,8 +122662,8 @@ locations:
     isKS: true
     isWormhole: false
     name: Wirashoda
-    region: The Forge
-    truesec: 0.4936357904460346
+    region: Pochven
+    truesec: -1.0
   Wirdalen:
     adjacentConstellations:
     - Ankard
@@ -126805,7 +126704,6 @@ locations:
     adjacentSystems:
     - Kulelen
     - Oshaima
-    - Kaunokka
     - Oisio
     anchorStructures: true
     constellation: Otawasa
@@ -128919,7 +128817,6 @@ locations:
     truesec: 0.8642291533962844
   Zaimeth:
     adjacentSystems:
-    - Raravoss
     - Sharhelund
     - Mai
     anchorStructures: true

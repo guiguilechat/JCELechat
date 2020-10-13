@@ -170311,3 +170311,37 @@ blueprints:
     research_time:
       time: 315
     seeded: false
+  56702:
+    copying:
+      time: 4800
+    id: 56702
+    manufacturing:
+      materials:
+      - id: 2367
+        quantity: 3
+      - id: 23143
+        quantity: 4
+      - id: 23144
+        quantity: 4
+      - id: 23146
+        quantity: 1
+      - id: 33475
+        quantity: 1
+      products:
+      - id: 56701
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+        ? id: 11433
+        : 1
+        ? id: 11447
+        : 1
+      time: 6000
+    maxCopyRuns: 30
+    research_material:
+      time: 2100
+    research_time:
+      time: 2100
+    seeded: false

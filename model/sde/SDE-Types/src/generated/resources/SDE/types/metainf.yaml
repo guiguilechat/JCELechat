@@ -355,6 +355,7 @@ group2class:
   commodity/Tool: fr.guiguilechat.jcelechat.model.sde.types.commodity.Tool
   commodity/TriglavianData: fr.guiguilechat.jcelechat.model.sde.types.commodity.TriglavianData
   commodity/TriglavianDatastreams: fr.guiguilechat.jcelechat.model.sde.types.commodity.TriglavianDatastreams
+  commodity/TriglavianSpaceFilaments: fr.guiguilechat.jcelechat.model.sde.types.commodity.TriglavianSpaceFilaments
   commodity/UnknownComponents: fr.guiguilechat.jcelechat.model.sde.types.commodity.UnknownComponents
   decryptors/DecryptorsAmarr: fr.guiguilechat.jcelechat.model.sde.types.decryptors.DecryptorsAmarr
   decryptors/DecryptorsCaldari: fr.guiguilechat.jcelechat.model.sde.types.decryptors.DecryptorsCaldari
@@ -530,8 +531,10 @@ group2class:
   entity/DeadspaceSleeperUpgradedAvenger: fr.guiguilechat.jcelechat.model.sde.types.entity.DeadspaceSleeperUpgradedAvenger
   entity/DestructibleAgentsInSpace: fr.guiguilechat.jcelechat.model.sde.types.entity.DestructibleAgentsInSpace
   entity/DestructibleSentryGun: fr.guiguilechat.jcelechat.model.sde.types.entity.DestructibleSentryGun
+  entity/DrifterEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.DrifterEntities
   entity/DrifterReinforcements: fr.guiguilechat.jcelechat.model.sde.types.entity.DrifterReinforcements
   entity/DrifterResponseBattleship: fr.guiguilechat.jcelechat.model.sde.types.entity.DrifterResponseBattleship
+  entity/EDENCOMEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.EDENCOMEntities
   entity/FWInfrastructureHub: fr.guiguilechat.jcelechat.model.sde.types.entity.FWInfrastructureHub
   entity/FactionDrone: fr.guiguilechat.jcelechat.model.sde.types.entity.FactionDrone
   entity/HiddenZenithAmarrBattleship: fr.guiguilechat.jcelechat.model.sde.types.entity.HiddenZenithAmarrBattleship
@@ -555,7 +558,6 @@ group2class:
   entity/IncursionSanshaSNationCapital: fr.guiguilechat.jcelechat.model.sde.types.entity.IncursionSanshaSNationCapital
   entity/IncursionSanshaSNationCruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.IncursionSanshaSNationCruiser
   entity/IncursionSanshaSNationFrigate: fr.guiguilechat.jcelechat.model.sde.types.entity.IncursionSanshaSNationFrigate
-  entity/InvadingPrecursorEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.InvadingPrecursorEntities
   entity/IrregularBattlecruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.IrregularBattlecruiser
   entity/IrregularBattleship: fr.guiguilechat.jcelechat.model.sde.types.entity.IrregularBattleship
   entity/IrregularCapsule: fr.guiguilechat.jcelechat.model.sde.types.entity.IrregularCapsule
@@ -641,10 +643,6 @@ group2class:
   entity/PirateDrone: fr.guiguilechat.jcelechat.model.sde.types.entity.PirateDrone
   entity/PoliceDrone: fr.guiguilechat.jcelechat.model.sde.types.entity.PoliceDrone
   entity/PrecursorCache: fr.guiguilechat.jcelechat.model.sde.types.entity.PrecursorCache
-  entity/RetaliatingAmarrEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.RetaliatingAmarrEntities
-  entity/RetaliatingCaldariEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.RetaliatingCaldariEntities
-  entity/RetaliatingGallenteEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.RetaliatingGallenteEntities
-  entity/RetaliatingMinmatarEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.RetaliatingMinmatarEntities
   entity/RoamingAngelCartelBattleship: fr.guiguilechat.jcelechat.model.sde.types.entity.RoamingAngelCartelBattleship
   entity/RoamingAngelCartelCruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.RoamingAngelCartelCruiser
   entity/RoamingAngelCartelFrigate: fr.guiguilechat.jcelechat.model.sde.types.entity.RoamingAngelCartelFrigate
@@ -656,8 +654,10 @@ group2class:
   entity/RoamingSerpentisCruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.RoamingSerpentisCruiser
   entity/RoamingSerpentisFrigate: fr.guiguilechat.jcelechat.model.sde.types.entity.RoamingSerpentisFrigate
   entity/RogueDrone: fr.guiguilechat.jcelechat.model.sde.types.entity.RogueDrone
+  entity/RogueDroneEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.RogueDroneEntities
   entity/SeekerScouts: fr.guiguilechat.jcelechat.model.sde.types.entity.SeekerScouts
   entity/SentryGun: fr.guiguilechat.jcelechat.model.sde.types.entity.SentryGun
+  entity/SleeperEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.SleeperEntities
   entity/SpawnContainer: fr.guiguilechat.jcelechat.model.sde.types.entity.SpawnContainer
   entity/StorylineBattleship: fr.guiguilechat.jcelechat.model.sde.types.entity.StorylineBattleship
   entity/StorylineCruiser: fr.guiguilechat.jcelechat.model.sde.types.entity.StorylineCruiser
@@ -668,6 +668,7 @@ group2class:
   entity/StructureEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.StructureEntities
   entity/TemporaryCloud: fr.guiguilechat.jcelechat.model.sde.types.entity.TemporaryCloud
   entity/TemporaryCollidableStructure: fr.guiguilechat.jcelechat.model.sde.types.entity.TemporaryCollidableStructure
+  entity/TriglavianEntities: fr.guiguilechat.jcelechat.model.sde.types.entity.TriglavianEntities
   fighter/HeavyFighter: fr.guiguilechat.jcelechat.model.sde.types.fighter.HeavyFighter
   fighter/LightFighter: fr.guiguilechat.jcelechat.model.sde.types.fighter.LightFighter
   fighter/SupportFighter: fr.guiguilechat.jcelechat.model.sde.types.fighter.SupportFighter
@@ -3566,7 +3567,7 @@ id2name:
   3793: Data Subverter I
   3794: Data Subverter I Blueprint
   3795: Blood Raider Central Bastion
-  3796: Sun O1 (Blue Bright)
+  3796: Sun O1 (Bright Blue)
   3797: Sun G5 (Pink)
   3798: Sun K5 (Orange Bright)
   3799: Sun G3 (Pink Small)
@@ -14362,7 +14363,7 @@ id2name:
   25562: Signal Distortion Amplifier I Blueprint
   25563: Signal Distortion Amplifier II
   25564: Signal Distortion Amplifier II Blueprint
-  25565: '''Hypnos'' Signal Distortion Amplifier I'
+  25565: Hypnos Compact Signal Distortion Amplifier I
   25567: Compulsive Signal Distortion Amplifier I
   25569: Induced Signal Distortion Amplifier I
   25571: Initiated Signal Distortion Amplifier I
@@ -36115,7 +36116,7 @@ id2name:
   54572: EDENCOM Stockpile Tenshu
   54573: EDENCOM Stockpile Tenshu
   54574: EDENCOM Stockpile Tenshu
-  54575: PLACEHOLDER Snark
+  54575: Veles Vyraj Anchorage
   54576: Extractive Super-Nexus
   54577: Entropic Disintegrator Werpost
   54578: PLACEDHOLDER Triglavian Defense Platform XL
@@ -36939,6 +36940,7 @@ id2name:
   55923: TES Aritcio the Redeemed
   55924: TES Merimeth the Serene
   55925: TES Catiz of Tash-Murkon
+  55926: Wrecked Gate
   55927: Serenity Monthly Cerebral Accelerator - 2020.8
   55928: Serenity August Season Standard Cerebral Accelerator
   55929: Serenity August Season Advanced Cerebral Accelerator
@@ -36991,6 +36993,14 @@ id2name:
   55984: Skybreaker Bluestar Defenders SKIN
   55985: Stormbringer Bluestar Defenders SKIN
   55986: Thunderchild Bluestar Defenders SKIN
+  56018: Planet (Barren)
+  56019: Planet (Ice)
+  56020: Planet (Lava)
+  56021: Planet (Oceanic)
+  56022: Planet (Plasma)
+  56023: Planet (Temperate)
+  56024: Planet (Storm)
+  56026: Wormhole C729
   56047: Weak Metaliminal Dark Storm Environment
   56048: Strong Metaliminal Dark Storm Environment
   56049: Weak Metaliminal Electrical Storm Environment
@@ -37009,6 +37019,28 @@ id2name:
   56062: Weak Metaliminal Plasma Firestorm
   56063: Strong Metaliminal Plasma Firestorm
   56064: Weak Metaliminal Electrical Storm
+  56065: Glorification-1 'Devana' Filament
+  56066: Glorification-5 'Devana' Filament
+  56067: Glorification-15 'Devana' Filament
+  56068: Proximity-5 'Extraction' Filament
+  56069: Proximity-15 'Extraction' Filament
+  56070: Cladistic-5 'Krai Perun' Filament
+  56071: Cladistic-15 'Krai Perun' Filament
+  56072: Cladistic-5 'Krai Veles' Filament
+  56073: Cladistic-15 'Krai Veles' Filament
+  56074: Cladistic-5 'Krai Svarog' Filament
+  56075: Cladistic-15 'Krai Svarog' Filament
+  56076: Border-5 'Pochven' Filament
+  56077: Border-15 'Pochven' Filament
+  56078: Internal-5 'Pochven' Filament
+  56079: Internal-15 'Pochven' Filament
+  56080: Home-5 'Pochven' Filament
+  56081: Home-15 'Pochven' Filament
+  56082: Sun G5 (Gold Immanence)
+  56083: Sun B0 (Fruitful Immanence)
+  56084: Sun O1 (Divine Immanence)
+  56085: Sun A0 (Glory Immanence)
+  56086: Sun G5 (Gold Immanence)
   56089: 'Caldari Shuttle Sukuuvestaa SKIN '
   56090: Badger Sukuuvestaa SKIN
   56091: Caldari Union Day Apparel Crate
@@ -37016,7 +37048,32 @@ id2name:
   56093: 1v1 T1 Combat and Navy Frigates Proving Filament
   56094: 2v2 Cruiser Clash Proving Filament
   56095: Caldari Union Day Fireworks Crate
+  56097: Sun B0 (Fruitful Immanence)
+  56098: Sun B0 (Fruitful Immanence)
+  56100: Easy Roaming Spawner - INVADER
+  56101: Basic Roaming Spawner - INVADER
+  56102: Elite Roaming Spawner - INVADER
+  56103: Boss Roaming Spawner - INVADER
+  56104: Wormhole Wave A Spawner
+  56105: Wormhole Boss A Spawner
+  56106: Wormhole Wave B Spawner
+  56107: Wormhole Wave C Spawner
+  56108: Wormhole Boss B Spawner
+  56109: Wormhole Wave D Spawner
+  56110: Wormhole Guard Spawner
+  56111: Wormhole Wave E Spawner
+  56112: Wormhole Wave F Spawner
+  56113: Wormhole Wave G Spawner
+  56114: Wormhole Side Wave Spawner
   56116: Test crate 2
+  56117: Triglavian Spawner - Triglavian Invasion Phase 3
+  56118: Triglavian Spawner - Triglavian Invasion Phase 3
+  56119: Triglavian Spawner - Triglavian Invasion Phase 3
+  56120: Triglavian Spawner - Triglavian Invasion Phase 3
+  56121: Easy Roaming Spawner - DEFENDER
+  56122: Basic Roaming Spawner - DEFENDER
+  56123: Elite Roaming Spawner - DEFENDER
+  56124: Boss Roaming Spawner - DEFENDER
   56125: Serenity YC122.9 Season Booster - Max Velocity
   56128: Serenity Monthly Cerebral Accelerator - 2020.9
   56129: Serenity September Season Standard Cerebral Accelerator
@@ -37068,10 +37125,10 @@ id2name:
   56179: Serenity September Season Pass
   56180: Standard gunnery skill accelerator
   56181: Advanced gunnery Skill accelerator
-  56182: Standard missile skill accelerator
+  56182: '[no messageID: 569526]'
   56183: Advanced missile skill accelerator
   56184: Standard drone skill accelerator
-  56185: Advanced drone skill accelerator
+  56185: '[no messageID: 569532]'
   56186: Standard ore processing skill accelerator
   56187: Advanced ore processing skill accelerator
   56188: Skybreaker Disparu Troop
@@ -37102,10 +37159,48 @@ id2name:
   56213: Endobenthic Abyssal Overmind
   56214: Drifter Command Battleship
   56216: Marker Enforcer Disparu Troop
+  56217: Drifter Polemarkos Battleship
+  56218: Drifter Strike Battleship
+  56219: Drifter Raider Battleship
+  56220: Drifter Navarkos Cruiser
+  56221: Drifter Assault Cruiser
+  56222: Drifter Scout Cruiser
   56223: Women's EDENCOM 'Valiant' Command Jacket
   56224: Men's EDENCOM 'Valiant' Command Jacket
   56225: Women's Triglavian Survival Suit (Liminality)
   56226: Men's Triglavian Survival Suit (Liminality)
+  56232: Disrupted Gate (Amarr Border)
+  56233: 'Disrupted Gate (Amarr Border)  '
+  56234: Disrupted Gate (Amarr Region)
+  56235: Disrupted Gate (Amarr Region)
+  56236: Disrupted Gate (Amarr Constellation)
+  56237: Disrupted Gate (Amarr Constellation)
+  56238: 'Disrupted Gate (Amarr System) '
+  56239: 'Disrupted Gate (Amarr System) '
+  56240: 'Disrupted Gate (Caldari Border) '
+  56241: 'Disrupted Gate (Caldari Border) '
+  56242: 'Disrupted Gate (Caldari Region) '
+  56243: 'Disrupted Gate (Caldari Region) '
+  56244: Disrupted Gate (Caldari System)
+  56245: Disrupted Gate (Caldari System)
+  56246: 'Disrupted Gate (Caldari Constellation) '
+  56247: 'Disrupted Gate (Caldari Constellation) '
+  56248: 'Disrupted Gate (Gallente Border)  '
+  56249: 'Disrupted Gate (Gallente Border)  '
+  56250: 'Disrupted Gate (Gallente Region) '
+  56251: 'Disrupted Gate (Gallente Region) '
+  56252: Disrupted Gate (Gallente Constellation)
+  56253: Disrupted Gate (Gallente Constellation)
+  56254: Disrupted Gate (Gallente System)
+  56255: Disrupted Gate (Gallente System)
+  56256: Disrupted Gate  (Minmatar Border)
+  56257: Disrupted Gate (Minmatar Border)
+  56258: Disrupted Gate (Minmatar Region)
+  56259: Disrupted Gate (Minmatar Region)
+  56260: Disrupted Gate (Minmatar Constellation)
+  56261: Disrupted Gate (Minmatar Constellation)
+  56262: Disrupted Gate (Minmatar System)
+  56263: Disrupted Gate (Minmatar System)
   56264: Women's Bioadaptive Kybernaut Combat Suit
   56265: Women's EDENCOM 'Defiant' Combat Suit
   56266: Men's Bioadaptive Kybernaut Combat Suit
@@ -37154,6 +37249,34 @@ id2name:
   56314: Edencom Battleship placeholder
   56315: Elite Lucifer Cynabal
   56316: Lucifer Ixion
+  56317: Pochven Conduit Gate (Interstellar)
+  56319: Aroused Hypnosian Sentinel
+  56320: Aroused Hypnosian Eristikon
+  56321: Aroused Hypnosian Psychopomp
+  56322: Aroused Hypnosian Warden
+  56323: Aroused Hypnosian Avenger
+  56324: Aroused Hypnosian Upholder
+  56325: Aroused Hypnosian Watcher
+  56326: Aroused Hypnosian Agonizer
+  56327: Aroused Hypnosian Preserver
+  56328: Hypnosian Sentinel
+  56329: Hypnosian Eristikon
+  56330: Hypnosian Psychopomp
+  56331: Hypnosian Warden
+  56332: Hypnosian Avenger
+  56333: Hypnosian Upholder
+  56334: Hypnosian Watcher
+  56335: Hypnosian Agonizer
+  56336: Hypnosian Preserver
+  56337: Faded Hypnosian Sentinel
+  56338: Faded Hypnosian Eristikon
+  56339: Faded Hypnosian Psychopomp
+  56340: Faded Hypnosian Warden
+  56341: Faded Hypnosian Avenger
+  56342: Faded Hypnosian Upholder
+  56343: Faded Hypnosian Watcher
+  56344: Faded Hypnosian Agonizer
+  56345: Faded Hypnosian Preserver
   56346: Lucifer Dramiel
   56347: Elite Lucifer Dramiel
   56348: Lucifer Fury
@@ -37172,16 +37295,210 @@ id2name:
   56361: Event 18 Proving Filament
   56362: GM's Secret Stash Container
   56365: Tranquil Abyssal Filaments Crate
+  56487: Vexing Phase-I Swarmer
+  56488: Punishing Phase-I Swarmer
+  56489: Interfering Phase-I Swarmer
+  56490: Obstructing Phase-I Swarmer
+  56491: Vexing Phase-II Legionary
+  56492: Punishing Phase-II Legionary
+  56493: Interfering Phase-II Legionary
+  56494: Obstructing Phase-II Legionary
+  56495: Vexing Phase-III Legionary
+  56496: Punishing Phase-III Legionary
+  56497: Interfering Phase-III Legionary
+  56498: Obstructing Phase-III Legionary
+  56499: Vexing Phase-IV Legionary
+  56500: Punishing Phase-IV Legionary
+  56501: Interfering Phase-IV Legionary
+  56502: Obstructing Phase-IV Legionary
+  56503: Overmind Broodlord Alpha
+  56504: Grazing Phase-0 Forager
+  56505: Overmind Broodlord Omega
+  56506: Overmind Destructor Delta
+  56507: Overmind Destructor Epsilon
+  56508: Overmind Interruptor Lambda
+  56509: Overmind Interruptor Iota
+  56510: Overmind Progenitor Zero
+  56535: Wormhole C729
+  56536: Wormhole C729
+  56537: Wormhole C729
+  56538: Wormhole C729
+  56539: Wormhole C729
+  56540: Wormhole X450
+  56541: Wormhole R081
+  56542: Wormhole F216
+  56543: Wormhole F216
+  56544: Wormhole U372
+  56545: Wormhole C729
+  56546: Wormhole C729
+  56547: Wormhole C729
+  56548: Wormhole C729
+  56549: Wormhole C729
+  56550: Wormhole C729
+  56551: Wormhole C729
+  56552: Wormhole C729
+  56553: Wormhole C729
+  56554: Wormhole C729
+  56555: Wormhole C729
+  56556: Wormhole C729
+  56557: Wormhole C729
+  56558: Wormhole C729
+  56559: Wormhole C729
+  56560: Wormhole C729
+  56561: Wormhole C729
+  56562: Wormhole C729
+  56563: Wormhole C729
+  56564: Wormhole C729
+  56565: Wormhole C729
+  56566: Conduit Adversary Spawner A
+  56567: Conduit Adversary Spawner C
+  56568: Conduit Adversary Spawner B
+  56570: CH AR Ha R1(Do not Translate)
+  56571: CH AR Ha R2 (Do not Translate)
+  56572: CH AR Ha R3 (Do not Translate)
+  56573: CH AR Ha B(Do not Translate)
+  56574: CH AR Ez R3(Do not Translate)
+  56575: CH AR Ez B(Do not Translate)
+  56576: CH AR Ez R1 (Do not Translate)
+  56577: CH AR Ez R2(Do not Translate)
+  56578: CH BR Ez R1(Do not Translate)
+  56579: CH BR Ez R2(Do not Translate)
+  56580: CH BR Ez R3(Do not Translate)
+  56581: CH BR Ez B(Do not Translate)
+  56582: CH BR Ha R1(Do not Translate)
+  56583: CH BR Ha R2(Do not Translate)
+  56584: CH BR Ha R3(Do not Translate)
+  56585: CH BR Ha B(Do not Translate)
+  56586: CH AR ES R1 (Do not Translate)
+  56587: CH AR ES B(Do not Translate)
+  56588: CH BR ES R1(Do not Translate)
+  56589: CH BR ES B(Do not Translate)
+  56590: Confessor Malagrin Marshlight SKIN
+  56591: Prophecy Malagrin Marshlight SKIN
+  56592: Armageddon Malagrin Marshlight SKIN
+  56593: Ferox Malagrin Marshlight SKIN
+  56594: Charon Malagrin Marshlight SKIN
+  56595: Phoenix Malagrin Marshlight SKIN
+  56596: Hecate Malagrin Marshlight SKIN
+  56597: Dominix Malagrin Marshlight SKIN
+  56598: Thanatos Malagrin Marshlight SKIN
+  56599: Panther Malagrin Marshlight SKIN
+  56600: Naglfar Malagrin Marshlight SKIN
+  56601: Nidhoggur Malagrin Marshlight SKIN
+  56602: Cynabal Malagrin Marshlight SKIN
+  56603: Machariel Malagrin Marshlight SKIN
+  56604: Venture Rockbreaker Pioneers SKIN
+  56605: Prospect Rockbreaker Pioneers SKIN
+  56606: Porpoise Rockbreaker Pioneers SKIN
+  56607: Endurance Rockbreaker Pioneers SKIN
+  56608: Procurer Rockbreaker Pioneers SKIN
+  56609: Retriever Rockbreaker Pioneers SKIN
+  56610: Covetor Rockbreaker Pioneers SKIN
+  56611: Primae Rockbreaker Pioneers SKIN
+  56612: Orca Rockbreaker Pioneers SKIN
+  56613: Rorqual Rockbreaker Pioneers SKIN
+  56614: Bowhead Rockbreaker Pioneers SKIN
+  56615: Skiff Rockbreaker Pioneers SKIN
+  56616: Mackinaw Rockbreaker Pioneers SKIN
+  56617: Hulk Rockbreaker Pioneers SKIN
+  56618: Noctis Rockbreaker Pioneers SKIN
   56619: Serenity Monthly Cerebral Accelerator - 2020.10
   56620: Serenity October Season Standard Cerebral Accelerator
   56621: Serenity October Season Advanced Cerebral Accelerator
   56622: Skybreaker Strikeflight Red SKIN
   56623: Stormbringer Strikeflight Red SKIN
   56624: Thunderchild Strikeflight Red SKIN
+  56625: Abyssal Talassonite
+  56626: Hadal Talassonite
+  56627: Abyssal Bezdnacine
+  56628: Hadal Bezdnacine
+  56629: Abyssal Rakovene
+  56630: Hadal Rakovene
+  56631: Bezdnacine Processing
+  56632: Talassonite Processing
+  56633: Rakovene Processing
+  56634: 56634_Female_hair_HeadWear_Cap_F01_Types_HeadWear_Cap_F01_BR_CrimonHarvest.png
+  56635: 56635_Female_Outer_JacketFBR01_Types_JacketFBR01_BR_CrimsonHarvest.png
+  56636: 56636_Female_TopMiddle_TshirtF01_Types_TshirtF01_BR_CrimsonHarvest.png
+  56637: 56637_Male_hair_HeadWear_Cap_M01_Types_HeadWear_Cap_M01_BR_CrimsonHarvest.png
+  56638: 56638_Male_outer_JacketMFBR01_Types_JacketMFBR01_BR_CrimsonHarvest.png
+  56639: 56639_Male_topMiddle_TshirtM01_Types_TshirtM01_BR_CrimsonHarvest.png
   56640: Serenity October Season Pass
+  56644: Harvest Savior
+  56645: Harvest Follower
+  56646: Harvest Shepherd
+  56647: Harvest Prophet
+  56648: Shining Flame Crusader
+  56649: Shining Flame Deacon
+  56650: Shining Flame Crucifier
+  56651: Shining Flame Augoror
+  56652: Shining Flame Omen
+  56653: Shining Flame Curse
+  56654: Shining Flame Oracle
   56659: Festival-only New Eden Vanguard Pack
   56661: Festival-only New Eden Commander Pack
   56662: Festival-only New Eden Marshal Pack
+  56664: acath06_enviroment_asset
+  56669: Harvest Overseer
+  56670: Harvest Sage
+  56671: Harvest Diviner
+  56672: Harvest Supervisor
+  56673: Harvest Director
+  56674: Shining Flame Commander
+  56675: Shining Flame Commodore
+  56676: Shining Flame Admiral
+  56677: acath07_enviroment_asset
+  56678: ao1_t1_enviroment_asset
+  56679: abs1_t1_enviroment_asset
+  56680: abs2_t1_enviroment_asset
+  56681: abs3_t1_enviroment_asset
+  56682: as1_enviroment_asset
+  56683: as2_enviroment_asset
+  56684: as3_enviroment_asset
+  56685: as4_enviroment_asset
+  56686: as5_enviroment_asset
+  56687: as6_enviroment_asset
+  56688: as7_enviroment_asset
+  56689: as8_enviroment_asset
+  56690: as9_enviroment_asset
+  56691: Crimson Harvest keypass
+  56692: Shining Flame keypass
+  56693: Triglavian Space Trace
+  56699: Svarog Vyraj Anchorage
+  56700: Perun Vyraj Anchorage
+  56701: Mobile Sanguine Harvester
+  56702: Mobile Sanguine Harvester Blueprint
+  56703: ENV_Abyssal_Halloween_01a
+  56707: 1,620,000 Skill Points
+  56708: Interstellar Navigation Logs
+  56709: Corrupted Neurosynaptic Profile
+  56710: Partial Neurosynaptic Profile
+  56711: Intact Neurosynaptic Profile
+  56712: Holistic Neurosynaptic Template
+  56713: Vessel Core Hologram
+  56714: Modular Systems Hologram
+  56715: Cultural Semiosis Data
+  56716: Protective Equipment Patterns
+  56719: Easy Roaming Spawner - Drifters/Sleeper
+  56720: Basic Roaming Spawner - Drifters/Sleeper
+  56721: Elite Roaming Spawner - Drifters/Sleeper
+  56722: Easy Roaming Spawner - Rogue Drones
+  56723: Basic Roaming Spawner - Rogue Drones
+  56724: Elite Roaming Spawner - Rogue Drones
+  56726: Pochven Conduit Gate (Inactive)
+  56727: Easy Roaming Spawner - EDENCOM
+  56728: Basic Roaming Spawner - EDENCOM
+  56729: Elite Roaming Spawner
+  56730: Wormhole Wave A Spawner Easy - EDENCOM Amarr
+  56731: Wormhole Wave A Spawner Base - EDENCOM Amarr
+  56732: Wormhole Wave A Spawner Hard - EDENCOM Amarr
+  56736: ENV_Halloween_Pump_S2_02a
+  56737: Audio_Halloween_Monsters
+  56740: Drifter Cruiser Wreck
+  56741: Drifter Battleship Wreck
+  56742: Sleeper Small Wreck
+  56743: Sleeper Medium Wreck
+  56744: Sleeper Large Wreck
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -40111,7 +40428,6 @@ name2group:
   '''Hustler'' Heavy Neutron Blaster I': module/HybridWeapon
   '''Hustler'' Heavy Neutron Blaster I Blueprint': blueprint/HybridWeaponBlueprint
   '''Hydra'' CreoDron Shotgun': infantry/InfantryWeapons
-  '''Hypnos'' Signal Distortion Amplifier I': module/ECMStabilizer
   '''Icarus'' Basic Kinetic Catalyzer': infantry/InfantryModules
   '''Impact'' Enhanced Heavy Damage Modifier': infantry/InfantryModules
   '''Imperial Guard''  VZN-20 Forge Gun': infantry/InfantryWeapons
@@ -40892,7 +41208,6 @@ name2group:
   1MN Monopropellant Enduring Afterburner: module/PropulsionModule
   1MN Y-S8 Compact Afterburner: module/PropulsionModule
   1st Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  1v1 T1 Combat and Navy Frigates Proving Filament: commodity/AbyssalProvingFilaments
   200mm 'Scout' Accelerator Cannon: module/HybridWeapon
   200mm AutoCannon I: module/ProjectileWeapon
   200mm AutoCannon I Blueprint: blueprint/ProjectileWeaponBlueprint
@@ -41297,13 +41612,16 @@ name2group:
   Abufyr Joek's Head: commodity/Commodities
   Abyssal Assault Damage Control: module/DamageControl
   Abyssal Ballistic Control System: module/BallisticControlSystem
+  Abyssal Bezdnacine: asteroid/Bezdnacine
   Abyssal Damage Control: module/DamageControl
   Abyssal Entropic Radiation Sink: module/EntropicRadiationSink
   Abyssal Gyrostabilizer: module/Gyrostabilizer
   Abyssal Heat Sink: module/HeatSink
   Abyssal Magnetic Field Stabilizer: module/MagneticFieldStabilizer
+  Abyssal Rakovene: asteroid/Rakovene
   Abyssal Siege Module: module/SiegeModule
   Abyssal Stasis Webifier: module/StasisWeb
+  Abyssal Talassonite: asteroid/Talassonite
   Abyssal Warp Disruptor: module/WarpScrambler
   Abyssal Warp Scrambler: module/WarpScrambler
   Accelerant Decryptor: decryptors/GenericDecryptor
@@ -41388,7 +41706,6 @@ name2group:
   Advanced Spaceship Command: skill/SpaceshipCommand
   Advanced Target Management: skill/Targeting
   Advanced Weapon Upgrades: skill/Engineering
-  Advanced drone skill accelerator: implant/Booster
   Advanced gunnery Skill accelerator: implant/Booster
   Advanced missile skill accelerator: implant/Booster
   Advanced ore processing skill accelerator: implant/Booster
@@ -41950,13 +42267,13 @@ name2group:
   Anathema Star Captain SKIN: skins/PermanentSKIN
   Ancestral Armor: commodity/Commodities
   Anchoring: skill/StructureManagement
-  Anchoring Damavik: entity/InvadingPrecursorEntities
+  Anchoring Damavik: entity/TriglavianEntities
   Anchoring Jarognik Damavik: entity/IrregularFrigate
   Anchoring Jarognik Kikimora: entity/IrregularDestroyer
   Anchoring Jarognik Vedmak: entity/IrregularCruiser
-  Anchoring Kikimora: entity/InvadingPrecursorEntities
-  Anchoring Sudenic Damavik: entity/InvadingPrecursorEntities
-  Anchoring Sudenic Kikimora: entity/InvadingPrecursorEntities
+  Anchoring Kikimora: entity/TriglavianEntities
+  Anchoring Sudenic Damavik: entity/TriglavianEntities
+  Anchoring Sudenic Kikimora: entity/TriglavianEntities
   Anchoring Vila Damavik: entity/AbyssalSpaceshipEntities
   Ancient Amarrian Relic: commodity/Miscellaneous
   Ancient Ciphering Totem: commodity/AccelerationGateKeys
@@ -42534,6 +42851,7 @@ name2group:
   Armageddon Kador SKIN (90 Days): skins/Max90DaySKIN
   Armageddon Kador Serenity Only SKIN: skins/PermanentSKIN
   Armageddon Lavacore Imperial SKIN: skins/PermanentSKIN
+  Armageddon Malagrin Marshlight SKIN: skins/PermanentSKIN
   Armageddon Navy Issue: ship/Battleship
   Armageddon Navy Issue Biosecurity Responders SKIN: skins/PermanentSKIN
   Armageddon Navy Issue Blueprint: blueprint/BattleshipBlueprint
@@ -42603,6 +42921,15 @@ name2group:
   Arms Race Battleship Assembler: commodity/StrongBoxes
   Army Quarters: entity/SpawnContainer
   Arnon Epithalamus: entity/IncursionSanshaSNationCruiser
+  Aroused Hypnosian Agonizer: entity/SleeperEntities
+  Aroused Hypnosian Avenger: entity/SleeperEntities
+  Aroused Hypnosian Eristikon: entity/SleeperEntities
+  Aroused Hypnosian Preserver: entity/SleeperEntities
+  Aroused Hypnosian Psychopomp: entity/SleeperEntities
+  Aroused Hypnosian Sentinel: entity/SleeperEntities
+  Aroused Hypnosian Upholder: entity/SleeperEntities
+  Aroused Hypnosian Warden: entity/SleeperEntities
+  Aroused Hypnosian Watcher: entity/SleeperEntities
   Arrak Nutan: entity/StorylineMissionBattleship
   Arrester Marshal Disparu Troop: entity/AbyssalSpaceshipEntities
   Arrester Pacifier Disparu Troop: entity/AbyssalSpaceshipEntities
@@ -43164,6 +43491,7 @@ name2group:
   Beta Keycard: commodity/AccelerationGateKeys
   Beta Power Diagnostic System: infantry/InfantryModules
   Bezdnacine: asteroid/Bezdnacine
+  Bezdnacine Processing: skill/ResourceProcessing
   Bhaalgorn: ship/Battleship
   Bhaalgorn Blueprint: blueprint/BattleshipBlueprint
   Bhaalgorn Glacial Drift SKIN: skins/PermanentSKIN
@@ -43253,13 +43581,13 @@ name2group:
   Blastgrip Tessera: entity/AbyssalDroneEntities
   Blastlance Tessella: entity/AbyssalDroneEntities
   Blastneedle Tessella: entity/AbyssalDroneEntities
-  Blinding Damavik: entity/InvadingPrecursorEntities
+  Blinding Damavik: entity/TriglavianEntities
   Blinding Jarognik Kikimora: entity/IrregularDestroyer
-  Blinding Kikimora: entity/InvadingPrecursorEntities
-  Blinding Leshak: entity/InvadingPrecursorEntities
-  Blinding Sudenic Damavik: entity/InvadingPrecursorEntities
-  Blinding Sudenic Kikimora: entity/InvadingPrecursorEntities
-  Blinding Sudenic Leshak: entity/InvadingPrecursorEntities
+  Blinding Kikimora: entity/TriglavianEntities
+  Blinding Leshak: entity/TriglavianEntities
+  Blinding Sudenic Damavik: entity/TriglavianEntities
+  Blinding Sudenic Kikimora: entity/TriglavianEntities
+  Blinding Sudenic Leshak: entity/TriglavianEntities
   Blinding Vila Damavik: entity/AbyssalSpaceshipEntities
   Blockade General Sade: entity/DeadspaceOverseerFrigate
   Blood Apostle: entity/AsteroidBloodRaidersBattleship
@@ -43507,6 +43835,8 @@ name2group:
   Booster Pack: commodity/Commodities
   Boots.ini: apparel/Footwear
   Borain Doleni: entity/MissionGenericCruisers
+  Border-15 'Pochven' Filament: commodity/TriglavianSpaceFilaments
+  Border-5 'Pochven' Filament: commodity/TriglavianSpaceFilaments
   Bosonic Field Generator: module/SuperWeapon
   Bosonic Field Generator Blueprint: blueprint/SuperWeaponBlueprint
   Bouncer I: drone/CombatDrone
@@ -43566,6 +43896,7 @@ name2group:
   Bowhead Minmatar Industrial Livery Serenity Only SKIN (90 Days): skins/Max90DaySKIN
   Bowhead Morphite Shine SKIN: skins/PermanentSKIN
   Bowhead Paydirt Prospector SKIN: skins/PermanentSKIN
+  Bowhead Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Bowhead Rosada Dawn SKIN: skins/PermanentSKIN
   Bowhead Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Box of Chocolates: specialeditionassets/SpecialEditionCommodities
@@ -45487,6 +45818,7 @@ name2group:
   Charon Exoplanets Hunter SKIN: skins/PermanentSKIN
   Charon Ghostbird SKIN: skins/PermanentSKIN
   Charon Glacial Drift SKIN: skins/PermanentSKIN
+  Charon Malagrin Marshlight SKIN: skins/PermanentSKIN
   Charon Matigu Seabeast SKIN: skins/PermanentSKIN
   Charon Raata Sunset SKIN: skins/PermanentSKIN
   Charon Steel Cardinal SKIN: skins/PermanentSKIN
@@ -45550,15 +45882,15 @@ name2group:
   Cheri Mirei's DNA: commodity/Commodities
   Cherubic Heartburst Firework: charge/FestivalCharges
   Chief Republic Baldur: entity/MissionMinmatarRepublicFrigate
-  Chief Republic Fleet Claw: entity/RetaliatingMinmatarEntities
-  Chief Republic Fleet Huginn: entity/RetaliatingMinmatarEntities
-  Chief Republic Fleet Hurricane: entity/RetaliatingMinmatarEntities
-  Chief Republic Fleet Hyena: entity/RetaliatingMinmatarEntities
-  Chief Republic Fleet Muninn: entity/RetaliatingMinmatarEntities
-  Chief Republic Fleet Scalpel: entity/RetaliatingMinmatarEntities
-  Chief Republic Fleet Scimitar: entity/RetaliatingMinmatarEntities
-  Chief Republic Fleet Tempest: entity/RetaliatingMinmatarEntities
-  Chief Republic Fleet Typhoon: entity/RetaliatingMinmatarEntities
+  Chief Republic Fleet Claw: entity/EDENCOMEntities
+  Chief Republic Fleet Huginn: entity/EDENCOMEntities
+  Chief Republic Fleet Hurricane: entity/EDENCOMEntities
+  Chief Republic Fleet Hyena: entity/EDENCOMEntities
+  Chief Republic Fleet Muninn: entity/EDENCOMEntities
+  Chief Republic Fleet Scalpel: entity/EDENCOMEntities
+  Chief Republic Fleet Scimitar: entity/EDENCOMEntities
+  Chief Republic Fleet Tempest: entity/EDENCOMEntities
+  Chief Republic Fleet Typhoon: entity/EDENCOMEntities
   Chief Republic Gleeda: entity/MissionMinmatarRepublicFrigate
   Chief Republic Hrakt: entity/MissionMinmatarRepublicFrigate
   Chief Republic Iflin: entity/MissionMinmatarRepublicFrigate
@@ -45599,7 +45931,7 @@ name2group:
   Chimera Yoiul Star SKIN: skins/PermanentSKIN
   Chimera Zento Isideko Combine SKIN: skins/PermanentSKIN
   Chiral Structures: planetarycommodities/BasicCommoditiesTier1
-  Chislov Leshak: entity/InvadingPrecursorEntities
+  Chislov Leshak: entity/TriglavianEntities
   Choiji the Vanquisher: entity/StorylineMissionBattleship
   Choonka's Coordinates: commodity/Commodities
   Chremoas: ship/CovertOps
@@ -45684,6 +46016,12 @@ name2group:
   Civilian Workers and Dependents: commodity/Miscellaneous
   Civilians: commodity/Livestock
   Civire Bonus: bonus/BloodlineBonus
+  Cladistic-15 'Krai Perun' Filament: commodity/TriglavianSpaceFilaments
+  Cladistic-15 'Krai Svarog' Filament: commodity/TriglavianSpaceFilaments
+  Cladistic-15 'Krai Veles' Filament: commodity/TriglavianSpaceFilaments
+  Cladistic-5 'Krai Perun' Filament: commodity/TriglavianSpaceFilaments
+  Cladistic-5 'Krai Svarog' Filament: commodity/TriglavianSpaceFilaments
+  Cladistic-5 'Krai Veles' Filament: commodity/TriglavianSpaceFilaments
   Classified Report - Station Defenses: commodity/Miscellaneous
   Claudius: entity/MissionGenericFrigates
   Claustrophobia Bonus: bonus/PhobiaHandicap
@@ -45994,7 +46332,6 @@ name2group:
   Compression Array Blueprint: blueprint/StarbaseBlueprint
   Compromised Stasis Vault: entity/SpawnContainer
   Compulsive Scoped Multispectral ECM: module/ECM
-  Compulsive Signal Distortion Amplifier I: module/ECMStabilizer
   Computer Chips: commodity/MaterialsAndCompounds
   Computer Empathy Bonus: bonus/PhysicalBenefit
   Concentrated Veldspar: asteroid/Veldspar
@@ -46035,6 +46372,7 @@ name2group:
   Confessor Heartsurge SKIN: skins/PermanentSKIN
   Confessor Imperial Jubilee SKIN: skins/PermanentSKIN
   Confessor Lavacore Imperial SKIN: skins/PermanentSKIN
+  Confessor Malagrin Marshlight SKIN: skins/PermanentSKIN
   Confessor Oasis of Faith SKIN: skins/PermanentSKIN
   Confessor Purity of the Throne SKIN: skins/PermanentSKIN
   Confessor Star Captain SKIN: skins/PermanentSKIN
@@ -46492,6 +46830,7 @@ name2group:
   Correspondence Log KL-513: commodity/Miscellaneous
   Corrupted Drone: entity/SpawnContainer
   Corrupted Drone Components: commodity/Miscellaneous
+  Corrupted Neurosynaptic Profile: commodity/Commodities
   Corrupted Trinary Relics: commodity/Miscellaneous
   Cortex: infantry/InfantryEquipment
   Council Diplomatic Shuttle: ship/Shuttle
@@ -46548,6 +46887,7 @@ name2group:
   Covetor Minmatar Industrial Livery Serenity Only SKIN (90 Days): skins/Max90DaySKIN
   Covetor Morphite Shine SKIN: skins/PermanentSKIN
   Covetor Paydirt Prospector SKIN: skins/PermanentSKIN
+  Covetor Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Covetor Rosada Dawn SKIN: skins/PermanentSKIN
   Covetor Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Cracked Hive Mind Cage: entity/DeadspaceOverseerSStructure
@@ -46671,6 +47011,7 @@ name2group:
   Crimson Hand Level 2 Passcard: commodity/AccelerationGateKeys
   Crimson Hand Level 3 Passcard: commodity/AccelerationGateKeys
   Crimson Hand Level 4 Passcard: commodity/AccelerationGateKeys
+  Crimson Harvest keypass: commodity/AccelerationGateKeys
   Crimson Helix Firework (Large): charge/StructureFestivalCharges
   Crimson Lord: entity/DeadspaceOverseerBattleship
   Crimson Scythes Firework: charge/FestivalCharges
@@ -46798,6 +47139,7 @@ name2group:
   Crystallite Alloy: material/IntermediateMaterials
   Crystallite Alloy Reaction Formula: blueprint/CompositeReactionFormulas
   Cubic Bistot: asteroid/Bistot
+  Cultural Semiosis Data: commodity/Commodities
   Cura Gigno: entity/StorylineMissionCruiser
   Curator I: drone/CombatDrone
   Curator I Blueprint: blueprint/CombatDroneBlueprint
@@ -46876,6 +47218,7 @@ name2group:
   Cynabal Eros Blossom SKIN: skins/PermanentSKIN
   Cynabal Glacial Drift SKIN: skins/PermanentSKIN
   Cynabal Heartsurge SKIN: skins/PermanentSKIN
+  Cynabal Malagrin Marshlight SKIN: skins/PermanentSKIN
   Cynabal Serene Tu SKIN: skins/PermanentSKIN
   Cynabal Serenity Twirl SKIN: skins/PermanentSKIN
   Cynabal Serenity Twirl SKIN (30 Days): skins/Max30DaySKIN
@@ -47289,10 +47632,10 @@ name2group:
   Dawn of Liberation Cruiser SKINs: specialeditionassets/SpecialEditionCommodities
   Dawn of Liberation Frigate SKINs: specialeditionassets/SpecialEditionCommodities
   Daytrading: skill/Trade
-  Dazh Koliada: entity/InvadingPrecursorEntities
+  Dazh Koliada: entity/TriglavianEntities
   Dazh Porevitium Transmuter: entity/LargeCollidableStructure
-  Dazh Potremba: entity/InvadingPrecursorEntities
-  Dazh Stribozha: entity/InvadingPrecursorEntities
+  Dazh Potremba: entity/TriglavianEntities
+  Dazh Stribozha: entity/TriglavianEntities
   Dazzling Spodumain: asteroid/Spodumain
   Deacon: ship/LogisticsFrigate
   Deacon Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -47812,6 +48155,7 @@ name2group:
   Dominix Intaki Syndicate SKIN (90 Days): skins/Max90DaySKIN
   Dominix Intaki Syndicate Serenity Only SKIN: skins/PermanentSKIN
   Dominix Kopis Edge SKIN: skins/PermanentSKIN
+  Dominix Malagrin Marshlight SKIN: skins/PermanentSKIN
   Dominix Navy Issue: ship/Battleship
   Dominix Navy Issue Biosecurity Responders SKIN: skins/PermanentSKIN
   Dominix Navy Issue Blueprint: blueprint/BattleshipBlueprint
@@ -48241,6 +48585,7 @@ name2group:
   Drezins Capsule: entity/MissionGenericFrigates
   Dried Moss: specialeditionassets/SpecialEditionCommodities
   Drifter Assault Battleship: entity/AbyssalSpaceshipEntities
+  Drifter Assault Cruiser: entity/DrifterEntities
   Drifter Battleship: entity/HiddenZenithDrifters
   Drifter Command Battleship: entity/AbyssalSpaceshipEntities
   Drifter Cruiser: entity/DrifterReinforcements
@@ -48248,12 +48593,16 @@ name2group:
   Drifter Foothold Battleship: entity/AbyssalSpaceshipEntities
   Drifter Frontline Battleship: entity/AbyssalSpaceshipEntities
   Drifter Hive: entity/LargeCollidableStructure
+  Drifter Navarkos Cruiser: entity/DrifterEntities
   Drifter Nullcharge Cruiser: entity/AbyssalSpaceshipEntities
   Drifter Nullwarp Cruiser: entity/AbyssalSpaceshipEntities
+  Drifter Polemarkos Battleship: entity/DrifterEntities
+  Drifter Raider Battleship: entity/DrifterEntities
   Drifter Rearguard Battleship: entity/AbyssalSpaceshipEntities
   Drifter Response Battleship: entity/DrifterResponseBattleship
+  Drifter Scout Cruiser: entity/DrifterEntities
   Drifter Spur: commodity/Identification
-  Drifter Strike Battleship: entity/IrregularBattleship
+  Drifter Strike Battleship: entity/DrifterEntities
   Drifter Strike Commander: entity/IrregularBattleship
   Drifter Strike Cruiser: entity/IrregularCruiser
   Drifter Vanguard Battleship: entity/AbyssalSpaceshipEntities
@@ -48484,7 +48833,7 @@ name2group:
   EDENCOM Battleship: skill/SpaceshipCommand
   EDENCOM Cruiser: skill/SpaceshipCommand
   EDENCOM Cruiser (old): abstrct/TypeGraveyard
-  EDENCOM Fortification Orca: entity/RetaliatingGallenteEntities
+  EDENCOM Fortification Orca: entity/EDENCOMEntities
   EDENCOM Frigate: skill/SpaceshipCommand
   EDENCOM Frigate (old): abstrct/TypeGraveyard
   EDENCOM GunStar: entity/DestructibleSentryGun
@@ -48751,15 +49100,15 @@ name2group:
   Elite Drone AI: material/RogueDroneComponents
   Elite Drone Parasite: entity/DeadspaceRogueDroneBattleship
   Elite Engineering Skill Accelerator: implant/Booster
-  Elite Federal Navy Brutix: entity/RetaliatingGallenteEntities
-  Elite Federal Navy Deimos: entity/RetaliatingGallenteEntities
-  Elite Federal Navy Dominix: entity/RetaliatingGallenteEntities
-  'Elite Federal Navy Keres ': entity/RetaliatingGallenteEntities
-  Elite Federal Navy Lachesis: entity/RetaliatingGallenteEntities
-  Elite Federal Navy Megathron: entity/RetaliatingGallenteEntities
-  Elite Federal Navy Oneiros: entity/RetaliatingGallenteEntities
-  Elite Federal Navy Taranis: entity/RetaliatingGallenteEntities
-  Elite Federal Navy Thalia: entity/RetaliatingGallenteEntities
+  Elite Federal Navy Brutix: entity/EDENCOMEntities
+  Elite Federal Navy Deimos: entity/EDENCOMEntities
+  Elite Federal Navy Dominix: entity/EDENCOMEntities
+  'Elite Federal Navy Keres ': entity/EDENCOMEntities
+  Elite Federal Navy Lachesis: entity/EDENCOMEntities
+  Elite Federal Navy Megathron: entity/EDENCOMEntities
+  Elite Federal Navy Oneiros: entity/EDENCOMEntities
+  Elite Federal Navy Taranis: entity/EDENCOMEntities
+  Elite Federal Navy Thalia: entity/EDENCOMEntities
   Elite Federation Arcus: entity/MissionGallenteFederationFrigate
   Elite Federation Arx: entity/MissionGallenteFederationCruiser
   Elite Federation Auxilia: entity/MissionGallenteFederationCruiser
@@ -48778,39 +49127,39 @@ name2group:
   Elite Federation Pelekus: entity/MissionGallenteFederationFrigate
   Elite Federation Phalarica: entity/MissionGallenteFederationFrigate
   Elite Federation Quadrieris: entity/MissionGallenteFederationCruiser
-  Elite Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
-  Elite Imperial Navy Armageddon: entity/RetaliatingAmarrEntities
-  Elite Imperial Navy Crusader: entity/RetaliatingAmarrEntities
-  Elite Imperial Navy Deacon: entity/RetaliatingAmarrEntities
-  Elite Imperial Navy Guardian: entity/RetaliatingAmarrEntities
-  Elite Imperial Navy Harbinger: entity/RetaliatingAmarrEntities
-  Elite Imperial Navy Pilgrim: entity/RetaliatingAmarrEntities
-  Elite Imperial Navy Sentinel: entity/RetaliatingAmarrEntities
-  Elite Imperial Navy Zealot: entity/RetaliatingAmarrEntities
+  Elite Imperial Navy Apocalypse: entity/EDENCOMEntities
+  Elite Imperial Navy Armageddon: entity/EDENCOMEntities
+  Elite Imperial Navy Crusader: entity/EDENCOMEntities
+  Elite Imperial Navy Deacon: entity/EDENCOMEntities
+  Elite Imperial Navy Guardian: entity/EDENCOMEntities
+  Elite Imperial Navy Harbinger: entity/EDENCOMEntities
+  Elite Imperial Navy Pilgrim: entity/EDENCOMEntities
+  Elite Imperial Navy Sentinel: entity/EDENCOMEntities
+  Elite Imperial Navy Zealot: entity/EDENCOMEntities
   Elite Laser Pistols: commodity/Commodities
   Elite Lucifer Cynabal: entity/AbyssalSpaceshipEntities
   Elite Lucifer Dramiel: entity/AbyssalSpaceshipEntities
   Elite Repair Drone: entity/DeadspaceRogueDroneCruiser
-  Elite Republic Fleet Claw: entity/RetaliatingMinmatarEntities
-  Elite Republic Fleet Huginn: entity/RetaliatingMinmatarEntities
-  Elite Republic Fleet Hurricane: entity/RetaliatingMinmatarEntities
-  Elite Republic Fleet Hyena: entity/RetaliatingMinmatarEntities
-  Elite Republic Fleet Muninn: entity/RetaliatingMinmatarEntities
-  Elite Republic Fleet Scalpel: entity/RetaliatingMinmatarEntities
-  Elite Republic Fleet Scimitar: entity/RetaliatingMinmatarEntities
-  Elite Republic Fleet Tempest: entity/RetaliatingMinmatarEntities
-  Elite Republic Fleet Typhoon: entity/RetaliatingMinmatarEntities
+  Elite Republic Fleet Claw: entity/EDENCOMEntities
+  Elite Republic Fleet Huginn: entity/EDENCOMEntities
+  Elite Republic Fleet Hurricane: entity/EDENCOMEntities
+  Elite Republic Fleet Hyena: entity/EDENCOMEntities
+  Elite Republic Fleet Muninn: entity/EDENCOMEntities
+  Elite Republic Fleet Scalpel: entity/EDENCOMEntities
+  Elite Republic Fleet Scimitar: entity/EDENCOMEntities
+  Elite Republic Fleet Tempest: entity/EDENCOMEntities
+  Elite Republic Fleet Typhoon: entity/EDENCOMEntities
   Elite Shield Skill Accelerator: implant/Booster
   Elite Slaves: commodity/Livestock
-  Elite State Navy Basilisk: entity/RetaliatingCaldariEntities
-  Elite State Navy Cerberus: entity/RetaliatingCaldariEntities
-  Elite State Navy Drake: entity/RetaliatingCaldariEntities
-  Elite State Navy Kirin: entity/RetaliatingCaldariEntities
-  Elite State Navy Kitsune: entity/RetaliatingCaldariEntities
-  Elite State Navy Raptor: entity/RetaliatingCaldariEntities
-  Elite State Navy Raven: entity/RetaliatingCaldariEntities
-  Elite State Navy Rook: entity/RetaliatingCaldariEntities
-  Elite State Navy Scorpion: entity/RetaliatingCaldariEntities
+  Elite State Navy Basilisk: entity/EDENCOMEntities
+  Elite State Navy Cerberus: entity/EDENCOMEntities
+  Elite State Navy Drake: entity/EDENCOMEntities
+  Elite State Navy Kirin: entity/EDENCOMEntities
+  Elite State Navy Kitsune: entity/EDENCOMEntities
+  Elite State Navy Raptor: entity/EDENCOMEntities
+  Elite State Navy Raven: entity/EDENCOMEntities
+  Elite State Navy Rook: entity/EDENCOMEntities
+  Elite State Navy Scorpion: entity/EDENCOMEntities
   Embergrip Tessera: entity/AbyssalDroneEntities
   Emberlance Tessella: entity/AbyssalDroneEntities
   Emberneedle Tessella: entity/AbyssalDroneEntities
@@ -48883,6 +49232,7 @@ name2group:
   Endurance Minmatar Industrial Livery Serenity Only SKIN (90 Days): skins/Max90DaySKIN
   Endurance Morphite Shine SKIN: skins/PermanentSKIN
   Endurance Paydirt Prospector SKIN: skins/PermanentSKIN
+  Endurance Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Endurance Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Enduring Compounds: material/NamedComponents
   Enduring Conductors: material/NamedComponents
@@ -49171,17 +49521,18 @@ name2group:
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
   Event 10 Proving Filament: commodity/AbyssalProvingFilaments
   Event 11 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 12 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
-  Exalted Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
-  Exalted Imperial Navy Armageddon: entity/RetaliatingAmarrEntities
-  Exalted Imperial Navy Crusader: entity/RetaliatingAmarrEntities
-  Exalted Imperial Navy Deacon: entity/RetaliatingAmarrEntities
-  Exalted Imperial Navy Guardian: entity/RetaliatingAmarrEntities
-  Exalted Imperial Navy Harbinger: entity/RetaliatingAmarrEntities
-  Exalted Imperial Navy Pilgrim: entity/RetaliatingAmarrEntities
-  Exalted Imperial Navy Sentinel: entity/RetaliatingAmarrEntities
-  Exalted Imperial Navy Zealot: entity/RetaliatingAmarrEntities
+  Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
+  Exalted Imperial Navy Armageddon: entity/EDENCOMEntities
+  Exalted Imperial Navy Crusader: entity/EDENCOMEntities
+  Exalted Imperial Navy Deacon: entity/EDENCOMEntities
+  Exalted Imperial Navy Guardian: entity/EDENCOMEntities
+  Exalted Imperial Navy Harbinger: entity/EDENCOMEntities
+  Exalted Imperial Navy Pilgrim: entity/EDENCOMEntities
+  Exalted Imperial Navy Sentinel: entity/EDENCOMEntities
+  Exalted Imperial Navy Zealot: entity/EDENCOMEntities
   Excavation Equipment: commodity/Commodities
   Excavation Note: commodity/Commodities
   Exceptional Moon Ore Mining Crystal I: charge/MiningCrystal
@@ -49216,15 +49567,15 @@ name2group:
   Executioner Oasis of Faith SKIN: skins/PermanentSKIN
   Executioner Purity of the Throne SKIN: skins/PermanentSKIN
   Executioner Raata Sunset SKIN: skins/PermanentSKIN
-  Executive State Navy Basilisk: entity/RetaliatingCaldariEntities
-  Executive State Navy Cerberus: entity/RetaliatingCaldariEntities
-  Executive State Navy Drake: entity/RetaliatingCaldariEntities
-  Executive State Navy Kirin: entity/RetaliatingCaldariEntities
-  Executive State Navy Kitsune: entity/RetaliatingCaldariEntities
-  Executive State Navy Raptor: entity/RetaliatingCaldariEntities
-  Executive State Navy Raven: entity/RetaliatingCaldariEntities
-  Executive State Navy Rook: entity/RetaliatingCaldariEntities
-  Executive State Navy Scorpion: entity/RetaliatingCaldariEntities
+  Executive State Navy Basilisk: entity/EDENCOMEntities
+  Executive State Navy Cerberus: entity/EDENCOMEntities
+  Executive State Navy Drake: entity/EDENCOMEntities
+  Executive State Navy Kirin: entity/EDENCOMEntities
+  Executive State Navy Kitsune: entity/EDENCOMEntities
+  Executive State Navy Raptor: entity/EDENCOMEntities
+  Executive State Navy Raven: entity/EDENCOMEntities
+  Executive State Navy Rook: entity/EDENCOMEntities
+  Executive State Navy Scorpion: entity/EDENCOMEntities
   Exequror: ship/Cruiser
   Exequror Biosecurity Responders SKIN: skins/PermanentSKIN
   Exequror Blueprint: blueprint/CruiserBlueprint
@@ -49411,6 +49762,15 @@ name2group:
   Factory Folder: station/StationServices
   Factory Gatekey: commodity/AccelerationGateKeys
   Faded Astrometric Chart: specialeditionassets/SpecialEditionCommodities
+  Faded Hypnosian Agonizer: entity/SleeperEntities
+  Faded Hypnosian Avenger: entity/SleeperEntities
+  Faded Hypnosian Eristikon: entity/SleeperEntities
+  Faded Hypnosian Preserver: entity/SleeperEntities
+  Faded Hypnosian Psychopomp: entity/SleeperEntities
+  Faded Hypnosian Sentinel: entity/SleeperEntities
+  Faded Hypnosian Upholder: entity/SleeperEntities
+  Faded Hypnosian Warden: entity/SleeperEntities
+  Faded Hypnosian Watcher: entity/SleeperEntities
   Faint Epsilon Scoped Warp Scrambler: module/WarpScrambler
   Faint Scoped Warp Disruptor: module/WarpScrambler
   Fajah Ateshi: commodity/Livestock
@@ -49443,16 +49803,16 @@ name2group:
   FedNav F.O.F Identifier Tag AC-106V:FNSBR: commodity/AccelerationGateKeys
   Federal Defense Union Scout G-I: infantry/InfantryDropsuits
   Federal Intelligence Officer: commodity/Livestock
-  Federal Navy Brutix: entity/RetaliatingGallenteEntities
-  Federal Navy Deimos: entity/RetaliatingGallenteEntities
-  Federal Navy Dominix: entity/RetaliatingGallenteEntities
-  Federal Navy Keres: entity/RetaliatingGallenteEntities
-  Federal Navy Lachesis: entity/RetaliatingGallenteEntities
-  Federal Navy Megathron: entity/RetaliatingGallenteEntities
-  Federal Navy Moros: entity/RetaliatingGallenteEntities
-  Federal Navy Oneiros: entity/RetaliatingGallenteEntities
-  Federal Navy Taranis: entity/RetaliatingGallenteEntities
-  Federal Navy Thalia: entity/RetaliatingGallenteEntities
+  Federal Navy Brutix: entity/EDENCOMEntities
+  Federal Navy Deimos: entity/EDENCOMEntities
+  Federal Navy Dominix: entity/EDENCOMEntities
+  Federal Navy Keres: entity/EDENCOMEntities
+  Federal Navy Lachesis: entity/EDENCOMEntities
+  Federal Navy Megathron: entity/EDENCOMEntities
+  Federal Navy Moros: entity/EDENCOMEntities
+  Federal Navy Oneiros: entity/EDENCOMEntities
+  Federal Navy Taranis: entity/EDENCOMEntities
+  Federal Navy Thalia: entity/EDENCOMEntities
   Federal Star of Justice: commodity/Miscellaneous
   Federation 'Atlas' Sentinel: infantry/VisualCustomization
   Federation 'Centurion' Commando: infantry/VisualCustomization
@@ -49824,6 +50184,7 @@ name2group:
   Ferox Lai Dai SKIN (90 Days): skins/Max90DaySKIN
   Ferox Lai Dai Serenity Only SKIN: skins/PermanentSKIN
   Ferox Luminaire Rising SKIN: skins/PermanentSKIN
+  Ferox Malagrin Marshlight SKIN: skins/PermanentSKIN
   Ferox Matigu Seabeast SKIN: skins/PermanentSKIN
   Ferox Raata Sunset SKIN: skins/PermanentSKIN
   Ferox Steel Cardinal SKIN: skins/PermanentSKIN
@@ -50381,12 +50742,12 @@ name2group:
   Ghalag's OCT-91 Bolt Pistol: infantry/InfantryWeapons
   Ghalen Dumplings: commodity/Frozen
   Ghalen Pastries: commodity/Frozen
-  Ghosting Damavik: entity/InvadingPrecursorEntities
-  Ghosting Drekavac: entity/InvadingPrecursorEntities
+  Ghosting Damavik: entity/TriglavianEntities
+  Ghosting Drekavac: entity/TriglavianEntities
   Ghosting Jarognik Kikimora: entity/IrregularDestroyer
   Ghosting Kikimora: entity/AbyssalSpaceshipEntities
-  Ghosting Sudenic Damavik: entity/InvadingPrecursorEntities
-  Ghosting Sudenic Drekavac: entity/InvadingPrecursorEntities
+  Ghosting Sudenic Damavik: entity/TriglavianEntities
+  Ghosting Sudenic Drekavac: entity/TriglavianEntities
   Ghosting Vila Damavik: entity/AbyssalSpaceshipEntities
   Giant Freight Container: celestial/FreightContainer
   Giant Freight Container Blueprint: blueprint/ContainerBlueprints
@@ -50610,6 +50971,9 @@ name2group:
   Glistening Sylvite: asteroid/UbiquitousMoonAsteroids
   Glistening Zeolites: asteroid/UbiquitousMoonAsteroids
   Gloom Enduring Radar ECM: module/ECM
+  Glorification-1 'Devana' Filament: commodity/TriglavianSpaceFilaments
+  Glorification-15 'Devana' Filament: commodity/TriglavianSpaceFilaments
+  Glorification-5 'Devana' Filament: commodity/TriglavianSpaceFilaments
   Glossy Compound: commodity/Refinables
   Glossy Scordite: asteroid/Scordite
   Glowing Carnotite: asteroid/RareMoonAsteroids
@@ -50787,6 +51151,7 @@ name2group:
   Graviton Pulse Generator Blueprint: blueprint/ConstructionComponentBlueprints
   Graviton Reactor Unit: commodity/ConstructionComponents
   Graviton Reactor Unit Blueprint: blueprint/ConstructionComponentBlueprints
+  Grazing Phase-0 Forager: entity/RogueDroneEntities
   Grecko: entity/MissionGenericCruisers
   Green Arisite: asteroid/Gneiss
   Gregory Lerma: entity/MissionGenericBattleships
@@ -51243,6 +51608,9 @@ name2group:
   Hacker's Keycard: commodity/Commodities
   Hacking: skill/Scanning
   Hadal Abyssal Overmind: entity/AbyssalSpaceshipEntities
+  Hadal Bezdnacine: asteroid/Bezdnacine
+  Hadal Rakovene: asteroid/Rakovene
+  Hadal Talassonite: asteroid/Talassonite
   Hafnium: material/MoonMaterials
   Hail L: charge/AdvancedAutocannonAmmo
   Hail L Blueprint: blueprint/AdvancedProjectileAmmoBlueprint
@@ -51362,14 +51730,23 @@ name2group:
   Harpy Wiyrkomi SKIN: skins/PermanentSKIN
   Harpy Zento Isideko Combine SKIN: skins/PermanentSKIN
   Harroken Ikero: commodity/Livestock
-  Harrowing Damavik: entity/InvadingPrecursorEntities
-  Harrowing Kikimora: entity/InvadingPrecursorEntities
-  Harrowing Sudenic Damavik: entity/InvadingPrecursorEntities
-  Harrowing Sudenic Kikimora: entity/InvadingPrecursorEntities
-  Harrowing Sudenic Vedmak: entity/InvadingPrecursorEntities
-  Harrowing Vedmak: entity/InvadingPrecursorEntities
+  Harrowing Damavik: entity/TriglavianEntities
+  Harrowing Kikimora: entity/TriglavianEntities
+  Harrowing Sudenic Damavik: entity/TriglavianEntities
+  Harrowing Sudenic Kikimora: entity/TriglavianEntities
+  Harrowing Sudenic Vedmak: entity/TriglavianEntities
+  Harrowing Vedmak: entity/TriglavianEntities
   Harrowing Vila Vedmak: entity/AbyssalSpaceshipEntities
   Haruo Wako: entity/StorylineMissionBattleship
+  Harvest Director: entity/IrregularBattleship
+  Harvest Diviner: entity/IrregularBattlecruiser
+  Harvest Follower: entity/IrregularFrigate
+  Harvest Overseer: entity/IrregularBattleship
+  Harvest Prophet: entity/IrregularCruiser
+  Harvest Sage: entity/IrregularCruiser
+  Harvest Savior: entity/IrregularFrigate
+  Harvest Shepherd: entity/IrregularFrigate
+  Harvest Supervisor: entity/IrregularBattleship
   Harvester Mining Drone: drone/MiningDrone
   Harvester Mining Drone Blueprint: blueprint/MiningDroneBlueprint
   Hashi Keptzh: entity/DeadspaceOverseerBattleship
@@ -51579,6 +51956,7 @@ name2group:
   Hecate Heartsurge SKIN: skins/PermanentSKIN
   Hecate Inner Zone Vanguard SKIN: skins/PermanentSKIN
   Hecate Kopis Edge SKIN: skins/PermanentSKIN
+  Hecate Malagrin Marshlight SKIN: skins/PermanentSKIN
   Hecate Ruby Sungrazer SKIN: skins/PermanentSKIN
   Hecate Sapphire Sungrazer SKIN: skins/PermanentSKIN
   Hecate Serpentis SKIN: skins/PermanentSKIN
@@ -51844,12 +52222,15 @@ name2group:
   Hoborak Moon: entity/MissionGenericBattleships
   Hodura Amaba: entity/StorylineMissionCruiser
   Holding Cell: entity/SpawnContainer
+  Holistic Neurosynaptic Template: commodity/Commodities
   Hollow Talocan Extraction Silo: entity/LargeCollidableStructure
   Holoreel - Torture Log I15B: commodity/Miscellaneous
   Holoreel GRS-81A: commodity/General
   'Holoreel: Wanted for Love': commodity/Miscellaneous
   Holoreels: commodity/General
   Holy Statue: commodity/Commodities
+  Home-15 'Pochven' Filament: commodity/TriglavianSpaceFilaments
+  Home-5 'Pochven' Filament: commodity/TriglavianSpaceFilaments
   Homeless: commodity/Livestock
   Homemade Sansha Beacon: commodity/Commodities
   Honim Iratur: entity/StorylineMissionFrigate
@@ -51864,33 +52245,33 @@ name2group:
   Hornet I Blueprint: blueprint/CombatDroneBlueprint
   Hornet II: drone/CombatDrone
   Hornet II Blueprint: blueprint/CombatDroneBlueprint
-  Hospodar Anchoring Damavik: entity/InvadingPrecursorEntities
-  Hospodar Anchoring Kikimora: entity/InvadingPrecursorEntities
-  Hospodar Blinding Damavik: entity/InvadingPrecursorEntities
-  Hospodar Blinding Kikimora: entity/InvadingPrecursorEntities
-  Hospodar Blinding Leshak: entity/InvadingPrecursorEntities
-  Hospodar Ghosting Damavik: entity/InvadingPrecursorEntities
-  Hospodar Ghosting Drekavac: entity/InvadingPrecursorEntities
-  Hospodar Harrowing Damavik: entity/InvadingPrecursorEntities
-  Hospodar Harrowing Kikimora: entity/InvadingPrecursorEntities
-  Hospodar Harrowing Vedmak: entity/InvadingPrecursorEntities
-  Hospodar Jariloznik Kikimora: entity/InvadingPrecursorEntities
-  Hospodar Liminal Damavik: entity/InvadingPrecursorEntities
-  Hospodar Liminal Drekavac: entity/InvadingPrecursorEntities
-  Hospodar Liminal Kikimora: entity/InvadingPrecursorEntities
-  Hospodar Liminal Leshak: entity/InvadingPrecursorEntities
-  Hospodar Liminal Rodiva: entity/InvadingPrecursorEntities
-  Hospodar Liminal Vedmak: entity/InvadingPrecursorEntities
-  Hospodar Moroznik Kikimora: entity/InvadingPrecursorEntities
-  Hospodar Nemiznik Kikimora: entity/InvadingPrecursorEntities
-  Hospodar Pohviznik Kikimora: entity/InvadingPrecursorEntities
-  Hospodar Renewing Damavik: entity/InvadingPrecursorEntities
-  Hospodar Renewing Leshak: entity/InvadingPrecursorEntities
-  Hospodar Renewing Rodiva: entity/InvadingPrecursorEntities
-  Hospodar Starving Damavik: entity/InvadingPrecursorEntities
-  Hospodar Starving Drekavac: entity/InvadingPrecursorEntities
-  Hospodar Tangling Damavik: entity/InvadingPrecursorEntities
-  Hospodar Tangling Kikimora: entity/InvadingPrecursorEntities
+  Hospodar Anchoring Damavik: entity/TriglavianEntities
+  Hospodar Anchoring Kikimora: entity/TriglavianEntities
+  Hospodar Blinding Damavik: entity/TriglavianEntities
+  Hospodar Blinding Kikimora: entity/TriglavianEntities
+  Hospodar Blinding Leshak: entity/TriglavianEntities
+  Hospodar Ghosting Damavik: entity/TriglavianEntities
+  Hospodar Ghosting Drekavac: entity/TriglavianEntities
+  Hospodar Harrowing Damavik: entity/TriglavianEntities
+  Hospodar Harrowing Kikimora: entity/TriglavianEntities
+  Hospodar Harrowing Vedmak: entity/TriglavianEntities
+  Hospodar Jariloznik Kikimora: entity/TriglavianEntities
+  Hospodar Liminal Damavik: entity/TriglavianEntities
+  Hospodar Liminal Drekavac: entity/TriglavianEntities
+  Hospodar Liminal Kikimora: entity/TriglavianEntities
+  Hospodar Liminal Leshak: entity/TriglavianEntities
+  Hospodar Liminal Rodiva: entity/TriglavianEntities
+  Hospodar Liminal Vedmak: entity/TriglavianEntities
+  Hospodar Moroznik Kikimora: entity/TriglavianEntities
+  Hospodar Nemiznik Kikimora: entity/TriglavianEntities
+  Hospodar Pohviznik Kikimora: entity/TriglavianEntities
+  Hospodar Renewing Damavik: entity/TriglavianEntities
+  Hospodar Renewing Leshak: entity/TriglavianEntities
+  Hospodar Renewing Rodiva: entity/TriglavianEntities
+  Hospodar Starving Damavik: entity/TriglavianEntities
+  Hospodar Starving Drekavac: entity/TriglavianEntities
+  Hospodar Tangling Damavik: entity/TriglavianEntities
+  Hospodar Tangling Kikimora: entity/TriglavianEntities
   Hostages: commodity/Livestock
   Hostile Hulk: entity/MissionFactionIndustrials
   Hostile Orca: entity/MissionFactionTransports
@@ -51967,6 +52348,7 @@ name2group:
   Hulk ORE Development SKIN (90 Days): skins/Max90DaySKIN
   Hulk ORE Development Serenity Only SKIN: skins/PermanentSKIN
   Hulk Paydirt Prospector SKIN: skins/PermanentSKIN
+  Hulk Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Hulk Rosada Dawn SKIN: skins/PermanentSKIN
   Hulk Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Hull Tanking, Elite: specialeditionassets/SpecialEditionCommodities
@@ -52097,7 +52479,17 @@ name2group:
   Hyperion Valimor Legacy SKIN: skins/PermanentSKIN
   Hypersynaptic Fibers: material/Composite
   Hypersynaptic Fibers Reaction Formula: blueprint/CompositeReactionFormulas
+  Hypnos Compact Signal Distortion Amplifier I: module/ECMStabilizer
   Hypnos Scoped Magnetometric ECM: module/ECM
+  Hypnosian Agonizer: entity/SleeperEntities
+  Hypnosian Avenger: entity/SleeperEntities
+  Hypnosian Eristikon: entity/SleeperEntities
+  Hypnosian Preserver: entity/SleeperEntities
+  Hypnosian Psychopomp: entity/SleeperEntities
+  Hypnosian Sentinel: entity/SleeperEntities
+  Hypnosian Upholder: entity/SleeperEntities
+  Hypnosian Warden: entity/SleeperEntities
+  Hypnosian Watcher: entity/SleeperEntities
   IA5 Tactical Scrambler Pistol: infantry/InfantryWeapons
   ID Card Generator: commodity/Commodities
   IFFA Compact Damage Control: module/DamageControl
@@ -52295,8 +52687,8 @@ name2group:
   Imperial Navy 400mm Steel Plates: module/ArmorPlate
   Imperial Navy 800mm Steel Plates: module/ArmorPlate
   Imperial Navy Acolyte: drone/CombatDrone
-  Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
-  Imperial Navy Armageddon: entity/RetaliatingAmarrEntities
+  Imperial Navy Apocalypse: entity/EDENCOMEntities
+  Imperial Navy Armageddon: entity/EDENCOMEntities
   Imperial Navy Cap Recharger: module/CapacitorRecharger
   Imperial Navy Cap Recharger Blueprint: blueprint/CapacitorRechargerBlueprint
   Imperial Navy Capacitor Power Relay: module/CapacitorPowerRelay
@@ -52307,9 +52699,9 @@ name2group:
   Imperial Navy Colonel Insignia I: commodity/EmpireInsigniaDrops
   Imperial Navy Command Mindlink: implant/CyberLeadership
   Imperial Navy Crucifer: entity/MissionAmarrEmpireFrigate
-  Imperial Navy Crusader: entity/RetaliatingAmarrEntities
+  Imperial Navy Crusader: entity/EDENCOMEntities
   Imperial Navy Curator: drone/CombatDrone
-  Imperial Navy Deacon: entity/RetaliatingAmarrEntities
+  Imperial Navy Deacon: entity/EDENCOMEntities
   Imperial Navy Delta I Support Frigate: entity/MissionAmarrEmpireFrigate
   Imperial Navy Delta II Support Frigate: entity/MissionAmarrEmpireFrigate
   Imperial Navy Detective: entity/MissionAmarrEmpireFrigate
@@ -52349,8 +52741,8 @@ name2group:
   Imperial Navy General: entity/FactionDrone
   Imperial Navy General Insignia I: commodity/EmpireInsigniaDrops
   Imperial Navy General Insignia II: commodity/EmpireInsigniaDrops
-  Imperial Navy Guardian: entity/RetaliatingAmarrEntities
-  Imperial Navy Harbinger: entity/RetaliatingAmarrEntities
+  Imperial Navy Guardian: entity/EDENCOMEntities
+  Imperial Navy Harbinger: entity/EDENCOMEntities
   Imperial Navy Heat Sink: module/HeatSink
   Imperial Navy Heat Sink Blueprint: blueprint/HeatSinkBlueprint
   Imperial Navy Heavy Beam Laser: module/EnergyWeapon
@@ -52413,7 +52805,7 @@ name2group:
   Imperial Navy Officer: entity/MissionAmarrEmpireCruiser
   Imperial Navy Omen: entity/MissionAmarrEmpireCruiser
   Imperial Navy Omnidirectional Tracking Enhancer: module/DroneTrackingEnhancer
-  Imperial Navy Pilgrim: entity/RetaliatingAmarrEntities
+  Imperial Navy Pilgrim: entity/EDENCOMEntities
   Imperial Navy Praetor: drone/CombatDrone
   Imperial Navy Quad Beam Laser: module/EnergyWeapon
   Imperial Navy Radio L: charge/FrequencyCrystal
@@ -52421,9 +52813,9 @@ name2group:
   Imperial Navy Radio S: charge/FrequencyCrystal
   Imperial Navy Raid Leader: entity/MissionAmarrEmpireCruiser
   Imperial Navy Raid Leader Insignia: commodity/EmpireInsigniaDrops
-  Imperial Navy Revelation: entity/RetaliatingAmarrEntities
+  Imperial Navy Revelation: entity/EDENCOMEntities
   Imperial Navy Scout: entity/MissionAmarrEmpireFrigate
-  Imperial Navy Sentinel: entity/RetaliatingAmarrEntities
+  Imperial Navy Sentinel: entity/EDENCOMEntities
   Imperial Navy Sergeant: entity/FactionDrone
   Imperial Navy Sergeant Elite Insignia: commodity/EmpireInsigniaDrops
   Imperial Navy Sergeant Insignia I: commodity/EmpireInsigniaDrops
@@ -52472,7 +52864,7 @@ name2group:
   Imperial Navy Xray L: charge/FrequencyCrystal
   Imperial Navy Xray M: charge/FrequencyCrystal
   Imperial Navy Xray S: charge/FrequencyCrystal
-  Imperial Navy Zealot: entity/RetaliatingAmarrEntities
+  Imperial Navy Zealot: entity/EDENCOMEntities
   Imperial Origen: entity/MissionAmarrEmpireBattleship
   Imperial Paladin: entity/MissionAmarrEmpireFrigate
   Imperial R-9 Drop Uplink: infantry/InfantryEquipment
@@ -52743,7 +53135,6 @@ name2group:
   Independent Vigil: entity/MissionMinmatarRepublicFrigate
   Indirect Target Acquisition I: module/PassiveTargetingSystem
   Induced Compact Multispectral ECM: module/ECM
-  Induced Signal Distortion Amplifier I: module/ECMStabilizer
   Industrial Command Ships: skill/SpaceshipCommand
   Industrial Core I: module/SiegeModule
   Industrial Core I Blueprint: blueprint/SiegeModuleBlueprint
@@ -52966,7 +53357,6 @@ name2group:
   Initiated Compact Warp Disruptor: module/WarpScrambler
   Initiated Compact Warp Scrambler: module/WarpScrambler
   Initiated Enduring Multispectral ECM: module/ECM
-  Initiated Signal Distortion Amplifier I: module/ECMStabilizer
   Injured Slaves: commodity/Livestock
   Inner Sanctum: entity/DeadspaceOverseerSStructure
   Inner Sanctum Passcard: commodity/AccelerationGateKeys
@@ -53018,6 +53408,7 @@ name2group:
   Intact Armor Nanobot: ancientrelics/SleeperDefensiveRelics
   Intact Armor Plates: material/SalvagedMaterials
   Intact Hull Section: ancientrelics/SleeperHullRelics
+  Intact Neurosynaptic Profile: commodity/Commodities
   Intact Power Cores: ancientrelics/SleeperEngineeringRelics
   Intact Shield Emitter: material/SalvagedMaterials
   Intact Storage Depot: entity/SpawnContainer
@@ -53049,10 +53440,17 @@ name2group:
   Interdiction Sphere Launcher I Blueprint: blueprint/MissileLauncherBlueprint
   Interdictors: skill/SpaceshipCommand
   Interface Circuit: material/SalvagedMaterials
+  Interfering Phase-I Swarmer: entity/RogueDroneEntities
+  Interfering Phase-II Legionary: entity/RogueDroneEntities
+  Interfering Phase-III Legionary: entity/RogueDroneEntities
+  Interfering Phase-IV Legionary: entity/RogueDroneEntities
   Intermediate Medal: commodity/Miscellaneous
   Internal Bulkhead: commodity/MaterialsAndCompounds
   Internal Policies: specialeditionassets/SpecialEditionCommodities
+  Internal-15 'Pochven' Filament: commodity/TriglavianSpaceFilaments
+  Internal-5 'Pochven' Filament: commodity/TriglavianSpaceFilaments
   Interplanetary Consolidation: skill/PlanetManagement
+  Interstellar Navigation Logs: commodity/Commodities
   Interview Transcripts: commodity/Commodities
   Intoxicated Commander: entity/DeadspaceOverseerCruiser
   Intravenous Oscillation Fluid: commodity/Miscellaneous
@@ -53231,7 +53629,7 @@ name2group:
   Jara Kumora - Contract: infantry/Agents
   Jared Kalem: entity/MissionGenericBattleships
   Jariloz Semiotic Suppressor: entity/TemporaryCollidableStructure
-  Jariloznik Kikimora: entity/InvadingPrecursorEntities
+  Jariloznik Kikimora: entity/TriglavianEntities
   Jark Makon: commodity/Livestock
   Jarkon Puman: entity/MissionGenericCruisers
   Jarkon Puman's Tag: commodity/CriminalTags
@@ -54504,16 +54902,16 @@ name2group:
   Limbus: infantry/InfantryVehicles
   Lime Cytoserocin: celestial/HarvestableCloud
   Lime Mykoserocin: celestial/HarvestableCloud
-  Liminal Damavik: entity/InvadingPrecursorEntities
-  Liminal Drekavac: entity/InvadingPrecursorEntities
+  Liminal Damavik: entity/TriglavianEntities
+  Liminal Drekavac: entity/TriglavianEntities
   Liminal Jarognik Damavik: entity/IrregularFrigate
   Liminal Jarognik Kikimora: entity/IrregularDestroyer
   Liminal Jarognik Vedmak: entity/IrregularCruiser
-  Liminal Kikimora: entity/InvadingPrecursorEntities
-  Liminal Leshak: entity/InvadingPrecursorEntities
-  Liminal Rodiva: entity/InvadingPrecursorEntities
-  Liminal Vedmak: entity/InvadingPrecursorEntities
-  Liminal Zirnitra: entity/InvadingPrecursorEntities
+  Liminal Kikimora: entity/TriglavianEntities
+  Liminal Leshak: entity/TriglavianEntities
+  Liminal Rodiva: entity/TriglavianEntities
+  Liminal Vedmak: entity/TriglavianEntities
+  Liminal Zirnitra: entity/TriglavianEntities
   Limited 'Limos' Heavy Assault Missile Launcher I: module/MissileLauncherHeavyAssault
   Limited 'Limos' Rapid Light Missile Launcher: module/MissileLauncherRapidLight
   Limited 'Limos' Torpedo Launcher: module/MissileLauncherTorpedo
@@ -54897,6 +55295,7 @@ name2group:
   Machariel Eros Blossom SKIN: skins/PermanentSKIN
   Machariel Glacial Drift SKIN: skins/PermanentSKIN
   Machariel Heartsurge SKIN: skins/PermanentSKIN
+  Machariel Malagrin Marshlight SKIN: skins/PermanentSKIN
   Machariel Serenity YC117 SKIN: skins/PermanentSKIN
   Machariel Serenity YC117 SKIN (30 Days): skins/Max30DaySKIN
   Machariel Serenity YC117 SKIN (365 Days): skins/Max1YearSKIN
@@ -54946,6 +55345,7 @@ name2group:
   Mackinaw ORE Development SKIN (90 Days): skins/Max90DaySKIN
   Mackinaw ORE Development Serenity Only SKIN: skins/PermanentSKIN
   Mackinaw Paydirt Prospector SKIN: skins/PermanentSKIN
+  Mackinaw Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Mackinaw Rosada Dawn SKIN: skins/PermanentSKIN
   Mackinaw Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Madcat's Stash: entity/SpawnContainer
@@ -57032,6 +57432,8 @@ name2group:
   Mobile Medium Warp Disruptor II Blueprint: blueprint/MobileWarpDisruptorBlueprint
   Mobile Micro Jump Unit: deployable/MobileMicroJumpUnit
   Mobile Micro Jump Unit Blueprint: blueprint/MobileMicroJumpUnitBlueprint
+  Mobile Sanguine Harvester: deployable/MobileTractorUnit
+  Mobile Sanguine Harvester Blueprint: blueprint/MobileTractorUnitBlueprint
   Mobile Scan Inhibitor: deployable/MobileScanInhibitor
   Mobile Scan Inhibitor Blueprint: blueprint/MobileScanInhibitorBlueprint
   Mobile Shipping Unit: entity/LargeCollidableStructure
@@ -57067,6 +57469,7 @@ name2group:
   Modified Fluid Router: material/AncientSalvage
   Modified Laser Rifles: commodity/Commodities
   Modified P-Type Nanofiber: infantry/InfantryModules
+  Modular Systems Hologram: commodity/Commodities
   Modulated Compact Dual Giga Beam Laser: module/EnergyWeapon
   Modulated Compact Dual Giga Beam Laser Blueprint: blueprint/EnergyWeaponBlueprint
   Modulated Compact Dual Giga Pulse Laser: module/EnergyWeapon
@@ -57154,7 +57557,7 @@ name2group:
   Moros Spirit SKIN: skins/PermanentSKIN
   Moros Valimor Legacy SKIN: skins/PermanentSKIN
   Moroz Enthalpic Inhibitor: entity/TemporaryCollidableStructure
-  Moroznik Kikimora: entity/InvadingPrecursorEntities
+  Moroznik Kikimora: entity/TriglavianEntities
   Morpheus Enduring Magnetometric ECM: module/ECM
   Morphite: material/Mineral
   Motani Ihura: entity/StorylineMissionCruiser
@@ -57338,6 +57741,7 @@ name2group:
   Naglfar Justice SKIN (7 Days): skins/Max7DaySKIN
   Naglfar Justice SKIN (90 Days): skins/Max90DaySKIN
   Naglfar Justice Serenity Only SKIN: skins/PermanentSKIN
+  Naglfar Malagrin Marshlight SKIN: skins/PermanentSKIN
   Naglfar Snowline Bladeracer SKIN: skins/PermanentSKIN
   Naglfar Spirit SKIN: skins/PermanentSKIN
   Naglfar Tronhadar Ink SKIN: skins/PermanentSKIN
@@ -57427,7 +57831,7 @@ name2group:
   Nemesis Spirit SKIN: skins/PermanentSKIN
   Nemesis Valimor Legacy SKIN: skins/PermanentSKIN
   Nemiz Pulse Destructor: entity/TemporaryCollidableStructure
-  Nemiznik Kikimora: entity/InvadingPrecursorEntities
+  Nemiznik Kikimora: entity/TriglavianEntities
   Neo Mercurite: material/IntermediateMaterials
   Neo Mercurite Reaction Formula: blueprint/CompositeReactionFormulas
   Neocoms: planetarycommodities/SpecializedCommoditiesTier3
@@ -57531,6 +57935,7 @@ name2group:
   Nidhoggur Krusual SKIN (7 Days): skins/Max7DaySKIN
   Nidhoggur Krusual SKIN (90 Days): skins/Max90DaySKIN
   Nidhoggur Krusual Serenity Only SKIN: skins/PermanentSKIN
+  Nidhoggur Malagrin Marshlight SKIN: skins/PermanentSKIN
   Nidhoggur Snowline Bladeracer SKIN: skins/PermanentSKIN
   Nidhoggur Spirit SKIN: skins/PermanentSKIN
   Nidhoggur Tronhadar Ink SKIN: skins/PermanentSKIN
@@ -57580,6 +57985,7 @@ name2group:
   Noctis Glacial Drift SKIN: skins/PermanentSKIN
   Noctis Kybernaut Clade SKIN: skins/PermanentSKIN
   Noctis Lodestrike SKIN: skins/PermanentSKIN
+  Noctis Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Noctis Rosada Dawn SKIN: skins/PermanentSKIN
   Nocxium: material/Mineral
   Noir. Modified Entosis Link: module/EntosisLink
@@ -57807,6 +58213,10 @@ name2group:
   Obelisk Valimor Legacy SKIN: skins/PermanentSKIN
   Obsidian Datacore: commodity/Miscellaneous
   Obsidian Ochre: asteroid/DarkOchre
+  Obstructing Phase-I Swarmer: entity/RogueDroneEntities
+  Obstructing Phase-II Legionary: entity/RogueDroneEntities
+  Obstructing Phase-III Legionary: entity/RogueDroneEntities
+  Obstructing Phase-IV Legionary: entity/RogueDroneEntities
   Occator: ship/DeepSpaceTransport
   Occator Biosecurity Responders SKIN: skins/PermanentSKIN
   Occator Blueprint: blueprint/EliteIndustrialBlueprint
@@ -58098,6 +58508,7 @@ name2group:
   Orca ORE Development SKIN (90 Days): skins/Max90DaySKIN
   Orca ORE Development Serenity Only SKIN: skins/PermanentSKIN
   Orca Paydirt Prospector SKIN: skins/PermanentSKIN
+  Orca Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Orca Rosada Dawn SKIN: skins/PermanentSKIN
   Orca Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Ordered Mind Bonus: bonus/PhysicalBenefit
@@ -58192,6 +58603,13 @@ name2group:
   Overdrive Injector System II Blueprint: blueprint/HullModsBlueprint
   Overmind 'Goliath' Drone Tuner T25-10S: implant/CyberDrones
   Overmind 'Hawkmoth' Drone Tuner S10-25T: implant/CyberDrones
+  Overmind Broodlord Alpha: entity/RogueDroneEntities
+  Overmind Broodlord Omega: entity/RogueDroneEntities
+  Overmind Destructor Delta: entity/RogueDroneEntities
+  Overmind Destructor Epsilon: entity/RogueDroneEntities
+  Overmind Interruptor Iota: entity/RogueDroneEntities
+  Overmind Interruptor Lambda: entity/RogueDroneEntities
+  Overmind Progenitor Zero: entity/RogueDroneEntities
   Overseer Skomener Effotber: entity/DeadspaceOverseerBattleship
   Overseer's Stash: entity/DeadspaceOverseerSStructure
   Ovon Flac's Container: commodity/Commodities
@@ -58208,7 +58626,6 @@ name2group:
   PDW-09FX Tactical Subroutines: commodity/Miscellaneous
   PL-0 Scoped Cargo Scanner: module/CargoScanner
   PLACEDHOLDER Triglavian Defense Platform XL: entity/DestructibleSentryGun
-  PLACEHOLDER Snark: entity/LargeCollidableStructure
   PLEX: accessories/PLEX
   POS Fuel: specialeditionassets/SpecialEditionCommodities
   PPD Fullerene Fibers: material/HybridPolymers
@@ -58294,6 +58711,7 @@ name2group:
   Panther Headhunter SKIN: skins/PermanentSKIN
   Panther Justice SKIN: skins/PermanentSKIN
   Panther Luminaire Rising SKIN: skins/PermanentSKIN
+  Panther Malagrin Marshlight SKIN: skins/PermanentSKIN
   Panther Snowline Bladeracer SKIN: skins/PermanentSKIN
   Panther Tronhadar Ink SKIN: skins/PermanentSKIN
   Panther Valklear Glory SKIN: skins/PermanentSKIN
@@ -58303,6 +58721,7 @@ name2group:
   Parallel Enduring Target Painter: module/TargetPainter
   Parity Decryptor: decryptors/GenericDecryptor
   Parthus' Malfunctioning Capsule: entity/SpawnContainer
+  Partial Neurosynaptic Profile: commodity/Commodities
   Partially constructed Megathron: entity/LargeCollidableStructure
   Particle Accelerator Unit: commodity/ConstructionComponents
   Particle Accelerator Unit Blueprint: blueprint/ConstructionComponentBlueprints
@@ -58359,6 +58778,7 @@ name2group:
   Personal Information Data: commodity/Miscellaneous
   Perun Heavy Mutadaptive Remote Armor Repairer: module/MutadaptiveRemoteArmorRepairer
   Perun Heavy Mutadaptive Remote Armor Repairer Blueprint: blueprint/MutadaptiveRemoteArmorRepairerBlueprint
+  Perun Vyraj Anchorage: entity/LargeCollidableStructure
   Petty Thief: entity/PirateDrone
   Phantasm: ship/Cruiser
   Phantasm Blueprint: blueprint/CruiserBlueprint
@@ -58409,6 +58829,7 @@ name2group:
   Phoenix Lai Dai SKIN (7 Days): skins/Max7DaySKIN
   Phoenix Lai Dai SKIN (90 Days): skins/Max90DaySKIN
   Phoenix Lai Dai Serenity Only SKIN: skins/PermanentSKIN
+  Phoenix Malagrin Marshlight SKIN: skins/PermanentSKIN
   Phoenix Matigu Seabeast SKIN: skins/PermanentSKIN
   Phoenix Raata Sunset SKIN: skins/PermanentSKIN
   Phoenix Spirit SKIN: skins/PermanentSKIN
@@ -58635,7 +59056,7 @@ name2group:
   Pod_Smoke_01: effects/ParticleSystems
   Podded Pilot: entity/SpawnContainer
   Pohviz Spatial Displacer: entity/TemporaryCollidableStructure
-  Pohviznik Kikimora: entity/InvadingPrecursorEntities
+  Pohviznik Kikimora: entity/TriglavianEntities
   Poksu Mineral Group Strong Box: commodity/StrongBoxes
   Polaris Eviction Notice: specialeditionassets/SpecialEditionCommodities
   Polarized 200mm AutoCannon: module/ProjectileWeapon
@@ -58710,6 +59131,7 @@ name2group:
   Porpoise Minmatar Industrial Livery Serenity Only SKIN (365 Days): skins/Max1YearSKIN
   Porpoise Minmatar Industrial Livery Serenity Only SKIN (7 Days): skins/Max7DaySKIN
   Porpoise Minmatar Industrial Livery Serenity Only SKIN (90 Days): skins/Max90DaySKIN
+  Porpoise Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Porpoise Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Port Rolette Residents: commodity/Livestock
   Portable Power Generator: commodity/Commodities
@@ -58780,15 +59202,15 @@ name2group:
   'Premier ticket for: Clear Skies': specialeditionassets/SpecialEditionCommodities
   'Premier ticket for: Day of Darkness': specialeditionassets/SpecialEditionCommodities
   'Premier ticket for: The last G campaign': specialeditionassets/SpecialEditionCommodities
-  Presiding Federal Navy Brutix: entity/RetaliatingGallenteEntities
-  Presiding Federal Navy Deimos: entity/RetaliatingGallenteEntities
-  Presiding Federal Navy Dominix: entity/RetaliatingGallenteEntities
-  Presiding Federal Navy Keres: entity/RetaliatingGallenteEntities
-  Presiding Federal Navy Lachesis: entity/RetaliatingGallenteEntities
-  Presiding Federal Navy Megathron: entity/RetaliatingGallenteEntities
-  Presiding Federal Navy Oneiros: entity/RetaliatingGallenteEntities
-  Presiding Federal Navy Taranis: entity/RetaliatingGallenteEntities
-  Presiding Federal Navy Thalia: entity/RetaliatingGallenteEntities
+  Presiding Federal Navy Brutix: entity/EDENCOMEntities
+  Presiding Federal Navy Deimos: entity/EDENCOMEntities
+  Presiding Federal Navy Dominix: entity/EDENCOMEntities
+  Presiding Federal Navy Keres: entity/EDENCOMEntities
+  Presiding Federal Navy Lachesis: entity/EDENCOMEntities
+  Presiding Federal Navy Megathron: entity/EDENCOMEntities
+  Presiding Federal Navy Oneiros: entity/EDENCOMEntities
+  Presiding Federal Navy Taranis: entity/EDENCOMEntities
+  Presiding Federal Navy Thalia: entity/EDENCOMEntities
   Press pass to Prometheus Station opening: specialeditionassets/SpecialEditionCommodities
   Pressure Silo: entity/LargeCollidableStructure
   Pressure Steam: effects/ParticleSystems
@@ -58796,6 +59218,7 @@ name2group:
   Primae: ship/Industrial
   Primae Blueprint: blueprint/IndustrialBlueprint
   Primae Glacial Drift SKIN: skins/PermanentSKIN
+  Primae Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Primae Rosada Dawn SKIN: skins/PermanentSKIN
   Primary Console: infantry/InfantryInstallations
   Prime Arkonor: asteroid/Arkonor
@@ -58868,6 +59291,7 @@ name2group:
   Procurer Minmatar Industrial Livery Serenity Only SKIN (90 Days): skins/Max90DaySKIN
   Procurer Morphite Shine SKIN: skins/PermanentSKIN
   Procurer Paydirt Prospector SKIN: skins/PermanentSKIN
+  Procurer Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Procurer Rosada Dawn SKIN: skins/PermanentSKIN
   Procurer Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Product Park Passcard: commodity/AccelerationGateKeys
@@ -58927,6 +59351,7 @@ name2group:
   Prophecy Kador SKIN (90 Days): skins/Max90DaySKIN
   Prophecy Kador Serenity Only SKIN: skins/PermanentSKIN
   Prophecy Luminaire Zenith SKIN: skins/PermanentSKIN
+  Prophecy Malagrin Marshlight SKIN: skins/PermanentSKIN
   Prophecy Oasis of Faith SKIN: skins/PermanentSKIN
   Prophecy Purity of the Throne SKIN: skins/PermanentSKIN
   Prophecy Raata Sunset SKIN: skins/PermanentSKIN
@@ -58987,8 +59412,10 @@ name2group:
   Prospect Minmatar Industrial Livery Serenity Only SKIN (90 Days): skins/Max90DaySKIN
   Prospect Morphite Shine SKIN: skins/PermanentSKIN
   Prospect Paydirt Prospector SKIN: skins/PermanentSKIN
+  Prospect Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Prospect Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Prostitute: commodity/Livestock
+  Protective Equipment Patterns: commodity/Commodities
   Protein Delicacies: commodity/Frozen
   Proteins: planetarycommodities/BasicCommoditiesTier1
   Proteus: ship/StrategicCruiser
@@ -59102,6 +59529,8 @@ name2group:
   Prowler Valklear Glory SKIN: skins/PermanentSKIN
   Proximity Charge: entity/LargeCollidableStructure
   Proximity Explosive: infantry/InfantryEquipment
+  Proximity-15 'Extraction' Filament: commodity/TriglavianSpaceFilaments
+  Proximity-5 'Extraction' Filament: commodity/TriglavianSpaceFilaments
   Proximity-activated Autoturret: entity/DestructibleSentryGun
   Psycho Ambusher: entity/AsteroidAngelCartelCommanderFrigate
   Psycho Hijacker: entity/AsteroidAngelCartelCommanderFrigate
@@ -59149,6 +59578,10 @@ name2group:
   Punisher Tash-Murkon SKIN (90 Days): skins/Max90DaySKIN
   Punisher Tash-Murkon Serenity Only SKIN: skins/PermanentSKIN
   Punisher War Reserves Lieutenant SKIN (Volatile): skins/VolatileSKIN
+  Punishing Phase-I Swarmer: entity/RogueDroneEntities
+  Punishing Phase-II Legionary: entity/RogueDroneEntities
+  Punishing Phase-III Legionary: entity/RogueDroneEntities
+  Punishing Phase-IV Legionary: entity/RogueDroneEntities
   Punk ID Slice: commodity/Identification
   Pure Improved Blue Pill Booster: material/BiochemicalMaterial
   Pure Improved Crash Booster: material/BiochemicalMaterial
@@ -59404,6 +59837,7 @@ name2group:
   Rakogh Citadel: entity/DeadspaceOverseerSSentry
   Rakogh Officer Gate Key: commodity/AccelerationGateKeys
   Rakovene: asteroid/Rakovene
+  Rakovene Processing: skill/ResourceProcessing
   Ralek Schult: entity/MissionGenericFrigates
   Ralie Ardanne: commodity/Livestock
   Ralie Ardanne's Belongings: commodity/Miscellaneous
@@ -59573,47 +60007,47 @@ name2group:
   Raysere's Modified Thermal Coating: module/ArmorCoating
   Raysere's Modified Thermal Energized Membrane: module/EnergizedArmorMembrane
   Raytio Family Supplies: commodity/Commodities
-  Raznaborg Anchoring Damavik: entity/InvadingPrecursorEntities
-  Raznaborg Anchoring Drekavac: entity/InvadingPrecursorEntities
-  Raznaborg Anchoring Kikimora: entity/InvadingPrecursorEntities
-  Raznaborg Anchoring Leshak: entity/InvadingPrecursorEntities
-  Raznaborg Anchoring Vedmak: entity/InvadingPrecursorEntities
-  Raznaborg Blinding Damavik: entity/InvadingPrecursorEntities
-  Raznaborg Blinding Drekavac: entity/InvadingPrecursorEntities
-  Raznaborg Blinding Kikimora: entity/InvadingPrecursorEntities
-  Raznaborg Blinding Leshak: entity/InvadingPrecursorEntities
-  Raznaborg Blinding Rodiva: entity/InvadingPrecursorEntities
-  Raznaborg Blinding Vedmak: entity/InvadingPrecursorEntities
-  Raznaborg Damavik: entity/InvadingPrecursorEntities
-  Raznaborg Drekavac: entity/InvadingPrecursorEntities
-  Raznaborg Ghosting Damavik: entity/InvadingPrecursorEntities
-  Raznaborg Harrowing Damavik: entity/InvadingPrecursorEntities
-  Raznaborg Harrowing Drekavac: entity/InvadingPrecursorEntities
-  Raznaborg Harrowing Kikimora: entity/InvadingPrecursorEntities
-  Raznaborg Harrowing Rodiva: entity/InvadingPrecursorEntities
-  Raznaborg Harrowing Vedmak: entity/InvadingPrecursorEntities
-  Raznaborg Jariloznik Kikimora: entity/InvadingPrecursorEntities
-  Raznaborg Kikimora: entity/InvadingPrecursorEntities
-  Raznaborg Leshak: entity/InvadingPrecursorEntities
-  Raznaborg Moroznik Kikimora: entity/InvadingPrecursorEntities
-  Raznaborg Nemiznik Kikimora: entity/InvadingPrecursorEntities
-  Raznaborg Pohviznik Kikimora: entity/InvadingPrecursorEntities
-  Raznaborg Renewing Damavik: entity/InvadingPrecursorEntities
-  Raznaborg Renewing Drekavac: entity/InvadingPrecursorEntities
-  Raznaborg Renewing Leshak: entity/InvadingPrecursorEntities
-  Raznaborg Renewing Rodiva: entity/InvadingPrecursorEntities
-  Raznaborg Rodiva: entity/InvadingPrecursorEntities
-  Raznaborg Starving Damavik: entity/InvadingPrecursorEntities
-  Raznaborg Starving Drekavac: entity/InvadingPrecursorEntities
-  Raznaborg Starving Leshak: entity/InvadingPrecursorEntities
-  Raznaborg Starving Rodiva: entity/InvadingPrecursorEntities
-  Raznaborg Starving Vedmak: entity/InvadingPrecursorEntities
-  Raznaborg Tangling Damavik: entity/InvadingPrecursorEntities
-  Raznaborg Tangling Drekavac: entity/InvadingPrecursorEntities
-  Raznaborg Tangling Kikimora: entity/InvadingPrecursorEntities
-  Raznaborg Tangling Leshak: entity/InvadingPrecursorEntities
-  Raznaborg Tangling Vedmak: entity/InvadingPrecursorEntities
-  Raznaborg Vedmak: entity/InvadingPrecursorEntities
+  Raznaborg Anchoring Damavik: entity/TriglavianEntities
+  Raznaborg Anchoring Drekavac: entity/TriglavianEntities
+  Raznaborg Anchoring Kikimora: entity/TriglavianEntities
+  Raznaborg Anchoring Leshak: entity/TriglavianEntities
+  Raznaborg Anchoring Vedmak: entity/TriglavianEntities
+  Raznaborg Blinding Damavik: entity/TriglavianEntities
+  Raznaborg Blinding Drekavac: entity/TriglavianEntities
+  Raznaborg Blinding Kikimora: entity/TriglavianEntities
+  Raznaborg Blinding Leshak: entity/TriglavianEntities
+  Raznaborg Blinding Rodiva: entity/TriglavianEntities
+  Raznaborg Blinding Vedmak: entity/TriglavianEntities
+  Raznaborg Damavik: entity/TriglavianEntities
+  Raznaborg Drekavac: entity/TriglavianEntities
+  Raznaborg Ghosting Damavik: entity/TriglavianEntities
+  Raznaborg Harrowing Damavik: entity/TriglavianEntities
+  Raznaborg Harrowing Drekavac: entity/TriglavianEntities
+  Raznaborg Harrowing Kikimora: entity/TriglavianEntities
+  Raznaborg Harrowing Rodiva: entity/TriglavianEntities
+  Raznaborg Harrowing Vedmak: entity/TriglavianEntities
+  Raznaborg Jariloznik Kikimora: entity/TriglavianEntities
+  Raznaborg Kikimora: entity/TriglavianEntities
+  Raznaborg Leshak: entity/TriglavianEntities
+  Raznaborg Moroznik Kikimora: entity/TriglavianEntities
+  Raznaborg Nemiznik Kikimora: entity/TriglavianEntities
+  Raznaborg Pohviznik Kikimora: entity/TriglavianEntities
+  Raznaborg Renewing Damavik: entity/TriglavianEntities
+  Raznaborg Renewing Drekavac: entity/TriglavianEntities
+  Raznaborg Renewing Leshak: entity/TriglavianEntities
+  Raznaborg Renewing Rodiva: entity/TriglavianEntities
+  Raznaborg Rodiva: entity/TriglavianEntities
+  Raznaborg Starving Damavik: entity/TriglavianEntities
+  Raznaborg Starving Drekavac: entity/TriglavianEntities
+  Raznaborg Starving Leshak: entity/TriglavianEntities
+  Raznaborg Starving Rodiva: entity/TriglavianEntities
+  Raznaborg Starving Vedmak: entity/TriglavianEntities
+  Raznaborg Tangling Damavik: entity/TriglavianEntities
+  Raznaborg Tangling Drekavac: entity/TriglavianEntities
+  Raznaborg Tangling Kikimora: entity/TriglavianEntities
+  Raznaborg Tangling Leshak: entity/TriglavianEntities
+  Raznaborg Tangling Vedmak: entity/TriglavianEntities
+  Raznaborg Vedmak: entity/TriglavianEntities
   Reactions: skill/ResourceProcessing
   Reactive Armor Hardener: module/ArmorResistanceShiftHardener
   Reactive Armor Hardener Blueprint: blueprint/ArmorResistanceShiftHardenerBlueprint
@@ -59751,13 +60185,13 @@ name2group:
   Renegade Guristas Pirate: entity/DeadspaceGuristasCruiser
   Renegade Sanshas Slaver: entity/DeadspaceSanshaSNationCruiser
   Renegade Serpentis Assassin: entity/DeadspaceSerpentisCruiser
-  Renewing Damavik: entity/InvadingPrecursorEntities
+  Renewing Damavik: entity/TriglavianEntities
   Renewing Jarognik Rodiva: entity/IrregularCruiser
-  Renewing Leshak: entity/InvadingPrecursorEntities
+  Renewing Leshak: entity/TriglavianEntities
   Renewing Rodiva: entity/AbyssalSpaceshipEntities
-  Renewing Sudenic Damavik: entity/InvadingPrecursorEntities
-  Renewing Sudenic Leshak: entity/InvadingPrecursorEntities
-  Renewing Sudenic Rodiva: entity/InvadingPrecursorEntities
+  Renewing Sudenic Damavik: entity/TriglavianEntities
+  Renewing Sudenic Leshak: entity/TriglavianEntities
+  Renewing Sudenic Rodiva: entity/TriglavianEntities
   Rent-A-Dream Pleasure Gardens: entity/DeadspaceOverseerSStructure
   Renyn Meten: entity/IncursionSanshaSNationFrigate
   Repair Drone Operation: skill/Drones
@@ -59882,7 +60316,7 @@ name2group:
   Republic Fleet Carbonized Lead M: charge/ProjectileAmmo
   Republic Fleet Carbonized Lead S: charge/ProjectileAmmo
   Republic Fleet Carbonized Lead XL: charge/ProjectileAmmo
-  Republic Fleet Claw: entity/RetaliatingMinmatarEntities
+  Republic Fleet Claw: entity/EDENCOMEntities
   Republic Fleet Command Mindlink: implant/CyberLeadership
   Republic Fleet Command Ship: entity/MissionMinmatarRepublicBattleship
   Republic Fleet Commander: entity/FactionDrone
@@ -59943,9 +60377,9 @@ name2group:
   Republic Fleet High Captain Insignia I: commodity/EmpireInsigniaDrops
   Republic Fleet High Captain Insignia II: commodity/EmpireInsigniaDrops
   Republic Fleet High Commander: entity/FactionDrone
-  Republic Fleet Huginn: entity/RetaliatingMinmatarEntities
-  Republic Fleet Hurricane: entity/RetaliatingMinmatarEntities
-  Republic Fleet Hyena: entity/RetaliatingMinmatarEntities
+  Republic Fleet Huginn: entity/EDENCOMEntities
+  Republic Fleet Hurricane: entity/EDENCOMEntities
+  Republic Fleet Hyena: entity/EDENCOMEntities
   Republic Fleet Keeper: entity/DeadspaceOverseerCruiser
   Republic Fleet Kinetic Armor Hardener: module/ArmorHardener
   Republic Fleet Kinetic Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
@@ -59972,8 +60406,8 @@ name2group:
   Republic Fleet Midshipman Insignia III: commodity/EmpireInsigniaDrops
   Republic Fleet Multispectrum Coating: module/ArmorCoating
   Republic Fleet Multispectrum Coating Blueprint: blueprint/ArmorCoatingBlueprint
-  Republic Fleet Muninn: entity/RetaliatingMinmatarEntities
-  Republic Fleet Naglfar: entity/RetaliatingMinmatarEntities
+  Republic Fleet Muninn: entity/EDENCOMEntities
+  Republic Fleet Naglfar: entity/EDENCOMEntities
   Republic Fleet Naglfar - Under Construction: entity/LargeCollidableStructure
   Republic Fleet Nanofiber Structure: module/NanofiberInternalStructure
   Republic Fleet Navy Commander Insignia: commodity/EmpireInsigniaDrops
@@ -60012,8 +60446,8 @@ name2group:
   Republic Fleet Rocket Launcher: module/MissileLauncherRocket
   Republic Fleet Rocket Launcher Blueprint: blueprint/MissileLauncherBlueprint
   Republic Fleet Rupture: entity/MissionMinmatarRepublicCruiser
-  Republic Fleet Scalpel: entity/RetaliatingMinmatarEntities
-  Republic Fleet Scimitar: entity/RetaliatingMinmatarEntities
+  Republic Fleet Scalpel: entity/EDENCOMEntities
+  Republic Fleet Scimitar: entity/EDENCOMEntities
   Republic Fleet Scout: entity/MissionMinmatarRepublicFrigate
   Republic Fleet Shield Boost Amplifier: module/ShieldBoostAmplifier
   Republic Fleet Shield Boost Amplifier Blueprint: blueprint/ShieldBoostAmplifierBlueprint
@@ -60031,7 +60465,7 @@ name2group:
   Republic Fleet Stabber: entity/MissionMinmatarRepublicCruiser
   Republic Fleet Stasis Webifier: module/StasisWeb
   Republic Fleet Target Painter: module/TargetPainter
-  Republic Fleet Tempest: entity/RetaliatingMinmatarEntities
+  Republic Fleet Tempest: entity/EDENCOMEntities
   Republic Fleet Thermal Armor Hardener: module/ArmorHardener
   Republic Fleet Thermal Armor Hardener Blueprint: blueprint/ArmorHardenerBlueprint
   Republic Fleet Thermal Coating: module/ArmorCoating
@@ -60045,7 +60479,7 @@ name2group:
   Republic Fleet Torpedo Launcher: module/MissileLauncherTorpedo
   Republic Fleet Tracking Enhancer: module/TrackingEnhancer
   Republic Fleet Tracking Enhancer Blueprint: blueprint/TrackingEnhancerBlueprint
-  Republic Fleet Typhoon: entity/RetaliatingMinmatarEntities
+  Republic Fleet Typhoon: entity/EDENCOMEntities
   Republic Fleet Valkyrie: drone/CombatDrone
   Republic Fleet Vigil: entity/MissionMinmatarRepublicFrigate
   Republic Fleet Warp Disruptor: module/WarpScrambler
@@ -60223,6 +60657,7 @@ name2group:
   Retriever Minmatar Industrial Livery Serenity Only SKIN (90 Days): skins/Max90DaySKIN
   Retriever Morphite Shine SKIN: skins/PermanentSKIN
   Retriever Paydirt Prospector SKIN: skins/PermanentSKIN
+  Retriever Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Retriever Rosada Dawn SKIN: skins/PermanentSKIN
   Retriever Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Revelation: ship/Dreadnought
@@ -60459,6 +60894,7 @@ name2group:
   Rorqual ORE Development SKIN (90 Days): skins/Max90DaySKIN
   Rorqual ORE Development Serenity Only SKIN: skins/PermanentSKIN
   Rorqual Paydirt Prospector SKIN: skins/PermanentSKIN
+  Rorqual Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Rorqual Rosada Dawn SKIN: skins/PermanentSKIN
   Rorqual Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Rorqual Sovereign Claim SKIN: skins/PermanentSKIN
@@ -61027,47 +61463,47 @@ name2group:
   Scourge XL Cruise Missile Blueprint: blueprint/MissileBlueprint
   Scourge XL Torpedo: charge/XLTorpedo
   Scourge XL Torpedo Blueprint: blueprint/MissileBlueprint
-  Scout  Imperial Navy Pilgrim: entity/RetaliatingAmarrEntities
-  Scout  State Navy Cerberus: entity/RetaliatingCaldariEntities
-  Scout  State Navy Drake: entity/RetaliatingCaldariEntities
-  Scout  State Navy Raven: entity/RetaliatingCaldariEntities
-  'Scout  State Navy Rook ': entity/RetaliatingCaldariEntities
-  Scout  State Navy Scorpion: entity/RetaliatingCaldariEntities
+  Scout  Imperial Navy Pilgrim: entity/EDENCOMEntities
+  Scout  State Navy Cerberus: entity/EDENCOMEntities
+  Scout  State Navy Drake: entity/EDENCOMEntities
+  Scout  State Navy Raven: entity/EDENCOMEntities
+  'Scout  State Navy Rook ': entity/EDENCOMEntities
+  Scout  State Navy Scorpion: entity/EDENCOMEntities
   Scout A-I: infantry/InfantryDropsuits
   Scout A/1-Series: infantry/InfantryDropsuits
   Scout B-Series: infantry/InfantryDropsuits
   Scout C-I: infantry/InfantryDropsuits
   Scout C/1-Series: infantry/InfantryDropsuits
-  Scout Federal Navy Brutix: entity/RetaliatingGallenteEntities
-  Scout Federal Navy Deimos: entity/RetaliatingGallenteEntities
-  Scout Federal Navy Dominix: entity/RetaliatingGallenteEntities
-  Scout Federal Navy Keres: entity/RetaliatingGallenteEntities
-  Scout Federal Navy Lachesis: entity/RetaliatingGallenteEntities
-  Scout Federal Navy Megathron: entity/RetaliatingGallenteEntities
-  Scout Federal Navy Oneiros: entity/RetaliatingGallenteEntities
-  Scout Federal Navy Taranis: entity/RetaliatingGallenteEntities
-  Scout Federal Navy Thalia: entity/RetaliatingGallenteEntities
+  Scout Federal Navy Brutix: entity/EDENCOMEntities
+  Scout Federal Navy Deimos: entity/EDENCOMEntities
+  Scout Federal Navy Dominix: entity/EDENCOMEntities
+  Scout Federal Navy Keres: entity/EDENCOMEntities
+  Scout Federal Navy Lachesis: entity/EDENCOMEntities
+  Scout Federal Navy Megathron: entity/EDENCOMEntities
+  Scout Federal Navy Oneiros: entity/EDENCOMEntities
+  Scout Federal Navy Taranis: entity/EDENCOMEntities
+  Scout Federal Navy Thalia: entity/EDENCOMEntities
   Scout G-I: infantry/InfantryDropsuits
   Scout G/1-Series: infantry/InfantryDropsuits
-  Scout Imperial Navy Apocalypse: entity/RetaliatingAmarrEntities
-  Scout Imperial Navy Armageddon: entity/RetaliatingAmarrEntities
-  Scout Imperial Navy Crusader: entity/RetaliatingAmarrEntities
-  Scout Imperial Navy Deacon: entity/RetaliatingAmarrEntities
-  Scout Imperial Navy Guardian: entity/RetaliatingAmarrEntities
-  Scout Imperial Navy Harbinger: entity/RetaliatingAmarrEntities
-  'Scout Imperial Navy Sentinel ': entity/RetaliatingAmarrEntities
-  'Scout Imperial Navy Zealot ': entity/RetaliatingAmarrEntities
+  Scout Imperial Navy Apocalypse: entity/EDENCOMEntities
+  Scout Imperial Navy Armageddon: entity/EDENCOMEntities
+  Scout Imperial Navy Crusader: entity/EDENCOMEntities
+  Scout Imperial Navy Deacon: entity/EDENCOMEntities
+  Scout Imperial Navy Guardian: entity/EDENCOMEntities
+  Scout Imperial Navy Harbinger: entity/EDENCOMEntities
+  'Scout Imperial Navy Sentinel ': entity/EDENCOMEntities
+  'Scout Imperial Navy Zealot ': entity/EDENCOMEntities
   Scout M-I: infantry/InfantryDropsuits
   Scout M/1-Series: infantry/InfantryDropsuits
-  Scout Republic Fleet Claw: entity/RetaliatingMinmatarEntities
-  Scout Republic Fleet Huginn: entity/RetaliatingMinmatarEntities
-  Scout Republic Fleet Hurricane: entity/RetaliatingMinmatarEntities
-  Scout Republic Fleet Hyena: entity/RetaliatingMinmatarEntities
-  Scout Republic Fleet Muninn: entity/RetaliatingMinmatarEntities
-  Scout Republic Fleet Scalpel: entity/RetaliatingMinmatarEntities
-  Scout Republic Fleet Scimitar: entity/RetaliatingMinmatarEntities
-  Scout Republic Fleet Tempest: entity/RetaliatingMinmatarEntities
-  Scout Republic Fleet Typhoon: entity/RetaliatingMinmatarEntities
+  Scout Republic Fleet Claw: entity/EDENCOMEntities
+  Scout Republic Fleet Huginn: entity/EDENCOMEntities
+  Scout Republic Fleet Hurricane: entity/EDENCOMEntities
+  Scout Republic Fleet Hyena: entity/EDENCOMEntities
+  Scout Republic Fleet Muninn: entity/EDENCOMEntities
+  Scout Republic Fleet Scalpel: entity/EDENCOMEntities
+  Scout Republic Fleet Scimitar: entity/EDENCOMEntities
+  Scout Republic Fleet Tempest: entity/EDENCOMEntities
+  Scout Republic Fleet Typhoon: entity/EDENCOMEntities
   Scout Scoped Dual 1000mm Railgun: module/HybridWeapon
   Scout Scoped Dual 1000mm Railgun Blueprint: blueprint/HybridWeaponBlueprint
   Scout Scoped Hexa 2500mm Repeating Cannon: module/ProjectileWeapon
@@ -61076,10 +61512,10 @@ name2group:
   Scout Scoped Quad 3500mm Siege Artillery Blueprint: blueprint/ProjectileWeaponBlueprint
   Scout Scoped Quad 800mm Repeating Cannon: module/ProjectileWeapon
   Scout Scoped Quad 800mm Repeating Cannon Blueprint: blueprint/ProjectileWeaponBlueprint
-  Scout State Navy Basilisk: entity/RetaliatingCaldariEntities
-  Scout State Navy Kirin: entity/RetaliatingCaldariEntities
-  Scout State Navy Kitsune: entity/RetaliatingCaldariEntities
-  Scout State Navy Raptor: entity/RetaliatingCaldariEntities
+  Scout State Navy Basilisk: entity/EDENCOMEntities
+  Scout State Navy Kirin: entity/EDENCOMEntities
+  Scout State Navy Kitsune: entity/EDENCOMEntities
+  Scout State Navy Raptor: entity/EDENCOMEntities
   Scout Type-II: infantry/InfantryDropsuits
   Scout ak.0: infantry/InfantryDropsuits
   Scout ck.0: infantry/InfantryDropsuits
@@ -61903,6 +62339,17 @@ name2group:
   Shimon Jaen: entity/MissionGenericCruisers
   Shimon Jaen's Insignia: commodity/EmpireInsigniaDrops
   Shining Drekavac: entity/AbyssalSpaceshipEntities
+  Shining Flame Admiral: entity/IrregularBattleship
+  Shining Flame Augoror: entity/IrregularCruiser
+  Shining Flame Commander: entity/IrregularBattleship
+  Shining Flame Commodore: entity/IrregularBattleship
+  Shining Flame Crucifier: entity/IrregularFrigate
+  Shining Flame Crusader: entity/IrregularFrigate
+  Shining Flame Curse: entity/IrregularCruiser
+  Shining Flame Deacon: entity/IrregularFrigate
+  Shining Flame Omen: entity/IrregularCruiser
+  Shining Flame Oracle: entity/IrregularBattlecruiser
+  Shining Flame keypass: commodity/AccelerationGateKeys
   Shining Loparite: asteroid/ExceptionalMoonAsteroids
   Shining Monazite: asteroid/ExceptionalMoonAsteroids
   Shining Vila Damavik: entity/AbyssalSpaceshipEntities
@@ -62107,6 +62554,7 @@ name2group:
   Skiff ORE Development SKIN (90 Days): skins/Max90DaySKIN
   Skiff ORE Development Serenity Only SKIN: skins/PermanentSKIN
   Skiff Paydirt Prospector SKIN: skins/PermanentSKIN
+  Skiff Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Skiff Rosada Dawn SKIN: skins/PermanentSKIN
   Skiff Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Skill Extractor: accessories/Services
@@ -63006,7 +63454,6 @@ name2group:
   Standard XL Blueprint: blueprint/FrequencyCrystalBlueprint
   Standard drone skill accelerator: implant/Booster
   Standard gunnery skill accelerator: implant/Booster
-  Standard missile skill accelerator: implant/Booster
   Standard ore processing skill accelerator: implant/Booster
   Standup Ametat I: fighter/HeavyFighter
   Standup Ametat I Blueprint: blueprint/HeavyFighterBlueprint
@@ -63623,14 +64070,14 @@ name2group:
   Stargazer Lantern Firework: charge/FestivalCharges
   Starkmanir Slave: commodity/Livestock
   Starsi: specialeditionassets/SpecialEditionCommodities
-  Starving Damavik: entity/InvadingPrecursorEntities
-  Starving Drekavac: entity/InvadingPrecursorEntities
+  Starving Damavik: entity/TriglavianEntities
+  Starving Drekavac: entity/TriglavianEntities
   Starving Jarognik Damavik: entity/IrregularFrigate
   Starving Jarognik Kikimora: entity/IrregularDestroyer
   Starving Jarognik Vedmak: entity/IrregularCruiser
   Starving Leshak: entity/AbyssalSpaceshipEntities
-  Starving Sudenic Damavik: entity/InvadingPrecursorEntities
-  Starving Sudenic Drekavac: entity/InvadingPrecursorEntities
+  Starving Sudenic Damavik: entity/TriglavianEntities
+  Starving Sudenic Drekavac: entity/TriglavianEntities
   Starving Vedmak: entity/AbyssalSpaceshipEntities
   Stasis Field Effect Subpylon: entity/TemporaryCollidableStructure
   Stasis Webification Battery: starbase/StasisWebificationBattery
@@ -63729,16 +64176,16 @@ name2group:
   State Nagasa: entity/MissionCaldariStateFrigate
   State Nanite Injector: infantry/InfantryEquipment
   State Nanohive: infantry/InfantryEquipment
-  State Navy Basilisk: entity/RetaliatingCaldariEntities
-  State Navy Cerberus: entity/RetaliatingCaldariEntities
-  State Navy Drake: entity/RetaliatingCaldariEntities
-  State Navy Kirin: entity/RetaliatingCaldariEntities
-  State Navy Kitsune: entity/RetaliatingCaldariEntities
-  State Navy Phoenix: entity/RetaliatingCaldariEntities
-  State Navy Raptor: entity/RetaliatingCaldariEntities
-  State Navy Raven: entity/RetaliatingCaldariEntities
-  State Navy Rook: entity/RetaliatingCaldariEntities
-  State Navy Scorpion: entity/RetaliatingCaldariEntities
+  State Navy Basilisk: entity/EDENCOMEntities
+  State Navy Cerberus: entity/EDENCOMEntities
+  State Navy Drake: entity/EDENCOMEntities
+  State Navy Kirin: entity/EDENCOMEntities
+  State Navy Kitsune: entity/EDENCOMEntities
+  State Navy Phoenix: entity/EDENCOMEntities
+  State Navy Raptor: entity/EDENCOMEntities
+  State Navy Raven: entity/EDENCOMEntities
+  State Navy Rook: entity/EDENCOMEntities
+  State Navy Scorpion: entity/EDENCOMEntities
   State Oni: entity/MissionCaldariStateBattlecruiser
   State Oshiro: entity/MissionCaldariStateBattleship
   State Protectorate Assault C-I: infantry/InfantryDropsuits
@@ -64053,12 +64500,12 @@ name2group:
   Succubus Blueprint: blueprint/FrigateBlueprint
   Succubus Glacial Drift SKIN: skins/PermanentSKIN
   Succubus True Deliverance SKIN: skins/PermanentSKIN
-  Sudenic Damavik: entity/InvadingPrecursorEntities
-  Sudenic Drekavac: entity/InvadingPrecursorEntities
-  Sudenic Kikimora: entity/InvadingPrecursorEntities
-  Sudenic Leshak: entity/InvadingPrecursorEntities
-  Sudenic Rodiva: entity/InvadingPrecursorEntities
-  Sudenic Vedmak: entity/InvadingPrecursorEntities
+  Sudenic Damavik: entity/TriglavianEntities
+  Sudenic Drekavac: entity/TriglavianEntities
+  Sudenic Kikimora: entity/TriglavianEntities
+  Sudenic Leshak: entity/TriglavianEntities
+  Sudenic Rodiva: entity/TriglavianEntities
+  Sudenic Vedmak: entity/TriglavianEntities
   Suho Tatanal's Investigation Dossier: commodity/Commodities
   Sukuuvestaa Transport Ship: entity/MissionGenericCruisers
   Sulfuric Acid: material/IntermediateMaterials
@@ -64158,6 +64605,7 @@ name2group:
   Suspicious Ship Wreck: entity/SpawnContainer
   Sustained Shield Emitter: commodity/ConstructionComponents
   Sustained Shield Emitter Blueprint: blueprint/ConstructionComponentBlueprints
+  Svarog Vyraj Anchorage: entity/LargeCollidableStructure
   Svipul: ship/TacticalDestroyer
   Svipul Biosecurity Responders SKIN: skins/PermanentSKIN
   Svipul Blueprint: blueprint/TacticalDestroyerBlueprint
@@ -64370,6 +64818,7 @@ name2group:
   Takmahl Technology: skill/Science
   Takmahl Tri-polished Lens: commodity/MaterialsAndCompounds
   Talassonite: asteroid/Talassonite
+  Talassonite Processing: skill/ResourceProcessing
   Talocan Automation Accounts: commodity/DecryptorsTalocan
   Talocan Ignition Device: commodity/MaterialsAndCompounds
   Talocan Info Shards: commodity/DecryptorsTalocan
@@ -64440,14 +64889,14 @@ name2group:
   Tama Cerebellum: entity/IncursionSanshaSNationFrigate
   Tampered Dolls: commodity/Commodities
   Tangled Power Conduit: material/SalvagedMaterials
-  Tangling Damavik: entity/InvadingPrecursorEntities
+  Tangling Damavik: entity/TriglavianEntities
   Tangling Jarognik Damavik: entity/IrregularFrigate
   Tangling Jarognik Kikimora: entity/IrregularDestroyer
   Tangling Jarognik Vedmak: entity/IrregularCruiser
   Tangling Kikimora: entity/AbyssalSpaceshipEntities
   Tangling Leshak: entity/AbyssalSpaceshipEntities
-  Tangling Sudenic Damavik: entity/InvadingPrecursorEntities
-  Tangling Sudenic Kikimora: entity/InvadingPrecursorEntities
+  Tangling Sudenic Damavik: entity/TriglavianEntities
+  Tangling Sudenic Kikimora: entity/TriglavianEntities
   Tangling Vila Damavik: entity/AbyssalSpaceshipEntities
   Tantima Areki: commodity/Livestock
   Tantima Areki's Raven: entity/MissionCaldariStateBattleship
@@ -64656,7 +65105,7 @@ name2group:
   Test Suit: infantry/InfantryDropsuits
   Test crate 1: commodity/Miscellaneous
   Test crate 2: commodity/Miscellaneous
-  TestDreadFriendly: entity/InvadingPrecursorEntities
+  TestDreadFriendly: entity/TriglavianEntities
   TestNPC001: entity/DeadspaceOverseerCruiser
   TestProphetBlood: entity/DeadspaceOverseerBattleship
   TestScanRadar: entity/DeadspaceSanshaSNationFrigate
@@ -64695,6 +65144,7 @@ name2group:
   Thanatos Inner Zone Vanguard SKIN: skins/PermanentSKIN
   Thanatos Intaki Syndicate SKIN: skins/PermanentSKIN
   Thanatos Kopis Edge SKIN: skins/PermanentSKIN
+  Thanatos Malagrin Marshlight SKIN: skins/PermanentSKIN
   Thanatos Quafe SKIN: skins/PermanentSKIN
   Thanatos Quafe SKIN (30 Days): skins/Max30DaySKIN
   Thanatos Quafe SKIN (365 Days): skins/Max1YearSKIN
@@ -66042,6 +66492,7 @@ name2group:
   Veles Light Entropic Disintegrator Blueprint: blueprint/PrecursorWeaponBlueprint
   Veles Supratidal Entropic Disintegrator: module/PrecursorWeapon
   Veles Supratidal Entropic Disintegrator Blueprint: blueprint/PrecursorWeaponBlueprint
+  Veles Vyraj Anchorage: entity/LargeCollidableStructure
   Velzion Drekin: entity/MissionGenericFrigates
   Venal Regional Comms Tower: entity/SpawnContainer
   Vendetta: ship/Supercarrier
@@ -66099,6 +66550,7 @@ name2group:
   Venture Minmatar Industrial Livery Serenity Only SKIN (90 Days): skins/Max90DaySKIN
   Venture Morphite Shine SKIN: skins/PermanentSKIN
   Venture Paydirt Prospector SKIN: skins/PermanentSKIN
+  Venture Rockbreaker Pioneers SKIN: skins/PermanentSKIN
   Venture Sansha Industrial Livery SKIN: skins/PermanentSKIN
   Vepas Minimala: entity/AsteroidGuristasOfficer
   Vepas Minimala's Tag: commodity/CriminalTags
@@ -66135,7 +66587,12 @@ name2group:
   Vespa I Blueprint: blueprint/CombatDroneBlueprint
   Vespa II: drone/CombatDrone
   Vespa II Blueprint: blueprint/CombatDroneBlueprint
+  Vessel Core Hologram: commodity/Commodities
   Vessel Rejuvenation Battery: entity/SpawnContainer
+  Vexing Phase-I Swarmer: entity/RogueDroneEntities
+  Vexing Phase-II Legionary: entity/RogueDroneEntities
+  Vexing Phase-III Legionary: entity/RogueDroneEntities
+  Vexing Phase-IV Legionary: entity/RogueDroneEntities
   Vexor: ship/Cruiser
   Vexor Aurora Universalis SKIN: skins/PermanentSKIN
   Vexor Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -67408,30 +67865,30 @@ name2group:
   Zor's Custom Navigation Hyper-Link: implant/CyberNavigation
   Zor's Custom Navigation Link: implant/CyberNavigation
   Zor's DNA: commodity/Miscellaneous
-  Zorya's Damavik: entity/InvadingPrecursorEntities
-  Zorya's Drekavac: entity/InvadingPrecursorEntities
+  Zorya's Damavik: entity/TriglavianEntities
+  Zorya's Drekavac: entity/TriglavianEntities
   Zorya's Entropic Radiation Sink: module/EntropicRadiationSink
   Zorya's Entropic Radiation Sink Blueprint: blueprint/EntropicRadiationSinkBlueprint
   Zorya's Heavy Entropic Disintegrator: module/PrecursorWeapon
   Zorya's Heavy Entropic Disintegrator Blueprint: blueprint/PrecursorWeaponBlueprint
-  Zorya's Hospodar TTC-243: entity/InvadingPrecursorEntities
-  Zorya's Hospodar TTC-3: entity/InvadingPrecursorEntities
-  Zorya's Hospodar TTC-729: entity/InvadingPrecursorEntities
-  Zorya's Jariloznik Kikimora: entity/InvadingPrecursorEntities
-  Zorya's Kikimora: entity/InvadingPrecursorEntities
-  Zorya's Leshak: entity/InvadingPrecursorEntities
+  Zorya's Hospodar TTC-243: entity/TriglavianEntities
+  Zorya's Hospodar TTC-3: entity/TriglavianEntities
+  Zorya's Hospodar TTC-729: entity/TriglavianEntities
+  Zorya's Jariloznik Kikimora: entity/TriglavianEntities
+  Zorya's Kikimora: entity/TriglavianEntities
+  Zorya's Leshak: entity/TriglavianEntities
   Zorya's Light Entropic Disintegrator: module/PrecursorWeapon
   Zorya's Light Entropic Disintegrator Blueprint: blueprint/PrecursorWeaponBlueprint
-  Zorya's Moroznik Kikimora: entity/InvadingPrecursorEntities
-  Zorya's Nemiznik Kikimora: entity/InvadingPrecursorEntities
-  Zorya's Pohviznik Kikimora: entity/InvadingPrecursorEntities
-  Zorya's Rodiva: entity/InvadingPrecursorEntities
+  Zorya's Moroznik Kikimora: entity/TriglavianEntities
+  Zorya's Nemiznik Kikimora: entity/TriglavianEntities
+  Zorya's Pohviznik Kikimora: entity/TriglavianEntities
+  Zorya's Rodiva: entity/TriglavianEntities
   Zorya's Supratidal Entropic Disintegrator: module/PrecursorWeapon
   Zorya's Supratidal Entropic Disintegrator Blueprint: blueprint/PrecursorWeaponBlueprint
-  Zorya's Vedmak: entity/InvadingPrecursorEntities
-  Zorya's Voivode TTC-243: entity/InvadingPrecursorEntities
-  Zorya's Voivode TTC-3: entity/InvadingPrecursorEntities
-  Zorya's Voivode TTC-729: entity/InvadingPrecursorEntities
+  Zorya's Vedmak: entity/TriglavianEntities
+  Zorya's Voivode TTC-243: entity/TriglavianEntities
+  Zorya's Voivode TTC-3: entity/TriglavianEntities
+  Zorya's Voivode TTC-729: entity/TriglavianEntities
   Zuthrine: asteroid/Mercoxit
   Zvarin Karsha: commodity/Livestock
   Zvarin Karsha_: entity/StorylineMissionCruiser
@@ -67457,6 +67914,8 @@ name2group:
   '[TEST] Shield Gen 1': infantry/InfantryEquipment
   '[TEST] Shield Gen 2': infantry/InfantryEquipment
   '[TEST] Swarm Launcher': infantry/InfantryWeapons
+  '[no messageID: 569526]': implant/Booster
+  '[no messageID: 569532]': implant/Booster
   asurface1_f_01:amarrbase:amarr: system/System
   asurface_c_01:amarrbase:amarr: system/System
   chantal testing thingy: entity/DeadspaceOverseerFrigate

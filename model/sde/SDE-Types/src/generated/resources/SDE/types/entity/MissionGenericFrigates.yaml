@@ -1640,8 +1640,8 @@ types:
     npcremoteshieldboostmaxtargets: 1
     npcremoteshieldboostthreshold: 0.75
     npctrackingdisruptoractivationchance: 0.30000001192092896
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 45000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 45000.0
     optimalsigradius: 40
     packagedVolume: 28600.0
     portionSize: 1

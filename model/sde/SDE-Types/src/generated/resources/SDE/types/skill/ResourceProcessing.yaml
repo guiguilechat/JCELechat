@@ -54,6 +54,25 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 3.0
     volume: 0.009999999776482582
+  Bezdnacine Processing:
+    cannotbetrainedontrial: 1
+    id: 56631
+    marketGroup: 1323
+    name: Bezdnacine Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 400000.0
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    refiningyieldmutator: 2
+    requiredskill1: 3389
+    requiredskill1level: 5
+    requiredskill2: 3409
+    requiredskill2level: 4
+    secondaryattribute: 165
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582
   Bistot Processing:
     cannotbetrainedontrial: 1
     id: 12181
@@ -457,6 +476,25 @@ types:
     secondaryattribute: 165
     skilltimeconstant: 1.0
     volume: 0.009999999776482582
+  Rakovene Processing:
+    cannotbetrainedontrial: 1
+    id: 56633
+    marketGroup: 1323
+    name: Rakovene Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 400000.0
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    refiningyieldmutator: 2
+    requiredskill1: 3389
+    requiredskill1level: 5
+    requiredskill2: 3409
+    requiredskill2level: 4
+    secondaryattribute: 165
+    skilltimeconstant: 4.0
+    volume: 0.009999999776482582
   Rare Moon Ore Processing:
     cannotbetrainedontrial: 1
     id: 46155
@@ -616,6 +654,25 @@ types:
     requiredskill2level: 3
     secondaryattribute: 165
     skilltimeconstant: 3.0
+    volume: 0.009999999776482582
+  Talassonite Processing:
+    cannotbetrainedontrial: 1
+    id: 56632
+    marketGroup: 1323
+    name: Talassonite Processing
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 400000.0
+    primaryattribute: 166
+    published: true
+    radius: 1.0
+    refiningyieldmutator: 2
+    requiredskill1: 3389
+    requiredskill1level: 5
+    requiredskill2: 3409
+    requiredskill2level: 4
+    secondaryattribute: 165
+    skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Ubiquitous Moon Ore Processing:
     cannotbetrainedontrial: 1

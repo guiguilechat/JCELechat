@@ -1062,8 +1062,8 @@ types:
     modifytargetspeedrange: 20000
     name: Centus Colony General
     npctrackingdisruptoractivationchance: 0.01875000074505806
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 400
     packagedVolume: 100100.0
     portionSize: 1
@@ -4730,8 +4730,8 @@ types:
     modifytargetspeedrange: 20000
     name: Sansha Shipyard Foreman
     npctrackingdisruptoractivationchance: 0.012500000186264515
-    npctrackingdisruptorduration: 30000
-    npctrackingdisruptorrange: 25000
+    npctrackingdisruptorduration: 30000.0
+    npctrackingdisruptorrange: 25000.0
     optimalsigradius: 400
     packagedVolume: 100100.0
     portionSize: 1

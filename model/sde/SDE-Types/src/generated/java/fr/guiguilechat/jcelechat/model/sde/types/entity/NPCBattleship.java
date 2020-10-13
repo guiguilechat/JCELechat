@@ -272,8 +272,8 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorsensordampenerduration;
+    @DefaultRealValue(0.0)
+    public double behaviorsensordampenerduration;
     /**
      * 
      */
@@ -300,22 +300,22 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviortargetpainterduration;
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterduration;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviortargetpainterfalloff;
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterfalloff;
     /**
      * 
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviortargetpainterrange;
+    @DefaultRealValue(0.0)
+    public double behaviortargetpainterrange;
     /**
      * 
      */
@@ -356,8 +356,8 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierduration;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierduration;
     /**
      * 
      */
@@ -370,8 +370,8 @@ public class NPCBattleship
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int behaviorwebifierrange;
+    @DefaultRealValue(0.0)
+    public double behaviorwebifierrange;
     /**
      * Capacitor capacity
      */

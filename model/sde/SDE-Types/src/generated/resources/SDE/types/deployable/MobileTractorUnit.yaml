@@ -57,6 +57,36 @@ types:
     structureuniformity: 1.0
     techlevel: 1
     volume: 125.0
+  Mobile Sanguine Harvester:
+    armorhp: 20000.0
+    armoruniformity: 0.75
+    capacity: 27000.0
+    duration: 30000.0
+    hp: 60000.0
+    id: 56701
+    marketGroup: 2760
+    maxlockedtargets: 1
+    maxrange: 125000.0
+    maxtargetrange: 125000.0
+    maxtractorvelocity: 1000
+    metalevelold: 1
+    name: Mobile Sanguine Harvester
+    onlytractorcorpses: 1
+    packagedVolume: 100.0
+    portionSize: 1
+    published: true
+    radius: 100.0
+    scangravimetricstrength: 50.0
+    scanladarstrength: 50.0
+    scanmagnetometricstrength: 50.0
+    scanradarstrength: 50.0
+    shieldcapacity: 20000.0
+    shieldrechargerate: 3200000.0
+    shielduniformity: 0.75
+    signatureradius: 500.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 100.0
   Mobile Tractor Unit:
     armorhp: 10000.0
     armoruniformity: 0.75

@@ -6,7 +6,7 @@ types:
     armorkineticdamageresonance: 1.0
     armorthermaldamageresonance: 1.0
     behaviorsensordampenerdischarge: 7.0
-    behaviorsensordampenerduration: 5000
+    behaviorsensordampenerduration: 5000.0
     behaviorsensordampenerrange: 30000.0
     behaviorsmartbombentitydamagemultiplier: 1.0
     capacitorcapacity: 1000.0
@@ -337,8 +337,8 @@ types:
     armorthermaldamageresonance: 1.0
     behaviorsmartbombentitydamagemultiplier: 1.0
     behaviorwebifierdischarge: 7.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 15000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 15000.0
     capacitorcapacity: 1000.0
     capacity: 1000.0
     disallowassistance: 1

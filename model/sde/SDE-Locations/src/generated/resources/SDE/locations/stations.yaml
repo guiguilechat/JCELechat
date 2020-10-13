@@ -8642,20 +8642,19 @@ locations:
     id: 60003535
     name: Angymonne V - Moon 6 - Caldari Business Tribunal
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Stock Exchange
+    - Storage
     solarSystem: Angymonne
   Anher I - Tribal Liberation Force Logistic Support:
     id: 60015141
@@ -11690,17 +11689,16 @@ locations:
     id: 60002884
     name: Arvasaras II - Moon 1 - Sukuuvestaa Corporation Production Plant
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -11709,43 +11707,37 @@ locations:
     id: 60004282
     name: Arvasaras II - Moon 3 - Wiyrkomi Peace Corps Testing Facilities
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
-    - Laboratory
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
+    - Storage
     solarSystem: Arvasaras
   Arvasaras IV - Moon 15 - CONCORD Academy:
     id: 60012337
     name: Arvasaras IV - Moon 15 - CONCORD Academy
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
     - Factory
     - Fitting
-    - Insurance
-    - Interbus
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
-    - Stock Exchange
+    - Storage
     solarSystem: Arvasaras
   Arwa IX - Moon 2 - Pend Insurance Depository:
     id: 60011434
@@ -40176,39 +40168,37 @@ locations:
     id: 60015147
     name: Ichoriya V - Caldari Navy Logistic Support
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
-    - Surgery
+    - Storage
     solarSystem: Ichoriya
   Ichoriya VI - Kaalakiota Corporation Factory:
     id: 60015120
     name: Ichoriya VI - Kaalakiota Corporation Factory
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Ichoriya
   Iderion IX - Moon 18 - Core Complexion Inc. Factory:
     id: 60005629
@@ -40474,41 +40464,37 @@ locations:
     id: 60011974
     name: Ignebaener IV - Federal Intelligence Office Logistic Support
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
-    - Surgery
+    - Storage
     solarSystem: Ignebaener
   Ignebaener VI - Moon 1 - Federal Intelligence Office Logistic Support:
     id: 60011968
     name: Ignebaener VI - Moon 1 - Federal Intelligence Office Logistic Support
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
-    - Surgery
+    - Storage
     solarSystem: Ignebaener
   Ignoitton V - Moon 11 - Federal Freight Storage:
     id: 60009388
@@ -49434,53 +49420,52 @@ locations:
     id: 60006016
     name: Kaunokka II - Freedom Extension Warehouse
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Kaunokka
   Kaunokka II - Moon 1 - Caldari Navy Testing Facilities:
     id: 60003850
     name: Kaunokka II - Moon 1 - Caldari Navy Testing Facilities
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
-    - Laboratory
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
+    - Storage
     solarSystem: Kaunokka
   Kaunokka II - Moon 1 - Hyasyoda Corporation Mineral Reserve:
     id: 60000559
     name: Kaunokka II - Moon 1 - Hyasyoda Corporation Mineral Reserve
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -49489,51 +49474,52 @@ locations:
     id: 60000634
     name: Kaunokka III - Moon 1 - Deep Core Mining Inc. Mining Outpost
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Kaunokka
   Kaunokka IV - Hyasyoda Corporation Mining Outpost:
     id: 60000556
     name: Kaunokka IV - Hyasyoda Corporation Mining Outpost
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Kaunokka
   Kaunokka V - Freedom Extension Storage:
     id: 60006004
     name: Kaunokka V - Freedom Extension Storage
     services:
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -49542,16 +49528,16 @@ locations:
     id: 60000628
     name: Kaunokka VI - Moon 1 - Deep Core Mining Inc. Mineral Reserve
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -49560,34 +49546,34 @@ locations:
     id: 60003847
     name: Kaunokka VI - Moon 2 - Caldari Navy Assembly Plant
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
+    - Storage
     solarSystem: Kaunokka
   Kaunokka VI - Moon 2 - Freedom Extension Storage:
     id: 60006013
     name: Kaunokka VI - Moon 2 - Freedom Extension Storage
     services:
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -50803,65 +50789,70 @@ locations:
     id: 60000712
     name: Kino IV - Moon 12 - Poksu Mineral Group Mining Outpost
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Kino
   Kino V - Moon 3 - Poksu Mineral Group Mining Outpost:
     id: 60000706
     name: Kino V - Moon 3 - Poksu Mineral Group Mining Outpost
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Kino
   Kino VII - Moon 10 - Caldari Provisions Plantation:
     id: 60000961
     name: Kino VII - Moon 10 - Caldari Provisions Plantation
     services:
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
+    - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Kino
   Kino VII - Moon 13 - Ytiri Storage:
     id: 60000355
     name: Kino VII - Moon 13 - Ytiri Storage
     services:
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -50870,35 +50861,37 @@ locations:
     id: 60000952
     name: Kino VII - Moon 17 - Caldari Provisions Plantation
     services:
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
+    - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Kino
   Kino VII - Moon 7 - Home Guard Testing Facilities:
     id: 60004024
     name: Kino VII - Moon 7 - Home Guard Testing Facilities
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
-    - Laboratory
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
+    - Storage
     solarSystem: Kino
   Kirras II - Perkone Factory:
     id: 60001558
@@ -51778,36 +51771,34 @@ locations:
     id: 60015007
     name: Komo IX - Science and Trade Institute School
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Komo
   Konola V - Moon 12 - Lai Dai Corporation Warehouse:
     id: 60002293
     name: Konola V - Moon 12 - Lai Dai Corporation Warehouse
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -52660,60 +52651,55 @@ locations:
     id: 60002002
     name: Krirald IX - Moon 1 - Nugoeihuvi Corporation Development Studio
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Gambling
-    - Insurance
-    - Interbus
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
+    - Repair Facilities
     - Reprocessing Plant
-    - Stock Exchange
+    - Storage
     solarSystem: Krirald
   Krirald VII - Moon 11 - Republic Parliament Bureau:
     id: 60004687
     name: Krirald VII - Moon 11 - Republic Parliament Bureau
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
+    - Factory
     - Fitting
-    - Insurance
-    - Interbus
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
-    - Stock Exchange
+    - Storage
     solarSystem: Krirald
   Krirald VII - Moon 14 - Republic Fleet Assembly Plant:
     id: 60004837
     name: Krirald VII - Moon 14 - Republic Fleet Assembly Plant
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
+    - Storage
     solarSystem: Krirald
   Kronsur III - Moon 1 - Republic Justice Department Tribunal:
     id: 60004984
@@ -61501,39 +61487,37 @@ locations:
     id: 60004477
     name: Nalvula IV - Moon 1 - Science and Trade Institute School
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Nalvula
   Nalvula IX - Moon 2 - Spacelane Patrol Assembly Plant:
     id: 60004150
     name: Nalvula IX - Moon 2 - Spacelane Patrol Assembly Plant
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
+    - Storage
     solarSystem: Nalvula
   Namaili IV - Carthum Conglomerate Production Plant:
     id: 60006340
@@ -61648,69 +61632,73 @@ locations:
     id: 60011173
     name: Nani I - Aliastra Warehouse
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Nani
   Nani IV - Moon 2 - Aliastra Warehouse:
     id: 60011170
     name: Nani IV - Moon 2 - Aliastra Warehouse
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Nani
   Nani V - Moon 18 - Poteque Pharmaceuticals Biohazard Containment Facility:
     id: 60010438
     name: Nani V - Moon 18 - Poteque Pharmaceuticals Biohazard Containment Facility
     services:
     - Cloning
-    - Courier Missions
     - Docking
+    - Factory
     - Fitting
-    - Insurance
-    - Laboratory
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
+    - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Nani
   Nani VIII - Moon 2 - Poteque Pharmaceuticals Biohazard Containment Facility:
     id: 60010441
     name: Nani VIII - Moon 2 - Poteque Pharmaceuticals Biohazard Containment Facility
     services:
     - Cloning
-    - Courier Missions
     - Docking
+    - Factory
     - Fitting
-    - Insurance
-    - Laboratory
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
+    - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Nani
   Nannaras III - Moon 1 - Genolution Biotech Production:
     id: 60013207
@@ -68863,44 +68851,34 @@ locations:
     id: 60002242
     name: Otanuomi IV - Moon 4 - Ishukone Corporation Factory
     services:
-    - Black Market
-    - Bounty Missions
     - Cloning
-    - Courier Missions
-    - DNA Therapy
     - Docking
     - Factory
     - Fitting
-    - Gambling
-    - Insurance
-    - Interbus
-    - Laboratory
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
     - Paintshop
-    - Refinery
     - Repair Facilities
     - Reprocessing Plant
-    - Stock Exchange
     - Storage
-    - Surgery
     solarSystem: Otanuomi
   Otanuomi IV - Moon 5 - Ytiri Storage:
     id: 60000382
     name: Otanuomi IV - Moon 5 - Ytiri Storage
     services:
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -68909,51 +68887,52 @@ locations:
     id: 60000586
     name: Otanuomi V - Moon 16 - Hyasyoda Corporation Refinery
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Otanuomi
   Otanuomi VI - Moon 7 - Hyasyoda Corporation Refinery:
     id: 60000583
     name: Otanuomi VI - Moon 7 - Hyasyoda Corporation Refinery
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Otanuomi
   Otanuomi VI - Moon 9 - Ytiri Storage:
     id: 60000391
     name: Otanuomi VI - Moon 9 - Ytiri Storage
     services:
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -68962,17 +68941,16 @@ locations:
     id: 60003037
     name: Otela II - Expert Housing Foundry
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -68981,34 +68959,34 @@ locations:
     id: 60002434
     name: Otela IV - Moon 9 - Expert Distribution Warehouse
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Otela
   Otela V - Moon 1 - Expert Housing Foundry:
     id: 60003034
     name: Otela V - Moon 1 - Expert Housing Foundry
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -78054,20 +78032,19 @@ locations:
     id: 60015025
     name: Sakenta I - State War Academy
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Sakenta
   Sakht VI - Moon 6 - Zoar and Sons Factory:
     id: 60006673
@@ -79676,20 +79653,19 @@ locations:
     id: 60015026
     name: Senda III - Moon 1 - State War Academy
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Senda
   Sendaya V - CONCORD Bureau:
     id: 60012301
@@ -81855,22 +81831,19 @@ locations:
     id: 60004651
     name: Skarkon III - Moon 14 - Republic Parliament Bureau
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
+    - Factory
     - Fitting
-    - Insurance
-    - Interbus
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Security Office
-    - Stock Exchange
+    - Storage
     solarSystem: Skarkon
   Slays II - Duvolle Laboratories Factory:
     id: 60010882
@@ -88670,17 +88643,16 @@ locations:
     id: 60001618
     name: Tunudan IX - Perkone Warehouse
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -88689,17 +88661,16 @@ locations:
     id: 60001471
     name: Tunudan VII - Moon 4 - Rapid Assembly Warehouse
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
     - Storage
@@ -90998,20 +90969,19 @@ locations:
     id: 60015028
     name: Urhinichi IX - State War Academy
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
     - Docking
     - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Urhinichi
   Urlen VI - Chief Executive Panel Bureau:
     id: 60003337
@@ -92114,41 +92084,37 @@ locations:
     id: 60009463
     name: Vale II - Moon 1 - Material Acquisition Mining Outpost
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Vale
   Vale VI - Moon 2 - Chemal Tech Research Center:
     id: 60010762
     name: Vale VI - Moon 2 - Chemal Tech Research Center
     services:
-    - Bounty Missions
     - Cloning
-    - Courier Missions
-    - DNA Therapy
     - Docking
+    - Factory
     - Fitting
-    - Insurance
-    - Laboratory
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
-    - Surgery
+    - Storage
     solarSystem: Vale
   Van III - Moon 1 - Amarr Constructions Warehouse:
     id: 60006187
@@ -95119,51 +95085,55 @@ locations:
     id: 60000490
     name: Wirashoda V - Hyasyoda Corporation Mining Outpost
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Wirashoda
   Wirashoda VII - Moon 5 - Hyasyoda Corporation Mining Outpost:
     id: 60000487
     name: Wirashoda VII - Moon 5 - Hyasyoda Corporation Mining Outpost
     services:
-    - Bounty Missions
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
-    - Insurance
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
-    - Refinery
+    - Paintshop
     - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Wirashoda
   Wirashoda VIII - Moon 5 - Caldari Provisions Plantation:
     id: 60000970
     name: Wirashoda VIII - Moon 5 - Caldari Provisions Plantation
     services:
-    - Courier Missions
+    - Cloning
     - Docking
+    - Factory
     - Fitting
+    - Jump Clone Facility
     - Loyalty Point Store
     - Market
-    - Navy Offices
     - News
     - Office Rental
+    - Paintshop
+    - Repair Facilities
     - Reprocessing Plant
+    - Storage
     solarSystem: Wirashoda
   Wirdalen VII - Moon 17 - Republic Parliament Bureau:
     id: 60004669

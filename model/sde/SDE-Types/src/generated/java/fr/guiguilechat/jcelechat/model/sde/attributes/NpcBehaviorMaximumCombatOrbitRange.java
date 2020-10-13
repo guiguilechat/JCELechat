@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Used by Behavior NPCs to work out minimum orbit range. If the npc has an effect with a shorter range, it will use the effects range instead.
  */
 public class NpcBehaviorMaximumCombatOrbitRange
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final NpcBehaviorMaximumCombatOrbitRange INSTANCE = new NpcBehaviorMaximumCombatOrbitRange();
 

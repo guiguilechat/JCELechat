@@ -64,7 +64,7 @@ types:
     missilelaunchduration: 20000.0
     name: Anchoring Jarognik Kikimora
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -111,7 +111,7 @@ types:
     behaviorremotearmorrepairfalloff: 25000
     behaviorremotearmorrepairrange: 15000
     behaviorsensordampenerdischarge: 5.0
-    behaviorsensordampenerduration: 5000
+    behaviorsensordampenerduration: 5000.0
     behaviorsensordampenerfalloff: 50000.0
     behaviorsensordampenerrange: 20000.0
     capacitorcapacity: 500.0
@@ -159,7 +159,7 @@ types:
     missilelaunchduration: 20000.0
     name: Blinding Jarognik Kikimora
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -248,7 +248,7 @@ types:
     missilelaunchduration: 20000.0
     name: Carousing Catalyst
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 3000
+    npcbehaviormaximumcombatorbitrange: 3000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -330,7 +330,7 @@ types:
     missilelaunchduration: 12000.0
     name: Carousing Talwar
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 19000
+    npcbehaviormaximumcombatorbitrange: 19000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -503,7 +503,7 @@ types:
     missilelaunchduration: 20000.0
     name: Dragonaurs Cormorant
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 20000
+    npcbehaviormaximumcombatorbitrange: 20000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -688,18 +688,18 @@ types:
     missilevelocitybonus: -13.25
     name: Ghosting Jarognik Kikimora
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcguidancedisruptordischarge: 3.0
-    npcguidancedisruptorduration: 5000
-    npcguidancedisruptorfalloff: 30000
-    npcguidancedisruptorrange: 20000
+    npcguidancedisruptorduration: 5000.0
+    npcguidancedisruptorfalloff: 30000.0
+    npcguidancedisruptorrange: 20000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
     npctrackingdisruptordischarge: 3.0
-    npctrackingdisruptorduration: 5000
-    npctrackingdisruptorfalloff: 30000
-    npctrackingdisruptorrange: 20000
+    npctrackingdisruptorduration: 5000.0
+    npctrackingdisruptorfalloff: 30000.0
+    npctrackingdisruptorrange: 20000.0
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
@@ -865,7 +865,7 @@ types:
     missilelaunchduration: 12000.0
     name: Hunt Corax
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 5000
+    npcbehaviormaximumcombatorbitrange: 5000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -950,7 +950,7 @@ types:
     missilelaunchduration: 20000.0
     name: Hunt Cormorant
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 5000
+    npcbehaviormaximumcombatorbitrange: 5000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -1040,7 +1040,7 @@ types:
     missilelaunchduration: 8000.0
     name: Liminal Jarognik Kikimora
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -1507,7 +1507,7 @@ types:
     missilelaunchduration: 20000.0
     name: Starving Jarognik Kikimora
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -1554,8 +1554,8 @@ types:
     behaviorremotearmorrepairfalloff: 25000
     behaviorremotearmorrepairrange: 15000
     behaviorwebifierdischarge: 2.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 12000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 12000.0
     capacitorcapacity: 500.0
     capacity: 360.0
     damagemultiplier: 0.8999999761581421
@@ -1600,7 +1600,7 @@ types:
     missilelaunchduration: 20000.0
     name: Tangling Jarognik Kikimora
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -1702,7 +1702,7 @@ types:
     missilelaunchduration: 20000.0
     name: Type-A Anomalous Alvior
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 5000
+    npcbehaviormaximumcombatorbitrange: 5000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -1804,7 +1804,7 @@ types:
     missilelaunchduration: 20000.0
     name: Type-D Anomalous Alvior
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 5000
+    npcbehaviormaximumcombatorbitrange: 5000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
@@ -1855,8 +1855,8 @@ types:
     behaviorwarpscramblerange: 11400.0
     behaviorwarpscramblestrength: 2
     behaviorwebifierdischarge: 2.0
-    behaviorwebifierduration: 5000
-    behaviorwebifierrange: 12000
+    behaviorwebifierduration: 5000.0
+    behaviorwebifierrange: 12000.0
     capacitorcapacity: 500.0
     capacity: 360.0
     damagemultiplier: 0.8999999761581421
@@ -1902,7 +1902,7 @@ types:
     missilelaunchduration: 6000.0
     name: Voivode Jarognik Kikimora
     npcassistancerange: 5000
-    npcbehaviormaximumcombatorbitrange: 6000
+    npcbehaviormaximumcombatorbitrange: 6000.0
     npcremotearmorrepairchance: 1.0
     npcremotearmorrepairduration: 10000
     npcremotearmorrepairthreshold: 0.25
