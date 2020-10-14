@@ -30,7 +30,7 @@ public class Location {
 			ObsObjHolder<R_get_characters_character_id_location> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (solarSystem == null) {
-					solarSystem = fetch.mapInt(info -> info.solar_system_id);
+					solarSystem = fetch.mapInt(info -> info == null ? 0 : info.solar_system_id);
 				}
 			});
 		}
@@ -44,7 +44,7 @@ public class Location {
 			ObsObjHolder<R_get_characters_character_id_location> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (stationID == null) {
-					stationID = fetch.mapInt(info -> info.station_id);
+					stationID = fetch.mapInt(info -> info == null ? 0 : info.station_id);
 				}
 			});
 		}
@@ -58,7 +58,7 @@ public class Location {
 			ObsObjHolder<R_get_characters_character_id_location> fetch = get();
 			LockWatchDog.BARKER.syncExecute(fetch, () -> {
 				if (structureID == null) {
-					structureID = fetch.mapLong(info -> info.structure_id);
+					structureID = fetch.mapLong(info -> info == null ? 0 : info.structure_id);
 				}
 			});
 		}
