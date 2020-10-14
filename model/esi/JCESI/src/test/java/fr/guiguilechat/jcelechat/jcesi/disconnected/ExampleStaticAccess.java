@@ -2,7 +2,7 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected;
 
 import java.util.List;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
@@ -66,7 +66,7 @@ public class ExampleStaticAccess {
 		/**
 		 * since this is tedious and error prone I bring some in the modeled class
 		 */
-		ObservableDoubleValue maxBOObs = ESIModel.INSTANCE.markets.getMarket(theforge).getBO(veldspar, 1)
+		ObservableDoubleValue maxBOObs = ESIAccess.INSTANCE.markets.getMarket(theforge).getBO(veldspar, 1)
 				.asObservableNumber();
 
 		/**

@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
@@ -185,7 +185,7 @@ public class Location {
 		} else {
 			// TODO check into esiaccess if the structure id is in the public
 			// structures.
-			if (ESIModel.INSTANCE.universe.isPublicStructure(locationid)) {
+			if (ESIAccess.INSTANCE.universe.isPublicStructure(locationid)) {
 				// can't do anything. stil need an account.
 			}
 			if (account != null) {

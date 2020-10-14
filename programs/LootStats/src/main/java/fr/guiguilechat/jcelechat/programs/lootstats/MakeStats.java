@@ -32,7 +32,7 @@ import org.jfree.data.time.Week;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.locations.Region;
 
@@ -42,7 +42,7 @@ public class MakeStats {
 
 	public static void main(String[] args) {
 		LootParser bp = new LootParser();
-		RegionalMarket em = ESIModel.INSTANCE.markets.getMarket(Region.load().get("The Forge").id);
+		RegionalMarket em = ESIAccess.INSTANCE.markets.getMarket(Region.load().get("The Forge").id);
 		File srcDir = new File("src/main/resources");
 		srcDir.mkdirs();
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;

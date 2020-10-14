@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
@@ -84,7 +84,7 @@ public class LootAnalysis {
 
 	public static void main(String[] args) throws IOException {
 		LootParser bp = new LootParser();
-		RegionalMarket em = ESIModel.INSTANCE.markets.getMarket(Region.load().get("The Forge").id);
+		RegionalMarket em = ESIAccess.INSTANCE.markets.getMarket(Region.load().get("The Forge").id);
 		File srcDir = new File("src/main/resources");
 		srcDir.mkdirs();
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;

@@ -7,7 +7,7 @@ import java.util.Arrays;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_characters_character_id_skills_skills;
@@ -119,7 +119,7 @@ public class Skills {
 					trainingSkill = training
 							.map(sk -> {
 								R_get_universe_types_type_id ret = sk.skill_id == 0 ? new R_get_universe_types_type_id()
-										: ESIModel.INSTANCE.universe.cache.types(sk.skill_id).get();
+										: ESIAccess.INSTANCE.universe.cache.types(sk.skill_id).get();
 								return ret;
 							});
 				}

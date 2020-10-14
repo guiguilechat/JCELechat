@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.sde.industry.Blueprint;
 
 public class EIVT1T2Ratio {
@@ -12,8 +12,8 @@ public class EIVT1T2Ratio {
 			if (bp.invention != null && bp.invention.products != null && !bp.invention.products.isEmpty()) {
 				Blueprint bpi = Blueprint.loadById().get(bp.invention.products.get(0).id);
 				if (bpi != null) {
-					double t1eiv = bp.makeEIV(ESIModel.INSTANCE.markets::getAdjusted);
-					double t2eiv= bpi.makeEIV(ESIModel.INSTANCE.markets::getAdjusted);
+					double t1eiv = bp.makeEIV(ESIAccess.INSTANCE.markets::getAdjusted);
+					double t2eiv= bpi.makeEIV(ESIAccess.INSTANCE.markets::getAdjusted);
 					sumT1+=t1eiv;
 					sumT2 += t2eiv;
 				}

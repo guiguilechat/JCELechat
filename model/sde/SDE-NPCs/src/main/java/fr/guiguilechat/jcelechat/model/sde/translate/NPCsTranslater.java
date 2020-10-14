@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.FileTools;
@@ -97,7 +97,7 @@ public class NPCsTranslater {
 	private static void translate(LinkedHashMap<Integer, Eagents> eagents,
 			Map<Integer, String> divisionTypes, LinkedHashMap<String, Agent> agents,
 			LinkedHashMap<String, Corporation> corporations, LinkedHashMap<Integer, LPOffer> offers) {
-		ESIModel esi = ESIModel.INSTANCE;
+		ESIAccess esi = ESIAccess.INSTANCE;
 		CacheStatic cache = ESIStatic.INSTANCE.cache;
 
 		// prefetch

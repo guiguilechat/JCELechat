@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_structures_structure_id;
@@ -114,13 +114,13 @@ public class Market {
 				ret = cachedRegionalPublicOrders.get(regionId);
 				if (ret == null) {
 					Set<Integer> allowedConstels = IntStream
-							.of(ESIModel.INSTANCE.universe.cache.regions(regionId).get().constellations).boxed()
+							.of(ESIAccess.INSTANCE.universe.cache.regions(regionId).get().constellations).boxed()
 							.collect(Collectors.toSet());
 
 					ObsSetHolder<Long> structIdInRegion = con.universe.publicStructures(filter.market)
 							.filter(null,
 									stru -> allowedConstels
-									.contains(ESIModel.INSTANCE.universe.cache.systems(stru.solar_system_id).get().constellation_id))
+									.contains(ESIAccess.INSTANCE.universe.cache.systems(stru.solar_system_id).get().constellation_id))
 							.keys();
 					ObsCollectionHolder<R_get_markets_region_id_orders, ?, ?> publicStructureOrders = structIdInRegion
 							.flatten(structid -> {

@@ -6,7 +6,7 @@ import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter;
@@ -60,7 +60,7 @@ public class Universe {
 			synchronized (cachedPublicStructuresByFilter) {
 				ret = cachedPublicStructuresByFilter.get(f);
 				if (ret == null) {
-					ret = ESIModel.INSTANCE.universe.cache.structures(null).mapItems(sid -> {
+					ret = ESIAccess.INSTANCE.universe.cache.structures(null).mapItems(sid -> {
 						parent.raw.cache.universe.structures(sid);
 						return sid;
 					}).toMap(sid -> sid, sid -> parent.raw.cache.universe.structures(sid).get());

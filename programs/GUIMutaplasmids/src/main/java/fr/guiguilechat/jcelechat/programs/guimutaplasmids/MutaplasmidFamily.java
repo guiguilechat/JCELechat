@@ -10,7 +10,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.sde.Attribute;
@@ -194,9 +194,9 @@ public abstract class MutaplasmidFamily {
 			MutaScram.INSTANCE, MutaDisrupt.INSTANCE };
 
 	public static void searchESI() {
-		R_get_universe_groups_group_id groups = ESIModel.INSTANCE.connection.get_universe_groups(1964, null).getOK();
+		R_get_universe_groups_group_id groups = ESIAccess.INSTANCE.connection.get_universe_groups(1964, null).getOK();
 		for (int mutaId : groups.types) {
-			R_get_universe_types_type_id type = ESIModel.INSTANCE.connection.get_universe_types(mutaId, null).getOK();
+			R_get_universe_types_type_id type = ESIAccess.INSTANCE.connection.get_universe_types(mutaId, null).getOK();
 			System.err.println("" + mutaId + " " + type.name);
 		}
 	}

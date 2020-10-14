@@ -1,6 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.oreworth;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.MarketHelpers;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
@@ -73,7 +73,7 @@ public class OreWorthController {
 		if (newValue == null) {
 			marketHolder.setValue(null);
 		} else {
-			marketHolder.setValue(ESIModel.INSTANCE.markets.getMarket(newValue.id));
+			marketHolder.setValue(ESIAccess.INSTANCE.markets.getMarket(newValue.id));
 		}
 	}
 

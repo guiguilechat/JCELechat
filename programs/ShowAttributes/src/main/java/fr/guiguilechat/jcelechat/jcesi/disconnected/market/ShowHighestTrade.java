@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.types.Accessories;
@@ -41,7 +41,7 @@ public class ShowHighestTrade {
 
 	public static void main(String[] args) {
 		int region = 10000002;
-		RegionalMarket market = ESIModel.INSTANCE.markets.getMarket(region);
+		RegionalMarket market = ESIAccess.INSTANCE.markets.getMarket(region);
 		// ESIStatic.INSTANCE.cache.markets.types(region);
 		List<EveType> types = Stream
 				.of(Accessories.METACAT, AncientRelics.METACAT, Apparel.METACAT, Asteroid.METACAT, Blueprint.METACAT,

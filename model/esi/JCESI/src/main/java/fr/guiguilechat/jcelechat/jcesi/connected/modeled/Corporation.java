@@ -35,7 +35,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Industry;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Market;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Wallet;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIModel;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
@@ -373,7 +373,7 @@ public class Corporation {
 		if (cachedMonthWars == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedMonthWars == null) {
-					cachedMonthWars = ESIModel.INSTANCE.wars.getMonthWars()
+					cachedMonthWars = ESIAccess.INSTANCE.wars.getMonthWars()
 							.filter(war -> war.aggressor.corporation_id == getId() || war.defender.corporation_id == getId());
 				}
 			});
