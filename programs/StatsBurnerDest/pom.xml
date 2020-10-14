@@ -3,7 +3,7 @@
   <parent>
     <groupId>fr.guiguilechat.jcelechat</groupId>
     <artifactId>programs</artifactId>
-    <version>5.5.0</version>
+    <version>6.0.0</version>
   </parent>
   <artifactId>StatsBurnerDest</artifactId>
   <groupId>fr.guiguilechat.jcelechat.programs</groupId>
