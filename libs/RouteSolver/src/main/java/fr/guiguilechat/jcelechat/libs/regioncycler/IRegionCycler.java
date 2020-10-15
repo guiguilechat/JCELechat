@@ -58,8 +58,10 @@ public interface IRegionCycler extends IFondHamilton {
 			return this;
 		}
 
-		public static final Predicate<SolarSystem> IMPORTANT_DENS = sys -> sys.truesec < 0.65;
-		public static final Predicate<SolarSystem> IMPORTANT_REFUGES = sys -> sys.truesec < 0.95;
+		public static final Predicate<SolarSystem> IMPORTANT_DENS = sys -> sys.truesec > 0.45 && sys.truesec < 0.65;
+		public static final Predicate<SolarSystem> IMPORTANT_REFUGES = sys -> sys.truesec > 0.45 && sys.truesec < 0.95;
+		public static final Predicate<SolarSystem> IMPORTANT_HIDEAWAYS = sys -> sys.truesec > 0.55;
+		public static final Predicate<SolarSystem> IMPORTANT_BURROWS = sys -> sys.truesec > 0.85;
 
 	}
 
