@@ -312,4 +312,35 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		return bp.manufacturing.products.get(0).quantity;
 	}
 
+	private transient MaterialProd<?> product = null;
+
+	private MaterialProd<?> product() {
+		if (product == null) {
+			product = manufacturing != null && !manufacturing.products.isEmpty() ? manufacturing.products.get(0) : null;
+			if (product == null) {
+				System.err.println("no product for " + name());
+			}
+		}
+		return product;
+	}
+
+
+	private transient String productCategory;
+
+	public String productCategory() {
+		if (productCategory == null) {
+			productCategory = product() != null ? product().category() : null;
+		}
+		return productCategory;
+	}
+
+	private transient String productGroup;
+
+	public String productGroup() {
+		if (productGroup == null) {
+			productGroup = product() != null ? product().group() : null;
+		}
+		return productGroup;
+	}
+
 }
