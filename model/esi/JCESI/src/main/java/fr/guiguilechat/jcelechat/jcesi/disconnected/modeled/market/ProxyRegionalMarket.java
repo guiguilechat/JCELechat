@@ -1,9 +1,14 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
+import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
@@ -15,8 +20,8 @@ import fr.lelouet.tools.synchronization.LockWatchDog;
  */
 public class ProxyRegionalMarket implements IPricing {
 
-	private final RegionalMarket unfiltered;
-	private final ObsListHolder<R_get_markets_region_id_orders> orders;
+	private final RegionalMarket source;
+	private final ObsMapHolderImpl<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID;
 
 	/**
 	 *
@@ -26,8 +31,15 @@ public class ProxyRegionalMarket implements IPricing {
 	 *          the filtered set of orders.
 	 */
 	public ProxyRegionalMarket(RegionalMarket unfiltered, ObsListHolder<R_get_markets_region_id_orders> orders) {
-		this.unfiltered = unfiltered;
-		this.orders = orders;
+		source = unfiltered;
+		ordersByTypeID = new ObsMapHolderImpl<>();
+		ObsObjHolder<Map<Integer, List<R_get_markets_region_id_orders>>> mapped = orders
+				.map(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
+		mapped.follow(m -> {
+			ordersByTypeID.underlying().clear();
+			ordersByTypeID.underlying().putAll(m);
+			ordersByTypeID.dataReceived();
+		});
 	}
 
 	// typeid-> cached orders
@@ -40,7 +52,7 @@ public class ProxyRegionalMarket implements IPricing {
 			ret = LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
 				LocalTypeOrders ret2 = cachedOrders.get(typeID);
 				if (ret2 == null) {
-					ret2 = new LocalTypeOrders(orders, typeID);
+					ret2 = new LocalTypeOrders(ordersByTypeID.at(typeID, Collections.emptyList()).toList(l -> l));
 					cachedOrders.put(typeID, ret2);
 				}
 				return ret2;
@@ -51,7 +63,7 @@ public class ProxyRegionalMarket implements IPricing {
 
 	@Override
 	public RegionTypeHistory getHistory(int typeID) {
-		return unfiltered.getHistory(typeID);
+		return source.getHistory(typeID);
 	}
 
 }

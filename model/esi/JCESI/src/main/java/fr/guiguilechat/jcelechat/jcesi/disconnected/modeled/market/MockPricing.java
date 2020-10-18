@@ -20,7 +20,7 @@ public class MockPricing implements IPricing {
 
 		public MockPricingType(int typeID) {
 			type_id = typeID;
-			lto = new LocalTypeOrders(orders, typeID);
+			lto = new LocalTypeOrders(orders.filter(or -> or.type_id == type_id));
 			orders.dataReceived();
 		}
 

@@ -1,6 +1,7 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -17,6 +18,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
+import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
@@ -25,14 +28,25 @@ public class RegionalMarket implements IPricing {
 	private static final Logger logger = LoggerFactory.getLogger(RegionalMarket.class);
 
 	private final ObsListHolder<R_get_markets_region_id_orders> orders;
+	private final ObsMapHolderImpl<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID;
 	private final CacheStatic cache;
 	private final int regionID;
 
 	public RegionalMarket(CacheStatic cache, int regionID) {
 		orders = cache.markets.orders(order_type.all, regionID, null);
+		ordersByTypeID = new ObsMapHolderImpl<>();
+		ObsObjHolder<Map<Integer, List<R_get_markets_region_id_orders>>> mapped = orders
+				.map(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
+		mapped.follow(m -> {
+			ordersByTypeID.underlying().clear();
+			ordersByTypeID.underlying().putAll(m);
+			ordersByTypeID.dataReceived();
+		});
 		this.cache = cache;
 		this.regionID = regionID;
 	}
+
+	// orders
 
 	// typeid-> cached orders
 	private Map<Integer, LocalTypeOrders> cachedOrders = new HashMap<>();
@@ -44,7 +58,7 @@ public class RegionalMarket implements IPricing {
 			ret = LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
 				LocalTypeOrders ret2 = cachedOrders.get(typeID);
 				if (ret2 == null) {
-					ret2 = new LocalTypeOrders(orders, typeID);
+					ret2 = new LocalTypeOrders(ordersByTypeID.at(typeID, Collections.emptyList()).toList(l -> l));
 					cachedOrders.put(typeID, ret2);
 				}
 				return ret2;

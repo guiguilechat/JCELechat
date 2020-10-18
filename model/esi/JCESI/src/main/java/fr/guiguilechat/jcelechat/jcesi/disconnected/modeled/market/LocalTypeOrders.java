@@ -13,11 +13,9 @@ import fr.lelouet.tools.synchronization.LockWatchDog;
 public class LocalTypeOrders {
 
 	private final ObsListHolder<R_get_markets_region_id_orders> orders;
-	private final int typeID;
 
-	public LocalTypeOrders(ObsListHolder<R_get_markets_region_id_orders> orders, int typeID) {
+	public LocalTypeOrders(ObsListHolder<R_get_markets_region_id_orders> orders) {
 		this.orders = orders;
-		this.typeID = typeID;
 	}
 
 	private ObsListHolder<R_get_markets_region_id_orders> cachedBuyOrders;
@@ -31,7 +29,7 @@ public class LocalTypeOrders {
 			LockWatchDog.BARKER.syncExecute(orders, () -> {
 				if (cachedBuyOrders == null) {
 					cachedBuyOrders = orders
-							.filter(order -> order.type_id == typeID && order.is_buy_order && order.min_volume == 1)
+							.filter(order -> order.is_buy_order && order.min_volume == 1)
 							.sorted((o1, o2) -> -Double.compare(o1.price, o2.price));
 				}
 			});
@@ -50,7 +48,7 @@ public class LocalTypeOrders {
 			LockWatchDog.BARKER.syncExecute(orders, () -> {
 				if (cachedSellOrders == null) {
 					cachedSellOrders = orders
-							.filter(order -> order.type_id == typeID && !order.is_buy_order && order.min_volume == 1)
+							.filter(order -> !order.is_buy_order && order.min_volume == 1)
 							.sorted((o1, o2) -> Double.compare(o1.price, o2.price));
 				}
 			});
