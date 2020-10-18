@@ -23,9 +23,7 @@ import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableLongValue;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
-import javafx.collections.ListChangeListener;
 import javafx.collections.MapChangeListener;
-import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 
 public class JFXTools {
@@ -324,39 +322,8 @@ public class JFXTools {
 		synchronized (map) {
 			ObservableMap<U, V> other = FXCollections.observableHashMap();
 			other.addListener(listener);
-			other.putAll(map.entrySet().stream()
-					.collect(Collectors.toMap(Entry::getKey, Entry::getValue)));
+			other.putAll(map.entrySet().stream().collect(Collectors.toMap(Entry::getKey, Entry::getValue)));
 			map.addListener(listener);
-		}
-	}
-
-	/**
-	 * apply the existing list to the listener, then register the listener.
-	 *
-	 * @param list
-	 * @param listener
-	 */
-	public static <U> void listenL(ObservableList<U> list, ListChangeListener<U> listener) {
-		synchronized (list) {
-			ObservableList<U> other = FXCollections.observableArrayList();
-			other.addListener(listener);
-			other.addAll(list.stream().collect(Collectors.toList()));
-			list.addListener(listener);
-		}
-	}
-
-	/**
-	 * apply the existing item to the listener, then register the listener.
-	 *
-	 * @param obs
-	 * @param listener
-	 */
-	public static <U> void listenO(ObservableValue<U> obs, ChangeListener<U> listener) {
-		synchronized (obs) {
-			if (obs.getValue() != null) {
-				listener.changed(obs, null, obs.getValue());
-			}
-			obs.addListener(listener);
 		}
 	}
 
