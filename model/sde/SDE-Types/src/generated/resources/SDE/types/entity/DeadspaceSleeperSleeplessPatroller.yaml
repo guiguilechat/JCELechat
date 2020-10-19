@@ -173,6 +173,7 @@ types:
     entitycruisespeed: 105.0
     entityequipmentmax: 8
     entityequipmentmin: 6
+    entityfactionloss: 0.0017761000199243426
     entityflyrange: 19000.0
     entitygrouprespawnchance: 1
     entitymissiletypeid: 30426
