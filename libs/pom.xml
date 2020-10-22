@@ -14,6 +14,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>RouteSolver</module>
+		<module>LogParser</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
