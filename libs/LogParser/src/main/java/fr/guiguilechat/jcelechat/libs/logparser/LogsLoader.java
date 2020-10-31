@@ -8,6 +8,9 @@ import fr.guiguilechat.jcelechat.libs.logparser.gamelogs.GameLogsLoader;
 
 /**
  * represent the directory for logs in eve. Allows to get specific log systems
+ * <ul>
+ * <li>{@link #gameLogs()} to follow gthe gamelogs for a character</li>
+ * </ul>
  *
  * @author
  *
@@ -25,7 +28,7 @@ public class LogsLoader {
 		this(defaultDocumentsDir());
 	}
 
-	public File gameLogsFile() {
+	protected File gameLogsFile() {
 		return baseDir == null ? null : new File(baseDir, "Gamelogs");
 	}
 
