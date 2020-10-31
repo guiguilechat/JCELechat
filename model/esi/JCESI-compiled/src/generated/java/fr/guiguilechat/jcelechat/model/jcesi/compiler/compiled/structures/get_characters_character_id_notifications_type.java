@@ -7,6 +7,8 @@ public enum get_characters_character_id_notifications_type {
     AcceptedAlly("AcceptedAlly"),
     @JsonProperty("AcceptedSurrender")
     AcceptedSurrender("AcceptedSurrender"),
+    @JsonProperty("AgentRetiredTrigravian")
+    AgentRetiredTrigravian("AgentRetiredTrigravian"),
     @JsonProperty("AllAnchoringMsg")
     AllAnchoringMsg("AllAnchoringMsg"),
     @JsonProperty("AllMaintenanceBillMsg")
@@ -89,6 +91,8 @@ public enum get_characters_character_id_notifications_type {
     ContactEdit("ContactEdit"),
     @JsonProperty("ContainerPasswordMsg")
     ContainerPasswordMsg("ContainerPasswordMsg"),
+    @JsonProperty("ContractRegionChangedToPochven")
+    ContractRegionChangedToPochven("ContractRegionChangedToPochven"),
     @JsonProperty("CorpAllBillMsg")
     CorpAllBillMsg("CorpAllBillMsg"),
     @JsonProperty("CorpAppAcceptMsg")
@@ -221,8 +225,12 @@ public enum get_characters_character_id_notifications_type {
     InsuranceIssuedMsg("InsuranceIssuedMsg"),
     @JsonProperty("InsurancePayoutMsg")
     InsurancePayoutMsg("InsurancePayoutMsg"),
+    @JsonProperty("InvasionCompletedMsg")
+    InvasionCompletedMsg("InvasionCompletedMsg"),
     @JsonProperty("InvasionSystemLogin")
     InvasionSystemLogin("InvasionSystemLogin"),
+    @JsonProperty("InvasionSystemStart")
+    InvasionSystemStart("InvasionSystemStart"),
     @JsonProperty("JumpCloneDeletedMsg1")
     JumpCloneDeletedMsg1("JumpCloneDeletedMsg1"),
     @JsonProperty("JumpCloneDeletedMsg2")
@@ -251,6 +259,8 @@ public enum get_characters_character_id_notifications_type {
     MercOfferRetractedMsg("MercOfferRetractedMsg"),
     @JsonProperty("MercOfferedNegotiationMsg")
     MercOfferedNegotiationMsg("MercOfferedNegotiationMsg"),
+    @JsonProperty("MissionCanceledTriglavian")
+    MissionCanceledTriglavian("MissionCanceledTriglavian"),
     @JsonProperty("MissionOfferExpirationMsg")
     MissionOfferExpirationMsg("MissionOfferExpirationMsg"),
     @JsonProperty("MissionTimeoutMsg")
@@ -283,6 +293,8 @@ public enum get_characters_character_id_notifications_type {
     OfferedSurrender("OfferedSurrender"),
     @JsonProperty("OfferedToAlly")
     OfferedToAlly("OfferedToAlly"),
+    @JsonProperty("OfficeLeaseCanceledInsufficientStandings")
+    OfficeLeaseCanceledInsufficientStandings("OfficeLeaseCanceledInsufficientStandings"),
     @JsonProperty("OldLscMessages")
     OldLscMessages("OldLscMessages"),
     @JsonProperty("OperationFinished")

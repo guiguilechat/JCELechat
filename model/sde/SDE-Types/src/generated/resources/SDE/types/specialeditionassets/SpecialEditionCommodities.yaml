@@ -694,6 +694,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crimson Harvest T-Shirt Gift Box:
+    cpumultiplier: 1.0
+    id: 56787
+    name: Crimson Harvest T-Shirt Gift Box
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
   Crunch Fuel:
     cpumultiplier: 1.0
     id: 48755

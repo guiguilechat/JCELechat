@@ -37,7 +37,7 @@ types:
     entitycruisespeed: 405.0
     entityequipmentmax: 6
     entityequipmentmin: 3
-    entityfactionloss: 0.022200999781489372
+    entityfactionloss: 0.2792433500289917
     entityflyrange: 40000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
@@ -130,7 +130,7 @@ types:
     entitycruisespeed: 450.0
     entityequipmentmax: 6
     entityequipmentmin: 3
-    entityfactionloss: 0.025350000709295273
+    entityfactionloss: 0.3188513517379761
     entityflyrange: 40000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
@@ -223,7 +223,7 @@ types:
     entitycruisespeed: 300.0
     entityequipmentmax: 6
     entityequipmentmin: 3
-    entityfactionloss: 0.029601000249385834
+    entityfactionloss: 0.414000004529953
     entityflyrange: 49000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
@@ -316,7 +316,7 @@ types:
     entitycruisespeed: 216.0
     entityequipmentmax: 6
     entityequipmentmin: 3
-    entityfactionloss: 0.019240999594330788
+    entityfactionloss: 0.24201257526874542
     entityflyrange: 49000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
@@ -409,7 +409,7 @@ types:
     entitycruisespeed: 324.0
     entityequipmentmax: 6
     entityequipmentmin: 3
-    entityfactionloss: 0.014801000244915485
+    entityfactionloss: 0.1861664205789566
     entityflyrange: 40000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1
@@ -502,7 +502,7 @@ types:
     entitycruisespeed: 270.0
     entityequipmentmax: 6
     entityequipmentmin: 3
-    entityfactionloss: 0.025350000709295273
+    entityfactionloss: 0.3188513517379761
     entityflyrange: 49000.0
     entitygrouprespawnchance: 1
     entitylootcountmin: 1

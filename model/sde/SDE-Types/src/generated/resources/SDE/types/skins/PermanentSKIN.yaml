@@ -798,7 +798,8 @@ types:
     published: true
     volume: 0.009999999776482582
   Apocalypse Blood Raiders SKIN:
-    id: 34792
+    id: 56798
+    marketGroup: 1964
     name: Apocalypse Blood Raiders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
@@ -989,6 +990,14 @@ types:
     id: 42589
     marketGroup: 2108
     name: Apocalypse Navy Issue Purity of the Throne SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apocalypse Navy Issue Sarum SKIN:
+    id: 56790
+    marketGroup: 2108
+    name: Apocalypse Navy Issue Sarum SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1361,6 +1370,14 @@ types:
     id: 55326
     marketGroup: 1990
     name: Arbitrator Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Arbitrator Blood Raiders SKIN:
+    id: 56797
+    marketGroup: 1990
+    name: Arbitrator Blood Raiders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -1975,6 +1992,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Armageddon Navy Issue Sarum SKIN:
+    id: 56791
+    marketGroup: 2108
+    name: Armageddon Navy Issue Sarum SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Armageddon Navy Issue Star Captain SKIN:
     id: 52584
     marketGroup: 2108
@@ -2508,6 +2533,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Augoror Navy Issue Sarum SKIN:
+    id: 56792
+    marketGroup: 2063
+    name: Augoror Navy Issue Sarum SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Augoror Navy Issue Serene Rou SKIN:
     id: 49155
     marketGroup: 2063
@@ -2851,6 +2884,13 @@ types:
     id: 36705
     marketGroup: 2003
     name: Bantam Blue Tiger SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bantam Deathglow Remnant SKIN:
+    id: 56785
+    name: Bantam Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3756,6 +3796,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix Abyssal Glory SKIN:
+    id: 56777
+    name: Brutix Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Brutix Biosecurity Responders SKIN:
     id: 55581
     marketGroup: 1958
@@ -4631,6 +4678,13 @@ types:
     id: 53171
     marketGroup: 1991
     name: Caracal Zento Isideko Combine SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Catalyst Abyssal Glory SKIN:
+    id: 56778
+    name: Catalyst Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5529,6 +5583,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Coercer Abyssal Glory SKIN:
+    id: 56774
+    name: Coercer Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Coercer Ardishapur SKIN:
     id: 34700
     marketGroup: 1994
@@ -5991,6 +6052,13 @@ types:
     id: 53136
     marketGroup: 1995
     name: Cormorant Abyssal Firestorm SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cormorant Abyssal Glory SKIN:
+    id: 56776
+    name: Cormorant Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6604,6 +6672,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crucifier Navy Issue Sarum SKIN:
+    id: 56793
+    marketGroup: 2000
+    name: Crucifier Navy Issue Sarum SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crucifier Oasis of Faith SKIN:
     id: 53595
     marketGroup: 2002
@@ -6839,6 +6915,13 @@ types:
     id: 52578
     marketGroup: 2081
     name: Curse Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cyclone Abyssal Glory SKIN:
+    id: 56779
+    name: Cyclone Abyssal Glory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9644,6 +9727,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ferox Abyssal Glory SKIN:
+    id: 56775
+    name: Ferox Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ferox Biosecurity Responders SKIN:
     id: 55525
     marketGroup: 1957
@@ -10824,6 +10914,14 @@ types:
     id: 42583
     marketGroup: 2103
     name: Harbinger Navy Issue Purity of the Throne SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Harbinger Navy Issue Sarum SKIN:
+    id: 56794
+    marketGroup: 2103
+    name: Harbinger Navy Issue Sarum SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12777,6 +12875,14 @@ types:
     id: 42558
     marketGroup: 2000
     name: Imperial Navy Slicer Purity of the Throne SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Imperial Navy Slicer Sarum SKIN:
+    id: 56789
+    marketGroup: 2000
+    name: Imperial Navy Slicer Sarum SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18705,6 +18811,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Omen Navy Issue Sarum SKIN:
+    id: 56795
+    marketGroup: 2063
+    name: Omen Navy Issue Sarum SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Omen Navy Issue Star Captain SKIN:
     id: 52577
     marketGroup: 2063
@@ -20683,6 +20797,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prophecy Abyssal Glory SKIN:
+    id: 56773
+    name: Prophecy Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prophecy Biosecurity Responders SKIN:
     id: 55309
     marketGroup: 1956
@@ -21911,6 +22032,13 @@ types:
     id: 48894
     marketGroup: 1965
     name: Raven Cryptic Mimesis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raven Deathglow Remnant SKIN:
+    id: 56782
+    name: Raven Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24711,6 +24839,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Slasher Deathglow Remnant SKIN:
+    id: 56784
+    name: Slasher Deathglow Remnant SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Slasher Exoplanets Hunter SKIN:
     id: 45937
     marketGroup: 2005
@@ -26645,6 +26780,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thrasher Abyssal Glory SKIN:
+    id: 56780
+    name: Thrasher Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thrasher Aurora Universalis SKIN:
     id: 53362
     marketGroup: 1997
@@ -26804,6 +26946,14 @@ types:
     id: 55305
     marketGroup: 2002
     name: Tormentor Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tormentor Blood Raiders SKIN:
+    id: 56796
+    marketGroup: 2002
+    name: Tormentor Blood Raiders SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27204,6 +27354,13 @@ types:
     id: 48516
     marketGroup: 1967
     name: Typhoon Dawn of Liberation SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Typhoon Deathglow Remnant SKIN:
+    id: 56783
+    name: Typhoon Deathglow Remnant SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

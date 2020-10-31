@@ -80,7 +80,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 0.002286901930347085
     explosiondelaybonus: -1.3333333730697632
     explosivedamage: 2.222222328186035
     explosivedamageresonance: 1.0
@@ -161,7 +161,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.0013000000035390258
+    entityfactionloss: 0.029729729518294334
     explosiondelaybonus: -4.0
     explosivedamage: 3.3333332538604736
     explosivedamageresonance: 1.0
@@ -243,7 +243,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.0019499999471008778
+    entityfactionloss: 0.04459459334611893
     explosiondelaybonus: -6.0
     explosivedamage: 5.0
     explosivedamageresonance: 1.0
@@ -329,7 +329,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.0026000000070780516
+    entityfactionloss: 0.05945945903658867
     explosivedamage: 6.666666507720947
     explosivedamageresonance: 1.0
     falloff: 24000.0
@@ -410,7 +410,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 0.002286901930347085
     explosiondelaybonus: -1.4666666984558105
     explosivedamage: 3.1111111640930176
     explosivedamageresonance: 1.0
@@ -491,7 +491,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.0014299999456852674
+    entityfactionloss: 0.03270270302891731
     explosiondelaybonus: -4.400000095367432
     explosivedamage: 4.666666507720947
     explosivedamageresonance: 1.0
@@ -573,7 +573,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.002145000034943223
+    entityfactionloss: 0.04905405268073082
     explosiondelaybonus: -6.599999904632568
     explosivedamage: 7.0
     explosivedamageresonance: 1.0
@@ -655,7 +655,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.002859999891370535
+    entityfactionloss: 0.06540540605783463
     explosivedamage: 9.333333015441895
     explosivedamageresonance: 1.0
     falloff: 24000.0
@@ -727,6 +727,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 90.0
+    entityfactionloss: 0.14300000667572021
     explosivedamage: 130.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -783,6 +784,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 105.0
+    entityfactionloss: 0.14300000667572021
     explosivedamage: 85.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -840,6 +842,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 130.0
+    entityfactionloss: 0.09000000357627869
     explosivedamage: 55.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -896,6 +899,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 140.0
+    entityfactionloss: 0.09000000357627869
     explosivedamage: 78.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -953,6 +957,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 110.0
+    entityfactionloss: 0.09000000357627869
     explosivedamage: 33.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1010,6 +1015,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 110.0
+    entityfactionloss: 0.09000000357627869
     explosivedamage: 45.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1064,6 +1070,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 60.0
+    entityfactionloss: 0.1899999976158142
     explosivedamageresonance: 1.0
     falloff: 6000.0
     gfxboosterid: 397
@@ -1114,7 +1121,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 0.002286901930347085
     explosivedamage: 3.1111111640930176
     explosivedamageresonance: 1.0
     falloff: 6000.0
@@ -1174,7 +1181,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.0014299999456852674
+    entityfactionloss: 0.03270270302891731
     explosivedamage: 4.666666507720947
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1232,7 +1239,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.002145000034943223
+    entityfactionloss: 0.04905405268073082
     explosivedamage: 7.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1290,7 +1297,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.002859999891370535
+    entityfactionloss: 0.06540540605783463
     explosivedamage: 9.333333015441895
     explosivedamageresonance: 1.0
     falloff: 24000.0
@@ -1348,7 +1355,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1400.0
-    entityfactionloss: 9.999999747378752E-5
+    entityfactionloss: 0.002286901930347085
     explosivedamage: 2.222222328186035
     explosivedamageresonance: 1.0
     falloff: 6000.0
@@ -1409,7 +1416,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.0013000000035390258
+    entityfactionloss: 0.029729729518294334
     explosivedamage: 3.3333332538604736
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1471,7 +1478,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.0019499999471008778
+    entityfactionloss: 0.04459459334611893
     explosivedamage: 5.0
     explosivedamageresonance: 1.0
     falloff: 18000.0
@@ -1529,7 +1536,7 @@ types:
     entitychasemaxduration: 6000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 1000.0
-    entityfactionloss: 0.0026000000070780516
+    entityfactionloss: 0.05945945903658867
     explosivedamage: 6.666666507720947
     explosivedamageresonance: 1.0
     falloff: 24000.0

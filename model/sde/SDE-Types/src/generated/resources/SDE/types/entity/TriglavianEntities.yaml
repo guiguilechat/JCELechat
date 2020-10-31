@@ -29,7 +29,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 33.0
     explosivedamageresonance: 0.6700000166893005
@@ -105,7 +105,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 350.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 48.0
     explosivedamageresonance: 0.6700000166893005
@@ -333,7 +333,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 33.0
     explosivedamageresonance: 0.6700000166893005
@@ -411,7 +411,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 48.0
     explosivedamageresonance: 0.6700000166893005
@@ -491,7 +491,7 @@ types:
     entitycruisespeed: 267.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.028860999271273613
+    entityfactionloss: 0.19800686836242676
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 300.0
     explosivedamageresonance: 0.6700000166893005
@@ -866,7 +866,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 150.0
-    entityfactionloss: 0.066600002348423
+    entityfactionloss: 0.12999999523162842
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamageresonance: 0.4020000100135803
     falloff: 1.0
@@ -925,7 +925,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 150.0
-    entityfactionloss: 0.066600002348423
+    entityfactionloss: 0.12999999523162842
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamageresonance: 0.4020000100135803
     falloff: 1.0
@@ -984,7 +984,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 150.0
-    entityfactionloss: 0.066600002348423
+    entityfactionloss: 0.12999999523162842
     entitymaxvelocitysignatureradiusmultiplier: 6
     explosivedamageresonance: 0.4020000100135803
     falloff: 1.0
@@ -1052,7 +1052,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 425.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -13.25
     explosivedamage: 33.0
@@ -1140,7 +1140,7 @@ types:
     entitycruisespeed: 356.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.022200999781489372
+    entityfactionloss: 0.15231455862522125
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -16.0
     explosivedamage: 104.0
@@ -1404,7 +1404,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 33.0
     explosivedamageresonance: 0.6700000166893005
@@ -1481,7 +1481,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 48.0
     explosivedamageresonance: 0.6700000166893005
@@ -1788,7 +1788,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 440.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017760999500751495
+    entityfactionloss: 0.12185301631689072
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 84.0
     explosivedamageresonance: 0.6700000166893005
@@ -1865,7 +1865,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 417.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 41.0
     explosivedamageresonance: 0.6700000166893005
@@ -1941,7 +1941,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 292.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 60.0
     explosivedamageresonance: 0.6700000166893005
@@ -2018,7 +2018,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 333.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 41.0
     explosivedamageresonance: 0.6700000166893005
@@ -2096,7 +2096,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 250.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 60.0
     explosivedamageresonance: 0.6700000166893005
@@ -2176,7 +2176,7 @@ types:
     entitycruisespeed: 223.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.038026001304388046
+    entityfactionloss: 0.3043661117553711
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 375.0
     explosivedamageresonance: 0.6700000166893005
@@ -2253,7 +2253,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 354.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -16.5625
     explosivedamage: 41.0
@@ -2341,7 +2341,7 @@ types:
     entitycruisespeed: 297.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.03330099955201149
+    entityfactionloss: 0.26654645800590515
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -20.0
     explosivedamage: 130.0
@@ -2431,7 +2431,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 333.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 41.0
     explosivedamageresonance: 0.6700000166893005
@@ -2508,7 +2508,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 250.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 60.0
     explosivedamageresonance: 0.6700000166893005
@@ -2586,7 +2586,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 367.0
     entityequipmentmax: 2
-    entityfactionloss: 0.02664100006222725
+    entityfactionloss: 0.21323877573013306
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 105.0
     explosivedamageresonance: 0.6700000166893005
@@ -2732,7 +2732,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 375.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     explosivedamage: 41.0
@@ -2806,7 +2806,7 @@ types:
     entitycruisespeed: 315.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.03330099955201149
+    entityfactionloss: 0.26654645800590515
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 130.0
@@ -2880,7 +2880,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 271.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     explosivedamage: 60.0
@@ -2955,7 +2955,7 @@ types:
     entitycruisespeed: 277.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.038026001304388046
+    entityfactionloss: 0.3043661117553711
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 375.0
@@ -3029,7 +3029,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 333.0
     entityequipmentmax: 2
-    entityfactionloss: 0.02664100006222725
+    entityfactionloss: 0.21323877573013306
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 46.0
@@ -3103,7 +3103,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 383.0
     entityequipmentmax: 2
-    entityfactionloss: 0.02664100006222725
+    entityfactionloss: 0.21323877573013306
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 105.0
@@ -3395,7 +3395,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 365.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 39.0
     explosivedamageresonance: 0.6700000166893005
@@ -3468,7 +3468,7 @@ types:
     entitycruisespeed: 250.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.038026001304388046
+    entityfactionloss: 0.3043661117553711
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 341.0
     explosivedamageresonance: 0.6700000166893005
@@ -3541,7 +3541,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 317.0
     entityequipmentmax: 2
-    entityfactionloss: 0.02664100006222725
+    entityfactionloss: 0.21323877573013306
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 43.0
     explosivedamageresonance: 0.6700000166893005
@@ -3619,7 +3619,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 396.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 41.0
     explosivedamageresonance: 0.6700000166893005
@@ -3697,7 +3697,7 @@ types:
     entitycruisespeed: 333.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.03330099955201149
+    entityfactionloss: 0.26654645800590515
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 130.0
     explosivedamageresonance: 0.6700000166893005
@@ -3772,7 +3772,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 417.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 41.0
     explosivedamageresonance: 0.6700000166893005
@@ -3846,7 +3846,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 292.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017550000920891762
+    entityfactionloss: 0.14047297835350037
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 60.0
     explosivedamageresonance: 0.6700000166893005
@@ -3992,7 +3992,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 450.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     explosivedamage: 33.0
@@ -4066,7 +4066,7 @@ types:
     entitycruisespeed: 378.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.022200999781489372
+    entityfactionloss: 0.15231455862522125
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 104.0
@@ -4140,7 +4140,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 325.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     explosivedamage: 48.0
@@ -4215,7 +4215,7 @@ types:
     entitycruisespeed: 333.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.028860999271273613
+    entityfactionloss: 0.19800686836242676
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 300.0
@@ -4289,7 +4289,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017760999500751495
+    entityfactionloss: 0.12185301631689072
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 37.0
@@ -4363,7 +4363,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 460.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017760999500751495
+    entityfactionloss: 0.12185301631689072
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 84.0
@@ -4448,6 +4448,7 @@ types:
     entitycruisespeed: 112.5
     entityequipmentmax: 1
     entityequipmentmin: 1
+    entityfactionloss: 0.25
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.5
@@ -4750,7 +4751,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 281.25
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 24.75
     explosivedamageresonance: 0.6700000166893005
@@ -4823,7 +4824,7 @@ types:
     entitycruisespeed: 283.5
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.011099999770522118
+    entityfactionloss: 0.10153846442699432
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 78.0
@@ -4901,7 +4902,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 182.8125
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 36.0
     explosivedamageresonance: 0.6700000166893005
@@ -4975,7 +4976,7 @@ types:
     entitycruisespeed: 249.75
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.028860999271273613
+    entityfactionloss: 0.16500571370124817
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 225.0
@@ -5049,7 +5050,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 27.75
@@ -5126,7 +5127,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 225.0
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 24.75
     explosivedamageresonance: 0.6700000166893005
@@ -5201,7 +5202,7 @@ types:
     entitycruisespeed: 283.5
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.011099999770522118
+    entityfactionloss: 0.10153846442699432
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 78.0
@@ -5281,7 +5282,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 182.8125
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 36.0
     explosivedamageresonance: 0.6700000166893005
@@ -5357,7 +5358,7 @@ types:
     entitycruisespeed: 249.75
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.028860999271273613
+    entityfactionloss: 0.16500571370124817
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 225.0
@@ -5433,7 +5434,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 27.75
@@ -5509,7 +5510,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 345.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 63.0
@@ -5584,7 +5585,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 236.25
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     explosivedamage: 24.75
@@ -5658,7 +5659,7 @@ types:
     entitycruisespeed: 283.5
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.011099999770522118
+    entityfactionloss: 0.10153846442699432
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 78.0
@@ -5734,7 +5735,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 182.8125
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosiondelaybonus: -9.9375
     explosivedamage: 24.75
@@ -5823,7 +5824,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 281.25
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 24.75
     explosivedamageresonance: 0.6700000166893005
@@ -5901,7 +5902,7 @@ types:
     entitycruisespeed: 283.5
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.011099999770522118
+    entityfactionloss: 0.10153846442699432
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 78.0
@@ -5980,7 +5981,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 182.8125
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 36.0
     explosivedamageresonance: 0.6700000166893005
@@ -6058,7 +6059,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 27.75
@@ -6137,7 +6138,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 345.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 63.0
@@ -6284,7 +6285,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 182.8125
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     explosivedamage: 36.0
@@ -6359,7 +6360,7 @@ types:
     entitycruisespeed: 249.75
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.028860999271273613
+    entityfactionloss: 0.16500571370124817
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 225.0
@@ -6652,7 +6653,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 230.25
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 23.25
     explosivedamageresonance: 0.6700000166893005
@@ -6725,7 +6726,7 @@ types:
     entitycruisespeed: 283.5
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.011099999770522118
+    entityfactionloss: 0.10153846442699432
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 78.0
@@ -6800,7 +6801,7 @@ types:
     entitycruisespeed: 249.75
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.028860999271273613
+    entityfactionloss: 0.16500571370124817
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 225.0
@@ -6874,7 +6875,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 27.75
@@ -6948,7 +6949,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 27.75
@@ -7027,7 +7028,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 249.75
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 24.75
     explosivedamageresonance: 0.6700000166893005
@@ -7101,7 +7102,7 @@ types:
     entitycruisespeed: 283.5
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.011099999770522118
+    entityfactionloss: 0.10153846442699432
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 78.0
@@ -7177,7 +7178,7 @@ types:
     entitycruisespeed: 249.75
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.028860999271273613
+    entityfactionloss: 0.16500571370124817
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 225.0
@@ -7252,7 +7253,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 27.75
@@ -7327,7 +7328,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 345.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 63.0
@@ -7402,7 +7403,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 281.25
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 24.75
     explosivedamageresonance: 0.6700000166893005
@@ -7477,7 +7478,7 @@ types:
     entitycruisespeed: 283.5
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.011099999770522118
+    entityfactionloss: 0.10153846442699432
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 78.0
@@ -7553,7 +7554,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 182.8125
     entityequipmentmax: 2
-    entityfactionloss: 0.005849999841302633
+    entityfactionloss: 0.05351351574063301
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 36.0
     explosivedamageresonance: 0.6700000166893005
@@ -7629,7 +7630,7 @@ types:
     entitycruisespeed: 249.75
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.028860999271273613
+    entityfactionloss: 0.16500571370124817
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 225.0
@@ -7705,7 +7706,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 300.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 27.75
@@ -7778,7 +7779,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 345.0
     entityequipmentmax: 2
-    entityfactionloss: 0.00887999963015318
+    entityfactionloss: 0.0812307670712471
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 63.0
@@ -7851,7 +7852,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 438.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 31.0
     explosivedamageresonance: 0.6700000166893005
@@ -7924,7 +7925,7 @@ types:
     entitycruisespeed: 300.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.028860999271273613
+    entityfactionloss: 0.19800686836242676
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 273.0
     explosivedamageresonance: 0.6700000166893005
@@ -7997,7 +7998,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 380.0
     entityequipmentmax: 2
-    entityfactionloss: 0.017760999500751495
+    entityfactionloss: 0.12185301631689072
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 34.0
     explosivedamageresonance: 0.6700000166893005
@@ -8291,7 +8292,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 475.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 33.0
     explosivedamageresonance: 0.6700000166893005
@@ -8369,7 +8370,7 @@ types:
     entitycruisespeed: 400.0
     entityequipmentmax: 2
     entityequipmentmin: 1
-    entityfactionloss: 0.022200999781489372
+    entityfactionloss: 0.15231455862522125
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 104.0
     explosivedamageresonance: 0.6700000166893005
@@ -9036,7 +9037,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 500.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 33.0
     explosivedamageresonance: 0.6700000166893005
@@ -9110,7 +9111,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 350.0
     entityequipmentmax: 2
-    entityfactionloss: 0.011699999682605267
+    entityfactionloss: 0.08027026802301407
     entitymaxvelocitysignatureradiusmultiplier: 5
     explosivedamage: 48.0
     explosivedamageresonance: 0.6700000166893005
@@ -9418,7 +9419,7 @@ types:
     entitycruisespeed: 583.0
     entityequipmentmax: 2
     entityequipmentmin: 2
-    entityfactionloss: 0.029249999672174454
+    entityfactionloss: 0.20067568123340607
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     explosivedamage: 72.0
@@ -9497,7 +9498,7 @@ types:
     entitycruisespeed: 518.0
     entityequipmentmax: 2
     entityequipmentmin: 2
-    entityfactionloss: 0.038026001304388046
+    entityfactionloss: 0.26088523864746094
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 219.0
@@ -9879,7 +9880,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 379.0
     entityequipmentmax: 2
-    entityfactionloss: 0.029249999672174454
+    entityfactionloss: 0.20067568123340607
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52476
     explosivedamage: 84.0
@@ -10251,7 +10252,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 367.0
     entityequipmentmax: 2
-    entityfactionloss: 0.035760000348091125
+    entityfactionloss: 0.24533887207508087
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 65.0
@@ -10325,7 +10326,7 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 537.0
     entityequipmentmax: 2
-    entityfactionloss: 0.035760000348091125
+    entityfactionloss: 0.24533887207508087
     entitymaxvelocitysignatureradiusmultiplier: 5
     entitymissiletypeid: 52477
     explosivedamage: 147.0

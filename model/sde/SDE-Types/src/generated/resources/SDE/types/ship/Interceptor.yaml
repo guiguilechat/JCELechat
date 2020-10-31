@@ -147,6 +147,7 @@ types:
     requiredskill2level: 1
     rigsize: 1
     rigslots: 2
+    rolebonusoverheatdst: 100
     scanladarstrength: 9.0
     scanresolution: 1000.0
     scanspeed: 1500
@@ -318,6 +319,7 @@ types:
     requiredskill2level: 1
     rigsize: 1
     rigslots: 2
+    rolebonusoverheatdst: 100
     scanradarstrength: 10.0
     scanresolution: 975.0
     scanspeed: 2000
@@ -579,6 +581,7 @@ types:
     requiredskill2level: 1
     rigsize: 1
     rigslots: 2
+    rolebonusoverheatdst: 100
     scangravimetricstrength: 14.0
     scanresolution: 940.0
     scanspeed: 3000
@@ -753,6 +756,7 @@ types:
     requiredskill2level: 1
     rigsize: 1
     rigslots: 2
+    rolebonusoverheatdst: 100
     scanmagnetometricstrength: 10.0
     scanresolution: 880.0
     scanspeed: 2500

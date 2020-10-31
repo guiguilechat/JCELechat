@@ -10,9 +10,9 @@ types:
     basewarpspeed: 1
     capacitorcapacity: 700.0
     capacity: 400.0
-    cpuoutput: 210
+    cpuoutput: 250
     destroyerrofpenality: 1.25
-    elitebonusinterdictors1: -5
+    elitebonusinterdictors1: -15
     elitebonusinterdictors2: -10
     emdamageresonance: 0.6700000166893005
     explosivedamageresonance: 0.6700000166893005
@@ -44,14 +44,14 @@ types:
     maxlockedtargets: 7
     maxpassengers: 450
     maxtargetrange: 55000.0
-    maxvelocity: 305.0
+    maxvelocity: 316.0
     medslots: 2
     metalevelold: 5
     mintargetveldmgmultiplier: 0.25
     name: Eris
     packagedVolume: 5000.0
     portionSize: 1
-    poweroutput: 64
+    poweroutput: 71
     powertospeed: 1
     propulsiongraphicid: 394
     published: true
@@ -73,9 +73,9 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.6000000238418579
     shielduniformity: 0.75
-    shipbonusgd1: 10
+    shipbonusgd1: -5
     shipbonusgd2: 10
-    signatureradius: 85.0
+    signatureradius: 78.0
     structureuniformity: 1.0
     techlevel: 2
     thermaldamageresonance: 0.6700000166893005
@@ -98,7 +98,7 @@ types:
     basewarpspeed: 1
     capacitorcapacity: 650.0
     capacity: 450.0
-    cpuoutput: 280
+    cpuoutput: 290
     destroyerrofpenality: 1.25
     elitebonusinterdictors1: 10
     elitebonusinterdictors2: -10
@@ -162,7 +162,7 @@ types:
     shieldthermaldamageresonance: 0.4000000059604645
     shielduniformity: 0.75
     shipbonuscd1: 10
-    shipbonuscd2: -5
+    shipbonuscd2: 10
     signatureradius: 80.0
     structureuniformity: 1.0
     techlevel: 2
@@ -186,7 +186,7 @@ types:
     basewarpspeed: 1
     capacitorcapacity: 750.0
     capacity: 380.0
-    cpuoutput: 240
+    cpuoutput: 270
     destroyerrofpenality: 1.25
     elitebonusinterdictors1: -4
     elitebonusinterdictors2: -10
@@ -227,7 +227,7 @@ types:
     name: Heretic
     packagedVolume: 5000.0
     portionSize: 1
-    poweroutput: 60
+    poweroutput: 70
     powertospeed: 1
     propulsiongraphicid: 394
     published: true

@@ -8,6 +8,8 @@ import java.util.Set;
 
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent;
+import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_DIVISION;
+import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_TYPE;
 
 public class MultipleAgentStations {
 
@@ -15,24 +17,25 @@ public class MultipleAgentStations {
 		int L3S=0, L4S=0, L3M=0,L4M=0, L3D=0, L4D=0;
 		SolarSystem solsyst;
 
-		public int missions(String division, int level) {
+		public int missions(AGENT_DIVISION division, int level) {
 			if (level < 3 || level > 4) {
 				return 0;
 			}
 			switch (division) {
-				case "Distribution":
-					return level == 3 ? L3D : L4D;
-				case "Mining":
-					return level == 3 ? L3M : L4M;
-				case "Security":
-					return level == 3 ? L3S : L4S;
-				default:
-					throw new UnsupportedOperationException("case not handled " + division);
+			case Distribution:
+				return level == 3 ? L3D : L4D;
+			case Mining:
+				return level == 3 ? L3M : L4M;
+			case Security:
+				return level == 3 ? L3S : L4S;
+			default:
+				throw new UnsupportedOperationException("case not handled " + division);
 			}
 		}
 	}
 
-	static final Set<String> validDivisions = new HashSet<>(Arrays.asList("Distribution", "Mining", "Security"));
+	static final Set<AGENT_DIVISION> validDivisions = new HashSet<>(
+			Arrays.asList(AGENT_DIVISION.Distribution, AGENT_DIVISION.Mining, AGENT_DIVISION.Security));
 
 	public static boolean csv = true;
 	public static String csvSeparator = "; ";
@@ -42,7 +45,7 @@ public class MultipleAgentStations {
 		HashMap<String, StationAgentsSummary> summsLS = new HashMap<>();
 		HashMap<String, StationAgentsSummary> summsNS = new HashMap<>();
 		for( Agent a : Agent.load().values()) {
-			if (a.level >= 3 && a.level < 5 && a.type.equals("BasicAgent") && validDivisions.contains(a.division)) {
+			if (a.level >= 3 && a.level < 5 && a.type == AGENT_TYPE.Basic && validDivisions.contains(a.division)) {
 				SolarSystem solsyst = SolarSystem.load().get(a.system) ;
 				Map<String, StationAgentsSummary> dataholder=null;
 				if(solsyst.isHS()) {
@@ -61,29 +64,29 @@ public class MultipleAgentStations {
 					dataholder.put(a.station, sum);
 				}
 				switch (a.division) {
-					case "Distribution":
-						if (a.level == 3) {
-							sum.L3D++;
-						} else {
-							sum.L4D++;
-						}
-						break;
-					case "Mining":
-						if (a.level == 3) {
-							sum.L3M++;
-						} else {
-							sum.L4M++;
-						}
-						break;
-					case "Security":
-						if (a.level == 3) {
-							sum.L3S++;
-						} else {
-							sum.L4S++;
-						}
-						break;
-					default:
-						throw new UnsupportedOperationException("case not handled " + a.division);
+				case Distribution:
+					if (a.level == 3) {
+						sum.L3D++;
+					} else {
+						sum.L4D++;
+					}
+					break;
+				case Mining:
+					if (a.level == 3) {
+						sum.L3M++;
+					} else {
+						sum.L4M++;
+					}
+					break;
+				case Security:
+					if (a.level == 3) {
+						sum.L3S++;
+					} else {
+						sum.L4S++;
+					}
+					break;
+				default:
+					throw new UnsupportedOperationException("case not handled " + a.division);
 				}
 			}
 		}
@@ -98,7 +101,7 @@ public class MultipleAgentStations {
 			if (!csv) {
 				System.out.println(secstatus+":");
 			}
-			for (String division : validDivisions) {
+			for (AGENT_DIVISION division : validDivisions) {
 				for (int level : new int[] { 3, 4 }) {
 					if (!csv) {
 						System.out.println("  " + division + " level " + level);

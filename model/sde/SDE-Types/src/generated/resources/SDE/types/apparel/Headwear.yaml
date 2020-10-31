@@ -9,6 +9,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's 'Crimson Harvest' Cap:
+    gender: 2
+    id: 56637
+    marketGroup: 1943
+    name: Men's 'Crimson Harvest' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Crusader' Beret (Amarr Empire):
     gender: 1
     id: 42741
@@ -459,6 +468,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Crimson Harvest' Cap:
+    gender: 2
+    id: 56634
+    marketGroup: 1943
+    name: Women's 'Crimson Harvest' Cap
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'Crusader' Beret (Amarr Empire):
     gender: 3

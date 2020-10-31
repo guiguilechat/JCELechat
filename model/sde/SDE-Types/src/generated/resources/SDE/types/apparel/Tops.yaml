@@ -1,4 +1,13 @@
 types:
+  Men's 'Crimson Harvest' T-Shirt:
+    gender: 2
+    id: 56639
+    marketGroup: 1398
+    name: Men's 'Crimson Harvest' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Emergent Threats' T-shirt YC 117:
     gender: 1
     id: 34824
@@ -842,6 +851,15 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's 'Crimson Harvest' T-Shirt:
+    gender: 2
+    id: 56636
+    marketGroup: 1406
+    name: Women's 'Crimson Harvest' T-Shirt
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612
   Women's 'Emergent Threats' T-shirt YC 117:
     gender: 3

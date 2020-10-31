@@ -21,6 +21,28 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 17
+  Advanced drone skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 43
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56185
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced drone skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Advanced gunnery Skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 4320
@@ -378,6 +400,30 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
+  Basic 'Radiance' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18611.45703125
+    boosterness: 10
+    charismabonus: 4
+    followsjumpclones: 1
+    id: 52807
+    intelligencebonus: 4
+    marketGroup: 2487
+    memorybonus: 4
+    name: Basic 'Radiance' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 4
   Caldari spaceship skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -960,6 +1006,30 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Extended 'Radiance' Cerebral Accelerator:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18611.45703125
+    boosterness: 10
+    charismabonus: 6
+    followsjumpclones: 1
+    id: 52809
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: Extended 'Radiance' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 6
   Festival-only New Eden Commander Pack:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18555.125
@@ -1984,6 +2054,30 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Potent 'Radiance' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18611.45703125
+    boosterness: 10
+    charismabonus: 8
+    followsjumpclones: 1
+    id: 52808
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Potent 'Radiance' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 8
   Prototype Cerebral Accelerator:
     boostermaxcharagehours: 336
     boosterness: 4
@@ -2114,6 +2208,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2020.11:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18597.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56823
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2020.11
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.6:
     boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18453.666015625
@@ -2195,6 +2312,75 @@ types:
     intelligencebonus: 5
     memorybonus: 5
     name: Serenity Monthly Cerebral Accelerator - 2020.9
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity November Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18606.125
+    boosterness: 64
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56834
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity November Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity November Season Pass:
+    boosterduration: 2.4192E9
+    boosterlastinjectiondatetime: 18594.125
+    boosterness: 65
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56835
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity November Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity November Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18606.125
+    boosterness: 63
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56833
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity November Season Standard Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -2851,6 +3037,28 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 1
+  Standard missile skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 4320
+    boosterness: 40
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56182
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard missile skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Standard ore processing skill accelerator:
     boosterduration: 60000.0
     boosterness: 44
@@ -3216,47 +3424,3 @@ types:
     signatureradiusbonus: -2.25
     socialbonus: 100
     volume: 1.0
-  '[no messageID: 569526]':
-    boosterduration: 60000.0
-    boostermaxcharagehours: 4320
-    boosterness: 40
-    charismabonus: 1
-    followsjumpclones: 1
-    id: 56182
-    intelligencebonus: 1
-    memorybonus: 1
-    name: '[no messageID: 569526]'
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 1
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 1
-  '[no messageID: 569532]':
-    boosterduration: 60000.0
-    boostermaxcharagehours: 4320
-    boosterness: 43
-    charismabonus: 1
-    followsjumpclones: 1
-    id: 56185
-    intelligencebonus: 1
-    memorybonus: 1
-    name: '[no messageID: 569532]'
-    nondestructible: 1
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    perceptionbonus: 1
-    portionSize: 1
-    published: true
-    radius: 1.0
-    requiredskill1: 3402
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-    willpowerbonus: 1

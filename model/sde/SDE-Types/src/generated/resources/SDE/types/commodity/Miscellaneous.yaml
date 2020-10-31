@@ -4645,6 +4645,17 @@ types:
     portionSize: 1
     published: true
     volume: 2.0
+  Warclone Blanks:
+    exporttaxmultiplier: 1
+    id: 56788
+    importtaxmultiplier: 1
+    marketGroup: 1661
+    name: Warclone Blanks
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 0.10000000149011612
   Whelan Machorin's Head:
     exporttaxmultiplier: 1
     id: 20375

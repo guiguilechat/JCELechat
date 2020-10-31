@@ -130207,6 +130207,10 @@ usages:
       49540: null
       49753: null
       49787: null
+      52807: null
+      52808: null
+      52809: null
+      54812: null
   49099:
     productOfManuf: !!set
       49100: null
@@ -130824,6 +130828,15 @@ usages:
       11399: 52.0
       52313: 132.0
       52314: 46.0
+  52807:
+    reprocessInto:
+      48927: 1.0
+  52808:
+    reprocessInto:
+      48927: 1.0
+  52809:
+    reprocessInto:
+      48927: 1.0
   52907:
     productOfManuf: !!set
       53029: null
@@ -132250,33 +132263,9 @@ usages:
       16679: 7.2
   54802: {}
   54803: {}
-  54808:
-    materialInInvention: !!set
-      54845: null
-      54852: null
-      54857: null
-      54873: null
-  54809:
-    materialInInvention: !!set
-      54845: null
-      54852: null
-      54857: null
-  54810:
-    materialInInvention: !!set
-      54861: null
-      54863: null
-      54865: null
-      54867: null
-      54869: null
-      54871: null
-  54811:
-    materialInInvention: !!set
-      54862: null
-      54864: null
-      54866: null
-      54868: null
-      54870: null
-      54872: null
+  54812:
+    reprocessInto:
+      48927: 1.0
   54850:
     productOfInvention: !!set
       54845: null

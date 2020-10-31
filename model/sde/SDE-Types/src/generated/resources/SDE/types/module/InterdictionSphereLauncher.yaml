@@ -3,6 +3,7 @@ types:
     canfitshipgroup01: 541
     capacity: 15.0
     chargegroup1: 548
+    chargegroup2: 4088
     chargerate: 1
     cpu: 100.0
     disallowinempirespace: 1

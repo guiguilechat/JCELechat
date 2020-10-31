@@ -119,6 +119,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Crimson Gauntlet Shortcut Keypass:
+    id: 56691
+    mass: 1.0
+    name: Crimson Gauntlet Shortcut Keypass
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Crimson Hand Level 1 Passcard:
     id: 17854
     mass: 1.0
@@ -147,14 +155,6 @@ types:
     id: 17856
     mass: 1.0
     name: Crimson Hand Level 4 Passcard
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
-  Crimson Harvest keypass:
-    id: 56691
-    mass: 1.0
-    name: Crimson Harvest keypass
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
@@ -599,11 +599,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Shining Flame keypass:
+  Shining Flame Base Shortcut Keypass:
     id: 56692
-    name: Shining Flame keypass
+    mass: 1.0
+    name: Shining Flame Base Shortcut Keypass
+    packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true
+    volume: 0.10000000149011612
   Shiny Sentry Key:
     id: 23907
     mass: 1.0

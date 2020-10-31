@@ -4,7 +4,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -30,6 +29,8 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.Material;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EnpcCorporations;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Agent;
+import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_DIVISION;
+import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_TYPE;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Corporation;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer.ItemRef;
@@ -60,12 +61,7 @@ public class NPCsTranslater {
 		LinkedHashMap<String, Corporation> corporations = new LinkedHashMap<>();
 		LinkedHashMap<Integer, LPOffer> lpoffers = new LinkedHashMap<>();
 
-		Map<Integer, String> activities = new HashMap<>();
-		activities.put(18, "R&D");
-		activities.put(22, "Distribution");
-		activities.put(23, "Mining");
-		activities.put(24, "Security");
-		translate(Eagents.load(), activities, agents, corporations,
+		translate(Eagents.load(), agents, corporations,
 				lpoffers);
 
 		// sort
@@ -95,7 +91,7 @@ public class NPCsTranslater {
 	}
 
 	private static void translate(LinkedHashMap<Integer, Eagents> eagents,
-			Map<Integer, String> divisionTypes, LinkedHashMap<String, Agent> agents,
+			LinkedHashMap<String, Agent> agents,
 			LinkedHashMap<String, Corporation> corporations, LinkedHashMap<Integer, LPOffer> offers) {
 		ESIAccess esi = ESIAccess.INSTANCE;
 		CacheStatic cache = ESIStatic.INSTANCE.cache;
@@ -128,8 +124,14 @@ public class NPCsTranslater {
 			agent.name = idx2name.get(agent.id);
 			agent.isLocator = agt.isLocator;
 			agent.level = agt.level;
-			agent.type = "agentType_" + agt.agentTypeID;
-			agent.division = divisionTypes.getOrDefault(agt.divisionID, "div_" + agt.divisionID);
+			agent.type = AGENT_TYPE.of(agt.agentTypeID);
+			if (agent.type == null) {
+				logger.warn("no type for agent " + agent.name + " typeID=" + agt.agentTypeID);
+			}
+			agent.division = AGENT_DIVISION.of(agt.divisionID);
+			if (agent.division == null) {
+				logger.warn("no division for agent " + agent.name + " divisionID=" + agt.divisionID);
+			}
 			Location loc = agentsLocation.get(agent.id);
 			if (loc != null) {
 				agent.system = loc.system().name;
