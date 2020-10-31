@@ -77,8 +77,7 @@ public class Universe {
 						cachedNames.put(n.id, n);
 					}
 				} else {
-					logger
-					.error("could not load names for ids" + IntStream.of(ids).mapToObj(i -> i).collect(Collectors.toList())
+					logger.error("could not load names for ids" + IntStream.of(ids).mapToObj(i -> i).collect(Collectors.toList())
 							+ " resp=" + newreq.getResponseCode() + " err=" + newreq.getError());
 				}
 			}
@@ -191,6 +190,8 @@ public class Universe {
 	/** number of meter in an AU */
 	public static final long M_PER_AU = 149597870700l;
 
+	private int[] pochvenSystems = null;
+
 	/**
 	 * get the trip distance, from one station to the sun of a system
 	 *
@@ -201,8 +202,19 @@ public class Universe {
 	protected TripDistance computeDistance(R_get_universe_stations_station_id station,
 			R_get_universe_systems_system_id destination) {
 		TripDistance ret = new TripDistance();
+		if (pochvenSystems == null) {
+			synchronized (this) {
+				if (pochvenSystems == null) {
+					List<ObsObjHolder<R_get_universe_constellations_constellation_id>> constellations = IntStream
+							.of(con.cache.universe.regions(10000070).get().constellations)
+							.mapToObj(c -> con.cache.universe.constellations(c)).collect(Collectors.toList());
+					pochvenSystems = constellations.parallelStream().flatMapToInt(c -> IntStream.of(c.get().systems)).toArray();
+					logger.debug("pochven systems are " + IntStream.of(pochvenSystems).boxed().collect(Collectors.toList()));
+				}
+			}
+		}
 		List<R_get_universe_systems_system_id> systems = con.cache.route
-				.get(null, null, destination.system_id, flag.secure, station.system_id).get().parallelStream()
+				.get(pochvenSystems, null, destination.system_id, flag.secure, station.system_id).get().parallelStream()
 				.map(si -> cache.systems(si).get()).collect(Collectors.toList());
 		M_3_xnumber_ynumber_znumber lastPos = station.position;
 		R_get_universe_systems_system_id lastSys = cache.systems(station.system_id).get();
@@ -211,9 +223,11 @@ public class Universe {
 			if (nextSys.system_id == lastSys.system_id) {
 				continue;
 			}
+			R_get_universe_systems_system_id flastSys = lastSys;
 			R_get_universe_stargates_stargate_id nextGate = IntStream.of(lastSys.stargates)
 					.mapToObj(stargate -> cache.stargates(stargate).get())
-					.filter(sg -> sg.destination.system_id == nextSys.system_id).findFirst().get();
+					.filter(sg -> sg.destination.system_id == nextSys.system_id).findFirst()
+					.orElseThrow(() -> new RuntimeException("can't find gate from " + flastSys.name + " to " + nextSys.name));
 			double dist_AU = distance(lastPos, nextGate.position) / M_PER_AU;
 			// System.err.println("dist to " + nextSys.name + " is " + dist_AU);
 			ret.AU += dist_AU;
@@ -311,8 +325,7 @@ public class Universe {
 		// cruise distance is the effective distance we travel at cruise speed.
 		double cruise_distance = Math.max(nbAU - nbjumps * (dist_decel + 1), 0);
 
-		return (int) (time_per_jump_change * nbjumps + nbGates * 10
-				+ Math.ceil(cruise_distance / warpseed));
+		return (int) (time_per_jump_change * nbjumps + nbGates * 10 + Math.ceil(cruise_distance / warpseed));
 	}
 
 	/**
@@ -351,9 +364,7 @@ public class Universe {
 		}
 		ObsObjHolder<R_get_universe_planets_planet_id>[] planets = new ObsObjHolder[0];
 		if (system.planets != null) {
-			planets =
-					Stream.of(system.planets)
-					.map(planet -> cache.planets(planet.planet_id)).toArray(ObsObjHolder[]::new);
+			planets = Stream.of(system.planets).map(planet -> cache.planets(planet.planet_id)).toArray(ObsObjHolder[]::new);
 		}
 		M_3_xnumber_ynumber_znumber[] positions = Stream
 				.concat(Stream.of(gates).map(gate -> gate.get().position), Stream.of(planets).map(plan -> plan.get().position))
@@ -389,7 +400,7 @@ public class Universe {
 		reachableHS.add(system.system_id);
 		List<R_get_universe_systems_system_id> nextRange = Arrays.asList(system);
 		for (int dist = 1; dist <= maxDist; dist++) {
-			for( R_get_universe_systems_system_id s : nextRange) {
+			for (R_get_universe_systems_system_id s : nextRange) {
 				doneSystems.add(s.system_id);
 			}
 			nextRange = nextRange.parallelStream().map(sys -> getAdjacentSystems(sys.system_id))
@@ -407,8 +418,8 @@ public class Universe {
 			synchronized (cachedAdjacentSystems) {
 				ret = cachedAdjacentSystems.get(systemId);
 				if (ret == null) {
-					ret = cache.systems(systemId).toList(
-							sys -> IntStream.of(sys.stargates).mapToObj(i -> cache.stargates(i)).collect(Collectors.toList()))
+					ret = cache.systems(systemId)
+							.toList(sys -> IntStream.of(sys.stargates).mapToObj(i -> cache.stargates(i)).collect(Collectors.toList()))
 							.mapItems(sgh -> cache.systems(sgh.get().destination.system_id)).mapItems(sysh -> sysh.get());
 					cachedAdjacentSystems.put(systemId, ret);
 				}
