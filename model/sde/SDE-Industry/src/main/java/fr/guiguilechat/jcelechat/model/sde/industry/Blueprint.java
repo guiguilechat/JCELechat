@@ -186,8 +186,18 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		if (manufacturing == null || manufacturing.materials == null) {
 			return 0.0;
 		}
-		return manufacturing.materials.parallelStream()
+		double ret = manufacturing.materials.parallelStream()
 				.mapToDouble(mat -> mat == null ? 0 : mat.quantity * getAdjusted.apply(mat.id)).sum();
+		if (ret == Double.POSITIVE_INFINITY) {
+			System.err.println("infinitie eiv for " + name());
+			for (MaterialReq<?> mat : manufacturing.materials) {
+				double adj = getAdjusted.apply(mat.id);
+				if (adj == Double.POSITIVE_INFINITY) {
+					System.out.println("adjusted for id " + mat.id + " = " + adj);
+				}
+			}
+		}
+		return ret;
 	}
 
 	/**

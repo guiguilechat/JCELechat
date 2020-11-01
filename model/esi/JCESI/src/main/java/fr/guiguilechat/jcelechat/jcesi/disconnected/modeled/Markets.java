@@ -107,7 +107,7 @@ public class Markets {
 	}
 
 	public double getAdjusted(int itemId) {
-		return getAdjusteds().getOrDefault(itemId, Double.POSITIVE_INFINITY);
+		return getAdjusteds().getOrDefault(itemId, 0.0);
 	}
 
 	private ObsMapHolder<Integer, Double> averages = null;
@@ -125,6 +125,6 @@ public class Markets {
 	}
 
 	public double getAverage(int itemId) {
-		return getAverages().getOrDefault(itemId, Double.POSITIVE_INFINITY);
+		return getAverages().getOrDefault(itemId, 0.0);
 	}
 }
