@@ -32,8 +32,13 @@ public class LogsLoader {
 		return baseDir == null ? null : new File(baseDir, "Gamelogs");
 	}
 
+	private GameLogsLoader gamelogs = null;
+
 	public GameLogsLoader gameLogs() {
-		return new GameLogsLoader(gameLogsFile());
+		if (gamelogs == null) {
+			gamelogs = new GameLogsLoader(gameLogsFile());
+		}
+		return gamelogs;
 	}
 
 	public static String defaultDocumentsDir() {

@@ -8,10 +8,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Locale;
-import java.util.function.Consumer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,9 +42,11 @@ public class GameLog {
 		return sessionstart;
 	}
 
+	public final File file;
 	private BufferedReader br = null;
 
 	public GameLog(File f) throws IOException {
+		file = f;
 		br = new BufferedReader(new FileReader(f));
 		addHeaders(this, br);
 	}
@@ -65,45 +64,33 @@ public class GameLog {
 		}
 	}
 
-	protected List<Consumer<LogLine>> consumers = new ArrayList<>();
-
-	public void follow(Consumer<LogLine> consumer) {
-		follow();
-		synchronized (consumers) {
-			consumers.add(consumer);
-		}
-	}
-
-	Thread followThread = null;
-
-	protected void follow() {
-		if(followThread!=null) {
-			return;
-		}
-		synchronized (this) {
-			if(followThread==null) {
-				followThread = new Thread(()->{
-					while(true) {
-						String line = null;
-						try {
-							line = br.readLine();
-						} catch (IOException e) {
-						}
-						if (line == null) {
-							logger.debug("end follow log for " + listener);
-							return;
-						}
-						LogLine logline = LogLine.of(line);
-						synchronized (consumers) {
-							for (Consumer<LogLine> c : consumers) {
-								c.accept(logline);
-							}
-						}
-					}
-				});
-				followThread.start();
+	/**
+	 * skip all the lines in the file, but the last one.
+	 *
+	 * @return trying to parse the last line. can return null if no such a last
+	 *         line, or last line is invalid
+	 */
+	public LogLine emptyBuffer() {
+		String last = null;
+		String line = null;
+		try {
+			while ((line = br.readLine()) != null) {
+				last = line;
 			}
+		} catch (IOException e) {
+			throw new UnsupportedOperationException("catch this", e);
 		}
+		return LogLine.of(last);
 	}
+
+	public LogLine readLine() throws IOException {
+		String line = br.readLine();
+		LogLine ret = LogLine.of(line);
+		if (ret == null && line != null && line.length() > 0) {
+			logger.debug("could not parse line [" + line + "] from file " + file);
+		}
+		return ret;
+	}
+
 
 }

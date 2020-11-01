@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 
 public class LogLine {
 
+	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(LogLine.class);
 
 	public final ZonedDateTime time;
@@ -22,17 +23,26 @@ public class LogLine {
 		this.details = details;
 	}
 
-	private static final Pattern LINEPATTERN = Pattern.compile("\\[ (.{19}) \\] \\((.*)\\) (.*)");
+	private static final Pattern LINEPATTERN = Pattern.compile("\\[ (.{19}) \\] \\((.*?)\\) (.*)");
 
+	/**
+	 * attempt to parse a line
+	 *
+	 * @param line
+	 *          the line to parse, can be null
+	 * @return
+	 */
 	public static LogLine of(String line) {
+		if (line == null || line.length() == 0) {
+			return null;
+		}
 		Matcher m = LINEPATTERN.matcher(line);
 		if (m.matches()) {
 			ZonedDateTime time = LocalDateTime.parse(m.group(1), GameLog.dateParser).atZone(GameLog.UTC);
 			return new LogLine(time, m.group(2), m.group(3));
 		} else {
-			logger.debug("line not matching " + line);
+			return null;
 		}
-		return null;
 	}
 
 
