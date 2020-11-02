@@ -10,7 +10,9 @@ import java.nio.file.WatchEvent;
 import java.nio.file.WatchKey;
 import java.nio.file.WatchService;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
@@ -54,7 +56,6 @@ public class GameLogsLoader {
 		} else if (!dir.isDirectory()) {
 			logger.warn("file " + dir.getAbsolutePath() + " is not directory");
 		}
-		observe();
 	}
 
 	private boolean isObserving = false;
@@ -135,6 +136,7 @@ public class GameLogsLoader {
 	private HashMap<String, List<Consumer<LogLine>>> accountFollowers = new HashMap<>();
 
 	public void follow(String listener, Consumer<LogLine> cons) {
+		observe();
 		synchronized (accountFollowers) {
 			accountFollowers.computeIfAbsent(listener, l -> new ArrayList<>()).add(cons);
 		}
@@ -143,6 +145,7 @@ public class GameLogsLoader {
 	private ArrayList<BiConsumer<String, LogLine>> allFollowers = new ArrayList<>();
 
 	public void follow(BiConsumer<String, LogLine> cons) {
+		observe();
 		synchronized (allFollowers) {
 			allFollowers.add(cons);
 		}
@@ -153,7 +156,9 @@ public class GameLogsLoader {
 	}
 
 	public void apply(FileFilter filter, Consumer<GameLog> c) {
-		for (File f : list(filter)) {
+		File[] files = list(filter);
+		Arrays.sort(files, Comparator.comparing(f -> f.lastModified()));
+		for (File f : files) {
 			try {
 				c.accept(new GameLog(f));
 			} catch (IOException e) {

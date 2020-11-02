@@ -8,16 +8,32 @@ import java.util.regex.Pattern;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import fr.guiguilechat.jcelechat.libs.logparser.gamelogs.types.CombatLine;
+
 public class LogLine {
 
 	@SuppressWarnings("unused")
 	private static final Logger logger = LoggerFactory.getLogger(LogLine.class);
 
+	public static enum LOGTYPE {
+		question, bounty, hint, warning, combat {
+			@Override
+			public LogLine parse(ZonedDateTime time, String details) {
+				return new CombatLine(time, combat, details);
+			}
+		},
+		None, notify, info, unknown;
+
+		public LogLine parse(ZonedDateTime time, String details) {
+			return new LogLine(time, this, details);
+		}
+	}
+
 	public final ZonedDateTime time;
-	public final String type;
+	public final LOGTYPE type;
 	public final String details;
 
-	public LogLine(ZonedDateTime time, String type, String details) {
+	public LogLine(ZonedDateTime time, LOGTYPE type, String details) {
 		this.time = time;
 		this.type = type;
 		this.details = details;
@@ -39,7 +55,9 @@ public class LogLine {
 		Matcher m = LINEPATTERN.matcher(line);
 		if (m.matches()) {
 			ZonedDateTime time = LocalDateTime.parse(m.group(1), GameLog.dateParser).atZone(GameLog.UTC);
-			return new LogLine(time, m.group(2), m.group(3));
+			LOGTYPE type = LOGTYPE.valueOf(m.group(2));
+			String details = m.group(3);
+			return type.parse(time, details);
 		} else {
 			return null;
 		}
