@@ -14,6 +14,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
+import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -24,7 +25,7 @@ import org.slf4j.LoggerFactory;
 import fr.guiguilechat.jcelechat.libs.logparser.LogsLoader;
 
 /**
- * detects new gamelog in the gamelogs folder. Two main ways to use this.
+ * detects new gamelog in the gamelogs folder.
  * <ul>
  * <li>list the existing log files, potentially with a filter to avoid loading
  * some files, with {@link #apply(FileFilter, Consumer)}. This will iterate over
@@ -32,6 +33,8 @@ import fr.guiguilechat.jcelechat.libs.logparser.LogsLoader;
  * <li>listen for log files for a specific listener only using
  * {@link #follow(String, Consumer)}. In that case new lines will be sent to the
  * consumer</li>
+ * <li>listen to all log files using {@link #follow(BiConsumer)}. New lines
+ * added to the log will be transmitted when they are correct.</li>
  * </ul>
  *
  * @author
@@ -117,18 +120,31 @@ public class GameLogsLoader {
 		if (listener == null || line == null) {
 			return;
 		}
-		synchronized (followers) {
-			for (Consumer<LogLine> c : followers.computeIfAbsent(listener, s -> Collections.emptyList())) {
+		synchronized (accountFollowers) {
+			for (Consumer<LogLine> c : accountFollowers.computeIfAbsent(listener, s -> Collections.emptyList())) {
 				c.accept(line);
+			}
+		}
+		synchronized (allFollowers) {
+			for (BiConsumer<String, LogLine> b : allFollowers) {
+				b.accept(listener, line);
 			}
 		}
 	}
 
-	private HashMap<String, List<Consumer<LogLine>>> followers = new HashMap<>();
+	private HashMap<String, List<Consumer<LogLine>>> accountFollowers = new HashMap<>();
 
 	public void follow(String listener, Consumer<LogLine> cons) {
-		synchronized (followers) {
-			followers.computeIfAbsent(listener, l -> new ArrayList<>()).add(cons);
+		synchronized (accountFollowers) {
+			accountFollowers.computeIfAbsent(listener, l -> new ArrayList<>()).add(cons);
+		}
+	}
+
+	private ArrayList<BiConsumer<String, LogLine>> allFollowers = new ArrayList<>();
+
+	public void follow(BiConsumer<String, LogLine> cons) {
+		synchronized (allFollowers) {
+			allFollowers.add(cons);
 		}
 	}
 
