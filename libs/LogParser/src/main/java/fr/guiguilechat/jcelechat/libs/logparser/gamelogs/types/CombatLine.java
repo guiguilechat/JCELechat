@@ -9,7 +9,7 @@ import fr.guiguilechat.jcelechat.libs.logparser.gamelogs.LogLine;
 public class CombatLine extends LogLine {
 
 	public static enum SUBTYPE {
-		MISS, HIT, WARPDIS, NOS, NEUT
+		MISS, HIT, POINT, NOS, NEUT
 	}
 
 	public CombatLine(ZonedDateTime time, LOGTYPE type, String details) {
@@ -144,7 +144,7 @@ public class CombatLine extends LogLine {
 		}
 		m = WARPDIS_PAT.matcher(details);
 		if (m.matches()) {
-			subtype = SUBTYPE.WARPDIS;
+			subtype = SUBTYPE.POINT;
 			scramble = false;
 			source = m.group(1);
 			target = m.group(2);
@@ -152,7 +152,7 @@ public class CombatLine extends LogLine {
 		}
 		m = WARPSCRAM_PAT.matcher(details);
 		if (m.matches()) {
-			subtype = SUBTYPE.WARPDIS;
+			subtype = SUBTYPE.POINT;
 			scramble = true;
 			source = m.group(1);
 			target = m.group(2);
