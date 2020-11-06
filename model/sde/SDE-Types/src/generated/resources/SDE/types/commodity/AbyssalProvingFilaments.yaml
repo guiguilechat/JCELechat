@@ -1,13 +1,4 @@
 types:
-  2v2 Cruiser Clash Proving Filament:
-    id: 56094
-    marketGroup: 2747
-    name: 2v2 Cruiser Clash Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
   Crimson Harvest Frigate FFA Proving Filament:
     id: 56353
     marketGroup: 2747
@@ -30,6 +21,15 @@ types:
     id: 56355
     marketGroup: 2747
     name: Event 12 Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Event 13 Proving Filament:
+    id: 56356
+    marketGroup: 2747
+    name: Event 13 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

@@ -1995,7 +1995,7 @@ types:
     volume: 20400.0
     warpspeedmultiplier: 3.0
   Harvest Follower:
-    agility: 4.5
+    agility: 1.5
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 1.0
@@ -2077,9 +2077,9 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 500.0
     volume: 28600.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 25.0
   Harvest Savior:
-    agility: 3.5999999046325684
+    agility: 1.2000000476837158
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 1.0
@@ -2162,9 +2162,9 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 500.0
     volume: 28600.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 25.0
   Harvest Shepherd:
-    agility: 3.5999999046325684
+    agility: 1.2000000476837158
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 1.0
@@ -2250,7 +2250,7 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 500.0
     volume: 28600.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 25.0
   Hunt Bantam:
     agility: 1.3700000047683716
     aipreferredsignatureradius: -1
@@ -3793,7 +3793,7 @@ types:
     volume: 29500.0
     warpspeedmultiplier: 3.0
   Shining Flame Crucifier:
-    agility: 1.0499999523162842
+    agility: 0.30000001192092896
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     aoecloudsizebonus: 14.0
@@ -3891,9 +3891,9 @@ types:
     thermaldamageresonance: 0.3330000042915344
     trackingspeed: 500.0
     volume: 26500.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 25.0
   Shining Flame Crusader:
-    agility: 1.0499999523162842
+    agility: 0.30000001192092896
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4300000071525574
@@ -3975,9 +3975,9 @@ types:
     thermaldamageresonance: 0.3330000042915344
     trackingspeed: 600.0
     volume: 26500.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 25.0
   Shining Flame Deacon:
-    agility: 1.0499999523162842
+    agility: 0.30000001192092896
     aipreferredsignatureradius: -1
     aitankingmodifierdrone: 0.699999988079071
     armordamageamount: 60.0
@@ -4060,7 +4060,7 @@ types:
     thermaldamageresonance: 0.3330000042915344
     trackingspeed: 400.0
     volume: 26500.0
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 20.0
   Splinter Alvi:
     aiignoredronesbelowsignatureradius: 50
     aipreferredsignatureradius: -1

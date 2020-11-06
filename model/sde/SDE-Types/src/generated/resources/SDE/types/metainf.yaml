@@ -37532,6 +37532,10 @@ id2name:
   56833: Serenity November Season Standard Cerebral Accelerator
   56834: Serenity November Season Advanced Cerebral Accelerator
   56835: Serenity November Season Pass
+  56875: Eifyr and Co. 'Rogue' Agility 11-11
+  56876: Poteque 'Prospector' Sharpeye 11-11
+  56877: ORE 'Harvester' Efficiency 11-11
+  56893: Concord Fiesta 11-11
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -41344,7 +41348,6 @@ name2group:
   280mm Howitzer Artillery II Blueprint: blueprint/ProjectileWeaponBlueprint
   280mm Prototype Siege Cannon: module/ProjectileWeapon
   2nd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  2v2 Cruiser Clash Proving Filament: commodity/AbyssalProvingFilaments
   300 Aurum Token: accessories/LegacyCurrency
   300 Billion ISK Contract Copy: specialeditionassets/SpecialEditionCommodities
   30km Amarr Capture Point: entity/CapturePoint
@@ -46379,6 +46382,7 @@ name2group:
   Computer Empathy Bonus: bonus/PhysicalBenefit
   Concentrated Veldspar: asteroid/Veldspar
   Concord Battleship: entity/MissionCONCORDBattleship
+  Concord Fiesta 11-11: implant/Booster
   Concord Starbase: station/Station
   Concordokken: specialeditionassets/SpecialEditionCommodities
   Concussion Bomb: charge/Bomb
@@ -49021,6 +49025,7 @@ name2group:
   Eifyr and Co. 'Rogue' Afterburner AB-608: implant/CyberNavigation
   Eifyr and Co. 'Rogue' Afterburner AB-610: implant/CyberNavigation
   Eifyr and Co. 'Rogue' Afterburner AB-612: implant/CyberNavigation
+  Eifyr and Co. 'Rogue' Agility 11-11: implant/Booster
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701: implant/CyberNavigation
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702: implant/CyberNavigation
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703: implant/CyberNavigation
@@ -49571,6 +49576,7 @@ name2group:
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
   Event 11 Proving Filament: commodity/AbyssalProvingFilaments
   Event 12 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 13 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
@@ -58231,6 +58237,7 @@ name2group:
   OE-5200 Rocket Launcher: module/MissileLauncherRocket
   OODA Loop Expert System Package: commodity/Commodities
   OP Insecticide: commodity/Biohazard
+  ORE 'Harvester' Efficiency 11-11: implant/Booster
   ORE Deep Core Mining Laser: module/MiningLaser
   ORE Expanded Cargohold: module/ExpandedCargohold
   ORE Freighter: skill/SpaceshipCommand
@@ -59209,6 +59216,7 @@ name2group:
   Poteque 'Prospector' Environmental Analysis EY-1005: implant/CyberScanning
   Poteque 'Prospector' Hacking HC-905: implant/CyberScanning
   Poteque 'Prospector' Salvaging SV-905: implant/CyberScanning
+  Poteque 'Prospector' Sharpeye 11-11: implant/Booster
   Pourpas Aunten: entity/StorylineMissionCruiser
   Powdered C-540 Graphite: material/AncientSalvage
   Powdered Cubensis: commodity/Commodities

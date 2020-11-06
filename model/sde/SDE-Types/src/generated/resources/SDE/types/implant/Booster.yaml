@@ -457,6 +457,26 @@ types:
     published: true
     socialbonus: 100
     volume: 1.0
+  Concord Fiesta 11-11:
+    boosterduration: 60000.0
+    boosterlastinjectiondatetime: 18627.666015625
+    boosterness: 34
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56893
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Concord Fiesta 11-11
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   EDENCOM Vorton Booster DA-2:
     boosterduration: 1800000.0
     boosterlastinjectiondatetime: 18604.45703125
@@ -622,6 +642,25 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
+  Eifyr and Co. 'Rogue' Agility 11-11:
+    boosterduration: 6.048E8
+    boosterlastinjectiondatetime: 18627.125
+    boosterness: 31
+    durationbonus: 10
+    followsjumpclones: 1
+    id: 56875
+    name: Eifyr and Co. 'Rogue' Agility 11-11
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfbonus: 5
+    volume: 1.0
+    warpsbonus: 10
   Elite Armor Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -2032,6 +2071,25 @@ types:
     shieldboostmultiplier: 5.0
     socialbonus: 100
     volume: 1.0
+  ORE 'Harvester' Efficiency 11-11:
+    boosterduration: 6.048E8
+    boosterlastinjectiondatetime: 18627.125
+    boosterness: 33
+    durationbonus: -5
+    followsjumpclones: 1
+    iceharvestcyclebonus: -5.0
+    id: 56877
+    miningamountbonus: 5
+    name: ORE 'Harvester' Efficiency 11-11
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
   Onslaught Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 17862.458984375
@@ -2078,6 +2136,25 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 8
+  Poteque 'Prospector' Sharpeye 11-11:
+    boosterduration: 6.048E8
+    boosterlastinjectiondatetime: 18627.125
+    boosterness: 32
+    durationbonus: -10
+    followsjumpclones: 1
+    id: 56876
+    maxscandeviationmodifier: -10
+    name: Poteque 'Prospector' Sharpeye 11-11
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    scanstrengthbonus: 10
+    socialbonus: 100
+    volume: 1.0
   Prototype Cerebral Accelerator:
     boostermaxcharagehours: 336
     boosterness: 4

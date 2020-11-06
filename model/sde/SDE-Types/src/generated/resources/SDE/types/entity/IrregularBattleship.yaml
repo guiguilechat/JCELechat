@@ -1155,7 +1155,7 @@ types:
     warpscrambleduration: 8000
     warpspeedmultiplier: 25.0
   Harvest Director:
-    agility: 0.019999999552965164
+    agility: 0.009999999776482582
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4399999976158142
@@ -1248,9 +1248,9 @@ types:
     trackingspeed: 140.0
     volume: 486000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 6.0
   Harvest Overseer:
-    agility: 0.019999999552965164
+    agility: 0.009999999776482582
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4399999976158142
@@ -1338,9 +1338,9 @@ types:
     trackingspeed: 140.0
     volume: 486000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 6.0
   Harvest Supervisor:
-    agility: 0.019999999552965164
+    agility: 0.009999999776482582
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4399999976158142
@@ -1428,7 +1428,7 @@ types:
     trackingspeed: 140.0
     volume: 486000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 6.0
   Manuzivar Slaver:
     agility: 3.0999999046325684
     aitankingmodifierdrone: 0.699999988079071
@@ -1902,7 +1902,7 @@ types:
     warpscrambleduration: 8000
     warpspeedmultiplier: 3.0
   Shining Flame Admiral:
-    agility: 0.019999999552965164
+    agility: 0.009999999776482582
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4399999976158142
@@ -1994,9 +1994,9 @@ types:
     trackingspeed: 140.0
     volume: 486000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 6.0
   Shining Flame Commander:
-    agility: 0.019999999552965164
+    agility: 0.009999999776482582
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4399999976158142
@@ -2083,9 +2083,9 @@ types:
     trackingspeed: 140.0
     volume: 486000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 6.0
   Shining Flame Commodore:
-    agility: 0.019999999552965164
+    agility: 0.009999999776482582
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.4000000059604645
     armorexplosivedamageresonance: 0.4399999976158142
@@ -2172,7 +2172,7 @@ types:
     trackingspeed: 140.0
     volume: 486000.0
     warpscrambleduration: 8000
-    warpspeedmultiplier: 3.0
+    warpspeedmultiplier: 6.0
   Swarm Overmind 2102:
     agility: 0.009999999776482582
     aishoulduseeffectmultiplier: 1
