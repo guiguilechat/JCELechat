@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 
 @RestController
-public class MarketController {
+public class APIController {
 
-	public MarketController() {
+	public APIController() {
 		// load the forge
 		ESIAccess.INSTANCE.markets.getMarket(10000002);
 		// load domain
