@@ -102,10 +102,10 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 	 * get the effective ME of an invented blueprint from a copy of given one
 	 *
 	 * @param target
-	 *          the blueprint copy
+	 *          the blueprint copy, can(should) be null
 	 * @return the effective ME, if success
 	 */
-	public int getMe(Blueprint target) {
+	public int getMe(Blueprint... target) {
 		return 2 + me();
 	}
 
@@ -113,10 +113,10 @@ public class InventionDecryptor extends TypeRef<GenericDecryptor> {
 	 * get the effective TE of an invented blueprint from a copy of given one
 	 *
 	 * @param target
-	 *          the blueprint copy
+	 *          the blueprint copy, can(should) be null
 	 * @return the effective TE, if success
 	 */
-	public int getTe(Blueprint target) {
+	public int getTe(Blueprint... target) {
 		return 4 + te();
 	}
 
