@@ -25,8 +25,13 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_type;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_type;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
@@ -62,13 +67,25 @@ public class Assets {
 	 * @author
 	 *
 	 */
-	public static class ItemNode extends R_get_characters_character_id_assets {
-		public Map<get_characters_character_id_assets_location_flag, List<ItemNode>> contained = new HashMap<>();
+	public static class ItemNode extends R_get_corporations_corporation_id_assets {
+		public Map<get_corporations_corporation_id_assets_location_flag, List<ItemNode>> contained = new HashMap<>();
 
 		public ItemNode() {
 		}
 
 		public ItemNode(R_get_characters_character_id_assets other) {
+			is_blueprint_copy = other.is_blueprint_copy;
+			is_singleton = other.is_singleton;
+			item_id = other.item_id;
+			location_flag = convert(other.location_flag);
+			location_id = other.location_id;
+			location_type = convert(other.location_type);
+			quantity = other.quantity;
+			type_id = other.type_id;
+			ESIAccess.INSTANCE.universe.cache.types(type_id);
+		}
+
+		public ItemNode(R_get_corporations_corporation_id_assets other) {
 			is_blueprint_copy = other.is_blueprint_copy;
 			is_singleton = other.is_singleton;
 			item_id = other.item_id;
@@ -80,14 +97,23 @@ public class Assets {
 			ESIAccess.INSTANCE.universe.cache.types(type_id);
 		}
 
+		private String name = null;
+
+		public String name() {
+			if (name == null) {
+				name = ESIAccess.INSTANCE.universe.cache.types(type_id).get().name;
+			}
+			return name;
+		}
+
 		public void print(StringBuilder sb, String prefix, String spacing, String newline) {
-			sb.append(prefix).append(ESIAccess.INSTANCE.universe.cache.types(type_id).get().name);
+			sb.append(prefix).append(name());
 			if (quantity != 1) {
 				sb.append(" ×").append(quantity);
 			}
 			// sb.append('[').append(item_id).append('@').append(location_id).append(']');
 			prefix = prefix + spacing;
-			for (Entry<get_characters_character_id_assets_location_flag, List<ItemNode>> e : contained.entrySet()) {
+			for (Entry<get_corporations_corporation_id_assets_location_flag, List<ItemNode>> e : contained.entrySet()) {
 				if (!e.getValue().isEmpty()) {
 					sb.append(newline).append(prefix).append(e.getKey());
 					for (ItemNode i : e.getValue()) {
@@ -107,19 +133,20 @@ public class Assets {
 	}
 
 	public static class ItemForest {
-		public Map<Long, ItemNode> items = new HashMap<>();
-		public Map<Long, List<ItemNode>> roots = new HashMap<>();
+		public Map<Long, ItemNode> itemsByID = new HashMap<>();
+		public Map<Location, List<ItemNode>> roots = new HashMap<>();
 	}
 
-	protected static ItemForest grow(List<R_get_characters_character_id_assets> assets) {
+	protected ItemForest grow(List<R_get_characters_character_id_assets> assets) {
 		ItemForest ret = new ItemForest();
 		for (R_get_characters_character_id_assets item : assets) {
-			ret.items.put(item.item_id, new ItemNode(item));
+			ret.itemsByID.put(item.item_id, new ItemNode(item));
 		}
-		for (ItemNode itemNode : ret.items.values()) {
-			ItemNode parent = ret.items.get(itemNode.location_id);
+		for (ItemNode itemNode : ret.itemsByID.values()) {
+			ItemNode parent = ret.itemsByID.get(itemNode.location_id);
 			if (parent == null) {
-				ret.roots.computeIfAbsent(itemNode.location_id, i -> new ArrayList<>()).add(itemNode);
+				Location location = Location.resolve(con, itemNode.location_id);
+				ret.roots.computeIfAbsent(location, loc -> new ArrayList<>()).add(itemNode);
 			} else {
 				parent.contained.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
 			}
@@ -134,7 +161,7 @@ public class Assets {
 			ObsListHolder<R_get_characters_character_id_assets> list = getList();
 			synchronized (list) {
 				if (cacheForest == null) {
-					cacheForest = list.map(Assets::grow);
+					cacheForest = list.map(this::grow);
 				}
 			}
 		}
@@ -264,6 +291,32 @@ public class Assets {
 			m1.merge(e.getKey(), e.getValue(), (a, b) -> a + b);
 		}
 		return m1;
+	}
+
+	public static get_corporations_corporation_id_assets_location_flag convert(
+			get_characters_character_id_assets_location_flag source) {
+		switch (source) {
+		case CorpseBay:
+			return get_corporations_corporation_id_assets_location_flag.CrateLoot;
+		default:
+			return get_corporations_corporation_id_assets_location_flag.valueOf(source.name());
+		}
+	}
+
+	public static get_corporations_corporation_id_assets_location_type convert(
+			get_characters_character_id_assets_location_type source) {
+		switch (source) {
+		case item:
+			return get_corporations_corporation_id_assets_location_type.item;
+		case other:
+			return get_corporations_corporation_id_assets_location_type.other;
+		case solar_system:
+			return get_corporations_corporation_id_assets_location_type.solar_system;
+		case station:
+			return get_corporations_corporation_id_assets_location_type.station;
+		default:
+			throw new UnsupportedOperationException("can't handle case " + source);
+		}
 	}
 
 }
