@@ -44,7 +44,10 @@
 	</distributionManagement>
 
 	<properties>
-		<java.version>12</java.version>
+		<java.version>13</java.version>
+		<!-- this is used by the java compiler plugin -->
+   	 	<maven.compiler.source>${java.version}</maven.compiler.source>
+    	<maven.compiler.target>${java.version}</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 		<openjfx-version>15-ea+4</openjfx-version>
@@ -69,13 +72,6 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
-				</configuration>
-			</plugin>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
-				<configuration>
-					<release>${java.version}</release>
 				</configuration>
 			</plugin>
 		</plugins>
