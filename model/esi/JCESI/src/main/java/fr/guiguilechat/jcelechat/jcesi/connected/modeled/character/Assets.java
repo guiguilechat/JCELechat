@@ -28,6 +28,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
@@ -97,13 +98,51 @@ public class Assets {
 			ESIAccess.INSTANCE.universe.cache.types(type_id);
 		}
 
-		private String name = null;
+		private transient R_get_universe_types_type_id type = null;
+
+		public R_get_universe_types_type_id type() {
+			if (type == null) {
+				type = ESIAccess.INSTANCE.universe.cache.types(type_id).get();
+			}
+			return type;
+		}
+
+
+		private transient String name = null;
 
 		public String name() {
 			if (name == null) {
-				name = ESIAccess.INSTANCE.universe.cache.types(type_id).get().name;
+				name = type().name;
 			}
 			return name;
+		}
+
+		private transient Double priceAverage = null;
+
+		public double priceAverage() {
+			if (priceAverage == null) {
+				if (is_blueprint_copy) {
+					priceAverage=0.0;
+				} else {
+					priceAverage = quantity * ESIAccess.INSTANCE.markets.getAverage(type_id);
+				}
+			}
+			return priceAverage;
+		}
+
+		private transient Double recPriceAverage = null;
+
+		public double recPriceAverage() {
+			if (recPriceAverage == null) {
+				double total = priceAverage();
+				for (List<ItemNode> list : contained.values()) {
+					for (ItemNode itemnode : list) {
+						total += itemnode.recPriceAverage();
+					}
+				}
+				recPriceAverage = total;
+			}
+			return recPriceAverage;
 		}
 
 		public void print(StringBuilder sb, String prefix, String spacing, String newline) {
