@@ -84,7 +84,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		@Override
 		public String toString() {
 			if (toString == null) {
-				toString = "" + quantity + "×" + name() + "(" + id + ")";
+				toString = name() + (quantity != 1 ? " ×" + quantity : "") + " (id=" + id + ")";
 			}
 			return toString;
 		}
@@ -96,7 +96,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		@Override
 		public String toString() {
 			if (toString == null) {
-				toString = "" + quantity + "×" + name() + "(" + id + ")(p=" + probability + ")";
+				toString = name() + (quantity != 1 ? " ×" + quantity : "") + " (id=" + id + ")(p=" + probability + ")";
 			}
 			return toString;
 		}
