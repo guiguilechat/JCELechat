@@ -8638,9 +8638,9 @@ locations:
     - Reprocessing Plant
     - Surgery
     solarSystem: Angur
-  Angymonne V - Moon 6 - Caldari Business Tribunal:
+  Angymonne V - Moon 6 - Veles Clade Semiosis Theater:
     id: 60003535
-    name: Angymonne V - Moon 6 - Caldari Business Tribunal
+    name: Angymonne V - Moon 6 - Veles Clade Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -11685,9 +11685,9 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Artoun
-  Arvasaras II - Moon 1 - Sukuuvestaa Corporation Production Plant:
+  Arvasaras II - Moon 1 - Veles Clade Extractive Terminus:
     id: 60002884
-    name: Arvasaras II - Moon 1 - Sukuuvestaa Corporation Production Plant
+    name: Arvasaras II - Moon 1 - Veles Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -11703,9 +11703,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Arvasaras
-  Arvasaras II - Moon 3 - Wiyrkomi Peace Corps Testing Facilities:
+  Arvasaras II - Moon 3 - Veles Clade Proving Complex:
     id: 60004282
-    name: Arvasaras II - Moon 3 - Wiyrkomi Peace Corps Testing Facilities
+    name: Arvasaras II - Moon 3 - Veles Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -11721,9 +11721,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Arvasaras
-  Arvasaras IV - Moon 15 - CONCORD Academy:
+  Arvasaras IV - Moon 15 - Veles Clade Semiosis Theater:
     id: 60012337
-    name: Arvasaras IV - Moon 15 - CONCORD Academy
+    name: Arvasaras IV - Moon 15 - Veles Clade Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -40164,9 +40164,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Ichinumi
-  Ichoriya V - Caldari Navy Logistic Support:
+  Ichoriya V - Veles Clade Mutaplasmid Farm:
     id: 60015147
-    name: Ichoriya V - Caldari Navy Logistic Support
+    name: Ichoriya V - Veles Clade Mutaplasmid Farm
     services:
     - Cloning
     - Docking
@@ -40182,9 +40182,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Ichoriya
-  Ichoriya VI - Kaalakiota Corporation Factory:
+  Ichoriya VI - Veles Clade Extractive Terminus:
     id: 60015120
-    name: Ichoriya VI - Kaalakiota Corporation Factory
+    name: Ichoriya VI - Veles Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -40460,9 +40460,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Iges
-  Ignebaener IV - Federal Intelligence Office Logistic Support:
+  Ignebaener IV - Perun Clade Semiosis Theater:
     id: 60011974
-    name: Ignebaener IV - Federal Intelligence Office Logistic Support
+    name: Ignebaener IV - Perun Clade Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -40478,9 +40478,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Ignebaener
-  Ignebaener VI - Moon 1 - Federal Intelligence Office Logistic Support:
+  Ignebaener VI - Moon 1 - Perun Clade Extractive Terminus:
     id: 60011968
-    name: Ignebaener VI - Moon 1 - Federal Intelligence Office Logistic Support
+    name: Ignebaener VI - Moon 1 - Perun Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -49416,27 +49416,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Katugumur
-  Kaunokka II - Freedom Extension Warehouse:
-    id: 60006016
-    name: Kaunokka II - Freedom Extension Warehouse
-    services:
-    - Cloning
-    - Docking
-    - Factory
-    - Fitting
-    - Jump Clone Facility
-    - Loyalty Point Store
-    - Market
-    - News
-    - Office Rental
-    - Paintshop
-    - Repair Facilities
-    - Reprocessing Plant
-    - Storage
-    solarSystem: Kaunokka
-  Kaunokka II - Moon 1 - Caldari Navy Testing Facilities:
+  Kaunokka II - Moon 1 - The Convocation of Triglav Proving Complex:
     id: 60003850
-    name: Kaunokka II - Moon 1 - Caldari Navy Testing Facilities
+    name: Kaunokka II - Moon 1 - The Convocation of Triglav Proving Complex
     services:
     - Cloning
     - Docking
@@ -49452,9 +49434,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kaunokka
-  Kaunokka II - Moon 1 - Hyasyoda Corporation Mineral Reserve:
+  Kaunokka II - Moon 1 - Veles Clade Mutaplasmid Farm:
     id: 60000559
-    name: Kaunokka II - Moon 1 - Hyasyoda Corporation Mineral Reserve
+    name: Kaunokka II - Moon 1 - Veles Clade Mutaplasmid Farm
     services:
     - Cloning
     - Docking
@@ -49470,9 +49452,27 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kaunokka
-  Kaunokka III - Moon 1 - Deep Core Mining Inc. Mining Outpost:
+  Kaunokka II - Veles Clade Bioadaptation Chambers:
+    id: 60006016
+    name: Kaunokka II - Veles Clade Bioadaptation Chambers
+    services:
+    - Cloning
+    - Docking
+    - Factory
+    - Fitting
+    - Jump Clone Facility
+    - Loyalty Point Store
+    - Market
+    - News
+    - Office Rental
+    - Paintshop
+    - Repair Facilities
+    - Reprocessing Plant
+    - Storage
+    solarSystem: Kaunokka
+  Kaunokka III - Moon 1 - Veles Clade Extractive Terminus:
     id: 60000634
-    name: Kaunokka III - Moon 1 - Deep Core Mining Inc. Mining Outpost
+    name: Kaunokka III - Moon 1 - Veles Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -49488,9 +49488,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kaunokka
-  Kaunokka IV - Hyasyoda Corporation Mining Outpost:
+  Kaunokka IV - Veles Clade Semiosis Theater:
     id: 60000556
-    name: Kaunokka IV - Hyasyoda Corporation Mining Outpost
+    name: Kaunokka IV - Veles Clade Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -49506,9 +49506,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kaunokka
-  Kaunokka V - Freedom Extension Storage:
+  Kaunokka V - Veles Clade Porevitium Vault:
     id: 60006004
-    name: Kaunokka V - Freedom Extension Storage
+    name: Kaunokka V - Veles Clade Porevitium Vault
     services:
     - Cloning
     - Docking
@@ -49524,9 +49524,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kaunokka
-  Kaunokka VI - Moon 1 - Deep Core Mining Inc. Mineral Reserve:
+  Kaunokka VI - Moon 1 - Veles Clade Extractive Terminus:
     id: 60000628
-    name: Kaunokka VI - Moon 1 - Deep Core Mining Inc. Mineral Reserve
+    name: Kaunokka VI - Moon 1 - Veles Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -49542,9 +49542,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kaunokka
-  Kaunokka VI - Moon 2 - Caldari Navy Assembly Plant:
+  Kaunokka VI - Moon 2 - The Convocation of Triglav Semiosis Theater:
     id: 60003847
-    name: Kaunokka VI - Moon 2 - Caldari Navy Assembly Plant
+    name: Kaunokka VI - Moon 2 - The Convocation of Triglav Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -49560,9 +49560,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kaunokka
-  Kaunokka VI - Moon 2 - Freedom Extension Storage:
+  Kaunokka VI - Moon 2 - Veles Clade Proving Complex:
     id: 60006013
-    name: Kaunokka VI - Moon 2 - Freedom Extension Storage
+    name: Kaunokka VI - Moon 2 - Veles Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -50785,9 +50785,9 @@ locations:
     - Storage
     - Surgery
     solarSystem: Kinakka
-  Kino IV - Moon 12 - Poksu Mineral Group Mining Outpost:
+  Kino IV - Moon 12 - Perun Clade Extractive Terminus:
     id: 60000712
-    name: Kino IV - Moon 12 - Poksu Mineral Group Mining Outpost
+    name: Kino IV - Moon 12 - Perun Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -50803,9 +50803,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kino
-  Kino V - Moon 3 - Poksu Mineral Group Mining Outpost:
+  Kino V - Moon 3 - Perun Clade Semiosis Theater:
     id: 60000706
-    name: Kino V - Moon 3 - Poksu Mineral Group Mining Outpost
+    name: Kino V - Moon 3 - Perun Clade Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -50821,9 +50821,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kino
-  Kino VII - Moon 10 - Caldari Provisions Plantation:
+  Kino VII - Moon 10 - Perun Clade Bioadaptation Chambers:
     id: 60000961
-    name: Kino VII - Moon 10 - Caldari Provisions Plantation
+    name: Kino VII - Moon 10 - Perun Clade Bioadaptation Chambers
     services:
     - Cloning
     - Docking
@@ -50839,9 +50839,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kino
-  Kino VII - Moon 13 - Ytiri Storage:
+  Kino VII - Moon 13 - Perun Clade Porevitium Vault:
     id: 60000355
-    name: Kino VII - Moon 13 - Ytiri Storage
+    name: Kino VII - Moon 13 - Perun Clade Porevitium Vault
     services:
     - Cloning
     - Docking
@@ -50857,9 +50857,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kino
-  Kino VII - Moon 17 - Caldari Provisions Plantation:
+  Kino VII - Moon 17 - The Convocation of Triglav Bioadaptation Chambers:
     id: 60000952
-    name: Kino VII - Moon 17 - Caldari Provisions Plantation
+    name: Kino VII - Moon 17 - The Convocation of Triglav Bioadaptation Chambers
     services:
     - Cloning
     - Docking
@@ -50875,9 +50875,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Kino
-  Kino VII - Moon 7 - Home Guard Testing Facilities:
+  Kino VII - Moon 7 - Perun Clade Semiosis Theater:
     id: 60004024
-    name: Kino VII - Moon 7 - Home Guard Testing Facilities
+    name: Kino VII - Moon 7 - Perun Clade Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -51767,9 +51767,9 @@ locations:
     - Reprocessing Plant
     - Security Office
     solarSystem: Komaa
-  Komo IX - Science and Trade Institute School:
+  Komo IX - Perun Clade Proving Complex:
     id: 60015007
-    name: Komo IX - Science and Trade Institute School
+    name: Komo IX - Perun Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -51785,9 +51785,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Komo
-  Konola V - Moon 12 - Lai Dai Corporation Warehouse:
+  Konola V - Moon 12 - Perun Clade Extractive Terminus:
     id: 60002293
-    name: Konola V - Moon 12 - Lai Dai Corporation Warehouse
+    name: Konola V - Moon 12 - Perun Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -52647,9 +52647,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Krilmokenur
-  Krirald IX - Moon 1 - Nugoeihuvi Corporation Development Studio:
+  Krirald IX - Moon 1 - Perun Clade Semiosis Theater:
     id: 60002002
-    name: Krirald IX - Moon 1 - Nugoeihuvi Corporation Development Studio
+    name: Krirald IX - Moon 1 - Perun Clade Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -52665,9 +52665,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Krirald
-  Krirald VII - Moon 11 - Republic Parliament Bureau:
+  Krirald VII - Moon 11 - Perun Clade Proving Complex:
     id: 60004687
-    name: Krirald VII - Moon 11 - Republic Parliament Bureau
+    name: Krirald VII - Moon 11 - Perun Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -52683,9 +52683,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Krirald
-  Krirald VII - Moon 14 - Republic Fleet Assembly Plant:
+  Krirald VII - Moon 14 - Perun Clade Mutaplasmid Farm:
     id: 60004837
-    name: Krirald VII - Moon 14 - Republic Fleet Assembly Plant
+    name: Krirald VII - Moon 14 - Perun Clade Mutaplasmid Farm
     services:
     - Cloning
     - Docking
@@ -61483,9 +61483,9 @@ locations:
     - Security Office
     - Stock Exchange
     solarSystem: Nalu
-  Nalvula IV - Moon 1 - Science and Trade Institute School:
+  Nalvula IV - Moon 1 - Perun Clade Proving Complex:
     id: 60004477
-    name: Nalvula IV - Moon 1 - Science and Trade Institute School
+    name: Nalvula IV - Moon 1 - Perun Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -61501,9 +61501,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Nalvula
-  Nalvula IX - Moon 2 - Spacelane Patrol Assembly Plant:
+  Nalvula IX - Moon 2 - Perun Clade Extractive Terminus:
     id: 60004150
-    name: Nalvula IX - Moon 2 - Spacelane Patrol Assembly Plant
+    name: Nalvula IX - Moon 2 - Perun Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -61628,9 +61628,9 @@ locations:
     - Reprocessing Plant
     - Security Office
     solarSystem: Nandeza
-  Nani I - Aliastra Warehouse:
+  Nani I - Svarog Clade Extractive Terminus:
     id: 60011173
-    name: Nani I - Aliastra Warehouse
+    name: Nani I - Svarog Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -61646,9 +61646,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Nani
-  Nani IV - Moon 2 - Aliastra Warehouse:
+  Nani IV - Moon 2 - The Convocation of Triglav Semiosis Theater:
     id: 60011170
-    name: Nani IV - Moon 2 - Aliastra Warehouse
+    name: Nani IV - Moon 2 - The Convocation of Triglav Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -61664,9 +61664,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Nani
-  Nani V - Moon 18 - Poteque Pharmaceuticals Biohazard Containment Facility:
+  Nani V - Moon 18 - Svarog Clade Bioadaptation Chambers:
     id: 60010438
-    name: Nani V - Moon 18 - Poteque Pharmaceuticals Biohazard Containment Facility
+    name: Nani V - Moon 18 - Svarog Clade Bioadaptation Chambers
     services:
     - Cloning
     - Docking
@@ -61682,9 +61682,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Nani
-  Nani VIII - Moon 2 - Poteque Pharmaceuticals Biohazard Containment Facility:
+  Nani VIII - Moon 2 - Svarog Clade Mutaplasmid Farm:
     id: 60010441
-    name: Nani VIII - Moon 2 - Poteque Pharmaceuticals Biohazard Containment Facility
+    name: Nani VIII - Moon 2 - Svarog Clade Mutaplasmid Farm
     services:
     - Cloning
     - Docking
@@ -68847,9 +68847,9 @@ locations:
     - Security Office
     - Surgery
     solarSystem: Otalieto
-  Otanuomi IV - Moon 4 - Ishukone Corporation Factory:
+  Otanuomi IV - Moon 4 - Perun Clade Proving Complex:
     id: 60002242
-    name: Otanuomi IV - Moon 4 - Ishukone Corporation Factory
+    name: Otanuomi IV - Moon 4 - Perun Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -68865,9 +68865,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Otanuomi
-  Otanuomi IV - Moon 5 - Ytiri Storage:
+  Otanuomi IV - Moon 5 - Perun Clade Bioadaptation Chambers:
     id: 60000382
-    name: Otanuomi IV - Moon 5 - Ytiri Storage
+    name: Otanuomi IV - Moon 5 - Perun Clade Bioadaptation Chambers
     services:
     - Cloning
     - Docking
@@ -68883,9 +68883,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Otanuomi
-  Otanuomi V - Moon 16 - Hyasyoda Corporation Refinery:
+  Otanuomi V - Moon 16 - Perun Clade Mutaplasmid Farm:
     id: 60000586
-    name: Otanuomi V - Moon 16 - Hyasyoda Corporation Refinery
+    name: Otanuomi V - Moon 16 - Perun Clade Mutaplasmid Farm
     services:
     - Cloning
     - Docking
@@ -68901,9 +68901,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Otanuomi
-  Otanuomi VI - Moon 7 - Hyasyoda Corporation Refinery:
+  Otanuomi VI - Moon 7 - Perun Clade Extractive Terminus:
     id: 60000583
-    name: Otanuomi VI - Moon 7 - Hyasyoda Corporation Refinery
+    name: Otanuomi VI - Moon 7 - Perun Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -68919,9 +68919,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Otanuomi
-  Otanuomi VI - Moon 9 - Ytiri Storage:
+  Otanuomi VI - Moon 9 - The Convocation of Triglav Proving Complex:
     id: 60000391
-    name: Otanuomi VI - Moon 9 - Ytiri Storage
+    name: Otanuomi VI - Moon 9 - The Convocation of Triglav Proving Complex
     services:
     - Cloning
     - Docking
@@ -68937,9 +68937,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Otanuomi
-  Otela II - Expert Housing Foundry:
+  Otela II - Perun Clade Bioadaptation Chambers:
     id: 60003037
-    name: Otela II - Expert Housing Foundry
+    name: Otela II - Perun Clade Bioadaptation Chambers
     services:
     - Cloning
     - Docking
@@ -68955,9 +68955,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Otela
-  Otela IV - Moon 9 - Expert Distribution Warehouse:
+  Otela IV - Moon 9 - Perun Clade Mutaplasmid Farm:
     id: 60002434
-    name: Otela IV - Moon 9 - Expert Distribution Warehouse
+    name: Otela IV - Moon 9 - Perun Clade Mutaplasmid Farm
     services:
     - Cloning
     - Docking
@@ -68973,9 +68973,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Otela
-  Otela V - Moon 1 - Expert Housing Foundry:
+  Otela V - Moon 1 - The Convocation of Triglav Semiosis Theater:
     id: 60003034
-    name: Otela V - Moon 1 - Expert Housing Foundry
+    name: Otela V - Moon 1 - The Convocation of Triglav Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -78028,9 +78028,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Saisio
-  Sakenta I - State War Academy:
+  Sakenta I - Perun Clade Proving Complex:
     id: 60015025
-    name: Sakenta I - State War Academy
+    name: Sakenta I - Perun Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -79649,9 +79649,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Semiki
-  Senda III - Moon 1 - State War Academy:
+  Senda III - Moon 1 - Veles Clade Proving Complex:
     id: 60015026
-    name: Senda III - Moon 1 - State War Academy
+    name: Senda III - Moon 1 - Veles Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -81827,9 +81827,9 @@ locations:
     - Reprocessing Plant
     - Stock Exchange
     solarSystem: Sizamod
-  Skarkon III - Moon 14 - Republic Parliament Bureau:
+  Skarkon III - Moon 14 - Svarog Clade Proving Complex:
     id: 60004651
-    name: Skarkon III - Moon 14 - Republic Parliament Bureau
+    name: Skarkon III - Moon 14 - Svarog Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -88639,9 +88639,9 @@ locations:
     - Security Office
     - Surgery
     solarSystem: Tunttaras
-  Tunudan IX - Perkone Warehouse:
+  Tunudan IX - Svarog Clade Porevitium Vault:
     id: 60001618
-    name: Tunudan IX - Perkone Warehouse
+    name: Tunudan IX - Svarog Clade Porevitium Vault
     services:
     - Cloning
     - Docking
@@ -88657,9 +88657,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Tunudan
-  Tunudan VII - Moon 4 - Rapid Assembly Warehouse:
+  Tunudan VII - Moon 4 - Svarog Clade Semiosis Theater:
     id: 60001471
-    name: Tunudan VII - Moon 4 - Rapid Assembly Warehouse
+    name: Tunudan VII - Moon 4 - Svarog Clade Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -90965,9 +90965,9 @@ locations:
     - Office Rental
     - Reprocessing Plant
     solarSystem: Uplingur
-  Urhinichi IX - State War Academy:
+  Urhinichi IX - Svarog Clade Proving Complex:
     id: 60015028
-    name: Urhinichi IX - State War Academy
+    name: Urhinichi IX - Svarog Clade Proving Complex
     services:
     - Cloning
     - Docking
@@ -92080,9 +92080,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Vaini
-  Vale II - Moon 1 - Material Acquisition Mining Outpost:
+  Vale II - Moon 1 - Veles Clade Extractive Terminus:
     id: 60009463
-    name: Vale II - Moon 1 - Material Acquisition Mining Outpost
+    name: Vale II - Moon 1 - Veles Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -92098,9 +92098,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Vale
-  Vale VI - Moon 2 - Chemal Tech Research Center:
+  Vale VI - Moon 2 - Veles Clade Semiosis Theater:
     id: 60010762
-    name: Vale VI - Moon 2 - Chemal Tech Research Center
+    name: Vale VI - Moon 2 - Veles Clade Semiosis Theater
     services:
     - Cloning
     - Docking
@@ -95081,9 +95081,9 @@ locations:
     - Repair Facilities
     - Reprocessing Plant
     solarSystem: Weld
-  Wirashoda V - Hyasyoda Corporation Mining Outpost:
+  Wirashoda V - Veles Clade Extractive Terminus:
     id: 60000490
-    name: Wirashoda V - Hyasyoda Corporation Mining Outpost
+    name: Wirashoda V - Veles Clade Extractive Terminus
     services:
     - Cloning
     - Docking
@@ -95099,9 +95099,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Wirashoda
-  Wirashoda VII - Moon 5 - Hyasyoda Corporation Mining Outpost:
+  Wirashoda VII - Moon 5 - Veles Clade Mutaplasmid Farm:
     id: 60000487
-    name: Wirashoda VII - Moon 5 - Hyasyoda Corporation Mining Outpost
+    name: Wirashoda VII - Moon 5 - Veles Clade Mutaplasmid Farm
     services:
     - Cloning
     - Docking
@@ -95117,9 +95117,9 @@ locations:
     - Reprocessing Plant
     - Storage
     solarSystem: Wirashoda
-  Wirashoda VIII - Moon 5 - Caldari Provisions Plantation:
+  Wirashoda VIII - Moon 5 - Veles Clade Bioadaptation Chambers:
     id: 60000970
-    name: Wirashoda VIII - Moon 5 - Caldari Provisions Plantation
+    name: Wirashoda VIII - Moon 5 - Veles Clade Bioadaptation Chambers
     services:
     - Cloning
     - Docking

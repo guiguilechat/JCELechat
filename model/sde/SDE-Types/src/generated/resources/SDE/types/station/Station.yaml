@@ -423,7 +423,7 @@ types:
     portionSize: 1
     price: 600000.0
     published: false
-    radius: 45734.0
+    radius: 100000.0
     signatureradius: 100.0
     volume: 1.0
   Jovian Construct:

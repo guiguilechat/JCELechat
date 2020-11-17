@@ -318,6 +318,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.10000000149011612
+  Men's Jita 4-4 Crew Shoes:
+    gender: 2
+    id: 56847
+    marketGroup: 1400
+    name: Men's Jita 4-4 Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Women's 'Corsair' Heels (beige):
     gender: 3
     id: 33723
@@ -806,4 +815,13 @@ types:
     portionSize: 1
     published: true
     radius: 1.0
+    volume: 0.10000000149011612
+  Women's Jita 4-4 Crew Shoes:
+    gender: 2
+    id: 56844
+    marketGroup: 1404
+    name: Women's Jita 4-4 Crew Shoes
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
     volume: 0.10000000149011612

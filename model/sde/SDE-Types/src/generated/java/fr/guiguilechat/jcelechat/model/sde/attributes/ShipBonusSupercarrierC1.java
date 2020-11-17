@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplied by Caldari Carrier skill level.
  */
 public class ShipBonusSupercarrierC1
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final ShipBonusSupercarrierC1 INSTANCE = new ShipBonusSupercarrierC1();
 

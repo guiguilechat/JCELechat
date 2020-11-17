@@ -80,6 +80,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Nanoheuristic Clone Mapper Blueprint:
+    id: 56832
+    industryblueprintrank: 1.0
+    name: Nanoheuristic Clone Mapper Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582
   Prototype Cerebral Accelerator Blueprint:
     id: 33112
     industryblueprintrank: 2.0

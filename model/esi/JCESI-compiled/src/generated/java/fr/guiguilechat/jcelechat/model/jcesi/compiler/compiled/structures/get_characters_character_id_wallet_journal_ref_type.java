@@ -139,6 +139,8 @@ public enum get_characters_character_id_wallet_journal_ref_type {
     duel_wager_payment("duel_wager_payment"),
     @JsonProperty("duel_wager_refund")
     duel_wager_refund("duel_wager_refund"),
+    @JsonProperty("ess_escrow_transfer")
+    ess_escrow_transfer("ess_escrow_transfer"),
     @JsonProperty("factory_slot_rental_fee")
     factory_slot_rental_fee("factory_slot_rental_fee"),
     @JsonProperty("gm_cash_transfer")

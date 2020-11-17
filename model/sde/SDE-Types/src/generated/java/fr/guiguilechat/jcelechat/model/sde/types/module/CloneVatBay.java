@@ -23,6 +23,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionQuantity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ConsumptionType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DeadspaceUnsafe;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowActivateOnWarp;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowDocking;
 import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowEarlyDeactivation;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
@@ -32,6 +34,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReclonerFuelQuantity;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ReclonerFuelType;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SiegeModeWarpStatus;
@@ -100,6 +104,20 @@ public class CloneVatBay
     @DefaultIntValue(0)
     public int deadspaceunsafe;
     /**
+     * Stops the module from being activated if the ship is aligning to warp.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowactivateonwarp;
+    /**
+     * If this ship attribute is NOT 0 then they will be prevented from docking in stations or structures.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowdocking;
+    /**
      * Signifies that this module if activated, will prevent ejection from the ship it is fitted to and extend the log out ship removal timer.
      */
     @HighIsGood(true)
@@ -143,6 +161,20 @@ public class CloneVatBay
     @DefaultIntValue(0)
     public int power;
     /**
+     * Amount of fuel consumed by tactical capsuleer recloner
+     */
+    @HighIsGood(false)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int reclonerfuelquantity;
+    /**
+     * Type of fuel consumed by tactical capsuleer recloner
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int reclonerfueltype;
+    /**
      * The type ID of the skill that is required.
      */
     @HighIsGood(true)
@@ -178,7 +210,7 @@ public class CloneVatBay
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {DeadspaceUnsafe.INSTANCE, Radius.INSTANCE, Mass.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, AllowsCloneJumpsWhenActive.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, Power.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, ConsumptionType.INSTANCE, Hp.INSTANCE, DisallowEarlyDeactivation.INSTANCE, ConsumptionQuantity.INSTANCE, CanCloak.INSTANCE, CanFitShipGroup01 .INSTANCE, CanFitShipGroup02 .INSTANCE, SpeedFactor.INSTANCE, SiegeModeWarpStatus.INSTANCE, RequiredSkill1Level.INSTANCE, AllowsCloneJumpsWhenActive.INSTANCE, DisallowActivateOnWarp.INSTANCE, Power.INSTANCE, ReclonerFuelQuantity.INSTANCE, DeadspaceUnsafe.INSTANCE, ReclonerFuelType.INSTANCE, Radius.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, Cpu.INSTANCE, DisallowDocking.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE })));
     public static final CloneVatBay.MetaGroup METAGROUP = new CloneVatBay.MetaGroup();
 
     @Override
@@ -216,6 +248,14 @@ public class CloneVatBay
             {
                 return deadspaceunsafe;
             }
+            case  1245 :
+            {
+                return disallowactivateonwarp;
+            }
+            case  2354 :
+            {
+                return disallowdocking;
+            }
             case  906 :
             {
                 return disallowearlydeactivation;
@@ -239,6 +279,14 @@ public class CloneVatBay
             case  30 :
             {
                 return power;
+            }
+            case  3104 :
+            {
+                return reclonerfuelquantity;
+            }
+            case  3105 :
+            {
+                return reclonerfueltype;
             }
             case  182 :
             {

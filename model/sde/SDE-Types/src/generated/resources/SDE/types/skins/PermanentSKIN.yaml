@@ -141,6 +141,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Abaddon Scope Syndication YC122 SKIN:
+    id: 56888
+    marketGroup: 1964
+    name: Abaddon Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Abaddon Serenity YC117 SKIN:
     id: 34790
     name: Abaddon Serenity YC117 SKIN
@@ -798,7 +806,7 @@ types:
     published: true
     volume: 0.009999999776482582
   Apocalypse Blood Raiders SKIN:
-    id: 56798
+    id: 34792
     marketGroup: 1964
     name: Apocalypse Blood Raiders SKIN
     packagedVolume: 0.009999999776482582
@@ -2236,6 +2244,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Astero Scope Syndication YC122 SKIN:
+    id: 56880
+    marketGroup: 2031
+    name: Astero Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Astero Spectral Shift SKIN:
     id: 46520
     marketGroup: 2031
@@ -3174,6 +3190,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bellicose Hazard Control SKIN:
+    id: 56922
+    marketGroup: 1993
+    name: Bellicose Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bellicose Justice SKIN:
     id: 36416
     name: Bellicose Justice SKIN
@@ -3330,6 +3354,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Bhaalgorn Redclaw Sable SKIN:
+    id: 56954
+    marketGroup: 1963
+    name: Bhaalgorn Redclaw Sable SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Bifrost Biosecurity Responders SKIN:
     id: 55693
     marketGroup: 2145
@@ -3358,6 +3390,14 @@ types:
     id: 46890
     marketGroup: 2145
     name: Bifrost Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bifrost Hazard Control SKIN:
+    id: 56900
+    marketGroup: 2145
+    name: Bifrost Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3661,6 +3701,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Breacher Hazard Control SKIN:
+    id: 56917
+    marketGroup: 2005
+    name: Breacher Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Breacher Hunter's Quiver SKIN:
     id: 47507
     marketGroup: 2005
@@ -3752,6 +3800,14 @@ types:
     id: 46897
     marketGroup: 2076
     name: Broadsword Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Broadsword Hazard Control SKIN:
+    id: 56896
+    marketGroup: 2076
+    name: Broadsword Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4069,6 +4125,14 @@ types:
     id: 44161
     marketGroup: 2005
     name: Burst Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Burst Hazard Control SKIN:
+    id: 56918
+    marketGroup: 2005
+    name: Burst Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4624,6 +4688,14 @@ types:
     id: 36650
     marketGroup: 1991
     name: Caracal Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caracal Scope Syndication YC122 SKIN:
+    id: 56881
+    marketGroup: 1991
+    name: Caracal Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5256,6 +5328,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cheetah Hazard Control SKIN:
+    id: 56901
+    marketGroup: 2054
+    name: Cheetah Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cheetah Justice SKIN:
     id: 36424
     marketGroup: 2054
@@ -5471,6 +5551,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Claw Hazard Control SKIN:
+    id: 56908
+    marketGroup: 2062
+    name: Claw Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Claw Justice SKIN:
     id: 36425
     marketGroup: 2062
@@ -5539,6 +5627,14 @@ types:
     id: 46907
     marketGroup: 2107
     name: Claymore Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Claymore Hazard Control SKIN:
+    id: 56899
+    marketGroup: 2107
+    name: Claymore Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6962,6 +7058,14 @@ types:
     id: 46904
     marketGroup: 1959
     name: Cyclone Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cyclone Hazard Control SKIN:
+    id: 56924
+    marketGroup: 1959
+    name: Cyclone Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9680,6 +9784,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Fenrir Hazard Control SKIN:
+    id: 56936
+    marketGroup: 1987
+    name: Fenrir Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Fenrir Justice SKIN:
     id: 36444
     marketGroup: 1987
@@ -10026,6 +10138,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Garmur Redclaw Sable SKIN:
+    id: 56952
+    marketGroup: 2031
+    name: Garmur Redclaw Sable SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Garmur Waschi Uprising 'Combat' SKIN:
     id: 37867
     marketGroup: 2031
@@ -10150,6 +10270,14 @@ types:
     id: 48553
     marketGroup: 2030
     name: Gila IGC SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gila Scope Syndication YC122 SKIN:
+    id: 56891
+    marketGroup: 2030
+    name: Gila Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10454,6 +10582,14 @@ types:
     id: 45814
     marketGroup: 2003
     name: Griffin Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Griffin Forward 4-4 SKIN:
+    id: 56861
+    marketGroup: 2003
+    name: Griffin Forward 4-4 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11581,6 +11717,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Heron Forward 4-4 SKIN:
+    id: 56862
+    marketGroup: 2003
+    name: Heron Forward 4-4 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Heron Ghostbird SKIN:
     id: 48158
     marketGroup: 2003
@@ -11683,6 +11827,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hoarder Hazard Control SKIN:
+    id: 56929
+    marketGroup: 2010
+    name: Hoarder Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hoarder Justice SKIN:
     id: 36419
     name: Hoarder Justice SKIN
@@ -11750,6 +11902,14 @@ types:
     id: 46883
     marketGroup: 2054
     name: Hound Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hound Hazard Control SKIN:
+    id: 56910
+    marketGroup: 2054
+    name: Hound Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11822,6 +11982,14 @@ types:
     id: 46899
     marketGroup: 2084
     name: Huginn Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Huginn Hazard Control SKIN:
+    id: 56912
+    marketGroup: 2084
+    name: Huginn Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12335,6 +12503,14 @@ types:
     id: 46884
     marketGroup: 2058
     name: Hyena Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hyena Hazard Control SKIN:
+    id: 56895
+    marketGroup: 2058
+    name: Hyena Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13653,6 +13829,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Jaguar Hazard Control SKIN:
+    id: 56902
+    marketGroup: 2050
+    name: Jaguar Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Jaguar In Rust We Trust SKIN:
     id: 52423
     marketGroup: 2050
@@ -13785,6 +13969,14 @@ types:
     id: 45816
     marketGroup: 2003
     name: Kestrel Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kestrel Forward 4-4 SKIN:
+    id: 56867
+    marketGroup: 2003
+    name: Kestrel Forward 4-4 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14567,6 +14759,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Leviathan Redclaw Sable SKIN:
+    id: 56956
+    marketGroup: 2092
+    name: Leviathan Redclaw Sable SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Leviathan Starline Majestic SKIN:
     id: 55726
     marketGroup: 2092
@@ -14663,6 +14863,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Lif Hazard Control SKIN:
+    id: 56935
+    marketGroup: 2281
+    name: Lif Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Lif Snowline Bladeracer SKIN:
     id: 52902
     marketGroup: 2281
@@ -14731,6 +14939,14 @@ types:
     id: 46901
     marketGroup: 2373
     name: Loki Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Loki Hazard Control SKIN:
+    id: 56946
+    marketGroup: 2373
+    name: Loki Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15052,6 +15268,14 @@ types:
     id: 46910
     marketGroup: 1967
     name: Maelstrom Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maelstrom Hazard Control SKIN:
+    id: 56928
+    marketGroup: 1967
+    name: Maelstrom Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15543,6 +15767,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maller Scope Syndication YC122 SKIN:
+    id: 56884
+    marketGroup: 1990
+    name: Maller Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maller Tash-Murkon SKIN:
     id: 34681
     marketGroup: 1990
@@ -15586,6 +15818,14 @@ types:
     id: 46922
     marketGroup: 2010
     name: Mammoth Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Mammoth Hazard Control SKIN:
+    id: 56930
+    marketGroup: 2010
+    name: Mammoth Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15832,6 +16072,14 @@ types:
     id: 46925
     marketGroup: 2091
     name: Mastodon Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Mastodon Hazard Control SKIN:
+    id: 56906
+    marketGroup: 2091
+    name: Mastodon Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16227,6 +16475,14 @@ types:
     id: 46556
     marketGroup: 1966
     name: Megathron Sapphire Sungrazer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Megathron Scope Syndication YC122 SKIN:
+    id: 56886
+    marketGroup: 1966
+    name: Megathron Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16689,6 +16945,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Moa Forward 4-4 SKIN:
+    id: 56863
+    marketGroup: 1991
+    name: Moa Forward 4-4 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Moa Ghostbird SKIN:
     id: 48178
     marketGroup: 1991
@@ -16985,6 +17249,14 @@ types:
     id: 46895
     marketGroup: 2072
     name: Muninn Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Muninn Hazard Control SKIN:
+    id: 56911
+    marketGroup: 2072
+    name: Muninn Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18218,6 +18490,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nomad Hazard Control SKIN:
+    id: 56937
+    marketGroup: 2098
+    name: Nomad Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nomad Justice SKIN:
     id: 36454
     marketGroup: 2098
@@ -18514,6 +18794,14 @@ types:
   Obelisk Quafe Serenity Only SKIN:
     id: 37922
     name: Obelisk Quafe Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Obelisk Redclaw Sable SKIN:
+    id: 56955
+    marketGroup: 1986
+    name: Obelisk Redclaw Sable SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -19914,6 +20202,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Panther Hazard Control SKIN:
+    id: 56905
+    marketGroup: 2113
+    name: Panther Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Panther Headhunter SKIN:
     id: 49429
     marketGroup: 2113
@@ -19990,6 +20286,14 @@ types:
     id: 47007
     marketGroup: 2030
     name: Phantasm Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Phantasm Redclaw Sable SKIN:
+    id: 56953
+    marketGroup: 2030
+    name: Phantasm Redclaw Sable SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20595,6 +20899,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Probe Hazard Control SKIN:
+    id: 56916
+    marketGroup: 2005
+    name: Probe Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Probe Justice SKIN:
     id: 36410
     name: Probe Justice SKIN
@@ -20785,6 +21097,14 @@ types:
     id: 43844
     marketGroup: 2319
     name: Procurer Sansha Industrial Livery SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Procurer Scope Syndication YC122 SKIN:
+    id: 56885
+    marketGroup: 2319
+    name: Procurer Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21393,6 +21713,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Prowler Hazard Control SKIN:
+    id: 56934
+    marketGroup: 2091
+    name: Prowler Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prowler Justice SKIN:
     id: 36437
     marketGroup: 2091
@@ -21717,6 +22045,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ragnarok Hazard Control SKIN:
+    id: 56938
+    marketGroup: 2093
+    name: Ragnarok Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ragnarok Headhunter SKIN:
     id: 49431
     marketGroup: 2093
@@ -21801,6 +22137,14 @@ types:
     id: 46900
     marketGroup: 2084
     name: Rapier Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rapier Hazard Control SKIN:
+    id: 56897
+    marketGroup: 2084
+    name: Rapier Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21989,6 +22333,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rattlesnake Redclaw Sable SKIN:
+    id: 56957
+    marketGroup: 1963
+    name: Rattlesnake Redclaw Sable SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rattlesnake Serenity YC117 SKIN:
     id: 34823
     name: Rattlesnake Serenity YC117 SKIN
@@ -22047,6 +22399,14 @@ types:
     id: 45852
     marketGroup: 1965
     name: Raven Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raven Forward 4-4 SKIN:
+    id: 56864
+    marketGroup: 1965
+    name: Raven Forward 4-4 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22205,6 +22565,14 @@ types:
     id: 36664
     marketGroup: 1965
     name: Raven Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raven Scope Syndication YC122 SKIN:
+    id: 56887
+    marketGroup: 1965
+    name: Raven Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23598,6 +23966,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Hazard Control SKIN:
+    id: 56921
+    marketGroup: 1993
+    name: Rupture Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Headhunter SKIN:
     id: 46723
     marketGroup: 1993
@@ -23617,6 +23993,14 @@ types:
     id: 54447
     marketGroup: 1993
     name: Rupture Permaband Roadies SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rupture Scope Syndication YC122 SKIN:
+    id: 56883
+    marketGroup: 1993
+    name: Rupture Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23892,6 +24276,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scalpel Hazard Control SKIN:
+    id: 56903
+    marketGroup: 2140
+    name: Scalpel Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scalpel Snowline Bladeracer SKIN:
     id: 52857
     marketGroup: 2140
@@ -23972,6 +24364,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scimitar Hazard Control SKIN:
+    id: 56898
+    marketGroup: 2080
+    name: Scimitar Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scimitar Justice SKIN:
     id: 36432
     marketGroup: 2080
@@ -24032,6 +24432,14 @@ types:
     id: 45854
     marketGroup: 1965
     name: Scorpion Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scorpion Forward 4-4 SKIN:
+    id: 56865
+    marketGroup: 1965
+    name: Scorpion Forward 4-4 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24309,6 +24717,14 @@ types:
     id: 46893
     marketGroup: 1993
     name: Scythe Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Scythe Hazard Control SKIN:
+    id: 56923
+    marketGroup: 1993
+    name: Scythe Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24862,6 +25278,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Slasher Hazard Control SKIN:
+    id: 56915
+    marketGroup: 2005
+    name: Slasher Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Slasher Headhunter SKIN:
     id: 46722
     marketGroup: 2005
@@ -24968,6 +25392,14 @@ types:
     id: 46908
     marketGroup: 2107
     name: Sleipnir Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sleipnir Hazard Control SKIN:
+    id: 56913
+    marketGroup: 2107
+    name: Sleipnir Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25131,6 +25563,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Hazard Control SKIN:
+    id: 56920
+    marketGroup: 1993
+    name: Stabber Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Hunter's Quiver SKIN:
     id: 47506
     marketGroup: 1993
@@ -25260,6 +25700,14 @@ types:
     id: 46886
     marketGroup: 2062
     name: Stiletto Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stiletto Hazard Control SKIN:
+    id: 56894
+    marketGroup: 2062
+    name: Stiletto Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25411,6 +25859,14 @@ types:
     id: 47376
     marketGroup: 2030
     name: Stratios One Eden SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stratios Redclaw Sable SKIN:
+    id: 56958
+    marketGroup: 2030
+    name: Stratios Redclaw Sable SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25624,6 +26080,14 @@ types:
     id: 46892
     marketGroup: 2392
     name: Svipul Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Svipul Hazard Control SKIN:
+    id: 56931
+    marketGroup: 2392
+    name: Svipul Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25849,6 +26313,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Talwar Hazard Control SKIN:
+    id: 56927
+    marketGroup: 1997
+    name: Talwar Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Talwar Justice SKIN:
     id: 36457
     name: Talwar Justice SKIN
@@ -25995,6 +26467,14 @@ types:
     id: 45864
     marketGroup: 2008
     name: Tayra Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tayra Forward 4-4 SKIN:
+    id: 56866
+    marketGroup: 2008
+    name: Tayra Forward 4-4 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26197,6 +26677,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tempest Hazard Control SKIN:
+    id: 56932
+    marketGroup: 1967
+    name: Tempest Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tempest Justice SKIN:
     id: 34805
     name: Tempest Justice SKIN
@@ -26230,6 +26718,14 @@ types:
   Tempest Nefantar Serenity Only SKIN:
     id: 37120
     name: Tempest Nefantar Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Scope Syndication YC122 SKIN:
+    id: 56889
+    marketGroup: 1967
+    name: Tempest Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26843,6 +27339,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thrasher Hazard Control SKIN:
+    id: 56926
+    marketGroup: 1997
+    name: Thrasher Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thrasher Justice SKIN:
     id: 36440
     name: Thrasher Justice SKIN
@@ -27103,6 +27607,14 @@ types:
   Tornado Golden SKIN:
     id: 36520
     name: Tornado Golden SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tornado Hazard Control SKIN:
+    id: 56925
+    marketGroup: 1959
+    name: Tornado Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27626,6 +28138,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vagabond Hazard Control SKIN:
+    id: 56904
+    marketGroup: 2072
+    name: Vagabond Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vagabond Heartsurge SKIN:
     id: 53962
     marketGroup: 2072
@@ -27734,6 +28254,14 @@ types:
     id: 46914
     marketGroup: 2027
     name: Vargur Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vargur Hazard Control SKIN:
+    id: 56914
+    marketGroup: 2027
+    name: Vargur Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27849,6 +28377,14 @@ types:
     id: 52322
     marketGroup: 2485
     name: Vedmak Red Meatgrinder SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vedmak Scope Syndication YC122 SKIN:
+    id: 56890
+    marketGroup: 2485
+    name: Vedmak Scope Syndication YC122 SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28422,6 +28958,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vexor Scope Syndication YC122 SKIN:
+    id: 56882
+    marketGroup: 1992
+    name: Vexor Scope Syndication YC122 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vexor Serenity Flame SKIN:
     id: 49436
     name: Vexor Serenity Flame SKIN
@@ -28625,6 +29169,14 @@ types:
     id: 44165
     marketGroup: 2005
     name: Vigil Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vigil Hazard Control SKIN:
+    id: 56919
+    marketGroup: 2005
+    name: Vigil Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29002,6 +29554,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Wolf Hazard Control SKIN:
+    id: 56909
+    marketGroup: 2050
+    name: Wolf Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Wolf In Rust We Trust SKIN:
     id: 52424
     marketGroup: 2050
@@ -29118,6 +29678,14 @@ types:
     id: 46923
     marketGroup: 2010
     name: Wreathe Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Wreathe Hazard Control SKIN:
+    id: 56933
+    marketGroup: 2010
+    name: Wreathe Hazard Control SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

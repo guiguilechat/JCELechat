@@ -12,6 +12,8 @@ types:
     published: true
     radius: 1.0
     reprocessingskilltype: 56631
+    requiredskill1: 3386
+    requiredskill1level: 1
     volume: 16.0
   Bezdnacine:
     asteroidmetalevel: 1
@@ -26,6 +28,8 @@ types:
     published: true
     radius: 1.0
     reprocessingskilltype: 56631
+    requiredskill1: 3386
+    requiredskill1level: 1
     volume: 16.0
   Hadal Bezdnacine:
     asteroidmetalevel: 1
@@ -40,4 +44,6 @@ types:
     published: true
     radius: 1.0
     reprocessingskilltype: 56631
+    requiredskill1: 3386
+    requiredskill1level: 1
     volume: 16.0

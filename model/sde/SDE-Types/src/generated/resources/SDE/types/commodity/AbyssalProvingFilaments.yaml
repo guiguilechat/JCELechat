@@ -1,17 +1,17 @@
 types:
-  Crimson Harvest Frigate FFA Proving Filament:
-    id: 56353
+  2v2 Tactical Destroyer Proving Filament:
+    id: 56354
     marketGroup: 2747
-    name: Crimson Harvest Frigate FFA Proving Filament
+    name: 2v2 Tactical Destroyer Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Event 11 Proving Filament:
-    id: 56354
+  Crimson Harvest Frigate FFA Proving Filament:
+    id: 56353
     marketGroup: 2747
-    name: Event 11 Proving Filament
+    name: Crimson Harvest Frigate FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

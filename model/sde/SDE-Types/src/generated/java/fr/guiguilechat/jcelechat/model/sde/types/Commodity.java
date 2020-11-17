@@ -14,6 +14,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.commodity.AccelerationGateKeys;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.AdvancedCapitalConstructionComponents;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.ArtifactsAndPrototypes;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.Biohazard;
+import fr.guiguilechat.jcelechat.model.sde.types.commodity.BountyEncryptedBonds;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.CapitalConstructionComponents;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.Commodities;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.ConstructionComponents;
@@ -25,7 +26,6 @@ import fr.guiguilechat.jcelechat.model.sde.types.commodity.DecryptorsTakmahl;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.DecryptorsTalocan;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.DecryptorsYanJung;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.Drugs;
-import fr.guiguilechat.jcelechat.model.sde.types.commodity.EmpireBountyReimbursementTags;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.EmpireInsigniaDrops;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.ExpiredJumpFilaments;
 import fr.guiguilechat.jcelechat.model.sde.types.commodity.Frozen;
@@ -87,7 +87,7 @@ public abstract class Commodity
 
         @Override
         public Collection<IMetaGroup<? extends Commodity>> groups() {
-            return Arrays.asList(General.METAGROUP, Frozen.METAGROUP, Radioactive.METAGROUP, Livestock.METAGROUP, Biohazard.METAGROUP, Drugs.METAGROUP, Miscellaneous.METAGROUP, Tool.METAGROUP, Datacores.METAGROUP, ConstructionComponents.METAGROUP, Refinables.METAGROUP, ShipLogs.METAGROUP, CriminalTags.METAGROUP, EmpireInsigniaDrops.METAGROUP, AccelerationGateKeys.METAGROUP, OverseerPersonalEffects.METAGROUP, Identification.METAGROUP, Commodities.METAGROUP, ArtifactsAndPrototypes.METAGROUP, MaterialsAndCompounds.METAGROUP, StructureComponents.METAGROUP, Lease.METAGROUP, DataInterfaces.METAGROUP, DecryptorsSleepers.METAGROUP, DecryptorsYanJung.METAGROUP, DecryptorsTakmahl.METAGROUP, DecryptorsTalocan.METAGROUP, CapitalConstructionComponents.METAGROUP, SlaveReception.METAGROUP, SleeperComponents.METAGROUP, AdvancedCapitalConstructionComponents.METAGROUP, HybridTechComponents.METAGROUP, ResearchData.METAGROUP, SecurityTags.METAGROUP, EmpireBountyReimbursementTags.METAGROUP, UnknownComponents.METAGROUP, StrongBoxes.METAGROUP, TechnicalDataChips.METAGROUP, Mutaplasmids.METAGROUP, AbyssalFilaments.METAGROUP, JumpFilaments.METAGROUP, TriglavianData.METAGROUP, AbyssalProvingFilaments.METAGROUP, TriglavianDatastreams.METAGROUP, ExpiredJumpFilaments.METAGROUP, TriglavianSpaceFilaments.METAGROUP);
+            return Arrays.asList(General.METAGROUP, Frozen.METAGROUP, Radioactive.METAGROUP, Livestock.METAGROUP, Biohazard.METAGROUP, Drugs.METAGROUP, Miscellaneous.METAGROUP, Tool.METAGROUP, Datacores.METAGROUP, ConstructionComponents.METAGROUP, Refinables.METAGROUP, ShipLogs.METAGROUP, CriminalTags.METAGROUP, EmpireInsigniaDrops.METAGROUP, AccelerationGateKeys.METAGROUP, OverseerPersonalEffects.METAGROUP, Identification.METAGROUP, Commodities.METAGROUP, ArtifactsAndPrototypes.METAGROUP, MaterialsAndCompounds.METAGROUP, StructureComponents.METAGROUP, Lease.METAGROUP, DataInterfaces.METAGROUP, DecryptorsSleepers.METAGROUP, DecryptorsYanJung.METAGROUP, DecryptorsTakmahl.METAGROUP, DecryptorsTalocan.METAGROUP, CapitalConstructionComponents.METAGROUP, SlaveReception.METAGROUP, SleeperComponents.METAGROUP, AdvancedCapitalConstructionComponents.METAGROUP, HybridTechComponents.METAGROUP, ResearchData.METAGROUP, SecurityTags.METAGROUP, BountyEncryptedBonds.METAGROUP, UnknownComponents.METAGROUP, StrongBoxes.METAGROUP, TechnicalDataChips.METAGROUP, Mutaplasmids.METAGROUP, AbyssalFilaments.METAGROUP, JumpFilaments.METAGROUP, TriglavianData.METAGROUP, AbyssalProvingFilaments.METAGROUP, TriglavianDatastreams.METAGROUP, ExpiredJumpFilaments.METAGROUP, TriglavianSpaceFilaments.METAGROUP);
         }
     }
 }

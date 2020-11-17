@@ -12681,6 +12681,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
+    untargetable: 1
     volume: 1000.0
     warpscrambleduration: 8000
   Plasma Chamber:
@@ -17713,6 +17714,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
+    untargetable: 1
     volume: 1000.0
     warpscrambleduration: 8000
   Test Spawner (Xordazh-class):
@@ -18272,6 +18274,7 @@ types:
     signatureradius: 1000.0
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
+    untargetable: 1
     volume: 1000.0
     warpscrambleduration: 8000
   Visera Yanala:

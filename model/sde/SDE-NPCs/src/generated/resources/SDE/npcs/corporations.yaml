@@ -1463,6 +1463,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    - 17096
     name: Amarr Navy
   Amarr Templars:
     faction: Amarr Empire
@@ -3599,6 +3600,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 17096
     name: Brutor Tribe
   Brutor Vanguard:
     faction: Minmatar Republic
@@ -4964,6 +4966,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: Caldari Navy
   Caldari Provisions:
     concordRate: 0.8
@@ -6759,6 +6762,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: Corporate Police Force
   Court Chamberlain:
     concordRate: 0.8
@@ -10002,6 +10006,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    - 17096
     name: Federal Intelligence Office
   Federal Marines:
     faction: Gallente Federation
@@ -10329,6 +10334,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    - 17096
     name: Federal Navy Academy
   Federal Strategic Materiel:
     faction: Gallente Federation
@@ -10661,6 +10667,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    - 17096
     name: Federation Customs
   Federation Navy:
     concordRate: 0.8
@@ -10984,6 +10991,7 @@ corporations:
     - 16176
     - 16194
     - 16195
+    - 17096
     name: Federation Navy
   Food Relief:
     concordRate: 0.4
@@ -12974,6 +12982,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: Home Guard
   House of Records:
     concordRate: 0.8
@@ -13617,6 +13626,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    - 17096
     name: Imperial Academy
   Imperial Armaments:
     concordRate: 0.8
@@ -15514,6 +15524,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: Internal Security
   Ishukone Corporation:
     concordRate: 0.8
@@ -16013,6 +16024,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: Ishukone Watch
   Isuuaya Tactical:
     faction: Caldari State
@@ -17587,6 +17599,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: Lai Dai Protection Service
   Mannar Focused Warfare:
     faction: Gallente Federation
@@ -18538,6 +18551,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    - 17096
     name: Ministry of Internal Order
   Ministry of War:
     concordRate: 0.8
@@ -18860,6 +18874,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    - 17096
     name: Ministry of War
   Minmatar Mining Corporation:
     concordRate: 0.8
@@ -20877,6 +20892,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: Peace and Order Unit
   Pend Insurance:
     concordRate: 0.8
@@ -21222,11 +21238,8 @@ corporations:
     - 17027
     - 17028
     - 17029
-    - 17030
     - 17031
-    - 17032
     - 17033
-    - 17034
     - 17035
     - 17036
     - 17037
@@ -22745,6 +22758,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 17096
     name: Republic Fleet
   Republic Fleet Ordnance:
     faction: Minmatar Republic
@@ -23089,6 +23103,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 17096
     name: Republic Justice Department
   Republic Military School:
     concordRate: 0.8
@@ -23424,6 +23439,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 17096
     name: Republic Military School
   Republic Parliament:
     concordRate: 0.8
@@ -23920,6 +23936,7 @@ corporations:
     - 16198
     - 16200
     - 16202
+    - 17096
     name: Republic Security Services
   Republic University:
     concordRate: 0.8
@@ -25130,6 +25147,7 @@ corporations:
     - 16075
     - 16076
     - 16172
+    - 17096
     name: Sarum Family
   School of Applied Knowledge:
     concordRate: 0.8
@@ -26846,6 +26864,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: Spacelane Patrol
   State Military Stockpile:
     faction: Caldari State
@@ -27578,6 +27597,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: State War Academy
   State and Region Bank:
     concordRate: 0.8
@@ -28075,11 +28095,8 @@ corporations:
     - 17027
     - 17028
     - 17029
-    - 17030
     - 17031
-    - 17032
     - 17033
-    - 17034
     - 17035
     - 17036
     - 17037
@@ -28312,11 +28329,8 @@ corporations:
     - 17027
     - 17028
     - 17029
-    - 17030
     - 17031
-    - 17032
     - 17033
-    - 17034
     - 17035
     - 17036
     - 17037
@@ -30620,11 +30634,8 @@ corporations:
     - 17027
     - 17028
     - 17029
-    - 17030
     - 17031
-    - 17032
     - 17033
-    - 17034
     - 17035
     - 17036
     - 17037
@@ -31519,6 +31530,7 @@ corporations:
     - 15822
     - 16170
     - 16174
+    - 17096
     name: Wiyrkomi Peace Corps
   X-Sense:
     faction: The Society of Conscious Thought

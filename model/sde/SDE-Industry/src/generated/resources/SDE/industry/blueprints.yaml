@@ -122831,37 +122831,6 @@ blueprints:
     research_time:
       time: 2100
     seeded: false
-  33586:
-    copying:
-      time: 9600
-    id: 33586
-    manufacturing:
-      materials:
-      - id: 34
-        quantity: 1328
-      - id: 35
-        quantity: 674
-      - id: 36
-        quantity: 431
-      - id: 37
-        quantity: 221
-      - id: 38
-        quantity: 219
-      - id: 39
-        quantity: 56
-      - id: 40
-        quantity: 20
-      products:
-      - id: 33585
-        probability: 1.0
-        quantity: 1
-      time: 12000
-    maxCopyRuns: 10
-    research_material:
-      time: 4200
-    research_time:
-      time: 4200
-    seeded: false
   33590:
     copying:
       time: 14400
@@ -122938,99 +122907,6 @@ blueprints:
     research_time:
       time: 4200
     seeded: true
-  33596:
-    copying:
-      time: 9600
-    id: 33596
-    manufacturing:
-      materials:
-      - id: 34
-        quantity: 1328
-      - id: 35
-        quantity: 674
-      - id: 36
-        quantity: 431
-      - id: 37
-        quantity: 221
-      - id: 38
-        quantity: 219
-      - id: 39
-        quantity: 56
-      - id: 40
-        quantity: 20
-      products:
-      - id: 33595
-        probability: 1.0
-        quantity: 1
-      time: 12000
-    maxCopyRuns: 10
-    research_material:
-      time: 4200
-    research_time:
-      time: 4200
-    seeded: false
-  33609:
-    copying:
-      time: 9600
-    id: 33609
-    manufacturing:
-      materials:
-      - id: 34
-        quantity: 1328
-      - id: 35
-        quantity: 674
-      - id: 36
-        quantity: 431
-      - id: 37
-        quantity: 221
-      - id: 38
-        quantity: 219
-      - id: 39
-        quantity: 56
-      - id: 40
-        quantity: 20
-      products:
-      - id: 33608
-        probability: 1.0
-        quantity: 1
-      time: 12000
-    maxCopyRuns: 10
-    research_material:
-      time: 4200
-    research_time:
-      time: 4200
-    seeded: false
-  33611:
-    copying:
-      time: 9600
-    id: 33611
-    manufacturing:
-      materials:
-      - id: 34
-        quantity: 1328
-      - id: 35
-        quantity: 674
-      - id: 36
-        quantity: 431
-      - id: 37
-        quantity: 221
-      - id: 38
-        quantity: 219
-      - id: 39
-        quantity: 56
-      - id: 40
-        quantity: 20
-      products:
-      - id: 33610
-        probability: 1.0
-        quantity: 1
-      time: 12000
-    maxCopyRuns: 10
-    research_material:
-      time: 4200
-    research_time:
-      time: 4200
-    seeded: false
   33672:
     copying:
       time: 720
@@ -170306,4 +170182,70 @@ blueprints:
       time: 2100
     research_time:
       time: 2100
+    seeded: false
+  56734:
+    copying:
+      time: 43200
+    id: 56734
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 3143618
+      - id: 35
+        quantity: 912700
+      - id: 36
+        quantity: 314889
+      - id: 37
+        quantity: 78698
+      - id: 38
+        quantity: 14360
+      - id: 39
+        quantity: 3960
+      - id: 40
+        quantity: 5375
+      - id: 2345
+        quantity: 250
+      - id: 2354
+        quantity: 215
+      - id: 3779
+        quantity: 3150
+      products:
+      - id: 56735
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 54000
+    maxCopyRuns: 3
+    research_material:
+      time: 18900
+    research_time:
+      time: 18900
+    seeded: true
+  56832:
+    copying:
+      time: 240
+    id: 56832
+    manufacturing:
+      materials:
+      - id: 2346
+        quantity: 5
+      - id: 2348
+        quantity: 3
+      - id: 2463
+        quantity: 15
+      products:
+      - id: 56733
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 3000
+    maxCopyRuns: 600
+    research_material:
+      time: 105
+    research_time:
+      time: 105
     seeded: false

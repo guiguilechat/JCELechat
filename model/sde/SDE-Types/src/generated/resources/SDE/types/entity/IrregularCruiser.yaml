@@ -2057,6 +2057,93 @@ types:
     volume: 101000.0
     warpscrambleduration: 8000
     warpspeedmultiplier: 3.0
+  Guristas Cruiser 4-4:
+    agility: 0.445499986410141
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.5
+    armorhp: 1600.0
+    armorkineticdamageresonance: 0.9900000095367432
+    armorthermaldamageresonance: 0.800000011920929
+    armoruniformity: 0.75
+    behaviorecmdischarge: 63.75
+    behaviorecmduration: 20000
+    behaviorecmfalloff: 35100.0
+    behaviorecmrange: 31200
+    capacitorcapacity: 825.0
+    capacity: 235.0
+    damagemultiplier: 1.0
+    damagemultiplierbonusmax: 0.5
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitydefenderchance: 0.03125
+    entityequipmentgroupmax: 1
+    entityequipmentmax: 6
+    entityequipmentmin: 4
+    entityfactionloss: 0.008999999612569809
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 881250
+    entitymaxvelocitysignatureradiusmultiplier: 6
+    entitymissiletypeid: 209
+    entityreactionfactor: 1.0
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.14499999582767487
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    explosivedamageresonance: 1.0
+    falloff: 1.0
+    gfxboosterid: 395
+    gfxturretid: 570
+    hp: 1000.0
+    id: 56800
+    kineticdamageresonance: 1.0
+    maxdirectionalvelocity: 1
+    maxlockedtargets: 3
+    maxvelocity: 1440.0
+    mintargetveldmgmultiplier: 1.0
+    missiledamagemultiplier: 3.0
+    missileentityaoecloudsizemultiplier: 0.6399999856948853
+    missileentityaoevelocitymultiplier: 1.6100000143051147
+    missileentityflighttimemultiplier: 1.7170000076293945
+    missileentityvelocitymultiplier: 1.7170000076293945
+    missilelaunchduration: 6200.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: Guristas Cruiser 4-4
+    optimalsigradius: 1000
+    packagedVolume: 101000.0
+    portionSize: 1
+    published: false
+    radius: 150.0
+    rechargerate: 1000000.0
+    scangravimetricstrength: 18.0
+    scangravimetricstrengthbonus: 3.25
+    scanladarstrengthbonus: 3.25
+    scanmagnetometricstrengthbonus: 3.25
+    scanradarstrengthbonus: 3.25
+    scanresolution: 240.0
+    shieldcapacity: 4100.0
+    shieldemdamageresonance: 0.4000000059604645
+    shieldexplosivedamageresonance: 0.5
+    shieldkineticdamageresonance: 0.9900000095367432
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 155.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 101000.0
+    warpscrambleduration: 8000
+    warpspeedmultiplier: 3.0
   Harvest Prophet:
     agility: 0.17000000178813934
     aitankingmodifierdrone: 0.699999988079071

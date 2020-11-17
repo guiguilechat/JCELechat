@@ -1,0 +1,11 @@
+types:
+  Encounter Surveillance System:
+    id: 55914
+    name: Encounter Surveillance System
+    packagedVolume: 200.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    untargetable: 1
+    volume: 200.0
+    warpscramblestrength: 100

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Multiplied by Amarr Carrier skill level.
  */
 public class ShipBonusSupercarrierA1
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final ShipBonusSupercarrierA1 INSTANCE = new ShipBonusSupercarrierA1();
 

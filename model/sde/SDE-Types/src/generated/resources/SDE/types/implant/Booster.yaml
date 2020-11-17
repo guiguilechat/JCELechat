@@ -2054,6 +2054,22 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 1
+  Nanoheuristic Clone Mapper:
+    boosterduration: 2.16E7
+    boosterness: 65
+    id: 56733
+    marketGroup: 977
+    name: Nanoheuristic Clone Mapper
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
   Nugoehuvi Synth Blue Pill Booster:
     boosterduration: 1980000.0
     boosterness: 1
@@ -2308,6 +2324,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2020.12:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18628.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 56970
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2020.12
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
   Serenity Monthly Cerebral Accelerator - 2020.6:
     boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18453.666015625
@@ -2428,7 +2467,7 @@ types:
   Serenity November Season Pass:
     boosterduration: 2.4192E9
     boosterlastinjectiondatetime: 18594.125
-    boosterness: 65
+    boosterness: 66
     charismabonus: 1
     followsjumpclones: 1
     id: 56835

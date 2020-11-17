@@ -111,3 +111,15 @@ types:
     radius: 1.0
     techlevel: 2
     volume: 0.009999999776482582
+  Tactical Capsuleer Recloner Blueprint:
+    id: 56734
+    industryblueprintrank: 180.0
+    marketGroup: 799
+    name: Tactical Capsuleer Recloner Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 5.50328832E8
+    published: true
+    radius: 1.0
+    techlevel: 1
+    volume: 0.009999999776482582

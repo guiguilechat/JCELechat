@@ -24816,7 +24816,7 @@ offers:
       isk: 1000000
       items:
       - id: 48121
-        quantity: 12
+        quantity: 20
       lp: 500
   16371:
     id: 16371
@@ -24828,7 +24828,7 @@ offers:
       isk: 1000000
       items:
       - id: 48121
-        quantity: 12
+        quantity: 20
       lp: 500
   16372:
     id: 16372
@@ -24840,7 +24840,7 @@ offers:
       isk: 3500000
       items:
       - id: 48121
-        quantity: 42
+        quantity: 50
       lp: 1750
   16374:
     id: 16374
@@ -27454,17 +27454,6 @@ offers:
       items:
       - id: 56708
         quantity: 25
-  17030:
-    id: 17030
-    name: Small Disintegrator Specialization
-    product:
-      id: 47873
-      quantity: 1
-    requirements:
-      isk: 500000
-      items:
-      - id: 56708
-        quantity: 9950
   17031:
     id: 17031
     name: Medium Precursor Weapon
@@ -27475,17 +27464,6 @@ offers:
       items:
       - id: 56708
         quantity: 100
-  17032:
-    id: 17032
-    name: Medium Disintegrator Specialization
-    product:
-      id: 47874
-      quantity: 1
-    requirements:
-      isk: 1000000
-      items:
-      - id: 56708
-        quantity: 19900
   17033:
     id: 17033
     name: Large Precursor Weapon
@@ -27496,17 +27474,6 @@ offers:
       items:
       - id: 56708
         quantity: 480
-  17034:
-    id: 17034
-    name: Large Disintegrator Specialization
-    product:
-      id: 47875
-      quantity: 1
-    requirements:
-      isk: 5000000
-      items:
-      - id: 56708
-        quantity: 39500
   17035:
     id: 17035
     name: Capital Precursor Weapon
@@ -28867,3 +28834,19 @@ offers:
         quantity: 100
       - id: 56716
         quantity: 10
+  17096:
+    id: 17096
+    name: 50* Nanoheuristic Clone Mapper(BPC)
+    product:
+      id: 56733
+      quantity: 50
+    requirements:
+      isk: 20000000
+      items:
+      - id: 2348
+        quantity: 150
+      - id: 2346
+        quantity: 250
+      - id: 2463
+        quantity: 750
+      lp: 10000

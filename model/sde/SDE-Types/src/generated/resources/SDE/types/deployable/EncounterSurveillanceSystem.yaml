@@ -1,5 +1,5 @@
 types:
-  Amarr Encounter Surveillance System:
+  Defunct Amarr Encounter Surveillance System:
     armorhp: 30000.0
     armoruniformity: 0.75
     hp: 190000.0
@@ -7,7 +7,7 @@ types:
     marketGroup: 1847
     maxlockedtargets: 8
     maxtargetrange: 250000.0
-    name: Amarr Encounter Surveillance System
+    name: Defunct Amarr Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
     price: 2.5E7
@@ -28,7 +28,7 @@ types:
     uniformity: 1.0
     volume: 200.0
     warpscramblestrength: 100
-  Caldari Encounter Surveillance System:
+  Defunct Caldari Encounter Surveillance System:
     armorhp: 30000.0
     armoruniformity: 0.75
     hp: 190000.0
@@ -36,7 +36,7 @@ types:
     marketGroup: 1847
     maxlockedtargets: 8
     maxtargetrange: 250000.0
-    name: Caldari Encounter Surveillance System
+    name: Defunct Caldari Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
     price: 2.5E7
@@ -57,7 +57,7 @@ types:
     uniformity: 1.0
     volume: 200.0
     warpscramblestrength: 100
-  Gallente Encounter Surveillance System:
+  Defunct Gallente Encounter Surveillance System:
     armorhp: 30000.0
     armoruniformity: 0.75
     hp: 190000.0
@@ -65,7 +65,7 @@ types:
     marketGroup: 1847
     maxlockedtargets: 8
     maxtargetrange: 250000.0
-    name: Gallente Encounter Surveillance System
+    name: Defunct Gallente Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
     price: 2.5E7
@@ -86,7 +86,7 @@ types:
     uniformity: 1.0
     volume: 200.0
     warpscramblestrength: 100
-  Minmatar Encounter Surveillance System:
+  Defunct Minmatar Encounter Surveillance System:
     armorhp: 30000.0
     armoruniformity: 0.75
     hp: 190000.0
@@ -94,7 +94,7 @@ types:
     marketGroup: 1847
     maxlockedtargets: 8
     maxtargetrange: 250000.0
-    name: Minmatar Encounter Surveillance System
+    name: Defunct Minmatar Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
     price: 2.5E7

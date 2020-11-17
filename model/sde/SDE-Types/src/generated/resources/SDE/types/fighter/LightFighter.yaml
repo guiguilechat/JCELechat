@@ -36,7 +36,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 837.0
+    maxvelocity: 753.0
     name: Dragonfly I
     packagedVolume: 1000.0
     portionSize: 1
@@ -58,7 +58,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 1000.0
@@ -100,7 +100,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 70000.0
-    maxvelocity: 872.0
+    maxvelocity: 785.0
     metalevelold: 5
     name: Dragonfly II
     packagedVolume: 1000.0
@@ -122,7 +122,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 0.699999988079071
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureuniformity: 1.0
     techlevel: 2
     volume: 1000.0
@@ -164,7 +164,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 970.0
+    maxvelocity: 873.0
     name: Einherji I
     packagedVolume: 1000.0
     portionSize: 1
@@ -186,7 +186,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 1000.0
@@ -228,7 +228,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 70000.0
-    maxvelocity: 1009.0
+    maxvelocity: 908.0
     metalevelold: 5
     name: Einherji II
     packagedVolume: 1000.0
@@ -250,7 +250,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 0.8500000238418579
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureuniformity: 1.0
     techlevel: 2
     volume: 1000.0
@@ -288,7 +288,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 1111.0
+    maxvelocity: 1000.0
     name: Equite I
     packagedVolume: 800.0
     portionSize: 1
@@ -309,7 +309,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 800.0
@@ -347,7 +347,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 1156.0
+    maxvelocity: 1040.0
     metalevelold: 5
     name: Equite II
     packagedVolume: 800.0
@@ -369,7 +369,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureuniformity: 1.0
     techlevel: 2
     volume: 800.0
@@ -411,7 +411,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 793.0
+    maxvelocity: 714.0
     name: Firbolg I
     packagedVolume: 1000.0
     portionSize: 1
@@ -433,7 +433,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 1000.0
@@ -475,7 +475,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 70000.0
-    maxvelocity: 826.0
+    maxvelocity: 743.0
     metalevelold: 5
     name: Firbolg II
     packagedVolume: 1000.0
@@ -497,7 +497,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 0.8500000238418579
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureuniformity: 1.0
     techlevel: 2
     volume: 1000.0
@@ -535,7 +535,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 1164.0
+    maxvelocity: 1048.0
     name: Gram I
     packagedVolume: 800.0
     portionSize: 1
@@ -556,7 +556,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 800.0
@@ -594,7 +594,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 1211.0
+    maxvelocity: 1090.0
     metalevelold: 5
     name: Gram II
     packagedVolume: 800.0
@@ -616,7 +616,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.8500000238418579
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureuniformity: 1.0
     techlevel: 2
     volume: 800.0
@@ -654,7 +654,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 1005.0
+    maxvelocity: 905.0
     name: Locust I
     packagedVolume: 800.0
     portionSize: 1
@@ -675,7 +675,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 800.0
@@ -713,7 +713,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 1046.0
+    maxvelocity: 941.0
     metalevelold: 5
     name: Locust II
     packagedVolume: 800.0
@@ -735,7 +735,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.699999988079071
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureuniformity: 1.0
     techlevel: 2
     volume: 800.0
@@ -773,7 +773,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 952.0
+    maxvelocity: 857.0
     name: Satyr I
     packagedVolume: 800.0
     portionSize: 1
@@ -794,7 +794,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 800.0
@@ -832,7 +832,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 991.0
+    maxvelocity: 892.0
     metalevelold: 5
     name: Satyr II
     packagedVolume: 800.0
@@ -854,7 +854,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.8500000238418579
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureuniformity: 1.0
     techlevel: 2
     volume: 800.0
@@ -896,7 +896,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 1674.0
+    maxvelocity: 1507.0
     name: Standup Dragonfly I
     packagedVolume: 2000.0
     portionSize: 1
@@ -914,7 +914,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 1
@@ -957,7 +957,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 70000.0
-    maxvelocity: 1744.0
+    maxvelocity: 1570.0
     metalevelold: 5
     name: Standup Dragonfly II
     packagedVolume: 2000.0
@@ -976,7 +976,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 0.699999988079071
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 2
@@ -1019,7 +1019,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 1940.0
+    maxvelocity: 1746.0
     name: Standup Einherji I
     packagedVolume: 2000.0
     portionSize: 1
@@ -1037,7 +1037,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 1
@@ -1080,7 +1080,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 70000.0
-    maxvelocity: 2018.0
+    maxvelocity: 1816.0
     metalevelold: 5
     name: Standup Einherji II
     packagedVolume: 2000.0
@@ -1099,7 +1099,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 0.8500000238418579
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 2
@@ -1138,7 +1138,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 2778.0
+    maxvelocity: 2500.0
     name: Standup Equite I
     packagedVolume: 1600.0
     portionSize: 1
@@ -1155,7 +1155,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 1
@@ -1194,7 +1194,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 2890.0
+    maxvelocity: 2601.0
     metalevelold: 5
     name: Standup Equite II
     packagedVolume: 1600.0
@@ -1212,7 +1212,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 2
@@ -1255,7 +1255,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 1586.0
+    maxvelocity: 1427.0
     name: Standup Firbolg I
     packagedVolume: 2000.0
     portionSize: 1
@@ -1273,7 +1273,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 1
@@ -1316,7 +1316,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 70000.0
-    maxvelocity: 1652.0
+    maxvelocity: 1487.0
     metalevelold: 5
     name: Standup Firbolg II
     packagedVolume: 2000.0
@@ -1335,7 +1335,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 0.8500000238418579
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 2
@@ -1374,7 +1374,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 2910.0
+    maxvelocity: 2619.0
     name: Standup Gram I
     packagedVolume: 1600.0
     portionSize: 1
@@ -1391,7 +1391,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 1
@@ -1430,7 +1430,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 3028.0
+    maxvelocity: 2725.0
     metalevelold: 5
     name: Standup Gram II
     packagedVolume: 1600.0
@@ -1448,7 +1448,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.8500000238418579
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 2
@@ -1487,7 +1487,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 2513.0
+    maxvelocity: 2262.0
     name: Standup Locust I
     packagedVolume: 1600.0
     portionSize: 1
@@ -1504,7 +1504,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 1
@@ -1543,7 +1543,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 2615.0
+    maxvelocity: 2354.0
     metalevelold: 5
     name: Standup Locust II
     packagedVolume: 1600.0
@@ -1561,7 +1561,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.699999988079071
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 2
@@ -1600,7 +1600,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 50000.0
-    maxvelocity: 2380.0
+    maxvelocity: 2142.0
     name: Standup Satyr I
     packagedVolume: 1600.0
     portionSize: 1
@@ -1617,7 +1617,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 1
@@ -1656,7 +1656,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 2478.0
+    maxvelocity: 2230.0
     metalevelold: 5
     name: Standup Satyr II
     packagedVolume: 1600.0
@@ -1674,7 +1674,7 @@ types:
     shieldrechargerate: 500000.0
     shieldthermaldamageresonance: 0.8500000238418579
     shielduniformity: 1.0
-    signatureradius: 80.0
+    signatureradius: 88.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 2
@@ -1717,7 +1717,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 1852.0
+    maxvelocity: 1667.0
     name: Standup Templar I
     packagedVolume: 2000.0
     portionSize: 1
@@ -1735,7 +1735,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 1
@@ -1778,7 +1778,7 @@ types:
     marketGroup: 2411
     maxlockedtargets: 6
     maxtargetrange: 70000.0
-    maxvelocity: 1926.0
+    maxvelocity: 1733.0
     metalevelold: 5
     name: Standup Templar II
     packagedVolume: 2000.0
@@ -1797,7 +1797,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureitemvisualflag: 1
     structureuniformity: 1.0
     techlevel: 2
@@ -1840,7 +1840,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 60000.0
-    maxvelocity: 926.0
+    maxvelocity: 833.0
     name: Templar I
     packagedVolume: 1000.0
     portionSize: 1
@@ -1862,7 +1862,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureuniformity: 1.0
     techlevel: 1
     volume: 1000.0
@@ -1904,7 +1904,7 @@ types:
     marketGroup: 840
     maxlockedtargets: 6
     maxtargetrange: 70000.0
-    maxvelocity: 963.0
+    maxvelocity: 867.0
     metalevelold: 5
     name: Templar II
     packagedVolume: 1000.0
@@ -1926,7 +1926,7 @@ types:
     shieldrechargerate: 700000.0
     shieldthermaldamageresonance: 1.0
     shielduniformity: 1.0
-    signatureradius: 100.0
+    signatureradius: 110.0
     structureuniformity: 1.0
     techlevel: 2
     volume: 1000.0

@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat</groupId>
 		<artifactId>libs</artifactId>
-		<version>6.0.3</version>
+		<version>6.0.4</version>
 	</parent>
 	<packaging>pom</packaging>
 	<modules>
@@ -17,9 +17,10 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-web</artifactId>
-				<version>${springboot.version}</version>
+				<groupId>javax.servlet</groupId>
+				<artifactId>javax.servlet-api</artifactId>
+				<version>${javax.servlet-api.version}</version>
+				<scope>provided</scope>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
@@ -30,14 +31,12 @@
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-starter-test</artifactId>
-				<scope>test</scope>
-				<exclusions>
-					<exclusion>
-						<groupId>org.junit.vintage</groupId>
-						<artifactId>junit-vintage-engine</artifactId>
-					</exclusion>
-				</exclusions>
+				<artifactId>spring-boot-starter-security</artifactId>
+				<version>${springboot.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-thymeleaf</artifactId>
 				<version>${springboot.version}</version>
 			</dependency>
 			<dependency>
@@ -45,9 +44,15 @@
 				<artifactId>spring-boot-starter-tomcat</artifactId>
 				<version>${springboot.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-web</artifactId>
+				<version>${springboot.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<properties>
-		<springboot.version>2.3.5.RELEASE</springboot.version>
+		<springboot.version>2.3.3.RELEASE</springboot.version>
+		<javax.servlet-api.version>3.1.0</javax.servlet-api.version>
 	</properties>
 </project>

@@ -72,8 +72,9 @@ types:
     price: 1.4573872128E10
     propulsiongraphicid: 394
     published: true
-    radius: 2337.0
+    radius: 4674.0
     rechargerate: 5630000.0
+    reclonerfueltype: 4247
     remoteassistanceimpedance: 0.5
     remoterepairimpedance: 1.0
     requiredskill1: 20533
@@ -96,12 +97,12 @@ types:
     shielduniformity: 0.75
     shipbonusrole1: 1.0
     shipbonusrole2: 200
-    shipbonussupercarriera1: 5
+    shipbonussupercarriera1: 7.5
     shipbonussupercarriera2: -4
     shipbonussupercarriera3: -5
     shipbonussupercarriera4: -5
     shipbonussupercarriera5: 2
-    shipmaintenancebaycapacity: 2500000
+    shipmaintenancebaycapacity: 5000000
     signatureradius: 18870.0
     specialfuelbaycapacity: 5000
     stasiswebifierresistance: 0.5
@@ -190,8 +191,9 @@ types:
     price: 1.4331507712E10
     propulsiongraphicid: 397
     published: true
-    radius: 2000.0
+    radius: 4400.0
     rechargerate: 4880000.0
+    reclonerfueltype: 4246
     remoteassistanceimpedance: 0.5
     remoterepairimpedance: 1.0
     requiredskill1: 20533
@@ -220,7 +222,7 @@ types:
     shipbonussupercarrierm3: -5
     shipbonussupercarrierm4: -5
     shipbonussupercarrierm5: 2
-    shipmaintenancebaycapacity: 2500000
+    shipmaintenancebaycapacity: 5000000
     signatureradius: 18640.0
     specialfuelbaycapacity: 5000
     stasiswebifierresistance: 0.5
@@ -309,8 +311,9 @@ types:
     price: 1.5827570688E10
     propulsiongraphicid: 394
     published: true
-    radius: 1625.0
+    radius: 3820.0
     rechargerate: 5060000.0
+    reclonerfueltype: 4312
     remoteassistanceimpedance: 0.5
     remoterepairimpedance: 1.0
     requiredskill1: 20533
@@ -338,7 +341,7 @@ types:
     shipbonussupercarrierg3: -5
     shipbonussupercarrierg4: -5
     shipbonussupercarrierg5: 2
-    shipmaintenancebaycapacity: 2500000
+    shipmaintenancebaycapacity: 5000000
     signatureradius: 19010.0
     specialfuelbaycapacity: 5000
     stasiswebifierresistance: 0.5
@@ -429,8 +432,9 @@ types:
     price: 1.4573872128E10
     propulsiongraphicid: 394
     published: true
-    radius: 2840.0
+    radius: 4260.0
     rechargerate: 5630000.0
+    reclonerfueltype: 4247
     remoteassistanceimpedance: 0.5
     remoterepairimpedance: 1.0
     requiredskill1: 20533
@@ -455,14 +459,14 @@ types:
     shielduniformity: 0.75
     shipbonusrole1: 1.0
     shipbonusrole2: 200
-    shipbonussupercarriera1: 5
+    shipbonussupercarriera1: 5.0
     shipbonussupercarriera2: 5
     shipbonussupercarriera3: -3
     shipbonussupercarriera4: -5
-    shipbonussupercarrierc1: 5
+    shipbonussupercarrierc1: 5.0
     shipbonussupercarrierc2: 20
     shipbonussupercarrierc3: -3
-    shipmaintenancebaycapacity: 2500000
+    shipmaintenancebaycapacity: 5000000
     signatureradius: 18870.0
     specialfuelbaycapacity: 5000
     stasiswebifierresistance: 0.5
@@ -553,8 +557,9 @@ types:
     price: 1.5827570688E10
     propulsiongraphicid: 394
     published: true
-    radius: 1625.0
+    radius: 3820.0
     rechargerate: 5080000.0
+    reclonerfueltype: 4312
     remoteassistanceimpedance: 0.5
     remoterepairimpedance: 1.0
     requiredskill1: 20533
@@ -585,7 +590,7 @@ types:
     shipbonussupercarrierm1: 10
     shipbonussupercarrierm2: 5
     shipbonussupercarrierm3: -3
-    shipmaintenancebaycapacity: 2500000
+    shipmaintenancebaycapacity: 5000000
     signatureradius: 20300.0
     specialfuelbaycapacity: 5000
     stasiswebifierresistance: 0.5
@@ -674,8 +679,9 @@ types:
     price: 1.4032432128E10
     propulsiongraphicid: 395
     published: true
-    radius: 1613.0
+    radius: 4032.0
     rechargerate: 5000000.0
+    reclonerfueltype: 4051
     remoteassistanceimpedance: 0.5
     remoterepairimpedance: 1.0
     requiredskill1: 20533
@@ -698,12 +704,12 @@ types:
     shielduniformity: 0.75
     shipbonusrole1: 1.0
     shipbonusrole2: 200
-    shipbonussupercarrierc1: 5
+    shipbonussupercarrierc1: 7.5
     shipbonussupercarrierc2: -4
     shipbonussupercarrierc3: -5
     shipbonussupercarrierc4: -5
     shipbonussupercarrierc5: 2
-    shipmaintenancebaycapacity: 2500000
+    shipmaintenancebaycapacity: 5000000
     signatureradius: 19470.0
     specialfuelbaycapacity: 5000
     stasiswebifierresistance: 0.5

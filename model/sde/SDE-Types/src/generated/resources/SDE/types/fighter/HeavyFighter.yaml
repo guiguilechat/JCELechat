@@ -42,7 +42,7 @@ types:
     requiredskill2level: 1
     scanradarstrength: 7.0
     scanresolution: 430.0
-    shieldcapacity: 3420.0
+    shieldcapacity: 3762.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -98,7 +98,7 @@ types:
     requiredskill2level: 5
     scanradarstrength: 8.0
     scanresolution: 450.0
-    shieldcapacity: 3780.0
+    shieldcapacity: 4158.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.699999988079071
     shieldkineticdamageresonance: 0.8500000238418579
@@ -153,7 +153,7 @@ types:
     requiredskill2level: 1
     scanmagnetometricstrength: 7.0
     scanresolution: 430.0
-    shieldcapacity: 3420.0
+    shieldcapacity: 3762.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -209,7 +209,7 @@ types:
     requiredskill2level: 5
     scanmagnetometricstrength: 8.0
     scanresolution: 450.0
-    shieldcapacity: 3780.0
+    shieldcapacity: 4158.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 0.699999988079071
@@ -272,7 +272,7 @@ types:
     requiredskill2level: 1
     scanmagnetometricstrength: 7.0
     scanresolution: 500.0
-    shieldcapacity: 3650.0
+    shieldcapacity: 4015.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -335,7 +335,7 @@ types:
     requiredskill2level: 5
     scanmagnetometricstrength: 8.0
     scanresolution: 520.0
-    shieldcapacity: 4030.0
+    shieldcapacity: 4433.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 0.699999988079071
@@ -390,7 +390,7 @@ types:
     requiredskill2level: 1
     scanladarstrength: 7.0
     scanresolution: 430.0
-    shieldcapacity: 3420.0
+    shieldcapacity: 3762.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -446,7 +446,7 @@ types:
     requiredskill2level: 5
     scanladarstrength: 8.0
     scanresolution: 450.0
-    shieldcapacity: 3780.0
+    shieldcapacity: 4158.0
     shieldemdamageresonance: 0.699999988079071
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -509,7 +509,7 @@ types:
     requiredskill2level: 1
     scanradarstrength: 7.0
     scanresolution: 500.0
-    shieldcapacity: 3650.0
+    shieldcapacity: 4015.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -572,7 +572,7 @@ types:
     requiredskill2level: 5
     scanradarstrength: 8.0
     scanresolution: 520.0
-    shieldcapacity: 4030.0
+    shieldcapacity: 4433.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.699999988079071
     shieldkineticdamageresonance: 0.8500000238418579
@@ -635,7 +635,7 @@ types:
     requiredskill2level: 1
     scangravimetricstrength: 7.0
     scanresolution: 500.0
-    shieldcapacity: 3650.0
+    shieldcapacity: 4015.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -698,7 +698,7 @@ types:
     requiredskill2level: 5
     scangravimetricstrength: 8.0
     scanresolution: 520.0
-    shieldcapacity: 4030.0
+    shieldcapacity: 4433.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 0.8500000238418579
@@ -810,7 +810,7 @@ types:
     remoterepairimpedance: 1.0
     scanradarstrength: 11.0
     scanresolution: 430.0
-    shieldcapacity: 5472.0
+    shieldcapacity: 6019.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -863,7 +863,7 @@ types:
     remoterepairimpedance: 1.0
     scanradarstrength: 12.0
     scanresolution: 450.0
-    shieldcapacity: 6048.0
+    shieldcapacity: 6653.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.699999988079071
     shieldkineticdamageresonance: 0.8500000238418579
@@ -915,7 +915,7 @@ types:
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 11.0
     scanresolution: 430.0
-    shieldcapacity: 5472.0
+    shieldcapacity: 6019.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -968,7 +968,7 @@ types:
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 12.0
     scanresolution: 450.0
-    shieldcapacity: 6048.0
+    shieldcapacity: 6653.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 0.699999988079071
@@ -1027,7 +1027,7 @@ types:
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 11.0
     scanresolution: 500.0
-    shieldcapacity: 5840.0
+    shieldcapacity: 6424.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1087,7 +1087,7 @@ types:
     remoterepairimpedance: 1.0
     scanmagnetometricstrength: 12.0
     scanresolution: 520.0
-    shieldcapacity: 6448.0
+    shieldcapacity: 7093.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 0.699999988079071
@@ -1139,7 +1139,7 @@ types:
     remoterepairimpedance: 1.0
     scanladarstrength: 11.0
     scanresolution: 430.0
-    shieldcapacity: 5472.0
+    shieldcapacity: 6019.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1192,7 +1192,7 @@ types:
     remoterepairimpedance: 1.0
     scanladarstrength: 12.0
     scanresolution: 450.0
-    shieldcapacity: 6048.0
+    shieldcapacity: 6653.0
     shieldemdamageresonance: 0.699999988079071
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1251,7 +1251,7 @@ types:
     remoterepairimpedance: 1.0
     scanradarstrength: 11.0
     scanresolution: 500.0
-    shieldcapacity: 5840.0
+    shieldcapacity: 6424.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1311,7 +1311,7 @@ types:
     remoterepairimpedance: 1.0
     scanradarstrength: 12.0
     scanresolution: 520.0
-    shieldcapacity: 6448.0
+    shieldcapacity: 7093.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 0.699999988079071
     shieldkineticdamageresonance: 0.8500000238418579
@@ -1371,7 +1371,7 @@ types:
     remoterepairimpedance: 1.0
     scangravimetricstrength: 11.0
     scanresolution: 500.0
-    shieldcapacity: 5840.0
+    shieldcapacity: 6424.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1431,7 +1431,7 @@ types:
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanresolution: 520.0
-    shieldcapacity: 6448.0
+    shieldcapacity: 7093.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 0.8500000238418579
@@ -1488,7 +1488,7 @@ types:
     remoterepairimpedance: 1.0
     scanradarstrength: 12.0
     scanresolution: 520.0
-    shieldcapacity: 8800.0
+    shieldcapacity: 9680.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1540,7 +1540,7 @@ types:
     remoterepairimpedance: 1.0
     scangravimetricstrength: 11.0
     scanresolution: 430.0
-    shieldcapacity: 5472.0
+    shieldcapacity: 6019.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1593,7 +1593,7 @@ types:
     remoterepairimpedance: 1.0
     scangravimetricstrength: 12.0
     scanresolution: 450.0
-    shieldcapacity: 6048.0
+    shieldcapacity: 6653.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 0.8500000238418579
@@ -1652,7 +1652,7 @@ types:
     remoterepairimpedance: 1.0
     scanladarstrength: 11.0
     scanresolution: 500.0
-    shieldcapacity: 5840.0
+    shieldcapacity: 6424.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1712,7 +1712,7 @@ types:
     remoterepairimpedance: 1.0
     scanladarstrength: 12.0
     scanresolution: 520.0
-    shieldcapacity: 6448.0
+    shieldcapacity: 7093.0
     shieldemdamageresonance: 0.699999988079071
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1768,7 +1768,7 @@ types:
     requiredskill2level: 1
     scangravimetricstrength: 7.0
     scanresolution: 430.0
-    shieldcapacity: 3420.0
+    shieldcapacity: 3762.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1824,7 +1824,7 @@ types:
     requiredskill2level: 5
     scangravimetricstrength: 8.0
     scanresolution: 450.0
-    shieldcapacity: 3780.0
+    shieldcapacity: 4158.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 0.8500000238418579
@@ -1887,7 +1887,7 @@ types:
     requiredskill2level: 1
     scanladarstrength: 7.0
     scanresolution: 500.0
-    shieldcapacity: 3650.0
+    shieldcapacity: 4015.0
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -1950,7 +1950,7 @@ types:
     requiredskill2level: 5
     scanladarstrength: 8.0
     scanresolution: 520.0
-    shieldcapacity: 4030.0
+    shieldcapacity: 4433.0
     shieldemdamageresonance: 0.699999988079071
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0

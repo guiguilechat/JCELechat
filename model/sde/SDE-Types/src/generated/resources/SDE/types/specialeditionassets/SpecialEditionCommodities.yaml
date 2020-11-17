@@ -1207,6 +1207,20 @@ types:
     portionSize: 1
     published: true
     volume: 6000.0
+  Forever 4-4 Fireworks Crate:
+    cpumultiplier: 1.0
+    id: 56951
+    name: Forever 4-4 Fireworks Crate
+    portionSize: 1
+    published: true
+  Forever 4-4 Fireworks and Launcher Crate:
+    cpumultiplier: 1.0
+    id: 56750
+    name: Forever 4-4 Fireworks and Launcher Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Forged Frigate Blueprints:
     cpumultiplier: 1.0
     id: 44208
@@ -1216,6 +1230,14 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
+  Forward 4-4 Celebration Crate:
+    cpumultiplier: 1.0
+    id: 56860
+    name: Forward 4-4 Celebration Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Frontier Safeguarder Encore Crate:
     cpumultiplier: 1.0
     id: 54486

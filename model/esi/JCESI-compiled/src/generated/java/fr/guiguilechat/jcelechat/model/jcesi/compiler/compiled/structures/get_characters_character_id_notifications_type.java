@@ -157,6 +157,8 @@ public enum get_characters_character_id_notifications_type {
     DistrictAttacked("DistrictAttacked"),
     @JsonProperty("DustAppAcceptedMsg")
     DustAppAcceptedMsg("DustAppAcceptedMsg"),
+    @JsonProperty("ESSMainBankLink")
+    ESSMainBankLink("ESSMainBankLink"),
     @JsonProperty("EntosisCaptureStarted")
     EntosisCaptureStarted("EntosisCaptureStarted"),
     @JsonProperty("FWAllianceKickMsg")

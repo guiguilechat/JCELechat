@@ -11,11 +11,11 @@ import fr.guiguilechat.jcelechat.model.sde.IMetaGroup;
 import fr.guiguilechat.jcelechat.model.sde.types.Commodity;
 import org.yaml.snakeyaml.Yaml;
 
-public class EmpireBountyReimbursementTags
+public class BountyEncryptedBonds
     extends Commodity
 {
     public static final Set<Attribute> ATTRIBUTES = Collections.emptySet();
-    public static final EmpireBountyReimbursementTags.MetaGroup METAGROUP = new EmpireBountyReimbursementTags.MetaGroup();
+    public static final BountyEncryptedBonds.MetaGroup METAGROUP = new BountyEncryptedBonds.MetaGroup();
 
     @Override
     public Set<Attribute> getAttributes() {
@@ -23,18 +23,18 @@ public class EmpireBountyReimbursementTags
     }
 
     @Override
-    public IMetaGroup<EmpireBountyReimbursementTags> getGroup() {
+    public IMetaGroup<BountyEncryptedBonds> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<EmpireBountyReimbursementTags>
+        implements IMetaGroup<BountyEncryptedBonds>
     {
-        public static final String RESOURCE_PATH = "SDE/types/commodity/EmpireBountyReimbursementTags.yaml";
-        private Map<String, EmpireBountyReimbursementTags> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/commodity/BountyEncryptedBonds.yaml";
+        private Map<String, BountyEncryptedBonds> cache = (null);
 
         @Override
-        public IMetaCategory<? super EmpireBountyReimbursementTags> category() {
+        public IMetaCategory<? super BountyEncryptedBonds> category() {
             return Commodity.METACAT;
         }
 
@@ -45,13 +45,13 @@ public class EmpireBountyReimbursementTags
 
         @Override
         public String getName() {
-            return "EmpireBountyReimbursementTags";
+            return "BountyEncryptedBonds";
         }
 
         @Override
-        public synchronized Map<String, EmpireBountyReimbursementTags> load() {
+        public synchronized Map<String, BountyEncryptedBonds> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(EmpireBountyReimbursementTags.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(BountyEncryptedBonds.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -61,7 +61,7 @@ public class EmpireBountyReimbursementTags
         }
 
         private static class Container {
-            public LinkedHashMap<String, EmpireBountyReimbursementTags> types;
+            public LinkedHashMap<String, BountyEncryptedBonds> types;
         }
     }
 }
