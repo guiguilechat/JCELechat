@@ -65,7 +65,8 @@ public class Assets {
 			ItemNode parent = ret.itemsByID.get(itemNode.location_id);
 			if (parent == null) {
 				Location location = Location.resolve(con, itemNode.location_id);
-				ret.roots.computeIfAbsent(location, loc -> new ArrayList<>()).add(itemNode);
+				ret.roots.computeIfAbsent(location, loc -> new HashMap<>())
+						.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
 			} else {
 				parent.contained.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
 			}

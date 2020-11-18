@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.evespringmarket.controller;
+package fr.guiguilechat.jcelechat.libs.spring.evespringmarket.controller.api;
 
 import java.util.Optional;
 import java.util.stream.IntStream;
@@ -10,9 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 
 @RestController
-public class APIController {
+@RequestMapping("/api")
+public class MarketController {
 
-	public APIController() {
+	public MarketController() {
 		// load the forge
 		ESIAccess.INSTANCE.markets.getMarket(10000002);
 		// load domain
@@ -42,5 +43,7 @@ public class APIController {
 				.mapToDouble(i -> ESIAccess.INSTANCE.markets.getMarket(regionid).getBO(i, quantity.orElse(1)).get())
 				.toArray();
 	}
+	
+	
 
 }

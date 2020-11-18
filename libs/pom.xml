@@ -39,6 +39,11 @@
 				<artifactId>SDE-Locations</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+				<artifactId>SDE-Types</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>

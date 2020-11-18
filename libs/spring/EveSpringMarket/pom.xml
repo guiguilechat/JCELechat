@@ -35,6 +35,14 @@
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>JCESI</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>SDE-Types</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>SDE-Industry</artifactId>
+		</dependency>
 	</dependencies>
 	<packaging>war</packaging>
 	<build>
