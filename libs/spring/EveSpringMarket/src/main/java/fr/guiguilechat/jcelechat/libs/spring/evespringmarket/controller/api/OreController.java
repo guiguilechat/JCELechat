@@ -28,22 +28,28 @@ import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Plagioclase;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Pyroxeres;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Scordite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Veldspar;
+import fr.guiguilechat.jcelechat.model.sde.types.material.Mineral;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/ore")
 public class OreController {
 
 	public OreController() {
 		// load the forge
-		ESIAccess.INSTANCE.markets.getMarket(10000002);
+		var theforge = ESIAccess.INSTANCE.markets.getMarket(10000002);
 		// load domain
-		ESIAccess.INSTANCE.markets.getMarket(10000043);
+		var domain = ESIAccess.INSTANCE.markets.getMarket(10000043);
+		for (Mineral m : Mineral.METAGROUP.load().values()) {
+			theforge.getHistory(m.id);
+			domain.getHistory(m.id);
+		}
 	}
 
 	public static enum Security {
 		hs(Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Veldspar.METAGROUP), ls(Hedbergite.METAGROUP,
 				Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Omber.METAGROUP, Plagioclase.METAGROUP,
-				Pyroxeres.METAGROUP), ns, ws, ks, all;
+				Pyroxeres.METAGROUP), ns, ws, ks, @SuppressWarnings("unchecked")
+		all(Stream.of(hs.groups, ls.groups).flatMap(Stream::of).toArray(IMetaGroup[]::new));
 
 		private IMetaGroup<? extends Asteroid>[] groups;
 
@@ -96,13 +102,13 @@ public class OreController {
 	}
 
 	public static enum Orderer implements Comparator<OreEval> {
-		comp_bo_inc {
+		compr_bo_inc {
 			@Override
 			public int compare(OreEval o1, OreEval o2) {
 				return o1.compressed != null && o2.compressed != null ? (int) (o1.compressed.bo - o2.compressed.bo) : 0;
 			}
 		},
-		comp_bo_dec {
+		compr_bo_dec {
 			@Override
 			public int compare(OreEval o1, OreEval o2) {
 				return o1.compressed != null && o2.compressed != null ? (int) (o2.compressed.bo - o1.compressed.bo) : 0;
@@ -114,14 +120,14 @@ public class OreController {
 
 	}
 
-	@RequestMapping("/ore")
-	public OreEval[] getOres(Optional<Security> security, Optional<Integer> regionid, Optional<Long> minvol,
-			Optional<String> filter, Optional<Orderer> order, Optional<Float> eff) {
-		Security sec = security.orElse(Security.hs);
-		Stream.of(sec.groups());
+	@RequestMapping("/volumic")
+	public OreEval[] getOres(Optional<Security> sec, Optional<Integer> regionid, Optional<Long> minvol,
+			Optional<String> filter, Optional<Orderer> sort, Optional<Float> eff, Optional<String>allowNoOffer) {
+		Security secu = sec.orElse(Security.all);
+		Stream.of(secu.groups());
 		String filt = filter.isEmpty() ? null : filter.get().toLowerCase();
-		boolean allowNoSO = false;
-		List<Asteroid> ores = Stream.of(sec.groups()).flatMap(group -> group.load().values().stream())
+		boolean allowNoSO = allowNoOffer.isPresent();
+		List<Asteroid> ores = Stream.of(secu.groups()).flatMap(group -> group.load().values().stream())
 				.filter(ast -> ast.published && ast.marketGroup != 0)
 				.filter(ast -> IndustryUsage.of(ast.id).compressFrom == 0)
 				.filter(ast -> filt == null || ast.name.toLowerCase().contains(filt))
@@ -132,8 +138,8 @@ public class OreController {
 		float efficiency = eff.orElse(0.5f);
 		var ret = ores.stream().map(ore -> eval(ore, market, minVol, efficiency))
 				.filter(eval -> allowNoSO || eval.raw.so != Float.POSITIVE_INFINITY).toArray(OreEval[]::new);
-		if (order.isPresent()) {
-			Arrays.sort(ret, order.get());
+		if (sort.isPresent()) {
+			Arrays.sort(ret, sort.get());
 		}
 		return ret;
 	}
@@ -155,14 +161,16 @@ public class OreController {
 			}
 		}
 		if (usage.reprocessInto != null && !usage.reprocessInto.isEmpty()) {
-			long portions = (long) Math.ceil(baseQtty / ore.portionSize);
+			long portions = (long) Math.ceil(1.0 * baseQtty / ore.portionSize);
 			float modifVolume = (float) (portions * ore.portionSize * ore.volume);
+			// System.err.println(ore.name + " baseQtty=" + baseQtty + " portions=" +
+			// portions + " vol=" + modifVolume);
 			Prices repr = new Prices();
 			repr.volume = modifVolume;
 			repr.qtty = portions * ore.portionSize;
 			for (Entry<Integer, Double> e : usage.reprocessInto.entrySet()) {
 				int rid = e.getKey();
-				long rqtty = (long) Math.floor(e.getValue() * ore.portionSize * portions * efficiency);
+				long rqtty = (long) Math.floor(efficiency * e.getValue() * ore.portionSize * portions);
 				repr.bo += market.getBO(rid, rqtty).get() / modifVolume;
 				repr.so += market.getSO(rid, rqtty).get() / modifVolume;
 				repr.month += market.getHistory(rid).monthly.getAverage().get() * rqtty / modifVolume;
@@ -171,6 +179,14 @@ public class OreController {
 			ret.reprocessed = repr;
 		}
 		return ret;
+	}
+
+	@RequestMapping("/**")
+	public String fallback() {
+		return "syntax : volumic?[&amp;sec=" + Stream.of(Security.values()).collect(Collectors.toSet())
+				+ "(all)][&amp;regionid=regionid(10000002)][&amp;minvol=vol(1)][&amp;filter=namefilter()][&amp;sort="
+				+ Stream.of(Orderer.values()).collect(Collectors.toSet())
+				+ "()][&amp;eff=reproceff(0.5)][&amp;allowNoOffer()]";
 	}
 
 }
