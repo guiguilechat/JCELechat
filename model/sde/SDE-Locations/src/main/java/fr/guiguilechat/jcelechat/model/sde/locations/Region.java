@@ -6,10 +6,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -122,34 +123,88 @@ public class Region extends ALocation {
 		return constellations.stream().map(Constellation::getConstellation).flatMap(c -> c.systems.stream());
 	}
 
-	public static final Collection<String> EMPIRE_ANGELS = Collections
-			.unmodifiableCollection(Arrays.asList("Heimatar", "Metropolis", "Molden Heath"));
+	public static final Set<String> EMPIRE_ANGELS = Collections
+			.unmodifiableSet(new HashSet<>(Arrays.asList("Heimatar", "Metropolis", "Molden Heath")));
 
-	public static final Collection<String> EMPIRE_BLOODS = Collections
-			.unmodifiableCollection(Arrays.asList("Aridia", "Genesis", "Kador", "Khanid", "Kor-Azor", "The Bleak Lands"));
+	public static final Set<String> EMPIRE_BLOODS = Collections.unmodifiableSet(
+			new HashSet<>(Arrays.asList("Aridia", "Genesis", "Kador", "Khanid", "Kor-Azor", "The Bleak Lands")));
 
-	public static final Collection<String> EMPIRE_GURISTAS = Collections
-			.unmodifiableCollection(Arrays.asList("Black Rise", "The Citadel", "The Forge", "Lonetrek"));
+	public static final Set<String> EMPIRE_GURISTAS = Collections
+			.unmodifiableSet(new HashSet<>(Arrays.asList("Black Rise", "The Citadel", "The Forge", "Lonetrek")));
 
-	public static final Collection<String> EMPIRE_SANSHAS = Collections
-			.unmodifiableCollection(Arrays.asList("Derelik", "Devoid", "Domain", "Tash-Murkon"));
+	public static final Set<String> EMPIRE_SANSHAS = Collections
+			.unmodifiableSet(new HashSet<>(Arrays.asList("Derelik", "Devoid", "Domain", "Tash-Murkon")));
 
-	public static final Collection<String> EMPIRE_SERPENTIS = Collections.unmodifiableCollection(
-			Arrays.asList("Essence", "Everyshore", "Placid", "Sinq Laison", "Solitude", "Verge Vendor"));
+	public static final Set<String> EMPIRE_SERPENTIS = Collections.unmodifiableSet(
+			new HashSet<>(Arrays.asList("Essence", "Everyshore", "Placid", "Sinq Laison", "Solitude", "Verge Vendor")));
 
-	public static final Collection<String> EMPIRE = Collections.unmodifiableCollection(Stream
+	public static enum EMPIRE_FACTIONS {
+		all {
+			@Override
+			public Set<String> regions() {
+				return EMPIRE;
+			}
+		},
+		angels {
+			@Override
+			public Set<String> regions() {
+				return EMPIRE_ANGELS;
+			}
+		},
+		bloods {
+			@Override
+			public Set<String> regions() {
+				return EMPIRE_BLOODS;
+			}
+		},
+		guristas {
+			@Override
+			public Set<String> regions() {
+				return EMPIRE_GURISTAS;
+			}
+		},
+		sanshas {
+			@Override
+			public Set<String> regions() {
+				return EMPIRE_SANSHAS;
+			}
+		},
+		serpentis {
+			@Override
+			public Set<String> regions() {
+				return EMPIRE_SERPENTIS;
+			}
+		};
+
+		public abstract Set<String> regions();
+
+		private Set<SolarSystem> systems = null;
+
+		public Set<SolarSystem> systems() {
+			if (systems == null) {
+				systems = regions().stream().flatMap(r -> getRegion(r).systems()).map(SolarSystem::getSystem)
+						.filter(ss -> ss.isHS()).collect(Collectors.toUnmodifiableSet());
+			}
+			return systems;
+		}
+
+		public static EMPIRE_FACTIONS of(String regionName) {
+			for (EMPIRE_FACTIONS f : EMPIRE_FACTIONS.values()) {
+				if (f.regions().contains(regionName)) {
+					return f;
+				}
+			}
+			return null;
+		}
+
+		public static EMPIRE_FACTIONS of(SolarSystem sys) {
+			return of(sys.region);
+		}
+	}
+
+	public static final Set<String> EMPIRE = Collections.unmodifiableSet(Stream
 			.concat(Stream.concat(EMPIRE_ANGELS.stream(), EMPIRE_BLOODS.stream()),
 					Stream.concat(EMPIRE_GURISTAS.stream(), Stream.concat(EMPIRE_SANSHAS.stream(), EMPIRE_SERPENTIS.stream())))
-			.collect(Collectors.toList()));
-
-	public static Collection<String> piratesHSRegion(SolarSystem ss) {
-		for (Collection<String> c : Arrays.asList(EMPIRE_ANGELS, EMPIRE_BLOODS, EMPIRE_GURISTAS, EMPIRE_SANSHAS,
-				EMPIRE_SERPENTIS)) {
-			if (c.contains(ss.region)) {
-				return c;
-			}
-		}
-		return Collections.emptyList();
-	}
+			.collect(Collectors.toSet()));
 
 }

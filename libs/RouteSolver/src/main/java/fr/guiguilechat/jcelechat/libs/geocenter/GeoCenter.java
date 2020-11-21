@@ -99,7 +99,7 @@ public class GeoCenter {
 	//
 
 	public static Predicate<SolarSystem> frontierPiratesHS(SolarSystem source) {
-		Set<String> regions = new HashSet<>(Region.piratesHSRegion(source));
+		Set<String> regions = new HashSet<>(Region.EMPIRE_FACTIONS.of(source).regions());
 		return s -> s.isHS() && regions.contains(s.region);
 	}
 
@@ -120,7 +120,7 @@ public class GeoCenter {
 	//
 
 	public static Predicate<SolarSystem> frontierPiratesAdjHS(SolarSystem source) {
-		Set<String> constels = Region.piratesHSRegion(source).stream().map(Region::getRegion)
+		Set<String> constels = Region.EMPIRE_FACTIONS.of(source).regions().stream().map(Region::getRegion)
 				.flatMap(region -> Stream.concat(region.constellations.stream(), region.adjacentConstellations.stream()))
 				.collect(Collectors.toSet());
 		return s -> s.isHS() && constels.contains(s.constellation);
@@ -146,7 +146,7 @@ public class GeoCenter {
 
 	public static Predicate<SolarSystem> frontierPiratesAdjHS(SolarSystem source, boolean allowTrigs,
 			boolean allowEdencom) {
-		Set<String> constels = Region.piratesHSRegion(source).stream().map(Region::getRegion)
+		Set<String> constels = Region.EMPIRE_FACTIONS.of(source).regions().stream().map(Region::getRegion)
 				.flatMap(region -> Stream.concat(region.constellations.stream(), region.adjacentConstellations.stream()))
 				.collect(Collectors.toSet());
 		Set<SolarSystem> invaded = Invasions.INSTANCE.getDangerousHSSystems(allowTrigs, allowEdencom);
