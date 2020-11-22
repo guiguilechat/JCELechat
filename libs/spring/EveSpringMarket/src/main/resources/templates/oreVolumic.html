@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ore volumic</title>
+</head>
+<body>
+
+
+<table>
+      <tr>
+        <th></th>
+        <th colspan="3">BO</th>
+        <th colspan="3">SO</th>
+        <th colspan="3">MONTH</th>
+      </tr>
+      <tr>
+        <th>name</th>
+        <th>raw</th>
+        <th>compressed</th>
+        <th>reprocessed</th>
+        <th>raw</th>
+        <th>compressed</th>
+        <th>reprocessed</th>
+        <th>raw</th>
+        <th>compressed</th>
+        <th>reprocessed</th>
+      </tr>
+      <tr th:each="volume : ${volumes}">
+        <td th:text="${volume.name}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.raw.bo,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.compressed.bo,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.reprocessed.bo,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.raw.so,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.compressed.so,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.reprocessed.so,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.raw.month,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.compressed.month,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.reprocessed.month,0,1)}"></td>
+      </tr>
+</table>
+
+</body>
+</html>

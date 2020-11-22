@@ -32,9 +32,9 @@ import fr.guiguilechat.jcelechat.model.sde.types.material.Mineral;
 
 @RestController
 @RequestMapping("/api/ore")
-public class OreController {
+public class OreAPI {
 
-	public OreController() {
+	public OreAPI() {
 		// load the forge
 		var theforge = ESIAccess.INSTANCE.markets.getMarket(10000002);
 		// load domain
@@ -102,18 +102,30 @@ public class OreController {
 	}
 
 	public static enum Orderer implements Comparator<OreEval> {
-		compr_bo_inc {
+		compr_so {
 			@Override
 			public int compare(OreEval o1, OreEval o2) {
-				return o1.compressed != null && o2.compressed != null ? (int) (o1.compressed.bo - o2.compressed.bo) : 0;
+				return o1.compressed != null && o2.compressed != null ? (int) (o2.compressed.so - o1.compressed.so) : 0;
 			}
 		},
-		compr_bo_dec {
+		compr_bo {
 			@Override
 			public int compare(OreEval o1, OreEval o2) {
 				return o1.compressed != null && o2.compressed != null ? (int) (o2.compressed.bo - o1.compressed.bo) : 0;
 			}
-		};
+		},
+		raw_so {
+			@Override
+			public int compare(OreEval o1, OreEval o2) {
+				return o1.raw != null && o2.raw != null ? (int) (o2.raw.so - o1.raw.so) : 0;
+			}
+		},
+		raw_bo {
+			@Override
+			public int compare(OreEval o1, OreEval o2) {
+				return o1.raw != null && o2.raw != null ? (int) (o2.raw.bo - o1.raw.bo) : 0;
+			}
+		},;
 
 		@Override
 		public abstract int compare(OreEval o1, OreEval o2);
@@ -121,7 +133,7 @@ public class OreController {
 	}
 
 	@RequestMapping("/volumic")
-	public OreEval[] getOres(Optional<Security> sec, Optional<Integer> regionid, Optional<Long> minvol,
+	public OreEval[] volumic(Optional<Security> sec, Optional<Integer> regionid, Optional<Long> minvol,
 			Optional<String> filter, Optional<Orderer> sort, Optional<Float> eff, Optional<String>allowNoOffer) {
 		Security secu = sec.orElse(Security.all);
 		Stream.of(secu.groups());
@@ -136,11 +148,10 @@ public class OreController {
 		RegionalMarket market = ESIAccess.INSTANCE.markets.getMarket(regionid.orElse(10000002));
 		long minVol = minvol.orElse(1l);
 		float efficiency = eff.orElse(0.5f);
-		var ret = ores.stream().map(ore -> eval(ore, market, minVol, efficiency))
+		OreEval[] ret = ores.stream().map(ore -> eval(ore, market, minVol, efficiency))
 				.filter(eval -> allowNoSO || eval.raw.so != Float.POSITIVE_INFINITY).toArray(OreEval[]::new);
-		if (sort.isPresent()) {
-			Arrays.sort(ret, sort.get());
-		}
+		Orderer sorter = sort.orElse(Orderer.compr_bo);
+		Arrays.sort(ret, sorter);
 		return ret;
 	}
 

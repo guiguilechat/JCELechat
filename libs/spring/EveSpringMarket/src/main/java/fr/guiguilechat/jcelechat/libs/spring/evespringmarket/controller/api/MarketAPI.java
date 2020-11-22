@@ -11,9 +11,9 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 
 @RestController
 @RequestMapping("/api/market")
-public class MarketController {
+public class MarketAPI {
 
-	public MarketController() {
+	public MarketAPI() {
 		// load the forge
 		ESIAccess.INSTANCE.markets.getMarket(10000002);
 		// load domain
