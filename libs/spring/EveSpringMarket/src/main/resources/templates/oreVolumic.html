@@ -10,33 +10,39 @@
 <table>
       <tr>
         <th></th>
-        <th colspan="3">BO</th>
-        <th colspan="3">SO</th>
-        <th colspan="3">MONTH</th>
+        <th colspan="4">BO</th>
+        <th colspan="4">SO</th>
+        <th colspan="4">MONTH</th>
       </tr>
       <tr>
         <th>name</th>
         <th>raw</th>
         <th>compressed</th>
         <th>reprocessed</th>
+        <th>highest</th>
         <th>raw</th>
         <th>compressed</th>
         <th>reprocessed</th>
+        <th>highest</th>
         <th>raw</th>
         <th>compressed</th>
         <th>reprocessed</th>
+        <th>highest</th>
       </tr>
       <tr th:each="volume : ${volumes}">
         <td th:text="${volume.name}"></td>
         <td th:text="${#numbers.formatDecimal(volume.raw.bo,0,1)}"></td>
         <td th:text="${#numbers.formatDecimal(volume.compressed.bo,0,1)}"></td>
         <td th:text="${#numbers.formatDecimal(volume.reprocessed.bo,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.highest.bo,0,1)}"></td>
         <td th:text="${#numbers.formatDecimal(volume.raw.so,0,1)}"></td>
         <td th:text="${#numbers.formatDecimal(volume.compressed.so,0,1)}"></td>
         <td th:text="${#numbers.formatDecimal(volume.reprocessed.so,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.highest.so,0,1)}"></td>
         <td th:text="${#numbers.formatDecimal(volume.raw.month,0,1)}"></td>
         <td th:text="${#numbers.formatDecimal(volume.compressed.month,0,1)}"></td>
         <td th:text="${#numbers.formatDecimal(volume.reprocessed.month,0,1)}"></td>
+        <td th:text="${#numbers.formatDecimal(volume.highest.month,0,1)}"></td>
       </tr>
 </table>
 

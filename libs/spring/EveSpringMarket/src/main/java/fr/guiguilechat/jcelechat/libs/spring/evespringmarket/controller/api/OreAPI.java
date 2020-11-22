@@ -98,7 +98,7 @@ public class OreAPI {
 	public static class OreEval {
 		public String name;
 		public int id;
-		public Prices raw, compressed, reprocessed;
+		public Prices raw, compressed, reprocessed, highest;
 	}
 
 	public static enum Orderer implements Comparator<OreEval> {
@@ -161,6 +161,7 @@ public class OreAPI {
 		ret.id = ore.id;
 		long baseQtty = (long) Math.max(Math.ceil(minvol / ore.volume), 1);
 		ret.raw = new Prices(market, ore, baseQtty);
+		ret.highest = new Prices(market, ore, baseQtty);
 		IndustryUsage usage = IndustryUsage.of(ore.id);
 		if (usage.compressTo != 0) {
 			Asteroid compressed = (Asteroid) TypeIndex.getType(usage.compressTo);
@@ -169,6 +170,10 @@ public class OreAPI {
 				long chunks = (long) Math.ceil(baseQtty / chunkSize);
 				float modifVolume = (float) (chunks * chunkSize * ore.volume);
 				ret.compressed = new Prices(market, compressed.id, chunks, modifVolume);
+				ret.highest.bo = Math.max(ret.highest.bo, ret.compressed.bo);
+				ret.highest.so = Math.max(ret.highest.so, ret.compressed.so);
+				ret.highest.month = Math.max(ret.highest.month, ret.compressed.month);
+				ret.highest.week = Math.max(ret.highest.week, ret.compressed.week);
 			}
 		}
 		if (usage.reprocessInto != null && !usage.reprocessInto.isEmpty()) {
@@ -188,6 +193,10 @@ public class OreAPI {
 				repr.week += market.getHistory(rid).weekly.getAverage().get() * rqtty / modifVolume;
 			}
 			ret.reprocessed = repr;
+			ret.highest.bo = Math.max(ret.highest.bo, ret.reprocessed.bo);
+			ret.highest.so = Math.max(ret.highest.so, ret.reprocessed.so);
+			ret.highest.month = Math.max(ret.highest.month, ret.reprocessed.month);
+			ret.highest.week = Math.max(ret.highest.week, ret.reprocessed.week);
 		}
 		return ret;
 	}
