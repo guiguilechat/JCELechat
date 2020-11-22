@@ -47,6 +47,10 @@
 			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
 			<artifactId>SDE-Industry</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
+			<artifactId>SDE-Locations</artifactId>
+		</dependency>
 	</dependencies>
 	<packaging>war</packaging>
 	<build>

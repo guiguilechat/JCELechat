@@ -1,50 +1,82 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>ore volumic</title>
+<meta charset="UTF-8">
+<title>ore volumic</title>
 </head>
 <body>
 
-
-<table>
-      <tr>
-        <th></th>
-        <th colspan="4">BO</th>
-        <th colspan="4">SO</th>
-        <th colspan="4">MONTH</th>
-      </tr>
-      <tr>
-        <th>name</th>
-        <th>raw</th>
-        <th>compressed</th>
-        <th>reprocessed</th>
-        <th>highest</th>
-        <th>raw</th>
-        <th>compressed</th>
-        <th>reprocessed</th>
-        <th>highest</th>
-        <th>raw</th>
-        <th>compressed</th>
-        <th>reprocessed</th>
-        <th>highest</th>
-      </tr>
-      <tr th:each="volume : ${volumes}">
-        <td th:text="${volume.name}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.raw.bo,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.compressed.bo,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.reprocessed.bo,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.highest.bo,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.raw.so,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.compressed.so,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.reprocessed.so,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.highest.so,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.raw.month,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.compressed.month,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.reprocessed.month,0,1)}"></td>
-        <td th:text="${#numbers.formatDecimal(volume.highest.month,0,1)}"></td>
-      </tr>
-</table>
+	<form action="#" method="get" th:object="${params}">
+		<table>
+			<tr>
+				<td>reprocessing efficiency</td>
+				<td><input type="text" th:field="*{reprocessingEfficiency}" /></td>
+			</tr>
+			<tr>
+				<td>minimum volume</td>
+				<td><input type="text" th:field="*{minVolume}"></td>
+			</tr>
+			<tr>
+				<td>ore security</td>
+				<td><select th:field="*{security}">
+						<option th:each="security : ${securities}" th:value="${security}"
+							th:text="${security}" />
+				</select></td>
+			</tr>
+			<tr>
+				<td>market region</td>
+				<td><select th:field="*{regionID}">
+						<option th:each="region : ${regions}" th:value="${region.id}"
+							th:text="${region.name}" />
+				</select></td>
+			</tr>
+			<tr>
+				<td>filter</td>
+				<td><input type="text" th:field="*{filter}"></td>
+			</tr>
+			<tr>
+				<td>order</td>
+				<td><select th:field="*{order}">
+						<option th:each="order : ${orders}" th:value="${order}"
+							th:text="${order}" />
+				</select></td>
+			</tr>
+			<tr>
+				<td>allow ore without offer</td>
+				<td><input type="checkbox" th:field="*{allowNoOffer}" /></td>
+			</tr>
+		</table>
+		<input type="submit" value="Submit" />
+	</form>
+	<table>
+		<tr>
+			<th></th>
+			<th colspan="4">BO</th>
+			<th colspan="4">SO</th>
+		</tr>
+		<tr>
+			<th>name</th>
+			<th>raw</th>
+			<th>compressed</th>
+			<th>reprocessed</th>
+			<th>highest</th>
+			<th>raw</th>
+			<th>compressed</th>
+			<th>reprocessed</th>
+			<th>highest</th>
+		</tr>
+		<tr th:each="volume : ${volumes}">
+			<td th:text="${volume.name}"></td>
+			<td th:text="${#numbers.formatDecimal(volume.raw.bo,0,1)}"></td>
+			<td th:text="${#numbers.formatDecimal(volume.compressed.bo,0,1)}"></td>
+			<td th:text="${#numbers.formatDecimal(volume.reprocessed.bo,0,1)}"></td>
+			<td th:text="${#numbers.formatDecimal(volume.highest.bo,0,1)}"></td>
+			<td th:text="${#numbers.formatDecimal(volume.raw.so,0,1)}"></td>
+			<td th:text="${#numbers.formatDecimal(volume.compressed.so,0,1)}"></td>
+			<td th:text="${#numbers.formatDecimal(volume.reprocessed.so,0,1)}"></td>
+			<td th:text="${#numbers.formatDecimal(volume.highest.so,0,1)}"></td>
+		</tr>
+	</table>
 
 </body>
 </html>

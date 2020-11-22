@@ -28,7 +28,6 @@ import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Plagioclase;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Pyroxeres;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Scordite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Veldspar;
-import fr.guiguilechat.jcelechat.model.sde.types.material.Mineral;
 
 @RestController
 @RequestMapping("/api/ore")
@@ -36,13 +35,9 @@ public class OreAPI {
 
 	public OreAPI() {
 		// load the forge
-		var theforge = ESIAccess.INSTANCE.markets.getMarket(10000002);
+		ESIAccess.INSTANCE.markets.getMarket(10000002);
 		// load domain
-		var domain = ESIAccess.INSTANCE.markets.getMarket(10000043);
-		for (Mineral m : Mineral.METAGROUP.load().values()) {
-			theforge.getHistory(m.id);
-			domain.getHistory(m.id);
-		}
+		ESIAccess.INSTANCE.markets.getMarket(10000043);
 	}
 
 	public static enum Security {
@@ -71,23 +66,20 @@ public class OreAPI {
 		public Prices() {
 		}
 
-		public Prices(float bo, float so, float month, float week, long qtty, float volume) {
+		public Prices(float bo, float so, long qtty, float volume) {
 			this.bo = bo;
 			this.so = so;
-			this.month = month;
-			this.week = week;
 			this.qtty = qtty;
 			this.volume = volume;
 		}
 
-		public Prices(double bo, double so, double avg, double week, long qtty, float volume) {
-			this((float) bo, (float) so, (float) avg, (float) week, qtty, volume);
+		public Prices(double bo, double so, long qtty, float volume) {
+			this((float) bo, (float) so, qtty, volume);
 		}
 
 		public Prices(RegionalMarket market, int typeid, long qtty, float volume) {
 			this(market.getBO(typeid, qtty).get() / volume, market.getSO(typeid, qtty).get() / volume,
-					market.getHistory(typeid).monthly.getAverage().get() * qtty / volume,
-					market.getHistory(typeid).weekly.getAverage().get() * qtty / volume, qtty, volume);
+					qtty, volume);
 		}
 
 		public Prices(RegionalMarket market, EveType type, long qtty) {
@@ -125,7 +117,31 @@ public class OreAPI {
 			public int compare(OreEval o1, OreEval o2) {
 				return o1.raw != null && o2.raw != null ? (int) (o2.raw.bo - o1.raw.bo) : 0;
 			}
-		},;
+		},
+		reproc_so {
+			@Override
+			public int compare(OreEval o1, OreEval o2) {
+				return o1.reprocessed != null && o2.reprocessed != null ? (int) (o2.reprocessed.so - o1.reprocessed.so) : 0;
+			}
+		},
+		reproc_bo {
+			@Override
+			public int compare(OreEval o1, OreEval o2) {
+				return o1.reprocessed != null && o2.reprocessed != null ? (int) (o2.reprocessed.bo - o1.reprocessed.bo) : 0;
+			}
+		},
+		highest_so {
+			@Override
+			public int compare(OreEval o1, OreEval o2) {
+				return o1.highest != null && o2.highest != null ? (int) (o2.highest.so - o1.highest.so) : 0;
+			}
+		},
+		highest_bo {
+			@Override
+			public int compare(OreEval o1, OreEval o2) {
+				return o1.highest != null && o2.highest != null ? (int) (o2.highest.bo - o1.highest.bo) : 0;
+			}
+		};
 
 		@Override
 		public abstract int compare(OreEval o1, OreEval o2);
