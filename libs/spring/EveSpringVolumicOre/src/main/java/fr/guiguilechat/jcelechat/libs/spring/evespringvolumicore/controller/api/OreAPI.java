@@ -19,14 +19,19 @@ import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CompressionQuantityNeeded;
 import fr.guiguilechat.jcelechat.model.sde.industry.IndustryUsage;
 import fr.guiguilechat.jcelechat.model.sde.types.Asteroid;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Arkonor;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Bistot;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Gneiss;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Hedbergite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Hemorphite;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Jaspet;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Kernite;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Mercoxit;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Omber;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Plagioclase;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Pyroxeres;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Scordite;
+import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Spodumain;
 import fr.guiguilechat.jcelechat.model.sde.types.asteroid.Veldspar;
 
 @RestController
@@ -41,10 +46,17 @@ public class OreAPI {
 	}
 
 	public static enum Security {
-		hs(Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Veldspar.METAGROUP), ls(Hedbergite.METAGROUP,
-				Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Omber.METAGROUP, Plagioclase.METAGROUP,
-				Pyroxeres.METAGROUP), ns, ws, ks, @SuppressWarnings("unchecked")
-		all(Stream.of(hs.groups, ls.groups).flatMap(Stream::of).toArray(IMetaGroup[]::new));
+		hs(Plagioclase.METAGROUP, Pyroxeres.METAGROUP, Scordite.METAGROUP, Veldspar.METAGROUP),
+		ls(Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Omber.METAGROUP, Plagioclase.METAGROUP,
+				Pyroxeres.METAGROUP),
+		ns(Arkonor.METAGROUP, Bistot.METAGROUP, Kernite.METAGROUP, Mercoxit.METAGROUP,
+						Pyroxeres.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP), ws(Arkonor.METAGROUP, Bistot.METAGROUP,
+								Gneiss.METAGROUP, Kernite.METAGROUP, Omber.METAGROUP,
+								Pyroxeres.METAGROUP), @SuppressWarnings("unchecked")
+		ks(Stream.of(hs.groups, ls.groups, ns.groups).flatMap(Stream::of).distinct()
+				.toArray(IMetaGroup[]::new)), @SuppressWarnings("unchecked")
+		all(Stream.of(hs.groups, ls.groups, ns.groups, ws.groups).flatMap(Stream::of).distinct()
+				.toArray(IMetaGroup[]::new));
 
 		private IMetaGroup<? extends Asteroid>[] groups;
 
@@ -59,7 +71,7 @@ public class OreAPI {
 	}
 
 	public static class Prices {
-		public float bo, so, month, week;
+		public float bo, so;
 		public long qtty;
 		public float volume;
 
@@ -78,8 +90,7 @@ public class OreAPI {
 		}
 
 		public Prices(RegionalMarket market, int typeid, long qtty, float volume) {
-			this(market.getBO(typeid, qtty).get() / volume, market.getSO(typeid, qtty).get() / volume,
-					qtty, volume);
+			this(market.getBO(typeid, qtty).get() / volume, market.getSO(typeid, qtty).get() / volume, qtty, volume);
 		}
 
 		public Prices(RegionalMarket market, EveType type, long qtty) {
@@ -150,16 +161,14 @@ public class OreAPI {
 
 	@RequestMapping("/volumic")
 	public OreEval[] volumic(Optional<Security> sec, Optional<Integer> regionid, Optional<Long> minvol,
-			Optional<String> filter, Optional<Orderer> sort, Optional<Float> eff, Optional<String>allowNoOffer) {
+			Optional<String> filter, Optional<Orderer> sort, Optional<Float> eff, Optional<String> allowNoOffer) {
 		Security secu = sec.orElse(Security.all);
 		Stream.of(secu.groups());
 		String filt = filter.isEmpty() ? null : filter.get().toLowerCase();
 		boolean allowNoSO = allowNoOffer.isPresent();
 		List<Asteroid> ores = Stream.of(secu.groups()).flatMap(group -> group.load().values().stream())
-				.filter(ast -> ast.published && ast.marketGroup != 0)
-				.filter(ast -> IndustryUsage.of(ast.id).compressFrom == 0)
-				.filter(ast -> filt == null || ast.name.toLowerCase().contains(filt))
-				.sorted(Comparator.comparing(a -> a.name))
+				.filter(ast -> ast.published && ast.marketGroup != 0).filter(ast -> IndustryUsage.of(ast.id).compressFrom == 0)
+				.filter(ast -> filt == null || ast.name.toLowerCase().contains(filt)).sorted(Comparator.comparing(a -> a.name))
 				.collect(Collectors.toList());
 		RegionalMarket market = ESIAccess.INSTANCE.markets.getMarket(regionid.orElse(10000002));
 		long minVol = minvol.orElse(1l);
@@ -186,10 +195,12 @@ public class OreAPI {
 				long chunks = (long) Math.ceil(baseQtty / chunkSize);
 				float modifVolume = (float) (chunks * chunkSize * ore.volume);
 				ret.compressed = new Prices(market, compressed.id, chunks, modifVolume);
-				ret.highest.bo = Math.max(ret.highest.bo, ret.compressed.bo);
-				ret.highest.so = Math.max(ret.highest.so, ret.compressed.so);
-				ret.highest.month = Math.max(ret.highest.month, ret.compressed.month);
-				ret.highest.week = Math.max(ret.highest.week, ret.compressed.week);
+				if (ret.compressed.bo < Float.POSITIVE_INFINITY) {
+					ret.highest.bo = Math.max(ret.highest.bo, ret.compressed.bo);
+				}
+				if (ret.compressed.so < Float.POSITIVE_INFINITY) {
+					ret.highest.so = Math.max(ret.highest.so, ret.compressed.so);
+				}
 			}
 		}
 		if (usage.reprocessInto != null && !usage.reprocessInto.isEmpty()) {
@@ -205,14 +216,14 @@ public class OreAPI {
 				long rqtty = (long) Math.floor(efficiency * e.getValue() * ore.portionSize * portions);
 				repr.bo += market.getBO(rid, rqtty).get() / modifVolume;
 				repr.so += market.getSO(rid, rqtty).get() / modifVolume;
-				repr.month += market.getHistory(rid).monthly.getAverage().get() * rqtty / modifVolume;
-				repr.week += market.getHistory(rid).weekly.getAverage().get() * rqtty / modifVolume;
 			}
 			ret.reprocessed = repr;
-			ret.highest.bo = Math.max(ret.highest.bo, ret.reprocessed.bo);
-			ret.highest.so = Math.max(ret.highest.so, ret.reprocessed.so);
-			ret.highest.month = Math.max(ret.highest.month, ret.reprocessed.month);
-			ret.highest.week = Math.max(ret.highest.week, ret.reprocessed.week);
+			if (ret.reprocessed.bo < Float.POSITIVE_INFINITY) {
+				ret.highest.bo = Math.max(ret.highest.bo, ret.reprocessed.bo);
+			}
+			if (ret.reprocessed.so < Float.POSITIVE_INFINITY) {
+				ret.highest.so = Math.max(ret.highest.so, ret.reprocessed.so);
+			}
 		}
 		return ret;
 	}
@@ -221,8 +232,7 @@ public class OreAPI {
 	public String fallback() {
 		return "syntax : volumic?[&amp;sec=" + Stream.of(Security.values()).collect(Collectors.toSet())
 				+ "(all)][&amp;regionid=regionid(10000002)][&amp;minvol=vol(1)][&amp;filter=namefilter()][&amp;sort="
-				+ Stream.of(Orderer.values()).collect(Collectors.toSet())
-				+ "()][&amp;eff=reproceff(0.5)][&amp;allowNoOffer()]";
+				+ Stream.of(Orderer.values()).collect(Collectors.toSet()) + "()][&amp;eff=reproceff(0.5)][&amp;allowNoOffer()]";
 	}
 
 }
