@@ -163,7 +163,6 @@ public class OreAPI {
 	public OreEval[] volumic(Optional<Security> sec, Optional<Integer> regionid, Optional<Long> minvol,
 			Optional<String> filter, Optional<Orderer> sort, Optional<Float> eff, Optional<String> allowNoOffer) {
 		Security secu = sec.orElse(Security.all);
-		Stream.of(secu.groups());
 		String filt = filter.isEmpty() ? null : filter.get().toLowerCase();
 		boolean allowNoSO = allowNoOffer.isPresent();
 		List<Asteroid> ores = Stream.of(secu.groups()).flatMap(group -> group.load().values().stream())
