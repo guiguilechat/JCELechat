@@ -6,15 +6,15 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class EveMarketAppTest extends SpringBootServletInitializer {
+public class EveSpringMarketAppTest extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EveMarketAppTest.class, args);
+		SpringApplication.run(EveSpringMarketAppTest.class, args);
 	}
 	
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-	return builder.sources(EveMarketAppTest.class);	
+	return builder.sources(EveSpringMarketAppTest.class);	
 	}
 
 }

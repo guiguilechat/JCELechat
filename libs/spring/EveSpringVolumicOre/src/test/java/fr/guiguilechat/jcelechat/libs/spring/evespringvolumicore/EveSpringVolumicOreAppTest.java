@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.evespringmarket;
+package fr.guiguilechat.jcelechat.libs.spring.evespringvolumicore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,15 +6,15 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class EveMarketApp extends SpringBootServletInitializer {
+public class EveSpringVolumicOreAppTest extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EveMarketApp.class, args);
+		SpringApplication.run(EveSpringVolumicOreAppTest.class, args);
 	}
-	
+
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-	return builder.sources(EveMarketApp.class);	
+		return builder.sources(EveSpringVolumicOreAppTest.class);
 	}
 
 }

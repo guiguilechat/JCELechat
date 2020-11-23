@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.libs.spring.evespringmarket.controller.api;
+package fr.guiguilechat.jcelechat.libs.spring.evespringvolumicore.controller.api;
 
 import java.util.Arrays;
 import java.util.Comparator;
