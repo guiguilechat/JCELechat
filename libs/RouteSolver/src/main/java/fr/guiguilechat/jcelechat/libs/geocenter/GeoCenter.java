@@ -22,7 +22,7 @@ public class GeoCenter {
 
 	/**
 	 * evaluation of a {@link SolarSystem} to the systems inside the frontier.
-	 * Contains several distance metrics.
+	 * Contains several distance metrics options.
 	 *
 	 */
 

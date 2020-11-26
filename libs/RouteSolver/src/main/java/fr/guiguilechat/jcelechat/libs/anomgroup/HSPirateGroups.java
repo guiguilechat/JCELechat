@@ -1,8 +1,6 @@
 package fr.guiguilechat.jcelechat.libs.anomgroup;
 
-import java.util.Collection;
-
-import fr.guiguilechat.jcelechat.model.sde.locations.Region;
+import fr.guiguilechat.jcelechat.model.sde.locations.Region.EMPIRE_FACTIONS;
 import fr.guiguilechat.jcelechat.model.sde.locations.SolarSystem;
 
 public class HSPirateGroups {
@@ -11,17 +9,16 @@ public class HSPirateGroups {
 			serpentis = new PirateGroup(), bloods = new PirateGroup();
 
 	public HSPirateGroups() {
-		add(angels, Region.EMPIRE_ANGELS);
-		add(bloods, Region.EMPIRE_BLOODS);
-		add(guristas, Region.EMPIRE_GURISTAS);
-		add(sanshas, Region.EMPIRE_SANSHAS);
-		add(serpentis, Region.EMPIRE_SERPENTIS);
+		add(angels, EMPIRE_FACTIONS.angels);
+		add(bloods, EMPIRE_FACTIONS.bloods);
+		add(guristas, EMPIRE_FACTIONS.guristas);
+		add(sanshas, EMPIRE_FACTIONS.sanshas);
+		add(serpentis, EMPIRE_FACTIONS.serpentis);
 	}
 
-	protected void add(PirateGroup pirategroup, Collection<String> regions) {
-		for (String rn : regions) {
-			Region r = Region.getRegion(rn);
-			r.systems().map(SolarSystem::getSystem).forEach(pirategroup::accept);
+	protected void add(PirateGroup pirategroup, EMPIRE_FACTIONS pirats) {
+		for (SolarSystem ss : pirats.systems()) {
+			pirategroup.accept(ss);
 		}
 	}
 
