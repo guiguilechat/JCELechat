@@ -1,6 +1,6 @@
 types:
   Data Analyzer I:
-    accessdifficultybonus: 5
+    accessdifficultybonus: 5.0
     capacitorneed: 20.0
     cpu: 20.0
     disallowrepeatingactivation: 1
@@ -24,7 +24,7 @@ types:
     virusstrength: 20
     volume: 5.0
   Data Analyzer II:
-    accessdifficultybonus: 7
+    accessdifficultybonus: 7.0
     capacitorneed: 20.0
     cpu: 25.0
     disallowrepeatingactivation: 1
@@ -49,7 +49,7 @@ types:
     virusstrength: 30
     volume: 5.0
   Frostline 'Clavicula' Integrated Analyzer:
-    accessdifficultybonus: 6
+    accessdifficultybonus: 6.0
     capacitorneed: 20.0
     cpu: 25.0
     disallowrepeatingactivation: 1
@@ -75,7 +75,7 @@ types:
     virusstrength: 26
     volume: 5.0
   Ligature Integrated Analyzer:
-    accessdifficultybonus: 5
+    accessdifficultybonus: 5.0
     capacitorneed: 20.0
     cpu: 25.0
     disallowrepeatingactivation: 1
@@ -103,7 +103,7 @@ types:
     virusstrength: 20
     volume: 5.0
   Purloined Sansha Data Analyzer:
-    accessdifficultybonus: 5
+    accessdifficultybonus: 5.0
     canfitshiptype1: 3532
     capacitorneed: 20.0
     disallowrepeatingactivation: 1
@@ -127,7 +127,7 @@ types:
     virusstrength: 40
     volume: 5.0
   Relic Analyzer I:
-    accessdifficultybonus: 5
+    accessdifficultybonus: 5.0
     capacitorneed: 20.0
     cpu: 20.0
     disallowrepeatingactivation: 1
@@ -151,7 +151,7 @@ types:
     virusstrength: 20
     volume: 5.0
   Relic Analyzer II:
-    accessdifficultybonus: 7
+    accessdifficultybonus: 7.0
     capacitorneed: 20.0
     cpu: 25.0
     disallowrepeatingactivation: 1
@@ -176,7 +176,7 @@ types:
     virusstrength: 30
     volume: 5.0
   Zeugma Integrated Analyzer:
-    accessdifficultybonus: 7
+    accessdifficultybonus: 7.0
     capacitorneed: 20.0
     cpu: 30.0
     disallowrepeatingactivation: 1

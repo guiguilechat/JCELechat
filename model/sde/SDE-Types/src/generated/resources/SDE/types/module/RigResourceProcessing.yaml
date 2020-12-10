@@ -1,6 +1,6 @@
 types:
   Capital Salvage Tackle I:
-    accessdifficultybonus: 10
+    accessdifficultybonus: 10.0
     drawback: -10
     hp: 40.0
     id: 31087
@@ -15,7 +15,7 @@ types:
     upgradecost: 50
     volume: 40.0
   Capital Salvage Tackle II:
-    accessdifficultybonus: 15
+    accessdifficultybonus: 15.0
     drawback: -10
     hp: 40.0
     id: 31093
@@ -31,7 +31,7 @@ types:
     upgradecost: 75
     volume: 40.0
   Large Salvage Tackle I:
-    accessdifficultybonus: 10
+    accessdifficultybonus: 10.0
     drawback: -10
     hp: 40.0
     id: 25902
@@ -46,7 +46,7 @@ types:
     upgradecost: 50
     volume: 20.0
   Large Salvage Tackle II:
-    accessdifficultybonus: 15
+    accessdifficultybonus: 15.0
     drawback: -10
     hp: 40.0
     id: 26300
@@ -92,7 +92,7 @@ types:
     upgradecost: 250
     volume: 10.0
   Medium Salvage Tackle I:
-    accessdifficultybonus: 10
+    accessdifficultybonus: 10.0
     drawback: -10
     hp: 40.0
     id: 31085
@@ -107,7 +107,7 @@ types:
     upgradecost: 50
     volume: 10.0
   Medium Salvage Tackle II:
-    accessdifficultybonus: 15
+    accessdifficultybonus: 15.0
     drawback: -10
     hp: 40.0
     id: 31091
@@ -123,7 +123,7 @@ types:
     upgradecost: 75
     volume: 10.0
   Small Salvage Tackle I:
-    accessdifficultybonus: 10
+    accessdifficultybonus: 10.0
     drawback: -10
     hp: 40.0
     id: 31083
@@ -138,7 +138,7 @@ types:
     upgradecost: 50
     volume: 5.0
   Small Salvage Tackle II:
-    accessdifficultybonus: 15
+    accessdifficultybonus: 15.0
     drawback: -10
     hp: 40.0
     id: 31089

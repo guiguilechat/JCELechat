@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_22;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_contract_bids_4;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_contracts_contract_items_6;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_agents_research;
@@ -57,7 +58,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_stats;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_titles;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
@@ -117,7 +117,7 @@ public class Characters {
     private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_skills>> get_characters_character_id_skills_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_assets>> get_characters_character_id_assets_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_notifications>> get_characters_character_id_notifications_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_wallet_journal>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<M_get_journal_13>> get_characters_character_id_wallet_journal_holder = new HashMap<>();
 
     public Characters(SwaggerCOCache<?> parent) {
         cache = parent;
@@ -2685,8 +2685,8 @@ public class Characters {
      * @param character_id
      *     An EVE character ID
      */
-    public ObsListHolder<R_get_characters_character_id_wallet_journal> wallet_journal(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_wallet_journal> ret = get_characters_character_id_wallet_journal_holder.get(character_id);
+    public ObsListHolder<M_get_journal_13> wallet_journal(int character_id) {
+        ObsListHolderImpl<M_get_journal_13> ret = get_characters_character_id_wallet_journal_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_wallet_journal_holder);
             try {
@@ -2696,10 +2696,10 @@ public class Characters {
                     {
                         ret = get_characters_character_id_wallet_journal_holder.get(character_id);
                         if (ret == null) {
-                            ObservableList<R_get_characters_character_id_wallet_journal> holder = FXCollections.observableArrayList();
+                            ObservableList<M_get_journal_13> holder = FXCollections.observableArrayList();
                             ret = (cache).toHolder(holder);
                             get_characters_character_id_wallet_journal_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_wallet_journal> finalRet = ret;
+                            ObsListHolderImpl<M_get_journal_13> finalRet = ret;
                             (cache).addFetchCacheArray("get_characters_character_id_wallet_journal", (page, properties) -> (cache.swagger).get_characters_wallet_journal(character_id, page, properties), arr -> {
                                 LockWatchDog.BARKER.tak(holder);
                                 try {

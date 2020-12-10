@@ -28850,3 +28850,12 @@ offers:
       - id: 2463
         quantity: 750
       lp: 10000
+  17097:
+    id: 17097
+    name: 10* 'Dunk' Salvage Drone Blueprint
+    product:
+      id: 55763
+      quantity: 10
+    requirements:
+      isk: 25000000
+      lp: 5000

@@ -284,7 +284,7 @@ types:
     jumpdriverange: 3.5
     jumpharmonics: -5
     kineticdamageresonance: 0.6700000166893005
-    lowslots: 7
+    lowslots: 8
     maincolor: 16777215
     marketGroup: 764
     maxdirectionalvelocity: 1000
@@ -293,7 +293,7 @@ types:
     maxpassengers: 999
     maxtargetrange: 105000.0
     maxvelocity: 75.0
-    medslots: 5
+    medslots: 4
     mintargetveldmgmultiplier: 0.5
     name: Moros
     packagedVolume: 1300000.0
@@ -472,7 +472,7 @@ types:
     canjump: 1
     capacitorcapacity: 52500.0
     capacity: 2750.0
-    cpuoutput: 965
+    cpuoutput: 990
     disallowinhighsec: 1
     emdamageresonance: 0.6700000166893005
     energywarfareresistance: 1.0
@@ -523,7 +523,7 @@ types:
     name: Phoenix
     packagedVolume: 1300000.0
     portionSize: 1
-    poweroutput: 500000
+    poweroutput: 550000
     powertospeed: 1
     price: 1.541551104E9
     propulsiongraphicid: 395

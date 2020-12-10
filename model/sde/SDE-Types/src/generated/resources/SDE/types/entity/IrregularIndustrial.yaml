@@ -12,11 +12,16 @@ types:
     disallowassistance: 1
     emdamageresonance: 1.0
     entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 90000
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
     entityequipmentmax: 2
     entityequipmentmin: 1
     entityflyrange: 70000.0
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityreactionfactor: 1.0
     entitysecuritymaxgain: 5.0
     entitysecuritystatuskillbonus: 0.0010000000474974513
@@ -31,6 +36,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Bestower Livestock Transport
+    optimalsigradius: 1000
     packagedVolume: 260000.0
     portionSize: 1
     propulsiongraphicid: 395
@@ -66,7 +72,11 @@ types:
     entityattackdelaymin: 4500
     entityattackrange: 15000
     entitybracketcolour: 1
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
     entitycruisespeed: 250.0
     entitydefenderchance: 0.07500000298023224
     entityequipmentgroupmax: 1
@@ -75,6 +85,7 @@ types:
     entityflyrange: 20000.0
     entitykillbounty: 10000
     entitylootcountmin: 1
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entitymissiletypeid: 211
     entityoverviewshipgroupid: 25
     entityreactionfactor: 0.5
@@ -95,6 +106,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 8000.0
     name: Frostline Transporter
+    optimalsigradius: 1000
     packagedVolume: 275000.0
     portionSize: 1
     propulsiongraphicid: 395
@@ -131,9 +143,14 @@ types:
     emdamageresonance: 1.0
     entityattackrange: 15000
     entitybracketcolour: 2
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
     entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
     entityflyrange: 500.0
+    entitymaxvelocitysignatureradiusmultiplier: 6
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
     hp: 1100.0
@@ -145,6 +162,7 @@ types:
     missileentityvelocitymultiplier: 1.0
     missilelaunchduration: 20000.0
     name: Official Federation Grand Prix Transport Ship
+    optimalsigradius: 1000
     packagedVolume: 1105000.0
     portionSize: 1
     published: false
@@ -161,4 +179,66 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 1105000.0
+    warpspeedmultiplier: 3.0
+  Sansha's Slavewight:
+    agility: 4.5
+    armoremdamageresonance: 0.41999998688697815
+    armorexplosivedamageresonance: 0.4000000059604645
+    armorhp: 850.0
+    armorkineticdamageresonance: 0.6299999952316284
+    armorthermaldamageresonance: 0.550000011920929
+    armoruniformity: 1.0
+    capacitorcapacity: 250.0
+    capacity: 4800.0
+    emdamageresonance: 1.0
+    entityattackrange: 15000
+    entitychasemaxdelay: 1
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 40000
+    entitychasemaxduration: 3000
+    entitychasemaxdurationchance: 1.0
+    entitycruisespeed: 275.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitykillbounty: 100000
+    entitymaxvelocitysignatureradiusmultiplier: 1
+    entityreactionfactor: 1.0
+    entitysecuritymaxgain: 5.0
+    entitysecuritystatuskillbonus: 0.007499999832361937
+    explosivedamageresonance: 1.0
+    gfxboosterid: 395
+    hp: 940.0
+    id: 56943
+    kineticdamageresonance: 1.0
+    maxlockedtargets: 4
+    maxrange: 8000.0
+    maxtargetrange: 30000.0
+    maxvelocity: 840.0
+    missiledamagemultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    name: Sansha's Slavewight
+    npcbehaviormaximumcombatorbitrange: 3000.0
+    optimalsigradius: 40000
+    packagedVolume: 28600.0
+    portionSize: 1
+    published: false
+    radius: 350.0
+    rechargerate: 70000.0
+    scanradarstrength: 8.0
+    scanresolution: 725.0
+    shieldcapacity: 450.0
+    shieldemdamageresistancebonus: 1
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.30000001192092896
+    shieldkineticdamageresonance: 0.36000001430511475
+    shieldrechargerate: 381250.0
+    shieldthermaldamageresonance: 0.49000000953674316
+    shielduniformity: 1.0
+    signatureradius: 55.0
+    speed: 4000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    volume: 28600.0
     warpspeedmultiplier: 3.0

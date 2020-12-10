@@ -191,6 +191,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Men's 'Saikadori' Facial Augmentation:
+    gender: 2
+    id: 56855
+    marketGroup: 1836
+    name: Men's 'Saikadori' Facial Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Men's 'Setcouple' Facial Augmentation:
     gender: 1
     id: 41046
@@ -418,6 +427,15 @@ types:
     id: 53229
     marketGroup: 1836
     name: Women's 'RubySet TorsoRig' Body Augmentation
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Women's 'Saikadori' Facial Augmentation:
+    gender: 2
+    id: 56854
+    marketGroup: 1836
+    name: Women's 'Saikadori' Facial Augmentation
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

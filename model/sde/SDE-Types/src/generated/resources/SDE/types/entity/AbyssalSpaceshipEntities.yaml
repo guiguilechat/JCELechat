@@ -2379,7 +2379,7 @@ types:
     agility: 2.0
     aoecloudsize: 333
     aoedamagereductionfactor: 0.8199999928474426
-    aoevelocity: 79.0
+    aoevelocity: 79
     armoremdamageresonance: 0.699999988079071
     armorexplosivedamageresonance: 0.699999988079071
     armorhp: 1450.0
@@ -5497,7 +5497,7 @@ types:
     agility: 3.5999999046325684
     aoecloudsize: 43
     aoedamagereductionfactor: 0.6000000238418579
-    aoevelocity: 190.0
+    aoevelocity: 190
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.550000011920929
     armorhp: 400.0
@@ -5799,7 +5799,7 @@ types:
     agility: 0.5199999809265137
     aoecloudsize: 75
     aoedamagereductionfactor: 0.6499999761581421
-    aoevelocity: 282.0
+    aoevelocity: 282
     armordamageamount: 160.0
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.550000011920929
@@ -6556,7 +6556,7 @@ types:
     agility: 0.13600000739097595
     aoecloudsize: 130
     aoedamagereductionfactor: 0.8199999928474426
-    aoevelocity: 177.0
+    aoevelocity: 177
     armordamage: 5100
     armoremdamageresonance: 0.5
     armorexplosivedamageresonance: 0.550000011920929

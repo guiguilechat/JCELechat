@@ -5,7 +5,7 @@ types:
     aoecloudsize: 40
     aoedamagereductionfactor: 0.6039999723434448
     aoefalloff: 1500
-    aoevelocity: 170.0
+    aoevelocity: 170
     detonationrange: 35
     explosiondelay: 5000
     hp: 70.0
@@ -37,7 +37,7 @@ types:
     aoecloudsize: 40
     aoedamagereductionfactor: 0.6039999723434448
     aoefalloff: 1500
-    aoevelocity: 170.0
+    aoevelocity: 170
     detonationrange: 35
     explosiondelay: 5000
     hp: 70.0
@@ -69,7 +69,7 @@ types:
     aoecloudsize: 40
     aoedamagereductionfactor: 0.6039999723434448
     aoefalloff: 1500
-    aoevelocity: 170.0
+    aoevelocity: 170
     detonationrange: 35
     emdamage: 70.0
     explosiondelay: 5000
@@ -101,7 +101,7 @@ types:
     aoecloudsize: 40
     aoedamagereductionfactor: 0.6039999723434448
     aoefalloff: 1500
-    aoevelocity: 170.0
+    aoevelocity: 170
     detonationrange: 35
     explosiondelay: 5000
     hp: 70.0
@@ -132,7 +132,7 @@ types:
     aoecloudsize: 40
     aoedamagereductionfactor: 0.6039999723434448
     aoefalloff: 1500
-    aoevelocity: 170.0
+    aoevelocity: 170
     detonationrange: 35
     emdamage: 62.0
     explosiondelay: 5000
@@ -163,7 +163,7 @@ types:
     aoecloudsize: 40
     aoedamagereductionfactor: 0.6039999723434448
     aoefalloff: 1500
-    aoevelocity: 170.0
+    aoevelocity: 170
     detonationrange: 35
     explosiondelay: 5000
     explosivedamage: 62.0
@@ -194,7 +194,7 @@ types:
     aoecloudsize: 40
     aoedamagereductionfactor: 0.6039999723434448
     aoefalloff: 1500
-    aoevelocity: 170.0
+    aoevelocity: 170
     detonationrange: 35
     explosiondelay: 5000
     explosivedamage: 70.0
@@ -226,7 +226,7 @@ types:
     aoecloudsize: 40
     aoedamagereductionfactor: 0.6039999723434448
     aoefalloff: 1500
-    aoevelocity: 170.0
+    aoevelocity: 170
     detonationrange: 35
     explosiondelay: 5000
     hp: 70.0

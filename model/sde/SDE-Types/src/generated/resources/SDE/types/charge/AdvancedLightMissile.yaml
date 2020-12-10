@@ -5,7 +5,7 @@ types:
     aoecloudsize: 69
     aoedamagereductionfactor: 0.6819999814033508
     aoefalloff: 1500
-    aoevelocity: 143.0
+    aoevelocity: 143
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 3750
@@ -40,7 +40,7 @@ types:
     aoecloudsize: 25
     aoedamagereductionfactor: 0.5609999895095825
     aoefalloff: 1500
-    aoevelocity: 204.0
+    aoevelocity: 204
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 2500
@@ -75,7 +75,7 @@ types:
     aoecloudsize: 69
     aoedamagereductionfactor: 0.6819999814033508
     aoefalloff: 1500
-    aoevelocity: 143.0
+    aoevelocity: 143
     detonationrange: 35
     emdamage: 116.0
     emdamageresonance: 0.800000011920929
@@ -110,7 +110,7 @@ types:
     aoecloudsize: 25
     aoedamagereductionfactor: 0.5609999895095825
     aoefalloff: 1500
-    aoevelocity: 204.0
+    aoevelocity: 204
     detonationrange: 35
     emdamage: 83.0
     emdamageresonance: 0.800000011920929
@@ -145,7 +145,7 @@ types:
     aoecloudsize: 69
     aoedamagereductionfactor: 0.6819999814033508
     aoefalloff: 1500
-    aoevelocity: 143.0
+    aoevelocity: 143
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 3750
@@ -180,7 +180,7 @@ types:
     aoecloudsize: 25
     aoedamagereductionfactor: 0.5609999895095825
     aoefalloff: 1500
-    aoevelocity: 204.0
+    aoevelocity: 204
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 2500
@@ -215,7 +215,7 @@ types:
     aoecloudsize: 69
     aoedamagereductionfactor: 0.6819999814033508
     aoefalloff: 1500
-    aoevelocity: 143.0
+    aoevelocity: 143
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 3750
@@ -250,7 +250,7 @@ types:
     aoecloudsize: 25
     aoedamagereductionfactor: 0.5609999895095825
     aoefalloff: 1500
-    aoevelocity: 204.0
+    aoevelocity: 204
     detonationrange: 35
     emdamageresonance: 1.0
     explosiondelay: 2500

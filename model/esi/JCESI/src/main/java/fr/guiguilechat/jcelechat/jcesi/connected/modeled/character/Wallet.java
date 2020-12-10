@@ -1,9 +1,9 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_wallet_journal_ref_type;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_ref_type;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
@@ -50,21 +50,22 @@ public class Wallet {
 		return con.raw.cache.characters.wallet_transactions(con.characterId(), null);
 	}
 
-	public ObsListHolder<R_get_characters_character_id_wallet_journal> getJournal() {
+	public ObsListHolder<M_get_journal_13> getJournal() {
 		return con.raw.cache.characters.wallet_journal(con.characterId());
 	}
 
-	private ObsListHolder<R_get_characters_character_id_wallet_journal> pveJournal = null;
+	private ObsListHolder<M_get_journal_13> pveJournal = null;
 
-	public ObsListHolder<R_get_characters_character_id_wallet_journal> getPVEJournal() {
+	public ObsListHolder<M_get_journal_13> getPVEJournal() {
 		if (pveJournal == null) {
-			ObsListHolder<R_get_characters_character_id_wallet_journal> journal = getJournal();
+			ObsListHolder<M_get_journal_13> journal = getJournal();
 			LockWatchDog.BARKER.syncExecute(journal, () -> {
 				if (pveJournal == null) {
 					pveJournal = journal
-							.filter(entry -> entry.ref_type == get_characters_character_id_wallet_journal_ref_type.bounty_prizes
-							|| entry.ref_type == get_characters_character_id_wallet_journal_ref_type.agent_mission_reward
-							|| entry.ref_type == get_characters_character_id_wallet_journal_ref_type.agent_mission_time_bonus_reward);
+							.filter(
+									entry -> entry.ref_type == get_corporations_corporation_id_wallets_division_journal_ref_type.bounty_prizes
+											|| entry.ref_type == get_corporations_corporation_id_wallets_division_journal_ref_type.agent_mission_reward
+											|| entry.ref_type == get_corporations_corporation_id_wallets_division_journal_ref_type.agent_mission_time_bonus_reward);
 				}
 			});
 		}

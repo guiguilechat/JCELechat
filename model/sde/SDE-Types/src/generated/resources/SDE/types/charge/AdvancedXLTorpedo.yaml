@@ -5,14 +5,14 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
     explosiondelay: 7500
     hp: 1920.0
     id: 41276
     launchergroup: 524
     marketGroup: 2259
-    maxvelocity: 4350.0
+    maxvelocity: 5220.0
     metalevelold: 5
     name: Inferno Javelin XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -28,7 +28,7 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    thermaldamage: 4815.0
+    thermaldamage: 5297.0
     volume: 0.30000001192092896
   Inferno Rage XL Torpedo:
     agility: 148.0471954345703
@@ -36,14 +36,14 @@ types:
     aoecloudsize: 17000
     aoedamagereductionfactor: 1.0
     aoefalloff: 750
-    aoevelocity: 29.75
+    aoevelocity: 36
     detonationrange: 35
     explosiondelay: 7500
     hp: 1920.0
     id: 41277
     launchergroup: 524
     marketGroup: 2258
-    maxvelocity: 2417.0
+    maxvelocity: 2900.0
     metalevelold: 5
     name: Inferno Rage XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -59,7 +59,7 @@ types:
     requiredskill3level: 5
     structureuniformity: 1.0
     techlevel: 2
-    thermaldamage: 7383.0
+    thermaldamage: 8121.0
     volume: 0.30000001192092896
   Mjolnir Javelin XL Torpedo:
     agility: 148.0471954345703
@@ -67,15 +67,15 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
-    emdamage: 4815.0
+    emdamage: 5297.0
     explosiondelay: 7500
     hp: 1920.0
     id: 41274
     launchergroup: 524
     marketGroup: 2259
-    maxvelocity: 4350.0
+    maxvelocity: 5220.0
     metalevelold: 5
     name: Mjolnir Javelin XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -98,15 +98,15 @@ types:
     aoecloudsize: 17000
     aoedamagereductionfactor: 1.0
     aoefalloff: 750
-    aoevelocity: 29.75
+    aoevelocity: 36
     detonationrange: 35
-    emdamage: 7383.0
+    emdamage: 8121.0
     explosiondelay: 7500
     hp: 1920.0
     id: 41275
     launchergroup: 524
     marketGroup: 2258
-    maxvelocity: 2417.0
+    maxvelocity: 2900.0
     metalevelold: 5
     name: Mjolnir Rage XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -129,15 +129,15 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
     explosiondelay: 7500
-    explosivedamage: 4815.0
+    explosivedamage: 5297.0
     hp: 1920.0
     id: 41272
     launchergroup: 524
     marketGroup: 2259
-    maxvelocity: 4350.0
+    maxvelocity: 5220.0
     metalevelold: 5
     name: Nova Javelin XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -160,15 +160,15 @@ types:
     aoecloudsize: 17000
     aoedamagereductionfactor: 1.0
     aoefalloff: 750
-    aoevelocity: 29.75
+    aoevelocity: 36
     detonationrange: 35
     explosiondelay: 7500
-    explosivedamage: 7383.0
+    explosivedamage: 8121.0
     hp: 1920.0
     id: 41273
     launchergroup: 524
     marketGroup: 2258
-    maxvelocity: 2417.0
+    maxvelocity: 2900.0
     metalevelold: 5
     name: Nova Rage XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -191,15 +191,15 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
     explosiondelay: 7500
     hp: 1920.0
     id: 41270
-    kineticdamage: 4815.0
+    kineticdamage: 5297.0
     launchergroup: 524
     marketGroup: 2259
-    maxvelocity: 4350.0
+    maxvelocity: 5220.0
     metalevelold: 5
     name: Scourge Javelin XL Torpedo
     packagedVolume: 0.30000001192092896
@@ -222,15 +222,15 @@ types:
     aoecloudsize: 17000
     aoedamagereductionfactor: 1.0
     aoefalloff: 750
-    aoevelocity: 29.75
+    aoevelocity: 36
     detonationrange: 35
     explosiondelay: 7500
     hp: 1920.0
     id: 41271
-    kineticdamage: 7383.0
+    kineticdamage: 8121.0
     launchergroup: 524
     marketGroup: 2258
-    maxvelocity: 2417.0
+    maxvelocity: 2900.0
     metalevelold: 5
     name: Scourge Rage XL Torpedo
     packagedVolume: 0.30000001192092896

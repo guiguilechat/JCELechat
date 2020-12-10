@@ -74,7 +74,7 @@ types:
     shielduniformity: 0.75
     shipbonus2af: 5.0
     shipbonusmf: 10.0
-    shipbonusmf2: 20.0
+    shipbonusmf2: 15.0
     signatureradius: 38.0
     stealthbomberlaunchercpu: 1.0
     stealthbomberlauncherpower: 0.0035000001080334187
@@ -164,7 +164,7 @@ types:
     shielduniformity: 0.75
     shipbonus2af: 5.0
     shipbonuscf: 10
-    shipbonuscf2: 20.0
+    shipbonuscf2: 15.0
     signatureradius: 41.0
     stealthbomberlaunchercpu: 1.0
     stealthbomberlauncherpower: 0.0035000001080334187
@@ -254,7 +254,7 @@ types:
     shielduniformity: 0.75
     shipbonus2af: 5.0
     shipbonusgf: 10.0
-    shipbonusgf2: 20.0
+    shipbonusgf2: 15.0
     signatureradius: 42.0
     stealthbomberlaunchercpu: 1.0
     stealthbomberlauncherpower: 0.0035000001080334187
@@ -342,7 +342,7 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
-    shipbonus2af: 20.0
+    shipbonus2af: 15.0
     shipbonusaf: 10.0
     signatureradius: 40.0
     stealthbomberlaunchercpu: 1.0

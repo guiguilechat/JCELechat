@@ -5,14 +5,14 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
     explosiondelay: 7500
     hp: 1920.0
     id: 29618
     launchergroup: 524
     marketGroup: 1194
-    maxvelocity: 2900.0
+    maxvelocity: 3480.0
     metagroupid: 4
     metalevelold: 8
     name: Guristas Inferno XL Torpedo
@@ -27,7 +27,7 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 5885.0
+    thermaldamage: 6470.0
     volume: 0.30000001192092896
   Guristas Mjolnir XL Torpedo:
     agility: 148.0471954345703
@@ -35,15 +35,15 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
-    emdamage: 5885.0
+    emdamage: 6470.0
     explosiondelay: 7500
     hp: 1920.0
     id: 29622
     launchergroup: 524
     marketGroup: 1194
-    maxvelocity: 2900.0
+    maxvelocity: 3480.0
     metagroupid: 4
     metalevelold: 8
     name: Guristas Mjolnir XL Torpedo
@@ -65,15 +65,15 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
     explosiondelay: 7500
-    explosivedamage: 5885.0
+    explosivedamage: 6470.0
     hp: 1920.0
     id: 29616
     launchergroup: 524
     marketGroup: 1194
-    maxvelocity: 2900.0
+    maxvelocity: 3480.0
     metagroupid: 4
     metalevelold: 8
     name: Guristas Nova XL Torpedo
@@ -95,15 +95,15 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
     explosiondelay: 7500
     hp: 1920.0
     id: 29620
-    kineticdamage: 5885.0
+    kineticdamage: 6470.0
     launchergroup: 524
     marketGroup: 1194
-    maxvelocity: 2900.0
+    maxvelocity: 3480.0
     metagroupid: 4
     metalevelold: 8
     name: Guristas Scourge XL Torpedo
@@ -125,14 +125,14 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
     explosiondelay: 7500
     hp: 1920.0
     id: 17861
     launchergroup: 524
     marketGroup: 1193
-    maxvelocity: 2900.0
+    maxvelocity: 3480.0
     name: Inferno XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -145,7 +145,7 @@ types:
     requiredskill2level: 1
     structureuniformity: 1.0
     techlevel: 1
-    thermaldamage: 5350.0
+    thermaldamage: 5885.0
     volume: 0.30000001192092896
   Mjolnir XL Torpedo:
     agility: 148.0471954345703
@@ -153,15 +153,15 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
-    emdamage: 5350.0
+    emdamage: 5885.0
     explosiondelay: 7500
     hp: 1920.0
     id: 17857
     launchergroup: 524
     marketGroup: 1193
-    maxvelocity: 2900.0
+    maxvelocity: 3480.0
     name: Mjolnir XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -181,15 +181,15 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
     explosiondelay: 7500
-    explosivedamage: 5350.0
+    explosivedamage: 5885.0
     hp: 1920.0
     id: 17863
     launchergroup: 524
     marketGroup: 1193
-    maxvelocity: 2900.0
+    maxvelocity: 3480.0
     name: Nova XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
@@ -209,15 +209,15 @@ types:
     aoecloudsize: 10000
     aoedamagereductionfactor: 1.0
     aoefalloff: 1500
-    aoevelocity: 35.0
+    aoevelocity: 42
     detonationrange: 35
     explosiondelay: 7500
     hp: 1920.0
     id: 17859
-    kineticdamage: 5350.0
+    kineticdamage: 5885.0
     launchergroup: 524
     marketGroup: 1193
-    maxvelocity: 2900.0
+    maxvelocity: 3480.0
     name: Scourge XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100

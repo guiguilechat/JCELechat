@@ -11264,6 +11264,7 @@ corporations:
     - 16274
     - 16429
     - 16430
+    - 17097
     name: Frostline Laboratories
   Further Foodstuffs:
     concordRate: 0.8
@@ -20267,6 +20268,7 @@ corporations:
     - 16274
     - 16429
     - 16430
+    - 17097
     name: ORE Technologies
   Onikanabo Brigade:
     faction: Caldari State
@@ -20302,6 +20304,7 @@ corporations:
     - 16274
     - 16429
     - 16430
+    - 17097
     name: Outer Ring Development
   Outer Ring Excavations:
     concordRate: 0.4
@@ -20355,6 +20358,7 @@ corporations:
     - 16274
     - 16429
     - 16430
+    - 17097
     name: Outer Ring Excavations
   Outer Ring Prospecting:
     faction: ORE
@@ -20378,6 +20382,7 @@ corporations:
     - 16274
     - 16429
     - 16430
+    - 17097
     name: Outer Ring Prospecting
   PKN Cryptographic:
     faction: Caldari State

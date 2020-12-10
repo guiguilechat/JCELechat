@@ -43,6 +43,28 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 1
+  Advanced energy turret skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 72
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56989
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced energy turret skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Advanced gunnery Skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 4320
@@ -53,6 +75,50 @@ types:
     intelligencebonus: 1
     memorybonus: 1
     name: Advanced gunnery Skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Advanced hybrid turret skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 73
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56990
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced hybrid turret skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Advanced missile launcher skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 74
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56991
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced missile launcher skill accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -96,6 +162,28 @@ types:
     intelligencebonus: 1
     memorybonus: 1
     name: Advanced ore processing skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Advanced projectile turret skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 71
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56988
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Advanced projectile turret skill accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -400,6 +488,29 @@ types:
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
+  Basic 'Brainfreeze' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18667.45703125
+    boosterness: 10
+    charismabonus: 4
+    followsjumpclones: 1
+    id: 57000
+    intelligencebonus: 4
+    marketGroup: 2487
+    memorybonus: 4
+    name: Basic 'Brainfreeze' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 4
   Basic 'Radiance' Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18611.45703125
@@ -447,16 +558,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 1
-  Cerebral Accelerator:
-    id: 50091
-    marketGroup: 2487
-    name: Cerebral Accelerator
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    published: true
-    socialbonus: 100
-    volume: 1.0
   Concord Fiesta 11-11:
     boosterduration: 60000.0
     boosterlastinjectiondatetime: 18627.666015625
@@ -477,171 +578,6 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 1
-  EDENCOM Vorton Booster DA-2:
-    boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18604.45703125
-    boosterness: 14
-    damagemultiplierbonus: 2
-    id: 55044
-    marketGroup: 2531
-    name: EDENCOM Vorton Booster DA-2
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 8192.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-  EDENCOM Vorton Booster DA-3:
-    boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18604.45703125
-    boosterness: 14
-    damagemultiplierbonus: 3
-    id: 55045
-    marketGroup: 2531
-    name: EDENCOM Vorton Booster DA-3
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 8192.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-  EDENCOM Vorton Booster DA-5:
-    boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18604.45703125
-    boosterness: 14
-    damagemultiplierbonus: 5
-    id: 55046
-    marketGroup: 2531
-    name: EDENCOM Vorton Booster DA-5
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 8192.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-  EDENCOM Vorton Booster GU-2:
-    aoecloudsizebonus: -2.0
-    aoevelocitybonus: 2.0
-    boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18604.45703125
-    boosterness: 14
-    id: 55041
-    marketGroup: 2531
-    name: EDENCOM Vorton Booster GU-2
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 8192.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-  EDENCOM Vorton Booster GU-3:
-    aoecloudsizebonus: -3.0
-    aoevelocitybonus: 3.0
-    boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18604.45703125
-    boosterness: 14
-    id: 55042
-    marketGroup: 2531
-    name: EDENCOM Vorton Booster GU-3
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 8192.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-  EDENCOM Vorton Booster GU-5:
-    aoecloudsizebonus: -5.0
-    aoevelocitybonus: 5.0
-    boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18604.45703125
-    boosterness: 14
-    id: 55043
-    marketGroup: 2531
-    name: EDENCOM Vorton Booster GU-5
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 8192.0
-    published: true
-    radius: 1.0
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-  EDENCOM Vorton Booster RA-2:
-    boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18604.45703125
-    boosterness: 14
-    id: 55038
-    marketGroup: 2531
-    name: EDENCOM Vorton Booster RA-2
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 8192.0
-    published: true
-    radius: 1.0
-    rangeskillbonus: 2
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-  EDENCOM Vorton Booster RA-3:
-    boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18604.45703125
-    boosterness: 14
-    id: 55039
-    marketGroup: 2531
-    name: EDENCOM Vorton Booster RA-3
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 8192.0
-    published: true
-    radius: 1.0
-    rangeskillbonus: 3
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
-  EDENCOM Vorton Booster RA-5:
-    boosterduration: 1800000.0
-    boosterlastinjectiondatetime: 18604.45703125
-    boosterness: 14
-    id: 55040
-    marketGroup: 2531
-    name: EDENCOM Vorton Booster RA-5
-    nondiminishingskillinjectoruses: 1
-    packagedVolume: 1.0
-    portionSize: 1
-    price: 8192.0
-    published: true
-    radius: 1.0
-    rangeskillbonus: 5
-    requiredskill1: 3405
-    requiredskill1level: 1
-    socialbonus: 100
-    volume: 1.0
   Eifyr and Co. 'Rogue' Agility 11-11:
     boosterduration: 6.048E8
     boosterlastinjectiondatetime: 18627.125
@@ -715,6 +651,94 @@ types:
     intelligencebonus: 1
     memorybonus: 1
     name: Elite Shield Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Elite energy turret skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 76
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56993
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Elite energy turret skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Elite hybrid turret skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 77
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56994
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Elite hybrid turret skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Elite missile launcher skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 78
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56995
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Elite missile launcher skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Elite projectile turret skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 75
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56992
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Elite projectile turret skill accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -1045,6 +1069,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Extended 'Brainfreeze' Cerebral Accelerator:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18667.45703125
+    boosterness: 10
+    charismabonus: 6
+    followsjumpclones: 1
+    id: 57002
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: Extended 'Brainfreeze' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 6
   Extended 'Radiance' Cerebral Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18611.45703125
@@ -2128,6 +2175,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Potent 'Brainfreeze' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18667.45703125
+    boosterness: 10
+    charismabonus: 8
+    followsjumpclones: 1
+    id: 57001
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Potent 'Brainfreeze' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 8
   Potent 'Radiance' Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18611.45703125
@@ -2265,6 +2335,75 @@ types:
     intelligencebonus: 5
     memorybonus: 5
     name: Serenity August Season Standard Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity December Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18637.125
+    boosterness: 80
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 57036
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity December Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity December Season Pass:
+    boosterduration: 2.5056E9
+    boosterlastinjectiondatetime: 18625.125
+    boosterness: 81
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57037
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity December Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity December Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18637.125
+    boosterness: 79
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 57035
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity December Season Standard Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3131,6 +3270,28 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 1
+  Standard energy turret skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 68
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56985
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard energy turret skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Standard gunnery skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 4320
@@ -3141,6 +3302,50 @@ types:
     intelligencebonus: 1
     memorybonus: 1
     name: Standard gunnery skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Standard hybrid turret skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 69
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56986
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard hybrid turret skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Standard missile launcher skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 70
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56987
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard missile launcher skill accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3184,6 +3389,28 @@ types:
     intelligencebonus: 1
     memorybonus: 1
     name: Standard ore processing skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Standard projectile turret skill accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 6480
+    boosterness: 67
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 56984
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Standard projectile turret skill accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0

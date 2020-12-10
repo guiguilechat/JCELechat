@@ -89,8 +89,8 @@ public class AdvancedXLTorpedo
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double aoevelocity;
+    @DefaultIntValue(0)
+    public int aoevelocity;
     /**
      * Just for the UI to display base damage on armor.
      */

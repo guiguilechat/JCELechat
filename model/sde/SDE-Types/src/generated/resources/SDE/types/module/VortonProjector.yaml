@@ -2,7 +2,7 @@ types:
   Large Compact Vorton Projector:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.699999988079071
-    aoevelocity: 79.0
+    aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
     capacity: 2.0
@@ -42,7 +42,7 @@ types:
   Large Consortium Vorton Projector:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.699999988079071
-    aoevelocity: 79.0
+    aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
     capacity: 2.0
@@ -83,7 +83,7 @@ types:
   Large Scoped Vorton Projector:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.699999988079071
-    aoevelocity: 79.0
+    aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
     capacity: 2.0
@@ -123,7 +123,7 @@ types:
   Large Vorton Projector I:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.699999988079071
-    aoevelocity: 79.0
+    aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
     capacity: 2.0
@@ -163,7 +163,7 @@ types:
   Large Vorton Projector II:
     aoecloudsize: 333
     aoedamagereductionfactor: 0.699999988079071
-    aoevelocity: 79.0
+    aoevelocity: 79
     canfitshiptype1: 54733
     capacitorneed: 135.0
     capacity: 2.0
@@ -206,7 +206,7 @@ types:
   Medium Compact Vorton Projector:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
-    aoevelocity: 105.0
+    aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
     capacity: 1.0
@@ -246,7 +246,7 @@ types:
   Medium Consortium Vorton Projector:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
-    aoevelocity: 105.0
+    aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
     capacity: 1.0
@@ -287,7 +287,7 @@ types:
   Medium Scoped Vorton Projector:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
-    aoevelocity: 105.0
+    aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
     capacity: 1.0
@@ -327,7 +327,7 @@ types:
   Medium Vorton Projector I:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
-    aoevelocity: 105.0
+    aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
     capacity: 1.0
@@ -367,7 +367,7 @@ types:
   Medium Vorton Projector II:
     aoecloudsize: 143
     aoedamagereductionfactor: 0.5
-    aoevelocity: 105.0
+    aoevelocity: 105
     canfitshiptype1: 54732
     capacitorneed: 32.0
     capacity: 1.0
@@ -410,7 +410,7 @@ types:
   Small Compact Vorton Projector:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
-    aoevelocity: 190.0
+    aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
     capacity: 0.20000000298023224
@@ -450,7 +450,7 @@ types:
   Small Consortium Vorton Projector:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
-    aoevelocity: 190.0
+    aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
     capacity: 0.20000000298023224
@@ -491,7 +491,7 @@ types:
   Small Scoped Vorton Projector:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
-    aoevelocity: 190.0
+    aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
     capacity: 0.20000000298023224
@@ -531,7 +531,7 @@ types:
   Small Vorton Projector I:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
-    aoevelocity: 190.0
+    aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
     capacity: 0.20000000298023224
@@ -571,7 +571,7 @@ types:
   Small Vorton Projector II:
     aoecloudsize: 43
     aoedamagereductionfactor: 0.4000000059604645
-    aoevelocity: 190.0
+    aoevelocity: 190
     canfitshiptype1: 54731
     capacitorneed: 7.0
     capacity: 0.20000000298023224

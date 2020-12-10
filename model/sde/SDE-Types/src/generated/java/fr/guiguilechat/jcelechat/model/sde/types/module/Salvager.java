@@ -41,8 +41,8 @@ public class Salvager
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int accessdifficultybonus;
+    @DefaultRealValue(0.0)
+    public double accessdifficultybonus;
     /**
      * The amount of charge used from the capacitor for a module activation.
      */

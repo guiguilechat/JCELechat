@@ -1,35 +1,53 @@
 types:
-  2v2 Tactical Destroyer Proving Filament:
-    id: 56354
-    marketGroup: 2747
-    name: 2v2 Tactical Destroyer Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Crimson Harvest Frigate FFA Proving Filament:
-    id: 56353
-    marketGroup: 2747
-    name: Crimson Harvest Frigate FFA Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Event 12 Proving Filament:
+  1v1 T1 Cruisers Proving Filament:
     id: 56355
     marketGroup: 2747
-    name: Event 12 Proving Filament
+    name: 1v1 T1 Cruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Event 13 Proving Filament:
+  Event 15 Proving Filament:
+    id: 56358
+    marketGroup: 2747
+    name: Event 15 Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Event 16 Proving Filament:
+    id: 56359
+    marketGroup: 2747
+    name: Event 16 Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Event 17 Proving Filament:
+    id: 56360
+    marketGroup: 2747
+    name: Event 17 Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Yoiul 2v2v2v2 Destroyers Proving Filament:
     id: 56356
     marketGroup: 2747
-    name: Event 13 Proving Filament
+    name: Yoiul 2v2v2v2 Destroyers Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  Yoiul 3v3 Frigates Proving Filament:
+    id: 56357
+    marketGroup: 2747
+    name: Yoiul 3v3 Frigates Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

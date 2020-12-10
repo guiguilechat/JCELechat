@@ -1,4 +1,12 @@
 types:
+  Abaddon Aurora Universalis SKIN:
+    id: 57016
+    marketGroup: 1964
+    name: Abaddon Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Abaddon Biosecurity Responders SKIN:
     id: 55310
     marketGroup: 1964
@@ -1076,6 +1084,14 @@ types:
     id: 52392
     marketGroup: 1964
     name: Apocalypse Triglavian Twilight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Apocalypse Zakura Shumyu SKIN:
+    id: 57059
+    marketGroup: 1964
+    name: Apocalypse Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -2397,6 +2413,14 @@ types:
     id: 37547
     marketGroup: 2004
     name: Atron Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Atron Zakura Hansei SKIN:
+    id: 57181
+    marketGroup: 2004
+    name: Atron Zakura Hansei SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3748,6 +3772,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Breacher Zakura Hansei SKIN:
+    id: 57182
+    marketGroup: 2005
+    name: Breacher Zakura Hansei SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Broadsword Biosecurity Responders SKIN:
     id: 55690
     marketGroup: 2076
@@ -4089,6 +4121,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix Yoiul Star SKIN:
+    id: 57161
+    marketGroup: 1958
+    name: Brutix Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Burst Biosecurity Responders SKIN:
     id: 55640
     marketGroup: 2005
@@ -4344,6 +4384,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Buzzard Yoiul Star SKIN:
+    id: 57158
+    marketGroup: 2052
+    name: Buzzard Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Buzzard Zento Isideko Combine SKIN:
     id: 53157
     marketGroup: 2052
@@ -4447,6 +4495,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Capsule Aurora Universalis SKIN:
+    id: 57004
+    name: Capsule Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Capsule Capsuleer Day XVII SKIN:
     id: 54744
     name: Capsule Capsuleer Day XVII SKIN
@@ -4486,6 +4541,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Capsule Zakura Hansei SKIN:
+    id: 57105
+    name: Capsule Zakura Hansei SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caracal Abyssal Firestorm SKIN:
     id: 53133
     marketGroup: 1991
@@ -4497,6 +4559,14 @@ types:
   Caracal Abyssal Glory SKIN:
     id: 55849
     name: Caracal Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caracal Aurora Universalis SKIN:
+    id: 57017
+    marketGroup: 1991
+    name: Caracal Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4746,6 +4816,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Caracal Zakura Shumyu SKIN:
+    id: 57054
+    marketGroup: 1991
+    name: Caracal Zakura Shumyu SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Caracal Zento Isideko Combine SKIN:
     id: 53171
     marketGroup: 1991
@@ -4943,6 +5021,14 @@ types:
     id: 37561
     marketGroup: 1996
     name: Catalyst Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Catalyst Zakura Shumyu SKIN:
+    id: 57061
+    marketGroup: 1996
+    name: Catalyst Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -5503,6 +5589,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Claw Aurora Universalis SKIN:
+    id: 57009
+    marketGroup: 2062
+    name: Claw Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Claw Biosecurity Responders SKIN:
     id: 55685
     marketGroup: 2062
@@ -5842,6 +5936,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Coercer Zakura Shumyu SKIN:
+    id: 57057
+    marketGroup: 1994
+    name: Coercer Zakura Shumyu SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Condor Aurora Universalis SKIN:
     id: 53370
     marketGroup: 2003
@@ -5925,6 +6027,14 @@ types:
   Condor Wiyrkomi SKIN:
     id: 36327
     name: Condor Wiyrkomi SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Condor Zakura Hansei SKIN:
+    id: 57180
+    marketGroup: 2003
+    name: Condor Zakura Hansei SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6306,6 +6416,14 @@ types:
   Cormorant Wiyrkomi SKIN:
     id: 36351
     name: Cormorant Wiyrkomi SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cormorant Zakura Shumyu SKIN:
+    id: 57053
+    marketGroup: 1995
+    name: Cormorant Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6835,6 +6953,14 @@ types:
     id: 53019
     marketGroup: 2031
     name: Cruor Malagrin Marshlight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Crusader Aurora Universalis SKIN:
+    id: 57005
+    marketGroup: 2059
+    name: Crusader Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7564,6 +7690,14 @@ types:
     id: 37567
     marketGroup: 2071
     name: Deimos Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Deimos Yoiul Star SKIN:
+    id: 57160
+    marketGroup: 2071
+    name: Deimos Yoiul Star SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9230,6 +9364,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Eris Aurora Universalis SKIN:
+    id: 57011
+    marketGroup: 2040
+    name: Eris Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Eris Biosecurity Responders SKIN:
     id: 55628
     marketGroup: 2040
@@ -9423,6 +9565,14 @@ types:
     id: 37485
     marketGroup: 2002
     name: Executioner Raata Sunset SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Executioner Zakura Hansei SKIN:
+    id: 57183
+    marketGroup: 2002
+    name: Executioner Zakura Hansei SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9995,6 +10145,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Flycatcher Aurora Universalis SKIN:
+    id: 57012
+    marketGroup: 2039
+    name: Flycatcher Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Flycatcher Biosecurity Responders SKIN:
     id: 55560
     marketGroup: 2039
@@ -10391,6 +10549,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Gnosis Zakura Shumyu SKIN:
+    id: 57068
+    marketGroup: 2312
+    name: Gnosis Zakura Shumyu SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Gold Magnate Serenity YC119 SKIN:
     id: 47075
     name: Gold Magnate Serenity YC119 SKIN
@@ -10550,6 +10716,14 @@ types:
     id: 36361
     marketGroup: 2025
     name: Golem Wiyrkomi SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Golem Zakura Shumyu SKIN:
+    id: 57070
+    marketGroup: 2025
+    name: Golem Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11525,6 +11699,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hel Yoiul Star SKIN:
+    id: 57163
+    marketGroup: 1977
+    name: Hel Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Helios Biosecurity Responders SKIN:
     id: 55624
     marketGroup: 2053
@@ -11609,6 +11791,14 @@ types:
     id: 37555
     marketGroup: 2053
     name: Helios Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Heretic Aurora Universalis SKIN:
+    id: 57010
+    marketGroup: 2038
+    name: Heretic Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12562,6 +12752,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hyperion Aurora Universalis SKIN:
+    id: 57022
+    marketGroup: 1966
+    name: Hyperion Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hyperion Biosecurity Responders SKIN:
     id: 55580
     marketGroup: 1966
@@ -13193,6 +13391,14 @@ types:
     id: 37549
     marketGroup: 2004
     name: Incursus Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Incursus Zakura Shumyu SKIN:
+    id: 57060
+    marketGroup: 2004
+    name: Incursus Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -14044,6 +14250,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Kestrel Zakura Hansei SKIN:
+    id: 57106
+    marketGroup: 2003
+    name: Kestrel Zakura Hansei SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Kestrel Zento Isideko Combine SKIN:
     id: 53153
     marketGroup: 2003
@@ -14397,6 +14611,14 @@ types:
     id: 37582
     marketGroup: 2026
     name: Kronos Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Kronos Zakura Shumyu SKIN:
+    id: 57071
+    marketGroup: 2026
+    name: Kronos Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15216,6 +15438,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Maelstrom Aurora Universalis SKIN:
+    id: 57025
+    marketGroup: 1967
+    name: Maelstrom Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Maelstrom Biosecurity Responders SKIN:
     id: 55654
     marketGroup: 1967
@@ -15786,6 +16016,14 @@ types:
   Maller Tash-Murkon Serenity Only SKIN:
     id: 37956
     name: Maller Tash-Murkon Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Maller Zakura Shumyu SKIN:
+    id: 57058
+    marketGroup: 1990
+    name: Maller Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16526,6 +16764,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Megathron Zakura Shumyu SKIN:
+    id: 57063
+    marketGroup: 1966
+    name: Megathron Zakura Shumyu SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Merlin Abyssal Glory SKIN:
     id: 55850
     name: Merlin Abyssal Glory SKIN
@@ -16679,6 +16925,14 @@ types:
   Merlin Wiyrkomi Serenity Only SKIN:
     id: 36987
     name: Merlin Wiyrkomi Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Merlin Zakura Shumyu SKIN:
+    id: 57052
+    marketGroup: 2003
+    name: Merlin Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16893,6 +17147,14 @@ types:
     id: 49954
     marketGroup: 2279
     name: Minokawa Yoiul Festival YC121 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Minokawa Yoiul Star SKIN:
+    id: 57159
+    marketGroup: 2279
+    name: Minokawa Yoiul Star SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -17423,6 +17685,14 @@ types:
     id: 37574
     marketGroup: 1958
     name: Myrmidon Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Naga Aurora Universalis SKIN:
+    id: 57018
+    marketGroup: 1957
+    name: Naga Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -18941,6 +19211,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Omen Aurora Universalis SKIN:
+    id: 57014
+    marketGroup: 1990
+    name: Omen Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Omen Biosecurity Responders SKIN:
     id: 55327
     marketGroup: 1990
@@ -19372,6 +19650,14 @@ types:
     id: 52282
     marketGroup: 1956
     name: Oracle Argyros Elite XVI SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Oracle Aurora Universalis SKIN:
+    id: 57015
+    marketGroup: 1956
+    name: Oracle Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20134,6 +20420,14 @@ types:
     id: 49947
     marketGroup: 2024
     name: Paladin Yoiul Festival YC121 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Paladin Zakura Shumyu SKIN:
+    id: 57069
+    marketGroup: 2024
+    name: Paladin Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21681,6 +21975,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Providence Yoiul Star SKIN:
+    id: 57157
+    marketGroup: 1984
+    name: Providence Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Prowler Biosecurity Responders SKIN:
     id: 55697
     marketGroup: 2091
@@ -21889,6 +22191,14 @@ types:
   Punisher Tash-Murkon Serenity Only SKIN:
     id: 36985
     name: Punisher Tash-Murkon Serenity Only SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Punisher Zakura Shumyu SKIN:
+    id: 57056
+    marketGroup: 2002
+    name: Punisher Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22177,6 +22487,14 @@ types:
     id: 36776
     marketGroup: 2084
     name: Rapier Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Raptor Aurora Universalis SKIN:
+    id: 57006
+    marketGroup: 2060
+    name: Raptor Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22615,6 +22933,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Raven Zakura Shumyu SKIN:
+    id: 57055
+    marketGroup: 1965
+    name: Raven Zakura Shumyu SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Raven Zento Isideko Combine SKIN:
     id: 53189
     marketGroup: 1965
@@ -22891,6 +23217,14 @@ types:
     id: 52571
     marketGroup: 2047
     name: Retribution Star Captain SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Retribution Yoiul Star SKIN:
+    id: 57156
+    marketGroup: 2047
+    name: Retribution Yoiul Star SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23430,6 +23764,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rifter Zakura Shumyu SKIN:
+    id: 57064
+    marketGroup: 2005
+    name: Rifter Zakura Shumyu SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rodiva Blackfire Steel SKIN:
     id: 49925
     marketGroup: 2485
@@ -23466,6 +23808,14 @@ types:
     id: 52443
     marketGroup: 2485
     name: Rodiva Red Forests Thunderbird SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rokh Aurora Universalis SKIN:
+    id: 57019
+    marketGroup: 1965
+    name: Rokh Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24032,6 +24382,14 @@ types:
     id: 36768
     marketGroup: 1993
     name: Rupture Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sabre Aurora Universalis SKIN:
+    id: 57013
+    marketGroup: 2041
+    name: Sabre Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25348,6 +25706,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Slasher Zakura Hansei SKIN:
+    id: 57108
+    marketGroup: 2005
+    name: Slasher Zakura Hansei SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Sleipnir Biosecurity Responders SKIN:
     id: 55688
     marketGroup: 2107
@@ -25471,6 +25837,14 @@ types:
   Stabber Abyssal Glory SKIN:
     id: 55853
     name: Stabber Abyssal Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Aurora Universalis SKIN:
+    id: 57023
+    marketGroup: 1993
+    name: Stabber Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25660,6 +26034,14 @@ types:
     id: 36770
     marketGroup: 1993
     name: Stabber Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Zakura Shumyu SKIN:
+    id: 57066
+    marketGroup: 1993
+    name: Stabber Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26132,6 +26514,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Talos Aurora Universalis SKIN:
+    id: 57021
+    marketGroup: 1958
+    name: Talos Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Talos Biosecurity Responders SKIN:
     id: 55583
     marketGroup: 1958
@@ -26371,6 +26761,14 @@ types:
     id: 36764
     marketGroup: 1997
     name: Talwar Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Taranis Aurora Universalis SKIN:
+    id: 57008
+    marketGroup: 2061
+    name: Taranis Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26762,6 +27160,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tempest Zakura Shumyu SKIN:
+    id: 57067
+    marketGroup: 1967
+    name: Tempest Zakura Shumyu SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tengu Biosecurity Responders SKIN:
     id: 55513
     marketGroup: 2370
@@ -27125,6 +27531,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thorax Aurora Universalis SKIN:
+    id: 57020
+    marketGroup: 1992
+    name: Thorax Aurora Universalis SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thorax Biosecurity Responders SKIN:
     id: 55573
     marketGroup: 1992
@@ -27416,6 +27830,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thrasher Zakura Shumyu SKIN:
+    id: 57065
+    marketGroup: 1997
+    name: Thrasher Zakura Shumyu SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thunderchild Bluestar Defenders SKIN:
     id: 55986
     marketGroup: 2108
@@ -27540,6 +27962,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Tormentor Zakura Hansei SKIN:
+    id: 57109
+    marketGroup: 2002
+    name: Tormentor Zakura Hansei SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Tornado Amaranthine Mantle SKIN:
     id: 50033
     marketGroup: 1959
@@ -27552,6 +27982,14 @@ types:
     id: 52284
     marketGroup: 1959
     name: Tornado Argyros Elite XVI SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tornado Aurora Universalis SKIN:
+    id: 57024
+    marketGroup: 1959
+    name: Tornado Aurora Universalis SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27810,6 +28248,14 @@ types:
     id: 37552
     marketGroup: 2004
     name: Tristan Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tristan Zakura Hansei SKIN:
+    id: 57107
+    marketGroup: 2004
+    name: Tristan Zakura Hansei SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28083,6 +28529,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Typhoon Yoiul Star SKIN:
+    id: 57162
+    marketGroup: 1967
+    name: Typhoon Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vagabond Biosecurity Responders SKIN:
     id: 55679
     marketGroup: 2072
@@ -28330,6 +28784,14 @@ types:
     id: 36786
     marketGroup: 2027
     name: Vargur Valklear Glory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vargur Zakura Shumyu SKIN:
+    id: 57072
+    marketGroup: 2027
+    name: Vargur Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -28993,6 +29455,14 @@ types:
     id: 37566
     marketGroup: 1992
     name: Vexor Valimor Legacy SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Zakura Shumyu SKIN:
+    id: 57062
+    marketGroup: 1992
+    name: Vexor Zakura Shumyu SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

@@ -1,13 +1,13 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
  * Bonus to chance of opening a container.
  */
 public class AccessDifficultyBonus
-    extends IntAttribute
+    extends RealAttribute
 {
     public static final AccessDifficultyBonus INSTANCE = new AccessDifficultyBonus();
 

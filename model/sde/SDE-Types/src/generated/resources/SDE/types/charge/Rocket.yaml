@@ -5,7 +5,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -40,7 +40,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamage: 37.0
@@ -75,7 +75,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -110,7 +110,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -145,7 +145,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -180,7 +180,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamage: 39.599998474121094
@@ -215,7 +215,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -250,7 +250,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -285,7 +285,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -320,7 +320,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamage: 35.599998474121094
@@ -355,7 +355,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -390,7 +390,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -425,7 +425,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -458,7 +458,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamage: 33.0
@@ -491,7 +491,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0
@@ -524,7 +524,7 @@ types:
     aoecloudsize: 20
     aoedamagereductionfactor: 0.6439999938011169
     aoefalloff: 1500
-    aoevelocity: 150.0
+    aoevelocity: 150
     armorpiercingchance: 1
     detonationrange: 35
     emdamageresonance: 1.0

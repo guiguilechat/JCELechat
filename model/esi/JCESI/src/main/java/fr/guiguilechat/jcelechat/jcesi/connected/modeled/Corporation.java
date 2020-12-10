@@ -13,6 +13,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Wallet;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_contacts;
@@ -23,7 +24,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_roles_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_titles;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
@@ -108,9 +108,9 @@ public class Corporation {
 	// journal
 	//
 
-	private Map<Integer, ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal>> cachedJournals = new HashMap<>();
+	private Map<Integer, ObsMapHolder<Long, M_get_journal_13>> cachedJournals = new HashMap<>();
 
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal> getJournal(int division_id) {
+	public ObsMapHolder<Long, M_get_journal_13> getJournal(int division_id) {
 		if (cachedJournals.get(division_id) == null) {
 			LockWatchDog.BARKER.syncExecute(cachedJournals, () -> {
 				if (cachedJournals.get(division_id) == null) {

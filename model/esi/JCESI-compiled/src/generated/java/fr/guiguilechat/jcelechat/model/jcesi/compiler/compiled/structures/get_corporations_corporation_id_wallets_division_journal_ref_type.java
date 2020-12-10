@@ -139,6 +139,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     duel_wager_payment("duel_wager_payment"),
     @JsonProperty("duel_wager_refund")
     duel_wager_refund("duel_wager_refund"),
+    @JsonProperty("ess_escrow_transfer")
+    ess_escrow_transfer("ess_escrow_transfer"),
     @JsonProperty("factory_slot_rental_fee")
     factory_slot_rental_fee("factory_slot_rental_fee"),
     @JsonProperty("gm_cash_transfer")
@@ -151,6 +153,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     inheritance("inheritance"),
     @JsonProperty("insurance")
     insurance("insurance"),
+    @JsonProperty("item_trader_payment")
+    item_trader_payment("item_trader_payment"),
     @JsonProperty("jump_clone_activation_fee")
     jump_clone_activation_fee("jump_clone_activation_fee"),
     @JsonProperty("jump_clone_installation_fee")
@@ -221,6 +225,8 @@ public enum get_corporations_corporation_id_wallets_division_journal_ref_type {
     security_processing_fee("security_processing_fee"),
     @JsonProperty("shares")
     shares("shares"),
+    @JsonProperty("skill_purchase")
+    skill_purchase("skill_purchase"),
     @JsonProperty("sovereignity_bill")
     sovereignity_bill("sovereignity_bill"),
     @JsonProperty("store_purchase")

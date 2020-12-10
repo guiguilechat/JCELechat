@@ -228,8 +228,8 @@ public class AbyssalSpaceshipEntities
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double aoevelocity;
+    @DefaultIntValue(0)
+    public int aoevelocity;
     /**
      * Increases velocity of missile explosion
      */

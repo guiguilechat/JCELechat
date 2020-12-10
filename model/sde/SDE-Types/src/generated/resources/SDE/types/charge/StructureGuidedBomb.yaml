@@ -4,7 +4,7 @@ types:
     aimedlaunch: 1
     aoecloudsize: 500
     aoedamagereductionfactor: 0.9440000057220459
-    aoevelocity: 100.0
+    aoevelocity: 100
     detonationrange: 35
     emdamage: 2400.0
     empfieldrange: 30000
@@ -32,7 +32,7 @@ types:
     aimedlaunch: 1
     aoecloudsize: 100
     aoedamagereductionfactor: 0.9440000057220459
-    aoevelocity: 100.0
+    aoevelocity: 100
     detonationrange: 35
     emdamage: 700.0
     empfieldrange: 30000

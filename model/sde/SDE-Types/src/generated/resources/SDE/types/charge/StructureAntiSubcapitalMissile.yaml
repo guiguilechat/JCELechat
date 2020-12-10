@@ -5,7 +5,7 @@ types:
     aoecloudsize: 500
     aoedamagereductionfactor: 0.9440000057220459
     aoefalloff: 1500
-    aoevelocity: 60.0
+    aoevelocity: 60
     detonationrange: 35
     emdamage: 600.0
     explosiondelay: 115000
@@ -32,7 +32,7 @@ types:
     aoecloudsize: 200
     aoedamagereductionfactor: 0.9440000057220459
     aoefalloff: 1500
-    aoevelocity: 100.0
+    aoevelocity: 100
     detonationrange: 35
     emdamage: 300.0
     explosiondelay: 105000
@@ -59,7 +59,7 @@ types:
     aoecloudsize: 100
     aoedamagereductionfactor: 0.9440000057220459
     aoefalloff: 1500
-    aoevelocity: 200.0
+    aoevelocity: 200
     detonationrange: 35
     emdamage: 100.0
     explosiondelay: 95000

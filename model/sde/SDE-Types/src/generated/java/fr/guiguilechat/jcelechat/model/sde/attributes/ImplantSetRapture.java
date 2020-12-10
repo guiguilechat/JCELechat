@@ -1,19 +1,19 @@
 package fr.guiguilechat.jcelechat.model.sde.attributes;
 
-import fr.guiguilechat.jcelechat.model.sde.IntAttribute;
+import fr.guiguilechat.jcelechat.model.sde.RealAttribute;
 
 
 /**
- * Velocity of the damage cloud created on impact.
+ * Rapture Implant Set Bonus
  */
-public class AoeVelocity
-    extends IntAttribute
+public class ImplantSetRapture
+    extends RealAttribute
 {
-    public static final AoeVelocity INSTANCE = new AoeVelocity();
+    public static final ImplantSetRapture INSTANCE = new ImplantSetRapture();
 
     @Override
     public int getId() {
-        return  653;
+        return  3107;
     }
 
     @Override
@@ -23,7 +23,7 @@ public class AoeVelocity
 
     @Override
     public Number getDefaultValue() {
-        return  0.0;
+        return  1.0;
     }
 
     @Override
@@ -33,11 +33,11 @@ public class AoeVelocity
 
     @Override
     public boolean getStackable() {
-        return false;
+        return true;
     }
 
     @Override
     public String toString() {
-        return "AoeVelocity";
+        return "ImplantSetRapture";
     }
 }

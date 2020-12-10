@@ -30,7 +30,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackDelayMax;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackDelayMin;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityAttackRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityBracketColour;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelay;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDelayChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDistance;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityChaseMaxDurationChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityCruiseSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityDefenderChance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityEquipmentGroupMax;
@@ -40,6 +44,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFactionLoss;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityFlyRange;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityKillBounty;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityLootCountMin;
+import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMaxVelocitySignatureRadiusMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityMissileTypeID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityOverviewShipGroupId;
 import fr.guiguilechat.jcelechat.model.sde.attributes.EntityReactionFactor;
@@ -61,6 +66,8 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.MissileDamageMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityFlightTimeMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileEntityVelocityMultiplier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MissileLaunchDuration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.NpcBehaviorMaximumCombatOrbitRange;
+import fr.guiguilechat.jcelechat.model.sde.attributes.OptimalSigRadius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PropulsionGraphicID;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RechargeRate;
@@ -72,6 +79,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolution;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanSpeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCapacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldCharge;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResistanceBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldEmDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldExplosiveDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldKineticDamageResonance;
@@ -79,6 +87,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldRechargeRate;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ShieldUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureRadius;
+import fr.guiguilechat.jcelechat.model.sde.attributes.Speed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.StructureUniformity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ThermalDamageResonance;
 import fr.guiguilechat.jcelechat.model.sde.attributes.WarpScrambleRange;
@@ -205,12 +214,40 @@ public class IrregularIndustrial
     @DefaultIntValue(0)
     public int entitybracketcolour;
     /**
+     * The maximum amount of time stalled before entity chase speed kicks in.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(5000)
+    public int entitychasemaxdelay;
+    /**
+     * Chance that the max delay is waited before chase is engaged.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double entitychasemaxdelaychance;
+    /**
      * The distance outside of which the entity activates their MWD equivalent.
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultIntValue(2500)
     public int entitychasemaxdistance;
+    /**
+     * The maximum amount of time chase is ever engaged for.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(5000)
+    public int entitychasemaxduration;
+    /**
+     * The chance of engaging chase for the maximum duration.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(1.0)
+    public double entitychasemaxdurationchance;
     /**
      * The speed that entities fly at when not chasing a target.
      */
@@ -274,6 +311,13 @@ public class IrregularIndustrial
     @Stackable(true)
     @DefaultIntValue(0)
     public int entitylootcountmin;
+    /**
+     * Used to increase signature radius of entity when it activates Max Velocity. Used to fake MWD sig radius increase.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(6)
+    public int entitymaxvelocitysignatureradiusmultiplier;
     /**
      * The type of missiles the entity launches.
      */
@@ -423,6 +467,20 @@ public class IrregularIndustrial
     @DefaultRealValue(20000.0)
     public double missilelaunchduration;
     /**
+     * Used by Behavior NPCs to work out minimum orbit range. If the npc has an effect with a shorter range, it will use the effects range instead.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultRealValue(0.0)
+    public double npcbehaviormaximumcombatorbitrange;
+    /**
+     * Prefered target signature. The base signature radius at which the turret's tracking speed is rated. 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(1000)
+    public int optimalsigradius;
+    /**
      * The graphicID of the propulsion system.
      */
     @HighIsGood(true)
@@ -501,6 +559,13 @@ public class IrregularIndustrial
     @DefaultRealValue(0.0)
     public double shieldcharge;
     /**
+     * EM resistance bonus for shields
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int shieldemdamageresistancebonus;
+    /**
      * Multiplies EM damage taken by shield
      */
     @HighIsGood(false)
@@ -550,6 +615,13 @@ public class IrregularIndustrial
     @DefaultRealValue(100.0)
     public double signatureradius;
     /**
+     * Time in milliseconds between possible activations
+     */
+    @HighIsGood(false)
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double speed;
+    /**
      * DO NOT MESS WITH
      */
     @HighIsGood(true)
@@ -584,7 +656,7 @@ public class IrregularIndustrial
     @Stackable(false)
     @DefaultRealValue(3.0)
     public double warpspeedmultiplier;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityStrength.INSTANCE, EntityBracketColour.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, Agility.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, EntityReactionFactor.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, KineticDamageResonance.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EntityDefenderChance.INSTANCE, EmDamageResonance.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, MissileLaunchDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityMissileTypeID.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Mass.INSTANCE, MissileEntityVelocityMultiplier.INSTANCE, MissileEntityFlightTimeMultiplier.INSTANCE, ShieldCapacity.INSTANCE, ShieldCharge.INSTANCE, Hp.INSTANCE, ArmorHP.INSTANCE, ArmorEmDamageResonance.INSTANCE, ArmorExplosiveDamageResonance.INSTANCE, ArmorUniformity.INSTANCE, ArmorKineticDamageResonance.INSTANCE, StructureUniformity.INSTANCE, ArmorThermalDamageResonance.INSTANCE, ShieldEmDamageResonance.INSTANCE, ShieldExplosiveDamageResonance.INSTANCE, ShieldKineticDamageResonance.INSTANCE, ShieldThermalDamageResonance.INSTANCE, Charge.INSTANCE, EntityChaseMaxDistance.INSTANCE, EntityStrength.INSTANCE, EntityBracketColour.INSTANCE, EntityFlyRange.INSTANCE, Radius.INSTANCE, MaxVelocity.INSTANCE, Capacity.INSTANCE, SignatureRadius.INSTANCE, EntityFactionLoss.INSTANCE, EntitySecurityMaxGain.INSTANCE, Speed.INSTANCE, ScanResolution.INSTANCE, MaxRange.INSTANCE, RechargeRate.INSTANCE, MaxLockedTargets.INSTANCE, MaxAttackTargets.INSTANCE, EntityChaseMaxDelay.INSTANCE, EntityChaseMaxDelayChance.INSTANCE, Agility.INSTANCE, EntityChaseMaxDuration.INSTANCE, EntityChaseMaxDurationChance.INSTANCE, EntityEquipmentMin.INSTANCE, EntityEquipmentMax.INSTANCE, MaxTargetRange.INSTANCE, ScanSpeed.INSTANCE, ScanRadarStrength.INSTANCE, ScanLadarStrength.INSTANCE, EntityEquipmentGroupMax.INSTANCE, ShieldEmDamageResistanceBonus.INSTANCE, EntityReactionFactor.INSTANCE, ScanMagnetometricStrength.INSTANCE, ScanGravimetricStrength.INSTANCE, MissileDamageMultiplier.INSTANCE, DisallowAssistance.INSTANCE, WarpSpeedMultiplier.INSTANCE, PropulsionGraphicID.INSTANCE, EntityAttackDelayMin.INSTANCE, EntityAttackDelayMax.INSTANCE, ShieldRechargeRate.INSTANCE, EntityKillBounty.INSTANCE, CapacitorCapacity.INSTANCE, NpcBehaviorMaximumCombatOrbitRange.INSTANCE, ShieldUniformity.INSTANCE, EntityOverviewShipGroupId.INSTANCE, WarpScrambleRange.INSTANCE, WarpScrambleStrength.INSTANCE, OptimalSigRadius.INSTANCE, KineticDamageResonance.INSTANCE, EntityMaxVelocitySignatureRadiusMultiplier.INSTANCE, ThermalDamageResonance.INSTANCE, ExplosiveDamageResonance.INSTANCE, EntityDefenderChance.INSTANCE, EmDamageResonance.INSTANCE, GfxBoosterID.INSTANCE, EntityAttackRange.INSTANCE, EntityWarpScrambleChance.INSTANCE, MissileLaunchDuration.INSTANCE, EntityLootCountMin.INSTANCE, EntityMissileTypeID.INSTANCE, EntityCruiseSpeed.INSTANCE, EntitySecurityStatusKillBonus.INSTANCE })));
     public static final IrregularIndustrial.MetaGroup METAGROUP = new IrregularIndustrial.MetaGroup();
 
     @Override
@@ -654,9 +726,25 @@ public class IrregularIndustrial
             {
                 return entitybracketcolour;
             }
+            case  580 :
+            {
+                return entitychasemaxdelay;
+            }
+            case  581 :
+            {
+                return entitychasemaxdelaychance;
+            }
             case  665 :
             {
                 return entitychasemaxdistance;
+            }
+            case  582 :
+            {
+                return entitychasemaxduration;
+            }
+            case  583 :
+            {
+                return entitychasemaxdurationchance;
             }
             case  508 :
             {
@@ -693,6 +781,10 @@ public class IrregularIndustrial
             case  250 :
             {
                 return entitylootcountmin;
+            }
+            case  1133 :
+            {
+                return entitymaxvelocitysignatureradiusmultiplier;
             }
             case  507 :
             {
@@ -778,6 +870,14 @@ public class IrregularIndustrial
             {
                 return missilelaunchduration;
             }
+            case  2786 :
+            {
+                return npcbehaviormaximumcombatorbitrange;
+            }
+            case  620 :
+            {
+                return optimalsigradius;
+            }
             case  217 :
             {
                 return propulsiongraphicid;
@@ -822,6 +922,10 @@ public class IrregularIndustrial
             {
                 return shieldcharge;
             }
+            case  1489 :
+            {
+                return shieldemdamageresistancebonus;
+            }
             case  271 :
             {
                 return shieldemdamageresonance;
@@ -849,6 +953,10 @@ public class IrregularIndustrial
             case  552 :
             {
                 return signatureradius;
+            }
+            case  51 :
+            {
+                return speed;
             }
             case  525 :
             {

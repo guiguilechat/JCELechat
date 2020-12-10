@@ -80,8 +80,8 @@ public class StructureAntiSubcapitalMissile
      */
     @HighIsGood(true)
     @Stackable(false)
-    @DefaultRealValue(0.0)
-    public double aoevelocity;
+    @DefaultIntValue(0)
+    public int aoevelocity;
     /**
      * the range in meters for an object to trigger detonation of missile. (own ship excluded)
      */

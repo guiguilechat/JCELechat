@@ -3,7 +3,7 @@ types:
     aimedlaunch: 1
     aoecloudsize: 10
     aoedamagereductionfactor: 0.10000000149011612
-    aoevelocity: 400.0
+    aoevelocity: 400
     emdamage: 200.0
     explosiondelay: 3000
     explosivedamage: 200.0

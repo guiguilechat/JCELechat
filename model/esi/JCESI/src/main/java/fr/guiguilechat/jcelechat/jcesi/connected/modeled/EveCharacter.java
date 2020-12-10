@@ -23,13 +23,13 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.PI;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Route;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Skills;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Wallet;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_loyalty_points;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_online;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles;
@@ -360,9 +360,9 @@ public class EveCharacter {
 	// journal
 	//
 
-	private ObsMapHolder<Long, R_get_characters_character_id_wallet_journal> journal;
+	private ObsMapHolder<Long, M_get_journal_13> journal;
 
-	public ObsMapHolder<Long, R_get_characters_character_id_wallet_journal> getJournal() {
+	public ObsMapHolder<Long, M_get_journal_13> getJournal() {
 		if (journal == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (journal == null) {

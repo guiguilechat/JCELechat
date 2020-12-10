@@ -3335,6 +3335,108 @@ types:
     structureuniformity: 1.0
     thermaldamageresonance: 1.0
     volume: 1.0E8
+  ORE Faded Volatile Ice Processor:
+    armoremdamageresonance: 0.0010000000474974513
+    armorexplosivedamageresonance: 0.0010000000474974513
+    armorhp: 100000.0
+    armorkineticdamageresonance: 0.0010000000474974513
+    armorthermaldamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.0010000000474974513
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    explosivedamageresonance: 0.0010000000474974513
+    falloff: 1.0
+    hp: 100000.0
+    id: 57042
+    kineticdamageresonance: 0.0010000000474974513
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: ORE Faded Volatile Ice Processor
+    packagedVolume: 1.025E7
+    portionSize: 1
+    published: false
+    radius: 550.0
+    shieldcapacity: 100000.0
+    shieldemdamageresonance: 0.0010000000474974513
+    shieldexplosivedamageresonance: 0.0010000000474974513
+    shieldkineticdamageresonance: 0.0010000000474974513
+    shieldrechargerate: 1000.0
+    shieldthermaldamageresonance: 0.0010000000474974513
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
+    volume: 1.025E7
+  ORE Fresh Volatile Ice Processor:
+    armoremdamageresonance: 0.0010000000474974513
+    armorexplosivedamageresonance: 0.0010000000474974513
+    armorhp: 100000.0
+    armorkineticdamageresonance: 0.0010000000474974513
+    armorthermaldamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.0010000000474974513
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    explosivedamageresonance: 0.0010000000474974513
+    falloff: 1.0
+    hp: 100000.0
+    id: 57047
+    kineticdamageresonance: 0.0010000000474974513
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: ORE Fresh Volatile Ice Processor
+    packagedVolume: 1.025E7
+    portionSize: 1
+    published: false
+    radius: 550.0
+    shieldcapacity: 100000.0
+    shieldemdamageresonance: 0.0010000000474974513
+    shieldexplosivedamageresonance: 0.0010000000474974513
+    shieldkineticdamageresonance: 0.0010000000474974513
+    shieldrechargerate: 1000.0
+    shieldthermaldamageresonance: 0.0010000000474974513
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
+    volume: 1.025E7
+  ORE Friable Volatile Ice Processor:
+    armoremdamageresonance: 0.0010000000474974513
+    armorexplosivedamageresonance: 0.0010000000474974513
+    armorhp: 100000.0
+    armorkineticdamageresonance: 0.0010000000474974513
+    armorthermaldamageresonance: 0.0010000000474974513
+    emdamageresonance: 0.0010000000474974513
+    entityattackrange: 15000
+    entitychasemaxdistance: 2500
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    explosivedamageresonance: 0.0010000000474974513
+    falloff: 1.0
+    hp: 100000.0
+    id: 57048
+    kineticdamageresonance: 0.0010000000474974513
+    lootrespawntime: 600000.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    name: ORE Friable Volatile Ice Processor
+    packagedVolume: 1.025E7
+    portionSize: 1
+    published: false
+    radius: 550.0
+    shieldcapacity: 100000.0
+    shieldemdamageresonance: 0.0010000000474974513
+    shieldexplosivedamageresonance: 0.0010000000474974513
+    shieldkineticdamageresonance: 0.0010000000474974513
+    shieldrechargerate: 1000.0
+    shieldthermaldamageresonance: 0.0010000000474974513
+    signatureradius: 1000.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 0.0010000000474974513
+    volume: 1.025E7
   Officers Quarters:
     armoremdamageresonance: 1.0
     armorexplosivedamageresonance: 1.0

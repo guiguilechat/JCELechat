@@ -2,20 +2,20 @@ types:
   Inferno Javelin Torpedo:
     agility: 5.220125675201416
     aimedlaunch: 1
-    aoecloudsize: 450
+    aoecloudsize: 405
     aoedamagereductionfactor: 0.9670000076293945
     aoefalloff: 1500
-    aoevelocity: 71.0
+    aoevelocity: 78
     detonationrange: 35
     emdamageresonance: 1.0
-    explosiondelay: 6000
+    explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 360.0
     id: 24525
     kineticdamageresonance: 1.0
     launchergroup: 508
     marketGroup: 929
-    maxvelocity: 2250.0
+    maxvelocity: 2700.0
     metalevelold: 5
     name: Inferno Javelin Torpedo
     packagedVolume: 0.05000000074505806
@@ -36,20 +36,20 @@ types:
     volume: 0.05000000074505806
   Inferno Rage Torpedo:
     agility: 5.220125675201416
-    aoecloudsize: 774
+    aoecloudsize: 697
     aoedamagereductionfactor: 0.9670000076293945
     aoefalloff: 750
-    aoevelocity: 61.0
+    aoevelocity: 67
     detonationrange: 35
     emdamageresonance: 1.0
-    explosiondelay: 6000
+    explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 360.0
     id: 2811
     kineticdamageresonance: 1.0
     launchergroup: 508
     marketGroup: 931
-    maxvelocity: 1250.0
+    maxvelocity: 1500.0
     metalevelold: 5
     name: Inferno Rage Torpedo
     packagedVolume: 0.05000000074505806
@@ -71,21 +71,21 @@ types:
   Mjolnir Javelin Torpedo:
     agility: 5.220125675201416
     aimedlaunch: 1
-    aoecloudsize: 450
+    aoecloudsize: 405
     aoedamagereductionfactor: 0.9670000076293945
     aoefalloff: 1500
-    aoevelocity: 71.0
+    aoevelocity: 78
     detonationrange: 35
     emdamage: 405.0
     emdamageresonance: 0.800000011920929
-    explosiondelay: 6000
+    explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 360.0
     id: 24527
     kineticdamageresonance: 1.0
     launchergroup: 508
     marketGroup: 929
-    maxvelocity: 2250.0
+    maxvelocity: 2700.0
     metalevelold: 5
     name: Mjolnir Javelin Torpedo
     packagedVolume: 0.05000000074505806
@@ -105,21 +105,21 @@ types:
     volume: 0.05000000074505806
   Mjolnir Rage Torpedo:
     agility: 5.220125675201416
-    aoecloudsize: 774
+    aoecloudsize: 697
     aoedamagereductionfactor: 0.9670000076293945
     aoefalloff: 750
-    aoevelocity: 61.0
+    aoevelocity: 67
     detonationrange: 35
     emdamage: 699.2000122070312
     emdamageresonance: 0.800000011920929
-    explosiondelay: 6000
+    explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 360.0
     id: 24523
     kineticdamageresonance: 1.0
     launchergroup: 508
     marketGroup: 931
-    maxvelocity: 1250.0
+    maxvelocity: 1500.0
     metalevelold: 5
     name: Mjolnir Rage Torpedo
     packagedVolume: 0.05000000074505806
@@ -140,13 +140,13 @@ types:
   Nova Javelin Torpedo:
     agility: 5.220125675201416
     aimedlaunch: 1
-    aoecloudsize: 450
+    aoecloudsize: 405
     aoedamagereductionfactor: 0.9670000076293945
     aoefalloff: 1500
-    aoevelocity: 71.0
+    aoevelocity: 78
     detonationrange: 35
     emdamageresonance: 1.0
-    explosiondelay: 6000
+    explosiondelay: 7200
     explosivedamage: 405.0
     explosivedamageresonance: 0.800000011920929
     hp: 360.0
@@ -154,7 +154,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 508
     marketGroup: 929
-    maxvelocity: 2250.0
+    maxvelocity: 2700.0
     metalevelold: 5
     name: Nova Javelin Torpedo
     packagedVolume: 0.05000000074505806
@@ -174,13 +174,13 @@ types:
     volume: 0.05000000074505806
   Nova Rage Torpedo:
     agility: 5.220125675201416
-    aoecloudsize: 774
+    aoecloudsize: 697
     aoedamagereductionfactor: 0.9670000076293945
     aoefalloff: 750
-    aoevelocity: 61.0
+    aoevelocity: 67
     detonationrange: 35
     emdamageresonance: 1.0
-    explosiondelay: 6000
+    explosiondelay: 7200
     explosivedamage: 699.2000122070312
     explosivedamageresonance: 0.800000011920929
     hp: 360.0
@@ -188,7 +188,7 @@ types:
     kineticdamageresonance: 1.0
     launchergroup: 508
     marketGroup: 931
-    maxvelocity: 1250.0
+    maxvelocity: 1500.0
     metalevelold: 5
     name: Nova Rage Torpedo
     packagedVolume: 0.05000000074505806
@@ -209,13 +209,13 @@ types:
   Scourge Javelin Torpedo:
     agility: 5.220125675201416
     aimedlaunch: 1
-    aoecloudsize: 450
+    aoecloudsize: 405
     aoedamagereductionfactor: 0.9670000076293945
     aoefalloff: 1500
-    aoevelocity: 71.0
+    aoevelocity: 78
     detonationrange: 35
     emdamageresonance: 1.0
-    explosiondelay: 6000
+    explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 360.0
     id: 24529
@@ -223,7 +223,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 508
     marketGroup: 929
-    maxvelocity: 2250.0
+    maxvelocity: 2700.0
     metalevelold: 5
     name: Scourge Javelin Torpedo
     packagedVolume: 0.05000000074505806
@@ -243,13 +243,13 @@ types:
     volume: 0.05000000074505806
   Scourge Rage Torpedo:
     agility: 5.220125675201416
-    aoecloudsize: 774
+    aoecloudsize: 697
     aoedamagereductionfactor: 0.9670000076293945
     aoefalloff: 750
-    aoevelocity: 61.0
+    aoevelocity: 67
     detonationrange: 35
     emdamageresonance: 1.0
-    explosiondelay: 6000
+    explosiondelay: 7200
     explosivedamageresonance: 1.0
     hp: 360.0
     id: 24521
@@ -257,7 +257,7 @@ types:
     kineticdamageresonance: 0.800000011920929
     launchergroup: 508
     marketGroup: 931
-    maxvelocity: 1250.0
+    maxvelocity: 1500.0
     metalevelold: 5
     name: Scourge Rage Torpedo
     packagedVolume: 0.05000000074505806

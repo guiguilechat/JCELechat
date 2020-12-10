@@ -33,6 +33,12 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  '''Saikadori'' Facial Augmentation Crate':
+    cpumultiplier: 1.0
+    id: 57153
+    name: '''Saikadori'' Facial Augmentation Crate'
+    portionSize: 1
+    published: true
   '''Subverted'' JVN-UC49 Blueprint Crate':
     cpumultiplier: 1.0
     id: 48928
@@ -164,6 +170,15 @@ types:
     portionSize: 1
     published: true
     volume: 50000.0
+  Airlock-Slammer Display:
+    cpumultiplier: 1.0
+    id: 56977
+    marketGroup: 1661
+    name: Airlock-Slammer Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
   Alice Saki's Good Posting Guide:
     cpumultiplier: 1.0
     id: 34434
@@ -711,11 +726,29 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  DNCR-05H and PRNCR-10H Highsec Ice Storm Filaments Crate:
+    cpumultiplier: 1.0
+    id: 57169
+    marketGroup: 1661
+    name: DNCR-05H and PRNCR-10H Highsec Ice Storm Filaments Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
   Damaged Ancient PEG:
     cpumultiplier: 1.0
     id: 47053
     marketGroup: 1661
     name: Damaged Ancient PEG
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Data-Sniffer Display:
+    cpumultiplier: 1.0
+    id: 56981
+    marketGroup: 1661
+    name: Data-Sniffer Display
     packagedVolume: 3.0
     portionSize: 1
     published: true
@@ -873,6 +906,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Ectoplasm-Skimmer Display:
+    cpumultiplier: 1.0
+    id: 56978
+    marketGroup: 1661
+    name: Ectoplasm-Skimmer Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
   Eico Redarc/Redwire XVI Augmentations Crate:
     cpumultiplier: 1.0
     id: 52299
@@ -1238,6 +1280,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Freezer-Thief Display:
+    cpumultiplier: 1.0
+    id: 56982
+    marketGroup: 1661
+    name: Freezer-Thief Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
   Frontier Safeguarder Encore Crate:
     cpumultiplier: 1.0
     id: 54486
@@ -1285,6 +1336,15 @@ types:
     id: 47048
     marketGroup: 1661
     name: Frozen Droplet of Blood
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Fuel-Stealer Display:
+    cpumultiplier: 1.0
+    id: 56972
+    marketGroup: 1661
+    name: Fuel-Stealer Display
     packagedVolume: 3.0
     portionSize: 1
     published: true
@@ -1694,6 +1754,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Livestock-Liberator Display:
+    cpumultiplier: 1.0
+    id: 56971
+    marketGroup: 1661
+    name: Livestock-Liberator Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
   Log Fragment 1 (Gala YC121):
     cpumultiplier: 1.0
     id: 48950
@@ -1984,6 +2053,30 @@ types:
     portionSize: 1
     published: true
     volume: 4.0
+  ORE Green Salvage Package:
+    cpumultiplier: 1.0
+    id: 57040
+    name: ORE Green Salvage Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  ORE Red Salvage Package:
+    cpumultiplier: 1.0
+    id: 57051
+    name: ORE Red Salvage Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  ORE White Salvage Package:
+    cpumultiplier: 1.0
+    id: 57050
+    name: ORE White Salvage Package
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Offensive Content Reports, Jan. YC120, vol. I:
     cpumultiplier: 1.0
     id: 48759
@@ -2007,6 +2100,14 @@ types:
     id: 52783
     marketGroup: 1661
     name: Pax e Kilizhi Do
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Peculiar Icebound Salvage:
+    cpumultiplier: 1.0
+    id: 56907
+    name: Peculiar Icebound Salvage
     packagedVolume: 1.0
     portionSize: 1
     published: true
@@ -2047,6 +2148,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Power-Drainer Display:
+    cpumultiplier: 1.0
+    id: 56983
+    marketGroup: 1661
+    name: Power-Drainer Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
   Pre-Completed CSM 10 Ballot Paper:
     cpumultiplier: 1.0
     id: 34423
@@ -2137,6 +2247,41 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Radiation-Rogue Display:
+    cpumultiplier: 1.0
+    id: 56973
+    marketGroup: 1661
+    name: Radiation-Rogue Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Rare Icebound Salvage:
+    cpumultiplier: 1.0
+    id: 57038
+    name: Rare Icebound Salvage
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Ration-Grabber Display:
+    cpumultiplier: 1.0
+    id: 56979
+    marketGroup: 1661
+    name: Ration-Grabber Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
+  Recycler-Raider Display:
+    cpumultiplier: 1.0
+    id: 56975
+    marketGroup: 1661
+    name: Recycler-Raider Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
   Rejected Ship Replacement Program Request:
     cpumultiplier: 1.0
     id: 44211
@@ -2328,6 +2473,15 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
+  Scanner-Jacker Display:
+    cpumultiplier: 1.0
+    id: 56980
+    marketGroup: 1661
+    name: Scanner-Jacker Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
   Scotty the Docking Manager's Clone:
     cpumultiplier: 1.0
     id: 33019
@@ -2409,6 +2563,15 @@ types:
     portionSize: 1
     published: true
     volume: 2.0
+  Snowstar Crystalburst Fireworks Crate:
+    cpumultiplier: 1.0
+    id: 57166
+    marketGroup: 1661
+    name: Snowstar Crystalburst Fireworks Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
   Sort Dragon's Guide To Diplomacy:
     cpumultiplier: 1.0
     id: 34426
@@ -2633,6 +2796,15 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
+  Tool-Swiper Display:
+    cpumultiplier: 1.0
+    id: 56974
+    marketGroup: 1661
+    name: Tool-Swiper Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
   Top Grade Deathglow:
     cpumultiplier: 1.0
     id: 49621
@@ -2661,6 +2833,14 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Unusual Icebound Salvage:
+    cpumultiplier: 1.0
+    id: 57039
+    name: Unusual Icebound Salvage
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Upwell Consortium Propaganda Reel:
     cpumultiplier: 1.0
     id: 44212
@@ -2742,6 +2922,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Water-Sucker Display:
+    cpumultiplier: 1.0
+    id: 56976
+    marketGroup: 1661
+    name: Water-Sucker Display
+    packagedVolume: 3.0
+    portionSize: 1
+    published: true
+    volume: 3.0
   Well-Worn Fedora:
     cpumultiplier: 1.0
     id: 48751
@@ -2851,6 +3040,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Yoiul Festival Snowballs Crate:
+    cpumultiplier: 1.0
+    id: 57167
+    marketGroup: 1661
+    name: Yoiul Festival Snowballs Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
   Yoiul Festival YC120 Coin (Amarr):
     cpumultiplier: 1.0
     id: 47060
@@ -2887,6 +3085,30 @@ types:
     portionSize: 1
     published: true
     volume: 3.0
+  Yoiul Stormchasers Suit and Cap Crate:
+    cpumultiplier: 1.0
+    id: 57170
+    marketGroup: 1661
+    name: Yoiul Stormchasers Suit and Cap Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  Yoiul Stormchasers T-Shirt and Pants Crate:
+    cpumultiplier: 1.0
+    id: 57168
+    marketGroup: 1661
+    name: Yoiul Stormchasers T-Shirt and Pants Crate
+    packagedVolume: 4.0
+    portionSize: 1
+    published: true
+    volume: 4.0
+  Zakura Bazei Firework Crate:
+    cpumultiplier: 1.0
+    id: 57152
+    name: Zakura Bazei Firework Crate
+    portionSize: 1
+    published: true
   '[CNS] Kiirasha Final Broadcast Fragment':
     cpumultiplier: 1.0
     id: 44209

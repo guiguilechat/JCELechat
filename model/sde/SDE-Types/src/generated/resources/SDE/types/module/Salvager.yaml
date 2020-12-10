@@ -1,6 +1,6 @@
 types:
   Salvager I:
-    accessdifficultybonus: 5
+    accessdifficultybonus: 5.0
     capacitorneed: 20.0
     cpu: 20.0
     duration: 10000.0
@@ -21,7 +21,7 @@ types:
     typecolorscheme: 11346
     volume: 5.0
   Salvager II:
-    accessdifficultybonus: 7
+    accessdifficultybonus: 7.0
     capacitorneed: 20.0
     cpu: 25.0
     duration: 10000.0

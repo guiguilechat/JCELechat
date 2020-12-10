@@ -17820,6 +17820,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 9.999999747378752E-5
     entityflyrange: 500.0
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
@@ -17859,6 +17860,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 9.999999747378752E-5
     entityflyrange: 500.0
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0
@@ -17898,6 +17900,7 @@ types:
     entitychasemaxduration: 5000
     entitychasemaxdurationchance: 1.0
     entityequipmentgroupmax: 1
+    entityfactionloss: 9.999999747378752E-5
     entityflyrange: 500.0
     entityreactionfactor: 1.0
     explosivedamageresonance: 1.0

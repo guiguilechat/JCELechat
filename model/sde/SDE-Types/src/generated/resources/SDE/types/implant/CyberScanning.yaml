@@ -200,7 +200,7 @@ types:
     viruscoherencebonus: 5
     volume: 1.0
   Poteque 'Prospector' Salvaging SV-905:
-    accessdifficultybonus: 5
+    accessdifficultybonus: 5.0
     id: 27198
     implantness: 9
     marketGroup: 1773

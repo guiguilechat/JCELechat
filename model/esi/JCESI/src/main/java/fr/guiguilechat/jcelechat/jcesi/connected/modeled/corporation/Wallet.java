@@ -11,9 +11,9 @@ import java.util.stream.Stream;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.Corporation;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_journal;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
@@ -198,17 +198,17 @@ public class Wallet {
 		return cachedOrdersHistory;
 	}
 
-	public ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> getJournal(int division) {
+	public ObsListHolder<M_get_journal_13> getJournal(int division) {
 		return getAcc().raw.cache.corporations.wallets_journal(getId(), division);
 	}
 
-	private ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> cachedJournalList = null;
+	private ObsListHolder<M_get_journal_13> cachedJournalList = null;
 
-	public ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal> getJournalList() {
+	public ObsListHolder<M_get_journal_13> getJournalList() {
 		if (cachedJournalList == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedJournalList == null) {
-					ObsListHolder<ObsListHolder<R_get_corporations_corporation_id_wallets_division_journal>> allDivisionsJournals = corporation
+					ObsListHolder<ObsListHolder<M_get_journal_13>> allDivisionsJournals = corporation
 							.getDivisions().toList(div -> Stream.of(div.wallet).map(wallet -> getJournal(
 									wallet.division))
 									.collect(Collectors.toList()));
@@ -219,9 +219,9 @@ public class Wallet {
 		return cachedJournalList;
 	}
 
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal> cachedJournal = null;
+	private ObsMapHolder<Long, M_get_journal_13> cachedJournal = null;
 
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_journal> getJournal() {
+	public ObsMapHolder<Long, M_get_journal_13> getJournal() {
 		if (cachedJournal == null) {
 			var journalList = getJournalList();
 			LockWatchDog.BARKER.syncExecute(this, () -> {

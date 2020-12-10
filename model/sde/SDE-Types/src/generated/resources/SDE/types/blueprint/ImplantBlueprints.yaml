@@ -205,6 +205,54 @@ types:
     published: true
     techlevel: 1
     volume: 0.009999999776482582
+  High-grade Rapture Alpha Blueprint:
+    id: 57140
+    name: High-grade Rapture Alpha Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Rapture Beta Blueprint:
+    id: 57142
+    name: High-grade Rapture Beta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Rapture Delta Blueprint:
+    id: 57144
+    name: High-grade Rapture Delta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Rapture Epsilon Blueprint:
+    id: 57145
+    name: High-grade Rapture Epsilon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Rapture Gamma Blueprint:
+    id: 57143
+    name: High-grade Rapture Gamma Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  High-grade Rapture Omega Blueprint:
+    id: 57146
+    name: High-grade Rapture Omega Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
   High-grade Savior Alpha Blueprint:
     id: 53908
     name: High-grade Savior Alpha Blueprint
@@ -398,6 +446,54 @@ types:
   Low-grade Nirvana Omega Blueprint:
     id: 53864
     name: Low-grade Nirvana Omega Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Rapture Alpha Blueprint:
+    id: 57129
+    name: Low-grade Rapture Alpha Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Rapture Beta Blueprint:
+    id: 57130
+    name: Low-grade Rapture Beta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Rapture Delta Blueprint:
+    id: 57132
+    name: Low-grade Rapture Delta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Rapture Epsilon Blueprint:
+    id: 57133
+    name: Low-grade Rapture Epsilon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Rapture Gamma Blueprint:
+    id: 57131
+    name: Low-grade Rapture Gamma Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Low-grade Rapture Omega Blueprint:
+    id: 57147
+    name: Low-grade Rapture Omega Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -656,6 +752,54 @@ types:
   Mid-grade Nirvana Omega Blueprint:
     id: 53727
     name: Mid-grade Nirvana Omega Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Rapture Alpha Blueprint:
+    id: 57134
+    name: Mid-grade Rapture Alpha Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Rapture Beta Blueprint:
+    id: 57135
+    name: Mid-grade Rapture Beta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Rapture Delta Blueprint:
+    id: 57137
+    name: Mid-grade Rapture Delta Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Rapture Epsilon Blueprint:
+    id: 57138
+    name: Mid-grade Rapture Epsilon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Rapture Gamma Blueprint:
+    id: 57136
+    name: Mid-grade Rapture Gamma Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    techlevel: 1
+    volume: 0.009999999776482582
+  Mid-grade Rapture Omega Blueprint:
+    id: 57139
+    name: Mid-grade Rapture Omega Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
