@@ -50,11 +50,13 @@ public class OreAPI {
 		ls(Hedbergite.METAGROUP, Hemorphite.METAGROUP, Jaspet.METAGROUP, Kernite.METAGROUP, Omber.METAGROUP, Plagioclase.METAGROUP,
 				Pyroxeres.METAGROUP),
 		ns(Arkonor.METAGROUP, Bistot.METAGROUP, Kernite.METAGROUP, Mercoxit.METAGROUP,
-						Pyroxeres.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP), ws(Arkonor.METAGROUP, Bistot.METAGROUP,
-								Gneiss.METAGROUP, Kernite.METAGROUP, Omber.METAGROUP,
-								Pyroxeres.METAGROUP), @SuppressWarnings("unchecked")
+						Pyroxeres.METAGROUP, Spodumain.METAGROUP, Veldspar.METAGROUP),
+		ws(Arkonor.METAGROUP, Bistot.METAGROUP,	Gneiss.METAGROUP, Kernite.METAGROUP, Omber.METAGROUP,
+								Pyroxeres.METAGROUP),
+		@SuppressWarnings("unchecked")
 		ks(Stream.of(hs.groups, ls.groups, ns.groups).flatMap(Stream::of).distinct()
-				.toArray(IMetaGroup[]::new)), @SuppressWarnings("unchecked")
+				.toArray(IMetaGroup[]::new)),
+		@SuppressWarnings("unchecked")
 		all(Stream.of(hs.groups, ls.groups, ns.groups, ws.groups).flatMap(Stream::of).distinct()
 				.toArray(IMetaGroup[]::new));
 

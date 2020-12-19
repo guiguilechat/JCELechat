@@ -38,6 +38,10 @@ public class Corporation {
 		return cache;
 	}
 
+	public static Corporation of(String name) {
+		return load().get(name);
+	}
+
 	private static Map<Integer, Corporation> loadById = null;
 
 	public static Map<Integer, Corporation> loadById() {

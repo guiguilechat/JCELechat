@@ -104,8 +104,10 @@ public class Wallet {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedTransactionList == null) {
 					ObsListHolder<ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> allDivisionsTransactions = corporation
-							.getDivisions().toList(div -> Stream.of(div.wallet).map(wallet -> getTransactions(wallet.division))
-									.collect(Collectors.toList()));
+							.getDivisions()
+							.toList(div -> Stream.of(div.wallet)
+							.map(wallet -> getTransactions(wallet.division))
+							.collect(Collectors.toList()));
 					cachedTransactionList = allDivisionsTransactions.flatten(obs -> obs);
 				}
 			});
