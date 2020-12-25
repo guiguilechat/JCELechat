@@ -23,13 +23,24 @@ public class ESIAccount {
 
 	public final ESIConnected raw;
 
-	public ESIAccount(ESIConnected raw) {
+	/**
+	 * name given to the token. This may or may not be the name of the character,
+	 * for example if the token is no more valid.
+	 */
+	public final String name;
+
+	public ESIAccount(ESIConnected raw, String name) {
 		this.raw = raw;
 		verify = new Verify(raw);
+		this.name = name;
+	}
+
+	public ESIAccount(String refresh, String base, String name) {
+		this(new ESIConnected(refresh, base), name);
 	}
 
 	public ESIAccount(String refresh, String base) {
-		this(new ESIConnected(refresh, base));
+		this(refresh, base, null);
 	}
 
 	public ESIConnected getConnection() {
@@ -50,6 +61,10 @@ public class ESIAccount {
 
 	public String characterName() {
 		return verify.characterName();
+	}
+
+	public boolean isValid() {
+		return verify.check();
 	}
 
 	@Override

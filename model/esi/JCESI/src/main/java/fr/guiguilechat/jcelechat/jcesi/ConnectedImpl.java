@@ -160,7 +160,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	public <T> Requested<T> requestGet(String url, Map<String, String> properties, Class<T> expectedClass) {
 		Requested<T> ret = request(url, "GET", properties, null, expectedClass);
 		if (ret.getResponseCode() / 100 != 2 && ret.getResponseCode() != 304) {
-			logger.debug("url=" + url + " resp=" + ret.getResponseCode());
+			logger.debug("url=" + url + " resp=" + ret.getResponseCode() + " error=" + ret.getError());
 		}
 		return ret;
 	}
