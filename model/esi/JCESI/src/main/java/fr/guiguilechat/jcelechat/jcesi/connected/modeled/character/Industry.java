@@ -113,8 +113,7 @@ public class Industry {
 			ObsListHolder<R_get_characters_character_id_industry_jobs> inventJobs = getInventJobs();
 			synchronized (inventJobs) {
 				if (cacheInvent == null) {
-					cacheInvent = inventJobs.toMap(j -> j.product_type_id,
-							j -> (long) Math.floor(j.runs * j.licensed_runs * j.probability),
+					cacheInvent = inventJobs.toMap(j -> j.product_type_id, j -> (long) j.runs,
 							Long::sum);
 				}
 			}

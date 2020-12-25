@@ -99,7 +99,7 @@ public class Industry {
 			synchronized (inventJobs) {
 				if (cacheInvent == null) {
 					cacheInvent = inventJobs.toMap(j -> j.product_type_id,
-							j -> (long) Math.floor(j.runs * j.licensed_runs * j.probability), Long::sum);
+							j -> (long) j.runs, Long::sum);
 				}
 			}
 		}
