@@ -189,7 +189,7 @@ public class Assets {
 		return ret;
 	}
 
-	private ObsObjHolder<ItemForest> cacheForest = null;
+	private transient ObsObjHolder<ItemForest> cacheForest = null;
 
 	public ObsObjHolder<ItemForest> getForest() {
 		if (cacheForest == null) {
@@ -248,7 +248,7 @@ public class Assets {
 		}
 	}
 
-	private ObsMapHolder<Long, Map<Integer, Long>> availableAssets = null;
+	private transient ObsMapHolder<Long, Map<Integer, Long>> availableAssets = null;
 
 	/**
 	 * get the available map of assets locations to assets id to assets quantity.
