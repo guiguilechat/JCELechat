@@ -94,7 +94,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 						verify = NULLVERIFY;
 					} else {
 						Requested<R_Verify> req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
-						while (req.isServerError()) {
+						while (req.isServerError() || req.getResponseCode() == 401) {
 							logger.warn("got error " + req.getError());
 							req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
 						}

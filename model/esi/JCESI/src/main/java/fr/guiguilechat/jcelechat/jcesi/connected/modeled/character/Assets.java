@@ -62,40 +62,36 @@ public class Assets {
 	}
 
 	/**
-	 * an {@link R_get_characters_character_id_assets} that also knows its
+	 * an {@link R_get_corporations_corporation_id_assets} that also knows its
 	 * children
-	 *
-	 * @author
 	 *
 	 */
 	public static class ItemNode extends R_get_corporations_corporation_id_assets {
 		public Map<get_corporations_corporation_id_assets_location_flag, List<ItemNode>> contained = new HashMap<>();
 
-		public ItemNode() {
-		}
-
-		public ItemNode(R_get_characters_character_id_assets other) {
-			is_blueprint_copy = other.is_blueprint_copy;
-			is_singleton = other.is_singleton;
-			item_id = other.item_id;
-			location_flag = convert(other.location_flag);
-			location_id = other.location_id;
-			location_type = convert(other.location_type);
-			quantity = other.quantity;
-			type_id = other.type_id;
+		public ItemNode(boolean is_blueprint_copy, boolean is_singleton, long item_id,
+				get_corporations_corporation_id_assets_location_flag location_flag, long location_id,
+				get_corporations_corporation_id_assets_location_type location_type, int quantity, int type_id) {
+			this.is_blueprint_copy = is_blueprint_copy;
+			this.is_singleton = is_singleton;
+			this.item_id = item_id;
+			this.location_flag = location_flag;
+			this.location_id = location_id;
+			this.location_type = location_type;
+			this.quantity = quantity;
+			this.type_id = type_id;
+			// precache the type for when needed.
 			ESIAccess.INSTANCE.universe.cache.types(type_id);
 		}
 
-		public ItemNode(R_get_corporations_corporation_id_assets other) {
-			is_blueprint_copy = other.is_blueprint_copy;
-			is_singleton = other.is_singleton;
-			item_id = other.item_id;
-			location_flag = other.location_flag;
-			location_id = other.location_id;
-			location_type = other.location_type;
-			quantity = other.quantity;
-			type_id = other.type_id;
-			ESIAccess.INSTANCE.universe.cache.types(type_id);
+		public ItemNode(R_get_characters_character_id_assets source) {
+			this(source.is_blueprint_copy, source.is_singleton, source.item_id, convert(source.location_flag), source.location_id,
+					convert(source.location_type), source.quantity, source.type_id);
+		}
+
+		public ItemNode(R_get_corporations_corporation_id_assets source) {
+			this(source.is_blueprint_copy, source.is_singleton, source.item_id, source.location_flag, source.location_id,
+					source.location_type, source.quantity, source.type_id);
 		}
 
 		private transient R_get_universe_types_type_id type = null;
@@ -106,7 +102,6 @@ public class Assets {
 			}
 			return type;
 		}
-
 
 		private transient String name = null;
 
@@ -122,7 +117,7 @@ public class Assets {
 		public double priceAverage() {
 			if (priceAverage == null) {
 				if (is_blueprint_copy) {
-					priceAverage=0.0;
+					priceAverage = 0.0;
 				} else {
 					priceAverage = quantity * ESIAccess.INSTANCE.markets.getAverage(type_id);
 				}
@@ -186,7 +181,7 @@ public class Assets {
 			if (parent == null) {
 				Location location = Location.resolve(con, itemNode.location_id);
 				ret.roots.computeIfAbsent(location, loc -> new HashMap<>())
-						.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
+				.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
 			} else {
 				parent.contained.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
 			}

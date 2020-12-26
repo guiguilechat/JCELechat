@@ -350,12 +350,17 @@ public class SDECompiler {
 			name_m.body()._if(name_f.eqNull())._then().assign(name_f, JExpr.invoke(type_m).ref("name"));
 			name_m.body()._return(name_f);
 
+			// makeString method
+			JMethod makestring_m = clazz.method(JMod.PROTECTED, strRef, "makeString");
+			makestring_m.body()._return(JExpr.invoke(name_m).plus(JExpr.lit("(")).plus(id_f).plus(JExpr.lit(")")));
+			makestring_m.javadoc().addReturn().add("the return value of the {@link #toString} method");
+
 			// tostring method
-			JFieldVar tostring_f = clazz.field(JMod.PROTECTED | JMod.TRANSIENT, strRef, "toString");
+			JFieldVar tostring_f = clazz.field(JMod.PUBLIC | JMod.TRANSIENT, strRef, "toString");
 			JMethod tostring_m = clazz.method(JMod.PUBLIC, strRef, "toString");
 			tostring_m.annotate(Override.class);
 			tostring_m.body()._if(tostring_f.eqNull())._then().assign(tostring_f,
-					JExpr.invoke(name_m).plus(JExpr.lit("(")).plus(id_f).plus(JExpr.lit(")")));
+					JExpr.invoke(makestring_m));
 			tostring_m.body()._return(tostring_f);
 
 		} catch (JClassAlreadyExistsException e1) {

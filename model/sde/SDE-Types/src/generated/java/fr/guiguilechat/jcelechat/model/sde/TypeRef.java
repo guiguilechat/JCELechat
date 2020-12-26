@@ -6,7 +6,7 @@ public class TypeRef<T extends EveType> {
     private transient String category;
     private transient String group;
     private transient String name;
-    protected transient String toString;
+    public transient String toString;
 
     @SuppressWarnings("unchecked")
     public T type() {
@@ -37,10 +37,18 @@ public class TypeRef<T extends EveType> {
         return name;
     }
 
+    /**
+     * @return
+     *     the return value of the {@link #toString} method
+     */
+    protected String makeString() {
+        return (((name()+"(")+ id)+")");
+    }
+
     @Override
     public String toString() {
         if (toString == null) {
-            toString = (((name()+"(")+ id)+")");
+            toString = makeString();
         }
         return toString;
     }

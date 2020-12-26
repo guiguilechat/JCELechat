@@ -4154,6 +4154,69 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Serenity Festival Copper Crate:
+    exporttaxmultiplier: 1
+    id: 57279
+    importtaxmultiplier: 1
+    name: Serenity Festival Copper Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Festival Gold Crate:
+    exporttaxmultiplier: 1
+    id: 57281
+    importtaxmultiplier: 1
+    name: Serenity Festival Gold Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Festival Silver Crate:
+    exporttaxmultiplier: 1
+    id: 57280
+    importtaxmultiplier: 1
+    name: Serenity Festival Silver Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Rookie DLI Day 1 Crate:
+    exporttaxmultiplier: 1
+    id: 57213
+    importtaxmultiplier: 1
+    name: Serenity Rookie DLI Day 1 Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Rookie DLI Day 2 Crate:
+    exporttaxmultiplier: 1
+    id: 57223
+    importtaxmultiplier: 1
+    name: Serenity Rookie DLI Day 2 Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Rookie DLI Day 3 Crate:
+    exporttaxmultiplier: 1
+    id: 57222
+    importtaxmultiplier: 1
+    name: Serenity Rookie DLI Day 3 Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Rookie DLI Day 4 Crate:
+    exporttaxmultiplier: 1
+    id: 57224
+    importtaxmultiplier: 1
+    name: Serenity Rookie DLI Day 4 Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Shiez Kuzaks Ship Database:
     exporttaxmultiplier: 1
     id: 11603
@@ -4716,6 +4779,15 @@ types:
     id: 34382
     importtaxmultiplier: 1
     name: Y-Axis Calibration Coordinate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123 New Year Event Medal:
+    exporttaxmultiplier: 1
+    id: 57278
+    importtaxmultiplier: 1
+    name: YC123 New Year Event Medal
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

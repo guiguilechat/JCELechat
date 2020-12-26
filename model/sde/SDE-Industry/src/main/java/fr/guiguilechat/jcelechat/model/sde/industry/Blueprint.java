@@ -82,11 +82,8 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		public int quantity;
 
 		@Override
-		public String toString() {
-			if (toString == null) {
-				toString = name() + (quantity != 1 ? " ×" + quantity : "") + " (id=" + id + ")";
-			}
-			return toString;
+		protected String makeString() {
+			return name() + (quantity != 1 ? " ×" + quantity : "") + " (id=" + id + ")";
 		}
 	}
 
@@ -94,11 +91,10 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		public float probability = 1.0f;
 
 		@Override
-		public String toString() {
-			if (toString == null) {
-				toString = name() + (quantity != 1 ? " ×" + quantity : "") + " (id=" + id + ")(p=" + probability + ")";
-			}
-			return toString;
+		protected String makeString() {
+			return name() + (quantity != 1 ? " ×" + quantity : "") + " (id=" + id + ")" + (probability < 1.0f
+					? "(p=" + probability + ")"
+							: "");
 		}
 
 	}
@@ -301,7 +297,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	}
 
 	@Override
-	public String toString() {
+	protected String makeString() {
 		return name() + "(" + id + ") copy=" + copying + " manuf=" + manufacturing + " invent=" + invention + " ME="
 				+ research_material + " TE=" + research_time + " reaction=" + reaction;
 	}

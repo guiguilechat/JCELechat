@@ -37912,6 +37912,72 @@ id2name:
   57181: Atron Zakura Hansei SKIN
   57182: Breacher Zakura Hansei SKIN
   57183: Executioner Zakura Hansei SKIN
+  57201: Serenity Monthly Cerebral Accelerator - 2021.1
+  57202: Proving Heat Damage Bonus (Do not translate)
+  57209: Serenity YC123.1 Season Standard Cerebral Accelerator
+  57210: Serenity YC123.1 Season Advanced Cerebral Accelerator
+  57211: Serenity YC123.1 Season Pass
+  57212: Serenity Rookie DLI Cerebral Accelerator
+  57213: Serenity Rookie DLI Day 1 Crate
+  57214: Medium Crystal Environment 1 Winter
+  57215: Medium Crystal Environment 2 Winter
+  57216: Medium Crystal Environment 3 Winter
+  57217: Medium Crystal Environment 4 Winter
+  57218: Medium Crystal Environment 5 Winter
+  57219: Large Crystal Environment 1 Winter
+  57220: Large Crystal Environment 2 Winter
+  57221: Large Crystal Environment 3 Winter
+  57222: Serenity Rookie DLI Day 3 Crate
+  57223: Serenity Rookie DLI Day 2 Crate
+  57224: Serenity Rookie DLI Day 4 Crate
+  57225: '[no messageID: 573607]'
+  57226: Festival-only 'Rock' HH6 Dose
+  57227: Festival-only 'Rock' AH6 Dose
+  57228: Festival-only 'Rock' SH6 Dose
+  57229: Festival-only 'Longbow' MD6 Dose
+  57230: Festival-only 'Longbow' HD6 Dose
+  57231: Festival-only 'Longbow' PD6 Dose
+  57232: Festival-only 'Longbow' ED6 Dose
+  57242: Festival-only Outpost Cerebral Accelerator I
+  57243: Festival-only Outpost Cerebral Accelerator III
+  57244: Festival-only Outpost Cerebral Accelerator VII
+  57245: Festival-only Vanguard Cerebral Accelerator I
+  57246: Festival-only Vanguard Cerebral Accelerator III
+  57247: Festival-only Vanguard Cerebral Accelerator VII
+  57248: Festival-only Commander Cerebral Accelerator I
+  57249: Festival-only Commander Cerebral Accelerator III
+  57250: Festival-only Commander Cerebral Accelerator VII
+  57251: Festival-only Marshal Cerebral Accelerator I
+  57252: Festival-only Marshal Cerebral Accelerator III
+  57253: Festival-only Marshal Cerebral Accelerator VII
+  57254: Festival-only 'Longbow' ED2 Dose
+  57255: Festival-only 'Longbow' PD2 Dose
+  57256: Festival-only 'Longbow' HD2 Dose
+  57257: Festival-only 'Longbow' RD2 Dose
+  57258: Festival-only 'Longbow' MD2 Dose
+  57259: Festival-only 'Rock' HH2 Dose
+  57260: '[no messageID: 573673]'
+  57261: '[no messageID: 573675]'
+  57262: '[no messageID: 573677]'
+  57263: '[no messageID: 573679]'
+  57264: '[no messageID: 573681]'
+  57265: Festival-only 'Longbow' CM3 Dose
+  57266: Festival-only 'Longbow' TP3 Dose
+  57267: Festival-only 'Rock' HH3 Dose
+  57268: Festival-only 'Rock' SH3 Dose
+  57269: Festival-only 'Rock' AH3 Dose
+  57270: Festival-only 'Longbow' ED4 Dose
+  57271: Festival-only 'Longbow' PD4 Dose
+  57272: Festival-only 'Longbow' HD4 Dose
+  57273: Festival-only 'Longbow' HM4 Dose
+  57274: Festival-only 'Longbow' HAM4 Dose
+  57275: Festival-only 'Rock' HH4 Dose
+  57276: Festival-only 'Rock' SH4 Dose
+  57277: Festival-only 'Rock' AH4 Dose
+  57278: YC123 New Year Event Medal
+  57279: Serenity Festival Copper Crate
+  57280: Serenity Festival Silver Crate
+  57281: Serenity Festival Gold Crate
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -50686,9 +50752,47 @@ name2group:
   Festival Skill Points, Calm Electrical Filament and Snowballs Crate: specialeditionassets/SpecialEditionCommodities
   Festival Snowballs Crate: specialeditionassets/SpecialEditionCommodities
   Festival Tier 1 Filament Crate: specialeditionassets/SpecialEditionCommodities
+  Festival-only 'Longbow' CM3 Dose: implant/Booster
+  Festival-only 'Longbow' ED2 Dose: implant/Booster
+  Festival-only 'Longbow' ED4 Dose: implant/Booster
+  Festival-only 'Longbow' ED6 Dose: implant/Booster
+  Festival-only 'Longbow' HAM4 Dose: implant/Booster
+  Festival-only 'Longbow' HD2 Dose: implant/Booster
+  Festival-only 'Longbow' HD4 Dose: implant/Booster
+  Festival-only 'Longbow' HD6 Dose: implant/Booster
+  Festival-only 'Longbow' HM4 Dose: implant/Booster
+  Festival-only 'Longbow' MD2 Dose: implant/Booster
+  Festival-only 'Longbow' MD6 Dose: implant/Booster
+  Festival-only 'Longbow' PD2 Dose: implant/Booster
+  Festival-only 'Longbow' PD4 Dose: implant/Booster
+  Festival-only 'Longbow' PD6 Dose: implant/Booster
+  Festival-only 'Longbow' RD2 Dose: implant/Booster
+  Festival-only 'Longbow' TP3 Dose: implant/Booster
+  Festival-only 'Rock' AH3 Dose: implant/Booster
+  Festival-only 'Rock' AH4 Dose: implant/Booster
+  Festival-only 'Rock' AH6 Dose: implant/Booster
+  Festival-only 'Rock' HH2 Dose: implant/Booster
+  Festival-only 'Rock' HH3 Dose: implant/Booster
+  Festival-only 'Rock' HH4 Dose: implant/Booster
+  Festival-only 'Rock' HH6 Dose: implant/Booster
+  Festival-only 'Rock' SH3 Dose: implant/Booster
+  Festival-only 'Rock' SH4 Dose: implant/Booster
+  Festival-only 'Rock' SH6 Dose: implant/Booster
+  Festival-only Commander Cerebral Accelerator I: implant/Booster
+  Festival-only Commander Cerebral Accelerator III: implant/Booster
+  Festival-only Commander Cerebral Accelerator VII: implant/Booster
+  Festival-only Marshal Cerebral Accelerator I: implant/Booster
+  Festival-only Marshal Cerebral Accelerator III: implant/Booster
+  Festival-only Marshal Cerebral Accelerator VII: implant/Booster
   Festival-only New Eden Commander Pack: implant/Booster
   Festival-only New Eden Marshal Pack: implant/Booster
   Festival-only New Eden Vanguard Pack: implant/Booster
+  Festival-only Outpost Cerebral Accelerator I: implant/Booster
+  Festival-only Outpost Cerebral Accelerator III: implant/Booster
+  Festival-only Outpost Cerebral Accelerator VII: implant/Booster
+  Festival-only Vanguard Cerebral Accelerator I: implant/Booster
+  Festival-only Vanguard Cerebral Accelerator III: implant/Booster
+  Festival-only Vanguard Cerebral Accelerator VII: implant/Booster
   Festive Firecrackers: specialeditionassets/SpecialEditionCommodities
   Fieldweaver Tessella: entity/AbyssalDroneEntities
   Fiend: ship/HeavyInterdictionCruiser
@@ -62389,6 +62493,9 @@ name2group:
   Serenity December Season Advanced Cerebral Accelerator: implant/Booster
   Serenity December Season Pass: implant/Booster
   Serenity December Season Standard Cerebral Accelerator: implant/Booster
+  Serenity Festival Copper Crate: commodity/Miscellaneous
+  Serenity Festival Gold Crate: commodity/Miscellaneous
+  Serenity Festival Silver Crate: commodity/Miscellaneous
   Serenity Monthly Cerebral Accelerator - 2020.10: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.11: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.12: implant/Booster
@@ -62396,12 +62503,17 @@ name2group:
   Serenity Monthly Cerebral Accelerator - 2020.7: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.8: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.9: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2021.1: implant/Booster
   Serenity November Season Advanced Cerebral Accelerator: implant/Booster
   Serenity November Season Pass: implant/Booster
   Serenity November Season Standard Cerebral Accelerator: implant/Booster
   Serenity October Season Advanced Cerebral Accelerator: implant/Booster
   Serenity October Season Pass: implant/Booster
   Serenity October Season Standard Cerebral Accelerator: implant/Booster
+  Serenity Rookie DLI Day 1 Crate: commodity/Miscellaneous
+  Serenity Rookie DLI Day 2 Crate: commodity/Miscellaneous
+  Serenity Rookie DLI Day 3 Crate: commodity/Miscellaneous
+  Serenity Rookie DLI Day 4 Crate: commodity/Miscellaneous
   Serenity September Season Advanced Cerebral Accelerator: implant/Booster
   Serenity September Season Pass: implant/Booster
   Serenity September Season Standard Cerebral Accelerator: implant/Booster
@@ -62414,6 +62526,9 @@ name2group:
   Serenity YC122.9 Season Booster - Probe Scanning Strength: implant/Booster
   Serenity YC122.9 Season Booster - Signature Radius: implant/Booster
   Serenity YC122.9 Season Booster - Warp Speed: implant/Booster
+  Serenity YC123.1 Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity YC123.1 Season Pass: implant/Booster
+  Serenity YC123.1 Season Standard Cerebral Accelerator: implant/Booster
   Serpentis 3D Scanner Gamut: commodity/ArtifactsAndPrototypes
   Serpentis Administration Facility: entity/DeadspaceOverseerSSentry
   Serpentis Admiral: entity/AsteroidSerpentisBattleship
@@ -68239,6 +68354,7 @@ name2group:
   YC118 Succession Trial Champion's Decree - House Sarum: specialeditionassets/SpecialEditionCommodities
   YC118 Succession Trial Champion's Decree - House Tash-Murkon: specialeditionassets/SpecialEditionCommodities
   YC121 Guardian's Gala Ticket: specialeditionassets/SpecialEditionCommodities
+  YC123 New Year Event Medal: commodity/Miscellaneous
   YO-5000 Rapid Heavy Missile Launcher: module/MissileLauncherRapidHeavy
   Yaekun Ogdin: entity/MissionGenericBattleships
   Yamia Mida's Remains: commodity/Commodities
@@ -68608,6 +68724,11 @@ name2group:
   '[TEST] Shield Gen 1': infantry/InfantryEquipment
   '[TEST] Shield Gen 2': infantry/InfantryEquipment
   '[TEST] Swarm Launcher': infantry/InfantryWeapons
+  '[no messageID: 573673]': implant/Booster
+  '[no messageID: 573675]': implant/Booster
+  '[no messageID: 573677]': implant/Booster
+  '[no messageID: 573679]': implant/Booster
+  '[no messageID: 573681]': implant/Booster
   asurface1_f_01:amarrbase:amarr: system/System
   asurface_c_01:amarrbase:amarr: system/System
   chantal testing thingy: entity/DeadspaceOverseerFrigate
