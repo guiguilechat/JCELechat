@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected;
+package fr.guiguilechat.jcelechat.programs.showattributes;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;

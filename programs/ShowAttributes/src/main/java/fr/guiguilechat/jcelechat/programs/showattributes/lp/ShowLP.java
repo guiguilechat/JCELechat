@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected.lp;
+package fr.guiguilechat.jcelechat.programs.showattributes.lp;
 
 import java.util.ArrayList;
 import java.util.Collection;

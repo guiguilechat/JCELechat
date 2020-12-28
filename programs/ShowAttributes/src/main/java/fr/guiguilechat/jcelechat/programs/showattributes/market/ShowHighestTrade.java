@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected.market;
+package fr.guiguilechat.jcelechat.programs.showattributes.market;
 
 import java.util.List;
 import java.util.stream.Collectors;

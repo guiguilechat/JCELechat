@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected;
+package fr.guiguilechat.jcelechat.programs.showattributes;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;

@@ -1,32 +1,36 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected.typeData;
+package fr.guiguilechat.jcelechat.programs.showattributes.typeData;
 
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.TypeData;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
+import fr.guiguilechat.jcelechat.programs.showattributes.TypeData;
 
-public class Name implements TypeData {
+public class OrbitRange implements TypeData {
 
-	public static Name INS = new Name();
+	public static OrbitRange INS = new OrbitRange();
 
-	protected Name() {
-	}
-
-	@Override
-	public String unit() {
-		return "";
+	protected OrbitRange() {
 	}
 
 	@Override
 	public String apply(R_get_universe_types_type_id type, Map<Integer, Double> attIdToValue,
 			Map<Integer, get_dogma_dynamic_items_type_id_item_id_dogma_effects> effectId2effect) {
-		return type.name;
+		var range = orbitRange(attIdToValue);
+		if (range == 0) {
+			range = turretOptiRange(attIdToValue);
+		}
+		return format(range);
 	}
 
 	@Override
 	public String name() {
-		return "name";
+		return "orbit Range";
+	}
+
+	@Override
+	public String unit() {
+		return "m";
 	}
 
 }

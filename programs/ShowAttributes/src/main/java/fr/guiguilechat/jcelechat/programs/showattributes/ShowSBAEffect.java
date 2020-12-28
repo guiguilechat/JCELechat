@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected;
+package fr.guiguilechat.jcelechat.programs.showattributes;
 
 import fr.guiguilechat.jcelechat.model.sde.types.module.ShieldBoostAmplifier;
 

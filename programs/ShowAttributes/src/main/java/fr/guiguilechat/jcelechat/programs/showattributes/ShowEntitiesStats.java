@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected;
+package fr.guiguilechat.jcelechat.programs.showattributes;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,20 +8,21 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.EHP;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Id;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.MissileDPS;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Name;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Neutralizer;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.OrbitRange;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.Point;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TrackingEvasion;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TurretDPS;
-import fr.guiguilechat.jcelechat.jcesi.disconnected.typeData.TurretMaxDPS;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.EHP;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.Id;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.MissileDPS;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.Name;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.Neutralizer;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.OrbitRange;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.Point;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.TrackingEvasion;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.TurretDPS;
+import fr.guiguilechat.jcelechat.programs.showattributes.typeData.TurretMaxDPS;
 
 public class ShowEntitiesStats {
 

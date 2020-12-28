@@ -76,7 +76,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 	// structure
 
 	/**
-	 * used in the blueprints as requirement, or products
+	 * used in the blueprints as requirement
 	 */
 	public static class MaterialReq<T extends EveType> extends TypeRef<T> {
 		public int quantity;

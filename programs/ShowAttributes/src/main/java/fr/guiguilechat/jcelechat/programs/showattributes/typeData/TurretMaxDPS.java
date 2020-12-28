@@ -1,10 +1,10 @@
-package fr.guiguilechat.jcelechat.jcesi.disconnected.typeData;
+package fr.guiguilechat.jcelechat.programs.showattributes.typeData;
 
 import java.util.Map;
 
-import fr.guiguilechat.jcelechat.jcesi.disconnected.TypeData;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
+import fr.guiguilechat.jcelechat.programs.showattributes.TypeData;
 
 public abstract class TurretMaxDPS implements TypeData {
 
