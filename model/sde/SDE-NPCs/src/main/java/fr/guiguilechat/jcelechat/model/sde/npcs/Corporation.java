@@ -42,6 +42,10 @@ public class Corporation {
 		return load().get(name);
 	}
 
+	public static Corporation of(int id) {
+		return loadById().get(id);
+	}
+
 	private static Map<Integer, Corporation> loadById = null;
 
 	public static Map<Integer, Corporation> loadById() {

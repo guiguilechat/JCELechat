@@ -34,6 +34,10 @@ public class LPOffer {
 		return cache;
 	}
 
+	public static LPOffer of(int id) {
+		return load().get(id);
+	}
+
 	public static void export(LinkedHashMap<Integer, LPOffer> data, File folderout) {
 		File output = new File(folderout, RESOURCE_PATH);
 		output.mkdirs();
@@ -69,6 +73,12 @@ public class LPOffer {
 
 	public String name;
 	public int id;
+	public int bpid = 0;
+	public int bpruns = 0;
+
+	public boolean isBP() {
+		return bpid != 0;
+	}
 
 	@Override
 	public String toString() {

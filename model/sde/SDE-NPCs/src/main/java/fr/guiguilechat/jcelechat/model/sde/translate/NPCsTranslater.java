@@ -199,6 +199,8 @@ public class NPCsTranslater {
 		Eblueprints bp = bps.get(o.type_id);
 
 		if (bp != null) {// the lp offers a BPC
+			lpo.bpid = bp.blueprintTypeID;
+			lpo.bpruns = o.quantity;
 			for (Material m : bp.activities.manufacturing.materials) {
 				ItemRef translated = new ItemRef();
 				translated.quantity = m.quantity * o.quantity;
