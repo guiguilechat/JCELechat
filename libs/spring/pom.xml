@@ -14,6 +14,7 @@
 	<modules>
 		<module>EveSpringMarket</module>
 		<module>EveSpringVolumicOre</module>
+		<module>EveSpringTypeAttributes</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>

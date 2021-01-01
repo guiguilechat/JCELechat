@@ -8,8 +8,8 @@
 		<version>6.0.7</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs.spring</groupId>
-	<artifactId>EveSpringVolumicOre</artifactId>
-	<name>EveSpringVolumicOre</name>
+	<artifactId>EveSpringTypeAttributes</artifactId>
+	<name>EveSpringTypeAttributes</name>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -38,18 +38,6 @@
 		<dependency>
 			<groupId>fr.guiguilechat.jcelechat.model.esi</groupId>
 			<artifactId>JCESI</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>SDE-Types</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>SDE-Industry</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>fr.guiguilechat.jcelechat.model.sde</groupId>
-			<artifactId>SDE-Locations</artifactId>
 		</dependency>
 	</dependencies>
 	<packaging>war</packaging>
