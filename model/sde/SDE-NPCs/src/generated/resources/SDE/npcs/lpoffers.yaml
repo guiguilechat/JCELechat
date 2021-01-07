@@ -10625,6 +10625,8 @@ offers:
       isk: 79375000
       lp: 79375
   4290:
+    bpid: 17704
+    bpruns: 1
     id: 4290
     name: Imperial Navy Slicer(BPC)
     product:
@@ -10649,6 +10651,8 @@ offers:
         quantity: 4
       lp: 30000
   4291:
+    bpid: 17704
+    bpruns: 1
     id: 4291
     name: Imperial Navy Slicer(BPC)
     product:
@@ -10682,6 +10686,8 @@ offers:
         quantity: 4
       lp: 50000
   4292:
+    bpid: 17710
+    bpruns: 1
     id: 4292
     name: Omen Navy Issue(BPC)
     product:
@@ -10706,6 +10712,8 @@ offers:
         quantity: 278
       lp: 100000
   4293:
+    bpid: 17710
+    bpruns: 1
     id: 4293
     name: Omen Navy Issue(BPC)
     product:
@@ -10739,6 +10747,8 @@ offers:
         quantity: 278
       lp: 150000
   4294:
+    bpid: 17727
+    bpruns: 1
     id: 4294
     name: Apocalypse Navy Issue(BPC)
     product:
@@ -10763,6 +10773,8 @@ offers:
         quantity: 5446
       lp: 500000
   4295:
+    bpid: 17727
+    bpruns: 1
     id: 4295
     name: Apocalypse Navy Issue(BPC)
     product:
@@ -10796,6 +10808,8 @@ offers:
         quantity: 5446
       lp: 500000
   4296:
+    bpid: 15805
+    bpruns: 5
     id: 4296
     name: 5* Imperial Navy Heavy Energy Neutralizer(BPC)
     product:
@@ -10824,6 +10838,8 @@ offers:
         quantity: 240
       lp: 120000
   4297:
+    bpid: 15886
+    bpruns: 5
     id: 4297
     name: 5* Imperial Navy Heavy Energy Nosferatu(BPC)
     product:
@@ -10850,6 +10866,8 @@ offers:
         quantity: 16380
       lp: 150000
   4298:
+    bpid: 15964
+    bpruns: 5
     id: 4298
     name: 5* Imperial Navy Large EMP Smartbomb(BPC)
     product:
@@ -10870,6 +10888,8 @@ offers:
         quantity: 166715
       lp: 168750
   4299:
+    bpid: 15962
+    bpruns: 5
     id: 4299
     name: 5* Imperial Navy Medium EMP Smartbomb(BPC)
     product:
@@ -10890,6 +10910,8 @@ offers:
         quantity: 335
       lp: 135000
   4300:
+    bpid: 15803
+    bpruns: 5
     id: 4300
     name: 5* Imperial Navy Medium Energy Neutralizer(BPC)
     product:
@@ -10916,6 +10938,8 @@ offers:
         quantity: 30
       lp: 96000
   4301:
+    bpid: 15884
+    bpruns: 5
     id: 4301
     name: 5* Imperial Navy Medium Energy Nosferatu(BPC)
     product:
@@ -10940,6 +10964,8 @@ offers:
         quantity: 2960
       lp: 120000
   4303:
+    bpid: 15958
+    bpruns: 5
     id: 4303
     name: 5* Imperial Navy Small EMP Smartbomb(BPC)
     product:
@@ -10964,6 +10990,8 @@ offers:
         quantity: 15
       lp: 101250
   4304:
+    bpid: 15801
+    bpruns: 5
     id: 4304
     name: 5* Imperial Navy Small Energy Neutralizer(BPC)
     product:
@@ -10992,6 +11020,8 @@ offers:
         quantity: 10
       lp: 72000
   4305:
+    bpid: 15882
+    bpruns: 5
     id: 4305
     name: 5* Imperial Navy Small Energy Nosferatu(BPC)
     product:
@@ -11074,6 +11104,8 @@ offers:
     requirements:
       lp: 3000
   4313:
+    bpid: 17620
+    bpruns: 1
     id: 4313
     name: Caldari Navy Hookbill(BPC)
     product:
@@ -11098,6 +11130,8 @@ offers:
         quantity: 4
       lp: 30000
   4314:
+    bpid: 17620
+    bpruns: 1
     id: 4314
     name: Caldari Navy Hookbill(BPC)
     product:
@@ -11131,6 +11165,8 @@ offers:
         quantity: 4
       lp: 50000
   4315:
+    bpid: 17635
+    bpruns: 1
     id: 4315
     name: Caracal Navy Issue(BPC)
     product:
@@ -11155,6 +11191,8 @@ offers:
         quantity: 356
       lp: 100000
   4316:
+    bpid: 17635
+    bpruns: 1
     id: 4316
     name: Caracal Navy Issue(BPC)
     product:
@@ -11188,6 +11226,8 @@ offers:
         quantity: 356
       lp: 150000
   4317:
+    bpid: 17637
+    bpruns: 1
     id: 4317
     name: Raven Navy Issue(BPC)
     product:
@@ -11212,6 +11252,8 @@ offers:
         quantity: 6288
       lp: 500000
   4318:
+    bpid: 17637
+    bpruns: 1
     id: 4318
     name: Raven Navy Issue(BPC)
     product:
@@ -11245,6 +11287,8 @@ offers:
         quantity: 6288
       lp: 500000
   4319:
+    bpid: 15822
+    bpruns: 5
     id: 4319
     name: 5* Caldari Navy 200mm Railgun(BPC)
     product:
@@ -11271,6 +11315,8 @@ offers:
         quantity: 90
       lp: 72000
   4320:
+    bpid: 15819
+    bpruns: 5
     id: 4320
     name: 5* Caldari Navy 350mm Railgun(BPC)
     product:
@@ -11301,6 +11347,8 @@ offers:
         quantity: 90
       lp: 90000
   4321:
+    bpid: 15791
+    bpruns: 5
     id: 4321
     name: 5* Caldari Navy Cloaking Device(BPC)
     product:
@@ -11331,6 +11379,8 @@ offers:
         quantity: 170
       lp: 36000
   4322:
+    bpid: 16063
+    bpruns: 5
     id: 4322
     name: 5* Caldari Navy Cruise Missile Launcher(BPC)
     product:
@@ -11357,6 +11407,8 @@ offers:
         quantity: 20
       lp: 90000
   4323:
+    bpid: 15932
+    bpruns: 5
     id: 4323
     name: 5* Caldari Navy Large Graviton Smartbomb(BPC)
     product:
@@ -11377,6 +11429,8 @@ offers:
         quantity: 166715
       lp: 168750
   4324:
+    bpid: 15930
+    bpruns: 5
     id: 4324
     name: 5* Caldari Navy Medium Graviton Smartbomb(BPC)
     product:
@@ -11397,6 +11451,8 @@ offers:
         quantity: 335
       lp: 135000
   4326:
+    bpid: 16066
+    bpruns: 5
     id: 4326
     name: 5* Caldari Navy Rocket Launcher(BPC)
     product:
@@ -11417,6 +11473,8 @@ offers:
         quantity: 1390
       lp: 54000
   4327:
+    bpid: 15926
+    bpruns: 5
     id: 4327
     name: 5* Caldari Navy Small Graviton Smartbomb(BPC)
     product:
@@ -11497,6 +11555,8 @@ offers:
     requirements:
       lp: 3000
   4335:
+    bpid: 17842
+    bpruns: 1
     id: 4335
     name: Federation Navy Comet(BPC)
     product:
@@ -11521,6 +11581,8 @@ offers:
         quantity: 4
       lp: 30000
   4336:
+    bpid: 17842
+    bpruns: 1
     id: 4336
     name: Federation Navy Comet(BPC)
     product:
@@ -11554,6 +11616,8 @@ offers:
         quantity: 4
       lp: 50000
   4337:
+    bpid: 17844
+    bpruns: 1
     id: 4337
     name: Vexor Navy Issue(BPC)
     product:
@@ -11578,6 +11642,8 @@ offers:
         quantity: 288
       lp: 100000
   4338:
+    bpid: 17844
+    bpruns: 1
     id: 4338
     name: Vexor Navy Issue(BPC)
     product:
@@ -11611,6 +11677,8 @@ offers:
         quantity: 288
       lp: 150000
   4339:
+    bpid: 17729
+    bpruns: 1
     id: 4339
     name: Megathron Navy Issue(BPC)
     product:
@@ -11635,6 +11703,8 @@ offers:
         quantity: 6202
       lp: 500000
   4340:
+    bpid: 17729
+    bpruns: 1
     id: 4340
     name: Megathron Navy Issue(BPC)
     product:
@@ -11666,6 +11736,8 @@ offers:
         quantity: 6202
       lp: 500000
   4341:
+    bpid: 15842
+    bpruns: 5
     id: 4341
     name: 5* Federation Navy 200mm Railgun(BPC)
     product:
@@ -11692,6 +11764,8 @@ offers:
         quantity: 90
       lp: 72000
   4342:
+    bpid: 15839
+    bpruns: 5
     id: 4342
     name: 5* Federation Navy 350mm Railgun(BPC)
     product:
@@ -11722,6 +11796,8 @@ offers:
         quantity: 90
       lp: 90000
   4343:
+    bpid: 15956
+    bpruns: 5
     id: 4343
     name: 5* Federation Navy Large Plasma Smartbomb(BPC)
     product:
@@ -11742,6 +11818,8 @@ offers:
         quantity: 166715
       lp: 168750
   4344:
+    bpid: 15954
+    bpruns: 5
     id: 4344
     name: 5* Federation Navy Medium Plasma Smartbomb(BPC)
     product:
@@ -11762,6 +11840,8 @@ offers:
         quantity: 335
       lp: 135000
   4345:
+    bpid: 15950
+    bpruns: 5
     id: 4345
     name: 5* Federation Navy Small Plasma Smartbomb(BPC)
     product:
@@ -11842,6 +11922,8 @@ offers:
     requirements:
       lp: 3000
   4353:
+    bpid: 17813
+    bpruns: 1
     id: 4353
     name: Republic Fleet Firetail(BPC)
     product:
@@ -11866,6 +11948,8 @@ offers:
         quantity: 4
       lp: 30000
   4354:
+    bpid: 17813
+    bpruns: 1
     id: 4354
     name: Republic Fleet Firetail(BPC)
     product:
@@ -11899,6 +11983,8 @@ offers:
         quantity: 4
       lp: 50000
   4355:
+    bpid: 17714
+    bpruns: 1
     id: 4355
     name: Stabber Fleet Issue(BPC)
     product:
@@ -11923,6 +12009,8 @@ offers:
         quantity: 356
       lp: 100000
   4356:
+    bpid: 17714
+    bpruns: 1
     id: 4356
     name: Stabber Fleet Issue(BPC)
     product:
@@ -11956,6 +12044,8 @@ offers:
         quantity: 356
       lp: 150000
   4357:
+    bpid: 17733
+    bpruns: 1
     id: 4357
     name: Tempest Fleet Issue(BPC)
     product:
@@ -11980,6 +12070,8 @@ offers:
         quantity: 6126
       lp: 500000
   4358:
+    bpid: 17733
+    bpruns: 1
     id: 4358
     name: Tempest Fleet Issue(BPC)
     product:
@@ -12011,6 +12103,8 @@ offers:
         quantity: 6126
       lp: 500000
   4359:
+    bpid: 17486
+    bpruns: 5
     id: 4359
     name: 5* Republic Fleet Cruise Missile Launcher(BPC)
     product:
@@ -12037,6 +12131,8 @@ offers:
         quantity: 20
       lp: 78750
   4360:
+    bpid: 15940
+    bpruns: 5
     id: 4360
     name: 5* Republic Fleet Large Proton Smartbomb(BPC)
     product:
@@ -12057,6 +12153,8 @@ offers:
         quantity: 166715
       lp: 168750
   4361:
+    bpid: 15938
+    bpruns: 5
     id: 4361
     name: 5* Republic Fleet Medium Proton Smartbomb(BPC)
     product:
@@ -12077,6 +12175,8 @@ offers:
         quantity: 335
       lp: 135000
   4362:
+    bpid: 17489
+    bpruns: 5
     id: 4362
     name: 5* Republic Fleet Rocket Launcher(BPC)
     product:
@@ -12097,6 +12197,8 @@ offers:
         quantity: 1390
       lp: 47250
   4363:
+    bpid: 15936
+    bpruns: 5
     id: 4363
     name: 5* Republic Fleet Small Proton Smartbomb(BPC)
     product:
@@ -12177,6 +12279,8 @@ offers:
     requirements:
       lp: 3000
   4371:
+    bpid: 15876
+    bpruns: 5
     id: 4371
     name: 5* Ammatar Navy Small Energy Nosferatu(BPC)
     product:
@@ -12203,6 +12307,8 @@ offers:
         quantity: 690
       lp: 90000
   4372:
+    bpid: 15878
+    bpruns: 5
     id: 4372
     name: 5* Ammatar Navy Medium Energy Nosferatu(BPC)
     product:
@@ -12227,6 +12333,8 @@ offers:
         quantity: 2960
       lp: 120000
   4373:
+    bpid: 15880
+    bpruns: 5
     id: 4373
     name: 5* Ammatar Navy Heavy Energy Nosferatu(BPC)
     product:
@@ -12253,6 +12361,8 @@ offers:
         quantity: 16380
       lp: 150000
   4374:
+    bpid: 15795
+    bpruns: 5
     id: 4374
     name: 5* Ammatar Navy Small Energy Neutralizer(BPC)
     product:
@@ -12281,6 +12391,8 @@ offers:
         quantity: 10
       lp: 81000
   4375:
+    bpid: 15797
+    bpruns: 5
     id: 4375
     name: 5* Ammatar Navy Medium Energy Neutralizer(BPC)
     product:
@@ -12307,6 +12419,8 @@ offers:
         quantity: 30
       lp: 108000
   4376:
+    bpid: 15799
+    bpruns: 5
     id: 4376
     name: 5* Ammatar Navy Heavy Energy Neutralizer(BPC)
     product:
@@ -12335,6 +12449,8 @@ offers:
         quantity: 240
       lp: 135000
   4377:
+    bpid: 15942
+    bpruns: 5
     id: 4377
     name: 5* Ammatar Navy Small EMP Smartbomb(BPC)
     product:
@@ -12359,6 +12475,8 @@ offers:
         quantity: 15
       lp: 101250
   4378:
+    bpid: 15946
+    bpruns: 5
     id: 4378
     name: 5* Ammatar Navy Medium EMP Smartbomb(BPC)
     product:
@@ -12379,6 +12497,8 @@ offers:
         quantity: 335
       lp: 135000
   4379:
+    bpid: 15948
+    bpruns: 5
     id: 4379
     name: 5* Ammatar Navy Large EMP Smartbomb(BPC)
     product:
@@ -12399,6 +12519,8 @@ offers:
         quantity: 166715
       lp: 168750
   4380:
+    bpid: 17933
+    bpruns: 1
     id: 4380
     name: Dramiel(BPC)
     product:
@@ -12423,6 +12545,8 @@ offers:
         quantity: 2
       lp: 20000
   4381:
+    bpid: 17721
+    bpruns: 1
     id: 4381
     name: Cynabal(BPC)
     product:
@@ -12447,6 +12571,8 @@ offers:
         quantity: 356
       lp: 80000
   4382:
+    bpid: 17739
+    bpruns: 1
     id: 4382
     name: Machariel(BPC)
     product:
@@ -12471,6 +12597,8 @@ offers:
         quantity: 5811
       lp: 400000
   4383:
+    bpid: 17927
+    bpruns: 1
     id: 4383
     name: Cruor(BPC)
     product:
@@ -12493,6 +12621,8 @@ offers:
         quantity: 34
       lp: 20000
   4384:
+    bpid: 17923
+    bpruns: 1
     id: 4384
     name: Ashimmu(BPC)
     product:
@@ -12517,6 +12647,8 @@ offers:
         quantity: 322
       lp: 80000
   4385:
+    bpid: 17921
+    bpruns: 1
     id: 4385
     name: Bhaalgorn(BPC)
     product:
@@ -12541,6 +12673,8 @@ offers:
         quantity: 8226
       lp: 400000
   4386:
+    bpid: 17931
+    bpruns: 1
     id: 4386
     name: Worm(BPC)
     product:
@@ -12565,6 +12699,8 @@ offers:
         quantity: 4
       lp: 20000
   4387:
+    bpid: 17716
+    bpruns: 1
     id: 4387
     name: Gila(BPC)
     product:
@@ -12589,6 +12725,8 @@ offers:
         quantity: 356
       lp: 80000
   4388:
+    bpid: 17919
+    bpruns: 1
     id: 4388
     name: Rattlesnake(BPC)
     product:
@@ -12613,6 +12751,8 @@ offers:
         quantity: 6383
       lp: 400000
   4389:
+    bpid: 17925
+    bpruns: 1
     id: 4389
     name: Succubus(BPC)
     product:
@@ -12635,6 +12775,8 @@ offers:
         quantity: 34
       lp: 20000
   4390:
+    bpid: 17719
+    bpruns: 1
     id: 4390
     name: Phantasm(BPC)
     product:
@@ -12659,6 +12801,8 @@ offers:
         quantity: 356
       lp: 80000
   4391:
+    bpid: 17737
+    bpruns: 1
     id: 4391
     name: Nightmare(BPC)
     product:
@@ -12683,6 +12827,8 @@ offers:
         quantity: 7249
       lp: 400000
   4392:
+    bpid: 17929
+    bpruns: 1
     id: 4392
     name: Daredevil(BPC)
     product:
@@ -12707,6 +12853,8 @@ offers:
         quantity: 2
       lp: 20000
   4393:
+    bpid: 17723
+    bpruns: 1
     id: 4393
     name: Vigilant(BPC)
     product:
@@ -12731,6 +12879,8 @@ offers:
         quantity: 356
       lp: 80000
   4394:
+    bpid: 17741
+    bpruns: 1
     id: 4394
     name: Vindicator(BPC)
     product:
@@ -13007,6 +13157,8 @@ offers:
       isk: 150000
       lp: 375
   4427:
+    bpid: 15694
+    bpruns: 5
     id: 4427
     name: 5* Imperial Navy Multispectrum Coating(BPC)
     product:
@@ -13029,6 +13181,8 @@ offers:
         quantity: 145
       lp: 20250
   4428:
+    bpid: 15712
+    bpruns: 5
     id: 4428
     name: 5* Imperial Navy EM Armor Hardener(BPC)
     product:
@@ -13053,6 +13207,8 @@ offers:
         quantity: 20
       lp: 33750
   4429:
+    bpid: 15710
+    bpruns: 5
     id: 4429
     name: 5* Imperial Navy Explosive Armor Hardener(BPC)
     product:
@@ -13081,6 +13237,8 @@ offers:
         quantity: 10
       lp: 33750
   4430:
+    bpid: 15708
+    bpruns: 5
     id: 4430
     name: 5* Imperial Navy Kinetic Armor Hardener(BPC)
     product:
@@ -13107,6 +13265,8 @@ offers:
         quantity: 35
       lp: 33750
   4431:
+    bpid: 15706
+    bpruns: 5
     id: 4431
     name: 5* Imperial Navy Thermal Armor Hardener(BPC)
     product:
@@ -13133,6 +13293,8 @@ offers:
         quantity: 15
       lp: 33750
   4432:
+    bpid: 17529
+    bpruns: 5
     id: 4432
     name: 5* Imperial Navy Capacitor Power Relay(BPC)
     product:
@@ -13155,6 +13317,8 @@ offers:
         quantity: 15
       lp: 60000
   4433:
+    bpid: 15730
+    bpruns: 5
     id: 4433
     name: 5* Imperial Navy Multispectrum Energized Membrane(BPC)
     product:
@@ -13179,6 +13343,8 @@ offers:
         quantity: 10
       lp: 27000
   4434:
+    bpid: 15728
+    bpruns: 5
     id: 4434
     name: 5* Imperial Navy Kinetic Energized Membrane(BPC)
     product:
@@ -13203,6 +13369,8 @@ offers:
         quantity: 15
       lp: 27000
   4435:
+    bpid: 15726
+    bpruns: 5
     id: 4435
     name: 5* Imperial Navy Explosive Energized Membrane(BPC)
     product:
@@ -13227,6 +13395,8 @@ offers:
         quantity: 15
       lp: 27000
   4436:
+    bpid: 15724
+    bpruns: 5
     id: 4436
     name: 5* Imperial Navy EM Energized Membrane(BPC)
     product:
@@ -13251,6 +13421,8 @@ offers:
         quantity: 15
       lp: 27000
   4437:
+    bpid: 15722
+    bpruns: 5
     id: 4437
     name: 5* Imperial Navy Thermal Energized Membrane(BPC)
     product:
@@ -13275,6 +13447,8 @@ offers:
         quantity: 15
       lp: 27000
   4438:
+    bpid: 15811
+    bpruns: 5
     id: 4438
     name: 5* Imperial Navy Heat Sink(BPC)
     product:
@@ -13301,6 +13475,8 @@ offers:
         quantity: 30
       lp: 90000
   4439:
+    bpid: 15692
+    bpruns: 5
     id: 4439
     name: 5* Imperial Navy Kinetic Coating(BPC)
     product:
@@ -13325,6 +13501,8 @@ offers:
         quantity: 5
       lp: 20250
   4440:
+    bpid: 15690
+    bpruns: 5
     id: 4440
     name: 5* Imperial Navy Explosive Coating(BPC)
     product:
@@ -13349,6 +13527,8 @@ offers:
         quantity: 5
       lp: 20250
   4441:
+    bpid: 15688
+    bpruns: 5
     id: 4441
     name: 5* Imperial Navy EM Coating(BPC)
     product:
@@ -13373,6 +13553,8 @@ offers:
         quantity: 5
       lp: 20250
   4442:
+    bpid: 15686
+    bpruns: 5
     id: 4442
     name: 5* Imperial Navy Thermal Coating(BPC)
     product:
@@ -13421,6 +13603,8 @@ offers:
     requirements:
       lp: 500
   4446:
+    bpid: 15682
+    bpruns: 5
     id: 4446
     name: 5* Caldari Navy Ballistic Control System(BPC)
     product:
@@ -13447,6 +13631,8 @@ offers:
         quantity: 70
       lp: 135000
   4447:
+    bpid: 15676
+    bpruns: 5
     id: 4447
     name: 5* Caldari Navy Co-Processor(BPC)
     product:
@@ -13495,6 +13681,8 @@ offers:
     requirements:
       lp: 500
   4451:
+    bpid: 17550
+    bpruns: 5
     id: 4451
     name: 5* Federation Navy Multispectrum Coating(BPC)
     product:
@@ -13517,6 +13705,8 @@ offers:
         quantity: 145
       lp: 18000
   4452:
+    bpid: 17833
+    bpruns: 5
     id: 4452
     name: 5* Federation Navy EM Armor Hardener(BPC)
     product:
@@ -13541,6 +13731,8 @@ offers:
         quantity: 20
       lp: 33750
   4453:
+    bpid: 17835
+    bpruns: 5
     id: 4453
     name: 5* Federation Navy Explosive Armor Hardener(BPC)
     product:
@@ -13569,6 +13761,8 @@ offers:
         quantity: 10
       lp: 33750
   4454:
+    bpid: 17837
+    bpruns: 5
     id: 4454
     name: 5* Federation Navy Kinetic Armor Hardener(BPC)
     product:
@@ -13595,6 +13789,8 @@ offers:
         quantity: 35
       lp: 33750
   4455:
+    bpid: 17839
+    bpruns: 5
     id: 4455
     name: 5* Federation Navy Thermal Armor Hardener(BPC)
     product:
@@ -13621,6 +13817,8 @@ offers:
         quantity: 15
       lp: 33750
   4456:
+    bpid: 15678
+    bpruns: 5
     id: 4456
     name: 5* Federation Navy Co-Processor(BPC)
     product:
@@ -13645,6 +13843,8 @@ offers:
         quantity: 20
       lp: 120000
   4457:
+    bpid: 15740
+    bpruns: 5
     id: 4457
     name: 5* Federation Navy Multispectrum Energized Membrane(BPC)
     product:
@@ -13669,6 +13869,8 @@ offers:
         quantity: 10
       lp: 24000
   4458:
+    bpid: 15738
+    bpruns: 5
     id: 4458
     name: 5* Federation Navy Kinetic Energized Membrane(BPC)
     product:
@@ -13693,6 +13895,8 @@ offers:
         quantity: 15
       lp: 24000
   4459:
+    bpid: 15736
+    bpruns: 5
     id: 4459
     name: 5* Federation Navy Explosive Energized Membrane(BPC)
     product:
@@ -13717,6 +13921,8 @@ offers:
         quantity: 15
       lp: 24000
   4460:
+    bpid: 15734
+    bpruns: 5
     id: 4460
     name: 5* Federation Navy EM Energized Membrane(BPC)
     product:
@@ -13741,6 +13947,8 @@ offers:
         quantity: 15
       lp: 24000
   4461:
+    bpid: 15732
+    bpruns: 5
     id: 4461
     name: 5* Federation Navy Thermal Energized Membrane(BPC)
     product:
@@ -13765,6 +13973,8 @@ offers:
         quantity: 15
       lp: 24000
   4462:
+    bpid: 15896
+    bpruns: 5
     id: 4462
     name: 5* Federation Navy Magnetic Field Stabilizer(BPC)
     product:
@@ -13785,6 +13995,8 @@ offers:
         quantity: 7295
       lp: 90000
   4463:
+    bpid: 17552
+    bpruns: 5
     id: 4463
     name: 5* Federation Navy Kinetic Coating(BPC)
     product:
@@ -13809,6 +14021,8 @@ offers:
         quantity: 5
       lp: 18000
   4464:
+    bpid: 17554
+    bpruns: 5
     id: 4464
     name: 5* Federation Navy Explosive Coating(BPC)
     product:
@@ -13833,6 +14047,8 @@ offers:
         quantity: 5
       lp: 18000
   4465:
+    bpid: 17556
+    bpruns: 5
     id: 4465
     name: 5* Federation Navy EM Coating(BPC)
     product:
@@ -13857,6 +14073,8 @@ offers:
         quantity: 5
       lp: 18000
   4466:
+    bpid: 17558
+    bpruns: 5
     id: 4466
     name: 5* Federation Navy Thermal Coating(BPC)
     product:
@@ -13905,6 +14123,8 @@ offers:
     requirements:
       lp: 8000
   4470:
+    bpid: 15704
+    bpruns: 5
     id: 4470
     name: 5* Republic Fleet Multispectrum Coating(BPC)
     product:
@@ -13927,6 +14147,8 @@ offers:
         quantity: 145
       lp: 18000
   4471:
+    bpid: 15720
+    bpruns: 5
     id: 4471
     name: 5* Republic Fleet EM Armor Hardener(BPC)
     product:
@@ -13951,6 +14173,8 @@ offers:
         quantity: 20
       lp: 30000
   4472:
+    bpid: 15718
+    bpruns: 5
     id: 4472
     name: 5* Republic Fleet Explosive Armor Hardener(BPC)
     product:
@@ -13979,6 +14203,8 @@ offers:
         quantity: 10
       lp: 30000
   4473:
+    bpid: 15716
+    bpruns: 5
     id: 4473
     name: 5* Republic Fleet Kinetic Armor Hardener(BPC)
     product:
@@ -14005,6 +14231,8 @@ offers:
         quantity: 35
       lp: 30000
   4474:
+    bpid: 15714
+    bpruns: 5
     id: 4474
     name: 5* Republic Fleet Thermal Armor Hardener(BPC)
     product:
@@ -14031,6 +14259,8 @@ offers:
         quantity: 15
       lp: 30000
   4475:
+    bpid: 15684
+    bpruns: 5
     id: 4475
     name: 5* Republic Fleet Ballistic Control System(BPC)
     product:
@@ -14057,6 +14287,8 @@ offers:
         quantity: 70
       lp: 135000
   4476:
+    bpid: 15807
+    bpruns: 5
     id: 4476
     name: 5* Republic Fleet Gyrostabilizer(BPC)
     product:
@@ -14083,6 +14315,8 @@ offers:
         quantity: 20
       lp: 90000
   4477:
+    bpid: 15702
+    bpruns: 5
     id: 4477
     name: 5* Republic Fleet Kinetic Coating(BPC)
     product:
@@ -14107,6 +14341,8 @@ offers:
         quantity: 5
       lp: 18000
   4478:
+    bpid: 15700
+    bpruns: 5
     id: 4478
     name: 5* Republic Fleet Explosive Coating(BPC)
     product:
@@ -14131,6 +14367,8 @@ offers:
         quantity: 5
       lp: 18000
   4479:
+    bpid: 15698
+    bpruns: 5
     id: 4479
     name: 5* Republic Fleet EM Coating(BPC)
     product:
@@ -14155,6 +14393,8 @@ offers:
         quantity: 5
       lp: 18000
   4480:
+    bpid: 15696
+    bpruns: 5
     id: 4480
     name: 5* Republic Fleet Thermal Coating(BPC)
     product:
@@ -14179,6 +14419,8 @@ offers:
         quantity: 5
       lp: 18000
   4481:
+    bpid: 15966
+    bpruns: 5
     id: 4481
     name: 5* Republic Fleet Tracking Enhancer(BPC)
     product:
@@ -14229,6 +14471,8 @@ offers:
     requirements:
       lp: 2000
   4490:
+    bpid: 17539
+    bpruns: 5
     id: 4490
     name: 5* Ammatar Navy Kinetic Energized Membrane(BPC)
     product:
@@ -14253,6 +14497,8 @@ offers:
         quantity: 15
       lp: 27000
   4491:
+    bpid: 17541
+    bpruns: 5
     id: 4491
     name: 5* Ammatar Navy Explosive Energized Membrane(BPC)
     product:
@@ -14277,6 +14523,8 @@ offers:
         quantity: 15
       lp: 27000
   4492:
+    bpid: 17543
+    bpruns: 5
     id: 4492
     name: 5* Ammatar Navy EM Energized Membrane(BPC)
     product:
@@ -14301,6 +14549,8 @@ offers:
         quantity: 15
       lp: 27000
   4493:
+    bpid: 17545
+    bpruns: 5
     id: 4493
     name: 5* Ammatar Navy Thermal Energized Membrane(BPC)
     product:
@@ -14325,6 +14575,8 @@ offers:
         quantity: 15
       lp: 27000
   4494:
+    bpid: 15809
+    bpruns: 5
     id: 4494
     name: 5* Ammatar Navy Heat Sink(BPC)
     product:
@@ -14351,6 +14603,8 @@ offers:
         quantity: 30
       lp: 90000
   4495:
+    bpid: 17503
+    bpruns: 5
     id: 4495
     name: 5* Ammatar Navy EM Armor Hardener(BPC)
     product:
@@ -14375,6 +14629,8 @@ offers:
         quantity: 20
       lp: 33750
   4496:
+    bpid: 17505
+    bpruns: 5
     id: 4496
     name: 5* Ammatar Navy Explosive Armor Hardener(BPC)
     product:
@@ -14403,6 +14659,8 @@ offers:
         quantity: 10
       lp: 33750
   4497:
+    bpid: 17507
+    bpruns: 5
     id: 4497
     name: 5* Ammatar Navy Kinetic Armor Hardener(BPC)
     product:
@@ -14429,6 +14687,8 @@ offers:
         quantity: 35
       lp: 33750
   4498:
+    bpid: 17509
+    bpruns: 5
     id: 4498
     name: 5* Ammatar Navy Thermal Armor Hardener(BPC)
     product:
@@ -14635,6 +14895,8 @@ offers:
       isk: 10875000
       lp: 10875
   4537:
+    bpid: 17527
+    bpruns: 5
     id: 4537
     name: 5* Imperial Navy Cap Recharger(BPC)
     product:
@@ -14659,6 +14921,8 @@ offers:
         quantity: 2060
       lp: 21000
   4538:
+    bpid: 15787
+    bpruns: 5
     id: 4538
     name: 5* Imperial Navy Heavy Capacitor Booster(BPC)
     product:
@@ -14685,6 +14949,8 @@ offers:
         quantity: 30
       lp: 26250
   4539:
+    bpid: 15785
+    bpruns: 5
     id: 4539
     name: 5* Imperial Navy Medium Capacitor Booster(BPC)
     product:
@@ -14709,6 +14975,8 @@ offers:
         quantity: 10
       lp: 24000
   4541:
+    bpid: 15781
+    bpruns: 5
     id: 4541
     name: 5* Imperial Navy Small Capacitor Booster(BPC)
     product:
@@ -14731,6 +14999,8 @@ offers:
         quantity: 30
       lp: 18000
   4542:
+    bpid: 15916
+    bpruns: 5
     id: 4542
     name: 5* Caldari Navy Explosive Shield Amplifier(BPC)
     product:
@@ -14749,6 +15019,8 @@ offers:
         quantity: 10385
       lp: 27000
   4543:
+    bpid: 15914
+    bpruns: 5
     id: 4543
     name: 5* Caldari Navy Thermal Shield Amplifier(BPC)
     product:
@@ -14767,6 +15039,8 @@ offers:
         quantity: 10385
       lp: 27000
   4544:
+    bpid: 15912
+    bpruns: 5
     id: 4544
     name: 5* Caldari Navy Kinetic Shield Amplifier(BPC)
     product:
@@ -14785,6 +15059,8 @@ offers:
         quantity: 10385
       lp: 27000
   4545:
+    bpid: 15910
+    bpruns: 5
     id: 4545
     name: 5* Caldari Navy EM Shield Amplifier(BPC)
     product:
@@ -14803,6 +15079,8 @@ offers:
         quantity: 10385
       lp: 27000
   4546:
+    bpid: 15906
+    bpruns: 5
     id: 4546
     name: 5* Caldari Navy Shield Boost Amplifier(BPC)
     product:
@@ -14827,6 +15105,8 @@ offers:
         quantity: 435
       lp: 151875
   4547:
+    bpid: 17501
+    bpruns: 5
     id: 4547
     name: 5* Caldari Navy Stasis Webifier(BPC)
     product:
@@ -14849,6 +15129,8 @@ offers:
         quantity: 2645
       lp: 60000
   4548:
+    bpid: 15890
+    bpruns: 5
     id: 4548
     name: 5* Caldari Navy Warp Disruptor(BPC)
     product:
@@ -14873,6 +15155,8 @@ offers:
         quantity: 20
       lp: 42000
   4549:
+    bpid: 15888
+    bpruns: 5
     id: 4549
     name: 5* Caldari Navy Warp Scrambler(BPC)
     product:
@@ -14897,6 +15181,8 @@ offers:
         quantity: 20
       lp: 42000
   4550:
+    bpid: 15771
+    bpruns: 5
     id: 4550
     name: 5* Federation Navy 100MN Afterburner(BPC)
     product:
@@ -14927,6 +15213,8 @@ offers:
         quantity: 10
       lp: 45000
   4551:
+    bpid: 15769
+    bpruns: 5
     id: 4551
     name: 5* Federation Navy 500MN Microwarpdrive(BPC)
     product:
@@ -14957,6 +15245,8 @@ offers:
         quantity: 100
       lp: 135000
   4552:
+    bpid: 15767
+    bpruns: 5
     id: 4552
     name: 5* Federation Navy 10MN Afterburner(BPC)
     product:
@@ -14979,6 +15269,8 @@ offers:
         quantity: 10
       lp: 36000
   4553:
+    bpid: 15765
+    bpruns: 5
     id: 4553
     name: 5* Federation Navy 50MN Microwarpdrive(BPC)
     product:
@@ -15007,6 +15299,8 @@ offers:
         quantity: 20
       lp: 108000
   4554:
+    bpid: 15762
+    bpruns: 5
     id: 4554
     name: 5* Federation Navy 1MN Afterburner(BPC)
     product:
@@ -15031,6 +15325,8 @@ offers:
         quantity: 5
       lp: 27000
   4555:
+    bpid: 15760
+    bpruns: 5
     id: 4555
     name: 5* Federation Navy 5MN Microwarpdrive(BPC)
     product:
@@ -15057,6 +15353,8 @@ offers:
         quantity: 10
       lp: 72000
   4556:
+    bpid: 17521
+    bpruns: 5
     id: 4556
     name: 5* Federation Navy Sensor Booster(BPC)
     product:
@@ -15079,6 +15377,8 @@ offers:
         quantity: 10
       lp: 54000
   4557:
+    bpid: 17561
+    bpruns: 5
     id: 4557
     name: 5* Federation Navy Stasis Webifier(BPC)
     product:
@@ -15101,6 +15401,8 @@ offers:
         quantity: 2645
       lp: 60000
   4558:
+    bpid: 15793
+    bpruns: 5
     id: 4558
     name: 5* Federation Navy Tracking Computer(BPC)
     product:
@@ -15121,6 +15423,8 @@ offers:
         quantity: 4745
       lp: 54000
   4559:
+    bpid: 15968
+    bpruns: 5
     id: 4559
     name: 5* Federation Navy Remote Tracking Computer(BPC)
     product:
@@ -15145,6 +15449,8 @@ offers:
         quantity: 10
       lp: 54000
   4560:
+    bpid: 15758
+    bpruns: 5
     id: 4560
     name: 5* Republic Fleet 100MN Afterburner(BPC)
     product:
@@ -15175,6 +15481,8 @@ offers:
         quantity: 10
       lp: 60000
   4561:
+    bpid: 15756
+    bpruns: 5
     id: 4561
     name: 5* Republic Fleet 500MN Microwarpdrive(BPC)
     product:
@@ -15205,6 +15513,8 @@ offers:
         quantity: 100
       lp: 180000
   4562:
+    bpid: 15754
+    bpruns: 5
     id: 4562
     name: 5* Republic Fleet 10MN Afterburner(BPC)
     product:
@@ -15227,6 +15537,8 @@ offers:
         quantity: 10
       lp: 48000
   4563:
+    bpid: 15752
+    bpruns: 5
     id: 4563
     name: 5* Republic Fleet 50MN Microwarpdrive(BPC)
     product:
@@ -15255,6 +15567,8 @@ offers:
         quantity: 20
       lp: 144000
   4564:
+    bpid: 15750
+    bpruns: 5
     id: 4564
     name: 5* Republic Fleet 1MN Afterburner(BPC)
     product:
@@ -15279,6 +15593,8 @@ offers:
         quantity: 5
       lp: 36000
   4565:
+    bpid: 15748
+    bpruns: 5
     id: 4565
     name: 5* Republic Fleet 5MN Microwarpdrive(BPC)
     product:
@@ -15305,6 +15621,8 @@ offers:
         quantity: 10
       lp: 108000
   4566:
+    bpid: 15924
+    bpruns: 5
     id: 4566
     name: 5* Republic Fleet Explosive Shield Amplifier(BPC)
     product:
@@ -15323,6 +15641,8 @@ offers:
         quantity: 10385
       lp: 24000
   4567:
+    bpid: 15922
+    bpruns: 5
     id: 4567
     name: 5* Republic Fleet Thermal Shield Amplifier(BPC)
     product:
@@ -15341,6 +15661,8 @@ offers:
         quantity: 10385
       lp: 24000
   4568:
+    bpid: 15920
+    bpruns: 5
     id: 4568
     name: 5* Republic Fleet Kinetic Shield Amplifier(BPC)
     product:
@@ -15359,6 +15681,8 @@ offers:
         quantity: 10385
       lp: 24000
   4569:
+    bpid: 15918
+    bpruns: 5
     id: 4569
     name: 5* Republic Fleet EM Shield Amplifier(BPC)
     product:
@@ -15377,6 +15701,8 @@ offers:
         quantity: 10385
       lp: 24000
   4570:
+    bpid: 15908
+    bpruns: 5
     id: 4570
     name: 5* Republic Fleet Shield Boost Amplifier(BPC)
     product:
@@ -15401,6 +15727,8 @@ offers:
         quantity: 435
       lp: 135000
   4572:
+    bpid: 15892
+    bpruns: 5
     id: 4572
     name: 5* Republic Fleet Warp Disruptor(BPC)
     product:
@@ -15425,6 +15753,8 @@ offers:
         quantity: 20
       lp: 240000
   4573:
+    bpid: 15894
+    bpruns: 5
     id: 4573
     name: 5* Republic Fleet Warp Scrambler(BPC)
     product:
@@ -15449,6 +15779,8 @@ offers:
         quantity: 20
       lp: 240000
   4574:
+    bpid: 15789
+    bpruns: 5
     id: 4574
     name: 5* Ammatar Navy Cap Recharger(BPC)
     product:
@@ -15473,6 +15805,8 @@ offers:
         quantity: 2060
       lp: 21000
   4575:
+    bpid: 15773
+    bpruns: 5
     id: 4575
     name: 5* Ammatar Navy Small Capacitor Booster(BPC)
     product:
@@ -15495,6 +15829,8 @@ offers:
         quantity: 30
       lp: 18000
   4576:
+    bpid: 15777
+    bpruns: 5
     id: 4576
     name: 5* Ammatar Navy Medium Capacitor Booster(BPC)
     product:
@@ -15519,6 +15855,8 @@ offers:
         quantity: 10
       lp: 24000
   4577:
+    bpid: 15779
+    bpruns: 5
     id: 4577
     name: 5* Ammatar Navy Heavy Capacitor Booster(BPC)
     product:
@@ -16845,6 +17183,8 @@ offers:
         quantity: 1
       lp: 321300
   4790:
+    bpid: 28671
+    bpruns: 1000
     id: 4790
     name: 1000* Synth Blue Pill Booster(BPC)
     product:
@@ -16859,6 +17199,8 @@ offers:
         quantity: 17000
       lp: 250
   4791:
+    bpid: 28673
+    bpruns: 1000
     id: 4791
     name: 1000* Synth Crash Booster(BPC)
     product:
@@ -16873,6 +17215,8 @@ offers:
         quantity: 17000
       lp: 250
   4792:
+    bpid: 28675
+    bpruns: 1000
     id: 4792
     name: 1000* Synth Drop Booster(BPC)
     product:
@@ -16887,6 +17231,8 @@ offers:
         quantity: 17000
       lp: 250
   4793:
+    bpid: 28677
+    bpruns: 1000
     id: 4793
     name: 1000* Synth Exile Booster(BPC)
     product:
@@ -16901,6 +17247,8 @@ offers:
         quantity: 17000
       lp: 250
   4795:
+    bpid: 28681
+    bpruns: 1000
     id: 4795
     name: 1000* Synth Mindflood Booster(BPC)
     product:
@@ -16915,6 +17263,8 @@ offers:
         quantity: 17000
       lp: 250
   4796:
+    bpid: 28679
+    bpruns: 1000
     id: 4796
     name: 1000* Synth Frentix Booster(BPC)
     product:
@@ -16929,6 +17279,8 @@ offers:
         quantity: 17000
       lp: 250
   4797:
+    bpid: 28683
+    bpruns: 1000
     id: 4797
     name: 1000* Synth X-Instinct Booster(BPC)
     product:
@@ -16943,6 +17295,8 @@ offers:
         quantity: 17000
       lp: 250
   4798:
+    bpid: 28685
+    bpruns: 1000
     id: 4798
     name: 1000* Synth Sooth Sayer Booster(BPC)
     product:
@@ -18329,6 +18683,8 @@ offers:
         quantity: 1
       lp: 45000
   14783:
+    bpid: 17704
+    bpruns: 1
     id: 14783
     name: Imperial Navy Slicer(BPC)
     product:
@@ -18354,6 +18710,8 @@ offers:
         quantity: 4
       lp: 10000
   14784:
+    bpid: 17704
+    bpruns: 1
     id: 14784
     name: Imperial Navy Slicer(BPC)
     product:
@@ -18378,6 +18736,8 @@ offers:
         quantity: 4
       lp: 10000
   14785:
+    bpid: 17710
+    bpruns: 1
     id: 14785
     name: Omen Navy Issue(BPC)
     product:
@@ -18403,6 +18763,8 @@ offers:
         quantity: 278
       lp: 45000
   14786:
+    bpid: 17710
+    bpruns: 1
     id: 14786
     name: Omen Navy Issue(BPC)
     product:
@@ -18427,6 +18789,8 @@ offers:
         quantity: 278
       lp: 45000
   14787:
+    bpid: 17727
+    bpruns: 1
     id: 14787
     name: Apocalypse Navy Issue(BPC)
     product:
@@ -18452,6 +18816,8 @@ offers:
         quantity: 5446
       lp: 250000
   14788:
+    bpid: 17727
+    bpruns: 1
     id: 14788
     name: Apocalypse Navy Issue(BPC)
     product:
@@ -18528,6 +18894,8 @@ offers:
         quantity: 1
       lp: 250000
   14793:
+    bpid: 17620
+    bpruns: 1
     id: 14793
     name: Caldari Navy Hookbill(BPC)
     product:
@@ -18553,6 +18921,8 @@ offers:
         quantity: 4
       lp: 10000
   14794:
+    bpid: 17620
+    bpruns: 1
     id: 14794
     name: Caldari Navy Hookbill(BPC)
     product:
@@ -18577,6 +18947,8 @@ offers:
         quantity: 4
       lp: 10000
   14795:
+    bpid: 17635
+    bpruns: 1
     id: 14795
     name: Caracal Navy Issue(BPC)
     product:
@@ -18602,6 +18974,8 @@ offers:
         quantity: 356
       lp: 45000
   14796:
+    bpid: 17635
+    bpruns: 1
     id: 14796
     name: Caracal Navy Issue(BPC)
     product:
@@ -18626,6 +19000,8 @@ offers:
         quantity: 356
       lp: 45000
   14797:
+    bpid: 17637
+    bpruns: 1
     id: 14797
     name: Raven Navy Issue(BPC)
     product:
@@ -18651,6 +19027,8 @@ offers:
         quantity: 6288
       lp: 250000
   14798:
+    bpid: 17637
+    bpruns: 1
     id: 14798
     name: Raven Navy Issue(BPC)
     product:
@@ -18727,6 +19105,8 @@ offers:
         quantity: 1
       lp: 250000
   14803:
+    bpid: 17842
+    bpruns: 1
     id: 14803
     name: Federation Navy Comet(BPC)
     product:
@@ -18752,6 +19132,8 @@ offers:
         quantity: 4
       lp: 10000
   14804:
+    bpid: 17842
+    bpruns: 1
     id: 14804
     name: Federation Navy Comet(BPC)
     product:
@@ -18776,6 +19158,8 @@ offers:
         quantity: 4
       lp: 10000
   14805:
+    bpid: 17844
+    bpruns: 1
     id: 14805
     name: Vexor Navy Issue(BPC)
     product:
@@ -18801,6 +19185,8 @@ offers:
         quantity: 288
       lp: 45000
   14806:
+    bpid: 17844
+    bpruns: 1
     id: 14806
     name: Vexor Navy Issue(BPC)
     product:
@@ -18825,6 +19211,8 @@ offers:
         quantity: 288
       lp: 45000
   14807:
+    bpid: 17729
+    bpruns: 1
     id: 14807
     name: Megathron Navy Issue(BPC)
     product:
@@ -18850,6 +19238,8 @@ offers:
         quantity: 6202
       lp: 250000
   14808:
+    bpid: 17729
+    bpruns: 1
     id: 14808
     name: Megathron Navy Issue(BPC)
     product:
@@ -18926,6 +19316,8 @@ offers:
         quantity: 1
       lp: 250000
   14813:
+    bpid: 17813
+    bpruns: 1
     id: 14813
     name: Republic Fleet Firetail(BPC)
     product:
@@ -18951,6 +19343,8 @@ offers:
         quantity: 4
       lp: 10000
   14814:
+    bpid: 17813
+    bpruns: 1
     id: 14814
     name: Republic Fleet Firetail(BPC)
     product:
@@ -18975,6 +19369,8 @@ offers:
         quantity: 4
       lp: 10000
   14815:
+    bpid: 17714
+    bpruns: 1
     id: 14815
     name: Stabber Fleet Issue(BPC)
     product:
@@ -19000,6 +19396,8 @@ offers:
         quantity: 356
       lp: 45000
   14816:
+    bpid: 17714
+    bpruns: 1
     id: 14816
     name: Stabber Fleet Issue(BPC)
     product:
@@ -19024,6 +19422,8 @@ offers:
         quantity: 356
       lp: 45000
   14817:
+    bpid: 17733
+    bpruns: 1
     id: 14817
     name: Tempest Fleet Issue(BPC)
     product:
@@ -19049,6 +19449,8 @@ offers:
         quantity: 6126
       lp: 250000
   14818:
+    bpid: 17733
+    bpruns: 1
     id: 14818
     name: Tempest Fleet Issue(BPC)
     product:
@@ -20826,6 +21228,8 @@ offers:
       isk: 250000000
       lp: 250000
   15523:
+    bpid: 3535
+    bpruns: 1
     id: 15523
     name: CONCORD Capital Armor Repairer(BPC)
     product:
@@ -20844,6 +21248,8 @@ offers:
         quantity: 22
       lp: 50000
   15524:
+    bpid: 3535
+    bpruns: 5
     id: 15524
     name: 5* CONCORD Capital Armor Repairer(BPC)
     product:
@@ -20862,6 +21268,8 @@ offers:
         quantity: 110
       lp: 200000
   15525:
+    bpid: 3537
+    bpruns: 1
     id: 15525
     name: CONCORD Capital Remote Armor Repairer(BPC)
     product:
@@ -20880,6 +21288,8 @@ offers:
         quantity: 22
       lp: 50000
   15526:
+    bpid: 3537
+    bpruns: 5
     id: 15526
     name: 5* CONCORD Capital Remote Armor Repairer(BPC)
     product:
@@ -20898,6 +21308,8 @@ offers:
         quantity: 110
       lp: 200000
   15527:
+    bpid: 3543
+    bpruns: 1
     id: 15527
     name: CONCORD Capital Shield Booster(BPC)
     product:
@@ -20916,6 +21328,8 @@ offers:
         quantity: 22
       lp: 50000
   15528:
+    bpid: 3543
+    bpruns: 5
     id: 15528
     name: 5* CONCORD Capital Shield Booster(BPC)
     product:
@@ -20934,6 +21348,8 @@ offers:
         quantity: 110
       lp: 200000
   15529:
+    bpid: 3545
+    bpruns: 1
     id: 15529
     name: CONCORD Capital Remote Shield Booster(BPC)
     product:
@@ -20952,6 +21368,8 @@ offers:
         quantity: 22
       lp: 50000
   15530:
+    bpid: 3545
+    bpruns: 5
     id: 15530
     name: 5* CONCORD Capital Remote Shield Booster(BPC)
     product:
@@ -20970,6 +21388,8 @@ offers:
         quantity: 110
       lp: 200000
   15531:
+    bpid: 3547
+    bpruns: 1
     id: 15531
     name: CONCORD Ion Siege Blaster(BPC)
     product:
@@ -20988,6 +21408,8 @@ offers:
         quantity: 22
       lp: 50000
   15532:
+    bpid: 3547
+    bpruns: 5
     id: 15532
     name: 5* CONCORD Ion Siege Blaster(BPC)
     product:
@@ -21006,6 +21428,8 @@ offers:
         quantity: 110
       lp: 200000
   15533:
+    bpid: 3557
+    bpruns: 1
     id: 15533
     name: CONCORD Dual 1000mm Railgun(BPC)
     product:
@@ -21024,6 +21448,8 @@ offers:
         quantity: 22
       lp: 50000
   15534:
+    bpid: 3557
+    bpruns: 5
     id: 15534
     name: 5* CONCORD Dual 1000mm Railgun(BPC)
     product:
@@ -21042,6 +21468,8 @@ offers:
         quantity: 110
       lp: 200000
   15535:
+    bpid: 3560
+    bpruns: 1
     id: 15535
     name: CONCORD Dual Giga Pulse Laser(BPC)
     product:
@@ -21060,6 +21488,8 @@ offers:
         quantity: 22
       lp: 50000
   15536:
+    bpid: 3560
+    bpruns: 5
     id: 15536
     name: 5* CONCORD Dual Giga Pulse Laser(BPC)
     product:
@@ -21078,6 +21508,8 @@ offers:
         quantity: 110
       lp: 200000
   15537:
+    bpid: 3562
+    bpruns: 1
     id: 15537
     name: CONCORD Dual Giga Beam Laser(BPC)
     product:
@@ -21096,6 +21528,8 @@ offers:
         quantity: 22
       lp: 50000
   15538:
+    bpid: 3562
+    bpruns: 5
     id: 15538
     name: 5* CONCORD Dual Giga Beam Laser(BPC)
     product:
@@ -21114,6 +21548,8 @@ offers:
         quantity: 110
       lp: 200000
   15539:
+    bpid: 3564
+    bpruns: 1
     id: 15539
     name: CONCORD XL Cruise Missile Launcher(BPC)
     product:
@@ -21132,6 +21568,8 @@ offers:
         quantity: 22
       lp: 50000
   15540:
+    bpid: 3564
+    bpruns: 5
     id: 15540
     name: 5* CONCORD XL Cruise Missile Launcher(BPC)
     product:
@@ -21150,6 +21588,8 @@ offers:
         quantity: 110
       lp: 200000
   15541:
+    bpid: 3570
+    bpruns: 1
     id: 15541
     name: CONCORD XL Torpedo Launcher(BPC)
     product:
@@ -21168,6 +21608,8 @@ offers:
         quantity: 22
       lp: 50000
   15542:
+    bpid: 3570
+    bpruns: 5
     id: 15542
     name: 5* CONCORD XL Torpedo Launcher(BPC)
     product:
@@ -21186,6 +21628,8 @@ offers:
         quantity: 110
       lp: 200000
   15543:
+    bpid: 3572
+    bpruns: 1
     id: 15543
     name: CONCORD Quad 3500mm Siege Artillery(BPC)
     product:
@@ -21204,6 +21648,8 @@ offers:
         quantity: 22
       lp: 50000
   15544:
+    bpid: 3572
+    bpruns: 5
     id: 15544
     name: 5* CONCORD Quad 3500mm Siege Artillery(BPC)
     product:
@@ -21222,6 +21668,8 @@ offers:
         quantity: 110
       lp: 200000
   15545:
+    bpid: 3574
+    bpruns: 1
     id: 15545
     name: CONCORD Hexa 2500mm Repeating Cannon(BPC)
     product:
@@ -21240,6 +21688,8 @@ offers:
         quantity: 22
       lp: 50000
   15546:
+    bpid: 3574
+    bpruns: 5
     id: 15546
     name: 5* CONCORD Hexa 2500mm Repeating Cannon(BPC)
     product:
@@ -21258,6 +21708,8 @@ offers:
         quantity: 110
       lp: 200000
   15547:
+    bpid: 3580
+    bpruns: 1
     id: 15547
     name: CONCORD Capital Remote Capacitor Transmitter(BPC)
     product:
@@ -21276,6 +21728,8 @@ offers:
         quantity: 22
       lp: 50000
   15548:
+    bpid: 3580
+    bpruns: 5
     id: 15548
     name: 5* CONCORD Capital Remote Capacitor Transmitter(BPC)
     product:
@@ -21342,6 +21796,8 @@ offers:
         quantity: 5000
       lp: 5775
   15681:
+    bpid: 3963
+    bpruns: 1
     id: 15681
     name: Customs Office Gantry(BPC)
     product:
@@ -21362,6 +21818,8 @@ offers:
         quantity: 1
       lp: 6000
   15682:
+    bpid: 3963
+    bpruns: 1
     id: 15682
     name: Customs Office Gantry(BPC)
     product:
@@ -21725,6 +22183,8 @@ offers:
         quantity: 1
       lp: 250000
   15782:
+    bpid: 33156
+    bpruns: 1
     id: 15782
     name: Harbinger Navy Issue(BPC)
     product:
@@ -21747,6 +22207,8 @@ offers:
         quantity: 2600
       lp: 200000
   15783:
+    bpid: 33154
+    bpruns: 1
     id: 15783
     name: Drake Navy Issue(BPC)
     product:
@@ -21771,6 +22233,8 @@ offers:
         quantity: 1864
       lp: 200000
   15784:
+    bpid: 33152
+    bpruns: 1
     id: 15784
     name: Brutix Navy Issue(BPC)
     product:
@@ -21793,6 +22257,8 @@ offers:
         quantity: 1904
       lp: 200000
   15785:
+    bpid: 33158
+    bpruns: 1
     id: 15785
     name: Hurricane Fleet Issue(BPC)
     product:
@@ -21867,6 +22333,8 @@ offers:
         quantity: 1
       lp: 100000
   15790:
+    bpid: 33156
+    bpruns: 1
     id: 15790
     name: Harbinger Navy Issue(BPC)
     product:
@@ -21889,6 +22357,8 @@ offers:
         quantity: 2600
       lp: 100000
   15791:
+    bpid: 33154
+    bpruns: 1
     id: 15791
     name: Drake Navy Issue(BPC)
     product:
@@ -21913,6 +22383,8 @@ offers:
         quantity: 1864
       lp: 100000
   15792:
+    bpid: 33152
+    bpruns: 1
     id: 15792
     name: Brutix Navy Issue(BPC)
     product:
@@ -21935,6 +22407,8 @@ offers:
         quantity: 1904
       lp: 100000
   15793:
+    bpid: 33158
+    bpruns: 1
     id: 15793
     name: Hurricane Fleet Issue(BPC)
     product:
@@ -21957,6 +22431,8 @@ offers:
         quantity: 2462
       lp: 100000
   15794:
+    bpid: 29338
+    bpruns: 1
     id: 15794
     name: Augoror Navy Issue(BPC)
     product:
@@ -21982,6 +22458,8 @@ offers:
         quantity: 266
       lp: 45000
   15795:
+    bpid: 29338
+    bpruns: 1
     id: 15795
     name: Augoror Navy Issue(BPC)
     product:
@@ -22006,6 +22484,8 @@ offers:
         quantity: 266
       lp: 45000
   15796:
+    bpid: 29341
+    bpruns: 1
     id: 15796
     name: Osprey Navy Issue(BPC)
     product:
@@ -22031,6 +22511,8 @@ offers:
         quantity: 244
       lp: 45000
   15797:
+    bpid: 29341
+    bpruns: 1
     id: 15797
     name: Osprey Navy Issue(BPC)
     product:
@@ -22055,6 +22537,8 @@ offers:
         quantity: 244
       lp: 45000
   15798:
+    bpid: 29345
+    bpruns: 1
     id: 15798
     name: Exequror Navy Issue(BPC)
     product:
@@ -22080,6 +22564,8 @@ offers:
         quantity: 212
       lp: 45000
   15799:
+    bpid: 29345
+    bpruns: 1
     id: 15799
     name: Exequror Navy Issue(BPC)
     product:
@@ -22104,6 +22590,8 @@ offers:
         quantity: 212
       lp: 45000
   15800:
+    bpid: 29339
+    bpruns: 1
     id: 15800
     name: Scythe Fleet Issue(BPC)
     product:
@@ -22129,6 +22617,8 @@ offers:
         quantity: 222
       lp: 45000
   15801:
+    bpid: 29339
+    bpruns: 1
     id: 15801
     name: Scythe Fleet Issue(BPC)
     product:
@@ -22308,6 +22798,8 @@ offers:
         quantity: 1
       lp: 26250
   15820:
+    bpid: 33460
+    bpruns: 5
     id: 15820
     name: 5* Republic Fleet Rapid Heavy Missile Launcher(BPC)
     product:
@@ -22352,6 +22844,8 @@ offers:
         quantity: 1
       lp: 26250
   15822:
+    bpid: 33447
+    bpruns: 5
     id: 15822
     name: 5* Caldari Navy Rapid Heavy Missile Launcher(BPC)
     product:
@@ -22378,6 +22872,8 @@ offers:
         quantity: 20
       lp: 75000
   15834:
+    bpid: 33469
+    bpruns: 1
     id: 15834
     name: Astero(BPC)
     product:
@@ -22402,6 +22898,8 @@ offers:
         quantity: 4
       lp: 30000
   15835:
+    bpid: 33469
+    bpruns: 1
     id: 15835
     name: Astero(BPC)
     product:
@@ -22426,6 +22924,8 @@ offers:
         quantity: 4
       lp: 20000
   15836:
+    bpid: 33471
+    bpruns: 1
     id: 15836
     name: Stratios(BPC)
     product:
@@ -22450,6 +22950,8 @@ offers:
         quantity: 356
       lp: 120000
   15837:
+    bpid: 33471
+    bpruns: 1
     id: 15837
     name: Stratios(BPC)
     product:
@@ -22528,6 +23030,8 @@ offers:
       isk: 80000000
       lp: 800000
   16066:
+    bpid: 33473
+    bpruns: 1
     id: 16066
     name: Nestor(BPC)
     product:
@@ -22552,6 +23056,8 @@ offers:
         quantity: 7528
       lp: 600000
   16067:
+    bpid: 33473
+    bpruns: 1
     id: 16067
     name: Nestor(BPC)
     product:
@@ -22576,6 +23082,8 @@ offers:
         quantity: 7528
       lp: 400000
   16068:
+    bpid: 33469
+    bpruns: 1
     id: 16068
     name: Astero(BPC)
     product:
@@ -22600,6 +23108,8 @@ offers:
       - id: 40
         quantity: 4
   16069:
+    bpid: 33471
+    bpruns: 1
     id: 16069
     name: Stratios(BPC)
     product:
@@ -22624,6 +23134,8 @@ offers:
       - id: 40
         quantity: 356
   16070:
+    bpid: 33473
+    bpruns: 1
     id: 16070
     name: Nestor(BPC)
     product:
@@ -22738,6 +23250,8 @@ offers:
       isk: 5000000
       lp: 80000
   16078:
+    bpid: 33817
+    bpruns: 1
     id: 16078
     name: Garmur(BPC)
     product:
@@ -22762,6 +23276,8 @@ offers:
         quantity: 2
       lp: 20000
   16079:
+    bpid: 33819
+    bpruns: 1
     id: 16079
     name: Orthrus(BPC)
     product:
@@ -22795,6 +23311,8 @@ offers:
       isk: 15000000
       lp: 240000
   16081:
+    bpid: 33821
+    bpruns: 1
     id: 16081
     name: Barghest(BPC)
     product:
@@ -22828,6 +23346,8 @@ offers:
       isk: 80000000
       lp: 800000
   16083:
+    bpid: 33817
+    bpruns: 1
     id: 16083
     name: Garmur(BPC)
     product:
@@ -22852,6 +23372,8 @@ offers:
       - id: 40
         quantity: 2
   16084:
+    bpid: 33819
+    bpruns: 1
     id: 16084
     name: Orthrus(BPC)
     product:
@@ -22876,6 +23398,8 @@ offers:
       - id: 40
         quantity: 356
   16085:
+    bpid: 33821
+    bpruns: 1
     id: 16085
     name: Barghest(BPC)
     product:
@@ -23459,6 +23983,8 @@ offers:
     requirements:
       isk: 1500000
   16221:
+    bpid: 40521
+    bpruns: 1
     id: 16221
     name: Upwell Palatine Keepstar(BPC)
     product:
@@ -23515,6 +24041,8 @@ offers:
         quantity: 500000
       lp: 2000000
   16238:
+    bpid: 41603
+    bpruns: 1
     id: 16238
     name: CONCORD Capital Shield Extender(BPC)
     product:
@@ -23533,6 +24061,8 @@ offers:
         quantity: 20
       lp: 50000
   16239:
+    bpid: 41603
+    bpruns: 5
     id: 16239
     name: 5* CONCORD Capital Shield Extender(BPC)
     product:
@@ -23551,6 +24081,8 @@ offers:
         quantity: 100
       lp: 200000
   16240:
+    bpid: 41611
+    bpruns: 1
     id: 16240
     name: CONCORD 25000mm Steel Plates(BPC)
     product:
@@ -23569,6 +24101,8 @@ offers:
         quantity: 20
       lp: 50000
   16241:
+    bpid: 41611
+    bpruns: 5
     id: 16241
     name: 5* CONCORD 25000mm Steel Plates(BPC)
     product:
@@ -23587,6 +24121,8 @@ offers:
         quantity: 100
       lp: 200000
   16242:
+    bpid: 40723
+    bpruns: 1
     id: 16242
     name: Sisters Capital Emergency Hull Energizer(BPC)
     product:
@@ -23623,6 +24159,8 @@ offers:
         quantity: 20
       lp: 8000
   16245:
+    bpid: 42136
+    bpruns: 1
     id: 16245
     name: Vehement(BPC)
     product:
@@ -23661,6 +24199,8 @@ offers:
         quantity: 2000
       lp: 500000
   16246:
+    bpid: 42137
+    bpruns: 1
     id: 16246
     name: Vendetta(BPC)
     product:
@@ -23697,6 +24237,8 @@ offers:
         quantity: 4200
       lp: 2000000
   16247:
+    bpid: 42138
+    bpruns: 1
     id: 16247
     name: Vanquisher(BPC)
     product:
@@ -24041,6 +24583,8 @@ offers:
         quantity: 1
       lp: 100000
   16273:
+    bpid: 43915
+    bpruns: 5
     id: 16273
     name: 5* 'Excavator' Mining Drone(BPC)
     product:
@@ -24087,6 +24631,8 @@ offers:
         quantity: 3000
       lp: 80000
   16274:
+    bpid: 43916
+    bpruns: 5
     id: 16274
     name: 5* 'Excavator' Ice Harvesting Drone(BPC)
     product:
@@ -24277,6 +24823,8 @@ offers:
       isk: 100000000
       lp: 500
   16338:
+    bpid: 47232
+    bpruns: 5
     id: 16338
     name: 5* Standup Shadow(BPC)
     product:
@@ -24303,6 +24851,8 @@ offers:
         quantity: 500000
       lp: 10000
   16339:
+    bpid: 45535
+    bpruns: 1
     id: 16339
     name: Monitor(BPC)
     product:
@@ -24347,6 +24897,8 @@ offers:
         quantity: 400000
       lp: 10000
   16340:
+    bpid: 32306
+    bpruns: 1
     id: 16340
     name: Armageddon Navy Issue(BPC)
     product:
@@ -24372,6 +24924,8 @@ offers:
         quantity: 10312
       lp: 250000
   16341:
+    bpid: 32306
+    bpruns: 1
     id: 16341
     name: Armageddon Navy Issue(BPC)
     product:
@@ -24396,6 +24950,8 @@ offers:
         quantity: 10312
       lp: 250000
   16342:
+    bpid: 32312
+    bpruns: 1
     id: 16342
     name: Typhoon Fleet Issue(BPC)
     product:
@@ -24421,6 +24977,8 @@ offers:
         quantity: 4800
       lp: 250000
   16343:
+    bpid: 32312
+    bpruns: 1
     id: 16343
     name: Typhoon Fleet Issue(BPC)
     product:
@@ -24445,6 +25003,8 @@ offers:
         quantity: 4800
       lp: 250000
   16344:
+    bpid: 32308
+    bpruns: 1
     id: 16344
     name: Dominix Navy Issue(BPC)
     product:
@@ -24470,6 +25030,8 @@ offers:
         quantity: 7556
       lp: 250000
   16345:
+    bpid: 32308
+    bpruns: 1
     id: 16345
     name: Dominix Navy Issue(BPC)
     product:
@@ -24494,6 +25056,8 @@ offers:
         quantity: 7556
       lp: 250000
   16346:
+    bpid: 32310
+    bpruns: 1
     id: 16346
     name: Scorpion Navy Issue(BPC)
     product:
@@ -24519,6 +25083,8 @@ offers:
         quantity: 6688
       lp: 250000
   16347:
+    bpid: 32310
+    bpruns: 1
     id: 16347
     name: Scorpion Navy Issue(BPC)
     product:
@@ -24843,6 +25409,8 @@ offers:
         quantity: 50
       lp: 1750
   16374:
+    bpid: 52684
+    bpruns: 1
     id: 16374
     name: Low-grade Mimesis Alpha(BPC)
     product:
@@ -24865,6 +25433,8 @@ offers:
         quantity: 89
       lp: 1000
   16375:
+    bpid: 52685
+    bpruns: 1
     id: 16375
     name: Low-grade Mimesis Beta(BPC)
     product:
@@ -24887,6 +25457,8 @@ offers:
         quantity: 94
       lp: 1500
   16376:
+    bpid: 52686
+    bpruns: 1
     id: 16376
     name: Low-grade Mimesis Gamma(BPC)
     product:
@@ -24909,6 +25481,8 @@ offers:
         quantity: 98
       lp: 2000
   16377:
+    bpid: 52687
+    bpruns: 1
     id: 16377
     name: Low-grade Mimesis Delta(BPC)
     product:
@@ -24931,6 +25505,8 @@ offers:
         quantity: 103
       lp: 3000
   16379:
+    bpid: 52688
+    bpruns: 1
     id: 16379
     name: Low-grade Mimesis Epsilon(BPC)
     product:
@@ -24953,6 +25529,8 @@ offers:
         quantity: 107
       lp: 5000
   16380:
+    bpid: 52689
+    bpruns: 1
     id: 16380
     name: Low-grade Mimesis Omega(BPC)
     product:
@@ -24975,6 +25553,8 @@ offers:
         quantity: 268
       lp: 7500
   16381:
+    bpid: 52791
+    bpruns: 1
     id: 16381
     name: Mid-grade Mimesis Alpha(BPC)
     product:
@@ -24997,6 +25577,8 @@ offers:
         quantity: 129
       lp: 1450
   16383:
+    bpid: 52792
+    bpruns: 1
     id: 16383
     name: Mid-grade Mimesis Beta(BPC)
     product:
@@ -25019,6 +25601,8 @@ offers:
         quantity: 136
       lp: 2175
   16384:
+    bpid: 52795
+    bpruns: 1
     id: 16384
     name: Mid-grade Mimesis Gamma(BPC)
     product:
@@ -25041,6 +25625,8 @@ offers:
         quantity: 142
       lp: 2900
   16385:
+    bpid: 52793
+    bpruns: 1
     id: 16385
     name: Mid-grade Mimesis Delta(BPC)
     product:
@@ -25063,6 +25649,8 @@ offers:
         quantity: 149
       lp: 4350
   16386:
+    bpid: 52794
+    bpruns: 1
     id: 16386
     name: Mid-grade Mimesis Epsilon(BPC)
     product:
@@ -25085,6 +25673,8 @@ offers:
         quantity: 155
       lp: 5000
   16387:
+    bpid: 52796
+    bpruns: 1
     id: 16387
     name: Mid-grade Mimesis Omega(BPC)
     product:
@@ -25107,6 +25697,8 @@ offers:
         quantity: 388
       lp: 7500
   16388:
+    bpid: 52972
+    bpruns: 1
     id: 16388
     name: High-grade Mimesis Alpha(BPC)
     product:
@@ -25129,6 +25721,8 @@ offers:
         quantity: 259
       lp: 2900
   16389:
+    bpid: 52974
+    bpruns: 1
     id: 16389
     name: High-grade Mimesis Beta(BPC)
     product:
@@ -25151,6 +25745,8 @@ offers:
         quantity: 272
       lp: 4350
   16390:
+    bpid: 52977
+    bpruns: 1
     id: 16390
     name: High-grade Mimesis Gamma(BPC)
     product:
@@ -25173,6 +25769,8 @@ offers:
         quantity: 285
       lp: 5800
   16391:
+    bpid: 52975
+    bpruns: 1
     id: 16391
     name: High-grade Mimesis Delta(BPC)
     product:
@@ -25195,6 +25793,8 @@ offers:
         quantity: 298
       lp: 8700
   16392:
+    bpid: 52976
+    bpruns: 1
     id: 16392
     name: High-grade Mimesis Epsilon(BPC)
     product:
@@ -25217,6 +25817,8 @@ offers:
         quantity: 311
       lp: 10000
   16393:
+    bpid: 52978
+    bpruns: 1
     id: 16393
     name: High-grade Mimesis Omega(BPC)
     product:
@@ -25431,6 +26033,8 @@ offers:
         quantity: 250
       lp: 20000
   16416:
+    bpid: 53722
+    bpruns: 1
     id: 16416
     name: Mid-grade Nirvana Alpha(BPC)
     product:
@@ -25451,6 +26055,8 @@ offers:
         quantity: 357
       lp: 7500
   16417:
+    bpid: 53723
+    bpruns: 1
     id: 16417
     name: Mid-grade Nirvana Beta(BPC)
     product:
@@ -25471,6 +26077,8 @@ offers:
         quantity: 372
       lp: 10000
   16418:
+    bpid: 53724
+    bpruns: 1
     id: 16418
     name: Mid-grade Nirvana Delta(BPC)
     product:
@@ -25491,6 +26099,8 @@ offers:
         quantity: 543
       lp: 25000
   16419:
+    bpid: 53725
+    bpruns: 1
     id: 16419
     name: Mid-grade Nirvana Epsilon(BPC)
     product:
@@ -25511,6 +26121,8 @@ offers:
         quantity: 757
       lp: 45000
   16420:
+    bpid: 53726
+    bpruns: 1
     id: 16420
     name: Mid-grade Nirvana Gamma(BPC)
     product:
@@ -25531,6 +26143,8 @@ offers:
         quantity: 532
       lp: 15000
   16421:
+    bpid: 53727
+    bpruns: 1
     id: 16421
     name: Mid-grade Nirvana Omega(BPC)
     product:
@@ -25553,6 +26167,8 @@ offers:
         quantity: 412
       lp: 85000
   16423:
+    bpid: 53728
+    bpruns: 1
     id: 16423
     name: High-grade Nirvana Alpha(BPC)
     product:
@@ -25573,6 +26189,8 @@ offers:
         quantity: 594
       lp: 23625
   16424:
+    bpid: 53729
+    bpruns: 1
     id: 16424
     name: High-grade Nirvana Beta(BPC)
     product:
@@ -25593,6 +26211,8 @@ offers:
         quantity: 620
       lp: 31500
   16425:
+    bpid: 53730
+    bpruns: 1
     id: 16425
     name: High-grade Nirvana Delta(BPC)
     product:
@@ -25613,6 +26233,8 @@ offers:
         quantity: 906
       lp: 78750
   16426:
+    bpid: 53731
+    bpruns: 1
     id: 16426
     name: High-grade Nirvana Epsilon(BPC)
     product:
@@ -25633,6 +26255,8 @@ offers:
         quantity: 1261
       lp: 141750
   16427:
+    bpid: 53732
+    bpruns: 1
     id: 16427
     name: High-grade Nirvana Gamma(BPC)
     product:
@@ -25653,6 +26277,8 @@ offers:
         quantity: 887
       lp: 47250
   16428:
+    bpid: 53733
+    bpruns: 1
     id: 16428
     name: High-grade Nirvana Omega(BPC)
     product:
@@ -25675,6 +26301,8 @@ offers:
         quantity: 687
       lp: 267750
   16429:
+    bpid: 53989
+    bpruns: 5
     id: 16429
     name: 5* Signal-15 'Needlejack' Filament(BPC)
     product:
@@ -25689,6 +26317,8 @@ offers:
         quantity: 7500
       lp: 35000
   16430:
+    bpid: 53988
+    bpruns: 5
     id: 16430
     name: 5* Noise-15 'Needlejack' Filament(BPC)
     product:
@@ -25703,6 +26333,8 @@ offers:
         quantity: 5000
       lp: 20000
   16431:
+    bpid: 53908
+    bpruns: 1
     id: 16431
     name: High-grade Savior Alpha(BPC)
     product:
@@ -25723,6 +26355,8 @@ offers:
         quantity: 594
       lp: 23625
   16432:
+    bpid: 53909
+    bpruns: 1
     id: 16432
     name: High-grade Savior Beta(BPC)
     product:
@@ -25743,6 +26377,8 @@ offers:
         quantity: 620
       lp: 31500
   16433:
+    bpid: 53911
+    bpruns: 1
     id: 16433
     name: High-grade Savior Delta(BPC)
     product:
@@ -25763,6 +26399,8 @@ offers:
         quantity: 906
       lp: 78750
   16434:
+    bpid: 53912
+    bpruns: 1
     id: 16434
     name: High-grade Savior Epsilon(BPC)
     product:
@@ -25783,6 +26421,8 @@ offers:
         quantity: 1261
       lp: 141750
   16435:
+    bpid: 53910
+    bpruns: 1
     id: 16435
     name: High-grade Savior Gamma(BPC)
     product:
@@ -25803,6 +26443,8 @@ offers:
         quantity: 887
       lp: 47250
   16436:
+    bpid: 53913
+    bpruns: 1
     id: 16436
     name: High-grade Savior Omega(BPC)
     product:
@@ -25825,6 +26467,8 @@ offers:
         quantity: 687
       lp: 267750
   16437:
+    bpid: 53914
+    bpruns: 1
     id: 16437
     name: Mid-grade Savior Alpha(BPC)
     product:
@@ -25845,6 +26489,8 @@ offers:
         quantity: 357
       lp: 7500
   16438:
+    bpid: 53915
+    bpruns: 1
     id: 16438
     name: Mid-grade Savior Beta(BPC)
     product:
@@ -25865,6 +26511,8 @@ offers:
         quantity: 372
       lp: 10000
   16439:
+    bpid: 53917
+    bpruns: 1
     id: 16439
     name: Mid-grade Savior Delta(BPC)
     product:
@@ -25885,6 +26533,8 @@ offers:
         quantity: 543
       lp: 25000
   16440:
+    bpid: 53918
+    bpruns: 1
     id: 16440
     name: Mid-grade Savior Epsilon(BPC)
     product:
@@ -25905,6 +26555,8 @@ offers:
         quantity: 757
       lp: 45000
   16441:
+    bpid: 53916
+    bpruns: 1
     id: 16441
     name: Mid-grade Savior Gamma(BPC)
     product:
@@ -25925,6 +26577,8 @@ offers:
         quantity: 532
       lp: 15000
   16442:
+    bpid: 53919
+    bpruns: 1
     id: 16442
     name: Mid-grade Savior Omega(BPC)
     product:
@@ -25947,6 +26601,8 @@ offers:
         quantity: 412
       lp: 85000
   16443:
+    bpid: 54422
+    bpruns: 1
     id: 16443
     name: Low-grade Hydra Alpha(BPC)
     product:
@@ -25967,6 +26623,8 @@ offers:
         quantity: 214
       lp: 3750
   16444:
+    bpid: 54423
+    bpruns: 1
     id: 16444
     name: Low-grade Hydra Beta(BPC)
     product:
@@ -25987,6 +26645,8 @@ offers:
         quantity: 223
       lp: 5000
   16445:
+    bpid: 54425
+    bpruns: 1
     id: 16445
     name: Low-grade Hydra Delta(BPC)
     product:
@@ -26007,6 +26667,8 @@ offers:
         quantity: 326
       lp: 12500
   16446:
+    bpid: 54426
+    bpruns: 1
     id: 16446
     name: Low-grade Hydra Epsilon(BPC)
     product:
@@ -26027,6 +26689,8 @@ offers:
         quantity: 454
       lp: 22500
   16447:
+    bpid: 54424
+    bpruns: 1
     id: 16447
     name: Low-grade Hydra Gamma(BPC)
     product:
@@ -26047,6 +26711,8 @@ offers:
         quantity: 319
       lp: 7500
   16448:
+    bpid: 54427
+    bpruns: 1
     id: 16448
     name: Low-grade Hydra Omega(BPC)
     product:
@@ -26069,6 +26735,8 @@ offers:
         quantity: 247
       lp: 42500
   16449:
+    bpid: 54416
+    bpruns: 1
     id: 16449
     name: Mid-grade Hydra Alpha(BPC)
     product:
@@ -26089,6 +26757,8 @@ offers:
         quantity: 357
       lp: 7500
   16450:
+    bpid: 54417
+    bpruns: 1
     id: 16450
     name: Mid-grade Hydra Beta(BPC)
     product:
@@ -26109,6 +26779,8 @@ offers:
         quantity: 372
       lp: 10000
   16451:
+    bpid: 54418
+    bpruns: 1
     id: 16451
     name: Mid-grade Hydra Gamma(BPC)
     product:
@@ -26129,6 +26801,8 @@ offers:
         quantity: 532
       lp: 15000
   16452:
+    bpid: 54419
+    bpruns: 1
     id: 16452
     name: Mid-grade Hydra Delta(BPC)
     product:
@@ -26149,6 +26823,8 @@ offers:
         quantity: 543
       lp: 25000
   16453:
+    bpid: 54420
+    bpruns: 1
     id: 16453
     name: Mid-grade Hydra Epsilon(BPC)
     product:
@@ -26169,6 +26845,8 @@ offers:
         quantity: 757
       lp: 45000
   16454:
+    bpid: 54421
+    bpruns: 1
     id: 16454
     name: Mid-grade Hydra Omega(BPC)
     product:
@@ -26191,6 +26869,8 @@ offers:
         quantity: 412
       lp: 85000
   16455:
+    bpid: 54410
+    bpruns: 1
     id: 16455
     name: High-grade Hydra Alpha(BPC)
     product:
@@ -26211,6 +26891,8 @@ offers:
         quantity: 594
       lp: 23625
   16456:
+    bpid: 54411
+    bpruns: 1
     id: 16456
     name: High-grade Hydra Beta(BPC)
     product:
@@ -26231,6 +26913,8 @@ offers:
         quantity: 620
       lp: 31500
   16457:
+    bpid: 54412
+    bpruns: 1
     id: 16457
     name: High-grade Hydra Gamma(BPC)
     product:
@@ -26251,6 +26935,8 @@ offers:
         quantity: 887
       lp: 47250
   16458:
+    bpid: 54413
+    bpruns: 1
     id: 16458
     name: High-grade Hydra Delta(BPC)
     product:
@@ -26271,6 +26957,8 @@ offers:
         quantity: 906
       lp: 78750
   16459:
+    bpid: 54414
+    bpruns: 1
     id: 16459
     name: High-grade Hydra Epsilon(BPC)
     product:
@@ -26291,6 +26979,8 @@ offers:
         quantity: 1261
       lp: 141750
   16460:
+    bpid: 54415
+    bpruns: 1
     id: 16460
     name: High-grade Hydra Omega(BPC)
     product:
@@ -26313,6 +27003,8 @@ offers:
         quantity: 687
       lp: 267750
   16461:
+    bpid: 54842
+    bpruns: 1
     id: 16461
     name: Skybreaker(BPC)
     product:
@@ -26349,6 +27041,8 @@ offers:
         quantity: 84444
       lp: 250
   16462:
+    bpid: 54843
+    bpruns: 1
     id: 16462
     name: Stormbringer(BPC)
     product:
@@ -26385,6 +27079,8 @@ offers:
         quantity: 1222222
       lp: 375
   16463:
+    bpid: 54844
+    bpruns: 1
     id: 16463
     name: Thunderchild(BPC)
     product:
@@ -26421,6 +27117,8 @@ offers:
         quantity: 6490333
       lp: 500
   16464:
+    bpid: 54845
+    bpruns: 1
     id: 16464
     name: Small Vorton Projector I(BPC)
     product:
@@ -26450,6 +27148,8 @@ offers:
         quantity: 10916
       lp: 200
   16465:
+    bpid: 54852
+    bpruns: 1
     id: 16465
     name: Medium Vorton Projector I(BPC)
     product:
@@ -26482,6 +27182,8 @@ offers:
         quantity: 54798
       lp: 300
   16466:
+    bpid: 54857
+    bpruns: 1
     id: 16466
     name: Large Vorton Projector I(BPC)
     product:
@@ -26516,6 +27218,8 @@ offers:
         quantity: 911040
       lp: 400
   16467:
+    bpid: 54848
+    bpruns: 1
     id: 16467
     name: Small Compact Vorton Projector(BPC)
     product:
@@ -26533,6 +27237,8 @@ offers:
         quantity: 4
       lp: 200
   16468:
+    bpid: 54849
+    bpruns: 1
     id: 16468
     name: Small Scoped Vorton Projector(BPC)
     product:
@@ -26550,6 +27256,8 @@ offers:
         quantity: 4
       lp: 200
   16469:
+    bpid: 54851
+    bpruns: 1
     id: 16469
     name: Small Consortium Vorton Projector(BPC)
     product:
@@ -26572,6 +27280,8 @@ offers:
         quantity: 10
       lp: 100
   16470:
+    bpid: 54853
+    bpruns: 1
     id: 16470
     name: Medium Compact Vorton Projector(BPC)
     product:
@@ -26590,6 +27300,8 @@ offers:
         quantity: 8
       lp: 300
   16471:
+    bpid: 54854
+    bpruns: 1
     id: 16471
     name: Medium Scoped Vorton Projector(BPC)
     product:
@@ -26608,6 +27320,8 @@ offers:
         quantity: 8
       lp: 300
   16472:
+    bpid: 54856
+    bpruns: 1
     id: 16472
     name: Medium Consortium Vorton Projector(BPC)
     product:
@@ -26630,6 +27344,8 @@ offers:
         quantity: 18
       lp: 200
   16473:
+    bpid: 54858
+    bpruns: 1
     id: 16473
     name: Large Compact Vorton Projector(BPC)
     product:
@@ -26648,6 +27364,8 @@ offers:
         quantity: 14
       lp: 400
   16474:
+    bpid: 54859
+    bpruns: 1
     id: 16474
     name: Large Scoped Vorton Projector(BPC)
     product:
@@ -26666,6 +27384,8 @@ offers:
         quantity: 14
       lp: 400
   16475:
+    bpid: 54846
+    bpruns: 1
     id: 16475
     name: Large Consortium Vorton Projector(BPC)
     product:
@@ -26688,6 +27408,8 @@ offers:
         quantity: 36
       lp: 300
   16476:
+    bpid: 54874
+    bpruns: 1
     id: 16476
     name: Compact Vorton Tuning System I(BPC)
     product:
@@ -26706,6 +27428,8 @@ offers:
         quantity: 10
       lp: 50
   16477:
+    bpid: 54873
+    bpruns: 1
     id: 16477
     name: Vorton Tuning System I(BPC)
     product:
@@ -26730,6 +27454,8 @@ offers:
         quantity: 8050
       lp: 200
   16478:
+    bpid: 54861
+    bpruns: 10
     id: 16478
     name: 10* GalvaSurge Condenser Pack S(BPC)
     product:
@@ -26753,6 +27479,8 @@ offers:
       - id: 34
         quantity: 8160
   16479:
+    bpid: 54862
+    bpruns: 10
     id: 16479
     name: 10* MesmerFlux Condenser Pack S(BPC)
     product:
@@ -26776,6 +27504,8 @@ offers:
       - id: 34
         quantity: 8160
   16480:
+    bpid: 54863
+    bpruns: 10
     id: 16480
     name: 10* BlastShot Condenser Pack S(BPC)
     product:
@@ -26799,6 +27529,8 @@ offers:
       - id: 34
         quantity: 8160
   16481:
+    bpid: 54864
+    bpruns: 10
     id: 16481
     name: 10* SlamBolt Condenser Pack S(BPC)
     product:
@@ -26822,6 +27554,8 @@ offers:
       - id: 34
         quantity: 8160
   16482:
+    bpid: 54865
+    bpruns: 10
     id: 16482
     name: 10* GalvaSurge Condenser Pack M(BPC)
     product:
@@ -26845,6 +27579,8 @@ offers:
       - id: 34
         quantity: 26940
   16483:
+    bpid: 54866
+    bpruns: 10
     id: 16483
     name: 10* MesmerFlux Condenser Pack M(BPC)
     product:
@@ -26868,6 +27604,8 @@ offers:
       - id: 34
         quantity: 26940
   16484:
+    bpid: 54867
+    bpruns: 10
     id: 16484
     name: 10* BlastShot Condenser Pack M(BPC)
     product:
@@ -26891,6 +27629,8 @@ offers:
       - id: 34
         quantity: 26940
   16485:
+    bpid: 54868
+    bpruns: 10
     id: 16485
     name: 10* SlamBolt Condenser Pack M(BPC)
     product:
@@ -26914,6 +27654,8 @@ offers:
       - id: 34
         quantity: 26940
   16486:
+    bpid: 54869
+    bpruns: 10
     id: 16486
     name: 10* GalvaSurge Condenser Pack L(BPC)
     product:
@@ -26939,6 +27681,8 @@ offers:
       - id: 34
         quantity: 142240
   16487:
+    bpid: 54870
+    bpruns: 10
     id: 16487
     name: 10* MesmerFlux Condenser Pack L(BPC)
     product:
@@ -26964,6 +27708,8 @@ offers:
       - id: 34
         quantity: 142240
   16488:
+    bpid: 54871
+    bpruns: 10
     id: 16488
     name: 10* BlastShot Condenser Pack L(BPC)
     product:
@@ -26989,6 +27735,8 @@ offers:
       - id: 34
         quantity: 142240
   16489:
+    bpid: 54872
+    bpruns: 10
     id: 16489
     name: 10* SlamBolt Condenser Pack L(BPC)
     product:
@@ -27100,6 +27848,8 @@ offers:
       - id: 55831
         quantity: 15
   17006:
+    bpid: 48097
+    bpruns: 1
     id: 17006
     name: Tetryon Exotic Plasma S(BPC)
     product:
@@ -27119,6 +27869,8 @@ offers:
       - id: 48112
         quantity: 45
   17007:
+    bpid: 48098
+    bpruns: 1
     id: 17007
     name: Baryon Exotic Plasma S(BPC)
     product:
@@ -27138,6 +27890,8 @@ offers:
       - id: 48112
         quantity: 45
   17008:
+    bpid: 48099
+    bpruns: 1
     id: 17008
     name: Meson Exotic Plasma S(BPC)
     product:
@@ -27157,6 +27911,8 @@ offers:
       - id: 48112
         quantity: 45
   17009:
+    bpid: 48102
+    bpruns: 1
     id: 17009
     name: Tetryon Exotic Plasma M(BPC)
     product:
@@ -27176,6 +27932,8 @@ offers:
       - id: 34
         quantity: 143
   17010:
+    bpid: 48103
+    bpruns: 1
     id: 17010
     name: Baryon Exotic Plasma M(BPC)
     product:
@@ -27195,6 +27953,8 @@ offers:
       - id: 34
         quantity: 143
   17011:
+    bpid: 48104
+    bpruns: 1
     id: 17011
     name: Meson Exotic Plasma M(BPC)
     product:
@@ -27214,6 +27974,8 @@ offers:
       - id: 34
         quantity: 143
   17012:
+    bpid: 48108
+    bpruns: 1
     id: 17012
     name: Baryon Exotic Plasma L(BPC)
     product:
@@ -27233,6 +27995,8 @@ offers:
       - id: 35
         quantity: 580
   17013:
+    bpid: 48109
+    bpruns: 1
     id: 17013
     name: Meson Exotic Plasma L(BPC)
     product:
@@ -27252,6 +28016,8 @@ offers:
       - id: 35
         quantity: 580
   17014:
+    bpid: 48107
+    bpruns: 1
     id: 17014
     name: Tetryon Exotic Plasma L(BPC)
     product:
@@ -27271,6 +28037,8 @@ offers:
       - id: 35
         quantity: 580
   17015:
+    bpid: 53303
+    bpruns: 1
     id: 17015
     name: Tetryon Exotic Plasma XL(BPC)
     product:
@@ -27290,6 +28058,8 @@ offers:
       - id: 35
         quantity: 5894
   17016:
+    bpid: 53304
+    bpruns: 1
     id: 17016
     name: Meson Exotic Plasma XL(BPC)
     product:
@@ -27309,6 +28079,8 @@ offers:
       - id: 35
         quantity: 5894
   17017:
+    bpid: 53031
+    bpruns: 1
     id: 17017
     name: Baryon Exotic Plasma XL(BPC)
     product:
@@ -27486,6 +28258,8 @@ offers:
       - id: 56708
         quantity: 4000
   17036:
+    bpid: 47966
+    bpruns: 1
     id: 17036
     name: Damavik(BPC)
     product:
@@ -27515,6 +28289,8 @@ offers:
       - id: 34
         quantity: 23304
   17037:
+    bpid: 49714
+    bpruns: 1
     id: 17037
     name: Kikimora(BPC)
     product:
@@ -27544,6 +28320,8 @@ offers:
       - id: 34
         quantity: 43304
   17038:
+    bpid: 49716
+    bpruns: 1
     id: 17038
     name: Rodiva(BPC)
     product:
@@ -27573,6 +28351,8 @@ offers:
       - id: 34
         quantity: 514356
   17039:
+    bpid: 47967
+    bpruns: 1
     id: 17039
     name: Vedmak(BPC)
     product:
@@ -27602,6 +28382,8 @@ offers:
       - id: 34
         quantity: 614356
   17040:
+    bpid: 49715
+    bpruns: 1
     id: 17040
     name: Drekavac(BPC)
     product:
@@ -27631,6 +28413,8 @@ offers:
       - id: 34
         quantity: 914356
   17041:
+    bpid: 47968
+    bpruns: 1
     id: 17041
     name: Leshak(BPC)
     product:
@@ -27703,6 +28487,8 @@ offers:
       - id: 56708
         quantity: 5400
   17046:
+    bpid: 53032
+    bpruns: 1
     id: 17046
     name: Capital Ultratidal Entropic Mounting(BPC)
     product:
@@ -27738,6 +28524,8 @@ offers:
       - id: 34
         quantity: 546912
   17047:
+    bpid: 53033
+    bpruns: 1
     id: 17047
     name: Capital Radiation Conversion Unit(BPC)
     product:
@@ -27773,6 +28561,8 @@ offers:
       - id: 34
         quantity: 510149
   17048:
+    bpid: 53034
+    bpruns: 1
     id: 17048
     name: Capital Absorption Thruster Array(BPC)
     product:
@@ -27808,6 +28598,8 @@ offers:
       - id: 34
         quantity: 457050
   17049:
+    bpid: 47969
+    bpruns: 1
     id: 17049
     name: Light Entropic Disintegrator I(BPC)
     product:
@@ -27830,6 +28622,8 @@ offers:
       - id: 34
         quantity: 3556
   17050:
+    bpid: 48469
+    bpruns: 1
     id: 17050
     name: Light Compact Entropic Disintegrator(BPC)
     product:
@@ -27852,6 +28646,8 @@ offers:
       - id: 34
         quantity: 3556
   17051:
+    bpid: 48470
+    bpruns: 1
     id: 17051
     name: Light Scoped Entropic Disintegrator(BPC)
     product:
@@ -27874,6 +28670,8 @@ offers:
       - id: 34
         quantity: 3556
   17052:
+    bpid: 47971
+    bpruns: 1
     id: 17052
     name: Heavy Entropic Disintegrator I(BPC)
     product:
@@ -27899,6 +28697,8 @@ offers:
       - id: 34
         quantity: 19089
   17053:
+    bpid: 48471
+    bpruns: 1
     id: 17053
     name: Heavy Compact Entropic Disintegrator(BPC)
     product:
@@ -27924,6 +28724,8 @@ offers:
       - id: 34
         quantity: 19089
   17054:
+    bpid: 48472
+    bpruns: 1
     id: 17054
     name: Heavy Scoped Entropic Disintegrator(BPC)
     product:
@@ -27949,6 +28751,8 @@ offers:
       - id: 34
         quantity: 19089
   17055:
+    bpid: 47973
+    bpruns: 1
     id: 17055
     name: Supratidal Entropic Disintegrator I(BPC)
     product:
@@ -27978,6 +28782,8 @@ offers:
       - id: 34
         quantity: 328307
   17056:
+    bpid: 48473
+    bpruns: 1
     id: 17056
     name: Supratidal Compact Entropic Disintegrator(BPC)
     product:
@@ -28007,6 +28813,8 @@ offers:
       - id: 34
         quantity: 328307
   17057:
+    bpid: 48474
+    bpruns: 1
     id: 17057
     name: Supratidal Scoped Entropic Disintegrator(BPC)
     product:
@@ -28036,6 +28844,8 @@ offers:
       - id: 34
         quantity: 328307
   17058:
+    bpid: 53030
+    bpruns: 1
     id: 17058
     name: Ultratidal Entropic Disintegrator I(BPC)
     product:
@@ -28061,6 +28871,8 @@ offers:
       - id: 34
         quantity: 649026
   17059:
+    bpid: 48095
+    bpruns: 1
     id: 17059
     name: Entropic Radiation Sink I(BPC)
     product:
@@ -28082,6 +28894,8 @@ offers:
       - id: 34
         quantity: 676
   17060:
+    bpid: 49776
+    bpruns: 1
     id: 17060
     name: Heavy Mutadaptive Scoped Remote Armor Repairer(BPC)
     product:
@@ -28103,6 +28917,8 @@ offers:
       - id: 34
         quantity: 1506
   17061:
+    bpid: 49777
+    bpruns: 1
     id: 17061
     name: Heavy Mutadaptive Compact Remote Armor Repairer(BPC)
     product:
@@ -28124,6 +28940,8 @@ offers:
       - id: 34
         quantity: 1506
   17062:
+    bpid: 49775
+    bpruns: 1
     id: 17062
     name: Heavy Mutadaptive Remote Armor Repairer I(BPC)
     product:
@@ -28145,6 +28963,8 @@ offers:
       - id: 34
         quantity: 1506
   17063:
+    bpid: 52684
+    bpruns: 1
     id: 17063
     name: Low-grade Mimesis Alpha(BPC)
     product:
@@ -28168,6 +28988,8 @@ offers:
       - id: 2367
         quantity: 89
   17064:
+    bpid: 52685
+    bpruns: 1
     id: 17064
     name: Low-grade Mimesis Beta(BPC)
     product:
@@ -28191,6 +29013,8 @@ offers:
       - id: 2367
         quantity: 94
   17065:
+    bpid: 52686
+    bpruns: 1
     id: 17065
     name: Low-grade Mimesis Gamma(BPC)
     product:
@@ -28214,6 +29038,8 @@ offers:
       - id: 2367
         quantity: 98
   17066:
+    bpid: 52687
+    bpruns: 1
     id: 17066
     name: Low-grade Mimesis Delta(BPC)
     product:
@@ -28237,6 +29063,8 @@ offers:
       - id: 2367
         quantity: 103
   17067:
+    bpid: 52688
+    bpruns: 1
     id: 17067
     name: Low-grade Mimesis Epsilon(BPC)
     product:
@@ -28260,6 +29088,8 @@ offers:
       - id: 2367
         quantity: 107
   17068:
+    bpid: 52791
+    bpruns: 1
     id: 17068
     name: Mid-grade Mimesis Alpha(BPC)
     product:
@@ -28285,6 +29115,8 @@ offers:
       - id: 2367
         quantity: 129
   17069:
+    bpid: 52792
+    bpruns: 1
     id: 17069
     name: Mid-grade Mimesis Beta(BPC)
     product:
@@ -28310,6 +29142,8 @@ offers:
       - id: 2367
         quantity: 136
   17070:
+    bpid: 52795
+    bpruns: 1
     id: 17070
     name: Mid-grade Mimesis Gamma(BPC)
     product:
@@ -28335,6 +29169,8 @@ offers:
       - id: 2367
         quantity: 142
   17071:
+    bpid: 52793
+    bpruns: 1
     id: 17071
     name: Mid-grade Mimesis Delta(BPC)
     product:
@@ -28360,6 +29196,8 @@ offers:
       - id: 2367
         quantity: 149
   17072:
+    bpid: 52794
+    bpruns: 1
     id: 17072
     name: Mid-grade Mimesis Epsilon(BPC)
     product:
@@ -28385,6 +29223,8 @@ offers:
       - id: 2367
         quantity: 155
   17073:
+    bpid: 52972
+    bpruns: 1
     id: 17073
     name: High-grade Mimesis Alpha(BPC)
     product:
@@ -28412,6 +29252,8 @@ offers:
       - id: 2367
         quantity: 259
   17074:
+    bpid: 52974
+    bpruns: 1
     id: 17074
     name: High-grade Mimesis Beta(BPC)
     product:
@@ -28439,6 +29281,8 @@ offers:
       - id: 2367
         quantity: 272
   17075:
+    bpid: 52977
+    bpruns: 1
     id: 17075
     name: High-grade Mimesis Gamma(BPC)
     product:
@@ -28466,6 +29310,8 @@ offers:
       - id: 2367
         quantity: 285
   17076:
+    bpid: 52975
+    bpruns: 1
     id: 17076
     name: High-grade Mimesis Delta(BPC)
     product:
@@ -28493,6 +29339,8 @@ offers:
       - id: 2367
         quantity: 298
   17077:
+    bpid: 52976
+    bpruns: 1
     id: 17077
     name: High-grade Mimesis Epsilon(BPC)
     product:
@@ -28520,6 +29368,8 @@ offers:
       - id: 2367
         quantity: 311
   17078:
+    bpid: 52689
+    bpruns: 1
     id: 17078
     name: Low-grade Mimesis Omega(BPC)
     product:
@@ -28545,6 +29395,8 @@ offers:
       - id: 2367
         quantity: 268
   17079:
+    bpid: 52796
+    bpruns: 1
     id: 17079
     name: Mid-grade Mimesis Omega(BPC)
     product:
@@ -28572,6 +29424,8 @@ offers:
       - id: 2367
         quantity: 388
   17080:
+    bpid: 52978
+    bpruns: 1
     id: 17080
     name: High-grade Mimesis Omega(BPC)
     product:
@@ -28601,6 +29455,8 @@ offers:
       - id: 2367
         quantity: 776
   17081:
+    bpid: 53029
+    bpruns: 1
     id: 17081
     name: Zirnitra(BPC)
     product:
@@ -28640,6 +29496,8 @@ offers:
       - id: 21039
         quantity: 28
   17082:
+    bpid: 52348
+    bpruns: 1
     id: 17082
     name: Veles Light Entropic Disintegrator(BPC)
     product:
@@ -28659,6 +29517,8 @@ offers:
       - id: 48112
         quantity: 28
   17083:
+    bpid: 52349
+    bpruns: 1
     id: 17083
     name: Veles Heavy Entropic Disintegrator(BPC)
     product:
@@ -28678,6 +29538,8 @@ offers:
       - id: 48112
         quantity: 52
   17084:
+    bpid: 52350
+    bpruns: 1
     id: 17084
     name: Veles Supratidal Entropic Disintegrator(BPC)
     product:
@@ -28835,6 +29697,8 @@ offers:
       - id: 56716
         quantity: 10
   17096:
+    bpid: 56832
+    bpruns: 50
     id: 17096
     name: 50* Nanoheuristic Clone Mapper(BPC)
     product:

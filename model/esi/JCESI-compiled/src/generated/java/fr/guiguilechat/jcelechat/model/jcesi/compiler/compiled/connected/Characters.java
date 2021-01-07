@@ -56,7 +56,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_ship;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skills;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_stats;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_titles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
@@ -108,7 +107,6 @@ public class Characters {
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_orders>> get_characters_character_id_orders_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_roles>> get_characters_character_id_roles_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_skillqueue>> get_characters_character_id_skillqueue_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_stats>> get_characters_character_id_stats_holder = new HashMap<>();
     private final Map<K_1_int_int, ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id>> get_characters_character_id_calendar_event_id_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_clones>> get_characters_character_id_clones_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_mail_labels>> get_characters_character_id_mail_labels_holder = new HashMap<>();
@@ -2200,60 +2198,6 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_skillqueue_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Returns aggregate yearly stats for a character
-     * 
-     * cache over {@link Swagger#get_characters_stats}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_stats> stats(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_stats> ret = get_characters_character_id_stats_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_stats_holder);
-            try {
-                synchronized (get_characters_character_id_stats_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_stats_holder);
-                    {
-                        ret = get_characters_character_id_stats_holder.get(character_id);
-                        if (ret == null) {
-                            ObservableList<R_get_characters_character_id_stats> holder = FXCollections.observableArrayList();
-                            ret = (cache).toHolder(holder);
-                            get_characters_character_id_stats_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_stats> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_stats", (page, properties) -> (cache.swagger).get_characters_stats(character_id, properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_stats_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_stats_holder);
             }
         }
         return ret;
