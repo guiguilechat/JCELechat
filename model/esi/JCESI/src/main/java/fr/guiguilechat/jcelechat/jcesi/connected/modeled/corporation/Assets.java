@@ -10,6 +10,7 @@ import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG6;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.CorpSAG7;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Deliveries;
+import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.DroneBay;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Hangar;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.HangarAll;
 import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag.Impounded;
@@ -26,6 +27,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
@@ -33,7 +35,9 @@ import java.util.stream.StreamSupport;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Assets.ItemForest;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.Assets.ItemNode;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_post_assets_names_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
@@ -51,6 +55,41 @@ public class Assets {
 		this.con = con;
 	}
 
+	private static final Set<get_corporations_corporation_id_assets_location_flag> allowed_flags = new HashSet<>(
+			Arrays.asList(DroneBay, ShipHangar));
+
+	protected static boolean canName(R_get_corporations_corporation_id_assets asset) {
+		return asset.is_singleton && allowed_flags.contains(asset.location_flag);
+	}
+
+	// get the names of specific assets
+	protected void name(Map<Long, ItemNode> items) {
+		if (items == null || items.size() == 0) {
+			return ;
+		}
+		ArrayList<M_post_assets_names_2> ret = new ArrayList<>();
+		long[] ids = items.values().stream().filter(Assets::canName).mapToLong(item -> item.item_id).toArray();
+		int start = 0;
+		while (start < ids.length) {
+			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + 1000, ids.length));
+			Requested<M_post_assets_names_2[]> names = con.raw.post_corporations_assets_names(con.corporation.getId(), ids2,
+					null);
+			while (names.isServerError()) {
+				names = con.raw.post_corporations_assets_names(con.corporation.getId(), ids2, null);
+			}
+			if (names.isOk()) {
+				ret.addAll(Arrays.asList(names.getOK()));
+			} else {
+				System.err.println(" error " + names.getError() + " response=" + names.getResponseCode());
+			}
+			start += 1000;
+		}
+
+		for(M_post_assets_names_2 item : ret) {
+			items.get(item.item_id).withOptional(item.name);
+		}
+	}
+
 	public ObsListHolder<R_get_corporations_corporation_id_assets> getList() {
 		// caching is already present at the cache level.
 		return con.raw.cache.corporations.assets(con.corporation.getId());
@@ -61,12 +100,16 @@ public class Assets {
 		for (R_get_corporations_corporation_id_assets item : assets) {
 			ret.itemsByID.put(item.item_id, new ItemNode(item));
 		}
+		// fetch the names
+		name(ret.itemsByID);
+
+		// place the items in the roots.
 		for (ItemNode itemNode : ret.itemsByID.values()) {
 			ItemNode parent = ret.itemsByID.get(itemNode.location_id);
 			if (parent == null) {
 				Location location = Location.resolve(con, itemNode.location_id);
 				ret.roots.computeIfAbsent(location, loc -> new HashMap<>())
-						.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
+				.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
 			} else {
 				parent.contained.computeIfAbsent(itemNode.location_flag, f -> new ArrayList<>()).add(itemNode);
 			}

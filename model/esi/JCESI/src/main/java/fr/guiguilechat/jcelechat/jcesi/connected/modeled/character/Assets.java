@@ -25,7 +25,9 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_post_assets_names_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
@@ -49,6 +51,38 @@ public class Assets {
 
 	public Assets(ESIAccount con) {
 		this.con = con;
+	}
+
+	protected static boolean canName(R_get_corporations_corporation_id_assets asset) {
+		return asset.is_singleton && asset.location_flag != get_corporations_corporation_id_assets_location_flag.AutoFit;
+	}
+
+	// get the names of specific assets
+	protected void name(Map<Long, ItemNode> items) {
+		if (items == null || items.size() == 0) {
+			return;
+		}
+		ArrayList<M_post_assets_names_2> ret = new ArrayList<>();
+		long[] ids = items.values().stream().filter(Assets::canName).mapToLong(item -> item.item_id).toArray();
+		int start = 0;
+		while (start < ids.length) {
+			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + 1000, ids.length));
+			Requested<M_post_assets_names_2[]> names = con.raw.post_characters_assets_names(con.characterId(), ids2,
+					null);
+			while (names.isServerError()) {
+				names = con.raw.post_characters_assets_names(con.characterId(), ids2, null);
+			}
+			if (names.isOk()) {
+				ret.addAll(Arrays.asList(names.getOK()));
+			} else {
+				System.err.println(" error " + names.getError() + " response=" + names.getResponseCode());
+			}
+			start += 1000;
+		}
+
+		for (M_post_assets_names_2 item : ret) {
+			items.get(item.item_id).withOptional(item.name);
+		}
 	}
 
 	/**
@@ -103,11 +137,23 @@ public class Assets {
 			return type;
 		}
 
+		private String optional = null;
+
+		public ItemNode withOptional(String optional) {
+			this.optional = optional;
+			name = null;
+			return this;
+		}
+
 		private transient String name = null;
 
 		public String name() {
 			if (name == null) {
-				name = type().name;
+				if (optional == null) {
+					name = type().name;
+				} else {
+					name = "["+optional+"] "+type().name;
+				}
 			}
 			return name;
 		}
@@ -176,6 +222,11 @@ public class Assets {
 		for (R_get_characters_character_id_assets item : assets) {
 			ret.itemsByID.put(item.item_id, new ItemNode(item));
 		}
+
+		// fetch the names
+		name(ret.itemsByID);
+
+		// place the items in the roots.
 		for (ItemNode itemNode : ret.itemsByID.values()) {
 			ItemNode parent = ret.itemsByID.get(itemNode.location_id);
 			if (parent == null) {
