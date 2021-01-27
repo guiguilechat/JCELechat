@@ -44,7 +44,8 @@ import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
-import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
 public class EveCharacter {
 
@@ -99,239 +100,130 @@ public class EveCharacter {
 	// roles
 	//
 
-	public ObsObjHolder<R_get_characters_character_id_roles> getRolesData() {
-		return con.connection().cache().characters.roles(con.characterId());
-	}
+	@Getter(lazy = true)
+	private final ObsObjHolder<R_get_characters_character_id_roles> allRoles = con.connection().cache().characters
+	.roles(con.characterId());
 
-	private ObsSetHolder<get_characters_character_id_roles_roles> rolesCache = null;
+	@Getter(lazy = true)
+	private final ObsSetHolder<get_characters_character_id_roles_roles> roles = getAllRoles()
+	.toList(roles -> Arrays.asList(roles.roles)).distinct();
 
-	public ObsSetHolder<get_characters_character_id_roles_roles> getRoles() {
-		if (rolesCache == null) {
-			ObsObjHolder<R_get_characters_character_id_roles> data = getRolesData();
-			LockWatchDog.BARKER.syncExecute(data, () -> {
-				if (rolesCache == null) {
-					rolesCache = data.toList(roles -> Arrays.asList(roles.roles)).distinct();
-				}
-			});
-		}
-		return rolesCache;
-	}
+	@Getter(lazy = true)
+	private final ObsSetHolder<get_characters_character_id_roles_roles_at_hq> rolesHQ = getAllRoles()
+	.toList(roles -> Arrays.asList(roles.roles_at_hq)).distinct();
 
-	private ObsSetHolder<get_characters_character_id_roles_roles_at_hq> rolesHQCache = null;
+	@Getter(lazy = true)
+	private final ObsSetHolder<get_characters_character_id_roles_roles_at_base> rolesBase = getAllRoles()
+	.toList(roles -> Arrays.asList(roles.roles_at_base)).distinct();
 
-	public ObsSetHolder<get_characters_character_id_roles_roles_at_hq> getRolesHQ() {
-		if (rolesHQCache == null) {
-			ObsObjHolder<R_get_characters_character_id_roles> data = getRolesData();
-			LockWatchDog.BARKER.syncExecute(data, () -> {
-				if (rolesHQCache == null) {
-					rolesHQCache = data.toList(roles -> Arrays.asList(roles.roles_at_hq)).distinct();
-				}
-			});
-		}
-		return rolesHQCache;
-	}
-
-	private ObsSetHolder<get_characters_character_id_roles_roles_at_base> rolesBaseCache = null;
-
-	public ObsSetHolder<get_characters_character_id_roles_roles_at_base> getRolesBase() {
-		if (rolesBaseCache == null) {
-			ObsObjHolder<R_get_characters_character_id_roles> data = getRolesData();
-			LockWatchDog.BARKER.syncExecute(data, () -> {
-				if (rolesBaseCache == null) {
-					rolesBaseCache = data.toList(roles -> Arrays.asList(roles.roles_at_base)).distinct();
-				}
-			});
-		}
-		return rolesBaseCache;
-	}
-
-	private ObsSetHolder<get_characters_character_id_roles_roles_at_other> rolesOtherCache = null;
-
-	public ObsSetHolder<get_characters_character_id_roles_roles_at_other> getRolesOthers() {
-		if (rolesOtherCache == null) {
-			ObsObjHolder<R_get_characters_character_id_roles> data = getRolesData();
-			LockWatchDog.BARKER.syncExecute(data, () -> {
-				if (rolesOtherCache == null) {
-					rolesOtherCache = data.toList(roles -> Arrays.asList(roles.roles_at_other)).distinct();
-				}
-			});
-		}
-		return rolesOtherCache;
-	}
+	@Getter(lazy = true)
+	private final ObsSetHolder<get_characters_character_id_roles_roles_at_other> rolesOther = getAllRoles()
+	.toList(roles -> Arrays.asList(roles.roles_at_other)).distinct();
 
 	//
 	// online state
 	//
 
-	private ObsObjHolder<R_get_characters_character_id_online> online = null;
+	@Getter(lazy = true)
+	private final ObsObjHolder<R_get_characters_character_id_online> online = con.connection().cache().characters
+	.online(con.characterId());
 
-	protected ObsObjHolder<R_get_characters_character_id_online> getOnline() {
-		if (online == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (online == null) {
-					online = con.connection().cache().characters.online(con.characterId());
-				}
-			});
-		}
-		return online;
-	}
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsBoolHolder isOnline = getOnline().test(onl -> onl.online);
 
-	private ObsBoolHolder isonline = null;
+	@Getter(lazy = true)
+	private final ObsObjHolder<OffsetDateTime> lastlogin = getOnline().map(onl -> ESITools.convertDate(onl.last_login));
 
-	public ObsBoolHolder isOnline() {
-		if (isonline == null) {
-			LockWatchDog.BARKER.syncExecute(getOnline(), () -> {
-				if (isonline == null) {
-					isonline = getOnline().test(onl -> onl.online);
-				}
-			});
-		}
-		return isonline;
-	}
-
-	private ObsObjHolder<OffsetDateTime> lastlogin = null;
-
-	public ObsObjHolder<OffsetDateTime> getLastLogin() {
-		if (lastlogin == null) {
-			LockWatchDog.BARKER.syncExecute(getOnline(), () -> {
-				if (lastlogin == null) {
-					lastlogin = getOnline().map(onl -> ESITools.convertDate(onl.last_login));
-				}
-			});
-		}
-		return lastlogin;
-	}
-
-	private ObsObjHolder<OffsetDateTime> lastlogout = null;
-
-	public ObsObjHolder<OffsetDateTime> getLastlogout() {
-		if (lastlogout == null) {
-			LockWatchDog.BARKER.syncExecute(getOnline(), () -> {
-				if (lastlogout == null) {
-					lastlogout = getOnline().map(onl -> ESITools.convertDate(onl.last_logout));
-				}
-			});
-		}
-		return lastlogout;
-	}
+	@Getter(lazy = true)
+	private final ObsObjHolder<OffsetDateTime> lastlogout = getOnline().map(onl -> ESITools.convertDate(onl.last_logout));
 
 	// slots for industry jobs
 
-	private ObsIntHolder cacheMaxResearchSlots = null;
+	/**
+	 *
+	 * the max research slots this character has from its skills.
+	 */
+	@Getter(lazy = true)
+	private final ObsIntHolder maxResearchSlots = makeMaxResearchSlots();
+
+	protected ObsIntHolder makeMaxResearchSlots() {
+		ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
+		return cskills.at(3406, 0).mapInt(i -> i).add(cskills.at(24624, 0).mapInt(i -> i)).add(1);
+	}
 
 	/**
 	 *
-	 * @return the max research slots this character has from its skills.
+	 * the amount of research slots this character has available
 	 */
-	public ObsIntHolder getMaxResearchSlots() {
-		if (cacheMaxResearchSlots == null) {
-			ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
-			synchronized (cskills) {
-				if (cacheMaxResearchSlots == null) {
-					cacheMaxResearchSlots = cskills.at(3406, 0).mapInt(i -> i).add(cskills.at(24624, 0).mapInt(i -> i)).add(1);
-				}
-			}
-		}
-		return cacheMaxResearchSlots;
-	}
+	@Getter(lazy = true)
+	private final ObsIntHolder availResSlots = makeAvailResSlots();
 
-	private ObsIntHolder cacheAvailResSlots;
+	protected ObsIntHolder makeAvailResSlots() {
+		ObsIntHolder allSlots = getMaxResearchSlots();
+		ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getResearchJobs();
+		ObsIntHolder corpOwnedJobs = con.corporation.industry.getResearchJobs()
+				.filter(j -> j.installer_id == con.characterId()).size();
+		return allSlots.sub(jobs.size()).sub(corpOwnedJobs);
+	}
 
 	/**
 	 *
-	 * @return the amount of research slots this character has available
+	 * the max production slots this character has from its skills.
 	 */
-	public ObsIntHolder getAvailResSlots() {
-		if (cacheAvailResSlots == null) {
-			ObsIntHolder allSlots = getMaxResearchSlots();
-			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getResearchJobs();
-			synchronized (jobs) {
-				if (cacheAvailResSlots == null) {
-					ObsIntHolder corpOwnedJobs = con.corporation.industry.getResearchJobs()
-							.filter(j -> j.installer_id == con.characterId()).size();
-					cacheAvailResSlots = allSlots.sub(jobs.size()).sub(corpOwnedJobs);
-				}
-			}
-		}
-		return cacheAvailResSlots;
-	}
+	@Getter(lazy = true)
+	private final ObsIntHolder maxProdSlots = makeMaxProdSlots();
 
-	private ObsIntHolder cacheMaxProdSlots = null;
+	protected ObsIntHolder makeMaxProdSlots() {
+		ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
+		return cskills.at(3387, 0).mapInt(i -> i).add(cskills.at(24625, 0).mapInt(i -> i)).add(1);
+	}
 
 	/**
 	 *
-	 * @return the max production slots this character has from its skills.
+	 * the amount of production slots this character has available
 	 */
-	public ObsIntHolder getMaxProdSlots() {
-		if (cacheMaxProdSlots == null) {
-			ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
-			synchronized (cskills) {
-				if (cacheMaxProdSlots == null) {
-					cacheMaxProdSlots = cskills.at(3387, 0).mapInt(i -> i).add(cskills.at(24625, 0).mapInt(i -> i)).add(1);
-				}
-			}
-		}
-		return cacheMaxProdSlots;
-	}
+	@Getter(lazy = true)
+	private final ObsIntHolder availProdSlots = makeAvailProdSlots();
 
-	private ObsIntHolder cacheAvailProdSlots;
+	protected ObsIntHolder makeAvailProdSlots() {
+		ObsIntHolder allSlots = getMaxProdSlots();
+		ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getProductionJobs();
+		ObsIntHolder corpOwnedJobs = con.corporation.industry.getProductionJobs()
+				.filter(j -> j.installer_id == con.characterId()).size();
+		return allSlots.sub(jobs.size()).sub(corpOwnedJobs);
+	}
 
 	/**
 	 *
-	 * @return the amount of production slots this character has available
+	 * the max reaction slots this character has from its skills.
 	 */
-	public ObsIntHolder getAvailProdSlots() {
-		if (cacheAvailProdSlots == null) {
-			ObsIntHolder allSlots = getMaxProdSlots();
-			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getProductionJobs();
-			synchronized (jobs) {
-				if (cacheAvailProdSlots == null) {
-					ObsIntHolder corpOwnedJobs = con.corporation.industry.getProductionJobs()
-							.filter(j -> j.installer_id == con.characterId()).size();
-					cacheAvailProdSlots = allSlots.sub(jobs.size()).sub(corpOwnedJobs);
-				}
-			}
-		}
-		return cacheAvailProdSlots;
-	}
+	@Getter(lazy = true)
+	private final ObsIntHolder maxReactionSlots = makeMaxReactionSlots();
 
-	private ObsIntHolder cacheMaxReactionSlots = null;
+	protected ObsIntHolder makeMaxReactionSlots() {
+		ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
+		return cskills.at(45749, 0).mapInt(i -> i).add(cskills.at(45748, 0).mapInt(i -> i)).add(1);
+
+	}
 
 	/**
 	 *
-	 * @return the max reaction slots this character has from its skills.
+	 * the amount of reaction slots this character has available
 	 */
-	public ObsIntHolder getMaxReactionSlots() {
-		if (cacheMaxReactionSlots == null) {
-			ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
-			synchronized (cskills) {
-				if (cacheMaxReactionSlots == null) {
-					cacheMaxReactionSlots = cskills.at(45749, 0).mapInt(i -> i).add(cskills.at(45748, 0).mapInt(i -> i)).add(1);
-				}
-			}
-		}
-		return cacheMaxReactionSlots;
-	}
-
-	private ObsIntHolder cacheAvailReactionSlots;
+	@Getter(lazy = true)
+	private final ObsIntHolder availReactionSlots = makeAvailReactionSlots();
 
 	/**
 	 *
 	 * @return the amount of reaction slots this character has available
 	 */
-	public ObsIntHolder getAvailReactionSlots() {
-		if (cacheAvailReactionSlots == null) {
-			ObsIntHolder allSlots = getMaxReactionSlots();
-			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getReactionJobs();
-			synchronized (jobs) {
-				if (cacheAvailReactionSlots == null) {
-					ObsIntHolder corpOwnedJobs = con.corporation.industry.getReactionJobs()
-							.filter(j -> j.installer_id == con.characterId()).size();
-					cacheAvailReactionSlots = allSlots.sub(jobs.size()).sub(corpOwnedJobs);
-				}
-			}
-		}
-		return cacheAvailReactionSlots;
+	protected ObsIntHolder makeAvailReactionSlots() {
+		ObsIntHolder allSlots = getMaxReactionSlots();
+		ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getReactionJobs();
+		ObsIntHolder corpOwnedJobs = con.corporation.industry.getReactionJobs()
+				.filter(j -> j.installer_id == con.characterId()).size();
+		return allSlots.sub(jobs.size()).sub(corpOwnedJobs);
 	}
 
 	//
@@ -360,35 +252,17 @@ public class EveCharacter {
 	// journal
 	//
 
-	private ObsMapHolder<Long, M_get_journal_13> journal;
-
-	public ObsMapHolder<Long, M_get_journal_13> getJournal() {
-		if (journal == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (journal == null) {
-					journal = con.connection().cache().characters.wallet_journal(con.characterId()).toMap(j -> j.id);
-				}
-			});
-		}
-		return journal;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, M_get_journal_13> journal = con.connection().cache().characters
+	.wallet_journal(con.characterId()).toMap(entry -> entry.id);
 
 	//
 	// standings
 	//
 
-	private ObsMapHolder<Integer, M_get_standings_3> standings;
-
-	public ObsMapHolder<Integer, M_get_standings_3> getStandings() {
-		if (standings == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (standings == null) {
-					standings = con.connection().cache().characters.standings(con.characterId()).toMap(std -> std.from_id);
-				}
-			});
-		}
-		return standings;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, M_get_standings_3> standings = con.connection().cache().characters
+	.standings(con.characterId()).toMap(std -> std.from_id);
 
 	private Map<Integer, ObsObjHolder<Float>> cacheStanding = new HashMap<>();
 
@@ -411,50 +285,38 @@ public class EveCharacter {
 	// LP
 	//
 
-	private ObsMapHolder<Integer, R_get_characters_character_id_loyalty_points> lps;
-
-	public ObsMapHolder<Integer, R_get_characters_character_id_loyalty_points> getLPs() {
-		if (lps == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (lps == null) {
-					lps = con.connection().cache().characters.loyalty_points(con.characterId()).toMap(lp -> lp.corporation_id);
-				}
-			});
-		}
-		return lps;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, R_get_characters_character_id_loyalty_points> LPs = con.connection()
+	.cache().characters.loyalty_points(con.characterId()).toMap(lp -> lp.corporation_id);
 
 	//
 	// skills and training
 	//
 
-	ObsDoubleHolder currentAcquisitionRate = null;
+	/**
+	 * current SP acquisition based on skill being trained and attributes.
+	 */
+	@Getter(lazy = true)
+	private final ObsDoubleHolder currentHourlySPRate = makeCurrentHourlySPRate();
 
-	public ObsDoubleHolder getCurrentHourlySPRate() {
-		if (currentAcquisitionRate == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (currentAcquisitionRate == null) {
-					ObsDoubleHolderImpl ret = new ObsDoubleHolderImpl();
-					R_get_universe_types_type_id[] holdSkil = new R_get_universe_types_type_id[1];
-					R_get_characters_character_id_attributes[] holdAtt = new R_get_characters_character_id_attributes[1];
-					Runnable apply = () -> {
-						if (holdSkil[0] != null && holdAtt[0] != null) {
-							ret.set(getHourlySPRate(holdSkil[0], holdAtt[0]));
-						}
-					};
-					skills.getTrainingSkill().follow((newValue) -> {
-						holdSkil[0] = newValue;
-						apply.run();
-					});
-					attributes.values().follow((newValue) -> {
-						holdAtt[0] = newValue;
-						apply.run();
-					});
-					currentAcquisitionRate = ret;
-				}
-			});
-		}
-		return currentAcquisitionRate;
+	protected ObsDoubleHolder makeCurrentHourlySPRate() {
+		ObsDoubleHolderImpl ret = new ObsDoubleHolderImpl();
+		R_get_universe_types_type_id[] holdSkil = new R_get_universe_types_type_id[1];
+		R_get_characters_character_id_attributes[] holdAtt = new R_get_characters_character_id_attributes[1];
+		Runnable apply = () -> {
+			if (holdSkil[0] != null && holdAtt[0] != null) {
+				ret.set(getHourlySPRate(holdSkil[0], holdAtt[0]));
+			}
+		};
+		skills.getTrainingSkill().follow((newValue) -> {
+			holdSkil[0] = newValue;
+			apply.run();
+		});
+		attributes.values().follow((newValue) -> {
+			holdAtt[0] = newValue;
+			apply.run();
+		});
+		return ret;
 	}
 
 	public static double getHourlySPRate(R_get_universe_types_type_id skill,
@@ -474,19 +336,16 @@ public class EveCharacter {
 	// alpha state
 	//
 
-	ObsBoolHolder isAlpha = null;
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsBoolHolder isAlpha = makeIsAlpha();
 
-	public ObsBoolHolder isAlpha() {
-		if (isAlpha == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				ObsBoolHolder limited = skills.hasLimitedskill();
-				ObsBoolHolder training = skills.getCurrentSkillAvgAcquisitionRate().test(d -> d > 0);
-				ObsDoubleHolder theoretical = getCurrentHourlySPRate();
-				ObsDoubleHolder effective = skills.getCurrentSkillAvgAcquisitionRate();
-				isAlpha = limited.or(training.and(effective.div(theoretical).test(d -> d < 0.55)));
-			});
-		}
-		return isAlpha;
+	protected ObsBoolHolder makeIsAlpha() {
+		ObsBoolHolder limited = skills.hasLimitedskill();
+		ObsBoolHolder training = skills.getCurrentSkillAvgAcquisitionRate().test(d -> d > 0);
+		ObsDoubleHolder theoretical = getCurrentHourlySPRate();
+		ObsDoubleHolder effective = skills.getCurrentSkillAvgAcquisitionRate();
+		return limited.or(training.and(effective.div(theoretical).test(d -> d < 0.55)));
 	}
 
 }
