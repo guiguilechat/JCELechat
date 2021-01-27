@@ -81,7 +81,9 @@ public class Assets {
 		}
 
 		for (M_post_assets_names_2 item : ret) {
-			items.get(item.item_id).withOptional(item.name);
+			if (item.name != null) {
+				items.get(item.item_id).withOptional(item.name);
+			}
 		}
 	}
 

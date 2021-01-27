@@ -43,4 +43,5 @@
 		</dependency>
 	</dependencies>
 	<name>JCESI</name>
+	<description>decoration over the JCESI-compiled in order to provide easier use</description>
 </project>
