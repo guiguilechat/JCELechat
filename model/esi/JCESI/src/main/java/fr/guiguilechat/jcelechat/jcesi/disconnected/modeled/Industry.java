@@ -5,9 +5,11 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_IDCAccess;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_facilities;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems_cost_indices;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import lombok.Getter;
 
 public class Industry {
 
@@ -16,11 +18,13 @@ public class Industry {
 
 	public final G_IDCAccess con;
 
-	private ObsMapHolder<Integer, IndustryIndices> indicesMap = null;
-
 	public Industry(G_IDCAccess conn) {
 		con = conn;
 	}
+
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, IndustryIndices> systemIndices = ESIStatic.INSTANCE.cache().industry.systems()
+	.toMap(r -> r.solar_system_id, IndustryIndices::new);
 
 	/**
 	 * get the indices of a system
@@ -29,16 +33,7 @@ public class Industry {
 	 * @return
 	 */
 	public IndustryIndices getSystemIndices(int sysID) {
-		if (indicesMap == null) {
-			synchronized (this) {
-				if (indicesMap == null) {
-					indicesMap = ESIStatic.INSTANCE.cache().industry.systems().toMap(r -> {
-						return r.solar_system_id;
-					}, IndustryIndices::new);
-				}
-			}
-		}
-		return indicesMap.get(sysID);
+		return getSystemIndices().get(sysID);
 	}
 
 	/**
@@ -77,5 +72,12 @@ public class Industry {
 			}
 		}
 	}
+
+	/**
+	 * all facilities in the game, by ids
+	 */
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, R_get_industry_facilities> facilities = ESIStatic.INSTANCE.cache().industry
+	.facilities().toMap(fac -> fac.facility_id);
 
 }
