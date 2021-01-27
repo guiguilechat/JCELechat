@@ -73,10 +73,6 @@ public class Wars {
 		return ret;
 	}
 
-	protected void getWars() {
-		// TODO
-	}
-
 	ObsListHolder<Integer> cachedMonthIds = null;
 
 	protected ObsListHolder<Integer> getMonthIds() {

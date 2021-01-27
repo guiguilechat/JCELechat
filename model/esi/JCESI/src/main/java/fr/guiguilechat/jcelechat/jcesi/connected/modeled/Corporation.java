@@ -12,7 +12,6 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Market;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.corporation.Wallet;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_standings_3;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id;
@@ -28,7 +27,13 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_w
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
+import lombok.experimental.Accessors;
+
 
 public class Corporation {
 
@@ -51,18 +56,32 @@ public class Corporation {
 		industry = new Industry(con);
 	}
 
-	public int getId() {
-		int ret = con.character.infos.corporationId().get();
-		return ret;
-	}
+	@Getter(lazy = true)
+	private final int id = con.character.infos.corporationId().get();
 
-	public ObsObjHolder<R_get_corporations_corporation_id> getInformations() {
-		return ESIStatic.INSTANCE.cache().corporations.get(getId());
-	}
+	// informations
+
+	@Getter(lazy=true)
+	private final ObsObjHolder<R_get_corporations_corporation_id> informations = ESIStatic.INSTANCE.cache().corporations
+	.get(getId());
 
 	public String getName() {
 		return getInformations().get().name;
 	}
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsBoolHolder isWarEligible = getInformations().test(info -> info.war_eligible);
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder memberCount = getInformations().mapInt(info -> info.member_count);
+
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsDoubleHolder taxRate = getInformations().mapDouble(info -> info.tax_rate);
+
+	// divisions
 
 	public ObsObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
 		return con.raw.cache().corporations.divisions(getId());
@@ -78,31 +97,13 @@ public class Corporation {
 	// structures and facilities
 	//
 
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_structures> cachedStructures = null;
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, R_get_corporations_corporation_id_structures> structures = con.raw
+	.cache().corporations.structures(getId()).toMap(str -> str.structure_id);
 
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_structures> getStructures() {
-		if (cachedStructures == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedStructures == null) {
-					cachedStructures = con.raw.cache().corporations.structures(getId()).toMap(str -> str.structure_id);
-				}
-			});
-		}
-		return cachedStructures;
-	}
-
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_facilities> cachedFacilities;
-
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_facilities> getFacilities() {
-		if (cachedFacilities == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedFacilities == null) {
-					cachedFacilities = con.raw.cache().corporations.facilities(getId()).toMap(str -> str.facility_id);
-				}
-			});
-		}
-		return cachedFacilities;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, R_get_corporations_corporation_id_facilities> facilities = con.raw
+	.cache().corporations.facilities(getId()).toMap(str -> str.facility_id);
 
 	//
 	// journal
@@ -126,146 +127,61 @@ public class Corporation {
 	// standings, contacts, labels
 	//
 
-	private ObsMapHolder<Integer, M_get_standings_3> cachedStandings;
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, M_get_standings_3> standings = con.raw.cache().corporations.standings(getId())
+	.toMap(std -> std.from_id);
 
-	public ObsMapHolder<Integer, M_get_standings_3> getStandings() {
-		if (cachedStandings == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedStandings == null) {
-					cachedStandings = con.raw.cache().corporations.standings(getId()).toMap(std -> std.from_id);
-				}
-			});
-		}
-		return cachedStandings;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_contacts> contacts = con.raw
+	.cache().corporations.contacts(getId()).toMap(contact -> contact.contact_id);
 
-	private ObsMapHolder<Integer, R_get_corporations_corporation_id_contacts> cachedContacts = null;
+	@Getter(lazy = true)
+	private final ObsMapHolder<Object, Object> contactsLabels = con.raw.cache().corporations.contacts_labels(getId())
+	.toMap(l -> l.label_id, l -> l.label_name);
 
-	public ObsMapHolder<Integer, R_get_corporations_corporation_id_contacts> contacts() {
-		if (cachedContacts == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedContacts == null) {
-					cachedContacts = con.raw.cache().corporations.contacts(getId()).toMap(contact -> contact.contact_id);
-				}
-			});
-		}
-		return cachedContacts;
-	}
-
-	private ObsMapHolder<Object, Object> cachedContacts_labels = null;
-
-	public ObsMapHolder<Object, Object> contact_labels() {
-		if (cachedContacts_labels == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedContacts_labels == null) {
-					cachedContacts_labels = con.raw.cache().corporations.contacts_labels(getId()).toMap(l -> l.label_id,
-							l -> l.label_name);
-				}
-			});
-		}
-		return cachedContacts_labels;
-	}
 
 	//
 	// members, titles, roles
 	//
 
-	public ObsListHolder<Integer> getMembers() {
-		return con.raw.cache().corporations.members(getId());
-	}
+	@Getter(lazy = true)
+	private final ObsListHolder<Integer> members = con.raw.cache().corporations.members(getId());
 
-	public ObsObjHolder<Integer> getMembersLimit() {
-		return con.raw.cache().corporations.members_limit(getId());
-	}
+	@Getter(lazy = true)
+	private final ObsObjHolder<Integer> membersLimit = con.raw.cache().corporations.members_limit(getId());
 
-	private ObsMapHolder<Integer, int[]> cachedMembersTitles = null;
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, int[]> membersTitles = con.raw.cache().corporations.members_titles(getId())
+	.toMap(title -> title.character_id, title -> title.titles);
 
-	public ObsMapHolder<Integer, int[]> getMemberTitles() {
-		if (cachedMembersTitles == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedMembersTitles == null) {
-					cachedMembersTitles = con.raw.cache().corporations.members_titles(getId()).toMap(title -> title.character_id,
-							title -> title.titles);
-				}
-			});
-		}
-		return cachedMembersTitles;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_titles> titles = con.raw.cache().corporations
+	.titles(getId()).toMap(title -> title.title_id);
 
-	private ObsMapHolder<Integer, R_get_corporations_corporation_id_titles> cachedTitles = null;
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_membertracking> memberstracking = con.raw
+	.cache().corporations.membertracking(getId()).toMap(track -> track.character_id);
 
-	public ObsMapHolder<Integer, R_get_corporations_corporation_id_titles> getTitles() {
-		if (cachedTitles == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedTitles == null) {
-					cachedTitles = con.raw.cache().corporations.titles(getId()).toMap(title -> title.title_id);
-				}
-			});
-		}
-		return cachedTitles;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_roles> roles = con.raw.cache().corporations
+	.roles(getId()).toMap(roles -> roles.character_id);
 
-	private ObsMapHolder<Integer, R_get_corporations_corporation_id_membertracking> cachedMemberstracking = null;
+	@Getter(lazy = true)
+	private final ObsListHolder<R_get_corporations_corporation_id_roles_history> rolesHistory = con.raw
+	.cache().corporations.roles_history(getId());
 
-	public ObsMapHolder<Integer, R_get_corporations_corporation_id_membertracking> getMembersTracking() {
-		if (cachedMemberstracking == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedMemberstracking == null) {
-					cachedMemberstracking = con.raw.cache().corporations.membertracking(getId())
-							.toMap(track -> track.character_id);
-				}
-			});
-		}
-		return cachedMemberstracking;
-	}
-
-	private ObsMapHolder<Integer, R_get_corporations_corporation_id_roles> cachedRoles;
-
-	/**
-	 * @see G_ICOAccess#get_corporations_roles(int, Map)
-	 * @return
-	 */
-	public ObsMapHolder<Integer, R_get_corporations_corporation_id_roles> getRoles() {
-		if (cachedRoles == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedRoles == null) {
-					cachedRoles = con.raw.cache().corporations.roles(getId()).toMap(roles -> roles.character_id);
-				}
-			});
-		}
-		return cachedRoles;
-	}
-
-	/**
-	 * @see G_ICOAccess#get_corporations_roles_history(int, Integer, Map)
-	 * @return
-	 */
-	public ObsListHolder<R_get_corporations_corporation_id_roles_history> getRolesHistory() {
-		// already cached for direct resource
-		return con.raw.cache().corporations.roles_history(getId());
-	}
 
 	//
 	// wars
 	//
 
-	private ObsListHolder<R_get_wars_war_id> cachedMonthWars = null;
-
 	/**
 	 *
-	 * @return the cached observable list of wars, which started in thelast month,
-	 *         and for which this corporation is either aggressor or defender.
+	 * the cached observable list of wars, which started in thelast month, and for
+	 * which this corporation is either aggressor or defender.
 	 */
-	public ObsListHolder<R_get_wars_war_id> getMonthWars() {
-		if (cachedMonthWars == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedMonthWars == null) {
-					cachedMonthWars = ESIAccess.INSTANCE.wars.getMonthWars()
-							.filter(war -> war.aggressor.corporation_id == getId() || war.defender.corporation_id == getId());
-				}
-			});
-		}
-		return cachedMonthWars;
-	}
+	@Getter(lazy = true)
+	private final ObsListHolder<R_get_wars_war_id> monthWars = ESIAccess.INSTANCE.wars.getMonthWars()
+	.filter(war -> war.aggressor.corporation_id == getId() || war.defender.corporation_id == getId());
 
 }
