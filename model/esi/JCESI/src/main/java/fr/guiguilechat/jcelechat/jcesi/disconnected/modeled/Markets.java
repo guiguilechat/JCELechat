@@ -12,7 +12,8 @@ import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
 public class Markets {
 
@@ -88,41 +89,22 @@ public class Markets {
 	// prices : adjusted and average
 	//
 
-	public ObsListHolder<R_get_markets_prices> marketPrices() {
-		return esiConnection.cache().markets.prices();
-	}
 
-	private ObsMapHolder<Integer, Double> adjusteds = null;
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsListHolder<R_get_markets_prices> marketPrices = esiConnection.cache().markets.prices();
 
-	public ObsMapHolder<Integer, Double> getAdjusteds() {
-		if (adjusteds == null) {
-			ObsListHolder<R_get_markets_prices> prices = marketPrices();
-			LockWatchDog.BARKER.syncExecute(prices, () -> {
-				if (adjusteds == null) {
-					adjusteds = prices.toMap(p -> p.type_id, p -> p.adjusted_price);
-				}
-			});
-		}
-		return adjusteds;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, Double> adjusteds = marketPrices().toMap(p -> p.type_id,
+			p -> p.adjusted_price);
 
 	public double getAdjusted(int itemId) {
 		return getAdjusteds().getOrDefault(itemId, 0.0);
 	}
 
-	private ObsMapHolder<Integer, Double> averages = null;
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, Double> averages = marketPrices().toMap(p -> p.type_id, p -> p.average_price);
 
-	public ObsMapHolder<Integer, Double> getAverages() {
-		if (averages == null) {
-			ObsListHolder<R_get_markets_prices> prices = marketPrices();
-			LockWatchDog.BARKER.syncExecute(prices, () -> {
-				if (averages == null) {
-					averages = prices.toMap(p -> p.type_id, p -> p.average_price);
-				}
-			});
-		}
-		return averages;
-	}
 
 	public double getAverage(int itemId) {
 		return getAverages().getOrDefault(itemId, 0.0);
