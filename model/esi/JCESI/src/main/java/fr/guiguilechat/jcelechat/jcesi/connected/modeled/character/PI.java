@@ -65,7 +65,7 @@ public class PI {
 				if (planets == null) {
 					ObservableMap<Integer, ColonyInfo> mcol = FXCollections.observableHashMap();
 					planets = new ObsMapHolderImpl<>(mcol);
-					acc.raw.cache().characters.planets(acc.characterId()).followItems(c -> {
+					acc.connection().cache().characters.planets(acc.characterId()).followItems(c -> {
 						HashSet<Integer> removed = new HashSet<>();
 						List<R_get_characters_character_id_planets> added = new ArrayList<>();
 						while (c.next()) {
@@ -84,7 +84,7 @@ public class PI {
 						}
 						mcol.keySet().removeAll(removed);
 						for (R_get_characters_character_id_planets a : added) {
-							acc.raw.cache().characters.planets(acc.characterId(), a.planet_id)
+							acc.connection().cache().characters.planets(acc.characterId(), a.planet_id)
 							.follow((newValue) -> {
 								if (newValue == null) {
 									synchronized (mcol) {
@@ -100,7 +100,7 @@ public class PI {
 							});
 						}
 					});
-					acc.raw.cache().characters.planets(acc.characterId()).follow((l) -> planets.dataReceived());
+					acc.connection().cache().characters.planets(acc.characterId()).follow((l) -> planets.dataReceived());
 				}
 			}
 		}

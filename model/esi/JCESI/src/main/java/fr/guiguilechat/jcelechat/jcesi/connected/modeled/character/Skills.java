@@ -39,7 +39,7 @@ public class Skills {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsListHolder<get_characters_character_id_skills_skills> list = con.raw.cache().characters
+	private final ObsListHolder<get_characters_character_id_skills_skills> list = con.connection().cache().characters
 	.skills(con.characterId()).toList(c -> Arrays.asList(c.skills));
 
 	/**
@@ -62,7 +62,7 @@ public class Skills {
 	//
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_characters_character_id_skillqueue> queue = con().raw.cache().characters
+	private final ObsListHolder<R_get_characters_character_id_skillqueue> queue = con().connection().cache().characters
 	.skillqueue(con().characterId());
 
 	@Getter(lazy = true)

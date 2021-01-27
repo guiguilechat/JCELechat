@@ -189,7 +189,8 @@ public class Location {
 				// can't do anything. stil need an account.
 			}
 			if (account != null) {
-				Requested<R_get_universe_structures_structure_id> req = account.raw.get_universe_structures(locationid, null);
+				Requested<R_get_universe_structures_structure_id> req = account.connection().get_universe_structures(locationid,
+						null);
 				if (req.isOk()) {
 					R_get_universe_structures_structure_id struct = req.getOK();
 					return new Location(struct, locationid, struct.name, LOCTYPE.STRUCTURE);

@@ -11,15 +11,15 @@ public class Route {
 	}
 
 	public void append(long locationId) {
-		con.raw.post_ui_autopilot_waypoint(false, false, locationId, null);
+		con.connection().post_ui_autopilot_waypoint(false, false, locationId, null);
 	}
 
 	public void insert(long locationId) {
-		con.raw.post_ui_autopilot_waypoint(true, false, locationId, null);
+		con.connection().post_ui_autopilot_waypoint(true, false, locationId, null);
 	}
 
 	public void setDesto(long locationId) {
-		con.raw.post_ui_autopilot_waypoint(true, true, locationId, null);
+		con.connection().post_ui_autopilot_waypoint(true, true, locationId, null);
 	}
 
 	public void setRoute(long... locationIds) {

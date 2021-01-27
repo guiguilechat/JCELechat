@@ -61,6 +61,11 @@ public class Wars {
 	}
 
 	@Getter(lazy = true)
+	private final ObsListHolder<R_get_wars_war_id> allWars = getAllWarsIds().mapItems(id -> {
+		return esiConnection.cache().wars.get(id);
+	}).mapItems(holder -> holder.get());
+
+	@Getter(lazy = true)
 	private final ObsListHolder<Integer> monthWarsIds = esiConnection.cache().wars.wars(null)
 	.toList(this::expandMonthWars);
 

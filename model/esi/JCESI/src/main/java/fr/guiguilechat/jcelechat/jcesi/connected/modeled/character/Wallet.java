@@ -19,7 +19,7 @@ public class Wallet {
 
 	/** get total isk balance */
 	public ObsObjHolder<Double> get() {
-		return con.raw.cache().characters.wallet(con.characterId());
+		return con.connection().cache().characters.wallet(con.characterId());
 	}
 
 	private ObsMapHolder<String, R_get_characters_character_id_wallet_transactions> transactions;
@@ -34,7 +34,7 @@ public class Wallet {
 		if (transactions == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (transactions == null) {
-					transactions = con.raw.cache().characters.wallet_transactions(con.characterId(), null)
+					transactions = con.connection().cache().characters.wallet_transactions(con.characterId(), null)
 							.toMap(h -> "" + con.characterId() + h.transaction_id);
 				}
 			});
@@ -47,11 +47,11 @@ public class Wallet {
 	 * @return the observable list of transactions for this character
 	 */
 	public ObsListHolder<R_get_characters_character_id_wallet_transactions> getTransactionsList() {
-		return con.raw.cache().characters.wallet_transactions(con.characterId(), null);
+		return con.connection().cache().characters.wallet_transactions(con.characterId(), null);
 	}
 
 	public ObsListHolder<M_get_journal_13> getJournal() {
-		return con.raw.cache().characters.wallet_journal(con.characterId());
+		return con.connection().cache().characters.wallet_journal(con.characterId());
 	}
 
 	private ObsListHolder<M_get_journal_13> pveJournal = null;

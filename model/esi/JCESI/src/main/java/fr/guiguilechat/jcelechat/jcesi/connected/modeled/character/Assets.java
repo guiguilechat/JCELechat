@@ -69,10 +69,10 @@ public class Assets {
 		int start = 0;
 		while (start < ids.length) {
 			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + 1000, ids.length));
-			Requested<M_post_assets_names_2[]> names = con.raw.post_characters_assets_names(con.characterId(), ids2,
+			Requested<M_post_assets_names_2[]> names = con.connection().post_characters_assets_names(con.characterId(), ids2,
 					null);
 			while (names.isServerError()) {
-				names = con.raw.post_characters_assets_names(con.characterId(), ids2, null);
+				names = con.connection().post_characters_assets_names(con.characterId(), ids2, null);
 			}
 			if (names.isOk()) {
 				ret.addAll(Arrays.asList(names.getOK()));
@@ -96,7 +96,7 @@ public class Assets {
 	 */
 	public ObsListHolder<R_get_characters_character_id_assets> getList() {
 		// caching is already present at the cache level.
-		return con.raw.cache().characters.assets(con.characterId());
+		return con.connection().cache().characters.assets(con.characterId());
 	}
 
 	/**

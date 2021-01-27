@@ -84,7 +84,7 @@ public class Corporation {
 	// divisions
 
 	public ObsObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
-		return con.raw.cache().corporations.divisions(getId());
+		return con.connection().cache().corporations.divisions(getId());
 	}
 
 	//
@@ -98,11 +98,11 @@ public class Corporation {
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, R_get_corporations_corporation_id_structures> structures = con.raw
+	private final ObsMapHolder<Long, R_get_corporations_corporation_id_structures> structures = con.connection()
 	.cache().corporations.structures(getId()).toMap(str -> str.structure_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, R_get_corporations_corporation_id_facilities> facilities = con.raw
+	private final ObsMapHolder<Long, R_get_corporations_corporation_id_facilities> facilities = con.connection()
 	.cache().corporations.facilities(getId()).toMap(str -> str.facility_id);
 
 	//
@@ -116,7 +116,7 @@ public class Corporation {
 			LockWatchDog.BARKER.syncExecute(cachedJournals, () -> {
 				if (cachedJournals.get(division_id) == null) {
 					cachedJournals.put(division_id,
-							con.raw.cache().corporations.wallets_journal(getId(), division_id).toMap(j -> j.id));
+							con.connection().cache().corporations.wallets_journal(getId(), division_id).toMap(j -> j.id));
 				}
 			});
 		}
@@ -128,15 +128,17 @@ public class Corporation {
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, M_get_standings_3> standings = con.raw.cache().corporations.standings(getId())
+	private final ObsMapHolder<Integer, M_get_standings_3> standings = con.connection().cache().corporations
+	.standings(getId())
 	.toMap(std -> std.from_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_contacts> contacts = con.raw
-	.cache().corporations.contacts(getId()).toMap(contact -> contact.contact_id);
+	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_contacts> contacts = con.connection()
+			.cache().corporations.contacts(getId()).toMap(contact -> contact.contact_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Object, Object> contactsLabels = con.raw.cache().corporations.contacts_labels(getId())
+	private final ObsMapHolder<Object, Object> contactsLabels = con.connection().cache().corporations
+	.contacts_labels(getId())
 	.toMap(l -> l.label_id, l -> l.label_name);
 
 
@@ -145,29 +147,33 @@ public class Corporation {
 	//
 
 	@Getter(lazy = true)
-	private final ObsListHolder<Integer> members = con.raw.cache().corporations.members(getId());
+	private final ObsListHolder<Integer> members = con.connection().cache().corporations.members(getId());
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<Integer> membersLimit = con.raw.cache().corporations.members_limit(getId());
+	private final ObsObjHolder<Integer> membersLimit = con.connection().cache().corporations.members_limit(getId());
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, int[]> membersTitles = con.raw.cache().corporations.members_titles(getId())
+	private final ObsMapHolder<Integer, int[]> membersTitles = con.connection().cache().corporations
+	.members_titles(getId())
 	.toMap(title -> title.character_id, title -> title.titles);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_titles> titles = con.raw.cache().corporations
+	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_titles> titles = con.connection()
+	.cache().corporations
 	.titles(getId()).toMap(title -> title.title_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_membertracking> memberstracking = con.raw
+	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_membertracking> memberstracking = con
+			.connection()
 	.cache().corporations.membertracking(getId()).toMap(track -> track.character_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_roles> roles = con.raw.cache().corporations
+	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_roles> roles = con.connection()
+	.cache().corporations
 	.roles(getId()).toMap(roles -> roles.character_id);
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_corporations_corporation_id_roles_history> rolesHistory = con.raw
+	private final ObsListHolder<R_get_corporations_corporation_id_roles_history> rolesHistory = con.connection()
 	.cache().corporations.roles_history(getId());
 
 
@@ -177,11 +183,20 @@ public class Corporation {
 
 	/**
 	 *
-	 * the cached observable list of wars, which started in thelast month, and for
-	 * which this corporation is either aggressor or defender.
+	 * the cached observable list of wars, which started in the last month, and
+	 * for which this corporation is either aggressor or defender.
 	 */
 	@Getter(lazy = true)
 	private final ObsListHolder<R_get_wars_war_id> monthWars = ESIAccess.INSTANCE.wars.getMonthWars()
+	.filter(war -> war.aggressor.corporation_id == getId() || war.defender.corporation_id == getId());
+
+	/**
+	 *
+	 * the cached observable list of wars, which started in the last month, and
+	 * for which this corporation is either aggressor or defender.
+	 */
+	@Getter(lazy = true)
+	private final ObsListHolder<R_get_wars_war_id> allWars = ESIAccess.INSTANCE.wars.getAllWars()
 	.filter(war -> war.aggressor.corporation_id == getId() || war.defender.corporation_id == getId());
 
 }

@@ -61,9 +61,9 @@ public class Universe {
 				ret = cachedPublicStructuresByFilter.get(f);
 				if (ret == null) {
 					ret = ESIAccess.INSTANCE.universe.cache().structures(null).mapItems(sid -> {
-						parent.raw.cache().universe.structures(sid);
+						parent.connection().cache().universe.structures(sid);
 						return sid;
-					}).toMap(sid -> sid, sid -> parent.raw.cache().universe.structures(sid).get());
+					}).toMap(sid -> sid, sid -> parent.connection().cache().universe.structures(sid).get());
 					cachedPublicStructuresByFilter.put(f, ret);
 				}
 			}

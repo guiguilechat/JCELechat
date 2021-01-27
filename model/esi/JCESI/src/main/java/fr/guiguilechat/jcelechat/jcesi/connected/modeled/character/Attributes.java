@@ -26,7 +26,7 @@ public class Attributes {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsObjHolder<R_get_characters_character_id_attributes> values = con.raw.cache().characters
+	private final ObsObjHolder<R_get_characters_character_id_attributes> values = con.connection().cache().characters
 	.attributes(con.characterId());
 
 	/**

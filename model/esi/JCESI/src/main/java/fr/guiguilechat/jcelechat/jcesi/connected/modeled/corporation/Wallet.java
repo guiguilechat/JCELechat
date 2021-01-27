@@ -47,7 +47,7 @@ public class Wallet {
 		if (cachedTotal == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedTotal == null) {
-					cachedTotal = getAcc().raw.cache().corporations.wallets(getId())
+					cachedTotal = getAcc().connection().cache().corporations.wallets(getId())
 							.reduceDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
 				}
 			});
@@ -62,7 +62,7 @@ public class Wallet {
 		if (cachedFirstDivision == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedFirstDivision == null) {
-					cachedFirstDivision = getAcc().raw.cache().corporations.wallets(getId())
+					cachedFirstDivision = getAcc().connection().cache().corporations.wallets(getId())
 							.reduceDouble(l -> l.stream().filter(div -> div.division == 1).findFirst()
 									.orElseGet(() -> new R_get_corporations_corporation_id_wallets()).balance);
 				}
@@ -138,7 +138,7 @@ public class Wallet {
 				ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret2 = cachedDivisionTransactions
 						.get(division_id);
 				if (ret2 == null) {
-					ret2 = getAcc().raw.cache().corporations.wallets_transactions(getId(), division_id, null)
+					ret2 = getAcc().connection().cache().corporations.wallets_transactions(getId(), division_id, null)
 							.toList(l -> expandWholeTransactions(division_id, l));
 				}
 				return ret2;
@@ -157,7 +157,7 @@ public class Wallet {
 		do {
 			// System.err.println("call corp:" + getId() + " division:" + divid + "
 			// transaction up to id " + firstId);
-			Requested<R_get_corporations_corporation_id_wallets_division_transactions[]> req = getAcc().raw
+			Requested<R_get_corporations_corporation_id_wallets_division_transactions[]> req = getAcc().connection()
 					.get_corporations_wallets_transactions(getId(), divid, firstId, null);
 			// System.err.println(" response code is " + req.getResponseCode());
 			if (req.getResponseCode() == 200) {
@@ -193,7 +193,7 @@ public class Wallet {
 		if (cachedOrdersHistory == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedOrdersHistory == null) {
-					cachedOrdersHistory = getAcc().raw.cache().corporations.orders_history(getId())
+					cachedOrdersHistory = getAcc().connection().cache().corporations.orders_history(getId())
 							.toMap(order -> order.order_id);
 				}
 			});
@@ -202,7 +202,7 @@ public class Wallet {
 	}
 
 	public ObsListHolder<M_get_journal_13> getJournal(int division) {
-		return getAcc().raw.cache().corporations.wallets_journal(getId(), division);
+		return getAcc().connection().cache().corporations.wallets_journal(getId(), division);
 	}
 
 	private ObsListHolder<M_get_journal_13> cachedJournalList = null;

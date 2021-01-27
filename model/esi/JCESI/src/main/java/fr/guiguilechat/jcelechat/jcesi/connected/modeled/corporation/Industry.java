@@ -24,7 +24,7 @@ public class Industry {
 		if (cachedJobs == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedJobs == null) {
-					cachedJobs = con.raw.cache().corporations.industry_jobs(con.corporation.getId(), false);
+					cachedJobs = con.connection().cache().corporations.industry_jobs(con.corporation.getId(), false);
 				}
 			});
 		}
@@ -246,7 +246,8 @@ public class Industry {
 		if (blueprints == null) {
 			synchronized (this) {
 				if (blueprints == null) {
-					blueprints = con.raw.cache().corporations.blueprints(con.corporation.getId()).toMap(b -> b.item_id, b -> b);
+					blueprints = con.connection().cache().corporations.blueprints(con.corporation.getId()).toMap(b -> b.item_id,
+							b -> b);
 				}
 			}
 		}

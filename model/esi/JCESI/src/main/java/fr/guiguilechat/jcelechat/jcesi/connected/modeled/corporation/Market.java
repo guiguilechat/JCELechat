@@ -28,7 +28,7 @@ public class Market {
 		if (cachedOrders == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedOrders == null) {
-					cachedOrders = getAcc().raw.cache().corporations.orders(getId()).toMap(o -> o.order_id);
+					cachedOrders = getAcc().connection().cache().corporations.orders(getId()).toMap(o -> o.order_id);
 				}
 			});
 		}
