@@ -158,18 +158,19 @@ public class RegionalMarket implements IPricing {
 						List<Integer> systemsInRange = new ArrayList<>();
 						systemsInRange.add(centerId);
 						if (distance > 0) {
-							R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache.universe.regions(regionID).get();
+							R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache().universe.regions(regionID).get();
 							IntStream.of(region.constellations).parallel()
-							.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache.universe.constellations(ci).get().systems))
+									.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache().universe.constellations(ci).get().systems))
 							.filter(
-									si -> si != centerId && ESIStatic.INSTANCE.cache.route.get(null, null, centerId, flag.shortest, si)
+											si -> si != centerId
+													&& ESIStatic.INSTANCE.cache().route.get(null, null, centerId, flag.shortest, si)
 									.get().size() <= distance)
 							.forEach(systemsInRange::add);
 						}
 						logger.debug("allowed systems in region " + regionID + " filter " + key + " are " + systemsInRange);
 						// then get all the stations in those systems
 						Set<Long> stationIds = systemsInRange.parallelStream()
-								.map(si -> ESIStatic.INSTANCE.cache.universe.systems(si).get())
+								.map(si -> ESIStatic.INSTANCE.cache().universe.systems(si).get())
 								.filter(sys -> !onlyHS || sys.security_status >= 0.45)
 								.flatMapToLong(sys -> IntStream.of(sys.stations).asLongStream())
 								.mapToObj(i -> (Long) i).collect(Collectors.toSet());

@@ -12,7 +12,7 @@ import javafx.collections.ListChangeListener;
 public class CacheTester {
 
 	public static void main(String[] args) {
-		CacheStatic con = ESIStatic.INSTANCE.cache;
+		CacheStatic con = ESIStatic.INSTANCE.cache();
 
 		// noparam-> container
 		System.out.println("noparam->container started");

@@ -16,8 +16,8 @@ public class ShowRadius {
 		int parrallelism = Runtime.getRuntime().availableProcessors() * 10;
 		System.setProperty("java.util.concurrent.ForkJoinPool.common.parallelism", "" + parrallelism);
 		Universe uni = ESIAccess.INSTANCE.universe;
-		List<ObsObjHolder<R_get_universe_systems_system_id>> systems = uni.cache.systems().get().stream()
-				.map(id -> uni.cache.systems(id)).collect(Collectors.toList());
+		List<ObsObjHolder<R_get_universe_systems_system_id>> systems = uni.cache().systems().get().stream()
+				.map(id -> uni.cache().systems(id)).collect(Collectors.toList());
 		System.err.println("got list of systems");
 		Map<String, Double> map = systems.parallelStream()
 				.collect(Collectors.toMap(s -> s.get().name, s -> uni.systemRadiusCelestials(s.get())));

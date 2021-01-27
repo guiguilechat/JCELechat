@@ -10,9 +10,6 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_3_xnumber_ynumber_znumber;
@@ -26,17 +23,25 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
+import lombok.Getter;
+import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 public class Universe {
 
-	private static final Logger logger = LoggerFactory.getLogger(Universe.class);
+	@Getter
+	@Accessors(fluent = true)
+	private final ESIStatic con;
 
-	protected final ESIStatic con;
-	public final fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Universe cache;
+	@Getter
+	@Accessors(fluent = true)
+	private final fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected.Universe cache;
 
 	public Universe(ESIStatic connection) {
 		con = connection;
-		cache = connection.cache.universe;
+		cache = connection.cache().universe;
 	}
 
 	//
@@ -77,7 +82,7 @@ public class Universe {
 						cachedNames.put(n.id, n);
 					}
 				} else {
-					logger.error("could not load names for ids" + IntStream.of(ids).mapToObj(i -> i).collect(Collectors.toList())
+					log.error("could not load names for ids" + IntStream.of(ids).mapToObj(i -> i).collect(Collectors.toList())
 							+ " resp=" + newreq.getResponseCode() + " err=" + newreq.getError());
 				}
 			}
@@ -89,15 +94,12 @@ public class Universe {
 	// access to public structures
 	//
 
-	private Set<Long> publicStructures = new HashSet<>();
+
+	@Getter(lazy = true)
+	private final ObsSetHolder<Long> publicStructures = con().cache().universe.structures(null).distinct();
 
 	public boolean isPublicStructure(long structureid) {
-		synchronized (publicStructures) {
-			if (publicStructures.isEmpty()) {
-				publicStructures.addAll(con.cache.universe.structures(null).get());
-			}
-		}
-		return publicStructures.contains(structureid);
+		return getPublicStructures().get().contains(structureid);
 	}
 
 	public boolean isPublicDockable(long locationID) {
@@ -206,14 +208,14 @@ public class Universe {
 			synchronized (this) {
 				if (pochvenSystems == null) {
 					List<ObsObjHolder<R_get_universe_constellations_constellation_id>> constellations = IntStream
-							.of(con.cache.universe.regions(10000070).get().constellations)
-							.mapToObj(c -> con.cache.universe.constellations(c)).collect(Collectors.toList());
+							.of(con.cache().universe.regions(10000070).get().constellations)
+							.mapToObj(c -> con.cache().universe.constellations(c)).collect(Collectors.toList());
 					pochvenSystems = constellations.parallelStream().flatMapToInt(c -> IntStream.of(c.get().systems)).toArray();
-					logger.debug("pochven systems are " + IntStream.of(pochvenSystems).boxed().collect(Collectors.toList()));
+					log.debug("pochven systems are " + IntStream.of(pochvenSystems).boxed().collect(Collectors.toList()));
 				}
 			}
 		}
-		List<R_get_universe_systems_system_id> systems = con.cache.route
+		List<R_get_universe_systems_system_id> systems = con.cache().route
 				.get(pochvenSystems, null, destination.system_id, flag.secure, station.system_id).get().parallelStream()
 				.map(si -> cache.systems(si).get()).collect(Collectors.toList());
 		M_3_xnumber_ynumber_znumber lastPos = station.position;

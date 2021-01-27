@@ -193,9 +193,10 @@ public abstract class ConnectedImpl implements ITransfer {
 				page1.getOK().addAll(fetchPagesFrom2(nbPages, resourceAccess, parameters, page1, mismatch));
 			}
 			if (!mismatch[0]) {
-				if (page1.responseCode != 200 && page1.responseCode != 304) {
+				if (page1.getResponseCode() != 200 && page1.getResponseCode() != 304) {
 					logger.debug(
-							page1.getURL() + " request pages received responsecode=" + page1.responseCode + " error=" + page1.error);
+							page1.getURL() + " request pages received responsecode=" + page1.getResponseCode() + " error="
+									+ page1.getError());
 				}
 				return page1;
 			}
@@ -224,8 +225,8 @@ public abstract class ConnectedImpl implements ITransfer {
 			return ret;
 		}).peek(page -> {
 			if (!page.isOk()) {
-				res.responseCode = page.getResponseCode();
-				res.error = page.getError();
+				res.setResponseCode(page.getResponseCode());
+				res.setError(page.getError());
 			}
 			String resExpire = res.getExpires();
 			String pageExpire = page.getExpires();

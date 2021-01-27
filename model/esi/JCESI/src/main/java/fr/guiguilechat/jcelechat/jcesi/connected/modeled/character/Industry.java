@@ -39,7 +39,7 @@ public class Industry {
 		if (cacheJobs == null) {
 			synchronized (this) {
 				if (cacheJobs == null) {
-					cacheJobs = con.raw.cache.characters.industry_jobs(con.characterId(), false);
+					cacheJobs = con.raw.cache().characters.industry_jobs(con.characterId(), false);
 				}
 			}
 		}
@@ -263,7 +263,7 @@ public class Industry {
 		if (blueprints == null) {
 			synchronized (this) {
 				if (blueprints == null) {
-					blueprints = con.raw.cache.characters.blueprints(con.characterId())
+					blueprints = con.raw.cache().characters.blueprints(con.characterId())
 							.toMap(b -> b.item_id,
 									this::convertBlueprint);
 				}

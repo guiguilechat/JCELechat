@@ -37,14 +37,14 @@ public class Markets {
 	public RegionalMarket getMarket(int regionID) {
 		RegionalMarket rm = regionMarkets.get(regionID);
 		if (rm == null) {
-			if (!esiConnection.cache.universe.regions().get().contains(regionID)) {
+			if (!esiConnection.cache().universe.regions().get().contains(regionID)) {
 				logger.warn("requested inexisting region id " + regionID, new NullPointerException());
 				return null;
 			}
 			synchronized (regionMarkets) {
 				rm = regionMarkets.get(regionID);
 				if (rm == null) {
-					rm = new RegionalMarket(esiConnection.cache, regionID);
+					rm = new RegionalMarket(esiConnection.cache(), regionID);
 					regionMarkets.put(regionID, rm);
 				} else {
 					rm = regionMarkets.get(regionID);
@@ -89,7 +89,7 @@ public class Markets {
 	//
 
 	public ObsListHolder<R_get_markets_prices> marketPrices() {
-		return esiConnection.cache.markets.prices();
+		return esiConnection.cache().markets.prices();
 	}
 
 	private ObsMapHolder<Integer, Double> adjusteds = null;

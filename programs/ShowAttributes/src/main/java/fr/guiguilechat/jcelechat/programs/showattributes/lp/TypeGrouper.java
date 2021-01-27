@@ -14,7 +14,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dog
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 
 public class TypeGrouper {
-	CacheStatic access = ESIStatic.INSTANCE.cache;
+	CacheStatic access = ESIStatic.INSTANCE.cache();
 
 	/**
 	 * cached type id 2 semantic id.

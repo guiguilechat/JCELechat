@@ -21,7 +21,7 @@ public class Informations {
 	}
 
 	public ObsObjHolder<R_get_characters_character_id> get() {
-		return ESIStatic.INSTANCE.cache.characters.get(con.characterId());
+		return ESIStatic.INSTANCE.cache().characters.get(con.characterId());
 	}
 
 	private ObsIntHolder allianceId = null;

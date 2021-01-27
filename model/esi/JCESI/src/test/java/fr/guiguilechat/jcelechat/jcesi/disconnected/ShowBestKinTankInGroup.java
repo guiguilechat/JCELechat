@@ -24,10 +24,10 @@ public class ShowBestKinTankInGroup {
 	}
 
 	public static void showTankGroup(int groupId) {
-		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(groupId).get();
+		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache().universe.groups(groupId).get();
 		System.out.println("group " + group.name);
 		Map<R_get_universe_types_type_id, Double> map = IntStream.of(group.types)
-				.mapToObj(i -> ESIStatic.INSTANCE.cache.universe.types(i).get()).parallel()
+				.mapToObj(i -> ESIStatic.INSTANCE.cache().universe.types(i).get()).parallel()
 				.collect(Collectors.toMap(entity -> entity, ShowBestKinTankInGroup::getKinEVHPType));
 		ArrayList<Entry<R_get_universe_types_type_id, Double>> list = new ArrayList<>(map.entrySet());
 		Collections.sort(list, (e1, e2) -> e1.getValue().compareTo(e2.getValue()));

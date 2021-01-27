@@ -42,16 +42,18 @@ import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener.Change;
 import javafx.collections.ObservableMap;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 
+@RequiredArgsConstructor
 public class Assets {
 
 	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(Assets.class);
 
+	@Getter
+	@Accessors(fluent = true)
 	private final ESIAccount con;
-
-	public Assets(ESIAccount con) {
-		this.con = con;
-	}
 
 	protected static boolean canName(R_get_corporations_corporation_id_assets asset) {
 		return asset.is_singleton && asset.location_flag != get_corporations_corporation_id_assets_location_flag.AutoFit;
@@ -94,7 +96,7 @@ public class Assets {
 	 */
 	public ObsListHolder<R_get_characters_character_id_assets> getList() {
 		// caching is already present at the cache level.
-		return con.raw.cache.characters.assets(con.characterId());
+		return con.raw.cache().characters.assets(con.characterId());
 	}
 
 	/**
@@ -117,7 +119,7 @@ public class Assets {
 			this.quantity = quantity;
 			this.type_id = type_id;
 			// precache the type for when needed.
-			ESIAccess.INSTANCE.universe.cache.types(type_id);
+			ESIAccess.INSTANCE.universe.cache().types(type_id);
 		}
 
 		public ItemNode(R_get_characters_character_id_assets source) {
@@ -134,7 +136,7 @@ public class Assets {
 
 		public R_get_universe_types_type_id type() {
 			if (type == null) {
-				type = ESIAccess.INSTANCE.universe.cache.types(type_id).get();
+				type = ESIAccess.INSTANCE.universe.cache().types(type_id).get();
 			}
 			return type;
 		}

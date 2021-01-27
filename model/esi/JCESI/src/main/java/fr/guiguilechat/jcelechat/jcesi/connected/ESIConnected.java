@@ -5,9 +5,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper;
 import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper.AccessToken;
@@ -17,27 +14,28 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableSet;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * raw access to the esi services using a connection.
  *
  */
+@RequiredArgsConstructor
+@Slf4j
 public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
-
-	private static final Logger logger = LoggerFactory.getLogger(ESIConnected.class);
-
-	private final String basicAuth;
 
 	private final String refreshToken;
 
-	protected AccessToken accessToken = null;
+	private final String basicAuth;
 
-	public final CacheConnected cache = new CacheConnected(this);
+	private transient AccessToken accessToken = null;
 
-	public ESIConnected(String refreshToken, String basicAuth) {
-		this.basicAuth = basicAuth;
-		this.refreshToken = refreshToken;
-	}
+	@Getter
+	@Accessors(fluent = true)
+	private final transient CacheConnected cache = new CacheConnected(this);
 
 	public boolean isNull() {
 		return basicAuth == null || refreshToken == null;
@@ -45,7 +43,7 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 
 	protected String getAccessToken() {
 		if (accessToken == null || accessToken.expire < System.currentTimeMillis()) {
-			logger.trace("fetching access token");
+			log.trace("fetching access token");
 			accessToken = ESIAccountHelper.getAccessToken(basicAuth, refreshToken);
 		}
 		return accessToken == null ? null : accessToken.token;
@@ -95,12 +93,12 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 					} else {
 						Requested<R_Verify> req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
 						while (req.isServerError() || req.getResponseCode() == 401) {
-							logger.warn("got error " + req.getError());
+							log.warn("got error " + req.getError());
 							req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
 						}
 						verify = req.getOKOr(null);
 					}
-					logger.debug("got verification " + verify + " for refresh " + refreshToken);
+					log.debug("got verification " + verify + " for refresh " + refreshToken);
 				}
 			}
 		}
@@ -125,27 +123,21 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 
 	// getting the roles
 
-	private ObservableSet<String> roles;
+	@Getter(lazy = true)
+	private final ObservableSet<String> roles = makeRoles();
 
-	@Override
-	public ObservableSet<String> getRoles() {
-		if (roles == null) {
-			synchronized (this) {
-				if (roles == null) {
-					ObsObjHolder<R_get_characters_character_id_roles> r = cache.characters.roles(verify().CharacterID);
-					roles = FXCollections.observableSet();
-					r.follow((newroles) -> {
-						synchronized (roles) {
-							Set<String> roleslist = Arrays.asList(newroles.roles).stream().map(role -> role.toString)
-									.collect(Collectors.toSet());
-							roles.retainAll(roleslist);
-							roles.addAll(roleslist);
-							logger.debug("new roles for " + verify().CharacterName + " are " + roles);
-						}
-					});
-				}
+	protected ObservableSet<String> makeRoles() {
+		ObsObjHolder<R_get_characters_character_id_roles> r = cache.characters.roles(verify().CharacterID);
+		ObservableSet<String> ret = FXCollections.observableSet();
+		r.follow((newroles) -> {
+			synchronized (ret) {
+				Set<String> roleslist = Arrays.asList(newroles.roles).stream().map(role -> role.toString)
+						.collect(Collectors.toSet());
+				ret.retainAll(roleslist);
+				ret.addAll(roleslist);
+				log.debug("new roles for " + verify().CharacterName + " are " + ret);
 			}
-		}
-		return roles;
+		});
+		return ret;
 	}
 }

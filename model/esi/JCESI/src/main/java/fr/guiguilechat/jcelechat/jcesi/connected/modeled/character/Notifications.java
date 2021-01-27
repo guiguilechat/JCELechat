@@ -13,7 +13,7 @@ public class Notifications {
 	}
 
 	public ObsListHolder<R_get_characters_character_id_notifications> get() {
-		return con.raw.cache.characters.notifications(con.characterId());
+		return con.raw.cache().characters.notifications(con.characterId());
 	}
 
 }

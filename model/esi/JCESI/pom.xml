@@ -41,6 +41,12 @@
 			<artifactId>logback-classic</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.16</version>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 	<name>JCESI</name>
 	<description>decoration over the JCESI-compiled in order to provide easier use</description>

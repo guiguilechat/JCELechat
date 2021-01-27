@@ -31,7 +31,7 @@ public class Wars {
 		if (cachedIds == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedIds == null) {
-					cachedIds = esiConnection.cache.wars.wars(null).toList(this::expandWholeWars);
+					cachedIds = esiConnection.cache().wars.wars(null).toList(this::expandWholeWars);
 				}
 			});
 		}
@@ -83,7 +83,7 @@ public class Wars {
 		if (cachedMonthIds == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedMonthIds == null) {
-					cachedMonthIds = esiConnection.cache.wars.wars(null).toList(this::expandMonthWars);
+					cachedMonthIds = esiConnection.cache().wars.wars(null).toList(this::expandMonthWars);
 				}
 			});
 		}
@@ -99,7 +99,7 @@ public class Wars {
 		Integer firstId = ret.get(ret.size() - 1);
 		do {
 			// at the same time, fetch the first known war id and the next page.
-			ObsObjHolder<R_get_wars_war_id> lastLimit = esiConnection.cache.wars.get(firstId);
+			ObsObjHolder<R_get_wars_war_id> lastLimit = esiConnection.cache().wars.get(firstId);
 			Requested<Integer[]> req = esiConnection.get_wars(firstId, null);
 			// then check if the previous data was before the limit date.
 			LocalDate previousStart = ESITools.convertLocalDate(lastLimit.get().started);
@@ -135,7 +135,7 @@ public class Wars {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedMonthWars == null) {
 					cachedMonthWars = monthIds.mapItems(id -> {
-						return esiConnection.cache.wars.get(id);
+						return esiConnection.cache().wars.get(id);
 					}).mapItems(holder -> holder.get());
 				}
 			});

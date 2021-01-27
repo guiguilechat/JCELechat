@@ -24,11 +24,11 @@ public class ShowTank {
 	public static void showGroup(String nameFilter, int... groupIds) {
 		// preload the group
 		IntStream.of(groupIds).parallel()
-		.flatMap(groupId -> IntStream.of(ESIStatic.INSTANCE.cache.universe.groups(groupId).get().types))
-		.forEach(i -> ESIStatic.INSTANCE.cache.universe.types(i));
+				.flatMap(groupId -> IntStream.of(ESIStatic.INSTANCE.cache().universe.groups(groupId).get().types))
+				.forEach(i -> ESIStatic.INSTANCE.cache().universe.types(i));
 		System.out.println("name\tid\tgroup\tEMEHP\tTHEHP\tKIEHP\tEXEHP");
 		for (int groupId : groupIds) {
-			R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(groupId).get();
+			R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache().universe.groups(groupId).get();
 			for (int typeId : group.types) {
 				showEntity(nameFilter, typeId);
 			}
@@ -38,11 +38,11 @@ public class ShowTank {
 	private static final DecimalFormat nf = new DecimalFormat("#", DecimalFormatSymbols.getInstance(Locale.ENGLISH));
 
 	public static void showEntity(String nameFilter, int typeId) {
-		R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache.universe.types(typeId).get();
+		R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache().universe.types(typeId).get();
 		if (nameFilter != null && !type.name.matches(nameFilter)) {
 			return;
 		}
-		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(type.group_id).get();
+		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache().universe.groups(type.group_id).get();
 
 		Map<Integer, Double> attIdToValue = Stream
 				.of(type.dogma_attributes != null ? type.dogma_attributes

@@ -24,8 +24,8 @@ public class CheckESISDE {
 
 		long start = System.currentTimeMillis();
 		// first preload everything
-		Universe universe = ESIStatic.INSTANCE.cache.universe;
-		Dogma dogma = ESIStatic.INSTANCE.cache.dogma;
+		Universe universe = ESIStatic.INSTANCE.cache().universe;
+		Dogma dogma = ESIStatic.INSTANCE.cache().dogma;
 		ObsMapHolder<Integer, R_get_universe_categories_category_id> catMap = universe.categories()
 				.mapItems(catid -> universe.categories(catid)).toMap(h -> h.get().category_id, h -> h.get());
 		ObsMapHolder<Integer, R_get_universe_groups_group_id> groupMap = universe.groups()

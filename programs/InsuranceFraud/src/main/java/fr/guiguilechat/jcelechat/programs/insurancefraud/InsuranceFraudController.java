@@ -82,7 +82,7 @@ public class InsuranceFraudController {
 							craftCost.materials.getOrDefault("Zydrine", 0.0), craftCost.materials.getOrDefault("Megacyte", 0.0)));
 				}
 			} else {
-				R_get_universe_types_type_id esiItem = ESIStatic.INSTANCE.cache.universe.types(prices.type_id).get();
+				R_get_universe_types_type_id esiItem = ESIStatic.INSTANCE.cache().universe.types(prices.type_id).get();
 				if (esiItem != null) {
 					name.set(esiItem.name);
 					published = esiItem.published;
@@ -188,7 +188,7 @@ public class InsuranceFraudController {
 		minerYield = Double.parseDouble(optYield.getText());
 		reprocMult = Double.parseDouble(optReproc.getText());
 		table.getItems().clear();
-		ESIStatic.INSTANCE.cache.insurance.prices().get().parallelStream().map(this::analyze)
+		ESIStatic.INSTANCE.cache().insurance.prices().get().parallelStream().map(this::analyze)
 		.filter(ana -> ana.published && ana.techLevel == 1).forEachOrdered(table.getItems()::add);
 		table.sort();
 	}

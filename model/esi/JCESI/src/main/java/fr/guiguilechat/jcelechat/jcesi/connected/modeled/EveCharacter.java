@@ -100,7 +100,7 @@ public class EveCharacter {
 	//
 
 	public ObsObjHolder<R_get_characters_character_id_roles> getRolesData() {
-		return con.raw.cache.characters.roles(con.characterId());
+		return con.raw.cache().characters.roles(con.characterId());
 	}
 
 	private ObsSetHolder<get_characters_character_id_roles_roles> rolesCache = null;
@@ -169,7 +169,7 @@ public class EveCharacter {
 		if (online == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (online == null) {
-					online = con.raw.cache.characters.online(con.characterId());
+					online = con.raw.cache().characters.online(con.characterId());
 				}
 			});
 		}
@@ -366,7 +366,7 @@ public class EveCharacter {
 		if (journal == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (journal == null) {
-					journal = con.raw.cache.characters.wallet_journal(con.characterId()).toMap(j -> j.id);
+					journal = con.raw.cache().characters.wallet_journal(con.characterId()).toMap(j -> j.id);
 				}
 			});
 		}
@@ -383,7 +383,7 @@ public class EveCharacter {
 		if (standings == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (standings == null) {
-					standings = con.raw.cache.characters.standings(con.characterId()).toMap(std -> std.from_id);
+					standings = con.raw.cache().characters.standings(con.characterId()).toMap(std -> std.from_id);
 				}
 			});
 		}
@@ -417,7 +417,7 @@ public class EveCharacter {
 		if (lps == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (lps == null) {
-					lps = con.raw.cache.characters.loyalty_points(con.characterId()).toMap(lp -> lp.corporation_id);
+					lps = con.raw.cache().characters.loyalty_points(con.characterId()).toMap(lp -> lp.corporation_id);
 				}
 			});
 		}
@@ -446,7 +446,7 @@ public class EveCharacter {
 						holdSkil[0] = newValue;
 						apply.run();
 					});
-					attributes.get().follow((newValue) -> {
+					attributes.values().follow((newValue) -> {
 						holdAtt[0] = newValue;
 						apply.run();
 					});

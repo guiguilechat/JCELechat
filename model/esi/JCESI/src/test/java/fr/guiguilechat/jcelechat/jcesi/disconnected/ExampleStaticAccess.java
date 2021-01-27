@@ -39,12 +39,12 @@ public class ExampleStaticAccess {
 		 * The esi has a built in cache manager.<br />
 		 * The cache fetch the pages and put the data in the holder
 		 */
-		ObsListHolder<R_get_markets_region_id_orders> cachebos = stat.cache.markets
+		ObsListHolder<R_get_markets_region_id_orders> cachebos = stat.cache().markets
 				.orders(order_type.buy, theforge,
 						veldspar);
 
 		/** cache should return the same holder when given the same parameters */
-		if (stat.cache.markets.orders(order_type.buy, theforge, veldspar) != cachebos) {
+		if (stat.cache().markets.orders(order_type.buy, theforge, veldspar) != cachebos) {
 			throw new RuntimeException();
 		}
 

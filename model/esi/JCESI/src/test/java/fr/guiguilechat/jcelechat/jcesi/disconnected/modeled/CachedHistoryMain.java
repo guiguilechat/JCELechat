@@ -12,14 +12,14 @@ public class CachedHistoryMain {
 	}
 
 	protected static void printhistorydate() {
-		RegionTypeHistory h = new RegionTypeHistory(ESIStatic.INSTANCE.cache, 10000002, 527);
+		RegionTypeHistory h = new RegionTypeHistory(ESIStatic.INSTANCE.cache(), 10000002, 527);
 		for (R_get_markets_region_id_history l : h.yearly.getData().get()) {
 			System.err.println(l.date);
 		}
 	}
 
 	protected static void showAverageWebII() {
-		RegionTypeHistory h = new RegionTypeHistory(ESIStatic.INSTANCE.cache, 10000002, 527);
+		RegionTypeHistory h = new RegionTypeHistory(ESIStatic.INSTANCE.cache(), 10000002, 527);
 		System.err.println("average=" + h.weekly.getAverage().get());
 	}
 

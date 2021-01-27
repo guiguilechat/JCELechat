@@ -92,7 +92,7 @@ public class Assets {
 
 	public ObsListHolder<R_get_corporations_corporation_id_assets> getList() {
 		// caching is already present at the cache level.
-		return con.raw.cache.corporations.assets(con.corporation.getId());
+		return con.raw.cache().corporations.assets(con.corporation.getId());
 	}
 
 	protected ItemForest grow(List<R_get_corporations_corporation_id_assets> assets) {

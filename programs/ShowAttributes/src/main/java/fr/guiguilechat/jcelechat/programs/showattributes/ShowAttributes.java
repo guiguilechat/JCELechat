@@ -94,12 +94,12 @@ public class ShowAttributes {
 	}
 
 	public static void showEntity(int typeId, String... filters) {
-		showEntity(ESIStatic.INSTANCE.cache.universe.types(typeId).get(), filters);
+		showEntity(ESIStatic.INSTANCE.cache().universe.types(typeId).get(), filters);
 	}
 
 	public static void showEntity(R_get_universe_types_type_id type, String... filters) {
-		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(type.group_id).get();
-		R_get_universe_categories_category_id cat = ESIStatic.INSTANCE.cache.universe.categories(group.category_id).get();
+		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache().universe.groups(type.group_id).get();
+		R_get_universe_categories_category_id cat = ESIStatic.INSTANCE.cache().universe.categories(group.category_id).get();
 		System.out.println(type.name + "(" + type.type_id + ") group=" + group.name + "(" + group.group_id + ") category="
 				+ cat.name + "(" + cat.category_id + ")");
 		Set<Integer> usedAttIds = new HashSet<>();
@@ -110,7 +110,7 @@ public class ShowAttributes {
 
 		if (type.dogma_effects != null) {
 			List<ObsObjHolder<R_get_dogma_effects_effect_id>> effects = Stream.of(type.dogma_effects)
-					.map(eff -> ESIStatic.INSTANCE.cache.dogma.effects(eff.effect_id)).collect(Collectors.toList());
+					.map(eff -> ESIStatic.INSTANCE.cache().dogma.effects(eff.effect_id)).collect(Collectors.toList());
 			for (ObsObjHolder<R_get_dogma_effects_effect_id> h : effects) {
 				R_get_dogma_effects_effect_id e = h.get();
 				if (filters != null && filters.length != 0) {
@@ -150,7 +150,7 @@ public class ShowAttributes {
 				if (e.modifiers != null && e.modifiers.length != 0) {
 					for (get_dogma_effects_effect_id_modifiers m : e.modifiers) {
 						if (m.modified_attribute_id != 0 && m.modifying_attribute_id != 0) {
-							R_get_dogma_attributes_attribute_id modified = ESIStatic.INSTANCE.cache.dogma
+							R_get_dogma_attributes_attribute_id modified = ESIStatic.INSTANCE.cache().dogma
 									.attributes(m.modified_attribute_id).get();
 							usedAttIds.add(m.modifying_attribute_id);
 							System.out.println("\t\t\t" + m.func + " : " + m.domain + "." + modified.display_name + " "
@@ -193,7 +193,8 @@ public class ShowAttributes {
 		}
 		if (type.dogma_attributes != null) {
 			Stream.of(type.dogma_attributes).sorted((a1, a2) -> a1.attribute_id - a2.attribute_id).parallel().map(att -> {
-				R_get_dogma_attributes_attribute_id dogattr = ESIStatic.INSTANCE.cache.dogma.attributes(att.attribute_id).get();
+				R_get_dogma_attributes_attribute_id dogattr = ESIStatic.INSTANCE.cache().dogma.attributes(att.attribute_id)
+						.get();
 				if (filters != null) {
 					for (String filter : filters) {
 						if (filter != null && !dogattr.name.toLowerCase().contains(filter.toLowerCase())) {
@@ -210,12 +211,12 @@ public class ShowAttributes {
 	}
 
 	public static String printAttValue(Map<Integer, Float> attIdToValue, int attId) {
-		R_get_dogma_attributes_attribute_id attribute = ESIStatic.INSTANCE.cache.dogma.attributes(attId).get();
+		R_get_dogma_attributes_attribute_id attribute = ESIStatic.INSTANCE.cache().dogma.attributes(attId).get();
 		return getUnit(attribute.unit_id, attIdToValue.getOrDefault(attId, attribute.default_value));
 	}
 
 	public static float getAttValue(Map<Integer, Float> attIdToValue, int attId) {
-		R_get_dogma_attributes_attribute_id attribute = ESIStatic.INSTANCE.cache.dogma.attributes(attId).get();
+		R_get_dogma_attributes_attribute_id attribute = ESIStatic.INSTANCE.cache().dogma.attributes(attId).get();
 		return attIdToValue.getOrDefault(attId, attribute.default_value);
 	}
 
@@ -237,7 +238,7 @@ public class ShowAttributes {
 	}
 
 	public static void showGroup(int groupId, String... filters) {
-		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(groupId).get();
+		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache().universe.groups(groupId).get();
 		for (int typeId : group.types) {
 			showEntity(typeId, filters);
 		}
@@ -245,12 +246,12 @@ public class ShowAttributes {
 
 	public static void showGroups(String nameFilter, int... groupids) {
 		IntStream.of(groupids).parallel()
-		.flatMap(gid -> IntStream.of(ESIStatic.INSTANCE.cache.universe.groups(gid).get().types))
-		.forEach(tid -> ESIStatic.INSTANCE.cache.universe.types(tid));
+				.flatMap(gid -> IntStream.of(ESIStatic.INSTANCE.cache().universe.groups(gid).get().types))
+				.forEach(tid -> ESIStatic.INSTANCE.cache().universe.types(tid));
 		for (int groupId : groupids) {
-			R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(groupId).get();
+			R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache().universe.groups(groupId).get();
 			for (int typeId : group.types) {
-				R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache.universe.types(typeId).get();
+				R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache().universe.types(typeId).get();
 				if (nameFilter != null && !type.name.matches(nameFilter)) {
 					continue;
 				}
@@ -267,13 +268,13 @@ public class ShowAttributes {
 			}
 		}
 		List<R_get_dogma_attributes_attribute_id> ret = new ArrayList<>();
-		attIds.stream().sorted().forEach(attId -> ret.add(ESIStatic.INSTANCE.cache.dogma.attributes(attId).get()));
+		attIds.stream().sorted().forEach(attId -> ret.add(ESIStatic.INSTANCE.cache().dogma.attributes(attId).get()));
 		return ret;
 	}
 
 	public static List<R_get_universe_types_type_id> typesInGroup(int groupId) {
-		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(groupId).get();
-		return IntStream.of(group.types).mapToObj(i -> ESIStatic.INSTANCE.cache.universe.types(i).get())
+		R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache().universe.groups(groupId).get();
+		return IntStream.of(group.types).mapToObj(i -> ESIStatic.INSTANCE.cache().universe.types(i).get())
 				.collect(Collectors.toList());
 	}
 

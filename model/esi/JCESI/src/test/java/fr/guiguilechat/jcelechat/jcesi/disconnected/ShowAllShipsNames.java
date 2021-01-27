@@ -10,7 +10,7 @@ public class ShowAllShipsNames {
 		long time = System.currentTimeMillis();
 		boolean cached = false;
 		if (cached) {
-			CacheStatic cache = ESIStatic.INSTANCE.cache;
+			CacheStatic cache = ESIStatic.INSTANCE.cache();
 			cache.insurance.prices().get().parallelStream().map(price -> cache.universe.types(price.type_id).get())
 			.forEachOrdered(t -> System.err.println(t.name + "\t" + t.type_id));
 		} else {

@@ -121,7 +121,7 @@ public class CorpBookmarks {
 	protected synchronized void makeCacheBookmarks() {
 		if (cacheBookmarks == null) {
 			cacheBookmarks = ObsMapHolderImpl
-					.toMap(con.raw.cache.corporations.bookmarks(con.character.infos.corporationId().get()), m -> m.bookmark_id);
+					.toMap(con.raw.cache().corporations.bookmarks(con.character.infos.corporationId().get()), m -> m.bookmark_id);
 		}
 	}
 
@@ -145,7 +145,7 @@ public class CorpBookmarks {
 	protected synchronized void makeCacheFolders() {
 		if (cacheFolders == null) {
 			cacheFolders = ObsMapHolderImpl.toMap(
-					con.raw.cache.corporations.bookmarks_folders(con.character.infos.corporationId().get()),
+					con.raw.cache().corporations.bookmarks_folders(con.character.infos.corporationId().get()),
 					m -> m.folder_id);
 		}
 	}

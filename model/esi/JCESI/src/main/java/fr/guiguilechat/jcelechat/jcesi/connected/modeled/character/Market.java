@@ -84,7 +84,7 @@ public class Market {
 	}
 
 	public ObsListHolder<R_get_characters_character_id_orders> getOrders() {
-		return con.raw.cache.characters.orders(con.characterId());
+		return con.raw.cache().characters.orders(con.characterId());
 	}
 
 	private ObsSetHolder<Long> cachedOrderIds = null;
@@ -114,18 +114,19 @@ public class Market {
 				ret = cachedRegionalPublicOrders.get(regionId);
 				if (ret == null) {
 					Set<Integer> allowedConstels = IntStream
-							.of(ESIAccess.INSTANCE.universe.cache.regions(regionId).get().constellations).boxed()
+							.of(ESIAccess.INSTANCE.universe.cache().regions(regionId).get().constellations).boxed()
 							.collect(Collectors.toSet());
 
 					ObsSetHolder<Long> structIdInRegion = con.universe.publicStructures(filter.market)
 							.filter(null,
 									stru -> allowedConstels
-									.contains(ESIAccess.INSTANCE.universe.cache.systems(stru.solar_system_id).get().constellation_id))
+											.contains(
+													ESIAccess.INSTANCE.universe.cache().systems(stru.solar_system_id).get().constellation_id))
 							.keys();
 					ObsCollectionHolder<R_get_markets_region_id_orders, ?, ?> publicStructureOrders = structIdInRegion
 							.flatten(structid -> {
 								int system_id = con.universe.location(structid).system().system_id;
-								return con.raw.cache.markets.structures(structid)
+								return con.raw.cache().markets.structures(structid)
 										.mapItems(orderstruct -> convertStructOrder(orderstruct, system_id));
 							});
 					ret = publicStructureOrders;

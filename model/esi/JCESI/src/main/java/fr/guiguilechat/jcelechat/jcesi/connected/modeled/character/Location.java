@@ -20,7 +20,7 @@ public class Location {
 	}
 
 	public ObsObjHolder<R_get_characters_character_id_location> get() {
-		return con.raw.cache.characters.location(con.characterId());
+		return con.raw.cache().characters.location(con.characterId());
 	}
 
 	protected ObsIntHolder solarSystem = null;

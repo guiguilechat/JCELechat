@@ -10,188 +10,133 @@ import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
-import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 
+@RequiredArgsConstructor
 public class Attributes {
 
+	@Getter
+	@Accessors(fluent = true)
 	private final ESIAccount con;
 
-	public Attributes(ESIAccount con) {
-		this.con = con;
-	}
+	/**
+	 * the actual data of attributes
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsObjHolder<R_get_characters_character_id_attributes> values = con.raw.cache().characters
+	.attributes(con.characterId());
 
-	public ObsObjHolder<R_get_characters_character_id_attributes> get() {
-		return con.raw.cache.characters.attributes(con.characterId());
-	}
+	/**
+	 * the value of the charisma attribute
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder charisma = values().mapInt(att -> att.charisma);
 
-	private ObsIntHolder charisma = null;
+	/**
+	 * the value of the intelligence attribute
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder intelligence = values().mapInt(att -> att.intelligence);
 
-	public ObsIntHolder charisma() {
-		if (charisma == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (charisma == null) {
-					charisma = fetch.mapInt(att->att.charisma);
-				}
-			});
-		}
-		return charisma;
-	}
+	/**
+	 * the value of the memory attribute
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder memory = values().mapInt(att -> att.memory);
 
-	private ObsIntHolder intelligence = null;
+	/**
+	 * the value of the perception attribute
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder perception = values().mapInt(att -> att.perception);
 
-	public ObsIntHolder intelligence() {
-		if (intelligence == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (intelligence == null) {
-					intelligence = fetch.mapInt(att -> att.intelligence);
-				}
-			});
-		}
-		return intelligence;
-	}
+	/**
+	 * the value of the willpower attribute
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder willpower = values().mapInt(att -> att.willpower);
 
-	private ObsIntHolder memory = null;
+	/**
+	 * the int list of the attributes values, sorted increasing.
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsListHolder<Integer> sorted = values()
+	.toList(att -> Arrays.asList(att.charisma, att.intelligence, att.memory, att.perception, att.willpower))
+	.sorted(Integer::compareTo);
 
-	public ObsIntHolder memory() {
-		if (memory == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (memory == null) {
-					memory = fetch.mapInt(att -> att.memory);
-				}
-			});
-		}
-		return memory;
-	}
+	/**
+	 * the highest value of the attributes.
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder highest = sorted().mapInt(li -> li.get(4));
 
-	private ObsIntHolder perception = null;
+	/**
+	 * the lowest value of the attributes.
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder lowest = sorted().mapInt(li -> li.get(0));
 
-	public ObsIntHolder perception() {
-		if (perception == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (perception == null) {
-					perception = fetch.mapInt(att -> att.perception);
-				}
-			});
-		}
-		return perception;
-	}
+	/**
+	 * the sum of the attributes values
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder sum = values()
+	.mapInt(li -> li.charisma + li.intelligence + li.memory + li.perception + li.willpower);;
 
-	private ObsIntHolder willpower = null;
+	/**
+	 * true if sum of attributes is more than 124 (that is the default
+	 * value).<br />
+	 * base is 17*5 = 85 attributes, +14 to remap, +5*5 from implants
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsBoolHolder isAccelerated = sum().test(i -> i > 124);
 
-	public ObsIntHolder willpower() {
-		if (willpower == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (willpower == null) {
-					willpower = fetch.mapInt(att -> att.willpower);
-				}
-			});
-		}
-		return willpower;
-	}
+	/**
+	 * available bonus remaps
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsIntHolder bonusRemaps = values().mapInt(att -> att.bonus_remaps);
 
-	private ObsListHolder<Integer> sorted = null;
+	/**
+	 * local date time for the last remap
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsObjHolder<LocalDateTime> lastRemap = values()
+	.map(att -> ESITools.convertLocalDateTime(att.last_remap_date));
 
-	public ObsListHolder<Integer> sorted() {
-		if (sorted == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				sorted = fetch
-						.toList(att -> Arrays.asList(att.charisma, att.intelligence, att.memory, att.perception, att.willpower))
-						.sorted(Integer::compareTo);
-			});
-		}
-		return sorted;
-	}
+	/**
+	 * local date time for remap cooldown
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsObjHolder<LocalDateTime> remapCoolDown = values()
+	.map(att -> ESITools.convertLocalDateTime(att.accrued_remap_cooldown_date));
 
-	private ObsIntHolder highest = null;
-
-	public ObsIntHolder highest() {
-		if (highest == null) {
-			ObsListHolder<Integer> sorted = sorted();
-			LockWatchDog.BARKER.syncExecute(sorted, () -> {
-				if (highest == null) {
-					highest = sorted.mapInt(li -> li.get(4));
-				}
-			});
-		}
-		return highest;
-	}
-
-	private ObsIntHolder sum = null;
-
-	public ObsIntHolder sum() {
-		if (sum == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (sum == null) {
-					sum = fetch.mapInt(li -> li.charisma + li.intelligence + li.memory + li.perception + li.willpower);
-				}
-			});
-		}
-		return sum;
-	}
-
-	private ObsBoolHolder accelerated = null;
-
-	public ObsBoolHolder isAccelerated() {
-		if (accelerated == null) {
-			ObsIntHolder sum = sum();
-			LockWatchDog.BARKER.syncExecute(sum, () -> {
-				if (accelerated == null) {
-					accelerated = sum.test(i -> i > 149);
-				}
-			});
-		}
-		return accelerated;
-	}
-
-	private ObsIntHolder bonusRemaps = null;
-
-	public ObsIntHolder bonusRemaps() {
-		if (bonusRemaps == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (bonusRemaps == null) {
-					bonusRemaps = fetch.mapInt(att -> att.bonus_remaps);
-				}
-			});
-		}
-		return bonusRemaps;
-	}
-
-	private ObsObjHolder<LocalDateTime> lastRemap = null;
-
-	public ObsObjHolder<LocalDateTime> lastRemap() {
-		if (lastRemap == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (lastRemap == null) {
-					lastRemap = fetch.map(att -> ESITools.convertLocalDateTime(att.last_remap_date));
-				}
-			});
-		}
-		return lastRemap;
-	}
-
-	private ObsObjHolder<LocalDateTime> remapCoolDown = null;
-
-	public ObsObjHolder<LocalDateTime> remapCoolDown() {
-		if (remapCoolDown == null) {
-			ObsObjHolder<R_get_characters_character_id_attributes> fetch = get();
-			LockWatchDog.BARKER.syncExecute(fetch, () -> {
-				if (remapCoolDown == null) {
-					remapCoolDown = fetch.map(att -> ESITools.convertLocalDateTime(att.accrued_remap_cooldown_date));
-				}
-			});
-		}
-		return remapCoolDown;
-	}
-
+	/**
+	 * convert the attribute ID to the actual attribute value
+	 *
+	 * @param attID
+	 *          the id of the required attribute, typically used in skills as
+	 *          primary/secondary
+	 * @param attributes
+	 *          character attributes
+	 * @return the required attribute value
+	 */
 	public static int getAttribute(int attID, R_get_characters_character_id_attributes attributes) {
 		switch (attID) {
 		case 164:
@@ -209,5 +154,16 @@ public class Attributes {
 		}
 	}
 
+	/**
+	 * convert the attribute ID to the actual attribute value
+	 *
+	 * @param attID
+	 *          the id of the required attribute, typically used in skills as
+	 *          primary/secondary
+	 * @return the required attribute value
+	 */
+	public int getAttribute(int attID) {
+		return getAttribute(attID, values().get());
+	}
 
 }

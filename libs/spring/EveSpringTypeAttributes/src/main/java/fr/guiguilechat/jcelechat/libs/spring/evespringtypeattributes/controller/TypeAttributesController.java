@@ -15,20 +15,20 @@ public class TypeAttributesController {
 
 	@RequestMapping(value = "/attribute/{attId}", produces = MediaType.APPLICATION_XML_VALUE)
 	public String attribute(@PathVariable int attId, int... typeIds) {
-		R_get_dogma_attributes_attribute_id attr = ESIStatic.INSTANCE.cache.dogma.attributes(attId).get();
+		R_get_dogma_attributes_attribute_id attr = ESIStatic.INSTANCE.cache().dogma.attributes(attId).get();
 		if (attr == null) {
 			return "invalid attribute";
 		}
 		if (typeIds != null) {
 			for (int typeId : typeIds) {
-				ESIStatic.INSTANCE.cache.universe.types(typeId);
+				ESIStatic.INSTANCE.cache().universe.types(typeId);
 			}
 		}
 		StringBuilder sb = new StringBuilder("<attribute id=\"" + attId + "\" name=\"" + attr.name + "\">\n");
 		if (typeIds != null) {
 			for (int typeId : typeIds) {
 				float value = attr.default_value;
-				R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache.universe.types(typeId).get();
+				R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache().universe.types(typeId).get();
 				if (type != null && type.dogma_attributes != null) {
 					for (get_dogma_dynamic_items_type_id_item_id_dogma_attributes att : type.dogma_attributes) {
 						if (att.attribute_id == attId) {

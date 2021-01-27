@@ -32,7 +32,7 @@ public class Industry {
 		if (indicesMap == null) {
 			synchronized (this) {
 				if (indicesMap == null) {
-					indicesMap = ESIStatic.INSTANCE.cache.industry.systems().toMap(r -> {
+					indicesMap = ESIStatic.INSTANCE.cache().industry.systems().toMap(r -> {
 						return r.solar_system_id;
 					}, IndustryIndices::new);
 				}

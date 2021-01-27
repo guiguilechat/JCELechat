@@ -64,17 +64,17 @@ public class ShowEntitiesStats {
 	public static void showGroups(String nameFilter, int[] groupIds, TypeData... typedatas) {
 		// preload the group
 		IntStream.of(groupIds).parallel()
-		.flatMap(groupId -> IntStream.of(ESIStatic.INSTANCE.cache.universe.groups(groupId).get().types))
-		.forEach(i -> ESIStatic.INSTANCE.cache.universe.types(i));
+				.flatMap(groupId -> IntStream.of(ESIStatic.INSTANCE.cache().universe.groups(groupId).get().types))
+				.forEach(i -> ESIStatic.INSTANCE.cache().universe.types(i));
 		HashMap<TypeData, List<String>> data2values = new HashMap<>();
 		for (TypeData td : typedatas) {
 			data2values.put(td, new ArrayList<>());
 		}
 		int entitynb = 0;
 		for (int groupId : groupIds) {
-			R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache.universe.groups(groupId).get();
+			R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache().universe.groups(groupId).get();
 			for (int typeId : group.types) {
-				R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache.universe.types(typeId).get();
+				R_get_universe_types_type_id type = ESIStatic.INSTANCE.cache().universe.types(typeId).get();
 				if (nameFilter != null && !type.name.matches(nameFilter)) {
 					continue;
 				} else {

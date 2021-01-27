@@ -17,7 +17,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_l
 
 public class ShowLP {
 
-	private static CacheStatic access = ESIStatic.INSTANCE.cache;
+	private static CacheStatic access = ESIStatic.INSTANCE.cache();
 
 	public static class GroupData {
 

@@ -57,7 +57,7 @@ public class Corporation {
 	}
 
 	public ObsObjHolder<R_get_corporations_corporation_id> getInformations() {
-		return ESIStatic.INSTANCE.cache.corporations.get(getId());
+		return ESIStatic.INSTANCE.cache().corporations.get(getId());
 	}
 
 	public String getName() {
@@ -65,7 +65,7 @@ public class Corporation {
 	}
 
 	public ObsObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
-		return con.raw.cache.corporations.divisions(getId());
+		return con.raw.cache().corporations.divisions(getId());
 	}
 
 	//
@@ -84,7 +84,7 @@ public class Corporation {
 		if (cachedStructures == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedStructures == null) {
-					cachedStructures = con.raw.cache.corporations.structures(getId()).toMap(str -> str.structure_id);
+					cachedStructures = con.raw.cache().corporations.structures(getId()).toMap(str -> str.structure_id);
 				}
 			});
 		}
@@ -97,7 +97,7 @@ public class Corporation {
 		if (cachedFacilities == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedFacilities == null) {
-					cachedFacilities = con.raw.cache.corporations.facilities(getId()).toMap(str -> str.facility_id);
+					cachedFacilities = con.raw.cache().corporations.facilities(getId()).toMap(str -> str.facility_id);
 				}
 			});
 		}
@@ -115,7 +115,7 @@ public class Corporation {
 			LockWatchDog.BARKER.syncExecute(cachedJournals, () -> {
 				if (cachedJournals.get(division_id) == null) {
 					cachedJournals.put(division_id,
-							con.raw.cache.corporations.wallets_journal(getId(), division_id).toMap(j -> j.id));
+							con.raw.cache().corporations.wallets_journal(getId(), division_id).toMap(j -> j.id));
 				}
 			});
 		}
@@ -132,7 +132,7 @@ public class Corporation {
 		if (cachedStandings == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedStandings == null) {
-					cachedStandings = con.raw.cache.corporations.standings(getId()).toMap(std -> std.from_id);
+					cachedStandings = con.raw.cache().corporations.standings(getId()).toMap(std -> std.from_id);
 				}
 			});
 		}
@@ -145,7 +145,7 @@ public class Corporation {
 		if (cachedContacts == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedContacts == null) {
-					cachedContacts = con.raw.cache.corporations.contacts(getId()).toMap(contact -> contact.contact_id);
+					cachedContacts = con.raw.cache().corporations.contacts(getId()).toMap(contact -> contact.contact_id);
 				}
 			});
 		}
@@ -158,7 +158,7 @@ public class Corporation {
 		if (cachedContacts_labels == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedContacts_labels == null) {
-					cachedContacts_labels = con.raw.cache.corporations.contacts_labels(getId()).toMap(l -> l.label_id,
+					cachedContacts_labels = con.raw.cache().corporations.contacts_labels(getId()).toMap(l -> l.label_id,
 							l -> l.label_name);
 				}
 			});
@@ -171,11 +171,11 @@ public class Corporation {
 	//
 
 	public ObsListHolder<Integer> getMembers() {
-		return con.raw.cache.corporations.members(getId());
+		return con.raw.cache().corporations.members(getId());
 	}
 
 	public ObsObjHolder<Integer> getMembersLimit() {
-		return con.raw.cache.corporations.members_limit(getId());
+		return con.raw.cache().corporations.members_limit(getId());
 	}
 
 	private ObsMapHolder<Integer, int[]> cachedMembersTitles = null;
@@ -184,7 +184,7 @@ public class Corporation {
 		if (cachedMembersTitles == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedMembersTitles == null) {
-					cachedMembersTitles = con.raw.cache.corporations.members_titles(getId()).toMap(title -> title.character_id,
+					cachedMembersTitles = con.raw.cache().corporations.members_titles(getId()).toMap(title -> title.character_id,
 							title -> title.titles);
 				}
 			});
@@ -198,7 +198,7 @@ public class Corporation {
 		if (cachedTitles == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedTitles == null) {
-					cachedTitles = con.raw.cache.corporations.titles(getId()).toMap(title -> title.title_id);
+					cachedTitles = con.raw.cache().corporations.titles(getId()).toMap(title -> title.title_id);
 				}
 			});
 		}
@@ -211,7 +211,8 @@ public class Corporation {
 		if (cachedMemberstracking == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedMemberstracking == null) {
-					cachedMemberstracking = con.raw.cache.corporations.membertracking(getId()).toMap(track -> track.character_id);
+					cachedMemberstracking = con.raw.cache().corporations.membertracking(getId())
+							.toMap(track -> track.character_id);
 				}
 			});
 		}
@@ -228,7 +229,7 @@ public class Corporation {
 		if (cachedRoles == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedRoles == null) {
-					cachedRoles = con.raw.cache.corporations.roles(getId()).toMap(roles -> roles.character_id);
+					cachedRoles = con.raw.cache().corporations.roles(getId()).toMap(roles -> roles.character_id);
 				}
 			});
 		}
@@ -241,7 +242,7 @@ public class Corporation {
 	 */
 	public ObsListHolder<R_get_corporations_corporation_id_roles_history> getRolesHistory() {
 		// already cached for direct resource
-		return con.raw.cache.corporations.roles_history(getId());
+		return con.raw.cache().corporations.roles_history(getId());
 	}
 
 	//

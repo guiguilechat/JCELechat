@@ -26,7 +26,7 @@ public class MainGroupLPStores {
 
 	public static void main(String... args) {
 		HashMap<Integer, R_get_loyalty_stores_corporation_id_offers> id2offer = new HashMap<>();
-		CacheStatic access = ESIStatic.INSTANCE.cache;
+		CacheStatic access = ESIStatic.INSTANCE.cache();
 		// precache
 		access.corporations.npccorps().flatten(corp -> {
 			access.corporations.get(corp);

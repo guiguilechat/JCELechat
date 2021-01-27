@@ -35,23 +35,23 @@ public class VolumicPrice {
 		ESIAccess esi = ESIAccess.INSTANCE;
 		RegionalMarket market = esi.markets.getMarket(10000002);
 
-		Set<String> createdItems = IntStream.of(esi.universe.cache.categories(9).get().groups).parallel()
-				.mapToObj(gi -> esi.universe.cache.groups(gi).get())
-				.flatMap(group -> IntStream.of(group.types).parallel().mapToObj(i -> esi.universe.cache.types(i).get()))
+		Set<String> createdItems = IntStream.of(esi.universe.cache().categories(9).get().groups).parallel()
+				.mapToObj(gi -> esi.universe.cache().groups(gi).get())
+				.flatMap(group -> IntStream.of(group.types).parallel().mapToObj(i -> esi.universe.cache().types(i).get()))
 				.filter(type -> type.published && type.market_group_id != 0)
 				// .peek(type -> System.err.println("type " + type.name + " is
 				// published"))
 				.map(type -> type.name.replace(" Blueprint", "")).collect(Collectors.toSet());
 		System.err.println("created items set generated " + createdItems.size());
 
-		List<TypeData> list = esi.universe.cache.categories().get().parallelStream()
-				.map(catid -> esi.universe.cache.categories(catid).get()).filter(cat -> cat.published)
+		List<TypeData> list = esi.universe.cache().categories().get().parallelStream()
+				.map(catid -> esi.universe.cache().categories(catid).get()).filter(cat -> cat.published)
 				// .peek(cat -> System.err.println("cat " + cat.name + " is published"))
-				.flatMap(cat -> IntStream.of(cat.groups).parallel().mapToObj(i -> esi.universe.cache.groups(i).get()))
+				.flatMap(cat -> IntStream.of(cat.groups).parallel().mapToObj(i -> esi.universe.cache().groups(i).get()))
 				.filter(group -> group.published)
 				// .peek(group -> System.err.println("group " + group.name + " is
 				// published"))
-				.flatMap(group -> IntStream.of(group.types).parallel().mapToObj(i -> esi.universe.cache.types(i).get()))
+				.flatMap(group -> IntStream.of(group.types).parallel().mapToObj(i -> esi.universe.cache().types(i).get()))
 				.filter(type -> createdItems.contains(type.name))
 				.peek(type -> System.err.println("type " + type.name + " is	created")).map(t -> new TypeData(t, market))
 				.collect(Collectors.toList());

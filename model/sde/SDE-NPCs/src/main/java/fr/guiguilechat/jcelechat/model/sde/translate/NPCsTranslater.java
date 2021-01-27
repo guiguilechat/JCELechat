@@ -94,7 +94,7 @@ public class NPCsTranslater {
 			LinkedHashMap<String, Agent> agents,
 			LinkedHashMap<String, Corporation> corporations, LinkedHashMap<Integer, LPOffer> offers) {
 		ESIAccess esi = ESIAccess.INSTANCE;
-		CacheStatic cache = ESIStatic.INSTANCE.cache;
+		CacheStatic cache = ESIStatic.INSTANCE.cache();
 
 		// prefetch
 		ObsMapHolder<Integer, R_get_corporations_corporation_id>
