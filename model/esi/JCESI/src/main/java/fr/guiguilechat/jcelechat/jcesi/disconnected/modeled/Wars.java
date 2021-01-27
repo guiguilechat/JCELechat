@@ -11,7 +11,7 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
 
 public class Wars {
 
@@ -21,22 +21,9 @@ public class Wars {
 		this.esiConnection = esiConnection;
 	}
 
-	ObsListHolder<Integer> cachedIds = null;
+	@Getter(lazy = true)
+	private final ObsListHolder<Integer> allWarsIds = esiConnection.cache().wars.wars(null).toList(this::expandWholeWars);
 
-	/**
-	 *
-	 * @return a (cached) observable list of all the war ids
-	 */
-	public ObsListHolder<Integer> ids() {
-		if (cachedIds == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedIds == null) {
-					cachedIds = esiConnection.cache().wars.wars(null).toList(this::expandWholeWars);
-				}
-			});
-		}
-		return cachedIds;
-	}
 
 	/**
 	 * expand the list of wars ids from the first page
@@ -73,18 +60,9 @@ public class Wars {
 		return ret;
 	}
 
-	ObsListHolder<Integer> cachedMonthIds = null;
-
-	protected ObsListHolder<Integer> getMonthIds() {
-		if (cachedMonthIds == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedMonthIds == null) {
-					cachedMonthIds = esiConnection.cache().wars.wars(null).toList(this::expandMonthWars);
-				}
-			});
-		}
-		return cachedMonthIds;
-	}
+	@Getter(lazy = true)
+	private final ObsListHolder<Integer> monthWarsIds = esiConnection.cache().wars.wars(null)
+	.toList(this::expandMonthWars);
 
 	protected List<Integer> expandMonthWars(List<Integer> firstPage) {
 		if (firstPage.size() == 0) {
@@ -123,20 +101,9 @@ public class Wars {
 		return ret;
 	}
 
-	ObsListHolder<R_get_wars_war_id> cachedMonthWars = null;
-
-	public ObsListHolder<R_get_wars_war_id> getMonthWars() {
-		if (cachedMonthWars == null) {
-			ObsListHolder<Integer> monthIds = getMonthIds();
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedMonthWars == null) {
-					cachedMonthWars = monthIds.mapItems(id -> {
-						return esiConnection.cache().wars.get(id);
-					}).mapItems(holder -> holder.get());
-				}
-			});
-		}
-		return cachedMonthWars;
-	}
+	@Getter(lazy = true)
+	private final ObsListHolder<R_get_wars_war_id> monthWars = getMonthWarsIds().mapItems(id -> {
+		return esiConnection.cache().wars.get(id);
+	}).mapItems(holder -> holder.get());
 
 }
