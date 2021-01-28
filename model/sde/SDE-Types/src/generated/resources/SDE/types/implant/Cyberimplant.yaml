@@ -2615,6 +2615,7 @@ types:
     name: High-grade Rapture Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2657,6 +2658,7 @@ types:
     name: High-grade Rapture Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2699,6 +2701,7 @@ types:
     name: High-grade Rapture Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2740,6 +2743,7 @@ types:
     name: High-grade Rapture Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -2781,6 +2785,7 @@ types:
     name: High-grade Rapture Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -7412,6 +7417,7 @@ types:
     name: Low-grade Rapture Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -7454,6 +7460,7 @@ types:
     name: Low-grade Rapture Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -7496,6 +7503,7 @@ types:
     name: Low-grade Rapture Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -7537,6 +7545,7 @@ types:
     name: Low-grade Rapture Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -7578,6 +7587,7 @@ types:
     name: Low-grade Rapture Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -12202,6 +12212,7 @@ types:
     name: Mid-grade Rapture Beta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -12244,6 +12255,7 @@ types:
     name: Mid-grade Rapture Delta
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -12286,6 +12298,7 @@ types:
     name: Mid-grade Rapture Epsilon
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -12327,6 +12340,7 @@ types:
     name: Mid-grade Rapture Gamma
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -12368,6 +12382,7 @@ types:
     name: Mid-grade Rapture Omega
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

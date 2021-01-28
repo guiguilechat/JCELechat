@@ -37299,8 +37299,8 @@ id2name:
   56355: 1v1 T1 Cruisers Proving Filament
   56356: Yoiul 2v2v2v2 Destroyers Proving Filament
   56357: Yoiul 3v3 Frigates Proving Filament
-  56358: Event 15 Proving Filament
-  56359: Event 16 Proving Filament
+  56358: T1 Cruiser FFA Proving Filament
+  56359: 1v1 T1 Battlecruisers Proving Filament
   56360: Event 17 Proving Filament
   56361: Event 18 Proving Filament
   56362: GM's Secret Stash Container
@@ -37956,11 +37956,11 @@ id2name:
   57257: Festival-only 'Longbow' RD2 Dose
   57258: Festival-only 'Longbow' MD2 Dose
   57259: Festival-only 'Rock' HH2 Dose
-  57260: '[no messageID: 573673]'
-  57261: '[no messageID: 573675]'
-  57262: '[no messageID: 573677]'
-  57263: '[no messageID: 573679]'
-  57264: '[no messageID: 573681]'
+  57260: Festival-only 'Rock' SH2 Dose
+  57261: Festival-only 'Rock' AH2 Dose
+  57262: Festival-only 'Longbow' ED3 Dose
+  57263: Festival-only 'Longbow' PD3 Dose
+  57264: Festival-only 'Longbow' HD3 Dose
   57265: Festival-only 'Longbow' CM3 Dose
   57266: Festival-only 'Longbow' TP3 Dose
   57267: Festival-only 'Rock' HH3 Dose
@@ -37978,6 +37978,33 @@ id2name:
   57279: Serenity Festival Copper Crate
   57280: Serenity Festival Silver Crate
   57281: Serenity Festival Gold Crate
+  57282: Basic Capsuleer Defense Augmentation Chip
+  57283: Basic Capsuleer Engineering Augmentation Chip
+  57284: Standard Capsuleer Defense Augmentation Chip
+  57285: Advanced Capsuleer Defense Augmentation Chip
+  57287: Large Projectile Turret Skill Accelerator
+  57288: Large Hybrid Turret Skill Accelerator
+  57289: Large Energy Turret Skill Accelerator
+  57290: Cruise Missile/Torpedo Skill Accelerator
+  57291: Projectile Turret Specialization Skill Accelerator
+  57292: Energy Turret Specialization Skill Accelerator
+  57293: Hybrid Turret Specialization Skill Accelerator
+  57294: Cruise Missile/Torpedo Specialization Skill Accelerator
+  57295: Serenity Monthly Cerebral Accelerator - 2021.2
+  57296: Serenity Spring Festival Cerebral Accelerator I
+  57297: Serenity Spring Festival Cerebral Accelerator II
+  57298: Serenity Spring Festival Cerebral Accelerator III
+  57299: Serenity Spring Festival Cerebral Accelerator IV
+  57300: Serenity Spring Festival Cerebral Accelerator V
+  57301: Serenity Spring Festival Cerebral Accelerator VI
+  57302: Festival-only 'Longbow' Energy Turrets Dose Crate
+  57303: Festival-only 'Longbow' Projectile Turrets Dose Crate
+  57304: Festival-only 'Longbow' HybridTurrets Dose Crate
+  57305: Festival-only 'Longbow' Missile Dose Crate
+  57306: Spring Festival Mystery Box
+  57311: Serenity YC123.2 Season Standard Cerebral Accelerator
+  57312: Serenity YC123.2 Season Advanced Cerebral Accelerator
+  57313: Serenity YC123.2 Season Pass
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -41694,7 +41721,7 @@ name2group:
   1MN Monopropellant Enduring Afterburner: module/PropulsionModule
   1MN Y-S8 Compact Afterburner: module/PropulsionModule
   1st Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
-  1v1 T1 Cruisers Proving Filament: commodity/AbyssalProvingFilaments
+  1v1 T1 Battlecruisers Proving Filament: commodity/AbyssalProvingFilaments
   200mm 'Scout' Accelerator Cannon: module/HybridWeapon
   200mm AutoCannon I: module/ProjectileWeapon
   200mm AutoCannon I Blueprint: blueprint/ProjectileWeaponBlueprint
@@ -42168,6 +42195,7 @@ name2group:
   Adrestia: ship/HeavyAssaultCruiser
   Advanced 'Limos' Heavy Missile Bay I: module/MissileLauncherHeavy
   Advanced Broker Relations: skill/Trade
+  Advanced Capsuleer Defense Augmentation Chip: implant/Booster
   Advanced Cerebral Accelerator: implant/Booster
   Advanced Cerebral Accelerator Blueprint: blueprint/BoosterBlueprints
   Advanced Countermeasure: infantry/InfantryModules
@@ -43865,6 +43893,8 @@ name2group:
   Basic Blaster Damage Amplifier: infantry/InfantryModules
   Basic CPU Upgrade: infantry/InfantryModules
   Basic CPU Upgrade Unit: infantry/InfantryModules
+  Basic Capsuleer Defense Augmentation Chip: implant/Booster
+  Basic Capsuleer Engineering Augmentation Chip: implant/Booster
   Basic Cardiac Regulator: infantry/InfantryModules
   Basic Cardiac Stimulant: infantry/InfantryModules
   Basic Co-Processor: module/CPUEnhancer
@@ -47612,6 +47642,8 @@ name2group:
   Cruise Missile Launcher II Blueprint: blueprint/MissileLauncherBlueprint
   Cruise Missile Specialization: skill/Missiles
   Cruise Missile Storage: entity/SpawnContainer
+  Cruise Missile/Torpedo Skill Accelerator: implant/Booster
+  Cruise Missile/Torpedo Specialization Skill Accelerator: implant/Booster
   Cruise Missiles: skill/Missiles
   Cruiser: entity/DeadspaceRogueDroneCruiser
   Cruiser Elite: entity/DeadspaceRogueDroneCruiser
@@ -49782,6 +49814,7 @@ name2group:
   Energy Neutralizing Battery Blueprint: blueprint/StarbaseEnergyNeutralizingBatteryBlueprints
   Energy Pulse Field Effect Subpylon: entity/TemporaryCollidableStructure
   Energy Pulse Weapons: skill/Engineering
+  Energy Turret Specialization Skill Accelerator: implant/Booster
   Energy Weapon Rigging: skill/Rigging
   Enfeebling Scoped Ladar ECM: module/ECM
   Enforcer: ship/ForceReconShip
@@ -50050,9 +50083,8 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
-  Event 15 Proving Filament: commodity/AbyssalProvingFilaments
-  Event 16 Proving Filament: commodity/AbyssalProvingFilaments
   Event 17 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 18 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
@@ -50754,20 +50786,28 @@ name2group:
   Festival Tier 1 Filament Crate: specialeditionassets/SpecialEditionCommodities
   Festival-only 'Longbow' CM3 Dose: implant/Booster
   Festival-only 'Longbow' ED2 Dose: implant/Booster
+  Festival-only 'Longbow' ED3 Dose: implant/Booster
   Festival-only 'Longbow' ED4 Dose: implant/Booster
   Festival-only 'Longbow' ED6 Dose: implant/Booster
+  Festival-only 'Longbow' Energy Turrets Dose Crate: commodity/Miscellaneous
   Festival-only 'Longbow' HAM4 Dose: implant/Booster
   Festival-only 'Longbow' HD2 Dose: implant/Booster
+  Festival-only 'Longbow' HD3 Dose: implant/Booster
   Festival-only 'Longbow' HD4 Dose: implant/Booster
   Festival-only 'Longbow' HD6 Dose: implant/Booster
   Festival-only 'Longbow' HM4 Dose: implant/Booster
+  Festival-only 'Longbow' HybridTurrets Dose Crate: commodity/Miscellaneous
   Festival-only 'Longbow' MD2 Dose: implant/Booster
   Festival-only 'Longbow' MD6 Dose: implant/Booster
+  Festival-only 'Longbow' Missile Dose Crate: commodity/Miscellaneous
   Festival-only 'Longbow' PD2 Dose: implant/Booster
+  Festival-only 'Longbow' PD3 Dose: implant/Booster
   Festival-only 'Longbow' PD4 Dose: implant/Booster
   Festival-only 'Longbow' PD6 Dose: implant/Booster
+  Festival-only 'Longbow' Projectile Turrets Dose Crate: commodity/Miscellaneous
   Festival-only 'Longbow' RD2 Dose: implant/Booster
   Festival-only 'Longbow' TP3 Dose: implant/Booster
+  Festival-only 'Rock' AH2 Dose: implant/Booster
   Festival-only 'Rock' AH3 Dose: implant/Booster
   Festival-only 'Rock' AH4 Dose: implant/Booster
   Festival-only 'Rock' AH6 Dose: implant/Booster
@@ -50775,6 +50815,7 @@ name2group:
   Festival-only 'Rock' HH3 Dose: implant/Booster
   Festival-only 'Rock' HH4 Dose: implant/Booster
   Festival-only 'Rock' HH6 Dose: implant/Booster
+  Festival-only 'Rock' SH2 Dose: implant/Booster
   Festival-only 'Rock' SH3 Dose: implant/Booster
   Festival-only 'Rock' SH4 Dose: implant/Booster
   Festival-only 'Rock' SH6 Dose: implant/Booster
@@ -53022,6 +53063,7 @@ name2group:
   Hybrid Polymer Silo: starbase/Silo
   Hybrid Polymer Silo Blueprint: blueprint/StarbaseBlueprint
   Hybrid Slaver Hounds: commodity/Miscellaneous
+  Hybrid Turret Specialization Skill Accelerator: implant/Booster
   Hybrid Weapon Assembly Instructions: commodity/Commodities
   Hybrid Weapon Rigging: skill/Rigging
   Hydra: ship/CovertOps
@@ -54961,6 +55003,7 @@ name2group:
   Large Energy Metastasis Adjuster II: module/RigEnergyWeapon
   Large Energy Metastasis Adjuster II Blueprint: blueprint/RigBlueprint
   Large Energy Turret: skill/Gunnery
+  Large Energy Turret Skill Accelerator: implant/Booster
   Large Engine Thermal Shielding I: module/RigNavigation
   Large Engine Thermal Shielding I Blueprint: blueprint/RigBlueprint
   Large Engine Thermal Shielding II: module/RigNavigation
@@ -55036,6 +55079,7 @@ name2group:
   Large Hybrid Metastasis Adjuster II: module/RigHybridWeapon
   Large Hybrid Metastasis Adjuster II Blueprint: blueprint/RigBlueprint
   Large Hybrid Turret: skill/Gunnery
+  Large Hybrid Turret Skill Accelerator: implant/Booster
   Large Hydraulic Bay Thrusters I: module/RigLauncher
   Large Hydraulic Bay Thrusters I Blueprint: blueprint/RigBlueprint
   Large Hydraulic Bay Thrusters II: module/RigLauncher
@@ -55137,6 +55181,7 @@ name2group:
   Large Projectile Metastasis Adjuster II: module/RigProjectileWeapon
   Large Projectile Metastasis Adjuster II Blueprint: blueprint/RigBlueprint
   Large Projectile Turret: skill/Gunnery
+  Large Projectile Turret Skill Accelerator: implant/Booster
   Large Proton Smartbomb I: module/SmartBomb
   Large Proton Smartbomb I Blueprint: blueprint/SmartBombBlueprint
   Large Proton Smartbomb II: module/SmartBomb
@@ -59987,6 +60032,7 @@ name2group:
   Project Discovery Phase One Elite 1K: commodity/ResearchData
   Project Discovery Phase One Elite 2K: commodity/ResearchData
   Project Discovery Phase One Elite 5K: commodity/ResearchData
+  Projectile Turret Specialization Skill Accelerator: implant/Booster
   Projectile Weapon Rigging: skill/Rigging
   Promethium: material/MoonMaterials
   Promethium Mercurite: material/IntermediateMaterials
@@ -62504,6 +62550,7 @@ name2group:
   Serenity Monthly Cerebral Accelerator - 2020.8: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2020.9: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.1: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2021.2: implant/Booster
   Serenity November Season Advanced Cerebral Accelerator: implant/Booster
   Serenity November Season Pass: implant/Booster
   Serenity November Season Standard Cerebral Accelerator: implant/Booster
@@ -62519,6 +62566,12 @@ name2group:
   Serenity September Season Standard Cerebral Accelerator: implant/Booster
   Serenity Special Cerebral Accelerator: implant/Booster
   Serenity Special SKINs Crate: specialeditionassets/SpecialEditionCommodities
+  Serenity Spring Festival Cerebral Accelerator I: implant/Booster
+  Serenity Spring Festival Cerebral Accelerator II: implant/Booster
+  Serenity Spring Festival Cerebral Accelerator III: implant/Booster
+  Serenity Spring Festival Cerebral Accelerator IV: implant/Booster
+  Serenity Spring Festival Cerebral Accelerator V: implant/Booster
+  Serenity Spring Festival Cerebral Accelerator VI: implant/Booster
   Serenity YC122.9 Season Booster - Agility: implant/Booster
   Serenity YC122.9 Season Booster - EW Range: implant/Booster
   Serenity YC122.9 Season Booster - Max Velocity: implant/Booster
@@ -62529,6 +62582,9 @@ name2group:
   Serenity YC123.1 Season Advanced Cerebral Accelerator: implant/Booster
   Serenity YC123.1 Season Pass: implant/Booster
   Serenity YC123.1 Season Standard Cerebral Accelerator: implant/Booster
+  Serenity YC123.2 Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity YC123.2 Season Pass: implant/Booster
+  Serenity YC123.2 Season Standard Cerebral Accelerator: implant/Booster
   Serpentis 3D Scanner Gamut: commodity/ArtifactsAndPrototypes
   Serpentis Administration Facility: entity/DeadspaceOverseerSSentry
   Serpentis Admiral: entity/AsteroidSerpentisBattleship
@@ -64077,6 +64133,7 @@ name2group:
   Spoiled Drugs: commodity/Commodities
   Spools of Quantrium Wiring: commodity/Miscellaneous
   Spotlighter Tessella: entity/AbyssalDroneEntities
+  Spring Festival Mystery Box: commodity/Miscellaneous
   Spy: commodity/Livestock
   Spy ID Slice: commodity/Identification
   Squad - Armor Bonus Test: infantry/InfantryModules
@@ -64152,6 +64209,7 @@ name2group:
   Standard Blue Pill Booster: implant/Booster
   Standard Blue Pill Booster Blueprint: blueprint/BoosterBlueprints
   Standard Blue Pill Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
+  Standard Capsuleer Defense Augmentation Chip: implant/Booster
   Standard Cerebral Accelerator: implant/Booster
   Standard Commando A-I: infantry/InfantryDropsuits
   Standard Commando C-I: infantry/InfantryDropsuits
@@ -65471,6 +65529,7 @@ name2group:
   Systemic Vortex Stabilizer: infantry/InfantryModules
   Systems Hacking: infantry/InfantrySkills
   T-12 Ion Pistol: infantry/InfantryWeapons
+  T1 Cruiser FFA Proving Filament: commodity/AbyssalProvingFilaments
   TE-2100 Ample Light Missile Launcher: module/MissileLauncherLight
   TE-2100 Ample Rapid Torpedo Launcher: module/MissileLauncherRapidTorpedo
   TE-2100 Ample Rapid Torpedo Launcher Blueprint: blueprint/MissileLauncherBlueprint
@@ -68378,8 +68437,6 @@ name2group:
   Yan Jung Vellum Etch: commodity/DecryptorsYanJung
   Yan Jung Void Machine: commodity/ArtifactsAndPrototypes
   Yeni Sarum's Insignia: commodity/EmpireInsigniaDrops
-  Yoiul 2v2v2v2 Destroyers Proving Filament: commodity/AbyssalProvingFilaments
-  Yoiul 3v3 Frigates Proving Filament: commodity/AbyssalProvingFilaments
   Yoiul Blizzard Firework: charge/FestivalCharges
   Yoiul Festival Firework: charge/FestivalCharges
   Yoiul Festival Fireworks Package: specialeditionassets/SpecialEditionCommodities
@@ -68724,11 +68781,6 @@ name2group:
   '[TEST] Shield Gen 1': infantry/InfantryEquipment
   '[TEST] Shield Gen 2': infantry/InfantryEquipment
   '[TEST] Swarm Launcher': infantry/InfantryWeapons
-  '[no messageID: 573673]': implant/Booster
-  '[no messageID: 573675]': implant/Booster
-  '[no messageID: 573677]': implant/Booster
-  '[no messageID: 573679]': implant/Booster
-  '[no messageID: 573681]': implant/Booster
   asurface1_f_01:amarrbase:amarr: system/System
   asurface_c_01:amarrbase:amarr: system/System
   chantal testing thingy: entity/DeadspaceOverseerFrigate

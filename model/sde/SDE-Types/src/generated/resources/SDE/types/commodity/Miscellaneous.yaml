@@ -2015,6 +2015,42 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Festival-only 'Longbow' Energy Turrets Dose Crate:
+    exporttaxmultiplier: 1
+    id: 57302
+    importtaxmultiplier: 1
+    name: Festival-only 'Longbow' Energy Turrets Dose Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Festival-only 'Longbow' HybridTurrets Dose Crate:
+    exporttaxmultiplier: 1
+    id: 57304
+    importtaxmultiplier: 1
+    name: Festival-only 'Longbow' HybridTurrets Dose Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Festival-only 'Longbow' Missile Dose Crate:
+    exporttaxmultiplier: 1
+    id: 57305
+    importtaxmultiplier: 1
+    name: Festival-only 'Longbow' Missile Dose Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Festival-only 'Longbow' Projectile Turrets Dose Crate:
+    exporttaxmultiplier: 1
+    id: 57303
+    importtaxmultiplier: 1
+    name: Festival-only 'Longbow' Projectile Turrets Dose Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Foiritan Sculpture:
     exporttaxmultiplier: 1
     id: 20362
@@ -4355,6 +4391,15 @@ types:
     portionSize: 1
     published: true
     volume: 300.0
+  Spring Festival Mystery Box:
+    exporttaxmultiplier: 1
+    id: 57306
+    importtaxmultiplier: 1
+    name: Spring Festival Mystery Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   St. Arzad:
     exporttaxmultiplier: 1
     id: 32284

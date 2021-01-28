@@ -55,7 +55,7 @@ public class Skills {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final ObsMapHolder<String, Integer> name2Level = list()
-	.toMap(s -> ESIStatic.INSTANCE.cache().universe.types(s.skill_id).get().name, s -> s.active_skill_level);;
+			.toMap(s -> ESIStatic.INSTANCE.cache().universe.types(s.skill_id).get().name, s -> s.active_skill_level);
 
 	//
 	// training
@@ -66,16 +66,20 @@ public class Skills {
 	.skillqueue(con().characterId());
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<R_get_characters_character_id_skillqueue> training = getQueue().map(l -> {
-		LocalDateTime now = LocalDateTime.now();
-		R_get_characters_character_id_skillqueue ret = l.stream()
-				.filter(sq -> sq.finish_date != null && now.isBefore(ESITools.convertLocalDateTime(sq.finish_date))).findFirst()
-				.orElse(null);
-		if (ret == null) {
-			ret = new R_get_characters_character_id_skillqueue();
-		}
-		return ret;
-	});
+	private final ObsObjHolder<R_get_characters_character_id_skillqueue> training = makeTraining();
+
+	protected ObsObjHolder<R_get_characters_character_id_skillqueue> makeTraining() {
+		return getQueue().map(l -> {
+			LocalDateTime now = LocalDateTime.now();
+			R_get_characters_character_id_skillqueue ret = l.stream()
+					.filter(sq -> sq.finish_date != null && now.isBefore(ESITools.convertLocalDateTime(sq.finish_date))).findFirst()
+					.orElse(null);
+			if (ret == null) {
+				ret = new R_get_characters_character_id_skillqueue();
+			}
+			return ret;
+		});
+	}
 
 	@Getter(lazy = true)
 	private final ObsObjHolder<R_get_universe_types_type_id> trainingSkill = getTraining()

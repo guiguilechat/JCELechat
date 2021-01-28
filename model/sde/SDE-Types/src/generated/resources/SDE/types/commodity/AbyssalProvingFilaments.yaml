@@ -1,26 +1,8 @@
 types:
-  1v1 T1 Cruisers Proving Filament:
-    id: 56355
-    marketGroup: 2747
-    name: 1v1 T1 Cruisers Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Event 15 Proving Filament:
-    id: 56358
-    marketGroup: 2747
-    name: Event 15 Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Event 16 Proving Filament:
+  1v1 T1 Battlecruisers Proving Filament:
     id: 56359
     marketGroup: 2747
-    name: Event 16 Proving Filament
+    name: 1v1 T1 Battlecruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
@@ -35,19 +17,19 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Yoiul 2v2v2v2 Destroyers Proving Filament:
-    id: 56356
+  Event 18 Proving Filament:
+    id: 56361
     marketGroup: 2747
-    name: Yoiul 2v2v2v2 Destroyers Proving Filament
+    name: Event 18 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Yoiul 3v3 Frigates Proving Filament:
-    id: 56357
+  T1 Cruiser FFA Proving Filament:
+    id: 56358
     marketGroup: 2747
-    name: Yoiul 3v3 Frigates Proving Filament
+    name: T1 Cruiser FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

@@ -6,6 +6,7 @@ types:
     name: '''Dunk'' Salvage Drone Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.9986E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -28,6 +29,7 @@ types:
     name: Salvage Drone II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E10
     published: true
     radius: 1.0
     techlevel: 2
