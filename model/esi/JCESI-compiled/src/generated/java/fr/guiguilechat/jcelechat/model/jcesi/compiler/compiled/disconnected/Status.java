@@ -8,7 +8,7 @@ import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Status {
     public final SwaggerDCCache<?> cache;
-    private ObsObjHolder<R_get_status> get_status_holder;
+    private ObsObjHolderSimple<R_get_status> get_status_holder;
 
     public Status(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -28,24 +28,8 @@ public class Status {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_status_holder == null) {
-                            ObsObjHolderSimple<R_get_status> holder = new ObsObjHolderSimple<>();
-                            get_status_holder = holder;
-                            (cache).addFetchCacheObject("get_status", properties -> (cache.swagger).get_status(properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            get_status_holder = new ObsObjHolderSimple<R_get_status>();
+                            (cache).addFetchCacheObject("get_status", properties -> (cache.swagger).get_status(properties), item -> get_status_holder.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);

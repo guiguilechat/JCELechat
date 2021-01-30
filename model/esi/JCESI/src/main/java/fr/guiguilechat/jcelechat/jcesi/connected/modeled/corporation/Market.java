@@ -4,7 +4,7 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.Corporation;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
 
 public class Market {
 
@@ -22,17 +22,9 @@ public class Market {
 		return corporation.con;
 	}
 
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_orders> cachedOrders = null;
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, R_get_corporations_corporation_id_orders> orders = getAcc().connection()
+	.cache().corporations.orders(getId()).toMap(o -> o.order_id);
 
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_orders> getOrders() {
-		if (cachedOrders == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedOrders == null) {
-					cachedOrders = getAcc().connection().cache().corporations.orders(getId()).toMap(o -> o.order_id);
-				}
-			});
-		}
-		return cachedOrders;
-	}
 
 }

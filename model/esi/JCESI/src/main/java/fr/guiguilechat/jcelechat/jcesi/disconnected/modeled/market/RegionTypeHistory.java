@@ -20,8 +20,6 @@ import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 /**
  * contains the orders history of an item in a region<br />
@@ -97,7 +95,7 @@ public class RegionTypeHistory {
 				ObsListHolder<R_get_markets_region_id_history> values = getData();
 				synchronized (values) {
 					if (cacheAverage == null) {
-						cacheAverage = values.reduceDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum()
+						cacheAverage = values.mapDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum()
 								/ l.stream().mapToLong(h -> h.volume).sum());
 					}
 				}
@@ -116,7 +114,7 @@ public class RegionTypeHistory {
 				ObsListHolder<R_get_markets_region_id_history> values = getData();
 				synchronized (values) {
 					if (cacheVolume == null) {
-						cacheVolume = values.reduceLong(l -> l.stream().mapToLong(h -> h.volume).sum());
+						cacheVolume = values.mapLong(l -> l.stream().mapToLong(h -> h.volume).sum());
 					}
 				}
 			}
@@ -134,7 +132,7 @@ public class RegionTypeHistory {
 				ObsListHolder<R_get_markets_region_id_history> values = getData();
 				synchronized (values) {
 					if (cacheTotalValue == null) {
-						cacheTotalValue = values.reduceDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum());
+						cacheTotalValue = values.mapDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum());
 					}
 				}
 			}
@@ -171,7 +169,7 @@ public class RegionTypeHistory {
 		// best percentile volume
 
 		/** cached offsetpct => volume */
-		private HashMap<Integer, ObsObjHolder<Long>> cachedBestVolumes = new HashMap<>();
+		private HashMap<Integer, ObsLongHolder> cachedBestVolumes = new HashMap<>();
 
 		/**
 		 * get best daily of sale, excluding the first percent.<br />
@@ -183,14 +181,14 @@ public class RegionTypeHistory {
 		 *          percent of the best days values
 		 * @return
 		 */
-		public ObsObjHolder<Long> getBestVolume(int offsetPct) {
-			ObsObjHolder<Long> ret = cachedBestVolumes.get(offsetPct);
+		public ObsLongHolder getBestVolume(int offsetPct) {
+			ObsLongHolder ret = cachedBestVolumes.get(offsetPct);
 			if (ret == null) {
 				ObsListHolder<Long> volumes = getSortedVolumes();
 				ret = LockWatchDog.BARKER.syncExecute(cachedBestVolumes, () -> {
-					ObsObjHolder<Long> ret2 = cachedBestVolumes.get(offsetPct);
+					ObsLongHolder ret2 = cachedBestVolumes.get(offsetPct).mapLong(l -> l);
 					if (ret2 == null) {
-						ret2 = volumes.reduce(l -> {
+						ret2 = volumes.mapLong(l -> {
 							if (l.size() > 0) {
 								int idx = Math.min(offsetPct * (l.size() - 1) / 100, l.size() - 1);
 								return l.get(idx);
@@ -312,13 +310,10 @@ public class RegionTypeHistory {
 	 * @return a new observable list
 	 */
 	private ObsListHolder<R_get_markets_region_id_history> limitData(int maxDays) {
-		ObservableList<R_get_markets_region_id_history> internal = FXCollections.observableArrayList();
-		ObsListHolderImpl<R_get_markets_region_id_history> ret = new ObsListHolderImpl<>(internal);
+		ObsListHolderImpl<R_get_markets_region_id_history> ret = new ObsListHolderImpl<>();
 		history.follow((l) -> {
-			internal.clear();
 			List<R_get_markets_region_id_history> list = withinDays(l, maxDays).collect(Collectors.toList());
-			internal.addAll(list);
-			ret.dataReceived();
+			ret.set(list);
 		});
 		return ret;
 	}

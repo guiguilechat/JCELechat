@@ -10,8 +10,6 @@ import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 public class Alliances {
     public final SwaggerDCCache<?> cache;
@@ -38,29 +36,8 @@ public class Alliances {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_alliances_holder == null) {
-                            ObservableList<Integer> holder = FXCollections.observableArrayList();
-                            get_alliances_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<Integer> finalRet = get_alliances_holder;
-                            (cache).addFetchCacheArray("get_alliances", (page, properties) -> (cache.swagger).get_alliances(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_alliances_holder = new ObsListHolderImpl<Integer>();
+                            (cache).addFetchCacheArray("get_alliances", (page, properties) -> (cache.swagger).get_alliances(properties), arr -> get_alliances_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -91,30 +68,10 @@ public class Alliances {
                     {
                         ret = get_alliances_alliance_id_corporations_holder.get(alliance_id);
                         if (ret == null) {
-                            ObservableList<Integer> holder = FXCollections.observableArrayList();
-                            ret = (cache).toHolder(holder);
+                            ret = new ObsListHolderImpl<Integer>();
                             get_alliances_alliance_id_corporations_holder.put(alliance_id, ret);
                             ObsListHolderImpl<Integer> finalRet = ret;
-                            (cache).addFetchCacheArray("get_alliances_alliance_id_corporations", (page, properties) -> (cache.swagger).get_alliances_corporations(alliance_id, properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            (cache).addFetchCacheArray("get_alliances_alliance_id_corporations", (page, properties) -> (cache.swagger).get_alliances_corporations(alliance_id, properties), arr -> finalRet.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_alliances_alliance_id_corporations_holder);
@@ -145,25 +102,10 @@ public class Alliances {
                     {
                         ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
                         if (ret == null) {
-                            ObsObjHolderSimple<R_get_alliances_alliance_id_icons> holder = new ObsObjHolderSimple<>();
-                            ret = holder;
+                            ret = new ObsObjHolderSimple<R_get_alliances_alliance_id_icons>();
+                            ObsObjHolderSimple<R_get_alliances_alliance_id_icons> finalRet = ret;
                             get_alliances_alliance_id_icons_holder.put(alliance_id, ret);
-                            (cache).addFetchCacheObject("get_alliances_alliance_id_icons", properties -> (cache.swagger).get_alliances_icons(alliance_id, properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            (cache).addFetchCacheObject("get_alliances_alliance_id_icons", properties -> (cache.swagger).get_alliances_icons(alliance_id, properties), item -> finalRet.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_alliances_alliance_id_icons_holder);
@@ -194,25 +136,10 @@ public class Alliances {
                     {
                         ret = get_alliances_alliance_id_holder.get(alliance_id);
                         if (ret == null) {
-                            ObsObjHolderSimple<R_get_alliances_alliance_id> holder = new ObsObjHolderSimple<>();
-                            ret = holder;
+                            ret = new ObsObjHolderSimple<R_get_alliances_alliance_id>();
+                            ObsObjHolderSimple<R_get_alliances_alliance_id> finalRet = ret;
                             get_alliances_alliance_id_holder.put(alliance_id, ret);
-                            (cache).addFetchCacheObject("get_alliances_alliance_id", properties -> (cache.swagger).get_alliances(alliance_id, properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            (cache).addFetchCacheObject("get_alliances_alliance_id", properties -> (cache.swagger).get_alliances(alliance_id, properties), item -> finalRet.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_alliances_alliance_id_holder);

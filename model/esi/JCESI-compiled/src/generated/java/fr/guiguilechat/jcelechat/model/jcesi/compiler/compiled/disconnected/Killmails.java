@@ -39,25 +39,10 @@ public class Killmails {
                     {
                         ret = get_killmails_killmail_id_killmail_hash_holder.get(param);
                         if (ret == null) {
-                            ObsObjHolderSimple<R_get_killmails_killmail_id_killmail_hash> holder = new ObsObjHolderSimple<>();
-                            ret = holder;
+                            ret = new ObsObjHolderSimple<R_get_killmails_killmail_id_killmail_hash>();
+                            ObsObjHolderSimple<R_get_killmails_killmail_id_killmail_hash> finalRet = ret;
                             get_killmails_killmail_id_killmail_hash_holder.put(param, ret);
-                            (cache).addFetchCacheObject("get_killmails_killmail_id_killmail_hash", properties -> (cache.swagger).get_killmails(killmail_hash, killmail_id, properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            (cache).addFetchCacheObject("get_killmails_killmail_id_killmail_hash", properties -> (cache.swagger).get_killmails(killmail_hash, killmail_id, properties), item -> finalRet.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_killmails_killmail_id_killmail_hash_holder);

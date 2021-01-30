@@ -36,9 +36,6 @@ import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import io.swagger.models.Operation;
 import io.swagger.models.parameters.Parameter;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.collections.ObservableMap;
 
 /**
  * create a cache information over the result of a {@link FetchTranslator}.
@@ -76,7 +73,7 @@ public class CacheTranslator {
 	/**
 	 * type of the object we transmit to the scheduled fetcher to hold the data
 	 */
-	protected AbstractJType cacheHolderType;
+	// protected AbstractJType cacheHolderType;
 
 	protected JMethod cacheMeth;
 
@@ -116,18 +113,15 @@ public class CacheTranslator {
 			return;
 		case OBJECT:
 			cacheRetItf = cm.ref(ObsObjHolder.class).narrow(parent.resourceFlatType.boxify());
-			cacheRetType = cacheHolderType = cm.ref(ObsObjHolderSimple.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetType = cm.ref(ObsObjHolderSimple.class).narrow(parent.resourceFlatType.boxify());
 			break;
 		case LIST:
 			cacheRetItf = cm.ref(ObsListHolder.class).narrow(parent.resourceFlatType.boxify());
 			cacheRetType = cm.ref(ObsListHolderImpl.class).narrow(parent.resourceFlatType.boxify());
-			cacheHolderType = cm.ref(ObservableList.class).narrow(parent.resourceFlatType.boxify());
 			break;
 		case MAP:
 			cacheRetItf = cm.ref(ObsMapHolder.class).narrow(parent.resourceFlatType.boxify());
 			cacheRetType = cm.ref(ObsMapHolderImpl.class).narrow(parent.resourceFlatType.boxify());
-			cacheHolderType = cm.ref(ObservableMap.class).narrow(cm.ref(String.class))
-					.narrow(parent.resourceFlatType.boxify());
 			break;
 		default:
 			throw new UnsupportedOperationException("can't handle case " + parent.resourceStructure);
@@ -276,8 +270,7 @@ public class CacheTranslator {
 	 */
 	protected JBlock createTestNullCase(JBlock outBlock, JVar ret, IJExpression getter, JVar lock) {
 		ret.init(getter);
-		return sync(outBlock._if(ret.eqNull())._then(), lock).add(JExpr.assign(ret, getter))._if(ret.eqNull())
-				._then();
+		return sync(outBlock._if(ret.eqNull())._then(), lock).add(JExpr.assign(ret, getter))._if(ret.eqNull())._then();
 	}
 
 	/**
@@ -309,21 +302,17 @@ public class CacheTranslator {
 	 * returns an object
 	 */
 	protected void createCache_NoParam_Container() {
-		cacheContainer = cacheGroup.field(JMod.PRIVATE, cm.ref(ObsObjHolder.class).narrow(parent.resourceFlatType.boxify()),
-				operation.getOperationId() + "_holder");
+		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, operation.getOperationId() + "_holder");
 		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this())
 				._if(cacheContainer.eqNull())._then();
-		JVar holder = instanceBlock
-				.decl(cacheHolderType, "holder")
-				.init(JExpr._new(cm.ref(ObsObjHolderSimple.class).narrowEmpty()));
-		instanceBlock.assign(cacheContainer, holder);
+		instanceBlock.assign(cacheContainer, JExpr._new(cacheRetType));
 		JInvocation invoke = JExpr.invoke(JExpr.direct("cache"), bridge.methFetchCacheObject())
 				.arg(operation.getOperationId());
 		invoke.arg(lambdaFetch());
 		instanceBlock.add(invoke);
 		JLambda lambdaset = new JLambda();
 		JLambdaParam item = lambdaset.addParam("item");
-		sync(lambdaset.body(), holder).add(JExpr.invoke(holder, "set").arg(item));
+		lambdaset.body().add(JExpr.invoke(cacheContainer, "set").arg(item));
 		invoke.arg(lambdaset);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -343,22 +332,15 @@ public class CacheTranslator {
 		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, operation.getOperationId() + "_holder");
 		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this())
 				._if(cacheContainer.eqNull())._then();
-		// _holder = FXCollections.observableArrayList();
-		JVar holder = instanceBlock.decl(cacheHolderType, "holder")
-				.init(cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
-		instanceBlock.assign(cacheContainer, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
-		JVar finalRet = instanceBlock.decl(cacheRetType, "finalRet").init(cacheContainer);
+		instanceBlock.assign(cacheContainer, JExpr._new(cacheRetType));
+
 		JInvocation invoke = JExpr.invoke(JExpr.direct("cache"), bridge.methFetchCacheArray())
 				.arg(operation.getOperationId());
-
 		invoke.arg(lambdaFetch());
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam arr = lambdaSet.addParam("arr");
-		JBlock setBody = sync(lambdaSet.body(), holder);
-		setBody.add(JExpr.invoke(holder, "clear"));
-		setBody._if(arr.neNull())._then().add(JExpr.invoke(holder, "addAll").arg(arr));
-		lambdaSet.body().invoke(finalRet, "dataReceived");
+		lambdaSet.body().add(JExpr.invoke(cacheContainer, "set").arg(arr));
 		invoke.arg(lambdaSet);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -372,18 +354,13 @@ public class CacheTranslator {
 	}
 
 	/**
-	 * create the cache body when only one parameter.
+	 * create the cache body when one or more parameter.
 	 */
 	protected void createCache_Param_List() {
-		// System.err.println("create with cacherettype=" + cacheRetType + "
-		// cacheparam=" + cacheParam + " cachecontainer="
-		// + cacheContainer + " cacheholdertype=" + cacheHolderType);
 		JVar ret = cacheMeth.body().decl(cacheRetType, "ret");
 		JBlock instanceBlock = createTestNullCase(cacheMeth.body(), ret, cacheContainer.invoke("get").arg(cacheParam),
 				cacheContainer);
-		JVar holder = instanceBlock.decl(cacheHolderType, "holder")
-				.init(cm.ref(FXCollections.class).staticInvoke("observableArrayList"));
-		instanceBlock.assign(ret, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
+		instanceBlock.assign(ret, JExpr._new(cacheRetType));
 		instanceBlock.add(JExpr.invoke(cacheContainer, "put").arg(cacheParam).arg(ret));
 		JVar finalRet = instanceBlock.decl(cacheRetType, "finalRet").init(ret);
 		JInvocation invoke = JExpr.invoke(JExpr.direct("cache"), bridge.methFetchCacheArray())
@@ -393,10 +370,7 @@ public class CacheTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam arr = lambdaSet.addParam("arr");
-		JBlock setBody = sync(lambdaSet.body(), holder);
-		setBody.add(JExpr.invoke(holder, "clear"));
-		setBody._if(arr.neNull())._then().add(JExpr.invoke(holder, "addAll").arg(arr));
-		lambdaSet.body().invoke(finalRet, "dataReceived");
+		lambdaSet.body().add(JExpr.invoke(finalRet, "set").arg(arr));
 		invoke.arg(lambdaSet);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -416,9 +390,7 @@ public class CacheTranslator {
 		JVar ret = cacheMeth.body().decl(cacheRetType, "ret");
 		JBlock instanceBlock = createTestNullCase(cacheMeth.body(), ret, cacheContainer.invoke("get").arg(cacheParam),
 				cacheContainer);
-		JVar holder = instanceBlock.decl(cacheHolderType, "holder")
-				.init(cm.ref(FXCollections.class).staticInvoke("observableHashMap"));
-		instanceBlock.assign(ret, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
+		instanceBlock.assign(ret, JExpr._new(cacheRetType));
 		instanceBlock.add(JExpr.invoke(cacheContainer, "put").arg(cacheParam).arg(ret));
 		JVar finalRet = instanceBlock.decl(cacheRetType, "finalRet").init(ret);
 		JInvocation invoke = JExpr.invoke(JExpr.direct("cache"), bridge.methFetchCacheMap())
@@ -429,13 +401,8 @@ public class CacheTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam newmap = lambdaSet.addParam("newmap");
-		JBlock setBody = sync(lambdaSet.body(), holder);
-		JBlock ifnotnull = setBody._if(newmap.neNull())._then();
-		// container.entrySet().retainAll(newMap.entrySet())
-		ifnotnull.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));
-		// container.putAll(newmap)
-		ifnotnull.add(JExpr.invoke(holder, "putAll").arg(newmap));
-		lambdaSet.body().invoke(finalRet, "dataReceived");
+		JBlock ifnotnull = lambdaSet.body()._if(newmap.neNull())._then();
+		ifnotnull.add(JExpr.invoke(finalRet, "set").arg(newmap));
 		invoke.arg(lambdaSet);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));
@@ -452,12 +419,7 @@ public class CacheTranslator {
 		cacheContainer = cacheGroup.field(JMod.PRIVATE, cacheRetType, operation.getOperationId() + "_holder");
 		JBlock instanceBlock = sync(cacheMeth.body()._if(cacheContainer.eqNull())._then(), JExpr._this())
 				._if(cacheContainer.eqNull())._then();
-		// _holder = FXCollections.observableHashMap();
-		JVar holder = instanceBlock
-				.decl(cacheHolderType,
-						"holder")
-				.init(cm.ref(FXCollections.class).staticInvoke("observableHashMap"));
-		instanceBlock.assign(cacheContainer, JExpr.invoke(JExpr.direct("cache"), "toHolder").arg(holder));
+		instanceBlock.assign(cacheContainer, JExpr._new(cacheRetType));
 		JVar finalRet = instanceBlock.decl(cacheRetType, "finalRet").init(cacheContainer);
 		JInvocation invoke = JExpr.invoke(JExpr.direct("cache"), bridge.methFetchCacheMap())
 				.arg(operation.getOperationId());
@@ -467,13 +429,8 @@ public class CacheTranslator {
 
 		JLambda lambdaSet = new JLambda();
 		JLambdaParam newmap = lambdaSet.addParam("newmap");
-		JBlock setBody = sync(lambdaSet.body(), holder);
-		// container.entrySet().retainAll(newMap.entrySet())
-		JBlock ifnotnull = setBody._if(newmap.neNull())._then();
-		ifnotnull.add(JExpr.invoke(holder, "keySet").invoke("retainAll").arg(newmap.invoke("keySet")));
-		// container.putAll(newmap)
-		ifnotnull.add(JExpr.invoke(holder, "putAll").arg(newmap));
-		lambdaSet.body().invoke(finalRet, "dataReceived");
+		JBlock ifnotnull = lambdaSet.body()._if(newmap.neNull())._then();
+		ifnotnull.add(JExpr.invoke(finalRet, "set").arg(newmap));
 		invoke.arg(lambdaSet);
 
 		if (!parent.requiredRoles.isEmpty()) {
@@ -496,9 +453,8 @@ public class CacheTranslator {
 		JVar ret = cacheMeth.body().decl(cacheRetType, "ret");
 		JBlock instanceBlock = createTestNullCase(cacheMeth.body(), ret, cacheContainer.invoke("get").arg(cacheParam),
 				cacheContainer);
-		JVar holder = instanceBlock.decl(cacheHolderType, "holder")
-				.init(JExpr._new(cm.ref(ObsObjHolderSimple.class).narrowEmpty()));
-		instanceBlock.assign(ret, holder);
+		instanceBlock.assign(ret, JExpr._new(cacheRetType));
+		JVar finalRet = instanceBlock.decl(cacheRetType, "finalRet").init(ret);
 		instanceBlock.add(JExpr.invoke(cacheContainer, "put").arg(cacheParam).arg(ret));
 		JInvocation invoke = JExpr.invoke(JExpr.direct("cache"), bridge.methFetchCacheObject())
 				.arg(operation.getOperationId());
@@ -508,7 +464,7 @@ public class CacheTranslator {
 
 		JLambda lambdaset = new JLambda();
 		JLambdaParam item = lambdaset.addParam("item");
-		sync(lambdaset.body(), holder).add(JExpr.invoke(holder, "set").arg(item));
+		lambdaset.body().add(JExpr.invoke(finalRet, "set").arg(item));
 		invoke.arg(lambdaset);
 		if (!parent.requiredRoles.isEmpty()) {
 			JArray array = JExpr.newArray(cm.ref(String.class));

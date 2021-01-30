@@ -5,8 +5,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_i
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 public class Insurance {
     public final SwaggerDCCache<?> cache;
@@ -30,29 +28,8 @@ public class Insurance {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_insurance_prices_holder == null) {
-                            ObservableList<R_get_insurance_prices> holder = FXCollections.observableArrayList();
-                            get_insurance_prices_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<R_get_insurance_prices> finalRet = get_insurance_prices_holder;
-                            (cache).addFetchCacheArray("get_insurance_prices", (page, properties) -> (cache.swagger).get_insurance_prices(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_insurance_prices_holder = new ObsListHolderImpl<R_get_insurance_prices>();
+                            (cache).addFetchCacheArray("get_insurance_prices", (page, properties) -> (cache.swagger).get_insurance_prices(properties), arr -> get_insurance_prices_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);

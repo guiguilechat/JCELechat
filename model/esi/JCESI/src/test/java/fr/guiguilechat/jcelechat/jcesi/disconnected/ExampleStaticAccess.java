@@ -5,6 +5,7 @@ import java.util.List;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
+import fr.guiguilechat.tools.JFXTools;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import javafx.beans.value.ObservableDoubleValue;
 
@@ -66,8 +67,7 @@ public class ExampleStaticAccess {
 		/**
 		 * since this is tedious and error prone I bring some in the modeled class
 		 */
-		ObservableDoubleValue maxBOObs = ESIAccess.INSTANCE.markets.getMarket(theforge).getBO(veldspar, 1)
-				.asObservableNumber();
+		ObservableDoubleValue maxBOObs = JFXTools.obs(ESIAccess.INSTANCE.markets.getMarket(theforge).getBO(veldspar, 1));
 
 		/**
 		 * ^You should use this one ^ Everybody loves maxBOObs.

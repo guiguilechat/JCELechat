@@ -29,7 +29,6 @@ import javafx.beans.property.Property;
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableDoubleValue;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
 import javafx.scene.Cursor;
@@ -52,10 +51,7 @@ public class MoonWorthController {
 		BO {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
-				ObservableDoubleValue var = controller.market().getBO(typeID, 1).asObservableNumber();
-				// System.err.println("bo value of " + typeID + " is " +
-				// var.doubleValue());
-				return var.doubleValue();
+				return controller.market().getBO(typeID, 1).get();
 			}
 		},
 		// SO {
@@ -69,15 +65,13 @@ public class MoonWorthController {
 		MONTH {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
-				ObservableDoubleValue var = controller.market().getHistory(typeID).monthly.getAverage().asObservableNumber();
-				return var.doubleValue();
+				return controller.market().getHistory(typeID).monthly.getAverage().get();
 			}
 		},
 		WEEK {
 			@Override
 			public double value(int typeID, MoonWorthController controller) {
-				ObservableDoubleValue var = controller.market().getHistory(typeID).weekly.getAverage().asObservableNumber();
-				return var.doubleValue();
+				return controller.market().getHistory(typeID).weekly.getAverage().get();
 			}
 		},
 		REPROBO {

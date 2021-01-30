@@ -36,9 +36,7 @@ public class ProxyRegionalMarket implements IPricing {
 		ObsObjHolder<Map<Integer, List<R_get_markets_region_id_orders>>> mapped = orders
 				.map(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
 		mapped.follow(m -> {
-			ordersByTypeID.underlying().clear();
-			ordersByTypeID.underlying().putAll(m);
-			ordersByTypeID.dataReceived();
+			ordersByTypeID.set(m);
 		});
 	}
 

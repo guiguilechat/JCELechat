@@ -7,8 +7,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_16_flag_in
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 public class Route {
     public final SwaggerDCCache<?> cache;
@@ -50,30 +48,10 @@ public class Route {
                     {
                         ret = get_route_origin_destination_holder.get(param);
                         if (ret == null) {
-                            ObservableList<Integer> holder = FXCollections.observableArrayList();
-                            ret = (cache).toHolder(holder);
+                            ret = new ObsListHolderImpl<Integer>();
                             get_route_origin_destination_holder.put(param, ret);
                             ObsListHolderImpl<Integer> finalRet = ret;
-                            (cache).addFetchCacheArray("get_route_origin_destination", (page, properties) -> (cache.swagger).get_route(avoid, connections, destination, flag, origin, properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            (cache).addFetchCacheArray("get_route_origin_destination", (page, properties) -> (cache.swagger).get_route(avoid, connections, destination, flag, origin, properties), arr -> finalRet.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_route_origin_destination_holder);

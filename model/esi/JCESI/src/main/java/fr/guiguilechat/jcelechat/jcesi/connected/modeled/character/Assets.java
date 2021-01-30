@@ -10,18 +10,14 @@ import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
-
-import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
@@ -35,21 +31,15 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_type;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import javafx.collections.FXCollections;
-import javafx.collections.ListChangeListener.Change;
-import javafx.collections.ObservableMap;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
 
 @RequiredArgsConstructor
 public class Assets {
-
-	private static final org.slf4j.Logger logger = LoggerFactory.getLogger(Assets.class);
 
 	@Getter
 	@Accessors(fluent = true)
@@ -244,98 +234,17 @@ public class Assets {
 		return ret;
 	}
 
-	private transient ObsObjHolder<ItemForest> cacheForest = null;
-
-	public ObsObjHolder<ItemForest> getForest() {
-		if (cacheForest == null) {
-			ObsListHolder<R_get_characters_character_id_assets> list = getList();
-			synchronized (list) {
-				if (cacheForest == null) {
-					cacheForest = list.map(this::grow);
-				}
-			}
-		}
-		return cacheForest;
-	}
-
-	/**
-	 * called when a change happens to the list of assets. When this happens, we
-	 * recreate the whole map and put it back .
-	 *
-	 * @param c
-	 * @param map
-	 */
-	protected void applyNewAssets(Change<? extends R_get_characters_character_id_assets> c,
-			ObservableMap<Long, ObservableMap<Integer, Long>> map) {
-		c.next();
-
-		// the listener is called everytime the full list of items in
-		// modified. thus everytime, we recreate it
-		R_get_characters_character_id_assets[] itemsArr = c.getAddedSubList().stream()
-				.filter(asset -> !get_characters_character_id_assets_location_flag.AutoFit.equals(asset.location_flag))
-				.toArray(R_get_characters_character_id_assets[]::new);
-
-		// we make the map of itemid->locations. if a location is actually an
-		// asset, we iteratively map it to this asset's location instead
-		Map<Long, Long> baseLocationMap = Stream.of(itemsArr)
-				.collect(Collectors.toMap(i -> i.item_id, i -> i.location_id, (l1, l2) -> l1));
-		Map<Long, Long> idToLocation = baseLocationMap.entrySet().stream().collect(Collectors.toMap(Entry::getKey, e -> {
-			Long ret = e.getValue();
-			while (baseLocationMap.containsKey(ret)) {
-				ret = baseLocationMap.get(ret);
-			}
-			return ret;
-		}));
-
-		Map<Long, Map<Integer, Long>> newitems = Stream.of(itemsArr)
-				.collect(Collectors.toMap(a -> idToLocation.get(a.item_id), Assets::makeMap, Assets::mergeMap));
-		synchronized (map) {
-			map.keySet().retainAll(newitems.keySet());
-			for (Entry<Long, Map<Integer, Long>> e : newitems.entrySet()) {
-				ObservableMap<Integer, Long> om = map.get(e.getKey());
-				if (om == null) {
-					om = FXCollections.observableHashMap();
-					map.put(e.getKey(), om);
-				}
-				om.keySet().retainAll(e.getValue().keySet());
-				om.putAll(e.getValue());
-			}
-		}
-	}
-
-	private transient ObsMapHolder<Long, Map<Integer, Long>> availableAssets = null;
+	@Getter(lazy = true)
+	private final ObsObjHolder<ItemForest> forest = getList().map(this::grow);
 
 	/**
 	 * get the available map of assets locations to assets id to assets quantity.
 	 * <br />
 	 * The assets for a location are actually unmodifiable maps.
 	 *
-	 * @return a cached observable map.
 	 */
-	public ObsMapHolder<Long, Map<Integer, Long>> getAvailable() {
-		if (availableAssets == null) {
-			ObsListHolder<R_get_characters_character_id_assets> assetList = getList();
-			synchronized (assetList) {
-				if (availableAssets == null) {
-					ObservableMap<Long, Map<Integer, Long>> internal = FXCollections.observableMap(new LinkedHashMap<>());
-					ObsMapHolderImpl<Long, Map<Integer, Long>> ret = new ObsMapHolderImpl<>(internal);
-					assetList.follow(l -> {
-						Map<Long, Map<Integer, Long>> newmap = availableAssetsByLocation(l);
-						logger.debug("character " + con.characterName() + " has available assets " + newmap);
-						internal.keySet().retainAll(newmap.keySet());
-						for (Entry<Long, Map<Integer, Long>> e : newmap.entrySet()) {
-							if (!e.getValue().equals(internal.get(e.getKey()))) {
-								internal.put(e.getKey(), Collections.unmodifiableMap(e.getValue()));
-							}
-						}
-						ret.dataReceived();
-					});
-					availableAssets = ret;
-				}
-			}
-		}
-		return availableAssets;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, Map<Integer, Long>> available = getList().mapMap(l -> availableAssetsByLocation(l));
 
 	private static final HashSet<get_characters_character_id_assets_location_flag> availableAssetsFlags = new HashSet<>(
 			Arrays.asList(AutoFit, Deliveries, Hangar, HangarAll, Locked, ShipHangar, Unlocked));

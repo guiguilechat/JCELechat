@@ -12,14 +12,11 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsCollectionHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
-import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableMap;
+import lombok.Getter;
 
 public class Market {
 
@@ -33,73 +30,30 @@ public class Market {
 	// market orders of the character
 	//
 
-	private ObsMapHolder<Integer, Long> cachedSOs = null;
+	@Getter(lazy = true)
+	private final ObsListHolder<R_get_characters_character_id_orders> orders = con.connection().cache().characters
+	.orders(con.characterId());
 
-	private ObsMapHolder<Integer, Long> cachedBOs = null;
+	@Getter(lazy = true)
+	private final ObsSetHolder<Long> orderIds = getOrders().mapItems(order -> order.order_id).distinct();
 
-	private void makeBOSOs() {
-		if (cachedSOs == null || cachedBOs == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedSOs == null || cachedBOs == null) {
-					ObservableMap<Integer, Long> underlyingsos = FXCollections.observableMap(new HashMap<>());
-					ObsMapHolderImpl<Integer, Long> newmarketSOs = new ObsMapHolderImpl<>(underlyingsos);
-					ObservableMap<Integer, Long> underlyingbos = FXCollections.observableMap(new HashMap<>());
-					ObsMapHolderImpl<Integer, Long> newmarketBOs = new ObsMapHolderImpl<>(underlyingbos);
-					getOrders().follow((map) -> {
-						HashMap<Integer, Long> newMapsos = new HashMap<>();
-						HashMap<Integer, Long> newMapbos = new HashMap<>();
-						for (R_get_characters_character_id_orders v : map) {
-							if (!v.is_buy_order) {
-								newMapsos.put(v.type_id, newMapsos.getOrDefault(v.type_id, 0l) + v.volume_remain);
-							} else {
-								newMapbos.put(v.type_id, newMapbos.getOrDefault(v.type_id, 0l) + v.volume_remain);
-							}
-						}
-						synchronized (underlyingsos) {
-							underlyingsos.keySet().retainAll(newMapsos.keySet());
-							underlyingsos.putAll(newMapsos);
-						}
-						newmarketSOs.dataReceived();
-						synchronized (underlyingbos) {
-							underlyingbos.keySet().retainAll(newMapbos.keySet());
-							underlyingbos.putAll(newMapbos);
-						}
-						newmarketBOs.dataReceived();
-					});
-					cachedSOs = newmarketSOs;
-					cachedBOs = newmarketBOs;
-				}
-			});
-		}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, Integer> sOs = makeSOs();
+
+	protected ObsMapHolder<Long, Integer> makeSOs() {
+		return getOrders().filter(order -> !order.is_buy_order).mapMap(
+				l -> l.stream().collect(
+						Collectors.groupingBy(or -> (long) or.type_id, Collectors.summingInt(order -> order.volume_remain))));
 	}
 
-	public ObsMapHolder<Integer, Long> getSOs() {
-		makeBOSOs();
-		return cachedSOs;
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, Integer> bOs = makeBOs();
+
+	protected ObsMapHolder<Long, Integer> makeBOs() {
+		return getOrders().filter(order -> order.is_buy_order).mapMap(l -> l.stream()
+				.collect(Collectors.groupingBy(or -> (long) or.type_id, Collectors.summingInt(order -> order.volume_remain))));
 	}
 
-	public ObsMapHolder<Integer, Long> getBOs() {
-		makeBOSOs();
-		return cachedBOs;
-	}
-
-	public ObsListHolder<R_get_characters_character_id_orders> getOrders() {
-		return con.connection().cache().characters.orders(con.characterId());
-	}
-
-	private ObsSetHolder<Long> cachedOrderIds = null;
-
-	public ObsSetHolder<Long> getOrderIds() {
-		if (cachedOrderIds == null) {
-			ObsListHolder<R_get_characters_character_id_orders> orders = getOrders();
-			LockWatchDog.BARKER.syncExecute(orders, () -> {
-				if (cachedOrderIds == null) {
-					cachedOrderIds = orders.mapItems(order -> order.order_id).distinct();
-				}
-			});
-		}
-		return cachedOrderIds;
-	}
 
 	//
 	// public market orders on structures

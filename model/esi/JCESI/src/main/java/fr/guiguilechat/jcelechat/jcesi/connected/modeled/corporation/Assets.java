@@ -20,10 +20,8 @@ import static fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -40,12 +38,10 @@ import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_post_assets_names_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableMap;
+import lombok.Getter;
 
 public class Assets {
 
@@ -118,55 +114,11 @@ public class Assets {
 		return ret;
 	}
 
-	private ObsObjHolder<ItemForest> cacheForest = null;
+	@Getter(lazy = true)
+	private final ObsObjHolder<ItemForest> forest = getList().map(this::grow);
 
-	public ObsObjHolder<ItemForest> getForest() {
-		if (cacheForest == null) {
-			ObsListHolder<R_get_corporations_corporation_id_assets> list = getList();
-			synchronized (list) {
-				if (cacheForest == null) {
-					cacheForest = list.map(this::grow);
-				}
-			}
-		}
-		return cacheForest;
-	}
-
-	private ObsMapHolder<Long, Map<Integer, Long>> availableAssets = null;
-
-	public ObsMapHolder<Long, Map<Integer, Long>> getAvailableAssets() {
-		if (availableAssets == null) {
-			ObsListHolder<R_get_corporations_corporation_id_assets> assetList = getList();
-			synchronized (assetList) {
-				if (availableAssets == null) {
-					ObservableMap<Long, Map<Integer, Long>> internal = FXCollections.observableMap(new LinkedHashMap<>());
-					ObsMapHolderImpl<Long, Map<Integer, Long>> ret = new ObsMapHolderImpl<>(internal);
-					assetList.follow(l -> {
-						Map<Long, Map<Integer, Long>> newmap = availableAssetsByLocation(l);
-						boolean modification = internal.keySet().retainAll(newmap.keySet()) || newmap.isEmpty();
-						for (Entry<Long, Map<Integer, Long>> e : newmap.entrySet()) {
-							var thenew = e.getValue();
-							var old = internal.get(e.getKey());
-							if (!thenew.equals(old)) {
-								internal.put(e.getKey(), Collections.unmodifiableMap(thenew));
-								modification = true;
-							}
-						}
-						if (modification) {
-							// System.err.println("corporation " + getName() + " modification
-							// of assetsbyloc");
-							ret.dataReceived();
-						} else {
-							// System.err.println("corporation " + getName() + " keeps same
-							// assetsbyloc");
-						}
-					});
-					availableAssets = ret;
-				}
-			}
-		}
-		return availableAssets;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, Map<Integer, Long>> available = getList().mapMap(l -> availableAssetsByLocation(l));
 
 	private static final HashSet<get_corporations_corporation_id_assets_location_flag> availableAssetsFlags = new HashSet<>(
 			Arrays.asList(AutoFit, CorpDeliveries, CorpSAG1, CorpSAG2, CorpSAG3, CorpSAG4, CorpSAG5, CorpSAG6, CorpSAG7,

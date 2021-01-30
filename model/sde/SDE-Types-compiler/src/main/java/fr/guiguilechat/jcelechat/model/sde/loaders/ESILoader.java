@@ -104,7 +104,7 @@ public class ESILoader {
 		// attributes
 
 		for (int attId : allAttributesIds) {
-			R_get_dogma_attributes_attribute_id eattr = attMap.get(attId);
+			R_get_dogma_attributes_attribute_id eattr = attMap.get().get(attId);
 			AttributeDetails det = new AttributeDetails();
 			det.defaultValue = eattr.default_value;
 			det.description = eattr.description;

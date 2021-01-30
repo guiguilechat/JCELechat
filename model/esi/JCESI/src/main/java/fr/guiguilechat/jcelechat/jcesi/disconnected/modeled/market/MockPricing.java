@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
@@ -21,7 +22,7 @@ public class MockPricing implements IPricing {
 		public MockPricingType(int typeID) {
 			type_id = typeID;
 			lto = new LocalTypeOrders(orders.filter(or -> or.type_id == type_id));
-			orders.dataReceived();
+			orders.set(null);
 		}
 
 		public MockPricingType withSell(int qtty, double price) {
@@ -31,8 +32,9 @@ public class MockPricing implements IPricing {
 			add.price = price;
 			add.min_volume = 1;
 			add.is_buy_order = false;
-			orders.underlying().add(add);
-			orders.dataReceived();
+			ArrayList<R_get_markets_region_id_orders> newlist = new ArrayList<>(orders.get());
+			newlist.add(add);
+			orders.set(newlist);
 			return this;
 		}
 
@@ -43,8 +45,9 @@ public class MockPricing implements IPricing {
 			add.price = price;
 			add.min_volume = 1;
 			add.is_buy_order = true;
-			orders.underlying().add(add);
-			orders.dataReceived();
+			ArrayList<R_get_markets_region_id_orders> newlist = new ArrayList<>(orders.get());
+			newlist.add(add);
+			orders.set(newlist);
 			return this;
 		}
 	}

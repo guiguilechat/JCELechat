@@ -40,7 +40,7 @@ public class MarketHelpers {
 	 *         market region
 	 */
 	public static DoubleProperty bo(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractDouble(marketHolder, m -> m.getBO(typeID, 1).asObservableNumber());
+		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getBO(typeID, 1)));
 	}
 
 	/**
@@ -51,7 +51,7 @@ public class MarketHelpers {
 	 *         market region
 	 */
 	public static DoubleProperty so(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractDouble(marketHolder, m -> m.getSO(typeID, 1).asObservableNumber());
+		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getSO(typeID, 1)));
 	}
 
 	/**
@@ -62,7 +62,7 @@ public class MarketHelpers {
 	 *         the given market region
 	 */
 	public static DoubleProperty weeklyAVG(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractDouble(marketHolder, m -> m.getHistory(typeID).weekly.getAverage().asObservableNumber());
+		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getHistory(typeID).weekly.getAverage()));
 	}
 
 	/**
@@ -73,7 +73,7 @@ public class MarketHelpers {
 	 *         in the given market region
 	 */
 	public static LongProperty weeklyVOL(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractLong(marketHolder, m -> m.getHistory(typeID).weekly.getVolume().asObservableNumber());
+		return JFXTools.extractLong(marketHolder, m -> JFXTools.obs(m.getHistory(typeID).weekly.getVolume()));
 	}
 
 	/**
@@ -84,7 +84,7 @@ public class MarketHelpers {
 	 *         in the given market region
 	 */
 	public static DoubleProperty monthlyAVG(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractDouble(marketHolder, m -> m.getHistory(typeID).monthly.getAverage().asObservableNumber());
+		return JFXTools.extractDouble(marketHolder, m -> JFXTools.obs(m.getHistory(typeID).monthly.getAverage()));
 	}
 
 	/**
@@ -95,6 +95,6 @@ public class MarketHelpers {
 	 *         in the given market region
 	 */
 	public static LongProperty monthlyVOL(int typeID, Property<RegionalMarket> marketHolder) {
-		return JFXTools.extractLong(marketHolder, m -> m.getHistory(typeID).monthly.getVolume().asObservableNumber());
+		return JFXTools.extractLong(marketHolder, m -> JFXTools.obs(m.getHistory(typeID).monthly.getVolume()));
 	}
 }

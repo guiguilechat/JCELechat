@@ -10,14 +10,12 @@ import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 public class Fw {
     public final SwaggerDCCache<?> cache;
-    private ObsObjHolder<M_get_fw_leaderboards_2> get_fw_leaderboards_holder;
-    private ObsObjHolder<M_get_fw_leaderboards_2> get_fw_leaderboards_characters_holder;
-    private ObsObjHolder<M_get_fw_leaderboards_2> get_fw_leaderboards_corporations_holder;
+    private ObsObjHolderSimple<M_get_fw_leaderboards_2> get_fw_leaderboards_holder;
+    private ObsObjHolderSimple<M_get_fw_leaderboards_2> get_fw_leaderboards_characters_holder;
+    private ObsObjHolderSimple<M_get_fw_leaderboards_2> get_fw_leaderboards_corporations_holder;
     private ObsListHolderImpl<R_get_fw_stats> get_fw_stats_holder;
     private ObsListHolderImpl<R_get_fw_wars> get_fw_wars_holder;
     private ObsListHolderImpl<R_get_fw_systems> get_fw_systems_holder;
@@ -40,24 +38,8 @@ public class Fw {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_fw_leaderboards_holder == null) {
-                            ObsObjHolderSimple<M_get_fw_leaderboards_2> holder = new ObsObjHolderSimple<>();
-                            get_fw_leaderboards_holder = holder;
-                            (cache).addFetchCacheObject("get_fw_leaderboards", properties -> (cache.swagger).get_fw_leaderboards(properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            get_fw_leaderboards_holder = new ObsObjHolderSimple<M_get_fw_leaderboards_2>();
+                            (cache).addFetchCacheObject("get_fw_leaderboards", properties -> (cache.swagger).get_fw_leaderboards(properties), item -> get_fw_leaderboards_holder.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -83,24 +65,8 @@ public class Fw {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_fw_leaderboards_characters_holder == null) {
-                            ObsObjHolderSimple<M_get_fw_leaderboards_2> holder = new ObsObjHolderSimple<>();
-                            get_fw_leaderboards_characters_holder = holder;
-                            (cache).addFetchCacheObject("get_fw_leaderboards_characters", properties -> (cache.swagger).get_fw_leaderboards_characters(properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            get_fw_leaderboards_characters_holder = new ObsObjHolderSimple<M_get_fw_leaderboards_2>();
+                            (cache).addFetchCacheObject("get_fw_leaderboards_characters", properties -> (cache.swagger).get_fw_leaderboards_characters(properties), item -> get_fw_leaderboards_characters_holder.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -126,24 +92,8 @@ public class Fw {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_fw_leaderboards_corporations_holder == null) {
-                            ObsObjHolderSimple<M_get_fw_leaderboards_2> holder = new ObsObjHolderSimple<>();
-                            get_fw_leaderboards_corporations_holder = holder;
-                            (cache).addFetchCacheObject("get_fw_leaderboards_corporations", properties -> (cache.swagger).get_fw_leaderboards_corporations(properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            get_fw_leaderboards_corporations_holder = new ObsObjHolderSimple<M_get_fw_leaderboards_2>();
+                            (cache).addFetchCacheObject("get_fw_leaderboards_corporations", properties -> (cache.swagger).get_fw_leaderboards_corporations(properties), item -> get_fw_leaderboards_corporations_holder.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -169,29 +119,8 @@ public class Fw {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_fw_stats_holder == null) {
-                            ObservableList<R_get_fw_stats> holder = FXCollections.observableArrayList();
-                            get_fw_stats_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<R_get_fw_stats> finalRet = get_fw_stats_holder;
-                            (cache).addFetchCacheArray("get_fw_stats", (page, properties) -> (cache.swagger).get_fw_stats(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_fw_stats_holder = new ObsListHolderImpl<R_get_fw_stats>();
+                            (cache).addFetchCacheArray("get_fw_stats", (page, properties) -> (cache.swagger).get_fw_stats(properties), arr -> get_fw_stats_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -217,29 +146,8 @@ public class Fw {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_fw_wars_holder == null) {
-                            ObservableList<R_get_fw_wars> holder = FXCollections.observableArrayList();
-                            get_fw_wars_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<R_get_fw_wars> finalRet = get_fw_wars_holder;
-                            (cache).addFetchCacheArray("get_fw_wars", (page, properties) -> (cache.swagger).get_fw_wars(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_fw_wars_holder = new ObsListHolderImpl<R_get_fw_wars>();
+                            (cache).addFetchCacheArray("get_fw_wars", (page, properties) -> (cache.swagger).get_fw_wars(properties), arr -> get_fw_wars_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -265,29 +173,8 @@ public class Fw {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_fw_systems_holder == null) {
-                            ObservableList<R_get_fw_systems> holder = FXCollections.observableArrayList();
-                            get_fw_systems_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<R_get_fw_systems> finalRet = get_fw_systems_holder;
-                            (cache).addFetchCacheArray("get_fw_systems", (page, properties) -> (cache.swagger).get_fw_systems(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_fw_systems_holder = new ObsListHolderImpl<R_get_fw_systems>();
+                            (cache).addFetchCacheArray("get_fw_systems", (page, properties) -> (cache.swagger).get_fw_systems(properties), arr -> get_fw_systems_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);

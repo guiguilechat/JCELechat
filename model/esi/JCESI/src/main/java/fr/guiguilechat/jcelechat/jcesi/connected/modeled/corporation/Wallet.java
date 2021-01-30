@@ -48,7 +48,7 @@ public class Wallet {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedTotal == null) {
 					cachedTotal = getAcc().connection().cache().corporations.wallets(getId())
-							.reduceDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
+							.mapDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
 				}
 			});
 		}
@@ -63,7 +63,7 @@ public class Wallet {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (cachedFirstDivision == null) {
 					cachedFirstDivision = getAcc().connection().cache().corporations.wallets(getId())
-							.reduceDouble(l -> l.stream().filter(div -> div.division == 1).findFirst()
+							.mapDouble(l -> l.stream().filter(div -> div.division == 1).findFirst()
 									.orElseGet(() -> new R_get_corporations_corporation_id_wallets()).balance);
 				}
 			});

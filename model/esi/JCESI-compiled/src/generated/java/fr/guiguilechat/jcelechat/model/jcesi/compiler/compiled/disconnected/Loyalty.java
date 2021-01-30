@@ -7,8 +7,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_l
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 public class Loyalty {
     public final SwaggerDCCache<?> cache;
@@ -37,30 +35,10 @@ public class Loyalty {
                     {
                         ret = get_loyalty_stores_corporation_id_offers_holder.get(corporation_id);
                         if (ret == null) {
-                            ObservableList<R_get_loyalty_stores_corporation_id_offers> holder = FXCollections.observableArrayList();
-                            ret = (cache).toHolder(holder);
+                            ret = new ObsListHolderImpl<R_get_loyalty_stores_corporation_id_offers>();
                             get_loyalty_stores_corporation_id_offers_holder.put(corporation_id, ret);
                             ObsListHolderImpl<R_get_loyalty_stores_corporation_id_offers> finalRet = ret;
-                            (cache).addFetchCacheArray("get_loyalty_stores_corporation_id_offers", (page, properties) -> (cache.swagger).get_loyalty_stores_offers(corporation_id, properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            (cache).addFetchCacheArray("get_loyalty_stores_corporation_id_offers", (page, properties) -> (cache.swagger).get_loyalty_stores_offers(corporation_id, properties), arr -> finalRet.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_loyalty_stores_corporation_id_offers_holder);

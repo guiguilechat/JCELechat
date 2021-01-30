@@ -14,8 +14,6 @@ import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 public class Markets {
     public final SwaggerDCCache<?> cache;
@@ -44,29 +42,8 @@ public class Markets {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_markets_groups_holder == null) {
-                            ObservableList<Integer> holder = FXCollections.observableArrayList();
-                            get_markets_groups_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<Integer> finalRet = get_markets_groups_holder;
-                            (cache).addFetchCacheArray("get_markets_groups", (page, properties) -> (cache.swagger).get_markets_groups(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_markets_groups_holder = new ObsListHolderImpl<Integer>();
+                            (cache).addFetchCacheArray("get_markets_groups", (page, properties) -> (cache.swagger).get_markets_groups(properties), arr -> get_markets_groups_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -97,25 +74,10 @@ public class Markets {
                     {
                         ret = get_markets_groups_market_group_id_holder.get(market_group_id);
                         if (ret == null) {
-                            ObsObjHolderSimple<R_get_markets_groups_market_group_id> holder = new ObsObjHolderSimple<>();
-                            ret = holder;
+                            ret = new ObsObjHolderSimple<R_get_markets_groups_market_group_id>();
+                            ObsObjHolderSimple<R_get_markets_groups_market_group_id> finalRet = ret;
                             get_markets_groups_market_group_id_holder.put(market_group_id, ret);
-                            (cache).addFetchCacheObject("get_markets_groups_market_group_id", properties -> (cache.swagger).get_markets_groups(market_group_id, properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            (cache).addFetchCacheObject("get_markets_groups_market_group_id", properties -> (cache.swagger).get_markets_groups(market_group_id, properties), item -> finalRet.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_markets_groups_market_group_id_holder);
@@ -141,29 +103,8 @@ public class Markets {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_markets_prices_holder == null) {
-                            ObservableList<R_get_markets_prices> holder = FXCollections.observableArrayList();
-                            get_markets_prices_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<R_get_markets_prices> finalRet = get_markets_prices_holder;
-                            (cache).addFetchCacheArray("get_markets_prices", (page, properties) -> (cache.swagger).get_markets_prices(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_markets_prices_holder = new ObsListHolderImpl<R_get_markets_prices>();
+                            (cache).addFetchCacheArray("get_markets_prices", (page, properties) -> (cache.swagger).get_markets_prices(properties), arr -> get_markets_prices_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -197,30 +138,10 @@ public class Markets {
                     {
                         ret = get_markets_region_id_history_holder.get(param);
                         if (ret == null) {
-                            ObservableList<R_get_markets_region_id_history> holder = FXCollections.observableArrayList();
-                            ret = (cache).toHolder(holder);
+                            ret = new ObsListHolderImpl<R_get_markets_region_id_history>();
                             get_markets_region_id_history_holder.put(param, ret);
                             ObsListHolderImpl<R_get_markets_region_id_history> finalRet = ret;
-                            (cache).addFetchCacheArray("get_markets_region_id_history", (page, properties) -> (cache.swagger).get_markets_history(region_id, type_id, properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            (cache).addFetchCacheArray("get_markets_region_id_history", (page, properties) -> (cache.swagger).get_markets_history(region_id, type_id, properties), arr -> finalRet.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_markets_region_id_history_holder);
@@ -256,30 +177,10 @@ public class Markets {
                     {
                         ret = get_markets_region_id_orders_holder.get(param);
                         if (ret == null) {
-                            ObservableList<R_get_markets_region_id_orders> holder = FXCollections.observableArrayList();
-                            ret = (cache).toHolder(holder);
+                            ret = new ObsListHolderImpl<R_get_markets_region_id_orders>();
                             get_markets_region_id_orders_holder.put(param, ret);
                             ObsListHolderImpl<R_get_markets_region_id_orders> finalRet = ret;
-                            (cache).addFetchCacheArray("get_markets_region_id_orders", (page, properties) -> (cache.swagger).get_markets_orders(order_type, page, region_id, type_id, properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            (cache).addFetchCacheArray("get_markets_region_id_orders", (page, properties) -> (cache.swagger).get_markets_orders(order_type, page, region_id, type_id, properties), arr -> finalRet.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_markets_region_id_orders_holder);
@@ -310,30 +211,10 @@ public class Markets {
                     {
                         ret = get_markets_region_id_types_holder.get(region_id);
                         if (ret == null) {
-                            ObservableList<Integer> holder = FXCollections.observableArrayList();
-                            ret = (cache).toHolder(holder);
+                            ret = new ObsListHolderImpl<Integer>();
                             get_markets_region_id_types_holder.put(region_id, ret);
                             ObsListHolderImpl<Integer> finalRet = ret;
-                            (cache).addFetchCacheArray("get_markets_region_id_types", (page, properties) -> (cache.swagger).get_markets_types(page, region_id, properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            (cache).addFetchCacheArray("get_markets_region_id_types", (page, properties) -> (cache.swagger).get_markets_types(page, region_id, properties), arr -> finalRet.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_markets_region_id_types_holder);

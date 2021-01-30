@@ -35,25 +35,10 @@ public class Universe {
                     {
                         ret = get_universe_structures_structure_id_holder.get(structure_id);
                         if (ret == null) {
-                            ObsObjHolderSimple<R_get_universe_structures_structure_id> holder = new ObsObjHolderSimple<>();
-                            ret = holder;
+                            ret = new ObsObjHolderSimple<R_get_universe_structures_structure_id>();
+                            ObsObjHolderSimple<R_get_universe_structures_structure_id> finalRet = ret;
                             get_universe_structures_structure_id_holder.put(structure_id, ret);
-                            (cache).addFetchCacheObject("get_universe_structures_structure_id", properties -> (cache.swagger).get_universe_structures(structure_id, properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            (cache).addFetchCacheObject("get_universe_structures_structure_id", properties -> (cache.swagger).get_universe_structures(structure_id, properties), item -> finalRet.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_universe_structures_structure_id_holder);

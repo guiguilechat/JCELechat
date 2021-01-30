@@ -6,20 +6,23 @@ import java.util.HashSet;
 import java.util.List;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
+import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.PI.ColonyInfo;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets_planet_id;
 import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableMap;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.experimental.Accessors;
 
+@RequiredArgsConstructor
 public class PI {
 
-	protected final ESIAccount acc;
-
-	public PI(ESIAccount raw) {
-		acc = raw;
-	}
+	@Getter
+	@Accessors(fluent = true)
+	protected final ESIAccount account;
 
 	/**
 	 * colony info<br />
@@ -57,15 +60,21 @@ public class PI {
 
 	}
 
-	private ObsMapHolderImpl<Integer, ColonyInfo> planets = null;
+	@Getter(lazy = true)
+	private final ObsMapHolder<Object, R_get_characters_character_id_planets> planetsList = account.connection()
+	.cache().characters.planets(account.characterId()).toMap(p -> p.planet_id);
 
-	public ObsMapHolder<Integer, ColonyInfo> getPlanets() {
+	{
+		getPlanetslist().
+	}
+
+	public ObsMapHolder<Integer, ColonyInfo> getXXPlanets() {
 		if (planets == null) {
 			synchronized (this) {
 				if (planets == null) {
 					ObservableMap<Integer, ColonyInfo> mcol = FXCollections.observableHashMap();
 					planets = new ObsMapHolderImpl<>(mcol);
-					acc.connection().cache().characters.planets(acc.characterId()).followItems(c -> {
+					account.connection().cache().characters.planets(account.characterId()).followItems(c -> {
 						HashSet<Integer> removed = new HashSet<>();
 						List<R_get_characters_character_id_planets> added = new ArrayList<>();
 						while (c.next()) {
@@ -84,7 +93,7 @@ public class PI {
 						}
 						mcol.keySet().removeAll(removed);
 						for (R_get_characters_character_id_planets a : added) {
-							acc.connection().cache().characters.planets(acc.characterId(), a.planet_id)
+							account.connection().cache().characters.planets(account.characterId(), a.planet_id)
 							.follow((newValue) -> {
 								if (newValue == null) {
 									synchronized (mcol) {
@@ -100,7 +109,7 @@ public class PI {
 							});
 						}
 					});
-					acc.connection().cache().characters.planets(acc.characterId()).follow((l) -> planets.dataReceived());
+					account.connection().cache().characters.planets(account.characterId()).follow((l) -> planets.dataReceived());
 				}
 			}
 		}

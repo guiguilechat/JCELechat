@@ -7,8 +7,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_s
 import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 public class Sovereignty {
     public final SwaggerDCCache<?> cache;
@@ -34,29 +32,8 @@ public class Sovereignty {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_sovereignty_campaigns_holder == null) {
-                            ObservableList<R_get_sovereignty_campaigns> holder = FXCollections.observableArrayList();
-                            get_sovereignty_campaigns_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<R_get_sovereignty_campaigns> finalRet = get_sovereignty_campaigns_holder;
-                            (cache).addFetchCacheArray("get_sovereignty_campaigns", (page, properties) -> (cache.swagger).get_sovereignty_campaigns(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_sovereignty_campaigns_holder = new ObsListHolderImpl<R_get_sovereignty_campaigns>();
+                            (cache).addFetchCacheArray("get_sovereignty_campaigns", (page, properties) -> (cache.swagger).get_sovereignty_campaigns(properties), arr -> get_sovereignty_campaigns_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -82,29 +59,8 @@ public class Sovereignty {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_sovereignty_map_holder == null) {
-                            ObservableList<R_get_sovereignty_map> holder = FXCollections.observableArrayList();
-                            get_sovereignty_map_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<R_get_sovereignty_map> finalRet = get_sovereignty_map_holder;
-                            (cache).addFetchCacheArray("get_sovereignty_map", (page, properties) -> (cache.swagger).get_sovereignty_map(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_sovereignty_map_holder = new ObsListHolderImpl<R_get_sovereignty_map>();
+                            (cache).addFetchCacheArray("get_sovereignty_map", (page, properties) -> (cache.swagger).get_sovereignty_map(properties), arr -> get_sovereignty_map_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -130,29 +86,8 @@ public class Sovereignty {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_sovereignty_structures_holder == null) {
-                            ObservableList<R_get_sovereignty_structures> holder = FXCollections.observableArrayList();
-                            get_sovereignty_structures_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<R_get_sovereignty_structures> finalRet = get_sovereignty_structures_holder;
-                            (cache).addFetchCacheArray("get_sovereignty_structures", (page, properties) -> (cache.swagger).get_sovereignty_structures(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_sovereignty_structures_holder = new ObsListHolderImpl<R_get_sovereignty_structures>();
+                            (cache).addFetchCacheArray("get_sovereignty_structures", (page, properties) -> (cache.swagger).get_sovereignty_structures(properties), arr -> get_sovereignty_structures_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);

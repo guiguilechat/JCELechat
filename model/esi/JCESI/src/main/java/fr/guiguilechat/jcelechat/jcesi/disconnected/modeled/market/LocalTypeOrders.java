@@ -65,7 +65,7 @@ public class LocalTypeOrders {
 			synchronized (cachedBuyPrice) {
 				ret = cachedBuyPrice.get(qtty);
 				if (ret == null) {
-					ret = source.reduceDouble(l -> {
+					ret = source.mapDouble(l -> {
 						double total = 0.0;
 						long remain = qtty;
 						for (R_get_markets_region_id_orders o : l) {
@@ -95,7 +95,7 @@ public class LocalTypeOrders {
 			synchronized (cachedSellPrice) {
 				ret = cachedSellPrice.get(qtty);
 				if (ret == null) {
-					ret = source.reduceDouble(l -> {
+					ret = source.mapDouble(l -> {
 						double total = 0.0;
 						long remain = qtty;
 						for (R_get_markets_region_id_orders o : l) {

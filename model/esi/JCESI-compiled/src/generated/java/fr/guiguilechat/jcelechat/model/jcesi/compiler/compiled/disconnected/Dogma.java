@@ -12,8 +12,6 @@ import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 
 public class Dogma {
     public final SwaggerDCCache<?> cache;
@@ -41,29 +39,8 @@ public class Dogma {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_dogma_attributes_holder == null) {
-                            ObservableList<Integer> holder = FXCollections.observableArrayList();
-                            get_dogma_attributes_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<Integer> finalRet = get_dogma_attributes_holder;
-                            (cache).addFetchCacheArray("get_dogma_attributes", (page, properties) -> (cache.swagger).get_dogma_attributes(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_dogma_attributes_holder = new ObsListHolderImpl<Integer>();
+                            (cache).addFetchCacheArray("get_dogma_attributes", (page, properties) -> (cache.swagger).get_dogma_attributes(properties), arr -> get_dogma_attributes_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -94,25 +71,10 @@ public class Dogma {
                     {
                         ret = get_dogma_attributes_attribute_id_holder.get(attribute_id);
                         if (ret == null) {
-                            ObsObjHolderSimple<R_get_dogma_attributes_attribute_id> holder = new ObsObjHolderSimple<>();
-                            ret = holder;
+                            ret = new ObsObjHolderSimple<R_get_dogma_attributes_attribute_id>();
+                            ObsObjHolderSimple<R_get_dogma_attributes_attribute_id> finalRet = ret;
                             get_dogma_attributes_attribute_id_holder.put(attribute_id, ret);
-                            (cache).addFetchCacheObject("get_dogma_attributes_attribute_id", properties -> (cache.swagger).get_dogma_attributes(attribute_id, properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            (cache).addFetchCacheObject("get_dogma_attributes_attribute_id", properties -> (cache.swagger).get_dogma_attributes(attribute_id, properties), item -> finalRet.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_dogma_attributes_attribute_id_holder);
@@ -146,25 +108,10 @@ public class Dogma {
                     {
                         ret = get_dogma_dynamic_items_type_id_item_id_holder.get(param);
                         if (ret == null) {
-                            ObsObjHolderSimple<R_get_dogma_dynamic_items_type_id_item_id> holder = new ObsObjHolderSimple<>();
-                            ret = holder;
+                            ret = new ObsObjHolderSimple<R_get_dogma_dynamic_items_type_id_item_id>();
+                            ObsObjHolderSimple<R_get_dogma_dynamic_items_type_id_item_id> finalRet = ret;
                             get_dogma_dynamic_items_type_id_item_id_holder.put(param, ret);
-                            (cache).addFetchCacheObject("get_dogma_dynamic_items_type_id_item_id", properties -> (cache.swagger).get_dogma_dynamic_items(item_id, type_id, properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            (cache).addFetchCacheObject("get_dogma_dynamic_items_type_id_item_id", properties -> (cache.swagger).get_dogma_dynamic_items(item_id, type_id, properties), item -> finalRet.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_dogma_dynamic_items_type_id_item_id_holder);
@@ -190,29 +137,8 @@ public class Dogma {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_dogma_effects_holder == null) {
-                            ObservableList<Integer> holder = FXCollections.observableArrayList();
-                            get_dogma_effects_holder = (cache).toHolder(holder);
-                            ObsListHolderImpl<Integer> finalRet = get_dogma_effects_holder;
-                            (cache).addFetchCacheArray("get_dogma_effects", (page, properties) -> (cache.swagger).get_dogma_effects(properties), arr -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.clear();
-                                            if (arr!= null) {
-                                                holder.addAll(arr);
-                                            }
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                                finalRet.dataReceived();
-                            }
-                            );
+                            get_dogma_effects_holder = new ObsListHolderImpl<Integer>();
+                            (cache).addFetchCacheArray("get_dogma_effects", (page, properties) -> (cache.swagger).get_dogma_effects(properties), arr -> get_dogma_effects_holder.set(arr));
                         }
                     }
                     LockWatchDog.BARKER.rel(this);
@@ -243,25 +169,10 @@ public class Dogma {
                     {
                         ret = get_dogma_effects_effect_id_holder.get(effect_id);
                         if (ret == null) {
-                            ObsObjHolderSimple<R_get_dogma_effects_effect_id> holder = new ObsObjHolderSimple<>();
-                            ret = holder;
+                            ret = new ObsObjHolderSimple<R_get_dogma_effects_effect_id>();
+                            ObsObjHolderSimple<R_get_dogma_effects_effect_id> finalRet = ret;
                             get_dogma_effects_effect_id_holder.put(effect_id, ret);
-                            (cache).addFetchCacheObject("get_dogma_effects_effect_id", properties -> (cache.swagger).get_dogma_effects(effect_id, properties), item -> {
-                                LockWatchDog.BARKER.tak(holder);
-                                try {
-                                    synchronized (holder)
-                                    {
-                                        LockWatchDog.BARKER.hld(holder);
-                                        {
-                                            holder.set(item);
-                                        }
-                                        LockWatchDog.BARKER.rel(holder);
-                                    }
-                                } finally {
-                                    LockWatchDog.BARKER.rel(holder);
-                                }
-                            }
-                            );
+                            (cache).addFetchCacheObject("get_dogma_effects_effect_id", properties -> (cache.swagger).get_dogma_effects(effect_id, properties), item -> finalRet.set(item));
                         }
                     }
                     LockWatchDog.BARKER.rel(get_dogma_effects_effect_id_holder);

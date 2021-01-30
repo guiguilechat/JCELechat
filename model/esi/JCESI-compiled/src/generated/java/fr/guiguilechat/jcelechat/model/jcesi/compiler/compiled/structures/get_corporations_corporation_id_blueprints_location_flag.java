@@ -131,6 +131,8 @@ public enum get_corporations_corporation_id_blueprints_location_flag {
     PlanetSurface("PlanetSurface"),
     @JsonProperty("QuafeBay")
     QuafeBay("QuafeBay"),
+    @JsonProperty("QuantumCoreRoom")
+    QuantumCoreRoom("QuantumCoreRoom"),
     @JsonProperty("Reward")
     Reward("Reward"),
     @JsonProperty("RigSlot0")

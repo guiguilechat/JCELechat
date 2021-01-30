@@ -45,7 +45,7 @@ public class CheckESISDE {
 
 		for (Entry<Integer, EcategoryIDs> e : EcategoryIDs.load().entrySet()) {
 			EcategoryIDs sdeEntry = e.getValue();
-			R_get_universe_categories_category_id esiEntry = catMap.get(e.getKey());
+			R_get_universe_categories_category_id esiEntry = catMap.get().get(e.getKey());
 			if (sdeEntry.published != esiEntry.published) {
 				System.out.println("cat=" + e.getKey() + "(" + esiEntry.name + ")" + " esi=" + esiEntry.published + " sde="
 						+ sdeEntry.published);
@@ -54,7 +54,7 @@ public class CheckESISDE {
 		}
 		for (Entry<Integer, EgroupIDs> e : EgroupIDs.load().entrySet()) {
 			EgroupIDs sdeEntry = e.getValue();
-			R_get_universe_groups_group_id esiEntry = groupMap.get(e.getKey());
+			R_get_universe_groups_group_id esiEntry = groupMap.get().get(e.getKey());
 			if (sdeEntry.published != esiEntry.published) {
 				System.out.println("group=" + e.getKey() + "(" + esiEntry.name + ")" + " esi=" + esiEntry.published + " sde="
 						+ sdeEntry.published);
@@ -63,7 +63,7 @@ public class CheckESISDE {
 		}
 		for (Entry<Integer, EtypeIDs> e : EtypeIDs.load().entrySet()) {
 			EtypeIDs sdeEntry = e.getValue();
-			R_get_universe_types_type_id esiEntry = typeMap.get(e.getKey());
+			R_get_universe_types_type_id esiEntry = typeMap.get().get(e.getKey());
 			if (sdeEntry.published != esiEntry.published) {
 				System.out.println("type=" + e.getKey() + "(" + esiEntry.name + ")" + " esi=" + esiEntry.published + " sde="
 						+ sdeEntry.published);
@@ -78,7 +78,7 @@ public class CheckESISDE {
 
 		for (int attId : attributeIds) {
 			EdgmAttributeTypes sdeEntry = attSDEMap.get(attId);
-			R_get_dogma_attributes_attribute_id esiEntry = attMap.get(attId);
+			R_get_dogma_attributes_attribute_id esiEntry = attMap.get().get(attId);
 			if (sdeEntry == null) {
 				System.out.println("attid=" + attId + " null in SDE, name in ESI=" + esiEntry.name);
 				errors++;
