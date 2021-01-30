@@ -105,10 +105,10 @@ public class Market {
 	// public market orders on structures
 	//
 
-	private final HashMap<Integer, ObsCollectionHolder<R_get_markets_region_id_orders, ?, ?>> cachedRegionalPublicOrders = new HashMap<>();
+	private final HashMap<Integer, ObsCollectionHolder<R_get_markets_region_id_orders, ?>> cachedRegionalPublicOrders = new HashMap<>();
 
-	public ObsCollectionHolder<R_get_markets_region_id_orders, ?, ?> getRegionalPublicOrders(int regionId) {
-		ObsCollectionHolder<R_get_markets_region_id_orders, ?, ?> ret = cachedRegionalPublicOrders.get(regionId);
+	public ObsCollectionHolder<R_get_markets_region_id_orders, ?> getRegionalPublicOrders(int regionId) {
+		ObsCollectionHolder<R_get_markets_region_id_orders, ?> ret = cachedRegionalPublicOrders.get(regionId);
 		if (ret == null) {
 			synchronized (cachedRegionalPublicOrders) {
 				ret = cachedRegionalPublicOrders.get(regionId);
@@ -123,7 +123,7 @@ public class Market {
 									.contains(
 											ESIAccess.INSTANCE.universe.cache().systems(stru.solar_system_id).get().constellation_id))
 							.keys();
-					ObsCollectionHolder<R_get_markets_region_id_orders, ?, ?> publicStructureOrders = structIdInRegion
+					ObsCollectionHolder<R_get_markets_region_id_orders, ?> publicStructureOrders = structIdInRegion
 							.flatten(structid -> {
 								int system_id = con.universe.location(structid).system().system_id;
 								return con.connection().cache().markets.structures(structid)

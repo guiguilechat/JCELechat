@@ -1,5 +1,7 @@
 package fr.guiguilechat.tools;
 
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Map.Entry;
 import java.util.concurrent.CountDownLatch;
@@ -9,22 +11,36 @@ import java.util.function.IntPredicate;
 import java.util.function.LongPredicate;
 import java.util.stream.Collectors;
 
+import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
+import fr.lelouet.collectionholders.impl.collections.ObsSetHolderImpl;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsFloatHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.LongProperty;
 import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.property.SimpleFloatProperty;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleLongProperty;
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.StringProperty;
 import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableBooleanValue;
 import javafx.beans.value.ObservableDoubleValue;
+import javafx.beans.value.ObservableFloatValue;
+import javafx.beans.value.ObservableIntegerValue;
 import javafx.beans.value.ObservableLongValue;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.MapChangeListener;
 import javafx.collections.ObservableMap;
+import javafx.collections.ObservableSet;
+import javafx.collections.SetChangeListener;
 
 public class JFXTools {
 
@@ -354,6 +370,52 @@ public class JFXTools {
 		} catch (InterruptedException e) {
 			throw new UnsupportedOperationException("catch this", e);
 		}
+	}
+
+	public static ObservableDoubleValue obs(ObsDoubleHolder h) {
+		SimpleDoubleProperty ret = new SimpleDoubleProperty();
+		h.follow(ret::set);
+		return ret;
+	}
+
+	public static ObservableFloatValue obs(ObsFloatHolder h) {
+		SimpleFloatProperty ret = new SimpleFloatProperty();
+		h.follow(ret::set);
+		return ret;
+	}
+
+	public static ObservableIntegerValue obs(ObsIntHolder h) {
+		SimpleIntegerProperty ret = new SimpleIntegerProperty();
+		h.follow(ret::set);
+		return ret;
+	}
+
+	public static ObservableLongValue obs(ObsLongHolder h) {
+		SimpleLongProperty ret = new SimpleLongProperty();
+		h.follow(ret::set);
+		return ret;
+	}
+
+	public static ObservableBooleanValue obs(ObsBoolHolder h) {
+		SimpleBooleanProperty ret = new SimpleBooleanProperty();
+		h.follow(ret::set);
+		return ret;
+	}
+
+	public static <U> ObsSetHolderImpl<U> hold(ObservableSet<U> o) {
+		ObsSetHolderImpl<U> ret = new ObsSetHolderImpl<>(o);
+		synchronized (o) {
+			o.addListener((SetChangeListener<U>) ch -> ret.set(new HashSet<>(o)));
+		}
+		return ret;
+	}
+
+	public static <K, V> ObsMapHolderImpl<K, V> hold(ObservableMap<K, V> o) {
+		ObsMapHolderImpl<K, V> ret = new ObsMapHolderImpl<>(o);
+		synchronized (o) {
+			o.addListener((MapChangeListener<K, V>) ch -> ret.set(new HashMap<>(o)));
+		}
+		return ret;
 	}
 
 }
