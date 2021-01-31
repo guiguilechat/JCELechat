@@ -18,33 +18,30 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
 
 public class RegionalMarket implements IPricing {
 
 	private static final Logger logger = LoggerFactory.getLogger(RegionalMarket.class);
 
-	private final ObsListHolder<R_get_markets_region_id_orders> orders;
-	private final ObsMapHolderImpl<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID;
 	private final CacheStatic cache;
 	private final int regionID;
 
 	public RegionalMarket(CacheStatic cache, int regionID) {
-		orders = cache.markets.orders(order_type.all, regionID, null);
-		ordersByTypeID = new ObsMapHolderImpl<>();
-		ObsObjHolder<Map<Integer, List<R_get_markets_region_id_orders>>> mapped = orders
-				.map(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
-		mapped.follow(m -> {
-			ordersByTypeID.underlying().clear();
-			ordersByTypeID.underlying().putAll(m);
-			ordersByTypeID.dataReceived();
-		});
 		this.cache = cache;
 		this.regionID = regionID;
 	}
+
+	@Getter(lazy = true)
+	private final ObsListHolder<R_get_markets_region_id_orders> orders = cache.markets.orders(order_type.all, regionID,
+			null);
+
+	@Getter(lazy=true)
+	private final ObsMapHolder<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID = getOrders()
+	.mapMap(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
 
 	// orders
 
@@ -58,7 +55,8 @@ public class RegionalMarket implements IPricing {
 			ret = LockWatchDog.BARKER.syncExecute(cachedOrders, () -> {
 				LocalTypeOrders ret2 = cachedOrders.get(typeID);
 				if (ret2 == null) {
-					ret2 = new LocalTypeOrders(ordersByTypeID.at(typeID, Collections.emptyList()).toList(l -> l));
+					ret2 = new LocalTypeOrders(
+							getOrdersByTypeID().at(typeID, Collections.emptyList()).mapList(l -> l));
 					cachedOrders.put(typeID, ret2);
 				}
 				return ret2;
@@ -152,7 +150,7 @@ public class RegionalMarket implements IPricing {
 				if (ret2 == null) {
 					boolean isStation = centerId >= 60000000 && centerId <= 61000000;
 					if (isStation) {
-						ret2 = new ProxyRegionalMarket(this, orders.filter(order -> centerId == order.location_id));
+						ret2 = new ProxyRegionalMarket(this, getOrders().filter(order -> centerId == order.location_id));
 					} else {
 						// generate all the systems in range first
 						List<Integer> systemsInRange = new ArrayList<>();
@@ -160,10 +158,10 @@ public class RegionalMarket implements IPricing {
 						if (distance > 0) {
 							R_get_universe_regions_region_id region = ESIStatic.INSTANCE.cache().universe.regions(regionID).get();
 							IntStream.of(region.constellations).parallel()
-									.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache().universe.constellations(ci).get().systems))
+							.flatMap(ci -> IntStream.of(ESIStatic.INSTANCE.cache().universe.constellations(ci).get().systems))
 							.filter(
-											si -> si != centerId
-													&& ESIStatic.INSTANCE.cache().route.get(null, null, centerId, flag.shortest, si)
+									si -> si != centerId
+									&& ESIStatic.INSTANCE.cache().route.get(null, null, centerId, flag.shortest, si)
 									.get().size() <= distance)
 							.forEach(systemsInRange::add);
 						}
@@ -175,7 +173,7 @@ public class RegionalMarket implements IPricing {
 								.flatMapToLong(sys -> IntStream.of(sys.stations).asLongStream())
 								.mapToObj(i -> (Long) i).collect(Collectors.toSet());
 						logger.debug(" corresponding stations are " + stationIds);
-						ret2 = new ProxyRegionalMarket(this, orders.filter(order -> stationIds.contains(order.location_id)));
+						ret2 = new ProxyRegionalMarket(this, getOrders().filter(order -> stationIds.contains(order.location_id)));
 					}
 				}
 				filtered.put(key, ret2);

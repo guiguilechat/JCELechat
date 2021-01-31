@@ -99,7 +99,7 @@ public class Markets {
 			p -> p.adjusted_price);
 
 	public double getAdjusted(int itemId) {
-		return getAdjusteds().getOrDefault(itemId, 0.0);
+		return getAdjusteds().get().getOrDefault(itemId, 0.0);
 	}
 
 	@Getter(lazy = true)
@@ -107,6 +107,6 @@ public class Markets {
 
 
 	public double getAverage(int itemId) {
-		return getAverages().getOrDefault(itemId, 0.0);
+		return getAverages().get().getOrDefault(itemId, 0.0);
 	}
 }

@@ -47,7 +47,7 @@ public class ShowDeathPerShipRatio {
 				index= system.security_status > 0.45 ? 0 : system.security_status > 0.0 ? 1 : 2;
 			}
 
-			R_get_universe_system_kills syskills = kills.get(system.system_id);
+			R_get_universe_system_kills syskills = kills.get().get(system.system_id);
 			if (syskills != null) {
 				npc_kills[index] += syskills.npc_kills;
 				ship_kills[index] += syskills.ship_kills;
@@ -55,7 +55,7 @@ public class ShowDeathPerShipRatio {
 				nokills[index]++;
 			}
 
-			R_get_universe_system_jumps sysjumps = jumps_m.get(system.system_id);
+			R_get_universe_system_jumps sysjumps = jumps_m.get().get(system.system_id);
 			if (sysjumps != null) {
 				jumps[index] += sysjumps.ship_jumps;
 			} else {

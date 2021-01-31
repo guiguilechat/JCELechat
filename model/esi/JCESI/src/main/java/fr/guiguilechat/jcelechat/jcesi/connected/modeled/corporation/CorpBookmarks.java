@@ -35,6 +35,9 @@ public class CorpBookmarks {
 				.toMap(folder -> folder.folder_id);
 	}
 
+	/**
+	 * the tree of folderName->bookmarks
+	 */
 	@Getter(lazy = true)
 	private final ObsMapHolder<String, List<M_get_bookmarks_9>> tree = getBookmarks()
 	.with(getFolders(),

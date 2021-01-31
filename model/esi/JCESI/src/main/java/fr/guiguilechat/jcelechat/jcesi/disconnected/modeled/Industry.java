@@ -33,7 +33,7 @@ public class Industry {
 	 * @return
 	 */
 	public IndustryIndices getSystemIndices(int sysID) {
-		return getSystemIndices().get(sysID);
+		return getSystemIndices().get().get(sysID);
 	}
 
 	/**

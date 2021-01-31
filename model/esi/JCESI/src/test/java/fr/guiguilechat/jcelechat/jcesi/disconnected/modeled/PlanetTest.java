@@ -17,7 +17,7 @@ public class PlanetTest {
 		base.pins = new get_characters_character_id_planets_planet_id_pins[1];
 		info.owner_id = 13;
 
-		ColonyInfo colo = new ColonyInfo(base);
+		ColonyInfo colo = new ColonyInfo(info, base);
 		colo.addInfo(info);
 
 		Assert.assertEquals(colo.pins, base.pins);
