@@ -1,18 +1,11 @@
 package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
 
 import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
-import fr.guiguilechat.jcelechat.jcesi.connected.modeled.character.PI.ColonyInfo;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets_planet_id;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableMap;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -30,10 +23,16 @@ public class PI {
 	 */
 	public static class ColonyInfo extends R_get_characters_character_id_planets_planet_id {
 
-		public ColonyInfo(R_get_characters_character_id_planets_planet_id base) {
-			for (Field f : base.getClass().getFields()) {
+		public ColonyInfo(R_get_characters_character_id_planets info,
+				R_get_characters_character_id_planets_planet_id base) {
+			addInfo(base);
+			addInfo(info);
+		}
+
+		public void addInfo(R_get_characters_character_id_planets_planet_id data) {
+			for (Field f : data.getClass().getFields()) {
 				try {
-					f.set(this, f.get(base));
+					f.set(this, f.get(data));
 				} catch (IllegalArgumentException | IllegalAccessException e) {
 					throw new UnsupportedOperationException("catch this", e);
 				}
@@ -64,56 +63,10 @@ public class PI {
 	private final ObsMapHolder<Object, R_get_characters_character_id_planets> planetsList = account.connection()
 	.cache().characters.planets(account.characterId()).toMap(p -> p.planet_id);
 
-	{
-		getPlanetslist().
-	}
-
-	public ObsMapHolder<Integer, ColonyInfo> getXXPlanets() {
-		if (planets == null) {
-			synchronized (this) {
-				if (planets == null) {
-					ObservableMap<Integer, ColonyInfo> mcol = FXCollections.observableHashMap();
-					planets = new ObsMapHolderImpl<>(mcol);
-					account.connection().cache().characters.planets(account.characterId()).followItems(c -> {
-						HashSet<Integer> removed = new HashSet<>();
-						List<R_get_characters_character_id_planets> added = new ArrayList<>();
-						while (c.next()) {
-							if (c.wasRemoved()) {
-								for (R_get_characters_character_id_planets e1 : c.getRemoved()) {
-									removed.add(e1.planet_id);
-								}
-							}
-							if (c.wasAdded()) {
-								for (R_get_characters_character_id_planets e2 : c.getAddedSubList()) {
-									if (!removed.remove(e2.planet_id)) {
-										added.add(e2);
-									}
-								}
-							}
-						}
-						mcol.keySet().removeAll(removed);
-						for (R_get_characters_character_id_planets a : added) {
-							account.connection().cache().characters.planets(account.characterId(), a.planet_id)
-							.follow((newValue) -> {
-								if (newValue == null) {
-									synchronized (mcol) {
-										mcol.remove(a.planet_id);
-									}
-								} else {
-									ColonyInfo added1 = new ColonyInfo(newValue);
-									added1.addInfo(a);
-									synchronized (mcol) {
-										mcol.put(a.planet_id, added1);
-									}
-								}
-							});
-						}
-					});
-					account.connection().cache().characters.planets(account.characterId()).follow((l) -> planets.dataReceived());
-				}
-			}
-		}
-		return planets;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, ColonyInfo> colonies = getPlanetsList()
+	.values().unpackItems(info -> account().connection().cache().characters
+			.planets(account().characterId(), info.planet_id).map(data -> new ColonyInfo(info, data)))
+	.toMap(ci -> ci.planet_id);
 
 }
