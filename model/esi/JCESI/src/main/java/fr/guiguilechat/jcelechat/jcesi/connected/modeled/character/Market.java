@@ -38,22 +38,20 @@ public class Market {
 	private final ObsSetHolder<Long> orderIds = getOrders().mapItems(order -> order.order_id).distinct();
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, Integer> sOs = makeSOs();
+	private final ObsMapHolder<Integer, Long> sOs = makeSOs();
 
-	protected ObsMapHolder<Long, Integer> makeSOs() {
-		return getOrders().filter(order -> !order.is_buy_order).mapMap(
-				l -> l.stream().collect(
-						Collectors.groupingBy(or -> (long) or.type_id, Collectors.summingInt(order -> order.volume_remain))));
+	protected ObsMapHolder<Integer, Long> makeSOs() {
+		return getOrders().filter(order -> !order.is_buy_order).mapMap(l -> l.stream()
+				.collect(Collectors.groupingBy(or -> or.type_id, Collectors.summingLong(order -> order.volume_remain))));
 	}
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, Integer> bOs = makeBOs();
+	private final ObsMapHolder<Integer, Long> bOs = makeBOs();
 
-	protected ObsMapHolder<Long, Integer> makeBOs() {
+	protected ObsMapHolder<Integer, Long> makeBOs() {
 		return getOrders().filter(order -> order.is_buy_order).mapMap(l -> l.stream()
-				.collect(Collectors.groupingBy(or -> (long) or.type_id, Collectors.summingInt(order -> order.volume_remain))));
+				.collect(Collectors.groupingBy(or -> or.type_id, Collectors.summingLong(order -> order.volume_remain))));
 	}
-
 
 	//
 	// public market orders on structures
@@ -72,10 +70,8 @@ public class Market {
 							.collect(Collectors.toSet());
 
 					ObsSetHolder<Long> structIdInRegion = con.universe.publicStructures(filter.market)
-							.filter(null,
-									stru -> allowedConstels
-									.contains(
-											ESIAccess.INSTANCE.universe.cache().systems(stru.solar_system_id).get().constellation_id))
+							.filter(null, stru -> allowedConstels
+									.contains(ESIAccess.INSTANCE.universe.cache().systems(stru.solar_system_id).get().constellation_id))
 							.keys();
 					ObsCollectionHolder<R_get_markets_region_id_orders, ?> publicStructureOrders = structIdInRegion
 							.flatten(structid -> {
