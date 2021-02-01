@@ -13,7 +13,6 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
 import fr.lelouet.collectionholders.interfaces.collections.ObsCollectionHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
 import lombok.Getter;
@@ -31,17 +30,15 @@ public class Market {
 	//
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_characters_character_id_orders> orders = con.connection().cache().characters
-	.orders(con.characterId());
+	private final ObsMapHolder<Long, R_get_characters_character_id_orders> orders = con.connection().cache().characters
+	.orders(con.characterId()).toMap(o -> o.order_id);
 
-	@Getter(lazy = true)
-	private final ObsSetHolder<Long> orderIds = getOrders().mapItems(order -> order.order_id).distinct();
 
 	@Getter(lazy = true)
 	private final ObsMapHolder<Integer, Long> sOs = makeSOs();
 
 	protected ObsMapHolder<Integer, Long> makeSOs() {
-		return getOrders().filter(order -> !order.is_buy_order).mapMap(l -> l.stream()
+		return getOrders().values().filter(order -> !order.is_buy_order).mapMap(l -> l.stream()
 				.collect(Collectors.groupingBy(or -> or.type_id, Collectors.summingLong(order -> order.volume_remain))));
 	}
 
@@ -49,7 +46,7 @@ public class Market {
 	private final ObsMapHolder<Integer, Long> bOs = makeBOs();
 
 	protected ObsMapHolder<Integer, Long> makeBOs() {
-		return getOrders().filter(order -> order.is_buy_order).mapMap(l -> l.stream()
+		return getOrders().values().filter(order -> order.is_buy_order).mapMap(l -> l.stream()
 				.collect(Collectors.groupingBy(or -> or.type_id, Collectors.summingLong(order -> order.volume_remain))));
 	}
 
