@@ -40,7 +40,7 @@ public class CorpBookmarks {
 	 */
 	@Getter(lazy = true)
 	private final ObsMapHolder<String, List<M_get_bookmarks_9>> tree = getBookmarks()
-	.with(getFolders(),
+	.combine(getFolders(),
 			(bms, fds) -> bms.values().stream().collect(Collectors.groupingBy(b -> fds.get(b.folder_id).name)))
 	.mapMap(m -> m);
 
