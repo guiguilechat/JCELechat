@@ -34,6 +34,7 @@ import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_TYPE;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Corporation;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer.ItemRef;
+import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 
 public class NPCsTranslater {
@@ -98,10 +99,9 @@ public class NPCsTranslater {
 
 		// prefetch
 		ObsMapHolder<Integer, R_get_corporations_corporation_id>
-		corporationsHolder = cache.corporations.npccorps()
-		.peek(l -> {
-			l.parallelStream().forEach(cache.corporations::get);
-		}).toMap(i -> i, i -> cache.corporations.get(i).get());
+		corporationsHolder = ((ObsListHolder<Integer>) cache.corporations.npccorps().follow(l -> {
+					l.parallelStream().forEach(cache.corporations::get);
+				})).toMap(i -> i, i -> cache.corporations.get(i).get());
 		ObsMapHolder<Integer, R_get_universe_factions> factionsHolder = cache.universe.factions().toMap(f -> f.faction_id);
 		eagents.values().parallelStream().map(ag -> ag.locationID).distinct()
 		.forEach(lid -> Location.resolve(null, lid).system());

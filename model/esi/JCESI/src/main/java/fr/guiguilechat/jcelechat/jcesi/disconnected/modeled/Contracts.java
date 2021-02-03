@@ -55,12 +55,12 @@ public class Contracts {
 			synchronized (cacheRegionContracts) {
 				ret = cacheRegionContracts.get(regionId);
 				if (ret == null) {
-					ret = raws.peek(map -> {
+					ret = ((ObsListHolder<R_get_contracts_public_region_id>) raws.follow(map -> {
 						for (R_get_contracts_public_region_id cid : map) {
 							ESIStatic.INSTANCE.cache().contracts.public_items(cid.contract_id);
 							ESIStatic.INSTANCE.cache().contracts.public_bids(cid.contract_id);
 						}
-					}).mapItems(c -> new ContractDesc(c, ESIStatic.INSTANCE.cache().contracts.public_items(c.contract_id).get(),
+					})).mapItems(c -> new ContractDesc(c, ESIStatic.INSTANCE.cache().contracts.public_items(c.contract_id).get(),
 							ESIStatic.INSTANCE.cache().contracts.public_bids(c.contract_id).get()));
 					cacheRegionContracts.put(regionId, ret);
 				}
@@ -85,11 +85,12 @@ public class Contracts {
 			synchronized (cacheRegionContracts) {
 				ret = cacheRegionItemExchanges.get(regionId);
 				if (ret == null) {
-					ret = raws.filter(c -> c.type == get_contracts_public_region_id_type.item_exchange).peek(map -> {
+					ret = ((ObsListHolder<R_get_contracts_public_region_id>) raws
+							.filter(c -> c.type == get_contracts_public_region_id_type.item_exchange).follow(map -> {
 						for (R_get_contracts_public_region_id cid : map) {
 							ESIStatic.INSTANCE.cache().contracts.public_items(cid.contract_id);
 						}
-					}).mapItems(
+							})).mapItems(
 							c -> new ContractDesc(c, ESIStatic.INSTANCE.cache().contracts.public_items(c.contract_id).get(), null));
 					cacheRegionItemExchanges.put(regionId, ret);
 				}
