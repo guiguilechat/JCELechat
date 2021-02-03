@@ -38,6 +38,8 @@ import fr.guiguilechat.jcelechat.jcesi.impl.RequestedImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
+import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
+import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;
@@ -512,7 +514,7 @@ public abstract class ConnectedImpl implements ITransfer {
 									try {
 										cacheHandler.accept(res.getOK());
 									} catch (Exception e) {
-										logger.warn("for " + res.getURL(), e);
+										logger.warn("for " + res.getURL() + " res=" + res.getOK(), e);
 									}
 								} else if (res.isClientError() && res.getResponseCode() != 420) {
 									logger.debug(loggingName + " setting null in cache for request response type " + res.getError());
@@ -583,25 +585,20 @@ public abstract class ConnectedImpl implements ITransfer {
 			if (requiredRoles == null || requiredRoles.length == 0) {
 				resume();
 			} else {
-				ObservableBooleanValue hasRolesVar = bindContains(getRoles(), requiredRoles);
-				hasRolesVar.addListener((ob, old, now) -> {
-					if (now) {
+				ObsBoolHolder hasRoleVar = getRoles()
+						.test(set -> Stream.of(requiredRoles).filter(set::contains).findAny().isPresent());
+				hasRoleVar.follow(b -> {
+					if (b) {
 						resume();
 					} else {
 						pause();
 					}
 				});
-
-				if (hasRolesVar.get()) {
-					resume();
-				} else {
-					pause();
-				}
 			}
 		}
 	}
 
-	public abstract ObservableSet<String> getRoles();
+	public abstract ObsSetHolder<String> getRoles();
 
 	@SuppressWarnings("unchecked")
 	public static <T> ObservableBooleanValue bindContains(ObservableSet<T> set, T... values) {

@@ -62,7 +62,6 @@ public class Industry {
 	private final ObsListHolder<R_get_corporations_corporation_id_industry_jobs> inventJobs = getActiveJobs()
 	.filter(Industry::isInvention);
 
-
 	/**
 	 * map from type id to the invention amount for that type. Since we can only
 	 * invent bpc, it means the key is blueprint ids.
@@ -88,9 +87,8 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private  final ObsListHolder<R_get_corporations_corporation_id_industry_jobs> productionJobs = getActiveJobs()
+	private final ObsListHolder<R_get_corporations_corporation_id_industry_jobs> productionJobs = getActiveJobs()
 	.filter(Industry::isManufacture);
-
 
 	private ObsMapHolder<Integer, Long> cacheProduction = null;
 
@@ -157,7 +155,5 @@ public class Industry {
 	@Getter(lazy = true)
 	private final ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> blueprints = con.connection()
 	.cache().corporations.blueprints(con.corporation.getId()).toMap(b -> b.item_id, b -> b);
-
-
 
 }

@@ -2,8 +2,8 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_IDCAccess;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableSet;
+import fr.lelouet.collectionholders.impl.collections.ObsSetHolderImpl;
+import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -22,9 +22,7 @@ public class ESIStatic extends ConnectedImpl implements G_IDCAccess {
 	private ESIStatic() {
 	}
 
-	@Override
-	public ObservableSet<String> getRoles() {
-		return FXCollections.emptyObservableSet();
-	};
+	@Getter(lazy=true)
+	private final ObsSetHolder<String> roles=ObsSetHolderImpl.of();
 
 }

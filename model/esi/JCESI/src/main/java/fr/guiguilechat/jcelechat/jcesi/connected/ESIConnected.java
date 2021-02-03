@@ -2,8 +2,6 @@ package fr.guiguilechat.jcelechat.jcesi.connected;
 
 import java.util.Arrays;
 import java.util.Map;
-import java.util.Set;
-import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.jcesi.ConnectedImpl;
 import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper;
@@ -12,8 +10,7 @@ import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableSet;
+import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -124,20 +121,10 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 	// getting the roles
 
 	@Getter(lazy = true)
-	private final ObservableSet<String> roles = makeRoles();
+	private final ObsSetHolder<String> roles = makeRoles();
 
-	protected ObservableSet<String> makeRoles() {
-		ObsObjHolder<R_get_characters_character_id_roles> r = cache.characters.roles(verify().CharacterID);
-		ObservableSet<String> ret = FXCollections.observableSet();
-		r.follow((newroles) -> {
-			synchronized (ret) {
-				Set<String> roleslist = Arrays.asList(newroles.roles).stream().map(role -> role.toString)
-						.collect(Collectors.toSet());
-				ret.retainAll(roleslist);
-				ret.addAll(roleslist);
-				log.debug("new roles for " + verify().CharacterName + " are " + ret);
-			}
-		});
-		return ret;
+	protected ObsSetHolder<String> makeRoles() {
+		ObsObjHolder<R_get_characters_character_id_roles> rawroles = cache.characters.roles(verify().CharacterID);
+		return rawroles.toSet(rr -> Arrays.asList(rr.roles)).mapItems(r -> r.toString).distinct();
 	}
 }
