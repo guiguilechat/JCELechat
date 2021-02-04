@@ -9,6 +9,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -390,7 +391,14 @@ public abstract class ConnectedImpl implements ITransfer {
 	 * </p>
 	 *
 	 */
-	public abstract class SelfExecutableFetcher<T> implements Runnable, Pausable {
+	public abstract class SelfExecutableFetcher<T> implements Runnable, Pausable, Consumer<Object> {
+
+		LinkedList<Object> strongRefs = new LinkedList<>();
+
+		@Override
+		public void accept(Object t) {
+			strongRefs.add(t);
+		}
 
 		protected final Consumer<T> cacheHandler;
 
@@ -593,10 +601,11 @@ public abstract class ConnectedImpl implements ITransfer {
 					} else {
 						pause();
 					}
-				});
+				}, this);
 			}
 		}
 	}
+
 
 	public abstract ObsSetHolder<String> getRoles();
 

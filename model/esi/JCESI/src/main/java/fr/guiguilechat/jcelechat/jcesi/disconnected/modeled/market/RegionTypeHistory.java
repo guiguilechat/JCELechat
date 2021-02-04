@@ -314,7 +314,7 @@ public class RegionTypeHistory {
 		history.follow((l) -> {
 			List<R_get_markets_region_id_history> list = withinDays(l, maxDays).collect(Collectors.toList());
 			ret.set(list);
-		});
+		}, ret);
 		return ret;
 	}
 
