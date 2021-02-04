@@ -37,11 +37,25 @@ public class Attributes {
 	private final ObsIntHolder charisma = values().mapInt(att -> att.charisma);
 
 	/**
+	 * true when charisma has highest value of attributes
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsBoolHolder isCharHighest = charisma().eq(highest());
+
+	/**
 	 * the value of the intelligence attribute
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final ObsIntHolder intelligence = values().mapInt(att -> att.intelligence);
+
+	/**
+	 * true when intelligence has highest value of attributes
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsBoolHolder isIntHighest = intelligence().eq(highest());
 
 	/**
 	 * the value of the memory attribute
@@ -51,6 +65,13 @@ public class Attributes {
 	private final ObsIntHolder memory = values().mapInt(att -> att.memory);
 
 	/**
+	 * true when memory has highest value of attributes
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsBoolHolder isMemHighest = memory().eq(highest());
+
+	/**
 	 * the value of the perception attribute
 	 */
 	@Getter(lazy = true)
@@ -58,11 +79,25 @@ public class Attributes {
 	private final ObsIntHolder perception = values().mapInt(att -> att.perception);
 
 	/**
+	 * true when perception has highest value of attributes
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsBoolHolder isPerHighest = perception().eq(highest());
+
+	/**
 	 * the value of the willpower attribute
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final ObsIntHolder willpower = values().mapInt(att -> att.willpower);
+
+	/**
+	 * true when willpower has highest value of attributes
+	 */
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final ObsBoolHolder isWilHighest = willpower().eq(highest());
 
 	/**
 	 * the int list of the attributes values, sorted increasing.
@@ -164,6 +199,41 @@ public class Attributes {
 	 */
 	public int getAttribute(int attID) {
 		return getAttribute(attID, values().get());
+	}
+
+	public ObsBoolHolder isAttributeHighest(int attID) {
+		switch (attID) {
+		case 164:
+			return isCharHighest();
+		case 165:
+			return isIntHighest();
+		case 166:
+			return isMemHighest();
+		case 167:
+			return isPerHighest();
+		case 168:
+			return isWilHighest();
+		default:
+			throw new UnsupportedOperationException("not handled " + attID);
+		}
+	}
+
+	public static String of(int attID) {
+		switch (attID) {
+		case 164:
+			return "charism";
+		case 165:
+			return "intelligence";
+		case 166:
+			return "memory";
+		case 167:
+			return "perception";
+		case 168:
+			return "willpower";
+		default:
+			throw new UnsupportedOperationException("not handled " + attID);
+		}
+
 	}
 
 }
