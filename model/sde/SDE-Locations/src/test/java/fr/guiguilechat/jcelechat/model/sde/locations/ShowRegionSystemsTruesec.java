@@ -9,8 +9,8 @@ import java.util.stream.Stream;
 public class ShowRegionSystemsTruesec {
 
 	public static void main(String[] args) {
-		Collection<String> regionNames = Region.EMPIRE_BLOODS;
-		boolean nexts = false;
+		Collection<String> regionNames = Region.EMPIRE_GURISTAS;
+		boolean nexts = true;
 		if (args != null && args.length > 0 && args[0].length() > 0) {
 			regionNames = Arrays.asList(args);
 		}

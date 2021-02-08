@@ -138,6 +138,11 @@ public class Region extends ALocation {
 	public static final Set<String> EMPIRE_SERPENTIS = Collections.unmodifiableSet(
 			new HashSet<>(Arrays.asList("Essence", "Everyshore", "Placid", "Sinq Laison", "Solitude", "Verge Vendor")));
 
+	public static final Set<String> EMPIRE = Collections.unmodifiableSet(Stream
+			.concat(Stream.concat(EMPIRE_ANGELS.stream(), EMPIRE_BLOODS.stream()),
+					Stream.concat(EMPIRE_GURISTAS.stream(), Stream.concat(EMPIRE_SANSHAS.stream(), EMPIRE_SERPENTIS.stream())))
+			.collect(Collectors.toSet()));
+
 	public static enum EMPIRE_FACTIONS {
 		all {
 			@Override
@@ -201,10 +206,5 @@ public class Region extends ALocation {
 			return of(sys.region);
 		}
 	}
-
-	public static final Set<String> EMPIRE = Collections.unmodifiableSet(Stream
-			.concat(Stream.concat(EMPIRE_ANGELS.stream(), EMPIRE_BLOODS.stream()),
-					Stream.concat(EMPIRE_GURISTAS.stream(), Stream.concat(EMPIRE_SANSHAS.stream(), EMPIRE_SERPENTIS.stream())))
-			.collect(Collectors.toSet()));
 
 }

@@ -16,15 +16,14 @@ import fr.guiguilechat.jcelechat.model.sde.locations.route.PredicateRouter;
  */
 public class Distances {
 
-	protected HashMap<String, HashMap<String, Integer>> cachedSysDistances = new HashMap<>();
-	protected HashMap<String, HashMap<String, Integer>> cachedConstelDistances = new HashMap<>();
+	protected static HashMap<String, HashMap<String, Integer>> cachedSysDistances = new HashMap<>();
 
 	/**
 	 * @param sys1
 	 * @param sys2
 	 * @return the minimum distance, in jumps, to make to reach sys1 from sys2
 	 */
-	public int between(SolarSystem sys1, SolarSystem sys2) {
+	public static int between(SolarSystem sys1, SolarSystem sys2) {
 		if (sys1 == null || sys2 == null) {
 			return Integer.MAX_VALUE;
 		}
@@ -57,7 +56,7 @@ public class Distances {
 	 *          set of system locations
 	 * @return
 	 */
-	public int distJumps(SolarSystem sys1, SolarSystem sys2) {
+	public static int distJumps(SolarSystem sys1, SolarSystem sys2) {
 		// dont consider we can jump to a system in this set
 		Set<SolarSystem> visited = new HashSet<>(Arrays.asList(sys1));
 

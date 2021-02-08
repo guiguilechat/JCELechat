@@ -45,7 +45,6 @@ public class AnalyzeBurnersDest {
 	}
 
 	public void analyze(String[] args) throws FileNotFoundException {
-		Distances d = new Distances();
 		File inDir = new File(args[0]);
 		HashMap<String, Integer> types2index = new HashMap<>();
 		for (int idx = 0; idx < types.length; idx++) {
@@ -86,14 +85,14 @@ public class AnalyzeBurnersDest {
 					.systems) {
 				possibleSystemNames.add(sname);
 				possibleSystemCJumps.add(0);
-				possibleSystemJumps.add(d.distJumps(origin, systems.get(sname)));
+				possibleSystemJumps.add(Distances.distJumps(origin, systems.get(sname)));
 			}
 			// for each neighborgh constellation
 			for (String cname : constels.get(origin.constellation).adjacentConstellations) {
 				for (String sname : constels.get(cname).systems) {
 					possibleSystemNames.add(sname);
 					possibleSystemCJumps.add(1);
-					possibleSystemJumps.add(d.distJumps(origin, systems.get(sname)));
+					possibleSystemJumps.add(Distances.distJumps(origin, systems.get(sname)));
 				}
 			}
 
