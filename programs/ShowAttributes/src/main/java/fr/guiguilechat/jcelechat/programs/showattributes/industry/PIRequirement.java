@@ -1,5 +1,6 @@
 package fr.guiguilechat.jcelechat.programs.showattributes.industry;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -8,6 +9,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
+import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import fr.guiguilechat.jcelechat.model.sde.EveType;
 import fr.guiguilechat.jcelechat.model.sde.TypeIndex;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
@@ -19,19 +23,59 @@ import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryCommodities;
 
 public class PIRequirement {
 
+	public static class MonthEval {
+
+		private final RegionalMarket rm;
+
+		private final LocalDate start;
+
+		public MonthEval(RegionalMarket rm, LocalDate start) {
+			this.rm = rm;
+			this.start = start;
+		}
+
+		public long volume(int id) {
+			List<R_get_markets_region_id_history> history = rm.getHistory(id).limit(start, start.plusMonths(1));
+			return history.stream().mapToLong(h -> h.volume).sum();
+		}
+
+		public double avgPrice(int id) {
+			List<R_get_markets_region_id_history> history = rm.getHistory(id).limit(start, start.plusMonths(1));
+			long vol = history.stream().mapToLong(h -> h.volume).sum();
+			double isks = history.stream().mapToDouble(h -> h.average * h.volume).sum();
+			return isks / vol;
+		}
+
+		public double value(int id, Map<Integer, Float> requirements) {
+			return requirements.entrySet().parallelStream().mapToDouble(e -> e.getValue() * avgPrice(e.getKey())).sum()
+					* volume(id);
+		}
+
+		public void load(int id) {
+			rm.getHistory(id);
+		}
+	}
+
 	public static void main(String[] args) {
 		PlanetaryCommodities[] PIItems = PlanetaryCommodities.METACAT.load().values().stream()
 				.toArray(PlanetaryCommodities[]::new);
-		System.out.print("\t\t");
+		MonthEval monthVol = new MonthEval(ESIAccess.INSTANCE.markets.getMarket(10000002), LocalDate.now().minusMonths(1));
+		MonthEval yearVol = new MonthEval(ESIAccess.INSTANCE.markets.getMarket(10000002),
+				LocalDate.now().minusYears(1));
+
+		System.out.print("\t\t\t\t\t\t");
 		for (PlanetaryCommodities pc : PIItems) {
 			System.out.print("\t" + pc.name);
 		}
 		System.out.println();
-		System.out.print("id\tname\t");
+		System.out.print("id\tname\tmonthVol\t-1yVol\tiskMonth\tisk-1y");
 		for (PlanetaryCommodities pc : PIItems) {
 			System.out.print("\t" + pc.id);
+			monthVol.load(pc.id);
+			yearVol.load(pc.id);
 		}
 		System.out.println();
+
 		Map<MaterialProd<?>, Map<Integer, Float>> requirements = new HashMap<>();
 		for (Blueprint bp : Blueprint.load().values()) {
 			if (bp.manufacturing != null && bp.manufacturing.materials != null && !bp.manufacturing.materials.isEmpty()) {
@@ -42,6 +86,8 @@ public class PIRequirement {
 								.filter(type -> type.getCategory() == PlanetaryCommodities.METACAT)
 								.findAny().isPresent()) {
 							requirements.put(pr, reqs);
+							monthVol.load(pr.id);
+							yearVol.load(pr.id);
 						}
 					}
 				}
@@ -52,8 +98,11 @@ public class PIRequirement {
 		Collections.sort(entries, Comparator.comparing(e -> e.getKey().name()));
 
 		for (Entry<MaterialProd<?>, Map<Integer, Float>> e : entries) {
-			System.out.print("" + e.getKey().id + "\t" + e.getKey().name());
+			int id = e.getKey().id;
 			Map<Integer, Float> reqs = e.getValue();
+			System.out.print(
+					"" + id + "\t" + e.getKey().name() + "\t" + monthVol.volume(id) + "\t" + yearVol.volume(id) + "\t"
+							+ monthVol.value(id, reqs) + "\t" + yearVol.value(id, reqs));
 			for (PlanetaryCommodities pc : PIItems) {
 				System.out.print("\t" + String.format("%.2f", reqs.getOrDefault(pc.id, 0.0f)));
 			}

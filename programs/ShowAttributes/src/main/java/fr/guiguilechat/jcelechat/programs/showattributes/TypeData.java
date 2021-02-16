@@ -10,6 +10,12 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_effects;
 
+/**
+ * try to get a common interface for all the entities. This provide common
+ * methods to interpret an ESI type data , and should be extended to present
+ * specific data about a type based on those methods.
+ *
+ */
 public interface TypeData {
 
 	public String apply(R_get_universe_types_type_id type, Map<Integer, Double> attIdToValue,

@@ -338,4 +338,17 @@ public class RegionTypeHistory {
 	 */
 	public final LimitedHistory yearly = new LimitedHistory(365);
 
+	public ObsListHolder<R_get_markets_region_id_history> history() {
+		return history;
+	}
+
+	public List<R_get_markets_region_id_history> limit(String minDate, String maxDate) {
+		return history.get().stream().filter(h -> h.date.compareTo(minDate) >= 0 && h.date.compareTo(maxDate) <= 0)
+				.collect(Collectors.toList());
+	}
+
+	public List<R_get_markets_region_id_history> limit(LocalDate minDate, LocalDate maxDate) {
+		return limit(minDate.format(DateTimeFormatter.ISO_LOCAL_DATE), maxDate.format(DateTimeFormatter.ISO_LOCAL_DATE));
+	}
+
 }
