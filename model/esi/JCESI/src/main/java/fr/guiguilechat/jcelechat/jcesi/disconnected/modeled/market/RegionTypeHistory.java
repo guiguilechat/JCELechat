@@ -186,7 +186,7 @@ public class RegionTypeHistory {
 			if (ret == null) {
 				ObsListHolder<Long> volumes = getSortedVolumes();
 				ret = LockWatchDog.BARKER.syncExecute(cachedBestVolumes, () -> {
-					ObsLongHolder ret2 = cachedBestVolumes.get(offsetPct).mapLong(l -> l);
+					ObsLongHolder ret2 = cachedBestVolumes.get(offsetPct);
 					if (ret2 == null) {
 						ret2 = volumes.mapLong(l -> {
 							if (l.size() > 0) {
