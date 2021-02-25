@@ -123,6 +123,7 @@ public class Region extends ALocation {
 		return constellations.stream().map(Constellation::getConstellation).flatMap(c -> c.systems.stream());
 	}
 
+
 	public static final Set<String> EMPIRE_ANGELS = Collections
 			.unmodifiableSet(new HashSet<>(Arrays.asList("Heimatar", "Metropolis", "Molden Heath")));
 
@@ -144,6 +145,7 @@ public class Region extends ALocation {
 			.collect(Collectors.toSet()));
 
 	public static enum EMPIRE_FACTIONS {
+
 		all {
 			@Override
 			public Set<String> regions() {
@@ -155,11 +157,31 @@ public class Region extends ALocation {
 			public Set<String> regions() {
 				return EMPIRE_ANGELS;
 			}
+
+			@Override
+			public int escalHideway() {
+				return -1;
+			}
+
+			@Override
+			public int escalRefuge() {
+				return 5;
+			}
 		},
 		bloods {
 			@Override
 			public Set<String> regions() {
 				return EMPIRE_BLOODS;
+			}
+
+			@Override
+			public int escalHideway() {
+				return -1;
+			}
+
+			@Override
+			public int escalRefuge() {
+				return 4;
 			}
 		},
 		guristas {
@@ -180,6 +202,39 @@ public class Region extends ALocation {
 				return EMPIRE_SERPENTIS;
 			}
 		};
+
+		public int escalDen() {
+			return 5;
+		}
+
+		public int escalRefuge() {
+			return 3;
+		}
+
+		public int escalHideway() {
+			return 3;
+		}
+
+		public int escalBurrow() {
+			return -1;
+		}
+
+		public int escals(SolarSystem target) {
+			int res = 0;
+			if (escalBurrow() > 0 && target.truesec > 0.85) {
+				res++;
+			}
+			if (escalHideway() > 0 && target.truesec > 0.55) {
+				res++;
+			}
+			if (escalRefuge() > 0 && target.truesec > 0.45 && target.truesec <= 0.95) {
+				res++;
+			}
+			if (escalDen() > 0 && target.truesec > 0.45 && target.truesec <= 0.65) {
+				res++;
+			}
+			return res;
+		}
 
 		public abstract Set<String> regions();
 
