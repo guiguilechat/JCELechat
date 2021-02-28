@@ -154,4 +154,29 @@ public class SolarSystem extends ALocation {
 		return name;
 	}
 
+	/**
+	 *
+	 * @param target
+	 * @param ded3Val
+	 * @param ded4Val
+	 * @param ded5Val
+	 * @return the sum of the anoms values.
+	 */
+	public float value(float burrow, float hideway, float refuge, float den) {
+		float ret = 0;
+		if (truesec > 0.85) {
+			ret += burrow;
+		}
+		if (truesec > 0.55) {
+			ret += hideway;
+		}
+		if (truesec > 0.45 && truesec <= 0.95) {
+			ret += refuge;
+		}
+		if (truesec > 0.45 && truesec <= 0.65) {
+			ret += den;
+		}
+		return ret;
+	}
+
 }

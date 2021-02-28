@@ -123,7 +123,6 @@ public class Region extends ALocation {
 		return constellations.stream().map(Constellation::getConstellation).flatMap(c -> c.systems.stream());
 	}
 
-
 	public static final Set<String> EMPIRE_ANGELS = Collections
 			.unmodifiableSet(new HashSet<>(Arrays.asList("Heimatar", "Metropolis", "Molden Heath")));
 
