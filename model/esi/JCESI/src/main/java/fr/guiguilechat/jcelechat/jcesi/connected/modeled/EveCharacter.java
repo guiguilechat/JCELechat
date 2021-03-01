@@ -204,7 +204,6 @@ public class EveCharacter {
 	protected ObsIntHolder makeMaxReactionSlots() {
 		ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
 		return cskills.at(45749, 0).mapInt(i -> i).add(cskills.at(45748, 0).mapInt(i -> i)).add(1);
-
 	}
 
 	/**
@@ -235,8 +234,6 @@ public class EveCharacter {
 	/**
 	 * get the assets and production of a character
 	 *
-	 * @param account
-	 *          the account of a character
 	 * @return the map of itemid to qtty for each assets this character owns.
 	 */
 	public Map<Integer, Long> getAssetsProd() {

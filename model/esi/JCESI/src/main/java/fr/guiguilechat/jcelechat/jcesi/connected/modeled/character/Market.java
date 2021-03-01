@@ -35,7 +35,7 @@ public class Market {
 
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, Long> sOs = makeSOs();
+	private final ObsMapHolder<Integer, Long> SOs = makeSOs();
 
 	protected ObsMapHolder<Integer, Long> makeSOs() {
 		return getOrders().values().filter(order -> !order.is_buy_order).mapMap(l -> l.stream()
@@ -43,7 +43,7 @@ public class Market {
 	}
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, Long> bOs = makeBOs();
+	private final ObsMapHolder<Integer, Long> BOs = makeBOs();
 
 	protected ObsMapHolder<Integer, Long> makeBOs() {
 		return getOrders().values().filter(order -> order.is_buy_order).mapMap(l -> l.stream()

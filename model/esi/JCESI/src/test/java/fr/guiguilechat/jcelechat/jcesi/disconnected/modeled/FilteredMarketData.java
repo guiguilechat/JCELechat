@@ -12,8 +12,8 @@ public class FilteredMarketData {
 		RegionalMarket basemarket = ESIAccess.INSTANCE.markets.getMarket(theforge);
 		IPricing jitamarket = basemarket.filter(jita, 0, false);
 		System.err
-				.println("sell orders in theforge" + basemarket.getMarketOrders(scorchbomb).listSellOrders().size().get());
-		System.err.println("sell orders in jita" + jitamarket.getMarketOrders(scorchbomb).listSellOrders().size().get());
+		.println("sell orders in theforge" + basemarket.getMarketOrders(scorchbomb).getSellOrders().size().get());
+		System.err.println("sell orders in jita" + jitamarket.getMarketOrders(scorchbomb).getSellOrders().size().get());
 	}
 
 }

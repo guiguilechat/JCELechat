@@ -51,7 +51,6 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 		props.put("Authorization", "Bearer " + getAccessToken());
 	}
 
-
 	public static class R_Verify {
 		public int CharacterID;
 		public String CharacterName;
@@ -67,8 +66,6 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 		}
 	}
 
-	private R_Verify verify;
-
 	public static final R_Verify NULLVERIFY = new R_Verify() {
 		{
 			CharacterID = 0;
@@ -81,25 +78,22 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 		}
 	};
 
-	public R_Verify verify() {
-		if (verify == null) {
-			synchronized (this) {
-				if (verify == null) {
-					if (isNull()) {
-						verify = NULLVERIFY;
-					} else {
-						Requested<R_Verify> req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
-						while (req.isServerError() || req.getResponseCode() == 401) {
-							log.warn("got error " + req.getError());
-							req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
-						}
-						verify = req.getOKOr(null);
-					}
-					log.debug("got verification " + verify + " for refresh " + refreshToken);
-				}
+	@Getter(lazy = true)
+	@Accessors(fluent = true)
+	private final R_Verify verify = makeVerify();
+
+	public R_Verify makeVerify() {
+		if (isNull()) {
+			return NULLVERIFY;
+		} else {
+			Requested<R_Verify> req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
+			while (req.isServerError() || req.getResponseCode() == 401) {
+				log.warn("got error " + req.getError());
+				req = requestGet("https://login.eveonline.com/oauth/verify", null, R_Verify.class);
 			}
+			log.debug("got verification " + req.getOK() + " for refresh " + refreshToken);
+			return req.getOK();
 		}
-		return verify;
 	}
 
 	@Override

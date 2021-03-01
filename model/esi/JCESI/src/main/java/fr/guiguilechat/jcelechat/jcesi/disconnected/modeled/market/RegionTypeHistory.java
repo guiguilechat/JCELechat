@@ -20,6 +20,8 @@ import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 /**
  * contains the orders history of an item in a region<br />
@@ -59,111 +61,59 @@ public class RegionTypeHistory {
 
 	// limited history over a max given number of days.
 
+	@RequiredArgsConstructor
 	public class LimitedHistory {
 
 		public final int days;
 
-		public LimitedHistory(int days) {
-			this.days = days;
-		}
-
-		private ObsListHolder<R_get_markets_region_id_history> cacheData = null;
+		/**
+		 *
+		 * @return the list of day history, limited.
+		 */
+		@Getter(lazy = true)
+		private final ObsListHolder<R_get_markets_region_id_history> data = limitData(days);
 
 		/**
 		 *
-		 * @return the cached observable list of day history, limited.
+		 * the average sale value over the limit.
 		 */
-		public ObsListHolder<R_get_markets_region_id_history> getData() {
-			if (cacheData == null) {
-				synchronized (this) {
-					if (cacheData == null) {
-						cacheData = limitData(days);
-					}
-				}
-			}
-			return cacheData;
-		}
-
-		private ObsDoubleHolder cacheAverage = null;
+		@Getter(lazy = true)
+		private final ObsDoubleHolder average = getData().mapDouble(
+				l -> l.stream().mapToDouble(h -> h.average * h.volume).sum() / l.stream().mapToLong(h -> h.volume).sum());
 
 		/**
 		 *
-		 * @return the cached observable average sale value over the limit.
+		 * the sale volume (quantity of items sold) over the limit.
 		 */
-		public ObsDoubleHolder getAverage() {
-			if (cacheAverage == null) {
-				ObsListHolder<R_get_markets_region_id_history> values = getData();
-				synchronized (values) {
-					if (cacheAverage == null) {
-						cacheAverage = values.mapDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum()
-								/ l.stream().mapToLong(h -> h.volume).sum());
-					}
-				}
-			}
-			return cacheAverage;
-		}
-
-		private ObsLongHolder cacheVolume = null;
+		@Getter(lazy = true)
+		private final ObsLongHolder volume = getData().mapLong(l -> l.stream().mapToLong(h -> h.volume).sum());
 
 		/**
 		 *
-		 * @return the cached observable sale volume over the limit.
+		 * the sale value over the limit.
 		 */
-		public ObsLongHolder getVolume() {
-			if (cacheVolume == null) {
-				ObsListHolder<R_get_markets_region_id_history> values = getData();
-				synchronized (values) {
-					if (cacheVolume == null) {
-						cacheVolume = values.mapLong(l -> l.stream().mapToLong(h -> h.volume).sum());
-					}
-				}
-			}
-			return cacheVolume;
-		}
-
-		private ObsDoubleHolder cacheTotalValue = null;
-
-		/**
-		 *
-		 * @return the cached observable total sale value over the limit.
-		 */
-		public ObsDoubleHolder getTotalValue() {
-			if (cacheTotalValue == null) {
-				ObsListHolder<R_get_markets_region_id_history> values = getData();
-				synchronized (values) {
-					if (cacheTotalValue == null) {
-						cacheTotalValue = values.mapDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum());
-					}
-				}
-			}
-			return cacheTotalValue;
-		}
+		@Getter(lazy = true)
+		private final ObsDoubleHolder totalValue = getData()
+		.mapDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum());
 
 		//
 
-		private ObsListHolder<Long> sortedVolumes = null;
+		@Getter(lazy = true)
+		private final ObsListHolder<Long> sortedVolumes = makeSortedVolumes();
 
 		/** get the list of volumes over the limit, sorted by volume descending */
-		public ObsListHolder<Long> getSortedVolumes() {
-			if (sortedVolumes == null) {
-				ObsListHolder<R_get_markets_region_id_history> data = getData();
-				synchronized (this) {
-					if (sortedVolumes == null) {
-						sortedVolumes = data.toList(l -> {
-							List<Long> list = l.stream().map(h -> h.volume)
-									// reverse sort for long to have by volume DECREASING
-									.sorted((l1, l2) -> Long.compare(l2, l1))
-									.collect(Collectors.toList());
-							// fill missing days with 0s
-							while (list.size() < days) {
-								list.add(0l);
-							}
-							return list;
-						});
-					}
+		public ObsListHolder<Long> makeSortedVolumes() {
+			return getData().toList(l -> {
+				List<Long> list = l.stream().map(h -> h.volume)
+						// reverse sort for long to have by volume DECREASING
+						.sorted((l1, l2) -> Long.compare(l2, l1))
+						.collect(Collectors.toList());
+				// fill missing days with 0s
+				while (list.size() < days) {
+					list.add(0l);
 				}
-			}
-			return sortedVolumes;
+				return list;
+			});
 		}
 
 		// best percentile volume

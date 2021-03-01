@@ -19,6 +19,7 @@ import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
+import lombok.Getter;
 
 public class Wallet {
 
@@ -40,38 +41,36 @@ public class Wallet {
 	// total isk value of all divisions
 	//
 
-	private ObsDoubleHolder cachedTotal = null;
+	/** the total sum of all the divisions' balance */
+	@Getter(lazy = true)
+	private final ObsDoubleHolder total = getAcc().connection().cache().corporations.wallets(getId())
+	.mapDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
 
-	/** get the total sum of all the divisions' wallets */
-	public ObsDoubleHolder getTotal() {
-		if (cachedTotal == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedTotal == null) {
-					cachedTotal = getAcc().connection().cache().corporations.wallets(getId())
-							.mapDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
-				}
-			});
-		}
-		return cachedTotal;
+	/**
+	 * first division balance
+	 */
+	@Getter(lazy = true)
+	private final ObsDoubleHolder firstDivision = getAcc().connection().cache().corporations.wallets(getId())
+	.mapDouble(l -> l.stream().filter(div -> div.division == 1).findFirst()
+			.orElseGet(() -> new R_get_corporations_corporation_id_wallets()).balance);
+
+
+	@Getter(lazy = true)
+	private final ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> transactionsList = makeTransactionsList();
+
+	/**
+	 *
+	 * @return the cached observable list of transactions for this character's
+	 *         corporation, in all divisions
+	 */
+	protected ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> makeTransactionsList() {
+		ObsListHolder<ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> allDivisionsTransactions = corporation
+				.getDivisions()
+				.toList(div -> Stream.of(div.wallet)
+						.map(wallet -> getTransactions(wallet.division))
+						.collect(Collectors.toList()));
+		return allDivisionsTransactions.flatten(obs -> obs);
 	}
-
-	private ObsDoubleHolder cachedFirstDivision = null;
-
-	/** get the total sum of all the divisions' wallets */
-	public ObsDoubleHolder getFirstDivision() {
-		if (cachedFirstDivision == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedFirstDivision == null) {
-					cachedFirstDivision = getAcc().connection().cache().corporations.wallets(getId())
-							.mapDouble(l -> l.stream().filter(div -> div.division == 1).findFirst()
-									.orElseGet(() -> new R_get_corporations_corporation_id_wallets()).balance);
-				}
-			});
-		}
-		return cachedFirstDivision;
-	}
-
-	private ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions> cachedWholeTransactions = null;
 
 	/**
 	 * get all divisions' transactions history.<br />
@@ -80,40 +79,9 @@ public class Wallet {
 	 * This is effectively a merge of the wallets of the several divisions.
 	 *
 	 */
-	public ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions> getTransactions() {
-		if (cachedWholeTransactions == null) {
-			var transactionlist = getTransactionsList();
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedWholeTransactions == null) {
-					cachedWholeTransactions = transactionlist.toMap(k -> getId() + k.transaction_id);
-				}
-			});
-		}
-		return cachedWholeTransactions;
-	}
-
-	private ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> cachedTransactionList = null;
-
-	/**
-	 *
-	 * @return the cached observable list of transactions for this character's
-	 *         corporation, in all divisions
-	 */
-	public ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> getTransactionsList() {
-		if (cachedTransactionList == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedTransactionList == null) {
-					ObsListHolder<ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> allDivisionsTransactions = corporation
-							.getDivisions()
-							.toList(div -> Stream.of(div.wallet)
-									.map(wallet -> getTransactions(wallet.division))
-									.collect(Collectors.toList()));
-					cachedTransactionList = allDivisionsTransactions.flatten(obs -> obs);
-				}
-			});
-		}
-		return cachedTransactionList;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions> transactionsByID = getTransactionsList()
+	.toMap(k -> getId() + k.transaction_id);
 
 	private Map<Integer, ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> cachedDivisionTransactions = new HashMap<>();
 
@@ -140,6 +108,7 @@ public class Wallet {
 				if (ret2 == null) {
 					ret2 = getAcc().connection().cache().corporations.wallets_transactions(getId(), division_id, null)
 							.toList(l -> expandWholeTransactions(division_id, l));
+					cachedDivisionTransactions.put(division_id, ret2);
 				}
 				return ret2;
 			});
@@ -187,53 +156,21 @@ public class Wallet {
 		return ret;
 	}
 
-	private ObsMapHolder<Object, R_get_corporations_corporation_id_orders_history> cachedOrdersHistory = null;
-
-	public ObsMapHolder<Object, R_get_corporations_corporation_id_orders_history> getOrdersHistory() {
-		if (cachedOrdersHistory == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedOrdersHistory == null) {
-					cachedOrdersHistory = getAcc().connection().cache().corporations.orders_history(getId())
-							.toMap(order -> order.order_id);
-				}
-			});
-		}
-		return cachedOrdersHistory;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Object, R_get_corporations_corporation_id_orders_history> ordersHistory = getAcc()
+	.connection().cache().corporations.orders_history(getId()).toMap(order -> order.order_id);
 
 	public ObsListHolder<M_get_journal_13> getJournal(int division) {
 		return getAcc().connection().cache().corporations.wallets_journal(getId(), division);
 	}
 
-	private ObsListHolder<M_get_journal_13> cachedJournalList = null;
+	@Getter(lazy = true)
+	private final ObsListHolder<M_get_journal_13> journalList = corporation.getDivisions()
+	.toList(div -> Stream.of(div.wallet).map(wallet -> getJournal(wallet.division)).collect(Collectors.toList()))
+	.flatten(o -> o);
 
-	public ObsListHolder<M_get_journal_13> getJournalList() {
-		if (cachedJournalList == null) {
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedJournalList == null) {
-					ObsListHolder<ObsListHolder<M_get_journal_13>> allDivisionsJournals = corporation
-							.getDivisions().toList(div -> Stream.of(div.wallet).map(wallet -> getJournal(
-									wallet.division))
-									.collect(Collectors.toList()));
-					cachedJournalList = allDivisionsJournals.flatten(o -> o);
-				}
-			});
-		}
-		return cachedJournalList;
-	}
+	@Getter(lazy = true)
+	private final ObsMapHolder<Long, M_get_journal_13> journalByID = getJournalList().toMap(je -> je.id);
 
-	private ObsMapHolder<Long, M_get_journal_13> cachedJournal = null;
-
-	public ObsMapHolder<Long, M_get_journal_13> getJournal() {
-		if (cachedJournal == null) {
-			var journalList = getJournalList();
-			LockWatchDog.BARKER.syncExecute(this, () -> {
-				if (cachedJournal == null) {
-					cachedJournal = journalList.toMap(je -> je.id);
-				}
-			});
-		}
-		return cachedJournal;
-	}
 
 }

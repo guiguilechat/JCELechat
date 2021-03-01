@@ -17,10 +17,7 @@ public class ESIStatic extends ConnectedImpl implements G_IDCAccess {
 
 	@Getter
 	@Accessors(fluent = true)
-	private final CacheStatic cache = new CacheStatic(this);
-
-	private ESIStatic() {
-	}
+	private final transient CacheStatic cache = new CacheStatic(this);
 
 	@Getter(lazy=true)
 	private final ObsSetHolder<String> roles=ObsSetHolderImpl.of();

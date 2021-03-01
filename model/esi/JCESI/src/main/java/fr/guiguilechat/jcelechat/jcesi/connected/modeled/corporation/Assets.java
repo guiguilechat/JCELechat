@@ -51,11 +51,11 @@ public class Assets {
 		this.con = con;
 	}
 
-	private static final Set<get_corporations_corporation_id_assets_location_flag> allowed_flags = new HashSet<>(
+	private static final Set<get_corporations_corporation_id_assets_location_flag> allowed_flags_for_name = new HashSet<>(
 			Arrays.asList(DroneBay, ShipHangar));
 
 	protected static boolean canName(R_get_corporations_corporation_id_assets asset) {
-		return asset.is_singleton && allowed_flags.contains(asset.location_flag);
+		return asset.is_singleton && allowed_flags_for_name.contains(asset.location_flag);
 	}
 
 	// get the names of specific assets
@@ -87,10 +87,9 @@ public class Assets {
 		}
 	}
 
-	public ObsListHolder<R_get_corporations_corporation_id_assets> getList() {
-		// caching is already present at the cache level.
-		return con.connection().cache().corporations.assets(con.corporation.getId());
-	}
+	@Getter(lazy = true)
+	private final ObsListHolder<R_get_corporations_corporation_id_assets> list = con.connection().cache().corporations
+			.assets(con.corporation.getId());
 
 	protected ItemForest grow(List<R_get_corporations_corporation_id_assets> assets) {
 		ItemForest ret = new ItemForest();
