@@ -6,6 +6,7 @@ types:
     name: Advanced Infomorph Psychology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.6E7
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -22,6 +23,7 @@ types:
     name: Biology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 37500.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -38,6 +40,7 @@ types:
     name: Cloning Facility Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.25E8
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -55,6 +58,7 @@ types:
     name: Cybernetics
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -70,6 +74,7 @@ types:
     name: Infomorph Psychology
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -83,6 +88,7 @@ types:
     name: Infomorph Synchronizing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -99,6 +105,7 @@ types:
     name: Neurotoxin Control
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -117,6 +124,7 @@ types:
     name: Neurotoxin Recovery
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 25000.0
     primaryattribute: 165
     published: true
     radius: 1.0

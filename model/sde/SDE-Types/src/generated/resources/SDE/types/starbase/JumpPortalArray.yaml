@@ -27,6 +27,7 @@ types:
     posanchoredpersolarsystemamount: 1
     poscargobayaccepttype: 16273
     power: 750000
+    price: 1.0E8
     published: true
     radius: 459.0
     requiressovupgrade1: 32422

@@ -16,6 +16,7 @@ types:
     name: Deep Core Mining Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -27,6 +28,7 @@ types:
     name: Gas Cloud Harvester I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.65E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -37,6 +39,7 @@ types:
     name: Gas Cloud Harvester II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 92720.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -47,6 +50,7 @@ types:
     name: Ice Mining Laser I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3500000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -55,6 +59,7 @@ types:
     name: Ice Mining Laser II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 92720.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -65,6 +70,7 @@ types:
     name: Miner I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 92720.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -75,6 +81,7 @@ types:
     name: Miner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -85,6 +92,7 @@ types:
     name: Modulated Deep Core Miner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

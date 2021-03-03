@@ -7,6 +7,7 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 700
+    price: 250000.0
     published: true
     radius: 1.0
   Gas Storage Facility:
@@ -17,6 +18,7 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 700
+    price: 250000.0
     published: true
     radius: 1.0
   Ice Storage Facility:
@@ -27,6 +29,7 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 700
+    price: 250000.0
     published: true
     radius: 1.0
   Lava Storage Facility:
@@ -37,6 +40,7 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 700
+    price: 250000.0
     published: true
     radius: 1.0
   Oceanic Storage Facility:
@@ -47,6 +51,7 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 700
+    price: 250000.0
     published: true
     radius: 1.0
   Plasma Storage Facility:
@@ -57,6 +62,7 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 700
+    price: 250000.0
     published: true
     radius: 1.0
   Storm Storage Facility:
@@ -67,6 +73,7 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 700
+    price: 250000.0
     published: true
     radius: 1.0
   Temperate Storage Facility:
@@ -77,5 +84,6 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 700
+    price: 250000.0
     published: true
     radius: 1.0

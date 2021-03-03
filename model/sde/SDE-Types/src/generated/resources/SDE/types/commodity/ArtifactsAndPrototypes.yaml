@@ -168,6 +168,7 @@ types:
     name: Serpentis Modified Capital Microprocessor
     packagedVolume: 1.0
     portionSize: 1
+    price: 250000.0
     published: true
     volume: 1.0
   Serpentis Multi-tasking Processor:

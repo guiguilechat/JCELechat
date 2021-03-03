@@ -20,6 +20,7 @@ types:
     name: Inferno Fury Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 5000
+    price: 837360.0
     published: true
     radius: 300.0
     requiredskill1: 20212
@@ -54,6 +55,7 @@ types:
     name: Inferno Precision Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 5000
+    price: 837360.0
     published: true
     radius: 300.0
     requiredskill1: 20212
@@ -89,6 +91,7 @@ types:
     name: Mjolnir Fury Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 5000
+    price: 837360.0
     published: true
     radius: 300.0
     requiredskill1: 20212
@@ -123,6 +126,7 @@ types:
     name: Mjolnir Precision Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 5000
+    price: 837360.0
     published: true
     radius: 300.0
     requiredskill1: 20212
@@ -157,6 +161,7 @@ types:
     name: Nova Fury Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 5000
+    price: 837360.0
     published: true
     radius: 300.0
     requiredskill1: 20212
@@ -191,6 +196,7 @@ types:
     name: Nova Precision Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 5000
+    price: 837360.0
     published: true
     radius: 300.0
     requiredskill1: 20212
@@ -225,6 +231,7 @@ types:
     name: Scourge Fury Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 5000
+    price: 837360.0
     published: true
     radius: 300.0
     requiredskill1: 20212
@@ -259,6 +266,7 @@ types:
     name: Scourge Precision Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 5000
+    price: 837360.0
     published: true
     radius: 300.0
     requiredskill1: 20212

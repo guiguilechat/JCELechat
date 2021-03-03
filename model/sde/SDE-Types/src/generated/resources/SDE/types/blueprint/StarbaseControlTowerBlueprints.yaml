@@ -6,6 +6,7 @@ types:
     name: Amarr Control Tower Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,6 +17,7 @@ types:
     name: Amarr Control Tower Medium Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -26,6 +28,7 @@ types:
     name: Amarr Control Tower Small Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.25E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -90,6 +93,7 @@ types:
     name: Caldari Control Tower Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -100,6 +104,7 @@ types:
     name: Caldari Control Tower Medium Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -110,6 +115,7 @@ types:
     name: Caldari Control Tower Small Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.25E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -201,6 +207,7 @@ types:
     name: Gallente Control Tower Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -211,6 +218,7 @@ types:
     name: Gallente Control Tower Medium Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -221,6 +229,7 @@ types:
     name: Gallente Control Tower Small Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.25E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -258,6 +267,7 @@ types:
     name: Minmatar Control Tower Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -268,6 +278,7 @@ types:
     name: Minmatar Control Tower Medium Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -278,6 +289,7 @@ types:
     name: Minmatar Control Tower Small Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.25E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582

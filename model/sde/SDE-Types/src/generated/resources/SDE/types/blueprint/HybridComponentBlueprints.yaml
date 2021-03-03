@@ -6,6 +6,7 @@ types:
     name: Electromechanical Interface Nexus Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,6 +17,7 @@ types:
     name: Emergent Neurovisual Interface Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -26,6 +28,7 @@ types:
     name: Fullerene Intercalated Sheets Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -36,6 +39,7 @@ types:
     name: Fulleroferrocene Power Conduits Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -46,6 +50,7 @@ types:
     name: Metallofullerene Plating Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -56,6 +61,7 @@ types:
     name: Nanowire Composites Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -66,6 +72,7 @@ types:
     name: Neurovisual Output Analyzer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -76,6 +83,7 @@ types:
     name: Optimized Nano-Engines Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -86,6 +94,7 @@ types:
     name: Reconfigured Subspace Calibrator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -96,6 +105,7 @@ types:
     name: Reinforced Metallofullerene Alloys Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -105,6 +115,7 @@ types:
     name: Self-Assembling Nanolattice Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Superconducting Gravimetric Amplifier Blueprint:
@@ -113,6 +124,7 @@ types:
     name: Superconducting Gravimetric Amplifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Superconducting Ladar Amplifier Blueprint:
@@ -121,6 +133,7 @@ types:
     name: Superconducting Ladar Amplifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Superconducting Magnetometric Amplifier Blueprint:
@@ -129,6 +142,7 @@ types:
     name: Superconducting Magnetometric Amplifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Superconducting Radar Amplifier Blueprint:
@@ -137,6 +151,7 @@ types:
     name: Superconducting Radar Amplifier Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Warfare Computation Core Blueprint:
@@ -146,6 +161,7 @@ types:
     name: Warfare Computation Core Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582

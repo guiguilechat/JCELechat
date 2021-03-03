@@ -5,6 +5,7 @@ types:
     name: Capital Hull Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9250000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -22,6 +23,7 @@ types:
     name: Capital I-b Enduring Hull Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.85E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -31,6 +33,7 @@ types:
     name: Capital IEF Compact Hull Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.85E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -51,6 +54,7 @@ types:
     name: Large Hull Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -61,6 +65,7 @@ types:
     name: Large Hull Repairer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -82,6 +87,7 @@ types:
     name: Medium Hull Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -92,6 +98,7 @@ types:
     name: Medium Hull Repairer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -113,6 +120,7 @@ types:
     name: Small Hull Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 499980.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -123,6 +131,7 @@ types:
     name: Small Hull Repairer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2

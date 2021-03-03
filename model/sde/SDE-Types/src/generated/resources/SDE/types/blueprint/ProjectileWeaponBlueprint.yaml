@@ -6,6 +6,7 @@ types:
     name: 1200mm Artillery Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.2E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -16,6 +17,7 @@ types:
     name: 1200mm Artillery Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -37,6 +39,7 @@ types:
     name: 125mm Gatling AutoCannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 20000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -47,6 +50,7 @@ types:
     name: 125mm Gatling AutoCannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -68,6 +72,7 @@ types:
     name: 1400mm Howitzer Artillery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -78,6 +83,7 @@ types:
     name: 1400mm Howitzer Artillery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -89,6 +95,7 @@ types:
     name: 150mm Light AutoCannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 60000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -99,6 +106,7 @@ types:
     name: 150mm Light AutoCannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -110,6 +118,7 @@ types:
     name: 200mm AutoCannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 90000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -120,6 +129,7 @@ types:
     name: 200mm AutoCannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -141,6 +151,7 @@ types:
     name: 220mm Vulcan AutoCannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 600000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -151,6 +162,7 @@ types:
     name: 220mm Vulcan AutoCannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -172,6 +184,7 @@ types:
     name: 250mm Light Artillery Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 120000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -182,6 +195,7 @@ types:
     name: 250mm Light Artillery Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -203,6 +217,7 @@ types:
     name: 280mm Howitzer Artillery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -213,6 +228,7 @@ types:
     name: 280mm Howitzer Artillery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -224,6 +240,7 @@ types:
     name: 425mm AutoCannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 900000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -234,6 +251,7 @@ types:
     name: 425mm AutoCannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -255,6 +273,7 @@ types:
     name: 650mm Artillery Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1200000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -265,6 +284,7 @@ types:
     name: 650mm Artillery Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -296,6 +316,7 @@ types:
     name: 720mm Howitzer Artillery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -306,6 +327,7 @@ types:
     name: 720mm Howitzer Artillery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -327,6 +349,7 @@ types:
     name: 800mm Repeating Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -337,6 +360,7 @@ types:
     name: 800mm Repeating Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -348,6 +372,7 @@ types:
     name: Ample Gallium Quad 800mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.8E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -359,6 +384,7 @@ types:
     name: CONCORD Hexa 2500mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.269487E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -370,6 +396,7 @@ types:
     name: CONCORD Quad 3500mm Siege Artillery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.7692952E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -381,6 +408,7 @@ types:
     name: Carbide Compact Quad 3500mm Siege Artillery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.44E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -392,6 +420,7 @@ types:
     name: Carbine Compact Hexa 2500mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.53E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -403,6 +432,7 @@ types:
     name: Compact Carbine Quad 800mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.8E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -414,6 +444,7 @@ types:
     name: Domination Hexa 2500mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.269487E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -425,6 +456,7 @@ types:
     name: Domination Quad 3500mm Siege Artillery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.7692952E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -436,6 +468,7 @@ types:
     name: Domination Quad 800mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.269487E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -447,6 +480,7 @@ types:
     name: Dual 180mm AutoCannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -457,6 +491,7 @@ types:
     name: Dual 180mm AutoCannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -468,6 +503,7 @@ types:
     name: Dual 425mm AutoCannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -478,6 +514,7 @@ types:
     name: Dual 425mm AutoCannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -489,6 +526,7 @@ types:
     name: Dual 650mm Repeating Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -499,6 +537,7 @@ types:
     name: Dual 650mm Repeating Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -510,6 +549,7 @@ types:
     name: Gallium Ample Hexa 2500mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.53E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -521,6 +561,7 @@ types:
     name: Gallium Ample Quad 3500mm Siege Artillery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.44E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -532,6 +573,7 @@ types:
     name: Hexa 2500mm Repeating Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.269487E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -542,6 +584,7 @@ types:
     name: Hexa 2500mm Repeating Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.269487E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -551,6 +594,7 @@ types:
     name: Polarized 200mm AutoCannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -560,6 +604,7 @@ types:
     name: Polarized 425mm AutoCannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -580,6 +625,7 @@ types:
     name: Prototype Precise Hexa 2500mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.53E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -591,6 +637,7 @@ types:
     name: Prototype Precise Quad 3500mm Siege Artillery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.44E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -602,6 +649,7 @@ types:
     name: Prototype Precise Quad 800mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.8E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -613,6 +661,7 @@ types:
     name: Quad 3500mm Siege Artillery I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.7692952E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -623,6 +672,7 @@ types:
     name: Quad 3500mm Siege Artillery II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.7692952E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -634,6 +684,7 @@ types:
     name: Quad 800mm Repeating Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.4E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -644,6 +695,7 @@ types:
     name: Quad 800mm Repeating Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.269487E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -655,6 +707,7 @@ types:
     name: Scout Scoped Hexa 2500mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.53E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -666,6 +719,7 @@ types:
     name: Scout Scoped Quad 3500mm Siege Artillery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 7.44E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -677,6 +731,7 @@ types:
     name: Scout Scoped Quad 800mm Repeating Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.8E7
     published: true
     radius: 1.0
     techlevel: 1

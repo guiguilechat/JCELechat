@@ -19,6 +19,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 50000
+    price: 5.983288E7
     published: true
     radius: 1.0
     requiredskill1: 24606
@@ -44,6 +45,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 105000
+    price: 5.983288E7
     published: true
     radius: 1.0
     reclonerfuelquantity: 10

@@ -10,6 +10,7 @@ types:
     orebasictype: 45492
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -28,6 +29,7 @@ types:
     orebasictype: 45492
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -46,6 +48,7 @@ types:
     orebasictype: 45493
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -64,6 +67,7 @@ types:
     orebasictype: 45491
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -82,6 +86,7 @@ types:
     orebasictype: 45490
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -100,6 +105,7 @@ types:
     orebasictype: 45493
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -118,6 +124,7 @@ types:
     orebasictype: 45492
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -136,6 +143,7 @@ types:
     orebasictype: 45493
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -154,6 +162,7 @@ types:
     orebasictype: 45491
     packagedVolume: 10.0
     portionSize: 100
+    price: 3000.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -172,6 +181,7 @@ types:
     orebasictype: 45490
     packagedVolume: 10.0
     portionSize: 100
+    price: 3000.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -190,6 +200,7 @@ types:
     orebasictype: 45491
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152
@@ -208,6 +219,7 @@ types:
     orebasictype: 45490
     packagedVolume: 10.0
     portionSize: 100
+    price: 1500.0
     published: true
     radius: 1.0
     reprocessingskilltype: 46152

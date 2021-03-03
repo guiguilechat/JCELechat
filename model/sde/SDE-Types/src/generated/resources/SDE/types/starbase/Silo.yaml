@@ -16,6 +16,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 50000
+    price: 2.0E7
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0
@@ -47,6 +48,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 50000
+    price: 7500000.0
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0
@@ -77,6 +79,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 10000
+    price: 2500000.0
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0
@@ -109,6 +112,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 50000
+    price: 7500000.0
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0
@@ -140,6 +144,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 50000
+    price: 2.5E7
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0
@@ -171,6 +176,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 50000
+    price: 7500000.0
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0
@@ -201,6 +207,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 50000
+    price: 1.5E7
     published: true
     radius: 907.0
     scangravimetricstrength: 200.0

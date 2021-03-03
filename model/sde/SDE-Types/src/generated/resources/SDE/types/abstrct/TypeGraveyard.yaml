@@ -6,6 +6,7 @@ types:
     name: EDENCOM Cruiser (old)
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2500000.0
     primaryattribute: 167
     published: false
     radius: 1.0
@@ -23,6 +24,7 @@ types:
     name: EDENCOM Frigate (old)
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     primaryattribute: 167
     published: false
     radius: 1.0
@@ -39,6 +41,7 @@ types:
     name: Medium Vorton Projector (old)
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 167
     published: false
     radius: 1.0
@@ -57,6 +60,7 @@ types:
     name: Small Vorton Projector (old)
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 320000.0
     primaryattribute: 167
     published: false
     radius: 1.0
@@ -72,6 +76,7 @@ types:
     name: Vorton Projector Operation (old)
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 30000.0
     primaryattribute: 167
     published: false
     radius: 1.0

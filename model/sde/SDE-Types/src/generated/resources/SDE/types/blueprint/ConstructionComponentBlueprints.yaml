@@ -6,6 +6,7 @@ types:
     name: Antimatter Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,6 +17,7 @@ types:
     name: Crystalline Carbonide Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -26,6 +28,7 @@ types:
     name: Deflection Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -36,6 +39,7 @@ types:
     name: EM Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -46,6 +50,7 @@ types:
     name: Electrolytic Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -56,6 +61,7 @@ types:
     name: Fernite Carbide Composite Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -66,6 +72,7 @@ types:
     name: Fusion Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -76,6 +83,7 @@ types:
     name: Fusion Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -86,6 +94,7 @@ types:
     name: Gravimetric Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -96,6 +105,7 @@ types:
     name: Graviton Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -106,6 +116,7 @@ types:
     name: Graviton Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -116,6 +127,7 @@ types:
     name: Ion Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -126,6 +138,7 @@ types:
     name: Ladar Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -136,6 +149,7 @@ types:
     name: Laser Focusing Crystals Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -146,6 +160,7 @@ types:
     name: Linear Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -156,6 +171,7 @@ types:
     name: Magnetometric Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -166,6 +182,7 @@ types:
     name: Magpulse Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -176,6 +193,7 @@ types:
     name: Nanoelectrical Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -186,6 +204,7 @@ types:
     name: Nanomechanical Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -196,6 +215,7 @@ types:
     name: Nuclear Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -206,6 +226,7 @@ types:
     name: Nuclear Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -216,6 +237,7 @@ types:
     name: Oscillator Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -226,6 +248,7 @@ types:
     name: Particle Accelerator Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -236,6 +259,7 @@ types:
     name: Photon Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -246,6 +270,7 @@ types:
     name: Plasma Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -256,6 +281,7 @@ types:
     name: Plasma Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -266,6 +292,7 @@ types:
     name: Pulse Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -276,6 +303,7 @@ types:
     name: Quantum Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -286,6 +314,7 @@ types:
     name: Radar Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -296,6 +325,7 @@ types:
     name: Scalar Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -305,6 +335,7 @@ types:
     name: Spatial Attunement Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -314,6 +345,7 @@ types:
     name: Structure Acceleration Coils Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Structure Advertisement Nexus Blueprint:
@@ -322,6 +354,7 @@ types:
     name: Structure Advertisement Nexus Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Structure Construction Parts Blueprint:
@@ -331,6 +364,7 @@ types:
     name: Structure Construction Parts Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -341,6 +375,7 @@ types:
     name: Structure Docking Bay Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -350,6 +385,7 @@ types:
     name: Structure EXERT Conduit Coupler Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Structure Electromagnetic Sensor Blueprint:
@@ -358,6 +394,7 @@ types:
     name: Structure Electromagnetic Sensor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     volume: 0.009999999776482582
   Structure Factory Blueprint:
@@ -367,6 +404,7 @@ types:
     name: Structure Factory Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -377,6 +415,7 @@ types:
     name: Structure Hangar Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -387,6 +426,7 @@ types:
     name: Structure Laboratory Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -397,6 +437,7 @@ types:
     name: Structure Market Network Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -407,6 +448,7 @@ types:
     name: Structure Medical Center Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -417,6 +459,7 @@ types:
     name: Structure Mission Network Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -427,6 +470,7 @@ types:
     name: Structure Office Center Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -437,6 +481,7 @@ types:
     name: Structure Repair Facility Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -447,6 +492,7 @@ types:
     name: Structure Reprocessing Plant Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -457,6 +503,7 @@ types:
     name: Structure Storage Bay Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -467,6 +514,7 @@ types:
     name: Superconductor Rails Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -477,6 +525,7 @@ types:
     name: Sustained Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -487,6 +536,7 @@ types:
     name: Tesseract Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -497,6 +547,7 @@ types:
     name: Thermonuclear Trigger Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -507,6 +558,7 @@ types:
     name: Titanium Diborite Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -517,6 +569,7 @@ types:
     name: Tungsten Carbide Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

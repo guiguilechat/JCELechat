@@ -122,6 +122,7 @@ types:
     name: Glorification-1 'Devana' Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612

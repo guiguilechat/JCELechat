@@ -19,6 +19,7 @@ types:
     name: Caldari Navy Scourge Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 500.0
     published: true
     radius: 300.0
     requiredskill1: 3322
@@ -49,6 +50,7 @@ types:
     name: Federation Navy Inferno Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 624.0
     published: true
     radius: 300.0
     requiredskill1: 3322
@@ -81,6 +83,7 @@ types:
     name: Imperial Navy Mjolnir Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 750.0
     published: true
     radius: 300.0
     requiredskill1: 3322
@@ -110,6 +113,7 @@ types:
     name: Inferno Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 624.0
     published: true
     radius: 300.0
     requiredskill1: 3322
@@ -141,6 +145,7 @@ types:
     name: Mjolnir Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 750.0
     published: true
     radius: 300.0
     requiredskill1: 3322
@@ -171,6 +176,7 @@ types:
     name: Nova Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 370.0
     published: true
     radius: 300.0
     requiredskill1: 3322
@@ -202,6 +208,7 @@ types:
     name: Republic Fleet Nova Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 370.0
     published: true
     radius: 300.0
     requiredskill1: 3322
@@ -232,6 +239,7 @@ types:
     name: Scourge Auto-Targeting Light Missile I
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 500.0
     published: true
     radius: 300.0
     requiredskill1: 3322

@@ -11,6 +11,7 @@ types:
     name: BlastShot Condenser Pack L
     packagedVolume: 0.02500000037252903
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -28,6 +29,7 @@ types:
     name: BlastShot Condenser Pack M
     packagedVolume: 0.012500000186264515
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -45,6 +47,7 @@ types:
     name: BlastShot Condenser Pack S
     packagedVolume: 0.0024999999441206455
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -62,6 +65,7 @@ types:
     name: GalvaSurge Condenser Pack L
     packagedVolume: 0.02500000037252903
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -79,6 +83,7 @@ types:
     name: GalvaSurge Condenser Pack M
     packagedVolume: 0.012500000186264515
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -96,6 +101,7 @@ types:
     name: GalvaSurge Condenser Pack S
     packagedVolume: 0.0024999999441206455
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -113,6 +119,7 @@ types:
     name: MesmerFlux Condenser Pack L
     packagedVolume: 0.02500000037252903
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -130,6 +137,7 @@ types:
     name: MesmerFlux Condenser Pack M
     packagedVolume: 0.012500000186264515
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -147,6 +155,7 @@ types:
     name: MesmerFlux Condenser Pack S
     packagedVolume: 0.0024999999441206455
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -164,6 +173,7 @@ types:
     name: SlamBolt Condenser Pack L
     packagedVolume: 0.02500000037252903
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -181,6 +191,7 @@ types:
     name: SlamBolt Condenser Pack M
     packagedVolume: 0.012500000186264515
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -198,6 +209,7 @@ types:
     name: SlamBolt Condenser Pack S
     packagedVolume: 0.0024999999441206455
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1

@@ -6,6 +6,7 @@ types:
     name: Electronic Hardening Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 20495
@@ -24,6 +25,7 @@ types:
     name: Electronic Superiority Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 20495
@@ -40,6 +42,7 @@ types:
     name: Sensor Optimization Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
+    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 20495

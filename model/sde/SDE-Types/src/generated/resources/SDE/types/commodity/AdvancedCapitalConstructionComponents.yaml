@@ -6,6 +6,7 @@ types:
     name: Capital Antimatter Reactor Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 217600.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -16,6 +17,7 @@ types:
     name: Capital Crystalline Carbonide Armor Plate
     packagedVolume: 10.0
     portionSize: 1
+    price: 400000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -26,6 +28,7 @@ types:
     name: Capital Deflection Shield Emitter
     packagedVolume: 10.0
     portionSize: 1
+    price: 339200.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -36,6 +39,7 @@ types:
     name: Capital EM Pulse Generator
     packagedVolume: 10.0
     portionSize: 1
+    price: 224000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -46,6 +50,7 @@ types:
     name: Capital Electrolytic Capacitor Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 492800.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -56,6 +61,7 @@ types:
     name: Capital Fernite Carbide Composite Armor Plate
     packagedVolume: 10.0
     portionSize: 1
+    price: 400000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -66,6 +72,7 @@ types:
     name: Capital Fusion Reactor Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 217600.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -76,6 +83,7 @@ types:
     name: Capital Fusion Thruster
     packagedVolume: 10.0
     portionSize: 1
+    price: 166400.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -86,6 +94,7 @@ types:
     name: Capital Gravimetric Sensor Cluster
     packagedVolume: 10.0
     portionSize: 1
+    price: 224000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -96,6 +105,7 @@ types:
     name: Capital Graviton Pulse Generator
     packagedVolume: 10.0
     portionSize: 1
+    price: 224000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -106,6 +116,7 @@ types:
     name: Capital Graviton Reactor Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 217600.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -116,6 +127,7 @@ types:
     name: Capital Ion Thruster
     packagedVolume: 10.0
     portionSize: 1
+    price: 166400.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -126,6 +138,7 @@ types:
     name: Capital Ladar Sensor Cluster
     packagedVolume: 10.0
     portionSize: 1
+    price: 224000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -136,6 +149,7 @@ types:
     name: Capital Laser Focusing Crystals
     packagedVolume: 10.0
     portionSize: 1
+    price: 433600.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -146,6 +160,7 @@ types:
     name: Capital Linear Shield Emitter
     packagedVolume: 10.0
     portionSize: 1
+    price: 339200.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -156,6 +171,7 @@ types:
     name: Capital Magnetometric Sensor Cluster
     packagedVolume: 10.0
     portionSize: 1
+    price: 224000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -166,6 +182,7 @@ types:
     name: Capital Magpulse Thruster
     packagedVolume: 10.0
     portionSize: 1
+    price: 166400.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -176,6 +193,7 @@ types:
     name: Capital Nanoelectrical Microprocessor
     packagedVolume: 10.0
     portionSize: 1
+    price: 166400.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -186,6 +204,7 @@ types:
     name: Capital Nanomechanical Microprocessor
     packagedVolume: 10.0
     portionSize: 1
+    price: 166400.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -196,6 +215,7 @@ types:
     name: Capital Nuclear Pulse Generator
     packagedVolume: 10.0
     portionSize: 1
+    price: 224000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -206,6 +226,7 @@ types:
     name: Capital Nuclear Reactor Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 217600.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -216,6 +237,7 @@ types:
     name: Capital Oscillator Capacitor Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 492800.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -226,6 +248,7 @@ types:
     name: Capital Particle Accelerator Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 433600.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -236,6 +259,7 @@ types:
     name: Capital Photon Microprocessor
     packagedVolume: 10.0
     portionSize: 1
+    price: 166400.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -246,6 +270,7 @@ types:
     name: Capital Plasma Pulse Generator
     packagedVolume: 10.0
     portionSize: 1
+    price: 224000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -256,6 +281,7 @@ types:
     name: Capital Plasma Thruster
     packagedVolume: 10.0
     portionSize: 1
+    price: 166400.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -266,6 +292,7 @@ types:
     name: Capital Pulse Shield Emitter
     packagedVolume: 10.0
     portionSize: 1
+    price: 339200.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -276,6 +303,7 @@ types:
     name: Capital Quantum Microprocessor
     packagedVolume: 10.0
     portionSize: 1
+    price: 166400.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -286,6 +314,7 @@ types:
     name: Capital Radar Sensor Cluster
     packagedVolume: 10.0
     portionSize: 1
+    price: 224000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -296,6 +325,7 @@ types:
     name: Capital Scalar Capacitor Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 492800.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -306,6 +336,7 @@ types:
     name: Capital Superconductor Rails
     packagedVolume: 10.0
     portionSize: 1
+    price: 433600.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -316,6 +347,7 @@ types:
     name: Capital Sustained Shield Emitter
     packagedVolume: 10.0
     portionSize: 1
+    price: 339200.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -326,6 +358,7 @@ types:
     name: Capital Tesseract Capacitor Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 492800.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -336,6 +369,7 @@ types:
     name: Capital Thermonuclear Trigger Unit
     packagedVolume: 10.0
     portionSize: 1
+    price: 433600.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -346,6 +380,7 @@ types:
     name: Capital Titanium Diborite Armor Plate
     packagedVolume: 10.0
     portionSize: 1
+    price: 400000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -356,6 +391,7 @@ types:
     name: Capital Tungsten Carbide Armor Plate
     packagedVolume: 10.0
     portionSize: 1
+    price: 400000.0
     published: true
     radius: 1.0
     volume: 10.0

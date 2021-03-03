@@ -6,6 +6,7 @@ types:
     name: Acolyte EV-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,6 +17,7 @@ types:
     name: Infiltrator EV-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1700000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -26,6 +28,7 @@ types:
     name: Praetor EV-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

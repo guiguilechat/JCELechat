@@ -6211,6 +6211,7 @@ types:
     optimalsigradius: 1000
     packagedVolume: 4000.0
     portionSize: 1
+    price: 2.0E7
     published: false
     radius: 907.0
     shieldcapacity: 500.0

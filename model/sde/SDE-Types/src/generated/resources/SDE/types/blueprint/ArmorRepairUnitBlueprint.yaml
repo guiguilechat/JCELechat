@@ -65,6 +65,7 @@ types:
     name: CONCORD Capital Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.7022756E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -75,6 +76,7 @@ types:
     name: Capital ACM Compact Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.4E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -85,6 +87,7 @@ types:
     name: Capital Armor Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.7022756E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -103,6 +106,7 @@ types:
     name: Capital I-a Enduring Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9.4E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -132,6 +136,7 @@ types:
     name: Large Armor Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -142,6 +147,7 @@ types:
     name: Large Armor Repairer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -153,6 +159,7 @@ types:
     name: Medium Armor Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 400000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -163,6 +170,7 @@ types:
     name: Medium Armor Repairer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -182,6 +190,7 @@ types:
     name: Small Armor Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -192,6 +201,7 @@ types:
     name: Small Armor Repairer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

@@ -4,6 +4,7 @@ types:
     name: Rank 1 Upgrade
     packagedVolume: 1.0
     portionSize: 1
+    price: 1.702171776E9
     published: true
     volume: 1.0
   Rank 2 Upgrade:
@@ -11,6 +12,7 @@ types:
     name: Rank 2 Upgrade
     packagedVolume: 1.0
     portionSize: 1
+    price: 1.702171776E9
     published: true
     volume: 1.0
   Rank 3 Upgrade:
@@ -18,5 +20,6 @@ types:
     name: Rank 3 Upgrade
     packagedVolume: 1.0
     portionSize: 1
+    price: 1.702171776E9
     published: true
     volume: 1.0

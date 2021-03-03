@@ -4,6 +4,7 @@ types:
     name: Capital Ancillary Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E7
     published: true
     volume: 0.009999999776482582
   Large Ancillary Armor Repairer Blueprint:
@@ -12,6 +13,7 @@ types:
     name: Large Ancillary Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -21,6 +23,7 @@ types:
     name: Medium Ancillary Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -30,6 +33,7 @@ types:
     name: Small Ancillary Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

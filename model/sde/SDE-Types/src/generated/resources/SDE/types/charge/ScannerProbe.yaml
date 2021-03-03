@@ -13,6 +13,7 @@ types:
     name: Combat Scanner Probe I
     packagedVolume: 1.0
     portionSize: 1
+    price: 23442.0
     probecanscanships: 1
     published: true
     radius: 1.0
@@ -37,6 +38,7 @@ types:
     name: Core Scanner Probe I
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 23442.0
     published: true
     radius: 1.0
     rangefactor: 2
@@ -61,6 +63,7 @@ types:
     name: RSS Core Scanner Probe
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 23442.0
     published: true
     radius: 1.0
     rangefactor: 2
@@ -85,6 +88,7 @@ types:
     name: Sisters Combat Scanner Probe
     packagedVolume: 1.0
     portionSize: 1
+    price: 23442.0
     probecanscanships: 1
     published: true
     radius: 1.0
@@ -110,6 +114,7 @@ types:
     name: Sisters Core Scanner Probe
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 23442.0
     published: true
     radius: 1.0
     rangefactor: 2

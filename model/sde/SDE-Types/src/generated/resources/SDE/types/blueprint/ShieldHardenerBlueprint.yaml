@@ -55,6 +55,7 @@ types:
     name: Civilian EM Shield Hardener Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -65,6 +66,7 @@ types:
     name: Civilian Explosive Shield Hardener Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -75,6 +77,7 @@ types:
     name: Civilian Kinetic Shield Hardener Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -85,6 +88,7 @@ types:
     name: Civilian Thermal Shield Hardener Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -96,6 +100,7 @@ types:
     name: EM Shield Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -106,6 +111,7 @@ types:
     name: EM Shield Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -117,6 +123,7 @@ types:
     name: Explosive Shield Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -127,6 +134,7 @@ types:
     name: Explosive Shield Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -138,6 +146,7 @@ types:
     name: Kinetic Shield Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -148,6 +157,7 @@ types:
     name: Kinetic Shield Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -159,6 +169,7 @@ types:
     name: Multispectrum Shield Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -169,6 +180,7 @@ types:
     name: Multispectrum Shield Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -180,6 +192,7 @@ types:
     name: Thermal Shield Hardener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -190,6 +203,7 @@ types:
     name: Thermal Shield Hardener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

@@ -10,6 +10,7 @@ types:
     planetrestriction: 2016
     portionSize: 1
     poweroutput: 6000
+    price: 90000.0
     published: true
     radius: 1.0
     volume: 1000.0
@@ -24,6 +25,7 @@ types:
     planetrestriction: 13
     portionSize: 1
     poweroutput: 6000
+    price: 90000.0
     published: true
     radius: 1.0
     volume: 1000.0
@@ -38,6 +40,7 @@ types:
     planetrestriction: 12
     portionSize: 1
     poweroutput: 6000
+    price: 90000.0
     published: true
     radius: 1.0
     volume: 1000.0
@@ -52,6 +55,7 @@ types:
     planetrestriction: 2015
     portionSize: 1
     poweroutput: 6000
+    price: 90000.0
     published: true
     radius: 1.0
     volume: 1000.0
@@ -66,6 +70,7 @@ types:
     planetrestriction: 2014
     portionSize: 1
     poweroutput: 6000
+    price: 90000.0
     published: true
     radius: 1.0
     volume: 1000.0
@@ -80,6 +85,7 @@ types:
     planetrestriction: 2063
     portionSize: 1
     poweroutput: 6000
+    price: 90000.0
     published: true
     radius: 1.0
     volume: 1000.0
@@ -94,6 +100,7 @@ types:
     planetrestriction: 2017
     portionSize: 1
     poweroutput: 6000
+    price: 90000.0
     published: true
     radius: 1.0
     volume: 1000.0
@@ -108,6 +115,7 @@ types:
     planetrestriction: 11
     portionSize: 1
     poweroutput: 6000
+    price: 90000.0
     published: true
     radius: 1.0
     volume: 1000.0

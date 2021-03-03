@@ -5,6 +5,7 @@ types:
     name: CONCORD Capital Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.100232E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -15,6 +16,7 @@ types:
     name: Capital C-5L Compact Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.02E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -24,6 +26,7 @@ types:
     name: Capital Clarity Ward Enduring Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.02E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -34,6 +37,7 @@ types:
     name: Capital Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5.100232E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -53,6 +57,7 @@ types:
     name: Civilian Shield Booster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3360.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -90,6 +95,7 @@ types:
     name: Large Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1458560.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -100,6 +106,7 @@ types:
     name: Large Shield Booster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -121,6 +128,7 @@ types:
     name: Medium Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 364640.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -131,6 +139,7 @@ types:
     name: Medium Shield Booster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -152,6 +161,7 @@ types:
     name: Small Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 91160.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -162,6 +172,7 @@ types:
     name: Small Shield Booster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -191,6 +202,7 @@ types:
     name: X-Large Shield Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5854720.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -201,6 +213,7 @@ types:
     name: X-Large Shield Booster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

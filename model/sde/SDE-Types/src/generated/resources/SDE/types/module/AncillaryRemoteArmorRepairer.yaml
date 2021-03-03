@@ -22,6 +22,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 150000
+    price: 2.4200788E7
     published: true
     radius: 1.0
     reloadtime: 60000.0
@@ -54,6 +55,7 @@ types:
     packagedVolume: 25.0
     portionSize: 1
     power: 600
+    price: 31244.0
     published: true
     radius: 1.0
     reloadtime: 60000.0
@@ -86,6 +88,7 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 120
+    price: 12470.0
     published: true
     radius: 1.0
     reloadtime: 60000.0
@@ -118,6 +121,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 6
+    price: 4996.0
     published: true
     radius: 1.0
     reloadtime: 60000.0

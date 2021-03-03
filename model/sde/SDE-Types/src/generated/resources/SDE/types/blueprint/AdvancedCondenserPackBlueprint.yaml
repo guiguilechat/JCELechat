@@ -4,6 +4,7 @@ types:
     name: ElectroPunch Ultra L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   ElectroPunch Ultra M Blueprint:
@@ -11,6 +12,7 @@ types:
     name: ElectroPunch Ultra M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   ElectroPunch Ultra S Blueprint:
@@ -18,6 +20,7 @@ types:
     name: ElectroPunch Ultra S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   StrikeSnipe Ultra L Blueprint:
@@ -25,6 +28,7 @@ types:
     name: StrikeSnipe Ultra L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   StrikeSnipe Ultra M Blueprint:
@@ -32,6 +36,7 @@ types:
     name: StrikeSnipe Ultra M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   StrikeSnipe Ultra S Blueprint:
@@ -39,6 +44,7 @@ types:
     name: StrikeSnipe Ultra S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582
   unused blueprint type:
@@ -46,5 +52,6 @@ types:
     name: unused blueprint type
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     volume: 0.009999999776482582

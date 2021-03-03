@@ -35,6 +35,7 @@ types:
     packagedVolume: 500.0
     portionSize: 1
     powertospeed: 1
+    price: 7500.0
     propulsiongraphicid: 394
     published: true
     radius: 60.0

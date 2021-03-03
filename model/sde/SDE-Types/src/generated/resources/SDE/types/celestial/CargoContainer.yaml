@@ -7,6 +7,7 @@ types:
     name: Large Standard Container
     packagedVolume: 65.0
     portionSize: 1
+    price: 27000.0
     published: true
     radius: 50.0
     signatureradius: 100.0
@@ -20,6 +21,7 @@ types:
     name: Medium Standard Container
     packagedVolume: 33.0
     portionSize: 1
+    price: 12000.0
     published: true
     radius: 20.0
     signatureradius: 100.0
@@ -33,6 +35,7 @@ types:
     name: Small Standard Container
     packagedVolume: 10.0
     portionSize: 1
+    price: 4400.0
     published: true
     radius: 10.0
     signatureradius: 100.0

@@ -20,6 +20,7 @@ types:
     name: Inferno Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
+    price: 62340.0
     published: true
     radius: 300.0
     requiredskill1: 20209
@@ -55,6 +56,7 @@ types:
     name: Inferno Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
+    price: 62340.0
     published: true
     radius: 300.0
     requiredskill1: 20209
@@ -90,6 +92,7 @@ types:
     name: Mjolnir Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
+    price: 62340.0
     published: true
     radius: 300.0
     requiredskill1: 20209
@@ -125,6 +128,7 @@ types:
     name: Mjolnir Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
+    price: 62340.0
     published: true
     radius: 300.0
     requiredskill1: 20209
@@ -159,6 +163,7 @@ types:
     name: Nova Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
+    price: 62340.0
     published: true
     radius: 300.0
     requiredskill1: 20209
@@ -194,6 +199,7 @@ types:
     name: Nova Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
+    price: 62340.0
     published: true
     radius: 300.0
     requiredskill1: 20209
@@ -228,6 +234,7 @@ types:
     name: Scourge Javelin Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
+    price: 62340.0
     published: true
     radius: 300.0
     requiredskill1: 20209
@@ -263,6 +270,7 @@ types:
     name: Scourge Rage Rocket
     packagedVolume: 0.004999999888241291
     portionSize: 5000
+    price: 62340.0
     published: true
     radius: 300.0
     requiredskill1: 20209

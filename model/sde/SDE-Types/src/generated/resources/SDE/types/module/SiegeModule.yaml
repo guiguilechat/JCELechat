@@ -59,6 +59,7 @@ types:
     packagedVolume: 200.0
     portionSize: 1
     power: 100
+    price: 5000000.0
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -95
@@ -124,6 +125,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 50000
+    price: 3.7609576E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -182,6 +184,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 55000
+    price: 3.7609576E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -228,6 +231,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 100000
+    price: 4.7022756E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -282,6 +286,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 105000
+    price: 4.7022756E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -338,6 +343,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 100000
+    price: 4.7022756E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -392,6 +398,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 105000
+    price: 4.7022756E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80

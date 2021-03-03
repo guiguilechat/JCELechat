@@ -7,6 +7,7 @@ types:
     name: Capital Shield Emission Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -24,6 +25,7 @@ types:
     name: Capital Shield Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -45,6 +47,7 @@ types:
     name: EM Shield Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -61,6 +64,7 @@ types:
     name: Explosive Shield Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -77,6 +81,7 @@ types:
     name: Invulnerability Core Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E8
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -95,6 +100,7 @@ types:
     name: Kinetic Shield Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -110,6 +116,7 @@ types:
     name: Shield Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -127,6 +134,7 @@ types:
     name: Shield Emission Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -144,6 +152,7 @@ types:
     name: Shield Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 170000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -160,6 +169,7 @@ types:
     name: Shield Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 55000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -177,6 +187,7 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     powerneedbonus: -5
+    price: 100000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -194,6 +205,7 @@ types:
     name: Tactical Shield Manipulation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 210000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -211,6 +223,7 @@ types:
     name: Thermal Shield Compensation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     primaryattribute: 165
     published: true
     radius: 1.0

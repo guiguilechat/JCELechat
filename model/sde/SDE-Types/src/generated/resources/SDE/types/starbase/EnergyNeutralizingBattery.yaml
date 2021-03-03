@@ -30,6 +30,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000
+    price: 5000000.0
     proximityrange: 300000
     published: true
     radius: 629.0
@@ -81,6 +82,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000
+    price: 5000000.0
     proximityrange: 300000
     published: true
     radius: 629.0
@@ -131,6 +133,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000
+    price: 5000000.0
     proximityrange: 300000
     published: true
     radius: 629.0
@@ -182,6 +185,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000
+    price: 5000000.0
     proximityrange: 300000
     published: true
     radius: 629.0
@@ -233,6 +237,7 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 350000
+    price: 5000000.0
     proximityrange: 300000
     published: true
     radius: 629.0

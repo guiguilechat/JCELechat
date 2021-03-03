@@ -15,6 +15,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 100000
+    price: 1.3359116E7
     published: true
     radius: 1.0
     requiredskill1: 27936
@@ -42,6 +43,7 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 110000
+    price: 1.3359116E7
     published: true
     radius: 1.0
     requiredskill1: 27936
@@ -68,6 +70,7 @@ types:
     packagedVolume: 50.0
     portionSize: 1
     power: 380
+    price: 31244.0
     published: true
     radius: 1.0
     requiredskill1: 27902
@@ -93,6 +96,7 @@ types:
     packagedVolume: 50.0
     portionSize: 1
     power: 399
+    price: 31244.0
     published: true
     radius: 1.0
     requiredskill1: 27902
@@ -117,6 +121,7 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 115
+    price: 31244.0
     published: true
     radius: 1.0
     requiredskill1: 27902
@@ -142,6 +147,7 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 121
+    price: 31244.0
     published: true
     radius: 1.0
     requiredskill1: 27902
@@ -166,6 +172,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 6
+    price: 31244.0
     published: true
     radius: 1.0
     requiredskill1: 27902
@@ -191,6 +198,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 6
+    price: 31244.0
     published: true
     radius: 1.0
     requiredskill1: 27902

@@ -18,6 +18,7 @@ types:
     name: Guristas Inferno XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
+    price: 325000.0
     published: true
     radius: 300.0
     requiredskill1: 21668
@@ -48,6 +49,7 @@ types:
     name: Guristas Mjolnir XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
+    price: 350000.0
     published: true
     radius: 300.0
     requiredskill1: 21668
@@ -77,6 +79,7 @@ types:
     name: Guristas Nova XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
+    price: 250000.0
     published: true
     radius: 300.0
     requiredskill1: 21668
@@ -106,6 +109,7 @@ types:
     name: Guristas Scourge XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
+    price: 300000.0
     published: true
     radius: 300.0
     requiredskill1: 21668
@@ -132,6 +136,7 @@ types:
     name: Inferno XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
+    price: 325000.0
     published: true
     radius: 300.0
     requiredskill1: 21668
@@ -160,6 +165,7 @@ types:
     name: Mjolnir XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
+    price: 350000.0
     published: true
     radius: 300.0
     requiredskill1: 21668
@@ -187,6 +193,7 @@ types:
     name: Nova XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
+    price: 250000.0
     published: true
     radius: 300.0
     requiredskill1: 21668
@@ -214,6 +221,7 @@ types:
     name: Scourge XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
+    price: 300000.0
     published: true
     radius: 300.0
     requiredskill1: 21668

@@ -17,6 +17,7 @@ types:
     name: Conflagration L
     packagedVolume: 1.0
     portionSize: 4
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 12215
@@ -45,6 +46,7 @@ types:
     name: Conflagration M
     packagedVolume: 1.0
     portionSize: 4
+    price: 320000.0
     published: true
     radius: 1.0
     requiredskill1: 12214
@@ -73,6 +75,7 @@ types:
     name: Conflagration S
     packagedVolume: 1.0
     portionSize: 4
+    price: 80000.0
     published: true
     radius: 1.0
     requiredskill1: 12213
@@ -128,6 +131,7 @@ types:
     name: Scorch L
     packagedVolume: 1.0
     portionSize: 4
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 12215
@@ -155,6 +159,7 @@ types:
     name: Scorch M
     packagedVolume: 1.0
     portionSize: 4
+    price: 320000.0
     published: true
     radius: 1.0
     requiredskill1: 12214
@@ -182,6 +187,7 @@ types:
     name: Scorch S
     packagedVolume: 1.0
     portionSize: 4
+    price: 80000.0
     published: true
     radius: 1.0
     requiredskill1: 12213

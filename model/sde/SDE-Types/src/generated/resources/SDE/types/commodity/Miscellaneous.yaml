@@ -15,6 +15,7 @@ types:
     name: AIMEDs
     packagedVolume: 25.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 25.0
   Acceleration Gate Authentication Matrix:
@@ -33,6 +34,7 @@ types:
     name: Accounting Records
     packagedVolume: 1.0
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 1.0
   'Address #298 Audio Fragment':
@@ -142,6 +144,7 @@ types:
     name: Amarr KIU-1 Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Amarr MIY-1 Nexus Chip:
@@ -152,6 +155,7 @@ types:
     name: Amarr MIY-1 Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Amarr Religious Holoreels:
@@ -171,6 +175,7 @@ types:
     name: Amarr TIL-1 Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000000.0
     published: true
     volume: 0.10000000149011612
   Amarr TIL-1A Nexus Chips:
@@ -199,6 +204,7 @@ types:
     name: Amarrian Wheat
     packagedVolume: 1.149999976158142
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 1.149999976158142
   Ammatar Transaction and salary logs:
@@ -262,6 +268,7 @@ types:
     name: Antiviral Drugs
     packagedVolume: 0.20000000298023224
     portionSize: 1
+    price: 325.0
     published: true
     volume: 0.20000000298023224
   Archives Passkey:
@@ -289,6 +296,7 @@ types:
     name: Arms Cache
     packagedVolume: 2.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 2.0
   Assault on Caldari Prime Ribbon:
@@ -335,6 +343,7 @@ types:
     name: Barrels of Fertilizer
     packagedVolume: 6000.0
     portionSize: 1
+    price: 200.0
     published: true
     volume: 6000.0
   Barrels of Soil:
@@ -344,6 +353,7 @@ types:
     name: Barrels of Soil
     packagedVolume: 8000.0
     portionSize: 1
+    price: 80.0
     published: true
     volume: 8000.0
   Barrels of Water:
@@ -353,6 +363,7 @@ types:
     name: Barrels of Water
     packagedVolume: 2500.0
     portionSize: 1
+    price: 35.0
     published: true
     volume: 2500.0
   Battery Cartridge:
@@ -445,6 +456,7 @@ types:
     name: Broken Broadcast Node
     packagedVolume: 100.0
     portionSize: 1
+    price: 25000.0
     published: true
     radius: 1.0
     volume: 100.0
@@ -456,6 +468,7 @@ types:
     name: Broken Integrity Response Drones
     packagedVolume: 100.0
     portionSize: 1
+    price: 25000.0
     published: true
     radius: 1.0
     volume: 100.0
@@ -476,6 +489,7 @@ types:
     name: Broken Nano-Factory
     packagedVolume: 100.0
     portionSize: 1
+    price: 25000.0
     published: true
     radius: 1.0
     volume: 100.0
@@ -487,6 +501,7 @@ types:
     name: Broken Organic Mortar Applicators
     packagedVolume: 100.0
     portionSize: 1
+    price: 25000.0
     published: true
     radius: 1.0
     volume: 100.0
@@ -498,6 +513,7 @@ types:
     name: Broken Recursive Computing Module
     packagedVolume: 100.0
     portionSize: 1
+    price: 25000.0
     published: true
     radius: 1.0
     volume: 100.0
@@ -509,6 +525,7 @@ types:
     name: Broken Self-Harmonizing Power Core
     packagedVolume: 100.0
     portionSize: 1
+    price: 25000.0
     published: true
     radius: 1.0
     volume: 100.0
@@ -520,6 +537,7 @@ types:
     name: Broken Sterile Conduits
     packagedVolume: 100.0
     portionSize: 1
+    price: 25000.0
     published: true
     radius: 1.0
     volume: 100.0
@@ -531,6 +549,7 @@ types:
     name: Broken Wetware Mainframe
     packagedVolume: 100.0
     portionSize: 1
+    price: 25000.0
     published: true
     radius: 1.0
     volume: 100.0
@@ -587,6 +606,7 @@ types:
     name: Caldari AZ-1 Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000000.0
     published: true
     volume: 0.10000000149011612
   Caldari BY-1 Nexus Chip:
@@ -597,6 +617,7 @@ types:
     name: Caldari BY-1 Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Caldari CU-1 Nexus Chip:
@@ -607,6 +628,7 @@ types:
     name: Caldari CU-1 Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Caldari Navy Overlay Transponder:
@@ -652,6 +674,7 @@ types:
     name: Cargo Manifest
     packagedVolume: 0.5
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.5
   Cartel Holovids:
@@ -661,6 +684,7 @@ types:
     name: Cartel Holovids
     packagedVolume: 1.0
     portionSize: 1
+    price: 250.0
     published: true
     volume: 1.0
   Central Data Core:
@@ -670,6 +694,7 @@ types:
     name: Central Data Core
     packagedVolume: 5.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 5.0
   Cerebral Slice:
@@ -742,6 +767,7 @@ types:
     name: Colossal Sealed Cargo Containers
     packagedVolume: 1000.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 1000.0
   Communications Logs:
@@ -787,6 +813,7 @@ types:
     name: Construction Materials
     packagedVolume: 70.0
     portionSize: 1
+    price: 500.0
     published: true
     volume: 70.0
   Corporations for the Rest of Us:
@@ -796,6 +823,7 @@ types:
     name: Corporations for the Rest of Us
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Correspondence Log KL-513:
@@ -805,6 +833,7 @@ types:
     name: Correspondence Log KL-513
     packagedVolume: 0.5
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.5
   Corrupted Drone Components:
@@ -841,6 +870,7 @@ types:
     name: Covert Recording Device
     packagedVolume: 1.0
     portionSize: 1
+    price: 58624.0
     published: true
     volume: 1.0
   Covert Research Tools:
@@ -851,6 +881,7 @@ types:
     name: Covert Research Tools
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Crate of Aerogel Counteragent:
@@ -1112,6 +1143,7 @@ types:
     name: Crates of Construction Blocks
     packagedVolume: 70.0
     portionSize: 1
+    price: 500.0
     published: true
     volume: 70.0
   Crates of Consumer Electronics:
@@ -1121,6 +1153,7 @@ types:
     name: Crates of Consumer Electronics
     packagedVolume: 40.0
     portionSize: 1
+    price: 750.0
     published: true
     volume: 40.0
   Crates of Coolant:
@@ -1166,6 +1199,7 @@ types:
     name: Crates of Electronic Parts
     packagedVolume: 40.0
     portionSize: 1
+    price: 750.0
     published: true
     volume: 40.0
   Crates of Enriched Uranium:
@@ -1175,6 +1209,7 @@ types:
     name: Crates of Enriched Uranium
     packagedVolume: 70.0
     portionSize: 1
+    price: 500.0
     published: true
     volume: 70.0
   Crates of Fertilizer:
@@ -1202,6 +1237,7 @@ types:
     name: Crates of Frozen Plant Seeds
     packagedVolume: 50.0
     portionSize: 1
+    price: 75.0
     published: true
     volume: 50.0
   Crates of Garbage:
@@ -1247,6 +1283,7 @@ types:
     name: Crates of Holoreels
     packagedVolume: 50.0
     portionSize: 1
+    price: 250.0
     published: true
     volume: 50.0
   Crates of Liparer Cheese:
@@ -1274,6 +1311,7 @@ types:
     name: Crates of Long-limb Roes
     packagedVolume: 100.0
     portionSize: 1
+    price: 2400.0
     published: true
     volume: 100.0
   Crates of Mechanical Parts:
@@ -1400,6 +1438,7 @@ types:
     name: Crates of Rocket Fuel
     packagedVolume: 40.0
     portionSize: 1
+    price: 505.0
     published: true
     volume: 40.0
   Crates of Silicate Glass:
@@ -1409,6 +1448,7 @@ types:
     name: Crates of Silicate Glass
     packagedVolume: 50.0
     portionSize: 1
+    price: 500.0
     published: true
     volume: 50.0
   Crates of Silicon:
@@ -1418,6 +1458,7 @@ types:
     name: Crates of Silicon
     packagedVolume: 50.0
     portionSize: 1
+    price: 500.0
     published: true
     volume: 50.0
   Crates of Small Arms:
@@ -1454,6 +1495,7 @@ types:
     name: Crates of Spirits
     packagedVolume: 60.0
     portionSize: 1
+    price: 455.0
     published: true
     volume: 60.0
   Crates of Synthetic Oil:
@@ -1472,6 +1514,7 @@ types:
     name: Crates of Tobacco
     packagedVolume: 40.0
     portionSize: 1
+    price: 48.0
     published: true
     volume: 40.0
   Crates of Transmitters:
@@ -1481,6 +1524,7 @@ types:
     name: Crates of Transmitters
     packagedVolume: 60.0
     portionSize: 1
+    price: 313.0
     published: true
     volume: 60.0
   Crates of Vaccine Injectors:
@@ -1564,6 +1608,7 @@ types:
     name: Cryogenic Stasis Capsule
     packagedVolume: 25.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 25.0
   Custom Circuitry:
@@ -1573,6 +1618,7 @@ types:
     name: Custom Circuitry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000000.0
     published: true
     volume: 0.10000000149011612
   Customs Patrol Schedule:
@@ -1610,6 +1656,7 @@ types:
     name: Damning Evidence
     packagedVolume: 1.0
     portionSize: 1
+    price: 150.0
     published: true
     volume: 1.0
   Decoy Prototype Cloaking Devices:
@@ -1674,6 +1721,7 @@ types:
     name: Design Documents
     packagedVolume: 0.5
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.5
   Deteis Family:
@@ -1847,6 +1895,7 @@ types:
     name: Encrypted Data Crystals
     packagedVolume: 1.0
     portionSize: 1
+    price: 80.0
     published: true
     volume: 1.0
   Encrypted Data Fragment:
@@ -2046,6 +2095,7 @@ types:
     name: Foundation Stone
     packagedVolume: 180.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 180.0
   Fraudulent Pax Amarria:
@@ -2055,6 +2105,7 @@ types:
     name: Fraudulent Pax Amarria
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Freedom of Operation License:
@@ -2074,6 +2125,7 @@ types:
     name: Galeptos Medicine
     packagedVolume: 1.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 1.0
   Gallente 106 Election Holoreel:
@@ -2094,6 +2146,7 @@ types:
     name: Gallente Alpha Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000000.0
     published: true
     volume: 0.10000000149011612
   Gallente Beta Nexus Chip:
@@ -2104,6 +2157,7 @@ types:
     name: Gallente Beta Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Gallente Federation Transaction And Salary Logs:
@@ -2123,6 +2177,7 @@ types:
     name: Gallente Gamma Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Gallentean Planetary Vehicles:
@@ -2133,6 +2188,7 @@ types:
     name: Gallentean Planetary Vehicles
     packagedVolume: 2.0
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 2.0
   Gallentean Viral Agent:
@@ -2142,6 +2198,7 @@ types:
     name: Gallentean Viral Agent
     packagedVolume: 0.5
     portionSize: 1
+    price: 850.0
     published: true
     volume: 0.5
   Gamma Ray Modulate Disc:
@@ -2151,6 +2208,7 @@ types:
     name: Gamma Ray Modulate Disc
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Gas Passkey:
@@ -2169,6 +2227,7 @@ types:
     name: Giant Sealed Cargo Containers
     packagedVolume: 500.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 500.0
   Gold Medallion of Liberty:
@@ -2241,6 +2300,7 @@ types:
     name: Guristas War Plans
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.10000000149011612
   Hand of Arzad:
@@ -2277,6 +2337,7 @@ types:
     name: Heap-Load of Garbage
     packagedVolume: 2500.0
     portionSize: 1
+    price: 20.0
     published: true
     volume: 2500.0
   Heart Stone:
@@ -2305,6 +2366,7 @@ types:
     name: High-Tech Data Chip
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.009999999776482582
   High-Tech Manufacturing Tools:
@@ -2316,6 +2378,7 @@ types:
     name: High-Tech Manufacturing Tools
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -2327,6 +2390,7 @@ types:
     name: High-Tech Scanner
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.009999999776482582
   High-Tech Small Arms:
@@ -2337,6 +2401,7 @@ types:
     name: High-Tech Small Arms
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.009999999776482582
   Hive Mind CPU:
@@ -2357,6 +2422,7 @@ types:
     name: Holoreel - Torture Log I15B
     packagedVolume: 0.5
     portionSize: 1
+    price: 250.0
     published: true
     volume: 0.5
   'Holoreel: Wanted for Love':
@@ -2438,6 +2504,7 @@ types:
     name: Infrared Ray Modulate Disc
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Inquest Drone:
@@ -2566,6 +2633,7 @@ types:
     name: Khumaak
     packagedVolume: 0.30000001192092896
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.30000001192092896
   Kidnapping Evidence:
@@ -2632,6 +2700,7 @@ types:
     name: Large 'Fortizar' Citadel BPC Token
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.009999999776482582
   Large Crate of Amarr Scripture Educational Study Packages (Matari translation):
@@ -2794,6 +2863,7 @@ types:
     name: Large Crates of Construction Blocks
     packagedVolume: 700.0
     portionSize: 1
+    price: 500.0
     published: true
     volume: 700.0
   Large Crates of Coolant:
@@ -2830,6 +2900,7 @@ types:
     name: Large Crates of Electronic Parts
     packagedVolume: 400.0
     portionSize: 1
+    price: 750.0
     published: true
     volume: 400.0
   Large Crates of Fertilizer:
@@ -2857,6 +2928,7 @@ types:
     name: Large Crates of Frozen Plant Seeds
     packagedVolume: 500.0
     portionSize: 1
+    price: 75.0
     published: true
     volume: 500.0
   Large Crates of Galeptos Medicine:
@@ -2902,6 +2974,7 @@ types:
     name: Large Crates of Holoreels
     packagedVolume: 500.0
     portionSize: 1
+    price: 250.0
     published: true
     volume: 500.0
   Large Crates of Liparer Cheese:
@@ -2920,6 +2993,7 @@ types:
     name: Large Crates of Long-limb Roes
     packagedVolume: 1000.0
     portionSize: 1
+    price: 2400.0
     published: true
     volume: 1000.0
   Large Crates of Mechanical Parts:
@@ -3001,6 +3075,7 @@ types:
     name: Large Crates of Rocket Fuel
     packagedVolume: 400.0
     portionSize: 1
+    price: 505.0
     published: true
     volume: 400.0
   Large Crates of Small Arms:
@@ -3028,6 +3103,7 @@ types:
     name: Large Crates of Spirits
     packagedVolume: 600.0
     portionSize: 1
+    price: 455.0
     published: true
     volume: 600.0
   Large Crates of Synthetic Oil:
@@ -3046,6 +3122,7 @@ types:
     name: Large Crates of Tobacco
     packagedVolume: 400.0
     portionSize: 1
+    price: 48.0
     published: true
     volume: 400.0
   Large Crates of Transmitters:
@@ -3055,6 +3132,7 @@ types:
     name: Large Crates of Transmitters
     packagedVolume: 600.0
     portionSize: 1
+    price: 313.0
     published: true
     volume: 600.0
   Large Crates of Viral Agent:
@@ -3127,6 +3205,7 @@ types:
     name: Large Sealed Cargo Containers
     packagedVolume: 100.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 100.0
   Large Special Delivery:
@@ -3136,6 +3215,7 @@ types:
     name: Large Special Delivery
     packagedVolume: 1000.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 1000.0
   Legends Medal:
@@ -3200,6 +3280,7 @@ types:
     name: Mangled Sansha Data Analyzer
     packagedVolume: 5.0
     portionSize: 1
+    price: 33264.0
     published: true
     volume: 5.0
   Manportable Electromagnetic Pulse Weapons:
@@ -3230,6 +3311,7 @@ types:
     name: Massive Sealed Cargo Containers
     packagedVolume: 2000.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 2000.0
   Medical Supplies:
@@ -3249,6 +3331,7 @@ types:
     name: Medium 'Astrahus' Citadel BPC Token
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.009999999776482582
   Medium Sized Sealed Cargo Containers:
@@ -3258,6 +3341,7 @@ types:
     name: Medium Sized Sealed Cargo Containers
     packagedVolume: 50.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 50.0
   Message from the Governor:
@@ -3304,6 +3388,7 @@ types:
     name: Minmatar UUA Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Minmatar UUB Nexus Chip:
@@ -3314,6 +3399,7 @@ types:
     name: Minmatar UUB Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Minmatar UUC Nexus Chip:
@@ -3324,6 +3410,7 @@ types:
     name: Minmatar UUC Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000000.0
     published: true
     volume: 0.10000000149011612
   Mizara's Doll:
@@ -3342,6 +3429,7 @@ types:
     name: Modified Augumene Antidote
     packagedVolume: 5.0
     portionSize: 1
+    price: 325.0
     published: true
     volume: 5.0
   Mordur's DNA:
@@ -3480,6 +3568,7 @@ types:
     name: Nugoeihuvi Data Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.10000000149011612
   Number Box:
@@ -3526,6 +3615,7 @@ types:
     name: Olfei Medallion
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.10000000149011612
   Olufami's DNA:
@@ -3618,6 +3708,7 @@ types:
     name: Pax Amarria
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Pax Ammaria:
@@ -3627,6 +3718,7 @@ types:
     name: Pax Ammaria
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Personal Information Data:
@@ -3755,6 +3847,7 @@ types:
     name: Quafe Unleashed formula
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 30.0
     published: true
     volume: 0.10000000149011612
   Quantrium Wiring:
@@ -3791,6 +3884,7 @@ types:
     name: Radio Ray Modulate Disc
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Ralie Ardanne's Belongings:
@@ -3818,6 +3912,7 @@ types:
     name: Recovered Data Core
     packagedVolume: 1.0
     portionSize: 1
+    price: 1.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -3828,6 +3923,7 @@ types:
     name: Recovered Navigation Telemetry
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1.0
     published: true
     volume: 0.10000000149011612
   Recovered Radioactive Materials:
@@ -3901,6 +3997,7 @@ types:
     name: Research Component
     packagedVolume: 1.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 1.0
   Research Data Fragment:
@@ -3920,6 +4017,7 @@ types:
     name: Research Tools
     packagedVolume: 1.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 1.0
   Riot Interdiction Team:
@@ -3948,6 +4046,7 @@ types:
     name: Rogue Drone 42-X Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8000000.0
     published: true
     volume: 0.10000000149011612
   Rogue Drone 43-X Nexus Chip:
@@ -3958,6 +4057,7 @@ types:
     name: Rogue Drone 43-X Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2000000.0
     published: true
     volume: 0.10000000149011612
   Rogue Drone 46-X Nexus Chip:
@@ -3968,6 +4068,7 @@ types:
     name: Rogue Drone 46-X Nexus Chip
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Rogue Drone A.I. Core:
@@ -3995,6 +4096,7 @@ types:
     name: Runaway Daughter
     packagedVolume: 25.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 25.0
   S.I Formula Sheet:
@@ -4040,6 +4142,7 @@ types:
     name: Sansha Command Signal Receiver
     packagedVolume: 1.0
     portionSize: 1
+    price: 750.0
     published: true
     volume: 1.0
   Sansha Data Sheets:
@@ -4202,6 +4305,7 @@ types:
     name: Small Sealed Cargo Containers
     packagedVolume: 10.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 10.0
   Small Warded Container:
@@ -4211,6 +4315,7 @@ types:
     name: Small Warded Container
     packagedVolume: 5.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 5.0
   Smuggler's Warning About Sister Alitura:
@@ -4247,6 +4352,7 @@ types:
     name: Special Delivery
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.10000000149011612
   Special Forces Weapons and Equipment:
@@ -4337,6 +4443,7 @@ types:
     name: Star Charts
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.10000000149011612
   Star of the Sefrim:
@@ -4410,6 +4517,7 @@ types:
     name: Subcompact TEBS Interface
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.009999999776482582
   Subcranial Nanocontrollers:
@@ -4476,6 +4584,7 @@ types:
     name: Test Dummies
     packagedVolume: 2.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 2.0
   Test crate 1:
@@ -4539,6 +4648,7 @@ types:
     name: Top-Secret Design Documents
     packagedVolume: 1.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 1.0
   Traditional Board Game:
@@ -4621,6 +4731,7 @@ types:
     name: Unassembled Energy Weapons
     packagedVolume: 5.0
     portionSize: 1
+    price: 100.0
     published: true
     volume: 5.0
   Unknown Dead:
@@ -4668,6 +4779,7 @@ types:
     name: Warclone Blanks
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000000.0
     published: true
     volume: 0.10000000149011612
   Whelan Machorin's Head:
@@ -4686,6 +4798,7 @@ types:
     name: Wildfire Khumaak
     packagedVolume: 0.30000001192092896
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.30000001192092896
   Wolf Burgan's Body Double:
@@ -4768,6 +4881,7 @@ types:
     name: Zemnar
     packagedVolume: 0.20000000298023224
     portionSize: 1
+    price: 100.0
     published: true
     volume: 0.20000000298023224
   Zor's DNA:

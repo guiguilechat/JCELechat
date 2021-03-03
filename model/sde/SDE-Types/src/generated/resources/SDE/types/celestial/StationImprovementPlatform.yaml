@@ -7,6 +7,7 @@ types:
     name: Gallente Advanced Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -22,6 +23,7 @@ types:
     name: Gallente Advanced Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -37,6 +39,7 @@ types:
     name: Gallente Advanced Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -52,6 +55,7 @@ types:
     name: Gallente Advanced Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -67,6 +71,7 @@ types:
     name: Gallente Advanced Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -83,6 +88,7 @@ types:
     name: Gallente Basic Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -98,6 +104,7 @@ types:
     name: Gallente Basic Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -113,6 +120,7 @@ types:
     name: Gallente Basic Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -128,6 +136,7 @@ types:
     name: Gallente Basic Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -143,6 +152,7 @@ types:
     name: Gallente Basic Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -159,6 +169,7 @@ types:
     name: Gallente Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -174,6 +185,7 @@ types:
     name: Gallente Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -189,6 +201,7 @@ types:
     name: Gallente Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -204,6 +217,7 @@ types:
     name: Gallente Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -219,6 +233,7 @@ types:
     name: Gallente Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -235,6 +250,7 @@ types:
     name: Minmatar Advanced Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -250,6 +266,7 @@ types:
     name: Minmatar Advanced Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -265,6 +282,7 @@ types:
     name: Minmatar Advanced Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -280,6 +298,7 @@ types:
     name: Minmatar Advanced Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -295,6 +314,7 @@ types:
     name: Minmatar Advanced Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -311,6 +331,7 @@ types:
     name: Minmatar Basic Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -326,6 +347,7 @@ types:
     name: Minmatar Basic Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -341,6 +363,7 @@ types:
     name: Minmatar Basic Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -356,6 +379,7 @@ types:
     name: Minmatar Basic Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -371,6 +395,7 @@ types:
     name: Minmatar Basic Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -387,6 +412,7 @@ types:
     name: Minmatar Outpost Factory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -402,6 +428,7 @@ types:
     name: Minmatar Outpost Laboratory Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -417,6 +444,7 @@ types:
     name: Minmatar Outpost Office Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -432,6 +460,7 @@ types:
     name: Minmatar Outpost Plant Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400
@@ -447,6 +476,7 @@ types:
     name: Minmatar Outpost Refinery Platform
     packagedVolume: 750000.0
     portionSize: 1
+    price: 1.0E9
     published: true
     radius: 1000.0
     requiredskill1: 3400

@@ -7,6 +7,7 @@ types:
     name: Covetor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -19,6 +20,7 @@ types:
     name: Hulk Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -31,6 +33,7 @@ types:
     name: Mackinaw Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -43,6 +46,7 @@ types:
     name: Procurer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.4E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -55,6 +59,7 @@ types:
     name: Retriever Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.7E9
     published: true
     radius: 1.0
     techlevel: 1
@@ -67,6 +72,7 @@ types:
     name: Skiff Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2

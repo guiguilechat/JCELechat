@@ -16,6 +16,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 250000
+    price: 2.5E7
     published: true
     radius: 937.0
     reactiongroup1: 662
@@ -50,6 +51,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 250000
+    price: 2.5E7
     published: true
     radius: 937.0
     reactiongroup1: 436
@@ -85,6 +87,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 250000
+    price: 1.25E7
     published: true
     radius: 937.0
     reactiongroup1: 661
@@ -119,6 +122,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 125000
+    price: 1.25E7
     published: true
     radius: 937.0
     reactiongroup1: 977
@@ -153,6 +157,7 @@ types:
     packagedVolume: 4000.0
     portionSize: 1
     power: 125000
+    price: 1.25E7
     published: true
     radius: 937.0
     reactiongroup1: 436

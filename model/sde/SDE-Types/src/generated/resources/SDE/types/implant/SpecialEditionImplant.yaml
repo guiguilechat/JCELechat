@@ -8,6 +8,7 @@ types:
     name: Cybernetic 'Source' Subprocessor
     packagedVolume: 1.0
     portionSize: 1
+    price: 400000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -24,6 +25,7 @@ types:
     nondestructible: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -40,6 +42,7 @@ types:
     perceptionbonus: 3
     portionSize: 1
     powerengineeringoutputbonus: 1.5
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -58,6 +61,7 @@ types:
     name: Genolution Core Augmentation CA-2
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -74,6 +78,7 @@ types:
     name: Genolution Core Augmentation CA-3
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -94,6 +99,7 @@ types:
     name: Genolution Core Augmentation CA-4
     packagedVolume: 1.0
     portionSize: 1
+    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -108,6 +114,7 @@ types:
     name: Neural 'Source' Boost
     packagedVolume: 1.0
     portionSize: 1
+    price: 400000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

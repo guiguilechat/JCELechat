@@ -6,6 +6,7 @@ types:
     name: Ice Harvester I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.500368E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -16,6 +17,7 @@ types:
     name: Ice Harvester II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -26,6 +28,7 @@ types:
     name: Modulated Deep Core Strip Miner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -36,6 +39,7 @@ types:
     name: Modulated Strip Miner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -47,6 +51,7 @@ types:
     name: Strip Miner I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.613008E7
     published: true
     radius: 1.0
     techlevel: 1

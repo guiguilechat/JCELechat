@@ -22,6 +22,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 2
+    price: 200000.0
     published: true
     radius: 1.0
     reloadtime: 10000.0

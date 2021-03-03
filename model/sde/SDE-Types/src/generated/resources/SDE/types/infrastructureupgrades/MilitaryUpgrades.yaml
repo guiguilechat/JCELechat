@@ -12,6 +12,7 @@ types:
     name: Entrapment Array 1
     packagedVolume: 5000.0
     portionSize: 1
+    price: 1.0E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2028
@@ -29,6 +30,7 @@ types:
     name: Entrapment Array 2
     packagedVolume: 10000.0
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2031
@@ -46,6 +48,7 @@ types:
     name: Entrapment Array 3
     packagedVolume: 20000.0
     portionSize: 1
+    price: 3.0E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2034
@@ -63,6 +66,7 @@ types:
     name: Entrapment Array 4
     packagedVolume: 40000.0
     portionSize: 1
+    price: 4.0E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2035
@@ -80,6 +84,7 @@ types:
     name: Entrapment Array 5
     packagedVolume: 60000.0
     portionSize: 1
+    price: 5.0E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2036
@@ -121,6 +126,7 @@ types:
     name: Pirate Detection Array 1
     packagedVolume: 5000.0
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     volume: 5000.0
@@ -161,6 +167,7 @@ types:
     name: Pirate Detection Array 2
     packagedVolume: 10000.0
     portionSize: 1
+    price: 1.0E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2026
@@ -202,6 +209,7 @@ types:
     name: Pirate Detection Array 3
     packagedVolume: 20000.0
     portionSize: 1
+    price: 1.5E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2027
@@ -243,6 +251,7 @@ types:
     name: Pirate Detection Array 4
     packagedVolume: 40000.0
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2028
@@ -284,6 +293,7 @@ types:
     name: Pirate Detection Array 5
     packagedVolume: 60000.0
     portionSize: 1
+    price: 2.5E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2029
@@ -296,6 +306,7 @@ types:
     name: Quantum Flux Generator 1
     packagedVolume: 5000.0
     portionSize: 1
+    price: 5.0E7
     published: true
     radius: 1.0
     volume: 5000.0
@@ -307,6 +318,7 @@ types:
     name: Quantum Flux Generator 2
     packagedVolume: 10000.0
     portionSize: 1
+    price: 1.0E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2058
@@ -319,6 +331,7 @@ types:
     name: Quantum Flux Generator 3
     packagedVolume: 20000.0
     portionSize: 1
+    price: 1.5E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2059
@@ -331,6 +344,7 @@ types:
     name: Quantum Flux Generator 4
     packagedVolume: 40000.0
     portionSize: 1
+    price: 2.0E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2060
@@ -343,6 +357,7 @@ types:
     name: Quantum Flux Generator 5
     packagedVolume: 60000.0
     portionSize: 1
+    price: 2.5E8
     published: true
     radius: 1.0
     sovupgraderequiredupgradeid: 2061

@@ -6,6 +6,7 @@ types:
     name: 100K Bounty SCC Encrypted Bond
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.009999999776482582
   10K Bounty SCC Encrypted Bond:
@@ -15,6 +16,7 @@ types:
     name: 10K Bounty SCC Encrypted Bond
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.009999999776482582
   10M Bounty SCC Encrypted Bond:
@@ -24,6 +26,7 @@ types:
     name: 10M Bounty SCC Encrypted Bond
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   1M Bounty SCC Encrypted Bond:
@@ -33,5 +36,6 @@ types:
     name: 1M Bounty SCC Encrypted Bond
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     published: true
     volume: 0.009999999776482582

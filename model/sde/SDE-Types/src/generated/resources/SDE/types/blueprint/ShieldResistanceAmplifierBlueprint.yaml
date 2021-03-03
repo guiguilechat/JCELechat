@@ -86,6 +86,7 @@ types:
     name: EM Shield Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 187420.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -96,6 +97,7 @@ types:
     name: EM Shield Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -107,6 +109,7 @@ types:
     name: Explosive Shield Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 187420.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -117,6 +120,7 @@ types:
     name: Explosive Shield Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -128,6 +132,7 @@ types:
     name: Kinetic Shield Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 187420.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -138,6 +143,7 @@ types:
     name: Kinetic Shield Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -189,6 +195,7 @@ types:
     name: Thermal Shield Amplifier I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 187420.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -199,6 +206,7 @@ types:
     name: Thermal Shield Amplifier II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

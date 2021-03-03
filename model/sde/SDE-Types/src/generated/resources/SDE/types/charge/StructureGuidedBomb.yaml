@@ -20,6 +20,7 @@ types:
     name: Standup Heavy Guided Bomb
     packagedVolume: 100.0
     portionSize: 1
+    price: 325000.0
     published: true
     radius: 300.0
     structureitemvisualflag: 1
@@ -47,6 +48,7 @@ types:
     name: Standup Light Guided Bomb
     packagedVolume: 100.0
     portionSize: 1
+    price: 325000.0
     published: true
     radius: 300.0
     structureitemvisualflag: 1

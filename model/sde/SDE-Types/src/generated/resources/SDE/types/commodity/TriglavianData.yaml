@@ -24,6 +24,7 @@ types:
     name: Triglavian Survey Database
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.009999999776482582
   Triglavian Transconduit Datacaster:

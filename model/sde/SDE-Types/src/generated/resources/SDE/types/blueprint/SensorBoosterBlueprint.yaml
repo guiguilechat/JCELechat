@@ -45,6 +45,7 @@ types:
     name: Networked Sensor Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 6.0E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -55,6 +56,7 @@ types:
     name: Remote Sensor Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 399680.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -76,6 +78,7 @@ types:
     name: Remote Sensor Dampener I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 499980.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -86,6 +89,7 @@ types:
     name: Remote Sensor Dampener II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -97,6 +101,7 @@ types:
     name: Sensor Booster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 98700.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -107,6 +112,7 @@ types:
     name: Sensor Booster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

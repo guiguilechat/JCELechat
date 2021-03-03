@@ -11,6 +11,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9870.0
     published: true
     radius: 1.0
     requiredskill1: 25811
@@ -31,6 +32,7 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
+    price: 9870.0
     published: true
     radius: 1.0
     requiredskill1: 25811

@@ -6,6 +6,7 @@ types:
     name: Civilian Data Analyzer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 20000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -17,6 +18,7 @@ types:
     name: Data Analyzer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 332640.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -27,6 +29,7 @@ types:
     name: Data Analyzer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 332640.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -45,6 +48,7 @@ types:
     name: Ligature Integrated Analyzer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 332640.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -55,6 +59,7 @@ types:
     name: Mangled Sansha Data Analyzer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 332640.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -65,6 +70,7 @@ types:
     name: Purloined Sansha Data Analyzer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 332640.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -76,6 +82,7 @@ types:
     name: Relic Analyzer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 332640.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -86,6 +93,7 @@ types:
     name: Relic Analyzer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 332640.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -96,6 +104,7 @@ types:
     name: Zeugma Integrated Analyzer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 332640.0
     published: true
     radius: 1.0
     techlevel: 1

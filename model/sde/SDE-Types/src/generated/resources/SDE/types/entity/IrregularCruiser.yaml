@@ -3355,6 +3355,7 @@ types:
     optimalsigradius: 40000
     packagedVolume: 118000.0
     portionSize: 1
+    price: 7500000.0
     published: false
     radius: 250.0
     rechargerate: 395000.0
@@ -4420,6 +4421,7 @@ types:
     optimalsigradius: 40000
     packagedVolume: 118000.0
     portionSize: 1
+    price: 7500000.0
     published: false
     radius: 250.0
     rechargerate: 395000.0

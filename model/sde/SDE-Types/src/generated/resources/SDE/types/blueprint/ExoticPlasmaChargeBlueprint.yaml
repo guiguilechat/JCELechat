@@ -4,6 +4,7 @@ types:
     name: Baryon Exotic Plasma L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 175000.0
     published: true
     volume: 0.009999999776482582
   Baryon Exotic Plasma M Blueprint:
@@ -11,6 +12,7 @@ types:
     name: Baryon Exotic Plasma M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 175000.0
     published: true
     volume: 0.009999999776482582
   Baryon Exotic Plasma S Blueprint:
@@ -18,6 +20,7 @@ types:
     name: Baryon Exotic Plasma S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 50000.0
     published: true
     volume: 0.009999999776482582
   Baryon Exotic Plasma XL Blueprint:
@@ -25,6 +28,7 @@ types:
     name: Baryon Exotic Plasma XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     published: true
     volume: 0.009999999776482582
   Meson Exotic Plasma L Blueprint:
@@ -32,6 +36,7 @@ types:
     name: Meson Exotic Plasma L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 400000.0
     published: true
     volume: 0.009999999776482582
   Meson Exotic Plasma M Blueprint:
@@ -39,6 +44,7 @@ types:
     name: Meson Exotic Plasma M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 150000.0
     published: true
     volume: 0.009999999776482582
   Meson Exotic Plasma S Blueprint:
@@ -46,6 +52,7 @@ types:
     name: Meson Exotic Plasma S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 40000.0
     published: true
     volume: 0.009999999776482582
   Meson Exotic Plasma XL Blueprint:
@@ -53,6 +60,7 @@ types:
     name: Meson Exotic Plasma XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 400000.0
     published: true
     volume: 0.009999999776482582
   Tetryon Exotic Plasma L Blueprint:
@@ -60,6 +68,7 @@ types:
     name: Tetryon Exotic Plasma L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     published: true
     volume: 0.009999999776482582
   Tetryon Exotic Plasma M Blueprint:
@@ -67,6 +76,7 @@ types:
     name: Tetryon Exotic Plasma M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 400000.0
     published: true
     volume: 0.009999999776482582
   Tetryon Exotic Plasma S Blueprint:
@@ -74,6 +84,7 @@ types:
     name: Tetryon Exotic Plasma S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     published: true
     volume: 0.009999999776482582
   Tetryon Exotic Plasma XL Blueprint:
@@ -81,5 +92,6 @@ types:
     name: Tetryon Exotic Plasma XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     published: true
     volume: 0.009999999776482582

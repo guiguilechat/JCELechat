@@ -36,6 +36,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 5.0
     portionSize: 1
+    price: 2000.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -98,6 +99,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 25.0
     portionSize: 1
+    price: 40000.0
     proximityrange: 7000
     published: true
     radius: 15.0
@@ -161,6 +163,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 10.0
     portionSize: 1
+    price: 18000.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -224,6 +227,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 5.0
     portionSize: 1
+    price: 2500.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -288,6 +292,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 5.0
     portionSize: 1
+    price: 3000.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -352,6 +357,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 10.0
     portionSize: 1
+    price: 17000.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -415,6 +421,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 25.0
     portionSize: 1
+    price: 70000.0
     proximityrange: 7000
     published: true
     radius: 15.0
@@ -479,6 +486,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 25.0
     portionSize: 1
+    price: 60000.0
     proximityrange: 7000
     published: true
     radius: 15.0
@@ -541,6 +549,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 10.0
     portionSize: 1
+    price: 15000.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -605,6 +614,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 10.0
     portionSize: 1
+    price: 16000.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -669,6 +679,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 5.0
     portionSize: 1
+    price: 4000.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -733,6 +744,7 @@ types:
     optimalsigradius: 25
     packagedVolume: 25.0
     portionSize: 1
+    price: 50000.0
     proximityrange: 7000
     published: true
     radius: 15.0

@@ -17,6 +17,7 @@ types:
     portionSize: 1
     power: 272
     powertransferamount: 351
+    price: 78840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -43,6 +44,7 @@ types:
     portionSize: 1
     power: 68
     powertransferamount: 117
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -69,6 +71,7 @@ types:
     portionSize: 1
     power: 3
     powertransferamount: 39
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -95,6 +98,7 @@ types:
     portionSize: 1
     power: 125000
     powertransferamount: 1300
+    price: 2.677384E7
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -122,6 +126,7 @@ types:
     portionSize: 1
     power: 112500
     powertransferamount: 1100
+    price: 2.677384E7
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -149,6 +154,7 @@ types:
     portionSize: 1
     power: 125000
     powertransferamount: 1100
+    price: 2.677384E7
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -175,6 +181,7 @@ types:
     portionSize: 1
     power: 125000
     powertransferamount: 1000
+    price: 2.677384E7
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -202,6 +209,7 @@ types:
     portionSize: 1
     power: 137500
     powertransferamount: 1300
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -230,6 +238,7 @@ types:
     portionSize: 1
     power: 4
     powertransferamount: 41
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -256,6 +265,7 @@ types:
     portionSize: 1
     power: 4
     powertransferamount: 39
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -282,6 +292,7 @@ types:
     portionSize: 1
     power: 4
     powertransferamount: 38
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -308,6 +319,7 @@ types:
     portionSize: 1
     power: 80
     powertransferamount: 122
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -334,6 +346,7 @@ types:
     portionSize: 1
     power: 80
     powertransferamount: 117
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -360,6 +373,7 @@ types:
     portionSize: 1
     power: 80
     powertransferamount: 113
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -386,6 +400,7 @@ types:
     portionSize: 1
     power: 7
     powertransferamount: 44
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -412,6 +427,7 @@ types:
     portionSize: 1
     power: 6
     powertransferamount: 42
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -438,6 +454,7 @@ types:
     portionSize: 1
     power: 5
     powertransferamount: 41
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -464,6 +481,7 @@ types:
     portionSize: 1
     power: 116
     powertransferamount: 131
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -490,6 +508,7 @@ types:
     portionSize: 1
     power: 112
     powertransferamount: 126
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -516,6 +535,7 @@ types:
     portionSize: 1
     power: 108
     powertransferamount: 122
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -542,6 +562,7 @@ types:
     portionSize: 1
     power: 352
     powertransferamount: 351
+    price: 78840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -568,6 +589,7 @@ types:
     portionSize: 1
     power: 88
     powertransferamount: 117
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -594,6 +616,7 @@ types:
     portionSize: 1
     power: 5
     powertransferamount: 39
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -619,6 +642,7 @@ types:
     portionSize: 1
     power: 288
     powertransferamount: 311
+    price: 78840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -644,6 +668,7 @@ types:
     portionSize: 1
     power: 320
     powertransferamount: 311
+    price: 78840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -668,6 +693,7 @@ types:
     portionSize: 1
     power: 320
     powertransferamount: 270
+    price: 78840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -693,6 +719,7 @@ types:
     portionSize: 1
     power: 352
     powertransferamount: 351
+    price: 147840.0
     published: true
     radius: 2000.0
     remoteresistanceid: 2116
@@ -718,6 +745,7 @@ types:
     portionSize: 1
     power: 72
     powertransferamount: 104
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -743,6 +771,7 @@ types:
     portionSize: 1
     power: 80
     powertransferamount: 104
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -767,6 +796,7 @@ types:
     portionSize: 1
     power: 80
     powertransferamount: 90
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -792,6 +822,7 @@ types:
     portionSize: 1
     power: 88
     powertransferamount: 117
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -817,6 +848,7 @@ types:
     portionSize: 1
     power: 4
     powertransferamount: 35
+    price: 9840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -842,6 +874,7 @@ types:
     portionSize: 1
     power: 4
     powertransferamount: 35
+    price: 9840.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -866,6 +899,7 @@ types:
     portionSize: 1
     power: 4
     powertransferamount: 30
+    price: 30000.0
     published: true
     radius: 1000.0
     remoteresistanceid: 2116
@@ -891,6 +925,7 @@ types:
     portionSize: 1
     power: 5
     powertransferamount: 39
+    price: 140108.0
     published: true
     radius: 2000.0
     remoteresistanceid: 2116

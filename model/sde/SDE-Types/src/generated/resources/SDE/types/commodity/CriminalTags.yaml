@@ -15,6 +15,7 @@ types:
     name: Angel Brass Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Angel Bronze Tag:
@@ -33,6 +34,7 @@ types:
     name: Angel Copper Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 0.10000000149011612
   Angel Crystal Tag:
@@ -42,6 +44,7 @@ types:
     name: Angel Crystal Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8250.0
     published: true
     volume: 0.10000000149011612
   Angel Diamond Tag:
@@ -78,6 +81,7 @@ types:
     name: Angel Palladium Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 6000.0
     published: true
     volume: 0.10000000149011612
   Angel Platinum Tag:
@@ -96,6 +100,7 @@ types:
     name: Angel Silver Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2250.0
     published: true
     volume: 0.10000000149011612
   Blood Brass Tag:
@@ -114,6 +119,7 @@ types:
     name: Blood Bronze Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 0.10000000149011612
   Blood Copper Tag:
@@ -132,6 +138,7 @@ types:
     name: Blood Crystal Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8250.0
     published: true
     volume: 0.10000000149011612
   Blood Diamond Tag:
@@ -159,6 +166,7 @@ types:
     name: Blood Gold Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Blood Grunt Tag:
@@ -193,6 +201,7 @@ types:
     name: Blood Platinum Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 6000.0
     published: true
     volume: 0.10000000149011612
   Blood Silver Tag:
@@ -202,6 +211,7 @@ types:
     name: Blood Silver Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2250.0
     published: true
     volume: 0.10000000149011612
   Blood Upper-Tier Tag:
@@ -211,6 +221,7 @@ types:
     name: Blood Upper-Tier Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Brokara Ryver's Tag:
@@ -579,6 +590,7 @@ types:
     name: Guristas Bronze Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 0.10000000149011612
   Guristas Copper Tag:
@@ -597,6 +609,7 @@ types:
     name: Guristas Crystal Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8250.0
     published: true
     volume: 0.10000000149011612
   Guristas Diamond Tag:
@@ -624,6 +637,7 @@ types:
     name: Guristas Gold Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Guristas Palladium Tag:
@@ -642,6 +656,7 @@ types:
     name: Guristas Platinum Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 6000.0
     published: true
     volume: 0.10000000149011612
   Guristas Silver Tag:
@@ -651,6 +666,7 @@ types:
     name: Guristas Silver Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2250.0
     published: true
     volume: 0.10000000149011612
   Hakim Stormare's Tag:
@@ -790,6 +806,7 @@ types:
     name: Sansha Bronze Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 0.10000000149011612
   Sansha Copper Tag:
@@ -808,6 +825,7 @@ types:
     name: Sansha Crystal Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8250.0
     published: true
     volume: 0.10000000149011612
   Sansha Diamond Tag:
@@ -835,6 +853,7 @@ types:
     name: Sansha Gold Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Sansha Infiltrator Tag:
@@ -861,6 +880,7 @@ types:
     name: Sansha Platinum Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 6000.0
     published: true
     volume: 0.10000000149011612
   Sansha Silver Tag:
@@ -870,6 +890,7 @@ types:
     name: Sansha Silver Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 2250.0
     published: true
     volume: 0.10000000149011612
   Selynne Mardakar's Tag:
@@ -897,6 +918,7 @@ types:
     name: Serpentis Bronze Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 1000.0
     published: true
     volume: 0.10000000149011612
   Serpentis Copper Tag:
@@ -915,6 +937,7 @@ types:
     name: Serpentis Crystal Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8250.0
     published: true
     volume: 0.10000000149011612
   Serpentis Diamond Tag:
@@ -942,6 +965,7 @@ types:
     name: Serpentis Gold Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 4500.0
     published: true
     volume: 0.10000000149011612
   Serpentis Palladium Tag:
@@ -960,6 +984,7 @@ types:
     name: Serpentis Platinum Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 6000.0
     published: true
     volume: 0.10000000149011612
   Serpentis Silver Tag:
@@ -969,6 +994,7 @@ types:
     name: Serpentis Silver Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 8250.0
     published: true
     volume: 0.10000000149011612
   Setele Schellan's Tag:

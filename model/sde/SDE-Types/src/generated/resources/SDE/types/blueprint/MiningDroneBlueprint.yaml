@@ -4,6 +4,7 @@ types:
     name: '''Augmented'' Ice Harvesting Drone Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -12,6 +13,7 @@ types:
     name: '''Augmented'' Mining Drone Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 9999999.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -20,6 +22,7 @@ types:
     name: '''Excavator'' Ice Harvesting Drone Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -28,6 +31,7 @@ types:
     name: '''Excavator'' Mining Drone Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -38,6 +42,7 @@ types:
     name: Civilian Mining Drone Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1498600.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -47,6 +52,7 @@ types:
     name: Harvester Mining Drone Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -56,6 +62,7 @@ types:
     name: Ice Harvesting Drone I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -64,6 +71,7 @@ types:
     name: Ice Harvesting Drone II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -75,6 +83,7 @@ types:
     name: Mining Drone I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.9986E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -85,6 +94,7 @@ types:
     name: Mining Drone II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E10
     published: true
     radius: 1.0
     techlevel: 2

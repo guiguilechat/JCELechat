@@ -21,6 +21,7 @@ types:
     name: Caldari Navy Inferno Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 624.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -55,6 +56,7 @@ types:
     name: Caldari Navy Mjolnir Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 750.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -88,6 +90,7 @@ types:
     name: Caldari Navy Nova Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 370.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -121,6 +124,7 @@ types:
     name: Caldari Navy Scourge Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 500.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -151,6 +155,7 @@ types:
     name: Civilian Scourge Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 500.0
     published: true
     radius: 300.0
     structureuniformity: 1.0
@@ -179,6 +184,7 @@ types:
     name: Dread Guristas Inferno Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 624.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -213,6 +219,7 @@ types:
     name: Dread Guristas Mjolnir Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 750.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -246,6 +253,7 @@ types:
     name: Dread Guristas Nova Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 370.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -279,6 +287,7 @@ types:
     name: Dread Guristas Scourge Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 500.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -311,6 +320,7 @@ types:
     name: Guristas Inferno Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 624.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -345,6 +355,7 @@ types:
     name: Guristas Mjolnir Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 750.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -378,6 +389,7 @@ types:
     name: Guristas Nova Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 370.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -411,6 +423,7 @@ types:
     name: Guristas Scourge Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 500.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -441,6 +454,7 @@ types:
     name: Inferno Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 624.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -473,6 +487,7 @@ types:
     name: Mjolnir Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 750.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -504,6 +519,7 @@ types:
     name: Nova Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 370.0
     published: true
     radius: 300.0
     requiredskill1: 3321
@@ -535,6 +551,7 @@ types:
     name: Scourge Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
+    price: 500.0
     published: true
     radius: 300.0
     requiredskill1: 3321

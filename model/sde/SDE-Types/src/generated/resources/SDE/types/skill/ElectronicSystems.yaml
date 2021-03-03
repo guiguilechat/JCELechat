@@ -6,6 +6,7 @@ types:
     name: Burst Projector Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.0E7
     primaryattribute: 165
     projecmdurationbonus: -5
     published: true
@@ -23,6 +24,7 @@ types:
     name: Cloaking
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 5000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -39,6 +41,7 @@ types:
     name: Electronic Warfare
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -55,6 +58,7 @@ types:
     name: Frequency Modulation
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 200000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -72,6 +76,7 @@ types:
     name: Long Distance Jamming
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 500000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -91,6 +96,7 @@ types:
     name: Propulsion Jamming
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 175000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -109,6 +115,7 @@ types:
     name: Sensor Linking
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 125000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -124,6 +131,7 @@ types:
     name: Signal Dispersion
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -142,6 +150,7 @@ types:
     name: Signal Suppression
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 800000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -160,6 +169,7 @@ types:
     name: Signature Focusing
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 600000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -179,6 +189,7 @@ types:
     name: Tactical Logistics Reconfiguration
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 2.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -196,6 +207,7 @@ types:
     name: Target Breaker Amplification
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 600000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -212,6 +224,7 @@ types:
     name: Target Painting
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -227,6 +240,7 @@ types:
     name: Weapon Destabilization
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 400000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -246,6 +260,7 @@ types:
     name: Weapon Disruption
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 100000.0
     primaryattribute: 165
     published: true
     radius: 1.0

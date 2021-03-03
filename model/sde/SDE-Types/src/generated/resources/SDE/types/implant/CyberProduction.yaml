@@ -7,6 +7,7 @@ types:
     name: Zainou 'Beancounter' Industry BX-801
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -21,6 +22,7 @@ types:
     name: Zainou 'Beancounter' Industry BX-802
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -35,6 +37,7 @@ types:
     name: Zainou 'Beancounter' Industry BX-804
     packagedVolume: 1.0
     portionSize: 1
+    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

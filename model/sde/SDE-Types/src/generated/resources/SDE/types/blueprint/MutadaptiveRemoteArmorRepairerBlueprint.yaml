@@ -4,6 +4,7 @@ types:
     name: Heavy Mutadaptive Compact Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 124700.0
     published: true
     volume: 0.009999999776482582
   Heavy Mutadaptive Remote Armor Repairer I Blueprint:
@@ -11,6 +12,7 @@ types:
     name: Heavy Mutadaptive Remote Armor Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 124700.0
     published: true
     volume: 0.009999999776482582
   Heavy Mutadaptive Remote Armor Repairer II Blueprint:
@@ -25,6 +27,7 @@ types:
     name: Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 124700.0
     published: true
     volume: 0.009999999776482582
   Perun Heavy Mutadaptive Remote Armor Repairer Blueprint:
@@ -32,5 +35,6 @@ types:
     name: Perun Heavy Mutadaptive Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 124700.0
     published: true
     volume: 0.009999999776482582

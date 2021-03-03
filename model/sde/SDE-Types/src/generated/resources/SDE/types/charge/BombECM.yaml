@@ -20,6 +20,7 @@ types:
     name: Lockbreaker Bomb
     packagedVolume: 75.0
     portionSize: 20
+    price: 2500.0
     published: true
     radius: 300.0
     remoteresistanceid: 2253

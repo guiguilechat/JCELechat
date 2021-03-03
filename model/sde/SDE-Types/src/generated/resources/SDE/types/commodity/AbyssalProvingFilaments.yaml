@@ -5,6 +5,7 @@ types:
     name: 1v1 T1 Battlecruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.10000000149011612
   Gala 2v2 Cruisers Proving Filament:
@@ -13,6 +14,7 @@ types:
     name: Gala 2v2 Cruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.10000000149011612
   T1 Cruiser FFA Proving Filament:
@@ -21,6 +23,7 @@ types:
     name: T1 Cruiser FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.10000000149011612
   T1 Frigate FFA Proving Filament:
@@ -29,5 +32,6 @@ types:
     name: T1 Frigate FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
+    price: 10000.0
     published: true
     volume: 0.10000000149011612

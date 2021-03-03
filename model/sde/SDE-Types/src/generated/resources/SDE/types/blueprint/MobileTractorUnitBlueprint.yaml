@@ -5,6 +5,7 @@ types:
     name: '''Magpie'' Mobile Tractor Unit Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -14,6 +15,7 @@ types:
     name: '''Packrat'' Mobile Tractor Unit Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -23,6 +25,7 @@ types:
     name: Mobile Sanguine Harvester Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -33,6 +36,7 @@ types:
     name: Mobile Tractor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 3.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582

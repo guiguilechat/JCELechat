@@ -8,6 +8,7 @@ types:
     name: Abyssal Bezdnacine
     packagedVolume: 16.0
     portionSize: 100
+    price: 449945.0
     published: true
     radius: 1.0
     reprocessingskilltype: 56631
@@ -23,6 +24,7 @@ types:
     name: Bezdnacine
     packagedVolume: 16.0
     portionSize: 100
+    price: 449945.0
     published: true
     radius: 1.0
     reprocessingskilltype: 56631
@@ -38,6 +40,7 @@ types:
     name: Hadal Bezdnacine
     packagedVolume: 16.0
     portionSize: 100
+    price: 449945.0
     published: true
     radius: 1.0
     reprocessingskilltype: 56631

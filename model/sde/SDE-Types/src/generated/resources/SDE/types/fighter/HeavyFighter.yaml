@@ -261,6 +261,7 @@ types:
     name: Cyclops I
     packagedVolume: 1800.0
     portionSize: 1
+    price: 2.1394992E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -497,6 +498,7 @@ types:
     name: Malleus I
     packagedVolume: 1800.0
     portionSize: 1
+    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -622,6 +624,7 @@ types:
     name: Mantis I
     packagedVolume: 1800.0
     portionSize: 1
+    price: 2.0336332E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -745,6 +748,7 @@ types:
     name: Shadow
     packagedVolume: 1800.0
     portionSize: 1
+    price: 2.0336332E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -1360,6 +1364,7 @@ types:
     name: Standup Mantis I
     packagedVolume: 3600.0
     portionSize: 1
+    price: 2.0336332E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -1871,6 +1876,7 @@ types:
     name: Tyrfing I
     packagedVolume: 1800.0
     portionSize: 1
+    price: 2.000134E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
