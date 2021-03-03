@@ -12,8 +12,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_d
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_categories_category_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmAttributeTypes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
@@ -37,7 +37,7 @@ public class CheckESISDE {
 		EcategoryIDs.load();
 		EgroupIDs.load();
 		EtypeIDs.load();
-		EdgmAttributeTypes.load();
+		EdogmaAttributes.load();
 
 		long postLoad = System.currentTimeMillis();
 		System.out.println("loaded in " + (postLoad - start) + "ms");
@@ -72,19 +72,19 @@ public class CheckESISDE {
 		}
 
 		Set<Integer> attributeIds = new HashSet<>();
-		Map<Integer, EdgmAttributeTypes> attSDEMap = EdgmAttributeTypes.loadByAttributeID();
+		Map<Integer, EdogmaAttributes> attSDEMap = EdogmaAttributes.load();
 		attributeIds.addAll(attSDEMap.keySet());
 		attributeIds.addAll(attMap.get().keySet());
 
 		for (int attId : attributeIds) {
-			EdgmAttributeTypes sdeEntry = attSDEMap.get(attId);
+			EdogmaAttributes sdeEntry = attSDEMap.get(attId);
 			R_get_dogma_attributes_attribute_id esiEntry = attMap.get().get(attId);
 			if (sdeEntry == null) {
 				System.out.println("attid=" + attId + " null in SDE, name in ESI=" + esiEntry.name);
 				errors++;
 			}
 			if (esiEntry == null) {
-				System.out.println("attid=" + attId + " null in ESI, name in SDE=" + sdeEntry.attributeName);
+				System.out.println("attid=" + attId + " null in ESI, name in SDE=" + sdeEntry.name);
 				errors++;
 			}
 			if (sdeEntry != null && esiEntry != null) {
@@ -93,8 +93,8 @@ public class CheckESISDE {
 							"att=" + attId + "(" + esiEntry.name + ")" + " esi=" + esiEntry.published + " sde=" + sdeEntry.published);
 					errors++;
 				}
-				if (!sdeEntry.attributeName.equals(esiEntry.name)) {
-					System.out.println("att=" + attId + " esiname=" + esiEntry.name + " sdename=" + sdeEntry.attributeName);
+				if (!sdeEntry.name.equals(esiEntry.name)) {
+					System.out.println("att=" + attId + " esiname=" + esiEntry.name + " sdename=" + sdeEntry.name);
 					errors++;
 				}
 			}

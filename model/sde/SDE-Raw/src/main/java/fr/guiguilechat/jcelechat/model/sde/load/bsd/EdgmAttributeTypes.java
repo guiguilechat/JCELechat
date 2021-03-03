@@ -16,9 +16,11 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 
 /**
- * @deprecated since ccp remove it. It's now in FSD
+ * @deprecated since ccp remove it. It's now in FSD, use
+ *             {@link EdogmaAttributes} instead
  * @author
  *
  */

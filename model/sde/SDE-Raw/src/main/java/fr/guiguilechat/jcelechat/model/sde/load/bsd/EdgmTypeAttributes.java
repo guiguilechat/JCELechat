@@ -14,11 +14,12 @@ import org.yaml.snakeyaml.nodes.Node;
 import org.yaml.snakeyaml.nodes.NodeId;
 
 import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma;
 
 /**
  * an entry in the bsd/dgmTypeAttributes.yaml file
  *
- * @deprecated was moved to fsd
+ * @deprecated was moved to fsd. use {@link EtypeDogma} instead
  */
 @Deprecated
 public class EdgmTypeAttributes {

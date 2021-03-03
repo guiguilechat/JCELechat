@@ -12,10 +12,11 @@ import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeDogma.EAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 
 public class SDELoader {
@@ -67,22 +68,27 @@ public class SDELoader {
 
 		HashSet<Integer> floatAttributeIds = new HashSet<>();
 		HashSet<Integer> allAttributesIds = new HashSet<>();
-		for (EdgmTypeAttributes attribute : EdgmTypeAttributes.load()) {
-			int attId = attribute.attributeID;
-			int typeID = attribute.typeID;
+		for (Entry<Integer, EtypeDogma> e : EtypeDogma.load().entrySet()) {
+			int typeID = e.getKey();
 			TypeDetails td = ret.typeID2Details.get(typeID);
 			if (td == null) {
 				td = new TypeDetails();
 				td.name = "unknown_" + typeID;
 				ret.typeID2Details.put(typeID, td);
 			}
-			float floatValue = attribute.valueFloat == 0.0f ? attribute.valueInt : attribute.valueFloat;
-			td.definition.put(attId, floatValue);
-			// add the attribute to the list of those with a float value
-			if ((int) floatValue != floatValue) {
-				floatAttributeIds.add(attId);
+			EtypeDogma etd = e.getValue();
+			if (etd.dogmaAttributes != null) {
+				for(EAttributes tatt : etd.dogmaAttributes) {
+					int attId = tatt.attributeID;
+					float value = tatt.value;
+					td.definition.put(attId, value);
+					// add the attribute to the list of those with a float value
+					if ((int) value != value) {
+						floatAttributeIds.add(attId);
+					}
+					allAttributesIds.add(attId);
+				}
 			}
-			allAttributesIds.add(attId);
 		}
 		for (int attId : allAttributesIds) {
 			EdogmaAttributes eattr = attTypes.get(attId);
