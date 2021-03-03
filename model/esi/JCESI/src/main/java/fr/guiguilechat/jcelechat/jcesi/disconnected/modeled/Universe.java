@@ -14,6 +14,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_3_xnumber_ynumber_znumber;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_constellations_constellation_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_factions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
@@ -23,6 +24,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
 import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
 import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -438,5 +440,10 @@ public class Universe {
 		// TODO ? is it doable ?
 		cache.structures(null).map(sid -> cache);
 	}
+
+	// factions
+
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, R_get_universe_factions> factionsByID = cache.factions().toMap(f -> f.faction_id);
 
 }
