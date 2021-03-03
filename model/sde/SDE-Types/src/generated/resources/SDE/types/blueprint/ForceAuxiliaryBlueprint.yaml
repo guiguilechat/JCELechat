@@ -6,7 +6,6 @@ types:
     name: Apostle Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -24,7 +23,6 @@ types:
     name: Lif Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -42,7 +40,6 @@ types:
     name: Minokawa Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -53,7 +50,6 @@ types:
     name: Ninazu Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582

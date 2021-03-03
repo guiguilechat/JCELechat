@@ -7,7 +7,6 @@ types:
     name: Cybernetic Subprocessor - Basic
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -22,7 +21,6 @@ types:
     name: Cybernetic Subprocessor - Improved
     packagedVolume: 1.0
     portionSize: 1
-    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -37,7 +35,6 @@ types:
     name: Cybernetic Subprocessor - Standard
     packagedVolume: 1.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -52,7 +49,6 @@ types:
     name: Limited Cybernetic Subprocessor
     packagedVolume: 1.0
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -81,7 +77,6 @@ types:
     name: Limited Memory Augmentation
     packagedVolume: 1.0
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -109,7 +104,6 @@ types:
     name: Limited Neural Boost
     packagedVolume: 1.0
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -139,7 +133,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -168,7 +161,6 @@ types:
     name: Limited Social Adaptation Chip
     packagedVolume: 1.0
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -197,7 +189,6 @@ types:
     name: Memory Augmentation - Basic
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -212,7 +203,6 @@ types:
     name: Memory Augmentation - Improved
     packagedVolume: 1.0
     portionSize: 1
-    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -227,7 +217,6 @@ types:
     name: Memory Augmentation - Standard
     packagedVolume: 1.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -241,7 +230,6 @@ types:
     name: Neural Boost - Basic
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -256,7 +244,6 @@ types:
     name: Neural Boost - Improved
     packagedVolume: 1.0
     portionSize: 1
-    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -271,7 +258,6 @@ types:
     name: Neural Boost - Standard
     packagedVolume: 1.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -287,7 +273,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -302,7 +287,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -317,7 +301,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -332,7 +315,6 @@ types:
     name: Social Adaptation Chip - Basic
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -347,7 +329,6 @@ types:
     name: Social Adaptation Chip - Improved
     packagedVolume: 1.0
     portionSize: 1
-    price: 800000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -362,7 +343,6 @@ types:
     name: Social Adaptation Chip - Standard
     packagedVolume: 1.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

@@ -3,5 +3,4 @@ types:
     id: 44253
     name: TEST Structure
     portionSize: 1
-    price: 600000.0
     published: false

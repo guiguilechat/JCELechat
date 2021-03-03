@@ -7,7 +7,6 @@ types:
     name: Imperial Navy Modified 'Noble' Implant
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     repairbonus: 3
@@ -23,7 +22,6 @@ types:
     name: Inherent Implants 'Noble' Hull Upgrades HG-1001
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -38,7 +36,6 @@ types:
     name: Inherent Implants 'Noble' Hull Upgrades HG-1002
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -53,7 +50,6 @@ types:
     name: Inherent Implants 'Noble' Hull Upgrades HG-1003
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -68,7 +64,6 @@ types:
     name: Inherent Implants 'Noble' Hull Upgrades HG-1004
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -125,7 +120,6 @@ types:
     name: Inherent Implants 'Noble' Mechanic MC-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -140,7 +134,6 @@ types:
     name: Inherent Implants 'Noble' Mechanic MC-802
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -155,7 +148,6 @@ types:
     name: Inherent Implants 'Noble' Mechanic MC-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -170,7 +162,6 @@ types:
     name: Inherent Implants 'Noble' Mechanic MC-804
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -381,7 +372,6 @@ types:
     name: Inherent Implants 'Noble' Repair Systems RS-601
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -396,7 +386,6 @@ types:
     name: Inherent Implants 'Noble' Repair Systems RS-602
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -411,7 +400,6 @@ types:
     name: Inherent Implants 'Noble' Repair Systems RS-603
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -426,7 +414,6 @@ types:
     name: Inherent Implants 'Noble' Repair Systems RS-604
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

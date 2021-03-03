@@ -119,12 +119,12 @@ types:
     capacitorneed: 32.0
     cpu: 28.0
     disallowrepeatingactivation: 1
-    duration: 11700.0
+    duration: 8775.0
     hp: 40.0
-    hullemdamageresonance: 0.699999988079071
-    hullexplosivedamageresonance: 0.699999988079071
-    hullkineticdamageresonance: 0.699999988079071
-    hullthermaldamageresonance: 0.699999988079071
+    hullemdamageresonance: 0.75
+    hullexplosivedamageresonance: 0.75
+    hullkineticdamageresonance: 0.75
+    hullthermaldamageresonance: 0.75
     id: 47254
     marketGroup: 615
     maxgroupfitted: 1
@@ -154,12 +154,12 @@ types:
     capacitorneed: 35.0
     cpu: 35.0
     disallowrepeatingactivation: 1
-    duration: 13500.0
+    duration: 10125.0
     hp: 40.0
-    hullemdamageresonance: 0.6000000238418579
-    hullexplosivedamageresonance: 0.6000000238418579
-    hullkineticdamageresonance: 0.6000000238418579
-    hullthermaldamageresonance: 0.6000000238418579
+    hullemdamageresonance: 0.699999988079071
+    hullexplosivedamageresonance: 0.699999988079071
+    hullkineticdamageresonance: 0.699999988079071
+    hullthermaldamageresonance: 0.699999988079071
     id: 47257
     marketGroup: 615
     maxgroupfitted: 1
@@ -490,12 +490,12 @@ types:
     capacitorneed: 32.0
     cpu: 24.0
     disallowrepeatingactivation: 1
-    duration: 11700.0
+    duration: 8775.0
     hp: 40.0
-    hullemdamageresonance: 0.699999988079071
-    hullexplosivedamageresonance: 0.699999988079071
-    hullkineticdamageresonance: 0.699999988079071
-    hullthermaldamageresonance: 0.699999988079071
+    hullemdamageresonance: 0.75
+    hullexplosivedamageresonance: 0.75
+    hullkineticdamageresonance: 0.75
+    hullthermaldamageresonance: 0.75
     id: 47255
     marketGroup: 615
     maxgroupfitted: 1
@@ -525,12 +525,12 @@ types:
     capacitorneed: 26.0
     cpu: 28.0
     disallowrepeatingactivation: 1
-    duration: 11700.0
+    duration: 8775.0
     hp: 40.0
-    hullemdamageresonance: 0.699999988079071
-    hullexplosivedamageresonance: 0.699999988079071
-    hullkineticdamageresonance: 0.699999988079071
-    hullthermaldamageresonance: 0.699999988079071
+    hullemdamageresonance: 0.75
+    hullexplosivedamageresonance: 0.75
+    hullkineticdamageresonance: 0.75
+    hullthermaldamageresonance: 0.75
     id: 47256
     marketGroup: 615
     maxgroupfitted: 1
@@ -649,12 +649,12 @@ types:
     capacitorneed: 30.0
     cpu: 24.0
     disallowrepeatingactivation: 1
-    duration: 14400.0
+    duration: 10800.0
     hp: 40.0
-    hullemdamageresonance: 0.6000000238418579
-    hullexplosivedamageresonance: 0.6000000238418579
-    hullkineticdamageresonance: 0.6000000238418579
-    hullthermaldamageresonance: 0.6000000238418579
+    hullemdamageresonance: 0.699999988079071
+    hullexplosivedamageresonance: 0.699999988079071
+    hullkineticdamageresonance: 0.699999988079071
+    hullthermaldamageresonance: 0.699999988079071
     id: 47258
     marketGroup: 615
     maxgroupfitted: 1

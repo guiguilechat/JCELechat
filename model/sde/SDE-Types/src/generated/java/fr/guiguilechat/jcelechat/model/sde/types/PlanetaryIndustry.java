@@ -15,15 +15,15 @@ import fr.guiguilechat.jcelechat.model.sde.annotations.Stackable;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
-import fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.CommandCenters;
-import fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.ExtractorControlUnits;
-import fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.Extractors;
-import fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.PlanetaryLinks;
-import fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.Processors;
-import fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.Spaceports;
-import fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.StorageFacilities;
+import fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.CommandCenters;
+import fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.ExtractorControlUnits;
+import fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.Extractors;
+import fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.PlanetaryLinks;
+import fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.Processors;
+import fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.Spaceports;
+import fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.StorageFacilities;
 
-public abstract class PlanetaryInteraction
+public abstract class PlanetaryIndustry
     extends EveType
 {
     /**
@@ -48,7 +48,7 @@ public abstract class PlanetaryInteraction
     @DefaultRealValue(0.0)
     public double radius;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE })));
-    public static final PlanetaryInteraction.MetaCat METACAT = new PlanetaryInteraction.MetaCat();
+    public static final PlanetaryIndustry.MetaCat METACAT = new PlanetaryIndustry.MetaCat();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -78,12 +78,12 @@ public abstract class PlanetaryInteraction
     }
 
     @Override
-    public IMetaCategory<PlanetaryInteraction> getCategory() {
+    public IMetaCategory<PlanetaryIndustry> getCategory() {
         return METACAT;
     }
 
     public static class MetaCat
-        implements IMetaCategory<PlanetaryInteraction>
+        implements IMetaCategory<PlanetaryIndustry>
     {
 
         @Override
@@ -93,11 +93,11 @@ public abstract class PlanetaryInteraction
 
         @Override
         public String getName() {
-            return "PlanetaryInteraction";
+            return "PlanetaryIndustry";
         }
 
         @Override
-        public Collection<IMetaGroup<? extends PlanetaryInteraction>> groups() {
+        public Collection<IMetaGroup<? extends PlanetaryIndustry>> groups() {
             return Arrays.asList(Extractors.METAGROUP, CommandCenters.METAGROUP, Processors.METAGROUP, StorageFacilities.METAGROUP, Spaceports.METAGROUP, PlanetaryLinks.METAGROUP, ExtractorControlUnits.METAGROUP);
         }
     }

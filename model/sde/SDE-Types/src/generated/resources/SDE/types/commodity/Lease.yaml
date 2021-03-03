@@ -6,7 +6,6 @@ types:
     name: Amarr Empire Starbase Charter
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Ammatar Mandate Starbase Charter:
@@ -16,7 +15,6 @@ types:
     name: Ammatar Mandate Starbase Charter
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Caldari State Starbase Charter:
@@ -26,7 +24,6 @@ types:
     name: Caldari State Starbase Charter
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Gallente Federation Starbase Charter:
@@ -36,7 +33,6 @@ types:
     name: Gallente Federation Starbase Charter
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Khanid Kingdom Starbase Charter:
@@ -46,7 +42,6 @@ types:
     name: Khanid Kingdom Starbase Charter
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 0.10000000149011612
   Minmatar Republic Starbase Charter:
@@ -56,6 +51,5 @@ types:
     name: Minmatar Republic Starbase Charter
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 0.10000000149011612

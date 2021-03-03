@@ -9,7 +9,6 @@ types:
     name: Scan Resolution Dampening Script
     packagedVolume: 1.0
     portionSize: 1
-    price: 4000.0
     published: true
     radius: 1.0
     scanresolutionbonusbonus: 100
@@ -25,7 +24,6 @@ types:
     name: Targeting Range Dampening Script
     packagedVolume: 1.0
     portionSize: 1
-    price: 4000.0
     published: true
     radius: 1.0
     scanresolutionbonusbonus: -100

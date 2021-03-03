@@ -67,7 +67,6 @@ types:
     portionSize: 1
     poweroutput: 825000
     powertospeed: 1
-    price: 1.7E9
     propulsiongraphicid: 394
     published: true
     radius: 3000.0
@@ -307,7 +306,6 @@ types:
     portionSize: 1
     poweroutput: 630000
     powertospeed: 1
-    price: 1.7E9
     propulsiongraphicid: 397
     published: true
     radius: 3000.0
@@ -542,7 +540,6 @@ types:
     portionSize: 1
     poweroutput: 475000
     powertospeed: 1
-    price: 1.7E9
     propulsiongraphicid: 395
     published: true
     radius: 3000.0
@@ -659,7 +656,6 @@ types:
     portionSize: 1
     poweroutput: 760000
     powertospeed: 1
-    price: 1.7E9
     propulsiongraphicid: 394
     published: true
     radius: 3000.0

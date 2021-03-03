@@ -7,7 +7,6 @@ types:
     name: Zainou 'Gypsy' Long Range Targeting LT-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -22,7 +21,6 @@ types:
     name: Zainou 'Gypsy' Long Range Targeting LT-802
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -37,7 +35,6 @@ types:
     name: Zainou 'Gypsy' Long Range Targeting LT-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -52,7 +49,6 @@ types:
     name: Zainou 'Gypsy' Long Range Targeting LT-804
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -67,7 +63,6 @@ types:
     name: Zainou 'Gypsy' Long Range Targeting LT-805
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -82,7 +77,6 @@ types:
     name: Zainou 'Gypsy' Long Range Targeting LT-806
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -96,7 +90,6 @@ types:
     name: Zainou 'Gypsy' Signature Analysis SA-701
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -111,7 +104,6 @@ types:
     name: Zainou 'Gypsy' Signature Analysis SA-702
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -126,7 +118,6 @@ types:
     name: Zainou 'Gypsy' Signature Analysis SA-703
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -141,7 +132,6 @@ types:
     name: Zainou 'Gypsy' Signature Analysis SA-704
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -156,7 +146,6 @@ types:
     name: Zainou 'Gypsy' Signature Analysis SA-705
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -171,7 +160,6 @@ types:
     name: Zainou 'Gypsy' Signature Analysis SA-706
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

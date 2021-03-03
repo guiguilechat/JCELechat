@@ -6,7 +6,6 @@ types:
     name: Archaeology
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -25,7 +24,6 @@ types:
     name: Astrometric Acquisition
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -41,7 +39,6 @@ types:
     name: Astrometric Pinpointing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -56,7 +53,6 @@ types:
     name: Astrometric Rangefinding
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -74,7 +70,6 @@ types:
     name: Astrometrics
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -91,7 +86,6 @@ types:
     name: Hacking
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 250000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -109,7 +103,6 @@ types:
     name: Survey
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 55000.0
     primaryattribute: 165
     published: true
     radius: 1.0

@@ -6,7 +6,6 @@ types:
     name: Armor Energizing Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 20494
@@ -23,7 +22,6 @@ types:
     name: Armor Reinforcement Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 20494
@@ -40,7 +38,6 @@ types:
     name: Rapid Repair Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 20494

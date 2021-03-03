@@ -6,7 +6,6 @@ types:
     name: Acolyte TD-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Berserker TP-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -28,7 +26,6 @@ types:
     name: Hammerhead SD-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1800000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -39,7 +36,6 @@ types:
     name: Hobgoblin SD-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 250000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -50,7 +46,6 @@ types:
     name: Hornet EC-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -61,7 +56,6 @@ types:
     name: Infiltrator TD-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1700000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -72,7 +66,6 @@ types:
     name: Ogre SD-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -83,7 +76,6 @@ types:
     name: Praetor TD-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -94,7 +86,6 @@ types:
     name: Valkyrie TP-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1500000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -105,7 +96,6 @@ types:
     name: Vespa EC-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1600000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -116,7 +106,6 @@ types:
     name: Warrior TP-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -127,7 +116,6 @@ types:
     name: Wasp EC-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

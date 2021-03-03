@@ -6,7 +6,6 @@ types:
     name: Advanced Mass Reactions
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -23,7 +22,6 @@ types:
     name: Arkonor Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -43,7 +41,6 @@ types:
     name: Astrogeology
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -61,7 +58,6 @@ types:
     name: Bezdnacine Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -80,7 +76,6 @@ types:
     name: Bistot Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 375000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -99,7 +94,6 @@ types:
     name: Common Moon Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -118,7 +112,6 @@ types:
     name: Crokite Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 350000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -137,7 +130,6 @@ types:
     name: Dark Ochre Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 325000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -157,7 +149,6 @@ types:
     name: Deep Core Mining
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -175,7 +166,6 @@ types:
     name: Exceptional Moon Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -194,7 +184,6 @@ types:
     name: Gas Cloud Harvesting
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -210,7 +199,6 @@ types:
     name: Gneiss Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -229,7 +217,6 @@ types:
     name: Hedbergite Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 250000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -248,7 +235,6 @@ types:
     name: Hemorphite Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 225000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -268,7 +254,6 @@ types:
     name: Ice Harvesting
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -284,7 +269,6 @@ types:
     name: Ice Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -304,7 +288,6 @@ types:
     name: Industrial Reconfiguration
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -320,7 +303,6 @@ types:
     name: Jaspet Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -339,7 +321,6 @@ types:
     name: Kernite Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 175000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -358,7 +339,6 @@ types:
     name: Mass Reactions
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -375,7 +355,6 @@ types:
     name: Mercoxit Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -395,7 +374,6 @@ types:
     name: Mining
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -410,7 +388,6 @@ types:
     name: Mining Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 100000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -426,7 +403,6 @@ types:
     name: Omber Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 150000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -445,7 +421,6 @@ types:
     name: Plagioclase Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 100000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -464,7 +439,6 @@ types:
     name: Pyroxeres Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 125000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -483,7 +457,6 @@ types:
     name: Rakovene Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -502,7 +475,6 @@ types:
     name: Rare Moon Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.75E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -521,7 +493,6 @@ types:
     name: Reactions
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -536,7 +507,6 @@ types:
     name: Remote Reactions
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -552,7 +522,6 @@ types:
     name: Reprocessing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 75000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -569,7 +538,6 @@ types:
     name: Reprocessing Efficiency
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -587,7 +555,6 @@ types:
     name: Salvaging
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -605,7 +572,6 @@ types:
     name: Scordite Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 75000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -624,7 +590,6 @@ types:
     name: Scrapmetal Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -643,7 +608,6 @@ types:
     name: Spodumain Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 325000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -662,7 +626,6 @@ types:
     name: Talassonite Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -681,7 +644,6 @@ types:
     name: Ubiquitous Moon Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -700,7 +662,6 @@ types:
     name: Uncommon Moon Ore Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -719,7 +680,6 @@ types:
     name: Veldspar Processing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 37500.0
     primaryattribute: 166
     published: true
     radius: 1.0

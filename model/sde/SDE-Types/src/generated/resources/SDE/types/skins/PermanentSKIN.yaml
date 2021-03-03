@@ -2024,6 +2024,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Armageddon Navy Issue Spirit  SKIN:
+    id: 57387
+    marketGroup: 2108
+    name: Armageddon Navy Issue Spirit  SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Armageddon Navy Issue Star Captain SKIN:
     id: 52584
     marketGroup: 2108
@@ -2592,6 +2600,14 @@ types:
   Augoror Navy Issue Serenity YC119 SKIN:
     id: 47095
     name: Augoror Navy Issue Serenity YC119 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Augoror Navy Issue Spirit  SKIN:
+    id: 57385
+    marketGroup: 2063
+    name: Augoror Navy Issue Spirit  SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4695,6 +4711,14 @@ types:
     id: 47613
     marketGroup: 2063
     name: Caracal Navy Issue Octopus Orange Flight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caracal Navy Issue Spirit SKIN:
+    id: 57389
+    marketGroup: 2063
+    name: Caracal Navy Issue Spirit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6894,6 +6918,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Crucifier Navy Issue Spirit  SKIN:
+    id: 57384
+    marketGroup: 2000
+    name: Crucifier Navy Issue Spirit  SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crucifier Oasis of Faith SKIN:
     id: 53595
     marketGroup: 2002
@@ -8370,6 +8402,14 @@ types:
     id: 47616
     marketGroup: 2103
     name: Drake Navy Issue Octopus Orange Flight SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Drake Navy Issue Spirit SKIN:
+    id: 57390
+    marketGroup: 2103
+    name: Drake Navy Issue Spirit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10840,6 +10880,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Griffin Navy Issue Spirit SKIN:
+    id: 57388
+    marketGroup: 2000
+    name: Griffin Navy Issue Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Griffin Navy Issue Steel Cardinal SKIN:
     id: 46104
     marketGroup: 2000
@@ -11232,6 +11280,14 @@ types:
     id: 56794
     marketGroup: 2103
     name: Harbinger Navy Issue Sarum SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Harbinger Navy Issue Spirit  SKIN:
+    id: 57386
+    marketGroup: 2103
+    name: Harbinger Navy Issue Spirit  SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12527,6 +12583,14 @@ types:
     id: 52883
     marketGroup: 2103
     name: Hurricane Fleet Issue Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Fleet Issue Spirit SKIN:
+    id: 57395
+    marketGroup: 2103
+    name: Hurricane Fleet Issue Spirit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -24881,6 +24945,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Scorpion Navy Issue Spirit SKIN:
+    id: 57391
+    marketGroup: 2108
+    name: Scorpion Navy Issue Spirit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Scorpion Navy Issue Steel Cardinal SKIN:
     id: 46135
     marketGroup: 2108
@@ -25925,6 +25997,14 @@ types:
     id: 52877
     marketGroup: 2063
     name: Stabber Fleet Issue Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stabber Fleet Issue Spirit SKIN:
+    id: 57394
+    marketGroup: 2063
+    name: Stabber Fleet Issue Spirit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27063,6 +27143,14 @@ types:
     id: 52889
     marketGroup: 2108
     name: Tempest Fleet Issue Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Tempest Fleet Issue Spirit SKIN:
+    id: 57396
+    marketGroup: 2108
+    name: Tempest Fleet Issue Spirit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -29631,6 +29719,14 @@ types:
     id: 52859
     marketGroup: 2000
     name: Vigil Fleet Issue Snowline Bladeracer SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vigil Fleet Issue Spirit SKIN:
+    id: 57393
+    marketGroup: 2000
+    name: Vigil Fleet Issue Spirit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

@@ -36,7 +36,6 @@ types:
     name: Gyrostabilizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 243200.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -47,7 +46,6 @@ types:
     name: Gyrostabilizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -57,7 +55,6 @@ types:
     name: Kaatara's Custom Magnetic Field Stabilizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 249940.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -68,7 +65,6 @@ types:
     name: Magnetic Field Stabilizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 249940.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -79,7 +75,6 @@ types:
     name: Magnetic Field Stabilizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -99,7 +94,6 @@ types:
     name: Torelle's Custom Magnetic Field Stabilizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 249940.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -108,7 +102,6 @@ types:
     name: Vadari's Custom Gyrostabilizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 243200.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582

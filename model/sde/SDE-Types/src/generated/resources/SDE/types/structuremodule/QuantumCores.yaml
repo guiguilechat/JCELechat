@@ -6,7 +6,6 @@ types:
     name: Astrahus Upwell Quantum Core
     packagedVolume: 500.0
     portionSize: 1
-    price: 6.0E8
     published: true
     volume: 500.0
   Athanor Upwell Quantum Core:
@@ -16,7 +15,6 @@ types:
     name: Athanor Upwell Quantum Core
     packagedVolume: 500.0
     portionSize: 1
-    price: 7.0E8
     published: true
     volume: 500.0
   Azbel Upwell Quantum Core:
@@ -26,7 +24,6 @@ types:
     name: Azbel Upwell Quantum Core
     packagedVolume: 50000.0
     portionSize: 1
-    price: 3.0E9
     published: true
     volume: 50000.0
   Fortizar Upwell Quantum Core:
@@ -36,7 +33,6 @@ types:
     name: Fortizar Upwell Quantum Core
     packagedVolume: 50000.0
     portionSize: 1
-    price: 4.0E9
     published: true
     volume: 50000.0
   Keepstar Upwell Quantum Core:
@@ -46,7 +42,6 @@ types:
     name: Keepstar Upwell Quantum Core
     packagedVolume: 95000.0
     portionSize: 1
-    price: 3.0000001024E10
     published: true
     volume: 95000.0
   Raitaru Upwell Quantum Core:
@@ -56,7 +51,6 @@ types:
     name: Raitaru Upwell Quantum Core
     packagedVolume: 500.0
     portionSize: 1
-    price: 8.0E8
     published: true
     volume: 500.0
   Sotiyo Upwell Quantum Core:
@@ -66,7 +60,6 @@ types:
     name: Sotiyo Upwell Quantum Core
     packagedVolume: 95000.0
     portionSize: 1
-    price: 1.0E10
     published: true
     volume: 95000.0
   Tatara Upwell Quantum Core:
@@ -76,6 +69,5 @@ types:
     name: Tatara Upwell Quantum Core
     packagedVolume: 50000.0
     portionSize: 1
-    price: 3.5E9
     published: true
     volume: 50000.0

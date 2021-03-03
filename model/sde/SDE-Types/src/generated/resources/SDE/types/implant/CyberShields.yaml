@@ -6,7 +6,6 @@ types:
     name: Sansha Modified 'Gnome' Implant
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rechargeratebonus: -3
@@ -23,7 +22,6 @@ types:
     name: Zainou 'Gnome' Shield Emission Systems SE-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -38,7 +36,6 @@ types:
     name: Zainou 'Gnome' Shield Emission Systems SE-802
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -53,7 +50,6 @@ types:
     name: Zainou 'Gnome' Shield Emission Systems SE-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -68,7 +64,6 @@ types:
     name: Zainou 'Gnome' Shield Emission Systems SE-804
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -97,7 +92,6 @@ types:
     name: Zainou 'Gnome' Shield Emission Systems SE-806
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -111,7 +105,6 @@ types:
     name: Zainou 'Gnome' Shield Management SM-701
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -126,7 +119,6 @@ types:
     name: Zainou 'Gnome' Shield Management SM-702
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -141,7 +133,6 @@ types:
     name: Zainou 'Gnome' Shield Management SM-703
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -156,7 +147,6 @@ types:
     name: Zainou 'Gnome' Shield Management SM-704
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -185,7 +175,6 @@ types:
     name: Zainou 'Gnome' Shield Management SM-706
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -200,7 +189,6 @@ types:
     name: Zainou 'Gnome' Shield Operation SP-901
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rechargeratebonus: -1
@@ -215,7 +203,6 @@ types:
     name: Zainou 'Gnome' Shield Operation SP-902
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rechargeratebonus: -2
@@ -230,7 +217,6 @@ types:
     name: Zainou 'Gnome' Shield Operation SP-903
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rechargeratebonus: -3
@@ -245,7 +231,6 @@ types:
     name: Zainou 'Gnome' Shield Operation SP-904
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rechargeratebonus: -4
@@ -274,7 +259,6 @@ types:
     name: Zainou 'Gnome' Shield Operation SP-906
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rechargeratebonus: -6
@@ -290,7 +274,6 @@ types:
     packagedVolume: 1.0
     portionSize: 1
     powerneedbonus: -1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -305,7 +288,6 @@ types:
     packagedVolume: 1.0
     portionSize: 1
     powerneedbonus: -2
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -320,7 +302,6 @@ types:
     packagedVolume: 1.0
     portionSize: 1
     powerneedbonus: -3
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -335,7 +316,6 @@ types:
     packagedVolume: 1.0
     portionSize: 1
     powerneedbonus: -4
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -364,7 +344,6 @@ types:
     packagedVolume: 1.0
     portionSize: 1
     powerneedbonus: -6
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

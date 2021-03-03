@@ -6,7 +6,6 @@ types:
     name: ECM Jammer Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,7 +15,6 @@ types:
     name: Energy Neutralization Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
     published: true
     volume: 0.009999999776482582
   Sensor Dampening Burst Projector Blueprint:
@@ -25,7 +23,6 @@ types:
     name: Sensor Dampening Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
     published: true
     volume: 0.009999999776482582
   Stasis Webification Burst Projector Blueprint:
@@ -34,7 +31,6 @@ types:
     name: Stasis Webification Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
     published: true
     volume: 0.009999999776482582
   Target Illumination Burst Projector Blueprint:
@@ -43,7 +39,6 @@ types:
     name: Target Illumination Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
     published: true
     volume: 0.009999999776482582
   Warp Disruption Burst Projector Blueprint:
@@ -52,7 +47,6 @@ types:
     name: Warp Disruption Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
     published: true
     volume: 0.009999999776482582
   Weapon Disruption Burst Projector Blueprint:
@@ -61,6 +55,5 @@ types:
     name: Weapon Disruption Burst Projector Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.1E7
     published: true
     volume: 0.009999999776482582

@@ -5,7 +5,6 @@ types:
     name: Aurora L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -16,7 +15,6 @@ types:
     name: Aurora M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -27,7 +25,6 @@ types:
     name: Aurora S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -37,7 +34,6 @@ types:
     name: Aurora XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -48,7 +44,6 @@ types:
     name: Conflagration L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -59,7 +54,6 @@ types:
     name: Conflagration M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -70,7 +64,6 @@ types:
     name: Conflagration S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -80,7 +73,6 @@ types:
     name: Conflagration XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -91,7 +83,6 @@ types:
     name: Gleam L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -102,7 +93,6 @@ types:
     name: Gleam M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -113,7 +103,6 @@ types:
     name: Gleam S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -123,7 +112,6 @@ types:
     name: Gleam XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -134,7 +122,6 @@ types:
     name: Scorch L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -145,7 +132,6 @@ types:
     name: Scorch M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -156,7 +142,6 @@ types:
     name: Scorch S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -166,7 +151,6 @@ types:
     name: Scorch XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     techlevel: 2

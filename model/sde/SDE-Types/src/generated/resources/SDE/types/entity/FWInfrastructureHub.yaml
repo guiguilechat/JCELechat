@@ -8,7 +8,6 @@ types:
     id: 29286
     name: Amarr Infrastructure Hub
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 10290.0
     shieldcapacity: 7500000.0
@@ -25,7 +24,6 @@ types:
     id: 29302
     name: Caldari Infrastructure Hub
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 10290.0
     shieldcapacity: 7500000.0
@@ -42,7 +40,6 @@ types:
     id: 29303
     name: Gallente Infrastructure Hub
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 10290.0
     shieldcapacity: 7500000.0
@@ -59,7 +56,6 @@ types:
     id: 29304
     name: Minmatar Infrastructure Hub
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 10290.0
     shieldcapacity: 7500000.0

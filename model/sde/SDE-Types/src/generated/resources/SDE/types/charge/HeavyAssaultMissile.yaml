@@ -21,7 +21,6 @@ types:
     name: Caldari Navy Inferno Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 3000.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -56,7 +55,6 @@ types:
     name: Caldari Navy Mjolnir Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 3500.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -90,7 +88,6 @@ types:
     name: Caldari Navy Nova Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 2000.0
     published: true
     radius: 25.0
     requiredskill1: 25719
@@ -124,7 +121,6 @@ types:
     name: Caldari Navy Scourge Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 2516.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -157,7 +153,6 @@ types:
     name: Dread Guristas Inferno Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 3000.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -192,7 +187,6 @@ types:
     name: Dread Guristas Mjolnir Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 3500.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -226,7 +220,6 @@ types:
     name: Dread Guristas Nova Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 2000.0
     published: true
     radius: 25.0
     requiredskill1: 25719
@@ -260,7 +253,6 @@ types:
     name: Dread Guristas Scourge Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 2516.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -293,7 +285,6 @@ types:
     name: Guristas Inferno Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 3000.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -328,7 +319,6 @@ types:
     name: Guristas Mjolnir Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 3500.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -362,7 +352,6 @@ types:
     name: Guristas Nova Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 2000.0
     published: true
     radius: 25.0
     requiredskill1: 25719
@@ -396,7 +385,6 @@ types:
     name: Guristas Scourge Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 2516.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -427,7 +415,6 @@ types:
     name: Inferno Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 3000.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -460,7 +447,6 @@ types:
     name: Mjolnir Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 3500.0
     published: true
     radius: 300.0
     requiredskill1: 25719
@@ -492,7 +478,6 @@ types:
     name: Nova Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 2000.0
     published: true
     radius: 25.0
     requiredskill1: 25719
@@ -524,7 +509,6 @@ types:
     name: Scourge Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 100
-    price: 2516.0
     published: true
     radius: 300.0
     requiredskill1: 25719

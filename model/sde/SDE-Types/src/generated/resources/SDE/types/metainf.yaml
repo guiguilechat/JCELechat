@@ -880,13 +880,13 @@ group2class:
   planetarycommodities/BasicCommoditiesTier1: fr.guiguilechat.jcelechat.model.sde.types.planetarycommodities.BasicCommoditiesTier1
   planetarycommodities/RefinedCommoditiesTier2: fr.guiguilechat.jcelechat.model.sde.types.planetarycommodities.RefinedCommoditiesTier2
   planetarycommodities/SpecializedCommoditiesTier3: fr.guiguilechat.jcelechat.model.sde.types.planetarycommodities.SpecializedCommoditiesTier3
-  planetaryinteraction/CommandCenters: fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.CommandCenters
-  planetaryinteraction/ExtractorControlUnits: fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.ExtractorControlUnits
-  planetaryinteraction/Extractors: fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.Extractors
-  planetaryinteraction/PlanetaryLinks: fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.PlanetaryLinks
-  planetaryinteraction/Processors: fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.Processors
-  planetaryinteraction/Spaceports: fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.Spaceports
-  planetaryinteraction/StorageFacilities: fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction.StorageFacilities
+  planetaryindustry/CommandCenters: fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.CommandCenters
+  planetaryindustry/ExtractorControlUnits: fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.ExtractorControlUnits
+  planetaryindustry/Extractors: fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.Extractors
+  planetaryindustry/PlanetaryLinks: fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.PlanetaryLinks
+  planetaryindustry/Processors: fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.Processors
+  planetaryindustry/Spaceports: fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.Spaceports
+  planetaryindustry/StorageFacilities: fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry.StorageFacilities
   planetaryresources/PlanetLiquidGasRawResource: fr.guiguilechat.jcelechat.model.sde.types.planetaryresources.PlanetLiquidGasRawResource
   planetaryresources/PlanetOrganicRawResource: fr.guiguilechat.jcelechat.model.sde.types.planetaryresources.PlanetOrganicRawResource
   planetaryresources/PlanetSolidRawResource: fr.guiguilechat.jcelechat.model.sde.types.planetaryresources.PlanetSolidRawResource
@@ -1748,20 +1748,20 @@ id2name:
   1354: Reactor Control Unit I Blueprint
   1355: Reactor Control Unit II
   1356: Reactor Control Unit II Blueprint
-  1373: CharacterAmarr
-  1374: CharacterNiKunni
-  1375: CharacterCivire
-  1376: CharacterDeteis
-  1377: CharacterGallente
-  1378: CharacterIntaki
-  1379: CharacterSebiestor
-  1380: CharacterBrutor
-  1381: CharacterStatic
-  1382: CharacterModifier
-  1383: CharacterAchura
-  1384: CharacterJinMei
-  1385: CharacterKhanid
-  1386: CharacterVherokior
+  1373: CharacterType
+  1374: CharacterLegacy10
+  1375: CharacterLegacy3
+  1376: CharacterLegacy4
+  1377: CharacterLegacy5
+  1378: CharacterLegacy6
+  1379: CharacterLegacy11
+  1380: CharacterLegacy2
+  1381: CharacterLegacy12
+  1382: CharacterLegacy9
+  1383: CharacterLegacy1
+  1384: CharacterLegacy7
+  1385: CharacterLegacy8
+  1386: CharacterLegacy13
   1401: '''Basic'' Inertial Stabilizers'
   1403: Inertial Stabilizers I
   1404: Inertial Stabilizers I Blueprint
@@ -3659,7 +3659,7 @@ id2name:
   3913: Micro EMP Smartbomb I
   3914: Caldari Main Screen
   3915: Micro EMP Smartbomb II
-  3916: Caldari Planetary Interaction
+  3916: Caldari Planetary Industry
   3919: Caldari Corporation Recruitment
   3920: Fortified Amarr Industrial Station
   3921: Pirate Saboteur
@@ -3673,7 +3673,7 @@ id2name:
   3931: Minmatar Ship Interface
   3932: Minmatar Main Screen
   3933: Minmatar Corporation Recruitment
-  3934: Minmatar Planetary Interaction
+  3934: Minmatar Planetary Industry
   3937: Medium Proton Smartbomb I
   3938: Medium Proton Smartbomb I Blueprint
   3939: Medium Proton Smartbomb II
@@ -19713,7 +19713,7 @@ id2name:
   32618: Animated Loaded Lights
   32619: Gallente Sofa
   32620: Gallente Corporation Recruitment
-  32621: Gallente Planetary Interaction
+  32621: Gallente Planetary Industry
   32622: Gallente Main Screen
   32623: Falling Vapor
   32624: Soft Myst
@@ -19779,7 +19779,7 @@ id2name:
   32712: Amarr Sofa
   32713: Amarr Corporation Recruitment
   32714: Amarr Main Screen
-  32715: Amarr Planetary Interaction
+  32715: Amarr Planetary Industry
   32716: Amarr Balcony Ship Interface
   32717: Gallente Balcony Ship Interface
   32719: S_Yellow_Large_01
@@ -21319,7 +21319,7 @@ id2name:
   34570: Svipul Sharpshooter Mode
   34572: Sleeper Databank
   34573: Unidentified Structure
-  34574: CharacterDrifter
+  34574: CharacterLegacy14
   34575: Antikythera Element
   34579: Clonejacker Punk
   34580: Lux Kontos
@@ -23447,8 +23447,8 @@ id2name:
   37401: Standup M-Set Jump Clone Bays II Blueprint
   37402: Medium Jump Clone Tax I Blueprint
   37403: Medium Jump Clone Tax II Blueprint
-  37404: Medium Planetary Production Increase I Blueprint
-  37405: Medium Planetary Production Increase II Blueprint
+  37404: Medium Planetary Industry Increase I Blueprint
+  37405: Medium Planetary Industry Increase II Blueprint
   37406: Medium Customs Office Tax Reduction I Blueprint
   37407: Medium Customs Office Tax Reduction II Blueprint
   37408: Medium Loyalty Point Store Reduction I Blueprint
@@ -23469,8 +23469,8 @@ id2name:
   37424: Standup L-Set Target Acquisition Array II Blueprint
   37425: Large Office, Jump Clone Number and Tax I Blueprint
   37426: Large Office, Jump Clone Number and Tax II Blueprint
-  37427: Large Planetary Production, Customs Office Tax Reduction I Blueprint
-  37428: Large Planetary Production, Customs Office Tax Reduction II Blueprint
+  37427: Large Planetary Industry, Customs Office Tax Reduction I Blueprint
+  37428: Large Planetary Industry, Customs Office Tax Reduction II Blueprint
   37429: Large Market and Loyalty Point Store Tax I Blueprint
   37430: Large Market and Loyalty Point Store Tax II Blueprint
   37431: Standup XL-Set Missile Fire Control Computer I Blueprint
@@ -34905,7 +34905,7 @@ id2name:
   52799: Standard 'Equality' Cerebral Accelerator
   52800: Extended 'Equality' Cerebral Accelerator
   52801: Basic 'Bonding' Cerebral Accelerator
-  52802: Standard 'Bonding' Cerebral Accelerator
+  52802: Potent 'Bonding' Cerebral Accelerator
   52803: Extended 'Bonding' Cerebral Accelerator
   52804: Basic 'Guri Hivaa' Cerebral Accelerator
   52805: Standard 'Guri Hivaa' Cerebral Accelerator
@@ -35572,8 +35572,8 @@ id2name:
   53944: Carousing Talos
   53945: Carousing Machariel
   53946: Carousing Vindicator
-  53947: Guardian's Gala Emcee
-  53948: Guardian's Gala VIP Emcee
+  53947: Guardian's Gala Emcee Vindicator
+  53948: Guardian's Gala VIP Emcee Machariel
   53949: Dramiel Heartsurge SKIN
   53950: Cynabal Heartsurge SKIN
   53951: Machariel Heartsurge SKIN
@@ -37301,8 +37301,8 @@ id2name:
   56357: Yoiul 3v3 Frigates Proving Filament
   56358: T1 Cruiser FFA Proving Filament
   56359: 1v1 T1 Battlecruisers Proving Filament
-  56360: Event 17 Proving Filament
-  56361: Event 18 Proving Filament
+  56360: Gala 2v2 Cruisers Proving Filament
+  56361: T1 Frigate FFA Proving Filament
   56362: GM's Secret Stash Container
   56365: Tranquil Abyssal Filaments Crate
   56487: Vexing Phase-I Swarmer
@@ -37549,7 +37549,7 @@ id2name:
   56778: Catalyst Abyssal Glory SKIN
   56779: Cyclone Abyssal Glory SKIN
   56780: Thrasher Abyssal Glory SKIN
-  56781: Proving Web Bonus (Do not translate)
+  56781: Proving Web Range Bonus (Do not translate)
   56782: Raven Deathglow Remnant SKIN
   56783: Typhoon Deathglow Remnant SKIN
   56784: Slasher Deathglow Remnant SKIN
@@ -37755,9 +37755,9 @@ id2name:
   56997: Weak Volatile Ice Storm
   56998: Weak Lowsec Metaliminal Yoiul Festival YC122 Storm
   56999: Weak Nullsec Metaliminal Yoiul Festival YC122 Storm
-  57000: Basic 'Brainfreeze' Cerebral Accelerator
-  57001: Potent 'Brainfreeze' Cerebral Accelerator
-  57002: Extended 'Brainfreeze' Cerebral Accelerator
+  57000: Expired Basic 'Brainfreeze' Cerebral Accelerator
+  57001: Expired Potent 'Brainfreeze' Cerebral Accelerator
+  57002: Expired Extended 'Brainfreeze' Cerebral Accelerator
   57003: 30,000 Skill Points
   57004: Capsule Aurora Universalis SKIN
   57005: Crusader Aurora Universalis SKIN
@@ -38002,9 +38002,70 @@ id2name:
   57304: Festival-only 'Longbow' HybridTurrets Dose Crate
   57305: Festival-only 'Longbow' Missile Dose Crate
   57306: Spring Festival Mystery Box
+  57307: Vigilant Spirit SKIN
+  57308: Vindicator Spirit SKIN
+  57310: Daredevil Spirit SKIN
   57311: Serenity YC123.2 Season Standard Cerebral Accelerator
   57312: Serenity YC123.2 Season Advanced Cerebral Accelerator
   57313: Serenity YC123.2 Season Pass
+  57320: Guardian's Gala VIP Emcee Vindicator
+  57321: Guardian's Gala Emcee Machariel
+  57323: Serenity ZhenNiu Cerebral Accelerator Type-A
+  57324: Serenity ZhenNiu Cerebral Accelerator Type-B
+  57325: Serenity ZhenNiu Cerebral Accelerator Type-C
+  57326: Serenity ZhenNiu Cerebral Accelerator Type-X
+  57327: Eifyr and Co. 'Rogue' Agility ZhenNiu
+  57328: Poteque 'Prospector' Sharpeye ZhenNiu
+  57329: ORE 'Harvester' Efficiency ZhenNiu
+  57330: Spring Festival ZhenPin Box
+  57331: Spring Festival SKIN Box
+  57332: Serenity Only Chinese Spring Festival Event NPC Lv1
+  57333: Cynabal Serpentis SKIN
+  57334: Machariel Serpentis SKIN
+  57335: Gala Coordination Databank
+  57336: Gala Coordination Com Tower
+  57341: Tempest Amaranthine Mantle SKIN
+  57342: Rifter Amaranthine Mantle SKIN
+  57343: Maelstrom Spirit SKIN
+  57344: Typhoon Spirit SKIN
+  57367: Event 19 Proving Filament
+  57368: Event 20 Proving Filament
+  57369: Event 21 Proving Filament
+  57370: Event 22 Proving Filament
+  57372: Event 23 Proving Filament
+  57373: Event 24 Proving Filament
+  57374: Event 25 Proving Filament
+  57375: Raven Abyssal Glory SKIN
+  57376: Harpy Abyssal Glory SKIN
+  57377: Apocalypse Abyssal Glory SKIN
+  57378: Retribution Abyssal Glory SKIN
+  57379: Typhoon Abyssal Glory SKIN
+  57380: Wolf Abyssal Glory SKIN
+  57382: Megathron Abyssal Glory SKIN
+  57383: Enyo Abyssal Glory SKIN
+  57384: Crucifier Navy Issue Spirit  SKIN
+  57385: Augoror Navy Issue Spirit  SKIN
+  57386: Harbinger Navy Issue Spirit  SKIN
+  57387: Armageddon Navy Issue Spirit  SKIN
+  57388: Griffin Navy Issue Spirit SKIN
+  57389: Caracal Navy Issue Spirit SKIN
+  57390: Drake Navy Issue Spirit SKIN
+  57391: Scorpion Navy Issue Spirit SKIN
+  57393: Vigil Fleet Issue Spirit SKIN
+  57394: Stabber Fleet Issue Spirit SKIN
+  57395: Hurricane Fleet Issue Spirit SKIN
+  57396: Tempest Fleet Issue Spirit SKIN
+  57397: Serenity Only Chinese Spring Festival Event NPC Lv2
+  57398: Serenity Only Chinese Spring Festival Event NPC Lv3
+  57399: Serenity Only Chinese Spring Festival Event NPC Lv4
+  57427: Proving Web Strength Bonus (Do not translate)
+  57428: Serenity Monthly Cerebral Accelerator - 2021.3
+  57430: Serenity YC123.3 Season Standard Cerebral Accelerator
+  57431: Serenity YC123.3 Season Advanced Cerebral Accelerator
+  57432: Serenity YC123.3 Season Pass
+  57433: Serenity Basic 'Bonding' Cerebral Accelerator
+  57434: Serenity Potent 'Bonding' Cerebral Accelerator
+  57435: Serenity Extended 'Bonding' Cerebral Accelerator
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -43384,6 +43445,7 @@ name2group:
   Armageddon Navy Issue Oasis of Faith SKIN: skins/PermanentSKIN
   Armageddon Navy Issue Purity of the Throne SKIN: skins/PermanentSKIN
   Armageddon Navy Issue Sarum SKIN: skins/PermanentSKIN
+  Armageddon Navy Issue Spirit  SKIN: skins/PermanentSKIN
   Armageddon Navy Issue Star Captain SKIN: skins/PermanentSKIN
   Armageddon Oasis of Faith SKIN: skins/PermanentSKIN
   Armageddon Purity of the Throne SKIN: skins/PermanentSKIN
@@ -43661,6 +43723,7 @@ name2group:
   Augoror Navy Issue Serenity YC119 SKIN (365 Days): skins/Max1YearSKIN
   Augoror Navy Issue Serenity YC119 SKIN (7 Days): skins/Max7DaySKIN
   Augoror Navy Issue Serenity YC119 SKIN (90 Days): skins/Max90DaySKIN
+  Augoror Navy Issue Spirit  SKIN: skins/PermanentSKIN
   Augoror Navy Issue Star Captain SKIN: skins/PermanentSKIN
   Augoror Oasis of Faith SKIN: skins/PermanentSKIN
   Augoror Purity of the Throne SKIN: skins/PermanentSKIN
@@ -43852,18 +43915,18 @@ name2group:
   Barrels of Fertilizer: commodity/Miscellaneous
   Barrels of Soil: commodity/Miscellaneous
   Barrels of Water: commodity/Miscellaneous
-  Barren Advanced Industry Facility: planetaryinteraction/Processors
-  Barren Aqueous Liquid Extractor: planetaryinteraction/Extractors
-  Barren Base Metals Extractor: planetaryinteraction/Extractors
-  Barren Basic Industry Facility: planetaryinteraction/Processors
-  Barren Carbon Compounds Extractor: planetaryinteraction/Extractors
-  Barren Command Center: planetaryinteraction/CommandCenters
-  Barren Extractor Control Unit: planetaryinteraction/ExtractorControlUnits
-  Barren High-Tech Production Plant: planetaryinteraction/Processors
-  Barren Launchpad: planetaryinteraction/Spaceports
-  Barren Microorganisms Extractor: planetaryinteraction/Extractors
-  Barren Noble Metals Extractor: planetaryinteraction/Extractors
-  Barren Storage Facility: planetaryinteraction/StorageFacilities
+  Barren Advanced Industry Facility: planetaryindustry/Processors
+  Barren Aqueous Liquid Extractor: planetaryindustry/Extractors
+  Barren Base Metals Extractor: planetaryindustry/Extractors
+  Barren Basic Industry Facility: planetaryindustry/Processors
+  Barren Carbon Compounds Extractor: planetaryindustry/Extractors
+  Barren Command Center: planetaryindustry/CommandCenters
+  Barren Extractor Control Unit: planetaryindustry/ExtractorControlUnits
+  Barren High-Tech Production Plant: planetaryindustry/Processors
+  Barren Launchpad: planetaryindustry/Spaceports
+  Barren Microorganisms Extractor: planetaryindustry/Extractors
+  Barren Noble Metals Extractor: planetaryindustry/Extractors
+  Barren Storage Facility: planetaryindustry/StorageFacilities
   Barricaded Warehouse: entity/DeadspaceOverseerSStructure
   Barrow Ferrier: entity/AsteroidBloodRaidersHauler
   Barrow Gatherer: entity/AsteroidBloodRaidersHauler
@@ -43880,7 +43943,7 @@ name2group:
   Baryon Exotic Plasma XL Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Base Metals: planetaryresources/PlanetSolidRawResource
   Basic 'Ardour' Cerebral Accelerator Blueprint Crate: specialeditionassets/SpecialEditionCommodities
-  Basic 'Brainfreeze' Cerebral Accelerator: implant/Booster
+  Basic 'Bonding' Cerebral Accelerator: implant/Booster
   Basic 'Radiance' Cerebral Accelerator: implant/Booster
   Basic 120mm Armor Plates: infantry/InfantryModules
   Basic 60mm Armor Plates: infantry/InfantryModules
@@ -45950,6 +46013,7 @@ name2group:
   Caracal Navy Issue Ghostbird SKIN: skins/PermanentSKIN
   Caracal Navy Issue Glacial Drift SKIN: skins/PermanentSKIN
   Caracal Navy Issue Octopus Orange Flight SKIN: skins/PermanentSKIN
+  Caracal Navy Issue Spirit SKIN: skins/PermanentSKIN
   Caracal Navy Issue Steel Cardinal SKIN: skins/PermanentSKIN
   Caracal Navy Issue Wiyrkomi SKIN: skins/PermanentSKIN
   Caracal Navy Issue Zento Isideko Combine SKIN: skins/PermanentSKIN
@@ -46332,21 +46396,21 @@ name2group:
   Chaotic Gamma Filament: commodity/AbyssalFilaments
   Chapel Container: entity/MissionContainer
   Chapel of the Obsidian: entity/SpawnContainer
-  CharacterAchura: owner/Character
-  CharacterAmarr: owner/Character
-  CharacterBrutor: owner/Character
-  CharacterCivire: owner/Character
-  CharacterDeteis: owner/Character
-  CharacterDrifter: owner/Character
-  CharacterGallente: owner/Character
-  CharacterIntaki: owner/Character
-  CharacterJinMei: owner/Character
-  CharacterKhanid: owner/Character
-  CharacterModifier: owner/Character
-  CharacterNiKunni: owner/Character
-  CharacterSebiestor: owner/Character
-  CharacterStatic: owner/Character
-  CharacterVherokior: owner/Character
+  CharacterLegacy1: owner/Character
+  CharacterLegacy10: owner/Character
+  CharacterLegacy11: owner/Character
+  CharacterLegacy12: owner/Character
+  CharacterLegacy13: owner/Character
+  CharacterLegacy14: owner/Character
+  CharacterLegacy2: owner/Character
+  CharacterLegacy3: owner/Character
+  CharacterLegacy4: owner/Character
+  CharacterLegacy5: owner/Character
+  CharacterLegacy6: owner/Character
+  CharacterLegacy7: owner/Character
+  CharacterLegacy8: owner/Character
+  CharacterLegacy9: owner/Character
+  CharacterType: owner/Character
   Charge Ammunition Storage: entity/SpawnContainer
   Charge Sniper Rifle: infantry/InfantryWeapons
   Charon: ship/Freighter
@@ -47623,6 +47687,7 @@ name2group:
   Crucifier Navy Issue Oasis of Faith SKIN: skins/PermanentSKIN
   Crucifier Navy Issue Purity of the Throne SKIN: skins/PermanentSKIN
   Crucifier Navy Issue Sarum SKIN: skins/PermanentSKIN
+  Crucifier Navy Issue Spirit  SKIN: skins/PermanentSKIN
   Crucifier Oasis of Faith SKIN: skins/PermanentSKIN
   Crucifier Purity of the Throne SKIN: skins/PermanentSKIN
   Crucifier Raata Sunset SKIN: skins/PermanentSKIN
@@ -48859,6 +48924,7 @@ name2group:
   Drake Navy Issue Glacial Drift SKIN: skins/PermanentSKIN
   Drake Navy Issue IGC SKIN: skins/PermanentSKIN
   Drake Navy Issue Octopus Orange Flight SKIN: skins/PermanentSKIN
+  Drake Navy Issue Spirit SKIN: skins/PermanentSKIN
   Drake Navy Issue Steel Cardinal SKIN: skins/PermanentSKIN
   Drake Navy Issue Wiyrkomi SKIN: skins/PermanentSKIN
   Drake Navy Issue Zento Isideko Combine SKIN: skins/PermanentSKIN
@@ -49528,6 +49594,7 @@ name2group:
   Eifyr and Co. 'Rogue' Afterburner AB-610: implant/CyberNavigation
   Eifyr and Co. 'Rogue' Afterburner AB-612: implant/CyberNavigation
   Eifyr and Co. 'Rogue' Agility 11-11: implant/Booster
+  Eifyr and Co. 'Rogue' Agility ZhenNiu: implant/Booster
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-701: implant/CyberNavigation
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-702: implant/CyberNavigation
   Eifyr and Co. 'Rogue' Evasive Maneuvering EM-703: implant/CyberNavigation
@@ -50083,8 +50150,6 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
-  Event 17 Proving Filament: commodity/AbyssalProvingFilaments
-  Event 18 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
@@ -50261,7 +50326,7 @@ name2group:
   Explosives: infantry/InfantrySkills
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   Exsanguinator: entity/DeadspaceOverseerCruiser
-  Extended 'Brainfreeze' Cerebral Accelerator: implant/Booster
+  Extended 'Bonding' Cerebral Accelerator: implant/Booster
   Extended 'Radiance' Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
@@ -51055,6 +51120,7 @@ name2group:
   GN-20 Specialist Flaylock Pistol: infantry/InfantryWeapons
   Gaabu Moniq: entity/MissionGenericCruisers
   Gadolinium Array: infantry/InfantryModules
+  Gala 2v2 Cruisers Proving Filament: commodity/AbyssalProvingFilaments
   Gala Missile Battery: entity/DestructibleSentryGun
   Galaxy Pack - Crystal: specialeditionassets/SpecialEditionCommodities
   Galaxy Pack - Spectral: specialeditionassets/SpecialEditionCommodities
@@ -51289,23 +51355,23 @@ name2group:
   Garmur Waschi Uprising 'Parade' SKIN: skins/PermanentSKIN
   Garp Soolim: entity/StorylineMissionCruiser
   Garp Soolim's ID Tag: commodity/Identification
-  Gas Advanced Industry Facility: planetaryinteraction/Processors
-  Gas Aqueous Liquid Extractor: planetaryinteraction/Extractors
-  Gas Base Metals Extractor: planetaryinteraction/Extractors
-  Gas Basic Industry Facility: planetaryinteraction/Processors
+  Gas Advanced Industry Facility: planetaryindustry/Processors
+  Gas Aqueous Liquid Extractor: planetaryindustry/Extractors
+  Gas Base Metals Extractor: planetaryindustry/Extractors
+  Gas Basic Industry Facility: planetaryindustry/Processors
   Gas Cloud Harvester I: module/GasCloudHarvester
   Gas Cloud Harvester I Blueprint: blueprint/MiningLaserBlueprint
   Gas Cloud Harvester II: module/GasCloudHarvester
   Gas Cloud Harvester II Blueprint: blueprint/MiningLaserBlueprint
   Gas Cloud Harvesting: skill/ResourceProcessing
-  Gas Command Center: planetaryinteraction/CommandCenters
-  Gas Extractor Control Unit: planetaryinteraction/ExtractorControlUnits
-  Gas Ionic Solutions Extractor: planetaryinteraction/Extractors
-  Gas Launchpad: planetaryinteraction/Spaceports
-  Gas Noble Gas Extractor: planetaryinteraction/Extractors
+  Gas Command Center: planetaryindustry/CommandCenters
+  Gas Extractor Control Unit: planetaryindustry/ExtractorControlUnits
+  Gas Ionic Solutions Extractor: planetaryindustry/Extractors
+  Gas Launchpad: planetaryindustry/Spaceports
+  Gas Noble Gas Extractor: planetaryindustry/Extractors
   Gas Passkey: commodity/Miscellaneous
-  Gas Reactive Gas Extractor: planetaryinteraction/Extractors
-  Gas Storage Facility: planetaryinteraction/StorageFacilities
+  Gas Reactive Gas Extractor: planetaryindustry/Extractors
+  Gas Storage Facility: planetaryindustry/StorageFacilities
   Gas/Storage Silo: entity/DeadspaceOverseerSStructure
   Gas/Storage Silo - Pirate Extravaganza lvl 3_ MISSION: entity/LargeCollidableStructure
   Gastun's BRN-50 Forge Gun: infantry/InfantryWeapons
@@ -51793,6 +51859,7 @@ name2group:
   Griffin Navy Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Griffin Navy Issue Ghostbird SKIN: skins/PermanentSKIN
   Griffin Navy Issue Glacial Drift SKIN: skins/PermanentSKIN
+  Griffin Navy Issue Spirit SKIN: skins/PermanentSKIN
   Griffin Navy Issue Steel Cardinal SKIN: skins/PermanentSKIN
   Griffin Navy Issue Wiyrkomi SKIN: skins/PermanentSKIN
   Griffin Navy Issue Zento Isideko Combine SKIN: skins/PermanentSKIN
@@ -51901,10 +51968,12 @@ name2group:
   Guardian Uranium Charge XL: charge/HybridCharge
   Guardian Veteran: entity/DeadspaceSerpentisFrigate
   Guardian Watchman: entity/AsteroidSerpentisFrigate
-  Guardian's Gala Emcee: entity/IrregularBattleship
+  Guardian's Gala Emcee Machariel: entity/IrregularBattleship
+  Guardian's Gala Emcee Vindicator: entity/IrregularBattleship
   Guardian's Gala Surprise Gift: specialeditionassets/SpecialEditionCommodities
   Guardian's Gala Surprise Gift, Damaged: specialeditionassets/SpecialEditionCommodities
-  Guardian's Gala VIP Emcee: entity/IrregularBattleship
+  Guardian's Gala VIP Emcee Machariel: entity/IrregularBattleship
+  Guardian's Gala VIP Emcee Vindicator: entity/IrregularBattleship
   Guardian's Gala VIP Surprise Gift: specialeditionassets/SpecialEditionCommodities
   Guardian's Gala VIP Surprise Gift, Damaged: specialeditionassets/SpecialEditionCommodities
   Guardian-Vexor: ship/Cruiser
@@ -52325,6 +52394,7 @@ name2group:
   Harbinger Navy Issue Oasis of Faith SKIN: skins/PermanentSKIN
   Harbinger Navy Issue Purity of the Throne SKIN: skins/PermanentSKIN
   Harbinger Navy Issue Sarum SKIN: skins/PermanentSKIN
+  Harbinger Navy Issue Spirit  SKIN: skins/PermanentSKIN
   Harbinger Oasis of Faith SKIN: skins/PermanentSKIN
   Harbinger Purity of the Throne SKIN: skins/PermanentSKIN
   Harbinger Raata Sunset SKIN: skins/PermanentSKIN
@@ -53034,6 +53104,7 @@ name2group:
   Hurricane Fleet Issue In Rust We Trust SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Justice SKIN: skins/PermanentSKIN
   Hurricane Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Hurricane Fleet Issue Spirit SKIN: skins/PermanentSKIN
   Hurricane Fleet Ordnance Spike SKIN (Volatile): skins/VolatileSKIN
   Hurricane Freedom's Revolution SKIN: skins/PermanentSKIN
   Hurricane Glacial Drift SKIN: skins/PermanentSKIN
@@ -53146,11 +53217,11 @@ name2group:
   Ibis Glacial Drift SKIN: skins/PermanentSKIN
   Ibrahim: entity/MissionGenericCruisers
   Ibrahim's Insignia: commodity/EmpireInsigniaDrops
-  Ice Advanced Industry Facility: planetaryinteraction/Processors
-  Ice Aqueous Liquid Extractor: planetaryinteraction/Extractors
-  Ice Basic Industry Facility: planetaryinteraction/Processors
-  Ice Command Center: planetaryinteraction/CommandCenters
-  Ice Extractor Control Unit: planetaryinteraction/ExtractorControlUnits
+  Ice Advanced Industry Facility: planetaryindustry/Processors
+  Ice Aqueous Liquid Extractor: planetaryindustry/Extractors
+  Ice Basic Industry Facility: planetaryindustry/Processors
+  Ice Command Center: planetaryindustry/CommandCenters
+  Ice Extractor Control Unit: planetaryindustry/ExtractorControlUnits
   Ice Harvester I: module/StripMiner
   Ice Harvester I Blueprint: blueprint/StripMinerBlueprint
   Ice Harvester II: module/StripMiner
@@ -53166,17 +53237,17 @@ name2group:
   Ice Harvesting Drone II Blueprint: blueprint/MiningDroneBlueprint
   Ice Harvesting Drone Operation: skill/Drones
   Ice Harvesting Drone Specialization: skill/Drones
-  Ice Heavy Metals Extractor: planetaryinteraction/Extractors
-  Ice Launchpad: planetaryinteraction/Spaceports
-  Ice Microorganisms Extractor: planetaryinteraction/Extractors
+  Ice Heavy Metals Extractor: planetaryindustry/Extractors
+  Ice Launchpad: planetaryindustry/Spaceports
+  Ice Microorganisms Extractor: planetaryindustry/Extractors
   Ice Mining Laser I: module/MiningLaser
   Ice Mining Laser I Blueprint: blueprint/MiningLaserBlueprint
   Ice Mining Laser II: module/MiningLaser
   Ice Mining Laser II Blueprint: blueprint/MiningLaserBlueprint
-  Ice Noble Gas Extractor: planetaryinteraction/Extractors
-  Ice Planktic Colonies Extractor: planetaryinteraction/Extractors
+  Ice Noble Gas Extractor: planetaryindustry/Extractors
+  Ice Planktic Colonies Extractor: planetaryindustry/Extractors
   Ice Processing: skill/ResourceProcessing
-  Ice Storage Facility: planetaryinteraction/StorageFacilities
+  Ice Storage Facility: planetaryindustry/StorageFacilities
   Identity Data Chip: commodity/Commodities
   Ikitursa: ship/HeavyAssaultCruiser
   Ikitursa All-Stars Casino Clash SKIN: skins/PermanentSKIN
@@ -55335,17 +55406,17 @@ name2group:
   Latent Submission Tapes: commodity/Commodities
   Lattice Locked Dekaisogen: commodity/ConstructionComponents
   Launcher Rigging: skill/Rigging
-  Lava Advanced Industry Facility: planetaryinteraction/Processors
-  Lava Base Metals Extractor: planetaryinteraction/Extractors
-  Lava Basic Industry Facility: planetaryinteraction/Processors
-  Lava Command Center: planetaryinteraction/CommandCenters
-  Lava Extractor Control Unit: planetaryinteraction/ExtractorControlUnits
-  Lava Felsic Magma Extractor: planetaryinteraction/Extractors
-  Lava Heavy Metals Extractor: planetaryinteraction/Extractors
-  Lava Launchpad: planetaryinteraction/Spaceports
-  Lava Non-CS Crystals Extractor: planetaryinteraction/Extractors
-  Lava Storage Facility: planetaryinteraction/StorageFacilities
-  Lava Suspended Plasma Extractor: planetaryinteraction/Extractors
+  Lava Advanced Industry Facility: planetaryindustry/Processors
+  Lava Base Metals Extractor: planetaryindustry/Extractors
+  Lava Basic Industry Facility: planetaryindustry/Processors
+  Lava Command Center: planetaryindustry/CommandCenters
+  Lava Extractor Control Unit: planetaryindustry/ExtractorControlUnits
+  Lava Felsic Magma Extractor: planetaryindustry/Extractors
+  Lava Heavy Metals Extractor: planetaryindustry/Extractors
+  Lava Launchpad: planetaryindustry/Spaceports
+  Lava Non-CS Crystals Extractor: planetaryindustry/Extractors
+  Lava Storage Facility: planetaryindustry/StorageFacilities
+  Lava Suspended Plasma Extractor: planetaryindustry/Extractors
   Lavish Chromite: asteroid/UncommonMoonAsteroids
   Lavish Otavite: asteroid/UncommonMoonAsteroids
   Lavish Sperrylite: asteroid/UncommonMoonAsteroids
@@ -55642,7 +55713,7 @@ name2group:
   Limited Synth X-Instinct Booster Mk V: implant/Booster
   Linear Shield Emitter: commodity/ConstructionComponents
   Linear Shield Emitter Blueprint: blueprint/ConstructionComponentBlueprints
-  Link: planetaryinteraction/PlanetaryLinks
+  Link: planetaryindustry/PlanetaryLinks
   Linked Broadcast Array Hub: entity/MissionContainer
   Linked Enduring Remote Sensor Booster: module/RemoteSensorBooster
   Liquid Ozone: material/IceProduct
@@ -58878,6 +58949,7 @@ name2group:
   OODA Loop Expert System Package: commodity/Commodities
   OP Insecticide: commodity/Biohazard
   ORE 'Harvester' Efficiency 11-11: implant/Booster
+  ORE 'Harvester' Efficiency ZhenNiu: implant/Booster
   ORE Deep Core Mining Laser: module/MiningLaser
   ORE Expanded Cargohold: module/ExpandedCargohold
   ORE Faded Volatile Ice Processor: entity/DeadspaceOverseerSStructure
@@ -58959,17 +59031,17 @@ name2group:
   Occult Tuner Data Interface: commodity/DataInterfaces
   Occult Tuner Data Interface Blueprint: blueprint/ToolBlueprint
   Occupied Amarr Bunker: entity/LargeCollidableStructure
-  Oceanic Advanced Industry Facility: planetaryinteraction/Processors
-  Oceanic Aqueous Liquid Extractor: planetaryinteraction/Extractors
-  Oceanic Basic Industry Facility: planetaryinteraction/Processors
-  Oceanic Carbon Compounds Extractor: planetaryinteraction/Extractors
-  Oceanic Command Center: planetaryinteraction/CommandCenters
-  Oceanic Complex Organisms Extractor: planetaryinteraction/Extractors
-  Oceanic Extractor Control Unit: planetaryinteraction/ExtractorControlUnits
-  Oceanic Launchpad: planetaryinteraction/Spaceports
-  Oceanic Microorganisms Extractor: planetaryinteraction/Extractors
-  Oceanic Planktic Colonies Extractor: planetaryinteraction/Extractors
-  Oceanic Storage Facility: planetaryinteraction/StorageFacilities
+  Oceanic Advanced Industry Facility: planetaryindustry/Processors
+  Oceanic Aqueous Liquid Extractor: planetaryindustry/Extractors
+  Oceanic Basic Industry Facility: planetaryindustry/Processors
+  Oceanic Carbon Compounds Extractor: planetaryindustry/Extractors
+  Oceanic Command Center: planetaryindustry/CommandCenters
+  Oceanic Complex Organisms Extractor: planetaryindustry/Extractors
+  Oceanic Extractor Control Unit: planetaryindustry/ExtractorControlUnits
+  Oceanic Launchpad: planetaryindustry/Spaceports
+  Oceanic Microorganisms Extractor: planetaryindustry/Extractors
+  Oceanic Planktic Colonies Extractor: planetaryindustry/Extractors
+  Oceanic Storage Facility: planetaryindustry/StorageFacilities
   Octomet Dog Tags: commodity/Miscellaneous
   Ocular Filter - Basic: implant/CyberLearning
   Ocular Filter - Improved: implant/CyberLearning
@@ -59726,9 +59798,9 @@ name2group:
   Planetary Vehicles: planetarycommodities/SpecializedCommoditiesTier3
   Planetology: skill/PlanetManagement
   Planktic Colonies: planetaryresources/PlanetOrganicRawResource
-  Plasma Advanced Industry Facility: planetaryinteraction/Processors
-  Plasma Base Metals Extractor: planetaryinteraction/Extractors
-  Plasma Basic Industry Facility: planetaryinteraction/Processors
+  Plasma Advanced Industry Facility: planetaryindustry/Processors
+  Plasma Base Metals Extractor: planetaryindustry/Extractors
+  Plasma Basic Industry Facility: planetaryindustry/Processors
   Plasma Cannon: infantry/InfantryWeapons
   Plasma Cannon Ammo Capacity: infantry/InfantrySkills
   Plasma Cannon Fitting Optimization: infantry/InfantrySkills
@@ -59737,17 +59809,17 @@ name2group:
   Plasma Cannon Rapid Reload: infantry/InfantrySkills
   Plasma Cannon Sharpshooter: infantry/InfantrySkills
   Plasma Chamber: entity/LargeCollidableStructure
-  Plasma Command Center: planetaryinteraction/CommandCenters
-  Plasma Extractor Control Unit: planetaryinteraction/ExtractorControlUnits
-  Plasma Heavy Metals Extractor: planetaryinteraction/Extractors
-  Plasma Launchpad: planetaryinteraction/Spaceports
-  Plasma Noble Metals Extractor: planetaryinteraction/Extractors
-  Plasma Non-CS Crystals Extractor: planetaryinteraction/Extractors
+  Plasma Command Center: planetaryindustry/CommandCenters
+  Plasma Extractor Control Unit: planetaryindustry/ExtractorControlUnits
+  Plasma Heavy Metals Extractor: planetaryindustry/Extractors
+  Plasma Launchpad: planetaryindustry/Spaceports
+  Plasma Noble Metals Extractor: planetaryindustry/Extractors
+  Plasma Non-CS Crystals Extractor: planetaryindustry/Extractors
   Plasma Physics: skill/Science
   Plasma Pulse Generator: commodity/ConstructionComponents
   Plasma Pulse Generator Blueprint: blueprint/ConstructionComponentBlueprints
-  Plasma Storage Facility: planetaryinteraction/StorageFacilities
-  Plasma Suspended Plasma Extractor: planetaryinteraction/Extractors
+  Plasma Storage Facility: planetaryindustry/StorageFacilities
+  Plasma Suspended Plasma Extractor: planetaryindustry/Extractors
   Plasma Thruster: commodity/ConstructionComponents
   Plasma Thruster Blueprint: blueprint/ConstructionComponentBlueprints
   Plasmoids: planetarycommodities/BasicCommoditiesTier1
@@ -59854,7 +59926,7 @@ name2group:
   Portable Power Generator: commodity/Commodities
   Positron Cord: commodity/MaterialsAndCompounds
   Postcard From Poitot: specialeditionassets/SpecialEditionCommodities
-  Potent 'Brainfreeze' Cerebral Accelerator: implant/Booster
+  Potent 'Bonding' Cerebral Accelerator: implant/Booster
   Potent 'Radiance' Cerebral Accelerator: implant/Booster
   Potent Viral Agent: commodity/Biohazard
   Poteque 'Prospector' Archaeology AC-905: implant/CyberScanning
@@ -59871,6 +59943,7 @@ name2group:
   Poteque 'Prospector' Hacking HC-905: implant/CyberScanning
   Poteque 'Prospector' Salvaging SV-905: implant/CyberScanning
   Poteque 'Prospector' Sharpeye 11-11: implant/Booster
+  Poteque 'Prospector' Sharpeye ZhenNiu: implant/Booster
   Pourpas Aunten: entity/StorylineMissionCruiser
   Powdered C-540 Graphite: material/AncientSalvage
   Powdered Cubensis: commodity/Commodities
@@ -62161,6 +62234,7 @@ name2group:
   Scorpion Navy Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Scorpion Navy Issue Ghostbird SKIN: skins/PermanentSKIN
   Scorpion Navy Issue Glacial Drift SKIN: skins/PermanentSKIN
+  Scorpion Navy Issue Spirit SKIN: skins/PermanentSKIN
   Scorpion Navy Issue Steel Cardinal SKIN: skins/PermanentSKIN
   Scorpion Navy Issue Wiyrkomi SKIN: skins/PermanentSKIN
   Scorpion Navy Issue Zento Isideko Combine SKIN: skins/PermanentSKIN
@@ -62536,9 +62610,11 @@ name2group:
   Serenity August Season Advanced Cerebral Accelerator: implant/Booster
   Serenity August Season Pass: implant/Booster
   Serenity August Season Standard Cerebral Accelerator: implant/Booster
+  Serenity Basic 'Bonding' Cerebral Accelerator: implant/Booster
   Serenity December Season Advanced Cerebral Accelerator: implant/Booster
   Serenity December Season Pass: implant/Booster
   Serenity December Season Standard Cerebral Accelerator: implant/Booster
+  Serenity Extended 'Bonding' Cerebral Accelerator: implant/Booster
   Serenity Festival Copper Crate: commodity/Miscellaneous
   Serenity Festival Gold Crate: commodity/Miscellaneous
   Serenity Festival Silver Crate: commodity/Miscellaneous
@@ -62551,12 +62627,18 @@ name2group:
   Serenity Monthly Cerebral Accelerator - 2020.9: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.1: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.2: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2021.3: implant/Booster
   Serenity November Season Advanced Cerebral Accelerator: implant/Booster
   Serenity November Season Pass: implant/Booster
   Serenity November Season Standard Cerebral Accelerator: implant/Booster
   Serenity October Season Advanced Cerebral Accelerator: implant/Booster
   Serenity October Season Pass: implant/Booster
   Serenity October Season Standard Cerebral Accelerator: implant/Booster
+  Serenity Only Chinese Spring Festival Event NPC Lv1: entity/PirateDrone
+  Serenity Only Chinese Spring Festival Event NPC Lv2: entity/PirateDrone
+  Serenity Only Chinese Spring Festival Event NPC Lv3: entity/PirateDrone
+  Serenity Only Chinese Spring Festival Event NPC Lv4: entity/PirateDrone
+  Serenity Potent 'Bonding' Cerebral Accelerator: implant/Booster
   Serenity Rookie DLI Day 1 Crate: commodity/Miscellaneous
   Serenity Rookie DLI Day 2 Crate: commodity/Miscellaneous
   Serenity Rookie DLI Day 3 Crate: commodity/Miscellaneous
@@ -62585,6 +62667,13 @@ name2group:
   Serenity YC123.2 Season Advanced Cerebral Accelerator: implant/Booster
   Serenity YC123.2 Season Pass: implant/Booster
   Serenity YC123.2 Season Standard Cerebral Accelerator: implant/Booster
+  Serenity YC123.3 Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity YC123.3 Season Pass: implant/Booster
+  Serenity YC123.3 Season Standard Cerebral Accelerator: implant/Booster
+  Serenity ZhenNiu Cerebral Accelerator Type-A: implant/Booster
+  Serenity ZhenNiu Cerebral Accelerator Type-B: implant/Booster
+  Serenity ZhenNiu Cerebral Accelerator Type-C: implant/Booster
+  Serenity ZhenNiu Cerebral Accelerator Type-X: implant/Booster
   Serpentis 3D Scanner Gamut: commodity/ArtifactsAndPrototypes
   Serpentis Administration Facility: entity/DeadspaceOverseerSSentry
   Serpentis Admiral: entity/AsteroidSerpentisBattleship
@@ -64134,6 +64223,8 @@ name2group:
   Spools of Quantrium Wiring: commodity/Miscellaneous
   Spotlighter Tessella: entity/AbyssalDroneEntities
   Spring Festival Mystery Box: commodity/Miscellaneous
+  Spring Festival SKIN Box: commodity/Miscellaneous
+  Spring Festival ZhenPin Box: commodity/Miscellaneous
   Spy: commodity/Livestock
   Spy ID Slice: commodity/Identification
   Squad - Armor Bonus Test: infantry/InfantryModules
@@ -64160,6 +64251,7 @@ name2group:
   Stabber Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Justice SKIN: skins/PermanentSKIN
   Stabber Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Stabber Fleet Issue Spirit SKIN: skins/PermanentSKIN
   Stabber Glacial Drift SKIN: skins/PermanentSKIN
   Stabber Hazard Control SKIN: skins/PermanentSKIN
   Stabber Hunter's Quiver SKIN: skins/PermanentSKIN
@@ -65116,19 +65208,19 @@ name2group:
   Stork Matigu Seabeast SKIN: skins/PermanentSKIN
   Stork Steel Cardinal SKIN: skins/PermanentSKIN
   Stork Zento Isideko Combine SKIN: skins/PermanentSKIN
-  Storm Advanced Industry Facility: planetaryinteraction/Processors
-  Storm Aqueous Liquid Extractor: planetaryinteraction/Extractors
-  Storm Base Metals Extractor: planetaryinteraction/Extractors
-  Storm Basic Industry Facility: planetaryinteraction/Processors
-  Storm Command Center: planetaryinteraction/CommandCenters
-  Storm Extractor Control Unit: planetaryinteraction/ExtractorControlUnits
-  Storm Ionic Solutions Extractor: planetaryinteraction/Extractors
-  Storm Launchpad: planetaryinteraction/Spaceports
-  Storm Noble Gas Extractor: planetaryinteraction/Extractors
+  Storm Advanced Industry Facility: planetaryindustry/Processors
+  Storm Aqueous Liquid Extractor: planetaryindustry/Extractors
+  Storm Base Metals Extractor: planetaryindustry/Extractors
+  Storm Basic Industry Facility: planetaryindustry/Processors
+  Storm Command Center: planetaryindustry/CommandCenters
+  Storm Extractor Control Unit: planetaryindustry/ExtractorControlUnits
+  Storm Ionic Solutions Extractor: planetaryindustry/Extractors
+  Storm Launchpad: planetaryindustry/Spaceports
+  Storm Noble Gas Extractor: planetaryindustry/Extractors
   Storm Raider's Modified Commando ak.0: infantry/InfantryDropsuits
   Storm Raider's Modified Commando ak.0 (Master): infantry/InfantryDropsuits
-  Storm Storage Facility: planetaryinteraction/StorageFacilities
-  Storm Suspended Plasma Extractor: planetaryinteraction/Extractors
+  Storm Storage Facility: planetaryindustry/StorageFacilities
+  Storm Suspended Plasma Extractor: planetaryindustry/Extractors
   Stormbringer: ship/Cruiser
   Stormbringer Blueprint: blueprint/CruiserBlueprint
   Stormbringer Bluestar Defenders SKIN: skins/PermanentSKIN
@@ -65530,6 +65622,7 @@ name2group:
   Systems Hacking: infantry/InfantrySkills
   T-12 Ion Pistol: infantry/InfantryWeapons
   T1 Cruiser FFA Proving Filament: commodity/AbyssalProvingFilaments
+  T1 Frigate FFA Proving Filament: commodity/AbyssalProvingFilaments
   TE-2100 Ample Light Missile Launcher: module/MissileLauncherLight
   TE-2100 Ample Rapid Torpedo Launcher: module/MissileLauncherRapidTorpedo
   TE-2100 Ample Rapid Torpedo Launcher Blueprint: blueprint/MissileLauncherBlueprint
@@ -65795,18 +65888,18 @@ name2group:
   Temko Megathron: entity/StorylineBattleship
   Temko Mercenaries: commodity/Livestock
   TempPublish_01: worldspace/WorldSpace
-  Temperate Advanced Industry Facility: planetaryinteraction/Processors
-  Temperate Aqueous Liquid Extractor: planetaryinteraction/Extractors
-  Temperate Autotrophs Extractor: planetaryinteraction/Extractors
-  Temperate Basic Industry Facility: planetaryinteraction/Processors
-  Temperate Carbon Compounds Extractor: planetaryinteraction/Extractors
-  Temperate Command Center: planetaryinteraction/CommandCenters
-  Temperate Complex Organisms Extractor: planetaryinteraction/Extractors
-  Temperate Extractor Control Unit: planetaryinteraction/ExtractorControlUnits
-  Temperate High-Tech Production Plant: planetaryinteraction/Processors
-  Temperate Launchpad: planetaryinteraction/Spaceports
-  Temperate Microorganisms Extractor: planetaryinteraction/Extractors
-  Temperate Storage Facility: planetaryinteraction/StorageFacilities
+  Temperate Advanced Industry Facility: planetaryindustry/Processors
+  Temperate Aqueous Liquid Extractor: planetaryindustry/Extractors
+  Temperate Autotrophs Extractor: planetaryindustry/Extractors
+  Temperate Basic Industry Facility: planetaryindustry/Processors
+  Temperate Carbon Compounds Extractor: planetaryindustry/Extractors
+  Temperate Command Center: planetaryindustry/CommandCenters
+  Temperate Complex Organisms Extractor: planetaryindustry/Extractors
+  Temperate Extractor Control Unit: planetaryindustry/ExtractorControlUnits
+  Temperate High-Tech Production Plant: planetaryindustry/Processors
+  Temperate Launchpad: planetaryindustry/Spaceports
+  Temperate Microorganisms Extractor: planetaryindustry/Extractors
+  Temperate Storage Facility: planetaryindustry/StorageFacilities
   Tempest: ship/Battleship
   Tempest Aurora Universalis SKIN: skins/PermanentSKIN
   Tempest Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -65825,6 +65918,7 @@ name2group:
   Tempest Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Justice SKIN: skins/PermanentSKIN
   Tempest Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Tempest Fleet Issue Spirit SKIN: skins/PermanentSKIN
   Tempest Fleet Ordnance Spike SKIN (Volatile): skins/VolatileSKIN
   Tempest Glacial Drift SKIN: skins/PermanentSKIN
   Tempest Hazard Control SKIN: skins/PermanentSKIN
@@ -67545,6 +67639,7 @@ name2group:
   Vigil Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Justice SKIN: skins/PermanentSKIN
   Vigil Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
+  Vigil Fleet Issue Spirit SKIN: skins/PermanentSKIN
   Vigil Glacial Drift SKIN: skins/PermanentSKIN
   Vigil Hazard Control SKIN: skins/PermanentSKIN
   Vigil Justice SKIN: skins/PermanentSKIN

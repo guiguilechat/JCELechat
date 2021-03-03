@@ -6,7 +6,6 @@ types:
     name: Combat Scanner Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Core Scanner Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -29,7 +27,6 @@ types:
     name: Stasis Webification Probe Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2344200.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -41,7 +38,6 @@ types:
     name: Warp Disrupt Probe Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2344200.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

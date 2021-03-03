@@ -5,25 +5,14 @@ types:
     name: 1v1 T1 Battlecruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Event 17 Proving Filament:
+  Gala 2v2 Cruisers Proving Filament:
     id: 56360
     marketGroup: 2747
-    name: Event 17 Proving Filament
+    name: Gala 2v2 Cruisers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  Event 18 Proving Filament:
-    id: 56361
-    marketGroup: 2747
-    name: Event 18 Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
     published: true
     volume: 0.10000000149011612
   T1 Cruiser FFA Proving Filament:
@@ -32,6 +21,13 @@ types:
     name: T1 Cruiser FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
+    published: true
+    volume: 0.10000000149011612
+  T1 Frigate FFA Proving Filament:
+    id: 56361
+    marketGroup: 2747
+    name: T1 Frigate FFA Proving Filament
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
     published: true
     volume: 0.10000000149011612

@@ -5,7 +5,6 @@ types:
     name: Amarr Phenomena Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   Armor Command Burst I Blueprint:
@@ -14,7 +13,6 @@ types:
     name: Armor Command Burst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   Armor Command Burst II Blueprint:
@@ -22,7 +20,6 @@ types:
     name: Armor Command Burst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   Caldari Phenomena Generator Blueprint:
@@ -31,7 +28,6 @@ types:
     name: Caldari Phenomena Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   Gallente Phenomena Generator Blueprint:
@@ -40,7 +36,6 @@ types:
     name: Gallente Phenomena Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   Information Command Burst I Blueprint:
@@ -49,7 +44,6 @@ types:
     name: Information Command Burst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   Information Command Burst II Blueprint:
@@ -57,7 +51,6 @@ types:
     name: Information Command Burst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   Mining Foreman Burst I Blueprint:
@@ -66,7 +59,6 @@ types:
     name: Mining Foreman Burst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   Mining Foreman Burst II Blueprint:
@@ -74,7 +66,6 @@ types:
     name: Mining Foreman Burst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   Minmatar Phenomena Generator Blueprint:
@@ -83,7 +74,6 @@ types:
     name: Minmatar Phenomena Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   Shield Command Burst I Blueprint:
@@ -92,7 +82,6 @@ types:
     name: Shield Command Burst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   Shield Command Burst II Blueprint:
@@ -100,7 +89,6 @@ types:
     name: Shield Command Burst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   Skirmish Command Burst I Blueprint:
@@ -109,7 +97,6 @@ types:
     name: Skirmish Command Burst I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582
   Skirmish Command Burst II Blueprint:
@@ -117,6 +104,5 @@ types:
     name: Skirmish Command Burst II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     volume: 0.009999999776482582

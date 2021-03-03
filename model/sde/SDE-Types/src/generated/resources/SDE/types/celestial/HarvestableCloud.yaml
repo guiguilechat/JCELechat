@@ -52,7 +52,6 @@ types:
     name: Chartreuse Cytoserocin
     packagedVolume: 10.0
     portionSize: 1
-    price: 2000.0
     published: true
     volume: 10.0
   Fullerite-C28:
@@ -132,7 +131,6 @@ types:
     name: Gamboge Cytoserocin
     packagedVolume: 10.0
     portionSize: 1
-    price: 2000.0
     published: true
     volume: 10.0
   Golden Cytoserocin:

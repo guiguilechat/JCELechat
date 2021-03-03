@@ -6,7 +6,6 @@ types:
     name: Berserker SW-900 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Valkyrie SW-600 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1500000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -28,7 +26,6 @@ types:
     name: Warrior SW-300 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

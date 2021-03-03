@@ -6,7 +6,6 @@ types:
     name: Triglavian Trinary Datastream AEA1
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AEA2:
@@ -16,7 +15,6 @@ types:
     name: Triglavian Trinary Datastream AEA2
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AEA3:
@@ -26,7 +24,6 @@ types:
     name: Triglavian Trinary Datastream AEA3
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AEA4:
@@ -36,7 +33,6 @@ types:
     name: Triglavian Trinary Datastream AEA4
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AEA5:
@@ -46,7 +42,6 @@ types:
     name: Triglavian Trinary Datastream AEA5
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AEA6:
@@ -56,7 +51,6 @@ types:
     name: Triglavian Trinary Datastream AEA6
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AFN1:
@@ -66,7 +60,6 @@ types:
     name: Triglavian Trinary Datastream AFN1
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AFN2:
@@ -76,7 +69,6 @@ types:
     name: Triglavian Trinary Datastream AFN2
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AFN3:
@@ -86,7 +78,6 @@ types:
     name: Triglavian Trinary Datastream AFN3
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AFN4:
@@ -96,7 +87,6 @@ types:
     name: Triglavian Trinary Datastream AFN4
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AFN5:
@@ -106,7 +96,6 @@ types:
     name: Triglavian Trinary Datastream AFN5
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream AFN6:
@@ -116,7 +105,6 @@ types:
     name: Triglavian Trinary Datastream AFN6
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream DAV1:
@@ -126,7 +114,6 @@ types:
     name: Triglavian Trinary Datastream DAV1
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream DAV2:
@@ -136,7 +123,6 @@ types:
     name: Triglavian Trinary Datastream DAV2
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream DAV3:
@@ -146,7 +132,6 @@ types:
     name: Triglavian Trinary Datastream DAV3
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream DAV4:
@@ -156,7 +141,6 @@ types:
     name: Triglavian Trinary Datastream DAV4
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream DAV5:
@@ -166,7 +150,6 @@ types:
     name: Triglavian Trinary Datastream DAV5
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream DAV6:
@@ -176,7 +159,6 @@ types:
     name: Triglavian Trinary Datastream DAV6
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream HFN1:
@@ -186,7 +168,6 @@ types:
     name: Triglavian Trinary Datastream HFN1
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream HFN2:
@@ -196,7 +177,6 @@ types:
     name: Triglavian Trinary Datastream HFN2
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream HFN3:
@@ -206,7 +186,6 @@ types:
     name: Triglavian Trinary Datastream HFN3
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream HFN4:
@@ -216,7 +195,6 @@ types:
     name: Triglavian Trinary Datastream HFN4
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream HFN5:
@@ -226,7 +204,6 @@ types:
     name: Triglavian Trinary Datastream HFN5
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream HFN6:
@@ -236,7 +213,6 @@ types:
     name: Triglavian Trinary Datastream HFN6
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream XCZ1:
@@ -246,7 +222,6 @@ types:
     name: Triglavian Trinary Datastream XCZ1
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream XCZ2:
@@ -256,7 +231,6 @@ types:
     name: Triglavian Trinary Datastream XCZ2
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Triglavian Trinary Datastream XCZ3:
@@ -266,6 +240,5 @@ types:
     name: Triglavian Trinary Datastream XCZ3
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612

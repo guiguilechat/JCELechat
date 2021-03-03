@@ -6,7 +6,6 @@ types:
     name: Accounting
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -22,7 +21,6 @@ types:
     name: Advanced Broker Relations
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -40,7 +38,6 @@ types:
     name: Broker Relations
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 125000.0
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -56,7 +53,6 @@ types:
     name: Contracting
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 175000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -72,7 +68,6 @@ types:
     name: Corporation Contracting
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 150000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -89,7 +84,6 @@ types:
     packagedVolume: 0.009999999776482582
     pitaxreductionmodifer: -10
     portionSize: 1
-    price: 3000000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -105,7 +99,6 @@ types:
     name: Daytrading
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -121,7 +114,6 @@ types:
     name: Marketing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3500000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -137,7 +129,6 @@ types:
     name: Procurement
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1500000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -153,7 +144,6 @@ types:
     name: Retail
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 125000.0
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -169,7 +159,6 @@ types:
     name: Trade
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -184,7 +173,6 @@ types:
     name: Tycoon
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E8
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -202,7 +190,6 @@ types:
     name: Visibility
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7500000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -218,7 +205,6 @@ types:
     name: Wholesale
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.5E7
     primaryattribute: 164
     published: true
     radius: 1.0

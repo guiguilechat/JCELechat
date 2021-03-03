@@ -6,7 +6,6 @@ types:
     name: Clone Vat Bay I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.98328832E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -18,7 +17,6 @@ types:
     name: Covert Cynosural Field Generator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.137264E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -30,7 +28,6 @@ types:
     name: Cynosural Field Generator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.137264E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -41,7 +38,6 @@ types:
     name: Industrial Cynosural Field Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.137264E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -51,7 +47,6 @@ types:
     name: Mining Foreman Link - Harvester Capacitor Efficiency I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1732280.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -62,7 +57,6 @@ types:
     name: Mining Foreman Link - Harvester Capacitor Efficiency II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1732280.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -73,7 +67,6 @@ types:
     name: Mining Foreman Link - Laser Optimization I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1732280.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -84,7 +77,6 @@ types:
     name: Mining Foreman Link - Laser Optimization II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1732280.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -95,7 +87,6 @@ types:
     name: Mining Foreman Link - Mining Laser Field Enhancement I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1732280.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -106,7 +97,6 @@ types:
     name: Mining Foreman Link - Mining Laser Field Enhancement II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1732280.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -118,7 +108,6 @@ types:
     name: Tactical Capsuleer Recloner Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.50328832E8
     published: true
     radius: 1.0
     techlevel: 1

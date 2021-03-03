@@ -36,7 +36,6 @@ types:
     name: Capital Energy Neutralizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.8E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -47,7 +46,6 @@ types:
     name: Capital Energy Neutralizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -59,7 +57,6 @@ types:
     name: Capital Gremlin Compact Energy Neutralizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -71,7 +68,6 @@ types:
     name: Capital Infectious Scoped Energy Neutralizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -82,7 +78,6 @@ types:
     name: Dark Blood Capital Energy Neutralizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -104,7 +99,6 @@ types:
     name: Heavy Energy Neutralizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4996740.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -115,7 +109,6 @@ types:
     name: Heavy Energy Neutralizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -167,7 +160,6 @@ types:
     name: Medium Energy Neutralizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 998400.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -178,7 +170,6 @@ types:
     name: Medium Energy Neutralizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -200,7 +191,6 @@ types:
     name: Small Energy Neutralizer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 199680.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -211,7 +201,6 @@ types:
     name: Small Energy Neutralizer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -222,7 +211,6 @@ types:
     name: True Sansha Capital Energy Neutralizer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 1

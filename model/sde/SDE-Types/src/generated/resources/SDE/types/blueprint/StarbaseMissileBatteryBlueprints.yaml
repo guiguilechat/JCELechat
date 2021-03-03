@@ -6,7 +6,6 @@ types:
     name: Cruise Missile Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -71,7 +70,6 @@ types:
     name: Torpedo Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -82,7 +80,6 @@ types:
     name: XL Torpedo Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582

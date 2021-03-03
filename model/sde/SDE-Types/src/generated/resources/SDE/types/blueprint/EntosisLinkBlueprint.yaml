@@ -4,7 +4,6 @@ types:
     name: Affirmative. Modified Entosis Link Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -14,7 +13,6 @@ types:
     name: Entosis Link I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -23,7 +21,6 @@ types:
     name: Entosis Link II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -33,7 +30,6 @@ types:
     name: Noir. Modified Entosis Link Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -42,7 +38,6 @@ types:
     name: Pandemic SPHERE Modified Entosis Link Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -51,7 +46,6 @@ types:
     name: Spectre Fleet's Modified Entosis Link Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582

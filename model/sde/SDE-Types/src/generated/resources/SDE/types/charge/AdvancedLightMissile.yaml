@@ -20,7 +20,6 @@ types:
     name: Inferno Fury Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 101160.0
     published: true
     radius: 300.0
     requiredskill1: 20210
@@ -55,7 +54,6 @@ types:
     name: Inferno Precision Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 101160.0
     published: true
     radius: 300.0
     requiredskill1: 20210
@@ -91,7 +89,6 @@ types:
     name: Mjolnir Fury Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 101160.0
     published: true
     radius: 300.0
     requiredskill1: 20210
@@ -126,7 +123,6 @@ types:
     name: Mjolnir Precision Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 101160.0
     published: true
     radius: 300.0
     requiredskill1: 20210
@@ -161,7 +157,6 @@ types:
     name: Nova Fury Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 101160.0
     published: true
     radius: 300.0
     requiredskill1: 20210
@@ -196,7 +191,6 @@ types:
     name: Nova Precision Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 101160.0
     published: true
     radius: 300.0
     requiredskill1: 20210
@@ -231,7 +225,6 @@ types:
     name: Scourge Fury Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 101160.0
     published: true
     radius: 300.0
     requiredskill1: 20210
@@ -266,7 +259,6 @@ types:
     name: Scourge Precision Light Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 101160.0
     published: true
     radius: 300.0
     requiredskill1: 20210

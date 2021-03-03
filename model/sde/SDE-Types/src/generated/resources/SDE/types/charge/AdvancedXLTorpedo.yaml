@@ -17,7 +17,6 @@ types:
     name: Inferno Javelin XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
-    price: 325000.0
     published: true
     radius: 300.0
     requiredskill1: 41409
@@ -48,7 +47,6 @@ types:
     name: Inferno Rage XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
-    price: 325000.0
     published: true
     radius: 300.0
     requiredskill1: 41409
@@ -80,7 +78,6 @@ types:
     name: Mjolnir Javelin XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
-    price: 350000.0
     published: true
     radius: 300.0
     requiredskill1: 41409
@@ -111,7 +108,6 @@ types:
     name: Mjolnir Rage XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
-    price: 350000.0
     published: true
     radius: 300.0
     requiredskill1: 41409
@@ -142,7 +138,6 @@ types:
     name: Nova Javelin XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
-    price: 250000.0
     published: true
     radius: 300.0
     requiredskill1: 41409
@@ -173,7 +168,6 @@ types:
     name: Nova Rage XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
-    price: 250000.0
     published: true
     radius: 300.0
     requiredskill1: 41409
@@ -204,7 +198,6 @@ types:
     name: Scourge Javelin XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
-    price: 300000.0
     published: true
     radius: 300.0
     requiredskill1: 41409
@@ -235,7 +228,6 @@ types:
     name: Scourge Rage XL Torpedo
     packagedVolume: 0.30000001192092896
     portionSize: 100
-    price: 300000.0
     published: true
     radius: 300.0
     requiredskill1: 41409

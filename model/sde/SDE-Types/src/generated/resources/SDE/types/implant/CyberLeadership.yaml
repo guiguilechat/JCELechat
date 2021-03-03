@@ -7,7 +7,6 @@ types:
     name: Armored Command Mindlink
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -44,7 +43,6 @@ types:
     name: Federation Navy Command Mindlink
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -64,7 +62,6 @@ types:
     name: Imperial Navy Command Mindlink
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -116,7 +113,6 @@ types:
     name: ORE Mining Director Mindlink
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

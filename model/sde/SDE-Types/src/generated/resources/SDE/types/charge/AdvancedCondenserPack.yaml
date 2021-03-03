@@ -15,7 +15,6 @@ types:
     name: ElectroPunch Ultra L
     packagedVolume: 0.02500000037252903
     portionSize: 200
-    price: 100000.0
     published: true
     radius: 1.0
     requiredskill1: 54829
@@ -39,7 +38,6 @@ types:
     name: ElectroPunch Ultra M
     packagedVolume: 0.012500000186264515
     portionSize: 200
-    price: 100000.0
     published: true
     radius: 1.0
     requiredskill1: 54828
@@ -63,7 +61,6 @@ types:
     name: ElectroPunch Ultra S
     packagedVolume: 0.0024999999441206455
     portionSize: 200
-    price: 100000.0
     published: true
     radius: 1.0
     requiredskill1: 54827
@@ -87,7 +84,6 @@ types:
     name: StrikeSnipe Ultra L
     packagedVolume: 0.02500000037252903
     portionSize: 200
-    price: 100000.0
     published: true
     radius: 1.0
     requiredskill1: 54829
@@ -111,7 +107,6 @@ types:
     name: StrikeSnipe Ultra M
     packagedVolume: 0.012500000186264515
     portionSize: 200
-    price: 100000.0
     published: true
     radius: 1.0
     requiredskill1: 54828
@@ -135,7 +130,6 @@ types:
     name: StrikeSnipe Ultra S
     packagedVolume: 0.0024999999441206455
     portionSize: 200
-    price: 100000.0
     published: true
     radius: 1.0
     requiredskill1: 54827

@@ -6,7 +6,6 @@ types:
     name: Anchoring
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 75000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -20,7 +19,6 @@ types:
     name: Starbase Defense Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -37,7 +35,6 @@ types:
     name: Structure Doomsday Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -56,7 +53,6 @@ types:
     name: Structure Electronic Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -75,7 +71,6 @@ types:
     name: Structure Engineering Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -94,7 +89,6 @@ types:
     name: Structure Missile Systems
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 166
     published: true
     radius: 1.0

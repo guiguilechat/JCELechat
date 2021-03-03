@@ -8,7 +8,6 @@ types:
     name: Black Market 'Valdimar' Drone Durability DD-1001
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -25,7 +24,6 @@ types:
     name: Black Market 'Valdimar' Drone Durability DD-1003
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -42,7 +40,6 @@ types:
     name: Black Market 'Valdimar' Drone Durability DD-1005
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -58,7 +55,6 @@ types:
     name: Black Market 'Valdimar' Drone Navigation DN-701
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -73,7 +69,6 @@ types:
     name: Black Market 'Valdimar' Drone Navigation DN-703
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -88,7 +83,6 @@ types:
     name: Black Market 'Valdimar' Drone Navigation DN-705
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -102,7 +96,6 @@ types:
     name: Black Market 'Valdimar' Drone Sharpshooting DS-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rangeskillbonus: 1
@@ -117,7 +110,6 @@ types:
     name: Black Market 'Valdimar' Drone Sharpshooting DS-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rangeskillbonus: 3
@@ -132,7 +124,6 @@ types:
     name: Black Market 'Valdimar' Drone Sharpshooting DS-805
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rangeskillbonus: 5
@@ -148,7 +139,6 @@ types:
     name: Black Market 'Valdimar' Repair Drone Operation DR-901
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -163,7 +153,6 @@ types:
     name: Black Market 'Valdimar' Repair Drone Operation DR-903
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -178,7 +167,6 @@ types:
     name: Black Market 'Valdimar' Repair Drone Operation DR-905
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -195,7 +183,6 @@ types:
     name: CreoDron 'Bumblebee' Drone Tuner T10-5D
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -213,7 +200,6 @@ types:
     name: CreoDron 'Yellowjacket' Drone Tuner D5-10T
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -231,7 +217,6 @@ types:
     name: Overmind 'Goliath' Drone Tuner T25-10S
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -249,7 +234,6 @@ types:
     name: Overmind 'Hawkmoth' Drone Tuner S10-25T
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

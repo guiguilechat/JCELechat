@@ -155,7 +155,6 @@ types:
     name: Electromagnetic Metaprismatic Sheeting
     packagedVolume: 0.25
     portionSize: 1
-    price: 100000.0
     published: true
     volume: 0.25
   Enhanced Ward Console:
@@ -184,7 +183,6 @@ types:
     name: Hyperbolic Metatransistor Array
     packagedVolume: 0.25
     portionSize: 1
-    price: 100000.0
     published: true
     volume: 0.25
   Impetus Console:
@@ -393,7 +391,6 @@ types:
     name: Ultraconducting Ablative Nanocable
     packagedVolume: 0.25
     portionSize: 1
-    price: 100000.0
     published: true
     volume: 0.25
   Ward Console:

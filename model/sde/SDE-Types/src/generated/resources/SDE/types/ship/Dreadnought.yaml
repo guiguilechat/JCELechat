@@ -300,7 +300,6 @@ types:
     portionSize: 1
     poweroutput: 660000
     powertospeed: 1
-    price: 1.549802624E9
     propulsiongraphicid: 394
     published: true
     radius: 1613.0
@@ -412,7 +411,6 @@ types:
     portionSize: 1
     poweroutput: 540000
     powertospeed: 1
-    price: 1.523044224E9
     propulsiongraphicid: 397
     published: true
     radius: 1700.0
@@ -525,7 +523,6 @@ types:
     portionSize: 1
     poweroutput: 550000
     powertospeed: 1
-    price: 1.541551104E9
     propulsiongraphicid: 395
     published: true
     radius: 1700.0
@@ -634,9 +631,8 @@ types:
     name: Revelation
     packagedVolume: 1300000.0
     portionSize: 1
-    poweroutput: 780000
+    poweroutput: 700000
     powertospeed: 1
-    price: 1.539006848E9
     propulsiongraphicid: 394
     published: true
     radius: 1700.0
@@ -750,7 +746,6 @@ types:
     portionSize: 1
     poweroutput: 725000
     powertospeed: 1
-    price: 1.549802624E9
     propulsiongraphicid: 394
     published: true
     radius: 1613.0
@@ -864,7 +859,6 @@ types:
     portionSize: 1
     poweroutput: 935000
     powertospeed: 1
-    price: 1.539006848E9
     propulsiongraphicid: 394
     published: true
     radius: 1700.0

@@ -5,7 +5,6 @@ types:
     name: C3-FTM Acid Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     volume: 0.009999999776482582
   Carbon-86 Epoxy Resin Reaction Formula:
@@ -14,7 +13,6 @@ types:
     name: Carbon-86 Epoxy Resin Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     volume: 0.009999999776482582
   Fullerene Intercalated Graphite Reaction Formula:
@@ -23,7 +21,6 @@ types:
     name: Fullerene Intercalated Graphite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     volume: 0.009999999776482582
   Fulleroferrocene Reaction Formula:
@@ -32,7 +29,6 @@ types:
     name: Fulleroferrocene Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     volume: 0.009999999776482582
   Graphene Nanoribbons Reaction Formula:
@@ -41,7 +37,6 @@ types:
     name: Graphene Nanoribbons Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     volume: 0.009999999776482582
   Lanthanum Metallofullerene Reaction Formula:
@@ -50,7 +45,6 @@ types:
     name: Lanthanum Metallofullerene Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     volume: 0.009999999776482582
   Methanofullerene Reaction Formula:
@@ -59,7 +53,6 @@ types:
     name: Methanofullerene Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     volume: 0.009999999776482582
   PPD Fullerene Fibers Reaction Formula:
@@ -68,7 +61,6 @@ types:
     name: PPD Fullerene Fibers Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     volume: 0.009999999776482582
   Scandium Metallofullerene Reaction Formula:
@@ -77,6 +69,5 @@ types:
     name: Scandium Metallofullerene Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     volume: 0.009999999776482582

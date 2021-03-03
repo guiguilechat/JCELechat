@@ -17,7 +17,10 @@ import fr.guiguilechat.jcelechat.model.sde.load.SDECache;
 
 /**
  * an entry in the bsd/dgmTypeAttributes.yaml file
+ *
+ * @deprecated was moved to fsd
  */
+@Deprecated
 public class EdgmTypeAttributes {
 
 	public static final File FILE = new File(SDECache.INSTANCE.cacheDir(), "sde/bsd/dgmTypeAttributes.yaml");

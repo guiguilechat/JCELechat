@@ -6,7 +6,6 @@ types:
     name: Capital Tractor Beam I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -17,7 +16,6 @@ types:
     name: Capital Tractor Beam II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -29,7 +27,6 @@ types:
     name: Small Tractor Beam I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 90000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -40,7 +37,6 @@ types:
     name: Small Tractor Beam II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 90000.0
     published: true
     radius: 1.0
     techlevel: 2

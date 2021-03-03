@@ -5,7 +5,6 @@ types:
     name: Heavy Water
     packagedVolume: 0.4000000059604645
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 0.4000000059604645
   Helium Isotopes:
@@ -14,7 +13,6 @@ types:
     name: Helium Isotopes
     packagedVolume: 0.029999999329447746
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 0.029999999329447746
   Hydrogen Isotopes:
@@ -31,7 +29,6 @@ types:
     name: Liquid Ozone
     packagedVolume: 0.4000000059604645
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 0.4000000059604645
   Nitrogen Isotopes:
@@ -56,6 +53,5 @@ types:
     name: Strontium Clathrates
     packagedVolume: 3.0
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 3.0

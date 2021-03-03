@@ -6,7 +6,6 @@ types:
     name: Mining Equipment Preservation Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 22536
@@ -23,7 +22,6 @@ types:
     name: Mining Laser Field Enhancement Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 22536
@@ -40,7 +38,6 @@ types:
     name: Mining Laser Optimization Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 22536

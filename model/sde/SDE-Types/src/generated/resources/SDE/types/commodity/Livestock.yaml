@@ -5,7 +5,6 @@ types:
     name: A Really REALLY Clueless Tourist
     packagedVolume: 1.0
     portionSize: 1
-    price: 100.0
     published: true
     volume: 1.0
   Activists:
@@ -31,7 +30,6 @@ types:
     name: Amarr Diplomat
     packagedVolume: 1.0
     portionSize: 1
-    price: 100.0
     published: true
     volume: 1.0
   Amarr Forensic Investigative Deployment:
@@ -64,7 +62,6 @@ types:
     name: Amarr Marine Counter-Boarding Company
     packagedVolume: 300.0
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 300.0
   Amarr Marine Counter-Boarding Team:
@@ -73,7 +70,6 @@ types:
     name: Amarr Marine Counter-Boarding Team
     packagedVolume: 30.0
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 30.0
   Amarr Reporter:
@@ -146,7 +142,6 @@ types:
     name: Arctic Warfare Marine Squads
     packagedVolume: 320.0
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 320.0
   Arctic Warfare Marines:
@@ -155,7 +150,6 @@ types:
     name: Arctic Warfare Marines
     packagedVolume: 32.0
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 32.0
   Artificial Miyan:
@@ -252,7 +246,6 @@ types:
     name: Captured CEO
     packagedVolume: 3.0
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 3.0
   Captured Civilians:
@@ -325,7 +318,6 @@ types:
     name: Conditioned House Slaves
     packagedVolume: 30.0
     portionSize: 1
-    price: 4000.0
     published: true
     volume: 30.0
   Construction Workers:
@@ -350,7 +342,6 @@ types:
     name: Corporate Assassin
     packagedVolume: 30.0
     portionSize: 1
-    price: 100.0
     published: true
     volume: 30.0
   Dagan:
@@ -383,7 +374,6 @@ types:
     name: Deep Cover Corporate Assassin
     packagedVolume: 300.0
     portionSize: 1
-    price: 100.0
     published: true
     volume: 300.0
   Doctor Luija Elban:
@@ -409,7 +399,6 @@ types:
     name: Elite Slaves
     packagedVolume: 1.0
     portionSize: 1
-    price: 4000.0
     published: true
     volume: 1.0
   Engineer Tahaki Karin:
@@ -733,7 +722,6 @@ types:
     name: Herd of Conditioned House Slaves
     packagedVolume: 300.0
     portionSize: 1
-    price: 4000.0
     published: true
     volume: 300.0
   Homeless:
@@ -825,7 +813,6 @@ types:
     name: Kameiras
     packagedVolume: 1.0
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 1.0
   Kardimo Palettan:
@@ -1002,7 +989,6 @@ types:
     name: Lieutenant Kipo "Foxfire" Tekira
     packagedVolume: 1.0
     portionSize: 1
-    price: 100.0
     published: true
     volume: 1.0
   Lieutenant Kirus:
@@ -1060,7 +1046,6 @@ types:
     name: Marines
     packagedVolume: 2.0
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 2.0
   Mercenary Pilot:
@@ -1077,7 +1062,6 @@ types:
     name: Militants
     packagedVolume: 2.0
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 2.0
   Mina Darabi:
@@ -1118,7 +1102,6 @@ types:
     name: Miniature Slaver
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: true
     volume: 0.009999999776482582
   Minmatar Civilians:
@@ -1215,7 +1198,6 @@ types:
     name: Prisoner
     packagedVolume: 1.0
     portionSize: 1
-    price: 100.0
     published: true
     volume: 1.0
   Prisoners:
@@ -1224,7 +1206,6 @@ types:
     name: Prisoners
     packagedVolume: 7.5
     portionSize: 1
-    price: 100.0
     published: true
     volume: 7.5
   Production Assistant:
@@ -1306,7 +1287,6 @@ types:
     name: Regiment of Marines
     packagedVolume: 2000.0
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 2000.0
   Rogue Harvester:
@@ -1406,7 +1386,6 @@ types:
     name: Slaver Hound
     packagedVolume: 1.0
     portionSize: 1
-    price: 3000.0
     published: true
     volume: 1.0
   Slaves:
@@ -1416,7 +1395,6 @@ types:
     name: Slaves
     packagedVolume: 5.0
     portionSize: 1
-    price: 750.0
     published: true
     volume: 5.0
   Smugglers:
@@ -1465,7 +1443,6 @@ types:
     name: Tahaki Karin
     packagedVolume: 3.0
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 3.0
   Tantima Areki:
@@ -1547,7 +1524,6 @@ types:
     name: Tourists
     packagedVolume: 1.0
     portionSize: 1
-    price: 100.0
     published: true
     volume: 1.0
   Troubled Miner:
@@ -1564,7 +1540,6 @@ types:
     name: VIPs
     packagedVolume: 3.0
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 3.0
   Valklears:
@@ -1573,7 +1548,6 @@ types:
     name: Valklears
     packagedVolume: 1.0
     portionSize: 1
-    price: 50000.0
     published: true
     volume: 1.0
   Vira Mikano:

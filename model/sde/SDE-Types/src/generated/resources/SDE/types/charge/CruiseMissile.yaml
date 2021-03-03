@@ -21,7 +21,6 @@ types:
     name: Caldari Navy Inferno Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 12500.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -57,7 +56,6 @@ types:
     name: Caldari Navy Mjolnir Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 15000.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -92,7 +90,6 @@ types:
     name: Caldari Navy Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 7500.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -127,7 +124,6 @@ types:
     name: Caldari Navy Scourge Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -161,7 +157,6 @@ types:
     name: Dread Guristas Inferno Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 12500.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -197,7 +192,6 @@ types:
     name: Dread Guristas Mjolnir Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 15000.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -232,7 +226,6 @@ types:
     name: Dread Guristas Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 7500.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -267,7 +260,6 @@ types:
     name: Dread Guristas Scourge Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -301,7 +293,6 @@ types:
     name: Guristas Inferno Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 12500.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -337,7 +328,6 @@ types:
     name: Guristas Mjolnir Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 15000.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -372,7 +362,6 @@ types:
     name: Guristas Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 7500.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -407,7 +396,6 @@ types:
     name: Guristas Scourge Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -439,7 +427,6 @@ types:
     name: Inferno Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 12500.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -473,7 +460,6 @@ types:
     name: Mjolnir Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 15000.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -506,7 +492,6 @@ types:
     name: Nova Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 7500.0
     published: true
     radius: 300.0
     requiredskill1: 3326
@@ -539,7 +524,6 @@ types:
     name: Scourge Cruise Missile
     packagedVolume: 0.05000000074505806
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 300.0
     requiredskill1: 3326

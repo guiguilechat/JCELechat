@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction;
+package fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry;
 
 import java.io.InputStreamReader;
 import java.util.Arrays;
@@ -24,11 +24,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoadLevelModifier;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoadPerKm;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
-import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryInteraction;
+import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryIndustry;
 import org.yaml.snakeyaml.Yaml;
 
 public class PlanetaryLinks
-    extends PlanetaryInteraction
+    extends PlanetaryIndustry
 {
     /**
      * CPU load of ship
@@ -133,12 +133,12 @@ public class PlanetaryLinks
     public static class MetaGroup
         implements IMetaGroup<PlanetaryLinks>
     {
-        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/PlanetaryLinks.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/PlanetaryLinks.yaml";
         private Map<String, PlanetaryLinks> cache = (null);
 
         @Override
         public IMetaCategory<? super PlanetaryLinks> category() {
-            return PlanetaryInteraction.METACAT;
+            return PlanetaryIndustry.METACAT;
         }
 
         @Override

@@ -6,7 +6,6 @@ types:
     name: Arkonor Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 800000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -17,7 +16,6 @@ types:
     name: Arkonor Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -29,7 +27,6 @@ types:
     name: Bistot Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -40,7 +37,6 @@ types:
     name: Bistot Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -51,7 +47,6 @@ types:
     name: Common Moon Ore Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -71,7 +66,6 @@ types:
     name: Crokite Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 700000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -82,7 +76,6 @@ types:
     name: Crokite Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -94,7 +87,6 @@ types:
     name: Dark Ochre Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 600000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -105,7 +97,6 @@ types:
     name: Dark Ochre Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -116,7 +107,6 @@ types:
     name: Exceptional Moon Ore Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -136,7 +126,6 @@ types:
     name: Gneiss Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 550000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -147,7 +136,6 @@ types:
     name: Gneiss Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -159,7 +147,6 @@ types:
     name: Hedbergite Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -170,7 +157,6 @@ types:
     name: Hedbergite Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -182,7 +168,6 @@ types:
     name: Hemorphite Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 450000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -193,7 +178,6 @@ types:
     name: Hemorphite Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -205,7 +189,6 @@ types:
     name: Jaspet Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -216,7 +199,6 @@ types:
     name: Jaspet Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -228,7 +210,6 @@ types:
     name: Kernite Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 350000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -239,7 +220,6 @@ types:
     name: Kernite Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -251,7 +231,6 @@ types:
     name: Mercoxit Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -262,7 +241,6 @@ types:
     name: Mercoxit Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -274,7 +252,6 @@ types:
     name: Omber Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -285,7 +262,6 @@ types:
     name: Omber Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -297,7 +273,6 @@ types:
     name: Plagioclase Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 250000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -308,7 +283,6 @@ types:
     name: Plagioclase Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -320,7 +294,6 @@ types:
     name: Pyroxeres Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -331,7 +304,6 @@ types:
     name: Pyroxeres Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -342,7 +314,6 @@ types:
     name: Rare Moon Ore Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -362,7 +333,6 @@ types:
     name: Scordite Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 150000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -373,7 +343,6 @@ types:
     name: Scordite Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -385,7 +354,6 @@ types:
     name: Spodumain Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 650000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -396,7 +364,6 @@ types:
     name: Spodumain Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -407,7 +374,6 @@ types:
     name: Ubiquitous Moon Ore Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -426,7 +392,6 @@ types:
     name: Uncommon Moon Ore Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -446,7 +411,6 @@ types:
     name: Veldspar Mining Crystal I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 100000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -457,7 +421,6 @@ types:
     name: Veldspar Mining Crystal II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

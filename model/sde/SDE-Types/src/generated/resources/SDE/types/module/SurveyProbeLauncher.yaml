@@ -14,7 +14,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 6000.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -40,7 +39,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 6000.0
     published: true
     radius: 1.0
     reloadtime: 10000.0

@@ -7,7 +7,6 @@ types:
     name: Advanced Laboratory Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -39,7 +38,6 @@ types:
     name: Amarr Starship Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -57,7 +55,6 @@ types:
     name: Astronautic Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -91,7 +88,6 @@ types:
     name: Caldari Starship Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -109,7 +105,6 @@ types:
     name: Core Subsystem Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -127,7 +122,6 @@ types:
     name: Defensive Subsystem Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -146,7 +140,6 @@ types:
     name: Electromagnetic Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -165,7 +158,6 @@ types:
     name: Electronic Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -199,7 +191,6 @@ types:
     name: Gallente Starship Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -218,7 +209,6 @@ types:
     name: Graviton Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -237,7 +227,6 @@ types:
     name: High Energy Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -256,7 +245,6 @@ types:
     name: Hydromagnetic Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -275,7 +263,6 @@ types:
     name: Laboratory Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -292,7 +279,6 @@ types:
     name: Laser Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -311,7 +297,6 @@ types:
     name: Mechanical Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -330,7 +315,6 @@ types:
     name: Metallurgy
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -362,7 +346,6 @@ types:
     name: Minmatar Starship Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -381,7 +364,6 @@ types:
     name: Molecular Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -400,7 +382,6 @@ types:
     name: Nanite Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -419,7 +400,6 @@ types:
     name: Nuclear Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -437,7 +417,6 @@ types:
     name: Offensive Subsystem Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -456,7 +435,6 @@ types:
     name: Plasma Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -474,7 +452,6 @@ types:
     name: Propulsion Subsystem Technology
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -493,7 +470,6 @@ types:
     name: Quantum Physics
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -512,7 +488,6 @@ types:
     name: Research
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -529,7 +504,6 @@ types:
     name: Research Project Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -549,7 +523,6 @@ types:
     name: Rocket Science
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -568,7 +541,6 @@ types:
     name: Science
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -582,7 +554,6 @@ types:
     name: Scientific Networking
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -599,7 +570,6 @@ types:
     name: Sleeper Encryption Methods
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -665,7 +635,6 @@ types:
     name: Triglavian Encryption Methods
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -686,7 +655,6 @@ types:
     name: Triglavian Quantum Engineering
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 165
     published: true
     radius: 1.0

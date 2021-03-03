@@ -7,7 +7,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1001
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -22,7 +21,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1002
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -37,7 +35,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1003
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -52,7 +49,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1004
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -81,7 +77,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Large Projectile Turret LP-1006
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -96,7 +91,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -125,7 +119,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Medium Projectile Turret MP-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -181,7 +174,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-701
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -196,7 +188,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-702
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -211,7 +202,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-703
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -226,7 +216,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-704
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -255,7 +244,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Motion Prediction MR-706
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -271,7 +259,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-601
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -286,7 +273,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-602
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -301,7 +287,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-603
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -316,7 +301,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-604
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -345,7 +329,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Small Projectile Turret SP-606
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -360,7 +343,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-901
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -375,7 +357,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-902
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -390,7 +371,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-903
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -405,7 +385,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-904
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -434,7 +413,6 @@ types:
     name: Eifyr and Co. 'Gunslinger' Surgical Strike SS-906
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -449,7 +427,6 @@ types:
     name: Inherent Implants 'Lancer' Controlled Bursts CB-701
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -464,7 +441,6 @@ types:
     name: Inherent Implants 'Lancer' Controlled Bursts CB-702
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -479,7 +455,6 @@ types:
     name: Inherent Implants 'Lancer' Controlled Bursts CB-703
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -494,7 +469,6 @@ types:
     name: Inherent Implants 'Lancer' Controlled Bursts CB-704
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -536,7 +510,6 @@ types:
     name: Inherent Implants 'Lancer' Gunnery RF-901
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -551,7 +524,6 @@ types:
     name: Inherent Implants 'Lancer' Gunnery RF-902
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -566,7 +538,6 @@ types:
     name: Inherent Implants 'Lancer' Gunnery RF-903
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -581,7 +552,6 @@ types:
     name: Inherent Implants 'Lancer' Gunnery RF-904
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -625,7 +595,6 @@ types:
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1001
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -640,7 +609,6 @@ types:
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1002
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -655,7 +623,6 @@ types:
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1003
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -670,7 +637,6 @@ types:
     name: Inherent Implants 'Lancer' Large Energy Turret LE-1004
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -713,7 +679,6 @@ types:
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -728,7 +693,6 @@ types:
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-802
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -743,7 +707,6 @@ types:
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -758,7 +721,6 @@ types:
     name: Inherent Implants 'Lancer' Medium Energy Turret ME-804
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -801,7 +763,6 @@ types:
     name: Inherent Implants 'Lancer' Small Energy Turret SE-601
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -816,7 +777,6 @@ types:
     name: Inherent Implants 'Lancer' Small Energy Turret SE-602
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -831,7 +791,6 @@ types:
     name: Inherent Implants 'Lancer' Small Energy Turret SE-603
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -846,7 +805,6 @@ types:
     name: Inherent Implants 'Lancer' Small Energy Turret SE-604
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -931,7 +889,6 @@ types:
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1001
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -946,7 +903,6 @@ types:
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1002
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -961,7 +917,6 @@ types:
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1003
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -976,7 +931,6 @@ types:
     name: Zainou 'Deadeye' Large Hybrid Turret LH-1004
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1019,7 +973,6 @@ types:
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1034,7 +987,6 @@ types:
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-802
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1049,7 +1001,6 @@ types:
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1064,7 +1015,6 @@ types:
     name: Zainou 'Deadeye' Medium Hybrid Turret MH-804
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1106,7 +1056,6 @@ types:
     name: Zainou 'Deadeye' Sharpshooter ST-901
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rangeskillbonus: 1
@@ -1121,7 +1070,6 @@ types:
     name: Zainou 'Deadeye' Sharpshooter ST-902
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rangeskillbonus: 2
@@ -1136,7 +1084,6 @@ types:
     name: Zainou 'Deadeye' Sharpshooter ST-903
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rangeskillbonus: 3
@@ -1151,7 +1098,6 @@ types:
     name: Zainou 'Deadeye' Sharpshooter ST-904
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     rangeskillbonus: 4
@@ -1195,7 +1141,6 @@ types:
     name: Zainou 'Deadeye' Small Hybrid Turret SH-601
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1210,7 +1155,6 @@ types:
     name: Zainou 'Deadeye' Small Hybrid Turret SH-602
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1225,7 +1169,6 @@ types:
     name: Zainou 'Deadeye' Small Hybrid Turret SH-603
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1240,7 +1183,6 @@ types:
     name: Zainou 'Deadeye' Small Hybrid Turret SH-604
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1283,7 +1225,6 @@ types:
     name: Zainou 'Deadeye' Trajectory Analysis TA-701
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1298,7 +1239,6 @@ types:
     name: Zainou 'Deadeye' Trajectory Analysis TA-702
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1313,7 +1253,6 @@ types:
     name: Zainou 'Deadeye' Trajectory Analysis TA-703
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1328,7 +1267,6 @@ types:
     name: Zainou 'Deadeye' Trajectory Analysis TA-704
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1371,7 +1309,6 @@ types:
     name: Zainou 'Gnome' Weapon Upgrades WU-1001
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1386,7 +1323,6 @@ types:
     name: Zainou 'Gnome' Weapon Upgrades WU-1002
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1401,7 +1337,6 @@ types:
     name: Zainou 'Gnome' Weapon Upgrades WU-1003
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -1416,7 +1351,6 @@ types:
     name: Zainou 'Gnome' Weapon Upgrades WU-1004
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

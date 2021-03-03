@@ -6,7 +6,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 700
-    price: 250000.0
     published: true
     radius: 1.0
   Barren Basic Industry Facility:
@@ -16,7 +15,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 800
-    price: 75000.0
     published: true
     radius: 1.0
   Barren High-Tech Production Plant:
@@ -26,7 +24,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 400
-    price: 525000.0
     published: true
     radius: 1.0
   Gas Advanced Industry Facility:
@@ -36,7 +33,6 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 700
-    price: 250000.0
     published: true
     radius: 1.0
   Gas Basic Industry Facility:
@@ -46,7 +42,6 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 800
-    price: 75000.0
     published: true
     radius: 1.0
   Ice Advanced Industry Facility:
@@ -56,7 +51,6 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 700
-    price: 250000.0
     published: true
     radius: 1.0
   Ice Basic Industry Facility:
@@ -66,7 +60,6 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 800
-    price: 75000.0
     published: true
     radius: 1.0
   Lava Advanced Industry Facility:
@@ -76,7 +69,6 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 700
-    price: 250000.0
     published: true
     radius: 1.0
   Lava Basic Industry Facility:
@@ -86,7 +78,6 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 800
-    price: 75000.0
     published: true
     radius: 1.0
   Oceanic Advanced Industry Facility:
@@ -96,7 +87,6 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 700
-    price: 250000.0
     published: true
     radius: 1.0
   Oceanic Basic Industry Facility:
@@ -106,7 +96,6 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 800
-    price: 75000.0
     published: true
     radius: 1.0
   Plasma Advanced Industry Facility:
@@ -116,7 +105,6 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 700
-    price: 250000.0
     published: true
     radius: 1.0
   Plasma Basic Industry Facility:
@@ -126,7 +114,6 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 800
-    price: 75000.0
     published: true
     radius: 1.0
   Storm Advanced Industry Facility:
@@ -136,7 +123,6 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 700
-    price: 250000.0
     published: true
     radius: 1.0
   Storm Basic Industry Facility:
@@ -146,7 +132,6 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 800
-    price: 75000.0
     published: true
     radius: 1.0
   Temperate Advanced Industry Facility:
@@ -156,7 +141,6 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 700
-    price: 250000.0
     published: true
     radius: 1.0
   Temperate Basic Industry Facility:
@@ -166,7 +150,6 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 800
-    price: 75000.0
     published: true
     radius: 1.0
   Temperate High-Tech Production Plant:
@@ -176,6 +159,5 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 400
-    price: 525000.0
     published: true
     radius: 1.0

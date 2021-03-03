@@ -14,7 +14,6 @@ types:
     name: Quake L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
-    price: 1500000.0
     published: true
     radius: 1.0
     requiredskill1: 12203
@@ -39,7 +38,6 @@ types:
     name: Quake M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
-    price: 600000.0
     published: true
     radius: 1.0
     requiredskill1: 12202
@@ -64,7 +62,6 @@ types:
     name: Quake S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
-    price: 150000.0
     published: true
     radius: 1.0
     requiredskill1: 12201
@@ -89,7 +86,6 @@ types:
     name: Quake XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 60000.0
     published: true
     radius: 10.0
     requiredskill1: 41404
@@ -114,7 +110,6 @@ types:
     name: Tremor L
     packagedVolume: 0.02500000037252903
     portionSize: 5000
-    price: 1500000.0
     published: true
     radius: 1.0
     requiredskill1: 12203
@@ -139,7 +134,6 @@ types:
     name: Tremor M
     packagedVolume: 0.012500000186264515
     portionSize: 5000
-    price: 600000.0
     published: true
     radius: 1.0
     requiredskill1: 12202
@@ -164,7 +158,6 @@ types:
     name: Tremor S
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
-    price: 150000.0
     published: true
     radius: 1.0
     requiredskill1: 12201
@@ -189,7 +182,6 @@ types:
     name: Tremor XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 20000.0
     published: true
     radius: 10.0
     requiredskill1: 41404

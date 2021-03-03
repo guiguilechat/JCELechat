@@ -40,7 +40,6 @@ types:
     name: Dragonfly I
     packagedVolume: 1000.0
     portionSize: 1
-    price: 2.0336332E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -168,7 +167,6 @@ types:
     name: Einherji I
     packagedVolume: 1000.0
     portionSize: 1
-    price: 2.000134E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -415,7 +413,6 @@ types:
     name: Firbolg I
     packagedVolume: 1000.0
     portionSize: 1
-    price: 2.1394992E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -900,7 +897,6 @@ types:
     name: Standup Dragonfly I
     packagedVolume: 2000.0
     portionSize: 1
-    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -962,7 +958,6 @@ types:
     name: Standup Dragonfly II
     packagedVolume: 2000.0
     portionSize: 1
-    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -1023,7 +1018,6 @@ types:
     name: Standup Einherji I
     packagedVolume: 2000.0
     portionSize: 1
-    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -1085,7 +1079,6 @@ types:
     name: Standup Einherji II
     packagedVolume: 2000.0
     portionSize: 1
-    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -1259,7 +1252,6 @@ types:
     name: Standup Firbolg I
     packagedVolume: 2000.0
     portionSize: 1
-    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -1321,7 +1313,6 @@ types:
     name: Standup Firbolg II
     packagedVolume: 2000.0
     portionSize: 1
-    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -1721,7 +1712,6 @@ types:
     name: Standup Templar I
     packagedVolume: 2000.0
     portionSize: 1
-    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -1783,7 +1773,6 @@ types:
     name: Standup Templar II
     packagedVolume: 2000.0
     portionSize: 1
-    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0
@@ -1844,7 +1833,6 @@ types:
     name: Templar I
     packagedVolume: 1000.0
     portionSize: 1
-    price: 2.004734E7
     published: true
     radius: 35.0
     remoteassistanceimpedance: 1.0

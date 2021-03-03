@@ -6,7 +6,6 @@ types:
     name: Inferno Auto-Targeting Cruise Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -18,7 +17,6 @@ types:
     name: Inferno Auto-Targeting Heavy Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 800000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -30,7 +28,6 @@ types:
     name: Inferno Auto-Targeting Light Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 160000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -42,7 +39,6 @@ types:
     name: Inferno Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -53,7 +49,6 @@ types:
     name: Inferno Fury Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -64,7 +59,6 @@ types:
     name: Inferno Fury Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -75,7 +69,6 @@ types:
     name: Inferno Fury Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -85,7 +78,6 @@ types:
     name: Inferno Fury XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -97,7 +89,6 @@ types:
     name: Inferno Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 600000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -109,7 +100,6 @@ types:
     name: Inferno Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 800000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -120,7 +110,6 @@ types:
     name: Inferno Javelin Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -131,7 +120,6 @@ types:
     name: Inferno Javelin Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -142,7 +130,6 @@ types:
     name: Inferno Javelin Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -152,7 +139,6 @@ types:
     name: Inferno Javelin XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -164,7 +150,6 @@ types:
     name: Inferno Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 160000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -175,7 +160,6 @@ types:
     name: Inferno Precision Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -186,7 +170,6 @@ types:
     name: Inferno Precision Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -197,7 +180,6 @@ types:
     name: Inferno Precision Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -207,7 +189,6 @@ types:
     name: Inferno Precision XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -218,7 +199,6 @@ types:
     name: Inferno Rage Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -229,7 +209,6 @@ types:
     name: Inferno Rage Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -240,7 +219,6 @@ types:
     name: Inferno Rage Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -250,7 +228,6 @@ types:
     name: Inferno Rage XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -262,7 +239,6 @@ types:
     name: Inferno Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 40000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -274,7 +250,6 @@ types:
     name: Inferno Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -286,7 +261,6 @@ types:
     name: Inferno XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -298,7 +272,6 @@ types:
     name: Inferno XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -310,7 +283,6 @@ types:
     name: Mjolnir Auto-Targeting Cruise Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -322,7 +294,6 @@ types:
     name: Mjolnir Auto-Targeting Heavy Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 900000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -334,7 +305,6 @@ types:
     name: Mjolnir Auto-Targeting Light Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 180000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -346,7 +316,6 @@ types:
     name: Mjolnir Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -357,7 +326,6 @@ types:
     name: Mjolnir Fury Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -368,7 +336,6 @@ types:
     name: Mjolnir Fury Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -379,7 +346,6 @@ types:
     name: Mjolnir Fury Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -389,7 +355,6 @@ types:
     name: Mjolnir Fury XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -401,7 +366,6 @@ types:
     name: Mjolnir Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 600000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -413,7 +377,6 @@ types:
     name: Mjolnir Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 900000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -424,7 +387,6 @@ types:
     name: Mjolnir Javelin Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -435,7 +397,6 @@ types:
     name: Mjolnir Javelin Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -446,7 +407,6 @@ types:
     name: Mjolnir Javelin Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -456,7 +416,6 @@ types:
     name: Mjolnir Javelin XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -468,7 +427,6 @@ types:
     name: Mjolnir Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 180000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -479,7 +437,6 @@ types:
     name: Mjolnir Precision Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -490,7 +447,6 @@ types:
     name: Mjolnir Precision Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -501,7 +457,6 @@ types:
     name: Mjolnir Precision Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -511,7 +466,6 @@ types:
     name: Mjolnir Precision XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -522,7 +476,6 @@ types:
     name: Mjolnir Rage Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -533,7 +486,6 @@ types:
     name: Mjolnir Rage Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -544,7 +496,6 @@ types:
     name: Mjolnir Rage Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -554,7 +505,6 @@ types:
     name: Mjolnir Rage XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -566,7 +516,6 @@ types:
     name: Mjolnir Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -578,7 +527,6 @@ types:
     name: Mjolnir Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -590,7 +538,6 @@ types:
     name: Mjolnir XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -602,7 +549,6 @@ types:
     name: Mjolnir XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -614,7 +560,6 @@ types:
     name: Nova Auto-Targeting Cruise Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -626,7 +571,6 @@ types:
     name: Nova Auto-Targeting Heavy Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 700000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -638,7 +582,6 @@ types:
     name: Nova Auto-Targeting Light Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 140000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -650,7 +593,6 @@ types:
     name: Nova Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -661,7 +603,6 @@ types:
     name: Nova Fury Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -672,7 +613,6 @@ types:
     name: Nova Fury Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -683,7 +623,6 @@ types:
     name: Nova Fury Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -693,7 +632,6 @@ types:
     name: Nova Fury XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -705,7 +643,6 @@ types:
     name: Nova Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 600000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -717,7 +654,6 @@ types:
     name: Nova Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 700000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -728,7 +664,6 @@ types:
     name: Nova Javelin Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -739,7 +674,6 @@ types:
     name: Nova Javelin Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -750,7 +684,6 @@ types:
     name: Nova Javelin Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -760,7 +693,6 @@ types:
     name: Nova Javelin XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -772,7 +704,6 @@ types:
     name: Nova Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 140000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -783,7 +714,6 @@ types:
     name: Nova Precision Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -794,7 +724,6 @@ types:
     name: Nova Precision Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -805,7 +734,6 @@ types:
     name: Nova Precision Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -815,7 +743,6 @@ types:
     name: Nova Precision XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -826,7 +753,6 @@ types:
     name: Nova Rage Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -837,7 +763,6 @@ types:
     name: Nova Rage Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -848,7 +773,6 @@ types:
     name: Nova Rage Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -858,7 +782,6 @@ types:
     name: Nova Rage XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -870,7 +793,6 @@ types:
     name: Nova Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 50000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -882,7 +804,6 @@ types:
     name: Nova Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -894,7 +815,6 @@ types:
     name: Nova XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -906,7 +826,6 @@ types:
     name: Nova XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -917,7 +836,6 @@ types:
     name: Sansha Juggernaut Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -928,7 +846,6 @@ types:
     name: Sansha Wrath Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -940,7 +857,6 @@ types:
     name: Scourge Auto-Targeting Cruise Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -952,7 +868,6 @@ types:
     name: Scourge Auto-Targeting Heavy Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -964,7 +879,6 @@ types:
     name: Scourge Auto-Targeting Light Missile I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 150000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -976,7 +890,6 @@ types:
     name: Scourge Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -987,7 +900,6 @@ types:
     name: Scourge Fury Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -998,7 +910,6 @@ types:
     name: Scourge Fury Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1009,7 +920,6 @@ types:
     name: Scourge Fury Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1019,7 +929,6 @@ types:
     name: Scourge Fury XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1031,7 +940,6 @@ types:
     name: Scourge Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 600000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1043,7 +951,6 @@ types:
     name: Scourge Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 750000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1054,7 +961,6 @@ types:
     name: Scourge Javelin Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1065,7 +971,6 @@ types:
     name: Scourge Javelin Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1076,7 +981,6 @@ types:
     name: Scourge Javelin Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1086,7 +990,6 @@ types:
     name: Scourge Javelin XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1098,7 +1001,6 @@ types:
     name: Scourge Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 150000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1109,7 +1011,6 @@ types:
     name: Scourge Precision Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1120,7 +1021,6 @@ types:
     name: Scourge Precision Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1131,7 +1031,6 @@ types:
     name: Scourge Precision Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1141,7 +1040,6 @@ types:
     name: Scourge Precision XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1152,7 +1050,6 @@ types:
     name: Scourge Rage Heavy Assault Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1163,7 +1060,6 @@ types:
     name: Scourge Rage Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1174,7 +1070,6 @@ types:
     name: Scourge Rage Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -1184,7 +1079,6 @@ types:
     name: Scourge Rage XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -1196,7 +1090,6 @@ types:
     name: Scourge Rocket Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1208,7 +1101,6 @@ types:
     name: Scourge Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1220,7 +1112,6 @@ types:
     name: Scourge XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1232,7 +1123,6 @@ types:
     name: Scourge XL Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -1243,7 +1133,6 @@ types:
     name: Standup Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8000000.0
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -1255,7 +1144,6 @@ types:
     name: Standup Heavy Guided Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -1267,7 +1155,6 @@ types:
     name: Standup Heavy Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8000000.0
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -1279,7 +1166,6 @@ types:
     name: Standup Light Guided Bomb Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -1291,7 +1177,6 @@ types:
     name: Standup Light Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8000000.0
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -1303,7 +1188,6 @@ types:
     name: Standup Super-heavy Torpedo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     structureitemvisualflag: 1
@@ -1315,7 +1199,6 @@ types:
     name: Standup XL Cruise Missile Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     structureitemvisualflag: 1

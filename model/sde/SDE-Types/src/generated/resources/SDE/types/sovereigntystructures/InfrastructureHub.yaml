@@ -7,7 +7,6 @@ types:
     packagedVolume: 60000.0
     planetanchordistance: 100000
     portionSize: 1
-    price: 5.0E8
     published: true
     radius: 10290.0
     scangravimetricstrength: 25.0

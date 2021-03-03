@@ -5,7 +5,6 @@ types:
     name: Chromodynamic Tricarboxyls
     packagedVolume: 1.0
     portionSize: 1
-    price: 2.0
     published: true
     volume: 1.0
   Isogen:
@@ -14,7 +13,6 @@ types:
     name: Isogen
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 128.0
     published: true
     volume: 0.009999999776482582
   Megacyte:
@@ -23,7 +21,6 @@ types:
     name: Megacyte
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8192.0
     published: true
     volume: 0.009999999776482582
   Mexallon:
@@ -32,7 +29,6 @@ types:
     name: Mexallon
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 32.0
     published: true
     volume: 0.009999999776482582
   Morphite:
@@ -41,7 +37,6 @@ types:
     name: Morphite
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 32768.0
     published: true
     volume: 0.009999999776482582
   Nocxium:
@@ -50,7 +45,6 @@ types:
     name: Nocxium
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 512.0
     published: true
     volume: 0.009999999776482582
   Pyerite:
@@ -59,7 +53,6 @@ types:
     name: Pyerite
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0
     published: true
     volume: 0.009999999776482582
   Tritanium:
@@ -68,7 +61,6 @@ types:
     name: Tritanium
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0
     published: true
     volume: 0.009999999776482582
   Zydrine:
@@ -77,6 +69,5 @@ types:
     name: Zydrine
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2048.0
     published: true
     volume: 0.009999999776482582

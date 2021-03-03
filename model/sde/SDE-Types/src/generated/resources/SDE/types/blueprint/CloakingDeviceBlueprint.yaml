@@ -25,7 +25,6 @@ types:
     name: Covert Ops Cloaking Device II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -46,7 +45,6 @@ types:
     name: Improved Cloaking Device II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -68,7 +66,6 @@ types:
     name: Prototype Cloaking Device I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     techlevel: 1

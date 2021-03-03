@@ -8,7 +8,6 @@ types:
     name: Corporation Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -23,7 +22,6 @@ types:
     name: Diplomatic Relations
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 50000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -44,7 +42,6 @@ types:
     name: Empire Control
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -62,7 +59,6 @@ types:
     name: Megacorp Management
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     primaryattribute: 166
     published: true
     radius: 1.0
@@ -80,7 +76,6 @@ types:
     name: Sovereignty
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     primaryattribute: 166
     published: true
     radius: 1.0

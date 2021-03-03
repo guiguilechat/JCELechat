@@ -10,7 +10,6 @@ types:
     name: Defunct Amarr Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
-    price: 2.5E7
     published: true
     radius: 1.0
     requiredskill1: 11584
@@ -39,7 +38,6 @@ types:
     name: Defunct Caldari Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
-    price: 2.5E7
     published: true
     radius: 1.0
     requiredskill1: 11584
@@ -68,7 +66,6 @@ types:
     name: Defunct Gallente Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
-    price: 2.5E7
     published: true
     radius: 1.0
     requiredskill1: 11584
@@ -97,7 +94,6 @@ types:
     name: Defunct Minmatar Encounter Surveillance System
     packagedVolume: 200.0
     portionSize: 1
-    price: 2.5E7
     published: true
     radius: 1.0
     requiredskill1: 11584

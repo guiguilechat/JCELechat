@@ -6,7 +6,6 @@ types:
     name: Large Blaster Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Large Railgun Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -28,7 +26,6 @@ types:
     name: Medium Blaster Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -39,7 +36,6 @@ types:
     name: Medium Railgun Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -158,7 +154,6 @@ types:
     name: Small Blaster Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -169,7 +164,6 @@ types:
     name: Small Railgun Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582

@@ -689,14 +689,14 @@ types:
   Heavy Abyssal Energy Nosferatu:
     id: 48427
     name: Heavy Abyssal Energy Nosferatu
-    packagedVolume: 50.0
+    packagedVolume: 5.0
     portionSize: 1
     published: true
     radius: 1.0
     requiredskill1: 3423
     requiredskill1level: 4
     techlevel: 1
-    volume: 50.0
+    volume: 5.0
   Heavy Energy Nosferatu I:
     cpu: 50.0
     duration: 10000.0

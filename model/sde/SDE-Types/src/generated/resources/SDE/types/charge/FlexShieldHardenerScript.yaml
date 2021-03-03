@@ -10,7 +10,6 @@ types:
     name: Shield EM Resistance Script
     packagedVolume: 1.0
     portionSize: 1
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -27,7 +26,6 @@ types:
     name: Shield Explosive Resistance Script
     packagedVolume: 1.0
     portionSize: 1
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -44,7 +42,6 @@ types:
     name: Shield Kinetic Resistance Script
     packagedVolume: 1.0
     portionSize: 1
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -61,7 +58,6 @@ types:
     name: Shield Thermal Resistance Script
     packagedVolume: 1.0
     portionSize: 1
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1

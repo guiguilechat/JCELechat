@@ -11,7 +11,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldcapacitybonus: 5.0
@@ -31,7 +30,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 17
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -224,7 +222,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldboostmultiplier: 3.0
@@ -240,7 +237,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldboostmultiplier: 5.0
@@ -256,7 +252,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldboostmultiplier: 7.0
@@ -272,7 +267,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldboostmultiplier: 9.0
@@ -287,7 +281,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -302,7 +295,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -317,7 +309,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -332,7 +323,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -348,7 +338,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -363,7 +352,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -378,7 +366,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -393,7 +380,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -431,7 +417,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -447,7 +432,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -465,7 +449,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -481,7 +464,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -499,37 +481,35 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
-  Basic 'Brainfreeze' Cerebral Accelerator:
+  Basic 'Bonding' Cerebral Accelerator:
     boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18667.45703125
+    boosterlastinjectiondatetime: 18695.45703125
     boosterness: 10
-    charismabonus: 4
+    charismabonus: 5
     followsjumpclones: 1
-    id: 57000
-    intelligencebonus: 4
+    id: 52801
+    intelligencebonus: 5
     marketGroup: 2487
-    memorybonus: 4
-    name: Basic 'Brainfreeze' Cerebral Accelerator
+    memorybonus: 5
+    name: Basic 'Bonding' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
-    perceptionbonus: 4
+    perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
-    willpowerbonus: 4
+    willpowerbonus: 5
   Basic 'Radiance' Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18611.45703125
@@ -546,7 +526,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -566,7 +545,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldcapacitybonus: 5.0
@@ -586,7 +564,6 @@ types:
     packagedVolume: 1.0
     portionSize: 1
     powerengineeringoutputbonus: 3.0
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -690,7 +667,23 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfbonus: 5
+    volume: 1.0
+    warpsbonus: 10
+  Eifyr and Co. 'Rogue' Agility ZhenNiu:
+    boosterduration: 6.048E8
+    boosterness: 109
+    durationbonus: 10
+    followsjumpclones: 1
+    id: 57327
+    name: Eifyr and Co. 'Rogue' Agility ZhenNiu
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     radius: 1.0
     socialbonus: 100
@@ -925,7 +918,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 12
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -949,7 +941,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -973,7 +964,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -996,7 +986,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 12
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1019,7 +1008,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1043,7 +1031,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1066,7 +1053,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 12
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1089,7 +1075,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1113,7 +1098,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1136,7 +1120,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1159,7 +1142,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1183,7 +1165,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1191,30 +1172,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Extended 'Brainfreeze' Cerebral Accelerator:
+  Extended 'Bonding' Cerebral Accelerator:
     boosterduration: 2.592E8
-    boosterlastinjectiondatetime: 18667.45703125
+    boosterlastinjectiondatetime: 18695.45703125
     boosterness: 10
-    charismabonus: 6
+    charismabonus: 8
     followsjumpclones: 1
-    id: 57002
-    intelligencebonus: 6
+    id: 52803
+    intelligencebonus: 8
     marketGroup: 2487
-    memorybonus: 6
-    name: Extended 'Brainfreeze' Cerebral Accelerator
+    memorybonus: 8
+    name: Extended 'Bonding' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
-    perceptionbonus: 6
+    perceptionbonus: 8
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
-    willpowerbonus: 6
+    willpowerbonus: 8
   Extended 'Radiance' Cerebral Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18611.45703125
@@ -1231,7 +1211,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 6
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1250,7 +1229,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1266,7 +1244,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1282,7 +1259,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1298,7 +1274,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1315,7 +1290,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1331,7 +1305,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1347,7 +1320,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1363,7 +1335,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1379,7 +1350,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1396,7 +1366,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1412,7 +1381,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1428,7 +1396,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1445,7 +1412,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1461,7 +1427,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1477,7 +1442,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1493,7 +1457,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1510,7 +1473,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1526,7 +1488,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1542,7 +1503,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1558,7 +1518,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1574,7 +1533,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1590,7 +1548,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1607,7 +1564,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1623,7 +1579,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1639,7 +1594,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1655,7 +1609,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1672,7 +1625,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1687,7 +1639,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldcapacitybonus: 2.0
@@ -1703,7 +1654,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldcapacitybonus: 3.0
@@ -1719,7 +1669,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldcapacitybonus: 4.0
@@ -1736,7 +1685,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldcapacitybonus: 6.0
@@ -1756,7 +1704,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1776,7 +1723,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1796,7 +1742,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1816,7 +1761,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1836,7 +1780,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1856,7 +1799,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1877,7 +1819,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1900,7 +1841,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 15
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1923,7 +1863,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1945,7 +1884,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1965,7 +1903,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -1985,7 +1922,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -2005,7 +1941,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -2025,7 +1960,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -2045,7 +1979,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -2114,7 +2047,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2141,7 +2073,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2166,7 +2097,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2193,7 +2123,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2218,7 +2147,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     rangeskillbonus: 15
@@ -2245,7 +2173,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2271,7 +2198,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2296,7 +2222,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2378,7 +2303,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2394,7 +2318,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2410,7 +2333,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2426,7 +2348,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2442,7 +2363,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2459,7 +2379,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2475,7 +2394,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2491,7 +2409,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2507,7 +2424,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2523,7 +2439,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2538,7 +2453,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2554,7 +2468,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2570,7 +2483,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2586,7 +2498,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2602,7 +2513,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2619,7 +2529,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2635,7 +2544,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2651,7 +2559,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2667,7 +2574,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2683,7 +2589,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2698,7 +2603,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 2
@@ -2714,7 +2618,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 2
@@ -2730,7 +2633,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 2
@@ -2746,7 +2648,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 3
@@ -2762,7 +2663,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 3
@@ -2779,7 +2679,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2795,7 +2694,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2811,7 +2709,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2827,7 +2724,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2843,7 +2739,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2859,7 +2754,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2875,7 +2769,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2891,7 +2784,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2907,7 +2799,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2923,7 +2814,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2938,7 +2828,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2954,7 +2843,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2970,7 +2858,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -2986,7 +2873,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -3002,7 +2888,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -3059,7 +2944,7 @@ types:
     boosterduration: 2.16E7
     boosterness: 65
     id: 56733
-    marketGroup: 977
+    marketGroup: 2761
     name: Nanoheuristic Clone Mapper
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
@@ -3080,7 +2965,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -3102,7 +2986,23 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+  ORE 'Harvester' Efficiency ZhenNiu:
+    boosterduration: 6.048E8
+    boosterness: 111
+    durationbonus: -5
+    followsjumpclones: 1
+    iceharvestcyclebonus: -5.0
+    id: 57329
+    miningamountbonus: 5
+    name: ORE 'Harvester' Efficiency ZhenNiu
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3129,30 +3029,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
-  Potent 'Brainfreeze' Cerebral Accelerator:
+  Potent 'Bonding' Cerebral Accelerator:
     boosterduration: 8.64E7
-    boosterlastinjectiondatetime: 18667.45703125
+    boosterlastinjectiondatetime: 18695.45703125
     boosterness: 10
-    charismabonus: 8
+    charismabonus: 12
     followsjumpclones: 1
-    id: 57001
-    intelligencebonus: 8
+    id: 52802
+    intelligencebonus: 12
     marketGroup: 2487
-    memorybonus: 8
-    name: Potent 'Brainfreeze' Cerebral Accelerator
+    memorybonus: 12
+    name: Potent 'Bonding' Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
-    perceptionbonus: 8
+    perceptionbonus: 12
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
     requiredskill1level: 1
     socialbonus: 100
     volume: 1.0
-    willpowerbonus: 8
+    willpowerbonus: 12
   Potent 'Radiance' Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18611.45703125
@@ -3169,7 +3068,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 8
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3190,7 +3088,23 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
+    published: true
+    radius: 1.0
+    scanstrengthbonus: 10
+    socialbonus: 100
+    volume: 1.0
+  Poteque 'Prospector' Sharpeye ZhenNiu:
+    boosterduration: 6.048E8
+    boosterness: 110
+    durationbonus: -10
+    followsjumpclones: 1
+    id: 57328
+    maxscandeviationmodifier: -10
+    name: Poteque 'Prospector' Sharpeye ZhenNiu
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
     published: true
     radius: 1.0
     scanstrengthbonus: 10
@@ -3232,7 +3146,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 9
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3249,7 +3162,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     scanresolutionbonus: 5.0
@@ -3271,7 +3183,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3294,7 +3205,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3317,7 +3227,29 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Basic 'Bonding' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18718.666015625
+    boosterness: 10
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 57433
+    intelligencebonus: 5
+    marketGroup: 2487
+    memorybonus: 5
+    name: Serenity Basic 'Bonding' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3340,7 +3272,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3363,7 +3294,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3386,7 +3316,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3394,6 +3323,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Extended 'Bonding' Cerebral Accelerator:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18718.666015625
+    boosterness: 10
+    charismabonus: 8
+    followsjumpclones: 1
+    id: 57435
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Serenity Extended 'Bonding' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 8
   Serenity Monthly Cerebral Accelerator - 2020.10:
     boosterduration: 4.32E7
     boosterlastinjectiondatetime: 18567.666015625
@@ -3409,7 +3361,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3432,7 +3383,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3455,7 +3405,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3479,7 +3428,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3503,7 +3451,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3526,7 +3473,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3549,7 +3495,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3572,7 +3517,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3595,7 +3539,28 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2021.3:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18718.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 57428
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2021.3
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3618,7 +3583,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3641,7 +3605,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3664,7 +3627,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3687,7 +3649,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3710,7 +3671,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3733,7 +3693,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3741,6 +3700,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Potent 'Bonding' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18718.666015625
+    boosterness: 10
+    charismabonus: 12
+    followsjumpclones: 1
+    id: 57434
+    intelligencebonus: 12
+    marketGroup: 2487
+    memorybonus: 12
+    name: Serenity Potent 'Bonding' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 12
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 12
   Serenity September Season Advanced Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18543.125
@@ -3756,7 +3738,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3779,7 +3760,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3802,7 +3782,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3848,7 +3827,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3869,7 +3847,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3890,7 +3867,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 6
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3911,7 +3887,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 8
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3932,7 +3907,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 2021
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3953,7 +3927,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 2021
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3973,7 +3946,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3992,7 +3964,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     rangeskillbonus: 5
@@ -4012,7 +3983,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -4033,7 +4003,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -4052,7 +4021,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     scanstrengthbonus: 5
@@ -4072,7 +4040,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     signatureradiusbonus: -5.0
@@ -4092,7 +4059,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -4114,7 +4080,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4137,7 +4102,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4160,7 +4124,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4183,7 +4146,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4206,7 +4168,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 1
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4229,7 +4190,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4237,6 +4197,148 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity YC123.3 Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18727.125
+    boosterness: 113
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 57431
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.3 Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.3 Season Pass:
+    boosterduration: 2.5056E9
+    boosterlastinjectiondatetime: 18715.125
+    boosterness: 114
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57432
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity YC123.3 Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity YC123.3 Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18727.125
+    boosterness: 112
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 57430
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.3 Season Standard Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity ZhenNiu Cerebral Accelerator Type-A:
+    boosterduration: 8.64E7
+    boosterness: 108
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 57323
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity ZhenNiu Cerebral Accelerator Type-A
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity ZhenNiu Cerebral Accelerator Type-B:
+    boosterduration: 2.592E8
+    boosterness: 108
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 57324
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity ZhenNiu Cerebral Accelerator Type-B
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity ZhenNiu Cerebral Accelerator Type-C:
+    boosterduration: 4.32E8
+    boosterness: 108
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 57325
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity ZhenNiu Cerebral Accelerator Type-C
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity ZhenNiu Cerebral Accelerator Type-X:
+    boosterduration: 6.048E8
+    boosterness: 108
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 57326
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity ZhenNiu Cerebral Accelerator Type-X
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
   Standard Armor Skill Accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -4277,7 +4379,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4301,7 +4402,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 2
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     shieldcapacitybonus: 5.0
@@ -4324,7 +4424,6 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 3
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4352,7 +4451,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4377,7 +4475,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4426,7 +4523,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4451,7 +4547,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     rangeskillbonus: 10
@@ -4478,7 +4573,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4526,7 +4620,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4551,7 +4644,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4752,7 +4844,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4779,7 +4870,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4804,7 +4894,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4831,7 +4920,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4856,7 +4944,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     rangeskillbonus: 20
@@ -4883,7 +4970,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4909,7 +4995,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4934,7 +5019,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4951,7 +5035,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4969,7 +5052,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -4985,7 +5067,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -5003,7 +5084,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -5019,7 +5099,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     rangeskillbonus: 3
@@ -5037,7 +5116,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -5054,7 +5132,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405
@@ -5070,7 +5147,6 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
-    price: 8192.0
     published: true
     radius: 1.0
     requiredskill1: 3405

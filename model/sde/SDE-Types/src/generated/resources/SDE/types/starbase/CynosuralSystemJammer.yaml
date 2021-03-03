@@ -22,7 +22,6 @@ types:
     portionSize: 1
     posanchoredpersolarsystemamount: 1
     power: 750000
-    price: 8000000.0
     published: true
     radius: 629.0
     requiredskill1: 11584

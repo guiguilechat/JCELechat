@@ -35,7 +35,6 @@ types:
     name: CONCORD Capital Remote Capacitor Transmitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.677384E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -46,7 +45,6 @@ types:
     name: Capital Inductive Compact Remote Capacitor Transmitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.27E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -56,7 +54,6 @@ types:
     name: Capital Radiative Scoped Remote Capacitor Transmitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.27E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -67,7 +64,6 @@ types:
     name: Capital Remote Capacitor Transmitter I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.677384E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -89,7 +85,6 @@ types:
     name: Large Remote Capacitor Transmitter I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 788400.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -100,7 +95,6 @@ types:
     name: Large Remote Capacitor Transmitter II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -112,7 +106,6 @@ types:
     name: Medium Remote Capacitor Transmitter I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -123,7 +116,6 @@ types:
     name: Medium Remote Capacitor Transmitter II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -135,7 +127,6 @@ types:
     name: Small Remote Capacitor Transmitter I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 125000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -146,7 +137,6 @@ types:
     name: Small Remote Capacitor Transmitter II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2

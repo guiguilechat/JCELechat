@@ -5,7 +5,6 @@ types:
     name: Design Laboratory Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -15,7 +14,6 @@ types:
     name: Experimental Laboratory Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -25,7 +23,6 @@ types:
     name: Research Laboratory Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582

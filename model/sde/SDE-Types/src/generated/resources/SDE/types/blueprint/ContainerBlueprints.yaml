@@ -6,7 +6,6 @@ types:
     name: Enormous Freight Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Giant Freight Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -28,7 +26,6 @@ types:
     name: Giant Secure Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -39,7 +36,6 @@ types:
     name: Huge Freight Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -50,7 +46,6 @@ types:
     name: Huge Secure Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1200000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -61,7 +56,6 @@ types:
     name: Large Audit Log Secure Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -72,7 +66,6 @@ types:
     name: Large Freight Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -83,7 +76,6 @@ types:
     name: Large Secure Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -94,7 +86,6 @@ types:
     name: Large Standard Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 250000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -105,7 +96,6 @@ types:
     name: Medium Audit Log Secure Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -116,7 +106,6 @@ types:
     name: Medium Freight Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 250000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -127,7 +116,6 @@ types:
     name: Medium Secure Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 230000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -138,7 +126,6 @@ types:
     name: Medium Standard Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 120000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -149,7 +136,6 @@ types:
     name: Small Audit Log Secure Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 180000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -160,7 +146,6 @@ types:
     name: Small Freight Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 125000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -171,7 +156,6 @@ types:
     name: Small Secure Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 80000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -182,7 +166,6 @@ types:
     name: Small Standard Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 50000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -193,7 +176,6 @@ types:
     name: Station Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 180000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -204,7 +186,6 @@ types:
     name: Station Vault Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1800000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -215,7 +196,6 @@ types:
     name: Station Warehouse Container Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582

@@ -5,7 +5,6 @@ types:
     name: Advanced Large Ship Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -15,7 +14,6 @@ types:
     name: Advanced Medium Ship Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -25,7 +23,6 @@ types:
     name: Advanced Small Ship Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -35,7 +32,6 @@ types:
     name: Ammunition Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -46,7 +42,6 @@ types:
     name: Ballistic Deflection Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -56,7 +51,6 @@ types:
     name: Biochemical Reactor Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -66,7 +60,6 @@ types:
     name: Biochemical Silo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -76,7 +69,6 @@ types:
     name: Capital Ship Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -86,7 +78,6 @@ types:
     name: Catalyst Silo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -96,7 +87,6 @@ types:
     name: Complex Reactor Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -106,7 +96,6 @@ types:
     name: Component Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -116,7 +105,6 @@ types:
     name: Compression Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -127,7 +115,6 @@ types:
     name: Corporate Hangar Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -137,7 +124,6 @@ types:
     name: Coupling Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -147,7 +133,6 @@ types:
     name: Customs Office Gantry Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -157,7 +142,6 @@ types:
     name: Cynosural Generator Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -167,7 +151,6 @@ types:
     name: Cynosural System Jammer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -177,7 +160,6 @@ types:
     name: Drone Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -187,7 +169,6 @@ types:
     name: Equipment Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -198,7 +179,6 @@ types:
     name: Explosion Dampening Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -208,7 +188,6 @@ types:
     name: General Storage Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -218,7 +197,6 @@ types:
     name: Hazardous Chemical Silo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -229,7 +207,6 @@ types:
     name: Heat Dissipation Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -239,7 +216,6 @@ types:
     name: Hybrid Polymer Silo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -249,7 +225,6 @@ types:
     name: Intensive Reprocessing Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -259,7 +234,6 @@ types:
     name: Jump Bridge Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -269,7 +243,6 @@ types:
     name: Large Ship Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -279,7 +252,6 @@ types:
     name: Medium Biochemical Reactor Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -289,7 +261,6 @@ types:
     name: Medium Ship Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -299,7 +270,6 @@ types:
     name: Moon Harvesting Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -310,7 +280,6 @@ types:
     name: Personal Hangar Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -321,7 +290,6 @@ types:
     name: Photon Scattering Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -331,7 +299,6 @@ types:
     name: Polymer Reactor Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -341,7 +308,6 @@ types:
     name: Rapid Equipment Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -351,7 +317,6 @@ types:
     name: Reprocessing Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -362,7 +327,6 @@ types:
     name: Sensor Dampening Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -373,7 +337,6 @@ types:
     name: Ship Maintenance Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -383,7 +346,6 @@ types:
     name: Silo Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -393,7 +355,6 @@ types:
     name: Simple Reactor Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -403,7 +364,6 @@ types:
     name: Small Ship Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -413,7 +373,6 @@ types:
     name: Subsystem Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -423,7 +382,6 @@ types:
     name: Supercapital Ship Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -433,7 +391,6 @@ types:
     name: Thukker Component Assembly Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -444,7 +401,6 @@ types:
     name: X-Large Ship Maintenance Array Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582

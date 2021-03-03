@@ -5,7 +5,6 @@ types:
     name: Ametat I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -14,7 +13,6 @@ types:
     name: Ametat II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -25,7 +23,6 @@ types:
     name: Antaeus I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -34,7 +31,6 @@ types:
     name: Antaeus II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -46,7 +42,6 @@ types:
     name: Cyclops I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -56,7 +51,6 @@ types:
     name: Cyclops II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -67,7 +61,6 @@ types:
     name: Gungnir I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -76,7 +69,6 @@ types:
     name: Gungnir II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -88,7 +80,6 @@ types:
     name: Malleus I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -98,7 +89,6 @@ types:
     name: Malleus II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -110,7 +100,6 @@ types:
     name: Mantis I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -120,7 +109,6 @@ types:
     name: Mantis II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -131,7 +119,6 @@ types:
     name: Shadow Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -142,7 +129,6 @@ types:
     name: Standup Ametat I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -151,7 +137,6 @@ types:
     name: Standup Ametat II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -161,7 +146,6 @@ types:
     name: Standup Antaeus I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -170,7 +154,6 @@ types:
     name: Standup Antaeus II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -180,7 +163,6 @@ types:
     name: Standup Cyclops I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -189,7 +171,6 @@ types:
     name: Standup Cyclops II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -199,7 +180,6 @@ types:
     name: Standup Gungnir I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -208,7 +188,6 @@ types:
     name: Standup Gungnir II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -218,7 +197,6 @@ types:
     name: Standup Malleus I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -227,7 +205,6 @@ types:
     name: Standup Malleus II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -237,7 +214,6 @@ types:
     name: Standup Mantis I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -246,7 +222,6 @@ types:
     name: Standup Mantis II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -255,7 +230,6 @@ types:
     name: Standup Shadow Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -265,7 +239,6 @@ types:
     name: Standup Termite I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -274,7 +247,6 @@ types:
     name: Standup Termite II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -284,7 +256,6 @@ types:
     name: Standup Tyrfing I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -293,7 +264,6 @@ types:
     name: Standup Tyrfing II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -303,7 +273,6 @@ types:
     name: Termite I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -312,7 +281,6 @@ types:
     name: Termite II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -324,7 +292,6 @@ types:
     name: Tyrfing I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -334,7 +301,6 @@ types:
     name: Tyrfing II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2

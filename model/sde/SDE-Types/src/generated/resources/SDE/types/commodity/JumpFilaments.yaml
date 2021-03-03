@@ -44,7 +44,6 @@ types:
     name: DNCR-05H Highsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -69,7 +68,6 @@ types:
     name: DSHR-01H Highsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -118,7 +116,6 @@ types:
     name: PRNCR-10H Highsec Ice Storm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612

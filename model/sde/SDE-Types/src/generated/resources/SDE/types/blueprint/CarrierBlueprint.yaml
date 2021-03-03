@@ -6,7 +6,6 @@ types:
     name: Archon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.1E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Chimera Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.05E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -28,7 +26,6 @@ types:
     name: Nidhoggur Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.15E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -39,7 +36,6 @@ types:
     name: Thanatos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582

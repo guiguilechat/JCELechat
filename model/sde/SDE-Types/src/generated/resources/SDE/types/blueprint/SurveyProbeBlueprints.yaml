@@ -6,7 +6,6 @@ types:
     name: Discovery Survey Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Gaze Survey Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -28,7 +26,6 @@ types:
     name: Quest Survey Probe I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

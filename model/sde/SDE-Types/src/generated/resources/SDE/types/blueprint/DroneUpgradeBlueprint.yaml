@@ -6,7 +6,6 @@ types:
     name: Drone Link Augmentor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2130000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -28,7 +27,6 @@ types:
     name: Drone Navigation Computer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1400000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -50,7 +48,6 @@ types:
     name: Fighter Support Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.5E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -70,7 +67,6 @@ types:
     name: Hermes Compact Fighter Support Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.5E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -81,7 +77,6 @@ types:
     name: Omnidirectional Tracking Enhancer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 144000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -92,7 +87,6 @@ types:
     name: Omnidirectional Tracking Enhancer II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 144000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -104,7 +98,6 @@ types:
     name: Omnidirectional Tracking Link I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 99000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -125,7 +118,6 @@ types:
     name: Sentient Fighter Support Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.5E7
     published: true
     radius: 1.0
     techlevel: 1

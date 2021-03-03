@@ -46,7 +46,6 @@ types:
     portionSize: 1
     poweroutput: 3
     powertospeed: 1
-    price: 2.0E8
     propulsiongraphicid: 395
     published: true
     radius: 200.0
@@ -78,7 +77,8 @@ types:
     shipbonusgc: -5.0
     shipbonusmc: -5.0
     signatureradius: 40.0
-    specialammoholdcapacity: 10
+    specialammoholdcapacity: 25
+    specialboosterholdcapacity: 25
     structureuniformity: 1.0
     targetpainterrangemodifierflagcruisers: 300
     targetpainterresistance: 0.30000001192092896

@@ -223,14 +223,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 520.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -318,14 +315,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 560.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -409,15 +403,12 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 325.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 2508
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -502,15 +493,12 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 212
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -590,14 +578,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 320.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -680,14 +665,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 390.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -773,15 +755,12 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 310.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 2510
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
@@ -863,15 +842,12 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 400.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 100000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entitymissiletypeid: 212
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entitysensordampenduration: 30000
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000

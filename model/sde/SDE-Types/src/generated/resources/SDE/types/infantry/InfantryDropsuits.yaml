@@ -3,14 +3,12 @@ types:
     id: 369482
     name: '''Agema'' Basic-M gk.0'
     portionSize: 1
-    price: 48000.0
     published: false
   '''Alcyon'' Basic-H G/I+':
     id: 369546
     name: '''Alcyon'' Basic-H G/I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Anasoma'' Sentinel A-I':
@@ -18,7 +16,6 @@ types:
     name: '''Anasoma'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Anasoma'' Sentinel A/1-Series':
@@ -26,7 +23,6 @@ types:
     name: '''Anasoma'' Sentinel A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Anasoma'' Sentinel ak.0':
@@ -34,7 +30,6 @@ types:
     name: '''Anasoma'' Sentinel ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Aoide'' Basic-L G/I':
@@ -42,7 +37,6 @@ types:
     name: '''Aoide'' Basic-L G/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Aventail'' Basic-H A-I':
@@ -50,7 +44,6 @@ types:
     name: '''Aventail'' Basic-H A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Basilo'' Basic-H M-I':
@@ -58,7 +51,6 @@ types:
     name: '''Basilo'' Basic-H M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Behemoth'' Sentinel A-I+':
@@ -66,7 +58,6 @@ types:
     name: '''Behemoth'' Sentinel A-I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   '''Black Eagle'' Scout G/1-Series':
@@ -74,7 +65,6 @@ types:
     name: '''Black Eagle'' Scout G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Brutor'' Commando M-I':
@@ -82,7 +72,6 @@ types:
     name: '''Brutor'' Commando M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Brutor'' Logistics M-I':
@@ -90,7 +79,6 @@ types:
     name: '''Brutor'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''CQC'' Scout G-I':
@@ -98,7 +86,6 @@ types:
     name: '''CQC'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Calliope'' Basic-L gk.0':
@@ -106,7 +93,6 @@ types:
     name: '''Calliope'' Basic-L gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Carbon'' Assault C-I':
@@ -114,7 +100,6 @@ types:
     name: '''Carbon'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Carbon'' Assault C/1-Series':
@@ -122,7 +107,6 @@ types:
     name: '''Carbon'' Assault C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Carbon'' Assault ck.0':
@@ -130,7 +114,6 @@ types:
     name: '''Carbon'' Assault ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Celeus'' Assault gk.0':
@@ -138,7 +121,6 @@ types:
     name: '''Celeus'' Assault gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Colossus'' Sentinel A-I':
@@ -146,7 +128,6 @@ types:
     name: '''Colossus'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Colossus'' Sentinel A/1-Series':
@@ -154,7 +135,6 @@ types:
     name: '''Colossus'' Sentinel A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Colossus'' Sentinel ak.0':
@@ -162,7 +142,6 @@ types:
     name: '''Colossus'' Sentinel ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Covenant'' Assault C-I':
@@ -170,7 +149,6 @@ types:
     name: '''Covenant'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Cuirass'' Basic-H ak.0':
@@ -178,7 +156,6 @@ types:
     name: '''Cuirass'' Basic-H ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Dorudon'' Basic-H M/I':
@@ -186,7 +163,6 @@ types:
     name: '''Dorudon'' Basic-H M/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Dragonfly'' Assault [nSv]':
@@ -194,7 +170,6 @@ types:
     name: '''Dragonfly'' Assault [nSv]'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Dragonfly'' Scout [nSv]':
@@ -202,7 +177,6 @@ types:
     name: '''Dragonfly'' Scout [nSv]'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Dren'' Assault C-I':
@@ -210,7 +184,6 @@ types:
     name: '''Dren'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Dren'' Logistics M-I':
@@ -218,7 +191,6 @@ types:
     name: '''Dren'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Dren'' Scout G-I':
@@ -226,7 +198,6 @@ types:
     name: '''Dren'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Dren'' Sentinel A-I':
@@ -234,7 +205,6 @@ types:
     name: '''Dren'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Egil'' Basic-M mk.0':
@@ -242,7 +212,6 @@ types:
     name: '''Egil'' Basic-M mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Enkidu'' Sentinel G-I+':
@@ -250,7 +219,6 @@ types:
     name: '''Enkidu'' Sentinel G-I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   '''Eon'' Militia Amarr Heavy Frame':
@@ -258,7 +226,6 @@ types:
     name: '''Eon'' Militia Amarr Heavy Frame'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Eon'' Sentinel A-I':
@@ -266,7 +233,6 @@ types:
     name: '''Eon'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Federal Marine'' Assault G/1-Series':
@@ -274,7 +240,6 @@ types:
     name: '''Federal Marine'' Assault G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Federal Marine'' Assault gk.0':
@@ -282,7 +247,6 @@ types:
     name: '''Federal Marine'' Assault gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Firebrand'' Assault C-I':
@@ -290,7 +254,6 @@ types:
     name: '''Firebrand'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Firebrand'' Assault C/1-Series':
@@ -298,7 +261,6 @@ types:
     name: '''Firebrand'' Assault C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Firebrand'' Assault ck.0':
@@ -306,7 +268,6 @@ types:
     name: '''Firebrand'' Assault ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Flying Scotsman'' Assault ck.0':
@@ -314,7 +275,6 @@ types:
     name: '''Flying Scotsman'' Assault ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   '''Forseti'' Assault mk.0':
@@ -322,7 +282,6 @@ types:
     name: '''Forseti'' Assault mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Fossil'' Logistics M-I':
@@ -330,7 +289,6 @@ types:
     name: '''Fossil'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Fossil'' Militia Minmatar Medium Frame':
@@ -338,7 +296,6 @@ types:
     name: '''Fossil'' Militia Minmatar Medium Frame'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Foxfour'' Assault G-I':
@@ -346,7 +303,6 @@ types:
     name: '''Foxfour'' Assault G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Grettir'' Basic-M M-I':
@@ -354,7 +310,6 @@ types:
     name: '''Grettir'' Basic-M M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Guruwa'' Basic-H C-I':
@@ -362,7 +317,6 @@ types:
     name: '''Guruwa'' Basic-H C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Halberd'' Basic-L A-I':
@@ -370,7 +324,6 @@ types:
     name: '''Halberd'' Basic-L A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Harbinger'' Amarr Medium Frame A-I':
@@ -378,7 +331,6 @@ types:
     name: '''Harbinger'' Amarr Medium Frame A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Hastati'' Basic-M A-I':
@@ -386,7 +338,6 @@ types:
     name: '''Hastati'' Basic-M A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Hazard'' Logistics M-I':
@@ -394,7 +345,6 @@ types:
     name: '''Hazard'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Hazard'' Logistics M/1-Series':
@@ -402,7 +352,6 @@ types:
     name: '''Hazard'' Logistics M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 12160.0
     published: false
     volume: 0.009999999776482582
   '''Hazard'' Logistics mk.0':
@@ -410,7 +359,6 @@ types:
     name: '''Hazard'' Logistics mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 53640.0
     published: false
     volume: 0.009999999776482582
   '''Hecaton'' Basic-H G-I':
@@ -418,21 +366,18 @@ types:
     name: '''Hecaton'' Basic-H G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Hellmar'' Sentinel ak.0':
     id: 365930
     name: '''Hellmar'' Sentinel ak.0'
     portionSize: 1
-    price: 57690.0
     published: false
   '''Hermod'' Assault mk.0+':
     id: 369443
     name: '''Hermod'' Assault mk.0+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Hunter'' Scout G-I':
@@ -440,7 +385,6 @@ types:
     name: '''Hunter'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Imperial Guard'' Assault A/1-Series':
@@ -448,7 +392,6 @@ types:
     name: '''Imperial Guard'' Assault A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Imperial Guard'' Assault ak.0':
@@ -456,7 +399,6 @@ types:
     name: '''Imperial Guard'' Assault ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Izanami'' Sentinel C-I+':
@@ -464,7 +406,6 @@ types:
     name: '''Izanami'' Sentinel C-I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   '''Jokul'' Basic-M M-I':
@@ -472,7 +413,6 @@ types:
     name: '''Jokul'' Basic-M M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Jord'' Basic-L M/I':
@@ -480,7 +420,6 @@ types:
     name: '''Jord'' Basic-L M/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Jotunn'' Sentinel M-I+':
@@ -488,7 +427,6 @@ types:
     name: '''Jotunn'' Sentinel M-I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   '''Kaalakiota'' Assault C-I':
@@ -496,7 +434,6 @@ types:
     name: '''Kaalakiota'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Kaalakiota'' Scout C-I':
@@ -504,7 +441,6 @@ types:
     name: '''Kaalakiota'' Scout C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Kakali'' Basic-M mk.0+':
@@ -512,7 +448,6 @@ types:
     name: '''Kakali'' Basic-M mk.0+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Kari'' Basic-M M/I':
@@ -520,7 +455,6 @@ types:
     name: '''Kari'' Basic-M M/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Kindred'' Scout G-I':
@@ -528,7 +462,6 @@ types:
     name: '''Kindred'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Kindred'' Scout G/1-Series':
@@ -536,7 +469,6 @@ types:
     name: '''Kindred'' Scout G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Kindred'' Scout gk.0':
@@ -544,7 +476,6 @@ types:
     name: '''Kindred'' Scout gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Kote'' Basic-H C/I':
@@ -552,7 +483,6 @@ types:
     name: '''Kote'' Basic-H C/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Kullervo'' Basic-M C-I':
@@ -560,7 +490,6 @@ types:
     name: '''Kullervo'' Basic-M C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Legio'' Basic-M ak.0':
@@ -568,21 +497,18 @@ types:
     name: '''Legio'' Basic-M ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Lempo'' Basic-L C/I':
     id: 369511
     name: '''Lempo'' Basic-L C/I'
     portionSize: 1
-    price: 16000.0
     published: false
   '''Loceros'' Basic-H mk.0':
     id: 369550
     name: '''Loceros'' Basic-H mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Logicloop'' Scout M-I':
@@ -590,7 +516,6 @@ types:
     name: '''Logicloop'' Scout M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Magni'' Assault M-I+':
@@ -598,7 +523,6 @@ types:
     name: '''Magni'' Assault M-I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Malik'' Assault ak.0+':
@@ -606,21 +530,18 @@ types:
     name: '''Malik'' Assault ak.0+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Marras'' Basic-M ck.0':
     id: 369481
     name: '''Marras'' Basic-M ck.0'
     portionSize: 1
-    price: 48000.0
     published: false
   '''Mauler'' Sentinel A-I':
     id: 364099
     name: '''Mauler'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Melete'' Basic-L G-I':
@@ -628,7 +549,6 @@ types:
     name: '''Melete'' Basic-L G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Memnon'' Assault G-I+':
@@ -636,7 +556,6 @@ types:
     name: '''Memnon'' Assault G-I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Menpo'' Basic-H ck.0':
@@ -644,7 +563,6 @@ types:
     name: '''Menpo'' Basic-H ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Mimas'' Basic-H G/I':
@@ -652,7 +570,6 @@ types:
     name: '''Mimas'' Basic-H G/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Modi'' Assault M/I+':
@@ -660,7 +577,6 @@ types:
     name: '''Modi'' Assault M/I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Nakir'' Assault ak.0':
@@ -668,7 +584,6 @@ types:
     name: '''Nakir'' Assault ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault A-I':
@@ -676,7 +591,6 @@ types:
     name: '''Neo'' Assault A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault A/1-Series':
@@ -684,7 +598,6 @@ types:
     name: '''Neo'' Assault A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault C-I':
@@ -692,7 +605,6 @@ types:
     name: '''Neo'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault C/1-Series':
@@ -700,7 +612,6 @@ types:
     name: '''Neo'' Assault C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault G-I':
@@ -708,7 +619,6 @@ types:
     name: '''Neo'' Assault G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault G/1-Series':
@@ -716,7 +626,6 @@ types:
     name: '''Neo'' Assault G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault M-I':
@@ -724,7 +633,6 @@ types:
     name: '''Neo'' Assault M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault M/1-Series':
@@ -732,7 +640,6 @@ types:
     name: '''Neo'' Assault M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault ak.0':
@@ -740,7 +647,6 @@ types:
     name: '''Neo'' Assault ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault ck.0':
@@ -748,7 +654,6 @@ types:
     name: '''Neo'' Assault ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault gk.0':
@@ -756,7 +661,6 @@ types:
     name: '''Neo'' Assault gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Assault mk.0':
@@ -764,7 +668,6 @@ types:
     name: '''Neo'' Assault mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando A-I':
@@ -772,7 +675,6 @@ types:
     name: '''Neo'' Commando A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando A/1-Series':
@@ -780,7 +682,6 @@ types:
     name: '''Neo'' Commando A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando C-I':
@@ -788,7 +689,6 @@ types:
     name: '''Neo'' Commando C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando C/1-Series':
@@ -796,7 +696,6 @@ types:
     name: '''Neo'' Commando C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando G-I':
@@ -804,7 +703,6 @@ types:
     name: '''Neo'' Commando G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando G/1-Series':
@@ -812,7 +710,6 @@ types:
     name: '''Neo'' Commando G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando M-I':
@@ -820,21 +717,18 @@ types:
     name: '''Neo'' Commando M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando M/1-Series':
     id: 366723
     name: '''Neo'' Commando M/1-Series'
     portionSize: 1
-    price: 13155.0
     published: false
   '''Neo'' Commando ak.0':
     id: 365299
     name: '''Neo'' Commando ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando ck.0':
@@ -842,7 +736,6 @@ types:
     name: '''Neo'' Commando ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando gk.0':
@@ -850,7 +743,6 @@ types:
     name: '''Neo'' Commando gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Commando mk.0':
@@ -858,7 +750,6 @@ types:
     name: '''Neo'' Commando mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics A-I':
@@ -866,7 +757,6 @@ types:
     name: '''Neo'' Logistics A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics A/1-Series':
@@ -874,7 +764,6 @@ types:
     name: '''Neo'' Logistics A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics C-I':
@@ -882,7 +771,6 @@ types:
     name: '''Neo'' Logistics C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics C/1-Series':
@@ -890,7 +778,6 @@ types:
     name: '''Neo'' Logistics C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics G-I':
@@ -898,7 +785,6 @@ types:
     name: '''Neo'' Logistics G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics G/1-Series':
@@ -906,7 +792,6 @@ types:
     name: '''Neo'' Logistics G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics M-I':
@@ -914,7 +799,6 @@ types:
     name: '''Neo'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics M/1-Series':
@@ -922,7 +806,6 @@ types:
     name: '''Neo'' Logistics M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics ak.0':
@@ -930,7 +813,6 @@ types:
     name: '''Neo'' Logistics ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics ck.0':
@@ -938,7 +820,6 @@ types:
     name: '''Neo'' Logistics ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics gk.0':
@@ -946,7 +827,6 @@ types:
     name: '''Neo'' Logistics gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Logistics mk.0':
@@ -954,7 +834,6 @@ types:
     name: '''Neo'' Logistics mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Pilot G-I':
@@ -962,7 +841,6 @@ types:
     name: '''Neo'' Pilot G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Pilot G/1-Series':
@@ -970,7 +848,6 @@ types:
     name: '''Neo'' Pilot G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Pilot M-I':
@@ -978,7 +855,6 @@ types:
     name: '''Neo'' Pilot M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Pilot M/1-Series':
@@ -986,7 +862,6 @@ types:
     name: '''Neo'' Pilot M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Pilot gk.0':
@@ -994,7 +869,6 @@ types:
     name: '''Neo'' Pilot gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Pilot mk.0':
@@ -1002,7 +876,6 @@ types:
     name: '''Neo'' Pilot mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout A-I':
@@ -1010,7 +883,6 @@ types:
     name: '''Neo'' Scout A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout A/1-Series':
@@ -1018,7 +890,6 @@ types:
     name: '''Neo'' Scout A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout C-I':
@@ -1026,7 +897,6 @@ types:
     name: '''Neo'' Scout C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout C/1-Series':
@@ -1034,7 +904,6 @@ types:
     name: '''Neo'' Scout C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout G-I':
@@ -1042,7 +911,6 @@ types:
     name: '''Neo'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout G/1-Series':
@@ -1050,7 +918,6 @@ types:
     name: '''Neo'' Scout G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout M-I':
@@ -1058,7 +925,6 @@ types:
     name: '''Neo'' Scout M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout M/1-Series':
@@ -1066,7 +932,6 @@ types:
     name: '''Neo'' Scout M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout ak.0':
@@ -1074,7 +939,6 @@ types:
     name: '''Neo'' Scout ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout ck.0':
@@ -1082,7 +946,6 @@ types:
     name: '''Neo'' Scout ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout gk.0':
@@ -1090,7 +953,6 @@ types:
     name: '''Neo'' Scout gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Scout mk.0':
@@ -1098,7 +960,6 @@ types:
     name: '''Neo'' Scout mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel A-I':
@@ -1106,7 +967,6 @@ types:
     name: '''Neo'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel A/1-Series':
@@ -1114,7 +974,6 @@ types:
     name: '''Neo'' Sentinel A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel C-I':
@@ -1122,35 +981,30 @@ types:
     name: '''Neo'' Sentinel C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel C/1-Series':
     id: 366684
     name: '''Neo'' Sentinel C/1-Series'
     portionSize: 1
-    price: 13155.0
     published: false
   '''Neo'' Sentinel G-I':
     id: 366680
     name: '''Neo'' Sentinel G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel G/1-Series':
     id: 366681
     name: '''Neo'' Sentinel G/1-Series'
     portionSize: 1
-    price: 13155.0
     published: false
   '''Neo'' Sentinel M-I':
     id: 366677
     name: '''Neo'' Sentinel M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel M/1-Series':
@@ -1158,7 +1012,6 @@ types:
     name: '''Neo'' Sentinel M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel ak.0':
@@ -1166,7 +1019,6 @@ types:
     name: '''Neo'' Sentinel ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel ck.0':
@@ -1174,7 +1026,6 @@ types:
     name: '''Neo'' Sentinel ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel gk.0':
@@ -1182,7 +1033,6 @@ types:
     name: '''Neo'' Sentinel gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Neo'' Sentinel mk.0':
@@ -1190,7 +1040,6 @@ types:
     name: '''Neo'' Sentinel mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Numeri'' Basic-M A-I':
@@ -1198,7 +1047,6 @@ types:
     name: '''Numeri'' Basic-M A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Oblivion'' Logistics M-I':
@@ -1206,7 +1054,6 @@ types:
     name: '''Oblivion'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Oblivion'' Logistics M/1-Series':
@@ -1214,7 +1061,6 @@ types:
     name: '''Oblivion'' Logistics M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 12160.0
     published: false
     volume: 0.009999999776482582
   '''Oblivion'' Logistics mk.0':
@@ -1222,7 +1068,6 @@ types:
     name: '''Oblivion'' Logistics mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 53640.0
     published: false
     volume: 0.009999999776482582
   '''Orchid'' Assault C-I':
@@ -1230,7 +1075,6 @@ types:
     name: '''Orchid'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   '''Origin'' Assault C-I':
@@ -1238,7 +1082,6 @@ types:
     name: '''Origin'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Origin'' Logistics M-I':
@@ -1246,7 +1089,6 @@ types:
     name: '''Origin'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Partisan'' Basic-L A/I':
@@ -1254,7 +1096,6 @@ types:
     name: '''Partisan'' Basic-L A/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Perkele'' Basic-L ck.0':
@@ -1262,7 +1103,6 @@ types:
     name: '''Perkele'' Basic-L ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Phalanx'' Basic-M G/I':
@@ -1270,7 +1110,6 @@ types:
     name: '''Phalanx'' Basic-M G/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Piru'' Basic-L C-I':
@@ -1278,7 +1117,6 @@ types:
     name: '''Piru'' Basic-L C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Primordial'' Assault C-I':
@@ -1286,7 +1124,6 @@ types:
     name: '''Primordial'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Primordial'' Militia Caldari Medium Frame':
@@ -1294,7 +1131,6 @@ types:
     name: '''Primordial'' Militia Caldari Medium Frame'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Principe'' Basic-M A/I':
@@ -1302,7 +1138,6 @@ types:
     name: '''Principe'' Basic-M A/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault A-I':
@@ -1310,7 +1145,6 @@ types:
     name: '''Pyrus'' Assault A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault A/1-Series':
@@ -1318,7 +1152,6 @@ types:
     name: '''Pyrus'' Assault A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault C-I':
@@ -1326,7 +1159,6 @@ types:
     name: '''Pyrus'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault C/1-Series':
@@ -1334,7 +1166,6 @@ types:
     name: '''Pyrus'' Assault C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault G-I':
@@ -1342,7 +1173,6 @@ types:
     name: '''Pyrus'' Assault G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault G/1-Series':
@@ -1350,7 +1180,6 @@ types:
     name: '''Pyrus'' Assault G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault M-I':
@@ -1358,7 +1187,6 @@ types:
     name: '''Pyrus'' Assault M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault M/1-Series':
@@ -1366,7 +1194,6 @@ types:
     name: '''Pyrus'' Assault M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault ak.0':
@@ -1374,7 +1201,6 @@ types:
     name: '''Pyrus'' Assault ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault ck.0':
@@ -1382,7 +1208,6 @@ types:
     name: '''Pyrus'' Assault ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault gk.0':
@@ -1390,7 +1215,6 @@ types:
     name: '''Pyrus'' Assault gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Assault mk.0':
@@ -1398,7 +1222,6 @@ types:
     name: '''Pyrus'' Assault mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Commando A-I':
@@ -1406,7 +1229,6 @@ types:
     name: '''Pyrus'' Commando A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Commando A/1-Series':
@@ -1414,7 +1236,6 @@ types:
     name: '''Pyrus'' Commando A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Commando ak.0':
@@ -1422,7 +1243,6 @@ types:
     name: '''Pyrus'' Commando ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics A-I':
@@ -1430,7 +1250,6 @@ types:
     name: '''Pyrus'' Logistics A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics A/1-Series':
@@ -1438,7 +1257,6 @@ types:
     name: '''Pyrus'' Logistics A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics C-I':
@@ -1446,7 +1264,6 @@ types:
     name: '''Pyrus'' Logistics C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics C/1-Series':
@@ -1454,7 +1271,6 @@ types:
     name: '''Pyrus'' Logistics C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics G-I':
@@ -1462,7 +1278,6 @@ types:
     name: '''Pyrus'' Logistics G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics G/1-Series':
@@ -1470,7 +1285,6 @@ types:
     name: '''Pyrus'' Logistics G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics M-I':
@@ -1478,7 +1292,6 @@ types:
     name: '''Pyrus'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics M/1-Series':
@@ -1486,7 +1299,6 @@ types:
     name: '''Pyrus'' Logistics M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics ak.0':
@@ -1494,7 +1306,6 @@ types:
     name: '''Pyrus'' Logistics ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics ck.0':
@@ -1502,7 +1313,6 @@ types:
     name: '''Pyrus'' Logistics ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics gk.0':
@@ -1510,7 +1320,6 @@ types:
     name: '''Pyrus'' Logistics gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Logistics mk.0':
@@ -1518,7 +1327,6 @@ types:
     name: '''Pyrus'' Logistics mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Scout G-I':
@@ -1526,7 +1334,6 @@ types:
     name: '''Pyrus'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Scout G/1-Series':
@@ -1534,7 +1341,6 @@ types:
     name: '''Pyrus'' Scout G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Scout M-I':
@@ -1542,7 +1348,6 @@ types:
     name: '''Pyrus'' Scout M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Scout M/1-Series':
@@ -1550,7 +1355,6 @@ types:
     name: '''Pyrus'' Scout M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Scout gk.0':
@@ -1558,7 +1362,6 @@ types:
     name: '''Pyrus'' Scout gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Scout mk.0':
@@ -1566,7 +1369,6 @@ types:
     name: '''Pyrus'' Scout mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Sentinel A-I':
@@ -1574,7 +1376,6 @@ types:
     name: '''Pyrus'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Sentinel A/1-Series':
@@ -1582,7 +1383,6 @@ types:
     name: '''Pyrus'' Sentinel A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   '''Pyrus'' Sentinel ak.0':
@@ -1590,7 +1390,6 @@ types:
     name: '''Pyrus'' Sentinel ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Assault A-I':
@@ -1598,7 +1397,6 @@ types:
     name: '''Quafe'' Assault A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Assault C-I':
@@ -1606,7 +1404,6 @@ types:
     name: '''Quafe'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Assault C/1-Series':
@@ -1614,7 +1411,6 @@ types:
     name: '''Quafe'' Assault C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 14280.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Assault G-I':
@@ -1622,7 +1418,6 @@ types:
     name: '''Quafe'' Assault G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Assault M-I':
@@ -1630,7 +1425,6 @@ types:
     name: '''Quafe'' Assault M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Assault ck.0':
@@ -1638,7 +1432,6 @@ types:
     name: '''Quafe'' Assault ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Commando A-I':
@@ -1646,7 +1439,6 @@ types:
     name: '''Quafe'' Commando A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Commando C-I':
@@ -1654,7 +1446,6 @@ types:
     name: '''Quafe'' Commando C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Commando G-I':
@@ -1662,7 +1453,6 @@ types:
     name: '''Quafe'' Commando G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Commando M-I':
@@ -1670,7 +1460,6 @@ types:
     name: '''Quafe'' Commando M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Logistics A-I':
@@ -1678,7 +1467,6 @@ types:
     name: '''Quafe'' Logistics A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Logistics C-I':
@@ -1686,7 +1474,6 @@ types:
     name: '''Quafe'' Logistics C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Logistics G-I':
@@ -1694,7 +1481,6 @@ types:
     name: '''Quafe'' Logistics G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Logistics M-I':
@@ -1702,7 +1488,6 @@ types:
     name: '''Quafe'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Scout A-I':
@@ -1710,7 +1495,6 @@ types:
     name: '''Quafe'' Scout A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Scout C-I':
@@ -1718,7 +1502,6 @@ types:
     name: '''Quafe'' Scout C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Scout G-I':
@@ -1726,7 +1509,6 @@ types:
     name: '''Quafe'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Scout M-I':
@@ -1734,7 +1516,6 @@ types:
     name: '''Quafe'' Scout M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Scout gk.0':
@@ -1742,7 +1523,6 @@ types:
     name: '''Quafe'' Scout gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Sentinel A-I':
@@ -1750,7 +1530,6 @@ types:
     name: '''Quafe'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Sentinel C-I':
@@ -1758,7 +1537,6 @@ types:
     name: '''Quafe'' Sentinel C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Sentinel G-I':
@@ -1766,7 +1544,6 @@ types:
     name: '''Quafe'' Sentinel G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Sentinel M-I':
@@ -1774,7 +1551,6 @@ types:
     name: '''Quafe'' Sentinel M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Raider'' Scout G-I':
@@ -1782,7 +1558,6 @@ types:
     name: '''Raider'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Ranseur'' Basic-L ak.0':
@@ -1790,7 +1565,6 @@ types:
     name: '''Ranseur'' Basic-L ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Rattati'' Assault G/1-Series':
@@ -1798,7 +1572,6 @@ types:
     name: '''Rattati'' Assault G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Raven'' Assault C-I':
@@ -1806,7 +1579,6 @@ types:
     name: '''Raven'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Raven'' Logistics M-I':
@@ -1814,7 +1586,6 @@ types:
     name: '''Raven'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Raven'' Scout G-I':
@@ -1822,7 +1593,6 @@ types:
     name: '''Raven'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Raven'' Sentinel A-I':
@@ -1830,7 +1600,6 @@ types:
     name: '''Raven'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Relic'' Assault C-I':
@@ -1838,7 +1607,6 @@ types:
     name: '''Relic'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Relic'' Assault C/1-Series':
@@ -1846,7 +1614,6 @@ types:
     name: '''Relic'' Assault C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Relic'' Assault ck.0':
@@ -1854,21 +1621,18 @@ types:
     name: '''Relic'' Assault ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Remnant IX'' Logistics mk.0':
     id: 365932
     name: '''Remnant IX'' Logistics mk.0'
     portionSize: 1
-    price: 57690.0
     published: false
   '''Republic Command'' Assault M/1-Series':
     id: 366338
     name: '''Republic Command'' Assault M/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Republic Command'' Assault mk.0':
@@ -1876,7 +1640,6 @@ types:
     name: '''Republic Command'' Assault mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Roden'' Commando G-I':
@@ -1884,7 +1647,6 @@ types:
     name: '''Roden'' Commando G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Roden'' Scout G-I':
@@ -1892,7 +1654,6 @@ types:
     name: '''Roden'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Sarak'' Assault A-I+':
@@ -1900,7 +1661,6 @@ types:
     name: '''Sarak'' Assault A-I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Sever'' Assault C-I':
@@ -1908,7 +1668,6 @@ types:
     name: '''Sever'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Sever'' Logistics M-I':
@@ -1916,7 +1675,6 @@ types:
     name: '''Sever'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Sever'' Scout G-I':
@@ -1924,7 +1682,6 @@ types:
     name: '''Sever'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Sever'' Sentinel A-I':
@@ -1932,7 +1689,6 @@ types:
     name: '''Sever'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Skadi'' Basic-L M-I':
@@ -1940,7 +1696,6 @@ types:
     name: '''Skadi'' Basic-L M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Skinweave'' Militia Amarr Heavy Frame':
@@ -1948,7 +1703,6 @@ types:
     name: '''Skinweave'' Militia Amarr Heavy Frame'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Skinweave'' Militia Caldari Medium Frame':
@@ -1956,7 +1710,6 @@ types:
     name: '''Skinweave'' Militia Caldari Medium Frame'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Skinweave'' Militia Gallente Light Frame':
@@ -1964,7 +1717,6 @@ types:
     name: '''Skinweave'' Militia Gallente Light Frame'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Skinweave'' Militia Minmatar Medium Frame':
@@ -1972,7 +1724,6 @@ types:
     name: '''Skinweave'' Militia Minmatar Medium Frame'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Sol'' Basic-L mk.0':
@@ -1980,7 +1731,6 @@ types:
     name: '''Sol'' Basic-L mk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Solstice'' Scout G-I':
@@ -1988,7 +1738,6 @@ types:
     name: '''Solstice'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Solstice'' Scout G/1-Series':
@@ -1996,7 +1745,6 @@ types:
     name: '''Solstice'' Scout G/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''Solstice'' Scout gk.0':
@@ -2004,7 +1752,6 @@ types:
     name: '''Solstice'' Scout gk.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   '''Stahl'' Assault C-I':
@@ -2012,7 +1759,6 @@ types:
     name: '''Stahl'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Stallo'' Assault ck.0+':
@@ -2020,7 +1766,6 @@ types:
     name: '''Stallo'' Assault ck.0+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Starkad'' Basic-M M/I+':
@@ -2028,7 +1773,6 @@ types:
     name: '''Starkad'' Basic-M M/I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''State Peacekeeper'' Assault C/1-Series':
@@ -2036,7 +1780,6 @@ types:
     name: '''State Peacekeeper'' Assault C/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   '''State Peacekeeper'' Assault ck.0':
@@ -2044,7 +1787,6 @@ types:
     name: '''State Peacekeeper'' Assault ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   '''Tarapitha'' Basic-M C/I':
@@ -2052,7 +1794,6 @@ types:
     name: '''Tarapitha'' Basic-M C/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Tash Murkon'' Logistics A-I':
@@ -2060,7 +1801,6 @@ types:
     name: '''Tash Murkon'' Logistics A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Tash Murkon'' Sentinel A-I':
@@ -2068,7 +1808,6 @@ types:
     name: '''Tash Murkon'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Templar'' Assault A-I':
@@ -2076,7 +1815,6 @@ types:
     name: '''Templar'' Assault A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Templar'' Logistics A-I':
@@ -2084,7 +1822,6 @@ types:
     name: '''Templar'' Logistics A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Templar'' Sentinel A-I':
@@ -2092,7 +1829,6 @@ types:
     name: '''Templar'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Thale'' Militia Gallente Light Frame':
@@ -2100,7 +1836,6 @@ types:
     name: '''Thale'' Militia Gallente Light Frame'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Thale'' Scout G-I':
@@ -2108,7 +1843,6 @@ types:
     name: '''Thale'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Theseus'' Assault gk.0+':
@@ -2116,7 +1850,6 @@ types:
     name: '''Theseus'' Assault gk.0+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Thrud'' Assault M-I':
@@ -2124,7 +1857,6 @@ types:
     name: '''Thrud'' Assault M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Tigris'' Sentinel A-I':
@@ -2132,7 +1864,6 @@ types:
     name: '''Tigris'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Toxotai'' Basic-M G-I':
@@ -2140,7 +1871,6 @@ types:
     name: '''Toxotai'' Basic-M G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Triari'' Basic-M ak.0':
@@ -2148,7 +1878,6 @@ types:
     name: '''Triari'' Basic-M ak.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Tuoni'' Assault ck.0':
@@ -2156,7 +1885,6 @@ types:
     name: '''Tuoni'' Assault ck.0'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 48000.0
     published: false
     volume: 0.009999999776482582
   '''Ukko'' Assault C-I+':
@@ -2164,7 +1892,6 @@ types:
     name: '''Ukko'' Assault C-I+'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000.0
     published: false
     volume: 0.009999999776482582
   '''Valor'' Assault C-I':
@@ -2172,7 +1899,6 @@ types:
     name: '''Valor'' Assault C-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Valor'' Logistics M-I':
@@ -2180,7 +1906,6 @@ types:
     name: '''Valor'' Logistics M-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   '''Valor'' Scout G-I':
@@ -2188,7 +1913,6 @@ types:
     name: '''Valor'' Scout G-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Valor'' Sentinel A-I':
@@ -2196,7 +1920,6 @@ types:
     name: '''Valor'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Vambrace'' Basic-H A/I':
@@ -2204,7 +1927,6 @@ types:
     name: '''Vambrace'' Basic-H A/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Venom'' Militia Amarr Heavy Frame':
@@ -2212,7 +1934,6 @@ types:
     name: '''Venom'' Militia Amarr Heavy Frame'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   '''Venom'' Sentinel A-I':
@@ -2220,21 +1941,18 @@ types:
     name: '''Venom'' Sentinel A-I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Vexillatio'' Basic-M A/I':
     id: 369471
     name: '''Vexillatio'' Basic-M A/I'
     portionSize: 1
-    price: 48000.0
     published: false
   '''Vidir'' Assault M/I':
     id: 369440
     name: '''Vidir'' Assault M/I'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 16000.0
     published: false
     volume: 0.009999999776482582
   '''Wolfman'' Assault A/1-Series':
@@ -2242,7 +1960,6 @@ types:
     name: '''Wolfman'' Assault A/1-Series'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Amarr Heavy Frame A-I:
@@ -2250,7 +1967,6 @@ types:
     name: Amarr Heavy Frame A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Amarr Heavy Frame A/1-Series:
@@ -2258,7 +1974,6 @@ types:
     name: Amarr Heavy Frame A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Amarr Heavy Frame ak.0:
@@ -2266,7 +1981,6 @@ types:
     name: Amarr Heavy Frame ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Amarr Light Frame A-I:
@@ -2274,7 +1988,6 @@ types:
     name: Amarr Light Frame A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Amarr Light Frame A/1-Series:
@@ -2282,7 +1995,6 @@ types:
     name: Amarr Light Frame A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Amarr Light Frame ak.0:
@@ -2290,7 +2002,6 @@ types:
     name: Amarr Light Frame ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Amarr Medium Frame A-I:
@@ -2298,7 +2009,6 @@ types:
     name: Amarr Medium Frame A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Amarr Medium Frame A/1-Series:
@@ -2306,7 +2016,6 @@ types:
     name: Amarr Medium Frame A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Amarr Medium Frame ak.0:
@@ -2314,7 +2023,6 @@ types:
     name: Amarr Medium Frame ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Arbiter:
@@ -2322,7 +2030,6 @@ types:
     name: Arbiter
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5240.0
     published: false
     volume: 0.009999999776482582
   Archduke's Modified Sentinel mk.0:
@@ -2330,7 +2037,6 @@ types:
     name: Archduke's Modified Sentinel mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Archduke's Modified Sentinel mk.0 (Master):
@@ -2345,7 +2051,6 @@ types:
     name: Armor AV - AM
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Armor AV - CA:
@@ -2353,7 +2058,6 @@ types:
     name: Armor AV - CA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4680.0
     published: false
     volume: 0.009999999776482582
   Armor AV - GA:
@@ -2361,7 +2065,6 @@ types:
     name: Armor AV - GA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Armor AV - MN:
@@ -2369,7 +2072,6 @@ types:
     name: Armor AV - MN
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Artificer:
@@ -2377,7 +2079,6 @@ types:
     name: Artificer
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5800.0
     published: false
     volume: 0.009999999776482582
   Assault A-I:
@@ -2385,7 +2086,6 @@ types:
     name: Assault A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Assault A/1-Series:
@@ -2393,7 +2093,6 @@ types:
     name: Assault A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Assault B-Series:
@@ -2401,7 +2100,6 @@ types:
     name: Assault B-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   Assault C-I:
@@ -2409,7 +2107,6 @@ types:
     name: Assault C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Assault C/1-Series:
@@ -2417,7 +2114,6 @@ types:
     name: Assault C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Assault G-I:
@@ -2425,7 +2121,6 @@ types:
     name: Assault G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Assault G/1-Series:
@@ -2433,7 +2128,6 @@ types:
     name: Assault G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Assault M-I:
@@ -2441,7 +2135,6 @@ types:
     name: Assault M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Assault M/1-Series:
@@ -2449,7 +2142,6 @@ types:
     name: Assault M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Assault Type-II:
@@ -2457,7 +2149,6 @@ types:
     name: Assault Type-II
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   Assault ak.0:
@@ -2465,7 +2156,6 @@ types:
     name: Assault ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Assault ck.0:
@@ -2473,7 +2163,6 @@ types:
     name: Assault ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Assault gk.0:
@@ -2481,7 +2170,6 @@ types:
     name: Assault gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Assault mk.0:
@@ -2489,7 +2177,6 @@ types:
     name: Assault mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Assault vk.1:
@@ -2497,7 +2184,6 @@ types:
     name: Assault vk.1
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Balac's Modified Assault ck.0:
@@ -2505,21 +2191,18 @@ types:
     name: Balac's Modified Assault ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Caldari Heavy Frame C-I:
     id: 364819
     name: Caldari Heavy Frame C-I
     portionSize: 1
-    price: 3000.0
     published: false
   Caldari Heavy Frame C/1-Series:
     id: 366690
     name: Caldari Heavy Frame C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Caldari Heavy Frame ck.0:
@@ -2527,7 +2210,6 @@ types:
     name: Caldari Heavy Frame ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Caldari Light Frame C-I:
@@ -2535,7 +2217,6 @@ types:
     name: Caldari Light Frame C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Caldari Light Frame C/1-Series:
@@ -2543,7 +2224,6 @@ types:
     name: Caldari Light Frame C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Caldari Light Frame ck.0:
@@ -2551,7 +2231,6 @@ types:
     name: Caldari Light Frame ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Caldari Medium Frame C-I:
@@ -2559,7 +2238,6 @@ types:
     name: Caldari Medium Frame C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Caldari Medium Frame C/1-Series:
@@ -2567,7 +2245,6 @@ types:
     name: Caldari Medium Frame C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Caldari Medium Frame ck.0:
@@ -2575,7 +2252,6 @@ types:
     name: Caldari Medium Frame ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Coming Soon:
@@ -2583,7 +2259,6 @@ types:
     name: Coming Soon
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Commando A-I:
@@ -2591,7 +2266,6 @@ types:
     name: Commando A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Commando A/1-Series:
@@ -2599,7 +2273,6 @@ types:
     name: Commando A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Commando C-I:
@@ -2607,7 +2280,6 @@ types:
     name: Commando C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Commando C/1-Series:
@@ -2615,7 +2287,6 @@ types:
     name: Commando C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Commando G-I:
@@ -2623,7 +2294,6 @@ types:
     name: Commando G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Commando G/1-Series:
@@ -2631,7 +2301,6 @@ types:
     name: Commando G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Commando M-I:
@@ -2639,7 +2308,6 @@ types:
     name: Commando M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Commando M/1-Series:
@@ -2647,7 +2315,6 @@ types:
     name: Commando M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Commando ak.0:
@@ -2655,7 +2322,6 @@ types:
     name: Commando ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Commando ck.0:
@@ -2663,7 +2329,6 @@ types:
     name: Commando ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Commando gk.0:
@@ -2671,7 +2336,6 @@ types:
     name: Commando gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Commando mk.0:
@@ -2679,7 +2343,6 @@ types:
     name: Commando mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Dire Sentinel:
@@ -2687,7 +2350,6 @@ types:
     name: Dire Sentinel
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 795.0
     published: false
     volume: 0.009999999776482582
   Dropsuit Enforcer:
@@ -2695,7 +2357,6 @@ types:
     name: Dropsuit Enforcer
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4680.0
     published: false
     volume: 0.009999999776482582
   Federal Defense Union Scout G-I:
@@ -2703,7 +2364,6 @@ types:
     name: Federal Defense Union Scout G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Federation Assault G-I:
@@ -2711,7 +2371,6 @@ types:
     name: Federation Assault G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Federation Assault G/1-Series:
@@ -2719,7 +2378,6 @@ types:
     name: Federation Assault G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Federation Assault gk.0:
@@ -2727,7 +2385,6 @@ types:
     name: Federation Assault gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   Federation Commando G-I:
@@ -2735,7 +2392,6 @@ types:
     name: Federation Commando G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Federation Commando G/1-Series:
@@ -2743,7 +2399,6 @@ types:
     name: Federation Commando G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Federation Commando gk.0:
@@ -2751,7 +2406,6 @@ types:
     name: Federation Commando gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Federation Logistics G-I:
@@ -2759,7 +2413,6 @@ types:
     name: Federation Logistics G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Federation Logistics G/1-Series:
@@ -2767,7 +2420,6 @@ types:
     name: Federation Logistics G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Federation Logistics gk.0:
@@ -2775,7 +2427,6 @@ types:
     name: Federation Logistics gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   Federation Scout G-I:
@@ -2783,7 +2434,6 @@ types:
     name: Federation Scout G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   Federation Scout G/1-Series:
@@ -2791,7 +2441,6 @@ types:
     name: Federation Scout G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Federation Scout gk.0:
@@ -2799,7 +2448,6 @@ types:
     name: Federation Scout gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   Federation Sentinel G-I:
@@ -2807,7 +2455,6 @@ types:
     name: Federation Sentinel G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Federation Sentinel G/1-Series:
@@ -2815,7 +2462,6 @@ types:
     name: Federation Sentinel G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Federation Sentinel gk.0:
@@ -2823,7 +2469,6 @@ types:
     name: Federation Sentinel gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Frame's Modified Assault ck.0:
@@ -2831,7 +2476,6 @@ types:
     name: Frame's Modified Assault ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Frame's Modified Assault ck.0 (Master):
@@ -2846,7 +2490,6 @@ types:
     name: Frontline - AM
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Frontline - CA:
@@ -2854,7 +2497,6 @@ types:
     name: Frontline - CA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Frontline - GA:
@@ -2862,7 +2504,6 @@ types:
     name: Frontline - GA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Frontline - MN:
@@ -2870,7 +2511,6 @@ types:
     name: Frontline - MN
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Gallente Heavy Frame G-I:
@@ -2878,7 +2518,6 @@ types:
     name: Gallente Heavy Frame G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Gallente Heavy Frame G/1-Series:
@@ -2886,7 +2525,6 @@ types:
     name: Gallente Heavy Frame G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Gallente Heavy Frame gk.0:
@@ -2894,7 +2532,6 @@ types:
     name: Gallente Heavy Frame gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Gallente Light Frame G-I:
@@ -2902,7 +2539,6 @@ types:
     name: Gallente Light Frame G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Gallente Light Frame G/1-Series:
@@ -2910,7 +2546,6 @@ types:
     name: Gallente Light Frame G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Gallente Light Frame gk.0:
@@ -2918,7 +2553,6 @@ types:
     name: Gallente Light Frame gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Gallente Medium Frame G-I:
@@ -2926,7 +2560,6 @@ types:
     name: Gallente Medium Frame G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Gallente Medium Frame G/1-Series:
@@ -2934,7 +2567,6 @@ types:
     name: Gallente Medium Frame G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Gallente Medium Frame gk.0:
@@ -2942,7 +2574,6 @@ types:
     name: Gallente Medium Frame gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Heavy B-Series:
@@ -2950,7 +2581,6 @@ types:
     name: Heavy B-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   Heavy Type-II:
@@ -2958,7 +2588,6 @@ types:
     name: Heavy Type-II
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   Heavy vk.1:
@@ -2966,7 +2595,6 @@ types:
     name: Heavy vk.1
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Imperial Assault A-I:
@@ -2974,7 +2602,6 @@ types:
     name: Imperial Assault A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Imperial Assault A/1-Series:
@@ -2982,7 +2609,6 @@ types:
     name: Imperial Assault A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Imperial Assault ak.0:
@@ -2990,7 +2616,6 @@ types:
     name: Imperial Assault ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   Imperial Commando A-I:
@@ -2998,7 +2623,6 @@ types:
     name: Imperial Commando A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Imperial Commando A/1-Series:
@@ -3006,7 +2630,6 @@ types:
     name: Imperial Commando A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   Imperial Commando ak.0:
@@ -3014,7 +2637,6 @@ types:
     name: Imperial Commando ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   Imperial Logistics A-I:
@@ -3022,7 +2644,6 @@ types:
     name: Imperial Logistics A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Imperial Logistics A/1-Series:
@@ -3030,7 +2651,6 @@ types:
     name: Imperial Logistics A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Imperial Logistics ak.0:
@@ -3038,7 +2658,6 @@ types:
     name: Imperial Logistics ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   Imperial Scout A-I:
@@ -3046,7 +2665,6 @@ types:
     name: Imperial Scout A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Imperial Scout A/1-Series:
@@ -3054,7 +2672,6 @@ types:
     name: Imperial Scout A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Imperial Scout ak.0:
@@ -3062,7 +2679,6 @@ types:
     name: Imperial Scout ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   Imperial Sentinel A-I:
@@ -3070,7 +2686,6 @@ types:
     name: Imperial Sentinel A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   Imperial Sentinel A/1-Series:
@@ -3078,7 +2693,6 @@ types:
     name: Imperial Sentinel A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   Imperial Sentinel ak.0:
@@ -3086,7 +2700,6 @@ types:
     name: Imperial Sentinel ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   Logibro's Modified Logistics mk.0:
@@ -3094,7 +2707,6 @@ types:
     name: Logibro's Modified Logistics mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Logibro's Modified Logistics mk.0 (Master):
@@ -3109,7 +2721,6 @@ types:
     name: Logistics A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Logistics A/1-Series:
@@ -3117,7 +2728,6 @@ types:
     name: Logistics A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Logistics B-Series:
@@ -3125,7 +2735,6 @@ types:
     name: Logistics B-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   Logistics C-I:
@@ -3133,7 +2742,6 @@ types:
     name: Logistics C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Logistics C/1-Series:
@@ -3141,7 +2749,6 @@ types:
     name: Logistics C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Logistics G-I:
@@ -3149,7 +2756,6 @@ types:
     name: Logistics G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Logistics G/1-Series:
@@ -3157,7 +2763,6 @@ types:
     name: Logistics G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Logistics M-I:
@@ -3165,7 +2770,6 @@ types:
     name: Logistics M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Logistics M/1-Series:
@@ -3173,7 +2777,6 @@ types:
     name: Logistics M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Logistics Type-II:
@@ -3181,7 +2784,6 @@ types:
     name: Logistics Type-II
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   Logistics ak.0:
@@ -3189,7 +2791,6 @@ types:
     name: Logistics ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Logistics ck.0:
@@ -3197,7 +2798,6 @@ types:
     name: Logistics ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Logistics gk.0:
@@ -3205,7 +2805,6 @@ types:
     name: Logistics gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Logistics mk.0:
@@ -3213,7 +2812,6 @@ types:
     name: Logistics mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Logistics vk.1:
@@ -3221,7 +2819,6 @@ types:
     name: Logistics vk.1
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Master Recruiter Assault C-II:
@@ -3229,7 +2826,6 @@ types:
     name: Master Recruiter Assault C-II
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   Medic - AM:
@@ -3237,7 +2833,6 @@ types:
     name: Medic - AM
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Medic - CA:
@@ -3245,7 +2840,6 @@ types:
     name: Medic - CA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4680.0
     published: false
     volume: 0.009999999776482582
   Medic - GA:
@@ -3253,7 +2847,6 @@ types:
     name: Medic - GA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Medic - MN:
@@ -3261,7 +2854,6 @@ types:
     name: Medic - MN
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Militia Amarr Heavy Frame:
@@ -3269,7 +2861,6 @@ types:
     name: Militia Amarr Heavy Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Militia Amarr Light Frame:
@@ -3277,7 +2868,6 @@ types:
     name: Militia Amarr Light Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Militia Amarr Medium Frame:
@@ -3285,7 +2875,6 @@ types:
     name: Militia Amarr Medium Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 585.0
     published: false
     volume: 0.009999999776482582
   Militia Caldari Heavy Frame:
@@ -3293,7 +2882,6 @@ types:
     name: Militia Caldari Heavy Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Militia Caldari Light Frame:
@@ -3301,7 +2889,6 @@ types:
     name: Militia Caldari Light Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Militia Caldari Medium Frame:
@@ -3309,7 +2896,6 @@ types:
     name: Militia Caldari Medium Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 585.0
     published: false
     volume: 0.009999999776482582
   Militia Gallente Heavy Frame:
@@ -3317,7 +2903,6 @@ types:
     name: Militia Gallente Heavy Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Militia Gallente Light Frame:
@@ -3325,7 +2910,6 @@ types:
     name: Militia Gallente Light Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Militia Gallente Medium Frame:
@@ -3333,7 +2917,6 @@ types:
     name: Militia Gallente Medium Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 585.0
     published: false
     volume: 0.009999999776482582
   Militia Minmatar Heavy Frame:
@@ -3341,7 +2924,6 @@ types:
     name: Militia Minmatar Heavy Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Militia Minmatar Light Frame:
@@ -3349,7 +2931,6 @@ types:
     name: Militia Minmatar Light Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 655.0
     published: false
     volume: 0.009999999776482582
   Militia Minmatar Medium Frame:
@@ -3357,7 +2938,6 @@ types:
     name: Militia Minmatar Medium Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Militia Pilot Dropsuit:
@@ -3365,7 +2945,6 @@ types:
     name: Militia Pilot Dropsuit
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6080.0
     published: false
     volume: 0.009999999776482582
   Minmatar Heavy Frame M-I:
@@ -3373,7 +2952,6 @@ types:
     name: Minmatar Heavy Frame M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Minmatar Heavy Frame M/1-Series:
@@ -3381,7 +2959,6 @@ types:
     name: Minmatar Heavy Frame M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Minmatar Heavy Frame mk.0:
@@ -3389,7 +2966,6 @@ types:
     name: Minmatar Heavy Frame mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Minmatar Light Frame M-I:
@@ -3397,7 +2973,6 @@ types:
     name: Minmatar Light Frame M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Minmatar Light Frame M/1-Series:
@@ -3405,7 +2980,6 @@ types:
     name: Minmatar Light Frame M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Minmatar Light Frame mk.0:
@@ -3413,7 +2987,6 @@ types:
     name: Minmatar Light Frame mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Minmatar Medium Frame M-I:
@@ -3421,7 +2994,6 @@ types:
     name: Minmatar Medium Frame M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Minmatar Medium Frame M/1-Series:
@@ -3429,7 +3001,6 @@ types:
     name: Minmatar Medium Frame M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Minmatar Medium Frame mk.0:
@@ -3437,7 +3008,6 @@ types:
     name: Minmatar Medium Frame mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 34614.0
     published: false
     volume: 0.009999999776482582
   Pilot G-I:
@@ -3445,7 +3015,6 @@ types:
     name: Pilot G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Pilot G/1-Series:
@@ -3453,7 +3022,6 @@ types:
     name: Pilot G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Pilot M-I:
@@ -3461,7 +3029,6 @@ types:
     name: Pilot M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Pilot M/1-Series:
@@ -3469,7 +3036,6 @@ types:
     name: Pilot M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Pilot gk.0:
@@ -3477,7 +3043,6 @@ types:
     name: Pilot gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Pilot mk.0:
@@ -3485,7 +3050,6 @@ types:
     name: Pilot mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   QA God Suit:
@@ -3493,7 +3057,6 @@ types:
     name: QA God Suit
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9400.0
     published: false
     volume: 0.009999999776482582
   Rattati's Modified Assault gk.0:
@@ -3501,7 +3064,6 @@ types:
     name: Rattati's Modified Assault gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Rattati's Modified Assault gk.0 (Master):
@@ -3516,7 +3078,6 @@ types:
     name: Recon - AM
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Recon - CA:
@@ -3524,7 +3085,6 @@ types:
     name: Recon - CA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Recon - GA:
@@ -3532,7 +3092,6 @@ types:
     name: Recon - GA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Recon - MN:
@@ -3540,7 +3099,6 @@ types:
     name: Recon - MN
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Recruit Militia Frame:
@@ -3548,7 +3106,6 @@ types:
     name: Recruit Militia Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Republic Assault M-I:
@@ -3556,7 +3113,6 @@ types:
     name: Republic Assault M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Republic Assault M/1-Series:
@@ -3564,7 +3120,6 @@ types:
     name: Republic Assault M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Republic Assault mk.0:
@@ -3572,7 +3127,6 @@ types:
     name: Republic Assault mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   Republic Commando M-I:
@@ -3580,7 +3134,6 @@ types:
     name: Republic Commando M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Republic Commando M/1-Series:
@@ -3588,7 +3141,6 @@ types:
     name: Republic Commando M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Republic Commando mk.0:
@@ -3596,7 +3148,6 @@ types:
     name: Republic Commando mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Republic Logistics M-I:
@@ -3604,7 +3155,6 @@ types:
     name: Republic Logistics M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   Republic Logistics M/1-Series:
@@ -3612,7 +3162,6 @@ types:
     name: Republic Logistics M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Republic Logistics mk.0:
@@ -3620,7 +3169,6 @@ types:
     name: Republic Logistics mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   Republic Scout M-I:
@@ -3628,7 +3176,6 @@ types:
     name: Republic Scout M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Republic Scout M/1-Series:
@@ -3636,7 +3183,6 @@ types:
     name: Republic Scout M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Republic Scout mk.0:
@@ -3644,7 +3190,6 @@ types:
     name: Republic Scout mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   Republic Sentinel M-I:
@@ -3652,7 +3197,6 @@ types:
     name: Republic Sentinel M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Republic Sentinel M/1-Series:
@@ -3660,7 +3204,6 @@ types:
     name: Republic Sentinel M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Republic Sentinel mk.0:
@@ -3668,7 +3211,6 @@ types:
     name: Republic Sentinel mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Scotsman's Modified Scout gk.0:
@@ -3676,7 +3218,6 @@ types:
     name: Scotsman's Modified Scout gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Scotsman's Modified Scout gk.0 (Master):
@@ -3691,7 +3232,6 @@ types:
     name: Scout A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Scout A/1-Series:
@@ -3699,7 +3239,6 @@ types:
     name: Scout A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Scout B-Series:
@@ -3707,7 +3246,6 @@ types:
     name: Scout B-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   Scout C-I:
@@ -3715,7 +3253,6 @@ types:
     name: Scout C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Scout C/1-Series:
@@ -3723,7 +3260,6 @@ types:
     name: Scout C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Scout G-I:
@@ -3731,7 +3267,6 @@ types:
     name: Scout G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Scout G/1-Series:
@@ -3739,7 +3274,6 @@ types:
     name: Scout G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Scout M-I:
@@ -3747,7 +3281,6 @@ types:
     name: Scout M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Scout M/1-Series:
@@ -3755,7 +3288,6 @@ types:
     name: Scout M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Scout Type-II:
@@ -3763,7 +3295,6 @@ types:
     name: Scout Type-II
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   Scout ak.0:
@@ -3771,7 +3302,6 @@ types:
     name: Scout ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Scout ck.0:
@@ -3779,7 +3309,6 @@ types:
     name: Scout ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Scout gk.0:
@@ -3787,7 +3316,6 @@ types:
     name: Scout gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Scout mk.0:
@@ -3795,7 +3323,6 @@ types:
     name: Scout mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Scout vk.1:
@@ -3803,7 +3330,6 @@ types:
     name: Scout vk.1
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Senior Recruiter Assault C-I:
@@ -3811,7 +3337,6 @@ types:
     name: Senior Recruiter Assault C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Sentinel A-I:
@@ -3819,7 +3344,6 @@ types:
     name: Sentinel A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Sentinel A/1-Series:
@@ -3827,7 +3351,6 @@ types:
     name: Sentinel A/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Sentinel C-I:
@@ -3835,27 +3358,23 @@ types:
     name: Sentinel C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Sentinel C/1-Series:
     id: 364037
     name: Sentinel C/1-Series
     portionSize: 1
-    price: 8040.0
     published: false
   Sentinel G-I:
     id: 364010
     name: Sentinel G-I
     portionSize: 1
-    price: 3000.0
     published: false
   Sentinel G/1-Series:
     id: 364038
     name: Sentinel G/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Sentinel M-I:
@@ -3863,7 +3382,6 @@ types:
     name: Sentinel M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Sentinel M/1-Series:
@@ -3871,7 +3389,6 @@ types:
     name: Sentinel M/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   Sentinel ak.0:
@@ -3879,21 +3396,18 @@ types:
     name: Sentinel ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Sentinel ck.0:
     id: 364040
     name: Sentinel ck.0
     portionSize: 1
-    price: 57690.0
     published: false
   Sentinel gk.0:
     id: 364041
     name: Sentinel gk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Sentinel mk.0:
@@ -3901,7 +3415,6 @@ types:
     name: Sentinel mk.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Shield AV - AM:
@@ -3909,7 +3422,6 @@ types:
     name: Shield AV - AM
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Shield AV - CA:
@@ -3917,7 +3429,6 @@ types:
     name: Shield AV - CA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Shield AV - GA:
@@ -3925,7 +3436,6 @@ types:
     name: Shield AV - GA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Shield AV - MN:
@@ -3947,7 +3457,6 @@ types:
     name: Sniper - AM
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Sniper - CA:
@@ -3955,7 +3464,6 @@ types:
     name: Sniper - CA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4680.0
     published: false
     volume: 0.009999999776482582
   Sniper - GA:
@@ -3963,7 +3471,6 @@ types:
     name: Sniper - GA
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Sniper - MN:
@@ -3971,7 +3478,6 @@ types:
     name: Sniper - MN
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6800.0
     published: false
     volume: 0.009999999776482582
   Staff Recruiter Militia Frame:
@@ -3979,7 +3485,6 @@ types:
     name: Staff Recruiter Militia Frame
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 610.0
     published: false
     volume: 0.009999999776482582
   Standard Assault A-I:
@@ -3987,7 +3492,6 @@ types:
     name: Standard Assault A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Assault C-I:
@@ -3995,7 +3499,6 @@ types:
     name: Standard Assault C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Assault G-I:
@@ -4003,7 +3506,6 @@ types:
     name: Standard Assault G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Assault M-I:
@@ -4011,7 +3513,6 @@ types:
     name: Standard Assault M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Commando A-I:
@@ -4019,7 +3520,6 @@ types:
     name: Standard Commando A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Commando C-I:
@@ -4027,7 +3527,6 @@ types:
     name: Standard Commando C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Commando G-I:
@@ -4035,7 +3534,6 @@ types:
     name: Standard Commando G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Commando M-I:
@@ -4043,7 +3541,6 @@ types:
     name: Standard Commando M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Logistics A-I:
@@ -4051,7 +3548,6 @@ types:
     name: Standard Logistics A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Logistics C-I:
@@ -4059,7 +3555,6 @@ types:
     name: Standard Logistics C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Logistics G-I:
@@ -4067,7 +3562,6 @@ types:
     name: Standard Logistics G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Logistics M-I:
@@ -4075,7 +3569,6 @@ types:
     name: Standard Logistics M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Scout A-I:
@@ -4083,7 +3576,6 @@ types:
     name: Standard Scout A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Scout C-I:
@@ -4091,7 +3583,6 @@ types:
     name: Standard Scout C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Scout G-I:
@@ -4099,7 +3590,6 @@ types:
     name: Standard Scout G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Scout M-I:
@@ -4107,7 +3597,6 @@ types:
     name: Standard Scout M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Sentinel A-I:
@@ -4115,7 +3604,6 @@ types:
     name: Standard Sentinel A-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Sentinel C-I:
@@ -4123,7 +3611,6 @@ types:
     name: Standard Sentinel C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Sentinel G-I:
@@ -4131,7 +3618,6 @@ types:
     name: Standard Sentinel G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Standard Sentinel M-I:
@@ -4139,7 +3625,6 @@ types:
     name: Standard Sentinel M-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   State Assault C-I:
@@ -4147,7 +3632,6 @@ types:
     name: State Assault C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   State Assault C/1-Series:
@@ -4155,7 +3639,6 @@ types:
     name: State Assault C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   State Assault ck.0:
@@ -4163,7 +3646,6 @@ types:
     name: State Assault ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   State Commando C-I:
@@ -4171,7 +3653,6 @@ types:
     name: State Commando C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   State Commando C/1-Series:
@@ -4179,7 +3660,6 @@ types:
     name: State Commando C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 13155.0
     published: false
     volume: 0.009999999776482582
   State Commando ck.0:
@@ -4187,7 +3667,6 @@ types:
     name: State Commando ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   State Logistics C-I:
@@ -4195,7 +3674,6 @@ types:
     name: State Logistics C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   State Logistics C/1-Series:
@@ -4203,7 +3681,6 @@ types:
     name: State Logistics C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   State Logistics ck.0:
@@ -4211,7 +3688,6 @@ types:
     name: State Logistics ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 21540.0
     published: false
     volume: 0.009999999776482582
   State Protectorate Assault C-I:
@@ -4219,7 +3695,6 @@ types:
     name: State Protectorate Assault C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   State Scout C-I:
@@ -4227,7 +3702,6 @@ types:
     name: State Scout C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4905.0
     published: false
     volume: 0.009999999776482582
   State Scout C/1-Series:
@@ -4235,7 +3709,6 @@ types:
     name: State Scout C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   State Scout ck.0:
@@ -4243,7 +3716,6 @@ types:
     name: State Scout ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 35250.0
     published: false
     volume: 0.009999999776482582
   State Sentinel C-I:
@@ -4251,7 +3723,6 @@ types:
     name: State Sentinel C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   State Sentinel C/1-Series:
@@ -4259,7 +3730,6 @@ types:
     name: State Sentinel C/1-Series
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8040.0
     published: false
     volume: 0.009999999776482582
   State Sentinel ck.0:
@@ -4267,7 +3737,6 @@ types:
     name: State Sentinel ck.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 57690.0
     published: false
     volume: 0.009999999776482582
   Storm Raider's Modified Commando ak.0:
@@ -4275,7 +3744,6 @@ types:
     name: Storm Raider's Modified Commando ak.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 94425.0
     published: false
     volume: 0.009999999776482582
   Storm Raider's Modified Commando ak.0 (Master):
@@ -4295,7 +3763,6 @@ types:
     name: '[DEV] Amarr Crusader Dropsuit'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1105.0
     published: false
     volume: 0.009999999776482582
   '[DEV] Offline Dropsuit':
@@ -4303,7 +3770,6 @@ types:
     name: '[DEV] Offline Dropsuit'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4680.0
     published: false
     volume: 0.009999999776482582
   '[TEST] Dropsuit missing CATMA data':
@@ -4316,6 +3782,5 @@ types:
     name: '[TEST] QA Dropsuit'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4680.0
     published: false
     volume: 0.009999999776482582

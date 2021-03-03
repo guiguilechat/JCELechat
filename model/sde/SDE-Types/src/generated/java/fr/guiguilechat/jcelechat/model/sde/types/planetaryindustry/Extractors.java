@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction;
+package fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry;
 
 import java.io.InputStreamReader;
 import java.util.Arrays;
@@ -24,11 +24,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.PinExtractionQuantity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PlanetRestriction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
-import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryInteraction;
+import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryIndustry;
 import org.yaml.snakeyaml.Yaml;
 
 public class Extractors
-    extends PlanetaryInteraction
+    extends PlanetaryIndustry
 {
     /**
      * CPU load of ship
@@ -144,12 +144,12 @@ public class Extractors
     public static class MetaGroup
         implements IMetaGroup<Extractors>
     {
-        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/Extractors.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/Extractors.yaml";
         private Map<String, Extractors> cache = (null);
 
         @Override
         public IMetaCategory<? super Extractors> category() {
-            return PlanetaryInteraction.METACAT;
+            return PlanetaryIndustry.METACAT;
         }
 
         @Override

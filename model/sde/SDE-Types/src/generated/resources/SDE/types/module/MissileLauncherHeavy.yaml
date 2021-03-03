@@ -16,7 +16,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 100
-    price: 14996.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -47,7 +46,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 100
-    price: 14996.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -80,7 +78,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 90
-    price: 30000.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -111,7 +108,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 100
-    price: 14996.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -144,7 +140,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 90
-    price: 14996.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -177,7 +172,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 100
-    price: 14996.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -210,7 +204,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 90
-    price: 14996.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -240,7 +233,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 100
-    price: 30000.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -272,7 +264,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 105
-    price: 167560.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -305,7 +296,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 100
-    price: 14996.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -338,7 +328,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 100
-    price: 14996.0
     published: true
     radius: 1.0
     reloadtime: 10000.0
@@ -369,7 +358,6 @@ types:
     packagedVolume: 10.0
     portionSize: 1
     power: 100
-    price: 14996.0
     published: true
     radius: 1.0
     reloadtime: 10000.0

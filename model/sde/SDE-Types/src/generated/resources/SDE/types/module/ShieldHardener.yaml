@@ -16,7 +16,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -43,7 +42,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -69,7 +67,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -97,7 +94,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -124,7 +120,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -150,7 +145,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -176,7 +170,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -202,7 +195,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -230,7 +222,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -256,7 +247,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -281,7 +271,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3413
@@ -305,7 +294,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3413
@@ -329,7 +317,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3413
@@ -352,7 +339,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 1800.0
     published: true
     radius: 1.0
     requiredskill1: 3413
@@ -378,7 +364,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -403,7 +388,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -428,7 +412,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -455,7 +438,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -480,7 +462,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -507,7 +488,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -533,7 +513,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -559,7 +538,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -587,7 +565,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -613,7 +590,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -640,7 +616,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -666,7 +641,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -692,7 +666,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -720,7 +693,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -746,7 +718,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -771,7 +742,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -796,7 +766,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 261376.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -821,7 +790,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -846,7 +814,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -871,7 +838,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -898,7 +864,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -923,7 +888,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -950,7 +914,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -976,7 +939,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1002,7 +964,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1030,7 +991,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1056,7 +1016,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1081,7 +1040,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1106,7 +1064,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 271744.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1132,7 +1089,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1158,7 +1114,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1184,7 +1139,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1209,7 +1163,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1236,7 +1189,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1262,7 +1214,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1288,7 +1239,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1313,7 +1263,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1340,7 +1289,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1366,7 +1314,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1392,7 +1339,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1417,7 +1363,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1444,7 +1389,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1470,7 +1414,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1496,7 +1439,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1521,7 +1463,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1550,7 +1491,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1579,7 +1519,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1608,7 +1547,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1635,7 +1573,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1661,7 +1598,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1687,7 +1623,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1715,7 +1650,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1741,7 +1675,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1766,7 +1699,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1791,7 +1723,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 269248.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1817,7 +1748,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1845,7 +1775,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 362408.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1872,7 +1801,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1898,7 +1826,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1924,7 +1851,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1949,7 +1875,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -1976,7 +1901,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2002,7 +1926,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2028,7 +1951,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2053,7 +1975,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2080,7 +2001,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2106,7 +2026,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2132,7 +2051,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2157,7 +2075,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2184,7 +2101,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2210,7 +2126,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2236,7 +2151,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2261,7 +2175,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2290,7 +2203,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2319,7 +2231,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2348,7 +2259,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2372,7 +2282,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 75000.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2397,7 +2306,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 273696.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2424,7 +2332,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2450,7 +2357,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2476,7 +2382,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2504,7 +2409,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2530,7 +2434,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2557,7 +2460,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2583,7 +2485,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2609,7 +2510,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 5808.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2637,7 +2537,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 63062.0
     published: true
     radius: 1.0
     requiredskill1: 3420
@@ -2663,7 +2562,6 @@ types:
     passiveexplosivedamageresonancemultiplier: 1
     portionSize: 1
     power: 1
-    price: 45412.0
     published: true
     radius: 1.0
     requiredskill1: 3420

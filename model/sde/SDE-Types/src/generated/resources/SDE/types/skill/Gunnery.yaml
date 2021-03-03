@@ -7,7 +7,6 @@ types:
     name: Capital Artillery Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -26,7 +25,6 @@ types:
     name: Capital Autocannon Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -45,7 +43,6 @@ types:
     name: Capital Beam Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -64,7 +61,6 @@ types:
     name: Capital Blaster Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -83,7 +79,6 @@ types:
     name: Capital Energy Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -102,7 +97,6 @@ types:
     name: Capital Hybrid Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -121,7 +115,6 @@ types:
     name: Capital Precursor Weapon
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -140,7 +133,6 @@ types:
     name: Capital Projectile Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -159,7 +151,6 @@ types:
     name: Capital Pulse Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -178,7 +169,6 @@ types:
     name: Capital Railgun Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -197,7 +187,6 @@ types:
     name: Controlled Bursts
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 100000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -214,7 +203,6 @@ types:
     name: Doomsday Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -234,7 +222,6 @@ types:
     name: Doomsday Rapid Firing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     primaryattribute: 168
     published: true
     radius: 1.0
@@ -251,7 +238,6 @@ types:
     name: Gunnery
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -267,7 +253,6 @@ types:
     name: Large Artillery Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -286,7 +271,6 @@ types:
     name: Large Autocannon Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -305,7 +289,6 @@ types:
     name: Large Beam Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -324,7 +307,6 @@ types:
     name: Large Blaster Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -343,7 +325,6 @@ types:
     name: Large Disintegrator Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -362,7 +343,6 @@ types:
     name: Large Energy Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -381,7 +361,6 @@ types:
     name: Large Hybrid Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -400,7 +379,6 @@ types:
     name: Large Precursor Weapon
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.8E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -419,7 +397,6 @@ types:
     name: Large Projectile Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -438,7 +415,6 @@ types:
     name: Large Pulse Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -457,7 +433,6 @@ types:
     name: Large Railgun Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -476,7 +451,6 @@ types:
     name: Large Vorton Projector
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -495,7 +469,6 @@ types:
     name: Large Vorton Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -514,7 +487,6 @@ types:
     name: Medium Artillery Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -533,7 +505,6 @@ types:
     name: Medium Autocannon Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -552,7 +523,6 @@ types:
     name: Medium Beam Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -571,7 +541,6 @@ types:
     name: Medium Blaster Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -590,7 +559,6 @@ types:
     name: Medium Disintegrator Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -609,7 +577,6 @@ types:
     name: Medium Energy Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 125000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -628,7 +595,6 @@ types:
     name: Medium Hybrid Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 125000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -647,7 +613,6 @@ types:
     name: Medium Precursor Weapon
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -666,7 +631,6 @@ types:
     name: Medium Projectile Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 125000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -685,7 +649,6 @@ types:
     name: Medium Pulse Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -704,7 +667,6 @@ types:
     name: Medium Railgun Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -723,7 +685,6 @@ types:
     name: Medium Vorton Projector
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.125E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -742,7 +703,6 @@ types:
     name: Medium Vorton Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -760,7 +720,6 @@ types:
     name: Motion Prediction
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 90000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -777,7 +736,6 @@ types:
     name: Rapid Firing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 60000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -794,7 +752,6 @@ types:
     name: Sharpshooter
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 100000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -812,7 +769,6 @@ types:
     name: Small Artillery Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -831,7 +787,6 @@ types:
     name: Small Autocannon Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -850,7 +805,6 @@ types:
     name: Small Beam Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -869,7 +823,6 @@ types:
     name: Small Blaster Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -888,7 +841,6 @@ types:
     name: Small Disintegrator Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -907,7 +859,6 @@ types:
     name: Small Energy Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -924,7 +875,6 @@ types:
     name: Small Hybrid Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -941,7 +891,6 @@ types:
     name: Small Precursor Weapon
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 320000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -958,7 +907,6 @@ types:
     name: Small Projectile Turret
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -975,7 +923,6 @@ types:
     name: Small Pulse Laser Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -994,7 +941,6 @@ types:
     name: Small Railgun Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1013,7 +959,6 @@ types:
     name: Small Vorton Projector
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.03E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1030,7 +975,6 @@ types:
     name: Small Vorton Specialization
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1049,7 +993,6 @@ types:
     name: Surgical Strike
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1500000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1066,7 +1009,6 @@ types:
     name: Tactical Weapon Reconfiguration
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1083,7 +1025,6 @@ types:
     name: Trajectory Analysis
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 250000.0
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1099,7 +1040,6 @@ types:
     name: Vorton Arc Extension
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.09E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1118,7 +1058,6 @@ types:
     name: Vorton Arc Guidance
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.1E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1135,7 +1074,6 @@ types:
     name: Vorton Power Amplification
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.5E7
     primaryattribute: 167
     published: true
     radius: 1.0
@@ -1151,7 +1089,6 @@ types:
     name: Vorton Projector Operation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.03E7
     primaryattribute: 167
     published: true
     radius: 1.0

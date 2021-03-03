@@ -18,7 +18,6 @@ types:
     packagedVolume: 6000.0
     portionSize: 1
     power: 100000
-    price: 5.0E7
     published: true
     radius: 506.0
     requiredskill1: 11584

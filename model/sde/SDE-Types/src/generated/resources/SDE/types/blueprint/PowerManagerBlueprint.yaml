@@ -76,7 +76,6 @@ types:
     name: Capacitor Flux Coil I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 41600.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -87,7 +86,6 @@ types:
     name: Capacitor Flux Coil II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -99,7 +97,6 @@ types:
     name: Capacitor Power Relay I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97440.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -110,7 +107,6 @@ types:
     name: Capacitor Power Relay II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -142,7 +138,6 @@ types:
     name: Power Diagnostic System I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 99200.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -153,7 +148,6 @@ types:
     name: Power Diagnostic System II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -165,7 +159,6 @@ types:
     name: Reactor Control Unit I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 99200.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -176,7 +169,6 @@ types:
     name: Reactor Control Unit II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -188,7 +180,6 @@ types:
     name: Shield Flux Coil I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 41600.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -199,7 +190,6 @@ types:
     name: Shield Flux Coil II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -211,7 +201,6 @@ types:
     name: Shield Power Relay I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97440.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -222,7 +211,6 @@ types:
     name: Shield Power Relay II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2

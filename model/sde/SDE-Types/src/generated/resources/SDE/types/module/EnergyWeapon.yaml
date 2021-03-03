@@ -346,7 +346,7 @@ types:
     capacity: 1.0
     chargegroup1: 86
     chargesize: 4
-    cpu: 100.0
+    cpu: 90.0
     damagemultiplier: 6.693749904632568
     falloff: 42000.0
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -361,7 +361,7 @@ types:
     overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
-    power: 162500
+    power: 152500
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -1103,7 +1103,7 @@ types:
     capacity: 1.0
     chargegroup1: 86
     chargesize: 4
-    cpu: 100.0
+    cpu: 90.0
     damagemultiplier: 6.693749904632568
     falloff: 42000.0
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -1118,7 +1118,7 @@ types:
     overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
-    power: 162500
+    power: 152500
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -1292,7 +1292,7 @@ types:
     chargegroup1: 86
     chargegroup2: 374
     chargesize: 4
-    cpu: 90.0
+    cpu: 80.0
     damagemultiplier: 7.331250190734863
     falloff: 42000.0
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -1308,7 +1308,7 @@ types:
     overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
-    power: 178750
+    power: 168750
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -1482,7 +1482,7 @@ types:
     chargegroup1: 86
     chargegroup2: 374
     chargesize: 4
-    cpu: 90.0
+    cpu: 80.0
     damagemultiplier: 7.331250190734863
     falloff: 42000.0
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -1498,7 +1498,7 @@ types:
     overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
-    power: 178750
+    power: 168750
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -2498,7 +2498,7 @@ types:
     capacity: 1.0
     chargegroup1: 86
     chargesize: 4
-    cpu: 100.0
+    cpu: 90.0
     damagemultiplier: 6.375
     falloff: 42000.0
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -2512,7 +2512,7 @@ types:
     overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
-    power: 162500
+    power: 152500
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -2534,7 +2534,7 @@ types:
     chargegroup1: 86
     chargegroup2: 374
     chargesize: 4
-    cpu: 110.0
+    cpu: 100.0
     damagemultiplier: 7.012499809265137
     falloff: 42000.0
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -2549,7 +2549,7 @@ types:
     overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
-    power: 178750
+    power: 168750
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -5424,7 +5424,7 @@ types:
     capacity: 1.0
     chargegroup1: 86
     chargesize: 4
-    cpu: 100.0
+    cpu: 90.0
     damagemultiplier: 6.693749904632568
     falloff: 42000.0
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -5439,7 +5439,7 @@ types:
     overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
-    power: 162500
+    power: 152500
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -5535,7 +5535,7 @@ types:
     capacity: 1.0
     chargegroup1: 86
     chargesize: 4
-    cpu: 90.0
+    cpu: 80.0
     damagemultiplier: 6.693749904632568
     falloff: 42000.0
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -5550,7 +5550,7 @@ types:
     overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
-    power: 146250
+    power: 136250
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -7025,7 +7025,7 @@ types:
     chargegroup1: 86
     chargegroup2: 374
     chargesize: 4
-    cpu: 90.0
+    cpu: 80.0
     damagemultiplier: 7.331250190734863
     falloff: 42000.0
     heatabsorbtionratemodifier: 0.009999999776482582
@@ -7041,7 +7041,7 @@ types:
     overloadrofbonus: -15
     packagedVolume: 1000.0
     portionSize: 1
-    power: 178750
+    power: 168750
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582

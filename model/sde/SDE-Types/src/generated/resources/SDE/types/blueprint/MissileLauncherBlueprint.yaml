@@ -66,7 +66,6 @@ types:
     name: Arbalest Compact Rapid Torpedo Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9740000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -78,7 +77,6 @@ types:
     name: Arbalest Compact XL Cruise Missile Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.087E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -90,7 +88,6 @@ types:
     name: Arbalest Compact XL Torpedo Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0874E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -102,7 +99,6 @@ types:
     name: Bomb Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -113,7 +109,6 @@ types:
     name: Bomb Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -125,7 +120,6 @@ types:
     name: CONCORD XL Cruise Missile Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -137,7 +131,6 @@ types:
     name: CONCORD XL Torpedo Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -158,7 +151,6 @@ types:
     name: Caldari Navy Heavy Assault Missile Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -190,7 +182,6 @@ types:
     name: Cruise Missile Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 749970.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -201,7 +192,6 @@ types:
     name: Cruise Missile Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -212,7 +202,6 @@ types:
     name: Defender Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -223,7 +212,6 @@ types:
     name: Dread Guristas Rapid Torpedo Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -235,7 +223,6 @@ types:
     name: Dread Guristas XL Cruise Missile Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -247,7 +234,6 @@ types:
     name: Dread Guristas XL Torpedo Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -259,7 +245,6 @@ types:
     name: Heavy Assault Missile Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -270,7 +255,6 @@ types:
     name: Heavy Assault Missile Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -282,7 +266,6 @@ types:
     name: Heavy Missile Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -293,7 +276,6 @@ types:
     name: Heavy Missile Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -305,7 +287,6 @@ types:
     name: Interdiction Sphere Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.732868E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -316,7 +297,6 @@ types:
     name: Khanid Navy Heavy Assault Missile Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -338,7 +318,6 @@ types:
     name: Light Missile Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 60000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -349,7 +328,6 @@ types:
     name: Light Missile Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -378,7 +356,6 @@ types:
     name: Polarized Rocket Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 50.0
     techlevel: 2
@@ -388,7 +365,6 @@ types:
     name: Polarized Torpedo Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 50.0
     techlevel: 2
@@ -400,7 +376,6 @@ types:
     name: Rapid Heavy Missile Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 749970.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -422,7 +397,6 @@ types:
     name: Rapid Light Missile Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 90000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -433,7 +407,6 @@ types:
     name: Rapid Light Missile Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -445,7 +418,6 @@ types:
     name: Rapid Torpedo Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.837E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -456,7 +428,6 @@ types:
     name: Rapid Torpedo Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -477,7 +448,6 @@ types:
     name: Republic Fleet Heavy Assault Missile Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -509,7 +479,6 @@ types:
     name: Rocket Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -520,7 +489,6 @@ types:
     name: Rocket Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -532,7 +500,6 @@ types:
     name: TE-2100 Ample Rapid Torpedo Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9740000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -544,7 +511,6 @@ types:
     name: TE-2100 Ample XL Cruise Missile Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.087E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -556,7 +522,6 @@ types:
     name: TE-2100 Ample XL Torpedo Launcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0874E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -568,7 +533,6 @@ types:
     name: Torpedo Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 999960.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -579,7 +543,6 @@ types:
     name: Torpedo Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -591,7 +554,6 @@ types:
     name: XL Cruise Missile Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -602,7 +564,6 @@ types:
     name: XL Cruise Missile Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -614,7 +575,6 @@ types:
     name: XL Torpedo Launcher I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -625,7 +585,6 @@ types:
     name: XL Torpedo Launcher II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.4371388E7
     published: true
     radius: 1.0
     techlevel: 2

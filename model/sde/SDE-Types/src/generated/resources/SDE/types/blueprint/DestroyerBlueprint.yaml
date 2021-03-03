@@ -7,7 +7,6 @@ types:
     name: Algos Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8242751.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -20,7 +19,6 @@ types:
     name: Catalyst Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7887800.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -33,7 +31,6 @@ types:
     name: Coercer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8635240.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -46,7 +43,6 @@ types:
     name: Corax Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8795138.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -59,7 +55,6 @@ types:
     name: Cormorant Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8416400.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -72,7 +67,6 @@ types:
     name: Dragoon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9023825.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -85,7 +79,6 @@ types:
     name: Eris Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -98,7 +91,6 @@ types:
     name: Flycatcher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -111,7 +103,6 @@ types:
     name: Heretic Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -133,7 +124,6 @@ types:
     name: Sabre Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9999998976E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -155,7 +145,6 @@ types:
     name: Talwar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7837500.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -168,7 +157,6 @@ types:
     name: Thrasher Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7500000.0
     published: true
     radius: 1.0
     techlevel: 1

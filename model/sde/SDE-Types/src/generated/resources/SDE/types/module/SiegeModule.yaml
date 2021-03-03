@@ -17,7 +17,7 @@ types:
     published: true
     radius: 1.0
     requiredskill1: 22043
-    requiredskill1level: 1
+    requiredskill1level: 5
     shieldemdamageresonance: 1.0
     shieldexplosivedamageresonance: 1.0
     shieldkineticdamageresonance: 1.0
@@ -40,7 +40,7 @@ types:
     disallowearlydeactivation: 1
     disallowoffensivemodifiers: 1
     disallowtethering: 1
-    duration: 60000.0
+    duration: 30000.0
     ecmresistance: 9.999999747378752E-6
     falloffbonus: 25.0
     hp: 999999.0
@@ -59,7 +59,6 @@ types:
     packagedVolume: 200.0
     portionSize: 1
     power: 100
-    price: 5000000.0
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -95
@@ -78,7 +77,9 @@ types:
     shieldexplosivedamageresonance: 0.699999988079071
     shieldkineticdamageresonance: 0.699999988079071
     shieldthermaldamageresonance: 0.699999988079071
+    siegemissiledamagebonus: -50
     siegemodewarpstatus: 100
+    siegeturretdamagebonus: -50
     speedfactor: -100.0
     targetpainterresistancebonus: -95
     techlevel: 1
@@ -123,7 +124,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 50000
-    price: 3.7609576E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -182,7 +182,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 55000
-    price: 3.7609576E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -229,7 +228,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 4.7022756E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -284,7 +282,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 105000
-    price: 4.7022756E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -341,7 +338,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 100000
-    price: 4.7022756E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80
@@ -396,7 +392,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 105000
-    price: 4.7022756E7
     published: true
     radius: 1.0
     remoteassistanceimpedancebonus: -80

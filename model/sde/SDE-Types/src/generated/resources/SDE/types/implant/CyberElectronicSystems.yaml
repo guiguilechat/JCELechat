@@ -6,7 +6,6 @@ types:
     name: Inquest 'Eros' Stasis Webifier MR-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -21,7 +20,6 @@ types:
     name: Inquest 'Eros' Stasis Webifier MR-805
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -36,7 +34,6 @@ types:
     name: Inquest 'Eros' Stasis Webifier MR-807
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -51,7 +48,6 @@ types:
     name: Inquest 'Hedone' Entanglement Optimizer WS-802
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -67,7 +63,6 @@ types:
     name: Inquest 'Hedone' Entanglement Optimizer WS-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -83,7 +78,6 @@ types:
     name: Inquest 'Hedone' Entanglement Optimizer WS-804
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -100,7 +94,6 @@ types:
     name: Zainou 'Gypsy' Electronic Warfare EW-901
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -115,7 +108,6 @@ types:
     name: Zainou 'Gypsy' Electronic Warfare EW-902
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -130,7 +122,6 @@ types:
     name: Zainou 'Gypsy' Electronic Warfare EW-903
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -145,7 +136,6 @@ types:
     name: Zainou 'Gypsy' Electronic Warfare EW-904
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -160,7 +150,6 @@ types:
     name: Zainou 'Gypsy' Electronic Warfare EW-905
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -175,7 +164,6 @@ types:
     name: Zainou 'Gypsy' Electronic Warfare EW-906
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -190,7 +178,6 @@ types:
     name: Zainou 'Gypsy' Propulsion Jamming PJ-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -205,7 +192,6 @@ types:
     name: Zainou 'Gypsy' Propulsion Jamming PJ-802
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -220,7 +206,6 @@ types:
     name: Zainou 'Gypsy' Propulsion Jamming PJ-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -235,7 +220,6 @@ types:
     name: Zainou 'Gypsy' Propulsion Jamming PJ-804
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -250,7 +234,6 @@ types:
     name: Zainou 'Gypsy' Propulsion Jamming PJ-805
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -265,7 +248,6 @@ types:
     name: Zainou 'Gypsy' Propulsion Jamming PJ-806
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -280,7 +262,6 @@ types:
     name: Zainou 'Gypsy' Sensor Linking SL-901
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -295,7 +276,6 @@ types:
     name: Zainou 'Gypsy' Sensor Linking SL-902
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -310,7 +290,6 @@ types:
     name: Zainou 'Gypsy' Sensor Linking SL-903
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -325,7 +304,6 @@ types:
     name: Zainou 'Gypsy' Sensor Linking SL-904
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -340,7 +318,6 @@ types:
     name: Zainou 'Gypsy' Sensor Linking SL-905
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -355,7 +332,6 @@ types:
     name: Zainou 'Gypsy' Sensor Linking SL-906
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -370,7 +346,6 @@ types:
     name: Zainou 'Gypsy' Target Painting TG-901
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -385,7 +360,6 @@ types:
     name: Zainou 'Gypsy' Target Painting TG-902
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -400,7 +374,6 @@ types:
     name: Zainou 'Gypsy' Target Painting TG-903
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -415,7 +388,6 @@ types:
     name: Zainou 'Gypsy' Target Painting TG-904
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -430,7 +402,6 @@ types:
     name: Zainou 'Gypsy' Target Painting TG-905
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -445,7 +416,6 @@ types:
     name: Zainou 'Gypsy' Target Painting TG-906
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -460,7 +430,6 @@ types:
     name: Zainou 'Gypsy' Weapon Disruption WD-901
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -475,7 +444,6 @@ types:
     name: Zainou 'Gypsy' Weapon Disruption WD-902
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -490,7 +458,6 @@ types:
     name: Zainou 'Gypsy' Weapon Disruption WD-903
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -505,7 +472,6 @@ types:
     name: Zainou 'Gypsy' Weapon Disruption WD-904
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -520,7 +486,6 @@ types:
     name: Zainou 'Gypsy' Weapon Disruption WD-905
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -535,7 +500,6 @@ types:
     name: Zainou 'Gypsy' Weapon Disruption WD-906
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

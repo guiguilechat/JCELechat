@@ -43,7 +43,6 @@ types:
     name: Abyssal Magnetic Field Stabilizer
     packagedVolume: 1.0
     portionSize: 1
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 3318

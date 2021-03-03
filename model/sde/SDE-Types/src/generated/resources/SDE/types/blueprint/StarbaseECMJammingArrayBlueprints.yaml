@@ -78,7 +78,6 @@ types:
     name: Ion Field Projection Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -89,7 +88,6 @@ types:
     name: Phase Inversion Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -100,7 +98,6 @@ types:
     name: Spatial Destabilization Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -111,7 +108,6 @@ types:
     name: White Noise Generation Battery Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582

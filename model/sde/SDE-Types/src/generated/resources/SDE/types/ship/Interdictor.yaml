@@ -12,7 +12,7 @@ types:
     capacity: 400.0
     cpuoutput: 250
     destroyerrofpenality: 1.25
-    elitebonusinterdictors1: -15
+    elitebonusinterdictors1: -20
     elitebonusinterdictors2: -10
     emdamageresonance: 0.6700000166893005
     explosivedamageresonance: 0.6700000166893005
@@ -73,7 +73,7 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.6000000238418579
     shielduniformity: 0.75
-    shipbonusgd1: -5
+    shipbonusgd1: -7.5
     shipbonusgd2: 10
     signatureradius: 78.0
     structureuniformity: 1.0
@@ -100,7 +100,7 @@ types:
     capacity: 450.0
     cpuoutput: 290
     destroyerrofpenality: 1.25
-    elitebonusinterdictors1: 10
+    elitebonusinterdictors1: 15
     elitebonusinterdictors2: -10
     emdamageresonance: 0.6700000166893005
     explosivedamageresonance: 0.6700000166893005
@@ -250,7 +250,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusad1: -5
-    shipbonusad2: 10
+    shipbonusad2: 15
     signatureradius: 75.0
     structureuniformity: 1.0
     techlevel: 2

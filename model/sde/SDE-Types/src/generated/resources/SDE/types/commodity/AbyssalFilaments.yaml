@@ -6,7 +6,6 @@ types:
     name: Agitated Dark Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -18,7 +17,6 @@ types:
     name: Agitated Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -30,7 +28,6 @@ types:
     name: Agitated Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -42,7 +39,6 @@ types:
     name: Agitated Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -54,7 +50,6 @@ types:
     name: Agitated Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -66,7 +61,6 @@ types:
     name: Calm Dark Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -78,7 +72,6 @@ types:
     name: Calm Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -90,7 +83,6 @@ types:
     name: Calm Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -102,7 +94,6 @@ types:
     name: Calm Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -114,7 +105,6 @@ types:
     name: Calm Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -126,7 +116,6 @@ types:
     name: Cataclysmic Dark Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -138,7 +127,6 @@ types:
     name: Cataclysmic Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -150,7 +138,6 @@ types:
     name: Cataclysmic Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -162,7 +149,6 @@ types:
     name: Cataclysmic Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -174,7 +160,6 @@ types:
     name: Cataclysmic Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -186,7 +171,6 @@ types:
     name: Chaotic Dark Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -198,7 +182,6 @@ types:
     name: Chaotic Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -210,7 +193,6 @@ types:
     name: Chaotic Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -222,7 +204,6 @@ types:
     name: Chaotic Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -234,7 +215,6 @@ types:
     name: Chaotic Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -246,7 +226,6 @@ types:
     name: Fierce Dark Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -258,7 +237,6 @@ types:
     name: Fierce Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -270,7 +248,6 @@ types:
     name: Fierce Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -282,7 +259,6 @@ types:
     name: Fierce Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -294,7 +270,6 @@ types:
     name: Fierce Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -306,7 +281,6 @@ types:
     name: Raging Dark Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -318,7 +292,6 @@ types:
     name: Raging Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -330,7 +303,6 @@ types:
     name: Raging Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -342,7 +314,6 @@ types:
     name: Raging Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -354,7 +325,6 @@ types:
     name: Raging Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -366,7 +336,6 @@ types:
     name: Tranquil Dark Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -378,7 +347,6 @@ types:
     name: Tranquil Electrical Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -390,7 +358,6 @@ types:
     name: Tranquil Exotic Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -402,7 +369,6 @@ types:
     name: Tranquil Firestorm Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -414,7 +380,6 @@ types:
     name: Tranquil Gamma Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 10000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612

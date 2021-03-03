@@ -35,7 +35,6 @@ types:
     name: CONCORD Capital Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.4200788E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -45,7 +44,6 @@ types:
     name: Capital Ancillary Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.68E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -55,7 +53,6 @@ types:
     name: Capital Coaxial Compact Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -65,7 +62,6 @@ types:
     name: Capital I-ax Enduring Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -76,7 +72,6 @@ types:
     name: Capital Remote Armor Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.4200788E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -95,7 +90,6 @@ types:
     name: Capital Solace Scoped Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.9E7
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -112,7 +106,6 @@ types:
     name: Large Ancillary Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 800000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -123,7 +116,6 @@ types:
     name: Large Remote Armor Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 312440.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -143,7 +135,6 @@ types:
     name: Medium Ancillary Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -154,7 +145,6 @@ types:
     name: Medium Remote Armor Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 124700.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -182,7 +172,6 @@ types:
     name: Small Ancillary Remote Armor Repairer Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 75000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -193,7 +182,6 @@ types:
     name: Small Remote Armor Repairer I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 49960.0
     published: true
     radius: 1.0
     techlevel: 1

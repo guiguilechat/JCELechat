@@ -137,7 +137,6 @@ types:
     name: Ancient Nefantar Sculpture
     packagedVolume: 5.0
     portionSize: 1
-    price: 2000.0
     published: true
     volume: 5.0
   Ancient Treasure Map:
@@ -299,7 +298,6 @@ types:
     name: Basic Robotics
     packagedVolume: 2.0
     portionSize: 1
-    price: 6500.0
     published: true
     volume: 2.0
   Binary Transpositional Code:
@@ -321,7 +319,6 @@ types:
     name: Black Mask
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Blood Fund:
@@ -421,7 +418,6 @@ types:
     name: Burned Transneural Scanner
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.009999999776482582
   Cache of Pistols:
@@ -485,7 +481,6 @@ types:
     name: Ceremonial Brush
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 150.0
     published: true
     volume: 0.10000000149011612
   Chanounian Wine:
@@ -521,7 +516,6 @@ types:
     name: Clay Pigeon
     packagedVolume: 1.0
     portionSize: 1
-    price: 2000.0
     published: true
     volume: 1.0
   Cognitive Hive Mind:
@@ -560,7 +554,6 @@ types:
     name: Compressed Capsule Shell
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 150000.0
     published: true
     radius: 1.0
     volume: 0.10000000149011612
@@ -570,7 +563,6 @@ types:
     name: Construction Tools
     packagedVolume: 10.0
     portionSize: 1
-    price: 58624.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -615,7 +607,6 @@ types:
     name: Crude Sculpture
     packagedVolume: 5.0
     portionSize: 1
-    price: 320000.0
     published: true
     volume: 5.0
   Cultural Semiosis Data:
@@ -688,7 +679,6 @@ types:
     name: Device
     packagedVolume: 1.0
     portionSize: 1
-    price: 58624.0
     published: true
     volume: 1.0
   Divine Opium:
@@ -992,7 +982,6 @@ types:
     name: Firecrackers
     packagedVolume: 1.0
     portionSize: 1
-    price: 750.0
     published: true
     volume: 1.0
   Firewater:
@@ -1133,7 +1122,6 @@ types:
     name: Guristas Communications Logs
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Guristas Data Sequence:
@@ -1149,7 +1137,6 @@ types:
     name: Guristas Outlaw Dogtag
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Guristas Outlaw Leader Insignia:
@@ -1157,7 +1144,6 @@ types:
     name: Guristas Outlaw Leader Insignia
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Guristas Patrol Routes:
@@ -1165,7 +1151,6 @@ types:
     name: Guristas Patrol Routes
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Hacker's Keycard:
@@ -1216,7 +1201,6 @@ types:
     name: Holy Statue
     packagedVolume: 5.0
     portionSize: 1
-    price: 2000.0
     published: true
     volume: 5.0
   Homemade Sansha Beacon:
@@ -1245,7 +1229,6 @@ types:
     name: Hraldar's Sculpture
     packagedVolume: 5.0
     portionSize: 1
-    price: 2000.0
     published: true
     volume: 5.0
   Hybrid Weapon Assembly Instructions:
@@ -1459,7 +1442,6 @@ types:
     name: Kuashi
     packagedVolume: 0.5
     portionSize: 1
-    price: 150.0
     published: true
     volume: 0.5
   Kusan Niemenen's Missile Launcher:
@@ -1488,7 +1470,6 @@ types:
     name: Lagaster Malotoff's Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Latent Submission Tapes:
@@ -1503,7 +1484,6 @@ types:
     name: Letter of Recommendation
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 150.0
     published: true
     volume: 0.10000000149011612
   Liberation Elixir:
@@ -1546,7 +1526,6 @@ types:
     name: Lord Methros' Encrypted Data Burst
     packagedVolume: 50.0
     portionSize: 1
-    price: 12800.0
     published: true
     volume: 50.0
   Machul's Head:
@@ -1596,7 +1575,6 @@ types:
     name: Medicinal Herbs
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 325.0
     published: true
     volume: 0.20000000298023224
   Melted Scraps of Capsule Plating:
@@ -1613,7 +1591,6 @@ types:
     name: Metal Scraps
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 20.0
     published: true
     volume: 0.009999999776482582
   Methros Enhanced Decoding Device:
@@ -1734,7 +1711,6 @@ types:
     name: NOH Signal Operators
     packagedVolume: 1.0
     portionSize: 1
-    price: 58624.0
     published: true
     volume: 1.0
   Namian's Artifacts:
@@ -1798,7 +1774,6 @@ types:
     name: Nugoeihuvi Dogtag
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Nugoeihuvi Rifles:
@@ -2133,7 +2108,6 @@ types:
     name: Reinforced Metal Scraps
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 20.0
     published: true
     volume: 0.009999999776482582
   Rekker's Keycard:
@@ -2457,7 +2431,6 @@ types:
     name: Smuggler Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3328.0
     published: true
     volume: 0.10000000149011612
   Spatiotemporal Boundary Detector:
@@ -2586,7 +2559,6 @@ types:
     name: Tactical Information I
     packagedVolume: 10.0
     portionSize: 1
-    price: 150.0
     published: true
     volume: 10.0
   Tactical Information II:
@@ -2594,7 +2566,6 @@ types:
     name: Tactical Information II
     packagedVolume: 20.0
     portionSize: 1
-    price: 150.0
     published: true
     volume: 20.0
   Tactical Information III:
@@ -2602,7 +2573,6 @@ types:
     name: Tactical Information III
     packagedVolume: 40.0
     portionSize: 1
-    price: 150.0
     published: true
     volume: 40.0
   Tactical Information IV:
@@ -2610,7 +2580,6 @@ types:
     name: Tactical Information IV
     packagedVolume: 80.0
     portionSize: 1
-    price: 150.0
     published: true
     volume: 80.0
   Tactical Response Transmitter:
@@ -2679,7 +2648,6 @@ types:
     name: Thukker Loot
     packagedVolume: 10.0
     portionSize: 1
-    price: 58624.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -2745,7 +2713,6 @@ types:
     name: Used Ectoplasmic Fluid
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1.0
     published: true
     volume: 0.10000000149011612
   Utrainen's Employment Voucher:
@@ -2881,7 +2848,6 @@ types:
     name: Zydrine Burn
     packagedVolume: 1.0
     portionSize: 1
-    price: 1500.0
     published: true
     volume: 1.0
   Zydrine Wine:
@@ -2889,6 +2855,5 @@ types:
     name: Zydrine Wine
     packagedVolume: 1.0
     portionSize: 1
-    price: 1500.0
     published: true
     volume: 1.0

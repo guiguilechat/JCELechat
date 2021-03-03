@@ -6,7 +6,6 @@ types:
     name: Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -22,7 +21,6 @@ types:
     name: Criminal Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -38,7 +36,6 @@ types:
     name: Diplomacy
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -53,7 +50,6 @@ types:
     name: Distribution Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -71,7 +67,6 @@ types:
     name: Fast Talk
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 100000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -86,7 +81,6 @@ types:
     name: Mining Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -104,7 +98,6 @@ types:
     negotiationbonus: 5
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 60000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -119,7 +112,6 @@ types:
     name: Security Connections
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -136,7 +128,6 @@ types:
     name: Social
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     primaryattribute: 164
     published: true
     radius: 1.0

@@ -5,7 +5,6 @@ types:
     name: Confessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
     published: true
     radius: 1.0
     techlevel: 3
@@ -16,7 +15,6 @@ types:
     name: Hecate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
     published: true
     radius: 1.0
     techlevel: 3
@@ -27,7 +25,6 @@ types:
     name: Jackdaw Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
     published: true
     radius: 1.0
     techlevel: 3
@@ -38,7 +35,6 @@ types:
     name: Svipul Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
     published: true
     radius: 1.0
     techlevel: 3

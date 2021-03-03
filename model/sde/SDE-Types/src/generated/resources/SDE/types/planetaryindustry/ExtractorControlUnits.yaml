@@ -12,7 +12,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 2600
-    price: 45000.0
     published: true
     radius: 1.0
   Gas Extractor Control Unit:
@@ -28,7 +27,6 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 2600
-    price: 45000.0
     published: true
     radius: 1.0
   Ice Extractor Control Unit:
@@ -44,7 +42,6 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 2600
-    price: 45000.0
     published: true
     radius: 1.0
   Lava Extractor Control Unit:
@@ -60,7 +57,6 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 2600
-    price: 45000.0
     published: true
     radius: 1.0
   Oceanic Extractor Control Unit:
@@ -76,7 +72,6 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 2600
-    price: 45000.0
     published: true
     radius: 1.0
   Plasma Extractor Control Unit:
@@ -92,7 +87,6 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 2600
-    price: 45000.0
     published: true
     radius: 1.0
   Storm Extractor Control Unit:
@@ -108,7 +102,6 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 2600
-    price: 45000.0
     published: true
     radius: 1.0
   Temperate Extractor Control Unit:
@@ -124,6 +117,5 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 2600
-    price: 45000.0
     published: true
     radius: 1.0

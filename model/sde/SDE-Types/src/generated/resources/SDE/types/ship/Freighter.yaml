@@ -50,15 +50,12 @@ types:
     portionSize: 1
     poweroutput: 1350
     powertospeed: 1
-    price: 7.69286336E8
     propulsiongraphicid: 394
     published: true
     radius: 600.0
     rechargerate: 235000.0
-    requiredskill1: 20342
+    requiredskill1: 34327
     requiredskill1level: 1
-    requiredskill2: 34327
-    requiredskill2level: 1
     rigsize: 4
     rigslots: 3
     scanmagnetometricstrength: 12.0
@@ -130,7 +127,6 @@ types:
     portionSize: 1
     poweroutput: 3
     powertospeed: 1
-    price: 7.73899072E8
     propulsiongraphicid: 395
     published: true
     radius: 800.0
@@ -205,7 +201,6 @@ types:
     portionSize: 1
     poweroutput: 3
     powertospeed: 1
-    price: 7.6806496E8
     propulsiongraphicid: 397
     published: true
     radius: 700.0
@@ -280,7 +275,6 @@ types:
     portionSize: 1
     poweroutput: 3
     powertospeed: 1
-    price: 7.69286336E8
     propulsiongraphicid: 394
     published: true
     radius: 581.0
@@ -355,7 +349,6 @@ types:
     portionSize: 1
     poweroutput: 3
     powertospeed: 1
-    price: 7.76193984E8
     propulsiongraphicid: 394
     published: true
     radius: 900.0

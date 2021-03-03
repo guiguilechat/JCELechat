@@ -12,7 +12,6 @@ types:
     orebasictype: 1223
     packagedVolume: 16.0
     portionSize: 100
-    price: 2092368.0
     published: true
     radius: 1.0
     reprocessingskilltype: 12181
@@ -31,7 +30,6 @@ types:
     orebasictype: 1223
     packagedVolume: 4.400000095367432
     portionSize: 1
-    price: 1.046184E7
     published: true
     radius: 1.0
     reprocessingskilltype: 12181
@@ -50,7 +48,6 @@ types:
     orebasictype: 46676
     packagedVolume: 4.400000095367432
     portionSize: 1
-    price: 520000.0
     published: true
     radius: 1.0
     reprocessingskilltype: 12181
@@ -69,7 +66,6 @@ types:
     orebasictype: 1223
     packagedVolume: 4.400000095367432
     portionSize: 1
-    price: 1.1507E7
     published: true
     radius: 1.0
     reprocessingskilltype: 12181
@@ -88,7 +84,6 @@ types:
     orebasictype: 1223
     packagedVolume: 4.400000095367432
     portionSize: 1
-    price: 1.100492E7
     published: true
     radius: 1.0
     reprocessingskilltype: 12181
@@ -109,7 +104,6 @@ types:
     orebasictype: 1223
     packagedVolume: 16.0
     portionSize: 100
-    price: 4700.0
     published: true
     radius: 1.0
     reprocessingskilltype: 12181
@@ -130,7 +124,6 @@ types:
     orebasictype: 1223
     packagedVolume: 16.0
     portionSize: 100
-    price: 2301400.0
     published: true
     radius: 1.0
     reprocessingskilltype: 12181
@@ -151,7 +144,6 @@ types:
     orebasictype: 1223
     packagedVolume: 16.0
     portionSize: 100
-    price: 2200984.0
     published: true
     radius: 1.0
     reprocessingskilltype: 12181

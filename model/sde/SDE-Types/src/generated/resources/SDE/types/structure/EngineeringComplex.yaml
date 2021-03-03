@@ -69,7 +69,6 @@ types:
     structurefullpowerstatehitpointmultiplier: 1
     structurerequiresdeedtype: 56206
     structureservicerolebonus: -25
-    targetpainterresistance: 9.999999747378752E-6
     tetheringrange: 10000
     thermaldamageresonance: 0.800000011920929
     tierdifficulty: 4
@@ -143,7 +142,6 @@ types:
     structurefullpowerstatehitpointmultiplier: 1
     structurerequiresdeedtype: 56203
     structureservicerolebonus: -25
-    targetpainterresistance: 9.999999747378752E-6
     tetheringrange: 10000
     thermaldamageresonance: 0.800000011920929
     tierdifficulty: 3
@@ -223,7 +221,6 @@ types:
     structurefullpowerstatehitpointmultiplier: 1
     structurerequiresdeedtype: 56208
     structureservicerolebonus: -25
-    targetpainterresistance: 9.999999747378752E-6
     tetheringrange: 10000
     thermaldamageresonance: 0.800000011920929
     tierdifficulty: 5

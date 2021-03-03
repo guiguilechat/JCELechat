@@ -143,7 +143,6 @@ types:
     portionSize: 1
     poweroutput: 70
     powertospeed: 1
-    price: 3.35E7
     propulsiongraphicid: 394
     published: true
     radius: 42.0
@@ -259,7 +258,7 @@ types:
     shieldrechargerate: 625000.0
     shieldthermaldamageresonance: 0.6000000238418579
     shielduniformity: 0.75
-    shipbonusgd1: 10
+    shipbonusgd1: 10.0
     shipbonusgd2: -4
     shipbonusrole1: -50.0
     signatureradius: 67.0

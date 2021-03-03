@@ -6,7 +6,6 @@ types:
     name: Active Shielding Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 3350
@@ -23,7 +22,6 @@ types:
     name: Shield Extension Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 3350
@@ -40,7 +38,6 @@ types:
     name: Shield Harmonizing Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 3350

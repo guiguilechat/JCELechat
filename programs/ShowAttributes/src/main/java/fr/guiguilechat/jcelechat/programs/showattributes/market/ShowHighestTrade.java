@@ -23,7 +23,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.InfrastructureUpgrades;
 import fr.guiguilechat.jcelechat.model.sde.types.Material;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryCommodities;
-import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryInteraction;
+import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryIndustry;
 import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryResources;
 import fr.guiguilechat.jcelechat.model.sde.types.Reaction;
 import fr.guiguilechat.jcelechat.model.sde.types.SKINs;
@@ -47,7 +47,7 @@ public class ShowHighestTrade {
 				.of(Accessories.METACAT, AncientRelics.METACAT, Apparel.METACAT, Asteroid.METACAT, Blueprint.METACAT,
 						Charge.METACAT, Commodity.METACAT, Decryptors.METACAT, Deployable.METACAT, Drone.METACAT, Fighter.METACAT,
 						Implant.METACAT, InfrastructureUpgrades.METACAT, Material.METACAT, Module.METACAT,
-						PlanetaryCommodities.METACAT, PlanetaryInteraction.METACAT, PlanetaryResources.METACAT, Reaction.METACAT,
+						PlanetaryCommodities.METACAT, PlanetaryIndustry.METACAT, PlanetaryResources.METACAT, Reaction.METACAT,
 						Ship.METACAT, Skill.METACAT, SKINs.METACAT, SovereigntyStructures.METACAT, SpecialEditionAssets.METACAT,
 						Starbase.METACAT, Structure.METACAT, StructureModule.METACAT, Subsystem.METACAT)
 				.flatMap(cat -> cat.load().values().stream()).filter(t -> t != null && t.published && t.marketGroup != 0)

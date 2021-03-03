@@ -5,7 +5,6 @@ types:
     name: Clone Soldier Negotiator Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 3000000.0
     published: true
     radius: 1.0
     securityprocessingfee: 6000000
@@ -16,7 +15,6 @@ types:
     name: Clone Soldier Recruiter Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 2000000.0
     published: true
     radius: 1.0
     securityprocessingfee: 4000000
@@ -27,7 +25,6 @@ types:
     name: Clone Soldier Trainer Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1500000.0
     published: true
     radius: 1.0
     securityprocessingfee: 3000000
@@ -38,7 +35,6 @@ types:
     name: Clone Soldier Transporter Tag
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     securityprocessingfee: 5000000

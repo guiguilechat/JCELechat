@@ -6,7 +6,6 @@ types:
     name: 10th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 3360000.0
     published: true
     volume: 10.0
   11th Tier Overseer's Personal Effects:
@@ -16,7 +15,6 @@ types:
     name: 11th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 6300000.0
     published: true
     volume: 10.0
   12th Tier Overseer's Personal Effects:
@@ -26,7 +24,6 @@ types:
     name: 12th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 9900000.0
     published: true
     volume: 10.0
   13th Tier Overseer's Personal Effects:
@@ -36,7 +33,6 @@ types:
     name: 13th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 1.32E7
     published: true
     volume: 10.0
   14th Tier Overseer's Personal Effects:
@@ -46,7 +42,6 @@ types:
     name: 14th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 1.716E7
     published: true
     volume: 10.0
   15th Tier Overseer's Personal Effects:
@@ -56,7 +51,6 @@ types:
     name: 15th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 2.184E7
     published: true
     volume: 10.0
   16th Tier Overseer's Personal Effects:
@@ -66,7 +60,6 @@ types:
     name: 16th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 2.912E7
     published: true
     volume: 10.0
   17th Tier Overseer's Personal Effects:
@@ -76,7 +69,6 @@ types:
     name: 17th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 3.57E7
     published: true
     volume: 10.0
   18th Tier Overseer's Personal Effects:
@@ -86,7 +78,6 @@ types:
     name: 18th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 4.32E7
     published: true
     volume: 10.0
   19th Tier Overseer's Personal Effects:
@@ -96,7 +87,6 @@ types:
     name: 19th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 5.168E7
     published: true
     volume: 10.0
   1st Tier Overseer's Personal Effects:
@@ -106,7 +96,6 @@ types:
     name: 1st Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 10000.0
     published: true
     volume: 10.0
   20th Tier Overseer's Personal Effects:
@@ -116,7 +105,6 @@ types:
     name: 20th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 6.12E7
     published: true
     volume: 10.0
   21st Tier Overseer's Personal Effects:
@@ -126,7 +114,6 @@ types:
     name: 21st Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 8.0E7
     published: true
     volume: 10.0
   22nd Tier Overseer's Personal Effects:
@@ -136,7 +123,6 @@ types:
     name: 22nd Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 1.0164E8
     published: true
     volume: 10.0
   23rd Tier Overseer's Personal Effects:
@@ -146,7 +132,6 @@ types:
     name: 23rd Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 1.33837E8
     published: true
     volume: 10.0
   2nd Tier Overseer's Personal Effects:
@@ -156,7 +141,6 @@ types:
     name: 2nd Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 20000.0
     published: true
     volume: 10.0
   3rd Tier Overseer's Personal Effects:
@@ -166,7 +150,6 @@ types:
     name: 3rd Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 40000.0
     published: true
     volume: 10.0
   4th Tier Overseer's Personal Effects:
@@ -176,7 +159,6 @@ types:
     name: 4th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 60000.0
     published: true
     volume: 10.0
   5th Tier Overseer's Personal Effects:
@@ -186,7 +168,6 @@ types:
     name: 5th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 180000.0
     published: true
     volume: 10.0
   6th Tier Overseer's Personal Effects:
@@ -196,7 +177,6 @@ types:
     name: 6th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 360000.0
     published: true
     volume: 10.0
   7th Tier Overseer's Personal Effects:
@@ -206,7 +186,6 @@ types:
     name: 7th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 600000.0
     published: true
     volume: 10.0
   8th Tier Overseer's Personal Effects:
@@ -216,7 +195,6 @@ types:
     name: 8th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 1200000.0
     published: true
     volume: 10.0
   9th Tier Overseer's Personal Effects:
@@ -226,6 +204,5 @@ types:
     name: 9th Tier Overseer's Personal Effects
     packagedVolume: 10.0
     portionSize: 1
-    price: 2100000.0
     published: true
     volume: 10.0

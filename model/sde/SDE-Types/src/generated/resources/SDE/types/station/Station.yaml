@@ -4,7 +4,6 @@ types:
     id: 3864
     name: Amarr Citadel
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 30758.0
     signatureradius: 100.0
@@ -13,7 +12,6 @@ types:
     id: 9856
     name: Amarr Class A Starport
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 24438.0
     signatureradius: 100.0
@@ -22,7 +20,6 @@ types:
     id: 9857
     name: Amarr Class B Starport
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 30758.0
     signatureradius: 100.0
@@ -33,7 +30,6 @@ types:
     name: Amarr Factory Outpost
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
     published: false
     radius: 19079.0
     signatureradius: 10000.0
@@ -43,7 +39,6 @@ types:
     id: 1928
     name: Amarr Industrial Station
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 24276.0
     signatureradius: 100.0
@@ -52,7 +47,6 @@ types:
     id: 1930
     name: Amarr Mining Station
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 22283.0
     signatureradius: 100.0
@@ -61,7 +55,6 @@ types:
     id: 1931
     name: Amarr Research Station
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 29162.0
     signatureradius: 100.0
@@ -70,7 +63,6 @@ types:
     id: 1929
     name: Amarr Standard Station
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 20081.0
     signatureradius: 100.0
@@ -79,7 +71,6 @@ types:
     id: 1926
     name: Amarr Station Hub
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 42489.0
     signatureradius: 100.0
@@ -88,7 +79,6 @@ types:
     id: 1927
     name: Amarr Station Military
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 48492.0
     signatureradius: 100.0
@@ -97,7 +87,6 @@ types:
     id: 1932
     name: Amarr Trade Post
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 13887.0
     signatureradius: 100.0
@@ -106,7 +95,6 @@ types:
     id: 22296
     name: Blood Raider Logistics Outpost
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 51263.0
     signatureradius: 100.0
@@ -115,7 +103,6 @@ types:
     id: 22297
     name: Blood Raider Military Outpost
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 39136.0
     signatureradius: 100.0
@@ -124,7 +111,6 @@ types:
     id: 22298
     name: Blood Raider Trading Outpost
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 40731.0
     signatureradius: 100.0
@@ -134,7 +120,6 @@ types:
     name: C-O-1
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 1000.0
     signatureradius: 100.0
@@ -145,7 +130,6 @@ types:
     name: C-O-2
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 1000.0
     signatureradius: 100.0
@@ -157,7 +141,6 @@ types:
     name: Caldari Administrative Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 45734.0
     signatureradius: 100.0
@@ -169,7 +152,6 @@ types:
     name: Caldari Food Processing Plant Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 55741.0
     signatureradius: 100.0
@@ -181,7 +163,6 @@ types:
     name: Caldari Logistics Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 15351.0
     signatureradius: 100.0
@@ -193,7 +174,6 @@ types:
     name: Caldari Military Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 47854.0
     signatureradius: 100.0
@@ -205,7 +185,6 @@ types:
     name: Caldari Mining Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 47854.0
     signatureradius: 100.0
@@ -217,7 +196,6 @@ types:
     name: Caldari Research Outpost
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
     published: false
     radius: 12748.0
     signatureradius: 10000.0
@@ -229,7 +207,6 @@ types:
     name: Caldari Research Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 26782.0
     signatureradius: 100.0
@@ -241,7 +218,6 @@ types:
     name: Caldari Station Hub
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 24657.0
     signatureradius: 100.0
@@ -253,7 +229,6 @@ types:
     name: Caldari Trading Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 33413.0
     signatureradius: 100.0
@@ -263,7 +238,6 @@ types:
     id: 9868
     name: Concord Starbase
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 60432.0
     signatureradius: 100.0
@@ -272,7 +246,6 @@ types:
     id: 29390
     name: Damaged CONCORD Station
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 60518.0
     signatureradius: 100.0
@@ -281,7 +254,6 @@ types:
     id: 9873
     name: Dark Amarr Station O
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 22587.0
     signatureradius: 100.0
@@ -292,7 +264,6 @@ types:
     name: Gallente Administrative Outpost
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
     published: false
     radius: 27119.0
     signatureradius: 10000.0
@@ -304,7 +275,6 @@ types:
     name: Gallente Administrative Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 17876.0
     signatureradius: 100.0
@@ -316,7 +286,6 @@ types:
     name: Gallente Industrial Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 29746.0
     signatureradius: 100.0
@@ -328,7 +297,6 @@ types:
     name: Gallente Logistics Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 37560.0
     signatureradius: 100.0
@@ -340,7 +308,6 @@ types:
     name: Gallente Military Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 23836.0
     signatureradius: 100.0
@@ -352,7 +319,6 @@ types:
     name: Gallente Mining Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 28083.0
     signatureradius: 100.0
@@ -364,7 +330,6 @@ types:
     name: Gallente Research Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 45151.0
     signatureradius: 100.0
@@ -376,7 +341,6 @@ types:
     name: Gallente Station Hub
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 27072.0
     signatureradius: 100.0
@@ -388,7 +352,6 @@ types:
     name: Gallente Trading Hub
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 24871.0
     signatureradius: 100.0
@@ -398,7 +361,6 @@ types:
     id: 9867
     name: Heaven
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 47998.0
     signatureradius: 100.0
@@ -409,7 +371,6 @@ types:
     name: Ishukone Corporation Headquarters
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 52868.0
     signatureradius: 100.0
@@ -421,7 +382,6 @@ types:
     name: Jita Trade Hub
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 100000.0
     signatureradius: 100.0
@@ -431,7 +391,6 @@ types:
     id: 10795
     name: Jovian Construct
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 47270.0
     signatureradius: 100.0
@@ -442,7 +401,6 @@ types:
     name: Minmatar Hub
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 33811.0
     signatureradius: 100.0
@@ -454,7 +412,6 @@ types:
     name: Minmatar Industrial Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 27681.0
     signatureradius: 100.0
@@ -466,7 +423,6 @@ types:
     name: Minmatar Military Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 36902.0
     signatureradius: 100.0
@@ -478,7 +434,6 @@ types:
     name: Minmatar Mining Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 30592.0
     signatureradius: 100.0
@@ -490,7 +445,6 @@ types:
     name: Minmatar Research Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 33481.0
     signatureradius: 100.0
@@ -502,7 +456,6 @@ types:
     name: Minmatar Service Outpost
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
     published: false
     radius: 18000.0
     signatureradius: 10000.0
@@ -514,7 +467,6 @@ types:
     name: Minmatar Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 19714.0
     signatureradius: 100.0
@@ -526,7 +478,6 @@ types:
     name: Minmatar Trade Post
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 15733.0
     signatureradius: 100.0
@@ -536,7 +487,6 @@ types:
     id: 29388
     name: Repaired Amarr Military Station
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 48532.0
     signatureradius: 100.0
@@ -545,7 +495,6 @@ types:
     id: 29387
     name: Repaired Amarr Station Hub
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 42489.0
     signatureradius: 100.0
@@ -554,7 +503,6 @@ types:
     id: 29389
     name: Repaired Amarr Trading Post
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 13887.0
     signatureradius: 100.0
@@ -581,7 +529,6 @@ types:
     name: Sisters of EVE Industrial Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 29746.0
     signatureradius: 100.0
@@ -593,7 +540,6 @@ types:
     name: Sisters of EVE Logistics Station
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 37560.0
     signatureradius: 100.0
@@ -605,7 +551,6 @@ types:
     name: Station (Conquerable 1)
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 20304.0
     signatureradius: 10000.0
@@ -617,7 +562,6 @@ types:
     name: Station (Conquerable 2)
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 17877.0
     signatureradius: 10000.0
@@ -629,7 +573,6 @@ types:
     name: Station (Conquerable 3)
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 33863.0
     signatureradius: 10000.0
@@ -641,7 +584,6 @@ types:
     name: Station (InterBus)
     packagedVolume: 1.0
     portionSize: 1
-    price: 600000.0
     published: false
     radius: 17876.0
     signatureradius: 100.0

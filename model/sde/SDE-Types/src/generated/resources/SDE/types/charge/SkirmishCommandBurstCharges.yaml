@@ -6,7 +6,6 @@ types:
     name: Evasive Maneuvers Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 3349
@@ -25,7 +24,6 @@ types:
     name: Interdiction Maneuvers Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 3349
@@ -42,7 +40,6 @@ types:
     name: Rapid Deployment Charge
     packagedVolume: 0.009999999776482582
     portionSize: 500
-    price: 1000.0
     published: true
     radius: 1.0
     requiredskill1: 3349

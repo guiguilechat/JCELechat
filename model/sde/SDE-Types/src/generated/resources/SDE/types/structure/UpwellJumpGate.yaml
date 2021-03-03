@@ -57,7 +57,6 @@ types:
     structuredamagelimit: 5000
     structurefullpowerstatehitpointmultiplier: 1
     structureuniformity: 1.0
-    targetpainterresistance: 9.999999747378752E-6
     thermaldamageresonance: 0.800000011920929
     tierdifficulty: 3
     uniformity: 1.0

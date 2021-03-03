@@ -6,7 +6,6 @@ types:
     name: '''Aurora Ominae'' Thermal Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.40950752E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -16,7 +15,6 @@ types:
     name: '''Cold Wind'' Kinetic Reaper Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   '''Divine Harvest'' Electromagnetic Reaper Blueprint':
@@ -25,7 +23,6 @@ types:
     name: '''Divine Harvest'' Electromagnetic Reaper Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   '''Geiravor'' Explosive Lance Blueprint':
@@ -34,7 +31,6 @@ types:
     name: '''Geiravor'' Explosive Lance Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   '''Gjallarhorn'' Explosive Doomsday Blueprint':
@@ -44,7 +40,6 @@ types:
     name: '''Gjallarhorn'' Explosive Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.40435264E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -54,7 +49,6 @@ types:
     name: '''Guillotine'' Thermal Reaper Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   '''Holy Destiny'' Electromagnetic Lance Blueprint':
@@ -63,7 +57,6 @@ types:
     name: '''Holy Destiny'' Electromagnetic Lance Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   '''Iron Pike'' Kinetic Lance Blueprint':
@@ -72,7 +65,6 @@ types:
     name: '''Iron Pike'' Kinetic Lance Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   '''Jormungandr'' Explosive Reaper Blueprint':
@@ -81,7 +73,6 @@ types:
     name: '''Jormungandr'' Explosive Reaper Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   '''Judgment'' Electromagnetic Doomsday Blueprint':
@@ -91,7 +82,6 @@ types:
     name: '''Judgment'' Electromagnetic Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.40727872E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -102,7 +92,6 @@ types:
     name: '''Oblivion'' Kinetic Doomsday Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.40947792E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -112,7 +101,6 @@ types:
     name: '''Phalarica'' Thermal Lance Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     volume: 0.009999999776482582
   Bosonic Field Generator Blueprint:
@@ -121,7 +109,6 @@ types:
     name: Bosonic Field Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Gravitational Transportation Field Oscillator Blueprint:
@@ -130,7 +117,6 @@ types:
     name: Gravitational Transportation Field Oscillator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     volume: 0.009999999776482582
   Pulse Activated Nexus Invulnerability Core Blueprint:
@@ -139,6 +125,5 @@ types:
     name: Pulse Activated Nexus Invulnerability Core Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E8
     published: true
     volume: 0.009999999776482582

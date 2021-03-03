@@ -6,7 +6,6 @@ types:
     name: Structure Acceleration Coils
     packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Advertisement Nexus:
@@ -16,7 +15,6 @@ types:
     name: Structure Advertisement Nexus
     packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Construction Parts:
@@ -26,7 +24,6 @@ types:
     name: Structure Construction Parts
     packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -37,7 +34,6 @@ types:
     name: Structure Docking Bay
     packagedVolume: 3000.0
     portionSize: 1
-    price: 8.4375E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -48,7 +44,6 @@ types:
     name: Structure EXERT Conduit Coupler
     packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Electromagnetic Sensor:
@@ -58,7 +53,6 @@ types:
     name: Structure Electromagnetic Sensor
     packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
     published: true
     volume: 3000.0
   Structure Factory:
@@ -68,7 +62,6 @@ types:
     name: Structure Factory
     packagedVolume: 3000.0
     portionSize: 1
-    price: 8.4375E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -79,7 +72,6 @@ types:
     name: Structure Hangar Array
     packagedVolume: 3000.0
     portionSize: 1
-    price: 3.9375E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -90,7 +82,6 @@ types:
     name: Structure Laboratory
     packagedVolume: 3000.0
     portionSize: 1
-    price: 9.0E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -101,7 +92,6 @@ types:
     name: Structure Market Network
     packagedVolume: 3000.0
     portionSize: 1
-    price: 1.425E8
     published: true
     radius: 1.0
     volume: 3000.0
@@ -112,7 +102,6 @@ types:
     name: Structure Medical Center
     packagedVolume: 3000.0
     portionSize: 1
-    price: 5.625E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -123,7 +112,6 @@ types:
     name: Structure Mission Network
     packagedVolume: 3000.0
     portionSize: 1
-    price: 7.25E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -134,7 +122,6 @@ types:
     name: Structure Office Center
     packagedVolume: 3000.0
     portionSize: 1
-    price: 8.875E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -145,7 +132,6 @@ types:
     name: Structure Repair Facility
     packagedVolume: 3000.0
     portionSize: 1
-    price: 9.5625E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -156,7 +142,6 @@ types:
     name: Structure Reprocessing Plant
     packagedVolume: 3000.0
     portionSize: 1
-    price: 9.5625E7
     published: true
     radius: 1.0
     volume: 3000.0
@@ -167,7 +152,6 @@ types:
     name: Structure Storage Bay
     packagedVolume: 3000.0
     portionSize: 1
-    price: 2.25E7
     published: true
     radius: 1.0
     volume: 3000.0

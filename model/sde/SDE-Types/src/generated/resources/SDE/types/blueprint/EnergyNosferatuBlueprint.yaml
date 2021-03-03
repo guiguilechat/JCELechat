@@ -36,7 +36,6 @@ types:
     name: Capital Energy Nosferatu I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.9E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -47,7 +46,6 @@ types:
     name: Capital Energy Nosferatu II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -59,7 +57,6 @@ types:
     name: Capital Ghoul Compact Energy Nosferatu Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.8E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -71,7 +68,6 @@ types:
     name: Capital Knave Scoped Energy Nosferatu Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.8E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -82,7 +78,6 @@ types:
     name: Dark Blood Capital Energy Nosferatu Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -104,7 +99,6 @@ types:
     name: Heavy Energy Nosferatu I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9876000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -115,7 +109,6 @@ types:
     name: Heavy Energy Nosferatu II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -167,7 +160,6 @@ types:
     name: Medium Energy Nosferatu I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1975200.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -178,7 +170,6 @@ types:
     name: Medium Energy Nosferatu II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -200,7 +191,6 @@ types:
     name: Small Energy Nosferatu I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 395040.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -221,7 +211,6 @@ types:
     name: True Sansha Capital Energy Nosferatu Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8.0E7
     published: true
     radius: 1.0
     techlevel: 1

@@ -32,7 +32,6 @@ types:
     name: Heavy Armor Maintenance Bot I
     packagedVolume: 25.0
     portionSize: 1
-    price: 103006.0
     proximityrange: 7000
     published: true
     radius: 15.0
@@ -96,7 +95,6 @@ types:
     name: Heavy Armor Maintenance Bot II
     packagedVolume: 25.0
     portionSize: 1
-    price: 103006.0
     proximityrange: 7000
     published: true
     radius: 15.0
@@ -158,7 +156,6 @@ types:
     name: Heavy Hull Maintenance Bot I
     packagedVolume: 25.0
     portionSize: 1
-    price: 103006.0
     proximityrange: 7000
     published: true
     radius: 15.0
@@ -221,7 +218,6 @@ types:
     name: Heavy Hull Maintenance Bot II
     packagedVolume: 25.0
     portionSize: 1
-    price: 103006.0
     proximityrange: 7000
     published: true
     radius: 15.0
@@ -283,7 +279,6 @@ types:
     name: Heavy Shield Maintenance Bot I
     packagedVolume: 25.0
     portionSize: 1
-    price: 88938.0
     proximityrange: 7000
     published: true
     radius: 15.0
@@ -347,7 +342,6 @@ types:
     name: Heavy Shield Maintenance Bot II
     packagedVolume: 25.0
     portionSize: 1
-    price: 88938.0
     proximityrange: 7000
     published: true
     radius: 15.0
@@ -411,7 +405,6 @@ types:
     name: Light Armor Maintenance Bot I
     packagedVolume: 5.0
     portionSize: 1
-    price: 3652.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -475,7 +468,6 @@ types:
     name: Light Armor Maintenance Bot II
     packagedVolume: 5.0
     portionSize: 1
-    price: 3652.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -537,7 +529,6 @@ types:
     name: Light Hull Maintenance Bot I
     packagedVolume: 5.0
     portionSize: 1
-    price: 3652.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -600,7 +591,6 @@ types:
     name: Light Hull Maintenance Bot II
     packagedVolume: 5.0
     portionSize: 1
-    price: 3652.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -662,7 +652,6 @@ types:
     name: Light Shield Maintenance Bot I
     packagedVolume: 5.0
     portionSize: 1
-    price: 3276.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -726,7 +715,6 @@ types:
     name: Light Shield Maintenance Bot II
     packagedVolume: 5.0
     portionSize: 1
-    price: 3276.0
     proximityrange: 3500
     published: true
     radius: 15.0
@@ -790,7 +778,6 @@ types:
     name: Medium Armor Maintenance Bot I
     packagedVolume: 10.0
     portionSize: 1
-    price: 25762.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -854,7 +841,6 @@ types:
     name: Medium Armor Maintenance Bot II
     packagedVolume: 10.0
     portionSize: 1
-    price: 25762.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -916,7 +902,6 @@ types:
     name: Medium Hull Maintenance Bot I
     packagedVolume: 10.0
     portionSize: 1
-    price: 25762.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -979,7 +964,6 @@ types:
     name: Medium Hull Maintenance Bot II
     packagedVolume: 10.0
     portionSize: 1
-    price: 25762.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -1041,7 +1025,6 @@ types:
     name: Medium Shield Maintenance Bot I
     packagedVolume: 10.0
     portionSize: 1
-    price: 22632.0
     proximityrange: 5000
     published: true
     radius: 15.0
@@ -1105,7 +1088,6 @@ types:
     name: Medium Shield Maintenance Bot II
     packagedVolume: 10.0
     portionSize: 1
-    price: 22632.0
     proximityrange: 5000
     published: true
     radius: 15.0

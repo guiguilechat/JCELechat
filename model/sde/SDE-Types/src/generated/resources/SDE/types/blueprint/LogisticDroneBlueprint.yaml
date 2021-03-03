@@ -6,7 +6,6 @@ types:
     name: Heavy Armor Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -17,7 +16,6 @@ types:
     name: Heavy Armor Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -29,7 +27,6 @@ types:
     name: Heavy Hull Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -40,7 +37,6 @@ types:
     name: Heavy Hull Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -52,7 +48,6 @@ types:
     name: Heavy Shield Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -63,7 +58,6 @@ types:
     name: Heavy Shield Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -75,7 +69,6 @@ types:
     name: Light Armor Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -86,7 +79,6 @@ types:
     name: Light Armor Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -98,7 +90,6 @@ types:
     name: Light Hull Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -109,7 +100,6 @@ types:
     name: Light Hull Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -121,7 +111,6 @@ types:
     name: Light Shield Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -132,7 +121,6 @@ types:
     name: Light Shield Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -144,7 +132,6 @@ types:
     name: Medium Armor Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -155,7 +142,6 @@ types:
     name: Medium Armor Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -167,7 +153,6 @@ types:
     name: Medium Hull Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -178,7 +163,6 @@ types:
     name: Medium Hull Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -190,7 +174,6 @@ types:
     name: Medium Shield Maintenance Bot I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -201,7 +184,6 @@ types:
     name: Medium Shield Maintenance Bot II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2500000.0
     published: true
     radius: 1.0
     techlevel: 2

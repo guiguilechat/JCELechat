@@ -23,7 +23,6 @@ types:
     name: Moros Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.9E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -35,7 +34,6 @@ types:
     name: Naglfar Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.85E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -47,7 +45,6 @@ types:
     name: Phoenix Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.95E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -59,7 +56,6 @@ types:
     name: Revelation Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -77,6 +73,5 @@ types:
     name: Zirnitra Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
     published: true
     volume: 0.009999999776482582

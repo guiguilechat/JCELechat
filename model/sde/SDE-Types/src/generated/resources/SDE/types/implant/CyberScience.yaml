@@ -7,7 +7,6 @@ types:
     name: Zainou 'Beancounter' Metallurgy MY-701
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -22,7 +21,6 @@ types:
     name: Zainou 'Beancounter' Metallurgy MY-703
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -37,7 +35,6 @@ types:
     name: Zainou 'Beancounter' Metallurgy MY-705
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -52,7 +49,6 @@ types:
     name: Zainou 'Beancounter' Research RR-601
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -67,7 +63,6 @@ types:
     name: Zainou 'Beancounter' Research RR-603
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -82,7 +77,6 @@ types:
     name: Zainou 'Beancounter' Research RR-605
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -97,7 +91,6 @@ types:
     name: Zainou 'Beancounter' Science SC-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -112,7 +105,6 @@ types:
     name: Zainou 'Beancounter' Science SC-803
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411
@@ -127,7 +119,6 @@ types:
     name: Zainou 'Beancounter' Science SC-805
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     requiredskill1: 3411

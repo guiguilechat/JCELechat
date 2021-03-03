@@ -6,7 +6,6 @@ types:
     name: R.A.M.- Ammunition Tech
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 36456.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -18,7 +17,6 @@ types:
     name: R.A.M.- Armor/Hull Tech
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 36456.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -30,7 +28,6 @@ types:
     name: R.A.M.- Cybernetics
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 36456.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -42,7 +39,6 @@ types:
     name: R.A.M.- Electronics
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 36456.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -54,7 +50,6 @@ types:
     name: R.A.M.- Energy Tech
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 36456.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -66,7 +61,6 @@ types:
     name: R.A.M.- Robotics
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 36456.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -78,7 +72,6 @@ types:
     name: R.A.M.- Shield Tech
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 36456.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -90,7 +83,6 @@ types:
     name: R.A.M.- Starship Tech
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 36456.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -102,7 +94,6 @@ types:
     name: R.A.M.- Weapon Tech
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 36456.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -114,7 +105,6 @@ types:
     name: R.Db - Boundless Creations
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -126,7 +116,6 @@ types:
     name: R.Db - Carthum Conglomerate
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -138,7 +127,6 @@ types:
     name: R.Db - Core Complexion
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -150,7 +138,6 @@ types:
     name: R.Db - CreoDron
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -162,7 +149,6 @@ types:
     name: R.Db - Duvolle Labs
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -174,7 +160,6 @@ types:
     name: R.Db - Ishukone
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -186,7 +171,6 @@ types:
     name: R.Db - Kaalakiota
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -198,7 +182,6 @@ types:
     name: R.Db - Khanid Innovation
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -210,7 +193,6 @@ types:
     name: R.Db - Lai Dai
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -222,7 +204,6 @@ types:
     name: R.Db - Roden Shipyards
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -234,7 +215,6 @@ types:
     name: R.Db - Thukker Mix
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -246,7 +226,6 @@ types:
     name: R.Db - Viziam
     packagedVolume: 0.03999999910593033
     portionSize: 100
-    price: 58624.0
     published: true
     radius: 1.0
     techlevel: 1

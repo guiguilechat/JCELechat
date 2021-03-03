@@ -29,7 +29,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 5000000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -81,7 +80,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2500000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -133,7 +131,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1250000
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -186,7 +183,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 4375000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -239,7 +235,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2187500
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -292,7 +287,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1093750
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -345,7 +339,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 5000000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -398,7 +391,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2500000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -451,7 +443,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1250000
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -503,7 +494,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2750000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -555,7 +545,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1375000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -607,7 +596,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 687500
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -660,7 +648,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 5000000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -713,7 +700,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2500000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -766,7 +752,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1250000
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -819,7 +804,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 4375000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -872,7 +856,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2187500
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -925,7 +908,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1093750
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -978,7 +960,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2750000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1031,7 +1012,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1375000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1084,7 +1064,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 687500
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1135,7 +1114,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 3750000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1186,7 +1164,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1875000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1237,7 +1214,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 937500
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1290,7 +1266,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2750000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1343,7 +1318,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1375000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1396,7 +1370,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 687500
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1448,7 +1421,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 4375000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1500,7 +1472,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2187500
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1552,7 +1523,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1093750
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1605,7 +1575,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 5000000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1658,7 +1627,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2500000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1711,7 +1679,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1250000
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1763,7 +1730,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 3750000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1815,7 +1781,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1875000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1867,7 +1832,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 937500
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1919,7 +1883,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 3750000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -1971,7 +1934,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1875000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -2023,7 +1985,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 937500
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -2076,7 +2037,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 5000000
-    price: 4.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -2129,7 +2089,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 2500000
-    price: 2.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true
@@ -2182,7 +2141,6 @@ types:
     poscontroltowerperiod: 3600000
     posstructurecontroldistancemax: 15000
     poweroutput: 1250000
-    price: 1.0E8
     prototypingbonus: 250000
     proximityrange: 250000
     published: true

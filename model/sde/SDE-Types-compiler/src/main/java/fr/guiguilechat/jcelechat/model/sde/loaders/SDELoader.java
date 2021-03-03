@@ -12,9 +12,9 @@ import fr.guiguilechat.jcelechat.model.sde.hierarchy.CatDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.GroupDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeDetails;
 import fr.guiguilechat.jcelechat.model.sde.hierarchy.TypeHierarchy;
-import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmAttributeTypes;
 import fr.guiguilechat.jcelechat.model.sde.load.bsd.EdgmTypeAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
+import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
 
@@ -24,7 +24,7 @@ public class SDELoader {
 	private static final Logger logger = LoggerFactory.getLogger(SDELoader.class);
 
 	public static TypeHierarchy load() {
-		Map<Integer, EdgmAttributeTypes> attTypes = EdgmAttributeTypes.loadByAttributeID();
+		Map<Integer, EdogmaAttributes> attTypes = EdogmaAttributes.load();
 		TypeHierarchy ret = new TypeHierarchy();
 		// categories
 		for (Entry<Integer, EcategoryIDs> e : EcategoryIDs.load().entrySet()) {
@@ -85,14 +85,14 @@ public class SDELoader {
 			allAttributesIds.add(attId);
 		}
 		for (int attId : allAttributesIds) {
-			EdgmAttributeTypes eattr = attTypes.get(attId);
+			EdogmaAttributes eattr = attTypes.get(attId);
 			AttributeDetails det = new AttributeDetails();
 			det.defaultValue = eattr.defaultValue;
 			det.description = eattr.description;
 			det.hasFloat = floatAttributeIds.contains(attId);
 			det.highIsGood = eattr.highIsGood;
 			det.id = attId;
-			det.name = eattr.attributeName;
+			det.name = eattr.name;
 			det.published = eattr.published;
 			det.stackable = eattr.stackable;
 			ret.attID2Details.put(attId, det);

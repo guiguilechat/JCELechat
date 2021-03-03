@@ -8,7 +8,6 @@ types:
     name: Abyssal Talassonite
     packagedVolume: 16.0
     portionSize: 100
-    price: 234353.0
     published: true
     radius: 1.0
     reprocessingskilltype: 56632
@@ -24,7 +23,6 @@ types:
     name: Hadal Talassonite
     packagedVolume: 16.0
     portionSize: 100
-    price: 234353.0
     published: true
     radius: 1.0
     reprocessingskilltype: 56632
@@ -40,7 +38,6 @@ types:
     name: Talassonite
     packagedVolume: 16.0
     portionSize: 100
-    price: 234353.0
     published: true
     radius: 1.0
     reprocessingskilltype: 56632

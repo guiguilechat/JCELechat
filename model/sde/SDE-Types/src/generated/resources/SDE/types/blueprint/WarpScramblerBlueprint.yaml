@@ -45,7 +45,6 @@ types:
     name: Domination Heavy Warp Disruptor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 394240.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -56,7 +55,6 @@ types:
     name: Domination Heavy Warp Scrambler Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 394240.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -67,7 +65,6 @@ types:
     name: Heavy Faint Epsilon Scoped Warp Scrambler Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2400000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -77,7 +74,6 @@ types:
     name: Heavy Faint Scoped Warp Disruptor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2400000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -87,7 +83,6 @@ types:
     name: Heavy Fleeting Compact Warp Disruptor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2400000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -97,7 +92,6 @@ types:
     name: Heavy Initiated Compact Warp Scrambler Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2400000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -107,7 +101,6 @@ types:
     name: Heavy J5 Enduring Warp Disruptor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2400000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -117,7 +110,6 @@ types:
     name: Heavy J5b Enduring Warp Scrambler Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2400000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -127,7 +119,6 @@ types:
     name: Heavy Warp Disruptor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1200000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -136,7 +127,6 @@ types:
     name: Heavy Warp Disruptor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 394240.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -147,7 +137,6 @@ types:
     name: Heavy Warp Scrambler I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1200000.0
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -156,7 +145,6 @@ types:
     name: Heavy Warp Scrambler II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 394240.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -207,7 +195,6 @@ types:
     name: Shadow Serpentis Heavy Warp Disruptor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 394240.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -218,7 +205,6 @@ types:
     name: Shadow Serpentis Heavy Warp Scrambler Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 394240.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -230,7 +216,6 @@ types:
     name: Warp Disruption Field Generator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -241,7 +226,6 @@ types:
     name: Warp Disruption Field Generator II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -253,7 +237,6 @@ types:
     name: Warp Disruptor I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 394240.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -264,7 +247,6 @@ types:
     name: Warp Disruptor II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -276,7 +258,6 @@ types:
     name: Warp Scrambler I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 394240.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -287,7 +268,6 @@ types:
     name: Warp Scrambler II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2

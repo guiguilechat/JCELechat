@@ -6,7 +6,6 @@ types:
     name: Caesarium Cadmide
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 80.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -17,7 +16,6 @@ types:
     name: Carbon Polymers
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 8.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -28,7 +26,6 @@ types:
     name: Ceramic Powder
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 8.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -39,7 +36,6 @@ types:
     name: Crystallite Alloy
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 40.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -50,7 +46,6 @@ types:
     name: Dysporite
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -61,7 +56,6 @@ types:
     name: Fernite Alloy
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 40.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -72,7 +66,6 @@ types:
     name: Ferrofluid
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 512.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -83,7 +76,6 @@ types:
     name: Fluxed Condensates
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 512.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -94,7 +86,6 @@ types:
     name: Hexite
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 120.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -105,7 +96,6 @@ types:
     name: Hyperflurite
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -116,7 +106,6 @@ types:
     name: Neo Mercurite
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -127,7 +116,6 @@ types:
     name: Platinum Technite
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 80.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -138,7 +126,6 @@ types:
     name: Promethium Mercurite
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -149,7 +136,6 @@ types:
     name: Prometium
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -160,7 +146,6 @@ types:
     name: Rolled Tungsten Alloy
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 40.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -171,7 +156,6 @@ types:
     name: Silicon Diborite
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 8.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -182,7 +166,6 @@ types:
     name: Solerium
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 120.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -193,7 +176,6 @@ types:
     name: Sulfuric Acid
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 8.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -204,7 +186,6 @@ types:
     name: Thulium Hafnite
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -215,7 +196,6 @@ types:
     name: Titanium Chromide
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 40.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224
@@ -226,7 +206,6 @@ types:
     name: Unrefined Caesarium Cadmide
     packagedVolume: 1.0
     portionSize: 1
-    price: 80.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -237,7 +216,6 @@ types:
     name: Unrefined Crystallite Alloy
     packagedVolume: 1.0
     portionSize: 1
-    price: 40.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -248,7 +226,6 @@ types:
     name: Unrefined Dysporite
     packagedVolume: 1.0
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -259,7 +236,6 @@ types:
     name: Unrefined Fernite Alloy
     packagedVolume: 1.0
     portionSize: 1
-    price: 40.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -270,7 +246,6 @@ types:
     name: Unrefined Ferrofluid
     packagedVolume: 1.0
     portionSize: 1
-    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -281,7 +256,6 @@ types:
     name: Unrefined Fluxed Condensates
     packagedVolume: 1.0
     portionSize: 1
-    price: 512.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -292,7 +266,6 @@ types:
     name: Unrefined Hexite
     packagedVolume: 1.0
     portionSize: 1
-    price: 120.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -303,7 +276,6 @@ types:
     name: Unrefined Hyperflurite
     packagedVolume: 1.0
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -314,7 +286,6 @@ types:
     name: Unrefined Neo Mercurite
     packagedVolume: 1.0
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -325,7 +296,6 @@ types:
     name: Unrefined Platinum Technite
     packagedVolume: 1.0
     portionSize: 1
-    price: 80.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -336,7 +306,6 @@ types:
     name: Unrefined Promethium Mercurite
     packagedVolume: 1.0
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -347,7 +316,6 @@ types:
     name: Unrefined Prometium
     packagedVolume: 1.0
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -358,7 +326,6 @@ types:
     name: Unrefined Rolled Tungsten Alloy
     packagedVolume: 1.0
     portionSize: 1
-    price: 40.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -369,7 +336,6 @@ types:
     name: Unrefined Solerium
     packagedVolume: 1.0
     portionSize: 1
-    price: 120.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -380,7 +346,6 @@ types:
     name: Unrefined Thulium Hafnite
     packagedVolume: 1.0
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -391,7 +356,6 @@ types:
     name: Unrefined Titanium Chromide
     packagedVolume: 1.0
     portionSize: 1
-    price: 40.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -402,7 +366,6 @@ types:
     name: Unrefined Vanadium Hafnite
     packagedVolume: 1.0
     portionSize: 1
-    price: 320.0
     published: true
     radius: 1.0
     volume: 1.0
@@ -413,7 +376,6 @@ types:
     name: Vanadium Hafnite
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 80.0
     published: true
     radius: 1.0
     volume: 0.20000000298023224

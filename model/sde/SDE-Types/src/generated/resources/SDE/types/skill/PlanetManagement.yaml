@@ -6,7 +6,6 @@ types:
     name: Advanced Planetology
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -22,7 +21,6 @@ types:
     name: Command Center Upgrades
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -36,7 +34,6 @@ types:
     name: Interplanetary Consolidation
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -50,7 +47,6 @@ types:
     name: Planetology
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     primaryattribute: 165
     published: true
     radius: 1.0
@@ -68,7 +64,6 @@ types:
     name: Remote Sensing
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     primaryattribute: 165
     published: true
     radius: 1.0

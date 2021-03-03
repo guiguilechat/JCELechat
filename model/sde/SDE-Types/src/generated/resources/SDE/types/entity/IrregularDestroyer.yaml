@@ -71,7 +71,6 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
-    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -166,7 +165,6 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
-    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -217,14 +215,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 280.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 125000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 0.4690000116825104
@@ -300,15 +295,12 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 240.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0010000000474974513
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 125000
     entitymaxvelocitysignatureradiusmultiplier: 2
     entitymissiletypeid: 213
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.009999999776482582
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 0.4690000116825104
@@ -703,7 +695,6 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
-    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -1047,7 +1038,6 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
-    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -1514,7 +1504,6 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
-    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -1607,7 +1596,6 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
-    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0
@@ -1909,7 +1897,6 @@ types:
     optimalsigradius: 40
     packagedVolume: 43000.0
     portionSize: 1
-    price: 3.35E7
     published: false
     radius: 42.0
     rechargerate: 150000.0

@@ -6,7 +6,6 @@ types:
     name: Bastion Module I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -18,7 +17,6 @@ types:
     name: Covert Jump Portal Generator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.81455744E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -30,7 +28,6 @@ types:
     name: Industrial Core I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -40,7 +37,6 @@ types:
     name: Industrial Core II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -51,7 +47,6 @@ types:
     name: Jump Portal Generator I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.81455744E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -63,7 +58,6 @@ types:
     name: Siege Module I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -74,7 +68,6 @@ types:
     name: Siege Module II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -86,7 +79,6 @@ types:
     name: Triage Module I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -97,7 +89,6 @@ types:
     name: Triage Module II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.22349696E8
     published: true
     radius: 1.0
     techlevel: 2

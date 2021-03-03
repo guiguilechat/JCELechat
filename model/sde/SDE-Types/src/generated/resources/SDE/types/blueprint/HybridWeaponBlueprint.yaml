@@ -86,7 +86,6 @@ types:
     name: 125mm Railgun I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 90000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -97,7 +96,6 @@ types:
     name: 125mm Railgun II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -119,7 +117,6 @@ types:
     name: 150mm Railgun I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 150000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -130,7 +127,6 @@ types:
     name: 150mm Railgun II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -142,7 +138,6 @@ types:
     name: 200mm Railgun I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -153,7 +148,6 @@ types:
     name: 200mm Railgun II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -175,7 +169,6 @@ types:
     name: 250mm Railgun I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1500000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -186,7 +179,6 @@ types:
     name: 250mm Railgun II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -198,7 +190,6 @@ types:
     name: 350mm Railgun I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -209,7 +200,6 @@ types:
     name: 350mm Railgun II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -231,7 +221,6 @@ types:
     name: 425mm Railgun I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -242,7 +231,6 @@ types:
     name: 425mm Railgun II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -254,7 +242,6 @@ types:
     name: 75mm Gatling Rail I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 20000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -265,7 +252,6 @@ types:
     name: 75mm Gatling Rail II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -277,7 +263,6 @@ types:
     name: Anode Scoped Ion Siege Blaster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.228E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -289,7 +274,6 @@ types:
     name: Anode Scoped Triple Neutron Blaster Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.68E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -301,7 +285,6 @@ types:
     name: CONCORD Dual 1000mm Railgun Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.6052412E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -313,7 +296,6 @@ types:
     name: CONCORD Ion Siege Blaster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6286548E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -345,7 +327,6 @@ types:
     name: Carbide Compact Dual 1000mm Railgun Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.205E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -357,7 +338,6 @@ types:
     name: Compressed Enduring Dual 1000mm Railgun Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.205E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -369,7 +349,6 @@ types:
     name: Dual 1000mm Railgun I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.6052412E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -380,7 +359,6 @@ types:
     name: Dual 1000mm Railgun II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.6052412E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -392,7 +370,6 @@ types:
     name: Dual 150mm Railgun I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -403,7 +380,6 @@ types:
     name: Dual 150mm Railgun II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -415,7 +391,6 @@ types:
     name: Dual 250mm Railgun I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -426,7 +401,6 @@ types:
     name: Dual 250mm Railgun II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -438,7 +412,6 @@ types:
     name: Electron Blaster Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -449,7 +422,6 @@ types:
     name: Electron Blaster Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -481,7 +453,6 @@ types:
     name: Heavy Electron Blaster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 600000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -492,7 +463,6 @@ types:
     name: Heavy Electron Blaster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -504,7 +474,6 @@ types:
     name: Heavy Ion Blaster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 900000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -515,7 +484,6 @@ types:
     name: Heavy Ion Blaster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -527,7 +495,6 @@ types:
     name: Heavy Neutron Blaster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1200000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -538,7 +505,6 @@ types:
     name: Heavy Neutron Blaster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -550,7 +516,6 @@ types:
     name: Ion Blaster Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9000000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -561,7 +526,6 @@ types:
     name: Ion Blaster Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -573,7 +537,6 @@ types:
     name: Ion Siege Blaster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6286548E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -584,7 +547,6 @@ types:
     name: Ion Siege Blaster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6286548E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -596,7 +558,6 @@ types:
     name: Light Electron Blaster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 60000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -607,7 +568,6 @@ types:
     name: Light Electron Blaster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -619,7 +579,6 @@ types:
     name: Light Ion Blaster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 90000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -630,7 +589,6 @@ types:
     name: Light Ion Blaster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -642,7 +600,6 @@ types:
     name: Light Neutron Blaster I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 120000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -653,7 +610,6 @@ types:
     name: Light Neutron Blaster II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -665,7 +621,6 @@ types:
     name: Limited Precise Ion Siege Blaster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.228E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -677,7 +632,6 @@ types:
     name: Limited Precise Triple Neutron Blaster Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.68E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -689,7 +643,6 @@ types:
     name: Modal Enduring Ion Siege Blaster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.228E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -701,7 +654,6 @@ types:
     name: Modal Enduring Triple Neutron Blaster Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.68E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -713,7 +665,6 @@ types:
     name: Neutron Blaster Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.2E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -724,7 +675,6 @@ types:
     name: Neutron Blaster Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -734,7 +684,6 @@ types:
     name: Polarized Heavy Neutron Blaster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -744,7 +693,6 @@ types:
     name: Polarized Light Neutron Blaster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -754,7 +702,6 @@ types:
     name: Polarized Neutron Blaster Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9999999.0
     published: true
     radius: 1.0
     techlevel: 2
@@ -766,7 +713,6 @@ types:
     name: Prototype Precise Dual 1000mm Railgun Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.205E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -778,7 +724,6 @@ types:
     name: Regulated Compact Ion Siege Blaster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.228E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -790,7 +735,6 @@ types:
     name: Regulated Compact Triple Neutron Blaster Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.68E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -802,7 +746,6 @@ types:
     name: Scout Scoped Dual 1000mm Railgun Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 9.205E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -814,7 +757,6 @@ types:
     name: Shadow Serpentis Dual 1000mm Railgun Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4.6052412E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -826,7 +768,6 @@ types:
     name: Shadow Serpentis Ion Siege Blaster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6286548E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -838,7 +779,6 @@ types:
     name: Shadow Serpentis Triple Neutron Blaster Cannon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6286548E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -850,7 +790,6 @@ types:
     name: Triple Neutron Blaster Cannon I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.84E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -861,7 +800,6 @@ types:
     name: Triple Neutron Blaster Cannon II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.6286548E7
     published: true
     radius: 1.0
     techlevel: 2

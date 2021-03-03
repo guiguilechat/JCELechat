@@ -1,4 +1,4 @@
-package fr.guiguilechat.jcelechat.model.sde.types.planetaryinteraction;
+package fr.guiguilechat.jcelechat.model.sde.types.planetaryindustry;
 
 import java.io.InputStreamReader;
 import java.util.Arrays;
@@ -19,11 +19,11 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PlanetRestriction;
 import fr.guiguilechat.jcelechat.model.sde.attributes.PowerLoad;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
-import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryInteraction;
+import fr.guiguilechat.jcelechat.model.sde.types.PlanetaryIndustry;
 import org.yaml.snakeyaml.Yaml;
 
 public class StorageFacilities
-    extends PlanetaryInteraction
+    extends PlanetaryIndustry
 {
     /**
      * CPU load of ship
@@ -84,12 +84,12 @@ public class StorageFacilities
     public static class MetaGroup
         implements IMetaGroup<StorageFacilities>
     {
-        public static final String RESOURCE_PATH = "SDE/types/planetaryinteraction/StorageFacilities.yaml";
+        public static final String RESOURCE_PATH = "SDE/types/planetaryindustry/StorageFacilities.yaml";
         private Map<String, StorageFacilities> cache = (null);
 
         @Override
         public IMetaCategory<? super StorageFacilities> category() {
-            return PlanetaryInteraction.METACAT;
+            return PlanetaryIndustry.METACAT;
         }
 
         @Override

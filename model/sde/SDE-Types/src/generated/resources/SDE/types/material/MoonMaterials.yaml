@@ -6,7 +6,6 @@ types:
     name: Atmospheric Gases
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 2.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -17,7 +16,6 @@ types:
     name: Cadmium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 16.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -28,7 +26,6 @@ types:
     name: Caesium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 64.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -39,7 +36,6 @@ types:
     name: Chromium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 16.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -50,7 +46,6 @@ types:
     name: Cobalt
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 8.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -61,7 +56,6 @@ types:
     name: Dysprosium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 256.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -72,7 +66,6 @@ types:
     name: Evaporite Deposits
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 2.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -83,7 +76,6 @@ types:
     name: Hafnium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 64.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -94,7 +86,6 @@ types:
     name: Hydrocarbons
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 2.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -105,7 +96,6 @@ types:
     name: Mercury
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 64.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -116,7 +106,6 @@ types:
     name: Neodymium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 256.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -127,7 +116,6 @@ types:
     name: Platinum
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 16.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -138,7 +126,6 @@ types:
     name: Promethium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 256.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -149,7 +136,6 @@ types:
     name: Scandium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 8.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -160,7 +146,6 @@ types:
     name: Silicates
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 2.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -171,7 +156,6 @@ types:
     name: Technetium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 64.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -182,7 +166,6 @@ types:
     name: Thulium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 256.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -193,7 +176,6 @@ types:
     name: Titanium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 8.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -204,7 +186,6 @@ types:
     name: Tungsten
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 8.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806
@@ -215,7 +196,6 @@ types:
     name: Vanadium
     packagedVolume: 0.05000000074505806
     portionSize: 1
-    price: 16.0
     published: true
     radius: 1.0
     volume: 0.05000000074505806

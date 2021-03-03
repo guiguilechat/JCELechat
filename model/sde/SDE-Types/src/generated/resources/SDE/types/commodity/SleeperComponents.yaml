@@ -6,7 +6,6 @@ types:
     name: Ancient Coordinates Database
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 1500000.0
     published: true
     volume: 0.10000000149011612
   Neural Network Analyzer:
@@ -16,7 +15,6 @@ types:
     name: Neural Network Analyzer
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 200000.0
     published: true
     volume: 0.10000000149011612
   Sleeper Data Library:
@@ -26,7 +24,6 @@ types:
     name: Sleeper Data Library
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 500000.0
     published: true
     volume: 0.10000000149011612
   Sleeper Drone AI Nexus:
@@ -36,6 +33,5 @@ types:
     name: Sleeper Drone AI Nexus
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 5000000.0
     published: true
     volume: 0.10000000149011612

@@ -20,7 +20,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 7500
-    price: 75000.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -54,7 +53,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 9000
-    price: 75000.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -89,7 +87,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 6750
-    price: 75000.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -124,7 +121,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 6750
-    price: 75000.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582
@@ -159,7 +155,6 @@ types:
     packagedVolume: 1000.0
     portionSize: 1
     power: 6750
-    price: 75000.0
     published: true
     radius: 1.0
     reloadtime: 0.009999999776482582

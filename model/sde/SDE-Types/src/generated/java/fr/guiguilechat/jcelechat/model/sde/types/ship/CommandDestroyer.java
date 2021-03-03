@@ -319,8 +319,8 @@ public class CommandDestroyer
      */
     @HighIsGood(true)
     @Stackable(true)
-    @DefaultIntValue(0)
-    public int shipbonusgd1;
+    @DefaultRealValue(0.0)
+    public double shipbonusgd1;
     /**
      * 
      */

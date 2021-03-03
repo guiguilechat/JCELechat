@@ -7,7 +7,6 @@ types:
     name: Bacteria
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -19,7 +18,6 @@ types:
     name: Biofuels
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -31,7 +29,6 @@ types:
     name: Biomass
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -43,7 +40,6 @@ types:
     name: Chiral Structures
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -55,7 +51,6 @@ types:
     name: Electrolytes
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -67,7 +62,6 @@ types:
     name: Industrial Fibers
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -79,7 +73,6 @@ types:
     name: Oxidizing Compound
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -91,7 +84,6 @@ types:
     name: Oxygen
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 95.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -103,7 +95,6 @@ types:
     name: Plasmoids
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -115,7 +106,6 @@ types:
     name: Precious Metals
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -127,7 +117,6 @@ types:
     name: Proteins
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -139,7 +128,6 @@ types:
     name: Reactive Metals
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -151,7 +139,6 @@ types:
     name: Silicon
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 266.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -163,7 +150,6 @@ types:
     name: Toxic Metals
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 1.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284
@@ -175,7 +161,6 @@ types:
     name: Water
     packagedVolume: 0.3799999952316284
     portionSize: 1
-    price: 35.0
     published: true
     radius: 1.0
     volume: 0.3799999952316284

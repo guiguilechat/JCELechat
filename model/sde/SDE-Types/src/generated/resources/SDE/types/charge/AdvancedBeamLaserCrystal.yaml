@@ -15,7 +15,6 @@ types:
     name: Aurora L
     packagedVolume: 1.0
     portionSize: 4
-    price: 1344000.0
     published: true
     radius: 1.0
     requiredskill1: 12205
@@ -43,7 +42,6 @@ types:
     name: Aurora M
     packagedVolume: 1.0
     portionSize: 4
-    price: 537600.0
     published: true
     radius: 1.0
     requiredskill1: 12204
@@ -71,7 +69,6 @@ types:
     name: Aurora S
     packagedVolume: 1.0
     portionSize: 4
-    price: 134400.0
     published: true
     radius: 1.0
     requiredskill1: 11083
@@ -126,7 +123,6 @@ types:
     name: Gleam L
     packagedVolume: 1.0
     portionSize: 4
-    price: 1344000.0
     published: true
     radius: 1.0
     requiredskill1: 12205
@@ -154,7 +150,6 @@ types:
     name: Gleam M
     packagedVolume: 1.0
     portionSize: 4
-    price: 768000.0
     published: true
     radius: 1.0
     requiredskill1: 12204
@@ -182,7 +177,6 @@ types:
     name: Gleam S
     packagedVolume: 1.0
     portionSize: 4
-    price: 134400.0
     published: true
     radius: 1.0
     requiredskill1: 11083

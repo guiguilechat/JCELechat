@@ -394,14 +394,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0020000000949949026
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 300000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.019999999552965164
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 0.4690000116825104
@@ -490,14 +487,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 240.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0020000000949949026
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 300000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.019999999552965164
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamage: 4.0
@@ -578,14 +572,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 240.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0020000000949949026
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 300000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.019999999552965164
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 0.4690000116825104
@@ -668,14 +659,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 240.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0020000000949949026
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 300000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.019999999552965164
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamage: 4.0
@@ -760,14 +748,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0020000000949949026
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 300000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.019999999552965164
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 0.4690000116825104
@@ -852,14 +837,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 240.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0020000000949949026
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 300000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.019999999552965164
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 0.4690000116825104
@@ -941,14 +923,11 @@ types:
     entitychasemaxdurationchance: 1.0
     entitycruisespeed: 220.0
     entityequipmentgroupmax: 1
-    entityfactionloss: 0.0020000000949949026
     entityflyrange: 500.0
     entitygrouprespawnchance: 1
     entitykillbounty: 300000
     entitymaxvelocitysignatureradiusmultiplier: 4
     entityreactionfactor: 1.0
-    entitysecuritymaxgain: 5.0
-    entitysecuritystatuskillbonus: 0.019999999552965164
     entityshieldboostdelaychance: 1.0
     entityshieldboostduration: 10000
     explosivedamageresonance: 0.4690000116825104
@@ -3376,7 +3355,6 @@ types:
     optimalsigradius: 40000
     packagedVolume: 118000.0
     portionSize: 1
-    price: 7500000.0
     published: false
     radius: 250.0
     rechargerate: 395000.0
@@ -4442,7 +4420,6 @@ types:
     optimalsigradius: 40000
     packagedVolume: 118000.0
     portionSize: 1
-    price: 7500000.0
     published: false
     radius: 250.0
     rechargerate: 395000.0

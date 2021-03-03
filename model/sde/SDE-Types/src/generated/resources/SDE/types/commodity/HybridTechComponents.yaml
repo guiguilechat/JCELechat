@@ -6,7 +6,6 @@ types:
     name: Electromechanical Interface Nexus
     packagedVolume: 10.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -17,7 +16,6 @@ types:
     name: Emergent Neurovisual Interface
     packagedVolume: 20.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 20.0
@@ -28,7 +26,6 @@ types:
     name: Fullerene Intercalated Sheets
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 5.0
@@ -39,7 +36,6 @@ types:
     name: Fulleroferrocene Power Conduits
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 5.0
@@ -50,7 +46,6 @@ types:
     name: Metallofullerene Plating
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 5.0
@@ -61,7 +56,6 @@ types:
     name: Nanowire Composites
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 5.0
@@ -72,7 +66,6 @@ types:
     name: Neurovisual Output Analyzer
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 5.0
@@ -83,7 +76,6 @@ types:
     name: Optimized Nano-Engines
     packagedVolume: 10.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -94,7 +86,6 @@ types:
     name: Reconfigured Subspace Calibrator
     packagedVolume: 10.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -105,7 +96,6 @@ types:
     name: Reinforced Metallofullerene Alloys
     packagedVolume: 10.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 10.0
@@ -116,7 +106,6 @@ types:
     name: Self-Assembling Nanolattice
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 5.0
@@ -127,7 +116,6 @@ types:
     name: Superconducting Gravimetric Amplifier
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Ladar Amplifier:
@@ -137,7 +125,6 @@ types:
     name: Superconducting Ladar Amplifier
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Magnetometric Amplifier:
@@ -147,7 +134,6 @@ types:
     name: Superconducting Magnetometric Amplifier
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     volume: 5.0
   Superconducting Radar Amplifier:
@@ -157,7 +143,6 @@ types:
     name: Superconducting Radar Amplifier
     packagedVolume: 5.0
     portionSize: 1
-    price: 400000.0
     published: true
     volume: 5.0
   Warfare Computation Core:
@@ -167,7 +152,6 @@ types:
     name: Warfare Computation Core
     packagedVolume: 10.0
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 10.0

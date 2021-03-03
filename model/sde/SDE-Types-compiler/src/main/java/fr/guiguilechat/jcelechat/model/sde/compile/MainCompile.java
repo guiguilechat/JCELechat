@@ -52,7 +52,7 @@ public class MainCompile {
 	 * @throws IOException
 	 */
 	public static void main(String... args) throws IOException {
-		LOADER loader = LOADER.MIXED;
+		LOADER loader = LOADER.ESI;
 		boolean specifictests = false;
 		long startTime = System.currentTimeMillis();
 		File srcTarget = new File(args[0]);

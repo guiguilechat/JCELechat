@@ -12,7 +12,6 @@ types:
     name: Missile Precision Script
     packagedVolume: 1.0
     portionSize: 1
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -30,7 +29,6 @@ types:
     name: Missile Range Script
     packagedVolume: 1.0
     portionSize: 1
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1

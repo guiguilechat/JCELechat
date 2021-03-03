@@ -4,7 +4,6 @@ types:
     name: Amarr Advanced Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
     published: true
     volume: 1.0
   Amarr Advanced Outpost Laboratory:
@@ -12,7 +11,6 @@ types:
     name: Amarr Advanced Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
     published: true
     volume: 1.0
   Amarr Advanced Outpost Office:
@@ -20,7 +18,6 @@ types:
     name: Amarr Advanced Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
     published: true
     volume: 1.0
   Amarr Advanced Outpost Plant:
@@ -28,7 +25,6 @@ types:
     name: Amarr Advanced Outpost Plant
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
     published: true
     volume: 1.0
   Amarr Advanced Outpost Refinery:
@@ -36,7 +32,6 @@ types:
     name: Amarr Advanced Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
     published: true
     volume: 1.0
   Amarr Basic Outpost Factory:
@@ -44,7 +39,6 @@ types:
     name: Amarr Basic Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.25551424E8
     published: true
     volume: 1.0
   Amarr Basic Outpost Laboratory:
@@ -52,7 +46,6 @@ types:
     name: Amarr Basic Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.25551424E8
     published: true
     volume: 1.0
   Amarr Basic Outpost Office:
@@ -60,7 +53,6 @@ types:
     name: Amarr Basic Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.25551424E8
     published: true
     volume: 1.0
   Amarr Basic Outpost Plant:
@@ -68,7 +60,6 @@ types:
     name: Amarr Basic Outpost Plant
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.702171776E9
     published: true
     volume: 1.0
   Amarr Basic Outpost Refinery:
@@ -76,7 +67,6 @@ types:
     name: Amarr Basic Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.25551424E8
     published: true
     volume: 1.0
   Amarr Outpost Factory:
@@ -84,7 +74,6 @@ types:
     name: Amarr Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
     published: true
     volume: 1.0
   Amarr Outpost Laboratory:
@@ -92,7 +81,6 @@ types:
     name: Amarr Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
     published: true
     volume: 1.0
   Amarr Outpost Office:
@@ -100,7 +88,6 @@ types:
     name: Amarr Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
     published: true
     volume: 1.0
   Amarr Outpost Plant:
@@ -108,7 +95,6 @@ types:
     name: Amarr Outpost Plant
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
     published: true
     volume: 1.0
   Amarr Outpost Refinery:
@@ -116,7 +102,6 @@ types:
     name: Amarr Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.5110016E8
     published: true
     volume: 1.0
   Caldari Advanced Outpost Factory:
@@ -124,7 +109,6 @@ types:
     name: Caldari Advanced Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
     published: true
     volume: 1.0
   Caldari Advanced Outpost Laboratory:
@@ -132,7 +116,6 @@ types:
     name: Caldari Advanced Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
     published: true
     volume: 1.0
   Caldari Advanced Outpost Office:
@@ -140,7 +123,6 @@ types:
     name: Caldari Advanced Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
     published: true
     volume: 1.0
   Caldari Advanced Outpost Refinery:
@@ -148,7 +130,6 @@ types:
     name: Caldari Advanced Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
     published: true
     volume: 1.0
   Caldari Advanced Outpost Research Facility:
@@ -156,7 +137,6 @@ types:
     name: Caldari Advanced Outpost Research Facility
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.683617536E9
     published: true
     volume: 1.0
   Caldari Basic Outpost Factory:
@@ -164,7 +144,6 @@ types:
     name: Caldari Basic Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
     published: true
     volume: 1.0
   Caldari Basic Outpost Laboratory:
@@ -172,7 +151,6 @@ types:
     name: Caldari Basic Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
     published: true
     volume: 1.0
   Caldari Basic Outpost Office:
@@ -180,7 +158,6 @@ types:
     name: Caldari Basic Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
     published: true
     volume: 1.0
   Caldari Basic Outpost Refinery:
@@ -188,7 +165,6 @@ types:
     name: Caldari Basic Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
     published: true
     volume: 1.0
   Caldari Basic Outpost Research Facility:
@@ -196,7 +172,6 @@ types:
     name: Caldari Basic Outpost Research Facility
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.20921152E8
     published: true
     volume: 1.0
   Caldari Outpost Factory:
@@ -204,7 +179,6 @@ types:
     name: Caldari Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
     published: true
     volume: 1.0
   Caldari Outpost Laboratory:
@@ -212,7 +186,6 @@ types:
     name: Caldari Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
     published: true
     volume: 1.0
   Caldari Outpost Office:
@@ -220,7 +193,6 @@ types:
     name: Caldari Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
     published: true
     volume: 1.0
   Caldari Outpost Refinery:
@@ -228,7 +200,6 @@ types:
     name: Caldari Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
     published: true
     volume: 1.0
   Caldari Outpost Research Facility:
@@ -236,7 +207,6 @@ types:
     name: Caldari Outpost Research Facility
     packagedVolume: 1.0
     portionSize: 1
-    price: 8.41842304E8
     published: true
     volume: 1.0
   Gallente Advanced Outpost Factory:
@@ -244,7 +214,6 @@ types:
     name: Gallente Advanced Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
     published: true
     volume: 1.0
   Gallente Advanced Outpost Laboratory:
@@ -252,7 +221,6 @@ types:
     name: Gallente Advanced Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
     published: true
     volume: 1.0
   Gallente Advanced Outpost Office:
@@ -260,7 +228,6 @@ types:
     name: Gallente Advanced Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
     published: true
     volume: 1.0
   Gallente Advanced Outpost Plant:
@@ -268,7 +235,6 @@ types:
     name: Gallente Advanced Outpost Plant
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
     published: true
     volume: 1.0
   Gallente Advanced Outpost Refinery:
@@ -276,7 +242,6 @@ types:
     name: Gallente Advanced Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.403018496E9
     published: true
     volume: 1.0
   Gallente Basic Outpost Factory:
@@ -284,7 +249,6 @@ types:
     name: Gallente Basic Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
     published: true
     volume: 1.0
   Gallente Basic Outpost Laboratory:
@@ -292,7 +256,6 @@ types:
     name: Gallente Basic Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
     published: true
     volume: 1.0
   Gallente Basic Outpost Office:
@@ -300,7 +263,6 @@ types:
     name: Gallente Basic Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
     published: true
     volume: 1.0
   Gallente Basic Outpost Plant:
@@ -308,7 +270,6 @@ types:
     name: Gallente Basic Outpost Plant
     packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
     published: true
     volume: 1.0
   Gallente Basic Outpost Refinery:
@@ -316,7 +277,6 @@ types:
     name: Gallente Basic Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 3.50760384E8
     published: true
     volume: 1.0
   Gallente Outpost Factory:
@@ -324,7 +284,6 @@ types:
     name: Gallente Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
     published: true
     volume: 1.0
   Gallente Outpost Laboratory:
@@ -332,7 +291,6 @@ types:
     name: Gallente Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
     published: true
     volume: 1.0
   Gallente Outpost Office:
@@ -340,7 +298,6 @@ types:
     name: Gallente Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
     published: true
     volume: 1.0
   Gallente Outpost Plant:
@@ -348,7 +305,6 @@ types:
     name: Gallente Outpost Plant
     packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
     published: true
     volume: 1.0
   Gallente Outpost Refinery:
@@ -356,7 +312,6 @@ types:
     name: Gallente Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 7.01515008E8
     published: true
     volume: 1.0
   Minmatar Advanced Outpost Factory:
@@ -364,7 +319,6 @@ types:
     name: Minmatar Advanced Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
     published: true
     volume: 1.0
   Minmatar Advanced Outpost Laboratory:
@@ -372,7 +326,6 @@ types:
     name: Minmatar Advanced Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
     published: true
     volume: 1.0
   Minmatar Advanced Outpost Office:
@@ -380,7 +333,6 @@ types:
     name: Minmatar Advanced Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
     published: true
     volume: 1.0
   Minmatar Advanced Outpost Plant:
@@ -388,7 +340,6 @@ types:
     name: Minmatar Advanced Outpost Plant
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
     published: true
     volume: 1.0
   Minmatar Advanced Outpost Refinery:
@@ -396,7 +347,6 @@ types:
     name: Minmatar Advanced Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 1.983932032E9
     published: true
     volume: 1.0
   Minmatar Basic Outpost Factory:
@@ -404,7 +354,6 @@ types:
     name: Minmatar Basic Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
     published: true
     volume: 1.0
   Minmatar Basic Outpost Laboratory:
@@ -412,7 +361,6 @@ types:
     name: Minmatar Basic Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
     published: true
     volume: 1.0
   Minmatar Basic Outpost Office:
@@ -420,7 +368,6 @@ types:
     name: Minmatar Basic Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
     published: true
     volume: 1.0
   Minmatar Basic Outpost Plant:
@@ -428,7 +375,6 @@ types:
     name: Minmatar Basic Outpost Plant
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
     published: true
     volume: 1.0
   Minmatar Basic Outpost Refinery:
@@ -436,7 +382,6 @@ types:
     name: Minmatar Basic Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 4.9599456E8
     published: true
     volume: 1.0
   Minmatar Outpost Factory:
@@ -444,7 +389,6 @@ types:
     name: Minmatar Outpost Factory
     packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
     published: true
     volume: 1.0
   Minmatar Outpost Laboratory:
@@ -452,7 +396,6 @@ types:
     name: Minmatar Outpost Laboratory
     packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
     published: true
     volume: 1.0
   Minmatar Outpost Office:
@@ -460,7 +403,6 @@ types:
     name: Minmatar Outpost Office
     packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
     published: true
     volume: 1.0
   Minmatar Outpost Plant:
@@ -468,7 +410,6 @@ types:
     name: Minmatar Outpost Plant
     packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
     published: true
     volume: 1.0
   Minmatar Outpost Refinery:
@@ -476,6 +417,5 @@ types:
     name: Minmatar Outpost Refinery
     packagedVolume: 1.0
     portionSize: 1
-    price: 9.91974208E8
     published: true
     volume: 1.0

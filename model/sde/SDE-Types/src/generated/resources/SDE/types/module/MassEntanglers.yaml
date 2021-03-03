@@ -19,7 +19,6 @@ types:
     packagedVolume: 50.0
     portionSize: 1
     power: 80
-    price: 3964874.0
     published: true
     radius: 1.0
     requiredskill2: 11446

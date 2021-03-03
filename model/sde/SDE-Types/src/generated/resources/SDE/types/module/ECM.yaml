@@ -17,7 +17,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -48,7 +47,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -79,7 +77,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -110,7 +107,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -140,7 +136,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -170,7 +165,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -200,7 +194,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -230,7 +223,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 29696.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -261,7 +253,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 29696.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -291,7 +282,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -322,7 +312,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 29696.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -352,7 +341,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -382,7 +370,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -411,7 +398,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -441,7 +427,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 184600.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -471,7 +456,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -501,7 +485,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -531,7 +514,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 29696.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -561,7 +543,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 14848.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -592,7 +573,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 29696.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -621,7 +601,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -651,7 +630,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 193826.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -681,7 +659,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -712,7 +689,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -743,7 +719,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -774,7 +749,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -805,7 +779,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 29696.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -836,7 +809,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -865,7 +837,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -895,7 +866,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 194778.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -925,7 +895,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -954,7 +923,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 29696.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -984,7 +952,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 232064.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -1013,7 +980,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -1043,7 +1009,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 192450.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -1073,7 +1038,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -1104,7 +1068,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 29696.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -1134,7 +1097,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 20000.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253
@@ -1165,7 +1127,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 29696.0
     published: true
     radius: 1.0
     remoteresistanceid: 2253

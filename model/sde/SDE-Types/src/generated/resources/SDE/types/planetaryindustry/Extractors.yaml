@@ -11,7 +11,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Barren Base Metals Extractor:
@@ -26,7 +25,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Barren Carbon Compounds Extractor:
@@ -41,7 +39,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Barren Microorganisms Extractor:
@@ -56,7 +53,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Barren Noble Metals Extractor:
@@ -71,7 +67,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Gas Aqueous Liquid Extractor:
@@ -86,7 +81,6 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Gas Base Metals Extractor:
@@ -101,7 +95,6 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Gas Ionic Solutions Extractor:
@@ -116,7 +109,6 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Gas Noble Gas Extractor:
@@ -131,7 +123,6 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Gas Reactive Gas Extractor:
@@ -146,7 +137,6 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Ice Aqueous Liquid Extractor:
@@ -161,7 +151,6 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Ice Heavy Metals Extractor:
@@ -176,7 +165,6 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Ice Microorganisms Extractor:
@@ -191,7 +179,6 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Ice Noble Gas Extractor:
@@ -206,7 +193,6 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Ice Planktic Colonies Extractor:
@@ -221,7 +207,6 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Lava Base Metals Extractor:
@@ -236,7 +221,6 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Lava Felsic Magma Extractor:
@@ -251,7 +235,6 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Lava Heavy Metals Extractor:
@@ -266,7 +249,6 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Lava Non-CS Crystals Extractor:
@@ -281,7 +263,6 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Lava Suspended Plasma Extractor:
@@ -296,7 +277,6 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Oceanic Aqueous Liquid Extractor:
@@ -311,7 +291,6 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Oceanic Carbon Compounds Extractor:
@@ -326,7 +305,6 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Oceanic Complex Organisms Extractor:
@@ -341,7 +319,6 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Oceanic Microorganisms Extractor:
@@ -356,7 +333,6 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Oceanic Planktic Colonies Extractor:
@@ -371,7 +347,6 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Plasma Base Metals Extractor:
@@ -386,7 +361,6 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Plasma Heavy Metals Extractor:
@@ -401,7 +375,6 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Plasma Noble Metals Extractor:
@@ -416,7 +389,6 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Plasma Non-CS Crystals Extractor:
@@ -431,7 +403,6 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Plasma Suspended Plasma Extractor:
@@ -446,7 +417,6 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Storm Aqueous Liquid Extractor:
@@ -461,7 +431,6 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Storm Base Metals Extractor:
@@ -476,7 +445,6 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Storm Ionic Solutions Extractor:
@@ -491,7 +459,6 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Storm Noble Gas Extractor:
@@ -506,7 +473,6 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Storm Suspended Plasma Extractor:
@@ -521,7 +487,6 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Temperate Aqueous Liquid Extractor:
@@ -536,7 +501,6 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Temperate Autotrophs Extractor:
@@ -551,7 +515,6 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Temperate Carbon Compounds Extractor:
@@ -566,7 +529,6 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Temperate Complex Organisms Extractor:
@@ -581,7 +543,6 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0
   Temperate Microorganisms Extractor:
@@ -596,6 +557,5 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 800
-    price: 45000.0
     published: true
     radius: 1.0

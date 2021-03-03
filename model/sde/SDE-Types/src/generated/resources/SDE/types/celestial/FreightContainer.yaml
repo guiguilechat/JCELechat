@@ -7,7 +7,6 @@ types:
     name: Enormous Freight Container
     packagedVolume: 2500.0
     portionSize: 1
-    price: 110000.0
     published: true
     radius: 150.0
     structureuniformity: 1.0
@@ -20,7 +19,6 @@ types:
     name: Giant Freight Container
     packagedVolume: 1200.0
     portionSize: 1
-    price: 110000.0
     published: true
     radius: 150.0
     structureuniformity: 1.0
@@ -33,7 +31,6 @@ types:
     name: Huge Freight Container
     packagedVolume: 500.0
     portionSize: 1
-    price: 110000.0
     published: true
     radius: 150.0
     structureuniformity: 1.0
@@ -46,7 +43,6 @@ types:
     name: Large Freight Container
     packagedVolume: 100.0
     portionSize: 1
-    price: 110000.0
     published: true
     radius: 150.0
     structureuniformity: 1.0
@@ -59,7 +55,6 @@ types:
     name: Medium Freight Container
     packagedVolume: 50.0
     portionSize: 1
-    price: 110000.0
     published: true
     radius: 150.0
     structureuniformity: 1.0
@@ -72,7 +67,6 @@ types:
     name: Small Freight Container
     packagedVolume: 10.0
     portionSize: 1
-    price: 110000.0
     published: true
     radius: 150.0
     structureuniformity: 1.0

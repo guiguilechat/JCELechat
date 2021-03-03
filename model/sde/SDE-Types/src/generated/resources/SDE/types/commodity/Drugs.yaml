@@ -6,7 +6,6 @@ types:
     name: Blue Pill
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 2200.0
     published: true
     volume: 0.20000000298023224
   Crash:
@@ -16,7 +15,6 @@ types:
     name: Crash
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 1100.0
     published: true
     volume: 0.20000000298023224
   Crates of Crystal Eggs:
@@ -25,7 +23,6 @@ types:
     name: Crates of Crystal Eggs
     packagedVolume: 90.0
     portionSize: 1
-    price: 5000.0
     published: true
     volume: 90.0
   Crystal Egg:
@@ -35,7 +32,6 @@ types:
     name: Crystal Egg
     packagedVolume: 0.5
     portionSize: 1
-    price: 5000.0
     published: true
     volume: 0.5
   Drop:
@@ -45,7 +41,6 @@ types:
     name: Drop
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 1000.0
     published: true
     volume: 0.20000000298023224
   Exile:
@@ -55,7 +50,6 @@ types:
     name: Exile
     packagedVolume: 1.0
     portionSize: 1
-    price: 15500.0
     published: true
     volume: 1.0
   Frentix:
@@ -65,7 +59,6 @@ types:
     name: Frentix
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 1400.0
     published: true
     volume: 0.20000000298023224
   Large Crates of Crystal Eggs:
@@ -74,7 +67,6 @@ types:
     name: Large Crates of Crystal Eggs
     packagedVolume: 500.0
     portionSize: 1
-    price: 5000.0
     published: true
     volume: 500.0
   Mindflood:
@@ -84,7 +76,6 @@ types:
     name: Mindflood
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 1500.0
     published: true
     volume: 0.20000000298023224
   Nerve Sticks:
@@ -94,7 +85,6 @@ types:
     name: Nerve Sticks
     packagedVolume: 0.20000000298023224
     portionSize: 1
-    price: 2500.0
     published: true
     volume: 0.20000000298023224
   Sooth Sayer:
@@ -104,7 +94,6 @@ types:
     name: Sooth Sayer
     packagedVolume: 1.0
     portionSize: 1
-    price: 8900.0
     published: true
     volume: 1.0
   Vitoc:
@@ -114,7 +103,6 @@ types:
     name: Vitoc
     packagedVolume: 0.5
     portionSize: 1
-    price: 9300.0
     published: true
     volume: 0.5
   X-Instinct:
@@ -124,6 +112,5 @@ types:
     name: X-Instinct
     packagedVolume: 1.0
     portionSize: 1
-    price: 13500.0
     published: true
     volume: 1.0

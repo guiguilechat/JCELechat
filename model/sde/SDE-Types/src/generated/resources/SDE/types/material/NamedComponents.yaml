@@ -6,7 +6,6 @@ types:
     name: Ample Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Ample Conductors:
@@ -16,7 +15,6 @@ types:
     name: Ample Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Ample Electronics:
@@ -26,7 +24,6 @@ types:
     name: Ample Electronics
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Compact Compounds:
@@ -36,7 +33,6 @@ types:
     name: Compact Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Compact Conductors:
@@ -46,7 +42,6 @@ types:
     name: Compact Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Compact Electronics:
@@ -56,7 +51,6 @@ types:
     name: Compact Electronics
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Enduring Compounds:
@@ -66,7 +60,6 @@ types:
     name: Enduring Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Enduring Conductors:
@@ -76,7 +69,6 @@ types:
     name: Enduring Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Enduring Electronics:
@@ -86,7 +78,6 @@ types:
     name: Enduring Electronics
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Korako's Modified Drone Control Unit:
@@ -96,7 +87,6 @@ types:
     name: Korako's Modified Drone Control Unit
     packagedVolume: 0.10000000149011612
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.10000000149011612
   Precise Compounds:
@@ -106,7 +96,6 @@ types:
     name: Precise Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Precise Conductors:
@@ -116,7 +105,6 @@ types:
     name: Precise Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Precise Electronics:
@@ -126,7 +114,6 @@ types:
     name: Precise Electronics
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Restrained Compounds:
@@ -136,7 +123,6 @@ types:
     name: Restrained Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Restrained Conductors:
@@ -146,7 +132,6 @@ types:
     name: Restrained Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Restrained Electronics:
@@ -156,7 +141,6 @@ types:
     name: Restrained Electronics
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Scoped Compounds:
@@ -166,7 +150,6 @@ types:
     name: Scoped Compounds
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Scoped Conductors:
@@ -176,7 +159,6 @@ types:
     name: Scoped Conductors
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513
   Scoped Electronics:
@@ -186,6 +168,5 @@ types:
     name: Scoped Electronics
     packagedVolume: 0.0010000000474974513
     portionSize: 1
-    price: 250000.0
     published: true
     volume: 0.0010000000474974513

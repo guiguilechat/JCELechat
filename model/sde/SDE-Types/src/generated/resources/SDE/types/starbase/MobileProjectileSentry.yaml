@@ -36,7 +36,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 364500
-    price: 1.25E7
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -97,7 +96,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 243000
-    price: 1.0E7
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -158,7 +156,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 182250
-    price: 2500000.0
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -219,7 +216,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 121500
-    price: 2000000.0
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -280,7 +276,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 91125
-    price: 500000.0
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -341,7 +336,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 60750
-    price: 400000.0
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -402,7 +396,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 324000
-    price: 1.25E7
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -463,7 +456,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 216000
-    price: 1.0E7
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -524,7 +516,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 162000
-    price: 2500000.0
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -585,7 +576,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 108000
-    price: 2000000.0
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -646,7 +636,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 81000
-    price: 500000.0
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -707,7 +696,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 54000
-    price: 400000.0
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -767,7 +755,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 405000
-    price: 1.25E7
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -827,7 +814,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 270000
-    price: 1.0E7
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -887,7 +873,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 202500
-    price: 2500000.0
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -947,7 +932,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 135000
-    price: 2000000.0
     proximityrange: 90000
     published: true
     radius: 400.0
@@ -1007,7 +991,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 101250
-    price: 500000.0
     proximityrange: 330000
     published: true
     radius: 400.0
@@ -1067,7 +1050,6 @@ types:
     portionSize: 1
     posplayercontrolstructure: 1
     power: 67500
-    price: 400000.0
     proximityrange: 90000
     published: true
     radius: 400.0

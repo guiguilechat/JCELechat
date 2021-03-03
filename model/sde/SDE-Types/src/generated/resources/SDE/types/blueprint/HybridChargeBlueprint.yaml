@@ -6,7 +6,6 @@ types:
     name: Antimatter Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Antimatter Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -28,7 +26,6 @@ types:
     name: Antimatter Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 100000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -39,7 +36,6 @@ types:
     name: Antimatter Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -50,7 +46,6 @@ types:
     name: Iridium Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 400000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -61,7 +56,6 @@ types:
     name: Iridium Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 150000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -72,7 +66,6 @@ types:
     name: Iridium Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 40000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -83,7 +76,6 @@ types:
     name: Iridium Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 4000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -94,7 +86,6 @@ types:
     name: Iron Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -105,7 +96,6 @@ types:
     name: Iron Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 80000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -116,7 +106,6 @@ types:
     name: Iron Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 20000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -127,7 +116,6 @@ types:
     name: Iron Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -138,7 +126,6 @@ types:
     name: Lead Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 500000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -149,7 +136,6 @@ types:
     name: Lead Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 175000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -160,7 +146,6 @@ types:
     name: Lead Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 50000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -171,7 +156,6 @@ types:
     name: Lead Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -182,7 +166,6 @@ types:
     name: Plutonium Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 800000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -193,7 +176,6 @@ types:
     name: Plutonium Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 325000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -204,7 +186,6 @@ types:
     name: Plutonium Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 80000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -215,7 +196,6 @@ types:
     name: Plutonium Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 8000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -226,7 +206,6 @@ types:
     name: Thorium Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 600000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -237,7 +216,6 @@ types:
     name: Thorium Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 225000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -248,7 +226,6 @@ types:
     name: Thorium Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 60000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -259,7 +236,6 @@ types:
     name: Thorium Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -270,7 +246,6 @@ types:
     name: Tungsten Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 300000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -281,7 +256,6 @@ types:
     name: Tungsten Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 110000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -292,7 +266,6 @@ types:
     name: Tungsten Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -303,7 +276,6 @@ types:
     name: Tungsten Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -314,7 +286,6 @@ types:
     name: Uranium Charge L Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 700000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -325,7 +296,6 @@ types:
     name: Uranium Charge M Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 275000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -336,7 +306,6 @@ types:
     name: Uranium Charge S Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 70000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -347,7 +316,6 @@ types:
     name: Uranium Charge XL Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7000000.0
     published: true
     radius: 1.0
     volume: 0.009999999776482582

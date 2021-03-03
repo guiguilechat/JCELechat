@@ -6,7 +6,6 @@ types:
     name: Capital Antimatter Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Capital Crystalline Carbonide Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -28,7 +26,6 @@ types:
     name: Capital Deflection Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -39,7 +36,6 @@ types:
     name: Capital EM Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -50,7 +46,6 @@ types:
     name: Capital Electrolytic Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -61,7 +56,6 @@ types:
     name: Capital Fernite Carbide Composite Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -72,7 +66,6 @@ types:
     name: Capital Fusion Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -83,7 +76,6 @@ types:
     name: Capital Fusion Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -94,7 +86,6 @@ types:
     name: Capital Gravimetric Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -105,7 +96,6 @@ types:
     name: Capital Graviton Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -116,7 +106,6 @@ types:
     name: Capital Graviton Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -127,7 +116,6 @@ types:
     name: Capital Ion Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -138,7 +126,6 @@ types:
     name: Capital Ladar Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -149,7 +136,6 @@ types:
     name: Capital Laser Focusing Crystals Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -160,7 +146,6 @@ types:
     name: Capital Linear Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -171,7 +156,6 @@ types:
     name: Capital Magnetometric Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -182,7 +166,6 @@ types:
     name: Capital Magpulse Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -193,7 +176,6 @@ types:
     name: Capital Nanoelectrical Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -204,7 +186,6 @@ types:
     name: Capital Nanomechanical Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -215,7 +196,6 @@ types:
     name: Capital Nuclear Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -226,7 +206,6 @@ types:
     name: Capital Nuclear Reactor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -237,7 +216,6 @@ types:
     name: Capital Oscillator Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -248,7 +226,6 @@ types:
     name: Capital Particle Accelerator Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -259,7 +236,6 @@ types:
     name: Capital Photon Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -270,7 +246,6 @@ types:
     name: Capital Plasma Pulse Generator Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -281,7 +256,6 @@ types:
     name: Capital Plasma Thruster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -292,7 +266,6 @@ types:
     name: Capital Pulse Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -303,7 +276,6 @@ types:
     name: Capital Quantum Microprocessor Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -314,7 +286,6 @@ types:
     name: Capital Radar Sensor Cluster Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -325,7 +296,6 @@ types:
     name: Capital Scalar Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -336,7 +306,6 @@ types:
     name: Capital Superconductor Rails Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -347,7 +316,6 @@ types:
     name: Capital Sustained Shield Emitter Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -358,7 +326,6 @@ types:
     name: Capital Tesseract Capacitor Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -369,7 +336,6 @@ types:
     name: Capital Thermonuclear Trigger Unit Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -380,7 +346,6 @@ types:
     name: Capital Titanium Diborite Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -391,7 +356,6 @@ types:
     name: Capital Tungsten Carbide Armor Plate Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E7
     published: true
     radius: 1.0
     volume: 0.009999999776482582

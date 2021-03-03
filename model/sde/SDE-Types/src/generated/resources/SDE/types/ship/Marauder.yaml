@@ -44,7 +44,7 @@ types:
     maxdirectionalvelocity: 1000
     maxlockedtargets: 10
     maxpassengers: 1000
-    maxtargetrange: 95000.0
+    maxtargetrange: 123500.0
     maxvelocity: 100.0
     medslots: 7
     metalevelold: 5
@@ -54,7 +54,6 @@ types:
     portionSize: 1
     poweroutput: 8500
     powertospeed: 1
-    price: 2.84750528E8
     propulsiongraphicid: 395
     published: true
     radius: 250.0
@@ -66,7 +65,7 @@ types:
     rigsize: 3
     rigslots: 2
     rolebonusmarauder: -70
-    scangravimetricstrength: 14.0
+    scangravimetricstrength: 23.0
     scanresolution: 140.0
     scanspeed: 9000
     shieldcapacity: 8800.0
@@ -101,7 +100,7 @@ types:
     armorthermaldamageresonance: 0.5687500238418579
     armoruniformity: 0.75
     basewarpspeed: 1
-    capacitorcapacity: 6900.0
+    capacitorcapacity: 8000.0
     capacity: 1275.0
     cpuoutput: 580
     dronebandwidth: 50
@@ -136,7 +135,7 @@ types:
     maxdirectionalvelocity: 1000
     maxlockedtargets: 10
     maxpassengers: 1000
-    maxtargetrange: 90000.0
+    maxtargetrange: 117000.0
     maxvelocity: 105.0
     medslots: 4
     metalevelold: 5
@@ -146,11 +145,10 @@ types:
     portionSize: 1
     poweroutput: 14000
     powertospeed: 1
-    price: 2.80626304E8
     propulsiongraphicid: 395
     published: true
     radius: 250.0
-    rechargerate: 1150000.0
+    rechargerate: 1050000.0
     requiredskill1: 3336
     requiredskill1level: 5
     requiredskill2: 28667
@@ -158,7 +156,7 @@ types:
     rigsize: 3
     rigslots: 2
     rolebonusmarauder: -70
-    scanmagnetometricstrength: 13.0
+    scanmagnetometricstrength: 22.0
     scanresolution: 160.0
     scanspeed: 8250
     shieldcapacity: 7300.0
@@ -229,7 +227,7 @@ types:
     maxdirectionalvelocity: 1000
     maxlockedtargets: 10
     maxpassengers: 999
-    maxtargetrange: 91000.0
+    maxtargetrange: 118300.0
     maxvelocity: 100.0
     medslots: 4
     metalevelold: 5
@@ -239,7 +237,6 @@ types:
     portionSize: 1
     poweroutput: 16000
     powertospeed: 1
-    price: 2.88874944E8
     propulsiongraphicid: 394
     published: true
     radius: 250.0
@@ -251,7 +248,7 @@ types:
     rigsize: 3
     rigslots: 2
     rolebonusmarauder: -70
-    scanradarstrength: 12.0
+    scanradarstrength: 21.0
     scanresolution: 160.0
     scanspeed: 7500
     shieldcapacity: 6900.0
@@ -262,7 +259,7 @@ types:
     shieldthermaldamageresonance: 0.800000011920929
     shielduniformity: 0.75
     shipbonusab: 7.5
-    shipbonusab2: 5.0
+    shipbonusab2: -10.0
     shipbonuscb: 5
     shipbonusmb: 5.0
     signatureradius: 420.0
@@ -321,7 +318,7 @@ types:
     maxdirectionalvelocity: 1000
     maxlockedtargets: 10
     maxpassengers: 1000
-    maxtargetrange: 81000.0
+    maxtargetrange: 105300.0
     maxvelocity: 110.0
     medslots: 6
     metalevelold: 5
@@ -331,7 +328,6 @@ types:
     portionSize: 1
     poweroutput: 12900
     powertospeed: 1
-    price: 2.79247136E8
     propulsiongraphicid: 397
     published: true
     radius: 250.0
@@ -343,7 +339,7 @@ types:
     rigsize: 3
     rigslots: 2
     rolebonusmarauder: -70
-    scanladarstrength: 11.0
+    scanladarstrength: 20.0
     scanresolution: 180.0
     scanspeed: 6750
     shieldcapacity: 8300.0
@@ -356,7 +352,7 @@ types:
     shipbonusab: 5.0
     shipbonuscb: 5
     shipbonusmb: 10.0
-    shipbonusmb2: -5.0
+    shipbonusmb2: 7.5
     signatureradius: 360.0
     structureuniformity: 1.0
     techlevel: 2

@@ -12,7 +12,6 @@ types:
     name: Arch Angel Carbonized Lead L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -32,7 +31,6 @@ types:
     name: Arch Angel Carbonized Lead M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -52,7 +50,6 @@ types:
     name: Arch Angel Carbonized Lead S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -72,7 +69,6 @@ types:
     name: Arch Angel Carbonized Lead XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -92,7 +88,6 @@ types:
     name: Arch Angel Depleted Uranium L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -113,7 +108,6 @@ types:
     name: Arch Angel Depleted Uranium M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -134,7 +128,6 @@ types:
     name: Arch Angel Depleted Uranium S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -155,7 +148,6 @@ types:
     name: Arch Angel Depleted Uranium XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -177,7 +169,6 @@ types:
     name: Arch Angel EMP L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -198,7 +189,6 @@ types:
     name: Arch Angel EMP M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -219,7 +209,6 @@ types:
     name: Arch Angel EMP S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -240,7 +229,6 @@ types:
     name: Arch Angel EMP XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -260,7 +248,6 @@ types:
     name: Arch Angel Fusion L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -280,7 +267,6 @@ types:
     name: Arch Angel Fusion M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -300,7 +286,6 @@ types:
     name: Arch Angel Fusion S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -320,7 +305,6 @@ types:
     name: Arch Angel Fusion XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -340,7 +324,6 @@ types:
     name: Arch Angel Nuclear L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -360,7 +343,6 @@ types:
     name: Arch Angel Nuclear M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -380,7 +362,6 @@ types:
     name: Arch Angel Nuclear S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -400,7 +381,6 @@ types:
     name: Arch Angel Nuclear XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -419,7 +399,6 @@ types:
     name: Arch Angel Phased Plasma L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -439,7 +418,6 @@ types:
     name: Arch Angel Phased Plasma M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -459,7 +437,6 @@ types:
     name: Arch Angel Phased Plasma S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -479,7 +456,6 @@ types:
     name: Arch Angel Phased Plasma XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -500,7 +476,6 @@ types:
     name: Arch Angel Proton L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -520,7 +495,6 @@ types:
     name: Arch Angel Proton M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -540,7 +514,6 @@ types:
     name: Arch Angel Proton S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -560,7 +533,6 @@ types:
     name: Arch Angel Proton XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -580,7 +552,6 @@ types:
     name: Arch Angel Titanium Sabot L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -600,7 +571,6 @@ types:
     name: Arch Angel Titanium Sabot M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -620,7 +590,6 @@ types:
     name: Arch Angel Titanium Sabot S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -640,7 +609,6 @@ types:
     name: Arch Angel Titanium Sabot XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -659,7 +627,6 @@ types:
     name: Carbonized Lead L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 2000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -678,7 +645,6 @@ types:
     name: Carbonized Lead M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 800.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -697,7 +663,6 @@ types:
     name: Carbonized Lead S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 200.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -716,7 +681,6 @@ types:
     name: Carbonized Lead XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 20000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -735,7 +699,6 @@ types:
     name: Depleted Uranium L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 5000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -755,7 +718,6 @@ types:
     name: Depleted Uranium M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 2050.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -775,7 +737,6 @@ types:
     name: Depleted Uranium S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 500.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -795,7 +756,6 @@ types:
     name: Depleted Uranium XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 50000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -816,7 +776,6 @@ types:
     name: Domination Carbonized Lead L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -836,7 +795,6 @@ types:
     name: Domination Carbonized Lead M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -856,7 +814,6 @@ types:
     name: Domination Carbonized Lead S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -876,7 +833,6 @@ types:
     name: Domination Carbonized Lead XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -896,7 +852,6 @@ types:
     name: Domination Depleted Uranium L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -917,7 +872,6 @@ types:
     name: Domination Depleted Uranium M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -938,7 +892,6 @@ types:
     name: Domination Depleted Uranium S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -959,7 +912,6 @@ types:
     name: Domination Depleted Uranium XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -981,7 +933,6 @@ types:
     name: Domination EMP L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1002,7 +953,6 @@ types:
     name: Domination EMP M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1023,7 +973,6 @@ types:
     name: Domination EMP S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1044,7 +993,6 @@ types:
     name: Domination EMP XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1064,7 +1012,6 @@ types:
     name: Domination Fusion L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1084,7 +1031,6 @@ types:
     name: Domination Fusion M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1104,7 +1050,6 @@ types:
     name: Domination Fusion S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1124,7 +1069,6 @@ types:
     name: Domination Fusion XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1144,7 +1088,6 @@ types:
     name: Domination Nuclear L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1164,7 +1107,6 @@ types:
     name: Domination Nuclear M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1184,7 +1126,6 @@ types:
     name: Domination Nuclear S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1204,7 +1145,6 @@ types:
     name: Domination Nuclear XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1223,7 +1163,6 @@ types:
     name: Domination Phased Plasma L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1243,7 +1182,6 @@ types:
     name: Domination Phased Plasma M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1263,7 +1201,6 @@ types:
     name: Domination Phased Plasma S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1283,7 +1220,6 @@ types:
     name: Domination Phased Plasma XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1304,7 +1240,6 @@ types:
     name: Domination Proton L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1324,7 +1259,6 @@ types:
     name: Domination Proton M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1344,7 +1278,6 @@ types:
     name: Domination Proton S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1364,7 +1297,6 @@ types:
     name: Domination Proton XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1384,7 +1316,6 @@ types:
     name: Domination Titanium Sabot L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1404,7 +1335,6 @@ types:
     name: Domination Titanium Sabot M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1424,7 +1354,6 @@ types:
     name: Domination Titanium Sabot S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1444,7 +1373,6 @@ types:
     name: Domination Titanium Sabot XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1464,7 +1392,6 @@ types:
     name: EMP L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1484,7 +1411,6 @@ types:
     name: EMP M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1504,7 +1430,6 @@ types:
     name: EMP S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1524,7 +1449,6 @@ types:
     name: EMP XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1543,7 +1467,6 @@ types:
     name: Fusion L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 7000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1562,7 +1485,6 @@ types:
     name: Fusion M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 2750.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1581,7 +1503,6 @@ types:
     name: Fusion S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 700.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1600,7 +1521,6 @@ types:
     name: Fusion XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 70000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1619,7 +1539,6 @@ types:
     name: Nuclear L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 3000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1638,7 +1557,6 @@ types:
     name: Nuclear M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 1200.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1657,7 +1575,6 @@ types:
     name: Nuclear S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 300.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1676,7 +1593,6 @@ types:
     name: Nuclear XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 30000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1694,7 +1610,6 @@ types:
     name: Phased Plasma L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 8000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1713,7 +1628,6 @@ types:
     name: Phased Plasma M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 3250.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1732,7 +1646,6 @@ types:
     name: Phased Plasma S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 800.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1751,7 +1664,6 @@ types:
     name: Phased Plasma XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 80000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1771,7 +1683,6 @@ types:
     name: Proton L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1790,7 +1701,6 @@ types:
     name: Proton M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 1650.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1809,7 +1719,6 @@ types:
     name: Proton S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 400.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1828,7 +1737,6 @@ types:
     name: Proton XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 40000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1848,7 +1756,6 @@ types:
     name: Republic Fleet Carbonized Lead L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 2000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1868,7 +1775,6 @@ types:
     name: Republic Fleet Carbonized Lead M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 800.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1888,7 +1794,6 @@ types:
     name: Republic Fleet Carbonized Lead S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 200.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1908,7 +1813,6 @@ types:
     name: Republic Fleet Carbonized Lead XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 20000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1928,7 +1832,6 @@ types:
     name: Republic Fleet Depleted Uranium L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 5000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -1949,7 +1852,6 @@ types:
     name: Republic Fleet Depleted Uranium M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 2050.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1970,7 +1872,6 @@ types:
     name: Republic Fleet Depleted Uranium S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 500.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -1991,7 +1892,6 @@ types:
     name: Republic Fleet Depleted Uranium XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 50000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2013,7 +1913,6 @@ types:
     name: Republic Fleet EMP L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 10000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2034,7 +1933,6 @@ types:
     name: Republic Fleet EMP M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2055,7 +1953,6 @@ types:
     name: Republic Fleet EMP S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 1000.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2076,7 +1973,6 @@ types:
     name: Republic Fleet EMP XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 100000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2096,7 +1992,6 @@ types:
     name: Republic Fleet Fusion L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 7000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2116,7 +2011,6 @@ types:
     name: Republic Fleet Fusion M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 2750.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2136,7 +2030,6 @@ types:
     name: Republic Fleet Fusion S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 700.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2156,7 +2049,6 @@ types:
     name: Republic Fleet Fusion XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 70000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2176,7 +2068,6 @@ types:
     name: Republic Fleet Nuclear L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 3000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2196,7 +2087,6 @@ types:
     name: Republic Fleet Nuclear M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 1200.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2216,7 +2106,6 @@ types:
     name: Republic Fleet Nuclear S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 300.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2236,7 +2125,6 @@ types:
     name: Republic Fleet Nuclear XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 30000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2255,7 +2143,6 @@ types:
     name: Republic Fleet Phased Plasma L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 8000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2275,7 +2162,6 @@ types:
     name: Republic Fleet Phased Plasma M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 3250.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2295,7 +2181,6 @@ types:
     name: Republic Fleet Phased Plasma S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 800.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2315,7 +2200,6 @@ types:
     name: Republic Fleet Phased Plasma XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 80000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2336,7 +2220,6 @@ types:
     name: Republic Fleet Proton L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 4000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2356,7 +2239,6 @@ types:
     name: Republic Fleet Proton M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 1650.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2376,7 +2258,6 @@ types:
     name: Republic Fleet Proton S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 400.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2396,7 +2277,6 @@ types:
     name: Republic Fleet Proton XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 40000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2416,7 +2296,6 @@ types:
     name: Republic Fleet Titanium Sabot L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 6000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2436,7 +2315,6 @@ types:
     name: Republic Fleet Titanium Sabot M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 2350.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2456,7 +2334,6 @@ types:
     name: Republic Fleet Titanium Sabot S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 600.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2476,7 +2353,6 @@ types:
     name: Republic Fleet Titanium Sabot XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 60000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2495,7 +2371,6 @@ types:
     name: Titanium Sabot L
     packagedVolume: 0.02500000037252903
     portionSize: 100
-    price: 6000.0
     published: true
     radius: 10.0
     techlevel: 1
@@ -2514,7 +2389,6 @@ types:
     name: Titanium Sabot M
     packagedVolume: 0.012500000186264515
     portionSize: 100
-    price: 2350.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2533,7 +2407,6 @@ types:
     name: Titanium Sabot S
     packagedVolume: 0.0024999999441206455
     portionSize: 100
-    price: 600.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -2552,7 +2425,6 @@ types:
     name: Titanium Sabot XL
     packagedVolume: 0.125
     portionSize: 100
-    price: 60000.0
     published: true
     radius: 10.0
     techlevel: 1

@@ -5,7 +5,6 @@ types:
     name: Barrels Of Viral Agent
     packagedVolume: 5000.0
     portionSize: 1
-    price: 850.0
     published: true
     volume: 5000.0
   Confiscated Viral Agent:
@@ -24,7 +23,6 @@ types:
     name: Ectoplasm
     packagedVolume: 0.5
     portionSize: 1
-    price: 900.0
     published: true
     volume: 0.5
   Hydrochloric Acid:
@@ -34,7 +32,6 @@ types:
     name: Hydrochloric Acid
     packagedVolume: 0.5
     portionSize: 1
-    price: 630.0
     published: true
     volume: 0.5
   Large Crates of Ectoplasm:
@@ -43,7 +40,6 @@ types:
     name: Large Crates of Ectoplasm
     packagedVolume: 500.0
     portionSize: 1
-    price: 900.0
     published: true
     volume: 500.0
   OP Insecticide:
@@ -52,7 +48,6 @@ types:
     name: OP Insecticide
     packagedVolume: 0.25
     portionSize: 1
-    price: 320.0
     published: true
     volume: 0.25
   Potent Viral Agent:

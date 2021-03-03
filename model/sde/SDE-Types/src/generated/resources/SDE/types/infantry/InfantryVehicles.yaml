@@ -4,7 +4,6 @@ types:
     name: '''AG-01'' Grimsnes'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   '''AI-102'' Madrugar':
@@ -12,7 +11,6 @@ types:
     name: '''AI-102'' Madrugar'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97500.0
     published: false
     volume: 0.009999999776482582
   '''CD-41'' Myron':
@@ -20,7 +18,6 @@ types:
     name: '''CD-41'' Myron'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   '''Greyscale'' Saga':
@@ -28,7 +25,6 @@ types:
     name: '''Greyscale'' Saga'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 40000.0
     published: false
     volume: 0.009999999776482582
   '''HC-130'' Gunnlogi':
@@ -36,7 +32,6 @@ types:
     name: '''HC-130'' Gunnlogi'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     published: false
     volume: 0.009999999776482582
   '''LC-217'' Saga':
@@ -44,7 +39,6 @@ types:
     name: '''LC-217'' Saga'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   '''LC-225'' Saga-II':
@@ -52,7 +46,6 @@ types:
     name: '''LC-225'' Saga-II'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 49110.0
     published: false
     volume: 0.009999999776482582
   '''LG-88'' Methana':
@@ -60,7 +53,6 @@ types:
     name: '''LG-88'' Methana'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   '''Nullarbor'' Myron':
@@ -68,7 +60,6 @@ types:
     name: '''Nullarbor'' Myron'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 112500.0
     published: false
     volume: 0.009999999776482582
   '''Praetorian VII'' Madrugar':
@@ -76,7 +67,6 @@ types:
     name: '''Praetorian VII'' Madrugar'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Grimsnes':
@@ -84,7 +74,6 @@ types:
     name: '''Quafe'' Grimsnes'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Gunnlogi':
@@ -92,7 +81,6 @@ types:
     name: '''Quafe'' Gunnlogi'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97500.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Madrugar':
@@ -100,7 +88,6 @@ types:
     name: '''Quafe'' Madrugar'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97500.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Methana':
@@ -108,7 +95,6 @@ types:
     name: '''Quafe'' Methana'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Methana Blueprint':
@@ -116,7 +102,6 @@ types:
     name: '''Quafe'' Methana Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Myron':
@@ -124,7 +109,6 @@ types:
     name: '''Quafe'' Myron'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Saga':
@@ -132,7 +116,6 @@ types:
     name: '''Quafe'' Saga'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   '''Quafe'' Saga Blueprint':
@@ -140,14 +123,12 @@ types:
     name: '''Quafe'' Saga Blueprint'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Abron:
     id: 364369
     name: Abron
     portionSize: 1
-    price: 84000.0
     published: false
   Amarok:
     id: 364380
@@ -159,7 +140,6 @@ types:
     name: Angel Cartel Saga
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   Baloch:
@@ -167,7 +147,6 @@ types:
     name: Baloch
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 18330.0
     published: false
     volume: 0.009999999776482582
   Baloch - Impact:
@@ -175,7 +154,6 @@ types:
     name: Baloch - Impact
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 10000.0
     published: false
     volume: 0.009999999776482582
   Baloch Blueprint:
@@ -183,7 +161,6 @@ types:
     name: Baloch Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Blood Raiders Saga:
@@ -191,7 +168,6 @@ types:
     name: Blood Raiders Saga
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   Bolas:
@@ -205,7 +181,6 @@ types:
     id: 364355
     name: Callisto
     portionSize: 1
-    price: 84000.0
     published: false
   Cestus:
     id: 355249
@@ -219,7 +194,6 @@ types:
     name: Chakram
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2682480.0
     published: false
     volume: 0.009999999776482582
   Charron:
@@ -234,7 +208,6 @@ types:
     name: Charybdis
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 84000.0
     published: false
     volume: 0.009999999776482582
   Colima:
@@ -246,7 +219,6 @@ types:
     id: 364172
     name: CreoDron Breach HAV
     portionSize: 1
-    price: 97500.0
     published: false
   CreoDron Methana:
     id: 364121
@@ -267,7 +239,6 @@ types:
     name: CreoDron Transport Dropship
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   Crotalus:
@@ -280,7 +251,6 @@ types:
     name: DUST Prometheus
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 301395.0
     published: false
     volume: 0.009999999776482582
   Eryx:
@@ -288,7 +258,6 @@ types:
     name: Eryx
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 301395.0
     published: false
     volume: 0.009999999776482582
   Estoc:
@@ -300,14 +269,12 @@ types:
     id: 364344
     name: Falchion
     portionSize: 1
-    price: 1277600.0
     published: false
   Federation Grimsnes:
     id: 366382
     name: Federation Grimsnes
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   Federation Madrugar:
@@ -315,7 +282,6 @@ types:
     name: Federation Madrugar
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97500.0
     published: false
     volume: 0.009999999776482582
   Federation Methana:
@@ -323,7 +289,6 @@ types:
     name: Federation Methana
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   Gladius C-I:
@@ -331,7 +296,6 @@ types:
     name: Gladius C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97500.0
     published: false
     volume: 0.009999999776482582
   Gladius C/1:
@@ -339,7 +303,6 @@ types:
     name: Gladius C/1
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 195000.0
     published: false
     volume: 0.009999999776482582
   Gladius Cv.0:
@@ -347,7 +310,6 @@ types:
     name: Gladius Cv.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 682500.0
     published: false
     volume: 0.009999999776482582
   Gorgon:
@@ -355,7 +317,6 @@ types:
     name: Gorgon
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 27495.0
     published: false
     volume: 0.009999999776482582
   Gorgon - Hatch:
@@ -363,7 +324,6 @@ types:
     name: Gorgon - Hatch
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 151840.0
     published: false
     volume: 0.009999999776482582
   Gorgon Blueprint:
@@ -371,7 +331,6 @@ types:
     name: Gorgon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Grimsnes:
@@ -379,7 +338,6 @@ types:
     name: Grimsnes
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   Gunnlogi C-I:
@@ -387,7 +345,6 @@ types:
     name: Gunnlogi C-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97500.0
     published: false
     volume: 0.009999999776482582
   Gunnlogi C/1:
@@ -395,7 +352,6 @@ types:
     name: Gunnlogi C/1
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 195000.0
     published: false
     volume: 0.009999999776482582
   Gunnlogi Cv.0:
@@ -403,7 +359,6 @@ types:
     name: Gunnlogi Cv.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 682500.0
     published: false
     volume: 0.009999999776482582
   Guristas Saga:
@@ -411,7 +366,6 @@ types:
     name: Guristas Saga
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   HAV:
@@ -419,21 +373,18 @@ types:
     name: HAV
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 200000.0
     published: false
     volume: 0.009999999776482582
   Incubus:
     id: 353886
     name: Incubus
     portionSize: 1
-    price: 200000.0
     published: false
   Ishukone Watch Saga:
     id: 356841
     name: Ishukone Watch Saga
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   Kaalakiota Recon Dropship:
@@ -441,21 +392,18 @@ types:
     name: Kaalakiota Recon Dropship
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   Kaalakiota Tactical HAV:
     id: 364171
     name: Kaalakiota Tactical HAV
     portionSize: 1
-    price: 97500.0
     published: false
   Kubera:
     id: 356211
     name: Kubera
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2682480.0
     published: false
     volume: 0.009999999776482582
   Limbus:
@@ -463,7 +411,6 @@ types:
     name: Limbus
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 84000.0
     published: false
     volume: 0.009999999776482582
   Madrugar G-I:
@@ -471,7 +418,6 @@ types:
     name: Madrugar G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97500.0
     published: false
     volume: 0.009999999776482582
   Madrugar G/1:
@@ -479,7 +425,6 @@ types:
     name: Madrugar G/1
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 195000.0
     published: false
     volume: 0.009999999776482582
   Madrugar Gv.0:
@@ -487,7 +432,6 @@ types:
     name: Madrugar Gv.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 682500.0
     published: false
     volume: 0.009999999776482582
   Marduk G-I:
@@ -495,7 +439,6 @@ types:
     name: Marduk G-I
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97500.0
     published: false
     volume: 0.009999999776482582
   Marduk G/1:
@@ -503,7 +446,6 @@ types:
     name: Marduk G/1
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 195000.0
     published: false
     volume: 0.009999999776482582
   Marduk Gv.0:
@@ -511,7 +453,6 @@ types:
     name: Marduk Gv.0
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 682500.0
     published: false
     volume: 0.009999999776482582
   Methana:
@@ -519,7 +460,6 @@ types:
     name: Methana
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   Myron:
@@ -527,7 +467,6 @@ types:
     name: Myron
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   Onikuma:
@@ -535,7 +474,6 @@ types:
     name: Onikuma
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 18330.0
     published: false
     volume: 0.009999999776482582
   Onikuma - Impact:
@@ -543,7 +481,6 @@ types:
     name: Onikuma - Impact
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 10000.0
     published: false
     volume: 0.009999999776482582
   Onikuma Blueprint:
@@ -551,21 +488,18 @@ types:
     name: Onikuma Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Python:
     id: 353884
     name: Python
     portionSize: 1
-    price: 200000.0
     published: false
   Saga:
     id: 351252
     name: Saga
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   Saga-II:
@@ -573,7 +507,6 @@ types:
     name: Saga-II
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 49110.0
     published: false
     volume: 0.009999999776482582
   Sagaris:
@@ -581,7 +514,6 @@ types:
     name: Sagaris
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1227600.0
     published: false
     volume: 0.009999999776482582
   Senior Recruiter Light Assault Vehicle:
@@ -589,7 +521,6 @@ types:
     name: Senior Recruiter Light Assault Vehicle
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   Sica:
@@ -597,7 +528,6 @@ types:
     name: Sica
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 59565.0
     published: false
     volume: 0.009999999776482582
   Sica - Tension:
@@ -605,7 +535,6 @@ types:
     name: Sica - Tension
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 138040.0
     published: false
     volume: 0.009999999776482582
   Sica Blueprint:
@@ -613,7 +542,6 @@ types:
     name: Sica Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   Soma:
@@ -621,7 +549,6 @@ types:
     name: Soma
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 59565.0
     published: false
     volume: 0.009999999776482582
   Soma - Tension:
@@ -629,7 +556,6 @@ types:
     name: Soma - Tension
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 138040.0
     published: false
     volume: 0.009999999776482582
   Soma Blueprint:
@@ -637,7 +563,6 @@ types:
     name: Soma Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   State Gunnlogi:
@@ -645,7 +570,6 @@ types:
     name: State Gunnlogi
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 97500.0
     published: false
     volume: 0.009999999776482582
   State Myron:
@@ -653,7 +577,6 @@ types:
     name: State Myron
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 45000.0
     published: false
     volume: 0.009999999776482582
   State Saga:
@@ -661,7 +584,6 @@ types:
     name: State Saga
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 30000.0
     published: false
     volume: 0.009999999776482582
   Surya:
@@ -669,21 +591,18 @@ types:
     name: Surya
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1227600.0
     published: false
     volume: 0.009999999776482582
   Vayu:
     id: 364348
     name: Vayu
     portionSize: 1
-    price: 1227600.0
     published: false
   Viper:
     id: 355472
     name: Viper
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 27495.0
     published: false
     volume: 0.009999999776482582
   Viper - Hatch:
@@ -691,7 +610,6 @@ types:
     name: Viper - Hatch
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 151840.0
     published: false
     volume: 0.009999999776482582
   Viper Blueprint:
@@ -699,7 +617,6 @@ types:
     name: Viper Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3000.0
     published: false
     volume: 0.009999999776482582
   '[TEST] Onikuma Boost':
@@ -707,6 +624,5 @@ types:
     name: '[TEST] Onikuma Boost'
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 27600.0
     published: false
     volume: 0.009999999776482582

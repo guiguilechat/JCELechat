@@ -20,7 +20,6 @@ types:
     name: Inferno Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 126160.0
     published: true
     radius: 300.0
     requiredskill1: 25718
@@ -55,7 +54,6 @@ types:
     name: Inferno Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 126160.0
     published: true
     radius: 300.0
     requiredskill1: 25718
@@ -91,7 +89,6 @@ types:
     name: Mjolnir Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 126160.0
     published: true
     radius: 300.0
     requiredskill1: 25718
@@ -126,7 +123,6 @@ types:
     name: Mjolnir Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 126160.0
     published: true
     radius: 300.0
     requiredskill1: 25718
@@ -161,7 +157,6 @@ types:
     name: Nova Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 126160.0
     published: true
     radius: 300.0
     requiredskill1: 25718
@@ -196,7 +191,6 @@ types:
     name: Nova Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 126160.0
     published: true
     radius: 300.0
     requiredskill1: 25718
@@ -231,7 +225,6 @@ types:
     name: Scourge Javelin Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 126160.0
     published: true
     radius: 300.0
     requiredskill1: 25718
@@ -266,7 +259,6 @@ types:
     name: Scourge Rage Heavy Assault Missile
     packagedVolume: 0.014999999664723873
     portionSize: 5000
-    price: 126160.0
     published: true
     radius: 300.0
     requiredskill1: 25718

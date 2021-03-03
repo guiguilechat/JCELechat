@@ -188,7 +188,6 @@ types:
     name: Zainou 'Beancounter' Reprocessing RX-801
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     refiningyieldmutator: 1
@@ -203,7 +202,6 @@ types:
     name: Zainou 'Beancounter' Reprocessing RX-802
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     refiningyieldmutator: 2
@@ -218,7 +216,6 @@ types:
     name: Zainou 'Beancounter' Reprocessing RX-804
     packagedVolume: 1.0
     portionSize: 1
-    price: 200000.0
     published: true
     radius: 1.0
     refiningyieldmutator: 4

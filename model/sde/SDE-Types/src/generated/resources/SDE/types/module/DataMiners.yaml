@@ -13,7 +13,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 33264.0
     published: true
     radius: 500.0
     requiredskill2: 21718
@@ -38,7 +37,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 33264.0
     published: true
     radius: 500.0
     requiredskill2: 21718
@@ -62,7 +60,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 33264.0
     published: true
     radius: 500.0
     requiredskill1: 13278
@@ -90,7 +87,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 33264.0
     published: true
     radius: 500.0
     requiredskill1: 13278
@@ -116,7 +112,6 @@ types:
     name: Purloined Sansha Data Analyzer
     packagedVolume: 5.0
     portionSize: 1
-    price: 33264.0
     published: true
     radius: 500.0
     requiredskill2: 21718
@@ -140,7 +135,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 33264.0
     published: true
     radius: 500.0
     requiredskill2: 13278
@@ -165,7 +159,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 33264.0
     published: true
     radius: 500.0
     requiredskill2: 13278
@@ -191,7 +184,6 @@ types:
     packagedVolume: 5.0
     portionSize: 1
     power: 1
-    price: 33264.0
     published: true
     radius: 500.0
     requiredskill1: 13278

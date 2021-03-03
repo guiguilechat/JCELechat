@@ -9,7 +9,6 @@ types:
     planetrestriction: 2016
     portionSize: 1
     powerload: 700
-    price: 900000.0
     published: true
     radius: 1.0
   Gas Launchpad:
@@ -22,7 +21,6 @@ types:
     planetrestriction: 13
     portionSize: 1
     powerload: 700
-    price: 900000.0
     published: true
     radius: 1.0
   Ice Launchpad:
@@ -35,7 +33,6 @@ types:
     planetrestriction: 12
     portionSize: 1
     powerload: 700
-    price: 900000.0
     published: true
     radius: 1.0
   Lava Launchpad:
@@ -48,7 +45,6 @@ types:
     planetrestriction: 2015
     portionSize: 1
     powerload: 700
-    price: 900000.0
     published: true
     radius: 1.0
   Oceanic Launchpad:
@@ -61,7 +57,6 @@ types:
     planetrestriction: 2014
     portionSize: 1
     powerload: 700
-    price: 900000.0
     published: true
     radius: 1.0
   Plasma Launchpad:
@@ -74,7 +69,6 @@ types:
     planetrestriction: 2063
     portionSize: 1
     powerload: 700
-    price: 900000.0
     published: true
     radius: 1.0
   Storm Launchpad:
@@ -87,7 +81,6 @@ types:
     planetrestriction: 2017
     portionSize: 1
     powerload: 700
-    price: 900000.0
     published: true
     radius: 1.0
   Temperate Launchpad:
@@ -100,6 +93,5 @@ types:
     planetrestriction: 11
     portionSize: 1
     powerload: 700
-    price: 900000.0
     published: true
     radius: 1.0

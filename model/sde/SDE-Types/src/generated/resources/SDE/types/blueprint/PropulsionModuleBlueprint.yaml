@@ -6,7 +6,6 @@ types:
     name: 10000MN Afterburner I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.6E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -28,7 +27,6 @@ types:
     name: 10000MN Monopropellant Enduring Afterburner Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.2E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -40,7 +38,6 @@ types:
     name: 10000MN Y-S8 Compact Afterburner Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.2E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -52,7 +49,6 @@ types:
     name: 100MN Afterburner I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1612800.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -63,7 +59,6 @@ types:
     name: 100MN Afterburner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -85,7 +80,6 @@ types:
     name: 10MN Afterburner I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 322560.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -96,7 +90,6 @@ types:
     name: 10MN Afterburner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -118,7 +111,6 @@ types:
     name: 1MN Afterburner I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 64500.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -129,7 +121,6 @@ types:
     name: 1MN Afterburner II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -161,7 +152,6 @@ types:
     name: 50000MN Cold-Gas Enduring Microwarpdrive Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.58E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -173,7 +163,6 @@ types:
     name: 50000MN Microwarpdrive I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.9E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -184,7 +173,6 @@ types:
     name: 50000MN Microwarpdrive II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
     published: true
     radius: 1.0
     techlevel: 2
@@ -196,7 +184,6 @@ types:
     name: 50000MN Quad LiF Restrained Microwarpdrive Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.58E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -208,7 +195,6 @@ types:
     name: 50000MN Y-T8 Compact Microwarpdrive Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.58E8
     published: true
     radius: 1.0
     techlevel: 1
@@ -230,7 +216,6 @@ types:
     name: 500MN Microwarpdrive I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7909400.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -241,7 +226,6 @@ types:
     name: 500MN Microwarpdrive II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -263,7 +247,6 @@ types:
     name: 50MN Microwarpdrive I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1581880.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -274,7 +257,6 @@ types:
     name: 50MN Microwarpdrive II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -296,7 +278,6 @@ types:
     name: 5MN Microwarpdrive I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 316360.0
     published: true
     radius: 1.0
     techlevel: 1
@@ -307,7 +288,6 @@ types:
     name: 5MN Microwarpdrive II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E10
     published: true
     radius: 1.0
     techlevel: 2
@@ -319,7 +299,6 @@ types:
     name: Domination 10000MN Afterburner Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -331,7 +310,6 @@ types:
     name: Domination 50000MN Microwarpdrive Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -463,7 +441,6 @@ types:
     name: Shadow Serpentis 10000MN Afterburner Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E7
     published: true
     radius: 1.0
     techlevel: 1
@@ -475,7 +452,6 @@ types:
     name: Shadow Serpentis 50000MN Microwarpdrive Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.0E7
     published: true
     radius: 1.0
     techlevel: 1

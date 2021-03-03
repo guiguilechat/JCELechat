@@ -11,7 +11,6 @@ types:
     name: Discovery Survey Probe I
     packagedVolume: 10.0
     portionSize: 1
-    price: 76080.0
     probesingroup: 3
     published: true
     radius: 30.0
@@ -35,7 +34,6 @@ types:
     name: Gaze Survey Probe I
     packagedVolume: 5.0
     portionSize: 1
-    price: 107784.0
     probesingroup: 3
     published: true
     radius: 30.0
@@ -59,7 +57,6 @@ types:
     name: Quest Survey Probe I
     packagedVolume: 5.0
     portionSize: 1
-    price: 49688.0
     probesingroup: 3
     published: true
     radius: 30.0

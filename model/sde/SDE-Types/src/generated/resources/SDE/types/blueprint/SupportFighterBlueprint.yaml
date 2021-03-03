@@ -5,7 +5,6 @@ types:
     name: Cenobite I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -14,7 +13,6 @@ types:
     name: Cenobite II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -25,7 +23,6 @@ types:
     name: Dromi I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -34,7 +31,6 @@ types:
     name: Dromi II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -45,7 +41,6 @@ types:
     name: Scarab I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -54,7 +49,6 @@ types:
     name: Scarab II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -65,7 +59,6 @@ types:
     name: Siren I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -74,7 +67,6 @@ types:
     name: Siren II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     radius: 1.0
     techlevel: 2
@@ -85,7 +77,6 @@ types:
     name: Standup Cenobite I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -94,7 +85,6 @@ types:
     name: Standup Cenobite II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -104,7 +94,6 @@ types:
     name: Standup Dromi I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -113,7 +102,6 @@ types:
     name: Standup Dromi II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -123,7 +111,6 @@ types:
     name: Standup Scarab I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -132,7 +119,6 @@ types:
     name: Standup Scarab II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -142,7 +128,6 @@ types:
     name: Standup Siren I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582
@@ -151,7 +136,6 @@ types:
     name: Standup Siren II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.0E8
     published: true
     techlevel: 1
     volume: 0.009999999776482582

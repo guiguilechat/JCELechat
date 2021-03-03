@@ -5,7 +5,6 @@ types:
     name: Caesarium Cadmide Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Carbon Polymers Reaction Formula:
@@ -14,7 +13,6 @@ types:
     name: Carbon Polymers Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Ceramic Powder Reaction Formula:
@@ -23,7 +21,6 @@ types:
     name: Ceramic Powder Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Crystalline Carbonide Reaction Formula:
@@ -32,7 +29,6 @@ types:
     name: Crystalline Carbonide Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Crystallite Alloy Reaction Formula:
@@ -41,7 +37,6 @@ types:
     name: Crystallite Alloy Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Dysporite Reaction Formula:
@@ -50,7 +45,6 @@ types:
     name: Dysporite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Fermionic Condensates Reaction Formula:
@@ -59,7 +53,6 @@ types:
     name: Fermionic Condensates Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Fernite Alloy Reaction Formula:
@@ -68,7 +61,6 @@ types:
     name: Fernite Alloy Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Fernite Carbide Reaction Formula:
@@ -77,7 +69,6 @@ types:
     name: Fernite Carbide Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Ferrofluid Reaction Formula:
@@ -86,7 +77,6 @@ types:
     name: Ferrofluid Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Ferrogel Reaction Formula:
@@ -95,7 +85,6 @@ types:
     name: Ferrogel Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Fluxed Condensates Reaction Formula:
@@ -104,7 +93,6 @@ types:
     name: Fluxed Condensates Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Fulleride Reaction Formula:
@@ -113,7 +101,6 @@ types:
     name: Fulleride Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Hexite Reaction Formula:
@@ -122,7 +109,6 @@ types:
     name: Hexite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Hyperflurite Reaction Formula:
@@ -131,7 +117,6 @@ types:
     name: Hyperflurite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Hypersynaptic Fibers Reaction Formula:
@@ -140,7 +125,6 @@ types:
     name: Hypersynaptic Fibers Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Nanotransistors Reaction Formula:
@@ -149,7 +133,6 @@ types:
     name: Nanotransistors Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Neo Mercurite Reaction Formula:
@@ -158,7 +141,6 @@ types:
     name: Neo Mercurite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Nonlinear Metamaterials Reaction Formula:
@@ -167,7 +149,6 @@ types:
     name: Nonlinear Metamaterials Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Phenolic Composites Reaction Formula:
@@ -176,7 +157,6 @@ types:
     name: Phenolic Composites Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Photonic Metamaterials Reaction Formula:
@@ -185,7 +165,6 @@ types:
     name: Photonic Metamaterials Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Plasmonic Metamaterials Reaction Formula:
@@ -194,7 +173,6 @@ types:
     name: Plasmonic Metamaterials Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Platinum Technite Reaction Formula:
@@ -203,7 +181,6 @@ types:
     name: Platinum Technite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Promethium Mercurite Reaction Formula:
@@ -212,7 +189,6 @@ types:
     name: Promethium Mercurite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Prometium Reaction Formula:
@@ -221,7 +197,6 @@ types:
     name: Prometium Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Rolled Tungsten Alloy Reaction Formula:
@@ -230,7 +205,6 @@ types:
     name: Rolled Tungsten Alloy Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Silicon Diborite Reaction Formula:
@@ -239,7 +213,6 @@ types:
     name: Silicon Diborite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Solerium Reaction Formula:
@@ -248,7 +221,6 @@ types:
     name: Solerium Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Sulfuric Acid Reaction Formula:
@@ -257,7 +229,6 @@ types:
     name: Sulfuric Acid Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Sylramic Fibers Reaction Formula:
@@ -266,7 +237,6 @@ types:
     name: Sylramic Fibers Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Terahertz Metamaterials Reaction Formula:
@@ -275,7 +245,6 @@ types:
     name: Terahertz Metamaterials Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Thulium Hafnite Reaction Formula:
@@ -284,7 +253,6 @@ types:
     name: Thulium Hafnite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Titanium Carbide Reaction Formula:
@@ -293,7 +261,6 @@ types:
     name: Titanium Carbide Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Titanium Chromide Reaction Formula:
@@ -302,7 +269,6 @@ types:
     name: Titanium Chromide Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Tungsten Carbide Reaction Formula:
@@ -311,7 +277,6 @@ types:
     name: Tungsten Carbide Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Caesarium Cadmide Reaction Formula:
@@ -320,7 +285,6 @@ types:
     name: Unrefined Caesarium Cadmide Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Crystallite Alloy Reaction Formula:
@@ -329,7 +293,6 @@ types:
     name: Unrefined Crystallite Alloy Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Dysporite Reaction Formula:
@@ -338,7 +301,6 @@ types:
     name: Unrefined Dysporite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Fernite Alloy Reaction Formula:
@@ -347,7 +309,6 @@ types:
     name: Unrefined Fernite Alloy Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Ferrofluid Reaction Formula:
@@ -356,7 +317,6 @@ types:
     name: Unrefined Ferrofluid Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Fluxed Condensates Reaction Formula:
@@ -365,7 +325,6 @@ types:
     name: Unrefined Fluxed Condensates Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Hexite Reaction Formula:
@@ -374,7 +333,6 @@ types:
     name: Unrefined Hexite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Hyperflurite Reaction Formula:
@@ -383,7 +341,6 @@ types:
     name: Unrefined Hyperflurite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Neo Mercurite Reaction Formula:
@@ -392,7 +349,6 @@ types:
     name: Unrefined Neo Mercurite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Platinum Technite Reaction Formula:
@@ -401,7 +357,6 @@ types:
     name: Unrefined Platinum Technite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Promethium Mercurite Reaction Formula:
@@ -410,7 +365,6 @@ types:
     name: Unrefined Promethium Mercurite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Prometium Reaction Formula:
@@ -419,7 +373,6 @@ types:
     name: Unrefined Prometium Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Rolled Tungsten Alloy Reaction Formula:
@@ -428,7 +381,6 @@ types:
     name: Unrefined Rolled Tungsten Alloy Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Solerium Reaction Formula:
@@ -437,7 +389,6 @@ types:
     name: Unrefined Solerium Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Thulium Hafnite Reaction Formula:
@@ -446,7 +397,6 @@ types:
     name: Unrefined Thulium Hafnite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Titanium Chromide Reaction Formula:
@@ -455,7 +405,6 @@ types:
     name: Unrefined Titanium Chromide Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Unrefined Vanadium Hafnite Reaction Formula:
@@ -464,7 +413,6 @@ types:
     name: Unrefined Vanadium Hafnite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Vanadium Hafnite Reaction Formula:
@@ -473,6 +421,5 @@ types:
     name: Vanadium Hafnite Reaction Formula
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E7
     published: true
     volume: 0.009999999776482582

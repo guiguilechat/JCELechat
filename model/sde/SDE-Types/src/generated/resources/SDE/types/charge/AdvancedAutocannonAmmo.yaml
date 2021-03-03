@@ -17,7 +17,6 @@ types:
     packagedVolume: 0.02500000037252903
     portionSize: 5000
     powerneedmultiplier: 1
-    price: 1000000.0
     published: true
     radius: 1.0
     requiredskill1: 12209
@@ -45,7 +44,6 @@ types:
     packagedVolume: 0.012500000186264515
     portionSize: 5000
     powerneedmultiplier: 1
-    price: 400000.0
     published: true
     radius: 1.0
     requiredskill1: 12208
@@ -73,7 +71,6 @@ types:
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
     powerneedmultiplier: 1
-    price: 100000.0
     published: true
     radius: 1.0
     requiredskill1: 11084
@@ -101,7 +98,6 @@ types:
     packagedVolume: 0.125
     portionSize: 100
     powerneedmultiplier: 1
-    price: 30000.0
     published: true
     radius: 10.0
     requiredskill1: 41403
@@ -129,7 +125,6 @@ types:
     packagedVolume: 0.02500000037252903
     portionSize: 5000
     powerneedmultiplier: 1
-    price: 1000000.0
     published: true
     radius: 1.0
     requiredskill1: 12209
@@ -157,7 +152,6 @@ types:
     packagedVolume: 0.012500000186264515
     portionSize: 5000
     powerneedmultiplier: 1
-    price: 400000.0
     published: true
     radius: 1.0
     requiredskill1: 12208
@@ -185,7 +179,6 @@ types:
     packagedVolume: 0.0024999999441206455
     portionSize: 5000
     powerneedmultiplier: 1
-    price: 100000.0
     published: true
     radius: 1.0
     requiredskill1: 11084
@@ -213,7 +206,6 @@ types:
     packagedVolume: 0.125
     portionSize: 100
     powerneedmultiplier: 1
-    price: 50000.0
     published: true
     radius: 10.0
     requiredskill1: 41403

@@ -6,7 +6,6 @@ types:
     name: Advanced Logistics Network Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -17,7 +16,6 @@ types:
     name: Cynosural Navigation Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -28,7 +26,6 @@ types:
     name: Cynosural Suppression Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -39,7 +36,6 @@ types:
     name: Entrapment Array 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -50,7 +46,6 @@ types:
     name: Entrapment Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -61,7 +56,6 @@ types:
     name: Entrapment Array 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -72,7 +66,6 @@ types:
     name: Entrapment Array 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -83,7 +76,6 @@ types:
     name: Entrapment Array 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -94,7 +86,6 @@ types:
     name: Ore Prospecting Array 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -105,7 +96,6 @@ types:
     name: Ore Prospecting Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.75E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -116,7 +106,6 @@ types:
     name: Ore Prospecting Array 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -127,7 +116,6 @@ types:
     name: Ore Prospecting Array 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 6.25E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -138,7 +126,6 @@ types:
     name: Ore Prospecting Array 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -149,7 +136,6 @@ types:
     name: Pirate Detection Array 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -160,7 +146,6 @@ types:
     name: Pirate Detection Array 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -171,7 +156,6 @@ types:
     name: Pirate Detection Array 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -182,7 +166,6 @@ types:
     name: Pirate Detection Array 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -193,7 +176,6 @@ types:
     name: Pirate Detection Array 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.5E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -204,7 +186,6 @@ types:
     name: Quantum Flux Generator 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -215,7 +196,6 @@ types:
     name: Quantum Flux Generator 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -226,7 +206,6 @@ types:
     name: Quantum Flux Generator 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -237,7 +216,6 @@ types:
     name: Quantum Flux Generator 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -248,7 +226,6 @@ types:
     name: Quantum Flux Generator 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -259,7 +236,6 @@ types:
     name: Supercapital Construction Facilities Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 3.75E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -270,7 +246,6 @@ types:
     name: Survey Networks 1 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 2.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -281,7 +256,6 @@ types:
     name: Survey Networks 2 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 5.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -292,7 +266,6 @@ types:
     name: Survey Networks 3 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 7.5E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -303,7 +276,6 @@ types:
     name: Survey Networks 4 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.0E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
@@ -314,7 +286,6 @@ types:
     name: Survey Networks 5 Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
-    price: 1.25E9
     published: true
     radius: 1.0
     volume: 0.009999999776482582
