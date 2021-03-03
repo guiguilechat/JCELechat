@@ -45,7 +45,7 @@ public class ShowAssets {
 			try (PrintWriter corpWritter = new PrintWriter(new FileWriter(
 					new File(parentCorp, LocalDateTime.now(Clock.systemUTC()).format(DateTimeFormatter.ISO_DATE_TIME))))) {
 				int corpid = ESIStatic.INSTANCE.get_characters(acc.characterId(), null).getOK().corporation_id;
-				corpWritter.println("name=" + acc.characterName());
+				corpWritter.println("name=" + acc.name());
 				corpWritter.println("corporation_id=" + corpid);
 				corpWritter.println("pages :");
 				List<String> errors = new ArrayList<>();
@@ -104,7 +104,7 @@ public class ShowAssets {
 			}
 			try (PrintWriter charWritter = new PrintWriter(new FileWriter(
 					new File(parentChar, LocalDateTime.now(Clock.systemUTC()).format(DateTimeFormatter.ISO_DATE_TIME))))) {
-				charWritter.println("name=" + acc.characterName());
+				charWritter.println("name=" + acc.name());
 				charWritter.println("pages :");
 				List<String> errors = new ArrayList<>();
 				IntFunction<Requested<R_get_characters_character_id_assets[]>> getPage = page -> {

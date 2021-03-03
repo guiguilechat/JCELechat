@@ -4,15 +4,18 @@ import java.time.format.DateTimeFormatter;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.ESIConnected;
 import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * encapsulation of a raw connection to have better modeling
+ * encapsulation of a raw connection to have better modeling. The account can be
+ * given a name at creation, if this name is null it will be retrieved from
+ * connection instead. This allows to identify accounts which has issue for
+ * connection.
  *
  */
-@RequiredArgsConstructor
+@AllArgsConstructor
 @Accessors(fluent = true)
 public class ESIAccount {
 
@@ -25,10 +28,9 @@ public class ESIAccount {
 	private final ESIConnected connection;
 
 	/**
-	 * name given to the token. This may or may not be the name of the character,
-	 * for example if the token is no more valid.
+	 * name given to the token. This may not be the name of the character, for
+	 * example if the token is no more valid.
 	 */
-	@Getter
 	private final String name;
 
 	public ESIAccount(String refresh, String base, String name) {
@@ -37,6 +39,15 @@ public class ESIAccount {
 
 	public ESIAccount(String refresh, String base) {
 		this(refresh, base, null);
+	}
+
+	/**
+	 *
+	 * @return the name set at creation if not null ; if null, fetch the name from
+	 *         the connection.
+	 */
+	public String name() {
+		return name == null ? verify().characterName() : name;
 	}
 
 	@Getter(lazy = true, value = AccessLevel.PROTECTED)
@@ -50,10 +61,6 @@ public class ESIAccount {
 
 	public int characterId() {
 		return verify().characterID();
-	}
-
-	public String characterName() {
-		return verify().characterName();
 	}
 
 	public boolean isValid() {
@@ -76,7 +83,7 @@ public class ESIAccount {
 
 	@Override
 	public String toString() {
-		return "ESI:" + characterName();
+		return "ESI:" + name();
 	}
 
 }

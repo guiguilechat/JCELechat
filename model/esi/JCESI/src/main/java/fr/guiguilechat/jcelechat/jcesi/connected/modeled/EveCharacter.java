@@ -93,7 +93,7 @@ public class EveCharacter {
 	}
 
 	public String getName() {
-		return con.characterName();
+		return con.name();
 	}
 
 	//
