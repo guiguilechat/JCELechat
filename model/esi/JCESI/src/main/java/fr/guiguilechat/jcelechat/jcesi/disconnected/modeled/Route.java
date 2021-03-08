@@ -12,7 +12,9 @@ public class Route {
 	}
 
 	public Integer[] makeRoute(int origin, int destination, boolean secure) {
-		return con.get_route(null, null, destination,
+		// ignore jita if not required
+		int[] ignore = origin != 30000142 && destination != 30000142 ? new int[] { 30000142 } : new int[] {};
+		return con.get_route(ignore, null, destination,
 				secure ? flag.secure : flag.shortest, origin, null).getOK();
 	}
 
