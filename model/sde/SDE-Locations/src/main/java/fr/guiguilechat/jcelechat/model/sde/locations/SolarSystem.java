@@ -156,7 +156,7 @@ public class SolarSystem extends ALocation {
 
 	/**
 	 *
-	 * @param burow
+	 * @param burrow
 	 *          weight for burrow anomaly
 	 * @param hideway
 	 *          weight for hideway anomaly
