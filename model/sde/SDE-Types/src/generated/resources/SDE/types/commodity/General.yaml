@@ -97,6 +97,15 @@ types:
     price: 50.0
     published: true
     volume: 0.10000000149011612
+  Quafe Hyper:
+    id: 57422
+    marketGroup: 492
+    mass: 500.0
+    name: Quafe Hyper
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Quafe Ultra:
     id: 12865
     marketGroup: 492

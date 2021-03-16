@@ -1,35 +1,26 @@
 types:
-  1v1 T1 Battlecruisers Proving Filament:
-    id: 56359
+  Assault Frigate FFA Proving Filament:
+    id: 57368
     marketGroup: 2747
-    name: 1v1 T1 Battlecruisers Proving Filament
+    name: Assault Frigate FFA Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Gala 2v2 Cruisers Proving Filament:
-    id: 56360
+  Grand Prix 1v1 Interceptors Proving Filament:
+    id: 57367
     marketGroup: 2747
-    name: Gala 2v2 Cruisers Proving Filament
+    name: Grand Prix 1v1 Interceptors Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  T1 Cruiser FFA Proving Filament:
-    id: 56358
+  Hunt 3v3 Destroyers Proving Filament:
+    id: 57369
     marketGroup: 2747
-    name: T1 Cruiser FFA Proving Filament
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    price: 10000.0
-    published: true
-    volume: 0.10000000149011612
-  T1 Frigate FFA Proving Filament:
-    id: 56361
-    marketGroup: 2747
-    name: T1 Frigate FFA Proving Filament
+    name: Hunt 3v3 Destroyers Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

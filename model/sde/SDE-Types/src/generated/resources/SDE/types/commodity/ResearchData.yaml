@@ -79,6 +79,46 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Project Discovery Phase Two Elite 1.2K:
+    id: 57629
+    mass: 1.0
+    name: Project Discovery Phase Two Elite 1.2K
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Project Discovery Phase Two Elite 1.5K:
+    id: 57628
+    mass: 1.0
+    name: Project Discovery Phase Two Elite 1.5K
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Project Discovery Phase Two Elite 1K:
+    id: 57630
+    mass: 1.0
+    name: Project Discovery Phase Two Elite 1K
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Project Discovery Phase Two Elite 2K:
+    id: 57627
+    mass: 1.0
+    name: Project Discovery Phase Two Elite 2K
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Project Discovery Phase Two Elite 5K:
+    id: 57626
+    mass: 1.0
+    name: Project Discovery Phase Two Elite 5K
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   'Research Abstract: Project Algintal':
     id: 4325
     mass: 1.0

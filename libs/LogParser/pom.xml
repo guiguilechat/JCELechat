@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>fr.guiguilechat.jcelechat</groupId>
 		<artifactId>libs</artifactId>
-		<version>6.1.2</version>
+		<version>6.1.3</version>
 	</parent>
 	<groupId>fr.guiguilechat.jcelechat.libs</groupId>
 	<artifactId>LogParser</artifactId>

@@ -123,7 +123,7 @@ types:
     shielduniformity: 0.75
     signatureradius: 25.0
     structureuniformity: 1.0
-    techlevel: 1
+    techlevel: 2
     thermaldamageresonance: 1.0
     uniformity: 0.75
     volume: 5.0

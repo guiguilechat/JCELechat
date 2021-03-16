@@ -398,6 +398,28 @@ types:
     radius: 1.0
     socialbonus: 100
     volume: 1.0
+  Amarr Drones Specialization Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 8640
+    boosterness: 116
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57723
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Amarr Drones Specialization Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Amarr spaceship skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -591,6 +613,28 @@ types:
     radius: 1.0
     socialbonus: 100
     volume: 1.0
+  Caldari Drones Specialization Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 8640
+    boosterness: 117
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57724
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Caldari Drones Specialization Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Caldari spaceship skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -2069,6 +2113,28 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 3
+  Gallente Drones Specialization Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 8640
+    boosterness: 115
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57722
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Gallente Drones Specialization Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Gallente spaceship skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -2080,6 +2146,60 @@ types:
     marketGroup: 2487
     memorybonus: 1
     name: Gallente spaceship skill accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Grand Prix Velocity Booster:
+    boosterduration: 1.44E7
+    boosterlastinjectiondatetime: 18778.0
+    boosterness: 10
+    id: 57423
+    name: Grand Prix Velocity Booster
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    velocitybonus: 10.0
+    volume: 1.0
+  Grand Prix Warp Booster:
+    boosterduration: 1.44E7
+    boosterlastinjectiondatetime: 18778.0
+    boosterness: 10
+    id: 57424
+    name: Grand Prix Warp Booster
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3405
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    warpsbonus: 10
+  Heavy Drones Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 8640
+    boosterness: 121
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57728
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Heavy Drones Skill Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -3050,6 +3170,50 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 10
+  Mining Drones Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 8640
+    boosterness: 119
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57726
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Mining Drones Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Minmatar Drones Specialization Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 8640
+    boosterness: 118
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57725
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Minmatar Drones Specialization Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Minmatar spaceship skill accelerator:
     boosterduration: 60000.0
     boostermaxcharagehours: 2400
@@ -5240,6 +5404,28 @@ types:
     signatureradiusbonus: -15.0
     socialbonus: 100
     volume: 1.0
+  Support Drones Skill Accelerator:
+    boosterduration: 60000.0
+    boostermaxcharagehours: 8640
+    boosterness: 120
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57727
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Support Drones Skill Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Synth Blue Pill Booster:
     boosterduration: 1800000.0
     boosterness: 1

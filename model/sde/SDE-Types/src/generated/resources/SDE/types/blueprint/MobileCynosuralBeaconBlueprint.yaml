@@ -1,0 +1,11 @@
+types:
+  Mobile Cynosural Beacon Blueprint:
+    id: 57429
+    industryblueprintrank: 40.0
+    marketGroup: 2764
+    name: Mobile Cynosural Beacon Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    radius: 1.0
+    volume: 0.009999999776482582

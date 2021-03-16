@@ -32,6 +32,8 @@ types:
     armorexplosivedamageresonance: 0.699999988079071
     armorkineticdamageresonance: 0.699999988079071
     armorthermaldamageresonance: 0.699999988079071
+    bastionmissilerofbonus: -50
+    bastionturretrofbonus: -50
     canfitshipgroup01: 900
     cpu: 10.0
     deactivateifoffensive: 1
@@ -78,9 +80,7 @@ types:
     shieldexplosivedamageresonance: 0.699999988079071
     shieldkineticdamageresonance: 0.699999988079071
     shieldthermaldamageresonance: 0.699999988079071
-    siegemissiledamagebonus: -50
     siegemodewarpstatus: 100
-    siegeturretdamagebonus: -50
     speedfactor: -100.0
     targetpainterresistancebonus: -95
     techlevel: 1

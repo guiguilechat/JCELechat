@@ -69,6 +69,38 @@ types:
     secondaryattribute: 168
     skilltimeconstant: 12.0
     volume: 0.009999999776482582
+  Fleet Coordination:
+    cannotbetrainedontrial: 1
+    id: 57318
+    marketGroup: 370
+    name: Fleet Coordination
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 3348
+    requiredskill1level: 5
+    requiredskill2: 57317
+    requiredskill2level: 1
+    secondaryattribute: 168
+    skilltimeconstant: 8.0
+    volume: 0.009999999776482582
+  Fleet Formations:
+    cannotbetrainedontrial: 1
+    id: 57317
+    marketGroup: 370
+    name: Fleet Formations
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    primaryattribute: 164
+    published: true
+    radius: 1.0
+    requiredskill1: 3348
+    requiredskill1level: 5
+    secondaryattribute: 168
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
   Information Command:
     cannotbetrainedontrial: 1
     durationbonus: 10

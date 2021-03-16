@@ -6405,7 +6405,7 @@ types:
     falloff: 1.0
     hackable: 1
     hp: 1000000.0
-    id: 33532
+    id: 57441
     lootrespawntime: 600000.0
     name: Secure Databank
     packagedVolume: 27500.0
@@ -6433,7 +6433,7 @@ types:
     falloff: 1.0
     hackable: 1
     hp: 1000000.0
-    id: 33530
+    id: 57440
     lootrespawntime: 600000.0
     name: Secure Depot
     packagedVolume: 27500.0

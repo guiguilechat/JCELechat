@@ -995,14 +995,6 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
-  Federation Day Fireworks Crate:
-    cpumultiplier: 1.0
-    id: 55745
-    name: Federation Day Fireworks Crate
-    packagedVolume: 0.10000000149011612
-    portionSize: 1
-    published: true
-    volume: 0.10000000149011612
   Federation Grand Prix Bronze Package:
     cpumultiplier: 1.0
     id: 48375
@@ -1276,6 +1268,14 @@ types:
     cpumultiplier: 1.0
     id: 56860
     name: Forward 4-4 Celebration Crate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  Four Freedoms Fireworks Crate:
+    cpumultiplier: 1.0
+    id: 55745
+    name: Four Freedoms Fireworks Crate
     packagedVolume: 0.10000000149011612
     portionSize: 1
     published: true

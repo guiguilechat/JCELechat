@@ -427,7 +427,6 @@ types:
     skilltimeconstant: 4.0
     volume: 0.009999999776482582
   Salvage Drone Specialization:
-    accessdifficultybonus: 2.0
     cannotbetrainedontrial: 1
     id: 57164
     marketGroup: 366
@@ -445,6 +444,7 @@ types:
     requiredskill2level: 4
     secondaryattribute: 167
     skilltimeconstant: 5.0
+    specaccessdifficultybonus: 2
     volume: 0.009999999776482582
   Sentry Drone Interfacing:
     cannotbetrainedontrial: 1

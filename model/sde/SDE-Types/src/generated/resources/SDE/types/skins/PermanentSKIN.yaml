@@ -646,6 +646,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Anathema GalNet StreamCast Unit SKIN:
+    id: 57735
+    marketGroup: 2051
+    name: Anathema GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Anathema Glacial Drift SKIN:
     id: 46776
     marketGroup: 2051
@@ -1662,6 +1670,13 @@ types:
     id: 46934
     marketGroup: 2061
     name: Ares Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ares Hunter's Quiver SKIN:
+    id: 57536
+    name: Ares Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4002,6 +4017,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Brutix Luminaire Zenith SKIN:
+    id: 57414
+    name: Brutix Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Brutix Malagrin Marshlight SKIN:
     id: 53013
     marketGroup: 1958
@@ -4030,6 +4052,14 @@ types:
     id: 52437
     marketGroup: 2103
     name: Brutix Navy Issue Federal Police SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Brutix Navy Issue GalNet StreamCast Unit SKIN:
+    id: 57731
+    marketGroup: 2103
+    name: Brutix Navy Issue GalNet StreamCast Unit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4070,6 +4100,13 @@ types:
     id: 46422
     marketGroup: 2103
     name: Brutix Navy Issue Kopis Edge SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Brutix Navy Issue Luminaire Zenith SKIN:
+    id: 57592
+    name: Brutix Navy Issue Luminaire Zenith SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -4663,6 +4700,13 @@ types:
     id: 52636
     marketGroup: 1991
     name: Caracal Kimotoro Eskeitan SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caracal Luminaire Zenith SKIN:
+    id: 57417
+    name: Caracal Luminaire Zenith SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -6325,6 +6369,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cormorant GalNet StreamCast Unit SKIN:
+    id: 57732
+    marketGroup: 1995
+    name: Cormorant GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Cormorant Ghostbird SKIN:
     id: 48172
     marketGroup: 1995
@@ -6748,6 +6800,13 @@ types:
     id: 46833
     marketGroup: 2060
     name: Crow Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Crow Hunter's Quiver SKIN:
+    id: 57535
+    name: Crow Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7224,6 +7283,13 @@ types:
     id: 56924
     marketGroup: 1959
     name: Cyclone Hazard Control SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Cyclone Hunter's Quiver SKIN:
+    id: 57529
+    name: Cyclone Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7862,6 +7928,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Dominix GalNet StreamCast Unit SKIN:
+    id: 57730
+    marketGroup: 1966
+    name: Dominix GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Dominix Glacial Drift SKIN:
     id: 46957
     marketGroup: 1966
@@ -8338,6 +8412,13 @@ types:
     id: 45015
     marketGroup: 1957
     name: Drake IGC SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Drake Luminaire Zenith SKIN:
+    id: 57413
+    name: Drake Luminaire Zenith SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -10099,6 +10180,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ferox Hunter's Quiver SKIN:
+    id: 57531
+    name: Ferox Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Ferox IGC SKIN:
     id: 48550
     marketGroup: 1957
@@ -10636,6 +10724,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Golem GalNet StreamCast Unit SKIN:
+    id: 57733
+    marketGroup: 2025
+    name: Golem GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Golem Ghostbird SKIN:
     id: 48199
     marketGroup: 2025
@@ -10876,6 +10972,13 @@ types:
     id: 46837
     marketGroup: 2000
     name: Griffin Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Griffin Navy Issue Luminaire Zenith SKIN:
+    id: 57594
+    name: Griffin Navy Issue Luminaire Zenith SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11142,6 +11245,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Harbinger GalNet StreamCast Unit SKIN:
+    id: 57737
+    marketGroup: 1956
+    name: Harbinger GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Harbinger Glacial Drift SKIN:
     id: 46796
     marketGroup: 1956
@@ -11204,6 +11315,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Harbinger Luminaire Zenith SKIN:
+    id: 57412
+    name: Harbinger Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Harbinger Navy Issue Biosecurity Responders SKIN:
     id: 55334
     marketGroup: 2103
@@ -11256,6 +11374,13 @@ types:
     id: 48851
     marketGroup: 2103
     name: Harbinger Navy Issue Imperial Jubilee SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Harbinger Navy Issue Luminaire Zenith SKIN:
+    id: 57591
+    name: Harbinger Navy Issue Luminaire Zenith SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -11344,6 +11469,14 @@ types:
     id: 45818
     marketGroup: 2048
     name: Harpy Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Harpy GalNet StreamCast Unit SKIN:
+    id: 57734
+    marketGroup: 2048
+    name: Harpy GalNet StreamCast Unit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -12579,6 +12712,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Hurricane Fleet Issue Luminaire Zenith SKIN:
+    id: 57588
+    name: Hurricane Fleet Issue Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Hurricane Fleet Issue Snowline Bladeracer SKIN:
     id: 52883
     marketGroup: 2103
@@ -12646,6 +12786,13 @@ types:
   Hurricane Justice SKIN:
     id: 36453
     name: Hurricane Justice SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Hurricane Luminaire Zenith SKIN:
+    id: 57411
+    name: Hurricane Luminaire Zenith SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -13596,6 +13743,14 @@ types:
     id: 45878
     marketGroup: 2049
     name: Ishkur Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Ishkur GalNet StreamCast Unit SKIN:
+    id: 57729
+    marketGroup: 2049
+    name: Ishkur GalNet StreamCast Unit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -15895,6 +16050,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Malediction Hunter's Quiver SKIN:
+    id: 57534
+    name: Malediction Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Malediction Imperial Jubilee SKIN:
     id: 48843
     marketGroup: 2059
@@ -17683,6 +17845,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Myrmidon Hunter's Quiver SKIN:
+    id: 57532
+    name: Myrmidon Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Myrmidon Inner Zone Vanguard SKIN:
     id: 52741
     marketGroup: 1958
@@ -19377,6 +19546,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Omen Luminaire Zenith SKIN:
+    id: 57418
+    name: Omen Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Omen Navy Issue Biosecurity Responders SKIN:
     id: 55339
     marketGroup: 2063
@@ -19421,6 +19597,13 @@ types:
     id: 48847
     marketGroup: 2063
     name: Omen Navy Issue Imperial Jubilee SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Omen Navy Issue Luminaire Zenith SKIN:
+    id: 57590
+    name: Omen Navy Issue Luminaire Zenith SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -21092,6 +21275,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Porpoise GalNet StreamCast Unit SKIN:
+    id: 57740
+    marketGroup: 2338
+    name: Porpoise GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Porpoise Gallente Industrial Livery SKIN:
     id: 43788
     marketGroup: 2338
@@ -21540,6 +21731,13 @@ types:
     id: 46798
     marketGroup: 1956
     name: Prophecy Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Prophecy Hunter's Quiver SKIN:
+    id: 57530
+    name: Prophecy Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22067,6 +22265,14 @@ types:
     id: 45987
     marketGroup: 2091
     name: Prowler Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Prowler GalNet StreamCast Unit SKIN:
+    id: 57739
+    marketGroup: 2091
+    name: Prowler GalNet StreamCast Unit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23237,6 +23443,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Retribution GalNet StreamCast Unit SKIN:
+    id: 57736
+    marketGroup: 2047
+    name: Retribution GalNet StreamCast Unit SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Retribution Glacial Drift SKIN:
     id: 46774
     marketGroup: 2047
@@ -24403,6 +24617,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Rupture Luminaire Zenith SKIN:
+    id: 57415
+    name: Rupture Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Rupture Permaband Roadies SKIN:
     id: 54447
     marketGroup: 1993
@@ -24494,6 +24715,14 @@ types:
     id: 45952
     marketGroup: 2041
     name: Sabre Exoplanets Hunter SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Sabre GalNet StreamCast Unit SKIN:
+    id: 57738
+    marketGroup: 2041
+    name: Sabre GalNet StreamCast Unit SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -25638,6 +25867,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Skybreaker EDENCOM Victory SKIN:
+    id: 57706
+    marketGroup: 2000
+    name: Skybreaker EDENCOM Victory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Skybreaker Strikeflight Red SKIN:
     id: 56622
     name: Skybreaker Strikeflight Red SKIN
@@ -25993,6 +26230,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stabber Fleet Issue Luminaire Zenith SKIN:
+    id: 57589
+    name: Stabber Fleet Issue Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stabber Fleet Issue Snowline Bladeracer SKIN:
     id: 52877
     marketGroup: 2063
@@ -26174,6 +26418,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Stiletto Hunter's Quiver SKIN:
+    id: 57533
+    name: Stiletto Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Stiletto Justice SKIN:
     id: 36426
     marketGroup: 2062
@@ -26290,6 +26541,14 @@ types:
     id: 55985
     marketGroup: 2063
     name: Stormbringer Bluestar Defenders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Stormbringer EDENCOM Victory SKIN:
+    id: 57707
+    marketGroup: 2063
+    name: Stormbringer EDENCOM Victory SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -27934,6 +28193,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Thunderchild EDENCOM Victory SKIN:
+    id: 57708
+    marketGroup: 2108
+    name: Thunderchild EDENCOM Victory SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Thunderchild Strikeflight Red SKIN:
     id: 56624
     name: Thunderchild Strikeflight Red SKIN
@@ -29357,6 +29624,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Vexor Luminaire Zenith SKIN:
+    id: 57416
+    name: Vexor Luminaire Zenith SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Vexor Navy Issue Biosecurity Responders SKIN:
     id: 55611
     marketGroup: 2063
@@ -29441,6 +29715,13 @@ types:
     id: 48215
     marketGroup: 2063
     name: Vexor Navy Issue Luminaire Rising SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Vexor Navy Issue Luminaire Zenith SKIN:
+    id: 57593
+    name: Vexor Navy Issue Luminaire Zenith SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

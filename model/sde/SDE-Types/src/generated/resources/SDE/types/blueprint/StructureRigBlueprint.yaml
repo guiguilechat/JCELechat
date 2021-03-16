@@ -286,10 +286,10 @@ types:
     structureitemvisualflag: 1
     techlevel: 2
     volume: 0.009999999776482582
-  Standup L-Set EW Expert System I Blueprint:
+  Standup L-Set EW Command System I Blueprint:
     id: 37417
     marketGroup: 2159
-    name: Standup L-Set EW Expert System I Blueprint
+    name: Standup L-Set EW Command System I Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.0E8
@@ -298,9 +298,9 @@ types:
     structureitemvisualflag: 1
     techlevel: 1
     volume: 0.009999999776482582
-  Standup L-Set EW Expert System II Blueprint:
+  Standup L-Set EW Command System II Blueprint:
     id: 37418
-    name: Standup L-Set EW Expert System II Blueprint
+    name: Standup L-Set EW Command System II Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 5.0E8

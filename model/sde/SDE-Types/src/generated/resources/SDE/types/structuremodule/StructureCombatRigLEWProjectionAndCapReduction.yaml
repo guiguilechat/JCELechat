@@ -1,5 +1,5 @@
 types:
-  Standup L-Set EW Expert System I:
+  Standup L-Set EW Command System I:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -9,7 +9,7 @@ types:
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2345
     maxgroupfitted: 1
-    name: Standup L-Set EW Expert System I
+    name: Standup L-Set EW Command System I
     nullsecmodifier: 1.2000000476837158
     packagedVolume: 20.0
     portionSize: 1
@@ -26,7 +26,7 @@ types:
     techlevel: 1
     upgradecost: 100
     volume: 20.0
-  Standup L-Set EW Expert System II:
+  Standup L-Set EW Command System II:
     canfitshipgroup01: 1657
     canfitshipgroup02: 1404
     canfitshipgroup03: 1406
@@ -36,7 +36,7 @@ types:
     lowsecmodifier: 1.2000000476837158
     marketGroup: 2345
     maxgroupfitted: 1
-    name: Standup L-Set EW Expert System II
+    name: Standup L-Set EW Command System II
     nullsecmodifier: 1.2000000476837158
     packagedVolume: 20.0
     portionSize: 1
