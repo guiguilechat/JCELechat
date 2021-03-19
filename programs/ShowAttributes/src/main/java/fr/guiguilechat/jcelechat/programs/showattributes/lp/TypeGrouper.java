@@ -50,7 +50,7 @@ public class TypeGrouper {
 		R_get_universe_types_type_id product = type;
 		if (BPGROUPS.contains(type.group_id)) {
 			fr.guiguilechat.jcelechat.model.sde.industry.Blueprint bp = fr.guiguilechat.jcelechat.model.sde.industry.Blueprint
-					.loadById().get(type.type_id);
+					.of(type.type_id);
 			product = access.universe.types(bp.manufacturing.products.get(0).id).get();
 		}
 		Map<Integer, Double> atts = new HashMap<>();

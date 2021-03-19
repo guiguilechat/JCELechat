@@ -10,7 +10,7 @@ public class EIVT1T2Ratio {
 		for (Blueprint bp : Blueprint.load().values()) {
 
 			if (bp.invention != null && bp.invention.products != null && !bp.invention.products.isEmpty()) {
-				Blueprint bpi = Blueprint.loadById().get(bp.invention.products.get(0).id);
+				Blueprint bpi = Blueprint.of(bp.invention.products.get(0).id);
 				if (bpi != null) {
 					double t1eiv = bp.makeEIV(ESIAccess.INSTANCE.markets::getAdjusted);
 					double t2eiv= bpi.makeEIV(ESIAccess.INSTANCE.markets::getAdjusted);

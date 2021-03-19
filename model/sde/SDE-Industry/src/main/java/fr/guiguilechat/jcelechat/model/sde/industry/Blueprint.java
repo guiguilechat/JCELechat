@@ -5,11 +5,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import fr.guiguilechat.jcelechat.model.sde.EveType;
@@ -19,6 +23,8 @@ import fr.lelouet.tools.application.yaml.CleanRepresenter;
 import fr.lelouet.tools.application.yaml.YAMLTools;
 
 public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types.Blueprint> {
+
+	private static final Logger logger = LoggerFactory.getLogger(Blueprint.class);
 
 	// loading/dumping
 
@@ -52,8 +58,14 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		return cacheById;
 	}
 
+	private static Set<Integer> missingBPIds = new HashSet<>();
+
 	public static Blueprint of(int bpid) {
-		return loadById().get(bpid);
+		Blueprint ret = loadById().get(bpid);
+		if (ret == null && missingBPIds.add(bpid)) {
+			logger.warn("unknown bp " + bpid);
+		}
+		return ret;
 	}
 
 	public static void export(LinkedHashMap<Integer, Blueprint> data, File folderout) {
