@@ -177,16 +177,16 @@ public class Region extends ALocation {
 			public int escalHideway() {
 				return -1;
 			}
-
-			@Override
-			public int escalRefuge() {
-				return 4;
-			}
 		},
 		guristas {
 			@Override
 			public Set<String> regions() {
 				return EMPIRE_GURISTAS;
+			}
+
+			@Override
+			public int escalHideway() {
+				return 4;
 			}
 		},
 		sanshas {
@@ -194,11 +194,21 @@ public class Region extends ALocation {
 			public Set<String> regions() {
 				return EMPIRE_SANSHAS;
 			}
+
+			@Override
+			public int escalRefuge() {
+				return 3;
+			}
 		},
 		serpentis {
 			@Override
 			public Set<String> regions() {
 				return EMPIRE_SERPENTIS;
+			}
+
+			@Override
+			public int escalRefuge() {
+				return 3;
 			}
 		};
 
@@ -207,7 +217,7 @@ public class Region extends ALocation {
 		}
 
 		public int escalRefuge() {
-			return 3;
+			return 4;
 		}
 
 		public int escalHideway() {
