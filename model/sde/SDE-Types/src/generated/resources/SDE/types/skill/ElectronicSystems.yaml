@@ -181,6 +181,23 @@ types:
     secondaryattribute: 166
     skilltimeconstant: 5.0
     volume: 0.009999999776482582
+  Signature Masking:
+    cannotbetrainedontrial: 1
+    durationbonus: 5
+    id: 4411
+    marketGroup: 367
+    name: Signature Masking
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 600000.0
+    primaryattribute: 165
+    published: true
+    radius: 1.0
+    requiredskill1: 3426
+    requiredskill1level: 4
+    secondaryattribute: 166
+    skilltimeconstant: 5.0
+    volume: 0.009999999776482582
   Tactical Logistics Reconfiguration:
     cannotbetrainedontrial: 1
     consumptionquantitybonus: 25
@@ -197,24 +214,6 @@ types:
     requiredskill1level: 5
     secondaryattribute: 166
     skilltimeconstant: 8.0
-    volume: 0.009999999776482582
-  Target Breaker Amplification:
-    cannotbetrainedontrial: 1
-    capneedbonus: -5
-    durationbonus: -5
-    id: 4411
-    marketGroup: 367
-    name: Target Breaker Amplification
-    packagedVolume: 0.009999999776482582
-    portionSize: 1
-    price: 600000.0
-    primaryattribute: 165
-    published: true
-    radius: 1.0
-    requiredskill1: 3426
-    requiredskill1level: 4
-    secondaryattribute: 166
-    skilltimeconstant: 5.0
     volume: 0.009999999776482582
   Target Painting:
     cannotbetrainedontrial: 1

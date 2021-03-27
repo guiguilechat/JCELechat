@@ -161,6 +161,10 @@ public enum get_characters_character_id_notifications_type {
     ESSMainBankLink("ESSMainBankLink"),
     @JsonProperty("EntosisCaptureStarted")
     EntosisCaptureStarted("EntosisCaptureStarted"),
+    @JsonProperty("ExpertSystemExpired")
+    ExpertSystemExpired("ExpertSystemExpired"),
+    @JsonProperty("ExpertSystemExpiryImminent")
+    ExpertSystemExpiryImminent("ExpertSystemExpiryImminent"),
     @JsonProperty("FWAllianceKickMsg")
     FWAllianceKickMsg("FWAllianceKickMsg"),
     @JsonProperty("FWAllianceWarningMsg")

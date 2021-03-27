@@ -4190,6 +4190,24 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Serenity Anniversary Crate:
+    exporttaxmultiplier: 1
+    id: 57764
+    importtaxmultiplier: 1
+    name: Serenity Anniversary Crate
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
+  Serenity Anniversary SKIN Box:
+    exporttaxmultiplier: 1
+    id: 57774
+    importtaxmultiplier: 1
+    name: Serenity Anniversary SKIN Box
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    volume: 1.0
   Serenity Festival Copper Crate:
     exporttaxmultiplier: 1
     id: 57279

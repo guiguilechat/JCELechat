@@ -20,7 +20,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.types.Blueprint;
 import org.yaml.snakeyaml.Yaml;
 
-public class TargetBreakerBlueprint
+public class SignatureSuppressorBlueprint
     extends Blueprint
 {
     /**
@@ -52,7 +52,7 @@ public class TargetBreakerBlueprint
     @DefaultRealValue(0.0)
     public double radius;
     public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, IndustryBlueprintRank.INSTANCE, Mass.INSTANCE, Capacity.INSTANCE })));
-    public static final TargetBreakerBlueprint.MetaGroup METAGROUP = new TargetBreakerBlueprint.MetaGroup();
+    public static final SignatureSuppressorBlueprint.MetaGroup METAGROUP = new SignatureSuppressorBlueprint.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -86,18 +86,18 @@ public class TargetBreakerBlueprint
     }
 
     @Override
-    public IMetaGroup<TargetBreakerBlueprint> getGroup() {
+    public IMetaGroup<SignatureSuppressorBlueprint> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<TargetBreakerBlueprint>
+        implements IMetaGroup<SignatureSuppressorBlueprint>
     {
-        public static final String RESOURCE_PATH = "SDE/types/blueprint/TargetBreakerBlueprint.yaml";
-        private Map<String, TargetBreakerBlueprint> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/blueprint/SignatureSuppressorBlueprint.yaml";
+        private Map<String, SignatureSuppressorBlueprint> cache = (null);
 
         @Override
-        public IMetaCategory<? super TargetBreakerBlueprint> category() {
+        public IMetaCategory<? super SignatureSuppressorBlueprint> category() {
             return Blueprint.METACAT;
         }
 
@@ -108,13 +108,13 @@ public class TargetBreakerBlueprint
 
         @Override
         public String getName() {
-            return "TargetBreakerBlueprint";
+            return "SignatureSuppressorBlueprint";
         }
 
         @Override
-        public synchronized Map<String, TargetBreakerBlueprint> load() {
+        public synchronized Map<String, SignatureSuppressorBlueprint> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(TargetBreakerBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(SignatureSuppressorBlueprint.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -124,7 +124,7 @@ public class TargetBreakerBlueprint
         }
 
         private static class Container {
-            public LinkedHashMap<String, TargetBreakerBlueprint> types;
+            public LinkedHashMap<String, SignatureSuppressorBlueprint> types;
         }
     }
 }

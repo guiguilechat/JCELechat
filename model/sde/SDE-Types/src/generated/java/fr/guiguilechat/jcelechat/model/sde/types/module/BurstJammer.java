@@ -37,6 +37,7 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.ScanLadarStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanMagnetometricStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.ScanRadarStrengthBonus;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
+import fr.guiguilechat.jcelechat.model.sde.attributes.WarpBubbleImmuneModifier;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
@@ -186,7 +187,14 @@ public class BurstJammer
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, OverloadECMStrengthBonus.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, EcmBurstRange.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
+    /**
+     * 
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int warpbubbleimmunemodifier;
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, WarpBubbleImmuneModifier.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, OverloadECMStrengthBonus.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, EcmBurstRange.INSTANCE, ScanGravimetricStrengthBonus.INSTANCE, ScanLadarStrengthBonus.INSTANCE, ScanMagnetometricStrengthBonus.INSTANCE, ScanRadarStrengthBonus.INSTANCE, Cpu.INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, MetaGroupID.INSTANCE, Power.INSTANCE })));
     public static final BurstJammer.MetaGroup METAGROUP = new BurstJammer.MetaGroup();
 
     @Override
@@ -267,6 +275,10 @@ public class BurstJammer
             case  422 :
             {
                 return techlevel;
+            }
+            case  1539 :
+            {
+                return warpbubbleimmunemodifier;
             }
             default:
             {

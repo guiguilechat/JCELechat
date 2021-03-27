@@ -188,6 +188,7 @@ group2class:
   blueprint/ShuttleBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.ShuttleBlueprint
   blueprint/SiegeModuleBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.SiegeModuleBlueprint
   blueprint/SignalAmplifierBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.SignalAmplifierBlueprint
+  blueprint/SignatureSuppressorBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.SignatureSuppressorBlueprint
   blueprint/SmartBombBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.SmartBombBlueprint
   blueprint/SovereigntyStructureBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.SovereigntyStructureBlueprint
   blueprint/SpecialEditionCommodityBlueprints: fr.guiguilechat.jcelechat.model.sde.types.blueprint.SpecialEditionCommodityBlueprints
@@ -218,7 +219,6 @@ group2class:
   blueprint/SurveyProbeLauncherBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.SurveyProbeLauncherBlueprint
   blueprint/SurveyScannerBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.SurveyScannerBlueprint
   blueprint/TacticalDestroyerBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.TacticalDestroyerBlueprint
-  blueprint/TargetBreakerBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.TargetBreakerBlueprint
   blueprint/TargetPainterBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.TargetPainterBlueprint
   blueprint/TitanBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.TitanBlueprint
   blueprint/ToolBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.ToolBlueprint
@@ -854,6 +854,7 @@ group2class:
   module/ShipScanner: fr.guiguilechat.jcelechat.model.sde.types.module.ShipScanner
   module/SiegeModule: fr.guiguilechat.jcelechat.model.sde.types.module.SiegeModule
   module/SignalAmplifier: fr.guiguilechat.jcelechat.model.sde.types.module.SignalAmplifier
+  module/SignatureSuppressor: fr.guiguilechat.jcelechat.model.sde.types.module.SignatureSuppressor
   module/SmartBomb: fr.guiguilechat.jcelechat.model.sde.types.module.SmartBomb
   module/StasisGrappler: fr.guiguilechat.jcelechat.model.sde.types.module.StasisGrappler
   module/StasisNullifiers: fr.guiguilechat.jcelechat.model.sde.types.module.StasisNullifiers
@@ -862,7 +863,6 @@ group2class:
   module/SuperWeapon: fr.guiguilechat.jcelechat.model.sde.types.module.SuperWeapon
   module/SurveyProbeLauncher: fr.guiguilechat.jcelechat.model.sde.types.module.SurveyProbeLauncher
   module/SurveyScanner: fr.guiguilechat.jcelechat.model.sde.types.module.SurveyScanner
-  module/TargetBreaker: fr.guiguilechat.jcelechat.model.sde.types.module.TargetBreaker
   module/TargetPainter: fr.guiguilechat.jcelechat.model.sde.types.module.TargetPainter
   module/TitanPhenomenaGenerator: fr.guiguilechat.jcelechat.model.sde.types.module.TitanPhenomenaGenerator
   module/TrackingComputer: fr.guiguilechat.jcelechat.model.sde.types.module.TrackingComputer
@@ -4105,9 +4105,9 @@ id2name:
   4406: Drone Damage Amplifier II Blueprint
   4407: Shield Booster Fuel Allocation Script
   4408: Shield Booster Fuel Allocation Script Blueprint
-  4409: Target Spectrum Breaker
-  4410: Target Spectrum Breaker Blueprint
-  4411: Target Breaker Amplification
+  4409: Signature Radius Suppressor I
+  4410: Signature Radius Suppressor I Blueprint
+  4411: Signature Masking
   4421: F-a10 Buffer Capacitor Regenerator
   4423: Industrial Capacitor Recharger
   4425: AGM Capacitor Charge Array
@@ -38218,6 +38218,18 @@ id2name:
   57756: Pashanai Monument
   57758: Proving Velocity Bonus (Do not translate)
   57759: Proving Hunt Drone Missile Damage Bonus (Do not translate)
+  57763: Serenity Monthly Cerebral Accelerator - 2021.4
+  57764: Serenity Anniversary Crate
+  57765: Serenity Anniversary Cerebral Accelerator I
+  57766: Serenity Anniversary Cerebral Accelerator II
+  57767: Serenity Anniversary Cerebral Accelerator III
+  57768: Serenity Anniversary Cerebral Accelerator IV
+  57769: Serenity Anniversary Limited 'Overclocker' Dose
+  57770: Serenity Anniversary Limited 'Hardshell' Dose
+  57771: Serenity Anniversary Limited 'Pyrolancea' Dose
+  57772: Serenity Anniversary Limited 'Efficiency' Dose
+  57773: Serenity Anniversary Limited 'Sharpeye' Dose
+  57774: Serenity Anniversary SKIN Box
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -62816,6 +62828,17 @@ name2group:
   Sentry Station Alpha/Beta: entity/DeadspaceOverseerSStructure
   Sentry Tower: entity/DestructibleSentryGun
   Sepentis Regional Baron Arain Percourt: entity/DeadspaceOverseerBattleship
+  Serenity Anniversary Cerebral Accelerator I: implant/Booster
+  Serenity Anniversary Cerebral Accelerator II: implant/Booster
+  Serenity Anniversary Cerebral Accelerator III: implant/Booster
+  Serenity Anniversary Cerebral Accelerator IV: implant/Booster
+  Serenity Anniversary Crate: commodity/Miscellaneous
+  Serenity Anniversary Limited 'Efficiency' Dose: implant/Booster
+  Serenity Anniversary Limited 'Hardshell' Dose: implant/Booster
+  Serenity Anniversary Limited 'Overclocker' Dose: implant/Booster
+  Serenity Anniversary Limited 'Pyrolancea' Dose: implant/Booster
+  Serenity Anniversary Limited 'Sharpeye' Dose: implant/Booster
+  Serenity Anniversary SKIN Box: commodity/Miscellaneous
   Serenity August Season Advanced Cerebral Accelerator: implant/Booster
   Serenity August Season Pass: implant/Booster
   Serenity August Season Standard Cerebral Accelerator: implant/Booster
@@ -62837,6 +62860,7 @@ name2group:
   Serenity Monthly Cerebral Accelerator - 2021.1: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.2: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.3: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2021.4: implant/Booster
   Serenity November Season Advanced Cerebral Accelerator: implant/Booster
   Serenity November Season Pass: implant/Booster
   Serenity November Season Standard Cerebral Accelerator: implant/Booster
@@ -63547,6 +63571,9 @@ name2group:
   Signal-5 'Needlejack' Filament: commodity/JumpFilaments
   Signature Analysis: skill/Targeting
   Signature Focusing: skill/ElectronicSystems
+  Signature Masking: skill/ElectronicSystems
+  Signature Radius Suppressor I: module/SignatureSuppressor
+  Signature Radius Suppressor I Blueprint: blueprint/SignatureSuppressorBlueprint
   Signed Copy of Pax Amarria: commodity/Miscellaneous
   Silicate Glass: planetarycommodities/RefinedCommoditiesTier2
   Silicates: material/MoonMaterials
@@ -66045,7 +66072,6 @@ name2group:
   Taranis Valimor Legacy SKIN: skins/PermanentSKIN
   Tarantula Apis: entity/DeadspaceRogueDroneSwarm
   Tarantula Drone: entity/AsteroidRogueDroneSwarm
-  Target Breaker Amplification: skill/ElectronicSystems
   Target Illumination Burst Projector: module/BurstProjectors
   Target Illumination Burst Projector Blueprint: blueprint/BurstProjectorBlueprint
   Target Management: skill/Targeting
@@ -66055,8 +66081,6 @@ name2group:
   Target Painter II: module/TargetPainter
   Target Painter II Blueprint: blueprint/TargetPainterBlueprint
   Target Painting: skill/ElectronicSystems
-  Target Spectrum Breaker: module/TargetBreaker
-  Target Spectrum Breaker Blueprint: blueprint/TargetBreakerBlueprint
   Targeting Range Dampening Script: charge/SensorDampenerScript
   Targeting Range Dampening Script Blueprint: blueprint/ScriptBlueprint
   Targeting Range Script: charge/SensorBoosterScript

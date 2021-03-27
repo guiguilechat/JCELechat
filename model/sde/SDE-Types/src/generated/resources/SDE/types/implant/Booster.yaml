@@ -3474,6 +3474,165 @@ types:
     socialbonus: 100
     velocitybonus: 5.0
     volume: 1.0
+  Serenity Anniversary Cerebral Accelerator I:
+    boosterduration: 8.64E7
+    boosterness: 122
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 57765
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity Anniversary Cerebral Accelerator I
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity Anniversary Cerebral Accelerator II:
+    boosterduration: 2.592E8
+    boosterness: 122
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 57766
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity Anniversary Cerebral Accelerator II
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity Anniversary Cerebral Accelerator III:
+    boosterduration: 4.32E8
+    boosterness: 122
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 57767
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity Anniversary Cerebral Accelerator III
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity Anniversary Cerebral Accelerator IV:
+    boosterduration: 6.048E8
+    boosterness: 122
+    charismabonus: 10
+    followsjumpclones: 1
+    id: 57768
+    intelligencebonus: 10
+    memorybonus: 10
+    name: Serenity Anniversary Cerebral Accelerator IV
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 10
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 10
+  Serenity Anniversary Limited 'Efficiency' Dose:
+    boosterduration: 6.048E8
+    boosterness: 123
+    durationbonus: -5
+    followsjumpclones: 1
+    iceharvestcyclebonus: -5.0
+    id: 57772
+    miningamountbonus: 5
+    name: Serenity Anniversary Limited 'Efficiency' Dose
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+  Serenity Anniversary Limited 'Hardshell' Dose:
+    armorhpbonus2: 3.0
+    boosterduration: 6.048E8
+    boosterness: 123
+    followsjumpclones: 1
+    hullhpbonus: 3.0
+    id: 57770
+    name: Serenity Anniversary Limited 'Hardshell' Dose
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    shieldcapacitybonus: 3.0
+    socialbonus: 100
+    volume: 1.0
+  Serenity Anniversary Limited 'Overclocker' Dose:
+    boosterduration: 6.048E8
+    boosterness: 123
+    durationbonus: 10
+    followsjumpclones: 1
+    id: 57769
+    name: Serenity Anniversary Limited 'Overclocker' Dose
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    speedfbonus: 5
+    volume: 1.0
+    warpsbonus: 10
+  Serenity Anniversary Limited 'Pyrolancea' Dose:
+    boosterduration: 6.048E8
+    boosterness: 123
+    damagemultiplierbonus: 3
+    followsjumpclones: 1
+    id: 57771
+    name: Serenity Anniversary Limited 'Pyrolancea' Dose
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    socialbonus: 100
+    volume: 1.0
+  Serenity Anniversary Limited 'Sharpeye' Dose:
+    boosterduration: 6.048E8
+    boosterness: 123
+    durationbonus: -10
+    followsjumpclones: 1
+    id: 57773
+    maxscandeviationmodifier: -10
+    name: Serenity Anniversary Limited 'Sharpeye' Dose
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    portionSize: 1
+    published: true
+    radius: 1.0
+    scanstrengthbonus: 10
+    socialbonus: 100
+    volume: 1.0
   Serenity August Season Advanced Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18522.666015625
@@ -3885,6 +4044,28 @@ types:
     perceptionbonus: 5
     portionSize: 1
     price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2021.4:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18748.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 57763
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2021.4
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
     published: true
     radius: 1.0
     requiredskill1: 3402

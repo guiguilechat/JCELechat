@@ -20,26 +20,26 @@ import fr.guiguilechat.jcelechat.model.sde.attributes.CanFitShipGroup03;
 import fr.guiguilechat.jcelechat.model.sde.attributes.CapacitorNeed;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Capacity;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Cpu;
-import fr.guiguilechat.jcelechat.model.sde.attributes.Duration;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DisallowRepeatingActivation;
+import fr.guiguilechat.jcelechat.model.sde.attributes.DurationHighisGood;
 import fr.guiguilechat.jcelechat.model.sde.attributes.HeatAbsorbtionRateModifier;
-import fr.guiguilechat.jcelechat.model.sde.attributes.HeatDamage;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Hp;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Mass;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupActive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MaxGroupFitted;
 import fr.guiguilechat.jcelechat.model.sde.attributes.MetaLevelOld;
-import fr.guiguilechat.jcelechat.model.sde.attributes.OverloadSelfDurationBonus;
+import fr.guiguilechat.jcelechat.model.sde.attributes.ModuleReactivationDelay;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Power;
 import fr.guiguilechat.jcelechat.model.sde.attributes.Radius;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1;
 import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredSkill1Level;
-import fr.guiguilechat.jcelechat.model.sde.attributes.RequiredThermoDynamicsSkill;
-import fr.guiguilechat.jcelechat.model.sde.attributes.ScanResolutionMultiplier;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureSuppressorSignatureRadiusBonusActive;
+import fr.guiguilechat.jcelechat.model.sde.attributes.SignatureSuppressorSignatureRadiusBonusPassive;
 import fr.guiguilechat.jcelechat.model.sde.attributes.TechLevel;
 import fr.guiguilechat.jcelechat.model.sde.types.Module;
 import org.yaml.snakeyaml.Yaml;
 
-public class TargetBreaker
+public class SignatureSuppressor
     extends Module
 {
     /**
@@ -78,12 +78,19 @@ public class TargetBreaker
     @DefaultRealValue(0.0)
     public double cpu;
     /**
+     * If set, this module cannot be activated and made to autorepeat.
+     */
+    @HighIsGood(true)
+    @Stackable(true)
+    @DefaultIntValue(0)
+    public int disallowrepeatingactivation;
+    /**
      * Length of activation time.
      */
-    @HighIsGood(false)
+    @HighIsGood(true)
     @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double duration;
+    @DefaultIntValue(0)
+    public int durationhighisgood;
     /**
      * 
      */
@@ -91,13 +98,6 @@ public class TargetBreaker
     @Stackable(true)
     @DefaultRealValue(0.0)
     public double heatabsorbtionratemodifier;
-    /**
-     * 
-     */
-    @HighIsGood(false)
-    @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double heatdamage;
     /**
      * Maximum modules of same group that can be activated at same time, 0 = no limit, 1 = 1
      */
@@ -121,12 +121,12 @@ public class TargetBreaker
     @DefaultIntValue(0)
     public int metalevelold;
     /**
-     * 
+     * Amount of time that has to be waited after the deactivation of this module until it can be reactivated.
      */
-    @HighIsGood(true)
+    @HighIsGood(false)
     @Stackable(true)
-    @DefaultRealValue(0.0)
-    public double overloadselfdurationbonus;
+    @DefaultIntValue(0)
+    public int modulereactivationdelay;
     /**
      * current power need
      */
@@ -149,19 +149,19 @@ public class TargetBreaker
     @DefaultIntValue(0)
     public int requiredskill1level;
     /**
-     * 
+     * Bonus to signature radius granted by signature suppressor activation
      */
     @HighIsGood(true)
-    @Stackable(true)
-    @DefaultIntValue(0)
-    public int requiredthermodynamicsskill;
+    @Stackable(false)
+    @DefaultRealValue(0.0)
+    public double signaturesuppressorsignatureradiusbonusactive;
     /**
-     * Improves the targeting time of ships by boosting the Scan Resolution.
+     * the passive bonus to signature radius from signature suppressors
      */
     @HighIsGood(true)
     @Stackable(true)
     @DefaultRealValue(0.0)
-    public double scanresolutionmultiplier;
+    public double signaturesuppressorsignatureradiusbonuspassive;
     /**
      * Authoring has been moved to FSD
      * Tech level of an item
@@ -170,8 +170,8 @@ public class TargetBreaker
     @Stackable(true)
     @DefaultIntValue(1)
     public int techlevel;
-    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, Duration.INSTANCE, Hp.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, ScanResolutionMultiplier.INSTANCE, RequiredSkill1 .INSTANCE, OverloadSelfDurationBonus.INSTANCE, MetaLevelOld.INSTANCE, HeatDamage.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, RequiredThermoDynamicsSkill.INSTANCE, Power.INSTANCE })));
-    public static final TargetBreaker.MetaGroup METAGROUP = new TargetBreaker.MetaGroup();
+    public static final Set<Attribute> ATTRIBUTES = Collections.unmodifiableSet(new LinkedHashSet<>(Arrays.asList(new Attribute[] {Radius.INSTANCE, Mass.INSTANCE, CapacitorNeed.INSTANCE, TechLevel.INSTANCE, Capacity.INSTANCE, MaxGroupFitted.INSTANCE, SignatureSuppressorSignatureRadiusBonusPassive.INSTANCE, Hp.INSTANCE, SignatureSuppressorSignatureRadiusBonusActive.INSTANCE, DurationHighisGood.INSTANCE, CanFitShipGroup01 .INSTANCE, Cpu.INSTANCE, CanFitShipGroup02 .INSTANCE, CanFitShipGroup03 .INSTANCE, RequiredSkill1Level.INSTANCE, RequiredSkill1 .INSTANCE, DisallowRepeatingActivation.INSTANCE, MetaLevelOld.INSTANCE, MaxGroupActive.INSTANCE, HeatAbsorbtionRateModifier.INSTANCE, ModuleReactivationDelay.INSTANCE, Power.INSTANCE })));
+    public static final SignatureSuppressor.MetaGroup METAGROUP = new SignatureSuppressor.MetaGroup();
 
     @Override
     public Number valueSet(Attribute attribute) {
@@ -196,17 +196,17 @@ public class TargetBreaker
             {
                 return cpu;
             }
-            case  73 :
+            case  1014 :
             {
-                return duration;
+                return disallowrepeatingactivation;
+            }
+            case  3115 :
+            {
+                return durationhighisgood;
             }
             case  1180 :
             {
                 return heatabsorbtionratemodifier;
-            }
-            case  1211 :
-            {
-                return heatdamage;
             }
             case  763 :
             {
@@ -220,9 +220,9 @@ public class TargetBreaker
             {
                 return metalevelold;
             }
-            case  1206 :
+            case  669 :
             {
-                return overloadselfdurationbonus;
+                return modulereactivationdelay;
             }
             case  30 :
             {
@@ -236,13 +236,13 @@ public class TargetBreaker
             {
                 return requiredskill1level;
             }
-            case  1212 :
+            case  3114 :
             {
-                return requiredthermodynamicsskill;
+                return signaturesuppressorsignatureradiusbonusactive;
             }
-            case  565 :
+            case  3113 :
             {
-                return scanresolutionmultiplier;
+                return signaturesuppressorsignatureradiusbonuspassive;
             }
             case  422 :
             {
@@ -261,18 +261,18 @@ public class TargetBreaker
     }
 
     @Override
-    public IMetaGroup<TargetBreaker> getGroup() {
+    public IMetaGroup<SignatureSuppressor> getGroup() {
         return METAGROUP;
     }
 
     public static class MetaGroup
-        implements IMetaGroup<TargetBreaker>
+        implements IMetaGroup<SignatureSuppressor>
     {
-        public static final String RESOURCE_PATH = "SDE/types/module/TargetBreaker.yaml";
-        private Map<String, TargetBreaker> cache = (null);
+        public static final String RESOURCE_PATH = "SDE/types/module/SignatureSuppressor.yaml";
+        private Map<String, SignatureSuppressor> cache = (null);
 
         @Override
-        public IMetaCategory<? super TargetBreaker> category() {
+        public IMetaCategory<? super SignatureSuppressor> category() {
             return Module.METACAT;
         }
 
@@ -283,13 +283,13 @@ public class TargetBreaker
 
         @Override
         public String getName() {
-            return "TargetBreaker";
+            return "SignatureSuppressor";
         }
 
         @Override
-        public synchronized Map<String, TargetBreaker> load() {
+        public synchronized Map<String, SignatureSuppressor> load() {
             if (cache == null) {
-                try(final InputStreamReader reader = new InputStreamReader(TargetBreaker.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
+                try(final InputStreamReader reader = new InputStreamReader(SignatureSuppressor.MetaGroup.class.getClassLoader().getResourceAsStream((RESOURCE_PATH)))) {
                     cache = new Yaml().loadAs(reader, (Container.class)).types;
                 } catch (final Exception exception) {
                     throw new UnsupportedOperationException("catch this", exception);
@@ -299,7 +299,7 @@ public class TargetBreaker
         }
 
         private static class Container {
-            public LinkedHashMap<String, TargetBreaker> types;
+            public LinkedHashMap<String, SignatureSuppressor> types;
         }
     }
 }
