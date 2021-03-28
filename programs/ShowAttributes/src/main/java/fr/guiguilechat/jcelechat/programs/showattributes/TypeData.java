@@ -25,7 +25,7 @@ public interface TypeData {
 
 	public String unit();
 
-	public static final DecimalFormat nf = new DecimalFormat("#", DecimalFormatSymbols.getInstance(Locale.ENGLISH));
+	static final DecimalFormat nf = new DecimalFormat("#", DecimalFormatSymbols.getInstance(Locale.ENGLISH));
 
 	public default String format(Number n) {
 		return nf.format(n);
