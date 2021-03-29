@@ -161,16 +161,23 @@ public class IndustryTranslater {
 		Blueprint bp2 = new Blueprint();
 		bp2.id = bp.blueprintTypeID;
 		bp2.maxCopyRuns = bp.maxProductionLimit;
-		bp2.copying = convertEblueprint(bp.activities.copying);
-		bp2.invention = convertEblueprint(bp.activities.invention);
-		bp2.manufacturing = convertEblueprint(bp.activities.manufacturing);
-		bp2.research_material = convertEblueprint(bp.activities.research_material);
-		bp2.research_time = convertEblueprint(bp.activities.research_time);
-		bp2.reaction = convertEblueprint(bp.activities.reaction);
+		bp2.copying = convertActivity(bp.activities.copying);
+		bp2.invention = convertActivity(bp.activities.invention);
+		bp2.manufacturing = convertActivity(bp.activities.manufacturing);
+		bp2.research_material = convertActivity(bp.activities.research_material);
+		bp2.research_time = convertActivity(bp.activities.research_time);
+		bp2.reaction = convertActivity(bp.activities.reaction);
 		return bp2;
 	}
 
-	public static Activity convertEblueprint(
+	/**
+	 * try to convert an SDE activity
+	 *
+	 * @param activity
+	 *          the SDE activity
+	 * @return null if a type referred to in the activity was not found.
+	 */
+	public static Activity convertActivity(
 			fr.guiguilechat.jcelechat.model.sde.load.fsd.Eblueprints.BPActivities.Activity activity) {
 		boolean[] skip = new boolean[] { false };
 		Activity ret = new Activity();

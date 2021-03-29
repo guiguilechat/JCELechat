@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -58,7 +59,7 @@ public class Blueprint extends TypeRef<fr.guiguilechat.jcelechat.model.sde.types
 		return cacheById;
 	}
 
-	private static Set<Integer> missingBPIds = new HashSet<>();
+	private static Set<Integer> missingBPIds = Collections.synchronizedSet(new HashSet<>());
 
 	public static Blueprint of(int bpid) {
 		Blueprint ret = loadById().get(bpid);
