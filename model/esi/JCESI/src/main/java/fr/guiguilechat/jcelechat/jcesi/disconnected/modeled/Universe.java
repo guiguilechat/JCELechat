@@ -1,11 +1,8 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled;
 
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -18,6 +15,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_planets_planet_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stargates_stargate_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_stations_station_id;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
@@ -91,6 +89,18 @@ public class Universe {
 			return IntStream.of(ids).mapToObj(cachedNames::get).toArray(R_post_universe_names[]::new);
 		}
 	}
+
+	//
+	// system stats
+	//
+
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, Integer> systemJumps = cache.system_jumps().toMap(j -> j.system_id,
+			j -> j.ship_jumps);
+
+	@Getter(lazy = true)
+	private final ObsMapHolder<Integer, R_get_universe_system_kills> systemKills = cache.system_kills()
+			.toMap(j -> j.system_id);
 
 	//
 	// access to public structures
@@ -382,36 +392,6 @@ public class Universe {
 			}
 		}
 		return maxdist;
-	}
-
-	/**
-	 * get the HS anomaly rate of a system, over a range. This rate is equal to
-	 * the number of HS systems in that range, with lower truesec than the system
-	 * considered, divided by the total number of systems with lower truesec than
-	 * the system considered.
-	 *
-	 * @param system
-	 *          the center system we consider
-	 * @param minDist
-	 *          minimal distance (in gate jumps) at which we consider the area.
-	 * @param maxDist
-	 *          maximal distance (in gate jumps) at which we consider the area.
-	 * @return the rate.
-	 */
-	public double systemHSAnomRate(R_get_universe_systems_system_id system, int minDist, int maxDist) {
-		Set<Integer> doneSystems = new HashSet<>();
-		Set<Integer> reachableHS = new HashSet<>();
-		reachableHS.add(system.system_id);
-		List<R_get_universe_systems_system_id> nextRange = Arrays.asList(system);
-		for (int dist = 1; dist <= maxDist; dist++) {
-			for (R_get_universe_systems_system_id s : nextRange) {
-				doneSystems.add(s.system_id);
-			}
-			nextRange = nextRange.parallelStream().map(sys -> getAdjacentSystems(sys.system_id))
-					.flatMap(h -> h.get().stream()).distinct().filter(s -> !doneSystems.contains(s.system_id))
-					.collect(Collectors.toList());
-		}
-		return 0.0;
 	}
 
 	private HashMap<Integer, ObsListHolder<R_get_universe_systems_system_id>> cachedAdjacentSystems = new HashMap<>();
