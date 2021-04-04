@@ -34419,7 +34419,7 @@ id2name:
   50133: Men's Permaband Tour Cap
   50135: loot_structure_locator
   50137: npc_spawn_locator
-  50138: Easter Firework
+  50138: Ace of Podhunters Firework
   50139: Damavik Metamateria Exotica SKIN
   50140: Kikimora Metamateria Exotica SKIN
   50141: Vedmak Metamateria Exotica SKIN
@@ -35824,7 +35824,7 @@ id2name:
   54252: Empire Base Spawner - Triglavian Invasion Phase 3
   54253: Empire Elite Spawner - Triglavian Invasion Phase 3
   54254: Empire Boss Spawner - Triglavian Invasion Phase 3
-  54255: Hunt Acceleration Gate Key
+  54255: Expired Guristas Acceleration Gate Key
   54256: Landmark Cloud
   54257: Test crate 1
   54258: Triglavian Dungeon Easy/Base Spawner
@@ -38136,7 +38136,7 @@ id2name:
   57552: Fenrir Wreck
   57553: Nomad Wreck
   57554: Ragnarok Wreck
-  57578: Grand Prix Interceptors Expert System
+  57578: Expired Grand Prix Interceptors Expert System
   57588: Hurricane Fleet Issue Luminaire Zenith SKIN
   57589: Stabber Fleet Issue Luminaire Zenith SKIN
   57590: Omen Navy Issue Luminaire Zenith SKIN
@@ -38178,7 +38178,7 @@ id2name:
   57637: Federation Grand Prix Otosela Waypoint
   57640: Federation Grand Prix Harroule Waypoint
   57643: Federation Grand Prix Asakai Waypoint
-  57684: Hunt Coordination Com Tower
+  57684: Guristas Com Tower
   57685: ENV_Wrecksite_01a
   57699: Non-interactable tournament radius
   57700: Project Discovery Phase Three Monument
@@ -38208,16 +38208,16 @@ id2name:
   57739: Prowler GalNet StreamCast Unit SKIN
   57740: Porpoise GalNet StreamCast Unit SKIN
   57744: Non-interactable Radio Telescope
-  57745: Basic 'Black Rise' Cerebral Accelerator
-  57746: Potent 'Black Rise' Cerebral Accelerator
-  57747: Extended 'Black Rise' Cerebral Accelerator
+  57745: Basic 'Guri Kikhivaa' Cerebral Accelerator
+  57746: Improved 'Guri Kikhivaa' Cerebral Accelerator
+  57747: Extended 'Guri Kikhivaa' Cerebral Accelerator
   57752: Non-interactable large wreck
   57753: Fallen Capsuleers Memorial
   57754: SOE Project Discovery Phase One Monument
   57755: Journey of Katia Sae Memorial
   57756: Pashanai Monument
   57758: Proving Velocity Bonus (Do not translate)
-  57759: Proving Hunt Drone Missile Damage Bonus (Do not translate)
+  57759: Proving Hunt Missile Damage Bonus (Do not translate)
   57763: Serenity Monthly Cerebral Accelerator - 2021.4
   57764: Serenity Anniversary Crate
   57765: Serenity Anniversary Cerebral Accelerator I
@@ -38230,6 +38230,13 @@ id2name:
   57772: Serenity Anniversary Limited 'Efficiency' Dose
   57773: Serenity Anniversary Limited 'Sharpeye' Dose
   57774: Serenity Anniversary SKIN Box
+  57776: Armageddon Navy Issue Hunter's Quiver SKIN
+  57777: Typhoon Fleet Issue Hunter's Quiver SKIN
+  57778: Exequror Navy Issue Hunter's Quiver SKIN
+  57779: Caracal Navy Issue Hunter's Quiver SKIN
+  57780: Raven Navy Issue Hunter's Quiver SKIN
+  57781: Worm Hunter's Quiver SKIN
+  57782: Hunt YC123 Acceleration Gate Key
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -42378,6 +42385,7 @@ name2group:
   Ace Plunderer: entity/AsteroidGuristasCommanderFrigate
   Ace Saboteur: entity/AsteroidGuristasCommanderFrigate
   Ace Wrecker: entity/AsteroidGuristasCommanderFrigate
+  Ace of Podhunters Firework: charge/FestivalCharges
   Achuran White Song Birds: commodity/Commodities
   Acolyte EV-300: drone/EnergyNeutralizerDrone
   Acolyte EV-300 Blueprint: blueprint/EnergyNeutralizerDroneBlueprint
@@ -43607,6 +43615,7 @@ name2group:
   Armageddon Navy Issue EoM SKIN: skins/PermanentSKIN
   Armageddon Navy Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Armageddon Navy Issue Glacial Drift SKIN: skins/PermanentSKIN
+  Armageddon Navy Issue Hunter's Quiver SKIN: skins/PermanentSKIN
   Armageddon Navy Issue Imperial Jubilee SKIN: skins/PermanentSKIN
   Armageddon Navy Issue Lavacore Imperial SKIN: skins/PermanentSKIN
   Armageddon Navy Issue Oasis of Faith SKIN: skins/PermanentSKIN
@@ -43710,7 +43719,6 @@ name2group:
   Assault Dropships: infantry/InfantrySkills
   Assault Enforcer Disparu Troop: entity/AbyssalSpaceshipEntities
   Assault Forge Gun: infantry/InfantryWeapons
-  Assault Frigate FFA Proving Filament: commodity/AbyssalProvingFilaments
   Assault Frigates: skill/SpaceshipCommand
   Assault G-I: infantry/InfantryDropsuits
   Assault G/1-Series: infantry/InfantryDropsuits
@@ -44112,6 +44120,7 @@ name2group:
   Base Metals: planetaryresources/PlanetSolidRawResource
   Basic 'Ardour' Cerebral Accelerator Blueprint Crate: specialeditionassets/SpecialEditionCommodities
   Basic 'Bonding' Cerebral Accelerator: implant/Booster
+  Basic 'Guri Kikhivaa' Cerebral Accelerator: implant/Booster
   Basic 'Radiance' Cerebral Accelerator: implant/Booster
   Basic 120mm Armor Plates: infantry/InfantryModules
   Basic 60mm Armor Plates: infantry/InfantryModules
@@ -46186,6 +46195,7 @@ name2group:
   Caracal Navy Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Caracal Navy Issue Ghostbird SKIN: skins/PermanentSKIN
   Caracal Navy Issue Glacial Drift SKIN: skins/PermanentSKIN
+  Caracal Navy Issue Hunter's Quiver SKIN: skins/PermanentSKIN
   Caracal Navy Issue Octopus Orange Flight SKIN: skins/PermanentSKIN
   Caracal Navy Issue Spirit SKIN: skins/PermanentSKIN
   Caracal Navy Issue Steel Cardinal SKIN: skins/PermanentSKIN
@@ -49712,7 +49722,6 @@ name2group:
   Eagle Vitalshift EGO SKIN: skins/PermanentSKIN
   Eagle Wiyrkomi SKIN: skins/PermanentSKIN
   Eagle Zento Isideko Combine SKIN: skins/PermanentSKIN
-  Easter Firework: charge/FestivalCharges
   Echelon: ship/Frigate
   Echo: ship/Corvette
   Ectoplasm: commodity/Biohazard
@@ -50330,6 +50339,8 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
+  Event 22 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 23 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
@@ -50406,6 +50417,7 @@ name2group:
   Exequror Navy Issue Blueprint: blueprint/CruiserBlueprint
   Exequror Navy Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Exequror Navy Issue Glacial Drift SKIN: skins/PermanentSKIN
+  Exequror Navy Issue Hunter's Quiver SKIN: skins/PermanentSKIN
   Exequror Navy Issue Inner Zone Vanguard SKIN: skins/PermanentSKIN
   Exequror Navy Issue Intaki Syndicate SKIN: skins/PermanentSKIN
   Exequror Navy Issue Kopis Edge SKIN: skins/PermanentSKIN
@@ -50472,6 +50484,7 @@ name2group:
   Expired Capsuleer Day Signal-10 'Needlejack' Filament: commodity/ExpiredJumpFilaments
   Expired Extended 'Guri Hivaa' Cerebral Accelerator: implant/Booster
   Expired Extended Serenity Cerebral Accelerator: implant/Booster
+  Expired Grand Prix Interceptors Expert System: expertsystems/PromotionalExpertSystems
   Expired Guardian Angels 'Advanced' Cerebral Accelerator: implant/Booster
   Expired Guardian Angels 'Standard' Cerebral Accelerator: implant/Booster
   Expired Serenity Monthly Cerebral Accelerator - 2020.5: implant/Booster
@@ -50507,6 +50520,7 @@ name2group:
   Exposed Sleeper Interlink Hub: entity/LargeCollidableStructure
   Exsanguinator: entity/DeadspaceOverseerCruiser
   Extended 'Bonding' Cerebral Accelerator: implant/Booster
+  Extended 'Guri Kikhivaa' Cerebral Accelerator: implant/Booster
   Extended 'Radiance' Cerebral Accelerator: implant/Booster
   Exterminator Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Exterminator Drone: entity/AsteroidRogueDroneBattleCruiser
@@ -51958,8 +51972,6 @@ name2group:
   Gram I Blueprint: blueprint/LightFighterBlueprint
   Gram II: fighter/LightFighter
   Gram II Blueprint: blueprint/LightFighterBlueprint
-  Grand Prix 1v1 Interceptors Proving Filament: commodity/AbyssalProvingFilaments
-  Grand Prix Interceptors Expert System: expertsystems/PromotionalExpertSystems
   Grand Prix Velocity Booster: implant/Booster
   Grand Prix Warp Booster: implant/Booster
   Grand Teigjon Casino Chip: specialeditionassets/SpecialEditionCommodities
@@ -53263,7 +53275,6 @@ name2group:
   Human Containment Facility: entity/SpawnContainer
   HumanFarm: entity/LargeCollidableStructure
   Hunt 3v3 Destroyers Proving Filament: commodity/AbyssalProvingFilaments
-  Hunt Acceleration Gate Key: commodity/AccelerationGateKeys
   Hunt Bantam: entity/IrregularFrigate
   Hunt Blackbird: entity/IrregularCruiser
   Hunt Caracal: entity/IrregularCruiser
@@ -53274,6 +53285,7 @@ name2group:
   Hunt Griffin: entity/IrregularFrigate
   Hunt Kestrel: entity/IrregularFrigate
   Hunt Worm: entity/IrregularFrigate
+  Hunt YC123 Acceleration Gate Key: commodity/AccelerationGateKeys
   Hunter Alvi: entity/DeadspaceRogueDroneFrigate
   Hunter Drone: entity/AsteroidRogueDroneFrigate
   Hunter Malbreth: entity/MissionGenericCruisers
@@ -53833,6 +53845,7 @@ name2group:
   Impregnable Safe: commodity/Commodities
   Improved 'Guise' Cloaking Device II: module/CloakingDevice
   Improved 'Guise' Cloaking Device II Blueprint: blueprint/CloakingDeviceBlueprint
+  Improved 'Guri Kikhivaa' Cerebral Accelerator: implant/Booster
   Improved Blue Pill Booster: implant/Booster
   Improved Blue Pill Booster Blueprint: blueprint/BoosterBlueprints
   Improved Blue Pill Booster Reaction Formula: blueprint/BiochemicalReactionFormulas
@@ -60978,6 +60991,7 @@ name2group:
   Raven Navy Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Raven Navy Issue Ghostbird SKIN: skins/PermanentSKIN
   Raven Navy Issue Glacial Drift SKIN: skins/PermanentSKIN
+  Raven Navy Issue Hunter's Quiver SKIN: skins/PermanentSKIN
   Raven Navy Issue Octopus Orange Flight SKIN: skins/PermanentSKIN
   Raven Navy Issue Steel Cardinal SKIN: skins/PermanentSKIN
   Raven Navy Issue Wiyrkomi SKIN: skins/PermanentSKIN
@@ -67182,6 +67196,7 @@ name2group:
   Typhoon Fleet Issue Exoplanets Hunter SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Freedom's Revolution SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Glacial Drift SKIN: skins/PermanentSKIN
+  Typhoon Fleet Issue Hunter's Quiver SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue IGC SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Justice SKIN: skins/PermanentSKIN
   Typhoon Fleet Issue Snowline Bladeracer SKIN: skins/PermanentSKIN
@@ -68621,6 +68636,7 @@ name2group:
   Worm Glacial Drift SKIN: skins/PermanentSKIN
   Worm Helmatt's Harriers SKIN: skins/PermanentSKIN
   Worm Hostile Takeover SKIN: skins/PermanentSKIN
+  Worm Hunter's Quiver SKIN: skins/PermanentSKIN
   Worm IGC SKIN: skins/PermanentSKIN
   Worn Talocan Static Gate: entity/LargeCollidableStructure
   Wreathe: ship/Industrial

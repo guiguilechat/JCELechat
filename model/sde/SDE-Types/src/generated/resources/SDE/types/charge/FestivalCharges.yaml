@@ -1,4 +1,25 @@
 types:
+  Ace of Podhunters Firework:
+    agility: 3000.0
+    aimedlaunch: 1
+    armorpiercingchance: 1
+    detonationrange: 35
+    explosiondelay: 100000
+    hp: 10.0
+    id: 50138
+    launchergroup: 56
+    marketGroup: 1663
+    maxvelocity: 1000.0
+    missileneverdoesdamage: 1
+    name: Ace of Podhunters Firework
+    packagedVolume: 0.10000000149011612
+    portionSize: 100
+    published: true
+    radius: 1.0
+    speedmultiplier: 1.0
+    structureuniformity: 1.0
+    techlevel: 1
+    volume: 0.10000000149011612
   Angels Arisen Firework:
     agility: 3000.0
     aimedlaunch: 1
@@ -201,27 +222,6 @@ types:
     maxvelocity: 1000.0
     missileneverdoesdamage: 1
     name: Crown Imperial Firework
-    packagedVolume: 0.10000000149011612
-    portionSize: 100
-    published: true
-    radius: 1.0
-    speedmultiplier: 1.0
-    structureuniformity: 1.0
-    techlevel: 1
-    volume: 0.10000000149011612
-  Easter Firework:
-    agility: 3000.0
-    aimedlaunch: 1
-    armorpiercingchance: 1
-    detonationrange: 35
-    explosiondelay: 100000
-    hp: 10.0
-    id: 50138
-    launchergroup: 56
-    marketGroup: 1663
-    maxvelocity: 1000.0
-    missileneverdoesdamage: 1
-    name: Easter Firework
     packagedVolume: 0.10000000149011612
     portionSize: 100
     published: true

@@ -1,17 +1,17 @@
 types:
-  Assault Frigate FFA Proving Filament:
-    id: 57368
+  Event 22 Proving Filament:
+    id: 57370
     marketGroup: 2747
-    name: Assault Frigate FFA Proving Filament
+    name: Event 22 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Grand Prix 1v1 Interceptors Proving Filament:
-    id: 57367
+  Event 23 Proving Filament:
+    id: 57372
     marketGroup: 2747
-    name: Grand Prix 1v1 Interceptors Proving Filament
+    name: Event 23 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

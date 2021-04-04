@@ -552,6 +552,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Basic 'Guri Kikhivaa' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18778.45703125
+    boosterness: 10
+    charismabonus: 4
+    followsjumpclones: 1
+    id: 57745
+    intelligencebonus: 4
+    marketGroup: 2487
+    memorybonus: 4
+    name: Basic 'Guri Kikhivaa' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 4
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 4
   Basic 'Radiance' Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18611.45703125
@@ -1277,6 +1300,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 8
+  Extended 'Guri Kikhivaa' Cerebral Accelerator:
+    boosterduration: 2.592E8
+    boosterlastinjectiondatetime: 18778.45703125
+    boosterness: 10
+    charismabonus: 6
+    followsjumpclones: 1
+    id: 57747
+    intelligencebonus: 6
+    marketGroup: 2487
+    memorybonus: 6
+    name: Extended 'Guri Kikhivaa' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 6
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 6
   Extended 'Radiance' Cerebral Accelerator:
     boosterduration: 2.592E8
     boosterlastinjectiondatetime: 18611.45703125
@@ -2234,6 +2280,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 1
+  Improved 'Guri Kikhivaa' Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18778.45703125
+    boosterness: 10
+    charismabonus: 8
+    followsjumpclones: 1
+    id: 57746
+    intelligencebonus: 8
+    marketGroup: 2487
+    memorybonus: 8
+    name: Improved 'Guri Kikhivaa' Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 8
+    portionSize: 1
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 8
   Improved Blue Pill Booster:
     boosteraoevelocitypenalty: -25
     boostercapacitorcapacitypenalty: -25

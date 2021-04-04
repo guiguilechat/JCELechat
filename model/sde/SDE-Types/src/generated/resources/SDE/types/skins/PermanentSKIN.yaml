@@ -1999,6 +1999,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Armageddon Navy Issue Hunter's Quiver SKIN:
+    id: 57776
+    name: Armageddon Navy Issue Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Armageddon Navy Issue Imperial Jubilee SKIN:
     id: 48856
     marketGroup: 2108
@@ -4747,6 +4754,13 @@ types:
     id: 46848
     marketGroup: 2063
     name: Caracal Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Caracal Navy Issue Hunter's Quiver SKIN:
+    id: 57779
+    name: Caracal Navy Issue Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -9796,6 +9810,13 @@ types:
     id: 46949
     marketGroup: 2063
     name: Exequror Navy Issue Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Exequror Navy Issue Hunter's Quiver SKIN:
+    id: 57778
+    name: Exequror Navy Issue Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -23094,6 +23115,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Raven Navy Issue Hunter's Quiver SKIN:
+    id: 57780
+    name: Raven Navy Issue Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Raven Navy Issue Octopus Orange Flight SKIN:
     id: 47618
     marketGroup: 2108
@@ -28734,6 +28762,13 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Typhoon Fleet Issue Hunter's Quiver SKIN:
+    id: 57777
+    name: Typhoon Fleet Issue Hunter's Quiver SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Typhoon Fleet Issue IGC SKIN:
     id: 48562
     marketGroup: 2108
@@ -30485,6 +30520,13 @@ types:
     id: 45507
     marketGroup: 2031
     name: Worm Hostile Takeover SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Worm Hunter's Quiver SKIN:
+    id: 57781
+    name: Worm Hunter's Quiver SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
