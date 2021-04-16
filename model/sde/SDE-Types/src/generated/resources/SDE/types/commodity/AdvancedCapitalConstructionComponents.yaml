@@ -395,3 +395,43 @@ types:
     published: true
     radius: 1.0
     volume: 10.0
+  Gravimetric-FTL Interlink Communicator:
+    id: 57475
+    marketGroup: 1885
+    moonminingamount: 1
+    name: Gravimetric-FTL Interlink Communicator
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 100.0
+  Ladar-FTL Interlink Communicator:
+    id: 57477
+    marketGroup: 1887
+    moonminingamount: 1
+    name: Ladar-FTL Interlink Communicator
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 100.0
+  Magnetometric-FTL Interlink Communicator:
+    id: 57476
+    marketGroup: 1886
+    moonminingamount: 1
+    name: Magnetometric-FTL Interlink Communicator
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 100.0
+  Radar-FTL Interlink Communicator:
+    id: 57474
+    marketGroup: 1884
+    moonminingamount: 1
+    name: Radar-FTL Interlink Communicator
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 100.0

@@ -148,13 +148,13 @@ group2class:
   blueprint/MissileLauncherBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MissileLauncherBlueprint
   blueprint/MobileCynosuralBeaconBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MobileCynosuralBeaconBlueprint
   blueprint/MobileCynosuralInhibitorBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MobileCynosuralInhibitorBlueprint
-  blueprint/MobileDecoyUnitBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MobileDecoyUnitBlueprint
   blueprint/MobileDepotBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MobileDepotBlueprint
   blueprint/MobileMicroJumpUnitBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MobileMicroJumpUnitBlueprint
   blueprint/MobileScanInhibitorBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MobileScanInhibitorBlueprint
   blueprint/MobileSiphonUnitBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MobileSiphonUnitBlueprint
   blueprint/MobileTractorUnitBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MobileTractorUnitBlueprint
   blueprint/MobileWarpDisruptorBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MobileWarpDisruptorBlueprint
+  blueprint/MolecularForgedReactionFormulas: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MolecularForgedReactionFormulas
   blueprint/MutadaptiveRemoteArmorRepairerBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.MutadaptiveRemoteArmorRepairerBlueprint
   blueprint/PassiveTargetingSystemBlueprint: fr.guiguilechat.jcelechat.model.sde.types.blueprint.PassiveTargetingSystemBlueprint
   blueprint/PolymerReactionFormulas: fr.guiguilechat.jcelechat.model.sde.types.blueprint.PolymerReactionFormulas
@@ -285,6 +285,7 @@ group2class:
   charge/HeavyMissile: fr.guiguilechat.jcelechat.model.sde.types.charge.HeavyMissile
   charge/HybridCharge: fr.guiguilechat.jcelechat.model.sde.types.charge.HybridCharge
   charge/InformationCommandBurstCharges: fr.guiguilechat.jcelechat.model.sde.types.charge.InformationCommandBurstCharges
+  charge/InterdictionBurstProbes: fr.guiguilechat.jcelechat.model.sde.types.charge.InterdictionBurstProbes
   charge/InterdictionProbe: fr.guiguilechat.jcelechat.model.sde.types.charge.InterdictionProbe
   charge/LightMissile: fr.guiguilechat.jcelechat.model.sde.types.charge.LightMissile
   charge/MercoxitMiningCrystal: fr.guiguilechat.jcelechat.model.sde.types.charge.MercoxitMiningCrystal
@@ -726,6 +727,7 @@ group2class:
   material/IceProduct: fr.guiguilechat.jcelechat.model.sde.types.material.IceProduct
   material/IntermediateMaterials: fr.guiguilechat.jcelechat.model.sde.types.material.IntermediateMaterials
   material/Mineral: fr.guiguilechat.jcelechat.model.sde.types.material.Mineral
+  material/MolecularForgedMaterials: fr.guiguilechat.jcelechat.model.sde.types.material.MolecularForgedMaterials
   material/MoonMaterials: fr.guiguilechat.jcelechat.model.sde.types.material.MoonMaterials
   material/NamedComponents: fr.guiguilechat.jcelechat.model.sde.types.material.NamedComponents
   material/RogueDroneComponents: fr.guiguilechat.jcelechat.model.sde.types.material.RogueDroneComponents
@@ -38053,7 +38055,7 @@ id2name:
   57367: Grand Prix 1v1 Interceptors Proving Filament
   57368: Assault Frigate FFA Proving Filament
   57369: Hunt 3v3 Destroyers Proving Filament
-  57370: Event 22 Proving Filament
+  57370: 2v2 Navy Frigates Proving Filament
   57372: Event 23 Proving Filament
   57373: Event 24 Proving Filament
   57374: Event 25 Proving Filament
@@ -38108,6 +38110,91 @@ id2name:
   57439: Secure Depot
   57440: Secure Depot
   57441: Secure Databank
+  57442: Counter-Subversion Sensor Array
+  57443: Meta-Molecular Combiner
+  57444: Nanoscale Filter Plate
+  57445: LM-Composite Molecular Condenser
+  57446: AG-Composite Molecular Condenser
+  57447: CV-Composite Molecular Condenser
+  57448: AV-Composite Molecular Condenser
+  57449: Nano Regulation Gate
+  57450: Electro-Neural Signaller
+  57451: Enhanced Electro-Neural Signaller
+  57452: Isotropic Deposition Guide
+  57453: Carbon Fiber
+  57454: Oxy-Organic Solvents
+  57455: Thermosetting Polymer
+  57456: Pressurized Oxidizers
+  57457: Reinforced Carbon Fiber
+  57458: Meta-Operant Neurolink Enhancer
+  57459: Hypnagogic Neurolink Enhancer
+  57460: Axosomatic Neurolink Enhancer
+  57461: Cogni-Emotive Neurolink Enhancer
+  57462: Sense-Heuristic Neurolink Enhancer
+  57463: Isotropic Neofullerene Alpha-3
+  57464: Isotropic Neofullerene Beta-6
+  57465: Isotropic Neofullerene Gamma-9
+  57466: Ultradian-Cycling Neurolink Stabilizer
+  57467: Reaction-Orienting Neurolink Stabilizer
+  57468: Stress-Responding Neurolink Stabilizer
+  57469: Goal-Orienting Neurolink Stabilizer
+  57470: U-C Trigger Neurolink Conduit
+  57471: R-O Trigger Neurolink Conduit
+  57472: S-R Trigger Neurolink Conduit
+  57473: G-O Trigger Neurolink Conduit
+  57474: Radar-FTL Interlink Communicator
+  57475: Gravimetric-FTL Interlink Communicator
+  57476: Magnetometric-FTL Interlink Communicator
+  57477: Ladar-FTL Interlink Communicator
+  57478: Auto-Integrity Preservation Seal
+  57479: Core Temperature Regulator
+  57480: Programmable Purification Membrane
+  57481: Genetic Lock Preserver
+  57482: Genetic Safeguard Filter
+  57483: Neurolink Enhancer Reservoir
+  57484: Genetic Structure Repairer
+  57485: Genetic Mutation Inhibiter
+  57486: Life Support Backup Unit
+  57487: Capital Core Temperature Regulator
+  57488: Neurolink Protection Cell
+  57489: Enhanced Neurolink Protection Cell
+  57490: Carbon Fiber Reaction Formula
+  57491: Oxy-Organic Solvents Reaction Formula
+  57492: Pressurized Oxidizers Reaction Formula
+  57493: Reinforced Carbon Fiber Reaction Formula
+  57494: Thermosetting Polymer Reaction Formula
+  57495: Meta-Operant Neurolink Enhancer Reaction Formula
+  57496: Hypnagogic Neurolink Enhancer Reaction Formula
+  57497: Axosomatic Neurolink Enhancer Reaction Formula
+  57498: Cogni-Emotive Neurolink Enhancer Reaction Formula
+  57499: Sense-Heuristic Neurolink Enhancer Reaction Formula
+  57500: Isotropic Neofullerene Alpha-3 Reaction Formula
+  57501: Isotropic Neofullerene Beta-6 Reaction Formula
+  57502: Isotropic Neofullerene Gamma-9 Reaction Formula
+  57503: Ultradian-Cycling Neurolink Stabilizer Reaction Formula
+  57504: Reaction-Orienting Neurolink Stabilizer Reaction Formula
+  57505: Stress-Responding Neurolink Stabilizer Reaction Formula
+  57506: Goal-Orienting Neurolink Stabilizer Reaction Formula
+  57507: U-C Trigger Neurolink Conduit Blueprint
+  57508: R-O Trigger Neurolink Conduit Blueprint
+  57509: S-R Trigger Neurolink Conduit Blueprint
+  57510: G-O Trigger Neurolink Conduit Blueprint
+  57511: Radar-FTL Interlink Communicator Blueprint
+  57512: Gravimetric-FTL Interlink Communicator Blueprint
+  57513: Magnetometric-FTL Interlink Communicator Blueprint
+  57514: Ladar-FTL Interlink Communicator Blueprint
+  57515: Auto-Integrity Preservation Seal Blueprint
+  57516: Core Temperature Regulator Blueprint
+  57517: Programmable Purification Membrane Blueprint
+  57518: Genetic Lock Preserver Blueprint
+  57519: Genetic Safeguard Filter Blueprint
+  57520: Neurolink Enhancer Reservoir Blueprint
+  57521: Genetic Structure Repairer Blueprint
+  57522: Genetic Mutation Inhibiter Blueprint
+  57523: Life Support Backup Unit Blueprint
+  57524: Capital Core Temperature Regulator Blueprint
+  57525: Neurolink Protection Cell Blueprint
+  57526: Enhanced Neurolink Protection Cell Blueprint
   57527: 'Empress Jamyl I: Sword of the Righteous'
   57528: Chribba Monument
   57529: Cyclone Hunter's Quiver SKIN
@@ -38144,6 +38231,7 @@ id2name:
   57592: Brutix Navy Issue Luminaire Zenith SKIN
   57593: Vexor Navy Issue Luminaire Zenith SKIN
   57594: Griffin Navy Issue Luminaire Zenith SKIN
+  57595: Celestial Beacon
   57596: Finish Line Statue
   57597: Non-Interactable Beacon
   57598: '1st Alliance Tournament: Band of Brothers'
@@ -38218,6 +38306,7 @@ id2name:
   57756: Pashanai Monument
   57758: Proving Velocity Bonus (Do not translate)
   57759: Proving Hunt Missile Damage Bonus (Do not translate)
+  57760: Stargate (Old Man Star to Villore)
   57763: Serenity Monthly Cerebral Accelerator - 2021.4
   57764: Serenity Anniversary Crate
   57765: Serenity Anniversary Cerebral Accelerator I
@@ -38237,6 +38326,56 @@ id2name:
   57780: Raven Navy Issue Hunter's Quiver SKIN
   57781: Worm Hunter's Quiver SKIN
   57782: Hunt YC123 Acceleration Gate Key
+  57783: Pacifier BlackIce Derailers SKIN
+  57784: Enforcer BlackIce Derailers SKIN
+  57785: Marshal BlackIce Derailers SKIN
+  57786: Orthrus Redclaw Sable SKIN
+  57787: Barghest Redclaw Sable SKIN
+  57807: Succubus Ghost's Hex SKIN
+  57808: Phantasm Ghost's Hex SKIN
+  57809: Nightmare Ghost's Hex SKIN
+  57810: Garmur Ghost's Hex SKIN
+  57811: Orthrus Ghost's Hex SKIN
+  57812: Barghest Ghost's Hex SKIN
+  57813: Worm Vampire's Hex SKIN
+  57814: Gila Vampire's Hex SKIN
+  57815: Rattlesnake Vampire's Hex SKIN
+  57816: Cruor Vampire's Hex SKIN
+  57817: Ashimmu Vampire's Hex SKIN
+  57818: Bhaalgorn Vampire's Hex SKIN
+  57821: Serenity YC123.4 Season Standard Cerebral Accelerator
+  57822: Serenity YC123.4 Season Advanced Cerebral Accelerator
+  57823: Serenity YC123.4 Season Pass
+  57824: YC123.4 Serenity Season Medal - Amarr
+  57825: YC123.4 Serenity Season Medal - Caldari
+  57826: YC123.4 Serenity Season Medal - Gallente
+  57827: YC123.4 Serenity Season Medal - Minmatar
+  57828: YC123.4 Serenity Season Medal - New Eden
+  57837: CreoDron Autonomous Maintenance Bot
+  57838: EVE Gate Joint Research Complex
+  57839: Battle of Vak'Atioth
+  57840: Kor-Azor EVE Gate Research Facility
+  57841: Sanctuary EVE Gate Research Facility
+  57842: Duvolle Gravitational Wave Observatory
+  57843: True Creations Pool of Radiance Research Lab
+  57844: Intaki Syndicate Executive Retreat Center
+  57845: Jove Research Outpost Wreckage
+  57846: EVE Travel Agency
+  57847: Tour Shuttle
+  57848: Professor Science
+  57849: Jove Frigate Wreck
+  57850: True Creations Fortified Torpedo Battery
+  57851: True Creations Laboratory Guardian
+  57852: CD Com Tower
+  57868: Non-interactable Sensor Jammer
+  57869: Non-interactable Mobile Laboratory
+  57870: Non-interactable Particle Accelerator
+  57871: Non-interactable Solar Harvester
+  57872: Non-interactable Sansha Battlestation
+  58159: Old Man Star Repair Drone Spawner
+  58160: Non-interactable Spatial Rift
+  58722: Non-interactable Shipyard
+  58723: Non-interactable Freight Pad
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -42056,6 +42195,7 @@ name2group:
   280mm Howitzer Artillery II Blueprint: blueprint/ProjectileWeaponBlueprint
   280mm Prototype Siege Cannon: module/ProjectileWeapon
   2nd Tier Overseer's Personal Effects: commodity/OverseerPersonalEffects
+  2v2 Navy Frigates Proving Filament: commodity/AbyssalProvingFilaments
   300 Aurum Token: accessories/LegacyCurrency
   300 Billion ISK Contract Copy: specialeditionassets/SpecialEditionCommodities
   30km Amarr Capture Point: entity/CapturePoint
@@ -42255,6 +42395,7 @@ name2group:
   ADV Drone Sniper Rifle: infantry/InfantryWeapons
   ADV Drone Swarm Launcher: infantry/InfantryWeapons
   AE-K Compact Drone Damage Amplifier: module/DroneDamageModules
+  AG-Composite Molecular Condenser: commodity/Commodities
   AIMEDs: commodity/Miscellaneous
   AML Compact Omnidirectional Tracking Link: module/DroneTrackingModules
   APEX 'Atlas' Sentinel: infantry/VisualCustomization
@@ -42290,6 +42431,7 @@ name2group:
   AT-201 Fragmented Missile Launcher: infantry/InfantryWeapons
   AT-201 Missile Launcher: infantry/InfantryWeapons
   AV Grenade: infantry/InfantryWeapons
+  AV-Composite Molecular Condenser: commodity/Commodities
   A_30: effects/LensFlares
   A_31: effects/LensFlares
   A_32: effects/LensFlares
@@ -43703,6 +43845,7 @@ name2group:
   Ashimmu Serenity Splatter (Ashimmu) SKIN (365 Days): skins/Max1YearSKIN
   Ashimmu Serenity Splatter (Ashimmu) SKIN (7 Days): skins/Max7DaySKIN
   Ashimmu Serenity Splatter (Ashimmu) SKIN (90 Days): skins/Max90DaySKIN
+  Ashimmu Vampire's Hex SKIN: skins/PermanentSKIN
   Asmodeus Apis: entity/DeadspaceRogueDroneSwarm
   Asmodeus Drone: entity/AsteroidRogueDroneSwarm
   'Assassination Contract: Mirial': specialeditionassets/SpecialEditionCommodities
@@ -43920,6 +44063,8 @@ name2group:
   Auto Targeting System I Blueprint: blueprint/AutomatedTargetingSystemBlueprint
   Auto Targeting System II: module/AutomatedTargetingSystem
   Auto Targeting System II Blueprint: blueprint/AutomatedTargetingSystemBlueprint
+  Auto-Integrity Preservation Seal: commodity/ConstructionComponents
+  Auto-Integrity Preservation Seal Blueprint: blueprint/ConstructionComponentBlueprints
   Auto-Targeting Missiles: skill/Missiles
   Automated Centii Keyholder: entity/PirateDrone
   Automated Centii Training Vessel: entity/PirateDrone
@@ -43976,6 +44121,8 @@ name2group:
   Awakened Upholder: entity/DeadspaceSleeperAwakenedDefender
   Awakened Warden: entity/DeadspaceSleeperAwakenedSentinel
   Awakened Watchman: entity/DeadspaceSleeperAwakenedPatroller
+  Axosomatic Neurolink Enhancer: material/MolecularForgedMaterials
+  Axosomatic Neurolink Enhancer Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Azbel: structure/EngineeringComplex
   Azbel Blueprint: blueprint/StructureBlueprints
   Azbel Upwell Quantum Core: structuremodule/QuantumCores
@@ -44069,7 +44216,9 @@ name2group:
   Barghest "Blaze" Squadron SKIN: skins/PermanentSKIN
   Barghest Blueprint: blueprint/BattleshipBlueprint
   Barghest Convergence - Nova SKIN: skins/PermanentSKIN
+  Barghest Ghost's Hex SKIN: skins/PermanentSKIN
   Barghest Glacial Drift SKIN: skins/PermanentSKIN
+  Barghest Redclaw Sable SKIN: skins/PermanentSKIN
   Barghest Waschi Uprising 'Combat' SKIN: skins/PermanentSKIN
   Barghest Waschi Uprising 'Parade' SKIN: skins/PermanentSKIN
   Barium Firework: charge/FestivalCharges
@@ -44266,6 +44415,7 @@ name2group:
   Bhaalgorn Glacial Drift SKIN: skins/PermanentSKIN
   Bhaalgorn Malagrin Marshlight SKIN: skins/PermanentSKIN
   Bhaalgorn Redclaw Sable SKIN: skins/PermanentSKIN
+  Bhaalgorn Vampire's Hex SKIN: skins/PermanentSKIN
   Bifrost: ship/CommandDestroyer
   Bifrost Biosecurity Responders SKIN: skins/PermanentSKIN
   Bifrost Blueprint: blueprint/CommandDestroyerBlueprint
@@ -45127,6 +45277,7 @@ name2group:
   CSM 7 Electee Archive Script: specialeditionassets/SpecialEditionCommodities
   CSM 8 Electee Archive Script: specialeditionassets/SpecialEditionCommodities
   CSM 9 Electee Archive Script: specialeditionassets/SpecialEditionCommodities
+  CV-Composite Molecular Condenser: commodity/Commodities
   CZ-4 Compact Gravimetric ECM: module/ECM
   C_Blue_01: effects/LensFlares
   C_Blue_Long_01: effects/LensFlares
@@ -45655,6 +45806,8 @@ name2group:
   Capital Core Defense Operational Solidifier I Blueprint: blueprint/RigBlueprint
   Capital Core Defense Operational Solidifier II: module/RigShield
   Capital Core Defense Operational Solidifier II Blueprint: blueprint/RigBlueprint
+  Capital Core Temperature Regulator: commodity/CapitalConstructionComponents
+  Capital Core Temperature Regulator Blueprint: blueprint/CapitalConstructionBlueprints
   Capital Corporate Hangar Bay: commodity/CapitalConstructionComponents
   Capital Corporate Hangar Bay Blueprint: blueprint/CapitalConstructionBlueprints
   Capital Crystalline Carbonide Armor Plate: commodity/AdvancedCapitalConstructionComponents
@@ -46236,6 +46389,8 @@ name2group:
   Carbine Compact Hexa 2500mm Repeating Cannon Blueprint: blueprint/ProjectileWeaponBlueprint
   Carbon: commodity/General
   Carbon Compounds: planetaryresources/PlanetOrganicRawResource
+  Carbon Fiber: material/IntermediateMaterials
+  Carbon Fiber Reaction Formula: blueprint/CompositeReactionFormulas
   Carbon Polymers: material/IntermediateMaterials
   Carbon Polymers Reaction Formula: blueprint/CompositeReactionFormulas
   Carbon-86 Epoxy Resin: material/HybridPolymers
@@ -46909,6 +47064,8 @@ name2group:
   Coercer Triglavian Twilight SKIN: skins/PermanentSKIN
   Coercer Zakura Shumyu SKIN: skins/PermanentSKIN
   Coesite: asteroid/UbiquitousMoonAsteroids
+  Cogni-Emotive Neurolink Enhancer: material/MolecularForgedMaterials
+  Cogni-Emotive Neurolink Enhancer Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Cognitive Hive Mind: commodity/Commodities
   Cold Turkey: commodity/Commodities
   Colelian Spider Spruce: commodity/Commodities
@@ -47298,6 +47455,8 @@ name2group:
   Core Specialist Seeker Flaylock: infantry/InfantryWeapons
   Core Subsystem Technology: skill/Science
   Core Tactical Seeker Flaylock: infantry/InfantryWeapons
+  Core Temperature Regulator: commodity/ConstructionComponents
+  Core Temperature Regulator Blueprint: blueprint/ConstructionComponentBlueprints
   Core Vice Admiral: entity/DeadspaceSerpentisBattleship
   Core X-Type 100MN Afterburner: module/PropulsionModule
   Core X-Type 500MN Microwarpdrive: module/PropulsionModule
@@ -47634,6 +47793,7 @@ name2group:
   Council Diplomatic Shuttle: ship/Shuttle
   Council Diplomatic Shuttle Blueprint: blueprint/ShuttleBlueprint
   Council's Modified Repair Tool: infantry/InfantryEquipment
+  Counter-Subversion Sensor Array: commodity/Commodities
   Counterbalanced Compact Gyrostabilizer: module/Gyrostabilizer
   Counterfeit Credits: commodity/Commodities
   Counterfeit Dominix Model: specialeditionassets/SpecialEditionCommodities
@@ -47790,6 +47950,7 @@ name2group:
   CreoDron 'Bumblebee' Drone Tuner T10-5D: implant/CyberDrones
   CreoDron 'Yellowjacket' Drone Tuner D5-10T: implant/CyberDrones
   CreoDron Active Scanner: infantry/InfantryEquipment
+  CreoDron Autonomous Maintenance Bot: entity/FactionDrone
   CreoDron Breach Assault Rifle: infantry/InfantryWeapons
   CreoDron Breach HAV: infantry/InfantryVehicles
   CreoDron Flux Active Scanner: infantry/InfantryEquipment
@@ -47904,6 +48065,7 @@ name2group:
   Cruor Blueprint: blueprint/FrigateBlueprint
   Cruor Glacial Drift SKIN: skins/PermanentSKIN
   Cruor Malagrin Marshlight SKIN: skins/PermanentSKIN
+  Cruor Vampire's Hex SKIN: skins/PermanentSKIN
   Crusader: ship/Interceptor
   Crusader Aurora Universalis SKIN: skins/PermanentSKIN
   Crusader Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -49869,6 +50031,7 @@ name2group:
   Elder Corpum Sage: entity/DeadspaceBloodRaidersCruiser
   Elder Corpum Shadow Sage: entity/DeadspaceBloodRaidersCruiser
   Electric Conduit: commodity/MaterialsAndCompounds
+  Electro-Neural Signaller: commodity/Commodities
   ElectroPunch Ultra L: charge/AdvancedCondenserPack
   ElectroPunch Ultra L Blueprint: blueprint/AdvancedCondenserPackBlueprint
   ElectroPunch Ultra M: charge/AdvancedCondenserPack
@@ -50076,6 +50239,7 @@ name2group:
   Enforcer: ship/ForceReconShip
   Enforcer Alvatis: entity/DeadspaceRogueDroneBattleCruiser
   Enforcer Biosecurity Responders SKIN: skins/PermanentSKIN
+  Enforcer BlackIce Derailers SKIN: skins/PermanentSKIN
   Enforcer Blueprint: blueprint/CruiserBlueprint
   Enforcer CONCORD Aerospace 'Prototype' SKIN: skins/PermanentSKIN
   Enforcer DED 'Alpha Plus' Taskforce SKIN: skins/PermanentSKIN
@@ -50104,6 +50268,7 @@ name2group:
   Enhanced Codebreaker: infantry/InfantryModules
   Enhanced Decryptor1: infantry/SalvageDecryptors
   Enhanced Dispersion Stabilizer: infantry/InfantryModules
+  Enhanced Electro-Neural Signaller: commodity/Commodities
   Enhanced Ferroscale Plates: infantry/InfantryModules
   Enhanced Fuel Injector: infantry/InfantryModules
   Enhanced Heat Sink: infantry/InfantryModules
@@ -50119,6 +50284,8 @@ name2group:
   Enhanced Missile Ammo Expansion Unit: infantry/InfantryModules
   Enhanced Missile Damage Amplifier: infantry/InfantryModules
   Enhanced Myofibril Stimulant: infantry/InfantryModules
+  Enhanced Neurolink Protection Cell: commodity/CapitalConstructionComponents
+  Enhanced Neurolink Protection Cell Blueprint: blueprint/CapitalConstructionBlueprints
   Enhanced Overdrive Unit: infantry/InfantryModules
   Enhanced PG Upgrade: infantry/InfantryModules
   Enhanced Power Diagnostics Unit: infantry/InfantryModules
@@ -50339,8 +50506,8 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
-  Event 22 Proving Filament: commodity/AbyssalProvingFilaments
   Event 23 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 24 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
@@ -51307,6 +51474,8 @@ name2group:
   Fusion XL: charge/ProjectileAmmo
   Fusion XL Blueprint: blueprint/ProjectileAmmoBlueprint
   G-11 Nonlinear Tracking Processor: infantry/InfantryModules
+  G-O Trigger Neurolink Conduit: commodity/ConstructionComponents
+  G-O Trigger Neurolink Conduit Blueprint: blueprint/ConstructionComponentBlueprints
   G7-M Compact Assault Rifle: infantry/InfantryWeapons
   GB-9 Breach Assault Rifle: infantry/InfantryWeapons
   GDN-9 "Nightstalker" Combat Goggles: apparel/Eyewear
@@ -51547,6 +51716,7 @@ name2group:
   Garmur: ship/Frigate
   Garmur Blueprint: blueprint/FrigateBlueprint
   Garmur Convergence - Nova SKIN: skins/PermanentSKIN
+  Garmur Ghost's Hex SKIN: skins/PermanentSKIN
   Garmur Glacial Drift SKIN: skins/PermanentSKIN
   Garmur Redclaw Sable SKIN: skins/PermanentSKIN
   Garmur Waschi Uprising 'Combat' SKIN: skins/PermanentSKIN
@@ -51609,6 +51779,14 @@ name2group:
   Generator Building: entity/DeadspaceOverseerSStructure
   Generator Debris: commodity/Commodities
   Generic Cargo Container: entity/MissionContainer
+  Genetic Lock Preserver: commodity/ConstructionComponents
+  Genetic Lock Preserver Blueprint: blueprint/ConstructionComponentBlueprints
+  Genetic Mutation Inhibiter: commodity/ConstructionComponents
+  Genetic Mutation Inhibiter Blueprint: blueprint/ConstructionComponentBlueprints
+  Genetic Safeguard Filter: commodity/ConstructionComponents
+  Genetic Safeguard Filter Blueprint: blueprint/ConstructionComponentBlueprints
+  Genetic Structure Repairer: commodity/ConstructionComponents
+  Genetic Structure Repairer Blueprint: blueprint/ConstructionComponentBlueprints
   Genetically Enhanced Livestock: planetarycommodities/RefinedCommoditiesTier2
   Genolution 'Auroral' AU-79: implant/SpecialEditionImplant
   Genolution CA-X: specialeditionassets/SpecialEditionCommodities
@@ -51663,6 +51841,7 @@ name2group:
   Gila Serenity YC117 SKIN (7 Days): skins/Max7DaySKIN
   Gila Serenity YC117 SKIN (90 Days): skins/Max90DaySKIN
   Gila Storm Bear SKIN: skins/PermanentSKIN
+  Gila Vampire's Hex SKIN: skins/PermanentSKIN
   Gist A-Type 100MN Afterburner: module/PropulsionModule
   Gist A-Type 500MN Microwarpdrive: module/PropulsionModule
   Gist A-Type EM Shield Hardener: module/ShieldHardener
@@ -51883,6 +52062,8 @@ name2group:
   Gnosis Versus Blueforce SKIN: skins/PermanentSKIN
   Gnosis Versus Redforce SKIN: skins/PermanentSKIN
   Gnosis Zakura Shumyu SKIN: skins/PermanentSKIN
+  Goal-Orienting Neurolink Stabilizer: material/MolecularForgedMaterials
+  Goal-Orienting Neurolink Stabilizer Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Godun Sakt's Diamond Drill: commodity/Commodities
   Godun Sakt's Questionable Holoreel: commodity/Commodities
   Gold Magnate: ship/Frigate
@@ -52031,6 +52212,8 @@ name2group:
   Gravimetric Sensor Cluster: commodity/ConstructionComponents
   Gravimetric Sensor Cluster Blueprint: blueprint/ConstructionComponentBlueprints
   Gravimetric Sensor Compensation: skill/Targeting
+  Gravimetric-FTL Interlink Communicator: commodity/AdvancedCapitalConstructionComponents
+  Gravimetric-FTL Interlink Communicator Blueprint: blueprint/AdvancedCapitalConstructionComponentBlueprints
   Gravitational Transportation Field Oscillator: module/SuperWeapon
   Gravitational Transportation Field Oscillator Blueprint: blueprint/SuperWeaponBlueprint
   Graviton Physics: skill/Science
@@ -53274,7 +53457,6 @@ name2group:
   Hull Upgrades: skill/Armor
   Human Containment Facility: entity/SpawnContainer
   HumanFarm: entity/LargeCollidableStructure
-  Hunt 3v3 Destroyers Proving Filament: commodity/AbyssalProvingFilaments
   Hunt Bantam: entity/IrregularFrigate
   Hunt Blackbird: entity/IrregularCruiser
   Hunt Caracal: entity/IrregularCruiser
@@ -53405,6 +53587,8 @@ name2group:
   Hyperion Valimor Legacy SKIN: skins/PermanentSKIN
   Hypersynaptic Fibers: material/Composite
   Hypersynaptic Fibers Reaction Formula: blueprint/CompositeReactionFormulas
+  Hypnagogic Neurolink Enhancer: material/MolecularForgedMaterials
+  Hypnagogic Neurolink Enhancer Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Hypnos Compact Signal Distortion Amplifier I: module/ECMStabilizer
   Hypnos Scoped Magnetometric ECM: module/ECM
   Hypnosian Agonizer: entity/SleeperEntities
@@ -54489,6 +54673,13 @@ name2group:
   Ison's Voucher: commodity/Commodities
   Isone Flosin's DNA: commodity/Commodities
   Isone Flosins's Corpse: commodity/Commodities
+  Isotropic Deposition Guide: commodity/Commodities
+  Isotropic Neofullerene Alpha-3: material/MolecularForgedMaterials
+  Isotropic Neofullerene Alpha-3 Reaction Formula: blueprint/MolecularForgedReactionFormulas
+  Isotropic Neofullerene Beta-6: material/MolecularForgedMaterials
+  Isotropic Neofullerene Beta-6 Reaction Formula: blueprint/MolecularForgedReactionFormulas
+  Isotropic Neofullerene Gamma-9: material/MolecularForgedMaterials
+  Isotropic Neofullerene Gamma-9 Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Iteron Mark V: ship/Industrial
   Iteron Mark V Biosecurity Responders SKIN: skins/PermanentSKIN
   Iteron Mark V Blueprint: blueprint/IndustrialBlueprint
@@ -55003,6 +55194,7 @@ name2group:
   Kyokan: entity/MissionGenericBattleships
   LAV Operation: infantry/InfantrySkills
   LFT Enduring Sensor Dampener: module/SensorDampener
+  LM-Composite Molecular Condenser: commodity/Commodities
   LP Muon Coil Bolt Array I: infantry/InfantryModules
   LT Insulated Stabilizer Array: infantry/InfantryModules
   Laboratory Operation: skill/Science
@@ -55024,6 +55216,8 @@ name2group:
   Ladar Sensor Cluster: commodity/ConstructionComponents
   Ladar Sensor Cluster Blueprint: blueprint/ConstructionComponentBlueprints
   Ladar Sensor Compensation: skill/Targeting
+  Ladar-FTL Interlink Communicator: commodity/AdvancedCapitalConstructionComponents
+  Ladar-FTL Interlink Communicator Blueprint: blueprint/AdvancedCapitalConstructionComponentBlueprints
   Lagaster Malotoff: entity/StorylineMissionCruiser
   Lagaster Malotoff's Tag: commodity/Commodities
   Lai Dai Compact Sniper Rifle: infantry/InfantryWeapons
@@ -55774,6 +55968,8 @@ name2group:
   Lif Snowline Bladeracer SKIN: skins/PermanentSKIN
   Lif Tronhadar Ink SKIN: skins/PermanentSKIN
   Lif Valklear Glory SKIN: skins/PermanentSKIN
+  Life Support Backup Unit: commodity/ConstructionComponents
+  Life Support Backup Unit Blueprint: blueprint/ConstructionComponentBlueprints
   Life pod: entity/SpawnContainer
   Lifeblood (Collector's Edition): specialeditionassets/SpecialEditionCommodities
   Ligature Integrated Analyzer: module/DataMiners
@@ -56378,6 +56574,8 @@ name2group:
   Magnetometric Sensor Cluster: commodity/ConstructionComponents
   Magnetometric Sensor Cluster Blueprint: blueprint/ConstructionComponentBlueprints
   Magnetometric Sensor Compensation: skill/Targeting
+  Magnetometric-FTL Interlink Communicator: commodity/AdvancedCapitalConstructionComponents
+  Magnetometric-FTL Interlink Communicator Blueprint: blueprint/AdvancedCapitalConstructionComponentBlueprints
   Magpulse Thruster: commodity/ConstructionComponents
   Magpulse Thruster Blueprint: blueprint/ConstructionComponentBlueprints
   Magsec SMG: infantry/InfantryWeapons
@@ -56558,6 +56756,7 @@ name2group:
   Markus's Insignia: commodity/EmpireInsigniaDrops
   Marshal: ship/BlackOps
   Marshal Biosecurity Responders SKIN: skins/PermanentSKIN
+  Marshal BlackIce Derailers SKIN: skins/PermanentSKIN
   Marshal Blueprint: blueprint/BattleshipBlueprint
   Marshal CONCORD Aerospace 'Prototype' SKIN: skins/PermanentSKIN
   Marshal DED 'Alpha Plus' Taskforce SKIN: skins/PermanentSKIN
@@ -57641,6 +57840,9 @@ name2group:
   Meson Exotic Plasma XL: charge/ExoticPlasmaCharge
   Meson Exotic Plasma XL Blueprint: blueprint/ExoticPlasmaChargeBlueprint
   Message from the Governor: commodity/Miscellaneous
+  Meta-Molecular Combiner: commodity/Commodities
+  Meta-Operant Neurolink Enhancer: material/MolecularForgedMaterials
+  Meta-Operant Neurolink Enhancer Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Metadrones - LM-G-2 - B: entity/SpawnContainer
   Metadrones - LM-G-2 - F: entity/SpawnContainer
   Metadrones - LM-M-2 - B: entity/SpawnContainer
@@ -58406,7 +58608,6 @@ name2group:
   Mobile Cynosural Beacon Blueprint: blueprint/MobileCynosuralBeaconBlueprint
   Mobile Cynosural Inhibitor: deployable/MobileCynoInhibitor
   Mobile Cynosural Inhibitor Blueprint: blueprint/MobileCynosuralInhibitorBlueprint
-  Mobile Decoy Unit Blueprint: blueprint/MobileDecoyUnitBlueprint
   Mobile Depot: deployable/MobileDepot
   Mobile Depot Blueprint: blueprint/MobileDepotBlueprint
   Mobile Large Warp Disruptor I: deployable/MobileWarpDisruptor
@@ -58749,6 +58950,7 @@ name2group:
   Nanite Repair Paste: charge/NaniteRepairPaste
   Nanite Repair Paste Blueprint: blueprint/ScriptBlueprint
   Nanites: planetarycommodities/RefinedCommoditiesTier2
+  Nano Regulation Gate: commodity/Commodities
   Nano-Factory: planetarycommodities/AdvancedCommoditiesTier4
   Nanocircuitry: infantry/InfantrySkills
   Nanoelectrical Microprocessor: commodity/ConstructionComponents
@@ -58766,6 +58968,7 @@ name2group:
   Nanomechanical Microprocessor: commodity/ConstructionComponents
   Nanomechanical Microprocessor Blueprint: blueprint/ConstructionComponentBlueprints
   Nanoplastic Membrane Patch: commodity/Miscellaneous
+  Nanoscale Filter Plate: commodity/Commodities
   Nanotransistors: material/Composite
   Nanotransistors Reaction Formula: blueprint/CompositeReactionFormulas
   Nanowire Composites: commodity/HybridTechComponents
@@ -58887,6 +59090,10 @@ name2group:
   Neural Lace 'Blackglass' Net Intrusion 920-40 Blueprint: blueprint/CyberScanningImplantBlueprints
   Neural Network Analyzer: commodity/SleeperComponents
   Neural Trainer: infantry/InfantrySkills
+  Neurolink Enhancer Reservoir: commodity/ConstructionComponents
+  Neurolink Enhancer Reservoir Blueprint: blueprint/ConstructionComponentBlueprints
+  Neurolink Protection Cell: commodity/CapitalConstructionComponents
+  Neurolink Protection Cell Blueprint: blueprint/CapitalConstructionBlueprints
   Neurotoxin Control: skill/NeuralEnhancement
   Neurotoxin Recovery: skill/NeuralEnhancement
   Neurovisual Input Matrix: material/AncientSalvage
@@ -58948,6 +59155,7 @@ name2group:
   Nighthawk Zento Isideko Combine SKIN: skins/PermanentSKIN
   Nightmare: ship/Battleship
   Nightmare Blueprint: blueprint/BattleshipBlueprint
+  Nightmare Ghost's Hex SKIN: skins/PermanentSKIN
   Nightmare Glacial Drift SKIN: skins/PermanentSKIN
   Nightmare True Deliverance SKIN: skins/PermanentSKIN
   Nikmar Eitan: entity/StorylineMissionCruiser
@@ -59540,7 +59748,9 @@ name2group:
   Orthrus: ship/Cruiser
   Orthrus Blueprint: blueprint/CruiserBlueprint
   Orthrus Convergence - Nova SKIN: skins/PermanentSKIN
+  Orthrus Ghost's Hex SKIN: skins/PermanentSKIN
   Orthrus Glacial Drift SKIN: skins/PermanentSKIN
+  Orthrus Redclaw Sable SKIN: skins/PermanentSKIN
   Orthrus Waschi Uprising 'Combat' SKIN: skins/PermanentSKIN
   Orthrus Waschi Uprising 'Parade' SKIN: skins/PermanentSKIN
   Oscillator Capacitor Unit: commodity/ConstructionComponents
@@ -59623,6 +59833,8 @@ name2group:
   Ovon Flac's Documents: commodity/Commodities
   Oxides: planetarycommodities/RefinedCommoditiesTier2
   Oxidizing Compound: planetarycommodities/BasicCommoditiesTier1
+  Oxy-Organic Solvents: material/IntermediateMaterials
+  Oxy-Organic Solvents Reaction Formula: blueprint/CompositeReactionFormulas
   Oxygen: planetarycommodities/BasicCommoditiesTier1
   Oxygen Fuel Block: material/FuelBlock
   Oxygen Fuel Block Blueprint: blueprint/FuelBlockBlueprint
@@ -59648,6 +59860,7 @@ name2group:
   PRO Drone Swarm Launcher: infantry/InfantryWeapons
   Pacifier: ship/CovertOps
   Pacifier Biosecurity Responders SKIN: skins/PermanentSKIN
+  Pacifier BlackIce Derailers SKIN: skins/PermanentSKIN
   Pacifier Blueprint: blueprint/FrigateBlueprint
   Pacifier CONCORD Aerospace 'Prototype' SKIN: skins/PermanentSKIN
   Pacifier DED 'Alpha Plus' Taskforce SKIN: skins/PermanentSKIN
@@ -59792,6 +60005,7 @@ name2group:
   Petty Thief: entity/PirateDrone
   Phantasm: ship/Cruiser
   Phantasm Blueprint: blueprint/CruiserBlueprint
+  Phantasm Ghost's Hex SKIN: skins/PermanentSKIN
   Phantasm Glacial Drift SKIN: skins/PermanentSKIN
   Phantasm Redclaw Sable SKIN: skins/PermanentSKIN
   Phantasm True Deliverance SKIN: skins/PermanentSKIN
@@ -60232,6 +60446,8 @@ name2group:
   Pressure Silo: entity/LargeCollidableStructure
   Pressure Steam: effects/ParticleSystems
   PressureSteam02: effects/ParticleSystems
+  Pressurized Oxidizers: material/Composite
+  Pressurized Oxidizers Reaction Formula: blueprint/CompositeReactionFormulas
   Primae: ship/Industrial
   Primae Blueprint: blueprint/IndustrialBlueprint
   Primae Glacial Drift SKIN: skins/PermanentSKIN
@@ -60319,6 +60535,8 @@ name2group:
   Professor Kajurei Delainen: commodity/Livestock
   Profile Analysis: infantry/InfantrySkills
   Profile Dampening: infantry/InfantrySkills
+  Programmable Purification Membrane: commodity/ConstructionComponents
+  Programmable Purification Membrane Blueprint: blueprint/ConstructionComponentBlueprints
   Project Compass Star Charts: specialeditionassets/SpecialEditionCommodities
   Project Discovery DNA Reference (Amarr): commodity/ResearchData
   Project Discovery DNA Reference (Caldari): commodity/ResearchData
@@ -60743,6 +60961,8 @@ name2group:
   Quest Survey Probe I Blueprint: blueprint/SurveyProbeBlueprints
   Questionable Cargo: commodity/Miscellaneous
   R-9 Drop Uplink: infantry/InfantryEquipment
+  R-O Trigger Neurolink Conduit: commodity/ConstructionComponents
+  R-O Trigger Neurolink Conduit Blueprint: blueprint/ConstructionComponentBlueprints
   R-Type Vehicular Hardener: infantry/InfantryModules
   R.A.M.- Ammunition Tech: commodity/Tool
   R.A.M.- Ammunition Tech Blueprint: blueprint/ToolBlueprint
@@ -60809,6 +61029,8 @@ name2group:
   Radar Sensor Cluster: commodity/ConstructionComponents
   Radar Sensor Cluster Blueprint: blueprint/ConstructionComponentBlueprints
   Radar Sensor Compensation: skill/Targeting
+  Radar-FTL Interlink Communicator: commodity/AdvancedCapitalConstructionComponents
+  Radar-FTL Interlink Communicator Blueprint: blueprint/AdvancedCapitalConstructionComponentBlueprints
   Radiant Hemorphite: asteroid/Hemorphite
   Radiant Hive Mother: entity/DeadspaceOverseerBattleship
   Radiating Telescope: entity/DeadspaceOverseerSStructure
@@ -60956,6 +61178,7 @@ name2group:
   Rattlesnake Serenity YC117 SKIN (365 Days): skins/Max1YearSKIN
   Rattlesnake Serenity YC117 SKIN (7 Days): skins/Max7DaySKIN
   Rattlesnake Serenity YC117 SKIN (90 Days): skins/Max90DaySKIN
+  Rattlesnake Vampire's Hex SKIN: skins/PermanentSKIN
   Rattlesnake_Airkio Yanjulen: entity/DestructibleAgentsInSpace
   Raven: ship/Battleship
   Raven Aurora Universalis SKIN: skins/PermanentSKIN
@@ -61092,6 +61315,8 @@ name2group:
   Raznaborg Tangling Leshak: entity/TriglavianEntities
   Raznaborg Tangling Vedmak: entity/TriglavianEntities
   Raznaborg Vedmak: entity/TriglavianEntities
+  Reaction-Orienting Neurolink Stabilizer: material/MolecularForgedMaterials
+  Reaction-Orienting Neurolink Stabilizer Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Reactions: skill/ResourceProcessing
   Reactive Armor Hardener: module/ArmorResistanceShiftHardener
   Reactive Armor Hardener Blueprint: blueprint/ArmorResistanceShiftHardenerBlueprint
@@ -61182,6 +61407,8 @@ name2group:
   Reinforced Bulkheads I Blueprint: blueprint/HullModsBlueprint
   Reinforced Bulkheads II: module/ReinforcedBulkhead
   Reinforced Bulkheads II Blueprint: blueprint/HullModsBlueprint
+  Reinforced Carbon Fiber: material/Composite
+  Reinforced Carbon Fiber Reaction Formula: blueprint/CompositeReactionFormulas
   Reinforced Drone Bunker: entity/LargeCollidableStructure
   Reinforced Metal Scraps: commodity/Commodities
   Reinforced Metallofullerene Alloys: commodity/HybridTechComponents
@@ -61996,6 +62223,8 @@ name2group:
   Rupture Valklear Glory SKIN: skins/PermanentSKIN
   Ryoke Laika: commodity/Livestock
   Ryoke Laika's Head: commodity/Commodities
+  S-R Trigger Neurolink Conduit: commodity/ConstructionComponents
+  S-R Trigger Neurolink Conduit Blueprint: blueprint/ConstructionComponentBlueprints
   S.I Formula Sheet: commodity/Miscellaneous
   SARO Emblem: commodity/Miscellaneous
   SARO Frigate: entity/MissionCONCORDFrigate
@@ -62728,6 +62957,8 @@ name2group:
   Senatorial Silver Star: commodity/Miscellaneous
   Senior Recruiter Assault C-I: infantry/InfantryDropsuits
   Senior Recruiter Light Assault Vehicle: infantry/InfantryVehicles
+  Sense-Heuristic Neurolink Enhancer: material/MolecularForgedMaterials
+  Sense-Heuristic Neurolink Enhancer Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Sensor Booster I: module/SensorBooster
   Sensor Booster I Blueprint: blueprint/SensorBoosterBlueprint
   Sensor Booster II: module/SensorBooster
@@ -62917,6 +63148,9 @@ name2group:
   Serenity YC123.3 Season Advanced Cerebral Accelerator: implant/Booster
   Serenity YC123.3 Season Pass: implant/Booster
   Serenity YC123.3 Season Standard Cerebral Accelerator: implant/Booster
+  Serenity YC123.4 Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity YC123.4 Season Pass: implant/Booster
+  Serenity YC123.4 Season Standard Cerebral Accelerator: implant/Booster
   Serenity ZhenNiu Cerebral Accelerator Type-A: implant/Booster
   Serenity ZhenNiu Cerebral Accelerator Type-B: implant/Booster
   Serenity ZhenNiu Cerebral Accelerator Type-C: implant/Booster
@@ -65241,6 +65475,7 @@ name2group:
   Stasis Webification Battery Blueprint: blueprint/StarbaseStasisWebificationBatteryBlueprints
   Stasis Webification Burst Projector: module/BurstProjectors
   Stasis Webification Burst Projector Blueprint: blueprint/BurstProjectorBlueprint
+  Stasis Webification Probe: charge/InterdictionBurstProbes
   Stasis Webification Probe Blueprint: blueprint/ScanProbeBlueprint
   Stasis Webifier I: module/StasisWeb
   Stasis Webifier I Blueprint: blueprint/StasisWebBlueprint
@@ -65558,6 +65793,8 @@ name2group:
   Stratios Yoiul Festival YC121 SKIN: skins/PermanentSKIN
   Stratios Yoiul Star SKIN: skins/PermanentSKIN
   Stratum Form Feel Bonus: bonus/PhysicalBenefit
+  Stress-Responding Neurolink Stabilizer: material/MolecularForgedMaterials
+  Stress-Responding Neurolink Stabilizer Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Strike Force Gear: commodity/Commodities
   StrikeSnipe Ultra L: charge/AdvancedCondenserPack
   StrikeSnipe Ultra L Blueprint: blueprint/AdvancedCondenserPackBlueprint
@@ -65660,6 +65897,7 @@ name2group:
   Subsystem Assembly Array Blueprint: blueprint/StarbaseBlueprint
   Succubus: ship/Frigate
   Succubus Blueprint: blueprint/FrigateBlueprint
+  Succubus Ghost's Hex SKIN: skins/PermanentSKIN
   Succubus Glacial Drift SKIN: skins/PermanentSKIN
   Succubus True Deliverance SKIN: skins/PermanentSKIN
   Sudenic Damavik: entity/TriglavianEntities
@@ -66399,6 +66637,8 @@ name2group:
   Thermoelectric Catalysts: material/AncientSalvage
   Thermonuclear Trigger Unit: commodity/ConstructionComponents
   Thermonuclear Trigger Unit Blueprint: blueprint/ConstructionComponentBlueprints
+  Thermosetting Polymer: material/IntermediateMaterials
+  Thermosetting Polymer Reaction Formula: blueprint/CompositeReactionFormulas
   Thick Blue Ice: asteroid/Ice
   Think Tank Security Pad: commodity/AccelerationGateKeys
   Thomas Pulver: entity/MissionGenericFrigates
@@ -66906,6 +67146,8 @@ name2group:
   True Centus Slave Lord: entity/DeadspaceSanshaSNationBattleship
   True Centus Tyrant: entity/DeadspaceSanshaSNationBattleship
   True Creation's Park Overseer: entity/DeadspaceOverseerBattleship
+  True Creations Fortified Torpedo Battery: entity/DestructibleSentryGun
+  True Creations Laboratory Guardian: entity/AsteroidSanshaSNationBattleship
   True Creations Strong Box: commodity/StrongBoxes
   True Sansha Archduke: entity/DeadspaceOverseerBattleship
   True Sansha Brass Tag: commodity/CriminalTags
@@ -67226,6 +67468,8 @@ name2group:
   Tyrfing I Blueprint: blueprint/HeavyFighterBlueprint
   Tyrfing II: fighter/HeavyFighter
   Tyrfing II Blueprint: blueprint/HeavyFighterBlueprint
+  U-C Trigger Neurolink Conduit: commodity/ConstructionComponents
+  U-C Trigger Neurolink Conduit Blueprint: blueprint/ConstructionComponentBlueprints
   UDI Mercenary: entity/MissionGenericCruisers
   UNUSED_CargoRig_LCS_DL1_DCP1: entity/DeadspaceOverseerSStructure
   UNUSED_Gist_Battlestation_LCS_ID31_DL1_DCP1: entity/DeadspaceOverseerSStructure
@@ -67245,6 +67489,8 @@ name2group:
   Uleen Bloodsworn's Tag: commodity/CriminalTags
   Ultra! Promotional Holoreel: commodity/Miscellaneous
   Ultraconducting Ablative Nanocable: material/SalvagedMaterials
+  Ultradian-Cycling Neurolink Stabilizer: material/MolecularForgedMaterials
+  Ultradian-Cycling Neurolink Stabilizer Reaction Formula: blueprint/MolecularForgedReactionFormulas
   Ultratidal Entropic Disintegrator I: module/PrecursorWeapon
   Ultratidal Entropic Disintegrator I Blueprint: blueprint/PrecursorWeaponBlueprint
   Ultraviolet L: charge/FrequencyCrystal
@@ -68638,6 +68884,7 @@ name2group:
   Worm Hostile Takeover SKIN: skins/PermanentSKIN
   Worm Hunter's Quiver SKIN: skins/PermanentSKIN
   Worm IGC SKIN: skins/PermanentSKIN
+  Worm Vampire's Hex SKIN: skins/PermanentSKIN
   Worn Talocan Static Gate: entity/LargeCollidableStructure
   Wreathe: ship/Industrial
   Wreathe Biosecurity Responders SKIN: skins/PermanentSKIN
@@ -68764,6 +69011,11 @@ name2group:
   YC118 Succession Trial Champion's Decree - House Tash-Murkon: specialeditionassets/SpecialEditionCommodities
   YC121 Guardian's Gala Ticket: specialeditionassets/SpecialEditionCommodities
   YC123 New Year Event Medal: commodity/Miscellaneous
+  YC123.4 Serenity Season Medal - Amarr: commodity/Miscellaneous
+  YC123.4 Serenity Season Medal - Caldari: commodity/Miscellaneous
+  YC123.4 Serenity Season Medal - Gallente: commodity/Miscellaneous
+  YC123.4 Serenity Season Medal - Minmatar: commodity/Miscellaneous
+  YC123.4 Serenity Season Medal - New Eden: commodity/Miscellaneous
   YO-5000 Rapid Heavy Missile Launcher: module/MissileLauncherRapidHeavy
   Yaekun Ogdin: entity/MissionGenericBattleships
   Yamia Mida's Remains: commodity/Commodities

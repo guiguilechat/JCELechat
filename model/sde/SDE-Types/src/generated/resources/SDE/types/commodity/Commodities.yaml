@@ -6,6 +6,24 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  AG-Composite Molecular Condenser:
+    id: 57446
+    marketGroup: 2766
+    name: AG-Composite Molecular Condenser
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 1.0
+  AV-Composite Molecular Condenser:
+    id: 57448
+    marketGroup: 2766
+    name: AV-Composite Molecular Condenser
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 1.0
   Abufyr Joek's Head:
     id: 26120
     name: Abufyr Joek's Head
@@ -424,6 +442,15 @@ types:
     price: 1.0
     published: true
     volume: 0.009999999776482582
+  CV-Composite Molecular Condenser:
+    id: 57447
+    marketGroup: 2766
+    name: CV-Composite Molecular Condenser
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 1.0
   Cache of Pistols:
     id: 26789
     name: Cache of Pistols
@@ -589,6 +616,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Counter-Subversion Sensor Array:
+    id: 57442
+    marketGroup: 2765
+    name: Counter-Subversion Sensor Array
+    packagedVolume: 20.0
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    volume: 20.0
   Counterfeit Credits:
     id: 21468
     name: Counterfeit Credits
@@ -804,6 +840,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Electro-Neural Signaller:
+    id: 57450
+    marketGroup: 2765
+    name: Electro-Neural Signaller
+    packagedVolume: 0.25
+    portionSize: 1
+    price: 3.2E8
+    published: true
+    volume: 0.25
   Elere Febre's Data Log:
     id: 23516
     name: Elere Febre's Data Log
@@ -860,6 +905,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Enhanced Electro-Neural Signaller:
+    id: 57451
+    marketGroup: 2765
+    name: Enhanced Electro-Neural Signaller
+    packagedVolume: 2.5
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    volume: 2.5
   Enigma Cypher Book:
     id: 23893
     name: Enigma Cypher Book
@@ -1384,6 +1438,15 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Isotropic Deposition Guide:
+    id: 57452
+    marketGroup: 2766
+    name: Isotropic Deposition Guide
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 5.0
   Jakon's Head:
     id: 21602
     name: Jakon's Head
@@ -1483,6 +1546,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  LM-Composite Molecular Condenser:
+    id: 57445
+    marketGroup: 2766
+    name: LM-Composite Molecular Condenser
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 1000000.0
+    published: true
+    volume: 1.0
   Lagaster Malotoff's Tag:
     id: 22249
     name: Lagaster Malotoff's Tag
@@ -1607,6 +1679,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Meta-Molecular Combiner:
+    id: 57443
+    marketGroup: 2766
+    name: Meta-Molecular Combiner
+    packagedVolume: 1.0
+    portionSize: 1
+    price: 2.5E8
+    published: true
+    volume: 1.0
   Metal Scraps:
     id: 15331
     marketGroup: 20
@@ -1744,6 +1825,15 @@ types:
     portionSize: 1
     published: true
     volume: 10.0
+  Nano Regulation Gate:
+    id: 57449
+    marketGroup: 2765
+    name: Nano Regulation Gate
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 4.2E8
+    published: true
+    volume: 0.10000000149011612
   Nanom Basskel's Ship Logs:
     id: 22317
     name: Nanom Basskel's Ship Logs
@@ -1751,6 +1841,15 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  Nanoscale Filter Plate:
+    id: 57444
+    marketGroup: 2765
+    name: Nanoscale Filter Plate
+    packagedVolume: 5.0
+    portionSize: 1
+    price: 1.0E9
+    published: true
+    volume: 5.0
   Navigation for Dummies:
     id: 26459
     name: Navigation for Dummies

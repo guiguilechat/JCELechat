@@ -1018,6 +1018,63 @@ types:
     thermaldamage: 15.0
     trackingspeed: 0.20000000298023224
     volume: 92000.0
+  CreoDron Autonomous Maintenance Bot:
+    aitankingmodifierdrone: 0.699999988079071
+    armoremdamageresonance: 0.20000000298023224
+    armorexplosivedamageresonance: 0.20000000298023224
+    armorhp: 6000.0
+    armorkineticdamageresonance: 0.20000000298023224
+    armorthermaldamageresonance: 0.20000000298023224
+    capacitorcapacity: 1000.0
+    damagemultiplier: 1.0
+    ecmduration: 30000
+    energyneutralizerduration: 30000
+    entityattackrange: 15000
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entityreactionfactor: 1.0
+    entitysensordampenduration: 30000
+    entityshieldboostdelaychance: 1.0
+    entityshieldboostduration: 10000
+    entitytargetjam: 1
+    falloff: 1.0
+    gfxboosterid: 394
+    hp: 20000.0
+    id: 57837
+    maxlockedtargets: 4
+    maxtargetrange: 200000.0
+    maxtargetrangemultiplier: 1.0
+    maxvelocity: 800.0
+    missiledamagemultiplier: 1.0
+    missileentityflighttimemultiplier: 1.0
+    missileentityvelocitymultiplier: 1.0
+    missilelaunchduration: 20000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: CreoDron Autonomous Maintenance Bot
+    optimalsigradius: 1000
+    portionSize: 1
+    propulsiongraphicid: 394
+    published: false
+    radius: 5.0
+    rechargerate: 1000000.0
+    scanmagnetometricstrength: 10.0
+    scanresolution: 400.0
+    shieldcapacity: 4000.0
+    shieldemdamageresonance: 0.20000000298023224
+    shieldexplosivedamageresonance: 0.20000000298023224
+    shieldkineticdamageresonance: 0.20000000298023224
+    shieldrechargerate: 1000000.0
+    shieldthermaldamageresonance: 0.20000000298023224
+    signatureradius: 30.0
+    speedfactor: 1.0
+    structureuniformity: 1.0
   DED Army Captain:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.6000000238418579

@@ -6,6 +6,7 @@ types:
     name: Mobile Cynosural Beacon Blueprint
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 1.0E8
     published: true
     radius: 1.0
     volume: 0.009999999776482582

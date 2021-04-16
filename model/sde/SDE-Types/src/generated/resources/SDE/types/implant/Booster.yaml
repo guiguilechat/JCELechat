@@ -568,6 +568,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 4
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -1316,6 +1317,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 6
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -2296,6 +2298,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 8
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -3557,6 +3560,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3576,6 +3580,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3595,6 +3600,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3614,6 +3620,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 10
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3632,6 +3639,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3648,6 +3656,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     shieldcapacitybonus: 3.0
@@ -3664,6 +3673,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3681,6 +3691,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     socialbonus: 100
@@ -3697,6 +3708,7 @@ types:
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     scanstrengthbonus: 10
@@ -4135,6 +4147,7 @@ types:
     packagedVolume: 1.0
     perceptionbonus: 5
     portionSize: 1
+    price: 32768.0
     published: true
     radius: 1.0
     requiredskill1: 3402
@@ -4856,6 +4869,75 @@ types:
     intelligencebonus: 5
     memorybonus: 5
     name: Serenity YC123.3 Season Standard Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.4 Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18757.125
+    boosterness: 125
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 57822
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.4 Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.4 Season Pass:
+    boosterduration: 4.32E8
+    boosterlastinjectiondatetime: 18744.125
+    boosterness: 126
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 57823
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity YC123.4 Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity YC123.4 Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18757.125
+    boosterness: 124
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 57821
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.4 Season Standard Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0

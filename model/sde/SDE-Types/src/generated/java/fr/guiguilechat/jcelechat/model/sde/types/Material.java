@@ -17,6 +17,7 @@ import fr.guiguilechat.jcelechat.model.sde.types.material.HybridPolymers;
 import fr.guiguilechat.jcelechat.model.sde.types.material.IceProduct;
 import fr.guiguilechat.jcelechat.model.sde.types.material.IntermediateMaterials;
 import fr.guiguilechat.jcelechat.model.sde.types.material.Mineral;
+import fr.guiguilechat.jcelechat.model.sde.types.material.MolecularForgedMaterials;
 import fr.guiguilechat.jcelechat.model.sde.types.material.MoonMaterials;
 import fr.guiguilechat.jcelechat.model.sde.types.material.NamedComponents;
 import fr.guiguilechat.jcelechat.model.sde.types.material.RogueDroneComponents;
@@ -54,7 +55,7 @@ public abstract class Material
 
         @Override
         public Collection<IMetaGroup<? extends Material>> groups() {
-            return Arrays.asList(Mineral.METAGROUP, IceProduct.METAGROUP, MoonMaterials.METAGROUP, IntermediateMaterials.METAGROUP, Composite.METAGROUP, BiochemicalMaterial.METAGROUP, SalvagedMaterials.METAGROUP, RogueDroneComponents.METAGROUP, AncientSalvage.METAGROUP, HybridPolymers.METAGROUP, FuelBlock.METAGROUP, NamedComponents.METAGROUP, AbyssalMaterials.METAGROUP);
+            return Arrays.asList(MolecularForgedMaterials.METAGROUP, Mineral.METAGROUP, IceProduct.METAGROUP, MoonMaterials.METAGROUP, IntermediateMaterials.METAGROUP, Composite.METAGROUP, BiochemicalMaterial.METAGROUP, SalvagedMaterials.METAGROUP, RogueDroneComponents.METAGROUP, AncientSalvage.METAGROUP, HybridPolymers.METAGROUP, FuelBlock.METAGROUP, NamedComponents.METAGROUP, AbyssalMaterials.METAGROUP);
         }
     }
 }

@@ -68,6 +68,16 @@ types:
     published: true
     radius: 1.0
     volume: 10000.0
+  Capital Core Temperature Regulator:
+    id: 57487
+    marketGroup: 781
+    moonminingamount: 1
+    name: Capital Core Temperature Regulator
+    packagedVolume: 28000.0
+    portionSize: 1
+    price: 1.0E8
+    published: true
+    volume: 28000.0
   Capital Corporate Hangar Bay:
     id: 24560
     marketGroup: 781
@@ -216,3 +226,23 @@ types:
     portionSize: 1
     published: true
     volume: 10000.0
+  Enhanced Neurolink Protection Cell:
+    id: 57489
+    marketGroup: 781
+    moonminingamount: 1
+    name: Enhanced Neurolink Protection Cell
+    packagedVolume: 55000.0
+    portionSize: 1
+    price: 5.0E8
+    published: true
+    volume: 55000.0
+  Neurolink Protection Cell:
+    id: 57488
+    marketGroup: 781
+    moonminingamount: 1
+    name: Neurolink Protection Cell
+    packagedVolume: 5500.0
+    portionSize: 1
+    price: 5000000.0
+    published: true
+    volume: 5500.0

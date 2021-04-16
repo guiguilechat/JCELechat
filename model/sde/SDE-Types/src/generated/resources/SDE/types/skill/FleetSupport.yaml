@@ -76,6 +76,7 @@ types:
     name: Fleet Coordination
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.0E7
     primaryattribute: 164
     published: true
     radius: 1.0
@@ -93,6 +94,7 @@ types:
     name: Fleet Formations
     packagedVolume: 0.009999999776482582
     portionSize: 1
+    price: 4.0E7
     primaryattribute: 164
     published: true
     radius: 1.0

@@ -120,6 +120,26 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
+  Pressurized Oxidizers:
+    id: 57456
+    marketGroup: 499
+    moonminingamount: 1
+    name: Pressurized Oxidizers
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 250000.0
+    published: true
+    volume: 0.10000000149011612
+  Reinforced Carbon Fiber:
+    id: 57457
+    marketGroup: 499
+    moonminingamount: 1
+    name: Reinforced Carbon Fiber
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 250000.0
+    published: true
+    volume: 0.10000000149011612
   Sylramic Fibers:
     id: 16678
     marketGroup: 499

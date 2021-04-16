@@ -395,3 +395,39 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Gravimetric-FTL Interlink Communicator Blueprint:
+    id: 57512
+    marketGroup: 1588
+    name: Gravimetric-FTL Interlink Communicator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
+    published: true
+    volume: 0.009999999776482582
+  Ladar-FTL Interlink Communicator Blueprint:
+    id: 57514
+    marketGroup: 1590
+    name: Ladar-FTL Interlink Communicator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
+    published: true
+    volume: 0.009999999776482582
+  Magnetometric-FTL Interlink Communicator Blueprint:
+    id: 57513
+    marketGroup: 1589
+    name: Magnetometric-FTL Interlink Communicator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
+    published: true
+    volume: 0.009999999776482582
+  Radar-FTL Interlink Communicator Blueprint:
+    id: 57511
+    marketGroup: 1587
+    name: Radar-FTL Interlink Communicator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
+    published: true
+    volume: 0.009999999776482582

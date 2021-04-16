@@ -13422,6 +13422,80 @@ types:
     thermaldamageresonance: 1.0
     trackingspeed: 0.009999999776482582
     volume: 1000.0
+  True Creations Fortified Torpedo Battery:
+    aishoulduseeffectmultiplier: 1
+    aishouldusesignatureradius: 1
+    aishouldusetargetswitching: 1
+    aitankingmodifierdrone: 0.5
+    armoremdamageresonance: 0.4000000059604645
+    armorexplosivedamageresonance: 0.8999999761581421
+    armorhp: 3200.0
+    armorkineticdamageresonance: 0.75
+    armorthermaldamageresonance: 0.6499999761581421
+    capacitorcapacity: 1000.0
+    capacity: 1000.0
+    damagemultiplier: 3.5
+    damagemultiplierbonusmax: 0.5
+    disallowassistance: 1
+    emdamageresonance: 1.0
+    energyneutralizerduration: 30000
+    entityattackrange: 250000
+    entitybracketcolour: 1
+    entitychasemaxdelay: 5000
+    entitychasemaxdelaychance: 1.0
+    entitychasemaxdistance: 2500
+    entitychasemaxduration: 5000
+    entitychasemaxdurationchance: 1.0
+    entitydefenderchance: 0.05000000074505806
+    entityequipmentgroupmax: 1
+    entityflyrange: 500.0
+    entitygrouprespawnchance: 1
+    entitykillbounty: 55000
+    entitymissiletypeid: 202
+    entityreactionfactor: 1.0
+    explosivedamageresonance: 1.0
+    falloff: 50000.0
+    gfxturretid: 372
+    hp: 800.0
+    id: 57850
+    kineticdamageresonance: 1.0
+    maxattacktargets: 3
+    maxlockedtargets: 8
+    maxrange: 250000.0
+    missiledamagemultiplier: 3.0
+    missileentityaoecloudsizemultiplier: 1.0
+    missileentityaoevelocitymultiplier: 1.0
+    missileentityflighttimemultiplier: 1.5
+    missileentityvelocitymultiplier: 1.5
+    missilelaunchduration: 28000.0
+    modifytargetspeedduration: 5000.0
+    modifytargetspeedrange: 20000
+    name: True Creations Fortified Torpedo Battery
+    optimalsigradius: 100
+    packagedVolume: 1000.0
+    portionSize: 1
+    proximityrange: 250000
+    published: false
+    radius: 371.0
+    rechargerate: 500000.0
+    scangravimetricstrength: 100.0
+    scanladarstrength: 100.0
+    scanmagnetometricstrength: 100.0
+    scanradarstrength: 100.0
+    shieldcapacity: 1000.0
+    shieldemdamageresonance: 1.0
+    shieldexplosivedamageresonance: 0.4000000059604645
+    shieldkineticdamageresonance: 0.6000000238418579
+    shieldrechargerate: 500000.0
+    shieldthermaldamageresonance: 0.800000011920929
+    shielduniformity: 0.75
+    signatureradius: 200.0
+    speed: 2.0E7
+    speedfactor: -75.0
+    structureuniformity: 1.0
+    thermaldamageresonance: 1.0
+    trackingspeed: 0.03999999910593033
+    volume: 1000.0
   Vigilant Sentry Tower:
     aitankingmodifierdrone: 0.699999988079071
     armoremdamageresonance: 0.6000000238418579

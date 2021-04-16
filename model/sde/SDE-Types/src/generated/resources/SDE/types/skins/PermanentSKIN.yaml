@@ -2147,6 +2147,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Ashimmu Vampire's Hex SKIN:
+    id: 57817
+    marketGroup: 2030
+    name: Ashimmu Vampire's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Astarte Biosecurity Responders SKIN:
     id: 55612
     marketGroup: 2106
@@ -3060,10 +3068,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Barghest Ghost's Hex SKIN:
+    id: 57812
+    marketGroup: 1963
+    name: Barghest Ghost's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Barghest Glacial Drift SKIN:
     id: 47005
     marketGroup: 1963
     name: Barghest Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Barghest Redclaw Sable SKIN:
+    id: 57787
+    marketGroup: 1963
+    name: Barghest Redclaw Sable SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -3420,6 +3444,14 @@ types:
     id: 56954
     marketGroup: 1963
     name: Bhaalgorn Redclaw Sable SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Bhaalgorn Vampire's Hex SKIN:
+    id: 57818
+    marketGroup: 1963
+    name: Bhaalgorn Vampire's Hex SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -7062,6 +7094,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Cruor Vampire's Hex SKIN:
+    id: 57816
+    marketGroup: 2031
+    name: Cruor Vampire's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Crusader Aurora Universalis SKIN:
     id: 57005
     marketGroup: 2059
@@ -9022,6 +9062,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Enforcer BlackIce Derailers SKIN:
+    id: 57784
+    marketGroup: 2362
+    name: Enforcer BlackIce Derailers SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Enforcer CONCORD Aerospace 'Prototype' SKIN:
     id: 45480
     marketGroup: 2362
@@ -10437,6 +10485,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Garmur Ghost's Hex SKIN:
+    id: 57810
+    marketGroup: 2031
+    name: Garmur Ghost's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Garmur Glacial Drift SKIN:
     id: 47003
     marketGroup: 2031
@@ -10607,6 +10663,14 @@ types:
     id: 48817
     marketGroup: 2030
     name: Gila Storm Bear SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Gila Vampire's Hex SKIN:
+    id: 57814
+    marketGroup: 2030
+    name: Gila Vampire's Hex SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -16465,6 +16529,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Marshal BlackIce Derailers SKIN:
+    id: 57785
+    marketGroup: 2406
+    name: Marshal BlackIce Derailers SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Marshal CONCORD Aerospace 'Prototype' SKIN:
     id: 47159
     marketGroup: 2406
@@ -18838,6 +18910,14 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Nightmare Ghost's Hex SKIN:
+    id: 57809
+    marketGroup: 1963
+    name: Nightmare Ghost's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Nightmare Glacial Drift SKIN:
     id: 47008
     marketGroup: 1963
@@ -20274,10 +20354,26 @@ types:
     portionSize: 1
     published: true
     volume: 0.009999999776482582
+  Orthrus Ghost's Hex SKIN:
+    id: 57811
+    marketGroup: 2030
+    name: Orthrus Ghost's Hex SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
   Orthrus Glacial Drift SKIN:
     id: 47004
     marketGroup: 2030
     name: Orthrus Glacial Drift SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Orthrus Redclaw Sable SKIN:
+    id: 57786
+    marketGroup: 2030
+    name: Orthrus Redclaw Sable SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20476,6 +20572,14 @@ types:
     id: 55295
     marketGroup: 2361
     name: Pacifier Biosecurity Responders SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Pacifier BlackIce Derailers SKIN:
+    id: 57783
+    marketGroup: 2361
+    name: Pacifier BlackIce Derailers SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -20840,6 +20944,14 @@ types:
     id: 53434
     marketGroup: 2113
     name: Panther Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Phantasm Ghost's Hex SKIN:
+    id: 57808
+    marketGroup: 2030
+    name: Phantasm Ghost's Hex SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -22953,6 +23065,14 @@ types:
   Rattlesnake Serenity YC117 SKIN:
     id: 34823
     name: Rattlesnake Serenity YC117 SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Rattlesnake Vampire's Hex SKIN:
+    id: 57815
+    marketGroup: 1963
+    name: Rattlesnake Vampire's Hex SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -26686,6 +26806,14 @@ types:
     id: 53437
     marketGroup: 2030
     name: Stratios Yoiul Star SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Succubus Ghost's Hex SKIN:
+    id: 57807
+    marketGroup: 2031
+    name: Succubus Ghost's Hex SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true
@@ -30535,6 +30663,14 @@ types:
     id: 48552
     marketGroup: 2031
     name: Worm IGC SKIN
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    published: true
+    volume: 0.009999999776482582
+  Worm Vampire's Hex SKIN:
+    id: 57813
+    marketGroup: 2031
+    name: Worm Vampire's Hex SKIN
     packagedVolume: 0.009999999776482582
     portionSize: 1
     published: true

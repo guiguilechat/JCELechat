@@ -168366,15 +168366,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 10916
+        quantity: 3556
       - id: 35
-        quantity: 592
+        quantity: 3158
       - id: 36
-        quantity: 684
-      - id: 39
-        quantity: 16
+        quantity: 9
       - id: 48112
-        quantity: 142
+        quantity: 450
       - id: 54970
         quantity: 4
       - id: 54971
@@ -168484,13 +168482,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 9848
-        quantity: 4
+        quantity: 1
       - id: 11399
-        quantity: 32
+        quantity: 6
       - id: 11486
         quantity: 1
       - id: 11690
-        quantity: 44
+        quantity: 9
       - id: 54739
         quantity: 1
       products:
@@ -168588,17 +168586,17 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 54798
+        quantity: 19089
       - id: 35
-        quantity: 17886
+        quantity: 10786
       - id: 36
-        quantity: 21594
+        quantity: 9827
       - id: 37
-        quantity: 12
+        quantity: 44
       - id: 38
-        quantity: 108
+        quantity: 6
       - id: 48112
-        quantity: 265
+        quantity: 660
       - id: 54970
         quantity: 6
       - id: 54971
@@ -168628,7 +168626,7 @@ blueprints:
       - id: 54745
         quantity: 1
       - id: 54970
-        quantity: 8
+        quantity: 6
       products:
       - id: 54746
         probability: 1.0
@@ -168652,7 +168650,7 @@ blueprints:
       - id: 54745
         quantity: 1
       - id: 54970
-        quantity: 8
+        quantity: 6
       products:
       - id: 54747
         probability: 1.0
@@ -168684,13 +168682,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 9848
-        quantity: 30
+        quantity: 5
       - id: 11399
-        quantity: 120
+        quantity: 17
       - id: 11486
         quantity: 1
       - id: 11690
-        quantity: 120
+        quantity: 18
       - id: 54745
         quantity: 1
       products:
@@ -168788,19 +168786,19 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 911040
+        quantity: 328307
       - id: 35
-        quantity: 233712
+        quantity: 117839
       - id: 36
-        quantity: 77976
+        quantity: 42197
       - id: 37
-        quantity: 21200
+        quantity: 19951
       - id: 38
-        quantity: 3288
+        quantity: 1234
       - id: 40
-        quantity: 260
+        quantity: 126
       - id: 48112
-        quantity: 440
+        quantity: 940
       - id: 54970
         quantity: 12
       - id: 54971
@@ -168830,7 +168828,7 @@ blueprints:
       - id: 54750
         quantity: 1
       - id: 54970
-        quantity: 14
+        quantity: 12
       products:
       - id: 54751
         probability: 1.0
@@ -168854,7 +168852,7 @@ blueprints:
       - id: 54750
         quantity: 1
       - id: 54970
-        quantity: 14
+        quantity: 12
       products:
       - id: 54752
         probability: 1.0
@@ -168886,13 +168884,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 9848
-        quantity: 112
+        quantity: 14
       - id: 11399
-        quantity: 304
+        quantity: 35
       - id: 11486
         quantity: 1
       - id: 11690
-        quantity: 288
+        quantity: 32
       - id: 54750
         quantity: 1
       products:
@@ -168966,11 +168964,11 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 816
+        quantity: 20
       - id: 35
-        quantity: 68
-      - id: 38
-        quantity: 4
+        quantity: 10
+      - id: 48112
+        quantity: 2
       - id: 54970
         quantity: 1
       - id: 54972
@@ -169014,11 +169012,11 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 816
+        quantity: 20
       - id: 35
-        quantity: 68
-      - id: 38
-        quantity: 4
+        quantity: 10
+      - id: 48112
+        quantity: 2
       - id: 54970
         quantity: 1
       - id: 54972
@@ -169062,11 +169060,11 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 816
+        quantity: 20
       - id: 35
-        quantity: 68
-      - id: 38
-        quantity: 4
+        quantity: 10
+      - id: 48112
+        quantity: 2
       - id: 54970
         quantity: 1
       - id: 54972
@@ -169110,11 +169108,11 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 816
+        quantity: 20
       - id: 35
-        quantity: 68
-      - id: 38
-        quantity: 4
+        quantity: 10
+      - id: 48112
+        quantity: 2
       - id: 54970
         quantity: 1
       - id: 54972
@@ -169158,15 +169156,15 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 2694
+        quantity: 40
       - id: 35
-        quantity: 2502
-      - id: 36
-        quantity: 42
+        quantity: 20
+      - id: 48112
+        quantity: 4
       - id: 54970
         quantity: 2
       - id: 54972
-        quantity: 8
+        quantity: 12
       products:
       - id: 54773
         probability: 1.0
@@ -169206,15 +169204,15 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 2694
+        quantity: 40
       - id: 35
-        quantity: 2502
-      - id: 36
-        quantity: 42
+        quantity: 20
+      - id: 48112
+        quantity: 4
       - id: 54970
         quantity: 2
       - id: 54972
-        quantity: 8
+        quantity: 12
       products:
       - id: 54774
         probability: 1.0
@@ -169254,15 +169252,15 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 2694
+        quantity: 40
       - id: 35
-        quantity: 2502
-      - id: 36
-        quantity: 42
+        quantity: 20
+      - id: 48112
+        quantity: 4
       - id: 54970
         quantity: 2
       - id: 54972
-        quantity: 8
+        quantity: 12
       products:
       - id: 54775
         probability: 1.0
@@ -169302,15 +169300,15 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 2694
+        quantity: 40
       - id: 35
-        quantity: 2502
-      - id: 36
-        quantity: 42
+        quantity: 20
+      - id: 48112
+        quantity: 4
       - id: 54970
         quantity: 2
       - id: 54972
-        quantity: 8
+        quantity: 12
       products:
       - id: 54776
         probability: 1.0
@@ -169350,17 +169348,15 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 14224
+        quantity: 80
       - id: 35
-        quantity: 1016
-      - id: 36
-        quantity: 712
-      - id: 37
-        quantity: 232
+        quantity: 40
+      - id: 48112
+        quantity: 6
       - id: 54970
         quantity: 4
       - id: 54972
-        quantity: 14
+        quantity: 16
       products:
       - id: 54777
         probability: 1.0
@@ -169400,17 +169396,15 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 14224
+        quantity: 80
       - id: 35
-        quantity: 1016
-      - id: 36
-        quantity: 712
-      - id: 37
-        quantity: 232
+        quantity: 40
+      - id: 48112
+        quantity: 6
       - id: 54970
         quantity: 4
       - id: 54972
-        quantity: 14
+        quantity: 16
       products:
       - id: 54778
         probability: 1.0
@@ -169450,17 +169444,15 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 14224
+        quantity: 80
       - id: 35
-        quantity: 1016
-      - id: 36
-        quantity: 712
-      - id: 37
-        quantity: 232
+        quantity: 40
+      - id: 48112
+        quantity: 6
       - id: 54970
         quantity: 4
       - id: 54972
-        quantity: 14
+        quantity: 16
       products:
       - id: 54779
         probability: 1.0
@@ -169500,17 +169492,15 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 14224
+        quantity: 80
       - id: 35
-        quantity: 1016
-      - id: 36
-        quantity: 712
-      - id: 37
-        quantity: 232
+        quantity: 40
+      - id: 48112
+        quantity: 6
       - id: 54970
         quantity: 4
       - id: 54972
-        quantity: 14
+        quantity: 16
       products:
       - id: 54780
         probability: 1.0
@@ -169550,15 +169540,15 @@ blueprints:
     manufacturing:
       materials:
       - id: 34
-        quantity: 8050
-      - id: 35
-        quantity: 1459
-      - id: 54970
+        quantity: 676
+      - id: 36
+        quantity: 318
+      - id: 37
         quantity: 2
-      - id: 54971
+      - id: 39
         quantity: 6
-      - id: 54972
-        quantity: 20
+      - id: 40
+        quantity: 2
       products:
       - id: 54973
         probability: 1.0
@@ -169580,7 +169570,7 @@ blueprints:
     manufacturing:
       materials:
       - id: 54970
-        quantity: 10
+        quantity: 5
       - id: 54973
         quantity: 1
       products:
@@ -169618,7 +169608,7 @@ blueprints:
       - id: 9842
         quantity: 3
       - id: 11399
-        quantity: 5
+        quantity: 8
       - id: 11483
         quantity: 1
       - id: 11540
@@ -169688,13 +169678,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 11399
-        quantity: 4
+        quantity: 1
       - id: 11476
         quantity: 1
-      - id: 16670
-        quantity: 240
       - id: 16679
-        quantity: 240
+        quantity: 20
+      - id: 48112
+        quantity: 2
       products:
       - id: 54784
         probability: 1.0
@@ -169758,13 +169748,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 11399
-        quantity: 4
+        quantity: 1
       - id: 11476
         quantity: 1
-      - id: 16670
-        quantity: 240
       - id: 16679
-        quantity: 240
+        quantity: 20
+      - id: 48112
+        quantity: 2
       products:
       - id: 54781
         probability: 1.0
@@ -169828,13 +169818,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 11399
-        quantity: 36
+        quantity: 2
       - id: 11476
         quantity: 1
-      - id: 16670
-        quantity: 1440
       - id: 16679
-        quantity: 1440
+        quantity: 40
+      - id: 48112
+        quantity: 4
       products:
       - id: 54786
         probability: 1.0
@@ -169898,13 +169888,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 11399
-        quantity: 36
+        quantity: 2
       - id: 11476
         quantity: 1
-      - id: 16670
-        quantity: 1440
       - id: 16679
-        quantity: 1440
+        quantity: 40
+      - id: 48112
+        quantity: 4
       products:
       - id: 54785
         probability: 1.0
@@ -169968,13 +169958,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 11399
-        quantity: 120
+        quantity: 4
       - id: 11476
         quantity: 1
-      - id: 16670
-        quantity: 4800
       - id: 16679
-        quantity: 4800
+        quantity: 80
+      - id: 48112
+        quantity: 6
       products:
       - id: 54783
         probability: 1.0
@@ -170038,13 +170028,13 @@ blueprints:
     manufacturing:
       materials:
       - id: 11399
-        quantity: 120
+        quantity: 4
       - id: 11476
         quantity: 1
-      - id: 16670
-        quantity: 4800
       - id: 16679
-        quantity: 4800
+        quantity: 80
+      - id: 48112
+        quantity: 6
       products:
       - id: 54782
         probability: 1.0
@@ -170336,6 +170326,40 @@ blueprints:
       time: 18900
     research_time:
       time: 18900
+    seeded: true
+  56749:
+    copying:
+      time: 480
+    id: 56749
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 6
+      - id: 35
+        quantity: 17
+      - id: 36
+        quantity: 22
+      - id: 37
+        quantity: 1
+      - id: 38
+        quantity: 1
+      - id: 40
+        quantity: 2
+      - id: 16275
+        quantity: 56
+      products:
+      - id: 56748
+        probability: 1.0
+        quantity: 2
+      skills:
+        ? id: 3380
+        : 1
+      time: 600
+    maxCopyRuns: 300
+    research_material:
+      time: 210
+    research_time:
+      time: 210
     seeded: true
   56832:
     copying:
@@ -170909,3 +170933,1201 @@ blueprints:
     research_time:
       time: 2100
     seeded: false
+  57429:
+    copying:
+      time: 9600
+    id: 57429
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 207778
+      - id: 35
+        quantity: 5111
+      - id: 37
+        quantity: 3556
+      - id: 39
+        quantity: 2230
+      - id: 40
+        quantity: 112
+      - id: 2867
+        quantity: 4
+      - id: 2870
+        quantity: 2
+      - id: 2872
+        quantity: 2
+      - id: 2875
+        quantity: 4
+      - id: 2876
+        quantity: 2
+      - id: 9834
+        quantity: 12
+      products:
+      - id: 57319
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+        ? id: 11446
+        : 4
+        ? id: 11448
+        : 4
+      time: 12000
+    maxCopyRuns: 10
+    research_material:
+      time: 4200
+    research_time:
+      time: 4200
+    seeded: true
+  57490:
+    id: 57490
+    maxCopyRuns: 1000
+    reaction:
+      materials:
+      - id: 4246
+        quantity: 5
+      - id: 16633
+        quantity: 100
+      - id: 16635
+        quantity: 100
+      products:
+      - id: 57453
+        probability: 1.0
+        quantity: 200
+      skills:
+        ? id: 45746
+        : 1
+      time: 10800
+    seeded: true
+  57491:
+    id: 57491
+    maxCopyRuns: 1000
+    reaction:
+      materials:
+      - id: 4312
+        quantity: 5
+      - id: 16633
+        quantity: 2000
+      - id: 16634
+        quantity: 2000
+      products:
+      - id: 57454
+        probability: 1.0
+        quantity: 10
+      skills:
+        ? id: 45746
+        : 2
+      time: 10800
+    seeded: true
+  57492:
+    id: 57492
+    maxCopyRuns: 1000
+    reaction:
+      materials:
+      - id: 16659
+        quantity: 200
+      - id: 16661
+        quantity: 200
+      - id: 57454
+        quantity: 1
+      products:
+      - id: 57456
+        probability: 1.0
+        quantity: 200
+      skills:
+        ? id: 45746
+        : 3
+      time: 10800
+    seeded: true
+  57493:
+    id: 57493
+    maxCopyRuns: 1000
+    reaction:
+      materials:
+      - id: 57453
+        quantity: 200
+      - id: 57454
+        quantity: 1
+      - id: 57455
+        quantity: 200
+      products:
+      - id: 57457
+        probability: 1.0
+        quantity: 200
+      skills:
+        ? id: 45746
+        : 3
+      time: 10800
+    seeded: true
+  57494:
+    id: 57494
+    maxCopyRuns: 1000
+    reaction:
+      materials:
+      - id: 4312
+        quantity: 5
+      - id: 16634
+        quantity: 100
+      - id: 16636
+        quantity: 100
+      products:
+      - id: 57455
+        probability: 1.0
+        quantity: 200
+      skills:
+        ? id: 45746
+        : 1
+      time: 10800
+    seeded: true
+  57495:
+    id: 57495
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 4246
+        quantity: 5
+      - id: 57443
+        quantity: 1
+      - id: 57459
+        quantity: 160
+      - id: 57460
+        quantity: 160
+      - id: 57461
+        quantity: 160
+      - id: 57462
+        quantity: 160
+      products:
+      - id: 57458
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 45746
+        : 4
+      time: 10800
+    seeded: true
+  57496:
+    id: 57496
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 4247
+        quantity: 5
+      - id: 28698
+        quantity: 40
+      - id: 28699
+        quantity: 40
+      - id: 57445
+        quantity: 1
+      products:
+      - id: 57459
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 45746
+        : 1
+      time: 10800
+    seeded: true
+  57497:
+    id: 57497
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 4051
+        quantity: 5
+      - id: 28694
+        quantity: 40
+      - id: 28697
+        quantity: 40
+      - id: 57446
+        quantity: 1
+      products:
+      - id: 57460
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 45746
+        : 1
+      time: 10800
+    seeded: true
+  57498:
+    id: 57498
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 4312
+        quantity: 5
+      - id: 28696
+        quantity: 40
+      - id: 28701
+        quantity: 40
+      - id: 57447
+        quantity: 1
+      products:
+      - id: 57461
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 45746
+        : 1
+      time: 10800
+    seeded: true
+  57499:
+    id: 57499
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 4246
+        quantity: 5
+      - id: 28695
+        quantity: 40
+      - id: 28700
+        quantity: 40
+      - id: 57448
+        quantity: 1
+      products:
+      - id: 57462
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 45746
+        : 1
+      time: 10800
+    seeded: true
+  57500:
+    id: 57500
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 34
+        quantity: 10000
+      - id: 4247
+        quantity: 5
+      - id: 30371
+        quantity: 500
+      - id: 30374
+        quantity: 500
+      - id: 57452
+        quantity: 1
+      products:
+      - id: 57463
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 45746
+        : 5
+      time: 10800
+    seeded: true
+  57501:
+    id: 57501
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 34
+        quantity: 10000
+      - id: 4246
+        quantity: 5
+      - id: 30372
+        quantity: 500
+      - id: 30375
+        quantity: 500
+      - id: 57452
+        quantity: 1
+      products:
+      - id: 57464
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 45746
+        : 5
+      time: 10800
+    seeded: true
+  57502:
+    id: 57502
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 34
+        quantity: 10000
+      - id: 4051
+        quantity: 5
+      - id: 30370
+        quantity: 500
+      - id: 30373
+        quantity: 500
+      - id: 57452
+        quantity: 1
+      products:
+      - id: 57465
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 45746
+        : 5
+      time: 10800
+    seeded: true
+  57503:
+    id: 57503
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 4247
+        quantity: 5
+      - id: 25276
+        quantity: 10
+      - id: 25277
+        quantity: 10
+      - id: 57445
+        quantity: 1
+      products:
+      - id: 57466
+        probability: 1.0
+        quantity: 10
+      skills:
+        ? id: 45746
+        : 2
+      time: 10800
+    seeded: true
+  57504:
+    id: 57504
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 4051
+        quantity: 5
+      - id: 25268
+        quantity: 10
+      - id: 25273
+        quantity: 10
+      - id: 57446
+        quantity: 1
+      products:
+      - id: 57467
+        probability: 1.0
+        quantity: 10
+      skills:
+        ? id: 45746
+        : 2
+      time: 10800
+    seeded: true
+  57505:
+    id: 57505
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 4312
+        quantity: 5
+      - id: 25274
+        quantity: 10
+      - id: 25275
+        quantity: 10
+      - id: 57447
+        quantity: 1
+      products:
+      - id: 57468
+        probability: 1.0
+        quantity: 10
+      skills:
+        ? id: 45746
+        : 2
+      time: 10800
+    seeded: true
+  57506:
+    id: 57506
+    maxCopyRuns: 100
+    reaction:
+      materials:
+      - id: 4246
+        quantity: 5
+      - id: 25278
+        quantity: 10
+      - id: 25279
+        quantity: 10
+      - id: 57448
+        quantity: 1
+      products:
+      - id: 57469
+        probability: 1.0
+        quantity: 10
+      skills:
+        ? id: 45746
+        : 2
+      time: 10800
+    seeded: true
+  57507:
+    copying:
+      time: 1440
+    id: 57507
+    manufacturing:
+      materials:
+      - id: 57456
+        quantity: 10
+      - id: 57457
+        quantity: 10
+      - id: 57459
+        quantity: 40
+      - id: 57466
+        quantity: 1
+      products:
+      - id: 57470
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 3
+      time: 10800
+    maxCopyRuns: 200
+    research_material:
+      time: 700
+    research_time:
+      time: 700
+    seeded: true
+  57508:
+    copying:
+      time: 1440
+    id: 57508
+    manufacturing:
+      materials:
+      - id: 57456
+        quantity: 10
+      - id: 57457
+        quantity: 10
+      - id: 57460
+        quantity: 40
+      - id: 57467
+        quantity: 1
+      products:
+      - id: 57471
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 3
+      time: 10800
+    maxCopyRuns: 200
+    research_material:
+      time: 700
+    research_time:
+      time: 700
+    seeded: true
+  57509:
+    copying:
+      time: 1440
+    id: 57509
+    manufacturing:
+      materials:
+      - id: 57456
+        quantity: 10
+      - id: 57457
+        quantity: 10
+      - id: 57461
+        quantity: 40
+      - id: 57468
+        quantity: 1
+      products:
+      - id: 57472
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 3
+      time: 10800
+    maxCopyRuns: 200
+    research_material:
+      time: 700
+    research_time:
+      time: 700
+    seeded: true
+  57510:
+    copying:
+      time: 1440
+    id: 57510
+    manufacturing:
+      materials:
+      - id: 57456
+        quantity: 10
+      - id: 57457
+        quantity: 10
+      - id: 57462
+        quantity: 40
+      - id: 57469
+        quantity: 1
+      products:
+      - id: 57473
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 3
+      time: 10800
+    maxCopyRuns: 200
+    research_material:
+      time: 700
+    research_time:
+      time: 700
+    seeded: true
+  57511:
+    copying:
+      time: 12800
+    id: 57511
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 50000
+      - id: 35
+        quantity: 200000
+      - id: 36
+        quantity: 60000
+      - id: 37
+        quantity: 20000
+      - id: 38
+        quantity: 3000
+      - id: 39
+        quantity: 1000
+      - id: 40
+        quantity: 500
+      - id: 2867
+        quantity: 5
+      - id: 2872
+        quantity: 2
+      - id: 2876
+        quantity: 2
+      - id: 16672
+        quantity: 2000
+      - id: 16679
+        quantity: 1000
+      - id: 16680
+        quantity: 750
+      - id: 17317
+        quantity: 50
+      - id: 30303
+        quantity: 25
+      - id: 30304
+        quantity: 7
+      - id: 30305
+        quantity: 15
+      - id: 30306
+        quantity: 7
+      - id: 30307
+        quantity: 7
+      - id: 30308
+        quantity: 5
+      - id: 30309
+        quantity: 750
+      - id: 30310
+        quantity: 500
+      - id: 30311
+        quantity: 350
+      - id: 33360
+        quantity: 750
+      - id: 57457
+        quantity: 100
+      products:
+      - id: 57474
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 11433
+        : 5
+        ? id: 11453
+        : 5
+        ? id: 11455
+        : 5
+        ? id: 22242
+        : 1
+      time: 16000
+    maxCopyRuns: 40
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57512:
+    copying:
+      time: 12800
+    id: 57512
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 50000
+      - id: 35
+        quantity: 200000
+      - id: 36
+        quantity: 60000
+      - id: 37
+        quantity: 20000
+      - id: 38
+        quantity: 3000
+      - id: 39
+        quantity: 1000
+      - id: 40
+        quantity: 500
+      - id: 2867
+        quantity: 5
+      - id: 2872
+        quantity: 2
+      - id: 2876
+        quantity: 2
+      - id: 16671
+        quantity: 2000
+      - id: 16679
+        quantity: 1000
+      - id: 16680
+        quantity: 750
+      - id: 17317
+        quantity: 50
+      - id: 30303
+        quantity: 25
+      - id: 30304
+        quantity: 7
+      - id: 30305
+        quantity: 15
+      - id: 30306
+        quantity: 7
+      - id: 30307
+        quantity: 7
+      - id: 30308
+        quantity: 5
+      - id: 30309
+        quantity: 750
+      - id: 30310
+        quantity: 500
+      - id: 30311
+        quantity: 350
+      - id: 33362
+        quantity: 750
+      - id: 57457
+        quantity: 100
+      products:
+      - id: 57475
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 11448
+        : 5
+        ? id: 11453
+        : 5
+        ? id: 11455
+        : 5
+        ? id: 22242
+        : 1
+      time: 16000
+    maxCopyRuns: 40
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57513:
+    copying:
+      time: 12800
+    id: 57513
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 50000
+      - id: 35
+        quantity: 200000
+      - id: 36
+        quantity: 60000
+      - id: 37
+        quantity: 20000
+      - id: 38
+        quantity: 3000
+      - id: 39
+        quantity: 1000
+      - id: 40
+        quantity: 500
+      - id: 2867
+        quantity: 5
+      - id: 2872
+        quantity: 2
+      - id: 2876
+        quantity: 2
+      - id: 16670
+        quantity: 2000
+      - id: 16679
+        quantity: 1000
+      - id: 16680
+        quantity: 750
+      - id: 17317
+        quantity: 50
+      - id: 30303
+        quantity: 25
+      - id: 30304
+        quantity: 7
+      - id: 30305
+        quantity: 15
+      - id: 30306
+        quantity: 7
+      - id: 30307
+        quantity: 7
+      - id: 30308
+        quantity: 5
+      - id: 30309
+        quantity: 750
+      - id: 30310
+        quantity: 500
+      - id: 30311
+        quantity: 350
+      - id: 33359
+        quantity: 750
+      - id: 57457
+        quantity: 100
+      products:
+      - id: 57476
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 11441
+        : 5
+        ? id: 11453
+        : 5
+        ? id: 11455
+        : 5
+        ? id: 22242
+        : 1
+      time: 16000
+    maxCopyRuns: 40
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57514:
+    copying:
+      time: 12800
+    id: 57514
+    manufacturing:
+      materials:
+      - id: 34
+        quantity: 50000
+      - id: 35
+        quantity: 200000
+      - id: 36
+        quantity: 60000
+      - id: 37
+        quantity: 20000
+      - id: 38
+        quantity: 3000
+      - id: 39
+        quantity: 1000
+      - id: 40
+        quantity: 500
+      - id: 2867
+        quantity: 5
+      - id: 2872
+        quantity: 2
+      - id: 2876
+        quantity: 2
+      - id: 16673
+        quantity: 2000
+      - id: 16679
+        quantity: 1000
+      - id: 16680
+        quantity: 750
+      - id: 17317
+        quantity: 50
+      - id: 30303
+        quantity: 25
+      - id: 30304
+        quantity: 7
+      - id: 30305
+        quantity: 15
+      - id: 30306
+        quantity: 7
+      - id: 30307
+        quantity: 7
+      - id: 30308
+        quantity: 5
+      - id: 30309
+        quantity: 750
+      - id: 30310
+        quantity: 500
+      - id: 30311
+        quantity: 350
+      - id: 33361
+        quantity: 750
+      - id: 57457
+        quantity: 100
+      products:
+      - id: 57477
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 11451
+        : 5
+        ? id: 11453
+        : 5
+        ? id: 11455
+        : 5
+        ? id: 22242
+        : 1
+      time: 16000
+    maxCopyRuns: 40
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57515:
+    copying:
+      time: 1440
+    id: 57515
+    manufacturing:
+      materials:
+      - id: 2393
+        quantity: 80
+      - id: 2395
+        quantity: 40
+      - id: 57457
+        quantity: 10
+      products:
+      - id: 57478
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 1800
+    maxCopyRuns: 200
+    research_material:
+      time: 700
+    research_time:
+      time: 700
+    seeded: true
+  57516:
+    copying:
+      time: 6400
+    id: 57516
+    manufacturing:
+      materials:
+      - id: 2401
+        quantity: 100
+      - id: 3645
+        quantity: 2500
+      - id: 57456
+        quantity: 500
+      - id: 57457
+        quantity: 500
+      products:
+      - id: 57479
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 3402
+        : 5
+      time: 8000
+    maxCopyRuns: 40
+    research_material:
+      time: 3150
+    research_time:
+      time: 3150
+    seeded: true
+  57517:
+    copying:
+      time: 6400
+    id: 57517
+    manufacturing:
+      materials:
+      - id: 2348
+        quantity: 1000
+      - id: 2361
+        quantity: 350
+      - id: 11399
+        quantity: 1500
+      products:
+      - id: 57480
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 11442
+        : 3
+        ? id: 11529
+        : 1
+      time: 8000
+    maxCopyRuns: 40
+    research_material:
+      time: 3150
+    research_time:
+      time: 3150
+    seeded: true
+  57518:
+    copying:
+      time: 12800
+    id: 57518
+    manufacturing:
+      materials:
+      - id: 2329
+        quantity: 100
+      - id: 57463
+        quantity: 100
+      products:
+      - id: 57481
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 11452
+        : 3
+        ? id: 11529
+        : 1
+      time: 16000
+    maxCopyRuns: 40
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57519:
+    copying:
+      time: 25600
+    id: 57519
+    manufacturing:
+      materials:
+      - id: 57481
+        quantity: 100
+      - id: 57484
+        quantity: 100
+      - id: 57485
+        quantity: 100
+      products:
+      - id: 57482
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 11442
+        : 5
+        ? id: 11529
+        : 3
+      time: 32000
+    maxCopyRuns: 10
+    research_material:
+      time: 12600
+    research_time:
+      time: 12600
+    seeded: true
+  57520:
+    copying:
+      time: 12800
+    id: 57520
+    manufacturing:
+      materials:
+      - id: 57457
+        quantity: 500
+      - id: 57480
+        quantity: 1
+      products:
+      - id: 57483
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 11442
+        : 3
+        ? id: 11452
+        : 5
+      time: 16000
+    maxCopyRuns: 40
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57521:
+    copying:
+      time: 12800
+    id: 57521
+    manufacturing:
+      materials:
+      - id: 2463
+        quantity: 100
+      - id: 57464
+        quantity: 100
+      products:
+      - id: 57484
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 11442
+        : 3
+        ? id: 11529
+        : 1
+      time: 16000
+    maxCopyRuns: 40
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57522:
+    copying:
+      time: 12800
+    id: 57522
+    manufacturing:
+      materials:
+      - id: 2319
+        quantity: 100
+      - id: 57465
+        quantity: 100
+      products:
+      - id: 57485
+        probability: 1.0
+        quantity: 20
+      skills:
+        ? id: 3380
+        : 5
+        ? id: 25538
+        : 5
+      time: 16000
+    maxCopyRuns: 40
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57523:
+    copying:
+      time: 1440
+    id: 57523
+    manufacturing:
+      materials:
+      - id: 3645
+        quantity: 150
+      - id: 3683
+        quantity: 200
+      - id: 57457
+        quantity: 10
+      products:
+      - id: 57486
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3380
+        : 1
+      time: 1800
+    maxCopyRuns: 200
+    research_material:
+      time: 700
+    research_time:
+      time: 700
+    seeded: true
+  57524:
+    copying:
+      time: 12800
+    id: 57524
+    manufacturing:
+      materials:
+      - id: 2868
+        quantity: 150
+      - id: 2872
+        quantity: 150
+      - id: 57479
+        quantity: 250
+      products:
+      - id: 57487
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3388
+        : 5
+        ? id: 11443
+        : 5
+        ? id: 11452
+        : 5
+      time: 16000
+    maxCopyRuns: 40
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57525:
+    copying:
+      time: 12800
+    id: 57525
+    manufacturing:
+      materials:
+      - id: 2346
+        quantity: 400
+      - id: 9842
+        quantity: 2000
+      - id: 57450
+        quantity: 1
+      - id: 57458
+        quantity: 20
+      - id: 57482
+        quantity: 20
+      - id: 57483
+        quantity: 1
+      products:
+      - id: 57488
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3388
+        : 5
+        ? id: 11442
+        : 3
+      time: 16000
+    maxCopyRuns: 20
+    research_material:
+      time: 6300
+    research_time:
+      time: 6300
+    seeded: true
+  57526:
+    copying:
+      time: 25600
+    id: 57526
+    manufacturing:
+      materials:
+      - id: 2346
+        quantity: 4000
+      - id: 9842
+        quantity: 20000
+      - id: 57442
+        quantity: 10
+      - id: 57444
+        quantity: 10
+      - id: 57449
+        quantity: 25
+      - id: 57451
+        quantity: 10
+      - id: 57458
+        quantity: 200
+      - id: 57482
+        quantity: 200
+      - id: 57483
+        quantity: 10
+      products:
+      - id: 57489
+        probability: 1.0
+        quantity: 1
+      skills:
+        ? id: 3388
+        : 5
+        ? id: 11442
+        : 5
+        ? id: 11452
+        : 5
+        ? id: 11453
+        : 5
+        ? id: 11529
+        : 5
+      time: 32000
+    maxCopyRuns: 40
+    research_material:
+      time: 12600
+    research_time:
+      time: 12600
+    seeded: true

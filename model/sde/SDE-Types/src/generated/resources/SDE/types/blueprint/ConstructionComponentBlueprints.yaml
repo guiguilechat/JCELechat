@@ -10,6 +10,24 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Auto-Integrity Preservation Seal Blueprint:
+    id: 57515
+    marketGroup: 2770
+    name: Auto-Integrity Preservation Seal Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E8
+    published: true
+    volume: 0.009999999776482582
+  Core Temperature Regulator Blueprint:
+    id: 57516
+    marketGroup: 2770
+    name: Core Temperature Regulator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E8
+    published: true
+    volume: 0.009999999776482582
   Crystalline Carbonide Armor Plate Blueprint:
     id: 17323
     industryblueprintrank: 1.0
@@ -87,6 +105,51 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  G-O Trigger Neurolink Conduit Blueprint:
+    id: 57510
+    marketGroup: 1595
+    name: G-O Trigger Neurolink Conduit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.0E7
+    published: true
+    volume: 0.009999999776482582
+  Genetic Lock Preserver Blueprint:
+    id: 57518
+    marketGroup: 2770
+    name: Genetic Lock Preserver Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
+    published: true
+    volume: 0.009999999776482582
+  Genetic Mutation Inhibiter Blueprint:
+    id: 57522
+    marketGroup: 2770
+    name: Genetic Mutation Inhibiter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
+    published: true
+    volume: 0.009999999776482582
+  Genetic Safeguard Filter Blueprint:
+    id: 57519
+    marketGroup: 2770
+    name: Genetic Safeguard Filter Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E9
+    published: true
+    volume: 0.009999999776482582
+  Genetic Structure Repairer Blueprint:
+    id: 57521
+    marketGroup: 2770
+    name: Genetic Structure Repairer Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
+    published: true
+    volume: 0.009999999776482582
   Gravimetric Sensor Cluster Blueprint:
     id: 17340
     industryblueprintrank: 1.0
@@ -153,6 +216,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Life Support Backup Unit Blueprint:
+    id: 57523
+    marketGroup: 2770
+    name: Life Support Backup Unit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E8
+    published: true
+    volume: 0.009999999776482582
   Linear Shield Emitter Blueprint:
     id: 17359
     industryblueprintrank: 1.0
@@ -207,6 +279,15 @@ types:
     price: 5000000.0
     published: true
     radius: 1.0
+    volume: 0.009999999776482582
+  Neurolink Enhancer Reservoir Blueprint:
+    id: 57520
+    marketGroup: 2770
+    name: Neurolink Enhancer Reservoir Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
+    published: true
     volume: 0.009999999776482582
   Nuclear Pulse Generator Blueprint:
     id: 17326
@@ -285,6 +366,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Programmable Purification Membrane Blueprint:
+    id: 57517
+    marketGroup: 2770
+    name: Programmable Purification Membrane Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 7.5E8
+    published: true
+    volume: 0.009999999776482582
   Pulse Shield Emitter Blueprint:
     id: 17341
     industryblueprintrank: 1.0
@@ -307,6 +397,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  R-O Trigger Neurolink Conduit Blueprint:
+    id: 57508
+    marketGroup: 1593
+    name: R-O Trigger Neurolink Conduit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.0E7
+    published: true
+    volume: 0.009999999776482582
   Radar Sensor Cluster Blueprint:
     id: 17336
     industryblueprintrank: 1.0
@@ -317,6 +416,15 @@ types:
     price: 5000000.0
     published: true
     radius: 1.0
+    volume: 0.009999999776482582
+  S-R Trigger Neurolink Conduit Blueprint:
+    id: 57509
+    marketGroup: 1594
+    name: S-R Trigger Neurolink Conduit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.0E7
+    published: true
     volume: 0.009999999776482582
   Scalar Capacitor Unit Blueprint:
     id: 17327
@@ -572,4 +680,13 @@ types:
     price: 5000000.0
     published: true
     radius: 1.0
+    volume: 0.009999999776482582
+  U-C Trigger Neurolink Conduit Blueprint:
+    id: 57507
+    marketGroup: 1592
+    name: U-C Trigger Neurolink Conduit Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 4.0E7
+    published: true
     volume: 0.009999999776482582

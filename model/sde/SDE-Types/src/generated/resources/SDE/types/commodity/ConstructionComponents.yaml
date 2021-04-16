@@ -9,6 +9,16 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
+  Auto-Integrity Preservation Seal:
+    id: 57478
+    marketGroup: 2768
+    moonminingamount: 1
+    name: Auto-Integrity Preservation Seal
+    packagedVolume: 45.0
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 45.0
   Capital Singularity Radiation Convertor:
     id: 53288
     marketGroup: 2658
@@ -36,6 +46,16 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Core Temperature Regulator:
+    id: 57479
+    marketGroup: 2768
+    moonminingamount: 1
+    name: Core Temperature Regulator
+    packagedVolume: 1000.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 1000.0
   Crystalline Carbonide Armor Plate:
     id: 11545
     marketGroup: 1888
@@ -106,6 +126,56 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
+  G-O Trigger Neurolink Conduit:
+    id: 57473
+    marketGroup: 1889
+    moonminingamount: 1
+    name: G-O Trigger Neurolink Conduit
+    packagedVolume: 16.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 16.0
+  Genetic Lock Preserver:
+    id: 57481
+    marketGroup: 2768
+    moonminingamount: 1
+    name: Genetic Lock Preserver
+    packagedVolume: 1.0
+    portionSize: 20
+    price: 1500000.0
+    published: true
+    volume: 1.0
+  Genetic Mutation Inhibiter:
+    id: 57485
+    marketGroup: 2768
+    moonminingamount: 1
+    name: Genetic Mutation Inhibiter
+    packagedVolume: 1.0
+    portionSize: 20
+    price: 1500000.0
+    published: true
+    volume: 1.0
+  Genetic Safeguard Filter:
+    id: 57482
+    marketGroup: 2768
+    moonminingamount: 1
+    name: Genetic Safeguard Filter
+    packagedVolume: 1.0
+    portionSize: 20
+    price: 3.0E7
+    published: true
+    volume: 1.0
+  Genetic Structure Repairer:
+    id: 57484
+    marketGroup: 2768
+    moonminingamount: 1
+    name: Genetic Structure Repairer
+    packagedVolume: 1.0
+    portionSize: 20
+    price: 1500000.0
+    published: true
+    volume: 1.0
   Gravimetric Sensor Cluster:
     id: 11534
     marketGroup: 803
@@ -175,6 +245,16 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  Life Support Backup Unit:
+    id: 57486
+    marketGroup: 2768
+    moonminingamount: 1
+    name: Life Support Backup Unit
+    packagedVolume: 100.0
+    portionSize: 1
+    price: 10000.0
+    published: true
+    volume: 100.0
   Linear Shield Emitter:
     id: 11557
     marketGroup: 802
@@ -225,6 +305,16 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
+  Neurolink Enhancer Reservoir:
+    id: 57483
+    marketGroup: 2768
+    moonminingamount: 1
+    name: Neurolink Enhancer Reservoir
+    packagedVolume: 400.0
+    portionSize: 1
+    price: 1.5E7
+    published: true
+    volume: 400.0
   Nuclear Pulse Generator:
     id: 11692
     marketGroup: 1889
@@ -295,6 +385,16 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
+  Programmable Purification Membrane:
+    id: 57480
+    marketGroup: 2768
+    moonminingamount: 1
+    name: Programmable Purification Membrane
+    packagedVolume: 8000.0
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 8000.0
   Pulse Shield Emitter:
     id: 11556
     marketGroup: 1888
@@ -315,6 +415,16 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
+  R-O Trigger Neurolink Conduit:
+    id: 57471
+    marketGroup: 803
+    moonminingamount: 1
+    name: R-O Trigger Neurolink Conduit
+    packagedVolume: 16.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 16.0
   Radar Sensor Cluster:
     id: 11537
     marketGroup: 802
@@ -334,6 +444,16 @@ types:
     portionSize: 1
     published: true
     volume: 1.0
+  S-R Trigger Neurolink Conduit:
+    id: 57472
+    marketGroup: 1888
+    moonminingamount: 1
+    name: S-R Trigger Neurolink Conduit
+    packagedVolume: 16.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 16.0
   Scalar Capacitor Unit:
     id: 11552
     marketGroup: 803
@@ -431,6 +551,16 @@ types:
     published: true
     radius: 1.0
     volume: 1.0
+  U-C Trigger Neurolink Conduit:
+    id: 57470
+    marketGroup: 802
+    moonminingamount: 1
+    name: U-C Trigger Neurolink Conduit
+    packagedVolume: 16.0
+    portionSize: 1
+    price: 500000.0
+    published: true
+    volume: 16.0
   Zero-Point Field Manipulator:
     id: 52312
     marketGroup: 2658

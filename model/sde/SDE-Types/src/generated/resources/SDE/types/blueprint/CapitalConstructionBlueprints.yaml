@@ -73,6 +73,15 @@ types:
     published: true
     radius: 1.0
     volume: 0.009999999776482582
+  Capital Core Temperature Regulator Blueprint:
+    id: 57524
+    marketGroup: 796
+    name: Capital Core Temperature Regulator Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
+    published: true
+    volume: 0.009999999776482582
   Capital Corporate Hangar Bay Blueprint:
     id: 24561
     industryblueprintrank: 60.0
@@ -230,5 +239,23 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.393368064E9
+    published: true
+    volume: 0.009999999776482582
+  Enhanced Neurolink Protection Cell Blueprint:
+    id: 57526
+    marketGroup: 796
+    name: Enhanced Neurolink Protection Cell Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 3.0E9
+    published: true
+    volume: 0.009999999776482582
+  Neurolink Protection Cell Blueprint:
+    id: 57525
+    marketGroup: 796
+    name: Neurolink Protection Cell Blueprint
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.5E9
     published: true
     volume: 0.009999999776482582

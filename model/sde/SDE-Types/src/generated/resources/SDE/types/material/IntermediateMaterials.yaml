@@ -10,6 +10,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.20000000298023224
+  Carbon Fiber:
+    id: 57453
+    marketGroup: 500
+    moonminingamount: 1
+    name: Carbon Fiber
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 100000.0
+    published: true
+    volume: 0.20000000298023224
   Carbon Polymers:
     id: 16659
     marketGroup: 500
@@ -120,6 +130,16 @@ types:
     published: true
     radius: 1.0
     volume: 0.20000000298023224
+  Oxy-Organic Solvents:
+    id: 57454
+    marketGroup: 500
+    moonminingamount: 1
+    name: Oxy-Organic Solvents
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    price: 250000.0
+    published: true
+    volume: 0.10000000149011612
   Platinum Technite:
     id: 16662
     marketGroup: 500
@@ -196,6 +216,16 @@ types:
     price: 8.0
     published: true
     radius: 1.0
+    volume: 0.20000000298023224
+  Thermosetting Polymer:
+    id: 57455
+    marketGroup: 500
+    moonminingamount: 1
+    name: Thermosetting Polymer
+    packagedVolume: 0.20000000298023224
+    portionSize: 1
+    price: 100000.0
+    published: true
     volume: 0.20000000298023224
   Thulium Hafnite:
     id: 33336

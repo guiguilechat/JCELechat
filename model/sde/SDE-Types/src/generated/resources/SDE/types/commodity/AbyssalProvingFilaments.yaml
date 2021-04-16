@@ -1,8 +1,8 @@
 types:
-  Event 22 Proving Filament:
+  2v2 Navy Frigates Proving Filament:
     id: 57370
     marketGroup: 2747
-    name: Event 22 Proving Filament
+    name: 2v2 Navy Frigates Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0
@@ -17,10 +17,10 @@ types:
     price: 10000.0
     published: true
     volume: 0.10000000149011612
-  Hunt 3v3 Destroyers Proving Filament:
-    id: 57369
+  Event 24 Proving Filament:
+    id: 57373
     marketGroup: 2747
-    name: Hunt 3v3 Destroyers Proving Filament
+    name: Event 24 Proving Filament
     packagedVolume: 0.10000000149011612
     portionSize: 1
     price: 10000.0

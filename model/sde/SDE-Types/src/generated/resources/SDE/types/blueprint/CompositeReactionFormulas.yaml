@@ -8,6 +8,15 @@ types:
     price: 1.0E7
     published: true
     volume: 0.009999999776482582
+  Carbon Fiber Reaction Formula:
+    id: 57490
+    marketGroup: 2403
+    name: Carbon Fiber Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
   Carbon Polymers Reaction Formula:
     id: 46167
     marketGroup: 2403
@@ -170,6 +179,15 @@ types:
     price: 2.0E7
     published: true
     volume: 0.009999999776482582
+  Oxy-Organic Solvents Reaction Formula:
+    id: 57491
+    marketGroup: 2403
+    name: Oxy-Organic Solvents Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
   Phenolic Composites Reaction Formula:
     id: 46210
     marketGroup: 2403
@@ -206,6 +224,15 @@ types:
     price: 1.0E7
     published: true
     volume: 0.009999999776482582
+  Pressurized Oxidizers Reaction Formula:
+    id: 57492
+    marketGroup: 2403
+    name: Pressurized Oxidizers Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E7
+    published: true
+    volume: 0.009999999776482582
   Promethium Mercurite Reaction Formula:
     id: 46186
     marketGroup: 2403
@@ -222,6 +249,15 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 1.0E7
+    published: true
+    volume: 0.009999999776482582
+  Reinforced Carbon Fiber Reaction Formula:
+    id: 57493
+    marketGroup: 2403
+    name: Reinforced Carbon Fiber Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 2.0E7
     published: true
     volume: 0.009999999776482582
   Rolled Tungsten Alloy Reaction Formula:
@@ -276,6 +312,15 @@ types:
     packagedVolume: 0.009999999776482582
     portionSize: 1
     price: 2.0E7
+    published: true
+    volume: 0.009999999776482582
+  Thermosetting Polymer Reaction Formula:
+    id: 57494
+    marketGroup: 2403
+    name: Thermosetting Polymer Reaction Formula
+    packagedVolume: 0.009999999776482582
+    portionSize: 1
+    price: 1.0E7
     published: true
     volume: 0.009999999776482582
   Thulium Hafnite Reaction Formula:

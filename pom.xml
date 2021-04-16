@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.guiguilechat</groupId>
 	<artifactId>JCELechat</artifactId>
-	<version>6.1.15</version>
+	<version>6.1.16</version>
 	<prerequisites>
 		<maven>3.0</maven>
 	</prerequisites>
@@ -44,7 +44,7 @@
 	</distributionManagement>
 
 	<properties>
-		<java.version>13</java.version>
+		<java.version>15</java.version>
 		<!-- this is used by the java compiler plugin -->
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>

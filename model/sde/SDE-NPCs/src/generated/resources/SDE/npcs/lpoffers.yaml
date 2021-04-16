@@ -27134,18 +27134,16 @@ offers:
         quantity: 4
       - id: 54971
         quantity: 6
-      - id: 39
-        quantity: 16
+      - id: 36
+        quantity: 9
       - id: 54972
         quantity: 24
       - id: 48112
-        quantity: 142
+        quantity: 450
       - id: 35
-        quantity: 592
-      - id: 36
-        quantity: 684
+        quantity: 3158
       - id: 34
-        quantity: 10916
+        quantity: 3556
       lp: 200
   16465:
     bpid: 54852
@@ -27162,24 +27160,24 @@ offers:
         quantity: 80
       - id: 55831
         quantity: 80
+      - id: 38
+        quantity: 6
       - id: 54970
         quantity: 6
       - id: 54971
         quantity: 10
       - id: 37
-        quantity: 12
+        quantity: 44
       - id: 54972
         quantity: 46
-      - id: 38
-        quantity: 108
       - id: 48112
-        quantity: 265
-      - id: 35
-        quantity: 17886
+        quantity: 660
       - id: 36
-        quantity: 21594
+        quantity: 9827
+      - id: 35
+        quantity: 10786
       - id: 34
-        quantity: 54798
+        quantity: 19089
       lp: 300
   16466:
     bpid: 54857
@@ -27203,19 +27201,19 @@ offers:
       - id: 54972
         quantity: 82
       - id: 40
-        quantity: 260
+        quantity: 126
       - id: 48112
-        quantity: 440
+        quantity: 940
       - id: 38
-        quantity: 3288
+        quantity: 1234
       - id: 37
-        quantity: 21200
+        quantity: 19951
       - id: 36
-        quantity: 77976
+        quantity: 42197
       - id: 35
-        quantity: 233712
+        quantity: 117839
       - id: 34
-        quantity: 911040
+        quantity: 328307
       lp: 400
   16467:
     bpid: 54848
@@ -27297,7 +27295,7 @@ offers:
       - id: 54745
         quantity: 1
       - id: 54970
-        quantity: 8
+        quantity: 6
       lp: 300
   16471:
     bpid: 54854
@@ -27317,7 +27315,7 @@ offers:
       - id: 54745
         quantity: 1
       - id: 54970
-        quantity: 8
+        quantity: 6
       lp: 300
   16472:
     bpid: 54856
@@ -27361,7 +27359,7 @@ offers:
       - id: 54750
         quantity: 1
       - id: 54970
-        quantity: 14
+        quantity: 12
       lp: 400
   16474:
     bpid: 54859
@@ -27381,7 +27379,7 @@ offers:
       - id: 54750
         quantity: 1
       - id: 54970
-        quantity: 14
+        quantity: 12
       lp: 400
   16475:
     bpid: 54846
@@ -27425,7 +27423,7 @@ offers:
       - id: 54973
         quantity: 1
       - id: 54970
-        quantity: 10
+        quantity: 5
       lp: 50
   16477:
     bpid: 54873
@@ -27442,16 +27440,16 @@ offers:
         quantity: 35
       - id: 55831
         quantity: 35
-      - id: 54970
+      - id: 37
         quantity: 2
-      - id: 54971
+      - id: 40
+        quantity: 2
+      - id: 39
         quantity: 6
-      - id: 54972
-        quantity: 20
-      - id: 35
-        quantity: 1459
+      - id: 36
+        quantity: 318
       - id: 34
-        quantity: 8050
+        quantity: 676
       lp: 200
   16478:
     bpid: 54861
@@ -27470,14 +27468,14 @@ offers:
         quantity: 40
       - id: 54970
         quantity: 10
-      - id: 38
-        quantity: 40
+      - id: 48112
+        quantity: 20
       - id: 54972
         quantity: 60
       - id: 35
-        quantity: 680
+        quantity: 100
       - id: 34
-        quantity: 8160
+        quantity: 200
   16479:
     bpid: 54862
     bpruns: 10
@@ -27495,14 +27493,14 @@ offers:
         quantity: 40
       - id: 54970
         quantity: 10
-      - id: 38
-        quantity: 40
+      - id: 48112
+        quantity: 20
       - id: 54972
         quantity: 60
       - id: 35
-        quantity: 680
+        quantity: 100
       - id: 34
-        quantity: 8160
+        quantity: 200
   16480:
     bpid: 54863
     bpruns: 10
@@ -27520,14 +27518,14 @@ offers:
         quantity: 40
       - id: 54970
         quantity: 10
-      - id: 38
-        quantity: 40
+      - id: 48112
+        quantity: 20
       - id: 54972
         quantity: 60
       - id: 35
-        quantity: 680
+        quantity: 100
       - id: 34
-        quantity: 8160
+        quantity: 200
   16481:
     bpid: 54864
     bpruns: 10
@@ -27545,14 +27543,14 @@ offers:
         quantity: 40
       - id: 54970
         quantity: 10
-      - id: 38
-        quantity: 40
+      - id: 48112
+        quantity: 20
       - id: 54972
         quantity: 60
       - id: 35
-        quantity: 680
+        quantity: 100
       - id: 34
-        quantity: 8160
+        quantity: 200
   16482:
     bpid: 54865
     bpruns: 10
@@ -27570,14 +27568,14 @@ offers:
         quantity: 80
       - id: 54970
         quantity: 20
+      - id: 48112
+        quantity: 40
       - id: 54972
-        quantity: 80
-      - id: 36
-        quantity: 420
+        quantity: 120
       - id: 35
-        quantity: 25020
+        quantity: 200
       - id: 34
-        quantity: 26940
+        quantity: 400
   16483:
     bpid: 54866
     bpruns: 10
@@ -27595,14 +27593,14 @@ offers:
         quantity: 80
       - id: 54970
         quantity: 20
+      - id: 48112
+        quantity: 40
       - id: 54972
-        quantity: 80
-      - id: 36
-        quantity: 420
+        quantity: 120
       - id: 35
-        quantity: 25020
+        quantity: 200
       - id: 34
-        quantity: 26940
+        quantity: 400
   16484:
     bpid: 54867
     bpruns: 10
@@ -27620,14 +27618,14 @@ offers:
         quantity: 80
       - id: 54970
         quantity: 20
+      - id: 48112
+        quantity: 40
       - id: 54972
-        quantity: 80
-      - id: 36
-        quantity: 420
+        quantity: 120
       - id: 35
-        quantity: 25020
+        quantity: 200
       - id: 34
-        quantity: 26940
+        quantity: 400
   16485:
     bpid: 54868
     bpruns: 10
@@ -27645,14 +27643,14 @@ offers:
         quantity: 80
       - id: 54970
         quantity: 20
+      - id: 48112
+        quantity: 40
       - id: 54972
-        quantity: 80
-      - id: 36
-        quantity: 420
+        quantity: 120
       - id: 35
-        quantity: 25020
+        quantity: 200
       - id: 34
-        quantity: 26940
+        quantity: 400
   16486:
     bpid: 54869
     bpruns: 10
@@ -27670,16 +27668,14 @@ offers:
         quantity: 160
       - id: 54970
         quantity: 40
+      - id: 48112
+        quantity: 60
       - id: 54972
-        quantity: 140
-      - id: 37
-        quantity: 2320
-      - id: 36
-        quantity: 7120
+        quantity: 160
       - id: 35
-        quantity: 10160
+        quantity: 400
       - id: 34
-        quantity: 142240
+        quantity: 800
   16487:
     bpid: 54870
     bpruns: 10
@@ -27697,16 +27693,14 @@ offers:
         quantity: 160
       - id: 54970
         quantity: 40
+      - id: 48112
+        quantity: 60
       - id: 54972
-        quantity: 140
-      - id: 37
-        quantity: 2320
-      - id: 36
-        quantity: 7120
+        quantity: 160
       - id: 35
-        quantity: 10160
+        quantity: 400
       - id: 34
-        quantity: 142240
+        quantity: 800
   16488:
     bpid: 54871
     bpruns: 10
@@ -27724,16 +27718,14 @@ offers:
         quantity: 160
       - id: 54970
         quantity: 40
+      - id: 48112
+        quantity: 60
       - id: 54972
-        quantity: 140
-      - id: 37
-        quantity: 2320
-      - id: 36
-        quantity: 7120
+        quantity: 160
       - id: 35
-        quantity: 10160
+        quantity: 400
       - id: 34
-        quantity: 142240
+        quantity: 800
   16489:
     bpid: 54872
     bpruns: 10
@@ -27751,16 +27743,14 @@ offers:
         quantity: 160
       - id: 54970
         quantity: 40
+      - id: 48112
+        quantity: 60
       - id: 54972
-        quantity: 140
-      - id: 37
-        quantity: 2320
-      - id: 36
-        quantity: 7120
+        quantity: 160
       - id: 35
-        quantity: 10160
+        quantity: 400
       - id: 34
-        quantity: 142240
+        quantity: 800
   16490:
     id: 16490
     name: Small Vorton Specialization

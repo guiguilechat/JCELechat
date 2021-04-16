@@ -188,6 +188,7 @@ public class CacheTranslator {
 			break;
 		default:
 			cacheKeyType = makeKeyParam(cacheParams);
+			makeCacheKeyRecord();
 			cacheContainer = cacheGroup.field(JMod.PRIVATE | JMod.FINAL,
 					cm.ref(Map.class).narrow(cacheKeyType).narrow(cacheRetType), operation.getOperationId() + "_holder")
 					.init(JExpr._new(cm.ref(HashMap.class).narrowEmpty()));
@@ -227,6 +228,11 @@ public class CacheTranslator {
 				.getCacheKeyClass(cacheParams2.stream().collect(Collectors.toMap(JVar::name, JVar::type)));
 		ret.javadoc().append("@see " + parent.path + "\n");
 		return ret;
+	}
+
+	private JDefinedClass makeCacheKeyRecord() {
+		// TODO generate
+		return null;
 	}
 
 	/**

@@ -4873,6 +4873,51 @@ types:
     portionSize: 1
     published: true
     volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - Amarr:
+    exporttaxmultiplier: 1
+    id: 57824
+    importtaxmultiplier: 1
+    name: YC123.4 Serenity Season Medal - Amarr
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - Caldari:
+    exporttaxmultiplier: 1
+    id: 57825
+    importtaxmultiplier: 1
+    name: YC123.4 Serenity Season Medal - Caldari
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - Gallente:
+    exporttaxmultiplier: 1
+    id: 57826
+    importtaxmultiplier: 1
+    name: YC123.4 Serenity Season Medal - Gallente
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - Minmatar:
+    exporttaxmultiplier: 1
+    id: 57827
+    importtaxmultiplier: 1
+    name: YC123.4 Serenity Season Medal - Minmatar
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
+  YC123.4 Serenity Season Medal - New Eden:
+    exporttaxmultiplier: 1
+    id: 57828
+    importtaxmultiplier: 1
+    name: YC123.4 Serenity Season Medal - New Eden
+    packagedVolume: 0.10000000149011612
+    portionSize: 1
+    published: true
+    volume: 0.10000000149011612
   Z-Axis Calibration Coordinate:
     exporttaxmultiplier: 1
     id: 34383
