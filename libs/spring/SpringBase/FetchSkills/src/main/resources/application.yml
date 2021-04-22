@@ -1,0 +1,22 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          esi:
+            clientId: #### your ESI dev id
+            clientSecret : #### your ESI dev secret
+            # is required in the registration, can't be set in the provider :/ 
+            authorization-grant-type: authorization_code
+            #should be the same as your "callback url"
+            redirect-uri: '{baseUrl}/{action}/oauth2/code/{registrationId}'
+            # example     http://MYSERVER.COM/APPPATH/login/oauth2/code/esi
+        provider:
+          esi:
+            authorization-uri: https://login.eveonline.com/v2/oauth/authorize/
+            token-uri: https://login.eveonline.com/v2/oauth/token
+            user-info-uri: https://login.eveonline.com/oauth/verify
+            user-name-attribute: CharacterName
+            jwk-set-uri: https://login.eveonline.com/oauth/jwks
+            
+             

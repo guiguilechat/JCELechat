@@ -63,6 +63,7 @@ public class ConvertNameId {
 				+ "Fourier Compact Tracking Enhancer\n"
 				+ "Gardan's Private Key\n"
 				+ "Gistii A-Type Small Shield Booster\n"
+				+ "Gistum B-Type Kinetic Shield Amplifier\n"
 				+ "Gistum B-Type Medium Remote Shield Booster\n"
 				+ "Gistum B-Type Medium Shield Booster\n"
 				+ "Gistum B-Type Thermal Shield Amplifier\n"
