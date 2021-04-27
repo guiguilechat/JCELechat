@@ -29,6 +29,7 @@ public class ConvertNameId {
 				+ "5th Tier Overseer's Personal Effects\n"
 				+ "650mm Medium Carbine Howitzer I\n"
 				+ "650mm Medium Gallium Cannon\n"
+				+ "720mm Carbine Howitzer I\n"
 				+ "75mm Carbide Railgun I\n"
 				+ "7th Tier Overseer's Personal Effects\n"
 				+ "8th Tier Overseer's Personal Effects\n"
