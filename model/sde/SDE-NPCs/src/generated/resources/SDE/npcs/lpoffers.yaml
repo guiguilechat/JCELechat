@@ -10636,19 +10636,25 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 23333
+        quantity: 32000
       - id: 35
-        quantity: 9444
+        quantity: 6000
       - id: 36
-        quantity: 3222
+        quantity: 2500
       - id: 37
-        quantity: 600
+        quantity: 500
       - id: 38
-        quantity: 2
+        quantity: 30
       - id: 39
-        quantity: 4
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57470
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 30000
   4291:
     bpid: 17704
@@ -10671,19 +10677,25 @@ offers:
       - id: 17743
         quantity: 1
       - id: 34
-        quantity: 23333
+        quantity: 32000
       - id: 35
-        quantity: 9444
+        quantity: 6000
       - id: 36
-        quantity: 3222
+        quantity: 2500
       - id: 37
-        quantity: 600
+        quantity: 500
       - id: 38
-        quantity: 2
+        quantity: 30
       - id: 39
-        quantity: 4
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57470
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 50000
   4292:
     bpid: 17710
@@ -10697,19 +10709,25 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 611111
+        quantity: 540000
       - id: 35
-        quantity: 155556
+        quantity: 180000
       - id: 36
-        quantity: 51111
+        quantity: 36000
       - id: 37
-        quantity: 10556
+        quantity: 10000
       - id: 38
-        quantity: 2556
+        quantity: 1500
       - id: 39
-        quantity: 1112
+        quantity: 1000
       - id: 40
-        quantity: 278
+        quantity: 500
+      - id: 57470
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 100000
   4293:
     bpid: 17710
@@ -10732,19 +10750,25 @@ offers:
       - id: 18657
         quantity: 1
       - id: 34
-        quantity: 611111
+        quantity: 540000
       - id: 35
-        quantity: 155556
+        quantity: 180000
       - id: 36
-        quantity: 51111
+        quantity: 36000
       - id: 37
-        quantity: 10556
+        quantity: 10000
       - id: 38
-        quantity: 2556
+        quantity: 1500
       - id: 39
-        quantity: 1112
+        quantity: 1000
       - id: 40
-        quantity: 278
+        quantity: 500
+      - id: 57470
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 150000
   4294:
     bpid: 17727
@@ -10758,19 +10782,27 @@ offers:
       isk: 200000000
       items:
       - id: 34
-        quantity: 10608662
+        quantity: 8000000
       - id: 35
-        quantity: 2652666
+        quantity: 4000000
       - id: 36
-        quantity: 664446
+        quantity: 600000
       - id: 37
-        quantity: 165917
+        quantity: 400000
       - id: 38
-        quantity: 41437
+        quantity: 30000
       - id: 39
-        quantity: 19804
+        quantity: 8000
       - id: 40
-        quantity: 5446
+        quantity: 4000
+      - id: 57470
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 500000
   4295:
     bpid: 17727
@@ -10793,19 +10825,27 @@ offers:
       - id: 17299
         quantity: 1
       - id: 34
-        quantity: 10608662
+        quantity: 8000000
       - id: 35
-        quantity: 2652666
+        quantity: 4000000
       - id: 36
-        quantity: 664446
+        quantity: 600000
       - id: 37
-        quantity: 165917
+        quantity: 400000
       - id: 38
-        quantity: 41437
+        quantity: 30000
       - id: 39
-        quantity: 19804
+        quantity: 8000
       - id: 40
-        quantity: 5446
+        quantity: 4000
+      - id: 57470
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 500000
   4296:
     bpid: 15805
@@ -11115,19 +11155,25 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 21111
+        quantity: 32000
       - id: 35
-        quantity: 9667
+        quantity: 6000
       - id: 36
-        quantity: 3333
+        quantity: 2500
       - id: 37
-        quantity: 611
+        quantity: 500
       - id: 38
-        quantity: 2
+        quantity: 30
       - id: 39
-        quantity: 12
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57471
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 30000
   4314:
     bpid: 17620
@@ -11150,19 +11196,25 @@ offers:
       - id: 18655
         quantity: 1
       - id: 34
-        quantity: 21111
+        quantity: 32000
       - id: 35
-        quantity: 9667
+        quantity: 6000
       - id: 36
-        quantity: 3333
+        quantity: 2500
       - id: 37
-        quantity: 611
+        quantity: 500
       - id: 38
-        quantity: 2
+        quantity: 30
       - id: 39
-        quantity: 12
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57471
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 50000
   4315:
     bpid: 17635
@@ -11176,19 +11228,25 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 622222
+        quantity: 540000
       - id: 35
-        quantity: 155556
+        quantity: 180000
       - id: 36
-        quantity: 46667
+        quantity: 36000
       - id: 37
         quantity: 10000
       - id: 38
-        quantity: 2778
+        quantity: 1500
       - id: 39
-        quantity: 1222
+        quantity: 1000
       - id: 40
-        quantity: 356
+        quantity: 500
+      - id: 57471
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 100000
   4316:
     bpid: 17635
@@ -11211,19 +11269,25 @@ offers:
       - id: 17630
         quantity: 1
       - id: 34
-        quantity: 622222
+        quantity: 540000
       - id: 35
-        quantity: 155556
+        quantity: 180000
       - id: 36
-        quantity: 46667
+        quantity: 36000
       - id: 37
         quantity: 10000
       - id: 38
-        quantity: 2778
+        quantity: 1500
       - id: 39
-        quantity: 1222
+        quantity: 1000
       - id: 40
-        quantity: 356
+        quantity: 500
+      - id: 57471
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 150000
   4317:
     bpid: 17637
@@ -11237,19 +11301,27 @@ offers:
       isk: 200000000
       items:
       - id: 34
-        quantity: 10608667
+        quantity: 8000000
       - id: 35
-        quantity: 2652667
+        quantity: 4000000
       - id: 36
-        quantity: 664444
+        quantity: 600000
       - id: 37
-        quantity: 165911
+        quantity: 400000
       - id: 38
-        quantity: 41422
+        quantity: 30000
       - id: 39
-        quantity: 19756
+        quantity: 8000
       - id: 40
-        quantity: 6288
+        quantity: 4000
+      - id: 57471
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 500000
   4318:
     bpid: 17637
@@ -11272,19 +11344,27 @@ offers:
       - id: 17639
         quantity: 1
       - id: 34
-        quantity: 10608667
+        quantity: 8000000
       - id: 35
-        quantity: 2652667
+        quantity: 4000000
       - id: 36
-        quantity: 664444
+        quantity: 600000
       - id: 37
-        quantity: 165911
+        quantity: 400000
       - id: 38
-        quantity: 41422
+        quantity: 30000
       - id: 39
-        quantity: 19756
+        quantity: 8000
       - id: 40
-        quantity: 6288
+        quantity: 4000
+      - id: 57471
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 500000
   4319:
     bpid: 15822
@@ -11566,19 +11646,25 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 24444
+        quantity: 32000
       - id: 35
-        quantity: 6444
+        quantity: 6000
       - id: 36
-        quantity: 3000
+        quantity: 2500
       - id: 37
-        quantity: 433
+        quantity: 500
       - id: 38
-        quantity: 83
+        quantity: 30
       - id: 39
-        quantity: 22
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 30000
   4336:
     bpid: 17842
@@ -11601,19 +11687,25 @@ offers:
       - id: 17272
         quantity: 1
       - id: 34
-        quantity: 24444
+        quantity: 32000
       - id: 35
-        quantity: 6444
+        quantity: 6000
       - id: 36
-        quantity: 3000
+        quantity: 2500
       - id: 37
-        quantity: 433
+        quantity: 500
       - id: 38
-        quantity: 83
+        quantity: 30
       - id: 39
-        quantity: 22
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 50000
   4337:
     bpid: 17844
@@ -11627,19 +11719,25 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 611111
+        quantity: 540000
       - id: 35
-        quantity: 188889
+        quantity: 180000
       - id: 36
-        quantity: 50000
+        quantity: 36000
       - id: 37
-        quantity: 9222
+        quantity: 10000
       - id: 38
-        quantity: 2333
+        quantity: 1500
       - id: 39
-        quantity: 1266
+        quantity: 1000
       - id: 40
-        quantity: 288
+        quantity: 500
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 100000
   4338:
     bpid: 17844
@@ -11662,19 +11760,25 @@ offers:
       - id: 17293
         quantity: 1
       - id: 34
-        quantity: 611111
+        quantity: 540000
       - id: 35
-        quantity: 188889
+        quantity: 180000
       - id: 36
-        quantity: 50000
+        quantity: 36000
       - id: 37
-        quantity: 9222
+        quantity: 10000
       - id: 38
-        quantity: 2333
+        quantity: 1500
       - id: 39
-        quantity: 1266
+        quantity: 1000
       - id: 40
-        quantity: 288
+        quantity: 500
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 150000
   4339:
     bpid: 17729
@@ -11688,19 +11792,27 @@ offers:
       isk: 200000000
       items:
       - id: 34
-        quantity: 10549436
+        quantity: 8000000
       - id: 35
-        quantity: 2693564
+        quantity: 4000000
       - id: 36
-        quantity: 660828
+        quantity: 600000
       - id: 37
-        quantity: 164992
+        quantity: 400000
       - id: 38
-        quantity: 41198
+        quantity: 30000
       - id: 39
-        quantity: 19622
+        quantity: 8000
       - id: 40
-        quantity: 6202
+        quantity: 4000
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 500000
   4340:
     bpid: 17729
@@ -11721,19 +11833,27 @@ offers:
       - id: 17291
         quantity: 1
       - id: 34
-        quantity: 10549436
+        quantity: 8000000
       - id: 35
-        quantity: 2693564
+        quantity: 4000000
       - id: 36
-        quantity: 660828
+        quantity: 600000
       - id: 37
-        quantity: 164992
+        quantity: 400000
       - id: 38
-        quantity: 41198
+        quantity: 30000
       - id: 39
-        quantity: 19622
+        quantity: 8000
       - id: 40
-        quantity: 6202
+        quantity: 4000
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 500000
   4341:
     bpid: 15842
@@ -11933,19 +12053,25 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 22222
+        quantity: 32000
       - id: 35
-        quantity: 9556
+        quantity: 6000
       - id: 36
-        quantity: 3111
+        quantity: 2500
       - id: 37
-        quantity: 633
+        quantity: 500
       - id: 38
-        quantity: 11
+        quantity: 30
       - id: 39
-        quantity: 4
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57473
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 30000
   4354:
     bpid: 17813
@@ -11968,19 +12094,25 @@ offers:
       - id: 17230
         quantity: 1
       - id: 34
-        quantity: 22222
+        quantity: 32000
       - id: 35
-        quantity: 9556
+        quantity: 6000
       - id: 36
-        quantity: 3111
+        quantity: 2500
       - id: 37
-        quantity: 633
+        quantity: 500
       - id: 38
-        quantity: 11
+        quantity: 30
       - id: 39
-        quantity: 4
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57473
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 50000
   4355:
     bpid: 17714
@@ -11994,19 +12126,25 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 622222
+        quantity: 540000
       - id: 35
-        quantity: 177778
+        quantity: 180000
       - id: 36
-        quantity: 47778
+        quantity: 36000
       - id: 37
-        quantity: 9667
+        quantity: 10000
       - id: 38
-        quantity: 2444
+        quantity: 1500
       - id: 39
-        quantity: 1200
+        quantity: 1000
       - id: 40
-        quantity: 356
+        quantity: 500
+      - id: 57473
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 100000
   4356:
     bpid: 17714
@@ -12029,19 +12167,25 @@ offers:
       - id: 17817
         quantity: 1
       - id: 34
-        quantity: 622222
+        quantity: 540000
       - id: 35
-        quantity: 177778
+        quantity: 180000
       - id: 36
-        quantity: 47778
+        quantity: 36000
       - id: 37
-        quantity: 9667
+        quantity: 10000
       - id: 38
-        quantity: 2444
+        quantity: 1500
       - id: 39
-        quantity: 1200
+        quantity: 1000
       - id: 40
-        quantity: 356
+        quantity: 500
+      - id: 57473
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 150000
   4357:
     bpid: 17733
@@ -12055,19 +12199,27 @@ offers:
       isk: 200000000
       items:
       - id: 34
-        quantity: 10549422
+        quantity: 8000000
       - id: 35
-        quantity: 2638010
+        quantity: 4000000
       - id: 36
-        quantity: 661036
+        quantity: 600000
       - id: 37
-        quantity: 165001
+        quantity: 400000
       - id: 38
-        quantity: 41186
+        quantity: 30000
       - id: 39
-        quantity: 19592
+        quantity: 8000
       - id: 40
-        quantity: 6126
+        quantity: 4000
+      - id: 57473
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 500000
   4358:
     bpid: 17733
@@ -12088,19 +12240,27 @@ offers:
       - id: 17305
         quantity: 1
       - id: 34
-        quantity: 10549422
+        quantity: 8000000
       - id: 35
-        quantity: 2638010
+        quantity: 4000000
       - id: 36
-        quantity: 661036
+        quantity: 600000
       - id: 37
-        quantity: 165001
+        quantity: 400000
       - id: 38
-        quantity: 41186
+        quantity: 30000
       - id: 39
-        quantity: 19592
+        quantity: 8000
       - id: 40
-        quantity: 6126
+        quantity: 4000
+      - id: 57473
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 500000
   4359:
     bpid: 17486
@@ -12530,19 +12690,27 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 22804
+        quantity: 38400
       - id: 35
-        quantity: 6143
+        quantity: 7200
       - id: 36
-        quantity: 2046
+        quantity: 3000
       - id: 37
-        quantity: 352
+        quantity: 600
       - id: 38
-        quantity: 131
+        quantity: 36
       - id: 39
-        quantity: 28
+        quantity: 24
       - id: 40
-        quantity: 2
+        quantity: 12
+      - id: 57472
+        quantity: 1
+      - id: 57473
+        quantity: 1
+      - id: 57478
+        quantity: 12
+      - id: 57486
+        quantity: 6
       lp: 20000
   4381:
     bpid: 17721
@@ -12556,19 +12724,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 614356
+        quantity: 648000
       - id: 35
-        quantity: 154233
+        quantity: 216000
       - id: 36
-        quantity: 39907
+        quantity: 43200
       - id: 37
-        quantity: 9687
+        quantity: 12000
       - id: 38
-        quantity: 2387
+        quantity: 1800
       - id: 39
-        quantity: 1202
+        quantity: 1200
       - id: 40
-        quantity: 356
+        quantity: 600
+      - id: 57472
+        quantity: 10
+      - id: 57473
+        quantity: 10
+      - id: 57478
+        quantity: 120
+      - id: 57486
+        quantity: 60
       lp: 80000
   4382:
     bpid: 17739
@@ -12582,19 +12758,29 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 11225438
+        quantity: 9600000
       - id: 35
-        quantity: 2758045
+        quantity: 4800000
       - id: 36
-        quantity: 700827
+        quantity: 720000
       - id: 37
-        quantity: 177765
+        quantity: 480000
       - id: 38
-        quantity: 44184
+        quantity: 36000
       - id: 39
-        quantity: 20828
+        quantity: 9600
       - id: 40
-        quantity: 5811
+        quantity: 4800
+      - id: 57472
+        quantity: 50
+      - id: 57473
+        quantity: 50
+      - id: 57478
+        quantity: 480
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 240
       lp: 400000
   4383:
     bpid: 17927
@@ -12608,17 +12794,27 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 22798
+        quantity: 28800
       - id: 35
-        quantity: 6133
+        quantity: 5400
       - id: 36
-        quantity: 2949
+        quantity: 2250
       - id: 37
-        quantity: 401
+        quantity: 450
       - id: 38
-        quantity: 88
+        quantity: 27
       - id: 39
-        quantity: 34
+        quantity: 18
+      - id: 40
+        quantity: 9
+      - id: 57470
+        quantity: 1
+      - id: 57473
+        quantity: 1
+      - id: 57478
+        quantity: 9
+      - id: 57486
+        quantity: 5
       lp: 20000
   4384:
     bpid: 17923
@@ -12632,19 +12828,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 659871
+        quantity: 648000
       - id: 35
-        quantity: 165622
+        quantity: 216000
       - id: 36
-        quantity: 43364
+        quantity: 43200
       - id: 37
-        quantity: 10397
+        quantity: 12000
       - id: 38
-        quantity: 2562
+        quantity: 1800
       - id: 39
-        quantity: 1280
+        quantity: 1200
       - id: 40
-        quantity: 322
+        quantity: 600
+      - id: 57470
+        quantity: 10
+      - id: 57473
+        quantity: 10
+      - id: 57478
+        quantity: 120
+      - id: 57486
+        quantity: 60
       lp: 80000
   4385:
     bpid: 17921
@@ -12658,19 +12862,29 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 11968215
+        quantity: 9600000
       - id: 35
-        quantity: 3114677
+        quantity: 4800000
       - id: 36
-        quantity: 721723
+        quantity: 720000
       - id: 37
-        quantity: 186459
+        quantity: 480000
       - id: 38
-        quantity: 48828
+        quantity: 36000
       - id: 39
-        quantity: 19710
+        quantity: 9600
       - id: 40
-        quantity: 8226
+        quantity: 4800
+      - id: 57470
+        quantity: 50
+      - id: 57473
+        quantity: 50
+      - id: 57478
+        quantity: 480
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 240
       lp: 400000
   4386:
     bpid: 17931
@@ -12684,19 +12898,27 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 21071
+        quantity: 38400
       - id: 35
-        quantity: 9382
+        quantity: 7200
       - id: 36
-        quantity: 3127
+        quantity: 3000
       - id: 37
-        quantity: 590
+        quantity: 600
       - id: 38
-        quantity: 2
+        quantity: 36
       - id: 39
-        quantity: 4
+        quantity: 24
       - id: 40
-        quantity: 4
+        quantity: 12
+      - id: 57471
+        quantity: 1
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 12
+      - id: 57486
+        quantity: 6
       lp: 20000
   4387:
     bpid: 17716
@@ -12710,19 +12932,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 614356
+        quantity: 648000
       - id: 35
-        quantity: 154233
+        quantity: 216000
       - id: 36
-        quantity: 39907
+        quantity: 43200
       - id: 37
-        quantity: 9687
+        quantity: 12000
       - id: 38
-        quantity: 2387
+        quantity: 1800
       - id: 39
-        quantity: 1202
+        quantity: 1200
       - id: 40
-        quantity: 356
+        quantity: 600
+      - id: 57471
+        quantity: 10
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 120
+      - id: 57486
+        quantity: 60
       lp: 80000
   4388:
     bpid: 17919
@@ -12736,19 +12966,29 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 11278533
+        quantity: 9600000
       - id: 35
-        quantity: 2746133
+        quantity: 4800000
       - id: 36
-        quantity: 669424
+        quantity: 720000
       - id: 37
-        quantity: 165417
+        quantity: 480000
       - id: 38
-        quantity: 41642
+        quantity: 36000
       - id: 39
-        quantity: 20205
+        quantity: 9600
       - id: 40
-        quantity: 6383
+        quantity: 4800
+      - id: 57471
+        quantity: 50
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 480
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 240
       lp: 400000
   4389:
     bpid: 17925
@@ -12762,17 +13002,27 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 22798
+        quantity: 38400
       - id: 35
-        quantity: 6133
+        quantity: 7200
       - id: 36
-        quantity: 2949
+        quantity: 3000
       - id: 37
-        quantity: 401
+        quantity: 600
       - id: 38
-        quantity: 88
+        quantity: 36
       - id: 39
-        quantity: 34
+        quantity: 24
+      - id: 40
+        quantity: 12
+      - id: 57470
+        quantity: 1
+      - id: 57471
+        quantity: 1
+      - id: 57478
+        quantity: 12
+      - id: 57486
+        quantity: 6
       lp: 20000
   4390:
     bpid: 17719
@@ -12786,19 +13036,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 614356
+        quantity: 648000
       - id: 35
-        quantity: 154233
+        quantity: 216000
       - id: 36
-        quantity: 39907
+        quantity: 43200
       - id: 37
-        quantity: 9687
+        quantity: 12000
       - id: 38
-        quantity: 2387
+        quantity: 1800
       - id: 39
-        quantity: 1202
+        quantity: 1200
       - id: 40
-        quantity: 356
+        quantity: 600
+      - id: 57470
+        quantity: 10
+      - id: 57471
+        quantity: 10
+      - id: 57478
+        quantity: 120
+      - id: 57486
+        quantity: 60
       lp: 80000
   4391:
     bpid: 17737
@@ -12812,19 +13070,29 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 11976870
+        quantity: 9600000
       - id: 35
-        quantity: 2824745
+        quantity: 4800000
       - id: 36
-        quantity: 722088
+        quantity: 720000
       - id: 37
-        quantity: 180463
+        quantity: 480000
       - id: 38
-        quantity: 45309
+        quantity: 36000
       - id: 39
-        quantity: 20040
+        quantity: 9600
       - id: 40
-        quantity: 7249
+        quantity: 4800
+      - id: 57470
+        quantity: 50
+      - id: 57471
+        quantity: 50
+      - id: 57478
+        quantity: 480
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 240
       lp: 400000
   4392:
     bpid: 17929
@@ -12838,19 +13106,27 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 23304
+        quantity: 38400
       - id: 35
-        quantity: 6290
+        quantity: 7200
       - id: 36
-        quantity: 2949
+        quantity: 3000
       - id: 37
-        quantity: 398
+        quantity: 600
       - id: 38
-        quantity: 82
+        quantity: 36
       - id: 39
-        quantity: 20
+        quantity: 24
       - id: 40
-        quantity: 2
+        quantity: 12
+      - id: 57472
+        quantity: 1
+      - id: 57473
+        quantity: 1
+      - id: 57478
+        quantity: 12
+      - id: 57486
+        quantity: 6
       lp: 20000
   4393:
     bpid: 17723
@@ -12864,19 +13140,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 614356
+        quantity: 648000
       - id: 35
-        quantity: 154233
+        quantity: 216000
       - id: 36
-        quantity: 39907
+        quantity: 43200
       - id: 37
-        quantity: 9687
+        quantity: 12000
       - id: 38
-        quantity: 2387
+        quantity: 1800
       - id: 39
-        quantity: 1202
+        quantity: 1200
       - id: 40
-        quantity: 356
+        quantity: 600
+      - id: 57472
+        quantity: 10
+      - id: 57473
+        quantity: 10
+      - id: 57478
+        quantity: 120
+      - id: 57486
+        quantity: 60
       lp: 80000
   4394:
     bpid: 17741
@@ -12890,19 +13174,29 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 11716296
+        quantity: 9600000
       - id: 35
-        quantity: 2930004
+        quantity: 4800000
       - id: 36
-        quantity: 733304
+        quantity: 720000
       - id: 37
-        quantity: 186361
+        quantity: 480000
       - id: 38
-        quantity: 45699
+        quantity: 36000
       - id: 39
-        quantity: 21186
+        quantity: 9600
       - id: 40
-        quantity: 6575
+        quantity: 4800
+      - id: 57472
+        quantity: 50
+      - id: 57473
+        quantity: 50
+      - id: 57478
+        quantity: 480
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 240
       lp: 400000
   4396:
     id: 4396
@@ -18695,19 +18989,25 @@ offers:
       - id: 17258
         quantity: 1
       - id: 34
-        quantity: 23333
+        quantity: 32000
       - id: 35
-        quantity: 9444
+        quantity: 6000
       - id: 36
-        quantity: 3222
+        quantity: 2500
       - id: 37
-        quantity: 600
+        quantity: 500
       - id: 38
-        quantity: 2
+        quantity: 30
       - id: 39
-        quantity: 4
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57470
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 10000
   14784:
     bpid: 17704
@@ -18721,19 +19021,25 @@ offers:
       isk: 2000000
       items:
       - id: 34
-        quantity: 23333
+        quantity: 32000
       - id: 35
-        quantity: 9444
+        quantity: 6000
       - id: 36
-        quantity: 3222
+        quantity: 2500
       - id: 37
-        quantity: 600
+        quantity: 500
       - id: 38
-        quantity: 2
+        quantity: 30
       - id: 39
-        quantity: 4
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57470
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 10000
   14785:
     bpid: 17710
@@ -18748,19 +19054,25 @@ offers:
       - id: 17255
         quantity: 1
       - id: 34
-        quantity: 611111
+        quantity: 540000
       - id: 35
-        quantity: 155556
+        quantity: 180000
       - id: 36
-        quantity: 51111
+        quantity: 36000
       - id: 37
-        quantity: 10556
+        quantity: 10000
       - id: 38
-        quantity: 2556
+        quantity: 1500
       - id: 39
-        quantity: 1112
+        quantity: 1000
       - id: 40
-        quantity: 278
+        quantity: 500
+      - id: 57470
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   14786:
     bpid: 17710
@@ -18774,19 +19086,25 @@ offers:
       isk: 5000000
       items:
       - id: 34
-        quantity: 611111
+        quantity: 540000
       - id: 35
-        quantity: 155556
+        quantity: 180000
       - id: 36
-        quantity: 51111
+        quantity: 36000
       - id: 37
-        quantity: 10556
+        quantity: 10000
       - id: 38
-        quantity: 2556
+        quantity: 1500
       - id: 39
-        quantity: 1112
+        quantity: 1000
       - id: 40
-        quantity: 278
+        quantity: 500
+      - id: 57470
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   14787:
     bpid: 17727
@@ -18801,19 +19119,27 @@ offers:
       - id: 17299
         quantity: 1
       - id: 34
-        quantity: 10608662
+        quantity: 8000000
       - id: 35
-        quantity: 2652666
+        quantity: 4000000
       - id: 36
-        quantity: 664446
+        quantity: 600000
       - id: 37
-        quantity: 165917
+        quantity: 400000
       - id: 38
-        quantity: 41437
+        quantity: 30000
       - id: 39
-        quantity: 19804
+        quantity: 8000
       - id: 40
-        quantity: 5446
+        quantity: 4000
+      - id: 57470
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   14788:
     bpid: 17727
@@ -18827,19 +19153,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 10608662
+        quantity: 8000000
       - id: 35
-        quantity: 2652666
+        quantity: 4000000
       - id: 36
-        quantity: 664446
+        quantity: 600000
       - id: 37
-        quantity: 165917
+        quantity: 400000
       - id: 38
-        quantity: 41437
+        quantity: 30000
       - id: 39
-        quantity: 19804
+        quantity: 8000
       - id: 40
-        quantity: 5446
+        quantity: 4000
+      - id: 57470
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   14789:
     id: 14789
@@ -18906,19 +19240,25 @@ offers:
       - id: 17248
         quantity: 1
       - id: 34
-        quantity: 21111
+        quantity: 32000
       - id: 35
-        quantity: 9667
+        quantity: 6000
       - id: 36
-        quantity: 3333
+        quantity: 2500
       - id: 37
-        quantity: 611
+        quantity: 500
       - id: 38
-        quantity: 2
+        quantity: 30
       - id: 39
-        quantity: 12
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57471
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 10000
   14794:
     bpid: 17620
@@ -18932,19 +19272,25 @@ offers:
       isk: 2000000
       items:
       - id: 34
-        quantity: 21111
+        quantity: 32000
       - id: 35
-        quantity: 9667
+        quantity: 6000
       - id: 36
-        quantity: 3333
+        quantity: 2500
       - id: 37
-        quantity: 611
+        quantity: 500
       - id: 38
-        quantity: 2
+        quantity: 30
       - id: 39
-        quantity: 12
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57471
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 10000
   14795:
     bpid: 17635
@@ -18959,19 +19305,25 @@ offers:
       - id: 17244
         quantity: 1
       - id: 34
-        quantity: 622222
+        quantity: 540000
       - id: 35
-        quantity: 155556
+        quantity: 180000
       - id: 36
-        quantity: 46667
+        quantity: 36000
       - id: 37
         quantity: 10000
       - id: 38
-        quantity: 2778
+        quantity: 1500
       - id: 39
-        quantity: 1222
+        quantity: 1000
       - id: 40
-        quantity: 356
+        quantity: 500
+      - id: 57471
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   14796:
     bpid: 17635
@@ -18985,19 +19337,25 @@ offers:
       isk: 5000000
       items:
       - id: 34
-        quantity: 622222
+        quantity: 540000
       - id: 35
-        quantity: 155556
+        quantity: 180000
       - id: 36
-        quantity: 46667
+        quantity: 36000
       - id: 37
         quantity: 10000
       - id: 38
-        quantity: 2778
+        quantity: 1500
       - id: 39
-        quantity: 1222
+        quantity: 1000
       - id: 40
-        quantity: 356
+        quantity: 500
+      - id: 57471
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   14797:
     bpid: 17637
@@ -19012,19 +19370,27 @@ offers:
       - id: 17295
         quantity: 1
       - id: 34
-        quantity: 10608667
+        quantity: 8000000
       - id: 35
-        quantity: 2652667
+        quantity: 4000000
       - id: 36
-        quantity: 664444
+        quantity: 600000
       - id: 37
-        quantity: 165911
+        quantity: 400000
       - id: 38
-        quantity: 41422
+        quantity: 30000
       - id: 39
-        quantity: 19756
+        quantity: 8000
       - id: 40
-        quantity: 6288
+        quantity: 4000
+      - id: 57471
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   14798:
     bpid: 17637
@@ -19038,19 +19404,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 10608667
+        quantity: 8000000
       - id: 35
-        quantity: 2652667
+        quantity: 4000000
       - id: 36
-        quantity: 664444
+        quantity: 600000
       - id: 37
-        quantity: 165911
+        quantity: 400000
       - id: 38
-        quantity: 41422
+        quantity: 30000
       - id: 39
-        quantity: 19756
+        quantity: 8000
       - id: 40
-        quantity: 6288
+        quantity: 4000
+      - id: 57471
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   14799:
     id: 14799
@@ -19117,19 +19491,25 @@ offers:
       - id: 17270
         quantity: 1
       - id: 34
-        quantity: 24444
+        quantity: 32000
       - id: 35
-        quantity: 6444
+        quantity: 6000
       - id: 36
-        quantity: 3000
+        quantity: 2500
       - id: 37
-        quantity: 433
+        quantity: 500
       - id: 38
-        quantity: 83
+        quantity: 30
       - id: 39
-        quantity: 22
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 10000
   14804:
     bpid: 17842
@@ -19143,19 +19523,25 @@ offers:
       isk: 2000000
       items:
       - id: 34
-        quantity: 24444
+        quantity: 32000
       - id: 35
-        quantity: 6444
+        quantity: 6000
       - id: 36
-        quantity: 3000
+        quantity: 2500
       - id: 37
-        quantity: 433
+        quantity: 500
       - id: 38
-        quantity: 83
+        quantity: 30
       - id: 39
-        quantity: 22
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 10000
   14805:
     bpid: 17844
@@ -19170,19 +19556,25 @@ offers:
       - id: 17266
         quantity: 1
       - id: 34
-        quantity: 611111
+        quantity: 540000
       - id: 35
-        quantity: 188889
+        quantity: 180000
       - id: 36
-        quantity: 50000
+        quantity: 36000
       - id: 37
-        quantity: 9222
+        quantity: 10000
       - id: 38
-        quantity: 2333
+        quantity: 1500
       - id: 39
-        quantity: 1266
+        quantity: 1000
       - id: 40
-        quantity: 288
+        quantity: 500
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   14806:
     bpid: 17844
@@ -19196,19 +19588,25 @@ offers:
       isk: 5000000
       items:
       - id: 34
-        quantity: 611111
+        quantity: 540000
       - id: 35
-        quantity: 188889
+        quantity: 180000
       - id: 36
-        quantity: 50000
+        quantity: 36000
       - id: 37
-        quantity: 9222
+        quantity: 10000
       - id: 38
-        quantity: 2333
+        quantity: 1500
       - id: 39
-        quantity: 1266
+        quantity: 1000
       - id: 40
-        quantity: 288
+        quantity: 500
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   14807:
     bpid: 17729
@@ -19223,19 +19621,27 @@ offers:
       - id: 17291
         quantity: 1
       - id: 34
-        quantity: 10549436
+        quantity: 8000000
       - id: 35
-        quantity: 2693564
+        quantity: 4000000
       - id: 36
-        quantity: 660828
+        quantity: 600000
       - id: 37
-        quantity: 164992
+        quantity: 400000
       - id: 38
-        quantity: 41198
+        quantity: 30000
       - id: 39
-        quantity: 19622
+        quantity: 8000
       - id: 40
-        quantity: 6202
+        quantity: 4000
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   14808:
     bpid: 17729
@@ -19249,19 +19655,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 10549436
+        quantity: 8000000
       - id: 35
-        quantity: 2693564
+        quantity: 4000000
       - id: 36
-        quantity: 660828
+        quantity: 600000
       - id: 37
-        quantity: 164992
+        quantity: 400000
       - id: 38
-        quantity: 41198
+        quantity: 30000
       - id: 39
-        quantity: 19622
+        quantity: 8000
       - id: 40
-        quantity: 6202
+        quantity: 4000
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   14809:
     id: 14809
@@ -19328,19 +19742,25 @@ offers:
       - id: 17226
         quantity: 1
       - id: 34
-        quantity: 22222
+        quantity: 32000
       - id: 35
-        quantity: 9556
+        quantity: 6000
       - id: 36
-        quantity: 3111
+        quantity: 2500
       - id: 37
-        quantity: 633
+        quantity: 500
       - id: 38
-        quantity: 11
+        quantity: 30
       - id: 39
-        quantity: 4
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57473
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 10000
   14814:
     bpid: 17813
@@ -19354,19 +19774,25 @@ offers:
       isk: 2000000
       items:
       - id: 34
-        quantity: 22222
+        quantity: 32000
       - id: 35
-        quantity: 9556
+        quantity: 6000
       - id: 36
-        quantity: 3111
+        quantity: 2500
       - id: 37
-        quantity: 633
+        quantity: 500
       - id: 38
-        quantity: 11
+        quantity: 30
       - id: 39
-        quantity: 4
+        quantity: 20
       - id: 40
-        quantity: 4
+        quantity: 10
+      - id: 57473
+        quantity: 1
+      - id: 57478
+        quantity: 10
+      - id: 57486
+        quantity: 5
       lp: 10000
   14815:
     bpid: 17714
@@ -19381,19 +19807,25 @@ offers:
       - id: 17223
         quantity: 1
       - id: 34
-        quantity: 622222
+        quantity: 540000
       - id: 35
-        quantity: 177778
+        quantity: 180000
       - id: 36
-        quantity: 47778
+        quantity: 36000
       - id: 37
-        quantity: 9667
+        quantity: 10000
       - id: 38
-        quantity: 2444
+        quantity: 1500
       - id: 39
-        quantity: 1200
+        quantity: 1000
       - id: 40
-        quantity: 356
+        quantity: 500
+      - id: 57473
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   14816:
     bpid: 17714
@@ -19407,19 +19839,25 @@ offers:
       isk: 5000000
       items:
       - id: 34
-        quantity: 622222
+        quantity: 540000
       - id: 35
-        quantity: 177778
+        quantity: 180000
       - id: 36
-        quantity: 47778
+        quantity: 36000
       - id: 37
-        quantity: 9667
+        quantity: 10000
       - id: 38
-        quantity: 2444
+        quantity: 1500
       - id: 39
-        quantity: 1200
+        quantity: 1000
       - id: 40
-        quantity: 356
+        quantity: 500
+      - id: 57473
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   14817:
     bpid: 17733
@@ -19434,19 +19872,27 @@ offers:
       - id: 17305
         quantity: 1
       - id: 34
-        quantity: 10549422
+        quantity: 8000000
       - id: 35
-        quantity: 2638010
+        quantity: 4000000
       - id: 36
-        quantity: 661036
+        quantity: 600000
       - id: 37
-        quantity: 165001
+        quantity: 400000
       - id: 38
-        quantity: 41186
+        quantity: 30000
       - id: 39
-        quantity: 19592
+        quantity: 8000
       - id: 40
-        quantity: 6126
+        quantity: 4000
+      - id: 57473
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   14818:
     bpid: 17733
@@ -19460,19 +19906,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 10549422
+        quantity: 8000000
       - id: 35
-        quantity: 2638010
+        quantity: 4000000
       - id: 36
-        quantity: 661036
+        quantity: 600000
       - id: 37
-        quantity: 165001
+        quantity: 400000
       - id: 38
-        quantity: 41186
+        quantity: 30000
       - id: 39
-        quantity: 19592
+        quantity: 8000
       - id: 40
-        quantity: 6126
+        quantity: 4000
+      - id: 57473
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   14984:
     id: 14984
@@ -22194,17 +22648,25 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 3882040
+        quantity: 2800000
       - id: 35
-        quantity: 830223
+        quantity: 1000000
       - id: 36
-        quantity: 205556
+        quantity: 180000
       - id: 37
-        quantity: 33333
+        quantity: 20000
+      - id: 38
+        quantity: 10000
       - id: 39
-        quantity: 6564
+        quantity: 4000
       - id: 40
-        quantity: 2600
+        quantity: 2000
+      - id: 57470
+        quantity: 20
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
       lp: 200000
   15783:
     bpid: 33154
@@ -22218,19 +22680,25 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 2715902
+        quantity: 2800000
       - id: 35
-        quantity: 680078
+        quantity: 1000000
       - id: 36
-        quantity: 187383
+        quantity: 180000
       - id: 37
-        quantity: 19408
+        quantity: 20000
       - id: 38
-        quantity: 13738
+        quantity: 10000
       - id: 39
-        quantity: 8006
+        quantity: 4000
       - id: 40
-        quantity: 1864
+        quantity: 2000
+      - id: 57471
+        quantity: 20
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
       lp: 200000
   15784:
     bpid: 33152
@@ -22244,17 +22712,25 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 2116031
+        quantity: 2800000
       - id: 35
-        quantity: 467988
+        quantity: 1000000
       - id: 36
-        quantity: 168358
+        quantity: 180000
+      - id: 37
+        quantity: 20000
       - id: 38
-        quantity: 9933
+        quantity: 10000
       - id: 39
-        quantity: 3662
+        quantity: 4000
       - id: 40
-        quantity: 1904
+        quantity: 2000
+      - id: 57472
+        quantity: 20
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
       lp: 200000
   15785:
     bpid: 33158
@@ -22268,17 +22744,25 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 2922244
+        quantity: 2800000
       - id: 35
-        quantity: 729003
+        quantity: 1000000
       - id: 36
-        quantity: 176119
+        quantity: 180000
       - id: 37
-        quantity: 52166
+        quantity: 20000
+      - id: 38
+        quantity: 10000
       - id: 39
-        quantity: 6328
+        quantity: 4000
       - id: 40
-        quantity: 2462
+        quantity: 2000
+      - id: 57473
+        quantity: 20
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
       lp: 200000
   15786:
     id: 15786
@@ -22344,17 +22828,25 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 3882040
+        quantity: 2800000
       - id: 35
-        quantity: 830223
+        quantity: 1000000
       - id: 36
-        quantity: 205556
+        quantity: 180000
       - id: 37
-        quantity: 33333
+        quantity: 20000
+      - id: 38
+        quantity: 10000
       - id: 39
-        quantity: 6564
+        quantity: 4000
       - id: 40
-        quantity: 2600
+        quantity: 2000
+      - id: 57470
+        quantity: 20
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
       lp: 100000
   15791:
     bpid: 33154
@@ -22368,19 +22860,25 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 2715902
+        quantity: 2800000
       - id: 35
-        quantity: 680078
+        quantity: 1000000
       - id: 36
-        quantity: 187383
+        quantity: 180000
       - id: 37
-        quantity: 19408
+        quantity: 20000
       - id: 38
-        quantity: 13738
+        quantity: 10000
       - id: 39
-        quantity: 8006
+        quantity: 4000
       - id: 40
-        quantity: 1864
+        quantity: 2000
+      - id: 57471
+        quantity: 20
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
       lp: 100000
   15792:
     bpid: 33152
@@ -22394,17 +22892,25 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 2116031
+        quantity: 2800000
       - id: 35
-        quantity: 467988
+        quantity: 1000000
       - id: 36
-        quantity: 168358
+        quantity: 180000
+      - id: 37
+        quantity: 20000
       - id: 38
-        quantity: 9933
+        quantity: 10000
       - id: 39
-        quantity: 3662
+        quantity: 4000
       - id: 40
-        quantity: 1904
+        quantity: 2000
+      - id: 57472
+        quantity: 20
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
       lp: 100000
   15793:
     bpid: 33158
@@ -22418,17 +22924,25 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 2922244
+        quantity: 2800000
       - id: 35
-        quantity: 729003
+        quantity: 1000000
       - id: 36
-        quantity: 176119
+        quantity: 180000
       - id: 37
-        quantity: 52166
+        quantity: 20000
+      - id: 38
+        quantity: 10000
       - id: 39
-        quantity: 6328
+        quantity: 4000
       - id: 40
-        quantity: 2462
+        quantity: 2000
+      - id: 57473
+        quantity: 20
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
       lp: 100000
   15794:
     bpid: 29338
@@ -22443,19 +22957,25 @@ offers:
       - id: 17255
         quantity: 1
       - id: 34
-        quantity: 633333
+        quantity: 540000
       - id: 35
-        quantity: 200000
+        quantity: 180000
       - id: 36
-        quantity: 51111
+        quantity: 36000
       - id: 37
-        quantity: 7222
+        quantity: 10000
       - id: 38
-        quantity: 2444
+        quantity: 1500
       - id: 39
-        quantity: 1112
+        quantity: 1000
       - id: 40
-        quantity: 266
+        quantity: 500
+      - id: 57470
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   15795:
     bpid: 29338
@@ -22469,19 +22989,25 @@ offers:
       isk: 5000000
       items:
       - id: 34
-        quantity: 633333
+        quantity: 540000
       - id: 35
-        quantity: 200000
+        quantity: 180000
       - id: 36
-        quantity: 51111
+        quantity: 36000
       - id: 37
-        quantity: 7222
+        quantity: 10000
       - id: 38
-        quantity: 2444
+        quantity: 1500
       - id: 39
-        quantity: 1112
+        quantity: 1000
       - id: 40
-        quantity: 266
+        quantity: 500
+      - id: 57470
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   15796:
     bpid: 29341
@@ -22496,19 +23022,25 @@ offers:
       - id: 17244
         quantity: 1
       - id: 34
-        quantity: 544444
+        quantity: 540000
       - id: 35
-        quantity: 177778
+        quantity: 180000
       - id: 36
-        quantity: 47778
+        quantity: 36000
       - id: 37
-        quantity: 8556
+        quantity: 10000
       - id: 38
-        quantity: 3111
+        quantity: 1500
       - id: 39
-        quantity: 1244
+        quantity: 1000
       - id: 40
-        quantity: 244
+        quantity: 500
+      - id: 57471
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   15797:
     bpid: 29341
@@ -22522,19 +23054,25 @@ offers:
       isk: 5000000
       items:
       - id: 34
-        quantity: 544444
+        quantity: 540000
       - id: 35
-        quantity: 177778
+        quantity: 180000
       - id: 36
-        quantity: 47778
+        quantity: 36000
       - id: 37
-        quantity: 8556
+        quantity: 10000
       - id: 38
-        quantity: 3111
+        quantity: 1500
       - id: 39
-        quantity: 1244
+        quantity: 1000
       - id: 40
-        quantity: 244
+        quantity: 500
+      - id: 57471
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   15798:
     bpid: 29345
@@ -22549,19 +23087,25 @@ offers:
       - id: 17266
         quantity: 1
       - id: 34
-        quantity: 588889
+        quantity: 540000
       - id: 35
-        quantity: 122222
+        quantity: 180000
       - id: 36
-        quantity: 50000
+        quantity: 36000
       - id: 37
-        quantity: 11111
+        quantity: 10000
       - id: 38
-        quantity: 3222
+        quantity: 1500
       - id: 39
-        quantity: 1312
+        quantity: 1000
       - id: 40
-        quantity: 212
+        quantity: 500
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   15799:
     bpid: 29345
@@ -22575,19 +23119,25 @@ offers:
       isk: 5000000
       items:
       - id: 34
-        quantity: 588889
+        quantity: 540000
       - id: 35
-        quantity: 122222
+        quantity: 180000
       - id: 36
-        quantity: 50000
+        quantity: 36000
       - id: 37
-        quantity: 11111
+        quantity: 10000
       - id: 38
-        quantity: 3222
+        quantity: 1500
       - id: 39
-        quantity: 1312
+        quantity: 1000
       - id: 40
-        quantity: 212
+        quantity: 500
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   15800:
     bpid: 29339
@@ -22602,19 +23152,25 @@ offers:
       - id: 17223
         quantity: 1
       - id: 34
-        quantity: 566667
+        quantity: 540000
       - id: 35
-        quantity: 211111
+        quantity: 180000
       - id: 36
-        quantity: 52222
+        quantity: 36000
       - id: 37
-        quantity: 8333
+        quantity: 10000
       - id: 38
-        quantity: 2333
+        quantity: 1500
       - id: 39
-        quantity: 1088
+        quantity: 1000
       - id: 40
-        quantity: 222
+        quantity: 500
+      - id: 57473
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   15801:
     bpid: 29339
@@ -22628,19 +23184,25 @@ offers:
       isk: 5000000
       items:
       - id: 34
-        quantity: 566667
+        quantity: 540000
       - id: 35
-        quantity: 211111
+        quantity: 180000
       - id: 36
-        quantity: 52222
+        quantity: 36000
       - id: 37
-        quantity: 8333
+        quantity: 10000
       - id: 38
-        quantity: 2333
+        quantity: 1500
       - id: 39
-        quantity: 1088
+        quantity: 1000
       - id: 40
-        quantity: 222
+        quantity: 500
+      - id: 57473
+        quantity: 10
+      - id: 57478
+        quantity: 100
+      - id: 57486
+        quantity: 50
       lp: 45000
   15802:
     id: 15802
@@ -22883,19 +23445,27 @@ offers:
       isk: 15000000
       items:
       - id: 34
-        quantity: 24022
+        quantity: 42240
       - id: 35
-        quantity: 8044
+        quantity: 7920
       - id: 36
-        quantity: 2822
+        quantity: 3300
       - id: 37
-        quantity: 467
+        quantity: 660
       - id: 38
         quantity: 40
       - id: 39
-        quantity: 18
+        quantity: 26
       - id: 40
-        quantity: 4
+        quantity: 13
+      - id: 57470
+        quantity: 1
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 13
+      - id: 57486
+        quantity: 7
       lp: 30000
   15835:
     bpid: 33469
@@ -22909,19 +23479,27 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 24022
+        quantity: 42240
       - id: 35
-        quantity: 8044
+        quantity: 7920
       - id: 36
-        quantity: 2822
+        quantity: 3300
       - id: 37
-        quantity: 467
+        quantity: 660
       - id: 38
         quantity: 40
       - id: 39
-        quantity: 18
+        quantity: 26
       - id: 40
-        quantity: 4
+        quantity: 13
+      - id: 57470
+        quantity: 1
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 13
+      - id: 57486
+        quantity: 7
       lp: 20000
   15836:
     bpid: 33471
@@ -22935,19 +23513,27 @@ offers:
       isk: 30000000
       items:
       - id: 34
-        quantity: 614356
+        quantity: 712800
       - id: 35
-        quantity: 154233
+        quantity: 237600
       - id: 36
-        quantity: 39907
+        quantity: 47520
       - id: 37
-        quantity: 9687
+        quantity: 13200
       - id: 38
-        quantity: 2387
+        quantity: 1980
       - id: 39
-        quantity: 1202
+        quantity: 1320
       - id: 40
-        quantity: 356
+        quantity: 660
+      - id: 57470
+        quantity: 10
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 132
+      - id: 57486
+        quantity: 66
       lp: 120000
   15837:
     bpid: 33471
@@ -22961,19 +23547,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 614356
+        quantity: 712800
       - id: 35
-        quantity: 154233
+        quantity: 237600
       - id: 36
-        quantity: 39907
+        quantity: 47520
       - id: 37
-        quantity: 9687
+        quantity: 13200
       - id: 38
-        quantity: 2387
+        quantity: 1980
       - id: 39
-        quantity: 1202
+        quantity: 1320
       - id: 40
-        quantity: 356
+        quantity: 660
+      - id: 57470
+        quantity: 10
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 132
+      - id: 57486
+        quantity: 66
       lp: 80000
   15838:
     id: 15838
@@ -23041,19 +23635,29 @@ offers:
       isk: 150000000
       items:
       - id: 34
-        quantity: 12159425
+        quantity: 10560000
       - id: 35
-        quantity: 3018046
+        quantity: 5280000
       - id: 36
-        quantity: 733135
+        quantity: 792000
       - id: 37
-        quantity: 188974
+        quantity: 528000
       - id: 38
-        quantity: 46632
+        quantity: 39600
       - id: 39
-        quantity: 20635
+        quantity: 10560
       - id: 40
-        quantity: 7528
+        quantity: 5280
+      - id: 57470
+        quantity: 50
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 528
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 264
       lp: 600000
   16067:
     bpid: 33473
@@ -23067,19 +23671,29 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 12159425
+        quantity: 10560000
       - id: 35
-        quantity: 3018046
+        quantity: 5280000
       - id: 36
-        quantity: 733135
+        quantity: 792000
       - id: 37
-        quantity: 188974
+        quantity: 528000
       - id: 38
-        quantity: 46632
+        quantity: 39600
       - id: 39
-        quantity: 20635
+        quantity: 10560
       - id: 40
-        quantity: 7528
+        quantity: 5280
+      - id: 57470
+        quantity: 50
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 528
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 264
       lp: 400000
   16068:
     bpid: 33469
@@ -23094,19 +23708,27 @@ offers:
       - id: 33618
         quantity: 1
       - id: 34
-        quantity: 24022
+        quantity: 42240
       - id: 35
-        quantity: 8044
+        quantity: 7920
       - id: 36
-        quantity: 2822
+        quantity: 3300
       - id: 37
-        quantity: 467
+        quantity: 660
       - id: 38
         quantity: 40
       - id: 39
-        quantity: 18
+        quantity: 26
       - id: 40
-        quantity: 4
+        quantity: 13
+      - id: 57470
+        quantity: 1
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 13
+      - id: 57486
+        quantity: 7
   16069:
     bpid: 33471
     bpruns: 1
@@ -23120,19 +23742,27 @@ offers:
       - id: 33619
         quantity: 1
       - id: 34
-        quantity: 614356
+        quantity: 712800
       - id: 35
-        quantity: 154233
+        quantity: 237600
       - id: 36
-        quantity: 39907
+        quantity: 47520
       - id: 37
-        quantity: 9687
+        quantity: 13200
       - id: 38
-        quantity: 2387
+        quantity: 1980
       - id: 39
-        quantity: 1202
+        quantity: 1320
       - id: 40
-        quantity: 356
+        quantity: 660
+      - id: 57470
+        quantity: 10
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 132
+      - id: 57486
+        quantity: 66
   16070:
     bpid: 33473
     bpruns: 1
@@ -23146,19 +23776,29 @@ offers:
       - id: 33620
         quantity: 1
       - id: 34
-        quantity: 12159425
+        quantity: 10560000
       - id: 35
-        quantity: 3018046
+        quantity: 5280000
       - id: 36
-        quantity: 733135
+        quantity: 792000
       - id: 37
-        quantity: 188974
+        quantity: 528000
       - id: 38
-        quantity: 46632
+        quantity: 39600
       - id: 39
-        quantity: 20635
+        quantity: 10560
       - id: 40
-        quantity: 7528
+        quantity: 5280
+      - id: 57470
+        quantity: 50
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 528
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 264
   16071:
     id: 16071
     name: Federation Navy Comet Police SKIN
@@ -23261,19 +23901,27 @@ offers:
       isk: 10000000
       items:
       - id: 34
-        quantity: 22804
+        quantity: 38400
       - id: 35
-        quantity: 6143
+        quantity: 7200
       - id: 36
-        quantity: 2046
+        quantity: 3000
       - id: 37
-        quantity: 352
+        quantity: 600
       - id: 38
-        quantity: 131
+        quantity: 36
       - id: 39
-        quantity: 28
+        quantity: 24
       - id: 40
-        quantity: 2
+        quantity: 12
+      - id: 57471
+        quantity: 1
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 12
+      - id: 57486
+        quantity: 6
       lp: 20000
   16079:
     bpid: 33819
@@ -23287,19 +23935,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 614356
+        quantity: 648000
       - id: 35
-        quantity: 154233
+        quantity: 216000
       - id: 36
-        quantity: 39907
+        quantity: 43200
       - id: 37
-        quantity: 9687
+        quantity: 12000
       - id: 38
-        quantity: 2387
+        quantity: 1800
       - id: 39
-        quantity: 1202
+        quantity: 1200
       - id: 40
-        quantity: 356
+        quantity: 600
+      - id: 57471
+        quantity: 10
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 120
+      - id: 57486
+        quantity: 60
       lp: 80000
   16080:
     id: 16080
@@ -23322,19 +23978,29 @@ offers:
       isk: 100000000
       items:
       - id: 34
-        quantity: 11342704
+        quantity: 9600000
       - id: 35
-        quantity: 2806229
+        quantity: 4800000
       - id: 36
-        quantity: 687781
+        quantity: 720000
       - id: 37
-        quantity: 171916
+        quantity: 480000
       - id: 38
-        quantity: 44980
+        quantity: 36000
       - id: 39
-        quantity: 21381
+        quantity: 9600
       - id: 40
-        quantity: 6493
+        quantity: 4800
+      - id: 57471
+        quantity: 50
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 480
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 240
       lp: 400000
   16082:
     id: 16082
@@ -23358,19 +24024,27 @@ offers:
       - id: 33988
         quantity: 75
       - id: 34
-        quantity: 22804
+        quantity: 38400
       - id: 35
-        quantity: 6143
+        quantity: 7200
       - id: 36
-        quantity: 2046
+        quantity: 3000
       - id: 37
-        quantity: 352
+        quantity: 600
       - id: 38
-        quantity: 131
+        quantity: 36
       - id: 39
-        quantity: 28
+        quantity: 24
       - id: 40
-        quantity: 2
+        quantity: 12
+      - id: 57471
+        quantity: 1
+      - id: 57472
+        quantity: 1
+      - id: 57478
+        quantity: 12
+      - id: 57486
+        quantity: 6
   16084:
     bpid: 33819
     bpruns: 1
@@ -23384,19 +24058,27 @@ offers:
       - id: 33988
         quantity: 200
       - id: 34
-        quantity: 614356
+        quantity: 648000
       - id: 35
-        quantity: 154233
+        quantity: 216000
       - id: 36
-        quantity: 39907
+        quantity: 43200
       - id: 37
-        quantity: 9687
+        quantity: 12000
       - id: 38
-        quantity: 2387
+        quantity: 1800
       - id: 39
-        quantity: 1202
+        quantity: 1200
       - id: 40
-        quantity: 356
+        quantity: 600
+      - id: 57471
+        quantity: 10
+      - id: 57472
+        quantity: 10
+      - id: 57478
+        quantity: 120
+      - id: 57486
+        quantity: 60
   16085:
     bpid: 33821
     bpruns: 1
@@ -23410,19 +24092,29 @@ offers:
       - id: 33988
         quantity: 700
       - id: 34
-        quantity: 11342704
+        quantity: 9600000
       - id: 35
-        quantity: 2806229
+        quantity: 4800000
       - id: 36
-        quantity: 687781
+        quantity: 720000
       - id: 37
-        quantity: 171916
+        quantity: 480000
       - id: 38
-        quantity: 44980
+        quantity: 36000
       - id: 39
-        quantity: 21381
+        quantity: 9600
       - id: 40
-        quantity: 6493
+        quantity: 4800
+      - id: 57471
+        quantity: 50
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 480
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 240
   16097:
     id: 16097
     name: 20* Focused Void Bomb
@@ -24169,34 +24861,50 @@ offers:
     requirements:
       isk: 125000000
       items:
-      - id: 21013
-        quantity: 84
-      - id: 21035
-        quantity: 84
       - id: 21009
         quantity: 98
-      - id: 21019
-        quantity: 98
-      - id: 24560
-        quantity: 112
-      - id: 21025
-        quantity: 126
-      - id: 21023
-        quantity: 154
-      - id: 21021
-        quantity: 182
-      - id: 21037
-        quantity: 182
-      - id: 24558
-        quantity: 224
-      - id: 21017
-        quantity: 336
-      - id: 21039
-        quantity: 392
       - id: 21011
         quantity: 518
+      - id: 21013
+        quantity: 84
+      - id: 21017
+        quantity: 336
+      - id: 21019
+        quantity: 98
+      - id: 21021
+        quantity: 182
+      - id: 21023
+        quantity: 154
+      - id: 21025
+        quantity: 1126
+      - id: 21035
+        quantity: 84
+      - id: 21037
+        quantity: 182
+      - id: 21039
+        quantity: 392
+      - id: 24558
+        quantity: 224
+      - id: 24560
+        quantity: 112
       - id: 42226
         quantity: 2000
+      - id: 57472
+        quantity: 100
+      - id: 57473
+        quantity: 100
+      - id: 57476
+        quantity: 5
+      - id: 57477
+        quantity: 5
+      - id: 57478
+        quantity: 3200
+      - id: 57486
+        quantity: 1600
+      - id: 57487
+        quantity: 1
+      - id: 57488
+        quantity: 1
       lp: 500000
   16246:
     bpid: 42137
@@ -24209,32 +24917,48 @@ offers:
     requirements:
       isk: 500000000
       items:
-      - id: 21019
-        quantity: 360
       - id: 21009
-        quantity: 480
-      - id: 21035
-        quantity: 480
-      - id: 21023
-        quantity: 600
-      - id: 21037
-        quantity: 600
-      - id: 24558
-        quantity: 600
-      - id: 24560
-        quantity: 600
-      - id: 21021
-        quantity: 720
-      - id: 21025
-        quantity: 960
+        quantity: 200
       - id: 21013
-        quantity: 1200
+        quantity: 600
       - id: 21017
-        quantity: 1200
+        quantity: 600
+      - id: 21019
+        quantity: 175
+      - id: 21021
+        quantity: 350
+      - id: 21023
+        quantity: 300
+      - id: 21025
+        quantity: 450
+      - id: 21029
+        quantity: 2000
+      - id: 21035
+        quantity: 240
+      - id: 21037
+        quantity: 300
+      - id: 24558
+        quantity: 300
+      - id: 24560
+        quantity: 300
       - id: 42226
         quantity: 4000
-      - id: 21029
-        quantity: 4200
+      - id: 57472
+        quantity: 250
+      - id: 57473
+        quantity: 250
+      - id: 57476
+        quantity: 250
+      - id: 57477
+        quantity: 250
+      - id: 57478
+        quantity: 10000
+      - id: 57486
+        quantity: 5000
+      - id: 57487
+        quantity: 15
+      - id: 57489
+        quantity: 1
       lp: 2000000
   16247:
     bpid: 42138
@@ -24247,38 +24971,54 @@ offers:
     requirements:
       isk: 1000000000
       items:
-      - id: 21035
-        quantity: 630
-      - id: 21013
-        quantity: 945
-      - id: 24560
-        quantity: 945
       - id: 21009
         quantity: 1260
-      - id: 21019
-        quantity: 1260
-      - id: 21025
-        quantity: 1260
-      - id: 21023
-        quantity: 1575
-      - id: 24547
-        quantity: 1575
-      - id: 21021
-        quantity: 1890
-      - id: 21037
-        quantity: 1890
-      - id: 24558
-        quantity: 2205
-      - id: 24545
-        quantity: 3150
-      - id: 21017
-        quantity: 3465
       - id: 21011
         quantity: 4725
+      - id: 21013
+        quantity: 945
+      - id: 21017
+        quantity: 3465
+      - id: 21019
+        quantity: 1260
+      - id: 21021
+        quantity: 1890
+      - id: 21023
+        quantity: 1575
+      - id: 21025
+        quantity: 1260
+      - id: 21035
+        quantity: 630
+      - id: 21037
+        quantity: 1890
+      - id: 24545
+        quantity: 3100
+      - id: 24547
+        quantity: 1500
       - id: 24556
-        quantity: 4725
+        quantity: 4700
+      - id: 24558
+        quantity: 2200
+      - id: 24560
+        quantity: 945
       - id: 42226
         quantity: 8000
+      - id: 57472
+        quantity: 500
+      - id: 57473
+        quantity: 500
+      - id: 57476
+        quantity: 500
+      - id: 57477
+        quantity: 500
+      - id: 57478
+        quantity: 10000
+      - id: 57486
+        quantity: 5000
+      - id: 57487
+        quantity: 40
+      - id: 57489
+        quantity: 1
       lp: 8000000
   16248:
     id: 16248
@@ -24833,22 +25573,20 @@ offers:
     requirements:
       isk: 5000000
       items:
-      - id: 2948
-        quantity: 5
-      - id: 40
-        quantity: 500
       - id: 39
-        quantity: 750
+        quantity: 6250
+      - id: 40
+        quantity: 9000
       - id: 38
-        quantity: 1500
-      - id: 36
-        quantity: 50000
+        quantity: 17000
       - id: 37
-        quantity: 100000
+        quantity: 200000
+      - id: 36
+        quantity: 325000
       - id: 35
-        quantity: 250000
+        quantity: 1375000
       - id: 34
-        quantity: 500000
+        quantity: 3350000
       lp: 10000
   16339:
     bpid: 45535
@@ -24909,19 +25647,27 @@ offers:
       - id: 17299
         quantity: 1
       - id: 34
-        quantity: 12090111
+        quantity: 8000000
       - id: 35
-        quantity: 3024444
+        quantity: 4000000
       - id: 36
-        quantity: 762222
+        quantity: 600000
       - id: 37
-        quantity: 189478
+        quantity: 400000
       - id: 38
-        quantity: 47256
+        quantity: 30000
       - id: 39
-        quantity: 22178
+        quantity: 8000
       - id: 40
-        quantity: 10312
+        quantity: 4000
+      - id: 57470
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   16341:
     bpid: 32306
@@ -24935,19 +25681,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 12090111
+        quantity: 8000000
       - id: 35
-        quantity: 3024444
+        quantity: 4000000
       - id: 36
-        quantity: 762222
+        quantity: 600000
       - id: 37
-        quantity: 189478
+        quantity: 400000
       - id: 38
-        quantity: 47256
+        quantity: 30000
       - id: 39
-        quantity: 22178
+        quantity: 8000
       - id: 40
-        quantity: 10312
+        quantity: 4000
+      - id: 57470
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   16342:
     bpid: 32312
@@ -24962,19 +25716,27 @@ offers:
       - id: 17305
         quantity: 1
       - id: 34
-        quantity: 10279111
+        quantity: 8000000
       - id: 35
-        quantity: 2792889
+        quantity: 4000000
       - id: 36
-        quantity: 624889
+        quantity: 600000
       - id: 37
-        quantity: 164589
+        quantity: 400000
       - id: 38
-        quantity: 34656
+        quantity: 30000
       - id: 39
-        quantity: 18244
+        quantity: 8000
       - id: 40
-        quantity: 4800
+        quantity: 4000
+      - id: 57473
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   16343:
     bpid: 32312
@@ -24988,19 +25750,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 10279111
+        quantity: 8000000
       - id: 35
-        quantity: 2792889
+        quantity: 4000000
       - id: 36
-        quantity: 624889
+        quantity: 600000
       - id: 37
-        quantity: 164589
+        quantity: 400000
       - id: 38
-        quantity: 34656
+        quantity: 30000
       - id: 39
-        quantity: 18244
+        quantity: 8000
       - id: 40
-        quantity: 4800
+        quantity: 4000
+      - id: 57473
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   16344:
     bpid: 32308
@@ -25015,19 +25785,27 @@ offers:
       - id: 17291
         quantity: 1
       - id: 34
-        quantity: 11564444
+        quantity: 8000000
       - id: 35
-        quantity: 2892889
+        quantity: 4000000
       - id: 36
-        quantity: 728333
+        quantity: 600000
       - id: 37
-        quantity: 181211
+        quantity: 400000
       - id: 38
-        quantity: 45133
+        quantity: 30000
       - id: 39
-        quantity: 20644
+        quantity: 8000
       - id: 40
-        quantity: 7556
+        quantity: 4000
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   16345:
     bpid: 32308
@@ -25041,19 +25819,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 11564444
+        quantity: 8000000
       - id: 35
-        quantity: 2892889
+        quantity: 4000000
       - id: 36
-        quantity: 728333
+        quantity: 600000
       - id: 37
-        quantity: 181211
+        quantity: 400000
       - id: 38
-        quantity: 45133
+        quantity: 30000
       - id: 39
-        quantity: 20644
+        quantity: 8000
       - id: 40
-        quantity: 7556
+        quantity: 4000
+      - id: 57472
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   16346:
     bpid: 32310
@@ -25068,19 +25854,27 @@ offers:
       - id: 17295
         quantity: 1
       - id: 34
-        quantity: 10649667
+        quantity: 8000000
       - id: 35
-        quantity: 2263111
+        quantity: 4000000
       - id: 36
-        quantity: 607000
+        quantity: 600000
       - id: 37
-        quantity: 166200
+        quantity: 400000
       - id: 38
-        quantity: 36011
+        quantity: 30000
       - id: 39
-        quantity: 16066
+        quantity: 8000
       - id: 40
-        quantity: 6688
+        quantity: 4000
+      - id: 57471
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   16347:
     bpid: 32310
@@ -25094,19 +25888,27 @@ offers:
       isk: 20000000
       items:
       - id: 34
-        quantity: 10649667
+        quantity: 8000000
       - id: 35
-        quantity: 2263111
+        quantity: 4000000
       - id: 36
-        quantity: 607000
+        quantity: 600000
       - id: 37
-        quantity: 166200
+        quantity: 400000
       - id: 38
-        quantity: 36011
+        quantity: 30000
       - id: 39
-        quantity: 16066
+        quantity: 8000
       - id: 40
-        quantity: 6688
+        quantity: 4000
+      - id: 57471
+        quantity: 50
+      - id: 57478
+        quantity: 400
+      - id: 57479
+        quantity: 1
+      - id: 57486
+        quantity: 200
       lp: 250000
   16348:
     id: 16348
@@ -27017,28 +27819,32 @@ offers:
         quantity: 100
       - id: 55831
         quantity: 100
+      - id: 34
+        quantity: 32000
+      - id: 35
+        quantity: 6000
+      - id: 36
+        quantity: 2500
+      - id: 37
+        quantity: 500
+      - id: 38
+        quantity: 60
+      - id: 39
+        quantity: 40
       - id: 40
-        quantity: 8
-      - id: 54971
-        quantity: 8
+        quantity: 20
+      - id: 47975
+        quantity: 220
       - id: 54970
         quantity: 12
-      - id: 39
-        quantity: 16
+      - id: 54971
+        quantity: 8
       - id: 54972
         quantity: 24
-      - id: 38
-        quantity: 84
-      - id: 47975
-        quantity: 212
-      - id: 37
-        quantity: 2356
-      - id: 36
-        quantity: 12444
-      - id: 35
-        quantity: 35556
-      - id: 34
-        quantity: 84444
+      - id: 57478
+        quantity: 20
+      - id: 57486
+        quantity: 10
       lp: 250
   16462:
     bpid: 54843
@@ -27055,28 +27861,32 @@ offers:
         quantity: 400
       - id: 55831
         quantity: 400
-      - id: 54971
-        quantity: 24
+      - id: 34
+        quantity: 540000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 36000
+      - id: 37
+        quantity: 10000
+      - id: 38
+        quantity: 2500
+      - id: 39
+        quantity: 1200
+      - id: 40
+        quantity: 600
+      - id: 47975
+        quantity: 435
       - id: 54970
         quantity: 28
+      - id: 54971
+        quantity: 24
       - id: 54972
         quantity: 56
-      - id: 47975
-        quantity: 423
-      - id: 40
-        quantity: 776
-      - id: 39
-        quantity: 2532
-      - id: 38
-        quantity: 5334
-      - id: 37
-        quantity: 19778
-      - id: 36
-        quantity: 80000
-      - id: 35
-        quantity: 311112
-      - id: 34
-        quantity: 1222222
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
       lp: 375
   16463:
     bpid: 54844
@@ -27093,28 +27903,34 @@ offers:
         quantity: 800
       - id: 55831
         quantity: 800
+      - id: 34
+        quantity: 8000000
+      - id: 35
+        quantity: 4000000
+      - id: 36
+        quantity: 600000
+      - id: 37
+        quantity: 400000
+      - id: 38
+        quantity: 42000
+      - id: 39
+        quantity: 14000
+      - id: 40
+        quantity: 7000
+      - id: 47975
+        quantity: 768
       - id: 54970
         quantity: 82
       - id: 54971
         quantity: 94
       - id: 54972
         quantity: 120
-      - id: 47975
-        quantity: 768
-      - id: 40
-        quantity: 3144
-      - id: 39
-        quantity: 12867
-      - id: 38
-        quantity: 25250
-      - id: 37
-        quantity: 87794
-      - id: 36
-        quantity: 368389
-      - id: 35
-        quantity: 1648000
-      - id: 34
-        quantity: 6490333
+      - id: 57478
+        quantity: 800
+      - id: 57479
+        quantity: 2
+      - id: 57486
+        quantity: 400
       lp: 500
   16464:
     bpid: 54845
@@ -28260,24 +29076,28 @@ offers:
       items:
       - id: 56708
         quantity: 400
-      - id: 40
-        quantity: 2
-      - id: 39
-        quantity: 20
+      - id: 34
+        quantity: 32000
+      - id: 35
+        quantity: 6000
+      - id: 36
+        quantity: 2500
+      - id: 37
+        quantity: 500
       - id: 38
-        quantity: 82
-      - id: 48112
-        quantity: 150
+        quantity: 60
+      - id: 39
+        quantity: 40
+      - id: 40
+        quantity: 20
       - id: 47975
         quantity: 220
-      - id: 37
-        quantity: 398
-      - id: 36
-        quantity: 2949
-      - id: 35
-        quantity: 6290
-      - id: 34
-        quantity: 23304
+      - id: 48112
+        quantity: 150
+      - id: 57478
+        quantity: 20
+      - id: 57486
+        quantity: 10
   17037:
     bpid: 49714
     bpruns: 1
@@ -28291,24 +29111,28 @@ offers:
       items:
       - id: 56708
         quantity: 800
-      - id: 40
-        quantity: 3
-      - id: 39
-        quantity: 22
+      - id: 34
+        quantity: 80000
+      - id: 35
+        quantity: 15000
+      - id: 36
+        quantity: 5000
+      - id: 37
+        quantity: 1000
       - id: 38
-        quantity: 82
-      - id: 48112
-        quantity: 180
+        quantity: 120
+      - id: 39
+        quantity: 80
+      - id: 40
+        quantity: 40
       - id: 47975
         quantity: 230
-      - id: 37
-        quantity: 398
-      - id: 36
-        quantity: 3349
-      - id: 35
-        quantity: 7290
-      - id: 34
-        quantity: 43304
+      - id: 48112
+        quantity: 180
+      - id: 57478
+        quantity: 40
+      - id: 57486
+        quantity: 20
   17038:
     bpid: 49716
     bpruns: 1
@@ -28322,24 +29146,28 @@ offers:
       items:
       - id: 56708
         quantity: 1200
-      - id: 40
-        quantity: 156
-      - id: 47975
-        quantity: 235
-      - id: 48112
-        quantity: 546
-      - id: 39
-        quantity: 1202
-      - id: 38
-        quantity: 2387
-      - id: 37
-        quantity: 9687
-      - id: 36
-        quantity: 39907
-      - id: 35
-        quantity: 184233
       - id: 34
-        quantity: 514356
+        quantity: 405000
+      - id: 35
+        quantity: 135000
+      - id: 36
+        quantity: 27000
+      - id: 37
+        quantity: 7500
+      - id: 38
+        quantity: 1875
+      - id: 39
+        quantity: 900
+      - id: 40
+        quantity: 450
+      - id: 47975
+        quantity: 326
+      - id: 48112
+        quantity: 300
+      - id: 57478
+        quantity: 150
+      - id: 57486
+        quantity: 75
   17039:
     bpid: 47967
     bpruns: 1
@@ -28353,24 +29181,28 @@ offers:
       items:
       - id: 56708
         quantity: 1600
+      - id: 34
+        quantity: 540000
+      - id: 35
+        quantity: 180000
+      - id: 36
+        quantity: 36000
+      - id: 37
+        quantity: 10000
+      - id: 38
+        quantity: 2500
+      - id: 39
+        quantity: 1200
       - id: 40
-        quantity: 356
-      - id: 48112
-        quantity: 400
+        quantity: 600
       - id: 47975
         quantity: 435
-      - id: 39
-        quantity: 1202
-      - id: 38
-        quantity: 2387
-      - id: 37
-        quantity: 9687
-      - id: 36
-        quantity: 39907
-      - id: 35
-        quantity: 154233
-      - id: 34
-        quantity: 614356
+      - id: 48112
+        quantity: 400
+      - id: 57478
+        quantity: 200
+      - id: 57486
+        quantity: 100
   17040:
     bpid: 49715
     bpruns: 1
@@ -28384,24 +29216,28 @@ offers:
       items:
       - id: 56708
         quantity: 2800
+      - id: 34
+        quantity: 3080000
+      - id: 35
+        quantity: 1100000
+      - id: 36
+        quantity: 198000
+      - id: 37
+        quantity: 22000
+      - id: 38
+        quantity: 13200
+      - id: 39
+        quantity: 7700
       - id: 40
-        quantity: 386
-      - id: 48112
-        quantity: 560
+        quantity: 3850
       - id: 47975
         quantity: 635
-      - id: 39
-        quantity: 1402
-      - id: 38
-        quantity: 2887
-      - id: 37
-        quantity: 9687
-      - id: 36
-        quantity: 43907
-      - id: 35
-        quantity: 184233
-      - id: 34
-        quantity: 914356
+      - id: 48112
+        quantity: 560
+      - id: 57478
+        quantity: 440
+      - id: 57486
+        quantity: 220
   17041:
     bpid: 47968
     bpruns: 1
@@ -28415,24 +29251,30 @@ offers:
       items:
       - id: 56708
         quantity: 4000
+      - id: 34
+        quantity: 8800000
+      - id: 35
+        quantity: 4400000
+      - id: 36
+        quantity: 660000
+      - id: 37
+        quantity: 440000
+      - id: 38
+        quantity: 46200
+      - id: 39
+        quantity: 15400
+      - id: 40
+        quantity: 7700
       - id: 47975
-        quantity: 730
+        quantity: 845
       - id: 48112
         quantity: 850
-      - id: 40
-        quantity: 6575
-      - id: 39
-        quantity: 21186
-      - id: 38
-        quantity: 45699
-      - id: 37
-        quantity: 186361
-      - id: 36
-        quantity: 733304
-      - id: 35
-        quantity: 2930004
-      - id: 34
-        quantity: 11716296
+      - id: 57478
+        quantity: 880
+      - id: 57479
+        quantity: 2
+      - id: 57486
+        quantity: 440
   17042:
     id: 17042
     name: Datacore - Triglavian Quantum Engineering
@@ -29459,32 +30301,44 @@ offers:
         quantity: 50000
       - id: 56713
         quantity: 10
+      - id: 57487
+        quantity: 2
+      - id: 57488
+        quantity: 2
       - id: 53037
         quantity: 3
-      - id: 21013
-        quantity: 6
+      - id: 21021
+        quantity: 5
       - id: 53036
         quantity: 6
       - id: 21019
         quantity: 7
       - id: 24560
         quantity: 8
-      - id: 21025
-        quantity: 9
       - id: 53035
         quantity: 9
-      - id: 21023
-        quantity: 11
-      - id: 21035
-        quantity: 13
+      - id: 21009
+        quantity: 10
+      - id: 21025
+        quantity: 10
       - id: 21037
         quantity: 13
+      - id: 21013
+        quantity: 15
+      - id: 21023
+        quantity: 15
+      - id: 21035
+        quantity: 15
       - id: 24558
         quantity: 16
       - id: 21017
-        quantity: 28
+        quantity: 30
       - id: 21039
-        quantity: 28
+        quantity: 45
+      - id: 57486
+        quantity: 3200
+      - id: 57478
+        quantity: 6400
   17082:
     bpid: 52348
     bpruns: 1

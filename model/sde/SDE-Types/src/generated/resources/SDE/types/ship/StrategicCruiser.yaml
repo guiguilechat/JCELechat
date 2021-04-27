@@ -47,6 +47,7 @@ types:
     portionSize: 1
     poweroutput: 625
     powertospeed: 1
+    price: 3.0E8
     propulsiongraphicid: 394
     published: true
     radius: 190.0
@@ -135,6 +136,7 @@ types:
     portionSize: 1
     poweroutput: 550
     powertospeed: 1
+    price: 3.0E8
     propulsiongraphicid: 397
     published: true
     radius: 190.0
@@ -223,6 +225,7 @@ types:
     portionSize: 1
     poweroutput: 680
     powertospeed: 1
+    price: 3.0E8
     propulsiongraphicid: 394
     published: true
     radius: 210.0
@@ -311,6 +314,7 @@ types:
     portionSize: 1
     poweroutput: 420
     powertospeed: 1
+    price: 3.0E8
     propulsiongraphicid: 395
     published: true
     radius: 221.0500030517578

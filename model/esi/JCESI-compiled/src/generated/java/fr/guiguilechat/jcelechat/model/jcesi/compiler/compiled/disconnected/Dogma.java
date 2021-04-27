@@ -3,7 +3,7 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.disconnected;
 import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_12_long_int;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_11_long_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_attributes_attribute_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_dynamic_items_type_id_item_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_dogma_effects_effect_id;
@@ -17,7 +17,7 @@ public class Dogma {
     public final SwaggerDCCache<?> cache;
     private ObsListHolderImpl<Integer> get_dogma_attributes_holder;
     private final Map<Integer, ObsObjHolderSimple<R_get_dogma_attributes_attribute_id>> get_dogma_attributes_attribute_id_holder = new HashMap<>();
-    private final Map<K_12_long_int, ObsObjHolderSimple<R_get_dogma_dynamic_items_type_id_item_id>> get_dogma_dynamic_items_type_id_item_id_holder = new HashMap<>();
+    private final Map<K_11_long_int, ObsObjHolderSimple<R_get_dogma_dynamic_items_type_id_item_id>> get_dogma_dynamic_items_type_id_item_id_holder = new HashMap<>();
     private ObsListHolderImpl<Integer> get_dogma_effects_holder;
     private final Map<Integer, ObsObjHolderSimple<R_get_dogma_effects_effect_id>> get_dogma_effects_effect_id_holder = new HashMap<>();
 
@@ -97,7 +97,7 @@ public class Dogma {
      *     type_id integer
      */
     public ObsObjHolder<R_get_dogma_dynamic_items_type_id_item_id> dynamic_items(long item_id, int type_id) {
-        K_12_long_int param = new K_12_long_int(item_id, type_id);
+        K_11_long_int param = new K_11_long_int(item_id, type_id);
         ObsObjHolderSimple<R_get_dogma_dynamic_items_type_id_item_id> ret = get_dogma_dynamic_items_type_id_item_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_dogma_dynamic_items_type_id_item_id_holder);

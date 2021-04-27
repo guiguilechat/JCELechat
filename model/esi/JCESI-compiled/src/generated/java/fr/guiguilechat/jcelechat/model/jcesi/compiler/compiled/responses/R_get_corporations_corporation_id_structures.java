@@ -12,6 +12,10 @@ public class R_get_corporations_corporation_id_structures {
      */
     public String fuel_expires;
     /**
+     * The structure name
+     */
+    public String name;
+    /**
      * The date and time when the structure's newly requested reinforcement times (e.g. next_reinforce_hour and next_reinforce_day) will take effect
      */
     public String next_reinforce_apply;
@@ -20,10 +24,6 @@ public class R_get_corporations_corporation_id_structures {
      */
     public int next_reinforce_hour;
     /**
-     * The requested change to reinforce_weekday that will take effect at the time shown by next_reinforce_apply
-     */
-    public int next_reinforce_weekday;
-    /**
      * The id of the ACL profile for this citadel
      */
     public int profile_id;
@@ -31,10 +31,6 @@ public class R_get_corporations_corporation_id_structures {
      * The hour of day that determines the four hour window when the structure will randomly exit its reinforcement periods and become vulnerable to attack against its armor and/or hull. The structure will become vulnerable at a random time that is +/- 2 hours centered on the value of this property
      */
     public int reinforce_hour;
-    /**
-     * The day of the week when the structure exits its final reinforcement period and becomes vulnerable to attack against its hull. Monday is 0 and Sunday is 6
-     */
-    public int reinforce_weekday;
     /**
      * Contains a list of service upgrades, and their state
      */
@@ -83,22 +79,19 @@ public class R_get_corporations_corporation_id_structures {
         if ((fuel_expires!= othersame.fuel_expires)&&((fuel_expires == null)||(!fuel_expires.equals(othersame.fuel_expires)))) {
             return false;
         }
+        if ((name!= othersame.name)&&((name == null)||(!name.equals(othersame.name)))) {
+            return false;
+        }
         if ((next_reinforce_apply!= othersame.next_reinforce_apply)&&((next_reinforce_apply == null)||(!next_reinforce_apply.equals(othersame.next_reinforce_apply)))) {
             return false;
         }
         if (next_reinforce_hour!= othersame.next_reinforce_hour) {
             return false;
         }
-        if (next_reinforce_weekday!= othersame.next_reinforce_weekday) {
-            return false;
-        }
         if (profile_id!= othersame.profile_id) {
             return false;
         }
         if (reinforce_hour!= othersame.reinforce_hour) {
-            return false;
-        }
-        if (reinforce_weekday!= othersame.reinforce_weekday) {
             return false;
         }
         if ((services!= othersame.services)&&((services == null)||(!services.equals(othersame.services)))) {
@@ -129,6 +122,6 @@ public class R_get_corporations_corporation_id_structures {
     }
 
     public int hashCode() {
-        return (((((((((((((((corporation_id +((fuel_expires == null)? 0 :fuel_expires.hashCode()))+((next_reinforce_apply == null)? 0 :next_reinforce_apply.hashCode()))+ next_reinforce_hour)+ next_reinforce_weekday)+ profile_id)+ reinforce_hour)+ reinforce_weekday)+((services == null)? 0 :services.hashCode()))+((state == null)? 0 :state.hashCode()))+((state_timer_end == null)? 0 :state_timer_end.hashCode()))+((state_timer_start == null)? 0 :state_timer_start.hashCode()))+ Long.hashCode(structure_id))+ system_id)+ type_id)+((unanchors_at == null)? 0 :unanchors_at.hashCode()));
+        return ((((((((((((((corporation_id +((fuel_expires == null)? 0 :fuel_expires.hashCode()))+((name == null)? 0 :name.hashCode()))+((next_reinforce_apply == null)? 0 :next_reinforce_apply.hashCode()))+ next_reinforce_hour)+ profile_id)+ reinforce_hour)+((services == null)? 0 :services.hashCode()))+((state == null)? 0 :state.hashCode()))+((state_timer_end == null)? 0 :state_timer_end.hashCode()))+((state_timer_start == null)? 0 :state_timer_start.hashCode()))+ Long.hashCode(structure_id))+ system_id)+ type_id)+((unanchors_at == null)? 0 :unanchors_at.hashCode()));
     }
 }

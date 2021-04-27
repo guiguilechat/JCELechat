@@ -154,6 +154,40 @@ public class Characters {
     }
 
     /**
+     * Return a list of the characters assets
+     * 
+     * cache over {@link Swagger#get_characters_assets}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_assets> assets(int character_id) {
+        ObsListHolderImpl<R_get_characters_character_id_assets> ret = get_characters_character_id_assets_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_assets_holder);
+            try {
+                synchronized (get_characters_character_id_assets_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_assets_holder);
+                    {
+                        ret = get_characters_character_id_assets_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_characters_character_id_assets>();
+                            get_characters_character_id_assets_holder.put(character_id, ret);
+                            ObsListHolderImpl<R_get_characters_character_id_assets> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_assets", (page, properties) -> (cache.swagger).get_characters_assets(character_id, page, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_assets_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_assets_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Return attributes of a character
      * 
      * cache over {@link Swagger#get_characters_attributes}<br />
@@ -182,6 +216,108 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_attributes_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Return a list of blueprints the character owns
+     * 
+     * cache over {@link Swagger#get_characters_blueprints}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_blueprints> blueprints(int character_id) {
+        ObsListHolderImpl<R_get_characters_character_id_blueprints> ret = get_characters_character_id_blueprints_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_blueprints_holder);
+            try {
+                synchronized (get_characters_character_id_blueprints_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_blueprints_holder);
+                    {
+                        ret = get_characters_character_id_blueprints_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_characters_character_id_blueprints>();
+                            get_characters_character_id_blueprints_holder.put(character_id, ret);
+                            ObsListHolderImpl<R_get_characters_character_id_blueprints> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_blueprints", (page, properties) -> (cache.swagger).get_characters_blueprints(character_id, page, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_blueprints_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_blueprints_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * A list of your character's personal bookmarks
+     * 
+     * cache over {@link Swagger#get_characters_bookmarks}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<M_get_bookmarks_9> bookmarks(int character_id) {
+        ObsListHolderImpl<M_get_bookmarks_9> ret = get_characters_character_id_bookmarks_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_bookmarks_holder);
+            try {
+                synchronized (get_characters_character_id_bookmarks_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_bookmarks_holder);
+                    {
+                        ret = get_characters_character_id_bookmarks_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<M_get_bookmarks_9>();
+                            get_characters_character_id_bookmarks_holder.put(character_id, ret);
+                            ObsListHolderImpl<M_get_bookmarks_9> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_bookmarks", (page, properties) -> (cache.swagger).get_characters_bookmarks(character_id, page, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * A list of your character's personal bookmark folders
+     * 
+     * cache over {@link Swagger#get_characters_bookmarks_folders}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_bookmarks_folders> bookmarks_folders(int character_id) {
+        ObsListHolderImpl<R_get_characters_character_id_bookmarks_folders> ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_bookmarks_folders_holder);
+            try {
+                synchronized (get_characters_character_id_bookmarks_folders_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_bookmarks_folders_holder);
+                    {
+                        ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_characters_character_id_bookmarks_folders>();
+                            get_characters_character_id_bookmarks_folders_holder.put(character_id, ret);
+                            ObsListHolderImpl<R_get_characters_character_id_bookmarks_folders> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_bookmarks_folders", (page, properties) -> (cache.swagger).get_characters_bookmarks_folders(character_id, page, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_folders_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_folders_holder);
             }
         }
         return ret;
@@ -225,6 +361,43 @@ public class Characters {
     }
 
     /**
+     * Get all the information for a specific event
+     * 
+     * cache over {@link Swagger#get_characters_calendar}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     * @param event_id
+     *     The id of the event requested
+     */
+    public ObsObjHolder<R_get_characters_character_id_calendar_event_id> calendar(int character_id, int event_id) {
+        K_1_int_int param = new K_1_int_int(event_id, character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id> ret = get_characters_character_id_calendar_event_id_holder.get(param);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_calendar_event_id_holder);
+            try {
+                synchronized (get_characters_character_id_calendar_event_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_calendar_event_id_holder);
+                    {
+                        ret = get_characters_character_id_calendar_event_id_holder.get(param);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id>();
+                            ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id> finalRet = ret;
+                            get_characters_character_id_calendar_event_id_holder.put(param, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_calendar_event_id", properties -> (cache.swagger).get_characters_calendar(character_id, event_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_calendar_event_id_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_calendar_event_id_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Get all invited attendees for a given event
      * 
      * cache over {@link Swagger#get_characters_calendar_attendees}<br />
@@ -256,6 +429,74 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_calendar_event_id_attendees_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * A list of the character's clones
+     * 
+     * cache over {@link Swagger#get_characters_clones}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsObjHolder<R_get_characters_character_id_clones> clones(int character_id) {
+        ObsObjHolderSimple<R_get_characters_character_id_clones> ret = get_characters_character_id_clones_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_clones_holder);
+            try {
+                synchronized (get_characters_character_id_clones_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_clones_holder);
+                    {
+                        ret = get_characters_character_id_clones_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_characters_character_id_clones>();
+                            ObsObjHolderSimple<R_get_characters_character_id_clones> finalRet = ret;
+                            get_characters_character_id_clones_holder.put(character_id, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_clones", properties -> (cache.swagger).get_characters_clones(character_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_clones_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_clones_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Return contacts of a character
+     * 
+     * cache over {@link Swagger#get_characters_contacts}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_contacts> contacts(int character_id) {
+        ObsListHolderImpl<R_get_characters_character_id_contacts> ret = get_characters_character_id_contacts_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_contacts_holder);
+            try {
+                synchronized (get_characters_character_id_contacts_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_contacts_holder);
+                    {
+                        ret = get_characters_character_id_contacts_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_characters_character_id_contacts>();
+                            get_characters_character_id_contacts_holder.put(character_id, ret);
+                            ObsListHolderImpl<R_get_characters_character_id_contacts> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_contacts", (page, properties) -> (cache.swagger).get_characters_contacts(character_id, page, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_contacts_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_contacts_holder);
             }
         }
         return ret;
@@ -438,6 +679,40 @@ public class Characters {
     }
 
     /**
+     * Return fittings of a character
+     * 
+     * cache over {@link Swagger#get_characters_fittings}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_fittings> fittings(int character_id) {
+        ObsListHolderImpl<R_get_characters_character_id_fittings> ret = get_characters_character_id_fittings_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_fittings_holder);
+            try {
+                synchronized (get_characters_character_id_fittings_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_fittings_holder);
+                    {
+                        ret = get_characters_character_id_fittings_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_characters_character_id_fittings>();
+                            get_characters_character_id_fittings_holder.put(character_id, ret);
+                            ObsListHolderImpl<R_get_characters_character_id_fittings> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_fittings", (page, properties) -> (cache.swagger).get_characters_fittings(character_id, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_fittings_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_fittings_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Return the fleet ID the character is in, if any.
      * 
      * cache over {@link Swagger#get_characters_fleet}<br />
@@ -500,6 +775,50 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_fw_stats_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Search for entities that match a given sub-string.
+     * 
+     * cache over {@link Swagger#get_characters}<br />
+     * 
+     * @param categories
+     *     Type of entities to search for
+     * @param character_id
+     *     An EVE character ID
+     * @param search
+     *     The string to search on
+     * @param strict
+     *     Whether the search should be a strict match
+     */
+    public ObsObjHolder<R_get_characters_character_id_search> get(String[] categories,
+        int character_id,
+        String search,
+        Boolean strict) {
+        K_19_String_LString_int_Boolean param = new K_19_String_LString_int_Boolean(search, categories, character_id, strict);
+        ObsObjHolderSimple<R_get_characters_character_id_search> ret = get_characters_character_id_search_holder.get(param);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_search_holder);
+            try {
+                synchronized (get_characters_character_id_search_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_search_holder);
+                    {
+                        ret = get_characters_character_id_search_holder.get(param);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_characters_character_id_search>();
+                            ObsObjHolderSimple<R_get_characters_character_id_search> finalRet = ret;
+                            get_characters_character_id_search_holder.put(param, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_search", properties -> (cache.swagger).get_characters(categories, character_id, search, strict, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_search_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_search_holder);
             }
         }
         return ret;
@@ -718,40 +1037,6 @@ public class Characters {
     }
 
     /**
-     * Return all mailing lists that the character is subscribed to
-     * 
-     * cache over {@link Swagger#get_characters_mail_lists}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_mail_lists> mail_lists(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_mail_lists> ret = get_characters_character_id_mail_lists_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_mail_lists_holder);
-            try {
-                synchronized (get_characters_character_id_mail_lists_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_mail_lists_holder);
-                    {
-                        ret = get_characters_character_id_mail_lists_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_mail_lists>();
-                            get_characters_character_id_mail_lists_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_mail_lists> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_mail_lists", (page, properties) -> (cache.swagger).get_characters_mail_lists(character_id, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_mail_lists_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_mail_lists_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
      * Return the contents of an EVE mail
      * 
      * cache over {@link Swagger#get_characters_mail}<br />
@@ -783,6 +1068,74 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_mail_mail_id_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Return a list of the users mail labels, unread counts for each label and a total unread count.
+     * 
+     * cache over {@link Swagger#get_characters_mail_labels}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsObjHolder<R_get_characters_character_id_mail_labels> mail_labels(int character_id) {
+        ObsObjHolderSimple<R_get_characters_character_id_mail_labels> ret = get_characters_character_id_mail_labels_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_mail_labels_holder);
+            try {
+                synchronized (get_characters_character_id_mail_labels_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_mail_labels_holder);
+                    {
+                        ret = get_characters_character_id_mail_labels_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_characters_character_id_mail_labels>();
+                            ObsObjHolderSimple<R_get_characters_character_id_mail_labels> finalRet = ret;
+                            get_characters_character_id_mail_labels_holder.put(character_id, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_mail_labels", properties -> (cache.swagger).get_characters_mail_labels(character_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_mail_labels_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_mail_labels_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Return all mailing lists that the character is subscribed to
+     * 
+     * cache over {@link Swagger#get_characters_mail_lists}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_mail_lists> mail_lists(int character_id) {
+        ObsListHolderImpl<R_get_characters_character_id_mail_lists> ret = get_characters_character_id_mail_lists_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_mail_lists_holder);
+            try {
+                synchronized (get_characters_character_id_mail_lists_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_mail_lists_holder);
+                    {
+                        ret = get_characters_character_id_mail_lists_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_characters_character_id_mail_lists>();
+                            get_characters_character_id_mail_lists_holder.put(character_id, ret);
+                            ObsListHolderImpl<R_get_characters_character_id_mail_lists> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_mail_lists", (page, properties) -> (cache.swagger).get_characters_mail_lists(character_id, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_mail_lists_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_mail_lists_holder);
             }
         }
         return ret;
@@ -857,6 +1210,40 @@ public class Characters {
     }
 
     /**
+     * Return character notifications
+     * 
+     * cache over {@link Swagger#get_characters_notifications}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_notifications> notifications(int character_id) {
+        ObsListHolderImpl<R_get_characters_character_id_notifications> ret = get_characters_character_id_notifications_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_notifications_holder);
+            try {
+                synchronized (get_characters_character_id_notifications_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_notifications_holder);
+                    {
+                        ret = get_characters_character_id_notifications_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_characters_character_id_notifications>();
+                            get_characters_character_id_notifications_holder.put(character_id, ret);
+                            ObsListHolderImpl<R_get_characters_character_id_notifications> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_notifications", (page, properties) -> (cache.swagger).get_characters_notifications(character_id, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_notifications_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_notifications_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Return notifications about having been added to someone's contact list
      * 
      * cache over {@link Swagger#get_characters_notifications_contacts}<br />
@@ -891,6 +1278,40 @@ public class Characters {
     }
 
     /**
+     * Checks if the character is currently online
+     * 
+     * cache over {@link Swagger#get_characters_online}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsObjHolder<R_get_characters_character_id_online> online(int character_id) {
+        ObsObjHolderSimple<R_get_characters_character_id_online> ret = get_characters_character_id_online_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_online_holder);
+            try {
+                synchronized (get_characters_character_id_online_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_online_holder);
+                    {
+                        ret = get_characters_character_id_online_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_characters_character_id_online>();
+                            ObsObjHolderSimple<R_get_characters_character_id_online> finalRet = ret;
+                            get_characters_character_id_online_holder.put(character_id, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_online", properties -> (cache.swagger).get_characters_online(character_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_online_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_online_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Return a list of tasks finished by a character
      * 
      * cache over {@link Swagger#get_characters_opportunities}<br />
@@ -919,6 +1340,40 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_opportunities_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * List open market orders placed by a character
+     * 
+     * cache over {@link Swagger#get_characters_orders}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_orders> orders(int character_id) {
+        ObsListHolderImpl<R_get_characters_character_id_orders> ret = get_characters_character_id_orders_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_orders_holder);
+            try {
+                synchronized (get_characters_character_id_orders_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_orders_holder);
+                    {
+                        ret = get_characters_character_id_orders_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_characters_character_id_orders>();
+                            get_characters_character_id_orders_holder.put(character_id, ret);
+                            ObsListHolderImpl<R_get_characters_character_id_orders> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_orders", (page, properties) -> (cache.swagger).get_characters_orders(character_id, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_orders_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_orders_holder);
             }
         }
         return ret;
@@ -993,6 +1448,77 @@ public class Characters {
     }
 
     /**
+     * Returns full details on the layout of a single planetary colony, including links, pins and routes. Note: Planetary information is only recalculated when the colony is viewed through the client. Information will not update until this criteria is met.
+     * 
+     * cache over {@link Swagger#get_characters_planets}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     * @param planet_id
+     *     Planet id of the target planet
+     */
+    public ObsObjHolder<R_get_characters_character_id_planets_planet_id> planets(int character_id, int planet_id) {
+        K_18_int_int param = new K_18_int_int(planet_id, character_id);
+        ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id> ret = get_characters_character_id_planets_planet_id_holder.get(param);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_planets_planet_id_holder);
+            try {
+                synchronized (get_characters_character_id_planets_planet_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_planets_planet_id_holder);
+                    {
+                        ret = get_characters_character_id_planets_planet_id_holder.get(param);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id>();
+                            ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id> finalRet = ret;
+                            get_characters_character_id_planets_planet_id_holder.put(param, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_planets_planet_id", properties -> (cache.swagger).get_characters_planets(character_id, planet_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_planets_planet_id_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_planets_planet_id_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Returns a character's corporation roles
+     * 
+     * cache over {@link Swagger#get_characters_roles}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsObjHolder<R_get_characters_character_id_roles> roles(int character_id) {
+        ObsObjHolderSimple<R_get_characters_character_id_roles> ret = get_characters_character_id_roles_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_roles_holder);
+            try {
+                synchronized (get_characters_character_id_roles_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_roles_holder);
+                    {
+                        ret = get_characters_character_id_roles_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_characters_character_id_roles>();
+                            ObsObjHolderSimple<R_get_characters_character_id_roles> finalRet = ret;
+                            get_characters_character_id_roles_holder.put(character_id, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_roles", properties -> (cache.swagger).get_characters_roles(character_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_roles_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_roles_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Get the current ship type, name and id
      * 
      * cache over {@link Swagger#get_characters_ship}<br />
@@ -1021,6 +1547,74 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_ship_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * List the configured skill queue for the given character
+     * 
+     * cache over {@link Swagger#get_characters_skillqueue}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<R_get_characters_character_id_skillqueue> skillqueue(int character_id) {
+        ObsListHolderImpl<R_get_characters_character_id_skillqueue> ret = get_characters_character_id_skillqueue_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_skillqueue_holder);
+            try {
+                synchronized (get_characters_character_id_skillqueue_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_skillqueue_holder);
+                    {
+                        ret = get_characters_character_id_skillqueue_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_characters_character_id_skillqueue>();
+                            get_characters_character_id_skillqueue_holder.put(character_id, ret);
+                            ObsListHolderImpl<R_get_characters_character_id_skillqueue> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_skillqueue", (page, properties) -> (cache.swagger).get_characters_skillqueue(character_id, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_skillqueue_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_skillqueue_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * List all trained skills for the given character
+     * 
+     * cache over {@link Swagger#get_characters_skills}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsObjHolder<R_get_characters_character_id_skills> skills(int character_id) {
+        ObsObjHolderSimple<R_get_characters_character_id_skills> ret = get_characters_character_id_skills_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_skills_holder);
+            try {
+                synchronized (get_characters_character_id_skills_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_skills_holder);
+                    {
+                        ret = get_characters_character_id_skills_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_characters_character_id_skills>();
+                            ObsObjHolderSimple<R_get_characters_character_id_skills> finalRet = ret;
+                            get_characters_character_id_skills_holder.put(character_id, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_skills", properties -> (cache.swagger).get_characters_skills(character_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_skills_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_skills_holder);
             }
         }
         return ret;
@@ -1129,6 +1723,40 @@ public class Characters {
     }
 
     /**
+     * Retrieve the given character's wallet journal going 30 days back
+     * 
+     * cache over {@link Swagger#get_characters_wallet_journal}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsListHolder<M_get_journal_13> wallet_journal(int character_id) {
+        ObsListHolderImpl<M_get_journal_13> ret = get_characters_character_id_wallet_journal_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_wallet_journal_holder);
+            try {
+                synchronized (get_characters_character_id_wallet_journal_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_wallet_journal_holder);
+                    {
+                        ret = get_characters_character_id_wallet_journal_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<M_get_journal_13>();
+                            get_characters_character_id_wallet_journal_holder.put(character_id, ret);
+                            ObsListHolderImpl<M_get_journal_13> finalRet = ret;
+                            (cache).addFetchCacheArray("get_characters_character_id_wallet_journal", (page, properties) -> (cache.swagger).get_characters_wallet_journal(character_id, page, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_wallet_journal_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_wallet_journal_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Get wallet transactions of a character
      * 
      * cache over {@link Swagger#get_characters_wallet_transactions}<br />
@@ -1160,634 +1788,6 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_wallet_transactions_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Return a list of blueprints the character owns
-     * 
-     * cache over {@link Swagger#get_characters_blueprints}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_blueprints> blueprints(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_blueprints> ret = get_characters_character_id_blueprints_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_blueprints_holder);
-            try {
-                synchronized (get_characters_character_id_blueprints_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_blueprints_holder);
-                    {
-                        ret = get_characters_character_id_blueprints_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_blueprints>();
-                            get_characters_character_id_blueprints_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_blueprints> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_blueprints", (page, properties) -> (cache.swagger).get_characters_blueprints(character_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_blueprints_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_blueprints_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * A list of your character's personal bookmarks
-     * 
-     * cache over {@link Swagger#get_characters_bookmarks}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<M_get_bookmarks_9> bookmarks(int character_id) {
-        ObsListHolderImpl<M_get_bookmarks_9> ret = get_characters_character_id_bookmarks_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_bookmarks_holder);
-            try {
-                synchronized (get_characters_character_id_bookmarks_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_bookmarks_holder);
-                    {
-                        ret = get_characters_character_id_bookmarks_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<M_get_bookmarks_9>();
-                            get_characters_character_id_bookmarks_holder.put(character_id, ret);
-                            ObsListHolderImpl<M_get_bookmarks_9> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_bookmarks", (page, properties) -> (cache.swagger).get_characters_bookmarks(character_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * A list of your character's personal bookmark folders
-     * 
-     * cache over {@link Swagger#get_characters_bookmarks_folders}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_bookmarks_folders> bookmarks_folders(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_bookmarks_folders> ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_bookmarks_folders_holder);
-            try {
-                synchronized (get_characters_character_id_bookmarks_folders_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_bookmarks_folders_holder);
-                    {
-                        ret = get_characters_character_id_bookmarks_folders_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_bookmarks_folders>();
-                            get_characters_character_id_bookmarks_folders_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_bookmarks_folders> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_bookmarks_folders", (page, properties) -> (cache.swagger).get_characters_bookmarks_folders(character_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_folders_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_bookmarks_folders_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Return contacts of a character
-     * 
-     * cache over {@link Swagger#get_characters_contacts}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_contacts> contacts(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_contacts> ret = get_characters_character_id_contacts_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_contacts_holder);
-            try {
-                synchronized (get_characters_character_id_contacts_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_contacts_holder);
-                    {
-                        ret = get_characters_character_id_contacts_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_contacts>();
-                            get_characters_character_id_contacts_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_contacts> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_contacts", (page, properties) -> (cache.swagger).get_characters_contacts(character_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_contacts_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_contacts_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Return fittings of a character
-     * 
-     * cache over {@link Swagger#get_characters_fittings}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_fittings> fittings(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_fittings> ret = get_characters_character_id_fittings_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_fittings_holder);
-            try {
-                synchronized (get_characters_character_id_fittings_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_fittings_holder);
-                    {
-                        ret = get_characters_character_id_fittings_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_fittings>();
-                            get_characters_character_id_fittings_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_fittings> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_fittings", (page, properties) -> (cache.swagger).get_characters_fittings(character_id, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_fittings_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_fittings_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Checks if the character is currently online
-     * 
-     * cache over {@link Swagger#get_characters_online}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsObjHolder<R_get_characters_character_id_online> online(int character_id) {
-        ObsObjHolderSimple<R_get_characters_character_id_online> ret = get_characters_character_id_online_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_online_holder);
-            try {
-                synchronized (get_characters_character_id_online_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_online_holder);
-                    {
-                        ret = get_characters_character_id_online_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_online>();
-                            ObsObjHolderSimple<R_get_characters_character_id_online> finalRet = ret;
-                            get_characters_character_id_online_holder.put(character_id, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_online", properties -> (cache.swagger).get_characters_online(character_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_online_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_online_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * List open market orders placed by a character
-     * 
-     * cache over {@link Swagger#get_characters_orders}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_orders> orders(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_orders> ret = get_characters_character_id_orders_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_orders_holder);
-            try {
-                synchronized (get_characters_character_id_orders_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_orders_holder);
-                    {
-                        ret = get_characters_character_id_orders_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_orders>();
-                            get_characters_character_id_orders_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_orders> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_orders", (page, properties) -> (cache.swagger).get_characters_orders(character_id, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_orders_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_orders_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Returns a character's corporation roles
-     * 
-     * cache over {@link Swagger#get_characters_roles}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsObjHolder<R_get_characters_character_id_roles> roles(int character_id) {
-        ObsObjHolderSimple<R_get_characters_character_id_roles> ret = get_characters_character_id_roles_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_roles_holder);
-            try {
-                synchronized (get_characters_character_id_roles_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_roles_holder);
-                    {
-                        ret = get_characters_character_id_roles_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_roles>();
-                            ObsObjHolderSimple<R_get_characters_character_id_roles> finalRet = ret;
-                            get_characters_character_id_roles_holder.put(character_id, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_roles", properties -> (cache.swagger).get_characters_roles(character_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_roles_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_roles_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * List the configured skill queue for the given character
-     * 
-     * cache over {@link Swagger#get_characters_skillqueue}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_skillqueue> skillqueue(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_skillqueue> ret = get_characters_character_id_skillqueue_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_skillqueue_holder);
-            try {
-                synchronized (get_characters_character_id_skillqueue_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_skillqueue_holder);
-                    {
-                        ret = get_characters_character_id_skillqueue_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_skillqueue>();
-                            get_characters_character_id_skillqueue_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_skillqueue> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_skillqueue", (page, properties) -> (cache.swagger).get_characters_skillqueue(character_id, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_skillqueue_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_skillqueue_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Get all the information for a specific event
-     * 
-     * cache over {@link Swagger#get_characters_calendar}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     * @param event_id
-     *     The id of the event requested
-     */
-    public ObsObjHolder<R_get_characters_character_id_calendar_event_id> calendar(int character_id, int event_id) {
-        K_1_int_int param = new K_1_int_int(event_id, character_id);
-        ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id> ret = get_characters_character_id_calendar_event_id_holder.get(param);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_calendar_event_id_holder);
-            try {
-                synchronized (get_characters_character_id_calendar_event_id_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_calendar_event_id_holder);
-                    {
-                        ret = get_characters_character_id_calendar_event_id_holder.get(param);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id>();
-                            ObsObjHolderSimple<R_get_characters_character_id_calendar_event_id> finalRet = ret;
-                            get_characters_character_id_calendar_event_id_holder.put(param, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_calendar_event_id", properties -> (cache.swagger).get_characters_calendar(character_id, event_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_calendar_event_id_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_calendar_event_id_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * A list of the character's clones
-     * 
-     * cache over {@link Swagger#get_characters_clones}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsObjHolder<R_get_characters_character_id_clones> clones(int character_id) {
-        ObsObjHolderSimple<R_get_characters_character_id_clones> ret = get_characters_character_id_clones_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_clones_holder);
-            try {
-                synchronized (get_characters_character_id_clones_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_clones_holder);
-                    {
-                        ret = get_characters_character_id_clones_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_clones>();
-                            ObsObjHolderSimple<R_get_characters_character_id_clones> finalRet = ret;
-                            get_characters_character_id_clones_holder.put(character_id, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_clones", properties -> (cache.swagger).get_characters_clones(character_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_clones_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_clones_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Return a list of the users mail labels, unread counts for each label and a total unread count.
-     * 
-     * cache over {@link Swagger#get_characters_mail_labels}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsObjHolder<R_get_characters_character_id_mail_labels> mail_labels(int character_id) {
-        ObsObjHolderSimple<R_get_characters_character_id_mail_labels> ret = get_characters_character_id_mail_labels_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_mail_labels_holder);
-            try {
-                synchronized (get_characters_character_id_mail_labels_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_mail_labels_holder);
-                    {
-                        ret = get_characters_character_id_mail_labels_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_mail_labels>();
-                            ObsObjHolderSimple<R_get_characters_character_id_mail_labels> finalRet = ret;
-                            get_characters_character_id_mail_labels_holder.put(character_id, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_mail_labels", properties -> (cache.swagger).get_characters_mail_labels(character_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_mail_labels_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_mail_labels_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Returns full details on the layout of a single planetary colony, including links, pins and routes. Note: Planetary information is only recalculated when the colony is viewed through the client. Information will not update until this criteria is met.
-     * 
-     * cache over {@link Swagger#get_characters_planets}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     * @param planet_id
-     *     Planet id of the target planet
-     */
-    public ObsObjHolder<R_get_characters_character_id_planets_planet_id> planets(int character_id, int planet_id) {
-        K_18_int_int param = new K_18_int_int(planet_id, character_id);
-        ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id> ret = get_characters_character_id_planets_planet_id_holder.get(param);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_planets_planet_id_holder);
-            try {
-                synchronized (get_characters_character_id_planets_planet_id_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_planets_planet_id_holder);
-                    {
-                        ret = get_characters_character_id_planets_planet_id_holder.get(param);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id>();
-                            ObsObjHolderSimple<R_get_characters_character_id_planets_planet_id> finalRet = ret;
-                            get_characters_character_id_planets_planet_id_holder.put(param, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_planets_planet_id", properties -> (cache.swagger).get_characters_planets(character_id, planet_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_planets_planet_id_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_planets_planet_id_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Search for entities that match a given sub-string.
-     * 
-     * cache over {@link Swagger#get_characters}<br />
-     * 
-     * @param categories
-     *     Type of entities to search for
-     * @param character_id
-     *     An EVE character ID
-     * @param search
-     *     The string to search on
-     * @param strict
-     *     Whether the search should be a strict match
-     */
-    public ObsObjHolder<R_get_characters_character_id_search> get(String[] categories,
-        int character_id,
-        String search,
-        Boolean strict) {
-        K_19_String_LString_int_Boolean param = new K_19_String_LString_int_Boolean(search, categories, character_id, strict);
-        ObsObjHolderSimple<R_get_characters_character_id_search> ret = get_characters_character_id_search_holder.get(param);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_search_holder);
-            try {
-                synchronized (get_characters_character_id_search_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_search_holder);
-                    {
-                        ret = get_characters_character_id_search_holder.get(param);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_search>();
-                            ObsObjHolderSimple<R_get_characters_character_id_search> finalRet = ret;
-                            get_characters_character_id_search_holder.put(param, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_search", properties -> (cache.swagger).get_characters(categories, character_id, search, strict, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_search_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_search_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * List all trained skills for the given character
-     * 
-     * cache over {@link Swagger#get_characters_skills}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsObjHolder<R_get_characters_character_id_skills> skills(int character_id) {
-        ObsObjHolderSimple<R_get_characters_character_id_skills> ret = get_characters_character_id_skills_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_skills_holder);
-            try {
-                synchronized (get_characters_character_id_skills_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_skills_holder);
-                    {
-                        ret = get_characters_character_id_skills_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_skills>();
-                            ObsObjHolderSimple<R_get_characters_character_id_skills> finalRet = ret;
-                            get_characters_character_id_skills_holder.put(character_id, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_skills", properties -> (cache.swagger).get_characters_skills(character_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_skills_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_skills_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Return a list of the characters assets
-     * 
-     * cache over {@link Swagger#get_characters_assets}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_assets> assets(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_assets> ret = get_characters_character_id_assets_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_assets_holder);
-            try {
-                synchronized (get_characters_character_id_assets_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_assets_holder);
-                    {
-                        ret = get_characters_character_id_assets_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_assets>();
-                            get_characters_character_id_assets_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_assets> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_assets", (page, properties) -> (cache.swagger).get_characters_assets(character_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_assets_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_assets_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Return character notifications
-     * 
-     * cache over {@link Swagger#get_characters_notifications}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<R_get_characters_character_id_notifications> notifications(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_notifications> ret = get_characters_character_id_notifications_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_notifications_holder);
-            try {
-                synchronized (get_characters_character_id_notifications_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_notifications_holder);
-                    {
-                        ret = get_characters_character_id_notifications_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_notifications>();
-                            get_characters_character_id_notifications_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_notifications> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_notifications", (page, properties) -> (cache.swagger).get_characters_notifications(character_id, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_notifications_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_notifications_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Retrieve the given character's wallet journal going 30 days back
-     * 
-     * cache over {@link Swagger#get_characters_wallet_journal}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsListHolder<M_get_journal_13> wallet_journal(int character_id) {
-        ObsListHolderImpl<M_get_journal_13> ret = get_characters_character_id_wallet_journal_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_wallet_journal_holder);
-            try {
-                synchronized (get_characters_character_id_wallet_journal_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_wallet_journal_holder);
-                    {
-                        ret = get_characters_character_id_wallet_journal_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<M_get_journal_13>();
-                            get_characters_character_id_wallet_journal_holder.put(character_id, ret);
-                            ObsListHolderImpl<M_get_journal_13> finalRet = ret;
-                            (cache).addFetchCacheArray("get_characters_character_id_wallet_journal", (page, properties) -> (cache.swagger).get_characters_wallet_journal(character_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_wallet_journal_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_wallet_journal_holder);
             }
         }
         return ret;

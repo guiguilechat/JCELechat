@@ -24,67 +24,6 @@ public class Corporations {
     }
 
     /**
-     * Get a list of npc corporations
-     * 
-     * cache over {@link Swagger#get_corporations_npccorps}<br />
-     */
-    public ObsListHolder<Integer> npccorps() {
-        if (get_corporations_npccorps_holder == null) {
-            LockWatchDog.BARKER.tak(this);
-            try {
-                synchronized (this)
-                {
-                    LockWatchDog.BARKER.hld(this);
-                    {
-                        if (get_corporations_npccorps_holder == null) {
-                            get_corporations_npccorps_holder = new ObsListHolderImpl<Integer>();
-                            (cache).addFetchCacheArray("get_corporations_npccorps", (page, properties) -> (cache.swagger).get_corporations_npccorps(properties), arr -> get_corporations_npccorps_holder.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(this);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(this);
-            }
-        }
-        return get_corporations_npccorps_holder;
-    }
-
-    /**
-     * Get the icon urls for a corporation
-     * 
-     * cache over {@link Swagger#get_corporations_icons}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsObjHolder<R_get_corporations_corporation_id_icons> icons(int corporation_id) {
-        ObsObjHolderSimple<R_get_corporations_corporation_id_icons> ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_icons_holder);
-            try {
-                synchronized (get_corporations_corporation_id_icons_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_icons_holder);
-                    {
-                        ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_corporations_corporation_id_icons>();
-                            ObsObjHolderSimple<R_get_corporations_corporation_id_icons> finalRet = ret;
-                            get_corporations_corporation_id_icons_holder.put(corporation_id, ret);
-                            (cache).addFetchCacheObject("get_corporations_corporation_id_icons", properties -> (cache.swagger).get_corporations_icons(corporation_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_icons_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_icons_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
      * Get a list of all the alliances a corporation has been a member of
      * 
      * cache over {@link Swagger#get_corporations_alliancehistory}<br />
@@ -150,5 +89,66 @@ public class Corporations {
             }
         }
         return ret;
+    }
+
+    /**
+     * Get the icon urls for a corporation
+     * 
+     * cache over {@link Swagger#get_corporations_icons}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsObjHolder<R_get_corporations_corporation_id_icons> icons(int corporation_id) {
+        ObsObjHolderSimple<R_get_corporations_corporation_id_icons> ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_icons_holder);
+            try {
+                synchronized (get_corporations_corporation_id_icons_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_icons_holder);
+                    {
+                        ret = get_corporations_corporation_id_icons_holder.get(corporation_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_corporations_corporation_id_icons>();
+                            ObsObjHolderSimple<R_get_corporations_corporation_id_icons> finalRet = ret;
+                            get_corporations_corporation_id_icons_holder.put(corporation_id, ret);
+                            (cache).addFetchCacheObject("get_corporations_corporation_id_icons", properties -> (cache.swagger).get_corporations_icons(corporation_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_icons_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_icons_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Get a list of npc corporations
+     * 
+     * cache over {@link Swagger#get_corporations_npccorps}<br />
+     */
+    public ObsListHolder<Integer> npccorps() {
+        if (get_corporations_npccorps_holder == null) {
+            LockWatchDog.BARKER.tak(this);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    {
+                        if (get_corporations_npccorps_holder == null) {
+                            get_corporations_npccorps_holder = new ObsListHolderImpl<Integer>();
+                            (cache).addFetchCacheArray("get_corporations_npccorps", (page, properties) -> (cache.swagger).get_corporations_npccorps(properties), arr -> get_corporations_npccorps_holder.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(this);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
+            }
+        }
+        return get_corporations_npccorps_holder;
     }
 }

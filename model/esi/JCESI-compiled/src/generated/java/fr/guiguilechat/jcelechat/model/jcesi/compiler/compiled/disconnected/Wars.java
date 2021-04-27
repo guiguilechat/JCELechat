@@ -22,40 +22,6 @@ public class Wars {
     }
 
     /**
-     * Return a list of wars
-     * 
-     * cache over {@link Swagger#get_wars}<br />
-     * 
-     * @param max_war_id
-     *     Only return wars with ID smaller than this
-     */
-    public ObsListHolder<Integer> wars(Integer max_war_id) {
-        ObsListHolderImpl<Integer> ret = get_wars_holder.get(max_war_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_wars_holder);
-            try {
-                synchronized (get_wars_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_wars_holder);
-                    {
-                        ret = get_wars_holder.get(max_war_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<Integer>();
-                            get_wars_holder.put(max_war_id, ret);
-                            ObsListHolderImpl<Integer> finalRet = ret;
-                            (cache).addFetchCacheArray("get_wars", (page, properties) -> (cache.swagger).get_wars(max_war_id, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_wars_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_wars_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
      * Return details about a war
      * 
      * cache over {@link Swagger#get_wars}<br />
@@ -118,6 +84,40 @@ public class Wars {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_wars_war_id_killmails_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Return a list of wars
+     * 
+     * cache over {@link Swagger#get_wars}<br />
+     * 
+     * @param max_war_id
+     *     Only return wars with ID smaller than this
+     */
+    public ObsListHolder<Integer> wars(Integer max_war_id) {
+        ObsListHolderImpl<Integer> ret = get_wars_holder.get(max_war_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_wars_holder);
+            try {
+                synchronized (get_wars_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_wars_holder);
+                    {
+                        ret = get_wars_holder.get(max_war_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<Integer>();
+                            get_wars_holder.put(max_war_id, ret);
+                            ObsListHolderImpl<Integer> finalRet = ret;
+                            (cache).addFetchCacheArray("get_wars", (page, properties) -> (cache.swagger).get_wars(max_war_id, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_wars_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_wars_holder);
             }
         }
         return ret;

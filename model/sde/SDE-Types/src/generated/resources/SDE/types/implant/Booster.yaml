@@ -4155,6 +4155,29 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 5
+  Serenity Monthly Cerebral Accelerator - 2021.5:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18779.666015625
+    boosterness: 19
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 58727
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity Monthly Cerebral Accelerator - 2021.5
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
   Serenity November Season Advanced Cerebral Accelerator:
     boosterduration: 8.64E7
     boosterlastinjectiondatetime: 18606.125
@@ -4535,6 +4558,75 @@ types:
     socialbonus: 100
     volume: 1.0
     willpowerbonus: 2021
+  Serenity The Hunt Accelerator Bronze:
+    boosterduration: 10000.0
+    boosterlastinjectiondatetime: 18753.125
+    boosterness: 130
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 58770
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity The Hunt Accelerator Bronze
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity The Hunt Accelerator Gold:
+    boosterduration: 10000.0
+    boosterlastinjectiondatetime: 18753.125
+    boosterness: 130
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 58772
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity The Hunt Accelerator Gold
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity The Hunt Accelerator Silver:
+    boosterduration: 10000.0
+    boosterlastinjectiondatetime: 18753.125
+    boosterness: 130
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 58771
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity The Hunt Accelerator Silver
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
   Serenity YC122.9 Season Booster - Agility:
     agilitybonus: -5.0
     boosterduration: 4.32E7
@@ -4938,6 +5030,75 @@ types:
     intelligencebonus: 5
     memorybonus: 5
     name: Serenity YC123.4 Season Standard Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.5 Season Advanced Cerebral Accelerator:
+    boosterduration: 8.64E7
+    boosterlastinjectiondatetime: 18788.125
+    boosterness: 128
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 58759
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.5 Season Advanced Cerebral Accelerator
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 5
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 5
+  Serenity YC123.5 Season Pass:
+    boosterduration: 2.5056E9
+    boosterlastinjectiondatetime: 18776.125
+    boosterness: 129
+    charismabonus: 1
+    followsjumpclones: 1
+    id: 58760
+    intelligencebonus: 1
+    memorybonus: 1
+    name: Serenity YC123.5 Season Pass
+    nondestructible: 1
+    nondiminishingskillinjectoruses: 1
+    packagedVolume: 1.0
+    perceptionbonus: 1
+    portionSize: 1
+    price: 32768.0
+    published: true
+    radius: 1.0
+    requiredskill1: 3402
+    requiredskill1level: 1
+    socialbonus: 100
+    volume: 1.0
+    willpowerbonus: 1
+  Serenity YC123.5 Season Standard Cerebral Accelerator:
+    boosterduration: 4.32E7
+    boosterlastinjectiondatetime: 18788.125
+    boosterness: 127
+    charismabonus: 5
+    followsjumpclones: 1
+    id: 58758
+    intelligencebonus: 5
+    memorybonus: 5
+    name: Serenity YC123.5 Season Standard Cerebral Accelerator
     nondestructible: 1
     nondiminishingskillinjectoruses: 1
     packagedVolume: 1.0
@@ -5772,11 +5933,11 @@ types:
     radius: 1.0
     requiredskill1: 3405
     requiredskill1level: 1
-    shieldboostmultiplier: 3.0
+    shieldboostmultiplier: 6.0
     socialbonus: 100
     volume: 1.0
   Synth Crash Booster:
-    aoecloudsizebonus: -3.0
+    aoecloudsizebonus: -6.0
     boosterduration: 1800000.0
     boosterness: 3
     id: 28672
@@ -5807,10 +5968,10 @@ types:
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
-    trackingspeedbonus: 3.0
+    trackingspeedbonus: 6.0
     volume: 1.0
   Synth Exile Booster:
-    armordamageamountbonus: 3
+    armordamageamountbonus: 6
     boosterduration: 1800000.0
     boosterness: 1
     id: 28676
@@ -5838,7 +5999,7 @@ types:
     price: 8192.0
     published: true
     radius: 1.0
-    rangeskillbonus: 3
+    rangeskillbonus: 6
     requiredskill1: 3405
     requiredskill1level: 1
     socialbonus: 100
@@ -5846,7 +6007,7 @@ types:
   Synth Mindflood Booster:
     boosterduration: 1800000.0
     boosterness: 1
-    capacitorcapacitybonus: 3.0
+    capacitorcapacitybonus: 6.0
     id: 28680
     marketGroup: 2493
     name: Synth Mindflood Booster
@@ -5863,7 +6024,7 @@ types:
   Synth Sooth Sayer Booster:
     boosterduration: 1800000.0
     boosterness: 2
-    falloffbonus: 3.0
+    falloffbonus: 6.0
     id: 28684
     marketGroup: 2498
     name: Synth Sooth Sayer Booster
@@ -5891,6 +6052,6 @@ types:
     radius: 1.0
     requiredskill1: 3405
     requiredskill1level: 1
-    signatureradiusbonus: -2.25
+    signatureradiusbonus: -4.5
     socialbonus: 100
     volume: 1.0

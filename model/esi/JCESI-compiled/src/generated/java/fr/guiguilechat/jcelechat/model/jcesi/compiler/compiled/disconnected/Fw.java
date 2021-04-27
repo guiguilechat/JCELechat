@@ -133,33 +133,6 @@ public class Fw {
     }
 
     /**
-     * Data about which NPC factions are at war
-     * 
-     * cache over {@link Swagger#get_fw_wars}<br />
-     */
-    public ObsListHolder<R_get_fw_wars> wars() {
-        if (get_fw_wars_holder == null) {
-            LockWatchDog.BARKER.tak(this);
-            try {
-                synchronized (this)
-                {
-                    LockWatchDog.BARKER.hld(this);
-                    {
-                        if (get_fw_wars_holder == null) {
-                            get_fw_wars_holder = new ObsListHolderImpl<R_get_fw_wars>();
-                            (cache).addFetchCacheArray("get_fw_wars", (page, properties) -> (cache.swagger).get_fw_wars(properties), arr -> get_fw_wars_holder.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(this);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(this);
-            }
-        }
-        return get_fw_wars_holder;
-    }
-
-    /**
      * An overview of the current ownership of faction warfare solar systems
      * 
      * cache over {@link Swagger#get_fw_systems}<br />
@@ -184,5 +157,32 @@ public class Fw {
             }
         }
         return get_fw_systems_holder;
+    }
+
+    /**
+     * Data about which NPC factions are at war
+     * 
+     * cache over {@link Swagger#get_fw_wars}<br />
+     */
+    public ObsListHolder<R_get_fw_wars> wars() {
+        if (get_fw_wars_holder == null) {
+            LockWatchDog.BARKER.tak(this);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    {
+                        if (get_fw_wars_holder == null) {
+                            get_fw_wars_holder = new ObsListHolderImpl<R_get_fw_wars>();
+                            (cache).addFetchCacheArray("get_fw_wars", (page, properties) -> (cache.swagger).get_fw_wars(properties), arr -> get_fw_wars_holder.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(this);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
+            }
+        }
+        return get_fw_wars_holder;
     }
 }

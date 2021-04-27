@@ -69,7 +69,7 @@ types:
     portionSize: 1
     poweroutput: 1250000
     powertospeed: 1
-    price: 5.0383183872E10
+    price: 1.77038000128E11
     propulsiongraphicid: 394
     published: true
     radius: 6800.0
@@ -185,7 +185,7 @@ types:
     portionSize: 1
     poweroutput: 1050000
     powertospeed: 1
-    price: 5.0699804672E10
+    price: 1.78800001024E11
     propulsiongraphicid: 394
     published: true
     radius: 7500.0
@@ -308,6 +308,7 @@ types:
     portionSize: 1
     poweroutput: 840000
     powertospeed: 1
+    price: 2.54538006528E11
     propulsiongraphicid: 395
     published: true
     radius: 9000.0
@@ -430,7 +431,7 @@ types:
     portionSize: 1
     poweroutput: 755000
     powertospeed: 1
-    price: 4.9100550144E10
+    price: 1.76983998464E11
     propulsiongraphicid: 395
     published: true
     radius: 9000.0
@@ -550,6 +551,7 @@ types:
     portionSize: 1
     poweroutput: 1375000
     powertospeed: 1
+    price: 2.53641998336E11
     propulsiongraphicid: 394
     published: true
     radius: 6800.0
@@ -669,7 +671,7 @@ types:
     portionSize: 1
     poweroutput: 965000
     powertospeed: 1
-    price: 4.86784E10
+    price: 1.78376998912E11
     propulsiongraphicid: 397
     published: true
     radius: 8900.0
@@ -787,6 +789,7 @@ types:
     portionSize: 1
     poweroutput: 1155000
     powertospeed: 1
+    price: 6.72620019712E11
     propulsiongraphicid: 394
     published: true
     radius: 7500.0

@@ -3,6 +3,10 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 import org.slf4j.Logger;
@@ -10,6 +14,9 @@ import org.slf4j.LoggerFactory;
 
 import com.helger.jcodemodel.JClassAlreadyExistsException;
 import com.helger.jcodemodel.JCodeModel;
+import com.helger.jcodemodel.JDefinedClass;
+import com.helger.jcodemodel.JMethod;
+import com.helger.jcodemodel.JPackage;
 import com.helger.jcodemodel.writer.JCMWriter;
 import com.helger.jcodemodel.writer.ProgressCodeWriter.IProgressTracker;
 
@@ -77,7 +84,7 @@ public class ESICompiler {
 		JCodeModel cm = new JCodeModel();
 		ClassBridge cltrans = makeClassBridge(cm, swagger);
 
-		swagger.getPaths().entrySet().forEach(e -> {
+		swagger.getPaths().entrySet().stream().sorted((p1, p2) -> p1.getKey().compareTo(p2.getKey())).forEach(e -> {
 			String resource = e.getKey();
 			Path p = e.getValue();
 
@@ -88,6 +95,7 @@ public class ESICompiler {
 			new FetchTranslator(p.getDelete(), OpType.delete, baseURL + resource, cltrans).apply();
 			new FetchTranslator(p.getPost(), OpType.post, baseURL + resource, cltrans).apply();
 		});
+		sort(cm);
 		return cm;
 	}
 
@@ -147,6 +155,22 @@ public class ESICompiler {
 			// if an Arraypropert<y??> we return null so no break;
 		default:
 			return null;
+		}
+	}
+
+	public static void sort(JCodeModel cm) {
+		for (Iterator<JPackage> it = cm.packages(); it.hasNext();) {
+			JPackage p = it.next();
+			for (JDefinedClass cl : p.classes()) {
+				sort(cl);
+			}
+		}
+	}
+
+	public static void sort(JDefinedClass cl) {
+		Collections.sort((List<JMethod>) cl.methods(), Comparator.comparing(m -> m.name()));
+		for (JDefinedClass cli : cl.classes()) {
+			sort(cli);
 		}
 	}
 

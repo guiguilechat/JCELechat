@@ -47,7 +47,7 @@ public class R_get_corporations_corporation_id_starbases_starbase_id {
     /**
      * Fuel blocks and other things that will be consumed when operating a starbase (POS)
      */
-    public get_corporations_corporation_id_starbases_starbase_id_fuels[] fuels;
+    public R_get_loyalty_stores_corporation_id_offers_required_items[] fuels;
     /**
      * Who can offline starbase (POS) and its structures
      */

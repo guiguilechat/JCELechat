@@ -21,6 +21,40 @@ public class Contracts {
     }
 
     /**
+     * Returns a paginated list of all public contracts in the given region
+     * 
+     * cache over {@link Swagger#get_contracts_public}<br />
+     * 
+     * @param region_id
+     *     An EVE region id
+     */
+    public ObsListHolder<R_get_contracts_public_region_id> getpublic(int region_id) {
+        ObsListHolderImpl<R_get_contracts_public_region_id> ret = get_contracts_public_region_id_holder.get(region_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_contracts_public_region_id_holder);
+            try {
+                synchronized (get_contracts_public_region_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_contracts_public_region_id_holder);
+                    {
+                        ret = get_contracts_public_region_id_holder.get(region_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_contracts_public_region_id>();
+                            get_contracts_public_region_id_holder.put(region_id, ret);
+                            ObsListHolderImpl<R_get_contracts_public_region_id> finalRet = ret;
+                            (cache).addFetchCacheArray("get_contracts_public_region_id", (page, properties) -> (cache.swagger).get_contracts_public(page, region_id, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_contracts_public_region_id_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_contracts_public_region_id_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Lists bids on a public auction contract
      * 
      * cache over {@link Swagger#get_contracts_public_bids}<br />
@@ -83,40 +117,6 @@ public class Contracts {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_contracts_public_items_contract_id_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Returns a paginated list of all public contracts in the given region
-     * 
-     * cache over {@link Swagger#get_contracts_public}<br />
-     * 
-     * @param region_id
-     *     An EVE region id
-     */
-    public ObsListHolder<R_get_contracts_public_region_id> getpublic(int region_id) {
-        ObsListHolderImpl<R_get_contracts_public_region_id> ret = get_contracts_public_region_id_holder.get(region_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_contracts_public_region_id_holder);
-            try {
-                synchronized (get_contracts_public_region_id_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_contracts_public_region_id_holder);
-                    {
-                        ret = get_contracts_public_region_id_holder.get(region_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_contracts_public_region_id>();
-                            get_contracts_public_region_id_holder.put(region_id, ret);
-                            ObsListHolderImpl<R_get_contracts_public_region_id> finalRet = ret;
-                            (cache).addFetchCacheArray("get_contracts_public_region_id", (page, properties) -> (cache.swagger).get_contracts_public(page, region_id, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_contracts_public_region_id_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_contracts_public_region_id_holder);
             }
         }
         return ret;

@@ -275,6 +275,33 @@ public class Universe {
     }
 
     /**
+     * Get a list of factions
+     * 
+     * cache over {@link Swagger#get_universe_factions}<br />
+     */
+    public ObsListHolder<R_get_universe_factions> factions() {
+        if (get_universe_factions_holder == null) {
+            LockWatchDog.BARKER.tak(this);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    {
+                        if (get_universe_factions_holder == null) {
+                            get_universe_factions_holder = new ObsListHolderImpl<R_get_universe_factions>();
+                            (cache).addFetchCacheArray("get_universe_factions", (page, properties) -> (cache.swagger).get_universe_factions(properties), arr -> get_universe_factions_holder.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(this);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
+            }
+        }
+        return get_universe_factions_holder;
+    }
+
+    /**
      * Get a list of graphics
      * 
      * cache over {@link Swagger#get_universe_graphics}<br />
@@ -655,6 +682,40 @@ public class Universe {
     }
 
     /**
+     * Get information on a station
+     * 
+     * cache over {@link Swagger#get_universe_stations}<br />
+     * 
+     * @param station_id
+     *     station_id integer
+     */
+    public ObsObjHolder<R_get_universe_stations_station_id> stations(int station_id) {
+        ObsObjHolderSimple<R_get_universe_stations_station_id> ret = get_universe_stations_station_id_holder.get(station_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_stations_station_id_holder);
+            try {
+                synchronized (get_universe_stations_station_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_universe_stations_station_id_holder);
+                    {
+                        ret = get_universe_stations_station_id_holder.get(station_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_universe_stations_station_id>();
+                            ObsObjHolderSimple<R_get_universe_stations_station_id> finalRet = ret;
+                            get_universe_stations_station_id_holder.put(station_id, ret);
+                            (cache).addFetchCacheObject("get_universe_stations_station_id", properties -> (cache.swagger).get_universe_stations(station_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_universe_stations_station_id_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_universe_stations_station_id_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * List all public structures
      * 
      * cache over {@link Swagger#get_universe_structures}<br />
@@ -716,121 +777,6 @@ public class Universe {
     }
 
     /**
-     * Get a list of solar systems
-     * 
-     * cache over {@link Swagger#get_universe_systems}<br />
-     */
-    public ObsListHolder<Integer> systems() {
-        if (get_universe_systems_holder == null) {
-            LockWatchDog.BARKER.tak(this);
-            try {
-                synchronized (this)
-                {
-                    LockWatchDog.BARKER.hld(this);
-                    {
-                        if (get_universe_systems_holder == null) {
-                            get_universe_systems_holder = new ObsListHolderImpl<Integer>();
-                            (cache).addFetchCacheArray("get_universe_systems", (page, properties) -> (cache.swagger).get_universe_systems(properties), arr -> get_universe_systems_holder.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(this);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(this);
-            }
-        }
-        return get_universe_systems_holder;
-    }
-
-    /**
-     * Get a list of type ids
-     * 
-     * cache over {@link Swagger#get_universe_types}<br />
-     */
-    public ObsListHolder<Integer> types() {
-        if (get_universe_types_holder == null) {
-            LockWatchDog.BARKER.tak(this);
-            try {
-                synchronized (this)
-                {
-                    LockWatchDog.BARKER.hld(this);
-                    {
-                        if (get_universe_types_holder == null) {
-                            get_universe_types_holder = new ObsListHolderImpl<Integer>();
-                            (cache).addFetchCacheArray("get_universe_types", (page, properties) -> (cache.swagger).get_universe_types(page, properties), arr -> get_universe_types_holder.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(this);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(this);
-            }
-        }
-        return get_universe_types_holder;
-    }
-
-    /**
-     * Get a list of factions
-     * 
-     * cache over {@link Swagger#get_universe_factions}<br />
-     */
-    public ObsListHolder<R_get_universe_factions> factions() {
-        if (get_universe_factions_holder == null) {
-            LockWatchDog.BARKER.tak(this);
-            try {
-                synchronized (this)
-                {
-                    LockWatchDog.BARKER.hld(this);
-                    {
-                        if (get_universe_factions_holder == null) {
-                            get_universe_factions_holder = new ObsListHolderImpl<R_get_universe_factions>();
-                            (cache).addFetchCacheArray("get_universe_factions", (page, properties) -> (cache.swagger).get_universe_factions(properties), arr -> get_universe_factions_holder.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(this);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(this);
-            }
-        }
-        return get_universe_factions_holder;
-    }
-
-    /**
-     * Get information on a station
-     * 
-     * cache over {@link Swagger#get_universe_stations}<br />
-     * 
-     * @param station_id
-     *     station_id integer
-     */
-    public ObsObjHolder<R_get_universe_stations_station_id> stations(int station_id) {
-        ObsObjHolderSimple<R_get_universe_stations_station_id> ret = get_universe_stations_station_id_holder.get(station_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_universe_stations_station_id_holder);
-            try {
-                synchronized (get_universe_stations_station_id_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_universe_stations_station_id_holder);
-                    {
-                        ret = get_universe_stations_station_id_holder.get(station_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_universe_stations_station_id>();
-                            ObsObjHolderSimple<R_get_universe_stations_station_id> finalRet = ret;
-                            get_universe_stations_station_id_holder.put(station_id, ret);
-                            (cache).addFetchCacheObject("get_universe_stations_station_id", properties -> (cache.swagger).get_universe_stations(station_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_universe_stations_station_id_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_universe_stations_station_id_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
      * Get the number of ship, pod and NPC kills per solar system within the last hour ending at the timestamp of the Last-Modified header, excluding wormhole space. Only systems with kills will be listed
      * 
      * cache over {@link Swagger#get_universe_system_kills}<br />
@@ -858,37 +804,30 @@ public class Universe {
     }
 
     /**
-     * Get information on a type
+     * Get a list of solar systems
      * 
-     * cache over {@link Swagger#get_universe_types}<br />
-     * 
-     * @param type_id
-     *     An Eve item type ID
+     * cache over {@link Swagger#get_universe_systems}<br />
      */
-    public ObsObjHolder<R_get_universe_types_type_id> types(int type_id) {
-        ObsObjHolderSimple<R_get_universe_types_type_id> ret = get_universe_types_type_id_holder.get(type_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_universe_types_type_id_holder);
+    public ObsListHolder<Integer> systems() {
+        if (get_universe_systems_holder == null) {
+            LockWatchDog.BARKER.tak(this);
             try {
-                synchronized (get_universe_types_type_id_holder)
+                synchronized (this)
                 {
-                    LockWatchDog.BARKER.hld(get_universe_types_type_id_holder);
+                    LockWatchDog.BARKER.hld(this);
                     {
-                        ret = get_universe_types_type_id_holder.get(type_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_universe_types_type_id>();
-                            ObsObjHolderSimple<R_get_universe_types_type_id> finalRet = ret;
-                            get_universe_types_type_id_holder.put(type_id, ret);
-                            (cache).addFetchCacheObject("get_universe_types_type_id", properties -> (cache.swagger).get_universe_types(type_id, properties), item -> finalRet.set(item));
+                        if (get_universe_systems_holder == null) {
+                            get_universe_systems_holder = new ObsListHolderImpl<Integer>();
+                            (cache).addFetchCacheArray("get_universe_systems", (page, properties) -> (cache.swagger).get_universe_systems(properties), arr -> get_universe_systems_holder.set(arr));
                         }
                     }
-                    LockWatchDog.BARKER.rel(get_universe_types_type_id_holder);
+                    LockWatchDog.BARKER.rel(this);
                 }
             } finally {
-                LockWatchDog.BARKER.rel(get_universe_types_type_id_holder);
+                LockWatchDog.BARKER.rel(this);
             }
         }
-        return ret;
+        return get_universe_systems_holder;
     }
 
     /**
@@ -920,6 +859,67 @@ public class Universe {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_universe_systems_system_id_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Get a list of type ids
+     * 
+     * cache over {@link Swagger#get_universe_types}<br />
+     */
+    public ObsListHolder<Integer> types() {
+        if (get_universe_types_holder == null) {
+            LockWatchDog.BARKER.tak(this);
+            try {
+                synchronized (this)
+                {
+                    LockWatchDog.BARKER.hld(this);
+                    {
+                        if (get_universe_types_holder == null) {
+                            get_universe_types_holder = new ObsListHolderImpl<Integer>();
+                            (cache).addFetchCacheArray("get_universe_types", (page, properties) -> (cache.swagger).get_universe_types(page, properties), arr -> get_universe_types_holder.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(this);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(this);
+            }
+        }
+        return get_universe_types_holder;
+    }
+
+    /**
+     * Get information on a type
+     * 
+     * cache over {@link Swagger#get_universe_types}<br />
+     * 
+     * @param type_id
+     *     An Eve item type ID
+     */
+    public ObsObjHolder<R_get_universe_types_type_id> types(int type_id) {
+        ObsObjHolderSimple<R_get_universe_types_type_id> ret = get_universe_types_type_id_holder.get(type_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_universe_types_type_id_holder);
+            try {
+                synchronized (get_universe_types_type_id_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_universe_types_type_id_holder);
+                    {
+                        ret = get_universe_types_type_id_holder.get(type_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_universe_types_type_id>();
+                            ObsObjHolderSimple<R_get_universe_types_type_id> finalRet = ret;
+                            get_universe_types_type_id_holder.put(type_id, ret);
+                            (cache).addFetchCacheObject("get_universe_types_type_id", properties -> (cache.swagger).get_universe_types(type_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_universe_types_type_id_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_universe_types_type_id_holder);
             }
         }
         return ret;

@@ -28,7 +28,6 @@ public abstract class SwaggerDCCache<T extends G_IDCAccess>
     public final Alliances alliances = new Alliances(this);
     public final Characters characters = new Characters(this);
     public final Contracts contracts = new Contracts(this);
-    public final Corporations corporations = new Corporations(this);
     public final Dogma dogma = new Dogma(this);
     public final Fw fw = new Fw(this);
     public final Incursions incursions = new Incursions(this);
@@ -43,6 +42,7 @@ public abstract class SwaggerDCCache<T extends G_IDCAccess>
     public final Status status = new Status(this);
     public final Universe universe = new Universe(this);
     public final Wars wars = new Wars(this);
+    public final Corporations corporations = new Corporations(this);
     public final Search search = new Search(this);
 
     public SwaggerDCCache(T swag) {

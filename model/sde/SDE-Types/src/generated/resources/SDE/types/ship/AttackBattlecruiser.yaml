@@ -47,7 +47,7 @@ types:
     portionSize: 1
     poweroutput: 875
     powertospeed: 1
-    price: 6.15E7
+    price: 5.25E7
     propulsiongraphicid: 395
     published: true
     radius: 263.0
@@ -128,7 +128,7 @@ types:
     portionSize: 1
     poweroutput: 1375
     powertospeed: 1
-    price: 6.25E7
+    price: 5.25E7
     propulsiongraphicid: 394
     published: true
     radius: 199.0
@@ -211,7 +211,7 @@ types:
     portionSize: 1
     poweroutput: 1100
     powertospeed: 1
-    price: 6.5E7
+    price: 5.25E7
     propulsiongraphicid: 394
     published: true
     radius: 266.0
@@ -292,7 +292,7 @@ types:
     portionSize: 1
     poweroutput: 1000
     powertospeed: 1
-    price: 5.92E7
+    price: 5.25E7
     propulsiongraphicid: 397
     published: true
     radius: 246.0

@@ -38056,7 +38056,7 @@ id2name:
   57368: Assault Frigate FFA Proving Filament
   57369: Hunt 3v3 Destroyers Proving Filament
   57370: 2v2 Navy Frigates Proving Filament
-  57372: Event 23 Proving Filament
+  57372: Capsuleer Day 18 Cruiser Extravaganza Proving Filament
   57373: Event 24 Proving Filament
   57374: Event 25 Proving Filament
   57375: Raven Abyssal Glory SKIN
@@ -38376,6 +38376,14 @@ id2name:
   58160: Non-interactable Spatial Rift
   58722: Non-interactable Shipyard
   58723: Non-interactable Freight Pad
+  58727: Serenity Monthly Cerebral Accelerator - 2021.5
+  58758: Serenity YC123.5 Season Standard Cerebral Accelerator
+  58759: Serenity YC123.5 Season Advanced Cerebral Accelerator
+  58760: Serenity YC123.5 Season Pass
+  58770: Serenity The Hunt Accelerator Bronze
+  58771: Serenity The Hunt Accelerator Silver
+  58772: Serenity The Hunt Accelerator Gold
+  58906: Highsec Authorized Mobile Cynosural Beacon
   350916: Plasma Cannon
   351063: Heavy Machine Gun
   351071: Assault C-I
@@ -46291,6 +46299,7 @@ name2group:
   Capsule YC119 Capsuleer Day SKIN: skins/PermanentSKIN
   Capsule Zakura Hansei SKIN: skins/PermanentSKIN
   Capsuleer Dawn Firework (Large): charge/StructureFestivalCharges
+  Capsuleer Day 18 Cruiser Extravaganza Proving Filament: commodity/AbyssalProvingFilaments
   Capsuleer Day XVI Apotheosis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Cap Crate: specialeditionassets/SpecialEditionCommodities
   Capsuleer Day XVI Gnosis & SKIN Crate: specialeditionassets/SpecialEditionCommodities
@@ -50506,8 +50515,8 @@ name2group:
   Evasive Maneuvering: skill/Navigation
   Evasive Maneuvers Charge: charge/SkirmishCommandBurstCharges
   Evasive Maneuvers Charge Blueprint: blueprint/CommandBurstChargeBlueprint
-  Event 23 Proving Filament: commodity/AbyssalProvingFilaments
   Event 24 Proving Filament: commodity/AbyssalProvingFilaments
+  Event 25 Proving Filament: commodity/AbyssalProvingFilaments
   Ex-Elite Secret Agent: entity/MissionGenericCruisers
   Ex-Secret Agent: entity/MissionGenericFrigates
   Exalted Imperial Navy Apocalypse: entity/EDENCOMEntities
@@ -63106,6 +63115,7 @@ name2group:
   Serenity Monthly Cerebral Accelerator - 2021.2: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.3: implant/Booster
   Serenity Monthly Cerebral Accelerator - 2021.4: implant/Booster
+  Serenity Monthly Cerebral Accelerator - 2021.5: implant/Booster
   Serenity November Season Advanced Cerebral Accelerator: implant/Booster
   Serenity November Season Pass: implant/Booster
   Serenity November Season Standard Cerebral Accelerator: implant/Booster
@@ -63132,6 +63142,9 @@ name2group:
   Serenity Spring Festival Cerebral Accelerator IV: implant/Booster
   Serenity Spring Festival Cerebral Accelerator V: implant/Booster
   Serenity Spring Festival Cerebral Accelerator VI: implant/Booster
+  Serenity The Hunt Accelerator Bronze: implant/Booster
+  Serenity The Hunt Accelerator Gold: implant/Booster
+  Serenity The Hunt Accelerator Silver: implant/Booster
   Serenity YC122.9 Season Booster - Agility: implant/Booster
   Serenity YC122.9 Season Booster - EW Range: implant/Booster
   Serenity YC122.9 Season Booster - Max Velocity: implant/Booster
@@ -63151,6 +63164,9 @@ name2group:
   Serenity YC123.4 Season Advanced Cerebral Accelerator: implant/Booster
   Serenity YC123.4 Season Pass: implant/Booster
   Serenity YC123.4 Season Standard Cerebral Accelerator: implant/Booster
+  Serenity YC123.5 Season Advanced Cerebral Accelerator: implant/Booster
+  Serenity YC123.5 Season Pass: implant/Booster
+  Serenity YC123.5 Season Standard Cerebral Accelerator: implant/Booster
   Serenity ZhenNiu Cerebral Accelerator Type-A: implant/Booster
   Serenity ZhenNiu Cerebral Accelerator Type-B: implant/Booster
   Serenity ZhenNiu Cerebral Accelerator Type-C: implant/Booster

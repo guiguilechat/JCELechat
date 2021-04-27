@@ -3,8 +3,8 @@ package fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.connected;
 import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_10_int_long_int;
-import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_11_int_int_Long;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_10_int_int_Long;
+import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_16_int_long_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_20_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_8_int_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_9_int_Boolean;
@@ -56,37 +56,105 @@ public class Corporations {
     private final Map<K_8_int_int, ObsListHolderImpl<M_get_contracts_contract_bids_4>> get_corporations_corporation_id_contracts_contract_id_bids_holder = new HashMap<>();
     private final Map<K_8_int_int, ObsListHolderImpl<M_get_contracts_contract_items_6>> get_corporations_corporation_id_contracts_contract_id_items_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_customs_offices>> get_corporations_corporation_id_customs_offices_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolderSimple<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_facilities>> get_corporations_corporation_id_facilities_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolderSimple<R_get_corporations_corporation_id_fw_stats>> get_corporations_corporation_id_fw_stats_holder = new HashMap<>();
     private final Map<K_9_int_Boolean, ObsListHolderImpl<R_get_corporations_corporation_id_industry_jobs>> get_corporations_corporation_id_industry_jobs_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_killmails_2>> get_corporations_corporation_id_killmails_recent_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_shareholders>> get_corporations_corporation_id_shareholders_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_wallets>> get_corporations_corporation_id_wallets_holder = new HashMap<>();
+    private final Map<K_10_int_int_Long, ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions>> get_corporations_corporation_id_wallets_division_transactions_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_contacts>> get_corporations_corporation_id_contacts_holder = new HashMap<>();
+    private final Map<Integer, ObsObjHolderSimple<R_get_corporations_corporation_id_divisions>> get_corporations_corporation_id_divisions_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_facilities>> get_corporations_corporation_id_facilities_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_medals>> get_corporations_corporation_id_medals_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_medals_issued>> get_corporations_corporation_id_medals_issued_holder = new HashMap<>();
     private final Map<Integer, ObsObjHolderSimple<Integer>> get_corporations_corporation_id_members_limit_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_members_titles>> get_corporations_corporation_id_members_titles_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_membertracking>> get_corporations_corporation_id_membertracking_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_orders_history>> get_corporations_corporation_id_orders_history_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_roles>> get_corporations_corporation_id_roles_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_roles_history>> get_corporations_corporation_id_roles_history_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_shareholders>> get_corporations_corporation_id_shareholders_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<M_get_standings_3>> get_corporations_corporation_id_standings_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_starbases>> get_corporations_corporation_id_starbases_holder = new HashMap<>();
-    private final Map<K_10_int_long_int, ObsObjHolderSimple<R_get_corporations_corporation_id_starbases_starbase_id>> get_corporations_corporation_id_starbases_starbase_id_holder = new HashMap<>();
+    private final Map<K_16_int_long_int, ObsObjHolderSimple<R_get_corporations_corporation_id_starbases_starbase_id>> get_corporations_corporation_id_starbases_starbase_id_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_titles>> get_corporations_corporation_id_titles_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_wallets>> get_corporations_corporation_id_wallets_holder = new HashMap<>();
-    private final Map<K_11_int_int_Long, ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions>> get_corporations_corporation_id_wallets_division_transactions_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_blueprints>> get_corporations_corporation_id_blueprints_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_contacts>> get_corporations_corporation_id_contacts_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_containers_logs>> get_corporations_corporation_id_containers_logs_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_orders_history>> get_corporations_corporation_id_orders_history_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_orders>> get_corporations_corporation_id_orders_holder = new HashMap<>();
+    private final Map<Integer, ObsListHolderImpl<Integer>> get_corporations_corporation_id_members_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_structures>> get_corporations_corporation_id_structures_holder = new HashMap<>();
     private final Map<K_20_int_int, ObsListHolderImpl<M_get_journal_13>> get_corporations_corporation_id_wallets_division_journal_holder = new HashMap<>();
     private final Map<Integer, ObsListHolderImpl<R_get_corporations_corporation_id_assets>> get_corporations_corporation_id_assets_holder = new HashMap<>();
 
     public Corporations(SwaggerCOCache<?> parent) {
         cache = parent;
+    }
+
+    /**
+     * Return a list of the corporation assets
+     * 
+     * cache over {@link Swagger#get_corporations_assets}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<R_get_corporations_corporation_id_assets> assets(int corporation_id) {
+        ObsListHolderImpl<R_get_corporations_corporation_id_assets> ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_assets_holder);
+            try {
+                synchronized (get_corporations_corporation_id_assets_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_assets_holder);
+                    {
+                        ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_assets>();
+                            get_corporations_corporation_id_assets_holder.put(corporation_id, ret);
+                            ObsListHolderImpl<R_get_corporations_corporation_id_assets> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_assets", (page, properties) -> (cache.swagger).get_corporations_assets(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Director"});
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_assets_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_assets_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Returns a list of blueprints the corporation owns
+     * 
+     * cache over {@link Swagger#get_corporations_blueprints}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<R_get_corporations_corporation_id_blueprints> blueprints(int corporation_id) {
+        ObsListHolderImpl<R_get_corporations_corporation_id_blueprints> ret = get_corporations_corporation_id_blueprints_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_blueprints_holder);
+            try {
+                synchronized (get_corporations_corporation_id_blueprints_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_blueprints_holder);
+                    {
+                        ret = get_corporations_corporation_id_blueprints_holder.get(corporation_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_blueprints>();
+                            get_corporations_corporation_id_blueprints_holder.put(corporation_id, ret);
+                            ObsListHolderImpl<R_get_corporations_corporation_id_blueprints> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_blueprints", (page, properties) -> (cache.swagger).get_corporations_blueprints(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Director"});
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_blueprints_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_blueprints_holder);
+            }
+        }
+        return ret;
     }
 
     /**
@@ -158,6 +226,40 @@ public class Corporations {
     }
 
     /**
+     * Return contacts of a corporation
+     * 
+     * cache over {@link Swagger#get_corporations_contacts}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<R_get_corporations_corporation_id_contacts> contacts(int corporation_id) {
+        ObsListHolderImpl<R_get_corporations_corporation_id_contacts> ret = get_corporations_corporation_id_contacts_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_contacts_holder);
+            try {
+                synchronized (get_corporations_corporation_id_contacts_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_contacts_holder);
+                    {
+                        ret = get_corporations_corporation_id_contacts_holder.get(corporation_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_contacts>();
+                            get_corporations_corporation_id_contacts_holder.put(corporation_id, ret);
+                            ObsListHolderImpl<R_get_corporations_corporation_id_contacts> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_contacts", (page, properties) -> (cache.swagger).get_corporations_contacts(corporation_id, page, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_contacts_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_contacts_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Return custom labels for a corporation's contacts
      * 
      * cache over {@link Swagger#get_corporations_contacts_labels}<br />
@@ -186,6 +288,40 @@ public class Corporations {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporations_corporation_id_contacts_labels_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Returns logs recorded in the past seven days from all audit log secure containers (ALSC) owned by a given corporation
+     * 
+     * cache over {@link Swagger#get_corporations_containers_logs}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<R_get_corporations_corporation_id_containers_logs> containers_logs(int corporation_id) {
+        ObsListHolderImpl<R_get_corporations_corporation_id_containers_logs> ret = get_corporations_corporation_id_containers_logs_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_containers_logs_holder);
+            try {
+                synchronized (get_corporations_corporation_id_containers_logs_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_containers_logs_holder);
+                    {
+                        ret = get_corporations_corporation_id_containers_logs_holder.get(corporation_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_containers_logs>();
+                            get_corporations_corporation_id_containers_logs_holder.put(corporation_id, ret);
+                            ObsListHolderImpl<R_get_corporations_corporation_id_containers_logs> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_containers_logs", (page, properties) -> (cache.swagger).get_corporations_containers_logs(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Director"});
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_containers_logs_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_containers_logs_holder);
             }
         }
         return ret;
@@ -575,6 +711,40 @@ public class Corporations {
     }
 
     /**
+     * Return the current member list of a corporation, the token's character need to be a member of the corporation.
+     * 
+     * cache over {@link Swagger#get_corporations_members}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<Integer> members(int corporation_id) {
+        ObsListHolderImpl<Integer> ret = get_corporations_corporation_id_members_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_members_holder);
+            try {
+                synchronized (get_corporations_corporation_id_members_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_members_holder);
+                    {
+                        ret = get_corporations_corporation_id_members_holder.get(corporation_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<Integer>();
+                            get_corporations_corporation_id_members_holder.put(corporation_id, ret);
+                            ObsListHolderImpl<Integer> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_members", (page, properties) -> (cache.swagger).get_corporations_members(corporation_id, properties), arr -> finalRet.set(arr));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_members_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_members_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
      * Return a corporation's member limit, not including CEO himself
      * 
      * cache over {@link Swagger#get_corporations_members_limit}<br />
@@ -671,6 +841,74 @@ public class Corporations {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporations_corporation_id_membertracking_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * List open market orders placed on behalf of a corporation
+     * 
+     * cache over {@link Swagger#get_corporations_orders}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<R_get_corporations_corporation_id_orders> orders(int corporation_id) {
+        ObsListHolderImpl<R_get_corporations_corporation_id_orders> ret = get_corporations_corporation_id_orders_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_orders_holder);
+            try {
+                synchronized (get_corporations_corporation_id_orders_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_orders_holder);
+                    {
+                        ret = get_corporations_corporation_id_orders_holder.get(corporation_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_orders>();
+                            get_corporations_corporation_id_orders_holder.put(corporation_id, ret);
+                            ObsListHolderImpl<R_get_corporations_corporation_id_orders> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_orders", (page, properties) -> (cache.swagger).get_corporations_orders(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Accountant", "Trader"});
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_orders_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_orders_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * List cancelled and expired market orders placed on behalf of a corporation up to 90 days in the past.
+     * 
+     * cache over {@link Swagger#get_corporations_orders_history}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<R_get_corporations_corporation_id_orders_history> orders_history(int corporation_id) {
+        ObsListHolderImpl<R_get_corporations_corporation_id_orders_history> ret = get_corporations_corporation_id_orders_history_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_orders_history_holder);
+            try {
+                synchronized (get_corporations_corporation_id_orders_history_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_orders_history_holder);
+                    {
+                        ret = get_corporations_corporation_id_orders_history_holder.get(corporation_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_orders_history>();
+                            get_corporations_corporation_id_orders_history_holder.put(corporation_id, ret);
+                            ObsListHolderImpl<R_get_corporations_corporation_id_orders_history> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_orders_history", (page, properties) -> (cache.swagger).get_corporations_orders_history(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Accountant", "Trader"});
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_orders_history_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_orders_history_holder);
             }
         }
         return ret;
@@ -859,7 +1097,7 @@ public class Corporations {
      *     The solar system this starbase (POS) is located in,
      */
     public ObsObjHolder<R_get_corporations_corporation_id_starbases_starbase_id> starbases(int corporation_id, long starbase_id, int system_id) {
-        K_10_int_long_int param = new K_10_int_long_int(corporation_id, starbase_id, system_id);
+        K_16_int_long_int param = new K_16_int_long_int(corporation_id, starbase_id, system_id);
         ObsObjHolderSimple<R_get_corporations_corporation_id_starbases_starbase_id> ret = get_corporations_corporation_id_starbases_starbase_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporations_corporation_id_starbases_starbase_id_holder);
@@ -880,6 +1118,40 @@ public class Corporations {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_corporations_corporation_id_starbases_starbase_id_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th
+     * 
+     * cache over {@link Swagger#get_corporations_structures}<br />
+     * 
+     * @param corporation_id
+     *     An EVE corporation ID
+     */
+    public ObsListHolder<R_get_corporations_corporation_id_structures> structures(int corporation_id) {
+        ObsListHolderImpl<R_get_corporations_corporation_id_structures> ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_structures_holder);
+            try {
+                synchronized (get_corporations_corporation_id_structures_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_structures_holder);
+                    {
+                        ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
+                        if (ret == null) {
+                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_structures>();
+                            get_corporations_corporation_id_structures_holder.put(corporation_id, ret);
+                            ObsListHolderImpl<R_get_corporations_corporation_id_structures> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_structures", (page, properties) -> (cache.swagger).get_corporations_structures(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Station_Manager"});
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_structures_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_structures_holder);
             }
         }
         return ret;
@@ -954,283 +1226,6 @@ public class Corporations {
     }
 
     /**
-     * Get wallet transactions of a corporation
-     * 
-     * cache over {@link Swagger#get_corporations_wallets_transactions}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     * @param division
-     *     Wallet key of the division to fetch journals from
-     * @param from_id
-     *     Only show journal entries happened before the transaction referenced by this id
-     */
-    public ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> wallets_transactions(int corporation_id, int division, Long from_id) {
-        K_11_int_int_Long param = new K_11_int_int_Long(division, corporation_id, from_id);
-        ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions> ret = get_corporations_corporation_id_wallets_division_transactions_holder.get(param);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_wallets_division_transactions_holder);
-            try {
-                synchronized (get_corporations_corporation_id_wallets_division_transactions_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_wallets_division_transactions_holder);
-                    {
-                        ret = get_corporations_corporation_id_wallets_division_transactions_holder.get(param);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions>();
-                            get_corporations_corporation_id_wallets_division_transactions_holder.put(param, ret);
-                            ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_wallets_division_transactions", (page, properties) -> (cache.swagger).get_corporations_wallets_transactions(corporation_id, division, from_id, properties), arr -> finalRet.set(arr), new String[] {"Accountant", "Junior_Accountant"});
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_wallets_division_transactions_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_wallets_division_transactions_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Returns a list of blueprints the corporation owns
-     * 
-     * cache over {@link Swagger#get_corporations_blueprints}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsListHolder<R_get_corporations_corporation_id_blueprints> blueprints(int corporation_id) {
-        ObsListHolderImpl<R_get_corporations_corporation_id_blueprints> ret = get_corporations_corporation_id_blueprints_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_blueprints_holder);
-            try {
-                synchronized (get_corporations_corporation_id_blueprints_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_blueprints_holder);
-                    {
-                        ret = get_corporations_corporation_id_blueprints_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_blueprints>();
-                            get_corporations_corporation_id_blueprints_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporations_corporation_id_blueprints> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_blueprints", (page, properties) -> (cache.swagger).get_corporations_blueprints(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Director"});
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_blueprints_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_blueprints_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Return contacts of a corporation
-     * 
-     * cache over {@link Swagger#get_corporations_contacts}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsListHolder<R_get_corporations_corporation_id_contacts> contacts(int corporation_id) {
-        ObsListHolderImpl<R_get_corporations_corporation_id_contacts> ret = get_corporations_corporation_id_contacts_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_contacts_holder);
-            try {
-                synchronized (get_corporations_corporation_id_contacts_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_contacts_holder);
-                    {
-                        ret = get_corporations_corporation_id_contacts_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_contacts>();
-                            get_corporations_corporation_id_contacts_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporations_corporation_id_contacts> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_contacts", (page, properties) -> (cache.swagger).get_corporations_contacts(corporation_id, page, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_contacts_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_contacts_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Returns logs recorded in the past seven days from all audit log secure containers (ALSC) owned by a given corporation
-     * 
-     * cache over {@link Swagger#get_corporations_containers_logs}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsListHolder<R_get_corporations_corporation_id_containers_logs> containers_logs(int corporation_id) {
-        ObsListHolderImpl<R_get_corporations_corporation_id_containers_logs> ret = get_corporations_corporation_id_containers_logs_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_containers_logs_holder);
-            try {
-                synchronized (get_corporations_corporation_id_containers_logs_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_containers_logs_holder);
-                    {
-                        ret = get_corporations_corporation_id_containers_logs_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_containers_logs>();
-                            get_corporations_corporation_id_containers_logs_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporations_corporation_id_containers_logs> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_containers_logs", (page, properties) -> (cache.swagger).get_corporations_containers_logs(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Director"});
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_containers_logs_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_containers_logs_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * List cancelled and expired market orders placed on behalf of a corporation up to 90 days in the past.
-     * 
-     * cache over {@link Swagger#get_corporations_orders_history}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsListHolder<R_get_corporations_corporation_id_orders_history> orders_history(int corporation_id) {
-        ObsListHolderImpl<R_get_corporations_corporation_id_orders_history> ret = get_corporations_corporation_id_orders_history_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_orders_history_holder);
-            try {
-                synchronized (get_corporations_corporation_id_orders_history_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_orders_history_holder);
-                    {
-                        ret = get_corporations_corporation_id_orders_history_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_orders_history>();
-                            get_corporations_corporation_id_orders_history_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporations_corporation_id_orders_history> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_orders_history", (page, properties) -> (cache.swagger).get_corporations_orders_history(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Accountant", "Trader"});
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_orders_history_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_orders_history_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Return the current member list of a corporation, the token's character need to be a member of the corporation.
-     * 
-     * cache over {@link Swagger#get_corporations_members}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsListHolder<Integer> members(int corporation_id) {
-        ObsListHolderImpl<Integer> ret = get_corporations_corporation_id_members_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_members_holder);
-            try {
-                synchronized (get_corporations_corporation_id_members_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_members_holder);
-                    {
-                        ret = get_corporations_corporation_id_members_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<Integer>();
-                            get_corporations_corporation_id_members_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<Integer> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_members", (page, properties) -> (cache.swagger).get_corporations_members(corporation_id, properties), arr -> finalRet.set(arr));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_members_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_members_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * List open market orders placed on behalf of a corporation
-     * 
-     * cache over {@link Swagger#get_corporations_orders}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsListHolder<R_get_corporations_corporation_id_orders> orders(int corporation_id) {
-        ObsListHolderImpl<R_get_corporations_corporation_id_orders> ret = get_corporations_corporation_id_orders_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_orders_holder);
-            try {
-                synchronized (get_corporations_corporation_id_orders_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_orders_holder);
-                    {
-                        ret = get_corporations_corporation_id_orders_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_orders>();
-                            get_corporations_corporation_id_orders_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporations_corporation_id_orders> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_orders", (page, properties) -> (cache.swagger).get_corporations_orders(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Accountant", "Trader"});
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_orders_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_orders_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
-     * Get a list of corporation structures. This route's version includes the changes to structures detailed in this blog: https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th
-     * 
-     * cache over {@link Swagger#get_corporations_structures}<br />
-     * 
-     * @param corporation_id
-     *     An EVE corporation ID
-     */
-    public ObsListHolder<R_get_corporations_corporation_id_structures> structures(int corporation_id) {
-        ObsListHolderImpl<R_get_corporations_corporation_id_structures> ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_structures_holder);
-            try {
-                synchronized (get_corporations_corporation_id_structures_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_structures_holder);
-                    {
-                        ret = get_corporations_corporation_id_structures_holder.get(corporation_id);
-                        if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_structures>();
-                            get_corporations_corporation_id_structures_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporations_corporation_id_structures> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_structures", (page, properties) -> (cache.swagger).get_corporations_structures(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Station_Manager"});
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_structures_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_structures_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
      * Retrieve the given corporation's wallet journal for the given division going 30 days back
      * 
      * cache over {@link Swagger#get_corporations_wallets_journal}<br />
@@ -1268,34 +1263,39 @@ public class Corporations {
     }
 
     /**
-     * Return a list of the corporation assets
+     * Get wallet transactions of a corporation
      * 
-     * cache over {@link Swagger#get_corporations_assets}<br />
+     * cache over {@link Swagger#get_corporations_wallets_transactions}<br />
      * 
      * @param corporation_id
      *     An EVE corporation ID
+     * @param division
+     *     Wallet key of the division to fetch journals from
+     * @param from_id
+     *     Only show journal entries happened before the transaction referenced by this id
      */
-    public ObsListHolder<R_get_corporations_corporation_id_assets> assets(int corporation_id) {
-        ObsListHolderImpl<R_get_corporations_corporation_id_assets> ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
+    public ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> wallets_transactions(int corporation_id, int division, Long from_id) {
+        K_10_int_int_Long param = new K_10_int_int_Long(division, corporation_id, from_id);
+        ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions> ret = get_corporations_corporation_id_wallets_division_transactions_holder.get(param);
         if (ret == null) {
-            LockWatchDog.BARKER.tak(get_corporations_corporation_id_assets_holder);
+            LockWatchDog.BARKER.tak(get_corporations_corporation_id_wallets_division_transactions_holder);
             try {
-                synchronized (get_corporations_corporation_id_assets_holder)
+                synchronized (get_corporations_corporation_id_wallets_division_transactions_holder)
                 {
-                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_assets_holder);
+                    LockWatchDog.BARKER.hld(get_corporations_corporation_id_wallets_division_transactions_holder);
                     {
-                        ret = get_corporations_corporation_id_assets_holder.get(corporation_id);
+                        ret = get_corporations_corporation_id_wallets_division_transactions_holder.get(param);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_assets>();
-                            get_corporations_corporation_id_assets_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporations_corporation_id_assets> finalRet = ret;
-                            (cache).addFetchCacheArray("get_corporations_corporation_id_assets", (page, properties) -> (cache.swagger).get_corporations_assets(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Director"});
+                            ret = new ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions>();
+                            get_corporations_corporation_id_wallets_division_transactions_holder.put(param, ret);
+                            ObsListHolderImpl<R_get_corporations_corporation_id_wallets_division_transactions> finalRet = ret;
+                            (cache).addFetchCacheArray("get_corporations_corporation_id_wallets_division_transactions", (page, properties) -> (cache.swagger).get_corporations_wallets_transactions(corporation_id, division, from_id, properties), arr -> finalRet.set(arr), new String[] {"Accountant", "Junior_Accountant"});
                         }
                     }
-                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_assets_holder);
+                    LockWatchDog.BARKER.rel(get_corporations_corporation_id_wallets_division_transactions_holder);
                 }
             } finally {
-                LockWatchDog.BARKER.rel(get_corporations_corporation_id_assets_holder);
+                LockWatchDog.BARKER.rel(get_corporations_corporation_id_wallets_division_transactions_holder);
             }
         }
         return ret;

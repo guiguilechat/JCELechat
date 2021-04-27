@@ -84,40 +84,6 @@ public class Alliances {
     }
 
     /**
-     * Get the icon urls for a alliance
-     * 
-     * cache over {@link Swagger#get_alliances_icons}<br />
-     * 
-     * @param alliance_id
-     *     An EVE alliance ID
-     */
-    public ObsObjHolder<R_get_alliances_alliance_id_icons> icons(int alliance_id) {
-        ObsObjHolderSimple<R_get_alliances_alliance_id_icons> ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_alliances_alliance_id_icons_holder);
-            try {
-                synchronized (get_alliances_alliance_id_icons_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_alliances_alliance_id_icons_holder);
-                    {
-                        ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_alliances_alliance_id_icons>();
-                            ObsObjHolderSimple<R_get_alliances_alliance_id_icons> finalRet = ret;
-                            get_alliances_alliance_id_icons_holder.put(alliance_id, ret);
-                            (cache).addFetchCacheObject("get_alliances_alliance_id_icons", properties -> (cache.swagger).get_alliances_icons(alliance_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_alliances_alliance_id_icons_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_alliances_alliance_id_icons_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
      * Public information about an alliance
      * 
      * cache over {@link Swagger#get_alliances}<br />
@@ -146,6 +112,40 @@ public class Alliances {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_alliances_alliance_id_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Get the icon urls for a alliance
+     * 
+     * cache over {@link Swagger#get_alliances_icons}<br />
+     * 
+     * @param alliance_id
+     *     An EVE alliance ID
+     */
+    public ObsObjHolder<R_get_alliances_alliance_id_icons> icons(int alliance_id) {
+        ObsObjHolderSimple<R_get_alliances_alliance_id_icons> ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_alliances_alliance_id_icons_holder);
+            try {
+                synchronized (get_alliances_alliance_id_icons_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_alliances_alliance_id_icons_holder);
+                    {
+                        ret = get_alliances_alliance_id_icons_holder.get(alliance_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_alliances_alliance_id_icons>();
+                            ObsObjHolderSimple<R_get_alliances_alliance_id_icons> finalRet = ret;
+                            get_alliances_alliance_id_icons_holder.put(alliance_id, ret);
+                            (cache).addFetchCacheObject("get_alliances_alliance_id_icons", properties -> (cache.swagger).get_alliances_icons(alliance_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_alliances_alliance_id_icons_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_alliances_alliance_id_icons_holder);
             }
         }
         return ret;

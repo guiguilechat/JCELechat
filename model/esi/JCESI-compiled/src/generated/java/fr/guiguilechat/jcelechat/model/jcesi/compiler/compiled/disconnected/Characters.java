@@ -57,40 +57,6 @@ public class Characters {
     }
 
     /**
-     * Get portrait urls for a character
-     * 
-     * cache over {@link Swagger#get_characters_portrait}<br />
-     * 
-     * @param character_id
-     *     An EVE character ID
-     */
-    public ObsObjHolder<R_get_characters_character_id_portrait> portrait(int character_id) {
-        ObsObjHolderSimple<R_get_characters_character_id_portrait> ret = get_characters_character_id_portrait_holder.get(character_id);
-        if (ret == null) {
-            LockWatchDog.BARKER.tak(get_characters_character_id_portrait_holder);
-            try {
-                synchronized (get_characters_character_id_portrait_holder)
-                {
-                    LockWatchDog.BARKER.hld(get_characters_character_id_portrait_holder);
-                    {
-                        ret = get_characters_character_id_portrait_holder.get(character_id);
-                        if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_portrait>();
-                            ObsObjHolderSimple<R_get_characters_character_id_portrait> finalRet = ret;
-                            get_characters_character_id_portrait_holder.put(character_id, ret);
-                            (cache).addFetchCacheObject("get_characters_character_id_portrait", properties -> (cache.swagger).get_characters_portrait(character_id, properties), item -> finalRet.set(item));
-                        }
-                    }
-                    LockWatchDog.BARKER.rel(get_characters_character_id_portrait_holder);
-                }
-            } finally {
-                LockWatchDog.BARKER.rel(get_characters_character_id_portrait_holder);
-            }
-        }
-        return ret;
-    }
-
-    /**
      * Public information about a character
      * 
      * cache over {@link Swagger#get_characters}<br />
@@ -119,6 +85,40 @@ public class Characters {
                 }
             } finally {
                 LockWatchDog.BARKER.rel(get_characters_character_id_holder);
+            }
+        }
+        return ret;
+    }
+
+    /**
+     * Get portrait urls for a character
+     * 
+     * cache over {@link Swagger#get_characters_portrait}<br />
+     * 
+     * @param character_id
+     *     An EVE character ID
+     */
+    public ObsObjHolder<R_get_characters_character_id_portrait> portrait(int character_id) {
+        ObsObjHolderSimple<R_get_characters_character_id_portrait> ret = get_characters_character_id_portrait_holder.get(character_id);
+        if (ret == null) {
+            LockWatchDog.BARKER.tak(get_characters_character_id_portrait_holder);
+            try {
+                synchronized (get_characters_character_id_portrait_holder)
+                {
+                    LockWatchDog.BARKER.hld(get_characters_character_id_portrait_holder);
+                    {
+                        ret = get_characters_character_id_portrait_holder.get(character_id);
+                        if (ret == null) {
+                            ret = new ObsObjHolderSimple<R_get_characters_character_id_portrait>();
+                            ObsObjHolderSimple<R_get_characters_character_id_portrait> finalRet = ret;
+                            get_characters_character_id_portrait_holder.put(character_id, ret);
+                            (cache).addFetchCacheObject("get_characters_character_id_portrait", properties -> (cache.swagger).get_characters_portrait(character_id, properties), item -> finalRet.set(item));
+                        }
+                    }
+                    LockWatchDog.BARKER.rel(get_characters_character_id_portrait_holder);
+                }
+            } finally {
+                LockWatchDog.BARKER.rel(get_characters_character_id_portrait_holder);
             }
         }
         return ret;
