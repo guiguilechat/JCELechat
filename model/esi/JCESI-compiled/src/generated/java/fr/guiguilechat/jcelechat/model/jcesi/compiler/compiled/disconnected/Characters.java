@@ -6,17 +6,17 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_corporationhistory;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_portrait;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Characters {
     public final SwaggerDCCache<?> cache;
-    private final Map<Integer, ObsListHolderImpl<R_get_characters_character_id_corporationhistory>> get_characters_character_id_corporationhistory_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id_portrait>> get_characters_character_id_portrait_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolderSimple<R_get_characters_character_id>> get_characters_character_id_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_characters_character_id_corporationhistory>> get_characters_character_id_corporationhistory_holder = new HashMap<>();
+    private final Map<Integer, ObjHolderSimple<R_get_characters_character_id_portrait>> get_characters_character_id_portrait_holder = new HashMap<>();
+    private final Map<Integer, ObjHolderSimple<R_get_characters_character_id>> get_characters_character_id_holder = new HashMap<>();
 
     public Characters(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -30,8 +30,8 @@ public class Characters {
      * @param character_id
      *     An EVE character ID
      */
-    public ObsListHolder<R_get_characters_character_id_corporationhistory> corporationhistory(int character_id) {
-        ObsListHolderImpl<R_get_characters_character_id_corporationhistory> ret = get_characters_character_id_corporationhistory_holder.get(character_id);
+    public ListHolder<R_get_characters_character_id_corporationhistory> corporationhistory(int character_id) {
+        ListHolderImpl<R_get_characters_character_id_corporationhistory> ret = get_characters_character_id_corporationhistory_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_corporationhistory_holder);
             try {
@@ -41,9 +41,9 @@ public class Characters {
                     {
                         ret = get_characters_character_id_corporationhistory_holder.get(character_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_characters_character_id_corporationhistory>();
+                            ret = new ListHolderImpl<R_get_characters_character_id_corporationhistory>();
                             get_characters_character_id_corporationhistory_holder.put(character_id, ret);
-                            ObsListHolderImpl<R_get_characters_character_id_corporationhistory> finalRet = ret;
+                            ListHolderImpl<R_get_characters_character_id_corporationhistory> finalRet = ret;
                             (cache).addFetchCacheArray("get_characters_character_id_corporationhistory", (page, properties) -> (cache.swagger).get_characters_corporationhistory(character_id, properties), arr -> finalRet.set(arr));
                         }
                     }
@@ -64,8 +64,8 @@ public class Characters {
      * @param character_id
      *     An EVE character ID
      */
-    public ObsObjHolder<R_get_characters_character_id> get(int character_id) {
-        ObsObjHolderSimple<R_get_characters_character_id> ret = get_characters_character_id_holder.get(character_id);
+    public ObjHolder<R_get_characters_character_id> get(int character_id) {
+        ObjHolderSimple<R_get_characters_character_id> ret = get_characters_character_id_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_holder);
             try {
@@ -75,8 +75,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_holder.get(character_id);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id>();
-                            ObsObjHolderSimple<R_get_characters_character_id> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_characters_character_id>();
+                            ObjHolderSimple<R_get_characters_character_id> finalRet = ret;
                             get_characters_character_id_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id", properties -> (cache.swagger).get_characters(character_id, properties), item -> finalRet.set(item));
                         }
@@ -98,8 +98,8 @@ public class Characters {
      * @param character_id
      *     An EVE character ID
      */
-    public ObsObjHolder<R_get_characters_character_id_portrait> portrait(int character_id) {
-        ObsObjHolderSimple<R_get_characters_character_id_portrait> ret = get_characters_character_id_portrait_holder.get(character_id);
+    public ObjHolder<R_get_characters_character_id_portrait> portrait(int character_id) {
+        ObjHolderSimple<R_get_characters_character_id_portrait> ret = get_characters_character_id_portrait_holder.get(character_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_characters_character_id_portrait_holder);
             try {
@@ -109,8 +109,8 @@ public class Characters {
                     {
                         ret = get_characters_character_id_portrait_holder.get(character_id);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_characters_character_id_portrait>();
-                            ObsObjHolderSimple<R_get_characters_character_id_portrait> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_characters_character_id_portrait>();
+                            ObjHolderSimple<R_get_characters_character_id_portrait> finalRet = ret;
                             get_characters_character_id_portrait_holder.put(character_id, ret);
                             (cache).addFetchCacheObject("get_characters_character_id_portrait", properties -> (cache.swagger).get_characters_portrait(character_id, properties), item -> finalRet.set(item));
                         }

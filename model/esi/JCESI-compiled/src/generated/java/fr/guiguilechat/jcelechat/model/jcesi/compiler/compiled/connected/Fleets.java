@@ -6,17 +6,17 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fleets_fleet_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fleets_fleet_id_members;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_fleets_fleet_id_wings;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Fleets {
     public final SwaggerCOCache<?> cache;
-    private final Map<Long, ObsObjHolderSimple<R_get_fleets_fleet_id>> get_fleets_fleet_id_holder = new HashMap<>();
-    private final Map<Long, ObsListHolderImpl<R_get_fleets_fleet_id_members>> get_fleets_fleet_id_members_holder = new HashMap<>();
-    private final Map<Long, ObsListHolderImpl<R_get_fleets_fleet_id_wings>> get_fleets_fleet_id_wings_holder = new HashMap<>();
+    private final Map<Long, ObjHolderSimple<R_get_fleets_fleet_id>> get_fleets_fleet_id_holder = new HashMap<>();
+    private final Map<Long, ListHolderImpl<R_get_fleets_fleet_id_members>> get_fleets_fleet_id_members_holder = new HashMap<>();
+    private final Map<Long, ListHolderImpl<R_get_fleets_fleet_id_wings>> get_fleets_fleet_id_wings_holder = new HashMap<>();
 
     public Fleets(SwaggerCOCache<?> parent) {
         cache = parent;
@@ -30,8 +30,8 @@ public class Fleets {
      * @param fleet_id
      *     ID for a fleet
      */
-    public ObsObjHolder<R_get_fleets_fleet_id> get(long fleet_id) {
-        ObsObjHolderSimple<R_get_fleets_fleet_id> ret = get_fleets_fleet_id_holder.get(fleet_id);
+    public ObjHolder<R_get_fleets_fleet_id> get(long fleet_id) {
+        ObjHolderSimple<R_get_fleets_fleet_id> ret = get_fleets_fleet_id_holder.get(fleet_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_fleets_fleet_id_holder);
             try {
@@ -41,8 +41,8 @@ public class Fleets {
                     {
                         ret = get_fleets_fleet_id_holder.get(fleet_id);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_fleets_fleet_id>();
-                            ObsObjHolderSimple<R_get_fleets_fleet_id> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_fleets_fleet_id>();
+                            ObjHolderSimple<R_get_fleets_fleet_id> finalRet = ret;
                             get_fleets_fleet_id_holder.put(fleet_id, ret);
                             (cache).addFetchCacheObject("get_fleets_fleet_id", properties -> (cache.swagger).get_fleets(fleet_id, properties), item -> finalRet.set(item));
                         }
@@ -64,8 +64,8 @@ public class Fleets {
      * @param fleet_id
      *     ID for a fleet
      */
-    public ObsListHolder<R_get_fleets_fleet_id_members> members(long fleet_id) {
-        ObsListHolderImpl<R_get_fleets_fleet_id_members> ret = get_fleets_fleet_id_members_holder.get(fleet_id);
+    public ListHolder<R_get_fleets_fleet_id_members> members(long fleet_id) {
+        ListHolderImpl<R_get_fleets_fleet_id_members> ret = get_fleets_fleet_id_members_holder.get(fleet_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_fleets_fleet_id_members_holder);
             try {
@@ -75,9 +75,9 @@ public class Fleets {
                     {
                         ret = get_fleets_fleet_id_members_holder.get(fleet_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_fleets_fleet_id_members>();
+                            ret = new ListHolderImpl<R_get_fleets_fleet_id_members>();
                             get_fleets_fleet_id_members_holder.put(fleet_id, ret);
-                            ObsListHolderImpl<R_get_fleets_fleet_id_members> finalRet = ret;
+                            ListHolderImpl<R_get_fleets_fleet_id_members> finalRet = ret;
                             (cache).addFetchCacheArray("get_fleets_fleet_id_members", (page, properties) -> (cache.swagger).get_fleets_members(fleet_id, properties), arr -> finalRet.set(arr));
                         }
                     }
@@ -98,8 +98,8 @@ public class Fleets {
      * @param fleet_id
      *     ID for a fleet
      */
-    public ObsListHolder<R_get_fleets_fleet_id_wings> wings(long fleet_id) {
-        ObsListHolderImpl<R_get_fleets_fleet_id_wings> ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
+    public ListHolder<R_get_fleets_fleet_id_wings> wings(long fleet_id) {
+        ListHolderImpl<R_get_fleets_fleet_id_wings> ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_fleets_fleet_id_wings_holder);
             try {
@@ -109,9 +109,9 @@ public class Fleets {
                     {
                         ret = get_fleets_fleet_id_wings_holder.get(fleet_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_fleets_fleet_id_wings>();
+                            ret = new ListHolderImpl<R_get_fleets_fleet_id_wings>();
                             get_fleets_fleet_id_wings_holder.put(fleet_id, ret);
-                            ObsListHolderImpl<R_get_fleets_fleet_id_wings> finalRet = ret;
+                            ListHolderImpl<R_get_fleets_fleet_id_wings> finalRet = ret;
                             (cache).addFetchCacheArray("get_fleets_fleet_id_wings", (page, properties) -> (cache.swagger).get_fleets_wings(fleet_id, properties), arr -> finalRet.set(arr));
                         }
                     }

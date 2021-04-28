@@ -1,20 +1,20 @@
 package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
 
 public interface IPricing {
 
 	public LocalTypeOrders getMarketOrders(int typeID);
 
-	public default ObsDoubleHolder getPrice(int typeID, long qtty, boolean buy) {
+	public default DoubleHolder getPrice(int typeID, long qtty, boolean buy) {
 		return getMarketOrders(typeID).getPrice(buy, qtty);
 	}
 
-	public default ObsDoubleHolder getSO(int typeID, long qtty) {
+	public default DoubleHolder getSO(int typeID, long qtty) {
 		return getPrice(typeID, qtty, false);
 	}
 
-	public default ObsDoubleHolder getBO(int typeID, long qtty) {
+	public default DoubleHolder getBO(int typeID, long qtty) {
 		return getPrice(typeID, qtty, true);
 	}
 

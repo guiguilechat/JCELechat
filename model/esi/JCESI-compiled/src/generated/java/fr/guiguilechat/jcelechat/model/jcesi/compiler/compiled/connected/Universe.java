@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Universe {
     public final SwaggerCOCache<?> cache;
-    private final Map<Long, ObsObjHolderSimple<R_get_universe_structures_structure_id>> get_universe_structures_structure_id_holder = new HashMap<>();
+    private final Map<Long, ObjHolderSimple<R_get_universe_structures_structure_id>> get_universe_structures_structure_id_holder = new HashMap<>();
 
     public Universe(SwaggerCOCache<?> parent) {
         cache = parent;
@@ -24,8 +24,8 @@ public class Universe {
      * @param structure_id
      *     An Eve structure ID
      */
-    public ObsObjHolder<R_get_universe_structures_structure_id> structures(long structure_id) {
-        ObsObjHolderSimple<R_get_universe_structures_structure_id> ret = get_universe_structures_structure_id_holder.get(structure_id);
+    public ObjHolder<R_get_universe_structures_structure_id> structures(long structure_id) {
+        ObjHolderSimple<R_get_universe_structures_structure_id> ret = get_universe_structures_structure_id_holder.get(structure_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_universe_structures_structure_id_holder);
             try {
@@ -35,8 +35,8 @@ public class Universe {
                     {
                         ret = get_universe_structures_structure_id_holder.get(structure_id);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_universe_structures_structure_id>();
-                            ObsObjHolderSimple<R_get_universe_structures_structure_id> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_universe_structures_structure_id>();
+                            ObjHolderSimple<R_get_universe_structures_structure_id> finalRet = ret;
                             get_universe_structures_structure_id_holder.put(structure_id, ret);
                             (cache).addFetchCacheObject("get_universe_structures_structure_id", properties -> (cache.swagger).get_universe_structures(structure_id, properties), item -> finalRet.set(item));
                         }

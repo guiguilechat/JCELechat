@@ -5,18 +5,18 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_opportunities_tasks_task_id;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Opportunities {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolderImpl<Integer> get_opportunities_groups_holder;
-    private final Map<Integer, ObsObjHolderSimple<R_get_opportunities_groups_group_id>> get_opportunities_groups_group_id_holder = new HashMap<>();
-    private ObsListHolderImpl<Integer> get_opportunities_tasks_holder;
-    private final Map<Integer, ObsObjHolderSimple<R_get_opportunities_tasks_task_id>> get_opportunities_tasks_task_id_holder = new HashMap<>();
+    private ListHolderImpl<Integer> get_opportunities_groups_holder;
+    private final Map<Integer, ObjHolderSimple<R_get_opportunities_groups_group_id>> get_opportunities_groups_group_id_holder = new HashMap<>();
+    private ListHolderImpl<Integer> get_opportunities_tasks_holder;
+    private final Map<Integer, ObjHolderSimple<R_get_opportunities_tasks_task_id>> get_opportunities_tasks_task_id_holder = new HashMap<>();
 
     public Opportunities(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -27,7 +27,7 @@ public class Opportunities {
      * 
      * cache over {@link Swagger#get_opportunities_groups}<br />
      */
-    public ObsListHolder<Integer> groups() {
+    public ListHolder<Integer> groups() {
         if (get_opportunities_groups_holder == null) {
             LockWatchDog.BARKER.tak(this);
             try {
@@ -36,7 +36,7 @@ public class Opportunities {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_opportunities_groups_holder == null) {
-                            get_opportunities_groups_holder = new ObsListHolderImpl<Integer>();
+                            get_opportunities_groups_holder = new ListHolderImpl<Integer>();
                             (cache).addFetchCacheArray("get_opportunities_groups", (page, properties) -> (cache.swagger).get_opportunities_groups(properties), arr -> get_opportunities_groups_holder.set(arr));
                         }
                     }
@@ -57,8 +57,8 @@ public class Opportunities {
      * @param group_id
      *     ID of an opportunities group
      */
-    public ObsObjHolder<R_get_opportunities_groups_group_id> groups(int group_id) {
-        ObsObjHolderSimple<R_get_opportunities_groups_group_id> ret = get_opportunities_groups_group_id_holder.get(group_id);
+    public ObjHolder<R_get_opportunities_groups_group_id> groups(int group_id) {
+        ObjHolderSimple<R_get_opportunities_groups_group_id> ret = get_opportunities_groups_group_id_holder.get(group_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_opportunities_groups_group_id_holder);
             try {
@@ -68,8 +68,8 @@ public class Opportunities {
                     {
                         ret = get_opportunities_groups_group_id_holder.get(group_id);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_opportunities_groups_group_id>();
-                            ObsObjHolderSimple<R_get_opportunities_groups_group_id> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_opportunities_groups_group_id>();
+                            ObjHolderSimple<R_get_opportunities_groups_group_id> finalRet = ret;
                             get_opportunities_groups_group_id_holder.put(group_id, ret);
                             (cache).addFetchCacheObject("get_opportunities_groups_group_id", properties -> (cache.swagger).get_opportunities_groups(group_id, properties), item -> finalRet.set(item));
                         }
@@ -88,7 +88,7 @@ public class Opportunities {
      * 
      * cache over {@link Swagger#get_opportunities_tasks}<br />
      */
-    public ObsListHolder<Integer> tasks() {
+    public ListHolder<Integer> tasks() {
         if (get_opportunities_tasks_holder == null) {
             LockWatchDog.BARKER.tak(this);
             try {
@@ -97,7 +97,7 @@ public class Opportunities {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_opportunities_tasks_holder == null) {
-                            get_opportunities_tasks_holder = new ObsListHolderImpl<Integer>();
+                            get_opportunities_tasks_holder = new ListHolderImpl<Integer>();
                             (cache).addFetchCacheArray("get_opportunities_tasks", (page, properties) -> (cache.swagger).get_opportunities_tasks(properties), arr -> get_opportunities_tasks_holder.set(arr));
                         }
                     }
@@ -118,8 +118,8 @@ public class Opportunities {
      * @param task_id
      *     ID of an opportunities task
      */
-    public ObsObjHolder<R_get_opportunities_tasks_task_id> tasks(int task_id) {
-        ObsObjHolderSimple<R_get_opportunities_tasks_task_id> ret = get_opportunities_tasks_task_id_holder.get(task_id);
+    public ObjHolder<R_get_opportunities_tasks_task_id> tasks(int task_id) {
+        ObjHolderSimple<R_get_opportunities_tasks_task_id> ret = get_opportunities_tasks_task_id_holder.get(task_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_opportunities_tasks_task_id_holder);
             try {
@@ -129,8 +129,8 @@ public class Opportunities {
                     {
                         ret = get_opportunities_tasks_task_id_holder.get(task_id);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_opportunities_tasks_task_id>();
-                            ObsObjHolderSimple<R_get_opportunities_tasks_task_id> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_opportunities_tasks_task_id>();
+                            ObjHolderSimple<R_get_opportunities_tasks_task_id> finalRet = ret;
                             get_opportunities_tasks_task_id_holder.put(task_id, ret);
                             (cache).addFetchCacheObject("get_opportunities_tasks_task_id", properties -> (cache.swagger).get_opportunities_tasks(task_id, properties), item -> finalRet.set(item));
                         }

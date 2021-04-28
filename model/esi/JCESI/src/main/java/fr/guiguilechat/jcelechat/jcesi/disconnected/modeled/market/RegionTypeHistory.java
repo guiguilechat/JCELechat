@@ -14,11 +14,11 @@ import org.slf4j.LoggerFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.CacheStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.LongHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -33,7 +33,7 @@ public class RegionTypeHistory {
 
 	public final CacheStatic cachestatic;
 
-	private final ObsListHolder<R_get_markets_region_id_history> history;
+	private final ListHolder<R_get_markets_region_id_history> history;
 
 	public final int typeID;
 
@@ -71,14 +71,14 @@ public class RegionTypeHistory {
 		 * @return the list of day history, limited.
 		 */
 		@Getter(lazy = true)
-		private final ObsListHolder<R_get_markets_region_id_history> data = limitData(days);
+		private final ListHolder<R_get_markets_region_id_history> data = limitData(days);
 
 		/**
 		 *
 		 * the average sale value over the limit.
 		 */
 		@Getter(lazy = true)
-		private final ObsDoubleHolder average = getData().mapDouble(
+		private final DoubleHolder average = getData().mapDouble(
 				l -> l.stream().mapToDouble(h -> h.average * h.volume).sum() / l.stream().mapToLong(h -> h.volume).sum());
 
 		/**
@@ -86,23 +86,23 @@ public class RegionTypeHistory {
 		 * the sale volume (quantity of items sold) over the limit.
 		 */
 		@Getter(lazy = true)
-		private final ObsLongHolder volume = getData().mapLong(l -> l.stream().mapToLong(h -> h.volume).sum());
+		private final LongHolder volume = getData().mapLong(l -> l.stream().mapToLong(h -> h.volume).sum());
 
 		/**
 		 *
 		 * the sale value over the limit.
 		 */
 		@Getter(lazy = true)
-		private final ObsDoubleHolder totalValue = getData()
+		private final DoubleHolder totalValue = getData()
 		.mapDouble(l -> l.stream().mapToDouble(h -> h.average * h.volume).sum());
 
 		//
 
 		@Getter(lazy = true)
-		private final ObsListHolder<Long> sortedVolumes = makeSortedVolumes();
+		private final ListHolder<Long> sortedVolumes = makeSortedVolumes();
 
 		/** get the list of volumes over the limit, sorted by volume descending */
-		public ObsListHolder<Long> makeSortedVolumes() {
+		public ListHolder<Long> makeSortedVolumes() {
 			return getData().toList(l -> {
 				List<Long> list = l.stream().map(h -> h.volume)
 						// reverse sort for long to have by volume DECREASING
@@ -119,7 +119,7 @@ public class RegionTypeHistory {
 		// best percentile volume
 
 		/** cached offsetpct => volume */
-		private HashMap<Integer, ObsLongHolder> cachedBestVolumes = new HashMap<>();
+		private HashMap<Integer, LongHolder> cachedBestVolumes = new HashMap<>();
 
 		/**
 		 * get best daily of sale, excluding the first percent.<br />
@@ -131,12 +131,12 @@ public class RegionTypeHistory {
 		 *          percent of the best days values
 		 * @return
 		 */
-		public ObsLongHolder getBestVolume(int offsetPct) {
-			ObsLongHolder ret = cachedBestVolumes.get(offsetPct);
+		public LongHolder getBestVolume(int offsetPct) {
+			LongHolder ret = cachedBestVolumes.get(offsetPct);
 			if (ret == null) {
-				ObsListHolder<Long> volumes = getSortedVolumes();
+				ListHolder<Long> volumes = getSortedVolumes();
 				ret = LockWatchDog.BARKER.syncExecute(cachedBestVolumes, () -> {
-					ObsLongHolder ret2 = cachedBestVolumes.get(offsetPct);
+					LongHolder ret2 = cachedBestVolumes.get(offsetPct);
 					if (ret2 == null) {
 						ret2 = volumes.mapLong(l -> {
 							if (l.size() > 0) {
@@ -155,7 +155,7 @@ public class RegionTypeHistory {
 		}
 
 		/** cached offsetpct => bestSO */
-		private HashMap<Integer, ObsObjHolder<Long>> cachedBestSO = new HashMap<>();
+		private HashMap<Integer, ObjHolder<Long>> cachedBestSO = new HashMap<>();
 
 		/**
 		 * get best daily SO completed, excluding the first centile.<br />
@@ -170,11 +170,11 @@ public class RegionTypeHistory {
 		 *          centile of the best values
 		 * @return
 		 */
-		public ObsObjHolder<Long> getBestSO(int offsetCnt) {
-			ObsObjHolder<Long> ret = cachedBestSO.get(offsetCnt);
+		public ObjHolder<Long> getBestSO(int offsetCnt) {
+			ObjHolder<Long> ret = cachedBestSO.get(offsetCnt);
 			if (ret == null) {
 				ret = LockWatchDog.BARKER.syncExecute(cachedBestSO, () -> {
-					ObsObjHolder<Long> ret2 = cachedBestSO.get(offsetCnt);
+					ObjHolder<Long> ret2 = cachedBestSO.get(offsetCnt);
 					if (ret2 == null) {
 						ret2 = history.map(l -> {
 							if (l.size() == 0) {
@@ -259,8 +259,8 @@ public class RegionTypeHistory {
 	 *          number of days to limit, including today
 	 * @return a new observable list
 	 */
-	private ObsListHolder<R_get_markets_region_id_history> limitData(int maxDays) {
-		ObsListHolderImpl<R_get_markets_region_id_history> ret = new ObsListHolderImpl<>();
+	private ListHolder<R_get_markets_region_id_history> limitData(int maxDays) {
+		ListHolderImpl<R_get_markets_region_id_history> ret = new ListHolderImpl<>();
 		history.follow((l) -> {
 			List<R_get_markets_region_id_history> list = withinDays(l, maxDays).collect(Collectors.toList());
 			ret.set(list);
@@ -288,7 +288,7 @@ public class RegionTypeHistory {
 	 */
 	public final LimitedHistory yearly = new LimitedHistory(365);
 
-	public ObsListHolder<R_get_markets_region_id_history> history() {
+	public ListHolder<R_get_markets_region_id_history> history() {
 		return history;
 	}
 

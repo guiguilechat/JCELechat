@@ -11,13 +11,13 @@ import java.util.function.IntPredicate;
 import java.util.function.LongPredicate;
 import java.util.stream.Collectors;
 
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
-import fr.lelouet.collectionholders.impl.collections.ObsSetHolderImpl;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsFloatHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
+import fr.lelouet.tools.holders.impl.collections.MapHolderImpl;
+import fr.lelouet.tools.holders.impl.collections.SetHolderImpl;
+import fr.lelouet.tools.holders.interfaces.numbers.BoolHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.FloatHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.IntHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.LongHolder;
 import javafx.beans.property.DoubleProperty;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.LongProperty;
@@ -372,46 +372,46 @@ public class JFXTools {
 		}
 	}
 
-	public static ObservableDoubleValue obs(ObsDoubleHolder h) {
+	public static ObservableDoubleValue obs(DoubleHolder h) {
 		SimpleDoubleProperty ret = new SimpleDoubleProperty();
 		h.follow(ret::set);
 		return ret;
 	}
 
-	public static ObservableFloatValue obs(ObsFloatHolder h) {
+	public static ObservableFloatValue obs(FloatHolder h) {
 		SimpleFloatProperty ret = new SimpleFloatProperty();
 		h.follow(ret::set);
 		return ret;
 	}
 
-	public static ObservableIntegerValue obs(ObsIntHolder h) {
+	public static ObservableIntegerValue obs(IntHolder h) {
 		SimpleIntegerProperty ret = new SimpleIntegerProperty();
 		h.follow(ret::set);
 		return ret;
 	}
 
-	public static ObservableLongValue obs(ObsLongHolder h) {
+	public static ObservableLongValue obs(LongHolder h) {
 		SimpleLongProperty ret = new SimpleLongProperty();
 		h.follow(ret::set);
 		return ret;
 	}
 
-	public static ObservableBooleanValue obs(ObsBoolHolder h) {
+	public static ObservableBooleanValue obs(BoolHolder h) {
 		SimpleBooleanProperty ret = new SimpleBooleanProperty();
 		h.follow(ret::set);
 		return ret;
 	}
 
-	public static <U> ObsSetHolderImpl<U> hold(ObservableSet<U> o) {
-		ObsSetHolderImpl<U> ret = new ObsSetHolderImpl<>(o);
+	public static <U> SetHolderImpl<U> hold(ObservableSet<U> o) {
+		SetHolderImpl<U> ret = new SetHolderImpl<>(o);
 		synchronized (o) {
 			o.addListener((SetChangeListener<U>) ch -> ret.set(new HashSet<>(o)));
 		}
 		return ret;
 	}
 
-	public static <K, V> ObsMapHolderImpl<K, V> hold(ObservableMap<K, V> o) {
-		ObsMapHolderImpl<K, V> ret = new ObsMapHolderImpl<>(o);
+	public static <K, V> MapHolderImpl<K, V> hold(ObservableMap<K, V> o) {
+		MapHolderImpl<K, V> ret = new MapHolderImpl<>(o);
 		synchronized (o) {
 			o.addListener((MapChangeListener<K, V>) ch -> ret.set(new HashMap<>(o)));
 		}

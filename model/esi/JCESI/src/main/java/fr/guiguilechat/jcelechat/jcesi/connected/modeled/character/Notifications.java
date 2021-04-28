@@ -8,8 +8,8 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_notifications;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_notifications_type;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
@@ -23,15 +23,15 @@ public class Notifications {
 	}
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_characters_character_id_notifications> raw = con.connection().cache().characters
+	private final ListHolder<R_get_characters_character_id_notifications> raw = con.connection().cache().characters
 	.notifications(con.characterId());
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, R_get_characters_character_id_notifications> byId = getRaw()
+	private final MapHolder<Long, R_get_characters_character_id_notifications> byId = getRaw()
 	.toMap(notif -> notif.notification_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<get_characters_character_id_notifications_type, List<R_get_characters_character_id_notifications>> byType = getRaw()
+	private final MapHolder<get_characters_character_id_notifications_type, List<R_get_characters_character_id_notifications>> byType = getRaw()
 	.grouping(notif -> notif.type);
 
 	@Getter
@@ -114,10 +114,10 @@ public class Notifications {
 	}
 
 	@Getter(lazy = true)
-	private final ObsListHolder<NPCStandingChange> standingChanges = makeStandingChanges();
+	private final ListHolder<NPCStandingChange> standingChanges = makeStandingChanges();
 
-	protected ObsListHolder<NPCStandingChange> makeStandingChanges() {
-		ObsListHolder<R_get_characters_character_id_notifications> filtered = getRaw()
+	protected ListHolder<NPCStandingChange> makeStandingChanges() {
+		ListHolder<R_get_characters_character_id_notifications> filtered = getRaw()
 				.filter(n -> n.type == get_characters_character_id_notifications_type.NPCStandingsLost);
 		return filtered.mapList(l -> l.stream().flatMap(not->NPCStandingChange.parse(not.text, not).stream())
 				.collect(Collectors.toList()));

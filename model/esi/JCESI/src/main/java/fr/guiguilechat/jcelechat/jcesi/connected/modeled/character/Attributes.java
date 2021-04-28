@@ -6,10 +6,10 @@ import java.util.Arrays;
 import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_attributes;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.BoolHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.IntHolder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -26,7 +26,7 @@ public class Attributes {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsObjHolder<R_get_characters_character_id_attributes> values = con.connection().cache().characters
+	private final ObjHolder<R_get_characters_character_id_attributes> values = con.connection().cache().characters
 	.attributes(con.characterId());
 
 	/**
@@ -34,77 +34,77 @@ public class Attributes {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder charisma = values().mapInt(att -> att.charisma);
+	private final IntHolder charisma = values().mapInt(att -> att.charisma);
 
 	/**
 	 * true when charisma has highest value of attributes
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder isCharHighest = charisma().eq(highest());
+	private final BoolHolder isCharHighest = charisma().eq(highest());
 
 	/**
 	 * the value of the intelligence attribute
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder intelligence = values().mapInt(att -> att.intelligence);
+	private final IntHolder intelligence = values().mapInt(att -> att.intelligence);
 
 	/**
 	 * true when intelligence has highest value of attributes
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder isIntHighest = intelligence().eq(highest());
+	private final BoolHolder isIntHighest = intelligence().eq(highest());
 
 	/**
 	 * the value of the memory attribute
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder memory = values().mapInt(att -> att.memory);
+	private final IntHolder memory = values().mapInt(att -> att.memory);
 
 	/**
 	 * true when memory has highest value of attributes
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder isMemHighest = memory().eq(highest());
+	private final BoolHolder isMemHighest = memory().eq(highest());
 
 	/**
 	 * the value of the perception attribute
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder perception = values().mapInt(att -> att.perception);
+	private final IntHolder perception = values().mapInt(att -> att.perception);
 
 	/**
 	 * true when perception has highest value of attributes
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder isPerHighest = perception().eq(highest());
+	private final BoolHolder isPerHighest = perception().eq(highest());
 
 	/**
 	 * the value of the willpower attribute
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder willpower = values().mapInt(att -> att.willpower);
+	private final IntHolder willpower = values().mapInt(att -> att.willpower);
 
 	/**
 	 * true when willpower has highest value of attributes
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder isWilHighest = willpower().eq(highest());
+	private final BoolHolder isWilHighest = willpower().eq(highest());
 
 	/**
 	 * the int list of the attributes values, sorted increasing.
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsListHolder<Integer> sorted = values()
+	private final ListHolder<Integer> sorted = values()
 	.toList(att -> Arrays.asList(att.charisma, att.intelligence, att.memory, att.perception, att.willpower))
 	.sorted(Integer::compareTo);
 
@@ -113,21 +113,21 @@ public class Attributes {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder highest = sorted().mapInt(li -> li.get(4));
+	private final IntHolder highest = sorted().mapInt(li -> li.get(4));
 
 	/**
 	 * the lowest value of the attributes.
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder lowest = sorted().mapInt(li -> li.get(0));
+	private final IntHolder lowest = sorted().mapInt(li -> li.get(0));
 
 	/**
 	 * the sum of the attributes values
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder sum = values()
+	private final IntHolder sum = values()
 	.mapInt(li -> li.charisma + li.intelligence + li.memory + li.perception + li.willpower);;
 
 	/**
@@ -137,21 +137,21 @@ public class Attributes {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder isAccelerated = sum().test(i -> i > 124);
+	private final BoolHolder isAccelerated = sum().test(i -> i > 124);
 
 	/**
 	 * available bonus remaps
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder bonusRemaps = values().mapInt(att -> att.bonus_remaps);
+	private final IntHolder bonusRemaps = values().mapInt(att -> att.bonus_remaps);
 
 	/**
 	 * local date time for the last remap
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsObjHolder<LocalDateTime> lastRemap = values()
+	private final ObjHolder<LocalDateTime> lastRemap = values()
 	.map(att -> ESITools.convertLocalDateTime(att.last_remap_date));
 
 	/**
@@ -159,7 +159,7 @@ public class Attributes {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsObjHolder<LocalDateTime> remapCoolDown = values()
+	private final ObjHolder<LocalDateTime> remapCoolDown = values()
 	.map(att -> ESITools.convertLocalDateTime(att.accrued_remap_cooldown_date));
 
 	/**
@@ -201,7 +201,7 @@ public class Attributes {
 		return getAttribute(attID, values().get());
 	}
 
-	public ObsBoolHolder isAttributeHighest(int attID) {
+	public BoolHolder isAttributeHighest(int attID) {
 		switch (attID) {
 		case 164:
 			return isCharHighest();

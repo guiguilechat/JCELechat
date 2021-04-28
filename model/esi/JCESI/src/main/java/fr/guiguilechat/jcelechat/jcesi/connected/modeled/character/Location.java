@@ -2,9 +2,9 @@ package fr.guiguilechat.jcelechat.jcesi.connected.modeled.character;
 
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_location;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsLongHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.IntHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.LongHolder;
 import lombok.Getter;
 
 /**
@@ -19,19 +19,19 @@ public class Location {
 		con = acc;
 	}
 
-	public ObsObjHolder<R_get_characters_character_id_location> getRaw() {
+	public ObjHolder<R_get_characters_character_id_location> getRaw() {
 		return con.connection().cache().characters.location(con.characterId());
 	}
 
 	@Getter(lazy = true)
-	private final ObsIntHolder solarSystemID = getRaw().mapInt(info -> info == null ? 0 : info.solar_system_id);
+	private final IntHolder solarSystemID = getRaw().mapInt(info -> info == null ? 0 : info.solar_system_id);
 
 	@Getter(lazy = true)
-	private final ObsIntHolder stationID = getRaw().mapInt(info -> info == null ? 0 : info.station_id);
+	private final IntHolder stationID = getRaw().mapInt(info -> info == null ? 0 : info.station_id);
 
 
 	@Getter(lazy = true)
-	private final ObsLongHolder structureID = getRaw().mapLong(info -> info == null ? 0 : info.structure_id);
+	private final LongHolder structureID = getRaw().mapLong(info -> info == null ? 0 : info.structure_id);
 
 
 }

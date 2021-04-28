@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 
 public class Universe {
 
@@ -47,15 +47,15 @@ public class Universe {
 	// public structures market
 	//
 
-	private final Map<filter, ObsMapHolder<Long, R_get_universe_structures_structure_id>> cachedPublicStructuresByFilter = new HashMap<>();
+	private final Map<filter, MapHolder<Long, R_get_universe_structures_structure_id>> cachedPublicStructuresByFilter = new HashMap<>();
 
 	/**
 	 * get the resolved list of public structure for this character.<br />
 	 * Though the public structure ids are visible to all, resolving them require
 	 * to be connected #logic
 	 */
-	public ObsMapHolder<Long, R_get_universe_structures_structure_id> publicStructures(filter f) {
-		ObsMapHolder<Long, R_get_universe_structures_structure_id> ret = cachedPublicStructuresByFilter.get(f);
+	public MapHolder<Long, R_get_universe_structures_structure_id> publicStructures(filter f) {
+		MapHolder<Long, R_get_universe_structures_structure_id> ret = cachedPublicStructuresByFilter.get(f);
 		if (ret == null) {
 			synchronized (cachedPublicStructuresByFilter) {
 				ret = cachedPublicStructuresByFilter.get(f);

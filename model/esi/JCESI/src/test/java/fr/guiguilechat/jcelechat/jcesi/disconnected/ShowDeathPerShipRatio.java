@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_jumps;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_system_kills;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 
 public class ShowDeathPerShipRatio {
 
@@ -16,8 +16,8 @@ public class ShowDeathPerShipRatio {
 		for (Integer r : cache.universe.systems().get()) {
 			cache.universe.systems(r);
 		}
-		ObsMapHolder<Integer, R_get_universe_system_kills> kills = cache.universe.system_kills().toMap(sys -> sys.system_id);
-		ObsMapHolder<Integer, R_get_universe_system_jumps> jumps_m = cache.universe.system_jumps()
+		MapHolder<Integer, R_get_universe_system_kills> kills = cache.universe.system_kills().toMap(sys -> sys.system_id);
+		MapHolder<Integer, R_get_universe_system_jumps> jumps_m = cache.universe.system_jumps()
 				.toMap(sys -> sys.system_id);
 		// useless because wh are not given their kill statistics
 		Set<Integer> whconstels = IntStream.range(11000001, 11000033 + 1).parallel()

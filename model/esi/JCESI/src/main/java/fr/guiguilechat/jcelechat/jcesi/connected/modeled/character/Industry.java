@@ -7,9 +7,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_industry_jobs;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_blueprints;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_blueprints_location_flag;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
 import lombok.Getter;
 
 public class Industry {
@@ -30,7 +30,7 @@ public class Industry {
 	 */
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = con.connection()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> jobs = con.connection()
 	.cache().characters.industry_jobs(con.characterId(), false);
 
 	public static boolean isManufacture(R_get_characters_character_id_industry_jobs job) {
@@ -62,7 +62,7 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_characters_character_id_industry_jobs> researchJobs = getJobs()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> researchJobs = getJobs()
 	.filter(j -> isCopy(j) || isInvention(j) || isME(j) || isTE(j));
 
 	//
@@ -70,11 +70,11 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_characters_character_id_industry_jobs> inventJobs = getJobs()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> inventJobs = getJobs()
 	.filter(Industry::isInvention);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, Long> invent = getInventJobs().toMap(j -> j.product_type_id, j -> (long) j.runs,
+	private final MapHolder<Integer, Long> invent = getInventJobs().toMap(j -> j.product_type_id, j -> (long) j.runs,
 			Long::sum);
 
 	//
@@ -82,11 +82,11 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_characters_character_id_industry_jobs> copyJobs = getJobs()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> copyJobs = getJobs()
 	.filter(Industry::isCopy);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, Long> copy = getCopyJobs().toMap(j -> j.product_type_id,
+	private final MapHolder<Integer, Long> copy = getCopyJobs().toMap(j -> j.product_type_id,
 			j -> (long) (j.runs * j.licensed_runs), Long::sum);
 
 	//
@@ -94,9 +94,9 @@ public class Industry {
 	//
 
 	@Getter(lazy=true)
-	private final ObsListHolder<R_get_characters_character_id_industry_jobs> productionJobs = getJobs().filter(Industry::isManufacture);
+	private final ListHolder<R_get_characters_character_id_industry_jobs> productionJobs = getJobs().filter(Industry::isManufacture);
 
-	private ObsMapHolder<Integer, Long> cacheProduction = null;
+	private MapHolder<Integer, Long> cacheProduction = null;
 
 	/**
 	 * get the cached value of present production
@@ -106,9 +106,9 @@ public class Industry {
 	 *          of the bp. is stored inside the cached map if not done already.
 	 * @return
 	 */
-	public ObsMapHolder<Integer, Long> getProduction(IntUnaryOperator bpoId2ProductQtty) {
+	public MapHolder<Integer, Long> getProduction(IntUnaryOperator bpoId2ProductQtty) {
 		if (cacheProduction == null) {
-			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = getProductionJobs();
+			ListHolder<R_get_characters_character_id_industry_jobs> jobs = getProductionJobs();
 			synchronized (jobs) {
 				if (cacheProduction == null) {
 					cacheProduction = jobs.toMap(j -> j.product_type_id,
@@ -124,10 +124,10 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_characters_character_id_industry_jobs> reactionJobs = getJobs()
+	private final ListHolder<R_get_characters_character_id_industry_jobs> reactionJobs = getJobs()
 	.filter(Industry::isReaction);
 
-	private ObsMapHolder<Integer, Long> cacheReaction = null;
+	private MapHolder<Integer, Long> cacheReaction = null;
 
 	/**
 	 * get the cached value of present production
@@ -137,9 +137,9 @@ public class Industry {
 	 *          the bp. is stored inside the cached map if not done already.
 	 * @return
 	 */
-	public ObsMapHolder<Integer, Long> getReaction(IntUnaryOperator bpoId2ReactionQtty) {
+	public MapHolder<Integer, Long> getReaction(IntUnaryOperator bpoId2ReactionQtty) {
 		if (cacheReaction == null) {
-			ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = getReactionJobs();
+			ListHolder<R_get_characters_character_id_industry_jobs> jobs = getReactionJobs();
 			synchronized (jobs) {
 				if (cacheReaction == null) {
 					cacheReaction = jobs.toMap(j -> j.product_type_id,
@@ -155,14 +155,14 @@ public class Industry {
 	//
 
 	@Getter(lazy = true)
-	private final ObsSetHolder<Long> usedBPs = getJobs().mapItems(j -> j.blueprint_id).distinct();
+	private final SetHolder<Long> usedBPs = getJobs().mapItems(j -> j.blueprint_id).distinct();
 
 	//
 	// blueprints
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, R_get_corporations_corporation_id_blueprints> blueprints = con.connection()
+	private final MapHolder<Long, R_get_corporations_corporation_id_blueprints> blueprints = con.connection()
 	.cache().characters.blueprints(con.characterId()).toMap(b -> b.item_id, Industry::convertBlueprint);
 
 	/**

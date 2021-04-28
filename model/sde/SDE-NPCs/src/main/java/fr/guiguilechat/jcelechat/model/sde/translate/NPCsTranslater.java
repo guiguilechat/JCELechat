@@ -34,8 +34,8 @@ import fr.guiguilechat.jcelechat.model.sde.npcs.Agent.AGENT_TYPE;
 import fr.guiguilechat.jcelechat.model.sde.npcs.Corporation;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer;
 import fr.guiguilechat.jcelechat.model.sde.npcs.LPOffer.ItemRef;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 
 public class NPCsTranslater {
 
@@ -98,11 +98,11 @@ public class NPCsTranslater {
 		CacheStatic cache = ESIStatic.INSTANCE.cache();
 
 		// prefetch
-		ObsMapHolder<Integer, R_get_corporations_corporation_id>
-		corporationsHolder = ((ObsListHolder<Integer>) cache.corporations.npccorps().follow(l -> {
-					l.parallelStream().forEach(cache.corporations::get);
-				})).toMap(i -> i, i -> cache.corporations.get(i).get());
-		ObsMapHolder<Integer, R_get_universe_factions> factionsHolder = cache.universe.factions().toMap(f -> f.faction_id);
+		MapHolder<Integer, R_get_corporations_corporation_id>
+		corporationsHolder = ((ListHolder<Integer>) cache.corporations.npccorps().follow(l -> {
+			l.parallelStream().forEach(cache.corporations::get);
+		})).toMap(i -> i, i -> cache.corporations.get(i).get());
+		MapHolder<Integer, R_get_universe_factions> factionsHolder = cache.universe.factions().toMap(f -> f.faction_id);
 		eagents.values().parallelStream().map(ag -> ag.locationID).distinct()
 		.forEach(lid -> Location.resolve(null, lid).system());
 		//

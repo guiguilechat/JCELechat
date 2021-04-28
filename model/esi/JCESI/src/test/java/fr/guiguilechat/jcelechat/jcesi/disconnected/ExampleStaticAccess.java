@@ -6,7 +6,7 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
 import fr.guiguilechat.tools.JFXTools;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import javafx.beans.value.ObservableDoubleValue;
 
 public class ExampleStaticAccess {
@@ -40,7 +40,7 @@ public class ExampleStaticAccess {
 		 * The esi has a built in cache manager.<br />
 		 * The cache fetch the pages and put the data in the holder
 		 */
-		ObsListHolder<R_get_markets_region_id_orders> cachebos = stat.cache().markets
+		ListHolder<R_get_markets_region_id_orders> cachebos = stat.cache().markets
 				.orders(order_type.buy, theforge,
 						veldspar);
 

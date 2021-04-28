@@ -39,8 +39,8 @@ import fr.guiguilechat.jcelechat.jcesi.impl.RequestedImpl;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ISwaggerCacheHelper.Pausable;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.ITransfer;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
-import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
+import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.BoolHolder;
 import javafx.beans.InvalidationListener;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.value.ObservableBooleanValue;
@@ -593,7 +593,7 @@ public abstract class ConnectedImpl implements ITransfer {
 			if (requiredRoles == null || requiredRoles.length == 0) {
 				resume();
 			} else {
-				ObsBoolHolder hasRoleVar = getRoles()
+				BoolHolder hasRoleVar = getRoles()
 						.test(set -> Stream.of(requiredRoles).filter(set::contains).findAny().isPresent());
 				hasRoleVar.follow(b -> {
 					if (b) {
@@ -607,7 +607,7 @@ public abstract class ConnectedImpl implements ITransfer {
 	}
 
 
-	public abstract ObsSetHolder<String> getRoles();
+	public abstract SetHolder<String> getRoles();
 
 	@SuppressWarnings("unchecked")
 	public static <T> ObservableBooleanValue bindContains(ObservableSet<T> set, T... values) {

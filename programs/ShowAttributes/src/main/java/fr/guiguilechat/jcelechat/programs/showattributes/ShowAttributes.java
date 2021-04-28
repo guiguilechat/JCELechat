@@ -18,7 +18,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_effects_effect_id_modifiers;
 import fr.guiguilechat.jcelechat.model.sde.meta.Unit;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
 
 public class ShowAttributes {
 
@@ -109,9 +109,9 @@ public class ShowAttributes {
 				.collect(Collectors.toMap(att -> att.attribute_id, att -> att.value));
 
 		if (type.dogma_effects != null) {
-			List<ObsObjHolder<R_get_dogma_effects_effect_id>> effects = Stream.of(type.dogma_effects)
+			List<ObjHolder<R_get_dogma_effects_effect_id>> effects = Stream.of(type.dogma_effects)
 					.map(eff -> ESIStatic.INSTANCE.cache().dogma.effects(eff.effect_id)).collect(Collectors.toList());
-			for (ObsObjHolder<R_get_dogma_effects_effect_id> h : effects) {
+			for (ObjHolder<R_get_dogma_effects_effect_id> h : effects) {
 				R_get_dogma_effects_effect_id e = h.get();
 				if (filters != null && filters.length != 0) {
 					// if one of the filters does not match the effect name, skip the
@@ -246,8 +246,8 @@ public class ShowAttributes {
 
 	public static void showGroups(String nameFilter, int... groupids) {
 		IntStream.of(groupids).parallel()
-				.flatMap(gid -> IntStream.of(ESIStatic.INSTANCE.cache().universe.groups(gid).get().types))
-				.forEach(tid -> ESIStatic.INSTANCE.cache().universe.types(tid));
+		.flatMap(gid -> IntStream.of(ESIStatic.INSTANCE.cache().universe.groups(gid).get().types))
+		.forEach(tid -> ESIStatic.INSTANCE.cache().universe.types(tid));
 		for (int groupId : groupids) {
 			R_get_universe_groups_group_id group = ESIStatic.INSTANCE.cache().universe.groups(groupId).get();
 			for (int typeId : group.types) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
 
 /**
  *
@@ -16,7 +16,7 @@ public class MockPricing implements IPricing {
 	public static class MockPricingType {
 
 		public LocalTypeOrders lto;
-		public ObsListHolderImpl<R_get_markets_region_id_orders> orders = new ObsListHolderImpl<>();
+		public ListHolderImpl<R_get_markets_region_id_orders> orders = new ListHolderImpl<>();
 		public final int type_id;
 
 		public MockPricingType(int typeID) {

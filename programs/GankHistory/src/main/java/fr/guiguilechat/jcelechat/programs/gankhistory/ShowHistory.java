@@ -28,7 +28,7 @@ import com.fasterxml.jackson.databind.type.TypeFactory;
 
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_killmails_killmail_id_killmail_hash;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
 
 public class ShowHistory {
 
@@ -211,7 +211,7 @@ public class ShowHistory {
 		});
 	}
 
-	protected static ObsObjHolder<R_get_killmails_killmail_id_killmail_hash> fetch(EZKB km) {
+	protected static ObjHolder<R_get_killmails_killmail_id_killmail_hash> fetch(EZKB km) {
 		return ESIStatic.INSTANCE.cache().killmails.get(km.zkb.hash, km.killmail_id);
 	}
 

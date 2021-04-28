@@ -5,17 +5,17 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_killmails_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Wars {
     public final SwaggerDCCache<?> cache;
-    private final Map<Integer, ObsListHolderImpl<Integer>> get_wars_holder = new HashMap<>();
-    private final Map<Integer, ObsObjHolderSimple<R_get_wars_war_id>> get_wars_war_id_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<M_get_killmails_2>> get_wars_war_id_killmails_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<Integer>> get_wars_holder = new HashMap<>();
+    private final Map<Integer, ObjHolderSimple<R_get_wars_war_id>> get_wars_war_id_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<M_get_killmails_2>> get_wars_war_id_killmails_holder = new HashMap<>();
 
     public Wars(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -29,8 +29,8 @@ public class Wars {
      * @param war_id
      *     ID for a war
      */
-    public ObsObjHolder<R_get_wars_war_id> get(int war_id) {
-        ObsObjHolderSimple<R_get_wars_war_id> ret = get_wars_war_id_holder.get(war_id);
+    public ObjHolder<R_get_wars_war_id> get(int war_id) {
+        ObjHolderSimple<R_get_wars_war_id> ret = get_wars_war_id_holder.get(war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_war_id_holder);
             try {
@@ -40,8 +40,8 @@ public class Wars {
                     {
                         ret = get_wars_war_id_holder.get(war_id);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_wars_war_id>();
-                            ObsObjHolderSimple<R_get_wars_war_id> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_wars_war_id>();
+                            ObjHolderSimple<R_get_wars_war_id> finalRet = ret;
                             get_wars_war_id_holder.put(war_id, ret);
                             (cache).addFetchCacheObject("get_wars_war_id", properties -> (cache.swagger).get_wars(war_id, properties), item -> finalRet.set(item));
                         }
@@ -63,8 +63,8 @@ public class Wars {
      * @param war_id
      *     A valid war ID
      */
-    public ObsListHolder<M_get_killmails_2> killmails(int war_id) {
-        ObsListHolderImpl<M_get_killmails_2> ret = get_wars_war_id_killmails_holder.get(war_id);
+    public ListHolder<M_get_killmails_2> killmails(int war_id) {
+        ListHolderImpl<M_get_killmails_2> ret = get_wars_war_id_killmails_holder.get(war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_war_id_killmails_holder);
             try {
@@ -74,9 +74,9 @@ public class Wars {
                     {
                         ret = get_wars_war_id_killmails_holder.get(war_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<M_get_killmails_2>();
+                            ret = new ListHolderImpl<M_get_killmails_2>();
                             get_wars_war_id_killmails_holder.put(war_id, ret);
-                            ObsListHolderImpl<M_get_killmails_2> finalRet = ret;
+                            ListHolderImpl<M_get_killmails_2> finalRet = ret;
                             (cache).addFetchCacheArray("get_wars_war_id_killmails", (page, properties) -> (cache.swagger).get_wars_killmails(page, war_id, properties), arr -> finalRet.set(arr));
                         }
                     }
@@ -97,8 +97,8 @@ public class Wars {
      * @param max_war_id
      *     Only return wars with ID smaller than this
      */
-    public ObsListHolder<Integer> wars(Integer max_war_id) {
-        ObsListHolderImpl<Integer> ret = get_wars_holder.get(max_war_id);
+    public ListHolder<Integer> wars(Integer max_war_id) {
+        ListHolderImpl<Integer> ret = get_wars_holder.get(max_war_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_wars_holder);
             try {
@@ -108,9 +108,9 @@ public class Wars {
                     {
                         ret = get_wars_holder.get(max_war_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<Integer>();
+                            ret = new ListHolderImpl<Integer>();
                             get_wars_holder.put(max_war_id, ret);
-                            ObsListHolderImpl<Integer> finalRet = ret;
+                            ListHolderImpl<Integer> finalRet = ret;
                             (cache).addFetchCacheArray("get_wars", (page, properties) -> (cache.swagger).get_wars(max_war_id, properties), arr -> finalRet.set(arr));
                         }
                     }

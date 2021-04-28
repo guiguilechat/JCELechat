@@ -7,9 +7,9 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.collections.MapHolderImpl;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 /**
@@ -21,7 +21,7 @@ import fr.lelouet.tools.synchronization.LockWatchDog;
 public class ProxyRegionalMarket implements IPricing {
 
 	private final RegionalMarket source;
-	private final ObsMapHolderImpl<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID;
+	private final MapHolderImpl<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID;
 
 	/**
 	 *
@@ -30,10 +30,10 @@ public class ProxyRegionalMarket implements IPricing {
 	 * @param orders
 	 *          the filtered set of orders.
 	 */
-	public ProxyRegionalMarket(RegionalMarket unfiltered, ObsListHolder<R_get_markets_region_id_orders> orders) {
+	public ProxyRegionalMarket(RegionalMarket unfiltered, ListHolder<R_get_markets_region_id_orders> orders) {
 		source = unfiltered;
-		ordersByTypeID = new ObsMapHolderImpl<>();
-		ObsObjHolder<Map<Integer, List<R_get_markets_region_id_orders>>> mapped = orders
+		ordersByTypeID = new MapHolderImpl<>();
+		ObjHolder<Map<Integer, List<R_get_markets_region_id_orders>>> mapped = orders
 				.map(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
 		mapped.follow(m -> {
 			ordersByTypeID.set(m);

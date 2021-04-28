@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_items_contract_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_contracts_public_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_contracts_public_region_id_type;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 
 public class Contracts {
 
@@ -37,7 +37,7 @@ public class Contracts {
 		}
 	}
 
-	private HashMap<Integer, ObsListHolder<ContractDesc>> cacheRegionContracts = new HashMap<>();
+	private HashMap<Integer, ListHolder<ContractDesc>> cacheRegionContracts = new HashMap<>();
 
 	/**
 	 *
@@ -48,19 +48,19 @@ public class Contracts {
 	 *          id of the region.
 	 * @returna cached synced variable
 	 */
-	public ObsListHolder<ContractDesc> getRegionContracts(int regionId) {
-		ObsListHolder<ContractDesc> ret = cacheRegionContracts.get(regionId);
+	public ListHolder<ContractDesc> getRegionContracts(int regionId) {
+		ListHolder<ContractDesc> ret = cacheRegionContracts.get(regionId);
 		if (ret == null) {
-			ObsListHolder<R_get_contracts_public_region_id> raws = esiConnection.cache().contracts.getpublic(regionId);
+			ListHolder<R_get_contracts_public_region_id> raws = esiConnection.cache().contracts.getpublic(regionId);
 			synchronized (cacheRegionContracts) {
 				ret = cacheRegionContracts.get(regionId);
 				if (ret == null) {
-					ret = ((ObsListHolder<R_get_contracts_public_region_id>) raws.follow(map -> {
+					ret = raws.follow(map -> {
 						for (R_get_contracts_public_region_id cid : map) {
 							ESIStatic.INSTANCE.cache().contracts.public_items(cid.contract_id);
 							ESIStatic.INSTANCE.cache().contracts.public_bids(cid.contract_id);
 						}
-					})).mapItems(c -> new ContractDesc(c, ESIStatic.INSTANCE.cache().contracts.public_items(c.contract_id).get(),
+					}).mapItems(c -> new ContractDesc(c, ESIStatic.INSTANCE.cache().contracts.public_items(c.contract_id).get(),
 							ESIStatic.INSTANCE.cache().contracts.public_bids(c.contract_id).get()));
 					cacheRegionContracts.put(regionId, ret);
 				}
@@ -69,7 +69,7 @@ public class Contracts {
 		return ret;
 	}
 
-	private HashMap<Integer, ObsListHolder<ContractDesc>> cacheRegionItemExchanges = new HashMap<>();
+	private HashMap<Integer, ListHolder<ContractDesc>> cacheRegionItemExchanges = new HashMap<>();
 
 	/**
 	 * get the public item exchange contracts for a region.
@@ -78,20 +78,20 @@ public class Contracts {
 	 *          id of the region.
 	 * @return a cached synced variable
 	 */
-	public ObsListHolder<ContractDesc> getRegionItemExchanges(int regionId) {
-		ObsListHolder<ContractDesc> ret = cacheRegionItemExchanges.get(regionId);
+	public ListHolder<ContractDesc> getRegionItemExchanges(int regionId) {
+		ListHolder<ContractDesc> ret = cacheRegionItemExchanges.get(regionId);
 		if (ret == null) {
-			ObsListHolder<R_get_contracts_public_region_id> raws = esiConnection.cache().contracts.getpublic(regionId);
+			ListHolder<R_get_contracts_public_region_id> raws = esiConnection.cache().contracts.getpublic(regionId);
 			synchronized (cacheRegionContracts) {
 				ret = cacheRegionItemExchanges.get(regionId);
 				if (ret == null) {
-					ret = ((ObsListHolder<R_get_contracts_public_region_id>) raws
+					ret = raws
 							.filter(c -> c.type == get_contracts_public_region_id_type.item_exchange).follow(map -> {
-						for (R_get_contracts_public_region_id cid : map) {
-							ESIStatic.INSTANCE.cache().contracts.public_items(cid.contract_id);
-						}
-							})).mapItems(
-							c -> new ContractDesc(c, ESIStatic.INSTANCE.cache().contracts.public_items(c.contract_id).get(), null));
+								for (R_get_contracts_public_region_id cid : map) {
+									ESIStatic.INSTANCE.cache().contracts.public_items(cid.contract_id);
+								}
+							}).mapItems(
+									c -> new ContractDesc(c, ESIStatic.INSTANCE.cache().contracts.public_items(c.contract_id).get(), null));
 					cacheRegionItemExchanges.put(regionId, ret);
 				}
 			}
@@ -99,7 +99,7 @@ public class Contracts {
 		return ret;
 	}
 
-	private HashMap<Integer, ObsListHolder<ContractDesc>> cacheRegionItemOffers = new HashMap<>();
+	private HashMap<Integer, ListHolder<ContractDesc>> cacheRegionItemOffers = new HashMap<>();
 
 	/**
 	 * get the contracts that offer items and only require isks
@@ -108,10 +108,10 @@ public class Contracts {
 	 *          id of the region.
 	 * @return a cached synced variable
 	 */
-	public ObsListHolder<ContractDesc> getRegionItemOffers(int regionId) {
-		ObsListHolder<ContractDesc> ret = cacheRegionItemOffers.get(regionId);
+	public ListHolder<ContractDesc> getRegionItemOffers(int regionId) {
+		ListHolder<ContractDesc> ret = cacheRegionItemOffers.get(regionId);
 		if (ret == null) {
-			ObsListHolder<ContractDesc> offers = getRegionItemExchanges(regionId);
+			ListHolder<ContractDesc> offers = getRegionItemExchanges(regionId);
 			synchronized (cacheRegionItemOffers) {
 				ret = cacheRegionItemOffers.get(regionId);
 				if (ret == null) {

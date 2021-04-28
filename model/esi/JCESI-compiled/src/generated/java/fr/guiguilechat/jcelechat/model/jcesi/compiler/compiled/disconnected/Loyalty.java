@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_loyalty_stores_corporation_id_offers;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Loyalty {
     public final SwaggerDCCache<?> cache;
-    private final Map<Integer, ObsListHolderImpl<R_get_loyalty_stores_corporation_id_offers>> get_loyalty_stores_corporation_id_offers_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_loyalty_stores_corporation_id_offers>> get_loyalty_stores_corporation_id_offers_holder = new HashMap<>();
 
     public Loyalty(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -24,8 +24,8 @@ public class Loyalty {
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public ObsListHolder<R_get_loyalty_stores_corporation_id_offers> stores_offers(int corporation_id) {
-        ObsListHolderImpl<R_get_loyalty_stores_corporation_id_offers> ret = get_loyalty_stores_corporation_id_offers_holder.get(corporation_id);
+    public ListHolder<R_get_loyalty_stores_corporation_id_offers> stores_offers(int corporation_id) {
+        ListHolderImpl<R_get_loyalty_stores_corporation_id_offers> ret = get_loyalty_stores_corporation_id_offers_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_loyalty_stores_corporation_id_offers_holder);
             try {
@@ -35,9 +35,9 @@ public class Loyalty {
                     {
                         ret = get_loyalty_stores_corporation_id_offers_holder.get(corporation_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_loyalty_stores_corporation_id_offers>();
+                            ret = new ListHolderImpl<R_get_loyalty_stores_corporation_id_offers>();
                             get_loyalty_stores_corporation_id_offers_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_loyalty_stores_corporation_id_offers> finalRet = ret;
+                            ListHolderImpl<R_get_loyalty_stores_corporation_id_offers> finalRet = ret;
                             (cache).addFetchCacheArray("get_loyalty_stores_corporation_id_offers", (page, properties) -> (cache.swagger).get_loyalty_stores_offers(corporation_id, properties), arr -> finalRet.set(arr));
                         }
                     }

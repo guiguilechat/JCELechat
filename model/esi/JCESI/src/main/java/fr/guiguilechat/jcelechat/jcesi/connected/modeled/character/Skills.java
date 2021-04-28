@@ -11,11 +11,11 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_skillqueue;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_characters_character_id_skills_skills;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.BoolHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -39,7 +39,7 @@ public class Skills {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsListHolder<get_characters_character_id_skills_skills> list = con.connection().cache().characters
+	private final ListHolder<get_characters_character_id_skills_skills> list = con.connection().cache().characters
 	.skills(con.characterId()).toList(c -> Arrays.asList(c.skills));
 
 	/**
@@ -47,28 +47,28 @@ public class Skills {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsMapHolder<Integer, Integer> ID2Level = list().toMap(s -> s.skill_id, s -> s.active_skill_level);
+	private final MapHolder<Integer, Integer> ID2Level = list().toMap(s -> s.skill_id, s -> s.active_skill_level);
 
 	/**
 	 * character skill names to active level
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsMapHolder<String, Integer> name2Level = list()
-			.toMap(s -> ESIStatic.INSTANCE.cache().universe.types(s.skill_id).get().name, s -> s.active_skill_level);
+	private final MapHolder<String, Integer> name2Level = list()
+	.toMap(s -> ESIStatic.INSTANCE.cache().universe.types(s.skill_id).get().name, s -> s.active_skill_level);
 
 	//
 	// training
 	//
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_characters_character_id_skillqueue> queue = con().connection().cache().characters
+	private final ListHolder<R_get_characters_character_id_skillqueue> queue = con().connection().cache().characters
 	.skillqueue(con().characterId());
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<R_get_characters_character_id_skillqueue> training = makeTraining();
+	private final ObjHolder<R_get_characters_character_id_skillqueue> training = makeTraining();
 
-	protected ObsObjHolder<R_get_characters_character_id_skillqueue> makeTraining() {
+	protected ObjHolder<R_get_characters_character_id_skillqueue> makeTraining() {
 		return getQueue().map(l -> {
 			LocalDateTime now = LocalDateTime.now();
 			R_get_characters_character_id_skillqueue ret = l.stream()
@@ -82,7 +82,7 @@ public class Skills {
 	}
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<R_get_universe_types_type_id> trainingSkill = getTraining()
+	private final ObjHolder<R_get_universe_types_type_id> trainingSkill = getTraining()
 	.map(sk -> sk.skill_id == 0 ? new R_get_universe_types_type_id()
 			: ESIAccess.INSTANCE.universe.cache().types(sk.skill_id).get());
 
@@ -91,7 +91,7 @@ public class Skills {
 	 * completion
 	 */
 	@Getter(lazy = true)
-	private final ObsDoubleHolder currentSkillAvgAcquisitionRate = getTraining().mapDouble(sk -> {
+	private final DoubleHolder currentSkillAvgAcquisitionRate = getTraining().mapDouble(sk -> {
 		if (sk.start_date == null || sk.finish_date == null) {
 			return 0.0;
 		}
@@ -109,7 +109,7 @@ public class Skills {
 	 */
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder hasLimitedskill = list()
+	private final BoolHolder hasLimitedskill = list()
 	.test(l -> l.stream().filter(s -> s.active_skill_level != s.trained_skill_level).findAny().isPresent());;
 
 

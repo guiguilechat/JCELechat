@@ -16,7 +16,7 @@ import fr.guiguilechat.jcelechat.model.sde.load.fsd.EcategoryIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EdogmaAttributes;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EgroupIDs;
 import fr.guiguilechat.jcelechat.model.sde.load.fsd.EtypeIDs;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 
 public class CheckESISDE {
 
@@ -26,13 +26,13 @@ public class CheckESISDE {
 		// first preload everything
 		Universe universe = ESIStatic.INSTANCE.cache().universe;
 		Dogma dogma = ESIStatic.INSTANCE.cache().dogma;
-		ObsMapHolder<Integer, R_get_universe_categories_category_id> catMap = universe.categories()
+		MapHolder<Integer, R_get_universe_categories_category_id> catMap = universe.categories()
 				.mapItems(catid -> universe.categories(catid)).toMap(h -> h.get().category_id, h -> h.get());
-		ObsMapHolder<Integer, R_get_universe_groups_group_id> groupMap = universe.groups()
+		MapHolder<Integer, R_get_universe_groups_group_id> groupMap = universe.groups()
 				.mapItems(groupID -> universe.groups(groupID)).toMap(h -> h.get().group_id, h -> h.get());
-		ObsMapHolder<Integer, R_get_universe_types_type_id> typeMap = universe.types()
+		MapHolder<Integer, R_get_universe_types_type_id> typeMap = universe.types()
 				.mapItems(typeID -> universe.types(typeID)).toMap(h -> h.get().type_id, h -> h.get());
-		ObsMapHolder<Integer, R_get_dogma_attributes_attribute_id> attMap = dogma.attributes()
+		MapHolder<Integer, R_get_dogma_attributes_attribute_id> attMap = dogma.attributes()
 				.mapItems(typeID -> dogma.attributes(typeID)).toMap(h -> h.get().attribute_id, h -> h.get());
 		EcategoryIDs.load();
 		EgroupIDs.load();

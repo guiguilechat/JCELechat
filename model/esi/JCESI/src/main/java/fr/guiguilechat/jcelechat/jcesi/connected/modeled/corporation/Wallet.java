@@ -15,9 +15,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_j
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_orders_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_wallets_division_transactions;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import lombok.Getter;
 
@@ -43,28 +43,28 @@ public class Wallet {
 
 	/** the total sum of all the divisions' balance */
 	@Getter(lazy = true)
-	private final ObsDoubleHolder total = getAcc().connection().cache().corporations.wallets(getId())
-	.mapDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
+	private final DoubleHolder total = getAcc().connection().cache().corporations.wallets(getId())
+			.mapDouble(wal -> wal.stream().mapToDouble(wa -> wa.balance).sum());
 
 	/**
 	 * first division balance
 	 */
 	@Getter(lazy = true)
-	private final ObsDoubleHolder firstDivision = getAcc().connection().cache().corporations.wallets(getId())
+	private final DoubleHolder firstDivision = getAcc().connection().cache().corporations.wallets(getId())
 	.mapDouble(l -> l.stream().filter(div -> div.division == 1).findFirst()
 			.orElseGet(() -> new R_get_corporations_corporation_id_wallets()).balance);
 
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> transactionsList = makeTransactionsList();
+	private final ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> transactionsList = makeTransactionsList();
 
 	/**
 	 *
 	 * @return the cached observable list of transactions for this character's
 	 *         corporation, in all divisions
 	 */
-	protected ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> makeTransactionsList() {
-		ObsListHolder<ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> allDivisionsTransactions = corporation
+	protected ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> makeTransactionsList() {
+		ListHolder<ListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> allDivisionsTransactions = corporation
 				.getDivisions()
 				.toList(div -> Stream.of(div.wallet)
 						.map(wallet -> getTransactions(wallet.division))
@@ -80,10 +80,10 @@ public class Wallet {
 	 *
 	 */
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions> transactionsByID = getTransactionsList()
+	private final MapHolder<Long, R_get_corporations_corporation_id_wallets_division_transactions> transactionsByID = getTransactionsList()
 	.toMap(k -> getId() + k.transaction_id);
 
-	private Map<Integer, ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> cachedDivisionTransactions = new HashMap<>();
+	private Map<Integer, ListHolder<R_get_corporations_corporation_id_wallets_division_transactions>> cachedDivisionTransactions = new HashMap<>();
 
 	/**
 	 * get the transactions for a division.
@@ -97,13 +97,13 @@ public class Wallet {
 	 * @return a new or cached object that contains all the transactions in the
 	 *         history of the corpo of a given division.
 	 */
-	protected ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> getTransactions(
+	protected ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> getTransactions(
 			int division_id) {
-		ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret = cachedDivisionTransactions
+		ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret = cachedDivisionTransactions
 				.get(division_id);
 		if (ret == null) {
 			ret = LockWatchDog.BARKER.syncExecute(cachedDivisionTransactions, () -> {
-				ObsListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret2 = cachedDivisionTransactions
+				ListHolder<R_get_corporations_corporation_id_wallets_division_transactions> ret2 = cachedDivisionTransactions
 						.get(division_id);
 				if (ret2 == null) {
 					ret2 = getAcc().connection().cache().corporations.wallets_transactions(getId(), division_id, null)
@@ -157,20 +157,20 @@ public class Wallet {
 	}
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Object, R_get_corporations_corporation_id_orders_history> ordersHistory = getAcc()
+	private final MapHolder<Object, R_get_corporations_corporation_id_orders_history> ordersHistory = getAcc()
 	.connection().cache().corporations.orders_history(getId()).toMap(order -> order.order_id);
 
-	public ObsListHolder<M_get_journal_13> getJournal(int division) {
+	public ListHolder<M_get_journal_13> getJournal(int division) {
 		return getAcc().connection().cache().corporations.wallets_journal(getId(), division);
 	}
 
 	@Getter(lazy = true)
-	private final ObsListHolder<M_get_journal_13> journalList = corporation.getDivisions()
+	private final ListHolder<M_get_journal_13> journalList = corporation.getDivisions()
 	.toList(div -> Stream.of(div.wallet).map(wallet -> getJournal(wallet.division)).collect(Collectors.toList()))
 	.flatten(o -> o);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, M_get_journal_13> journalByID = getJournalList().toMap(je -> je.id);
+	private final MapHolder<Long, M_get_journal_13> journalByID = getJournalList().toMap(je -> je.id);
 
 
 }

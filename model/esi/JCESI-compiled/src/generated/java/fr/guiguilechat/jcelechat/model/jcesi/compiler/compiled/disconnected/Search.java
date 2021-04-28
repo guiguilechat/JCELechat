@@ -5,13 +5,13 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_17_String_LString_Boolean;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_search;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Search {
     public final SwaggerDCCache<?> cache;
-    private final Map<K_17_String_LString_Boolean, ObsObjHolderSimple<R_get_search>> get_search_holder = new HashMap<>();
+    private final Map<K_17_String_LString_Boolean, ObjHolderSimple<R_get_search>> get_search_holder = new HashMap<>();
 
     public Search(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -29,9 +29,9 @@ public class Search {
      * @param strict
      *     Whether the search should be a strict match
      */
-    public ObsObjHolder<R_get_search> get(String[] categories, String search, Boolean strict) {
+    public ObjHolder<R_get_search> get(String[] categories, String search, Boolean strict) {
         K_17_String_LString_Boolean param = new K_17_String_LString_Boolean(search, categories, strict);
-        ObsObjHolderSimple<R_get_search> ret = get_search_holder.get(param);
+        ObjHolderSimple<R_get_search> ret = get_search_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_search_holder);
             try {
@@ -41,8 +41,8 @@ public class Search {
                     {
                         ret = get_search_holder.get(param);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_search>();
-                            ObsObjHolderSimple<R_get_search> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_search>();
+                            ObjHolderSimple<R_get_search> finalRet = ret;
                             get_search_holder.put(param, ret);
                             (cache).addFetchCacheObject("get_search", properties -> (cache.swagger).get(categories, search, strict, properties), item -> finalRet.set(item));
                         }

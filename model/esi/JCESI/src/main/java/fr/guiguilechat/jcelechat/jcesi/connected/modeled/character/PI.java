@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_planets_planet_id;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -60,11 +60,11 @@ public class PI {
 	}
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Object, R_get_characters_character_id_planets> planetsList = account.connection()
+	private final MapHolder<Object, R_get_characters_character_id_planets> planetsList = account.connection()
 	.cache().characters.planets(account.characterId()).toMap(p -> p.planet_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, ColonyInfo> colonies = getPlanetsList()
+	private final MapHolder<Integer, ColonyInfo> colonies = getPlanetsList()
 	.values().unpackItems(info -> account().connection().cache().characters
 			.planets(account().characterId(), info.planet_id).map(data -> new ColonyInfo(info, data)))
 	.toMap(ci -> ci.planet_id);

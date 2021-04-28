@@ -10,7 +10,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_groups_group_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.get_dogma_dynamic_items_type_id_item_id_dogma_attributes;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
 
 /**
  * show the corresponding tracking of frigate rats at varying distances.<br />
@@ -24,15 +24,15 @@ public class ShowFrigateTracking {
 	public static void main(String[] args) {
 		boolean showdetails = false;
 		R_get_universe_categories_category_id catEntities = ESIAccess.INSTANCE.universe.cache().categories(11).get();
-		List<ObsObjHolder<R_get_universe_groups_group_id>> groupholders = IntStream.of(catEntities.groups)
+		List<ObjHolder<R_get_universe_groups_group_id>> groupholders = IntStream.of(catEntities.groups)
 				.mapToObj(gid -> ESIAccess.INSTANCE.universe.cache().groups(gid)).collect(Collectors.toList());
-		List<R_get_universe_groups_group_id> groups = groupholders.stream().map(ObsObjHolder::get)
+		List<R_get_universe_groups_group_id> groups = groupholders.stream().map(ObjHolder::get)
 				.collect(Collectors.toList());
-		List<ObsObjHolder<R_get_universe_types_type_id>> typeHolders = groups
+		List<ObjHolder<R_get_universe_types_type_id>> typeHolders = groups
 				.stream()
 				.flatMap(g -> IntStream.of(g.types).mapToObj(tid -> ESIAccess.INSTANCE.universe.cache().types(tid)))
 				.collect(Collectors.toList());
-		List<R_get_universe_types_type_id> types = typeHolders.stream().map(ObsObjHolder::get).collect(Collectors.toList());
+		List<R_get_universe_types_type_id> types = typeHolders.stream().map(ObjHolder::get).collect(Collectors.toList());
 		Collections.sort(types, (t1, t2) -> t1 == null || t2 == null ? 0 : t1.name.compareTo(t2.name));
 		System.out.println("name\ttracking20km\ttracking50km\ttracking80km" + (showdetails ? "\tspeed\tsig\torbit" : ""));
 		for (R_get_universe_types_type_id t : types) {

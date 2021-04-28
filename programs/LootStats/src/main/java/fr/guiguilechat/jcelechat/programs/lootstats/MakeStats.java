@@ -118,10 +118,10 @@ public class MakeStats {
 					? new String[] { "all", le.type + "-" + le.race + "-" + le.sec, le.type + "-" + le.race, "" + le.sec,
 							le.type }
 			: new String[] { "all", le.type + "-" + le.race, le.type };
-					for (String cat : cats) {
-						catValue.put(cat, lootBO + catValue.getOrDefault(cat, 0.0));
-						catNumber.put(cat, 1 + catNumber.getOrDefault(cat, 0));
-					}
+			for (String cat : cats) {
+				catValue.put(cat, lootBO + catValue.getOrDefault(cat, 0.0));
+				catNumber.put(cat, 1 + catNumber.getOrDefault(cat, 0));
+			}
 		});
 		HashMap<String, Double> catToAvgBO = new HashMap<>();
 		for (Entry<String, Double> e : catValue.entrySet()) {

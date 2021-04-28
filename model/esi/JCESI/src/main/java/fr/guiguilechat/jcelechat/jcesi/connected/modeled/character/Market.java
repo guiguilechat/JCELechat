@@ -12,9 +12,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_structures_structure_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.filter;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_markets_region_id_orders_range;
-import fr.lelouet.collectionholders.interfaces.collections.ObsCollectionHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
+import fr.lelouet.tools.holders.interfaces.collections.CollectionHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
 import lombok.Getter;
 
 public class Market {
@@ -30,22 +30,22 @@ public class Market {
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, R_get_characters_character_id_orders> orders = con.connection().cache().characters
+	private final MapHolder<Long, R_get_characters_character_id_orders> orders = con.connection().cache().characters
 	.orders(con.characterId()).toMap(o -> o.order_id);
 
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, Long> SOs = makeSOs();
+	private final MapHolder<Integer, Long> SOs = makeSOs();
 
-	protected ObsMapHolder<Integer, Long> makeSOs() {
+	protected MapHolder<Integer, Long> makeSOs() {
 		return getOrders().values().filter(order -> !order.is_buy_order).mapMap(l -> l.stream()
 				.collect(Collectors.groupingBy(or -> or.type_id, Collectors.summingLong(order -> order.volume_remain))));
 	}
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, Long> BOs = makeBOs();
+	private final MapHolder<Integer, Long> BOs = makeBOs();
 
-	protected ObsMapHolder<Integer, Long> makeBOs() {
+	protected MapHolder<Integer, Long> makeBOs() {
 		return getOrders().values().filter(order -> order.is_buy_order).mapMap(l -> l.stream()
 				.collect(Collectors.groupingBy(or -> or.type_id, Collectors.summingLong(order -> order.volume_remain))));
 	}
@@ -54,10 +54,10 @@ public class Market {
 	// public market orders on structures
 	//
 
-	private final HashMap<Integer, ObsCollectionHolder<R_get_markets_region_id_orders, ?>> cachedRegionalPublicOrders = new HashMap<>();
+	private final HashMap<Integer, CollectionHolder<R_get_markets_region_id_orders, ?>> cachedRegionalPublicOrders = new HashMap<>();
 
-	public ObsCollectionHolder<R_get_markets_region_id_orders, ?> getRegionalPublicOrders(int regionId) {
-		ObsCollectionHolder<R_get_markets_region_id_orders, ?> ret = cachedRegionalPublicOrders.get(regionId);
+	public CollectionHolder<R_get_markets_region_id_orders, ?> getRegionalPublicOrders(int regionId) {
+		CollectionHolder<R_get_markets_region_id_orders, ?> ret = cachedRegionalPublicOrders.get(regionId);
 		if (ret == null) {
 			synchronized (cachedRegionalPublicOrders) {
 				ret = cachedRegionalPublicOrders.get(regionId);
@@ -66,11 +66,11 @@ public class Market {
 							.of(ESIAccess.INSTANCE.universe.cache().regions(regionId).get().constellations).boxed()
 							.collect(Collectors.toSet());
 
-					ObsSetHolder<Long> structIdInRegion = con.universe.publicStructures(filter.market)
+					SetHolder<Long> structIdInRegion = con.universe.publicStructures(filter.market)
 							.filter(null, stru -> allowedConstels
 									.contains(ESIAccess.INSTANCE.universe.cache().systems(stru.solar_system_id).get().constellation_id))
 							.keys();
-					ObsCollectionHolder<R_get_markets_region_id_orders, ?> publicStructureOrders = structIdInRegion
+					CollectionHolder<R_get_markets_region_id_orders, ?> publicStructureOrders = structIdInRegion
 							.flatten(structid -> {
 								int system_id = con.universe.location(structid).system().system_id;
 								return con.connection().cache().markets.structures(structid)

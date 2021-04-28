@@ -6,8 +6,8 @@ import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
 
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.impl.collections.MapHolderImpl;
 import javafx.collections.ObservableList;
 import javafx.collections.ObservableMap;
 
@@ -20,9 +20,9 @@ public interface ISwaggerCacheHelper {
 	public <U> Pausable addFetchCacheObject(String name, Function<Map<String, String>, Requested<U>> fetcher,
 			Consumer<U> cacheHandler, String... requiredRoles);
 
-	public <U, V> ObsMapHolderImpl<U, V> toHolder(ObservableMap<U, V> map);
+	public <U, V> MapHolderImpl<U, V> toHolder(ObservableMap<U, V> map);
 
-	public <U> ObsListHolderImpl<U> toHolder(ObservableList<U> list);
+	public <U> ListHolderImpl<U> toHolder(ObservableList<U> list);
 
 	public interface Pausable {
 

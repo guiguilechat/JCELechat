@@ -9,8 +9,8 @@ import fr.guiguilechat.jcelechat.jcesi.ESIAccountHelper.AccessToken;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_ICOAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_roles;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -115,10 +115,10 @@ public class ESIConnected extends ConnectedImpl implements G_ICOAccess {
 	// getting the roles
 
 	@Getter(lazy = true)
-	private final ObsSetHolder<String> roles = makeRoles();
+	private final SetHolder<String> roles = makeRoles();
 
-	protected ObsSetHolder<String> makeRoles() {
-		ObsObjHolder<R_get_characters_character_id_roles> rawroles = cache.characters.roles(verify().CharacterID);
+	protected SetHolder<String> makeRoles() {
+		ObjHolder<R_get_characters_character_id_roles> rawroles = cache.characters.roles(verify().CharacterID);
 		return rawroles.toSet(rr -> Arrays.asList(rr.roles)).mapItems(r -> r.toString).distinct();
 	}
 }

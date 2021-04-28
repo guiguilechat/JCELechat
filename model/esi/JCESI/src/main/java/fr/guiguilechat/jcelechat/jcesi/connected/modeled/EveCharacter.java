@@ -36,14 +36,14 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_base;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_hq;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_roles_roles_at_other;
-import fr.lelouet.collectionholders.impl.numbers.ObsDoubleHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
+import fr.lelouet.tools.holders.impl.numbers.DoubleHolderImpl;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.BoolHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.IntHolder;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -101,23 +101,23 @@ public class EveCharacter {
 	//
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<R_get_characters_character_id_roles> allRoles = con.connection().cache().characters
+	private final ObjHolder<R_get_characters_character_id_roles> allRoles = con.connection().cache().characters
 	.roles(con.characterId());
 
 	@Getter(lazy = true)
-	private final ObsSetHolder<get_characters_character_id_roles_roles> roles = getAllRoles()
+	private final SetHolder<get_characters_character_id_roles_roles> roles = getAllRoles()
 	.toList(roles -> Arrays.asList(roles.roles)).distinct();
 
 	@Getter(lazy = true)
-	private final ObsSetHolder<get_characters_character_id_roles_roles_at_hq> rolesHQ = getAllRoles()
+	private final SetHolder<get_characters_character_id_roles_roles_at_hq> rolesHQ = getAllRoles()
 	.toList(roles -> Arrays.asList(roles.roles_at_hq)).distinct();
 
 	@Getter(lazy = true)
-	private final ObsSetHolder<get_characters_character_id_roles_roles_at_base> rolesBase = getAllRoles()
+	private final SetHolder<get_characters_character_id_roles_roles_at_base> rolesBase = getAllRoles()
 	.toList(roles -> Arrays.asList(roles.roles_at_base)).distinct();
 
 	@Getter(lazy = true)
-	private final ObsSetHolder<get_characters_character_id_roles_roles_at_other> rolesOther = getAllRoles()
+	private final SetHolder<get_characters_character_id_roles_roles_at_other> rolesOther = getAllRoles()
 	.toList(roles -> Arrays.asList(roles.roles_at_other)).distinct();
 
 	//
@@ -125,18 +125,18 @@ public class EveCharacter {
 	//
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<R_get_characters_character_id_online> online = con.connection().cache().characters
+	private final ObjHolder<R_get_characters_character_id_online> online = con.connection().cache().characters
 	.online(con.characterId());
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder isOnline = getOnline().test(onl -> onl.online);
+	private final BoolHolder isOnline = getOnline().test(onl -> onl.online);
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<OffsetDateTime> lastlogin = getOnline().map(onl -> ESITools.convertDate(onl.last_login));
+	private final ObjHolder<OffsetDateTime> lastlogin = getOnline().map(onl -> ESITools.convertDate(onl.last_login));
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<OffsetDateTime> lastlogout = getOnline().map(onl -> ESITools.convertDate(onl.last_logout));
+	private final ObjHolder<OffsetDateTime> lastlogout = getOnline().map(onl -> ESITools.convertDate(onl.last_logout));
 
 	// slots for industry jobs
 
@@ -145,10 +145,10 @@ public class EveCharacter {
 	 * the max research slots this character has from its skills.
 	 */
 	@Getter(lazy = true)
-	private final ObsIntHolder maxResearchSlots = makeMaxResearchSlots();
+	private final IntHolder maxResearchSlots = makeMaxResearchSlots();
 
-	protected ObsIntHolder makeMaxResearchSlots() {
-		ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
+	protected IntHolder makeMaxResearchSlots() {
+		MapHolder<Integer, Integer> cskills = skills.ID2Level();
 		return cskills.at(3406, 0).mapInt(i -> i).add(cskills.at(24624, 0).mapInt(i -> i)).add(1);
 	}
 
@@ -157,12 +157,12 @@ public class EveCharacter {
 	 * the amount of research slots this character has available
 	 */
 	@Getter(lazy = true)
-	private final ObsIntHolder availResSlots = makeAvailResSlots();
+	private final IntHolder availResSlots = makeAvailResSlots();
 
-	protected ObsIntHolder makeAvailResSlots() {
-		ObsIntHolder allSlots = getMaxResearchSlots();
-		ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getResearchJobs();
-		ObsIntHolder corpOwnedJobs = con.corporation.industry.getResearchJobs()
+	protected IntHolder makeAvailResSlots() {
+		IntHolder allSlots = getMaxResearchSlots();
+		ListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getResearchJobs();
+		IntHolder corpOwnedJobs = con.corporation.industry.getResearchJobs()
 				.filter(j -> j.installer_id == con.characterId()).size();
 		return allSlots.sub(jobs.size()).sub(corpOwnedJobs);
 	}
@@ -172,10 +172,10 @@ public class EveCharacter {
 	 * the max production slots this character has from its skills.
 	 */
 	@Getter(lazy = true)
-	private final ObsIntHolder maxProdSlots = makeMaxProdSlots();
+	private final IntHolder maxProdSlots = makeMaxProdSlots();
 
-	protected ObsIntHolder makeMaxProdSlots() {
-		ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
+	protected IntHolder makeMaxProdSlots() {
+		MapHolder<Integer, Integer> cskills = skills.ID2Level();
 		return cskills.at(3387, 0).mapInt(i -> i).add(cskills.at(24625, 0).mapInt(i -> i)).add(1);
 	}
 
@@ -184,12 +184,12 @@ public class EveCharacter {
 	 * the amount of production slots this character has available
 	 */
 	@Getter(lazy = true)
-	private final ObsIntHolder availProdSlots = makeAvailProdSlots();
+	private final IntHolder availProdSlots = makeAvailProdSlots();
 
-	protected ObsIntHolder makeAvailProdSlots() {
-		ObsIntHolder allSlots = getMaxProdSlots();
-		ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getProductionJobs();
-		ObsIntHolder corpOwnedJobs = con.corporation.industry.getProductionJobs()
+	protected IntHolder makeAvailProdSlots() {
+		IntHolder allSlots = getMaxProdSlots();
+		ListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getProductionJobs();
+		IntHolder corpOwnedJobs = con.corporation.industry.getProductionJobs()
 				.filter(j -> j.installer_id == con.characterId()).size();
 		return allSlots.sub(jobs.size()).sub(corpOwnedJobs);
 	}
@@ -199,10 +199,10 @@ public class EveCharacter {
 	 * the max reaction slots this character has from its skills.
 	 */
 	@Getter(lazy = true)
-	private final ObsIntHolder maxReactionSlots = makeMaxReactionSlots();
+	private final IntHolder maxReactionSlots = makeMaxReactionSlots();
 
-	protected ObsIntHolder makeMaxReactionSlots() {
-		ObsMapHolder<Integer, Integer> cskills = skills.ID2Level();
+	protected IntHolder makeMaxReactionSlots() {
+		MapHolder<Integer, Integer> cskills = skills.ID2Level();
 		return cskills.at(45749, 0).mapInt(i -> i).add(cskills.at(45748, 0).mapInt(i -> i)).add(1);
 	}
 
@@ -211,16 +211,16 @@ public class EveCharacter {
 	 * the amount of reaction slots this character has available
 	 */
 	@Getter(lazy = true)
-	private final ObsIntHolder availReactionSlots = makeAvailReactionSlots();
+	private final IntHolder availReactionSlots = makeAvailReactionSlots();
 
 	/**
 	 *
 	 * @return the amount of reaction slots this character has available
 	 */
-	protected ObsIntHolder makeAvailReactionSlots() {
-		ObsIntHolder allSlots = getMaxReactionSlots();
-		ObsListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getReactionJobs();
-		ObsIntHolder corpOwnedJobs = con.corporation.industry.getReactionJobs()
+	protected IntHolder makeAvailReactionSlots() {
+		IntHolder allSlots = getMaxReactionSlots();
+		ListHolder<R_get_characters_character_id_industry_jobs> jobs = industry.getReactionJobs();
+		IntHolder corpOwnedJobs = con.corporation.industry.getReactionJobs()
 				.filter(j -> j.installer_id == con.characterId()).size();
 		return allSlots.sub(jobs.size()).sub(corpOwnedJobs);
 	}
@@ -250,7 +250,7 @@ public class EveCharacter {
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, M_get_journal_13> journal = con.connection().cache().characters
+	private final MapHolder<Long, M_get_journal_13> journal = con.connection().cache().characters
 	.wallet_journal(con.characterId()).toMap(entry -> entry.id);
 
 	//
@@ -258,15 +258,15 @@ public class EveCharacter {
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, M_get_standings_3> standings = con.connection().cache().characters
+	private final MapHolder<Integer, M_get_standings_3> standings = con.connection().cache().characters
 	.standings(con.characterId()).toMap(std -> std.from_id);
 
-	private Map<Integer, ObsObjHolder<Float>> cacheStanding = new HashMap<>();
+	private Map<Integer, ObjHolder<Float>> cacheStanding = new HashMap<>();
 
-	public ObsObjHolder<Float> getStanding(int id) {
-		ObsObjHolder<Float> ret = cacheStanding.get(id);
+	public ObjHolder<Float> getStanding(int id) {
+		ObjHolder<Float> ret = cacheStanding.get(id);
 		if (ret == null) {
-			ObsMapHolder<Integer, M_get_standings_3> std = getStandings();
+			MapHolder<Integer, M_get_standings_3> std = getStandings();
 			synchronized (cacheStanding) {
 				ret = cacheStanding.get(id);
 				if (ret == null) {
@@ -283,7 +283,7 @@ public class EveCharacter {
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_characters_character_id_loyalty_points> LPs = con.connection()
+	private final MapHolder<Integer, R_get_characters_character_id_loyalty_points> LPs = con.connection()
 	.cache().characters.loyalty_points(con.characterId()).toMap(lp -> lp.corporation_id);
 
 	//
@@ -294,10 +294,10 @@ public class EveCharacter {
 	 * current SP acquisition based on skill being trained and attributes.
 	 */
 	@Getter(lazy = true)
-	private final ObsDoubleHolder currentHourlySPRate = makeCurrentHourlySPRate();
+	private final DoubleHolder currentHourlySPRate = makeCurrentHourlySPRate();
 
-	protected ObsDoubleHolder makeCurrentHourlySPRate() {
-		ObsDoubleHolderImpl ret = new ObsDoubleHolderImpl();
+	protected DoubleHolder makeCurrentHourlySPRate() {
+		DoubleHolderImpl ret = new DoubleHolderImpl();
 		R_get_universe_types_type_id[] holdSkil = new R_get_universe_types_type_id[1];
 		R_get_characters_character_id_attributes[] holdAtt = new R_get_characters_character_id_attributes[1];
 		Runnable apply = () -> {
@@ -335,13 +335,13 @@ public class EveCharacter {
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder isAlpha = makeIsAlpha();
+	private final BoolHolder isAlpha = makeIsAlpha();
 
-	protected ObsBoolHolder makeIsAlpha() {
-		ObsBoolHolder limited = skills.hasLimitedskill();
-		ObsBoolHolder training = skills.getCurrentSkillAvgAcquisitionRate().test(d -> d > 0);
-		ObsDoubleHolder theoretical = getCurrentHourlySPRate();
-		ObsDoubleHolder effective = skills.getCurrentSkillAvgAcquisitionRate();
+	protected BoolHolder makeIsAlpha() {
+		BoolHolder limited = skills.hasLimitedskill();
+		BoolHolder training = skills.getCurrentSkillAvgAcquisitionRate().test(d -> d > 0);
+		DoubleHolder theoretical = getCurrentHourlySPRate();
+		DoubleHolder effective = skills.getCurrentSkillAvgAcquisitionRate();
 		return limited.or(training.and(effective.div(theoretical).test(d -> d < 0.55)));
 	}
 

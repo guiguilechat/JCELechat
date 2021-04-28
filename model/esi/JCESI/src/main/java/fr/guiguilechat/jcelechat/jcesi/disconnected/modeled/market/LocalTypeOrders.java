@@ -3,8 +3,8 @@ package fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market;
 import java.util.HashMap;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -14,13 +14,13 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class LocalTypeOrders {
 
-	private final ObsListHolder<R_get_markets_region_id_orders> orders;
+	private final ListHolder<R_get_markets_region_id_orders> orders;
 
 	/**
 	 * the observable list of buy orders, sorted by decreasing price
 	 */
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_markets_region_id_orders> buyOrders = orders
+	private final ListHolder<R_get_markets_region_id_orders> buyOrders = orders
 	.filter(order -> order.is_buy_order && order.min_volume == 1)
 	.sorted((o1, o2) -> -Double.compare(o1.price, o2.price));
 
@@ -28,16 +28,16 @@ public class LocalTypeOrders {
 	 * the observable list of sell orders, sorted by increasing price
 	 */
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_markets_region_id_orders> sellOrders = orders
+	private final ListHolder<R_get_markets_region_id_orders> sellOrders = orders
 	.filter(order -> !order.is_buy_order && order.min_volume == 1)
-			.sorted((o1, o2) -> Double.compare(o1.price, o2.price));
+	.sorted((o1, o2) -> Double.compare(o1.price, o2.price));
 
-	private HashMap<Long, ObsDoubleHolder> cachedBuyPrice = new HashMap<>();
+	private HashMap<Long, DoubleHolder> cachedBuyPrice = new HashMap<>();
 
-	public ObsDoubleHolder getBuyPrice(long qtty) {
-		ObsDoubleHolder ret = cachedBuyPrice.get(qtty);
+	public DoubleHolder getBuyPrice(long qtty) {
+		DoubleHolder ret = cachedBuyPrice.get(qtty);
 		if (ret == null) {
-			ObsListHolder<R_get_markets_region_id_orders> source = getBuyOrders();
+			ListHolder<R_get_markets_region_id_orders> source = getBuyOrders();
 			synchronized (cachedBuyPrice) {
 				ret = cachedBuyPrice.get(qtty);
 				if (ret == null) {
@@ -62,12 +62,12 @@ public class LocalTypeOrders {
 		return ret;
 	}
 
-	private HashMap<Long, ObsDoubleHolder> cachedSellPrice = new HashMap<>();
+	private HashMap<Long, DoubleHolder> cachedSellPrice = new HashMap<>();
 
-	public ObsDoubleHolder getSellPrice(long qtty) {
-		ObsDoubleHolder ret = cachedSellPrice.get(qtty);
+	public DoubleHolder getSellPrice(long qtty) {
+		DoubleHolder ret = cachedSellPrice.get(qtty);
 		if (ret == null) {
-			ObsListHolder<R_get_markets_region_id_orders> source = getSellOrders();
+			ListHolder<R_get_markets_region_id_orders> source = getSellOrders();
 			synchronized (cachedSellPrice) {
 				ret = cachedSellPrice.get(qtty);
 				if (ret == null) {
@@ -92,7 +92,7 @@ public class LocalTypeOrders {
 		return ret;
 	}
 
-	public ObsDoubleHolder getPrice(boolean buy, long qtty) {
+	public DoubleHolder getPrice(boolean buy, long qtty) {
 		return buy ? getBuyPrice(qtty) : getSellPrice(qtty);
 	}
 

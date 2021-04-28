@@ -9,8 +9,8 @@ import fr.guiguilechat.jcelechat.jcesi.ESITools;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.ESIStatic;
 import fr.guiguilechat.jcelechat.jcesi.interfaces.Requested;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import lombok.Getter;
 
 public class Wars {
@@ -22,7 +22,7 @@ public class Wars {
 	}
 
 	@Getter(lazy = true)
-	private final ObsListHolder<Integer> allWarsIds = esiConnection.cache().wars.wars(null).toList(this::expandWholeWars);
+	private final ListHolder<Integer> allWarsIds = esiConnection.cache().wars.wars(null).toList(this::expandWholeWars);
 
 
 	/**
@@ -61,12 +61,12 @@ public class Wars {
 	}
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_wars_war_id> allWars = getAllWarsIds().mapItems(id -> {
+	private final ListHolder<R_get_wars_war_id> allWars = getAllWarsIds().mapItems(id -> {
 		return esiConnection.cache().wars.get(id);
 	}).mapItems(holder -> holder.get());
 
 	@Getter(lazy = true)
-	private final ObsListHolder<Integer> monthWarsIds = esiConnection.cache().wars.wars(null)
+	private final ListHolder<Integer> monthWarsIds = esiConnection.cache().wars.wars(null)
 	.toList(this::expandMonthWars);
 
 	protected List<Integer> expandMonthWars(List<Integer> firstPage) {
@@ -78,7 +78,7 @@ public class Wars {
 		Integer firstId = ret.get(ret.size() - 1);
 		do {
 			// at the same time, fetch the first known war id and the next page.
-			ObsObjHolder<R_get_wars_war_id> lastLimit = esiConnection.cache().wars.get(firstId);
+			ObjHolder<R_get_wars_war_id> lastLimit = esiConnection.cache().wars.get(firstId);
 			Requested<Integer[]> req = esiConnection.get_wars(firstId, null);
 			// then check if the previous data was before the limit date.
 			LocalDate previousStart = ESITools.convertLocalDate(lastLimit.get().started);
@@ -107,7 +107,7 @@ public class Wars {
 	}
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_wars_war_id> monthWars = getMonthWarsIds().mapItems(id -> {
+	private final ListHolder<R_get_wars_war_id> monthWars = getMonthWarsIds().mapItems(id -> {
 		return esiConnection.cache().wars.get(id);
 	}).mapItems(holder -> holder.get());
 

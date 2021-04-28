@@ -10,8 +10,8 @@ import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.IPricing;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 
@@ -92,10 +92,10 @@ public class Markets {
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsListHolder<R_get_markets_prices> marketPrices = esiConnection.cache().markets.prices();
+	private final ListHolder<R_get_markets_prices> marketPrices = esiConnection.cache().markets.prices();
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, Double> adjusteds = marketPrices().toMap(p -> p.type_id,
+	private final MapHolder<Integer, Double> adjusteds = marketPrices().toMap(p -> p.type_id,
 			p -> p.adjusted_price);
 
 	public double getAdjusted(int itemId) {
@@ -103,7 +103,7 @@ public class Markets {
 	}
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, Double> averages = marketPrices().toMap(p -> p.type_id, p -> p.average_price);
+	private final MapHolder<Integer, Double> averages = marketPrices().toMap(p -> p.type_id, p -> p.average_price);
 
 
 	public double getAverage(int itemId) {

@@ -19,11 +19,11 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_u
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_systems_system_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_post_universe_names;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsSetHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.SetHolder;
 import lombok.Getter;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
@@ -95,12 +95,12 @@ public class Universe {
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, Integer> systemJumps = cache.system_jumps().toMap(j -> j.system_id,
+	private final MapHolder<Integer, Integer> systemJumps = cache.system_jumps().toMap(j -> j.system_id,
 			j -> j.ship_jumps);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_universe_system_kills> systemKills = cache.system_kills()
-			.toMap(j -> j.system_id);
+	private final MapHolder<Integer, R_get_universe_system_kills> systemKills = cache.system_kills()
+	.toMap(j -> j.system_id);
 
 	//
 	// access to public structures
@@ -108,7 +108,7 @@ public class Universe {
 
 
 	@Getter(lazy = true)
-	private final ObsSetHolder<Long> publicStructures = con().cache().universe.structures(null).distinct();
+	private final SetHolder<Long> publicStructures = con().cache().universe.structures(null).distinct();
 
 	public boolean isPublicStructure(long structureid) {
 		return getPublicStructures().get().contains(structureid);
@@ -175,7 +175,7 @@ public class Universe {
 	 */
 	public Stream<R_get_universe_systems_system_id> systemsWithinOneConstelJump(R_get_universe_systems_system_id system) {
 		R_get_universe_constellations_constellation_id constel = cache.constellations(system.constellation_id).get();
-		List<ObsObjHolder<R_get_universe_systems_system_id>> systemsholders = adjacentConstels(constel)
+		List<ObjHolder<R_get_universe_systems_system_id>> systemsholders = adjacentConstels(constel)
 				.flatMapToInt(co -> IntStream.of(co.systems)).mapToObj(cache::systems).collect(Collectors.toList());
 		return systemsholders.parallelStream().map(sh -> sh.get());
 	}
@@ -189,14 +189,14 @@ public class Universe {
 	 */
 	public Stream<R_get_universe_constellations_constellation_id> adjacentConstels(
 			R_get_universe_constellations_constellation_id constel) {
-		List<ObsObjHolder<R_get_universe_systems_system_id>> neighboursArr = IntStream.of(constel.systems).parallel()
+		List<ObjHolder<R_get_universe_systems_system_id>> neighboursArr = IntStream.of(constel.systems).parallel()
 				.mapToObj(cache::systems).collect(Collectors.toList());
-		List<ObsObjHolder<R_get_universe_stargates_stargate_id>> gates = neighboursArr.parallelStream()
+		List<ObjHolder<R_get_universe_stargates_stargate_id>> gates = neighboursArr.parallelStream()
 				.flatMapToInt(n -> IntStream.of(n.get().stargates)).mapToObj(cache::stargates).collect(Collectors.toList());
-		List<ObsObjHolder<R_get_universe_systems_system_id>> othersystems = gates.parallelStream()
+		List<ObjHolder<R_get_universe_systems_system_id>> othersystems = gates.parallelStream()
 				.map(gate -> cache.systems(gate.get().destination.system_id)).collect(Collectors.toList());
 		int[] constelsIds = othersystems.parallelStream().mapToInt(os -> os.get().constellation_id).distinct().toArray();
-		List<ObsObjHolder<R_get_universe_constellations_constellation_id>> constelsHolders = IntStream.of(constelsIds)
+		List<ObjHolder<R_get_universe_constellations_constellation_id>> constelsHolders = IntStream.of(constelsIds)
 				.mapToObj(cache::constellations).collect(Collectors.toList());
 		return constelsHolders.parallelStream().map(ch -> ch.get());
 	}
@@ -219,7 +219,7 @@ public class Universe {
 		if (pochvenSystems == null) {
 			synchronized (this) {
 				if (pochvenSystems == null) {
-					List<ObsObjHolder<R_get_universe_constellations_constellation_id>> constellations = IntStream
+					List<ObjHolder<R_get_universe_constellations_constellation_id>> constellations = IntStream
 							.of(con.cache().universe.regions(10000070).get().constellations)
 							.mapToObj(c -> con.cache().universe.constellations(c)).collect(Collectors.toList());
 					pochvenSystems = constellations.parallelStream().flatMapToInt(c -> IntStream.of(c.get().systems)).toArray();
@@ -255,7 +255,7 @@ public class Universe {
 		return ret;
 	}
 
-	protected HashMap<Map<Integer, Integer>, ObsObjHolder<TripDistance>> cachedDistances = new HashMap<>();
+	protected HashMap<Map<Integer, Integer>, ObjHolder<TripDistance>> cachedDistances = new HashMap<>();
 
 	/**
 	 * get the holder on the distance from a station to the sun of a solar system
@@ -265,16 +265,16 @@ public class Universe {
 	 * @return a holder. if need, created and a thread is started to compute and
 	 *         hold the value.
 	 */
-	public ObsObjHolder<TripDistance> getDistance(R_get_universe_stations_station_id station,
+	public ObjHolder<TripDistance> getDistance(R_get_universe_stations_station_id station,
 			R_get_universe_systems_system_id destination) {
 		Map<Integer, Integer> key = new HashMap<>();
 		key.put(station.station_id, destination.system_id);
-		ObsObjHolder<TripDistance> ret = cachedDistances.get(key);
+		ObjHolder<TripDistance> ret = cachedDistances.get(key);
 		if (ret == null) {
 			synchronized (cachedDistances) {
 				ret = cachedDistances.get(key);
 				if (ret == null) {
-					ObsObjHolderSimple<TripDistance> fret = new ObsObjHolderSimple<>();
+					ObjHolderSimple<TripDistance> fret = new ObjHolderSimple<>();
 					ret = fret;
 					cachedDistances.put(key, ret);
 					new Thread(() -> fret.set(computeDistance(station, destination))).start();
@@ -355,8 +355,8 @@ public class Universe {
 		if (system.stargates == null || system.stargates.length == 0) {
 			return 0.0;
 		}
-		ObsObjHolder<R_get_universe_stargates_stargate_id>[] gates = IntStream.of(system.stargates)
-				.mapToObj(stargate -> cache.stargates(stargate)).toArray(ObsObjHolder[]::new);
+		ObjHolder<R_get_universe_stargates_stargate_id>[] gates = IntStream.of(system.stargates)
+				.mapToObj(stargate -> cache.stargates(stargate)).toArray(ObjHolder[]::new);
 		for (int i = 0; i < gates.length; i++) {
 			for (int j = i + 1; j < gates.length; j++) {
 				double distance = distance(gates[i].get().position, gates[j].get().position) / M_PER_AU;
@@ -371,14 +371,14 @@ public class Universe {
 	@SuppressWarnings("unchecked")
 	public double systemRadiusCelestials(R_get_universe_systems_system_id system) {
 		double maxdist = 0;
-		ObsObjHolder<R_get_universe_stargates_stargate_id>[] gates = new ObsObjHolder[0];
+		ObjHolder<R_get_universe_stargates_stargate_id>[] gates = new ObjHolder[0];
 		if (system.stargates != null) {
 			gates = IntStream.of(system.stargates).mapToObj(stargate -> cache.stargates(stargate))
-					.toArray(ObsObjHolder[]::new);
+					.toArray(ObjHolder[]::new);
 		}
-		ObsObjHolder<R_get_universe_planets_planet_id>[] planets = new ObsObjHolder[0];
+		ObjHolder<R_get_universe_planets_planet_id>[] planets = new ObjHolder[0];
 		if (system.planets != null) {
-			planets = Stream.of(system.planets).map(planet -> cache.planets(planet.planet_id)).toArray(ObsObjHolder[]::new);
+			planets = Stream.of(system.planets).map(planet -> cache.planets(planet.planet_id)).toArray(ObjHolder[]::new);
 		}
 		M_3_xnumber_ynumber_znumber[] positions = Stream
 				.concat(Stream.of(gates).map(gate -> gate.get().position), Stream.of(planets).map(plan -> plan.get().position))
@@ -394,10 +394,10 @@ public class Universe {
 		return maxdist;
 	}
 
-	private HashMap<Integer, ObsListHolder<R_get_universe_systems_system_id>> cachedAdjacentSystems = new HashMap<>();
+	private HashMap<Integer, ListHolder<R_get_universe_systems_system_id>> cachedAdjacentSystems = new HashMap<>();
 
-	public ObsListHolder<R_get_universe_systems_system_id> getAdjacentSystems(int systemId) {
-		ObsListHolder<R_get_universe_systems_system_id> ret = cachedAdjacentSystems.get(systemId);
+	public ListHolder<R_get_universe_systems_system_id> getAdjacentSystems(int systemId) {
+		ListHolder<R_get_universe_systems_system_id> ret = cachedAdjacentSystems.get(systemId);
 		if (ret == null) {
 			synchronized (cachedAdjacentSystems) {
 				ret = cachedAdjacentSystems.get(systemId);
@@ -424,6 +424,6 @@ public class Universe {
 	// factions
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_universe_factions> factionsByID = cache.factions().toMap(f -> f.faction_id);
+	private final MapHolder<Integer, R_get_universe_factions> factionsByID = cache.factions().toMap(f -> f.faction_id);
 
 }

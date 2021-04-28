@@ -31,9 +31,9 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_ch
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_characters_character_id_assets_location_type;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_type;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.Accessors;
@@ -84,7 +84,7 @@ public class Assets {
 	 * @return the raw cached observable list of assets for this character, from
 	 *         ESI.
 	 */
-	public ObsListHolder<R_get_characters_character_id_assets> getList() {
+	public ListHolder<R_get_characters_character_id_assets> getList() {
 		// caching is already present at the cache level.
 		return con.connection().cache().characters.assets(con.characterId());
 	}
@@ -235,7 +235,7 @@ public class Assets {
 	}
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<ItemForest> forest = getList().map(this::grow);
+	private final ObjHolder<ItemForest> forest = getList().map(this::grow);
 
 	/**
 	 * get the available map of assets locations to assets id to assets quantity.
@@ -244,7 +244,7 @@ public class Assets {
 	 *
 	 */
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, Map<Integer, Long>> available = getList().mapMap(l -> availableAssetsByLocation(l));
+	private final MapHolder<Long, Map<Integer, Long>> available = getList().mapMap(l -> availableAssetsByLocation(l));
 
 	private static final HashSet<get_characters_character_id_assets_location_flag> availableAssetsFlags = new HashSet<>(
 			Arrays.asList(AutoFit, Deliveries, Hangar, HangarAll, Locked, ShipHangar, Unlocked));

@@ -38,9 +38,9 @@ import fr.guiguilechat.jcelechat.jcesi.tools.locations.Location;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_post_assets_names_2;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_assets;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_assets_location_flag;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import lombok.Getter;
 
 public class Assets {
@@ -88,8 +88,8 @@ public class Assets {
 	}
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_corporations_corporation_id_assets> list = con.connection().cache().corporations
-			.assets(con.corporation.getId());
+	private final ListHolder<R_get_corporations_corporation_id_assets> list = con.connection().cache().corporations
+	.assets(con.corporation.getId());
 
 	protected ItemForest grow(List<R_get_corporations_corporation_id_assets> assets) {
 		ItemForest ret = new ItemForest();
@@ -114,10 +114,10 @@ public class Assets {
 	}
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<ItemForest> forest = getList().map(this::grow);
+	private final ObjHolder<ItemForest> forest = getList().map(this::grow);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, Map<Integer, Long>> available = getList().mapMap(l -> availableAssetsByLocation(l));
+	private final MapHolder<Long, Map<Integer, Long>> available = getList().mapMap(l -> availableAssetsByLocation(l));
 
 	private static final HashSet<get_corporations_corporation_id_assets_location_flag> availableAssetsFlags = new HashSet<>(
 			Arrays.asList(AutoFit, CorpDeliveries, CorpSAG1, CorpSAG2, CorpSAG3, CorpSAG4, CorpSAG5, CorpSAG6, CorpSAG7,

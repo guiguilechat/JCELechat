@@ -5,13 +5,13 @@ import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_12_String_int;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_killmails_killmail_id_killmail_hash;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Killmails {
     public final SwaggerDCCache<?> cache;
-    private final Map<K_12_String_int, ObsObjHolderSimple<R_get_killmails_killmail_id_killmail_hash>> get_killmails_killmail_id_killmail_hash_holder = new HashMap<>();
+    private final Map<K_12_String_int, ObjHolderSimple<R_get_killmails_killmail_id_killmail_hash>> get_killmails_killmail_id_killmail_hash_holder = new HashMap<>();
 
     public Killmails(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -27,9 +27,9 @@ public class Killmails {
      * @param killmail_id
      *     The killmail ID to be queried
      */
-    public ObsObjHolder<R_get_killmails_killmail_id_killmail_hash> get(String killmail_hash, int killmail_id) {
+    public ObjHolder<R_get_killmails_killmail_id_killmail_hash> get(String killmail_hash, int killmail_id) {
         K_12_String_int param = new K_12_String_int(killmail_hash, killmail_id);
-        ObsObjHolderSimple<R_get_killmails_killmail_id_killmail_hash> ret = get_killmails_killmail_id_killmail_hash_holder.get(param);
+        ObjHolderSimple<R_get_killmails_killmail_id_killmail_hash> ret = get_killmails_killmail_id_killmail_hash_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_killmails_killmail_id_killmail_hash_holder);
             try {
@@ -39,8 +39,8 @@ public class Killmails {
                     {
                         ret = get_killmails_killmail_id_killmail_hash_holder.get(param);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_killmails_killmail_id_killmail_hash>();
-                            ObsObjHolderSimple<R_get_killmails_killmail_id_killmail_hash> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_killmails_killmail_id_killmail_hash>();
+                            ObjHolderSimple<R_get_killmails_killmail_id_killmail_hash> finalRet = ret;
                             get_killmails_killmail_id_killmail_hash_holder.put(param, ret);
                             (cache).addFetchCacheObject("get_killmails_killmail_id_killmail_hash", properties -> (cache.swagger).get_killmails(killmail_hash, killmail_id, properties), item -> finalRet.set(item));
                         }

@@ -4,9 +4,9 @@ import fr.guiguilechat.jcelechat.jcesi.connected.modeled.ESIAccount;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.M_get_journal_13;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_characters_character_id_wallet_transactions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.get_corporations_corporation_id_wallets_division_journal_ref_type;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Wallet {
@@ -18,11 +18,11 @@ public class Wallet {
 	}
 
 	/** get total isk balance */
-	public ObsObjHolder<Double> get() {
+	public ObjHolder<Double> get() {
 		return con.connection().cache().characters.wallet(con.characterId());
 	}
 
-	private ObsMapHolder<String, R_get_characters_character_id_wallet_transactions> transactions;
+	private MapHolder<String, R_get_characters_character_id_wallet_transactions> transactions;
 
 	/**
 	 * get wallet history.<br />
@@ -30,7 +30,7 @@ public class Wallet {
 	 * character wallets, with same id. so we concatenate char id with transaction
 	 * id.
 	 */
-	public ObsMapHolder<String, R_get_characters_character_id_wallet_transactions> getTransactions() {
+	public MapHolder<String, R_get_characters_character_id_wallet_transactions> getTransactions() {
 		if (transactions == null) {
 			LockWatchDog.BARKER.syncExecute(this, () -> {
 				if (transactions == null) {
@@ -46,19 +46,19 @@ public class Wallet {
 	 *
 	 * @return the observable list of transactions for this character
 	 */
-	public ObsListHolder<R_get_characters_character_id_wallet_transactions> getTransactionsList() {
+	public ListHolder<R_get_characters_character_id_wallet_transactions> getTransactionsList() {
 		return con.connection().cache().characters.wallet_transactions(con.characterId(), null);
 	}
 
-	public ObsListHolder<M_get_journal_13> getJournal() {
+	public ListHolder<M_get_journal_13> getJournal() {
 		return con.connection().cache().characters.wallet_journal(con.characterId());
 	}
 
-	private ObsListHolder<M_get_journal_13> pveJournal = null;
+	private ListHolder<M_get_journal_13> pveJournal = null;
 
-	public ObsListHolder<M_get_journal_13> getPVEJournal() {
+	public ListHolder<M_get_journal_13> getPVEJournal() {
 		if (pveJournal == null) {
-			ObsListHolder<M_get_journal_13> journal = getJournal();
+			ListHolder<M_get_journal_13> journal = getJournal();
 			LockWatchDog.BARKER.syncExecute(journal, () -> {
 				if (pveJournal == null) {
 					pveJournal = journal

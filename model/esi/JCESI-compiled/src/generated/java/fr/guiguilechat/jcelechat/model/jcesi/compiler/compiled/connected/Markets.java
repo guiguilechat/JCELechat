@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerCOCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_structures_structure_id;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Markets {
     public final SwaggerCOCache<?> cache;
-    private final Map<Long, ObsListHolderImpl<R_get_markets_structures_structure_id>> get_markets_structures_structure_id_holder = new HashMap<>();
+    private final Map<Long, ListHolderImpl<R_get_markets_structures_structure_id>> get_markets_structures_structure_id_holder = new HashMap<>();
 
     public Markets(SwaggerCOCache<?> parent) {
         cache = parent;
@@ -24,8 +24,8 @@ public class Markets {
      * @param structure_id
      *     Return orders in this structure
      */
-    public ObsListHolder<R_get_markets_structures_structure_id> structures(long structure_id) {
-        ObsListHolderImpl<R_get_markets_structures_structure_id> ret = get_markets_structures_structure_id_holder.get(structure_id);
+    public ListHolder<R_get_markets_structures_structure_id> structures(long structure_id) {
+        ListHolderImpl<R_get_markets_structures_structure_id> ret = get_markets_structures_structure_id_holder.get(structure_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_structures_structure_id_holder);
             try {
@@ -35,9 +35,9 @@ public class Markets {
                     {
                         ret = get_markets_structures_structure_id_holder.get(structure_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_markets_structures_structure_id>();
+                            ret = new ListHolderImpl<R_get_markets_structures_structure_id>();
                             get_markets_structures_structure_id_holder.put(structure_id, ret);
-                            ObsListHolderImpl<R_get_markets_structures_structure_id> finalRet = ret;
+                            ListHolderImpl<R_get_markets_structures_structure_id> finalRet = ret;
                             (cache).addFetchCacheArray("get_markets_structures_structure_id", (page, properties) -> (cache.swagger).get_markets_structures(page, structure_id, properties), arr -> finalRet.set(arr));
                         }
                     }

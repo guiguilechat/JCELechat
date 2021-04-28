@@ -9,15 +9,15 @@ import java.util.stream.IntStream;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.ESIAccess;
 import fr.guiguilechat.jcelechat.jcesi.disconnected.modeled.market.RegionalMarket;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_types_type_id;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
 
 public class VolumicPrice {
 
 	public static class TypeData {
 
 		public final R_get_universe_types_type_id type;
-		public final ObsDoubleHolder buyPrice;
-		public final ObsDoubleHolder volPrice;
+		public final DoubleHolder buyPrice;
+		public final DoubleHolder volPrice;
 
 		public TypeData(R_get_universe_types_type_id t, RegionalMarket market) {
 			type = t;

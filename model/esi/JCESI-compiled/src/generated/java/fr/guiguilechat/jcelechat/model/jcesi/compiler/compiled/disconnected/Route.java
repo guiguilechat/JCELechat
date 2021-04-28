@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.SwaggerDCCache;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_15_flag_int_int_Lint_LLint;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Route {
     public final SwaggerDCCache<?> cache;
-    private final Map<K_15_flag_int_int_Lint_LLint, ObsListHolderImpl<Integer>> get_route_origin_destination_holder = new HashMap<>();
+    private final Map<K_15_flag_int_int_Lint_LLint, ListHolderImpl<Integer>> get_route_origin_destination_holder = new HashMap<>();
 
     public Route(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -32,13 +32,13 @@ public class Route {
      * @param origin
      *     origin solar system ID
      */
-    public ObsListHolder<Integer> get(int[] avoid,
+    public ListHolder<Integer> get(int[] avoid,
         int[][] connections,
         int destination,
         fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag flag,
         int origin) {
         K_15_flag_int_int_Lint_LLint param = new K_15_flag_int_int_Lint_LLint(flag, origin, destination, avoid, connections);
-        ObsListHolderImpl<Integer> ret = get_route_origin_destination_holder.get(param);
+        ListHolderImpl<Integer> ret = get_route_origin_destination_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_route_origin_destination_holder);
             try {
@@ -48,9 +48,9 @@ public class Route {
                     {
                         ret = get_route_origin_destination_holder.get(param);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<Integer>();
+                            ret = new ListHolderImpl<Integer>();
                             get_route_origin_destination_holder.put(param, ret);
-                            ObsListHolderImpl<Integer> finalRet = ret;
+                            ListHolderImpl<Integer> finalRet = ret;
                             (cache).addFetchCacheArray("get_route_origin_destination", (page, properties) -> (cache.swagger).get_route(avoid, connections, destination, flag, origin, properties), arr -> finalRet.set(arr));
                         }
                     }

@@ -9,20 +9,20 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_prices;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_history;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_markets_region_id_orders;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Markets {
     public final SwaggerDCCache<?> cache;
-    private ObsListHolderImpl<Integer> get_markets_groups_holder;
-    private final Map<Integer, ObsObjHolderSimple<R_get_markets_groups_market_group_id>> get_markets_groups_market_group_id_holder = new HashMap<>();
-    private ObsListHolderImpl<R_get_markets_prices> get_markets_prices_holder;
-    private final Map<K_13_int_int, ObsListHolderImpl<R_get_markets_region_id_history>> get_markets_region_id_history_holder = new HashMap<>();
-    private final Map<K_14_Integer_int_order_type, ObsListHolderImpl<R_get_markets_region_id_orders>> get_markets_region_id_orders_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<Integer>> get_markets_region_id_types_holder = new HashMap<>();
+    private ListHolderImpl<Integer> get_markets_groups_holder;
+    private final Map<Integer, ObjHolderSimple<R_get_markets_groups_market_group_id>> get_markets_groups_market_group_id_holder = new HashMap<>();
+    private ListHolderImpl<R_get_markets_prices> get_markets_prices_holder;
+    private final Map<K_13_int_int, ListHolderImpl<R_get_markets_region_id_history>> get_markets_region_id_history_holder = new HashMap<>();
+    private final Map<K_14_Integer_int_order_type, ListHolderImpl<R_get_markets_region_id_orders>> get_markets_region_id_orders_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<Integer>> get_markets_region_id_types_holder = new HashMap<>();
 
     public Markets(SwaggerDCCache<?> parent) {
         cache = parent;
@@ -33,7 +33,7 @@ public class Markets {
      * 
      * cache over {@link Swagger#get_markets_groups}<br />
      */
-    public ObsListHolder<Integer> groups() {
+    public ListHolder<Integer> groups() {
         if (get_markets_groups_holder == null) {
             LockWatchDog.BARKER.tak(this);
             try {
@@ -42,7 +42,7 @@ public class Markets {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_markets_groups_holder == null) {
-                            get_markets_groups_holder = new ObsListHolderImpl<Integer>();
+                            get_markets_groups_holder = new ListHolderImpl<Integer>();
                             (cache).addFetchCacheArray("get_markets_groups", (page, properties) -> (cache.swagger).get_markets_groups(properties), arr -> get_markets_groups_holder.set(arr));
                         }
                     }
@@ -63,8 +63,8 @@ public class Markets {
      * @param market_group_id
      *     An Eve item group ID
      */
-    public ObsObjHolder<R_get_markets_groups_market_group_id> groups(int market_group_id) {
-        ObsObjHolderSimple<R_get_markets_groups_market_group_id> ret = get_markets_groups_market_group_id_holder.get(market_group_id);
+    public ObjHolder<R_get_markets_groups_market_group_id> groups(int market_group_id) {
+        ObjHolderSimple<R_get_markets_groups_market_group_id> ret = get_markets_groups_market_group_id_holder.get(market_group_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_groups_market_group_id_holder);
             try {
@@ -74,8 +74,8 @@ public class Markets {
                     {
                         ret = get_markets_groups_market_group_id_holder.get(market_group_id);
                         if (ret == null) {
-                            ret = new ObsObjHolderSimple<R_get_markets_groups_market_group_id>();
-                            ObsObjHolderSimple<R_get_markets_groups_market_group_id> finalRet = ret;
+                            ret = new ObjHolderSimple<R_get_markets_groups_market_group_id>();
+                            ObjHolderSimple<R_get_markets_groups_market_group_id> finalRet = ret;
                             get_markets_groups_market_group_id_holder.put(market_group_id, ret);
                             (cache).addFetchCacheObject("get_markets_groups_market_group_id", properties -> (cache.swagger).get_markets_groups(market_group_id, properties), item -> finalRet.set(item));
                         }
@@ -99,9 +99,9 @@ public class Markets {
      * @param type_id
      *     Return statistics for this type
      */
-    public ObsListHolder<R_get_markets_region_id_history> history(int region_id, int type_id) {
+    public ListHolder<R_get_markets_region_id_history> history(int region_id, int type_id) {
         K_13_int_int param = new K_13_int_int(type_id, region_id);
-        ObsListHolderImpl<R_get_markets_region_id_history> ret = get_markets_region_id_history_holder.get(param);
+        ListHolderImpl<R_get_markets_region_id_history> ret = get_markets_region_id_history_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_region_id_history_holder);
             try {
@@ -111,9 +111,9 @@ public class Markets {
                     {
                         ret = get_markets_region_id_history_holder.get(param);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_markets_region_id_history>();
+                            ret = new ListHolderImpl<R_get_markets_region_id_history>();
                             get_markets_region_id_history_holder.put(param, ret);
-                            ObsListHolderImpl<R_get_markets_region_id_history> finalRet = ret;
+                            ListHolderImpl<R_get_markets_region_id_history> finalRet = ret;
                             (cache).addFetchCacheArray("get_markets_region_id_history", (page, properties) -> (cache.swagger).get_markets_history(region_id, type_id, properties), arr -> finalRet.set(arr));
                         }
                     }
@@ -138,9 +138,9 @@ public class Markets {
      * @param type_id
      *     Return orders only for this type
      */
-    public ObsListHolder<R_get_markets_region_id_orders> orders(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type order_type, int region_id, Integer type_id) {
+    public ListHolder<R_get_markets_region_id_orders> orders(fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type order_type, int region_id, Integer type_id) {
         K_14_Integer_int_order_type param = new K_14_Integer_int_order_type(type_id, region_id, order_type);
-        ObsListHolderImpl<R_get_markets_region_id_orders> ret = get_markets_region_id_orders_holder.get(param);
+        ListHolderImpl<R_get_markets_region_id_orders> ret = get_markets_region_id_orders_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_region_id_orders_holder);
             try {
@@ -150,9 +150,9 @@ public class Markets {
                     {
                         ret = get_markets_region_id_orders_holder.get(param);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_markets_region_id_orders>();
+                            ret = new ListHolderImpl<R_get_markets_region_id_orders>();
                             get_markets_region_id_orders_holder.put(param, ret);
-                            ObsListHolderImpl<R_get_markets_region_id_orders> finalRet = ret;
+                            ListHolderImpl<R_get_markets_region_id_orders> finalRet = ret;
                             (cache).addFetchCacheArray("get_markets_region_id_orders", (page, properties) -> (cache.swagger).get_markets_orders(order_type, page, region_id, type_id, properties), arr -> finalRet.set(arr));
                         }
                     }
@@ -170,7 +170,7 @@ public class Markets {
      * 
      * cache over {@link Swagger#get_markets_prices}<br />
      */
-    public ObsListHolder<R_get_markets_prices> prices() {
+    public ListHolder<R_get_markets_prices> prices() {
         if (get_markets_prices_holder == null) {
             LockWatchDog.BARKER.tak(this);
             try {
@@ -179,7 +179,7 @@ public class Markets {
                     LockWatchDog.BARKER.hld(this);
                     {
                         if (get_markets_prices_holder == null) {
-                            get_markets_prices_holder = new ObsListHolderImpl<R_get_markets_prices>();
+                            get_markets_prices_holder = new ListHolderImpl<R_get_markets_prices>();
                             (cache).addFetchCacheArray("get_markets_prices", (page, properties) -> (cache.swagger).get_markets_prices(properties), arr -> get_markets_prices_holder.set(arr));
                         }
                     }
@@ -200,8 +200,8 @@ public class Markets {
      * @param region_id
      *     Return statistics in this region
      */
-    public ObsListHolder<Integer> types(int region_id) {
-        ObsListHolderImpl<Integer> ret = get_markets_region_id_types_holder.get(region_id);
+    public ListHolder<Integer> types(int region_id) {
+        ListHolderImpl<Integer> ret = get_markets_region_id_types_holder.get(region_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_markets_region_id_types_holder);
             try {
@@ -211,9 +211,9 @@ public class Markets {
                     {
                         ret = get_markets_region_id_types_holder.get(region_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<Integer>();
+                            ret = new ListHolderImpl<Integer>();
                             get_markets_region_id_types_holder.put(region_id, ret);
-                            ObsListHolderImpl<Integer> finalRet = ret;
+                            ListHolderImpl<Integer> finalRet = ret;
                             (cache).addFetchCacheArray("get_markets_region_id_types", (page, properties) -> (cache.swagger).get_markets_types(page, region_id, properties), arr -> finalRet.set(arr));
                         }
                     }

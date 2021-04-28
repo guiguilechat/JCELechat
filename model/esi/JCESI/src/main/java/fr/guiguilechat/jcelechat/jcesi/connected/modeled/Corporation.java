@@ -24,12 +24,12 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_c
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_structures;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporations_corporation_id_titles;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_wars_war_id;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsBoolHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsDoubleHolder;
-import fr.lelouet.collectionholders.interfaces.numbers.ObsIntHolder;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.BoolHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.DoubleHolder;
+import fr.lelouet.tools.holders.interfaces.numbers.IntHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import lombok.Getter;
 import lombok.experimental.Accessors;
@@ -62,7 +62,7 @@ public class Corporation {
 	// informations
 
 	@Getter(lazy=true)
-	private final ObsObjHolder<R_get_corporations_corporation_id> informations = ESIStatic.INSTANCE.cache().corporations
+	private final ObjHolder<R_get_corporations_corporation_id> informations = ESIStatic.INSTANCE.cache().corporations
 	.get(getId());
 
 	public String getName() {
@@ -71,19 +71,19 @@ public class Corporation {
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsBoolHolder isWarEligible = getInformations().test(info -> info.war_eligible);
+	private final BoolHolder isWarEligible = getInformations().test(info -> info.war_eligible);
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsIntHolder memberCount = getInformations().mapInt(info -> info.member_count);
+	private final IntHolder memberCount = getInformations().mapInt(info -> info.member_count);
 
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
-	private final ObsDoubleHolder taxRate = getInformations().mapDouble(info -> info.tax_rate);
+	private final DoubleHolder taxRate = getInformations().mapDouble(info -> info.tax_rate);
 
 	// divisions
 
-	public ObsObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
+	public ObjHolder<R_get_corporations_corporation_id_divisions> getDivisions() {
 		return con.connection().cache().corporations.divisions(getId());
 	}
 
@@ -98,20 +98,20 @@ public class Corporation {
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, R_get_corporations_corporation_id_structures> structures = con.connection()
+	private final MapHolder<Long, R_get_corporations_corporation_id_structures> structures = con.connection()
 	.cache().corporations.structures(getId()).toMap(str -> str.structure_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, R_get_corporations_corporation_id_facilities> facilities = con.connection()
+	private final MapHolder<Long, R_get_corporations_corporation_id_facilities> facilities = con.connection()
 	.cache().corporations.facilities(getId()).toMap(str -> str.facility_id);
 
 	//
 	// journal
 	//
 
-	private Map<Integer, ObsMapHolder<Long, M_get_journal_13>> cachedJournals = new HashMap<>();
+	private Map<Integer, MapHolder<Long, M_get_journal_13>> cachedJournals = new HashMap<>();
 
-	public ObsMapHolder<Long, M_get_journal_13> getJournal(int division_id) {
+	public MapHolder<Long, M_get_journal_13> getJournal(int division_id) {
 		if (cachedJournals.get(division_id) == null) {
 			LockWatchDog.BARKER.syncExecute(cachedJournals, () -> {
 				if (cachedJournals.get(division_id) == null) {
@@ -128,16 +128,16 @@ public class Corporation {
 	//
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, M_get_standings_3> standings = con.connection().cache().corporations
+	private final MapHolder<Integer, M_get_standings_3> standings = con.connection().cache().corporations
 	.standings(getId())
 	.toMap(std -> std.from_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_contacts> contacts = con.connection()
-			.cache().corporations.contacts(getId()).toMap(contact -> contact.contact_id);
+	private final MapHolder<Integer, R_get_corporations_corporation_id_contacts> contacts = con.connection()
+	.cache().corporations.contacts(getId()).toMap(contact -> contact.contact_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Object, Object> contactsLabels = con.connection().cache().corporations
+	private final MapHolder<Object, Object> contactsLabels = con.connection().cache().corporations
 	.contacts_labels(getId())
 	.toMap(l -> l.label_id, l -> l.label_name);
 
@@ -147,33 +147,33 @@ public class Corporation {
 	//
 
 	@Getter(lazy = true)
-	private final ObsListHolder<Integer> members = con.connection().cache().corporations.members(getId());
+	private final ListHolder<Integer> members = con.connection().cache().corporations.members(getId());
 
 	@Getter(lazy = true)
-	private final ObsObjHolder<Integer> membersLimit = con.connection().cache().corporations.members_limit(getId());
+	private final ObjHolder<Integer> membersLimit = con.connection().cache().corporations.members_limit(getId());
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, int[]> membersTitles = con.connection().cache().corporations
+	private final MapHolder<Integer, int[]> membersTitles = con.connection().cache().corporations
 	.members_titles(getId())
 	.toMap(title -> title.character_id, title -> title.titles);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_titles> titles = con.connection()
+	private final MapHolder<Integer, R_get_corporations_corporation_id_titles> titles = con.connection()
 	.cache().corporations
 	.titles(getId()).toMap(title -> title.title_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_membertracking> memberstracking = con
-			.connection()
+	private final MapHolder<Integer, R_get_corporations_corporation_id_membertracking> memberstracking = con
+	.connection()
 	.cache().corporations.membertracking(getId()).toMap(track -> track.character_id);
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, R_get_corporations_corporation_id_roles> roles = con.connection()
+	private final MapHolder<Integer, R_get_corporations_corporation_id_roles> roles = con.connection()
 	.cache().corporations
 	.roles(getId()).toMap(roles -> roles.character_id);
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_corporations_corporation_id_roles_history> rolesHistory = con.connection()
+	private final ListHolder<R_get_corporations_corporation_id_roles_history> rolesHistory = con.connection()
 	.cache().corporations.roles_history(getId());
 
 
@@ -187,7 +187,7 @@ public class Corporation {
 	 * for which this corporation is either aggressor or defender.
 	 */
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_wars_war_id> monthWars = ESIAccess.INSTANCE.wars.getMonthWars()
+	private final ListHolder<R_get_wars_war_id> monthWars = ESIAccess.INSTANCE.wars.getMonthWars()
 	.filter(war -> war.aggressor.corporation_id == getId() || war.defender.corporation_id == getId());
 
 	/**
@@ -196,7 +196,7 @@ public class Corporation {
 	 * for which this corporation is either aggressor or defender.
 	 */
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_wars_war_id> allWars = ESIAccess.INSTANCE.wars.getAllWars()
+	private final ListHolder<R_get_wars_war_id> allWars = ESIAccess.INSTANCE.wars.getAllWars()
 	.filter(war -> war.aggressor.corporation_id == getId() || war.defender.corporation_id == getId());
 
 }

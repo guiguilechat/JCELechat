@@ -18,8 +18,8 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_m
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_universe_regions_region_id;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.flag;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.structures.order_type;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import lombok.Getter;
 
@@ -36,12 +36,12 @@ public class RegionalMarket implements IPricing {
 	}
 
 	@Getter(lazy = true)
-	private final ObsListHolder<R_get_markets_region_id_orders> orders = cache.markets.orders(order_type.all, regionID,
+	private final ListHolder<R_get_markets_region_id_orders> orders = cache.markets.orders(order_type.all, regionID,
 			null);
 
 	@Getter(lazy=true)
-	private final ObsMapHolder<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID = getOrders()
-	.mapMap(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
+	private final MapHolder<Integer, List<R_get_markets_region_id_orders>> ordersByTypeID = getOrders()
+			.mapMap(l -> l.stream().collect(Collectors.groupingBy(order -> order.type_id)));
 
 	// orders
 

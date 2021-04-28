@@ -8,7 +8,7 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.G_IDCAccess;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_facilities;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_industry_systems_cost_indices;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import lombok.Getter;
 
 public class Industry {
@@ -23,7 +23,7 @@ public class Industry {
 	}
 
 	@Getter(lazy = true)
-	private final ObsMapHolder<Integer, IndustryIndices> systemIndices = ESIStatic.INSTANCE.cache().industry.systems()
+	private final MapHolder<Integer, IndustryIndices> systemIndices = ESIStatic.INSTANCE.cache().industry.systems()
 	.toMap(r -> r.solar_system_id, IndustryIndices::new);
 
 	/**
@@ -77,7 +77,7 @@ public class Industry {
 	 * all facilities in the game, by ids
 	 */
 	@Getter(lazy = true)
-	private final ObsMapHolder<Long, R_get_industry_facilities> facilities = ESIStatic.INSTANCE.cache().industry
+	private final MapHolder<Long, R_get_industry_facilities> facilities = ESIStatic.INSTANCE.cache().industry
 	.facilities().toMap(fac -> fac.facility_id);
 
 }

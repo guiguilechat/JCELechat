@@ -27,12 +27,12 @@ import com.helger.jcodemodel.JTryBlock;
 import com.helger.jcodemodel.JVar;
 
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.FetchTranslator.RETURNTYPE;
-import fr.lelouet.collectionholders.impl.ObsObjHolderSimple;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.impl.collections.ObsMapHolderImpl;
-import fr.lelouet.collectionholders.interfaces.ObsObjHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
-import fr.lelouet.collectionholders.interfaces.collections.ObsMapHolder;
+import fr.lelouet.tools.holders.impl.ObjHolderSimple;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.impl.collections.MapHolderImpl;
+import fr.lelouet.tools.holders.interfaces.ObjHolder;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
+import fr.lelouet.tools.holders.interfaces.collections.MapHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 import io.swagger.models.Operation;
 import io.swagger.models.parameters.Parameter;
@@ -112,16 +112,16 @@ public class CacheTranslator {
 		case NONE:
 			return;
 		case OBJECT:
-			cacheRetItf = cm.ref(ObsObjHolder.class).narrow(parent.resourceFlatType.boxify());
-			cacheRetType = cm.ref(ObsObjHolderSimple.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetItf = cm.ref(ObjHolder.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetType = cm.ref(ObjHolderSimple.class).narrow(parent.resourceFlatType.boxify());
 			break;
 		case LIST:
-			cacheRetItf = cm.ref(ObsListHolder.class).narrow(parent.resourceFlatType.boxify());
-			cacheRetType = cm.ref(ObsListHolderImpl.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetItf = cm.ref(ListHolder.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetType = cm.ref(ListHolderImpl.class).narrow(parent.resourceFlatType.boxify());
 			break;
 		case MAP:
-			cacheRetItf = cm.ref(ObsMapHolder.class).narrow(parent.resourceFlatType.boxify());
-			cacheRetType = cm.ref(ObsMapHolderImpl.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetItf = cm.ref(MapHolder.class).narrow(parent.resourceFlatType.boxify());
+			cacheRetType = cm.ref(MapHolderImpl.class).narrow(parent.resourceFlatType.boxify());
 			break;
 		default:
 			throw new UnsupportedOperationException("can't handle case " + parent.resourceStructure);

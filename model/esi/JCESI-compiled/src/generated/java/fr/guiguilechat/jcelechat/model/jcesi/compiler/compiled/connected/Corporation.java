@@ -7,15 +7,15 @@ import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.keys.K_7_int_long
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_extractions;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_observers;
 import fr.guiguilechat.jcelechat.model.jcesi.compiler.compiled.responses.R_get_corporation_corporation_id_mining_observers_observer_id;
-import fr.lelouet.collectionholders.impl.collections.ObsListHolderImpl;
-import fr.lelouet.collectionholders.interfaces.collections.ObsListHolder;
+import fr.lelouet.tools.holders.impl.collections.ListHolderImpl;
+import fr.lelouet.tools.holders.interfaces.collections.ListHolder;
 import fr.lelouet.tools.synchronization.LockWatchDog;
 
 public class Corporation {
     public final SwaggerCOCache<?> cache;
-    private final Map<Integer, ObsListHolderImpl<R_get_corporation_corporation_id_mining_extractions>> get_corporation_corporation_id_mining_extractions_holder = new HashMap<>();
-    private final Map<Integer, ObsListHolderImpl<R_get_corporation_corporation_id_mining_observers>> get_corporation_corporation_id_mining_observers_holder = new HashMap<>();
-    private final Map<K_7_int_long, ObsListHolderImpl<R_get_corporation_corporation_id_mining_observers_observer_id>> get_corporation_corporation_id_mining_observers_observer_id_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_corporation_corporation_id_mining_extractions>> get_corporation_corporation_id_mining_extractions_holder = new HashMap<>();
+    private final Map<Integer, ListHolderImpl<R_get_corporation_corporation_id_mining_observers>> get_corporation_corporation_id_mining_observers_holder = new HashMap<>();
+    private final Map<K_7_int_long, ListHolderImpl<R_get_corporation_corporation_id_mining_observers_observer_id>> get_corporation_corporation_id_mining_observers_observer_id_holder = new HashMap<>();
 
     public Corporation(SwaggerCOCache<?> parent) {
         cache = parent;
@@ -29,8 +29,8 @@ public class Corporation {
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public ObsListHolder<R_get_corporation_corporation_id_mining_extractions> mining_extractions(int corporation_id) {
-        ObsListHolderImpl<R_get_corporation_corporation_id_mining_extractions> ret = get_corporation_corporation_id_mining_extractions_holder.get(corporation_id);
+    public ListHolder<R_get_corporation_corporation_id_mining_extractions> mining_extractions(int corporation_id) {
+        ListHolderImpl<R_get_corporation_corporation_id_mining_extractions> ret = get_corporation_corporation_id_mining_extractions_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporation_corporation_id_mining_extractions_holder);
             try {
@@ -40,9 +40,9 @@ public class Corporation {
                     {
                         ret = get_corporation_corporation_id_mining_extractions_holder.get(corporation_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporation_corporation_id_mining_extractions>();
+                            ret = new ListHolderImpl<R_get_corporation_corporation_id_mining_extractions>();
                             get_corporation_corporation_id_mining_extractions_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporation_corporation_id_mining_extractions> finalRet = ret;
+                            ListHolderImpl<R_get_corporation_corporation_id_mining_extractions> finalRet = ret;
                             (cache).addFetchCacheArray("get_corporation_corporation_id_mining_extractions", (page, properties) -> (cache.swagger).get_corporation_mining_extractions(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Station_Manager"});
                         }
                     }
@@ -63,8 +63,8 @@ public class Corporation {
      * @param corporation_id
      *     An EVE corporation ID
      */
-    public ObsListHolder<R_get_corporation_corporation_id_mining_observers> mining_observers(int corporation_id) {
-        ObsListHolderImpl<R_get_corporation_corporation_id_mining_observers> ret = get_corporation_corporation_id_mining_observers_holder.get(corporation_id);
+    public ListHolder<R_get_corporation_corporation_id_mining_observers> mining_observers(int corporation_id) {
+        ListHolderImpl<R_get_corporation_corporation_id_mining_observers> ret = get_corporation_corporation_id_mining_observers_holder.get(corporation_id);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporation_corporation_id_mining_observers_holder);
             try {
@@ -74,9 +74,9 @@ public class Corporation {
                     {
                         ret = get_corporation_corporation_id_mining_observers_holder.get(corporation_id);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporation_corporation_id_mining_observers>();
+                            ret = new ListHolderImpl<R_get_corporation_corporation_id_mining_observers>();
                             get_corporation_corporation_id_mining_observers_holder.put(corporation_id, ret);
-                            ObsListHolderImpl<R_get_corporation_corporation_id_mining_observers> finalRet = ret;
+                            ListHolderImpl<R_get_corporation_corporation_id_mining_observers> finalRet = ret;
                             (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers", (page, properties) -> (cache.swagger).get_corporation_mining_observers(corporation_id, page, properties), arr -> finalRet.set(arr), new String[] {"Accountant"});
                         }
                     }
@@ -99,9 +99,9 @@ public class Corporation {
      * @param observer_id
      *     A mining observer id
      */
-    public ObsListHolder<R_get_corporation_corporation_id_mining_observers_observer_id> mining_observers(int corporation_id, long observer_id) {
+    public ListHolder<R_get_corporation_corporation_id_mining_observers_observer_id> mining_observers(int corporation_id, long observer_id) {
         K_7_int_long param = new K_7_int_long(corporation_id, observer_id);
-        ObsListHolderImpl<R_get_corporation_corporation_id_mining_observers_observer_id> ret = get_corporation_corporation_id_mining_observers_observer_id_holder.get(param);
+        ListHolderImpl<R_get_corporation_corporation_id_mining_observers_observer_id> ret = get_corporation_corporation_id_mining_observers_observer_id_holder.get(param);
         if (ret == null) {
             LockWatchDog.BARKER.tak(get_corporation_corporation_id_mining_observers_observer_id_holder);
             try {
@@ -111,9 +111,9 @@ public class Corporation {
                     {
                         ret = get_corporation_corporation_id_mining_observers_observer_id_holder.get(param);
                         if (ret == null) {
-                            ret = new ObsListHolderImpl<R_get_corporation_corporation_id_mining_observers_observer_id>();
+                            ret = new ListHolderImpl<R_get_corporation_corporation_id_mining_observers_observer_id>();
                             get_corporation_corporation_id_mining_observers_observer_id_holder.put(param, ret);
-                            ObsListHolderImpl<R_get_corporation_corporation_id_mining_observers_observer_id> finalRet = ret;
+                            ListHolderImpl<R_get_corporation_corporation_id_mining_observers_observer_id> finalRet = ret;
                             (cache).addFetchCacheArray("get_corporation_corporation_id_mining_observers_observer_id", (page, properties) -> (cache.swagger).get_corporation_mining_observers(corporation_id, observer_id, page, properties), arr -> finalRet.set(arr), new String[] {"Accountant"});
                         }
                     }
