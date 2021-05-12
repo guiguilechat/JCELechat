@@ -40,7 +40,7 @@ public class Skills {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final ListHolder<get_characters_character_id_skills_skills> list = con.connection().cache().characters
-	.skills(con.characterId()).toList(c -> Arrays.asList(c.skills));
+	.skills(con.characterId()).toListNullEmpty(c ->  Arrays.asList(c.skills));
 
 	/**
 	 * character skill ids to active level
@@ -78,13 +78,13 @@ public class Skills {
 				ret = new R_get_characters_character_id_skillqueue();
 			}
 			return ret;
-		});
+		}, null);
 	}
 
 	@Getter(lazy = true)
 	private final ObjHolder<R_get_universe_types_type_id> trainingSkill = getTraining()
 	.map(sk -> sk.skill_id == 0 ? new R_get_universe_types_type_id()
-			: ESIAccess.INSTANCE.universe.cache().types(sk.skill_id).get());
+			: ESIAccess.INSTANCE.universe.cache().types(sk.skill_id).get(), null);
 
 	/**
 	 * the acquisition rate, in SP/hour, for the current skill using estimated
@@ -100,7 +100,7 @@ public class Skills {
 		long deltaTime = ChronoUnit.MINUTES.between(start, end);
 		double ret = 60.0 * (sk.level_end_sp - sk.training_start_sp) / deltaTime;
 		return ret;
-	});
+	}, 0.0);
 
 	/**
 	 *
@@ -110,7 +110,7 @@ public class Skills {
 	@Getter(lazy = true)
 	@Accessors(fluent = true)
 	private final BoolHolder hasLimitedskill = list()
-	.test(l -> l.stream().filter(s -> s.active_skill_level != s.trained_skill_level).findAny().isPresent());;
+			.test(l -> l.stream().filter(s -> s.active_skill_level != s.trained_skill_level).findAny().isPresent(), false);
 
 
 }

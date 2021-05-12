@@ -51,6 +51,7 @@ public class Assets {
 
 	// get the names of specific assets
 	protected void name(Map<Long, ItemNode> items) {
+		int max_ids_per_search = 1000;
 		if (items == null || items.size() == 0) {
 			return;
 		}
@@ -58,7 +59,7 @@ public class Assets {
 		long[] ids = items.values().stream().filter(Assets::canName).mapToLong(item -> item.item_id).toArray();
 		int start = 0;
 		while (start < ids.length) {
-			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + 1000, ids.length));
+			long[] ids2 = Arrays.copyOfRange(ids, start, Math.min(start + max_ids_per_search, ids.length));
 			Requested<M_post_assets_names_2[]> names = con.connection().post_characters_assets_names(con.characterId(), ids2,
 					null);
 			while (names.isServerError()) {
@@ -69,7 +70,7 @@ public class Assets {
 			} else {
 				System.err.println(" error " + names.getError() + " response=" + names.getResponseCode());
 			}
-			start += 1000;
+			start += max_ids_per_search;
 		}
 
 		for (M_post_assets_names_2 item : ret) {
@@ -135,6 +136,7 @@ public class Assets {
 
 		public ItemNode withOptional(String optional) {
 			this.optional = optional;
+			// set to null to lazyly force recompute
 			name = null;
 			return this;
 		}
