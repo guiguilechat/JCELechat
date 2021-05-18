@@ -236,6 +236,9 @@ public class Assets {
 		return ret;
 	}
 
+	/**
+	 * get the holder on the forest of this character's assets
+	 */
 	@Getter(lazy = true)
 	private final ObjHolder<ItemForest> forest = getList().map(this::grow);
 
